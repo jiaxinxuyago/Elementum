@@ -1,0 +1,51 @@
+{
+  "$archetype": "水_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "水_伤官",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Silver-tongued"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Silver-tongued",
+            "doors": {
+              "outside": "People can repeat your phrasing even while arguing with the point it makes. In a meeting, a smooth sentence carries a challenge past the polite wording on the agenda. You make it easy to quote. The line can keep moving after you have stopped speaking, with its edge still there."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Silver-tongued",
+            "doors": {
+              "outside": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Silver-tongued"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[2]": "pass"
+  }
+}

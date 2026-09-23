@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.cta_verdict",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "cta_verdict",
+      "candidate": "You take time to make sense of what you learn, so decisions can stall when another explanation matters more than trying an answer.",
+      "original": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "cta_verdict",
+      "candidate": "You put effort where it can keep adding value, so work that allows steady improvement can suit you better than a string of fresh starts.",
+      "original": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "cta_verdict",
+      "candidate": "You express yourself through things others can use, so an ordinary conversation can become easier once you give your thought a clear form.",
+      "original": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "cta_verdict",
+      "candidate": "You gather your effort around clear demands, so work with an agreed standard can draw more from you than effort with nothing to answer to.",
+      "original": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "cta_verdict",
+      "candidate": "You hold effort past the point of need, so demanding work can follow you into the hours set aside for rest.",
+      "original": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill.",
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$archetype": "木_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_正财",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Cultivating",
+        "Compounding"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cultivating",
+            "doors": {
+              "trait": "You build value by caring for what is already yours to tend. A working draft gets a better ending, a useful skill gets another hour of practice. Nothing needs replacing yet. You stay with the part that can improve, and give slow progress something solid to grow from."
+            }
+          },
+          {
+            "word": "Compounding",
+            "doors": {
+              "scene": "At eight in the evening, you open the same practice file and work from yesterday's version. It is still useful. Each session adds to something you can keep, so a small stretch of effort can leave more behind than another search for the perfect starting point."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cultivating",
+            "doors": {
+              "trait": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+            }
+          },
+          {
+            "word": "Compounding",
+            "doors": {
+              "scene": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Cultivating",
+        "Compounding"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.catalyst_turn",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_水",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "Run thin, dew holds to the steel in drops too small to fall. Thought stays close to the edge. Say one unfinished thought aloud today.",
+      "original": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "Run thin, the forge lacks the heat to reshape the steel. Strength stays set in its own habits. Give one task a deadline someone else can check.",
+      "original": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+      "gate": "pass"
+    }
+  ]
+}

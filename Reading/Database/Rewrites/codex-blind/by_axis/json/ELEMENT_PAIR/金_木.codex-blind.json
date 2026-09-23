@@ -1,0 +1,49 @@
+{
+  "$archetype": "金_木",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_木",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal tames Wood. The knife sets a limit to the branch without ending the life that runs through it. Growth continues beyond the cut. A clean edge gives that growth a shape, working against the grain where it must, while the wood keeps the power to reach further."
+    },
+    "carry": {
+      "wide": {
+        "clause": "Wood is already here in plenty, with enough material to put the knife to work.",
+        "remedy": "Choose an existing project and carry it through to completion."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Action, and as a catalyst, it is effort that leaves something useful for the next attempt. Work builds skill, and regular care gives a project time to grow. You return to what you started. Each pass can add value that a fresh start would leave behind.",
+      "advise_catalyst": "You do not need a fresh beginning every time progress gets quiet. Keep a weekly note of what your current work has gained. Give one useful effort a regular place on the calendar. Check the result each month before adding another commitment. Write down the next small task."
+    },
+    "cta_verdict": "You put effort where it can keep adding value, so work that allows steady improvement can suit you better than a string of fresh starts."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare."
+    },
+    "carry": {
+      "wide": {
+        "clause": "Wood is already here in plenty, the material the knife is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
+      "advise_catalyst": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite."
+    },
+    "cta_verdict": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "carry.wide": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  }
+}

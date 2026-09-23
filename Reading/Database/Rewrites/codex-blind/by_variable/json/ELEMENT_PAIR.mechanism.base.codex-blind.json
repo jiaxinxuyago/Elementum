@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.base",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "mechanism.base",
+      "candidate": "Earth feeds Metal. Within the rock, moisture gathers around the ore, and the material of a blade takes form before there is any edge to see. The ore stays rough. What the forge can work is first held in the earth, where metal waits for the cut that will give it use.",
+      "original": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "mechanism.base",
+      "candidate": "Metal tames Wood. The knife sets a limit to the branch without ending the life that runs through it. Growth continues beyond the cut. A clean edge gives that growth a shape, working against the grain where it must, while the wood keeps the power to reach further.",
+      "original": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "mechanism.base",
+      "candidate": "Metal feeds Water in the old image of dew upon a cold blade. Moisture gathers along the steel until separate beads meet and a drop falls from the edge. The blade keeps its form. Along that hard surface, water finds a place to collect and a point from which to leave.",
+      "original": "In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "mechanism.base",
+      "candidate": "Fire tames Metal by bringing hard steel to the point where it can take a new shape. The forge heats the blade. What held against a blow while cold can yield under heat, and a changed shape can remain when the metal cools. The flame makes the steel workable without deciding the edge for it.",
+      "original": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "mechanism.base",
+      "candidate": "Metal meets its own kind in another blade. The same hardness answers back, and contact makes each edge plain against the other. Neither becomes a different material. Laid side by side, the blades keep their separate lines. Pressed together, they put the strength of the same steel against itself.",
+      "original": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
+      "gate": "pass"
+    }
+  ]
+}

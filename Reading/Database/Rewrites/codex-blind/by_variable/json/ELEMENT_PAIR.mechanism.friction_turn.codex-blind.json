@@ -1,0 +1,23 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.friction_turn",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "mechanism.friction_turn",
+      "candidate": "Run heavy, the edge stalls beside a growing heap of ore. More preparation keeps the work waiting. Test one idea before opening another book.",
+      "original": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "mechanism.friction_turn",
+      "candidate": "Run heavy, the blade presses against every edge it meets. Spare force turns small differences into contests. State your objection without trying to win.",
+      "original": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.",
+      "gate": "pass"
+    }
+  ]
+}

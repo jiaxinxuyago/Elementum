@@ -1,0 +1,52 @@
+{
+  "$archetype": "金_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_火",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Fire tames Metal by bringing hard steel to the point where it can take a new shape. The forge heats the blade. What held against a blow while cold can yield under heat, and a changed shape can remain when the metal cools. The flame makes the steel workable without deciding the edge for it.",
+      "catalyst_turn": "Run thin, the forge lacks the heat to reshape the steel. Strength stays set in its own habits. Give one task a deadline someone else can check."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The forge lacks the heat to reshape the steel.",
+        "remedy": "Give one task a deadline someone else can check."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is a demand that gives your strength a useful shape. A deadline makes a choice necessary, and a clear standard gives effort something to answer to. You know what is required. Pressure can gather your force around the task that matters.",
+      "advise_catalyst": "You can work well under pressure without making every task urgent. Choose a weekly promise that another person can check. Write down what counts as finished before starting. Review the result together at a set time. Put the next check on your calendar."
+    },
+    "cta_verdict": "You gather your effort around clear demands, so work with an agreed standard can draw more from you than effort with nothing to answer to."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+        "remedy": "Take the demanding role, the audit, the arena."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+      "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+    },
+    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  }
+}

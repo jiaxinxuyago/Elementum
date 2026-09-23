@@ -1,0 +1,52 @@
+{
+  "$archetype": "金_水",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_水",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal feeds Water in the old image of dew upon a cold blade. Moisture gathers along the steel until separate beads meet and a drop falls from the edge. The blade keeps its form. Along that hard surface, water finds a place to collect and a point from which to leave.",
+      "catalyst_turn": "Run thin, dew holds to the steel in drops too small to fall. Thought stays close to the edge. Say one unfinished thought aloud today."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "Dew holds to the steel in drops too small to fall.",
+        "remedy": "Say one unfinished thought aloud today."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Water is your Expression, and as a catalyst, it is thought made easy to share. Words give an idea a shape someone else can use, and a meal makes care something they can receive. The effort has somewhere to go. What you carry inside can become part of an ordinary exchange.",
+      "advise_catalyst": "You can have something worth sharing before you have a finished version. Keep a page for rough thoughts and add a line each evening. Once a week, read one to someone. Give a small piece of work a stopping time so it reaches them. Begin with the sentence already in your head."
+    },
+    "cta_verdict": "You express yourself through things others can use, so an ordinary conversation can become easier once you give your thought a clear form."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world.",
+      "catalyst_turn": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "This channel shows as pressure without release: much forged, little said.",
+        "remedy": "Writing, speaking, sharing work early lets the blade breathe."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry.",
+      "advise_catalyst": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one."
+    },
+    "cta_verdict": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  }
+}

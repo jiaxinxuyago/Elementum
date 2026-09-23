@@ -1,0 +1,23 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.advise_friction",
+      "candidate": "You can use understanding to postpone the risk of being seen trying. Set a stopping time for research each day. Keep a draft beside your notes and change it after each study session. Once a week, show someone the unfinished work. Start with a sentence.",
+      "original": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.advise_friction",
+      "candidate": "You can mistake the ability to keep pushing for a reason to continue. Give each task a stopping point before you begin. Leave a short break between commitments without filling it. In a disagreement, hear the other answer through. Let your next reply wait a breath.",
+      "original": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after.",
+      "gate": "pass"
+    }
+  ]
+}

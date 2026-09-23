@@ -1,0 +1,30 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_catalyst",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_木",
+      "field": "function.advise_catalyst",
+      "candidate": "You do not need a fresh beginning every time progress gets quiet. Keep a weekly note of what your current work has gained. Give one useful effort a regular place on the calendar. Check the result each month before adding another commitment. Write down the next small task.",
+      "original": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.advise_catalyst",
+      "candidate": "You can have something worth sharing before you have a finished version. Keep a page for rough thoughts and add a line each evening. Once a week, read one to someone. Give a small piece of work a stopping time so it reaches them. Begin with the sentence already in your head.",
+      "original": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.advise_catalyst",
+      "candidate": "You can work well under pressure without making every task urgent. Choose a weekly promise that another person can check. Write down what counts as finished before starting. Review the result together at a set time. Put the next check on your calendar.",
+      "original": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.",
+      "gate": "pass"
+    }
+  ]
+}

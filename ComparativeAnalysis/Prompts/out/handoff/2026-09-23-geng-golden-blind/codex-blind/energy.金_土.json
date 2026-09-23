@@ -1,0 +1,168 @@
+{
+ "_generated_by": "Codex (exact model name and version not exposed)",
+ "_handoff": "2026-09-23 geng golden blind",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/金_土 + ELEMENT_GOD/土_偏印",
+ "page": "The energy page of Earth (your Mind) for a Metal core, friction pole",
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_GOD.adj_chips.md",
+  "cards/ELEMENT_GOD.fn_reading.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 金_土. Core element Metal, energy element Earth. Law: Earth feeds Metal (土生金: ore grows in the mountain). Relative to the core the energy is the feeder, so Earth is this core's Mind.\n- mechanism.classic (the sourced epigraph): \"金居石依山，津潤而生\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: \"Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.\"\n- mechanism.friction_turn: [REDACTED: the target field]\n- function.definition_catalyst: \"Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet corners, long walks after hard conversations: whatever feeds it comes back later as judgment.\"\n- function.definition_friction: [REDACTED: the target field]\n- function.advise_catalyst: \"Deep minds underrate their own output, so build the habit of releasing some. Once a month, teach one thing you learned to one person, because explaining it is how you find out it is really yours. Keep one notebook instead of six. And say your slow answer out loud before someone faster says a worse one.\"\n- function.advise_friction: [REDACTED: the target field]\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: {\"clause\":\"The mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms.\",\"remedy\":\"Rest and study are smelting, not stalling.\"}\n- carry.friction: [REDACTED: the target field]\n- carry.wide: {\"clause\":\"You are well supplied with Earth, the ground the ore grows in.\",\"remedy\":\"Use what the ground gave you. Cut something.\"}\n- carry.missing: {\"clause\":\"No ground under the edge: judgment made on the spot, nothing settled in first.\",\"remedy\":\"Borrow ground: a mentor, a book, one slow evening.\"}\n- carry.spared: {\"clause\":\"Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in.\",\"remedy\":\"Keep it that way. Decide, then rest.\"}\n- carry.thin: {\"clause\":\"Earth runs thin and unwanted: a little shelter, easily left.\",\"remedy\":\"Leave it as it is, small.\"}\n- carry.excess: {\"clause\":\"Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.\",\"remedy\":\"Dig out. Less study, one real cut.\"}\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 金赖土生，土多金埋 (生之太过, the Mind door; 土多金埋 applies to 辛, 庚 reads 郁滞).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\n## CELL FACTS\n\nCell 土_偏印 (Earth carrying The Alchemist). Persona The Alchemist (偏印). Definition line: \"Unconventional nourishment, the insight that transmutes\". Keyword Insight, charge fierce, poles catalyst Vision / friction Distance. Family function: Mind. Cost dimension: nourishment that transmutes; fed on strange food, recipe unshareable. Arena: crucible, moon-side, distillation, the changed substance. Classical portrait: unorthodox absorption; solitary mastery; intake that starves output (枭神夺食). Ruled domains: Learning, Intuition, Solitude. Sibling (other polarity of the family): 正印.\nElement arena: Earth (ground, soil, load, field, bedrock, harvest). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Earth generating Metal same-polarity — stability as quiet source of precision\".\n- k2_overview: \"Your Earth carries the Alchemist’s current: nourishment that arrives as understanding rather than comfort. This is ground that reads before it feeds, soil that turns experience over slowly until it becomes insight. It shelters you the way a library shelters, quiet, stocked, slightly apart, and it asks one rent: time alone to do the turning.\"\n- k2_functional: \"Thinking runs deep and sideways. You digest slowly, connect strangely, and surface with conclusions no straight line could have reached.\"\n- adj_chips: {\"catalyst\":[\"Deep-reading\",\"Unhurried\",\"Inventive\"],\"friction\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Learning\":\"Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time. What you learn that way tends to outlast anything you learned for a grade.\",\"Intuition\":\"The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning.\",\"Solitude\":\"Time alone is this energy’s rent, and it collects whether you schedule it or not. Taken on purpose, solitude turns into your best material. Taken by accident, it curdles into distance from the people who were waiting outside the study.\"}\n- fn_reading.friction.ledger (three rows, index-aligned to adj_chips.friction; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1: [REDACTED: the target row]\n  - row 2: [REDACTED: the target row]\n- Sibling cell 土_正印 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Grounding\",\"Enduring\",\"Sustaining\"],\"friction\":[\"Closed-off\",\"Buried\",\"Unmoving\"]}\n- Sibling cell 土_正印 friction row 0 trait door, for contrast: \"Your mind trusts its home ground and quietly stopped traveling. The same three sources, the same trusted voices, the same conclusions wearing deeper into the same paths. New input has to marry into the family to be heard. The walls were comfort once. Now they are also the view.\"\n\nChart: golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5). Earth runs 33%: friction, abundant. The page shows the friction pole; its state line is the friction turn. Ledger rows shown: row 0 偏印 · trait door, row 1 偏印 · scene door, row 2 偏印 · outside door (one door per row, rotating trait · scene · outside).",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "person": "fully third person, no \"you\", no function claim, no persona"
+   },
+   "value": "Earth feeds Metal. Within the rock, moisture gathers around the ore, and the material of a blade takes form before there is any edge to see. The ore stays rough. What the forge can work is first held in the earth, where metal waits for the cut that will give it use."
+  },
+  "mechanism.friction_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "opener": "Run heavy,",
+    "notes": "the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone; the carry line below is cut from it"
+   },
+   "value": "Run heavy, the edge stalls beside a growing heap of ore. More preparation keeps the work waiting. Test one idea before opening another book."
+  },
+  "carry.friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.friction_turn",
+    "notes": "cut from the friction turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The edge stalls beside a growing heap of ore.",
+    "remedy": "Test one idea before opening another book."
+   }
+  },
+  "function.definition_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 20,
+    "max": 55,
+    "person": "second person",
+    "opener": "Earth is your Mind, and as a friction, it is",
+    "notes": "a concrete-life inventory of what the function does when it overgrows"
+   },
+   "value": "Earth is your Mind, and as a friction, it is preparation that keeps asking for more. Your notes get longer and your reading list fills up while the decision waits. You have plenty to draw from. Taking in another explanation becomes easier than putting your own work to the test."
+  },
+  "ledger[0]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "土_偏印",
+    "persona": "The Alchemist (偏印)",
+    "pole": "friction",
+    "row": 0,
+    "door": "trait",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "trait",
+     "notes": "opens on the trait claim: what this word IS for the person"
+    }
+   },
+   "value": {
+    "word": "Withdrawn",
+    "text": "Thinking alone becomes a way to keep unfinished ideas beyond anyone else's reach. At ten at night, you are still tracing an odd link through the notes while a friend's message waits. You leave it there. The private work keeps getting deeper, and harder to share."
+   }
+  },
+  "ledger[1]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "土_偏印",
+    "persona": "The Alchemist (偏印)",
+    "pole": "friction",
+    "row": 1,
+    "door": "scene",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "scene",
+     "notes": "opens inside a representative situation with ordinary objects and a clock time; the example is used, not displayed"
+    }
+   },
+   "value": {
+    "word": "Brooding",
+    "text": "At eleven at night, you turn back a page to check a small detail that changes how the whole book fits together. Then you check again. Thought keeps digging beneath its own answer, and the question that brought you to the desk gets no closer to a reply."
+   }
+  },
+  "ledger[2]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "土_偏印",
+    "persona": "The Alchemist (偏印)",
+    "pole": "friction",
+    "row": 2,
+    "door": "outside",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "outside",
+     "notes": "opens from how others see it and what it costs or pays"
+    }
+   },
+   "value": {
+    "word": "Overprepared",
+    "text": "Other people get another reading list when they ask to see what you are making. You have found a less familiar angle, and it needs more study before anyone can test it. The draft stays blank. They can discuss your sources with you, but there is still nothing to try."
+   }
+  },
+  "function.advise_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "notes": "one sentence naming the psychological truth under the state, then three or four small actions with objects and cadences, ending on the smallest; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "You can use understanding to postpone the risk of being seen trying. Set a stopping time for research each day. Keep a draft beside your notes and change it after each study session. Once a week, show someone the unfinished work. Start with a sentence."
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "person": "second person",
+    "notes": "explains \"Earth is your Mind\": a behavioural truth plus ONE tendency-framed consequence beat"
+   },
+   "value": "You take time to make sense of what you learn, so decisions can stall when another explanation matters more than trying an answer."
+  }
+ }
+}

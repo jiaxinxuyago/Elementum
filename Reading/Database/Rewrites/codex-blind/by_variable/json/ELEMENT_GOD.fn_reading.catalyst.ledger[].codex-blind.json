@@ -1,0 +1,162 @@
+{
+  "$variable": "ELEMENT_GOD.fn_reading.catalyst.ledger[]",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_正财",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Cultivating",
+        "text": "You build value by caring for what is already yours to tend. A working draft gets a better ending, a useful skill gets another hour of practice. Nothing needs replacing yet. You stay with the part that can improve, and give slow progress something solid to grow from."
+      },
+      "original": {
+        "word": "Cultivating",
+        "doors": {
+          "trait": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.",
+          "scene": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced.",
+          "outside": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Compounding",
+        "text": "At eight in the evening, you open the same practice file and work from yesterday's version. It is still useful. Each session adds to something you can keep, so a small stretch of effort can leave more behind than another search for the perfect starting point."
+      },
+      "original": {
+        "word": "Compounding",
+        "doors": {
+          "trait": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly.",
+          "scene": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from.",
+          "outside": "Watching you work is boring, and your results embarrass people who sprint. The deposits were too small to notice and too regular to stop, and somewhere along the way they became terrain. Friends who mocked the fifty a month now ask, carefully, how it got to this."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Wide-branching",
+        "text": "People working on different projects can find a useful link through you. A conversation about a shop becomes a use for a skill from somewhere else. You follow that possibility. Your reach can give separate efforts a shared purpose, though the work nearest you still needs its share of attention."
+      },
+      "original": {
+        "word": "Wide-branching",
+        "doors": {
+          "trait": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
+          "scene": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+          "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Fluent",
+        "text": "You find words by letting a thought run its course. A story told over tea takes shape as you speak, without a plan for making anyone agree. The words keep coming. Ease lets you offer what you know before the effort of performing gets in the way."
+      },
+      "original": {
+        "word": "Fluent",
+        "doors": {
+          "trait": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do.",
+          "scene": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+          "outside": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Nourishing",
+        "text": "At seven in the evening, a pot is on the stove while a friend talks through a difficult day. You stir and listen. A small meal gives the conversation an easy pace, and care takes a form that can be shared without asking anyone to explain what they need."
+      },
+      "original": {
+        "word": "Nourishing",
+        "doors": {
+          "trait": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Your output feeds: conversation, cooking, company, all of it lands as sustenance rather than display. Feeding people is simply the shape your talent takes, in every medium.",
+          "scene": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time.",
+          "outside": "Nobody leaves your table the way they arrived, and word of that travels. You are the number people call on the bad night, the kitchen they route the heartbroken friend toward. It is a strange kind of fame, warm and unlisted, and you earned it a bowl at a time."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Silver-tongued",
+        "text": "People can repeat your phrasing even while arguing with the point it makes. In a meeting, a smooth sentence carries a challenge past the polite wording on the agenda. You make it easy to quote. The line can keep moving after you have stopped speaking, with its edge still there."
+      },
+      "original": {
+        "word": "Silver-tongued",
+        "doors": {
+          "trait": "Words obey you the way water obeys gravity, finding every gap and pouring through beautifully. You talk people into things, out of things, and around things, and they enjoy the ride even when they can see the technique. Persuasion this smooth stopped being learned long ago. It flows.",
+          "scene": "The refund was against policy, the agent had said no twice, and four minutes into your version of events she was laughing and typing an exception. On the way out you tipped generously, which is your habit after winning. The technique pays its taxes.",
+          "outside": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Decisive",
+        "text": "Pressure makes the next necessary choice plain to you. When a plan breaks down, you can name what must happen before the rest can matter. The list gets shorter. Your attention gathers around the task at hand, though a clear choice still leaves you responsible for its cost."
+      },
+      "original": {
+        "word": "Decisive",
+        "doors": {
+          "trait": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
+          "scene": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+          "outside": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Daring",
+        "text": "At four in the afternoon, the meeting is stalled over a rough plan on the screen. You offer to try the part that has no proven answer. It is a small test. Taking responsibility gives your heat a purpose, even while the result remains uncertain and the usual instructions fall short."
+      },
+      "original": {
+        "word": "Daring",
+        "doors": {
+          "trait": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The feared thing shrinks on contact, every single time, and you have known that longer than most people have been avoiding their own versions of it.",
+          "scene": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes.",
+          "outside": "Teams keep a mental list of things nobody wants to do, and your name has drifted next to most of them. Colleagues call it bravery to your face and something more useful behind your back: proof that the scary version of a task rarely survives contact with someone unafraid of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Crisis-ready",
+        "text": "Others can turn to you when a shared plan fails and the next step needs someone to own it. You put names beside tasks and ask what can happen now. The list is short. The pressure gives you a clear role, which can make quieter days harder to settle into."
+      },
+      "original": {
+        "word": "Crisis-ready",
+        "doors": {
+          "trait": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners.",
+          "scene": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new hall, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
+          "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+        }
+      },
+      "gate": "pass"
+    }
+  ]
+}

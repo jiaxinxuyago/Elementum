@@ -1,0 +1,30 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_catalyst",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_木",
+      "field": "function.definition_catalyst",
+      "candidate": "Wood is your Action, and as a catalyst, it is effort that leaves something useful for the next attempt. Work builds skill, and regular care gives a project time to grow. You return to what you started. Each pass can add value that a fresh start would leave behind.",
+      "original": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.definition_catalyst",
+      "candidate": "Water is your Expression, and as a catalyst, it is thought made easy to share. Words give an idea a shape someone else can use, and a meal makes care something they can receive. The effort has somewhere to go. What you carry inside can become part of an ordinary exchange.",
+      "original": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.definition_catalyst",
+      "candidate": "Fire is your Order, and as a catalyst, it is a demand that gives your strength a useful shape. A deadline makes a choice necessary, and a clear standard gives effort something to answer to. You know what is required. Pressure can gather your force around the task that matters.",
+      "original": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+      "gate": "pass"
+    }
+  ]
+}

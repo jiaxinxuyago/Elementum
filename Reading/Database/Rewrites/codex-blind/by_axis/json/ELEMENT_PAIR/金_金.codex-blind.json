@@ -1,0 +1,52 @@
+{
+  "$archetype": "金_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_金",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal meets its own kind in another blade. The same hardness answers back, and contact makes each edge plain against the other. Neither becomes a different material. Laid side by side, the blades keep their separate lines. Pressed together, they put the strength of the same steel against itself.",
+      "friction_turn": "Run heavy, the blade presses against every edge it meets. Spare force turns small differences into contests. State your objection without trying to win."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The blade presses against every edge it meets.",
+        "remedy": "State your objection without trying to win."
+      }
+    },
+    "function": {
+      "definition_friction": "Metal is your Body, and running over, it is strength kept ready after the need for it has passed. You push through a task, then keep pushing through the pause that follows. Rest gets another rule. The effort stays switched on even when there is nothing left to carry.",
+      "advise_friction": "You can mistake the ability to keep pushing for a reason to continue. Give each task a stopping point before you begin. Leave a short break between commitments without filling it. In a disagreement, hear the other answer through. Let your next reply wait a breath."
+    },
+    "cta_verdict": "You hold effort past the point of need, so demanding work can follow you into the hours set aside for rest."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
+      "friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      }
+    },
+    "function": {
+      "definition_friction": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
+      "advise_friction": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
+    },
+    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

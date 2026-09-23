@@ -1,0 +1,66 @@
+{
+  "$archetype": "水_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "水_食神",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Fluent",
+        "Nourishing"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fluent",
+            "doors": {
+              "trait": "You find words by letting a thought run its course. A story told over tea takes shape as you speak, without a plan for making anyone agree. The words keep coming. Ease lets you offer what you know before the effort of performing gets in the way."
+            }
+          },
+          {
+            "word": "Nourishing",
+            "doors": {
+              "scene": "At seven in the evening, a pot is on the stove while a friend talks through a difficult day. You stir and listen. A small meal gives the conversation an easy pace, and care takes a form that can be shared without asking anyone to explain what they need."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fluent",
+            "doors": {
+              "trait": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
+            }
+          },
+          {
+            "word": "Nourishing",
+            "doors": {
+              "scene": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fluent",
+        "Nourishing"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass"
+  }
+}

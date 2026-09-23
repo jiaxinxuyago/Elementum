@@ -1,0 +1,35 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.catalyst",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_水",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "Dew holds to the steel in drops too small to fall.",
+        "remedy": "Say one unfinished thought aloud today."
+      },
+      "original": {
+        "clause": "This channel shows as pressure without release: much forged, little said.",
+        "remedy": "Writing, speaking, sharing work early lets the blade breathe."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The forge lacks the heat to reshape the steel.",
+        "remedy": "Give one task a deadline someone else can check."
+      },
+      "original": {
+        "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+        "remedy": "Take the demanding role, the audit, the arena."
+      },
+      "gate": "pass"
+    }
+  ]
+}

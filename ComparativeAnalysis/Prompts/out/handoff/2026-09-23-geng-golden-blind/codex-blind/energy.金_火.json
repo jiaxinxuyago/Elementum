@@ -1,0 +1,168 @@
+{
+ "_generated_by": "Codex (exact model name and version not exposed)",
+ "_handoff": "2026-09-23 geng golden blind",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/金_火 + ELEMENT_GOD/火_七杀",
+ "page": "The energy page of Fire (your Order) for a Metal core, catalyst pole",
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_GOD.adj_chips.md",
+  "cards/ELEMENT_GOD.fn_reading.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 金_火. Core element Metal, energy element Fire. Law: Fire tames Metal (火克金: the forge softens the blade). Relative to the core the energy is the tamer, so Fire is this core's Order.\n- mechanism.classic (the sourced epigraph): \"精勝堅，故火勝金\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: [REDACTED: the target field]\n- mechanism.friction_turn: \"Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.\"\n- function.definition_catalyst: [REDACTED: the target field]\n- function.definition_friction: \"Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do.\"\n- function.advise_catalyst: [REDACTED: the target field]\n- function.advise_friction: \"Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds.\"\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: [REDACTED: the target field]\n- carry.friction: {\"clause\":\"The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.\",\"remedy\":\"Step out of the fire long enough to hold an edge.\"}\n- carry.wide: {\"clause\":\"Fire is easy for you to reach, the forge that finishes the edge.\",\"remedy\":\"Take the pressure you have. Let it sharpen you.\"}\n- carry.missing: {\"clause\":\"Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.\",\"remedy\":\"Borrow heat: one demanding role, one audit.\"}\n- carry.spared: {\"clause\":\"Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer.\",\"remedy\":\"Keep it cool. Choose your pressures.\"}\n- carry.thin: {\"clause\":\"Fire runs thin and unwanted: a low flame, easy to stand beside.\",\"remedy\":\"Let it stay low.\"}\n- carry.excess: {\"clause\":\"Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape.\",\"remedy\":\"Step out of the fire. Add ground.\"}\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 金衰遇火，必见销熔 (衰而逢克, the Order door).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\n## CELL FACTS\n\nCell 火_七杀 (Fire carrying The General). Persona The General (七杀). Definition line: \"Pressure that doesn't grant permission, the trial that forges\". Keyword Force, charge fierce, poles catalyst Command / friction Harshness. Family function: Order. Cost dimension: pressure that does not ask permission; peace can feel like demotion. Arena: forge, campaign, the weight of command, tempering. Classical portrait: pressure as clarity; the trial that forges; force without permission; peace felt as demotion. Ruled domains: Pressure, Command, Crisis. Sibling (other polarity of the family): 正官.\nElement arena: Fire (flame, light, warmth, fuel, the hearth, the blaze). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Fire pressing Metal same-polarity — the forge that doesn't moderate itself\".\n- k2_overview: \"Your Fire moves as the General: heat weaponized into will. You command like a charge, blazing conviction that armies of ordinary people find themselves following. Crisis makes you luminous. Peacetime makes you dangerous to furniture. Aim the cannon, always. Unaimed, this much fire tests every relationship it warms.\"\n- k2_functional: \"Your order is fire discipline: absolute at the front, enforced on yourself before anyone else feels it.\"\n- adj_chips: {\"friction\":[\"Too intense\",\"Bossy\",\"Burned-out\"],\"catalyst\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Pressure\":\"Pressure ignites you: stakes convert your heat into focus. Without real battles you invent them, so keep a worthy campaign running at all times, professional or physical.\",\"Command\":\"You command by fire: vision hot enough to melt objections. Troops follow the light. Mind the scorch radius, and let cooler officers handle the discipline your heat would burn.\",\"Crisis\":\"Crisis is your parade ground: you charge while others count. Victory loves you. Afterward, check who got trampled in the charge, including you.\"}\n- fn_reading.catalyst.ledger (three rows, index-aligned to adj_chips.catalyst; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1: [REDACTED: the target row]\n  - row 2: [REDACTED: the target row]\n- Sibling cell 火_正官 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Upstanding\",\"Squeaky-clean\",\"Inspiring\"],\"friction\":[\"Stern\",\"Appearance-bound\",\"Overextended\"]}\n- Sibling cell 火_正官 catalyst row 0 trait door, for contrast: \"You conduct yourself like someone permanently on camera, and the footage would hold up. The taxes are clean, the promises kept, the small ethics observed when nobody is checking. In a dim market, your reputation shines at a distance, and it was polished entirely by boring choices.\"\n\nChart: golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5). Fire runs 5%: catalyst, thin. The page shows the catalyst pole; its state line is the catalyst turn. Ledger rows shown: row 0 七杀 · trait door, row 1 七杀 · scene door, row 2 七杀 · outside door (one door per row, rotating trait · scene · outside).",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "person": "fully third person, no \"you\", no function claim, no persona"
+   },
+   "value": "Fire tames Metal by bringing hard steel to the point where it can take a new shape. The forge heats the blade. What held against a blow while cold can yield under heat, and a changed shape can remain when the metal cools. The flame makes the steel workable without deciding the edge for it."
+  },
+  "mechanism.catalyst_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "opener": "Run thin,",
+    "notes": "the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone; the carry line below is cut from it"
+   },
+   "value": "Run thin, the forge lacks the heat to reshape the steel. Strength stays set in its own habits. Give one task a deadline someone else can check."
+  },
+  "carry.catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.catalyst_turn",
+    "notes": "cut from the catalyst turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The forge lacks the heat to reshape the steel.",
+    "remedy": "Give one task a deadline someone else can check."
+   }
+  },
+  "function.definition_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 20,
+    "max": 55,
+    "person": "second person",
+    "opener": "Fire is your Order, and as a catalyst, it is",
+    "notes": "a concrete-life inventory of what the function does when it runs right"
+   },
+   "value": "Fire is your Order, and as a catalyst, it is a demand that gives your strength a useful shape. A deadline makes a choice necessary, and a clear standard gives effort something to answer to. You know what is required. Pressure can gather your force around the task that matters."
+  },
+  "ledger[0]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "火_七杀",
+    "persona": "The General (七杀)",
+    "pole": "catalyst",
+    "row": 0,
+    "door": "trait",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "trait",
+     "notes": "opens on the trait claim: what this word IS for the person"
+    }
+   },
+   "value": {
+    "word": "Decisive",
+    "text": "Pressure makes the next necessary choice plain to you. When a plan breaks down, you can name what must happen before the rest can matter. The list gets shorter. Your attention gathers around the task at hand, though a clear choice still leaves you responsible for its cost."
+   }
+  },
+  "ledger[1]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "火_七杀",
+    "persona": "The General (七杀)",
+    "pole": "catalyst",
+    "row": 1,
+    "door": "scene",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "scene",
+     "notes": "opens inside a representative situation with ordinary objects and a clock time; the example is used, not displayed"
+    }
+   },
+   "value": {
+    "word": "Daring",
+    "text": "At four in the afternoon, the meeting is stalled over a rough plan on the screen. You offer to try the part that has no proven answer. It is a small test. Taking responsibility gives your heat a purpose, even while the result remains uncertain and the usual instructions fall short."
+   }
+  },
+  "ledger[2]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "火_七杀",
+    "persona": "The General (七杀)",
+    "pole": "catalyst",
+    "row": 2,
+    "door": "outside",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "outside",
+     "notes": "opens from how others see it and what it costs or pays"
+    }
+   },
+   "value": {
+    "word": "Crisis-ready",
+    "text": "Others can turn to you when a shared plan fails and the next step needs someone to own it. You put names beside tasks and ask what can happen now. The list is short. The pressure gives you a clear role, which can make quieter days harder to settle into."
+   }
+  },
+  "function.advise_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "notes": "one sentence naming the psychological truth under the state, then three or four small actions with objects and cadences, ending on the smallest; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "You can work well under pressure without making every task urgent. Choose a weekly promise that another person can check. Write down what counts as finished before starting. Review the result together at a set time. Put the next check on your calendar."
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "person": "second person",
+    "notes": "explains \"Fire is your Order\": a behavioural truth plus ONE tendency-framed consequence beat"
+   },
+   "value": "You gather your effort around clear demands, so work with an agreed standard can draw more from you than effort with nothing to answer to."
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+  "$variable": "ELEMENT_GOD.fn_reading.friction.ledger[]",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_偏印",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Withdrawn",
+        "text": "Thinking alone becomes a way to keep unfinished ideas beyond anyone else's reach. At ten at night, you are still tracing an odd link through the notes while a friend's message waits. You leave it there. The private work keeps getting deeper, and harder to share."
+      },
+      "original": {
+        "word": "Withdrawn",
+        "doors": {
+          "trait": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline.",
+          "scene": "Three drafts of a two-line reply sit on your phone, and the phone sits face-down through dinner. Nothing about the message is hard. The withdrawing happens earlier than that, somewhere between thinking a thing and letting anyone watch you think it.",
+          "outside": "People stop hearing from you and assume something happened. Usually nothing did, and that is the part worth noticing: the quiet was never a response to anything. Given no reason at all, your door still drifts toward closed, and someone else always has to knock first."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Brooding",
+        "text": "At eleven at night, you turn back a page to check a small detail that changes how the whole book fits together. Then you check again. Thought keeps digging beneath its own answer, and the question that brought you to the desk gets no closer to a reply."
+      },
+      "original": {
+        "word": "Brooding",
+        "doors": {
+          "trait": "Holding a thought long after it stops being useful is your mind’s oldest habit. What enters you does not leave on time: it settles, replays, and files itself under unfinished, permanently. All that replaying feels like processing. Mostly it is wear.",
+          "scene": "It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you.",
+          "outside": "From the outside you just seem quiet. Inside, a committee has been in session since Tuesday, reviewing one sentence from a conversation everyone else forgot. What people read as calm is often storage, thoughts settling in layers and staying down longer than they ever needed to."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Overprepared",
+        "text": "Other people get another reading list when they ask to see what you are making. You have found a less familiar angle, and it needs more study before anyone can test it. The draft stays blank. They can discuss your sources with you, but there is still nothing to try."
+      },
+      "original": {
+        "word": "Overprepared",
+        "doors": {
+          "trait": "Getting ready is where you hide, and it photographs as diligence from every angle. As long as you are still preparing, nobody can grade the real attempt, and part of you has arranged your studying life around that protection. Somewhere the preparing stopped serving the step and started replacing it.",
+          "scene": "Seventeen browser tabs, two saved courses, a notebook full of plans. The project they all point at has not moved in a month, but the researching of it has never gone better. One more book, you tell yourself, and the telling sounds exactly like last time.",
+          "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Sealed-off",
+        "text": "Relying on yourself hardens into refusal when another person offers a hand with work you have already claimed. At six in the evening, the shared document still carries only your edits. You can do the work. Accepting help would mean letting a different standard touch yours, and that is where you draw the line."
+      },
+      "original": {
+        "word": "Sealed-off",
+        "doors": {
+          "trait": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine.",
+          "scene": "On the day of the diagnosis you said fine. Layoff, fine. Breakup, fine. The word has become a door painted to look like a wall, and the people who love you have quietly stopped testing whether it opens.",
+          "outside": "The people close to you have learned to read your weather at a distance, because asking gets them fine. They compare notes about you. They worry in committee, exactly the way you trained them to, and call it respecting your space."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Rigid",
+        "text": "At nine in the morning, the shared checklist has a new step and you put the old wording back. No discussion follows. Your own method feels settled enough to end the question, so a suggestion has to survive your refusal before you try it."
+      },
+      "original": {
+        "word": "Rigid",
+        "doors": {
+          "trait": "Your rules outlive the reasons for them, and you enforce them anyway. Gym at six, lunch at noon, lights out at eleven, held through a fever and a friend’s one free evening in town. The structure was built to serve you. Somewhere it quietly reversed.",
+          "scene": "A friend was in town for one evening, the first in three years. Lights out at eleven held anyway, the way it held through the fever, the way it holds through everything. You slept on schedule and lay there knowing exactly what the schedule had cost.",
+          "outside": "People plan around your routine the way they plan around weather, and they stopped asking for exceptions years ago. The discipline earns real respect. What nobody mentions is how rarely you appear in the stories they tell about their best nights."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Cutthroat",
+        "text": "Colleagues can see the contest enter a shared task when you claim the visible part and leave them the cleanup. The work is still shared. Credit becomes the sharper concern, and a joint result can matter less to you than making sure your name comes before theirs."
+      },
+      "original": {
+        "word": "Cutthroat",
+        "doors": {
+          "trait": "Winning has stopped checking its methods with you. The shortcut through a colleague’s territory, the information used a half-step past fair, the alliance dropped at the moment of maximum value: each move defensible in isolation, and together a style that people describe with one hand on their wallet.",
+          "scene": "The lead was technically unassigned when you took it, though everyone knew whose relationship had warmed it for a year. The commission cleared. The colleague said nothing, transferred out in the spring, and now runs the region you cannot get meetings in. Accounts settle slowly, and fully.",
+          "outside": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+        }
+      },
+      "gate": "pass"
+    }
+  ]
+}
