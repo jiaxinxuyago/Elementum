@@ -12,7 +12,7 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 
 ## The card
 
-- Construct: `face` names the band state in the element's arena ("The edge, never sheathed"); `presence` is being that state, dignified even on the Underfueled band.
+- Construct: `face` names the band state in the element's arena ("The edge, never sheathed"); `presence` is being that state, dignified even on the Underfueled band. Two candidates are asked for on `presence` in the handoff skeleton (`candidates: 2`, owner 2026-09-30), each gated, the read picks one; `face` stays single.
 - Reasoning chain: the band as a physical state of the material → a noun phrase for it → one or two sentences on living as that state, the cost implied not moralised.
 - Style: situational register; the Underfueled band is never a deficit portrait ("A blade that waits is not a blade that dulled").
 - Checks: face ≤8w, presence ≤30w, zero dashes, cross-stem 4-gram uniqueness.
@@ -28,3 +28,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-30 | Two candidates asked for in the handoff skeleton (`candidates: 2`), each gated, the read picks one | owner 2026-09-30, Q1i of the v0.6 questionnaire (REA_16 §6) |

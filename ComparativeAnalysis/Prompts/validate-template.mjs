@@ -17,6 +17,9 @@ export function validateTemplate(file, opts = {}) {
   const log = (s) => { if (!quiet) console.log(s); }; log(`\n## ${path.basename(file)} · ${sk.page}`);
   const stem = Object.keys(STEMS).find((k) => sk.cell.includes(`STEM/${STEMS[k].file}`)) || (STEMS[sk.stem] ? sk.stem : null); // the skeleton's own stem key (handoff.mjs since 2026-09-30) names it on the energy pages
   const texts = {}; // path → text for the four-gram check
+  // two candidates on the pull-heavy fields (owner 2026-09-30, H7): a spec with candidates: 2 carries value_b beside value; the twin is gated as its own field, named <path>#b, and the two never trip the four-gram against each other (only one ships). The originals (<file>.original.json) carry no twin and are exempt.
+  const isOriginal = /\.original\.json$/.test(String(file));
+  for (const [fp, f] of Object.entries(sk.fields || {})) if (f.spec?.candidates === 2) { const vb = f.value_b; const filled = vb != null && String(typeof vb === 'string' ? vb : Object.values(vb).join('')).trim() && !/REDACTED/.test(JSON.stringify(vb)); if (filled) sk.fields[`${fp}#b`] = { spec: f.spec, value: vb }; else if (!isOriginal) { R.blocking.push(`${fp} :: second candidate missing (value_b; the spec asks for two)`); log(`  ✗  ${fp} :: second candidate missing (value_b)`); } }
   for (const [fp, f] of Object.entries(sk.fields || {})) {
     const findings = []; const F = (w, m) => findings.push(`${w} :: ${m}`); const gate = makeGate(F); const s = f.spec; const v = f.value;
     const empty = v == null || (typeof v === 'string' && !v.trim()) || (typeof v === 'object' && Object.values(v).every((x) => !String(x || '').trim()));

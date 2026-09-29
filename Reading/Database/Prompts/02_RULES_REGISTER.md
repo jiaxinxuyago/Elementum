@@ -96,6 +96,7 @@ _Prompt file (data). One row per rule. "Gate" says whether `ComparativeAnalysis/
 | H4 | The mechanical gate runs first; a failing candidate is not compared; the shipping original runs through the same gate and its failures are findings for the owner | REA_17 §0 rules 4, 5; §4 | harness | explicit |
 | H5 | Nothing lands in the station from a run without the owner's row-by-row ruling and the REA_05 §1 pipeline; rewrites live under `Reading/Database/Rewrites/<model>/` | REA_05 §1; REA_17 §4; owner 2026-09-21 | process | explicit |
 | H6 | The output contract: the JSON shape in the task line, "JSON only" repeated last, structured output where the API has it, an optional `_trace` key | REA_17 §0 rule 6 | harness (JSON parse; `_trace` stripped) | explicit |
+| H7 | Two candidates on the pull-heavy fields (manifesto, self_card.presence, cta_verdict, the ledger scene door): the skeleton's spec says `candidates: 2`, the writer returns `value` and `value_b` (two different lines, each inside the frame), the template gate gates both (the twin named `<path>#b`, exempt from the four-gram against its own pair, a missing `value_b` blocking), and `file-rewrites.mjs` files them as `<model>` and `<model>-b`. The read picks one; nothing is adopted from `-b` except by the same ruling | analysis 2026-09-23 §5 proposal 11 (the pull-heavy fields are where one line decides the screenshot), owner 2026-09-30; REA_18 §3 1i, §4 step 1 | harness (the twin gated; the second candidate required) · process | RULED 2026-09-30 |
 
 ## The six violated texts (2026-09-21 self-test) and the rule each makes explicit
 
@@ -142,3 +143,4 @@ _Prompt file (data). One row per rule. "Gate" says whether `ComparativeAnalysis/
 | 2026-09-30 | F1: the four-gram blocks across every pair of fields of one page skeleton (the ledger rows included), not only the pair's fields | owner 2026-09-30, Q1f of the v0.6 questionnaire (REA_16 §6) |
 | 2026-09-30 | B2: the rhythm reported (sentences over twenty words per field, the stem's §2b temperament beside the count, a note in both gates), never a gate; the freedom clause stands | owner 2026-09-30, Q1g of the v0.6 questionnaire (REA_16 §6) |
 | 2026-09-30 | C5: cta_verdict pole-neutral (one per pair, rendered on either pole's page), a spec key and a non-blocking harness note | owner 2026-09-30, Q1h of the v0.6 questionnaire (REA_16 §6) |
+| 2026-09-30 | H7: two candidates on the pull-heavy fields (`candidates: 2`, `value_b`, the twin gated, filed as `<model>-b`) | owner 2026-09-30, Q1i of the v0.6 questionnaire (REA_16 §6) |

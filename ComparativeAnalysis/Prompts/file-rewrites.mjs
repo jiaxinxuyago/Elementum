@@ -4,7 +4,8 @@
 // name in every folder, file name and header, and the gate result beside every
 // value. Nothing here touches Reading/Database/templates/ (adopt.mjs does that,
 // one field at a time, on the owner's ruling).
-//   node file-rewrites.mjs <dir-of-filled-skeletons> --model <name> [--handoff <handoff dir>]
+//   node file-rewrites.mjs <dir-of-filled-skeletons> --model <name> [--candidate a|b] [--handoff <handoff dir>]
+//   --candidate b files the second candidates (value_b, the pull-heavy fields) as a sparse station named <name>-b.
 // Reads "_generated_by" from the files when --model is omitted.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -15,7 +16,8 @@ const argv = process.argv.slice(2); const opt = (n, d) => { const i = argv.index
 const dir = argv.filter((a) => !a.startsWith('--'))[0]; if (!dir) { console.log('usage: node file-rewrites.mjs <dir> --model <name>'); process.exit(2); }
 const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json') && !f.endsWith('.gate.json'));
 const first = JSON.parse(fs.readFileSync(path.join(dir, files[0]), 'utf8'));
-const model = (opt('model') || first._generated_by || '').replace(/[^A-Za-z0-9._-]+/g, '-'); if (!model) { console.error('no --model and no _generated_by in the files'); process.exit(2); }
+const cand = opt('candidate', 'a'); if (!['a', 'b'].includes(cand)) { console.error('--candidate a|b'); process.exit(2); }
+const model = ((opt('model') || first._generated_by || '') + (cand === 'b' ? '-b' : '')).replace(/[^A-Za-z0-9._-]+/g, '-'); if (!model) { console.error('no --model and no _generated_by in the files'); process.exit(2); }
 const handoffTag = first._handoff || path.basename(dir);
 const REW = `${ROOT}Reading/Database/Rewrites/${model}/`; const today = new Date().toISOString().slice(0, 10);
 const GOD_OF = Object.fromEntries(Object.entries(GOD_FILE).map(([k, v]) => [v, k]));
@@ -33,9 +35,10 @@ const byAxis = {}; const byVar = {}; const shown = {}; let n = 0;
 for (const f of files) {
   const sk = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); const R = validateTemplate(path.join(dir, f));
   for (const [fp, fld] of Object.entries(sk.fields)) {
-    const a = address(sk, fp, fld.spec); const key = `${a.axis}/${a.cell}`; const gate = R.fields[fp] || { pass: false, findings: ['not gated'] };
+    const val0 = cand === 'b' ? fld.value_b : fld.value; if (cand === 'b' && (val0 == null || !String(typeof val0 === 'string' ? val0 : Object.values(val0).join('')).trim())) continue;
+    const a = address(sk, fp, fld.spec); const key = `${a.axis}/${a.cell}`; const gate = R.fields[cand === 'b' ? `${fp}#b` : fp] || { pass: false, findings: ['not gated'] };
     if (!byAxis[key]) { const orig = J(`${a.axis}/${a.cell}.json`); byAxis[key] = { $archetype: a.cell, axis: a.axis, key: orig.key || a.cell, $generated_by: model, $handoff: handoffTag, $filed: today, $gate: 'validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)', $note: 'A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner\'s ruling.', candidates: {}, $original: {}, $gate_findings: {} }; }
-    const c = byAxis[key]; const val = fld.value; const v = typeof val === 'object' && val ? Object.fromEntries(Object.entries(val).filter(([k]) => k !== '_trace')) : val;
+    const c = byAxis[key]; const val = val0; const v = typeof val === 'object' && val ? Object.fromEntries(Object.entries(val).filter(([k]) => k !== '_trace')) : val;
     if (a.side) { const orig = J(`STEM/${a.cell}.json`)[a.side][a.index]; setPath(c.candidates, a.path, { ...orig, phrase: v.phrase, dim: v.dim, desc: v.desc }); setPath(c.$original, a.path, orig); }
     else if (a.row != null) { const orig = J(`ELEMENT_GOD/${a.cell}.json`); setPath(c.candidates, `adj_chips.${a.pole}[${a.row}]`, v.word); setPath(c.candidates, `${a.path}.word`, v.word); setPath(c.candidates, `${a.path}.doors.${a.door}`, v.text); setPath(c.$original, `${a.path}.word`, get(orig, a.path)?.word); setPath(c.$original, `adj_chips.${a.pole}[${a.row}]`, orig.adj_chips?.[a.pole]?.[a.row]); setPath(c.$original, `${a.path}.doors.${a.door}`, get(orig, a.path)?.doors?.[a.door]); }
     else { setPath(c.candidates, a.path, v); setPath(c.$original, a.path, get(J(`${a.axis}/${a.cell}.json`), a.path) ?? null); }
