@@ -1,6 +1,6 @@
 # Backlog · the energy prescription inside a friction's advice (owner idea, 2026-09-29)
 
-**Status: PROPOSED, not a rule. Owner's ask: find the reasoning and evidence, apply it systematically to every friction advice, then modify the advise_friction prompt.**
+**Status: RULED 2026-09-29 (owner, by questionnaire). Q1 = the friction advice only. Q2 = template-level, by band. Q3 = the taming cure only. REA_04 = add the 子平真诠 remedy lines to PART 2. Apply: Parts 1 (variant A), 2a variant A, 2b, 2c, 3 (as drafted), 4a, 4b, 7, 8, and the REA_04 addition. Parts 5 and 6: NO. Application pending the backlog apply pass.**
 
 ## The idea, as the owner put it
 
