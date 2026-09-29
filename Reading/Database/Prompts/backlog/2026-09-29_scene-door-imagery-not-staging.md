@@ -17,6 +17,10 @@ The scene-door passages have been stretching too far into describing one scene w
 
 Blind and benchmarked passes both produced time-stamped single scenes on most scene doors (Earth Brooding "At eleven at night…", Wood Compounding "At eight in the evening…", Fire Daring "At four in the afternoon…"), because the card and the spec note asked for one. The shipping corpus does it too ("It is Thursday night and Tuesday's conversation is still running…"). The owner's picks during the read favour the versions whose scene is a set of pictures ("Fifty a month since college. A page a day, a call every Friday…") over the staged ones.
 
+## Owner's note at Q33 (2026-09-29)
+
+Picking the Metal page's Rigid scene door, the owner added: none of the scene-door versions would pass if they keep describing the scene with exact time and place details ("at nine in the morning" and the like). The pick is the least staged of the three, not an endorsement of the form. Every scene door in this round (all three piles) is therefore provisional under this item, and the next round's scene doors must be written to the new construct before they are compared.
+
 ## Action items
 
 - [ ] Re-cut the scene-door construct in the fn_reading card and the master prompt's scene sentence; note the change in REA_16 §2c (THE THREE DOORS row) and §6.

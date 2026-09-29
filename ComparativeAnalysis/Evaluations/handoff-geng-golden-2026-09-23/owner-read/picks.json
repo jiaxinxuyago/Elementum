@@ -128,5 +128,10 @@
  "Q32": {
   "pick": "C",
   "at": "2026-09-29T05:11:37.367Z"
+ },
+ "Q33": {
+  "pick": "C",
+  "note": "owner: C, but no scene-door version would pass if it keeps the exact time and place detail (at nine in the morning etc.); see backlog item 2",
+  "at": "2026-09-29T05:14:23.641Z"
  }
 }
