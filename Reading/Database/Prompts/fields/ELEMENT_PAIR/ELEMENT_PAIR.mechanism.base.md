@@ -13,9 +13,9 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 ## The card
 
 - Construct: the two-energy chemistry only: what 生 or 克 means in this pair, physically, grounded in the 相生/相克 doctrine (白虎通 / 五行大義 lineage), rendered poetically.
-- Reasoning chain: the law sentence and its image line (Earth feeds Metal: ore grows in the mountain) → what physically happens between these two materials → why that seats the energy as this function → stay in the material world.
+- Reasoning chain: the law sentence and its image line (Earth feeds Metal: ore grows in the mountain) → what physically happens between these two materials, the energy's material named somewhere in the field (its arena noun, its verb, or the element as a common noun: "Metal is born of earth", "water is metal's child") → why that seats the energy as this function → stay in the material world.
 - Style: no "you", no function claim (the thumbnail and titles teach those), no persona; poetic and descriptive; "the old texts say" is allowed as texture.
-- Checks: 45–75w, no second person, zero dashes, the repetition law blocks on this cell (no four-word run shared with the turns, definitions or advice).
+- Checks: 45–75w, no second person, zero dashes, one word of the energy's chemistry anywhere in the field (an arena noun, the material's verb, or the element as a common noun: the harness blocks, owner 2026-09-30), the repetition law blocks on this cell (no four-word run shared with the turns, definitions or advice).
 - Exemplar (金_土): "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it."
 - Sources: REA_16 §2c (v2 register, 2026-09-02); REA_02 §5d; the 金_水 template construct note.
 
@@ -28,3 +28,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-30 | The energy's material named anywhere in the field (E7, blocking); no shipping base fails it under the whole-field rule | owner 2026-09-30, Q1c of the v0.6 questionnaire (REA_16 §6) |
