@@ -228,3 +228,152 @@ After:
 | 8 | REA_16 §2c row amendment | |
 | 9 | REA_16 §6 log row | |
 | 10a–10b | optional: §3 desc law, STEM.gifts style | |
+
+## Draft patch, revised for all three doors (not applied)
+
+_Drafted 2026-09-29 by the backlog drafter after the owner's notes at Q33 and Q34 widened the item from the scene door to the three doors as a set. This section supersedes Part 1 (the card), 2a (the master prompt sentence), 3a (register D3), 6 (the handoff notes), 7 (the lib.mjs lines), 8 (the REA_16 §2c sentence) and 9 (the §6 row) of the first draft above. Parts 4 (the 06 caps line), 5 (the 05 line) and 10 (the §3 desc law and the STEM.gifts style line) stand as drafted, and the caps line's wording is restated in R6 so it says the widened rule. Every "before" is the current file text quoted verbatim, every "after" is the exact replacement. The whole bullet is replaced in each card part, so no anchor depends on the first draft._
+
+**The rule in one line, as the card will carry it:** each door opens on its own angle, states the trait plainly, and uses pictures only as illustration in service of that statement, at a size the reader can own, with no time stamps, no place stamps and no detail that carries no meaning. The passage is judged by whether the trait is clearer at its end, never by how complete the picture is.
+
+**Evidence quoted for the record (the Metal page, the shipping corpus).** The Cutthroat outside door (金_劫财) ends "…and told to every newcomer by their second week, as onboarding." (the filler the owner named). The Rigid trait door (金_比肩) carries three clock times inside the trait claim ("Gym at six, lunch at noon, lights out at eleven"), and its scene door stages one event ("A friend was in town for one evening, the first in three years. Lights out at eleven held anyway…"). The Sealed-off scene door stages three ("On the day of the diagnosis you said fine. Layoff, fine. Breakup, fine."). The trait doors carry the fault as much as the scene doors, which is the Q34 finding.
+
+**One question for the owner, not decided here.** In the Rigid row the clock times are the trait itself (a rule that says lights out at eleven is what rigid means), not a stamp on an act. The draft treats such a time as content, allowed where it is the trait and nowhere else, and the check below tests the stamp forms ("at {hour} in the {morning}", "it is {day} night", a named place as the anchor of an act), not every number. Say "R1 strict" to ban clock times on every door outright.
+
+### R1 · `fields/ELEMENT_GOD/ELEMENT_GOD.fn_reading.md`, the four card lines
+
+**R1a · Construct.**
+
+Before:
+> - Construct: per pole, three rows index-aligned to `adj_chips`, each `{word, doors:{trait, scene, outside}}`. Trait opens on the trait claim ("Taking things in whole is how your mind works"). Scene opens inside a real-life example with objects and clock time ("One book, read twice, with notes in the margins the second time through"). Outside opens from how others see it and what it costs or pays ("People mistake your pace for being behind, right up until…"). Every beat is a full sentence with verbs; the example is USED, not displayed (the sentence itself says what the example proves).
+
+After:
+> - Construct: per pole, three rows index-aligned to `adj_chips`, each `{word, doors:{trait, scene, outside}}`. The three doors are three ways in to one plain statement of the trait, and a passage is judged by whether the trait is clearer at its end, never by how complete its picture is. Trait opens on the trait claim ("Taking things in whole is how your mind works") and then illustrates it. Scene opens on a picture, one or more concrete images from the reader's ordinary life (objects, places, small actions) that show the trait ("One book, read twice, with notes in the margins the second time through"), and says what the picture shows. Outside opens on how others see it and what it costs or pays ("People mistake your pace for being behind, right up until…") and names the trait behind the view. Every beat is a full sentence with verbs. A picture is USED, not displayed (the sentence itself says what the picture proves), at a size the reader can own, never a single staged event: no time stamps, no place stamps, no detail that carries no meaning. The words go to the trait, not to the set dressing.
+
+**R1b · Reasoning chain.**
+
+Before:
+> - Reasoning chain: the chip → what it IS for the person (a feature, a tendency, a habit, named as such) → one scene with objects and a clock time → the turn to the cost or the payoff → write the same content three times from the three doors so any row works at any blend position.
+
+After:
+> - Reasoning chain: the chip → what it IS for the person (a feature, a tendency, a habit, named as such), in one plain sentence → the pictures that illustrate it (one or more, from the persona's ruled domains or ordinary life, at a size the reader can own, no time or place stamp) → the turn to the cost or the payoff → for each door, open on that door's angle, state the trait plainly, keep a picture only where it makes the statement clearer, and cut every detail that does not → write the same content three times from the three doors so any row works at any blend position.
+
+**R1c · Style.**
+
+Before:
+> - Style: B1–B2 zone; fragments ≤1 per passage; aphorisms ≤1–2 per assembled reading; endings vary; a scene is a representative situation, never a claimed memory, never another person's private thoughts, never a confirmed prediction, never a safety-critical procedure as proof of character.
+
+After:
+> - Style: B1–B2 zone, fragments ≤1 per passage, aphorisms ≤1–2 per assembled reading, endings vary. Every door explains the trait first and illustrates second. A picture is illustration, never staging: no clock time, no day and no named place as the anchor of an act (a cadence, "a call every Friday", is a picture, not a stamp, and a time that is itself the trait, a rule that says lights out at eleven, is content), no filler that expands nothing ("by their second week, as onboarding"), never one acted-out event, never a claimed memory, never another person's private thoughts, never a confirmed prediction, never a safety-critical procedure as proof of character. If a detail can be cut and the trait is no less clear, cut it.
+
+**R1d · Checks.**
+
+Before:
+> - Checks: 35–55w per door, zero dashes, the sibling test, no banned register.
+
+After:
+> - Checks: 35–55w per door, zero dashes, the sibling test, no banned register, each door opens on its own angle (trait: the claim, scene: a picture, outside: other people), the trait stated plainly in every door (a reader can say the trait in one sentence after each), no time or place stamp on any door (a stated hour, "o'clock", am or pm, "at {hour} in the {morning, afternoon, evening}", "at midnight", "at noon", "it is {day} night", a named city, street, shop or season as the anchor of an act), no detail that carries no meaning (the read cuts it and asks whether the passage lost anything), the size test (a picture most readers of the chart could own).
+
+**R1e · Exemplar note.** Append after the exemplar line:
+
+> The exemplar passes the widened rule as it stands: it opens on the picture (three objects), states the trait in its second sentence (the researching moves, the project does not), and carries no stamp and no filler.
+
+**R1f · Sources.**
+
+Before:
+> - Sources: REA_16 §2c (THE THREE DOORS 2026-09-03, corpus 2026-09-04); the B7 and B8 rulings 2026-09-20.
+
+After:
+> - Sources: REA_16 §2c (THE THREE DOORS 2026-09-03, corpus 2026-09-04, amended 2026-09-29 at Q33 and Q34: the doors illustrate the trait, they do not elaborate the example) and the B7 and B8 rulings 2026-09-20.
+
+**R1g · Iteration log.** Append the row (in place of the first draft's 1h):
+
+> | 2026-09-29 | All three doors re-cut to one law: open on the door's angle, state the trait plainly, pictures as illustration only at a size the reader can own, no time or place stamps, no detail without meaning, judged by whether the trait is clearer at the end | owner 2026-09-29, during the blind read, Q33 and Q34 (REA_16 §2c THE THREE DOORS amendment, §6) |
+
+### R2 · `00_MASTER_PROMPT.md`, the scene sentence (in place of the first draft's 2a)
+
+Before:
+> A representative scene with ordinary objects and a clock time is welcome; a claimed memory is not.
+
+After:
+> Pictures from ordinary life (objects, places, small actions) that illustrate a claim are welcome, at a size the reader can own. A staged event with a time or place stamp is not, a detail that carries no meaning is not, and a claimed memory is not.
+
+Iteration log row (in place of the first draft's 2b):
+
+> | 2026-09-29 | The scene sentence: pictures as illustration at a size the reader can own, no time or place stamp, no detail without meaning | owner 2026-09-29, during the blind read, Q33 and Q34 (REA_16 §2c, §6) |
+
+### R3 · `02_RULES_REGISTER.md`, row D3 (in place of the first draft's 3a)
+
+Before:
+> | D3 | A representative scene with ordinary objects and a clock time is welcome; a claimed memory is not | the 2026-09-17 pack | harness (scene door check); read | explicit |
+
+After:
+> | D3 | Pictures from ordinary life that illustrate a claim are welcome, at a size the reader can own. A staged event with a time or place stamp is not, a detail that carries no meaning is not, and a claimed memory is not. In the three-door ledger every door opens on its own angle, states the trait plainly and uses pictures only as illustration, and a passage is judged by whether the trait is clearer at its end, never by how complete the picture is | the 2026-09-17 pack, re-cut by the owner 2026-09-29 at Q33 and Q34 (the doors illustrate the trait, they do not elaborate the example) | harness (no time or place stamp on any door, heuristic, plus the claimed-memory flag) · read | RULED 2026-09-29 |
+
+Iteration log row (in place of the first draft's 3b):
+
+> | 2026-09-29 | D3 re-cut for all three doors: illustration at a size the reader can own, no time or place stamps, no detail without meaning, the trait clearer at the end | owner 2026-09-29, during the blind read, Q33 and Q34 (REA_16 §6) |
+
+### R4 · Harness spec notes, `ComparativeAnalysis/Prompts/handoff.mjs` line 57 (in place of the first draft's Part 6)
+
+The `notes` object of the ledger-row spec, quoted:
+
+Before:
+> `notes: { trait: 'opens on the trait claim: what this word IS for the person', scene: 'opens inside a representative situation with ordinary objects and a clock time; the example is used, not displayed', outside: 'opens from how others see it and what it costs or pays' }[r.door]`
+
+After (the three door notes rewritten, and one `law` key added beside `notes` so every row's sheet carries the shared rule):
+> `notes: { trait: 'opens on the trait claim (what this word IS for the person), then illustrates it', scene: 'opens on a picture from ordinary life (objects, places, small actions, one or more) and says what the picture shows', outside: 'opens on how others see it and what it costs or pays, and names the trait behind the view' }[r.door], law: 'every door states the trait plainly and uses pictures only as illustration, at a size the reader can own, no time or place stamp, no detail that carries no meaning, judged by whether the trait is clearer at the end'`
+
+If the examples-from-domains draft (its Part 7) is applied too, its `examples` key sits beside this `law` key, the two do not overlap.
+
+### R5 · `ComparativeAnalysis/Prompts/lib.mjs` line 181 (in place of the first draft's 7a and 7b)
+
+**R5a · The task line fragment.**
+
+Before:
+> `Trait opens on the trait claim; scene opens inside a representative situation with objects and a clock time; outside opens from how others see it and what it costs or pays.`
+
+After:
+> `Each door opens on its own angle and states the trait plainly: trait opens on the trait claim, scene opens on a picture from ordinary life (objects, places, small actions, one or more) and says what it shows, outside opens on how others see it and what it costs or pays. Pictures are illustration only, at a size the reader can own, with no time or place stamp and no detail that carries no meaning.`
+
+**R5b · The non-blocking note**, now over all three doors (the first draft tested the scene door only).
+
+Before (the current line):
+> `note('scene door carries an object or a clock time (heuristic; the read decides)', /\b(table|kitchen|phone|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|morning|evening|minute|hour|o'clock|dinner|desk|bus|pan|soup|cup|tabs?|notebook|weekend|midnight|noon|\d{1,2}(:\d\d)?\s?(am|pm|a\.m\.|p\.m\.)|(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)( |-)?(thirty|fifteen|forty|o'clock)?)\b/i.test(o.doors?.scene || ''));`
+
+After:
+> `note('no time or place stamp on any door (heuristic, the read decides)', !/\b(\d{1,2}(:\d\d)?\s?(am|pm|a\.m\.|p\.m\.)|o['’]clock|at (one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)( thirty| fifteen)?( in the (morning|afternoon|evening)| at night)?|at midnight|at noon|(it is|it's|it’s) (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)( night| morning| evening| afternoon)?|in (spring|summer|autumn|winter)\b|on [A-Z][a-z]+ (Street|Avenue|Road)\b)/i.test(Object.values(o.doors || {}).join(' ')));`
+
+Tested on the round's lines: flags "At eleven at night, you turn back a page", "At four in the afternoon", "It is Thursday night and Tuesday's conversation is still running" and "five o'clock on Tuesday", passes "Fifty a month since college. A page a day, a call every Friday", "Seventeen browser tabs, two saved courses, a notebook full of plans" and "Gym at six, lunch at noon, lights out at eleven" (the Rigid content case, left to the read). Say "R5b blocking" to move the test into `F('doors', 'time or place stamp')`.
+
+### R6 · `06_CAPS_BY_PAGE.md` line 32 (restated from the first draft's Part 4)
+
+Before:
+> | `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | trait opens on the claim; scene opens inside a situation with objects and a clock time; outside opens from other people |
+
+After:
+> | `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | each door opens on its own angle (trait: the claim · scene: a picture · outside: other people) and states the trait plainly, pictures as illustration only, no time or place stamp |
+
+### R7 · `Reading/Documents/REA_16_The_Voice.md` §2c, the `station:ELEMENT_GOD.fn_reading` row (in place of the first draft's Part 8)
+
+Append at the end of the row's THE THREE DOORS text (after "Chips ALSO render on the reading page (bare pill row under the title — the scannable summary above the expansion).")
+
+> **AMENDED (owner 2026-09-29, Q33 and Q34 of the blind read): THE DOORS ILLUSTRATE THE TRAIT, THEY DO NOT ELABORATE THE EXAMPLE.** Each door opens on its own angle (the trait claim, a picture, the outside view), states the trait plainly, and uses pictures only as illustration in service of that statement, at a size the reader can own. No time stamps, no place stamps, no detail that carries no meaning (the picked Cutthroat outside door's "by their second week, as onboarding" is the type). A cadence ("a call every Friday") is a picture, not a stamp. The passage is judged by whether the trait is clearer at its end, never by how complete the picture is. The 35–55 word range stays, and the words go to the trait, not to the set dressing. The example is still USED, not displayed. Every door of the 2026-09-29 round is provisional under this ruling, and the next round's doors are written to it before they are compared.
+
+### R8 · REA_16 §6 log row (in place of the first draft's Part 9)
+
+> | 2026-09-29 | **THE DOORS ILLUSTRATE THE TRAIT, THEY DO NOT ELABORATE THE EXAMPLE (owner, during the blind read: the scene door at the start, all three doors at Q33 and Q34).** The scene doors were staging one event with a time stamp ("At eleven at night, you turn back a page") because the card, the master prompt and the harness note asked for a clock time, and at Q34 the owner found the same fault on the outside and trait doors: the details run far-fetched and unnecessary ("by their second week, as onboarding" expands nothing) and every version elaborates the example instead of using it. Ruled: each door opens on its own angle (the trait claim, a picture, the outside view), states the trait plainly, and uses pictures only as illustration at a size the reader can own, with no time stamps, no place stamps and no detail that carries no meaning, a cadence staying lawful ("Fifty a month since college. A page a day, a call every Friday"), and a passage judged by whether the trait is clearer at its end. The 35–55 word range stays. Re-cut: the fn_reading card (construct, chain, style, checks, exemplar note), the master prompt's scene sentence, register D3, the 05 and 06 lines, the handoff spec notes for the three doors (plus a shared `law` note), the lib.mjs task line and its heuristic (reversed and widened to every door: it flags a time or place stamp). The §3 desc law's "2 AM call" example goes with it. Every door of this round is provisional, and the golden set's doors are re-run under the new construct in the next round and compared against this round's. Record: Reading/Database/Prompts/backlog/2026-09-29_scene-door-imagery-not-staging.md. |
+
+### Approval sheet, revised
+
+| Part | File | Replaces | One word |
+|---|---|---|---|
+| R1a–R1g | fn_reading card (construct, chain, style, checks, exemplar note, sources, log) | first draft 1a–1h | |
+| R1 strict | ban clock times on every door outright (drops the content exception) | | |
+| R2 | master prompt sentence and log | first draft 2a–2b | |
+| R3 | register D3 and log | first draft 3a–3b | |
+| R4 | handoff.mjs door notes plus `law` | first draft 6 | |
+| R5a–R5b | lib.mjs task line and note (note, or "blocking") | first draft 7a–7b | |
+| R6 | 06_CAPS line 32 | first draft 4 (restated) | |
+| R7 | REA_16 §2c row amendment | first draft 8 | |
+| R8 | REA_16 §6 log row | first draft 9 | |
+| stands | first draft 5 (05_CLASSICAL line), 10a–10b (§3 desc law, STEM.gifts style) | | |
