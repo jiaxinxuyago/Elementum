@@ -1,0 +1,649 @@
+{
+ "tally": {
+  "original": 26.5,
+  "blind": 18,
+  "benchmarked": 8.5
+ },
+ "byPage": {
+  "P4.geng": {
+   "original": 3,
+   "blind": 5,
+   "benchmarked": 2
+  },
+  "energy.金_土": {
+   "original": 6,
+   "blind": 2,
+   "benchmarked": 1
+  },
+  "energy.金_木": {
+   "original": 5,
+   "blind": 2,
+   "benchmarked": 1
+  },
+  "energy.金_金": {
+   "original": 3,
+   "blind": 5,
+   "benchmarked": 1
+  },
+  "energy.金_水": {
+   "original": 4.5,
+   "blind": 1,
+   "benchmarked": 2.5
+  },
+  "energy.金_火": {
+   "original": 5,
+   "blind": 3,
+   "benchmarked": 1
+  }
+ },
+ "byField": {
+  "manifesto": {
+   "original": 0,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "dm_overview": {
+   "original": 0,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "band.yourNature_desc": {
+   "original": 1,
+   "blind": 0,
+   "benchmarked": 0
+  },
+  "band.self_card.face": {
+   "original": 1,
+   "blind": 0,
+   "benchmarked": 0
+  },
+  "band.self_card.presence": {
+   "original": 0,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "gifts[6]": {
+   "original": 0,
+   "blind": 0,
+   "benchmarked": 1
+  },
+  "gifts[5]": {
+   "original": 0,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "gifts[4]": {
+   "original": 0,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "shadows[1]": {
+   "original": 1,
+   "blind": 0,
+   "benchmarked": 0
+  },
+  "shadows[3]": {
+   "original": 0,
+   "blind": 0,
+   "benchmarked": 1
+  },
+  "mechanism.base": {
+   "original": 3,
+   "blind": 1,
+   "benchmarked": 1
+  },
+  "mechanism.friction_turn": {
+   "original": 1,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "carry.friction": {
+   "original": 1,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "function.definition_friction": {
+   "original": 1,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "ledger[0]": {
+   "original": 2,
+   "blind": 3,
+   "benchmarked": 0
+  },
+  "ledger[1]": {
+   "original": 3,
+   "blind": 0,
+   "benchmarked": 1
+  },
+  "ledger[2]": {
+   "original": 2,
+   "blind": 0,
+   "benchmarked": 3
+  },
+  "function.advise_friction": {
+   "original": 1,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "cta_verdict": {
+   "original": 3,
+   "blind": 2,
+   "benchmarked": 0
+  },
+  "carry.wide": {
+   "original": 1,
+   "blind": 0,
+   "benchmarked": 0
+  },
+  "function.definition_catalyst": {
+   "original": 1,
+   "blind": 1,
+   "benchmarked": 1
+  },
+  "function.advise_catalyst": {
+   "original": 2,
+   "blind": 1,
+   "benchmarked": 0
+  },
+  "mechanism.catalyst_turn": {
+   "original": 1.5,
+   "blind": 0.5,
+   "benchmarked": 0
+  },
+  "carry.catalyst": {
+   "original": 1,
+   "blind": 0.5,
+   "benchmarked": 0.5
+  }
+ },
+ "rows": [
+  {
+   "id": "Q01",
+   "page": "P4.geng",
+   "field": "manifesto",
+   "label": "Day Master page · manifesto · STEM.manifesto",
+   "pick": "A",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q02",
+   "page": "P4.geng",
+   "field": "dm_overview",
+   "label": "Day Master page · dm_overview · STEM.dm_overview",
+   "pick": "B",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q03",
+   "page": "P4.geng",
+   "field": "band.yourNature_desc",
+   "label": "Day Master page · band.yourNature_desc · STEM_BAND.yourNature_desc",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q04",
+   "page": "P4.geng",
+   "field": "band.self_card.face",
+   "label": "Day Master page · band.self_card.face · STEM_BAND.self_card",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q05",
+   "page": "P4.geng",
+   "field": "band.self_card.presence",
+   "label": "Day Master page · band.self_card.presence · STEM_BAND.self_card",
+   "pick": "B",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q06",
+   "page": "P4.geng",
+   "field": "gifts[6]",
+   "label": "Day Master page · gifts[6] (order door, ) · STEM.gifts",
+   "pick": "B",
+   "piles": "benchmarked",
+   "note": ""
+  },
+  {
+   "id": "Q07",
+   "page": "P4.geng",
+   "field": "gifts[5]",
+   "label": "Day Master page · gifts[5] (action door, ) · STEM.gifts",
+   "pick": "A",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q08",
+   "page": "P4.geng",
+   "field": "gifts[4]",
+   "label": "Day Master page · gifts[4] (expression door, ) · STEM.gifts",
+   "pick": "A",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q09",
+   "page": "P4.geng",
+   "field": "shadows[1]",
+   "label": "Day Master page · shadows[1] (body door, ) · STEM.gifts",
+   "pick": "A",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q10",
+   "page": "P4.geng",
+   "field": "shadows[3]",
+   "label": "Day Master page · shadows[3] (mind door, ) · STEM.gifts",
+   "pick": "C",
+   "piles": "benchmarked",
+   "note": ""
+  },
+  {
+   "id": "Q11",
+   "page": "energy.金_土",
+   "field": "mechanism.base",
+   "label": "Earth page (your Mind, friction) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+   "pick": "A",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q12",
+   "page": "energy.金_土",
+   "field": "mechanism.friction_turn",
+   "label": "Earth page (your Mind, friction) · mechanism.friction_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+   "pick": "A",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q13",
+   "page": "energy.金_土",
+   "field": "carry.friction",
+   "label": "Earth page (your Mind, friction) · carry.friction · ELEMENT_PAIR.carry",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q14",
+   "page": "energy.金_土",
+   "field": "function.definition_friction",
+   "label": "Earth page (your Mind, friction) · function.definition_friction · ELEMENT_PAIR.function.definition_catalyst",
+   "pick": "C",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q15",
+   "page": "energy.金_土",
+   "field": "ledger[0]",
+   "label": "Earth page (your Mind, friction) · ledger[0] (trait door, The Alchemist (偏印)) · ELEMENT_GOD.fn_reading",
+   "pick": "A",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q16",
+   "page": "energy.金_土",
+   "field": "ledger[1]",
+   "label": "Earth page (your Mind, friction) · ledger[1] (scene door, The Alchemist (偏印)) · ELEMENT_GOD.fn_reading",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q17",
+   "page": "energy.金_土",
+   "field": "ledger[2]",
+   "label": "Earth page (your Mind, friction) · ledger[2] (outside door, The Alchemist (偏印)) · ELEMENT_GOD.fn_reading",
+   "pick": "B",
+   "piles": "benchmarked",
+   "note": ""
+  },
+  {
+   "id": "Q18",
+   "page": "energy.金_土",
+   "field": "function.advise_friction",
+   "label": "Earth page (your Mind, friction) · function.advise_friction · ELEMENT_PAIR.function.advise_catalyst",
+   "pick": "B",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q19",
+   "page": "energy.金_土",
+   "field": "cta_verdict",
+   "label": "Earth page (your Mind, friction) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+   "pick": "B",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q20",
+   "page": "energy.金_木",
+   "field": "mechanism.base",
+   "label": "Wood page (your Action, catalyst, abundant) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+   "pick": "B",
+   "piles": "benchmarked",
+   "note": ""
+  },
+  {
+   "id": "Q21",
+   "page": "energy.金_木",
+   "field": "carry.wide",
+   "label": "Wood page (your Action, catalyst, abundant) · carry.wide · ELEMENT_PAIR.carry",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q22",
+   "page": "energy.金_木",
+   "field": "function.definition_catalyst",
+   "label": "Wood page (your Action, catalyst, abundant) · function.definition_catalyst · ELEMENT_PAIR.function.definition_catalyst",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q23",
+   "page": "energy.金_木",
+   "field": "ledger[0]",
+   "label": "Wood page (your Action, catalyst, abundant) · ledger[0] (trait door, The Steward (正财)) · ELEMENT_GOD.fn_reading",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q24",
+   "page": "energy.金_木",
+   "field": "ledger[1]",
+   "label": "Wood page (your Action, catalyst, abundant) · ledger[1] (scene door, The Steward (正财)) · ELEMENT_GOD.fn_reading",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q25",
+   "page": "energy.金_木",
+   "field": "ledger[2]",
+   "label": "Wood page (your Action, catalyst, abundant) · ledger[2] (outside door, The Horizon (偏财)) · ELEMENT_GOD.fn_reading",
+   "pick": "A",
+   "piles": "original",
+   "note": "owner: A, but 'three ventures across two cities' exaggerates; rhetoric in proportion; examples from the persona's ruled domains, not work by default (backlogged)"
+  },
+  {
+   "id": "Q26",
+   "page": "energy.金_木",
+   "field": "function.advise_catalyst",
+   "label": "Wood page (your Action, catalyst, abundant) · function.advise_catalyst · ELEMENT_PAIR.function.advise_catalyst",
+   "pick": "C",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q27",
+   "page": "energy.金_木",
+   "field": "cta_verdict",
+   "label": "Wood page (your Action, catalyst, abundant) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+   "pick": "B",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q28",
+   "page": "energy.金_金",
+   "field": "mechanism.base",
+   "label": "Metal page (your Body, the core, friction) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+   "pick": "B",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q29",
+   "page": "energy.金_金",
+   "field": "mechanism.friction_turn",
+   "label": "Metal page (your Body, the core, friction) · mechanism.friction_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+   "pick": "A",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q30",
+   "page": "energy.金_金",
+   "field": "carry.friction",
+   "label": "Metal page (your Body, the core, friction) · carry.friction · ELEMENT_PAIR.carry",
+   "pick": "B",
+   "piles": "blind",
+   "note": "owner at Q30: the 'Run heavy,' opener is too upfront; plain prescriptive syntax wanted (backlogged)"
+  },
+  {
+   "id": "Q31",
+   "page": "energy.金_金",
+   "field": "function.definition_friction",
+   "label": "Metal page (your Body, the core, friction) · function.definition_friction · ELEMENT_PAIR.function.definition_catalyst",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q32",
+   "page": "energy.金_金",
+   "field": "ledger[0]",
+   "label": "Metal page (your Body, the core, friction) · ledger[0] (trait door, The Twin (比肩)) · ELEMENT_GOD.fn_reading",
+   "pick": "C",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q33",
+   "page": "energy.金_金",
+   "field": "ledger[1]",
+   "label": "Metal page (your Body, the core, friction) · ledger[1] (scene door, The Twin (比肩)) · ELEMENT_GOD.fn_reading",
+   "pick": "C",
+   "piles": "benchmarked",
+   "note": "owner: C, but no scene-door version would pass if it keeps the exact time and place detail (at nine in the morning etc.); see backlog item 2"
+  },
+  {
+   "id": "Q34",
+   "page": "energy.金_金",
+   "field": "ledger[2]",
+   "label": "Metal page (your Body, the core, friction) · ledger[2] (outside door, The Rival (劫财)) · ELEMENT_GOD.fn_reading",
+   "pick": "B",
+   "piles": "original",
+   "note": "owner: B, but the outside door has the same fault as the scene door: far-fetched detail ('by their second week, as onboarding' is filler); explain the trait first; all door versions expand the example instead of illustrating the trait (backlog item 2 widened to all three doors)"
+  },
+  {
+   "id": "Q35",
+   "page": "energy.金_金",
+   "field": "function.advise_friction",
+   "label": "Metal page (your Body, the core, friction) · function.advise_friction · ELEMENT_PAIR.function.advise_catalyst",
+   "pick": "C",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q36",
+   "page": "energy.金_金",
+   "field": "cta_verdict",
+   "label": "Metal page (your Body, the core, friction) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q37",
+   "page": "energy.金_水",
+   "field": "mechanism.base",
+   "label": "Water page (your Expression, catalyst, thin) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+   "pick": "A",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q38",
+   "page": "energy.金_水",
+   "field": "mechanism.catalyst_turn",
+   "label": "Water page (your Expression, catalyst, thin) · mechanism.catalyst_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+   "pick": "B",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q39",
+   "page": "energy.金_水",
+   "field": "carry.catalyst",
+   "label": "Water page (your Expression, catalyst, thin) · carry.catalyst · ELEMENT_PAIR.carry",
+   "pick": "B+C",
+   "piles": "benchmarked+original",
+   "note": "split pick: B's clause, C's remedy (writing, speaking, sharing work early lets the blade breathe)"
+  },
+  {
+   "id": "Q40",
+   "page": "energy.金_水",
+   "field": "function.definition_catalyst",
+   "label": "Water page (your Expression, catalyst, thin) · function.definition_catalyst · ELEMENT_PAIR.function.definition_catalyst",
+   "pick": "C",
+   "piles": "benchmarked",
+   "note": ""
+  },
+  {
+   "id": "Q41",
+   "page": "energy.金_水",
+   "field": "ledger[0]",
+   "label": "Water page (your Expression, catalyst, thin) · ledger[0] (trait door, The Artisan (食神)) · ELEMENT_GOD.fn_reading",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q42",
+   "page": "energy.金_水",
+   "field": "ledger[1]",
+   "label": "Water page (your Expression, catalyst, thin) · ledger[1] (scene door, The Artisan (食神)) · ELEMENT_GOD.fn_reading",
+   "pick": "none",
+   "piles": "none",
+   "note": "No scene passed: too specific on details, reader loses track of the conclusion (backlog item 2, all three doors)"
+  },
+  {
+   "id": "Q43",
+   "page": "energy.金_水",
+   "field": "ledger[2]",
+   "label": "Water page (your Expression, catalyst, thin) · ledger[2] (outside door, The Virtuoso (伤官)) · ELEMENT_GOD.fn_reading",
+   "pick": "A",
+   "piles": "benchmarked",
+   "note": ""
+  },
+  {
+   "id": "Q44",
+   "page": "energy.金_水",
+   "field": "function.advise_catalyst",
+   "label": "Water page (your Expression, catalyst, thin) · function.advise_catalyst · ELEMENT_PAIR.function.advise_catalyst",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q45",
+   "page": "energy.金_水",
+   "field": "cta_verdict",
+   "label": "Water page (your Expression, catalyst, thin) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+   "pick": "B",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q46",
+   "page": "energy.金_火",
+   "field": "mechanism.base",
+   "label": "Fire page (your Order, catalyst, thin) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q47",
+   "page": "energy.金_火",
+   "field": "mechanism.catalyst_turn",
+   "label": "Fire page (your Order, catalyst, thin) · mechanism.catalyst_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+   "pick": "B+C",
+   "piles": "blind+original",
+   "note": "split pick: B's first sentence (the forge lacks the heat to reshape the steel), C's second sentence (an edge that keeps its first shape and calls it character)"
+  },
+  {
+   "id": "Q48",
+   "page": "energy.金_火",
+   "field": "carry.catalyst",
+   "label": "Fire page (your Order, catalyst, thin) · carry.catalyst · ELEMENT_PAIR.carry",
+   "pick": "B+A",
+   "piles": "blind+original",
+   "note": "split pick: B's clause (the forge lacks the heat to reshape the steel), A's remedy (take the demanding role, the audit, the arena)"
+  },
+  {
+   "id": "Q49",
+   "page": "energy.金_火",
+   "field": "function.definition_catalyst",
+   "label": "Fire page (your Order, catalyst, thin) · function.definition_catalyst · ELEMENT_PAIR.function.definition_catalyst",
+   "pick": "A",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q50",
+   "page": "energy.金_火",
+   "field": "ledger[0]",
+   "label": "Fire page (your Order, catalyst, thin) · ledger[0] (trait door, The General (七杀)) · ELEMENT_GOD.fn_reading",
+   "pick": "A",
+   "piles": "blind",
+   "note": ""
+  },
+  {
+   "id": "Q51",
+   "page": "energy.金_火",
+   "field": "ledger[1]",
+   "label": "Fire page (your Order, catalyst, thin) · ledger[1] (scene door, The General (七杀)) · ELEMENT_GOD.fn_reading",
+   "pick": "A",
+   "piles": "original",
+   "note": "relative pick only: A is good relatively, but the scene fails again (too much narrating and descriptive detail); backlog item 2"
+  },
+  {
+   "id": "Q52",
+   "page": "energy.金_火",
+   "field": "ledger[2]",
+   "label": "Fire page (your Order, catalyst, thin) · ledger[2] (outside door, The General (七杀)) · ELEMENT_GOD.fn_reading",
+   "pick": "A",
+   "piles": "benchmarked",
+   "note": "with reservation: an outside door opening with how people react to you is not better than describing how the user reacts to a crisis themselves; the outside-door lens is not the best lens here (new backlog item 5)"
+  },
+  {
+   "id": "Q53",
+   "page": "energy.金_火",
+   "field": "function.advise_catalyst",
+   "label": "Fire page (your Order, catalyst, thin) · function.advise_catalyst · ELEMENT_PAIR.function.advise_catalyst",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  },
+  {
+   "id": "Q54",
+   "page": "energy.金_火",
+   "field": "cta_verdict",
+   "label": "Fire page (your Order, catalyst, thin) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+   "pick": "C",
+   "piles": "original",
+   "note": ""
+  }
+ ]
+}
