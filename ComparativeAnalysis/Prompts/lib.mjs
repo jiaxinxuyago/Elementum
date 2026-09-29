@@ -18,6 +18,8 @@ export const strip = (o) => Array.isArray(o) ? o.map(strip) : (o && typeof o ===
 export const J = (p) => strip(JSON.parse(fs.readFileSync(S + p, 'utf8')).candidates);
 export const exists = (p) => fs.existsSync(S + p);
 export const wc = (s) => String(s || '').trim().split(/\s+/).filter(Boolean).length;
+// The rhythm note (owner 2026-09-30, B2): sentences over twenty words per field, reported in both gates beside the stem's §2b rhythm row, never blocking (the freedom clause of the master prompt stands).
+export const longSentences = (t) => String(t || '').split(/(?<=[.!?])\s+/).filter((s) => wc(s) > 20).length;
 export const flat = (v, prefix = '') => typeof v === 'string' ? [[prefix, v]] : Array.isArray(v) ? v.flatMap((x, i) => flat(x, `${prefix}[${i}]`)) : (v && typeof v === 'object') ? Object.entries(v).flatMap(([k, x]) => flat(x, prefix ? `${prefix}.${k}` : k)) : [];
 export const get = (o, p) => p.split('.').reduce((v, k) => v?.[k], o);
 
@@ -72,6 +74,9 @@ export const STEMS = {
   '壬': { file: 'ren', el: 'Water', pol: 'yang', name: 'The Ocean', spine: 'ranges' }, '癸': { file: 'gui', el: 'Water', pol: 'yin', name: 'The Rain', spine: 'permeates' },
 };
 export const STEM_OF_FILE = Object.fromEntries(Object.entries(STEMS).map(([k, v]) => [v.file, k]));
+// The rhythm temperament per stem, quoted from REA_16 §2b (the Angle Map's "Rhythm temperament" column); printed beside the rhythm count (B2, owner 2026-09-30), guidance the read notices, never a gate.
+export const STEM_RHYTHM = { '甲': 'forward-leaning clauses that start before they\'re ready, endings arriving early', '乙': 'supple, winding sentences that land somewhere unexpected; the licensed format-breaker', '丙': 'generous open clauses, warmth stacked, then one bare short sentence', '丁': 'intimate close-range lines, small words, held steady', '戊': 'slow declaratives that do not hurry, weight in the nouns', '己': 'patient roundish sentences that repeat like seasons, the cost arriving late', '庚': 'short hard declaratives, clean stops, no ornament', '辛': 'precise small-scale sentences, one exact word preferred over two near ones', '壬': 'long submerged clauses surfacing rarely, wide spans between periods', '癸': 'soft accumulating clauses, gentle repetitions, edges dissolving' };
+export const rhythmLabel = (t, stem) => `sentences over twenty words: ${longSentences(t)}${stem && STEM_RHYTHM[stem] ? ` · stem rhythm: ${STEM_RHYTHM[stem]}` : ''}`;
 // The neighbouring angle a stem must not borrow, where REA_17 §2.2 states it;
 // every other stem gets the master prompt's own line (the two drifts).
 const NOT_BORROW = { '癸': 'not depletion or unrecognised giving, that is 丙\'s and 己\'s', '壬': 'not neglect', '辛': 'not 庚\'s isolation' };

@@ -6,16 +6,16 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH, longSentences, STEM_RHYTHM } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
 // --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
 const againstDir = (() => { const i = argv.indexOf('--against'); return i >= 0 ? argv[i + 1] : null; })();
 export function validateTemplate(file, opts = {}) {
   const sk = JSON.parse(fs.readFileSync(file, 'utf8'));
-  const orig = (() => { const d = opts.against || againstDir; if (!d) return null; const f = path.join(d, path.basename(file).replace(/\.json$/, '.original.json')); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null; })(); const R = { file: path.basename(file), page: sk.page, fields: {}, blocking: [], readFlags: [], repInfo: [], zone: null };
+  const orig = (() => { const d = opts.against || againstDir; if (!d) return null; const f = path.join(d, path.basename(file).replace(/\.json$/, '.original.json')); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null; })(); const R = { file: path.basename(file), page: sk.page, fields: {}, blocking: [], readFlags: [], repInfo: [], rhythm: {}, zone: null };
   const log = (s) => { if (!quiet) console.log(s); }; log(`\n## ${path.basename(file)} · ${sk.page}`);
-  const stem = Object.keys(STEMS).find((k) => sk.cell.includes(`STEM/${STEMS[k].file}`)) || null;
+  const stem = Object.keys(STEMS).find((k) => sk.cell.includes(`STEM/${STEMS[k].file}`)) || (STEMS[sk.stem] ? sk.stem : null); // the skeleton's own stem key (handoff.mjs since 2026-09-30) names it on the energy pages
   const texts = {}; // path → text for the four-gram check
   for (const [fp, f] of Object.entries(sk.fields || {})) {
     const findings = []; const F = (w, m) => findings.push(`${w} :: ${m}`); const gate = makeGate(F); const s = f.spec; const v = f.value;
@@ -58,6 +58,7 @@ export function validateTemplate(file, opts = {}) {
     }
     // the reader zone per field
     if (zoneCard) { const z = zoneCheck(typeof v === 'string' ? v : Object.values(v).join(' ')); if (s.card === 'ELEMENT_GOD.fn_reading' && v.word) { const zw = zoneCheck(v.word); if (zw.outside.length) F(fp + '.word', `outside the reader zone: ${zw.outside.join(', ')}`); } if (z.per100 > ZONE_BLOCK_PER100) F(fp, `reader zone: ${z.per100} outside-zone words per 100 > ${ZONE_BLOCK_PER100}`); else if (z.outside.length) R.readFlags.push(`${fp} :: outside the zone (not blocking): ${z.outside.join(', ')}`); }
+    if (texts[fp] != null) R.rhythm[fp] = longSentences(texts[fp]);
     R.fields[fp] = { pass: findings.length === 0, findings }; R.blocking.push(...findings);
     log(`${findings.length ? '  ✗  ' : '  ok '} ${fp}${findings.length ? '\n     - ' + findings.join('\n     - ') : ''}`);
   }
@@ -72,6 +73,7 @@ export function validateTemplate(file, opts = {}) {
   R.pass = R.blocking.length === 0;
   if (R.readFlags.length) log('  read flags: ' + R.readFlags.join(' | '));
   if (R.repInfo.length) log('  repetition inventory (not blocking): ' + R.repInfo.slice(0, 5).join(' | '));
+  if (Object.keys(R.rhythm).length) log(`  rhythm (sentences over twenty words per field; reported, never blocking${stem && STEM_RHYTHM[stem] ? `; stem rhythm: ${STEM_RHYTHM[stem]}` : ''}): ` + Object.entries(R.rhythm).map(([k, n]) => `${k} ${n}`).join(' · '));
   log(R.pass ? `  → PASS (${Object.keys(sk.fields).length} fields)` : `  → FAIL (${R.blocking.length} blocking)`);
   return R;
 }

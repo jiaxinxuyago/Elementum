@@ -66,7 +66,7 @@ for (const e of ch.energies) {
 let nFields = 0;
 for (const sk of skeletons) {
   const filled = JSON.parse(JSON.stringify(sk)); // originals as filled (values before redaction)
-  const out = { _handoff: `${today} ${stemFile} ${chartId} ${pass}`, _instructions: 'Fill every "value" (strings, or the objects with the keys shown). Keep every other key byte-identical. You may add "_trace" beside any "value" holding one clause on the mechanism you cut it from. Return this file with the same name.', cell: sk.cell, page: sk.page, read_first: sk.read, facts: sk.facts, fields: sk.fields };
+  const out = { _handoff: `${today} ${stemFile} ${chartId} ${pass}`, _instructions: 'Fill every "value" (strings, or the objects with the keys shown). Keep every other key byte-identical. You may add "_trace" beside any "value" holding one clause on the mechanism you cut it from. Return this file with the same name.', cell: sk.cell, page: sk.page, stem, read_first: sk.read, facts: sk.facts, fields: sk.fields };
   fs.writeFileSync(OUTDIR + 'skeletons/' + sk.file, JSON.stringify(out, null, 1)); nFields += Object.keys(sk.fields).length;
   benchmark[sk.file] = out; // values are unredacted only when pass=benchmarked
 }
