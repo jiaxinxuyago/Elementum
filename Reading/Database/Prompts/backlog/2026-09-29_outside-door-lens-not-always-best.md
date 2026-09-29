@@ -1,7 +1,7 @@
 # Backlog 5 — the outside-door lens is not always the best lens
 
 **Raised:** 2026-09-29, owner note at Q52 of the blind read (Fire page, outside door, The General 七杀, "Crisis-ready").
-**Status:** open, awaiting owner ruling after the round.
+**Status:** RULED 2026-09-29 (owner, by questionnaire): OPTION 1. The outside door stays the third lens, but the passage opens on the reader's own act in the moment and lands on what others see or pay in its last sentence. Scope: the ledger's outside door only (the fn_reading card's outside register and the door rotation rule; the Day Master pools and the pair fields untouched). No patch was drafted before the ruling; the apply pass drafts and applies it.
 
 ## What the owner said
 
