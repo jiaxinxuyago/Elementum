@@ -31,5 +31,7 @@ Written from a cloud session (claude.ai/code). Supersedes the 2026-09-20 handoff
 
 ## Open
 
+- BACKLOG (owner idea 2026-09-29): the energy prescription inside a friction's advice, derived from the ten equations (the taming catalyst first, the drain as the outlet, never a catalyst that feeds the friction; on the golden chart heavy Earth is cured by Wood and Water, not Fire). `Reading/Database/Prompts/backlog/2026-09-29_energy-prescription-in-friction-advice.md`, three questions for the owner before it becomes a rule.
+
 - The owner's rulings on the self-test rows; then the ChatGPT round on the golden core 11 (`G01…G11` of the comparison manifest) and the read.
 - Cloudflare tidy-ups; design-HTML sync debt (unchanged).

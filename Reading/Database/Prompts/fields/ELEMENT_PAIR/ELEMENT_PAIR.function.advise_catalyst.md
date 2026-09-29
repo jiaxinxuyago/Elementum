@@ -28,3 +28,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-29 | PROPOSED (owner): a closing energy-prescription beat in advise_friction naming the catalyst that cures the overgrown function (the taming energy first; never one that feeds the friction). Derivation and open questions: `backlog/2026-09-29_energy-prescription-in-friction-advice.md` | pending the owner's rulings |
