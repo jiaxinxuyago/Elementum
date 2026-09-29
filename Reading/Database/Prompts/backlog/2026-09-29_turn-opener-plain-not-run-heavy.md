@@ -1,6 +1,6 @@
 # Backlog · the state line's opener: plain and prescriptive, not "Run heavy," (owner feedback, 2026-09-29, at Q30 of the blind read)
 
-**Status: RULED 2026-09-29 (owner, by questionnaire): OPTION 3, the free opener under the plain-terms law (parts 3.1 to 3.10). "Run thin," and "Run heavy," are retired. The reference lead-in the owner picked for the card's exemplars and the harness's guidance is "With too much {Element}, …" / "With too little {Element}, …" (plain, the element named, not a fixed phrase: any plain statement of the element and its volume passes). The 50 pair turns, 19 yin turns and 140 seat turns are re-cut under the new law in the next round, gated and ruled row by row. Application pending the backlog apply pass.** Cards affected: `fields/ELEMENT_PAIR/ELEMENT_PAIR.mechanism.catalyst_turn.md` (both turns), `fields/ELEMENT_PAIR/ELEMENT_PAIR.carry.md` (the cut law follows the opener), `fields/POSITION/POSITION.turn_catalyst.md` (the seat turns use the same formula), the register row C3, REA_16 §2c (the mechanism row) and the harness opener checks.
+**Status: APPLIED 2026-09-29 (commit 907439c). Ruled 2026-09-29 (owner, by questionnaire): OPTION 3, the free opener under the plain-terms law (parts 3.1 to 3.10). "Run thin," and "Run heavy," are retired. The reference lead-in the owner picked for the card's exemplars and the harness's guidance is "With too much {Element}, …" / "With too little {Element}, …" (plain, the element named, not a fixed phrase: any plain statement of the element and its volume passes). The 50 pair turns, 19 yin turns and 140 seat turns are re-cut under the new law in the next round, gated and ruled row by row. Application pending the backlog apply pass.** Cards affected: `fields/ELEMENT_PAIR/ELEMENT_PAIR.mechanism.catalyst_turn.md` (both turns), `fields/ELEMENT_PAIR/ELEMENT_PAIR.carry.md` (the cut law follows the opener), `fields/POSITION/POSITION.turn_catalyst.md` (the seat turns use the same formula), the register row C3, REA_16 §2c (the mechanism row) and the harness opener checks.
 
 ## The takeaway, as the owner put it
 
@@ -21,8 +21,8 @@ The manual's own definition lines (REA_02 §5c: "More fuel comes in than your co
 
 ## Action items
 
-- [ ] Owner rules option 1, 2 or 3 (or a mix: 1 for the seats, 2 for the pair cells).
-- [ ] Update the two turn cards, the carry card's cut law wording, the POSITION.turn card, register C3, the REA_16 §2c mechanism row note and §6; update the opener checks in `lib.mjs`, `validate-template.mjs` and `handoff.mjs`.
+- [x] Owner rules option 1, 2 or 3 (or a mix: 1 for the seats, 2 for the pair cells).
+- [x] Update the two turn cards, the carry card's cut law wording, the POSITION.turn card, register C3, the REA_16 §2c mechanism row note and §6; update the opener checks in `lib.mjs`, `validate-template.mjs` and `handoff.mjs`.
 - [ ] If option 2 or 3: re-cut the turns in the next round with the new opener law, gated and ruled row by row; if option 1: a TEMPLATED row in REA_03 §5 and the render change in `buildElementScreen`.
 
 ## Draft patch (not applied)

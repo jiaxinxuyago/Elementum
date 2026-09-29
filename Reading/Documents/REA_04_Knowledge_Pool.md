@@ -236,7 +236,7 @@ Max: **2 behavioral claims.** Hard ceiling.
 
 ---
 
-**SOURCE-FROM — the remedy lines (added 2026-09-29 on the owner's ruling: the energy prescription in the friction advice, `Reading/Database/Prompts/backlog/2026-09-29_energy-prescription-in-friction-advice.md`).** The five formulas below are each chapter's standing rule for what cures a ten god in excess, in the shorthand form the tradition uses (a rule, not a verse; treated like 富屋贫人 above). They are the classical ground for the cure set the friction advice names (REA_02 §5h, register D7): the energy that tames the overgrown function, or, where the taming energy is unwanted on the band, the energy that drains it.
+**SOURCE-FROM, the remedy lines (added 2026-09-29 on the owner's ruling: the energy prescription in the friction advice, `Reading/Database/Prompts/backlog/2026-09-29_energy-prescription-in-friction-advice.md`).** The five formulas below are each chapter's standing rule for what cures a ten god in excess, in the shorthand form the tradition uses (a rule, not a verse; treated like 富屋贫人 above). They are the classical ground for the cure set the friction advice names (REA_02 §5h, register D7): the energy that tames the overgrown function, or, where the taming energy is unwanted on the band, the energy that drains it.
 
 ```
 论印：印重用财（财破印）

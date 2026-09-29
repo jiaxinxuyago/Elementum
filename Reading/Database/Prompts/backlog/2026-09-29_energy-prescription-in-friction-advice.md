@@ -1,6 +1,6 @@
 # Backlog · the energy prescription inside a friction's advice (owner idea, 2026-09-29)
 
-**Status: RULED 2026-09-29 (owner, by questionnaire). Q1 = the friction advice only. Q2 = template-level, by band. Q3 = the taming cure only. REA_04 = add the 子平真诠 remedy lines to PART 2. Apply: Parts 1 (variant A), 2a variant A, 2b, 2c, 3 (as drafted), 4a, 4b, 7, 8, and the REA_04 addition. Parts 5 and 6: NO. Application pending the backlog apply pass.**
+**Status: APPLIED 2026-09-29 (commit 7b5f6b4). Ruled 2026-09-29 (owner, by questionnaire). Q1 = the friction advice only. Q2 = template-level, by band. Q3 = the taming cure only. REA_04 = add the 子平真诠 remedy lines to PART 2. Apply: Parts 1 (variant A), 2a variant A, 2b, 2c, 3 (as drafted), 4a, 4b, 7, 8, and the REA_04 addition. Parts 5 and 6: NO. Application pending the backlog apply pass.**
 
 ## The idea, as the owner put it
 
@@ -36,10 +36,10 @@ Evidence in the library: REA_02 §5d (the ten equations, feeds and tames), §5c 
 
 ## Action items
 
-- [ ] Owner rules questions 1 to 3.
-- [ ] Add the prescription beat to the advise_friction card (and, if ruled, the carry.excess remedy), with the table above as the derivation.
+- [x] Owner rules questions 1 to 3.
+- [x] Add the prescription beat to the advise_friction card (and, if ruled, the carry.excess remedy), with the table above as the derivation.
 - [ ] Re-cut the 25 friction advices with the prescription beat, gated (≤60 words), rendered before/after on the golden chart and the two contrast charts, ruled row by row.
-- [ ] Add the rule to the register (a new row under D or F) and log it in REA_16 §6 once ruled.
+- [x] Add the rule to the register (a new row under D or F) and log it in REA_16 §6 once ruled.
 
 ## Draft patch (not applied)
 

@@ -1,6 +1,6 @@
 # Backlog · the doors illustrate the trait, they do not elaborate the example (owner feedback, 2026-09-29, during the blind read; widened from the scene door to all three doors at Q34)
 
-**Status: RULED 2026-09-29 (owner, by questionnaire). Scope: all three doors (the revised patch R1 to R8, plus the standing parts: the 05 sources line, the §3 desc law, the STEM.gifts style line). Times: STRICT, no clock time on any door, the content exception is dropped (the Rigid row is rewritten). Gate: BLOCKING (R5b moves into `F('doors', 'time or place stamp')`). The one-line rule is REWORDED by the owner, conclusion first (below); every part that quotes the rule takes this wording. Application pending the backlog apply pass.**
+**Status: APPLIED 2026-09-29 (commit 5fc32cc; the outside door's opening then re-cut by item 5, commit 9758a36). Ruled 2026-09-29 (owner, by questionnaire). Scope: all three doors (the revised patch R1 to R8, plus the standing parts: the 05 sources line, the §3 desc law, the STEM.gifts style line). Times: STRICT, no clock time on any door, the content exception is dropped (the Rigid row is rewritten). Gate: BLOCKING (R5b moves into `F('doors', 'time or place stamp')`). The one-line rule is REWORDED by the owner, conclusion first (below); every part that quotes the rule takes this wording. Application pending the backlog apply pass.**
 
 **The rule, as ruled (owner 2026-09-29):** "Every door states the trait as a conclusion the reader can repeat, then illustrates it. Imagery is illustration, never a scene to reconstruct: no clock times, no places, no narration, no detail that does not sharpen the conclusion. Cut anything the trait does not need." Card affected: `fields/ELEMENT_GOD/ELEMENT_GOD.fn_reading.md` (the three doors). Also touches the harness spec note for scene doors and the STEM pool desc guidance.
 
@@ -31,8 +31,8 @@ So the rule this item now proposes covers the three doors as a set: each door op
 
 ## Action items
 
-- [ ] Re-cut the scene-door construct in the fn_reading card and the master prompt's scene sentence; note the change in REA_16 §2c (THE THREE DOORS row) and §6.
-- [ ] Update `handoff.mjs` spec notes and `validate-template.mjs` / `lib.mjs` notes for scene doors.
+- [x] Re-cut the scene-door construct in the fn_reading card and the master prompt's scene sentence; note the change in REA_16 §2c (THE THREE DOORS row) and §6.
+- [x] Update `handoff.mjs` spec notes and `validate-template.mjs` / `lib.mjs` notes for scene doors.
 - [ ] Re-run the scene doors of the golden set under the new construct in the next round; compare against this round's.
 
 ## Draft patch (not applied)

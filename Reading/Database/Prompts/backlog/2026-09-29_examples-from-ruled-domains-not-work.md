@@ -1,6 +1,6 @@
 # Backlog · examples drawn from the persona's ruled domains, rhetoric kept in proportion (owner feedback, 2026-09-29, at Q25 of the blind read)
 
-**Status: RULED 2026-09-29 (owner, by questionnaire). Apply Parts 1 to 8 with the rule REWORDED by the owner (below); every part that quotes the rule takes this wording. Size test: read, plus a non-blocking harness heuristic note (numbers above two attached to ventures, cities, businesses, companies, countries, languages, degrees). The flagged 木_偏财 lines are re-cut in the next round with the other doors. Application pending the backlog apply pass.**
+**Status: APPLIED 2026-09-29 (commit 0da2d95). Ruled 2026-09-29 (owner, by questionnaire). Apply Parts 1 to 8 with the rule REWORDED by the owner (below); every part that quotes the rule takes this wording. Size test: read, plus a non-blocking harness heuristic note (numbers above two attached to ventures, cities, businesses, companies, countries, languages, degrees). The flagged 木_偏财 lines are re-cut in the next round with the other doors. Application pending the backlog apply pass.**
 
 **The rule, as ruled (owner 2026-09-29):** "Draw every example from what the persona rules (its three domain words) or from ordinary life: home, money, friends, family, the body, food, rest. Work is one source among many, never the default. Keep every picture at a size the reader can recognise as their own: one venture, one city, a page a day. A figure of speech is welcome. A boast on the reader's behalf is not." Cards affected: `fields/ELEMENT_GOD/ELEMENT_GOD.fn_reading.md` (all three doors), `fields/STEM/STEM.gifts.md` (desc), `fields/ELEMENT_PAIR/ELEMENT_PAIR.function.advise_catalyst.md` (the small actions), the master prompt's "what you are given" paragraph.
 
@@ -20,9 +20,9 @@ Across the three versions the examples cluster on work objects: "the shared docu
 
 ## Action items
 
-- [ ] Add to the fn_reading card, the pool desc guidance and the advice card: examples from the persona's ruled domains and ordinary life; work is one domain among eight, not the default; pictures at a size the reader can own; rhetoric in proportion.
-- [ ] Add the persona's three domain words to the harness spec note for every ledger row (they are in the cell facts already; the spec should name them as the example source).
-- [ ] Consider a register row under E (imagery and angle): "examples come from the persona's ruled domains and ordinary life, at a size the reader can own".
+- [x] Add to the fn_reading card, the pool desc guidance and the advice card: examples from the persona's ruled domains and ordinary life; work is one domain among eight, not the default; pictures at a size the reader can own; rhetoric in proportion.
+- [x] Add the persona's three domain words to the harness spec note for every ledger row (they are in the cell facts already; the spec should name them as the example source).
+- [x] Consider a register row under E (imagery and angle): "examples come from the persona's ruled domains and ordinary life, at a size the reader can own".
 - [ ] Re-cut the flagged line (木_偏财 catalyst outside door, "three ventures across two cities") in the next round and rule it with the others.
 
 ## Draft patch (not applied)
