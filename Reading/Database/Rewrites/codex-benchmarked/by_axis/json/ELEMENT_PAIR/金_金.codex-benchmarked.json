@@ -1,0 +1,52 @@
+{
+  "$archetype": "金_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_金",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal meets its own hardness in another piece of Metal. An edge laid beside an equal edge finds the same resistance, the same wish to hold its shape. Neither gives easily. Their weight can support a common task, or their contact can spend itself in scraping, with each bright surface marked by what would not yield.",
+      "friction_turn": "Run heavy, the blade keeps its angle even against a surface that needs a gentler cut. Certainty hardens into refusal. Hear one trusted person's full answer before defending your own."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The blade keeps its angle even against a surface that needs a gentler cut.",
+        "remedy": "Hear one trusted person's full answer before defending your own."
+      }
+    },
+    "function": {
+      "definition_friction": "Metal is your Body, and running over, it is the strength you hold in reserve after the task is done. You can sit down without feeling at rest. Discipline keeps pushing, and a small interruption meets strength that has no useful place to go.",
+      "advise_friction": "Unspent effort can make ordinary contact feel like resistance. Give your body a short task after a long stretch of sitting. Choose a walk or something to make with your hands. Set a clear finish, then stop there. Let your hands rest."
+    },
+    "cta_verdict": "You hold your shape through effort, and keeping that same grip during rest can make recovery harder than the work."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
+      "friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      }
+    },
+    "function": {
+      "definition_friction": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
+      "advise_friction": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
+    },
+    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

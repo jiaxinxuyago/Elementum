@@ -1,0 +1,3 @@
+# Rewrites by codex-benchmarked
+
+Filed 2026-09-29 from 2026-09-23 geng golden benchmarked by `ComparativeAnalysis/Prompts/file-rewrites.mjs`. `by_axis/json/<AXIS>/<cell>.codex-benchmarked.json` mirrors the final template station's shape (sparse: only the fields this model wrote; `candidates` = the rewrite, `$original` = the shipping text, `$gate_findings` per field). `by_variable/json/<var>.codex-benchmarked.json` is the pivot per variable. `by_axis/md/` is the readable twin. Nothing here is truth: adopt a field with `node adopt.mjs codex-benchmarked <AXIS>/<cell> <field path>` on the owner's ruling.

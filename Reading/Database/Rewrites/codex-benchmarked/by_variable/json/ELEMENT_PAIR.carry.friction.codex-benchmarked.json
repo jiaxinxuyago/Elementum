@@ -1,0 +1,35 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.friction",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The ore keeps gathering while the finished blade waits for work.",
+        "remedy": "Try one small task before opening another book."
+      },
+      "original": {
+        "clause": "The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+        "remedy": "Dig out and cut something real."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The blade keeps its angle even against a surface that needs a gentler cut.",
+        "remedy": "Hear one trusted person's full answer before defending your own."
+      },
+      "original": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      },
+      "gate": "pass"
+    }
+  ]
+}

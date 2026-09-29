@@ -1,0 +1,30 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_catalyst",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_木",
+      "field": "function.advise_catalyst",
+      "candidate": "Growth gives you more to choose from than time can hold. At the end of each week, mark the task that produced something useful. Give it a place in next week's calendar. Put one other project aside. Write down the next step.",
+      "original": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.advise_catalyst",
+      "candidate": "Being understood starts before the wording feels finished. Give yourself ten minutes to write without fixing each line. Read the page aloud, then mark the sentence you most want understood. Share that sentence with one person.",
+      "original": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.advise_catalyst",
+      "candidate": "You do not need a crisis to give your strength a purpose. Set a deadline for one task you keep moving. Ask someone to check the result against a simple requirement. Keep a small daily promise when nothing is urgent. Write the time down.",
+      "original": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.",
+      "gate": "pass"
+    }
+  ]
+}

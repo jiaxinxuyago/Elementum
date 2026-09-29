@@ -1,0 +1,66 @@
+{
+  "$archetype": "金_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "金_比肩",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "Shuts people out",
+        "Rigid"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Shuts people out",
+            "doors": {
+              "trait": "Needing someone feels too close to handing over your judgment. You keep the difficult part to yourself, then offer a finished answer that gives other people little to work with. Help has to arrive already shaped to your standard, so even a kind offer can meet a closed hand."
+            }
+          },
+          {
+            "word": "Rigid",
+            "doors": {
+              "scene": "At ten, an invitation sits beside the schedule you wrote for the evening. You can keep every planned task and still have time for nothing that arrived unplanned. Crossing out a line feels harder than turning down the company, even when the rule has little left to protect."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "doors": {
+              "trait": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
+            }
+          },
+          {
+            "word": "Rigid",
+            "doors": {
+              "scene": "A friend was in town for one evening, the first in three years. Lights out at eleven held anyway, the way it held through the fever, the way it holds through everything. You slept on schedule and lay there knowing exactly what the schedule had cost."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Sealed-off",
+        "Rigid"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass"
+  }
+}

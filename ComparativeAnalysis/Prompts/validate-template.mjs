@@ -6,11 +6,14 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
-export function validateTemplate(file) {
-  const sk = JSON.parse(fs.readFileSync(file, 'utf8')); const R = { file: path.basename(file), page: sk.page, fields: {}, blocking: [], readFlags: [], repInfo: [], zone: null };
+// --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
+const againstDir = (() => { const i = argv.indexOf('--against'); return i >= 0 ? argv[i + 1] : null; })();
+export function validateTemplate(file, opts = {}) {
+  const sk = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const orig = (() => { const d = opts.against || againstDir; if (!d) return null; const f = path.join(d, path.basename(file).replace(/\.json$/, '.original.json')); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null; })(); const R = { file: path.basename(file), page: sk.page, fields: {}, blocking: [], readFlags: [], repInfo: [], zone: null };
   const log = (s) => { if (!quiet) console.log(s); }; log(`\n## ${path.basename(file)} · ${sk.page}`);
   const stem = Object.keys(STEMS).find((k) => sk.cell.includes(`STEM/${STEMS[k].file}`)) || null;
   const texts = {}; // path → text for the four-gram check
@@ -59,6 +62,8 @@ export function validateTemplate(file) {
   for (let i = 0; i < keys.length; i++) for (let j = i + 1; j < keys.length; j++) { const a = keys[i], b = keys[j]; if (lawfulPair(a, b)) continue; if (a.startsWith('carry') && b.startsWith('mechanism') || b.startsWith('carry') && a.startsWith('mechanism')) continue; const sh = repShared(texts[a], texts[b]); if (!sh.length) continue; const msg = `${a} ↔ ${b} :: "${sh[0]}"`; if (pairish(a) && pairish(b)) { R.blocking.push('repetition law: ' + msg); log('  ✗  repetition law: ' + msg); } else R.repInfo.push(msg); }
   // cross-stem four-gram on the swap-gram fields
   if (stem) for (const [fp, t] of Object.entries(texts)) { const f = sk.fields[fp].spec; const map = { 'STEM_BAND.yourNature_desc': ['STEM_BAND', 'yourNature_desc', `${STEMS[stem].file}_${f.band || ''}.json`], 'STEM_BAND.self_card': ['STEM_BAND', 'self_card', null], 'STEM.inscription': ['STEM', 'inscription', STEMS[stem].file + '.json'], 'STEM.yourNature_desc': ['STEM', 'yourNature_desc', STEMS[stem].file + '.json'] }[f.card]; if (!map) continue; const own = map[2] || `${STEMS[stem].file}_`; for (const h of swapGramCheck(t, map[0], map[1], own)) { if (h.file.startsWith(STEMS[stem].file + '_')) continue; R.blocking.push(`cross-stem four-gram: ${fp} ↔ ${map[0]}/${h.file} :: "${h.gram}"`); log(`  ✗  cross-stem four-gram: ${fp} ↔ ${h.file} :: "${h.gram}"`); } }
+  // the mandated formulas (openers, the identity formula with the spine verb, the sign's term line, the wide openers) are lawful matches
+  if (orig) for (const [fp, t] of Object.entries(texts)) { const ov = orig.fields?.[fp]?.value; const ot = typeof ov === 'string' ? ov : ov ? Object.values(ov).filter((x) => typeof x === 'string').join(' ') : ''; const sp = sk.fields[fp].spec; const meta = stem ? STEMS[stem] : null; const exempt = [sp.opener, sp.opener_L2 && meta ? `${sp.opener_L2} ${meta.spine}` : sp.opener_L2, ...(sp.openers || []), meta ? `${meta.name} is ${meta.pol === 'yin' ? 'Yin' : 'Yang'} ${meta.el}` : '', 'and running thin, it is', 'and running over, it is'].filter(Boolean).join(' . '); const ex = repGramsOf(exempt); const sh = repShared(t, ot).filter((g) => !ex.has(g)); if (sh.length) { R.blocking.push(`reuses the current line: ${fp} :: "${sh[0]}"${sh.length > 1 ? ` (+${sh.length - 1})` : ''}`); log(`  ✗  reuses the current line: ${fp} :: "${sh[0]}"`); } }
   R.pass = R.blocking.length === 0;
   if (R.readFlags.length) log('  read flags: ' + R.readFlags.join(' | '));
   if (R.repInfo.length) log('  repetition inventory (not blocking): ' + R.repInfo.slice(0, 5).join(' | '));

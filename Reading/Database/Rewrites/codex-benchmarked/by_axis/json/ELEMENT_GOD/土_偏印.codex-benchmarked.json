@@ -1,0 +1,81 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "Hard to reach",
+        "Brooding",
+        "Overprepared"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard to reach",
+            "doors": {
+              "trait": "Private thought takes so much of your attention that contact becomes another interruption to put off. An unusual idea can keep you at your desk while a reply waits on the phone. The ground keeps taking things in, and less of what grows there reaches anyone else."
+            }
+          },
+          {
+            "word": "Brooding",
+            "doors": {
+              "scene": "At eleven, a sentence in a message can keep you beside an open notebook, turning over what else it might mean. Each reading adds another layer. The page fills, but the message stays the same length, and sleep has to wait for a thought that keeps finding new work."
+            }
+          },
+          {
+            "word": "Overprepared",
+            "doors": {
+              "outside": "People can get a careful explanation of your project before they can see a first version. There is another angle to explore, another book that could change the plan. Waiting protects the idea from a rough attempt. It also leaves other people with very little they can use."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "doors": {
+              "trait": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+            }
+          },
+          {
+            "word": "Brooding",
+            "doors": {
+              "scene": "It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you."
+            }
+          },
+          {
+            "word": "Overprepared",
+            "doors": {
+              "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Withdrawn",
+        "Brooding",
+        "Overprepared"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass"
+  }
+}

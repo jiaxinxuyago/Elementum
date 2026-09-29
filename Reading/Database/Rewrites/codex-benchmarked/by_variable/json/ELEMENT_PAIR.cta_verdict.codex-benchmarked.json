@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.cta_verdict",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "cta_verdict",
+      "candidate": "You keep turning ideas over, and the search for a fuller answer can postpone a useful first attempt.",
+      "original": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "cta_verdict",
+      "candidate": "You shape what you work on a little at a time, and steady care can give a small start lasting value.",
+      "original": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "cta_verdict",
+      "candidate": "You put clear thoughts into words people can use, and an honest sentence can make a difficult exchange easier.",
+      "original": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "cta_verdict",
+      "candidate": "Your strength needs something that can answer back, and a fair test can turn stubborn effort into work with a purpose.",
+      "original": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "cta_verdict",
+      "candidate": "You hold your shape through effort, and keeping that same grip during rest can make recovery harder than the work.",
+      "original": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill.",
+      "gate": "pass"
+    }
+  ]
+}

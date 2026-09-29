@@ -1,0 +1,63 @@
+{
+  "$variable": "STEM.gifts[]",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "gifts[6]",
+      "candidate": {
+        "phrase": "Calm under pressure",
+        "dim": "when plans break",
+        "desc": "You can turn pressure into a clear next step. When a plan falls apart, you can cut the problem down to the part that needs attention first."
+      },
+      "original": {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[5]",
+      "candidate": {
+        "phrase": "Builds to last",
+        "dim": "effort over time",
+        "desc": "You can keep shaping a project after the first excitement passes. Each careful cut leaves the useful work intact, so the next attempt can build on what is already there."
+      },
+      "original": {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[4]",
+      "candidate": {
+        "phrase": "Says it simply",
+        "dim": "being understood",
+        "desc": "You can give an idea a clean edge without making the telling feel like work. A few plain words let someone else pick it up and use it."
+      },
+      "original": {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      "gate": "pass"
+    }
+  ]
+}

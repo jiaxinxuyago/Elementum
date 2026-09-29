@@ -1,0 +1,23 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.advise_friction",
+      "candidate": "Research can make delay feel earned. Choose a small question and give it twenty minutes. Write your answer on a card, then test it with something you can make or try today. Close the browser.",
+      "original": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.advise_friction",
+      "candidate": "Unspent effort can make ordinary contact feel like resistance. Give your body a short task after a long stretch of sitting. Choose a walk or something to make with your hands. Set a clear finish, then stop there. Let your hands rest.",
+      "original": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after.",
+      "gate": "pass"
+    }
+  ]
+}

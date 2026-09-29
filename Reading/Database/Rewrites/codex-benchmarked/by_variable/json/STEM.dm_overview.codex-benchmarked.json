@@ -1,0 +1,16 @@
+{
+  "$variable": "STEM.dm_overview",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "dm_overview",
+      "candidate": "The Blade is a length of Yang Metal made for a clean cut. In autumn it takes its place beside the harvest, where growth meets an edge and what is ready comes away. Fire gives it shape. Its strength narrows to an edge that can part what force alone would crush. After the cutting, it lies flat against the stone, plain enough to leave the work in view.",
+      "original": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+      "gate": "pass"
+    }
+  ]
+}

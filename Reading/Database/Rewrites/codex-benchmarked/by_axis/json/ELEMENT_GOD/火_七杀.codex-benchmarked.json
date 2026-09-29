@@ -1,0 +1,81 @@
+{
+  "$archetype": "火_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "火_七杀",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Decisive",
+        "Daring",
+        "Crisis-ready"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Decisive",
+            "doors": {
+              "trait": "You get clearer when a choice cannot wait much longer. Pressure cuts away the options that only looked important while there was time to discuss them. You can name a workable next move and take responsibility for it, even while part of the answer is still missing."
+            }
+          },
+          {
+            "word": "Daring",
+            "doors": {
+              "scene": "At nine, your notes hold a question that could upset the meeting's plan. You raise it while there is still time to change the work. The answer does not have to be pleasant for the question to be worth asking. You are willing to hear it."
+            }
+          },
+          {
+            "word": "Crisis-ready",
+            "doors": {
+              "outside": "People can use your instructions when the plan they were following breaks down. You pick out what needs attention and give the next task a clear shape. That focus is useful under pressure, though the same force can press too hard on others once the urgent part is over."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Decisive",
+            "doors": {
+              "trait": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
+            }
+          },
+          {
+            "word": "Daring",
+            "doors": {
+              "scene": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes."
+            }
+          },
+          {
+            "word": "Crisis-ready",
+            "doors": {
+              "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Decisive",
+        "Daring",
+        "Crisis-ready"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass"
+  }
+}

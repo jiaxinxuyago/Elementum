@@ -1,0 +1,23 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_friction",
+  "$generated_by": "codex-benchmarked",
+  "$handoff": "2026-09-23 geng golden benchmarked",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.definition_friction",
+      "candidate": "Earth is your Mind, and as a friction, it is the safety of knowing more than you have tried. A saved course feels useful. So does another quiet evening with a book, until preparation starts taking the hours that a real attempt would need.",
+      "original": "Earth is your Mind, and as a friction, it is intake with no off switch. Study, comfort, preparation, shelter: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.definition_friction",
+      "candidate": "Metal is your Body, and running over, it is the strength you hold in reserve after the task is done. You can sit down without feeling at rest. Discipline keeps pushing, and a small interruption meets strength that has no useful place to go.",
+      "original": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
+      "gate": "pass"
+    }
+  ]
+}
