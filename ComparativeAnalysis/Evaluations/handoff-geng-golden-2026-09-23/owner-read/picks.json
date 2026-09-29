@@ -133,5 +133,10 @@
   "pick": "C",
   "note": "owner: C, but no scene-door version would pass if it keeps the exact time and place detail (at nine in the morning etc.); see backlog item 2",
   "at": "2026-09-29T05:14:23.641Z"
+ },
+ "Q34": {
+  "pick": "B",
+  "note": "owner: B, but the outside door has the same fault as the scene door: far-fetched detail ('by their second week, as onboarding' is filler); explain the trait first; all door versions expand the example instead of illustrating the trait (backlog item 2 widened to all three doors)",
+  "at": "2026-09-29T05:18:30.117Z"
  }
 }

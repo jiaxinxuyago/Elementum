@@ -1,4 +1,4 @@
-# Backlog · the scene door illustrates, it does not stage (owner feedback, 2026-09-29, during the blind read)
+# Backlog · the doors illustrate the trait, they do not elaborate the example (owner feedback, 2026-09-29, during the blind read; widened from the scene door to all three doors at Q34)
 
 **Status: OWNER RULING RECORDED, prompt change pending.** Card affected: `fields/ELEMENT_GOD/ELEMENT_GOD.fn_reading.md` (the three doors). Also touches the harness spec note for scene doors and the STEM pool desc guidance.
 
@@ -20,6 +20,12 @@ Blind and benchmarked passes both produced time-stamped single scenes on most sc
 ## Owner's note at Q33 (2026-09-29)
 
 Picking the Metal page's Rigid scene door, the owner added: none of the scene-door versions would pass if they keep describing the scene with exact time and place details ("at nine in the morning" and the like). The pick is the least staged of the three, not an endorsement of the form. Every scene door in this round (all three piles) is therefore provisional under this item, and the next round's scene doors must be written to the new construct before they are compared.
+
+## Owner's note at Q34 (2026-09-29): all three doors, not only the scene
+
+Picking the Metal page's Cutthroat outside door, the owner added: the outside door carries the same fault as the scene door. The details run far-fetched and unnecessary; in the picked line the examples are good but "by their second week, as onboarding" is filler that expands nothing. Explain the trait first. Across the round, every door version (trait, scene, outside; all three piles) tends to elaborate the example rather than use it to illustrate the trait.
+
+So the rule this item now proposes covers the three doors as a set: each door opens on its own angle (the trait claim, the picture, the outside view), states the trait plainly, and uses pictures as illustration in service of that statement, at a size the reader can own; no time stamps, no place stamps, no detail that does not carry meaning; the passage is judged by whether the trait is clearer at the end of it, never by how complete the picture is. The 35–55 word range stays; the words go to the trait, not to the set dressing.
 
 ## Action items
 
