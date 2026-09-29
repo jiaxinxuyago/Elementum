@@ -1,6 +1,8 @@
 # Backlog · the doors illustrate the trait, they do not elaborate the example (owner feedback, 2026-09-29, during the blind read; widened from the scene door to all three doors at Q34)
 
-**Status: OWNER RULING RECORDED, prompt change pending.** Card affected: `fields/ELEMENT_GOD/ELEMENT_GOD.fn_reading.md` (the three doors). Also touches the harness spec note for scene doors and the STEM pool desc guidance.
+**Status: RULED 2026-09-29 (owner, by questionnaire). Scope: all three doors (the revised patch R1 to R8, plus the standing parts: the 05 sources line, the §3 desc law, the STEM.gifts style line). Times: STRICT, no clock time on any door, the content exception is dropped (the Rigid row is rewritten). Gate: BLOCKING (R5b moves into `F('doors', 'time or place stamp')`). The one-line rule is REWORDED by the owner, conclusion first (below); every part that quotes the rule takes this wording. Application pending the backlog apply pass.**
+
+**The rule, as ruled (owner 2026-09-29):** "Every door states the trait as a conclusion the reader can repeat, then illustrates it. Imagery is illustration, never a scene to reconstruct: no clock times, no places, no narration, no detail that does not sharpen the conclusion. Cut anything the trait does not need." Card affected: `fields/ELEMENT_GOD/ELEMENT_GOD.fn_reading.md` (the three doors). Also touches the harness spec note for scene doors and the STEM pool desc guidance.
 
 ## The takeaway, as the owner put it
 
