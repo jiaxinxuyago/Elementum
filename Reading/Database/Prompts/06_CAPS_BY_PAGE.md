@@ -24,7 +24,7 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 |---|---|---|---|---|
 | `ELEMENT_PAIR.mechanism.classic` | the epigraph above the story | fixed | fixed | a sourced 汉字 quotation, never rewritten |
 | `ELEMENT_PAIR.mechanism.base` | the story | 45 | 75 | fully third person, no "you", no function claim |
-| `ELEMENT_PAIR.mechanism.catalyst_turn` / `friction_turn` | the state line when the energy runs thin or heavy | 12 | 35 | "Run thin," / "Run heavy," then one directive |
+| `ELEMENT_PAIR.mechanism.catalyst_turn` / `friction_turn` | the state line when the energy runs thin or heavy | 12 | 35 | opens on a plain statement of the state (the element and its volume in ordinary words, no fixed phrase; the reference lead-in "With too much / too little {Element}, …"), then one directive |
 | `ELEMENT_PAIR.carry.wide` (clause + remedy) | the state line when a wanted energy is abundant or dominant | 4 + 2 | 18 + 12 | opens with one of the eight wide openers |
 | `ELEMENT_PAIR.carry.thin` · `.excess` · `.missing` · `.spared` · `.unrooted` | the state line for those volumes | 4 + 2 | 18 + 12 | a clause and a directive |
 | `ELEMENT_PAIR.function.definition_<pole>` | the hero definition | 20 | 55 | "{Element} is your {Function}, and as a catalyst / friction, it is …"; the self pair: "… and running thin / over, it is …" |

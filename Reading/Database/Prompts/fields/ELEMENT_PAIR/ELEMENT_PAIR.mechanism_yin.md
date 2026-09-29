@@ -14,7 +14,7 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 
 - Construct: the same story and the same directive with the yin sibling's noun where the shared line names the yang archetype (stone and wheel for the Jewel, wall and tendril for the Vine, the close flame for the Candle, soil for the Field, mist and cloud for the Rain). Only the fields whose noun does not fit are overridden; everything else inherits.
 - Checks: same as `mechanism`; the yin line's echo of the shared line is a lawful match.
-- Exemplar (金_土 friction_turn for 辛): "Run heavy, the setting closes over the stone: so much preparation that the jewel never leaves the box. Comfort begins to bury what it formed. Take it out and wear it somewhere real."
+- Exemplar (金_土 friction_turn for 辛, the yin line keeps the shared line's state statement, re-cut 2026-09-29, 35 words): "With too much Earth, the setting closes over the stone: so much preparation that the jewel never leaves the box. Comfort begins to bury what it formed. Take it out and wear it somewhere real."
 - Sources: REA_16 §2c (2026-09-17 ruling 3); REA_02 §5h.
 
 ## Assembly
@@ -26,3 +26,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-29 | The exemplar re-cut to the plain-terms opener law (the yin line keeps the shared line's state statement), the 19 yin turns re-cut in the next round | owner 2026-09-29, at Q30 of the blind read, option 3 (REA_16 §6) |
