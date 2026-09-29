@@ -6,3 +6,4 @@ Every piece of feedback that should change a prompt is captured here the moment 
 |---|---|---|---|
 | 2026-09-29 | [The energy prescription inside a friction's advice](2026-09-29_energy-prescription-in-friction-advice.md) | ELEMENT_PAIR.function.advise_catalyst (friction pole), carry.excess | proposed; three questions for the owner |
 | 2026-09-29 | [The scene door illustrates, it does not stage](2026-09-29_scene-door-imagery-not-staging.md) | ELEMENT_GOD.fn_reading (scene door), the master prompt's scene sentence, STEM.gifts desc | owner ruling recorded; change pending the backlog pass |
+| 2026-09-29 | [Examples from the persona's ruled domains, rhetoric in proportion](2026-09-29_examples-from-ruled-domains-not-work.md) | ELEMENT_GOD.fn_reading (all doors), STEM.gifts desc, ELEMENT_PAIR advise, the master prompt | owner ruling recorded; change pending the backlog pass |
