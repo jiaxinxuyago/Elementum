@@ -23,7 +23,7 @@ export function validateTemplate(file, opts = {}) {
     if (empty || (typeof v === 'string' && /REDACTED/.test(v))) { F(fp, 'EMPTY (not filled)'); R.fields[fp] = { pass: false, findings }; R.blocking.push(...findings); continue; }
     const zoneCard = /ELEMENT_PAIR\.function|cta_verdict|fn_reading|adj_chips/.test(s.card);
     if (typeof v === 'string') {
-      gate(fp, v, { budget: s.max, min: s.min, noYou: /no "you"/.test(s.person || ''), youOpen: s.opener === 'You', theOpen: s.opener && s.opener !== 'You' ? s.opener : undefined });
+      gate(fp, v, { budget: s.max, min: s.min, noYou: /no "you"/.test(s.person || ''), youOpen: s.opener === 'You', theOpen: s.opener && s.opener !== 'You' ? s.opener : undefined, capOpen: s.card === 'ELEMENT_PAIR.cta_verdict' });
       if (s.form === 'L1 · L2') { if (!/\s·\s/.test(v)) F(fp, 'missing the " · " split'); if (!v.includes(s.opener_L2)) F(fp, `L2 does not carry "${s.opener_L2}"`); const l1 = v.split(' · ')[0].trim(); const w = wc(l1); if (w < 2 || w > 4) F(fp, `L1 ${w} words (2–4)`); if (new RegExp(`\\b(${STEMS[stem]?.el}|you)\\b`, 'i').test(l1)) F(fp, 'L1 names the element or the reader'); }
       if (s.sentences && (v.match(/[.!?]/g) || []).length > s.sentences) F(fp, `more than ${s.sentences} sentence(s)`);
       if (s.card === 'STEM_BAND.yourNature_desc' && /\b(used to|than before|no longer|these days|anymore|once were)\b/i.test(v)) R.readFlags.push(`${fp} :: reads as a decline from an earlier self (the band is a present state)`);
@@ -34,7 +34,7 @@ export function validateTemplate(file, opts = {}) {
       const pw = wc(v.phrase); if (pw > s.phrase.max && !idioms4w().has(String(v.phrase).toLowerCase())) F(fp, `phrase ${pw} words > ${s.phrase.max}`); if (pw < 1) F(fp, 'phrase empty');
       if (String(v.phrase).toLowerCase() === String(v.dim).toLowerCase()) F(fp, 'phrase = dim');
       if (wc(v.dim) > s.dim.max) F(fp, `dim ${wc(v.dim)} words > ${s.dim.max}`);
-      gate(fp + '.desc', v.desc, { budget: s.desc.max_words }); const n = sentences(v.desc); if (n > s.desc.sentences_max) F(fp, `desc ${n} sentences > ${s.desc.sentences_max}`);
+      gate(fp + '.desc', v.desc, { budget: s.desc.max_words, capOpen: true }); const n = sentences(v.desc); if (n > s.desc.sentences_max) F(fp, `desc ${n} sentences > ${s.desc.sentences_max}`);
       gate(fp + '.phrase', v.phrase, {}); if (/^(The|A) [a-z]+$/.test(String(v.phrase))) F(fp, 'bare image phrase');
       const all = new Set(); for (const f2 of fs.readdirSync(S + 'STEM')) if (f2.endsWith('.json') && f2 !== STEMS[stem]?.file + '.json') { const c = J('STEM/' + f2); [...(c.gifts || []), ...(c.shadows || [])].forEach((x) => all.add(String(x.phrase).toLowerCase())); } if (all.has(String(v.phrase).toLowerCase())) F(fp, `phrase "${v.phrase}" already sits in another stem's pool`);
       texts[fp] = v.desc;
@@ -47,7 +47,7 @@ export function validateTemplate(file, opts = {}) {
       texts[fp] = [v.clause, v.remedy].join(' ');
     } else if (s.card === 'ELEMENT_GOD.fn_reading') {
       const ww = wc(v.word); if (ww > s.word.max) F(fp + '.word', `${ww} words > ${s.word.max}`); gate(fp + '.word', v.word, {}); if (/\b(diligent|exemplary|enterprising|meticulous|sardonic|ossified|discerning|judicious|astute|sagacious)\b/i.test(v.word)) F(fp + '.word', 'report-card or noble register');
-      gate(fp + '.text', v.text, { budget: s.text.max, min: s.text.min });
+      gate(fp + '.text', v.text, { budget: s.text.max, min: s.text.min, capOpen: true });
       if (/\b(remember when|that time you|when you were (a|an|\d))\b/i.test(v.text)) F(fp + '.text', 'claimed memory');
       if (DOOR_STAMP.test(v.text)) F(fp + '.text', 'time or place stamp (the doors illustrate the trait, they do not stage a scene; owner 2026-09-29)');
       const [hz, god] = s.cell.split('_'); const SIB = { '比肩': '劫财', '劫财': '比肩', '食神': '伤官', '伤官': '食神', '偏财': '正财', '正财': '偏财', '七杀': '正官', '正官': '七杀', '偏印': '正印', '正印': '偏印' }; const sib = J(`ELEMENT_GOD/${hz}_${SIB[god]}.json`).adj_chips; if ([...(sib.catalyst || []), ...(sib.friction || [])].map((x) => x.toLowerCase()).includes(String(v.word).toLowerCase())) F(fp + '.word', `chip "${v.word}" also sits on the sibling cell`);

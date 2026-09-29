@@ -14,7 +14,7 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 
 - Construct: one sentence explaining "{Element} is your {Function}": a behavioural truth plus ONE tendency-framed consequence beat (the prediction law).
 - Exemplar (金_土): "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
-- Checks: ≤30w, one sentence, zero dashes, B1–B2 zone. Sources: REA_16 §2c (owner formula 2026-09-01); REA_04 §9.4.
+- Checks: ≤30w, one sentence, zero dashes, no capacity opener ("You can", "can make", "can suit you" as the first clause: the harness blocks it, owner 2026-09-30), B1–B2 zone. Sources: REA_16 §2c (owner formula 2026-09-01); REA_04 §9.4.
 - Reasoning chain: the function noun and the pair's chemistry → the one behavioural truth a reader of this core would recognise about this function (how it takes in, puts out, builds or regulates) → ONE consequence that tends to follow, framed as a tendency (REA_04 §9.4), never a date or a guarantee → one sentence, kitchen-table words.
 - Style: the position-teaser register at pair grain: natural spoken syntax, no jargon past the function noun; the B1–B2 zone; no metaphor stacking; the sentence must read alone under the definition line on the dot card.
 - Sources: REA_16 §2c cta_verdict row (owner formula 2026-09-01, locked the same day); REA_04 §9.4 (the prediction law); REA_16 §2c THE VOCABULARY ZONE.
@@ -29,3 +29,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
 | 2026-09-23 | Reasoning chain, style and sources added from the registry row | handoff readiness check (no new rule) |
+| 2026-09-30 | The verdict never opens on a capacity clause (blocking) | owner 2026-09-30, Q1a of the v0.6 questionnaire (REA_16 §6) |

@@ -14,7 +14,7 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 | `STEM_BAND.self_card.presence` | same | 5 | 30 | second person allowed |
 | `STEM.gifts[].phrase` · `STEM.shadows[].phrase` | P4 chips (one per open door) | 1 | 3 (or an admitted four-word idiom) | the symptom in plain words |
 | `STEM.gifts[].dim` · `STEM.shadows[].dim` | selection metadata, unrendered | 1 | 4 | the life-facet angle |
-| `STEM.gifts[].desc` · `STEM.shadows[].desc` | P4 under the chip | 1 sentence | 4 sentences, ≤60 words | second person |
+| `STEM.gifts[].desc` · `STEM.shadows[].desc` | P4 under the chip | 1 sentence | 4 sentences, ≤60 words | second person, never opening "You can" (the capacity opener, owner 2026-09-30) |
 | `ELEMENT_PAIR.carry.<pole>.clause` | P4 carry card, one row per energy (EASE and SEEK rows) | 4 | 18 | cut from the pair's turn, or the state line |
 | `ELEMENT_PAIR.carry.<pole>.remedy` | same | 2 | 12 | a plain directive |
 
@@ -29,9 +29,9 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 | `ELEMENT_PAIR.carry.thin` · `.excess` · `.missing` · `.spared` · `.unrooted` | the state line for those volumes | 4 + 2 | 18 + 12 | a clause and a directive |
 | `ELEMENT_PAIR.function.definition_<pole>` | the hero definition | 20 | 55 | "{Element} is your {Function}, and as a catalyst / friction, it is …"; the self pair: "… and running thin / over, it is …" |
 | `ELEMENT_GOD.adj_chips[]` (the ledger row word) | the dot card and the ledger row head | 1 | 3 | high-school vocabulary, the persona textured by the element |
-| `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | each door opens on its own angle (trait: the claim · scene: a picture · outside: opens on the reader's own act and lands on what others see or pay) and states the trait as a conclusion the reader can repeat, pictures as illustration only, no clock time, no place, no narration |
+| `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | each door opens on its own angle (trait: the claim · scene: a picture · outside: opens on the reader's own act and lands on what others see or pay) and states the trait as a conclusion the reader can repeat, pictures as illustration only, no clock time, no place, no narration, no capacity opener (owner 2026-09-30) |
 | `ELEMENT_PAIR.function.advise_<pole>` | the reading's last paragraph | 20 | 60 | second person, imperatives allowed |
-| `ELEMENT_PAIR.cta_verdict` | the dot card under the definition line | 8 | 30 | one sentence, "{Element} is your {Function}" explained with one tendency beat |
+| `ELEMENT_PAIR.cta_verdict` | the dot card under the definition line | 8 | 30 | one sentence, "{Element} is your {Function}" explained with one tendency beat, no capacity opener (owner 2026-09-30) |
 
 ## Not in this round (the Domains page and the Codex)
 
@@ -42,3 +42,4 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-23 | Born; minimums made hard | owner 2026-09-23 |
+| 2026-09-30 | The capacity opener named on the pool desc, the door and the verdict rows | owner 2026-09-30, Q1a of the v0.6 questionnaire (REA_16 §6) |
