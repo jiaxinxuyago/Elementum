@@ -1,0 +1,66 @@
+{
+  "$archetype": "金_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_火",
+  "$generated_by": "owner-northstar",
+  "$handoff": "2026-09-29 owner blind read synthesis",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "catalyst_turn": "Run thin, the forge lacks the heat to reshape the steel. Your chart asks for heat. Take the demanding role, the audit, the arena."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The forge lacks the heat to reshape the steel.",
+        "remedy": "Take the demanding role, the audit, the arena."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is a demand that gives your strength a useful shape. A deadline makes a choice necessary, and a clear standard gives effort something to answer to. You know what is required. Pressure can gather your force around the task that matters.",
+      "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+    },
+    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+        "remedy": "Take the demanding role, the audit, the arena."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+      "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+    },
+    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "Q46 · original",
+      "catalyst_turn": "Q47 · split: first sentence blind, the rest original (owner: \"B the first sentence, C the second sentence\"; the directive kept with the second pile so the carry cut at Q48 matches) · owner: split pick: B's first sentence (the forge lacks the heat to reshape the steel), C's second sentence (an edge that keeps its first shape and calls it character)"
+    },
+    "carry": {
+      "catalyst": "Q48 · split: clause blind, remedy original · owner: split pick: B's clause (the forge lacks the heat to reshape the steel), A's remedy (take the demanding role, the audit, the arena)"
+    },
+    "function": {
+      "definition_catalyst": "Q49 · blind",
+      "advise_catalyst": "Q53 · original"
+    },
+    "cta_verdict": "Q54 · original"
+  }
+}

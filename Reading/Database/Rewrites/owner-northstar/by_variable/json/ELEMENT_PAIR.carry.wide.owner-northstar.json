@@ -1,0 +1,22 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.wide",
+  "$generated_by": "owner-northstar",
+  "$handoff": "2026-09-29 owner blind read synthesis",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_木",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Wood is already here in plenty, the material the knife is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
+      },
+      "original": {
+        "clause": "Wood is already here in plenty, the material the knife is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
+      },
+      "gate": "pass"
+    }
+  ]
+}

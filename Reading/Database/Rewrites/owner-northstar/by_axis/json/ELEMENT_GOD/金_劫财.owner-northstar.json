@@ -1,0 +1,58 @@
+{
+  "$archetype": "金_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "金_劫财",
+  "$generated_by": "owner-northstar",
+  "$handoff": "2026-09-29 owner blind read synthesis",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "Cutthroat"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutthroat",
+            "doors": {
+              "outside": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutthroat",
+            "doors": {
+              "outside": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Cutthroat"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      null,
+      null,
+      "Q34 · original · owner: owner: B, but the outside door has the same fault as the scene door: far-fetched detail ('by their second week, as onboarding' is filler); explain the trait first; all door versions expand the example instead of illustrating the trait (backlog item 2 widened to all three doors)"
+    ]
+  }
+}

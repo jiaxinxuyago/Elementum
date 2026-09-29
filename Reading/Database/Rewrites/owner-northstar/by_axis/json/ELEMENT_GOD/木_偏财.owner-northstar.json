@@ -1,0 +1,58 @@
+{
+  "$archetype": "木_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_偏财",
+  "$generated_by": "owner-northstar",
+  "$handoff": "2026-09-29 owner blind read synthesis",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Wide-branching"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Wide-branching",
+            "doors": {
+              "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Wide-branching",
+            "doors": {
+              "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Wide-branching"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      null,
+      null,
+      "Q25 · original · owner: owner: A, but 'three ventures across two cities' exaggerates; rhetoric in proportion; examples from the persona's ruled domains, not work by default (backlogged)"
+    ]
+  }
+}

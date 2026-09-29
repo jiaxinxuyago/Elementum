@@ -1,0 +1,66 @@
+{
+  "$archetype": "金_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_土",
+  "$generated_by": "owner-northstar",
+  "$handoff": "2026-09-29 owner blind read synthesis",
+  "$filed": "2026-09-29",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it.",
+      "friction_turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+        "remedy": "Dig out and cut something real."
+      }
+    },
+    "function": {
+      "definition_friction": "Earth is your Mind, and as a friction, it is preparation that keeps asking for more. Your notes get longer and your reading list fills up while the decision waits. You have plenty to draw from. Taking in another explanation becomes easier than putting your own work to the test.",
+      "advise_friction": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."
+    },
+    "cta_verdict": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it.",
+      "friction_turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+        "remedy": "Dig out and cut something real."
+      }
+    },
+    "function": {
+      "definition_friction": "Earth is your Mind, and as a friction, it is intake with no off switch. Study, comfort, preparation, shelter: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
+      "advise_friction": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."
+    },
+    "cta_verdict": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "Q11 · original",
+      "friction_turn": "Q12 · original"
+    },
+    "carry": {
+      "friction": "Q13 · original"
+    },
+    "function": {
+      "definition_friction": "Q14 · blind",
+      "advise_friction": "Q18 · original"
+    },
+    "cta_verdict": "Q19 · original"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$variable": "STEM.shadows[]",
+  "$generated_by": "owner-northstar",
+  "$handoff": "2026-09-29 owner blind read synthesis",
+  "$filed": "2026-09-29",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "shadows[1]",
+      "candidate": {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      "original": {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "shadows[3]",
+      "candidate": {
+        "phrase": "Prepares without starting",
+        "dim": "putting learning to use",
+        "desc": "You keep sharpening an answer that needs to be tried. Another note makes the plan feel fuller, while the edge stays on the stone and the work waits for a first cut."
+      },
+      "original": {
+        "phrase": "Overprepared",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+      },
+      "gate": "pass"
+    }
+  ]
+}

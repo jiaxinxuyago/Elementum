@@ -21,3 +21,5 @@ Two reads of the same 54 fields, run in parallel and sealed from each other unti
 | sealed comparative analysis (three axes: accuracy, audience fit, pull; the four questions) | `claude-comparative-analysis.md` | original 741 · blind 644 · benchmarked 635 (44 / 7 / 3 field wins) | 10 of 54 |
 
 Both reads rank the piles the same way. Field-level agreement is 17 of 53 picked fields; the gap sits in the definition lines, gift chips, trait doors and Day Master openers, where the owner preferred the plainer Codex line. Field-by-field rulings for adoption (`adopt.mjs`) are still to be made, after the backlog pass on the five items opened during the read.
+
+**North star (2026-09-29).** The owner's picks are assembled as a station at `Reading/Database/Rewrites/owner-northstar/` (by_axis, by_variable, md twins, `reading.md`), with a provenance row per field and five open flags in its README. Skeletons and `provenance.json` under `ComparativeAnalysis/Prompts/out/handoff/2026-09-29-geng-golden-northstar/`.
