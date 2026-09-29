@@ -31,7 +31,7 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 | `ELEMENT_GOD.adj_chips[]` (the ledger row word) | the dot card and the ledger row head | 1 | 3 | high-school vocabulary, the persona textured by the element |
 | `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | each door opens on its own angle (trait: the claim · scene: a picture · outside: opens on the reader's own act and lands on what others see or pay) and states the trait as a conclusion the reader can repeat, pictures as illustration only, no clock time, no place, no narration, no capacity opener (owner 2026-09-30) |
 | `ELEMENT_PAIR.function.advise_<pole>` | the reading's last paragraph | 20 | 60 | second person, imperatives allowed |
-| `ELEMENT_PAIR.cta_verdict` | the dot card under the definition line | 8 | 30 | one sentence, "{Element} is your {Function}" explained with one tendency beat, no capacity opener (owner 2026-09-30) |
+| `ELEMENT_PAIR.cta_verdict` | the dot card under the definition line | 8 | 30 | one sentence, "{Element} is your {Function}" explained with one tendency beat, no capacity opener (owner 2026-09-30), reads true on either pole (owner 2026-09-30) |
 
 ## Not in this round (the Domains page and the Codex)
 

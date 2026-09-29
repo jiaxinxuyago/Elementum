@@ -6,7 +6,7 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH, longSentences, STEM_RHYTHM } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH, longSentences, STEM_RHYTHM, POLE_STATE } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
 // --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
@@ -26,6 +26,7 @@ export function validateTemplate(file, opts = {}) {
       gate(fp, v, { budget: s.max, min: s.min, noYou: /no "you"/.test(s.person || ''), youOpen: s.opener === 'You', theOpen: s.opener && s.opener !== 'You' ? s.opener : undefined, capOpen: s.card === 'ELEMENT_PAIR.cta_verdict' });
       if (s.form === 'L1 · L2') { if (!/\s·\s/.test(v)) F(fp, 'missing the " · " split'); if (!v.includes(s.opener_L2)) F(fp, `L2 does not carry "${s.opener_L2}"`); const l1 = v.split(' · ')[0].trim(); const w = wc(l1); if (w < 2 || w > 4) F(fp, `L1 ${w} words (2–4)`); if (new RegExp(`\\b(${STEMS[stem]?.el}|you)\\b`, 'i').test(l1)) F(fp, 'L1 names the element or the reader'); }
       if (s.sentences && (v.match(/[.!?]/g) || []).length > s.sentences) F(fp, `more than ${s.sentences} sentence(s)`);
+      if (s.card === 'ELEMENT_PAIR.cta_verdict') { const m = String(v).match(POLE_STATE); if (m) R.readFlags.push(`${fp} :: pole state word "${m[0]}" (the verdict renders on either pole's page, C5; not blocking, the read decides)`); }
       if (s.card === 'STEM_BAND.yourNature_desc' && /\b(used to|than before|no longer|these days|anymore|once were)\b/i.test(v)) R.readFlags.push(`${fp} :: reads as a decline from an earlier self (the band is a present state)`);
       if (s.card === 'ELEMENT_PAIR.mechanism.catalyst_turn') { if (/^Run (thin|heavy),/.test(v)) F(fp, 'opens with the retired "Run thin," / "Run heavy," (owner 2026-09-29: a plain statement of the state, the element named)'); const el = s.element || (String(sk.page || '').match(/energy page of (Wood|Fire|Earth|Metal|Water)/) || [])[1]; if (el && !new RegExp(`\\b${el}\\b`).test(String(v).split(/[.:]/)[0])) F(fp, `the element (${el}) is not named in the first sentence`); }
       if (s.card === 'ELEMENT_PAIR.function.definition_catalyst' || s.card === 'ELEMENT_PAIR.mechanism.base') { const el = s.element || (String(sk.page || '').match(/energy page of (Wood|Fire|Earth|Metal|Water)/) || [])[1]; if (el && !arenaWord(v, el, { selfNoun: s.card === 'ELEMENT_PAIR.mechanism.base' })) F(fp, `no word of ${el}'s chemistry anywhere in the field (owner 2026-09-30; the element's name counts in the base, never in the definition)`); }
