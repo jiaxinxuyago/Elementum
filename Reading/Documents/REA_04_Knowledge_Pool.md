@@ -236,6 +236,37 @@ Max: **2 behavioral claims.** Hard ceiling.
 
 ---
 
+**SOURCE-FROM — the remedy lines (added 2026-09-29 on the owner's ruling: the energy prescription in the friction advice, `Reading/Database/Prompts/backlog/2026-09-29_energy-prescription-in-friction-advice.md`).** The five formulas below are each chapter's standing rule for what cures a ten god in excess, in the shorthand form the tradition uses (a rule, not a verse; treated like 富屋贫人 above). They are the classical ground for the cure set the friction advice names (REA_02 §5h, register D7): the energy that tames the overgrown function, or, where the taming energy is unwanted on the band, the energy that drains it.
+
+```
+论印：印重用财（财破印）
+"A heavy seal is used by wealth: wealth breaks the seal." Mind overgrown → Action (the Action element tames the feeder).
+
+论食神 / 论伤官：食伤用印（印制食伤）
+"Heavy output is used by the seal: the seal checks the output." Expression overgrown → Mind.
+
+论七杀：杀重用印（杀印相生，化杀）
+"Heavy killings are used by the seal: killings and seal feed one another, the seal transforms the killings." Order overgrown on a weak self → Mind (the draining cure, 化).
+
+论财：财多身弱用比劫（比劫帮身）
+"Heavy wealth on a weak self is used by the companions: the companions help the self." Action overgrown → Body.
+
+论正官：身强用官杀（官杀制身）
+"A strong self is used by the officer and the killings: they check the self." Body overgrown → Order (beside 渊海子平 强而得制 below, the drain as the first cure).
+```
+
+| Formula | Chapter | Which door it cures | Reads as | Confidence |
+|---|---|---|---|---|
+| 印重用财 (财破印) | 论印 | **Mind** overgrown (Overfueled) | intake past use is broken by doing: the Action element | high (the chapter's rule; shorthand form) |
+| 食伤用印 (印制食伤) | 论食神, 论伤官 | **Expression** overgrown (Underfueled) | output that drains the self is checked by intake: the Mind element | high (shorthand form) |
+| 杀重用印 (杀印相生, 化杀) | 论七杀 | **Order** overgrown on a weak self (Underfueled) | pressure that breaks is transformed into intake: the Mind element, the 化 cure | high (shorthand form) |
+| 财多身弱用比劫 (比劫帮身) | 论财 | **Action** overgrown (Underfueled) | material the self cannot work is met by more self: the Body element | high (shorthand form; 渊海子平 财多身弱 above) |
+| 身强用官杀 (官杀制身) | 论正官 | **Body** overgrown (Overfueled) | the self in excess is checked by pressure: the Order element | high (shorthand form) |
+
+Derivation question, answered for this source: the lines add exactly one thing, WHICH energy cures WHICH function in excess, template-level by band. The advice names the taming cure only (owner 2026-09-29, Q3), never an energy that feeds the friction (Fire feeds Earth, so a Mind-heavy Metal core is sent to Wood, never to Fire). Max **1 cure claim per pair** (the friction advice's closing beat).
+
+---
+
 ### 滴天髓 (任铁樵 commentary) — DM Strength and 七杀
 
 **What it covers:** The most nuanced treatment of Day Master strength dynamics and Seven Killings analysis. 任铁樵's 512 case studies are the most empirically grounded material in the classical canon — real charts, documented outcomes, explicit failure cases.

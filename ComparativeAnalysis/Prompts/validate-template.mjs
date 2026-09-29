@@ -6,7 +6,7 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
 // --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
@@ -28,7 +28,7 @@ export function validateTemplate(file, opts = {}) {
       if (s.sentences && (v.match(/[.!?]/g) || []).length > s.sentences) F(fp, `more than ${s.sentences} sentence(s)`);
       if (s.card === 'STEM_BAND.yourNature_desc' && /\b(used to|than before|no longer|these days|anymore|once were)\b/i.test(v)) R.readFlags.push(`${fp} :: reads as a decline from an earlier self (the band is a present state)`);
       if (s.card === 'ELEMENT_PAIR.mechanism.catalyst_turn') { if (/^Run (thin|heavy),/.test(v)) F(fp, 'opens with the retired "Run thin," / "Run heavy," (owner 2026-09-29: a plain statement of the state, the element named)'); const el = s.element || (String(sk.page || '').match(/energy page of (Wood|Fire|Earth|Metal|Water)/) || [])[1]; if (el && !new RegExp(`\\b${el}\\b`).test(String(v).split(/[.:]/)[0])) F(fp, `the element (${el}) is not named in the first sentence`); }
-      if (s.card === 'ELEMENT_PAIR.function.advise_catalyst') { if (/\b(invest in|buy (stocks|crypto|property)|quit your job|see a doctor|take (a|your) medication|dosage)\b/i.test(v)) F(fp, 'chart-derived prescription'); if (/\b(guarantee|will never|always (works|pays))\b/i.test(v)) F(fp, 'guarantee'); }
+      if (s.card === 'ELEMENT_PAIR.function.advise_catalyst') { if (/\b(invest in|buy (stocks|crypto|property)|quit your job|see a doctor|take (a|your) medication|dosage)\b/i.test(v)) F(fp, 'chart-derived prescription'); if (/\b(guarantee|will never|always (works|pays))\b/i.test(v)) F(fp, 'guarantee'); if (/advise_friction$/.test(fp)) { const pk = (String(sk.cell || '').match(/ELEMENT_PAIR\/([^\s+]+)/) || [])[1]; const cure = s.cure_set || (pk ? cureSet(pk) : []); const named = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'].filter((el) => new RegExp(`\\b${el}\\b`).test(v)); if (!/\bSeek it\./.test(v)) F(fp, 'prescription beat missing ("Seek it.", owner 2026-09-29)'); if (cure.length && named.some((el) => !cure.includes(el))) F(fp, `names an element outside the cure set (${named.filter((el) => !cure.includes(el)).join(', ')}; cure set ${cure.join(', ')})`); } }
       texts[fp] = v;
     } else if (s.card === 'STEM.gifts') {
       const pw = wc(v.phrase); if (pw > s.phrase.max && !idioms4w().has(String(v.phrase).toLowerCase())) F(fp, `phrase ${pw} words > ${s.phrase.max}`); if (pw < 1) F(fp, 'phrase empty');
