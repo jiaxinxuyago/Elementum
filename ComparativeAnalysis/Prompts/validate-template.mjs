@@ -6,7 +6,7 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
 // --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
@@ -48,6 +48,7 @@ export function validateTemplate(file, opts = {}) {
       const ww = wc(v.word); if (ww > s.word.max) F(fp + '.word', `${ww} words > ${s.word.max}`); gate(fp + '.word', v.word, {}); if (/\b(diligent|exemplary|enterprising|meticulous|sardonic|ossified|discerning|judicious|astute|sagacious)\b/i.test(v.word)) F(fp + '.word', 'report-card or noble register');
       gate(fp + '.text', v.text, { budget: s.text.max, min: s.text.min });
       if (/\b(remember when|that time you|when you were (a|an|\d))\b/i.test(v.text)) F(fp + '.text', 'claimed memory');
+      if (DOOR_STAMP.test(v.text)) F(fp + '.text', 'time or place stamp (the doors illustrate the trait, they do not stage a scene; owner 2026-09-29)');
       const [hz, god] = s.cell.split('_'); const SIB = { '比肩': '劫财', '劫财': '比肩', '食神': '伤官', '伤官': '食神', '偏财': '正财', '正财': '偏财', '七杀': '正官', '正官': '七杀', '偏印': '正印', '正印': '偏印' }; const sib = J(`ELEMENT_GOD/${hz}_${SIB[god]}.json`).adj_chips; if ([...(sib.catalyst || []), ...(sib.friction || [])].map((x) => x.toLowerCase()).includes(String(v.word).toLowerCase())) F(fp + '.word', `chip "${v.word}" also sits on the sibling cell`);
       texts[fp] = v.text;
     }

@@ -29,7 +29,7 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 | `ELEMENT_PAIR.carry.thin` · `.excess` · `.missing` · `.spared` · `.unrooted` | the state line for those volumes | 4 + 2 | 18 + 12 | a clause and a directive |
 | `ELEMENT_PAIR.function.definition_<pole>` | the hero definition | 20 | 55 | "{Element} is your {Function}, and as a catalyst / friction, it is …"; the self pair: "… and running thin / over, it is …" |
 | `ELEMENT_GOD.adj_chips[]` (the ledger row word) | the dot card and the ledger row head | 1 | 3 | high-school vocabulary, the persona textured by the element |
-| `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | trait opens on the claim; scene opens inside a situation with objects and a clock time; outside opens from other people |
+| `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | each door opens on its own angle (trait: the claim · scene: a picture · outside: other people) and states the trait as a conclusion the reader can repeat, pictures as illustration only, no clock time, no place, no narration |
 | `ELEMENT_PAIR.function.advise_<pole>` | the reading's last paragraph | 20 | 60 | second person, imperatives allowed |
 | `ELEMENT_PAIR.cta_verdict` | the dot card under the definition line | 8 | 30 | one sentence, "{Element} is your {Function}" explained with one tendency beat |
 

@@ -72,7 +72,7 @@ The sibling test: a line that fits both polarities of a family (Artisan and Virt
 
 ## 6. The translation protocol (REA_04 PART 8, compressed)
 
-Classical concepts are translated into mechanism claims in plain English, never quoted, never labelled. The lexicon layer rules: one concept, one name; the forbidden list (Chinese characters and romanisations, the structural labels, the astrological and mystical register, hollow affirmations, false precision and catastrophizing); the anchors (a scene with ordinary objects and a clock time, a paired checkable cost). The full protocol is REA_04 PART 8 §8.1–§8.10.
+Classical concepts are translated into mechanism claims in plain English, never quoted, never labelled. The lexicon layer rules: one concept, one name; the forbidden list (Chinese characters and romanisations, the structural labels, the astrological and mystical register, hollow affirmations, false precision and catastrophizing); the anchors (pictures from ordinary life that illustrate the claim, a paired checkable cost). The full protocol is REA_04 PART 8 §8.1–§8.10.
 
 ## 7. The psychology the house leans on (REA_04 PARTS 3–4), for the "same mechanism at different volume" model only
 
