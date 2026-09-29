@@ -381,3 +381,7 @@ Append at the end of the row's THE THREE DOORS text (after "Chips ALSO render on
 ## Owner note at Q42 (Water page, scene door, The Artisan 食神) — 2026-09-29
 
 All three candidates rejected: "too specific on the details that the reader loses track of the conclusion." Third instance of the same ruling (Q33, Q34, Q42). The staged clock-time and prop inventory ("at eight, a bowl", "at seven in the evening, a pot") is the pattern; the reader needs the conclusion of the trait, illustrated, not a scene to reconstruct.
+
+## Owner note at Q51 (Fire page, scene door, The General 七杀) — 2026-09-29
+
+A picked as the relatively best, with the same reservation: "scene fails here again due to too much narrating and descriptive details." Fourth instance (Q33, Q34, Q42, Q51). The pattern holds across all three writers, so the fix is the field card and the register, not a model choice.
