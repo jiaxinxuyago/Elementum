@@ -172,5 +172,31 @@
   "pick": "none",
   "note": "No scene passed: too specific on details, reader loses track of the conclusion (backlog item 2, all three doors)",
   "at": "2026-09-29T05:51:06.633Z"
+ },
+ "Q43": {
+  "pick": "A",
+  "at": "2026-09-29T05:52:09.823Z"
+ },
+ "Q44": {
+  "pick": "C",
+  "at": "2026-09-29T05:53:17.769Z"
+ },
+ "Q45": {
+  "pick": "B",
+  "at": "2026-09-29T05:53:34.205Z"
+ },
+ "Q46": {
+  "pick": "C",
+  "at": "2026-09-29T05:54:19.080Z"
+ },
+ "Q47": {
+  "pick": "B+C",
+  "note": "split pick: B's first sentence (the forge lacks the heat to reshape the steel), C's second sentence (an edge that keeps its first shape and calls it character)",
+  "at": "2026-09-29T05:55:16.664Z"
+ },
+ "Q48": {
+  "pick": "B+A",
+  "note": "split pick: B's clause (the forge lacks the heat to reshape the steel), A's remedy (take the demanding role, the audit, the arena)",
+  "at": "2026-09-29T05:55:55.038Z"
  }
 }
