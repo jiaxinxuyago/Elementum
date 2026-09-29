@@ -6,7 +6,7 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
 // --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
@@ -36,6 +36,7 @@ export function validateTemplate(file, opts = {}) {
       if (wc(v.dim) > s.dim.max) F(fp, `dim ${wc(v.dim)} words > ${s.dim.max}`);
       gate(fp + '.desc', v.desc, { budget: s.desc.max_words, capOpen: true }); const n = sentences(v.desc); if (n > s.desc.sentences_max) F(fp, `desc ${n} sentences > ${s.desc.sentences_max}`);
       gate(fp + '.phrase', v.phrase, {}); if (/^(The|A) [a-z]+$/.test(String(v.phrase))) F(fp, 'bare image phrase');
+      if (VIRTUE_HEAD.test(String(v.phrase).trim())) R.readFlags.push(`${fp} :: the chip opens on a virtue word ("${v.phrase}"): a symptom, not a virtue (not blocking, the read decides)`);
       const all = new Set(); for (const f2 of fs.readdirSync(S + 'STEM')) if (f2.endsWith('.json') && f2 !== STEMS[stem]?.file + '.json') { const c = J('STEM/' + f2); [...(c.gifts || []), ...(c.shadows || [])].forEach((x) => all.add(String(x.phrase).toLowerCase())); } if (all.has(String(v.phrase).toLowerCase())) F(fp, `phrase "${v.phrase}" already sits in another stem's pool`);
       texts[fp] = v.desc;
     } else if (s.card === 'ELEMENT_PAIR.carry') {
@@ -47,6 +48,7 @@ export function validateTemplate(file, opts = {}) {
       texts[fp] = [v.clause, v.remedy].join(' ');
     } else if (s.card === 'ELEMENT_GOD.fn_reading') {
       const ww = wc(v.word); if (ww > s.word.max) F(fp + '.word', `${ww} words > ${s.word.max}`); gate(fp + '.word', v.word, {}); if (/\b(diligent|exemplary|enterprising|meticulous|sardonic|ossified|discerning|judicious|astute|sagacious)\b/i.test(v.word)) F(fp + '.word', 'report-card or noble register');
+      if (VIRTUE_HEAD.test(String(v.word).trim())) R.readFlags.push(`${fp}.word :: the chip opens on a virtue word ("${v.word}"): a symptom, not a virtue (not blocking, the read decides)`);
       gate(fp + '.text', v.text, { budget: s.text.max, min: s.text.min, capOpen: true });
       if (/\b(remember when|that time you|when you were (a|an|\d))\b/i.test(v.text)) F(fp + '.text', 'claimed memory');
       if (DOOR_STAMP.test(v.text)) F(fp + '.text', 'time or place stamp (the doors illustrate the trait, they do not stage a scene; owner 2026-09-29)');

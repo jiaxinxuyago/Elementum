@@ -76,7 +76,7 @@ No phrase repeats across the fields of one cell on one page. Each field keeps it
 
 ### Chips (the phrase law, v6)
 
-A chip names the SYMPTOM, the lived pattern the person recognises in themselves. Never a prescription, never a bare image ("Chases every idea" passes, "Too many fires" fails). At most three everyday words anchored by a noun or verb, or one of the fixed four-word idioms on the admitted list (Never calls it done · Never forgets a kindness · Plays the long game · Ahead of the curve · Waits to be moved). Its gift or shadow valence must read on its own with nothing under it. Unique across all ten pools. It is never the dim, and shares no root with another chip on its card.
+A chip names the SYMPTOM, the lived pattern the person recognises in themselves. Never a prescription, never a bare image, never a virtue ("Chases every idea" passes, "Too many fires" fails; "Crisis performer" passes, "Steady under pressure" fails; "No dressed-up answers" passes, "Speaks with ease" fails; "Calm under pressure" fails: a virtue is what an admirer would say, a symptom is what the reader would catch themselves doing). At most three everyday words anchored by a noun or verb, or one of the fixed four-word idioms on the admitted list (Never calls it done · Never forgets a kindness · Plays the long game · Ahead of the curve · Waits to be moved). Its gift or shadow valence must read on its own with nothing under it. Unique across all ten pools. It is never the dim, and shares no root with another chip on its card.
 
 ### Before you return anything, check
 
@@ -96,3 +96,4 @@ A chip names the SYMPTOM, the lived pattern the person recognises in themselves.
 | 2026-09-29 | The scene sentence: pictures as illustration at a size the reader can own, no time or place stamp, no detail without meaning, the three-door rule in the owner's wording | owner 2026-09-29, during the blind read, Q33 and Q34 (REA_16 §2c, §6) |
 | 2026-09-29 | Examples from the persona's ruled domains and ordinary life, work not the default, rhetoric in proportion (the owner's wording) | owner 2026-09-29, at Q25 of the blind read (REA_16 §6) |
 | 2026-09-30 | The hedge ban names the capacity opener on chip descs, doors and verdicts | owner 2026-09-30, Q1a of the v0.6 questionnaire (REA_16 §6) |
+| 2026-09-30 | The chip law's negative examples: a symptom, not a virtue | owner 2026-09-30, Q1b of the v0.6 questionnaire (REA_16 §6) |
