@@ -377,3 +377,7 @@ Append at the end of the row's THE THREE DOORS text (after "Chips ALSO render on
 | R7 | REA_16 §2c row amendment | first draft 8 | |
 | R8 | REA_16 §6 log row | first draft 9 | |
 | stands | first draft 5 (05_CLASSICAL line), 10a–10b (§3 desc law, STEM.gifts style) | | |
+
+## Owner note at Q42 (Water page, scene door, The Artisan 食神) — 2026-09-29
+
+All three candidates rejected: "too specific on the details that the reader loses track of the conclusion." Third instance of the same ruling (Q33, Q34, Q42). The staged clock-time and prop inventory ("at eight, a bowl", "at seven in the evening, a pot") is the pattern; the reader needs the conclusion of the trait, illustrated, not a scene to reconstruct.

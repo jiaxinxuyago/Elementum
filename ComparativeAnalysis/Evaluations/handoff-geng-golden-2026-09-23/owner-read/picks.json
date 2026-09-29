@@ -142,5 +142,35 @@
  "Q35": {
   "pick": "C",
   "at": "2026-09-29T05:39:01.789Z"
+ },
+ "Q36": {
+  "pick": "C",
+  "at": "2026-09-29T05:44:33.384Z"
+ },
+ "Q37": {
+  "pick": "A",
+  "at": "2026-09-29T05:45:53.991Z"
+ },
+ "Q38": {
+  "pick": "B",
+  "at": "2026-09-29T05:46:44.496Z"
+ },
+ "Q39": {
+  "pick": "B+C",
+  "note": "split pick: B's clause, C's remedy (writing, speaking, sharing work early lets the blade breathe)",
+  "at": "2026-09-29T05:48:10.383Z"
+ },
+ "Q40": {
+  "pick": "C",
+  "at": "2026-09-29T05:48:53.543Z"
+ },
+ "Q41": {
+  "pick": "C",
+  "at": "2026-09-29T05:49:32.373Z"
+ },
+ "Q42": {
+  "pick": "none",
+  "note": "No scene passed: too specific on details, reader loses track of the conclusion (backlog item 2, all three doors)",
+  "at": "2026-09-29T05:51:06.633Z"
  }
 }
