@@ -86,6 +86,15 @@ Drafted 2026-09-30 by the backlog drafter. Nothing below is applied, and nothing
 | 16 | all | REA_16 §6, one row per group | | records the rulings |
 | 17 | all | REA_17 0.7, the handoff README version line | | records the rulings |
 
+### Rulings (owner, 2026-09-30, by questionnaire)
+
+| Q | Ruling |
+|---|---|
+| Q1 | YES, PATH (b): rename the keys to `drive` / `cost_self` / `cost_others` in the station and the app in one coordinated set (a separate item: the app's `DOOR_ORDER`, the content file, `export-reading-templates.mjs`, the fixtures, `file-rewrites.mjs`, `adopt.mjs`, `lib.mjs`, `handoff.mjs`). The card wording names the new keys; the `$angle_map` note is not needed once renamed. |
+| Q2 | YES, as drafted |
+| Q3 | YES, as drafted |
+| Q4 | YES, both notes |
+
 ### The questions (one per group; the owner's wording wins)
 
 - **Q1.** Retire the three doors as the organising idea and make each ledger row three angles of one tension (the drive, the cost to the reader, the cost to others), keeping the storage keys `trait / scene / outside` with a `$angle_map` header note (path a) and the app untouched? The three DRAFT exemplars of Part 1-2 are read with it. Options: yes, path (a) as drafted · yes, but path (b): rename the keys and change the app in one coordinated set (a separate item) · no.
