@@ -4,7 +4,7 @@ Reference material for the reading-content team's voice work. Born 2026-09-30 fo
 
 ## What is here
 
-- `2026-09-30_public-excerpt-study.md`: the public-excerpt writing-style study of The Pattern, Nebula and Co-Star: verbatim lines gathered from press, Substack, forums, store listings and the apps' own sites, then read on eight dimensions (person and opener, sentence shape, hedging density, structure of a claim, imagery and place, repetition, register, shareability) and compared with Elementum's current rules.
+- `2026-09-30_public-excerpt-study.md`: the public-excerpt writing-style study of The Pattern, Nebula and Co-Star: verbatim lines gathered from press, Substack, forums, store listings and the apps' own sites, then read on eight dimensions; The Pattern is the writing-style benchmark, studied in depth on four lenses (perspectives, analytical angles, language, voice) with its construct written as a spec and a keep, remove, change plan for the prompt, and Co-Star and Nebula sit beside it, shorter.
 - `owner-screenshots/`: the owner's own screenshots and transcriptions from their subscriptions, one subfolder per app (`the-pattern/` holds the first ten excerpts, transcribed 2026-09-30). The public web lacks whole surfaces (Co-Star's chart-profile prose and full Do/Don't lists, The Pattern's Bonds paragraphs and daily line, Nebula's in-app placement and compatibility text); the study's last section lists what to capture. Drop images beside a dated `_transcription.md` that quotes each screen verbatim and names its surface.
 
 ## The rule
