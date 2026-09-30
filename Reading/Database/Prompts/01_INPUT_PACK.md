@@ -53,7 +53,7 @@ Persona name and definition line · keyword and charge · pole nouns (Vision / D
 
 ### 2.5 · The ELEMENT_GOD pack (×50; REA_03 §4b; `ELEMENT_GOD/<element>_<god>.json`)
 
-The GOD pack for the persona · the element and its arena · the `structural_interaction` seed ("Earth generating Metal same-polarity: stability as quiet source of precision") · `dm_element` (which core reads this cell) · the pole being written · the sibling cell's chips and ledger words (so nothing fits both siblings) · for the ledger, the door being written (trait, scene or outside) and the row's rank (authored order is significance order).
+The GOD pack for the persona · the element and its arena · the `structural_interaction` seed ("Earth generating Metal same-polarity: stability as quiet source of precision") · `dm_element` (which core reads this cell) · the pole being written · the sibling cell's chips and ledger words (so nothing fits both siblings) · for the ledger, the angle being written (the drive, the cost to the reader or the cost to others; keys drive, cost_self, cost_others) and the row's rank (authored order is significance order).
 
 ### 2.6 · The POSITION pack (×70; REA_02 §5e; REA_04 PART 9; `POSITION/<god>_<slot>.json`)
 
@@ -77,3 +77,4 @@ The STEM pack · the band (Overfueled, Balanced, Underfueled) · the `dm_overvie
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 §2 | compilation, no new rule |
 | 2026-09-30 | §2.3: the band's remedy verb handed over with every advice | owner 2026-09-30, Q1e of the v0.6 questionnaire (REA_16 §6) |
+| 2026-10-01 | §2 ELEMENT_GOD pack: the angle being written in place of the door | owner 2026-10-01, Q1 of the v0.7 questionnaire (REA_16 §6) |

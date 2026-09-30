@@ -56,7 +56,7 @@ export function validateTemplate(file, opts = {}) {
       if (s.pole === 'friction' && VIRTUE_HEAD.test(String(v.word).trim())) R.readFlags.push(`${fp}.word :: the friction chip opens on a virtue word ("${v.word}"): a friction chip is a symptom or a cost, never a virtue (catalyst chips are not tested; not blocking, the read decides)`);
       gate(fp + '.text', v.text, { budget: s.text.max, min: s.text.min, capOpen: true });
       if (/\b(remember when|that time you|when you were (a|an|\d))\b/i.test(v.text)) F(fp + '.text', 'claimed memory');
-      if (DOOR_STAMP.test(v.text)) F(fp + '.text', 'time or place stamp (the doors illustrate the trait, they do not stage a scene; owner 2026-09-29)');
+      if (DOOR_STAMP.test(v.text)) F(fp + '.text', 'time or place stamp (the stamp floor: no staged scene on any passage; owner 2026-09-29, kept 2026-10-01)');
       const [hz, god] = s.cell.split('_'); const SIB = { '比肩': '劫财', '劫财': '比肩', '食神': '伤官', '伤官': '食神', '偏财': '正财', '正财': '偏财', '七杀': '正官', '正官': '七杀', '偏印': '正印', '正印': '偏印' }; const sib = J(`ELEMENT_GOD/${hz}_${SIB[god]}.json`).adj_chips; if ([...(sib.catalyst || []), ...(sib.friction || [])].map((x) => x.toLowerCase()).includes(String(v.word).toLowerCase())) F(fp + '.word', `chip "${v.word}" also sits on the sibling cell`);
       texts[fp] = v.text;
     }

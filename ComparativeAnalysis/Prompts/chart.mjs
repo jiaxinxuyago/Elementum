@@ -66,7 +66,7 @@ export function resolveChart(spec) {
       pairKey, state, stateSource: source, turn: s.mech?.turn || null,
       faces: (r.faces || []).map((f) => ({ god: f.god, share: f.share, persona: f.persona, polarity: f.polarity })),
       leadGod: ecE?.leadGod || null, absentGod: ecE?.absentGod || null,
-      fnRows: (r.fnRows || []).map((x, i) => ({ word: x.word, god: x.god || ecE?.leadGod || null, door: ['trait', 'scene', 'outside'][i % 3] })),
+      fnRows: (r.fnRows || []).map((x, i) => ({ word: x.word, god: x.god || ecE?.leadGod || null, angle: ['drive', 'cost_self', 'cost_others'][i % 3] })),
     };
   });
   const doors = poolDoors(m);

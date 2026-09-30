@@ -29,7 +29,7 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 | `ELEMENT_PAIR.carry.thin` · `.excess` · `.missing` · `.spared` · `.unrooted` | the state line for those volumes | 4 + 2 | 18 + 12 | a clause and a directive |
 | `ELEMENT_PAIR.function.definition_<pole>` | the hero definition | 20 | 55 | "{Element} is your {Function}, and as a catalyst / friction, it is …"; the self pair: "… and running thin / over, it is …"; one word of the energy's chemistry anywhere in the field (owner 2026-09-30) |
 | `ELEMENT_GOD.adj_chips[]` (the ledger row word) | the dot card and the ledger row head | 1 | 3 | high-school vocabulary, the persona textured by the element |
-| `ELEMENT_GOD.fn_reading` door passage | the ledger, one door per row (trait · scene · outside, rotating) | 35 | 55 | each door opens on its own angle (trait: the claim · scene: a picture · outside: opens on the reader's own act and lands on what others see or pay) and states the trait as a conclusion the reader can repeat, pictures as illustration only, no clock time, no place, no narration, no capacity opener (owner 2026-09-30) |
+| `ELEMENT_GOD.fn_reading` passage | the ledger, one angle per row (the drive · the cost to the reader · the cost to others, rotating; keys drive · cost_self · cost_others) | 35 | 55 | every passage opens on the drive as a flat claim about the reader, states the mechanism flat from the supply, names the either-or in the second person and lands on its angle's cost (owner 2026-10-01); a picture permitted, never required; no clock time, no place, no narration, no chorus, no capacity opener (owner 2026-09-30) |
 | `ELEMENT_PAIR.function.advise_<pole>` | the reading's last paragraph | 20 | 60 | second person, imperatives allowed |
 | `ELEMENT_PAIR.cta_verdict` | the dot card under the definition line | 8 | 30 | one sentence, "{Element} is your {Function}" explained with one tendency beat, no capacity opener (owner 2026-09-30), reads true on either pole (owner 2026-09-30) |
 
@@ -44,3 +44,4 @@ _Prompt file (data). Every word range is a gate, both ends (owner 2026-09-23): a
 | 2026-09-23 | Born; minimums made hard | owner 2026-09-23 |
 | 2026-09-30 | The capacity opener named on the pool desc, the door and the verdict rows | owner 2026-09-30, Q1a of the v0.6 questionnaire (REA_16 §6) |
 | 2026-09-30 | The energy's chemistry word named on the definition and base rows | owner 2026-09-30, Q1c of the v0.6 questionnaire (REA_16 §6) |
+| 2026-10-01 | The ledger row re-described: three angles of one tension per row, the keys renamed drive, cost_self, cost_others (path b) | owner 2026-10-01, Q1 of the v0.7 questionnaire (REA_16 §6) |
