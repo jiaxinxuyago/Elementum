@@ -1,0 +1,35 @@
+# ELEMENT_GOD.adj_chips
+
+_Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 from REA_17 v0.3 §3; the source rulings are cited at the bottom of the card. Where this file and a source document disagree, the source wins and this file is corrected._
+
+| | |
+|---|---|
+| **Field** | `ELEMENT_GOD.adj_chips` |
+| **Axis** | ELEMENT_GOD |
+| **Header** | the element dot card · chip · impersonal · 1–3 words each, three per pole · LOCKED ×50 (300 chips) |
+| **Harness field key** | ELEMENT_GOD.adj_chips |
+| **Status** | LOCKED ×50 (300 chips) |
+
+## The card
+
+- Construct: `{catalyst: [3], friction: [3]}`: the persona's classical portrait, textured by the element, in high-school vocabulary. Authored order is significance order (the ledger's rank).
+- Reasoning chain (THE KEYWORD DERIVATION CHAIN): (1) start from the persona's classical 心性 portrait and pass the sibling test on the tension (a chip names a drive or a cost the sibling persona would not name on this element; a chip that fits both 偏 and 正 is not god-derived enough; the test is run on the either-or the chip points at, never on an example, owner 2026-10-01); (2) texture by the element's arena; (3) the angle law: three chips are three distinct dimensions (process, presence, tempo, appetite, limit), never synonyms; (4) the pole (catalyst gift, friction cost-first); (5) a word a high-school reader knows cold (Withdrawn, Overprepared, never Sardonic or Ossified); (6) the pole law (owner 2026-09-30): a catalyst chip is a virtue or a symptom that pays ("Crisis performer", "Steady under pressure", "Speaks with ease", "Plays the long game" all pass); a friction chip is a symptom or a cost, never a virtue and never a bare image ("Overprepared" passes, "Well-read" fails (a virtue on the friction side), "Chases every idea" passes, "Too many fires" fails (a bare image)). Single precise word preferred; a 2–3 word phrase only for a fixed idiom (Plays it safe) or to replace jargon (Stuck for Root-bound); an edge word (Fickle, Brooding, Contrarian) only when short, punchy and glossed by the ledger.
+- Checks: ≤3w each, unique within the same-element sibling pair, B1–B2 zone, no report-card register, no virtue at the head of a friction chip (steady, calm, reliable, strong, gifted, natural, speaks with ease, good at, skilled: the harness notes it on the friction pole only, never on a catalyst chip; the read decides).
+- Exemplar (土_偏印): catalyst Deep-reading · Unhurried · Inventive; friction Withdrawn · Brooding · Overprepared.
+- Sources: REA_16 §2c (the vocabulary zone 2026-09-04, the derivation chain 2026-09-03).
+- Style: everyday personality words a high-school reader knows cold; one precise word preferred; hyphenated compounds allowed (Deal-maker, Wide-branching); an edge word (Fickle, Brooding, Contrarian) only when short, punchy and glossed by its ledger row; never the report-card or noble register (diligent, exemplary, enterprising, meticulous, sardonic, ossified); catalyst chips read as gifts alone, friction chips as costs alone.
+
+## Assembly
+
+PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from the station with the target field redacted) + this card + the task line the harness writes for the cell (`ComparativeAnalysis/Prompts/assemble.mjs`). The gate (`validate.mjs`) enforces the checks above plus the register rules in `02_RULES_REGISTER.md`.
+
+## Iteration log
+
+| Date | Change | Ruling |
+|---|---|---|
+| 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-23 | Style line added from THE VOCABULARY ZONE and THE KEYWORD DERIVATION CHAIN | handoff readiness check (no new rule) |
+| 2026-09-21 | 木_偏财 catalyst chip Enterprising → Deal-maker (the report-card ban applied to the corpus; the ledger row word follows the chip) | owner ruling Q7 |
+| 2026-09-30 | A symptom, never a virtue: the Codex-shaped examples added to the chain and the checks, a harness note | owner 2026-09-30, Q1b of the v0.6 questionnaire (REA_16 §6) |
+| 2026-09-30 | The pole law: a catalyst chip is a virtue or a symptom that pays, a friction chip a symptom or a cost, never a virtue and never a bare image; the Q1b examples re-cut; the harness note scoped to the friction pole only | owner 2026-09-30, row 5 of the v0.6 review rulings (`backlog/2026-09-30_v06-review-rulings.md`) |
+| 2026-10-01 | The sibling test in step 1 runs on the tension the chip points at | owner 2026-10-01, Q7 of the v0.7 questionnaire (REA_16 §6) |

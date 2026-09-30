@@ -1,6 +1,6 @@
 # Backlog · the ledger's storage keys renamed: `doors:{trait, scene, outside}` becomes `angles:{drive, cost_self, cost_others}` (path b of the v0.7 item's Q1)
 
-**Status: RULED by the owner 2026-09-30 at Q1 of `2026-10-01_prompt-v07-tension-naming.md` ("YES, PATH (b): rename the keys to drive / cost_self / cost_others in the station and the app in one coordinated set (a separate item)"). Applied 2026-10-01 after the v0.7 prompt parts (Groups 1 to 12, Parts 15 to 17), as one coordinated set: the station by script, the generated views regenerated, the app's deliberate transcription re-keyed with no text change, the harness, the rewrite stations and the handoff skeletons re-keyed so `adopt.mjs`, `file-rewrites.mjs`, `render-template.mjs` and `synth-picks.mjs` keep addressing the rows. A key rename only: no passage changes, no key order changes, the `__ore*` keys and every other byte untouched. The map: `doors` → `angles`, `trait` → `drive`, `scene` → `cost_self`, `outside` → `cost_others`.**
+**Status: APPLIED 2026-10-01, commits 8fd21b8 (the data: the 50 station cells, the regenerated views, the three rewrite stations, the handoff skeletons, the harness run records, k2.js) and dad823b (the readers: journeyData.js, the fixtures, the harness, REA_17, REA_16); drafted and ruled 2b5e7f2. Ruled by the owner 2026-09-30 at Q1 of `2026-10-01_prompt-v07-tension-naming.md` ("YES, PATH (b): rename the keys to drive / cost_self / cost_others in the station and the app in one coordinated set (a separate item)"). Pipeline after the rename: `build-template-twins.mjs` 240 twins and 74 pivots; `export-reading-templates.mjs` (default mode) "station ↔ live code: every code-mapped field in sync across 240 files"; `voice-audit.mjs` clean (62 registry rows); `qa-selection-fixtures.mjs` "every contract holds"; `npm ci` then `npm run build` green (PWA precache 45 entries) and `npm run lint` 0 errors (57 pre-existing warnings, none in the renamed files); `selftest.mjs runs/golden-all.json` 17 of 133 (the baseline); the north star 23 blocking (the baseline). Applied after the v0.7 prompt parts (Groups 1 to 12, Parts 15 to 17), as one coordinated set: the station by script, the generated views regenerated, the app's deliberate transcription re-keyed with no text change, the harness, the rewrite stations and the handoff skeletons re-keyed so `adopt.mjs`, `file-rewrites.mjs`, `render-template.mjs` and `synth-picks.mjs` keep addressing the rows. A key rename only: no passage changes, no key order changes, the `__ore*` keys and every other byte untouched. The map: `doors` → `angles`, `trait` → `drive`, `scene` → `cost_self`, `outside` → `cost_others`.**
 
 ## Why the keys move
 
@@ -69,6 +69,6 @@ The v0.7 item retired the three doors as the organising idea: each ledger row is
 ## Action items
 
 - [x] Owner rules the path (Q1 of the v0.7 item, 2026-09-30: path b).
-- [ ] Apply (a) to (e) by script and by edit, one commit for the data and the app, one for the harness and the documents (or one for all where they cannot be separated).
-- [ ] Run the pipeline and the checks; the audit in agreement, the fixtures green, the build green.
-- [ ] Record the hashes here and in `backlog/README.md`.
+- [x] Apply (a) to (e) by script and by edit: 8fd21b8 (the data and k2.js), dad823b (the readers, the harness and the documents).
+- [x] Run the pipeline and the checks; the audit in agreement, the fixtures green, the build green (2026-10-01, the results in the Status line).
+- [x] Record the hashes here and in `backlog/README.md`.
