@@ -11,8 +11,9 @@
 // 伤官 The Virtuoso (was Edge), 正官 The Magistrate (was Arbiter).
 // ===================================================================
 
-// REA_02 §2 mandatory definition lines (V-class carved vocabulary; the em
-// dash is the seal lines' structural dash, exempt from the prose purge).
+// REA_02 §2 mandatory definition lines (V-class carved vocabulary). The
+// deflines carry NO dash: the clause that once followed an em dash now
+// follows a comma (owner ruling D8, 2026-09-20).
 // Surfaced on first god appearance — the Ruling Domains teaser + detail.
 export const TG_DEFLINE = {
   '比肩': 'Same nature, same register, the standard you hold yourself to',
