@@ -1,7 +1,7 @@
 # Backlog · the pivot to tension-naming (The Pattern's construct) as the systematic register
 
 **Raised:** 2026-09-30, the owner, after reading their own Pattern and Nebula screenshots against the door rule.
-**Status:** DIRECTION RULED, construct pending the study and three owner answers. This item supersedes the door-rule items of 2026-09-29 (the doors illustrate the trait; the outside door opens on the reader's act) as the direction of travel: the scene and outside doors are no longer the thing to perfect.
+**Status:** DIRECTION RULED and the three questions ANSWERED 2026-09-30 (below); construct pending the study's spec and gap analysis. This item supersedes the door-rule items of 2026-09-29 (the doors illustrate the trait; the outside door opens on the reader's act) as the direction of travel: the scene and outside doors are no longer the thing to perfect.
 
 ## The ruling, as the owner put it
 
@@ -15,7 +15,17 @@ The door rule now looks unnecessary. The reading does not need to restore a scen
 
 **Open (the owner's three answers, below), then the study delivers the construct spec (`ComparativeAnalysis/Reference/competitor-voice/2026-09-30_public-excerpt-study.md`, The Pattern section, widened 2026-09-30) and this item drafts the prompt changes: master prompt (the voice paragraph and the construct paragraph), the fn_reading card (the passage construct, chain, checks, exemplars), REA_16 §1 and §2c (the voice identity sentence "not the therapist (The Pattern)" needs the owner's re-ruling, since the register now borrows the therapist's construct), the harness (retire the door heuristics, add a tension-shape check if one is mechanical), REA_17 to 0.7.
 
-## The three questions for the owner
+## The owner's answers (2026-09-30)
+
+| Q | Answer |
+|---|---|
+| 1 Scope | Every descriptive field: ledger passages, definitions, the Day Master nature and presence lines, the pool descs, the seat readings. The mechanism base and the P4 mythic layer keep their material images. |
+| 2 The rows | Three angles of one tension per ledger row: the drive, its cost to the reader, its cost to others. Three passages per row and the blend positions stay. |
+| 3 Voice | The engraving identity stays with The Pattern's construct inside it: the tension named in plain psychological words, the engraved cadence and the material nouns where they belong kept. REA_16 §1 is amended, not replaced. |
+
+The owner also asked the study to close with: what makes The Pattern's writing and its way of revealing the reader more compelling than ours; which of our current prompt directions contradict its style; and a numbered list of action items (improve, remove) for the prompt after the research. That section is the input to the v0.7 draft.
+
+## The three questions for the owner (as asked)
 
 1. **Scope of the pivot.** The ledger passages only (the 900 door rows), or every descriptive field (definitions, the Day Master nature desc and presence, the pool descs, the seat readings) with the mechanism base and the P4 mythic layer keeping their material images?
 2. **What replaces the three doors.** Three passages per row from three angles of the same tension (the drive, the cost to self, the cost to others), or one tension passage per row with the two other rows dropped, or three rows each naming a different tension of the same chip?
@@ -24,7 +34,8 @@ The door rule now looks unnecessary. The reading does not need to restore a scen
 ## Action items
 
 - [ ] The study's Pattern section widened to the construct spec (in progress, 2026-09-30).
-- [ ] Owner answers questions 1 to 3.
+- [x] Owner answers questions 1 to 3 (2026-09-30).
+- [ ] The study's closing section: what is more compelling, where we contradict, the action items.
 - [ ] Draft the prompt changes as parts with before and after text (v0.7), ruled by questionnaire.
 - [ ] Re-cut the ledger exemplars and the master prompt's construct paragraph; retire the door heuristics from the harness; keep the stamp floor.
 - [ ] Regenerate the golden set under v0.7 and read it against the north star (REA_18 Stage 2 restarts from there).
