@@ -150,6 +150,26 @@ export const APPR_LINE = {
   Refill: { verb: 'Refill', tail: 'take in what feeds you.' },
 };
 
+// ── carry poles (valence × volume, owner 2026-09-16) ───────────────
+// The eight states an ELEMENT_PAIR `carry` cell can speak: the two pole
+// turns plus the six volume states (owner 2026-09-16; `wide` added by owner
+// D4 and the B10 fix, 2026-09-20). Order is the manual's and load-bearing.
+const CARRY_POLES = ['catalyst', 'friction', 'wide', 'missing', 'spared', 'thin', 'excess', 'unrooted'];
+
+// The yin sibling's carry lines merged over the yang ones, pole by pole:
+// the 25 pair cells wear the yang archetype's noun and `carry_yin` holds the
+// yin sibling's sparse overrides (owner 2026-09-16). Returns `pair.carry`
+// unchanged when there is no yin sibling to merge, and null with no pair.
+// Extracted because the pole list and this merge were hand-written twice —
+// the energy page and the carry card (code review 2026-09-30, BUG-20260921-3).
+export function mergeCarry(pair, yinStem) {
+  if (!pair) return null;
+  if (!(yinStem && pair.carry_yin)) return pair.carry;
+  return Object.fromEntries(CARRY_POLES
+    .filter((k) => pair.carry?.[k] || pair.carry_yin?.[k])
+    .map((k) => [k, { ...(pair.carry?.[k] || {}), ...(pair.carry_yin?.[k] || {}) }]));
+}
+
 // ── wheel seating (DOMINANCE_WHEEL_RULES §2 AMENDMENT, owner 2026-07-16) ──
 // Slot centers in the 320×292 container; sizes by presence rank.
 const SLOT = {
@@ -451,7 +471,7 @@ export function buildElementScreen(model, el) {
   // state line (clause + remedy) instead of the pole's turn. A wanted energy
   // that runs abundant or dominant speaks the `wide` line (owner D4 and the
   // B10 fix, 2026-09-20), so the page and the carry card never disagree.
-  const carry = pair ? (yinStem && pair.carry_yin ? Object.fromEntries(['catalyst', 'friction', 'wide', 'missing', 'spared', 'thin', 'excess', 'unrooted'].filter((k) => pair.carry?.[k] || pair.carry_yin?.[k]).map((k) => [k, { ...(pair.carry?.[k] || {}), ...(pair.carry_yin?.[k] || {}) }])) : pair.carry) : null;
+  const carry = mergeCarry(pair, yinStem);
   const stateTurn = (() => {
     if (!carry) return null;
     const v = r.volume || volumeOf(r.presence);
@@ -639,13 +659,10 @@ export function buildCarryModel(m, chosen = {}) {
   const yin = STEM_YIN[m.stem] === 1;
   const pairFor = (r) => {
     const cell = PAIR_CELLS[`${m.core.hz}_${r.hz}`];
+    // A cell with no `carry` at all speaks nothing here, even if it carries
+    // yin overrides — the guard stays ahead of the shared merge.
     if (!cell?.carry) return null;
-    if (!yin || !cell.carry_yin) return cell.carry;
-    const out = {};
-    for (const pole of ['catalyst', 'friction', 'wide', 'missing', 'spared', 'thin', 'excess', 'unrooted']) {
-      if (cell.carry[pole] || cell.carry_yin[pole]) out[pole] = { ...(cell.carry[pole] || {}), ...(cell.carry_yin[pole] || {}) };
-    }
-    return out;
+    return mergeCarry(cell, yin);
   };
   const coreName = m.core.name;
   const nEase = m.skip.length; const nSeek = m.seek.length;
