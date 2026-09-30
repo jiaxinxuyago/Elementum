@@ -98,6 +98,10 @@ Drafted 2026-09-30 by the backlog drafter. Nothing below is applied, and nothing
 | Q6 | YES, as drafted |
 | Q7 | YES, as drafted |
 | Q8 | YES, both as notes |
+| Q9 | YES, as drafted |
+| Q10 | YES, as drafted |
+| Q11 | YES, as drafted |
+| Q12 | YES, as drafted |
 
 ### The questions (one per group; the owner's wording wins)
 
