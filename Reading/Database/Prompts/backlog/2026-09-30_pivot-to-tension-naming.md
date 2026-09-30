@@ -7,6 +7,12 @@
 
 The door rule now looks unnecessary. The reading does not need to restore a scene in words, or to reframe the outsider's view. The "how does it know" feeling comes from naming a tension right on point, not from a vivid or accurate picture. The direction pivots to The Pattern's style of writing: dig into more research, study The Pattern's references, elevate the style to the systematic prompt, and put the references into the prompt.
 
+## The owner's framing (2026-09-30, second note)
+
+The pivot grew out of the door rule. Reading the door examples (trait, scene, outside), the owner felt them weak and drifting from the psychological resonance the reading is meant to produce. The research and the workflow redesign therefore keep the advantageous rulings of this week, but centre The Pattern as the writing-style benchmark and fine-tune four things on it: **perspectives** (whose view the line takes, how it addresses the reader), **analytical angles** (what a passage chooses to analyse: the drive, the tension between two drives, the cost, the origin, the relationship pattern), **language** (vocabulary, sentence shape, abstraction level, plainness) and **voice** (confidence, distance, sound). The study's spec and gap analysis are written against that benchmark, part by part.
+
+**Consequence for REA_18.** The workflow's target changes with it: the north star of 2026-09-29 was assembled before the benchmark was named, and the scorer's pull axis was defined by the three readers and the screenshot line. After the study, REA_18 goes to v0.2: the pull axis re-anchored to psychological resonance (the tension named on point, the reader's recognition), the north star re-read against the benchmark before Stage 2, and the calibration round measures resonance beside fit and accuracy.
+
 ## What stands, what moves, what is open
 
 **Stands (ruled this week, not contradicted by the pivot):** the capacity-opener ban (stated openers read stronger); the reflex-hedge ban and the hollow-affirmation ban (REA_04 §8.9); no biography claims (D2); zero dashes; the chip law by pole (gifts may be virtues, shadows are symptoms); the prescription beat in the energy-manual register (D7); the chemistry word in the definition and the base (E7); the formula-phrase window (B6); the plain opener on the turn (C3). The Pattern hedges, affirms, asserts biography and uses dashes; the owner has ruled against every one of those moves, so the pivot adopts the construct and the vocabulary, not the scaffolding.
@@ -38,4 +44,5 @@ The owner also asked the study to close with: what makes The Pattern's writing a
 - [ ] The study's closing section: what is more compelling, where we contradict, the action items.
 - [ ] Draft the prompt changes as parts with before and after text (v0.7), ruled by questionnaire.
 - [ ] Re-cut the ledger exemplars and the master prompt's construct paragraph; retire the door heuristics from the harness; keep the stamp floor.
+- [ ] REA_18 to v0.2 (the pull axis re-anchored to resonance; the north star re-read against the benchmark).
 - [ ] Regenerate the golden set under v0.7 and read it against the north star (REA_18 Stage 2 restarts from there).
