@@ -312,6 +312,8 @@ export const HEDGE = /\b(you (may|might) (feel|find|seem|notice|be)|may (feel|se
 export const CAPACITY_OPENER = /^(?:[\w'’-]+\s){0,3}(?:You|People|Listeners|Others|Friends|Colleagues|Anyone|Everyone|Someone|Nobody) can\b|^(?:[\w'’-]+\s){1,4}can (?:keep you|make|suit you)\b/;
 // A virtue on the shadow side (analysis 2026-09-23 §5 proposal 2, owner 2026-09-30, G2 split by pole, row 5 of the review rulings): a gift chip may be a virtue or a symptom that pays; a shadow chip (and a friction-pole adj chip) is a symptom or a cost, never a virtue. A virtue word at the head of a shadow or friction chip is noted; gifts and catalyst chips are never tested. Note only; the owner's cold read decides valence.
 export const VIRTUE_HEAD = /^(steady|calm|reliable|strong|gifted|natural|good at|skilled|speaks with ease|graceful|wise|brave|kind|patient|honest|confident)\b/i;
+// A9 narrowed and A5 widened (owner 2026-10-01, Q8): the clinical terms are the jargon A9 bans, the plain psychological nouns are lawful; the intensifier tier is the benchmark's verdict dress. Both notes, never blocking (the owner's ruling at Q8: both as notes).
+export const CLINICAL_TERM = /\b(attachment style|boundaries|triggers?|triggered|trauma|regulat(e|es|ed|ing)|process(es|ed|ing)? (it|this|that|the|your|what)\b)\b/i; export const INTENSIFIER = /\b(amazing|exceptional|incredibly|total (confidence|control|freedom|clarity)|exactly what you want)\b/i;
 // cta_verdict is pole-neutral (analysis 2026-09-23 §5 proposal 10, owner 2026-09-30, C5): one per pair, rendered on either pole's page. A pole state word binds it to one pole. Note only; the read decides.
 export const POLE_STATE = /\b(heavy|thin|too much|too little|running over|running short|in excess|overgrown|piles up|runs short|not enough)\b/i;
 export const BAZI = /\b(Day Master|Ten Gods?|Seven Killings|Direct Officer|Indirect Seal|Direct Seal|Rob Wealth|Food God|Hurt(ing)? Officer|Parallel Self|useful god|favou?rable element|wealth star|Four Pillars|BaZi|Bazi|dayun|liunian|Indirect Wealth|Direct Wealth|Eating God|Friend star)\b/i;
@@ -323,6 +325,7 @@ export function makeGate(F) {
     if (/[一-鿿]/.test(t)) F(where, 'Chinese character');
     const b = t.match(BANNED); if (b) F(where, `banned word "${b[0]}"`);
     const h = t.match(HEDGE); if (h) F(where, `hedge "${h[0]}"`);
+    { const c = t.match(CLINICAL_TERM); if (c) readFlag(where, `clinical term "${c[0]}" (A9 narrowed 2026-10-01; the plain psychological words are lawful; the read decides)`); const i = t.match(INTENSIFIER); if (i) readFlag(where, `intensifier "${i[0]}" (A5, the benchmark's verdict dress; owner 2026-10-01; the read decides)`); }
     if (/\brooms?\b/i.test(t)) F(where, '"room" (rationed)');
     const z = t.match(BAZI); if (z) F(where, `BaZi label "${z[0]}"`);
     for (const re of PARALLELISM) if (re.test(t)) { F(where, 'negative parallelism'); break; }
