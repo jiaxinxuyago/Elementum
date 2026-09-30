@@ -1,6 +1,6 @@
 # The Pattern · the owner's own screenshots · 2026-09-30
 
-Eight screenshots from the owner's account (the "You" tab, two summaries, and three pages of one timing reading; two further uploads duplicated the card screens and were not filed). Quoted verbatim for analysis only; nothing here is reused in Elementum's content. Images beside this file.
+Nine screenshots from the owner's account (the "You" tab, two summaries, and three pages of one timing reading; two further uploads duplicated the card screens and were not filed). Quoted verbatim for analysis only; nothing here is reused in Elementum's content. Images beside this file.
 
 ## Excerpts
 
@@ -15,6 +15,7 @@ Eight screenshots from the owner's account (the "You" tab, two summaries, and th
 | P8 | Timing reading "Abundance & Confidence" (Jupiter conjunct Mars; SEP 25, 2026 – MAY 25, 2027) · swipe page 2 of 7, one paragraph per screen | During this amazing time, there's supportive energy encouraging you to take risks and trust yourself, and to go after exactly what you want with total confidence. |
 | P9 | The same reading · page 3 of 7 | If you already feel secure about yourself and know what you want, these inherent traits will be even more magnified during this period. Your visionary qualities are expanding, causing you to feel alive and able to make life up as you go along. |
 | P10 | The same reading · page 4 of 7 | Things are flowing and new opportunities may present themselves during this time frame. It's not a moment to be passive, but to embrace your magnetic, independent nature and take advantage of all the possibilities. |
+| P11 | The same timing reading · summary card (LENGTH 8 months; PEAK EFFECT Sep 25 to Oct 15, 2026 "In Peak" and Feb 15 to Mar 15, 2027; "8 months left"; then "Read Insight") | Your confidence is expanding right now - it's time to go after exactly what you want. Pursue your visions - during this cycle, things are flowing for you and it's easier to make life up as you go along. If you can find the balance and stay open to feedback, you can achieve great things. |
 | P7 | Section headers and tagline | An ever-growing library on the story of you · Your Pattern: Your Personality Traits & Life Journey Blueprint · Your Love & Relationship Life: Attraction, Intimacy, & Your Partnership Potential |
 
 ## First read against Elementum's open rules (the study integrates this)
@@ -34,3 +35,9 @@ Eight screenshots from the owner's account (the "You" tab, two summaries, and th
 - **Hedges and intensifiers together.** "may present themselves" beside "amazing time", "total confidence", "exactly what you want". The hedge protects the claim; the adjectives sell it. Elementum bans both the reflex hedge and the hollow affirmation (REA_04 §8.9).
 - **The "not X, but Y" frame.** "It's not a moment to be passive, but to embrace your magnetic, independent nature". A construction Elementum's voice canon lists as a mannered device.
 - **Still no picture.** Ten excerpts, zero objects, zero places, zero times of day. Across every surface the owner captured, The Pattern illustrates nothing; it names.
+
+## Third batch (P11), the timing summary beside its swipe pages
+
+- **Summary and pages carry the same sentences.** "go after exactly what you want", "things are flowing", "make life up as you go along" appear in the summary (P11) and again on pages 2 to 4 (P8 to P10). The Pattern repeats its own phrases across surfaces of one reading; Elementum's page-level four-gram rule would block it.
+- **The cost, hedged into a condition.** "If you can find the balance and stay open to feedback, you can achieve great things." The only cost in the whole reading (losing balance, closing to feedback) arrives as an "if you can", and the payoff as a "you can achieve". Two capacity clauses in one sentence, and a hollow affirmation ("achieve great things") to close, which REA_04 §8.9 bans.
+- **Dashes as the joint.** Two spaced hyphens used as dashes in three sentences ("right now - it's time", "visions - during this cycle"). Elementum's corpus targets zero dashes.
