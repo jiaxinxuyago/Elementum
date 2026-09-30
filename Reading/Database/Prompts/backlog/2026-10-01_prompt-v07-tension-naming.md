@@ -102,6 +102,11 @@ Drafted 2026-09-30 by the backlog drafter. Nothing below is applied, and nothing
 | Q10 | YES, as drafted |
 | Q11 | YES, as drafted |
 | Q12 | YES, as drafted |
+| Q13 | YES, keep all |
+| Q14 | YES, as drafted (the golden re-lock first, seven trait doors kept as drive passages) |
+| Q15 | YES, as drafted (REA_18 v0.2) |
+
+**All fifteen ruled 2026-09-30. Status: RULED; application pending the apply pass (every part as drafted, with Q1 on path (b): the keys renamed to `drive` / `cost_self` / `cost_others` in the station and the app as a coordinated separate item, applied after the prompt parts).**
 
 ### The questions (one per group; the owner's wording wins)
 
