@@ -20,6 +20,10 @@ export const exists = (p) => fs.existsSync(S + p);
 export const wc = (s) => String(s || '').trim().split(/\s+/).filter(Boolean).length;
 // The rhythm note (owner 2026-09-30, B2): sentences over twenty words per field, reported in both gates beside the stem's §2b rhythm row, never blocking (the freedom clause of the master prompt stands).
 export const longSentences = (t) => String(t || '').split(/(?<=[.!?])\s+/).filter((s) => wc(s) > 20).length;
+// The formula-phrase window (owner 2026-09-30, row 2 of the v0.6 review rulings, B6): a formula phrase (too much, too little, running over, running short, running thin, running heavy, Seek it, Seek both, the energy that) never twice within any window of three consecutive sentences, within a field and across the adjacent fields of one page. Blocking in the template gate, a note in the field gate. No exemption for deliberate repeats is written here: the owner has that question open.
+export const FORMULA_PHRASES = ['too much', 'too little', 'running over', 'running short', 'running thin', 'running heavy', 'seek it', 'seek both', 'the energy that'];
+export const sentencesOf = (t) => String(t || '').split(/[.!?]+/).map((x) => x.trim()).filter(Boolean);
+export const formulaRepeat = (t) => { const ss = sentencesOf(t); const out = new Set(); for (let i = 0; i < ss.length; i++) { const win = ss.slice(i, i + 3).join('. '); for (const ph of FORMULA_PHRASES) if ((win.match(new RegExp(`\\b${ph}\\b`, 'gi')) || []).length >= 2) out.add(ph); } return [...out]; };
 export const flat = (v, prefix = '') => typeof v === 'string' ? [[prefix, v]] : Array.isArray(v) ? v.flatMap((x, i) => flat(x, `${prefix}[${i}]`)) : (v && typeof v === 'object') ? Object.entries(v).flatMap(([k, x]) => flat(x, prefix ? `${prefix}.${k}` : k)) : [];
 export const get = (o, p) => p.split('.').reduce((v, k) => v?.[k], o);
 

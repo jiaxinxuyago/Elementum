@@ -6,7 +6,7 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH, longSentences, STEM_RHYTHM, POLE_STATE } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH, longSentences, STEM_RHYTHM, POLE_STATE, formulaRepeat, sentencesOf } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
 // --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
@@ -62,6 +62,8 @@ export function validateTemplate(file, opts = {}) {
     }
     // the reader zone per field
     if (zoneCard) { const z = zoneCheck(typeof v === 'string' ? v : Object.values(v).join(' ')); if (s.card === 'ELEMENT_GOD.fn_reading' && v.word) { const zw = zoneCheck(v.word); if (zw.outside.length) F(fp + '.word', `outside the reader zone: ${zw.outside.join(', ')}`); } if (z.per100 > ZONE_BLOCK_PER100) F(fp, `reader zone: ${z.per100} outside-zone words per 100 > ${ZONE_BLOCK_PER100}`); else if (z.outside.length) R.readFlags.push(`${fp} :: outside the zone (not blocking): ${z.outside.join(', ')}`); }
+    // the formula-phrase window within the field (owner 2026-09-30, B6): blocking
+    if (texts[fp] != null) for (const ph of formulaRepeat(texts[fp])) F(fp, `formula phrase repeated within three sentences: "${ph}" (a formula phrase never twice within three consecutive sentences; owner 2026-09-30, B6)`);
     if (texts[fp] != null) R.rhythm[fp] = longSentences(texts[fp]);
     R.fields[fp] = { pass: findings.length === 0, findings }; R.blocking.push(...findings);
     log(`${findings.length ? '  ✗  ' : '  ok '} ${fp}${findings.length ? '\n     - ' + findings.join('\n     - ') : ''}`);
@@ -70,6 +72,9 @@ export function validateTemplate(file, opts = {}) {
   const pairish = (p) => /^(mechanism|function|carry|cta_verdict)/.test(p);
   const keys = Object.keys(texts);
   for (let i = 0; i < keys.length; i++) for (let j = i + 1; j < keys.length; j++) { const a = keys[i], b = keys[j]; if (lawfulPair(a, b)) continue; if (a.startsWith('carry') && b.startsWith('mechanism') || b.startsWith('carry') && a.startsWith('mechanism')) continue; if (a.replace(/#b$/, '') === b.replace(/#b$/, '')) continue; const sh = repShared(texts[a], texts[b]); if (!sh.length) continue; const msg = `${a} ↔ ${b} :: "${sh[0]}"`; R.blocking.push(`repetition law (${pairish(a) && pairish(b) ? 'the cell' : 'the page'}): ` + msg); log('  ✗  repetition law: ' + msg); }
+  // the formula-phrase window across adjacent fields (owner 2026-09-30, B6): for each ordered pair of adjacent fields in the skeleton's field order, the last two sentences of the first and the first two of the second; blocking, both fields named. A field's second candidate (#b) stands in for it against the same neighbours.
+  const order = keys.filter((k) => !/#b$/.test(k)); const variants = (k) => [k, ...(texts[`${k}#b`] != null ? [`${k}#b`] : [])];
+  for (let i = 0; i + 1 < order.length; i++) for (const a of variants(order[i])) for (const b of variants(order[i + 1])) { const tail = sentencesOf(texts[a]).slice(-2).join('. '); const head = sentencesOf(texts[b]).slice(0, 2).join('. '); for (const ph of formulaRepeat(`${tail}. ${head}`)) { const re = new RegExp(`\\b${ph}\\b`, 'i'); if (!(re.test(tail) && re.test(head))) continue; const msg = `${a} ↔ ${b} :: "${ph}" twice within three sentences across adjacent fields (owner 2026-09-30, B6)`; R.blocking.push('formula phrase window (the page): ' + msg); log('  ✗  formula phrase window: ' + msg); } }
   // cross-stem four-gram on the swap-gram fields
   if (stem) for (const [fp, t] of Object.entries(texts)) { const f = sk.fields[fp].spec; const map = { 'STEM_BAND.yourNature_desc': ['STEM_BAND', 'yourNature_desc', `${STEMS[stem].file}_${f.band || ''}.json`], 'STEM_BAND.self_card': ['STEM_BAND', 'self_card', null], 'STEM.inscription': ['STEM', 'inscription', STEMS[stem].file + '.json'], 'STEM.yourNature_desc': ['STEM', 'yourNature_desc', STEMS[stem].file + '.json'] }[f.card]; if (!map) continue; const own = map[2] || `${STEMS[stem].file}_`; for (const h of swapGramCheck(t, map[0], map[1], own)) { if (h.file.startsWith(STEMS[stem].file + '_')) continue; R.blocking.push(`cross-stem four-gram: ${fp} ↔ ${map[0]}/${h.file} :: "${h.gram}"`); log(`  ✗  cross-stem four-gram: ${fp} ↔ ${h.file} :: "${h.gram}"`); } }
   // the mandated formulas (openers, the identity formula with the spine verb, the sign's term line, the wide openers) are lawful matches

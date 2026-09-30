@@ -29,6 +29,7 @@ _Prompt file (data). One row per rule. "Gate" says whether `ComparativeAnalysis/
 | B3 | No negative parallelism ("not X but Y"), no mirror aphorisms, no reflex triads, no participial interpretation tails | REA_16 §4 | harness · voice-audit (parallelism); read (the rest) | explicit |
 | B4 | Plain Anglo-Saxon verbs; "is" stays "is"; concrete nouns over abstractions; one idea may stay unresolved; fragments ≤1 per door passage | REA_16 §1b, §4; §2c THE THREE DOORS | guidance (soft, owner 2026-09-23) | explicit |
 | B5 | Endings vary; never three tied bows in a row | REA_16 §4 | guidance (soft, owner 2026-09-23) | explicit |
+| B6 | A formula phrase (too much, too little, running over, running short, Seek it, the energy that) appears at most once in a field and never twice within three consecutive sentences, across fields as well as within one (owner 2026-09-30). The harness tests the window: within a field, and across each pair of adjacent fields of one page (the last two sentences of the first with the first two of the second). No exemption for deliberate repeats of content words is written: the owner has that question open | the v0.6 review samples §2 (`ComparativeAnalysis/Evaluations/2026-09-30_v06-review-samples.md`), owner 2026-09-30, row 2 of the review rulings (`backlog/2026-09-30_v06-review-rulings.md`) | harness (template gate blocking; field gate note) | RULED 2026-09-30 |
 
 ## C · Person, opener, budget (REA_16 §2, §2c; REA_03 §3)
 
@@ -146,3 +147,4 @@ _Prompt file (data). One row per rule. "Gate" says whether `ComparativeAnalysis/
 | 2026-09-30 | C5: cta_verdict pole-neutral (one per pair, rendered on either pole's page), a spec key and a non-blocking harness note | owner 2026-09-30, Q1h of the v0.6 questionnaire (REA_16 §6) |
 | 2026-09-30 | H7: two candidates on the pull-heavy fields (`candidates: 2`, `value_b`, the twin gated, filed as `<model>-b`) | owner 2026-09-30, Q1i of the v0.6 questionnaire (REA_16 §6) |
 | 2026-09-30 | H8: the benchmarked pass becomes targeted (one named axis per field from `targets.json`, the sentence withheld, the reuse check kept) | owner 2026-09-30, Q1j of the v0.6 questionnaire (REA_16 §6) |
+| 2026-09-30 | B6: the formula-phrase window rule, app-wide (a formula phrase never twice within three consecutive sentences, within a field and across adjacent fields of one page; blocking in the template gate, a note in the field gate; no exemption for deliberate repeats, the question is open) | owner 2026-09-30, row 2 of the v0.6 review rulings (`backlog/2026-09-30_v06-review-rulings.md`) |

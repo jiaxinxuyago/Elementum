@@ -5,7 +5,7 @@
 // Exit 1 on any blocking finding. --json also writes <output>.gate.json.
 import fs from 'node:fs';
 import path from 'node:path';
-import { OUT, FIELDS, makeGate, fourGramCheck, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, flat, STEMS, wc, channel, longSentences, rhythmLabel } from './lib.mjs';
+import { OUT, FIELDS, makeGate, fourGramCheck, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, flat, STEMS, wc, channel, longSentences, rhythmLabel, formulaRepeat } from './lib.mjs';
 
 export function validate(id, file, { quiet = false } = {}) {
   const metaPath = OUT + id + '.meta.json'; if (!fs.existsSync(metaPath)) throw new Error(`no meta for ${id}: run assemble.mjs first (out/${id}.meta.json)`);
@@ -24,7 +24,8 @@ export function validate(id, file, { quiet = false } = {}) {
   spec.validate(out, meta.ctx, F, stat, gate);
   // the rhythm note (B2, owner 2026-09-30): the count of sentences over twenty words per field beside the stem's §2b rhythm row; reported, never blocking
   for (const [p, t] of flat(out)) if (typeof t === 'string' && wc(t) >= 12) channel.note(`rhythm ${p || meta.field}: ${rhythmLabel(t, meta.ctx.stem)} (reported, never blocking; the freedom clause stands)`, longSentences(t) === 0);
-  // the within-cell four-gram check (REA_16 §7): candidate fields vs the cell's other fields
+  // the formula-phrase window (B6, owner 2026-09-30): a formula phrase never twice within three consecutive sentences; a note in this gate, blocking in the template gate
+  for (const [p, t] of flat(out)) if (typeof t === 'string' && wc(t) >= 4) { const fr = formulaRepeat(t); channel.note(`formula phrase window ${p || meta.field}: ${fr.length ? fr.map((x) => `"${x}"`).join(', ') + ' twice within three sentences' : 'none'} (B6; a note here, blocking in the template gate)`, fr.length === 0); }
   const candidateFields = Object.fromEntries(flat(out).filter(([, t]) => typeof t === 'string' && wc(t) >= 4).map(([p, t]) => [candidatePath(meta, p), t]));
   const cellFields = {}, pageFields = {};
   for (const [k, v] of Object.entries(meta.repFields || {})) (k.includes('.function.') && meta.field.startsWith('ELEMENT_GOD') ? pageFields : cellFields)[k] = v;
