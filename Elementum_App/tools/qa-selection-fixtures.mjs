@@ -14,7 +14,7 @@
 //   §4   volume boundaries (0.5 / 10 / 20 / 40) just below, at and above, on
 //        the pure classifier and on the assembled page turn (eval-pack spec §4/§8)
 //   §5   the weighted god ledger: single face 3 · lead ≥60% 2+1 · lead <60% 2+2 ·
-//        50/50 deterministic lead · door rotation trait/scene/outside
+//        50/50 deterministic lead · angle rotation drive/cost_self/cost_others
 // Usage: node tools/qa-selection-fixtures.mjs   (exit 1 on any failure)
 // ===================================================================
 import { buildEnergyChart } from '../src/engine/buildEnergyChart.js';
@@ -41,6 +41,7 @@ const STRENGTH_FOR_BAND = { open: 'weak', concentrated: 'strong', balanced: 'mod
 let fails = 0; const fail = (f, msg) => { fails++; console.log(`  ✗ ${f.name}: ${msg}`); };
 
 for (const f of FIXTURES) {
+  const fails0 = fails; // this fixture's own result, not the global count
   const chart = { dayMaster: { stem: f.stem, element: f.element, strength: f.strength }, elements: Object.fromEntries(Object.entries(f.p).map(([k, score]) => [k, { score }])), pillars: {}, tgPattern: 'pure' };
   const ec = buildEnergyChart(chart);
   const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[f.stem] });
@@ -79,7 +80,7 @@ for (const f of FIXTURES) {
   }
   // no arrows or dashes in assembled copy
   for (const t of [r.nature, carry.lead, carry.ease?.sentence, carry.ease?.remedy, carry.seek?.sentence, carry.seek?.remedy]) if (t && /[—→;]/.test(t)) fail(f, `sign in copy: "${t.slice(0, 50)}"`);
-  console.log(`${fails ? ' ' : ' '} ${f.name}: band ${m.band} · gifts ${r.gifts.map((x) => x.phrase).join(' / ') || '—'} · shadows ${r.shadows.map((x) => x.phrase).join(' / ') || '—'}`);
+  console.log(`${fails > fails0 ? '✗' : '✓'} ${f.name}: band ${m.band} · gifts ${r.gifts.map((x) => x.phrase).join(' / ') || '—'} · shadows ${r.shadows.map((x) => x.phrase).join(' / ') || '—'}`);
 }
 
 // ---------------------------------------------------------------------------

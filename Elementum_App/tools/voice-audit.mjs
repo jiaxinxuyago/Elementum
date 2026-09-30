@@ -52,6 +52,13 @@ const PARALLELISM = [
 ];
 const words = (s) => s.split(/\s+/).filter((w) => /[a-zA-Z']/.test(w));
 
+// Phrase law v6: a pool phrase runs to ≤3 everyday words. A fixed everyday
+// idiom may run to four, by owner ruling 2026-09-20 — the allowlist below is
+// that ruling's whole extent. Live sites: "Never calls it done" (STEM/ding),
+// "Never forgets a kindness" (STEM/ji), "Plays the long game" (STEM/geng),
+// "Ahead of the curve" and "Waits to be moved" (STEM/gui).
+const IDIOMS_4W = new Set(['never calls it done', 'never forgets a kindness', 'plays the long game', 'ahead of the curve', 'waits to be moved']);
+
 let fail = 0, pend = 0;
 const pendByKey = new Map(); // registry key -> { n, examples }
 function flag(rule, where, msg) {
@@ -139,9 +146,6 @@ for (const axis of fs.readdirSync(STATION)) {
         const kws = kwRow && kwRow.status !== 'ore' ? (vars.stem_keywords || []).map(kwStrip).filter((k) => k.length >= 4) : [];
         for (const it of value) {
           if (String(it.phrase).toLowerCase().trim() === String(it.dim).toLowerCase().trim()) { console.log(`VOICE  ${where} :: phrase equals dim ("${it.phrase}") — dim is the angle, not the trait`); fail++; }
-          // Phrase law: ≤3 everyday words. A fixed everyday idiom may run to four,
-          // named here by owner ruling (2026-09-20: "Stuck in your ways", 己 Body excess).
-          const IDIOMS_4W = new Set(['never calls it done', 'never forgets a kindness', 'plays the long game', 'ahead of the curve', 'waits to be moved']);
           if (String(it.phrase).split(/\s+/).length > 3 && !IDIOMS_4W.has(String(it.phrase).toLowerCase().trim())) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" over 3 words (phrase law v6)`); fail++; }
           for (const w of String(it.phrase).split(/\s+/).map(kwStrip).filter((x) => x.length >= 4)) {
             for (const k of kws) if (w.includes(k) || k.includes(w)) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" shares a root with keyword chip (${w} ~ ${k}) — register split (REA_16 §3 v4)`); fail++; }
@@ -185,10 +189,24 @@ for (const [id, files] of poolPhraseSeen) {
 // No phrase repeats across the fields of one cell on one page: definition,
 // turn, advice, carry remedy. Mechanical form: no four-word run shared
 // between two fields of one ELEMENT_PAIR cell. Stop-word-only runs are
-// ignored. Lawful matches: the carry law's cut (carry ↔ mechanism turns),
-// the yin sibling's echo of the shared line (mechanism_yin ↔ mechanism,
-// carry_yin ↔ carry), and the two definitions' templated opening ("X is
-// your Function, and as a…"), which never shows on one chart.
+// ignored.
+// BOTH READINGS ARE CHECKED. Pass 1 is the yang reading (the cell's own
+// `function`, `mechanism`, `carry`). Pass 2 is the MERGED YIN reading — what
+// a yin day master (乙/丁/己/辛/癸) actually sees: `mechanism_yin` spread over
+// `mechanism` field by field, and `carry_yin` spread over `carry` per pole,
+// clause and remedy each on their own, exactly as journeyData.js merges them.
+// 19 of the 25 cells carry a yin sibling. Findings are de-duplicated by
+// cell + field pair + shared run across the two passes, so a yin field that
+// is identical to its yang parent never reports twice; a yin line is tagged
+// `(yin reading)` where it differs.
+// Lawful matches (the only exemptions, and they are structural):
+//   · carry ↔ mechanism — the carry law's cut: the carry clause/remedy IS
+//     the turn's second half, lifted verbatim by design.
+//   · carry ↔ carry — the poles draw on one clause bank, and only one pole
+//     ever renders for a given chart.
+//   · function.definition_catalyst ↔ function.definition_friction — the two
+//     definitions' templated opening ("X is your Function, and as a…"),
+//     which never shows on one chart.
 // NOT covered, by the owner's ruling after reviewing Batch 2: a STEM pool
 // item's desc echoing the ELEMENT_PAIR field its `echo_of` names. The chip
 // sits on the Day Master page and the definition on the energy page, and
@@ -206,18 +224,37 @@ for (const [id, files] of poolPhraseSeen) {
   let repN = 0; const repLines = [];
   const report = (rule, where, msg) => { if (rule?.notes.includes('rep-block')) { console.log(`VOICE  ${where} :: ${msg}`); fail++; } else { repN++; if (repLines.length < 12) repLines.push(`REP    ${where} :: ${msg}`); } };
   // fields within one pair cell
-  const lawful = (a, b) => { const t = (x) => x.split('.')[0]; const [ta, tb] = [t(a), t(b)]; return (ta === 'carry' && tb === 'mechanism') || (ta === 'mechanism' && tb === 'carry') || (ta === 'carry' && tb === 'carry') || (ta === 'carry_yin' || tb === 'carry_yin') || (ta === 'mechanism_yin' || tb === 'mechanism_yin') || (a === 'function.definition_catalyst' && b === 'function.definition_friction'); };
-  for (const [cell, c] of Object.entries(pairs)) {
+  const lawful = (a, b) => { const t = (x) => x.split('.')[0]; const [ta, tb] = [t(a), t(b)]; return (ta === 'carry' && tb === 'mechanism') || (ta === 'mechanism' && tb === 'carry') || (ta === 'carry' && tb === 'carry') || (a === 'function.definition_catalyst' && b === 'function.definition_friction'); };
+  // the merged yin view: yin field over yang field, per field (mechanism) and
+  // per pole clause/remedy (carry) — the same spread journeyData.js applies.
+  const yinView = (c) => {
+    const out = { ...c };
+    if (c.mechanism_yin) out.mechanism = { ...(c.mechanism || {}), ...c.mechanism_yin };
+    if (c.carry_yin) out.carry = Object.fromEntries([...new Set([...Object.keys(c.carry || {}), ...Object.keys(c.carry_yin)])].map((k) => [k, { ...(c.carry?.[k] || {}), ...(c.carry_yin[k] || {}) }]));
+    return out;
+  };
+  const fieldsOf = (c) => {
     const F = [];
     for (const k of ['definition_catalyst', 'definition_friction', 'advise_catalyst', 'advise_friction']) if (c.function?.[k]) F.push([`function.${k}`, c.function[k]]);
     for (const k of ['base', 'catalyst_turn', 'friction_turn']) if (c.mechanism?.[k]) F.push([`mechanism.${k}`, c.mechanism[k]]);
     for (const [k, v] of Object.entries(c.carry || {})) F.push([`carry.${k}`, [v?.clause, v?.remedy].filter(Boolean).join(' ')]);
+    return F;
+  };
+  const repSeen = new Set(); // `cell|fieldA|fieldB|gram` — one finding per run, across both passes
+  const sweepCell = (cell, c, tag) => {
+    const F = fieldsOf(c);
     for (let i = 0; i < F.length; i++) for (let j = i + 1; j < F.length; j++) {
       if (lawful(F[i][0], F[j][0])) continue;
       const sh = repShared(F[i][1], F[j][1]);
-      if (sh.length) report(ruleFor('ELEMENT_PAIR', F[i][0].split('.')[0]), `ELEMENT_PAIR/${cell}.json :: ${F[i][0]} ↔ ${F[j][0]}`, `shared run "${sh[0]}" — phrase law v6`);
+      if (!sh.length) continue;
+      const id = `${cell}|${F[i][0]}|${F[j][0]}|${sh[0]}`;
+      if (repSeen.has(id)) continue;
+      repSeen.add(id);
+      report(ruleFor('ELEMENT_PAIR', F[i][0].split('.')[0]), `ELEMENT_PAIR/${cell}.json :: ${F[i][0]} ↔ ${F[j][0]}${tag}`, `shared run "${sh[0]}" — phrase law v6`);
     }
-  }
+  };
+  for (const [cell, c] of Object.entries(pairs)) sweepCell(cell, c, '');
+  for (const [cell, c] of Object.entries(pairs)) if (c.carry_yin || c.mechanism_yin) sweepCell(cell, yinView(c), ' (yin reading)');
   if (repN) { console.log(`— repetition inventory (phrase law v6, non-blocking until the row carries rep-block) — ${repN} finding(s)`); repLines.forEach((l) => console.log(l)); }
 }
 
