@@ -142,7 +142,7 @@ export function pairCellFacts(key, { redact = [], yin = false } = {}) {
   const [c, e] = key.split('_').map((h) => EL_OF_HZ[h]); const cell = J(`ELEMENT_PAIR/${key}.json`);
   const lines = [`## CELL FACTS\n\nCell ${key}. ${pairLaw(c, e)}`];
   // the family's two personas and their six ruled domain words: the example source for the advice's small actions (owner 2026-09-29, E6)
-  const fam = FAMILY_GODS[relation(c, e)[1]] || []; if (fam.length) lines.push(`- Family personas and ruled domains (the example source for the small actions, work only where a domain word is work; the definition's inventory carries one item per persona): ${fam.map((g) => { const gd = J(`GOD/${g}.json`); return `${gd.persona_name}: ${gd.domains.join(', ')}`; }).join(' · ')}`);
+  const fam = FAMILY_GODS[relation(c, e)[1]] || []; if (fam.length) lines.push(`- Family personas and ruled domains (the cost domain: the cost is named in these words or in ordinary life, work only where a domain word is work; the definition names one drive per persona, E8): ${fam.map((g) => { const gd = J(`GOD/${g}.json`); return `${gd.persona_name}: ${gd.domains.join(', ')}`; }).join(' · ')}`);
   const isRed = (p) => redact.some((r) => p === r || p.startsWith(r + '.'));
   const push = (p, v, label) => lines.push(`- ${label || p}: ${isRed(p) ? '[REDACTED: the target field]' : typeof v === 'string' ? q(v) : q(v)}`);
   push('mechanism.classic', cell.mechanism.classic, 'mechanism.classic (the sourced epigraph)');
