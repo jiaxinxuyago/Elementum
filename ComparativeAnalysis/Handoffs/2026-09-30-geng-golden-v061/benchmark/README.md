@@ -1,0 +1,1 @@
+The current shipping text, filled into the same skeletons. NOT for the model in the blind pass: it is the harness's self-test input and the reviewer's side-by-side. Do not attach this folder to the blind conversation.
