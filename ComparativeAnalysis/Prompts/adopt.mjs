@@ -5,7 +5,7 @@
 //   node adopt.mjs <model> <AXIS>/<cell> <field path> [--ruling "owner 2026-09-24 Q3"] [--dry]
 //   e.g. node adopt.mjs gpt-5 ELEMENT_PAIR/金_土 function.advise_friction
 //        node adopt.mjs gpt-5 STEM/geng "gifts[2]"        (a whole pool item)
-//        node adopt.mjs gpt-5 ELEMENT_GOD/土_偏印 "fn_reading.friction.ledger[1].doors.scene"
+//        node adopt.mjs gpt-5 ELEMENT_GOD/土_偏印 "fn_reading.friction.ledger[1].angles.cost_self"
 import fs from 'node:fs';
 import { ROOT, S, get as getDot } from './lib.mjs';
 const get = (o, p) => getDot(o, String(p).replace(/\[(\d+)\]/g, '.$1'));

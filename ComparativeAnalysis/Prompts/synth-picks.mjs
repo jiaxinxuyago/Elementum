@@ -22,7 +22,7 @@ function original(sk, fp, spec) {
   if (fp === 'manifesto' || fp === 'dm_overview') return J(`STEM/${stemFile}.json`)[fp];
   if (fp.startsWith('band.')) return get(J(`STEM_BAND/${stemFile}_${band}.json`), fp.slice(5));
   const pool = fp.match(/^(gifts|shadows)\[(\d+)\]$/); if (pool) { const o = J(`STEM/${stemFile}.json`)[pool[1]][+pool[2]]; return { phrase: o.phrase, dim: o.dim, desc: o.desc }; }
-  if (/^ledger\[\d+\]$/.test(fp)) { const r = get(J(`ELEMENT_GOD/${spec.cell}.json`), `fn_reading.${spec.pole}.ledger[${spec.row}]`); return { word: r.word, text: r.doors[spec.door] }; }
+  if (/^ledger\[\d+\]$/.test(fp)) { const r = get(J(`ELEMENT_GOD/${spec.cell}.json`), `fn_reading.${spec.pole}.ledger[${spec.row}]`); return { word: r.word, text: r.angles[spec.angle] }; }
   return get(J(`ELEMENT_PAIR/${pair}.json`), fp);
 }
 const clean = (v) => (v && typeof v === 'object') ? Object.fromEntries(Object.entries(v).filter(([k]) => k !== '_trace')) : v;

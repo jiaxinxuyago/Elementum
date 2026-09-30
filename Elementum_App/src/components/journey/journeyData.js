@@ -302,12 +302,16 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     // Rows carry their source god as metadata only (the render is unlabeled
     // — ten-god vocabulary is first taught in THE DOMAINS); an unbatched
     // minority cell falls back to the lead's 3 rows.
-    // THE THREE DOORS (owner 2026-09-03): each keyword is cooked in three
-    // door variants (trait / scene / outside) backlogged in the station;
-    // the assembled ledger picks doors by position rotation so no two
-    // adjacent rows enter the same way, and any keyword reads well at any
-    // blend position.
-    const DOOR_ORDER = ['trait', 'scene', 'outside'];
+    // THE THREE ANGLES OF ONE TENSION (owner 2026-10-01, superseding THE
+    // THREE DOORS of 2026-09-03 as the organising idea): each keyword
+    // carries three angles of one tension in the station (drive /
+    // cost_self / cost_others: the drive, its cost to the reader, its cost
+    // to others; the keys renamed from trait / scene / outside at Q1 of the
+    // v0.7 questionnaire, backlog/2026-10-01_angles-key-rename.md); the
+    // assembled ledger picks the angle by position rotation so no two
+    // adjacent rows carry the same angle first, and any keyword reads well
+    // at any blend position.
+    const ANGLE_ORDER = ['drive', 'cost_self', 'cost_others'];
     const cellReading = (g) => K2_CELLS[`${r.hz}_${g}`]?.fnReading?.[pole] || null;
     const leadRd = cellReading(r.god);
     r.fnRows = null;
@@ -324,12 +328,12 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       } else {
         picked = leadRd.ledger.map((row) => ({ ...row, god: null }));
       }
-      // A door-less row degrades OUT rather than crashing the model build
+      // An angle-less row degrades OUT rather than crashing the model build
       // (content null-safety, C1): the station checker compares fields, it
-      // does not assert the doors shape, so an unbatched cell must never be
+      // does not assert the angles shape, so an unbatched cell must never be
       // able to take the whole reading screen down.
       const rows = picked
-        .map((row, i) => ({ word: row.word, god: row.god, text: row.doors?.[DOOR_ORDER[i % 3]] || '' }))
+        .map((row, i) => ({ word: row.word, god: row.god, text: row.angles?.[ANGLE_ORDER[i % 3]] || '' }))
         .filter((row) => row.text);
       r.fnRows = rows.length ? rows : null;
       if (r.fnRows) r.adj = r.fnRows.map((row) => row.word);

@@ -16,7 +16,7 @@ for (const f of order) {
   const sk = cand[f]; const R = validateTemplate(path.join(dir, f)); const o = orig[f];
   md.push(`## ${sk.page}`, '', `Gate: ${R.pass ? 'pass' : 'FAIL: ' + R.blocking.join('; ')}`, '');
   for (const [fp, fld] of Object.entries(sk.fields)) {
-    md.push(`### ${fp}  \`${fld.spec.card}\`${fld.spec.door ? ' · ' + fld.spec.door + ' door' : ''}${fld.spec.cell ? ' · ' + fld.spec.cell : ''}`, '');
+    md.push(`### ${fp}  \`${fld.spec.card}\`${fld.spec.angle ? ' · ' + fld.spec.angle + ' angle' : fld.spec.door ? ' · ' + fld.spec.door + ' door' : ''}${fld.spec.cell ? ' · ' + fld.spec.cell : ''}`, '');
     if (o?.fields?.[fp]) md.push(`> **original**  \n> ${str(o.fields[fp].value).replace(/\n/g, '\n> ')}`, '');
     md.push(`${against ? '**candidate**  \n' : ''}${str(fld.value)}`, '');
     if (fld._trace || fld.value?._trace) md.push(`_trace: ${fld._trace || fld.value._trace}_`, '');

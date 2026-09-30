@@ -156,17 +156,17 @@ for (const f of FIXTURES) {
     return m.els.find((e) => e.el === 'wood');
   };
   const L = (g) => K2_CELLS[`木_${g}`].fnReading.catalyst.ledger;
-  const DOORS = ['trait', 'scene', 'outside'];
+  const ANGLES = ['drive', 'cost_self', 'cost_others'];
   const check = (name, weights, wantLead, wantMinor, expectLeadGod) => {
     const f = { name: `ledger · ${name}` }; const x = blend(weights); const rows = x.fnRows || [];
     const lead = x.faces[0].god;
     if (expectLeadGod && lead !== expectLeadGod) fail(f, `lead face ${lead}, expected ${expectLeadGod}`);
     const nLead = rows.filter((r) => (r.god ?? lead) === lead).length, nMinor = rows.length - nLead;
     if (nLead !== wantLead || nMinor !== wantMinor) fail(f, `${nLead}+${nMinor} rows, expected ${wantLead}+${wantMinor} (${rows.map((r) => r.word).join(' / ')})`);
-    // rank: rows are the authored top-N of each cell, in authored order; doors rotate trait/scene/outside by position
+    // rank: rows are the authored top-N of each cell, in authored order; the angles rotate drive/cost_self/cost_others by position
     const minor = x.faces[1]?.god;
     const expected = [...L(lead).slice(0, wantLead).map((r) => ({ ...r, god: lead })), ...(minor ? L(minor).slice(0, wantMinor).map((r) => ({ ...r, god: minor })) : [])];
-    expected.forEach((e, i) => { const r = rows[i]; if (!r || r.word !== e.word) fail(f, `row ${i} is ${r?.word}, expected ${e.word}`); else if (r.text !== e.doors[DOORS[i % 3]]) fail(f, `row ${i} (${r.word}) did not enter by the ${DOORS[i % 3]} door`); });
+    expected.forEach((e, i) => { const r = rows[i]; if (!r || r.word !== e.word) fail(f, `row ${i} is ${r?.word}, expected ${e.word}`); else if (r.text !== e.angles[ANGLES[i % 3]]) fail(f, `row ${i} (${r.word}) did not enter by the ${ANGLES[i % 3]} angle`); });
     if (x.adj.join('|') !== rows.map((r) => r.word).join('|')) fail(f, 'card chips are not the ledger words');
     console.log(`  ${f.name}: ${rows.map((r) => `${r.word}${r.god ? ` (${r.god})` : ''}`).join(' · ')}`);
   };
