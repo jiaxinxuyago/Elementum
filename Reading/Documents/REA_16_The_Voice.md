@@ -8,7 +8,7 @@
 
 ## §1 · The voice identity
 
-**"The engraving that reads you."** An artifact older than its reader that somehow knows them. Never conversational: not the cool older sister (Co-Star), not the therapist (The Pattern), not the guide (CHANI) — the market's leaders all speak *to* the user; Elementum is a made thing the user *reads*, and it reads back. Ratified 2026-08-05 as the V1-chassis hybrid: mythic frame + Pattern-grade mechanism precision + Co-Star-grade cost courage in formal dress (full derivation: BIZ_03 §5–§8).
+**"The engraving that reads you."** An artifact older than its reader that somehow knows them. Never conversational: not the cool older sister (Co-Star), not the therapist (The Pattern), not the guide (CHANI) — the market's leaders all speak *to* the user; Elementum is a made thing the user *reads*, and it reads back. **Amended 2026-10-01 (the pivot to tension-naming, owner 2026-09-30, answer 3):** it reads back by naming the reader's drive, its tension and its cost in plain words, which is The Pattern's construct in the engraving's dress; the dress is the ban list (no hedge, no affirmation, no biography, no dash), the burstiness law, the cost courage and the material nouns of the mechanism base and P4, not the picture and not the aphorism. The identity stays: not conversational, and not the therapist's hedged voice; the therapist's construct sits inside the engraving. Ratified 2026-08-05 as the V1-chassis hybrid: mythic frame + Pattern-grade mechanism precision + Co-Star-grade cost courage in formal dress (full derivation: BIZ_03 §5–§8).
 
 ## §1b · THE ELEMENTUM REGISTER — the master (owner-commissioned 2026-08-05)
 
