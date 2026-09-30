@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Version** | 0.1 · 2026-09-29 (the four-stage loop, the tiered selection, the calibration protocol, the harness backlog) |
+| **Version** | 0.2 · 2026-10-01 (after the pivot to tension-naming and the study of The Pattern as the benchmark: the pull axis re-anchored to psychological resonance, the north star re-read against the benchmark before Stage 2, the calibration round measuring resonance beside fit and accuracy; Stage 1 restarts at prompt v0.7, record `Reading/Database/Prompts/backlog/2026-10-01_prompt-v07-tension-naming.md`) · 0.1 · 2026-09-29 (the four-stage loop, the tiered selection, the calibration protocol, the harness backlog) |
 | **Owner touchpoints** | rulings by questionnaire, one field per message, never in bulk (REA_05 §1) |
 | **Never** | a field lands in the station without the owner's ruling and the pipeline · `export-reading-templates.mjs --harvest` · a candidate edited by hand in a rewrite station · similarity to the north star used as a score |
 
@@ -72,13 +72,15 @@ Each stage has a definition of done. No stage starts before the previous one's i
 
 **Owner effort:** one questionnaire session, about ten questions.
 
+**v0.2 note (2026-10-01).** Stage 1 ran to v0.6.1 and then restarted at v0.7 on the owner's pivot (`backlog/2026-09-30_pivot-to-tension-naming.md`): the three doors retired as the organising idea, every descriptive field naming the drive, its tension and its cost, the standing bans kept. The v0.7 item (`backlog/2026-10-01_prompt-v07-tension-naming.md`) follows the same form as this section's steps 1 to 5, with fifteen questions, and its "done when" adds one condition: the eight golden rows are re-locked under the new construct before the batch (its Group 14).
+
 ---
 
 ## §4 · Stage 2 · Calibration on the golden set
 
 **Goal.** Turn the owner's taste into a selection method with a measured error rate, on the 54 fields where the north star already exists.
 
-**Writers.** Claude Fable is the primary writer, run in a clean context with the v0.6 handoff zip and nothing else (a fresh session in the project with no memory of the station; the dispatch prompt is the only instruction). Codex blind runs the same zip as the second candidate on the plain-statement classes only (definitions, chips, trait doors, turns and carries, advice). Nothing is shown the original.
+**Writers.** Claude Fable is the primary writer, run in a clean context with the v0.6 handoff zip and nothing else (a fresh session in the project with no memory of the station; the dispatch prompt is the only instruction). Codex blind runs the same zip as the second candidate on the plain-statement classes only (definitions, chips, the ledger's drive passages, turns and carries, advice). Before Stage 2 opens, the north star is re-read against the benchmark (the study's §1.4 construct and §1.5 lenses, `ComparativeAnalysis/Reference/competitor-voice/2026-09-30_public-excerpt-study.md`): every descriptive field of the north star that was assembled before the benchmark was named is marked keep, re-cut or replace on resonance, and the marks travel with the calibration deck (v0.2, 2026-10-01). Nothing is shown the original.
 
 **Steps.**
 
@@ -161,11 +163,11 @@ The scorer is triage, never judge, and it is calibrated to the owner, never to t
 | Hard gate | in or out | the register's mechanical rules in `validate-template.mjs`: shape, caps both ends, banned registers and hedges, four-grams within cell and across the page, reader zone, the cut law, the opener law, the stamp law, the cure set, the arena noun |
 | Accuracy | one to five | the reader session against the primer, the ten equations, the excess idioms, the door law, the derivation law, the sibling test, the persona's cost in the arena |
 | Audience fit | one to five | the reader zone report, the hedge count, sentence length, the surface's register, first-pass comprehension at the bottom of the band |
-| Pull | one to five | the three readers' test, the cost named and checkable, the material in the noun, the hard close; never similarity to the north star |
+| Pull | one to five | psychological resonance first (v0.2, 2026-10-01): the tension named on point, in the words the reader would use for it, so the reader recognises a private conflict (the "how does it know" reaction); then the three readers' test, the cost named and checkable as the reader's own difficulty, need or price, the material in the noun where the field keeps material; a picture, a witness or a capacity the reader must first accept scores down, an aphorism close is not a hard close; never similarity to the north star |
 | Priors | tie-breaks and thresholds | the owner's win rates by pile and by class from every read so far; a class where the owner has overruled the scorer three times is read by the owner regardless of score |
 | The owner | the ruling | contested fields and the stratified sample, one per question, notes captured |
 
-Two rules keep it honest. The scorer never sees the writers' names. The north star is the reference reading a scorer may consult for what the owner meant by a class, and a candidate is never scored up for resembling its sentences.
+Two rules keep it honest. The scorer never sees the writers' names. The north star is the reference reading a scorer may consult for what the owner meant by a class, and a candidate is never scored up for resembling its sentences. The calibration round (§4) reports resonance beside fit and accuracy: per field, whether the scorer's and the owner's resonance marks agree, and the disagreement rate by class (v0.2).
 
 ---
 
@@ -199,3 +201,4 @@ Two rules keep it honest. The scorer never sees the writers' names. The north st
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-29 | Born: the four-stage loop, tiered selection, calibration protocol, harness backlog | owner workflow decision 2026-09-29, after the first comparative round's two reads |
+| 2026-10-01 | v0.2: the pull axis re-anchored to psychological resonance; the north star re-read against the benchmark before Stage 2; calibration measures resonance beside fit and accuracy; Stage 1 restarts at prompt v0.7 | owner 2026-09-30 (the pivot's consequence for REA_18) and 2026-10-01, Q15 of the v0.7 questionnaire |
