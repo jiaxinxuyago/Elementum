@@ -6,7 +6,7 @@
 // Exit 1 on any blocking finding.
 import fs from 'node:fs';
 import path from 'node:path';
-import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH, longSentences, STEM_RHYTHM, POLE_STATE, formulaRepeat, sentencesOf, SEEK_BEAT, stripDefOpener, EL_OF_HZ } from './lib.mjs';
+import { makeGate, fourGramCheck, lawfulPair, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, wc, flat, idioms4w, STEMS, S, J, repShared, repGrams as repGramsOf, DOOR_STAMP, cureSet, VIRTUE_HEAD, arenaWord, CHANNEL_BRAKES, REFILL_PUSH, longSentences, STEM_RHYTHM, POLE_STATE, formulaRepeat, sentencesOf, SEEK_BEAT, stripDefOpener, EL_OF_HZ, tensionSentence, objectOpener, DESCRIPTIVE_CARD } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet');
 const sentences = (t) => String(t || '').split(/[.!?]+\s/).filter(Boolean).length;
 // --against <benchmark dir>: the benchmarked pass may not reuse a four-word run of the current line it was shown (blocking)
@@ -65,6 +65,8 @@ export function validateTemplate(file, opts = {}) {
     // the formula-phrase window within the field (owner 2026-09-30, B6): blocking
     if (texts[fp] != null) for (const ph of formulaRepeat(texts[fp])) F(fp, `formula phrase repeated within three sentences: "${ph}" (a formula phrase never twice within three consecutive sentences; owner 2026-09-30, B6)`);
     if (texts[fp] != null) R.rhythm[fp] = longSentences(texts[fp]);
+    // the tension sentence and the object-noun opener (D9, owner 2026-10-01): read flags on every descriptive field, never blocking
+    if (texts[fp] != null && (DESCRIPTIVE_CARD.test(s.card) || /presence$/.test(fp))) { if (!tensionSentence(texts[fp])) R.readFlags.push(`${fp} :: no tension sentence seen (two clauses in the second person joined by or, but, yet, while, or whether … or not; D9, a floor, not blocking, the read decides)`); const o = objectOpener(texts[fp], s.domains || []); if (o) R.readFlags.push(`${fp} :: the first sentence carries the object noun "${o}" outside the persona's domain words (D9 with E6; heuristic, not blocking, the read decides)`); }
     R.fields[fp] = { pass: findings.length === 0, findings }; R.blocking.push(...findings);
     log(`${findings.length ? '  ✗  ' : '  ok '} ${fp}${findings.length ? '\n     - ' + findings.join('\n     - ') : ''}`);
   }
