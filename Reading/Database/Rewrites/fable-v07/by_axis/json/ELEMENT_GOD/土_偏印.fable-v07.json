@@ -1,0 +1,88 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "One more source",
+        "Holed-up",
+        "Keeps it unfinished"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "One more source",
+            "angles": {
+              "drive": "Understanding is what you want most, and one more source is its price. Earth piles into your mind faster than the edge spends it, so the next book feels like progress. You read to find the answer, or you read to keep it out of reach. Finding it would end the hunger."
+            }
+          },
+          {
+            "word": "Holed-up",
+            "angles": {
+              "cost_self": "Time alone with the material is how you think, and you guard it. Earth settles in your mind so long that company feels like an interruption. You go quiet to finish the thought, or you go quiet so you never have to show it. The thought keeps improving. The evenings keep emptying."
+            }
+          },
+          {
+            "word": "Keeps it unfinished",
+            "angles": {
+              "cost_others": "You hold back the answer until it is finished, and it never is. Earth keeps loading your mind, one layer under the last. You hand over the rough version and let them use it, or you keep it until it is perfect and hand over nothing. The friend who asked is still waiting."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "angles": {
+              "drive": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+            }
+          },
+          {
+            "word": "Brooding",
+            "angles": {
+              "cost_self": "It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you."
+            }
+          },
+          {
+            "word": "Overprepared",
+            "angles": {
+              "cost_others": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Withdrawn",
+        "Brooding",
+        "Overprepared"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "intake that starves output: reading as progress, the answer kept out of reach",
+      "the Alchemist's solitude for the turning, priced in emptied evenings",
+      "the distilled answer held back until pure, the friend who asked left waiting"
+    ]
+  }
+}

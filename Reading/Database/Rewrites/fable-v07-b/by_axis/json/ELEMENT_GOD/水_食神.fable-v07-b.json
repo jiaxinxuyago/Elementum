@@ -1,0 +1,56 @@
+{
+  "$archetype": "水_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "水_食神",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Unforced"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Unforced",
+            "angles": {
+              "drive": "What lives in you gets out without a fight, and it arrives as care. Water is scarce in you, so expression gets served one plate at a time. You feed people because you enjoy it, or so nothing is left to say about yourself. What goes untold is your own story."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fluent",
+            "angles": {
+              "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fluent"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the Artisan's output that flows without assertion: giving as ease or as proof of being needed"
+    ]
+  }
+}

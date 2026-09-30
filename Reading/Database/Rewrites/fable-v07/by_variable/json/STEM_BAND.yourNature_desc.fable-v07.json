@@ -1,0 +1,16 @@
+{
+  "$variable": "STEM_BAND.yourNature_desc",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng_concentrated",
+      "field": "band.yourNature_desc",
+      "candidate": "You are that sword when it comes down off the doorway and walks around as a person. There's more edge in you than one life has things to cut, so the edge goes looking. The straight answer is out of you before anyone asked, at the kitchen table as easily as at work. Right is not the same as welcome. People keep what you told them and a little distance from the teller.",
+      "original": "You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.",
+      "gate": "pass"
+    }
+  ]
+}

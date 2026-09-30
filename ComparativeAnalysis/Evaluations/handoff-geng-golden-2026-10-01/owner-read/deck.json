@@ -1,0 +1,914 @@
+[
+ {
+  "id": "Q01",
+  "page": "P4.geng",
+  "field": "manifesto",
+  "label": "Day Master page · manifesto · STEM.manifesto",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Precision before intention · You are the Metal that cuts things clean."
+   },
+   {
+    "letter": "B",
+    "text": "Edge before ornament · You are the Metal that cuts once and means it."
+   },
+   {
+    "letter": "C",
+    "text": "Honesty before company · You are the Metal that cuts true and stands alone."
+   }
+  ]
+ },
+ {
+  "id": "Q02",
+  "page": "P4.geng",
+  "field": "dm_overview",
+  "label": "Day Master page · dm_overview · STEM.dm_overview",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech."
+   },
+   {
+    "letter": "B",
+    "text": "The Blade is Metal in its yang form, the ore that went into the forge soft and came out with an edge. Its season is autumn, when the year stops growing things and starts choosing which of them to keep. Steel like this does one job. It cuts, once, and the cut stays cut. Left alone it wants nothing, asks nothing, and rusts only where it was never used. A sword hung over a doorway keeps the whole house honest without saying a word."
+   }
+  ]
+ },
+ {
+  "id": "Q03",
+  "page": "P4.geng",
+  "field": "band.yourNature_desc",
+  "label": "Day Master page · band.yourNature_desc · STEM_BAND.yourNature_desc",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You are that sword when it comes down off the doorway and walks around as a person. There's more edge in you than one life has things to cut, so the edge goes looking. The straight answer is out of you before anyone asked, at the kitchen table as easily as at work. Right is not the same as welcome. People keep what you told them and a little distance from the teller."
+   },
+   {
+    "letter": "B",
+    "text": "You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you."
+   }
+  ]
+ },
+ {
+  "id": "Q04",
+  "page": "P4.geng",
+  "field": "band.self_card.face",
+  "label": "Day Master page · band.self_card.face · STEM_BAND.self_card",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The edge, never sheathed"
+   },
+   {
+    "letter": "B",
+    "text": "The drawn blade, nowhere to put it"
+   }
+  ]
+ },
+ {
+  "id": "Q05",
+  "page": "P4.geng",
+  "field": "band.self_card.presence",
+  "label": "Day Master page · band.self_card.presence · STEM_BAND.self_card",
+  "options": [
+   {
+    "letter": "A",
+    "text": "There is no sheath and there never was. What you see you say, and the few who stay close have stopped flinching."
+   },
+   {
+    "letter": "B",
+    "text": "The cut is always available and mostly used. Clarity this constant is a climate, and the people near you dress for it."
+   },
+   {
+    "letter": "C",
+    "text": "Every day the edge is out. You don't decide to be honest, it's already done, and people learn where to stand."
+   }
+  ]
+ },
+ {
+  "id": "Q06",
+  "page": "P4.geng",
+  "field": "gifts[6]",
+  "label": "Day Master page · gifts[6] · STEM.gifts",
+  "options": [
+   {
+    "letter": "A",
+    "text": "phrase: Crisis performer  |  dim: under pressure  |  desc: The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+   },
+   {
+    "letter": "B",
+    "text": "phrase: Better under pressure  |  dim: hard weeks  |  desc: Pressure makes you simpler. When the plan collapses, the bill comes due or someone in the family gets bad news, the noise drops out and you know the next cut. The price is the quiet weeks, when nothing is on fire and you have to be a person anyway."
+   }
+  ]
+ },
+ {
+  "id": "Q07",
+  "page": "P4.geng",
+  "field": "gifts[5]",
+  "label": "Day Master page · gifts[5] · STEM.gifts",
+  "options": [
+   {
+    "letter": "A",
+    "text": "phrase: Plants and waits  |  dim: slow returns  |  desc: Whatever you take care of grows while you're not looking. A skill kept up, a friend called back, money left alone, all of it comes back bigger than it went in, in its own time. The cost is that quick wins bore you, and you keep working a piece that stopped paying a while ago."
+   },
+   {
+    "letter": "B",
+    "text": "phrase: Plays the long game  |  dim: trimming a plan  |  desc: You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+   }
+  ]
+ },
+ {
+  "id": "Q08",
+  "page": "P4.geng",
+  "field": "gifts[4]",
+  "label": "Day Master page · gifts[4] · STEM.gifts",
+  "options": [
+   {
+    "letter": "A",
+    "text": "phrase: Says it plain  |  dim: everyday giving  |  desc: What's in you comes out in plain words and small acts, no speech first. The true sentence, the fixed shelf, the meal nobody asked for, the call made first, and the person is fed before they knew they were hungry. Anyone who wanted it dressed up reads plain as cold, and that is what it costs you."
+   },
+   {
+    "letter": "B",
+    "text": "phrase: No dressed-up answers  |  dim: communication  |  desc: What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+   }
+  ]
+ },
+ {
+  "id": "Q09",
+  "page": "P4.geng",
+  "field": "shadows[1]",
+  "label": "Day Master page · shadows[1] · STEM.gifts",
+  "options": [
+   {
+    "letter": "A",
+    "text": "phrase: Never reconsiders  |  dim: second chances  |  desc: Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+   },
+   {
+    "letter": "B",
+    "text": "phrase: Decided in advance  |  dim: second thoughts  |  desc: So much certainty comes off you that every question meets the same edge. The friend who changed and the plan with a better version both get the cut you decided on before they arrived. What this shuts out is news, and the people who bring it."
+   }
+  ]
+ },
+ {
+  "id": "Q10",
+  "page": "P4.geng",
+  "field": "shadows[3]",
+  "label": "Day Master page · shadows[3] · STEM.gifts",
+  "options": [
+   {
+    "letter": "A",
+    "text": "phrase: Still getting ready  |  dim: starting  |  desc: All of it goes in, and the cut keeps getting put off until you understand a little more. Another book, another quiet evening turning it over, and the thing you were sharpening for is still uncut. It shuts out the one mistake you would have learned from by now."
+   },
+   {
+    "letter": "B",
+    "text": "phrase: Overprepared  |  dim: showing the work  |  desc: Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+   }
+  ]
+ },
+ {
+  "id": "Q11",
+  "page": "energy.金_土",
+  "field": "mechanism.base",
+  "label": "Earth page (your Mind, friction, heavy) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it."
+   },
+   {
+    "letter": "B",
+    "text": "Ore does not fall from the sky. It forms inside the mountain, where the ground is dense and damp and nothing hurries, and the old texts say the metal is fed there by darkness and by weight. Every blade began as a vein in the rock. The soil that held it gave it its patience, and when the edge is struck at last, the stone is still in it, doing the holding."
+   }
+  ]
+ },
+ {
+  "id": "Q12",
+  "page": "energy.金_土",
+  "field": "mechanism.friction_turn",
+  "label": "Earth page (your Mind, friction, heavy) · mechanism.friction_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "With too much Earth, the ore stays in the ground: fed so long that no edge is ever struck from it. Getting ready becomes a place to live. Make one rough cut this week."
+   },
+   {
+    "letter": "B",
+    "text": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real."
+   }
+  ]
+ },
+ {
+  "id": "Q13",
+  "page": "energy.金_土",
+  "field": "carry.friction",
+  "label": "Earth page (your Mind, friction, heavy) · carry.friction · ELEMENT_PAIR.carry",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The shelter closes over the blade: so much preparation that the edge never leaves the mine.  |  remedy: Dig out and cut something real."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The ore stays in the ground: fed so long that no edge is ever struck from it.  |  remedy: Make one rough cut this week."
+   }
+  ]
+ },
+ {
+  "id": "Q14",
+  "page": "energy.金_土",
+  "field": "function.definition_friction",
+  "label": "Earth page (your Mind, friction, heavy) · function.definition_friction · ELEMENT_PAIR.function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Earth is your Mind, and as a friction, it is intake with no off switch. Study, comfort, preparation, shelter: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still."
+   },
+   {
+    "letter": "B",
+    "text": "Earth is your Mind, and as a friction, it is ground that keeps taking and gives no edge back. The hunger to understand makes every decision one more thing to learn first, and the need for shelter makes your quiet hours a place to hide. Wise, and still not started."
+   }
+  ]
+ },
+ {
+  "id": "Q15",
+  "page": "energy.金_土",
+  "field": "ledger[0]",
+  "label": "Earth page (your Mind, friction, heavy) · ledger[0] (drive, The Alchemist (偏印)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: One more source  |  text: The subject nobody else is studying is the one you cannot leave alone. Earth loads your mind past what the day uses, and the surplus hunts for stranger material. You take it in because it feeds you, or because nobody can check your work there. It fills you, and it never finishes."
+   },
+   {
+    "letter": "B",
+    "text": "word: Withdrawn  |  text: Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+   },
+   {
+    "letter": "C",
+    "text": "word: One more source  |  text: Understanding is what you want most, and one more source is its price. Earth piles into your mind faster than the edge spends it, so the next book feels like progress. You read to find the answer, or you read to keep it out of reach. Finding it would end the hunger."
+   }
+  ]
+ },
+ {
+  "id": "Q16",
+  "page": "energy.金_土",
+  "field": "ledger[1]",
+  "label": "Earth page (your Mind, friction, heavy) · ledger[1] (cost self, The Alchemist (偏印)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Brooding  |  text: It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you."
+   },
+   {
+    "letter": "B",
+    "text": "word: Holed-up  |  text: Time alone with the material is how you think, and you guard it. Earth settles in your mind so long that company feels like an interruption. You go quiet to finish the thought, or you go quiet so you never have to show it. The thought keeps improving. The evenings keep emptying."
+   }
+  ]
+ },
+ {
+  "id": "Q17",
+  "page": "energy.金_土",
+  "field": "ledger[2]",
+  "label": "Earth page (your Mind, friction, heavy) · ledger[2] (cost others, The Alchemist (偏印)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Keeps it unfinished  |  text: You hold back the answer until it is finished, and it never is. Earth keeps loading your mind, one layer under the last. You hand over the rough version and let them use it, or you keep it until it is perfect and hand over nothing. The friend who asked is still waiting."
+   },
+   {
+    "letter": "B",
+    "text": "word: Overprepared  |  text: To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+   }
+  ]
+ },
+ {
+  "id": "Q18",
+  "page": "energy.金_土",
+  "field": "function.advise_friction",
+  "label": "Earth page (your Mind, friction, heavy) · function.advise_friction · ELEMENT_PAIR.function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."
+   },
+   {
+    "letter": "B",
+    "text": "Understanding is the safest place you own, and safety is the cost. Cook the dish you only read about. Say the half-formed theory out loud to one friend. Seek Wood, the Action energy. Wood grows toward light, and it roots where it stands: a claim staked before the ground is known. Let it spend what Earth stores."
+   }
+  ]
+ },
+ {
+  "id": "Q19",
+  "page": "energy.金_土",
+  "field": "cta_verdict",
+  "label": "Earth page (your Mind, friction, heavy) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You learn slowly and for keeps, so the questions people bring you are the ones that need time more than speed."
+   },
+   {
+    "letter": "B",
+    "text": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+   },
+   {
+    "letter": "C",
+    "text": "Your mind learns by sitting with a thing until it settles, so the answer you trust most is usually the one you gave last."
+   }
+  ]
+ },
+ {
+  "id": "Q20",
+  "page": "energy.金_木",
+  "field": "mechanism.base",
+  "label": "Wood page (your Action, catalyst, abundant) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare."
+   },
+   {
+    "letter": "B",
+    "text": "The knife exists for the branch. Wood grows in every direction it can reach, and left alone it grows into a thicket that shades its own fruit, so the old texts set metal against it, hard against soft, the cut that gives a living thing its shape. The pruned tree bears more than the wild one. Steel and timber are not enemies. One is what the other is for."
+   }
+  ]
+ },
+ {
+  "id": "Q21",
+  "page": "energy.金_木",
+  "field": "carry.wide",
+  "label": "Wood page (your Action, catalyst, abundant) · carry.wide · ELEMENT_PAIR.carry",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Wood is already here in plenty, the material the knife is for.  |  remedy: Cut what is already in front of you. Finish it."
+   },
+   {
+    "letter": "B",
+    "text": "clause: You were given plenty of Wood, a whole orchard for one knife to shape.  |  remedy: Prune what is in reach. Finish one before starting the next."
+   }
+  ]
+ },
+ {
+  "id": "Q22",
+  "page": "energy.金_木",
+  "field": "function.definition_catalyst",
+  "label": "Wood page (your Action, catalyst, abundant) · function.definition_catalyst · ELEMENT_PAIR.function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off."
+   },
+   {
+    "letter": "B",
+    "text": "Wood is your Action, and as a catalyst, it is work that keeps growing after you stop pushing. The pull toward the next opening keeps you planting and leaves near ground half-tended, while the urge to keep what you built saves money and steady love and lets a chance go by. The edge decides which."
+   }
+  ]
+ },
+ {
+  "id": "Q23",
+  "page": "energy.金_木",
+  "field": "ledger[0]",
+  "label": "Wood page (your Action, catalyst, abundant) · ledger[0] (drive, The Steward (正财)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Slow and sure  |  text: Value is something you build and keep, and building is what you like. Wood is plentiful in your chart, so your effort goes where it will still stand in ten years. You save money and love for the long season, or spend both on the quick one. Slow is the price you keep choosing."
+   },
+   {
+    "letter": "B",
+    "text": "word: Slow and sure  |  text: Looking after what you have is the work you trust. Wood runs plentiful in you, so something is always growing under your hands and the growing rewards whoever stays. You tend the same few things until they pay, or you keep them because leaving is harder. The price is the doors you never tried."
+   },
+   {
+    "letter": "C",
+    "text": "word: Cultivating  |  text: Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+   }
+  ]
+ },
+ {
+  "id": "Q24",
+  "page": "energy.金_木",
+  "field": "ledger[1]",
+  "label": "Wood page (your Action, catalyst, abundant) · ledger[1] (cost self, The Steward (正财)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Saves first  |  text: Putting something aside before you enjoy anything is automatic for you. Wood grows thick in you, and there is always something worth keeping. You save because the future is real to you, or because spending feels like losing. It costs you every small comfort you could afford and never take. Rest is one of them."
+   },
+   {
+    "letter": "B",
+    "text": "word: Compounding  |  text: Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
+   }
+  ]
+ },
+ {
+  "id": "Q25",
+  "page": "energy.金_木",
+  "field": "ledger[2]",
+  "label": "Wood page (your Action, catalyst, abundant) · ledger[2] (cost others, The Horizon (偏财)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Wide-branching  |  text: People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+   },
+   {
+    "letter": "B",
+    "text": "word: Far-sighted  |  text: You look past what is near to the opening farther out. Wood spreads wide across your chart, and the far branch looks better than the near one. You scout the next place while this one still needs you, or you stay and feel the pull anyway. The people beside you get the half already leaving."
+   }
+  ]
+ },
+ {
+  "id": "Q26",
+  "page": "energy.金_木",
+  "field": "function.advise_catalyst",
+  "label": "Wood page (your Action, catalyst, abundant) · function.advise_catalyst · ELEMENT_PAIR.function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite."
+   },
+   {
+    "letter": "B",
+    "text": "Plenty to work with is its own trap: a full plot lets you start forever and never harvest. Finish one thing this month and hand it to the person who was waiting. Keep one dinner with the same person every month. Fix one loose hinge at home."
+   }
+  ]
+ },
+ {
+  "id": "Q27",
+  "page": "energy.金_木",
+  "field": "cta_verdict",
+  "label": "Wood page (your Action, catalyst, abundant) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get."
+   },
+   {
+    "letter": "B",
+    "text": "Your effort behaves like something planted, so what you tend keeps paying long after you stopped working on it."
+   },
+   {
+    "letter": "C",
+    "text": "What you build keeps growing once you have started it, which is why the things you neglect grow too."
+   }
+  ]
+ },
+ {
+  "id": "Q28",
+  "page": "energy.金_金",
+  "field": "mechanism.base",
+  "label": "Metal page (your Body, friction, heavy) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt."
+   },
+   {
+    "letter": "B",
+    "text": "Metal meets metal and neither gives. The old texts say like answers like, the way one struck bell sets the next one ringing, and steel knows steel by the sound it makes on contact. Two edges laid together sharpen each other or notch each other, and the difference is the angle. A blade among blades learns exactly how hard it is. Nothing else in the forge can tell it that."
+   }
+  ]
+ },
+ {
+  "id": "Q29",
+  "page": "energy.金_金",
+  "field": "mechanism.friction_turn",
+  "label": "Metal page (your Body, friction, heavy) · mechanism.friction_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "With too much Metal, the whole blade is edge: nothing left that bends, so every touch becomes a cut. People step back. Ask one person to check your work before calling it done."
+   },
+   {
+    "letter": "B",
+    "text": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
+   }
+  ]
+ },
+ {
+  "id": "Q30",
+  "page": "energy.金_金",
+  "field": "carry.friction",
+  "label": "Metal page (your Body, friction, heavy) · carry.friction · ELEMENT_PAIR.carry",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The edge seals itself in: so much certainty that nothing else gets past it.  |  remedy: Honor the standard, and let one trusted voice through."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The whole blade is edge: nothing left that bends, so every touch becomes a cut.  |  remedy: Ask one person to check your work before calling it done."
+   }
+  ]
+ },
+ {
+  "id": "Q31",
+  "page": "energy.金_金",
+  "field": "function.definition_friction",
+  "label": "Metal page (your Body, friction, heavy) · function.definition_friction · ELEMENT_PAIR.function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Metal is your Body, and running over, it is more self than the day has uses for. The bar you set yourself hardens into a wall your peers cannot get through, and the need to measure against someone makes every shared stake a race you win alone. The rest goes into jaw and sleep."
+   },
+   {
+    "letter": "B",
+    "text": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw."
+   }
+  ]
+ },
+ {
+  "id": "Q32",
+  "page": "energy.金_金",
+  "field": "ledger[0]",
+  "label": "Metal page (your Body, friction, heavy) · ledger[0] (drive, The Twin (比肩)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Won't bend  |  text: You measure yourself against yourself, and nobody else gets a vote. Metal fills your chart beyond what one day spends, so the surplus goes into holding form. You keep the standard and stay the only one you trust, or you let it slip and learn who else you could. The standard usually wins."
+   },
+   {
+    "letter": "B",
+    "text": "word: Sealed-off  |  text: Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
+   },
+   {
+    "letter": "C",
+    "text": "word: Won't bend  |  text: Your own standard is the only one you answer to. Your Metal runs deep, so a line you drew once stays drawn without effort. You hold it because it is right, or you hold it because bending would feel like losing yourself. The price is company that can match you, which is rare."
+   }
+  ]
+ },
+ {
+  "id": "Q33",
+  "page": "energy.金_金",
+  "field": "ledger[1]",
+  "label": "Metal page (your Body, friction, heavy) · ledger[1] (cost self, The Twin (比肩)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Rigid  |  text: A friend was in town for one evening, the first in three years. Lights out at eleven held anyway, the way it held through the fever, the way it holds through everything. You slept on schedule and lay there knowing exactly what the schedule had cost."
+   },
+   {
+    "letter": "B",
+    "text": "word: Unreadable  |  text: You keep your own counsel, and it looks free. Metal runs over in you, so the surface holds. You stay quiet because the trouble is yours to carry, or because being carried would mean being seen. No one gets asked when you are in trouble. You pay for that by being alone with it."
+   }
+  ]
+ },
+ {
+  "id": "Q34",
+  "page": "energy.金_金",
+  "field": "ledger[2]",
+  "label": "Metal page (your Body, friction, heavy) · ledger[2] (cost others, The Rival (劫财)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Cutthroat  |  text: People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+   },
+   {
+    "letter": "B",
+    "text": "word: Keeps score  |  text: You turn the people nearest you into the ones you measure against. More Metal sits in your chart than one life spends, so surplus edge hunts for another edge. You share the stake and count who put in more, or split it clean and count anyway. The friend pays the tally without ever seeing it."
+   }
+  ]
+ },
+ {
+  "id": "Q35",
+  "page": "energy.金_金",
+  "field": "function.advise_friction",
+  "label": "Metal page (your Body, friction, heavy) · function.advise_friction · ELEMENT_PAIR.function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
+   },
+   {
+    "letter": "B",
+    "text": "Needing no one is a skill that turns into a way of never being tested. Enter one contest you could lose, under your own name. Let a friend do one thing for you, unrepaid. Seek Fire, the Order energy. Fire is heat that makes demands: a deadline, a judge, someone above you. Let it shape what Metal stores."
+   }
+  ]
+ },
+ {
+  "id": "Q36",
+  "page": "energy.金_金",
+  "field": "cta_verdict",
+  "label": "Metal page (your Body, friction, heavy) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your stamina is the kind that does not show wear until it fails, so you find out you were tired by stopping."
+   },
+   {
+    "letter": "B",
+    "text": "You keep going on will where others stop on tiredness, and the bill for that usually arrives all at once."
+   },
+   {
+    "letter": "C",
+    "text": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+   }
+  ]
+ },
+ {
+  "id": "Q37",
+  "page": "energy.金_水",
+  "field": "mechanism.base",
+  "label": "Water page (your Expression, catalyst, thin) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Water is what metal becomes when it stops holding its shape. In the old texts the cold blade gathers dew out of the morning air, and metal melted in enough heat runs like a river, so the child of steel is the stream. What the edge kept hard and silent, the water carries off and says. A spring under a mountain is the ore learning to move."
+   },
+   {
+    "letter": "B",
+    "text": "In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world."
+   }
+  ]
+ },
+ {
+  "id": "Q38",
+  "page": "energy.金_水",
+  "field": "mechanism.catalyst_turn",
+  "label": "Water page (your Expression, catalyst, thin) · mechanism.catalyst_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe."
+   },
+   {
+    "letter": "B",
+    "text": "With too little Water, the blade stays dry: everything you sharpen is kept inside, and nobody gets the use of it. Show one unfinished thing to one person before it is ready."
+   }
+  ]
+ },
+ {
+  "id": "Q39",
+  "page": "energy.金_水",
+  "field": "carry.catalyst",
+  "label": "Water page (your Expression, catalyst, thin) · carry.catalyst · ELEMENT_PAIR.carry",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: This channel shows as pressure without release: much forged, little said.  |  remedy: Writing, speaking, sharing work early lets the blade breathe."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The blade stays dry: everything you sharpen is kept inside, and nobody gets the use of it.  |  remedy: Show one unfinished thing to one person before it is ready."
+   }
+  ]
+ },
+ {
+  "id": "Q40",
+  "page": "energy.金_水",
+  "field": "function.definition_catalyst",
+  "label": "Water page (your Expression, catalyst, thin) · function.definition_catalyst · ELEMENT_PAIR.function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Water is your Expression, and as a catalyst, it is what pours out of you and feeds someone. The wish to feed has you cooking and telling the story, never the one fed, while the wish to shine puts the sharpest line in the show and pays in the people it cut."
+   },
+   {
+    "letter": "B",
+    "text": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry."
+   }
+  ]
+ },
+ {
+  "id": "Q41",
+  "page": "energy.金_水",
+  "field": "ledger[0]",
+  "label": "Water page (your Expression, catalyst, thin) · ledger[0] (drive, The Artisan (食神)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Unforced  |  text: Making something for someone is the most natural thing you do. Water runs low in you, so the little that flows goes straight to whoever is nearest. You give it because giving is easy, or because being needed is the proof you have. The price is never learning which."
+   },
+   {
+    "letter": "B",
+    "text": "word: Unforced  |  text: What lives in you gets out without a fight, and it arrives as care. Water is scarce in you, so expression gets served one plate at a time. You feed people because you enjoy it, or so nothing is left to say about yourself. What goes untold is your own story."
+   },
+   {
+    "letter": "C",
+    "text": "word: Fluent  |  text: Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
+   }
+  ]
+ },
+ {
+  "id": "Q42",
+  "page": "energy.金_水",
+  "field": "ledger[1]",
+  "label": "Water page (your Expression, catalyst, thin) · ledger[1] (cost self, The Artisan (食神)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Nourishing  |  text: They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
+   },
+   {
+    "letter": "B",
+    "text": "word: Feeds people  |  text: Feeding people is how you love. Water runs thin in you, so what comes out is a thing someone will use. You give because there is enough, or because giving is the only time you feel full. You end up last at your own table. Enjoyment is a thing you serve, rarely one you take."
+   }
+  ]
+ },
+ {
+  "id": "Q43",
+  "page": "energy.金_水",
+  "field": "ledger[2]",
+  "label": "Water page (your Expression, catalyst, thin) · ledger[2] (cost others, The Virtuoso (伤官)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Quotable  |  text: You say the line that is too good to sit on. Little Water reaches your chart, so what gets out arrives sharp, shaped on the edge first. You aim it at the idea, or at the person holding the idea and call that the same. The person it landed on carries it home."
+   },
+   {
+    "letter": "B",
+    "text": "word: Silver-tongued  |  text: Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+   }
+  ]
+ },
+ {
+  "id": "Q44",
+  "page": "energy.金_水",
+  "field": "function.advise_catalyst",
+  "label": "Water page (your Expression, catalyst, thin) · function.advise_catalyst · ELEMENT_PAIR.function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Keeping it in feels like control, and mostly it is pressure with the lid on. Write a page most mornings and send one a week to somebody who answers. Cook for people once a month and let them watch. Say one thing at the table that you would usually only think. Hum while you do the dishes."
+   },
+   {
+    "letter": "B",
+    "text": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one."
+   }
+  ]
+ },
+ {
+  "id": "Q45",
+  "page": "energy.金_水",
+  "field": "cta_verdict",
+  "label": "Water page (your Expression, catalyst, thin) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "What you say or make comes out with a clean edge already on it, and it gets quoted back to you later more often than you expect."
+   },
+   {
+    "letter": "B",
+    "text": "Speaking and making are how the pressure in you leaves, so a week without either shows up in your mood before it shows up anywhere else."
+   },
+   {
+    "letter": "C",
+    "text": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them."
+   }
+  ]
+ },
+ {
+  "id": "Q46",
+  "page": "energy.金_火",
+  "field": "mechanism.base",
+  "label": "Fire page (your Order, catalyst, thin) · mechanism.base · ELEMENT_PAIR.mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Steel is only steel because something burned it first. In the forge the metal goes soft and, for a while, obedient, and the hammer gives it the shape it will keep for a hundred years. Take the fire away and the ore stays ore, hard in the wrong places and useless for anything fine. The saying is that fire overcomes metal. It is truer to say fire finishes it."
+   },
+   {
+    "letter": "B",
+    "text": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in."
+   }
+  ]
+ },
+ {
+  "id": "Q47",
+  "page": "energy.金_火",
+  "field": "mechanism.catalyst_turn",
+  "label": "Fire page (your Order, catalyst, thin) · mechanism.catalyst_turn · ELEMENT_PAIR.mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena."
+   },
+   {
+    "letter": "B",
+    "text": "With too little Fire, the steel goes unworked: an edge sure of its shape, with nothing to test it. Take on one thing this year that could fail in public."
+   }
+  ]
+ },
+ {
+  "id": "Q48",
+  "page": "energy.金_火",
+  "field": "carry.catalyst",
+  "label": "Fire page (your Order, catalyst, thin) · carry.catalyst · ELEMENT_PAIR.carry",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Nothing tempers you: an edge that keeps its first shape and calls it character.  |  remedy: Take the demanding role, the audit, the arena."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The steel goes unworked: an edge sure of its shape, with nothing to test it.  |  remedy: Take on one thing this year that could fail in public."
+   }
+  ]
+ },
+ {
+  "id": "Q49",
+  "page": "energy.金_火",
+  "field": "function.definition_catalyst",
+  "label": "Fire page (your Order, catalyst, thin) · function.definition_catalyst · ELEMENT_PAIR.function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it."
+   },
+   {
+    "letter": "B",
+    "text": "Fire is your Order, and as a catalyst, it is heat the edge answers to. Crisis pulls at you and makes you clearest when everything is on fire, at the cost of quiet weeks you cannot sit through, while the wish for a place keeps you inside the rules and costs you the step outside."
+   }
+  ]
+ },
+ {
+  "id": "Q50",
+  "page": "energy.金_火",
+  "field": "ledger[0]",
+  "label": "Fire page (your Order, catalyst, thin) · ledger[0] (drive, The General (七杀)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Takes charge  |  text: Command comes to you without a title, and you use it before anyone hands it over. Fire is short in you, and the little there is burns where the decision is. You lead because the gap is open, or because standing behind someone feels like defeat. The price is being rarely asked."
+   },
+   {
+    "letter": "B",
+    "text": "word: Decisive  |  text: Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
+   },
+   {
+    "letter": "C",
+    "text": "word: Takes charge  |  text: You take charge the moment nobody else does, and sometimes a moment before. Your chart carries little Fire, and what heat there is gets spent at the front. You step in because it needs doing, or because waiting feels like a demotion. Permission is what this costs you."
+   }
+  ]
+ },
+ {
+  "id": "Q51",
+  "page": "energy.金_火",
+  "field": "ledger[1]",
+  "label": "Fire page (your Order, catalyst, thin) · ledger[1] (cost self, The General (七杀)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Daring  |  text: The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes."
+   },
+   {
+    "letter": "B",
+    "text": "word: Runs toward it  |  text: Trouble is where you feel most like yourself. With this little Fire, the pressure that steadies you only arrives when something breaks. You run toward the crisis because it needs you, or because calm has nothing you know how to hold. The cost is a body that only rests after a fight."
+   }
+  ]
+ },
+ {
+  "id": "Q52",
+  "page": "energy.金_火",
+  "field": "ledger[2]",
+  "label": "Fire page (your Order, catalyst, thin) · ledger[2] (cost others, The General (七杀)) · ELEMENT_GOD.fn_reading",
+  "options": [
+   {
+    "letter": "A",
+    "text": "word: Crisis-ready  |  text: There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+   },
+   {
+    "letter": "B",
+    "text": "word: Pushes hard  |  text: You push people the way you push yourself. Fire is a small supply in you, so what heat you have gets aimed at whoever is closest to the job. You set the pace because it must get done, or because slowing would hand it to someone else. The people under it give up their own."
+   }
+  ]
+ },
+ {
+  "id": "Q53",
+  "page": "energy.金_火",
+  "field": "function.advise_catalyst",
+  "label": "Fire page (your Order, catalyst, thin) · function.advise_catalyst · ELEMENT_PAIR.function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+   },
+   {
+    "letter": "B",
+    "text": "An edge nobody has tested is a guess about yourself. Enter one thing a year with a judge in it, a race, an exam, a review by someone senior. Take the deadline you are not sure you can make. Let one person tell you, to your face, what you got wrong this month."
+   }
+  ]
+ },
+ {
+  "id": "Q54",
+  "page": "energy.金_火",
+  "field": "cta_verdict",
+  "label": "Fire page (your Order, catalyst, thin) · cta_verdict · ELEMENT_PAIR.cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Pressure is what puts you in order, so the worst version of you usually shows up when nothing is being asked of you."
+   },
+   {
+    "letter": "B",
+    "text": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+   },
+   {
+    "letter": "C",
+    "text": "Rules only hold you when there is heat in them, which is why a deadline does for you what a plan never quite manages."
+   }
+  ]
+ }
+]

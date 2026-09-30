@@ -1,0 +1,162 @@
+{
+  "$variable": "ELEMENT_GOD.fn_reading.catalyst.ledger[]",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_正财",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Slow and sure",
+        "text": "Looking after what you have is the work you trust. Wood runs plentiful in you, so something is always growing under your hands and the growing rewards whoever stays. You tend the same few things until they pay, or you keep them because leaving is harder. The price is the doors you never tried."
+      },
+      "original": {
+        "word": "Cultivating",
+        "angles": {
+          "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.",
+          "cost_self": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced.",
+          "cost_others": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Saves first",
+        "text": "Putting something aside before you enjoy anything is automatic for you. Wood grows thick in you, and there is always something worth keeping. You save because the future is real to you, or because spending feels like losing. It costs you every small comfort you could afford and never take. Rest is one of them."
+      },
+      "original": {
+        "word": "Compounding",
+        "angles": {
+          "drive": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly.",
+          "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from.",
+          "cost_others": "Watching you work is boring, and your results embarrass people who sprint. The deposits were too small to notice and too regular to stop, and somewhere along the way they became terrain. Friends who mocked the fifty a month now ask, carefully, how it got to this."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Far-sighted",
+        "text": "You look past what is near to the opening farther out. Wood spreads wide across your chart, and the far branch looks better than the near one. You scout the next place while this one still needs you, or you stay and feel the pull anyway. The people beside you get the half already leaving."
+      },
+      "original": {
+        "word": "Wide-branching",
+        "angles": {
+          "drive": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
+          "cost_self": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+          "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Unforced",
+        "text": "Making something for someone is the most natural thing you do. Water runs low in you, so the little that flows goes straight to whoever is nearest. You give it because giving is easy, or because being needed is the proof you have. The price is never learning which."
+      },
+      "original": {
+        "word": "Fluent",
+        "angles": {
+          "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do.",
+          "cost_self": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+          "cost_others": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Feeds people",
+        "text": "Feeding people is how you love. Water runs thin in you, so what comes out is a thing someone will use. You give because there is enough, or because giving is the only time you feel full. You end up last at your own table. Enjoyment is a thing you serve, rarely one you take."
+      },
+      "original": {
+        "word": "Nourishing",
+        "angles": {
+          "drive": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Your output feeds: conversation, cooking, company, all of it lands as sustenance rather than display. Feeding people is simply the shape your talent takes, in every medium.",
+          "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time.",
+          "cost_others": "Nobody leaves your table the way they arrived, and word of that travels. You are the number people call on the bad night, the kitchen they route the heartbroken friend toward. It is a strange kind of fame, warm and unlisted, and you earned it a bowl at a time."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Quotable",
+        "text": "You say the line that is too good to sit on. Little Water reaches your chart, so what gets out arrives sharp, shaped on the edge first. You aim it at the idea, or at the person holding the idea and call that the same. The person it landed on carries it home."
+      },
+      "original": {
+        "word": "Silver-tongued",
+        "angles": {
+          "drive": "Words obey you the way water obeys gravity, finding every gap and pouring through beautifully. You talk people into things, out of things, and around things, and they enjoy the ride even when they can see the technique. Persuasion this smooth stopped being learned long ago. It flows.",
+          "cost_self": "The refund was against policy, the agent had said no twice, and four minutes into your version of events she was laughing and typing an exception. On the way out you tipped generously, which is your habit after winning. The technique pays its taxes.",
+          "cost_others": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Takes charge",
+        "text": "You take charge the moment nobody else does, and sometimes a moment before. Your chart carries little Fire, and what heat there is gets spent at the front. You step in because it needs doing, or because waiting feels like a demotion. Permission is what this costs you."
+      },
+      "original": {
+        "word": "Decisive",
+        "angles": {
+          "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
+          "cost_self": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+          "cost_others": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Runs toward it",
+        "text": "Trouble is where you feel most like yourself. With this little Fire, the pressure that steadies you only arrives when something breaks. You run toward the crisis because it needs you, or because calm has nothing you know how to hold. The cost is a body that only rests after a fight."
+      },
+      "original": {
+        "word": "Daring",
+        "angles": {
+          "drive": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The feared thing shrinks on contact, every single time, and you have known that longer than most people have been avoiding their own versions of it.",
+          "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes.",
+          "cost_others": "Teams keep a mental list of things nobody wants to do, and your name has drifted next to most of them. Colleagues call it bravery to your face and something more useful behind your back: proof that the scary version of a task rarely survives contact with someone unafraid of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Pushes hard",
+        "text": "You push people the way you push yourself. Fire is a small supply in you, so what heat you have gets aimed at whoever is closest to the job. You set the pace because it must get done, or because slowing would hand it to someone else. The people under it give up their own."
+      },
+      "original": {
+        "word": "Crisis-ready",
+        "angles": {
+          "drive": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners.",
+          "cost_self": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new hall, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
+          "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+        }
+      },
+      "gate": "pass"
+    }
+  ]
+}

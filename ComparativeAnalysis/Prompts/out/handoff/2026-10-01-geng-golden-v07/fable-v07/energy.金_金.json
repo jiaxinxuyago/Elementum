@@ -1,0 +1,216 @@
+{
+ "_generated_by": "fable-v07",
+ "_handoff": "2026-10-01 geng golden v07",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Where a spec says \"candidates\": 2, add \"value_b\" beside \"value\" with a second, different candidate of the same shape (two lines, each inside the frame; the read picks one). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/金_金 + ELEMENT_GOD/金_比肩, 金_劫财",
+ "page": "The energy page of Metal (your Body) for a Metal core, friction pole",
+ "stem": "庚",
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_GOD.adj_chips.md",
+  "cards/ELEMENT_GOD.fn_reading.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 金_金. Core element Metal, energy element Metal. Law: Metal and Metal are the same element (the self pair). Relative to the core the energy is the self, so Metal is this core's Body.\n- Family personas and ruled domains (the cost domain: the cost is named in these words or in ordinary life, work only where a domain word is work; the definition names one drive per persona, E8): The Twin: Peers, Independence, Self-reliance · The Rival: Rivalry, Shared stakes, Boldness\n- mechanism.classic (the sourced epigraph): \"同聲相應，同氣相求\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: \"Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.\"\n- mechanism.friction_turn: [REDACTED: the target field]\n- function.definition_catalyst: \"Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late.\"\n- function.definition_friction: [REDACTED: the target field]\n- function.advise_catalyst: \"Discipline that skips recovery is borrowing, and the interest is physical. Put maintenance on the calendar before it is needed: fixed bedtime, real meals, one full rest day a week. Track energy like money for one month. Treat the first sign of wear as a warning.\"\n- function.advise_friction: [REDACTED: the target field]\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: {\"clause\":\"The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.\",\"remedy\":\"Practice your craft alone until it rings.\"}\n- carry.friction: [REDACTED: the target field]\n- carry.unrooted: {\"clause\":\"The self stands without roots: an edge with nothing under it, form held on will alone.\",\"remedy\":\"Feed the self. Borrow ground and practice.\"}\n- carry.excess: {\"clause\":\"Strong metal wants water: so much certainty it cuts everything the same way.\",\"remedy\":\"Let water blunt it. Say it, don't cut it.\"}\n- carry.thin: {\"clause\":\"Metal runs thin and still carries weight: little of the self, held too tightly.\",\"remedy\":\"Loosen the grip.\"}\n- carry.wide: none (self pair): the Body wide gift is cut from this cell's definition_catalyst, echo_of = 金_金.function.definition_catalyst\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 强金得水，方挫其锋 (强而得制, the self pair).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\n## CELL FACTS\n\nCell 金_比肩 (Metal carrying The Twin). Persona The Twin (比肩). Definition line: \"Same nature, same register, the standard you hold yourself to\". Keyword Independence, charge steady, poles catalyst Self-trust / friction Isolation. Family function: Body. Cost dimension: the standard held to oneself; company that truly matches is rare. Arena: mirrors, stride, equal measure, walking beside. Classical portrait: same nature, same register; the standard held to oneself; self-reliance that can wall others out. Ruled domains: Peers, Independence, Self-reliance. Sibling (other polarity of the family): 劫财.\nElement arena: Metal (edge, blade, ore, forge, whetstone, the clean line). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Metal precision amplifying Metal — same-polarity self-referencing loop\".\n- k2_overview: \"Your Metal moves as the Twin: a standing force that meets the world edge-first and equal. Nothing about you waits for permission. You hold your line the way a blade holds its shape, and you respect exactly the people who hold theirs. Company, for you, is two swords in one sheath: close, parallel, never fused.\"\n- k2_functional: \"Your energy is tempered and even: slow to tire, slow to bend, restored by solitary work.\"\n- adj_chips: {\"catalyst\":[\"Self-made\",\"Reserved\",\"Unshakeable\"],\"friction\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Peers\":\"Your peers are fellow blades: rivals you respect, colleagues you measure against, friends won through tested mettle. Keep two or three whose standards match yours. Iron sharpens iron is not a proverb to you. It is your social life.\",\"Independence\":\"Independence, in metal, is structural: you do not perform autonomy, you are made of it. Guard it without sealing it. A blade alone stays sharp but unused, and your edge exists for work that matters.\",\"Self-reliance\":\"You carry your own weight and everyone can feel it. The practice to add is borrowing well: one tool, one favor, one opinion at a time. Even the finest steel was forged by other hands.\"}\n- fn_reading.friction.ledger (three rows, index-aligned to adj_chips.friction; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1: [REDACTED: the target row]\n  - row 2 \"Solitary\": {\"drive\":\"Alone is your default answer, and it kept answering long after the question changed. You moved apartments twice with rented dollies and zero phone calls, and both times at least one person would have said yes. Proving you can was settled years ago. You keep proving it.\",\"cost_self\":\"Two apartment moves, two rented dollies, zero phone calls made. Halfway down the stairs with the couch, wedged and sweating, you ran the list of people who would have come, and it was a real list, and you finished the move alone anyway.\",\"cost_others\":\"Friends have stopped offering, which you count as efficiency and they count as defeat. The distance you keep reads as self-sufficiency for the first few years. After that it starts to read as a judgment of them, and they were never the ones being judged.\"}\n- Sibling cell 金_劫财 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Keen-edged\",\"Competitive\",\"Unfazed\"],\"friction\":[\"Cutthroat\",\"Abrasive\",\"Picks fights\"]}\n- Sibling cell 金_劫财 friction row 0 drive passage, for the sibling test on the tension (this row must name a different either-or): \"Winning has stopped checking its methods with you. The shortcut through a colleague’s territory, the information used a half-step past fair, the alliance dropped at the moment of maximum value: each move defensible in isolation, and together a style that people describe with one hand on their wallet.\"\n\n## CELL FACTS\n\nCell 金_劫财 (Metal carrying The Rival). Persona The Rival (劫财). Definition line: \"Same nature, different register, the edge of comparison\". Keyword Rivalry, charge fierce, poles catalyst Daring / friction Drain. Family function: Body. Cost dimension: comparison as fuel; the race never announces a finish. Arena: the race, the shared prize, the other runner. Classical portrait: same nature, different register; comparison as fuel; the race with no announced finish. Ruled domains: Rivalry, Shared stakes, Boldness. Sibling (other polarity of the family): 比肩.\nElement arena: Metal (edge, blade, ore, forge, whetstone, the clean line). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Metal meeting Metal cross-polarity — similar nature, competitive register\".\n- k2_overview: \"Your Metal moves as the Rival: an edge that sharpens against other edges. Competition wakes you up, stakes clarify you, and you cut boldest when something real is on the table. Money and metal both change hands fast around you. The trick of your life is dueling without wounding, and betting without handing over the sword.\"\n- k2_functional: \"Your energy spikes for contests and crashes after. Build recovery into the schedule like a trainer would.\"\n- adj_chips: {\"catalyst\":[\"Keen-edged\",\"Competitive\",\"Unfazed\"],\"friction\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Rivalry\":\"Rivalry is your whetstone: you improve fastest with a named competitor in view. Choose rivals worth becoming, because you will absorb their shape. And retire each rivalry the day it stops sharpening and starts nicking.\",\"Shared stakes\":\"You bet alongside people easily: ventures, splits, loans between friends. Metal keeps clean edges, so keep clean papers. The partnerships that survive you are the ones with terms as sharp as the trust.\",\"Boldness\":\"Your nerve is surgical: boldest when the cut is clear. Practice sizing the wager to the blade. Full force is for openings that deserve it, not for every glinting chance.\"}\n- fn_reading.friction.ledger (three rows, index-aligned to adj_chips.friction; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1 \"Abrasive\": {\"drive\":\"Contact with you sands people down. The interruption at speed, the correction without cushioning, the volume that arrives when resistance does: none of it is malicious, and all of it accumulates, until working near you requires the kind of gloves people resent needing.\",\"cost_self\":\"The engineer was right about the flaw, and by the end of your six-minute response he had stopped defending the point, then stopped talking entirely, then, that quarter, stopped raising flaws. The next one shipped. It was expensive. The postmortem located the bug and, unofficially, the silence.\",\"cost_others\":\"Teams route their communication with you through the two people who can take the friction, an arrangement everyone denies exists. Your results are respected in full. But the roughness has a documented orbit: talent circles you once, learns the surface, and requests the transfer politely.\"}\n  - row 2 \"Picks fights\": {\"drive\":\"Everything becomes a contest, including things that were conversations. The differing opinion escalates to a showdown, the casual game develops stakes, the family dinner acquires a scoreboard nobody else consented to. You win most of them. The wins pile up in a specific corner, alone.\",\"cost_self\":\"The debate about the restaurant bill, seven dollars at issue, ran twenty minutes and ended with your victory and a quieter table. You had been right. The couple across from you split an odd look you decoded weeks later, at another dinner, to which they had invited others.\",\"cost_others\":\"People decline the bait now with practiced smoothness, agreeing early, changing subjects, letting your gauntlets lie where they fall. The duels you still get are with strangers and juniors, everyone else having retired from the circuit. Champions, it turns out, mostly age out undefeated, in emptying halls.\"}\n- Sibling cell 金_比肩 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Self-made\",\"Reserved\",\"Unshakeable\"],\"friction\":[\"Sealed-off\",\"Rigid\",\"Solitary\"]}\n- Sibling cell 金_比肩 friction row 0 drive passage, for the sibling test on the tension (this row must name a different either-or): \"Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine.\"\n\nChart: golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5). Metal runs 23%: core, abundant. The page shows the friction pole; its state line is the friction turn. Ledger rows shown: row 0 比肩 · the drive passage, row 1 比肩 · the cost_self passage, row 2 劫财 · the cost_others passage (one angle per row, rotating drive · cost_self · cost_others: the drive, the cost to the reader, the cost to others).",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "element": "Metal",
+    "person": "fully third person, no \"you\", no function claim, no persona",
+    "chemistry": "the field carries one word of the pair's chemistry somewhere in it: Metal's material or Metal's (an arena noun, its verb, or either element as a common noun); the gate blocks without it"
+   },
+   "value": "Metal meets metal and neither gives. The old texts say like answers like, the way one struck bell sets the next one ringing, and steel knows steel by the sound it makes on contact. Two edges laid together sharpen each other or notch each other, and the difference is the angle. A blade among blades learns exactly how hard it is. Nothing else in the forge can tell it that.",
+   "_trace": "the self pair, like answers like: steel tested against steel, sharpened or notched by the angle"
+  },
+  "mechanism.friction_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Metal",
+    "notes": "opens on a plain statement of the state in the reader's terms (Metal named, its volume in ordinary words, the reference lead-in \"With too much Metal, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too much Metal, the whole blade is edge: nothing left that bends, so every touch becomes a cut. People step back. Ask one person to check your work before calling it done.",
+   "_trace": "the core running over: a blade that is all edge, nothing that bends, priced in people stepping back"
+  },
+  "carry.friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.friction_turn",
+    "notes": "cut from the friction turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The whole blade is edge: nothing left that bends, so every touch becomes a cut.",
+    "remedy": "Ask one person to check your work before calling it done."
+   },
+   "_trace": "cut from the friction turn's image clause and its directive"
+  },
+  "function.definition_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 20,
+    "max": 55,
+    "element": "Metal",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it, Metal's material or Metal's (an arena noun or the material's verb: flows, grows, burns, holds, cuts, matched as word stems), or the body's own material (sleep, food, recovery, stamina, muscle, breath, rest); the element's name in the opener does not count; the gate blocks without it",
+    "person": "second person",
+    "opener": "Metal is your Body, and running over, it is",
+    "notes": "a concrete-life inventory of what the function does when it overgrows"
+   },
+   "value": "Metal is your Body, and running over, it is more self than the day has uses for. The bar you set yourself hardens into a wall your peers cannot get through, and the need to measure against someone makes every shared stake a race you win alone. The rest goes into jaw and sleep.",
+   "_trace": "the Twin's standard as a wall and the Rival's race won alone, the surplus force landing in jaw and sleep"
+  },
+  "ledger[0]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_比肩",
+    "persona": "The Twin (比肩)",
+    "domains": [
+     "Peers",
+     "Independence",
+     "Self-reliance"
+    ],
+    "pole": "friction",
+    "row": 0,
+    "angle": "drive",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "angle": "drive",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Peers, Independence, Self-reliance.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, states the mechanism from the chart's supply, names the either-or in the second person, lands briefly on the drive's own price; the screenshot passage",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism stated flat from the chart's supply, the either-or in the reader's second person, the cost from this angle. No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked by the gate); no aphorism close by default. The gate notes a passage with no tension sentence (two clauses in the second person joined by or, but, yet, while, or whether … or not) and a first sentence carrying an object noun outside this persona's domain words; the read decides."
+    }
+   },
+   "value": {
+    "word": "Won't bend",
+    "text": "Your own standard is the only one you answer to. Your Metal runs deep, so a line you drew once stays drawn without effort. You hold it because it is right, or you hold it because bending would feel like losing yourself. The price is company that can match you, which is rare."
+   },
+   "value_b": {
+    "word": "Won't bend",
+    "text": "You measure yourself against yourself, and nobody else gets a vote. Metal fills your chart beyond what one day spends, so the surplus goes into holding form. You keep the standard and stay the only one you trust, or you let it slip and learn who else you could. The standard usually wins."
+   },
+   "_trace": "the Twin's standard held to oneself: the line that will not bend, priced in matching company"
+  },
+  "ledger[1]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_比肩",
+    "persona": "The Twin (比肩)",
+    "domains": [
+     "Peers",
+     "Independence",
+     "Self-reliance"
+    ],
+    "pole": "friction",
+    "row": 1,
+    "angle": "cost_self",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "angle": "cost_self",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Peers, Independence, Self-reliance.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and spends its last two sentences on what the drive costs the reader, a difficulty, a need or a price, comparative where it helps, never an event and never a picture",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism stated flat from the chart's supply, the either-or in the reader's second person, the cost from this angle. No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked by the gate); no aphorism close by default. The gate notes a passage with no tension sentence (two clauses in the second person joined by or, but, yet, while, or whether … or not) and a first sentence carrying an object noun outside this persona's domain words; the read decides."
+    }
+   },
+   "value": {
+    "word": "Unreadable",
+    "text": "You keep your own counsel, and it looks free. Metal runs over in you, so the surface holds. You stay quiet because the trouble is yours to carry, or because being carried would mean being seen. No one gets asked when you are in trouble. You pay for that by being alone with it."
+   },
+   "_trace": "the Twin's self-reliance that walls others out: counsel kept, trouble carried alone"
+  },
+  "ledger[2]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 0,
+    "angle": "cost_others",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "angle": "cost_others",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and lands on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive, never as what those people say, think or decide, never a chorus",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism stated flat from the chart's supply, the either-or in the reader's second person, the cost from this angle. No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked by the gate); no aphorism close by default. The gate notes a passage with no tension sentence (two clauses in the second person joined by or, but, yet, while, or whether … or not) and a first sentence carrying an object noun outside this persona's domain words; the read decides."
+    }
+   },
+   "value": {
+    "word": "Keeps score",
+    "text": "You turn the people nearest you into the ones you measure against. More Metal sits in your chart than one life spends, so surplus edge hunts for another edge. You share the stake and count who put in more, or split it clean and count anyway. The friend pays the tally without ever seeing it."
+   },
+   "_trace": "the Rival's comparison as fuel: the friend counted against, the private tally paid by them"
+  },
+  "function.advise_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "cure_set": [
+     "Fire"
+    ],
+    "remedy_verb": "Channel",
+    "remedy_gloss": "Channel: an outlet, an action that spends the excess (make, ship, say, lift, walk, cut); never a brake (the band's remedy verb, REA_02 §5c; this chart's band is Overfueled)",
+    "notes": "one sentence naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), two, closing on the energy prescription in the energy-manual register (owner 2026-09-29, the beat re-cut 2026-09-30): \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The energy is the subject, a material the reader can hold and use, no life action inside the beat; the element must be in cure_set, never one that feeds this friction; the gate blocks without the \"Seek {Element}, the {Function} energy\" form; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "Needing no one is a skill that turns into a way of never being tested. Enter one contest you could lose, under your own name. Let a friend do one thing for you, unrepaid. Seek Fire, the Order energy. Fire is heat that makes demands: a deadline, a judge, someone above you. Let it shape what Metal stores.",
+   "_trace": "Channel on the Overfueled band, Body overgrown, Fire tames Metal (the forge shapes the blade)"
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "candidates": 2,
+    "person": "second person",
+    "pole_neutral": "one verdict per pair, rendered on this page whichever pole the chart shows (this chart shows the friction pole; the other chart shows the other), so it must read true on both: what Metal as your Body IS, never its state, no heavy, thin, too much, too little, running over, running short",
+    "notes": "explains \"Metal is your Body\": a behavioural truth plus ONE tendency-framed consequence beat, true on either pole"
+   },
+   "value": "Your stamina is the kind that does not show wear until it fails, so you find out you were tired by stopping.",
+   "value_b": "You keep going on will where others stop on tiredness, and the bill for that usually arrives all at once.",
+   "_trace": "Metal as the Body that holds form after the fuel is low on either pole: depletion noticed late"
+  }
+ }
+}

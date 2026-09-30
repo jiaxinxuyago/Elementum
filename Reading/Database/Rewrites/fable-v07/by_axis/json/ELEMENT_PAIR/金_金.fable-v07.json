@@ -1,0 +1,66 @@
+{
+  "$archetype": "金_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_金",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal meets metal and neither gives. The old texts say like answers like, the way one struck bell sets the next one ringing, and steel knows steel by the sound it makes on contact. Two edges laid together sharpen each other or notch each other, and the difference is the angle. A blade among blades learns exactly how hard it is. Nothing else in the forge can tell it that.",
+      "friction_turn": "With too much Metal, the whole blade is edge: nothing left that bends, so every touch becomes a cut. People step back. Ask one person to check your work before calling it done."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The whole blade is edge: nothing left that bends, so every touch becomes a cut.",
+        "remedy": "Ask one person to check your work before calling it done."
+      }
+    },
+    "function": {
+      "definition_friction": "Metal is your Body, and running over, it is more self than the day has uses for. The bar you set yourself hardens into a wall your peers cannot get through, and the need to measure against someone makes every shared stake a race you win alone. The rest goes into jaw and sleep.",
+      "advise_friction": "Needing no one is a skill that turns into a way of never being tested. Enter one contest you could lose, under your own name. Let a friend do one thing for you, unrepaid. Seek Fire, the Order energy. Fire is heat that makes demands: a deadline, a judge, someone above you. Let it shape what Metal stores."
+    },
+    "cta_verdict": "Your stamina is the kind that does not show wear until it fails, so you find out you were tired by stopping."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
+      "friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
+    },
+    "carry": {
+      "friction": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      }
+    },
+    "function": {
+      "definition_friction": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
+      "advise_friction": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
+    },
+    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "the self pair, like answers like: steel tested against steel, sharpened or notched by the angle",
+      "friction_turn": "the core running over: a blade that is all edge, nothing that bends, priced in people stepping back"
+    },
+    "carry": {
+      "friction": "cut from the friction turn's image clause and its directive"
+    },
+    "function": {
+      "definition_friction": "the Twin's standard as a wall and the Rival's race won alone, the surplus force landing in jaw and sleep",
+      "advise_friction": "Channel on the Overfueled band, Body overgrown, Fire tames Metal (the forge shapes the blade)"
+    },
+    "cta_verdict": "Metal as the Body that holds form after the fuel is low on either pole: depletion noticed late"
+  }
+}

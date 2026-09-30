@@ -1,0 +1,56 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "One more source"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "One more source",
+            "angles": {
+              "drive": "The subject nobody else is studying is the one you cannot leave alone. Earth loads your mind past what the day uses, and the surplus hunts for stranger material. You take it in because it feeds you, or because nobody can check your work there. It fills you, and it never finishes."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "angles": {
+              "drive": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Withdrawn"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "intake that starves output: reading as progress, the answer kept out of reach"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$variable": "STEM.gifts[]",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "gifts[6]",
+      "candidate": {
+        "phrase": "Better under pressure",
+        "dim": "hard weeks",
+        "desc": "Pressure makes you simpler. When the plan collapses, the bill comes due or someone in the family gets bad news, the noise drops out and you know the next cut. The price is the quiet weeks, when nothing is on fire and you have to be a person anyway."
+      },
+      "original": {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[5]",
+      "candidate": {
+        "phrase": "Plants and waits",
+        "dim": "slow returns",
+        "desc": "Whatever you take care of grows while you're not looking. A skill kept up, a friend called back, money left alone, all of it comes back bigger than it went in, in its own time. The cost is that quick wins bore you, and you keep working a piece that stopped paying a while ago."
+      },
+      "original": {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[4]",
+      "candidate": {
+        "phrase": "Says it plain",
+        "dim": "everyday giving",
+        "desc": "What's in you comes out in plain words and small acts, no speech first. The true sentence, the fixed shelf, the meal nobody asked for, the call made first, and the person is fed before they knew they were hungry. Anyone who wanted it dressed up reads plain as cold, and that is what it costs you."
+      },
+      "original": {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      "gate": "pass"
+    }
+  ]
+}

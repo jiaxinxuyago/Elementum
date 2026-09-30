@@ -1,0 +1,30 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_catalyst",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_木",
+      "field": "function.definition_catalyst",
+      "candidate": "Wood is your Action, and as a catalyst, it is work that keeps growing after you stop pushing. The pull toward the next opening keeps you planting and leaves near ground half-tended, while the urge to keep what you built saves money and steady love and lets a chance go by. The edge decides which.",
+      "original": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.definition_catalyst",
+      "candidate": "Water is your Expression, and as a catalyst, it is what pours out of you and feeds someone. The wish to feed has you cooking and telling the story, never the one fed, while the wish to shine puts the sharpest line in the show and pays in the people it cut.",
+      "original": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.definition_catalyst",
+      "candidate": "Fire is your Order, and as a catalyst, it is heat the edge answers to. Crisis pulls at you and makes you clearest when everything is on fire, at the cost of quiet weeks you cannot sit through, while the wish for a place keeps you inside the rules and costs you the step outside.",
+      "original": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+      "gate": "pass"
+    }
+  ]
+}

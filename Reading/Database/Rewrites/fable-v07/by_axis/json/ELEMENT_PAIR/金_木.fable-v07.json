@@ -1,0 +1,62 @@
+{
+  "$archetype": "金_木",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_木",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "The knife exists for the branch. Wood grows in every direction it can reach, and left alone it grows into a thicket that shades its own fruit, so the old texts set metal against it, hard against soft, the cut that gives a living thing its shape. The pruned tree bears more than the wild one. Steel and timber are not enemies. One is what the other is for."
+    },
+    "carry": {
+      "wide": {
+        "clause": "You were given plenty of Wood, a whole orchard for one knife to shape.",
+        "remedy": "Prune what is in reach. Finish one before starting the next."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Action, and as a catalyst, it is work that keeps growing after you stop pushing. The pull toward the next opening keeps you planting and leaves near ground half-tended, while the urge to keep what you built saves money and steady love and lets a chance go by. The edge decides which.",
+      "advise_catalyst": "Plenty to work with is its own trap: a full plot lets you start forever and never harvest. Finish one thing this month and hand it to the person who was waiting. Keep one dinner with the same person every month. Fix one loose hinge at home."
+    },
+    "cta_verdict": "Your effort behaves like something planted, so what you tend keeps paying long after you stopped working on it."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare."
+    },
+    "carry": {
+      "wide": {
+        "clause": "Wood is already here in plenty, the material the knife is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
+      "advise_catalyst": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite."
+    },
+    "cta_verdict": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "carry.wide": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "Metal tames Wood, the knife prunes the branch: hard over soft, the cut that gives growth its shape"
+    },
+    "carry": {
+      "wide": "Wood wanted and abundant: the orchard the knife is for, said on an opener no other wanted energy of this core uses"
+    },
+    "function": {
+      "definition_catalyst": "the Horizon's pull toward the opening and the Steward's urge to keep, each with its cost, the edge choosing",
+      "advise_catalyst": "Channel on the Overfueled band: finish, hand over, keep, fix; Wood wanted, no prescription on the catalyst pole"
+    },
+    "cta_verdict": "Wood as compounding Action on either pole: what is tended grows, and so does what is neglected"
+  }
+}

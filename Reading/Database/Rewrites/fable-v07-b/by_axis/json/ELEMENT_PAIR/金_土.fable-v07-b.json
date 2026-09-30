@@ -1,0 +1,22 @@
+{
+  "$archetype": "金_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_土",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "You learn slowly and for keeps, so the questions people bring you are the ones that need time more than speed."
+  },
+  "$original": {
+    "cta_verdict": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "cta_verdict": "Earth as the slow keeping Mind on either pole: what settles becomes judgment"
+  }
+}

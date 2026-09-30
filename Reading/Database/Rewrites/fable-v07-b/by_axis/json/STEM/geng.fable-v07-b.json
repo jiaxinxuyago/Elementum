@@ -1,0 +1,22 @@
+{
+  "$archetype": "geng",
+  "axis": "STEM",
+  "key": "geng",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "manifesto": "Honesty before company · You are the Metal that cuts true and stands alone."
+  },
+  "$original": {
+    "manifesto": "Precision before intention · You are the Metal that cuts things clean."
+  },
+  "$gate_findings": {
+    "manifesto": "pass"
+  },
+  "$trace": {
+    "manifesto": "the spine verb cuts, ranked above what the world puts first (ornament, company), the cost row isolation through honesty"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$variable": "ELEMENT_GOD.fn_reading.friction.ledger[]",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_偏印",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "One more source",
+        "text": "The subject nobody else is studying is the one you cannot leave alone. Earth loads your mind past what the day uses, and the surplus hunts for stranger material. You take it in because it feeds you, or because nobody can check your work there. It fills you, and it never finishes."
+      },
+      "original": {
+        "word": "Withdrawn",
+        "angles": {
+          "drive": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline.",
+          "cost_self": "Three drafts of a two-line reply sit on your phone, and the phone sits face-down through dinner. Nothing about the message is hard. The withdrawing happens earlier than that, somewhere between thinking a thing and letting anyone watch you think it.",
+          "cost_others": "People stop hearing from you and assume something happened. Usually nothing did, and that is the part worth noticing: the quiet was never a response to anything. Given no reason at all, your door still drifts toward closed, and someone else always has to knock first."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Won't bend",
+        "text": "You measure yourself against yourself, and nobody else gets a vote. Metal fills your chart beyond what one day spends, so the surplus goes into holding form. You keep the standard and stay the only one you trust, or you let it slip and learn who else you could. The standard usually wins."
+      },
+      "original": {
+        "word": "Sealed-off",
+        "angles": {
+          "drive": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine.",
+          "cost_self": "On the day of the diagnosis you said fine. Layoff, fine. Breakup, fine. The word has become a door painted to look like a wall, and the people who love you have quietly stopped testing whether it opens.",
+          "cost_others": "The people close to you have learned to read your weather at a distance, because asking gets them fine. They compare notes about you. They worry in committee, exactly the way you trained them to, and call it respecting your space."
+        }
+      },
+      "gate": "pass"
+    }
+  ]
+}

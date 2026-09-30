@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.base",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "mechanism.base",
+      "candidate": "Ore does not fall from the sky. It forms inside the mountain, where the ground is dense and damp and nothing hurries, and the old texts say the metal is fed there by darkness and by weight. Every blade began as a vein in the rock. The soil that held it gave it its patience, and when the edge is struck at last, the stone is still in it, doing the holding.",
+      "original": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "mechanism.base",
+      "candidate": "The knife exists for the branch. Wood grows in every direction it can reach, and left alone it grows into a thicket that shades its own fruit, so the old texts set metal against it, hard against soft, the cut that gives a living thing its shape. The pruned tree bears more than the wild one. Steel and timber are not enemies. One is what the other is for.",
+      "original": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "mechanism.base",
+      "candidate": "Water is what metal becomes when it stops holding its shape. In the old texts the cold blade gathers dew out of the morning air, and metal melted in enough heat runs like a river, so the child of steel is the stream. What the edge kept hard and silent, the water carries off and says. A spring under a mountain is the ore learning to move.",
+      "original": "In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "mechanism.base",
+      "candidate": "Steel is only steel because something burned it first. In the forge the metal goes soft and, for a while, obedient, and the hammer gives it the shape it will keep for a hundred years. Take the fire away and the ore stays ore, hard in the wrong places and useless for anything fine. The saying is that fire overcomes metal. It is truer to say fire finishes it.",
+      "original": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "mechanism.base",
+      "candidate": "Metal meets metal and neither gives. The old texts say like answers like, the way one struck bell sets the next one ringing, and steel knows steel by the sound it makes on contact. Two edges laid together sharpen each other or notch each other, and the difference is the angle. A blade among blades learns exactly how hard it is. Nothing else in the forge can tell it that.",
+      "original": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$archetype": "geng_concentrated",
+  "axis": "STEM_BAND",
+  "key": "geng_concentrated",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "self_card": {
+      "presence": "There is no sheath and there never was. What you see you say, and the few who stay close have stopped flinching."
+    }
+  },
+  "$original": {
+    "self_card": {
+      "presence": "The cut is always available and mostly used. Clarity this constant is a climate, and the people near you dress for it."
+    }
+  },
+  "$gate_findings": {
+    "band.self_card.presence": "pass"
+  },
+  "$trace": {
+    "band": {
+      "self_card": {
+        "presence": "living as the drawn blade, the cost implied in where people stand"
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$archetype": "火_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "火_七杀",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Takes charge",
+        "Runs toward it",
+        "Pushes hard"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "You take charge the moment nobody else does, and sometimes a moment before. Your chart carries little Fire, and what heat there is gets spent at the front. You step in because it needs doing, or because waiting feels like a demotion. Permission is what this costs you."
+            }
+          },
+          {
+            "word": "Runs toward it",
+            "angles": {
+              "cost_self": "Trouble is where you feel most like yourself. With this little Fire, the pressure that steadies you only arrives when something breaks. You run toward the crisis because it needs you, or because calm has nothing you know how to hold. The cost is a body that only rests after a fight."
+            }
+          },
+          {
+            "word": "Pushes hard",
+            "angles": {
+              "cost_others": "You push people the way you push yourself. Fire is a small supply in you, so what heat you have gets aimed at whoever is closest to the job. You set the pace because it must get done, or because slowing would hand it to someone else. The people under it give up their own."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Decisive",
+            "angles": {
+              "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
+            }
+          },
+          {
+            "word": "Daring",
+            "angles": {
+              "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes."
+            }
+          },
+          {
+            "word": "Crisis-ready",
+            "angles": {
+              "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Decisive",
+        "Daring",
+        "Crisis-ready"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the General's force without permission: charge taken before it is given, priced in permission ceasing to matter",
+      "the General's pressure as clarity, peace felt as demotion: the body that rests only after a fight",
+      "the General's pressure that does not ask: the pace set for others, their own pace taken"
+    ]
+  }
+}

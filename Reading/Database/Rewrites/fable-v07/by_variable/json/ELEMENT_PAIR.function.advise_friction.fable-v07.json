@@ -1,0 +1,23 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.advise_friction",
+      "candidate": "Understanding is the safest place you own, and safety is the cost. Cook the dish you only read about. Say the half-formed theory out loud to one friend. Seek Wood, the Action energy. Wood grows toward light, and it roots where it stands: a claim staked before the ground is known. Let it spend what Earth stores.",
+      "original": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.advise_friction",
+      "candidate": "Needing no one is a skill that turns into a way of never being tested. Enter one contest you could lose, under your own name. Let a friend do one thing for you, unrepaid. Seek Fire, the Order energy. Fire is heat that makes demands: a deadline, a judge, someone above you. Let it shape what Metal stores.",
+      "original": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after.",
+      "gate": "pass"
+    }
+  ]
+}

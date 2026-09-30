@@ -1,0 +1,35 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.friction",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The ore stays in the ground: fed so long that no edge is ever struck from it.",
+        "remedy": "Make one rough cut this week."
+      },
+      "original": {
+        "clause": "The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+        "remedy": "Dig out and cut something real."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The whole blade is edge: nothing left that bends, so every touch becomes a cut.",
+        "remedy": "Ask one person to check your work before calling it done."
+      },
+      "original": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      },
+      "gate": "pass"
+    }
+  ]
+}

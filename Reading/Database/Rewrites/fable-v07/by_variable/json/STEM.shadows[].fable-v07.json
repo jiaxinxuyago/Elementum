@@ -1,0 +1,45 @@
+{
+  "$variable": "STEM.shadows[]",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "shadows[1]",
+      "candidate": {
+        "phrase": "Decided in advance",
+        "dim": "second thoughts",
+        "desc": "So much certainty comes off you that every question meets the same edge. The friend who changed and the plan with a better version both get the cut you decided on before they arrived. What this shuts out is news, and the people who bring it."
+      },
+      "original": {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "shadows[3]",
+      "candidate": {
+        "phrase": "Still getting ready",
+        "dim": "starting",
+        "desc": "All of it goes in, and the cut keeps getting put off until you understand a little more. Another book, another quiet evening turning it over, and the thing you were sharpening for is still uncut. It shuts out the one mistake you would have learned from by now."
+      },
+      "original": {
+        "phrase": "Overprepared",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+      },
+      "gate": "pass"
+    }
+  ]
+}

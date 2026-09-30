@@ -1,0 +1,58 @@
+{
+  "$archetype": "金_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "金_劫财",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "Keeps score"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Keeps score",
+            "angles": {
+              "cost_others": "You turn the people nearest you into the ones you measure against. More Metal sits in your chart than one life spends, so surplus edge hunts for another edge. You share the stake and count who put in more, or split it clean and count anyway. The friend pays the tally without ever seeing it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutthroat",
+            "angles": {
+              "cost_others": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Cutthroat"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      null,
+      null,
+      "the Rival's comparison as fuel: the friend counted against, the private tally paid by them"
+    ]
+  }
+}

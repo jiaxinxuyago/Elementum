@@ -1,0 +1,66 @@
+{
+  "$archetype": "金_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_火",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Steel is only steel because something burned it first. In the forge the metal goes soft and, for a while, obedient, and the hammer gives it the shape it will keep for a hundred years. Take the fire away and the ore stays ore, hard in the wrong places and useless for anything fine. The saying is that fire overcomes metal. It is truer to say fire finishes it.",
+      "catalyst_turn": "With too little Fire, the steel goes unworked: an edge sure of its shape, with nothing to test it. Take on one thing this year that could fail in public."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The steel goes unworked: an edge sure of its shape, with nothing to test it.",
+        "remedy": "Take on one thing this year that could fail in public."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is heat the edge answers to. Crisis pulls at you and makes you clearest when everything is on fire, at the cost of quiet weeks you cannot sit through, while the wish for a place keeps you inside the rules and costs you the step outside.",
+      "advise_catalyst": "An edge nobody has tested is a guess about yourself. Enter one thing a year with a judge in it, a race, an exam, a review by someone senior. Take the deadline you are not sure you can make. Let one person tell you, to your face, what you got wrong this month."
+    },
+    "cta_verdict": "Pressure is what puts you in order, so the worst version of you usually shows up when nothing is being asked of you."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+        "remedy": "Take the demanding role, the audit, the arena."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+      "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+    },
+    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "Fire tames Metal, the forge softens the blade: heat as the thing that gives steel its finished shape",
+      "catalyst_turn": "Fire scarce on the Blade: the edge that was never worked, sure of its shape, untested"
+    },
+    "carry": {
+      "catalyst": "cut from the catalyst turn's image clause and its directive"
+    },
+    "function": {
+      "definition_catalyst": "the General's pull toward the crisis (priced in quiet weeks) and the Magistrate's wish for a place (priced in the step outside)",
+      "advise_catalyst": "Channel on the Overfueled band, Fire wanted: enter, take, be judged; no prescription on the catalyst pole"
+    },
+    "cta_verdict": "Fire as the Blade's Order on either pole: heat is what makes a rule hold"
+  }
+}

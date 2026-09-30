@@ -1,0 +1,16 @@
+{
+  "$variable": "STEM.dm_overview",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "dm_overview",
+      "candidate": "The Blade is Metal in its yang form, the ore that went into the forge soft and came out with an edge. Its season is autumn, when the year stops growing things and starts choosing which of them to keep. Steel like this does one job. It cuts, once, and the cut stays cut. Left alone it wants nothing, asks nothing, and rusts only where it was never used. A sword hung over a doorway keeps the whole house honest without saying a word.",
+      "original": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+      "gate": "pass"
+    }
+  ]
+}

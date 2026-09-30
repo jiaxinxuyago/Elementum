@@ -1,0 +1,56 @@
+{
+  "$archetype": "金_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "金_比肩",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "Won't bend"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Won't bend",
+            "angles": {
+              "drive": "You measure yourself against yourself, and nobody else gets a vote. Metal fills your chart beyond what one day spends, so the surplus goes into holding form. You keep the standard and stay the only one you trust, or you let it slip and learn who else you could. The standard usually wins."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Sealed-off"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the Twin's standard held to oneself: the line that will not bend, priced in matching company"
+    ]
+  }
+}

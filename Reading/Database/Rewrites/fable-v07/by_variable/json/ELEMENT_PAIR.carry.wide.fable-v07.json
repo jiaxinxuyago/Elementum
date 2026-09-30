@@ -1,0 +1,22 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.wide",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_木",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "You were given plenty of Wood, a whole orchard for one knife to shape.",
+        "remedy": "Prune what is in reach. Finish one before starting the next."
+      },
+      "original": {
+        "clause": "Wood is already here in plenty, the material the knife is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
+      },
+      "gate": "pass"
+    }
+  ]
+}

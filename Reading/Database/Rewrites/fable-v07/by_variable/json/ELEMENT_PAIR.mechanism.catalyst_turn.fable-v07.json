@@ -1,0 +1,23 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.catalyst_turn",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_水",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Water, the blade stays dry: everything you sharpen is kept inside, and nobody gets the use of it. Show one unfinished thing to one person before it is ready.",
+      "original": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Fire, the steel goes unworked: an edge sure of its shape, with nothing to test it. Take on one thing this year that could fail in public.",
+      "original": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+      "gate": "pass"
+    }
+  ]
+}

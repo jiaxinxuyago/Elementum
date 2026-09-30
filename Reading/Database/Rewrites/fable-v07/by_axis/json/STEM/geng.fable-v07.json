@@ -1,0 +1,146 @@
+{
+  "$archetype": "geng",
+  "axis": "STEM",
+  "key": "geng",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "manifesto": "Edge before ornament · You are the Metal that cuts once and means it.",
+    "dm_overview": "The Blade is Metal in its yang form, the ore that went into the forge soft and came out with an edge. Its season is autumn, when the year stops growing things and starts choosing which of them to keep. Steel like this does one job. It cuts, once, and the cut stays cut. Left alone it wants nothing, asks nothing, and rusts only where it was never used. A sword hung over a doorway keeps the whole house honest without saying a word.",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "phrase": "Says it plain",
+        "dim": "everyday giving",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What's in you comes out in plain words and small acts, no speech first. The true sentence, the fixed shelf, the meal nobody asked for, the call made first, and the person is fed before they knew they were hungry. Anyone who wanted it dressed up reads plain as cold, and that is what it costs you."
+      },
+      {
+        "phrase": "Plants and waits",
+        "dim": "slow returns",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "Whatever you take care of grows while you're not looking. A skill kept up, a friend called back, money left alone, all of it comes back bigger than it went in, in its own time. The cost is that quick wins bore you, and you keep working a piece that stopped paying a while ago."
+      },
+      {
+        "phrase": "Better under pressure",
+        "dim": "hard weeks",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "Pressure makes you simpler. When the plan collapses, the bill comes due or someone in the family gets bad news, the noise drops out and you know the next cut. The price is the quiet weeks, when nothing is on fire and you have to be a person anyway."
+      }
+    ],
+    "shadows": [
+      null,
+      {
+        "phrase": "Decided in advance",
+        "dim": "second thoughts",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "So much certainty comes off you that every question meets the same edge. The friend who changed and the plan with a better version both get the cut you decided on before they arrived. What this shuts out is news, and the people who bring it."
+      },
+      null,
+      {
+        "phrase": "Still getting ready",
+        "dim": "starting",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "All of it goes in, and the cut keeps getting put off until you understand a little more. Another book, another quiet evening turning it over, and the thing you were sharpening for is still uncut. It shuts out the one mistake you would have learned from by now."
+      }
+    ]
+  },
+  "$original": {
+    "manifesto": "Precision before intention · You are the Metal that cuts things clean.",
+    "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      }
+    ],
+    "shadows": [
+      null,
+      {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      null,
+      {
+        "phrase": "Overprepared",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+      }
+    ]
+  },
+  "$gate_findings": {
+    "manifesto": "pass",
+    "dm_overview": "pass",
+    "gifts[6]": "pass",
+    "gifts[5]": "pass",
+    "gifts[4]": "pass",
+    "shadows[1]": "pass",
+    "shadows[3]": "pass"
+  },
+  "$trace": {
+    "manifesto": "the spine verb cuts, ranked above what the world puts first (ornament, company), the cost row isolation through honesty",
+    "dm_overview": "yang Metal as forged ore, autumn as the season of deciding, the figure of the sword over the door",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      "金_水.definition_catalyst: what is inside moves outward without forcing and feeds people, priced in plain read as cold",
+      "金_木.definition_catalyst: tended effort compounds and pays back on its own schedule, priced in quick wins and dead work",
+      "金_火.definition_catalyst: pressure organizes rather than scatters, the edge finished in heat, priced in the quiet weeks"
+    ],
+    "shadows": [
+      null,
+      "金_金.carry.excess: so much certainty it cuts everything the same way, shutting out news",
+      null,
+      "金_土.carry.excess: fed past use the edge stalls, the Blade's heavy Earth as stalling never burial, shutting out the learning mistake"
+    ]
+  }
+}

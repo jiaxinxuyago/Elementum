@@ -1,0 +1,58 @@
+{
+  "$archetype": "水_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "水_伤官",
+  "$generated_by": "fable-v07",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Quotable"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Quotable",
+            "angles": {
+              "cost_others": "You say the line that is too good to sit on. Little Water reaches your chart, so what gets out arrives sharp, shaped on the edge first. You aim it at the idea, or at the person holding the idea and call that the same. The person it landed on carries it home."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Silver-tongued",
+            "angles": {
+              "cost_others": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Silver-tongued"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      null,
+      null,
+      "the Virtuoso's brilliance that cannot hold its tongue: the line aimed at the idea or the person, carried home"
+    ]
+  }
+}

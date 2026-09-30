@@ -1,0 +1,60 @@
+{
+  "$variable": "ELEMENT_GOD.fn_reading.catalyst.ledger[]",
+  "$generated_by": "fable-v07-b",
+  "$handoff": "2026-10-01 geng golden v07",
+  "$filed": "2026-09-30",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_正财",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Slow and sure",
+        "text": "Value is something you build and keep, and building is what you like. Wood is plentiful in your chart, so your effort goes where it will still stand in ten years. You save money and love for the long season, or spend both on the quick one. Slow is the price you keep choosing."
+      },
+      "original": {
+        "word": "Cultivating",
+        "angles": {
+          "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.",
+          "cost_self": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced.",
+          "cost_others": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Unforced",
+        "text": "What lives in you gets out without a fight, and it arrives as care. Water is scarce in you, so expression gets served one plate at a time. You feed people because you enjoy it, or so nothing is left to say about yourself. What goes untold is your own story."
+      },
+      "original": {
+        "word": "Fluent",
+        "angles": {
+          "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do.",
+          "cost_self": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+          "cost_others": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Takes charge",
+        "text": "Command comes to you without a title, and you use it before anyone hands it over. Fire is short in you, and the little there is burns where the decision is. You lead because the gap is open, or because standing behind someone feels like defeat. The price is being rarely asked."
+      },
+      "original": {
+        "word": "Decisive",
+        "angles": {
+          "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
+          "cost_self": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+          "cost_others": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+        }
+      },
+      "gate": "pass"
+    }
+  ]
+}

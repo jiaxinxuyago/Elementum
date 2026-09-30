@@ -1,0 +1,216 @@
+{
+ "_generated_by": "fable-v07",
+ "_handoff": "2026-10-01 geng golden v07",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Where a spec says \"candidates\": 2, add \"value_b\" beside \"value\" with a second, different candidate of the same shape (two lines, each inside the frame; the read picks one). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/金_土 + ELEMENT_GOD/土_偏印",
+ "page": "The energy page of Earth (your Mind) for a Metal core, friction pole",
+ "stem": "庚",
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_GOD.adj_chips.md",
+  "cards/ELEMENT_GOD.fn_reading.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 金_土. Core element Metal, energy element Earth. Law: Earth feeds Metal (土生金: ore grows in the mountain). Relative to the core the energy is the feeder, so Earth is this core's Mind.\n- Family personas and ruled domains (the cost domain: the cost is named in these words or in ordinary life, work only where a domain word is work; the definition names one drive per persona, E8): The Alchemist: Learning, Intuition, Solitude · The Sage: Knowledge, Shelter, Nurture\n- mechanism.classic (the sourced epigraph): \"金居石依山，津潤而生\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: \"Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.\"\n- mechanism.friction_turn: [REDACTED: the target field]\n- function.definition_catalyst: \"Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet corners, long walks after hard conversations: whatever feeds it comes back later as judgment.\"\n- function.definition_friction: [REDACTED: the target field]\n- function.advise_catalyst: \"Deep minds underrate their own output, so build the habit of releasing some. Once a month, teach one thing you learned to one person, because explaining it is how you find out it is really yours. Keep one notebook instead of six. And say your slow answer out loud before someone faster says a worse one.\"\n- function.advise_friction: [REDACTED: the target field]\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: {\"clause\":\"The mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms.\",\"remedy\":\"Rest and study are smelting, not stalling.\"}\n- carry.friction: [REDACTED: the target field]\n- carry.wide: {\"clause\":\"You are well supplied with Earth, the ground the ore grows in.\",\"remedy\":\"Use what the ground gave you. Cut something.\"}\n- carry.missing: {\"clause\":\"No ground under the edge: judgment made on the spot, nothing settled in first.\",\"remedy\":\"Borrow ground: a mentor, a book, one slow evening.\"}\n- carry.spared: {\"clause\":\"Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in.\",\"remedy\":\"Keep it that way. Decide, then rest.\"}\n- carry.thin: {\"clause\":\"Earth runs thin and unwanted: a little shelter, easily left.\",\"remedy\":\"Leave it as it is, small.\"}\n- carry.excess: {\"clause\":\"Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.\",\"remedy\":\"Dig out. Less study, one real cut.\"}\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 金赖土生，土多金埋 (生之太过, the Mind door; 土多金埋 applies to 辛, 庚 reads 郁滞).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\n## CELL FACTS\n\nCell 土_偏印 (Earth carrying The Alchemist). Persona The Alchemist (偏印). Definition line: \"Unconventional nourishment, the insight that transmutes\". Keyword Insight, charge fierce, poles catalyst Vision / friction Distance. Family function: Mind. Cost dimension: nourishment that transmutes; fed on strange food, recipe unshareable. Arena: crucible, moon-side, distillation, the changed substance. Classical portrait: unorthodox absorption; solitary mastery; intake that starves output (枭神夺食). Ruled domains: Learning, Intuition, Solitude. Sibling (other polarity of the family): 正印.\nElement arena: Earth (ground, soil, load, field, bedrock, harvest). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Earth generating Metal same-polarity — stability as quiet source of precision\".\n- k2_overview: \"Your Earth carries the Alchemist’s current: nourishment that arrives as understanding rather than comfort. This is ground that reads before it feeds, soil that turns experience over slowly until it becomes insight. It shelters you the way a library shelters, quiet, stocked, slightly apart, and it asks one rent: time alone to do the turning.\"\n- k2_functional: \"Thinking runs deep and sideways. You digest slowly, connect strangely, and surface with conclusions no straight line could have reached.\"\n- adj_chips: {\"catalyst\":[\"Deep-reading\",\"Unhurried\",\"Inventive\"],\"friction\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Learning\":\"Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time. What you learn that way tends to outlast anything you learned for a grade.\",\"Intuition\":\"The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning.\",\"Solitude\":\"Time alone is this energy’s rent, and it collects whether you schedule it or not. Taken on purpose, solitude turns into your best material. Taken by accident, it curdles into distance from the people who were waiting outside the study.\"}\n- fn_reading.friction.ledger (three rows, index-aligned to adj_chips.friction; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1: [REDACTED: the target row]\n  - row 2: [REDACTED: the target row]\n- Sibling cell 土_正印 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Grounding\",\"Enduring\",\"Sustaining\"],\"friction\":[\"Closed-off\",\"Buried\",\"Unmoving\"]}\n- Sibling cell 土_正印 friction row 0 drive passage, for the sibling test on the tension (this row must name a different either-or): \"Your mind trusts its home ground and quietly stopped traveling. The same three sources, the same trusted voices, the same conclusions wearing deeper into the same paths. New input has to marry into the family to be heard. The walls were comfort once. Now they are also the view.\"\n\nChart: golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5). Earth runs 33%: friction, abundant. The page shows the friction pole; its state line is the friction turn. Ledger rows shown: row 0 偏印 · the drive passage, row 1 偏印 · the cost_self passage, row 2 偏印 · the cost_others passage (one angle per row, rotating drive · cost_self · cost_others: the drive, the cost to the reader, the cost to others).",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "element": "Earth",
+    "person": "fully third person, no \"you\", no function claim, no persona",
+    "chemistry": "the field carries one word of the pair's chemistry somewhere in it: Earth's material or Metal's (an arena noun, its verb, or either element as a common noun); the gate blocks without it"
+   },
+   "value": "Ore does not fall from the sky. It forms inside the mountain, where the ground is dense and damp and nothing hurries, and the old texts say the metal is fed there by darkness and by weight. Every blade began as a vein in the rock. The soil that held it gave it its patience, and when the edge is struck at last, the stone is still in it, doing the holding.",
+   "_trace": "Earth feeds Metal, ore grows in the mountain: the ground's weight and patience carried into the struck edge"
+  },
+  "mechanism.friction_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Earth",
+    "notes": "opens on a plain statement of the state in the reader's terms (Earth named, its volume in ordinary words, the reference lead-in \"With too much Earth, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too much Earth, the ore stays in the ground: fed so long that no edge is ever struck from it. Getting ready becomes a place to live. Make one rough cut this week.",
+   "_trace": "Earth in excess on the Blade is stalling, never burial: the ore fed so long it is never struck"
+  },
+  "carry.friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.friction_turn",
+    "notes": "cut from the friction turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The ore stays in the ground: fed so long that no edge is ever struck from it.",
+    "remedy": "Make one rough cut this week."
+   },
+   "_trace": "cut from the friction turn's image clause and its directive"
+  },
+  "function.definition_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 20,
+    "max": 55,
+    "element": "Earth",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it, Earth's material or Metal's (an arena noun or the material's verb: flows, grows, burns, holds, cuts, matched as word stems); the element's name in the opener does not count; the gate blocks without it",
+    "person": "second person",
+    "opener": "Earth is your Mind, and as a friction, it is",
+    "notes": "a concrete-life inventory of what the function does when it overgrows"
+   },
+   "value": "Earth is your Mind, and as a friction, it is ground that keeps taking and gives no edge back. The hunger to understand makes every decision one more thing to learn first, and the need for shelter makes your quiet hours a place to hide. Wise, and still not started.",
+   "_trace": "the Alchemist's hunger to understand and the Sage's need for shelter, each overgrown, the edge never given back"
+  },
+  "ledger[0]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "土_偏印",
+    "persona": "The Alchemist (偏印)",
+    "domains": [
+     "Learning",
+     "Intuition",
+     "Solitude"
+    ],
+    "pole": "friction",
+    "row": 0,
+    "angle": "drive",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "angle": "drive",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Learning, Intuition, Solitude.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, states the mechanism from the chart's supply, names the either-or in the second person, lands briefly on the drive's own price; the screenshot passage",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism stated flat from the chart's supply, the either-or in the reader's second person, the cost from this angle. No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked by the gate); no aphorism close by default. The gate notes a passage with no tension sentence (two clauses in the second person joined by or, but, yet, while, or whether … or not) and a first sentence carrying an object noun outside this persona's domain words; the read decides."
+    }
+   },
+   "value": {
+    "word": "One more source",
+    "text": "Understanding is what you want most, and one more source is its price. Earth piles into your mind faster than the edge spends it, so the next book feels like progress. You read to find the answer, or you read to keep it out of reach. Finding it would end the hunger."
+   },
+   "value_b": {
+    "word": "One more source",
+    "text": "The subject nobody else is studying is the one you cannot leave alone. Earth loads your mind past what the day uses, and the surplus hunts for stranger material. You take it in because it feeds you, or because nobody can check your work there. It fills you, and it never finishes."
+   },
+   "_trace": "intake that starves output: reading as progress, the answer kept out of reach"
+  },
+  "ledger[1]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "土_偏印",
+    "persona": "The Alchemist (偏印)",
+    "domains": [
+     "Learning",
+     "Intuition",
+     "Solitude"
+    ],
+    "pole": "friction",
+    "row": 1,
+    "angle": "cost_self",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "angle": "cost_self",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Learning, Intuition, Solitude.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and spends its last two sentences on what the drive costs the reader, a difficulty, a need or a price, comparative where it helps, never an event and never a picture",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism stated flat from the chart's supply, the either-or in the reader's second person, the cost from this angle. No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked by the gate); no aphorism close by default. The gate notes a passage with no tension sentence (two clauses in the second person joined by or, but, yet, while, or whether … or not) and a first sentence carrying an object noun outside this persona's domain words; the read decides."
+    }
+   },
+   "value": {
+    "word": "Holed-up",
+    "text": "Time alone with the material is how you think, and you guard it. Earth settles in your mind so long that company feels like an interruption. You go quiet to finish the thought, or you go quiet so you never have to show it. The thought keeps improving. The evenings keep emptying."
+   },
+   "_trace": "the Alchemist's solitude for the turning, priced in emptied evenings"
+  },
+  "ledger[2]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "土_偏印",
+    "persona": "The Alchemist (偏印)",
+    "domains": [
+     "Learning",
+     "Intuition",
+     "Solitude"
+    ],
+    "pole": "friction",
+    "row": 2,
+    "angle": "cost_others",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "angle": "cost_others",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Learning, Intuition, Solitude.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and lands on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive, never as what those people say, think or decide, never a chorus",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism stated flat from the chart's supply, the either-or in the reader's second person, the cost from this angle. No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked by the gate); no aphorism close by default. The gate notes a passage with no tension sentence (two clauses in the second person joined by or, but, yet, while, or whether … or not) and a first sentence carrying an object noun outside this persona's domain words; the read decides."
+    }
+   },
+   "value": {
+    "word": "Keeps it unfinished",
+    "text": "You hold back the answer until it is finished, and it never is. Earth keeps loading your mind, one layer under the last. You hand over the rough version and let them use it, or you keep it until it is perfect and hand over nothing. The friend who asked is still waiting."
+   },
+   "_trace": "the distilled answer held back until pure, the friend who asked left waiting"
+  },
+  "function.advise_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "cure_set": [
+     "Wood"
+    ],
+    "remedy_verb": "Channel",
+    "remedy_gloss": "Channel: an outlet, an action that spends the excess (make, ship, say, lift, walk, cut); never a brake (the band's remedy verb, REA_02 §5c; this chart's band is Overfueled)",
+    "notes": "one sentence naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), two, closing on the energy prescription in the energy-manual register (owner 2026-09-29, the beat re-cut 2026-09-30): \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The energy is the subject, a material the reader can hold and use, no life action inside the beat; the element must be in cure_set, never one that feeds this friction; the gate blocks without the \"Seek {Element}, the {Function} energy\" form; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "Understanding is the safest place you own, and safety is the cost. Cook the dish you only read about. Say the half-formed theory out loud to one friend. Seek Wood, the Action energy. Wood grows toward light, and it roots where it stands: a claim staked before the ground is known. Let it spend what Earth stores.",
+   "_trace": "Channel on the Overfueled band, Wood tames Earth, Fire feeds Earth and is never named"
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "candidates": 2,
+    "person": "second person",
+    "pole_neutral": "one verdict per pair, rendered on this page whichever pole the chart shows (this chart shows the friction pole; the other chart shows the other), so it must read true on both: what Earth as your Mind IS, never its state, no heavy, thin, too much, too little, running over, running short",
+    "notes": "explains \"Earth is your Mind\": a behavioural truth plus ONE tendency-framed consequence beat, true on either pole"
+   },
+   "value": "Your mind learns by sitting with a thing until it settles, so the answer you trust most is usually the one you gave last.",
+   "value_b": "You learn slowly and for keeps, so the questions people bring you are the ones that need time more than speed.",
+   "_trace": "Earth as the slow keeping Mind on either pole: what settles becomes judgment"
+  }
+ }
+}

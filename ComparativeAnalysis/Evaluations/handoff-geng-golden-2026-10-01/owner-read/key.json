@@ -1,0 +1,230 @@
+{
+ "Q01": {
+  "A": "original",
+  "B": "fable-v07",
+  "C": "fable-v07-b"
+ },
+ "Q02": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q03": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q04": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q05": {
+  "A": "fable-v07-b",
+  "B": "original",
+  "C": "fable-v07"
+ },
+ "Q06": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q07": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q08": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q09": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q10": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q11": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q12": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q13": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q14": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q15": {
+  "A": "fable-v07-b",
+  "B": "original",
+  "C": "fable-v07"
+ },
+ "Q16": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q17": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q18": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q19": {
+  "A": "fable-v07-b",
+  "B": "original",
+  "C": "fable-v07"
+ },
+ "Q20": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q21": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q22": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q23": {
+  "A": "fable-v07-b",
+  "B": "fable-v07",
+  "C": "original"
+ },
+ "Q24": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q25": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q26": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q27": {
+  "A": "original",
+  "B": "fable-v07",
+  "C": "fable-v07-b"
+ },
+ "Q28": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q29": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q30": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q31": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q32": {
+  "A": "fable-v07-b",
+  "B": "original",
+  "C": "fable-v07"
+ },
+ "Q33": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q34": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q35": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q36": {
+  "A": "fable-v07",
+  "B": "fable-v07-b",
+  "C": "original"
+ },
+ "Q37": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q38": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q39": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q40": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q41": {
+  "A": "fable-v07",
+  "B": "fable-v07-b",
+  "C": "original"
+ },
+ "Q42": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q43": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q44": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q45": {
+  "A": "fable-v07",
+  "B": "fable-v07-b",
+  "C": "original"
+ },
+ "Q46": {
+  "A": "fable-v07",
+  "B": "original"
+ },
+ "Q47": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q48": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q49": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q50": {
+  "A": "fable-v07-b",
+  "B": "original",
+  "C": "fable-v07"
+ },
+ "Q51": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q52": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q53": {
+  "A": "original",
+  "B": "fable-v07"
+ },
+ "Q54": {
+  "A": "fable-v07",
+  "B": "original",
+  "C": "fable-v07-b"
+ }
+}
