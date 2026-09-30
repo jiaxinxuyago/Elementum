@@ -18,8 +18,8 @@
         "ledger": [
           {
             "word": "Well connected",
-            "doors": {
-              "outside": "People can bring you one project and find a second use for a skill you mention along the way. Your work branches through those exchanges. A contact can matter beyond the task that first brought you together, even if the connection takes time to become useful."
+            "angles": {
+              "cost_others": "People can bring you one project and find a second use for a skill you mention along the way. Your work branches through those exchanges. A contact can matter beyond the task that first brought you together, even if the connection takes time to become useful."
             }
           }
         ]
@@ -32,8 +32,8 @@
         "ledger": [
           {
             "word": "Wide-branching",
-            "doors": {
-              "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            "angles": {
+              "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
             }
           }
         ]

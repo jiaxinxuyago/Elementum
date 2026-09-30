@@ -18,8 +18,8 @@
         "ledger": [
           {
             "word": "Wide-branching",
-            "doors": {
-              "outside": "People working on different projects can find a useful link through you. A conversation about a shop becomes a use for a skill from somewhere else. You follow that possibility. Your reach can give separate efforts a shared purpose, though the work nearest you still needs its share of attention."
+            "angles": {
+              "cost_others": "People working on different projects can find a useful link through you. A conversation about a shop becomes a use for a skill from somewhere else. You follow that possibility. Your reach can give separate efforts a shared purpose, though the work nearest you still needs its share of attention."
             }
           }
         ]
@@ -32,8 +32,8 @@
         "ledger": [
           {
             "word": "Wide-branching",
-            "doors": {
-              "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            "angles": {
+              "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
             }
           }
         ]

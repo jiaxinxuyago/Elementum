@@ -19,14 +19,14 @@
         "ledger": [
           {
             "word": "Cultivating",
-            "doors": {
-              "trait": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+            "angles": {
+              "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
             }
           },
           {
             "word": "Compounding",
-            "doors": {
-              "scene": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
+            "angles": {
+              "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
             }
           }
         ]
@@ -39,14 +39,14 @@
         "ledger": [
           {
             "word": "Cultivating",
-            "doors": {
-              "trait": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+            "angles": {
+              "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
             }
           },
           {
             "word": "Compounding",
-            "doors": {
-              "scene": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
+            "angles": {
+              "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
             }
           }
         ]

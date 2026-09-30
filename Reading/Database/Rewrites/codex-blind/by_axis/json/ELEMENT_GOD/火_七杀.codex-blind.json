@@ -20,20 +20,20 @@
         "ledger": [
           {
             "word": "Decisive",
-            "doors": {
-              "trait": "Pressure makes the next necessary choice plain to you. When a plan breaks down, you can name what must happen before the rest can matter. The list gets shorter. Your attention gathers around the task at hand, though a clear choice still leaves you responsible for its cost."
+            "angles": {
+              "drive": "Pressure makes the next necessary choice plain to you. When a plan breaks down, you can name what must happen before the rest can matter. The list gets shorter. Your attention gathers around the task at hand, though a clear choice still leaves you responsible for its cost."
             }
           },
           {
             "word": "Daring",
-            "doors": {
-              "scene": "At four in the afternoon, the meeting is stalled over a rough plan on the screen. You offer to try the part that has no proven answer. It is a small test. Taking responsibility gives your heat a purpose, even while the result remains uncertain and the usual instructions fall short."
+            "angles": {
+              "cost_self": "At four in the afternoon, the meeting is stalled over a rough plan on the screen. You offer to try the part that has no proven answer. It is a small test. Taking responsibility gives your heat a purpose, even while the result remains uncertain and the usual instructions fall short."
             }
           },
           {
             "word": "Crisis-ready",
-            "doors": {
-              "outside": "Others can turn to you when a shared plan fails and the next step needs someone to own it. You put names beside tasks and ask what can happen now. The list is short. The pressure gives you a clear role, which can make quieter days harder to settle into."
+            "angles": {
+              "cost_others": "Others can turn to you when a shared plan fails and the next step needs someone to own it. You put names beside tasks and ask what can happen now. The list is short. The pressure gives you a clear role, which can make quieter days harder to settle into."
             }
           }
         ]
@@ -46,20 +46,20 @@
         "ledger": [
           {
             "word": "Decisive",
-            "doors": {
-              "trait": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
+            "angles": {
+              "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
             }
           },
           {
             "word": "Daring",
-            "doors": {
-              "scene": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes."
+            "angles": {
+              "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes."
             }
           },
           {
             "word": "Crisis-ready",
-            "doors": {
-              "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+            "angles": {
+              "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
             }
           }
         ]

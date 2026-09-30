@@ -18,8 +18,8 @@
         "ledger": [
           {
             "word": "Cutthroat",
-            "doors": {
-              "outside": "Your partners can end up keeping score just to protect their part of a shared task. When credit becomes a prize, even a simple exchange needs careful terms. Winning the larger share can cost the ease of working beside someone who has a stake equal to yours."
+            "angles": {
+              "cost_others": "Your partners can end up keeping score just to protect their part of a shared task. When credit becomes a prize, even a simple exchange needs careful terms. Winning the larger share can cost the ease of working beside someone who has a stake equal to yours."
             }
           }
         ]
@@ -32,8 +32,8 @@
         "ledger": [
           {
             "word": "Cutthroat",
-            "doors": {
-              "outside": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+            "angles": {
+              "cost_others": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
             }
           }
         ]

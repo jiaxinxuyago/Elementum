@@ -19,14 +19,14 @@
         "ledger": [
           {
             "word": "Shuts people out",
-            "doors": {
-              "trait": "Needing someone feels too close to handing over your judgment. You keep the difficult part to yourself, then offer a finished answer that gives other people little to work with. Help has to arrive already shaped to your standard, so even a kind offer can meet a closed hand."
+            "angles": {
+              "drive": "Needing someone feels too close to handing over your judgment. You keep the difficult part to yourself, then offer a finished answer that gives other people little to work with. Help has to arrive already shaped to your standard, so even a kind offer can meet a closed hand."
             }
           },
           {
             "word": "Rigid",
-            "doors": {
-              "scene": "At ten, an invitation sits beside the schedule you wrote for the evening. You can keep every planned task and still have time for nothing that arrived unplanned. Crossing out a line feels harder than turning down the company, even when the rule has little left to protect."
+            "angles": {
+              "cost_self": "At ten, an invitation sits beside the schedule you wrote for the evening. You can keep every planned task and still have time for nothing that arrived unplanned. Crossing out a line feels harder than turning down the company, even when the rule has little left to protect."
             }
           }
         ]
@@ -39,14 +39,14 @@
         "ledger": [
           {
             "word": "Sealed-off",
-            "doors": {
-              "trait": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
+            "angles": {
+              "drive": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
             }
           },
           {
             "word": "Rigid",
-            "doors": {
-              "scene": "A friend was in town for one evening, the first in three years. Lights out at eleven held anyway, the way it held through the fever, the way it holds through everything. You slept on schedule and lay there knowing exactly what the schedule had cost."
+            "angles": {
+              "cost_self": "A friend was in town for one evening, the first in three years. Lights out at eleven held anyway, the way it held through the fever, the way it holds through everything. You slept on schedule and lay there knowing exactly what the schedule had cost."
             }
           }
         ]

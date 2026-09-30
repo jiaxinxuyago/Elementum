@@ -20,20 +20,20 @@
         "ledger": [
           {
             "word": "Hard to reach",
-            "doors": {
-              "trait": "Private thought takes so much of your attention that contact becomes another interruption to put off. An unusual idea can keep you at your desk while a reply waits on the phone. The ground keeps taking things in, and less of what grows there reaches anyone else."
+            "angles": {
+              "drive": "Private thought takes so much of your attention that contact becomes another interruption to put off. An unusual idea can keep you at your desk while a reply waits on the phone. The ground keeps taking things in, and less of what grows there reaches anyone else."
             }
           },
           {
             "word": "Brooding",
-            "doors": {
-              "scene": "At eleven, a sentence in a message can keep you beside an open notebook, turning over what else it might mean. Each reading adds another layer. The page fills, but the message stays the same length, and sleep has to wait for a thought that keeps finding new work."
+            "angles": {
+              "cost_self": "At eleven, a sentence in a message can keep you beside an open notebook, turning over what else it might mean. Each reading adds another layer. The page fills, but the message stays the same length, and sleep has to wait for a thought that keeps finding new work."
             }
           },
           {
             "word": "Overprepared",
-            "doors": {
-              "outside": "People can get a careful explanation of your project before they can see a first version. There is another angle to explore, another book that could change the plan. Waiting protects the idea from a rough attempt. It also leaves other people with very little they can use."
+            "angles": {
+              "cost_others": "People can get a careful explanation of your project before they can see a first version. There is another angle to explore, another book that could change the plan. Waiting protects the idea from a rough attempt. It also leaves other people with very little they can use."
             }
           }
         ]
@@ -46,20 +46,20 @@
         "ledger": [
           {
             "word": "Withdrawn",
-            "doors": {
-              "trait": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+            "angles": {
+              "drive": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
             }
           },
           {
             "word": "Brooding",
-            "doors": {
-              "scene": "It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you."
+            "angles": {
+              "cost_self": "It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you."
             }
           },
           {
             "word": "Overprepared",
-            "doors": {
-              "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+            "angles": {
+              "cost_others": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
             }
           }
         ]

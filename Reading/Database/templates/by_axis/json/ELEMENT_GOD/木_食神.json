@@ -66,26 +66,26 @@
         "ledger": [
           {
             "word": "Fruitful",
-            "doors": {
-              "trait": "Your output ripens naturally and keeps coming. The dinners, the small gifts, the finished little projects: none announced, all delivered, season after season. Where others sprint and stall, you simply bear, and the people around you have quietly reorganized their lives around the harvest.",
-              "scene": "The sourdough starter you keep has fed four households and outlived two of their marriages. Every week, loaves leave your kitchen without ceremony. Somebody once totaled a year of your giving on a napkin and stopped counting at a number that embarrassed everyone present.",
-              "outside": "People inventory what you produce only when you are sick for a month and the flow stops: the meals, the favors, the small repairs, the cards that arrive on time. The gap teaches them the size of the tree. You recover, and it resumes, unremarked."
+            "angles": {
+              "drive": "Your output ripens naturally and keeps coming. The dinners, the small gifts, the finished little projects: none announced, all delivered, season after season. Where others sprint and stall, you simply bear, and the people around you have quietly reorganized their lives around the harvest.",
+              "cost_self": "The sourdough starter you keep has fed four households and outlived two of their marriages. Every week, loaves leave your kitchen without ceremony. Somebody once totaled a year of your giving on a napkin and stopped counting at a number that embarrassed everyone present.",
+              "cost_others": "People inventory what you produce only when you are sick for a month and the flow stops: the meals, the favors, the small repairs, the cards that arrive on time. The gap teaches them the size of the tree. You recover, and it resumes, unremarked."
             }
           },
           {
             "word": "Mellow",
-            "doors": {
-              "trait": "Your temperament arrived pre-softened. Provocations land in you like stones in deep grass, absorbed without ceremony. People bring you their sharp edges and leave with them slightly rounded, and nobody, including you, can point to the moment the rounding happened.",
-              "scene": "The road-rage incident happened entirely in the other car. You waved, genuinely unbothered, and finished the podcast. Your passenger spent ten minutes processing the injustice. You offered them a mint. By the destination they were laughing, and could not reconstruct why they had cared.",
-              "outside": "Tense situations get scheduled around your availability, informally, because things just go softer with you in the region. Nobody calls it a skill, which suits you. The mediator titles go to louder people. The actual mediating, most weeks, happens near the mint supply."
+            "angles": {
+              "drive": "Your temperament arrived pre-softened. Provocations land in you like stones in deep grass, absorbed without ceremony. People bring you their sharp edges and leave with them slightly rounded, and nobody, including you, can point to the moment the rounding happened.",
+              "cost_self": "The road-rage incident happened entirely in the other car. You waved, genuinely unbothered, and finished the podcast. Your passenger spent ten minutes processing the injustice. You offered them a mint. By the destination they were laughing, and could not reconstruct why they had cared.",
+              "cost_others": "Tense situations get scheduled around your availability, informally, because things just go softer with you in the region. Nobody calls it a skill, which suits you. The mediator titles go to louder people. The actual mediating, most weeks, happens near the mint supply."
             }
           },
           {
             "word": "Tending",
-            "doors": {
-              "trait": "You express care by making things comfortable around people. The blanket appears before anyone said cold, the kettle is on before the knock, the leftovers go home in containers with the right lids. Nobody calls it expression. It is your entire vocabulary.",
-              "scene": "While house-sitting, you left the place cozier than you found it: the reading lamp moved to where the light actually falls, the good mugs brought forward, soup in the freezer with a dated label. The owners noticed for three weeks, one small comfort at a time.",
-              "outside": "People relax in spaces you have touched and cannot say why. The guest who slept over once still mentions the bedside water. Comfort follows you into other people’s houses and stays after you leave, which is a strange, real talent, and completely unlisted."
+            "angles": {
+              "drive": "You express care by making things comfortable around people. The blanket appears before anyone said cold, the kettle is on before the knock, the leftovers go home in containers with the right lids. Nobody calls it expression. It is your entire vocabulary.",
+              "cost_self": "While house-sitting, you left the place cozier than you found it: the reading lamp moved to where the light actually falls, the good mugs brought forward, soup in the freezer with a dated label. The owners noticed for three weeks, one small comfort at a time.",
+              "cost_others": "People relax in spaces you have touched and cannot say why. The guest who slept over once still mentions the bedside water. Comfort follows you into other people’s houses and stays after you leave, which is a strange, real talent, and completely unlisted."
             }
           }
         ]
@@ -94,26 +94,26 @@
         "ledger": [
           {
             "word": "Overripe",
-            "doors": {
-              "trait": "Your gifts sat on the branch past their moment. The talent is real and increasingly historical: the almost-finished album, the recipe book everyone requested a decade ago, the sweetness starting to ferment into stories about what nearly happened. The season did not end. It just stopped being picked.",
-              "scene": "You played the old demo for the young cousin, who was impressed and then asked, without cruelty, when it was recorded. The date was fourteen years ago. There is a newer song, technically. It has been almost done since the phone that recorded it was new.",
-              "outside": "People still introduce you by your potential, and the introduction has begun to age in the middle. Everyone remembers the brilliance and awaits the shipment. The awaiting has developed rituals, gentler each year, the way families adjust their questions around a harvest that keeps being next season."
+            "angles": {
+              "drive": "Your gifts sat on the branch past their moment. The talent is real and increasingly historical: the almost-finished album, the recipe book everyone requested a decade ago, the sweetness starting to ferment into stories about what nearly happened. The season did not end. It just stopped being picked.",
+              "cost_self": "You played the old demo for the young cousin, who was impressed and then asked, without cruelty, when it was recorded. The date was fourteen years ago. There is a newer song, technically. It has been almost done since the phone that recorded it was new.",
+              "cost_others": "People still introduce you by your potential, and the introduction has begun to age in the middle. Everyone remembers the brilliance and awaits the shipment. The awaiting has developed rituals, gentler each year, the way families adjust their questions around a harvest that keeps being next season."
             }
           },
           {
             "word": "Lax",
-            "doors": {
-              "trait": "Standards around you loosen like old elastic. The deadline drifts, the quality bar lowers itself politely, the follow-up follows nothing. Ease was the gift. Unattended, it composted into a comfortable rot that everyone enjoys and nobody thanks later.",
-              "scene": "The client got the draft nine days late with a breezy apology, which worked, as it usually works, until the quarter it stopped working. The lost contract funded someone else’s diligence. You called it their luck. The invoice history calls it something plainer.",
-              "outside": "People adore working with you and quietly duplicate your responsibilities, building small safety nets under everything you carry. The nets catch things weekly. You have never noticed, which is partly the charm and mostly the problem. The adoration is real, and so are the nets."
+            "angles": {
+              "drive": "Standards around you loosen like old elastic. The deadline drifts, the quality bar lowers itself politely, the follow-up follows nothing. Ease was the gift. Unattended, it composted into a comfortable rot that everyone enjoys and nobody thanks later.",
+              "cost_self": "The client got the draft nine days late with a breezy apology, which worked, as it usually works, until the quarter it stopped working. The lost contract funded someone else’s diligence. You called it their luck. The invoice history calls it something plainer.",
+              "cost_others": "People adore working with you and quietly duplicate your responsibilities, building small safety nets under everything you carry. The nets catch things weekly. You have never noticed, which is partly the charm and mostly the problem. The adoration is real, and so are the nets."
             }
           },
           {
             "word": "Overbooked",
-            "doors": {
-              "trait": "Saying no feels like unkindness to you, so you mostly do not. The favor, the shift swap, the third brunch: each yes is warm and small, and together they have booked your life solid. Everyone gets a slice of you. The slices stopped adding up to a person.",
-              "scene": "Saturday holds pottery, the volunteer shift, two standing brunches, and a league you joined to be nice in 2022. You enjoy each one, tiredly. The afternoon you actually wanted, the empty one, has not appeared on the calendar since spring.",
-              "outside": "People know you will say yes, and the knowing shows up in their asks. You are the default babysitter, the fallback host, the covering shift. Nobody means harm. But generosity with no gate gets scheduled by other people, and yours has been for years."
+            "angles": {
+              "drive": "Saying no feels like unkindness to you, so you mostly do not. The favor, the shift swap, the third brunch: each yes is warm and small, and together they have booked your life solid. Everyone gets a slice of you. The slices stopped adding up to a person.",
+              "cost_self": "Saturday holds pottery, the volunteer shift, two standing brunches, and a league you joined to be nice in 2022. You enjoy each one, tiredly. The afternoon you actually wanted, the empty one, has not appeared on the calendar since spring.",
+              "cost_others": "People know you will say yes, and the knowing shows up in their asks. You are the default babysitter, the fallback host, the covering shift. Nobody means harm. But generosity with no gate gets scheduled by other people, and yours has been for years."
             }
           }
         ]

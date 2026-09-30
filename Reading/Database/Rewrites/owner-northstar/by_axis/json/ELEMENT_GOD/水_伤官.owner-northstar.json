@@ -18,8 +18,8 @@
         "ledger": [
           {
             "word": "Silver-tongued",
-            "doors": {
-              "outside": "Listeners can follow your wording past a point they first argued against. You find a different way through the objection, with a turn of phrase that keeps the exchange moving. That skill can help a difficult conversation, though agreement reached smoothly still needs something solid behind it."
+            "angles": {
+              "cost_others": "Listeners can follow your wording past a point they first argued against. You find a different way through the objection, with a turn of phrase that keeps the exchange moving. That skill can help a difficult conversation, though agreement reached smoothly still needs something solid behind it."
             }
           }
         ]
@@ -32,8 +32,8 @@
         "ledger": [
           {
             "word": "Silver-tongued",
-            "doors": {
-              "outside": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+            "angles": {
+              "cost_others": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
             }
           }
         ]

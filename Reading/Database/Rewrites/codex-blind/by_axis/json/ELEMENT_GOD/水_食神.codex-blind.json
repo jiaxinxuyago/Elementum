@@ -19,14 +19,14 @@
         "ledger": [
           {
             "word": "Fluent",
-            "doors": {
-              "trait": "You find words by letting a thought run its course. A story told over tea takes shape as you speak, without a plan for making anyone agree. The words keep coming. Ease lets you offer what you know before the effort of performing gets in the way."
+            "angles": {
+              "drive": "You find words by letting a thought run its course. A story told over tea takes shape as you speak, without a plan for making anyone agree. The words keep coming. Ease lets you offer what you know before the effort of performing gets in the way."
             }
           },
           {
             "word": "Nourishing",
-            "doors": {
-              "scene": "At seven in the evening, a pot is on the stove while a friend talks through a difficult day. You stir and listen. A small meal gives the conversation an easy pace, and care takes a form that can be shared without asking anyone to explain what they need."
+            "angles": {
+              "cost_self": "At seven in the evening, a pot is on the stove while a friend talks through a difficult day. You stir and listen. A small meal gives the conversation an easy pace, and care takes a form that can be shared without asking anyone to explain what they need."
             }
           }
         ]
@@ -39,14 +39,14 @@
         "ledger": [
           {
             "word": "Fluent",
-            "doors": {
-              "trait": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
+            "angles": {
+              "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
             }
           },
           {
             "word": "Nourishing",
-            "doors": {
-              "scene": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
+            "angles": {
+              "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
             }
           }
         ]

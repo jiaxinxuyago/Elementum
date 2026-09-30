@@ -19,14 +19,14 @@
         "ledger": [
           {
             "word": "Fluent",
-            "doors": {
-              "trait": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
+            "angles": {
+              "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
             }
           },
           {
             "word": "Nourishing",
-            "doors": {
-              "scene": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
+            "angles": {
+              "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
             }
           }
         ]
@@ -39,14 +39,14 @@
         "ledger": [
           {
             "word": "Fluent",
-            "doors": {
-              "trait": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
+            "angles": {
+              "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
             }
           },
           {
             "word": "Nourishing",
-            "doors": {
-              "scene": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
+            "angles": {
+              "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time."
             }
           }
         ]

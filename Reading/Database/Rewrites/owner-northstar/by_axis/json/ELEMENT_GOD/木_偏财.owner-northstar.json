@@ -18,8 +18,8 @@
         "ledger": [
           {
             "word": "Wide-branching",
-            "doors": {
-              "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            "angles": {
+              "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
             }
           }
         ]
@@ -32,8 +32,8 @@
         "ledger": [
           {
             "word": "Wide-branching",
-            "doors": {
-              "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            "angles": {
+              "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
             }
           }
         ]
