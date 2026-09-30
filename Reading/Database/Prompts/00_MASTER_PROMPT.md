@@ -36,20 +36,20 @@ Carved lines and portraits speak TO the reader (You). The ledger speaks OF the e
 
 ### The sanctioned image fields (the Angle Map)
 
-Each nature owns one cost dimension and one arena, and draws imagery from that arena only. Cross-arena imagery is a violation, and no staging phrase may repeat across natures.
+Each nature owns one cost dimension and one arena, and draws imagery from that arena only. Cross-arena imagery is a violation, and no staging phrase may repeat across natures. The rhythm temperament per nature stays in REA_16 §2b as guidance (the harness prints it beside the rhythm note, B2); it is not a benchmark axis and does not sit in this table (owner 2026-10-01).
 
-| Nature | Cost dimension | Arena | Rhythm |
-|---|---|---|---|
-| 甲 The Oak | Momentum: moving before ready, gone before the finish | open ground, weather, seasons, height, light believed in, setting off | forward-leaning clauses, endings arriving early |
-| 乙 The Vine | Underestimation: resilience read as ease or luck | walls, wind, gardens, gaps, ladders, the long way around | supple winding sentences landing somewhere unexpected |
-| 丙 The Sun | Depletion: output constant, refueling unlearned | light, day, sky, warmth, fuel, morning, eclipse | generous open clauses, then one bare short sentence |
-| 丁 The Candle | Narrowness: one thing lit completely, everything else dark | night, close distance, small light, one circle, the dark just outside | intimate close-range lines, small words, held steady |
-| 戊 The Mountain | Weight: holding what others set down | ground, load, weather-bearing, leaning, inches and decades | slow declaratives, weight in the nouns |
-| 己 The Field | Season-giving: soil spent on other people's growth | soil, seasons, harvest, ground given, growing | patient roundish sentences, the cost arriving late |
-| 庚 The Blade | Isolation through honesty | edge, cut, blade, steel, forge, whetstone, clean line | short hard declaratives, clean stops, no ornament |
-| 辛 The Jewel | The inward standard: never feeling finished | pressure, polish, the flaw, facets, light through stone | precise small-scale sentences, one exact word |
-| 壬 The Ocean | Containment: carrying more than can be surfaced | depth, current, tide, shoreline, fathoms, distance | long submerged clauses surfacing rarely |
-| 癸 The Rain | Porousness: absorbing everything, losing the border of self | weather, rain, ground, seep, roots, the green after | soft accumulating clauses, edges dissolving |
+| Nature | Cost dimension | Arena |
+|---|---|---|
+| 甲 The Oak | Momentum: moving before ready, gone before the finish | open ground, weather, seasons, height, light believed in, setting off |
+| 乙 The Vine | Underestimation: resilience read as ease or luck | walls, wind, gardens, gaps, ladders, the long way around |
+| 丙 The Sun | Depletion: output constant, refueling unlearned | light, day, sky, warmth, fuel, morning, eclipse |
+| 丁 The Candle | Narrowness: one thing lit completely, everything else dark | night, close distance, small light, one circle, the dark just outside |
+| 戊 The Mountain | Weight: holding what others set down | ground, load, weather-bearing, leaning, inches and decades |
+| 己 The Field | Season-giving: soil spent on other people's growth | soil, seasons, harvest, ground given, growing |
+| 庚 The Blade | Isolation through honesty | edge, cut, blade, steel, forge, whetstone, clean line |
+| 辛 The Jewel | The inward standard: never feeling finished | pressure, polish, the flaw, facets, light through stone |
+| 壬 The Ocean | Containment: carrying more than can be surfaced | depth, current, tide, shoreline, fathoms, distance |
+| 癸 The Rain | Porousness: absorbing everything, losing the border of self | weather, rain, ground, seep, roots, the green after |
 
 The protected spine, which no line may blur: 甲 rises · 乙 routes · 丙 radiates · 丁 concentrates · 戊 holds · 己 receives and grows · 庚 cuts · 辛 refines · 壬 ranges · 癸 permeates.
 
@@ -103,3 +103,4 @@ A chip names the lived pattern the person recognises in themselves, and the law 
 | 2026-10-01 | The example-source paragraph becomes the cost domain | owner 2026-10-01, Q3 of the v0.7 questionnaire (REA_16 §6) |
 | 2026-10-01 | The vocabulary law names the clinical terms it bans and frees the plain psychological lexicon on descriptive fields; the intensifier tier joins the hollow affirmations; the concrete-noun law scoped to the base and P4 | owner 2026-10-01, Q8 of the v0.7 questionnaire (REA_16 §6) |
 | 2026-10-01 | The ordinary sentence is the mechanism sentence, stated flat from the supply; check-list item 11 | owner 2026-10-01, Q9 of the v0.7 questionnaire (REA_16 §6) |
+| 2026-10-01 | The Angle Map's Rhythm column leaves the master prompt's table (it stays in REA_16 §2b and the harness's rhythm note) | owner 2026-10-01, Q10 of the v0.7 questionnaire (REA_16 §6) |

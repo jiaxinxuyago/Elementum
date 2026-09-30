@@ -1,13 +1,13 @@
 {
-  "_note": "The shape of the operator's targets.json for handoff.mjs --pass targeted --targets <file> (owner 2026-09-30, H8). One entry per skeleton file, one per field path: axis is one of door, arena, cadence, four-question (the four the 2026-09-23 round scored on; a fifth is not added without a ruling), beat is the operator's one sentence on what the current line fails on that axis, written from the read (the analysis's per-field notes and the owner's notes). The beat never quotes the line: the current sentence is withheld, and the reuse check blocks a four-word run of it. The cases below are the 2026-09-23 round's own.",
+  "_note": "The shape of the operator's targets.json for handoff.mjs --pass targeted --targets <file> (owner 2026-09-30, H8; the axes re-cut 2026-10-01, Q10 of the v0.7 questionnaire). One entry per skeleton file, one per field path: axis is one of tension, cost, vocabulary, four-question (a fifth is not added without a ruling), beat is the operator's one sentence on what the current line fails on that axis, written from the read. The beat never quotes the line: the current sentence is withheld, and the reuse check blocks a four-word run of it. The cases below are the 2026-09-29 north star's own.",
   "energy.金_火.json": {
-    "ledger[2]": { "axis": "door", "beat": "the outside door must open on the reader's own act in the moment and land on what others see or pay; the current line opens from the other side of the table" },
-    "function.advise_catalyst": { "axis": "cadence", "beat": "35 to 45 words, the smallest action last, no sentence over twenty words; the current line ends on its largest action" }
+    "ledger[2]": { "axis": "cost", "beat": "the cost to others must be the reader's own act and what it takes from the people in the General's domain; the current line hands the cost to a chorus and opens on what people can do" },
+    "function.advise_catalyst": { "axis": "four-question", "beat": "the advice must answer what to do on this chart's band with the remedy verb the spec names; the current line is generic across bands" }
   },
   "energy.金_水.json": {
-    "function.definition_catalyst": { "axis": "arena", "beat": "the field must carry Water's chemistry somewhere in it (flow, current, banks); the current line names none" }
+    "ledger[1]": { "axis": "tension", "beat": "the passage must name the Artisan's either-or on Water (feeding others or feeding the feeling of being needed) in the reader's second person; the current line stages a kitchen and names no tension" }
   },
   "P4.geng.json": {
-    "gifts[6]": { "axis": "four-question", "beat": "the chip must name a symptom the reader would catch themselves doing, not a virtue an admirer would name; the current chip is a virtue" }
+    "gifts[6]": { "axis": "vocabulary", "beat": "the desc must name the drive and its cost in plain psychological words at B1 to B2 and never open on a capacity; the current desc opens on what you can do and names no cost" }
   }
 }
