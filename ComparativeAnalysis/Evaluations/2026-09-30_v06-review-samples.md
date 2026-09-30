@@ -65,7 +65,7 @@ A rule that bans any repeated phrase within three sentences kills these. The rep
 
 **The formula, if you rule this register:** `Seek {Element}, the {Function} energy. {Element} {is / does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.` About thirty words, so the advice keeps its truth sentence and two small actions before it.
 
-**The golden advice, whole, re-cut** (59 words): "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Seek Wood, the Action energy. Wood breaks ground: it turns what Earth has stored into a first cut, a step taken before you feel ready. Let it spend what your Mind keeps taking in."
+**The golden advice, whole, re-cut** (60 words): "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour in, one small thing out where someone can see it. Seek Wood, the Action energy. Wood breaks ground: it turns what Earth has stored into a first cut, a step before you feel ready. Let it spend what your Mind stores."
 
 ---
 
