@@ -565,9 +565,9 @@
 
 /* P4 v3 — door marks + the carry card (REA_02 §5h, owner 2026-09-15) */
 .reading .claim.dm-claim{ display:grid; grid-template-columns:1fr auto; gap:10px; align-items:start; }
-.reading /* volume word on the door mark (owner R2 2026-09-16) */
-.dm-door em { font-style: normal; opacity: .7; }
-.dm-door{ display:inline-flex; flex-direction:column; align-items:center; gap:2px; margin-top:3px; min-width:34px; font-family:'Cinzel',serif; font-size:7.5px; letter-spacing:1.2px; text-transform:uppercase; color:var(--inkLight); }
+/* volume word on the door mark (owner R2 2026-09-16) */
+.reading .dm-door em { font-style: normal; opacity: .7; }
+.reading .dm-door{ display:inline-flex; flex-direction:column; align-items:center; gap:2px; margin-top:3px; min-width:34px; font-family:'Cinzel',serif; font-size:7.5px; letter-spacing:1.2px; text-transform:uppercase; color:var(--inkLight); }
 .reading .dm-door i{ display:block; width:22px; height:22px; border-radius:50%; background:var(--bronze); box-shadow:inset 0 0 0 2px rgba(255,255,255,.45); position:relative; }
 .reading .dm-door.metal i, .reading .dm-dot.metal, .reading .dm-track b.metal{ background:var(--metal); }
 .reading .dm-door.earth i, .reading .dm-dot.earth, .reading .dm-track b.earth{ background:var(--earth); }
@@ -579,7 +579,6 @@
 .reading .dm-door.ease i::after{ border-top:6px solid #F8F6F0; margin-top:1px; }
 .reading .dm-door.seek span{ color:var(--up); }
 .reading .dm-door.ease span{ color:var(--down); }
-.reading .dm-poolnote{ font-family:'Cinzel',serif; font-size:7.5px; letter-spacing:1.4px; text-transform:uppercase; color:var(--inkLight); text-align:center; padding:8px 0 6px; }
 
 .reading .dm-carry{ background:rgba(184,154,106,.09); border-color:rgba(184,154,106,.32); }
 .reading .dm-carry .layer-label{ color:var(--earthDeep); }
