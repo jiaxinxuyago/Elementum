@@ -32,5 +32,38 @@
  "Q08": {
   "pick": "B",
   "at": "2026-10-13T22:27:15.872Z"
+ },
+ "Q09": {
+  "pick": "A",
+  "at": "2026-10-13T22:27:50.962Z"
+ },
+ "Q10": {
+  "pick": "B",
+  "at": "2026-10-13T22:31:17.965Z"
+ },
+ "Q11": {
+  "pick": "A",
+  "at": "2026-10-13T22:34:13.896Z"
+ },
+ "Q12": {
+  "pick": "A+B",
+  "note": "split: A's first half (With too much Earth, the ore stays in the ground:) with B's second half (so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.)",
+  "at": "2026-10-13T22:37:46.643Z"
+ },
+ "Q13": {
+  "pick": "A",
+  "at": "2026-10-13T22:38:10.787Z"
+ },
+ "Q18": {
+  "pick": "B",
+  "at": "2026-10-13T22:41:14.013Z"
+ },
+ "Q14": {
+  "pick": "A",
+  "at": "2026-10-13T22:42:24.302Z"
+ },
+ "Q15": {
+  "pick": "B",
+  "at": "2026-10-13T22:43:10.918Z"
  }
 }
