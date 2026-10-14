@@ -736,8 +736,17 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         ))}
                       </div>
                     )}
+                    {/* THE REMEDY (owner 2026-10-14): the advice is sectioned
+                        out under its own label after the ledger. On the
+                        friction pole it is the remedy, opening on the energy
+                        prescription ("Seek Wood, the Action energy."), the
+                        life advice after it; on the catalyst pole it is the
+                        advice, with no prescription. */}
                     {elScreen.fnReading.advise && (
-                      <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
+                      <span className="laylab" style={{ display: 'block', marginTop: 16 }}>{(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? 'THE REMEDY' : 'THE ADVICE'}</span>
+                    )}
+                    {elScreen.fnReading.advise && (
+                      <p className="body2 el-fnbody" style={{ margin: '6px 0 0' }}>{elScreen.fnReading.advise}</p>
                     )}
                   </div>
                 )}
