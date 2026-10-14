@@ -109,3 +109,25 @@ Getting ready suits you better than being judged on what you did. Preparing feel
 ### 水_食神 · The Artisan · catalyst · cost to you (Nourishing) · 52 words
 
 Where you feel most like yourself is taking care of people, and it shows. Being useful is the nearest thing you have to feeling safe, which puts giving ahead of anything you want. Now and then let someone give back, because you can only keep feeding a table that also feeds you.
+
+## Iteration 8 · 2026-10-14 · conciseness: phrases over clauses
+
+The owner's note on the batch 1 examples (all three v0.7.1 lines won over the originals): the sentences run as compounds of two or three clauses. Simplify them into shorter sentences with fewer clauses; prefer a phrase to a clause wherever the clause only carries a logical relation; a trailing "which ..." clause is redundant structure to fold into the main sentence or convert to a phrase (the example: "You trust the version you suffered for more than the one that simply came, which puts a price on what was free."). Content, tone by pole, the progression and the closure unchanged; the causal joint may be implicit when the order of sentences already carries it.
+
+### 金_劫财 · The Rival · friction · cost to others (Keeps score) · 37 words
+
+Before (v0.7.1): Keeping the score even is your way of keeping a friendship honest. Since you count favours instead of simply returning them, you hand the people you love a bill that was never discussed. Remember that you turn their gifts into debts without telling them.
+
+After: Keeping the score even is your way of keeping a friendship honest. You count favours instead of returning them, and the people you love get a bill nobody discussed. Remember that every counted gift becomes a quiet debt.
+
+### 土_偏印 · The Alchemist · friction · cost to others (Never quite ready) · 42 words
+
+Before (v0.7.1): Whenever you owe someone an answer, you give them your preparation instead of the answer. Being ready counts for more with you than being on time, which puts the people who asked on your clock. Remember that you were asked for the rough thing you have, and you keep them waiting on polish.
+
+After: When you owe someone an answer, you give them your preparation instead. Being ready matters more to you than being on time, so the people who asked wait on your clock. Remember that they asked for the rough version, not the polish.
+
+### 水_食神 · The Artisan · catalyst · cost to you (Unforced) · 39 words
+
+Before (v0.7.1): Whenever a thing comes to you without effort, you count it as worth less. You trust the version you suffered for more than the one that simply came, which puts a price on what was free. Let the unforced thing stand as finished, because the strain you add is not quality.
+
+After: Whatever comes to you without effort, you count as worth less. You trust the version you suffered for over the one that simply came. Let the unforced thing stand as finished, because added strain is not added quality.
