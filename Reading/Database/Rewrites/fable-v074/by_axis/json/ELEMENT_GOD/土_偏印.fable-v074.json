@@ -1,0 +1,165 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "fable-v074",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-taught",
+        "Reads between lines",
+        "Solo thinker"
+      ],
+      "friction": [
+        "Never quite ready",
+        "Hard to reach",
+        "Second-guesses"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. Let someone teach you from time to time, since a lesson only you know is lonely.",
+              "cost_self": "Whenever you want to know something, you teach it to yourself instead of asking. Teaching yourself an answer costs you a month where being taught it costs an hour. Ask for the hour sometimes, because you pay for each self-taught month in rest.",
+              "cost_others": "Rarely do you pass on the lesson you taught yourself. You taught it by a route too odd to explain, so you keep the knowing rather than tell it. Hand someone the messy version, because you leave anyone learning from you without the self-taught part."
+            }
+          },
+          {
+            "word": "Reads between lines",
+            "angles": {
+              "drive": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Wait for the reason to catch up, since you cannot pass a hunch on without proof.",
+              "cost_self": "Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so the doubt stays yours. Write the read down, since you pay for every unchecked read in doubt about your own mind.",
+              "cost_others": "Whatever gets left between the lines, you read first and skip asking. Since your read lands before your question, you answer what sits under the words instead of the words. Ask the plain question, because you take from people the chance to say it themselves."
+            }
+          },
+          {
+            "word": "Solo thinker",
+            "angles": {
+              "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Take one invitation you usually turn down, since you give up company for thinking alone.",
+              "cost_self": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. Guard the sleep too, since you take those hours from a night your body needed.",
+              "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. Name the length first, since you give those waiting no time to expect you."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never quite ready",
+            "angles": {
+              "drive": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. Remember that you are ready long before you feel it.",
+              "cost_self": "Getting ready is the part you control, so it is where you stay. You lose nothing today by preparing once more, while you risk everything on a first try. You pay for the readiness, remember, in chances that closed before you felt ready.",
+              "cost_others": "Asked for a quick take, you hand over a prepared one later. Being ready matters more to you than being on time, so you keep people waiting. Keep in mind that you were asked for the rough take and prepared the clean one for yourself."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "Long before anything goes wrong, you are already hard to reach. Taking things in alone, you let yourself be reached on your own schedule rather than anyone else's. Do not forget that you buy the quiet with friendships that wear thin.",
+              "cost_self": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet ahead of company until alone stops being a choice. Worth remembering, you trade being reached for loneliness and feel it only once the quiet ends.",
+              "cost_others": "Going into your head takes you out of people's reach. Since thinking alone beats talking for you, you go a week out of reach over sending one line. It helps to remember that you leave them guessing, and you end it with one answer."
+            }
+          },
+          {
+            "word": "Second-guesses",
+            "angles": {
+              "drive": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. Remind yourself that you usually land where your first read put you, weeks later.",
+              "cost_self": "The second guess is where most of your time goes. Needing to feel certain first, you keep second-guessing a choice after the guessing stops helping. Worth keeping in mind, you second-guess to feel sure rather than be sure, and you lose sleep to the difference.",
+              "cost_others": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You take the plain answer from them, and you know a maybe beats weeks of silence."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. Let someone teach you from time to time, since a lesson only you know is lonely.",
+              "cost_self": "Whenever you want to know something, you teach it to yourself instead of asking. Teaching yourself an answer costs you a month where being taught it costs an hour. Ask for the hour every so often, because you pay for each self-taught month in rest.",
+              "cost_others": "Rarely do you pass on the lesson you taught yourself. You taught it by a route too odd to explain, so you keep the knowing rather than tell it. Hand someone the messy version, because you leave anyone learning from you without the self-taught part."
+            }
+          },
+          {
+            "word": "Reads between lines",
+            "angles": {
+              "drive": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Let the reason catch up before you act, since you cannot pass a hunch on without proof.",
+              "cost_self": "Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so the doubt stays yours. Write the read down, since you pay for every unchecked read in doubt about your own mind.",
+              "cost_others": "Whatever gets left between the lines, you read first and skip asking. Since your read lands before your question, you answer what sits under the words instead of the words. Ask the plain question, because you take from people the chance to say it themselves."
+            }
+          },
+          {
+            "word": "Solo thinker",
+            "angles": {
+              "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Take one invitation you usually turn down, since you give up company for thinking alone.",
+              "cost_self": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. Guard the sleep too, since you take those hours from a night your body needed.",
+              "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. Name the length first, since you give those waiting no time to expect you."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never quite ready",
+            "angles": {
+              "drive": "You wait to feel ready rather than work to be ready, so getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. Remember that you are ready long before you feel it.",
+              "cost_self": "Getting ready is the part you control, so it is where you stay. You lose nothing today by preparing once more, while you risk everything on a first try. You pay for the readiness, remember, in chances that closed before you felt ready.",
+              "cost_others": "Asked for a quick take, you hand over a prepared one later. Being ready matters more to you than being on time, so you keep people waiting. Keep in mind that you were asked for the rough take and prepared the clean one for yourself."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "Long before anything goes wrong, you are already hard to reach. You take things in alone, so you let yourself be reached on your own schedule rather than anyone else's. Do not forget that you buy the quiet with friendships that wear thin.",
+              "cost_self": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet ahead of company until alone stops being a choice. Worth remembering, you trade being reached for loneliness and feel it only once the quiet ends.",
+              "cost_others": "Going into your head takes you out of people's reach. Thinking alone beats talking for you, so you go a week out of reach over sending one line. It helps to remember that you leave them guessing, and you end it with one answer."
+            }
+          },
+          {
+            "word": "Second-guesses",
+            "angles": {
+              "drive": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. Remind yourself that you usually land where your first read put you, weeks later.",
+              "cost_self": "The second guess is where most of your time goes. Needing to feel sure first, you keep second-guessing a choice after the guessing stops helping. Worth keeping in mind, you second-guess to feel sure rather than be sure, and you lose sleep to the difference.",
+              "cost_others": "Second-guessing an answer you already have leaves people waiting on it. Being certain comes first, so you hold the yes or no for weeks rather than give a maybe. You take the plain answer from them, and you know a maybe beats weeks of silence."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-taught",
+        "Reads between lines",
+        "Solo thinker"
+      ],
+      "friction": [
+        "Never quite ready",
+        "Hard to reach",
+        "Second-guesses"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

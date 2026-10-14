@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.friction_turn",
+  "$generated_by": "fable-v074",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Earth, the ore sits in the ground long after it is ready and no edge gets struck from it. Make one thing and let it leave the house.",
+      "original": "With too much Earth, the ore sits in the ground long after it is ready and no edge gets struck from it. Make one thing and let it leave the house.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Wood, the blade goes blunt before the timber is through: every log begun, none of them split. Sleep before you start the next one.",
+      "original": "With too much Wood, the blade goes blunt before the timber is through: so many logs started that none gets split. Sleep before you start the next one.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours.",
+      "original": "With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Fire, the forge runs hotter than the blade can take, and the edge softens under every demand until nothing holds a line. Sleep on the next demand before you answer it.",
+      "original": "With too much Fire, the forge runs hotter than the blade can take, and the edge softens under every demand until nothing holds a line. Sleep on the next demand before you answer it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Metal, the blade grinds on itself with nothing to cut and every argument becomes a test of who holds the harder line. Hand the edge one real job this week.",
+      "original": "With too much Metal, the blade grinds on itself with nothing to cut and every argument becomes a test of who holds the harder line. Hand the edge one real job this week.",
+      "gate": "pass"
+    }
+  ]
+}

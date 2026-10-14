@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_friction",
+  "$generated_by": "fable-v074",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.definition_friction",
+      "candidate": "Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of letting go. Remember that you sit on finished work past its time.",
+      "original": "Your Mind is where the world soaks in and becomes yours. Earth holds it, so nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered ahead of letting go. Remember that you sit on finished work past its time.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "function.definition_friction",
+      "candidate": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Remember that you run out before your plans do.",
+      "original": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, so building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Keep in mind that you run out before your plans do.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.definition_friction",
+      "candidate": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and you give what you meant to keep or say more than you know. Remember that you run empty before you run quiet.",
+      "original": "Your Expression is the gate where inner work becomes outer fact. Water pours it out, so nothing you feel stays in. As a friction, the gate never shuts, so you give more than you keep and say more than you know. Remember that you run empty before you run quiet.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.definition_friction",
+      "candidate": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up until you obey a crisis ahead of rest and a rule over your judgment. Remember you mistake pressure on yourself for discipline.",
+      "original": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so rules reach you. As a friction, pressure piles up, so you obey a crisis ahead of rest and rules ahead of judgment. Remember that you mistake pressure on yourself for discipline.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.definition_friction",
+      "candidate": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. Remember that you trade a peer for each argument won.",
+      "original": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, so you trust your call more than a peer's and fight over every shared stake. Remember that you trade a peer for each argument won.",
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_偏财",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Spots openings",
+        "Quick to start",
+        "Generous"
+      ],
+      "friction": [
+        "Chases the new",
+        "Spread thin",
+        "Spends freely"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spots openings",
+            "angles": {
+              "drive": "You spot a chance early and trust the spotting. With Wood the energy you have least of, you spot the far thing ahead of the close one. Spot one near chance a week with the same care, since the far one keeps."
+            }
+          },
+          {
+            "word": "Quick to start",
+            "angles": {
+              "drive": "You start things early and without fuss, before any plan exists. Since waiting feels like losing time, you start the quick version ahead of the sure one. Start the way you do, and carry one start past where it stops being new."
+            }
+          },
+          {
+            "word": "Generous",
+            "angles": {
+              "drive": "You give before you count, and rarely regret it. Holding back feels like holding your breath, so you give to whoever needs it ahead of your own wants. Let one month have a plan as well, because a plan is how your generosity lasts."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases the new",
+            "angles": {
+              "drive": "The first week of anything is the one you chase. Since the new shows no flaws, you chase it ahead of finishing the old. You know by now that the new has the same flaws waiting, so chasing it costs more than finishing."
+            }
+          },
+          {
+            "word": "Spread thin",
+            "angles": {
+              "drive": "You spread over the next thing as easily as the first. Since every open option feels like safety, you spread across half chances rather than hold a whole one. Do not forget that chances keep coming, and strength for one is what spreading costs."
+            }
+          },
+          {
+            "word": "Spends freely",
+            "angles": {
+              "drive": "You spend money as if it were made to move. Money held back feels like life held back, so you spend it today rather than save for a day you have not met. You already know how early you spend the quiet months."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spots openings",
+            "angles": {
+              "drive": "Spotting openings is what you do before anything is obvious. You carry less Wood than drive to spend, so you spot the far chance sooner than the one in your hand. Spot the near one as carefully, because it is yours to take."
+            }
+          },
+          {
+            "word": "Quick to start",
+            "angles": {
+              "drive": "Starting comes easily to you, often before you finish deciding. Moving is how you feel alive, so you start and learn rather than wait until you are sure. Keep starting freely, and let one start run long enough to teach you its ending."
+            }
+          },
+          {
+            "word": "Generous",
+            "angles": {
+              "drive": "Giving comes more easily to you than keeping, especially money. Being generous keeps the world feeling wide, so you give away a good month rather than save it. Keep giving, and hold one part back, because what you keep is what the giving stands on."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases the new",
+            "angles": {
+              "drive": "Whatever is newest in front of you is what you chase hardest. You have more Wood than strength behind it, so you chase the fresh start ahead of the finish. Keep in mind that the half-done thing behind you was once what you chased."
+            }
+          },
+          {
+            "word": "Spread thin",
+            "angles": {
+              "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. Remember how thin that spreads you, one body over all of them."
+            }
+          },
+          {
+            "word": "Spends freely",
+            "angles": {
+              "drive": "Unspent money feels less real to you than money already gone. Spending keeps life feeling open, so you spend an easy month rather than put any toward a slow one. Bear in mind that you meet the slow month too, with everything already spent."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Spots openings",
+        "Quick to start",
+        "Generous"
+      ],
+      "friction": [
+        "Chases the new",
+        "Spread thin",
+        "Spends freely"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_正印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_正印",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Calming presence",
+        "Knows what works",
+        "Patient teacher"
+      ],
+      "friction": [
+        "Plays it safe",
+        "Overprotective",
+        "Same old answers"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Calming presence",
+            "angles": {
+              "drive": "You calm people more than you ask to be calmed. Calming the people you love makes you feel useful, so you play the calm one, never the calmed one. Hand that part over for an evening, since you stay calm only when someone calms you."
+            }
+          },
+          {
+            "word": "Knows what works",
+            "angles": {
+              "drive": "You keep the answers that worked and shelve the rest. Knowing what has worked matters to you ahead of what is new, so you change your mind slowly. Let one newer answer in each year, because you pay for the kept ones in chances missed."
+            }
+          },
+          {
+            "word": "Patient teacher",
+            "angles": {
+              "drive": "Teaching at the other person's pace comes naturally to you. Because you put their understanding ahead of your speed, you teach it again rather than teach it louder. Let someone teach you slowly once in a while, since you are owed the patience you give."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "You play it safe rather than find out what else there is. Because comfort feels like safety to you, you stay safe with the house you know and change your days slowly. Remember that you can be safe without being small."
+            }
+          },
+          {
+            "word": "Overprotective",
+            "angles": {
+              "drive": "You protect the people close to you before the fall rather than after it. Needing them safe runs deeper than needing them free, so you protect them from the lesson itself. Do remember that you cannot be hurt in someone's place."
+            }
+          },
+          {
+            "word": "Same old answers",
+            "angles": {
+              "drive": "You get the same old answers because you ask the same people. Being told what you already know feels like being held, so you ask agreeing voices rather than arguing ones. Remember, you picked those voices yourself, and you are free to pick one more."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Calming presence",
+            "angles": {
+              "drive": "Your presence calms people before your words do. Since you need people safe rather than impressed, you calm them with the slow question ahead of the fix. Let someone be the calm one for you sometimes, because you need calming as much as anyone."
+            }
+          },
+          {
+            "word": "Knows what works",
+            "angles": {
+              "drive": "Knowing what works comes easier to you than hoping something new will. Because you need an answer to have lasted, you reach for what has worked over what sounds clever. Give a new idea one honest try, since every answer you trust was new once."
+            }
+          },
+          {
+            "word": "Patient teacher",
+            "angles": {
+              "drive": "You teach a thing a third time with the patience of the first. Needing the person to get there, you teach at their pace ahead of your own. Keep one hour a week that teaches nobody, because only you fill your patience back up."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "Playing it safe is a choice you make before looking at the others. You carry Earth past what you need, so you play safe to be held instead of tested. Keep in mind that you rest in the safe place rather than live in it."
+            }
+          },
+          {
+            "word": "Overprotective",
+            "angles": {
+              "drive": "Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. Bear in mind, you take the lesson away with the fall."
+            }
+          },
+          {
+            "word": "Same old answers",
+            "angles": {
+              "drive": "The same old answers are the ones you reach for first. Because you trust a handed-down answer over a new one, you ask the same few voices rather than a stranger. Remind yourself that you kept the answer while the question moved on."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Calming presence",
+        "Knows what works",
+        "Patient teacher"
+      ],
+      "friction": [
+        "Plays it safe",
+        "Overprotective",
+        "Same old answers"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

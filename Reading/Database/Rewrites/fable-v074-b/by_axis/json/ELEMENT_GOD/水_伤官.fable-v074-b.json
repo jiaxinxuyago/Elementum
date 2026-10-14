@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "水_伤官",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Quick-witted",
+        "Original",
+        "Speaks up"
+      ],
+      "friction": [
+        "Overshares",
+        "Mocking",
+        "Picks fights"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Quick-witted",
+            "angles": {
+              "drive": "Wit is what you reach for first and would give up last. Wanting the quick true line said rather than the safe one, you pay more for silence than most people. Say the witty thing, and trust that you know when to hold it."
+            }
+          },
+          {
+            "word": "Original",
+            "angles": {
+              "drive": "The usual way is the one way you cannot bring yourself to do a thing. Because you want the original more than approval, you make the version you were not asked for. Keep making it, since the original is the one you are best at."
+            }
+          },
+          {
+            "word": "Speaks up",
+            "angles": {
+              "drive": "You speak up to the one doing it badly rather than around them. You would sooner be told you are wrong than left guessing, and you speak as plainly as you want to hear it. Stay plain, because speaking up is a kind of respect."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overshares",
+            "angles": {
+              "drive": "Holding a thought in is harder than sharing it. Since being fully known matters to you ahead of being careful, you share the story before telling the person it is about. Remember that you get to keep some things unshared until finished."
+            }
+          },
+          {
+            "word": "Mocking",
+            "angles": {
+              "drive": "Mocking a thing is how you get close to it. You mock rather than say what you feel, so your affection arrives as a dig. You hear the fondness under the mocking more clearly than anyone, and that part is yours to keep."
+            }
+          },
+          {
+            "word": "Picks fights",
+            "angles": {
+              "drive": "Fighting an instruction comes before reading it to the end. Since you would rather be free than right, you fight the very ones you agree with. You spend more on the fight than the rule was worth, and you know it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Quick-witted",
+            "angles": {
+              "drive": "Your wit answers before your care does, and mostly you let it. Since being quick is how you know you are awake, you put the witty answer ahead of the careful one. Let the wit out, because you are kinder with it than you fear."
+            }
+          },
+          {
+            "word": "Original",
+            "angles": {
+              "drive": "Doing a thing the usual way is nearly impossible for you, and only an original one feels done. Since you need things in pieces, you make your own version rather than follow the rule. Let originality count as talent, because it was never a fight."
+            }
+          },
+          {
+            "word": "Speaks up",
+            "angles": {
+              "drive": "Not speaking up about something wrong is almost physically hard for you. You speak up ahead of being liked, because a true sentence left unsaid feels like a lie you took part in. Keep speaking up, since you are usually the only one who will."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overshares",
+            "angles": {
+              "drive": "Whatever you think is already being shared, and the editing happens after. You have more Water than time to settle it, so you share the thought ahead of asking whether it is yours. Keep in mind that you choose what you share, true or not."
+            }
+          },
+          {
+            "word": "Mocking",
+            "angles": {
+              "drive": "Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. Never forget that you mean the fondness more than the mocking lets on."
+            }
+          },
+          {
+            "word": "Picks fights",
+            "angles": {
+              "drive": "Picking a fight with a rule starts before you decide to. Being told what to do feels like being made smaller, so you pick the fight ahead of asking why. It is worth remembering that you pick the fight more often than it picks you."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Quick-witted",
+        "Original",
+        "Speaks up"
+      ],
+      "friction": [
+        "Overshares",
+        "Mocking",
+        "Picks fights"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

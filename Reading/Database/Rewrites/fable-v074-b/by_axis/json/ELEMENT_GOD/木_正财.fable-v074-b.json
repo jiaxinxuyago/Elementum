@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_正财",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Patient builder",
+        "Saves first",
+        "Loyal"
+      ],
+      "friction": [
+        "Stays too long",
+        "Counts everything",
+        "Slow to trust"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Patient builder",
+            "angles": {
+              "drive": "Whatever you build is made to last, in no hurry. Since you want a thing to last more than arrive first, you build it for years ahead of starting another. Celebrate halfway, because the patient years are the price you pay."
+            }
+          },
+          {
+            "word": "Saves first",
+            "angles": {
+              "drive": "You save first and spend what is left, never as a sacrifice. Since money kept calms you more than money spent, you save before pleasure every time. Let pleasure win once in a while, because that is what the saving is for."
+            }
+          },
+          {
+            "word": "Loyal",
+            "angles": {
+              "drive": "You stay loyal and count it as the love itself. Being someone's certainty feels better than being their surprise, so you keep being loyal ahead of being new. Be new for them sometimes, because you were chosen for more than your loyalty."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stays too long",
+            "angles": {
+              "drive": "Staying put is a choice you make without noticing. Since letting go feels like loss, you stay past the point a place feeds you rather than risk an empty one. You are paying for the stay, remember, in months that give nothing back."
+            }
+          },
+          {
+            "word": "Counts everything",
+            "angles": {
+              "drive": "You count the price of most things, more than once. Since control feels like safety, you would rather count what something costs than learn its worth. Do not forget that counting is how you try to feel safe, and the sum never reads safe."
+            }
+          },
+          {
+            "word": "Slow to trust",
+            "angles": {
+              "drive": "You trust slowly, and the slow years are the test. Because being let down would cost more than staying alone, you wait for proof rather than trust first. You are waiting to trust on a guarantee love never gives, and you know it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Patient builder",
+            "angles": {
+              "drive": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several. Keep building at that pace, because the slow build is the one you keep."
+            }
+          },
+          {
+            "word": "Saves first",
+            "angles": {
+              "drive": "Saving comes before spending for you, and you never decide it. Being covered means more than anything you would buy, so you save ahead of wanting. Spend a small part of what you save on yourself, because a cushion is also for sitting on."
+            }
+          },
+          {
+            "word": "Loyal",
+            "angles": {
+              "drive": "Being loyal comes ahead of being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. Surprise the one you are loyal to once a year, because the same days are loyalty's price."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stays too long",
+            "angles": {
+              "drive": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than learn what leaving costs. Remember that staying costs you every month, in strength the place no longer returns."
+            }
+          },
+          {
+            "word": "Counts everything",
+            "angles": {
+              "drive": "Counting what something cost matters more to you than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. Remember, you started counting to never feel short, and no count has made you feel rich."
+            }
+          },
+          {
+            "word": "Slow to trust",
+            "angles": {
+              "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You know by now that you demand proof to avoid hurt, and waiting to trust is its own small hurt."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Patient builder",
+        "Saves first",
+        "Loyal"
+      ],
+      "friction": [
+        "Stays too long",
+        "Counts everything",
+        "Slow to trust"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

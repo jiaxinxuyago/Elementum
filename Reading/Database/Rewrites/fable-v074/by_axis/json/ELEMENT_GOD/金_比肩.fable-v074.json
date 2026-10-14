@@ -1,0 +1,165 @@
+{
+  "$archetype": "金_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "金_比肩",
+  "$generated_by": "fable-v074",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Even-handed",
+        "Recovers alone"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Unteachable",
+        "Asks no one"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, since you pay most for the things you make alone.",
+              "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Ask for a hand early, or everything self-made costs you rest you never take.",
+              "cost_others": "Making everything yourself is what you show a new peer first. By making each thing alone instead of sharing it, you leave your peers nothing to carry. Hand one piece over, because all you take from them is the chance to matter to you."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "angles": {
+              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance.",
+              "cost_self": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even standard is how you stay honest. Bend it once for someone you like, because you spend long stretches without company that fits.",
+              "cost_others": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Offer the warmth first, as you cost them the ease of being liked without being graded."
+            }
+          },
+          {
+            "word": "Recovers alone",
+            "angles": {
+              "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to.",
+              "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. Show someone the half-built version before recovering alone costs you the friend who would have come.",
+              "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Let them in on one of those days, since you deny your closest people the chance to be needed."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Keep in mind that you seal out the closeness as much as the risk.",
+              "cost_self": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. Do not forget that every sealed hurt costs you evenings you could have shared.",
+              "cost_others": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. Remember that you leave them loving a version of you that never needs them."
+            }
+          },
+          {
+            "word": "Unteachable",
+            "angles": {
+              "drive": "Being taught lands on you as an attack first and information second. With Metal running over, you put your own judgment ahead of any peer's lesson. It is worth remembering that you are only taught by someone you let be right.",
+              "cost_self": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend a position rather than learn from it. You lose, remember, every lesson that needed you to be wrong before it could teach you.",
+              "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix ahead of the question. Bear in mind what you take from your peers, the chance to be right now and again."
+            }
+          },
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. Notice how you count the asking as the cost and never the carrying.",
+              "cost_self": "Where a job is heavy, you take it all instead of asking for half. To prove you are enough, you carry it alone and spend sleep before spending one question. As you know, you pay in lost sleep for help you never ask for.",
+              "cost_others": "Being nobody's burden is why you ask no one. Since you would rather owe nothing than be joined, you take the job back the moment someone offers. Spare a thought for the peer you send away with an offer still in hand."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, because you pay most for the things you make alone.",
+              "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, so going without help comes ahead of going to bed. Ask for a hand early, because everything self-made costs you rest you never take.",
+              "cost_others": "Making everything yourself is what you show a new peer first. Since you make each thing alone instead of sharing, you leave your peers nothing to carry. Hand one piece over, because all you take from them is the chance to matter to you."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "angles": {
+              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance.",
+              "cost_self": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even measure keeps you honest. Bend it once for someone you like, because you spend long stretches without company that fits.",
+              "cost_others": "Being even-handed with a friend is how you show respect. Because you treat people you like exactly as yourself, you hand them your standard ahead of your warmth. Offer the warmth first, since you cost them the ease of being liked without being graded."
+            }
+          },
+          {
+            "word": "Recovers alone",
+            "angles": {
+              "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to.",
+              "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, so you take the long quiet over the quick ask. Show someone the half-built version, as recovering alone costs you the friend who would have come.",
+              "cost_others": "Recovering alone spares the people near you your worst days. Since you return recovered instead of being seen recovering, you give them the finished version only. Let them in once while you recover, because you deny your closest people the chance to be needed."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Keep in mind that you seal out the closeness as much as the risk.",
+              "cost_self": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, so you keep the hurt sealed instead of letting help in. Do not forget that every sealed hurt costs you evenings you could have shared.",
+              "cost_others": "Sealing everyone off politely keeps you easy to live with. Your sealed quiet comes ahead of their wish to come in, so you give them calm with nothing under it. Remember that you leave them loving a version of you that never needs them."
+            }
+          },
+          {
+            "word": "Unteachable",
+            "angles": {
+              "drive": "Being taught lands on you as an attack first and information second. Your Metal runs over, so you put your own judgment ahead of being taught by any peer. It is worth remembering that you are only taught by someone you let be right.",
+              "cost_self": "Whenever someone tries to teach you, you check the messenger first. Being right is how you stay safe, so you defend a position rather than learn from it. You lose, remember, every lesson that needed you to be wrong before it could teach you.",
+              "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, so you hand out the fix ahead of the question. Bear in mind what you take from your peers, the chance to be right now and again."
+            }
+          },
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. Notice how you count the asking as the cost and never the carrying.",
+              "cost_self": "Where a job is heavy, you take it all rather than ask for half. Carrying it alone proves you are enough, so you spend sleep before you spend one question. As you know, you pay in lost sleep for help you never ask for.",
+              "cost_others": "Being nobody's burden is why you ask no one. Since you would rather owe nothing than be joined, you take the job back the moment someone offers. Spare a thought for the peer you send away with an offer still in hand."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Even-handed",
+        "Recovers alone"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Unteachable",
+        "Asks no one"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-taught",
+        "Reads between lines",
+        "Solo thinker"
+      ],
+      "friction": [
+        "Never quite ready",
+        "Hard to reach",
+        "Second-guesses"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "You would rather teach yourself than be shown. You need to understand from the inside, so you teach yourself slowly, the private lesson ahead of the shared one. Say what you taught yourself out loud sometimes, since what you never explain stays yours alone."
+            }
+          },
+          {
+            "word": "Reads between lines",
+            "angles": {
+              "drive": "Reading between the lines comes to you before reading the lines. You trust the read under a thing more than the proof, because what you take in sorts itself later. Give the proof a day, since you only share a read once it has words."
+            }
+          },
+          {
+            "word": "Solo thinker",
+            "angles": {
+              "drive": "You think better alone than out loud. Since you hate being heard half-formed, you think a thing through alone rather than talk it through with help. Say one thought out loud before it is finished, because you only get help on thinking let out early."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never quite ready",
+            "angles": {
+              "drive": "Preparing takes you longer than the thing itself. Because you fear a rough version judged more than a good one late, you keep preparing instead of starting. Bear in mind, you are allowed a rough start, and you finish only what you begin."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "Reaching you takes longer than reaching others. Because you need time alone to make sense of things, you put thinking ahead of answering and stay out of reach for days. You go quiet to understand people better, and you owe them that understanding out loud."
+            }
+          },
+          {
+            "word": "Second-guesses",
+            "angles": {
+              "drive": "Seeing every side of a question keeps you second-guessing it. Because being right matters to you ahead of being done, you second-guess the answer instead of acting on it. Remember, you lose more rest to the second guess than you save in mistakes."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. Let someone teach you from time to time, since a lesson only you know is lonely."
+            }
+          },
+          {
+            "word": "Reads between lines",
+            "angles": {
+              "drive": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Let the reason catch up before you act, since you cannot pass a hunch on without proof."
+            }
+          },
+          {
+            "word": "Solo thinker",
+            "angles": {
+              "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Take one invitation you usually turn down, since you give up company for thinking alone."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never quite ready",
+            "angles": {
+              "drive": "You wait to feel ready rather than work to be ready, so getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. Remember that you are ready long before you feel it."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "Long before anything goes wrong, you are already hard to reach. You take things in alone, so you let yourself be reached on your own schedule rather than anyone else's. Do not forget that you buy the quiet with friendships that wear thin."
+            }
+          },
+          {
+            "word": "Second-guesses",
+            "angles": {
+              "drive": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. Remind yourself that you usually land where your first read put you, weeks later."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-taught",
+        "Reads between lines",
+        "Solo thinker"
+      ],
+      "friction": [
+        "Never quite ready",
+        "Hard to reach",
+        "Second-guesses"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "水_食神",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Giving",
+        "Unforced",
+        "Warm"
+      ],
+      "friction": [
+        "Drifts along",
+        "Comfort first",
+        "Gives it away"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Giving",
+            "angles": {
+              "drive": "Giving is the first thing you do anywhere, before you know what is needed. Since being useful costs you less than being asked, you give care more than you ask for it. Keep giving freely, and count it as something you chose rather than owed."
+            }
+          },
+          {
+            "word": "Unforced",
+            "angles": {
+              "drive": "Your best work costs you no effort, and you keep waiting for it to feel harder. Because you trust forced work more than unforced, you hand over the easy thing with an apology. Hand it over without one, since the ease was the gift."
+            }
+          },
+          {
+            "word": "Warm",
+            "angles": {
+              "drive": "Wherever you sit down, you warm the place without announcing it. You want everyone to leave warmer rather than impressed, and you spend your words on comfort over show. Trust that warmth as something you make, because you are the one making it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Drifts along",
+            "angles": {
+              "drive": "Whatever is already moving is where you drift, because drifting costs less than deciding. You drift with someone's plan rather than make your own, until you end the week with no choice to name. Remember you were allowed to want more than the drift."
+            }
+          },
+          {
+            "word": "Comfort first",
+            "angles": {
+              "drive": "Comfort beats finishing the thing whenever you let the two compete. You want comfort now more than you want to feel done later, because comfort never makes you wait. Bear in mind that comfortable comes around every evening, and only finished lasts."
+            }
+          },
+          {
+            "word": "Gives it away",
+            "angles": {
+              "drive": "Giving it away is your first reflex and your last defence. You give it away rather than be caught keeping it, so you give your time away before choosing where. Keep some of what you make, since you were never required to give it all."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Giving",
+            "angles": {
+              "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, so you give the help ahead of the ask. Keep giving first, because you were never giving to earn your place."
+            }
+          },
+          {
+            "word": "Unforced",
+            "angles": {
+              "drive": "What you make comes out unforced, and you hardly notice how rare that is. Since effort is the only proof you trust, you put what you forced ahead of what came easily. Let the unforced thing count, because it was never the lesser one."
+            }
+          },
+          {
+            "word": "Warm",
+            "angles": {
+              "drive": "Warmth matters to you more than winning the point. You make the warmth around you on purpose, because an easy evening is where you are most yourself. Keep making it, and sit inside that warmth as a guest some evenings."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Drifts along",
+            "angles": {
+              "drive": "Drifting along comes easier than steering, and mostly you do. More Water moves through you than comes back in, so you drift with what moves rather than pick a direction. Keep in mind that you pick the drift each time you let the day decide."
+            }
+          },
+          {
+            "word": "Comfort first",
+            "angles": {
+              "drive": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. Do not forget that you enjoy comfort more once the thing is finished."
+            }
+          },
+          {
+            "word": "Gives it away",
+            "angles": {
+              "drive": "What you have, you give away before checking whether enough is left. Since giving is the nearest you get to feeling like yourself, you give away more than you keep. You are one of the people you give to, and that is worth remembering."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Giving",
+        "Unforced",
+        "Warm"
+      ],
+      "friction": [
+        "Drifts along",
+        "Comfort first",
+        "Gives it away"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "$archetype": "火_正官",
+  "axis": "ELEMENT_GOD",
+  "key": "火_正官",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Keeps every promise",
+        "By the book",
+        "Earns the title"
+      ],
+      "friction": [
+        "Rule-bound",
+        "Afraid to slip",
+        "Never says no"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keeps every promise",
+            "angles": {
+              "drive": "You treat every promise as a contract with a witness. Since an outside standard keeps you steady, you keep the promise as much as the person you made it to. Reopen one promise a year, because you keep it long after it stops fitting."
+            }
+          },
+          {
+            "word": "By the book",
+            "angles": {
+              "drive": "You feel most at home going by the book. Because an old rule holds you steady, you go the long way by the book rather than around it. Trust the book's slow route, since you are built for a standing that lasts."
+            }
+          },
+          {
+            "word": "Earns the title",
+            "angles": {
+              "drive": "You want a title earned in full before enjoying it. Because you believe only a rank with work behind it, you take the title in writing over the thanks in passing. Enjoy the thanks too, since you earned it long ahead of the paperwork."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Rule-bound",
+            "angles": {
+              "drive": "You feel safer inside a rule than outside one. Fire sits in you past what your strength bears, so each rule is one more to carry. Keep in mind you were meant to be steadied by rules rather than kept by them."
+            }
+          },
+          {
+            "word": "Afraid to slip",
+            "angles": {
+              "drive": "You live as if one slip would end your standing. Because your status is where you keep your safety, you hide the slip ahead of fixing its cause. Remember that you have never been watched as closely as you are afraid of being."
+            }
+          },
+          {
+            "word": "Never says no",
+            "angles": {
+              "drive": "You say yes to the role before hearing it described. You carry Fire past what you were built for, so every request sounds impossible to say no to. Do not forget you can say no and leave a post empty rather than fill it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keeps every promise",
+            "angles": {
+              "drive": "Every promise you make becomes a rule you keep. Being relied on is the closest you get to feeling safe, so you keep your word ahead of your freedom to change it. Promise a little less freely, because you keep every one you make."
+            }
+          },
+          {
+            "word": "By the book",
+            "angles": {
+              "drive": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book ahead of the quick way. Stay with the book, because you are the standard the work gets checked against."
+            }
+          },
+          {
+            "word": "Earns the title",
+            "angles": {
+              "drive": "A fairly earned title is worth more to you than any praise. Since an earned rank says you belong, you earn the next title ahead of chasing the next thrill. Let the title come slowly, because you are already doing the job it names."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Rule-bound",
+            "angles": {
+              "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, so you keep the correct one ahead of the useful one. You wrote most of these rules yourself, and you can retire them."
+            }
+          },
+          {
+            "word": "Afraid to slip",
+            "angles": {
+              "drive": "Fear of slipping runs under most of what you do well. Since your standing holds your worth, you would rather never be seen to slip than be at ease. Remember how much less you are watched for a slip than watching for one."
+            }
+          },
+          {
+            "word": "Never says no",
+            "angles": {
+              "drive": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you answer yes to the next request ahead of finishing the last. Remember you can only say yes for as long as you last."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Keeps every promise",
+        "By the book",
+        "Earns the title"
+      ],
+      "friction": [
+        "Rule-bound",
+        "Afraid to slip",
+        "Never says no"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "rigidity as the Magistrate's shadow: the frame that steadies the reader also holds the reader in",
+      null,
+      null,
+      "the standard turned inward on a weak body: status as the place safety is kept, so a slip reads as a fall",
+      null,
+      null,
+      "overextension: too much Order for the body, so every call for order is answered as a personal duty"
+    ]
+  }
+}

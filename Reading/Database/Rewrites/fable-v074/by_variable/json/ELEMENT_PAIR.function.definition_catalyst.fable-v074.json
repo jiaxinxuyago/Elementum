@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_catalyst",
+  "$generated_by": "fable-v074",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, and you work it out alone rather than lean on anyone. You judge best once you give a question its night.",
+      "original": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, so you work it out alone rather than lean on anyone. You judge best once you give a question its night.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it.",
+      "original": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, so you want the next opening as much as a steady love. You build best once you choose one and finish it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, your gate stays shut while you get a thing right rather than give it. You keep your kindness and your wit waiting past their moment.",
+      "original": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, so what you feel gets said. As a catalyst, your gate stays shut, so you would rather get a thing right than give it. You keep your kindness and your wit waiting past their moment.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and demands shape you. As a catalyst, nothing tests you, and over time you want a crisis as much as a rank. You get most done under rules someone else set.",
+      "original": "Your Order is the rules you answer to and the rank you hold by them. Fire makes it fuel, so demands shape you. As a catalyst, nothing tests you, so you want a crisis as much as a rank to keep. You get most done under rules someone else set.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in.",
+      "original": "Your Body is the strength the whole of you stands on. Metal makes it hard, so your will holds. Running thin, strength gives out, so you stand alone rather than lean on a peer and bet big rather than rest. You last longest once you let rest and company in.",
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "$archetype": "火_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "火_七杀",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Clear under pressure",
+        "Takes charge",
+        "Loves high stakes"
+      ],
+      "friction": [
+        "Hard on yourself",
+        "Pushes too hard",
+        "Never off duty"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clear under pressure",
+            "angles": {
+              "drive": "Clear thinking comes to you most easily under pressure. Because you think this clearly nowhere else, you would sooner be tested under pressure than praised in comfort. Give yourself one hard thing a month, since you do your clearest work inside that pressure."
+            }
+          },
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "You end up in charge wherever the lead is open. You would sooner have anyone hold the lead than see it empty, so you take it on whenever nobody else will. Let someone else take charge, because you want things moving ahead of the title."
+            }
+          },
+          {
+            "word": "Loves high stakes",
+            "angles": {
+              "drive": "You come alive the moment the stakes go up. Peace reads to you as being left out, so you keep the stakes high rather than settle for a sure thing. Choose those high stakes, because you are most yourself with something on the line."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "Being hard on yourself comes easier than being proud. There is more Fire in you than your strength holds, and the extra lands on you. You are allowed to go easy on yourself as much as to be useful, and that is worth remembering."
+            }
+          },
+          {
+            "word": "Pushes too hard",
+            "angles": {
+              "drive": "You push because staying put feels like giving up. Holding more Fire than you were made for, you push people with force meant for a crisis. Remember that you want to be followed more than obeyed, and pushing too hard gets you obeyed."
+            }
+          },
+          {
+            "word": "Never off duty",
+            "angles": {
+              "drive": "You remain on duty long after the alarm has stopped. Because an hour off duty feels like a mistake, you put yourself back on duty instead of resting. Keep in mind you have to practise going off duty as much as being on it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clear under pressure",
+            "angles": {
+              "drive": "Pressure is where your thinking gets clear. Since you need certainty more than comfort, you let outside pressure clear your head rather than make your own calm. Choose some of that pressure yourself, because you are only this clear with something at stake."
+            }
+          },
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge before the vote. Hand the next one over, because you take charge better by choice than by habit."
+            }
+          },
+          {
+            "word": "Loves high stakes",
+            "angles": {
+              "drive": "Nothing at stake feels to you like being passed over. Since you only come awake with something to lose, you take high stakes over sure things. Keep one high-stakes thing going, because you were built to be tested rather than kept safe."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. Remember that you never passed a test by going hard on yourself for failing it."
+            }
+          },
+          {
+            "word": "Pushes too hard",
+            "angles": {
+              "drive": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along ahead of asking whether they wanted pushing. Do not forget that you push a person as hard as you push a problem."
+            }
+          },
+          {
+            "word": "Never off duty",
+            "angles": {
+              "drive": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty ahead of ending the day. Remember you were made to meet a crisis rather than stay on duty after it."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Clear under pressure",
+        "Takes charge",
+        "Loves high stakes"
+      ],
+      "friction": [
+        "Hard on yourself",
+        "Pushes too hard",
+        "Never off duty"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "heavy Order on a weak body turns into the inner judge: pressure with no outside target lands on the self",
+      null,
+      null,
+      "force without permission: too much Order for the body, so the pressure goes outward onto whoever is near",
+      null,
+      null,
+      "peace felt as demotion, on the friction pole: the reader cannot stand down, so the crisis is kept alive"
+    ]
+  }
+}

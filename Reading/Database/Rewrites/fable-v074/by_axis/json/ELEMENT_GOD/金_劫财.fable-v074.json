@@ -1,0 +1,165 @@
+{
+  "$archetype": "金_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "金_劫财",
+  "$generated_by": "fable-v074",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Competitive",
+        "First to bet",
+        "Shares the risk"
+      ],
+      "friction": [
+        "Keeps score",
+        "Bets the rent",
+        "Hates to lose"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Competitive",
+            "angles": {
+              "drive": "You compete best with someone to beat and know it. Knowing where you stand matters more than comfort, so you compete harder against one rival than for any reward. Pick one contest with a finish line, because yours have no end in sight.",
+              "cost_self": "Without a rival, you lose your pace. Competing keeps you going, and the next round comes ahead of noticing you are tired. Compete against your own record for a month, since you never reach a finish that lets you rest.",
+              "cost_others": "For you, competing with a friend is taking them seriously. You raise the stakes out of wanting someone worth beating more than someone easy to keep. Keep one friend outside the contest, as you cost a rival the ease of siding with you."
+            }
+          },
+          {
+            "word": "First to bet",
+            "angles": {
+              "drive": "Your yes to a bet comes before the fear has finished. Hesitating feels like losing to yourself, so you bet first and size it afterwards. Keep one bet a year you can afford to lose, since nerve costs you money as much as pride.",
+              "cost_self": "Whenever the stakes go up, you are first to bet. Betting first is the closest you get to sure, and you size it to nerve rather than savings. Size one bet to the savings, because the early yes costs you money put aside.",
+              "cost_others": "Betting first is your way of carrying the people who hesitate. By betting for the group instead of asking it, you put their money where your nerve is. Check the size with them first, before you spend their caution like your own courage."
+            }
+          },
+          {
+            "word": "Shares the risk",
+            "angles": {
+              "drive": "You trust a person faster when the risk is shared. Sharing the risk makes the bond real to you, so you go in together ahead of writing anything down. Write the terms down once, because you risk the friendship as much as the money.",
+              "cost_self": "Where a friend needs backing, you share the risk first. Sharing the risk feels closer than staying out, and the shared bet comes before your margin. Keep one account no friend can draw on, since you cover their losses with money meant for rest.",
+              "cost_others": "Sharing a risk with someone is your warmest offer. Wanting them in it more than safe from it, you share the upside and the fall. Say the downside first, as you bring the people you like into risks sized to your nerve."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Keeps score",
+            "angles": {
+              "drive": "You keep an exact score with everyone you like. With Metal running over, you live on comparison more than company, so you keep a quiet tally of who gave more. Remember that you started counting to be fair and kept counting to be ahead.",
+              "cost_self": "Whenever a friend pulls ahead, you score it as a loss rather than their win. To stay sure, you keep score and spend the friendship checking the count. Do not forget that you pay for every point in closeness you never collect.",
+              "cost_others": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of returning them, you hand the people you love a bill. Be honest with yourself that you turn their gifts into debts without telling them the price."
+            }
+          },
+          {
+            "word": "Bets the rent",
+            "angles": {
+              "drive": "Your bets are sized to the thrill ahead of the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent, and you know it, on a feeling that fades faster than the bill.",
+              "cost_self": "Where the bet is biggest you are calmest, and read it as a sign. Trusting nerve more than math, you bet with the rent before the sums are done. You pay for that calm later, as you know, in rent and sleep.",
+              "cost_others": "Betting the rent is how you make a thing feel real. Since you size the bet to your nerve instead of theirs, you pull the people beside you into it. Weigh how much of their safety you bet along with your own each time."
+            }
+          },
+          {
+            "word": "Hates to lose",
+            "angles": {
+              "drive": "Harder than any loss deserves, you hate to lose. You read a loss to a peer as a statement about you, so you argue the result instead of taking it. You hate losing your place, if you are honest, more than losing the point.",
+              "cost_self": "Coming second sours the whole day for you. Being beaten feels like being replaced, and you hate the loss rather than learn from it. You give the loss the entire evening, remember, and get neither the rest nor the lesson back.",
+              "cost_others": "Hating to lose even a game is how you show you care. Since you want the win ahead of the evening, you keep arguing after it ends. Keep the people you play with in mind, because you cost them the fun of the game."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Competitive",
+            "angles": {
+              "drive": "You compete best with someone to beat and know it. Knowing where you stand matters more than comfort, so you compete harder against one rival than for any reward. Pick one contest with a finish line, because you compete with no end in sight.",
+              "cost_self": "With no one to compete with, you lose your pace. Competing keeps you going, so the next round comes ahead of noticing you are tired. Compete against your own record for a month, since you never reach a finish that lets you rest.",
+              "cost_others": "For you, competing with a friend is taking them seriously. Since you want someone worth beating more than someone easy to keep, you raise the stakes. Keep one friend out of the contest, because you cost a rival the ease of siding with you."
+            }
+          },
+          {
+            "word": "First to bet",
+            "angles": {
+              "drive": "Your yes to a bet comes before the fear has finished. Hesitating feels like losing to yourself, so you bet first and size it afterwards. Keep one bet a year you can afford to lose, since nerve costs you money as much as pride.",
+              "cost_self": "Whenever the stakes go up, you are first to bet. Betting first is the closest you get to sure, so you size it to nerve rather than savings. Size one bet to the savings, since the early yes costs you money put aside.",
+              "cost_others": "Betting first is your way of carrying the people who hesitate. Since you bet for the group instead of asking it, you put their money where your nerve is. Check the size with them first, because you spend their caution like your own courage."
+            }
+          },
+          {
+            "word": "Shares the risk",
+            "angles": {
+              "drive": "You trust a person faster once the risk is shared. Sharing the risk makes the bond real to you, so you go in together ahead of writing anything down. Write the terms down once, because you risk the friendship as much as the money.",
+              "cost_self": "Where a friend needs backing, you share the risk first. Sharing the risk feels closer than staying out, so the shared bet comes before your margin. Keep one account no friend can draw on, because you cover their losses with money meant for rest.",
+              "cost_others": "Sharing a risk with someone is your warmest offer. Since you want them in it more than safe from it, you share the upside and the fall. Say the downside first, because you bring the people you like into risks sized to your nerve."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Keeps score",
+            "angles": {
+              "drive": "You keep an exact score with everyone you like. With Metal running over, you run on comparison more than company, so you keep a quiet tally of who gave more. Remember that you started counting to be fair and kept counting to be ahead.",
+              "cost_self": "Whenever a friend pulls ahead, you score it as a loss rather than their win. Keeping score is how you stay sure, so you spend the friendship checking the count. Do not forget that you pay for every point in closeness you never collect.",
+              "cost_others": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of returning them, you hand the people you love a bill. Be honest with yourself that you turn their gifts into debts without telling them the price."
+            }
+          },
+          {
+            "word": "Bets the rent",
+            "angles": {
+              "drive": "Your bets are sized to the thrill ahead of the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent, and you know it, on a feeling that fades faster than the bill.",
+              "cost_self": "Where the bet is biggest you are calmest, and read it as a sign. You trust nerve more than math, so you bet with the rent before the sums are done. You pay for that calm later, as you know, in rent and sleep.",
+              "cost_others": "Betting the rent is how you make a thing feel real. Since you size the bet to your nerve ahead of theirs, you pull the people beside you into it. Weigh how much of their safety you bet along with your own each time."
+            }
+          },
+          {
+            "word": "Hates to lose",
+            "angles": {
+              "drive": "More than any loss deserves, you hate to lose. You read a loss to a peer as a statement about you, so you argue the result instead of taking it. You hate losing your place, if you are honest, more than losing the point.",
+              "cost_self": "Coming second sours the whole day for you. Being beaten feels like being replaced, so you hate the loss more than you learn from it. You give the loss the entire evening, remember, and get neither the rest nor the lesson back.",
+              "cost_others": "Hating to lose even a game is how you show you care. Since you need the win more than the evening, you keep arguing after the game. Keep the people you play with in mind, because you cost them the fun of the game."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Competitive",
+        "First to bet",
+        "Shares the risk"
+      ],
+      "friction": [
+        "Keeps score",
+        "Bets the rent",
+        "Hates to lose"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

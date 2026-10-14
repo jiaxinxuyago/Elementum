@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "金_比肩",
+  "$generated_by": "fable-v074-b",
+  "$handoff": "2026-10-14 batch 1, the variety pass under v0.7.4",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Even-handed",
+        "Recovers alone"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Unteachable",
+        "Asks no one"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "The rules you live by are ones you made yourself. You make your own strength and put owing no one ahead of being carried. Let yourself be carried at times, since you built it all with no one placed to catch you."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "angles": {
+              "drive": "Your measure for yourself is your measure for everyone. Being even matters to you more than being liked, and you give the fair answer instead of the kind one. Offer the kind one more often, because you meet few who match your standard."
+            }
+          },
+          {
+            "word": "Recovers alone",
+            "angles": {
+              "drive": "Being alone is how you recover and being around people is how you spend. With your Metal running short, you put the quiet you recover in ahead of any invitation. Try one invitation while tired, to see whether company counts as recovery."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "The sealed version of you is the only one on offer. Since your Metal runs past your need, sealing off costs nothing and being unreachable comes ahead of being known. Part of you still wants to be known more than kept safe."
+            }
+          },
+          {
+            "word": "Unteachable",
+            "angles": {
+              "drive": "A correction feels like being made smaller, and you argue instead of being taught. With more Metal than you spend, holding your ground beats letting anyone teach you. You already know you get to be right or get taught, and choose each time."
+            }
+          },
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Help is the one thing you never learned to ask for. With Metal to spare, carrying alone looks possible, and getting it done comes ahead of asking. You settle every favour you never ask, in your own time and on your own back."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, because you pay most for the things you make alone."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "angles": {
+              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance."
+            }
+          },
+          {
+            "word": "Recovers alone",
+            "angles": {
+              "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Keep in mind that you seal out the closeness as much as the risk."
+            }
+          },
+          {
+            "word": "Unteachable",
+            "angles": {
+              "drive": "Being taught lands on you as an attack first and information second. Your Metal runs over, so you put your own judgment ahead of being taught by any peer. It is worth remembering that you are only taught by someone you let be right."
+            }
+          },
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. Notice how you count the asking as the cost and never the carrying."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Even-handed",
+        "Recovers alone"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Unteachable",
+        "Asks no one"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}
