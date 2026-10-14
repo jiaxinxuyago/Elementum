@@ -5,7 +5,7 @@
 // Exit 1 on any blocking finding. --json also writes <output>.gate.json.
 import fs from 'node:fs';
 import path from 'node:path';
-import { OUT, FIELDS, makeGate, fourGramCheck, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, flat, STEMS, wc, channel, longSentences, rhythmLabel, formulaRepeat, tensionSentence, objectOpener, DESCRIPTIVE_FIELD } from './lib.mjs';
+import { OUT, FIELDS, makeGate, fourGramCheck, swapGramCheck, zoneCheck, ZONE_BLOCK_PER100, flat, STEMS, wc, channel, longSentences, rhythmLabel, formulaRepeat, objectOpener, DESCRIPTIVE_FIELD, descriptiveGate, v071KindOfField } from './lib.mjs';
 
 export function validate(id, file, { quiet = false } = {}) {
   const metaPath = OUT + id + '.meta.json'; if (!fs.existsSync(metaPath)) throw new Error(`no meta for ${id}: run assemble.mjs first (out/${id}.meta.json)`);
@@ -26,8 +26,8 @@ export function validate(id, file, { quiet = false } = {}) {
   for (const [p, t] of flat(out)) if (typeof t === 'string' && wc(t) >= 12) channel.note(`rhythm ${p || meta.field}: ${rhythmLabel(t, meta.ctx.stem)} (reported, never blocking; the freedom clause stands)`, longSentences(t) === 0);
   // the formula-phrase window (B6, owner 2026-09-30): a formula phrase never twice within three consecutive sentences; a note in this gate, blocking in the template gate
   for (const [p, t] of flat(out)) if (typeof t === 'string' && wc(t) >= 4) { const fr = formulaRepeat(t); channel.note(`formula phrase window ${p || meta.field}: ${fr.length ? fr.map((x) => `"${x}"`).join(', ') + ' twice within three sentences' : 'none'} (B6; a note here, blocking in the template gate)`, fr.length === 0); }
-  // the tension sentence and the object-noun opener (D9, owner 2026-10-01): a note per descriptive field in this gate, never blocking; the read decides
-  if (DESCRIPTIVE_FIELD.test(meta.field)) { const doms = meta.ctx.domains || []; for (const [p, t] of flat(out)) if (typeof t === 'string' && wc(t) >= 12) { channel.note(`tension sentence ${p || meta.field}: ${tensionSentence(t) ? 'present' : 'none seen'} (two clauses in the second person joined by or, but, yet, while, or whether … or not; D9, a floor: the read decides)`, tensionSentence(t)); const o = objectOpener(t, doms); channel.note(`object-noun opener ${p || meta.field}: ${o ? '"' + o + '" outside the persona\'s domain words' : 'none'} (D9 with E6; heuristic, the read decides)`, !o); } }
+  // the v0.7.1 descriptive gate (owner 2026-10-14; D9 blocking on ledger passages and definitions, D10, D11, B7, B8, E9 blocking; D12, B9 and the rest notes) and the object-noun opener (D9 with E6, a note)
+  if (DESCRIPTIVE_FIELD.test(meta.field)) { const doms = meta.ctx.domains || []; const kind = v071KindOfField(meta.field); for (const [p, t] of flat(out)) if (typeof t === 'string' && wc(t) >= 8 && !/(^|\.)(word|phrase|dim|face)$/.test(p)) { for (const n of descriptiveGate(p || meta.field, t, F, { kind, pole: meta.ctx.pole || null, skipFirst: kind === 'portrait' && /yourNature_desc/.test(p || meta.field) && /STEM_BAND/.test(meta.field), soft: kind === 'seat' })) channel.note(n.label, n.ok); const o = objectOpener(t, doms); channel.note(`object-noun opener ${p || meta.field}: ${o ? '"' + o + '" outside the persona\'s domain words' : 'none'} (D9 with E6; heuristic, the read decides)`, !o); } }
   const candidateFields = Object.fromEntries(flat(out).filter(([, t]) => typeof t === 'string' && wc(t) >= 4).map(([p, t]) => [candidatePath(meta, p), t]));
   const cellFields = {}, pageFields = {};
   for (const [k, v] of Object.entries(meta.repFields || {})) (k.includes('.function.') && meta.field.startsWith('ELEMENT_GOD') ? pageFields : cellFields)[k] = v;
