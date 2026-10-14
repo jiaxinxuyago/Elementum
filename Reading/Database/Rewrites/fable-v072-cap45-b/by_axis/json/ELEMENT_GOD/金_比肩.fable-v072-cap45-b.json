@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "金_比肩",
+  "$generated_by": "fable-v072-cap45-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Even-handed",
+        "Recovers alone"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Unteachable",
+        "Asks no one"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "The rules you live by are ones you made yourself. You make your own strength and put owing no one ahead of being carried. Let yourself be carried from time to time, since you built yourself with no one placed to catch you."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "angles": {
+              "drive": "Your measure for yourself is your measure for everyone. Being even matters to you more than being liked, so you give the fair answer instead of the kind one. Give the kind one every so often, because you meet few who match your measure."
+            }
+          },
+          {
+            "word": "Recovers alone",
+            "angles": {
+              "drive": "Being alone is how you recover and being around people is how you spend. Since your Metal runs short, you put the quiet you recover in ahead of any invitation. Try one invitation while tired, to see whether company counts as recovery."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "The sealed version of you is the only one on offer. Since your Metal is more than you need, sealing off costs nothing and being unreachable comes ahead of being known. Part of you still wants to be known more than kept safe."
+            }
+          },
+          {
+            "word": "Unteachable",
+            "angles": {
+              "drive": "A correction feels like being made smaller, so you argue instead of being taught. With more Metal than you spend, holding your ground beats letting anyone teach you. You already know you get to be right or get taught, and choose each time."
+            }
+          },
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Help is the one thing you never learned to ask for. With Metal to spare, carrying alone looks possible, so getting it done comes ahead of asking. You settle every favour you never ask, in your own time and on your own back."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed."
+            }
+          },
+          {
+            "word": "Reserved",
+            "angles": {
+              "drive": "Keeping most of yourself back is a choice you make daily, and it costs you less than people think. At a party you might say forty words. Three people will still leave convinced you were the most solid person in attendance, and none of them could quote you."
+            }
+          },
+          {
+            "word": "Unshakeable",
+            "angles": {
+              "drive": "Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
+            }
+          },
+          {
+            "word": "Rigid",
+            "angles": {
+              "drive": "Your rules outlive the reasons for them, and you enforce them anyway. Gym at six, lunch at noon, lights out at eleven, held through a fever and a friend’s one free evening in town. The structure was built to serve you. Somewhere it quietly reversed."
+            }
+          },
+          {
+            "word": "Solitary",
+            "angles": {
+              "drive": "Alone is your default answer, and it kept answering long after the question changed. You moved apartments twice with rented dollies and zero phone calls, and both times at least one person would have said yes. Proving you can was settled years ago. You keep proving it."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Reserved",
+        "Unshakeable"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Rigid",
+        "Solitary"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

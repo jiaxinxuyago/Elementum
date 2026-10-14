@@ -1,0 +1,19 @@
+{
+  "$archetype": "金_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_金",
+  "$generated_by": "fable-v072-cap45-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "You hold yourself to a standard you would never ask of anyone else, and you keep your own company ahead of anyone's help."
+  },
+  "$original": {
+    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  }
+}

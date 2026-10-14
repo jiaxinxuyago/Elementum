@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.cta_verdict",
+  "$generated_by": "fable-v072-cap45-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "cta_verdict",
+      "candidate": "You take your time with whatever you let in rather than skim it, and once a thing has settled in you, you keep it for good.",
+      "original": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "cta_verdict",
+      "candidate": "You work best with something real to shape, so you go back to a half-built plan more often than to a finished one.",
+      "original": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "cta_verdict",
+      "candidate": "You would rather be exact than quick, so you end up trusted more often than you are quoted.",
+      "original": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "cta_verdict",
+      "candidate": "You take a rule more seriously than whoever made it, so you end up as the one enforcing it.",
+      "original": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "cta_verdict",
+      "candidate": "You hold yourself to a standard you would never ask of anyone else, and you keep your own company ahead of anyone's help.",
+      "original": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill.",
+      "gate": "pass"
+    }
+  ]
+}

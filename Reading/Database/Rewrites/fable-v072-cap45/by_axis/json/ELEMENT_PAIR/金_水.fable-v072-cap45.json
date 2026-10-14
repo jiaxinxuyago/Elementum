@@ -1,0 +1,120 @@
+{
+  "$archetype": "金_水",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_水",
+  "$generated_by": "fable-v072-cap45",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.",
+      "catalyst_turn": "With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week.",
+      "friction_turn": "With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The blade stays dry: everything is judged and nothing is said.",
+        "remedy": "Say one unfinished thing out loud this week."
+      },
+      "friction": {
+        "clause": "The edge washes away: every thought spoken the moment it forms.",
+        "remedy": "Listen to the whole answer before you add yours."
+      },
+      "wide": {
+        "clause": "Water is easy for you to reach, the dew your edge draws from the cold air.",
+        "remedy": "Use it. Say the thing, send the page."
+      },
+      "missing": {
+        "clause": "No dew on the blade: everything judged correctly and none of it ever said.",
+        "remedy": "Borrow a voice: write it down, read it to one person."
+      },
+      "spared": {
+        "clause": "No water to wash the edge away, and the edge is better for it.",
+        "remedy": "Keep it so. Speak when something is finished."
+      },
+      "thin": {
+        "clause": "Only a little water on the steel, enough to say what is done.",
+        "remedy": "Keep it small. Let most thoughts stay unsaid."
+      },
+      "excess": {
+        "clause": "Too much water sinks the metal: so much poured out that the edge goes under.",
+        "remedy": "Pour less. Take in one slow thing a day."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Water is your Expression, and as a catalyst, it is the care you hold back and the talent you keep quiet. Since you carry little Water, you judge more than you let flow. You want to be right more than heard, so you keep your kindness and your best ideas waiting too long.",
+      "definition_friction": "Water is your Expression, and as a friction, it is care that never stops and talent that stays loud. You pour out more Water than you take in, until every thought gets said. You need to be heard more than refilled, so your care and wit run out before your words do.",
+      "advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Once a month, give something you made to someone who did not ask. Say the compliment the moment you think it.",
+      "advise_friction": "You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours."
+    },
+    "cta_verdict": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world.",
+      "catalyst_turn": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
+      "friction_turn": "Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "This channel shows as pressure without release: much forged, little said.",
+        "remedy": "Writing, speaking, sharing work early lets the blade breathe."
+      },
+      "friction": {
+        "clause": "The flow turns to flood: output for its own sake, saying instead of shaping.",
+        "remedy": "Cut the noise and the water clears."
+      },
+      "wide": {
+        "clause": "There is no shortage of Water in you, the channel that lets the blade breathe.",
+        "remedy": "Say it while it is fresh. Ship the draft."
+      },
+      "missing": {
+        "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
+        "remedy": "Borrow a channel: write it down, say it once."
+      },
+      "spared": {
+        "clause": "Water runs absent, and nothing spills: the edge keeps its shape and its silence.",
+        "remedy": "Keep it. Speak on purpose, not on reflex."
+      },
+      "thin": {
+        "clause": "Water runs thin and unwanted: a trickle of output, easy to keep clean.",
+        "remedy": "A trickle is enough. Keep it clean."
+      },
+      "excess": {
+        "clause": "Too much water sinks the metal: output floods the work, saying everything and shaping nothing.",
+        "remedy": "Cut the flow. Finish one thing in silence."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry.",
+      "definition_friction": "Water is your Expression, and as a friction, it is output with no banks. Talent spills wherever it lands, into snacks and scrolling, into remarks that cut deeper than intended, into half-made things. Nothing is wrong, exactly. That is the problem. The spill keeps absorbing the effort your best work was waiting for.",
+      "advise_catalyst": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one.",
+      "advise_friction": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."
+    },
+    "cta_verdict": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "carry": {
+      "excess": "the Expression excess idiom, metal sinking in too much water"
+    }
+  }
+}

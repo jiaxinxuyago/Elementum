@@ -1,0 +1,165 @@
+{
+  "$archetype": "水_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "水_食神",
+  "$generated_by": "fable-v072-cap45",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Giving",
+        "Unforced",
+        "Warm"
+      ],
+      "friction": [
+        "Drifts along",
+        "Comfort first",
+        "Gives it away"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Giving",
+            "angles": {
+              "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, so you give the help ahead of the ask. Keep giving first, because you were never giving to earn your place.",
+              "cost_self": "Where a need is in front of you, you give before asking whose it was. You keep giving ahead of wanting, so your own wants sit last in line. Let one person give to you, because you never get the pleasure you never ask for.",
+              "cost_others": "Long before the ask, you give people what they need. You give the answer rather than let the ones you love ask, so you leave them out of practice. Wait for the question sometimes, since being asked is also a way of being given to."
+            }
+          },
+          {
+            "word": "Unforced",
+            "angles": {
+              "drive": "What you make comes out unforced, and you hardly notice how rare that is. Since effort is the only proof you trust, you put what you forced ahead of what came easily. Let the unforced thing count, because it was never the lesser one.",
+              "cost_self": "Whenever something comes to you without effort, you count it as worth less. You trust the forced version more than the easy one, so you add effort to finished work. Leave the unforced thing alone, because every hour spent forcing it is rest you lose.",
+              "cost_others": "Looking unforced is how you are kind to those you make things for. You hide the effort rather than show the care, so you keep them from knowing their worth to you. Let the effort show sometimes, since the care is the part worth keeping."
+            }
+          },
+          {
+            "word": "Warm",
+            "angles": {
+              "drive": "Warmth matters to you more than winning the point. You make the warmth around you on purpose, because an easy evening is where you are most yourself. Keep making it, and sit inside that warmth as a guest some evenings.",
+              "cost_self": "Keeping things warm for everyone comes before saying the hard thing. Since you keep the warmth rather than risk it on one honest sentence, you carry that sentence alone. Say it early, because staying warm costs you the one sentence you most need to say.",
+              "cost_others": "Each time something hard has to reach someone, you warm it first. You keep a child warm rather than tell them plainly what you saw, so you hold the plain version back. Give them the plain version sometimes, since the warmth was never in doubt."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Drifts along",
+            "angles": {
+              "drive": "Drifting along comes easier than steering, and mostly you do. More Water moves through you than comes back in, so you drift with what moves rather than pick a direction. Keep in mind that you pick the drift each time you let the day decide.",
+              "cost_self": "Most days you drift, and it rarely feels like a loss. Since you take in less than you let out, you drift to whatever is nearest rather than pick. You still want things, and the drift costs you each one that was not nearby.",
+              "cost_others": "Going with the drift keeps things easy for everyone. Whenever you drift with a plan instead of saying what you wanted, you leave the people closest to you guessing. Remind yourself that you owe them a real answer, and the drift is not one."
+            }
+          },
+          {
+            "word": "Comfort first",
+            "angles": {
+              "drive": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. Do not forget that you enjoy comfort more once the thing is finished.",
+              "cost_self": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, so what you avoided waits for you unchanged. You are taking comfort where you needed rest, and tomorrow you are just as tired.",
+              "cost_others": "Keeping everyone around you comfortable comes before asking anything of them. Since you put a child's comfort ahead of what they promised, you take from them the small steadiness they needed. Remember that you get to be both the comforting one and the steady one."
+            }
+          },
+          {
+            "word": "Gives it away",
+            "angles": {
+              "drive": "What you have, you give away before checking whether enough is left. Since giving is the nearest you get to feeling like yourself, you give away more than you keep. You are one of the people you give to, and that is worth remembering.",
+              "cost_self": "Giving things away is quicker for you than working out what you need. You give out more than comes back, so you end most weeks with less than you started with. You go without exactly what you gave away, the rest and the money.",
+              "cost_others": "You give your hours to whoever is nearest, without deciding. Since you give everyone something rather than keep enough for the few who count on you, you leave them less than was theirs. You give best from something kept, and keeping is part of giving."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fluent",
+            "angles": {
+              "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do.",
+              "cost_self": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+              "cost_others": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+            }
+          },
+          {
+            "word": "Nourishing",
+            "angles": {
+              "drive": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Your output feeds: conversation, cooking, company, all of it lands as sustenance rather than display. Feeding people is simply the shape your talent takes, in every medium.",
+              "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time.",
+              "cost_others": "Nobody leaves your table the way they arrived, and word of that travels. You are the number people call on the bad night, the kitchen they route the heartbroken friend toward. It is a strange kind of fame, warm and unlisted, and you earned it a bowl at a time."
+            }
+          },
+          {
+            "word": "Easygoing",
+            "angles": {
+              "drive": "Your tempo stays loose where other people clench, which is temperament rather than effort. Pressure has never found your dial, and around you it loses track of everyone else’s too. Ease like yours cannot be faked under load. Its realness is what makes it contagious.",
+              "cost_self": "The flight is cancelled, the line is furious, and somehow you are at the counter making the gate agent laugh while the rebooking happens. Nothing about it was strategy. Loose is just the setting you run at, and pressure has never found the dial.",
+              "cost_others": "Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Drifting",
+            "angles": {
+              "drive": "Following the day’s current instead of steering it is a habit now, whatever it started as. The Tuesday you set aside for writing became errands, a nap, and a show, and at no point did anyone decide that. The not-deciding is the whole mechanism.",
+              "cost_self": "The Tuesday reserved for writing turned into a pharmacy run, then a nap, then just one episode. Each step was reasonable. By eleven at night the day had been fully spent and nobody had ever actually spent it, which is how most of your Tuesdays go missing.",
+              "cost_others": "Anyone auditing your week would find no disasters, just a soft trail of almosts. Plans that dissolved politely. People stopped expecting the novel, the channel, the business, and you noticed them stopping, and even that noticing drifted off downstream with the rest."
+            }
+          },
+          {
+            "word": "Indulgent",
+            "angles": {
+              "drive": "Treating yourself is your first answer to most feelings, and by now the treats have a routing system. Stress orders dessert, boredom opens the app, sadness books the trip. The card statement reads like a mood diary, and the moods are winning.",
+              "cost_self": "Last month’s card statement, read honestly, is a diary. The dessert on the stressful ninth, the flights browsed at midnight on the lonely seventeenth, the gadget that arrived after the argument. Every feeling got fed. The one thing still hungry at the end was the work.",
+              "cost_others": "You are famously good to yourself, and friends joke about it right up to the line where it stops being funny. Comfort was supposed to be the refill between efforts. Lately nobody, including you, can point to the effort it is refilling for."
+            }
+          },
+          {
+            "word": "Unmoved",
+            "angles": {
+              "drive": "It takes a great deal to move you, and less would honestly serve you better. The deadline, the news, the argument all get the same shrug and the same tea. Calm this deep is a talent right up until it becomes a moat.",
+              "cost_self": "The deadline got a shrug and a fresh cup of tea. So did the news, and the argument, and the email marked urgent twice. Then one Thursday everything landed at once, and the calm you had been so proud of turned out to be a backlog.",
+              "cost_others": "People have stopped bringing you their urgency, since it comes back to them unshaken and slightly damp. What reads as depth is sometimes just distance. The things that should reach you do not, and downstream of that, neither do the people attached to them."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fluent",
+        "Nourishing",
+        "Easygoing"
+      ],
+      "friction": [
+        "Drifting",
+        "Indulgent",
+        "Unmoved"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "$archetype": "火_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "火_七杀",
+  "$generated_by": "fable-v072-cap45",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Clear under pressure",
+        "Takes charge",
+        "Loves high stakes"
+      ],
+      "friction": [
+        "Hard on yourself",
+        "Pushes too hard",
+        "Never off duty"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clear under pressure",
+            "angles": {
+              "drive": "Pressure is where your thinking gets clear. Since you need certainty more than comfort, you let outside pressure clear your head rather than make your own calm. Choose some of that pressure yourself, because you are only this clear with something at stake.",
+              "cost_self": "Whenever the pressure lifts, your clear head goes with it and a quiet week feels like punishment. You would rather be clear under pressure than rested without it. Let one quiet week count as rest, because you trade the rest you need for clarity.",
+              "cost_others": "You bring pressure into calm places. Since you think more clearly under pressure, you put it on the people near you as much as yourself. Keep most of that pressure for yourself, because you take a calm evening from the people at home."
+            }
+          },
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge before the vote. Hand the next one over, because you take charge better by choice than by habit.",
+              "cost_self": "Being in charge weighs on you once you take it. You feel safer in charge alone than sharing it, so you are rarely carried. Let one person carry part of it, because you pay for being in charge by never being looked after.",
+              "cost_others": "Wherever a plan stalls, you take charge and mean it kindly. Because a slow group feels risky, you take charge rather than wait your turn. Leave the next one to them, since each time you take charge you take their chance to decide."
+            }
+          },
+          {
+            "word": "Loves high stakes",
+            "angles": {
+              "drive": "Nothing at stake feels to you like being passed over. Since you only come awake with something to lose, you take high stakes over sure things. Keep one high-stakes thing going, because you were built to be tested rather than kept safe.",
+              "cost_self": "Loving high stakes means a calm stretch never feels like a reward. You would rather raise the stakes on something good than let it stay quietly good. Let one good thing stay low-stakes, because you keep spending the calm you could have kept.",
+              "cost_others": "When a day has no stakes, you add some. Since an easy win bores you more than a hard loss, you raise everyone's stakes with yours. Keep high stakes for your own plans, because you take the plain good day from those beside you."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. Remember that you never passed a test by going hard on yourself for failing it.",
+              "cost_self": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. Bear in mind that you pay for this hardness in days off never taken.",
+              "cost_others": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. Remind yourself that being so hard on yourself in front of them takes the ease from their evening."
+            }
+          },
+          {
+            "word": "Pushes too hard",
+            "angles": {
+              "drive": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along ahead of asking whether they wanted pushing. Do not forget that you push a person as hard as you push a problem.",
+              "cost_self": "Each time you push too hard, you spend strength you do not have. You would rather push through than keep the energy to finish the week. You pay for pushing too hard in lost sleep, so remember that the bill is yours alone.",
+              "cost_others": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. Before the next push, remember that you are harder to be close to than to follow."
+            }
+          },
+          {
+            "word": "Never off duty",
+            "angles": {
+              "drive": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty ahead of ending the day. Remember you were made to meet a crisis rather than stay on duty after it.",
+              "cost_self": "When one emergency ends, you look for the next rather than go off duty. You never take a rest you did not fight for, so duty is your normal. Only you can call yourself off duty, and waiting costs you every evening at home.",
+              "cost_others": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard ahead of someone to sit with. Remember how hard you are to reach when most on duty for them."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Decisive",
+            "angles": {
+              "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
+              "cost_self": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+              "cost_others": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+            }
+          },
+          {
+            "word": "Daring",
+            "angles": {
+              "drive": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The feared thing shrinks on contact, every single time, and you have known that longer than most people have been avoiding their own versions of it.",
+              "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes.",
+              "cost_others": "Teams keep a mental list of things nobody wants to do, and your name has drifted next to most of them. Colleagues call it bravery to your face and something more useful behind your back: proof that the scary version of a task rarely survives contact with someone unafraid of it."
+            }
+          },
+          {
+            "word": "Crisis-ready",
+            "angles": {
+              "drive": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners.",
+              "cost_self": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new hall, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
+              "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Too intense",
+            "angles": {
+              "drive": "Your intensity marks people whether you mean it or not, and you usually do not. The heat that cuts through problems does not distinguish problems from bystanders, and the bystanders remember longer. You forget the flare by lunch. Nobody standing near it ever does.",
+              "cost_self": "It was one word, sloppy, said at speed on a Tuesday and forgotten by lunch. A year later the person who caught it can still play it back with your exact inflection. You were putting out a fire. They were standing closer to it than you noticed.",
+              "cost_others": "New people get warned about you, gently, in hallways: brilliant, worth it, wear gloves. The warnings are affectionate and they are also warnings. Half the silence you read as respect is actually flinch, and the difference matters more every year you climb."
+            }
+          },
+          {
+            "word": "Bossy",
+            "angles": {
+              "drive": "Taking charge is your reflex even where nobody asked, and mostly nobody asked. Any gathering without a commander strikes you as an emergency, and you fix it by quietly assuming the post. Order arrives on schedule. Volunteering, around you, just as quietly dies.",
+              "cost_self": "The vacation had a schedule by the first morning and a debrief by the last night, and somewhere in between, the group chat went quiet. One-word replies, thumbs up, fine. You ran a beautiful operation. The others were on holiday, or trying to be.",
+              "cost_others": "People under your command perform agreement long before they feel it, because pushing back costs more energy than most afternoons contain. Decisions that were never yours keep ending up yours. It feels like leadership from where you stand. From two steps away it looks like weather everyone dresses for."
+            }
+          },
+          {
+            "word": "Burned-out",
+            "angles": {
+              "drive": "Running at full flame until the fuel simply ends is a cycle for you, and calling it bad luck stopped working several cycles ago. The crash sits on the schedule now, as regular as the campaigns themselves. You just decline to read that far down.",
+              "cost_self": "The three months of heroics ended the way they always end, with two weeks where getting up felt like a rumor. From the couch you drafted apologies and, in the same hour, the next campaign. The pattern is so regular a friend once predicted your crash to within four days.",
+              "cost_others": "Everyone around you can see the crash coming except you, and they have learned not to say so out loud. They plan for your two dark weeks the way coastal towns plan for storm season, quietly moving what matters to higher ground. The storm never once takes the hint."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Decisive",
+        "Daring",
+        "Crisis-ready"
+      ],
+      "friction": [
+        "Too intense",
+        "Bossy",
+        "Burned-out"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "heavy Order on a weak body turns into the inner judge: pressure with no outside target lands on the self",
+      null,
+      null,
+      "force without permission: too much Order for the body, so the pressure goes outward onto whoever is near",
+      null,
+      null,
+      "peace felt as demotion, on the friction pole: the reader cannot stand down, so the crisis is kept alive"
+    ]
+  }
+}

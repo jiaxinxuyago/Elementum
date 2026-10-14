@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_正财",
+  "$generated_by": "fable-v072-cap45-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Patient builder",
+        "Saves first",
+        "Loyal"
+      ],
+      "friction": [
+        "Stays too long",
+        "Counts everything",
+        "Slow to trust"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Patient builder",
+            "angles": {
+              "drive": "What you build, you build to last, in no hurry. Since you want a thing to last more than arrive first, you build it for years ahead of starting another. Celebrate halfway through each build, because the years are the price you pay."
+            }
+          },
+          {
+            "word": "Saves first",
+            "angles": {
+              "drive": "You save first and spend what is left, never as a sacrifice. Since money kept calms you more than money spent, you save before pleasure every time. Let pleasure win once in a while, because that is what the saving is for."
+            }
+          },
+          {
+            "word": "Loyal",
+            "angles": {
+              "drive": "You stay loyal and count it as the love itself. Being someone's certainty feels better than being their surprise, so you keep being loyal ahead of being new. Be new for them sometimes, because you were chosen for more than your loyalty."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stays too long",
+            "angles": {
+              "drive": "Staying put is a choice you make without noticing. Since letting go feels like loss, you stay past the point a place feeds you rather than risk an empty one. You are paying for the stay, remember, in months that give nothing back."
+            }
+          },
+          {
+            "word": "Counts everything",
+            "angles": {
+              "drive": "You count the price of most things, more than once. Since control feels like safety, you would rather count what something costs than learn its worth. Do not forget that counting is how you try to feel safe, and the sum never reads safe."
+            }
+          },
+          {
+            "word": "Slow to trust",
+            "angles": {
+              "drive": "You trust slowly, and the slow years are the test. Because being let down would cost more than staying alone, you wait for proof rather than trust first. You are waiting to trust on a guarantee love never gives, and you know it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cultivating",
+            "angles": {
+              "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+            }
+          },
+          {
+            "word": "Compounding",
+            "angles": {
+              "drive": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly."
+            }
+          },
+          {
+            "word": "Deep-rooted",
+            "angles": {
+              "drive": "Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stuck",
+            "angles": {
+              "drive": "Outgrowing a place and staying anyway is a pattern of yours, and calling it loyalty stopped being accurate a while ago. The ground you hold has long since stopped feeding you. Holding it anyway is the habit, and the habit never checks the yield."
+            }
+          },
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "Weighing a risk is your reflex, and almost no risk survives the weighing. The analysis is always excellent and always lands on later, because the math was never the real obstacle. The deciding was, and the deciding still is."
+            }
+          },
+          {
+            "word": "Inflexible",
+            "angles": {
+              "drive": "Once your way of doing things works, it hardens into the only way you will do them. Working once, for you, is proof of permanent correctness, and every update gets treated as an accusation. Your way still works. That was never the question people were raising."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Cultivating",
+        "Compounding",
+        "Deep-rooted"
+      ],
+      "friction": [
+        "Stuck",
+        "Plays it safe",
+        "Inflexible"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

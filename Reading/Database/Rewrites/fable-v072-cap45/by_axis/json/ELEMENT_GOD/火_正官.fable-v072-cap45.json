@@ -1,0 +1,176 @@
+{
+  "$archetype": "火_正官",
+  "axis": "ELEMENT_GOD",
+  "key": "火_正官",
+  "$generated_by": "fable-v072-cap45",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Keeps every promise",
+        "By the book",
+        "Earns the title"
+      ],
+      "friction": [
+        "Rule-bound",
+        "Afraid to slip",
+        "Never says no"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keeps every promise",
+            "angles": {
+              "drive": "Every promise you make becomes a rule you keep. Being relied on is the closest you get to feeling safe, so you keep your word ahead of your freedom to change it. Promise a little less freely, because you keep every one you make.",
+              "cost_self": "Keeping a promise costs you the right to change your mind. You would rather keep a stale promise than break it, so you stay inside plans past their use. Let yourself out of one, because you turn down better offers to keep old promises.",
+              "cost_others": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold everyone to every one they make. Let small promises go, since you leave your friends no freedom to have only been talking."
+            }
+          },
+          {
+            "word": "By the book",
+            "angles": {
+              "drive": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book ahead of the quick way. Stay with the book, because you are the standard the work gets checked against.",
+              "cost_self": "Where the book and your judgment part, you side with the book. You want it done in order more than your way, so you let the book decide what you knew. Allow the book one exception, because you give up chances that cannot wait.",
+              "cost_others": "Doing it by the book counts as respect paid forward. Because you want it right more than fast, you hold a friend's rushed job to the book too. Name the book out loud first, since you take the easy way from everyone beside you."
+            }
+          },
+          {
+            "word": "Earns the title",
+            "angles": {
+              "drive": "A fairly earned title is worth more to you than any praise. Since an earned rank says you belong, you earn the next title ahead of chasing the next thrill. Let the title come slowly, because you are already doing the job it names.",
+              "cost_self": "Earning the title comes first, claiming it long after. You want to look deserving more than to be paid, so you earn it twice before asking once. Claim it now, because earning it so slowly leaves money you were owed on the table.",
+              "cost_others": "Where titles are concerned, you make everyone earn theirs too. An unearned rank looks like cheating, so you give a colleague the long route rather than a quiet word. Say the word sometimes, because you take from them the years that earning costs."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Rule-bound",
+            "angles": {
+              "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, so you keep the correct one ahead of the useful one. You wrote most of these rules yourself, and you can retire them.",
+              "cost_self": "Between a rule and a chance, you take the rule. You put being correct ahead of being free, so your career keeps the rules and never jumps. Bear in mind that you keep each rule at the price of jobs you never went for.",
+              "cost_others": "Keeping to the rules is how you look after people. Because one exception looks like a collapse starting, you give them the rule ahead of what they asked for. Never forget that you hand the rules holding you in to everyone living with you."
+            }
+          },
+          {
+            "word": "Afraid to slip",
+            "angles": {
+              "drive": "Fear of slipping runs under most of what you do well. Since your standing holds your worth, you would rather never be seen to slip than be at ease. Remember how much less you are watched for a slip than watching for one.",
+              "cost_self": "One slip stays with you longer than with anyone who saw it. Afraid to slip, you put looking steady ahead of feeling rested, so good days tire you like bad ones. Remind yourself how much rest you lose over slips you never made.",
+              "cost_others": "Hiding every slip is how you serve those who depend on you. Since a visible slip reads as failed duty, you offer them a composed self ahead of a true one. Before hiding the next slip, remember that you take their chance to help."
+            }
+          },
+          {
+            "word": "Never says no",
+            "angles": {
+              "drive": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you answer yes to the next request ahead of finishing the last. Remember you can only say yes for as long as you last.",
+              "cost_self": "Whenever you say yes, you spend hours promised to yourself. Holding things together comes ahead of getting home, so you trade sleep for another yes. You are nobody's standard once you run out of sleep to say yes with, and that is worth remembering.",
+              "cost_others": "Saying yes to everyone keeps your place in their lives. Because a refusal feels like lost standing, you give everyone a slice rather than anyone your whole self. You will want to remember that you give those who need you most whatever is left."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Upstanding",
+            "angles": {
+              "drive": "You conduct yourself like someone permanently on camera, and the footage would hold up. The taxes are clean, the promises kept, the small ethics observed when nobody is checking. In a dim market, your reputation shines at a distance, and it was polished entirely by boring choices.",
+              "cost_self": "The wallet you found held four hundred in cash and no witnesses, and its owner got a call within the hour, everything intact. He offered a reward. You declined it with a strange embarrassment, as if thanked for breathing. He tells the story more than you do.",
+              "cost_others": "People invoke you when arguing about what is possible: some folks manage it, look at them. Your existence is quietly load-bearing for other people’s standards. The compliment you hear most often, from strangers and auditors alike, is some version of: everything checks out."
+            }
+          },
+          {
+            "word": "Squeaky-clean",
+            "angles": {
+              "drive": "Your integrity gives off actual light. People behave better in your radius without being asked, the meeting sits straighter when you join, and the shady proposal dies unspoken because you happened to be at the table. You illuminate by standing there. It is a strange, real power.",
+              "cost_self": "The vendor arrived with the usual flexible arrangement and, twelve minutes into your company, quietly stopped offering it. Nothing was said. Your presence had simply lit the transaction, and things done in the dark declined to attend. Your boss now brings you to certain meetings as equipment.",
+              "cost_others": "People confess to you unprompted, at parties, in elevators: small frauds, old guilt, the thing they never told anyone. You never solicit it. Light draws what needs light. Half your acquaintances have a cleaner conscience because you exist, and none of them can explain the mechanism politely."
+            }
+          },
+          {
+            "word": "Inspiring",
+            "angles": {
+              "drive": "Your example ignites effort in other people. The way you carry duty makes duty look survivable, even attractive, and quiet copies of your habits keep appearing around you: the early start, the kept word, the straight answer. You lead mostly by being watchable while doing it right.",
+              "cost_self": "A junior colleague told you, three years later, that they had almost quit the field until they watched you handle the audit season with visible integrity and no visible martyrdom. They stayed, and now run their own team on what they call, without irony, the standard.",
+              "cost_others": "Teams perform above their history when you lead them, and the mechanism is embarrassingly simple: people rise to being trusted the way you trust them, publicly and on the record. Departments compete for you. What they are actually bidding on is the version of themselves you produce."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stern",
+            "angles": {
+              "drive": "Your standards arrive with heat behind them. The correction lands harder than intended, the disappointment radiates, and small failures around you acquire courtroom acoustics. People perform for your approval and flinch at your review. The excellence is real. So is the tension holding it up.",
+              "cost_self": "Your son practiced parallel parking with you twice and with his aunt eleven times, a statistic you learned by accident and have thought about since. The aunt is a worse driver and a warmer climate. He passed the test and called her first, from the car, laughing.",
+              "cost_others": "People escalate to you last, after exhausting every softer authority, and enter your presence pre-apologized. The respect is genuine and shaded with weather-checking. What nobody tells you, because telling you would take courage they save for emergencies, is how much easier they breathe when your calendar says traveling."
+            }
+          },
+          {
+            "word": "Appearance-bound",
+            "angles": {
+              "drive": "The image runs the household. How it looks decides over how it feels: the presentable marriage, the impressive title, the holiday card version of events, maintained at rising cost. Somewhere behind the facade, the actual life waits for its schedule to open, and the facade keeps overrunning.",
+              "cost_self": "The dinner party was flawless, the couple hosting it had not spoken privately in six days, and both facts were executed with equal discipline. Guests praised the roast and the marriage in the same breath, on the doorstep, in the dark. The car ride home was silent, again.",
+              "cost_others": "People sense the curation and adjust their honesty downward around you, matching your polish with their own, so that the friendship proceeds between two brochures. The real versions occasionally wave to each other, late at night, in slips neither side follows up on. The brochures lunch monthly."
+            }
+          },
+          {
+            "word": "Overextended",
+            "angles": {
+              "drive": "Obligation keeps hiring you and you keep accepting. The committee, the second committee, the covering-for-a-colleague that became permanent: each obligation was honorable, and their sum is a schedule with no oxygen in it. Your word is your bond, which is precisely how the bonds keep accumulating.",
+              "cost_self": "The month contained thirty-one days and thirty-four commitments, and the mathematics resolved the way it always does: your own checkup postponed, twice, in favor of things you had promised to people who would have understood. The doctor’s office has a word for you. It is February.",
+              "cost_others": "People bring you obligations the way undertows bring swimmers, confident of your yes, and your yes has not disappointed anyone in a decade except the person issuing it. The burnout is scheduled the way everything about you is scheduled: penciled in, deferred, and utterly reliable."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Upstanding",
+        "Squeaky-clean",
+        "Inspiring"
+      ],
+      "friction": [
+        "Stern",
+        "Appearance-bound",
+        "Overextended"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "rigidity as the Magistrate's shadow: the frame that steadies the reader also holds the reader in",
+      null,
+      null,
+      "the standard turned inward on a weak body: status as the place safety is kept, so a slip reads as a fall",
+      null,
+      null,
+      "overextension: too much Order for the body, so every call for order is answered as a personal duty"
+    ]
+  }
+}

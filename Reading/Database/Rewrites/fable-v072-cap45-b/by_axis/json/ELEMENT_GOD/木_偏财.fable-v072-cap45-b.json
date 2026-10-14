@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_偏财",
+  "$generated_by": "fable-v072-cap45-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Spots openings",
+        "Quick to start",
+        "Generous"
+      ],
+      "friction": [
+        "Chases the new",
+        "Spread thin",
+        "Spends freely"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spots openings",
+            "angles": {
+              "drive": "You spot a chance early and trust the spotting. Wood is the energy you have least of, so you spot far things ahead of close ones. Spot one close thing a week with the same care, since the far one keeps."
+            }
+          },
+          {
+            "word": "Quick to start",
+            "angles": {
+              "drive": "You start things early and without fuss, before any plan exists. Waiting feels like losing time, so you start the quick version ahead of the sure one. Start the way you do, and carry one start past where it stops being new."
+            }
+          },
+          {
+            "word": "Generous",
+            "angles": {
+              "drive": "You give before you count, and rarely regret it. Holding back feels like holding your breath, so you give to whoever needs it ahead of your own plans. Give one month a plan as well, because a plan is how your generosity lasts."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases the new",
+            "angles": {
+              "drive": "The first week of anything is the one you chase. Since the new shows no flaws, you chase it ahead of finishing the old. You know by now that the new has the same flaws waiting, so chasing it costs more than finishing."
+            }
+          },
+          {
+            "word": "Spread thin",
+            "angles": {
+              "drive": "You spread over the next thing as easily as the first. Since every open option feels like safety, you spread across half chances rather than hold a whole one. Do not forget that chances come easily, and strength for one is what spreading costs."
+            }
+          },
+          {
+            "word": "Spends freely",
+            "angles": {
+              "drive": "You spend money as if it were made to move. Money held back feels like life held back, so you spend it today rather than save for a day you have not met. You already know how early you spend the quiet months."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Wide-branching",
+            "angles": {
+              "drive": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching."
+            }
+          },
+          {
+            "word": "Deal-maker",
+            "angles": {
+              "drive": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit."
+            }
+          },
+          {
+            "word": "Open-handed",
+            "angles": {
+              "drive": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Scattered",
+            "angles": {
+              "drive": "Starting is your genuine talent, and staying is the tax you keep finding ways around. Your energy is all spring and no autumn: everything gets planted, nothing gets brought in, and the finish line remains a rumor from other people’s lives."
+            }
+          },
+          {
+            "word": "Overgrown",
+            "angles": {
+              "drive": "Adding commitments is a reflex you no longer notice, the way a hedge never notices new branches. Every yes seemed small at the moment of signing. The sum runs your life now, and the important thing keeps not happening inside a calendar too full to hold it."
+            }
+          },
+          {
+            "word": "Fickle",
+            "angles": {
+              "drive": "Your interest burns hottest at the start and moves on before results arrive, and the pattern is old enough to have its own shelf. Enthusiasm was never the missing ingredient in any of it. Week seven is, and week seven always has been."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Wide-branching",
+        "Deal-maker",
+        "Open-handed"
+      ],
+      "friction": [
+        "Scattered",
+        "Overgrown",
+        "Fickle"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

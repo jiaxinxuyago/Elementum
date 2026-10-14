@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "金_劫财",
+  "$generated_by": "fable-v072-cap45-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the second polish, cap 30 to 45",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Competitive",
+        "First to bet",
+        "Shares the risk"
+      ],
+      "friction": [
+        "Keeps score",
+        "Bets the rent",
+        "Hates to lose"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Competitive",
+            "angles": {
+              "drive": "Competing against someone moves you faster than any praise. Since you carry little Metal, you would rather borrow strength from a contest than from comfort. Compete with someone who also wants you to win, because you run a race that never announces a finish."
+            }
+          },
+          {
+            "word": "First to bet",
+            "angles": {
+              "drive": "Being first to bet is the part you enjoy. Betting first gives you strength where waiting gives none, so the bold move comes ahead of the sure one. Let one sure thing count, because you never count wins you did not bet on."
+            }
+          },
+          {
+            "word": "Shares the risk",
+            "angles": {
+              "drive": "A shared risk is your fastest way into partnership. Being in it together matters more than being safe, so you split the stakes before the roles. Keep the roles clear, because you lose friends in a loose deal as easily as cash."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Keeps score",
+            "angles": {
+              "drive": "Your sense of fair is a running score, one column per friend. With more Metal than you use, you count the friends you keep instead of having them. You know already that you count to stay fair and lose the closeness to the count."
+            }
+          },
+          {
+            "word": "Bets the rent",
+            "angles": {
+              "drive": "A small bet feels like no bet, and a safe one like a loss. The stakes wake you up, so you would rather bet past safe than sit out. Notice that you bet on the thrill from the account that pays the rent."
+            }
+          },
+          {
+            "word": "Hates to lose",
+            "angles": {
+              "drive": "Losing to a peer follows you home and stays the night. Since your worth runs on comparison, you read every loss as being less rather than doing less. You are allowed to lose a round without losing your place, and forget it each time."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keen-edged",
+            "angles": {
+              "drive": "Competition hones you visibly. The rival’s number posted on your wall, the timed run against your own record, the deal chased sharper because someone else wants it: pressure grinds you finer instead of down, and your edge is renewed weekly, on purpose, against real resistance."
+            }
+          },
+          {
+            "word": "Competitive",
+            "angles": {
+              "drive": "Everything can be scored, and you are keeping score. The sales board, the board game, the parallel parking: your intensity arrives regardless of stakes, and it lifts the whole field, because coasting near you is simply not available. Games mean more when you are playing. Everyone plays harder."
+            }
+          },
+          {
+            "word": "Unfazed",
+            "angles": {
+              "drive": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutthroat",
+            "angles": {
+              "drive": "Winning has stopped checking its methods with you. The shortcut through a colleague’s territory, the information used a half-step past fair, the alliance dropped at the moment of maximum value: each move defensible in isolation, and together a style that people describe with one hand on their wallet."
+            }
+          },
+          {
+            "word": "Abrasive",
+            "angles": {
+              "drive": "Contact with you sands people down. The interruption at speed, the correction without cushioning, the volume that arrives when resistance does: none of it is malicious, and all of it accumulates, until working near you requires the kind of gloves people resent needing."
+            }
+          },
+          {
+            "word": "Picks fights",
+            "angles": {
+              "drive": "Everything becomes a contest, including things that were conversations. The differing opinion escalates to a showdown, the casual game develops stakes, the family dinner acquires a scoreboard nobody else consented to. You win most of them. The wins pile up in a specific corner, alone."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Keen-edged",
+        "Competitive",
+        "Unfazed"
+      ],
+      "friction": [
+        "Cutthroat",
+        "Abrasive",
+        "Picks fights"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}
