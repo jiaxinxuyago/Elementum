@@ -161,5 +161,20 @@
  "Q39": {
   "pick": "A",
   "at": "2026-10-14T01:25:39.429Z"
+ },
+ "Q40": {
+  "pick": "A",
+  "note": "A, but no cooking as an example: this is Expression, giving and kindness; cooking reads out of place here",
+  "at": "2026-10-14T01:26:37.575Z"
+ },
+ "Q41": {
+  "pick": "C",
+  "note": "C, but fix the last sentence ('You do not know where the words are before they arrive. They just do.')",
+  "at": "2026-10-14T01:28:07.319Z"
+ },
+ "Q42": {
+  "pick": "A",
+  "note": "A, with reservation: the description reads broken, too specific on one example, and fails to deliver the main point",
+  "at": "2026-10-14T01:29:28.274Z"
  }
 }
