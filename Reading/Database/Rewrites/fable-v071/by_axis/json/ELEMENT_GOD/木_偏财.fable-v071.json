@@ -1,0 +1,165 @@
+{
+  "$archetype": "木_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_偏财",
+  "$generated_by": "fable-v071",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Spots openings",
+        "Quick to start",
+        "Generous"
+      ],
+      "friction": [
+        "Chases the new",
+        "Spread thin",
+        "Spends freely"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spots openings",
+            "angles": {
+              "drive": "Seeing an opening where there was nothing is simply how you look. You have more drive than you have Wood to spend it on, so you feel the far chance more than the one already in your hand. Let the near thing have you for an hour, since the far one keeps.",
+              "cost_self": "Where your attention goes is always a little ahead of where your feet are. Since you want to be free more than you want to be settled, you keep one eye on the next opening instead of resting in this one. Let yourself arrive somewhere fully, because arriving is the part you keep skipping.",
+              "cost_others": "Your generosity is pointing out the next opening to whoever is near. Since the far chance feels more alive to you, you hand the near one off rather than finish it, and you leave the rest with a partner. Finish one thing beside the people who began it, because that is what reaching costs them."
+            }
+          },
+          {
+            "word": "Quick to start",
+            "angles": {
+              "drive": "Starting comes easily to you, long before most people have finished deciding. Moving is how you know you are alive, so you begin and learn rather than wait until you are sure. Begin as freely as you do, and let one thing run long enough to teach you the ending.",
+              "cost_self": "Whenever something new opens, you are halfway in before asking what it will take. Beginning feels like freedom and waiting feels like a cage, so you choose the beginning ahead of the rest you were owed. Take the slow middle along with the start, because the middle is where you finally get to rest.",
+              "cost_others": "Your quick yes pulls people in before the thing is real. Since you need movement more than certainty, you hand them a start and move on, and the finishing falls to the people you brought in. Stay for one ending with them, because the start is the easy half of what you asked."
+            }
+          },
+          {
+            "word": "Generous",
+            "angles": {
+              "drive": "Giving comes more naturally to you than keeping, with money the clearest case. Since an open hand keeps the world feeling wide, you share a lucky month rather than put it away. Give the way you always have and hold one part back, because what you keep is what the giving stands on.",
+              "cost_self": "An open hand is your first answer to most things, and savings pay for it. Since being generous feels more like you than being careful, you send the surplus out ahead of putting any aside. Let one part of a good month be yours, because a thin month comes whether you planned or not.",
+              "cost_others": "Whenever someone close to you is short, you cover it before being asked. Since giving keeps you free in a way being owed never would, you hand things over rather than build anything shared with them. Build one thing with someone instead of handing it over, because a gift is what your freedom costs them."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases the new",
+            "angles": {
+              "drive": "Whatever is newest in front of you is the thing you believe in most. There is more Wood in you than you have strength behind it, so a fresh start pulls you ahead of a finish every time. Remember that you believed just as hard in the thing you left half done.",
+              "cost_self": "Where you are now is rarely where your attention is. Because staying feels like being stuck rather than being home, you spend the hours of the near thing on the plans of the far one. Remember that you are the one who lives in the near life, and you keep feeding it leftovers.",
+              "cost_others": "Leaving for the next thing is how you stay alive. Since the next chance pulls you more than the one you promised, you take your energy with you and leave the unfinished half to your partner. Remember that you promised them the middle as well as the start."
+            }
+          },
+          {
+            "word": "Spread thin",
+            "angles": {
+              "drive": "Running several things at once feels normal to you, and one thing alone feels like being caught. Your Wood outruns the strength carrying it, which is why you keep every option open rather than let one go. Remember how thin you get, spread across all of them with only the one body.",
+              "cost_self": "Your attention is divided among more things than your body keeps up with. Because letting one go feels like losing rather than choosing, you keep them all and give each a tired version of yourself. Remember that you carry the tiredness home, where it has no single cause and no single fix.",
+              "cost_others": "Whenever something new asks for you, you give it a piece others were already using. Since closing an option feels like losing it for good, you leave every one of them open rather than shut any of them. Remember that you hand your partner and family the same thin slice as everything else."
+            }
+          },
+          {
+            "word": "Spends freely",
+            "angles": {
+              "drive": "Money you have not spent feels less real to you than money already gone. Spending is how you keep life feeling open, so an easy month goes out rather than into anything that waits. Remember that you will be the person the slow month happens to.",
+              "cost_self": "Where money is concerned, you are quicker to give it away than to let it sit. Since spending feels like living and saving like waiting, you choose living ahead of waiting and borrow from a month you have not reached. Remember that it is you who arrives in that month, already spent.",
+              "cost_others": "Your money reaches the people around you before it reaches your own next month. Because giving feels better than keeping ever has, you cover their short months rather than build a shared cushion together. Remember that you spend their quiet months as well as your own."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Wide-branching",
+            "angles": {
+              "drive": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
+              "cost_self": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+              "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            }
+          },
+          {
+            "word": "Deal-maker",
+            "angles": {
+              "drive": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit.",
+              "cost_self": "You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.",
+              "cost_others": "Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next."
+            }
+          },
+          {
+            "word": "Open-handed",
+            "angles": {
+              "drive": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.",
+              "cost_self": "You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.",
+              "cost_others": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Scattered",
+            "angles": {
+              "drive": "Starting is your genuine talent, and staying is the tax you keep finding ways around. Your energy is all spring and no autumn: everything gets planted, nothing gets brought in, and the finish line remains a rumor from other people’s lives.",
+              "cost_self": "Four projects, all around forty percent, none moving. The oldest one needed two weekends of work in March, and it is October, and those weekends went to the newest one, which has since also stopped. The finish line has never once seen you up close.",
+              "cost_others": "People have stopped asking how the projects are going, because the answer is always the same word, almost. Your talent was never the question. What they are waiting for, some more patiently than others, is a single finished thing to point at."
+            }
+          },
+          {
+            "word": "Overgrown",
+            "angles": {
+              "drive": "Adding commitments is a reflex you no longer notice, the way a hedge never notices new branches. Every yes seemed small at the moment of signing. The sum runs your life now, and the important thing keeps not happening inside a calendar too full to hold it.",
+              "cost_self": "There is no white space left in the calendar, and reading it honestly is uncomfortable: half the entries are things you volunteered for while already busy. Each one was one small yes. Together they are the reason the important thing keeps not happening.",
+              "cost_others": "From outside, your life looks impressively full, and people say so with admiration. Up close, the fullness has no center. Even your closest people book you two weeks out, and the thing you say matters most has not appeared on the calendar in months."
+            }
+          },
+          {
+            "word": "Fickle",
+            "angles": {
+              "drive": "Your interest burns hottest at the start and moves on before results arrive, and the pattern is old enough to have its own shelf. Enthusiasm was never the missing ingredient in any of it. Week seven is, and week seven always has been.",
+              "cost_self": "The guitar got six good weeks, then the course got its six, then the market stall. Each one was the real thing while it lasted, and the shelf where they ended up is running out of space. Week seven has beaten you more often than any rival.",
+              "cost_others": "Friends now respond to your new obsessions with a warmth they privately ration, because they have met week seven. Nobody doubts the passion. They have simply watched enough six-week eras end to know the shelf, and never the stage, is where this one is headed too."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Wide-branching",
+        "Deal-maker",
+        "Open-handed"
+      ],
+      "friction": [
+        "Scattered",
+        "Overgrown",
+        "Fickle"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

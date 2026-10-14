@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "金_比肩",
+  "$generated_by": "fable-v071-b",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Even-handed",
+        "Recovers alone"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Unteachable",
+        "Asks no one"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "The rules you live by are ones you wrote for yourself. Since Metal is short in you, strength has to be your own making, which puts owing no one ahead of being carried. Be carried once in a while, because a standard kept in private leaves no one placed to catch you."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "angles": {
+              "drive": "Your measure for yourself is your measure for everyone else. Being fair matters to you more than being liked, so you give a straight answer instead of a kind one. Give the kind one first from time to time, because you find few who match your measure and want to keep them."
+            }
+          },
+          {
+            "word": "Recovers alone",
+            "angles": {
+              "drive": "Being alone is how you refill and being around people is how you spend. Since your Metal runs short, you guard the quiet that rebuilds it ahead of any invitation, which keeps you steady and unseen. Accept one invitation while you are tired, because company is the one kind of rest you never take."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "The closed version of you is the only version on offer now. Since your Metal is more than you need, standing alone costs nothing and feels like strength, which puts being unreachable ahead of being known. Remember that you wanted to be known before you wanted to be safe."
+            }
+          },
+          {
+            "word": "Unteachable",
+            "angles": {
+              "drive": "Being corrected feels to you like being made smaller, so you argue the point instead of taking it. Your Metal has more than it spends, which is why standing your ground comes easier than changing your mind. Remember that you can be right or you can grow, and you choose each time."
+            }
+          },
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Asking for help is the one skill you never had to learn. Since you have Metal to spare, carrying it alone always looks possible, which puts getting it done ahead of getting it shared. Remember that you settle every favour you never ask in time and in your own back."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-made",
+            "angles": {
+              "drive": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed."
+            }
+          },
+          {
+            "word": "Reserved",
+            "angles": {
+              "drive": "Keeping most of yourself back is a choice you make daily, and it costs you less than people think. At a party you might say forty words. Three people will still leave convinced you were the most solid person in attendance, and none of them could quote you."
+            }
+          },
+          {
+            "word": "Unshakeable",
+            "angles": {
+              "drive": "Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "angles": {
+              "drive": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
+            }
+          },
+          {
+            "word": "Rigid",
+            "angles": {
+              "drive": "Your rules outlive the reasons for them, and you enforce them anyway. Gym at six, lunch at noon, lights out at eleven, held through a fever and a friend’s one free evening in town. The structure was built to serve you. Somewhere it quietly reversed."
+            }
+          },
+          {
+            "word": "Solitary",
+            "angles": {
+              "drive": "Alone is your default answer, and it kept answering long after the question changed. You moved apartments twice with rented dollies and zero phone calls, and both times at least one person would have said yes. Proving you can was settled years ago. You keep proving it."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-made",
+        "Reserved",
+        "Unshakeable"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Rigid",
+        "Solitary"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

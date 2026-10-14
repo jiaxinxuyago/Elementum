@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_正印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_正印",
+  "$generated_by": "fable-v071-b",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Calming presence",
+        "Knows what works",
+        "Patient teacher"
+      ],
+      "friction": [
+        "Plays it safe",
+        "Overprotective",
+        "Same old answers"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Calming presence",
+            "angles": {
+              "drive": "You give steadiness more freely than you ever ask for it. Keeping the people you love steady is what makes you feel useful, so you play the calm one rather than the one being calmed. Try handing that part over for an evening, because the calm you give is calm you also need."
+            }
+          },
+          {
+            "word": "Knows what works",
+            "angles": {
+              "drive": "You keep the answers that have been paid for and shelve the rest. Knowing what has held matters to you ahead of knowing what is current, which is why you change your mind slowly. Let one newer answer onto the shelf each year, since you paid for the kept ones in chances you never took."
+            }
+          },
+          {
+            "word": "Patient teacher",
+            "angles": {
+              "drive": "You explain things at the pace the other person can take them in. Because their understanding comes ahead of your being quick, you say it again rather than say it louder. Let someone teach you something slowly once in a while, since the patience you give is patience you are also owed."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "You keep what you have rather than find out what else there is. Because comfort feels like safety to you, you pick the known house over the open door and change your days slowly. Remember, you can be safe without being small, and you get to pick which word is yours."
+            }
+          },
+          {
+            "word": "Overprotective",
+            "angles": {
+              "drive": "You step in ahead of the fall rather than after it. Needing the people close to you alright runs deeper than needing them free, so you solve what they were about to learn from. Remember that you cannot be hurt in someone's place, and you take the lesson whenever you take the fall."
+            }
+          },
+          {
+            "word": "Same old answers",
+            "angles": {
+              "drive": "You go to the same few people for answers and get the ones you expected. Because being told what you already know feels like being held, you ask the voices that agree rather than the ones that argue. Remember that you picked those voices yourself, and you are free to pick one more."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Grounding",
+            "angles": {
+              "drive": "Steadying other minds is something your presence does before you say anything. Panicked friends arrive spinning and leave walking. You ask the slow questions, name the one thing that is actually true, and the drama finds it has nowhere to plug in."
+            }
+          },
+          {
+            "word": "Enduring",
+            "angles": {
+              "drive": "Your mind holds its positions across years the way soil holds fence posts. What you learned stays learned, what you believe survives fashion, and the people you decided to love are loved on a standing basis. Time passes through you without washing much away."
+            }
+          },
+          {
+            "word": "Sustaining",
+            "angles": {
+              "drive": "Feeding minds is your quiet occupation. The right book arrives from you at the right month, the question that untangles a stuck decision arrives on the right walk, the belief in someone mid-doubt gets held steady. You resource people the way rain resources fields, regularly and without ceremony."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Closed-off",
+            "angles": {
+              "drive": "Your mind trusts its home ground and quietly stopped traveling. The same three sources, the same trusted voices, the same conclusions wearing deeper into the same paths. New input has to marry into the family to be heard. The walls were comfort once. Now they are also the view."
+            }
+          },
+          {
+            "word": "Buried",
+            "angles": {
+              "drive": "Your real thoughts live at depths where nobody digs, including you. Feelings get filed under fine, wants get deferred until the ground is somehow ready, and decades pass with the important things interred and load-bearing. The surface stays tidy. The weight underneath is measurable."
+            }
+          },
+          {
+            "word": "Unmoving",
+            "angles": {
+              "drive": "Staying put has become your mind’s answer to open questions. The decision waits, the plan rests, the possibility sits in its chair until it stops asking. Nothing is refused outright. Things are simply outlasted, and the stillness does the declining on your behalf."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Grounding",
+        "Enduring",
+        "Sustaining"
+      ],
+      "friction": [
+        "Closed-off",
+        "Buried",
+        "Unmoving"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

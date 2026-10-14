@@ -1,0 +1,1539 @@
+{
+  "$variable": "ELEMENT_GOD.fn_reading.catalyst.ledger[]",
+  "$generated_by": "fable-v071",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_偏印",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Self-taught",
+        "text": "Learning a thing your own way matters more to you than the approved way. Since you need to understand before you trust, you take the side door into a subject rather than the front one. Let someone walk that route with you sometimes, because a way only you know is lonely to own."
+      },
+      "original": {
+        "word": "Deep-reading",
+        "angles": {
+          "drive": "Taking things in whole is how your mind works, even when the world calls it slowness. You do not sample, you absorb, and what you absorb becomes permanent equipment. Understanding, for you, is not a pass through the material. It is ownership.",
+          "cost_self": "One book, read twice, with notes in the margins the second time through. That is your whole method, and it quietly beats the forty skimmed summaries everyone else is stacking. Ask you about it in a year and it is still there, organized and ready.",
+          "cost_others": "People mistake your pace for being behind, right up until they need someone who actually understood the material. Then they come to you. What reads as slow from the outside is your mind refusing to accept anything it has not fully chewed."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Self-taught",
+        "text": "Whenever you want to know something, you find it out yourself instead of asking someone who knows. Owning an answer is worth a month to you where borrowing takes an hour, so the month comes out of your rest. Ask for the hour now and again, because being taught makes the knowing no less yours."
+      },
+      "original": {
+        "word": "Deep-reading",
+        "angles": {
+          "drive": "Taking things in whole is how your mind works, even when the world calls it slowness. You do not sample, you absorb, and what you absorb becomes permanent equipment. Understanding, for you, is not a pass through the material. It is ownership.",
+          "cost_self": "One book, read twice, with notes in the margins the second time through. That is your whole method, and it quietly beats the forty skimmed summaries everyone else is stacking. Ask you about it in a year and it is still there, organized and ready.",
+          "cost_others": "People mistake your pace for being behind, right up until they need someone who actually understood the material. Then they come to you. What reads as slow from the outside is your mind refusing to accept anything it has not fully chewed."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Self-taught",
+        "text": "The lesson you teach yourself is the one you rarely pass on. You learn by a route too odd to explain, so you keep the knowing rather than the telling. Hand one person the messy version, because what you keep unexplained is what the people learning from you go without."
+      },
+      "original": {
+        "word": "Deep-reading",
+        "angles": {
+          "drive": "Taking things in whole is how your mind works, even when the world calls it slowness. You do not sample, you absorb, and what you absorb becomes permanent equipment. Understanding, for you, is not a pass through the material. It is ownership.",
+          "cost_self": "One book, read twice, with notes in the margins the second time through. That is your whole method, and it quietly beats the forty skimmed summaries everyone else is stacking. Ask you about it in a year and it is still there, organized and ready.",
+          "cost_others": "People mistake your pace for being behind, right up until they need someone who actually understood the material. Then they come to you. What reads as slow from the outside is your mind refusing to accept anything it has not fully chewed."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Reads between lines",
+        "text": "The hunch reaches you before the reason does, and you take it seriously. Because you need to know a thing from underneath rather than from its surface, you read what lies under what is said. You cannot always explain it, so let the reason catch up before you act on it."
+      },
+      "original": {
+        "word": "Unhurried",
+        "angles": {
+          "drive": "Waiting before you speak is a habit you built on purpose, and it earns its keep. Your thinking has one speed, thorough, and pressure has never successfully changed the setting. What comes out late comes out finished, and people have learned the trade is worth it.",
+          "cost_self": "The meeting moves fast, everyone answers inside five seconds, and you say nothing for a while. Then your answer arrives, last and unhurried, and it is the one that ends up in the notes. It took you longer because you were finishing the thought.",
+          "cost_others": "Faster colleagues sometimes read your silence as having nothing to say. The ones who stay long enough learn the pattern: pressure speeds everyone else up and leaves your pace exactly where it was. What you lose in quickness you keep collecting back in accuracy."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Reads between lines",
+        "text": "Where you are quickest is where you are hardest to follow, so you know before you can explain. You act on the read rather than wait for proof, which puts the doubt on you until proof arrives. Write the hunch down and give it a day, because being right in silence wears you down."
+      },
+      "original": {
+        "word": "Unhurried",
+        "angles": {
+          "drive": "Waiting before you speak is a habit you built on purpose, and it earns its keep. Your thinking has one speed, thorough, and pressure has never successfully changed the setting. What comes out late comes out finished, and people have learned the trade is worth it.",
+          "cost_self": "The meeting moves fast, everyone answers inside five seconds, and you say nothing for a while. Then your answer arrives, last and unhurried, and it is the one that ends up in the notes. It took you longer because you were finishing the thought.",
+          "cost_others": "Faster colleagues sometimes read your silence as having nothing to say. The ones who stay long enough learn the pattern: pressure speeds everyone else up and leaves your pace exactly where it was. What you lose in quickness you keep collecting back in accuracy."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Reads between lines",
+        "text": "Reading what people leave unsaid is how you understand them, and how you skip asking. Since the read arrives before the question would, you answer what sits under the words rather than the words themselves. Ask the plain question every so often, because you cost the people you read the chance to say it themselves."
+      },
+      "original": {
+        "word": "Unhurried",
+        "angles": {
+          "drive": "Waiting before you speak is a habit you built on purpose, and it earns its keep. Your thinking has one speed, thorough, and pressure has never successfully changed the setting. What comes out late comes out finished, and people have learned the trade is worth it.",
+          "cost_self": "The meeting moves fast, everyone answers inside five seconds, and you say nothing for a while. Then your answer arrives, last and unhurried, and it is the one that ends up in the notes. It took you longer because you were finishing the thought.",
+          "cost_others": "Faster colleagues sometimes read your silence as having nothing to say. The ones who stay long enough learn the pattern: pressure speeds everyone else up and leaves your pace exactly where it was. What you lose in quickness you keep collecting back in accuracy."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Solo thinker",
+        "text": "You do your best thinking with no one else in the house. Being alone is where the taking in happens for you, so you want the quiet ahead of the company. You pay for it in company that thins out on its own, which is why one open evening a week is worth keeping."
+      },
+      "original": {
+        "word": "Inventive",
+        "angles": {
+          "drive": "Your best ideas come in from odd corners, and trusting them is a skill worth building. Your mind connects things underground, without appointments, and hands the results up when they are ready. The sources look random to everyone else. The record says otherwise.",
+          "cost_self": "The answer to a work problem shows up while you are reading a cookbook, or on a bus, or inside an uncle’s offhand story. It happens too often to be luck. Your mind connects things underground, in the dark, and hands you the result later like it was easy.",
+          "cost_others": "Nobody watching you would call it research. A cookbook here, a detour there, an afternoon lost to something unrelated, and then you surface with an idea no straight line could have reached. The people who work in straight lines have learned to stop asking how."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Solo thinker",
+        "text": "Whenever a day has held too many people, you need an hour with none to feel yourself. Time alone is how you fill back up rather than hide, which is why you guard it harder than your sleep. Guard the sleep too, since the quiet you take from the night was owed to the body."
+      },
+      "original": {
+        "word": "Inventive",
+        "angles": {
+          "drive": "Your best ideas come in from odd corners, and trusting them is a skill worth building. Your mind connects things underground, without appointments, and hands the results up when they are ready. The sources look random to everyone else. The record says otherwise.",
+          "cost_self": "The answer to a work problem shows up while you are reading a cookbook, or on a bus, or inside an uncle’s offhand story. It happens too often to be luck. Your mind connects things underground, in the dark, and hands you the result later like it was easy.",
+          "cost_others": "Nobody watching you would call it research. A cookbook here, a detour there, an afternoon lost to something unrelated, and then you surface with an idea no straight line could have reached. The people who work in straight lines have learned to stop asking how."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_偏印",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Solo thinker",
+        "text": "Your quiet is a place you go without saying how long you will be. Because you think best out of reach, you let the hours alone run past what you promised rather than stop early. Name the length before you go, since you owe the people waiting a time to expect you."
+      },
+      "original": {
+        "word": "Inventive",
+        "angles": {
+          "drive": "Your best ideas come in from odd corners, and trusting them is a skill worth building. Your mind connects things underground, without appointments, and hands the results up when they are ready. The sources look random to everyone else. The record says otherwise.",
+          "cost_self": "The answer to a work problem shows up while you are reading a cookbook, or on a bus, or inside an uncle’s offhand story. It happens too often to be luck. Your mind connects things underground, in the dark, and hands you the result later like it was easy.",
+          "cost_others": "Nobody watching you would call it research. A cookbook here, a detour there, an afternoon lost to something unrelated, and then you surface with an idea no straight line could have reached. The people who work in straight lines have learned to stop asking how."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Calming presence",
+        "text": "Your presence does the settling long before your words do. Since you need the people near you safe more than impressed, you ask the slow question ahead of the fast fix. Let someone be the steady one for you from time to time, because you need holding as much as everyone you steady."
+      },
+      "original": {
+        "word": "Grounding",
+        "angles": {
+          "drive": "Steadying other minds is something your presence does before you say anything. Panicked friends arrive spinning and leave walking. You ask the slow questions, name the one thing that is actually true, and the drama finds it has nowhere to plug in.",
+          "cost_self": "Your sister called at midnight in full spiral about the diagnosis, the job, the everything. Forty minutes later she was laughing at something small and making a list for Monday. You mostly said mm, and what do we actually know. The list worked.",
+          "cost_others": "You are the call people make after the panicked calls. Friends describe visiting you in weather terms, saying the pressure drops at your kitchen table. Nobody can quote what you said that fixed things, because it was never the words. It was the ground under them."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Calming presence",
+        "text": "Being the person others lean on comes so naturally you forget it weighs anything. You carry someone through a bad month rather than admit to one, which puts your own tiredness last. Say the tired thing out loud once this month, since you cannot shelter anyone from under a missing roof."
+      },
+      "original": {
+        "word": "Grounding",
+        "angles": {
+          "drive": "Steadying other minds is something your presence does before you say anything. Panicked friends arrive spinning and leave walking. You ask the slow questions, name the one thing that is actually true, and the drama finds it has nowhere to plug in.",
+          "cost_self": "Your sister called at midnight in full spiral about the diagnosis, the job, the everything. Forty minutes later she was laughing at something small and making a list for Monday. You mostly said mm, and what do we actually know. The list worked.",
+          "cost_others": "You are the call people make after the panicked calls. Friends describe visiting you in weather terms, saying the pressure drops at your kitchen table. Nobody can quote what you said that fixed things, because it was never the words. It was the ground under them."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Calming presence",
+        "text": "Whenever someone close to you comes apart, you turn into the floor under them. You keep them steady rather than get steadied, so you never let them see you shake. Let them watch you wobble sometimes, because you leave the people you hold up no chance to hold you back."
+      },
+      "original": {
+        "word": "Grounding",
+        "angles": {
+          "drive": "Steadying other minds is something your presence does before you say anything. Panicked friends arrive spinning and leave walking. You ask the slow questions, name the one thing that is actually true, and the drama finds it has nowhere to plug in.",
+          "cost_self": "Your sister called at midnight in full spiral about the diagnosis, the job, the everything. Forty minutes later she was laughing at something small and making a list for Monday. You mostly said mm, and what do we actually know. The list worked.",
+          "cost_others": "You are the call people make after the panicked calls. Friends describe visiting you in weather terms, saying the pressure drops at your kitchen table. Nobody can quote what you said that fixed things, because it was never the words. It was the ground under them."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Knows what works",
+        "text": "Trusting what has held comes easier to you than trusting what is new. Because you need an answer to have lasted before leaning on it, you reach for the tested way ahead of the clever one. Give a new idea one honest try each season, since every old answer you trust was new once too."
+      },
+      "original": {
+        "word": "Enduring",
+        "angles": {
+          "drive": "Your mind holds its positions across years the way soil holds fence posts. What you learned stays learned, what you believe survives fashion, and the people you decided to love are loved on a standing basis. Time passes through you without washing much away.",
+          "cost_self": "You still send the birthday message to your third-grade teacher, thirty years on, and still make the soup from the recipe card whose handwriting has almost faded. Fads have come through the house and left again. The card stays taped inside the cupboard door.",
+          "cost_others": "People park their trust with you long-term, the way families keep valuables at one grandmother’s house. Friends who drift for five years return to find their spot kept, their story remembered, their coffee order intact. Around you, time behaves less like loss."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Knows what works",
+        "text": "Whenever a new way shows up, you wait for it to prove itself rather than try it. Being sure comes ahead of being early for you, which leaves you safe and late. Try one untested thing a year, because you pay for trusting only what has held in chances that wanted you early."
+      },
+      "original": {
+        "word": "Enduring",
+        "angles": {
+          "drive": "Your mind holds its positions across years the way soil holds fence posts. What you learned stays learned, what you believe survives fashion, and the people you decided to love are loved on a standing basis. Time passes through you without washing much away.",
+          "cost_self": "You still send the birthday message to your third-grade teacher, thirty years on, and still make the soup from the recipe card whose handwriting has almost faded. Fads have come through the house and left again. The card stays taped inside the cupboard door.",
+          "cost_others": "People park their trust with you long-term, the way families keep valuables at one grandmother’s house. Friends who drift for five years return to find their spot kept, their story remembered, their coffee order intact. Around you, time behaves less like loss."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Knows what works",
+        "text": "The advice you give has already held somewhere before you give it. Because you give a tested answer rather than a hopeful one, you send a new idea home with an old one. Hear the new idea all the way out sometimes, since you cost them the chance to be wrong their own way."
+      },
+      "original": {
+        "word": "Enduring",
+        "angles": {
+          "drive": "Your mind holds its positions across years the way soil holds fence posts. What you learned stays learned, what you believe survives fashion, and the people you decided to love are loved on a standing basis. Time passes through you without washing much away.",
+          "cost_self": "You still send the birthday message to your third-grade teacher, thirty years on, and still make the soup from the recipe card whose handwriting has almost faded. Fads have come through the house and left again. The card stays taped inside the cupboard door.",
+          "cost_others": "People park their trust with you long-term, the way families keep valuables at one grandmother’s house. Friends who drift for five years return to find their spot kept, their story remembered, their coffee order intact. Around you, time behaves less like loss."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Patient teacher",
+        "text": "Where someone else would lose patience, you explain it a third time in a third way. Because you need the person in front of you to get there, you give your time ahead of your answer. Keep one hour a week that teaches nobody anything, since patience is a store only you refill."
+      },
+      "original": {
+        "word": "Sustaining",
+        "angles": {
+          "drive": "Feeding minds is your quiet occupation. The right book arrives from you at the right month, the question that untangles a stuck decision arrives on the right walk, the belief in someone mid-doubt gets held steady. You resource people the way rain resources fields, regularly and without ceremony.",
+          "cost_self": "You mailed your nephew a used paperback with one sentence underlined, and eight years later he mentioned it in his graduation speech. You had forgotten the book entirely. He had built a career on the underline, which is roughly how your influence usually surfaces.",
+          "cost_others": "Half the steady people in your circle turn out, on inspection, to be running on something you supply: the monthly call, the standing dinner, the belief held on their behalf during a bad season. Nobody calls it mentoring. Everybody knows where the well is."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Patient teacher",
+        "text": "Giving someone your time is easy for you and hard to count. Since you wait for them to get it rather than hurry them, you hand the evening you kept for yourself to the lesson. Keep one evening no one can borrow, because the patience you spend comes out of a store only rest fills."
+      },
+      "original": {
+        "word": "Sustaining",
+        "angles": {
+          "drive": "Feeding minds is your quiet occupation. The right book arrives from you at the right month, the question that untangles a stuck decision arrives on the right walk, the belief in someone mid-doubt gets held steady. You resource people the way rain resources fields, regularly and without ceremony.",
+          "cost_self": "You mailed your nephew a used paperback with one sentence underlined, and eight years later he mentioned it in his graduation speech. You had forgotten the book entirely. He had built a career on the underline, which is roughly how your influence usually surfaces.",
+          "cost_others": "Half the steady people in your circle turn out, on inspection, to be running on something you supply: the monthly call, the standing dinner, the belief held on their behalf during a bad season. Nobody calls it mentoring. Everybody knows where the well is."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_正印",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Patient teacher",
+        "text": "Your patience is something the people you teach learn to count on. You explain it once more instead of watching them struggle, so you take the struggle that would have made it theirs. Let them sit in not knowing longer, since each answer you hand over is practice you keep from them."
+      },
+      "original": {
+        "word": "Sustaining",
+        "angles": {
+          "drive": "Feeding minds is your quiet occupation. The right book arrives from you at the right month, the question that untangles a stuck decision arrives on the right walk, the belief in someone mid-doubt gets held steady. You resource people the way rain resources fields, regularly and without ceremony.",
+          "cost_self": "You mailed your nephew a used paperback with one sentence underlined, and eight years later he mentioned it in his graduation speech. You had forgotten the book entirely. He had built a career on the underline, which is roughly how your influence usually surfaces.",
+          "cost_others": "Half the steady people in your circle turn out, on inspection, to be running on something you supply: the monthly call, the standing dinner, the belief held on their behalf during a bad season. Nobody calls it mentoring. Everybody knows where the well is."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Spots openings",
+        "text": "Seeing an opening where there was nothing is simply how you look. You have more drive than you have Wood to spend it on, so you feel the far chance more than the one already in your hand. Let the near thing have you for an hour, since the far one keeps."
+      },
+      "original": {
+        "word": "Wide-branching",
+        "angles": {
+          "drive": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
+          "cost_self": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+          "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Spots openings",
+        "text": "Where your attention goes is always a little ahead of where your feet are. Since you want to be free more than you want to be settled, you keep one eye on the next opening instead of resting in this one. Let yourself arrive somewhere fully, because arriving is the part you keep skipping."
+      },
+      "original": {
+        "word": "Wide-branching",
+        "angles": {
+          "drive": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
+          "cost_self": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+          "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Spots openings",
+        "text": "Your generosity is pointing out the next opening to whoever is near. Since the far chance feels more alive to you, you hand the near one off rather than finish it, and you leave the rest with a partner. Finish one thing beside the people who began it, because that is what reaching costs them."
+      },
+      "original": {
+        "word": "Wide-branching",
+        "angles": {
+          "drive": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
+          "cost_self": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+          "cost_others": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Quick to start",
+        "text": "Starting comes easily to you, long before most people have finished deciding. Moving is how you know you are alive, so you begin and learn rather than wait until you are sure. Begin as freely as you do, and let one thing run long enough to teach you the ending."
+      },
+      "original": {
+        "word": "Deal-maker",
+        "angles": {
+          "drive": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit.",
+          "cost_self": "You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.",
+          "cost_others": "Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Quick to start",
+        "text": "Whenever something new opens, you are halfway in before asking what it will take. Beginning feels like freedom and waiting feels like a cage, so you choose the beginning ahead of the rest you were owed. Take the slow middle along with the start, because the middle is where you finally get to rest."
+      },
+      "original": {
+        "word": "Deal-maker",
+        "angles": {
+          "drive": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit.",
+          "cost_self": "You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.",
+          "cost_others": "Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Quick to start",
+        "text": "Your quick yes pulls people in before the thing is real. Since you need movement more than certainty, you hand them a start and move on, and the finishing falls to the people you brought in. Stay for one ending with them, because the start is the easy half of what you asked."
+      },
+      "original": {
+        "word": "Deal-maker",
+        "angles": {
+          "drive": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit.",
+          "cost_self": "You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.",
+          "cost_others": "Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Generous",
+        "text": "Giving comes more naturally to you than keeping, with money the clearest case. Since an open hand keeps the world feeling wide, you share a lucky month rather than put it away. Give the way you always have and hold one part back, because what you keep is what the giving stands on."
+      },
+      "original": {
+        "word": "Open-handed",
+        "angles": {
+          "drive": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.",
+          "cost_self": "You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.",
+          "cost_others": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Generous",
+        "text": "An open hand is your first answer to most things, and savings pay for it. Since being generous feels more like you than being careful, you send the surplus out ahead of putting any aside. Let one part of a good month be yours, because a thin month comes whether you planned or not."
+      },
+      "original": {
+        "word": "Open-handed",
+        "angles": {
+          "drive": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.",
+          "cost_self": "You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.",
+          "cost_others": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_偏财",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Generous",
+        "text": "Whenever someone close to you is short, you cover it before being asked. Since giving keeps you free in a way being owed never would, you hand things over rather than build anything shared with them. Build one thing with someone instead of handing it over, because a gift is what your freedom costs them."
+      },
+      "original": {
+        "word": "Open-handed",
+        "angles": {
+          "drive": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.",
+          "cost_self": "You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.",
+          "cost_others": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Patient builder",
+        "text": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you spend years on one thing rather than chase quick results on several. Let it take the time it takes, because the slow build is the one you keep."
+      },
+      "original": {
+        "word": "Cultivating",
+        "angles": {
+          "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.",
+          "cost_self": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced.",
+          "cost_others": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Patient builder",
+        "text": "Whenever a thing matters to you, you pour years into it. Since you put the kept thing ahead of the new one, you keep improving the thing you have while the thing you wanted waits. Give one wanted thing its start, because patience is also a way of never arriving."
+      },
+      "original": {
+        "word": "Cultivating",
+        "angles": {
+          "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.",
+          "cost_self": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced.",
+          "cost_others": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Patient builder",
+        "text": "Your way of providing is to build something that lasts decades. Since you put finished ahead of shared, you keep the people near you waiting on a payoff instead of handing over the half-done thing. Hand it over half done once, because waiting on the finished one is what your care costs them."
+      },
+      "original": {
+        "word": "Cultivating",
+        "angles": {
+          "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.",
+          "cost_self": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced.",
+          "cost_others": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Saves first",
+        "text": "Putting money aside comes before spending it, and you never have to decide that. Being covered means more to you than anything you would buy, so the saving comes ahead of the wanting every month. Keep the habit and spend one small part on yourself, because a cushion is also for sitting on."
+      },
+      "original": {
+        "word": "Compounding",
+        "angles": {
+          "drive": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly.",
+          "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from.",
+          "cost_others": "Watching you work is boring, and your results embarrass people who sprint. The deposits were too small to notice and too regular to stop, and somewhere along the way they became terrain. Friends who mocked the fifty a month now ask, carefully, how it got to this."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Saves first",
+        "text": "Your sense of safety lives in what you have put away. Since you put feeling covered ahead of feeling alive today, you buy the cushion with the small pleasures you keep postponing. Spend one of them on purpose, because you are the person the saving was for."
+      },
+      "original": {
+        "word": "Compounding",
+        "angles": {
+          "drive": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly.",
+          "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from.",
+          "cost_others": "Watching you work is boring, and your results embarrass people who sprint. The deposits were too small to notice and too regular to stop, and somewhere along the way they became terrain. Friends who mocked the fifty a month now ask, carefully, how it got to this."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Saves first",
+        "text": "Whenever the people at home want something, you are already in next month. Since being safe together matters more than being happy today, you put the plan ahead of the wish and ask them to wait. Say yes to one wish early, because you are asking them to wait on a life."
+      },
+      "original": {
+        "word": "Compounding",
+        "angles": {
+          "drive": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly.",
+          "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from.",
+          "cost_others": "Watching you work is boring, and your results embarrass people who sprint. The deposits were too small to notice and too regular to stop, and somewhere along the way they became terrain. Friends who mocked the fifty a month now ask, carefully, how it got to this."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Loyal",
+        "text": "Being counted on comes ahead of being exciting for you. Since being known for years feels safer than being wanted for a week, you show up the same on dull days as on good ones. Let yourself be surprising once a year, because staying is the gift and sameness is its price."
+      },
+      "original": {
+        "word": "Deep-rooted",
+        "angles": {
+          "drive": "Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy.",
+          "cost_self": "Year nine of the same work, same town, same name on the door. Around year four it felt like being left behind, because everyone else was rebranding and relocating. Then the people who kept moving started sending work to the one person who could still be found.",
+          "cost_others": "People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Loyal",
+        "text": "Where you have given your word, you stay, long after the reasons have changed. Since keeping feels more like love than choosing does, you stop asking whether this is what you want or only what you promised. Ask yourself every year or so, because you deserve to be chosen by you as well."
+      },
+      "original": {
+        "word": "Deep-rooted",
+        "angles": {
+          "drive": "Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy.",
+          "cost_self": "Year nine of the same work, same town, same name on the door. Around year four it felt like being left behind, because everyone else was rebranding and relocating. Then the people who kept moving started sending work to the one person who could still be found.",
+          "cost_others": "People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_正财",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Loyal",
+        "text": "Staying is how you love, and you give it instead of saying it. Since showing up counts for more with you than speaking up, you hand the people you keep your presence ahead of your feelings. Tell them once in plain words, because your silence makes the person who stays do the guessing."
+      },
+      "original": {
+        "word": "Deep-rooted",
+        "angles": {
+          "drive": "Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy.",
+          "cost_self": "Year nine of the same work, same town, same name on the door. Around year four it felt like being left behind, because everyone else was rebranding and relocating. Then the people who kept moving started sending work to the one person who could still be found.",
+          "cost_others": "People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Quick-witted",
+        "text": "The clever answer arrives before the careful one, and most of the time you say it. Since being quick is how you know you are awake, you reach for the line ahead of the pause. Let the line out more than you swallow it, because you are kinder with it than you fear."
+      },
+      "original": {
+        "word": "Silver-tongued",
+        "angles": {
+          "drive": "Words obey you the way water obeys gravity, finding every gap and pouring through beautifully. You talk people into things, out of things, and around things, and they enjoy the ride even when they can see the technique. Persuasion this smooth stopped being learned long ago. It flows.",
+          "cost_self": "The refund was against policy, the agent had said no twice, and four minutes into your version of events she was laughing and typing an exception. On the way out you tipped generously, which is your habit after winning. The technique pays its taxes.",
+          "cost_others": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Quick-witted",
+        "text": "Whenever a conversation gets hard, you get to the quick line before the honest one and let it win. You stay clever rather than get caught feeling something, which puts a joke where a plain sentence should have gone. Let the plain sentence through sometimes, because being known is worth as much as being enjoyed."
+      },
+      "original": {
+        "word": "Silver-tongued",
+        "angles": {
+          "drive": "Words obey you the way water obeys gravity, finding every gap and pouring through beautifully. You talk people into things, out of things, and around things, and they enjoy the ride even when they can see the technique. Persuasion this smooth stopped being learned long ago. It flows.",
+          "cost_self": "The refund was against policy, the agent had said no twice, and four minutes into your version of events she was laughing and typing an exception. On the way out you tipped generously, which is your habit after winning. The technique pays its taxes.",
+          "cost_others": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Quick-witted",
+        "text": "Saying the funny thing when it lands is your way of taking part, and it works. You make the whole group laugh rather than let one person finish, which costs them the chance to be heard all the way through. Hold the line until the point lands, because your timing is good enough to wait."
+      },
+      "original": {
+        "word": "Silver-tongued",
+        "angles": {
+          "drive": "Words obey you the way water obeys gravity, finding every gap and pouring through beautifully. You talk people into things, out of things, and around things, and they enjoy the ride even when they can see the technique. Persuasion this smooth stopped being learned long ago. It flows.",
+          "cost_self": "The refund was against policy, the agent had said no twice, and four minutes into your version of events she was laughing and typing an exception. On the way out you tipped generously, which is your habit after winning. The technique pays its taxes.",
+          "cost_others": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Original",
+        "text": "Doing a thing the usual way is close to impossible for you, and your way is usually better. Since you only see a thing clearly once you have taken it apart, you rebuild the rule instead of following it once. Let that count as talent, because it was never meant as a fight."
+      },
+      "original": {
+        "word": "Inspired",
+        "angles": {
+          "drive": "Ideas arrive in you like spring water, from somewhere underground and always moving. Mid-shower, mid-sentence, mid-commute: the notion appears whole, strange, and usually good. You have learned to keep something to write with everywhere, including the glovebox and the shower wall.",
+          "cost_self": "The campaign that carried the year was dictated into your phone at a red light, complete with the tagline, in ninety seconds. The agency had been circling it for a month. You apologized for the audio quality. Nobody heard the apology over the applause.",
+          "cost_others": "Colleagues have learned to schedule brainstorms around your presence, then pretend they did not. With you in the region, the whiteboard fills differently. Where the ideas come from, nobody knows, including you. That they keep coming is the only data anyone needs."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Original",
+        "text": "Making a thing your own way is the only way it feels real, so instructions read like a dare. You take being wrong your way ahead of being right theirs, and that is why you redo finished work. Count the versions that came out better, because you only ever count the ones that did not."
+      },
+      "original": {
+        "word": "Inspired",
+        "angles": {
+          "drive": "Ideas arrive in you like spring water, from somewhere underground and always moving. Mid-shower, mid-sentence, mid-commute: the notion appears whole, strange, and usually good. You have learned to keep something to write with everywhere, including the glovebox and the shower wall.",
+          "cost_self": "The campaign that carried the year was dictated into your phone at a red light, complete with the tagline, in ninety seconds. The agency had been circling it for a month. You apologized for the audio quality. Nobody heard the apology over the applause.",
+          "cost_others": "Colleagues have learned to schedule brainstorms around your presence, then pretend they did not. With you in the region, the whiteboard fills differently. Where the ideas come from, nobody knows, including you. That they keep coming is the only data anyone needs."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Original",
+        "text": "Reworking what was handed to you is how you show you cared enough to think. You improve someone's plan rather than follow it, which leaves them without the small pride of seeing their own idea carried out as drawn. Carry one plan through unchanged now and again, because your version can wait a round."
+      },
+      "original": {
+        "word": "Inspired",
+        "angles": {
+          "drive": "Ideas arrive in you like spring water, from somewhere underground and always moving. Mid-shower, mid-sentence, mid-commute: the notion appears whole, strange, and usually good. You have learned to keep something to write with everywhere, including the glovebox and the shower wall.",
+          "cost_self": "The campaign that carried the year was dictated into your phone at a red light, complete with the tagline, in ninety seconds. The agency had been circling it for a month. You apologized for the audio quality. Nobody heard the apology over the applause.",
+          "cost_others": "Colleagues have learned to schedule brainstorms around your presence, then pretend they did not. With you in the region, the whiteboard fills differently. Where the ideas come from, nobody knows, including you. That they keep coming is the only data anyone needs."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Speaks up",
+        "text": "Keeping quiet about something you think is wrong is almost physically hard, and you rarely manage it. You speak ahead of being liked, because a true sentence left unsaid feels like a lie you took part in. Let yourself keep that, since you are usually the only one in the conversation who will."
+      },
+      "original": {
+        "word": "Free-flowing",
+        "angles": {
+          "drive": "Your expression pours, and it comes out with an edge already in it. The take nobody dared say, the phrasing that turns the meeting, the line too good to keep: it all flows at speed, brilliant first, considerate later, if later gets a turn.",
+          "cost_self": "The hot take you typed in one pass, no drafts, went further than anything the team spent weeks polishing. Half the industry loved it, a client quoted it back, and legal asked one careful question. You would write it again, faster.",
+          "cost_others": "People forward what you say with commentary attached: brilliant, careful, look at this. Your one-pass writing outperforms other people’s fourth drafts, publicly, which wins you fans and a folder in somebody’s records. Nobody is neutral about your output. That is the point of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Speaks up",
+        "text": "Speaking up comes before counting what it will cost you, and the bill arrives later. Being honest matters to you more than being comfortable, so you end up in fights you did not start on purpose. Let one go each month, because you get to save your voice for the ones that count."
+      },
+      "original": {
+        "word": "Free-flowing",
+        "angles": {
+          "drive": "Your expression pours, and it comes out with an edge already in it. The take nobody dared say, the phrasing that turns the meeting, the line too good to keep: it all flows at speed, brilliant first, considerate later, if later gets a turn.",
+          "cost_self": "The hot take you typed in one pass, no drafts, went further than anything the team spent weeks polishing. Half the industry loved it, a client quoted it back, and legal asked one careful question. You would write it again, faster.",
+          "cost_others": "People forward what you say with commentary attached: brilliant, careful, look at this. Your one-pass writing outperforms other people’s fourth drafts, publicly, which wins you fans and a folder in somebody’s records. Nobody is neutral about your output. That is the point of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_伤官",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Speaks up",
+        "text": "Telling someone the thing left unsaid is a kindness you do on purpose. You say it plainly rather than wait for them to work it out, which takes from them the time they needed to be ready for it. Ask before you hand it over, because true and welcome are not the same gift."
+      },
+      "original": {
+        "word": "Free-flowing",
+        "angles": {
+          "drive": "Your expression pours, and it comes out with an edge already in it. The take nobody dared say, the phrasing that turns the meeting, the line too good to keep: it all flows at speed, brilliant first, considerate later, if later gets a turn.",
+          "cost_self": "The hot take you typed in one pass, no drafts, went further than anything the team spent weeks polishing. Half the industry loved it, a client quoted it back, and legal asked one careful question. You would write it again, faster.",
+          "cost_others": "People forward what you say with commentary attached: brilliant, careful, look at this. Your one-pass writing outperforms other people’s fourth drafts, publicly, which wins you fans and a folder in somebody’s records. Nobody is neutral about your output. That is the point of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Giving",
+        "text": "Giving comes to you before anyone has asked for anything, and it is the most natural thing you do. Being needed feels closer to being safe than being admired does, so you offer the help ahead of the ask. Let the offer stay a gift, because you were never trying to earn your place."
+      },
+      "original": {
+        "word": "Fluent",
+        "angles": {
+          "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do.",
+          "cost_self": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+          "cost_others": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Giving",
+        "text": "Where there is a need in front of you, you fill it before noticing it was never yours. You keep being the giver ahead of being the one who wants, which leaves your own wants last in line. Over time you forget what you would ask for, so ask for one small thing this week."
+      },
+      "original": {
+        "word": "Fluent",
+        "angles": {
+          "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do.",
+          "cost_self": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+          "cost_others": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Giving",
+        "text": "Handing people what they need before they ask shows you are paying attention. You spare the people you love the asking rather than let them try alone, which takes from them the practice of asking. Wait for the question once in a while, because being asked is also a way of being given to."
+      },
+      "original": {
+        "word": "Fluent",
+        "angles": {
+          "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do.",
+          "cost_self": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+          "cost_others": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Unforced",
+        "text": "What you make comes out without strain, and you have stopped noticing how rare that is. Since ease is the only proof you trust, you put what comes out easily ahead of what you would have to fight for. Let the easy thing count, because it was never the lesser one."
+      },
+      "original": {
+        "word": "Nourishing",
+        "angles": {
+          "drive": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Your output feeds: conversation, cooking, company, all of it lands as sustenance rather than display. Feeding people is simply the shape your talent takes, in every medium.",
+          "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time.",
+          "cost_others": "Nobody leaves your table the way they arrived, and word of that travels. You are the number people call on the bad night, the kitchen they route the heartbroken friend toward. It is a strange kind of fame, warm and unlisted, and you earned it a bowl at a time."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Unforced",
+        "text": "Whenever a thing comes to you without effort, you count it as worth less. You trust the version you suffered for more than the one that simply came, which puts a price on what was free. Let the unforced thing stand as finished, because the strain you add is not quality."
+      },
+      "original": {
+        "word": "Nourishing",
+        "angles": {
+          "drive": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Your output feeds: conversation, cooking, company, all of it lands as sustenance rather than display. Feeding people is simply the shape your talent takes, in every medium.",
+          "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time.",
+          "cost_others": "Nobody leaves your table the way they arrived, and word of that travels. You are the number people call on the bad night, the kitchen they route the heartbroken friend toward. It is a strange kind of fame, warm and unlisted, and you earned it a bowl at a time."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Unforced",
+        "text": "Making things look easy is your way of being kind to the people you make them for. You hand over something light rather than show the care underneath, which costs them the chance to know their worth to you. Let the care show from time to time, since it is the part worth keeping."
+      },
+      "original": {
+        "word": "Nourishing",
+        "angles": {
+          "drive": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Your output feeds: conversation, cooking, company, all of it lands as sustenance rather than display. Feeding people is simply the shape your talent takes, in every medium.",
+          "cost_self": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time.",
+          "cost_others": "Nobody leaves your table the way they arrived, and word of that travels. You are the number people call on the bad night, the kitchen they route the heartbroken friend toward. It is a strange kind of fame, warm and unlisted, and you earned it a bowl at a time."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Warm",
+        "text": "Keeping the mood easy matters to you more than winning the point. You make the comfort around you on purpose, because an easy evening is where you are most yourself. Keep making it, and sit in it as a guest some evenings."
+      },
+      "original": {
+        "word": "Easygoing",
+        "angles": {
+          "drive": "Your tempo stays loose where other people clench, which is temperament rather than effort. Pressure has never found your dial, and around you it loses track of everyone else’s too. Ease like yours cannot be faked under load. Its realness is what makes it contagious.",
+          "cost_self": "The flight is cancelled, the line is furious, and somehow you are at the counter making the gate agent laugh while the rebooking happens. Nothing about it was strategy. Loose is just the setting you run at, and pressure has never found the dial.",
+          "cost_others": "Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Warm",
+        "text": "Making the mood easy for everyone comes before saying the hard thing. Since you keep the warmth rather than risk it on one honest sentence, you carry the honest sentence alone. Over time you pay more for that than the awkward minute would have cost, so say the one sentence while it is small."
+      },
+      "original": {
+        "word": "Easygoing",
+        "angles": {
+          "drive": "Your tempo stays loose where other people clench, which is temperament rather than effort. Pressure has never found your dial, and around you it loses track of everyone else’s too. Ease like yours cannot be faked under load. Its realness is what makes it contagious.",
+          "cost_self": "The flight is cancelled, the line is furious, and somehow you are at the counter making the gate agent laugh while the rebooking happens. Nothing about it was strategy. Loose is just the setting you run at, and pressure has never found the dial.",
+          "cost_others": "Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_食神",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Warm",
+        "text": "Softening the hard thing before it reaches someone is your reflex, and a kind one. You keep a child comfortable rather than tell them plainly what you saw, which leaves them without the plain version they could have grown on. Give them the plain version sometimes, because kindness from you was never in doubt."
+      },
+      "original": {
+        "word": "Easygoing",
+        "angles": {
+          "drive": "Your tempo stays loose where other people clench, which is temperament rather than effort. Pressure has never found your dial, and around you it loses track of everyone else’s too. Ease like yours cannot be faked under load. Its realness is what makes it contagious.",
+          "cost_self": "The flight is cancelled, the line is furious, and somehow you are at the counter making the gate agent laugh while the rebooking happens. Nothing about it was strategy. Loose is just the setting you run at, and pressure has never found the dial.",
+          "cost_others": "Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Clear under pressure",
+        "text": "Pressure is where your thinking gets clear and sure. Since nothing else makes you this sure of yourself, you take the hard version of a job ahead of the easy one. Once in a while pick a stake that is real rather than one you invented, because you think as well under those."
+      },
+      "original": {
+        "word": "Decisive",
+        "angles": {
+          "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
+          "cost_self": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+          "cost_others": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Clear under pressure",
+        "text": "Whenever the pressure lifts, your focus goes with it, which is why a quiet week feels less like rest than like a punishment. You chase the next hard thing ahead of the sleep your body is asking for. Let the quiet week count as rest, since you need somewhere to come back from."
+      },
+      "original": {
+        "word": "Decisive",
+        "angles": {
+          "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
+          "cost_self": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+          "cost_others": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Clear under pressure",
+        "text": "Bringing pressure into a calm place is something you do without noticing. Since you think better with stakes, you raise them for everyone near you rather than only for yourself. Save the stakes for the fights that need them, because you take a calm evening from the people at home each time you do."
+      },
+      "original": {
+        "word": "Decisive",
+        "angles": {
+          "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
+          "cost_self": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+          "cost_others": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Takes charge",
+        "text": "Command comes to you before anyone hands it over. Standing by while a group drifts feels worse to you than being wrong out loud, so you take the decision ahead of the vote. Hand the next one over on purpose, because you lead better when you have chosen to."
+      },
+      "original": {
+        "word": "Daring",
+        "angles": {
+          "drive": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The feared thing shrinks on contact, every single time, and you have known that longer than most people have been avoiding their own versions of it.",
+          "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes.",
+          "cost_others": "Teams keep a mental list of things nobody wants to do, and your name has drifted next to most of them. Colleagues call it bravery to your face and something more useful behind your back: proof that the scary version of a task rarely survives contact with someone unafraid of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Takes charge",
+        "text": "Whenever you take the lead, you also take the weight that comes with it. You feel safer making a decision alone rather than sharing it, so you go too long without being carried yourself. Let one person in on the load, because you were never meant to hold yourself up alone."
+      },
+      "original": {
+        "word": "Daring",
+        "angles": {
+          "drive": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The feared thing shrinks on contact, every single time, and you have known that longer than most people have been avoiding their own versions of it.",
+          "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes.",
+          "cost_others": "Teams keep a mental list of things nobody wants to do, and your name has drifted next to most of them. Colleagues call it bravery to your face and something more useful behind your back: proof that the scary version of a task rarely survives contact with someone unafraid of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Takes charge",
+        "text": "Taking the decision off someone's hands is how you show care. Because waiting for the group feels like a risk you refuse, you decide ahead of the people who were about to. Leave the next call to them, since you take from the people you lead the chance to decide for themselves."
+      },
+      "original": {
+        "word": "Daring",
+        "angles": {
+          "drive": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The feared thing shrinks on contact, every single time, and you have known that longer than most people have been avoiding their own versions of it.",
+          "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes.",
+          "cost_others": "Teams keep a mental list of things nobody wants to do, and your name has drifted next to most of them. Colleagues call it bravery to your face and something more useful behind your back: proof that the scary version of a task rarely survives contact with someone unafraid of it."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Loves high stakes",
+        "text": "An ordinary week feels to you like being passed over. Because you only feel fully awake with something at risk, you pick the job with a chance of failing ahead of the safe one. Keep one of those going somewhere in your life, since you were built to be tested rather than kept safe."
+      },
+      "original": {
+        "word": "Crisis-ready",
+        "angles": {
+          "drive": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners.",
+          "cost_self": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new hall, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
+          "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Loves high stakes",
+        "text": "Whenever life goes quiet, you feel like you are losing, which is why calm never feels like a reward to you. You spend rest as fast as it comes in, long before anyone asks. Let the quiet stretch be the prize rather than the gap, because you have one body to spend."
+      },
+      "original": {
+        "word": "Crisis-ready",
+        "angles": {
+          "drive": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners.",
+          "cost_self": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new hall, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
+          "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_七杀",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Loves high stakes",
+        "text": "Raising the stakes is how you make a day feel real. Since an easy win bores you more than a hard loss, you turn plans that were working into tests they did not need to be. Keep the test for yourself, because you take the plain good day away from the people around you."
+      },
+      "original": {
+        "word": "Crisis-ready",
+        "angles": {
+          "drive": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners.",
+          "cost_self": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new hall, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
+          "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Keeps every promise",
+        "text": "A promise you have made is a rule you live under. Being relied on is the closest you get to feeling safe, so you keep your word ahead of your freedom to change it. Give your word a little less freely, because you keep all of it."
+      },
+      "original": {
+        "word": "Upstanding",
+        "angles": {
+          "drive": "You conduct yourself like someone permanently on camera, and the footage would hold up. The taxes are clean, the promises kept, the small ethics observed when nobody is checking. In a dim market, your reputation shines at a distance, and it was polished entirely by boring choices.",
+          "cost_self": "The wallet you found held four hundred in cash and no witnesses, and its owner got a call within the hour, everything intact. He offered a reward. You declined it with a strange embarrassment, as if thanked for breathing. He tells the story more than you do.",
+          "cost_others": "People invoke you when arguing about what is possible: some folks manage it, look at them. Your existence is quietly load-bearing for other people’s standards. The compliment you hear most often, from strangers and auditors alike, is some version of: everything checks out."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Keeps every promise",
+        "text": "Whenever you give your word, you give up the right to change your mind. You find keeping a stale promise better than breaking one, so you stay in plans long past their use. Let yourself out of one this year, because you are allowed to be released as well as relied on."
+      },
+      "original": {
+        "word": "Upstanding",
+        "angles": {
+          "drive": "You conduct yourself like someone permanently on camera, and the footage would hold up. The taxes are clean, the promises kept, the small ethics observed when nobody is checking. In a dim market, your reputation shines at a distance, and it was polished entirely by boring choices.",
+          "cost_self": "The wallet you found held four hundred in cash and no witnesses, and its owner got a call within the hour, everything intact. He offered a reward. You declined it with a strange embarrassment, as if thanked for breathing. He tells the story more than you do.",
+          "cost_others": "People invoke you when arguing about what is possible: some folks manage it, look at them. Your existence is quietly load-bearing for other people’s standards. The compliment you hear most often, from strangers and auditors alike, is some version of: everything checks out."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Keeps every promise",
+        "text": "Holding the people you love to their word is a form of respect. Because a promise is a rule to you rather than a wish, you remember every one they made in passing. Let the small ones go, since you leave your friends no freedom to have only been talking."
+      },
+      "original": {
+        "word": "Upstanding",
+        "angles": {
+          "drive": "You conduct yourself like someone permanently on camera, and the footage would hold up. The taxes are clean, the promises kept, the small ethics observed when nobody is checking. In a dim market, your reputation shines at a distance, and it was polished entirely by boring choices.",
+          "cost_self": "The wallet you found held four hundred in cash and no witnesses, and its owner got a call within the hour, everything intact. He offered a reward. You declined it with a strange embarrassment, as if thanked for breathing. He tells the story more than you do.",
+          "cost_others": "People invoke you when arguing about what is possible: some folks manage it, look at them. Your existence is quietly load-bearing for other people’s standards. The compliment you hear most often, from strangers and auditors alike, is some version of: everything checks out."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "By the book",
+        "text": "The proper way of doing a thing is the only way you trust. Since a rule you did not write keeps your judgment steady, you follow the process ahead of the quick way that would also work. Keep doing it properly, because you are the standard the work around you gets checked against."
+      },
+      "original": {
+        "word": "Squeaky-clean",
+        "angles": {
+          "drive": "Your integrity gives off actual light. People behave better in your radius without being asked, the meeting sits straighter when you join, and the shady proposal dies unspoken because you happened to be at the table. You illuminate by standing there. It is a strange, real power.",
+          "cost_self": "The vendor arrived with the usual flexible arrangement and, twelve minutes into your company, quietly stopped offering it. Nothing was said. Your presence had simply lit the transaction, and things done in the dark declined to attend. Your boss now brings you to certain meetings as equipment.",
+          "cost_others": "People confess to you unprompted, at parties, in elevators: small frauds, old guilt, the thing they never told anyone. You never solicit it. Light draws what needs light. Half your acquaintances have a cleaner conscience because you exist, and none of them can explain the mechanism politely."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "By the book",
+        "text": "Whenever the rules and your own judgment disagree, you side with the rules and feel it later. You put doing it in order ahead of doing it your way, so you let a process decide what you already knew. Allow yourself one exception a season, because you are more than the rule you keep."
+      },
+      "original": {
+        "word": "Squeaky-clean",
+        "angles": {
+          "drive": "Your integrity gives off actual light. People behave better in your radius without being asked, the meeting sits straighter when you join, and the shady proposal dies unspoken because you happened to be at the table. You illuminate by standing there. It is a strange, real power.",
+          "cost_self": "The vendor arrived with the usual flexible arrangement and, twelve minutes into your company, quietly stopped offering it. Nothing was said. Your presence had simply lit the transaction, and things done in the dark declined to attend. Your boss now brings you to certain meetings as equipment.",
+          "cost_others": "People confess to you unprompted, at parties, in elevators: small frauds, old guilt, the thing they never told anyone. You never solicit it. Light draws what needs light. Half your acquaintances have a cleaner conscience because you exist, and none of them can explain the mechanism politely."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "By the book",
+        "text": "Doing things properly is a respect you pay forward. Because you want the right way more than the fast way, you hold a friend's rushed job to the same standard as your own. Say the standard out loud before you apply it, since you take the easy option from everyone beside you."
+      },
+      "original": {
+        "word": "Squeaky-clean",
+        "angles": {
+          "drive": "Your integrity gives off actual light. People behave better in your radius without being asked, the meeting sits straighter when you join, and the shady proposal dies unspoken because you happened to be at the table. You illuminate by standing there. It is a strange, real power.",
+          "cost_self": "The vendor arrived with the usual flexible arrangement and, twelve minutes into your company, quietly stopped offering it. Nothing was said. Your presence had simply lit the transaction, and things done in the dark declined to attend. Your boss now brings you to certain meetings as equipment.",
+          "cost_others": "People confess to you unprompted, at parties, in elevators: small frauds, old guilt, the thing they never told anyone. You never solicit it. Light draws what needs light. Half your acquaintances have a cleaner conscience because you exist, and none of them can explain the mechanism politely."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Earns the title",
+        "text": "A title given to you fairly is worth more than any amount of praise. Since a rank you earned properly is what tells you that you belong, you work for the next step up ahead of the next thrill. Let the title find you slower, because you are already doing the job it names."
+      },
+      "original": {
+        "word": "Inspiring",
+        "angles": {
+          "drive": "Your example ignites effort in other people. The way you carry duty makes duty look survivable, even attractive, and quiet copies of your habits keep appearing around you: the early start, the kept word, the straight answer. You lead mostly by being watchable while doing it right.",
+          "cost_self": "A junior colleague told you, three years later, that they had almost quit the field until they watched you handle the audit season with visible integrity and no visible martyrdom. They stayed, and now run their own team on what they call, without irony, the standard.",
+          "cost_others": "Teams perform above their history when you lead them, and the mechanism is embarrassingly simple: people rise to being trusted the way you trust them, publicly and on the record. Departments compete for you. What they are actually bidding on is the version of themselves you produce."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Earns the title",
+        "text": "Whenever the title is a step away, you keep its standard and go without its pay. You want to look deserving more than you want to be paid on time, so you do the senior job on the junior wage. Ask for the rank you already carry, since you earned more than you claimed."
+      },
+      "original": {
+        "word": "Inspiring",
+        "angles": {
+          "drive": "Your example ignites effort in other people. The way you carry duty makes duty look survivable, even attractive, and quiet copies of your habits keep appearing around you: the early start, the kept word, the straight answer. You lead mostly by being watchable while doing it right.",
+          "cost_self": "A junior colleague told you, three years later, that they had almost quit the field until they watched you handle the audit season with visible integrity and no visible martyrdom. They stayed, and now run their own team on what they call, without irony, the standard.",
+          "cost_others": "Teams perform above their history when you lead them, and the mechanism is embarrassingly simple: people rise to being trusted the way you trust them, publicly and on the record. Departments compete for you. What they are actually bidding on is the version of themselves you produce."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_正官",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Earns the title",
+        "text": "Earning your place properly is a standard you hold others to as well. Rank without the work looks to you like cheating, so you give the person beside you the long route rather than a word in the right ear. Say the word sometimes, because you take from them the years it would have saved."
+      },
+      "original": {
+        "word": "Inspiring",
+        "angles": {
+          "drive": "Your example ignites effort in other people. The way you carry duty makes duty look survivable, even attractive, and quiet copies of your habits keep appearing around you: the early start, the kept word, the straight answer. You lead mostly by being watchable while doing it right.",
+          "cost_self": "A junior colleague told you, three years later, that they had almost quit the field until they watched you handle the audit season with visible integrity and no visible martyrdom. They stayed, and now run their own team on what they call, without irony, the standard.",
+          "cost_others": "Teams perform above their history when you lead them, and the mechanism is embarrassingly simple: people rise to being trusted the way you trust them, publicly and on the record. Departments compete for you. What they are actually bidding on is the version of themselves you produce."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Competitive",
+        "text": "You work best with someone to beat and you know it. Knowing where you stand matters more than comfort, so one rival in view does more for you than good intentions. Pick one race you are allowed to finish, because a contest with no end is also a day with no rest."
+      },
+      "original": {
+        "word": "Keen-edged",
+        "angles": {
+          "drive": "Competition hones you visibly. The rival’s number posted on your wall, the timed run against your own record, the deal chased sharper because someone else wants it: pressure grinds you finer instead of down, and your edge is renewed weekly, on purpose, against real resistance.",
+          "cost_self": "The quarter your division got a genuine competitor was the quarter your numbers, flat for a year, jumped nineteen percent. Nothing else changed. Your manager mentioned this pairing carefully at review, and you agreed with unusual cheerfulness. You had noticed the sharpening yourself, and enjoyed it.",
+          "cost_others": "People perform better against you and thank you for it later, sometimes years later. Training partners request you specifically, knowing the pace will hurt correctly. Whole teams calibrate their edge on yours, the way shops keep one true reference tool against which everything else gets measured."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Competitive",
+        "text": "Where there is no one to measure against, you lose your pace and mind it. Comparison is the fuel you run on, which puts winning the next round ahead of noticing you are tired. Try racing your own record for a month, because you never reach the finish that would let you rest."
+      },
+      "original": {
+        "word": "Keen-edged",
+        "angles": {
+          "drive": "Competition hones you visibly. The rival’s number posted on your wall, the timed run against your own record, the deal chased sharper because someone else wants it: pressure grinds you finer instead of down, and your edge is renewed weekly, on purpose, against real resistance.",
+          "cost_self": "The quarter your division got a genuine competitor was the quarter your numbers, flat for a year, jumped nineteen percent. Nothing else changed. Your manager mentioned this pairing carefully at review, and you agreed with unusual cheerfulness. You had noticed the sharpening yourself, and enjoyed it.",
+          "cost_others": "People perform better against you and thank you for it later, sometimes years later. Training partners request you specifically, knowing the pace will hurt correctly. Whole teams calibrate their edge on yours, the way shops keep one true reference tool against which everything else gets measured."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Competitive",
+        "text": "Turning a friend into a rival is how you show them you take them seriously. Since you want someone worth beating more than someone easy to keep, you set the stakes and keep raising them. Let one friendship stay a friendship, because you take from a rival the ease of being on your side."
+      },
+      "original": {
+        "word": "Keen-edged",
+        "angles": {
+          "drive": "Competition hones you visibly. The rival’s number posted on your wall, the timed run against your own record, the deal chased sharper because someone else wants it: pressure grinds you finer instead of down, and your edge is renewed weekly, on purpose, against real resistance.",
+          "cost_self": "The quarter your division got a genuine competitor was the quarter your numbers, flat for a year, jumped nineteen percent. Nothing else changed. Your manager mentioned this pairing carefully at review, and you agreed with unusual cheerfulness. You had noticed the sharpening yourself, and enjoyed it.",
+          "cost_others": "People perform better against you and thank you for it later, sometimes years later. Training partners request you specifically, knowing the pace will hurt correctly. Whole teams calibrate their edge on yours, the way shops keep one true reference tool against which everything else gets measured."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "First to bet",
+        "text": "You say yes to the bet before the fear has finished. Hesitating feels like losing to yourself, which is why you commit first and size it afterwards. Keep one bet a year at a size you can lose, because you pay for nerve in money as much as in pride."
+      },
+      "original": {
+        "word": "Competitive",
+        "angles": {
+          "drive": "Everything can be scored, and you are keeping score. The sales board, the board game, the parallel parking: your intensity arrives regardless of stakes, and it lifts the whole field, because coasting near you is simply not available. Games mean more when you are playing. Everyone plays harder.",
+          "cost_self": "The office steps challenge was meant as a wellness joke until you joined, at which point it developed leagues, trash talk, and a trophy someone welded. Participation tripled. The winner, who was not you that quarter, framed the printout. You demanded a rematch at the ceremony, smiling.",
+          "cost_others": "People pick you first for anything with a winner, and brace slightly when you join casual things. The intensity is contagious in the useful direction: standards rise wherever you compete. The company records you have broken remain broken by you, a fact you check, occasionally, at lunch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "First to bet",
+        "text": "Whenever the stakes go up, you feel more like yourself. Boldness is the closest you get to feeling sure, so you size the bet to your nerve ahead of your savings. Try sizing one bet to the savings, because your nerve recovers faster than your money does."
+      },
+      "original": {
+        "word": "Competitive",
+        "angles": {
+          "drive": "Everything can be scored, and you are keeping score. The sales board, the board game, the parallel parking: your intensity arrives regardless of stakes, and it lifts the whole field, because coasting near you is simply not available. Games mean more when you are playing. Everyone plays harder.",
+          "cost_self": "The office steps challenge was meant as a wellness joke until you joined, at which point it developed leagues, trash talk, and a trophy someone welded. Participation tripled. The winner, who was not you that quarter, framed the printout. You demanded a rematch at the ceremony, smiling.",
+          "cost_others": "People pick you first for anything with a winner, and brace slightly when you join casual things. The intensity is contagious in the useful direction: standards rise wherever you compete. The company records you have broken remain broken by you, a fact you check, occasionally, at lunch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "First to bet",
+        "text": "Moving first is your way of carrying the people who hesitate. Since you decide for the group ahead of asking it, you put your partners' money where your nerve is. Check the size with them before you jump, because you spend their caution as if it were your courage."
+      },
+      "original": {
+        "word": "Competitive",
+        "angles": {
+          "drive": "Everything can be scored, and you are keeping score. The sales board, the board game, the parallel parking: your intensity arrives regardless of stakes, and it lifts the whole field, because coasting near you is simply not available. Games mean more when you are playing. Everyone plays harder.",
+          "cost_self": "The office steps challenge was meant as a wellness joke until you joined, at which point it developed leagues, trash talk, and a trophy someone welded. Participation tripled. The winner, who was not you that quarter, framed the printout. You demanded a rematch at the ceremony, smiling.",
+          "cost_others": "People pick you first for anything with a winner, and brace slightly when you join casual things. The intensity is contagious in the useful direction: standards rise wherever you compete. The company records you have broken remain broken by you, a fact you check, occasionally, at lunch."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Shares the risk",
+        "text": "You trust a person faster once you have something at risk together. Shared stakes make the bond real to you where talk leaves it loose, so you go in together ahead of writing anything down. Write the terms down once, because you risk the friendship as much as you risk the money."
+      },
+      "original": {
+        "word": "Unfazed",
+        "angles": {
+          "drive": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility.",
+          "cost_self": "The tender was between your four-person shop and two multinationals, and your bid went in anyway, priced with nerve, argued in person. You took forty percent of the contract, the part requiring speed. The multinationals now subcontract you, a sentence you never say out loud at meetings.",
+          "cost_others": "People stopped warning you about long shots after enough of them landed, and started quietly co-investing instead. Your presence in a fight recalibrates everyone’s sense of winnable. The stories are traded at industry dinners, always ending the same way: somebody checked the standings twice."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Shares the risk",
+        "text": "Where a friend needs backing, you reach for your wallet before your reasons. Being in on the risk feels closer than staying out, which puts the shared bet ahead of your own margin. Keep one account no friend can draw on, because you cover their losses from money meant for your own rest."
+      },
+      "original": {
+        "word": "Unfazed",
+        "angles": {
+          "drive": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility.",
+          "cost_self": "The tender was between your four-person shop and two multinationals, and your bid went in anyway, priced with nerve, argued in person. You took forty percent of the contract, the part requiring speed. The multinationals now subcontract you, a sentence you never say out loud at meetings.",
+          "cost_others": "People stopped warning you about long shots after enough of them landed, and started quietly co-investing instead. Your presence in a fight recalibrates everyone’s sense of winnable. The stories are traded at industry dinners, always ending the same way: somebody checked the standings twice."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_劫财",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Shares the risk",
+        "text": "Going in on something with a friend is your warmest offer. Since you want them in it with you more than safe from it, you share the upside and the fall. Say the downside out loud before the handshake, because you bring the people you like into risks sized to your nerve."
+      },
+      "original": {
+        "word": "Unfazed",
+        "angles": {
+          "drive": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility.",
+          "cost_self": "The tender was between your four-person shop and two multinationals, and your bid went in anyway, priced with nerve, argued in person. You took forty percent of the contract, the part requiring speed. The multinationals now subcontract you, a sentence you never say out loud at meetings.",
+          "cost_others": "People stopped warning you about long shots after enough of them landed, and started quietly co-investing instead. Your presence in a fight recalibrates everyone’s sense of winnable. The stories are traded at industry dinners, always ending the same way: somebody checked the standings twice."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[0]",
+      "candidate": {
+        "word": "Self-made",
+        "text": "You built your own standard and you keep it with no one watching. Answering only to yourself feels safer than being measured, so you finish a thing slowly alone instead of quickly with help. Let one favour in, because help you never ask for costs more than help you accept."
+      },
+      "original": {
+        "word": "Self-made",
+        "angles": {
+          "drive": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed.",
+          "cost_self": "The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons.",
+          "cost_others": "People assume someone taught you the discipline, a coach, a parent, a book. There wasn’t one. The rules you live by were cut to fit you alone, which is why borrowed programs keep failing the people who ask you for yours."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[1]",
+      "candidate": {
+        "word": "Self-made",
+        "text": "Whenever something matters, you do it yourself before anyone can offer. Doing it alone proves the standard is yours rather than borrowed, which puts going without help ahead of going to bed. Ask for a hand before you run empty, because self-reliance only works while there is a self left to rely on."
+      },
+      "original": {
+        "word": "Self-made",
+        "angles": {
+          "drive": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed.",
+          "cost_self": "The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons.",
+          "cost_others": "People assume someone taught you the discipline, a coach, a parent, a book. There wasn’t one. The rules you live by were cut to fit you alone, which is why borrowed programs keep failing the people who ask you for yours."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[2]",
+      "candidate": {
+        "word": "Self-made",
+        "text": "Needing no one is the first thing you show a new peer. Since you hold your own weight instead of handing any across, you leave your peers nothing to carry for you. Hand one small weight over on purpose, because what you take from them is the chance to matter to you."
+      },
+      "original": {
+        "word": "Self-made",
+        "angles": {
+          "drive": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed.",
+          "cost_self": "The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons.",
+          "cost_others": "People assume someone taught you the discipline, a coach, a parent, a book. There wasn’t one. The rules you live by were cut to fit you alone, which is why borrowed programs keep failing the people who ask you for yours."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[3]",
+      "candidate": {
+        "word": "Even-handed",
+        "text": "You hold everyone to the same measure you hold yourself. Fairness feels cleaner to you than favour, which puts being exact with someone ahead of being easy on them. Let a friend off the hook some of the time, because the measure that keeps you honest also keeps people at a set distance."
+      },
+      "original": {
+        "word": "Reserved",
+        "angles": {
+          "drive": "Keeping most of yourself back is a choice you make daily, and it costs you less than people think. At a party you might say forty words. Three people will still leave convinced you were the most solid person in attendance, and none of them could quote you.",
+          "cost_self": "The party ran four hours and you said maybe forty words. On the drive home nothing about that felt like a failure, because it wasn’t one. What you keep back was never missing. It is in reserve, and everyone present could somehow feel the difference.",
+          "cost_others": "Loud company reads you slowly. First you are the quiet one, then the solid one, and eventually the one people find at the edge of the gathering when something actually matters. You never move toward the center. The important conversations keep arriving anyway."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[4]",
+      "candidate": {
+        "word": "Even-handed",
+        "text": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding one standard for everyone keeps you honest, which puts being right ahead of being in company. Bend it once for someone you like, because you meet few who fit your measure and the wait is lonely."
+      },
+      "original": {
+        "word": "Reserved",
+        "angles": {
+          "drive": "Keeping most of yourself back is a choice you make daily, and it costs you less than people think. At a party you might say forty words. Three people will still leave convinced you were the most solid person in attendance, and none of them could quote you.",
+          "cost_self": "The party ran four hours and you said maybe forty words. On the drive home nothing about that felt like a failure, because it wasn’t one. What you keep back was never missing. It is in reserve, and everyone present could somehow feel the difference.",
+          "cost_others": "Loud company reads you slowly. First you are the quiet one, then the solid one, and eventually the one people find at the edge of the gathering when something actually matters. You never move toward the center. The important conversations keep arriving anyway."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[5]",
+      "candidate": {
+        "word": "Even-handed",
+        "text": "Holding a friend to your own measure is your way of showing respect. Since you treat the people you like exactly as you treat yourself, you hand them your standard ahead of your warmth. Offer the warmth first sometimes, because you cost them the ease of being liked without being graded."
+      },
+      "original": {
+        "word": "Reserved",
+        "angles": {
+          "drive": "Keeping most of yourself back is a choice you make daily, and it costs you less than people think. At a party you might say forty words. Three people will still leave convinced you were the most solid person in attendance, and none of them could quote you.",
+          "cost_self": "The party ran four hours and you said maybe forty words. On the drive home nothing about that felt like a failure, because it wasn’t one. What you keep back was never missing. It is in reserve, and everyone present could somehow feel the difference.",
+          "cost_others": "Loud company reads you slowly. First you are the quiet one, then the solid one, and eventually the one people find at the edge of the gathering when something actually matters. You never move toward the center. The important conversations keep arriving anyway."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[6]",
+      "candidate": {
+        "word": "Recovers alone",
+        "text": "You get your strength back alone and lose it in company. Being seen while low feels like a debt you never repay, which is why you go quiet to recover instead of calling anyone. Let one person near you while you are low, because recovery goes slower alone than it needs to."
+      },
+      "original": {
+        "word": "Unshakeable",
+        "angles": {
+          "drive": "Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it.",
+          "cost_self": "The deadline lands and the office turns into weather, chairs rolling, voices up, someone rewriting the plan hourly. Your pace stays exactly where it was on Monday. By Friday the weather has passed, and your part is the one that shipped clean.",
+          "cost_others": "Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[7]",
+      "candidate": {
+        "word": "Recovers alone",
+        "text": "Whenever you run low, you disappear until you are whole again. Showing up half-built feels worse to you than showing up late, so you choose the long quiet instead of the quick ask every time. Show someone the half-built version, because healing alone means you never learn who would have helped."
+      },
+      "original": {
+        "word": "Unshakeable",
+        "angles": {
+          "drive": "Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it.",
+          "cost_self": "The deadline lands and the office turns into weather, chairs rolling, voices up, someone rewriting the plan hourly. Your pace stays exactly where it was on Monday. By Friday the weather has passed, and your part is the one that shipped clean.",
+          "cost_others": "Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible."
+        }
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_比肩",
+      "field": "ledger[8]",
+      "candidate": {
+        "word": "Recovers alone",
+        "text": "Pulling away to recover is how you spare the people close to you your worst days. Since you return rebuilt instead of being seen rebuilding, you give them the finished version and keep the work. Allow them to watch the work once, because you deny your closest people the chance to be needed."
+      },
+      "original": {
+        "word": "Unshakeable",
+        "angles": {
+          "drive": "Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it.",
+          "cost_self": "The deadline lands and the office turns into weather, chairs rolling, voices up, someone rewriting the plan hourly. Your pace stays exactly where it was on Monday. By Friday the weather has passed, and your part is the one that shipped clean.",
+          "cost_others": "Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible."
+        }
+      },
+      "gate": "pass"
+    }
+  ]
+}

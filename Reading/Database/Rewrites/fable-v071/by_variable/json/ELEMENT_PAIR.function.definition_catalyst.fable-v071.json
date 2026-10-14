@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_catalyst",
+  "$generated_by": "fable-v071",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.definition_catalyst",
+      "candidate": "Earth is your Mind, and as a catalyst, it is the slow intake you run on. You carry less Earth than you use, so private study and a steady home both go short. You want to be sure rather than fast, which is why you give a question one night before your judgment holds.",
+      "original": "Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet corners, long walks after hard conversations: whatever feeds it comes back later as judgment.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "function.definition_catalyst",
+      "candidate": "Wood is your Action, and as a catalyst, it is the work your strength waits for. You carry less Wood than force to spend, so you chase an opening as much as you keep a steady love, and each costs the other. You build best once you pick one and finish it.",
+      "original": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.definition_catalyst",
+      "candidate": "Water is your Expression, and as a catalyst, it is the care you hold back and the talent you keep quiet. You carry little Water, so you judge more than you let flow. You want to be right more than heard, which is why your kindness and your best ideas wait too long.",
+      "original": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.definition_catalyst",
+      "candidate": "Fire is your Order, and as a catalyst, it is the pressure that shapes your strength. You carry little Fire, which is why you hunt for a crisis to meet as much as for a standard to steady your career. You finish more under a rule you never wrote than under your own.",
+      "original": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.definition_catalyst",
+      "candidate": "Metal is your Body, and running thin, it is stamina spent faster than it comes in. You carry less Metal than you use, so you stand alone instead of leaning on a peer and bet big instead of resting. Each time you pay from a reserve you never stopped to refill.",
+      "original": "Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late.",
+      "gate": "pass"
+    }
+  ]
+}

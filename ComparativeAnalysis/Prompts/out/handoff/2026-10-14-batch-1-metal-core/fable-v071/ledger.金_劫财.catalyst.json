@@ -1,0 +1,383 @@
+{
+ "_generated_by": "fable-v071",
+ "_handoff": "2026-10-14 batch 1 metal core",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Where a spec says \"candidates\": 2, add \"value_b\" beside \"value\" with a second, different candidate of the same shape (two lines, each inside the frame; the read picks one). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_GOD/金_劫财",
+ "page": "The catalyst ledger of 金_劫财 (Metal carrying The Rival) on a Metal core: three rows, three angles each",
+ "stem": null,
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_GOD.adj_chips.md",
+  "cards/ELEMENT_GOD.fn_reading.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 金_劫财 (Metal carrying The Rival). Persona The Rival (劫财). Definition line: \"Same nature, different register, the edge of comparison\". Keyword Rivalry, charge fierce, poles catalyst Daring / friction Drain. Family function: Body. Cost dimension: comparison as fuel; the race never announces a finish. Arena: the race, the shared prize, the other runner. Classical portrait: same nature, different register; comparison as fuel; the race with no announced finish. Ruled domains: Rivalry, Shared stakes, Boldness. Sibling (other polarity of the family): 比肩.\nElement arena: Metal (edge, blade, ore, forge, whetstone, the clean line). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Metal meeting Metal cross-polarity — similar nature, competitive register\".\n- k2_overview: \"Your Metal moves as the Rival: an edge that sharpens against other edges. Competition wakes you up, stakes clarify you, and you cut boldest when something real is on the table. Money and metal both change hands fast around you. The trick of your life is dueling without wounding, and betting without handing over the sword.\"\n- k2_functional: \"Your energy spikes for contests and crashes after. Build recovery into the schedule like a trainer would.\"\n- adj_chips: {\"friction\":[\"Cutthroat\",\"Abrasive\",\"Picks fights\"],\"catalyst\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Rivalry\":\"Rivalry is your whetstone: you improve fastest with a named competitor in view. Choose rivals worth becoming, because you will absorb their shape. And retire each rivalry the day it stops sharpening and starts nicking.\",\"Shared stakes\":\"You bet alongside people easily: ventures, splits, loans between friends. Metal keeps clean edges, so keep clean papers. The partnerships that survive you are the ones with terms as sharp as the trust.\",\"Boldness\":\"Your nerve is surgical: boldest when the cut is clear. Practice sizing the wager to the blade. Full force is for openings that deserve it, not for every glinting chance.\"}\n- fn_reading.catalyst.ledger (three rows, index-aligned to adj_chips.catalyst; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1: [REDACTED: the target row]\n  - row 2: [REDACTED: the target row]\n- Sibling cell 金_比肩 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Self-made\",\"Reserved\",\"Unshakeable\"],\"friction\":[\"Sealed-off\",\"Rigid\",\"Solitary\"]}\n- Sibling cell 金_比肩 catalyst row 0 drive passage, for the sibling test on the tension (this row must name a different either-or): \"You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed.\"\n\nCore element Metal, energy element Metal. Law: Metal and Metal are the same element (the self pair). Relative to the core the energy is the self, so Metal is this core's Body. No chart is attached to this batch: the cell is written for every chart with a Metal core that shows Metal on the catalyst pole, so no percentage and no state of one chart appears in any value. The catalyst pole of Metal as the Body is the Underfueled band's case (the core burns more than it takes in); tone by pole: compliment. Rows: row 0, row 1, row 2, each with its three angles (drive, cost_self, cost_others: the drive, the cost to the reader, the cost to others; the app shows one angle per row by position rotation, so each passage must stand alone); one chip per row, written once and copied byte-identical onto the row's three fields. The pair cell 金_金's definition and advice for this pole are rewritten in the same batch (the pair skeleton) and are withheld here; no four-word run may be shared with them, so keep every phrase the ledger's own.",
+ "fields": {
+  "ledger[0]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 0,
+    "angle": "drive",
+    "tone": "compliment",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "drive",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, the mechanism as the reader's own need (and the energy's volume in plain words where the passage carries it), the either-or in the second person, the closing sentence on the drive's own price; the screenshot passage",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Competitive",
+    "text": "You work best with someone to beat and you know it. Knowing where you stand matters more than comfort, so one rival in view does more for you than good intentions. Pick one race you are allowed to finish, because a contest with no end is also a day with no rest."
+   },
+   "value_b": {
+    "word": "Competitive",
+    "text": "A rival in sight moves you more than praise ever does. Since Metal is short in you, you borrow strength from the comparison, which wakes what comfort puts to sleep. Let yourself race someone who also wants you to win, because the comparison that fuels you never announces a finish."
+   }
+  },
+  "ledger[1]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 0,
+    "angle": "cost_self",
+    "tone": "compliment",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_self",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and closes on what the drive costs the reader, a difficulty, a need or a price, as the line the reader keeps, never an event and never a picture",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Competitive",
+    "text": "Where there is no one to measure against, you lose your pace and mind it. Comparison is the fuel you run on, which puts winning the next round ahead of noticing you are tired. Try racing your own record for a month, because you never reach the finish that would let you rest."
+   }
+  },
+  "ledger[2]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 0,
+    "angle": "cost_others",
+    "tone": "compliment",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_others",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and closes on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive with the reader as the subject, never as what those people say, think or decide, never a chorus",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Competitive",
+    "text": "Turning a friend into a rival is how you show them you take them seriously. Since you want someone worth beating more than someone easy to keep, you set the stakes and keep raising them. Let one friendship stay a friendship, because you take from a rival the ease of being on your side."
+   }
+  },
+  "ledger[3]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 1,
+    "angle": "drive",
+    "tone": "compliment",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "drive",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, the mechanism as the reader's own need (and the energy's volume in plain words where the passage carries it), the either-or in the second person, the closing sentence on the drive's own price; the screenshot passage",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "First to bet",
+    "text": "You say yes to the bet before the fear has finished. Hesitating feels like losing to yourself, which is why you commit first and size it afterwards. Keep one bet a year at a size you can lose, because you pay for nerve in money as much as in pride."
+   },
+   "value_b": {
+    "word": "First to bet",
+    "text": "Being first in is the part of a risk you enjoy. Since your Metal runs low, the jump gives you strength waiting never does, so you take the bold move ahead of the sure one. Let one sure thing count as a win, because you never count the wins you did not risk."
+   }
+  },
+  "ledger[4]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 1,
+    "angle": "cost_self",
+    "tone": "compliment",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_self",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and closes on what the drive costs the reader, a difficulty, a need or a price, as the line the reader keeps, never an event and never a picture",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "First to bet",
+    "text": "Whenever the stakes go up, you feel more like yourself. Boldness is the closest you get to feeling sure, so you size the bet to your nerve ahead of your savings. Try sizing one bet to the savings, because your nerve recovers faster than your money does."
+   }
+  },
+  "ledger[5]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 1,
+    "angle": "cost_others",
+    "tone": "compliment",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_others",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and closes on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive with the reader as the subject, never as what those people say, think or decide, never a chorus",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "First to bet",
+    "text": "Moving first is your way of carrying the people who hesitate. Since you decide for the group ahead of asking it, you put your partners' money where your nerve is. Check the size with them before you jump, because you spend their caution as if it were your courage."
+   }
+  },
+  "ledger[6]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 2,
+    "angle": "drive",
+    "tone": "compliment",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "drive",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, the mechanism as the reader's own need (and the energy's volume in plain words where the passage carries it), the either-or in the second person, the closing sentence on the drive's own price; the screenshot passage",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Shares the risk",
+    "text": "You trust a person faster once you have something at risk together. Shared stakes make the bond real to you where talk leaves it loose, so you go in together ahead of writing anything down. Write the terms down once, because you risk the friendship as much as you risk the money."
+   },
+   "value_b": {
+    "word": "Shares the risk",
+    "text": "A shared risk is your fastest way into a partnership. Being in it together matters to you more than being safe, so you split the stakes before the roles. Keep the roles as clear as the stakes, because you lose a friend in a loose deal as easily as cash."
+   }
+  },
+  "ledger[7]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 2,
+    "angle": "cost_self",
+    "tone": "compliment",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_self",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and closes on what the drive costs the reader, a difficulty, a need or a price, as the line the reader keeps, never an event and never a picture",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Shares the risk",
+    "text": "Where a friend needs backing, you reach for your wallet before your reasons. Being in on the risk feels closer than staying out, which puts the shared bet ahead of your own margin. Keep one account no friend can draw on, because you cover their losses from money meant for your own rest."
+   }
+  },
+  "ledger[8]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "金_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "catalyst",
+    "row": 2,
+    "angle": "cost_others",
+    "tone": "compliment",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_others",
+     "tone": "tone: compliment (owner 2026-10-14, iteration 5): the catalyst passage reads a little like a compliment, recognition in the opener and an invitation in the close (\"Now and then let someone give back, because …\")",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and closes on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive with the reader as the subject, never as what those people say, think or decide, never a chorus",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. Across the three angles of this row the openers differ in shape (a noun-phrase subject, a verb-phrase subject, a where or whenever clause; the plain \"You ...\" at most once per row) and no joint word repeats within a passage (noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Shares the risk",
+    "text": "Going in on something with a friend is your warmest offer. Since you want them in it with you more than safe from it, you share the upside and the fall. Say the downside out loud before the handshake, because you bring the people you like into risks sized to your nerve."
+   }
+  }
+ }
+}

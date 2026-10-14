@@ -1,0 +1,146 @@
+{
+  "$archetype": "火_正官",
+  "axis": "ELEMENT_GOD",
+  "key": "火_正官",
+  "$generated_by": "fable-v071-b",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Keeps every promise",
+        "By the book",
+        "Earns the title"
+      ],
+      "friction": [
+        "Rule-bound",
+        "Afraid to slip",
+        "Never says no"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keeps every promise",
+            "angles": {
+              "drive": "You treat your word as a contract with a witness. Since a standard outside you is what keeps you steady, you hold to the deal as much as to the person you made it with. Let a promise be reopened sometimes, because you outlast every deal you make."
+            }
+          },
+          {
+            "word": "By the book",
+            "angles": {
+              "drive": "You feel at home inside a system that was there before you arrived. You earn a rank by the rules rather than take one by force, so you wait your turn and expect it to come. Trust the slow route, since you are built for standing that lasts."
+            }
+          },
+          {
+            "word": "Earns the title",
+            "angles": {
+              "drive": "You want the recognition to be official before you let yourself enjoy it. Because you only fully believe a rank that was signed by someone else, you take the title in writing rather than the thanks in passing. Enjoy the thanks as well, since you are worth something before the paperwork arrives."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Rule-bound",
+            "angles": {
+              "drive": "You feel safer inside a rule than outside one, even a rule that has stopped fitting. You hold Fire beyond what your strength is built for, so every standard you meet becomes one more you have to keep. Remember you were meant to be steadied by the frame rather than kept by it."
+            }
+          },
+          {
+            "word": "Afraid to slip",
+            "angles": {
+              "drive": "You perform your own life as if a review were always coming. Because your status is where you keep your sense of safety, you tidy the surface of a thing ahead of fixing what is under it. Remember you have never once been as closely watched as you feel."
+            }
+          },
+          {
+            "word": "Never says no",
+            "angles": {
+              "drive": "You take on the role before the description is finished. You carry Fire well past the amount you were built for, which is why every call for order in your life sounds like a call for you. Remember that you get to leave a post empty rather than fill it yourself."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Upstanding",
+            "angles": {
+              "drive": "You conduct yourself like someone permanently on camera, and the footage would hold up. The taxes are clean, the promises kept, the small ethics observed when nobody is checking. In a dim market, your reputation shines at a distance, and it was polished entirely by boring choices."
+            }
+          },
+          {
+            "word": "Squeaky-clean",
+            "angles": {
+              "drive": "Your integrity gives off actual light. People behave better in your radius without being asked, the meeting sits straighter when you join, and the shady proposal dies unspoken because you happened to be at the table. You illuminate by standing there. It is a strange, real power."
+            }
+          },
+          {
+            "word": "Inspiring",
+            "angles": {
+              "drive": "Your example ignites effort in other people. The way you carry duty makes duty look survivable, even attractive, and quiet copies of your habits keep appearing around you: the early start, the kept word, the straight answer. You lead mostly by being watchable while doing it right."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stern",
+            "angles": {
+              "drive": "Your standards arrive with heat behind them. The correction lands harder than intended, the disappointment radiates, and small failures around you acquire courtroom acoustics. People perform for your approval and flinch at your review. The excellence is real. So is the tension holding it up."
+            }
+          },
+          {
+            "word": "Appearance-bound",
+            "angles": {
+              "drive": "The image runs the household. How it looks decides over how it feels: the presentable marriage, the impressive title, the holiday card version of events, maintained at rising cost. Somewhere behind the facade, the actual life waits for its schedule to open, and the facade keeps overrunning."
+            }
+          },
+          {
+            "word": "Overextended",
+            "angles": {
+              "drive": "Obligation keeps hiring you and you keep accepting. The committee, the second committee, the covering-for-a-colleague that became permanent: each obligation was honorable, and their sum is a schedule with no oxygen in it. Your word is your bond, which is precisely how the bonds keep accumulating."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Upstanding",
+        "Squeaky-clean",
+        "Inspiring"
+      ],
+      "friction": [
+        "Stern",
+        "Appearance-bound",
+        "Overextended"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "rigidity as the Magistrate's shadow: the frame that steadies the reader also holds the reader in",
+      null,
+      null,
+      "the standard turned inward on a weak body: status as the place safety is kept, so a slip reads as a fall",
+      null,
+      null,
+      "overextension: too much Order for the body, so every call for order is answered as a personal duty"
+    ]
+  }
+}

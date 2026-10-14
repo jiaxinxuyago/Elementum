@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.thin",
+  "$generated_by": "fable-v071",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Only a little Earth sits on the metal, enough to steady it and not enough to slow it.",
+        "remedy": "Keep it that small. Study only what you will use."
+      },
+      "original": {
+        "clause": "Earth runs thin and unwanted: a little shelter, easily left.",
+        "remedy": "Leave it as it is, small."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Only a little Wood, which suits a thin blade: small jobs, each finished before the next.",
+        "remedy": "Keep the jobs small and sleep between them."
+      },
+      "original": {
+        "clause": "Wood runs thin and unwanted: a small plot, easily kept.",
+        "remedy": "Keep the plot small."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Only a little water on the steel, enough to say what is done.",
+        "remedy": "Keep it small. Let most thoughts stay unsaid."
+      },
+      "original": {
+        "clause": "Water runs thin and unwanted: a trickle of output, easy to keep clean.",
+        "remedy": "A trickle is enough. Keep it clean."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A small fire by the steel, enough to warm it and not enough to soften the edge.",
+        "remedy": "Keep it small. One standard at a time."
+      },
+      "original": {
+        "clause": "Fire runs thin and unwanted: a low flame, easy to stand beside.",
+        "remedy": "Let it stay low."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Metal is a small thing in you, an edge kept short and used only where it counts.",
+        "remedy": "Keep it that size. Spend the rest elsewhere."
+      },
+      "original": {
+        "clause": "Metal runs thin and still carries weight: little of the self, held too tightly.",
+        "remedy": "Loosen the grip."
+      },
+      "gate": "pass"
+    }
+  ]
+}

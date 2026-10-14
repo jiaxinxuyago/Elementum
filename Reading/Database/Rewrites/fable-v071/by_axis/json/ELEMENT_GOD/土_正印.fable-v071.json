@@ -1,0 +1,165 @@
+{
+  "$archetype": "土_正印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_正印",
+  "$generated_by": "fable-v071",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Calming presence",
+        "Knows what works",
+        "Patient teacher"
+      ],
+      "friction": [
+        "Plays it safe",
+        "Overprotective",
+        "Same old answers"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Calming presence",
+            "angles": {
+              "drive": "Your presence does the settling long before your words do. Since you need the people near you safe more than impressed, you ask the slow question ahead of the fast fix. Let someone be the steady one for you from time to time, because you need holding as much as everyone you steady.",
+              "cost_self": "Being the person others lean on comes so naturally you forget it weighs anything. You carry someone through a bad month rather than admit to one, which puts your own tiredness last. Say the tired thing out loud once this month, since you cannot shelter anyone from under a missing roof.",
+              "cost_others": "Whenever someone close to you comes apart, you turn into the floor under them. You keep them steady rather than get steadied, so you never let them see you shake. Let them watch you wobble sometimes, because you leave the people you hold up no chance to hold you back."
+            }
+          },
+          {
+            "word": "Knows what works",
+            "angles": {
+              "drive": "Trusting what has held comes easier to you than trusting what is new. Because you need an answer to have lasted before leaning on it, you reach for the tested way ahead of the clever one. Give a new idea one honest try each season, since every old answer you trust was new once too.",
+              "cost_self": "Whenever a new way shows up, you wait for it to prove itself rather than try it. Being sure comes ahead of being early for you, which leaves you safe and late. Try one untested thing a year, because you pay for trusting only what has held in chances that wanted you early.",
+              "cost_others": "The advice you give has already held somewhere before you give it. Because you give a tested answer rather than a hopeful one, you send a new idea home with an old one. Hear the new idea all the way out sometimes, since you cost them the chance to be wrong their own way."
+            }
+          },
+          {
+            "word": "Patient teacher",
+            "angles": {
+              "drive": "Where someone else would lose patience, you explain it a third time in a third way. Because you need the person in front of you to get there, you give your time ahead of your answer. Keep one hour a week that teaches nobody anything, since patience is a store only you refill.",
+              "cost_self": "Giving someone your time is easy for you and hard to count. Since you wait for them to get it rather than hurry them, you hand the evening you kept for yourself to the lesson. Keep one evening no one can borrow, because the patience you spend comes out of a store only rest fills.",
+              "cost_others": "Your patience is something the people you teach learn to count on. You explain it once more instead of watching them struggle, so you take the struggle that would have made it theirs. Let them sit in not knowing longer, since each answer you hand over is practice you keep from them."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "The safe choice is made in you before you look at the others. You carry Earth past what you need, so being held wins over being tested. Keep in mind that comfort is for resting in rather than living in, and you decide which one this is.",
+              "cost_self": "Staying where you are held is a choice you make without noticing. Because the unknown costs you worry where the known costs you boredom, you pick the boredom rather than the worry and call it peace. Remember that you pay for that peace in chances that asked for a yes, and the bill comes slowly.",
+              "cost_others": "Whenever someone brings you a plan to change the shared life, you find a reason to wait. Keeping the life as it is comes ahead of what else it holds for you, so you slow each plan down. Remember that you ask them to live at your speed, and your safe is not always theirs."
+            }
+          },
+          {
+            "word": "Overprotective",
+            "angles": {
+              "drive": "Keeping those you love out of harm is the first thing you do with any news. Because their safety feels like your job, you carry a risk for them rather than watch them take it. Remember, you build walls as well as a roof, and you decide where the door goes.",
+              "cost_self": "Whenever something goes wrong for someone you love, you treat it as yours to fix. You carry their trouble rather than let them carry it, so you pick up weight you were never handed. Remember, you have only one back, and what you carry for everyone is what you never set down.",
+              "cost_others": "The help you give arrives before anyone asks for it. Because watching someone struggle is harder on you than doing it for them, you take the task over instead of letting them finish badly. It is worth remembering that you take a lesson with each rescue, and being needed differs from being good for them."
+            }
+          },
+          {
+            "word": "Same old answers",
+            "angles": {
+              "drive": "Where you first learned something is also where you go back to check it. Because a handed-down answer feels safer to you than a new one, you ask the same few voices rather than a stranger. Remember that you kept the answer while the question moved, and you are the one who notices.",
+              "cost_self": "Reaching for the answer you were handed is easier than finding a new one. Because what you were always told feels truer than what you have not tested, you stop asking once the old answer arrives. Remember that you inherited those answers rather than earned them, and you only own the ones you earned.",
+              "cost_others": "Your first answer to a new idea is the old one. Because a tested answer feels kinder than an open question, you hand people what you were given rather than what they asked. Remember that you send them off with your answer in place of theirs, and you deny them the one they came for."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Grounding",
+            "angles": {
+              "drive": "Steadying other minds is something your presence does before you say anything. Panicked friends arrive spinning and leave walking. You ask the slow questions, name the one thing that is actually true, and the drama finds it has nowhere to plug in.",
+              "cost_self": "Your sister called at midnight in full spiral about the diagnosis, the job, the everything. Forty minutes later she was laughing at something small and making a list for Monday. You mostly said mm, and what do we actually know. The list worked.",
+              "cost_others": "You are the call people make after the panicked calls. Friends describe visiting you in weather terms, saying the pressure drops at your kitchen table. Nobody can quote what you said that fixed things, because it was never the words. It was the ground under them."
+            }
+          },
+          {
+            "word": "Enduring",
+            "angles": {
+              "drive": "Your mind holds its positions across years the way soil holds fence posts. What you learned stays learned, what you believe survives fashion, and the people you decided to love are loved on a standing basis. Time passes through you without washing much away.",
+              "cost_self": "You still send the birthday message to your third-grade teacher, thirty years on, and still make the soup from the recipe card whose handwriting has almost faded. Fads have come through the house and left again. The card stays taped inside the cupboard door.",
+              "cost_others": "People park their trust with you long-term, the way families keep valuables at one grandmother’s house. Friends who drift for five years return to find their spot kept, their story remembered, their coffee order intact. Around you, time behaves less like loss."
+            }
+          },
+          {
+            "word": "Sustaining",
+            "angles": {
+              "drive": "Feeding minds is your quiet occupation. The right book arrives from you at the right month, the question that untangles a stuck decision arrives on the right walk, the belief in someone mid-doubt gets held steady. You resource people the way rain resources fields, regularly and without ceremony.",
+              "cost_self": "You mailed your nephew a used paperback with one sentence underlined, and eight years later he mentioned it in his graduation speech. You had forgotten the book entirely. He had built a career on the underline, which is roughly how your influence usually surfaces.",
+              "cost_others": "Half the steady people in your circle turn out, on inspection, to be running on something you supply: the monthly call, the standing dinner, the belief held on their behalf during a bad season. Nobody calls it mentoring. Everybody knows where the well is."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Closed-off",
+            "angles": {
+              "drive": "Your mind trusts its home ground and quietly stopped traveling. The same three sources, the same trusted voices, the same conclusions wearing deeper into the same paths. New input has to marry into the family to be heard. The walls were comfort once. Now they are also the view.",
+              "cost_self": "The article that challenged your position went unread for a month, then unread permanently. At dinner you summarized its argument anyway, slightly wrong, to nods from the same four people who always nod. The dinner was warm. It is always warm, and always the same temperature.",
+              "cost_others": "People outside your circle have learned that new ideas do not take root at your table without a local sponsor. Your world runs on trusted soil, which makes it stable, and which means the news reaches you late, softened, and pre-agreed-with."
+            }
+          },
+          {
+            "word": "Buried",
+            "angles": {
+              "drive": "Your real thoughts live at depths where nobody digs, including you. Feelings get filed under fine, wants get deferred until the ground is somehow ready, and decades pass with the important things interred and load-bearing. The surface stays tidy. The weight underneath is measurable.",
+              "cost_self": "Cleaning the study, you found the application you never sent, the one from eleven years ago. You read it standing up, put it back in the drawer, and reorganized the shelf above it instead. The drawer closed with the sound drawers make. Dinner was on time.",
+              "cost_others": "Even people who love you navigate by echo, guessing at what moves beneath the calm. Big life news arrives from you pre-processed, months late, announced like weather that already passed. They have stopped asking how you feel and started asking what you have decided."
+            }
+          },
+          {
+            "word": "Unmoving",
+            "angles": {
+              "drive": "Staying put has become your mind’s answer to open questions. The decision waits, the plan rests, the possibility sits in its chair until it stops asking. Nothing is refused outright. Things are simply outlasted, and the stillness does the declining on your behalf.",
+              "cost_self": "The evening-course brochure has been on the counter since March, under the fruit bowl, slightly stained now. You are not against it. You are not anything about it, which the brochure has slowly learned. In June someone will move it to the drawer.",
+              "cost_others": "People pitch things to you once, watch the idea sink into the calm and not come back up, and quietly withdraw it. Your no is never spoken. It is just that yes would require motion, and around you, motion has learned not to volunteer."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Grounding",
+        "Enduring",
+        "Sustaining"
+      ],
+      "friction": [
+        "Closed-off",
+        "Buried",
+        "Unmoving"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

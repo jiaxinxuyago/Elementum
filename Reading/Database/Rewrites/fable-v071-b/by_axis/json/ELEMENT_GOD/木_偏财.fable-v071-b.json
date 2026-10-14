@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_偏财",
+  "$generated_by": "fable-v071-b",
+  "$handoff": "2026-10-14 batch 1 metal core",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Spots openings",
+        "Quick to start",
+        "Generous"
+      ],
+      "friction": [
+        "Chases the new",
+        "Spread thin",
+        "Spends freely"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spots openings",
+            "angles": {
+              "drive": "You notice the next chance long before it is obvious, and you trust that noticing. Wood is what you have least of for the force behind it, so you look at what is far ahead of what is close. Spend one evening on what is close, and the far will keep."
+            }
+          },
+          {
+            "word": "Quick to start",
+            "angles": {
+              "drive": "You begin things the way other people make plans, early and without much fuss. Waiting feels like losing time you will never get back, which is why you take a quick start ahead of a sure one every time. Let the quick start be yours and the slow middle be yours as well."
+            }
+          },
+          {
+            "word": "Generous",
+            "angles": {
+              "drive": "You give before you count, and you rarely regret it in the moment. Holding back feels like holding your breath, which is why what you have goes to whoever needs it ahead of whatever you planned. Keep giving, and give one month a plan too, because a plan is how the giving lasts."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases the new",
+            "angles": {
+              "drive": "You are most alive in the first week of anything. Since the far option shows no flaws and the near one shows several, you reach for the far ahead of finishing the near. Keep in mind that you will meet the same flaws out there, so finishing here costs less than it looks."
+            }
+          },
+          {
+            "word": "Spread thin",
+            "angles": {
+              "drive": "You say yes to the next thing with the same ease as the first. Since every open option feels like safety, you hold ten half chances rather than one whole one. It is worth remembering that you lack the strength for one, because chances were never hard for you to find."
+            }
+          },
+          {
+            "word": "Spends freely",
+            "angles": {
+              "drive": "You treat money as something that moves, and the moving is the point. Because money held back feels to you like life held back, you spend on today rather than save for a day you have not met. Keep in mind how early you spend the quiet months, long before you reach them."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Wide-branching",
+            "angles": {
+              "drive": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching."
+            }
+          },
+          {
+            "word": "Deal-maker",
+            "angles": {
+              "drive": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit."
+            }
+          },
+          {
+            "word": "Open-handed",
+            "angles": {
+              "drive": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Scattered",
+            "angles": {
+              "drive": "Starting is your genuine talent, and staying is the tax you keep finding ways around. Your energy is all spring and no autumn: everything gets planted, nothing gets brought in, and the finish line remains a rumor from other people’s lives."
+            }
+          },
+          {
+            "word": "Overgrown",
+            "angles": {
+              "drive": "Adding commitments is a reflex you no longer notice, the way a hedge never notices new branches. Every yes seemed small at the moment of signing. The sum runs your life now, and the important thing keeps not happening inside a calendar too full to hold it."
+            }
+          },
+          {
+            "word": "Fickle",
+            "angles": {
+              "drive": "Your interest burns hottest at the start and moves on before results arrive, and the pattern is old enough to have its own shelf. Enthusiasm was never the missing ingredient in any of it. Week seven is, and week seven always has been."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Wide-branching",
+        "Deal-maker",
+        "Open-handed"
+      ],
+      "friction": [
+        "Scattered",
+        "Overgrown",
+        "Fickle"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}
