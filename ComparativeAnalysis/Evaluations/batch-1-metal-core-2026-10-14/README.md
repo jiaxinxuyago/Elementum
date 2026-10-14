@@ -27,3 +27,9 @@ Observed on the polished set: the passages sit at 48 to 55 words, near the cap, 
 | second polish, v0.7.2 at 30 to 45 | fable-v072-cap45: the same five sealed shares, each cutting its own v0.7.2 text into the new range (`previous/` inside the package) | `ComparativeAnalysis/Handoffs/2026-10-14-batch-1-metal-core-v072-cap45/` | `Reading/Database/Rewrites/fable-v072-cap45/` (253) and `fable-v072-cap45-b/` (65) | 25 of 25 after three send-backs of one passage or one four-gram each (Wood twice, Earth once); two hinge forms added to the gate on the way (a gerund act before the hinge; a verb with "over": "you keep the knowing over the telling") | `fable-v072-cap45.reading.md` |
 
 The 240 ledger passages now run 40 to 45 words, mean 43.8 (the v0.7.2 set ran 48 to 55). The writers fill to the cap again: the range is the lever and 30 to 45 lands at 44. The owner's deck for this pass replaces the v0.7.2 deck: `owner-read-v072/` is rebuilt from the cap-45 set (seed 20261016; the v0.7.2 deck is superseded and not kept, the v0.7.2 filing stays as the record). `key.json` sealed, `picks.json` empty. The station is untouched.
+
+## The ten definitions under v0.7.3 (2026-10-14, the definition construct, function first)
+
+| Pass | Writers | Package | Station | Gate | Read |
+|---|---|---|---|---|---|
+| the ten definitions, v0.7.3 | fable-v073: one sealed writer, the five pair files, the two definitions re-cut and every other field copied from the adopted text | `ComparativeAnalysis/Handoffs/2026-10-14-batch-1-definitions-v073/` | `Reading/Database/Rewrites/fable-v073/` (73 fields, 10 under test) | 5 of 5 (the handoff's definition opener re-pointed at the fixed first sentence on the way) | read page by page by the owner: both land on Earth, Wood, Water, Fire; the Metal catalyst close re-cut once, then lands; all ten adopted and transcribed the same day |

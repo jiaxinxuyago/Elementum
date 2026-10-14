@@ -22,8 +22,8 @@
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Water is your Expression, and as a catalyst, it is the care you hold back and the talent you keep quiet. Since you carry little Water, you judge more than you let flow. You want to be right more than heard, so you keep your kindness and your best ideas waiting too long.",
-      "definition_friction": "Water is your Expression, and as a friction, it is care that never stops and talent that stays loud. You pour out more Water than you take in, until every thought gets said. You need to be heard more than refilled, so your care and wit run out before your words do.",
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, so what you feel gets said. As a catalyst, your gate stays shut, so you would rather get a thing right than give it. You keep your kindness and your wit waiting past their moment.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Water pours it out, so nothing you feel stays in. As a friction, the gate never shuts, so you give more than you keep and say more than you know. Remember that you run empty before you run quiet.",
       "advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Once a month, give something you made to someone who did not ask. Say the compliment the moment you think it.",
       "advise_friction": "You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours."
     },
@@ -260,6 +260,22 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
       "replaced": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v073",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v073/by_axis/json/ELEMENT_PAIR/金_水.fable-v073.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
+      "replaced": "Water is your Expression, and as a catalyst, it is the care you hold back and the talent you keep quiet. Since you carry little Water, you judge more than you let flow. You want to be right more than heard, so you keep your kindness and your best ideas waiting too long."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v073",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v073/by_axis/json/ELEMENT_PAIR/金_水.fable-v073.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
+      "replaced": "Water is your Expression, and as a friction, it is care that never stops and talent that stays loud. You pour out more Water than you take in, until every thought gets said. You need to be heard more than refilled, so your care and wit run out before your words do."
     }
   ]
 }

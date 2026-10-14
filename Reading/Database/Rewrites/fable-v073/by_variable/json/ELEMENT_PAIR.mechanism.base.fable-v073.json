@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.base",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "mechanism.base",
+      "candidate": "Old texts have it that metal keeps to the stone and is born where the ground stays damp. Ore does not form in the open. It waits under the hill, pressed by rock and fed by slow water, for longer than anything struck from it lasts. Earth gives the blade its substance first and its patience second, and a blade that forgets the ground it came from loses the second gift first.",
+      "original": "Old texts have it that metal keeps to the stone and is born where the ground stays damp. Ore does not form in the open. It waits under the hill, pressed by rock and fed by slow water, for longer than anything struck from it lasts. Earth gives the blade its substance first and its patience second, and a blade that forgets the ground it came from loses the second gift first.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "mechanism.base",
+      "candidate": "The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft.",
+      "original": "The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "mechanism.base",
+      "candidate": "Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.",
+      "original": "Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "mechanism.base",
+      "candidate": "Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the metal is made into.",
+      "original": "Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the metal is made into.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "mechanism.base",
+      "candidate": "Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing to meet has nothing left to cut except its own kind.",
+      "original": "Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing to meet has nothing left to cut except its own kind.",
+      "gate": "pass"
+    }
+  ]
+}

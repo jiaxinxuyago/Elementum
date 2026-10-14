@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.missing",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "Nothing feeds the metal here, so each judgment comes out with no time in the ground behind it.",
+        "remedy": "Borrow it from someone older, one slow conversation at a time."
+      },
+      "original": {
+        "clause": "Nothing feeds the metal here, so each judgment comes out with no time in the ground behind it.",
+        "remedy": "Borrow it from someone older, one slow conversation at a time."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No timber for the blade at all: the edge stays clean and nothing gets made.",
+        "remedy": "Borrow timber: another person's project, one job you did not pick."
+      },
+      "original": {
+        "clause": "No timber for the blade at all: the edge stays clean and nothing gets made.",
+        "remedy": "Borrow timber: another person's project, one job you did not pick."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No dew on the blade: everything judged correctly and none of it ever said.",
+        "remedy": "Borrow a voice: write it down, read it to one person."
+      },
+      "original": {
+        "clause": "No dew on the blade: everything judged correctly and none of it ever said.",
+        "remedy": "Borrow a voice: write it down, read it to one person."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No forge anywhere near the steel, so nothing ever tests the edge or gives it a shape.",
+        "remedy": "Borrow heat. A coach, a deadline, someone allowed to say no."
+      },
+      "original": {
+        "clause": "No forge anywhere near the steel, so nothing ever tests the edge or gives it a shape.",
+        "remedy": "Borrow heat. A coach, a deadline, someone allowed to say no."
+      },
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.unrooted",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_金",
+      "field": "carry.unrooted",
+      "candidate": {
+        "clause": "No Metal under the core: a point with no steel behind it, held by whatever is nearest.",
+        "remedy": "Start with the base: sleep, food, one rule kept every day."
+      },
+      "original": {
+        "clause": "The self stands without roots: an edge with nothing under it, form held on will alone.",
+        "remedy": "Feed the self. Borrow ground and practice."
+      },
+      "gate": "pass"
+    }
+  ]
+}

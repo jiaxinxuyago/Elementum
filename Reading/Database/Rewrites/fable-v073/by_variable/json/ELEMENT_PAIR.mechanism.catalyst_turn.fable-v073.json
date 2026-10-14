@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.catalyst_turn",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight before you answer it.",
+      "original": "With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight before you answer it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands.",
+      "original": "With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week.",
+      "original": "With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Fire, the steel never reaches the forge and stays hard, cold and unshaped. Strength that answers to no one never gets its shape. Take on one deadline you did not set.",
+      "original": "With too little Fire, the steel never reaches the forge and stays hard, cold and unshaped. Strength that answers to no one never gets its shape. Take on one deadline you did not set.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Metal, the edge has no weight behind it and every cut costs more than it takes. The line goes thin in the middle. Sleep before you decide anything.",
+      "original": "With too little Metal, the edge has no weight behind it and every cut costs more than it takes. The line goes thin in the middle. Sleep before you decide anything.",
+      "gate": "pass"
+    }
+  ]
+}

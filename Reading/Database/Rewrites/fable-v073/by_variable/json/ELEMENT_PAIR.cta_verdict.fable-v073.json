@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.cta_verdict",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "cta_verdict",
+      "candidate": "You would rather understand a thing than be quick about it, so you keep only the answers you gave time to.",
+      "original": "You would rather understand a thing than be quick about it, so you keep only the answers you gave time to.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "cta_verdict",
+      "candidate": "You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you.",
+      "original": "You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "cta_verdict",
+      "candidate": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
+      "original": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "cta_verdict",
+      "candidate": "You work harder for a standard someone else set than for one of your own, and you usually go looking for one.",
+      "original": "You work harder for a standard someone else set than for one of your own, and you usually go looking for one.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "cta_verdict",
+      "candidate": "Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you.",
+      "original": "Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you.",
+      "gate": "pass"
+    }
+  ]
+}

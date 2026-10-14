@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.spared",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "There is no Earth here to pile on the metal, and the metal is lighter for it.",
+        "remedy": "Leave it be. Keep deciding at your own speed."
+      },
+      "original": {
+        "clause": "There is no Earth here to pile on the metal, and the metal is lighter for it.",
+        "remedy": "Leave it be. Keep deciding at your own speed."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No timber pulling at a thin edge: nothing drains what the core needs to keep.",
+        "remedy": "Keep it so. Rest the edge before you look for work."
+      },
+      "original": {
+        "clause": "No timber pulling at a thin edge: nothing drains what the core needs to keep.",
+        "remedy": "Keep it so. Rest the edge before you look for work."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No water to wash the edge away, and the edge is better for it.",
+        "remedy": "Keep it so. Speak when something is finished."
+      },
+      "original": {
+        "clause": "No water to wash the edge away, and the edge is better for it.",
+        "remedy": "Keep it so. Speak when something is finished."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No fire near the steel, and better so, since nothing presses a thin edge out of shape.",
+        "remedy": "Leave it cold. Set your own standards for now."
+      },
+      "original": {
+        "clause": "No fire near the steel, and better so, since nothing presses a thin edge out of shape.",
+        "remedy": "Leave it cold. Set your own standards for now."
+      },
+      "gate": "pass"
+    }
+  ]
+}

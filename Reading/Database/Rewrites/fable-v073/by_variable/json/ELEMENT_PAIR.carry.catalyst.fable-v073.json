@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.catalyst",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "the edge stands on thin ground and every judgment is struck before it has settled",
+        "remedy": "Let one hard question sit overnight before you answer it."
+      },
+      "original": {
+        "clause": "the edge stands on thin ground and every judgment is struck before it has settled",
+        "remedy": "Let one hard question sit overnight before you answer it."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The blade has nothing to work on: all that edge and no timber.",
+        "remedy": "Start one thing you can finish with your hands."
+      },
+      "original": {
+        "clause": "The blade has nothing to work on: all that edge and no timber.",
+        "remedy": "Start one thing you can finish with your hands."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The blade stays dry: everything is judged and nothing is said.",
+        "remedy": "Say one unfinished thing out loud this week."
+      },
+      "original": {
+        "clause": "The blade stays dry: everything is judged and nothing is said.",
+        "remedy": "Say one unfinished thing out loud this week."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The steel never reaches the forge and stays hard, cold and unshaped.",
+        "remedy": "Take on one deadline you did not set."
+      },
+      "original": {
+        "clause": "The steel never reaches the forge and stays hard, cold and unshaped.",
+        "remedy": "Take on one deadline you did not set."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The edge has no weight behind it and every cut costs more than it takes.",
+        "remedy": "Sleep before you decide anything."
+      },
+      "original": {
+        "clause": "The edge has no weight behind it and every cut costs more than it takes.",
+        "remedy": "Sleep before you decide anything."
+      },
+      "gate": "pass"
+    }
+  ]
+}

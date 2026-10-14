@@ -22,8 +22,8 @@
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Wood is your Action, and as a catalyst, it is the work your strength waits for. You carry less Wood than force to spend, so you chase an opening as much as you keep a steady love. You build best once you pick one and finish it, since the open one costs you the other.",
-      "definition_friction": "Wood is your Action, and as a friction, it is wanting that outruns the strength behind it. You carry more Wood than you have fuel for, so you reach for a new venture instead of finishing one. You hold savings and a steady love just as hard, until holding takes the strength that finishing needed.",
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, so you want the next opening as much as a steady love. You build best once you choose one and finish it.",
+      "definition_friction": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, so building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Keep in mind that you run out before your plans do.",
       "advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
       "advise_friction": "You start more than your body has strength to finish. Sleep a full night before any new yes. Eat before you plan the next thing. Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out."
     },
@@ -263,6 +263,22 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
       "replaced": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v073",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v073/by_axis/json/ELEMENT_PAIR/金_木.fable-v073.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
+      "replaced": "Wood is your Action, and as a catalyst, it is the work your strength waits for. You carry less Wood than force to spend, so you chase an opening as much as you keep a steady love. You build best once you pick one and finish it, since the open one costs you the other."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v073",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v073/by_axis/json/ELEMENT_PAIR/金_木.fable-v073.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
+      "replaced": "Wood is your Action, and as a friction, it is wanting that outruns the strength behind it. You carry more Wood than you have fuel for, so you reach for a new venture instead of finishing one. You hold savings and a steady love just as hard, until holding takes the strength that finishing needed."
     }
   ]
 }

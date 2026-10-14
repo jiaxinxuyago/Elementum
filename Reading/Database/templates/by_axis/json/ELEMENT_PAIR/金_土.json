@@ -22,8 +22,8 @@
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Earth is your Mind, and as a catalyst, it is the slow intake you run on. Because you carry less Earth than you use, you go short on private study and on a steady home. You want to be sure rather than fast, so you give a question one night before your judgment holds.",
-      "definition_friction": "Earth is your Mind, and as a friction, it is intake with nowhere to go. You hold more Earth than you spend, so you keep learning ahead of deciding and sheltering ahead of letting go. Since preparing is where you feel most at ease, you keep the finished thing waiting past its time.",
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, so you work it out alone rather than lean on anyone. You judge best once you give a question its night.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Earth holds it, so nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered ahead of letting go. Remember that you sit on finished work past its time.",
       "advise_catalyst": "Your judgment is only as good as the time you let it take in. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with no one in it. Sleep on anything that costs money.",
       "advise_friction": "Getting ready is your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists. Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built, a start made before the reading is done. Let it spend what Earth stores."
     },
@@ -263,6 +263,22 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
       "replaced": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v073",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v073/by_axis/json/ELEMENT_PAIR/金_土.fable-v073.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
+      "replaced": "Earth is your Mind, and as a catalyst, it is the slow intake you run on. Because you carry less Earth than you use, you go short on private study and on a steady home. You want to be sure rather than fast, so you give a question one night before your judgment holds."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v073",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v073/by_axis/json/ELEMENT_PAIR/金_土.fable-v073.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
+      "replaced": "Earth is your Mind, and as a friction, it is intake with nowhere to go. You hold more Earth than you spend, so you keep learning ahead of deciding and sheltering ahead of letting go. Since preparing is where you feel most at ease, you keep the finished thing waiting past its time."
     }
   ]
 }

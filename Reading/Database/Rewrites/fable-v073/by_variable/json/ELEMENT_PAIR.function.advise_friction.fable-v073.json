@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.advise_friction",
+      "candidate": "Getting ready is your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists. Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built, a start made before the reading is done. Let it spend what Earth stores.",
+      "original": "Getting ready is your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists. Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built, a start made before the reading is done. Let it spend what Earth stores.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "function.advise_friction",
+      "candidate": "You start more than your body has strength to finish. Sleep a full night before any new yes. Eat before you plan the next thing. Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out.",
+      "original": "You start more than your body has strength to finish. Sleep a full night before any new yes. Eat before you plan the next thing. Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.advise_friction",
+      "candidate": "You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours.",
+      "original": "You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.advise_friction",
+      "candidate": "You answer to pressure faster than you recover from it. Read the whole message before you answer the next hard call. Keep one evening a week with nobody to report to. Seek Earth, the Mind energy. Earth takes the blaze in and keeps it as warmth, ground that does not catch. Let it hold what Fire burns.",
+      "original": "You answer to pressure faster than you recover from it. Read the whole message before you answer the next hard call. Keep one evening a week with nobody to report to. Seek Earth, the Mind energy. Earth takes the blaze in and keeps it as warmth, ground that does not catch. Let it hold what Fire burns.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.advise_friction",
+      "candidate": "Being right is how you stay in charge of yourself. Ship one finished thing to someone above you by their date. Say your plan to someone who can refuse it. Seek Fire, the Order energy. Fire is heat with a deadline: it gives your force a direction and a judge. Let it spend what Metal stores.",
+      "original": "Being right is how you stay in charge of yourself. Ship one finished thing to someone above you by their date. Say your plan to someone who can refuse it. Seek Fire, the Order energy. Fire is heat with a deadline: it gives your force a direction and a judge. Let it spend what Metal stores.",
+      "gate": "pass"
+    }
+  ]
+}

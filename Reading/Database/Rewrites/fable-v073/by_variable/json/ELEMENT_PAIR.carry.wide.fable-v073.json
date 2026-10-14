@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.wide",
+  "$generated_by": "fable-v073",
+  "$handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "There is no shortage of Earth in you, the slow ground the metal grows from.",
+        "remedy": "Use it. Settle one question you already know enough about."
+      },
+      "original": {
+        "clause": "There is no shortage of Earth in you, the slow ground the metal grows from.",
+        "remedy": "Use it. Settle one question you already know enough about."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "You have plenty of Wood, timber stacked as far as the blade reaches.",
+        "remedy": "Use it. Pick one log and split it today."
+      },
+      "original": {
+        "clause": "You have plenty of Wood, timber stacked as far as the blade reaches.",
+        "remedy": "Use it. Pick one log and split it today."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Water is easy for you to reach, the dew your edge draws from the cold air.",
+        "remedy": "Use it. Say the thing, send the page."
+      },
+      "original": {
+        "clause": "Water is easy for you to reach, the dew your edge draws from the cold air.",
+        "remedy": "Use it. Say the thing, send the page."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Fire is one thing you never run short of, the forge the steel is shaped in.",
+        "remedy": "Use it. Take the job that has a judge."
+      },
+      "original": {
+        "clause": "Fire is one thing you never run short of, the forge the steel is shaped in.",
+        "remedy": "Use it. Take the job that has a judge."
+      },
+      "gate": "pass"
+    }
+  ]
+}
