@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "fable-v072-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-taught",
+        "Reads between lines",
+        "Solo thinker"
+      ],
+      "friction": [
+        "Never quite ready",
+        "Hard to reach",
+        "Second-guesses"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "You would rather teach yourself something than be shown it. Needing to understand from the inside makes you teach yourself slowly, and that puts the private lesson ahead of the shared one. Say what you taught yourself out loud every so often, because knowledge you never explain stays yours alone."
+            }
+          },
+          {
+            "word": "Reads between lines",
+            "angles": {
+              "drive": "Reading between the lines comes to you before reading the lines does. You trust the read under a thing more than the proof of it, because everything you take in sorts itself later. Give the proof a day to arrive, since you only share a read once you have words for it."
+            }
+          },
+          {
+            "word": "Solo thinker",
+            "angles": {
+              "drive": "You think better alone than you do out loud. Because you want the whole picture before saying any of it, you think a thing through alone rather than talk it through with help. Say one thought out loud before it is finished, since you only get help on thinking you let out early."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never quite ready",
+            "angles": {
+              "drive": "You get ready for things for longer than the things themselves take. Because you dread a rough version judged more than a good one late, you keep preparing instead of starting. Remember that you are allowed a bad first try, since a rough thing finished beats a ready one you never show."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "Reaching you takes longer than reaching most people, and you know it. Needing time alone to make sense of things puts thinking ahead of answering, so you stay out of reach for days. Do remember that you go quiet to understand people better, and you owe them the understanding out loud."
+            }
+          },
+          {
+            "word": "Second-guesses",
+            "angles": {
+              "drive": "Seeing every side of a question comes easily to you, and that is what keeps you second-guessing it. Because you care more about being right than being done, you second-guess the answer again instead of acting on it. Remember, you lose more rest to the second guess than you save in mistakes."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Deep-reading",
+            "angles": {
+              "drive": "Taking things in whole is how your mind works, even when the world calls it slowness. You do not sample, you absorb, and what you absorb becomes permanent equipment. Understanding, for you, is not a pass through the material. It is ownership."
+            }
+          },
+          {
+            "word": "Unhurried",
+            "angles": {
+              "drive": "Waiting before you speak is a habit you built on purpose, and it earns its keep. Your thinking has one speed, thorough, and pressure has never successfully changed the setting. What comes out late comes out finished, and people have learned the trade is worth it."
+            }
+          },
+          {
+            "word": "Inventive",
+            "angles": {
+              "drive": "Your best ideas come in from odd corners, and trusting them is a skill worth building. Your mind connects things underground, without appointments, and hands the results up when they are ready. The sources look random to everyone else. The record says otherwise."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "angles": {
+              "drive": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+            }
+          },
+          {
+            "word": "Brooding",
+            "angles": {
+              "drive": "Holding a thought long after it stops being useful is your mind’s oldest habit. What enters you does not leave on time: it settles, replays, and files itself under unfinished, permanently. All that replaying feels like processing. Mostly it is wear."
+            }
+          },
+          {
+            "word": "Overprepared",
+            "angles": {
+              "drive": "Getting ready is where you hide, and it photographs as diligence from every angle. As long as you are still preparing, nobody can grade the real attempt, and part of you has arranged your studying life around that protection. Somewhere the preparing stopped serving the step and started replacing it."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Deep-reading",
+        "Unhurried",
+        "Inventive"
+      ],
+      "friction": [
+        "Withdrawn",
+        "Brooding",
+        "Overprepared"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

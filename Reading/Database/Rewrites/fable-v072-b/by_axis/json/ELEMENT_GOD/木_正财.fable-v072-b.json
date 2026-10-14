@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_正财",
+  "$generated_by": "fable-v072-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Patient builder",
+        "Saves first",
+        "Loyal"
+      ],
+      "friction": [
+        "Stays too long",
+        "Counts everything",
+        "Slow to trust"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Patient builder",
+            "angles": {
+              "drive": "What you build, you build to last, and you are in no hurry. Since you want a thing to last more than arrive first, you build one thing for years ahead of starting a new one. Keep building it and let someone see it half built, because the years are the price you pay."
+            }
+          },
+          {
+            "word": "Saves first",
+            "angles": {
+              "drive": "You save first and spend what is left, and the order has never felt like a sacrifice. Since being covered matters more than most things you would buy, you save before pleasure every time. Keep saving, and let pleasure win once in a while, because that is what the saving is for."
+            }
+          },
+          {
+            "word": "Loyal",
+            "angles": {
+              "drive": "You stay loyal, and you count the loyalty as the love itself. Since being someone's certainty feels better than being their surprise, you keep being loyal ahead of ever being new. Be new for the person you are loyal to from time to time, because you were chosen for more than your loyalty."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stays too long",
+            "angles": {
+              "drive": "Staying put is a choice you make without noticing you made it. Since letting go feels like loss, you stay somewhere past the point it feeds you rather than risk an empty one. You are paying for the stay, remember, in months that give nothing back."
+            }
+          },
+          {
+            "word": "Counts everything",
+            "angles": {
+              "drive": "You count the price of most things, and you count it more than once. Since control feels like safety to you, you would rather count what something costs than learn what it is worth. Do not forget that you count in order to feel safe, and the sum has never read safe."
+            }
+          },
+          {
+            "word": "Slow to trust",
+            "angles": {
+              "drive": "You trust slowly, and you treat the slow years as the test. Because being let down would cost you more than staying alone, you wait for proof of a person rather than trust them first. You are waiting to trust, remember, on a guarantee love never gives."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cultivating",
+            "angles": {
+              "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+            }
+          },
+          {
+            "word": "Compounding",
+            "angles": {
+              "drive": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly."
+            }
+          },
+          {
+            "word": "Deep-rooted",
+            "angles": {
+              "drive": "Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stuck",
+            "angles": {
+              "drive": "Outgrowing a place and staying anyway is a pattern of yours, and calling it loyalty stopped being accurate a while ago. The ground you hold has long since stopped feeding you. Holding it anyway is the habit, and the habit never checks the yield."
+            }
+          },
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "Weighing a risk is your reflex, and almost no risk survives the weighing. The analysis is always excellent and always lands on later, because the math was never the real obstacle. The deciding was, and the deciding still is."
+            }
+          },
+          {
+            "word": "Inflexible",
+            "angles": {
+              "drive": "Once your way of doing things works, it hardens into the only way you will do them. Working once, for you, is proof of permanent correctness, and every update gets treated as an accusation. Your way still works. That was never the question people were raising."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Cultivating",
+        "Compounding",
+        "Deep-rooted"
+      ],
+      "friction": [
+        "Stuck",
+        "Plays it safe",
+        "Inflexible"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.excess",
+  "$generated_by": "fable-v072",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Earth piles past what the metal uses, so the edge stalls where it lies and nothing gets struck.",
+        "remedy": "Put one thing out this month, rough as it is."
+      },
+      "original": {
+        "clause": "Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.",
+        "remedy": "Dig out. Less study, one real cut."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Wood this hard chips the blade: the more timber there is, the less edge survives the work.",
+        "remedy": "Eat, sleep, then one log at a time."
+      },
+      "original": {
+        "clause": "Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists.",
+        "remedy": "Cut less. Sharpen before you cut."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Too much water sinks the metal: so much poured out that the edge goes under.",
+        "remedy": "Pour less. Take in one slow thing a day."
+      },
+      "original": {
+        "clause": "Too much water sinks the metal: output floods the work, saying everything and shaping nothing.",
+        "remedy": "Cut the flow. Finish one thing in silence."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Too much fire for this much metal, so the edge melts before it takes a shape.",
+        "remedy": "Step back from the heat. Fewer judges, more sleep."
+      },
+      "original": {
+        "clause": "Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape.",
+        "remedy": "Step out of the fire. Add ground."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Metal this heavy needs water to take the point off, or the edge cuts everything the same.",
+        "remedy": "Let it flow out: one thing said, one thing shipped."
+      },
+      "original": {
+        "clause": "Strong metal wants water: so much certainty it cuts everything the same way.",
+        "remedy": "Let water blunt it. Say it, don't cut it."
+      },
+      "gate": "pass"
+    }
+  ]
+}

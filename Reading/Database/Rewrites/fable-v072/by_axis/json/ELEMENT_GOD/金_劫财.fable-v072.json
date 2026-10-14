@@ -1,0 +1,165 @@
+{
+  "$archetype": "金_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "金_劫财",
+  "$generated_by": "fable-v072",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Competitive",
+        "First to bet",
+        "Shares the risk"
+      ],
+      "friction": [
+        "Keeps score",
+        "Bets the rent",
+        "Hates to lose"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Competitive",
+            "angles": {
+              "drive": "You work best with someone to beat and you know it. Knowing where you stand matters more than comfort, so you get more from one rival in view than from good intentions. Pick one contest you are allowed to finish, because you compete with no end in sight, and no end means no rest.",
+              "cost_self": "Where there is no one to compete with, you lose your pace and mind it. Competing is the fuel you run on, so winning the next round comes ahead of noticing you are tired. Compete against your own record for a month, as you never reach the finish that would let you rest.",
+              "cost_others": "Competing with a friend is how you show them you take them seriously. Since you want someone worth beating more than someone easy to keep, you set the stakes and keep raising them. Let one friendship stay a friendship, because you take from a rival the ease of being on your side."
+            }
+          },
+          {
+            "word": "First to bet",
+            "angles": {
+              "drive": "You say yes to the bet before the fear has finished. Hesitating feels like losing to yourself, so you bet first and size it afterwards. Keep one bet a year at a size you can lose, because you pay for nerve in money as much as in pride.",
+              "cost_self": "Whenever the stakes go up, you are first to bet and more yourself for it. Betting first is the closest you get to feeling sure, so you size the bet to your nerve ahead of your savings. Size one bet to the savings, since the early yes costs you money you had put aside.",
+              "cost_others": "Betting first is your way of carrying the people who hesitate. Since you bet for the group ahead of asking it, you put your partners' money where your nerve is. Check the size with them first, because you spend their caution as if it were your courage."
+            }
+          },
+          {
+            "word": "Shares the risk",
+            "angles": {
+              "drive": "You trust a person faster after you have something at risk together. Shared stakes make the bond real to you where talk leaves it loose, so you go in together ahead of writing anything down. Write the terms down once, because you risk the friendship as much as you risk the money.",
+              "cost_self": "Where a friend needs backing, you share the risk before you share your reasons. Sharing the risk feels closer than staying out of it, so the shared bet comes ahead of your own margin. Keep one account no friend can draw on, since you cover their losses from money meant for your own rest.",
+              "cost_others": "Splitting a risk with someone is the warmest offer you make. Since you want them in it with you more than safe from it, you share the upside and the fall. Say the downside out loud before the handshake, because you bring the people you like into risks sized to your nerve."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Keeps score",
+            "angles": {
+              "drive": "You keep an exact score of where you stand with everyone you like. With Metal running over, you run on comparison more than on company, so you keep a quiet tally of who gave more. Try to remember that you started counting to be fair and kept counting to be ahead.",
+              "cost_self": "Whenever a friend pulls ahead, you score it as your loss rather than their win. Keeping score is how you stay sure of your place, so you spend the friendship checking the count instead of enjoying it. Do not forget that you pay for every point you keep in closeness you never get to collect.",
+              "cost_others": "Keeping the score even is your way of keeping a friendship honest. Since you count favours instead of simply returning them, you hand the people you love a bill that was never discussed. Be honest with yourself that you turn their gifts into debts without ever telling them the price."
+            }
+          },
+          {
+            "word": "Bets the rent",
+            "angles": {
+              "drive": "You size a bet to the thrill ahead of the margin. Metal piles up in you, so you always have nerve to spare and have to borrow caution. You stake the rent, and you know it, on a feeling that fades faster than the bill.",
+              "cost_self": "Where the bet is biggest you are calmest, and you read the calm as a sign. You trust your nerve more than your math, so you put the rent money in before the sums are done. You settle up for that calm later, as you well know, in rent and in sleep you lose.",
+              "cost_others": "Betting the rent is how you make a thing feel real, for everyone in it. Since you size the bet to your own nerve ahead of theirs, you bring the people beside you into stakes sized for you. Weigh how much of their safety you bet along with your own each time you go in."
+            }
+          },
+          {
+            "word": "Hates to lose",
+            "angles": {
+              "drive": "You hate to lose far more than the loss ever deserves. You read a loss to a peer as a statement about who you are, so you argue the result instead of taking it. You hate losing your place, if you are honest, far more than losing the point.",
+              "cost_self": "Whenever you come second, you lose the rest of the day to it. Being beaten feels like being replaced, so you hate the loss more than you learn from it. You give the loss the whole evening, remember, and get neither the rest nor the lesson back.",
+              "cost_others": "Hating to lose even a game is how you show someone they matter. Since you need the win more than the evening, you keep the argument going after the game ends. Keep the people you play with in mind, because you cost them the lightness the game was for."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keen-edged",
+            "angles": {
+              "drive": "Competition hones you visibly. The rival’s number posted on your wall, the timed run against your own record, the deal chased sharper because someone else wants it: pressure grinds you finer instead of down, and your edge is renewed weekly, on purpose, against real resistance.",
+              "cost_self": "The quarter your division got a genuine competitor was the quarter your numbers, flat for a year, jumped nineteen percent. Nothing else changed. Your manager mentioned this pairing carefully at review, and you agreed with unusual cheerfulness. You had noticed the sharpening yourself, and enjoyed it.",
+              "cost_others": "People perform better against you and thank you for it later, sometimes years later. Training partners request you specifically, knowing the pace will hurt correctly. Whole teams calibrate their edge on yours, the way shops keep one true reference tool against which everything else gets measured."
+            }
+          },
+          {
+            "word": "Competitive",
+            "angles": {
+              "drive": "Everything can be scored, and you are keeping score. The sales board, the board game, the parallel parking: your intensity arrives regardless of stakes, and it lifts the whole field, because coasting near you is simply not available. Games mean more when you are playing. Everyone plays harder.",
+              "cost_self": "The office steps challenge was meant as a wellness joke until you joined, at which point it developed leagues, trash talk, and a trophy someone welded. Participation tripled. The winner, who was not you that quarter, framed the printout. You demanded a rematch at the ceremony, smiling.",
+              "cost_others": "People pick you first for anything with a winner, and brace slightly when you join casual things. The intensity is contagious in the useful direction: standards rise wherever you compete. The company records you have broken remain broken by you, a fact you check, occasionally, at lunch."
+            }
+          },
+          {
+            "word": "Unfazed",
+            "angles": {
+              "drive": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility.",
+              "cost_self": "The tender was between your four-person shop and two multinationals, and your bid went in anyway, priced with nerve, argued in person. You took forty percent of the contract, the part requiring speed. The multinationals now subcontract you, a sentence you never say out loud at meetings.",
+              "cost_others": "People stopped warning you about long shots after enough of them landed, and started quietly co-investing instead. Your presence in a fight recalibrates everyone’s sense of winnable. The stories are traded at industry dinners, always ending the same way: somebody checked the standings twice."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutthroat",
+            "angles": {
+              "drive": "Winning has stopped checking its methods with you. The shortcut through a colleague’s territory, the information used a half-step past fair, the alliance dropped at the moment of maximum value: each move defensible in isolation, and together a style that people describe with one hand on their wallet.",
+              "cost_self": "The lead was technically unassigned when you took it, though everyone knew whose relationship had warmed it for a year. The commission cleared. The colleague said nothing, transferred out in the spring, and now runs the region you cannot get meetings in. Accounts settle slowly, and fully.",
+              "cost_others": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+            }
+          },
+          {
+            "word": "Abrasive",
+            "angles": {
+              "drive": "Contact with you sands people down. The interruption at speed, the correction without cushioning, the volume that arrives when resistance does: none of it is malicious, and all of it accumulates, until working near you requires the kind of gloves people resent needing.",
+              "cost_self": "The engineer was right about the flaw, and by the end of your six-minute response he had stopped defending the point, then stopped talking entirely, then, that quarter, stopped raising flaws. The next one shipped. It was expensive. The postmortem located the bug and, unofficially, the silence.",
+              "cost_others": "Teams route their communication with you through the two people who can take the friction, an arrangement everyone denies exists. Your results are respected in full. But the roughness has a documented orbit: talent circles you once, learns the surface, and requests the transfer politely."
+            }
+          },
+          {
+            "word": "Picks fights",
+            "angles": {
+              "drive": "Everything becomes a contest, including things that were conversations. The differing opinion escalates to a showdown, the casual game develops stakes, the family dinner acquires a scoreboard nobody else consented to. You win most of them. The wins pile up in a specific corner, alone.",
+              "cost_self": "The debate about the restaurant bill, seven dollars at issue, ran twenty minutes and ended with your victory and a quieter table. You had been right. The couple across from you split an odd look you decoded weeks later, at another dinner, to which they had invited others.",
+              "cost_others": "People decline the bait now with practiced smoothness, agreeing early, changing subjects, letting your gauntlets lie where they fall. The duels you still get are with strangers and juniors, everyone else having retired from the circuit. Champions, it turns out, mostly age out undefeated, in emptying halls."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Keen-edged",
+        "Competitive",
+        "Unfazed"
+      ],
+      "friction": [
+        "Cutthroat",
+        "Abrasive",
+        "Picks fights"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

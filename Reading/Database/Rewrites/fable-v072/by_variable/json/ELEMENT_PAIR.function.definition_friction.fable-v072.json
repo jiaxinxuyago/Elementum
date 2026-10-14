@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_friction",
+  "$generated_by": "fable-v072",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "function.definition_friction",
+      "candidate": "Earth is your Mind, and as a friction, it is intake with nowhere to go. You hold more Earth than you spend, so you keep learning ahead of deciding and sheltering ahead of letting go. Since preparing is where you feel most at ease, you keep the finished thing waiting past its time.",
+      "original": "Earth is your Mind, and as a friction, it is intake with no off switch. Study, comfort, preparation, shelter: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "function.definition_friction",
+      "candidate": "Wood is your Action, and as a friction, it is wanting that outruns the strength behind it. You carry more Wood than you have fuel for, so you reach for a new venture instead of finishing one. You hold savings and a steady love just as hard, until holding takes the strength that finishing needed.",
+      "original": "Wood is your Action, and as a friction, it is growth that stops answering to the harvest. Effort goes wherever the roots or the branches already point, old ground held too hard, new shoots started too freely, and the season ends with plenty of motion and nothing ripe.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.definition_friction",
+      "candidate": "Water is your Expression, and as a friction, it is care that never stops and talent that stays loud. You pour out more Water than you take in, until every thought gets said. You need to be heard more than refilled, so your care and wit run out before your words do.",
+      "original": "Water is your Expression, and as a friction, it is output with no banks. Talent spills wherever it lands, into snacks and scrolling, into remarks that cut deeper than intended, into half-made things. Nothing is wrong, exactly. That is the problem. The spill keeps absorbing the effort your best work was waiting for.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.definition_friction",
+      "candidate": "Fire is your Order, and as a friction, it is pressure past what you are ready for. You carry more Fire than your core holds, so you obey a crisis ahead of your rest and a rule ahead of your judgment. Over time you turn that pressure on yourself and mistake it for discipline.",
+      "original": "Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "function.definition_friction",
+      "candidate": "Metal is your Body, and running over, it is will with nowhere to go. There is more Metal in you than you spend, so you trust your own standard more than you hear a peer's. You turn every shared stake into a contest, and over time you win more arguments than you keep friends.",
+      "original": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
+      "gate": "pass"
+    }
+  ]
+}

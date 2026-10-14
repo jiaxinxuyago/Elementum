@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "水_食神",
+  "$generated_by": "fable-v072-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Giving",
+        "Unforced",
+        "Warm"
+      ],
+      "friction": [
+        "Drifts along",
+        "Comfort first",
+        "Gives it away"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Giving",
+            "angles": {
+              "drive": "Giving is the first thing you do in any situation, before you know what the situation needs. Since being useful costs you less than being asked what you want, you give care more than you ask for it. Keep giving freely, and let it count as something you chose rather than something you owed."
+            }
+          },
+          {
+            "word": "Unforced",
+            "angles": {
+              "drive": "Effort is not where your best work comes from, and you keep waiting for it to feel harder. You rate what you forced above what came unforced, so you hand over the easy thing with an apology. Hand it over without one, because the lack of effort was the whole gift."
+            }
+          },
+          {
+            "word": "Warm",
+            "angles": {
+              "drive": "Wherever you sit down, you warm the place without saying much about it. You want everyone to leave warmer more than impressed, so you spend your words on comfort instead of on show. Trust that warmth as something you make on purpose, because you are the one making it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Drifts along",
+            "angles": {
+              "drive": "Whatever is already in motion is what you drift into, because drifting costs less than deciding. You drift into someone's plan rather than make your own, so a whole week goes by without a choice you can name. Remember that you were allowed to want something more specific than the drift."
+            }
+          },
+          {
+            "word": "Comfort first",
+            "angles": {
+              "drive": "Comfort beats finishing the thing whenever you let the two compete. You want comfort now more than you want to feel done later, because comfort never makes you wait. Bear in mind that comfortable comes around far more often than finished does, and only finished lasts."
+            }
+          },
+          {
+            "word": "Gives it away",
+            "angles": {
+              "drive": "Your first reflex is to give it away, and your last defence looks the same. You give it away rather than be caught keeping it, so you give your time and care away before choosing where. Keep some of what you make, since you were never required to give all of it away."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fluent",
+            "angles": {
+              "drive": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do."
+            }
+          },
+          {
+            "word": "Nourishing",
+            "angles": {
+              "drive": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Your output feeds: conversation, cooking, company, all of it lands as sustenance rather than display. Feeding people is simply the shape your talent takes, in every medium."
+            }
+          },
+          {
+            "word": "Easygoing",
+            "angles": {
+              "drive": "Your tempo stays loose where other people clench, which is temperament rather than effort. Pressure has never found your dial, and around you it loses track of everyone else’s too. Ease like yours cannot be faked under load. Its realness is what makes it contagious."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Drifting",
+            "angles": {
+              "drive": "Following the day’s current instead of steering it is a habit now, whatever it started as. The Tuesday you set aside for writing became errands, a nap, and a show, and at no point did anyone decide that. The not-deciding is the whole mechanism."
+            }
+          },
+          {
+            "word": "Indulgent",
+            "angles": {
+              "drive": "Treating yourself is your first answer to most feelings, and by now the treats have a routing system. Stress orders dessert, boredom opens the app, sadness books the trip. The card statement reads like a mood diary, and the moods are winning."
+            }
+          },
+          {
+            "word": "Unmoved",
+            "angles": {
+              "drive": "It takes a great deal to move you, and less would honestly serve you better. The deadline, the news, the argument all get the same shrug and the same tea. Calm this deep is a talent right up until it becomes a moat."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fluent",
+        "Nourishing",
+        "Easygoing"
+      ],
+      "friction": [
+        "Drifting",
+        "Indulgent",
+        "Unmoved"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$archetype": "金_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_火",
+  "$generated_by": "fable-v072-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "You take a rule more seriously than whoever made it, so you end up as the one enforcing it."
+  },
+  "$original": {
+    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  }
+}

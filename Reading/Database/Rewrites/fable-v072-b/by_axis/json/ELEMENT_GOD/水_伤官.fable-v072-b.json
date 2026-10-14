@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "水_伤官",
+  "$generated_by": "fable-v072-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Quick-witted",
+        "Original",
+        "Speaks up"
+      ],
+      "friction": [
+        "Overshares",
+        "Mocking",
+        "Picks fights"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Quick-witted",
+            "angles": {
+              "drive": "Wit is what you reach for first and what you would give up last. You want the quick true line said more than the safe one, so silence costs you more than it costs most people. Say the witty thing, and trust that you already know the few times to hold it."
+            }
+          },
+          {
+            "word": "Original",
+            "angles": {
+              "drive": "The usual way of doing something is the one way you cannot bring yourself to do it. You want the original version more than approval, so you make the version you were not asked for. Keep making it, since the original version is the one you are best at."
+            }
+          },
+          {
+            "word": "Speaks up",
+            "angles": {
+              "drive": "Where you see a thing done badly, you speak up to the one doing it rather than around them. Since you would sooner be told you are wrong than left guessing, you speak to others as plainly as you ask to be spoken to. Stay plain, because speaking up is a kind of respect."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overshares",
+            "angles": {
+              "drive": "Holding a thought in is harder for you than sharing it, and out it goes. Being fully known matters to you ahead of being careful, so you share the story before you have told the person it is about. Remember that you get to keep a few things unshared until you have finished them."
+            }
+          },
+          {
+            "word": "Mocking",
+            "angles": {
+              "drive": "Mocking a thing is how you get close to it, and the ones you love get most of it. You mock rather than say what you feel, so your affection arrives as a dig. You hear the fondness under the mocking more clearly than anyone else can, and that part is yours to keep."
+            }
+          },
+          {
+            "word": "Picks fights",
+            "angles": {
+              "drive": "Fighting is what you do first with any instruction, before you have read it to the end. You care more about being free than being right, so you fight the very ones you agree with. You spend more on the fight than the rule was ever worth, and you already know it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Silver-tongued",
+            "angles": {
+              "drive": "Words obey you the way water obeys gravity, finding every gap and pouring through beautifully. You talk people into things, out of things, and around things, and they enjoy the ride even when they can see the technique. Persuasion this smooth stopped being learned long ago. It flows."
+            }
+          },
+          {
+            "word": "Inspired",
+            "angles": {
+              "drive": "Ideas arrive in you like spring water, from somewhere underground and always moving. Mid-shower, mid-sentence, mid-commute: the notion appears whole, strange, and usually good. You have learned to keep something to write with everywhere, including the glovebox and the shower wall."
+            }
+          },
+          {
+            "word": "Free-flowing",
+            "angles": {
+              "drive": "Your expression pours, and it comes out with an edge already in it. The take nobody dared say, the phrasing that turns the meeting, the line too good to keep: it all flows at speed, brilliant first, considerate later, if later gets a turn."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Toxic",
+            "angles": {
+              "drive": "Your words work on people the way water works on iron, slowly, invisibly, and completely. The little digs, the accurate observations shared at the wrong moment, the humor with acid in it: nothing dramatic, ever. Just gradual damage that everyone attributes to time."
+            }
+          },
+          {
+            "word": "Mocking",
+            "angles": {
+              "drive": "Ridicule is your reflex response to sincerity, including your own. The earnest attempt, the heartfelt post, the brave little dream: something in you must comment, and the comment must have teeth. Everything is material. The people who love you have learned to bring their material pre-shrunk."
+            }
+          },
+          {
+            "word": "Uncontainable",
+            "angles": {
+              "drive": "What you know, feel, or suspect will exit your mouth, and timing has no vote. The secret, the observation, the truth the dinner was structured around avoiding: your current finds the crack. Afterward you apologize sincerely, which changes nothing about the flood next time."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Silver-tongued",
+        "Inspired",
+        "Free-flowing"
+      ],
+      "friction": [
+        "Toxic",
+        "Mocking",
+        "Uncontainable"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

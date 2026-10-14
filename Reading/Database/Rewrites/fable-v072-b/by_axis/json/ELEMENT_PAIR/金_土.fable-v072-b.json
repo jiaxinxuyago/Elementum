@@ -1,0 +1,19 @@
+{
+  "$archetype": "金_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_土",
+  "$generated_by": "fable-v072-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "You take your time with whatever you let in rather than skim it, and once a thing has settled in you, you keep it for good."
+  },
+  "$original": {
+    "cta_verdict": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  }
+}

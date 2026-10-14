@@ -9,3 +9,13 @@ REA_18 Stage 3, batch 1: the Metal core's five ELEMENT_PAIR cells (金_木, 金_
 The owner's deck: `owner-read/deck.json` (253 questions, seed 20261014, original vs fable-v071 shuffled, a third option where a second candidate exists: 65), `owner-read/key.json` sealed, `owner-read/picks.json` empty. The station is untouched; adoption waits on the owner's rulings.
 
 Writers' own least-sure fields are in their hand-back reports (the session transcript); the read decides.
+
+## The v0.7.2 polish (2026-10-14, Q6 of the v0.7.2 item)
+
+| Pass | Writers | Package | Station | Gate | Read |
+|---|---|---|---|---|---|
+| polish, v0.7.2 | fable-v072: the same five sealed shares (one per energy), each polishing its own v0.7.1 draft under the v0.7.2 pack (`previous/` inside the package), no file outside the package | `ComparativeAnalysis/Handoffs/2026-10-14-batch-1-metal-core-v072/` (25 skeletons, 253 fields, `07_REFERENCE_BENCHMARKS.md` in `prompts/`) | `Reading/Database/Rewrites/fable-v072/` (253) and `fable-v072-b/` (65) | 25 of 25 after one send-back (two Wood friction files, repeated reminder frames); three gate repairs on the way (the tension hinges widened to split comparatives, "wins over" and "above what"; a four-gram carrying the chip's own words lawful across one row's angles) | `fable-v072.reading.md` |
+
+The owner's deck for this pass: `owner-read-v072/deck.json` (253 questions, seed 20261015, original vs fable-v072 shuffled, a third option where a second candidate exists: 65), `key.json` sealed, `picks.json` empty. The v0.7.1 deck (`owner-read/`) stays as the record of the first pass. The station is untouched; adoption waits on the owner's rulings.
+
+Observed on the polished set: the passages sit at 48 to 55 words, near the cap, where the owner's iteration-8 samples sat at 37 to 42; the polish changed the clause shape and the spine more than the length. Open for the owner: whether the ledger cap comes down (30 to 45) for the next pass.

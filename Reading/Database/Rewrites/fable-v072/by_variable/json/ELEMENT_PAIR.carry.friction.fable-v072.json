@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.friction",
+  "$generated_by": "fable-v072",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_土",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "the ore sits in the ground long after it is ready and no edge gets struck from it",
+        "remedy": "Make one thing and let it leave the house."
+      },
+      "original": {
+        "clause": "The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+        "remedy": "Dig out and cut something real."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_木",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The blade goes blunt before the timber is through: so many logs started that none gets split.",
+        "remedy": "Sleep before you start the next one."
+      },
+      "original": {
+        "clause": "The pruning never stops: forests of projects, an edge worn on material that never ends.",
+        "remedy": "Cut fewer branches, and finish them."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The edge washes away: every thought spoken the moment it forms.",
+        "remedy": "Listen to the whole answer before you add yours."
+      },
+      "original": {
+        "clause": "The flow turns to flood: output for its own sake, saying instead of shaping.",
+        "remedy": "Cut the noise and the water clears."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The forge runs hotter than the blade can take.",
+        "remedy": "Sleep on the next demand before you answer it."
+      },
+      "original": {
+        "clause": "The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.",
+        "remedy": "Step out of the fire long enough to hold an edge."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "金_金",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The blade grinds on itself with nothing to cut.",
+        "remedy": "Hand the edge one real job this week."
+      },
+      "original": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      },
+      "gate": "pass"
+    }
+  ]
+}

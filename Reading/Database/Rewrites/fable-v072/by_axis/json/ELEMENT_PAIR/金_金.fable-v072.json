@@ -1,0 +1,97 @@
+{
+  "$archetype": "金_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_金",
+  "$generated_by": "fable-v072",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing to meet has nothing left to cut except its own kind.",
+      "catalyst_turn": "With too little Metal, the edge has no weight behind it and every cut costs more than it takes. The line goes thin in the middle. Sleep before you decide anything.",
+      "friction_turn": "With too much Metal, the blade grinds on itself with nothing to cut and every argument becomes a test of who holds the harder line. Hand the edge one real job this week."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The edge has no weight behind it and every cut costs more than it takes.",
+        "remedy": "Sleep before you decide anything."
+      },
+      "friction": {
+        "clause": "The blade grinds on itself with nothing to cut.",
+        "remedy": "Hand the edge one real job this week."
+      },
+      "unrooted": {
+        "clause": "No Metal under the core: a point with no steel behind it, held by whatever is nearest.",
+        "remedy": "Start with the base: sleep, food, one rule kept every day."
+      },
+      "excess": {
+        "clause": "Metal this heavy needs water to take the point off, or the edge cuts everything the same.",
+        "remedy": "Let it flow out: one thing said, one thing shipped."
+      },
+      "thin": {
+        "clause": "Metal is a small thing in you, an edge kept short and used only where it counts.",
+        "remedy": "Keep it that size. Spend the rest elsewhere."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Metal is your Body, and running thin, it is stamina spent faster than it comes in. You carry less Metal than you use, so you stand alone instead of leaning on a peer and bet big instead of resting. Each time, you pay from a reserve you never stopped to refill.",
+      "definition_friction": "Metal is your Body, and running over, it is will with nowhere to go. There is more Metal in you than you spend, so you trust your own standard more than you hear a peer's. You turn every shared stake into a contest, and over time you win more arguments than you keep friends.",
+      "advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Take rest in first and sleep before the hard decision rather than after it. Let one peer carry a job you could do yourself. Sit out one contest a month on purpose. Eat before you answer the message.",
+      "advise_friction": "Being right is how you stay in charge of yourself. Ship one finished thing to someone above you by their date. Say your plan to someone who can refuse it. Seek Fire, the Order energy. Fire is heat with a deadline: it gives your force a direction and a judge. Let it spend what Metal stores."
+    },
+    "cta_verdict": "Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
+      "catalyst_turn": "Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.",
+      "friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.",
+        "remedy": "Practice your craft alone until it rings."
+      },
+      "friction": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      },
+      "unrooted": {
+        "clause": "The self stands without roots: an edge with nothing under it, form held on will alone.",
+        "remedy": "Feed the self. Borrow ground and practice."
+      },
+      "excess": {
+        "clause": "Strong metal wants water: so much certainty it cuts everything the same way.",
+        "remedy": "Let water blunt it. Say it, don't cut it."
+      },
+      "thin": {
+        "clause": "Metal runs thin and still carries weight: little of the self, held too tightly.",
+        "remedy": "Loosen the grip."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late.",
+      "definition_friction": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
+      "advise_catalyst": "Discipline that skips recovery is borrowing, and the interest is physical. Put maintenance on the calendar before it is needed: fixed bedtime, real meals, one full rest day a week. Track energy like money for one month. Treat the first sign of wear as a warning.",
+      "advise_friction": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
+    },
+    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.unrooted": "pass",
+    "carry.excess": "pass",
+    "carry.thin": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

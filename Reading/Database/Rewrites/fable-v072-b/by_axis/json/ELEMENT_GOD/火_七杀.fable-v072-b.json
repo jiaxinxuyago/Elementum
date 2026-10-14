@@ -1,0 +1,146 @@
+{
+  "$archetype": "火_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "火_七杀",
+  "$generated_by": "fable-v072-b",
+  "$handoff": "2026-10-14 batch 1 metal core, the v0.7.2 polish",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Clear under pressure",
+        "Takes charge",
+        "Loves high stakes"
+      ],
+      "friction": [
+        "Hard on yourself",
+        "Pushes too hard",
+        "Never off duty"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clear under pressure",
+            "angles": {
+              "drive": "Clear thinking comes to you most easily under pressure. Because nothing else makes your thinking this clear, you would sooner be tested under pressure than praised in comfort. Give yourself one hard thing a month on purpose, since you do your clearest work inside that pressure."
+            }
+          },
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "You end up in charge wherever the lead is open. Having someone in charge matters more to you than having it be you, so you take charge the moment nobody else does. Let someone else take charge sometimes, because you want things moving far more than the title."
+            }
+          },
+          {
+            "word": "Loves high stakes",
+            "angles": {
+              "drive": "You come alive the moment the stakes go up. Peace reads to you as being left out, so you keep the stakes high deliberately rather than settling for a sure thing. Choose those high stakes with your eyes open, because you are most yourself with something on the line."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "Being hard on yourself is easier for you than being proud. There is more Fire in you than your strength was built for, and the extra comes out hard on you. You are allowed to go easy on yourself as much as to be useful, and that is the part worth remembering."
+            }
+          },
+          {
+            "word": "Pushes too hard",
+            "angles": {
+              "drive": "You push because staying put feels like giving up. You hold more Fire than you were made for, so you push the people closest to you with a force meant for a crisis. Remember that you want to be followed more than obeyed, and pushing too hard only ever gets you obeyed."
+            }
+          },
+          {
+            "word": "Never off duty",
+            "angles": {
+              "drive": "You stay on duty long after the alarm has stopped. Because an hour off duty feels like a mistake waiting to happen, you put yourself back on duty instead of resting. Remember you have to practise going off duty as much as you ever practised being on it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Decisive",
+            "angles": {
+              "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
+            }
+          },
+          {
+            "word": "Daring",
+            "angles": {
+              "drive": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The feared thing shrinks on contact, every single time, and you have known that longer than most people have been avoiding their own versions of it."
+            }
+          },
+          {
+            "word": "Crisis-ready",
+            "angles": {
+              "drive": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Too intense",
+            "angles": {
+              "drive": "Your intensity marks people whether you mean it or not, and you usually do not. The heat that cuts through problems does not distinguish problems from bystanders, and the bystanders remember longer. You forget the flare by lunch. Nobody standing near it ever does."
+            }
+          },
+          {
+            "word": "Bossy",
+            "angles": {
+              "drive": "Taking charge is your reflex even where nobody asked, and mostly nobody asked. Any gathering without a commander strikes you as an emergency, and you fix it by quietly assuming the post. Order arrives on schedule. Volunteering, around you, just as quietly dies."
+            }
+          },
+          {
+            "word": "Burned-out",
+            "angles": {
+              "drive": "Running at full flame until the fuel simply ends is a cycle for you, and calling it bad luck stopped working several cycles ago. The crash sits on the schedule now, as regular as the campaigns themselves. You just decline to read that far down."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Decisive",
+        "Daring",
+        "Crisis-ready"
+      ],
+      "friction": [
+        "Too intense",
+        "Bossy",
+        "Burned-out"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "heavy Order on a weak body turns into the inner judge: pressure with no outside target lands on the self",
+      null,
+      null,
+      "force without permission: too much Order for the body, so the pressure goes outward onto whoever is near",
+      null,
+      null,
+      "peace felt as demotion, on the friction pole: the reader cannot stand down, so the crisis is kept alive"
+    ]
+  }
+}
