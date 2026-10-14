@@ -93,3 +93,19 @@ Getting ready suits you better than being judged on what you did. Preparing feel
 ### 水_食神 · The Artisan · catalyst · cost to you (Nourishing) · 53 words
 
 Where you feel most like yourself is taking care of people, and people can tell. Being useful is the nearest thing you have to feeling safe, which puts giving ahead of anything you want. Now and then let someone give back, because a table that feeds you is one you can keep feeding.
+
+## Iteration 7 · 2026-10-14 · the cause internalised, the reader as the subject
+
+The owner's note on iteration 6 (the Overprepared close): in most sentences the subject is you (or I), never a third party. The reader does not overprepare because someone is waiting; they overprepare because of their own need, the perfectionism, the safety of not being judged. Once the cause is internalised the subject becomes you, and the reminder is about the reader rather than about the people waiting. Applied to the Overprepared close, and subtly to the other two where a third party had taken the subject ("the counting falls to you", "none of them came for the score", "people can tell").
+
+### 金_劫财 · The Rival · friction · cost to others (Keeps score) · 44 words
+
+The people closest to you are the ones you measure against most exactly. Since a fair fight needs someone keeping count, you keep it quietly in shared stakes and favours. Keep in mind that you never wanted the score as much as the closeness.
+
+### 土_偏印 · The Alchemist · friction · cost to others (Overprepared) · 50 words
+
+Getting ready suits you better than being judged on what you did. Preparing feels like progress and risks nothing, which is why you stay in it longer than the work needs. Remember that you are waiting for your own permission rather than a finished version, and almost ready is enough.
+
+### 水_食神 · The Artisan · catalyst · cost to you (Nourishing) · 52 words
+
+Where you feel most like yourself is taking care of people, and it shows. Being useful is the nearest thing you have to feeling safe, which puts giving ahead of anything you want. Now and then let someone give back, because you can only keep feeding a table that also feeds you.
