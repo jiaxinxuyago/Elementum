@@ -19,6 +19,8 @@
 
 ## Open for next round (the owner will explain)
 
+_Closed 2026-10-14 by the feedback audit under v0.7.2: §1 the place rule stays as the floor the owner kept at Q2 of the v0.7 questionnaire (the clock time strict, the place stamp blocking only as the anchor of an act); §2 no exemption for deliberate repeats (B6); §4 the rejection covers the card's demand and the verb lists, the spec key and the harness note stay for the read (D8)._
+
 1. §1 the place rule and what the pain point actually is.
 2. §2 the deliberate-repeat examples the owner does not like.
 3. §4 whether the rejection of the remedy verb covers the Q1e spec key and note.
