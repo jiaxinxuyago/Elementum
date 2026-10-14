@@ -61,3 +61,19 @@ You are more comfortable getting ready than being judged on what you did. Prepar
 ### 水_食神 · The Artisan · cost to you (Nourishing) · 53 words
 
 Taking care of people is where you feel most like yourself. Being useful is the nearest thing you have to feeling safe, so giving comes before anything you might want. Letting someone give back feels like giving that safety up, so you keep feeding a table where nobody ever thinks to feed you.
+
+## Iteration 5 · 2026-10-14 · the tone by pole
+
+The owner's note on iteration 4: the two poles should sound different. A catalyst trait reads a little like a compliment; a friction trait reads like a reminder, never a criticism. Tone only, the content unchanged, the counts held. On the golden chart the Rival and the Alchemist rows are the friction pole; the Artisan row is the catalyst pole.
+
+### 金_劫财 · The Rival · friction · cost to others (Keeps score) · 49 words · the reminder
+
+You measure yourself most exactly against the people closest to you. A fair fight needs someone keeping count, so you keep it quietly in shared stakes and small favours. Keep in mind that the score was never what they came for, and the closeness is worth more than the win.
+
+### 土_偏印 · The Alchemist · friction · cost to others (Overprepared) · 52 words · the reminder
+
+You are more comfortable getting ready than being judged on what you did. Preparing feels like progress and risks nothing, so you stay in it longer than the work needs. Remember that the people waiting asked for you and not for a finished version, and almost ready is already enough to give.
+
+### 水_食神 · The Artisan · catalyst · cost to you (Nourishing) · 52 words · the compliment
+
+Taking care of people is where you feel most like yourself, and people can tell. Being useful is the nearest thing you have to feeling safe, so giving comes before anything you might want. Let someone give back now and then, because a table that feeds you is one you can keep feeding.
