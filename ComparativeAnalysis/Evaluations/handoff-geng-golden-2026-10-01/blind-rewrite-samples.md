@@ -45,3 +45,19 @@ You are more comfortable getting ready than being judged on what you did. Prepar
 ### 水_食神 · The Artisan · cost to you (Nourishing) · 53 words
 
 Taking care of people is where you feel most like yourself. Being useful is the nearest thing you have to feeling safe, so giving comes before anything you might want. Letting someone give back feels like giving that safety up, so you decline it until the people around you learn you need nothing.
+
+## Iteration 4 · 2026-10-14 · the closing sentence as closure
+
+The owner's note on iteration 3: make the last sentence a closure, a conclusion or a lift (升华) that helps the reader remember the trait or evokes resonance, without adding words. The first two sentences stand; only the third changes; the counts stay at or under iteration 3.
+
+### 金_劫财 · The Rival · cost to others (Keeps score) · 49 words
+
+You measure yourself most exactly against the people closest to you. A fair fight needs someone keeping count, so you keep it quietly in shared stakes and small favours. What you win this way is the score, and what it costs you is the person you were measuring against.
+
+### 土_偏印 · The Alchemist · cost to others (Overprepared) · 53 words
+
+You are more comfortable getting ready than being judged on what you did. Preparing feels like progress and risks nothing, so you stay in it longer than the work needs. The people waiting learn to stop asking, and the version of you they remember is the one who was always almost ready.
+
+### 水_食神 · The Artisan · cost to you (Nourishing) · 53 words
+
+Taking care of people is where you feel most like yourself. Being useful is the nearest thing you have to feeling safe, so giving comes before anything you might want. Letting someone give back feels like giving that safety up, so you keep feeding a table where nobody ever thinks to feed you.
