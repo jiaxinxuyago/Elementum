@@ -769,18 +769,17 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         ledger no longer renders on the page. Each chip is a
                         button; a tap opens that keyword's passage (the one
                         angle its position assigns, as before) in a sheet over
-                        the page, one keyword at a time. The verdict returns as
-                        the teaser line under the chips, the line that invites
-                        the tap (backlog/2026-10-14_verdict-pending-teaser.md). */}
+                        the page, one keyword at a time. The verdict does NOT
+                        render here (owner 2026-10-14, "Do not put the verdict
+                        here"): it stays the FUNCTION tile's tease on the
+                        element page, backlogged as a pending teaser
+                        (backlog/2026-10-14_verdict-pending-teaser.md). */}
                     {(() => { const r = m.byEl[elScreen.el]; const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst'; const rows = elScreen.fnReading.ledger || []; const chips = rows.length ? rows.map((row) => ({ word: row.word, text: row.text })) : (r.adj || []).map((a) => ({ word: a, text: '' }));
                       return chips.length ? (
                         <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{chips.map((c) => (
                           <button key={c.word} type="button" className={`wd-adjchip el-fnchipbtn${pole === 'friction' ? ' down' : ''}`} aria-haspopup="dialog" aria-expanded={kwOpen?.word === c.word} disabled={!c.text} onClick={() => setKwOpen({ word: c.word, text: c.text, pole, fnLabel: elScreen.fnLabel, elName: elScreen.elName })}>{c.word}</button>
                         ))}</span>
                       ) : null; })()}
-                    {elScreen.verdict && (
-                      <p className="body2 el-fnteaser">{elScreen.verdict}</p>
-                    )}
                     {/* THE REMEDY (owner 2026-10-14): the advice is sectioned
                         out under its own label after the ledger. On the
                         friction pole it is the remedy, opening on the energy

@@ -23,13 +23,13 @@
 ## What was built
 
 - `Elementum_App/src/components/journey/JourneyStage.jsx`: the ledger paragraphs leave the function detail page. The chips are buttons (`el-fnchipbtn`); a tap opens the keyword sheet at root level (`kwOpen`), one keyword at a time. A chip with no passage (a cell without a ledger row) stays a plain chip, disabled.
-- The verdict returns to the page as the teaser line under the chips (`el-fnteaser`): the line that invites the tap. This closes `2026-10-14_verdict-pending-teaser.md`: the 25 verdicts serve as written, no re-cut; the FUNCTION tile's tease on the element page stays.
+- The verdict was rendered as a line under the chips in the first build; the owner ruled on the artifact, "Do not put the verdict here", and the line was removed the same hour. The verdict stays off the function detail page; `2026-10-14_verdict-pending-teaser.md` stays backlogged; the FUNCTION tile's tease on the element page stays.
 - `journey.css`: the button chip, its focus ring, the open state, the teaser line.
 - No station field changes, so no adoption, no transcription and no new fixture contract: the passage a chip opens is the row's passage under the §5 rotation, already under contract. Build green; `qa-selection-fixtures.mjs` green.
 
 ## The page's order after this step
 
-Title ("Earth is your Mind.") → the definition (v0.7.3 construct) → the three metric bars → the three chips, each a button → the verdict as the teaser line → THE REMEDY (friction) or THE ADVICE (catalyst).
+Title ("Earth is your Mind.") → the definition (v0.7.3 construct) → the three metric bars → the three chips, each a button → THE REMEDY (friction) or THE ADVICE (catalyst). No verdict on this page.
 
 ## Open after this step
 
