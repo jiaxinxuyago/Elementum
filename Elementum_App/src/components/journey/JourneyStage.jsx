@@ -674,8 +674,9 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                 {elScreen.verdict && (
                   <button className="cardstock el-tease goa" onClick={() => openSec('fn')}>
                     <span className="laylab">THE FUNCTION</span>
-                    {/* the claim line is THIS section's title (owner 2026-09-02) */}
-                    <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
+                    {/* the claim line is THIS section's title (owner 2026-09-02);
+                        the function glyph leads it (owner 2026-10-14, step 4) */}
+                    <span className="serifline el-teasetitle el-fntitle"><Use id={`fn-${elScreen.fnKey}`} className={`el-fnicon ${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? 'friction' : 'catalyst'}`} />{elScreen.elName} is your {elScreen.fnLabel}.</span>
                     <span className="el-teasep" style={{ marginTop: 2 }}>{elScreen.verdict}</span>
                     {/* the personality keywords close the text block (owner
                         2026-09-02: below the paragraph, like the cover) */}
@@ -745,7 +746,13 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                 {elSec === 'fn' && elScreen.fnReading && (
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
-                    <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
+                    {/* THE FUNCTION GLYPH (owner 2026-10-14, step 4 of the
+                        Function section): a thin line glyph of an everyday
+                        object leads the title, tinted by pole, the same mark
+                        on the element page's tile and in the keyword sheet's
+                        band, so the function is learned as a picture before
+                        the word. */}
+                    <span className="serifline el-teasetitle el-fntitle"><Use id={`fn-${elScreen.fnKey}`} className={`el-fnicon ${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? 'friction' : 'catalyst'}`} />{elScreen.elName} is your {elScreen.fnLabel}.</span>
                     {/* The verdict no longer opens this page (owner 2026-10-14:
                         "get rid of the opener before the chips"); it stays as
                         the FUNCTION tile's tease on the element page. The
@@ -787,7 +794,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                       return chips.length ? (
                         <div className="el-kwblock">
                           <span className="wd-adj el-fnadj el-kwrow">{chips.map((c) => (
-                            <button key={c.word} type="button" className={`wd-adjchip el-fnchipbtn${pole === 'friction' ? ' down' : ''}`} aria-haspopup="dialog" aria-expanded={kwOpen?.word === c.word} disabled={!c.text} onClick={() => setKwOpen({ word: c.word, text: c.text, pole, fnLabel: elScreen.fnLabel, elName: elScreen.elName })}>
+                            <button key={c.word} type="button" className={`wd-adjchip el-fnchipbtn${pole === 'friction' ? ' down' : ''}`} aria-haspopup="dialog" aria-expanded={kwOpen?.word === c.word} disabled={!c.text} onClick={() => setKwOpen({ word: c.word, text: c.text, pole, fnLabel: elScreen.fnLabel, fnKey: elScreen.fnKey, elName: elScreen.elName })}>
                               <span className="el-kwword">{c.word}</span><span className="el-kwplus" aria-hidden="true">+</span>
                             </button>
                           ))}</span>
@@ -978,7 +985,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
           <div className="wp-scrim" onClick={() => setKwOpen(null)} />
           <div className={`wp-sheet ${kwOpen.pole === 'friction' ? 't-fric' : 't-cat'}`} role="dialog" aria-modal="true" aria-label={`${kwOpen.word}, in your ${kwOpen.fnLabel}`}>
             <div className="wp-band">
-              <span className="wp-wm"><Use id={kwOpen.pole === 'friction' ? 'ar-down' : 'ar-up'} /></span>
+              <span className="wp-wm el-fnwm"><Use id={`fn-${kwOpen.fnKey}`} /></span>
               <button className="wp-x" aria-label="Close" onClick={() => setKwOpen(null)}><Use id="ico-close" /></button>
               <span className="wp-ey">{kwOpen.elName} is your {kwOpen.fnLabel}</span>
               <div className="wp-chipwrap">

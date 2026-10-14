@@ -742,3 +742,13 @@
 .jny .el-fnchipbtn:disabled .el-kwplus{ display: none; }
 .jny .el-kwplus{ width: 15px; height: 15px; border-radius: 50%; border: 1px solid currentColor; opacity: 0.8; display: grid; place-items: center; font-size: 12px; line-height: 1; font-weight: 500; }
 .jny .el-kwhint{ display: block; margin: 8px 0 0; font-size: 11.5px; letter-spacing: 0.2px; color: var(--inkLight); }
+
+/* ── THE FUNCTION GLYPHS (owner 2026-10-14, step 4): a 20px line glyph leads
+   the function title on the detail page and the tile, tinted by pole; the
+   keyword sheet's band carries it as the watermark. ── */
+.jny .el-fntitle{ display: flex; align-items: center; gap: 8px; }
+.jny .el-fnicon{ width: 20px; height: 20px; flex: 0 0 20px; color: var(--bronze); }
+.jny .el-fnicon.catalyst{ color: var(--up); }
+.jny .el-fnicon.friction{ color: var(--down); }
+.jny .el-fnwm{ opacity: .13; transform: rotate(-6deg); }
+

@@ -514,6 +514,7 @@ export function buildElementScreen(model, el) {
     // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
+    fnKey: fn?.primary || '',   // the function glyph's id (owner 2026-10-14, step 4: the icons)
     // the pair's cta_verdict — off the cover since cdafa7e (owner 2026-09-04);
     // it renders on the FUNCTION tile and the reading page
     verdict: pair?.cta_verdict || '',
