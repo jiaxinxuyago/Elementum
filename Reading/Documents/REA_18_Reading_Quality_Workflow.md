@@ -180,7 +180,7 @@ Two rules keep it honest. The scorer never sees the writers' names. The north st
 | `score.mjs` | the three-axis read sheet per field for a reader session, output in the `report.mjs` schema | to build |
 | `triage.mjs` | the three tiers from `scores.json` and the gate, with reasons | to build |
 | `page-check.mjs` | the page-level checks of §6 | to build |
-| `handoff.mjs --scope` | a batch manifest (cells and states) instead of one chart | to extend |
+| `handoff.mjs --scope` | a batch manifest (cells and states) instead of one chart | built 2026-10-14 (`node handoff.mjs --scope runs/batch-1-metal-core.json --pass blind`: one skeleton per ELEMENT_GOD cell and pole, one per ELEMENT_PAIR cell with every state it renders, no chart, no benchmark folder; batch 1 packaged as `ComparativeAnalysis/Handoffs/2026-10-14-batch-1-metal-core`, 25 skeletons, 253 fields) |
 | `handoff.mjs --pass targeted` | one named axis to beat per field, the sentence withheld | to build (Stage 1, 1j) |
 | `file-rewrites.mjs` | two candidates per field (`.a`, `.b`) | to extend |
 | `adopt.mjs --batch` | adopt from a triage file, one provenance row per field | to extend |
@@ -202,3 +202,4 @@ Two rules keep it honest. The scorer never sees the writers' names. The north st
 |---|---|---|
 | 2026-09-29 | Born: the four-stage loop, tiered selection, calibration protocol, harness backlog | owner workflow decision 2026-09-29, after the first comparative round's two reads |
 | 2026-10-01 | v0.2: the pull axis re-anchored to psychological resonance; the north star re-read against the benchmark before Stage 2; calibration measures resonance beside fit and accuracy; Stage 1 restarts at prompt v0.7 | owner 2026-09-30 (the pivot's consequence for REA_18) and 2026-10-01, Q15 of the v0.7 questionnaire |
+| 2026-10-14 | Prompt v0.7.1 applied before batch 1 (the seven blind rewrite iterations and the polish rules; the gate blocks the register's mechanical half); `handoff.mjs --scope` built and batch 1 (the Metal core, five pair cells and ten ledger cells, both poles) packaged without a chart; the yin overrides and the 辛 contrast deferred | owner 2026-10-14 (`Reading/Database/Prompts/backlog/2026-10-14_prompt-v071-iterations.md`) |

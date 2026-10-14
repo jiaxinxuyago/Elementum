@@ -1,6 +1,6 @@
 # Backlog · the manifesto's first half: plain keywords, not a relation (owner note at Q01 of the v0.7 read, 2026-10-13)
 
-**Status:** OPEN, owner note recorded; options to be drafted for the ruling after the round. Card: `fields/STEM/STEM.manifesto.md` (L1, the hierarchy claim).
+**Status:** RULED at Q01 (the owner's note is the ruling: two or three plain adjective keywords, option (a) below) and APPLIED 2026-10-14 by the v0.7.1 item (`2026-10-14_prompt-v071-iterations.md`, rule 8: the card's construct, chain, style, checks and exemplar "Honest, exact, decisive · You are the Metal that cuts things clean.", register row C6, the caps row, both gates block a relation word and an L1 outside two to three keywords, the handoff spec notes). The ten station L1s stay as they are until the stems batch (REA_18 §5 batch 6) re-cuts them; the self-test on G01 fails C6 as expected until then. The earlier status line: OPEN, owner note recorded; options to be drafted for the ruling after the round. Card: `fields/STEM/STEM.manifesto.md` (L1, the hierarchy claim).
 
 ## The note, as the owner put it
 
