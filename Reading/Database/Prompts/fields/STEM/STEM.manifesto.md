@@ -12,11 +12,11 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 
 ## The card
 
-- Construct: a couplet. L1 is a noun-led hierarchy claim of 2 to 4 words: something the world puts second, put first ("Precision before intention"). L2 is the identity formula "You are the [Element] that …", the stem's spine verb carried as the claim ("You are the Metal that cuts things clean."). The ceremonial repetition of the formula across all ten is deliberate.
-- Reasoning chain: spine verb → the one thing this material does that the others do not → L1 names what it ranks first, L2 names the material doing it.
-- Style: no instruction, no moral virtue, no absolutes (never, always, everything), no punctuation beyond commas and periods; L1 never names the element or the reader.
-- Checks: ≤14w, split marker present, zero dashes, L1 unique across the ten stems. L2's identity formula ("You are the [Element] that …") is shared by all ten on purpose (REA_16 §3), so the cross-stem four-gram check does not run on the manifesto (the REA_16 §2c row carries no swap-gram). Two candidates are asked for in the handoff skeleton (`candidates: 2`, owner 2026-09-30): two different L1 claims, each gated, the read picks one.
-- Exemplar: "Precision before intention · You are the Metal that cuts things clean."
+- Construct: a couplet. L1 is two or three plain adjective keywords, separated by commas, that describe the material as a person ("Honest, exact, decisive"; owner 2026-10-14 at Q01 of the v0.7 read: the relation form "X before Y", a descriptor noun, a relation word and a descriptor noun, added relational complexity and none of its first halves won; the keywords are the plain descriptive line the Day Master reveal page used to carry). L2 is the identity formula "You are the [Element] that …", the stem's spine verb carried as the claim ("You are the Metal that cuts things clean."). The ceremonial repetition of the formula across all ten is deliberate.
+- Reasoning chain: spine verb → the one thing this material does that the others do not → L1 names the two or three plainest adjectives for a person made of it, L2 names the material doing it.
+- Style: no instruction, no moral virtue, no absolutes (never, always, everything), no punctuation beyond commas and periods; L1 never names the element or the reader, carries no relation word (before, over, above, after, than, first, without) and no noun (owner 2026-10-14, Q01).
+- Checks: ≤14w, split marker present, zero dashes, L1 two or three comma-separated adjective keywords with no relation word (the harness blocks a relation word and an L1 outside two to three words), L1 unique across the ten stems. L2's identity formula ("You are the [Element] that …") is shared by all ten on purpose (REA_16 §3), so the cross-stem four-gram check does not run on the manifesto (the REA_16 §2c row carries no swap-gram). Two candidates are asked for in the handoff skeleton (`candidates: 2`, owner 2026-09-30): two different L1 claims, each gated, the read picks one.
+- Exemplar: "Honest, exact, decisive · You are the Metal that cuts things clean." (the L1 shape ruled by the owner 2026-10-14 at Q01 beside the picked L2; the station's "Precision before intention" is the retired relation form and is re-cut in the stems batch).
 - Sources: REA_16 §3 (manifesto), REA_03 §3, REA_02 §2.
 
 ## Assembly
@@ -30,3 +30,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
 | 2026-09-21 | Checks corrected: the card had claimed cross-stem 4-gram uniqueness, which the identity formula contradicts and the §2c row does not carry; L1 uniqueness stated instead | REA_16 §3 (the ceremonial repetition is deliberate); §2c manifesto row |
 | 2026-09-30 | Two candidates asked for in the handoff skeleton (`candidates: 2`), each gated, the read picks one | owner 2026-09-30, Q1i of the v0.6 questionnaire (REA_16 §6) |
+| 2026-10-14 | L1 becomes two or three plain adjective keywords, no relation word; "Honest, exact, decisive" the exemplar beside the picked L2; the harness blocks the relation form | owner 2026-10-14 at Q01 of the v0.7 read, applied by the v0.7.1 item (`backlog/2026-10-14_prompt-v071-iterations.md`, closing `backlog/2026-10-13_manifesto-l1-keywords-not-relation.md`; REA_16 §6) |
