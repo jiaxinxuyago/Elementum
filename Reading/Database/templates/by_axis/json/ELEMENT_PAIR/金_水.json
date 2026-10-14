@@ -16,16 +16,16 @@
   "candidates": {
     "mechanism": {
       "classic": "少陰之氣，銷金為水",
-      "base": "Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.",
-      "catalyst_turn": "With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week.",
+      "base": "Metal feeds water, as the old texts have it: dew beads on the blade at dawn, drawn from the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.",
+      "catalyst_turn": "With too little Water, the blade stays dry: everything is judged and nothing is said. The work of the edge never leaves the hand. Say one unfinished thing out loud this week.",
       "friction_turn": "With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours."
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, so what you feel gets said. As a catalyst, your gate stays shut, so you would rather get a thing right than give it. You keep your kindness and your wit waiting past their moment.",
-      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Water pours it out, so nothing you feel stays in. As a friction, the gate never shuts, so you give more than you keep and say more than you know. Remember that you run empty before you run quiet.",
-      "advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Once a month, give something you made to someone who did not ask. Say the compliment the moment you think it.",
-      "advise_friction": "You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours."
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, your gate stays shut while you get a thing right rather than give it. You keep your kindness and your wit waiting past their moment.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and you give what you meant to keep or say more than you know. Remember that you run empty before you run quiet.",
+      "advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.",
+      "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You say the thing to find out what you think, and you keep nothing back for yourself. Read a whole chapter before you answer. Sit with one question overnight."
     },
     "cta_verdict": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
     "carry": {
@@ -276,6 +276,182 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
       "replaced": "Water is your Expression, and as a friction, it is care that never stops and talent that stays loud. You pour out more Water than you take in, until every thought gets said. You need to be heard more than refilled, so your care and wit run out before your words do."
+    },
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "The blade stays dry: everything is judged and nothing is said."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Say one unfinished thing out loud this week."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "The edge washes away: every thought spoken the moment it forms."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Listen to the whole answer before you add yours."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Water is easy for you to reach, the dew your edge draws from the cold air."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Use it. Say the thing, send the page."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "No dew on the blade: everything judged correctly and none of it ever said."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Borrow a voice: write it down, read it to one person."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "No water to wash the edge away, and the edge is better for it."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Keep it so. Speak when something is finished."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Only a little water on the steel, enough to say what is done."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Keep it small. Let most thoughts stay unsaid."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Too much water sinks the metal: so much poured out that the edge goes under."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Pour less. Take in one slow thing a day."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, so what you feel gets said. As a catalyst, your gate stays shut, so you would rather get a thing right than give it. You keep your kindness and your wit waiting past their moment."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Water pours it out, so nothing you feel stays in. As a friction, the gate never shuts, so you give more than you keep and say more than you know. Remember that you run empty before you run quiet."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Once a month, give something you made to someone who did not ask. Say the compliment the moment you think it."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_水.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking."
     }
   ]
 }

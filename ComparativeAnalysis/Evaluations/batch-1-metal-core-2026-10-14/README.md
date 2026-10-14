@@ -33,3 +33,11 @@ The 240 ledger passages now run 40 to 45 words, mean 43.8 (the v0.7.2 set ran 48
 | Pass | Writers | Package | Station | Gate | Read |
 |---|---|---|---|---|---|
 | the ten definitions, v0.7.3 | fable-v073: one sealed writer, the five pair files, the two definitions re-cut and every other field copied from the adopted text | `ComparativeAnalysis/Handoffs/2026-10-14-batch-1-definitions-v073/` | `Reading/Database/Rewrites/fable-v073/` (73 fields, 10 under test) | 5 of 5 (the handoff's definition opener re-pointed at the fixed first sentence on the way) | read page by page by the owner: both land on Earth, Wood, Water, Fire; the Metal catalyst close re-cut once, then lands; all ten adopted and transcribed the same day |
+
+## The variety pass under v0.7.4 and the remedy-first advices under v0.7.5 (2026-10-14)
+
+| Pass | Writers | Package | Station | Gate | Read |
+|---|---|---|---|---|---|
+| the variety pass, v0.7.4 (B11), plus the remedy re-cut, v0.7.5 (D7) | fable-v074: the five sealed shares polishing their adopted text for repetition, then one sealed writer re-cutting the five friction advices to open on the prescription beat | `ComparativeAnalysis/Handoffs/2026-10-14-batch-1-variety-v074/` (`previous/` the adopted text, `remedy-previous/` the variety set's pair files) | `Reading/Database/Rewrites/fable-v074/` (253) and `-b/` (65) | 25 of 25 after three stemmer refinements (the chip's inflections exempt from the three-times check) | the owner read three rows and the five remedies: "All land, adopt the set"; adopted and transcribed the same day |
+
+"so": 174 uses in 161 fields before the pass, 76 in 76 after, no field with it twice; "and" rose from 170 to 215 as the fallback joint (41 fields with it twice), noted for the next rule if the owner wants it.

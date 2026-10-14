@@ -16,16 +16,16 @@
   "candidates": {
     "mechanism": {
       "classic": "剛勝柔，故金勝木",
-      "base": "The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft.",
-      "catalyst_turn": "With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands.",
-      "friction_turn": "With too much Wood, the blade goes blunt before the timber is through: so many logs started that none gets split. Sleep before you start the next one."
+      "base": "The hard overcomes the soft, the old texts say, and this is why metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft.",
+      "catalyst_turn": "With too little Wood, the blade has nothing to work on: all that edge and no timber. The force turns on whatever is nearest. Start one thing you can finish with your hands.",
+      "friction_turn": "With too much Wood, the blade goes blunt before the timber is through: every log begun, none of them split. Sleep before you start the next one."
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, so you want the next opening as much as a steady love. You build best once you choose one and finish it.",
-      "definition_friction": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, so building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Keep in mind that you run out before your plans do.",
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it.",
+      "definition_friction": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Remember that you run out before your plans do.",
       "advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
-      "advise_friction": "You start more than your body has strength to finish. Sleep a full night before any new yes. Eat before you plan the next thing. Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out."
+      "advise_friction": "Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out. You start more than your body has strength to finish. Sleep a full night ahead of any new yes. Eat before you plan the next thing."
     },
     "cta_verdict": "You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you.",
     "carry": {
@@ -34,7 +34,7 @@
         "remedy": "Start one thing you can finish with your hands."
       },
       "friction": {
-        "clause": "The blade goes blunt before the timber is through: so many logs started that none gets split.",
+        "clause": "The blade goes blunt before the timber is through: every log begun, none of them split.",
         "remedy": "Sleep before you start the next one."
       },
       "wide": {
@@ -47,7 +47,7 @@
       },
       "spared": {
         "clause": "No timber pulling at a thin edge: nothing drains what the core needs to keep.",
-        "remedy": "Keep it so. Rest the edge before you look for work."
+        "remedy": "Keep it that way. Rest the edge before you look for work."
       },
       "thin": {
         "clause": "A little Wood suits a thin blade: small jobs, each finished before the next.",
@@ -279,6 +279,182 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
       "replaced": "Wood is your Action, and as a friction, it is wanting that outruns the strength behind it. You carry more Wood than you have fuel for, so you reach for a new venture instead of finishing one. You hold savings and a steady love just as hard, until holding takes the strength that finishing needed."
+    },
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "With too much Wood, the blade goes blunt before the timber is through: so many logs started that none gets split. Sleep before you start the next one."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "The blade has nothing to work on: all that edge and no timber."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Start one thing you can finish with your hands."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "The blade goes blunt before the timber is through: so many logs started that none gets split."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Sleep before you start the next one."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You have plenty of Wood, timber stacked as far as the blade reaches."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Use it. Pick one log and split it today."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "No timber for the blade at all: the edge stays clean and nothing gets made."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Borrow timber: another person's project, one job you did not pick."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "No timber pulling at a thin edge: nothing drains what the core needs to keep."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Keep it so. Rest the edge before you look for work."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "A little Wood suits a thin blade: small jobs, each finished before the next."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Keep the jobs small and sleep between them."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Wood this hard chips the blade: the more timber there is, the less edge survives the work."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Eat, sleep, then one log at a time."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, so you want the next opening as much as a steady love. You build best once you choose one and finish it."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, so building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Keep in mind that you run out before your plans do."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You start more than your body has strength to finish. Sleep a full night before any new yes. Eat before you plan the next thing. Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_木.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you."
     }
   ]
 }

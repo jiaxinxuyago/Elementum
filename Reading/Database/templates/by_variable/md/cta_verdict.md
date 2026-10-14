@@ -25,7 +25,7 @@
 | **Earth core × Water — the Drive** | 土_水 | You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades. |
 | **Metal core × Wood — the Drive** | 金_木 | You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you. |
 | **Metal core × Fire — the Duty** | 金_火 | You work harder for a standard someone else set than for one of your own, and you usually go looking for one. |
-| **Metal core × Earth — the Root** | 金_土 | You would rather understand a thing than be quick about it, so you keep only the answers you gave time to. |
+| **Metal core × Earth — the Root** | 金_土 | Because you would rather understand a thing than be quick about it, you keep only the answers you gave time to. |
 | **Metal core × Metal — the Core** | 金_金 | Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you. |
 | **Metal core × Water — the Voice** | 金_水 | You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking. |
 | **Water core × Wood — the Voice** | 水_木 | What you feel becomes what you grow, and the people and projects you quietly water are your real body of work. |

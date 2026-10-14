@@ -462,9 +462,9 @@ export const PAIR_CELLS = {
   '金_木': {
     mechanism: {
       classic: '剛勝柔，故金勝木',
-      base: 'The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft.',
-      catalyst_turn: 'With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands.',
-      friction_turn: 'With too much Wood, the blade goes blunt before the timber is through: so many logs started that none gets split. Sleep before you start the next one.',
+      base: 'The hard overcomes the soft, the old texts say, and this is why metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft.',
+      catalyst_turn: 'With too little Wood, the blade has nothing to work on: all that edge and no timber. The force turns on whatever is nearest. Start one thing you can finish with your hands.',
+      friction_turn: 'With too much Wood, the blade goes blunt before the timber is through: every log begun, none of them split. Sleep before you start the next one.',
     },
     mechanism_yin: {
       base: 'The hard prevails over the soft, the classics say, and so metal governs wood. The engraver\'s point meets the grain, the fine saw meets the branch, and the wild green takes a shape it could not find alone. The cut is craft rather than ruin: rough stock becomes inlay, bramble becomes orchard, under a point that knows what to spare.',
@@ -473,18 +473,18 @@ export const PAIR_CELLS = {
     },
     function: {
       primary: 'action',
-      definition_catalyst: 'Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, so you want the next opening as much as a steady love. You build best once you choose one and finish it.',
-      definition_friction: 'Your Action is what you go and build, claim and provide. Wood keeps it reaching, so building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Keep in mind that you run out before your plans do.',
+      definition_catalyst: 'Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it.',
+      definition_friction: 'Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Remember that you run out before your plans do.',
       advise_catalyst: 'You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.',
-      advise_friction: 'You start more than your body has strength to finish. Sleep a full night before any new yes. Eat before you plan the next thing. Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out.',
+      advise_friction: 'Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out. You start more than your body has strength to finish. Sleep a full night ahead of any new yes. Eat before you plan the next thing.',
     },
     cta_verdict: 'You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you.',
     carry: {
       catalyst: { clause: `The blade has nothing to work on: all that edge and no timber.`, remedy: `Start one thing you can finish with your hands.` },
-      friction: { clause: `The blade goes blunt before the timber is through: so many logs started that none gets split.`, remedy: `Sleep before you start the next one.` },
+      friction: { clause: `The blade goes blunt before the timber is through: every log begun, none of them split.`, remedy: `Sleep before you start the next one.` },
       wide: { clause: `You have plenty of Wood, timber stacked as far as the blade reaches.`, remedy: `Use it. Pick one log and split it today.` },
       missing: { clause: `No timber for the blade at all: the edge stays clean and nothing gets made.`, remedy: `Borrow timber: another person's project, one job you did not pick.` },
-      spared: { clause: `No timber pulling at a thin edge: nothing drains what the core needs to keep.`, remedy: `Keep it so. Rest the edge before you look for work.` },
+      spared: { clause: `No timber pulling at a thin edge: nothing drains what the core needs to keep.`, remedy: `Keep it that way. Rest the edge before you look for work.` },
       thin: { clause: `A little Wood suits a thin blade: small jobs, each finished before the next.`, remedy: `Keep the jobs small and sleep between them.` },
       excess: { clause: `Wood this hard chips the blade: the more timber there is, the less edge survives the work.`, remedy: `Eat, sleep, then one log at a time.` },
     },
@@ -497,7 +497,7 @@ export const PAIR_CELLS = {
   '金_火': {
     mechanism: {
       classic: '精勝堅，故火勝金',
-      base: 'Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the metal is made into.',
+      base: 'Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the steel is made into.',
       catalyst_turn: 'With too little Fire, the steel never reaches the forge and stays hard, cold and unshaped. Strength that answers to no one never gets its shape. Take on one deadline you did not set.',
       friction_turn: 'With too much Fire, the forge runs hotter than the blade can take, and the edge softens under every demand until nothing holds a line. Sleep on the next demand before you answer it.',
     },
@@ -508,10 +508,10 @@ export const PAIR_CELLS = {
     },
     function: {
       primary: 'order',
-      definition_catalyst: 'Your Order is the rules you answer to and the rank you hold by them. Fire makes it fuel, so demands shape you. As a catalyst, nothing tests you, so you want a crisis as much as a rank to keep. You get most done under rules someone else set.',
-      definition_friction: 'Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so rules reach you. As a friction, pressure piles up, so you obey a crisis ahead of rest and rules ahead of judgment. Remember that you mistake pressure on yourself for discipline.',
+      definition_catalyst: 'Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and demands shape you. As a catalyst, nothing tests you, and over time you want a crisis as much as a rank. You get most done under rules someone else set.',
+      definition_friction: 'Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up until you obey a crisis ahead of rest and a rule over your judgment. Remember you mistake pressure on yourself for discipline.',
       advise_catalyst: 'You do your best work when someone is allowed to tell you no. Pick one job this month that comes with a deadline and a judge, and ship it on time. Make the hard call out loud in front of the people it affects. Finish one small thing before anyone has to chase you for it.',
-      advise_friction: 'You answer to pressure faster than you recover from it. Read the whole message before you answer the next hard call. Keep one evening a week with nobody to report to. Seek Earth, the Mind energy. Earth takes the blaze in and keeps it as warmth, ground that does not catch. Let it hold what Fire burns.',
+      advise_friction: 'Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, ground that does not catch. Let it hold what Fire burns. You answer to pressure faster than you recover from it. Spend one evening a week with nobody to report to. Read the whole message before the next hard call.',
     },
     cta_verdict: 'You work harder for a standard someone else set than for one of your own, and you usually go looking for one.',
     carry: {
@@ -533,7 +533,7 @@ export const PAIR_CELLS = {
     mechanism: {
       classic: '金居石依山，津潤而生',
       base: 'Old texts have it that metal keeps to the stone and is born where the ground stays damp. Ore does not form in the open. It waits under the hill, pressed by rock and fed by slow water, for longer than anything struck from it lasts. Earth gives the blade its substance first and its patience second, and a blade that forgets the ground it came from loses the second gift first.',
-      catalyst_turn: 'With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight before you answer it.',
+      catalyst_turn: 'With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight and answer it tomorrow.',
       friction_turn: 'With too much Earth, the ore sits in the ground long after it is ready and no edge gets struck from it. Make one thing and let it leave the house.',
     },
     mechanism_yin: {
@@ -543,14 +543,14 @@ export const PAIR_CELLS = {
     },
     function: {
       primary: 'mind',
-      definition_catalyst: 'Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, so you work it out alone rather than lean on anyone. You judge best once you give a question its night.',
-      definition_friction: 'Your Mind is where the world soaks in and becomes yours. Earth holds it, so nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered ahead of letting go. Remember that you sit on finished work past its time.',
-      advise_catalyst: 'Your judgment is only as good as the time you let it take in. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with no one in it. Sleep on anything that costs money.',
-      advise_friction: 'Getting ready is your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists. Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built, a start made before the reading is done. Let it spend what Earth stores.',
+      definition_catalyst: 'Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, and you work it out alone rather than lean on anyone. You judge best once you give a question its night.',
+      definition_friction: 'Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of letting go. Remember that you sit on finished work past its time.',
+      advise_catalyst: 'Your judgment is only as good as the time you let it take in. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with nobody in it. Sleep on anything that costs money.',
+      advise_friction: 'Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built with the reading half done. Let it spend what Earth stores. You keep getting ready, your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists.',
     },
-    cta_verdict: 'You would rather understand a thing than be quick about it, so you keep only the answers you gave time to.',
+    cta_verdict: 'Because you would rather understand a thing than be quick about it, you keep only the answers you gave time to.',
     carry: {
-      catalyst: { clause: `the edge stands on thin ground and every judgment is struck before it has settled`, remedy: `Let one hard question sit overnight before you answer it.` },
+      catalyst: { clause: `the edge stands on thin ground and every judgment is struck before it has settled`, remedy: `Let one hard question sit overnight and answer it tomorrow.` },
       friction: { clause: `the ore sits in the ground long after it is ready and no edge gets struck from it`, remedy: `Make one thing and let it leave the house.` },
       wide: { clause: `There is no shortage of Earth in you, the slow ground the metal grows from.`, remedy: `Use it. Settle one question you already know enough about.` },
       missing: { clause: `Nothing feeds the metal here, so each judgment comes out with no time in the ground behind it.`, remedy: `Borrow it from someone older, one slow conversation at a time.` },
@@ -567,7 +567,7 @@ export const PAIR_CELLS = {
   '金_金': {
     mechanism: {
       classic: '同聲相應，同氣相求',
-      base: 'Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing to meet has nothing left to cut except its own kind.',
+      base: 'Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing before it has nothing left to cut except its own kind.',
       catalyst_turn: 'With too little Metal, the edge has no weight behind it and every cut costs more than it takes. The line goes thin in the middle. Sleep before you decide anything.',
       friction_turn: 'With too much Metal, the blade grinds on itself with nothing to cut and every argument becomes a test of who holds the harder line. Hand the edge one real job this week.',
     },
@@ -578,10 +578,10 @@ export const PAIR_CELLS = {
     },
     function: {
       primary: 'body',
-      definition_catalyst: 'Your Body is the strength the whole of you stands on. Metal makes it hard, so your will holds. Running thin, strength gives out, so you stand alone rather than lean on a peer and bet big rather than rest. You last longest once you let rest and company in.',
-      definition_friction: 'Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, so you trust your call more than a peer\'s and fight over every shared stake. Remember that you trade a peer for each argument won.',
+      definition_catalyst: 'Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in.',
+      definition_friction: 'Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer\'s in every fight over shared stakes. Remember that you trade a peer for each argument won.',
       advise_catalyst: 'You treat rest as something you earn after the work instead of the thing the work runs on. Take rest in first and sleep before the hard decision rather than after it. Let one peer carry a job you could do yourself. Sit out one contest a month on purpose. Eat before you answer the message.',
-      advise_friction: 'Being right is how you stay in charge of yourself. Ship one finished thing to someone above you by their date. Say your plan to someone who can refuse it. Seek Fire, the Order energy. Fire is heat with a deadline: it gives your force a direction and a judge. Let it spend what Metal stores.',
+      advise_friction: 'Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it spend what Metal stores. You stay in charge of yourself by being right. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it.',
     },
     cta_verdict: 'Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you.',
     carry: {
@@ -599,8 +599,8 @@ export const PAIR_CELLS = {
   '金_水': {
     mechanism: {
       classic: '少陰之氣，銷金為水',
-      base: 'Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.',
-      catalyst_turn: 'With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week.',
+      base: 'Metal feeds water, as the old texts have it: dew beads on the blade at dawn, drawn from the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.',
+      catalyst_turn: 'With too little Water, the blade stays dry: everything is judged and nothing is said. The work of the edge never leaves the hand. Say one unfinished thing out loud this week.',
       friction_turn: 'With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours.',
     },
     mechanism_yin: {
@@ -610,10 +610,10 @@ export const PAIR_CELLS = {
     },
     function: {
       primary: 'expression',
-      definition_catalyst: 'Your Expression is the gate where inner work becomes outer fact. Water makes it flow, so what you feel gets said. As a catalyst, your gate stays shut, so you would rather get a thing right than give it. You keep your kindness and your wit waiting past their moment.',
-      definition_friction: 'Your Expression is the gate where inner work becomes outer fact. Water pours it out, so nothing you feel stays in. As a friction, the gate never shuts, so you give more than you keep and say more than you know. Remember that you run empty before you run quiet.',
-      advise_catalyst: 'You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Once a month, give something you made to someone who did not ask. Say the compliment the moment you think it.',
-      advise_friction: 'You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours.',
+      definition_catalyst: 'Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, your gate stays shut while you get a thing right rather than give it. You keep your kindness and your wit waiting past their moment.',
+      definition_friction: 'Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and you give what you meant to keep or say more than you know. Remember that you run empty before you run quiet.',
+      advise_catalyst: 'You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.',
+      advise_friction: 'Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You say the thing to find out what you think, and you keep nothing back for yourself. Read a whole chapter before you answer. Sit with one question overnight.',
     },
     cta_verdict: 'You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.',
     carry: {

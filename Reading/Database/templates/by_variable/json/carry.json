@@ -514,7 +514,7 @@
             "remedy": "Start one thing you can finish with your hands."
           },
           "friction": {
-            "clause": "The blade goes blunt before the timber is through: so many logs started that none gets split.",
+            "clause": "The blade goes blunt before the timber is through: every log begun, none of them split.",
             "remedy": "Sleep before you start the next one."
           },
           "wide": {
@@ -527,7 +527,7 @@
           },
           "spared": {
             "clause": "No timber pulling at a thin edge: nothing drains what the core needs to keep.",
-            "remedy": "Keep it so. Rest the edge before you look for work."
+            "remedy": "Keep it that way. Rest the edge before you look for work."
           },
           "thin": {
             "clause": "A little Wood suits a thin blade: small jobs, each finished before the next.",
@@ -581,7 +581,7 @@
         "value": {
           "catalyst": {
             "clause": "the edge stands on thin ground and every judgment is struck before it has settled",
-            "remedy": "Let one hard question sit overnight before you answer it."
+            "remedy": "Let one hard question sit overnight and answer it tomorrow."
           },
           "friction": {
             "clause": "the ore sits in the ground long after it is ready and no edge gets struck from it",

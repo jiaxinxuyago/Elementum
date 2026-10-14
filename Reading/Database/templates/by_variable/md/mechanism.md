@@ -146,16 +146,16 @@
 | Field | Value |
 |---|---|
 | `classic` | 剛勝柔，故金勝木 |
-| `base` | The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft. |
-| `catalyst_turn` | With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands. |
-| `friction_turn` | With too much Wood, the blade goes blunt before the timber is through: so many logs started that none gets split. Sleep before you start the next one. |
+| `base` | The hard overcomes the soft, the old texts say, and this is why metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft. |
+| `catalyst_turn` | With too little Wood, the blade has nothing to work on: all that edge and no timber. The force turns on whatever is nearest. Start one thing you can finish with your hands. |
+| `friction_turn` | With too much Wood, the blade goes blunt before the timber is through: every log begun, none of them split. Sleep before you start the next one. |
 
 ### Metal core × Fire — the Duty · 金_火
 
 | Field | Value |
 |---|---|
 | `classic` | 精勝堅，故火勝金 |
-| `base` | Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the metal is made into. |
+| `base` | Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the steel is made into. |
 | `catalyst_turn` | With too little Fire, the steel never reaches the forge and stays hard, cold and unshaped. Strength that answers to no one never gets its shape. Take on one deadline you did not set. |
 | `friction_turn` | With too much Fire, the forge runs hotter than the blade can take, and the edge softens under every demand until nothing holds a line. Sleep on the next demand before you answer it. |
 
@@ -165,7 +165,7 @@
 |---|---|
 | `classic` | 金居石依山，津潤而生 |
 | `base` | Old texts have it that metal keeps to the stone and is born where the ground stays damp. Ore does not form in the open. It waits under the hill, pressed by rock and fed by slow water, for longer than anything struck from it lasts. Earth gives the blade its substance first and its patience second, and a blade that forgets the ground it came from loses the second gift first. |
-| `catalyst_turn` | With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight before you answer it. |
+| `catalyst_turn` | With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight and answer it tomorrow. |
 | `friction_turn` | With too much Earth, the ore sits in the ground long after it is ready and no edge gets struck from it. Make one thing and let it leave the house. |
 
 ### Metal core × Metal — the Core · 金_金
@@ -173,7 +173,7 @@
 | Field | Value |
 |---|---|
 | `classic` | 同聲相應，同氣相求 |
-| `base` | Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing to meet has nothing left to cut except its own kind. |
+| `base` | Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing before it has nothing left to cut except its own kind. |
 | `catalyst_turn` | With too little Metal, the edge has no weight behind it and every cut costs more than it takes. The line goes thin in the middle. Sleep before you decide anything. |
 | `friction_turn` | With too much Metal, the blade grinds on itself with nothing to cut and every argument becomes a test of who holds the harder line. Hand the edge one real job this week. |
 
@@ -182,8 +182,8 @@
 | Field | Value |
 |---|---|
 | `classic` | 少陰之氣，銷金為水 |
-| `base` | Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground. |
-| `catalyst_turn` | With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week. |
+| `base` | Metal feeds water, as the old texts have it: dew beads on the blade at dawn, drawn from the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground. |
+| `catalyst_turn` | With too little Water, the blade stays dry: everything is judged and nothing is said. The work of the edge never leaves the hand. Say one unfinished thing out loud this week. |
 | `friction_turn` | With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours. |
 
 ### Water core × Wood — the Voice · 水_木

@@ -17,21 +17,21 @@
     "mechanism": {
       "classic": "金居石依山，津潤而生",
       "base": "Old texts have it that metal keeps to the stone and is born where the ground stays damp. Ore does not form in the open. It waits under the hill, pressed by rock and fed by slow water, for longer than anything struck from it lasts. Earth gives the blade its substance first and its patience second, and a blade that forgets the ground it came from loses the second gift first.",
-      "catalyst_turn": "With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight before you answer it.",
+      "catalyst_turn": "With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight and answer it tomorrow.",
       "friction_turn": "With too much Earth, the ore sits in the ground long after it is ready and no edge gets struck from it. Make one thing and let it leave the house."
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, so you work it out alone rather than lean on anyone. You judge best once you give a question its night.",
-      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Earth holds it, so nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered ahead of letting go. Remember that you sit on finished work past its time.",
-      "advise_catalyst": "Your judgment is only as good as the time you let it take in. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with no one in it. Sleep on anything that costs money.",
-      "advise_friction": "Getting ready is your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists. Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built, a start made before the reading is done. Let it spend what Earth stores."
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, and you work it out alone rather than lean on anyone. You judge best once you give a question its night.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of letting go. Remember that you sit on finished work past its time.",
+      "advise_catalyst": "Your judgment is only as good as the time you let it take in. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with nobody in it. Sleep on anything that costs money.",
+      "advise_friction": "Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built with the reading half done. Let it spend what Earth stores. You keep getting ready, your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists."
     },
-    "cta_verdict": "You would rather understand a thing than be quick about it, so you keep only the answers you gave time to.",
+    "cta_verdict": "Because you would rather understand a thing than be quick about it, you keep only the answers you gave time to.",
     "carry": {
       "catalyst": {
         "clause": "the edge stands on thin ground and every judgment is struck before it has settled",
-        "remedy": "Let one hard question sit overnight before you answer it."
+        "remedy": "Let one hard question sit overnight and answer it tomorrow."
       },
       "friction": {
         "clause": "the ore sits in the ground long after it is ready and no edge gets struck from it",
@@ -279,6 +279,182 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the ten definitions read page by page under v0.7.3 (both land ×4; the Metal catalyst close re-cut once, then lands)",
       "replaced": "Earth is your Mind, and as a friction, it is intake with nowhere to go. You hold more Earth than you spend, so you keep learning ahead of deciding and sheltering ahead of letting go. Since preparing is where you feel most at ease, you keep the finished thing waiting past its time."
+    },
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Old texts have it that metal keeps to the stone and is born where the ground stays damp. Ore does not form in the open. It waits under the hill, pressed by rock and fed by slow water, for longer than anything struck from it lasts. Earth gives the blade its substance first and its patience second, and a blade that forgets the ground it came from loses the second gift first."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight before you answer it."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "With too much Earth, the ore sits in the ground long after it is ready and no edge gets struck from it. Make one thing and let it leave the house."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "the edge stands on thin ground and every judgment is struck before it has settled"
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Let one hard question sit overnight before you answer it."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "the ore sits in the ground long after it is ready and no edge gets struck from it"
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Make one thing and let it leave the house."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "There is no shortage of Earth in you, the slow ground the metal grows from."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Use it. Settle one question you already know enough about."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Nothing feeds the metal here, so each judgment comes out with no time in the ground behind it."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Borrow it from someone older, one slow conversation at a time."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "There is no Earth here to pile on the metal, and the metal is lighter for it."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Leave it be. Keep deciding at your own speed."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Only a little Earth sits on the metal, enough to steady it and not enough to slow it."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Keep it that small. Study only what you will use."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Earth piles past what the metal uses, so the edge stalls where it lies and nothing gets struck."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Put one thing out this month, rough as it is."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, so you work it out alone rather than lean on anyone. You judge best once you give a question its night."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Your Mind is where the world soaks in and becomes yours. Earth holds it, so nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered ahead of letting go. Remember that you sit on finished work past its time."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Your judgment is only as good as the time you let it take in. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with no one in it. Sleep on anything that costs money."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Getting ready is your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists. Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built, a start made before the reading is done. Let it spend what Earth stores."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_PAIR/金_土.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You would rather understand a thing than be quick about it, so you keep only the answers you gave time to."
     }
   ]
 }

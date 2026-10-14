@@ -67,25 +67,25 @@
           {
             "word": "Giving",
             "angles": {
-              "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, so you give the help ahead of the ask. Keep giving first, because you were never giving to earn your place.",
-              "cost_self": "Where a need is in front of you, you give before asking whose it was. You keep giving ahead of wanting, so your own wants sit last in line. Let one person give to you, because you never get the pleasure you never ask for.",
-              "cost_others": "Long before the ask, you give people what they need. You give the answer rather than let the ones you love ask, so you leave them out of practice. Wait for the question sometimes, since being asked is also a way of being given to."
+              "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, and you give the help ahead of the ask. Keep giving first, because you were never giving to earn your place.",
+              "cost_self": "Where a need is in front of you, you give before asking whose it was. You keep giving instead of wanting, until your own wants sit last in line. Let one person give to you, since you never get the pleasure you never ask for.",
+              "cost_others": "Long before the question, you give people what they need. You give the answer rather than let the ones you love ask, and you leave them out of practice. Wait for the question sometimes, because being asked is also a way of being given to."
             }
           },
           {
             "word": "Unforced",
             "angles": {
-              "drive": "What you make comes out unforced, and you hardly notice how rare that is. Since effort is the only proof you trust, you put what you forced ahead of what came easily. Let the unforced thing count, because it was never the lesser one.",
-              "cost_self": "Whenever something comes to you without effort, you count it as worth less. You trust the forced version more than the easy one, so you add effort to finished work. Leave the unforced thing alone, because every hour spent forcing it is rest you lose.",
-              "cost_others": "Looking unforced is how you are kind to those you make things for. You hide the effort rather than show the care, so you keep them from knowing their worth to you. Let the effort show sometimes, since the care is the part worth keeping."
+              "drive": "What you make is unforced, and you hardly notice how rare that is. Since effort is the only proof you trust, you put what you forced ahead of what came easily. Let the unforced thing count, because it was never the lesser one.",
+              "cost_self": "Whenever something comes to you without effort, you count it as worth less. Trusting the forced version more than the easy one, you add effort to finished work. Leave the unforced thing alone, or every hour spent forcing it is rest you lose.",
+              "cost_others": "Looking unforced is how you are kind to those you make things for. You hide the effort rather than show the care, and you keep them from knowing what they mean to you. Let the effort show sometimes, because the care is worth keeping."
             }
           },
           {
             "word": "Warm",
             "angles": {
-              "drive": "Warmth matters to you more than winning the point. You make the warmth around you on purpose, because an easy evening is where you are most yourself. Keep making it, and sit inside that warmth as a guest some evenings.",
-              "cost_self": "Keeping things warm for everyone comes before saying the hard thing. Since you keep the warmth rather than risk it on one honest sentence, you carry that sentence alone. Say it early, because staying warm costs you the one sentence you most need to say.",
-              "cost_others": "Each time something hard has to reach someone, you warm it first. You keep a child warm rather than tell them plainly what you saw, so you hold the plain version back. Give them the plain version sometimes, since the warmth was never in doubt."
+              "drive": "Warmth matters to you more than winning the point, and an easy evening is where you are most yourself. This is why you make the warmth around you on purpose. Keep making it, and sit inside it as a guest some nights.",
+              "cost_self": "Keeping things warm for everyone comes before saying the hard thing. Since you keep the warmth instead of risking it on one honest line, you carry that line alone. Speak it early, because staying warm costs you the one sentence you most need to say.",
+              "cost_others": "Anything hard that has to reach someone, you warm first. Whenever you keep a child warm rather than tell them straight what you saw, you hold the plain version back. Give them the plain version sometimes, with the warmth never in doubt."
             }
           }
         ]
@@ -95,16 +95,16 @@
           {
             "word": "Drifts along",
             "angles": {
-              "drive": "Drifting along comes easier than steering, and mostly you do. More Water moves through you than comes back in, so you drift with what moves rather than pick a direction. Keep in mind that you pick the drift each time you let the day decide.",
+              "drive": "Drifting along is easier than steering, and mostly you do. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. Keep in mind that you pick the drift each time you let the day decide.",
               "cost_self": "Most days you drift, and it rarely feels like a loss. Since you take in less than you let out, you drift to whatever is nearest rather than pick. You still want things, and the drift costs you each one that was not nearby.",
-              "cost_others": "Going with the drift keeps things easy for everyone. Whenever you drift with a plan instead of saying what you wanted, you leave the people closest to you guessing. Remind yourself that you owe them a real answer, and the drift is not one."
+              "cost_others": "Going with the drift keeps things easy for everyone. Whenever you drift with a plan in place of saying what you wanted, you leave the people closest to you guessing. Remind yourself that you owe them a real answer, and the drift is not one."
             }
           },
           {
             "word": "Comfort first",
             "angles": {
               "drive": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. Do not forget that you enjoy comfort more once the thing is finished.",
-              "cost_self": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, so what you avoided waits for you unchanged. You are taking comfort where you needed rest, and tomorrow you are just as tired.",
+              "cost_self": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, while what you avoided waits for you unchanged. You are taking comfort where you needed rest, and tomorrow you are just as tired.",
               "cost_others": "Keeping everyone around you comfortable comes before asking anything of them. Since you put a child's comfort ahead of what they promised, you take from them the small steadiness they needed. Remember that you get to be both the comforting one and the steady one."
             }
           },
@@ -112,8 +112,8 @@
             "word": "Gives it away",
             "angles": {
               "drive": "What you have, you give away before checking whether enough is left. Since giving is the nearest you get to feeling like yourself, you give away more than you keep. You are one of the people you give to, and that is worth remembering.",
-              "cost_self": "Giving things away is quicker for you than working out what you need. You give out more than comes back, so you end most weeks with less than you started with. You go without exactly what you gave away, the rest and the money.",
-              "cost_others": "You give your hours to whoever is nearest, without deciding. Since you give everyone something rather than keep enough for the few who count on you, you leave them less than was theirs. You give best from something kept, and keeping is part of giving."
+              "cost_self": "Giving things away is quicker for you than working out what you need. Giving out more than comes back, you end most weeks with less than you started with. You go without exactly what you gave away, the rest and the money.",
+              "cost_others": "You give your hours to whoever is nearest, without deciding. Whenever you give everyone something rather than save enough for the few counting on you, you leave them less than was theirs. You give best from what you kept, and keeping is part of giving."
             }
           }
         ]
@@ -360,6 +360,246 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
       "replaced": "People have stopped bringing you their urgency, since it comes back to them unshaken and slightly damp. What reads as depth is sometimes just distance. The things that should reach you do not, and downstream of that, neither do the people attached to them."
+    },
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Giving"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Giving"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, so you give the help ahead of the ask. Keep giving first, because you were never giving to earn your place."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Where a need is in front of you, you give before asking whose it was. You keep giving ahead of wanting, so your own wants sit last in line. Let one person give to you, because you never get the pleasure you never ask for."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Long before the ask, you give people what they need. You give the answer rather than let the ones you love ask, so you leave them out of practice. Wait for the question sometimes, since being asked is also a way of being given to."
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Unforced"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Unforced"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "What you make comes out unforced, and you hardly notice how rare that is. Since effort is the only proof you trust, you put what you forced ahead of what came easily. Let the unforced thing count, because it was never the lesser one."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Whenever something comes to you without effort, you count it as worth less. You trust the forced version more than the easy one, so you add effort to finished work. Leave the unforced thing alone, because every hour spent forcing it is rest you lose."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Looking unforced is how you are kind to those you make things for. You hide the effort rather than show the care, so you keep them from knowing their worth to you. Let the effort show sometimes, since the care is the part worth keeping."
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Warm"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Warm"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Warmth matters to you more than winning the point. You make the warmth around you on purpose, because an easy evening is where you are most yourself. Keep making it, and sit inside that warmth as a guest some evenings."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Keeping things warm for everyone comes before saying the hard thing. Since you keep the warmth rather than risk it on one honest sentence, you carry that sentence alone. Say it early, because staying warm costs you the one sentence you most need to say."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Each time something hard has to reach someone, you warm it first. You keep a child warm rather than tell them plainly what you saw, so you hold the plain version back. Give them the plain version sometimes, since the warmth was never in doubt."
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Drifts along"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Drifts along"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Drifting along comes easier than steering, and mostly you do. More Water moves through you than comes back in, so you drift with what moves rather than pick a direction. Keep in mind that you pick the drift each time you let the day decide."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Most days you drift, and it rarely feels like a loss. Since you take in less than you let out, you drift to whatever is nearest rather than pick. You still want things, and the drift costs you each one that was not nearby."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Going with the drift keeps things easy for everyone. Whenever you drift with a plan instead of saying what you wanted, you leave the people closest to you guessing. Remind yourself that you owe them a real answer, and the drift is not one."
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Comfort first"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Comfort first"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. Do not forget that you enjoy comfort more once the thing is finished."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, so what you avoided waits for you unchanged. You are taking comfort where you needed rest, and tomorrow you are just as tired."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Keeping everyone around you comfortable comes before asking anything of them. Since you put a child's comfort ahead of what they promised, you take from them the small steadiness they needed. Remember that you get to be both the comforting one and the steady one."
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Gives it away"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Gives it away"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "What you have, you give away before checking whether enough is left. Since giving is the nearest you get to feeling like yourself, you give away more than you keep. You are one of the people you give to, and that is worth remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "Giving things away is quicker for you than working out what you need. You give out more than comes back, so you end most weeks with less than you started with. You go without exactly what you gave away, the rest and the money."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v074",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v074/by_axis/json/ELEMENT_GOD/水_食神.fable-v074.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
+      "replaced": "You give your hours to whoever is nearest, without deciding. Since you give everyone something rather than keep enough for the few who count on you, you leave them less than was theirs. You give best from something kept, and keeping is part of giving."
     }
   ]
 }

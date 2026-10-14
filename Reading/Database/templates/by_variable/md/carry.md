@@ -285,14 +285,14 @@
 |---|---|
 | `catalyst.clause` | The blade has nothing to work on: all that edge and no timber. |
 | `catalyst.remedy` | Start one thing you can finish with your hands. |
-| `friction.clause` | The blade goes blunt before the timber is through: so many logs started that none gets split. |
+| `friction.clause` | The blade goes blunt before the timber is through: every log begun, none of them split. |
 | `friction.remedy` | Sleep before you start the next one. |
 | `wide.clause` | You have plenty of Wood, timber stacked as far as the blade reaches. |
 | `wide.remedy` | Use it. Pick one log and split it today. |
 | `missing.clause` | No timber for the blade at all: the edge stays clean and nothing gets made. |
 | `missing.remedy` | Borrow timber: another person's project, one job you did not pick. |
 | `spared.clause` | No timber pulling at a thin edge: nothing drains what the core needs to keep. |
-| `spared.remedy` | Keep it so. Rest the edge before you look for work. |
+| `spared.remedy` | Keep it that way. Rest the edge before you look for work. |
 | `thin.clause` | A little Wood suits a thin blade: small jobs, each finished before the next. |
 | `thin.remedy` | Keep the jobs small and sleep between them. |
 | `excess.clause` | Wood this hard chips the blade: the more timber there is, the less edge survives the work. |
@@ -322,7 +322,7 @@
 | Field | Value |
 |---|---|
 | `catalyst.clause` | the edge stands on thin ground and every judgment is struck before it has settled |
-| `catalyst.remedy` | Let one hard question sit overnight before you answer it. |
+| `catalyst.remedy` | Let one hard question sit overnight and answer it tomorrow. |
 | `friction.clause` | the ore sits in the ground long after it is ready and no edge gets struck from it |
 | `friction.remedy` | Make one thing and let it leave the house. |
 | `wide.clause` | There is no shortage of Earth in you, the slow ground the metal grows from. |
