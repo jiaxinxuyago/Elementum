@@ -122,5 +122,18 @@
  "Q30": {
   "pick": "A",
   "at": "2026-10-14T01:14:16.977Z"
+ },
+ "Q31": {
+  "pick": "A",
+  "at": "2026-10-14T01:15:32.632Z"
+ },
+ "Q32": {
+  "pick": "C",
+  "note": "C, but cut the middle sentence ('Your Metal runs deep, so a line you drew once stays drawn without effort.'): the mechanism sentence is not needed here",
+  "at": "2026-10-14T01:17:11.649Z"
+ },
+ "Q33": {
+  "pick": "B",
+  "at": "2026-10-14T01:18:11.249Z"
  }
 }
