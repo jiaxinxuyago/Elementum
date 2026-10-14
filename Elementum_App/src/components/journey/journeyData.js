@@ -544,7 +544,7 @@ export function buildElementScreen(model, el) {
         // THE CHARACTER's title line (owner 2026-10-14, Q2 of the eyebrow
         // rulings: pole-specific): the state the chart gives this energy,
         // in the register's own words for it.
-        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '' } : null,
+        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '', remedy: pole === 'friction' ? remedyOf(fn[`advise_${pole}`] || '') : null } : null,
       };
     })()),
     // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —
@@ -628,6 +628,19 @@ export function fnLabelFor(m, r) {
 // through every wanted door (a gift is what the material CAN do, absent or
 // not); shadows open only through PRESENT unwanted doors — an absent or thin
 // energy cannot be overgrown. The chip count follows the chart (two or three).
+// THE REMEDY BOX (owner 2026-10-14): a friction advice opens on the energy
+// prescription, "Seek Wood, the Action energy." (v0.7.5, the beat first). The
+// app splits that first sentence off as the box's title line and reads the
+// energy to seek from it, so the box can carry that element's glyph and tint
+// and open its page. The station field is untouched; a friction advice that
+// does not open on "Seek <Element>," renders as a plain box with no energy.
+const EL_KEY = { Metal: 'metal', Earth: 'earth', Wood: 'wood', Water: 'water', Fire: 'fire' };
+export function remedyOf(advise) {
+  const m = /^(Seek (Metal|Earth|Wood|Water|Fire), [^.]*\.)\s*/.exec(advise || '');
+  if (!m) return null;
+  return { el: EL_KEY[m[2]], name: m[2], beat: m[1], rest: advise.slice(m[0].length) };
+}
+
 // THE CHARACTER's title line (owner 2026-10-14, the function page's eyebrows,
 // Q2: a pole-specific line). The state word is the one the register already
 // uses for it: the core runs over (Overfueled) or short (Underfueled); the

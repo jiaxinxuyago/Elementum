@@ -752,3 +752,20 @@
 .jny .el-fnicon.friction{ color: var(--down); }
 .jny .el-fnwm{ opacity: .13; transform: rotate(-6deg); }
 
+/* ── THE REMEDY BOX (owner 2026-10-14): the advice in a tinted box, the tint
+   and glyph of the energy to seek on the friction pole (a tap opens its
+   page), the page's own element on the catalyst pole. A different box from
+   the grey measure panel: grey reads as data, tinted reads as prescription. ── */
+.jny .el-remedybox{ display: block; width: 100%; text-align: left; margin: 6px 0 0; padding: 12px 13px 13px 14px; border: 0; border-radius: 12px; border-left: 3px solid var(--pigDeep, var(--bronzeDark)); background: color-mix(in srgb, var(--pig, var(--bronze)) 13%, transparent); color: inherit; font: inherit; }
+.jny .el-remedybox.goa{ cursor: pointer; transition: transform .12s ease, background .15s ease; }
+.jny .el-remedybox.goa:active{ transform: scale(0.99); }
+.jny .el-remedybox.goa:focus-visible{ outline: 2px solid var(--pigDeep, var(--bronzeDark)); outline-offset: 2px; }
+.jny .el-remedyhead{ display: flex; align-items: center; gap: 9px; margin-bottom: 7px; }
+.jny .el-remedyring{ width: 28px; height: 28px; flex: 0 0 28px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--pig, var(--bronze)) 30%, rgba(250,246,238,0.9)); color: var(--pigDeep, var(--bronzeDark)); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--pigDeep, var(--bronzeDark)) 35%, transparent); }
+.jny .el-remedyring svg{ width: 16px; height: 16px; }
+.jny .el-remedytitle{ flex: 1 1 auto; min-width: 0; font-size: 15.5px; color: var(--inkDeep, #2b2722); }
+.jny .el-remedyname{ flex: 1 1 auto; min-width: 0; font-size: 12px; letter-spacing: 0.3px; color: var(--pigDeep, var(--bronzeDark)); }
+.jny .el-remedygo{ flex: 0 0 18px; width: 18px; height: 18px; color: var(--pigDeep, var(--bronzeDark)); opacity: .8; }
+.jny .el-remedygo svg{ width: 18px; height: 18px; }
+.jny .el-remedybody{ display: block; margin: 0; }
+

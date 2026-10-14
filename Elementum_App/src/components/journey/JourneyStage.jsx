@@ -807,12 +807,34 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         prescription ("Seek Wood, the Action energy."), the
                         life advice after it; on the catalyst pole it is the
                         advice, with no prescription. */}
-                    {elScreen.fnReading.advise && (
-                      <span className="laylab" style={{ display: 'block', marginTop: 16 }}>{(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? 'THE REMEDY' : 'THE ADVICE'}</span>
-                    )}
-                    {elScreen.fnReading.advise && (
-                      <p className="body2 el-fnbody" style={{ margin: '6px 0 0' }}>{elScreen.fnReading.advise}</p>
-                    )}
+                    {/* THE REMEDY BOX (owner 2026-10-14): the advice sits in a
+                        tinted box, a different kind of box from the grey
+                        measure panel. On the friction pole the box wears the
+                        remedy energy's tint and glyph, the "Seek" sentence is
+                        its title line, and a tap opens that energy's page. On
+                        the catalyst pole (owner: "Same box, own glyph") the
+                        box wears the page's own element, no title line, not
+                        tappable. */}
+                    {elScreen.fnReading.advise && (() => {
+                      const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
+                      const rem = friction ? elScreen.fnReading.remedy : null;
+                      const boxEl = rem?.el || elScreen.el;
+                      const canGo = !!(rem && m.byEl[rem.el]);
+                      const Box = canGo ? 'button' : 'div';
+                      return (
+                        <>
+                          <span className="laylab" style={{ display: 'block', marginTop: 16 }}>{friction ? 'THE REMEDY' : 'THE ADVICE'}</span>
+                          <Box className={`el-remedybox pv-${boxEl}${friction ? ' fric' : ' cat'}${canGo ? ' goa' : ''}`} {...(canGo ? { type: 'button', onClick: () => goElement(rem.el), 'aria-label': `Open the ${rem.name} energy page` } : {})}>
+                            <span className="el-remedyhead">
+                              <span className="el-remedyring" aria-hidden="true"><Use id={`el-${boxEl}`} /></span>
+                              {rem ? <span className="serifline el-remedytitle">{rem.beat}</span> : <span className="el-remedyname">{elScreen.elName}, the {elScreen.fnLabel} energy</span>}
+                              {canGo && <span className="el-remedygo" aria-hidden="true"><Use id="ico-chev-r" /></span>}
+                            </span>
+                            <span className="body2 el-fnbody el-remedybody">{rem ? rem.rest : elScreen.fnReading.advise}</span>
+                          </Box>
+                        </>
+                      );
+                    })()}
                   </div>
                 )}
                 {elSec === 'dom' && elFaces.length ? (
