@@ -16,14 +16,14 @@
     "k2_functional": "You build annually: steady deposits of effort that quietly become an estate.",
     "adj_chips": {
       "catalyst": [
-        "Cultivating",
-        "Compounding",
-        "Deep-rooted"
+        "Patient builder",
+        "Saves first",
+        "Loyal"
       ],
       "friction": [
-        "Stuck",
-        "Plays it safe",
-        "Inflexible"
+        "Stays too long",
+        "Counts everything",
+        "Slow to trust"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Cultivating",
+            "word": "Patient builder",
             "angles": {
-              "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.",
-              "cost_self": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced.",
-              "cost_others": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+              "drive": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several. Keep building at that pace, because the slow build is the one you keep.",
+              "cost_self": "Whatever matters to you, you build for years. You put the built thing ahead of the wanted one, so you keep building what you have while your wish waits. Start building the wanted one too, because patience costs you the thing you never began.",
+              "cost_others": "You provide by building what lasts. Since you put finished ahead of shared, you build in private and keep the people near you waiting. Build one thing in plain sight, because the wait is the small price your care asks of them."
             }
           },
           {
-            "word": "Compounding",
+            "word": "Saves first",
             "angles": {
-              "drive": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly.",
-              "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from.",
-              "cost_others": "Watching you work is boring, and your results embarrass people who sprint. The deposits were too small to notice and too regular to stop, and somewhere along the way they became terrain. Friends who mocked the fifty a month now ask, carefully, how it got to this."
+              "drive": "Saving comes before spending for you, and you never decide it. Being covered means more than anything you would buy, so you save ahead of wanting. Spend a small part of what you save on yourself, because a cushion is also for sitting on.",
+              "cost_self": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures. Spend one of them on purpose, because saving first costs you the today you never have.",
+              "cost_others": "Whenever the people at home want something, you are already saving. Safety together matters more than happiness today, so you put saving ahead of the wish. Say yes to one wish early, because you are asking them to put a life on hold."
             }
           },
           {
-            "word": "Deep-rooted",
+            "word": "Loyal",
             "angles": {
-              "drive": "Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy.",
-              "cost_self": "Year nine of the same work, same town, same name on the door. Around year four it felt like being left behind, because everyone else was rebranding and relocating. Then the people who kept moving started sending work to the one person who could still be found.",
-              "cost_others": "People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway."
+              "drive": "Being loyal comes ahead of being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. Surprise the one you are loyal to once a year, because the same days are loyalty's price.",
+              "cost_self": "Where you gave your word, you stay loyal after the reasons change. Loyalty feels more like love than choosing, so you stop asking whether this is what you want or promised. Ask yourself every few years, because loyalty costs you the love you never chose.",
+              "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, so you hand the person you keep your presence ahead of your feelings. Say it once in plain words, because unspoken loyalty leaves them guessing."
             }
           }
         ]
@@ -93,31 +93,273 @@
       "friction": {
         "ledger": [
           {
-            "word": "Stuck",
+            "word": "Stays too long",
             "angles": {
-              "drive": "Outgrowing a place and staying anyway is a pattern of yours, and calling it loyalty stopped being accurate a while ago. The ground you hold has long since stopped feeding you. Holding it anyway is the habit, and the habit never checks the yield.",
-              "cost_self": "The plant on your desk has been repotted twice in five years. The desk itself, the rate, and the commute have not moved once in the same stretch. You keep telling people you are settled, and some of them have started gently asking settled into what.",
-              "cost_others": "Recruiters gave up on you years ago, which you took as proof of loyalty. Meanwhile the colleagues who left keep getting bigger, and visiting their new offices leaves a taste you have stopped examining. Staying was right once. Nobody has re-run the numbers since."
+              "drive": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than learn what leaving costs. Remember that staying costs you every month, in strength the place no longer returns.",
+              "cost_self": "Where you settle, you stay, and settled is your word for stuck. Because the unknown costs you sleep, you stay with the known rather than the new. Bear in mind that staying on costs you the better love or pay you never looked for.",
+              "cost_others": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you give your partner your staying instead of your honesty. Keep in mind that you owe them an honest answer more than a long stay."
             }
           },
           {
-            "word": "Plays it safe",
+            "word": "Counts everything",
             "angles": {
-              "drive": "Weighing a risk is your reflex, and almost no risk survives the weighing. The analysis is always excellent and always lands on later, because the math was never the real obstacle. The deciding was, and the deciding still is.",
-              "cost_self": "Three spreadsheets compared the two jobs down to the commute minutes, and the reply that finally went out was thanks, but not this year. The analysis took six weeks. The no took one sentence, and it was written somewhere in you before the spreadsheets ever opened.",
-              "cost_others": "People bring you opportunities gently, one at a time, with the exit left open. They already know the odds. Whatever it is, however good it is, the first answer will be some polite version of later, and later has its own way of becoming never."
+              "drive": "Counting what something cost matters more to you than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. Remember, you started counting to never feel short, and no count has made you feel rich.",
+              "cost_self": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. Never forget that you count to buy yourself ease, and ease is the one thing you have not bought.",
+              "cost_others": "For the people you love, you count as closely as yourself. A cost stays with you longer than a pleasure, so you count shared things aloud rather than let them pass. Remember how you count small pleasures away from them to cover your fear."
             }
           },
           {
-            "word": "Inflexible",
+            "word": "Slow to trust",
             "angles": {
-              "drive": "Once your way of doing things works, it hardens into the only way you will do them. Working once, for you, is proof of permanent correctness, and every update gets treated as an accusation. Your way still works. That was never the question people were raising.",
-              "cost_self": "The new tool has been sitting unopened for a year, and the old one still technically works, which settles the argument every time it comes up. The argument keeps coming up. You have noticed that, and decided it means everyone else is wrong twice.",
-              "cost_others": "Working around you has become a small skill people teach each other. They know which suggestions to skip, which routines are load-bearing, and which sentence beginning with we have always means the conversation is over. Your way still works. It is just no longer the only thing being maintained."
+              "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You know by now that you demand proof to avoid hurt, and waiting to trust is its own small hurt.",
+              "cost_self": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than a lonely year, you hold out for proof ahead of trusting. Remember what proof costs you before you trust, closeness not had and years already gone.",
+              "cost_others": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You know already that you hand all the proving to the one you love while you wait to trust."
             }
           }
         ]
       }
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Cultivating"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Cultivating"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Restless people find your patience confusing, and then they find it enviable. While they traded up and started over, you stayed and improved what was already yours, and the value quietly crossed over theirs somewhere around year five. Nobody saw the overtaking happen. It was too slow to watch."
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Compounding"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Compounding"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Small and repeated is your natural size of effort, and it is a better engine than it looks. You distrust bursts and believe in schedules, and the believing has paid: your results arrive the way interest arrives, invisibly for years, then suddenly."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Watching you work is boring, and your results embarrass people who sprint. The deposits were too small to notice and too regular to stop, and somewhere along the way they became terrain. Friends who mocked the fifty a month now ask, carefully, how it got to this."
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Deep-rooted"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Deep-rooted"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Year nine of the same work, same town, same name on the door. Around year four it felt like being left behind, because everyone else was rebranding and relocating. Then the people who kept moving started sending work to the one person who could still be found."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway."
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Stuck"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Stuck"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Outgrowing a place and staying anyway is a pattern of yours, and calling it loyalty stopped being accurate a while ago. The ground you hold has long since stopped feeding you. Holding it anyway is the habit, and the habit never checks the yield."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The plant on your desk has been repotted twice in five years. The desk itself, the rate, and the commute have not moved once in the same stretch. You keep telling people you are settled, and some of them have started gently asking settled into what."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Recruiters gave up on you years ago, which you took as proof of loyalty. Meanwhile the colleagues who left keep getting bigger, and visiting their new offices leaves a taste you have stopped examining. Staying was right once. Nobody has re-run the numbers since."
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Plays it safe"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Plays it safe"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Weighing a risk is your reflex, and almost no risk survives the weighing. The analysis is always excellent and always lands on later, because the math was never the real obstacle. The deciding was, and the deciding still is."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Three spreadsheets compared the two jobs down to the commute minutes, and the reply that finally went out was thanks, but not this year. The analysis took six weeks. The no took one sentence, and it was written somewhere in you before the spreadsheets ever opened."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "People bring you opportunities gently, one at a time, with the exit left open. They already know the odds. Whatever it is, however good it is, the first answer will be some polite version of later, and later has its own way of becoming never."
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Inflexible"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Inflexible"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Once your way of doing things works, it hardens into the only way you will do them. Working once, for you, is proof of permanent correctness, and every update gets treated as an accusation. Your way still works. That was never the question people were raising."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The new tool has been sitting unopened for a year, and the old one still technically works, which settles the argument every time it comes up. The argument keeps coming up. You have noticed that, and decided it means everyone else is wrong twice."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/木_正财.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Working around you has become a small skill people teach each other. They know which suggestions to skip, which routines are load-bearing, and which sentence beginning with we have always means the conversation is over. Your way still works. It is just no longer the only thing being maintained."
+    }
+  ]
 }

@@ -16,38 +16,38 @@
   "candidates": {
     "mechanism": {
       "classic": "同聲相應，同氣相求",
-      "base": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
-      "catalyst_turn": "Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.",
-      "friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
+      "base": "Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing to meet has nothing left to cut except its own kind.",
+      "catalyst_turn": "With too little Metal, the edge has no weight behind it and every cut costs more than it takes. The line goes thin in the middle. Sleep before you decide anything.",
+      "friction_turn": "With too much Metal, the blade grinds on itself with nothing to cut and every argument becomes a test of who holds the harder line. Hand the edge one real job this week."
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late.",
-      "definition_friction": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
-      "advise_catalyst": "Discipline that skips recovery is borrowing, and the interest is physical. Put maintenance on the calendar before it is needed: fixed bedtime, real meals, one full rest day a week. Track energy like money for one month. Treat the first sign of wear as a warning.",
-      "advise_friction": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
+      "definition_catalyst": "Metal is your Body, and running thin, it is stamina spent faster than it comes in. You carry less Metal than you use, so you stand alone instead of leaning on a peer and bet big instead of resting. Each time, you pay from a reserve you never stopped to refill.",
+      "definition_friction": "Metal is your Body, and running over, it is will with nowhere to go. There is more Metal in you than you spend, so you trust your own standard more than you hear a peer's. You turn every shared stake into a contest, and over time you win more arguments than you keep friends.",
+      "advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Take rest in first and sleep before the hard decision rather than after it. Let one peer carry a job you could do yourself. Sit out one contest a month on purpose. Eat before you answer the message.",
+      "advise_friction": "Being right is how you stay in charge of yourself. Ship one finished thing to someone above you by their date. Say your plan to someone who can refuse it. Seek Fire, the Order energy. Fire is heat with a deadline: it gives your force a direction and a judge. Let it spend what Metal stores."
     },
-    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill.",
+    "cta_verdict": "Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you.",
     "carry": {
       "catalyst": {
-        "clause": "The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.",
-        "remedy": "Practice your craft alone until it rings."
+        "clause": "The edge has no weight behind it and every cut costs more than it takes.",
+        "remedy": "Sleep before you decide anything."
       },
       "friction": {
-        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
-        "remedy": "Honor the standard, and let one trusted voice through."
+        "clause": "The blade grinds on itself with nothing to cut.",
+        "remedy": "Hand the edge one real job this week."
       },
       "unrooted": {
         "clause": "The self stands without roots: an edge with nothing under it, form held on will alone.",
         "remedy": "Feed the self. Borrow ground and practice."
       },
       "excess": {
-        "clause": "Strong metal wants water: so much certainty it cuts everything the same way.",
-        "remedy": "Let water blunt it. Say it, don't cut it."
+        "clause": "Metal this heavy needs water to take the point off, or the edge cuts everything the same.",
+        "remedy": "Let it flow out: one thing said, one thing shipped."
       },
       "thin": {
-        "clause": "Metal runs thin and still carries weight: little of the self, held too tightly.",
-        "remedy": "Loosen the grip."
+        "clause": "Metal is a small thing in you, an edge kept short and used only where it counts.",
+        "remedy": "Keep it that size. Spend the rest elsewhere."
       }
     },
     "carry_yin": {
@@ -74,5 +74,135 @@
       "mind": "Your judgment holds like your frame does: conclusions struck once and kept, worth re-testing on a schedule.",
       "action": "Decisions become motion fast in you: once judged, a thing is already being done."
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Practice your craft alone until it rings."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The edge seals itself in: so much certainty that nothing else gets past it."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Honor the standard, and let one trusted voice through."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Metal runs thin and still carries weight: little of the self, held too tightly."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Loosen the grip."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Strong metal wants water: so much certainty it cuts everything the same way."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Let water blunt it. Say it, don't cut it."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Discipline that skips recovery is borrowing, and the interest is physical. Put maintenance on the calendar before it is needed: fixed bedtime, real meals, one full rest day a week. Track energy like money for one month. Treat the first sign of wear as a warning."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_金.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+    }
+  ]
 }

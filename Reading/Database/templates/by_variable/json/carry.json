@@ -510,32 +510,32 @@
         "canonical_name": "Metal core × Wood — the Drive",
         "value": {
           "catalyst": {
-            "clause": "The knife has nothing to prune: skill idling without a project worth it.",
-            "remedy": "Pick one living ambition and start cutting."
+            "clause": "The blade has nothing to work on: all that edge and no timber.",
+            "remedy": "Start one thing you can finish with your hands."
           },
           "friction": {
-            "clause": "The pruning never stops: forests of projects, an edge worn on material that never ends.",
-            "remedy": "Cut fewer branches, and finish them."
+            "clause": "The blade goes blunt before the timber is through: so many logs started that none gets split.",
+            "remedy": "Sleep before you start the next one."
           },
           "wide": {
-            "clause": "Wood is already here in plenty, the material the knife is for.",
-            "remedy": "Cut what is already in front of you. Finish it."
+            "clause": "You have plenty of Wood, timber stacked as far as the blade reaches.",
+            "remedy": "Use it. Pick one log and split it today."
           },
           "missing": {
-            "clause": "No material to cut: skill with nothing to work, an edge kept for its own sake.",
-            "remedy": "Borrow material: one project, one claim."
+            "clause": "No timber for the blade at all: the edge stays clean and nothing gets made.",
+            "remedy": "Borrow timber: another person's project, one job you did not pick."
           },
           "spared": {
-            "clause": "Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold.",
-            "remedy": "Keep the knife bright. Pick projects rarely."
+            "clause": "No timber pulling at a thin edge: nothing drains what the core needs to keep.",
+            "remedy": "Keep it so. Rest the edge before you look for work."
           },
           "thin": {
-            "clause": "Wood runs thin and unwanted: a small plot, easily kept.",
-            "remedy": "Keep the plot small."
+            "clause": "A little Wood suits a thin blade: small jobs, each finished before the next.",
+            "remedy": "Keep the jobs small and sleep between them."
           },
           "excess": {
-            "clause": "Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists.",
-            "remedy": "Cut less. Sharpen before you cut."
+            "clause": "Wood this hard chips the blade: the more timber there is, the less edge survives the work.",
+            "remedy": "Eat, sleep, then one log at a time."
           }
         }
       },
@@ -545,32 +545,32 @@
         "canonical_name": "Metal core × Fire — the Duty",
         "value": {
           "catalyst": {
-            "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
-            "remedy": "Take the demanding role, the audit, the arena."
+            "clause": "The steel never reaches the forge and stays hard, cold and unshaped.",
+            "remedy": "Take on one deadline you did not set."
           },
           "friction": {
-            "clause": "The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.",
-            "remedy": "Step out of the fire long enough to hold an edge."
+            "clause": "The forge runs hotter than the blade can take.",
+            "remedy": "Sleep on the next demand before you answer it."
           },
           "wide": {
-            "clause": "Fire is easy for you to reach, the forge that finishes the edge.",
-            "remedy": "Take the pressure you have. Let it sharpen you."
+            "clause": "Fire is one thing you never run short of, the forge the steel is shaped in.",
+            "remedy": "Use it. Take the job that has a judge."
           },
           "missing": {
-            "clause": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.",
-            "remedy": "Borrow heat: one demanding role, one audit."
+            "clause": "No forge anywhere near the steel, so nothing ever tests the edge or gives it a shape.",
+            "remedy": "Borrow heat. A coach, a deadline, someone allowed to say no."
           },
           "spared": {
-            "clause": "Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer.",
-            "remedy": "Keep it cool. Choose your pressures."
+            "clause": "No fire near the steel, and better so, since nothing presses a thin edge out of shape.",
+            "remedy": "Leave it cold. Set your own standards for now."
           },
           "thin": {
-            "clause": "Fire runs thin and unwanted: a low flame, easy to stand beside.",
-            "remedy": "Let it stay low."
+            "clause": "A small fire by the steel, enough to warm it and not enough to soften the edge.",
+            "remedy": "Keep it small. One standard at a time."
           },
           "excess": {
-            "clause": "Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape.",
-            "remedy": "Step out of the fire. Add ground."
+            "clause": "Too much fire for this much metal, so the edge melts before it takes a shape.",
+            "remedy": "Step back from the heat. Fewer judges, more sleep."
           }
         }
       },
@@ -580,32 +580,32 @@
         "canonical_name": "Metal core × Earth — the Root",
         "value": {
           "catalyst": {
-            "clause": "The mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms.",
-            "remedy": "Rest and study are smelting, not stalling."
+            "clause": "the edge stands on thin ground and every judgment is struck before it has settled",
+            "remedy": "Let one hard question sit overnight before you answer it."
           },
           "friction": {
-            "clause": "The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
-            "remedy": "Dig out and cut something real."
+            "clause": "the ore sits in the ground long after it is ready and no edge gets struck from it",
+            "remedy": "Make one thing and let it leave the house."
           },
           "wide": {
-            "clause": "You are well supplied with Earth, the ground the ore grows in.",
-            "remedy": "Use what the ground gave you. Cut something."
+            "clause": "There is no shortage of Earth in you, the slow ground the metal grows from.",
+            "remedy": "Use it. Settle one question you already know enough about."
           },
           "missing": {
-            "clause": "No ground under the edge: judgment made on the spot, nothing settled in first.",
-            "remedy": "Borrow ground: a mentor, a book, one slow evening."
+            "clause": "Nothing feeds the metal here, so each judgment comes out with no time in the ground behind it.",
+            "remedy": "Borrow it from someone older, one slow conversation at a time."
           },
           "spared": {
-            "clause": "Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in.",
-            "remedy": "Keep it that way. Decide, then rest."
+            "clause": "There is no Earth here to pile on the metal, and the metal is lighter for it.",
+            "remedy": "Leave it be. Keep deciding at your own speed."
           },
           "thin": {
-            "clause": "Earth runs thin and unwanted: a little shelter, easily left.",
-            "remedy": "Leave it as it is, small."
+            "clause": "Only a little Earth sits on the metal, enough to steady it and not enough to slow it.",
+            "remedy": "Keep it that small. Study only what you will use."
           },
           "excess": {
-            "clause": "Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.",
-            "remedy": "Dig out. Less study, one real cut."
+            "clause": "Earth piles past what the metal uses, so the edge stalls where it lies and nothing gets struck.",
+            "remedy": "Put one thing out this month, rough as it is."
           }
         }
       },
@@ -615,24 +615,24 @@
         "canonical_name": "Metal core × Metal — the Core",
         "value": {
           "catalyst": {
-            "clause": "The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.",
-            "remedy": "Practice your craft alone until it rings."
+            "clause": "The edge has no weight behind it and every cut costs more than it takes.",
+            "remedy": "Sleep before you decide anything."
           },
           "friction": {
-            "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
-            "remedy": "Honor the standard, and let one trusted voice through."
+            "clause": "The blade grinds on itself with nothing to cut.",
+            "remedy": "Hand the edge one real job this week."
           },
           "unrooted": {
             "clause": "The self stands without roots: an edge with nothing under it, form held on will alone.",
             "remedy": "Feed the self. Borrow ground and practice."
           },
           "excess": {
-            "clause": "Strong metal wants water: so much certainty it cuts everything the same way.",
-            "remedy": "Let water blunt it. Say it, don't cut it."
+            "clause": "Metal this heavy needs water to take the point off, or the edge cuts everything the same.",
+            "remedy": "Let it flow out: one thing said, one thing shipped."
           },
           "thin": {
-            "clause": "Metal runs thin and still carries weight: little of the self, held too tightly.",
-            "remedy": "Loosen the grip."
+            "clause": "Metal is a small thing in you, an edge kept short and used only where it counts.",
+            "remedy": "Keep it that size. Spend the rest elsewhere."
           }
         }
       },
@@ -642,32 +642,32 @@
         "canonical_name": "Metal core × Water — the Voice",
         "value": {
           "catalyst": {
-            "clause": "This channel shows as pressure without release: much forged, little said.",
-            "remedy": "Writing, speaking, sharing work early lets the blade breathe."
+            "clause": "The blade stays dry: everything is judged and nothing is said.",
+            "remedy": "Say one unfinished thing out loud this week."
           },
           "friction": {
-            "clause": "The flow turns to flood: output for its own sake, saying instead of shaping.",
-            "remedy": "Cut the noise and the water clears."
+            "clause": "The edge washes away: every thought spoken the moment it forms.",
+            "remedy": "Listen to the whole answer before you add yours."
           },
           "wide": {
-            "clause": "There is no shortage of Water in you, the channel that lets the blade breathe.",
-            "remedy": "Say it while it is fresh. Ship the draft."
+            "clause": "Water is easy for you to reach, the dew your edge draws from the cold air.",
+            "remedy": "Use it. Say the thing, send the page."
           },
           "missing": {
-            "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
-            "remedy": "Borrow a channel: write it down, say it once."
+            "clause": "No dew on the blade: everything judged correctly and none of it ever said.",
+            "remedy": "Borrow a voice: write it down, read it to one person."
           },
           "spared": {
-            "clause": "Water runs absent, and nothing spills: the edge keeps its shape and its silence.",
-            "remedy": "Keep it. Speak on purpose, not on reflex."
+            "clause": "No water to wash the edge away, and the edge is better for it.",
+            "remedy": "Keep it so. Speak when something is finished."
           },
           "thin": {
-            "clause": "Water runs thin and unwanted: a trickle of output, easy to keep clean.",
-            "remedy": "A trickle is enough. Keep it clean."
+            "clause": "Only a little water on the steel, enough to say what is done.",
+            "remedy": "Keep it small. Let most thoughts stay unsaid."
           },
           "excess": {
-            "clause": "Too much water sinks the metal: output floods the work, saying everything and shaping nothing.",
-            "remedy": "Cut the flow. Finish one thing in silence."
+            "clause": "Too much water sinks the metal: so much poured out that the edge goes under.",
+            "remedy": "Pour less. Take in one slow thing a day."
           }
         }
       },

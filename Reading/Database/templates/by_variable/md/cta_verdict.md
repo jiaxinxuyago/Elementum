@@ -23,11 +23,11 @@
 | **Earth core × Earth — the Core** | 土_土 | Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were. |
 | **Earth core × Metal — the Voice** | 土_金 | You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent. |
 | **Earth core × Water — the Drive** | 土_水 | You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades. |
-| **Metal core × Wood — the Drive** | 金_木 | You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get. |
-| **Metal core × Fire — the Duty** | 金_火 | Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull. |
-| **Metal core × Earth — the Root** | 金_土 | Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight. |
-| **Metal core × Metal — the Core** | 金_金 | You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill. |
-| **Metal core × Water — the Voice** | 金_水 | Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them. |
+| **Metal core × Wood — the Drive** | 金_木 | You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you. |
+| **Metal core × Fire — the Duty** | 金_火 | You work harder for a standard someone else set than for one of your own, and you usually go looking for one. |
+| **Metal core × Earth — the Root** | 金_土 | You would rather understand a thing than be quick about it, so you keep only the answers you gave time to. |
+| **Metal core × Metal — the Core** | 金_金 | Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you. |
+| **Metal core × Water — the Voice** | 金_水 | You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking. |
 | **Water core × Wood — the Voice** | 水_木 | What you feel becomes what you grow, and the people and projects you quietly water are your real body of work. |
 | **Water core × Fire — the Drive** | 水_火 | You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase. |
 | **Water core × Earth — the Duty** | 水_土 | Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds. |

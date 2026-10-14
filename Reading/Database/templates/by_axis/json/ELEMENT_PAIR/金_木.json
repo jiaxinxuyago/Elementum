@@ -16,46 +16,46 @@
   "candidates": {
     "mechanism": {
       "classic": "剛勝柔，故金勝木",
-      "base": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare.",
-      "catalyst_turn": "Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.",
-      "friction_turn": "Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them."
+      "base": "The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft.",
+      "catalyst_turn": "With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands.",
+      "friction_turn": "With too much Wood, the blade goes blunt before the timber is through: so many logs started that none gets split. Sleep before you start the next one."
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
-      "definition_friction": "Wood is your Action, and as a friction, it is growth that stops answering to the harvest. Effort goes wherever the roots or the branches already point, old ground held too hard, new shoots started too freely, and the season ends with plenty of motion and nothing ripe.",
-      "advise_catalyst": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite.",
-      "advise_friction": "A field is judged at harvest, and yours keeps skipping the judging. Twice a year, walk the rows honestly: kill one dead thing out loud, feed the two that actually fruit, and spend one fenced-off risk on purpose. Judge every habit by its yield, and never by its years of service."
+      "definition_catalyst": "Wood is your Action, and as a catalyst, it is the work your strength waits for. You carry less Wood than force to spend, so you chase an opening as much as you keep a steady love. You build best once you pick one and finish it, since the open one costs you the other.",
+      "definition_friction": "Wood is your Action, and as a friction, it is wanting that outruns the strength behind it. You carry more Wood than you have fuel for, so you reach for a new venture instead of finishing one. You hold savings and a steady love just as hard, until holding takes the strength that finishing needed.",
+      "advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
+      "advise_friction": "You start more than your body has strength to finish. Sleep a full night before any new yes. Eat before you plan the next thing. Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out."
     },
-    "cta_verdict": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get.",
+    "cta_verdict": "You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you.",
     "carry": {
       "catalyst": {
-        "clause": "The knife has nothing to prune: skill idling without a project worth it.",
-        "remedy": "Pick one living ambition and start cutting."
+        "clause": "The blade has nothing to work on: all that edge and no timber.",
+        "remedy": "Start one thing you can finish with your hands."
       },
       "friction": {
-        "clause": "The pruning never stops: forests of projects, an edge worn on material that never ends.",
-        "remedy": "Cut fewer branches, and finish them."
+        "clause": "The blade goes blunt before the timber is through: so many logs started that none gets split.",
+        "remedy": "Sleep before you start the next one."
       },
       "wide": {
-        "clause": "Wood is already here in plenty, the material the knife is for.",
-        "remedy": "Cut what is already in front of you. Finish it."
+        "clause": "You have plenty of Wood, timber stacked as far as the blade reaches.",
+        "remedy": "Use it. Pick one log and split it today."
       },
       "missing": {
-        "clause": "No material to cut: skill with nothing to work, an edge kept for its own sake.",
-        "remedy": "Borrow material: one project, one claim."
+        "clause": "No timber for the blade at all: the edge stays clean and nothing gets made.",
+        "remedy": "Borrow timber: another person's project, one job you did not pick."
       },
       "spared": {
-        "clause": "Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold.",
-        "remedy": "Keep the knife bright. Pick projects rarely."
+        "clause": "No timber pulling at a thin edge: nothing drains what the core needs to keep.",
+        "remedy": "Keep it so. Rest the edge before you look for work."
       },
       "thin": {
-        "clause": "Wood runs thin and unwanted: a small plot, easily kept.",
-        "remedy": "Keep the plot small."
+        "clause": "A little Wood suits a thin blade: small jobs, each finished before the next.",
+        "remedy": "Keep the jobs small and sleep between them."
       },
       "excess": {
-        "clause": "Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists.",
-        "remedy": "Cut less. Sharpen before you cut."
+        "clause": "Wood this hard chips the blade: the more timber there is, the less edge survives the work.",
+        "remedy": "Eat, sleep, then one log at a time."
       }
     },
     "carry_yin": {
@@ -86,5 +86,183 @@
     "backlog_dips_tg_pattern": {
       "order": "What you grow becomes structure: the timber you raise ends up framing the rules you live in."
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The knife has nothing to prune: skill idling without a project worth it."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Pick one living ambition and start cutting."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The pruning never stops: forests of projects, an edge worn on material that never ends."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Cut fewer branches, and finish them."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Wood is already here in plenty, the material the knife is for."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Cut what is already in front of you. Finish it."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "No material to cut: skill with nothing to work, an edge kept for its own sake."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Borrow material: one project, one claim."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Keep the knife bright. Pick projects rarely."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Wood runs thin and unwanted: a small plot, easily kept."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Keep the plot small."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Cut less. Sharpen before you cut."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Wood is your Action, and as a friction, it is growth that stops answering to the harvest. Effort goes wherever the roots or the branches already point, old ground held too hard, new shoots started too freely, and the season ends with plenty of motion and nothing ripe."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "A field is judged at harvest, and yours keeps skipping the judging. Twice a year, walk the rows honestly: kill one dead thing out loud, feed the two that actually fruit, and spend one fenced-off risk on purpose. Judge every habit by its yield, and never by its years of service."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_木.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get."
+    }
+  ]
 }

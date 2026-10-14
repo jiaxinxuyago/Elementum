@@ -146,45 +146,45 @@
 | Field | Value |
 |---|---|
 | `classic` | 剛勝柔，故金勝木 |
-| `base` | The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare. |
-| `catalyst_turn` | Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting. |
-| `friction_turn` | Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them. |
+| `base` | The hard overcomes the soft, the old texts say, so metal overcomes wood. A blade is only a blade against something that resists it: timber gives the edge its reason, and the grain decides whether a stroke runs clean. Wood never fights the steel. It takes the shape the cut gives it and keeps growing around the wound, and that is how a forest turns a knife into a craft. |
+| `catalyst_turn` | With too little Wood, the blade has nothing to work on: all that edge and no timber, so the force turns on whatever is nearest. Start one thing you can finish with your hands. |
+| `friction_turn` | With too much Wood, the blade goes blunt before the timber is through: so many logs started that none gets split. Sleep before you start the next one. |
 
 ### Metal core × Fire — the Duty · 金_火
 
 | Field | Value |
 |---|---|
 | `classic` | 精勝堅，故火勝金 |
-| `base` | The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in. |
-| `catalyst_turn` | Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena. |
-| `friction_turn` | Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge. |
+| `base` | Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the metal is made into. |
+| `catalyst_turn` | With too little Fire, the steel never reaches the forge and stays hard, cold and unshaped. Strength that answers to no one never gets its shape. Take on one deadline you did not set. |
+| `friction_turn` | With too much Fire, the forge runs hotter than the blade can take, and the edge softens under every demand until nothing holds a line. Sleep on the next demand before you answer it. |
 
 ### Metal core × Earth — the Root · 金_土
 
 | Field | Value |
 |---|---|
 | `classic` | 金居石依山，津潤而生 |
-| `base` | Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it. |
-| `catalyst_turn` | Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling. |
-| `friction_turn` | Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real. |
+| `base` | Old texts have it that metal keeps to the stone and is born where the ground stays damp. Ore does not form in the open. It waits under the hill, pressed by rock and fed by slow water, for longer than anything struck from it lasts. Earth gives the blade its substance first and its patience second, and a blade that forgets the ground it came from loses the second gift first. |
+| `catalyst_turn` | With too little Earth, the edge stands on thin ground and every judgment is struck before it has settled. Let one hard question sit overnight before you answer it. |
+| `friction_turn` | With too much Earth, the ore sits in the ground long after it is ready and no edge gets struck from it. Make one thing and let it leave the house. |
 
 ### Metal core × Metal — the Core · 金_金
 
 | Field | Value |
 |---|---|
 | `classic` | 同聲相應，同氣相求 |
-| `base` | Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt. |
-| `catalyst_turn` | Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings. |
-| `friction_turn` | Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through. |
+| `base` | Metal answers metal, the old texts say: strike one blade and the one beside it rings at the same pitch. Steel is sharpened on steel, two edges ground together taking a finer line than either could reach alone. Nothing yields in that meeting. Iron piled on iron grows heavier, and an edge with no softer thing to meet has nothing left to cut except its own kind. |
+| `catalyst_turn` | With too little Metal, the edge has no weight behind it and every cut costs more than it takes. The line goes thin in the middle. Sleep before you decide anything. |
+| `friction_turn` | With too much Metal, the blade grinds on itself with nothing to cut and every argument becomes a test of who holds the harder line. Hand the edge one real job this week. |
 
 ### Metal core × Water — the Voice · 金_水
 
 | Field | Value |
 |---|---|
 | `classic` | 少陰之氣，銷金為水 |
-| `base` | In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world. |
-| `catalyst_turn` | Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe. |
-| `friction_turn` | Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears. |
+| `base` | Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground. |
+| `catalyst_turn` | With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week. |
+| `friction_turn` | With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours. |
 
 ### Water core × Wood — the Voice · 水_木
 

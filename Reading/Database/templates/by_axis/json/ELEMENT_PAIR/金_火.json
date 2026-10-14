@@ -18,46 +18,46 @@
   "candidates": {
     "mechanism": {
       "classic": "精勝堅，故火勝金",
-      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
-      "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
-      "friction_turn": "Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge."
+      "base": "Fire tames metal, the old texts say, and the forge softens the blade. Cold steel is hard and brittle, and only heat lets it take a shape it can keep. The smith holds the edge in the coals until it glows, works it while it is soft and cools it again. The fire gives the metal nothing it did not already have. It only decides what the metal is made into.",
+      "catalyst_turn": "With too little Fire, the steel never reaches the forge and stays hard, cold and unshaped. Strength that answers to no one never gets its shape. Take on one deadline you did not set.",
+      "friction_turn": "With too much Fire, the forge runs hotter than the blade can take, and the edge softens under every demand until nothing holds a line. Sleep on the next demand before you answer it."
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
-      "definition_friction": "Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do.",
-      "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.",
-      "advise_friction": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds."
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is pressure that shapes your strength. You take in more fuel than you spend, so you look for a crisis to meet as much as a standard to hold your career to. You finish more under a rule you never wrote than under your own.",
+      "definition_friction": "Fire is your Order, and as a friction, it is pressure past what you are ready for. You carry more Fire than your core holds, so you obey a crisis ahead of your rest and a rule ahead of your judgment. Over time you turn that pressure on yourself and mistake it for discipline.",
+      "advise_catalyst": "You do your best work when someone is allowed to tell you no. Pick one job this month that comes with a deadline and a judge, and ship it on time. Make the hard call out loud in front of the people it affects. Finish one small thing before anyone has to chase you for it.",
+      "advise_friction": "You answer to pressure faster than you recover from it. Read the whole message before you answer the next hard call. Keep one evening a week with nobody to report to. Seek Earth, the Mind energy. Earth takes the blaze in and keeps it as warmth, ground that does not catch. Let it hold what Fire burns."
     },
-    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.",
+    "cta_verdict": "You work harder for a standard someone else set than for one of your own, and you usually go looking for one.",
     "carry": {
       "catalyst": {
-        "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
-        "remedy": "Take the demanding role, the audit, the arena."
+        "clause": "The steel never reaches the forge and stays hard, cold and unshaped.",
+        "remedy": "Take on one deadline you did not set."
       },
       "friction": {
-        "clause": "The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.",
-        "remedy": "Step out of the fire long enough to hold an edge."
+        "clause": "The forge runs hotter than the blade can take.",
+        "remedy": "Sleep on the next demand before you answer it."
       },
       "wide": {
-        "clause": "Fire is easy for you to reach, the forge that finishes the edge.",
-        "remedy": "Take the pressure you have. Let it sharpen you."
+        "clause": "Fire is one thing you never run short of, the forge the steel is shaped in.",
+        "remedy": "Use it. Take the job that has a judge."
       },
       "missing": {
-        "clause": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.",
-        "remedy": "Borrow heat: one demanding role, one audit."
+        "clause": "No forge anywhere near the steel, so nothing ever tests the edge or gives it a shape.",
+        "remedy": "Borrow heat. A coach, a deadline, someone allowed to say no."
       },
       "spared": {
-        "clause": "Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer.",
-        "remedy": "Keep it cool. Choose your pressures."
+        "clause": "No fire near the steel, and better so, since nothing presses a thin edge out of shape.",
+        "remedy": "Leave it cold. Set your own standards for now."
       },
       "thin": {
-        "clause": "Fire runs thin and unwanted: a low flame, easy to stand beside.",
-        "remedy": "Let it stay low."
+        "clause": "A small fire by the steel, enough to warm it and not enough to soften the edge.",
+        "remedy": "Keep it small. One standard at a time."
       },
       "excess": {
-        "clause": "Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape.",
-        "remedy": "Step out of the fire. Add ground."
+        "clause": "Too much fire for this much metal, so the edge melts before it takes a shape.",
+        "remedy": "Step back from the heat. Fewer judges, more sleep."
       }
     },
     "carry_yin": {
@@ -87,5 +87,183 @@
     "backlog_dips_tg_pattern": {
       "action": "Under real pressure you act cleaner: crisis burns off your hesitation."
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Nothing tempers you: an edge that keeps its first shape and calls it character."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Take the demanding role, the audit, the arena."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Step out of the fire long enough to hold an edge."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Fire is easy for you to reach, the forge that finishes the edge."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Take the pressure you have. Let it sharpen you."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Borrow heat: one demanding role, one audit."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Keep it cool. Choose your pressures."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Fire runs thin and unwanted: a low flame, easy to stand beside."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Let it stay low."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Step out of the fire. Add ground."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_火.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+    }
+  ]
 }

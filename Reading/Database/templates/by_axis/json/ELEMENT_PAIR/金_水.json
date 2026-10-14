@@ -16,46 +16,46 @@
   "candidates": {
     "mechanism": {
       "classic": "少陰之氣，銷金為水",
-      "base": "In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world.",
-      "catalyst_turn": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
-      "friction_turn": "Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears."
+      "base": "Metal feeds water, the old texts say: dew beads on the cold blade at dawn, drawn out of the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground.",
+      "catalyst_turn": "With too little Water, the blade stays dry: everything is judged and nothing is said, so the work of the edge never leaves the hand. Say one unfinished thing out loud this week.",
+      "friction_turn": "With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours."
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry.",
-      "definition_friction": "Water is your Expression, and as a friction, it is output with no banks. Talent spills wherever it lands, into snacks and scrolling, into remarks that cut deeper than intended, into half-made things. Nothing is wrong, exactly. That is the problem. The spill keeps absorbing the effort your best work was waiting for.",
-      "advise_catalyst": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one.",
-      "advise_friction": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."
+      "definition_catalyst": "Water is your Expression, and as a catalyst, it is the care you hold back and the talent you keep quiet. Since you carry little Water, you judge more than you let flow. You want to be right more than heard, so you keep your kindness and your best ideas waiting too long.",
+      "definition_friction": "Water is your Expression, and as a friction, it is care that never stops and talent that stays loud. You pour out more Water than you take in, until every thought gets said. You need to be heard more than refilled, so your care and wit run out before your words do.",
+      "advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Once a month, give something you made to someone who did not ask. Say the compliment the moment you think it.",
+      "advise_friction": "You say the thing to find out what you think, and nothing is left over for you. Read a whole chapter before you answer. Sit with one question overnight. Seek Earth, the Mind energy. Earth is the bank and the ground: it takes water in and holds it until it clears. Let it hold what Water pours."
     },
-    "cta_verdict": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them.",
+    "cta_verdict": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
     "carry": {
       "catalyst": {
-        "clause": "This channel shows as pressure without release: much forged, little said.",
-        "remedy": "Writing, speaking, sharing work early lets the blade breathe."
+        "clause": "The blade stays dry: everything is judged and nothing is said.",
+        "remedy": "Say one unfinished thing out loud this week."
       },
       "friction": {
-        "clause": "The flow turns to flood: output for its own sake, saying instead of shaping.",
-        "remedy": "Cut the noise and the water clears."
+        "clause": "The edge washes away: every thought spoken the moment it forms.",
+        "remedy": "Listen to the whole answer before you add yours."
       },
       "wide": {
-        "clause": "There is no shortage of Water in you, the channel that lets the blade breathe.",
-        "remedy": "Say it while it is fresh. Ship the draft."
+        "clause": "Water is easy for you to reach, the dew your edge draws from the cold air.",
+        "remedy": "Use it. Say the thing, send the page."
       },
       "missing": {
-        "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
-        "remedy": "Borrow a channel: write it down, say it once."
+        "clause": "No dew on the blade: everything judged correctly and none of it ever said.",
+        "remedy": "Borrow a voice: write it down, read it to one person."
       },
       "spared": {
-        "clause": "Water runs absent, and nothing spills: the edge keeps its shape and its silence.",
-        "remedy": "Keep it. Speak on purpose, not on reflex."
+        "clause": "No water to wash the edge away, and the edge is better for it.",
+        "remedy": "Keep it so. Speak when something is finished."
       },
       "thin": {
-        "clause": "Water runs thin and unwanted: a trickle of output, easy to keep clean.",
-        "remedy": "A trickle is enough. Keep it clean."
+        "clause": "Only a little water on the steel, enough to say what is done.",
+        "remedy": "Keep it small. Let most thoughts stay unsaid."
       },
       "excess": {
-        "clause": "Too much water sinks the metal: output floods the work, saying everything and shaping nothing.",
-        "remedy": "Cut the flow. Finish one thing in silence."
+        "clause": "Too much water sinks the metal: so much poured out that the edge goes under.",
+        "remedy": "Pour less. Take in one slow thing a day."
       }
     },
     "carry_yin": {
@@ -83,5 +83,183 @@
     "backlog_dips_tg_pattern": {
       "mind": "Speaking is how your thinking finishes: an idea is not done until it has been said."
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "In the old reckoning water is metal's child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain's sharpness out into the world."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "This channel shows as pressure without release: much forged, little said."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Writing, speaking, sharing work early lets the blade breathe."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The flow turns to flood: output for its own sake, saying instead of shaping."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Cut the noise and the water clears."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "There is no shortage of Water in you, the channel that lets the blade breathe."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Say it while it is fresh. Ship the draft."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "No channel out: much forged, nothing said, the pressure with nowhere to go."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Borrow a channel: write it down, say it once."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Water runs absent, and nothing spills: the edge keeps its shape and its silence."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Keep it. Speak on purpose, not on reflex."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Water runs thin and unwanted: a trickle of output, easy to keep clean."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "A trickle is enough. Keep it clean."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Too much water sinks the metal: output floods the work, saying everything and shaping nothing."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Cut the flow. Finish one thing in silence."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Water is your Expression, and as a friction, it is output with no banks. Talent spills wherever it lands, into snacks and scrolling, into remarks that cut deeper than intended, into half-made things. Nothing is wrong, exactly. That is the problem. The spill keeps absorbing the effort your best work was waiting for."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_PAIR/金_水.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them."
+    }
+  ]
 }

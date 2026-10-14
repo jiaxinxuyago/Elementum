@@ -283,92 +283,92 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The knife has nothing to prune: skill idling without a project worth it. |
-| `catalyst.remedy` | Pick one living ambition and start cutting. |
-| `friction.clause` | The pruning never stops: forests of projects, an edge worn on material that never ends. |
-| `friction.remedy` | Cut fewer branches, and finish them. |
-| `wide.clause` | Wood is already here in plenty, the material the knife is for. |
-| `wide.remedy` | Cut what is already in front of you. Finish it. |
-| `missing.clause` | No material to cut: skill with nothing to work, an edge kept for its own sake. |
-| `missing.remedy` | Borrow material: one project, one claim. |
-| `spared.clause` | Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold. |
-| `spared.remedy` | Keep the knife bright. Pick projects rarely. |
-| `thin.clause` | Wood runs thin and unwanted: a small plot, easily kept. |
-| `thin.remedy` | Keep the plot small. |
-| `excess.clause` | Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists. |
-| `excess.remedy` | Cut less. Sharpen before you cut. |
+| `catalyst.clause` | The blade has nothing to work on: all that edge and no timber. |
+| `catalyst.remedy` | Start one thing you can finish with your hands. |
+| `friction.clause` | The blade goes blunt before the timber is through: so many logs started that none gets split. |
+| `friction.remedy` | Sleep before you start the next one. |
+| `wide.clause` | You have plenty of Wood, timber stacked as far as the blade reaches. |
+| `wide.remedy` | Use it. Pick one log and split it today. |
+| `missing.clause` | No timber for the blade at all: the edge stays clean and nothing gets made. |
+| `missing.remedy` | Borrow timber: another person's project, one job you did not pick. |
+| `spared.clause` | No timber pulling at a thin edge: nothing drains what the core needs to keep. |
+| `spared.remedy` | Keep it so. Rest the edge before you look for work. |
+| `thin.clause` | A little Wood suits a thin blade: small jobs, each finished before the next. |
+| `thin.remedy` | Keep the jobs small and sleep between them. |
+| `excess.clause` | Wood this hard chips the blade: the more timber there is, the less edge survives the work. |
+| `excess.remedy` | Eat, sleep, then one log at a time. |
 
 ### Metal core × Fire — the Duty · 金_火
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | Nothing tempers you: an edge that keeps its first shape and calls it character. |
-| `catalyst.remedy` | Take the demanding role, the audit, the arena. |
-| `friction.clause` | The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. |
-| `friction.remedy` | Step out of the fire long enough to hold an edge. |
-| `wide.clause` | Fire is easy for you to reach, the forge that finishes the edge. |
-| `wide.remedy` | Take the pressure you have. Let it sharpen you. |
-| `missing.clause` | Nothing tempers the edge: a shape that was never tested, an edge that never met an arena. |
-| `missing.remedy` | Borrow heat: one demanding role, one audit. |
-| `spared.clause` | Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer. |
-| `spared.remedy` | Keep it cool. Choose your pressures. |
-| `thin.clause` | Fire runs thin and unwanted: a low flame, easy to stand beside. |
-| `thin.remedy` | Let it stay low. |
-| `excess.clause` | Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape. |
-| `excess.remedy` | Step out of the fire. Add ground. |
+| `catalyst.clause` | The steel never reaches the forge and stays hard, cold and unshaped. |
+| `catalyst.remedy` | Take on one deadline you did not set. |
+| `friction.clause` | The forge runs hotter than the blade can take. |
+| `friction.remedy` | Sleep on the next demand before you answer it. |
+| `wide.clause` | Fire is one thing you never run short of, the forge the steel is shaped in. |
+| `wide.remedy` | Use it. Take the job that has a judge. |
+| `missing.clause` | No forge anywhere near the steel, so nothing ever tests the edge or gives it a shape. |
+| `missing.remedy` | Borrow heat. A coach, a deadline, someone allowed to say no. |
+| `spared.clause` | No fire near the steel, and better so, since nothing presses a thin edge out of shape. |
+| `spared.remedy` | Leave it cold. Set your own standards for now. |
+| `thin.clause` | A small fire by the steel, enough to warm it and not enough to soften the edge. |
+| `thin.remedy` | Keep it small. One standard at a time. |
+| `excess.clause` | Too much fire for this much metal, so the edge melts before it takes a shape. |
+| `excess.remedy` | Step back from the heat. Fewer judges, more sleep. |
 
 ### Metal core × Earth — the Root · 金_土
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. |
-| `catalyst.remedy` | Rest and study are smelting, not stalling. |
-| `friction.clause` | The shelter closes over the blade: so much preparation that the edge never leaves the mine. |
-| `friction.remedy` | Dig out and cut something real. |
-| `wide.clause` | You are well supplied with Earth, the ground the ore grows in. |
-| `wide.remedy` | Use what the ground gave you. Cut something. |
-| `missing.clause` | No ground under the edge: judgment made on the spot, nothing settled in first. |
-| `missing.remedy` | Borrow ground: a mentor, a book, one slow evening. |
-| `spared.clause` | Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in. |
-| `spared.remedy` | Keep it that way. Decide, then rest. |
-| `thin.clause` | Earth runs thin and unwanted: a little shelter, easily left. |
-| `thin.remedy` | Leave it as it is, small. |
-| `excess.clause` | Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut. |
-| `excess.remedy` | Dig out. Less study, one real cut. |
+| `catalyst.clause` | the edge stands on thin ground and every judgment is struck before it has settled |
+| `catalyst.remedy` | Let one hard question sit overnight before you answer it. |
+| `friction.clause` | the ore sits in the ground long after it is ready and no edge gets struck from it |
+| `friction.remedy` | Make one thing and let it leave the house. |
+| `wide.clause` | There is no shortage of Earth in you, the slow ground the metal grows from. |
+| `wide.remedy` | Use it. Settle one question you already know enough about. |
+| `missing.clause` | Nothing feeds the metal here, so each judgment comes out with no time in the ground behind it. |
+| `missing.remedy` | Borrow it from someone older, one slow conversation at a time. |
+| `spared.clause` | There is no Earth here to pile on the metal, and the metal is lighter for it. |
+| `spared.remedy` | Leave it be. Keep deciding at your own speed. |
+| `thin.clause` | Only a little Earth sits on the metal, enough to steady it and not enough to slow it. |
+| `thin.remedy` | Keep it that small. Study only what you will use. |
+| `excess.clause` | Earth piles past what the metal uses, so the edge stalls where it lies and nothing gets struck. |
+| `excess.remedy` | Put one thing out this month, rough as it is. |
 
 ### Metal core × Metal — the Core · 金_金
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. |
-| `catalyst.remedy` | Practice your craft alone until it rings. |
-| `friction.clause` | The edge seals itself in: so much certainty that nothing else gets past it. |
-| `friction.remedy` | Honor the standard, and let one trusted voice through. |
+| `catalyst.clause` | The edge has no weight behind it and every cut costs more than it takes. |
+| `catalyst.remedy` | Sleep before you decide anything. |
+| `friction.clause` | The blade grinds on itself with nothing to cut. |
+| `friction.remedy` | Hand the edge one real job this week. |
 | `unrooted.clause` | The self stands without roots: an edge with nothing under it, form held on will alone. |
 | `unrooted.remedy` | Feed the self. Borrow ground and practice. |
-| `excess.clause` | Strong metal wants water: so much certainty it cuts everything the same way. |
-| `excess.remedy` | Let water blunt it. Say it, don't cut it. |
-| `thin.clause` | Metal runs thin and still carries weight: little of the self, held too tightly. |
-| `thin.remedy` | Loosen the grip. |
+| `excess.clause` | Metal this heavy needs water to take the point off, or the edge cuts everything the same. |
+| `excess.remedy` | Let it flow out: one thing said, one thing shipped. |
+| `thin.clause` | Metal is a small thing in you, an edge kept short and used only where it counts. |
+| `thin.remedy` | Keep it that size. Spend the rest elsewhere. |
 
 ### Metal core × Water — the Voice · 金_水
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | This channel shows as pressure without release: much forged, little said. |
-| `catalyst.remedy` | Writing, speaking, sharing work early lets the blade breathe. |
-| `friction.clause` | The flow turns to flood: output for its own sake, saying instead of shaping. |
-| `friction.remedy` | Cut the noise and the water clears. |
-| `wide.clause` | There is no shortage of Water in you, the channel that lets the blade breathe. |
-| `wide.remedy` | Say it while it is fresh. Ship the draft. |
-| `missing.clause` | No channel out: much forged, nothing said, the pressure with nowhere to go. |
-| `missing.remedy` | Borrow a channel: write it down, say it once. |
-| `spared.clause` | Water runs absent, and nothing spills: the edge keeps its shape and its silence. |
-| `spared.remedy` | Keep it. Speak on purpose, not on reflex. |
-| `thin.clause` | Water runs thin and unwanted: a trickle of output, easy to keep clean. |
-| `thin.remedy` | A trickle is enough. Keep it clean. |
-| `excess.clause` | Too much water sinks the metal: output floods the work, saying everything and shaping nothing. |
-| `excess.remedy` | Cut the flow. Finish one thing in silence. |
+| `catalyst.clause` | The blade stays dry: everything is judged and nothing is said. |
+| `catalyst.remedy` | Say one unfinished thing out loud this week. |
+| `friction.clause` | The edge washes away: every thought spoken the moment it forms. |
+| `friction.remedy` | Listen to the whole answer before you add yours. |
+| `wide.clause` | Water is easy for you to reach, the dew your edge draws from the cold air. |
+| `wide.remedy` | Use it. Say the thing, send the page. |
+| `missing.clause` | No dew on the blade: everything judged correctly and none of it ever said. |
+| `missing.remedy` | Borrow a voice: write it down, read it to one person. |
+| `spared.clause` | No water to wash the edge away, and the edge is better for it. |
+| `spared.remedy` | Keep it so. Speak when something is finished. |
+| `thin.clause` | Only a little water on the steel, enough to say what is done. |
+| `thin.remedy` | Keep it small. Let most thoughts stay unsaid. |
+| `excess.clause` | Too much water sinks the metal: so much poured out that the edge goes under. |
+| `excess.remedy` | Pour less. Take in one slow thing a day. |
 
 ### Water core × Wood — the Voice · 水_木
 

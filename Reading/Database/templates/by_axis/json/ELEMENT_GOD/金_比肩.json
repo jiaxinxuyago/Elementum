@@ -17,13 +17,13 @@
     "adj_chips": {
       "catalyst": [
         "Self-made",
-        "Reserved",
-        "Unshakeable"
+        "Even-handed",
+        "Recovers alone"
       ],
       "friction": [
         "Sealed-off",
-        "Rigid",
-        "Solitary"
+        "Unteachable",
+        "Asks no one"
       ]
     },
     "k2_domain_readings": {
@@ -67,25 +67,25 @@
           {
             "word": "Self-made",
             "angles": {
-              "drive": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed.",
-              "cost_self": "The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons.",
-              "cost_others": "People assume someone taught you the discipline, a coach, a parent, a book. There wasn’t one. The rules you live by were cut to fit you alone, which is why borrowed programs keep failing the people who ask you for yours."
+              "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, because you pay most for the things you make alone.",
+              "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, so going without help comes ahead of going to bed. Ask for a hand early, because everything self-made costs you rest you never take.",
+              "cost_others": "Making everything yourself is what you show a new peer first. Since you make each thing alone instead of sharing, you leave your peers nothing to carry. Hand one piece over, because all you take from them is the chance to matter to you."
             }
           },
           {
-            "word": "Reserved",
+            "word": "Even-handed",
             "angles": {
-              "drive": "Keeping most of yourself back is a choice you make daily, and it costs you less than people think. At a party you might say forty words. Three people will still leave convinced you were the most solid person in attendance, and none of them could quote you.",
-              "cost_self": "The party ran four hours and you said maybe forty words. On the drive home nothing about that felt like a failure, because it wasn’t one. What you keep back was never missing. It is in reserve, and everyone present could somehow feel the difference.",
-              "cost_others": "Loud company reads you slowly. First you are the quiet one, then the solid one, and eventually the one people find at the edge of the gathering when something actually matters. You never move toward the center. The important conversations keep arriving anyway."
+              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance.",
+              "cost_self": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even measure keeps you honest. Bend it once for someone you like, because you spend long stretches without company that fits.",
+              "cost_others": "Being even-handed with a friend is how you show respect. Because you treat people you like exactly as yourself, you hand them your standard ahead of your warmth. Offer the warmth first, since you cost them the ease of being liked without being graded."
             }
           },
           {
-            "word": "Unshakeable",
+            "word": "Recovers alone",
             "angles": {
-              "drive": "Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it.",
-              "cost_self": "The deadline lands and the office turns into weather, chairs rolling, voices up, someone rewriting the plan hourly. Your pace stays exactly where it was on Monday. By Friday the weather has passed, and your part is the one that shipped clean.",
-              "cost_others": "Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible."
+              "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to.",
+              "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, so you take the long quiet over the quick ask. Show someone the half-built version, as recovering alone costs you the friend who would have come.",
+              "cost_others": "Recovering alone spares the people near you your worst days. Since you return recovered instead of being seen recovering, you give them the finished version only. Let them in once while you recover, because you deny your closest people the chance to be needed."
             }
           }
         ]
@@ -95,29 +95,271 @@
           {
             "word": "Sealed-off",
             "angles": {
-              "drive": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine.",
-              "cost_self": "On the day of the diagnosis you said fine. Layoff, fine. Breakup, fine. The word has become a door painted to look like a wall, and the people who love you have quietly stopped testing whether it opens.",
-              "cost_others": "The people close to you have learned to read your weather at a distance, because asking gets them fine. They compare notes about you. They worry in committee, exactly the way you trained them to, and call it respecting your space."
+              "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Keep in mind that you seal out the closeness as much as the risk.",
+              "cost_self": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, so you keep the hurt sealed instead of letting help in. Do not forget that every sealed hurt costs you evenings you could have shared.",
+              "cost_others": "Sealing everyone off politely keeps you easy to live with. Your sealed quiet comes ahead of their wish to come in, so you give them calm with nothing under it. Remember that you leave them loving a version of you that never needs them."
             }
           },
           {
-            "word": "Rigid",
+            "word": "Unteachable",
             "angles": {
-              "drive": "Your rules outlive the reasons for them, and you enforce them anyway. Gym at six, lunch at noon, lights out at eleven, held through a fever and a friend’s one free evening in town. The structure was built to serve you. Somewhere it quietly reversed.",
-              "cost_self": "A friend was in town for one evening, the first in three years. Lights out at eleven held anyway, the way it held through the fever, the way it holds through everything. You slept on schedule and lay there knowing exactly what the schedule had cost.",
-              "cost_others": "People plan around your routine the way they plan around weather, and they stopped asking for exceptions years ago. The discipline earns real respect. What nobody mentions is how rarely you appear in the stories they tell about their best nights."
+              "drive": "Being taught lands on you as an attack first and information second. Your Metal runs over, so you put your own judgment ahead of being taught by any peer. It is worth remembering that you are only taught by someone you let be right.",
+              "cost_self": "Whenever someone tries to teach you, you check the messenger first. Being right is how you stay safe, so you defend a position rather than learn from it. You lose, remember, every lesson that needed you to be wrong before it could teach you.",
+              "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, so you hand out the fix ahead of the question. Bear in mind what you take from your peers, the chance to be right now and again."
             }
           },
           {
-            "word": "Solitary",
+            "word": "Asks no one",
             "angles": {
-              "drive": "Alone is your default answer, and it kept answering long after the question changed. You moved apartments twice with rented dollies and zero phone calls, and both times at least one person would have said yes. Proving you can was settled years ago. You keep proving it.",
-              "cost_self": "Two apartment moves, two rented dollies, zero phone calls made. Halfway down the stairs with the couch, wedged and sweating, you ran the list of people who would have come, and it was a real list, and you finished the move alone anyway.",
-              "cost_others": "Friends have stopped offering, which you count as efficiency and they count as defeat. The distance you keep reads as self-sufficiency for the first few years. After that it starts to read as a judgment of them, and they were never the ones being judged."
+              "drive": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. Notice how you count the asking as the cost and never the carrying.",
+              "cost_self": "Where a job is heavy, you take it all rather than ask for half. Carrying it alone proves you are enough, so you spend sleep before you spend one question. As you know, you pay in lost sleep for help you never ask for.",
+              "cost_others": "Being nobody's burden is why you ask no one. Since you would rather owe nothing than be joined, you take the job back the moment someone offers. Spare a thought for the peer you send away with an offer still in hand."
             }
           }
         ]
       }
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Self-made"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Self-made"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "People assume someone taught you the discipline, a coach, a parent, a book. There wasn’t one. The rules you live by were cut to fit you alone, which is why borrowed programs keep failing the people who ask you for yours."
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Reserved"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Reserved"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Keeping most of yourself back is a choice you make daily, and it costs you less than people think. At a party you might say forty words. Three people will still leave convinced you were the most solid person in attendance, and none of them could quote you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The party ran four hours and you said maybe forty words. On the drive home nothing about that felt like a failure, because it wasn’t one. What you keep back was never missing. It is in reserve, and everyone present could somehow feel the difference."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Loud company reads you slowly. First you are the quiet one, then the solid one, and eventually the one people find at the edge of the gathering when something actually matters. You never move toward the center. The important conversations keep arriving anyway."
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Unshakeable"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Unshakeable"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The deadline lands and the office turns into weather, chairs rolling, voices up, someone rewriting the plan hourly. Your pace stays exactly where it was on Monday. By Friday the weather has passed, and your part is the one that shipped clean."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible."
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Sealed-off"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Sealed-off"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "On the day of the diagnosis you said fine. Layoff, fine. Breakup, fine. The word has become a door painted to look like a wall, and the people who love you have quietly stopped testing whether it opens."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "The people close to you have learned to read your weather at a distance, because asking gets them fine. They compare notes about you. They worry in committee, exactly the way you trained them to, and call it respecting your space."
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Rigid"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Rigid"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Your rules outlive the reasons for them, and you enforce them anyway. Gym at six, lunch at noon, lights out at eleven, held through a fever and a friend’s one free evening in town. The structure was built to serve you. Somewhere it quietly reversed."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "A friend was in town for one evening, the first in three years. Lights out at eleven held anyway, the way it held through the fever, the way it holds through everything. You slept on schedule and lay there knowing exactly what the schedule had cost."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "People plan around your routine the way they plan around weather, and they stopped asking for exceptions years ago. The discipline earns real respect. What nobody mentions is how rarely you appear in the stories they tell about their best nights."
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Solitary"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Solitary"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Alone is your default answer, and it kept answering long after the question changed. You moved apartments twice with rented dollies and zero phone calls, and both times at least one person would have said yes. Proving you can was settled years ago. You keep proving it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Two apartment moves, two rented dollies, zero phone calls made. Halfway down the stairs with the couch, wedged and sweating, you ran the list of people who would have come, and it was a real list, and you finished the move alone anyway."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v072-cap45",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v072-cap45/by_axis/json/ELEMENT_GOD/金_比肩.fable-v072-cap45.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-14: cap 30-45 versions pass (batch 1)",
+      "replaced": "Friends have stopped offering, which you count as efficiency and they count as defeat. The distance you keep reads as self-sufficiency for the first few years. After that it starts to read as a judgment of them, and they were never the ones being judged."
+    }
+  ]
 }
