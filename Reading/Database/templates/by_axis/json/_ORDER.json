@@ -260,5 +260,12 @@
     "tpl_rx_ribbon",
     "tpl_pattern_conclusion",
     "tpl_section_teasers"
+  ],
+  "FUNCTION_METRICS": [
+    "Body",
+    "Mind",
+    "Expression",
+    "Action",
+    "Order"
   ]
 }

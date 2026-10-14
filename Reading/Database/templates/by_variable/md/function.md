@@ -255,3 +255,13 @@
 | `definition_friction` | Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes. |
 | `advise_catalyst` | Solitude is your maintenance, so dose it like medicine. One silent hour daily, no inputs. A full day alone each month, calendared in advance. Leave gatherings while they are still good, and let the quiet finish what the rest began. |
 | `advise_friction` | Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself. |
+
+## FUNCTION_METRICS (×5)
+
+| Archetype | Key | Value |
+|---|---|---|
+| **Body** | body | body |
+| **Mind** | mind | mind |
+| **Expression** | expression | expression |
+| **Action** | action | action |
+| **Order** | order | order |

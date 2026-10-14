@@ -1,0 +1,110 @@
+{
+  "$archetype": "Mind",
+  "axis": "FUNCTION_METRICS",
+  "key": "mind",
+  "canonical_name": "Mind",
+  "construct": "THE FUNCTION METRICS (owner 2026-10-14, step 2 of the owner's order for The Function section; REA_19): three bars per function on the energy page between the definition and the chips. Two TRAIT bars, one per god of the family, each with a fixed everyday label (the words other astrology and personality apps use) and a height from that god's share of the chart; one STYLE bar with two plain ends and no better end, tilted by the energy's balance against the core. Every bar carries one gloss line, the reader its subject, under sixteen words, read by pole (catalyst = the gift, friction = the overgrown version with its cost) and by level band (low 1 to 2, mid 3, high 4 to 5); the style bar reads by its end. The gloss explains the number, never the trait (the chips carry the trait). Derived, never written per chart: the engine computes the levels (Elementum_App/src/engine/functionMetrics.js), the words come from this file.",
+  "candidate_note": "DRAFT 2026-10-14: the fifteen metrics and their lines were agreed with the owner in session (the names, the three-bar balance, the style bars with no better end) and wired into the app on the owner's \"start writing and map those into our app artifact and station database\"; every gloss line stays provisional until the owner reads it in the app and rules it, line by line, as with every other field.",
+  "sources": [
+    "REA_19 Function Metrics (the derivation and the scale)",
+    "REA_02 §5f (the five functions and their families)",
+    "the owner's rulings of 2026-10-14 (three bars; two trait bars from the ten-god distribution; the style bar with no better end)"
+  ],
+  "scale": {
+    "trait_share_steps": [
+      0,
+      6,
+      14,
+      24
+    ],
+    "style_volume": {
+      "absent": 1,
+      "thin": 2,
+      "present": 3,
+      "abundant": 4,
+      "dominant": 5
+    },
+    "style_core_band": {
+      "Underfueled": 2,
+      "Balanced": 3,
+      "Overfueled": 4,
+      "OverfueledExcess": 5
+    },
+    "bands": {
+      "low": [
+        1,
+        2
+      ],
+      "mid": [
+        3
+      ],
+      "high": [
+        4,
+        5
+      ]
+    }
+  },
+  "candidates": {
+    "function": "mind",
+    "gods": [
+      "偏印",
+      "正印"
+    ],
+    "element_note": "the feeder element; the style bar reads its volume",
+    "bars": [
+      {
+        "key": "intuition",
+        "label": "Intuition",
+        "god": "偏印",
+        "persona": "The Alchemist",
+        "ask": "how much you learn by your own route",
+        "gloss": {
+          "catalyst": {
+            "low": "You learn the taught way and trust what others tested first.",
+            "mid": "You pick things up by your own route when the usual one is slow.",
+            "high": "You understand things nobody taught you, by a route only you can see."
+          },
+          "friction": {
+            "low": "Your own hunches get little room, and you wait to be shown.",
+            "mid": "You keep learning a little past the point of deciding.",
+            "high": "You keep learning instead of deciding, and the finished thing waits."
+          }
+        }
+      },
+      {
+        "key": "stability",
+        "label": "Stability",
+        "god": "正印",
+        "persona": "The Sage",
+        "ask": "how much solid ground you need before you move",
+        "gloss": {
+          "catalyst": {
+            "low": "You move before the ground is solid, and mostly it holds.",
+            "mid": "You want some solid ground before you move, then you move.",
+            "high": "You give people a safe place to think, and you keep one for yourself."
+          },
+          "friction": {
+            "low": "You find little shelter in what you know, and you move on quickly.",
+            "mid": "You stay with what is proven a little longer than it needs.",
+            "high": "You stay sheltered in what you know, past the point of use."
+          }
+        }
+      },
+      {
+        "key": "instinct_research",
+        "label": "Instinct · Research",
+        "style": true,
+        "ends": [
+          "Instinct",
+          "Research"
+        ],
+        "ask": "whether you act on what you sense or read up first",
+        "gloss": {
+          "low": "You act on what you already sense and read up afterwards, if at all.",
+          "mid": "You check a little before you move and trust the rest to instinct.",
+          "high": "You read up before you move, and you read a little more after that."
+        }
+      }
+    ]
+  }
+}

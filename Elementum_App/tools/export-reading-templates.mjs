@@ -389,6 +389,18 @@ T('tpl_section_teasers', 'LIVE (curation v6, owner 2026-08-19) — ONE conclusiv
   dom_unseated: '{El} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.',
 });
 
+// ── FUNCTION_METRICS ×5 (owner 2026-10-14; REA_19): the three bars per
+// function, the trait labels and gloss lines; the levels are computed by
+// src/engine/functionMetrics.js from the chart, the words transcribed from the
+// station into src/content/metrics.js. Code-mapped field by field. ──
+const metrics = await import('../src/content/metrics.js');
+for (const name of ['Body', 'Mind', 'Expression', 'Action', 'Order']) {
+  const m = metrics.FUNCTION_METRICS[name];
+  file('FUNCTION_METRICS', name, m?.function ?? name.toLowerCase(), name, {
+    function: m?.function ?? null, gods: m?.gods ?? null, element_note: m?.element_note ?? null, bars: m?.bars ?? null,
+  }, ['REA_19 Function Metrics', 'REA_02 §5f'], { scale: metrics.FUNCTION_METRIC_SCALE });
+}
+
 // _ORDER.json — seeder-owned structural manifest (REA_01 taxonomy order).
 const orderFp = path.join(OUT, '_ORDER.json');
 const orderNext = JSON.stringify(order, null, 2) + '\n';

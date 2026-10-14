@@ -1,0 +1,53 @@
+{
+  "$variable": "gods",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "FUNCTION_METRICS": [
+      {
+        "id": "Body",
+        "key": "body",
+        "canonical_name": "Body",
+        "value": [
+          "比肩",
+          "劫财"
+        ]
+      },
+      {
+        "id": "Mind",
+        "key": "mind",
+        "canonical_name": "Mind",
+        "value": [
+          "偏印",
+          "正印"
+        ]
+      },
+      {
+        "id": "Expression",
+        "key": "expression",
+        "canonical_name": "Expression",
+        "value": [
+          "食神",
+          "伤官"
+        ]
+      },
+      {
+        "id": "Action",
+        "key": "action",
+        "canonical_name": "Action",
+        "value": [
+          "偏财",
+          "正财"
+        ]
+      },
+      {
+        "id": "Order",
+        "key": "order",
+        "canonical_name": "Order",
+        "value": [
+          "七杀",
+          "正官"
+        ]
+      }
+    ]
+  }
+}

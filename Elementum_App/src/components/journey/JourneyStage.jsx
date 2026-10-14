@@ -24,6 +24,40 @@ import { useReading } from '../reading/useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
+
+// THE FUNCTION METRICS (owner 2026-10-14; REA_19): three bars between the
+// definition and the chips, computed by the engine (functionMetrics.js), the
+// gloss lines from the station. A trait bar fills its level in segments; the
+// style bar marks its position between two plain ends. Tap a bar to read its
+// line; collapsed at rest, like the chips.
+function MetricBars({ m }) {
+  const [open, setOpen] = useState(null);
+  if (!m || !m.bars?.length) return null;
+  return (
+    <div className="el-metrics" role="list" aria-label={`${m.functionLabel} metrics`}>
+      {m.bars.map((b) => {
+        const isOpen = open === b.key;
+        const cls = `el-metric${b.kind === 'style' ? ' style' : m.pole === 'friction' ? ' down' : ''}`;
+        return (
+          <button key={b.key} type="button" className={cls} role="listitem" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : b.key)}>
+            <span className="el-metric-row">
+              <span className="el-metric-lab">{b.label}</span>
+              <span className="el-metric-track" aria-label={`${b.label}: level ${b.level} of 5`}>
+                {[1, 2, 3, 4, 5].map((i) => (
+                  <span key={i} className={`el-metric-seg${b.kind === 'style' ? (i === b.level ? ' mark' : '') : (i <= b.level ? ' on' : '')}`} />
+                ))}
+              </span>
+            </span>
+            {b.kind === 'style' && b.ends && (
+              <span className="el-metric-ends"><span>{b.ends[0]}</span><span>{b.ends[1]}</span></span>
+            )}
+            {isOpen && <span className="el-metric-gloss">{b.gloss}</span>}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
@@ -717,6 +751,10 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         (the three-beat construct, D14), and the chips come
                         after it. */}
                     <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
+                    {/* THE FUNCTION METRICS (owner 2026-10-14; REA_19): the
+                        three bars sit between the definition and the chips;
+                        the bars lead into the keywords. */}
+                    <MetricBars m={elScreen.fnReading.metrics} />
                     {/* THE GOD-GRAIN READING (owner 2026-09-03, three-doors
                         fashion; both corpora complete 2026-09-04, v3 fallback
                         retired): chip row (the scannable summary) → define ¶

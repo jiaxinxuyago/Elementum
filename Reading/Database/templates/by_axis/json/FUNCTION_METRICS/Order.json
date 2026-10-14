@@ -1,0 +1,110 @@
+{
+  "$archetype": "Order",
+  "axis": "FUNCTION_METRICS",
+  "key": "order",
+  "canonical_name": "Order",
+  "construct": "THE FUNCTION METRICS (owner 2026-10-14, step 2 of the owner's order for The Function section; REA_19): three bars per function on the energy page between the definition and the chips. Two TRAIT bars, one per god of the family, each with a fixed everyday label (the words other astrology and personality apps use) and a height from that god's share of the chart; one STYLE bar with two plain ends and no better end, tilted by the energy's balance against the core. Every bar carries one gloss line, the reader its subject, under sixteen words, read by pole (catalyst = the gift, friction = the overgrown version with its cost) and by level band (low 1 to 2, mid 3, high 4 to 5); the style bar reads by its end. The gloss explains the number, never the trait (the chips carry the trait). Derived, never written per chart: the engine computes the levels (Elementum_App/src/engine/functionMetrics.js), the words come from this file.",
+  "candidate_note": "DRAFT 2026-10-14: the fifteen metrics and their lines were agreed with the owner in session (the names, the three-bar balance, the style bars with no better end) and wired into the app on the owner's \"start writing and map those into our app artifact and station database\"; every gloss line stays provisional until the owner reads it in the app and rules it, line by line, as with every other field.",
+  "sources": [
+    "REA_19 Function Metrics (the derivation and the scale)",
+    "REA_02 §5f (the five functions and their families)",
+    "the owner's rulings of 2026-10-14 (three bars; two trait bars from the ten-god distribution; the style bar with no better end)"
+  ],
+  "scale": {
+    "trait_share_steps": [
+      0,
+      6,
+      14,
+      24
+    ],
+    "style_volume": {
+      "absent": 1,
+      "thin": 2,
+      "present": 3,
+      "abundant": 4,
+      "dominant": 5
+    },
+    "style_core_band": {
+      "Underfueled": 2,
+      "Balanced": 3,
+      "Overfueled": 4,
+      "OverfueledExcess": 5
+    },
+    "bands": {
+      "low": [
+        1,
+        2
+      ],
+      "mid": [
+        3
+      ],
+      "high": [
+        4,
+        5
+      ]
+    }
+  },
+  "candidates": {
+    "function": "order",
+    "gods": [
+      "七杀",
+      "正官"
+    ],
+    "element_note": "the tamer element; the style bar reads its volume",
+    "bars": [
+      {
+        "key": "leadership",
+        "label": "Leadership",
+        "god": "七杀",
+        "persona": "The General",
+        "ask": "how much pressure you take on and hand out",
+        "gloss": {
+          "catalyst": {
+            "low": "You take pressure when it comes and hand little of it out.",
+            "mid": "In a crisis you get clear, and people notice.",
+            "high": "You are clear in a crisis and others follow, and you went looking for the crisis."
+          },
+          "friction": {
+            "low": "You push yourself a little harder than the day asks.",
+            "mid": "You run yourself hard, and the people near you feel the pace.",
+            "high": "You run everyone, yourself first, past the point of rest."
+          }
+        }
+      },
+      {
+        "key": "responsibility",
+        "label": "Responsibility",
+        "god": "正官",
+        "persona": "The Magistrate",
+        "ask": "how much you answer to the rules you accepted",
+        "gloss": {
+          "catalyst": {
+            "low": "You answer to the rules you chose and leave the rest alone.",
+            "mid": "Your word holds, and people plan on it.",
+            "high": "Your word holds without exception, and people build on it."
+          },
+          "friction": {
+            "low": "You take on a duty or two more than you can comfortably carry.",
+            "mid": "You cannot easily say no to a duty, even an unfair one.",
+            "high": "You cannot say no to a duty, even a bad one, and it costs you sleep."
+          }
+        }
+      },
+      {
+        "key": "flexible_structured",
+        "label": "Flexible · Structured",
+        "style": true,
+        "ends": [
+          "Flexible",
+          "Structured"
+        ],
+        "ask": "how much structure you want around you",
+        "gloss": {
+          "low": "You want little structure around you and make the plan as you go.",
+          "mid": "You want a frame to work in and room to move inside it.",
+          "high": "You want the plan set and the rules clear before you start."
+        }
+      }
+    ]
+  }
+}

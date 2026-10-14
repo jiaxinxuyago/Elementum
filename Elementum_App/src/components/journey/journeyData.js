@@ -19,6 +19,7 @@ import { FEEDS, TAMES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN } from '../../content/k2.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
+import { functionMetrics } from '../../engine/functionMetrics.js';
 
 // ── element basics ─────────────────────────────────────────────────
 export const EL_NAME = { metal: 'Metal', earth: 'Earth', wood: 'Wood', water: 'Water', fire: 'Fire' };
@@ -536,7 +537,10 @@ export function buildElementScreen(model, el) {
       // (the derived first-sentence teaser retired 2026-09-04 — the FUNCTION
       // tile's meaning line is the authored cta_verdict, owner ruling)
       return {
-        fnReading: fn ? { define: stripped, ledger: r.fnRows, advise: fn[`advise_${pole}`] || '' } : null,
+        // THE FUNCTION METRICS (owner 2026-10-14, REA_19): three bars computed
+        // from the chart (the two gods' shares, the energy's balance), the
+        // gloss lines transcribed from the station's FUNCTION_METRICS axis.
+        fnReading: fn ? { define: stripped, metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '' } : null,
       };
     })()),
     // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —

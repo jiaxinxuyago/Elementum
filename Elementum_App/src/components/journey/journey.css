@@ -697,3 +697,21 @@
 .jny .mr-dot.self{ outline:2px solid var(--bronzeDark); outline-offset:2px; }
 /* function noun labels under the wheel nodes (labeled, clean) */
 .jny .node .fnlab{ position:absolute; top:100%; left:50%; transform:translateX(-50%); margin-top:11px; font-family:'Cinzel',Georgia,serif; font-size:6.5px; letter-spacing:1.1px; color:var(--inkLight,#8a7f6d); white-space:nowrap; pointer-events:none; }
+
+/* ── THE FUNCTION METRICS (owner 2026-10-14; REA_19): three bars between the
+   definition and the chips. Label left, a five-segment track right, the level
+   read as filled segments; the style bar prints its two ends under the track.
+   Tap a bar for its one-line gloss (collapsed at rest, like the chips). ── */
+.jny .el-metrics{ display: flex; flex-direction: column; gap: 7px; margin: 10px 0 2px; }
+.jny .el-metric{ display: block; width: 100%; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; color: inherit; font: inherit; }
+.jny .el-metric-row{ display: flex; align-items: center; gap: 10px; }
+.jny .el-metric-lab{ flex: 0 0 44%; min-width: 0; font-size: 12.5px; letter-spacing: 0.2px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.jny .el-metric-track{ flex: 1 1 auto; display: grid; grid-template-columns: repeat(5, 1fr); gap: 3px; }
+.jny .el-metric-seg{ height: 7px; border-radius: 2px; background: rgba(20,16,10,0.08); }
+.jny .el-metric-seg.on{ background: var(--bronze); }
+.jny .el-metric.down .el-metric-seg.on{ background: rgba(163,84,62,0.78); }
+.jny .el-metric.style .el-metric-seg{ background: rgba(20,16,10,0.08); }
+.jny .el-metric.style .el-metric-seg.mark{ background: var(--ink); }
+.jny .el-metric-ends{ display: flex; justify-content: space-between; margin-top: 3px; font-size: 9.5px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--inkLight); }
+.jny .el-metric-ends span:first-child{ margin-left: 44%; padding-left: 10px; }
+.jny .el-metric-gloss{ margin: 5px 0 2px; font-size: 13px; line-height: 1.45; color: var(--ink); }

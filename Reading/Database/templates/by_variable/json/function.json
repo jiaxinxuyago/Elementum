@@ -303,6 +303,38 @@
           "advise_friction": "Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself."
         }
       }
+    ],
+    "FUNCTION_METRICS": [
+      {
+        "id": "Body",
+        "key": "body",
+        "canonical_name": "Body",
+        "value": "body"
+      },
+      {
+        "id": "Mind",
+        "key": "mind",
+        "canonical_name": "Mind",
+        "value": "mind"
+      },
+      {
+        "id": "Expression",
+        "key": "expression",
+        "canonical_name": "Expression",
+        "value": "expression"
+      },
+      {
+        "id": "Action",
+        "key": "action",
+        "canonical_name": "Action",
+        "value": "action"
+      },
+      {
+        "id": "Order",
+        "key": "order",
+        "canonical_name": "Order",
+        "value": "order"
+      }
     ]
   }
 }

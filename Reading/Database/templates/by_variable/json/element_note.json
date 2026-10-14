@@ -1,0 +1,38 @@
+{
+  "$variable": "element_note",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "FUNCTION_METRICS": [
+      {
+        "id": "Body",
+        "key": "body",
+        "canonical_name": "Body",
+        "value": "the core element itself; the style bar reads the core band"
+      },
+      {
+        "id": "Mind",
+        "key": "mind",
+        "canonical_name": "Mind",
+        "value": "the feeder element; the style bar reads its volume"
+      },
+      {
+        "id": "Expression",
+        "key": "expression",
+        "canonical_name": "Expression",
+        "value": "the fed element; the style bar reads its volume"
+      },
+      {
+        "id": "Action",
+        "key": "action",
+        "canonical_name": "Action",
+        "value": "the tamed element; the style bar reads its volume"
+      },
+      {
+        "id": "Order",
+        "key": "order",
+        "canonical_name": "Order",
+        "value": "the tamer element; the style bar reads its volume"
+      }
+    ]
+  }
+}

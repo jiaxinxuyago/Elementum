@@ -25,6 +25,8 @@ import { STEM_VARIANTS } from '../src/content/stemVariants.js';
 import { PAIR_CELLS } from '../src/content/pairs.js';
 import { K2_CELLS } from '../src/content/k2.js';
 import { volumeOf, resolveBand, VOLUME } from '../src/engine/energyRoles.js';
+import { functionMetrics } from '../src/engine/functionMetrics.js';
+import { GOD_FN } from '../src/content/k2.js';
 
 const BIG = new Set(['abundant', 'dominant']);
 const FIXTURES = [
@@ -179,6 +181,32 @@ for (const f of FIXTURES) {
   check('50 / 50 tie → 2+2, yang face leads (stable sort)', [50, 50], 2, 2, '偏财');
   // the 60% face split never touches the 40% volume law: a 50/50 face split is not the Balanced chart baseline
   const tie = blend([50, 50]); if (tie.dx?.condition === 'Balanced') fail({ name: 'ledger · face split vs chart band' }, 'a balanced face split read as the Balanced chart');
+}
+
+// M1 (owner 2026-10-14, REA_19): THE FUNCTION METRICS on every energy page of
+// every fixture: three bars; the two trait bars are the two gods of the
+// element's family in the station's order with levels 1 to 5 from the gods'
+// shares; the style bar's level is 1 to 5 with two ends; the pole follows the
+// page (friction on a friction role or the core's excess, catalyst otherwise);
+// every bar carries a gloss line from the station; the core's style bar reads
+// its band (Overfueled 4, with the excess override 5; Underfueled 2; Balanced 3).
+{
+  const f = { name: 'M1 function metrics' }; let pages = 0;
+  for (const fx of FIXTURES) {
+    const chart = { dayMaster: { stem: fx.stem, element: fx.element, strength: fx.strength }, elements: Object.fromEntries(Object.entries(fx.p).map(([k, score]) => [k, { score }])) };
+    const ec = buildEnergyChart(chart); const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[fx.stem] });
+    for (const el of Object.keys(m.byEl)) {
+      const r = m.byEl[el]; const fm = functionMetrics(r, m.band); pages++;
+      if (!fm) { fail(f, `${fx.name} · ${el}: no metrics`); continue; }
+      if (fm.bars.length !== 3) fail(f, `${fx.name} · ${el}: ${fm.bars.length} bars`);
+      const gods = fm.bars.filter((b) => b.kind === 'trait').map((b) => b.god);
+      if (gods.length !== 2 || gods.some((g) => GOD_FN[g] !== fm.function)) fail(f, `${fx.name} · ${el}: trait gods ${gods.join('/')} are not the ${fm.function} family`);
+      for (const b of fm.bars) { if (!(b.level >= 1 && b.level <= 5)) fail(f, `${fx.name} · ${el} · ${b.key}: level ${b.level}`); if (!b.gloss) fail(f, `${fx.name} · ${el} · ${b.key}: no gloss`); if (b.kind === 'style' && (!b.ends || b.ends.length !== 2)) fail(f, `${fx.name} · ${el} · ${b.key}: no ends`); }
+      const wantPole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst'; if (fm.pole !== wantPole) fail(f, `${fx.name} · ${el}: pole ${fm.pole}, expected ${wantPole}`);
+      if (r.isCore) { const st = fm.bars.find((b) => b.kind === 'style'); const want = r.coreExcess ? 5 : ({ Overfueled: 4, Underfueled: 2, Balanced: 3 })[m.band]; if (want && st.level !== want) fail(f, `${fx.name} · ${el}: core style level ${st.level}, expected ${want} for ${m.band}`); }
+    }
+  }
+  console.log(`  ${f.name}: ${pages} energy pages across ${FIXTURES.length} fixtures`);
 }
 
 console.log(fails ? `\n✗ ${fails} selection fixture failure(s)` : '\n✓ selection fixtures: every contract holds');
