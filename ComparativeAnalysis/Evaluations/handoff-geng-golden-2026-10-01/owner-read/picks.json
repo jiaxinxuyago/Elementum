@@ -135,5 +135,19 @@
  "Q33": {
   "pick": "B",
   "at": "2026-10-14T01:18:11.249Z"
+ },
+ "Q34": {
+  "pick": "none",
+  "note": "Neither. A is too specific and descriptive on one story without describing a psychological trait. B is too verbose in describing the trait. Benchmark: how The Pattern or an MBTI trait explanation would describe it (concise trait description).",
+  "at": "2026-10-14T01:20:58.501Z"
+ },
+ "Q35": {
+  "pick": "B",
+  "note": "B, but drop the action 'Let a friend do one thing for you, unrepaid': it registers as company (the Twin's domain), not as 'someone above you' (the Order cure); the small actions must sit in the cure's register",
+  "at": "2026-10-14T01:22:36.752Z"
+ },
+ "Q36": {
+  "pick": "C",
+  "at": "2026-10-14T01:23:09.895Z"
  }
 }
