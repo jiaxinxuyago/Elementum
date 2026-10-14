@@ -1,0 +1,72 @@
+{
+  "$archetype": "木_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_正财",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Cultivating",
+        "Compounding"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cultivating",
+            "angles": {
+              "drive": "Improving what you have comes easier than chasing what you lack. There is plenty of Wood in you, so something is always growing under your care. You keep tending the same few things because they pay, or because leaving would feel like waste to you. The price is every chance you never went to see."
+            }
+          },
+          {
+            "word": "Compounding",
+            "angles": {
+              "cost_self": "Your natural size of effort is small enough to repeat forever. Wood grows thick in you, one small deposit at a time. You keep the habit because it builds, or because stopping feels like losing what you built. It costs you the small comforts you could afford and never take, rest among them."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cultivating",
+            "angles": {
+              "drive": "Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase."
+            }
+          },
+          {
+            "word": "Compounding",
+            "angles": {
+              "cost_self": "Fifty a month since college. A page a day, a call every Friday, and at no point did any of it look impressive, which is exactly why it worked. Your natural size of effort is small enough to repeat forever, and repetition is where your money and your skill actually come from."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Cultivating",
+        "Compounding"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the picked original chip and claim (Q23) carried into the chain with the mechanism said plainly and the price at the close, the investment figure cut; structure lens",
+      "the picked original (Q24) kept on its chip and its one true sentence, the fifty-a-month scene cut, the cost to the reader named in comfort and rest; perspective lens"
+    ]
+  }
+}

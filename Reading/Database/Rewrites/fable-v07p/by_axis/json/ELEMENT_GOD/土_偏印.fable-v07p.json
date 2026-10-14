@@ -1,0 +1,88 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "Withdrawn",
+        "Brooding",
+        "Overprepared"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "angles": {
+              "drive": "Pulling back is where you rest, long before anything has gone wrong. There is more Earth in your mind than you use, and it settles best alone. You withdraw to think a thing through, or you withdraw so nobody sees you thinking it. The price is company, which drains you faster than it feeds you."
+            }
+          },
+          {
+            "word": "Brooding",
+            "angles": {
+              "cost_self": "The conversation you would take back keeps running. Earth is heavy in you, and what a day does not use runs at night. You replay it to find a better sentence, or because putting a thought down is something you never learned. It costs you sleep and the evening you were meant to be in."
+            }
+          },
+          {
+            "word": "Overprepared",
+            "angles": {
+              "cost_others": "You stay in preparation, and the people waiting pay first. Your mind holds more Earth than it spends, so another pass always looks like care. You hand them the finished version late, or you hand them nothing and call it standards. Nobody can call it failure yet, and nobody gets what they asked for."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "angles": {
+              "drive": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+            }
+          },
+          {
+            "word": "Brooding",
+            "angles": {
+              "cost_self": "It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you."
+            }
+          },
+          {
+            "word": "Overprepared",
+            "angles": {
+              "cost_others": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Withdrawn",
+        "Brooding",
+        "Overprepared"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the picked original chip and claim (Q15) carried into the chain: the mechanism named plainly as Earth and its volume, the either-or, the price; the battery image and the tag close cut; language and structure lenses",
+      "the picked original chip and drive (Q16) without its Thursday-night stamp, the cost to the reader stated as sleep and the evening; perspective lens (no camera)",
+      "the picked original (Q17) turned from the watchers' view to the reader's own act and what it takes from the people waiting, the shelter image cut; perspective lens"
+    ]
+  }
+}

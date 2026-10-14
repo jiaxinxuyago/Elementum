@@ -1,0 +1,66 @@
+{
+  "$archetype": "金_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_火",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "catalyst_turn": "With too little Fire, the steel goes unworked: an edge sure of its shape, with nothing to test it. Take on one thing this year that could fail in public."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The steel goes unworked: an edge sure of its shape, with nothing to test it.",
+        "remedy": "Take on one thing this year that could fail in public."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is heat that gives you your shape. Crisis pulls at you and makes you clearest when everything burns, and the price is quiet weeks you cannot sit through. The wish for a place keeps you inside the rules, while the rules cost you the step outside.",
+      "advise_catalyst": "Order you have never been tested on is a guess about yourself. Sign up for one thing a year with a judge in it, a race, an exam, a review by someone senior. Take the deadline you are not sure you can make. Let one person tell you, to your face, what you got wrong this month."
+    },
+    "cta_verdict": "Pressure is what puts you in order, so you are at your best when something is being asked of you but at your worst when nothing is."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+        "remedy": "Take the demanding role, the audit, the arena."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+      "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+    },
+    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "unanswered at Q46: the original kept by the editor's read (it follows the epigraph and closes without the candidate's it-is-truer-to-say turn); the base keeps its material by ruling",
+      "catalyst_turn": "unanswered at Q47: the candidate kept by the editor's read (the original opens on the retired Run thin, and ends on a list)"
+    },
+    "carry": {
+      "catalyst": "cut from the kept turn by the cut law (F3)"
+    },
+    "function": {
+      "definition_catalyst": "unanswered at Q49: the candidate kept for its two drives with their costs, the edge taken out of the opener and its one long sentence split; language lens",
+      "advise_catalyst": "unanswered at Q53: the candidate kept (the original prescribes brakes on a Channel band), the edge taken out of the truth sentence; language lens"
+    },
+    "cta_verdict": "unanswered at Q54: the candidate kept over the original's forge image, the tension hinged on but inside the one sentence; language and structure lenses"
+  }
+}

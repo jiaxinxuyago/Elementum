@@ -1,0 +1,62 @@
+{
+  "$archetype": "金_木",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_木",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "The knife exists for the branch. Wood grows in every direction it can reach, and left alone it grows into a thicket that shades its own fruit. So the old texts set metal against it, hard against soft, the cut that gives a living thing its shape. The pruned tree bears more than the wild one. Steel and timber are not enemies. One is what the other is for."
+    },
+    "carry": {
+      "wide": {
+        "clause": "You were given plenty of Wood, a whole orchard for one knife to shape.",
+        "remedy": "Prune what is in reach. Finish one before starting the next."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Action, and as a catalyst, it is effort that behaves like something alive. What you plant and tend, money, skill, trust, grows on its own time and pays you back. You reach for the next opening while this one needs you, or you keep what you built and let a chance go.",
+      "advise_catalyst": "What grows under your care still needs you to decide what gets kept and what gets let go. Once a season, go through everything you are tending and let one dead project go without guilt. Keep the daily habits exactly as they are. Claim the growth out loud, raise the price and take the credit sooner than feels polite."
+    },
+    "cta_verdict": "Your effort behaves like something planted, so what you care for keeps paying long after you stopped working on it, whether you notice or not."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare."
+    },
+    "carry": {
+      "wide": {
+        "clause": "Wood is already here in plenty, the material the knife is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
+      "advise_catalyst": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite."
+    },
+    "cta_verdict": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "carry.wide": "pass",
+    "function.definition_catalyst": "pass",
+    "function.advise_catalyst": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "the owner's pick at Q20 kept, its one long sentence split for length; the base keeps its material by ruling"
+    },
+    "carry": {
+      "wide": "the owner's pick at Q21 kept whole"
+    },
+    "function": {
+      "definition_catalyst": "the picked original (Q22) with the family's two drives named as one either-or (the opening against the keeping), the burning-off clause cut; analytical angle lens",
+      "advise_catalyst": "the picked original (Q26) with the gardener's ruthlessness said plainly and the field walk turned into the action itself; language lens"
+    },
+    "cta_verdict": "the picked original (Q27) re-cut from the cutting-and-fruit image to the plain behavioural truth with its tension; language lens"
+  }
+}

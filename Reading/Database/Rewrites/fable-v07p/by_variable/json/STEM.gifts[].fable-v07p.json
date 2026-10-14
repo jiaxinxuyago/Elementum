@@ -1,0 +1,63 @@
+{
+  "$variable": "STEM.gifts[]",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "gifts[6]",
+      "candidate": {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "desc": "The day everything breaks is the day you are calmest. Pressure makes you simpler, and the problem turns into next steps while others are still taking it in. You get steady because the stakes are real, or because a crisis is the one place nobody asks how you feel. The price is the quiet weeks, when nothing needs you."
+      },
+      "original": {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[5]",
+      "candidate": {
+        "phrase": "Plants and waits",
+        "dim": "slow returns",
+        "desc": "What you take care of grows while you are not looking. A skill kept up, a friend called back, money left alone, it all comes back bigger. You stay with a thing because it pays, or because starting over never looks worth it to you. The cost is the piece that stopped paying long ago and still gets your time."
+      },
+      "original": {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[4]",
+      "candidate": {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "desc": "What is inside you comes out in plain words, with no speech first. You say the thing everyone has been talking around, and people get something they can use. You keep it plain because dressing it up feels like lying, or because you never learned the softer version. The cost is that anyone who wanted warmth reads plain as cold."
+      },
+      "original": {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      "gate": "pass"
+    }
+  ]
+}

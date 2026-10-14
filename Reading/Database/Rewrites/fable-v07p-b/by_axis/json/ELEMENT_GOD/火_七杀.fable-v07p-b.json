@@ -1,0 +1,56 @@
+{
+  "$archetype": "火_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "火_七杀",
+  "$generated_by": "fable-v07p-b",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Takes charge"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "Command comes to you without a title, and you use it before it is given. Fire is short in you, and the little there is goes where decisions get made. You lead because the gap is open, or because standing behind someone makes you feel beaten. The price is that you are rarely asked first."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Decisive",
+            "angles": {
+              "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Decisive"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "unanswered at Q50: the candidate kept over the original's then-everyone-breathes close, the heat taken out of the mechanism, demotion said inside the zone, the price spelled out; language lens"
+    ]
+  }
+}

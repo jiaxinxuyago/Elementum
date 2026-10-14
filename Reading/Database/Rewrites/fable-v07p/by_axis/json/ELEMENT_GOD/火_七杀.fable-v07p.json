@@ -1,0 +1,88 @@
+{
+  "$archetype": "火_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "火_七杀",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Takes charge",
+        "Runs toward it",
+        "Pushes hard"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "You take charge the moment nobody else does, and sometimes a moment before. You have little Fire, and what there is gets spent at the front. You step in because it needs doing, or because waiting means you get passed over. The price is that nobody ever gets the chance to ask you first."
+            }
+          },
+          {
+            "word": "Runs toward it",
+            "angles": {
+              "cost_self": "Trouble is where you feel most like yourself. There is little Fire in you, so what steadies you only arrives when something breaks. You run toward the crisis because it needs you, or because calm has nothing you know how to hold. The cost is a body that only rests after a fight."
+            }
+          },
+          {
+            "word": "Pushes hard",
+            "angles": {
+              "cost_others": "You push people the way you push yourself. You carry little Fire, so all of it goes to whoever is closest to the job. You set the pace because it must get done, or because slowing would mean you hand it over. The people near you pay with their own pace and never find it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Decisive",
+            "angles": {
+              "drive": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes."
+            }
+          },
+          {
+            "word": "Daring",
+            "angles": {
+              "cost_self": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes."
+            }
+          },
+          {
+            "word": "Crisis-ready",
+            "angles": {
+              "cost_others": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Decisive",
+        "Daring",
+        "Crisis-ready"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "unanswered at Q50: the candidate kept over the original's then-everyone-breathes close, the heat taken out of the mechanism, demotion said inside the zone, the price spelled out; language lens",
+      "unanswered at Q51: the candidate kept over the original's dreaded-call scene, the mechanism said as Fire and its volume; perspective lens",
+      "unanswered at Q52: the candidate kept over the original's particular-quiet chorus, the heat taken out of the mechanism, the cost to others completed; perspective lens"
+    ]
+  }
+}

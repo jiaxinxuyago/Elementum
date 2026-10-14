@@ -1,0 +1,30 @@
+{
+  "$archetype": "geng_concentrated",
+  "axis": "STEM_BAND",
+  "key": "geng_concentrated",
+  "$generated_by": "fable-v07p-b",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "self_card": {
+      "presence": "You tell the truth whether the moment can take it or not, and you pay for that in company you did not mean to lose."
+    }
+  },
+  "$original": {
+    "self_card": {
+      "presence": "The cut is always available and mostly used. Clarity this constant is a climate, and the people near you dress for it."
+    }
+  },
+  "$gate_findings": {
+    "band.self_card.presence": "pass"
+  },
+  "$trace": {
+    "band": {
+      "self_card": {
+        "presence": "the picked original (Q05) re-cut from the climate image to the reader's own act with a concession hinge and the cost as the reader's, no chorus dressing for it; perspective and language lenses"
+      }
+    }
+  }
+}

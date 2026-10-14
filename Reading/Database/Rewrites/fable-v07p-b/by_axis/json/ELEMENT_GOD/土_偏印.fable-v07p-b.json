@@ -1,0 +1,56 @@
+{
+  "$archetype": "土_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏印",
+  "$generated_by": "fable-v07p-b",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "friction": [
+        "Withdrawn"
+      ]
+    },
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "angles": {
+              "drive": "Being on your own is the setting you return to, nothing having gone wrong. Earth runs heavy in your mind, so what goes in gets turned over alone. You keep to yourself because the thinking happens there, or because showing it unfinished would leave you open. It costs you the people who stopped waiting outside."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "friction": {
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "angles": {
+              "drive": "Pulling back is where you rest, long before it is any kind of reaction. Company drains a battery in you that solitude recharges, and the door drifts toward closed on its own schedule. Nothing has to go wrong first. The pulling back is the baseline."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "friction": [
+        "Withdrawn"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the picked original chip and claim (Q15) carried into the chain: the mechanism named plainly as Earth and its volume, the either-or, the price; the battery image and the tag close cut; language and structure lenses"
+    ]
+  }
+}

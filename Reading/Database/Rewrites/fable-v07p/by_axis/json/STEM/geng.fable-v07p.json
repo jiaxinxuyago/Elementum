@@ -1,0 +1,146 @@
+{
+  "$archetype": "geng",
+  "axis": "STEM",
+  "key": "geng",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "manifesto": "Honest, exact, decisive · You are the Metal that cuts things clean.",
+    "dm_overview": "The Blade is Metal in its yang form, the ore that went into the forge soft and came out with an edge. Its season is autumn, when the year stops growing things and starts choosing which of them to keep. Steel like this does one job. It cuts, once, and the cut stays cut. Left alone it wants nothing, asks nothing, and rusts only where it was never used. A sword hung over a doorway keeps the whole house honest without saying a word.",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you comes out in plain words, with no speech first. You say the thing everyone has been talking around, and people get something they can use. You keep it plain because dressing it up feels like lying, or because you never learned the softer version. The cost is that anyone who wanted warmth reads plain as cold."
+      },
+      {
+        "phrase": "Plants and waits",
+        "dim": "slow returns",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "What you take care of grows while you are not looking. A skill kept up, a friend called back, money left alone, it all comes back bigger. You stay with a thing because it pays, or because starting over never looks worth it to you. The cost is the piece that stopped paying long ago and still gets your time."
+      },
+      {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Pressure makes you simpler, and the problem turns into next steps while others are still taking it in. You get steady because the stakes are real, or because a crisis is the one place nobody asks how you feel. The price is the quiet weeks, when nothing needs you."
+      }
+    ],
+    "shadows": [
+      null,
+      {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "Once you have decided what something is, it stays that way. You keep the first read because it was right, or because changing it would mean you were wrong the whole time. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      null,
+      {
+        "phrase": "Overprepared",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "You take in more than you use, and using it keeps getting put off. Everything goes in and nothing comes out, and thinking gets mistaken for depth. You keep preparing because the question is open, or because a finished thing puts you up for judgment. It shuts out the one mistake you would have learned from by now."
+      }
+    ]
+  },
+  "$original": {
+    "manifesto": "Precision before intention · You are the Metal that cuts things clean.",
+    "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      }
+    ],
+    "shadows": [
+      null,
+      {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      null,
+      {
+        "phrase": "Overprepared",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+      }
+    ]
+  },
+  "$gate_findings": {
+    "manifesto": "pass",
+    "dm_overview": "pass",
+    "gifts[6]": "pass",
+    "gifts[5]": "pass",
+    "gifts[4]": "pass",
+    "shadows[1]": "pass",
+    "shadows[3]": "pass"
+  },
+  "$trace": {
+    "manifesto": "L1 rebuilt as plain adjective keywords per the owner at Q01 (the relation form adds complexity), L2 the picked original spine line kept; structure lens",
+    "dm_overview": "the owner's pick at Q02 kept whole, the P4 mythic layer keeps its material by ruling; no lens applied",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      "the picked original (Q08) kept on its chip and opener, the table set dressing cut, the either-or and the cost added; analytical angle lens",
+      "the picked candidate (Q07) given a real either-or and the cost moved to the close; structure lens",
+      "the picked original (Q06) kept on its chip and first line, the cutting image replaced by the either-or and the gift's price; analytical angle lens"
+    ],
+    "shadows": [
+      null,
+      "the picked original (Q09), the card's positive exemplar, given the either-or between its claim and its cost; structure lens",
+      null,
+      "the picked original (Q10) kept on its chip, the stalled edge said as the reader's own intake, the either-or and what the drive shuts out added; language lens"
+    ]
+  }
+}

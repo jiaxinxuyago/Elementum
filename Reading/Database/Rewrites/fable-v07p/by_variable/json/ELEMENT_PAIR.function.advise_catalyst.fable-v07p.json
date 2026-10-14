@@ -1,0 +1,30 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_catalyst",
+  "$generated_by": "fable-v07p",
+  "$handoff": "2026-10-01 geng golden v07 polished",
+  "$filed": "2026-10-14",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "金_木",
+      "field": "function.advise_catalyst",
+      "candidate": "What grows under your care still needs you to decide what gets kept and what gets let go. Once a season, go through everything you are tending and let one dead project go without guilt. Keep the daily habits exactly as they are. Claim the growth out loud, raise the price and take the credit sooner than feels polite.",
+      "original": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_水",
+      "field": "function.advise_catalyst",
+      "candidate": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it all the way, past pleasant. Say the awkward true sentence once a week, to the person it belongs to. Send one thing out before it feels ready.",
+      "original": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one.",
+      "gate": "pass"
+    },
+    {
+      "cell": "金_火",
+      "field": "function.advise_catalyst",
+      "candidate": "Order you have never been tested on is a guess about yourself. Sign up for one thing a year with a judge in it, a race, an exam, a review by someone senior. Take the deadline you are not sure you can make. Let one person tell you, to your face, what you got wrong this month.",
+      "original": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.",
+      "gate": "pass"
+    }
+  ]
+}
