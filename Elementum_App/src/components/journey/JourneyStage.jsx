@@ -103,6 +103,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
   const cardStatusT = useRef(null);
   const [manualOpen, setManualOpen] = useState(false); // YOUR ENERGY MANUAL unfold (owner 2026-09-10)
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
+  const [kwOpen, setKwOpen] = useState(null);      // the keyword sheet (owner 2026-10-14): {word, text, pole, fnLabel}
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom') — fn re-split as the function reading's home (owner re-org 2026-09-02)
@@ -764,15 +765,21 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         unlabeled) → advise ¶. The dips coda is RETIRED
                         (cross-function lines = TG_PATTERN territory, in
                         station __ore) — the reading ends with the advise. */}
-                    {(() => { const r = m.byEl[elScreen.el]; return r.adj?.length ? (
-                      <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
-                    ) : null; })()}
-                    {elScreen.fnReading.ledger && (
-                      <div className="el-fnledger">
-                        {elScreen.fnReading.ledger.map((row) => (
-                          <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.text}</p>
-                        ))}
-                      </div>
+                    {/* THE KEYWORDS (owner 2026-10-14, the chip expansion): the
+                        ledger no longer renders on the page. Each chip is a
+                        button; a tap opens that keyword's passage (the one
+                        angle its position assigns, as before) in a sheet over
+                        the page, one keyword at a time. The verdict returns as
+                        the teaser line under the chips, the line that invites
+                        the tap (backlog/2026-10-14_verdict-pending-teaser.md). */}
+                    {(() => { const r = m.byEl[elScreen.el]; const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst'; const rows = elScreen.fnReading.ledger || []; const chips = rows.length ? rows.map((row) => ({ word: row.word, text: row.text })) : (r.adj || []).map((a) => ({ word: a, text: '' }));
+                      return chips.length ? (
+                        <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{chips.map((c) => (
+                          <button key={c.word} type="button" className={`wd-adjchip el-fnchipbtn${pole === 'friction' ? ' down' : ''}`} aria-haspopup="dialog" aria-expanded={kwOpen?.word === c.word} disabled={!c.text} onClick={() => setKwOpen({ word: c.word, text: c.text, pole, fnLabel: elScreen.fnLabel, elName: elScreen.elName })}>{c.word}</button>
+                        ))}</span>
+                      ) : null; })()}
+                    {elScreen.verdict && (
+                      <p className="body2 el-fnteaser">{elScreen.verdict}</p>
                     )}
                     {/* THE REMEDY (owner 2026-10-14): the advice is sectioned
                         out under its own label after the ledger. On the
@@ -944,6 +951,29 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                 {heroThumbFor(dot.s, true)}
                 <span className="readcirc sm wp-thumbgo"><Use id="ico-arrow-r" /></span>
               </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* THE KEYWORD SHEET (owner 2026-10-14, the chip expansion): one
+          keyword at a time, the chip as its pill, the passage the page's
+          rotation assigned it; closed by the scrim or the close mark. Root
+          level so it tops the function page, like the glossary sheet. */}
+      {kwOpen && (
+        <div className="wordpop open" role="presentation">
+          <div className="wp-scrim" onClick={() => setKwOpen(null)} />
+          <div className={`wp-sheet ${kwOpen.pole === 'friction' ? 't-fric' : 't-cat'}`} role="dialog" aria-modal="true" aria-label={`${kwOpen.word}, in your ${kwOpen.fnLabel}`}>
+            <div className="wp-band">
+              <span className="wp-wm"><Use id={kwOpen.pole === 'friction' ? 'ar-down' : 'ar-up'} /></span>
+              <button className="wp-x" aria-label="Close" onClick={() => setKwOpen(null)}><Use id="ico-close" /></button>
+              <span className="wp-ey">{kwOpen.elName} is your {kwOpen.fnLabel}</span>
+              <div className="wp-chipwrap">
+                <span className={`role-pill ${kwOpen.pole === 'friction' ? 'fric' : 'cat'}`}>{kwOpen.word}</span>
+              </div>
+            </div>
+            <div className="wp-inner">
+              <p className="wp-body">{kwOpen.text}</p>
             </div>
           </div>
         </div>

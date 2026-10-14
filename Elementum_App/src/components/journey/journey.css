@@ -715,3 +715,12 @@
 .jny .el-metric-ends{ display: flex; justify-content: space-between; margin-top: 3px; font-size: 9.5px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--inkLight); }
 .jny .el-metric-ends span:first-child{ margin-left: 44%; padding-left: 10px; }
 .jny .el-metric-gloss{ margin: 5px 0 2px; font-size: 13px; line-height: 1.45; color: var(--ink); }
+
+/* ── THE KEYWORDS AS BUTTONS + THE TEASER LINE (owner 2026-10-14, the chip
+   expansion): a chip opens its keyword's passage in the keyword sheet; the
+   verdict line under the chips is the teaser that invites the tap. ── */
+.jny .el-fnchipbtn{ cursor: pointer; font: inherit; font-size: 11px; letter-spacing: 0.6px; }
+.jny .el-fnchipbtn:focus-visible{ outline: 2px solid var(--bronze); outline-offset: 2px; }
+.jny .el-fnchipbtn[aria-expanded="true"]{ box-shadow: 0 0 0 2px rgba(20,16,10,0.12) inset; }
+.jny .el-fnchipbtn:disabled{ cursor: default; opacity: 0.75; }
+.jny .el-fnteaser{ margin: 8px 0 0; font-size: 13.5px; line-height: 1.5; color: var(--inkLight); }
