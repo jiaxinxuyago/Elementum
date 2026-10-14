@@ -80,16 +80,16 @@ Taking care of people is where you feel most like yourself, and people can tell.
 
 ## Iteration 6 · 2026-10-14 · varied sentence shapes and connectives
 
-The owner's note on iteration 5: diversify the sentence shapes (句式) so the sentences read differently across sections, and vary the connectives (关联词语) so the logic holds and the lines read less dull. Content, tone by pole and counts unchanged. Across the three passages the openers are a noun-phrase subject, a verb-phrase subject and a "where" clause; the joints are since, which is why, whenever, which puts, because, and; the closes are a reminder, a conditional reminder and a fronted invitation.
+The owner's note on iteration 5: diversify the sentence shapes (句式) so the sentences read differently across sections, and vary the connectives (关联词语) so the logic holds and the lines read less dull. Content and tone by pole unchanged; the counts held at or under iteration 5. Across the three passages the openers are a noun-phrase subject, a verb-phrase subject and a "where" clause; the joints are since, which is why, whenever, which puts, because, and; the closes are a reminder, a conditional reminder and a fronted invitation.
 
-### 金_劫财 · The Rival · friction · cost to others (Keeps score) · 50 words
+### 金_劫财 · The Rival · friction · cost to others (Keeps score) · 48 words
 
-The people closest to you are the ones you measure against most exactly. Since a fair fight needs someone keeping count, the counting falls quietly to you in shared stakes and small favours. Keep in mind that none of them came for the score, and closeness is worth more than the win.
+The people closest to you are the ones you measure against most exactly. Since a fair fight needs someone keeping count, the counting falls quietly to you in shared stakes and favours. Keep in mind that none of them came for the score, and closeness outweighs the win.
 
-### 土_偏印 · The Alchemist · friction · cost to others (Overprepared) · 51 words
+### 土_偏印 · The Alchemist · friction · cost to others (Overprepared) · 50 words
 
-Getting ready suits you better than being judged on what you did. Preparing feels like progress and risks nothing, which is why you stay in it longer than the work needs. Whenever someone is waiting, remember they asked for you rather than a finished version, and almost ready is already enough to give.
+Getting ready suits you better than being judged on what you did. Preparing feels like progress and risks nothing, which is why you stay in it longer than the work needs. Whenever someone is waiting, remember they asked for you rather than a finished version, and almost ready is enough.
 
 ### 水_食神 · The Artisan · catalyst · cost to you (Nourishing) · 53 words
 
-Where you feel most like yourself is in taking care of people, and people can tell. Being useful is the nearest thing you have to feeling safe, which puts giving ahead of anything you might want. Now and then let someone give back, because a table that feeds you is one you can keep feeding.
+Where you feel most like yourself is taking care of people, and people can tell. Being useful is the nearest thing you have to feeling safe, which puts giving ahead of anything you want. Now and then let someone give back, because a table that feeds you is one you can keep feeding.
