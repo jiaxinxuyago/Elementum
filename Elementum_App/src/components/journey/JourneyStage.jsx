@@ -34,7 +34,7 @@ function MetricBars({ m }) {
   const [open, setOpen] = useState(null);
   if (!m || !m.bars?.length) return null;
   return (
-    <div className="el-metrics" role="list" aria-label={`${m.functionLabel} metrics`}>
+    <div className="el-metrics el-measure" role="list" aria-label={`${m.functionLabel} metrics`}>
       {m.bars.map((b) => {
         const isOpen = open === b.key;
         const cls = `el-metric${b.kind === 'style' ? ' style' : m.pole === 'friction' ? ' down' : ''}`;
@@ -47,6 +47,7 @@ function MetricBars({ m }) {
                   <span key={i} className={`el-metric-seg${b.kind === 'style' ? (i === b.level ? ' mark' : '') : (i <= b.level ? ' on' : '')}`} />
                 ))}
               </span>
+              <span className="el-metric-chev" aria-hidden="true" />
             </span>
             {b.kind === 'style' && b.ends && (
               <span className="el-metric-ends"><span>{b.ends[0]}</span><span>{b.ends[1]}</span></span>
@@ -784,9 +785,14 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         (backlog/2026-10-14_verdict-pending-teaser.md). */}
                     {(() => { const r = m.byEl[elScreen.el]; const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst'; const rows = elScreen.fnReading.ledger || []; const chips = rows.length ? rows.map((row) => ({ word: row.word, text: row.text })) : (r.adj || []).map((a) => ({ word: a, text: '' }));
                       return chips.length ? (
-                        <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{chips.map((c) => (
-                          <button key={c.word} type="button" className={`wd-adjchip el-fnchipbtn${pole === 'friction' ? ' down' : ''}`} aria-haspopup="dialog" aria-expanded={kwOpen?.word === c.word} disabled={!c.text} onClick={() => setKwOpen({ word: c.word, text: c.text, pole, fnLabel: elScreen.fnLabel, elName: elScreen.elName })}>{c.word}</button>
-                        ))}</span>
+                        <div className="el-kwblock">
+                          <span className="wd-adj el-fnadj el-kwrow">{chips.map((c) => (
+                            <button key={c.word} type="button" className={`wd-adjchip el-fnchipbtn${pole === 'friction' ? ' down' : ''}`} aria-haspopup="dialog" aria-expanded={kwOpen?.word === c.word} disabled={!c.text} onClick={() => setKwOpen({ word: c.word, text: c.text, pole, fnLabel: elScreen.fnLabel, elName: elScreen.elName })}>
+                              <span className="el-kwword">{c.word}</span><span className="el-kwplus" aria-hidden="true">+</span>
+                            </button>
+                          ))}</span>
+                          <span className="el-kwhint">Tap a keyword to read it.</span>
+                        </div>
                       ) : null; })()}
                     {/* THE REMEDY (owner 2026-10-14): the advice is sectioned
                         out under its own label after the ledger. On the

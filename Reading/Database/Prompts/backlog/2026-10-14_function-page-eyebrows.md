@@ -30,6 +30,12 @@ The page reads as a diagnosis in three moves: what the function is, how it runs 
 - `Elementum_App/src/components/journey/JourneyStage.jsx`: the eyebrow THE CHARACTER and its title line between the definition and the bars.
 - On the golden chart: Earth "Running heavy.", Wood "Running full.", Metal (the core, Overfueled) "Running over.", Water and Fire "Running thin.".
 
+## The UI pass (owner 2026-10-14: "box them apart and imply that each chip is tappable and expandable")
+
+- The bars are a boxed measure panel: a quiet inset (a faint fill and hairline, 12px radius) so the three rows read as one object, the chart's measure. Each row ends on a disclosure chevron that turns when its gloss line is open; the open line hangs on a short left rule.
+- The keywords are raised buttons apart from the panel: surface fill, a pole-tinted hairline, a soft shadow and a circled plus glyph at the end of each word, so the row reads as three things to open rather than three labels. The open one fills with its pole tint. A hint line under the row says what the tap does: "Tap a keyword to read it."
+- Both are left-aligned to the reading column. Nothing authored changes; the hint line is app chrome.
+
 ## Open
 
 - The state words are app chrome under the owner's ruling, not a station field; if the owner wants them authored per energy, they become a station axis with a card.

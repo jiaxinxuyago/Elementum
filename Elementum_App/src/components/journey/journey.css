@@ -702,24 +702,43 @@
    definition and the chips. Label left, a five-segment track right, the level
    read as filled segments; the style bar prints its two ends under the track.
    Tap a bar for its one-line gloss (collapsed at rest, like the chips). ── */
-.jny .el-metrics{ display: flex; flex-direction: column; gap: 7px; margin: 10px 0 2px; }
-.jny .el-metric{ display: block; width: 100%; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; color: inherit; font: inherit; }
+.jny .el-metrics{ display: flex; flex-direction: column; gap: 9px; margin: 10px 0 0; }
+/* THE MEASURE PANEL (owner 2026-10-14, the UI pass): the bars sit boxed in a
+   quiet inset so the measure reads as one object apart from the keywords;
+   each row ends on a disclosure chevron that turns when its line is open. */
+.jny .el-measure{ background: rgba(20,16,10,0.035); border: 1px solid rgba(20,16,10,0.07); border-radius: 12px; padding: 12px 12px 11px 13px; }
+.jny .el-metric{ display: block; width: 100%; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; color: inherit; font: inherit; border-radius: 6px; }
+.jny .el-metric:focus-visible{ outline: 2px solid var(--bronze); outline-offset: 3px; }
 .jny .el-metric-row{ display: flex; align-items: center; gap: 10px; }
-.jny .el-metric-lab{ flex: 0 0 44%; min-width: 0; font-size: 12.5px; letter-spacing: 0.2px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.jny .el-metric-lab{ flex: 0 0 42%; min-width: 0; font-size: 12.5px; letter-spacing: 0.2px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .jny .el-metric-track{ flex: 1 1 auto; display: grid; grid-template-columns: repeat(5, 1fr); gap: 3px; }
-.jny .el-metric-seg{ height: 7px; border-radius: 2px; background: rgba(20,16,10,0.08); }
+.jny .el-metric-seg{ height: 7px; border-radius: 2px; background: rgba(20,16,10,0.09); }
 .jny .el-metric-seg.on{ background: var(--bronze); }
 .jny .el-metric.down .el-metric-seg.on{ background: rgba(163,84,62,0.78); }
-.jny .el-metric.style .el-metric-seg{ background: rgba(20,16,10,0.08); }
+.jny .el-metric.style .el-metric-seg{ background: rgba(20,16,10,0.09); }
 .jny .el-metric.style .el-metric-seg.mark{ background: var(--ink); }
-.jny .el-metric-ends{ display: flex; justify-content: space-between; margin-top: 3px; font-size: 9.5px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--inkLight); }
-.jny .el-metric-ends span:first-child{ margin-left: 44%; padding-left: 10px; }
-.jny .el-metric-gloss{ margin: 5px 0 2px; font-size: 13px; line-height: 1.45; color: var(--ink); }
+.jny .el-metric-chev{ flex: 0 0 7px; width: 7px; height: 7px; margin: -3px 2px 0 0; border-right: 1.5px solid var(--inkLight); border-bottom: 1.5px solid var(--inkLight); transform: rotate(45deg); transition: transform .18s ease; }
+.jny .el-metric[aria-expanded="true"] .el-metric-chev{ transform: rotate(-135deg); margin-top: 3px; }
+.jny .el-metric-ends{ display: flex; justify-content: space-between; margin: 3px 19px 0 0; font-size: 9.5px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--inkLight); }
+.jny .el-metric-ends span:first-child{ margin-left: 42%; padding-left: 10px; }
+.jny .el-metric-gloss{ display: block; margin: 7px 0 1px; padding-left: 10px; border-left: 2px solid rgba(139,115,85,0.45); font-size: 13px; line-height: 1.45; color: var(--ink); }
 
-/* ── THE KEYWORDS AS BUTTONS (owner 2026-10-14, the chip expansion): a chip
-   opens its keyword's passage in the keyword sheet. No verdict line under the
-   chips (owner 2026-10-14: "Do not put the verdict here"). ── */
-.jny .el-fnchipbtn{ cursor: pointer; font: inherit; font-size: 11px; letter-spacing: 0.6px; }
+/* ── THE KEYWORDS AS BUTTONS (owner 2026-10-14, the chip expansion and the
+   UI pass): each keyword is a raised button with a plus glyph, so the row
+   reads as three things to open rather than three labels; the hint line
+   under the row says what the tap does. Left-aligned to the reading column,
+   apart from the boxed measure above. No verdict line under the chips (owner
+   2026-10-14: "Do not put the verdict here"). ── */
+.jny .el-kwblock{ margin: 12px 0 0; }
+.jny .el-kwrow{ justify-content: flex-start; gap: 8px; margin: 0; }
+.jny .el-fnchipbtn{ display: inline-flex; align-items: center; gap: 7px; cursor: pointer; font: inherit; font-size: 12px; letter-spacing: 0.4px; padding: 7px 9px 7px 12px; border-radius: 999px;
+    background: rgba(250,246,238,0.92); border-color: rgba(76,122,79,0.42); color: #3f6342; box-shadow: 0 1px 2px rgba(20,16,10,0.10), inset 0 0 0 1px rgba(255,255,255,0.45); transition: transform .12s ease, background .15s ease; }
+.jny .el-fnchipbtn.down{ background: rgba(250,246,238,0.92); border-color: rgba(163,84,62,0.42); color: #8a4632; }
+.jny .el-fnchipbtn:active{ transform: scale(0.97); }
 .jny .el-fnchipbtn:focus-visible{ outline: 2px solid var(--bronze); outline-offset: 2px; }
-.jny .el-fnchipbtn[aria-expanded="true"]{ box-shadow: 0 0 0 2px rgba(20,16,10,0.12) inset; }
-.jny .el-fnchipbtn:disabled{ cursor: default; opacity: 0.75; }
+.jny .el-fnchipbtn[aria-expanded="true"]{ background: rgba(76,122,79,0.14); box-shadow: none; }
+.jny .el-fnchipbtn.down[aria-expanded="true"]{ background: rgba(163,84,62,0.13); }
+.jny .el-fnchipbtn:disabled{ cursor: default; opacity: 0.6; box-shadow: none; }
+.jny .el-fnchipbtn:disabled .el-kwplus{ display: none; }
+.jny .el-kwplus{ width: 15px; height: 15px; border-radius: 50%; border: 1px solid currentColor; opacity: 0.8; display: grid; place-items: center; font-size: 12px; line-height: 1; font-weight: 500; }
+.jny .el-kwhint{ display: block; margin: 8px 0 0; font-size: 11.5px; letter-spacing: 0.2px; color: var(--inkLight); }
