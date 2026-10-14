@@ -540,7 +540,10 @@ export function buildElementScreen(model, el) {
         // THE FUNCTION METRICS (owner 2026-10-14, REA_19): three bars computed
         // from the chart (the two gods' shares, the energy's balance), the
         // gloss lines transcribed from the station's FUNCTION_METRICS axis.
-        fnReading: fn ? { define: stripped, metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '' } : null,
+        // THE CHARACTER's title line (owner 2026-10-14, Q2 of the eyebrow
+        // rulings: pole-specific): the state the chart gives this energy,
+        // in the register's own words for it.
+        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '' } : null,
       };
     })()),
     // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —
@@ -624,6 +627,22 @@ export function fnLabelFor(m, r) {
 // through every wanted door (a gift is what the material CAN do, absent or
 // not); shadows open only through PRESENT unwanted doors — an absent or thin
 // energy cannot be overgrown. The chip count follows the chart (two or three).
+// THE CHARACTER's title line (owner 2026-10-14, the function page's eyebrows,
+// Q2: a pole-specific line). The state word is the one the register already
+// uses for it: the core runs over (Overfueled) or short (Underfueled); the
+// other energies run by volume, abundant reading heavy on the friction pole
+// and full on the catalyst pole.
+export function characterLine(r, condition) {
+  if (r.isCore) return condition === 'Overfueled' ? 'Running over.' : condition === 'Underfueled' ? 'Running short.' : 'Running steady.';
+  const v = r.volume || volumeOf(r.presence);
+  const friction = r.role === 'friction' || r.coreExcess;
+  if (v === 'absent') return 'Running empty.';
+  if (v === 'thin') return 'Running thin.';
+  if (v === 'dominant') return 'Running over.';
+  if (v === 'abundant') return friction ? 'Running heavy.' : 'Running full.';
+  return 'Running steady.';
+}
+
 const PRESENT = new Set(['present', 'abundant', 'dominant']);
 // A Balanced chart opens no doors and reads the pools' baseline: both sides
 // come back OMITTED (undefined), which selectPoolByDoor reads as the Balanced

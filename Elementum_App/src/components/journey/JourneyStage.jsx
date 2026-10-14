@@ -752,9 +752,17 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         (the three-beat construct, D14), and the chips come
                         after it. */}
                     <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
+                    {/* THE CHARACTER (owner 2026-10-14, the eyebrow rulings):
+                        the page is three moves under three eyebrows, THE
+                        FUNCTION (what it is), THE CHARACTER (how it runs in
+                        you: the bars, then the keywords) and THE REMEDY or
+                        THE ADVICE (what to do). The character's title line is
+                        pole-specific, the state the chart gives this energy. */}
+                    <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE CHARACTER</span>
+                    <span className="serifline el-teasetitle">{elScreen.fnReading.characterLine}</span>
                     {/* THE FUNCTION METRICS (owner 2026-10-14; REA_19): the
-                        three bars sit between the definition and the chips;
-                        the bars lead into the keywords. */}
+                        three bars open the character section; the bars lead
+                        into the keywords. */}
                     <MetricBars m={elScreen.fnReading.metrics} />
                     {/* THE GOD-GRAIN READING (owner 2026-09-03, three-doors
                         fashion; both corpora complete 2026-09-04, v3 fallback
