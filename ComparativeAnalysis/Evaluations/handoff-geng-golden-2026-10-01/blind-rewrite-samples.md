@@ -29,3 +29,19 @@ You are more comfortable getting ready than being judged on what you did. Prepar
 ### 水_食神 · The Artisan · cost to you (Nourishing)
 
 Taking care of people is where you feel most like yourself. Being useful is the nearest thing you have to feeling safe, so giving comes before anything you might want. Because the giving is where the safety is, letting someone give back feels like giving the safety up, and you decline it without noticing. Each time you decline, the people around you learn that you need nothing. You end up empty among people who were taught, by you, not to notice.
+
+## Iteration 3 · 2026-10-14 · readability and the cap
+
+The owner's note on iteration 2: improve readability; no sentence cut into short phrases by more than two commas ("The longer you stay, the more finished the thing has to be before you let it out, which means it never quite is."; "Because a fair fight needs someone keeping count, you keep it, quietly, in shared stakes and small favours."); each chip's passage two or three sentences at most; shrink to the card's cap (the ledger passage: 35 to 55 words) so it stays concise and straightforward. The progression and the causal joints stay.
+
+### 金_劫财 · The Rival · cost to others (Keeps score) · 51 words
+
+You measure yourself most exactly against the people closest to you. A fair fight needs someone keeping count, so you keep it quietly in shared stakes and small favours. Each tally adds a distance they feel before they can name it, and over time they stop telling you their wins.
+
+### 土_偏印 · The Alchemist · cost to others (Overprepared) · 53 words
+
+You are more comfortable getting ready than being judged on what you did. Preparing feels like progress and risks nothing, so you stay in it longer than the work needs. Each delay you can explain teaches the people waiting to stop asking, until what they get is your standard instead of your help.
+
+### 水_食神 · The Artisan · cost to you (Nourishing) · 53 words
+
+Taking care of people is where you feel most like yourself. Being useful is the nearest thing you have to feeling safe, so giving comes before anything you might want. Letting someone give back feels like giving that safety up, so you decline it until the people around you learn you need nothing.
