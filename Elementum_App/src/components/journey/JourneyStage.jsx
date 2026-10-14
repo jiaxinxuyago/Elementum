@@ -710,11 +710,13 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                    {/* the verdict opens the page (owner 2026-09-04: moved off
-                        the cover — it lives here and on the FUNCTION tile) */}
-                    {elScreen.verdict && (
-                      <span className="el-teasep" style={{ marginTop: 3 }}>{elScreen.verdict}</span>
-                    )}
+                    {/* The verdict no longer opens this page (owner 2026-10-14:
+                        "get rid of the opener before the chips"); it stays as
+                        the FUNCTION tile's tease on the element page. The
+                        definition follows the title directly, function first
+                        (the three-beat construct, D14), and the chips come
+                        after it. */}
+                    <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
                     {/* THE GOD-GRAIN READING (owner 2026-09-03, three-doors
                         fashion; both corpora complete 2026-09-04, v3 fallback
                         retired): chip row (the scannable summary) → define ¶
@@ -727,7 +729,6 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                     {(() => { const r = m.byEl[elScreen.el]; return r.adj?.length ? (
                       <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
                     ) : null; })()}
-                    <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
                     {elScreen.fnReading.ledger && (
                       <div className="el-fnledger">
                         {elScreen.fnReading.ledger.map((row) => (
