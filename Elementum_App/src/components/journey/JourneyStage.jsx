@@ -824,7 +824,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                     {(() => {
                       const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
                       const edge = !friction ? elScreen.fnReading.edge : null; if (!edge) return null;
-                      const bars = elScreen.fnReading.metrics?.bars || []; const DOM = { career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
+                      const bars = elScreen.fnReading.metrics?.bars || []; const DOM = { career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health', wealth: 'dom-wealth', savings: 'dom-wealth', opportunity: 'dom-wealth', ventures: 'dom-wealth', status: 'dom-career', order: 'dom-career', command: 'dom-career', talent: 'dom-career', performance: 'dom-career', 'steady love': 'dom-rel', peers: 'dom-rel', children: 'dom-rel', father: 'dom-rel', nurture: 'dom-rel', pressure: 'dom-health', crisis: 'dom-health', shelter: 'dom-health' };
                       if (edge.claim) { const b = bars.find((x) => x.key === edge.metric); return (
                         <>
                           <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>
@@ -838,7 +838,10 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                               <>
                                 {edge.lead && <span className="body2 el-fnbody el-remedybody">{edge.lead}</span>}
                                 <ul className="el-edge-manual" aria-label="Where it pays">
-                                  {edge.items.map((it) => (
+                                  {edge.items.map((it) => edge.teaser ? (
+                                    /* TEASER PREVIEW (owner 2026-10-15, pending ruling): each row is one domain, a short phrase, a tap into THE DOMAINS. */
+                                    <li key={it.domain} className="tease"><button className="el-edge-teaserow" onClick={() => openSec('dom')}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span><Use id="ico-chev-r" className="el-edge-chev" /></button></li>
+                                  ) : (
                                     <li key={it.domain}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span></li>
                                   ))}
                                 </ul>

@@ -813,4 +813,10 @@
 .jny .el-edgebox .el-remedyhead{ flex-wrap: nowrap; }
 .jny .el-edgebox .el-remedytitle{ font-size: 15px; letter-spacing: -0.1px; }
 .jny .el-edgebox .el-edge-dots.head i{ width: 5px; height: 5px; }
+.jny .el-edge-manual li.tease{ margin: 0; }
+.jny .el-edge-teaserow{ display: flex; align-items: center; gap: 0; width: 100%; padding: 4px 0; border: 0; background: none; text-align: left; font: inherit; color: inherit; cursor: pointer; border-bottom: 1px solid color-mix(in srgb, var(--pigDeep, var(--bronzeDark)) 18%, transparent); }
+.jny .el-edge-manual li.tease:last-child .el-edge-teaserow{ border-bottom: 0; }
+.jny .el-edge-teaserow .el-edge-dom{ min-width: 78px; margin-right: 6px; }
+.jny .el-edge-teaserow .el-edge-manline{ flex: 1; }
+.jny .el-edge-chev{ width: 12px; height: 12px; flex: 0 0 12px; color: var(--pigDeep, var(--bronzeDark)); opacity: .8; }
 
