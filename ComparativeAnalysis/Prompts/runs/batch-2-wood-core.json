@@ -1,0 +1,22 @@
+{
+ "name": "batch-2-wood-core",
+ "note": "REA_18 §5 batch 2, the Wood core: the five ELEMENT_PAIR cells a Wood core reads (木_火 the Expression, 木_土 the Action, 木_金 the Order, 木_水 the Mind, 木_木 the Body) with both poles, both turns, both definitions, both advices, the verdict, the base and the carry parts for every state the cell renders (the station's carry keys; 木_木 has no wide, missing or spared and carries unrooted), and the ten ELEMENT_GOD cells whose god sits on a Wood core (the ELEMENT_GOD key is <energy>_<god>: the Body pair on Wood, 木_比肩 and 木_劫财; the Expression pair on Fire, 火_食神 and 火_伤官; the Action pair on Earth, 土_偏财 and 土_正财; the Order pair on Metal, 金_七杀 and 金_正官; the Mind pair on Water, 水_偏印 and 水_正印), both poles, all three rows, all three angles, candidates: 2 on each drive passage. Built by handoff.mjs --scope on prompt v0.7.5 (2026-10-15), the first batch written under the full v0.7.2 to v0.7.5 rule set in one pass (the chip's action as the spine, the function-first definition construct, variety of expression, the remedy beat first). The yin sibling's overrides (mechanism_yin, carry_yin, read by 乙) are not in this batch. No chart: no percentage, no band, no state of one chart in any value.",
+ "core": "Wood",
+ "cells": [
+  { "axis": "ELEMENT_PAIR", "cell": "木_火", "poles": ["catalyst", "friction"], "states": "all" },
+  { "axis": "ELEMENT_PAIR", "cell": "木_土", "poles": ["catalyst", "friction"], "states": "all" },
+  { "axis": "ELEMENT_PAIR", "cell": "木_金", "poles": ["catalyst", "friction"], "states": "all" },
+  { "axis": "ELEMENT_PAIR", "cell": "木_水", "poles": ["catalyst", "friction"], "states": "all" },
+  { "axis": "ELEMENT_PAIR", "cell": "木_木", "poles": ["catalyst", "friction"], "states": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "木_比肩", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "木_劫财", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "火_食神", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "火_伤官", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "土_偏财", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "土_正财", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "金_七杀", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "金_正官", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "水_偏印", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" },
+  { "axis": "ELEMENT_GOD", "cell": "水_正印", "poles": ["catalyst", "friction"], "rows": "all", "angles": "all" }
+ ]
+}
