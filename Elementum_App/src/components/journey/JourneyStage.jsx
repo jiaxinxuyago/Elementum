@@ -824,6 +824,25 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                       const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
                       const edge = !friction ? elScreen.fnReading.edge : null; if (!edge) return null;
                       const bars = elScreen.fnReading.metrics?.bars || []; const DOM = { career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
+                      if (edge.claim) { const b = bars.find((x) => x.key === edge.metric); return (
+                        <>
+                          <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>
+                          <div className={`el-remedybox pv-${elScreen.el} cat el-edgebox`}>
+                            <span className="el-remedyhead">
+                              <span className="el-remedyring" aria-hidden="true"><Use id={`el-${elScreen.el}`} /></span>
+                              <span className="serifline el-remedytitle">{edge.claim}</span>
+                              {b && <span className="el-edge-dots head" aria-label={`${b.label}: level ${b.level} of 5`}>{[1, 2, 3, 4, 5].map((i) => <i key={i} className={i <= b.level ? 'on' : ''} />)}</span>}
+                            </span>
+                            <span className="body2 el-fnbody el-remedybody">{edge.body}</span>
+                            {(b || edge.domains.length > 0) && (
+                              <span className="el-edge-foot">
+                                {b && <span className="el-edge-footitem"><span className="el-edge-bar">{b.label}</span></span>}
+                                {edge.domains.map((d) => <span key={d} className="el-edge-footitem"><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[d] || 'dom-career'} /></span><span className="el-edge-dom">{d}</span></span>)}
+                              </span>
+                            )}
+                          </div>
+                        </>
+                      ); }
                       return (
                         <>
                           <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>

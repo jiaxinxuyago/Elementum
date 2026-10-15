@@ -651,7 +651,11 @@ export function edgeOf(r) {
   const cell = `${r.hz}_${god}`;
   const preview = (typeof window !== 'undefined' && window.__edgePreview) ? window.__edgePreview[cell] : null;
   const e = K2_CELLS[cell]?.edge || preview || null;
-  if (!e || !Array.isArray(e.talents) || !Array.isArray(e.places)) return null;
+  if (!e) return null;
+  // v2 (owner 2026-10-15, the same size and format as THE REMEDY): a claim
+  // line, one body of about fifty-five words, one bar, two domain marks.
+  if (e.claim && e.body) return { cell, claim: e.claim, body: e.body, metric: e.metric || null, domains: Array.isArray(e.domains) ? e.domains : [] };
+  if (!Array.isArray(e.talents) || !Array.isArray(e.places)) return null;
   return { cell, talents: e.talents, places: e.places, action: e.action || '' };
 }
 
