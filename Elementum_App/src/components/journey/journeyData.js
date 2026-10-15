@@ -656,7 +656,10 @@ export function edgeOf(r) {
   // line, one body of about fifty-five words, one bar, two domain marks.
   // v3 (owner 2026-10-15, the comment on the side-by-side): the manual
   // bulleted by discipline, a lead line, one line per domain, one action.
-  if (e.claim && Array.isArray(e.items)) return { cell, claim: e.claim, lead: e.lead || '', items: e.items, action: e.action || '', metric: e.metric || null, domains: e.items.map((i) => i.domain), teaser: !!e.teaser };
+  // v4, the door (owner 2026-10-15 evening): a claim, a lead, three rows (one per
+  // ruling domain in the canonical taxonomy, a phrase each, a tap into THE
+  // DOMAINS at that word), the metric's dots in the head. No action row.
+  if (e.claim && Array.isArray(e.items)) return { cell, god, claim: e.claim, lead: e.lead || '', items: e.items.map((i) => ({ domain: i.domain, line: i.line })), metric: e.metric || null, domains: e.items.map((i) => i.domain) };
   if (e.claim && e.body) return { cell, claim: e.claim, body: e.body, metric: e.metric || null, domains: Array.isArray(e.domains) ? e.domains : [] };
   if (!Array.isArray(e.talents) || !Array.isArray(e.places)) return null;
   return { cell, talents: e.talents, places: e.places, action: e.action || '' };

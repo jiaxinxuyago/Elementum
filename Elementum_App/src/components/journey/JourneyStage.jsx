@@ -339,6 +339,13 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
   // the TOP seat's Stage A already open — the reading is visible with zero
   // taps (this replaced the START HERE chip); the god layer stays collapsed.
   const openSec = (k) => { setElSec(k); setPosOpen(k === 'dom' ? (elPositions[0]?.id ?? null) : null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); };
+  // THE EDGE's door (owner 2026-10-15): open THE DOMAINS at the seat whose
+  // reading carries this domain word (the edge's own god first, then the
+  // deepest seat with the word), and scroll to its
+  // paragraph once rendered; a word no seat carries lands on the first seat.
+  const [domScroll, setDomScroll] = useState(null);
+  const openDomainAt = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0]; setElSec('dom'); setPosOpen(seat?.id ?? null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); setDomScroll(seat ? word : null); };
+  useEffect(() => { if (!domScroll) return; const t = setTimeout(() => { const el = document.querySelector(`.elpos-domread[data-dom="${domScroll}"]`) || document.querySelector('.elpos-row.open'); el?.scrollIntoView({ block: 'center', behavior: 'smooth' }); setDomScroll(null); }, 80); return () => clearTimeout(t); }, [domScroll, elSec, posOpen]);
   // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
   // shared by the mechanism teaser card and its detail screen.
   // The graphic is a true EQUATION (owner 2026-09-01): the core capsule
@@ -818,13 +825,15 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         last section is three talents, each with the bar it
                         draws on rendered as five dots from the chart, three
                         places across the life domains (the teaser for the
-                        Domains tier); the action row was dropped by the owner
-                        the same day. The friction page keeps
-                        THE REMEDY. Renders only where the cell carries an edge. */}
+                        Domains tier) and one action. Re-ruled the same day to
+                        the door (v4): a claim, a lead, three rows in the god's
+                        ruling domains, each a tap into THE DOMAINS at that word;
+                        no action. The friction page keeps THE REMEDY. Renders
+                        only where the cell carries an edge. */}
                     {(() => {
                       const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
                       const edge = !friction ? elScreen.fnReading.edge : null; if (!edge) return null;
-                      const bars = elScreen.fnReading.metrics?.bars || []; const DOM = { career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health', wealth: 'dom-wealth', savings: 'dom-wealth', opportunity: 'dom-wealth', ventures: 'dom-wealth', status: 'dom-career', order: 'dom-career', command: 'dom-career', talent: 'dom-career', performance: 'dom-career', 'steady love': 'dom-rel', peers: 'dom-rel', children: 'dom-rel', father: 'dom-rel', nurture: 'dom-rel', pressure: 'dom-health', crisis: 'dom-health', shelter: 'dom-health' };
+                      const bars = elScreen.fnReading.metrics?.bars || []; const DOM = { Wealth: 'dom-wealth', Career: 'dom-career', Health: 'dom-health', Love: 'dom-love', Family: 'dom-family', Social: 'dom-social', Mind: 'dom-mind', Growth: 'dom-growth', career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
                       if (edge.claim) { const b = bars.find((x) => x.key === edge.metric); return (
                         <>
                           <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>
@@ -838,11 +847,12 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                               <>
                                 {edge.lead && <span className="body2 el-fnbody el-remedybody">{edge.lead}</span>}
                                 <ul className="el-edge-manual" aria-label="Where it pays">
-                                  {edge.items.map((it) => edge.teaser ? (
-                                    /* TEASER PREVIEW (owner 2026-10-15, pending ruling): each row is one domain, a short phrase, a tap into THE DOMAINS. */
-                                    <li key={it.domain} className="tease"><button className="el-edge-teaserow" onClick={() => openSec('dom')}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span><Use id="ico-chev-r" className="el-edge-chev" /></button></li>
-                                  ) : (
-                                    <li key={it.domain}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span></li>
+                                  {/* THE DOOR (owner 2026-10-15 evening, three calls): each row is one
+                                      of the god's ruling domains in the seats' own words, a phrase of
+                                      three to five words, and a tap that opens THE DOMAINS at the seat
+                                      whose reading carries that word. */}
+                                  {edge.items.map((it) => (
+                                    <li key={it.domain} className="tease"><button className="el-edge-teaserow" onClick={() => openDomainAt(it.domain, edge.god)} aria-label={`${it.domain}: ${it.line}. Read it in The Domains.`}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span><Use id="ico-chev-r" className="el-edge-chev" /></button></li>
                                   ))}
                                 </ul>
                               </>
@@ -949,7 +959,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                                     <>
                                       <p className="elpos-reading">{p.reading}</p>
                                       {p.domainReadings && Object.entries(p.domainReadings).map(([d, txt]) => (
-                                        <p className="elpos-domread" key={d}><b className="el-funclab">{d}.</b> {txt}{weaveDomain === d ? ` ${patText}` : ''}</p>
+                                        <p className="elpos-domread" key={d} data-dom={d}><b className="el-funclab">{d}.</b> {txt}{weaveDomain === d ? ` ${patText}` : ''}</p>
                                       ))}
                                       {patText && !weaveDomain && (
                                         <p className="elpos-domread">{patText}</p>

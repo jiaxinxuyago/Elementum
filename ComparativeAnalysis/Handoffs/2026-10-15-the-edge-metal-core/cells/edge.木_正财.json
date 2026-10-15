@@ -1,15 +1,10 @@
 {
  "_generated_by": "REDACTED",
- "_handoff": "2026-10-15 the edge, metal core",
+ "_handoff": "2026-10-15 the edge, metal core, v4 the door",
  "cell": "ELEMENT_GOD/木_正财 (catalyst)",
  "facts": {
   "persona": "The Steward (正财) on Wood",
   "function": "action",
-  "domain_words": [
-   "Wealth",
-   "Savings",
-   "Steady love"
-  ],
   "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
   "catalyst_chips": [
    "Patient builder",
@@ -62,34 +57,33 @@
     "key": "focused_multitasking",
     "label": "Focused · Multitasking"
    }
-  ]
+  ],
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Career"
+  ],
+  "claim_fixed": "How to use Wood, the Action energy."
  },
  "fields": {
   "edge": {
    "spec": {
-    "card": "ELEMENT_GOD.edge",
+    "card": "ELEMENT_GOD.edge (v4, the door)",
     "shape": {
-     "talents": [
+     "claim": "exactly facts.claim_fixed",
+     "lead": "one sentence, 10-20 words, the reader its subject, what the gift buys in use",
+     "items": [
       {
-       "label": "2-4 words",
-       "line": "<14 words",
-       "metric": "one of the bars keys"
+       "domain": "facts.ruling_domains[i], in order",
+       "line": "3-5 words, a phrase, lowercase, no stop, no colon"
       }
      ],
-     "places": [
-      {
-       "domain": "career|money|relationships|health",
-       "line": "<16 words"
-      }
-     ],
-     "action": "<20 words"
+     "metric": "one of the bars keys"
     },
     "counts": {
-     "talents": 3,
-     "places": 3,
-     "distinct_domains": 3
+     "items": 3
     },
-    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; the action cut from pair_advise_catalyst where it serves"
+    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; no four-word run shared with any fact; no phrase repeated across the ten cells"
    },
    "value": null
   }

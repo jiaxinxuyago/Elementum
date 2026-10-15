@@ -40,6 +40,26 @@ export const K2_FUNCTIONS = [
 
 // The god's inherent ruling domains (×10, everyday nouns; the classical
 // 六亲 roles kept where they teach: Mother 正印 · Father 偏财 · Children 食神).
+// God → its three RULING DOMAINS in the canonical taxonomy ×8 (owner
+// 2026-10-15): fixed per god from the locked seat corpus (positions.js), the
+// three domains its seven seats declare most, ties broken toward the god's
+// nature. THE EDGE rows speak these words and tap into THE DOMAINS at the
+// same word. GOD_DOMAINS below keeps the god-flavored nouns for the WHO RUNS
+// IT layer and its K2 domain readings, pending the owner's ruling on those.
+// Station truth: by_axis/json/GOD/*.json candidates.ruling_domains.
+export const GOD_RULING_DOMAINS = {
+  '比肩': ['Family', 'Growth', 'Social'],
+  '劫财': ['Wealth', 'Social', 'Career'],
+  '食神': ['Health', 'Family', 'Career'],
+  '伤官': ['Mind', 'Career', 'Social'],
+  '偏财': ['Wealth', 'Family', 'Social'],
+  '正财': ['Wealth', 'Family', 'Career'],
+  '七杀': ['Career', 'Health', 'Growth'],
+  '正官': ['Family', 'Social', 'Career'],
+  '偏印': ['Mind', 'Growth', 'Career'],
+  '正印': ['Family', 'Mind', 'Health'],
+};
+
 export const GOD_DOMAINS = {
   '比肩': ['Peers', 'Independence', 'Self-reliance'],
   '劫财': ['Rivalry', 'Shared stakes', 'Boldness'],
