@@ -188,7 +188,7 @@ for (const f of FIXTURES) {
 // element's family in the station's order with levels 1 to 5 from the gods'
 // shares; the style bar's level is 1 to 5 with two ends; the pole follows the
 // page (friction on a friction role or the core's excess, catalyst otherwise);
-// every bar carries a gloss line from the station; the core's style bar reads
+// no gloss line (owner 2026-10-15, static bars); the core's style bar reads
 // its band (Overfueled 4, with the excess override 5; Underfueled 2; Balanced 3).
 {
   const f = { name: 'M1 function metrics' }; let pages = 0;
@@ -201,7 +201,7 @@ for (const f of FIXTURES) {
       if (fm.bars.length !== 3) fail(f, `${fx.name} · ${el}: ${fm.bars.length} bars`);
       const gods = fm.bars.filter((b) => b.kind === 'trait').map((b) => b.god);
       if (gods.length !== 2 || gods.some((g) => GOD_FN[g] !== fm.function)) fail(f, `${fx.name} · ${el}: trait gods ${gods.join('/')} are not the ${fm.function} family`);
-      for (const b of fm.bars) { if (!(b.level >= 1 && b.level <= 5)) fail(f, `${fx.name} · ${el} · ${b.key}: level ${b.level}`); if (!b.gloss) fail(f, `${fx.name} · ${el} · ${b.key}: no gloss`); if (b.kind === 'style' && (!b.ends || b.ends.length !== 2)) fail(f, `${fx.name} · ${el} · ${b.key}: no ends`); }
+      for (const b of fm.bars) { if (!(b.level >= 1 && b.level <= 5)) fail(f, `${fx.name} · ${el} · ${b.key}: level ${b.level}`); if (b.kind === 'style' && (!b.ends || b.ends.length !== 2)) fail(f, `${fx.name} · ${el} · ${b.key}: no ends`); }
       const wantPole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst'; if (fm.pole !== wantPole) fail(f, `${fx.name} · ${el}: pole ${fm.pole}, expected ${wantPole}`);
       if (r.isCore) { const st = fm.bars.find((b) => b.kind === 'style'); const want = r.coreExcess ? 5 : ({ Overfueled: 4, Underfueled: 2, Balanced: 3 })[m.band]; if (want && st.level !== want) fail(f, `${fx.name} · ${el}: core style level ${st.level}, expected ${want} for ${m.band}`); }
     }

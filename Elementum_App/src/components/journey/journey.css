@@ -703,12 +703,11 @@
    read as filled segments; the style bar prints its two ends under the track.
    Tap a bar for its one-line gloss (collapsed at rest, like the chips). ── */
 .jny .el-metrics{ display: flex; flex-direction: column; gap: 9px; margin: 10px 0 0; }
-/* THE MEASURE PANEL (owner 2026-10-14, the UI pass): the bars sit boxed in a
-   quiet inset so the measure reads as one object apart from the keywords;
-   each row ends on a disclosure chevron that turns when its line is open. */
+/* THE MEASURE PANEL (owner 2026-10-14, the UI pass; static since 2026-10-15,
+   no level glosses): the bars sit boxed in a quiet inset so the measure reads
+   as one object apart from the keywords. Nothing in it is tappable. */
 .jny .el-measure{ background: rgba(20,16,10,0.035); border: 1px solid rgba(20,16,10,0.07); border-radius: 12px; padding: 12px 12px 11px 13px; }
-.jny .el-metric{ display: block; width: 100%; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; color: inherit; font: inherit; border-radius: 6px; }
-.jny .el-metric:focus-visible{ outline: 2px solid var(--bronze); outline-offset: 3px; }
+.jny .el-metric{ display: block; width: 100%; }
 .jny .el-metric-row{ display: flex; align-items: center; gap: 10px; }
 .jny .el-metric-lab{ flex: 0 0 42%; min-width: 0; font-size: 12.5px; letter-spacing: 0.2px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .jny .el-metric-track{ flex: 1 1 auto; display: grid; grid-template-columns: repeat(5, 1fr); gap: 3px; }
@@ -717,11 +716,8 @@
 .jny .el-metric.down .el-metric-seg.on{ background: rgba(163,84,62,0.78); }
 .jny .el-metric.style .el-metric-seg{ background: rgba(20,16,10,0.09); }
 .jny .el-metric.style .el-metric-seg.mark{ background: var(--ink); }
-.jny .el-metric-chev{ flex: 0 0 7px; width: 7px; height: 7px; margin: -3px 2px 0 0; border-right: 1.5px solid var(--inkLight); border-bottom: 1.5px solid var(--inkLight); transform: rotate(45deg); transition: transform .18s ease; }
-.jny .el-metric[aria-expanded="true"] .el-metric-chev{ transform: rotate(-135deg); margin-top: 3px; }
-.jny .el-metric-ends{ display: flex; justify-content: space-between; margin: 3px 19px 0 0; font-size: 9.5px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--inkLight); }
+.jny .el-metric-ends{ display: flex; justify-content: space-between; margin: 3px 0 0; font-size: 9.5px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--inkLight); }
 .jny .el-metric-ends span:first-child{ margin-left: 42%; padding-left: 10px; }
-.jny .el-metric-gloss{ display: block; margin: 7px 0 1px; padding-left: 10px; border-left: 2px solid rgba(139,115,85,0.45); font-size: 13px; line-height: 1.45; color: var(--ink); }
 
 /* ── THE KEYWORDS AS BUTTONS (owner 2026-10-14, the chip expansion and the
    UI pass): each keyword is a raised button with a plus glyph, so the row

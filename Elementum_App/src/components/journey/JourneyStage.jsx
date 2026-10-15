@@ -27,19 +27,20 @@ import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 
 // THE FUNCTION METRICS (owner 2026-10-14; REA_19): three bars between the
 // definition and the chips, computed by the engine (functionMetrics.js), the
-// gloss lines from the station. A trait bar fills its level in segments; the
+// labels from the station. A trait bar fills its level in segments; the
 // style bar marks its position between two plain ends. Tap a bar to read its
 // line; collapsed at rest, like the chips.
+// Static bars (owner 2026-10-15: no level glosses; the labels explain
+// themselves, as the MBTI metrics do, and a line per level would be a reading
+// of the person, which the ledger owns). Nothing on the panel is tappable.
 function MetricBars({ m }) {
-  const [open, setOpen] = useState(null);
   if (!m || !m.bars?.length) return null;
   return (
     <div className="el-metrics el-measure" role="list" aria-label={`${m.functionLabel} metrics`}>
       {m.bars.map((b) => {
-        const isOpen = open === b.key;
         const cls = `el-metric${b.kind === 'style' ? ' style' : m.pole === 'friction' ? ' down' : ''}`;
         return (
-          <button key={b.key} type="button" className={cls} role="listitem" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : b.key)}>
+          <div key={b.key} className={cls} role="listitem">
             <span className="el-metric-row">
               <span className="el-metric-lab">{b.label}</span>
               <span className="el-metric-track" aria-label={`${b.label}: level ${b.level} of 5`}>
@@ -47,13 +48,11 @@ function MetricBars({ m }) {
                   <span key={i} className={`el-metric-seg${b.kind === 'style' ? (i === b.level ? ' mark' : '') : (i <= b.level ? ' on' : '')}`} />
                 ))}
               </span>
-              <span className="el-metric-chev" aria-hidden="true" />
             </span>
             {b.kind === 'style' && b.ends && (
               <span className="el-metric-ends"><span>{b.ends[0]}</span><span>{b.ends[1]}</span></span>
             )}
-            {isOpen && <span className="el-metric-gloss">{b.gloss}</span>}
-          </button>
+          </div>
         );
       })}
     </div>

@@ -1,6 +1,6 @@
 # Backlog · the function metrics: three bars per function, computed from the chart (built 2026-10-14; the lines DRAFT)
 
-**Status: BUILT 2026-10-14 on the owner's "Starting writing and map those into our app artifact and station database" after the metrics were agreed in session; the seventy-five gloss lines are DRAFT in the station (`FUNCTION_METRICS/`) and in the app until the owner reads them line by line. REA_19 is the record; contract M1 holds the structure.**
+**Status: BUILT 2026-10-14; the gloss lines RETIRED 2026-10-15 on the owner's ruling (no level glosses, static bars): the seventy-five drafts moved to `retired_gloss` in the station files, never ruled, never rendered; the bars are static; the fifteen metric definitions are backlogged for the glossary (`2026-10-15_metric-definitions.md`), not rendered. REA_19 is the record; contract M1 holds the structure.**
 
 ## What was built
 

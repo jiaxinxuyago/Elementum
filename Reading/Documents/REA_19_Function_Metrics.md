@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Scope** | The three bars on every energy page's function section: what they measure, how the engine derives them from the chart, and where their words live. Step 2 of the owner's order for The Function section (1 the definition construct, 2 the metrics, 3 the chip expansion, 4 the icons). |
-| **Version** | 0.1 · 2026-10-14 (born on the owner's rulings of the day: three bars; two trait bars from the ten-god distribution; one style bar with no better end; everyday labels; one gloss line per bar, collapsed at rest; the words in the station, the numbers from the chart) |
+| **Version** | 0.2 · 2026-10-15 (the level glosses retired, the bars static, the definitions backlogged) · 0.1 · 2026-10-14 (born on the owner's rulings of the day: three bars; two trait bars from the ten-god distribution; one style bar with no better end; everyday labels; one gloss line per bar, collapsed at rest; the words in the station, the numbers from the chart) |
 | **Owner rulings** | 2026-10-14: "3 bars" · "it could be more accurately breakdown by the user's actual ten-god distribution" · "Pick again on the neutral ones" (the style bars with no better end) · "plain terms … daily used, work-environment often used, common among other astrology app word picks" · "should each bar be expanded to a line of description" (yes, one line, collapsed) · "Starting writing and map those into our app artifact and station database" |
 | **Station** | `Reading/Database/templates/by_axis/json/FUNCTION_METRICS/{Body,Mind,Expression,Action,Order}.json` (the editing surface, REA_05 §1) |
 | **Code** | `Elementum_App/src/content/metrics.js` (the deliberate transcription) · `Elementum_App/src/engine/functionMetrics.js` (the derivation) · `JourneyStage.jsx` (`MetricBars`, between the definition and the chips) · `tools/export-reading-templates.mjs` (the audit, the FUNCTION_METRICS axis) · `tools/qa-selection-fixtures.mjs` (contract M1) |
@@ -39,9 +39,11 @@ The steps are a ruled table, not a formula: they can be moved by the owner witho
 
 ## §4 · The words
 
-Seventy-five gloss lines in the station: sixty for the ten traits (two poles × three bands) and fifteen for the five style bars (three bands). Each is one sentence under sixteen words with the reader as its subject, in the energy-manual register (REA_16 §2c, B1 to B2), explaining what the level means for this reader. They are DRAFT until the owner reads them in the app and rules them line by line (REA_05 §1: nothing in the station is final without the owner's ruling). The labels are the words other astrology and personality apps already use, so readers bring the meaning with them.
+**v0.2 (owner 2026-10-15): no words per level.** The owner ruled the level glosses unnecessary: a bar's label explains itself, as the MBTI metrics do; a line per level is a reading of the person, which the ledger owns, and it multiplies with every scale change. The seventy-five draft lines of v0.1 (sixty for the ten traits, fifteen for the style bars) are retired in the station (`retired_gloss` in each `FUNCTION_METRICS/<Function>.json`), never ruled, never rendered, and the engine no longer carries a gloss. The one line a metric may carry is its fixed definition (`candidates.bars[].ask`, fifteen lines), backlogged for the glossary sheet and not rendered until the owner rules them and names the surface (`Reading/Database/Prompts/backlog/2026-10-15_metric-definitions.md`).
 
 ## §5 · The page
+
+**v0.2:** the measure panel is static. Nothing on it is tappable; the bars, the labels and the style ends are the whole surface.
 
 The bars sit between the definition and the chips on the function detail page: label on the left, a five-segment track on the right; a trait bar fills its level, a style bar marks its position with its two ends printed beneath. Collapsed at rest; a tap opens the bar's line. On the friction pole the filled segments take the friction tint, so the page's pole shows at a glance.
 
@@ -57,3 +59,4 @@ The bars sit between the definition and the chips on the function detail page: l
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-10-14 | Born: the fifteen metrics, the scale, the seventy-five lines, the engine, the page, the audit axis, contract M1 | owner 2026-10-14 (the session's rulings above) |
+| 2026-10-15 | v0.2: the level glosses retired (the seventy-five drafts to `retired_gloss`, station only), the bars static, the engine without a gloss, contract M1 without the gloss check; the fifteen metric definitions backlogged for the glossary, not rendered | owner 2026-10-15 ("no level glosses, static bars, and 15 metric definitions in the glossary (backlog them for now and do not reveal them from our app)") |

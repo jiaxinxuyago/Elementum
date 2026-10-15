@@ -8,7 +8,8 @@
 //     reads level 1 (shown, not hidden: a missing god is a fact of the chart)
 //   bar 3 · the style bar · the level from the energy's volume, or for the
 //     core from its band; two plain ends, no better end
-// The gloss line comes from the station's FUNCTION_METRICS axis (transcribed
+// No gloss line (owner 2026-10-15: static bars; the level glosses retired in
+// the station). The words come from the station's FUNCTION_METRICS axis (transcribed
 // in src/content/metrics.js), read by pole (catalyst · friction) and level
 // band (low 1 to 2 · mid 3 · high 4 to 5); the style bar reads by its end.
 // Pure: takes the journey model's energy row and returns plain data.
@@ -44,7 +45,7 @@ export const bandOf = (level) => (level <= 2 ? 'low' : level === 3 ? 'mid' : 'hi
  * functionMetrics(r, band): r is a journey-model energy row (el, presence,
  * isCore, coreExcess, role, volume, faces [{god, share}]); band is the core's
  * reading band. Returns { function, pole, bars: [{key, label, kind, level,
- * band, gloss, god?, persona?, share?, ends?}] } or null when the function
+ * band, god?, persona?, share?, ends?}] } or null when the function
  * is unknown.
  */
 export function functionMetrics(r, band) {
@@ -59,12 +60,12 @@ export function functionMetrics(r, band) {
     if (b.style) {
       const level = styleLevel(r, band);
       const key = bandOf(level);
-      return { key: b.key, label: b.label, kind: 'style', ends: b.ends, level, band: key, gloss: b.gloss[key] };
+      return { key: b.key, label: b.label, kind: 'style', ends: b.ends, level, band: key };
     }
     const share = Math.round((Number(r.presence) || 0) * faceShare(b.god) / 100);
     const level = traitLevel(share);
     const key = bandOf(level);
-    return { key: b.key, label: b.label, kind: 'trait', god: b.god, persona: b.persona, share, level, band: key, gloss: b.gloss[pole][key] };
+    return { key: b.key, label: b.label, kind: 'trait', god: b.god, persona: b.persona, share, level, band: key };
   });
   return { function: fnKey, functionLabel: fnName, pole, bars };
 }
