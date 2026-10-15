@@ -1,0 +1,165 @@
+{
+  "$archetype": "木_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "木_比肩",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Does it alone",
+        "Sets own pace",
+        "Consistent"
+      ],
+      "friction": [
+        "Asks no one",
+        "Always right",
+        "Keeps distance"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Does it alone",
+            "angles": {
+              "drive": "Doing it alone comes before any plan you make. Owing nobody feels safer to you, so you do the whole thing yourself sooner than hand off a piece. Let someone carry a corner, because you do just as well with company beside you.",
+              "cost_self": "Whenever help comes near, you do the thing alone first. Being helped feels like debt, so you would rather do it tired than owe. You pay for doing it alone in rest never taken, and you can take that back one evening at a time.",
+              "cost_others": "Your own two hands are the only ones you count on. Doing it alone matters more than being carried, and that keeps your friends outside every hard week. Let one peer in, since doing it alone costs them the chance to matter to you."
+            }
+          },
+          {
+            "word": "Sets own pace",
+            "angles": {
+              "drive": "Fast or slow around you, you move at your own speed. Being your own clock keeps you steady, since a borrowed pace never feels like yours. You keep your own pace ahead of catching the group, and some days the group is worth catching.",
+              "cost_self": "Where a sprint would get you in, you keep your pace instead. You would sooner be late on your terms than rushed on another's, since borrowed tempo is never yours. You lose the chance that needed a sprint, and that pace was yours to choose.",
+              "cost_others": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. Match a friend's step once a week, because you cost them the company of moving together."
+            }
+          },
+          {
+            "word": "Consistent",
+            "angles": {
+              "drive": "You are the same person in any company. Holding one standard for yourself keeps your footing, since a new shape for each group would cost you your measure. You stay consistent ahead of fitting in, and fitting in once in a while costs you nothing.",
+              "cost_self": "Whenever the moment calls for a softer you, you show up as usual. You would rather stay the same than be liked for a performance, since an adjusted self is hard to trust. You miss the closeness that bending buys, and a little is allowed.",
+              "cost_others": "Holding yourself to one standard means holding your friends to it. Staying the same matters more than meeting anyone halfway, and that leaves no slack for an off day. Bend for one friend this month, since consistency costs them the mercy of an easier you."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. Keep in mind that not asking spares everyone except you.",
+              "cost_self": "Your hands are all you trust with hard jobs. Asking feels like admitting a shortfall, and you take the long way alone ahead of the short way with help. You pay for asking no one in rest you skip, and the bill is only yours.",
+              "cost_others": "Whenever an offer comes, you have already finished alone. Owing nothing counts for more than being close, and that keeps your nearest people outside every struggle. By asking no one you leave them no way of being needed, a loss worth noticing."
+            }
+          },
+          {
+            "word": "Always right",
+            "angles": {
+              "drive": "You walk into most arguments already sure. More of you shows up than the argument needs, and the extra feels like proof, so you hold your view ahead of hearing theirs. You lose, by being right every time, the chance to be told something new.",
+              "cost_self": "Being right is a comfort you never run out of. Admitting a mistake feels like losing part of yourself, and you defend a wrong call as much as a right one. You pay for each win in lessons never had, and that is worth remembering.",
+              "cost_others": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Remember that you take from them, by being right, the pleasure of ever changing your mind."
+            }
+          },
+          {
+            "word": "Keeps distance",
+            "angles": {
+              "drive": "A little distance is your default with almost everyone. There is more of you than you want anyone handling, and you keep people at arm's length instead of letting them close. You keep that distance for safety, and it keeps the company out as well.",
+              "cost_self": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. You keep out the very closeness you keep missing, and it helps to know that.",
+              "cost_others": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and that gives your friends no way in. You cost them, with that distance, a friend they could have reached."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-rooted",
+            "angles": {
+              "drive": "Your footing is your own, grown from your own choices and watered on your own schedule. Approval is pleasant weather rather than required rainfall. People with shallower systems topple in seasons you barely notice, and they notice you not noticing.",
+              "cost_self": "When the industry rumor cycle hit, half your peers rewrote their profiles within a week. You changed nothing, on the grounds that nothing about you had changed. The cycle passed. Your unchanged profile now reads as the confident one, which it always was.",
+              "cost_others": "People ask your opinion specifically because it was not assembled from the group’s. Your yes means yes and arrives unsponsored. In shifting alliances you are the fixed survey point, and both sides check their positions against yours without telling each other."
+            }
+          },
+          {
+            "word": "Upright",
+            "angles": {
+              "drive": "You stand on your own structure, without leaning on charm, on apology, or on anyone’s shoulder. What holds you up is internal, built, and paid for, which is why pressure does not change your shape. People can push. Nothing in you is borrowed enough to come loose.",
+              "cost_self": "When the funding fell through, three co-founders started calling advisors, mentors, parents. You recalculated your own runway at the kitchen table and adjusted your own plan by morning. Help was offered twice. You took the version that let you stay vertical: information, without the arm.",
+              "cost_others": "Nobody manages you, worries about you, or checks your footing, and after a while they stop trying to. You lean on no one so consistently that leaning on you feels safe. Half the group’s stability, on inspection, is people steadying themselves against your unborrowed posture."
+            }
+          },
+          {
+            "word": "Persevering",
+            "angles": {
+              "drive": "Continuing is your quiet superpower. Where motivation fails, you simply proceed: the run in the rain, the chapter after a rejection, year six of the practice everyone else left in year one. Time works for you because you never fire it.",
+              "cost_self": "The Tuesday run has survived four winters, two jobs, and one broken toe, adjusted but never skipped. This morning it was raining sideways and you went anyway, same route, same distance. Nothing about it is impressive on any single day. The years are the unit.",
+              "cost_others": "Your persistence reads as unremarkable up close, day by day, and staggering in summary. People introduce you with numbers: fifteen years running, four hundred consecutive weeks. The numbers embarrass you slightly. They are also, everyone agrees, the whole explanation."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Standoffish",
+            "angles": {
+              "drive": "Your default distance reads as a fence with no gate signage. You join late, leave early, and hold conversations at arm’s length even when your arm wanted otherwise. People conclude you prefer it this way. Some days they are wrong, and the fence cannot say so.",
+              "cost_self": "At the reunion you spent forty minutes near the drinks table in a pleasant holding pattern, waiting to be approached, while three people across the lawn did the same thing, waiting for you. Everyone drove home slightly lonely. The photos look fine.",
+              "cost_others": "New people get warned that you take a while, delivered as advice, functioning as a moat. By the time anyone crosses it, they find someone warmer than advertised and mildly puzzled about the moat’s reputation. You built it in increments. It reads as architecture now."
+            }
+          },
+          {
+            "word": "Stubborn",
+            "angles": {
+              "drive": "Once planted, your position holds against reason, weather, and personal cost. Being wrong is survivable. Admitting it feels like being uprooted, so the argument continues past its own death, and you keep watering a stump on principle.",
+              "cost_self": "The thermostat war of last winter was never about degrees. Concessions were available cheaply in week one. By week six, both sides were cold and dug in, and you specifically were wearing two sweaters indoors as a form of speech.",
+              "cost_others": "People pick which hills to offer you carefully, knowing you will die on any of them, including the decorative ones. Negotiations with you get shorter as everyone learns the shape: agreement, or geology. Your wins are real. So is the tally of what they cost."
+            }
+          },
+          {
+            "word": "Slow to change",
+            "angles": {
+              "drive": "You do change, eventually, at a pace that tests everyone’s faith in the concept. New evidence gets a probation period measured in seasons. By the time you adopt the improvement, its inventor has moved on, and you present it with the calm of original ownership.",
+              "cost_self": "You resisted the phone upgrade for three years, listing principled objections, and then loved it within a week of surrendering. The pattern has repeated with the car, the software, and one entire relationship. The objections were never about the thing. They were about being moved.",
+              "cost_others": "People learn to plant ideas near you and walk away, returning months later to find them adopted and slightly renamed. Pushing speeds nothing and delays plenty. Your eventual yes is solid, everyone agrees, and everyone budgets a fiscal year for it."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-rooted",
+        "Upright",
+        "Persevering"
+      ],
+      "friction": [
+        "Standoffish",
+        "Stubborn",
+        "Slow to change"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

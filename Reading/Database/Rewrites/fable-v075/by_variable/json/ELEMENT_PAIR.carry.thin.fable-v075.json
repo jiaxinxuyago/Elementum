@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.thin",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A little ground on the roots, light enough to hold without bending.",
+        "remedy": "Keep the load this size. Add nothing to it."
+      },
+      "original": {
+        "clause": "Earth runs thin and unwanted: a small plot, easily held.",
+        "remedy": "Keep the plot small."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Only a little Wood shows, a thin trunk the ground holds easily.",
+        "remedy": "Keep it small and spend what it grows."
+      },
+      "original": {
+        "clause": "Wood runs thin and still carries weight: little growth, held too hard.",
+        "remedy": "Loosen the grip on growing."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A little rain and no more, enough to keep the leaves from curling.",
+        "remedy": "Keep it small. One read, one decision."
+      },
+      "original": {
+        "clause": "Water runs thin and unwanted: a little rain, quickly used.",
+        "remedy": "Let it stay light."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A small flame on thin wood, enough to warm the house and too small to eat the tree.",
+        "remedy": "Keep it small. One thing out for every two in."
+      },
+      "original": {
+        "clause": "Fire runs thin and unwanted: a small flame, easy to bank.",
+        "remedy": "Bank it. Let growth stand."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A small knife at a big tree, enough to shape it and never enough to cut it back.",
+        "remedy": "Keep it small. One rule, kept, is plenty."
+      },
+      "original": {
+        "clause": "Metal runs thin and unwanted: a small blade, easy to step around.",
+        "remedy": "Step around it."
+      },
+      "gate": "pass"
+    }
+  ]
+}

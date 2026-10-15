@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "土_正财",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Makes things last",
+        "Saves first",
+        "Loyal"
+      ],
+      "friction": [
+        "Keeps everything",
+        "Hard to move",
+        "Hates to spend"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Makes things last",
+            "angles": {
+              "drive": "Whatever you own, you keep working for years. Buying new feels like giving up on something, and that puts fixing ahead of replacing every time. Keep making things last, and let a few of them go while they still have worth to someone."
+            }
+          },
+          {
+            "word": "Saves first",
+            "angles": {
+              "drive": "Money feels like yours only after part of it is put away. Being covered matters more to you than being treated, and the saving comes before the spending. Keep that order, and spend one saved thing on yourself from time to time."
+            }
+          },
+          {
+            "word": "Loyal",
+            "angles": {
+              "drive": "Loyalty is your default, given before it is asked for. Choosing again asks less of you than starting fresh, and that puts the person you have ahead of anyone new. Keep giving it, and let the few people you never met be the price."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Keeps everything",
+            "angles": {
+              "drive": "What comes into your keeping stays there for good. Needing a thing you let go is the loss you fear most, and you store it for years rather than lack it once. You keep the fear along with the thing, and that is worth remembering."
+            }
+          },
+          {
+            "word": "Hard to move",
+            "angles": {
+              "drive": "You are hard to move and you know it. Leaving costs more than staying, and you stay in the job and the home past their use rather than restart. You choose to stay every day you do not leave, and it helps to remember that."
+            }
+          },
+          {
+            "word": "Hates to spend",
+            "angles": {
+              "drive": "Spending comes hard to you, even on what you need. Money going out is the loss that stings most, and you go without rather than pay for the thing. You already know you are allowed to pay full price for what you want."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Thrifty",
+            "angles": {
+              "drive": "Getting full value out of things is a craft you practice daily and almost invisibly. The repaired instead of replaced, the bought-once-properly, the leftovers built into a second dinner. Waste offends you mildly and constantly, and your accounts show what mild constant offense saves."
+            }
+          },
+          {
+            "word": "Steady",
+            "angles": {
+              "drive": "Holding course is your competitive advantage in a distractible world. The plan from January is still the plan in September, adjusted, funded, on schedule. Shiny alternatives pitch themselves at you weekly and bounce off politely. What you committed to, you finish."
+            }
+          },
+          {
+            "word": "Well-stocked",
+            "angles": {
+              "drive": "Reserves are your love language and your strategy. The pantry, the savings, the spare parts drawer, the contact who owes you one: whatever the situation needs, some corner of your life already holds it. Emergencies visit you and find the door already answered."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hoarding",
+            "angles": {
+              "drive": "Keeping has stopped being a strategy and become a compulsion with a filing system. Money is stored rather than used, and might-need has annexed the garage. Security was the goal once. Now the piles themselves ask for protection, and you provide it nightly."
+            }
+          },
+          {
+            "word": "Immobile",
+            "angles": {
+              "drive": "Your money and your life share one posture: seated. The cash waits in the account earning almost nothing, the career waits in the safe role, the plans wait for a certainty that never files its paperwork. Waiting feels responsible. Compounded, it has cost more than any risk would have."
+            }
+          },
+          {
+            "word": "Cheap",
+            "angles": {
+              "drive": "Spending hurts you in a place logic cannot reach, and the people around you absorb the difference. The heating waits until the frost, the tip gets calculated to the coin, the gift arrives practical and slightly under the occasion. The books balance. Warmth pays the levy."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Thrifty",
+        "Steady",
+        "Well-stocked"
+      ],
+      "friction": [
+        "Hoarding",
+        "Immobile",
+        "Cheap"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

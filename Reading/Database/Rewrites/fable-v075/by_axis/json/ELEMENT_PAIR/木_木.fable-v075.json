@@ -1,0 +1,97 @@
+{
+  "$archetype": "木_木",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_木",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Wood beside wood makes a forest, the old texts say, and like gathers with like. A trunk that stands alone grows wide, and a trunk among others grows tall, because every tree reaches for the same light and drinks from the same ground. The one beside it is shelter and competition. Nothing is handed out in a forest. Height is taken, a season's growth at a time, by the trunk that reaches first.",
+      "catalyst_turn": "With too little Wood, the trunk is thin for the height it carries, and every reach is paid out of the next season's growth. Rest and eat before you reach again.",
+      "friction_turn": "With too much Wood, the trunk thickens past any use for it, and growth that nothing shaped bends for no one. Give one thing a hard deadline and finish it."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The trunk is thin for the height it carries.",
+        "remedy": "Rest and eat before you reach again."
+      },
+      "friction": {
+        "clause": "The trunk thickens past any use for it.",
+        "remedy": "Give one thing a hard deadline and finish it."
+      },
+      "unrooted": {
+        "clause": "Wood with no root under it, a trunk on borrowed ground, upright only while the weather holds.",
+        "remedy": "Borrow roots. Keep one routine and one early bedtime."
+      },
+      "excess": {
+        "clause": "So much Wood that nothing bends it, and only a fire would ever soften the stubborn grain.",
+        "remedy": "Set it alight. Make one thing and give it away."
+      },
+      "thin": {
+        "clause": "Only a little Wood shows, a thin trunk the ground holds easily.",
+        "remedy": "Keep it small and spend what it grows."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, you carry everything alone rather than lean on a peer, or race the one ahead with no reserve. You run out before the thing is done.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, you hold your way against a peer's advice, or treat shared ground as yours alone. You keep your way and lose the people beside you.",
+      "advise_catalyst": "Holding yourself up takes more than you are taking in. Sleep a full night before a big decision rather than after it. Share one weekly meal with a peer who is not competing with you. Let someone carry one thing for you each month. Sit down for ten minutes before you say yes.",
+      "advise_friction": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. You carry more push than any one thing asks for. Give one plan to someone above you and take their deadline as final. Finish the small thing first."
+    },
+    "cta_verdict": "You hold yourself up by growing, so you feel strongest while something is being built and restless once it is finished."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Things gather by kind, the Book of Changes says, and so wood stands with wood: one forest sharing one root system, every trunk raising the canopy that shelters the next seedling. There is no reaction here, only more of the same green force. A single tree is weather's toy. A forest makes its own weather.",
+      "catalyst_turn": "Run thin, the trunk doubts itself: direction borrowed, growth waiting for permission. Your chart asks you to feed the self. Start something and let it grow visibly yours.",
+      "friction_turn": "Run heavy, the canopy closes: growth so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The trunk doubts itself: direction borrowed, growth waiting for permission.",
+        "remedy": "Start something and let it grow visibly yours."
+      },
+      "friction": {
+        "clause": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.",
+        "remedy": "Thin the branches and let the forest breathe."
+      },
+      "unrooted": {
+        "clause": "The self stands without roots: growth on will alone, direction borrowed.",
+        "remedy": "Feed the self. Start something visibly yours."
+      },
+      "excess": {
+        "clause": "Strong wood wants fire: so much growth it shades out everything, itself included.",
+        "remedy": "Burn some of it. Show the work."
+      },
+      "thin": {
+        "clause": "Wood runs thin and still carries weight: little growth, held too hard.",
+        "remedy": "Loosen the grip on growing."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Body, and running thin, it is the growth reserve your whole system draws on: appetite, stamina, the will to start things. When it dips you feel it as flatness before you feel it as fatigue.",
+      "definition_friction": "Wood is your Body, and running over, it is more growing force than your life gives outlets: restlessness, overcommitment, energy that starts five things just to spend itself.",
+      "advise_catalyst": "Vitality is grown, never summoned. Get daylight before noon, move every day even briefly, keep green things and green places near you. Protect one truly free evening a week. Start one small thing and let finishing it feed the next.",
+      "advise_friction": "Force without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new."
+    },
+    "cta_verdict": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.unrooted": "pass",
+    "carry.excess": "pass",
+    "carry.thin": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

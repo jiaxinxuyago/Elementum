@@ -1,0 +1,115 @@
+{
+  "$archetype": "木_水",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_水",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Water is the forest's first food, the old texts say. Rain comes down through the leaves and sinks to the roots, and the tree drinks what it cannot see. Nothing grows on dry ground. A season of steady rain raises the whole wood a hand higher, while a season of flood loosens the soil and sets the trunk adrift. The tree is only ever as tall as the water under it allows.",
+      "catalyst_turn": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Sit with one slow book before the next decision.",
+      "friction_turn": "With too much Water, the ground goes soft under the tree and the roots drink past the point of growing. Set one plan on firm ground and build it."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "the forest grows on thin rain, every new leaf paid from the trunk's own store",
+        "remedy": "Sit with one slow book before the next decision."
+      },
+      "friction": {
+        "clause": "the ground goes soft under the tree and the roots drink past the point of growing",
+        "remedy": "Set one plan on firm ground and build it."
+      },
+      "wide": {
+        "clause": "There is no shortage of Water in you, the rain the whole forest drinks from.",
+        "remedy": "Drink from it. Learn one thing all the way down."
+      },
+      "missing": {
+        "clause": "No rain reaches the roots, so the tree grows on whatever the air gives it.",
+        "remedy": "Borrow rain. A teacher, a library card, one quiet hour."
+      },
+      "spared": {
+        "clause": "No rain falls on this tree, and it stands drier and steadier for it.",
+        "remedy": "Leave it dry. Act on what you already know."
+      },
+      "thin": {
+        "clause": "A little rain and no more, enough to keep the leaves from curling.",
+        "remedy": "Keep it small. One read, one decision."
+      },
+      "excess": {
+        "clause": "Too much water lifts the tree off its ground, fed past rooting, drifting where the current goes.",
+        "remedy": "Drain it. Less thinking, one thing built."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake falls short, so you trust a hunch ahead of sitting with what you know and give shelter you never take.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the taking in runs ahead of use, so you read one more thing instead of deciding and stay sheltered past the need.",
+      "advise_catalyst": "You reach for the answer while the lesson is still landing. Ahead of a decision, read a full chapter instead of the summary. Ask one person who knows more than you and wait for the whole reply. Keep a notebook by the bed for the thought that arrives late. Sleep on anything that can wait a night.",
+      "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. You learn one more thing because deciding would end the learning. Pick a date and make the call on it. Finish one small thing and show it to someone."
+    },
+    "cta_verdict": "You understand things by soaking in them rather than studying them, and your best decisions come after a night's sleep instead of a second search."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.",
+      "catalyst_turn": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
+      "friction_turn": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The canopy outpaces the rain: ambition still reaching while the soil dries.",
+        "remedy": "Rest, read, go quiet and refill."
+      },
+      "friction": {
+        "clause": "The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.",
+        "remedy": "Trees also need sun."
+      },
+      "wide": {
+        "clause": "Water is already here in plenty, the rain the whole tree drinks from.",
+        "remedy": "Stop refilling. Grow something from what you already know."
+      },
+      "missing": {
+        "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
+        "remedy": "Borrow water: rest, reading, one quiet hour."
+      },
+      "spared": {
+        "clause": "Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season.",
+        "remedy": "Keep it dry. Act on what you know."
+      },
+      "thin": {
+        "clause": "Water runs thin and unwanted: a little rain, quickly used.",
+        "remedy": "Let it stay light."
+      },
+      "excess": {
+        "clause": "Too much water floats the wood: roots off the ground, drifting from plan to plan, nothing anchored.",
+        "remedy": "Drain it. Plant one thing and stay."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Water is your Mind, and as a catalyst, it is how you refill: quiet intake, reading, long conversations, time alone that lets impressions settle into understanding. Your thinking improves in direct proportion to your rest.",
+      "definition_friction": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it.",
+      "advise_catalyst": "Understanding arrives on its own schedule and only through an open door. Hold one screen-free hour before bed. Take the walk before the decision. Keep a note of what surfaces there, because it will be the truest thinking you do.",
+      "advise_friction": "A mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in."
+    },
+    "cta_verdict": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

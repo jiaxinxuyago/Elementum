@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "function.advise_friction",
+      "candidate": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for: sleep, food, rest, the strength that stands before it carries. Let it hold what Earth piles up. You agree to more than you have strength for. Eat a real meal before any decision about money. Sleep on every yes before you give it.",
+      "original": "Lightness is also a form of wealth. Sell, delegate, or close one standing obligation this month. Before acquiring anything, name its yearly cost in hours. Keep a short list of what you would defend in a hard year, and loosen everything off it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "function.advise_friction",
+      "candidate": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. You carry more push than any one thing asks for. Give one plan to someone above you and take their deadline as final. Finish the small thing first.",
+      "original": "Force without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "function.advise_friction",
+      "candidate": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. You learn one more thing because deciding would end the learning. Pick a date and make the call on it. Finish one small thing and show it to someone.",
+      "original": "A mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "function.advise_friction",
+      "candidate": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it hold what Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning.",
+      "original": "An audience is a loan against tomorrow. Borrow less: pull the launch dates back by half, decline one appearance a month, and let the next thing be seen only when it is done. Practice being unimpressive in safe company.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "function.advise_friction",
+      "candidate": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it hold what Metal cuts. The hardest judge you answer to lives in your head. Spend one evening a week learning something nobody grades. Sleep on the next hard reply before you send it.",
+      "original": "Standards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can.",
+      "gate": "pass"
+    }
+  ]
+}

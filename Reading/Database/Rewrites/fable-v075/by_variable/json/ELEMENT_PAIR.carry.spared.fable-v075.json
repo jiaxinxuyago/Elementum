@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.spared",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No Earth weighing on the roots, and the trunk stands straighter for it.",
+        "remedy": "Keep it that way: own little, carry less."
+      },
+      "original": {
+        "clause": "Earth runs absent, and the roots are free: nothing owned, nothing charging rent.",
+        "remedy": "Keep it light. Own little, deliberately."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No rain falls on this tree, and it stands drier and steadier for it.",
+        "remedy": "Leave it dry. Act on what you already know."
+      },
+      "original": {
+        "clause": "Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season.",
+        "remedy": "Keep it dry. Act on what you know."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "Nothing burns the wood, and a thin trunk keeps all its sap for itself.",
+        "remedy": "Leave it unlit. Grow first, show later."
+      },
+      "original": {
+        "clause": "Fire runs absent, and the wood stays green: nothing burned early, nothing announced.",
+        "remedy": "Keep it green. Show the work once it is finished."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No knife at the tree, and the tree is better for it, free to take its own shape.",
+        "remedy": "Keep it so. Set your own rules and keep them."
+      },
+      "original": {
+        "clause": "Metal runs absent, and nothing cuts: growth unshaped, and unbroken.",
+        "remedy": "Keep it. Invite the shears on your terms."
+      },
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+ "file": "ledger.火_食神.catalyst.json",
+ "page": "The catalyst ledger of 火_食神 (Fire carrying The Artisan) on a Wood core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[4] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[5] :: a word used twice (leave; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Ease is the sign you trust, and you do the thing that flows sooner tha\"",
+  "ledger[6] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[6] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6] :: a word used twice (without, ease, trust; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: none of the chip's words (\"Effortless\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[7] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[7] :: none of the chip's words (\"Effortless\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[8] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[8] :: a word used twice (work, ease, steps; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[8] :: none of the chip's words (\"Effortless\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[0]#b :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[0]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3]#b :: a word used twice (pleasure; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6]#b :: outside the zone (not blocking): spoils",
+  "ledger[6]#b :: none of the chip's words (\"Effortless\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 0,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 1,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 1,
+  "ledger[7]": 1,
+  "ledger[8]": 1,
+  "ledger[0]#b": 0,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

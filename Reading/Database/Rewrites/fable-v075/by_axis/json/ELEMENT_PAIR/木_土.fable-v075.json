@@ -1,0 +1,115 @@
+{
+  "$archetype": "木_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_土",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Wood tames earth, the old texts say, because the gathered thing wins over the scattered one: a single root goes down through loose soil and the whole hillside learns to stay put. The ground loses nothing by it. Held by roots it keeps its rain, its weight and its harvest, where bare soil would wash away in one hard season. What wood takes from earth it gives back as shape.",
+      "catalyst_turn": "With too little Earth, the roots have nothing to grip: all growth and no ground to claim, so the reach goes up and little stays yours. Pick one thing worth owning and get it.",
+      "friction_turn": "With too much Earth, the ground outweighs the roots: more to hold than one trunk carries, and it bends toward breaking while still saying yes. Rest before you take on more ground."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The roots have nothing to grip: all growth and no ground to claim.",
+        "remedy": "Pick one thing worth owning and get it."
+      },
+      "friction": {
+        "clause": "The ground outweighs the roots: more to hold than one trunk carries.",
+        "remedy": "Rest before you take on more ground."
+      },
+      "wide": {
+        "clause": "Earth is all around you, the ground your roots were made for.",
+        "remedy": "Use it. Claim one plot and work it to the end."
+      },
+      "missing": {
+        "clause": "No ground for the roots to take: growth that lands nowhere and claims nothing.",
+        "remedy": "Borrow ground: a budget, a lease, one thing paid off."
+      },
+      "spared": {
+        "clause": "No Earth weighing on the roots, and the trunk stands straighter for it.",
+        "remedy": "Keep it that way: own little, carry less."
+      },
+      "thin": {
+        "clause": "A little ground on the roots, light enough to hold without bending.",
+        "remedy": "Keep the load this size. Add nothing to it."
+      },
+      "excess": {
+        "clause": "Earth piled past what roots can hold: the soil wins, and the trunk snaps under the weight.",
+        "remedy": "Set most of it down. Sleep, then lift one thing."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, the wanting outruns the keeping, and you chase the next venture instead of holding what you have. You end up owning far less than you built.",
+      "definition_friction": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, providing outgrows your strength, and you take on another venture while you guard every saving. Over time you carry more than you finish.",
+      "advise_catalyst": "You want things far more easily than you claim them. Put one goal in writing with a date beside it. Move a fixed sum into savings on the same day each month. Tell the person you love one plan for the year and keep to it. Finish the small thing before you start another.",
+      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for: sleep, food, rest, the strength that stands before it carries. Let it hold what Earth piles up. You agree to more than you have strength for. Eat a real meal before any decision about money. Sleep on every yes before you give it."
+    },
+    "cta_verdict": "You build to keep rather than to show, and the things you go after slowly are usually the ones that stay yours."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "The concentrated prevails over the scattered, and so wood governs earth: the root threads the loose soil, binds it, and holds the slope that rain would otherwise carry away. Ground without roots erodes grain by grain. Gripped by the living tree, the same ground becomes terrace, garden, land worth naming.",
+      "catalyst_turn": "Run thin, the roots float: plenty of reaching, nothing held, growth with no ground under it. Your chart asks you to claim soil. Buy in, commit, root somewhere real.",
+      "friction_turn": "Run heavy, the holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. Hold less hillside, hold it deeper."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The roots float: plenty of reaching, nothing held, growth with no ground under it.",
+        "remedy": "Buy in, commit, root somewhere real."
+      },
+      "friction": {
+        "clause": "The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed.",
+        "remedy": "Hold less hillside, hold it deeper."
+      },
+      "wide": {
+        "clause": "Earth is one thing you never run short of, the ground you were built to take root in.",
+        "remedy": "Commit to one of the places you already hold."
+      },
+      "missing": {
+        "clause": "No ground to root in: reach with nothing held, ambition that never lands.",
+        "remedy": "Borrow ground: one commitment, kept."
+      },
+      "spared": {
+        "clause": "Earth runs absent, and the roots are free: nothing owned, nothing charging rent.",
+        "remedy": "Keep it light. Own little, deliberately."
+      },
+      "thin": {
+        "clause": "Earth runs thin and unwanted: a small plot, easily held.",
+        "remedy": "Keep the plot small."
+      },
+      "excess": {
+        "clause": "Heavy earth snaps the wood: more held than the tree can feed, roots torn by what they grip.",
+        "remedy": "Hold less. Hold it deeper."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Earth is your Action, and as a catalyst, it is where your reach becomes something held: savings, property, positions, commitments that stay put. You do best when ambition lands somewhere concrete.",
+      "definition_friction": "Earth is your Action, and as a friction, it is holding past your means: too many commitments owned, maintained, and defended at once, each taxing energy you no longer have spare. Everything you keep charges rent on you.",
+      "advise_catalyst": "Ownership is ambition slowed down enough to keep. Automate a monthly amount into one long-term asset and stop renegotiating it. Review what you hold twice a year. Add slowly, and only what you intend to keep for a decade.",
+      "advise_friction": "Lightness is also a form of wealth. Sell, delegate, or close one standing obligation this month. Before acquiring anything, name its yearly cost in hours. Keep a short list of what you would defend in a hard year, and loosen everything off it."
+    },
+    "cta_verdict": "You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

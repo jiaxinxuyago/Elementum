@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_正官",
+  "axis": "ELEMENT_GOD",
+  "key": "金_正官",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Keeps your word",
+        "Does it properly",
+        "Earns your place"
+      ],
+      "friction": [
+        "Needs permission",
+        "Hates being wrong",
+        "Puts rules first"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keeps your word",
+            "angles": {
+              "drive": "You keep your word because a promise is the one rule you wrote. A given word is the firmest shape your plans have, and you honour it ahead of your own comfort. Keep doing that, and notice what your word costs you in evenings."
+            }
+          },
+          {
+            "word": "Does it properly",
+            "angles": {
+              "drive": "You do it properly because half-done never stops bothering you. A standard properly met is the closest you come to rest, and you finish the form ahead of the fun. Keep the standard, and give the fun one proper form of its own."
+            }
+          },
+          {
+            "word": "Earns your place",
+            "angles": {
+              "drive": "You earn your place because a title given free would never feel like yours. Earned proof is the only rank you believe in, and you work for it sooner than you ask for it. Enjoy the earning, and ask for it every so often."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Needs permission",
+            "angles": {
+              "drive": "You need permission for things no rule even covers. The frame that holds you up also holds you in, and you check what is permitted ahead of checking what you want. Know that you need no permission to want."
+            }
+          },
+          {
+            "word": "Hates being wrong",
+            "angles": {
+              "drive": "You hate being wrong more than being quiet. Being correct is the nearest you get to safe, and you check an answer three times instead of risking a wrong one. Keep hold of the fact that one wrong answer is cheaper than silence."
+            }
+          },
+          {
+            "word": "Puts rules first",
+            "angles": {
+              "drive": "You put rules first because a rule is never disappointed in you. The written rule feels safer than the right call, and you pick it rather than trust your judgement. Remember this much, that you wrote none of the rules and can question one."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Precise",
+            "angles": {
+              "drive": "Exactness is your dialect. The estimate lands within percent, the summary contains nothing loose, the drawer holds what its label claims. Around you, vagueness feels briefly embarrassed of itself, and work passing through your hands comes out true to measure, every time it matters."
+            }
+          },
+          {
+            "word": "Incorruptible",
+            "angles": {
+              "drive": "Your price does not exist. The convenient blindness, the adjusted figure, the favor with strings: each has approached you dressed in reasonable clothes, and each has left unbought. People stopped offering years ago, which is the cleanest audit result a character can post."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "angles": {
+              "drive": "Your fairness holds under load. The friend and the stranger get the same terms, the popular opinion and the correct one get separated calmly, and both sides of any dispute leave your table feeling accurately weighed. Balance like yours is engineered. People rest whole arguments on it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Demanding",
+            "angles": {
+              "drive": "Your standard admits no rounding. The report is right or it is redone, the table is set correctly or reset, the apology contains the exact words or does not count. Excellence this consistent is genuinely rare, and living beside it is an occupation nobody applied for."
+            }
+          },
+          {
+            "word": "Unbending",
+            "angles": {
+              "drive": "The rule holds regardless of weather. The exception with merit, the mercy the moment obviously wanted, the technicality that ruins an honest case: your spine does not consult the specifics. Consistency this pure is a kind of integrity and a kind of blindness, wearing the same suit."
+            }
+          },
+          {
+            "word": "By-the-book",
+            "angles": {
+              "drive": "The manual outranks the moment. The procedure gets followed into outcomes the procedure never imagined, the form gets completed while the situation burns politely nearby, and initiative waits outside your job description, permanently, holding its useful ideas. Nothing you do is ever wrong. Much of it is beside the point."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Precise",
+        "Incorruptible",
+        "Even-handed"
+      ],
+      "friction": [
+        "Demanding",
+        "Unbending",
+        "By-the-book"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

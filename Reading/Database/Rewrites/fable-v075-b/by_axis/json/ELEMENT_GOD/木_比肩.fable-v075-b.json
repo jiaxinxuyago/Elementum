@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "木_比肩",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Does it alone",
+        "Sets own pace",
+        "Consistent"
+      ],
+      "friction": [
+        "Asks no one",
+        "Always right",
+        "Keeps distance"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Does it alone",
+            "angles": {
+              "drive": "Where help is offered, you do it alone anyway. Needing nothing is a quiet pride, so you do it yourself ahead of leaning on a peer. Accept one offer a month, since doing everything alone costs you every favour you turn away."
+            }
+          },
+          {
+            "word": "Sets own pace",
+            "angles": {
+              "drive": "You set your own pace and keep it, fast day or slow. Steadiness is what you trust most, and you would sooner arrive late at your speed than early at another's. You reach a few chances late and take the rest at your own pace."
+            }
+          },
+          {
+            "word": "Consistent",
+            "angles": {
+              "drive": "Whatever the company, you hold the same standard. Being a single person everywhere lets you trust yourself, because a self that bends cannot be measured. You keep your shape rather than borrow a looser one and pay in the ease of blending in."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Asks no one",
+            "angles": {
+              "drive": "Where one question would save you days, you lose the days instead. Needing nothing is how you prefer your strength to show, so you spend yourself ahead of spending a favour. Remember that you keep the whole bill and the whole delay along with it."
+            }
+          },
+          {
+            "word": "Always right",
+            "angles": {
+              "drive": "Once your mind is made up, being right is no longer a question. Taking a correction feels like shrinking, and you keep your view rather than hear the other side. You pay for being right this often with everyone's second opinion, a price worth knowing."
+            }
+          },
+          {
+            "word": "Keeps distance",
+            "angles": {
+              "drive": "Whenever closeness arrives, you take a quiet step back. Keeping your own company costs nothing you can name, and you choose it ahead of the effort of being known. It is worth remembering that each step back is a move away from whoever was coming."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-rooted",
+            "angles": {
+              "drive": "Your footing is your own, grown from your own choices and watered on your own schedule. Approval is pleasant weather rather than required rainfall. People with shallower systems topple in seasons you barely notice, and they notice you not noticing."
+            }
+          },
+          {
+            "word": "Upright",
+            "angles": {
+              "drive": "You stand on your own structure, without leaning on charm, on apology, or on anyone’s shoulder. What holds you up is internal, built, and paid for, which is why pressure does not change your shape. People can push. Nothing in you is borrowed enough to come loose."
+            }
+          },
+          {
+            "word": "Persevering",
+            "angles": {
+              "drive": "Continuing is your quiet superpower. Where motivation fails, you simply proceed: the run in the rain, the chapter after a rejection, year six of the practice everyone else left in year one. Time works for you because you never fire it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Standoffish",
+            "angles": {
+              "drive": "Your default distance reads as a fence with no gate signage. You join late, leave early, and hold conversations at arm’s length even when your arm wanted otherwise. People conclude you prefer it this way. Some days they are wrong, and the fence cannot say so."
+            }
+          },
+          {
+            "word": "Stubborn",
+            "angles": {
+              "drive": "Once planted, your position holds against reason, weather, and personal cost. Being wrong is survivable. Admitting it feels like being uprooted, so the argument continues past its own death, and you keep watering a stump on principle."
+            }
+          },
+          {
+            "word": "Slow to change",
+            "angles": {
+              "drive": "You do change, eventually, at a pace that tests everyone’s faith in the concept. New evidence gets a probation period measured in seasons. By the time you adopt the improvement, its inventor has moved on, and you present it with the calm of original ownership."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-rooted",
+        "Upright",
+        "Persevering"
+      ],
+      "friction": [
+        "Standoffish",
+        "Stubborn",
+        "Slow to change"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

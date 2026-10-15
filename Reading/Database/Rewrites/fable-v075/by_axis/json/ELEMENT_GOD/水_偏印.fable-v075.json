@@ -1,0 +1,165 @@
+{
+  "$archetype": "水_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "水_偏印",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Goes deep",
+        "Reads people",
+        "Self-taught"
+      ],
+      "friction": [
+        "Thinks too much",
+        "Keeps it in",
+        "Hard to reach"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Goes deep",
+            "angles": {
+              "drive": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. Let the surface go, since every subject left there was the price of the one you own.",
+              "cost_self": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. Surface a little sooner, because the depth keeps and an open door does not.",
+              "cost_others": "Whenever you go deep, you go alone. Company slows you down, and you pick the quiet ahead of any company you did not choose. Once in a while take someone down with you instead of handing them the summary."
+            }
+          },
+          {
+            "word": "Reads people",
+            "angles": {
+              "drive": "You read what a person is not saying. A pause tells you more than the words around it, so you trust your feeling about someone ahead of the story you are given. Say the reading out loud, because an unsaid one cannot be corrected.",
+              "cost_self": "Reading a person ahead of their words keeps you from surprises. The reading comes faster than the asking, and you go with it instead of waiting for the rest. Ask the slow question anyway, because the closeness you skip is what being right early costs.",
+              "cost_others": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. Let the sentence finish, because the telling was the other person's to do."
+            }
+          },
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "You teach yourself what matters most to you. A lesson you worked out alone sits deeper than one handed to you, and your own odd route comes ahead of the course on offer. You lose years to the long way and would take it again.",
+              "cost_self": "Teaching yourself spares you being a beginner anywhere. Working it out alone feels easier than asking someone who knows, and the long road is the one you choose. Ask sooner than you want to, because the help you refuse gets paid for in years.",
+              "cost_others": "You taught yourself your own route, and it is hard to pass on. Showing the steps means admitting there were none, and you hand over the answer rather than the method. Write the route down, because the way is what anyone learning from you misses."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Thinks too much",
+            "angles": {
+              "drive": "You think a decision over long after it stopped needing thought. Water comes into you faster than you spend it, and one more angle feels like care rather than delay. You know by now that you only learn from the choices you make.",
+              "cost_self": "Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. Keep in mind that you lose chances this way without a sound, and sleep with them.",
+              "cost_others": "Whenever someone needs an answer, you think it over once more. Getting it right matters more to you than getting it to them, and you hand over the wait. It is worth remembering that you give more by replying now than by replying right."
+            }
+          },
+          {
+            "word": "Keeps it in",
+            "angles": {
+              "drive": "You keep what you know in until it is finished, and it never is. More goes into you than comes out, because a half-formed thought let loose feels like a thought lost. Remember that you would rather keep an idea safe than see it used.",
+              "cost_self": "Keeping it in keeps it from being judged. Inside is where an idea stays safe, so you hold yours back until perfect rather than let it out rough. Do not forget that you lose the chance to be heard while waiting to be ready.",
+              "cost_others": "You keep in what others could use. A thought let out early feels broken to you, so you hold it in rather than hand it over. Remember how much more you help with half an answer than with a whole one never said."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "You are hard to reach even from across the table. Most of you lives in an unfinished thought, and you would rather finish it than answer the person in front of you. Remember you are only as reachable as the part that surfaces.",
+              "cost_self": "Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You already know that you trade closeness for that thread, and closeness does not wait.",
+              "cost_others": "Hard to reach means a thought is unfinished, and most of yours are. Finishing it comes ahead of the message, and you charge the person waiting in days. Remind yourself that you are worth more fully there than mostly away."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Deep-diving",
+            "angles": {
+              "drive": "Your mind goes down where others skim across. A subject catches you and you vanish into it for weeks, surfacing with pearls nobody knew were down there. The depth is the method: what you understand, you understand from the floor up.",
+              "cost_self": "The two-hour documentary became a four-month descent through library loans, forum archives, and one email exchange with a retired professor in Finland. When you finally explained it at dinner, simply and completely, the family sat quiet. The dive had reached the bottom of something.",
+              "cost_others": "People ask you questions the way they lower buckets into wells, knowing the answer will come up cold and clear and from further down than expected. Experts double-check their own fields after talking to you. Nobody can tell where you find the time. The time is underwater."
+            }
+          },
+          {
+            "word": "Tide-reading",
+            "angles": {
+              "drive": "You sense turns before they announce themselves. The market mood, the friendship cooling, the industry current reversing: something in you registers the shift while the surface still looks calm. You rarely explain the read, because the read arrives without paperwork.",
+              "cost_self": "You moved your savings in September, citing a feeling with no citation. In November the sector everyone loved gave back three years of gains. Your brother-in-law asked how you knew. You said the water felt different, which was true and did not help him.",
+              "cost_others": "People have learned to note your quiet exits: from stocks, from projects, from certain gatherings. The reasons surface months later wearing headlines. Being early looks like luck each individual time. Across twenty years it looks like an instrument nobody else was issued."
+            }
+          },
+          {
+            "word": "Subtle",
+            "angles": {
+              "drive": "Your influence works below the surface, in word choices and timing rather than announcements. You adjust one sentence in the proposal, one name on the invite list, one pause in the conversation, and outcomes shift downstream. Watching for your fingerprints is pointless. Water does not leave any.",
+              "cost_self": "The reconciliation between your two feuding friends took place, they believe, by accident, at a dinner that happened to include both, seated apart, near topics that happened to soften them. The accident took you three weeks to arrange. Neither has ever suspected a current.",
+              "cost_others": "People experience your presence as things going strangely smoothly. Meetings you attend reach agreement sooner, disputes near you lose their heat, and nobody can attribute any of it. Credit slides off you like rain, which is how you prefer it. The results stay."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Submerged",
+            "angles": {
+              "drive": "You live below your own surface. The real opinions, the real feelings, the real plans sit in deep water while a calm, pleasant version of you handles the daylight. People know the surface fluently. The rest of you has not taken visitors in years.",
+              "cost_self": "At your own birthday dinner, surrounded by people who love you, you had the familiar sensation of attending remotely. The laughing went fine. The thank-you speech went fine. On the drive home the quiet person in the deep finally exhaled, alone again, at last.",
+              "cost_others": "The people closest to you describe a wall of perfect friendliness with something unreadable behind the glass. They stopped diving for you after enough attempts came back empty-handed. Now everyone treads water together politely, and calls it knowing each other."
+            }
+          },
+          {
+            "word": "Fixated",
+            "angles": {
+              "drive": "When a subject takes you, it takes all of you. The research dive eats the evenings, the meals, the errands, and the surface duties of your life tread water while you are down there. The depth is real. So is everything floating unattended above it.",
+              "cost_self": "Three weeks into the deep dive, the fridge held ketchup and little else, the inbox held forty-one unread, and you knew more about the subject than almost anyone alive. Nobody had seen you. The obsession was fed daily. Everything else in the house was not.",
+              "cost_others": "People learn to date your disappearances by topic. Mention the current one and you surface, bright and full. Mention dinner and you drift back down. What you bring up from these dives is genuinely rare. What it costs is everything scheduled during them."
+            }
+          },
+          {
+            "word": "Unreachable",
+            "angles": {
+              "drive": "There is a depth in you that no line reaches. Partners, parents, and two good therapists have all paid out rope and come up short. It is not defense, exactly. It is that some final fathom of you has never once felt like surfacing was worth the pressure change.",
+              "cost_self": "In the middle of the hardest conversation of the marriage, the honest one, the one you both needed, your partner watched you descend mid-sentence: present, nodding, and gone. The words kept coming. The person behind them had left for somewhere deeper, and both of you knew it.",
+              "cost_others": "The people who love you have made peace, separately, with loving a horizon. They get the warmth, the humor, the company, everything but the bottom. Some stopped needing it. One or two still sit on the shore some evenings, watching the water not say anything."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Deep-diving",
+        "Tide-reading",
+        "Subtle"
+      ],
+      "friction": [
+        "Submerged",
+        "Fixated",
+        "Unreachable"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.base",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "mechanism.base",
+      "candidate": "Wood tames earth, the old texts say, because the gathered thing wins over the scattered one: a single root goes down through loose soil and the whole hillside learns to stay put. The ground loses nothing by it. Held by roots it keeps its rain, its weight and its harvest, where bare soil would wash away in one hard season. What wood takes from earth it gives back as shape.",
+      "original": "The concentrated prevails over the scattered, and so wood governs earth: the root threads the loose soil, binds it, and holds the slope that rain would otherwise carry away. Ground without roots erodes grain by grain. Gripped by the living tree, the same ground becomes terrace, garden, land worth naming.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "mechanism.base",
+      "candidate": "Wood beside wood makes a forest, the old texts say, and like gathers with like. A trunk that stands alone grows wide, and a trunk among others grows tall, because every tree reaches for the same light and drinks from the same ground. The one beside it is shelter and competition. Nothing is handed out in a forest. Height is taken, a season's growth at a time, by the trunk that reaches first.",
+      "original": "Things gather by kind, the Book of Changes says, and so wood stands with wood: one forest sharing one root system, every trunk raising the canopy that shelters the next seedling. There is no reaction here, only more of the same green force. A single tree is weather's toy. A forest makes its own weather.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "mechanism.base",
+      "candidate": "Water is the forest's first food, the old texts say. Rain comes down through the leaves and sinks to the roots, and the tree drinks what it cannot see. Nothing grows on dry ground. A season of steady rain raises the whole wood a hand higher, while a season of flood loosens the soil and sets the trunk adrift. The tree is only ever as tall as the water under it allows.",
+      "original": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "mechanism.base",
+      "candidate": "Fire sleeps inside wood, the old texts say, and the warmth sits in the grain long before any spark finds it. Dry branches ask to be lit. When the flame takes, the tree gives back in one bright hour what it spent whole seasons building. That is the bargain between them. Growth becomes light and timber becomes warmth, a thing grown quietly in the dark of the trunk and shown to everyone at once.",
+      "original": "Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "mechanism.base",
+      "candidate": "The hard overcomes the soft, the old texts say, and so metal has its way with wood. Left alone a tree grows every direction, tall and loose and full of shoots that lead nowhere. The knife gives it a shape. It takes the branch that crowds the crown, lets light in and squares the timber for a beam. Nothing in the grain asks for the edge, and all the tree becomes passes through it.",
+      "original": "The hard prevails over the soft, and so metal comes for wood: the shears meet the hedge, the saw meets the trunk, and wild growth learns the shape it could not find alone. Unpruned, a tree grows large and fruitless. Under the edge it loses branches and gains a harvest.",
+      "gate": "pass"
+    }
+  ]
+}

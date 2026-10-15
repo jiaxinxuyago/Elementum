@@ -1,0 +1,19 @@
+{
+  "$archetype": "木_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_土",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "You want what you can hold more than what you are promised, and that usually makes you slow to buy and slower to let go."
+  },
+  "$original": {
+    "cta_verdict": "You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "$archetype": "木_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_火",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Fire sleeps inside wood, the old texts say, and the warmth sits in the grain long before any spark finds it. Dry branches ask to be lit. When the flame takes, the tree gives back in one bright hour what it spent whole seasons building. That is the bargain between them. Growth becomes light and timber becomes warmth, a thing grown quietly in the dark of the trunk and shown to everyone at once.",
+      "catalyst_turn": "With too little Fire, the wood piles up unlit, growth stacked with no flame to turn it into light. What you make stays inside the trunk. Show one rough thing before it feels finished.",
+      "friction_turn": "With too much Fire, the flame draws on green wood, taking sap the tree needs for growing. Everything said costs something unbuilt. Take one quiet evening in for every loud thing out."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The wood piles up unlit, growth stacked with no flame to turn it into light.",
+        "remedy": "Show one rough thing before it feels finished."
+      },
+      "friction": {
+        "clause": "The flame draws on green wood, taking sap the tree needs for growing.",
+        "remedy": "Take one quiet evening in for every loud thing out."
+      },
+      "wide": {
+        "clause": "Fire is easy for you to reach, the light every season of growing was for.",
+        "remedy": "Use it. Say the thing, show the work, let it be seen."
+      },
+      "missing": {
+        "clause": "No flame in the wood at all, growth with nowhere to show and no warmth given off.",
+        "remedy": "Borrow a flame, one listener and one thing shown."
+      },
+      "spared": {
+        "clause": "Nothing burns the wood, and a thin trunk keeps all its sap for itself.",
+        "remedy": "Leave it unlit. Grow first, show later."
+      },
+      "thin": {
+        "clause": "A small flame on thin wood, enough to warm the house and too small to eat the tree.",
+        "remedy": "Keep it small. One thing out for every two in."
+      },
+      "excess": {
+        "clause": "The fire outgrows the wood that feeds it, and the whole tree burns away as light.",
+        "remedy": "Stop feeding it. Rest, read, let the wood come back."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, it opens too rarely, and you give quietly rather than perform what you are good at. You keep a talent waiting that deserves an audience.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, it never shuts. You please people as much as you prove them wrong, and you pay for every word with sleep you skip.",
+      "advise_catalyst": "You hold your work in until it is perfect, and perfect never comes. Let the rough version out. Play the half-written song for one friend. Post the drawing with the mistake left in. Tell a child the story before you know its ending. Say one unchecked opinion out loud.",
+      "advise_friction": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it hold what Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning."
+    },
+    "cta_verdict": "You come alive when something you made gets seen, and most weeks you judge yourself by how much of you got out."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
+      "catalyst_turn": "Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch.",
+      "friction_turn": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The wood stays green: years of growth and nothing kindled, reach without light.",
+        "remedy": "Show the work, tell the story, let it catch."
+      },
+      "friction": {
+        "clause": "The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.",
+        "remedy": "Bank the fire and let some growth stand."
+      },
+      "wide": {
+        "clause": "Fire is all around you, the light everything you grow was reaching for.",
+        "remedy": "Show more of the work. It is ready."
+      },
+      "missing": {
+        "clause": "Nothing kindled: years of growth and no light on any of it.",
+        "remedy": "Borrow fire: put one piece in front of people."
+      },
+      "spared": {
+        "clause": "Fire runs absent, and the wood stays green: nothing burned early, nothing announced.",
+        "remedy": "Keep it green. Show the work once it is finished."
+      },
+      "thin": {
+        "clause": "Fire runs thin and unwanted: a small flame, easy to bank.",
+        "remedy": "Bank it. Let growth stand."
+      },
+      "excess": {
+        "clause": "Too much fire burns the wood: everything lit as it grows, the tree spent on its own light.",
+        "remedy": "Bank the fire. Grow in the dark a while."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Expression, and as a catalyst, it is where what you have built becomes visible: presenting, hosting, putting your name on the work. Visibility feeds you more than you expect.",
+      "definition_friction": "Fire is your Expression, and as a friction, it is visibility outrunning capacity: announcing early, performing energy you do not have, saying yes on stage and paying for it offstage.",
+      "advise_catalyst": "Light is part of how work finishes. Show one finished thing a week, publicly and on purpose. Say yes to the toast, the talk, the intro. When something stalls, share it half-done and let being seen restart it.",
+      "advise_friction": "An audience is a loan against tomorrow. Borrow less: pull the launch dates back by half, decline one appearance a month, and let the next thing be seen only when it is done. Practice being unimpressive in safe company."
+    },
+    "cta_verdict": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

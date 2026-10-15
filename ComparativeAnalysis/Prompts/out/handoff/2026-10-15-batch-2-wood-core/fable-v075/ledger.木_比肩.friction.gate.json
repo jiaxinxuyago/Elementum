@@ -1,0 +1,95 @@
+{
+ "file": "ledger.木_比肩.friction.json",
+ "page": "The friction ledger of 木_比肩 (Wood carrying The Twin) on a Wood core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[1] :: outside the zone (not blocking): shortfall",
+  "ledger[1] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[1] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[2] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[3] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[4] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Admitting a mistake feels like losing part of yourself, and you defend\"",
+  "ledger[4] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[5] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[6] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You keep that distance for safety, and it keeps the company out as wel\"",
+  "ledger[6] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[6] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[7] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[7] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[8] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[8] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[8] :: a word used twice (reached; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: a word used twice (days, whole; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: none of the chip's words (\"Asks no one\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[3]#b :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[6]#b :: a word used twice (step; B11, a note: vary it unless the repeat carries the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 1,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 1,
+  "ledger[4]": 1,
+  "ledger[5]": 0,
+  "ledger[6]": 1,
+  "ledger[7]": 0,
+  "ledger[8]": 0,
+  "ledger[0]#b": 0,
+  "ledger[3]#b": 0,
+  "ledger[6]#b": 0
+ },
+ "zone": null,
+ "pass": true
+}

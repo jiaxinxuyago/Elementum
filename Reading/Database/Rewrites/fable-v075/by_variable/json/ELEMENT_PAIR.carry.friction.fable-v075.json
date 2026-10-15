@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.friction",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The ground outweighs the roots: more to hold than one trunk carries.",
+        "remedy": "Rest before you take on more ground."
+      },
+      "original": {
+        "clause": "The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed.",
+        "remedy": "Hold less hillside, hold it deeper."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The trunk thickens past any use for it.",
+        "remedy": "Give one thing a hard deadline and finish it."
+      },
+      "original": {
+        "clause": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.",
+        "remedy": "Thin the branches and let the forest breathe."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "the ground goes soft under the tree and the roots drink past the point of growing",
+        "remedy": "Set one plan on firm ground and build it."
+      },
+      "original": {
+        "clause": "The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.",
+        "remedy": "Trees also need sun."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The flame draws on green wood, taking sap the tree needs for growing.",
+        "remedy": "Take one quiet evening in for every loud thing out."
+      },
+      "original": {
+        "clause": "The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.",
+        "remedy": "Bank the fire and let some growth stand."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "the knife outruns the tree and every new shoot meets the edge",
+        "remedy": "Let one thing grow a season before anyone judges it."
+      },
+      "original": {
+        "clause": "The cutting never stops: cut after cut until growing feels like a fault.",
+        "remedy": "Step back from blades that prune for pruning’s sake."
+      },
+      "gate": "pass"
+    }
+  ]
+}

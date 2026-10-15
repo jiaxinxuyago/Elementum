@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "水_偏印",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Goes deep",
+        "Reads people",
+        "Self-taught"
+      ],
+      "friction": [
+        "Thinks too much",
+        "Keeps it in",
+        "Hard to reach"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Goes deep",
+            "angles": {
+              "drive": "You go deep or not at all. A subject has to hold you before it gives anything back, so you would rather know one field deep than ten wide. Keep bringing something up, because the way down was only ever yours."
+            }
+          },
+          {
+            "word": "Reads people",
+            "angles": {
+              "drive": "You read the gap in a conversation sooner than the words. Sensing the shape underneath keeps you safe, and you act on that shape rather than wait for it to be named. Ask for the words anyway, since an unchecked reading stays a guess."
+            }
+          },
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "The things you know best, you taught yourself. Being told never stuck the way your own trying did, and you would rather work a thing out than be shown. You pay for it in the steps you can never show anyone."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Thinks too much",
+            "angles": {
+              "drive": "You think every decision through one round too many. The thinking is the part you trust, and a thing you have understood feels finished to you whether you did it or not. Remember that you can understand a step completely without having taken it."
+            }
+          },
+          {
+            "word": "Keeps it in",
+            "angles": {
+              "drive": "Taking in comes to you far more easily than letting out. Everything you learn goes into a store only you have the key to, since inside is where it stays safe. Bear in mind that what you keep in never gets to count."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "Reaching you takes a while. Your thinking runs deeper than most conversations go, and you would rather stay down there than come up for small talk. Remember that your quiet feels like distance to anyone on the other side of it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Deep-diving",
+            "angles": {
+              "drive": "Your mind goes down where others skim across. A subject catches you and you vanish into it for weeks, surfacing with pearls nobody knew were down there. The depth is the method: what you understand, you understand from the floor up."
+            }
+          },
+          {
+            "word": "Tide-reading",
+            "angles": {
+              "drive": "You sense turns before they announce themselves. The market mood, the friendship cooling, the industry current reversing: something in you registers the shift while the surface still looks calm. You rarely explain the read, because the read arrives without paperwork."
+            }
+          },
+          {
+            "word": "Subtle",
+            "angles": {
+              "drive": "Your influence works below the surface, in word choices and timing rather than announcements. You adjust one sentence in the proposal, one name on the invite list, one pause in the conversation, and outcomes shift downstream. Watching for your fingerprints is pointless. Water does not leave any."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Submerged",
+            "angles": {
+              "drive": "You live below your own surface. The real opinions, the real feelings, the real plans sit in deep water while a calm, pleasant version of you handles the daylight. People know the surface fluently. The rest of you has not taken visitors in years."
+            }
+          },
+          {
+            "word": "Fixated",
+            "angles": {
+              "drive": "When a subject takes you, it takes all of you. The research dive eats the evenings, the meals, the errands, and the surface duties of your life tread water while you are down there. The depth is real. So is everything floating unattended above it."
+            }
+          },
+          {
+            "word": "Unreachable",
+            "angles": {
+              "drive": "There is a depth in you that no line reaches. Partners, parents, and two good therapists have all paid out rope and come up short. It is not defense, exactly. It is that some final fathom of you has never once felt like surfacing was worth the pressure change."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Deep-diving",
+        "Tide-reading",
+        "Subtle"
+      ],
+      "friction": [
+        "Submerged",
+        "Fixated",
+        "Unreachable"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

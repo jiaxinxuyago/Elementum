@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "金_七杀",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Takes charge",
+        "Thrives under pressure",
+        "Decides fast"
+      ],
+      "friction": [
+        "Hard on yourself",
+        "Never off duty",
+        "Pushes too hard"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "You take charge the moment something starts going wrong. Being in charge gives your push a direction, and you reach for it ahead of comfort every time. Let the calm after count too, because every charge you take costs you some rest."
+            }
+          },
+          {
+            "word": "Thrives under pressure",
+            "angles": {
+              "drive": "You thrive under pressure the way others thrive on praise. Pressure shapes your force, and that is why you take the harder task ahead of the easy one. Enjoy that, and know an easy season with no pressure feels like a loss."
+            }
+          },
+          {
+            "word": "Decides fast",
+            "angles": {
+              "drive": "You decide fast because being wrong sits easier with you than waiting. Metal runs short in you, and one firm decision gives your push the shape it was missing. Trust that, and let the full picture catch up before the next decision."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "You are harder on yourself than any boss would dare be. Being correct matters more to you than being well, and you grade your week hard instead of living it. Remember that passing your own hard test is permitted."
+            }
+          },
+          {
+            "word": "Never off duty",
+            "angles": {
+              "drive": "Being off duty is the one order you refuse to take. Pressure is the only state you trust, and you stay on duty through a quiet month instead of resting in it. Do not forget that you lost nothing when the duty ended."
+            }
+          },
+          {
+            "word": "Pushes too hard",
+            "angles": {
+              "drive": "You push too hard because stopping feels more dangerous than pushing. You push yourself first and everyone near you after, since pressure is the one tool you fully trust. You get to set the push down too, and that part is worth keeping."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Battle-ready",
+            "angles": {
+              "drive": "Readiness is your resting state. The plan B exists before plan A launches, the difficult conversation is pre-rehearsed, the go-bag, literal or mental, stays packed. When trouble finally arrives it finds you already dressed, and the calm of the prepared is your signature entrance."
+            }
+          },
+          {
+            "word": "Disciplined",
+            "angles": {
+              "drive": "Your discipline is structural steel, not decoration. The habit holds on the bad days, which is the only measurement that counts: the routine survives travel, illness, and success, each of which kills most people’s systems. What you commit to becomes load-bearing, permanently."
+            }
+          },
+          {
+            "word": "Surgical",
+            "angles": {
+              "drive": "Your interventions are exact. Where others swing wide, you find the one line to cut, the one word to change, the one person to call, and the problem separates cleanly from the situation. Minimal force, placed precisely: it looks effortless and is actually aim."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Punishing",
+            "angles": {
+              "drive": "Your corrections carry more force than the error weighed. The missed detail gets a review nobody forgets, the small failure gets a consequence with edges, and people leave your feedback sessions altered. Standards were the point once. The punishment developed its own appetite."
+            }
+          },
+          {
+            "word": "Ruthless",
+            "angles": {
+              "drive": "When the goal requires it, feelings become line items. The loyal supplier gets cut for two percent, the friendship pauses during the competition, the underperformer is gone before their chair cools. Efficiency this clean wins consistently, and keeps winning things that turn out to have been load-bearing."
+            }
+          },
+          {
+            "word": "Blunted",
+            "angles": {
+              "drive": "Your edge dulled from overuse. The intensity that once cut through anything now grinds through everything: the same force applied to birthday plans and board fights, the same siege posture at breakfast. Constant hardness is not sharpness. Somewhere in the years of pressing, the actual edge left."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Battle-ready",
+        "Disciplined",
+        "Surgical"
+      ],
+      "friction": [
+        "Punishing",
+        "Ruthless",
+        "Blunted"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

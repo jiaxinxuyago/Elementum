@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "土_偏财",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Far-sighted",
+        "Takes the chance",
+        "Shares the win"
+      ],
+      "friction": [
+        "Chases every chance",
+        "Spread too thin",
+        "Half-finished"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Far-sighted",
+            "angles": {
+              "drive": "You see what a thing will become before it looks like anything. Needing a way forward is how you feel safe, and that puts the far chance ahead of the near one. Trust that early sight, and keep track of what is already yours."
+            }
+          },
+          {
+            "word": "Takes the chance",
+            "angles": {
+              "drive": "Waiting for a better chance has never been your way. Being in motion steadies you, and it puts the chance you can take today ahead of any promised for later. Take it, and know that moving early means paying for a few that go nowhere."
+            }
+          },
+          {
+            "word": "Shares the win",
+            "angles": {
+              "drive": "Sharing what you win comes more naturally to you than banking it. A win that stays with you feels unfinished, and that puts giving it away ahead of keeping it. Share it, and count what is missing from the bank as a price you chose."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases every chance",
+            "angles": {
+              "drive": "Every new chance pulls at you harder than the one you already took. You need the feeling of a beginning more than a middle, and chasing is how you get it. Remember that the one you are standing in was the one you chased."
+            }
+          },
+          {
+            "word": "Spread too thin",
+            "angles": {
+              "drive": "Spreading yourself across every venture feels safer to you than trusting one. One thing failing would take you with it, so you keep a piece of everything instead of the whole of anything. Notice that being this spread out keeps you busy rather than safe."
+            }
+          },
+          {
+            "word": "Half-finished",
+            "angles": {
+              "drive": "You start at full strength and finish on what is left. Being new suits you better than being done, and the end asks for strength you spent at the start. Bear in mind how much of the value sits in the part you leave undone."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Shrewd",
+            "angles": {
+              "drive": "Reading the real value of things is your standing talent, and it works on houses, people, and offers alike. You see the water damage behind the fresh paint and the good bones behind the ugly listing. Bad deals rarely survive your first slow walk around them."
+            }
+          },
+          {
+            "word": "Well-traveled",
+            "angles": {
+              "drive": "Ground you have personally covered is your actual education. Markets, cities, kitchens, border towns: you learn places by standing in them, and every trip quietly becomes inventory. When a decision needs context, you usually have some, bought at the price of having been there."
+            }
+          },
+          {
+            "word": "Overflowing",
+            "angles": {
+              "drive": "Plenty follows you around, and you spread it without doing the math. The garden overproduces, the table seats extras, the referral goes out before being asked for. Abundance is your operating assumption, and somehow the assumption keeps proving itself right."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Land-hungry",
+            "angles": {
+              "drive": "Wanting more ground is a hunger that eating does not fix. The bigger house asked for a better car, which asked for the second property, which asks nightly for a third. Each acquisition was supposed to be the last one. The hunger signs nothing and remembers nothing."
+            }
+          },
+          {
+            "word": "Never-settled",
+            "angles": {
+              "drive": "Staying put itches. Six months into any arrangement, your eyes drift to the exits: the next city, the next market, the next better setup. The moving was exciting the first several times. Somewhere along the way it stopped being motion toward anything and became the motion itself."
+            }
+          },
+          {
+            "word": "Spread-thin",
+            "angles": {
+              "drive": "Your holdings outgrew your hands a while ago. The properties, the side hustles, the commitments across three time zones all technically function, and all of them get a thinner slice of you each season. Everything is covered. Nothing is tended. The difference is starting to show."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Shrewd",
+        "Well-traveled",
+        "Overflowing"
+      ],
+      "friction": [
+        "Land-hungry",
+        "Never-settled",
+        "Spread-thin"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

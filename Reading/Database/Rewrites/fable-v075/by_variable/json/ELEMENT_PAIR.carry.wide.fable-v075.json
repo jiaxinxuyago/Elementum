@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.wide",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Earth is all around you, the ground your roots were made for.",
+        "remedy": "Use it. Claim one plot and work it to the end."
+      },
+      "original": {
+        "clause": "Earth is one thing you never run short of, the ground you were built to take root in.",
+        "remedy": "Commit to one of the places you already hold."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "There is no shortage of Water in you, the rain the whole forest drinks from.",
+        "remedy": "Drink from it. Learn one thing all the way down."
+      },
+      "original": {
+        "clause": "Water is already here in plenty, the rain the whole tree drinks from.",
+        "remedy": "Stop refilling. Grow something from what you already know."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Fire is easy for you to reach, the light every season of growing was for.",
+        "remedy": "Use it. Say the thing, show the work, let it be seen."
+      },
+      "original": {
+        "clause": "Fire is all around you, the light everything you grow was reaching for.",
+        "remedy": "Show more of the work. It is ready."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "There is no shortage of Metal in you, the knife a growing tree needs to take its shape.",
+        "remedy": "Use it. Finish one thing to the line this month."
+      },
+      "original": {
+        "clause": "You have plenty of Metal, the shears that turn growth into fruit.",
+        "remedy": "Accept the cut. Keep what survives the edit."
+      },
+      "gate": "pass"
+    }
+  ]
+}

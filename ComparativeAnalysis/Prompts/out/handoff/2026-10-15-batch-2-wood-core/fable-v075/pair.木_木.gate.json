@@ -1,0 +1,87 @@
+{
+ "file": "pair.木_木.json",
+ "page": "The energy page of Wood (your Body) for a Wood core, both poles and every state line (the cell is the repetition-law unit)",
+ "fields": {
+  "mechanism.base": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.catalyst_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.friction_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.friction": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.unrooted": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.excess": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.thin": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "function.definition_catalyst :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "cta_verdict :: a sentence with 4 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You hold yourself up by growing, so you feel strongest while something\"",
+  "cta_verdict :: no tension sentence seen (D9, a note on a verdict; the read decides)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "mechanism.base": 1,
+  "mechanism.catalyst_turn": 1,
+  "carry.catalyst": 0,
+  "mechanism.friction_turn": 1,
+  "carry.friction": 0,
+  "carry.unrooted": 0,
+  "carry.excess": 0,
+  "carry.thin": 0,
+  "function.definition_catalyst": 0,
+  "function.definition_friction": 0,
+  "function.advise_catalyst": 0,
+  "function.advise_friction": 0,
+  "cta_verdict": 1,
+  "cta_verdict#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

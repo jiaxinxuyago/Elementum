@@ -1,0 +1,19 @@
+{
+  "$archetype": "木_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_金",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "Your growth takes its shape from whoever sets your rules, and you finish more under pressure from outside than under any plan of your own."
+  },
+  "$original": {
+    "cta_verdict": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  }
+}

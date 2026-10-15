@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.friction_turn",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Earth, the ground outweighs the roots: more to hold than one trunk carries, and it bends toward breaking while still saying yes. Rest before you take on more ground.",
+      "original": "Run heavy, the holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. Hold less hillside, hold it deeper.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Wood, the trunk thickens past any use for it, and growth that nothing shaped bends for no one. Give one thing a hard deadline and finish it.",
+      "original": "Run heavy, the canopy closes: growth so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Water, the ground goes soft under the tree and the roots drink past the point of growing. Set one plan on firm ground and build it.",
+      "original": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Fire, the flame draws on green wood, taking sap the tree needs for growing. Everything said costs something unbuilt. Take one quiet evening in for every loud thing out.",
+      "original": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Metal, the knife outruns the tree and every new shoot meets the edge. Nothing stands long enough to bear. Let one thing grow a season before anyone judges it.",
+      "original": "Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake.",
+      "gate": "pass"
+    }
+  ]
+}

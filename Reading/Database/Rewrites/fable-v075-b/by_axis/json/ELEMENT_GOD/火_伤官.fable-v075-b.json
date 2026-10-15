@@ -1,0 +1,135 @@
+{
+  "$archetype": "火_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "火_伤官",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Speaks up",
+        "Born performer",
+        "Thinks fast"
+      ],
+      "friction": [
+        "Talks back",
+        "Needs an audience",
+        "Overdoes it"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Speaks up",
+            "angles": {
+              "drive": "Speaking up costs you less than staying quiet does. You carry an unsaid thing like a weight, and saying it comes sooner than wishing you had. Say it anyway, and mind the price, that you spend goodwill faster than you earn it."
+            }
+          },
+          {
+            "word": "Born performer",
+            "angles": {
+              "drive": "Performing comes to you more naturally than anything else. You come alive with people watching, and that puts the show ahead of the rehearsal every time. Keep performing, and take the price with it, that you feel most real when watched."
+            }
+          },
+          {
+            "word": "Thinks fast",
+            "angles": {
+              "drive": "Thinking fast is your natural speed. You trust a quick answer more than a considered one, and you prefer nearly right now to fully right later. Keep the speed, with an eye on the cost, that you are sometimes only quick."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Talks back",
+            "angles": {
+              "drive": "You talk back before you have decided whether it is worth it. You read a rule you did not write as an insult, and you pick trouble over being quiet. Keep in mind, you can stay quiet without giving in."
+            }
+          },
+          {
+            "word": "Needs an audience",
+            "angles": {
+              "drive": "Needing an audience is the one need you never admit. You count nothing as real until it is seen, so you do it in front of people rather than alone. Worth noticing that you spend yourself on a crowd that never asked."
+            }
+          },
+          {
+            "word": "Overdoes it",
+            "angles": {
+              "drive": "Overdoing it is the only way you know. You feel a thing done at normal size as holding back, and you add more ahead of asking whether more was wanted. Keep sight of this, that you cover the extra yourself, and it rarely lands."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Dazzling",
+            "angles": {
+              "drive": "When you switch on, everyone else becomes background lighting. The presentation, the toast, the argument you decide to win in style: your output has wattage that cannot be taught, and attention finds you the way moths find porch lights, reliably and a little helplessly."
+            }
+          },
+          {
+            "word": "Quick-witted",
+            "angles": {
+              "drive": "Your mind moves at spark speed. The comeback arrives while the setup is still landing, the solution mid-question, the joke exactly on the beat. In fast company you are the fastest thing present, and slow company speeds up around you out of self-respect."
+            }
+          },
+          {
+            "word": "White-hot",
+            "angles": {
+              "drive": "At full intensity you do in hours what committees do in quarters. The deadline crunch, the final rehearsal, the last mile: your heat concentrates into something close to alarming, and the output comes back changed from the inside out. Nobody asks what it costs. It visibly costs."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Provocative",
+            "angles": {
+              "drive": "You poke things to watch them jump. The needling question at the calm dinner, the opinion calibrated to singe, the topic everyone buried, exhumed by you at speed. Reaction is your proof of life, and peace, in your hands, keeps getting tested for flammability."
+            }
+          },
+          {
+            "word": "Scene-stealing",
+            "angles": {
+              "drive": "Attention is oxygen, and you take yours from whoever currently holds it. The birthday girl, the grieving widow, the colleague mid-triumph: within minutes the light has somehow bent toward you, and you honestly did not plan it. The reflex plans it. You just execute."
+            }
+          },
+          {
+            "word": "Combustible",
+            "angles": {
+              "drive": "Your anger exits through your mouth, fully phrased. Where others slam doors, you produce sentences, sharp, quotable, and aimed, and the fire is out of you before you can review the wording. The words were burning. Everyone burned by them remembers the phrasing exactly."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Dazzling",
+        "Quick-witted",
+        "White-hot"
+      ],
+      "friction": [
+        "Provocative",
+        "Scene-stealing",
+        "Combustible"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

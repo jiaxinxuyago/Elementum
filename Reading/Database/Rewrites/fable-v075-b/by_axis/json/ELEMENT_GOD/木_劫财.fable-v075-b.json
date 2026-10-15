@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_劫财",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Goes first",
+        "Loves a race",
+        "Shares the risk"
+      ],
+      "friction": [
+        "Bets too big",
+        "Never stops racing",
+        "Spends shared money"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Goes first",
+            "angles": {
+              "drive": "Going first is how you find out if a thing is real. Being bold costs less than being left behind, and you go ahead of knowing where you land. You spend yourself going first, and one turn handed away gives some of it back."
+            }
+          },
+          {
+            "word": "Loves a race",
+            "angles": {
+              "drive": "Whenever a race starts near you, you find new speed. Being compared reads as a reason, and you chase another's lead instead of starting from nothing. You love the race more than the finish, and letting one go costs you nothing you would miss."
+            }
+          },
+          {
+            "word": "Shares the risk",
+            "angles": {
+              "drive": "Sharing the risk is the first thing you offer. You like a bet best with someone else's name beside yours, because carrying it alone turns daring into worry. You split the risk ahead of measuring it, and measuring first keeps the friendship whole."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Bets too big",
+            "angles": {
+              "drive": "Betting too big is a reflex for you more than a decision. Winning small never feels like proof, and you raise the stake ahead of checking what sits under it. Keep in mind that only the bet you can afford to lose is really yours."
+            }
+          },
+          {
+            "word": "Never stops racing",
+            "angles": {
+              "drive": "The finish is the one thing you cannot want. There is more of you than one race can use, and you keep running past the line instead of standing on it. Remember that no race ends on its own, and stopping is something you decide."
+            }
+          },
+          {
+            "word": "Spends shared money",
+            "angles": {
+              "drive": "Where money is shared, you treat it as yours first. Spending it feels like momentum, and momentum matters more to you than the split. You spend shared money fastest when you are surest, and surest is not the same as right."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fast-climbing",
+            "angles": {
+              "drive": "Upward is your body’s default direction, and speed is its signature. New job, new ladder, new wall: you find the holds faster than anyone expects, and you are halfway up before the group finishes stretching. Height that takes others years takes you seasons."
+            }
+          },
+          {
+            "word": "Gutsy",
+            "angles": {
+              "drive": "Nerve is your renewable resource. You ask for the number with a straight face, take the shot with the game on the line, sign up before feeling ready. Fear shows up on schedule and finds you already moving, which it never quite gets used to."
+            }
+          },
+          {
+            "word": "Rivalry-fueled",
+            "angles": {
+              "drive": "Competition is your fertilizer. A rival in the field and your growth doubles: the training sharpens, the hours deepen, the work finds another gear you did not know the engine had. You do not resent your rivals. You privately thank them, at the finish line."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overreaching",
+            "angles": {
+              "drive": "Your reach consistently files claims your foundations cannot fund. The bigger title, the second loan, the bet sized for the person you plan to become: each grab lands just past stable, and the wobble afterward is now a recognizable season of your life."
+            }
+          },
+          {
+            "word": "Turf-guarding",
+            "angles": {
+              "drive": "Your patch gets defended with energy the patch itself never asked for. The account, the role, the recipe, the driving route: colleagues, siblings, and once a wedding DJ have all met the fence unexpectedly. Sharing feels like shrinking. So the fence grows instead."
+            }
+          },
+          {
+            "word": "Impulsive",
+            "angles": {
+              "drive": "Your body signs before your mind reads. The quit, the purchase, the lane change, the reply-all: executed at growth speed, reviewed at leisure. Some of your best outcomes started this way, which is the problem, because so did all of your worst ones."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fast-climbing",
+        "Gutsy",
+        "Rivalry-fueled"
+      ],
+      "friction": [
+        "Overreaching",
+        "Turf-guarding",
+        "Impulsive"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

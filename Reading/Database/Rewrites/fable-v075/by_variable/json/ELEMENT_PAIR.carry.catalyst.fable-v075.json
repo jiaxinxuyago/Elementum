@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.catalyst",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The roots have nothing to grip: all growth and no ground to claim.",
+        "remedy": "Pick one thing worth owning and get it."
+      },
+      "original": {
+        "clause": "The roots float: plenty of reaching, nothing held, growth with no ground under it.",
+        "remedy": "Buy in, commit, root somewhere real."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The trunk is thin for the height it carries.",
+        "remedy": "Rest and eat before you reach again."
+      },
+      "original": {
+        "clause": "The trunk doubts itself: direction borrowed, growth waiting for permission.",
+        "remedy": "Start something and let it grow visibly yours."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "the forest grows on thin rain, every new leaf paid from the trunk's own store",
+        "remedy": "Sit with one slow book before the next decision."
+      },
+      "original": {
+        "clause": "The canopy outpaces the rain: ambition still reaching while the soil dries.",
+        "remedy": "Rest, read, go quiet and refill."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The wood piles up unlit, growth stacked with no flame to turn it into light.",
+        "remedy": "Show one rough thing before it feels finished."
+      },
+      "original": {
+        "clause": "The wood stays green: years of growth and nothing kindled, reach without light.",
+        "remedy": "Show the work, tell the story, let it catch."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "the tree grows every way at once and nothing prunes it into a shape",
+        "remedy": "Take on one rule you did not write and keep it."
+      },
+      "original": {
+        "clause": "Nothing prunes you: growth in every direction and fruit in none.",
+        "remedy": "Invite the standard, the editor, the coach with shears."
+      },
+      "gate": "pass"
+    }
+  ]
+}

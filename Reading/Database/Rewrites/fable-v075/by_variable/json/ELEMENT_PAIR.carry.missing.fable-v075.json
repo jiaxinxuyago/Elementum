@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.missing",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No ground for the roots to take: growth that lands nowhere and claims nothing.",
+        "remedy": "Borrow ground: a budget, a lease, one thing paid off."
+      },
+      "original": {
+        "clause": "No ground to root in: reach with nothing held, ambition that never lands.",
+        "remedy": "Borrow ground: one commitment, kept."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No rain reaches the roots, so the tree grows on whatever the air gives it.",
+        "remedy": "Borrow rain. A teacher, a library card, one quiet hour."
+      },
+      "original": {
+        "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
+        "remedy": "Borrow water: rest, reading, one quiet hour."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No flame in the wood at all, growth with nowhere to show and no warmth given off.",
+        "remedy": "Borrow a flame, one listener and one thing shown."
+      },
+      "original": {
+        "clause": "Nothing kindled: years of growth and no light on any of it.",
+        "remedy": "Borrow fire: put one piece in front of people."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No knife near the tree, so growth goes wherever it likes and nothing gets finished.",
+        "remedy": "Borrow a rule, a deadline or someone above you."
+      },
+      "original": {
+        "clause": "Nothing prunes the growth: reach in every direction, fruit in none.",
+        "remedy": "Borrow the knife: an editor, a coach, a rule."
+      },
+      "gate": "pass"
+    }
+  ]
+}

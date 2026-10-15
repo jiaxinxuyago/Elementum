@@ -1,0 +1,22 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.unrooted",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_木",
+      "field": "carry.unrooted",
+      "candidate": {
+        "clause": "Wood with no root under it, a trunk on borrowed ground, upright only while the weather holds.",
+        "remedy": "Borrow roots. Keep one routine and one early bedtime."
+      },
+      "original": {
+        "clause": "The self stands without roots: growth on will alone, direction borrowed.",
+        "remedy": "Feed the self. Start something visibly yours."
+      },
+      "gate": "pass"
+    }
+  ]
+}

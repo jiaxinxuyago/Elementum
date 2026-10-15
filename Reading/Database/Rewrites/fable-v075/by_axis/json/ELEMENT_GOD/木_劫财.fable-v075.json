@@ -1,0 +1,165 @@
+{
+  "$archetype": "木_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "木_劫财",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Goes first",
+        "Loves a race",
+        "Shares the risk"
+      ],
+      "friction": [
+        "Bets too big",
+        "Never stops racing",
+        "Spends shared money"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Goes first",
+            "angles": {
+              "drive": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. You pay for going first in landings taken alone, and asking one person along changes that.",
+              "cost_self": "Where the signal has not come, you have already gone. Being the one who moved counts for more than being the one who was ready. You take the first loss alone each time you go, and one person told beforehand would halve it.",
+              "cost_others": "Plan or no plan, you go first and let the rest catch up. Moving matters more than agreeing, and that puts your people a step behind their own decision. Wait one beat, because going first takes from them the chance to choose it with you."
+            }
+          },
+          {
+            "word": "Loves a race",
+            "angles": {
+              "drive": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, and you can let one end without losing anything.",
+              "cost_self": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep. You pay for each race in sleep not made up, and sitting one out costs you nothing.",
+              "cost_others": "You turn most shared things into a race. Winning beside someone matters more than being beside them, and that turns a friend into a finish line. Run one thing with them instead of against them, because racing costs them the company they came for."
+            }
+          },
+          {
+            "word": "Shares the risk",
+            "angles": {
+              "drive": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. You share the risk ahead of sizing it, and one look is cheap.",
+              "cost_self": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. You share each loss as readily as each win, and the money not kept is your price.",
+              "cost_others": "Your bets come with other people's names on them. You would rather share the risk than own the call, and that puts their money where your nerve is. Ask before counting them in, because shared risk takes from them a choice they never made."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Bets too big",
+            "angles": {
+              "drive": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. Remember that a bet sized for next year is paid for this year.",
+              "cost_self": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose in money not kept the bet you did not need, a number worth remembering.",
+              "cost_others": "Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. Bear in mind that a bet too big for you is also a bet with their savings."
+            }
+          },
+          {
+            "word": "Never stops racing",
+            "angles": {
+              "drive": "Whenever you finish, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next instead of keeping the win, and the win was the point.",
+              "cost_self": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You lose each win to the next race, and the rest you never take is the thing to remember.",
+              "cost_others": "Win or lose, you keep racing people who stopped a while ago. Staying ahead matters more than staying close, and that turns a friend into someone to beat. You take from them, by racing someone who stopped, the ease of just being with you."
+            }
+          },
+          {
+            "word": "Spends shared money",
+            "angles": {
+              "drive": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. Remember that what you spend from the pot is also somebody's savings.",
+              "cost_self": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and that is the part to hold onto.",
+              "cost_others": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. It is worth remembering that spending shared money takes their say along with it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fast-climbing",
+            "angles": {
+              "drive": "Upward is your body’s default direction, and speed is its signature. New job, new ladder, new wall: you find the holds faster than anyone expects, and you are halfway up before the group finishes stretching. Height that takes others years takes you seasons.",
+              "cost_self": "You joined in March as the junior hire and by December were running the standup, through momentum rather than coup. The org chart caught up to reality in the spring. Somebody checked the dates twice, assuming a typo. The dates were right.",
+              "cost_others": "Peers track your ascent with a mix of inspiration and vertigo. Some train harder because you exist, which you would take as the highest compliment. The ones who resent it are mostly resenting the mirror. You climb past both kinds without slowing."
+            }
+          },
+          {
+            "word": "Gutsy",
+            "angles": {
+              "drive": "Nerve is your renewable resource. You ask for the number with a straight face, take the shot with the game on the line, sign up before feeling ready. Fear shows up on schedule and finds you already moving, which it never quite gets used to.",
+              "cost_self": "You asked for forty percent above the posted range, out loud, in the actual meeting, while your co-applicants asked for the midpoint. The pause lasted four seconds. You got thirty-two percent and a reputation. Both are still compounding.",
+              "cost_others": "People borrow your nerve for their own risky moments, asking what you would do and then, crucially, whether you would come along. You usually would. Half your circle’s boldest stories feature you standing just off-camera, having dared them into the frame."
+            }
+          },
+          {
+            "word": "Rivalry-fueled",
+            "angles": {
+              "drive": "Competition is your fertilizer. A rival in the field and your growth doubles: the training sharpens, the hours deepen, the work finds another gear you did not know the engine had. You do not resent your rivals. You privately thank them, at the finish line.",
+              "cost_self": "The gym was dying at six in the morning until the newcomer started matching your pace. Within a month you were both twenty percent stronger and nodding like diplomats. Neither of you has ever named the arrangement. Both of you check the other’s numbers first.",
+              "cost_others": "Coaches and managers quietly use you as the pace car, placing you near whoever needs pushing. It works every time. The people you pull upward mostly like you, once they recover, and the record boards in several places carry the results of arguments you started."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overreaching",
+            "angles": {
+              "drive": "Your reach consistently files claims your foundations cannot fund. The bigger title, the second loan, the bet sized for the person you plan to become: each grab lands just past stable, and the wobble afterward is now a recognizable season of your life.",
+              "cost_self": "The renovation budget was set, then exceeded by the better tiles, then by the wall that became optional, then structural, then gone. The house is beautiful and the debt has a view. You have started describing year five of the two-year plan as phase two.",
+              "cost_others": "Lenders, partners, and family have all developed the same small pause before your proposals. They have watched the pattern: brilliant start, stretched middle, scramble. They still say yes, usually at reduced exposure, and keep a quiet reserve for the scramble."
+            }
+          },
+          {
+            "word": "Turf-guarding",
+            "angles": {
+              "drive": "Your patch gets defended with energy the patch itself never asked for. The account, the role, the recipe, the driving route: colleagues, siblings, and once a wedding DJ have all met the fence unexpectedly. Sharing feels like shrinking. So the fence grows instead.",
+              "cost_self": "The new colleague suggested a small improvement to your process, and your reply, though polite, contained a full title deed. The improvement was good. It surfaced eight months later from someone else and you fought it again, on principle, before quietly adopting it.",
+              "cost_others": "People pitch changes to your areas through intermediaries now, or wrapped as your own idea returned. It works, which is its own commentary. The domain stays yours and stays smaller than it would be, and everyone but you has done that math."
+            }
+          },
+          {
+            "word": "Impulsive",
+            "angles": {
+              "drive": "Your body signs before your mind reads. The quit, the purchase, the lane change, the reply-all: executed at growth speed, reviewed at leisure. Some of your best outcomes started this way, which is the problem, because so did all of your worst ones.",
+              "cost_self": "You resigned on a Tuesday over a scheduling slight, without a plan, with a mortgage. It worked out, eventually, which is the version the story leads with. The four months in the middle, the ones your partner remembers differently, get summarized as a transition.",
+              "cost_others": "Your circle has a protocol for your announcements: wait forty-eight hours before reacting, because half of them reverse. The other half were already executed. People love the aliveness and have learned to keep helmets nearby. Somebody usually rides along, bracing."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fast-climbing",
+        "Gutsy",
+        "Rivalry-fueled"
+      ],
+      "friction": [
+        "Overreaching",
+        "Turf-guarding",
+        "Impulsive"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

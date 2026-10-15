@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.excess",
+  "$generated_by": "fable-v075",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Earth piled past what roots can hold: the soil wins, and the trunk snaps under the weight.",
+        "remedy": "Set most of it down. Sleep, then lift one thing."
+      },
+      "original": {
+        "clause": "Heavy earth snaps the wood: more held than the tree can feed, roots torn by what they grip.",
+        "remedy": "Hold less. Hold it deeper."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "So much Wood that nothing bends it, and only a fire would ever soften the stubborn grain.",
+        "remedy": "Set it alight. Make one thing and give it away."
+      },
+      "original": {
+        "clause": "Strong wood wants fire: so much growth it shades out everything, itself included.",
+        "remedy": "Burn some of it. Show the work."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Too much water lifts the tree off its ground, fed past rooting, drifting where the current goes.",
+        "remedy": "Drain it. Less thinking, one thing built."
+      },
+      "original": {
+        "clause": "Too much water floats the wood: roots off the ground, drifting from plan to plan, nothing anchored.",
+        "remedy": "Drain it. Plant one thing and stay."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "The fire outgrows the wood that feeds it, and the whole tree burns away as light.",
+        "remedy": "Stop feeding it. Rest, read, let the wood come back."
+      },
+      "original": {
+        "clause": "Too much fire burns the wood: everything lit as it grows, the tree spent on its own light.",
+        "remedy": "Bank the fire. Grow in the dark a while."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Too much knife at a young tree, and the trunk is cut through before it can stand.",
+        "remedy": "Put the knife down. Rest, read, let the trunk regrow."
+      },
+      "original": {
+        "clause": "Weak wood breaks under strong metal: correction past what the trunk can bear, growth that stops feeling allowed.",
+        "remedy": "Step back from the blade. Add water."
+      },
+      "gate": "pass"
+    }
+  ]
+}

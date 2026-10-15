@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.cta_verdict",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "木_土",
+      "field": "cta_verdict",
+      "candidate": "You want what you can hold more than what you are promised, and that usually makes you slow to buy and slower to let go.",
+      "original": "You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_木",
+      "field": "cta_verdict",
+      "candidate": "You carry your own weight, and over time you pick a hard thing done alone sooner than an easy thing you would have to share.",
+      "original": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_水",
+      "field": "cta_verdict",
+      "candidate": "You take in far more than you say out loud, and you know a person long before you can explain how.",
+      "original": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_火",
+      "field": "cta_verdict",
+      "candidate": "You make things that want to be seen the moment they exist, and you learn more by showing a thing than by keeping it safe.",
+      "original": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by.",
+      "gate": "pass"
+    },
+    {
+      "cell": "木_金",
+      "field": "cta_verdict",
+      "candidate": "Your growth takes its shape from whoever sets your rules, and you finish more under pressure from outside than under any plan of your own.",
+      "original": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep.",
+      "gate": "pass"
+    }
+  ]
+}

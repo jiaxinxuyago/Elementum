@@ -1,0 +1,135 @@
+{
+  "$archetype": "火_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "火_食神",
+  "$generated_by": "fable-v075-b",
+  "$handoff": "2026-10-15 batch 2 wood core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Gives freely",
+        "Enjoys out loud",
+        "Effortless"
+      ],
+      "friction": [
+        "Never says no",
+        "Drifts",
+        "Pleasure first"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Gives freely",
+            "angles": {
+              "drive": "You give before anyone asks, and it never feels like spending. Giving is how you know you belong somewhere, and you hand things out ahead of keeping them for yourself. Stay this open-handed, with one eye on how rarely you learn what you wanted."
+            }
+          },
+          {
+            "word": "Enjoys out loud",
+            "angles": {
+              "drive": "You enjoy things out loud, and the enjoyment spreads. You count a good moment unfinished until someone else is in it, so you share a pleasure sooner than you savor it. Let it spread, with one pleasure kept for yourself all the same."
+            }
+          },
+          {
+            "word": "Effortless",
+            "angles": {
+              "drive": "Things come easily to you, and you let them. Forcing a thing spoils it in your hands, so you wait for the easy way in rather than push at the hard one. Keep that lightness, and know it hides how much you do."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never says no",
+            "angles": {
+              "drive": "You say yes before the question is finished. You hear a no as a door shut on someone, and you would rather carry the extra than shut one. Keep in mind that you end up paying for a yes you cannot afford, later and alone."
+            }
+          },
+          {
+            "word": "Drifts",
+            "angles": {
+              "drive": "Drifting is the thing you do best and notice least. You move only when something moves you, and you take the day as it comes rather than take it somewhere. Keep sight of how much real time you spend on the drift."
+            }
+          },
+          {
+            "word": "Pleasure first",
+            "angles": {
+              "drive": "You put pleasure ahead of what is good for you. Pleasure is what you never postpone, and you would sooner have the treat now than the result later. Just remember that you fund the treat and the result from the same pocket."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Radiant",
+            "angles": {
+              "drive": "Your enjoyment broadcasts. The good meal, the small win, the Tuesday sunset: whatever you savor gets amplified through you and lands on everyone nearby, brightening the whole table by contact. Joy in your hands is not private property. It is a utility, and you run the grid."
+            }
+          },
+          {
+            "word": "Festive",
+            "angles": {
+              "drive": "You find the celebration inside ordinary days and switch it on. The exam passed becomes a dinner, the Friday becomes an occasion, the occasion gets candles. Ritual joy is your craft: you know that marking a moment is what makes it a moment, and you mark relentlessly."
+            }
+          },
+          {
+            "word": "Heartwarming",
+            "angles": {
+              "drive": "What you express goes straight to the chest. The toast that gets the region misty, the text that arrives on the exactly wrong day and makes it right, the compliment specific enough to keep: your warmth has aim. People store what you say to them, sometimes for decades."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Comfort-chasing",
+            "angles": {
+              "drive": "Pleasure sets your compass, quietly, in every decision. The easier option, the tastier plan, the warmer route: each choice defensible, and the sum a life that curves reliably away from anything difficult. Comfort was supposed to be the reward. Somewhere it filed for full custody."
+            }
+          },
+          {
+            "word": "Over the top",
+            "angles": {
+              "drive": "Your celebrations outspend their occasions. The birthday needs the venue, the dinner needs the good bottle, the ordinary weekend needs upgrading on principle. Delight justifies every line item at the moment of purchase, and the statements afterward read like reviews of a life slightly larger than the income."
+            }
+          },
+          {
+            "word": "Slack",
+            "angles": {
+              "drive": "Your follow-through melts in warm weather, and the weather around you is always warm. The promised call slides, the project rests, the deadline softens into a suggestion. Nothing is refused and little is finished: pleasure keeps writing checks that discipline was supposed to cash."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Radiant",
+        "Festive",
+        "Heartwarming"
+      ],
+      "friction": [
+        "Comfort-chasing",
+        "Over the top",
+        "Slack"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}
