@@ -818,7 +818,8 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         last section is three talents, each with the bar it
                         draws on rendered as five dots from the chart, three
                         places across the life domains (the teaser for the
-                        Domains tier) and one action. The friction page keeps
+                        Domains tier); the action row was dropped by the owner
+                        the same day. The friction page keeps
                         THE REMEDY. Renders only where the cell carries an edge. */}
                     {(() => {
                       const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
@@ -840,7 +841,6 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                                   {edge.items.map((it) => (
                                     <li key={it.domain}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span></li>
                                   ))}
-                                  {edge.action && <li className="act"><span className="el-edge-footic" aria-hidden="true"><Use id="ico-arrow-r" /></span><span className="el-edge-dom">do</span><span className="el-edge-manline">{edge.action}</span></li>}
                                 </ul>
                               </>
                             ) : (
