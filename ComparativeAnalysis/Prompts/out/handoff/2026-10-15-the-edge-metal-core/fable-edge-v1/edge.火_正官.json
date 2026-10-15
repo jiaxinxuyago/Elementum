@@ -1,0 +1,130 @@
+{
+ "_generated_by": "fable-edge-v1",
+ "_handoff": "2026-10-15 the edge, metal core",
+ "cell": "ELEMENT_GOD/火_正官 (catalyst)",
+ "facts": {
+  "persona": "The Magistrate (正官) on Fire",
+  "function": "order",
+  "domain_words": [
+   "Career",
+   "Status",
+   "Order"
+  ],
+  "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
+  "catalyst_chips": [
+   "Keeps every promise",
+   "By the book",
+   "Earns the title"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Keeps every promise",
+    "angles": {
+     "drive": "Every promise you make becomes a rule you keep. Being relied on is the closest you get to feeling safe, so you keep your word ahead of your freedom to change it. Promise a little less freely, because you keep every one you make.",
+     "cost_self": "Keeping a promise costs you the right to change your mind. You would rather keep a stale promise than break it, so you stay inside plans past their use. Let yourself out of one, because you turn down better offers to keep old promises.",
+     "cost_others": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold everyone to every one they make. Let small promises go, since you leave your friends no freedom to have only been talking."
+    }
+   },
+   {
+    "word": "By the book",
+    "angles": {
+     "drive": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book ahead of the shortcut. Stay with the book, because you are the standard the work gets checked against.",
+     "cost_self": "Where the book and your judgment part, you side with the book. You want it done in order more than your way, so you let the book decide what you knew. Allow the book one exception, because you give up chances that cannot wait.",
+     "cost_others": "Doing it by the book counts as respect paid forward. Because you want it right more than fast, you hold a friend's rushed job to the book too. Name the book out loud first, since you take the easy way from everyone beside you."
+    }
+   },
+   {
+    "word": "Earns the title",
+    "angles": {
+     "drive": "A fairly earned title is worth more to you than any praise. Since an earned rank says you belong, you earn the next title ahead of chasing the next thrill. Let the title come slowly, because you are already doing the job it names.",
+     "cost_self": "Earning the title comes first, claiming it long after. You want to look deserving more than to be paid, so you earn it twice before asking once. Claim it now, because earning it this slowly leaves money you were owed on the table.",
+     "cost_others": "Where titles are concerned, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. Say the word sometimes, because you take from them the years that earning costs."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Clear under pressure",
+   "Takes charge",
+   "Loves high stakes"
+  ],
+  "pair_definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and demands shape you. As a catalyst, nothing tests you, and over time you want a crisis as much as a rank. You get most done under rules someone else set.",
+  "pair_advise_catalyst": "You do your best work when someone is allowed to tell you no. Pick one job this month that comes with a deadline and a judge, and ship it on time. Make the hard call out loud in front of the people it affects. Finish one small thing before anyone has to chase you for it.",
+  "bars": [
+   {
+    "key": "leadership",
+    "label": "Leadership"
+   },
+   {
+    "key": "responsibility",
+    "label": "Responsibility"
+   },
+   {
+    "key": "flexible_structured",
+    "label": "Flexible · Structured"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge",
+    "shape": {
+     "talents": [
+      {
+       "label": "2-4 words",
+       "line": "<14 words",
+       "metric": "one of the bars keys"
+      }
+     ],
+     "places": [
+      {
+       "domain": "career|money|relationships|health",
+       "line": "<16 words"
+      }
+     ],
+     "action": "<20 words"
+    },
+    "counts": {
+     "talents": 3,
+     "places": 3,
+     "distinct_domains": 3
+    },
+    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; the action cut from pair_advise_catalyst where it serves"
+   },
+   "value": {
+    "talents": [
+     {
+      "label": "A handshake that holds",
+      "line": "You say you will, and people stop checking.",
+      "metric": "responsibility"
+     },
+     {
+      "label": "Right the first time",
+      "line": "You do it the proper way once, so nobody redoes it.",
+      "metric": "flexible_structured"
+     },
+     {
+      "label": "Trusted from above",
+      "line": "You get handed the bigger job because you did the small one properly.",
+      "metric": "responsibility"
+     }
+    ],
+    "places": [
+     {
+      "domain": "career",
+      "line": "Fields where rank is earned in order: the civil service, law, the big firm."
+     },
+     {
+      "domain": "money",
+      "line": "The pay rise that arrives on time, with no fight needed."
+     },
+     {
+      "domain": "relationships",
+      "line": "The friend whose yes still means yes a year later."
+     }
+    ],
+    "action": "Say the hard decision out loud to the people it touches, every time."
+   }
+  }
+ }
+}
