@@ -34,6 +34,23 @@
 - original (47w): Event planners and grandmothers agree on you: seat that one centrally. Your delight is the yeast of gatherings, invisible in the recipe and responsible for the rise. Parties you miss get described afterward with a slight shrug: it was nice. Nice is the word for your absence.
 - fable-v075 (42w): Whenever the people around you need something, you have given it before they ask. Providing feels safer than receiving, so you hand out more than you let in. Let them give back sometimes, because you have been taking that chance from them.
 
+## 水_偏印 · friction · row 1 · chip "Thinks too much" (was "Submerged")
+
+**drive**
+
+- original (44w): You live below your own surface. The real opinions, the real feelings, the real plans sit in deep water while a calm, pleasant version of you handles the daylight. People know the surface fluently. The rest of you has not taken visitors in years.
+- fable-v075 (43w): You think a decision over long after it stopped needing thought. Water comes into you faster than you spend it, and one more angle feels like care rather than delay. You know by now that you only learn from the choices you make.
+
+**cost to you**
+
+- original (44w): At your own birthday dinner, surrounded by people who love you, you had the familiar sensation of attending remotely. The laughing went fine. The thank-you speech went fine. On the drive home the quiet person in the deep finally exhaled, alone again, at last.
+- fable-v075 (45w): Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. Keep in mind that you lose chances this way without a sound, and sleep with them.
+
+**cost to others**
+
+- original (40w): The people closest to you describe a wall of perfect friendliness with something unreadable behind the glass. They stopped diving for you after enough attempts came back empty-handed. Now everyone treads water together politely, and calls it knowing each other.
+- fable-v075 (44w): Whenever someone needs an answer, you think it over once more. Getting it right matters more to you than getting it to them, and you hand over the wait. It is worth remembering that you give more by replying now than by replying right.
+
 ## 木_土 · the pair cell
 
 **definition, friction**
