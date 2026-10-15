@@ -1,0 +1,97 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-15 the edge, metal core",
+ "cell": "ELEMENT_GOD/水_伤官 (catalyst)",
+ "facts": {
+  "persona": "The Virtuoso (伤官) on Water",
+  "function": "expression",
+  "domain_words": [
+   "Talent",
+   "Performance",
+   "Defiance"
+  ],
+  "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
+  "catalyst_chips": [
+   "Quick-witted",
+   "Original",
+   "Speaks up"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Quick-witted",
+    "angles": {
+     "drive": "Your wit answers before your care does, and mostly you let it. Since being quick is how you know you are awake, you put the quick answer ahead of the careful one. Let the wit out, because you are kinder with it than you fear.",
+     "cost_self": "When talk gets hard, you reach the witty line before the honest one. You stay quick rather than get caught feeling something, until your wit lands where plain words belonged. Let plain words through, since each quick line costs you a piece of being known.",
+     "cost_others": "Saying the witty thing is how you take part. Getting the laugh with the quick line instead of letting one person finish, you cost them being heard out. Hold the wit while their point lands, because your timing is good enough to wait."
+    }
+   },
+   {
+    "word": "Original",
+    "angles": {
+     "drive": "Doing a thing the usual way is nearly impossible for you, and only an original one feels done. Needing it in pieces first, you make your own version rather than follow the rule. Let originality count as talent, because it was never a fight.",
+     "cost_self": "Nothing feels real to you until you have made it original. You take being wrong your own way ahead of being right theirs, so you redo finished work. Count the originals that landed, with the rest paid for in hours you never owed.",
+     "cost_others": "Making an original version of what you were handed shows you cared. You make someone's plan your own instead of following it, and you deny them the small pride of a plan done as drawn. Carry one through unchanged sometimes, since your version can wait."
+    }
+   },
+   {
+    "word": "Speaks up",
+    "angles": {
+     "drive": "Not speaking up about something wrong is almost physically hard for you. You speak up ahead of being liked, because a true sentence left unsaid feels like a lie you took part in. Keep speaking up, since you are usually the only one who will.",
+     "cost_self": "Speaking up comes first, and counting the cost comes after. With honesty worth more to you than comfort, you speak up straight into fights you never meant to start. Leave one unsaid each month, because every unchosen fight costs you a friend's easy company.",
+     "cost_others": "When someone leaves a thing unsaid, you speak up about it as a kindness. Speaking up rather than waiting for them to work it out, you use up the time they needed. Ask first, since true and welcome are not the same gift."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Giving",
+   "Unforced",
+   "Warm"
+  ],
+  "pair_definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, your gate stays shut while you get a thing right rather than give it. You keep your kindness and your wit waiting past their moment.",
+  "pair_advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.",
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge",
+    "shape": {
+     "talents": [
+      {
+       "label": "2-4 words",
+       "line": "<14 words",
+       "metric": "one of the bars keys"
+      }
+     ],
+     "places": [
+      {
+       "domain": "career|money|relationships|health",
+       "line": "<16 words"
+      }
+     ],
+     "action": "<20 words"
+    },
+    "counts": {
+     "talents": 3,
+     "places": 3,
+     "distinct_domains": 3
+    },
+    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; the action cut from pair_advise_catalyst where it serves"
+   },
+   "value": null
+  }
+ }
+}
