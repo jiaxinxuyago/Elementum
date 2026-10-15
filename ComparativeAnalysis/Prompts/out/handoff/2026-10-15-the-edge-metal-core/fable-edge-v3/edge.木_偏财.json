@@ -1,0 +1,109 @@
+{
+ "_generated_by": "fable-edge-v3",
+ "_handoff": "2026-10-15 the edge, metal core, v5 the manual",
+ "cell": "ELEMENT_GOD/木_偏财 (catalyst)",
+ "facts": {
+  "persona": "The Horizon (偏财) on Wood",
+  "function": "action",
+  "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
+  "catalyst_chips": [
+   "Spots openings",
+   "Quick to start",
+   "Generous"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Spots openings",
+    "angles": {
+     "drive": "Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you spot the far chance sooner than the one in your hand. Spot the near one as carefully, because it is yours to take.",
+     "cost_self": "Where you spot openings is always past where you stand. Wanting freedom more than settling, you spot what is far instead of taking what is near. Take a near one too, because each far chance you spot is one at hand you let close.",
+     "cost_others": "You point out the openings you spot to anyone beside you. Because the far chance holds you more than the near one, you spot the next before finishing this with them. Finish this one first, since spotting the next costs them some of your attention."
+    }
+   },
+   {
+    "word": "Quick to start",
+    "angles": {
+     "drive": "Starting comes easily to you, often before you finish deciding. Moving is how you feel alive, so you start and learn rather than wait until you are sure. Keep starting freely, and let one start run long enough to teach you its ending.",
+     "cost_self": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start ahead of the rest you are owed. Stay for the slow middle too, since every quick start costs you the rest you never get.",
+     "cost_others": "Whatever you start has other people in it before the thing is real. You need movement more than certainty, so you start, move on and leave the middle open. Stay for one ending, because each start you share leaves them the middle to finish."
+    }
+   },
+   {
+    "word": "Generous",
+    "angles": {
+     "drive": "Generosity comes more easily to you than keeping, especially money. Being generous makes the world feel wide, so you give away a good month rather than save it. Give on, and hold one part back, because what you hold is what the generosity stands on.",
+     "cost_self": "Giving is your first answer to most things. Since being generous feels more like you than being careful, you give the extra ahead of putting any aside. Keep a part for yourself too, because the money you never keep is what your generosity costs you.",
+     "cost_others": "Whenever the people close to you run short, you are generous before being asked. Because being generous keeps you freer than being owed, you give rather than build anything shared. Let them be generous sometimes, since your giving takes their chance to be generous."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Patient builder",
+   "Saves first",
+   "Loyal"
+  ],
+  "pair_definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it.",
+  "pair_advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ],
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Social"
+  ],
+  "claim_fixed": "How to use Wood, the Action energy."
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v5, the manual)",
+    "shape": {
+     "claim": "exactly facts.claim_fixed",
+     "lead": "one sentence, 10-20 words, the reader its subject, what the gift buys in use",
+     "items": [
+      {
+       "domain": "facts.ruling_domains[i], in order",
+       "line": "8-14 words, advice-grade, lowercase, no terminal stop, at most one colon"
+      }
+     ],
+     "metric": "one of the bars keys"
+    },
+    "counts": {
+     "items": 3
+    },
+    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; no four-word run shared with any fact; no phrase repeated across the ten cells"
+   },
+   "value": {
+    "claim": "How to use Wood, the Action energy.",
+    "lead": "It is why you catch the chance early and are moving before anyone else has looked up.",
+    "items": [
+     {
+      "domain": "Wealth",
+      "line": "the side business started small, with the spare money going into the next idea"
+     },
+     {
+      "domain": "Family",
+      "line": "a trip planned for the whole family, paid for out of a good month"
+     },
+     {
+      "domain": "Social",
+      "line": "a wide circle kept moving: the old friend introduced to the new one"
+     }
+    ],
+    "metric": "ambition"
+   }
+  }
+ }
+}
