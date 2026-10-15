@@ -22,6 +22,7 @@ import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { IS_DEV_TOOLS } from '../../devtools.js';
 import { useReading } from '../reading/useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
+import { useUpgrade } from '../dashboard/UpgradeModal.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 
@@ -82,6 +83,8 @@ function markFirstRun() {
 const U = (id) => `#jny-${id}`;
 
 // tiny helpers for repeated glyphs
+// The domain marks (the canonical taxonomy ×8, plus the first draft's life-domain keys)
+const DOM = { Wealth: 'dom-wealth', Career: 'dom-career', Health: 'dom-health', Love: 'dom-love', Family: 'dom-family', Social: 'dom-social', Mind: 'dom-mind', Growth: 'dom-growth', career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
 const Use = ({ id, className }) => (
   <svg className={className} viewBox="0 0 24 24"><use href={U(id)} /></svg>
 );
@@ -92,6 +95,7 @@ const Disc = () => (
 export default function JourneyStage({ reveal = false, openCore = false, onDone, onOpenDayMaster, onOpenCodex }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
+  const { openUpgrade } = useUpgrade();   // THE EDGE's domain sheet leads to the price gate (owner 2026-10-15)
   // `read-elemental` alias (owner 2026-09-15): the retired d12 Elemental
   // Nature detail opens straight onto the core's own energy page (the Body
   // corpus), so the initial screen is seeded from the prop, not set in an effect.
@@ -344,6 +348,11 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
   // deepest seat with the word), and scroll to its
   // paragraph once rendered; a word no seat carries lands on the first seat.
   const [domScroll, setDomScroll] = useState(null);
+  // THE EDGE's domain sheet (owner 2026-10-15, late): a row's domain mark
+  // opens a sheet with the seat's teaser line and the unlock to the Domains
+  // tier; unlocked, "Read it" lands in THE DOMAINS at that word.
+  const [domSheet, setDomSheet] = useState(null);
+  const openDomainSheet = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0] || null; setDomSheet({ word, god, seat, elName: elScreen?.elName, el: elScreen?.el, teaser: seat ? (seat.teaser || seat.defline || firstSent(seat.reading || '')) : `${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.` }); };
   const openDomainAt = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0]; setElSec('dom'); setPosOpen(seat?.id ?? null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); setDomScroll(seat ? word : null); };
   useEffect(() => { if (!domScroll) return; const t = setTimeout(() => { const el = document.querySelector(`.elpos-domread[data-dom="${domScroll}"]`) || document.querySelector('.elpos-row.open'); el?.scrollIntoView({ block: 'center', behavior: 'smooth' }); setDomScroll(null); }, 80); return () => clearTimeout(t); }, [domScroll, elSec, posOpen]);
   // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
@@ -833,7 +842,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                     {(() => {
                       const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
                       const edge = !friction ? elScreen.fnReading.edge : null; if (!edge) return null;
-                      const bars = elScreen.fnReading.metrics?.bars || []; const DOM = { Wealth: 'dom-wealth', Career: 'dom-career', Health: 'dom-health', Love: 'dom-love', Family: 'dom-family', Social: 'dom-social', Mind: 'dom-mind', Growth: 'dom-growth', career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
+                      const bars = elScreen.fnReading.metrics?.bars || [];
                       if (edge.claim) { const b = bars.find((x) => x.key === edge.metric); return (
                         <>
                           <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>
@@ -847,12 +856,12 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                               <>
                                 {edge.lead && <span className="body2 el-fnbody el-remedybody">{edge.lead}</span>}
                                 <ul className="el-edge-manual" aria-label="Where it pays">
-                                  {/* THE DOOR (owner 2026-10-15 evening, three calls): each row is one
-                                      of the god's ruling domains in the seats' own words, a phrase of
-                                      three to five words, and a tap that opens THE DOMAINS at the seat
-                                      whose reading carries that word. */}
+                                  {/* THE MANUAL (owner 2026-10-15, late): each row is one of the god's
+                                      ruling domains in the seats' own words with a full advice-grade
+                                      line; the domain mark is the door, a button that opens the domain
+                                      sheet (the seat's teaser, the unlock to the Domains tier). */}
                                   {edge.items.map((it) => (
-                                    <li key={it.domain} className="tease"><button className="el-edge-teaserow" onClick={() => openDomainAt(it.domain, edge.god)} aria-label={`${it.domain}: ${it.line}. Read it in The Domains.`}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span><Use id="ico-chev-r" className="el-edge-chev" /></button></li>
+                                    <li key={it.domain} className="door"><button type="button" className="el-edge-doorbtn" aria-haspopup="dialog" aria-label={`${it.domain}: open in The Domains`} onClick={() => openDomainSheet(it.domain, edge.god)}><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></button><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span></li>
                                   ))}
                                 </ul>
                               </>
@@ -1094,6 +1103,34 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
             </div>
             <div className="wp-inner">
               <p className="wp-body">{kwOpen.text}</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* THE EDGE's domain sheet (owner 2026-10-15): the first entry point to
+          the domain reading from the function page — the seat's teaser, then
+          the price gate (free) or the landing in THE DOMAINS (unlocked). */}
+      {domSheet && (
+        <div className="wordpop open" role="presentation">
+          <div className="wp-scrim" onClick={() => setDomSheet(null)} />
+          <div className={`wp-sheet t-cat el-domsheet pv-${domSheet.el || ''}`} role="dialog" aria-modal="true" aria-label={`${domSheet.word}, in The Domains`}>
+            <div className="wp-band">
+              <span className="wp-wm el-fnwm"><Use id={DOM[domSheet.word] || 'dom-career'} /></span>
+              <button className="wp-x" aria-label="Close" onClick={() => setDomSheet(null)}><Use id="ico-close" /></button>
+              <span className="wp-ey">{domSheet.seat ? domSheet.seat.term : `${domSheet.elName} in your pillars`}</span>
+              <div className="wp-chipwrap"><span className="role-pill cat">{domSheet.word}</span></div>
+            </div>
+            <div className="wp-inner">
+              <p className="wp-body">{domSheet.teaser}</p>
+              {tier === 'free' ? (
+                <>
+                  <p className="body2 el-domlock" style={{ margin: '10px 0 0' }}>The full reading of {domSheet.word} in this seat opens with Seeker: the reading, the people, the shadow, and the body.</p>
+                  <button type="button" className="el-domsheet-cta" onClick={() => { setDomSheet(null); openUpgrade('The Domains'); }}>Unlock The Domains <Use id="ico-arrow-r" /></button>
+                </>
+              ) : (
+                <button type="button" className="el-domsheet-cta" onClick={() => { const w = domSheet.word, g = domSheet.god; setDomSheet(null); openDomainAt(w, g); }}>Read it in The Domains <Use id="ico-arrow-r" /></button>
+              )}
             </div>
           </div>
         </div>

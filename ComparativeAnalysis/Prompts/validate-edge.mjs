@@ -1,6 +1,6 @@
 // THE EDGE GATE (ELEMENT_GOD.edge v4, the door): checks a filled edge skeleton.
 //   node validate-edge.mjs <file.json|dir> [--json] [--quiet]
-// Blocking: the claim exact · the lead one sentence of 10-20 words with a lawful opener · three items whose domains equal facts.ruling_domains in order · each line 3-5 words, lowercase, no stop, no colon, no digit · the metric one of the bars · the reader zone · a four-word run shared with any fact · "will never" · a virtue head or a capacity opener on the lead · "become a/an" · a phrase repeated within the file or across the dir.
+// Blocking: the claim exact · the lead one sentence of 10-20 words with a lawful opener · three items whose domains equal facts.ruling_domains in order · each line 8-14 words, lowercase, no stop, at most one colon, no digit · the metric one of the bars · the reader zone · a four-word run shared with any fact · "will never" · a virtue head or a capacity opener on the lead · "become a/an" · a phrase repeated within the file or across the dir.
 import fs from 'node:fs'; import path from 'node:path';
 import { wc, zoneCheck, VIRTUE_HEAD } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet'); const asJson = argv.includes('--json');
@@ -28,9 +28,9 @@ export function validateEdge(file, seen = new Map()) {
   const firsts = new Set();
   items.forEach((it, i) => {
     const line = String(it.line || ''); const n = wc(line);
-    if (n < 3 || n > 5) B.push(`items[${i}].line: ${n} words (3-5)`);
+    if (n < 8 || n > 14) B.push(`items[${i}].line: ${n} words (8-14)`);
     if (/[.!?]$/.test(line)) B.push(`items[${i}].line: terminal stop`);
-    if (/:/.test(line)) B.push(`items[${i}].line: colon`);
+    if ((line.match(/:/g) || []).length > 1) B.push(`items[${i}].line: more than one colon`);
     if (/^[A-Z]/.test(line)) B.push(`items[${i}].line: capital opener`);
     const fw = line.toLowerCase().split(/\s+/).find((w) => !['the', 'a', 'an', 'your', 'one'].includes(w)) || ''; if (firsts.has(fw)) B.push(`items[${i}].line: opens on "${fw}" like another row`); firsts.add(fw);
     const key = line.toLowerCase().trim(); if (seen.has(key) && seen.get(key) !== path.basename(file)) B.push(`items[${i}].line: "${line}" repeats ${seen.get(key)}`); seen.set(key, path.basename(file));

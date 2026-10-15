@@ -1,6 +1,6 @@
 {
  "_generated_by": "REDACTED",
- "_handoff": "2026-10-15 the edge, metal core, v4 the door",
+ "_handoff": "2026-10-15 the edge, metal core, v5 the manual",
  "cell": "ELEMENT_GOD/金_劫财 (catalyst)",
  "facts": {
   "persona": "The Rival (劫财) on Metal",
@@ -68,14 +68,14 @@
  "fields": {
   "edge": {
    "spec": {
-    "card": "ELEMENT_GOD.edge (v4, the door)",
+    "card": "ELEMENT_GOD.edge (v5, the manual)",
     "shape": {
      "claim": "exactly facts.claim_fixed",
      "lead": "one sentence, 10-20 words, the reader its subject, what the gift buys in use",
      "items": [
       {
        "domain": "facts.ruling_domains[i], in order",
-       "line": "3-5 words, a phrase, lowercase, no stop, no colon"
+       "line": "8-14 words, advice-grade, lowercase, no terminal stop, at most one colon"
       }
      ],
      "metric": "one of the bars keys"

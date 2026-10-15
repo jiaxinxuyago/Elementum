@@ -1,6 +1,6 @@
 # Backlog · THE EDGE: the catalyst page's advice becomes talents, places and one action (owner 2026-10-15)
 
-**Status: RE-RULED 2026-10-15 evening (the door, three calls); the card at v4 (`fields/ELEMENT_GOD/ELEMENT_GOD.edge.md`); the Metal core's ten cells in re-cut by the sealed writer under v4; nothing adopted.**
+**Status: RE-RULED 2026-10-15 late (the manual with icon doors, two calls); the card at v5 (`fields/ELEMENT_GOD/ELEMENT_GOD.edge.md`); the Metal core's ten cells in re-cut by the sealed writer under v5; nothing adopted.**
 
 ## The owner's words
 
@@ -49,3 +49,15 @@ The three calls of the evening (`edge-door` page, 2026-10-15):
 | 3. The landing | **At the row's own word.** A tap opens THE DOMAINS, expands the seat whose reading carries that word, and scrolls to its paragraph. |
 
 The shape, v4: `{claim, lead, items: [3 × {domain, line}], metric}`; the claim "How to use <Element>, the <Function> energy."; the lead one sentence, ten to twenty words, the reader its subject; each item's domain one of the god's three ruling domains in the table's order; each line three to five words, a phrase not a sentence; the metric the bar the gift draws on, rendered as dots in the head. The talents, the places and the action of the morning's shape are retired.
+
+## Later the same night: the rows back to full lines, the icons the doors
+
+The owner's read of the ten v4 cells: "the door teaser here does not reads very well as effective advise, which are just arbitrarily wrapped up in a few word phrases. The domain reading is much more in-depth." Two calls:
+
+| Call | Ruling |
+|---|---|
+| 1. The rows | **Full lines, the manual.** Eight to fourteen words per row, advice-grade, in the god's ruling domain word. The phrases of v4 retired. |
+| 2. The entry and the tap | **Each domain icon is a tap into a pop-up sheet that leads to the price gate unlocking the domain reading.** The sheet: the domain's name, the seat's teaser line, the unlock to the Domains tier, which navigates to THE DOMAINS at that word once unlocked. The energy page's THE DOMAINS tile stays the first entry. |
+
+The shape, v5: `{claim, lead, items: [3 × {domain, line}], metric}` as v4, the line eight to fourteen words. The gate's line range and the writer's package follow; the ten cells re-cut as `fable-edge-v3`.
+
