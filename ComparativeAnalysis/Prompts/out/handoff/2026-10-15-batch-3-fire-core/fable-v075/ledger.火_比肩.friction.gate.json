@@ -1,0 +1,93 @@
+{
+ "file": "ledger.火_比肩.friction.json",
+ "page": "The friction ledger of 火_比肩 (Fire carrying The Twin) on a Fire core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: a word used twice (help; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[1] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[1] :: a word used twice (hand; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: a word used twice (carry, half; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3] :: a word used twice (second; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[4] :: a word used twice (right; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[5] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[5] :: a word used twice (staying; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: a sentence with 4 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You shut out the right ones as fast as the wrong ones, and that is wor\"",
+  "ledger[6] :: a word used twice (ones; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[7] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You hold out for company that matches instead of company that is there\"",
+  "ledger[7] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[7] :: a word used twice (company; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[8] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[8] :: a word used twice (seen; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You would have to ask for help and wait on it, while your own hands ar\"",
+  "ledger[0]#b :: a word used twice (hands; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6], ledger[8] :: more than one passage of row 火_比肩|2 opens on \"You\" (B9, varied shapes; a note, the read decides)",
+  "the page :: \"so\" 8 times across the file's fields (B11, a note: vary the joints across the page or let the order carry the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 0,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 0,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 0,
+  "ledger[7]": 0,
+  "ledger[8]": 0,
+  "ledger[0]#b": 1,
+  "ledger[3]#b": 0,
+  "ledger[6]#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

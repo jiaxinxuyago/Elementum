@@ -1,0 +1,97 @@
+{
+ "file": "ledger.土_伤官.catalyst.json",
+ "page": "The catalyst ledger of 土_伤官 (Earth carrying The Virtuoso) on a Fire core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[1] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You lose credit for ideas that were yours first, so pitch one before t\"",
+  "ledger[1] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[1] :: a word used twice (pitch; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: outside the zone (not blocking): sketch",
+  "ledger[2] :: a word used twice (plan; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[4] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[4] :: a word used twice (welcome; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[5] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[5] :: a word used twice (cushion; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[7] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[8] :: a word used twice (warning; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: outside the zone (not blocking): regret",
+  "ledger[0]#b :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Talk never felt like enough evidence to you, so you keep quiet and mak\"",
+  "ledger[0]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3]#b :: outside the zone (not blocking): bluntly",
+  "ledger[3]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3]#b :: none of the chip's words (\"Speaks plainly\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[6]#b :: outside the zone (not blocking): complain",
+  "ledger[6]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3] ↔ ledger[4] :: the same first two words (\"speaking plainly\") on two passages of row 土_伤官|1 (B9; a note)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 0,
+  "ledger[1]": 0,
+  "ledger[2]": 1,
+  "ledger[3]": 1,
+  "ledger[4]": 1,
+  "ledger[5]": 0,
+  "ledger[6]": 1,
+  "ledger[7]": 0,
+  "ledger[8]": 0,
+  "ledger[0]#b": 0,
+  "ledger[3]#b": 0,
+  "ledger[6]#b": 0
+ },
+ "zone": null,
+ "pass": true
+}

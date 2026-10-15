@@ -1,0 +1,90 @@
+{
+ "file": "ledger.木_正印.catalyst.json",
+ "page": "The catalyst ledger of 木_正印 (Wood carrying The Sage) on a Fire core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[2] :: a word used twice (lesson; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: none of the chip's words (\"Passes it on\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[3] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[5] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"For as long as they need, and longer, you keep taking people in.\"",
+  "ledger[5] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[5] :: a word used twice (need; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[8] :: outside the zone (not blocking): nudge",
+  "ledger[8] :: a word used twice (push; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[0]#b :: a word used twice (lesson, price; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: none of the chip's words (\"Passes it on\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[3]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6]#b :: a word used twice (last; B11, a note: vary it unless the repeat carries the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 0,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 0,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 0,
+  "ledger[7]": 0,
+  "ledger[8]": 0,
+  "ledger[0]#b": 0,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 0
+ },
+ "zone": null,
+ "pass": true
+}

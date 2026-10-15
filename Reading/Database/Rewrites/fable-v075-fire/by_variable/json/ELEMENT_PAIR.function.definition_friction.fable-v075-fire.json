@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_friction",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "火_土",
+      "field": "function.definition_friction",
+      "candidate": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, so you keep giving or keep proving instead of taking in. You run empty on comfort given and points already won.",
+      "original": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_木",
+      "field": "function.definition_friction",
+      "candidate": "Your Mind is where the world soaks in and becomes yours. Here Wood makes it keep growing. As a friction, intake outruns use and you take in more than you decide on, by your odd method or the way home taught you. Your own work sits waiting while you study.",
+      "original": "Wood is your Mind, and as a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_水",
+      "field": "function.definition_friction",
+      "candidate": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the pull turns on you, so you judge yourself ahead of the work and guard your rank rather than face a crisis.",
+      "original": "Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would, and the hardest judge of the flame is you.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_火",
+      "field": "function.definition_friction",
+      "candidate": "Your Body is the strength the whole of you stands on. Fire keeps it bright, shown before you are asked. Running over, it has no outlet, so you hold your standard above any peer's or make each shared stake a race. You finish first more often than you keep company.",
+      "original": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_金",
+      "field": "function.definition_friction",
+      "candidate": "Your Action is what you go and build, claim and provide. Under Metal it stays exact, and nothing you claim counts until it is finished. As a friction, you take on past your strength, and you start a new venture rather than keep the money and love already yours.",
+      "original": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.",
+      "gate": "pass"
+    }
+  ]
+}

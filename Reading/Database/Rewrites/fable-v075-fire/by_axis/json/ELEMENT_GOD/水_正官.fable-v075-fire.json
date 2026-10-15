@@ -1,0 +1,165 @@
+{
+  "$archetype": "水_正官",
+  "axis": "ELEMENT_GOD",
+  "key": "水_正官",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Follows through",
+        "Earns trust slowly",
+        "Paces yourself"
+      ],
+      "friction": [
+        "Plays it safe",
+        "Waits for permission",
+        "Bites your tongue"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Follows through",
+            "angles": {
+              "drive": "You follow through long after the mood that said yes has gone. Following through matters more to you than improving the plan, so you finish the version you announced. Let a better version in sometimes, since following through never meant never changing course.",
+              "cost_self": "Following through is where you feel most yourself. Because stopping halfway feels like a broken promise, you follow through on what no longer fits rather than leave it. Drop one plan, since the chance you want most closes while you follow through on the last.",
+              "cost_others": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since following through on a plan never rechecked costs them the better one."
+            }
+          },
+          {
+            "word": "Earns trust slowly",
+            "angles": {
+              "drive": "You earn trust slowly and prefer it that way. You care about being counted on more than being liked, so you earn trust by record rather than by charm. Let a little warmth go first sometimes, since trust earned slowly needs a reason to start.",
+              "cost_self": "Earning trust slowly is the only kind you believe. You would rather earn trust over a year than be oversold in a day, since quick trust feels false. Name your strengths once, because a chance that needs you now closes while you are earning trust.",
+              "cost_others": "Trust from you is earned as slowly as you earn it. Because easy trust feels false, you make a new person earn it rather than let them in early. Offer the welcome sooner, since earning your trust slowly costs them a warmth already earned."
+            }
+          },
+          {
+            "word": "Paces yourself",
+            "angles": {
+              "drive": "You pace yourself through things other people sprint. You care more about arriving without strain than arriving first, and you keep a pace you can hold for years. Speed up once in a while, since pacing yourself only counts if you arrive.",
+              "cost_self": "Not breaking is what pacing yourself is for. Since a sprint costs the steadiness you built, you keep your pace rather than take the opening that needs a rush. Rush sometimes, because the chance that needs a sprint closes while you pace yourself toward it.",
+              "cost_others": "Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, and you keep everyone at your speed. Let someone run ahead sometimes, since pacing them to you costs them a finish of their own."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. Remember that playing it safe has a price, and you pay it in chances never taken.",
+              "cost_self": "Playing safe keeps the floor under you. Because a wrong move costs you more than a missed one, you keep playing it safe with the job you have. You let every chance you play safe around close, and the work you wanted goes with it.",
+              "cost_others": "For everyone waiting on your yes, you play it safe as well. You would rather give a safe no than a yes that can fail, and the real answer stays yours. Bear in mind that a safe answer leaves them waiting instead of deciding."
+            }
+          },
+          {
+            "word": "Waits for permission",
+            "angles": {
+              "drive": "You wait for permission that is not coming. Being given permission feels safer than taking it, so you would rather be asked to step up than step up unasked. You hold most of the permission you wait for, and it is worth remembering that.",
+              "cost_self": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your rank than claim the next one. You lose the rank above yours to whoever stopped waiting, and the waiting was your choice.",
+              "cost_others": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and that is worth keeping in mind."
+            }
+          },
+          {
+            "word": "Bites your tongue",
+            "angles": {
+              "drive": "You bite your tongue long before anyone asks you to. Since keeping the peace suits you better than saying the thing, you bite down rather than cost the mood. You keep the peace by biting your tongue, and you alone carry what went unsaid.",
+              "cost_self": "Safe and unheard is where biting your tongue leaves you. Since a wrong word costs more than a missing one, you would rather bite your tongue than lose standing. You pay for every bitten tongue in credit, because a point never made cannot be yours.",
+              "cost_others": "Your tongue gets bitten hardest around the people who need your answer. You keep things smooth rather than say what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clockwork",
+            "angles": {
+              "drive": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam.",
+              "cost_self": "The morning sequence has not changed in nine years: the walk, the list, the first hard task before mail. Colleagues set meetings around it like farmers around rainfall. On the rare day the sequence breaks, three people ask if everything is alright. It usually is, by ten.",
+              "cost_others": "Systems you build keep working after you leave them, which people discover with surprise and gratitude. The handover document from your last role is still in use, word for word, four successors later. Somebody described inheriting your process as moving into a house with the plumbing already perfect."
+            }
+          },
+          {
+            "word": "Composed",
+            "angles": {
+              "drive": "You hold your shape under pressure the way deep water holds its level: visibly, reassuringly, without effort you would admit to. The difficult meeting, the public mistake, the audit: your surface stays level, and everyone in the region borrows a little of it.",
+              "cost_self": "When your name was mentioned unfairly in the all-hands, forty faces turned to watch yours. It gave them nothing: a nod, a note taken, a follow-up requested calmly afterward through channels. The retraction came within the week, and your pulse, whatever it did, did it privately.",
+              "cost_others": "People bring you bad news first, specifically, because your reaction never adds to the problem. The messengers relax mid-sentence, watching it land in still water. What it costs you to keep the surface level is a figure nobody has ever seen, which is the point of paying it."
+            }
+          },
+          {
+            "word": "Far-sighted",
+            "angles": {
+              "drive": "You plan at distances other people reserve for fantasy. The pension started at twenty-three, the succession question asked a decade early, the consequence spotted three moves before it forms. Present-tense people find it eerie. Future-tense people find it, eventually, in their interest.",
+              "cost_self": "The clause you insisted on in 2019, the one everyone called paranoid, activated last spring and saved the partnership six figures. You accepted the apologies without ceremony. The next contract contains four such clauses. Nobody calls them paranoid now. They call them yours.",
+              "cost_others": "People check plans against your horizon the way ships check charts, especially for the waters nobody has entered yet. Your predictions are unglamorous and mostly correct, delivered early enough to act on. The ones who listened compound the benefit. The ones who did not become examples."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overcautious",
+            "angles": {
+              "drive": "Every risk gets weighed until it drowns. The checking, the double-checking, the waiting for conditions: your prudence has a thoroughness that outlives most opportunities. Nothing bad happens to you, statistically. The cost is that remarkably little of anything happens, and the ledger never shows it.",
+              "cost_self": "The investment you researched for six months appreciated forty percent while the research matured. You printed the analysis anyway, complete and correct, a beautiful audit of a ship that had sailed. It sits in the drawer with its siblings. The drawer is thick with correct conclusions.",
+              "cost_others": "People stopped waiting for your green light years ago, since it arrives after the intersection has cleared. They proceed, and you catch up, cautiously, once the road is proven. Your record contains no disasters and no adventures, and only one of those absences was chosen."
+            }
+          },
+          {
+            "word": "Muted",
+            "angles": {
+              "drive": "Your voice arrives pre-softened, and the softening costs content. The objection becomes a question, the question becomes a pause, the pause gets read as agreement. What you actually think is audible only at very close range, and most decisions get made from further away.",
+              "cost_self": "You disagreed with the plan in the meeting where it could have mattered, silently, and again in the hallway, quietly, to someone with no vote. The plan proceeded and failed roughly as you had predicted. Your prediction exists in no record. It was a very correct whisper.",
+              "cost_others": "Colleagues dig up your opinions years later, over drinks: you had doubts about that? The doubts were real and beautifully reasoned and entirely internal. People would have listened, they insist. You nod, unconvinced, quietly, which is of course the whole mechanism in miniature."
+            }
+          },
+          {
+            "word": "On rails",
+            "angles": {
+              "drive": "The channel decides your route. The established procedure, the way it has always flowed, the course set by someone upstream years ago: you follow it faithfully, even where the banks have visibly moved. Freedom to reroute exists on paper. The water has never once tested it.",
+              "cost_self": "The weekly report you compile takes three hours and, as of the reorg two years ago, has no remaining readers. You suspected as much and confirmed it once, gently, then continued compiling. The channel was dug and the water flows. Somewhere that is still a reason.",
+              "cost_others": "People watch you execute obsolete instructions with a loyalty that would be moving on a battlefield and is puzzling in an office. New options get presented to you and acknowledged and left on the bank. The current knows one direction. Everyone has stopped suggesting there are others."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Clockwork",
+        "Composed",
+        "Far-sighted"
+      ],
+      "friction": [
+        "Overcautious",
+        "Muted",
+        "On rails"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_catalyst",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "火_土",
+      "field": "function.advise_catalyst",
+      "candidate": "What you keep inside does not count as finished. Make one thing a week that someone else can hold. Say the opinion you have been sitting on to one person. Show a child or a friend something you know how to do. Write one line down before bed.",
+      "original": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_木",
+      "field": "function.advise_catalyst",
+      "candidate": "You give out faster than you take in, and running on your own fuel feels like energy until it runs out. Read one long book a chapter at a time. Sit with a question overnight before you answer it. Ask someone older how they did it and listen past the first sentence. Nap before the next idea.",
+      "original": "Brilliance is mostly patience with good storage. Keep one slow project that grows monthly, a course, a craft, a language, and refuse to rush it. Finish books. Choose one person to learn from properly this year and stay teachable.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_水",
+      "field": "function.advise_catalyst",
+      "candidate": "You do your best work with a date on it and someone waiting at the other end. Give each big plan a finish line before you start it. Once a month, hand a decision to someone whose call you will keep. Tell one person your deadline. Set a stop time before you begin.",
+      "original": "Discipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_火",
+      "field": "function.advise_catalyst",
+      "candidate": "You treat rest as a loss and company as a crutch. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day.",
+      "original": "A light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_金",
+      "field": "function.advise_catalyst",
+      "candidate": "Your drive outruns the places you have to put it, and an opening you only look at becomes weight. Pick one venture and give it a finish date. Move a fixed sum into savings each month before you spend the rest. Tell the man who raised you one thing you built this year. Finish one small thing before bed.",
+      "original": "Difficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months.",
+      "gate": "pass"
+    }
+  ]
+}

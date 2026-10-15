@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "木_偏印",
+  "$generated_by": "fable-v075-fire-b",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Senses it first",
+        "Self-taught",
+        "Sleeps on it"
+      ],
+      "friction": [
+        "Thinks in circles",
+        "Keeps it in",
+        "Hides away"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Senses it first",
+            "angles": {
+              "drive": "You sense where a thing is going before anyone says it. Needing to understand ahead of being told, you take the half-sentence rather than wait on the whole. You carry what you sensed alone until someone catches on, a wait you can afford."
+            }
+          },
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "The things you are best at, you taught yourself. Because a lesson only counts once you have found it yourself, you take the long way through a subject instead of the taught one. It costs you years, and you would pay them again."
+            }
+          },
+          {
+            "word": "Sleeps on it",
+            "angles": {
+              "drive": "The answer you trust shows up after sleeping on it. Rather than reply with the part of you that talks, you sleep on the question and let the part that knows work. You pay by answering last, a price you can live with."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Thinks in circles",
+            "angles": {
+              "drive": "Your mind goes round a question more easily than through it. Since being wrong feels worse to you than being late, you add a side rather than pick one. You feel the circle as work, and it is worth remembering it only brings you back."
+            }
+          },
+          {
+            "word": "Keeps it in",
+            "angles": {
+              "drive": "You keep what you know to yourself long after it is ready. Because being misread costs you more than being unknown, you hold the thought instead of saying it. Remember that keeping it in protects the idea and not you."
+            }
+          },
+          {
+            "word": "Hides away",
+            "angles": {
+              "drive": "Your best thinking happens where nobody reaches you. Since a day with people spends what a day alone grows, you hide away ahead of showing up. Hiding away works until it is the only place you know how to be, and you notice that last."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Connects dots",
+            "angles": {
+              "drive": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone."
+            }
+          },
+          {
+            "word": "Perceptive",
+            "angles": {
+              "drive": "You notice the understory, the layer below what people say. The pause before the yes, the meeting scheduled suspiciously early, the plant someone stopped watering. Your reads arrive quietly and early, and they are right often enough to be slightly unsettling."
+            }
+          },
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Diplomas confuse people about you. The knowledge is real and the paper does not exist."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Tangled",
+            "angles": {
+              "drive": "Your thoughts grow into each other until no single thread pulls free. The simple question triggers the whole system: history, caveats, three related concerns, and an hour later the original question is still standing there, unanswered, holding its coat."
+            }
+          },
+          {
+            "word": "Secretive",
+            "angles": {
+              "drive": "Information flows into you and does not flow out. Your projects, your feelings, your Tuesday afternoons: all filed under later. Nobody is deceived, exactly. They are just standing outside a hedge that grew so gradually no one remembers planting it."
+            }
+          },
+          {
+            "word": "Reclusive",
+            "angles": {
+              "drive": "Given a free evening, you choose the den, every time, and the evenings are increasingly free because people stopped asking. Solitude feeds your mind and quietly starves the rest. The difference between retreat and disappearance is a return date, and yours keeps sliding."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Connects dots",
+        "Perceptive",
+        "Self-taught"
+      ],
+      "friction": [
+        "Tangled",
+        "Secretive",
+        "Reclusive"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

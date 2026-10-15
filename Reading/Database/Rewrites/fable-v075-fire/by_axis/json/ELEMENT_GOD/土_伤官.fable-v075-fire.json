@@ -1,0 +1,165 @@
+{
+  "$archetype": "土_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "土_伤官",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Proves it",
+        "Speaks plainly",
+        "Rewrites the rules"
+      ],
+      "friction": [
+        "Pushes back",
+        "Says too much",
+        "Overdoes it"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Proves it",
+            "angles": {
+              "drive": "Proving a point matters more to you than making it. Because a finished thing argues better than you could out loud, you would rather prove an idea than pitch it. You pay in time, and you get to be right in a way that lasts.",
+              "cost_self": "Proving it is the only kind of winning you trust. Since you prove rather than pitch, you let the chances that needed a quick yes go by. You lose credit for ideas that were yours first, so pitch one before the proof is done.",
+              "cost_others": "You prove an idea before you share it. Whenever you would rather show a result than explain a plan, you keep people out of it until it is done. Tell one person the plan early, since a surprise is harder to help than a sketch."
+            }
+          },
+          {
+            "word": "Speaks plainly",
+            "angles": {
+              "drive": "Speaking plainly comes easier to you than softening it. Since a true thing said flat feels more honest than a kind thing dressed up, you speak plainly rather than nicely. You pay for it in warmth, and to you the truth is worth it.",
+              "cost_self": "Speaking plainly is how you stay honest with yourself. You would rather be understood than liked, so you say what goes unsaid and give up the easy welcome of keeping quiet. Soften one true thing a week, because you wanted that welcome too.",
+              "cost_others": "You speak plainly to the people who matter most to you. Where the truth counts for more than the landing, you hand it over without the cushion it needed. Add the cushion sometimes, because you want them to land softly too."
+            }
+          },
+          {
+            "word": "Rewrites the rules",
+            "angles": {
+              "drive": "Rules read to you as first drafts. Since you would rather fix a bad rule than follow it, you rewrite it in the doing and in plain sight. You spend a while being marked wrong, and the rewrite tends to look like sense later.",
+              "cost_self": "Rewriting a rule is your answer to one that makes no sense. Each time you choose to fix it rather than obey it, you lose the credit that following it would earn. Follow one you dislike this month, because that approval was yours too.",
+              "cost_others": "You rewrite a rule that stops making sense under the people standing on it. Since you fix it ahead of keeping the peace, you change the footing with no warning. Give the warning first, because the rule you found pointless was somebody's floor."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Pushes back",
+            "angles": {
+              "drive": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check whether you mind it. Keep in mind, pushing back costs you the same whether the plan was good or not.",
+              "cost_self": "Pushing back is how you keep hold of yourself in a group. Since giving in feels like disappearing, you push against help as much as against orders. Remember that what you keep pushing away is help you needed.",
+              "cost_others": "You push back before you hear the end of a plan. Where being hard to convince feels like being hard to fool, you make people defend a plan instead of taking it as offered. You could let the whole thing arrive before you push."
+            }
+          },
+          {
+            "word": "Says too much",
+            "angles": {
+              "drive": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. Remember that the useful half was the only part you were asked for.",
+              "cost_self": "Saying too much proves to you that you were listening. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You know the trust you talk away comes back slower than it left.",
+              "cost_others": "You say too much to whoever let you speak. Because a thought feels wasted unless it is said, you take their turn as much as your own. You owe whoever you talked over the sentence you took."
+            }
+          },
+          {
+            "word": "Overdoes it",
+            "angles": {
+              "drive": "Overdoing it is the only way you know to be sure of enough. Since plain and finished feels like settling, you make it bigger rather than call it done. You pay for the extra out of yourself, a price worth keeping in mind.",
+              "cost_self": "Overdoing it is how you make work look like you. Long after the plain version would do, you keep adding rather than finishing and spend what the end needed. You paid for the extra in sleep, and the sleep was part of the price.",
+              "cost_others": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. You owed them the small one now, the one with a use."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Ground-breaking",
+            "angles": {
+              "drive": "Breaking new ground is how your expression works: the flat, settled, everyone-agrees surface is exactly where you start digging. Your best ideas arrive as polite earthquakes, reorganizing a topic people thought was finished. The field is never as settled as it looks, and you prove it.",
+              "cost_self": "The process had been the process for nine years, until your two-slide deck at the retreat. There was a silence, then laughter, then a whiteboard. By spring the old process was a story people told, and you were somehow not officially credited.",
+              "cost_others": "Managers learn to seat you carefully, because whatever the group has quietly agreed not to question is the first thing you will question. Half the time it is uncomfortable. The other half, the thing you dug up was the exact rock the plan was about to hit."
+            }
+          },
+          {
+            "word": "Deadpan",
+            "angles": {
+              "drive": "Dry is your native register. The joke arrives flat, two beats late, and lands harder for it, usually while everyone else is still being earnest. Humor is how your truth gets past security. People laugh first and only later notice what you actually said.",
+              "cost_self": "In the middle of the budget meeting’s third lap around the same point, you said one quiet sentence and the table broke. The meeting ended four minutes later with a decision. Your sentence had the decision folded inside the joke, which everyone realized on the stairs.",
+              "cost_others": "People quote you at dinners you were not invited to. The deadpan reads as harmless right up until someone writes it down, and there, in plain text, is a fairly serious critique of how things are run. You have been warned about this. The warnings were also quoted."
+            }
+          },
+          {
+            "word": "Unconventional",
+            "angles": {
+              "drive": "Doing it the standard way physically bothers you, the way a crooked picture frame bothers other people. Your methods look wrong until the results arrive. The spreadsheet is shaped strangely, the pitch skips the template, and both work for reasons the template never considered.",
+              "cost_self": "You taught the training session backward, results first, theory never. The feedback forms split perfectly: half the class wanted the old slides back, half said it was the first training they had ever stayed awake for. You kept the backward version and the split.",
+              "cost_others": "Coworkers describe your methods with a hand gesture, because words take too long. Nobody fully approves and nobody interferes, since the last person who standardized your workflow watched output drop by half. You are the licensed exception, and the license renews on results."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Contrarian",
+            "angles": {
+              "drive": "Disagreeing arrives before your reasons do, and sometimes instead of them. Whatever the group settles on, something in you stands up to unsettle it. Being the counterweight was useful so often that it became a reflex, and now it fires even when the scale was balanced.",
+              "cost_self": "The team finally aligned after three weeks, and your hand went up with a fresh objection you half believed. The alignment wobbled, the meeting ran long, and afterward you privately admitted the plan had been fine. The objection just refused to stay seated.",
+              "cost_others": "People have started pre-gaming your objections, guessing them in advance and drafting answers before you speak. It works as a system. It also means your yes has quietly lost its market value, because everyone prices in a no from you regardless of the question."
+            }
+          },
+          {
+            "word": "Eye-rolling",
+            "angles": {
+              "drive": "Contempt leaks out of you through the smallest muscles, and everyone catches it. The sigh, the half-second stare at the ceiling, the pen set down slowly. You never said the meeting was stupid. Your face published a full review before your mouth said anything.",
+              "cost_self": "Someone junior presented an idea you had watched fail in 2019, and your eyebrow filed its report before slide two. They finished shakily and never pitched again in your presence. You remember the flaw in the idea. They remember the eyebrow.",
+              "cost_others": "People rehearse before telling you things, and the rehearsal is about your face. What feels to you like honest quality control lands as a toll on everyone bringing you anything unfinished. The unfinished things have started routing around you, which is how you lose first drafts forever."
+            }
+          },
+          {
+            "word": "Quake-prone",
+            "angles": {
+              "drive": "Long stillness, then the crack: your frustration stores itself quietly and spends itself all at once. Months of fine, fine, fine, and then one Tuesday the ground moves and everyone nearby learns what was actually underneath. The eruption feels sudden to them. It was years old to you.",
+              "cost_self": "It was the dishwasher being loaded wrong that finally did it, which everyone understood was never really about the dishwasher. Eight months of swallowed remarks arrived in four unscheduled minutes. The kitchen went very quiet. The actual issue, named at last, turned out to be workable.",
+              "cost_others": "People near you learn to read the ground: the shorter answers, the tidier desk, the way your jokes stop. They start walking softly weeks before you blow, which means the whole household holds its breath on a schedule you set and cannot see."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Ground-breaking",
+        "Deadpan",
+        "Unconventional"
+      ],
+      "friction": [
+        "Contrarian",
+        "Eye-rolling",
+        "Quake-prone"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,4057 @@
+[
+ {
+  "id": "C001",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 1 · drive · chip Proves it (was Ground-breaking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Breaking new ground is how your expression works: the flat, settled, everyone-agrees surface is exactly where you start digging. Your best ideas arrive as polite earthquakes, reorganizing a topic people thought was finished. The field is never as settled as it looks, and you prove it."
+   },
+   {
+    "letter": "B",
+    "text": "You prove things rather than announce them. Talk never felt like enough evidence to you, so you keep quiet and make the thing that settles it. You pay for being right this way in years instead of minutes, and you rarely regret the trade."
+   },
+   {
+    "letter": "C",
+    "text": "Proving a point matters more to you than making it. Because a finished thing argues better than you could out loud, you would rather prove an idea than pitch it. You pay in time, and you get to be right in a way that lasts."
+   }
+  ]
+ },
+ {
+  "id": "C002",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 1 · cost_self · chip Proves it (was Ground-breaking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Proving it is the only kind of winning you trust. Since you prove rather than pitch, you let the chances that needed a quick yes go by. You lose credit for ideas that were yours first, so pitch one before the proof is done."
+   },
+   {
+    "letter": "B",
+    "text": "The process had been the process for nine years, until your two-slide deck at the retreat. There was a silence, then laughter, then a whiteboard. By spring the old process was a story people told, and you were somehow not officially credited."
+   }
+  ]
+ },
+ {
+  "id": "C003",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 1 · cost_others · chip Proves it (was Ground-breaking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You prove an idea before you share it. Whenever you would rather show a result than explain a plan, you keep people out of it until it is done. Tell one person the plan early, since a surprise is harder to help than a sketch."
+   },
+   {
+    "letter": "B",
+    "text": "Managers learn to seat you carefully, because whatever the group has quietly agreed not to question is the first thing you will question. Half the time it is uncomfortable. The other half, the thing you dug up was the exact rock the plan was about to hit."
+   }
+  ]
+ },
+ {
+  "id": "C004",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 2 · drive · chip Speaks plainly (was Deadpan)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You say the plain thing and let it land. Honesty is the one performance you refuse to fake, so you say it bluntly instead of gently. You lose a little warmth each time, and you count that a fair price for the truth."
+   },
+   {
+    "letter": "B",
+    "text": "Dry is your native register. The joke arrives flat, two beats late, and lands harder for it, usually while everyone else is still being earnest. Humor is how your truth gets past security. People laugh first and only later notice what you actually said."
+   },
+   {
+    "letter": "C",
+    "text": "Speaking plainly comes easier to you than softening it. Since a true thing said flat feels more honest than a kind thing dressed up, you speak plainly rather than nicely. You pay for it in warmth, and to you the truth is worth it."
+   }
+  ]
+ },
+ {
+  "id": "C005",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 2 · cost_self · chip Speaks plainly (was Deadpan)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Speaking plainly is how you stay honest with yourself. You would rather be understood than liked, so you say what goes unsaid and give up the easy welcome of keeping quiet. Soften one true thing a week, because you wanted that welcome too."
+   },
+   {
+    "letter": "B",
+    "text": "In the middle of the budget meeting’s third lap around the same point, you said one quiet sentence and the table broke. The meeting ended four minutes later with a decision. Your sentence had the decision folded inside the joke, which everyone realized on the stairs."
+   }
+  ]
+ },
+ {
+  "id": "C006",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 2 · cost_others · chip Speaks plainly (was Deadpan)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You speak plainly to the people who matter most to you. Where the truth counts for more than the landing, you hand it over without the cushion it needed. Add the cushion sometimes, because you want them to land softly too."
+   },
+   {
+    "letter": "B",
+    "text": "People quote you at dinners you were not invited to. The deadpan reads as harmless right up until someone writes it down, and there, in plain text, is a fairly serious critique of how things are run. You have been warned about this. The warnings were also quoted."
+   }
+  ]
+ },
+ {
+  "id": "C007",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 3 · drive · chip Rewrites the rules (was Unconventional)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Breaking a rule interests you less than replacing it. Because you would rather make the better way than complain about the old, you rewrite the rule in the doing. You go the slow way instead of the loud one, and what you make holds."
+   },
+   {
+    "letter": "B",
+    "text": "Doing it the standard way physically bothers you, the way a crooked picture frame bothers other people. Your methods look wrong until the results arrive. The spreadsheet is shaped strangely, the pitch skips the template, and both work for reasons the template never considered."
+   },
+   {
+    "letter": "C",
+    "text": "Rules read to you as first drafts. Since you would rather fix a bad rule than follow it, you rewrite it in the doing and in plain sight. You spend a while being marked wrong, and the rewrite tends to look like sense later."
+   }
+  ]
+ },
+ {
+  "id": "C008",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 3 · cost_self · chip Rewrites the rules (was Unconventional)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You taught the training session backward, results first, theory never. The feedback forms split perfectly: half the class wanted the old slides back, half said it was the first training they had ever stayed awake for. You kept the backward version and the split."
+   },
+   {
+    "letter": "B",
+    "text": "Rewriting a rule is your answer to one that makes no sense. Each time you choose to fix it rather than obey it, you lose the credit that following it would earn. Follow one you dislike this month, because that approval was yours too."
+   }
+  ]
+ },
+ {
+  "id": "C009",
+  "cell": "土_伤官",
+  "label": "土_伤官 · catalyst · row 3 · cost_others · chip Rewrites the rules (was Unconventional)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You rewrite a rule that stops making sense under the people standing on it. Since you fix it ahead of keeping the peace, you change the footing with no warning. Give the warning first, because the rule you found pointless was somebody's floor."
+   },
+   {
+    "letter": "B",
+    "text": "Coworkers describe your methods with a hand gesture, because words take too long. Nobody fully approves and nobody interferes, since the last person who standardized your workflow watched output drop by half. You are the licensed exception, and the license renews on results."
+   }
+  ]
+ },
+ {
+  "id": "C010",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 1 · drive · chip Pushes back (was Contrarian)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You push back on a thing before you have looked at it. Disagreeing fits you better than nodding does, so you push first and judge later. You know that some of what you pushed against was on your side."
+   },
+   {
+    "letter": "B",
+    "text": "Disagreeing arrives before your reasons do, and sometimes instead of them. Whatever the group settles on, something in you stands up to unsettle it. Being the counterweight was useful so often that it became a reflex, and now it fires even when the scale was balanced."
+   },
+   {
+    "letter": "C",
+    "text": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check whether you mind it. Keep in mind, pushing back costs you the same whether the plan was good or not."
+   }
+  ]
+ },
+ {
+  "id": "C011",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 1 · cost_self · chip Pushes back (was Contrarian)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Pushing back is how you keep hold of yourself in a group. Since giving in feels like disappearing, you push against help as much as against orders. Remember that what you keep pushing away is help you needed."
+   },
+   {
+    "letter": "B",
+    "text": "The team finally aligned after three weeks, and your hand went up with a fresh objection you half believed. The alignment wobbled, the meeting ran long, and afterward you privately admitted the plan had been fine. The objection just refused to stay seated."
+   }
+  ]
+ },
+ {
+  "id": "C012",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 1 · cost_others · chip Pushes back (was Contrarian)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You push back before you hear the end of a plan. Where being hard to convince feels like being hard to fool, you make people defend a plan instead of taking it as offered. You could let the whole thing arrive before you push."
+   },
+   {
+    "letter": "B",
+    "text": "People have started pre-gaming your objections, guessing them in advance and drafting answers before you speak. It works as a system. It also means your yes has quietly lost its market value, because everyone prices in a no from you regardless of the question."
+   }
+  ]
+ },
+ {
+  "id": "C013",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 2 · drive · chip Says too much (was Eye-rolling)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You say the extra sentence, the one the moment did not need. Holding a thought in feels more dishonest than letting it out, so the clever version wins over the quiet one. You know saying less would have said the same thing."
+   },
+   {
+    "letter": "B",
+    "text": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. Remember that the useful half was the only part you were asked for."
+   },
+   {
+    "letter": "C",
+    "text": "Contempt leaks out of you through the smallest muscles, and everyone catches it. The sigh, the half-second stare at the ceiling, the pen set down slowly. You never said the meeting was stupid. Your face published a full review before your mouth said anything."
+   }
+  ]
+ },
+ {
+  "id": "C014",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 2 · cost_self · chip Says too much (was Eye-rolling)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Someone junior presented an idea you had watched fail in 2019, and your eyebrow filed its report before slide two. They finished shakily and never pitched again in your presence. You remember the flaw in the idea. They remember the eyebrow."
+   },
+   {
+    "letter": "B",
+    "text": "Saying too much proves to you that you were listening. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You know the trust you talk away comes back slower than it left."
+   }
+  ]
+ },
+ {
+  "id": "C015",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 2 · cost_others · chip Says too much (was Eye-rolling)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You say too much to whoever let you speak. Because a thought feels wasted unless it is said, you take their turn as much as your own. You owe whoever you talked over the sentence you took."
+   },
+   {
+    "letter": "B",
+    "text": "People rehearse before telling you things, and the rehearsal is about your face. What feels to you like honest quality control lands as a toll on everyone bringing you anything unfinished. The unfinished things have started routing around you, which is how you lose first drafts forever."
+   }
+  ]
+ },
+ {
+  "id": "C016",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 3 · drive · chip Overdoes it (was Quake-prone)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You overdo it on purpose, since enough never felt like a safe place to stop. Making it bigger is more your style than making it done, so every small job grows a second floor. Remember that the second floor comes out of your own supply."
+   },
+   {
+    "letter": "B",
+    "text": "Long stillness, then the crack: your frustration stores itself quietly and spends itself all at once. Months of fine, fine, fine, and then one Tuesday the ground moves and everyone nearby learns what was actually underneath. The eruption feels sudden to them. It was years old to you."
+   },
+   {
+    "letter": "C",
+    "text": "Overdoing it is the only way you know to be sure of enough. Since plain and finished feels like settling, you make it bigger rather than call it done. You pay for the extra out of yourself, a price worth keeping in mind."
+   }
+  ]
+ },
+ {
+  "id": "C017",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 3 · cost_self · chip Overdoes it (was Quake-prone)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "It was the dishwasher being loaded wrong that finally did it, which everyone understood was never really about the dishwasher. Eight months of swallowed remarks arrived in four unscheduled minutes. The kitchen went very quiet. The actual issue, named at last, turned out to be workable."
+   },
+   {
+    "letter": "B",
+    "text": "Overdoing it is how you make work look like you. Long after the plain version would do, you keep adding rather than finishing and spend what the end needed. You paid for the extra in sleep, and the sleep was part of the price."
+   }
+  ]
+ },
+ {
+  "id": "C018",
+  "cell": "土_伤官",
+  "label": "土_伤官 · friction · row 3 · cost_others · chip Overdoes it (was Quake-prone)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People near you learn to read the ground: the shorter answers, the tidier desk, the way your jokes stop. They start walking softly weeks before you blow, which means the whole household holds its breath on a schedule you set and cannot see."
+   },
+   {
+    "letter": "B",
+    "text": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. You owed them the small one now, the one with a use."
+   }
+  ]
+ },
+ {
+  "id": "C019",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 1 · drive · chip Gives first (was Hearty)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your warmth arrives in generous portions, seconds included. The laugh is real and audible from the driveway, the welcome fills doorways, the food comes in servings that assume everyone is recovering from something. People leave your presence heavier and lighter at the same time."
+   },
+   {
+    "letter": "B",
+    "text": "Giving is your first language. You would rather hand over your help than wait to see whether it was wanted, since being needed is how you feel sure of your place. Keep some of it back for the people who ask."
+   },
+   {
+    "letter": "C",
+    "text": "Giving comes to you before the question does. Being useful is how you feel you belong, so you give first rather than wait to be asked. You lose nothing by waiting for the question, since a gift asked for is the one that gets kept."
+   }
+  ]
+ },
+ {
+  "id": "C020",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 1 · cost_self · chip Gives first (was Hearty)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Where you feel most yourself is giving before the asking. Because the gift comes ahead of the need, you never learn whether you were wanted or only useful. You pay in a closeness you never get to test until you let the asking come first."
+   },
+   {
+    "letter": "B",
+    "text": "You hugged the departing intern on their last day and they cried, then laughed, then took the container of food you had somehow prepared. It was a Tuesday. Nobody else had planned anything. Your goodbyes just come catered, and people remember them for years."
+   }
+  ]
+ },
+ {
+  "id": "C021",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 1 · cost_others · chip Gives first (was Hearty)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Invitations to yours get accepted at a suspiciously high rate, and everyone brings appetites they deny elsewhere. Around your table, people eat like their grandmother is watching and talk like nobody is. The recipe everyone asks for is not really the food."
+   },
+   {
+    "letter": "B",
+    "text": "Giving first is your way of saying you noticed. Each time you give instead of waiting to be needed, you take from the people closest to you the small pride of asking. Leave them the asking along with the giving."
+   }
+  ]
+ },
+ {
+  "id": "C022",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 2 · drive · chip Makes things last (was Settled)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "What you make is made to last, slowly and on purpose. The making itself is the enjoyment, so you make things for the years rather than for the showing. You deserve the showing as much as the making, because work that stays unseen stays unused."
+   },
+   {
+    "letter": "B",
+    "text": "Contentment came to you early and never left. The house is enough, the work is enough, tonight’s dinner is a small event worth savoring out loud. Peace like yours reads as quietly radical among people who are permanently mid-upgrade."
+   },
+   {
+    "letter": "C",
+    "text": "Making things slowly suits you better than rushing them. You enjoy the making more than the finishing, and your best things take years and hold for a long time. Let one out before it feels complete, since lasting work also needs its day."
+   }
+  ]
+ },
+ {
+  "id": "C023",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 2 · cost_self · chip Makes things last (was Settled)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Making things last is your idea of doing something right. Since the work is only right once it holds, you would rather be finished than first. Show one thing before it is done, or the chances that wanted you early close while you keep making."
+   },
+   {
+    "letter": "B",
+    "text": "Friends came over agitated about the market, the election, the everything, and left three hours later having discussed tomatoes, an old trip, and a plan for soup. Nothing was solved. Everything was better. Your kitchen table does this reliably, and nobody can explain the mechanism."
+   }
+  ]
+ },
+ {
+  "id": "C024",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 2 · cost_others · chip Makes things last (was Settled)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People visit you the way city dwellers visit the countryside, to remember a pace exists. Your unhurried answers slow their breathing within the hour. More than one friend has admitted planning a hard week around a stop at your place, medicinal and unofficial."
+   },
+   {
+    "letter": "B",
+    "text": "You make things last for your family rather than arrive on time. You never count the waiting, and next year you deliver what was needed this year. You are free to hand over an early version, and a thing used now beats one admired later."
+   }
+  ]
+ },
+ {
+  "id": "C025",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 3 · drive · chip Happy with enough (was Providing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Enough is a place you can live in. Being happy with what is here comes easier than wanting, so you enjoy what you have rather than chase what you lack. Let yourself want more sometimes, because enough has a way of shrinking."
+   },
+   {
+    "letter": "B",
+    "text": "You are happy with enough and mean it. Since more never felt like the point, you would rather enjoy a good day than work toward a better one. Keep one wish that enough does not cover, because contentment also needs somewhere to go."
+   },
+   {
+    "letter": "C",
+    "text": "Feeding people, literally and otherwise, is your default expression of everything. Congratulations come as dinner, condolences as casserole, apology as pie. Words were never quite your instrument. The stocked plate says what you mean with better grammar than you ever found."
+   }
+  ]
+ },
+ {
+  "id": "C026",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 3 · cost_self · chip Happy with enough (was Providing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for what you deserve. You could ask once for more, since enough costs you everything you never learned you could have."
+   },
+   {
+    "letter": "B",
+    "text": "When the neighbors’ kitchen flooded, dinner appeared on their porch for six consecutive nights, different each night, unsigned after the second. They knew. Everyone always knows. The seventh night they came to your door with the empty dishes and stayed three hours."
+   }
+  ]
+ },
+ {
+  "id": "C027",
+  "cell": "土_食神",
+  "label": "土_食神 · catalyst · row 3 · cost_others · chip Happy with enough (was Providing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "At home, enough is the mood you set. Whenever enough comes early for you, you settle for the people in your care rather than push for them. Want more out loud for them, and the size of your enough becomes the size of their life."
+   },
+   {
+    "letter": "B",
+    "text": "There is a shelf of your containers in half the kitchens on the street, waiting to be returned, in no hurry. People measure crises partly by whether your food showed up. It always has, which is why nobody around you fully believes in worst cases."
+   }
+  ]
+ },
+ {
+  "id": "C028",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 1 · drive · chip Never stops giving (was Coasting)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Good enough arrived years ago and you parked there. The skills plateaued where the applause got comfortable, the menu settled into rotation, the questions you ask the world got smaller. Nothing is wrong. That is the anesthetic, and it is working."
+   },
+   {
+    "letter": "B",
+    "text": "You give the way you breathe, without checking the supply. Being needed is where you feel safe, and that keeps you giving rather than stopping long enough to notice you are tired. You know the tiredness is a message, and it is addressed to you."
+   },
+   {
+    "letter": "C",
+    "text": "Giving is the one thing you never run out of. Since being useful feels more like you than being rested, you keep giving after the supply behind it goes quiet. Keep in mind that the giving lasts only as long as you do."
+   }
+  ]
+ },
+ {
+  "id": "C029",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 1 · cost_self · chip Never stops giving (was Coasting)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The restaurant changed its menu and you grieved for a week, which was the biggest event of your quarter. The novel sits half-read since spring. Asked what is new, you laughed and said nothing, thank goodness. Part of you checked whether that was still funny."
+   },
+   {
+    "letter": "B",
+    "text": "Giving without stopping is how you avoid asking what you need. Because running low feels better than asking, you give the rest you needed to whoever is next in line. Remember that the rest you keep skipping is the supply the giving runs on."
+   }
+  ]
+ },
+ {
+  "id": "C030",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 1 · cost_others · chip Never stops giving (was Coasting)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You give to the people at home without stopping, and never leave them a turn. Since giving feels safer than needing, you take from them the chance to look after you. You owe them the closeness of giving back once in a while."
+   },
+   {
+    "letter": "B",
+    "text": "People stopped inviting you to the ambitious things, the course, the climb, the startup, because your no had become furniture. They meet you where you are, fondly, forever. Somewhere in the fondness is a question nobody asks out loud anymore: what would it take."
+   }
+  ]
+ },
+ {
+  "id": "C031",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 2 · drive · chip Drifts along (was Sluggish)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You drift along because drifting is pleasant. You are never in a hurry, so you would rather let the day carry you than steer it. You know drifting is not the same as resting, and only one of them puts anything back."
+   },
+   {
+    "letter": "B",
+    "text": "Drifting along is comfortable, and comfort is enough for you. Since the easy day never argues and the hard start always does, you would rather drift than start. You will want to remember that drifting feels like rest until it costs you what you wanted."
+   },
+   {
+    "letter": "C",
+    "text": "Your engine idles low, and everything discretionary waits behind it. The reply sits, the errand rolls to next week, the project gathers a soft dust. It is never refusal, just a body that treats urgency as a rumor and momentum as an occasional guest."
+   }
+  ]
+ },
+ {
+  "id": "C032",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 2 · cost_self · chip Drifts along (was Sluggish)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The two-minute form took eleven days, which even you found funny once it was done. In between, the reminder emails arrived, were read from bed, and joined the queue. Nothing bad happened. Nothing bad ever quite happens, which keeps the idle running."
+   },
+   {
+    "letter": "B",
+    "text": "Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one. You let the chance you were good enough for close while you drift, and you rarely count it."
+   }
+  ]
+ },
+ {
+  "id": "C033",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 2 · cost_others · chip Drifts along (was Sluggish)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People pad every request to you with a week, automatically, the way builders pad quotes. The padding works, mostly, and its existence never gets mentioned to your face. Deadlines that genuinely matter get routed to faster hands, along with, quietly, the credit."
+   },
+   {
+    "letter": "B",
+    "text": "Drifting along at home means the steering is not yours. Since going with the day suits you more than setting it, you leave the people you live with the choices you skip. You hand them the weight with the choice, and that is worth remembering."
+   }
+  ]
+ },
+ {
+  "id": "C034",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 3 · drive · chip Too soft (was Pampered)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You are too soft on everyone in reach, and you enjoy it. Because comfort feels like proof you are needed, you soften everything rather than hand over the version worth growing into. Bear in mind that ease is only half of what you give."
+   },
+   {
+    "letter": "B",
+    "text": "Going soft on the people around you comes to you without thinking. Since comfort is the shape your care takes, you soften their way rather than let them manage it. Remember that a little struggle is also something you can give."
+   },
+   {
+    "letter": "C",
+    "text": "Comfort is your climate, and discomfort gets treated as a system error. The thermostat, the cushions, the snacks within reach of the good chair: your setup absorbs effort before effort forms. Convenience was the reward once. Somewhere along the way it became the requirement."
+   }
+  ]
+ },
+ {
+  "id": "C035",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 3 · cost_self · chip Too soft (was Pampered)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The camping trip died in the planning stage, again, on the pillow question. There is a version of you that would have loved the campfire. He was outvoted by the version who knows the good chair, the near snacks, and exactly how far the blanket reaches."
+   },
+   {
+    "letter": "B",
+    "text": "Being too soft is how you say you care. Because you put their comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You know the money and rest you give away do not come back."
+   }
+  ]
+ },
+ {
+  "id": "C036",
+  "cell": "土_食神",
+  "label": "土_食神 · friction · row 3 · cost_others · chip Too soft (was Pampered)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Loved ones arrange the world around your comforts with amused precision, the right chair saved, the schedule bent around your naps. It is done with love and a faint tiredness. Adventures get planned in sizes that fit inside your comfort, which is to say, small."
+   },
+   {
+    "letter": "B",
+    "text": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you go soft before the first try ends. You keep taking from them a struggle that was theirs to grow on."
+   }
+  ]
+ },
+ {
+  "id": "C037",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 1 · drive · chip Senses it first (was Connects dots)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You sense where a thing is going before anyone says it. Needing to understand ahead of being told, you take the half-sentence rather than wait on the whole. You carry what you sensed alone until someone catches on, a wait you can afford."
+   },
+   {
+    "letter": "B",
+    "text": "Sensing a thing first comes easier to you than waiting to be told. You sense the pause before an answer, and your guess runs past the words. What you sense first arrives ahead of your ability to say it, so let the words catch up."
+   },
+   {
+    "letter": "C",
+    "text": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone."
+   }
+  ]
+ },
+ {
+  "id": "C038",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 1 · cost_self · chip Senses it first (was Connects dots)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "A thing sensed first feels safer than a plain question asked. Since you would rather sense it than be told, what you have half right stays half right. Say it out loud sometimes, because the lesson you keep missing comes to the one who asks."
+   },
+   {
+    "letter": "B",
+    "text": "The shipping fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially."
+   }
+  ]
+ },
+ {
+  "id": "C039",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 1 · cost_others · chip Senses it first (was Connects dots)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever someone starts telling you something, you sense its direction and answer that. Sensing the point before the words saves you time and costs the other person their own ending. Let them reach it, because you want them heard as much as understood."
+   },
+   {
+    "letter": "B",
+    "text": "Colleagues have learned that your reading list is a leading indicator of next quarter’s ideas, and that none of it will look relevant at the time. Mushrooms, medieval trade, birdsong. Six months later one of them is a strategy. Nobody can predict which."
+   }
+  ]
+ },
+ {
+  "id": "C040",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 2 · drive · chip Self-taught (was Perceptive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You notice the understory, the layer below what people say. The pause before the yes, the meeting scheduled suspiciously early, the plant someone stopped watering. Your reads arrive quietly and early, and they are right often enough to be slightly unsettling."
+   },
+   {
+    "letter": "B",
+    "text": "You teach yourself what others take classes in. Being handed an answer never feels like knowing it, and you would rather be self-taught than shown. The self-taught way costs you time, and what you learn by it is the kind that stays."
+   },
+   {
+    "letter": "C",
+    "text": "The things you are best at, you taught yourself. Because a lesson only counts once you have found it yourself, you take the long way through a subject instead of the taught one. It costs you years, and you would pay them again."
+   }
+  ]
+ },
+ {
+  "id": "C041",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 2 · cost_self · chip Self-taught (was Perceptive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You read a table in the time it takes to sit down. A changed tone, a pause a beat too long, a chair pulled slightly away, and you know something has shifted, usually before anyone says so."
+   },
+   {
+    "letter": "B",
+    "text": "Being self-taught makes the knowing yours. The long way feels more honest than the short, so you spend years on what a teacher would hand you in a day. Let someone show you the part you keep getting wrong, because the years saved are yours."
+   }
+  ]
+ },
+ {
+  "id": "C042",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 2 · cost_others · chip Self-taught (was Perceptive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Teaching yourself means you rarely ask anyone who knows. Working it out alone feels cleaner than owing an answer, so you keep questions private. Learning by yourself denies the people who know the pleasure of being asked, and you repay it with one question."
+   },
+   {
+    "letter": "B",
+    "text": "Friends run their situations past you the way farmers check soil, quietly and before committing. You rarely volunteer what you see, which people mistake for not seeing. The few who ask directly get answers that reorganize their month, and they learn to ask again."
+   }
+  ]
+ },
+ {
+  "id": "C043",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 3 · drive · chip Sleeps on it (was Self-taught)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Diplomas confuse people about you. The knowledge is real and the paper does not exist."
+   },
+   {
+    "letter": "B",
+    "text": "You sleep on a question rather than answer on the spot. What you know arrives whole after a night's sleep, so forcing it now feels false. Sleeping on it costs you the quick reply, and what you wake with is yours to stand behind."
+   },
+   {
+    "letter": "C",
+    "text": "The answer you trust shows up after sleeping on it. Rather than reply with the part of you that talks, you sleep on the question and let the part that knows work. You pay by answering last, a price you can live with."
+   }
+  ]
+ },
+ {
+  "id": "C044",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 3 · cost_self · chip Sleeps on it (was Self-taught)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Sleeping on a question makes its answer real to you. You hold out for the whole answer instead of half, and chances close while you sleep on them. Give each question a morning to be ready by, because waiting costs you the chance itself."
+   },
+   {
+    "letter": "B",
+    "text": "You learned the trade from a decade-old forum thread, two library books, and four hundred evenings of trying, and the certified people at work now quietly ask you the hard questions. Someone asked where you studied. The honest answer, nowhere, ended the conversation strangely."
+   }
+  ]
+ },
+ {
+  "id": "C045",
+  "cell": "木_偏印",
+  "label": "木_偏印 · catalyst · row 3 · cost_others · chip Sleeps on it (was Self-taught)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People cannot place your education, and it bothers the ones with framed diplomas. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
+   },
+   {
+    "letter": "B",
+    "text": "Whenever someone needs an answer, you sleep on it. Sleeping on it matters more than a quick reply, and you leave whoever asked waiting a day longer. Name the day you will answer by, because a wait with a date weighs less on them."
+   }
+  ]
+ },
+ {
+  "id": "C046",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 1 · drive · chip Thinks in circles (was Tangled)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your thoughts grow into each other until no single thread pulls free. The simple question triggers the whole system: history, caveats, three related concerns, and an hour later the original question is still standing there, unanswered, holding its coat."
+   },
+   {
+    "letter": "B",
+    "text": "Thinking a question through means thinking it around, every side before any answer. Being certain matters more to you than being quick, so you take one more angle rather than decide. You alone can step out of a circle, and it never closes by itself."
+   },
+   {
+    "letter": "C",
+    "text": "Your mind goes round a question more easily than through it. Since being wrong feels worse to you than being late, you add a side rather than pick one. You feel the circle as work, and it is worth remembering it only brings you back."
+   }
+  ]
+ },
+ {
+  "id": "C047",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 1 · cost_self · chip Thinks in circles (was Tangled)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Asked whether you wanted the Thursday or Friday slot, you produced a consideration of both, touching childcare, traffic patterns, an article about decision fatigue, and your mother. The organizer waited, then assigned Thursday. You are still not sure Thursday was right."
+   },
+   {
+    "letter": "B",
+    "text": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chance that needed an answer this week, and remembering that beats another circle."
+   }
+  ]
+ },
+ {
+  "id": "C048",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 1 · cost_others · chip Thinks in circles (was Tangled)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever someone brings you a question, you think in circles first. Every side counts for more than a usable reply, so you hand over the process instead of a yes. Keep in mind that you owe them the short answer, and the circles stay yours."
+   },
+   {
+    "letter": "B",
+    "text": "People simplify their questions before bringing them to you, stripping out anything your mind might climb. It half works. What they get back is still a thicket, thorough beyond use, and they thank you and go make the decision with a coin."
+   }
+  ]
+ },
+ {
+  "id": "C049",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 2 · drive · chip Keeps it in (was Secretive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "What you understand, you keep in. Saying a thing out loud makes it ordinary, and you would rather hold an idea unfinished than hand it over half-formed. Keeping it in keeps it yours, and you never learn what it would have become."
+   },
+   {
+    "letter": "B",
+    "text": "You keep what you know to yourself long after it is ready. Because being misread costs you more than being unknown, you hold the thought instead of saying it. Remember that keeping it in protects the idea and not you."
+   },
+   {
+    "letter": "C",
+    "text": "Information flows into you and does not flow out. Your projects, your feelings, your Tuesday afternoons: all filed under later. Nobody is deceived, exactly. They are just standing outside a hedge that grew so gradually no one remembers planting it."
+   }
+  ]
+ },
+ {
+  "id": "C050",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 2 · cost_self · chip Keeps it in (was Secretive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your closest friend learned about the job interview after you got the job, the apartment after you signed, and the surgery after the stitches came out. Each time they asked why. Each time the honest answer was that telling never occurred to you."
+   },
+   {
+    "letter": "B",
+    "text": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. Bear in mind that what you keep in gets built on by no one, you included."
+   }
+  ]
+ },
+ {
+  "id": "C051",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 2 · cost_others · chip Keeps it in (was Secretive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The people who love you assemble you from fragments, comparing notes like researchers with a rare species. Someone knows about the writing, someone else about the debt, nobody about both. Your privacy is total, and from their side it looks a lot like distance."
+   },
+   {
+    "letter": "B",
+    "text": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing for days at what takes you a minute, and the minute is yours."
+   }
+  ]
+ },
+ {
+  "id": "C052",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 3 · drive · chip Hides away (was Reclusive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your best thinking happens where nobody reaches you. Since a day with people spends what a day alone grows, you hide away ahead of showing up. Hiding away works until it is the only place you know how to be, and you notice that last."
+   },
+   {
+    "letter": "B",
+    "text": "Given a free evening, you choose the den, every time, and the evenings are increasingly free because people stopped asking. Solitude feeds your mind and quietly starves the rest. The difference between retreat and disappearance is a return date, and yours keeps sliding."
+   },
+   {
+    "letter": "C",
+    "text": "You hide away to think, and the hiding comes before the thinking. Company costs you the thread of an idea, so you would rather be alone with a question than with people and an answer. Hiding away feeds the work and quietly stops feeding you."
+   }
+  ]
+ },
+ {
+  "id": "C053",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 3 · cost_self · chip Hides away (was Reclusive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Hiding away protects what is growing in you. Because time alone feels like rest to you, you hide away rather than go out and keep the quiet past the point it helps. You pay for the shut door in closeness, and that is worth remembering."
+   },
+   {
+    "letter": "B",
+    "text": "The last three invitations got the same reply, drafted with real intention: next time. There was a fourth invitation. There was not a fifth. The group photo from the trip you skipped hangs in another house, complete without you, and nobody meant anything by it."
+   }
+  ]
+ },
+ {
+  "id": "C054",
+  "cell": "木_偏印",
+  "label": "木_偏印 · friction · row 3 · cost_others · chip Hides away (was Reclusive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Friends now describe you in past-adjacent tense, fondly, the way people describe a lighthouse keeper. Brilliant, out there somewhere, presumably fine. Re-entry gets harder each season you stay in the trees, and the seasons have started agreeing with each other."
+   },
+   {
+    "letter": "B",
+    "text": "When the people who love you reach for you, you hide longer. Being out of reach feels more like safety than absence, and your seat sits empty more than you mean. Your hiding costs them a friend tonight, and the door opens from your side."
+   }
+  ]
+ },
+ {
+  "id": "C055",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 1 · drive · chip Passes it on (was Nurturing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You pass on what you know before you have finished using it. Because a lesson kept feels like a lesson wasted, you would rather teach it than sit on it. The price is your own advantage, and you have never minded the price."
+   },
+   {
+    "letter": "B",
+    "text": "What you know is not finished until it is passed on. Since being useful matters more than being ahead, you hand over a lesson the day you learn it. Passing it on costs you the head start, and your knowing comes alive in others."
+   },
+   {
+    "letter": "C",
+    "text": "Growing people is your mind’s favorite work. You see the seed version of someone, water it with patience nobody else budgets, and stand back when it takes. Half your pride lives in other people’s accomplishments, planted years earlier, never invoiced."
+   }
+  ]
+ },
+ {
+  "id": "C056",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 1 · cost_self · chip Passes it on (was Nurturing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught. Keep one thing you know for yourself, because what you pass on first never pays you back."
+   },
+   {
+    "letter": "B",
+    "text": "The struggling student you tutored on Tuesdays for two unglamorous years just sent a photo of a diploma. Your reply took a while to type, for reasons the keyboard could not fix. You have four such photos now. Each one waters something in you back."
+   }
+  ]
+ },
+ {
+  "id": "C057",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 1 · cost_others · chip Passes it on (was Nurturing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever you learn something, you pass it on to whoever is nearest. You would rather give the lesson than be asked for it, and you hand people answers they enjoyed finding. Let them ask sometimes, because you land a lesson better when it was wanted."
+   },
+   {
+    "letter": "B",
+    "text": "People trace their turning points to you with an accuracy that would embarrass you if collected in one place, so it never is. The teacher, the aunt, the manager who believed early. Different names for the same climate. Things grow where you are, reliably."
+   }
+  ]
+ },
+ {
+  "id": "C058",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 2 · drive · chip Takes people in (was Evergreen)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your mind keeps its leaves through every season. The curiosity other people lose to adulthood is intact in you, still learning, still asking, still green in the middle of professional winters. People with half your years age faster than you do, and notice."
+   },
+   {
+    "letter": "B",
+    "text": "Taking someone in comes naturally to you. Because a person under your roof feels like a reason, you say yes to the stay ahead of counting the cost. Your own quiet is the price, and you have always paid it gladly."
+   },
+   {
+    "letter": "C",
+    "text": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. It costs you a home that is rarely only yours, and you keep the door open anyway."
+   }
+  ]
+ },
+ {
+  "id": "C059",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 2 · cost_self · chip Takes people in (was Evergreen)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Taking people in makes a house a place that matters. You put someone's shelter ahead of your own quiet, so your sleep is the first thing to go. Let someone take you in for once, because the rest you give away never comes back."
+   },
+   {
+    "letter": "B",
+    "text": "You started the language course at fifty-five, unbothered by the teenagers in the app rankings, and held a halting first conversation on holiday two years later. The waiter complimented your verbs. You have retold that compliment more often than any career achievement."
+   }
+  ]
+ },
+ {
+  "id": "C060",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 2 · cost_others · chip Takes people in (was Evergreen)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Younger colleagues keep forgetting your age and older ones keep asking your secret. It is not genetic and it is not the diet. It is that you never signed the retirement papers for your curiosity, and around you, other people quietly un-sign theirs."
+   },
+   {
+    "letter": "B",
+    "text": "For as long as they need, and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, and a month's stay runs to a year. Name a leaving day, because the people you take in need their own feet."
+   }
+  ]
+ },
+ {
+  "id": "C061",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 3 · drive · chip Gives it time (was Shade-giving)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your presence casts usable shade: people rest in it, think in it, recover in it. You hold opinions without weaponizing them and knowledge without billing for it. Being near you lowers the temperature of a problem by several degrees, which is why problems keep visiting."
+   },
+   {
+    "letter": "B",
+    "text": "You give a person time rather than a push. Forced growth never holds in your experience, so you wait for someone to get there instead of pulling. Giving it time costs you the fast result, and the slow one is the one that lasts."
+   },
+   {
+    "letter": "C",
+    "text": "Patience is the part of your care people notice last. Because you trust that a person gets there at their own pace, you give it time ahead of giving advice. The price is seeing results last, and you can stand that."
+   }
+  ]
+ },
+ {
+  "id": "C062",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 3 · cost_self · chip Gives it time (was Shade-giving)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Giving it time is how you respect someone's growth. Waiting for them to get there feels kinder than pulling them, so your own next step waits with theirs. Give yourself a date too, because time given away is also a chance let pass."
+   },
+   {
+    "letter": "B",
+    "text": "The new parent next door sat in your kitchen for one hour weekly through an entire hard winter, mostly saying the same things. You mostly listened and refilled the pot. By spring they were fine. They credit the tea. It was never the tea."
+   }
+  ]
+ },
+ {
+  "id": "C063",
+  "cell": "木_正印",
+  "label": "木_正印 · catalyst · row 3 · cost_others · chip Gives it time (was Shade-giving)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever someone close to you is slow to grow, you give them time instead of a push. Patience feels kinder than pressure, and the nudge they needed waits inside it. Give the small push sometimes, because time alone moves fewer people than you hope."
+   },
+   {
+    "letter": "B",
+    "text": "People plan hard conversations for when you will be present, the way picnics get planned around trees. Your effect is easiest to see in your absences: the family gathering that runs scratchier without you, the meeting that overheats. Comfort has a source. You are one."
+   }
+  ]
+ },
+ {
+  "id": "C064",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 1 · drive · chip Helps too soon (was Smothering)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Helping too soon is your reflex. Since a need unmet feels like a failure of yours, you fix the thing rather than wait for them to try. The help you give early is also the try you take away, and you know which one lasts."
+   },
+   {
+    "letter": "B",
+    "text": "Your care comes in coverage so complete it blocks the light. The help arrives before the struggle finishes forming, the advice before the question. People you love grow pale under the protection, and their weakness then proves to you they needed it."
+   },
+   {
+    "letter": "C",
+    "text": "You help the moment you see a need, ahead of being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried. Remember that help given too soon teaches them that they needed you."
+   }
+  ]
+ },
+ {
+  "id": "C065",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 1 · cost_self · chip Helps too soon (was Smothering)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Helping too soon fills your days with other people's tasks. Taking over feels quicker than watching it done badly, and you carry weight you were never asked to carry. You skip your own rest to help early, and that rest never comes back."
+   },
+   {
+    "letter": "B",
+    "text": "Your son’s first apartment came pre-stocked by you down to the spice rack, his job application quietly proofread, his landlord researched. He thanked you with something missing from his voice. At thirty he still calls before minor decisions, which you count as closeness."
+   }
+  ]
+ },
+ {
+  "id": "C066",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 1 · cost_others · chip Helps too soon (was Smothering)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where their win was going. The try you save them from was theirs, and you can hand it back next time."
+   },
+   {
+    "letter": "B",
+    "text": "The people in your shade have private conversations about sunlight. They rehearse independence speeches they never quite give, because the care is real and the debt it creates is real too. Someone will eventually transplant themselves abruptly. It will be called ungrateful. It will be survival."
+   }
+  ]
+ },
+ {
+  "id": "C067",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 2 · drive · chip Holds too tight (was Clingy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Holding on is what your care turns into once the growing ends. Because you grew them, letting go feels more like being left than like finishing, and you hold on after holding stops helping. Remember that you make the leaving certain by holding too tight."
+   },
+   {
+    "letter": "B",
+    "text": "Letting go is a season your mind refuses to enter. The grown child, the finished era, the friend who moved: you hold on with tendrils dressed as check-ins, traditions, and gentle guilt. The grip feels like love from inside. From outside it has a weight."
+   },
+   {
+    "letter": "C",
+    "text": "You hold the people you have grown close tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You know that a person held too tight leaves, later and hurting more."
+   }
+  ]
+ },
+ {
+  "id": "C068",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 2 · cost_self · chip Holds too tight (was Clingy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Holding too tight keeps what you grew from leaving. Keeping someone close feels safer than making new friends, so the few you hold become the only ones you have. The grip costs you every friend you never made, and you can choose otherwise."
+   },
+   {
+    "letter": "B",
+    "text": "The weekly call with your daughter has an agenda now, hers, called boundaries. You negotiated it down from daily with visible effort. Afterward you reorganized her old bedroom again, which is its own kind of phone call, one she has stopped answering."
+   }
+  ]
+ },
+ {
+  "id": "C069",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 2 · cost_others · chip Holds too tight (was Clingy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People manage their exits from your orbit in stages, like leaving a warm bath slowly. Nobody tells you directly that the holding hurts, because you hold on sweetly. So they drift by inches and you tighten by inches, and both sides call it fine."
+   },
+   {
+    "letter": "B",
+    "text": "With people you raised, you hold on past the moment they are ready. Being needed feels like love from inside, and you keep them close rather than wave them off. You owe your grown ones a leaving without guilt, the gift only letting go gives."
+   }
+  ]
+ },
+ {
+  "id": "C070",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 3 · drive · chip Stays put (was Dormant)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You stay where you are known rather than go where you would grow. Being sheltered feels the same as being fine from inside, so staying put never looks like a choice. Staying put costs you the growing, and that part is worth noticing."
+   },
+   {
+    "letter": "B",
+    "text": "Staying put is your answer to most things that unsettle you. Because the known place asks nothing, you keep to it ahead of the one that would grow you. Comfort and being finished feel the same from inside, and only you can tell them apart."
+   },
+   {
+    "letter": "C",
+    "text": "Your own growth went to sleep somewhere while you tended everyone else’s. The plans wait like bulbs under a lawn you keep mowing for other people. You call it a phase, and phases end. This one has voted itself several extensions."
+   }
+  ]
+ },
+ {
+  "id": "C071",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 3 · cost_self · chip Stays put (was Dormant)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Staying put feels like rest and works like a slow leak. The place you know asks less than the one you want, and you keep it until the wanting goes quiet. You miss the move you needed to make, and the loss is yours."
+   },
+   {
+    "letter": "B",
+    "text": "The application for your own course sat behind the fridge magnets all autumn while you drove other people to theirs. The deadline passed in November, quietly. Next year, you said, watering someone else’s success. You have said next year in four different Novembers now."
+   }
+  ]
+ },
+ {
+  "id": "C072",
+  "cell": "木_正印",
+  "label": "木_正印 · friction · row 3 · cost_others · chip Stays put (was Dormant)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "When those close to you are ready to move, you stay put and ask for time. Keeping things as they are feels safer than change, and you hold the family in place. Your staying costs them a year of their moving, worth keeping in mind."
+   },
+   {
+    "letter": "B",
+    "text": "The people you have grown keep looking back, puzzled, waiting for you to start your own season. They offer to return the favor and find no project to help with. Your soil is famously fertile. Everyone wonders, some out loud now, why nothing of yours is planted in it."
+   }
+  ]
+ },
+ {
+  "id": "C073",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 1 · drive · chip Clear-headed in crisis (was Cool-headed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your temperature drops as situations heat up, which is backwards from most people and priceless in a crisis. The angrier the meeting, the clearer your sentences get. Decisions made in your coolness hold up later, when everyone rereads what the heat almost signed."
+   },
+   {
+    "letter": "B",
+    "text": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. Bring that clear head into the calm weeks, since calm is where you lose it."
+   },
+   {
+    "letter": "C",
+    "text": "Where things fall apart, you think clearest, since pressure quiets your doubts. You would rather have one clear question in a crisis than a calm you cannot use. Let a quiet week count too, and your clear head stops waiting for disasters."
+   }
+  ]
+ },
+ {
+  "id": "C074",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 1 · cost_self · chip Clear-headed in crisis (was Cool-headed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Both founders were shouting by the time you spoke, and your first sentence was a number. Your second was a date. The shouting had nowhere to attach itself to numbers, and the meeting ended with a plan bearing your fingerprints and their signatures."
+   },
+   {
+    "letter": "B",
+    "text": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. Take the quiet as rest, for the sleep you lose before each crisis is the price."
+   }
+  ]
+ },
+ {
+  "id": "C075",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 1 · cost_others · chip Clear-headed in crisis (was Cool-headed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "In a crisis you take the clear head and every decision. Deciding fast feels safer than watching anyone decide slowly, so you carry the whole crisis rather than share it. Hand one piece over, because a crisis is learned by holding part of it."
+   },
+   {
+    "letter": "B",
+    "text": "Opponents find your calm the most alarming thing in the fight. While they heat up, you cool down, and every degree they rise hands you another advantage. Beating you requires making you blink first. The people who have tried compare notes afterward, uselessly."
+   }
+  ]
+ },
+ {
+  "id": "C076",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 2 · drive · chip Picks the moment (was Unblinking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Picking the moment is what you care about most. A move made too soon costs you the moment, so you would rather wait past an opening than waste one. Trust a plain opening too, because the moment you pick is not the only good one."
+   },
+   {
+    "letter": "B",
+    "text": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Let an open door count as a moment too, since the right time rarely announces itself."
+   },
+   {
+    "letter": "C",
+    "text": "You look directly at what others manage around. The bad diagnosis, the failing numbers, the conversation everyone keeps rescheduling: your gaze goes straight in, takes the true measure, and does not flinch on contact. Reality respects you for it and returns the favor with early warnings."
+   }
+  ]
+ },
+ {
+  "id": "C077",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 2 · cost_self · chip Picks the moment (was Unblinking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be taken back. Take the good-enough moment sometimes, because a chance held back does not come round again."
+   },
+   {
+    "letter": "B",
+    "text": "When the project was dying, you were the one who said dying, out loud, in week two instead of month four. The word landed like cold water. It also saved the quarter, because everything that followed was built on the actual situation instead of the brochure."
+   }
+  ]
+ },
+ {
+  "id": "C078",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 2 · cost_others · chip Picks the moment (was Unblinking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The moment is yours alone to pick. Since you would rather keep the plan until the moment than explain it, you leave the people you lead without a signal. Name the moment a day early, because the wait is what your timing costs them."
+   },
+   {
+    "letter": "B",
+    "text": "People borrow your eyes for their hardest looks: the contract they are afraid to reread, the feedback they suspect is true, the mole on the shoulder. You never soften the report and never sharpen it either. Afterward they know, which was the entire point."
+   }
+  ]
+ },
+ {
+  "id": "C079",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 3 · drive · chip Leads without shouting (was Deep-striking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You lead without shouting, often without anyone noticing. Being right matters more to you than being obeyed, and you lead by arranging the outcome rather than asking. Say the plan aloud once in a while, since quiet leading only works on people already listening."
+   },
+   {
+    "letter": "B",
+    "text": "When you move, it lands where it matters, at depth. No warning shots, no surface noise: you wait, read the current, and place one action where the whole structure turns. People rarely see your strike. They see everything afterward arranging itself differently."
+   },
+   {
+    "letter": "C",
+    "text": "Leading without shouting is the only kind of leading you trust. Since shouting gives people something to push back on, you set the outcome up rather than announce it. Announce it once anyway, because you cannot be followed where you cannot be seen leading."
+   }
+  ]
+ },
+ {
+  "id": "C080",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 3 · cost_self · chip Leads without shouting (was Deep-striking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You said nothing in three consecutive negotiations, then made one call to one person on a Thursday, and the entire deal reorganized around it by Monday. Colleagues spent the week reconstructing what happened. What happened was patience with coordinates."
+   },
+   {
+    "letter": "B",
+    "text": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. Claim one of them, since leading that leaves no trace never earns you the rank."
+   }
+  ]
+ },
+ {
+  "id": "C081",
+  "cell": "水_七杀",
+  "label": "水_七杀 · catalyst · row 3 · cost_others · chip Leads without shouting (was Deep-striking)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Rivals underestimate you at intake because you make no ripples, and revise their opinion exactly once. The revision is permanent. Around your industry there is a small collection of stories that all end the same way: nobody saw it coming, and it only needed to come once."
+   },
+   {
+    "letter": "B",
+    "text": "Whenever you lead, you arrange instead of asking. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. Lead with a question sometimes, since an answer never asked for is one you took."
+   }
+  ]
+ },
+ {
+  "id": "C082",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 1 · drive · chip Goes cold (was Chilling)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You go cold rather than say what hurt. Going cold costs you nothing in the moment, while naming the hurt hands someone a way back in. Remember that you stay in the cold as long as anyone you put there."
+   },
+   {
+    "letter": "B",
+    "text": "Your displeasure arrives as temperature. There is never a scene: the warmth simply leaves the water, and everyone in it notices at once. People can handle anger. The cold is harder, because there is nothing to answer and nowhere to warm up."
+   },
+   {
+    "letter": "C",
+    "text": "When crossed, you go cold instead of loud. Going cold asks nothing of you, so you would rather let silence speak than put the hurt into words. Going cold is a message too, sent to everyone in reach whether you mean it or not."
+   }
+  ]
+ },
+ {
+  "id": "C083",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 1 · cost_self · chip Goes cold (was Chilling)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and it is worth remembering what that costs in closeness."
+   },
+   {
+    "letter": "B",
+    "text": "You said nothing wrong at dinner. You said almost nothing at all, and the table spent two hours in a careful climate, passing dishes with light hands. Your partner asked afterward what happened. Nothing happened, you said, at a temperature that confirmed everything."
+   }
+  ]
+ },
+ {
+  "id": "C084",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 1 · cost_others · chip Goes cold (was Chilling)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever someone crosses you, you go cold on them first. You turn cold rather than show an anger that can be answered, and you take away their only way to fix it. Keep in mind that going cold leaves them a problem with no name."
+   },
+   {
+    "letter": "B",
+    "text": "People describe crossing you with weather words: frost, freeze, ice age. The thaw comes eventually, unannounced, and everyone pretends the winter did not happen. But they dress for it now, permanently, and some conversations never come back indoors."
+   }
+  ]
+ },
+ {
+  "id": "C085",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 2 · drive · chip Hard on yourself (was Relentless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Once you commit to pressure, it does not stop. The follow-up, the reminder, the revisited grievance: your current keeps flowing against the same rock long after the point was made, and past where the point began eroding the ground it stood on."
+   },
+   {
+    "letter": "B",
+    "text": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. Bear in mind that being this hard is your choice and yours to lower."
+   },
+   {
+    "letter": "C",
+    "text": "Being hard on yourself comes before anyone else can be. You would rather be hard on yourself first than wait to be measured, since a fault found first cannot be used against you. Remember that hard and fair are not the same thing."
+   }
+  ]
+ },
+ {
+  "id": "C086",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 2 · cost_self · chip Hard on yourself (was Relentless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The dispute with the contractor was won in March, with a refund and an apology. You were still composing documentation in June. The folder is spotless and the war is over, and only one side has noticed the second fact."
+   },
+   {
+    "letter": "B",
+    "text": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest never taken, because nothing you make gets to count."
+   }
+  ]
+ },
+ {
+  "id": "C087",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 2 · cost_others · chip Hard on yourself (was Relentless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People settle with you early because they have seen what the long version costs. Your persistence wins real victories, and it has also outlived several relationships that surrendered years before you stopped. The current cannot tell the difference between resistance and rubble."
+   },
+   {
+    "letter": "B",
+    "text": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You land the hardness on them too, and it was not theirs to carry."
+   }
+  ]
+ },
+ {
+  "id": "C088",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 3 · drive · chip Never lets up (was Suffocating)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You never let up, on anything or anyone. Since letting up feels like losing, you keep the pressure on rather than call the job done. You cannot feel finished until you let up on the thing you finished, and that is worth keeping in mind."
+   },
+   {
+    "letter": "B",
+    "text": "Your force pulls downward quietly. Deadlines, standards, and consequences settle over people like water over a diver, heavier with every meter, and nobody can point to the moment breathing got hard. You never raise your voice. The pressure does the talking, at depth."
+   },
+   {
+    "letter": "C",
+    "text": "Not letting up is the only speed you know. Since stopping feels like losing your place, you push past the point the work needs you rather than let up. Remember that the pressure you never let up on is pressure you are under too."
+   }
+  ]
+ },
+ {
+  "id": "C089",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 3 · cost_self · chip Never lets up (was Suffocating)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Never letting up is how you prove you belong. Because rest reads as falling behind, you would rather stay under pressure than put it down for a night. You settle the cost of never letting up in sleep, and the body sends the bill."
+   },
+   {
+    "letter": "B",
+    "text": "The new hire was excellent for three months, then quieter, then gone, and the exit interview mentioned an atmosphere no single incident could explain. You reread it twice, genuinely puzzled. Each individual expectation had been reasonable. Together they were an ocean on someone’s chest."
+   }
+  ]
+ },
+ {
+  "id": "C090",
+  "cell": "水_七杀",
+  "label": "水_七杀 · friction · row 3 · cost_others · chip Never lets up (was Suffocating)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Teams under you produce and pale at the same time, and the best people leave while thanking you sincerely. From your seat it looks like standards working. From theirs it was the slow discovery of how deep the water had gotten while they were busy swimming."
+   },
+   {
+    "letter": "B",
+    "text": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up costs them the evenings you gave up, and only you chose it."
+   }
+  ]
+ },
+ {
+  "id": "C091",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 1 · drive · chip Follows through (was Clockwork)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam."
+   },
+   {
+    "letter": "B",
+    "text": "Following through is your word to yourself. You would rather follow a plan made calm than chase the halfway idea, since calm is the state you trust. Keep an hour a week for it, because following through on the right thing beats finishing the first."
+   },
+   {
+    "letter": "C",
+    "text": "You follow through long after the mood that said yes has gone. Following through matters more to you than improving the plan, so you finish the version you announced. Let a better version in sometimes, since following through never meant never changing course."
+   }
+  ]
+ },
+ {
+  "id": "C092",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 1 · cost_self · chip Follows through (was Clockwork)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The morning sequence has not changed in nine years: the walk, the list, the first hard task before mail. Colleagues set meetings around it like farmers around rainfall. On the rare day the sequence breaks, three people ask if everything is alright. It usually is, by ten."
+   },
+   {
+    "letter": "B",
+    "text": "Following through is where you feel most yourself. Because stopping halfway feels like a broken promise, you follow through on what no longer fits rather than leave it. Drop one plan, since the chance you want most closes while you follow through on the last."
+   }
+  ]
+ },
+ {
+  "id": "C093",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 1 · cost_others · chip Follows through (was Clockwork)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Systems you build keep working after you leave them, which people discover with surprise and gratitude. The handover document from your last role is still in use, word for word, four successors later. Somebody described inheriting your process as moving into a house with the plumbing already perfect."
+   },
+   {
+    "letter": "B",
+    "text": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since following through on a plan never rechecked costs them the better one."
+   }
+  ]
+ },
+ {
+  "id": "C094",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 2 · drive · chip Earns trust slowly (was Composed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You earn trust slowly and prefer it that way. You care about being counted on more than being liked, so you earn trust by record rather than by charm. Let a little warmth go first sometimes, since trust earned slowly needs a reason to start."
+   },
+   {
+    "letter": "B",
+    "text": "You hold your shape under pressure the way deep water holds its level: visibly, reassuringly, without effort you would admit to. The difficult meeting, the public mistake, the audit: your surface stays level, and everyone in the region borrows a little of it."
+   },
+   {
+    "letter": "C",
+    "text": "Trust is something you earn slowly, on purpose. Since you would rather be sure of someone than quick with them, you earn trust in small pieces and keep each one. Give a bigger piece first sometimes, because trust earned slowly can be earned too slowly."
+   }
+  ]
+ },
+ {
+  "id": "C095",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 2 · cost_self · chip Earns trust slowly (was Composed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "When your name was mentioned unfairly in the all-hands, forty faces turned to watch yours. It gave them nothing: a nod, a note taken, a follow-up requested calmly afterward through channels. The retraction came within the week, and your pulse, whatever it did, did it privately."
+   },
+   {
+    "letter": "B",
+    "text": "Earning trust slowly is the only kind you believe. You would rather earn trust over a year than be oversold in a day, since quick trust feels false. Name your strengths once, because a chance that needs you now closes while you are earning trust."
+   }
+  ]
+ },
+ {
+  "id": "C096",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 2 · cost_others · chip Earns trust slowly (was Composed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Trust from you is earned as slowly as you earn it. Because easy trust feels false, you make a new person earn it rather than let them in early. Offer the welcome sooner, since earning your trust slowly costs them a warmth already earned."
+   },
+   {
+    "letter": "B",
+    "text": "People bring you bad news first, specifically, because your reaction never adds to the problem. The messengers relax mid-sentence, watching it land in still water. What it costs you to keep the surface level is a figure nobody has ever seen, which is the point of paying it."
+   }
+  ]
+ },
+ {
+  "id": "C097",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 3 · drive · chip Paces yourself (was Far-sighted)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You pace yourself through things other people sprint. You care more about arriving without strain than arriving first, and you keep a pace you can hold for years. Speed up once in a while, since pacing yourself only counts if you arrive."
+   },
+   {
+    "letter": "B",
+    "text": "Pacing yourself is a daily decision. Because you would rather last than win for a season, you hold your pace and let the quick ones pass. Let yourself be passed, since the pace you keep is why you are there at the end."
+   },
+   {
+    "letter": "C",
+    "text": "You plan at distances other people reserve for fantasy. The pension started at twenty-three, the succession question asked a decade early, the consequence spotted three moves before it forms. Present-tense people find it eerie. Future-tense people find it, eventually, in their interest."
+   }
+  ]
+ },
+ {
+  "id": "C098",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 3 · cost_self · chip Paces yourself (was Far-sighted)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The clause you insisted on in 2019, the one everyone called paranoid, activated last spring and saved the partnership six figures. You accepted the apologies without ceremony. The next contract contains four such clauses. Nobody calls them paranoid now. They call them yours."
+   },
+   {
+    "letter": "B",
+    "text": "Not breaking is what pacing yourself is for. Since a sprint costs the steadiness you built, you keep your pace rather than take the opening that needs a rush. Rush sometimes, because the chance that needs a sprint closes while you pace yourself toward it."
+   }
+  ]
+ },
+ {
+  "id": "C099",
+  "cell": "水_正官",
+  "label": "水_正官 · catalyst · row 3 · cost_others · chip Paces yourself (was Far-sighted)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People check plans against your horizon the way ships check charts, especially for the waters nobody has entered yet. Your predictions are unglamorous and mostly correct, delivered early enough to act on. The ones who listened compound the benefit. The ones who did not become examples."
+   },
+   {
+    "letter": "B",
+    "text": "Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, and you keep everyone at your speed. Let someone run ahead sometimes, since pacing them to you costs them a finish of their own."
+   }
+  ]
+ },
+ {
+  "id": "C100",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 1 · drive · chip Plays it safe (was Overcautious)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Playing it safe is your answer to anything new. Since a loss shows and a missed gain never does, you would rather play safe than risk your place for a better one. Keep in mind that the safe choice keeps you right where you are."
+   },
+   {
+    "letter": "B",
+    "text": "Every risk gets weighed until it drowns. The checking, the double-checking, the waiting for conditions: your prudence has a thoroughness that outlives most opportunities. Nothing bad happens to you, statistically. The cost is that remarkably little of anything happens, and the ledger never shows it."
+   },
+   {
+    "letter": "C",
+    "text": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. Remember that playing it safe has a price, and you pay it in chances never taken."
+   }
+  ]
+ },
+ {
+  "id": "C101",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 1 · cost_self · chip Plays it safe (was Overcautious)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Playing safe keeps the floor under you. Because a wrong move costs you more than a missed one, you keep playing it safe with the job you have. You let every chance you play safe around close, and the work you wanted goes with it."
+   },
+   {
+    "letter": "B",
+    "text": "The investment you researched for six months appreciated forty percent while the research matured. You printed the analysis anyway, complete and correct, a beautiful audit of a ship that had sailed. It sits in the drawer with its siblings. The drawer is thick with correct conclusions."
+   }
+  ]
+ },
+ {
+  "id": "C102",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 1 · cost_others · chip Plays it safe (was Overcautious)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People stopped waiting for your green light years ago, since it arrives after the intersection has cleared. They proceed, and you catch up, cautiously, once the road is proven. Your record contains no disasters and no adventures, and only one of those absences was chosen."
+   },
+   {
+    "letter": "B",
+    "text": "For everyone waiting on your yes, you play it safe as well. You would rather give a safe no than a yes that can fail, and the real answer stays yours. Bear in mind that a safe answer leaves them waiting instead of deciding."
+   }
+  ]
+ },
+ {
+  "id": "C103",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 2 · drive · chip Waits for permission (was Muted)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your voice arrives pre-softened, and the softening costs content. The objection becomes a question, the question becomes a pause, the pause gets read as agreement. What you actually think is audible only at very close range, and most decisions get made from further away."
+   },
+   {
+    "letter": "B",
+    "text": "You wait for permission that is not coming. Being given permission feels safer than taking it, so you would rather be asked to step up than step up unasked. You hold most of the permission you wait for, and it is worth remembering that."
+   },
+   {
+    "letter": "C",
+    "text": "Waiting for permission is how you earn a place. Since what is given cannot be taken back like what is taken, you wait to be chosen rather than step forward. Remember that permission arrives last to the one who waits for it most."
+   }
+  ]
+ },
+ {
+  "id": "C104",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 2 · cost_self · chip Waits for permission (was Muted)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You disagreed with the plan in the meeting where it could have mattered, silently, and again in the hallway, quietly, to someone with no vote. The plan proceeded and failed roughly as you had predicted. Your prediction exists in no record. It was a very correct whisper."
+   },
+   {
+    "letter": "B",
+    "text": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your rank than claim the next one. You lose the rank above yours to whoever stopped waiting, and the waiting was your choice."
+   }
+  ]
+ },
+ {
+  "id": "C105",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 2 · cost_others · chip Waits for permission (was Muted)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and that is worth keeping in mind."
+   },
+   {
+    "letter": "B",
+    "text": "Colleagues dig up your opinions years later, over drinks: you had doubts about that? The doubts were real and beautifully reasoned and entirely internal. People would have listened, they insist. You nod, unconvinced, quietly, which is of course the whole mechanism in miniature."
+   }
+  ]
+ },
+ {
+  "id": "C106",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 3 · drive · chip Bites your tongue (was On rails)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The channel decides your route. The established procedure, the way it has always flowed, the course set by someone upstream years ago: you follow it faithfully, even where the banks have visibly moved. Freedom to reroute exists on paper. The water has never once tested it."
+   },
+   {
+    "letter": "B",
+    "text": "Biting your tongue is your first move in any disagreement. Because your standing matters more to you than your point, you bite your tongue and keep your place. Remember that you will need the tongue you keep biting the day you have to speak."
+   },
+   {
+    "letter": "C",
+    "text": "You bite your tongue long before anyone asks you to. Since keeping the peace suits you better than saying the thing, you bite down rather than cost the mood. You keep the peace by biting your tongue, and you alone carry what went unsaid."
+   }
+  ]
+ },
+ {
+  "id": "C107",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 3 · cost_self · chip Bites your tongue (was On rails)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Safe and unheard is where biting your tongue leaves you. Since a wrong word costs more than a missing one, you would rather bite your tongue than lose standing. You pay for every bitten tongue in credit, because a point never made cannot be yours."
+   },
+   {
+    "letter": "B",
+    "text": "The weekly report you compile takes three hours and, as of the reorg two years ago, has no remaining readers. You suspected as much and confirmed it once, gently, then continued compiling. The channel was dug and the water flows. Somewhere that is still a reason."
+   }
+  ]
+ },
+ {
+  "id": "C108",
+  "cell": "水_正官",
+  "label": "水_正官 · friction · row 3 · cost_others · chip Bites your tongue (was On rails)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People watch you execute obsolete instructions with a loyalty that would be moving on a battlefield and is puzzling in an office. New options get presented to you and acknowledged and left on the bank. The current knows one direction. Everyone has stopped suggesting there are others."
+   },
+   {
+    "letter": "B",
+    "text": "Your tongue gets bitten hardest around the people who need your answer. You keep things smooth rather than say what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
+   }
+  ]
+ },
+ {
+  "id": "C109",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 1 · drive · chip Rises to it (was Spark-chasing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You run toward whatever is catching fire, and the running is the point. The contested deal, the live crisis, the dare with witnesses: your blood answers heat the way others answer comfort. In a world of careful people, you are the one already moving, already lit."
+   },
+   {
+    "letter": "B",
+    "text": "You are ready for a challenge before anyone has finished explaining it. Being tested is where you feel most alive, so you rise to the next one rather than ask what it pays. You give your best to whoever dares you first."
+   },
+   {
+    "letter": "C",
+    "text": "You rise to a dare before deciding if you want it. You wake in a contest as you never do on a quiet day, so you weigh the rival ahead of the stakes. You rise to everything, and some of those races were never yours."
+   }
+  ]
+ },
+ {
+  "id": "C110",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 1 · cost_self · chip Rises to it (was Spark-chasing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "When the flagship store’s launch collapsed at noon, you drove there without being asked, arriving mid-panic with energy the situation had run out of. By close, the day was saved and slightly legendary. Your boss asked who sent you. Nobody had. The smoke had."
+   },
+   {
+    "letter": "B",
+    "text": "Rising to a dare is how you know you are in the game. You would sooner be tested by a rival than rested by a win, so rest never comes first. You pay in your body, kept at race pace with no finish in sight."
+   }
+  ]
+ },
+ {
+  "id": "C111",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 1 · cost_others · chip Rises to it (was Spark-chasing)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Teams keep you near the volatile accounts the way stations keep engines running. When something flares, you are moving before the call finishes, and colleagues have learned to just hand you the keys. The calm assignments bore you visibly. Nobody wastes you on them anymore."
+   },
+   {
+    "letter": "B",
+    "text": "Whenever someone sets a dare, you rise to it before they take it back. Winning in front of a friend matters more than keeping the game friendly, so you play every round for keeps. You leave them the hard version of playing with you."
+   }
+  ]
+ },
+ {
+  "id": "C112",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 2 · drive · chip Catches ambition (was Fearless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You catch ambition instead of growing it alone. You wake up fast to someone else's hunger, so you would rather run beside a driven person than sit with a quiet plan. You catch the pace of whoever is nearest, for better and for worse."
+   },
+   {
+    "letter": "B",
+    "text": "Your asks have no ceiling. The cold call to the CEO, the bid above your class, the public promise that forces the miracle: you say the enormous thing out loud, and enough of it lands to fund the reputation. Fortune does seem to favor you. You invoice it accordingly."
+   },
+   {
+    "letter": "C",
+    "text": "You catch ambition from the people around you like a cold. You catch a rival's goal faster than you find your own, so you run on borrowed wanting rather than wait. You are chasing, half the time, a goal that began as somebody else's."
+   }
+  ]
+ },
+ {
+  "id": "C113",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 2 · cost_self · chip Catches ambition (was Fearless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You pitched the biggest client in the region from the lobby, uninvited, with a deck finished that morning in the car. Security was called and, in the end, so was the account manager. The contract took eight months. The story reached your industry in eight days."
+   },
+   {
+    "letter": "B",
+    "text": "Catching ambition is quicker than growing it, and you know the difference. You go after what a rival chases ahead of asking what you would want alone, because wanting alone feels thin. You lose the one chance nobody else was running for."
+   }
+  ]
+ },
+ {
+  "id": "C114",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 2 · cost_others · chip Catches ambition (was Fearless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever a friend shares a plan, you catch it before they finish the sentence. Running their race feels better than cheering from the side, so you turn their goal into a shared one. You take from them a finish meant to be theirs alone."
+   },
+   {
+    "letter": "B",
+    "text": "People preface their descriptions of you with you will not believe, and the stories hold up under checking. Some rivals call the boldness reckless from a safe distance. Your collaborators call it Tuesday, and have learned to draft the press release before you finish the sentence."
+   }
+  ]
+ },
+ {
+  "id": "C115",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 3 · drive · chip Goes all in (was Electrifying)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You go all in on a shared bet before anyone has asked you to. Holding back feels like not being there, so you put in your money ahead of reading the terms. You are first in and last to know what it cost you."
+   },
+   {
+    "letter": "B",
+    "text": "Your energy transfers on contact. The flat team meeting catches current when you enter, the tired project finds voltage, the gathering’s pulse syncs upward to yours. People leave your orbit doing things they had filed under someday. The battery, mysteriously, never bills anyone."
+   },
+   {
+    "letter": "C",
+    "text": "Going all in is your only speed on a shared bet. You would rather match the boldest person at the table than hold back part of the stake, since part feels like half a friendship. You are generous first and careful a long way second."
+   }
+  ]
+ },
+ {
+  "id": "C116",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 3 · cost_self · chip Goes all in (was Electrifying)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The fundraiser was dying at forty percent with a week left, and your two-day blitz of calls, stunts, and shameless enthusiasm dragged it to one-forty. Volunteers who had gone quiet came back loud. The organizer’s thank-you note said simply: you plugged us back in."
+   },
+   {
+    "letter": "B",
+    "text": "Being all in is how you show you mean it. You put your money where your friends are ahead of where your sense is, because holding back feels worse than losing. You pay in money never kept, mostly on bets you joined for company."
+   }
+  ]
+ },
+ {
+  "id": "C117",
+  "cell": "火_劫财",
+  "label": "火_劫财 · catalyst · row 3 · cost_others · chip Goes all in (was Electrifying)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever someone you like takes a risk, you are all in beside them unasked. Sharing the stake matters more than checking whether they wanted a partner, so you double a bet that was theirs. You leave them a bet twice the size they chose."
+   },
+   {
+    "letter": "B",
+    "text": "People describe meetings before and after your arrival as different weather. Managers deploy you into stalled teams the way medics deploy adrenaline, and the effect is roughly as fast. The crash that sometimes follows is also documented. Everyone considers it worth it, and schedules for it."
+   }
+  ]
+ },
+ {
+  "id": "C118",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 1 · drive · chip Hates to lose (was Hot-headed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You hate to lose more than you love to win, and the gap shows. You read a rival's win as your loss, since the Fire in you outlasts a single victory. Keep in mind that you are keeping a score nobody else agreed to play."
+   },
+   {
+    "letter": "B",
+    "text": "Losing is the one thing you take personally, even in a game. Being second feels like being nothing, so you would rather fall out over a point than let it go. Remember that you lose a point far more easily than a friend."
+   },
+   {
+    "letter": "C",
+    "text": "The fuse is short, dry, and pre-lit. The wrong word, the cut-off in traffic, the tone in an email: ignition beats deliberation to the scene every time. Afterward you cool fast and repair sincerely. The people nearby, though, have all learned the smell of smoke."
+   }
+  ]
+ },
+ {
+  "id": "C119",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 1 · cost_self · chip Hates to lose (was Hot-headed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The referee’s call was wrong, and your response, at a children’s game, entered neighborhood folklore within the hour. You apologized to everyone by sundown, sincerely, including the referee. Your daughter accepted the apology and, the following week, asked you to wait in the car."
+   },
+   {
+    "letter": "B",
+    "text": "Hating to lose keeps you in every contest long after it stops paying. You would rather stay in a losing race than be the first to step off, so you stay. Remember that you give up sleep for every race you refuse to leave."
+   }
+  ]
+ },
+ {
+  "id": "C120",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 1 · cost_others · chip Hates to lose (was Hot-headed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People manage your temperature the way sound engineers manage feedback, adjusting topics before the squeal. Certain news gets delivered to you in public places, on purpose. You noticed the pattern once and got angry about it, which, everyone agreed silently, rather settled the question."
+   },
+   {
+    "letter": "B",
+    "text": "Whenever a friend pulls ahead, you hate it before you are glad. Staying level matters more to you than their good day does, so you answer their news with your own. You take a little off their win every time, and that adds up."
+   }
+  ]
+ },
+ {
+  "id": "C121",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 2 · drive · chip Spends for show (was Resentful)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You buy the evening and rent the goodwill, and that is worth remembering."
+   },
+   {
+    "letter": "B",
+    "text": "Spending for show is how you look like the bigger person. You would sooner spend where the audience is than save where nobody looks, since you have more Fire than places to put it. Remember that you are paying for applause that was already yours."
+   },
+   {
+    "letter": "C",
+    "text": "Other people’s wins sit on your skin like sunburn. The peer’s promotion, the friend’s effortless luck, the rival’s applause: each one stings out of proportion, and the sting talks. It comes out as jokes with edges and praise with subtitles. Everyone reads the subtitles."
+   }
+  ]
+ },
+ {
+  "id": "C122",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 2 · cost_self · chip Spends for show (was Resentful)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Spending for show costs you more than the bill says. You put the big gesture ahead of the quiet balance, because being seen as generous beats being secure. You lose money you never get back, and the bill carries nobody's name except yours."
+   },
+   {
+    "letter": "B",
+    "text": "At the launch party for your friend’s startup, funded on the first try, your toast included the phrase must be nice twice, laughed off both times, remembered anyway. The friendship survived. Its temperature dropped four degrees that night and never fully came back to season."
+   }
+  ]
+ },
+ {
+  "id": "C123",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 2 · cost_others · chip Spends for show (was Resentful)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no way to be generous back, and that is a loss too."
+   },
+   {
+    "letter": "B",
+    "text": "Your congratulations arrive with a delay everyone has learned to expect, like sound after lightning. People soft-launch their successes around you, understating, apologizing for luck. They do it out of care, which would wound you worst of all, so it stays carefully unmentioned."
+   }
+  ]
+ },
+ {
+  "id": "C124",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 3 · drive · chip Never off (was Explosive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Switching off is the single skill you never learned. Your Fire outlasts your day, so you keep going instead of letting a rival pass you resting. You are racing people who went home long ago, remember."
+   },
+   {
+    "letter": "B",
+    "text": "Pressure in you does not vent. It stores, silently, behind a warm exterior, until the container fails all at once. The blowups arrive without visible warning, sized for the backlog rather than the trigger, and the cleanup involves people who never saw the gauge climbing."
+   },
+   {
+    "letter": "C",
+    "text": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. You are the only one timing this race now, and it helps to know it."
+   }
+  ]
+ },
+ {
+  "id": "C125",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 3 · cost_self · chip Never off (was Explosive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. You repay every skipped rest later and at a higher price, bear that in mind."
+   },
+   {
+    "letter": "B",
+    "text": "The garage door sticking was the trigger, but the detonation covered March through August: the job, the loan, the unsaid things, all of it airborne in one four-minute burst. Your family stood very still. The door, notably, still sticks. Nobody mentions it now."
+   }
+  ]
+ },
+ {
+  "id": "C126",
+  "cell": "火_劫财",
+  "label": "火_劫财 · friction · row 3 · cost_others · chip Never off (was Explosive)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People close to you have become seismologists, reading your quiet for pressure signs and mostly getting it wrong, because the gauge is internal and you politely deny it exists. The denials are calm right up until they are not. Afterward everyone, including you, surveys the range."
+   },
+   {
+    "letter": "B",
+    "text": "Even beside a friend you never switch off, and you hand them a race instead of yourself. Staying ahead matters more than staying beside, so you turn a walk into a pace. You take from them, remember, the version of you that is not competing."
+   }
+  ]
+ },
+ {
+  "id": "C127",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 1 · drive · chip Self-starting (was Self-lit)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Starting is the part you never need help with. Waiting for someone else's push costs you more than the first step does, so you begin first and look for company second. You are carrying most of what you started alone a month later."
+   },
+   {
+    "letter": "B",
+    "text": "Your fire needs no external ignition. Motivation, celebration, recovery: all generated onboard, on your schedule, from your own fuel. Gray seasons that dim everyone else find your output unchanged, and people eventually ask where the switch is. There is no switch. There is just you, on."
+   },
+   {
+    "letter": "C",
+    "text": "You start on your own, before anyone has agreed to join you. Needing nobody's go-ahead is what keeps you free, so you would rather start by yourself than wait for a yes. You start alone this often, and finishing alone becomes the habit."
+   }
+  ]
+ },
+ {
+  "id": "C128",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 1 · cost_self · chip Self-starting (was Self-lit)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The whole team went flat after the funding fell through, and you came in Monday running on the same setting as always, working the plan, playing your music. By Wednesday two others had re-lit off your example. Nobody discussed it. Flame transfers that way, wordlessly."
+   },
+   {
+    "letter": "B",
+    "text": "Self-starting means you wait on no one and get carried by no one either. You start alone rather than ask, since asking feels like admitting the start was too big for you. You pay for the help you never take out of your own rest."
+   }
+  ]
+ },
+ {
+  "id": "C129",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 1 · cost_others · chip Self-starting (was Self-lit)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever something needs starting, you have started it before a peer can offer. You put beginning ahead of being joined, so you hand the people beside you a thing already moving. You take from them only the chance to start it with you."
+   },
+   {
+    "letter": "B",
+    "text": "People keep expecting your energy to trace back to something: the routine, the diet, the secret. They audit your habits and find nothing transferable. The light is simply factory-installed, and the people who winter near you have learned to stop explaining it and start standing closer."
+   }
+  ]
+ },
+ {
+  "id": "C130",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 2 · drive · chip Side by side (was Vivid)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Side by side is where you are at ease with another person. Standing level matters more than standing above, so you drop the lead as fast as you refuse to follow. You stay level and lose every chance that comes to whoever walks out front."
+   },
+   {
+    "letter": "B",
+    "text": "You are unmistakably yourself at all times, and it costs you nothing. The opinions, the laugh, the orange shirt: none of it adjusts to the audience, because none of it was built for an audience. People meet one version of you. There is only one."
+   },
+   {
+    "letter": "C",
+    "text": "You are at your best side by side with someone, never above or under them. Standing level keeps both your pride and your company, so you walk beside a peer rather than lead one. You let the lead go to someone else, and the credit."
+   }
+  ]
+ },
+ {
+  "id": "C131",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 2 · cost_self · chip Side by side (was Vivid)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The only closeness you trust is side by side, so you let a friend near once they match you. You would rather keep your footing than be carried, even when carried is what you need. You miss the closeness that comes from leaning on someone."
+   },
+   {
+    "letter": "B",
+    "text": "At the new job you dressed, joked, and disagreed exactly as you had at the old one, from day one. No feeling-out period, no beige phase. Within a month the team could imitate you affectionately, which is what happens to people who are only themselves."
+   }
+  ]
+ },
+ {
+  "id": "C132",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 2 · cost_others · chip Side by side (was Vivid)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Nobody has ever described you as an acquired taste, because there is nothing gradual about you. People place you instantly and permanently. Years later, strangers from one meeting recall you in detail, while the adaptable people around you have blurred together in everyone’s memory."
+   },
+   {
+    "letter": "B",
+    "text": "You keep every friendship side by side, nobody carried and nobody carrying. Not being helped matters to you as much as not being led, so you wave off a peer's hand. You leave them a small loss, the chance to be needed by you."
+   }
+  ]
+ },
+ {
+  "id": "C133",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 3 · drive · chip Bounces back (was Undimmed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Nothing keeps you down for long, and nothing is allowed to. You would rather get over a loss alone than be helped through it, so you bounce back before anyone notices you fell. You are always standing again well ahead of being fine."
+   },
+   {
+    "letter": "B",
+    "text": "You bounce back faster than most people get over the surprise. Being seen down is the one thing you cannot stand, so you are back up ahead of being over it. You bounce back too fast for the hurt to ever finish with you."
+   },
+   {
+    "letter": "C",
+    "text": "Setbacks that lower other people’s flames leave your wattage stubbornly constant. The rejection, the rough year, the public stumble: each arrives expecting to find a dimmer switch and finds instead a person already back at brightness, slightly annoyed at the interruption."
+   }
+  ]
+ },
+ {
+  "id": "C134",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 3 · cost_self · chip Bounces back (was Undimmed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Bouncing back is what you are proudest of, and what costs you most. You get up rather than stay down long enough to be looked after, because needing care feels like losing twice. You lose the rest that only comes after admitting you are hurt."
+   },
+   {
+    "letter": "B",
+    "text": "The restaurant failed in March, publicly, expensively, and by June you were catering weddings out of a rented kitchen with the same menu and better margins. People kept waiting for the humbled chapter. You skipped it, apparently unaware it was scheduled, and the food got better."
+   }
+  ]
+ },
+ {
+  "id": "C135",
+  "cell": "火_比肩",
+  "label": "火_比肩 · catalyst · row 3 · cost_others · chip Bounces back (was Undimmed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People measure resilience against you and quietly retire the word for themselves. Your relights after failure have become local legend: same heat, new venue, no visible scar tissue. Investors who lost money on your last thing keep asking about your next one. Light like yours audits well."
+   },
+   {
+    "letter": "B",
+    "text": "Whenever you fall, you have bounced back before a friend can reach you. Standing on your own again matters more than being helped up, so you leave your friends nothing to do. You keep from them even the small chance to be there for you."
+   }
+  ]
+ },
+ {
+  "id": "C136",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 1 · drive · chip Goes it alone (was Too proud)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects."
+   },
+   {
+    "letter": "B",
+    "text": "Going it alone is your first answer to everything. You would have to ask for help and wait on it, while your own hands are already free, so you use your hands every time. Remember that you were not built to be the only pair."
+   },
+   {
+    "letter": "C",
+    "text": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. Keep in mind that you are faster alone and not lighter."
+   }
+  ]
+ },
+ {
+  "id": "C137",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 1 · cost_self · chip Goes it alone (was Too proud)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust."
+   },
+   {
+    "letter": "B",
+    "text": "Going it alone means the whole load sits on one back, yours. You put in the extra hours rather than accept the hand, because being helped feels like being less. You pay for every hand not taken in rest, and your body keeps the account."
+   }
+  ]
+ },
+ {
+  "id": "C138",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 1 · cost_others · chip Goes it alone (was Too proud)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever a job splits two ways, you carry both ends alone. Holding it yourself matters more than keeping a peer in the loop, so you leave them nothing to carry. Remember that you keep from them half the job and half of you."
+   },
+   {
+    "letter": "B",
+    "text": "People edit their offers of help into compliments before approaching you, a translation service everyone runs and nobody acknowledges. Your worst seasons are visible only in hindsight, dated by gaps in the photo record. The support you never requested was available the whole time, warming nobody."
+   }
+  ]
+ },
+ {
+  "id": "C139",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 2 · drive · chip Won't be told (was Touchy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You would rather be wrong on your own terms than right on someone else's. You let no one tell you, because being told feels like handing over the one thing that is yours. Remember that you lose nothing by being told by a peer."
+   },
+   {
+    "letter": "B",
+    "text": "Being told is the one thing you cannot take. Your own read feels more solid than any second opinion, so you hold it rather than test it. You stay hard to correct and easy to leave wrong, and the second is the one to remember."
+   },
+   {
+    "letter": "C",
+    "text": "Being treated as less than an equal lights you up faster than any insult. The talked-over sentence, the credit handed elsewhere, the tone that files you under junior: your heat answers before your judgment gets a vote. The issue is never the thing. It is the standing."
+   }
+  ]
+ },
+ {
+  "id": "C140",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 2 · cost_self · chip Won't be told (was Touchy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The contractor explained your own trade to you, slowly, and the meeting changed temperature. You corrected him once, precisely, at volume. He was right about one small detail and never got to say it, which cost you a week and won you nothing."
+   },
+   {
+    "letter": "B",
+    "text": "Staying untold is a rule you keep at a price. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You trade being right early for being right alone, remember, and the chance goes with it."
+   }
+  ]
+ },
+ {
+  "id": "C141",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 2 · cost_others · chip Won't be told (was Touchy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You decide a peer's correction is wrong before you hear it. Staying untold matters more than staying in step, so you hand their advice back. You take from them their one way of being useful to you, a small loss worth keeping in mind."
+   },
+   {
+    "letter": "B",
+    "text": "People around you learn the one rule quickly: never talk down to you, even by accident. Introductions get made carefully, titles included. The respect this enforces is real, and so is the caution, and the two arrive together, holding hands."
+   }
+  ]
+ },
+ {
+  "id": "C142",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 3 · drive · chip Walls people out (was Unapproachable)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your brightness reads as a closed door. The confidence, the speed, the shine: together they build a glare people squint at from a distance, assuming you need nothing and no one. Invitations to depth stopped arriving years ago. Everyone assumed someone else was providing it."
+   },
+   {
+    "letter": "B",
+    "text": "Your wall is up before anyone has knocked. Your own standard is the one you hold to, so you would rather stay unseen than be seen falling short of it. You built the wall for safety, remember, and it mostly keeps out company."
+   },
+   {
+    "letter": "C",
+    "text": "You wall people out without meaning to, by needing nothing from them. Matching you is rare, so you keep your own company rather than settle. You shut out the right ones as fast as the wrong ones, and that is worth remembering."
+   }
+  ]
+ },
+ {
+  "id": "C143",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 3 · cost_self · chip Walls people out (was Unapproachable)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Walling people out keeps your standard safe and your evenings empty. You hold out for company that matches instead of company that is there, because near enough feels like settling. You miss the closeness that comes from being known at less than your best."
+   },
+   {
+    "letter": "B",
+    "text": "At your lowest week in years, the phone stayed silent, and you realized the silence was your own engineering: a decade of seeming complete had trained everyone out of checking. The one friend who did call apologized twice for intruding. You were, you said brightly, fine."
+   }
+  ]
+ },
+ {
+  "id": "C144",
+  "cell": "火_比肩",
+  "label": "火_比肩 · friction · row 3 · cost_others · chip Walls people out (was Unapproachable)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You put the wall up highest when someone gets closest. Being seen fine from far matters more than being seen tired up close, so you hold a peer there. You leave them a friend they never quite reach, and that is the quiet cost."
+   },
+   {
+    "letter": "B",
+    "text": "New people orbit you at a fixed radius, warmed but not close, sensing no docking port in all that light. The intimates you do have all report the same onboarding: years of proximity before the first real conversation. Most people, understandably, settle for the glow and drift."
+   }
+  ]
+ },
+ {
+  "id": "C145",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 1 · drive · chip Spots the opening (was Quick-eyed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You spot openings before they open, and spotting is the pleasure. Since spotting first is how you feel safe, you put the far chance ahead of the near work. You pay with more openings spotted than finished, and one finish would settle that."
+   },
+   {
+    "letter": "B",
+    "text": "Before anyone else has looked up, you have spotted the opening. You stay awake on a far chance in view, and you spot the next one while you are claiming this one. You lose nothing by leaving one spotted opening untaken."
+   },
+   {
+    "letter": "C",
+    "text": "Value flashes at you from clutter. The underpriced watch in the junk tray, the mispriced listing at midnight, the talented kid in the noisy audition: your eye sorts faster than markets do, and the gap between seeing and everyone-else-seeing is where your margins live."
+   }
+  ]
+ },
+ {
+  "id": "C146",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 1 · cost_self · chip Spots the opening (was Quick-eyed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "At the estate sale you walked past forty tables, lifted one ugly lamp, and paid nine dollars for what the auction house later confirmed at twelve hundred. The seller was happy. You were happy. The dealers who arrived an hour earlier still discuss the lamp."
+   },
+   {
+    "letter": "B",
+    "text": "Spotting the opening comes easier than staying for it. You spot to feel ahead, and once the opening is yours you look out again rather than down into it. Take one spotted chance through to the money, since those you leave open close without you."
+   }
+  ]
+ },
+ {
+  "id": "C147",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 1 · cost_others · chip Spots the opening (was Quick-eyed)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Whenever you spot an opening, you say so before knowing you want it. You spot out loud to share the excitement rather than plan. You spot far enough for two, and your partner loses only a week each time you point at something you skip."
+   },
+   {
+    "letter": "B",
+    "text": "Friends send you photos before buying anything used: the car, the sofa, the ring. Your calls come back in seconds, are rarely wrong, and have saved your circle a documented fortune. Somebody proposed paying you a retainer once. You declined and appraised their offer instead, accurately."
+   }
+  ]
+ },
+ {
+  "id": "C148",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 2 · drive · chip Starts fast (was Polished)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fast starts are your natural speed. You feel most alive in the first week, and this is why you start the next venture rather than sit through this one. Keep starting fast and give one start a middle, since you only get paid by staying."
+   },
+   {
+    "letter": "B",
+    "text": "You start fast, and often. You find the first move costs nothing and feels like proof, so you take a new start rather than a slow middle. Start half as often and you are still first, with a week left over for finishing."
+   },
+   {
+    "letter": "C",
+    "text": "Your presentation is machined smooth. The shoes, the phrasing, the follow-up note: every surface catches light, and doors open on the shine before your substance says a word. People assume expensive training. It is actually maintenance, done privately, to standards nobody imposed but you."
+   }
+  ]
+ },
+ {
+  "id": "C149",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 2 · cost_self · chip Starts fast (was Polished)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. Give the next middle the speed of its start, since you never get paid by what you keep restarting."
+   },
+   {
+    "letter": "B",
+    "text": "You were the least qualified person in the final round and the offer came to you, a fact the recruiter later explained with unusual honesty: everyone answered similarly, and you were the answer they could picture in front of clients tomorrow. The picture closed. It usually does."
+   }
+  ]
+ },
+ {
+  "id": "C150",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 2 · cost_others · chip Starts fast (was Polished)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People upgrade their own presentation after time around you, quietly: the better email sign-off, the pressed shirt, the pause before answering. You set finish standards without announcing any. Rough talent gets sent to you for polishing the way stones get sent to tumblers, and emerges bookable."
+   },
+   {
+    "letter": "B",
+    "text": "Starting fast means starting things for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You start early enough for both of you, and your partner misses only the chance to start it with you."
+   }
+  ]
+ },
+ {
+  "id": "C151",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 3 · drive · chip Gives freely (was Adventurous)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "New territory pulls you the way bargains pull collectors. The unlisted trail, the menu with no translation, the market nobody in your industry has priced: you go first, pay the entry costs cheerfully, and return with either treasure or material. Both spend well at dinner."
+   },
+   {
+    "letter": "B",
+    "text": "You give freely, and before anyone asks. You carry keeping as a weight and giving as a movement, so you hand things on sooner than you take them in. Give for as long as it feels like you, and keep back one thing."
+   },
+   {
+    "letter": "C",
+    "text": "Giving freely is the first thing you do with what comes in. You feel money belongs to whoever needs it next, and you give it on rather than set it aside. Give as freely as you like and keep a share for yourself."
+   }
+  ]
+ },
+ {
+  "id": "C152",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 3 · cost_self · chip Gives freely (was Adventurous)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The detour that made the whole trip was your call: off the itinerary, down the unmarked coast road, into the town where the festival happened to be. The group still ranks that accidental evening above everything planned. Your navigation method, they note, was curiosity at full speed."
+   },
+   {
+    "letter": "B",
+    "text": "Keeping is harder for you than giving freely. You would rather give money on than sit with it, since holding still feels like being stuck. Give yourself a share first, because you end up with nothing saved for the year you need it."
+   }
+  ]
+ },
+ {
+  "id": "C153",
+  "cell": "金_偏财",
+  "label": "金_偏财 · catalyst · row 3 · cost_others · chip Gives freely (was Adventurous)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "People position themselves near your plans the way surfers position near reefs, knowing something will break interestingly. Half your friendships were formed mid-adventure, welded by weather and wrong turns. The stories that open every reunion have one census result: you are in nearly all of them."
+   },
+   {
+    "letter": "B",
+    "text": "With the people around you, giving freely is how you stay close. You give often enough to be expected, and you give again rather than let that stand. You give enough for a family and leave the ones you love little chance to give back."
+   }
+  ]
+ },
+ {
+  "id": "C154",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 1 · drive · chip Always moving on (was Mercenary)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay. Keep in mind that each venture you move on from cost you something to start."
+   },
+   {
+    "letter": "B",
+    "text": "You are always moving on, and the moving feels like being alive. You feel staying long enough to be known is giving up, and you move on ahead of the finish. Remember that moving on costs you the one thing you had started to build."
+   },
+   {
+    "letter": "C",
+    "text": "Every relationship carries a price tag only you can see. The friendship with useful contacts, the favor with its invoice pre-drafted, the warmth calibrated to net worth: your attention follows value with an honesty that would be refreshing if anyone enjoyed being an asset."
+   }
+  ]
+ },
+ {
+  "id": "C155",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 1 · cost_self · chip Always moving on (was Mercenary)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your outreach pattern got noticed by a friend between jobs: three unanswered months, then a same-day reply once his new title went live. He tested it twice more over the years. The correlation held. He keeps you in his phone under a label that is not your name."
+   },
+   {
+    "letter": "B",
+    "text": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You already know moving on leaves more money behind than new ventures bring in."
+   }
+  ]
+ },
+ {
+  "id": "C156",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 1 · cost_others · chip Always moving on (was Mercenary)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. Bear in mind that your partners start over each time you move on, and only you chose it."
+   },
+   {
+    "letter": "B",
+    "text": "People experience your interest as a market signal and check what changed in their circumstances when you warm up. The network you built this way is wide, efficient, and thin, and it prices you back: when your own value dipped two years ago, the inbox went quiet, symmetrically."
+   }
+  ]
+ },
+ {
+  "id": "C157",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 2 · drive · chip Spread thin (was Deal-hungry)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You spread yourself thin on purpose. You know a single venture would ask for all you have, so you spread yourself over five rather than wholly into one. Do not forget that five thin shares of you add up to less than one whole one."
+   },
+   {
+    "letter": "B",
+    "text": "Every deal within reach gets reached for. The marketplace find, the estate sale, the friend selling below value: your hands close on opportunities by reflex, and your storage fills with the proof. Each grab was genuinely smart. The appetite behind them has never once said enough."
+   },
+   {
+    "letter": "C",
+    "text": "Spread thin is how you like it. You feel safest with several ventures open, and you spread yourself across all of them rather than into one. It is worth remembering that spread thin leaves you thin where you most wanted to be."
+   }
+  ]
+ },
+ {
+  "id": "C158",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 2 · cost_self · chip Spread thin (was Deal-hungry)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You came home with three watches from a sale you attended for one, each undervalued, each a story. The drawer of brilliant purchases now holds forty such stories. Half are still in their boxes, appreciating quietly, waiting for a selling day that never quite arrives."
+   },
+   {
+    "letter": "B",
+    "text": "Spread thin, you never learn what you could do whole. You keep yourself spread over many shallow ventures, since being busy is easier than being judged on one. Spread thin, you pay in rest never taken and the one venture that would have paid."
+   }
+  ]
+ },
+ {
+  "id": "C159",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 2 · cost_others · chip Spread thin (was Deal-hungry)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Dealers greet you by name in three cities, and your family greets new packages with a specific face. Nobody doubts your eye. What they count, privately, is how much brilliance sits boxed in the garage, bought at the right price for reasons that expired on arrival."
+   },
+   {
+    "letter": "B",
+    "text": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You signed each of them up for all of you, and spread thin you show up in slices."
+   }
+  ]
+ },
+ {
+  "id": "C160",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 3 · drive · chip Spends it all (was Restless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You spend it all because it came easily. You feel keeping money is admitting the next windfall is not coming, so you spend it rather than protect against that. Hold on to the fact that you spend the windfall faster than you earn the wage."
+   },
+   {
+    "letter": "B",
+    "text": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. It helps to remember that spending it all leaves you empty-handed for the next chance."
+   },
+   {
+    "letter": "C",
+    "text": "Stillness costs you more than motion. The good position gets abandoned at its plateau, the profitable arrangement gets renegotiated out of boredom, the sure thing loses to the next thing on novelty alone. Your escape velocity is magnificent. Your orbits never complete."
+   }
+  ]
+ },
+ {
+  "id": "C161",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 3 · cost_self · chip Spends it all (was Restless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The role was perfect for eighteen months, which your resume confirms is your standard tenure, seven entries deep. The recruiter flagged the pattern gently. You explained each move persuasively, as always. She listened, nodded, and wrote one word on her pad. You have wondered since what it was."
+   },
+   {
+    "letter": "B",
+    "text": "Deciding what to keep is harder than spending it all. You spend to feel money move rather than sit, since a sum held still feels like a missed chance. Spent out, you come up short for the one opening that asks for cash up front."
+   }
+  ]
+ },
+ {
+  "id": "C162",
+  "cell": "金_偏财",
+  "label": "金_偏财 · friction · row 3 · cost_others · chip Spends it all (was Restless)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. The thing to remember is that you spend what your family counts on for later."
+   },
+   {
+    "letter": "B",
+    "text": "People hesitate to build anything long on you, having watched the eighteen-month clock run before. Partnerships offer you sprints, landlords remember you, and your own accountant keeps your files in the active drawer permanently. The freedom is real. The compounding it keeps interrupting is also real."
+   }
+  ]
+ },
+ {
+  "id": "C163",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 1 · drive · chip Finishes things (was Thorough)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You finish what you start, every time. You find half done worse than not started, and this is why you finish rather than leave a thing nearly there. You could finish fewer things and still be the one who finishes."
+   },
+   {
+    "letter": "B",
+    "text": "Finishing things is where you feel most like yourself. You carry an open task until it is closed, so you finish what you hold ahead of starting anything new. Finish as you do, and let one thing stay open long enough to grow."
+   },
+   {
+    "letter": "C",
+    "text": "Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done."
+   }
+  ]
+ },
+ {
+  "id": "C164",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 1 · cost_self · chip Finishes things (was Thorough)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Proof that you are reliable comes from finishing things. You finish whatever is nearest rather than whatever matters most, since finished is the feeling you are after. Finish the thing that pays first, because you lose the rest you skipped finishing the small ones."
+   },
+   {
+    "letter": "B",
+    "text": "The warranty claim that saved you eleven hundred dollars took four minutes, because the receipt, the serial number, and the original packaging were exactly where your system said they would be, three years on. The agent audibly recalibrated. Most claims, she said, die of missing paperwork. Yours arrived immortal."
+   }
+  ]
+ },
+ {
+  "id": "C165",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 1 · cost_others · chip Finishes things (was Thorough)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "For other people, you finish things too. You finish the last steps of a shared plan rather than wait for your partner, since waiting feels like leaving it undone. You finish enough for two, and your partner loses only the chance to finish their part."
+   },
+   {
+    "letter": "B",
+    "text": "People hand you the things that must not go wrong: the visa form, the wedding plan, the contract with the odd clause on page nine. You read every line, then read it again in the morning. The people who check your work expect a clean copy, and still look, because you would want them to."
+   }
+  ]
+ },
+ {
+  "id": "C166",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 2 · drive · chip Saves first (was Trustworthy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your reliability is collateral-grade. People secure real decisions against your word: the deposit sent on your say-so, the key left under your mat, the password shared without ceremony. Trust accumulates around you the way interest accumulates, quietly, on never-broken terms."
+   },
+   {
+    "letter": "B",
+    "text": "Your reflex with money is saving first. You feel a sum set aside cannot be lost, so you save rather than spend, and spend only what is left. Keep saving first, and let one small sum go out for a pleasure you never count."
+   },
+   {
+    "letter": "C",
+    "text": "You save first and ask what for later. You count safety in saved money, and you would rather count it than enjoy it. Save first, as you always will, and let the second sum be for the life you are saving for."
+   }
+  ]
+ },
+ {
+  "id": "C167",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 2 · cost_self · chip Saves first (was Trustworthy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Four families on your street hold spare keys at your house, a fact none of them coordinated. When the locksmith asked how you became the neighborhood vault, you could not name a starting event. There was no event. There were twenty years of nothing ever going missing."
+   },
+   {
+    "letter": "B",
+    "text": "Saving first keeps the fear of having nothing away. You put the saving ahead of what it was for, and you move the wanting to later. Spend one saved sum on its purpose, since you pay for saving first with a life kept for later."
+   }
+  ]
+ },
+ {
+  "id": "C168",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 2 · cost_others · chip Saves first (was Trustworthy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Banks, in-laws, and employers all reach the same conclusion from different evidence: whatever is placed with you comes back intact and on time. References describe you with the specific warmth reserved for people who have held their money. The word they all use is safe, meant as treasure."
+   },
+   {
+    "letter": "B",
+    "text": "For the people you love, saving first is also what you do. You save for a shared future rather than spend on a shared present, and call that love. You save enough for a household, and your partner misses only the evenings you saved through."
+   }
+  ]
+ },
+ {
+  "id": "C169",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 3 · drive · chip Keeps your word (was Slow and steady)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your wealth grows the way rust never sleeps, in your favor: small, constant, compounding additions that no single day notices. The percent saved, the skill deepened annually, the relationship maintained for decades: everything in your portfolio gains a little every quarter, forever."
+   },
+   {
+    "letter": "B",
+    "text": "You keep your word even when no one would notice if you did not. You keep yourself steady by being someone whose word holds, and you keep a promise ahead of your own comfort. You would lose nothing by keeping fewer promises just as well."
+   },
+   {
+    "letter": "C",
+    "text": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept ahead of your way out. Keep your word as always, and ask once whether the other person still wants it kept."
+   }
+  ]
+ },
+ {
+  "id": "C170",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 3 · cost_self · chip Keeps your word (was Slow and steady)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The account you opened at twenty-two with automatic transfers you never adjusted crossed a threshold this year that startled even you. The statement arrived on an ordinary Tuesday. You had done nothing dramatic in twenty years, which was, the statement made clear, the entire strategy."
+   },
+   {
+    "letter": "B",
+    "text": "Changing your mind is harder than keeping your word. Your word stays kept past its reason rather than broken, since breaking it dents how steady you feel. Where it still counts, keep your word, because you pay for the rest in years inside outgrown promises."
+   }
+  ]
+ },
+ {
+  "id": "C171",
+  "cell": "金_正财",
+  "label": "金_正财 · catalyst · row 3 · cost_others · chip Keeps your word (was Slow and steady)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Your word holds for two, and all your partner loses is the right to change their mind."
+   },
+   {
+    "letter": "B",
+    "text": "People ask your secret expecting a trick and receive simple math: start early, add always, subtract rarely. They leave disappointed and return years later, converted, showing you their own compounding curves. Your example has quietly seeded more retirement accounts than any advisor in your zip code."
+   }
+  ]
+ },
+ {
+  "id": "C172",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 1 · drive · chip Holds on tight (was No-frills)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You hold on tight to whatever you have already got. You know what you hold cannot run out, so you hold rather than spend and call it being careful. Remember that you hold on too tight for anything you own to get used."
+   },
+   {
+    "letter": "B",
+    "text": "Your answer to ownership is holding on tight. You would rather hold on than risk losing, so you hold on to money, things and people past where holding helps. Keep in mind that you hold on tightest to what you stopped wanting."
+   },
+   {
+    "letter": "C",
+    "text": "Comfort gets audited out of your life on principle. The heating conservative, the furnishings functional, the pleasures budgeted to their nutritional minimum: discipline built the estate, and somewhere it kept building past the point of purpose, into corners nobody warms."
+   }
+  ]
+ },
+ {
+  "id": "C173",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 1 · cost_self · chip Holds on tight (was No-frills)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The dinner you hosted was correct: adequate portions, sensible wine, lights at economy. Guests praised the meal and stopped somewhere short of settling in, coats kept near. The evening ended punctually. Your home, one of them said in the car, is the tidiest place she has ever been cold."
+   },
+   {
+    "letter": "B",
+    "text": "The fear of loss goes quiet while you are holding tight. You keep hold of the savings rather than spend them on their year, since spending feels exposed. It is worth remembering that holding on costs you trips not taken, money outliving its purpose."
+   }
+  ]
+ },
+ {
+  "id": "C174",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 1 · cost_others · chip Holds on tight (was No-frills)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than let them come and go. Bear in mind that holding on this tight leaves the person beside you no air."
+   },
+   {
+    "letter": "B",
+    "text": "People describe your life with respect and no envy, a combination that took you years to notice. The discipline is admired at a distance, like a fortress: impressive, orderly, and not somewhere anyone dreams of moving. Invitations to yours get accepted dutifully. Invitations elsewhere get accepted first."
+   }
+  ]
+ },
+ {
+  "id": "C175",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 2 · drive · chip Plays it safe (was Greedy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You play it safe before you know what the game is. You count safety before anything else, and you put the sure thing ahead of the better thing every time. You play it safe in a life that was never safe to begin with."
+   },
+   {
+    "letter": "B",
+    "text": "What comes near your hands tends to stay in them. The negotiation pushed past won into extractive, the split adjusted a few percent your way, the free thing taken because free: each grasp is small, and the sum has a gravity that people feel and rarely name."
+   },
+   {
+    "letter": "C",
+    "text": "Your default with cost is playing it safe. You feel a loss more than a gain the same size, and you play safe for the sure small return rather than the bigger one. It helps to remember that playing safe costs you too, just slower."
+   }
+  ]
+ },
+ {
+  "id": "C176",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 2 · cost_self · chip Plays it safe (was Greedy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The settlement was fair at the first offer, and your counter, and the counter after that, extracted eleven percent more and something else that did not appear on the term sheet. The other side paid in full and briefed their industry. Your next three negotiations opened noticeably colder."
+   },
+   {
+    "letter": "B",
+    "text": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched another take."
+   }
+  ]
+ },
+ {
+  "id": "C177",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 2 · cost_others · chip Plays it safe (was Greedy)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. Do not forget that the safe life you play for is half yours to keep."
+   },
+   {
+    "letter": "B",
+    "text": "People check the terms twice when your name is on them, a due diligence premium that costs you deals you never learn about. What you have gathered is substantial and correctly titled. What it displaced, the easy trust, the rounded-up generosity, appears on no statement, and compounds anyway."
+   }
+  ]
+ },
+ {
+  "id": "C178",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 3 · drive · chip Avoids change (was Won’t budge)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You avoid change the way others avoid loss. You would have to count everything again after a change, and you keep the old sum rather than make a new one. You go on avoiding change until it arrives uninvited, and you already know it will."
+   },
+   {
+    "letter": "B",
+    "text": "Keeping what works means avoiding change. You know the price of what you have and not of the better, and you keep the known rather than try a change. Hold on to the fact that you avoid change long after the known stops paying."
+   },
+   {
+    "letter": "C",
+    "text": "Your positions are priced once and never repriced. The offer stands as made, the grudge as filed, the opinion as formed in the original year: movement reads to you as loss, so nothing moves, and the world negotiates around you the way rivers negotiate around bedrock."
+   }
+  ]
+ },
+ {
+  "id": "C179",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 3 · cost_self · chip Avoids change (was Won’t budge)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Avoiding change spares you being new at anything. You keep the steady job and the steady love after they stop feeding you rather than change either. The thing to remember is that avoiding change costs you the better life you never tried."
+   },
+   {
+    "letter": "B",
+    "text": "The house sat unsold for fourteen months because your price, set in a different market, declined to acknowledge the new one. The eventual sale, at less than the early offers you refused, closed a chapter your spouse refers to only by its duration. The number had not budged. Everything else had."
+   }
+  ]
+ },
+ {
+  "id": "C180",
+  "cell": "金_正财",
+  "label": "金_正财 · friction · row 3 · cost_others · chip Avoids change (was Won’t budge)",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Where you avoid change, you avoid it for two. You keep the person you love inside the agreed life instead of letting them change it. You avoid change so well that your partner goes without any too."
+   },
+   {
+    "letter": "B",
+    "text": "Negotiators bring you take-it-or-leave-it terms now, having learned that middles do not exist in your geography. Some deals close efficiently this way. The ones needing give simply route elsewhere, and your reputation, hard as bearing steel, attracts exactly the partners who want a wall, and no others."
+   }
+  ]
+ },
+ {
+  "id": "C181",
+  "cell": "火_土",
+  "label": "火_土 · function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks, and you hold your care in as much as your boldest idea. You pay in kindness not given and talent not shown."
+   },
+   {
+    "letter": "B",
+    "text": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on."
+   }
+  ]
+ },
+ {
+  "id": "C182",
+  "cell": "火_土",
+  "label": "火_土 · function.definition_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins."
+   },
+   {
+    "letter": "B",
+    "text": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, so you keep giving or keep proving instead of taking in. You run empty on comfort given and points already won."
+   }
+  ]
+ },
+ {
+  "id": "C183",
+  "cell": "火_土",
+  "label": "火_土 · function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining."
+   },
+   {
+    "letter": "B",
+    "text": "What you keep inside does not count as finished. Make one thing a week that someone else can hold. Say the opinion you have been sitting on to one person. Show a child or a friend something you know how to do. Write one line down before bed."
+   }
+  ]
+ },
+ {
+  "id": "C184",
+  "cell": "火_土",
+  "label": "火_土 · function.advise_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
+   },
+   {
+    "letter": "B",
+    "text": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter before giving an opinion. Keep one evening a week for reading only."
+   }
+  ]
+ },
+ {
+  "id": "C185",
+  "cell": "火_土",
+  "label": "火_土 · cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say."
+   },
+   {
+    "letter": "B",
+    "text": "You show what you feel by making something solid rather than saying it, and what you build tends to outlast the moment."
+   },
+   {
+    "letter": "C",
+    "text": "You show your care in something made sooner than you say it, so the proof of you tends to pile up slowly and stay."
+   }
+  ]
+ },
+ {
+  "id": "C186",
+  "cell": "火_土",
+  "label": "火_土 · mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Earth is what the fire leaves behind. Wood burns down to ash and ash is already soil, so every blaze ends as ground that something else can stand on. The flame spends itself and the field keeps the gift, dark and warm and ready for seed. What began as light becomes a place, and the place outlasts the fire that made it."
+   },
+   {
+    "letter": "B",
+    "text": "Fire gives birth to earth, the old texts say: what burns comes down at last as ash, and ash settles into soil. Nothing bright is lost entirely. The flame that danced for an evening feeds the field for a generation, warmth pressed down into ground that will hold seeds long after the light is gone."
+   }
+  ]
+ },
+ {
+  "id": "C187",
+  "cell": "火_土",
+  "label": "火_土 · mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it."
+   },
+   {
+    "letter": "B",
+    "text": "With too little Earth, the light has no ground to land on. What you make stays heat and never becomes something a person can hold. Finish one small thing and give it away."
+   }
+  ]
+ },
+ {
+  "id": "C188",
+  "cell": "火_土",
+  "label": "火_土 · mechanism.friction_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "With too much Earth, the ground piles up and dims the fire. So much gets made that the light goes dull under its own harvest. Make nothing for a week and take something in."
+   },
+   {
+    "letter": "B",
+    "text": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something."
+   }
+  ]
+ },
+ {
+  "id": "C189",
+  "cell": "火_土",
+  "label": "火_土 · carry.catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The light has no ground to land on. | remedy: Finish one small thing and give it away."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The fire leaves no ash: heat and light, nothing banked, nothing built from the burning. | remedy: Teach it, write it, found it."
+   }
+  ]
+ },
+ {
+  "id": "C190",
+  "cell": "火_土",
+  "label": "火_土 · carry.friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Every spark gets pressed into a monument: output hardening faster than it can live. | remedy: Not every flame must found something."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The ground piles up and dims the fire. | remedy: Make nothing for a week and take something in."
+   }
+  ]
+ },
+ {
+  "id": "C191",
+  "cell": "火_土",
+  "label": "火_土 · carry.wide",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: You have plenty of Earth, the ground your fire was always meant to warm. | remedy: Build on it. Finish something that outlasts the week."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Earth is already here in plenty, the hearth that keeps what you burn. | remedy: Build one thing that will outlast the evening."
+   }
+  ]
+ },
+ {
+  "id": "C192",
+  "cell": "火_土",
+  "label": "火_土 · carry.missing",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: No ground under the fire, the light goes into the air with nothing to show. | remedy: Borrow ground. Make something small and finish it."
+   },
+   {
+    "letter": "B",
+    "text": "clause: No ash: heat and light, nothing built from the burning. | remedy: Borrow ground: teach it, write it down."
+   }
+  ]
+ },
+ {
+  "id": "C193",
+  "cell": "火_土",
+  "label": "火_土 · carry.spared",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Earth runs absent, and the fire stays light: nothing pressed into a monument. | remedy: Keep it light. Found only what you will tend."
+   },
+   {
+    "letter": "B",
+    "text": "clause: No Earth drawing on the fire, so the light keeps its warmth for itself. | remedy: Leave it. Spend your warmth where it feeds you."
+   }
+  ]
+ },
+ {
+  "id": "C194",
+  "cell": "火_土",
+  "label": "火_土 · carry.thin",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Earth runs thin and unwanted: a small hearth, easy to keep. | remedy: Keep the hearth small."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Only a little Earth on the fire, enough to make something without dimming the light. | remedy: Keep it small. One made thing at a time."
+   }
+  ]
+ },
+ {
+  "id": "C195",
+  "cell": "火_土",
+  "label": "火_土 · carry.excess",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Too much earth dims the fire: every spark pressed into form, output hardening while the light thins. | remedy: Let some fires just burn."
+   },
+   {
+    "letter": "B",
+    "text": "clause: So much Earth that the fire can hardly be seen, a light buried under what it made. | remedy: Clear the ash. Make less and rest more."
+   }
+  ]
+ },
+ {
+  "id": "C196",
+  "cell": "火_木",
+  "label": "火_木 · function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Wood is your Mind, and as a catalyst, it is how your fuel accumulates: skills stacked, books finished, friendships tended, people learned from over years. What you gather quietly becomes what you later spend as brilliance."
+   },
+   {
+    "letter": "B",
+    "text": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, the intake falls behind the output, and you would rather puzzle an answer out alone than take one from a teacher. Either way you run dry before you feel taught."
+   }
+  ]
+ },
+ {
+  "id": "C197",
+  "cell": "火_木",
+  "label": "火_木 · function.definition_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Wood is your Mind, and as a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long."
+   },
+   {
+    "letter": "B",
+    "text": "Your Mind is where the world soaks in and becomes yours. Here Wood makes it keep growing. As a friction, intake outruns use and you take in more than you decide on, by your odd method or the way home taught you. Your own work sits waiting while you study."
+   }
+  ]
+ },
+ {
+  "id": "C198",
+  "cell": "火_木",
+  "label": "火_木 · function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Brilliance is mostly patience with good storage. Keep one slow project that grows monthly, a course, a craft, a language, and refuse to rush it. Finish books. Choose one person to learn from properly this year and stay teachable."
+   },
+   {
+    "letter": "B",
+    "text": "You give out faster than you take in, and running on your own fuel feels like energy until it runs out. Read one long book a chapter at a time. Sit with a question overnight before you answer it. Ask someone older how they did it and listen past the first sentence. Nap before the next idea."
+   }
+  ]
+ },
+ {
+  "id": "C199",
+  "cell": "火_木",
+  "label": "火_木 · function.advise_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Seek Metal, the Action energy. Metal is the finished line: it decides, it ships, it dates the thing you keep studying. Let it spend what Wood piles up. You keep learning past the point of use because being judged feels worse than being unready. Decide one open question by a written date. Hand someone one unfinished page."
+   },
+   {
+    "letter": "B",
+    "text": "You start more than you finish. Finish the one project closest to done this month, as it is, and let it ship at eighty percent. Put every new course, book or plan on a list until that one is out. When the urge to start something rises, ask which unfinished thing it would replace."
+   }
+  ]
+ },
+ {
+  "id": "C200",
+  "cell": "火_木",
+  "label": "火_木 · cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You would rather let a new idea join what you know than take it on faith, and that leaves you slow to be convinced and slower to let go."
+   },
+   {
+    "letter": "B",
+    "text": "Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden."
+   },
+   {
+    "letter": "C",
+    "text": "You learn by growing an idea rather than collecting it, so you understand late and keep it for good."
+   }
+  ]
+ },
+ {
+  "id": "C201",
+  "cell": "火_木",
+  "label": "火_木 · mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fire is born of wood, the old texts say, and the warmth lies hidden in the grain long before any flame shows. Dry branches feed a blaze and green ones only smoke it, so what the fire burns decides how it burns. Wood gives the flame its height and its hours, and a fire remembers every log that was laid on it, the one that caught quick and the one that would not."
+   },
+   {
+    "letter": "B",
+    "text": "Wood is warm by nature and fire sleeps inside it, the classics say, so every flame is fed by what was gathered before it: dry branches, stacked seasons, years of quiet growth surrendered to one bright hour. A fire is only ever as tall as its fuel. The blaze borrows everything from the forest."
+   }
+  ]
+ },
+ {
+  "id": "C202",
+  "cell": "火_木",
+  "label": "火_木 · mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Run thin, the flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. Your chart asks you to stack wood. Learn, gather, befriend, store."
+   },
+   {
+    "letter": "B",
+    "text": "With too little Wood, the fire has nothing long to feed on, a bright start that drops to embers before the work is done. Keep one slow book going beside the fast ones."
+   }
+  ]
+ },
+ {
+  "id": "C203",
+  "cell": "火_木",
+  "label": "火_木 · mechanism.friction_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "With too much Wood, the logs are stacked higher than the flame can climb, so much to take in that nothing gets lit. Finish one small thing before you read another word."
+   },
+   {
+    "letter": "B",
+    "text": "Run heavy, the fire outgrows its hearth: every branch thrown on at once, heat spent in a rush, ash by morning. Burn one pile at a time."
+   }
+  ]
+ },
+ {
+  "id": "C204",
+  "cell": "火_木",
+  "label": "火_木 · carry.catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The fire has nothing long to feed on, a bright start that drops to embers. | remedy: Keep one slow book going beside the fast ones."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. | remedy: Learn, gather, befriend, store."
+   }
+  ]
+ },
+ {
+  "id": "C205",
+  "cell": "火_木",
+  "label": "火_木 · carry.friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The logs are stacked higher than the flame can climb. | remedy: Finish one small thing before you read another word."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The fire outgrows its hearth: every branch thrown on at once, heat spent in a rush. | remedy: Burn one pile at a time."
+   }
+  ]
+ },
+ {
+  "id": "C206",
+  "cell": "火_木",
+  "label": "火_木 · carry.wide",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: You were given plenty of Wood, the fuel your light was waiting for. | remedy: Burn what you have gathered. Light one thing this week."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Wood is one thing you never run short of, the fuel laid ready for your fire. | remedy: Light something with it this week."
+   }
+  ]
+ },
+ {
+  "id": "C207",
+  "cell": "火_木",
+  "label": "火_木 · carry.missing",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow. | remedy: Borrow wood: learn, gather, store."
+   },
+   {
+    "letter": "B",
+    "text": "clause: No fuel under the flame, a fire lit on whatever is nearest and gone as fast. | remedy: Borrow Wood from a teacher, a long book, one quiet hour."
+   }
+  ]
+ },
+ {
+  "id": "C208",
+  "cell": "火_木",
+  "label": "火_木 · carry.spared",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Wood runs absent, and the fire keeps its size: one flame, one task, burned to the end. | remedy: Keep it. Gather only what you will burn."
+   },
+   {
+    "letter": "B",
+    "text": "clause: No Wood to pile on, and the fire is brighter for the open air. | remedy: Act on what you already know."
+   }
+  ]
+ },
+ {
+  "id": "C209",
+  "cell": "火_木",
+  "label": "火_木 · carry.thin",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Wood runs thin and unwanted: a small pile, easily burned. | remedy: Burn it as it comes."
+   },
+   {
+    "letter": "B",
+    "text": "clause: A little Wood in the fire, enough to catch and not enough to smother it. | remedy: Keep it small. One book at a time."
+   }
+  ]
+ },
+ {
+  "id": "C210",
+  "cell": "火_木",
+  "label": "火_木 · carry.excess",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Wood piled past use and the fire blazes past its task, all flare and no lasting warmth. | remedy: Take in less. Put one idea to work."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Too much wood feeds the fire past its task: a blaze that eats a season's fuel overnight. | remedy: Bank the fire. Save half the wood."
+   }
+  ]
+ },
+ {
+  "id": "C211",
+  "cell": "火_水",
+  "label": "火_水 · function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt."
+   },
+   {
+    "letter": "B",
+    "text": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint, so you answer a crisis more than you build a career and let your rank slip."
+   }
+  ]
+ },
+ {
+  "id": "C212",
+  "cell": "火_水",
+  "label": "火_水 · function.definition_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would, and the hardest judge of the flame is you."
+   },
+   {
+    "letter": "B",
+    "text": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the pull turns on you, so you judge yourself ahead of the work and guard your rank rather than face a crisis."
+   }
+  ]
+ },
+ {
+  "id": "C213",
+  "cell": "火_水",
+  "label": "火_水 · function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Discipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes."
+   },
+   {
+    "letter": "B",
+    "text": "You do your best work with a date on it and someone waiting at the other end. Give each big plan a finish line before you start it. Once a month, hand a decision to someone whose call you will keep. Tell one person your deadline. Set a stop time before you begin."
+   }
+  ]
+ },
+ {
+  "id": "C214",
+  "cell": "火_水",
+  "label": "火_水 · function.advise_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later."
+   },
+   {
+    "letter": "B",
+    "text": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it hold what Water pours on you. You take every rule to heart faster than you take anything in. Read one slow chapter before you answer anything hard. Give each new demand a night to sit."
+   }
+  ]
+ },
+ {
+  "id": "C215",
+  "cell": "火_水",
+  "label": "火_水 · cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You take a rule in quietly and keep it for years, since you would rather answer to a standard you chose than to a voice raised at you."
+   },
+   {
+    "letter": "B",
+    "text": "You feel a rule as a cool pull rather than a shout, and you hold yourself to it longer than anyone asked."
+   },
+   {
+    "letter": "C",
+    "text": "Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night."
+   }
+  ]
+ },
+ {
+  "id": "C216",
+  "cell": "火_水",
+  "label": "火_水 · mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Water ends fire, the old texts say: the many overcome the few, and rain outlasts any blaze. Heat climbs and spreads wherever it finds fuel, and water is the one thing it cannot consume. Poured over a flame, water does not argue with it. It takes the heat into itself, rises as steam and leaves the ground cool and dark, and every fire that meets water learns its true size."
+   },
+   {
+    "letter": "B",
+    "text": "The many prevail over the few, and so water commands fire: one flame meets the falling rain, and however bright it burned, the rain does not run out first. What survives learns to burn banked and careful. Rain is the blaze's schooling: after it, fire keeps its heat closer and wastes less light."
+   }
+  ]
+ },
+ {
+  "id": "C217",
+  "cell": "火_水",
+  "label": "火_水 · mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Run thin, nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on. Your chart asks for water. Seek the cold reviewer, the quiet counsel."
+   },
+   {
+    "letter": "B",
+    "text": "With too little Water, the blaze meets nothing that can stop it: every plan catches, no fire gets put out, and the heat runs wherever it likes. Take on one deadline someone else sets."
+   }
+  ]
+ },
+ {
+  "id": "C218",
+  "cell": "火_水",
+  "label": "火_水 · mechanism.friction_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Run heavy, the rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one."
+   },
+   {
+    "letter": "B",
+    "text": "With too much Water, the rain keeps falling on a small flame: every rule weighs more than it should, and the light shrinks to stay lit. Keep one evening a week with nothing due."
+   }
+  ]
+ },
+ {
+  "id": "C219",
+  "cell": "火_水",
+  "label": "火_水 · carry.catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on. | remedy: Seek the cold reviewer, the quiet counsel."
+   },
+   {
+    "letter": "B",
+    "text": "clause: the blaze meets nothing that can stop it | remedy: Take on one deadline someone else sets."
+   }
+  ]
+ },
+ {
+  "id": "C220",
+  "cell": "火_水",
+  "label": "火_水 · carry.friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. | remedy: A doused fire serves no one."
+   },
+   {
+    "letter": "B",
+    "text": "clause: the rain keeps falling on a small flame | remedy: Keep one evening a week with nothing due."
+   }
+  ]
+ },
+ {
+  "id": "C221",
+  "cell": "火_水",
+  "label": "火_水 · carry.wide",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: There is no shortage of Water in you, the depth that keeps the burn honest. | remedy: Take the cold review. Let it steady you."
+   },
+   {
+    "letter": "B",
+    "text": "clause: There is no shortage of Water in you, the rain that keeps the blaze its right size. | remedy: Use it. Take the deadline and meet it."
+   }
+  ]
+ },
+ {
+  "id": "C222",
+  "cell": "火_水",
+  "label": "火_水 · carry.missing",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on. | remedy: Borrow water: one cold reviewer."
+   },
+   {
+    "letter": "B",
+    "text": "clause: No rain anywhere near the blaze: nothing outside you says when enough is enough. | remedy: Borrow rules: one person above you, one date you did not pick."
+   }
+  ]
+ },
+ {
+  "id": "C223",
+  "cell": "火_水",
+  "label": "火_水 · carry.spared",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Water runs absent, and nothing douses the flame: no drizzle on the spark, no second-guessing. | remedy: Keep it. Choose one check you trust."
+   },
+   {
+    "letter": "B",
+    "text": "clause: No rain falls on this low flame, and better so: nothing is pressing the light out. | remedy: Nothing to ease here. Build the fire up first."
+   }
+  ]
+ },
+ {
+  "id": "C224",
+  "cell": "火_水",
+  "label": "火_水 · carry.thin",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Only a little rain reaches this flame, and the light holds its heat under it. | remedy: Keep it small. Take rules as they come, one at a time."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Water runs thin and unwanted: a light rain, easy to shine through. | remedy: Shine through it."
+   }
+  ]
+ },
+ {
+  "id": "C225",
+  "cell": "火_水",
+  "label": "火_水 · carry.excess",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Weak fire drowns in strong water: checks past what the flame can survive, caution putting the light out. | remedy: Get out of the rain. Add wood."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Water this deep puts a low fire out: so many rules answered that the light itself goes dark. | remedy: Answer fewer demands. Add fuel before the next one."
+   }
+  ]
+ },
+ {
+  "id": "C226",
+  "cell": "火_火",
+  "label": "火_火 · function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love."
+   },
+   {
+    "letter": "B",
+    "text": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of rest. You pay for every bright day with lost rest."
+   }
+  ]
+ },
+ {
+  "id": "C227",
+  "cell": "火_火",
+  "label": "火_火 · function.definition_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment."
+   },
+   {
+    "letter": "B",
+    "text": "Your Body is the strength the whole of you stands on. Fire keeps it bright, shown before you are asked. Running over, it has no outlet, so you hold your standard above any peer's or make each shared stake a race. You finish first more often than you keep company."
+   }
+  ]
+ },
+ {
+  "id": "C228",
+  "cell": "火_火",
+  "label": "火_火 · function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You treat rest as a loss and company as a crutch. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day."
+   },
+   {
+    "letter": "B",
+    "text": "A light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns."
+   }
+  ]
+ },
+ {
+  "id": "C229",
+  "cell": "火_火",
+  "label": "火_火 · function.advise_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Heat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle."
+   },
+   {
+    "letter": "B",
+    "text": "Seek Water, the Order energy. Water is the cool bank: a deadline, a rule, a person you answer to that gives the blaze a direction. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first."
+   }
+  ]
+ },
+ {
+  "id": "C230",
+  "cell": "火_火",
+  "label": "火_火 · cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart."
+   },
+   {
+    "letter": "B",
+    "text": "Your strength comes back by doing rather than by resting, and you will keep lighting the next thing before the last one has gone out."
+   },
+   {
+    "letter": "C",
+    "text": "You run on your own warmth more than on anyone's approval, so you tend to shine in company and go flat alone."
+   }
+  ]
+ },
+ {
+  "id": "C231",
+  "cell": "火_火",
+  "label": "火_火 · mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Lights answer one another, the old histories say: flame set beside flame makes one blaze, brighter than the sum of what was lit. There is no reaction between them, only reinforcement, heat agreeing with heat. Such doubling warms whole houses, and it can also empty the woodpile twice as fast."
+   },
+   {
+    "letter": "B",
+    "text": "Fire meets fire and neither has to fight the other for air, the old texts say: like lights shine on each other, and like seeks like. One flame set beside another takes nothing from it. Each feeds on what it was given and both grow brighter for the company, until the shared heat outruns what any single hearth can hold. Fire is the one element fed by its own kind and spent by it."
+   }
+  ]
+ },
+ {
+  "id": "C232",
+  "cell": "火_火",
+  "label": "火_火 · mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "With too little Fire, the flame runs on its own fuel with no second light to borrow warmth from, and the day costs more than it returns. Rest beside someone else's fire once a week."
+   },
+   {
+    "letter": "B",
+    "text": "Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining."
+   }
+  ]
+ },
+ {
+  "id": "C233",
+  "cell": "火_火",
+  "label": "火_火 · mechanism.friction_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "With too much Fire, the blaze outgrows its hearth and every light nearby reads as a rival for the same air. Warmth meant for company turns to glare. Finish one thing before lighting the next."
+   },
+   {
+    "letter": "B",
+    "text": "Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night."
+   }
+  ]
+ },
+ {
+  "id": "C234",
+  "cell": "火_火",
+  "label": "火_火 · carry.catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: the flame runs on its own fuel with no second light to borrow warmth from | remedy: Rest beside someone else's fire once a week."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The flame apologizes for shining: warmth dialed down, light waiting to be invited. | remedy: Take the stage you keep declining."
+   }
+  ]
+ },
+ {
+  "id": "C235",
+  "cell": "火_火",
+  "label": "火_火 · carry.friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The light crowds out the sky. | remedy: Stars are seen at night."
+   },
+   {
+    "letter": "B",
+    "text": "clause: the blaze outgrows its hearth and every light nearby reads as a rival for the same air | remedy: Finish one thing before lighting the next."
+   }
+  ]
+ },
+ {
+  "id": "C236",
+  "cell": "火_火",
+  "label": "火_火 · carry.unrooted",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: No fire of your own under the day: warmth borrowed from whoever stands nearest. | remedy: Build one small hearth: a habit that is only yours."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The self stands without roots: light on will alone, warmth with no hearth under it. | remedy: Feed the self. Take the stage once."
+   }
+  ]
+ },
+ {
+  "id": "C237",
+  "cell": "火_火",
+  "label": "火_火 · carry.excess",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Strong fire wants earth: so much light nothing else is visible. | remedy: Settle some flame. Build something."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Fire past its task: a blaze that needs ground under it before it has anything left to warm. | remedy: Give it earth: one slow and solid job, finished."
+   }
+  ]
+ },
+ {
+  "id": "C238",
+  "cell": "火_火",
+  "label": "火_火 · carry.thin",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Fire kept low, and rightly: a small flame that lights the day without eating it. | remedy: Keep it small. Feed it only what it asks."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Fire runs thin and still carries weight: little light, spent on everyone. | remedy: Spend it on fewer."
+   }
+  ]
+ },
+ {
+  "id": "C239",
+  "cell": "火_金",
+  "label": "火_金 · function.definition_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you."
+   },
+   {
+    "letter": "B",
+    "text": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, you have more drive than work for it, and you chase the next opening more than you finish anything to keep."
+   }
+  ]
+ },
+ {
+  "id": "C240",
+  "cell": "火_金",
+  "label": "火_金 · function.definition_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Your Action is what you go and build, claim and provide. Under Metal it stays exact, and nothing you claim counts until it is finished. As a friction, you take on past your strength, and you start a new venture rather than keep the money and love already yours."
+   },
+   {
+    "letter": "B",
+    "text": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening."
+   }
+  ]
+ },
+ {
+  "id": "C241",
+  "cell": "火_金",
+  "label": "火_金 · function.advise_catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Difficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months."
+   },
+   {
+    "letter": "B",
+    "text": "Your drive outruns the places you have to put it, and an opening you only look at becomes weight. Pick one venture and give it a finish date. Move a fixed sum into savings each month before you spend the rest. Tell the man who raised you one thing you built this year. Finish one small thing before bed."
+   }
+  ]
+ },
+ {
+  "id": "C242",
+  "cell": "火_金",
+  "label": "火_金 · function.advise_friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Seek Fire, the Body energy. Fire is warmth kept in: fuel, rest, the light that keeps itself lit before it works on anything. Let it hold what Metal spends. You say yes to more than you can finish, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
+   },
+   {
+    "letter": "B",
+    "text": "Finished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
+   }
+  ]
+ },
+ {
+  "id": "C243",
+  "cell": "火_金",
+  "label": "火_金 · cta_verdict",
+  "options": [
+   {
+    "letter": "A",
+    "text": "You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea."
+   },
+   {
+    "letter": "B",
+    "text": "You build by claiming what is in front of you and working it to a finish, so you keep what you build better than you keep your options open."
+   },
+   {
+    "letter": "C",
+    "text": "Your drive goes wherever there is something hard to shape, and you finish more by picking one thing to provide for than by chasing every opening you spot."
+   }
+  ]
+ },
+ {
+  "id": "C244",
+  "cell": "火_金",
+  "label": "火_金 · mechanism.base",
+  "options": [
+   {
+    "letter": "A",
+    "text": "The refined prevails over the stubborn, and so fire works metal: in the furnace the hardest thing in the world goes soft, gives up its rock, and takes a finer form. Cold, metal refuses every argument. Heated, it flows like consent, and the smith reads the glow the way farmers read the sky."
+   },
+   {
+    "letter": "B",
+    "text": "Fire works metal, the old texts say: the forge softens the blade, and iron that held one shape for ages gives it up inside the heat. The flame does not break the ore, it loosens it until the hammer can ask for a new line. Every fire wants something hard to work on, and every finished blade keeps the warmth that once made it move."
+   }
+  ]
+ },
+ {
+  "id": "C245",
+  "cell": "火_金",
+  "label": "火_金 · mechanism.catalyst_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "With too little Metal, the fire has nothing hard to work: heat spent on open air, light with no iron under it. Pick one solid thing and finish it this month."
+   },
+   {
+    "letter": "B",
+    "text": "Run thin, the forge stands cold: heat with nothing hard to work, charm with no asset under it. Your chart asks you to work metal. Take on the difficult, valuable thing."
+   }
+  ]
+ },
+ {
+  "id": "C246",
+  "cell": "火_金",
+  "label": "火_金 · mechanism.friction_turn",
+  "options": [
+   {
+    "letter": "A",
+    "text": "Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire."
+   },
+   {
+    "letter": "B",
+    "text": "With too much Metal, the ore crowds the forge: more iron than the fire can soften, and the flame goes dim under the load. Set most of it aside and feed the fire first."
+   }
+  ]
+ },
+ {
+  "id": "C247",
+  "cell": "火_金",
+  "label": "火_金 · carry.catalyst",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The forge stands cold: heat with nothing hard to work, charm with no asset under it. | remedy: Take on the difficult, valuable thing."
+   },
+   {
+    "letter": "B",
+    "text": "clause: the fire has nothing hard to work: heat spent on open air, light with no iron under it | remedy: Pick one solid thing and finish it this month."
+   }
+  ]
+ },
+ {
+  "id": "C248",
+  "cell": "火_金",
+  "label": "火_金 · carry.friction",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: the ore crowds the forge: more iron than the fire can soften, and the flame goes dim | remedy: Set most of it aside and feed the fire first."
+   },
+   {
+    "letter": "B",
+    "text": "clause: The melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. | remedy: A forge needs objects, not only fire."
+   }
+  ]
+ },
+ {
+  "id": "C249",
+  "cell": "火_金",
+  "label": "火_金 · carry.wide",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: You have plenty of Metal, enough iron to keep the fire busy for years. | remedy: Work it. Shape one real thing at a time."
+   },
+   {
+    "letter": "B",
+    "text": "clause: You are well supplied with Metal, the hard thing your heat was made to work. | remedy: Work the hard, valuable thing in front of you."
+   }
+  ]
+ },
+ {
+  "id": "C250",
+  "cell": "火_金",
+  "label": "火_金 · carry.missing",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: The forge stands empty: heat with nothing hard to work. | remedy: Borrow metal: one difficult, valuable thing."
+   },
+   {
+    "letter": "B",
+    "text": "clause: No Metal in reach of the fire: light burning on the air, nothing hard to shape or keep. | remedy: Borrow iron: one order to fill, one thing handed over finished."
+   }
+  ]
+ },
+ {
+  "id": "C251",
+  "cell": "火_金",
+  "label": "火_金 · carry.spared",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: No Metal to drain the fire, and the warmth stays with the one who carries it. | remedy: Leave it. Keep the fire fed before taking on more."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Metal runs absent, and nothing needs reworking: the fire warms instead of melts. | remedy: Keep it. Take hard work rarely, on purpose."
+   }
+  ]
+ },
+ {
+  "id": "C252",
+  "cell": "火_金",
+  "label": "火_金 · carry.thin",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Only a little Metal, one small piece of iron that the fire softens without going out. | remedy: Keep it small. Finish what is in hand first."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Metal runs thin and unwanted: a small piece, easily finished. | remedy: Finish it and let it cool."
+   }
+  ]
+ },
+ {
+  "id": "C253",
+  "cell": "火_金",
+  "label": "火_金 · carry.excess",
+  "options": [
+   {
+    "letter": "A",
+    "text": "clause: Too much metal puts the fire out: more to shape than the heat can ever soften. | remedy: Put most of it down. Fuel the fire before the work."
+   },
+   {
+    "letter": "B",
+    "text": "clause: Too much metal puts out the fire: more hard work than the heat can take, effort cooling. | remedy: Work less metal. Add wood."
+   }
+  ]
+ }
+]

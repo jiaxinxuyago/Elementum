@@ -1,0 +1,283 @@
+{
+ "_generated_by": "fable-v075",
+ "_handoff": "2026-10-15 batch 3 fire core",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Where a spec says \"candidates\": 2, add \"value_b\" beside \"value\" with a second, different candidate of the same shape (two lines, each inside the frame; the read picks one). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/火_土",
+ "page": "The energy page of Earth (your Expression) for a Fire core, both poles and every state line (the cell is the repetition-law unit)",
+ "stem": null,
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 火_土. Core element Fire, energy element Earth. Law: Fire feeds Earth (火生土: ash becomes soil). Relative to the core the energy is the fed, so Earth is this core's Expression.\n- Family personas and ruled domains (the cost domain: the cost is named in these words or in ordinary life, work only where a domain word is work; the definition names one drive per persona, E8): The Artisan: Expression, Enjoyment, Children · The Virtuoso: Talent, Performance, Defiance\n- mechanism.classic (the sourced epigraph): \"木焚而成灰，灰即土也\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: [REDACTED: the target field]\n- mechanism.friction_turn: [REDACTED: the target field]\n- function.definition_catalyst: [REDACTED: the target field]\n- function.definition_friction: [REDACTED: the target field]\n- function.advise_catalyst: [REDACTED: the target field]\n- function.advise_friction: [REDACTED: the target field]\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: [REDACTED: the target field]\n- carry.friction: [REDACTED: the target field]\n- carry.wide: [REDACTED: the target field]\n- carry.missing: [REDACTED: the target field]\n- carry.spared: [REDACTED: the target field]\n- carry.thin: [REDACTED: the target field]\n- carry.excess: [REDACTED: the target field]\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 火能生土，土多火晦 (泄之太过, the Expression door).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\nNo chart is attached to this batch: the cell is written for every chart with a Fire core, so no percentage, no band and no state of one chart appears in any value (the engine owns the numbers). The pole's band facts come from the pair law and the band table (REA_02 §5c): the catalyst pole of Earth as the Expression is the Overfueled band's case (the core has more than it channels), remedy verb Channel; the friction pole of Earth as the Expression is the Underfueled band's case (the core burns more than it takes in), remedy verb Refill, cure set Wood (the taming cure by the ten equations, template-level). The states this cell renders (chart.mjs, journeyData.js: the pole's turn, or the carry line for an absent, thin, abundant, dominant or unrooted energy): catalyst_turn, friction_turn, wide, missing, spared, thin, excess. The yin sibling's overrides (mechanism_yin, carry_yin) are not in this batch and keep the station's text.",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "element": "Earth",
+    "person": "fully third person, no \"you\", no function claim, no persona",
+    "chemistry": "the field carries one word of the pair's chemistry somewhere in it: Earth's material or Fire's (an arena noun, its verb, or either element as a common noun); the gate blocks without it; the base keeps its material by the ruling (the one surface with the arena, with the turns, the carries and the sign paragraph)"
+   },
+   "value": "Earth is what the fire leaves behind. Wood burns down to ash and ash is already soil, so every blaze ends as ground that something else can stand on. The flame spends itself and the field keeps the gift, dark and warm and ready for seed. What began as light becomes a place, and the place outlasts the fire that made it."
+  },
+  "mechanism.catalyst_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Earth",
+    "notes": "opens on a plain statement of the state in the reader's terms (Earth named, its volume in ordinary words, the reference lead-in \"With too little Earth, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too little Earth, the light has no ground to land on. What you make stays heat and never becomes something a person can hold. Finish one small thing and give it away."
+  },
+  "carry.catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.catalyst_turn",
+    "notes": "cut from the catalyst turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The light has no ground to land on.",
+    "remedy": "Finish one small thing and give it away."
+   }
+  },
+  "mechanism.friction_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Earth",
+    "notes": "opens on a plain statement of the state in the reader's terms (Earth named, its volume in ordinary words, the reference lead-in \"With too much Earth, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too much Earth, the ground piles up and dims the fire. So much gets made that the light goes dull under its own harvest. Make nothing for a week and take something in."
+  },
+  "carry.friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.friction_turn",
+    "notes": "cut from the friction turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The ground piles up and dims the fire.",
+    "remedy": "Make nothing for a week and take something in."
+   }
+  },
+  "carry.wide": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "openers": [
+     "Earth is one thing you never run short of",
+     "Earth is easy for you to reach",
+     "Earth is all around you",
+     "You have plenty of Earth",
+     "Earth is already here in plenty",
+     "You are well supplied with Earth",
+     "You were given plenty of Earth",
+     "There is no shortage of Earth in you"
+    ],
+    "cut_from": null,
+    "notes": "Earth is wanted and abundant: the plentiful line, opening with one of the eight wide openers, no door metaphor; the remedy tells the reader to use it"
+   },
+   "value": {
+    "clause": "You have plenty of Earth, the ground your fire was always meant to warm.",
+    "remedy": "Build on it. Finish something that outlasts the week."
+   }
+  },
+  "carry.missing": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Earth wanted and absent: borrow it"
+   },
+   "value": {
+    "clause": "No ground under the fire, the light goes into the air with nothing to show.",
+    "remedy": "Borrow ground. Make something small and finish it."
+   }
+  },
+  "carry.spared": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Earth unwanted and absent: absent and better so"
+   },
+   "value": {
+    "clause": "No Earth drawing on the fire, so the light keeps its warmth for itself.",
+    "remedy": "Leave it. Spend your warmth where it feeds you."
+   }
+  },
+  "carry.thin": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Earth unwanted at ≤10%: kept small"
+   },
+   "value": {
+    "clause": "Only a little Earth on the fire, enough to make something without dimming the light.",
+    "remedy": "Keep it small. One made thing at a time."
+   }
+  },
+  "carry.excess": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Earth dominant: the cell's excess idiom in English, never quoted"
+   },
+   "value": {
+    "clause": "So much Earth that the fire can hardly be seen, a light buried under what it made.",
+    "remedy": "Clear the ash. Make less and rest more."
+   }
+  },
+  "function.definition_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 30,
+    "max": 50,
+    "element": "Earth",
+    "sentences": {
+     "min": 3,
+     "max": 4
+    },
+    "construct": "THE THREE BEATS (owner 2026-10-14, D14, function first). Beat 1, the first sentence, is this function's fixed sentence, word for word: \"Your Expression is the gate where inner work becomes outer fact.\" (the function for anyone; the gate blocks any other first sentence). Beat 2, one sentence: what Earth makes of your Expression, Earth as the agent with its plain verb or state (E7), ending on what that does to the function for this reader; no amount of Earth, no pole. Beat 3, one or two sentences opening on \"As a catalyst,\": what the shortfall does to the function, then the family's two drives as one either-or (the tension sentence, D9, both personas inside it, E8), the cost as the close (D11, the reader its subject). NEVER an amount of the element anywhere in the definition (\"more Earth than\", \"little Water\", \"Metal to spare\", \"runs thin\": the gate blocks them; the bars will carry the amount); never the old opener \"{Element} is your {Function}, and as a …\" (the title line above the definition already says it). Three or four sentences, 30 to 50 words.",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it as the energy's plain verb or state, or the energy's name in the mechanism sentence (\"There is more Earth in you than you use\"): Earth's or Fire's (flows, pours, settles; grows, builds, reaches; warm, light, fuel; holds, shelters, steady; hard, exact, finishes); never a prop (blade, edge, ore, forge, cut, mountain, branch, root, stream, flame, heat, burn are blocked and do not count); the element's name in the opener does not count; the gate blocks without it (owner 2026-09-30, narrowed 2026-10-14)",
+    "person": "second person",
+    "opener": "Your Expression is the gate where inner work becomes outer fact.",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
+    "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Earth and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+   },
+   "value": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks, and you hold your care in as much as your boldest idea. You pay in kindness not given and talent not shown."
+  },
+  "function.definition_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 30,
+    "max": 50,
+    "element": "Earth",
+    "sentences": {
+     "min": 3,
+     "max": 4
+    },
+    "construct": "THE THREE BEATS (owner 2026-10-14, D14, function first). Beat 1, the first sentence, is this function's fixed sentence, word for word: \"Your Expression is the gate where inner work becomes outer fact.\" (the function for anyone; the gate blocks any other first sentence). Beat 2, one sentence: what Earth makes of your Expression, Earth as the agent with its plain verb or state (E7), ending on what that does to the function for this reader; no amount of Earth, no pole. Beat 3, one or two sentences opening on \"As a friction,\": what the surplus does to the function, then the family's two drives as one either-or (the tension sentence, D9, both personas inside it, E8), the cost as the close (D11, the reader its subject). NEVER an amount of the element anywhere in the definition (\"more Earth than\", \"little Water\", \"Metal to spare\", \"runs thin\": the gate blocks them; the bars will carry the amount); never the old opener \"{Element} is your {Function}, and as a …\" (the title line above the definition already says it). Three or four sentences, 30 to 50 words.",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it as the energy's plain verb or state, or the energy's name in the mechanism sentence (\"There is more Earth in you than you use\"): Earth's or Fire's (flows, pours, settles; grows, builds, reaches; warm, light, fuel; holds, shelters, steady; hard, exact, finishes); never a prop (blade, edge, ore, forge, cut, mountain, branch, root, stream, flame, heat, burn are blocked and do not count); the element's name in the opener does not count; the gate blocks without it (owner 2026-09-30, narrowed 2026-10-14)",
+    "person": "second person",
+    "opener": "Your Expression is the gate where inner work becomes outer fact.",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
+    "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Earth and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+   },
+   "value": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, so you keep giving or keep proving instead of taking in. You run empty on comfort given and points already won."
+  },
+  "function.advise_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "remedy_verb": "Channel",
+    "remedy_gloss": "Channel: an outlet, an action that spends the excess (make, ship, say, lift, walk, cut); never a brake (the band's remedy verb, REA_02 §5c; no chart is attached: the catalyst pole of the Expression is the Overfueled band's case (the core has more than it channels))",
+    "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), three or four, ending on the smallest, no aphorism close; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "What you keep inside does not count as finished. Make one thing a week that someone else can hold. Say the opinion you have been sitting on to one person. Show a child or a friend something you know how to do. Write one line down before bed."
+  },
+  "function.advise_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "cure_set": [
+     "Wood"
+    ],
+    "remedy_shape": "THE REMEDY (owner 2026-10-14): the friction advice renders under its own title, THE REMEDY, after the ledger, and OPENS on the energy prescription beat: \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The beat is the first sentence of the field (the gate blocks any other opening); the one plain truth sentence and the two small life actions follow it, in the cure's register; the field closes on the last action, never on a second beat.",
+    "remedy_verb": "Refill",
+    "remedy_gloss": "Refill: intake, rest, taking in (read, sit, sleep, ask, wait for the whole answer); never a push for more output (the band's remedy verb, REA_02 §5c; no chart is attached: the friction pole of the Expression is the Underfueled band's case (the core burns more than it takes in))",
+    "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), two, in the cure's register (owner 2026-10-14, Q35: on an Order cure someone above you, a deadline, a judge, never a friend; on a Mind cure study, shelter, time; on an Action cure a thing made or shipped; on a Body cure sleep, food, rest; on an Expression cure a thing said or given), the smallest action last, closing on the energy prescription in the energy-manual register (owner 2026-09-29, the beat re-cut 2026-09-30): \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The energy is the subject, a material the reader can hold and use, no life action inside the beat; the element must be in cure_set, never one that feeds this friction; the gate blocks without the \"Seek {Element}, the {Function} energy\" form; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter before giving an opinion. Keep one evening a week for reading only."
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "candidates": 2,
+    "person": "second person",
+    "pole_neutral": "one verdict per pair, rendered on this page whichever pole the chart shows (this batch writes both poles), so it must read true on both: what Earth as your Expression IS, never its state, no heavy, thin, too much, too little, running over, running short",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (noted on a verdict, the read decides)",
+    "notes": "explains \"Earth is your Expression\": a behavioural truth with the reader as its subject plus ONE tendency-framed consequence beat, true on either pole, the tension inside the one sentence where it can be; at least eight words, no arena word, no turn word (but, yet, however), no more than two commas (owner 2026-10-14, v0.7.1)"
+   },
+   "value": "You show what you feel by making something solid rather than saying it, and what you build tends to outlast the moment.",
+   "value_b": "You show your care in something made sooner than you say it, so the proof of you tends to pile up slowly and stay."
+  }
+ }
+}

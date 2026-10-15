@@ -1,0 +1,100 @@
+{
+ "file": "ledger.火_劫财.catalyst.json",
+ "page": "The catalyst ledger of 火_劫财 (Fire carrying The Rival) on a Fire core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[1] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[2] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3] :: a word used twice (goal; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[4] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[4] :: a word used twice (alone; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[5] :: outside the zone (not blocking): cheering",
+  "ledger[5] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[5] :: a word used twice (finish; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6] :: none of the chip's words (\"Goes all in\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[7] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You put your money where your friends are ahead of where your sense is\"",
+  "ledger[7] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[7] :: a word used twice (money; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[7] :: none of the chip's words (\"Goes all in\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[8] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[8] :: none of the chip's words (\"Goes all in\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[0]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3]#b :: outside the zone (not blocking): hunger (rank 6877)",
+  "ledger[3]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6]#b :: a word used twice (part; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6]#b :: none of the chip's words (\"Goes all in\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[2] ↔ ledger[8] :: the same first two words (\"whenever someone\") on two passages of the page (B9; a note)",
+  "the page :: \"so\" 9 times across the file's fields (B11, a note: vary the joints across the page or let the order carry the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 1,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 0,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 0,
+  "ledger[7]": 1,
+  "ledger[8]": 0,
+  "ledger[0]#b": 1,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

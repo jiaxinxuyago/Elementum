@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_正官",
+  "axis": "ELEMENT_GOD",
+  "key": "水_正官",
+  "$generated_by": "fable-v075-fire-b",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Follows through",
+        "Earns trust slowly",
+        "Paces yourself"
+      ],
+      "friction": [
+        "Plays it safe",
+        "Waits for permission",
+        "Bites your tongue"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Follows through",
+            "angles": {
+              "drive": "Following through is your word to yourself. You would rather follow a plan made calm than chase the halfway idea, since calm is the state you trust. Keep an hour a week for it, because following through on the right thing beats finishing the first."
+            }
+          },
+          {
+            "word": "Earns trust slowly",
+            "angles": {
+              "drive": "Trust is something you earn slowly, on purpose. Since you would rather be sure of someone than quick with them, you earn trust in small pieces and keep each one. Give a bigger piece first sometimes, because trust earned slowly can be earned too slowly."
+            }
+          },
+          {
+            "word": "Paces yourself",
+            "angles": {
+              "drive": "Pacing yourself is a daily decision. Because you would rather last than win for a season, you hold your pace and let the quick ones pass. Let yourself be passed, since the pace you keep is why you are there at the end."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "Playing it safe is your answer to anything new. Since a loss shows and a missed gain never does, you would rather play safe than risk your place for a better one. Keep in mind that the safe choice keeps you right where you are."
+            }
+          },
+          {
+            "word": "Waits for permission",
+            "angles": {
+              "drive": "Waiting for permission is how you earn a place. Since what is given cannot be taken back like what is taken, you wait to be chosen rather than step forward. Remember that permission arrives last to the one who waits for it most."
+            }
+          },
+          {
+            "word": "Bites your tongue",
+            "angles": {
+              "drive": "Biting your tongue is your first move in any disagreement. Because your standing matters more to you than your point, you bite your tongue and keep your place. Remember that you will need the tongue you keep biting the day you have to speak."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clockwork",
+            "angles": {
+              "drive": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam."
+            }
+          },
+          {
+            "word": "Composed",
+            "angles": {
+              "drive": "You hold your shape under pressure the way deep water holds its level: visibly, reassuringly, without effort you would admit to. The difficult meeting, the public mistake, the audit: your surface stays level, and everyone in the region borrows a little of it."
+            }
+          },
+          {
+            "word": "Far-sighted",
+            "angles": {
+              "drive": "You plan at distances other people reserve for fantasy. The pension started at twenty-three, the succession question asked a decade early, the consequence spotted three moves before it forms. Present-tense people find it eerie. Future-tense people find it, eventually, in their interest."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overcautious",
+            "angles": {
+              "drive": "Every risk gets weighed until it drowns. The checking, the double-checking, the waiting for conditions: your prudence has a thoroughness that outlives most opportunities. Nothing bad happens to you, statistically. The cost is that remarkably little of anything happens, and the ledger never shows it."
+            }
+          },
+          {
+            "word": "Muted",
+            "angles": {
+              "drive": "Your voice arrives pre-softened, and the softening costs content. The objection becomes a question, the question becomes a pause, the pause gets read as agreement. What you actually think is audible only at very close range, and most decisions get made from further away."
+            }
+          },
+          {
+            "word": "On rails",
+            "angles": {
+              "drive": "The channel decides your route. The established procedure, the way it has always flowed, the course set by someone upstream years ago: you follow it faithfully, even where the banks have visibly moved. Freedom to reroute exists on paper. The water has never once tested it."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Clockwork",
+        "Composed",
+        "Far-sighted"
+      ],
+      "friction": [
+        "Overcautious",
+        "Muted",
+        "On rails"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

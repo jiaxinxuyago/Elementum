@@ -1,0 +1,97 @@
+{
+  "$archetype": "火_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "火_火",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Fire meets fire and neither has to fight the other for air, the old texts say: like lights shine on each other, and like seeks like. One flame set beside another takes nothing from it. Each feeds on what it was given and both grow brighter for the company, until the shared heat outruns what any single hearth can hold. Fire is the one element fed by its own kind and spent by it.",
+      "catalyst_turn": "With too little Fire, the flame runs on its own fuel with no second light to borrow warmth from, and the day costs more than it returns. Rest beside someone else's fire once a week.",
+      "friction_turn": "With too much Fire, the blaze outgrows its hearth and every light nearby reads as a rival for the same air. Warmth meant for company turns to glare. Finish one thing before lighting the next."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "the flame runs on its own fuel with no second light to borrow warmth from",
+        "remedy": "Rest beside someone else's fire once a week."
+      },
+      "friction": {
+        "clause": "the blaze outgrows its hearth and every light nearby reads as a rival for the same air",
+        "remedy": "Finish one thing before lighting the next."
+      },
+      "unrooted": {
+        "clause": "No fire of your own under the day: warmth borrowed from whoever stands nearest.",
+        "remedy": "Build one small hearth: a habit that is only yours."
+      },
+      "excess": {
+        "clause": "Fire past its task: a blaze that needs ground under it before it has anything left to warm.",
+        "remedy": "Give it earth: one slow and solid job, finished."
+      },
+      "thin": {
+        "clause": "Fire kept low, and rightly: a small flame that lights the day without eating it.",
+        "remedy": "Keep it small. Feed it only what it asks."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of rest. You pay for every bright day with lost rest.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright, shown before you are asked. Running over, it has no outlet, so you hold your standard above any peer's or make each shared stake a race. You finish first more often than you keep company.",
+      "advise_catalyst": "You treat rest as a loss and company as a crutch. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day.",
+      "advise_friction": "Seek Water, the Order energy. Water is the cool bank: a deadline, a rule, a person you answer to that gives the blaze a direction. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first."
+    },
+    "cta_verdict": "Your strength comes back by doing rather than by resting, and you will keep lighting the next thing before the last one has gone out."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Lights answer one another, the old histories say: flame set beside flame makes one blaze, brighter than the sum of what was lit. There is no reaction between them, only reinforcement, heat agreeing with heat. Such doubling warms whole houses, and it can also empty the woodpile twice as fast.",
+      "catalyst_turn": "Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining.",
+      "friction_turn": "Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The flame apologizes for shining: warmth dialed down, light waiting to be invited.",
+        "remedy": "Take the stage you keep declining."
+      },
+      "friction": {
+        "clause": "The light crowds out the sky.",
+        "remedy": "Stars are seen at night."
+      },
+      "unrooted": {
+        "clause": "The self stands without roots: light on will alone, warmth with no hearth under it.",
+        "remedy": "Feed the self. Take the stage once."
+      },
+      "excess": {
+        "clause": "Strong fire wants earth: so much light nothing else is visible.",
+        "remedy": "Settle some flame. Build something."
+      },
+      "thin": {
+        "clause": "Fire runs thin and still carries weight: little light, spent on everyone.",
+        "remedy": "Spend it on fewer."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love.",
+      "definition_friction": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment.",
+      "advise_catalyst": "A light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns.",
+      "advise_friction": "Heat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle."
+    },
+    "cta_verdict": "Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.unrooted": "pass",
+    "carry.excess": "pass",
+    "carry.thin": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

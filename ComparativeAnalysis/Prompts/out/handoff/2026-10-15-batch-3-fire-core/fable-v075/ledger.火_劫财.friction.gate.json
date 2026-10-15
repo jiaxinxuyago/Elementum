@@ -1,0 +1,92 @@
+{
+ "file": "ledger.火_劫财.friction.json",
+ "page": "The friction ledger of 火_劫财 (Fire carrying The Rival) on a Fire core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: outside the zone (not blocking): outlasts",
+  "ledger[1] :: a word used twice (stay, race; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[3] :: outside the zone (not blocking): goodwill",
+  "ledger[3] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You buy the evening and rent the goodwill, and that is worth rememberi\"",
+  "ledger[3] :: the first sentence carries the object noun \"table\" outside the persona's domain words (D9 with E6; heuristic, not blocking, the read decides)",
+  "ledger[4] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[4] :: a word used twice (bill; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[5] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[6] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[7] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[7] :: a word used twice (tired; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[8] :: a word used twice (beside, staying; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: a word used twice (point; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3]#b :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You would sooner spend where the audience is than save where nobody lo\"",
+  "ledger[6]#b :: outside the zone (not blocking): outlasts",
+  "ledger[2] ↔ ledger[5] :: the same first two words (\"whenever a\") on two passages of the page (B9; a note)",
+  "the page :: \"so\" 7 times across the file's fields (B11, a note: vary the joints across the page or let the order carry the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 0,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 1,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 0,
+  "ledger[7]": 0,
+  "ledger[8]": 0,
+  "ledger[0]#b": 0,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 0
+ },
+ "zone": null,
+ "pass": true
+}

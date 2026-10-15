@@ -1,0 +1,233 @@
+{
+ "_generated_by": "fable-v075",
+ "_handoff": "2026-10-15 batch 3 fire core",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Where a spec says \"candidates\": 2, add \"value_b\" beside \"value\" with a second, different candidate of the same shape (two lines, each inside the frame; the read picks one). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/火_火",
+ "page": "The energy page of Fire (your Body) for a Fire core, both poles and every state line (the cell is the repetition-law unit)",
+ "stem": null,
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 火_火. Core element Fire, energy element Fire. Law: Fire and Fire are the same element (the self pair). Relative to the core the energy is the self, so Fire is this core's Body.\n- Family personas and ruled domains (the cost domain: the cost is named in these words or in ordinary life, work only where a domain word is work; the definition names one drive per persona, E8): The Twin: Peers, Independence, Self-reliance · The Rival: Rivalry, Shared stakes, Boldness\n- mechanism.classic (the sourced epigraph): \"同明相照，同類相求\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: [REDACTED: the target field]\n- mechanism.friction_turn: [REDACTED: the target field]\n- function.definition_catalyst: [REDACTED: the target field]\n- function.definition_friction: [REDACTED: the target field]\n- function.advise_catalyst: [REDACTED: the target field]\n- function.advise_friction: [REDACTED: the target field]\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: [REDACTED: the target field]\n- carry.friction: [REDACTED: the target field]\n- carry.unrooted: [REDACTED: the target field]\n- carry.excess: [REDACTED: the target field]\n- carry.thin: [REDACTED: the target field]\n- carry.wide: none (self pair): the Body wide gift is cut from this cell's definition_catalyst, echo_of = 火_火.function.definition_catalyst\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 强火得土，方止其焰 (强而得制, the self pair).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\nNo chart is attached to this batch: the cell is written for every chart with a Fire core, so no percentage, no band and no state of one chart appears in any value (the engine owns the numbers). The pole's band facts come from the pair law and the band table (REA_02 §5c): the catalyst pole of Fire as the Body is the Underfueled band's case (the core burns more than it takes in), remedy verb Refill; the friction pole of Fire as the Body is the Overfueled band's case (the core has more than it channels), remedy verb Channel, cure set Water (the taming cure by the ten equations, template-level). The states this cell renders (chart.mjs, journeyData.js: the pole's turn, or the carry line for an absent, thin, abundant, dominant or unrooted energy): catalyst_turn, friction_turn, unrooted, excess, thin. The yin sibling's overrides (mechanism_yin, carry_yin) are not in this batch and keep the station's text.",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "element": "Fire",
+    "person": "fully third person, no \"you\", no function claim, no persona",
+    "chemistry": "the field carries one word of the pair's chemistry somewhere in it: Fire's material or Fire's (an arena noun, its verb, or either element as a common noun); the gate blocks without it; the base keeps its material by the ruling (the one surface with the arena, with the turns, the carries and the sign paragraph)"
+   },
+   "value": "Fire meets fire and neither has to fight the other for air, the old texts say: like lights shine on each other, and like seeks like. One flame set beside another takes nothing from it. Each feeds on what it was given and both grow brighter for the company, until the shared heat outruns what any single hearth can hold. Fire is the one element fed by its own kind and spent by it."
+  },
+  "mechanism.catalyst_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Fire",
+    "notes": "opens on a plain statement of the state in the reader's terms (Fire named, its volume in ordinary words, the reference lead-in \"With too little Fire, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too little Fire, the flame runs on its own fuel with no second light to borrow warmth from, and the day costs more than it returns. Rest beside someone else's fire once a week."
+  },
+  "carry.catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.catalyst_turn",
+    "notes": "cut from the catalyst turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "the flame runs on its own fuel with no second light to borrow warmth from",
+    "remedy": "Rest beside someone else's fire once a week."
+   }
+  },
+  "mechanism.friction_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Fire",
+    "notes": "opens on a plain statement of the state in the reader's terms (Fire named, its volume in ordinary words, the reference lead-in \"With too much Fire, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too much Fire, the blaze outgrows its hearth and every light nearby reads as a rival for the same air. Warmth meant for company turns to glare. Finish one thing before lighting the next."
+  },
+  "carry.friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.friction_turn",
+    "notes": "cut from the friction turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "the blaze outgrows its hearth and every light nearby reads as a rival for the same air",
+    "remedy": "Finish one thing before lighting the next."
+   }
+  },
+  "carry.unrooted": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "the core at 0%"
+   },
+   "value": {
+    "clause": "No fire of your own under the day: warmth borrowed from whoever stands nearest.",
+    "remedy": "Build one small hearth: a habit that is only yours."
+   }
+  },
+  "carry.excess": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Fire dominant: the cell's excess idiom in English, never quoted"
+   },
+   "value": {
+    "clause": "Fire past its task: a blaze that needs ground under it before it has anything left to warm.",
+    "remedy": "Give it earth: one slow and solid job, finished."
+   }
+  },
+  "carry.thin": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Fire unwanted at ≤10%: kept small"
+   },
+   "value": {
+    "clause": "Fire kept low, and rightly: a small flame that lights the day without eating it.",
+    "remedy": "Keep it small. Feed it only what it asks."
+   }
+  },
+  "function.definition_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 30,
+    "max": 50,
+    "element": "Fire",
+    "sentences": {
+     "min": 3,
+     "max": 4
+    },
+    "construct": "THE THREE BEATS (owner 2026-10-14, D14, function first). Beat 1, the first sentence, is this function's fixed sentence, word for word: \"Your Body is the strength the whole of you stands on.\" (the function for anyone; the gate blocks any other first sentence). Beat 2, one sentence: what Fire makes of your Body, Fire as the agent with its plain verb or state (E7), ending on what that does to the function for this reader; no amount of Fire, no pole. Beat 3, one or two sentences opening on \"Running thin,\": what the shortfall does to the function, then the family's two drives as one either-or (the tension sentence, D9, both personas inside it, E8), the cost as the close (D11, the reader its subject). NEVER an amount of the element anywhere in the definition (\"more Earth than\", \"little Water\", \"Metal to spare\", \"runs thin\": the gate blocks them; the bars will carry the amount); never the old opener \"{Element} is your {Function}, and as a …\" (the title line above the definition already says it). Three or four sentences, 30 to 50 words.",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it as the energy's plain verb or state, or the energy's name in the mechanism sentence (\"There is more Fire in you than you use\"): Fire's or Fire's (flows, pours, settles; grows, builds, reaches; warm, light, fuel; holds, shelters, steady; hard, exact, finishes), or the body's own material (sleep, food, recovery, stamina, muscle, breath, rest); never a prop (blade, edge, ore, forge, cut, mountain, branch, root, stream, flame, heat, burn are blocked and do not count); the element's name in the opener does not count; the gate blocks without it (owner 2026-09-30, narrowed 2026-10-14)",
+    "person": "second person",
+    "opener": "Your Body is the strength the whole of you stands on.",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
+    "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Fire and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+   },
+   "value": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of rest. You pay for every bright day with lost rest."
+  },
+  "function.definition_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 30,
+    "max": 50,
+    "element": "Fire",
+    "sentences": {
+     "min": 3,
+     "max": 4
+    },
+    "construct": "THE THREE BEATS (owner 2026-10-14, D14, function first). Beat 1, the first sentence, is this function's fixed sentence, word for word: \"Your Body is the strength the whole of you stands on.\" (the function for anyone; the gate blocks any other first sentence). Beat 2, one sentence: what Fire makes of your Body, Fire as the agent with its plain verb or state (E7), ending on what that does to the function for this reader; no amount of Fire, no pole. Beat 3, one or two sentences opening on \"Running over,\": what the surplus does to the function, then the family's two drives as one either-or (the tension sentence, D9, both personas inside it, E8), the cost as the close (D11, the reader its subject). NEVER an amount of the element anywhere in the definition (\"more Earth than\", \"little Water\", \"Metal to spare\", \"runs thin\": the gate blocks them; the bars will carry the amount); never the old opener \"{Element} is your {Function}, and as a …\" (the title line above the definition already says it). Three or four sentences, 30 to 50 words.",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it as the energy's plain verb or state, or the energy's name in the mechanism sentence (\"There is more Fire in you than you use\"): Fire's or Fire's (flows, pours, settles; grows, builds, reaches; warm, light, fuel; holds, shelters, steady; hard, exact, finishes), or the body's own material (sleep, food, recovery, stamina, muscle, breath, rest); never a prop (blade, edge, ore, forge, cut, mountain, branch, root, stream, flame, heat, burn are blocked and do not count); the element's name in the opener does not count; the gate blocks without it (owner 2026-09-30, narrowed 2026-10-14)",
+    "person": "second person",
+    "opener": "Your Body is the strength the whole of you stands on.",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
+    "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Fire and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+   },
+   "value": "Your Body is the strength the whole of you stands on. Fire keeps it bright, shown before you are asked. Running over, it has no outlet, so you hold your standard above any peer's or make each shared stake a race. You finish first more often than you keep company."
+  },
+  "function.advise_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "remedy_verb": "Refill",
+    "remedy_gloss": "Refill: intake, rest, taking in (read, sit, sleep, ask, wait for the whole answer); never a push for more output (the band's remedy verb, REA_02 §5c; no chart is attached: the catalyst pole of the Body is the Underfueled band's case (the core burns more than it takes in))",
+    "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), three or four, ending on the smallest, no aphorism close; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "You treat rest as a loss and company as a crutch. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day."
+  },
+  "function.advise_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "cure_set": [
+     "Water"
+    ],
+    "remedy_shape": "THE REMEDY (owner 2026-10-14): the friction advice renders under its own title, THE REMEDY, after the ledger, and OPENS on the energy prescription beat: \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The beat is the first sentence of the field (the gate blocks any other opening); the one plain truth sentence and the two small life actions follow it, in the cure's register; the field closes on the last action, never on a second beat.",
+    "remedy_verb": "Channel",
+    "remedy_gloss": "Channel: an outlet, an action that spends the excess (make, ship, say, lift, walk, cut); never a brake (the band's remedy verb, REA_02 §5c; no chart is attached: the friction pole of the Body is the Overfueled band's case (the core has more than it channels))",
+    "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), two, in the cure's register (owner 2026-10-14, Q35: on an Order cure someone above you, a deadline, a judge, never a friend; on a Mind cure study, shelter, time; on an Action cure a thing made or shipped; on a Body cure sleep, food, rest; on an Expression cure a thing said or given), the smallest action last, closing on the energy prescription in the energy-manual register (owner 2026-09-29, the beat re-cut 2026-09-30): \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The energy is the subject, a material the reader can hold and use, no life action inside the beat; the element must be in cure_set, never one that feeds this friction; the gate blocks without the \"Seek {Element}, the {Function} energy\" form; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "Seek Water, the Order energy. Water is the cool bank: a deadline, a rule, a person you answer to that gives the blaze a direction. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first."
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "candidates": 2,
+    "person": "second person",
+    "pole_neutral": "one verdict per pair, rendered on this page whichever pole the chart shows (this batch writes both poles), so it must read true on both: what Fire as your Body IS, never its state, no heavy, thin, too much, too little, running over, running short",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (noted on a verdict, the read decides)",
+    "notes": "explains \"Fire is your Body\": a behavioural truth with the reader as its subject plus ONE tendency-framed consequence beat, true on either pole, the tension inside the one sentence where it can be; at least eight words, no arena word, no turn word (but, yet, however), no more than two commas (owner 2026-10-14, v0.7.1)"
+   },
+   "value": "Your strength comes back by doing rather than by resting, and you will keep lighting the next thing before the last one has gone out.",
+   "value_b": "You run on your own warmth more than on anyone's approval, so you tend to shine in company and go flat alone."
+  }
+ }
+}

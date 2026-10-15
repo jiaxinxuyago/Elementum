@@ -1,0 +1,165 @@
+{
+  "$archetype": "木_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "木_偏印",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Senses it first",
+        "Self-taught",
+        "Sleeps on it"
+      ],
+      "friction": [
+        "Thinks in circles",
+        "Keeps it in",
+        "Hides away"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Senses it first",
+            "angles": {
+              "drive": "Sensing a thing first comes easier to you than waiting to be told. You sense the pause before an answer, and your guess runs past the words. What you sense first arrives ahead of your ability to say it, so let the words catch up.",
+              "cost_self": "A thing sensed first feels safer than a plain question asked. Since you would rather sense it than be told, what you have half right stays half right. Say it out loud sometimes, because the lesson you keep missing comes to the one who asks.",
+              "cost_others": "Whenever someone starts telling you something, you sense its direction and answer that. Sensing the point before the words saves you time and costs the other person their own ending. Let them reach it, because you want them heard as much as understood."
+            }
+          },
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "You teach yourself what others take classes in. Being handed an answer never feels like knowing it, and you would rather be self-taught than shown. The self-taught way costs you time, and what you learn by it is the kind that stays.",
+              "cost_self": "Being self-taught makes the knowing yours. The long way feels more honest than the short, so you spend years on what a teacher would hand you in a day. Let someone show you the part you keep getting wrong, because the years saved are yours.",
+              "cost_others": "Teaching yourself means you rarely ask anyone who knows. Working it out alone feels cleaner than owing an answer, so you keep questions private. Learning by yourself denies the people who know the pleasure of being asked, and you repay it with one question."
+            }
+          },
+          {
+            "word": "Sleeps on it",
+            "angles": {
+              "drive": "You sleep on a question rather than answer on the spot. What you know arrives whole after a night's sleep, so forcing it now feels false. Sleeping on it costs you the quick reply, and what you wake with is yours to stand behind.",
+              "cost_self": "Sleeping on a question makes its answer real to you. You hold out for the whole answer instead of half, and chances close while you sleep on them. Give each question a morning to be ready by, because waiting costs you the chance itself.",
+              "cost_others": "Whenever someone needs an answer, you sleep on it. Sleeping on it matters more than a quick reply, and you leave whoever asked waiting a day longer. Name the day you will answer by, because a wait with a date weighs less on them."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Thinks in circles",
+            "angles": {
+              "drive": "Thinking a question through means thinking it around, every side before any answer. Being certain matters more to you than being quick, so you take one more angle rather than decide. You alone can step out of a circle, and it never closes by itself.",
+              "cost_self": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chance that needed an answer this week, and remembering that beats another circle.",
+              "cost_others": "Whenever someone brings you a question, you think in circles first. Every side counts for more than a usable reply, so you hand over the process instead of a yes. Keep in mind that you owe them the short answer, and the circles stay yours."
+            }
+          },
+          {
+            "word": "Keeps it in",
+            "angles": {
+              "drive": "What you understand, you keep in. Saying a thing out loud makes it ordinary, and you would rather hold an idea unfinished than hand it over half-formed. Keeping it in keeps it yours, and you never learn what it would have become.",
+              "cost_self": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. Bear in mind that what you keep in gets built on by no one, you included.",
+              "cost_others": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing for days at what takes you a minute, and the minute is yours."
+            }
+          },
+          {
+            "word": "Hides away",
+            "angles": {
+              "drive": "You hide away to think, and the hiding comes before the thinking. Company costs you the thread of an idea, so you would rather be alone with a question than with people and an answer. Hiding away feeds the work and quietly stops feeding you.",
+              "cost_self": "Hiding away protects what is growing in you. Because time alone feels like rest to you, you hide away rather than go out and keep the quiet past the point it helps. You pay for the shut door in closeness, and that is worth remembering.",
+              "cost_others": "When the people who love you reach for you, you hide longer. Being out of reach feels more like safety than absence, and your seat sits empty more than you mean. Your hiding costs them a friend tonight, and the door opens from your side."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Connects dots",
+            "angles": {
+              "drive": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone.",
+              "cost_self": "The shipping fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
+              "cost_others": "Colleagues have learned that your reading list is a leading indicator of next quarter’s ideas, and that none of it will look relevant at the time. Mushrooms, medieval trade, birdsong. Six months later one of them is a strategy. Nobody can predict which."
+            }
+          },
+          {
+            "word": "Perceptive",
+            "angles": {
+              "drive": "You notice the understory, the layer below what people say. The pause before the yes, the meeting scheduled suspiciously early, the plant someone stopped watering. Your reads arrive quietly and early, and they are right often enough to be slightly unsettling.",
+              "cost_self": "You read a table in the time it takes to sit down. A changed tone, a pause a beat too long, a chair pulled slightly away, and you know something has shifted, usually before anyone says so.",
+              "cost_others": "Friends run their situations past you the way farmers check soil, quietly and before committing. You rarely volunteer what you see, which people mistake for not seeing. The few who ask directly get answers that reorganize their month, and they learn to ask again."
+            }
+          },
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Diplomas confuse people about you. The knowledge is real and the paper does not exist.",
+              "cost_self": "You learned the trade from a decade-old forum thread, two library books, and four hundred evenings of trying, and the certified people at work now quietly ask you the hard questions. Someone asked where you studied. The honest answer, nowhere, ended the conversation strangely.",
+              "cost_others": "People cannot place your education, and it bothers the ones with framed diplomas. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Tangled",
+            "angles": {
+              "drive": "Your thoughts grow into each other until no single thread pulls free. The simple question triggers the whole system: history, caveats, three related concerns, and an hour later the original question is still standing there, unanswered, holding its coat.",
+              "cost_self": "Asked whether you wanted the Thursday or Friday slot, you produced a consideration of both, touching childcare, traffic patterns, an article about decision fatigue, and your mother. The organizer waited, then assigned Thursday. You are still not sure Thursday was right.",
+              "cost_others": "People simplify their questions before bringing them to you, stripping out anything your mind might climb. It half works. What they get back is still a thicket, thorough beyond use, and they thank you and go make the decision with a coin."
+            }
+          },
+          {
+            "word": "Secretive",
+            "angles": {
+              "drive": "Information flows into you and does not flow out. Your projects, your feelings, your Tuesday afternoons: all filed under later. Nobody is deceived, exactly. They are just standing outside a hedge that grew so gradually no one remembers planting it.",
+              "cost_self": "Your closest friend learned about the job interview after you got the job, the apartment after you signed, and the surgery after the stitches came out. Each time they asked why. Each time the honest answer was that telling never occurred to you.",
+              "cost_others": "The people who love you assemble you from fragments, comparing notes like researchers with a rare species. Someone knows about the writing, someone else about the debt, nobody about both. Your privacy is total, and from their side it looks a lot like distance."
+            }
+          },
+          {
+            "word": "Reclusive",
+            "angles": {
+              "drive": "Given a free evening, you choose the den, every time, and the evenings are increasingly free because people stopped asking. Solitude feeds your mind and quietly starves the rest. The difference between retreat and disappearance is a return date, and yours keeps sliding.",
+              "cost_self": "The last three invitations got the same reply, drafted with real intention: next time. There was a fourth invitation. There was not a fifth. The group photo from the trip you skipped hangs in another house, complete without you, and nobody meant anything by it.",
+              "cost_others": "Friends now describe you in past-adjacent tense, fondly, the way people describe a lighthouse keeper. Brilliant, out there somewhere, presumably fine. Re-entry gets harder each season you stay in the trees, and the seasons have started agreeing with each other."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Connects dots",
+        "Perceptive",
+        "Self-taught"
+      ],
+      "friction": [
+        "Tangled",
+        "Secretive",
+        "Reclusive"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}
