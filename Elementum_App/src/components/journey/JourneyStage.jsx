@@ -814,7 +814,40 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         the catalyst pole (owner: "Same box, own glyph") the
                         box wears the page's own element, no title line, not
                         tappable. */}
-                    {elScreen.fnReading.advise && (() => {
+                    {/* THE EDGE (owner 2026-10-15): on the catalyst pole the
+                        last section is three talents, each with the bar it
+                        draws on rendered as five dots from the chart, three
+                        places across the life domains (the teaser for the
+                        Domains tier) and one action. The friction page keeps
+                        THE REMEDY. Renders only where the cell carries an edge. */}
+                    {(() => {
+                      const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
+                      const edge = !friction ? elScreen.fnReading.edge : null; if (!edge) return null;
+                      const bars = elScreen.fnReading.metrics?.bars || []; const DOM = { career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
+                      return (
+                        <>
+                          <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>
+                          <span className="serifline el-teasetitle">What this makes you good at.</span>
+                          <ul className="el-edge-list">
+                            {edge.talents.map((t) => { const b = bars.find((x) => x.key === t.metric); return (
+                              <li key={t.label} className="el-edge-talent">
+                                <span className="el-edge-ic" aria-hidden="true"><Use id="ico-spark" /></span>
+                                <span className="el-edge-body"><span className="el-edge-head"><b className="el-edge-label">{t.label}</b>{b && <span className="el-edge-dots" aria-label={`${b.label}: level ${b.level} of 5`}>{[1, 2, 3, 4, 5].map((i) => <i key={i} className={i <= b.level ? 'on' : ''} />)}<span className="el-edge-bar">{b.label}</span></span>}</span><span className="el-edge-line">{t.line}</span></span>
+                              </li>); })}
+                          </ul>
+                          <span className="el-edge-sub">Where it pays</span>
+                          <ul className="el-edge-list">
+                            {edge.places.map((p) => (
+                              <li key={p.domain} className="el-edge-place">
+                                <span className="el-edge-ic dom" aria-hidden="true"><Use id={DOM[p.domain] || 'dom-career'} /></span>
+                                <span className="el-edge-body"><span className="el-edge-dom">{p.domain}</span><span className="el-edge-line">{p.line}</span></span>
+                              </li>))}
+                          </ul>
+                          {edge.action && <p className="body2 el-edge-action"><span className="el-edge-ic act" aria-hidden="true"><Use id="ico-arrow-r" /></span>{edge.action}</p>}
+                        </>
+                      );
+                    })()}
+                    {elScreen.fnReading.advise && !(elScreen.fnReading.edge && !(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess)) && (() => {
                       const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
                       const rem = friction ? elScreen.fnReading.remedy : null;
                       const boxEl = rem?.el || elScreen.el;

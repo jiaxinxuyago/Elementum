@@ -765,3 +765,23 @@
 .jny .el-remedygo svg{ width: 18px; height: 18px; }
 .jny .el-remedybody{ display: block; margin: 0; }
 
+/* ── THE EDGE (owner 2026-10-15): the catalyst page's last section, three
+   talents with the bar's dots, three places with the domain marks, one action. ── */
+.jny .el-edge-list{ list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.jny .el-edge-talent, .jny .el-edge-place{ display: flex; align-items: flex-start; gap: 10px; }
+.jny .el-edge-ic{ width: 26px; height: 26px; flex: 0 0 26px; border-radius: 50%; display: grid; place-items: center; background: rgba(76,122,79,0.12); color: var(--up); margin-top: 1px; }
+.jny .el-edge-ic svg{ width: 15px; height: 15px; }
+.jny .el-edge-ic.dom{ background: rgba(139,115,85,0.12); color: var(--bronzeDark); }
+.jny .el-edge-ic.act{ background: rgba(20,16,10,0.06); color: var(--ink); display: inline-grid; vertical-align: -7px; margin: 0 8px 0 0; }
+.jny .el-edge-body{ display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1 1 auto; }
+.jny .el-edge-head{ display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.jny .el-edge-label{ font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 16px; color: var(--inkDeep, #2b2722); }
+.jny .el-edge-dots{ display: inline-flex; align-items: center; gap: 3px; }
+.jny .el-edge-dots i{ width: 7px; height: 7px; border-radius: 50%; background: rgba(20,16,10,0.1); display: inline-block; }
+.jny .el-edge-dots i.on{ background: var(--bronze); }
+.jny .el-edge-bar{ font-size: 9.5px; letter-spacing: 0.6px; text-transform: uppercase; color: var(--inkLight); margin-left: 4px; }
+.jny .el-edge-line{ font-size: 14px; line-height: 1.45; color: var(--ink); }
+.jny .el-edge-sub{ display: block; margin: 14px 0 0; font-size: 9px; letter-spacing: 1.8px; text-transform: uppercase; color: var(--bronzeDark); }
+.jny .el-edge-dom{ font-size: 9.5px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--inkLight); }
+.jny .el-edge-action{ margin: 14px 0 0; padding: 10px 12px; border-radius: 10px; background: rgba(76,122,79,0.09); }
+

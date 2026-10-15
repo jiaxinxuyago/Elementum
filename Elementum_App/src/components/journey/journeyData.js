@@ -544,7 +544,7 @@ export function buildElementScreen(model, el) {
         // THE CHARACTER's title line (owner 2026-10-14, Q2 of the eyebrow
         // rulings: pole-specific): the state the chart gives this energy,
         // in the register's own words for it.
-        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '', remedy: pole === 'friction' ? remedyOf(fn[`advise_${pole}`] || '') : null } : null,
+        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '', remedy: pole === 'friction' ? remedyOf(fn[`advise_${pole}`] || '') : null, edge: pole === 'catalyst' ? edgeOf(r) : null } : null,
       };
     })()),
     // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —
@@ -639,6 +639,20 @@ export function remedyOf(advise) {
   const m = /^(Seek (Metal|Earth|Wood|Water|Fire), [^.]*\.)\s*/.exec(advise || '');
   if (!m) return null;
   return { el: EL_KEY[m[2]], name: m[2], beat: m[1], rest: advise.slice(m[0].length) };
+}
+
+// THE EDGE (owner 2026-10-15, three calls): on the catalyst pole the page's last
+// section is three talents (each tied to a bar), three places across the life
+// domains and one action, authored per ELEMENT_GOD cell (`edge` in k2.js once
+// adopted). The lead god's cell speaks. Before adoption a dev preview hook
+// (`window.__edgePreview[cell]`) lets the owner read a candidate set in the app.
+export function edgeOf(r) {
+  const god = r.god || r.faces?.[0]?.god; if (!god) return null;
+  const cell = `${r.hz}_${god}`;
+  const preview = (typeof window !== 'undefined' && window.__edgePreview) ? window.__edgePreview[cell] : null;
+  const e = K2_CELLS[cell]?.edge || preview || null;
+  if (!e || !Array.isArray(e.talents) || !Array.isArray(e.places)) return null;
+  return { cell, talents: e.talents, places: e.places, action: e.action || '' };
 }
 
 // THE CHARACTER's title line (owner 2026-10-14, the function page's eyebrows,
