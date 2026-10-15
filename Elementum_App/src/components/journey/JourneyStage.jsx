@@ -836,13 +836,12 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                             {edge.items ? (
                               <>
                                 {edge.lead && <span className="body2 el-fnbody el-remedybody">{edge.lead}</span>}
-                                <ul className="el-edge-manual">
+                                <ul className="el-edge-manual" aria-label="Where it pays">
                                   {edge.items.map((it) => (
                                     <li key={it.domain}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span></li>
                                   ))}
+                                  {edge.action && <li className="act"><span className="el-edge-footic" aria-hidden="true"><Use id="ico-arrow-r" /></span><span className="el-edge-dom">do</span><span className="el-edge-manline">{edge.action}</span></li>}
                                 </ul>
-                                {edge.action && <span className="body2 el-fnbody el-remedybody el-edge-act">{edge.action}</span>}
-                                {b && <span className="el-edge-foot"><span className="el-edge-footitem"><span className="el-edge-bar">{b.label}</span></span></span>}
                               </>
                             ) : (
                               <>

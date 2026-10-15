@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "金_正财",
+  "$generated_by": "fable-v075-fire-b",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Finishes things",
+        "Saves first",
+        "Keeps your word"
+      ],
+      "friction": [
+        "Holds on tight",
+        "Plays it safe",
+        "Avoids change"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Finishes things",
+            "angles": {
+              "drive": "You finish what you start, every time. You find half done worse than not started, and you finish rather than leave a thing nearly there. You pay for every finish in an evening given to a task that could have waited."
+            }
+          },
+          {
+            "word": "Saves first",
+            "angles": {
+              "drive": "You save first and ask what for later. You count safety in saved money, and you would rather count it than enjoy it. Save first, as you always will, and let the second sum be for the life you are saving for."
+            }
+          },
+          {
+            "word": "Keeps your word",
+            "angles": {
+              "drive": "You keep your word even when no one would notice. You keep yourself steady by being someone whose word holds, and you keep a promise ahead of your own comfort. You spend your own comfort on each kept word and never get it refunded."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Holds on tight",
+            "angles": {
+              "drive": "You hold on tight to whatever you have already got. You know what you hold cannot run out, so you hold rather than spend and call it being careful. Know that you hold on too tight for anything you own to get used."
+            }
+          },
+          {
+            "word": "Plays it safe",
+            "angles": {
+              "drive": "You play it safe before you know what the game is. You count safety before anything else, and you put the sure thing ahead of the better thing every time. You play it safe in a life that was never safe to begin with."
+            }
+          },
+          {
+            "word": "Avoids change",
+            "angles": {
+              "drive": "You avoid change the way others avoid loss. You would have to count everything again after a change, and you keep the old sum rather than make a new one. You go on avoiding change until it arrives uninvited, and you already know it will."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Thorough",
+            "angles": {
+              "drive": "Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done."
+            }
+          },
+          {
+            "word": "Trustworthy",
+            "angles": {
+              "drive": "Your reliability is collateral-grade. People secure real decisions against your word: the deposit sent on your say-so, the key left under your mat, the password shared without ceremony. Trust accumulates around you the way interest accumulates, quietly, on never-broken terms."
+            }
+          },
+          {
+            "word": "Slow and steady",
+            "angles": {
+              "drive": "Your wealth grows the way rust never sleeps, in your favor: small, constant, compounding additions that no single day notices. The percent saved, the skill deepened annually, the relationship maintained for decades: everything in your portfolio gains a little every quarter, forever."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "No-frills",
+            "angles": {
+              "drive": "Comfort gets audited out of your life on principle. The heating conservative, the furnishings functional, the pleasures budgeted to their nutritional minimum: discipline built the estate, and somewhere it kept building past the point of purpose, into corners nobody warms."
+            }
+          },
+          {
+            "word": "Greedy",
+            "angles": {
+              "drive": "What comes near your hands tends to stay in them. The negotiation pushed past won into extractive, the split adjusted a few percent your way, the free thing taken because free: each grasp is small, and the sum has a gravity that people feel and rarely name."
+            }
+          },
+          {
+            "word": "Won’t budge",
+            "angles": {
+              "drive": "Your positions are priced once and never repriced. The offer stands as made, the grudge as filed, the opinion as formed in the original year: movement reads to you as loss, so nothing moves, and the world negotiates around you the way rivers negotiate around bedrock."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Thorough",
+        "Trustworthy",
+        "Slow and steady"
+      ],
+      "friction": [
+        "No-frills",
+        "Greedy",
+        "Won’t budge"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

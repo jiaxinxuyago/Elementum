@@ -1,0 +1,135 @@
+{
+  "$archetype": "火_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "火_比肩",
+  "$generated_by": "fable-v075-fire-b",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Self-starting",
+        "Side by side",
+        "Bounces back"
+      ],
+      "friction": [
+        "Goes it alone",
+        "Won't be told",
+        "Walls people out"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-starting",
+            "angles": {
+              "drive": "Starting is the part you never need help with. Waiting for someone's push costs you more than the first step does, so you begin first and look for company second. Save one beginning for a friend, because what you start alone you mostly carry alone."
+            }
+          },
+          {
+            "word": "Side by side",
+            "angles": {
+              "drive": "You are at your best side by side, never above or under anyone. Standing level keeps your pride and your company, so you walk beside a peer rather than lead one. Let a peer lead you once, since side by side sends the credit elsewhere."
+            }
+          },
+          {
+            "word": "Bounces back",
+            "angles": {
+              "drive": "Nothing keeps you down for long, or is allowed to. You would rather get over a loss alone than be helped through it, so you bounce back before anyone notices. Let someone see you down, since you stand again long before you are fine."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Goes it alone",
+            "angles": {
+              "drive": "Going it alone is your first answer to everything. You would have to ask for help and wait on it, while your own hands are already free, so you use your hands every time. Remember that you were not built to be the only pair."
+            }
+          },
+          {
+            "word": "Won't be told",
+            "angles": {
+              "drive": "You would rather be wrong on your own terms than right on someone else's. You let no one tell you, because being told feels like handing over the one thing that is yours. Remember that you lose nothing by being told by a peer."
+            }
+          },
+          {
+            "word": "Walls people out",
+            "angles": {
+              "drive": "Your wall is up before anyone has knocked. Your own standard is the one you hold to, so you would rather stay unseen than be seen falling short of it. You built the wall for safety, remember, and it mostly keeps out company."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-lit",
+            "angles": {
+              "drive": "Your fire needs no external ignition. Motivation, celebration, recovery: all generated onboard, on your schedule, from your own fuel. Gray seasons that dim everyone else find your output unchanged, and people eventually ask where the switch is. There is no switch. There is just you, on."
+            }
+          },
+          {
+            "word": "Vivid",
+            "angles": {
+              "drive": "You are unmistakably yourself at all times, and it costs you nothing. The opinions, the laugh, the orange shirt: none of it adjusts to the audience, because none of it was built for an audience. People meet one version of you. There is only one."
+            }
+          },
+          {
+            "word": "Undimmed",
+            "angles": {
+              "drive": "Setbacks that lower other people’s flames leave your wattage stubbornly constant. The rejection, the rough year, the public stumble: each arrives expecting to find a dimmer switch and finds instead a person already back at brightness, slightly annoyed at the interruption."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Too proud",
+            "angles": {
+              "drive": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects."
+            }
+          },
+          {
+            "word": "Touchy",
+            "angles": {
+              "drive": "Being treated as less than an equal lights you up faster than any insult. The talked-over sentence, the credit handed elsewhere, the tone that files you under junior: your heat answers before your judgment gets a vote. The issue is never the thing. It is the standing."
+            }
+          },
+          {
+            "word": "Unapproachable",
+            "angles": {
+              "drive": "Your brightness reads as a closed door. The confidence, the speed, the shine: together they build a glare people squint at from a distance, assuming you need nothing and no one. Invitations to depth stopped arriving years ago. Everyone assumed someone else was providing it."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-lit",
+        "Vivid",
+        "Undimmed"
+      ],
+      "friction": [
+        "Too proud",
+        "Touchy",
+        "Unapproachable"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

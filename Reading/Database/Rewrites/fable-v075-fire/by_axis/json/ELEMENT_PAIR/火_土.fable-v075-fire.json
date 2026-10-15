@@ -1,0 +1,115 @@
+{
+  "$archetype": "火_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "火_土",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Earth is what the fire leaves behind. Wood burns down to ash and ash is already soil, so every blaze ends as ground that something else can stand on. The flame spends itself and the field keeps the gift, dark and warm and ready for seed. What began as light becomes a place, and the place outlasts the fire that made it.",
+      "catalyst_turn": "With too little Earth, the light has no ground to land on. What you make stays heat and never becomes something a person can hold. Finish one small thing and give it away.",
+      "friction_turn": "With too much Earth, the ground piles up and dims the fire. So much gets made that the light goes dull under its own harvest. Make nothing for a week and take something in."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The light has no ground to land on.",
+        "remedy": "Finish one small thing and give it away."
+      },
+      "friction": {
+        "clause": "The ground piles up and dims the fire.",
+        "remedy": "Make nothing for a week and take something in."
+      },
+      "wide": {
+        "clause": "You have plenty of Earth, the ground your fire was always meant to warm.",
+        "remedy": "Build on it. Finish something that outlasts the week."
+      },
+      "missing": {
+        "clause": "The fire finds nothing to warm into shape, so what you feel stays feeling.",
+        "remedy": "Take Earth on loan. Make one plain thing and hand it over."
+      },
+      "spared": {
+        "clause": "No Earth drawing on the fire, so the light keeps its warmth for itself.",
+        "remedy": "Leave it. Spend your warmth where it feeds you."
+      },
+      "thin": {
+        "clause": "Only a little Earth on the fire, enough to make something without dimming the light.",
+        "remedy": "Keep it small. One made thing at a time."
+      },
+      "excess": {
+        "clause": "So much Earth that the fire can hardly be seen, a light buried under what it made.",
+        "remedy": "Clear the ash. Make less and rest more."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks, and you give quietly rather than show what you can do. You pay in kindness not given and talent not shown.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, so you keep giving or keep proving instead of taking in. You run empty on comfort given and points already won.",
+      "advise_catalyst": "What you keep inside does not count as finished. Make one thing a week that someone else can hold. Say the opinion you have been sitting on to one person. Show a child or a friend something you know how to do. Write one line down before bed.",
+      "advise_friction": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for reading."
+    },
+    "cta_verdict": "You show what you feel by making something solid rather than saying it, and what you build tends to outlast the moment."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Fire gives birth to earth, the old texts say: what burns comes down at last as ash, and ash settles into soil. Nothing bright is lost entirely. The flame that danced for an evening feeds the field for a generation, warmth pressed down into ground that will hold seeds long after the light is gone.",
+      "catalyst_turn": "Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it.",
+      "friction_turn": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The fire leaves no ash: heat and light, nothing banked, nothing built from the burning.",
+        "remedy": "Teach it, write it, found it."
+      },
+      "friction": {
+        "clause": "Every spark gets pressed into a monument: output hardening faster than it can live.",
+        "remedy": "Not every flame must found something."
+      },
+      "wide": {
+        "clause": "Earth is already here in plenty, the hearth that keeps what you burn.",
+        "remedy": "Build one thing that will outlast the evening."
+      },
+      "missing": {
+        "clause": "No ash: heat and light, nothing built from the burning.",
+        "remedy": "Borrow ground: teach it, write it down."
+      },
+      "spared": {
+        "clause": "Earth runs absent, and the fire stays light: nothing pressed into a monument.",
+        "remedy": "Keep it light. Found only what you will tend."
+      },
+      "thin": {
+        "clause": "Earth runs thin and unwanted: a small hearth, easy to keep.",
+        "remedy": "Keep the hearth small."
+      },
+      "excess": {
+        "clause": "Too much earth dims the fire: every spark pressed into form, output hardening while the light thins.",
+        "remedy": "Let some fires just burn."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on.",
+      "definition_friction": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins.",
+      "advise_catalyst": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining.",
+      "advise_friction": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
+    },
+    "cta_verdict": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

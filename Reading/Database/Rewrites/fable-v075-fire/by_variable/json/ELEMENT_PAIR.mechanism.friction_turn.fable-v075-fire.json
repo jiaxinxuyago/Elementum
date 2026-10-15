@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.friction_turn",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "火_土",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Earth, the ground piles up and dims the fire. So much gets made that the light goes dull under its own harvest. Make nothing for a week and take something in.",
+      "original": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_木",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Wood, the logs are stacked higher than the flame can climb, so much to take in that nothing gets lit. Finish one small thing before you read another word.",
+      "original": "Run heavy, the fire outgrows its hearth: every branch thrown on at once, heat spent in a rush, ash by morning. Burn one pile at a time.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_水",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Water, the rain keeps falling on a small flame: every rule weighs more than it should, and the light shrinks to stay lit. Keep one evening a week with nothing due.",
+      "original": "Run heavy, the rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_火",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Fire, the blaze outgrows its hearth and every light nearby reads as a rival for the same air. Warmth meant for company turns to glare. Finish one thing before lighting the next.",
+      "original": "Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_金",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Metal, the ore crowds the forge: more iron than the fire can soften, and the flame goes dim under the load. Set most of it aside and feed the fire first.",
+      "original": "Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire.",
+      "gate": "pass"
+    }
+  ]
+}

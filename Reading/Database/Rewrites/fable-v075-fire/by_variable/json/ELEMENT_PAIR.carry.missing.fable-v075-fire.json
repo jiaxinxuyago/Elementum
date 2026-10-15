@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.missing",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "火_土",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "The fire finds nothing to warm into shape, so what you feel stays feeling.",
+        "remedy": "Take Earth on loan. Make one plain thing and hand it over."
+      },
+      "original": {
+        "clause": "No ash: heat and light, nothing built from the burning.",
+        "remedy": "Borrow ground: teach it, write it down."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_木",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "Nothing dry to put on the fire, so it lives on quick scraps and goes out early.",
+        "remedy": "Ask someone older for the long version once a week."
+      },
+      "original": {
+        "clause": "No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow.",
+        "remedy": "Borrow wood: learn, gather, store."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_水",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No rain anywhere near the blaze: nothing outside you says when enough is enough.",
+        "remedy": "Borrow rules: one person above you, one date you did not pick."
+      },
+      "original": {
+        "clause": "Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on.",
+        "remedy": "Borrow water: one cold reviewer."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "火_金",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No Metal in reach of the fire: light burning on the air, nothing hard to shape or keep.",
+        "remedy": "Borrow iron: one order to fill, one thing handed over finished."
+      },
+      "original": {
+        "clause": "The forge stands empty: heat with nothing hard to work.",
+        "remedy": "Borrow metal: one difficult, valuable thing."
+      },
+      "gate": "pass"
+    }
+  ]
+}

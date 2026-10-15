@@ -1,0 +1,165 @@
+{
+  "$archetype": "水_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "水_七杀",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Clear-headed in crisis",
+        "Picks the moment",
+        "Leads without shouting"
+      ],
+      "friction": [
+        "Goes cold",
+        "Hard on yourself",
+        "Never lets up"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clear-headed in crisis",
+            "angles": {
+              "drive": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. If you bring that clear head into a calm week, you keep it for the next crisis.",
+              "cost_self": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. You pay for every skipped quiet week in sleep, and rest counts as much as a crisis.",
+              "cost_others": "In a crisis you take the clear head and every decision. Deciding fast feels safer than watching anyone decide slowly, so you carry the whole crisis rather than share it. Hand one piece over, because a crisis is learned by holding part of it."
+            }
+          },
+          {
+            "word": "Picks the moment",
+            "angles": {
+              "drive": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Each time an open door counts as a moment, you stop needing the right time to announce itself.",
+              "cost_self": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be undone. You watch the chance you held back go to someone faster, and the good-enough moment was yours.",
+              "cost_others": "The moment is yours alone to pick. You would rather keep the plan until the moment than explain it, and you leave the people you lead without a signal. You give up less by naming the moment early than your silence costs the people waiting."
+            }
+          },
+          {
+            "word": "Leads without shouting",
+            "angles": {
+              "drive": "You lead without shouting, often without anyone noticing. You would sooner be right than be obeyed, and you lead by arranging the outcome rather than asking. Whenever you say the plan aloud, your quiet leading reaches past the people already listening.",
+              "cost_self": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. If you claim one of them, leading that leaves a trace starts earning you the rank.",
+              "cost_others": "Arranging beats asking whenever you lead. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. You took their answer by never asking, and leading with one question costs you less than that."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Goes cold",
+            "angles": {
+              "drive": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in. Remember that you stay in the cold as long as anyone you put there.",
+              "cost_self": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and it is worth remembering what that costs in closeness.",
+              "cost_others": "Whenever someone crosses you, you go cold on them first. You turn cold rather than show an anger that can be answered, and you take away their only way to fix it. Keep in mind that going cold leaves them a problem with no name."
+            }
+          },
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. Bear in mind that being this hard is your choice and yours to lower.",
+              "cost_self": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest never taken, because nothing you make gets to count.",
+              "cost_others": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You land the hardness on them too, and it was not theirs to carry."
+            }
+          },
+          {
+            "word": "Never lets up",
+            "angles": {
+              "drive": "You never let up, on anything or anyone. Since letting up feels like losing, you keep the pressure on rather than call the job done. You cannot feel finished until you let up on the thing you finished, and that is worth keeping in mind.",
+              "cost_self": "Never letting up is how you prove you belong. Because rest reads as falling behind, you would rather stay under pressure than put it down for a night. You settle the cost of never letting up in sleep, and the body sends the bill.",
+              "cost_others": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up costs them the evenings you gave up, and only you chose it."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cool-headed",
+            "angles": {
+              "drive": "Your temperature drops as situations heat up, which is backwards from most people and priceless in a crisis. The angrier the meeting, the clearer your sentences get. Decisions made in your coolness hold up later, when everyone rereads what the heat almost signed.",
+              "cost_self": "Both founders were shouting by the time you spoke, and your first sentence was a number. Your second was a date. The shouting had nowhere to attach itself to numbers, and the meeting ended with a plan bearing your fingerprints and their signatures.",
+              "cost_others": "Opponents find your calm the most alarming thing in the fight. While they heat up, you cool down, and every degree they rise hands you another advantage. Beating you requires making you blink first. The people who have tried compare notes afterward, uselessly."
+            }
+          },
+          {
+            "word": "Unblinking",
+            "angles": {
+              "drive": "You look directly at what others manage around. The bad diagnosis, the failing numbers, the conversation everyone keeps rescheduling: your gaze goes straight in, takes the true measure, and does not flinch on contact. Reality respects you for it and returns the favor with early warnings.",
+              "cost_self": "When the project was dying, you were the one who said dying, out loud, in week two instead of month four. The word landed like cold water. It also saved the quarter, because everything that followed was built on the actual situation instead of the brochure.",
+              "cost_others": "People borrow your eyes for their hardest looks: the contract they are afraid to reread, the feedback they suspect is true, the mole on the shoulder. You never soften the report and never sharpen it either. Afterward they know, which was the entire point."
+            }
+          },
+          {
+            "word": "Deep-striking",
+            "angles": {
+              "drive": "When you move, it lands where it matters, at depth. No warning shots, no surface noise: you wait, read the current, and place one action where the whole structure turns. People rarely see your strike. They see everything afterward arranging itself differently.",
+              "cost_self": "You said nothing in three consecutive negotiations, then made one call to one person on a Thursday, and the entire deal reorganized around it by Monday. Colleagues spent the week reconstructing what happened. What happened was patience with coordinates.",
+              "cost_others": "Rivals underestimate you at intake because you make no ripples, and revise their opinion exactly once. The revision is permanent. Around your industry there is a small collection of stories that all end the same way: nobody saw it coming, and it only needed to come once."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chilling",
+            "angles": {
+              "drive": "Your displeasure arrives as temperature. There is never a scene: the warmth simply leaves the water, and everyone in it notices at once. People can handle anger. The cold is harder, because there is nothing to answer and nowhere to warm up.",
+              "cost_self": "You said nothing wrong at dinner. You said almost nothing at all, and the table spent two hours in a careful climate, passing dishes with light hands. Your partner asked afterward what happened. Nothing happened, you said, at a temperature that confirmed everything.",
+              "cost_others": "People describe crossing you with weather words: frost, freeze, ice age. The thaw comes eventually, unannounced, and everyone pretends the winter did not happen. But they dress for it now, permanently, and some conversations never come back indoors."
+            }
+          },
+          {
+            "word": "Relentless",
+            "angles": {
+              "drive": "Once you commit to pressure, it does not stop. The follow-up, the reminder, the revisited grievance: your current keeps flowing against the same rock long after the point was made, and past where the point began eroding the ground it stood on.",
+              "cost_self": "The dispute with the contractor was won in March, with a refund and an apology. You were still composing documentation in June. The folder is spotless and the war is over, and only one side has noticed the second fact.",
+              "cost_others": "People settle with you early because they have seen what the long version costs. Your persistence wins real victories, and it has also outlived several relationships that surrendered years before you stopped. The current cannot tell the difference between resistance and rubble."
+            }
+          },
+          {
+            "word": "Suffocating",
+            "angles": {
+              "drive": "Your force pulls downward quietly. Deadlines, standards, and consequences settle over people like water over a diver, heavier with every meter, and nobody can point to the moment breathing got hard. You never raise your voice. The pressure does the talking, at depth.",
+              "cost_self": "The new hire was excellent for three months, then quieter, then gone, and the exit interview mentioned an atmosphere no single incident could explain. You reread it twice, genuinely puzzled. Each individual expectation had been reasonable. Together they were an ocean on someone’s chest.",
+              "cost_others": "Teams under you produce and pale at the same time, and the best people leave while thanking you sincerely. From your seat it looks like standards working. From theirs it was the slow discovery of how deep the water had gotten while they were busy swimming."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Cool-headed",
+        "Unblinking",
+        "Deep-striking"
+      ],
+      "friction": [
+        "Chilling",
+        "Relentless",
+        "Suffocating"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

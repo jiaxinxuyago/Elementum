@@ -1,4 +1,4 @@
-# Batch 3 examples · the Fire core · fable-v075-fire
+# Batch 2 examples · the Wood core · fable-v075-fire
 
 ## 火_比肩 · friction · row 1 · chip "Goes it alone" (was "Too proud")
 
@@ -10,7 +10,7 @@
 **cost to you**
 
 - original (47w): The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust.
-- fable-v075-fire (45w): Going it alone means the whole load sits on one back, yours. You put in the extra hours rather than accept the hand, because being helped feels like being less. You pay for every hand not taken in rest, and your body keeps the account.
+- fable-v075-fire (45w): Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. You pay for every hand not taken out of your own rest, and your body remembers.
 
 **cost to others**
 
@@ -27,7 +27,7 @@
 **cost to you**
 
 - original (44w): You hugged the departing intern on their last day and they cried, then laughed, then took the container of food you had somehow prepared. It was a Tuesday. Nobody else had planned anything. Your goodbyes just come catered, and people remember them for years.
-- fable-v075-fire (45w): Where you feel most yourself is giving before the asking. Because the gift comes ahead of the need, you never learn whether you were wanted or only useful. You pay in a closeness you never get to test until you let the asking come first.
+- fable-v075-fire (43w): Before the asking, you have usually already given. Because the gift comes ahead of the need, you never learn whether you were wanted or only useful. You pay in a closeness you never get to test until you let the asking come first.
 
 **cost to others**
 
@@ -39,12 +39,12 @@
 **drive**
 
 - original (43w): Your temperature drops as situations heat up, which is backwards from most people and priceless in a crisis. The angrier the meeting, the clearer your sentences get. Decisions made in your coolness hold up later, when everyone rereads what the heat almost signed.
-- fable-v075-fire (41w): You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. Bring that clear head into the calm weeks, since calm is where you lose it.
+- fable-v075-fire (43w): You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. If you bring that clear head into a calm week, you keep it for the next crisis.
 
 **cost to you**
 
 - original (43w): Both founders were shouting by the time you spoke, and your first sentence was a number. Your second was a date. The shouting had nowhere to attach itself to numbers, and the meeting ended with a plan bearing your fingerprints and their signatures.
-- fable-v075-fire (44w): Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. Take the quiet as rest, for the sleep you lose before each crisis is the price.
+- fable-v075-fire (45w): Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. You pay for every skipped quiet week in sleep, and rest counts as much as a crisis.
 
 **cost to others**
 
@@ -56,7 +56,7 @@
 **definition, friction**
 
 - original (35w): Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.
-- fable-v075-fire (49w): Your Action is what you go and build, claim and provide. Under Metal it stays exact, and nothing you claim counts until it is finished. As a friction, you take on past your strength, and you start a new venture rather than keep the money and love already yours.
+- fable-v075-fire (48w): Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, you take on past your strength, and you start a new venture rather than keep the money and love already yours.
 
 **definition, catalyst**
 

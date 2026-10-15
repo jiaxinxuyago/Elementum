@@ -62,6 +62,7 @@
  "blocking": [],
  "readFlags": [
   "function.definition_catalyst :: a word used twice (rest; B11, a note: vary it unless the repeat carries the logic)",
+  "function.definition_friction :: outside the zone (not blocking): spills",
   "function.advise_catalyst :: outside the zone (not blocking): crutch",
   "function.advise_friction :: outside the zone (not blocking): unstoppable"
  ],

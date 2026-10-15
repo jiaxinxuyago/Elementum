@@ -1,0 +1,19 @@
+{
+  "$archetype": "火_木",
+  "axis": "ELEMENT_PAIR",
+  "key": "火_木",
+  "$generated_by": "fable-v075-fire-b",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "You would rather let a new idea join what you know than take it on faith, and that leaves you slow to be convinced and slower to let go."
+  },
+  "$original": {
+    "cta_verdict": "Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  }
+}

@@ -793,11 +793,24 @@
 .jny .el-edge-footic{ width: 14px; height: 14px; color: var(--pigDeep, var(--bronzeDark)); opacity: .85; }
 .jny .el-edge-footic svg{ width: 14px; height: 14px; }
 .jny .el-edgebox .el-edge-bar{ margin-left: 0; }
-/* THE EDGE v3 (owner 2026-10-15): the manual bulleted by discipline inside the
-   remedy-sized box: a lead line, one row per domain with its mark, one action. */
-.jny .el-edge-manual{ list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
-.jny .el-edge-manual li{ display: grid; grid-template-columns: 14px auto 1fr; align-items: baseline; column-gap: 7px; font-size: 14px; line-height: 1.45; color: var(--ink); }
-.jny .el-edge-manual .el-edge-footic{ align-self: center; }
+
+/* THE EDGE v3 (owner 2026-10-15, the clean-up): the manual bulleted by
+   discipline inside the remedy-sized box. Each row runs in: the domain mark
+   and its label open the line and the text follows at full width, so the box
+   stays the remedy's height. The action is the last row, marked with the
+   arrow. No foot row; the bar's dots sit in the head beside the title. */
+.jny .el-edge-manual{ list-style: none; margin: 7px 0 0; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+.jny .el-edge-manual li{ font-size: 14px; line-height: 1.45; color: var(--ink); min-width: 0; }
+.jny .el-edge-manual .el-edge-footic{ display: inline-block; width: 13px; height: 13px; vertical-align: -2px; margin-right: 5px; color: var(--pigDeep, var(--bronzeDark)); opacity: .9; }
+.jny .el-edge-manual .el-edge-footic svg{ width: 13px; height: 13px; }
+.jny .el-edge-manual .el-edge-dom{ font-size: 9.5px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--pigDeep, var(--bronzeDark)); margin-right: 7px; }
 .jny .el-edge-manline{ min-width: 0; }
-.jny .el-edge-act{ margin-top: 9px; }
+.jny .el-edge-manual li.act{ margin-top: 3px; color: var(--inkDeep, #2b2722); }
+.jny .el-edge-manual li.act .el-edge-footic{ color: var(--ink); }
+.jny .el-edgebox .el-remedytitle{ font-size: 15.5px; }
+.jny .el-edgebox .el-edge-dots.head i{ width: 6px; height: 6px; }
+.jny .el-edgebox .el-edge-dots.head{ gap: 2px; }
+.jny .el-edgebox .el-remedyhead{ flex-wrap: nowrap; }
+.jny .el-edgebox .el-remedytitle{ font-size: 15px; letter-spacing: -0.1px; }
+.jny .el-edgebox .el-edge-dots.head i{ width: 5px; height: 5px; }
 

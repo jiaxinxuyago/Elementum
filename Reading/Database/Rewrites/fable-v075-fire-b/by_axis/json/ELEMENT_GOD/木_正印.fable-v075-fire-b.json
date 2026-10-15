@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_正印",
+  "axis": "ELEMENT_GOD",
+  "key": "木_正印",
+  "$generated_by": "fable-v075-fire-b",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Passes it on",
+        "Takes people in",
+        "Gives it time"
+      ],
+      "friction": [
+        "Helps too soon",
+        "Holds too tight",
+        "Stays put"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Passes it on",
+            "angles": {
+              "drive": "You pass on what you know before you have finished using it. Because a lesson kept feels like a lesson wasted, you would rather teach it than sit on it. The price is your own advantage, and you have never minded the price."
+            }
+          },
+          {
+            "word": "Takes people in",
+            "angles": {
+              "drive": "Taking someone in comes naturally to you. Because a person under your roof feels like a reason to keep going, you say yes ahead of counting the cost. You pay for it in quiet evenings, and the house feels right to you that way."
+            }
+          },
+          {
+            "word": "Gives it time",
+            "angles": {
+              "drive": "You give the slow ones time ahead of advice. Because you trust that a person gets there at their own pace, you keep the push to yourself. You get your results long after your part is done, and that lateness is the price."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Helps too soon",
+            "angles": {
+              "drive": "Helping too soon is your reflex. Since a need unmet feels like a failure of yours, you fix the thing rather than wait for them to try. The help you give early is also the try you take away, and you know which one lasts."
+            }
+          },
+          {
+            "word": "Holds too tight",
+            "angles": {
+              "drive": "Holding on is what your care turns into once the growing ends. Because you grew them, letting go feels more like being left than like finishing, and you hold on after holding stops helping. Remember that you make the leaving certain by holding too tight."
+            }
+          },
+          {
+            "word": "Stays put",
+            "angles": {
+              "drive": "Staying put is your answer to most things that unsettle you. Because the known place asks nothing, you keep to it ahead of the one that would grow you. You trade the comfort for every version of yourself that never got to happen."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Nurturing",
+            "angles": {
+              "drive": "Growing people is your mind’s favorite work. You see the seed version of someone, water it with patience nobody else budgets, and stand back when it takes. Half your pride lives in other people’s accomplishments, planted years earlier, never invoiced."
+            }
+          },
+          {
+            "word": "Evergreen",
+            "angles": {
+              "drive": "Your mind keeps its leaves through every season. The curiosity other people lose to adulthood is intact in you, still learning, still asking, still green in the middle of professional winters. People with half your years age faster than you do, and notice."
+            }
+          },
+          {
+            "word": "Shade-giving",
+            "angles": {
+              "drive": "Your presence casts usable shade: people rest in it, think in it, recover in it. You hold opinions without weaponizing them and knowledge without billing for it. Being near you lowers the temperature of a problem by several degrees, which is why problems keep visiting."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Smothering",
+            "angles": {
+              "drive": "Your care comes in coverage so complete it blocks the light. The help arrives before the struggle finishes forming, the advice before the question. People you love grow pale under the protection, and their weakness then proves to you they needed it."
+            }
+          },
+          {
+            "word": "Clingy",
+            "angles": {
+              "drive": "Letting go is a season your mind refuses to enter. The grown child, the finished era, the friend who moved: you hold on with tendrils dressed as check-ins, traditions, and gentle guilt. The grip feels like love from inside. From outside it has a weight."
+            }
+          },
+          {
+            "word": "Dormant",
+            "angles": {
+              "drive": "Your own growth went to sleep somewhere while you tended everyone else’s. The plans wait like bulbs under a lawn you keep mowing for other people. You call it a phase, and phases end. This one has voted itself several extensions."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Nurturing",
+        "Evergreen",
+        "Shade-giving"
+      ],
+      "friction": [
+        "Smothering",
+        "Clingy",
+        "Dormant"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

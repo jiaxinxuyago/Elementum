@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "火_土",
+      "field": "function.advise_friction",
+      "candidate": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for reading.",
+      "original": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_木",
+      "field": "function.advise_friction",
+      "candidate": "Seek Metal, the Action energy. Metal is the finished line: it decides, it ships, it dates the thing you keep studying. Let it spend what Wood piles up. You keep learning past the point of use because being judged feels worse than being unready. Decide one open question by a written date. Hand someone one unfinished page.",
+      "original": "You start more than you finish. Finish the one project closest to done this month, as it is, and let it ship at eighty percent. Put every new course, book or plan on a list until that one is out. When the urge to start something rises, ask which unfinished thing it would replace.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_水",
+      "field": "function.advise_friction",
+      "candidate": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it hold what Water pours on you. You take every rule to heart faster than you take anything in. Learn one thing a week nobody asked you for. Give each new demand a night to sit.",
+      "original": "Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_火",
+      "field": "function.advise_friction",
+      "candidate": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first.",
+      "original": "Heat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle.",
+      "gate": "pass"
+    },
+    {
+      "cell": "火_金",
+      "field": "function.advise_friction",
+      "candidate": "Seek Fire, the Body energy. Fire is warmth kept in: fuel, rest, the light that keeps itself lit before it works on anything. Let it hold what Metal spends. You say yes to more than you can finish, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down.",
+      "original": "Finished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead.",
+      "gate": "pass"
+    }
+  ]
+}

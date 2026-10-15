@@ -1,0 +1,165 @@
+{
+  "$archetype": "火_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "火_劫财",
+  "$generated_by": "fable-v075-fire",
+  "$handoff": "2026-10-15 batch 3 fire core",
+  "$filed": "2026-10-15",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Rises to it",
+        "Catches ambition",
+        "Goes all in"
+      ],
+      "friction": [
+        "Hates to lose",
+        "Spends for show",
+        "Never off"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Rises to it",
+            "angles": {
+              "drive": "You rise to a dare before deciding if you want it. You wake in a contest like nowhere else, so you weigh the rival ahead of the stakes. Skip a race sometimes, because rising to everything means running some that were never yours.",
+              "cost_self": "Rising to a dare tells you that you are in the game. You would sooner take a test than take a break, so rest never comes first. Let a win be a rest, because you pay for every race in your own body.",
+              "cost_others": "You give a friend's dare your full speed before they take it back. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. Throw a round once, since what they lose with you is the fun."
+            }
+          },
+          {
+            "word": "Catches ambition",
+            "angles": {
+              "drive": "Other people's ambition is the kind you catch fastest. You catch a rival's goal faster than you find your own, so you run on borrowed wanting rather than wait. Keep one goal nobody handed you, since half of what you chase began as somebody else's.",
+              "cost_self": "Catching ambition is quicker than growing it, and you know it. You go after what a rival chases ahead of asking what you want yourself, because wanting alone feels thin. Ask yourself anyway, since the chance nobody else runs for is yours to lose.",
+              "cost_others": "You catch a friend's plan before they finish the sentence. Running their race feels better than cheering from the side, so you turn their goal into a shared one. Ask if they wanted a partner, because you take a finish meant to be theirs."
+            }
+          },
+          {
+            "word": "Goes all in",
+            "angles": {
+              "drive": "On a shared bet, you go all in before anyone asks. Holding back feels like not being there, so you put in your money ahead of reading the terms. Read the terms once, since all in makes you first to pay and last to know.",
+              "cost_self": "Being all in is how you show you mean it. You put money where your friends are ahead of where your sense is, because holding back feels worse than losing. Keep one stake back a year, since money never kept is the price of company.",
+              "cost_others": "Beside someone you like, you are all in unasked. You would sooner share the stake than check if they wanted one, so you double a bet that was theirs. Ask first, since you leave them a bet twice the size they chose."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hates to lose",
+            "angles": {
+              "drive": "You hate to lose more than you love to win, and the gap shows. You read a rival's win as your loss, since the Fire in you outlasts a single victory. You are keeping a score, remember, that nobody else agreed to play.",
+              "cost_self": "Hating to lose keeps you in every contest long after it stops paying. You would sooner stay in a losing race than be the first to step off, so you stay. Remember that you give up sleep for every race you refuse to leave.",
+              "cost_others": "Whenever a friend pulls ahead, you hate it before you are glad. You hear their good news as lost ground, so you answer it with news of your own instead of just listening. Remember that you take a little off every win of theirs."
+            }
+          },
+          {
+            "word": "Spends for show",
+            "angles": {
+              "drive": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You buy the evening, bear in mind, and only rent the goodwill.",
+              "cost_self": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen as generous beats being secure. Worth remembering, you lose money that never returns on a bill with only your name on it.",
+              "cost_others": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no way to be generous back, and you forget that costs them something."
+            }
+          },
+          {
+            "word": "Never off",
+            "angles": {
+              "drive": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. You are the one person timing this race, and you forget it most days.",
+              "cost_self": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. You repay every skipped rest later and at a higher price, bear that in mind.",
+              "cost_others": "Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you turn a walk into a pace. You deny them, remember, the version of you that is not competing."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spark-chasing",
+            "angles": {
+              "drive": "You run toward whatever is catching fire, and the running is the point. The contested deal, the live crisis, the dare with witnesses: your blood answers heat the way others answer comfort. In a world of careful people, you are the one already moving, already lit.",
+              "cost_self": "When the flagship store’s launch collapsed at noon, you drove there without being asked, arriving mid-panic with energy the situation had run out of. By close, the day was saved and slightly legendary. Your boss asked who sent you. Nobody had. The smoke had.",
+              "cost_others": "Teams keep you near the volatile accounts the way stations keep engines running. When something flares, you are moving before the call finishes, and colleagues have learned to just hand you the keys. The calm assignments bore you visibly. Nobody wastes you on them anymore."
+            }
+          },
+          {
+            "word": "Fearless",
+            "angles": {
+              "drive": "Your asks have no ceiling. The cold call to the CEO, the bid above your class, the public promise that forces the miracle: you say the enormous thing out loud, and enough of it lands to fund the reputation. Fortune does seem to favor you. You invoice it accordingly.",
+              "cost_self": "You pitched the biggest client in the region from the lobby, uninvited, with a deck finished that morning in the car. Security was called and, in the end, so was the account manager. The contract took eight months. The story reached your industry in eight days.",
+              "cost_others": "People preface their descriptions of you with you will not believe, and the stories hold up under checking. Some rivals call the boldness reckless from a safe distance. Your collaborators call it Tuesday, and have learned to draft the press release before you finish the sentence."
+            }
+          },
+          {
+            "word": "Electrifying",
+            "angles": {
+              "drive": "Your energy transfers on contact. The flat team meeting catches current when you enter, the tired project finds voltage, the gathering’s pulse syncs upward to yours. People leave your orbit doing things they had filed under someday. The battery, mysteriously, never bills anyone.",
+              "cost_self": "The fundraiser was dying at forty percent with a week left, and your two-day blitz of calls, stunts, and shameless enthusiasm dragged it to one-forty. Volunteers who had gone quiet came back loud. The organizer’s thank-you note said simply: you plugged us back in.",
+              "cost_others": "People describe meetings before and after your arrival as different weather. Managers deploy you into stalled teams the way medics deploy adrenaline, and the effect is roughly as fast. The crash that sometimes follows is also documented. Everyone considers it worth it, and schedules for it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hot-headed",
+            "angles": {
+              "drive": "The fuse is short, dry, and pre-lit. The wrong word, the cut-off in traffic, the tone in an email: ignition beats deliberation to the scene every time. Afterward you cool fast and repair sincerely. The people nearby, though, have all learned the smell of smoke.",
+              "cost_self": "The referee’s call was wrong, and your response, at a children’s game, entered neighborhood folklore within the hour. You apologized to everyone by sundown, sincerely, including the referee. Your daughter accepted the apology and, the following week, asked you to wait in the car.",
+              "cost_others": "People manage your temperature the way sound engineers manage feedback, adjusting topics before the squeal. Certain news gets delivered to you in public places, on purpose. You noticed the pattern once and got angry about it, which, everyone agreed silently, rather settled the question."
+            }
+          },
+          {
+            "word": "Resentful",
+            "angles": {
+              "drive": "Other people’s wins sit on your skin like sunburn. The peer’s promotion, the friend’s effortless luck, the rival’s applause: each one stings out of proportion, and the sting talks. It comes out as jokes with edges and praise with subtitles. Everyone reads the subtitles.",
+              "cost_self": "At the launch party for your friend’s startup, funded on the first try, your toast included the phrase must be nice twice, laughed off both times, remembered anyway. The friendship survived. Its temperature dropped four degrees that night and never fully came back to season.",
+              "cost_others": "Your congratulations arrive with a delay everyone has learned to expect, like sound after lightning. People soft-launch their successes around you, understating, apologizing for luck. They do it out of care, which would wound you worst of all, so it stays carefully unmentioned."
+            }
+          },
+          {
+            "word": "Explosive",
+            "angles": {
+              "drive": "Pressure in you does not vent. It stores, silently, behind a warm exterior, until the container fails all at once. The blowups arrive without visible warning, sized for the backlog rather than the trigger, and the cleanup involves people who never saw the gauge climbing.",
+              "cost_self": "The garage door sticking was the trigger, but the detonation covered March through August: the job, the loan, the unsaid things, all of it airborne in one four-minute burst. Your family stood very still. The door, notably, still sticks. Nobody mentions it now.",
+              "cost_others": "People close to you have become seismologists, reading your quiet for pressure signs and mostly getting it wrong, because the gauge is internal and you politely deny it exists. The denials are calm right up until they are not. Afterward everyone, including you, surveys the range."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Spark-chasing",
+        "Fearless",
+        "Electrifying"
+      ],
+      "friction": [
+        "Hot-headed",
+        "Resentful",
+        "Explosive"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}
