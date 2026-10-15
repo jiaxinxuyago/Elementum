@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Finishes things",
-    "text": "Finishing things is where you feel most like yourself. You carry an open task until it is closed, so you finish what you hold ahead of starting anything new. Finish as you do, and let one thing stay open long enough to grow."
+    "text": "Finishing things settles you more than starting them. You carry an open task until it is closed, so you finish what you hold ahead of starting anything new. Finish as you do, and let one thing stay open long enough to grow."
    },
    "value_b": {
     "word": "Finishes things",
-    "text": "You finish what you start, every time. You find half done worse than not started, and this is why you finish rather than leave a thing nearly there. You could finish fewer things and still be the one who finishes."
+    "text": "You finish what you start, every time. You find half done worse than not started, and you finish rather than leave a thing nearly there. You pay for every finish in an evening given to a task that could have waited."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Finishes things",
-    "text": "Proof that you are reliable comes from finishing things. You finish whatever is nearest rather than whatever matters most, since finished is the feeling you are after. Finish the thing that pays first, because you lose the rest you skipped finishing the small ones."
+    "text": "Proof that you are reliable comes from finishing things. You finish whatever is nearest rather than whatever matters most, since finished is the feeling you are after. You lose your rest to small finishes while the one that would pay waits."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Finishes things",
-    "text": "For other people, you finish things too. You finish the last steps of a shared plan rather than wait for your partner, since waiting feels like leaving it undone. You finish enough for two, and your partner loses only the chance to finish their part."
+    "text": "For other people, you finish things too. You finish the last steps of a shared plan rather than wait for your partner, since waiting feels like leaving it undone. You finish their half with yours and take from them the small pride of closing it."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "Your reflex with money is saving first. You feel a sum set aside cannot be lost, so you save rather than spend, and spend only what is left. Keep saving first, and let one small sum go out for a pleasure you never count."
+    "text": "Your reflex with money is saving first. You feel a sum set aside cannot be lost, so you save rather than spend, and spend only what is left. You save your way past small pleasures too, and one sum spent uncounted buys one back."
    },
    "value_b": {
     "word": "Saves first",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "Saving first keeps the fear of having nothing away. You put the saving ahead of what it was for, and you move the wanting to later. Spend one saved sum on its purpose, since you pay for saving first with a life kept for later."
+    "text": "Saving first keeps the fear of having nothing away. You put the saving ahead of what it was for, and you move the wanting to later. You pay for saving first with a life kept for later, and you cannot bank the years."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "For the people you love, saving first is also what you do. You save for a shared future rather than spend on a shared present, and call that love. You save enough for a household, and your partner misses only the evenings you saved through."
+    "text": "You save first for the people you love as much as for yourself. You save for a shared future rather than spend on a shared present, and call that love. You put the evenings you saved through into a future your partner never asked for."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Keeps your word",
-    "text": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept ahead of your way out. Keep your word as always, and ask once whether the other person still wants it kept."
+    "text": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept ahead of your way out. You keep your word honest by asking once whether it is still wanted."
    },
    "value_b": {
     "word": "Keeps your word",
-    "text": "You keep your word even when no one would notice if you did not. You keep yourself steady by being someone whose word holds, and you keep a promise ahead of your own comfort. You would lose nothing by keeping fewer promises just as well."
+    "text": "You keep your word even when no one would notice. You keep yourself steady by being someone whose word holds, and you keep a promise ahead of your own comfort. You spend your own comfort on each kept word and never get it refunded."
    }
   },
   "ledger[7]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Keeps your word",
-    "text": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Your word holds for two, and all your partner loses is the right to change their mind."
+    "text": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Your word, kept for both of you, costs your partner a wish they were never allowed to say."
    }
   }
  }

@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Takes people in",
-    "text": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. It costs you a home that is rarely only yours, and you keep the door open anyway."
+    "text": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. You go without a home that is only yours, and the trade feels fair to you."
    },
    "value_b": {
     "word": "Takes people in",
-    "text": "Taking someone in comes naturally to you. Because a person under your roof feels like a reason, you say yes to the stay ahead of counting the cost. Your own quiet is the price, and you have always paid it gladly."
+    "text": "Taking someone in comes naturally to you. Because a person under your roof feels like a reason to keep going, you say yes ahead of counting the cost. You pay for it in quiet evenings, and the house feels right to you that way."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Takes people in",
-    "text": "Taking people in makes a house a place that matters. You put someone's shelter ahead of your own quiet, so your sleep is the first thing to go. Let someone take you in for once, because the rest you give away never comes back."
+    "text": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. You hand over your rest a night at a time, and being taken in once would hand some back."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Takes people in",
-    "text": "For as long as they need, and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, and a month's stay runs to a year. Name a leaving day, because the people you take in need their own feet."
+    "text": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year. You keep them comfortable past where comfort helps, and the kindest stay ends."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Gives it time",
-    "text": "You give a person time rather than a push. Forced growth never holds in your experience, so you wait for someone to get there instead of pulling. Giving it time costs you the fast result, and the slow one is the one that lasts."
+    "text": "You give a person time rather than a push. A push feels like a way to spoil the growing, so you wait for someone to get there instead of pulling. You see the result last of everyone, and the waiting is the care itself."
    },
    "value_b": {
     "word": "Gives it time",
-    "text": "Patience is the part of your care people notice last. Because you trust that a person gets there at their own pace, you give it time ahead of giving advice. The price is seeing results last, and you can stand that."
+    "text": "You give the slow ones time ahead of advice. Because you trust that a person gets there at their own pace, you keep the push to yourself. You get your results long after your part is done, and that lateness is the price."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Gives it time",
-    "text": "Giving it time is how you respect someone's growth. Waiting for them to get there feels kinder than pulling them, so your own next step waits with theirs. Give yourself a date too, because time given away is also a chance let pass."
+    "text": "Giving it time is how you respect someone's growth. Waiting for them to get there feels kinder than pulling them, so your own next step stays parked with theirs. You give away the time your chance needed, and it closes while you wait on theirs."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Gives it time",
-    "text": "Whenever someone close to you is slow to grow, you give them time instead of a push. Patience feels kinder than pressure, and the nudge they needed waits inside it. Give the small push sometimes, because time alone moves fewer people than you hope."
+    "text": "When someone close to you grows slowly, you give them time instead of a push. Holding back feels more like respect than a nudge, so their nudge never comes. You hold back the push that would have moved them, and it is yours to give."
    }
   }
  }

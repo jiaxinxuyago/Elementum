@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Self-starting",
-    "text": "You start on your own, before anyone has agreed to join you. Needing nobody's go-ahead is what keeps you free, so you would rather start by yourself than wait for a yes. You start alone this often, and finishing alone becomes the habit."
+    "text": "You start on your own, before anyone has agreed to join you. Needing nobody's go-ahead keeps you free, so you would rather start by yourself than wait for a yes. Let one start wait for company, since starting alone is how you finish alone."
    },
    "value_b": {
     "word": "Self-starting",
-    "text": "Starting is the part you never need help with. Waiting for someone else's push costs you more than the first step does, so you begin first and look for company second. You are carrying most of what you started alone a month later."
+    "text": "Starting is the part you never need help with. Waiting for someone's push costs you more than the first step does, so you begin first and look for company second. Save one beginning for a friend, because what you start alone you mostly carry alone."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Self-starting",
-    "text": "Self-starting means you wait on no one and get carried by no one either. You start alone rather than ask, since asking feels like admitting the start was too big for you. You pay for the help you never take out of your own rest."
+    "text": "Self-starting means you never wait, and never get to be helped. You start alone rather than reach out, since reaching out feels like admitting the start was too big. Ask once before you begin, because the help you skip comes out of your rest."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Self-starting",
-    "text": "Whenever something needs starting, you have started it before a peer can offer. You put beginning ahead of being joined, so you hand the people beside you a thing already moving. You take from them only the chance to start it with you."
+    "text": "You give a peer your finished start, never your first. Starting without company keeps the idea yours, so you put your own go ahead of anyone's offer to join. Offer someone the rough start sometimes, since you take from them nothing bigger than the beginning."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Side by side",
-    "text": "Side by side is where you are at ease with another person. Standing level matters more than standing above, so you drop the lead as fast as you refuse to follow. You stay level and lose every chance that comes to whoever walks out front."
+    "text": "Side by side is where you are most at ease. Walking side by side matters more than walking out front, so you drop the lead as fast as you refuse to follow. Take the lead sometimes, since the chances out front never come to you."
    },
    "value_b": {
     "word": "Side by side",
-    "text": "You are at your best side by side with someone, never above or under them. Standing level keeps both your pride and your company, so you walk beside a peer rather than lead one. You let the lead go to someone else, and the credit."
+    "text": "You are at your best side by side, never above or under anyone. Standing level keeps your pride and your company, so you walk beside a peer rather than lead one. Let a peer lead you once, since side by side sends the credit elsewhere."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Side by side",
-    "text": "The only closeness you trust is side by side, so you let a friend near once they match you. You would rather keep your footing than be carried, even when carried is what you need. You miss the closeness that comes from leaning on someone."
+    "text": "You trust closeness only side by side, so you let a friend near after they match you. You would rather keep your footing than be held up, even when you need it. Be carried sometimes, since the nearness you skip only comes from leaning."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Side by side",
-    "text": "You keep every friendship side by side, nobody carried and nobody carrying. Not being helped matters to you as much as not being led, so you wave off a peer's hand. You leave them a small loss, the chance to be needed by you."
+    "text": "You keep every friendship side by side, nobody carried, nobody carrying. Being helped bothers you as much as being led, so you wave off the hand. Let a peer help for a change, since the chance to be needed is one you hold back."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Bounces back",
-    "text": "You bounce back faster than most people get over the surprise. Being seen down is the one thing you cannot stand, so you are back up ahead of being over it. You bounce back too fast for the hurt to ever finish with you."
+    "text": "You bounce back faster than most get over the surprise. You would far sooner be upright than seen down, so you stand again ahead of getting over it. Stay down a day longer sometimes, since bouncing this fast never lets the hurt finish."
    },
    "value_b": {
     "word": "Bounces back",
-    "text": "Nothing keeps you down for long, and nothing is allowed to. You would rather get over a loss alone than be helped through it, so you bounce back before anyone notices you fell. You are always standing again well ahead of being fine."
+    "text": "Nothing keeps you down for long, or is allowed to. You would rather get over a loss alone than be helped through it, so you bounce back before anyone notices. Let someone see you down, since you stand again long before you are fine."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Bounces back",
-    "text": "Bouncing back is what you are proudest of, and what costs you most. You get up rather than stay down long enough to be looked after, because needing care feels like losing twice. You lose the rest that only comes after admitting you are hurt."
+    "text": "Bouncing back is what you are proudest of and what costs most. You get up rather than stay down to be looked after, because needing help feels like losing twice. Accept the care once, since what you never let in is the price you pay."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Bounces back",
-    "text": "Whenever you fall, you have bounced back before a friend can reach you. Standing on your own again matters more than being helped up, so you leave your friends nothing to do. You keep from them even the small chance to be there for you."
+    "text": "Whenever you fall, you are back up before anyone can reach you. Standing on your own matters more than being helped up, so you leave people nothing to do. Give a friend one bad day, since being there is what you keep from them."
    }
   }
  }

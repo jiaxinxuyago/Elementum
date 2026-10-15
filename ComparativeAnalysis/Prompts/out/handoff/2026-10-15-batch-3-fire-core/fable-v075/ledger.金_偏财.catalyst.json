@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Spots the opening",
-    "text": "Before anyone else has looked up, you have spotted the opening. You stay awake on a far chance in view, and you spot the next one while you are claiming this one. You lose nothing by leaving one spotted opening untaken."
+    "text": "You spot the opening when it is only a gap. You wake more for a far chance than a near one, and you spot a newer opening while you are claiming this one. You pay in openings taken halfway, and one taken whole repays you."
    },
    "value_b": {
     "word": "Spots the opening",
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Spots the opening",
-    "text": "Whenever you spot an opening, you say so before knowing you want it. You spot out loud to share the excitement rather than plan. You spot far enough for two, and your partner loses only a week each time you point at something you skip."
+    "text": "Whenever you spot an opening, you tell the partner building this one with you. You spot the next one ahead of this one out loud, and your partner hears the plan move. You cost them a week of building toward somewhere you spotted and left."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Starts fast",
-    "text": "Fast starts are your natural speed. You feel most alive in the first week, and this is why you start the next venture rather than sit through this one. Keep starting fast and give one start a middle, since you only get paid by staying."
+    "text": "Fast starts are your natural speed. You feel most alive in the first week, and this is why you start the next venture rather than sit through this one. Staying through one middle is where your fast start turns into money."
    },
    "value_b": {
     "word": "Starts fast",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Starts fast",
-    "text": "Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. Give the next middle the speed of its start, since you never get paid by what you keep restarting."
+    "text": "Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. You never get paid by what you keep starting over, and the money waits at the end you skip."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Starts fast",
-    "text": "Starting fast means starting things for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You start early enough for both of you, and your partner misses only the chance to start it with you."
+    "text": "Starting fast means starting for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You hand them a venture already moving and leave them a month of catching up to a start they never made."
    }
   },
   "ledger[6]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Gives freely",
-    "text": "Giving freely is the first thing you do with what comes in. You feel money belongs to whoever needs it next, and you give it on rather than set it aside. Give as freely as you like and keep a share for yourself."
+    "text": "Giving freely is what you do first with what comes in. You feel money belongs to whoever needs it next, and you give it on rather than set it aside. You give best from a kept share, and the unkept share is the price."
    },
    "value_b": {
     "word": "Gives freely",
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Gives freely",
-    "text": "Keeping is harder for you than giving freely. You would rather give money on than sit with it, since holding still feels like being stuck. Give yourself a share first, because you end up with nothing saved for the year you need it."
+    "text": "Keeping is harder for you than giving freely. You would rather give money on than sit with it, since holding still feels like being stuck. You end up with nothing saved for the year you need it, because you never give to yourself."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Gives freely",
-    "text": "With the people around you, giving freely is how you stay close. You give often enough to be expected, and you give again rather than let that stand. You give enough for a family and leave the ones you love little chance to give back."
+    "text": "With the people around you, giving freely is how you stay close. You give to the newest friend more freely than to the oldest one, since newness is what moves you. You leave the ones at home with what is left after the giving."
    }
   }
  }

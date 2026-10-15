@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Hates to lose",
-    "text": "You hate to lose more than you love to win, and the gap shows. You read a rival's win as your loss, since the Fire in you outlasts a single victory. Keep in mind that you are keeping a score nobody else agreed to play."
+    "text": "You hate to lose more than you love to win, and the gap shows. You read a rival's win as your loss, since the Fire in you outlasts a single victory. You are keeping a score, remember, that nobody else agreed to play."
    },
    "value_b": {
     "word": "Hates to lose",
-    "text": "Losing is the one thing you take personally, even in a game. Being second feels like being nothing, so you would rather fall out over a point than let it go. Remember that you lose a point far more easily than a friend."
+    "text": "Losing is the single thing you take personally, even in a game. Being second feels like being nothing, and you would rather fall out over a point than let it go. Remember that you can lose a point far more easily than a friend."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Hates to lose",
-    "text": "Hating to lose keeps you in every contest long after it stops paying. You would rather stay in a losing race than be the first to step off, so you stay. Remember that you give up sleep for every race you refuse to leave."
+    "text": "Hating to lose keeps you in every contest long after it stops paying. You would sooner stay in a losing race than be the first to step off, so you stay. Remember that you give up sleep for every race you refuse to leave."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Hates to lose",
-    "text": "Whenever a friend pulls ahead, you hate it before you are glad. Staying level matters more to you than their good day does, so you answer their news with your own. You take a little off their win every time, and that adds up."
+    "text": "Whenever a friend pulls ahead, you hate it before you are glad. You hear their good news as lost ground, so you answer it with news of your own instead of just listening. Remember that you take a little off every win of theirs."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Spends for show",
-    "text": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You buy the evening and rent the goodwill, and that is worth remembering."
+    "text": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You buy the evening, bear in mind, and only rent the goodwill."
    },
    "value_b": {
     "word": "Spends for show",
-    "text": "Spending for show is how you look like the bigger person. You would sooner spend where the audience is than save where nobody looks, since you have more Fire than places to put it. Remember that you are paying for applause that was already yours."
+    "text": "Spending for show is how you look like the bigger person. You would sooner spend where the audience is than save where nobody looks, since being seen giving is half the pleasure. Remember that you are paying for applause that was already yours."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Spends for show",
-    "text": "Spending for show costs you more than the bill says. You put the big gesture ahead of the quiet balance, because being seen as generous beats being secure. You lose money you never get back, and the bill carries nobody's name except yours."
+    "text": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen as generous beats being secure. Worth remembering, you lose money that never returns on a bill with only your name on it."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Spends for show",
-    "text": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no way to be generous back, and that is a loss too."
+    "text": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no way to be generous back, and you forget that costs them something."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Never off",
-    "text": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. You are the only one timing this race now, and it helps to know it."
+    "text": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. You are the one person timing this race, and you forget it most days."
    },
    "value_b": {
     "word": "Never off",
-    "text": "Switching off is the single skill you never learned. Your Fire outlasts your day, so you keep going instead of letting a rival pass you resting. You are racing people who went home long ago, remember."
+    "text": "Switching off is the single skill you never learned. Stopping feels like being passed, so you keep going instead of letting a rival catch you resting. You are racing people who went home long ago, remember."
    }
   },
   "ledger[7]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Never off",
-    "text": "Even beside a friend you never switch off, and you hand them a race instead of yourself. Staying ahead matters more than staying beside, so you turn a walk into a pace. You take from them, remember, the version of you that is not competing."
+    "text": "Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you turn a walk into a pace. You deny them, remember, the version of you that is not competing."
    }
   }
  }

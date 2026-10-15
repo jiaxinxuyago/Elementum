@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Clear-headed in crisis",
-    "text": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. Bring that clear head into the calm weeks, since calm is where you lose it."
+    "text": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. If you bring that clear head into a calm week, you keep it for the next crisis."
    },
    "value_b": {
     "word": "Clear-headed in crisis",
-    "text": "Where things fall apart, you think clearest, since pressure quiets your doubts. You would rather have one clear question in a crisis than a calm you cannot use. Let a quiet week count too, and your clear head stops waiting for disasters."
+    "text": "Where things fall apart, you think clearest, since pressure quiets your doubts. You would rather have one clear question in a crisis than a calm you cannot use. You are allowed a clear head on a quiet week, with no disaster to earn it."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Clear-headed in crisis",
-    "text": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. Take the quiet as rest, for the sleep you lose before each crisis is the price."
+    "text": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. You pay for every skipped quiet week in sleep, and rest counts as much as a crisis."
    }
   },
   "ledger[2]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Picks the moment",
-    "text": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Let an open door count as a moment too, since the right time rarely announces itself."
+    "text": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Each time an open door counts as a moment, you stop needing the right time to announce itself."
    },
    "value_b": {
     "word": "Picks the moment",
-    "text": "Picking the moment is what you care about most. A move made too soon costs you the moment, so you would rather wait past an opening than waste one. Trust a plain opening too, because the moment you pick is not the only good one."
+    "text": "Picking the moment is what you care about. A move made too soon costs you the moment, so you wait past an opening rather than waste one. You lose nothing by taking a plain opening, since the moment you pick is not the only one."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Picks the moment",
-    "text": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be taken back. Take the good-enough moment sometimes, because a chance held back does not come round again."
+    "text": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be undone. You watch the chance you held back go to someone faster, and the good-enough moment was yours."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Picks the moment",
-    "text": "The moment is yours alone to pick. Since you would rather keep the plan until the moment than explain it, you leave the people you lead without a signal. Name the moment a day early, because the wait is what your timing costs them."
+    "text": "The moment is yours alone to pick. You would rather keep the plan until the moment than explain it, and you leave the people you lead without a signal. You give up less by naming the moment early than your silence costs the people waiting."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Leads without shouting",
-    "text": "You lead without shouting, often without anyone noticing. Being right matters more to you than being obeyed, and you lead by arranging the outcome rather than asking. Say the plan aloud once in a while, since quiet leading only works on people already listening."
+    "text": "You lead without shouting, often without anyone noticing. You would sooner be right than be obeyed, and you lead by arranging the outcome rather than asking. Whenever you say the plan aloud, your quiet leading reaches past the people already listening."
    },
    "value_b": {
     "word": "Leads without shouting",
-    "text": "Leading without shouting is the only kind of leading you trust. Since shouting gives people something to push back on, you set the outcome up rather than announce it. Announce it once anyway, because you cannot be followed where you cannot be seen leading."
+    "text": "Leading without shouting is the only kind of leading you trust. Since shouting gives people something to push back on, you set the outcome up rather than announce it. You cannot be followed where you cannot be seen leading, and one plain announcement fixes that."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Leads without shouting",
-    "text": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. Claim one of them, since leading that leaves no trace never earns you the rank."
+    "text": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. If you claim one of them, leading that leaves a trace starts earning you the rank."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Leads without shouting",
-    "text": "Whenever you lead, you arrange instead of asking. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. Lead with a question sometimes, since an answer never asked for is one you took."
+    "text": "Arranging beats asking whenever you lead. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. You took their answer by never asking, and leading with one question costs you less than that."
    }
   }
  }

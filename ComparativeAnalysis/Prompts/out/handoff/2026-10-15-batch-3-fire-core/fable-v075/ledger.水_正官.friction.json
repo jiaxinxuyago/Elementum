@@ -54,7 +54,7 @@
    },
    "value_b": {
     "word": "Plays it safe",
-    "text": "Playing it safe is your answer to anything new. Since a loss shows and a missed gain never does, you would rather play safe than risk your place for a better one. Keep in mind that the safe choice keeps you right where you are."
+    "text": "Playing it safe is your answer to anything new. Since a loss shows and a missed gain never does, you would rather play safe than risk your place. You stay right where you are on the safe choice, and that is the thing to remember."
    }
   },
   "ledger[1]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Plays it safe",
-    "text": "For everyone waiting on your yes, you play it safe as well. You would rather give a safe no than a yes that can fail, and the real answer stays yours. Bear in mind that a safe answer leaves them waiting instead of deciding."
+    "text": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail, and the real answer stays yours. Do not forget that a safe answer leaves them waiting instead of deciding."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Waits for permission",
-    "text": "You wait for permission that is not coming. Being given permission feels safer than taking it, so you would rather be asked to step up than step up unasked. You hold most of the permission you wait for, and it is worth remembering that."
+    "text": "You wait for permission that is not coming. Being given permission feels safer than taking it, and you wait to be asked up rather than step up unasked. You hold most of the permission you wait for, a fact you keep forgetting."
    },
    "value_b": {
     "word": "Waits for permission",
-    "text": "Waiting for permission is how you earn a place. Since what is given cannot be taken back like what is taken, you wait to be chosen rather than step forward. Remember that permission arrives last to the one who waits for it most."
+    "text": "Waiting for permission is how you earn a place. Since a place you were given feels safer than one you took, you wait to be chosen rather than step forward. Remember that you wait longest for the permission you never think to give yourself."
    }
   },
   "ledger[4]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Waits for permission",
-    "text": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and that is worth keeping in mind."
+    "text": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and you set that clock."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Bites your tongue",
-    "text": "You bite your tongue long before anyone asks you to. Since keeping the peace suits you better than saying the thing, you bite down rather than cost the mood. You keep the peace by biting your tongue, and you alone carry what went unsaid."
+    "text": "You bite your tongue long before anyone asks you to. You bite down rather than cost the mood, since a smooth evening feels safer to you than an honest one. You keep the peace by biting your tongue, and you alone carry what went unsaid."
    },
    "value_b": {
     "word": "Bites your tongue",
-    "text": "Biting your tongue is your first move in any disagreement. Because your standing matters more to you than your point, you bite your tongue and keep your place. Remember that you will need the tongue you keep biting the day you have to speak."
+    "text": "Biting your tongue is your first move in a disagreement. Because your standing matters more to you than your point, you bite your tongue and keep your place. You will need that bitten tongue the day you must speak, and it is out of practice."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Bites your tongue",
-    "text": "Safe and unheard is where biting your tongue leaves you. Since a wrong word costs more than a missing one, you would rather bite your tongue than lose standing. You pay for every bitten tongue in credit, because a point never made cannot be yours."
+    "text": "Safe and unheard is where biting your tongue leaves you. You would rather bite your tongue than put your standing on the line for a point. You hand away the credit for everything you bit back, and a point never made cannot be yours."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Bites your tongue",
-    "text": "Your tongue gets bitten hardest around the people who need your answer. You keep things smooth rather than say what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
+    "text": "Your tongue gets bitten hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
    }
   }
  }

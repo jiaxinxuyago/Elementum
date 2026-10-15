@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Rises to it",
-    "text": "You rise to a dare before deciding if you want it. You wake in a contest as you never do on a quiet day, so you weigh the rival ahead of the stakes. You rise to everything, and some of those races were never yours."
+    "text": "You rise to a dare before deciding if you want it. You wake in a contest like nowhere else, so you weigh the rival ahead of the stakes. Skip a race sometimes, because rising to everything means running some that were never yours."
    },
    "value_b": {
     "word": "Rises to it",
-    "text": "You are ready for a challenge before anyone has finished explaining it. Being tested is where you feel most alive, so you rise to the next one rather than ask what it pays. You give your best to whoever dares you first."
+    "text": "You are ready for a challenge before anyone explains it. You feel more alive in a test than after a win, so you rise to the next rather than ask what it pays. Give your best to whoever dares you, and some to whoever asks."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Rises to it",
-    "text": "Rising to a dare is how you know you are in the game. You would sooner be tested by a rival than rested by a win, so rest never comes first. You pay in your body, kept at race pace with no finish in sight."
+    "text": "Rising to a dare tells you that you are in the game. You would sooner take a test than take a break, so rest never comes first. Let a win be a rest, because you pay for every race in your own body."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Rises to it",
-    "text": "Whenever someone sets a dare, you rise to it before they take it back. Winning in front of a friend matters more than keeping the game friendly, so you play every round for keeps. You leave them the hard version of playing with you."
+    "text": "You give a friend's dare your full speed before they take it back. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. Throw a round once, since what they lose with you is the fun."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Catches ambition",
-    "text": "You catch ambition from the people around you like a cold. You catch a rival's goal faster than you find your own, so you run on borrowed wanting rather than wait. You are chasing, half the time, a goal that began as somebody else's."
+    "text": "Other people's ambition is the kind you catch fastest. You catch a rival's goal faster than you find your own, so you run on borrowed wanting rather than wait. Keep one goal nobody handed you, since half of what you chase began as somebody else's."
    },
    "value_b": {
     "word": "Catches ambition",
-    "text": "You catch ambition instead of growing it alone. You wake up fast to someone else's hunger, so you would rather run beside a driven person than sit with a quiet plan. You catch the pace of whoever is nearest, for better and for worse."
+    "text": "You catch ambition instead of growing it alone. You wake up fast to someone else's hunger, and you would rather run beside a driven person than sit with a plan. Sit with your own plan once, because you catch the pace of whoever is nearest."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Catches ambition",
-    "text": "Catching ambition is quicker than growing it, and you know the difference. You go after what a rival chases ahead of asking what you would want alone, because wanting alone feels thin. You lose the one chance nobody else was running for."
+    "text": "Catching ambition is quicker than growing it, and you know it. You go after what a rival chases ahead of asking what you want yourself, because wanting alone feels thin. Ask yourself anyway, since the chance nobody else runs for is yours to lose."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Catches ambition",
-    "text": "Whenever a friend shares a plan, you catch it before they finish the sentence. Running their race feels better than cheering from the side, so you turn their goal into a shared one. You take from them a finish meant to be theirs alone."
+    "text": "You catch a friend's plan before they finish the sentence. Running their race feels better than cheering from the side, so you turn their goal into a shared one. Ask if they wanted a partner, because you take a finish meant to be theirs."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Goes all in",
-    "text": "You go all in on a shared bet before anyone has asked you to. Holding back feels like not being there, so you put in your money ahead of reading the terms. You are first in and last to know what it cost you."
+    "text": "On a shared bet, you go all in before anyone asks. Holding back feels like not being there, so you put in your money ahead of reading the terms. Read the terms once, since all in makes you first to pay and last to know."
    },
    "value_b": {
     "word": "Goes all in",
-    "text": "Going all in is your only speed on a shared bet. You would rather match the boldest person at the table than hold back part of the stake, since part feels like half a friendship. You are generous first and careful a long way second."
+    "text": "Going all in is your only speed on a shared bet. You would rather match the boldest person there than hold back part, since part feels like half a friendship. Put in half for once, because you are generous first and careful second."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Goes all in",
-    "text": "Being all in is how you show you mean it. You put your money where your friends are ahead of where your sense is, because holding back feels worse than losing. You pay in money never kept, mostly on bets you joined for company."
+    "text": "Being all in is how you show you mean it. You put money where your friends are ahead of where your sense is, because holding back feels worse than losing. Keep one stake back a year, since money never kept is the price of company."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Goes all in",
-    "text": "Whenever someone you like takes a risk, you are all in beside them unasked. Sharing the stake matters more than checking whether they wanted a partner, so you double a bet that was theirs. You leave them a bet twice the size they chose."
+    "text": "Beside someone you like, you are all in unasked. You would sooner share the stake than check if they wanted one, so you double a bet that was theirs. Ask first, since you leave them a bet twice the size they chose."
    }
   }
  }
