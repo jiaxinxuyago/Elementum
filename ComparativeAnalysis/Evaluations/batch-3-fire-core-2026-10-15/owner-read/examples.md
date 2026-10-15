@@ -1,4 +1,4 @@
-# Batch 2 examples · the Wood core · fable-v075-fire
+# Batch 3 examples · the Fire core · fable-v075-fire
 
 ## 火_比肩 · friction · row 1 · chip "Goes it alone" (was "Too proud")
 
