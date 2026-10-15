@@ -8,11 +8,11 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **Wood core × Wood — the Core** | 木_木 | You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend. |
-| **Wood core × Fire — the Voice** | 木_火 | What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by. |
-| **Wood core × Earth — the Drive** | 木_土 | You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today. |
-| **Wood core × Metal — the Duty** | 木_金 | Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep. |
-| **Wood core × Water — the Root** | 木_水 | Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades. |
+| **Wood core × Wood — the Core** | 木_木 | You hold yourself up by growing, so you feel strongest while something is being built and restless once it is finished. |
+| **Wood core × Fire — the Voice** | 木_火 | You come alive when something you made gets seen, and most weeks you judge yourself by how much of you got out. |
+| **Wood core × Earth — the Drive** | 木_土 | You build to keep rather than to show, and the things you go after slowly are usually the ones that stay yours. |
+| **Wood core × Metal — the Duty** | 木_金 | You grow best with a line to grow against, and you finish more under someone else's rule than under your own plan. |
+| **Wood core × Water — the Root** | 木_水 | You understand things by soaking in them rather than studying them, and your best decisions come after a night's sleep instead of a second search. |
 | **Fire core × Wood — the Root** | 火_木 | Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden. |
 | **Fire core × Fire — the Core** | 火_火 | Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart. |
 | **Fire core × Earth — the Voice** | 火_土 | Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say. |

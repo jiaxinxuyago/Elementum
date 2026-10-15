@@ -10,13 +10,13 @@
   "candidates": {
     "mechanism": {
       "base": "Water is the forest's first food, the old texts say. Rain comes down through the leaves and sinks to the roots, and the tree drinks what it cannot see. Nothing grows on dry ground. A season of steady rain raises the whole wood a hand higher, while a season of flood loosens the soil and sets the trunk adrift. The tree is only ever as tall as the water under it allows.",
-      "catalyst_turn": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Sit with one slow book before the next decision.",
+      "catalyst_turn": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Learn the whole thing before you take a step.",
       "friction_turn": "With too much Water, the ground goes soft under the tree and the roots drink past the point of growing. Set one plan on firm ground and build it."
     },
     "carry": {
       "catalyst": {
         "clause": "the forest grows on thin rain, every new leaf paid from the trunk's own store",
-        "remedy": "Sit with one slow book before the next decision."
+        "remedy": "Learn the whole thing before you take a step."
       },
       "friction": {
         "clause": "the ground goes soft under the tree and the roots drink past the point of growing",
@@ -45,9 +45,9 @@
     },
     "function": {
       "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake falls short, so you trust a hunch ahead of sitting with what you know and give shelter you never take.",
-      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the taking in runs ahead of use, so you read one more thing instead of deciding and stay sheltered past the need.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, and you understand things instead of using them while shelter holds you longer than you meant.",
       "advise_catalyst": "You reach for the answer while the lesson is still landing. Ahead of a decision, read a full chapter instead of the summary. Ask one person who knows more than you and wait for the whole reply. Keep a notebook by the bed for the thought that arrives late. Sleep on anything that can wait a night.",
-      "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. You learn one more thing because deciding would end the learning. Pick a date and make the call on it. Finish one small thing and show it to someone."
+      "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. No amount of knowing makes the call for you. Pick a date and make the call on it. Finish one small thing and show it to someone."
     },
     "cta_verdict": "You understand things by soaking in them rather than studying them, and your best decisions come after a night's sleep instead of a second search."
   },

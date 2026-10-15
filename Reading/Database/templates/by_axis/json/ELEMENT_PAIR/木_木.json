@@ -16,38 +16,38 @@
   "candidates": {
     "mechanism": {
       "classic": "方以類聚，物以群分",
-      "base": "Things gather by kind, the Book of Changes says, and so wood stands with wood: one forest sharing one root system, every trunk raising the canopy that shelters the next seedling. There is no reaction here, only more of the same green force. A single tree is weather's toy. A forest makes its own weather.",
-      "catalyst_turn": "Run thin, the trunk doubts itself: direction borrowed, growth waiting for permission. Your chart asks you to feed the self. Start something and let it grow visibly yours.",
-      "friction_turn": "Run heavy, the canopy closes: growth so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe."
+      "base": "Wood beside wood makes a forest, the old texts say, and like gathers with like. A trunk that stands alone grows wide, and a trunk among others grows tall, because every tree reaches for the same light and drinks from the same ground. The one beside it is shelter and competition. Nothing is handed out in a forest. Height is taken, a season's growth at a time, by whoever reaches first.",
+      "catalyst_turn": "With too little Wood, the trunk is thin for the height it carries, and every reach is paid out of the next season's growth. Rest and eat before you reach again.",
+      "friction_turn": "With too much Wood, the trunk thickens past any use for it, and growth that nothing shaped bends for no one. Give one thing a hard deadline and finish it."
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Wood is your Body, and running thin, it is the growth reserve your whole system draws on: appetite, stamina, the will to start things. When it dips you feel it as flatness before you feel it as fatigue.",
-      "definition_friction": "Wood is your Body, and running over, it is more growing force than your life gives outlets: restlessness, overcommitment, energy that starts five things just to spend itself.",
-      "advise_catalyst": "Vitality is grown, never summoned. Get daylight before noon, move every day even briefly, keep green things and green places near you. Protect one truly free evening a week. Start one small thing and let finishing it feed the next.",
-      "advise_friction": "Force without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new."
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, you carry everything alone rather than lean on a peer, or race the one ahead with no reserve. You run out before the thing is done.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, you hold your way against a peer's advice, or treat shared ground as yours alone. You keep your way and lose the people beside you.",
+      "advise_catalyst": "Holding yourself up takes more than you are taking in. Sleep a full night before a big decision rather than after it. Share one weekly meal with a peer who is not competing with you. Let someone carry one thing for you each month. Sit down for ten minutes before you say yes.",
+      "advise_friction": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. You carry more push than any one thing asks for. Give one plan to someone above you and take their deadline as final. Finish the small thing first."
     },
-    "cta_verdict": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend.",
+    "cta_verdict": "You hold yourself up by growing, so you feel strongest while something is being built and restless once it is finished.",
     "carry": {
       "catalyst": {
-        "clause": "The trunk doubts itself: direction borrowed, growth waiting for permission.",
-        "remedy": "Start something and let it grow visibly yours."
+        "clause": "The trunk is thin for the height it carries.",
+        "remedy": "Rest and eat before you reach again."
       },
       "friction": {
-        "clause": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.",
-        "remedy": "Thin the branches and let the forest breathe."
+        "clause": "The trunk thickens past any use for it.",
+        "remedy": "Give one thing a hard deadline and finish it."
       },
       "unrooted": {
-        "clause": "The self stands without roots: growth on will alone, direction borrowed.",
-        "remedy": "Feed the self. Start something visibly yours."
+        "clause": "Wood with no root under it, a trunk on borrowed ground, upright only while the weather holds.",
+        "remedy": "Borrow roots. Keep one routine and one early bedtime."
       },
       "excess": {
-        "clause": "Strong wood wants fire: so much growth it shades out everything, itself included.",
-        "remedy": "Burn some of it. Show the work."
+        "clause": "So much Wood that nothing bends it, and only a fire would ever soften the stubborn grain.",
+        "remedy": "Set it alight. Make one thing and give it away."
       },
       "thin": {
-        "clause": "Wood runs thin and still carries weight: little growth, held too hard.",
-        "remedy": "Loosen the grip on growing."
+        "clause": "Only a little Wood shows, a thin trunk the ground holds easily.",
+        "remedy": "Keep it small and spend what it grows."
       }
     },
     "carry_yin": {
@@ -74,5 +74,151 @@
     },
     "retired_v3_definition_catalyst": "Wood is your Body, and running thin, it is the growth reserve your whole system draws on: appetite, stamina, the will to start things. When it dips you feel it as flatness before you feel it as fatigue.\n\nLively by design, lately muted. Meals get skipped without hunger noticing, weekends pass without anything begun, and the person who used to start things watches other people start them instead. Nothing is wrong exactly. There is just less of you available than there used to be.\n\nVitality is grown, never summoned. Get daylight before noon, move every day even briefly, keep green things and green places near you. Protect one truly free evening a week. Start one small thing and let finishing it feed the next.",
     "retired_v3_definition_friction": "Wood is your Body, and running over, it is more growing force than your life gives outlets: restlessness, overcommitment, energy that starts five things just to spend itself.\n\nExpansive, eager, impossible to keep still. Every idea becomes a signup, every free hour becomes a plan, and the body hums at bedtime like something still mid-sprint. Unspent growth does not wait politely. It turns on its owner as agitation.\n\nForce without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Things gather by kind, the Book of Changes says, and so wood stands with wood: one forest sharing one root system, every trunk raising the canopy that shelters the next seedling. There is no reaction here, only more of the same green force. A single tree is weather's toy. A forest makes its own weather."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Run thin, the trunk doubts itself: direction borrowed, growth waiting for permission. Your chart asks you to feed the self. Start something and let it grow visibly yours."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Run heavy, the canopy closes: growth so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The trunk doubts itself: direction borrowed, growth waiting for permission."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Start something and let it grow visibly yours."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Thin the branches and let the forest breathe."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Wood runs thin and still carries weight: little growth, held too hard."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Loosen the grip on growing."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Strong wood wants fire: so much growth it shades out everything, itself included."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Burn some of it. Show the work."
+    },
+    {
+      "field": "carry.unrooted.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The self stands without roots: growth on will alone, direction borrowed."
+    },
+    {
+      "field": "carry.unrooted.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Feed the self. Start something visibly yours."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Wood is your Body, and running thin, it is the growth reserve your whole system draws on: appetite, stamina, the will to start things. When it dips you feel it as flatness before you feel it as fatigue."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Wood is your Body, and running over, it is more growing force than your life gives outlets: restlessness, overcommitment, energy that starts five things just to spend itself."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Vitality is grown, never summoned. Get daylight before noon, move every day even briefly, keep green things and green places near you. Protect one truly free evening a week. Start one small thing and let finishing it feed the next."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Force without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_木.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend."
+    }
+  ]
 }

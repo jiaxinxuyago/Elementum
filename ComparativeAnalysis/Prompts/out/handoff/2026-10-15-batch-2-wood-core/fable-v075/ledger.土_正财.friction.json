@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Keeps everything",
-    "text": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. Keep in mind that everything you keep also has to be looked after."
+    "text": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. Tell yourself plainly that everything you keep also has to be looked after."
    },
    "value_b": {
     "word": "Keeps everything",
-    "text": "What comes into your keeping stays there for good. Needing a thing you let go is the loss you fear most, and you store it for years rather than lack it once. You keep the fear along with the thing, and that is worth remembering."
+    "text": "What comes into your keeping stays there for good. Needing a thing you let go is the loss you fear most, and you store it for years rather than lack it once. You keep the fear along with the thing, and that bears repeating."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Keeps everything",
-    "text": "Keeping everything keeps you from being caught short, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. Remember that you are renting space for things that give nothing back."
+    "text": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. Let yourself see that you rent space for things that give nothing back."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Keeps everything",
-    "text": "You fill the home you share with things you cannot drop. Keeping matters more to you than space, and you turn the house into storage with a family inside. Do not forget that you charge the people at home in space for what you keep."
+    "text": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and you fill the home from the walls in. Keep sight of how you charge the people at home for it in space."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Hard to move",
-    "text": "Staying put feels like safety, whatever the place becomes. Moving asks more of you than staying, so you keep the known rather than go toward the better. Bear in mind that a place you will not leave is not one that holds you."
+    "text": "Staying put feels like safety, whatever the place becomes. Moving asks more of you than staying, so you keep the known rather than go toward the better. Know that a place you will not leave is not one that holds you."
    },
    "value_b": {
     "word": "Hard to move",
-    "text": "You are hard to move and you know it. Leaving costs more than staying, and you stay in the job and the home past their use rather than restart. You choose to stay every day you do not leave, and it helps to remember that."
+    "text": "You are hard to move, as you would say yourself. Leaving asks more of you than staying does, and you keep the job and home past their use. You choose to stay every day you do not leave, and that choice deserves a second look."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Hard to move",
-    "text": "Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it. Remember that the chance to go closes as you decide, and you pay in years."
+    "text": "Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it. Take it as given that the chance to go closes during the deciding."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Hard to move",
-    "text": "You stay, and hold the people closest to you in place. Staying matters to you more than moving somewhere better together, and you set the whole house to your speed. Keep remembering that you make them wait on a move you are not making."
+    "text": "You stay, and hold the people closest to you in place. Staying matters to you more than moving somewhere better together, and you set the whole house to your speed. Ask yourself whether you make them wait on a move you are not making."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Hates to spend",
-    "text": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. Try to remember that you can afford more than you let yourself have."
+    "text": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. Be honest with yourself about how much more you can afford than you let yourself have."
    },
    "value_b": {
     "word": "Hates to spend",
-    "text": "Spending comes hard to you, even on what you need. Money going out is the loss that stings most, and you go without rather than pay for the thing. You already know you are allowed to pay full price for what you want."
+    "text": "Spending comes hard to you, even on what you need. Money going out stings you most, and you go without rather than pay for the thing. You are allowed to pay full price for what you want, as you well know."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Hates to spend",
-    "text": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it on the thing, since spending feels like a loss already begun. Notice that you end up with the money and without the thing it was for."
+    "text": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Keep it in view that you end up with the money and without the thing it was for."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Hates to spend",
-    "text": "Spending on the people you love comes no easier to you than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. Remember that what you save on the people you love comes out of their side."
+    "text": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. Spare a thought for what you save on them, since it comes out of their side."
    }
   }
  }

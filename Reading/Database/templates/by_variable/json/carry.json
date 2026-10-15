@@ -9,24 +9,24 @@
         "canonical_name": "Wood core × Wood — the Core",
         "value": {
           "catalyst": {
-            "clause": "The trunk doubts itself: direction borrowed, growth waiting for permission.",
-            "remedy": "Start something and let it grow visibly yours."
+            "clause": "The trunk is thin for the height it carries.",
+            "remedy": "Rest and eat before you reach again."
           },
           "friction": {
-            "clause": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.",
-            "remedy": "Thin the branches and let the forest breathe."
+            "clause": "The trunk thickens past any use for it.",
+            "remedy": "Give one thing a hard deadline and finish it."
           },
           "unrooted": {
-            "clause": "The self stands without roots: growth on will alone, direction borrowed.",
-            "remedy": "Feed the self. Start something visibly yours."
+            "clause": "Wood with no root under it, a trunk on borrowed ground, upright only while the weather holds.",
+            "remedy": "Borrow roots. Keep one routine and one early bedtime."
           },
           "excess": {
-            "clause": "Strong wood wants fire: so much growth it shades out everything, itself included.",
-            "remedy": "Burn some of it. Show the work."
+            "clause": "So much Wood that nothing bends it, and only a fire would ever soften the stubborn grain.",
+            "remedy": "Set it alight. Make one thing and give it away."
           },
           "thin": {
-            "clause": "Wood runs thin and still carries weight: little growth, held too hard.",
-            "remedy": "Loosen the grip on growing."
+            "clause": "Only a little Wood shows, a thin trunk the ground holds easily.",
+            "remedy": "Keep it small and spend what it grows."
           }
         }
       },
@@ -36,32 +36,32 @@
         "canonical_name": "Wood core × Fire — the Voice",
         "value": {
           "catalyst": {
-            "clause": "The wood stays green: years of growth and nothing kindled, reach without light.",
-            "remedy": "Show the work, tell the story, let it catch."
+            "clause": "The wood piles up unlit, growth stacked with no flame to turn it into light.",
+            "remedy": "Show one rough thing before it feels finished."
           },
           "friction": {
-            "clause": "The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.",
-            "remedy": "Bank the fire and let some growth stand."
+            "clause": "The flame draws on green wood, taking sap the tree needs for growing.",
+            "remedy": "Take one quiet evening in for every loud thing out."
           },
           "wide": {
-            "clause": "Fire is all around you, the light everything you grow was reaching for.",
-            "remedy": "Show more of the work. It is ready."
+            "clause": "Fire is easy for you to reach, the light every season of growing was for.",
+            "remedy": "Use it. Say the thing, show the work, let it be seen."
           },
           "missing": {
-            "clause": "Nothing kindled: years of growth and no light on any of it.",
-            "remedy": "Borrow fire: put one piece in front of people."
+            "clause": "No flame in the wood at all, growth with nowhere to show and no warmth given off.",
+            "remedy": "Borrow a flame, one listener and one thing shown."
           },
           "spared": {
-            "clause": "Fire runs absent, and the wood stays green: nothing burned early, nothing announced.",
-            "remedy": "Keep it green. Show the work once it is finished."
+            "clause": "Nothing burns the wood, and a thin trunk keeps all its sap for itself.",
+            "remedy": "Leave it unlit. Grow first, show later."
           },
           "thin": {
-            "clause": "Fire runs thin and unwanted: a small flame, easy to bank.",
-            "remedy": "Bank it. Let growth stand."
+            "clause": "A small flame on thin wood, enough to warm the house and too small to eat the tree.",
+            "remedy": "Keep it small. One thing out for every two in."
           },
           "excess": {
-            "clause": "Too much fire burns the wood: everything lit as it grows, the tree spent on its own light.",
-            "remedy": "Bank the fire. Grow in the dark a while."
+            "clause": "The fire outgrows the wood that feeds it, and the whole tree burns away as light.",
+            "remedy": "Stop feeding it. Rest, read, let the wood come back."
           }
         }
       },
@@ -71,32 +71,32 @@
         "canonical_name": "Wood core × Earth — the Drive",
         "value": {
           "catalyst": {
-            "clause": "The roots float: plenty of reaching, nothing held, growth with no ground under it.",
-            "remedy": "Buy in, commit, root somewhere real."
+            "clause": "The roots have nothing to grip: all growth and no ground to claim.",
+            "remedy": "Pick one thing worth owning and get it."
           },
           "friction": {
-            "clause": "The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed.",
-            "remedy": "Hold less hillside, hold it deeper."
+            "clause": "The ground outweighs the roots: more to hold than one trunk carries.",
+            "remedy": "Rest before you take on more ground."
           },
           "wide": {
-            "clause": "Earth is one thing you never run short of, the ground you were built to take root in.",
-            "remedy": "Commit to one of the places you already hold."
+            "clause": "Earth is all around you, the ground your roots were made for.",
+            "remedy": "Use it. Claim one plot and work it to the end."
           },
           "missing": {
-            "clause": "No ground to root in: reach with nothing held, ambition that never lands.",
-            "remedy": "Borrow ground: one commitment, kept."
+            "clause": "No ground for the roots to take: growth that lands nowhere and claims nothing.",
+            "remedy": "Borrow ground: a budget, a lease, one thing paid off."
           },
           "spared": {
-            "clause": "Earth runs absent, and the roots are free: nothing owned, nothing charging rent.",
-            "remedy": "Keep it light. Own little, deliberately."
+            "clause": "No Earth weighing on the roots, and the trunk stands straighter for it.",
+            "remedy": "Keep it that way: own little, carry less."
           },
           "thin": {
-            "clause": "Earth runs thin and unwanted: a small plot, easily held.",
-            "remedy": "Keep the plot small."
+            "clause": "A little ground on the roots, light enough to hold without bending.",
+            "remedy": "Keep the load this size. Add nothing to it."
           },
           "excess": {
-            "clause": "Heavy earth snaps the wood: more held than the tree can feed, roots torn by what they grip.",
-            "remedy": "Hold less. Hold it deeper."
+            "clause": "Earth piled past what roots can hold: the soil wins, and the trunk snaps under the weight.",
+            "remedy": "Set most of it down. Sleep, then lift one thing."
           }
         }
       },
@@ -106,32 +106,32 @@
         "canonical_name": "Wood core × Metal — the Duty",
         "value": {
           "catalyst": {
-            "clause": "Nothing prunes you: growth in every direction and fruit in none.",
-            "remedy": "Invite the standard, the editor, the coach with shears."
+            "clause": "the tree grows every way at once and nothing prunes it into a shape",
+            "remedy": "Take on one rule you did not write and keep it."
           },
           "friction": {
-            "clause": "The cutting never stops: cut after cut until growing feels like a fault.",
-            "remedy": "Step back from blades that prune for pruning’s sake."
+            "clause": "the knife outruns the tree and every new shoot meets the edge",
+            "remedy": "Let one thing grow a season before anyone judges it."
           },
           "wide": {
-            "clause": "You have plenty of Metal, the shears that turn growth into fruit.",
-            "remedy": "Accept the cut. Keep what survives the edit."
+            "clause": "There is no shortage of Metal in you, the knife a growing tree needs to take its shape.",
+            "remedy": "Use it. Finish one thing to the line this month."
           },
           "missing": {
-            "clause": "Nothing prunes the growth: reach in every direction, fruit in none.",
-            "remedy": "Borrow the knife: an editor, a coach, a rule."
+            "clause": "No knife near the tree, so growth goes wherever it likes and nothing gets finished.",
+            "remedy": "Borrow a rule, a deadline or someone above you."
           },
           "spared": {
-            "clause": "Metal runs absent, and nothing cuts: growth unshaped, and unbroken.",
-            "remedy": "Keep it. Invite the shears on your terms."
+            "clause": "No knife at the tree, and the tree is better for it, free to take its own shape.",
+            "remedy": "Keep it so. Set your own rules and keep them."
           },
           "thin": {
-            "clause": "Metal runs thin and unwanted: a small blade, easy to step around.",
-            "remedy": "Step around it."
+            "clause": "A small knife at a big tree, enough to shape it and never enough to cut it back.",
+            "remedy": "Keep it small. One rule, kept, is plenty."
           },
           "excess": {
-            "clause": "Weak wood breaks under strong metal: correction past what the trunk can bear, growth that stops feeling allowed.",
-            "remedy": "Step back from the blade. Add water."
+            "clause": "Too much knife at a young tree, and the trunk is cut through before it can stand.",
+            "remedy": "Put the knife down. Rest, read, let the trunk regrow."
           }
         }
       },
@@ -141,32 +141,32 @@
         "canonical_name": "Wood core × Water — the Root",
         "value": {
           "catalyst": {
-            "clause": "The canopy outpaces the rain: ambition still reaching while the soil dries.",
-            "remedy": "Rest, read, go quiet and refill."
+            "clause": "the forest grows on thin rain, every new leaf paid from the trunk's own store",
+            "remedy": "Learn the whole thing before you take a step."
           },
           "friction": {
-            "clause": "The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.",
-            "remedy": "Trees also need sun."
+            "clause": "the ground goes soft under the tree and the roots drink past the point of growing",
+            "remedy": "Set one plan on firm ground and build it."
           },
           "wide": {
-            "clause": "Water is already here in plenty, the rain the whole tree drinks from.",
-            "remedy": "Stop refilling. Grow something from what you already know."
+            "clause": "There is no shortage of Water in you, the rain the whole forest drinks from.",
+            "remedy": "Drink from it. Learn one thing all the way down."
           },
           "missing": {
-            "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
-            "remedy": "Borrow water: rest, reading, one quiet hour."
+            "clause": "No rain reaches the roots, so the tree grows on whatever the air gives it.",
+            "remedy": "Borrow rain. A teacher, a library card, one quiet hour."
           },
           "spared": {
-            "clause": "Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season.",
-            "remedy": "Keep it dry. Act on what you know."
+            "clause": "No rain falls on this tree, and it stands drier and steadier for it.",
+            "remedy": "Leave it dry. Act on what you already know."
           },
           "thin": {
-            "clause": "Water runs thin and unwanted: a little rain, quickly used.",
-            "remedy": "Let it stay light."
+            "clause": "A little rain and no more, enough to keep the leaves from curling.",
+            "remedy": "Keep it small. One read, one decision."
           },
           "excess": {
-            "clause": "Too much water floats the wood: roots off the ground, drifting from plan to plan, nothing anchored.",
-            "remedy": "Drain it. Plant one thing and stay."
+            "clause": "Too much water lifts the tree off its ground, fed past rooting, drifting where the current goes.",
+            "remedy": "Drain it. Less thinking, one thing built."
           }
         }
       },

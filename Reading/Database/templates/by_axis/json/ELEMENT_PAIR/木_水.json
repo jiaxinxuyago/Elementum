@@ -16,46 +16,46 @@
   "candidates": {
     "mechanism": {
       "classic": "因水潤而能生",
-      "base": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.",
-      "catalyst_turn": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
-      "friction_turn": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun."
+      "base": "Water is the forest's first food, the old texts say. Rain comes down through the leaves and sinks to the roots, and the tree drinks what it cannot see. Nothing grows on dry ground. A season of steady rain raises the whole wood a hand higher, while a season of flood loosens the soil and sets the trunk adrift. The tree is only ever as tall as the water under it allows.",
+      "catalyst_turn": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Learn the whole thing before you take a step.",
+      "friction_turn": "With too much Water, the ground goes soft under the tree and the roots drink past the point of growing. Set one plan on firm ground and build it."
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Water is your Mind, and as a catalyst, it is how you refill: quiet intake, reading, long conversations, time alone that lets impressions settle into understanding. Your thinking improves in direct proportion to your rest.",
-      "definition_friction": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it.",
-      "advise_catalyst": "Understanding arrives on its own schedule and only through an open door. Hold one screen-free hour before bed. Take the walk before the decision. Keep a note of what surfaces there, because it will be the truest thinking you do.",
-      "advise_friction": "A mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in."
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake falls short, so you trust a hunch ahead of sitting with what you know and give shelter you never take.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, and you understand things instead of using them while shelter holds you longer than you meant.",
+      "advise_catalyst": "You reach for the answer while the lesson is still landing. Ahead of a decision, read a full chapter instead of the summary. Ask one person who knows more than you and wait for the whole reply. Keep a notebook by the bed for the thought that arrives late. Sleep on anything that can wait a night.",
+      "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. No amount of knowing makes the call for you. Pick a date and make the call on it. Finish one small thing and show it to someone."
     },
-    "cta_verdict": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades.",
+    "cta_verdict": "You understand things by soaking in them rather than studying them, and your best decisions come after a night's sleep instead of a second search.",
     "carry": {
       "catalyst": {
-        "clause": "The canopy outpaces the rain: ambition still reaching while the soil dries.",
-        "remedy": "Rest, read, go quiet and refill."
+        "clause": "the forest grows on thin rain, every new leaf paid from the trunk's own store",
+        "remedy": "Learn the whole thing before you take a step."
       },
       "friction": {
-        "clause": "The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.",
-        "remedy": "Trees also need sun."
+        "clause": "the ground goes soft under the tree and the roots drink past the point of growing",
+        "remedy": "Set one plan on firm ground and build it."
       },
       "wide": {
-        "clause": "Water is already here in plenty, the rain the whole tree drinks from.",
-        "remedy": "Stop refilling. Grow something from what you already know."
+        "clause": "There is no shortage of Water in you, the rain the whole forest drinks from.",
+        "remedy": "Drink from it. Learn one thing all the way down."
       },
       "missing": {
-        "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
-        "remedy": "Borrow water: rest, reading, one quiet hour."
+        "clause": "No rain reaches the roots, so the tree grows on whatever the air gives it.",
+        "remedy": "Borrow rain. A teacher, a library card, one quiet hour."
       },
       "spared": {
-        "clause": "Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season.",
-        "remedy": "Keep it dry. Act on what you know."
+        "clause": "No rain falls on this tree, and it stands drier and steadier for it.",
+        "remedy": "Leave it dry. Act on what you already know."
       },
       "thin": {
-        "clause": "Water runs thin and unwanted: a little rain, quickly used.",
-        "remedy": "Let it stay light."
+        "clause": "A little rain and no more, enough to keep the leaves from curling.",
+        "remedy": "Keep it small. One read, one decision."
       },
       "excess": {
-        "clause": "Too much water floats the wood: roots off the ground, drifting from plan to plan, nothing anchored.",
-        "remedy": "Drain it. Plant one thing and stay."
+        "clause": "Too much water lifts the tree off its ground, fed past rooting, drifting where the current goes.",
+        "remedy": "Drain it. Less thinking, one thing built."
       }
     },
     "carry_yin": {
@@ -84,5 +84,183 @@
     },
     "retired_v3_definition_catalyst": "Water is your Mind, and as a catalyst, it is how you refill: quiet intake, reading, long conversations, time alone that lets impressions settle into understanding. Your thinking improves in direct proportion to your rest.\n\nReflective, absorbent, better after silence. The best ideas surface in the shower, on the walk, in the hour nobody needed anything, and a rushed week leaves you strangely stupid in ways sleep alone does not fix.\n\nUnderstanding arrives on its own schedule and only through an open door. Hold one screen-free hour before bed. Take the walk before the decision. Keep a note of what surfaces there, because it will be the truest thinking you do.",
     "retired_v3_definition_friction": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it.\n\nThoughtful to the point of drowning in it. Podcasts on double speed, three browsers of research, friends polled until their answers cancel out, and the decision still standing exactly where it stood a month ago.\n\nA mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The canopy outpaces the rain: ambition still reaching while the soil dries."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Rest, read, go quiet and refill."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The ground floods: roots soaked past drinking, growth postponed for one more season of preparation."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Trees also need sun."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Water is already here in plenty, the rain the whole tree drinks from."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Stop refilling. Grow something from what you already know."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "No water at the root: reaching on dry ground, nothing taken in before it is spent."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Borrow water: rest, reading, one quiet hour."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Keep it dry. Act on what you know."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Water runs thin and unwanted: a little rain, quickly used."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Let it stay light."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Too much water floats the wood: roots off the ground, drifting from plan to plan, nothing anchored."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Drain it. Plant one thing and stay."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Water is your Mind, and as a catalyst, it is how you refill: quiet intake, reading, long conversations, time alone that lets impressions settle into understanding. Your thinking improves in direct proportion to your rest."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Understanding arrives on its own schedule and only through an open door. Hold one screen-free hour before bed. Take the walk before the decision. Keep a note of what surfaces there, because it will be the truest thinking you do."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "A mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_水.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades."
+    }
+  ]
 }

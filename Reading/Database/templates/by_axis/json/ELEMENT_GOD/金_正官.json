@@ -16,14 +16,14 @@
     "k2_functional": "You are the measure others calibrate to: exact, upright, and honest about your own tolerances.",
     "adj_chips": {
       "catalyst": [
-        "Precise",
-        "Incorruptible",
-        "Even-handed"
+        "Keeps your word",
+        "Does it properly",
+        "Earns your place"
       ],
       "friction": [
-        "Demanding",
-        "Unbending",
-        "By-the-book"
+        "Needs permission",
+        "Hates being wrong",
+        "Puts rules first"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Precise",
+            "word": "Keeps your word",
             "angles": {
-              "drive": "Exactness is your dialect. The estimate lands within percent, the summary contains nothing loose, the drawer holds what its label claims. Around you, vagueness feels briefly embarrassed of itself, and work passing through your hands comes out true to measure, every time it matters.",
-              "cost_self": "The budget you built in January closed the year eleven dollars off, across forty accounts, a variance your auditor circled with an exclamation mark and showed to colleagues. You considered the eleven dollars a miss. The auditor considered framing it. Both reactions were, in their way, accurate.",
-              "cost_others": "People stop estimating around you and start measuring, pulled upward by your example. Documents you have touched become the reference copies. When two versions of any number circulate, meetings resolve the dispute with four words, said without irony: check what theirs says."
+              "drive": "Keeping your word is the standard you hold above every other. A promise is a rule of your own making, and you would rather carry a hard yes to the end than give an easy maybe. Enjoy that, and let a few promises stay small.",
+              "cost_self": "Once given, your word outranks your own change of mind. You would rather be stuck in a promise than break it, and you remain long after it stopped fitting. Renegotiate one promise, since the way out you never take is what trust costs you.",
+              "cost_others": "The word you keep is the one you quietly expect from everyone. A promise binds you, and you hold people to their exact words ahead of their meaning. Give them the looser reading sometimes, because your word holds whether theirs is exact or not."
             }
           },
           {
-            "word": "Incorruptible",
+            "word": "Does it properly",
             "angles": {
-              "drive": "Your price does not exist. The convenient blindness, the adjusted figure, the favor with strings: each has approached you dressed in reasonable clothes, and each has left unbought. People stopped offering years ago, which is the cleanest audit result a character can post.",
-              "cost_self": "The developer’s envelope, offered with practiced lightness at the site meeting, was returned across the table before it finished landing, without commentary, and the inspection proceeded to its correct conclusion. The story circulated in both industries. Your approvals, consequently, are bankable at face value, everywhere.",
-              "cost_others": "Institutions position you where temptation concentrates, treasurer, examiner, referee, because your presence retires a whole category of risk. The compliment is structural: systems relax around your name. Somewhere in three organizations, rules exist that were written shorter because you would be the one holding them."
+              "drive": "Doing it properly is the only way you know. A rule gives your effort a shape, and you follow the proper procedure rather than any shortcut. Enjoy that your work holds, and allow one job a draft instead of the proper version.",
+              "cost_self": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserved. Let one thing be good enough, since the hours you never get back are what properly costs you.",
+              "cost_others": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step ahead of thanks. Lead with thanks sometimes, because your standard holds whether the proper step comes first or last."
             }
           },
           {
-            "word": "Even-handed",
+            "word": "Earns your place",
             "angles": {
-              "drive": "Your fairness holds under load. The friend and the stranger get the same terms, the popular opinion and the correct one get separated calmly, and both sides of any dispute leave your table feeling accurately weighed. Balance like yours is engineered. People rest whole arguments on it.",
-              "cost_self": "The inheritance dispute that was fracturing the family got handed, by unspoken consensus, to you, and your allocation, explained line by line at the kitchen table, was accepted by all four siblings, including the two who arrived with lawyers’ letters. The letters went home unopened.",
-              "cost_others": "Warring parties agree on you when they can agree on nothing else, which has become its own career. Your rulings hold without enforcement because both sides watched the scales the whole time. The nickname that follows you between organizations translates, roughly, to: the one they both trusted."
+              "drive": "Earning your place counts for more with you than being handed one. Rank only feels earned when the rules gave it, and you choose the slow route rather than the shortcut. Keep earning it that way, and let yourself accept the occasional gift.",
+              "cost_self": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Ask once this year, since the step never asked for is what earning slowly costs you.",
+              "cost_others": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record ahead of the talent. Credit the talent too, since your eye for the earned sees half a person."
             }
           }
         ]
@@ -93,31 +93,273 @@
       "friction": {
         "ledger": [
           {
-            "word": "Demanding",
+            "word": "Needs permission",
             "angles": {
-              "drive": "Your standard admits no rounding. The report is right or it is redone, the table is set correctly or reset, the apology contains the exact words or does not count. Excellence this consistent is genuinely rare, and living beside it is an occupation nobody applied for.",
-              "cost_self": "The thank-you card your daughter wrote got returned for a second draft, spelling corrected, sentiment intact but re-ordered. She was nine. The card that finally sent was perfect, and she has not voluntarily written one since. The standard held. Something else, harder to name, did not.",
-              "cost_others": "People proofread their texts to you, twice, and still feel the red pen through the phone. The quality you extract is real and measurable. So is the reluctance that precedes every submission, the small breath people take before showing you anything they made, including, lately, their choices."
+              "drive": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. Keep sight of this, that you are the one not giving the permission.",
+              "cost_self": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed, and that bill deserves remembering.",
+              "cost_others": "You pass the need for permission to anyone under you. Permission from above is the only yes you take, and you send their questions up rather than answer. You leave them waiting on permission you were free to give, a wait worth remembering."
             }
           },
           {
-            "word": "Unbending",
+            "word": "Hates being wrong",
             "angles": {
-              "drive": "The rule holds regardless of weather. The exception with merit, the mercy the moment obviously wanted, the technicality that ruins an honest case: your spine does not consult the specifics. Consistency this pure is a kind of integrity and a kind of blindness, wearing the same suit.",
-              "cost_self": "Your nephew missed the application deadline by one hour, with a hospital receipt explaining it, and your recommendation letter, promised for months, stayed unsent on principle: terms are terms. He got in the following year, elsewhere, and thanks a different uncle in the acknowledgments now.",
-              "cost_others": "People stopped bringing you their edge cases, the human ones that need judgment rather than enforcement, and the routing happened years ago, quietly. What reaches you now is only what fits the forms. You process it flawlessly, and never learn what the filters caught."
+              "drive": "Hating being wrong is the part of you that works hardest. A mistake marks your name in your eyes, and you give silence in place of any answer that risks being wrong. You would do well to remember that being wrong out loud is allowed.",
+              "cost_self": "Being wrong is what you have no procedure for. Right answers feel like the only safe ones, and you hold opinions back rather than risk being wrong. You pay in ideas never said for fear of being wrong, a price to hold on to.",
+              "cost_others": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong, and that right is worth remembering."
             }
           },
           {
-            "word": "By-the-book",
+            "word": "Puts rules first",
             "angles": {
-              "drive": "The manual outranks the moment. The procedure gets followed into outcomes the procedure never imagined, the form gets completed while the situation burns politely nearby, and initiative waits outside your job description, permanently, holding its useful ideas. Nothing you do is ever wrong. Much of it is beside the point.",
-              "cost_self": "The customer’s problem had an obvious two-minute fix and a four-day approved pathway, and you chose the pathway, correctly, while they watched the fix sit there, visible to everyone. They complied, complained, and switched providers. The file shows full compliance. The file is complete and the client is gone.",
-              "cost_others": "Colleagues invoke your name as a unit of process: run it past the book, they say, meaning you. In audits you are priceless. In fires, people have learned to route around your desk first and apologize to it later, a workflow so established it appears, unofficially, in the onboarding notes."
+              "drive": "Putting rules first is how you stay steady. A rule asks nothing of your judgement, and you follow it rather than read the person in front of you. Keep this with you, that you hold the rule and the rule does not hold you.",
+              "cost_self": "Rules come first with you, even ones that hurt. Breaking a rule feels like losing standing, and you stay inside a dead rule rather than step out. You pay in standing a rule kept you from, and the bill is worth keeping in view.",
+              "cost_others": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it ahead of the person's case. Each time the rule goes first, you take their hearing, and that is the thing to keep in mind."
             }
           }
         ]
       }
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Precise"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Precise"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Exactness is your dialect. The estimate lands within percent, the summary contains nothing loose, the drawer holds what its label claims. Around you, vagueness feels briefly embarrassed of itself, and work passing through your hands comes out true to measure, every time it matters."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The budget you built in January closed the year eleven dollars off, across forty accounts, a variance your auditor circled with an exclamation mark and showed to colleagues. You considered the eleven dollars a miss. The auditor considered framing it. Both reactions were, in their way, accurate."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People stop estimating around you and start measuring, pulled upward by your example. Documents you have touched become the reference copies. When two versions of any number circulate, meetings resolve the dispute with four words, said without irony: check what theirs says."
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Incorruptible"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Incorruptible"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your price does not exist. The convenient blindness, the adjusted figure, the favor with strings: each has approached you dressed in reasonable clothes, and each has left unbought. People stopped offering years ago, which is the cleanest audit result a character can post."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The developer’s envelope, offered with practiced lightness at the site meeting, was returned across the table before it finished landing, without commentary, and the inspection proceeded to its correct conclusion. The story circulated in both industries. Your approvals, consequently, are bankable at face value, everywhere."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Institutions position you where temptation concentrates, treasurer, examiner, referee, because your presence retires a whole category of risk. The compliment is structural: systems relax around your name. Somewhere in three organizations, rules exist that were written shorter because you would be the one holding them."
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Even-handed"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Even-handed"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your fairness holds under load. The friend and the stranger get the same terms, the popular opinion and the correct one get separated calmly, and both sides of any dispute leave your table feeling accurately weighed. Balance like yours is engineered. People rest whole arguments on it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The inheritance dispute that was fracturing the family got handed, by unspoken consensus, to you, and your allocation, explained line by line at the kitchen table, was accepted by all four siblings, including the two who arrived with lawyers’ letters. The letters went home unopened."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Warring parties agree on you when they can agree on nothing else, which has become its own career. Your rulings hold without enforcement because both sides watched the scales the whole time. The nickname that follows you between organizations translates, roughly, to: the one they both trusted."
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Demanding"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Demanding"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your standard admits no rounding. The report is right or it is redone, the table is set correctly or reset, the apology contains the exact words or does not count. Excellence this consistent is genuinely rare, and living beside it is an occupation nobody applied for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The thank-you card your daughter wrote got returned for a second draft, spelling corrected, sentiment intact but re-ordered. She was nine. The card that finally sent was perfect, and she has not voluntarily written one since. The standard held. Something else, harder to name, did not."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People proofread their texts to you, twice, and still feel the red pen through the phone. The quality you extract is real and measurable. So is the reluctance that precedes every submission, the small breath people take before showing you anything they made, including, lately, their choices."
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Unbending"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Unbending"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The rule holds regardless of weather. The exception with merit, the mercy the moment obviously wanted, the technicality that ruins an honest case: your spine does not consult the specifics. Consistency this pure is a kind of integrity and a kind of blindness, wearing the same suit."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your nephew missed the application deadline by one hour, with a hospital receipt explaining it, and your recommendation letter, promised for months, stayed unsent on principle: terms are terms. He got in the following year, elsewhere, and thanks a different uncle in the acknowledgments now."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People stopped bringing you their edge cases, the human ones that need judgment rather than enforcement, and the routing happened years ago, quietly. What reaches you now is only what fits the forms. You process it flawlessly, and never learn what the filters caught."
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "By-the-book"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "By-the-book"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The manual outranks the moment. The procedure gets followed into outcomes the procedure never imagined, the form gets completed while the situation burns politely nearby, and initiative waits outside your job description, permanently, holding its useful ideas. Nothing you do is ever wrong. Much of it is beside the point."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The customer’s problem had an obvious two-minute fix and a four-day approved pathway, and you chose the pathway, correctly, while they watched the fix sit there, visible to everyone. They complied, complained, and switched providers. The file shows full compliance. The file is complete and the client is gone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_正官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Colleagues invoke your name as a unit of process: run it past the book, they say, meaning you. In audits you are priceless. In fires, people have learned to route around your desk first and apologize to it later, a workflow so established it appears, unofficially, in the onboarding notes."
+    }
+  ]
 }

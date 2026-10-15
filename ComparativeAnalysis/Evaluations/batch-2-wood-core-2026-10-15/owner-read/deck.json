@@ -10,11 +10,11 @@
    },
    {
     "letter": "B",
-    "text": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Keep looking that far, and accept seeing less of what is near."
+    "text": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Looking far costs you some of what is near, and the trade favors you."
    },
    {
     "letter": "C",
-    "text": "You see what a thing will become before it looks like anything. Needing a way forward is how you feel safe, and that puts the far chance ahead of the near one. Trust that early sight, and keep track of what is already yours."
+    "text": "You see what a thing will become before it looks like anything. Needing a way forward is how you feel safe, and that puts the far chance ahead of the near one. Trust that early sight, and keep track of what you already have."
    }
   ]
  },
@@ -29,7 +29,7 @@
    },
    {
     "letter": "B",
-    "text": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. Check the opening at hand before looking past it, since that one closes on you most."
+    "text": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. You lose the opening at hand most, and one quick look before passing it keeps it."
    }
   ]
  },
@@ -40,7 +40,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. Let them share the view, since you see far enough for all of them."
+    "text": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. If you let them look with you, you see far enough for all of them."
    },
    {
     "letter": "B",
@@ -63,7 +63,7 @@
    },
    {
     "letter": "C",
-    "text": "A chance within reach is hard to leave on the table, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. Keep taking them with your eyes open, since a few will cost you."
+    "text": "A chance within reach is hard to leave alone, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. You take them best with your eyes open, since some of them cost you."
    }
   ]
  },
@@ -74,7 +74,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, since the wrong ones cost what the sure ones kept."
+    "text": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, because the wrong ones cost what the sure ones kept."
    },
    {
     "letter": "B",
@@ -89,7 +89,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. Let them size the next one, since the chance you take is theirs too."
+    "text": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. You take it for them too, and choosing its size with them costs you nothing."
    },
    {
     "letter": "B",
@@ -108,7 +108,7 @@
    },
    {
     "letter": "B",
-    "text": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month out rather than put it away. Keep sharing, and know the price is a thinner cushion than you have earned."
+    "text": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. You share because it is right for you, and the thinner cushion is the price."
    },
    {
     "letter": "C",
@@ -127,7 +127,7 @@
    },
    {
     "letter": "B",
-    "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. Keep some of each win back, since that is money you later go without."
+    "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. If you keep some of each win back, the lean year stops costing you."
    }
   ]
  },
@@ -138,7 +138,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "You share each win rather than hold it until the next. Giving in bursts is how you love, and you give those you provide for plenty one year and nothing the next. Share in a shape that lasts, since they will come to you again."
+    "text": "You share each win rather than sit on it. Giving in bursts is your way of loving, and you hand them plenty one year and nothing the next. You do them more good sharing in a shape that lasts, since they come back."
    },
    {
     "letter": "B",
@@ -153,7 +153,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Every new chance pulls at you harder than the one you already took. You need the feeling of a beginning more than a middle, and chasing is how you get it. Remember that the one you are standing in was the one you chased."
+    "text": "Every new chance pulls at you harder than the one you already took. You need the feeling of a beginning more than a middle, and chasing is how you get it. You chased the one you have now just as hard, and you know it."
    },
    {
     "letter": "B",
@@ -176,7 +176,7 @@
    },
    {
     "letter": "B",
-    "text": "Chasing the next chance costs you the one you hold now. Each new start takes the strength the last one needs, and you would rather begin again than finish. Do not forget that the chance in your hands closes while you are off chasing."
+    "text": "Chasing the next chance costs you the one you hold now. Each new start takes the strength the last one needs, and you would rather begin again than finish. You already know that the chance in your hands closes while you are off chasing."
    }
   ]
  },
@@ -191,7 +191,7 @@
    },
    {
     "letter": "B",
-    "text": "You chase the next chance before anyone is out of the last one. You want starting more than staying, and you give the new venture what you owed the old one. You already know that you leave someone holding each chance you chase past."
+    "text": "You chase the next chance before anyone is out of the last one. You want starting more than staying, and you give the new venture what you owed the old one. Try to remember that you leave someone holding each chance you chase past."
    }
   ]
  },
@@ -240,7 +240,7 @@
    },
    {
     "letter": "B",
-    "text": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. Remember, you give each person in your plans the part of you the others left."
+    "text": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. Do not forget that you give each person in your plans the part of you the others left."
    }
   ]
  },
@@ -251,7 +251,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Starting a thing gives you more than finishing it ever does. The beginning is where the feeling lives, and you spend your strength there rather than on the last stretch. Remember that the half you did pays nothing until the rest is done."
+    "text": "Starting a thing gives you more than finishing it. The beginning is where the feeling lives, and you spend your strength there rather than on the last stretch. You get nothing for the half until the rest is done, and you need no reminding."
    },
    {
     "letter": "B",
@@ -270,7 +270,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Finishing is what you save for later. The last stretch asks more of you than the first, and you open a new thing sooner than you close an old one. Remember that the money and the credit sit at the end you walk away from."
+    "text": "Finishing is what you save for later. The last stretch costs you more than the first, and you open a new thing sooner than you close an old one. Hold onto the thought that the money and the credit sit at the end you leave."
    },
    {
     "letter": "B",
@@ -285,7 +285,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. Try to remember that you give the people waiting your start and somebody else's finish."
+    "text": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. Make a note that you give the people waiting your start and somebody else's finish."
    },
    {
     "letter": "B",
@@ -308,7 +308,7 @@
    },
    {
     "letter": "C",
-    "text": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Keep at it, and accept the older version a while longer than you need."
+    "text": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. You pay by living with the older version a while longer than you need."
    }
   ]
  },
@@ -323,7 +323,7 @@
    },
    {
     "letter": "B",
-    "text": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Let one go once fixing costs more than it is worth, since those hours never come back."
+    "text": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Once fixing costs more than the thing is worth, letting it go gives you those hours back."
    }
   ]
  },
@@ -338,7 +338,7 @@
    },
    {
     "letter": "B",
-    "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Let someone else pick one new thing a year, since you make the rest last."
+    "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. You make the rest last, and one new thing a year is theirs to pick."
    }
   ]
  },
@@ -349,7 +349,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, so you put money away rather than enjoy it. Keep saving first, and let the price be a few good things you were slow to buy."
+    "text": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. Saving first suits you, and a few good things you were slow to buy are the price."
    },
    {
     "letter": "B",
@@ -368,7 +368,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. Spend one saved sum on something you want, since the pleasure you put off is the real price."
+    "text": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. If you spend one saved sum on something you want, the pleasure you put off stops being the price."
    },
    {
     "letter": "B",
@@ -398,11 +398,11 @@
   "options": [
    {
     "letter": "A",
-    "text": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you stay with what you have rather than look at what else there is. Stay loyal, and know the price is staying a while past where it serves you."
+    "text": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. You stay a while past where it serves you, and that is the price of loyalty like yours."
    },
    {
     "letter": "B",
-    "text": "Loyalty is your default, given before it is asked for. Choosing again asks less of you than starting fresh, and that puts the person you have ahead of anyone new. Keep giving it, and let the few people you never met be the price."
+    "text": "Loyalty is your default, given before it is asked for. Choosing again asks less of you than starting fresh, and you place the person you have ahead of anyone new. Keep giving it, and let the few people you never met be the price."
    },
    {
     "letter": "C",
@@ -417,7 +417,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Ask every so often, since loyalty to what does not love you back is closeness you go without."
+    "text": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Asking every so often costs you little, while loyalty to what does not love you back costs you closeness."
    },
    {
     "letter": "B",
@@ -436,7 +436,7 @@
    },
    {
     "letter": "B",
-    "text": "Loyalty is how you love, lived rather than said. Choosing someone again matters to you more than saying so, and you let the staying stand in for the words. Say it out loud sometimes, since being chosen again only counts when it is said."
+    "text": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Being chosen again is a thing you give out loud, and you give it less than you mean to."
    }
   ]
  },
@@ -447,7 +447,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "What comes into your keeping stays there for good. Needing a thing you let go is the loss you fear most, and you store it for years rather than lack it once. You keep the fear along with the thing, and that is worth remembering."
+    "text": "What comes into your keeping stays there for good. Needing a thing you let go is the loss you fear most, and you store it for years rather than lack it once. You keep the fear along with the thing, and that bears repeating."
    },
    {
     "letter": "B",
@@ -455,7 +455,7 @@
    },
    {
     "letter": "C",
-    "text": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. Keep in mind that everything you keep also has to be looked after."
+    "text": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. Tell yourself plainly that everything you keep also has to be looked after."
    }
   ]
  },
@@ -466,7 +466,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Keeping everything keeps you from being caught short, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. Remember that you are renting space for things that give nothing back."
+    "text": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. Let yourself see that you rent space for things that give nothing back."
    },
    {
     "letter": "B",
@@ -485,7 +485,7 @@
    },
    {
     "letter": "B",
-    "text": "You fill the home you share with things you cannot drop. Keeping matters more to you than space, and you turn the house into storage with a family inside. Do not forget that you charge the people at home in space for what you keep."
+    "text": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and you fill the home from the walls in. Keep sight of how you charge the people at home for it in space."
    }
   ]
  },
@@ -496,7 +496,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Staying put feels like safety, whatever the place becomes. Moving asks more of you than staying, so you keep the known rather than go toward the better. Bear in mind that a place you will not leave is not one that holds you."
+    "text": "Staying put feels like safety, whatever the place becomes. Moving asks more of you than staying, so you keep the known rather than go toward the better. Know that a place you will not leave is not one that holds you."
    },
    {
     "letter": "B",
@@ -504,7 +504,7 @@
    },
    {
     "letter": "C",
-    "text": "You are hard to move and you know it. Leaving costs more than staying, and you stay in the job and the home past their use rather than restart. You choose to stay every day you do not leave, and it helps to remember that."
+    "text": "You are hard to move, as you would say yourself. Leaving asks more of you than staying does, and you keep the job and home past their use. You choose to stay every day you do not leave, and that choice deserves a second look."
    }
   ]
  },
@@ -515,7 +515,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it. Remember that the chance to go closes as you decide, and you pay in years."
+    "text": "Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it. Take it as given that the chance to go closes during the deciding."
    },
    {
     "letter": "B",
@@ -534,7 +534,7 @@
    },
    {
     "letter": "B",
-    "text": "You stay, and hold the people closest to you in place. Staying matters to you more than moving somewhere better together, and you set the whole house to your speed. Keep remembering that you make them wait on a move you are not making."
+    "text": "You stay, and hold the people closest to you in place. Staying matters to you more than moving somewhere better together, and you set the whole house to your speed. Ask yourself whether you make them wait on a move you are not making."
    }
   ]
  },
@@ -545,11 +545,11 @@
   "options": [
    {
     "letter": "A",
-    "text": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. Try to remember that you can afford more than you let yourself have."
+    "text": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. Be honest with yourself about how much more you can afford than you let yourself have."
    },
    {
     "letter": "B",
-    "text": "Spending comes hard to you, even on what you need. Money going out is the loss that stings most, and you go without rather than pay for the thing. You already know you are allowed to pay full price for what you want."
+    "text": "Spending comes hard to you, even on what you need. Money going out stings you most, and you go without rather than pay for the thing. You are allowed to pay full price for what you want, as you well know."
    },
    {
     "letter": "C",
@@ -568,7 +568,7 @@
    },
    {
     "letter": "B",
-    "text": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it on the thing, since spending feels like a loss already begun. Notice that you end up with the money and without the thing it was for."
+    "text": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Keep it in view that you end up with the money and without the thing it was for."
    }
   ]
  },
@@ -579,7 +579,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Spending on the people you love comes no easier to you than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. Remember that what you save on the people you love comes out of their side."
+    "text": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. Spare a thought for what you save on them, since it comes out of their side."
    },
    {
     "letter": "B",
@@ -681,7 +681,7 @@
    },
    {
     "letter": "B",
-    "text": "You turn most shared things into a race. Winning beside someone matters more than being beside them, and that turns a friend into a finish line. Run one thing with them instead of against them, because racing costs them the company they came for."
+    "text": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. You cost them the rest they came for by racing on, and letting one end returns it."
    }
   ]
  },
@@ -730,7 +730,7 @@
    },
    {
     "letter": "B",
-    "text": "Your bets come with other people's names on them. You would rather share the risk than own the call, and that puts their money where your nerve is. Ask before counting them in, because shared risk takes from them a choice they never made."
+    "text": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Whenever you count them in unasked, you take a choice they never made, and one question first gives it back."
    }
   ]
  },
@@ -971,7 +971,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. Match a friend's step once a week, because you cost them the company of moving together."
+    "text": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. You cost them the company of moving together, and one matched step a week is cheap."
    },
    {
     "letter": "B",
@@ -1020,7 +1020,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Holding yourself to one standard means holding your friends to it. Staying the same matters more than meeting anyone halfway, and that leaves no slack for an off day. Bend for one friend this month, since consistency costs them the mercy of an easier you."
+    "text": "Holding yourself to one standard means holding friends to it. Staying the same matters more than meeting anyone halfway, and an off day gets no slack. Whenever you bend for one friend, you hand them the easier you, and consistency is none the poorer."
    },
    {
     "letter": "B",
@@ -1035,7 +1035,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Where one question would save you days, you lose the days instead. Needing nothing is how you prefer your strength to show, so you spend yourself ahead of spending a favour. Remember that you keep the whole bill and the whole delay along with it."
+    "text": "Where asking would save you days, you lose the days. Needing nothing is how you prefer your strength to show, so you spend yourself ahead of asking for a hand. Remember that by never asking you keep the whole bill and the delay with it."
    },
    {
     "letter": "B",
@@ -1186,7 +1186,7 @@
    },
    {
     "letter": "B",
-    "text": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. Let the surface go, since every subject left there was the price of the one you own."
+    "text": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. You pay for the one you own with every subject left at the surface."
    },
    {
     "letter": "C",
@@ -1205,7 +1205,7 @@
    },
    {
     "letter": "B",
-    "text": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. Surface a little sooner, because the depth keeps and an open door does not."
+    "text": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. You lose nothing of the depth by surfacing a little sooner, and keep the open door."
    }
   ]
  },
@@ -1239,7 +1239,7 @@
    },
    {
     "letter": "C",
-    "text": "You read the gap in a conversation sooner than the words. Sensing the shape underneath keeps you safe, and you act on that shape rather than wait for it to be named. Ask for the words anyway, since an unchecked reading stays a guess."
+    "text": "You read the gap in a conversation sooner than the words. Sensing the shape underneath keeps you safe, and you act on that shape rather than wait for it to be named. You turn a guess into knowing the moment you ask for the words."
    }
   ]
  },
@@ -1265,7 +1265,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. Let the sentence finish, because the telling was the other person's to do."
+    "text": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. You give the other person back their telling whenever you let the sentence finish."
    },
    {
     "letter": "B",
@@ -1480,7 +1480,7 @@
    },
    {
     "letter": "B",
-    "text": "Around you, a hard day gets quieter, and you never point it out. Holding steady for someone comes easier to you than being held yourself, and the calm is real either way. Keep some of it back, because you steady everyone ahead of yourself."
+    "text": "Around you, a hard day gets quieter, and you never mention it. Holding steady for someone comes easier to you than being held, and the calm is real either way. You steady everyone ahead of yourself, and are allowed to keep some of it back."
    },
    {
     "letter": "C",
@@ -1499,7 +1499,7 @@
    },
    {
     "letter": "B",
-    "text": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. Let someone steady you for once, because your own upset is the one left unsettled."
+    "text": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. You leave your own upset unsettled until you let someone steady you for once."
    }
   ]
  },
@@ -1533,7 +1533,7 @@
    },
    {
     "letter": "C",
-    "text": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. Trust it anyway, since the proof shows up later than the understanding."
+    "text": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You can trust the gap, since the proof turns up later than the understanding."
    }
   ]
  },
@@ -1548,7 +1548,7 @@
    },
    {
     "letter": "B",
-    "text": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper anyway, because the chances asking for it close without you."
+    "text": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper once, because the chances asking for it close without you."
    }
   ]
  },
@@ -1559,7 +1559,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "You soak up what someone says before deciding whether you agree. Taking it in is easier for you than pushing back, so your disagreement stays where it helps no one. Say it anyway, because you help more with an honest no than a kind yes."
+    "text": "Soaking up what someone says comes ahead of deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. You help more with an honest no than a kind yes, and yours is already there."
    },
    {
     "letter": "B",
@@ -1593,7 +1593,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. Say it once, because what you never asked for is what you gave up unnoticed."
+    "text": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. You gave up what you never asked for without noticing, and one question changes that."
    },
    {
     "letter": "B",
@@ -1631,7 +1631,7 @@
    },
    {
     "letter": "C",
-    "text": "Things happen to you more than you make them. A choice you never made cannot be wrong, and that safety is worth more to you than the say you give up. Remember that you still end up somewhere when you drift, just nowhere you picked."
+    "text": "You go along with what is moving instead of steering it. You find being carried the most comfortable thing there is, and would rather keep that comfort than take the wheel. Remember that you still end up somewhere when you drift, just nowhere you picked."
    }
   ]
  },
@@ -1642,7 +1642,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Drifting spares you a wrong turn. A decision avoided feels like a risk avoided, and you renew the lease rather than ask what you want next. You pay for each drifted chance in years, and that is worth keeping in mind."
+    "text": "Drifting keeps the days quiet, and quiet feels like care. Stirring nothing costs less than reaching, and you renew the lease rather than ask what you want. Do not lose sight of how little you learn of your own wants while nothing changes at home."
    },
    {
     "letter": "B",
@@ -1695,7 +1695,7 @@
    },
    {
     "letter": "B",
-    "text": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. Remember that you give up the very chances the shelter was for by never stepping out."
+    "text": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. Never forget that you give up the very chances the shelter was for by staying in."
    }
   ]
  },
@@ -1706,7 +1706,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. Remember that you offer those you love your safety in place of your company."
+    "text": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company, and the swap is yours to notice."
    },
    {
     "letter": "B",
@@ -1789,7 +1789,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it ahead of checking the cost. Enjoy the line, and count the doors it closes that you needed open."
+    "text": "Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it ahead of checking the cost. You close a chance you wanted with a good line more often than you notice."
    },
    {
     "letter": "B",
@@ -1819,11 +1819,11 @@
   "options": [
    {
     "letter": "A",
-    "text": "Performing comes to you more naturally than anything else. You come alive with people watching, and that puts the show ahead of the rehearsal every time. Keep performing, and take the price with it, that you feel most real when watched."
+    "text": "Performing comes to you more naturally than anything else. You come alive with people watching, and that puts the show ahead of the rehearsal every time. If you feel most real when watched, that is the gift and its price in one."
    },
    {
     "letter": "B",
-    "text": "You change in front of an audience, for the better. Being watched is where your focus comes from, and you perform a thing sooner than you practice it. Take the stage, and know its price, that nothing you do alone feels quite finished."
+    "text": "You change in front of an audience, for the better. Being watched is where your focus comes from, and you perform a thing sooner than you practice it. You pay for that in private, since nothing you do alone feels quite finished."
    },
    {
     "letter": "C",
@@ -1872,11 +1872,11 @@
    },
    {
     "letter": "B",
-    "text": "You think fastest with no time to think. You light up under pressure rather than freeze, so you answer on the spot instead of taking it away with you. Trust the speed, and see its price, that you rarely give the slow answer its turn."
+    "text": "You think fastest with no time to think. You light up under pressure rather than freeze, so you answer on the spot instead of taking it away with you. You rarely give the slow answer its turn, and the speed is worth that most days."
    },
    {
     "letter": "C",
-    "text": "Thinking fast is your natural speed. You trust a quick answer more than a considered one, and you prefer nearly right now to fully right later. Keep the speed, with an eye on the cost, that you are sometimes only quick."
+    "text": "Thinking fast is your natural speed. You trust a quick answer more than a considered one, and you prefer nearly right now to fully right later. You are sometimes only quick, and you know that is the cost of being first."
    }
   ]
  },
@@ -1887,7 +1887,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Thinking fast is the talent you lean on hardest. You have the first answer before the question is finished, and you trust it ahead of the second. Love the quickness, and name its cost, the better answer you never waited for."
+    "text": "Thinking fast is the talent you lean on hardest. You have the first answer before the question is finished, and you trust it ahead of the second. You spend the better answer you never waited for to keep the quickness."
    },
    {
     "letter": "B",
@@ -1925,7 +1925,7 @@
    },
    {
     "letter": "C",
-    "text": "You talk back before you have decided whether it is worth it. You read a rule you did not write as an insult, and you pick trouble over being quiet. Keep in mind, you can stay quiet without giving in."
+    "text": "You talk back before you have decided whether it is worth it. You read a rule you did not write as an insult, and you pick trouble over being quiet. Do not lose sight of the standing you spend on each answer back."
    }
   ]
  },
@@ -2117,7 +2117,7 @@
    },
    {
     "letter": "B",
-    "text": "Enjoying something quietly was never your way. You feel a pleasure fully only once it is shared, and you would rather enjoy a small thing with company than a big thing alone. Keep enjoying out loud, and accept that it costs you the private sort."
+    "text": "Enjoying something quietly was never your way. You feel a pleasure fully only once it is shared, and you would rather enjoy a small thing with company than a big thing alone. You pay for enjoying out loud with the private kind, a fair trade."
    },
    {
     "letter": "C",
@@ -2162,11 +2162,11 @@
   "options": [
    {
     "letter": "A",
-    "text": "What you make comes out without strain. Ease is the sign you trust, and you do the thing that flows sooner than you force the thing that counts. Trust the ease, and watch for its one price, that nothing made without effort feels fully yours."
+    "text": "What you make comes out without strain. Ease is the sign you trust, and you do the thing that flows sooner than you force the thing that counts. If it came without effort, you own it a little less, and that is the whole price."
    },
    {
     "letter": "B",
-    "text": "Things come easily to you, and you let them. Forcing a thing spoils it in your hands, so you wait for the easy way in rather than push at the hard one. Keep that lightness, and know it hides how much you do."
+    "text": "Things come easily to you, and you let them. Forcing a thing spoils it in your hands, so you wait for the easy way in rather than push at the hard one. You hide how much you do behind that lightness, even from yourself."
    },
    {
     "letter": "C",
@@ -2460,7 +2460,7 @@
    },
    {
     "letter": "B",
-    "text": "You decide fast because being wrong sits easier with you than waiting. Metal runs short in you, and one firm decision gives your push the shape it was missing. Trust that, and let the full picture catch up before the next decision."
+    "text": "You decide fast because being wrong sits easier with you than waiting. One firm decision gives your push the shape it was waiting for. Trust that, and let the full picture catch up before the next decision."
    },
    {
     "letter": "C",
@@ -2509,7 +2509,7 @@
    },
    {
     "letter": "B",
-    "text": "You are harder on yourself than any boss would dare be. Being correct matters more to you than being well, and you grade your week hard instead of living it. Remember that passing your own hard test is permitted."
+    "text": "You are harder on yourself than any boss would dare be. Being tested matters more to you than being well, and you grade your week hard instead of living it. Remember that passing your own hard test is permitted."
    },
    {
     "letter": "C",
@@ -2539,7 +2539,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "The hardness you keep for yourself sets everyone's rate. Your mistakes feel unforgivable, and being hard on people near you comes easier than letting one pass. You set the going rate of hardness, and it helps to remember it starts at home."
+    "text": "The hardness you keep for yourself sets everyone's rate. Your mistakes feel unforgivable, and being hard on people near you comes easier than letting one pass. You take their ease with every mistake your hardness refuses to pass, and it helps to remember that."
    },
    {
     "letter": "B",
@@ -2626,7 +2626,7 @@
    },
    {
     "letter": "B",
-    "text": "You pay more for every push than the thing you pushed does. Your core spends faster than it takes in, and you push on rather than refuel. You live in the body you push, and that is worth remembering."
+    "text": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You live in the body you push, and that is worth remembering."
    }
   ]
  },
@@ -2773,7 +2773,7 @@
    },
    {
     "letter": "B",
-    "text": "Slowly earned is the only kind of place you trust. An early title feels unearned, and you wait for the rules to promote you rather than ask. Ask once this year, since the step never asked for is what earning it slowly costs you."
+    "text": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Ask once this year, since the step never asked for is what earning slowly costs you."
    }
   ]
  },
@@ -2833,7 +2833,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "You pass the need for permission down to anyone under you. Permission from above is the only yes you accept, and you send their questions up rather than answer. You can give them permission yourself, and that is the part to remember."
+    "text": "You pass the need for permission to anyone under you. Permission from above is the only yes you take, and you send their questions up rather than answer. You leave them waiting on permission you were free to give, a wait worth remembering."
    },
    {
     "letter": "B",
@@ -3010,7 +3010,7 @@
    },
    {
     "letter": "B",
-    "text": "You want what you can hold more than what you are promised, and that usually makes you slow to buy and slower to let go."
+    "text": "You want what you can hold more than what you are promised, and that usually keeps your money in things you can walk around."
    },
    {
     "letter": "C",
@@ -3258,7 +3258,7 @@
    },
    {
     "letter": "B",
-    "text": "Wood beside wood makes a forest, the old texts say, and like gathers with like. A trunk that stands alone grows wide, and a trunk among others grows tall, because every tree reaches for the same light and drinks from the same ground. The one beside it is shelter and competition. Nothing is handed out in a forest. Height is taken, a season's growth at a time, by the trunk that reaches first."
+    "text": "Wood beside wood makes a forest, the old texts say, and like gathers with like. A trunk that stands alone grows wide, and a trunk among others grows tall, because every tree reaches for the same light and drinks from the same ground. The one beside it is shelter and competition. Nothing is handed out in a forest. Height is taken, a season's growth at a time, by whoever reaches first."
    }
   ]
  },
@@ -3389,7 +3389,7 @@
   "options": [
    {
     "letter": "A",
-    "text": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the taking in runs ahead of use, so you read one more thing instead of deciding and stay sheltered past the need."
+    "text": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, and you understand things instead of using them while shelter holds you longer than you meant."
    },
    {
     "letter": "B",
@@ -3423,7 +3423,7 @@
    },
    {
     "letter": "B",
-    "text": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. You learn one more thing because deciding would end the learning. Pick a date and make the call on it. Finish one small thing and show it to someone."
+    "text": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. No amount of knowing makes the call for you. Pick a date and make the call on it. Finish one small thing and show it to someone."
    }
   ]
  },
@@ -3472,7 +3472,7 @@
    },
    {
     "letter": "B",
-    "text": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Sit with one slow book before the next decision."
+    "text": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Learn the whole thing before you take a step."
    }
   ]
  },
@@ -3502,7 +3502,7 @@
    },
    {
     "letter": "B",
-    "text": "clause: the forest grows on thin rain, every new leaf paid from the trunk's own store | remedy: Sit with one slow book before the next decision."
+    "text": "clause: the forest grows on thin rain, every new leaf paid from the trunk's own store | remedy: Learn the whole thing before you take a step."
    }
   ]
  },

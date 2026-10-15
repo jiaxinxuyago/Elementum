@@ -16,14 +16,14 @@
     "k2_functional": "Your rules are field orders: few, absolute, and enforced first on your own conduct.",
     "adj_chips": {
       "catalyst": [
-        "Battle-ready",
-        "Disciplined",
-        "Surgical"
+        "Takes charge",
+        "Thrives under pressure",
+        "Decides fast"
       ],
       "friction": [
-        "Punishing",
-        "Ruthless",
-        "Blunted"
+        "Hard on yourself",
+        "Never off duty",
+        "Pushes too hard"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Battle-ready",
+            "word": "Takes charge",
             "angles": {
-              "drive": "Readiness is your resting state. The plan B exists before plan A launches, the difficult conversation is pre-rehearsed, the go-bag, literal or mental, stays packed. When trouble finally arrives it finds you already dressed, and the calm of the prepared is your signature entrance.",
-              "cost_self": "The client called at seven with the emergency everyone else needed a day to process, and you opened the folder you had built for exactly this scenario three months earlier, unasked. The call lasted eleven minutes. The folder had been waiting longer than the emergency had existed.",
-              "cost_others": "People check your reaction before deciding how scared to be, and your reaction is usually to start executing. Teams describe going into hard weeks behind you the way soldiers describe good sergeants: nobody promises it will be pleasant, everybody knows the plan will hold."
+              "drive": "Taking charge comes to you before anyone asks. A crisis gives your force a charge to carry, and you carry it yourself rather than wait for someone else to step up. Let someone else take charge sometimes, since always leading means never being carried.",
+              "cost_self": "Whenever something goes wrong you are already in charge. You would rather hold the charge than trust it to anyone, and the load stays yours by choice. Hand one charge over this month, because the rest you skip is a price only you pay.",
+              "cost_others": "In trouble that is not yours, taking charge is your first move. You take the charge ahead of being asked, and the people near you give up their own decisions early. Leave one charge unclaimed, since the people you lead need practice too."
             }
           },
           {
-            "word": "Disciplined",
+            "word": "Thrives under pressure",
             "angles": {
-              "drive": "Your discipline is structural steel, not decoration. The habit holds on the bad days, which is the only measurement that counts: the routine survives travel, illness, and success, each of which kills most people’s systems. What you commit to becomes load-bearing, permanently.",
-              "cost_self": "Two hundred consecutive weeks of the same training schedule, through two job changes and one broken hand, adjusted around the cast rather than paused for it. The physical therapist asked to see the log, then photographed it for her office wall, as evidence of a species.",
-              "cost_others": "Your consistency reads as almost mechanical until people need to borrow it. Then they discover the practical magic: things placed in your keeping happen, on schedule, indefinitely. Whole projects get architected around your reliability the way bridges get designed around their strongest member."
+              "drive": "Pressure is where you do your best work. A real stake lets you thrive where comfort lets you drift, and being tested suits you better than being at ease. Keep thriving on it, and notice that nothing without pressure gets the same care.",
+              "cost_self": "Under pressure you become the self you trust most. Calm holds nothing to thrive on, and you take one more load rather than sit through a quiet week. Give yourself one empty day, since thriving charges you in rest you never take.",
+              "cost_others": "You expect everyone near you to thrive on the pressure you do. Stakes bring out your best, and you set pressure on others ahead of asking whether they wanted any. Ease the pressure sometimes, since those you push pay in calm they lose."
             }
           },
           {
-            "word": "Surgical",
+            "word": "Decides fast",
             "angles": {
-              "drive": "Your interventions are exact. Where others swing wide, you find the one line to cut, the one word to change, the one person to call, and the problem separates cleanly from the situation. Minimal force, placed precisely: it looks effortless and is actually aim.",
-              "cost_self": "The failing project had eleven proposed fixes on the whiteboard, and you crossed out ten, changed one contract clause, and the entire dispute dissolved by Friday. The team spent the sprint braced for surgery. What happened was closer to acupuncture, and nobody bled.",
-              "cost_others": "People bring you tangles the way patients bring specialists their worst scans, hoping for precision instead of sympathy, and receiving exactly that. Your fixes rarely need revisiting. The scar tissue around problems you have handled is famously minimal, which is why the referrals never stop."
+              "drive": "Deciding fast is how you stop a crisis from deciding for you. A quick decision points your push somewhere, and you accept being wrong early rather than being right too late. Keep the speed, and give one slow decision its day sometimes.",
+              "cost_self": "Fast decisions are the ones you trust. Deciding quickly keeps you ahead of the crisis, and you take the first good option rather than the best. Sleep on one decision a month, because the better option you never saw is what speed costs you.",
+              "cost_others": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Hold one decision open, because the people you decide for pay with their say."
             }
           }
         ]
@@ -93,31 +93,273 @@
       "friction": {
         "ledger": [
           {
-            "word": "Punishing",
+            "word": "Hard on yourself",
             "angles": {
-              "drive": "Your corrections carry more force than the error weighed. The missed detail gets a review nobody forgets, the small failure gets a consequence with edges, and people leave your feedback sessions altered. Standards were the point once. The punishment developed its own appetite.",
-              "cost_self": "The report had one wrong figure in forty pages, and your response, delivered in front of the team, traced everywhere the mistake had come from, for six minutes. The analyst fixed it in one. The other thirty-nine pages were excellent, a fact that attended the meeting silently.",
-              "cost_others": "People submit work to you the way defendants approach sentencing, hoping for mercy rates you have never once published. The quality around you is genuinely high, and it is maintained the way ports maintain sea walls: through repeated, memorable demonstrations of what happens without them."
+              "drive": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you fail your own hard test sooner than pass someone else's. Keep in mind that you answer to no judge harder than yourself.",
+              "cost_self": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. Bear in mind that being this hard costs you credit never claimed and rest never taken.",
+              "cost_others": "The hardness you keep for yourself sets everyone's rate. Your mistakes feel unforgivable, and being hard on people near you comes easier than letting one pass. You take their ease with every mistake your hardness refuses to pass, and it helps to remember that."
             }
           },
           {
-            "word": "Ruthless",
+            "word": "Never off duty",
             "angles": {
-              "drive": "When the goal requires it, feelings become line items. The loyal supplier gets cut for two percent, the friendship pauses during the competition, the underperformer is gone before their chair cools. Efficiency this clean wins consistently, and keeps winning things that turn out to have been load-bearing.",
-              "cost_self": "You replaced the vendor who had carried you through the lean years the same quarter their prices drifted, with a form letter. The numbers improved four percent. At the trade show, their booth and yours no longer greet each other, and people from both companies notice.",
-              "cost_others": "Partners respect your decisions and pre-negotiate their own exits, having watched how cleanly you cut. Everything about working with you is excellent except the specific temperature of knowing where you stand: valued, always, and always one spreadsheet away from a form letter."
+              "drive": "Even on days nothing is asked of you, you stay on duty. Being needed is the only rest you trust, and you pick the next duty rather than the night off. Remind yourself that you are the one keeping you on duty.",
+              "cost_self": "Off duty is a state you never fully manage. The alert in you never stands down, and you spend a free evening on duty rather than inside it. You pay for the duty in rest never taken, a price worth holding on to.",
+              "cost_others": "Staying on duty is how you look after people. You stand duty over their troubles ahead of sitting with them, and the people you guard get a guard in place of company. Hold on to this much, that coming off duty is allowed."
             }
           },
           {
-            "word": "Blunted",
+            "word": "Pushes too hard",
             "angles": {
-              "drive": "Your edge dulled from overuse. The intensity that once cut through anything now grinds through everything: the same force applied to birthday plans and board fights, the same siege posture at breakfast. Constant hardness is not sharpness. Somewhere in the years of pressing, the actual edge left.",
-              "cost_self": "The vacation had a briefing document. The barbecue had backup plans. When your daughter asked if you could just come to the beach without a plan, the question sat in you strangely for days, because the honest answer was that you no longer remembered how that worked.",
-              "cost_others": "People stopped bringing you the soft problems, the ones needing a light touch, and the routing decision was mutual and unspoken. What remains in your queue is armor-plated: disputes, deadlines, campaigns. You are excellent at all of it, and the calendar reads like a war ledger."
+              "drive": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Take note that you are using force with every push, whether you mean it kindly or not.",
+              "cost_self": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You live in the body you push, and that is worth remembering.",
+              "cost_others": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. Keep patience in view, since it costs you less than the push."
             }
           }
         ]
       }
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Battle-ready"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Battle-ready"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Readiness is your resting state. The plan B exists before plan A launches, the difficult conversation is pre-rehearsed, the go-bag, literal or mental, stays packed. When trouble finally arrives it finds you already dressed, and the calm of the prepared is your signature entrance."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The client called at seven with the emergency everyone else needed a day to process, and you opened the folder you had built for exactly this scenario three months earlier, unasked. The call lasted eleven minutes. The folder had been waiting longer than the emergency had existed."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People check your reaction before deciding how scared to be, and your reaction is usually to start executing. Teams describe going into hard weeks behind you the way soldiers describe good sergeants: nobody promises it will be pleasant, everybody knows the plan will hold."
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Disciplined"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Disciplined"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your discipline is structural steel, not decoration. The habit holds on the bad days, which is the only measurement that counts: the routine survives travel, illness, and success, each of which kills most people’s systems. What you commit to becomes load-bearing, permanently."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Two hundred consecutive weeks of the same training schedule, through two job changes and one broken hand, adjusted around the cast rather than paused for it. The physical therapist asked to see the log, then photographed it for her office wall, as evidence of a species."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your consistency reads as almost mechanical until people need to borrow it. Then they discover the practical magic: things placed in your keeping happen, on schedule, indefinitely. Whole projects get architected around your reliability the way bridges get designed around their strongest member."
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Surgical"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Surgical"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your interventions are exact. Where others swing wide, you find the one line to cut, the one word to change, the one person to call, and the problem separates cleanly from the situation. Minimal force, placed precisely: it looks effortless and is actually aim."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The failing project had eleven proposed fixes on the whiteboard, and you crossed out ten, changed one contract clause, and the entire dispute dissolved by Friday. The team spent the sprint braced for surgery. What happened was closer to acupuncture, and nobody bled."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People bring you tangles the way patients bring specialists their worst scans, hoping for precision instead of sympathy, and receiving exactly that. Your fixes rarely need revisiting. The scar tissue around problems you have handled is famously minimal, which is why the referrals never stop."
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Punishing"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Punishing"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your corrections carry more force than the error weighed. The missed detail gets a review nobody forgets, the small failure gets a consequence with edges, and people leave your feedback sessions altered. Standards were the point once. The punishment developed its own appetite."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The report had one wrong figure in forty pages, and your response, delivered in front of the team, traced everywhere the mistake had come from, for six minutes. The analyst fixed it in one. The other thirty-nine pages were excellent, a fact that attended the meeting silently."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People submit work to you the way defendants approach sentencing, hoping for mercy rates you have never once published. The quality around you is genuinely high, and it is maintained the way ports maintain sea walls: through repeated, memorable demonstrations of what happens without them."
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Ruthless"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Ruthless"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "When the goal requires it, feelings become line items. The loyal supplier gets cut for two percent, the friendship pauses during the competition, the underperformer is gone before their chair cools. Efficiency this clean wins consistently, and keeps winning things that turn out to have been load-bearing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "You replaced the vendor who had carried you through the lean years the same quarter their prices drifted, with a form letter. The numbers improved four percent. At the trade show, their booth and yours no longer greet each other, and people from both companies notice."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Partners respect your decisions and pre-negotiate their own exits, having watched how cleanly you cut. Everything about working with you is excellent except the specific temperature of knowing where you stand: valued, always, and always one spreadsheet away from a form letter."
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Blunted"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Blunted"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your edge dulled from overuse. The intensity that once cut through anything now grinds through everything: the same force applied to birthday plans and board fights, the same siege posture at breakfast. Constant hardness is not sharpness. Somewhere in the years of pressing, the actual edge left."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The vacation had a briefing document. The barbecue had backup plans. When your daughter asked if you could just come to the beach without a plan, the question sat in you strangely for days, because the honest answer was that you no longer remembered how that worked."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/金_七杀.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People stopped bringing you the soft problems, the ones needing a light touch, and the routing decision was mutual and unspoken. What remains in your queue is armor-plated: disputes, deadlines, campaigns. You are excellent at all of it, and the calendar reads like a war ledger."
+    }
+  ]
 }

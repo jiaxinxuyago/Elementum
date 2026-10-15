@@ -9,9 +9,9 @@
         "canonical_name": "Wood core × Wood — the Core",
         "value": {
           "classic": "方以類聚，物以群分",
-          "base": "Things gather by kind, the Book of Changes says, and so wood stands with wood: one forest sharing one root system, every trunk raising the canopy that shelters the next seedling. There is no reaction here, only more of the same green force. A single tree is weather's toy. A forest makes its own weather.",
-          "catalyst_turn": "Run thin, the trunk doubts itself: direction borrowed, growth waiting for permission. Your chart asks you to feed the self. Start something and let it grow visibly yours.",
-          "friction_turn": "Run heavy, the canopy closes: growth so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe."
+          "base": "Wood beside wood makes a forest, the old texts say, and like gathers with like. A trunk that stands alone grows wide, and a trunk among others grows tall, because every tree reaches for the same light and drinks from the same ground. The one beside it is shelter and competition. Nothing is handed out in a forest. Height is taken, a season's growth at a time, by whoever reaches first.",
+          "catalyst_turn": "With too little Wood, the trunk is thin for the height it carries, and every reach is paid out of the next season's growth. Rest and eat before you reach again.",
+          "friction_turn": "With too much Wood, the trunk thickens past any use for it, and growth that nothing shaped bends for no one. Give one thing a hard deadline and finish it."
         }
       },
       {
@@ -20,9 +20,9 @@
         "canonical_name": "Wood core × Fire — the Voice",
         "value": {
           "classic": "木性溫暖，火伏其中",
-          "base": "Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
-          "catalyst_turn": "Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch.",
-          "friction_turn": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand."
+          "base": "Fire sleeps inside wood, the old texts say, and the warmth sits in the grain long before any spark finds it. Dry branches ask to be lit. When the flame takes, the tree gives back in one bright hour what it spent whole seasons building. That is the bargain between them. Growth becomes light and timber becomes warmth, a thing grown quietly in the dark of the trunk and shown to everyone at once.",
+          "catalyst_turn": "With too little Fire, the wood piles up unlit, growth stacked with no flame to turn it into light. What you make stays inside the trunk. Show one rough thing before it feels finished.",
+          "friction_turn": "With too much Fire, the flame draws on green wood, taking sap the tree needs for growing. Everything said costs something unbuilt. Take one quiet evening in for every loud thing out."
         }
       },
       {
@@ -31,9 +31,9 @@
         "canonical_name": "Wood core × Earth — the Drive",
         "value": {
           "classic": "專勝散，故木勝土",
-          "base": "The concentrated prevails over the scattered, and so wood governs earth: the root threads the loose soil, binds it, and holds the slope that rain would otherwise carry away. Ground without roots erodes grain by grain. Gripped by the living tree, the same ground becomes terrace, garden, land worth naming.",
-          "catalyst_turn": "Run thin, the roots float: plenty of reaching, nothing held, growth with no ground under it. Your chart asks you to claim soil. Buy in, commit, root somewhere real.",
-          "friction_turn": "Run heavy, the holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. Hold less hillside, hold it deeper."
+          "base": "Wood tames earth, the old texts say, because the gathered thing wins over the scattered one: a single root goes down through loose soil and the whole hillside learns to stay put. The ground loses nothing by it. Held by roots it keeps its rain, its weight and its harvest, where bare soil would wash away in one hard season. What wood takes from earth it gives back as shape.",
+          "catalyst_turn": "With too little Earth, the roots have nothing to grip: all growth and no ground to claim, so the reach goes up and little stays yours. Pick one thing worth owning and get it.",
+          "friction_turn": "With too much Earth, the ground outweighs the roots: more to hold than one trunk carries, and it bends toward breaking while still saying yes. Rest before you take on more ground."
         }
       },
       {
@@ -42,9 +42,9 @@
         "canonical_name": "Wood core × Metal — the Duty",
         "value": {
           "classic": "剛勝柔，故金勝木",
-          "base": "The hard prevails over the soft, and so metal comes for wood: the shears meet the hedge, the saw meets the trunk, and wild growth learns the shape it could not find alone. Unpruned, a tree grows large and fruitless. Under the edge it loses branches and gains a harvest.",
-          "catalyst_turn": "Run thin, nothing prunes you: growth in every direction and fruit in none. Your chart asks for the knife. Invite the standard, the editor, the coach with shears.",
-          "friction_turn": "Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake."
+          "base": "The hard overcomes the soft, the old texts say, and so metal has its way with wood. Left alone a tree grows every direction, tall and loose and full of shoots that lead nowhere. The knife gives it a shape. It takes the branch that crowds the crown, lets light in and squares the timber for a beam. Nothing in the grain asks for the edge, and all the tree becomes passes through it.",
+          "catalyst_turn": "With too little Metal, the tree grows every way at once and nothing prunes it into a shape. Height comes without a finish. Take on one rule you did not write and keep it.",
+          "friction_turn": "With too much Metal, the knife outruns the tree and every new shoot meets the edge. Nothing stands long enough to bear. Let one thing grow a season before anyone judges it."
         }
       },
       {
@@ -53,9 +53,9 @@
         "canonical_name": "Wood core × Water — the Root",
         "value": {
           "classic": "因水潤而能生",
-          "base": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.",
-          "catalyst_turn": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
-          "friction_turn": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun."
+          "base": "Water is the forest's first food, the old texts say. Rain comes down through the leaves and sinks to the roots, and the tree drinks what it cannot see. Nothing grows on dry ground. A season of steady rain raises the whole wood a hand higher, while a season of flood loosens the soil and sets the trunk adrift. The tree is only ever as tall as the water under it allows.",
+          "catalyst_turn": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Learn the whole thing before you take a step.",
+          "friction_turn": "With too much Water, the ground goes soft under the tree and the roots drink past the point of growing. Set one plan on firm ground and build it."
         }
       },
       {

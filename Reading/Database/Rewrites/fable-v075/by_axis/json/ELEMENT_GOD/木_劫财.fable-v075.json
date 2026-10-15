@@ -36,7 +36,7 @@
             "angles": {
               "drive": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, and you can let one end without losing anything.",
               "cost_self": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep. You pay for each race in sleep not made up, and sitting one out costs you nothing.",
-              "cost_others": "You turn most shared things into a race. Winning beside someone matters more than being beside them, and that turns a friend into a finish line. Run one thing with them instead of against them, because racing costs them the company they came for."
+              "cost_others": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. You cost them the rest they came for by racing on, and letting one end returns it."
             }
           },
           {
@@ -44,7 +44,7 @@
             "angles": {
               "drive": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. You share the risk ahead of sizing it, and one look is cheap.",
               "cost_self": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. You share each loss as readily as each win, and the money not kept is your price.",
-              "cost_others": "Your bets come with other people's names on them. You would rather share the risk than own the call, and that puts their money where your nerve is. Ask before counting them in, because shared risk takes from them a choice they never made."
+              "cost_others": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Whenever you count them in unasked, you take a choice they never made, and one question first gives it back."
             }
           }
         ]

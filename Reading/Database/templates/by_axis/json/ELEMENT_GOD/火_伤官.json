@@ -16,14 +16,14 @@
     "k2_functional": "You express in fireworks: dazzling, loud, unforgettable, occasionally singeing the front seats.",
     "adj_chips": {
       "catalyst": [
-        "Dazzling",
-        "Quick-witted",
-        "White-hot"
+        "Speaks up",
+        "Born performer",
+        "Thinks fast"
       ],
       "friction": [
-        "Provocative",
-        "Scene-stealing",
-        "Combustible"
+        "Talks back",
+        "Needs an audience",
+        "Overdoes it"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Dazzling",
+            "word": "Speaks up",
             "angles": {
-              "drive": "When you switch on, everyone else becomes background lighting. The presentation, the toast, the argument you decide to win in style: your output has wattage that cannot be taught, and attention finds you the way moths find porch lights, reliably and a little helplessly.",
-              "cost_self": "You took the graveyard slot at the conference, the one after lunch on the last day, and by minute six people were texting colleagues to come in. The recording circulated for months. The organizers moved you to the keynote the following year, apologizing for the delay.",
-              "cost_others": "People plan events partly around whether you will be on form, because your form changes the evening’s category. The risk is known and priced in: you might outshine the occasion itself. Twice now, the couple’s wedding is mostly remembered for your toast. They quote it fondly, mostly."
+              "drive": "You speak up right where it has gone quiet. You hear silence as agreeing, and you say the unsaid thing rather than sit with it. Keep speaking up, and own its price, since you are remembered for the sentence more than the care behind it.",
+              "cost_self": "Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it ahead of checking the cost. You close a chance you wanted with a good line more often than you notice.",
+              "cost_others": "Before anyone asks you to, you speak up for them. Having a voice comes more naturally to you than lending one, so you take the floor ahead of handing it over. Leave the quieter ones the first word, because you speak up on their turn."
             }
           },
           {
-            "word": "Quick-witted",
+            "word": "Born performer",
             "angles": {
-              "drive": "Your mind moves at spark speed. The comeback arrives while the setup is still landing, the solution mid-question, the joke exactly on the beat. In fast company you are the fastest thing present, and slow company speeds up around you out of self-respect.",
-              "cost_self": "The client’s curveball question, the one designed to embarrass, got an answer so fast and clean that the questioner laughed and wrote it down. Your team debriefed the moment for a week. You could not remember composing the reply. It had simply been lit and ready.",
-              "cost_others": "People stop mid-story around you to say do not steal this, knowing your version will be funnier by dinner. Writers in your circle keep notes on things you said in passing. At least one printed mug exists. You signed it, obviously, since the line was yours."
+              "drive": "You change in front of an audience, for the better. Being watched is where your focus comes from, and you perform a thing sooner than you practice it. You pay for that in private, since nothing you do alone feels quite finished.",
+              "cost_self": "Performing is how you make things count. Being seen doing it matters more to you than doing it, so you keep performing after the show ends. Give yourself an hour with no one watching, because the rest you skip is the price of the stage.",
+              "cost_others": "For the people you love, you perform as much as for a crowd. Company feels like a show to you, and your best lines come ahead of your plain self. Save them one plain evening, because you keep performing where you were asked for yourself."
             }
           },
           {
-            "word": "White-hot",
+            "word": "Thinks fast",
             "angles": {
-              "drive": "At full intensity you do in hours what committees do in quarters. The deadline crunch, the final rehearsal, the last mile: your heat concentrates into something close to alarming, and the output comes back changed from the inside out. Nobody asks what it costs. It visibly costs.",
-              "cost_self": "The pitch was due at nine and dead at midnight, so you burned from midnight to six and delivered something that made the original plan look like a rough draft of your rough draft. The client signed by lunch. You slept through the celebration, honorably.",
-              "cost_others": "Colleagues describe your peak state with fire-safety vocabulary, half joking. When you lock in, people clear the area and route materials toward you, knowing the window is real and finite. What comes out of those windows has won accounts, contests, and one national award. Handle accordingly."
+              "drive": "You think fastest with no time to think. You light up under pressure rather than freeze, so you answer on the spot instead of taking it away with you. You rarely give the slow answer its turn, and the speed is worth that most days.",
+              "cost_self": "Thinking fast is the talent you lean on hardest. You have the first answer before the question is finished, and you trust it ahead of the second. You spend the better answer you never waited for to keep the quickness.",
+              "cost_others": "Fast enough to finish other people's sentences, you usually do. Waiting for a thought to end feels like wasted time, and you answer ahead of hearing it all. Let the slow thought finish, because you cost the slower ones the rest of theirs."
             }
           }
         ]
@@ -93,31 +93,273 @@
       "friction": {
         "ledger": [
           {
-            "word": "Provocative",
+            "word": "Talks back",
             "angles": {
-              "drive": "You poke things to watch them jump. The needling question at the calm dinner, the opinion calibrated to singe, the topic everyone buried, exhumed by you at speed. Reaction is your proof of life, and peace, in your hands, keeps getting tested for flammability.",
-              "cost_self": "The family lunch was going suspiciously smoothly, so you asked your uncle about the election, twice, with eye contact. The predictable fire arrived on schedule. You watched it burn with the satisfaction of an arsonist reviewing his work, and left before the cleanup, as usual.",
-              "cost_others": "Hosts seat you the way fire marshals plan exits: deliberately and with backup plans. Your provocations are often genuinely interesting, which is the defense you always offer. But friends have started previewing guest lists with you, and the previews have the tone of safety briefings."
+              "drive": "Talking back comes faster to you than letting it pass. Being told what to do feels like shrinking, and you talk back rather than let a rule stand. Remember that each answer is drawn from you, and you put in less than you spend.",
+              "cost_self": "Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Worth remembering, you talk yourself out of the chances you wanted most.",
+              "cost_others": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone ahead of the need. Notice how you leave them holding a fight they never brought."
             }
           },
           {
-            "word": "Scene-stealing",
+            "word": "Needs an audience",
             "angles": {
-              "drive": "Attention is oxygen, and you take yours from whoever currently holds it. The birthday girl, the grieving widow, the colleague mid-triumph: within minutes the light has somehow bent toward you, and you honestly did not plan it. The reflex plans it. You just execute.",
-              "cost_self": "At the retirement party, the guest of honor spoke for eight minutes, and your follow-up story, told from the floor, ran eleven and got bigger laughs. People checked the retiree’s face without meaning to. You were magnificent. It was, everyone agreed later, exactly the problem.",
-              "cost_others": "Friends love you and have learned to schedule you: the big news gets announced before you arrive or after you leave. Nobody has ever said this to your face, and the calendar work involved is considerable. You would be devastated to see it. It is very carefully hidden."
+              "drive": "You need an audience more than you need to be right. Being seen is how you know you exist, and you take being watched doing badly over doing well alone. Hold onto this, that you are the one left when the audience goes home.",
+              "cost_self": "Without an audience, you will not start. Practicing alone feels like wasted effort, and you save the real work for a crowd rather than do it unseen. Never forget that you starve the talent between shows, and between shows is where it grows.",
+              "cost_others": "What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. Remember, you take their evening and hand back a show."
             }
           },
           {
-            "word": "Combustible",
+            "word": "Overdoes it",
             "angles": {
-              "drive": "Your anger exits through your mouth, fully phrased. Where others slam doors, you produce sentences, sharp, quotable, and aimed, and the fire is out of you before you can review the wording. The words were burning. Everyone burned by them remembers the phrasing exactly.",
-              "cost_self": "The reply-all was composed in ninety seconds at full heat, and it was, everyone privately agreed, magnificently written. It named names. You cooled by lunch and spent a quarter repairing what one paragraph had done, comma by comma.",
-              "cost_others": "People screenshot your outbursts, which is the problem: they are eloquent enough to travel. The apology never catches up to the original, because the original was better written. Colleagues admire the craft, fear the heat, and quietly keep the receipts."
+              "drive": "You overdo it, and you know it while you do. You never feel enough as a real amount, so you push a thing past its best rather than stop there. Mind that you run out well before the thing does.",
+              "cost_self": "Overdoing it is how you get a thing noticed. You feel safer with more than with enough, and you give a small occasion the full show. You pay with the body for each full show, and the bill never fails to arrive after the applause.",
+              "cost_others": "For people who asked for little, you overdo it anyway. You feel a plain yes as too little, so you hand them the full production instead of what they named. Keep track of the extra you leave them to carry beyond what was asked."
             }
           }
         ]
       }
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Dazzling"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Dazzling"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "When you switch on, everyone else becomes background lighting. The presentation, the toast, the argument you decide to win in style: your output has wattage that cannot be taught, and attention finds you the way moths find porch lights, reliably and a little helplessly."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "You took the graveyard slot at the conference, the one after lunch on the last day, and by minute six people were texting colleagues to come in. The recording circulated for months. The organizers moved you to the keynote the following year, apologizing for the delay."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People plan events partly around whether you will be on form, because your form changes the evening’s category. The risk is known and priced in: you might outshine the occasion itself. Twice now, the couple’s wedding is mostly remembered for your toast. They quote it fondly, mostly."
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Quick-witted"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Quick-witted"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your mind moves at spark speed. The comeback arrives while the setup is still landing, the solution mid-question, the joke exactly on the beat. In fast company you are the fastest thing present, and slow company speeds up around you out of self-respect."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The client’s curveball question, the one designed to embarrass, got an answer so fast and clean that the questioner laughed and wrote it down. Your team debriefed the moment for a week. You could not remember composing the reply. It had simply been lit and ready."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People stop mid-story around you to say do not steal this, knowing your version will be funnier by dinner. Writers in your circle keep notes on things you said in passing. At least one printed mug exists. You signed it, obviously, since the line was yours."
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "White-hot"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "White-hot"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "At full intensity you do in hours what committees do in quarters. The deadline crunch, the final rehearsal, the last mile: your heat concentrates into something close to alarming, and the output comes back changed from the inside out. Nobody asks what it costs. It visibly costs."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The pitch was due at nine and dead at midnight, so you burned from midnight to six and delivered something that made the original plan look like a rough draft of your rough draft. The client signed by lunch. You slept through the celebration, honorably."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Colleagues describe your peak state with fire-safety vocabulary, half joking. When you lock in, people clear the area and route materials toward you, knowing the window is real and finite. What comes out of those windows has won accounts, contests, and one national award. Handle accordingly."
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Provocative"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Provocative"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "You poke things to watch them jump. The needling question at the calm dinner, the opinion calibrated to singe, the topic everyone buried, exhumed by you at speed. Reaction is your proof of life, and peace, in your hands, keeps getting tested for flammability."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The family lunch was going suspiciously smoothly, so you asked your uncle about the election, twice, with eye contact. The predictable fire arrived on schedule. You watched it burn with the satisfaction of an arsonist reviewing his work, and left before the cleanup, as usual."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Hosts seat you the way fire marshals plan exits: deliberately and with backup plans. Your provocations are often genuinely interesting, which is the defense you always offer. But friends have started previewing guest lists with you, and the previews have the tone of safety briefings."
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Scene-stealing"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Scene-stealing"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Attention is oxygen, and you take yours from whoever currently holds it. The birthday girl, the grieving widow, the colleague mid-triumph: within minutes the light has somehow bent toward you, and you honestly did not plan it. The reflex plans it. You just execute."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "At the retirement party, the guest of honor spoke for eight minutes, and your follow-up story, told from the floor, ran eleven and got bigger laughs. People checked the retiree’s face without meaning to. You were magnificent. It was, everyone agreed later, exactly the problem."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Friends love you and have learned to schedule you: the big news gets announced before you arrive or after you leave. Nobody has ever said this to your face, and the calendar work involved is considerable. You would be devastated to see it. It is very carefully hidden."
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Combustible"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Combustible"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Your anger exits through your mouth, fully phrased. Where others slam doors, you produce sentences, sharp, quotable, and aimed, and the fire is out of you before you can review the wording. The words were burning. Everyone burned by them remembers the phrasing exactly."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The reply-all was composed in ninety seconds at full heat, and it was, everyone privately agreed, magnificently written. It named names. You cooled by lunch and spent a quarter repairing what one paragraph had done, comma by comma."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_GOD/火_伤官.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "People screenshot your outbursts, which is the problem: they are eloquent enough to travel. The apology never catches up to the original, because the original was better written. Colleagues admire the craft, fear the heat, and quietly keep the receipts."
+    }
+  ]
 }

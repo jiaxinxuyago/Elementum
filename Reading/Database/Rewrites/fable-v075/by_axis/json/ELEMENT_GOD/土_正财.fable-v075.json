@@ -26,25 +26,25 @@
           {
             "word": "Makes things last",
             "angles": {
-              "drive": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Keep at it, and accept the older version a while longer than you need.",
-              "cost_self": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Let one go once fixing costs more than it is worth, since those hours never come back.",
-              "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Let someone else pick one new thing a year, since you make the rest last."
+              "drive": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. You pay by living with the older version a while longer than you need.",
+              "cost_self": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Once fixing costs more than the thing is worth, letting it go gives you those hours back.",
+              "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. You make the rest last, and one new thing a year is theirs to pick."
             }
           },
           {
             "word": "Saves first",
             "angles": {
-              "drive": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, so you put money away rather than enjoy it. Keep saving first, and let the price be a few good things you were slow to buy.",
-              "cost_self": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. Spend one saved sum on something you want, since the pleasure you put off is the real price.",
+              "drive": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. Saving first suits you, and a few good things you were slow to buy are the price.",
+              "cost_self": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. If you spend one saved sum on something you want, the pleasure you put off stops being the price.",
               "cost_others": "You save for the people you love ahead of spending on them. A safe future is the gift you trust, and you give them the cushion rather than the dinner. Spend part of it on them this year, because it was for them all along."
             }
           },
           {
             "word": "Loyal",
             "angles": {
-              "drive": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you stay with what you have rather than look at what else there is. Stay loyal, and know the price is staying a while past where it serves you.",
-              "cost_self": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Ask every so often, since loyalty to what does not love you back is closeness you go without.",
-              "cost_others": "Loyalty is how you love, lived rather than said. Choosing someone again matters to you more than saying so, and you let the staying stand in for the words. Say it out loud sometimes, since being chosen again only counts when it is said."
+              "drive": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. You stay a while past where it serves you, and that is the price of loyalty like yours.",
+              "cost_self": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Asking every so often costs you little, while loyalty to what does not love you back costs you closeness.",
+              "cost_others": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Being chosen again is a thing you give out loud, and you give it less than you mean to."
             }
           }
         ]
@@ -54,25 +54,25 @@
           {
             "word": "Keeps everything",
             "angles": {
-              "drive": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. Keep in mind that everything you keep also has to be looked after.",
-              "cost_self": "Keeping everything keeps you from being caught short, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. Remember that you are renting space for things that give nothing back.",
-              "cost_others": "You fill the home you share with things you cannot drop. Keeping matters more to you than space, and you turn the house into storage with a family inside. Do not forget that you charge the people at home in space for what you keep."
+              "drive": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. Tell yourself plainly that everything you keep also has to be looked after.",
+              "cost_self": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. Let yourself see that you rent space for things that give nothing back.",
+              "cost_others": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and you fill the home from the walls in. Keep sight of how you charge the people at home for it in space."
             }
           },
           {
             "word": "Hard to move",
             "angles": {
-              "drive": "Staying put feels like safety, whatever the place becomes. Moving asks more of you than staying, so you keep the known rather than go toward the better. Bear in mind that a place you will not leave is not one that holds you.",
-              "cost_self": "Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it. Remember that the chance to go closes as you decide, and you pay in years.",
-              "cost_others": "You stay, and hold the people closest to you in place. Staying matters to you more than moving somewhere better together, and you set the whole house to your speed. Keep remembering that you make them wait on a move you are not making."
+              "drive": "Staying put feels like safety, whatever the place becomes. Moving asks more of you than staying, so you keep the known rather than go toward the better. Know that a place you will not leave is not one that holds you.",
+              "cost_self": "Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it. Take it as given that the chance to go closes during the deciding.",
+              "cost_others": "You stay, and hold the people closest to you in place. Staying matters to you more than moving somewhere better together, and you set the whole house to your speed. Ask yourself whether you make them wait on a move you are not making."
             }
           },
           {
             "word": "Hates to spend",
             "angles": {
-              "drive": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. Try to remember that you can afford more than you let yourself have.",
-              "cost_self": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it on the thing, since spending feels like a loss already begun. Notice that you end up with the money and without the thing it was for.",
-              "cost_others": "Spending on the people you love comes no easier to you than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. Remember that what you save on the people you love comes out of their side."
+              "drive": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. Be honest with yourself about how much more you can afford than you let yourself have.",
+              "cost_self": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Keep it in view that you end up with the money and without the thing it was for.",
+              "cost_others": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. Spare a thought for what you save on them, since it comes out of their side."
             }
           }
         ]

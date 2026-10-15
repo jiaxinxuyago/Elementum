@@ -16,46 +16,46 @@
   "candidates": {
     "mechanism": {
       "classic": "木性溫暖，火伏其中",
-      "base": "Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
-      "catalyst_turn": "Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch.",
-      "friction_turn": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand."
+      "base": "Fire sleeps inside wood, the old texts say, and the warmth sits in the grain long before any spark finds it. Dry branches ask to be lit. When the flame takes, the tree gives back in one bright hour what it spent whole seasons building. That is the bargain between them. Growth becomes light and timber becomes warmth, a thing grown quietly in the dark of the trunk and shown to everyone at once.",
+      "catalyst_turn": "With too little Fire, the wood piles up unlit, growth stacked with no flame to turn it into light. What you make stays inside the trunk. Show one rough thing before it feels finished.",
+      "friction_turn": "With too much Fire, the flame draws on green wood, taking sap the tree needs for growing. Everything said costs something unbuilt. Take one quiet evening in for every loud thing out."
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Fire is your Expression, and as a catalyst, it is where what you have built becomes visible: presenting, hosting, putting your name on the work. Visibility feeds you more than you expect.",
-      "definition_friction": "Fire is your Expression, and as a friction, it is visibility outrunning capacity: announcing early, performing energy you do not have, saying yes on stage and paying for it offstage.",
-      "advise_catalyst": "Light is part of how work finishes. Show one finished thing a week, publicly and on purpose. Say yes to the toast, the talk, the intro. When something stalls, share it half-done and let being seen restart it.",
-      "advise_friction": "An audience is a loan against tomorrow. Borrow less: pull the launch dates back by half, decline one appearance a month, and let the next thing be seen only when it is done. Practice being unimpressive in safe company."
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, it opens too rarely, and you give quietly rather than perform what you are good at. You keep a talent waiting that deserves an audience.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, it never shuts. You please people as much as you prove them wrong, and you pay for every word with sleep you skip.",
+      "advise_catalyst": "You hold your work in until it is perfect, and perfect never comes. Let the rough version out. Play the half-written song for one friend. Post the drawing with the mistake left in. Tell a child the story before you know its ending. Say one unchecked opinion out loud.",
+      "advise_friction": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it hold what Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning."
     },
-    "cta_verdict": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by.",
+    "cta_verdict": "You come alive when something you made gets seen, and most weeks you judge yourself by how much of you got out.",
     "carry": {
       "catalyst": {
-        "clause": "The wood stays green: years of growth and nothing kindled, reach without light.",
-        "remedy": "Show the work, tell the story, let it catch."
+        "clause": "The wood piles up unlit, growth stacked with no flame to turn it into light.",
+        "remedy": "Show one rough thing before it feels finished."
       },
       "friction": {
-        "clause": "The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.",
-        "remedy": "Bank the fire and let some growth stand."
+        "clause": "The flame draws on green wood, taking sap the tree needs for growing.",
+        "remedy": "Take one quiet evening in for every loud thing out."
       },
       "wide": {
-        "clause": "Fire is all around you, the light everything you grow was reaching for.",
-        "remedy": "Show more of the work. It is ready."
+        "clause": "Fire is easy for you to reach, the light every season of growing was for.",
+        "remedy": "Use it. Say the thing, show the work, let it be seen."
       },
       "missing": {
-        "clause": "Nothing kindled: years of growth and no light on any of it.",
-        "remedy": "Borrow fire: put one piece in front of people."
+        "clause": "No flame in the wood at all, growth with nowhere to show and no warmth given off.",
+        "remedy": "Borrow a flame, one listener and one thing shown."
       },
       "spared": {
-        "clause": "Fire runs absent, and the wood stays green: nothing burned early, nothing announced.",
-        "remedy": "Keep it green. Show the work once it is finished."
+        "clause": "Nothing burns the wood, and a thin trunk keeps all its sap for itself.",
+        "remedy": "Leave it unlit. Grow first, show later."
       },
       "thin": {
-        "clause": "Fire runs thin and unwanted: a small flame, easy to bank.",
-        "remedy": "Bank it. Let growth stand."
+        "clause": "A small flame on thin wood, enough to warm the house and too small to eat the tree.",
+        "remedy": "Keep it small. One thing out for every two in."
       },
       "excess": {
-        "clause": "Too much fire burns the wood: everything lit as it grows, the tree spent on its own light.",
-        "remedy": "Bank the fire. Grow in the dark a while."
+        "clause": "The fire outgrows the wood that feeds it, and the whole tree burns away as light.",
+        "remedy": "Stop feeding it. Rest, read, let the wood come back."
       }
     },
     "carry_yin": {
@@ -83,5 +83,183 @@
     },
     "retired_v3_definition_catalyst": "Fire is your Expression, and as a catalyst, it is where what you have built becomes visible: presenting, hosting, putting your name on the work. Visibility feeds you more than you expect.\n\nWarm in front of people, warmer after. The demo day, the dinner table, the post that finally goes up: each one returns more energy than it cost, and the weeks you hid your work were the weeks it got heavy.\n\nLight is part of how work finishes. Show one finished thing a week, publicly and on purpose. Say yes to the toast, the talk, the intro. When something stalls, share it half-done and let being seen restart it.",
     "retired_v3_definition_friction": "Fire is your Expression, and as a friction, it is visibility outrunning capacity: announcing early, performing energy you do not have, saying yes on stage and paying for it offstage.\n\nCharismatic, obliging, quietly overdrawn. The launch is announced before the build, the calendar fills with appearances, and the gap between the public energy and the private reserve gets covered with performance nobody can bill.\n\nAn audience is a loan against tomorrow. Borrow less: pull the launch dates back by half, decline one appearance a month, and let the next thing be seen only when it is done. Practice being unimpressive in safe company."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The wood stays green: years of growth and nothing kindled, reach without light."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Show the work, tell the story, let it catch."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "The burning outruns the growing: everything lit the moment it grows, no branch left on the tree."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Bank the fire and let some growth stand."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Fire is all around you, the light everything you grow was reaching for."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Show more of the work. It is ready."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Nothing kindled: years of growth and no light on any of it."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Borrow fire: put one piece in front of people."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Fire runs absent, and the wood stays green: nothing burned early, nothing announced."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Keep it green. Show the work once it is finished."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Fire runs thin and unwanted: a small flame, easy to bank."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Bank it. Let growth stand."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Too much fire burns the wood: everything lit as it grows, the tree spent on its own light."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Bank the fire. Grow in the dark a while."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Fire is your Expression, and as a catalyst, it is where what you have built becomes visible: presenting, hosting, putting your name on the work. Visibility feeds you more than you expect."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Fire is your Expression, and as a friction, it is visibility outrunning capacity: announcing early, performing energy you do not have, saying yes on stage and paying for it offstage."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "Light is part of how work finishes. Show one finished thing a week, publicly and on purpose. Say yes to the toast, the talk, the intro. When something stalls, share it half-done and let being seen restart it."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "An audience is a loan against tomorrow. Borrow less: pull the launch dates back by half, decline one appearance a month, and let the next thing be seen only when it is done. Practice being unimpressive in safe company."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075/by_axis/json/ELEMENT_PAIR/木_火.fable-v075.json",
+      "date": "2026-10-15",
+      "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
+      "replaced": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by."
+    }
+  ]
 }

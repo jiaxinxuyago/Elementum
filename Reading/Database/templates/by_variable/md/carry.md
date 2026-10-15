@@ -10,92 +10,92 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The trunk doubts itself: direction borrowed, growth waiting for permission. |
-| `catalyst.remedy` | Start something and let it grow visibly yours. |
-| `friction.clause` | The canopy closes: growth so dense no other light gets in, growth for growth’s own sake. |
-| `friction.remedy` | Thin the branches and let the forest breathe. |
-| `unrooted.clause` | The self stands without roots: growth on will alone, direction borrowed. |
-| `unrooted.remedy` | Feed the self. Start something visibly yours. |
-| `excess.clause` | Strong wood wants fire: so much growth it shades out everything, itself included. |
-| `excess.remedy` | Burn some of it. Show the work. |
-| `thin.clause` | Wood runs thin and still carries weight: little growth, held too hard. |
-| `thin.remedy` | Loosen the grip on growing. |
+| `catalyst.clause` | The trunk is thin for the height it carries. |
+| `catalyst.remedy` | Rest and eat before you reach again. |
+| `friction.clause` | The trunk thickens past any use for it. |
+| `friction.remedy` | Give one thing a hard deadline and finish it. |
+| `unrooted.clause` | Wood with no root under it, a trunk on borrowed ground, upright only while the weather holds. |
+| `unrooted.remedy` | Borrow roots. Keep one routine and one early bedtime. |
+| `excess.clause` | So much Wood that nothing bends it, and only a fire would ever soften the stubborn grain. |
+| `excess.remedy` | Set it alight. Make one thing and give it away. |
+| `thin.clause` | Only a little Wood shows, a thin trunk the ground holds easily. |
+| `thin.remedy` | Keep it small and spend what it grows. |
 
 ### Wood core × Fire — the Voice · 木_火
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The wood stays green: years of growth and nothing kindled, reach without light. |
-| `catalyst.remedy` | Show the work, tell the story, let it catch. |
-| `friction.clause` | The burning outruns the growing: everything lit the moment it grows, no branch left on the tree. |
-| `friction.remedy` | Bank the fire and let some growth stand. |
-| `wide.clause` | Fire is all around you, the light everything you grow was reaching for. |
-| `wide.remedy` | Show more of the work. It is ready. |
-| `missing.clause` | Nothing kindled: years of growth and no light on any of it. |
-| `missing.remedy` | Borrow fire: put one piece in front of people. |
-| `spared.clause` | Fire runs absent, and the wood stays green: nothing burned early, nothing announced. |
-| `spared.remedy` | Keep it green. Show the work once it is finished. |
-| `thin.clause` | Fire runs thin and unwanted: a small flame, easy to bank. |
-| `thin.remedy` | Bank it. Let growth stand. |
-| `excess.clause` | Too much fire burns the wood: everything lit as it grows, the tree spent on its own light. |
-| `excess.remedy` | Bank the fire. Grow in the dark a while. |
+| `catalyst.clause` | The wood piles up unlit, growth stacked with no flame to turn it into light. |
+| `catalyst.remedy` | Show one rough thing before it feels finished. |
+| `friction.clause` | The flame draws on green wood, taking sap the tree needs for growing. |
+| `friction.remedy` | Take one quiet evening in for every loud thing out. |
+| `wide.clause` | Fire is easy for you to reach, the light every season of growing was for. |
+| `wide.remedy` | Use it. Say the thing, show the work, let it be seen. |
+| `missing.clause` | No flame in the wood at all, growth with nowhere to show and no warmth given off. |
+| `missing.remedy` | Borrow a flame, one listener and one thing shown. |
+| `spared.clause` | Nothing burns the wood, and a thin trunk keeps all its sap for itself. |
+| `spared.remedy` | Leave it unlit. Grow first, show later. |
+| `thin.clause` | A small flame on thin wood, enough to warm the house and too small to eat the tree. |
+| `thin.remedy` | Keep it small. One thing out for every two in. |
+| `excess.clause` | The fire outgrows the wood that feeds it, and the whole tree burns away as light. |
+| `excess.remedy` | Stop feeding it. Rest, read, let the wood come back. |
 
 ### Wood core × Earth — the Drive · 木_土
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The roots float: plenty of reaching, nothing held, growth with no ground under it. |
-| `catalyst.remedy` | Buy in, commit, root somewhere real. |
-| `friction.clause` | The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. |
-| `friction.remedy` | Hold less hillside, hold it deeper. |
-| `wide.clause` | Earth is one thing you never run short of, the ground you were built to take root in. |
-| `wide.remedy` | Commit to one of the places you already hold. |
-| `missing.clause` | No ground to root in: reach with nothing held, ambition that never lands. |
-| `missing.remedy` | Borrow ground: one commitment, kept. |
-| `spared.clause` | Earth runs absent, and the roots are free: nothing owned, nothing charging rent. |
-| `spared.remedy` | Keep it light. Own little, deliberately. |
-| `thin.clause` | Earth runs thin and unwanted: a small plot, easily held. |
-| `thin.remedy` | Keep the plot small. |
-| `excess.clause` | Heavy earth snaps the wood: more held than the tree can feed, roots torn by what they grip. |
-| `excess.remedy` | Hold less. Hold it deeper. |
+| `catalyst.clause` | The roots have nothing to grip: all growth and no ground to claim. |
+| `catalyst.remedy` | Pick one thing worth owning and get it. |
+| `friction.clause` | The ground outweighs the roots: more to hold than one trunk carries. |
+| `friction.remedy` | Rest before you take on more ground. |
+| `wide.clause` | Earth is all around you, the ground your roots were made for. |
+| `wide.remedy` | Use it. Claim one plot and work it to the end. |
+| `missing.clause` | No ground for the roots to take: growth that lands nowhere and claims nothing. |
+| `missing.remedy` | Borrow ground: a budget, a lease, one thing paid off. |
+| `spared.clause` | No Earth weighing on the roots, and the trunk stands straighter for it. |
+| `spared.remedy` | Keep it that way: own little, carry less. |
+| `thin.clause` | A little ground on the roots, light enough to hold without bending. |
+| `thin.remedy` | Keep the load this size. Add nothing to it. |
+| `excess.clause` | Earth piled past what roots can hold: the soil wins, and the trunk snaps under the weight. |
+| `excess.remedy` | Set most of it down. Sleep, then lift one thing. |
 
 ### Wood core × Metal — the Duty · 木_金
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | Nothing prunes you: growth in every direction and fruit in none. |
-| `catalyst.remedy` | Invite the standard, the editor, the coach with shears. |
-| `friction.clause` | The cutting never stops: cut after cut until growing feels like a fault. |
-| `friction.remedy` | Step back from blades that prune for pruning’s sake. |
-| `wide.clause` | You have plenty of Metal, the shears that turn growth into fruit. |
-| `wide.remedy` | Accept the cut. Keep what survives the edit. |
-| `missing.clause` | Nothing prunes the growth: reach in every direction, fruit in none. |
-| `missing.remedy` | Borrow the knife: an editor, a coach, a rule. |
-| `spared.clause` | Metal runs absent, and nothing cuts: growth unshaped, and unbroken. |
-| `spared.remedy` | Keep it. Invite the shears on your terms. |
-| `thin.clause` | Metal runs thin and unwanted: a small blade, easy to step around. |
-| `thin.remedy` | Step around it. |
-| `excess.clause` | Weak wood breaks under strong metal: correction past what the trunk can bear, growth that stops feeling allowed. |
-| `excess.remedy` | Step back from the blade. Add water. |
+| `catalyst.clause` | the tree grows every way at once and nothing prunes it into a shape |
+| `catalyst.remedy` | Take on one rule you did not write and keep it. |
+| `friction.clause` | the knife outruns the tree and every new shoot meets the edge |
+| `friction.remedy` | Let one thing grow a season before anyone judges it. |
+| `wide.clause` | There is no shortage of Metal in you, the knife a growing tree needs to take its shape. |
+| `wide.remedy` | Use it. Finish one thing to the line this month. |
+| `missing.clause` | No knife near the tree, so growth goes wherever it likes and nothing gets finished. |
+| `missing.remedy` | Borrow a rule, a deadline or someone above you. |
+| `spared.clause` | No knife at the tree, and the tree is better for it, free to take its own shape. |
+| `spared.remedy` | Keep it so. Set your own rules and keep them. |
+| `thin.clause` | A small knife at a big tree, enough to shape it and never enough to cut it back. |
+| `thin.remedy` | Keep it small. One rule, kept, is plenty. |
+| `excess.clause` | Too much knife at a young tree, and the trunk is cut through before it can stand. |
+| `excess.remedy` | Put the knife down. Rest, read, let the trunk regrow. |
 
 ### Wood core × Water — the Root · 木_水
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The canopy outpaces the rain: ambition still reaching while the soil dries. |
-| `catalyst.remedy` | Rest, read, go quiet and refill. |
-| `friction.clause` | The ground floods: roots soaked past drinking, growth postponed for one more season of preparation. |
-| `friction.remedy` | Trees also need sun. |
-| `wide.clause` | Water is already here in plenty, the rain the whole tree drinks from. |
-| `wide.remedy` | Stop refilling. Grow something from what you already know. |
-| `missing.clause` | No water at the root: reaching on dry ground, nothing taken in before it is spent. |
-| `missing.remedy` | Borrow water: rest, reading, one quiet hour. |
-| `spared.clause` | Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season. |
-| `spared.remedy` | Keep it dry. Act on what you know. |
-| `thin.clause` | Water runs thin and unwanted: a little rain, quickly used. |
-| `thin.remedy` | Let it stay light. |
-| `excess.clause` | Too much water floats the wood: roots off the ground, drifting from plan to plan, nothing anchored. |
-| `excess.remedy` | Drain it. Plant one thing and stay. |
+| `catalyst.clause` | the forest grows on thin rain, every new leaf paid from the trunk's own store |
+| `catalyst.remedy` | Learn the whole thing before you take a step. |
+| `friction.clause` | the ground goes soft under the tree and the roots drink past the point of growing |
+| `friction.remedy` | Set one plan on firm ground and build it. |
+| `wide.clause` | There is no shortage of Water in you, the rain the whole forest drinks from. |
+| `wide.remedy` | Drink from it. Learn one thing all the way down. |
+| `missing.clause` | No rain reaches the roots, so the tree grows on whatever the air gives it. |
+| `missing.remedy` | Borrow rain. A teacher, a library card, one quiet hour. |
+| `spared.clause` | No rain falls on this tree, and it stands drier and steadier for it. |
+| `spared.remedy` | Leave it dry. Act on what you already know. |
+| `thin.clause` | A little rain and no more, enough to keep the leaves from curling. |
+| `thin.remedy` | Keep it small. One read, one decision. |
+| `excess.clause` | Too much water lifts the tree off its ground, fed past rooting, drifting where the current goes. |
+| `excess.remedy` | Drain it. Less thinking, one thing built. |
 
 ### Fire core × Wood — the Root · 火_木
 

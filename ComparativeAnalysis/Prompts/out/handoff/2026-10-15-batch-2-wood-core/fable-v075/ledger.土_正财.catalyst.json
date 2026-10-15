@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Makes things last",
-    "text": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Keep at it, and accept the older version a while longer than you need."
+    "text": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. You pay by living with the older version a while longer than you need."
    },
    "value_b": {
     "word": "Makes things last",
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Makes things last",
-    "text": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Let one go once fixing costs more than it is worth, since those hours never come back."
+    "text": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Once fixing costs more than the thing is worth, letting it go gives you those hours back."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Makes things last",
-    "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Let someone else pick one new thing a year, since you make the rest last."
+    "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. You make the rest last, and one new thing a year is theirs to pick."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, so you put money away rather than enjoy it. Keep saving first, and let the price be a few good things you were slow to buy."
+    "text": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. Saving first suits you, and a few good things you were slow to buy are the price."
    },
    "value_b": {
     "word": "Saves first",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. Spend one saved sum on something you want, since the pleasure you put off is the real price."
+    "text": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. If you spend one saved sum on something you want, the pleasure you put off stops being the price."
    }
   },
   "ledger[5]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Loyal",
-    "text": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you stay with what you have rather than look at what else there is. Stay loyal, and know the price is staying a while past where it serves you."
+    "text": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. You stay a while past where it serves you, and that is the price of loyalty like yours."
    },
    "value_b": {
     "word": "Loyal",
-    "text": "Loyalty is your default, given before it is asked for. Choosing again asks less of you than starting fresh, and that puts the person you have ahead of anyone new. Keep giving it, and let the few people you never met be the price."
+    "text": "Loyalty is your default, given before it is asked for. Choosing again asks less of you than starting fresh, and you place the person you have ahead of anyone new. Keep giving it, and let the few people you never met be the price."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Loyal",
-    "text": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Ask every so often, since loyalty to what does not love you back is closeness you go without."
+    "text": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Asking every so often costs you little, while loyalty to what does not love you back costs you closeness."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Loyal",
-    "text": "Loyalty is how you love, lived rather than said. Choosing someone again matters to you more than saying so, and you let the staying stand in for the words. Say it out loud sometimes, since being chosen again only counts when it is said."
+    "text": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Being chosen again is a thing you give out loud, and you give it less than you mean to."
    }
   }
  }

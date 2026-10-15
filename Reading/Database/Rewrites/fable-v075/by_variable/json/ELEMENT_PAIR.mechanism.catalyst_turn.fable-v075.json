@@ -22,7 +22,7 @@
     {
       "cell": "木_水",
       "field": "mechanism.catalyst_turn",
-      "candidate": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Sit with one slow book before the next decision.",
+      "candidate": "With too little Water, the forest grows on thin rain, every new leaf paid from the trunk's own store. Learn the whole thing before you take a step.",
       "original": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
       "gate": "pass"
     },

@@ -36,7 +36,7 @@
             "angles": {
               "drive": "Fast or slow around you, you move at your own speed. Being your own clock keeps you steady, since a borrowed pace never feels like yours. You keep your own pace ahead of catching the group, and some days the group is worth catching.",
               "cost_self": "Where a sprint would get you in, you keep your pace instead. You would sooner be late on your terms than rushed on another's, since borrowed tempo is never yours. You lose the chance that needed a sprint, and that pace was yours to choose.",
-              "cost_others": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. Match a friend's step once a week, because you cost them the company of moving together."
+              "cost_others": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. You cost them the company of moving together, and one matched step a week is cheap."
             }
           },
           {
@@ -44,7 +44,7 @@
             "angles": {
               "drive": "You are the same person in any company. Holding one standard for yourself keeps your footing, since a new shape for each group would cost you your measure. You stay consistent ahead of fitting in, and fitting in once in a while costs you nothing.",
               "cost_self": "Whenever the moment calls for a softer you, you show up as usual. You would rather stay the same than be liked for a performance, since an adjusted self is hard to trust. You miss the closeness that bending buys, and a little is allowed.",
-              "cost_others": "Holding yourself to one standard means holding your friends to it. Staying the same matters more than meeting anyone halfway, and that leaves no slack for an off day. Bend for one friend this month, since consistency costs them the mercy of an easier you."
+              "cost_others": "Holding yourself to one standard means holding friends to it. Staying the same matters more than meeting anyone halfway, and an off day gets no slack. Whenever you bend for one friend, you hand them the easier you, and consistency is none the poorer."
             }
           }
         ]

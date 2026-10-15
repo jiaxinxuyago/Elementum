@@ -10,7 +10,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Far-sighted",
-        "text": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Keep looking that far, and accept seeing less of what is near."
+        "text": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Looking far costs you some of what is near, and the trade favors you."
       },
       "original": {
         "word": "Shrewd",
@@ -27,7 +27,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Far-sighted",
-        "text": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. Check the opening at hand before looking past it, since that one closes on you most."
+        "text": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. You lose the opening at hand most, and one quick look before passing it keeps it."
       },
       "original": {
         "word": "Shrewd",
@@ -44,7 +44,7 @@
       "field": "ledger[2]",
       "candidate": {
         "word": "Far-sighted",
-        "text": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. Let them share the view, since you see far enough for all of them."
+        "text": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. If you let them look with you, you see far enough for all of them."
       },
       "original": {
         "word": "Shrewd",
@@ -61,7 +61,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Takes the chance",
-        "text": "A chance within reach is hard to leave on the table, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. Keep taking them with your eyes open, since a few will cost you."
+        "text": "A chance within reach is hard to leave alone, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. You take them best with your eyes open, since some of them cost you."
       },
       "original": {
         "word": "Well-traveled",
@@ -78,7 +78,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Takes the chance",
-        "text": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, since the wrong ones cost what the sure ones kept."
+        "text": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, because the wrong ones cost what the sure ones kept."
       },
       "original": {
         "word": "Well-traveled",
@@ -95,7 +95,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Takes the chance",
-        "text": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. Let them size the next one, since the chance you take is theirs too."
+        "text": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. You take it for them too, and choosing its size with them costs you nothing."
       },
       "original": {
         "word": "Well-traveled",
@@ -112,7 +112,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Shares the win",
-        "text": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month out rather than put it away. Keep sharing, and know the price is a thinner cushion than you have earned."
+        "text": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. You share because it is right for you, and the thinner cushion is the price."
       },
       "original": {
         "word": "Overflowing",
@@ -129,7 +129,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Shares the win",
-        "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. Keep some of each win back, since that is money you later go without."
+        "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. If you keep some of each win back, the lean year stops costing you."
       },
       "original": {
         "word": "Overflowing",
@@ -146,7 +146,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Shares the win",
-        "text": "You share each win rather than hold it until the next. Giving in bursts is how you love, and you give those you provide for plenty one year and nothing the next. Share in a shape that lasts, since they will come to you again."
+        "text": "You share each win rather than sit on it. Giving in bursts is your way of loving, and you hand them plenty one year and nothing the next. You do them more good sharing in a shape that lasts, since they come back."
       },
       "original": {
         "word": "Overflowing",
@@ -163,7 +163,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Makes things last",
-        "text": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Keep at it, and accept the older version a while longer than you need."
+        "text": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. You pay by living with the older version a while longer than you need."
       },
       "original": {
         "word": "Thrifty",
@@ -180,7 +180,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Makes things last",
-        "text": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Let one go once fixing costs more than it is worth, since those hours never come back."
+        "text": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Once fixing costs more than the thing is worth, letting it go gives you those hours back."
       },
       "original": {
         "word": "Thrifty",
@@ -197,7 +197,7 @@
       "field": "ledger[2]",
       "candidate": {
         "word": "Makes things last",
-        "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Let someone else pick one new thing a year, since you make the rest last."
+        "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. You make the rest last, and one new thing a year is theirs to pick."
       },
       "original": {
         "word": "Thrifty",
@@ -214,7 +214,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Saves first",
-        "text": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, so you put money away rather than enjoy it. Keep saving first, and let the price be a few good things you were slow to buy."
+        "text": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. Saving first suits you, and a few good things you were slow to buy are the price."
       },
       "original": {
         "word": "Steady",
@@ -231,7 +231,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Saves first",
-        "text": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. Spend one saved sum on something you want, since the pleasure you put off is the real price."
+        "text": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. If you spend one saved sum on something you want, the pleasure you put off stops being the price."
       },
       "original": {
         "word": "Steady",
@@ -265,7 +265,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Loyal",
-        "text": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you stay with what you have rather than look at what else there is. Stay loyal, and know the price is staying a while past where it serves you."
+        "text": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. You stay a while past where it serves you, and that is the price of loyalty like yours."
       },
       "original": {
         "word": "Well-stocked",
@@ -282,7 +282,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Loyal",
-        "text": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Ask every so often, since loyalty to what does not love you back is closeness you go without."
+        "text": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Asking every so often costs you little, while loyalty to what does not love you back costs you closeness."
       },
       "original": {
         "word": "Well-stocked",
@@ -299,7 +299,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Loyal",
-        "text": "Loyalty is how you love, lived rather than said. Choosing someone again matters to you more than saying so, and you let the staying stand in for the words. Say it out loud sometimes, since being chosen again only counts when it is said."
+        "text": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Being chosen again is a thing you give out loud, and you give it less than you mean to."
       },
       "original": {
         "word": "Well-stocked",
@@ -401,7 +401,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Loves a race",
-        "text": "You turn most shared things into a race. Winning beside someone matters more than being beside them, and that turns a friend into a finish line. Run one thing with them instead of against them, because racing costs them the company they came for."
+        "text": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. You cost them the rest they came for by racing on, and letting one end returns it."
       },
       "original": {
         "word": "Gutsy",
@@ -452,7 +452,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Shares the risk",
-        "text": "Your bets come with other people's names on them. You would rather share the risk than own the call, and that puts their money where your nerve is. Ask before counting them in, because shared risk takes from them a choice they never made."
+        "text": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Whenever you count them in unasked, you take a choice they never made, and one question first gives it back."
       },
       "original": {
         "word": "Rivalry-fueled",
@@ -554,7 +554,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Sets own pace",
-        "text": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. Match a friend's step once a week, because you cost them the company of moving together."
+        "text": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. You cost them the company of moving together, and one matched step a week is cheap."
       },
       "original": {
         "word": "Upright",
@@ -605,7 +605,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Consistent",
-        "text": "Holding yourself to one standard means holding your friends to it. Staying the same matters more than meeting anyone halfway, and that leaves no slack for an off day. Bend for one friend this month, since consistency costs them the mercy of an easier you."
+        "text": "Holding yourself to one standard means holding friends to it. Staying the same matters more than meeting anyone halfway, and an off day gets no slack. Whenever you bend for one friend, you hand them the easier you, and consistency is none the poorer."
       },
       "original": {
         "word": "Persevering",
@@ -622,7 +622,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Goes deep",
-        "text": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. Let the surface go, since every subject left there was the price of the one you own."
+        "text": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. You pay for the one you own with every subject left at the surface."
       },
       "original": {
         "word": "Deep-diving",
@@ -639,7 +639,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Goes deep",
-        "text": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. Surface a little sooner, because the depth keeps and an open door does not."
+        "text": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. You lose nothing of the depth by surfacing a little sooner, and keep the open door."
       },
       "original": {
         "word": "Deep-diving",
@@ -707,7 +707,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Reads people",
-        "text": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. Let the sentence finish, because the telling was the other person's to do."
+        "text": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. You give the other person back their telling whenever you let the sentence finish."
       },
       "original": {
         "word": "Tide-reading",
@@ -792,7 +792,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Calming presence",
-        "text": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. Let someone steady you for once, because your own upset is the one left unsettled."
+        "text": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. You leave your own upset unsettled until you let someone steady you for once."
       },
       "original": {
         "word": "Replenishing",
@@ -826,7 +826,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Soaks it up",
-        "text": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. Trust it anyway, since the proof shows up later than the understanding."
+        "text": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You can trust the gap, since the proof turns up later than the understanding."
       },
       "original": {
         "word": "Serene",
@@ -843,7 +843,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Soaks it up",
-        "text": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper anyway, because the chances asking for it close without you."
+        "text": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper once, because the chances asking for it close without you."
       },
       "original": {
         "word": "Serene",
@@ -860,7 +860,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Soaks it up",
-        "text": "You soak up what someone says before deciding whether you agree. Taking it in is easier for you than pushing back, so your disagreement stays where it helps no one. Say it anyway, because you help more with an honest no than a kind yes."
+        "text": "Soaking up what someone says comes ahead of deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. You help more with an honest no than a kind yes, and yours is already there."
       },
       "original": {
         "word": "Serene",
@@ -894,7 +894,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Patient",
-        "text": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. Say it once, because what you never asked for is what you gave up unnoticed."
+        "text": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. You gave up what you never asked for without noticing, and one question changes that."
       },
       "original": {
         "word": "Receptive",
@@ -945,7 +945,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Speaks up",
-        "text": "Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it ahead of checking the cost. Enjoy the line, and count the doors it closes that you needed open."
+        "text": "Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it ahead of checking the cost. You close a chance you wanted with a good line more often than you notice."
       },
       "original": {
         "word": "Dazzling",
@@ -979,7 +979,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Born performer",
-        "text": "You change in front of an audience, for the better. Being watched is where your focus comes from, and you perform a thing sooner than you practice it. Take the stage, and know its price, that nothing you do alone feels quite finished."
+        "text": "You change in front of an audience, for the better. Being watched is where your focus comes from, and you perform a thing sooner than you practice it. You pay for that in private, since nothing you do alone feels quite finished."
       },
       "original": {
         "word": "Quick-witted",
@@ -1030,7 +1030,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Thinks fast",
-        "text": "You think fastest with no time to think. You light up under pressure rather than freeze, so you answer on the spot instead of taking it away with you. Trust the speed, and see its price, that you rarely give the slow answer its turn."
+        "text": "You think fastest with no time to think. You light up under pressure rather than freeze, so you answer on the spot instead of taking it away with you. You rarely give the slow answer its turn, and the speed is worth that most days."
       },
       "original": {
         "word": "White-hot",
@@ -1047,7 +1047,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Thinks fast",
-        "text": "Thinking fast is the talent you lean on hardest. You have the first answer before the question is finished, and you trust it ahead of the second. Love the quickness, and name its cost, the better answer you never waited for."
+        "text": "Thinking fast is the talent you lean on hardest. You have the first answer before the question is finished, and you trust it ahead of the second. You spend the better answer you never waited for to keep the quickness."
       },
       "original": {
         "word": "White-hot",
@@ -1132,7 +1132,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Enjoys out loud",
-        "text": "Enjoying something quietly was never your way. You feel a pleasure fully only once it is shared, and you would rather enjoy a small thing with company than a big thing alone. Keep enjoying out loud, and accept that it costs you the private sort."
+        "text": "Enjoying something quietly was never your way. You feel a pleasure fully only once it is shared, and you would rather enjoy a small thing with company than a big thing alone. You pay for enjoying out loud with the private kind, a fair trade."
       },
       "original": {
         "word": "Festive",
@@ -1183,7 +1183,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Effortless",
-        "text": "What you make comes out without strain. Ease is the sign you trust, and you do the thing that flows sooner than you force the thing that counts. Trust the ease, and watch for its one price, that nothing made without effort feels fully yours."
+        "text": "What you make comes out without strain. Ease is the sign you trust, and you do the thing that flows sooner than you force the thing that counts. If it came without effort, you own it a little less, and that is the whole price."
       },
       "original": {
         "word": "Heartwarming",
@@ -1506,7 +1506,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Earns your place",
-        "text": "Slowly earned is the only kind of place you trust. An early title feels unearned, and you wait for the rules to promote you rather than ask. Ask once this year, since the step never asked for is what earning it slowly costs you."
+        "text": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Ask once this year, since the step never asked for is what earning slowly costs you."
       },
       "original": {
         "word": "Even-handed",

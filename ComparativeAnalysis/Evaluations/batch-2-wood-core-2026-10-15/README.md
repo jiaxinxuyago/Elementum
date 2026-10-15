@@ -14,3 +14,10 @@ Writers' own least-sure fields are in their hand-back reports (the session trans
 
 - The writers' private checkers all missed the same two laws: the four-gram pass must include value_b passages, and the chip word itself is zone-checked. Both are in the gate; the dispatch prompt for batch 3 should say them in one line each.
 - Three friction advices took a Body-variant beat ("Seek Wood, your own Body energy."), which the card names and the gate accepts.
+
+## The conformance audit and the adoption (2026-10-15)
+
+The owner read four examples ("all win over the original ones") and passed the batch on the condition of a double confirmation that every field respected the prompt and the rulings. Five independent auditors, one per energy share, read every value and value_b against the register and the cards for the craft half the gate only notes. Findings: 36 violations (Water 9, Fire 10, Wood 3 plus the close-frame pattern, Earth 8, Metal 6) and about 100 judgement calls for the owner's read, in `audit/<energy>.md`. The violations, by rule: close frames repeated across a page or a row (B9, the most common, on every catalyst page), exemplar lifts and scaffolds (E4), a sibling god's tension (E5), a within-cell repeat (F1), a chart state in a batch value (D1), a capacity close (A10), a content word three times counting its forms (B11), a cost never named (D3, D11). Every violation was re-cut by its sealed writer from the package alone and re-gated: 25 of 25 pass. Then, on the owner's "Once the audit is clean, adopt batch 2", the whole set landed: `adopt.mjs` per field with the ruling in the provenance, the transcription into the live modules, the twins, the three audits and the fixtures green.
+
+For the rules: the auditors' three recurring threads are candidates for batch 3's dispatch line and for a register amendment: the close frame varied across a page (B9) is the rule the writers most often broke; the cost_self price landed on rest or sleep on many rows (D3); the reminder bolted on as a tail clause rather than carried in the content (D11).
+

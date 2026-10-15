@@ -70,8 +70,7 @@
   "ledger[8] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
   "ledger[8] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
   "ledger[8] :: a word used twice (reached; B11, a note: vary it unless the repeat carries the logic)",
-  "ledger[0]#b :: a word used twice (days, whole; B11, a note: vary it unless the repeat carries the logic)",
-  "ledger[0]#b :: none of the chip's words (\"Asks no one\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[0]#b :: a word used twice (days; B11, a note: vary it unless the repeat carries the logic)",
   "ledger[3]#b :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
   "ledger[6]#b :: a word used twice (step; B11, a note: vary it unless the repeat carries the logic)"
  ],

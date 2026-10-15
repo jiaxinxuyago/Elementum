@@ -27,23 +27,23 @@
             "word": "Calming presence",
             "angles": {
               "drive": "You calm people down without trying to. Taking in someone's worry costs you less than watching them carry it, so you take it in and give back something steadier. Let a little of it out somewhere, because calm you only absorb runs dry.",
-              "cost_self": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. Let someone steady you for once, because your own upset is the one left unsettled.",
+              "cost_self": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. You leave your own upset unsettled until you let someone steady you for once.",
               "cost_others": "When someone close to you is upset, you become the calm for both. Being needed suits you more than being known, and your own trouble never shows. Let them see you shaken sometimes, because calm with nothing behind it keeps people at a distance."
             }
           },
           {
             "word": "Soaks it up",
             "angles": {
-              "drive": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. Trust it anyway, since the proof shows up later than the understanding.",
-              "cost_self": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper anyway, because the chances asking for it close without you.",
-              "cost_others": "You soak up what someone says before deciding whether you agree. Taking it in is easier for you than pushing back, so your disagreement stays where it helps no one. Say it anyway, because you help more with an honest no than a kind yes."
+              "drive": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You can trust the gap, since the proof turns up later than the understanding.",
+              "cost_self": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper once, because the chances asking for it close without you.",
+              "cost_others": "Soaking up what someone says comes ahead of deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. You help more with an honest no than a kind yes, and yours is already there."
             }
           },
           {
             "word": "Patient",
             "angles": {
               "drive": "Being patient comes easily to you. Letting a thing come in its own time feels more honest than forcing it, and you can wait on a question for months. Keep your pace, because the price is only the chance that needed a push.",
-              "cost_self": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. Say it once, because what you never asked for is what you gave up unnoticed.",
+              "cost_self": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. You gave up what you never asked for without noticing, and one question changes that.",
               "cost_others": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. Push sometimes, because being patient is also the hand you kept back."
             }
           }
@@ -55,7 +55,7 @@
             "word": "Lets it drift",
             "angles": {
               "drive": "You let things drift rather than decide them, and you call it patience. There is more Water in you than you turn into motion, so choosing costs more than going along. Remember that when you drift you are choosing too, just not the outcome.",
-              "cost_self": "Drifting spares you a wrong turn. A decision avoided feels like a risk avoided, and you renew the lease rather than ask what you want next. You pay for each drifted chance in years, and that is worth keeping in mind.",
+              "cost_self": "Drifting keeps the days quiet, and quiet feels like care. Stirring nothing costs less than reaching, and you renew the lease rather than ask what you want. Do not lose sight of how little you learn of your own wants while nothing changes at home.",
               "cost_others": "Whatever you let drift, you leave to someone else. Being carried feels easier than steering, and you let the people close to you make the calls you never did. It helps to remember that you hand them the weight of every call you dodge."
             }
           },
@@ -63,8 +63,8 @@
             "word": "Stays sheltered",
             "angles": {
               "drive": "You stay where it is safe long after outgrowing it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. Remember that you keep the shelter even after you walk out of it.",
-              "cost_self": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. Remember that you give up the very chances the shelter was for by never stepping out.",
-              "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. Remember that you offer those you love your safety in place of your company."
+              "cost_self": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. Never forget that you give up the very chances the shelter was for by staying in.",
+              "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company, and the swap is yours to notice."
             }
           },
           {

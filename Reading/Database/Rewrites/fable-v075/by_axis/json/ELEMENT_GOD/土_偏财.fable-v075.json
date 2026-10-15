@@ -26,25 +26,25 @@
           {
             "word": "Far-sighted",
             "angles": {
-              "drive": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Keep looking that far, and accept seeing less of what is near.",
-              "cost_self": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. Check the opening at hand before looking past it, since that one closes on you most.",
-              "cost_others": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. Let them share the view, since you see far enough for all of them."
+              "drive": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Looking far costs you some of what is near, and the trade favors you.",
+              "cost_self": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. You lose the opening at hand most, and one quick look before passing it keeps it.",
+              "cost_others": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. If you let them look with you, you see far enough for all of them."
             }
           },
           {
             "word": "Takes the chance",
             "angles": {
-              "drive": "A chance within reach is hard to leave on the table, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. Keep taking them with your eyes open, since a few will cost you.",
-              "cost_self": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, since the wrong ones cost what the sure ones kept.",
-              "cost_others": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. Let them size the next one, since the chance you take is theirs too."
+              "drive": "A chance within reach is hard to leave alone, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. You take them best with your eyes open, since some of them cost you.",
+              "cost_self": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, because the wrong ones cost what the sure ones kept.",
+              "cost_others": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. You take it for them too, and choosing its size with them costs you nothing."
             }
           },
           {
             "word": "Shares the win",
             "angles": {
-              "drive": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month out rather than put it away. Keep sharing, and know the price is a thinner cushion than you have earned.",
-              "cost_self": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. Keep some of each win back, since that is money you later go without.",
-              "cost_others": "You share each win rather than hold it until the next. Giving in bursts is how you love, and you give those you provide for plenty one year and nothing the next. Share in a shape that lasts, since they will come to you again."
+              "drive": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. You share because it is right for you, and the thinner cushion is the price.",
+              "cost_self": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. If you keep some of each win back, the lean year stops costing you.",
+              "cost_others": "You share each win rather than sit on it. Giving in bursts is your way of loving, and you hand them plenty one year and nothing the next. You do them more good sharing in a shape that lasts, since they come back."
             }
           }
         ]
@@ -55,8 +55,8 @@
             "word": "Chases every chance",
             "angles": {
               "drive": "The next chance always looks better to you than the one in your hands. Movement is how you feel alive, and you chase what is coming rather than work what is here. Keep in mind that you only keep what you stay to collect.",
-              "cost_self": "Chasing the next chance costs you the one you hold now. Each new start takes the strength the last one needs, and you would rather begin again than finish. Do not forget that the chance in your hands closes while you are off chasing.",
-              "cost_others": "You chase the next chance before anyone is out of the last one. You want starting more than staying, and you give the new venture what you owed the old one. You already know that you leave someone holding each chance you chase past."
+              "cost_self": "Chasing the next chance costs you the one you hold now. Each new start takes the strength the last one needs, and you would rather begin again than finish. You already know that the chance in your hands closes while you are off chasing.",
+              "cost_others": "You chase the next chance before anyone is out of the last one. You want starting more than staying, and you give the new venture what you owed the old one. Try to remember that you leave someone holding each chance you chase past."
             }
           },
           {
@@ -64,15 +64,15 @@
             "angles": {
               "drive": "You are spread across more things than any one of them can use. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You give each one a part and none the whole, and that is worth remembering.",
               "cost_self": "Spreading yourself thin keeps you from being caught out and keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. Remember that you pay for all of them with the one body you have.",
-              "cost_others": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. Remember, you give each person in your plans the part of you the others left."
+              "cost_others": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. Do not forget that you give each person in your plans the part of you the others left."
             }
           },
           {
             "word": "Half-finished",
             "angles": {
-              "drive": "Starting a thing gives you more than finishing it ever does. The beginning is where the feeling lives, and you spend your strength there rather than on the last stretch. Remember that the half you did pays nothing until the rest is done.",
-              "cost_self": "Finishing is what you save for later. The last stretch asks more of you than the first, and you open a new thing sooner than you close an old one. Remember that the money and the credit sit at the end you walk away from.",
-              "cost_others": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. Try to remember that you give the people waiting your start and somebody else's finish."
+              "drive": "Starting a thing gives you more than finishing it. The beginning is where the feeling lives, and you spend your strength there rather than on the last stretch. You get nothing for the half until the rest is done, and you need no reminding.",
+              "cost_self": "Finishing is what you save for later. The last stretch costs you more than the first, and you open a new thing sooner than you close an old one. Hold onto the thought that the money and the credit sit at the end you leave.",
+              "cost_others": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. Make a note that you give the people waiting your start and somebody else's finish."
             }
           }
         ]

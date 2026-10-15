@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Far-sighted",
-    "text": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Keep looking that far, and accept seeing less of what is near."
+    "text": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Looking far costs you some of what is near, and the trade favors you."
    },
    "value_b": {
     "word": "Far-sighted",
-    "text": "You see what a thing will become before it looks like anything. Needing a way forward is how you feel safe, and that puts the far chance ahead of the near one. Trust that early sight, and keep track of what is already yours."
+    "text": "You see what a thing will become before it looks like anything. Needing a way forward is how you feel safe, and that puts the far chance ahead of the near one. Trust that early sight, and keep track of what you already have."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Far-sighted",
-    "text": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. Check the opening at hand before looking past it, since that one closes on you most."
+    "text": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. You lose the opening at hand most, and one quick look before passing it keeps it."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Far-sighted",
-    "text": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. Let them share the view, since you see far enough for all of them."
+    "text": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. If you let them look with you, you see far enough for all of them."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Takes the chance",
-    "text": "A chance within reach is hard to leave on the table, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. Keep taking them with your eyes open, since a few will cost you."
+    "text": "A chance within reach is hard to leave alone, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. You take them best with your eyes open, since some of them cost you."
    },
    "value_b": {
     "word": "Takes the chance",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Takes the chance",
-    "text": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, since the wrong ones cost what the sure ones kept."
+    "text": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, because the wrong ones cost what the sure ones kept."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Takes the chance",
-    "text": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. Let them size the next one, since the chance you take is theirs too."
+    "text": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. You take it for them too, and choosing its size with them costs you nothing."
    }
   },
   "ledger[6]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Shares the win",
-    "text": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month out rather than put it away. Keep sharing, and know the price is a thinner cushion than you have earned."
+    "text": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. You share because it is right for you, and the thinner cushion is the price."
    },
    "value_b": {
     "word": "Shares the win",
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Shares the win",
-    "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. Keep some of each win back, since that is money you later go without."
+    "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. If you keep some of each win back, the lean year stops costing you."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Shares the win",
-    "text": "You share each win rather than hold it until the next. Giving in bursts is how you love, and you give those you provide for plenty one year and nothing the next. Share in a shape that lasts, since they will come to you again."
+    "text": "You share each win rather than sit on it. Giving in bursts is your way of loving, and you hand them plenty one year and nothing the next. You do them more good sharing in a shape that lasts, since they come back."
    }
   }
  }

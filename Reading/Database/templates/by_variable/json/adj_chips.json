@@ -111,14 +111,14 @@
         "canonical_name": "The General",
         "value": {
           "catalyst": [
-            "Battle-ready",
-            "Disciplined",
-            "Surgical"
+            "Takes charge",
+            "Thrives under pressure",
+            "Decides fast"
           ],
           "friction": [
-            "Punishing",
-            "Ruthless",
-            "Blunted"
+            "Hard on yourself",
+            "Never off duty",
+            "Pushes too hard"
           ]
         }
       },
@@ -128,14 +128,14 @@
         "canonical_name": "The Magistrate",
         "value": {
           "catalyst": [
-            "Precise",
-            "Incorruptible",
-            "Even-handed"
+            "Keeps your word",
+            "Does it properly",
+            "Earns your place"
           ],
           "friction": [
-            "Demanding",
-            "Unbending",
-            "By-the-book"
+            "Needs permission",
+            "Hates being wrong",
+            "Puts rules first"
           ]
         }
       },
@@ -247,14 +247,14 @@
         "canonical_name": "The Horizon",
         "value": {
           "catalyst": [
-            "Shrewd",
-            "Well-traveled",
-            "Overflowing"
+            "Far-sighted",
+            "Takes the chance",
+            "Shares the win"
           ],
           "friction": [
-            "Land-hungry",
-            "Never-settled",
-            "Spread-thin"
+            "Chases every chance",
+            "Spread too thin",
+            "Half-finished"
           ]
         }
       },
@@ -264,14 +264,14 @@
         "canonical_name": "The Steward",
         "value": {
           "catalyst": [
-            "Thrifty",
-            "Steady",
-            "Well-stocked"
+            "Makes things last",
+            "Saves first",
+            "Loyal"
           ],
           "friction": [
-            "Hoarding",
-            "Immobile",
-            "Cheap"
+            "Keeps everything",
+            "Hard to move",
+            "Hates to spend"
           ]
         }
       },
@@ -349,14 +349,14 @@
         "canonical_name": "The Twin",
         "value": {
           "catalyst": [
-            "Self-rooted",
-            "Upright",
-            "Persevering"
+            "Does it alone",
+            "Sets own pace",
+            "Consistent"
           ],
           "friction": [
-            "Standoffish",
-            "Stubborn",
-            "Slow to change"
+            "Asks no one",
+            "Always right",
+            "Keeps distance"
           ]
         }
       },
@@ -366,14 +366,14 @@
         "canonical_name": "The Rival",
         "value": {
           "catalyst": [
-            "Fast-climbing",
-            "Gutsy",
-            "Rivalry-fueled"
+            "Goes first",
+            "Loves a race",
+            "Shares the risk"
           ],
           "friction": [
-            "Overreaching",
-            "Turf-guarding",
-            "Impulsive"
+            "Bets too big",
+            "Never stops racing",
+            "Spends shared money"
           ]
         }
       },
@@ -655,14 +655,14 @@
         "canonical_name": "The Alchemist",
         "value": {
           "catalyst": [
-            "Deep-diving",
-            "Tide-reading",
-            "Subtle"
+            "Goes deep",
+            "Reads people",
+            "Self-taught"
           ],
           "friction": [
-            "Submerged",
-            "Fixated",
-            "Unreachable"
+            "Thinks too much",
+            "Keeps it in",
+            "Hard to reach"
           ]
         }
       },
@@ -672,14 +672,14 @@
         "canonical_name": "The Sage",
         "value": {
           "catalyst": [
-            "Replenishing",
-            "Serene",
-            "Receptive"
+            "Calming presence",
+            "Soaks it up",
+            "Patient"
           ],
           "friction": [
-            "Passive",
-            "Waterlogged",
-            "Cocooned"
+            "Lets it drift",
+            "Stays sheltered",
+            "Over-protects"
           ]
         }
       },
@@ -723,14 +723,14 @@
         "canonical_name": "The Artisan",
         "value": {
           "catalyst": [
-            "Radiant",
-            "Festive",
-            "Heartwarming"
+            "Gives freely",
+            "Enjoys out loud",
+            "Effortless"
           ],
           "friction": [
-            "Comfort-chasing",
-            "Over the top",
-            "Slack"
+            "Never says no",
+            "Drifts",
+            "Pleasure first"
           ]
         }
       },
@@ -740,14 +740,14 @@
         "canonical_name": "The Virtuoso",
         "value": {
           "catalyst": [
-            "Dazzling",
-            "Quick-witted",
-            "White-hot"
+            "Speaks up",
+            "Born performer",
+            "Thinks fast"
           ],
           "friction": [
-            "Provocative",
-            "Scene-stealing",
-            "Combustible"
+            "Talks back",
+            "Needs an audience",
+            "Overdoes it"
           ]
         }
       },
