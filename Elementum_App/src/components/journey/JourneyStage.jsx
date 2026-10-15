@@ -28,8 +28,8 @@ import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 // THE FUNCTION METRICS (owner 2026-10-14; REA_19): three bars between the
 // definition and the chips, computed by the engine (functionMetrics.js), the
 // labels from the station. A trait bar fills its level in segments; the
-// style bar marks its position between two plain ends. Tap a bar to read its
-// line; collapsed at rest, like the chips.
+// style bar marks its position between two plain ends. Static since
+// 2026-10-15 (owner: no level glosses); nothing on the panel is tappable.
 // Static bars (owner 2026-10-15: no level glosses; the labels explain
 // themselves, as the MBTI metrics do, and a line per level would be a reading
 // of the person, which the ledger owns). Nothing on the panel is tappable.
