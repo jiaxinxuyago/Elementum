@@ -1,0 +1,109 @@
+{
+ "_generated_by": "fable-edge-v2",
+ "_handoff": "2026-10-15 the edge, metal core, v4 the door",
+ "cell": "ELEMENT_GOD/木_正财 (catalyst)",
+ "facts": {
+  "persona": "The Steward (正财) on Wood",
+  "function": "action",
+  "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
+  "catalyst_chips": [
+   "Patient builder",
+   "Saves first",
+   "Loyal"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Patient builder",
+    "angles": {
+     "drive": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several. Stay patient at that pace, because the slow one is what you keep.",
+     "cost_self": "Whatever matters to you, you build for years. You put the thing in hand ahead of the wanted one and keep at it while your wish waits. Start building the wanted one too, because patience costs you the thing you never began.",
+     "cost_others": "You provide by building what lasts. Since you put finished ahead of shared, you build in private and keep the people near you waiting. Show them one thing half done, because the wait is the small price your care asks of them."
+    }
+   },
+   {
+    "word": "Saves first",
+    "angles": {
+     "drive": "Saving comes before spending for you, and you never decide it. Being covered means more than anything you would buy, so you save ahead of wanting. Spend a small part of what you save on yourself, because a cushion is also for sitting on.",
+     "cost_self": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures. Spend one of them on purpose, because saving first costs you the today you never have.",
+     "cost_others": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving ahead of the wish. Say yes to one wish early, since you are asking them to put a life on hold."
+    }
+   },
+   {
+    "word": "Loyal",
+    "angles": {
+     "drive": "Being loyal comes ahead of being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. Surprise the one you are loyal to once a year, because the same days are loyalty's price.",
+     "cost_self": "Where you gave your word, you stay loyal after the reasons change. Since loyalty feels more like love than choosing, you stop asking whether this is what you want or promised. Ask yourself every few years, because loyalty costs you the love you never chose.",
+     "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and hand the person you keep your presence ahead of your feelings. Say it once in plain words, because unspoken loyalty leaves them guessing."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Spots openings",
+   "Quick to start",
+   "Generous"
+  ],
+  "pair_definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it.",
+  "pair_advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ],
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Career"
+  ],
+  "claim_fixed": "How to use Wood, the Action energy."
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v4, the door)",
+    "shape": {
+     "claim": "exactly facts.claim_fixed",
+     "lead": "one sentence, 10-20 words, the reader its subject, what the gift buys in use",
+     "items": [
+      {
+       "domain": "facts.ruling_domains[i], in order",
+       "line": "3-5 words, a phrase, lowercase, no stop, no colon"
+      }
+     ],
+     "metric": "one of the bars keys"
+    },
+    "counts": {
+     "items": 3
+    },
+    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; no four-word run shared with any fact; no phrase repeated across the ten cells"
+   },
+   "value": {
+    "claim": "How to use Wood, the Action energy.",
+    "lead": "It gives you a life where the money stays put and so do the people.",
+    "items": [
+     {
+      "domain": "Wealth",
+      "line": "the account you never touch"
+     },
+     {
+      "domain": "Family",
+      "line": "parents visited every week"
+     },
+     {
+      "domain": "Career",
+      "line": "work that pays for staying"
+     }
+    ],
+    "metric": "discipline"
+   }
+  }
+ }
+}

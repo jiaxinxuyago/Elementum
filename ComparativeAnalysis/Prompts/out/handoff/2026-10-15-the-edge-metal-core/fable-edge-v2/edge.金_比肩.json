@@ -1,0 +1,109 @@
+{
+ "_generated_by": "fable-edge-v2",
+ "_handoff": "2026-10-15 the edge, metal core, v4 the door",
+ "cell": "ELEMENT_GOD/金_比肩 (catalyst)",
+ "facts": {
+  "persona": "The Twin (比肩) on Metal",
+  "function": "body",
+  "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
+  "catalyst_chips": [
+   "Self-made",
+   "Even-handed",
+   "Recovers alone"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Self-made",
+    "angles": {
+     "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, since you pay most for the things you make alone.",
+     "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Ask for a hand early, or everything self-made costs you rest you never take.",
+     "cost_others": "Making everything yourself is what you show a new peer first. By making each thing alone instead of sharing it, you leave your peers nothing to carry. Hand one piece over, because all you take from them is the chance to matter to you."
+    }
+   },
+   {
+    "word": "Even-handed",
+    "angles": {
+     "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance.",
+     "cost_self": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even standard is how you stay honest. Bend it once for someone you like, because you spend long stretches without company that fits.",
+     "cost_others": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Offer the warmth first, as you cost them the ease of being liked without being graded."
+    }
+   },
+   {
+    "word": "Recovers alone",
+    "angles": {
+     "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to.",
+     "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. Show someone the half-built version before recovering alone costs you the friend who would have come.",
+     "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Let them in on one of those days, since you deny your closest people the chance to be needed."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Competitive",
+   "First to bet",
+   "Shares the risk"
+  ],
+  "pair_definition_catalyst": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in.",
+  "pair_advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Take rest in first and sleep before the hard decision rather than after it. Let one peer carry a job you could do yourself. Sit out one contest a month on purpose. Eat before you answer the message.",
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ],
+  "ruling_domains": [
+   "Family",
+   "Growth",
+   "Social"
+  ],
+  "claim_fixed": "How to use Metal, the Body energy."
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v4, the door)",
+    "shape": {
+     "claim": "exactly facts.claim_fixed",
+     "lead": "one sentence, 10-20 words, the reader its subject, what the gift buys in use",
+     "items": [
+      {
+       "domain": "facts.ruling_domains[i], in order",
+       "line": "3-5 words, a phrase, lowercase, no stop, no colon"
+      }
+     ],
+     "metric": "one of the bars keys"
+    },
+    "counts": {
+     "items": 3
+    },
+    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; no four-word run shared with any fact; no phrase repeated across the ten cells"
+   },
+   "value": {
+    "claim": "How to use Metal, the Body energy.",
+    "lead": "You are the one who gets back up without being carried and treats everyone the same.",
+    "items": [
+     {
+      "domain": "Family",
+      "line": "your own weight at home"
+     },
+     {
+      "domain": "Growth",
+      "line": "getting good without a coach"
+     },
+     {
+      "domain": "Social",
+      "line": "the fair one among friends"
+     }
+    ],
+    "metric": "independence"
+   }
+  }
+ }
+}
