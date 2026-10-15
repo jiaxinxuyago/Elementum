@@ -793,4 +793,11 @@
 .jny .el-edge-footic{ width: 14px; height: 14px; color: var(--pigDeep, var(--bronzeDark)); opacity: .85; }
 .jny .el-edge-footic svg{ width: 14px; height: 14px; }
 .jny .el-edgebox .el-edge-bar{ margin-left: 0; }
+/* THE EDGE v3 (owner 2026-10-15): the manual bulleted by discipline inside the
+   remedy-sized box: a lead line, one row per domain with its mark, one action. */
+.jny .el-edge-manual{ list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
+.jny .el-edge-manual li{ display: grid; grid-template-columns: 14px auto 1fr; align-items: baseline; column-gap: 7px; font-size: 14px; line-height: 1.45; color: var(--ink); }
+.jny .el-edge-manual .el-edge-footic{ align-self: center; }
+.jny .el-edge-manline{ min-width: 0; }
+.jny .el-edge-act{ margin-top: 9px; }
 

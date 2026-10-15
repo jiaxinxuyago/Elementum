@@ -833,12 +833,27 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                               <span className="serifline el-remedytitle">{edge.claim}</span>
                               {b && <span className="el-edge-dots head" aria-label={`${b.label}: level ${b.level} of 5`}>{[1, 2, 3, 4, 5].map((i) => <i key={i} className={i <= b.level ? 'on' : ''} />)}</span>}
                             </span>
-                            <span className="body2 el-fnbody el-remedybody">{edge.body}</span>
-                            {(b || edge.domains.length > 0) && (
-                              <span className="el-edge-foot">
-                                {b && <span className="el-edge-footitem"><span className="el-edge-bar">{b.label}</span></span>}
-                                {edge.domains.map((d) => <span key={d} className="el-edge-footitem"><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[d] || 'dom-career'} /></span><span className="el-edge-dom">{d}</span></span>)}
-                              </span>
+                            {edge.items ? (
+                              <>
+                                {edge.lead && <span className="body2 el-fnbody el-remedybody">{edge.lead}</span>}
+                                <ul className="el-edge-manual">
+                                  {edge.items.map((it) => (
+                                    <li key={it.domain}><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[it.domain] || 'dom-career'} /></span><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span></li>
+                                  ))}
+                                </ul>
+                                {edge.action && <span className="body2 el-fnbody el-remedybody el-edge-act">{edge.action}</span>}
+                                {b && <span className="el-edge-foot"><span className="el-edge-footitem"><span className="el-edge-bar">{b.label}</span></span></span>}
+                              </>
+                            ) : (
+                              <>
+                                <span className="body2 el-fnbody el-remedybody">{edge.body}</span>
+                                {(b || edge.domains.length > 0) && (
+                                  <span className="el-edge-foot">
+                                    {b && <span className="el-edge-footitem"><span className="el-edge-bar">{b.label}</span></span>}
+                                    {edge.domains.map((d) => <span key={d} className="el-edge-footitem"><span className="el-edge-footic" aria-hidden="true"><Use id={DOM[d] || 'dom-career'} /></span><span className="el-edge-dom">{d}</span></span>)}
+                                  </span>
+                                )}
+                              </>
                             )}
                           </div>
                         </>

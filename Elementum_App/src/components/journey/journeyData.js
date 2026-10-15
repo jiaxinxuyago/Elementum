@@ -654,6 +654,9 @@ export function edgeOf(r) {
   if (!e) return null;
   // v2 (owner 2026-10-15, the same size and format as THE REMEDY): a claim
   // line, one body of about fifty-five words, one bar, two domain marks.
+  // v3 (owner 2026-10-15, the comment on the side-by-side): the manual
+  // bulleted by discipline, a lead line, one line per domain, one action.
+  if (e.claim && Array.isArray(e.items)) return { cell, claim: e.claim, lead: e.lead || '', items: e.items, action: e.action || '', metric: e.metric || null, domains: e.items.map((i) => i.domain) };
   if (e.claim && e.body) return { cell, claim: e.claim, body: e.body, metric: e.metric || null, domains: Array.isArray(e.domains) ? e.domains : [] };
   if (!Array.isArray(e.talents) || !Array.isArray(e.places)) return null;
   return { cell, talents: e.talents, places: e.places, action: e.action || '' };
