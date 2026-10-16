@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Loves a race",
-    "text": "A race gets all of you moving. You run on a small supply of Water, so you would rather chase a real person than follow a plan. Name one race a season out loud, and the racing feeds you more than it costs."
+    "text": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. When you name one race a season out loud, you come out of it fed rather than spent."
    },
    "value_b": {
     "word": "Loves a race",
-    "text": "Loving a race is how you love the work. Water comes in slowly for you and nothing refills it like someone to beat, and you put the race ahead of the task. Keep a rival you like, and the race stays a game worth running."
+    "text": "Loving a race is how you love the work. Water comes in slowly for you and nothing refills it like someone to beat, and you put the race ahead of the task. With a rival you like, you keep the race a game worth running."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Loves a race",
-    "text": "Racing is where you feel most alive. You have little Water, so you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you keep the stamina the next one needs."
+    "text": "You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you bring full stamina to the next one."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Loves a race",
-    "text": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. Tell them the race is on, and they get to run it with you."
+    "text": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. If you tell them the race is on, you run it together instead of alone."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Jumps in first",
-    "text": "Jumping in first is how you learn what a thing is really like. Water is short in you, and you would rather be inside a decision than stand beside it planning. Jump in where the stakes are shared, and the first mistake costs you half."
+    "text": "Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. If you jump in where stakes are shared, you pay half of the first mistake."
    },
    "value_b": {
     "word": "Jumps in first",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Jumps in first",
-    "text": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while the early mistakes come out of your savings. Read the plan first every third time, and you keep more of your own money."
+    "text": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while early mistakes come out of your savings. When you read the plan first every third time, you hold on to more of your money."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Jumps in first",
-    "text": "Jumping first takes whoever shares your stakes in after you. You decide for both ahead of asking, and a partner finds the risk already taken in their name. Ask before you jump, and they go in beside you rather than after you."
+    "text": "Whenever you go first, you pull your partner in after you. You decide for both ahead of asking, and you take the risk in their name too. If you ask before you jump, you go in side by side."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "All in together",
-    "text": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. Choose people who count as carefully as you trust, and going all in pays."
+    "text": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. When you pick people who count as carefully as you trust, all in pays off."
    },
    "value_b": {
     "word": "All in together",
-    "text": "You go all in together or you do not go in. A shared risk feels lighter than one carried alone, and you pool first and sort out shares later. Name your part before you go in, and you keep both the partner and the money."
+    "text": "You go all in together or you do not go in. A shared risk feels lighter than one carried alone, and you pool first and sort out shares later. When you name your part before going in, you keep both the partner and the money."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "All in together",
-    "text": "Inside a shared stake, you are at your bravest. A pooled stake feels like company, and all in feels better to you than keeping some back. Keep one share out of every pool, and you only ever lose what you can afford."
+    "text": "Inside a shared stake, you feel your bravest. A pooled stake feels like company, and all in feels better to you than holding some back. If you keep one share out of every pool, you only ever lose what you can afford."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "All in together",
-    "text": "All in together means you take someone with you every time. You put the shared stake ahead of the question of whose it was, and a partner carries losses they never signed for. Agree the shares before the risk, and they stay a partner afterwards."
+    "text": "All in together means you take someone with you every time. You put the shared stake ahead of asking whose it was, and a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it."
    }
   }
  }

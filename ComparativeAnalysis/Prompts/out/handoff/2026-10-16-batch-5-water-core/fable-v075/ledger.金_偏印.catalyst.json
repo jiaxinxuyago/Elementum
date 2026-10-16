@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Tests everything",
-    "text": "Testing everything costs you time. Slow and sure matters more to you than quick and wrong, so most of your learning starts late. Let one good teacher skip the test, because every hour spent proving the known is an hour not spent learning the new."
+    "text": "Testing everything costs you time. Slow and sure means more to you than quick and wrong, so most of your learning starts late. Let one good teacher skip the test, because every hour spent proving the known is an hour not spent learning the new."
    }
   },
   "ledger[2]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Rarely fooled",
-    "text": "You are rarely fooled. Being wrong about a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the pleasant proof. Keep that ear, and let a kind person prove it wrong from time to time."
+    "text": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the proof. When a kind person proves your doubt wrong, being fooled by kindness is a loss worth taking."
    },
    "value_b": {
     "word": "Rarely fooled",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Rarely fooled",
-    "text": "Rarely fooled, you are slow to be glad. You check a kind offer for the catch before letting it near, and would rather miss a good thing than be fooled. Take one offer at its word, and the good your doubt sends away gets in."
+    "text": "Rarely fooled, you are slow to be glad. You check an offer for the catch before letting it near, and would rather miss a good thing than be fooled. Once you take an offer at its word, you get back what your doubt sends away."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Rarely fooled",
-    "text": "Where others take an honest word as given, you check it for the catch. Being hard to fool counts for more with you than being easy company, and you make a truthful person prove it twice. Ask once, then rest, and the honest stay close."
+    "text": "You check an honest word as closely as a false one. Being hard to fool counts for more with you than being easy company, and you make a truthful person prove it twice. You keep more honest company with every first answer you let stand."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Thinks alone",
-    "text": "Your best thinking happens alone. You need quiet for a half-formed idea more than an audience, so you shut the door until it is whole. If you bring one person in at the halfway point, you keep the quiet without the loneliness."
+    "text": "Your best thinking happens alone. You need quiet for a half-formed idea more than an audience, so you shut the door until it is whole. Each time you bring one person in at the halfway point, you keep the quiet and lose only the loneliness."
    },
    "value_b": {
     "word": "Thinks alone",
-    "text": "You think alone, then arrive with the answer finished. You would rather be late than be seen mid-thought, and the working stays yours alone until it holds. If you say the half-made version to one person, you get the finished one sooner."
+    "text": "You think alone, then arrive with the answer finished. You put being late ahead of being seen mid-thought, and the working stays yours alone until it holds. If you say the half-made version to one person, you get the finished one sooner."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Thinks alone",
-    "text": "Thinking alone keeps the idea clean. You would rather carry a hard question alone than let anyone see it unsolved, and help only reaches a problem someone has heard about. If you tell one person early, you get the help you have been doing without."
+    "text": "Thinking alone keeps the idea clean. You would rather carry a hard question alone than let anyone see it unsolved, and help only reaches a problem someone has heard about. Once you tell one person early, help you have done without starts arriving."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Thinks alone",
-    "text": "You think alone and hand people the result. Working it out in private comes easier to you than working it out together, and the people near you get only the conclusion. If you open the door earlier, you give them a say in it."
+    "text": "Your thinking stays private until it is a result for others. Working it out alone comes easier to you than together, and the people near you get only the conclusion. When the door opens earlier, you give them a say in the deciding."
    }
   }
  }

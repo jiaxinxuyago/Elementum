@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Keeps a confidence",
-    "text": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and you give the ones who tell you everything nothing of yourself back. Hand one of them a worry, and the shelter becomes shared."
+    "text": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and you give the ones who tell you everything nothing of yourself back. Once you hand one of them a worry, the shelter becomes shared."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Learns it properly",
-    "text": "You learn a thing properly or not at all. Half-knowing a subject bothers you more than not knowing it, so you go to its end before counting it learned. Take the slow way on purpose, and what you learned stays true under pressure."
+    "text": "You learn a thing properly or not at all. Half-knowing a subject bothers you more than not knowing it, so you go to its end before counting it learned. When you take the slow way on purpose, what you learned stays true under pressure."
    },
    "value_b": {
     "word": "Learns it properly",
-    "text": "Learning it properly is the only way you trust it. You would rather finish one subject than start ten, and that keeps your list short. Start the next one early, and that sure footing comes with you."
+    "text": "Learning it properly is the only way you trust it. You would rather finish one subject than start ten, and that keeps your list short. When you start the next one early, that sure footing comes with you."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Learns it properly",
-    "text": "Learning it properly takes you longer. You would rather arrive late and sure than early and guessing, and you watch quicker people take the chances. Allow yourself one half-known start, and you get the chances that used to go to faster people."
+    "text": "Learning it properly takes you longer. Knowing a thing to its end matters to you more than knowing it well enough, and most chances ask for less. Once you take one door on less than the whole, you stop watching chances go to faster people."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Learns it properly",
-    "text": "Teaching waits until you have learned it properly. Being sure matters to you ahead of being on time, and you leave the people waiting on your certainty. Teach the half you have, because a rough lesson now helps them more than a finished one later."
+    "text": "Teaching waits until you have learned it properly. You would rather pass a subject on whole than in pieces, and the people learning from you get nothing before the whole arrives. The more you teach as you learn, the less knowledge you keep from them."
    }
   },
   "ledger[6]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Steadies people",
-    "text": "You steady people by holding them to something. Keeping someone safe matters more to you than keeping them comfortable, so your care arrives as a standard rather than a hug. Add the warm word before the rule, and the steadying lands as love."
+    "text": "You steady people by holding them to something. Keeping someone safe matters more to you than keeping them comfortable, so your care arrives as a standard rather than a hug. When you put the warm word before the rule, your steadying lands as love."
    },
    "value_b": {
     "word": "Steadies people",
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Steadies people",
-    "text": "Steadying people earns you respect ahead of closeness. Being called when things fall apart suits you more than being called for no reason, and the no-reason calls are what you miss. Let the standard rest one evening, and the closeness it stands in for arrives."
+    "text": "Steadying people earns you respect ahead of closeness. Being needed when things fall apart suits you more than being phoned for nothing, and the no-reason calls are what you miss. Once you rest the standard an evening, you get the closeness it stands in for."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Steadies people",
-    "text": "Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson instead. Ask what they need first, and the steadying stays wanted."
+    "text": "Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson. Each time you ask what they need first, you keep the steadying wanted."
    }
   }
  }

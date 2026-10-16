@@ -26,7 +26,7 @@
     "person": "fully third person, no \"you\", no function claim, no persona",
     "chemistry": "the field carries one word of the pair's chemistry somewhere in it: Metal's material or Water's (an arena noun, its verb, or either element as a common noun); the gate blocks without it; the base keeps its material by the ruling (the one surface with the arena, with the turns, the carries and the sign paragraph)"
    },
-   "value": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and every spring remembers the cold stone it first seeped from."
+   "value": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and the whole tide below begins in drops this small."
   },
   "mechanism.catalyst_turn": {
    "spec": {
@@ -36,7 +36,7 @@
     "element": "Metal",
     "notes": "opens on a plain statement of the state in the reader's terms (Metal named, its volume in ordinary words, the reference lead-in \"With too little Metal, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
    },
-   "value": "With too little Metal, less settles than you spend. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Read one slow book before the next hard call."
+   "value": "With too little Metal, less goes in than comes out. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Take one thing in before you pass it on."
   },
   "carry.catalyst": {
    "spec": {
@@ -55,7 +55,7 @@
    },
    "value": {
     "clause": "Nothing cold stands over the water, so no drop gathers",
-    "remedy": "Read one slow book before the next hard call."
+    "remedy": "Take one thing in before you pass it on."
    }
   },
   "mechanism.friction_turn": {
@@ -134,8 +134,8 @@
     "notes": "Metal wanted and absent: borrow it"
    },
    "value": {
-    "clause": "No cold surface for the water to form on, answers given before anything has settled.",
-    "remedy": "Borrow it, one trusted teacher, one rule you did not write."
+    "clause": "The water has no cold to gather on, and what you give out is never put back.",
+    "remedy": "Borrow it from someone who has already tested it."
    }
   },
   "carry.spared": {
@@ -246,7 +246,7 @@
     "remedy_gloss": "Refill: intake, rest, taking in (read, sit, sleep, ask, wait for the whole answer); never a push for more output (the band's remedy verb, REA_02 §5c; no chart is attached: the catalyst pole of the Mind is the Underfueled band's case (the core burns more than it takes in))",
     "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), three or four, ending on the smallest, no aphorism close; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
    },
-   "value": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it and wait for the whole story. Sleep on any answer that matters. Write the question down before you reply."
+   "value": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply."
   },
   "function.advise_friction": {
    "spec": {
@@ -277,7 +277,7 @@
     "notes": "explains \"Metal is your Mind\": a behavioural truth with the reader as its subject plus ONE tendency-framed consequence beat, true on either pole, the tension inside the one sentence where it can be; at least eight words, no arena word, no turn word (but, yet, however), no more than two commas (owner 2026-10-14, v0.7.1)"
    },
    "value": "You trust what you have tested rather than what you were told, so you learn slowly and keep it for good.",
-   "value_b": "Your mind keeps only what survives a test, and you would rather know a few things well than many things a little."
+   "value_b": "You let in only what you have checked yourself, and you would rather know a few things well than many things a little."
   }
  }
 }

@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Carries own weight",
-    "text": "Carrying your own weight is the first thing you do anywhere. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. Carry it beside someone once, and it gets lighter without getting smaller."
+    "text": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. If you carry it beside someone once, it gets lighter without getting smaller."
    },
    "value_b": {
     "word": "Carries own weight",
-    "text": "You carry your own weight before anyone asks. Water runs low in you, and you would rather stand on your own than lean on a peer. Let a friend take a corner some weeks, and you keep more of yourself for the long run."
+    "text": "You carry your own weight before anyone asks. Water runs low in you, and you would rather stand on your own than lean on a peer. When you let a friend take a corner some weeks, you keep more of yourself for the long run."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Carries own weight",
-    "text": "Where you feel most steady is carrying everything yourself. Water runs short in you before the week does, and you keep each load rather than share it. Set one weight down with a peer, and the rest you never take comes back to you."
+    "text": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. Set one weight down with a peer, and the rest you never take comes back to you."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Carries own weight",
-    "text": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness that comes with sharing it. Let them carry a little, because being needed is part of being close."
+    "text": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness sharing brings. You give them a way to matter to you each time you let them carry a little."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Even pace",
-    "text": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. Keep it through a crowded week, and you arrive with something left."
+    "text": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. If you keep it through a crowded week, you arrive with something left."
    },
    "value_b": {
     "word": "Even pace",
-    "text": "You hold one pace whether the people around you rush or stall. Nothing refills you quickly, and an even pace matters more to you than keeping up. Hold it in good company too, and the company lasts longer than the rush."
+    "text": "You hold one pace whether the people around you rush or stall. Nothing refills you quickly, and an even pace matters more to you than keeping up. When you hold it in good company, you keep the company longer than the rush."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Even pace",
-    "text": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts, while quick chances close before you reach them. Chase one of those a season, and you lose nothing you cannot earn back."
+    "text": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. If you break the pace for one chance a season, you lose fewer quick chances to your own even pace."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Even pace",
-    "text": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a friend in a hurry walks a stretch alone. Match theirs for one outing, and they feel you beside them."
+    "text": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a hurried friend walks a stretch alone. When you match theirs for one outing, you walk beside them rather than apart."
    }
   },
   "ledger[6]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Decides alone",
-    "text": "Deciding alone is your default. Asking around feels like handing over the one thing that is yours, so you decide by yourself ahead of hearing a second view. Ask one peer before the next big choice, and it keeps its speed and gains their eyes."
+    "text": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. If you ask one peer before the next big choice, you lose no speed and gain a second pair of eyes."
    },
    "value_b": {
     "word": "Decides alone",
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Decides alone",
-    "text": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. Let a friend read the next big plan first, and the mistakes stay smaller than it."
+    "text": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. Letting a friend read the next big plan first keeps your mistakes smaller than it."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Decides alone",
-    "text": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. Bring one of them in early, and they get a say in what they live with."
+    "text": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. You hand them a say in what they live with by bringing one of them in early."
    }
   }
  }

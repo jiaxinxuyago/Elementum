@@ -54,7 +54,7 @@
    },
    "value_b": {
     "word": "Never done checking",
-    "text": "Checking is the part you trust most. Only a fully tested thing feels safe to you, and that keeps you checking what already passed instead of letting it go. You know already that the third check finds nothing the second one missed."
+    "text": "Checking is the part you trust most. Only a fully tested thing feels safe to you, and that keeps you checking the finished work instead of letting it go. You know already that the third check finds nothing the second one missed."
    }
   },
   "ledger[1]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Hard to reach",
-    "text": "Hard to reach is what you become when a thought is unfinished. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. Keep in mind that you will find the thought again sooner than the person."
+    "text": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping."
    },
    "value_b": {
     "word": "Hard to reach",
-    "text": "You think best when unreachable. Quiet matters more to you than being easy to find, and the thought gets finished while the call goes unanswered. You keep forgetting that a finished thought is worth something only once it reaches somebody."
+    "text": "You think best when unreachable. Quiet counts for more with you than being easy to find, and the thought gets finished while the call goes unanswered. You keep forgetting that a finished thought is worth something only once it reaches somebody."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Hard to reach",
-    "text": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and you know it each time the phone rings out."
+    "text": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and every call you let ring out proves it."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Hard to reach",
-    "text": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands on them as the answer. You were needed for a minute, and the thought would have waited."
+    "text": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands as the answer. Each time you give the minute first, you find the thought waiting when you come back."
    }
   }
  }
