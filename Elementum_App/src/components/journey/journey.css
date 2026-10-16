@@ -866,4 +866,6 @@
 .jny .el-remedykicker{ display: inline-flex; align-items: center; gap: 4px; font-size: 10px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--down, #a85c48); }
 .jny .el-remedykicker svg{ width: 11px; height: 11px; }
 .jny .el-remedytitles .el-remedytitle.xl{ font-size: 16.5px; line-height: 1.2; font-weight: 500; }
+.jny .el-remedykicker.up{ color: var(--up, #4a7a52); }
+.jny .el-edgebox .el-remedytitles .el-remedytitle.xl{ font-size: 16.5px; letter-spacing: 0; }
 
