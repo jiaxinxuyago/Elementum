@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Goes it alone",
-    "text": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. Keep in mind that you are faster alone and not lighter."
+    "text": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. You finish sooner and carry the full weight with no one to share it."
    },
    "value_b": {
     "word": "Goes it alone",
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Goes it alone",
-    "text": "Whenever a job splits two ways, you carry both ends alone. Holding it yourself matters more than keeping a peer in the loop, so you leave them nothing to carry. Remember that you keep from them half the job and half of you."
+    "text": "Whenever a job splits two ways, you carry both ends alone. Holding it yourself matters more than keeping a peer in the loop, so you leave them nothing to carry. You keep your peers on the outside of work they wanted a share in."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Won't be told",
-    "text": "Being told is the one thing you cannot take. Your own read feels more solid than any second opinion, so you hold it rather than test it. You stay hard to correct and easy to leave wrong, and the second is the one to remember."
+    "text": "Being told is the one thing you cannot take. Your own read feels more solid than any second opinion, so you hold it rather than test it. You carry a wrong read for weeks that one honest word from a peer would have fixed."
    },
    "value_b": {
     "word": "Won't be told",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Won't be told",
-    "text": "Staying uncorrected is a rule you keep at a price. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You trade being right early for being right alone, remember, and the chance goes with it."
+    "text": "Staying uncorrected is a rule you keep at a price. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You end up paying for the same mistake twice, and the second time you pay alone."
    }
   },
   "ledger[5]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Walls people out",
-    "text": "Walling people out keeps your standard safe and your evenings empty. You hold out for company that matches instead of company nearby, since near enough feels like settling. You only grow close to whoever sees you at less than your best, and keep forgetting it."
+    "text": "Walling people out keeps your standard safe and your evenings empty. You hold out for company that matches instead of company nearby, since near enough feels like settling. You go without closeness, and closeness only grows where someone sees you at less than your best."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Walls people out",
-    "text": "You put the wall up highest when someone gets closest. Being seen fine from far matters more than being seen tired up close, so you hold a peer there. Remember that you leave them a friend they can see and never quite reach."
+    "text": "You put the wall up highest when someone gets closest. Being seen fine from far matters more than being seen tired up close, so you hold a peer there. You leave them a friend they can see and never quite reach."
    }
   }
  }
