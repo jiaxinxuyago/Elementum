@@ -839,7 +839,6 @@
 .jny .el-edge-doorlock{ position: absolute; top: 7px; right: 7px; width: 14px; height: 14px; color: var(--inkLight); opacity: .85; }
 .jny .el-edge-doorlock svg{ width: 14px; height: 14px; }
 .jny .el-edge-doorlock.open{ opacity: .6; }
-.jny .el-edge-trans{ margin: 10px 0 0; font-size: 12.5px; color: var(--inkLight); text-align: center; }
 .jny .el-domsheet-title{ margin: 0 0 6px; font-family: var(--serif, inherit); font-size: 17px; line-height: 1.3; color: var(--ink); }
 .jny .el-domsheet-cta{ width: 100%; justify-content: center; }
 .jny .el-domsheet-price{ opacity: .75; font-weight: 500; margin-left: 4px; }

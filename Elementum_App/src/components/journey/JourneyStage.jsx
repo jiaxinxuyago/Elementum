@@ -869,7 +869,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                                     </button>
                                   ))}
                                 </div>
-                                <p className="el-edge-trans">{tier === 'free' ? 'Each one is read seat by seat in The Domains, with Seeker.' : 'Each one is read seat by seat in The Domains.'}</p>
+
                               </>
                             ) : (
                               <>
