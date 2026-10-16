@@ -1,0 +1,383 @@
+{
+ "_generated_by": "fable-v075",
+ "_handoff": "2026-10-15 batch 2 wood core",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Where a spec says \"candidates\": 2, add \"value_b\" beside \"value\" with a second, different candidate of the same shape (two lines, each inside the frame; the read picks one). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_GOD/木_劫财",
+ "page": "The friction ledger of 木_劫财 (Wood carrying The Rival) on a Wood core: three rows, three angles each",
+ "stem": null,
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_GOD.adj_chips.md",
+  "cards/ELEMENT_GOD.fn_reading.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 木_劫财 (Wood carrying The Rival). Persona The Rival (劫财). Definition line: \"Same nature, different register, the edge of comparison\". Keyword Rivalry, charge fierce, poles catalyst Daring / friction Drain. Family function: Body. Cost dimension: comparison as fuel; the race never announces a finish. Arena: the race, the shared prize, the other runner. Classical portrait: same nature, different register; comparison as fuel; the race with no announced finish. Ruled domains: Rivalry, Shared stakes, Boldness. Sibling (other polarity of the family): 比肩.\nElement arena: Wood (trunk, branch, root, grain, growth, the forest). dm_element (which core reads this cell): Wood. structural_interaction seed: \"Reach meeting reach cross-polarity — growth competing with growth\".\n- k2_overview: \"Your Wood moves as the Rival: growth that races the grove. Another’s success reads to you as proof of reachable height, and it pulls you upward faster than any plan. You share ground generously and compete on it constantly. Handled well, that doubles every harvest. Handled loosely, the roots start strangling.\"\n- k2_functional: \"Your energy feeds on contest and outdoor motion, and sours in idle shade.\"\n- adj_chips: {\"catalyst\":[\"Fast-climbing\",\"Gutsy\",\"Rivalry-fueled\"],\"friction\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Rivalry\":\"Your rivalries are growth spurts: every worthy competitor adds a ring. Keep them seasonal rather than permanent. A race that never ends stops being training and becomes a root war.\",\"Shared stakes\":\"You pool naturally: gardens, ventures, family plots tended together. Write down whose branch is whose before the fruit comes in. Shared soil grows the most and disputes the hardest.\",\"Boldness\":\"Your daring is springlike: sudden reach toward light others have not noticed yet. Trust it early in ventures and slow it near contracts. Green wood bends into bad deals when the sun is exciting.\"}\n- fn_reading.friction.ledger (three rows, index-aligned to adj_chips.friction; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1: [REDACTED: the target row]\n  - row 2: [REDACTED: the target row]\n- Sibling cell 木_比肩 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Self-rooted\",\"Upright\",\"Persevering\"],\"friction\":[\"Standoffish\",\"Stubborn\",\"Slow to change\"]}\n- Sibling cell 木_比肩 friction row 0 drive passage, for the sibling test on the tension (this row must name a different either-or): \"Your default distance reads as a fence with no gate signage. You join late, leave early, and hold conversations at arm’s length even when your arm wanted otherwise. People conclude you prefer it this way. Some days they are wrong, and the fence cannot say so.\"\n\nCore element Wood, energy element Wood. Law: Wood and Wood are the same element (the self pair). Relative to the core the energy is the self, so Wood is this core's Body. No chart is attached to this batch: the cell is written for every chart with a Wood core that shows Wood on the friction pole, so no percentage and no state of one chart appears in any value. The friction pole of Wood as the Body is the Overfueled band's case (the core has more than it channels); tone by pole: reminder. Rows: row 0, row 1, row 2, each with its three angles (drive, cost_self, cost_others: the drive, the cost to the reader, the cost to others; the app shows one angle per row by position rotation, so each passage must stand alone); one chip per row, written once and copied byte-identical onto the row's three fields. The pair cell 木_木's definition and advice for this pole are rewritten in the same batch (the pair skeleton) and are withheld here; no four-word run may be shared with them, so keep every phrase the ledger's own.",
+ "fields": {
+  "ledger[0]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 0,
+    "angle": "drive",
+    "tone": "reminder",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "drive",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, the mechanism as the reader's own need (and the energy's volume in plain words where the passage carries it), the either-or in the second person, the closing sentence on the drive's own price; the screenshot passage",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Bets too big",
+    "text": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. You fund next year's bet with the money this year needed."
+   },
+   "value_b": {
+    "word": "Bets too big",
+    "text": "Betting too big is a reflex for you more than a decision. Winning small never feels like proof, and you raise the stake ahead of checking what sits under it. Keep in mind that only the bet you can afford to lose is really yours."
+   }
+  },
+  "ledger[1]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 0,
+    "angle": "cost_self",
+    "tone": "reminder",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_self",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and closes on the chip's sharpest price to the reader, named outright in the chip's domain (the chance that closes, the rest not taken, the closeness not had, the money not kept) as the main point of the last sentence, never implicit, never an event and never a picture (owner 2026-10-14, v0.7.2)",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Bets too big",
+    "text": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose in money not kept the bet you did not need, a number worth remembering."
+   }
+  },
+  "ledger[2]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 0,
+    "angle": "cost_others",
+    "tone": "reminder",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_others",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and closes on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive with the reader as the subject, never as what those people say, think or decide, never a chorus; where the chip's cost falls mostly on the reader, this passage names the smaller, true cost to others at its real size and never inflates it (owner 2026-10-14, v0.7.2)",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Bets too big",
+    "text": "Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. You risk their savings along with your own whenever you bet too big."
+   }
+  },
+  "ledger[3]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 1,
+    "angle": "drive",
+    "tone": "reminder",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "drive",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, the mechanism as the reader's own need (and the energy's volume in plain words where the passage carries it), the either-or in the second person, the closing sentence on the drive's own price; the screenshot passage",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Never stops racing",
+    "text": "Whenever you finish, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next instead of keeping the win, and the win was the point."
+   },
+   "value_b": {
+    "word": "Never stops racing",
+    "text": "The finish is the one thing you cannot want. There is more of you than one race can use, and you keep running past the line instead of standing on it. Remember that no race ends on its own, and stopping is something you decide."
+   }
+  },
+  "ledger[4]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 1,
+    "angle": "cost_self",
+    "tone": "reminder",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_self",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and closes on the chip's sharpest price to the reader, named outright in the chip's domain (the chance that closes, the rest not taken, the closeness not had, the money not kept) as the main point of the last sentence, never implicit, never an event and never a picture (owner 2026-10-14, v0.7.2)",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Never stops racing",
+    "text": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You trade each win for another race and never take the rest you earned."
+   }
+  },
+  "ledger[5]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 1,
+    "angle": "cost_others",
+    "tone": "reminder",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_others",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and closes on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive with the reader as the subject, never as what those people say, think or decide, never a chorus; where the chip's cost falls mostly on the reader, this passage names the smaller, true cost to others at its real size and never inflates it (owner 2026-10-14, v0.7.2)",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Never stops racing",
+    "text": "Win or lose, you keep racing people who stopped a while ago. Staying ahead matters more than staying close, and that turns a friend into someone to beat. You take from them, by racing someone who stopped, the ease of just being with you."
+   }
+  },
+  "ledger[6]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 2,
+    "angle": "drive",
+    "tone": "reminder",
+    "candidates": 2,
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "drive",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE DRIVE (key drive): opens on a flat claim of the drive as a fact of how the reader is built, the mechanism as the reader's own need (and the energy's volume in plain words where the passage carries it), the either-or in the second person, the closing sentence on the drive's own price; the screenshot passage",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Spends shared money",
+    "text": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. Remember that what you spend from the pot is also somebody's savings."
+   },
+   "value_b": {
+    "word": "Spends shared money",
+    "text": "Where money is shared, you treat it as yours first. Spending it feels like momentum, and momentum matters more to you than the split. You spend shared money fastest when you are surest, and surest is not the same as right."
+   }
+  },
+  "ledger[7]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 2,
+    "angle": "cost_self",
+    "tone": "reminder",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_self",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO THE READER (key cost_self): opens on the drive, names the either-or, and closes on the chip's sharpest price to the reader, named outright in the chip's domain (the chance that closes, the rest not taken, the closeness not had, the money not kept) as the main point of the last sentence, never implicit, never an event and never a picture (owner 2026-10-14, v0.7.2)",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Spends shared money",
+    "text": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and that is the part to hold onto."
+   }
+  },
+  "ledger[8]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_劫财",
+    "persona": "The Rival (劫财)",
+    "domains": [
+     "Rivalry",
+     "Shared stakes",
+     "Boldness"
+    ],
+    "pole": "friction",
+    "row": 2,
+    "angle": "cost_others",
+    "tone": "reminder",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a cost alone, distinct from the other rows and from the sibling cell's chips; one word per row, the same on all three angles"
+    },
+    "text": {
+     "min": 30,
+     "max": 45,
+     "sentences": {
+      "min": 2,
+      "max": 3
+     },
+     "angle": "cost_others",
+     "tone": "tone: reminder (owner 2026-10-14, iteration 5): the friction passage reads like a reminder, never a criticism; the close keeps what the reader can keep (\"Keep in mind that …\", \"Remember that …\", \"worth remembering\", or an equivalent)",
+     "cost_domain": "the cost domain (owner 2026-09-29, re-cut 2026-10-01): name the cost in what the persona rules (its three domain words) or in ordinary life: home, money, friends, family, the body, food, rest. Work is one domain among many, never the default. The cost is placed by its noun, not by an object; any object that survives stays at a size the reader can recognise as their own (one venture, one city, a page a day), and a boast on the reader's behalf is not lawful. This persona rules Rivalry, Shared stakes, Boldness.",
+     "notes": "THE COST TO OTHERS (key cost_others): opens on the drive as the reader's own act, names the either-or, and closes on what that act takes from the people in the persona's domain, stated as a fact of the reader's drive with the reader as the subject, never as what those people say, think or decide, never a chorus; where the chip's cost falls mostly on the reader, this passage names the smaller, true cost to others at its real size and never inflates it (owner 2026-10-14, v0.7.2)",
+     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page",
+     "law": "One row, one tension, three angles (owner 2026-09-30 and 2026-10-01). Every passage: a flat claim about the reader, the mechanism (the reader's own need, the energy's volume in plain words; it may stay implicit where the passage carries the tension without it, owner 2026-10-14 Q32), the either-or in the reader's second person, the cost from this angle as the closing sentence. Two or three sentences (more than three blocked, one noted). No passage opens on a picture, a moment or other people; a picture is permitted where it sharpens the tension and never required; no clock time, no place, no narration, no claimed memory (a time or place stamp is blocked); no aphorism or tag close. The gate blocks a passage with no tension sentence and notes a first sentence carrying an object noun outside this persona's domain words. THE CHIP'S ACTION IS THE SPINE (owner 2026-10-14, v0.7.2): the main action of every sentence of this row's three passages is the action the chip states, in the chip's own words or their plain inflections (\"Never quite ready\" is getting ready, being ready, preparing; \"Keeps score\" is keeping score, counting), never a delegate verb that is one instance of it (reading for preparing) and never a metaphor in its place; a concrete instance from the persona's domain appears once at most as colour and never as a sentence's subject. Phrases over clauses (owner 2026-10-14, iteration 8): a sentence carries at most two clause joints, a relation that can be a phrase is a phrase, and no sentence ends on a trailing \", which …\" clause (blocked); the causal joint may stay implicit where the order of the sentences carries it. Across the three angles of this row the openers differ in shape (any shapes: a noun-phrase subject, a verb-phrase subject, a where or whenever clause, a plain \"You\", a fronted phrase; vary them, the plain \"You ...\" not on every passage) and no joint word repeats within a passage (noted); the close frame varies across the page (\"Remember that\" on every friction row reads as a formula: the reminder may be carried by the content, noted). The Artisan's examples are giving, care, kindness and making, never food or cooking (owner 2026-10-14, Q40). The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+    }
+   },
+   "value": {
+    "word": "Spends shared money",
+    "text": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
+   }
+  }
+ }
+}
