@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Chases the new",
-    "text": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start ahead of the finish. Keep in mind that the half-done thing behind you was once what you chased."
+    "text": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start ahead of the finish. You leave a row of half-done things behind you, each one new when you started."
    },
    "value_b": {
     "word": "Chases the new",
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Chases the new",
-    "text": "Chasing the next thing keeps you alive. Since the new chance pulls more than the promised one, you chase it and leave the unfinished half to your partner. You promised them the middle as well as the start, remember, whatever you chase now."
+    "text": "Chasing the next thing keeps you alive. Since the new chance pulls more than the promised one, you chase it and leave the unfinished half to your partner. You give them the start you promised and none of the middle."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Spread thin",
-    "text": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. Remember how thin that spreads you, one body over all of them."
+    "text": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You spread one tired body over all of them."
    },
    "value_b": {
     "word": "Spread thin",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Spread thin",
-    "text": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you spread yourself over them, tired at each one. Spread this thin, you never get a full rest, and that is worth remembering."
+    "text": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you spread yourself over them, tired at each one. Spread this thin, you never get a full rest and start each day already tired."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Spread thin",
-    "text": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else, and you know it."
+    "text": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else."
    }
   },
   "ledger[6]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Spends freely",
-    "text": "Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. Never forget that you spend their quiet months as well as your own."
+    "text": "Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. You spend their quiet months as well as your own."
    }
   }
  }

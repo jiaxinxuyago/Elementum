@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Bets too big",
-    "text": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. Remember that a bet sized for next year is paid for this year."
+    "text": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. You fund next year's bet with the money this year needed."
    },
    "value_b": {
     "word": "Bets too big",
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Bets too big",
-    "text": "Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. Bear in mind that a bet too big for you is also a bet with their savings."
+    "text": "Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. You risk their savings along with your own whenever you bet too big."
    }
   },
   "ledger[3]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Never stops racing",
-    "text": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You lose each win to the next race, and the rest you never take is the thing to remember."
+    "text": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You trade each win for another race and never take the rest you earned."
    }
   },
   "ledger[5]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Spends shared money",
-    "text": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. It is worth remembering that spending shared money takes their say along with it."
+    "text": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
    }
   }
  }
