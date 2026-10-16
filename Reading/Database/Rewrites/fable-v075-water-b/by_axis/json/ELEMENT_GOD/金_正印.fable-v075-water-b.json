@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_正印",
+  "axis": "ELEMENT_GOD",
+  "key": "金_正印",
+  "$generated_by": "fable-v075-water-b",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Keeps a confidence",
+        "Learns it properly",
+        "Steadies people"
+      ],
+      "friction": [
+        "Stays the student",
+        "Too protective",
+        "Loves by correcting"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keeps a confidence",
+            "angles": {
+              "drive": "A confidence stays kept with you. You would rather be the one people trust than the one with news, and nothing told to you ever leaves your keeping. Let one trusted person carry a little of it, and the keeping gets lighter without getting looser."
+            }
+          },
+          {
+            "word": "Learns it properly",
+            "angles": {
+              "drive": "Learning it properly is the only way you trust it. You would rather finish one subject than start ten, and that keeps your list short. Start the next one early, and that sure footing comes with you."
+            }
+          },
+          {
+            "word": "Steadies people",
+            "angles": {
+              "drive": "Steadying someone is the shape your love takes. You trust a standard more than a soft word to hold a person up, and the people leaning on you stand straighter. Let one lean without a lesson, and you keep them close as well as upright."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stays the student",
+            "angles": {
+              "drive": "You stay under the wing of someone who knows more. You would rather be taught than asked, so the student's seat stays yours long after you earned the teacher's. You were ready a while ago, and only the feeling is late."
+            }
+          },
+          {
+            "word": "Too protective",
+            "angles": {
+              "drive": "Being protective comes easier to you than being trusting. You need the people in your care safe more than free, and that keeps you a step ahead of every door they open. You keep them from falling, and the same hand keeps them from standing."
+            }
+          },
+          {
+            "word": "Loves by correcting",
+            "angles": {
+              "drive": "Correcting is the shape your care takes. You would rather make someone better than make them feel better, and the lesson leaves your mouth before the comfort does. You give the correction first, and the warmth you meant by it arrives last or never."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Discreet",
+            "angles": {
+              "drive": "What enters your keeping stays kept. The friend’s diagnosis, the colleague’s exit plans, the family matter: all held in a vault whose combination has never leaked once. In an age of broadcast, your silence is heirloom-grade, and people inventory it correctly as treasure."
+            }
+          },
+          {
+            "word": "Preserving",
+            "angles": {
+              "drive": "You maintain what matters against time’s default. The friendship kept in service since school, the grandmother’s recipe made annually to spec, the archive of photos labeled while others let theirs dissolve into camera rolls. Loss takes a percentage from everyone else. You have negotiated a better rate."
+            }
+          },
+          {
+            "word": "Old soul",
+            "angles": {
+              "drive": "Your wisdom skips the podium. The insight arrives in a sentence near the end of the visit, unlabeled, easy to miss, and it reorganizes the listener’s month. You never claim the credit and rarely get it, which suits you. The advice was for using, never for citing."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Detached",
+            "angles": {
+              "drive": "Your care operates at instrument distance. The concern is genuine and arrives as analysis, the love is real and expressed as protocol, and the people receiving it stand slightly cold in the accuracy, holding perfectly correct advice, wishing it had arms."
+            }
+          },
+          {
+            "word": "Formal",
+            "angles": {
+              "drive": "Correctness armors every exchange. The thank-you notes are impeccable, the boundaries observed to the millimeter, the affection conducted through channels so proper that its temperature cannot be verified. People know exactly where they stand with you. Nobody knows how it feels there."
+            }
+          },
+          {
+            "word": "Locked-away",
+            "angles": {
+              "drive": "Your inner life is in the vault with everyone else’s secrets. The grief went in decades ago, the hopes followed, and the combination, if you are honest, has drifted from your own memory. What remains public is composed, helpful, and sealed. Even you visit the contents rarely."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Discreet",
+        "Preserving",
+        "Old soul"
+      ],
+      "friction": [
+        "Detached",
+        "Formal",
+        "Locked-away"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

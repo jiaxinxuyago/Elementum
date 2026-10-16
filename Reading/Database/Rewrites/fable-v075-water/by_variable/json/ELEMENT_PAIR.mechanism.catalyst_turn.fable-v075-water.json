@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.catalyst_turn",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Earth, the water has no banks to push against. It spreads wide and shallow and arrives nowhere. Answer to one deadline you did not set, and keep it.",
+      "original": "Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Wood, the rain has nothing to raise and pools where it lands. What you feel and know stays under the surface. Say one true thing out loud every day.",
+      "original": "Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "When your own Water runs low, the spring thins and every current slows to a trickle, and each effort draws on a source nothing is refilling. Rest first, then decide.",
+      "original": "Run thin, the sea doubts its depth: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Fire, nothing warms the deep: all that water and no flame under it to make it move, and the chance goes unclaimed. Pick one opening this month and see it through.",
+      "original": "Run thin, nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past. Your chart asks you to claim heat. Step toward the bright loud thing.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Metal, less settles than you spend. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Read one slow book before the next hard call.",
+      "original": "Run thin, the spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. Your chart asks for metal. Study something exact and drink from it.",
+      "gate": "pass"
+    }
+  ]
+}

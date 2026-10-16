@@ -1,0 +1,135 @@
+{
+  "$archetype": "火_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "火_偏财",
+  "$generated_by": "fable-v075-water-b",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Sees chances early",
+        "Gives easily",
+        "Starts fast"
+      ],
+      "friction": [
+        "Chases the new",
+        "Spends it fast",
+        "Drops things halfway"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Sees chances early",
+            "angles": {
+              "drive": "Long before a chance looks like one to anyone else, you see it. You want the far thing while it is cheap rather than the safe one once it is priced. Write down one early call a month and learn which guesses to trust."
+            }
+          },
+          {
+            "word": "Gives easily",
+            "angles": {
+              "drive": "Good news turns into a gift in your hands before the money lands. You would rather pay than wait to be paid, because open hands are how you feel free. Give as you do, with a few gifts kept small on purpose."
+            }
+          },
+          {
+            "word": "Starts fast",
+            "angles": {
+              "drive": "A fresh start suits you best at speed. Beginning feels more like you than finishing does, because the first move is where your warmth shows. Take the fast start you were built for, with the middle promised to a partner who likes middles."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases the new",
+            "angles": {
+              "drive": "New is what moves you fastest. Chasing it feels like being alive, and you reach for the next chance with the last one half done. Remember that you chase the new to feel the rush rather than to arrive, and arriving is what you skip."
+            }
+          },
+          {
+            "word": "Spends it fast",
+            "angles": {
+              "drive": "What comes in fast goes out faster with you. Keeping money feels like missing out, so you would rather spend it on the night than bank it for the year. Worth remembering that spending is how you stop feeling stuck, and the bill comes anyway."
+            }
+          },
+          {
+            "word": "Drops things halfway",
+            "angles": {
+              "drive": "Finishing never had the pull for you that starting has. Fire keeps asking you for the next thing, so you drop the half-done one sooner than you finish it. Remember that the half you left counts against you as much as the half you did."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spark-spotting",
+            "angles": {
+              "drive": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying."
+            }
+          },
+          {
+            "word": "Charismatic",
+            "angles": {
+              "drive": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it."
+            }
+          },
+          {
+            "word": "Fast-moving",
+            "angles": {
+              "drive": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Flash-chasing",
+            "angles": {
+              "drive": "Every new shine gets your full sprint. The trend, the token, the just-opened thing: you arrive first, burn bright, and are gone before the substance question comes up. Chasing light is genuinely fun. A portfolio of chases, though, is mostly a photo album of exits."
+            }
+          },
+          {
+            "word": "Big spender",
+            "angles": {
+              "drive": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired."
+            }
+          },
+          {
+            "word": "Flighty",
+            "angles": {
+              "drive": "Your commitments have the lifespan of sparks. The plan ignites, glows, and is ash by the follow-through date, replaced by a newer, brighter plan in the same weekend. People stopped writing your intentions in ink around the time you did, which was never."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Spark-spotting",
+        "Charismatic",
+        "Fast-moving"
+      ],
+      "friction": [
+        "Flash-chasing",
+        "Big spender",
+        "Flighty"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

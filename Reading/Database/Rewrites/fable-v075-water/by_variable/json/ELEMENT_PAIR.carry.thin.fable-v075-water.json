@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.thin",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Only a little Earth touches the water, a low bank the current clears with ease.",
+        "remedy": "Keep it that small. Answer to few rules, chosen by you."
+      },
+      "original": {
+        "clause": "Earth runs thin and unwanted: low banks, easily crossed.",
+        "remedy": "Cross them when you must."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Wood stays small in you, a few shoots the water can afford to feed.",
+        "remedy": "Keep it small. One thing made a month is enough."
+      },
+      "original": {
+        "clause": "Wood runs thin and unwanted: a small garden, easily watered.",
+        "remedy": "Water it. Plant no more."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Little Water of your own, and no loss in that: nothing pools long enough to weigh on you.",
+        "remedy": "Keep it small and keep it moving."
+      },
+      "original": {
+        "clause": "Water runs thin and still carries weight: little depth, drawn on constantly.",
+        "remedy": "Draw on it less."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A small flame only, not enough to heat the water through.",
+        "remedy": "Keep it small and let it warm, not boil."
+      },
+      "original": {
+        "clause": "Fire runs thin and unwanted: a small blaze, easily enjoyed.",
+        "remedy": "Enjoy it. Don't manage it."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Only a little Metal feeds the water, a thin cold that never clouds it.",
+        "remedy": "Leave it small. One check, then move."
+      },
+      "original": {
+        "clause": "Metal runs thin and unwanted: a little rigor, easily carried.",
+        "remedy": "Carry it lightly."
+      },
+      "gate": "pass"
+    }
+  ]
+}

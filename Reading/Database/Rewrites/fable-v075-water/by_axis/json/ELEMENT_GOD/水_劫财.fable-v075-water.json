@@ -1,0 +1,165 @@
+{
+  "$archetype": "水_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "水_劫财",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Loves a race",
+        "Jumps in first",
+        "All in together"
+      ],
+      "friction": [
+        "Races in secret",
+        "Spends shared money",
+        "Never enough"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Loves a race",
+            "angles": {
+              "drive": "A race gets all of you moving. You run on a small supply of Water, so you would rather chase a real person than follow a plan. Name one race a season out loud, and the racing feeds you more than it costs.",
+              "cost_self": "Racing is where you feel most alive. You have little Water, so you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you keep the stamina the next one needs.",
+              "cost_others": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. Tell them the race is on, and they get to run it with you."
+            }
+          },
+          {
+            "word": "Jumps in first",
+            "angles": {
+              "drive": "Jumping in first is how you learn what a thing is really like. Water is short in you, and you would rather be inside a decision than stand beside it planning. Jump in where the stakes are shared, and the first mistake costs you half.",
+              "cost_self": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while the early mistakes come out of your savings. Read the plan first every third time, and you keep more of your own money.",
+              "cost_others": "Jumping first takes whoever shares your stakes in after you. You decide for both ahead of asking, and a partner finds the risk already taken in their name. Ask before you jump, and they go in beside you rather than after you."
+            }
+          },
+          {
+            "word": "All in together",
+            "angles": {
+              "drive": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. Choose people who count as carefully as you trust, and going all in pays.",
+              "cost_self": "Inside a shared stake, you are at your bravest. A pooled stake feels like company, and all in feels better to you than keeping some back. Keep one share out of every pool, and you only ever lose what you can afford.",
+              "cost_others": "All in together means you take someone with you every time. You put the shared stake ahead of the question of whose it was, and a partner carries losses they never signed for. Agree the shares before the risk, and they stay a partner afterwards."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Races in secret",
+            "angles": {
+              "drive": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Keep in mind that you run every race you never named alone.",
+              "cost_self": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud, and that is worth remembering.",
+              "cost_others": "In secret, you make a friend a rival without telling them. You hide the race rather than risk them knowing, and they lose ground with no chance to answer. You signed them up for a race they never chose, and that is yours to remember."
+            }
+          },
+          {
+            "word": "Spends shared money",
+            "angles": {
+              "drive": "Spending shared money comes easier to you than spending your own. Shared money feels like courage, and you dip into it ahead of asking who put what in. You run the pool down faster than agreed, and slowing it is yours to do.",
+              "cost_self": "Spending from the shared pot is the easiest money there is. More Water moves through you than you keep, so you pay for everyone's good time ahead of your savings. You come out with the least from a pot you paid the most into.",
+              "cost_others": "Each time you spend what was pooled, you spend someone else's decision. You move the pool rather than ask, and a partner finds their share smaller than before. You keep them in the pool with one question before spending, and that is easy to forget."
+            }
+          },
+          {
+            "word": "Never enough",
+            "angles": {
+              "drive": "Never enough is the rule under everything you win. The Water in you keeps rising with nowhere to land, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one.",
+              "cost_self": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings, and the gap is worth a look.",
+              "cost_others": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You call it done, and letting them stop counts as a win too."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Competitive",
+            "angles": {
+              "drive": "Rivalry wakes you up. A competitor in the water and your stroke sharpens, your pace lifts, and the race becomes the point of the day. You measure yourself against real people, openly, and you move faster for it than any plan could make you.",
+              "cost_self": "Someone at work started tracking the same clients, and your quarter, flat since spring, jumped within a month. Nothing else changed. You printed both sets of numbers and taped yours above the desk, slightly higher than theirs.",
+              "cost_others": "People perform better around you and know exactly why. Teams put you next to whoever has gone comfortable, and the comfort ends within a week. Rivals call you exhausting, and most of them improved because you existed. Some even say so, at retirement parties."
+            }
+          },
+          {
+            "word": "Unafraid",
+            "angles": {
+              "drive": "Your nerves hold exactly when the other side hopes they will not. The staring contest of a negotiation, the final round, the moment someone raises the stakes to scare you: your pulse spikes and your voice does not. Opponents read calm. It is actually appetite.",
+              "cost_self": "The other bidder raised twice to shake you loose, and your third bid came back before the echo faded, at a number you had chosen for exactly this moment. They folded in the parking lot. You had been enjoying yourself since the second raise.",
+              "cost_others": "People bring you along to hard tables the way swimmers bring a strong current. When the other side pushes, you push back in real time, and your side stops shrinking. The invitations always sound casual. The seating never is."
+            }
+          },
+          {
+            "word": "Agile",
+            "angles": {
+              "drive": "Mid-contest, you change course faster than anyone can cover you. The blocked route becomes a new route, the lost argument becomes a different argument, and by the time a rival adjusts, you have moved twice more. Beating you requires predicting you. Nobody manages it consistently.",
+              "cost_self": "The rival shop matched your prices on a Monday, and by Wednesday you had shifted the whole pitch to speed and service, ground they could not follow you onto. They spent a month matching a position you no longer held.",
+              "cost_others": "Competitors describe planning against you with real fatigue: every counter they prepare answers your last move, never your next one. Colleagues stopped betting on where you will take things. They just watch the water for the turn, and it always comes."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Undermining",
+            "angles": {
+              "drive": "Your competitiveness works underground. The compliment with a current in it, the help that arrives slightly late, the praise for a rival delivered where it does maximum quiet damage. On the surface, all is warmth. Below, the sand is always moving under someone.",
+              "cost_self": "You recommended your colleague for the committee, warmly, in the same email thread where you mentioned, in passing, their overloaded quarter. The recommendation was real. So was the sinking. They did not get it, and thanked you for trying, and you accepted the thanks.",
+              "cost_others": "People near you sometimes find their footing giving way and cannot name why: the stalled promotion, the cooled friendship, the invitation that stopped coming. Nothing traces back. But older colleagues exchange a look when newcomers praise your generosity, and the look has tenure."
+            }
+          },
+          {
+            "word": "Envious",
+            "angles": {
+              "drive": "Other people’s tides hurt you. The friend’s windfall, the peer’s launch, the sibling’s easy luck: each lands somewhere unprotected, and your congratulations come out slightly waterlogged. You want the good things wanted. You just want them to arrive in your harbor first.",
+              "cost_self": "The group toasted the engagement and your glass rose with everyone’s, on a two-second delay that only you noticed. You were happy for them by Thursday, sincerely. The gap between the toast and Thursday is where your friendships keep taking on water.",
+              "cost_others": "Friends have started softening their good news before delivering it to you, sanding the shine off, adding disclaimers about luck. They do it out of care and do not discuss it. Your reaction was never cruel. It was just visible, every time, like weather through glass."
+            }
+          },
+          {
+            "word": "Slippery",
+            "angles": {
+              "drive": "Commitments run off you when conditions change, and conditions always change. The agreement meant everything at signing and less at settlement, the story adjusts to its audience, and blame finds you already moved downstream. Nothing sticks, which was once an advantage. People notice what nothing sticks to.",
+              "cost_self": "The deal you shook on in April had, by June, developed nuances nobody remembered negotiating. Your version was fluid, documented nowhere, and delivered with such ease that the other side doubted their own notes. They paid the difference. They also, quietly, retired your number.",
+              "cost_others": "People who have dealt with you twice bring witnesses the third time, or paper, or both. Your reputation flows ahead of you into new ventures, arriving before your charm does. The charm still works in the moment. It is the mornings after that have stopped cooperating."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Competitive",
+        "Unafraid",
+        "Agile"
+      ],
+      "friction": [
+        "Undermining",
+        "Envious",
+        "Slippery"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.catalyst",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "the water has no banks to push against",
+        "remedy": "Answer to one deadline you did not set, and keep it."
+      },
+      "original": {
+        "clause": "Nothing banks you: depth spreading wide and arriving nowhere, freedom without force.",
+        "remedy": "Accept the role, the rhythm, the walls that aim you."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The rain has nothing to raise and pools where it lands.",
+        "remedy": "Say one true thing out loud every day."
+      },
+      "original": {
+        "clause": "The rain withholds: depth circling underground, nothing green standing up from it.",
+        "remedy": "Mentor someone, seed the idea, water a thing in public."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "the spring thins and every current slows to a trickle",
+        "remedy": "Rest first, then decide."
+      },
+      "original": {
+        "clause": "The sea doubts its depth: perception discounted, knowing deferred to louder instruments.",
+        "remedy": "Trust one read all the way through."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "all that water and no flame under it to make it move",
+        "remedy": "Pick one opening this month and see it through."
+      },
+      "original": {
+        "clause": "Nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past.",
+        "remedy": "Step toward the bright loud thing."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "Nothing cold stands over the water, so no drop gathers",
+        "remedy": "Read one slow book before the next hard call."
+      },
+      "original": {
+        "clause": "The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.",
+        "remedy": "Study something exact and drink from it."
+      },
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.unrooted",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_水",
+      "field": "carry.unrooted",
+      "candidate": {
+        "clause": "No spring of your own, so every current you ride is borrowed from somewhere else.",
+        "remedy": "Borrow depth: rest, and keep one steady friend close."
+      },
+      "original": {
+        "clause": "The self stands without roots: depth on will alone, a read with nothing under it.",
+        "remedy": "Feed the self. Trust one read through."
+      },
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+ "file": "ledger.土_正官.catalyst.json",
+ "page": "The catalyst ledger of 土_正官 (Earth carrying The Magistrate) on a Water core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: a word used twice (fits; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[1] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[4] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[3]#b :: a word used twice (advantage; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6]#b :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6]#b :: a word used twice (trust, rank, years, claim; B11, a note: vary it unless the repeat carries the logic)",
+  "the page :: \"so\" 12 times across the file's fields (B11, a note: vary the joints across the page or let the order carry the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 0,
+  "ledger[1]": 0,
+  "ledger[2]": 1,
+  "ledger[3]": 1,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 0,
+  "ledger[7]": 1,
+  "ledger[8]": 1,
+  "ledger[0]#b": 1,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

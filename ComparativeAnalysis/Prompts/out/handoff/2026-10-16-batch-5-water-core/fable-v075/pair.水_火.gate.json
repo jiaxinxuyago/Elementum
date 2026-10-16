@@ -1,0 +1,97 @@
+{
+ "file": "pair.水_火.json",
+ "page": "The energy page of Fire (your Action) for a Water core, both poles and every state line (the cell is the repetition-law unit)",
+ "fields": {
+  "mechanism.base": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.catalyst_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.friction_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.friction": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.wide": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.missing": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.spared": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.thin": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.excess": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "function.definition_catalyst :: a sentence with 4 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"As a catalyst, the start comes late, and you want a far chance as much\"",
+  "function.definition_catalyst :: a word used twice (build, claim; B11, a note: vary it unless the repeat carries the logic)",
+  "cta_verdict#b :: the first sentence carries the object noun \"schedule\" outside the persona's domain words (D9 with E6; heuristic, not blocking, the read decides)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "mechanism.base": 2,
+  "mechanism.catalyst_turn": 1,
+  "carry.catalyst": 1,
+  "mechanism.friction_turn": 1,
+  "carry.friction": 1,
+  "carry.wide": 0,
+  "carry.missing": 0,
+  "carry.spared": 0,
+  "carry.thin": 0,
+  "carry.excess": 0,
+  "function.definition_catalyst": 0,
+  "function.definition_friction": 0,
+  "function.advise_catalyst": 0,
+  "function.advise_friction": 0,
+  "cta_verdict": 1,
+  "cta_verdict#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

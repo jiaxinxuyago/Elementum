@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "function.advise_friction",
+      "candidate": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared, and feeds the water back to depth. Let it hold what Earth presses on you. You answer to a judge in your head before any boss. Read one chapter before the next hard answer. Then sleep on it.",
+      "original": "A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "function.advise_friction",
+      "candidate": "Seek Metal, the Mind energy. Metal is the cold side water forms on: it pulls from the air and hands the water back to its source. Let it hold what Wood pours out. You cannot talk your way back to full. Read one whole chapter before you make the next thing. Let one question sit overnight.",
+      "original": "Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "function.advise_friction",
+      "candidate": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Hand someone above you a finish date in writing, then clear one small job today.",
+      "original": "Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "function.advise_friction",
+      "candidate": "Seek Water, your own Body energy. Water is the deep you draw from: sleep, food, the slow fill that comes before anything is lit. Let it hold what Fire burns. You spend yourself on every bright chance because stopping feels like losing. Keep one night a week unlit, in bed early. Eat before you say yes to anything.",
+      "original": "Your edge is patience, so defend it from excitement. Let two opportunities pass for every one you take. Take only what survives a week of waiting. Keep a cooling-off rule for anything urgent, because urgency is usually someone else’s deadline.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "function.advise_friction",
+      "candidate": "Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. You keep testing what already passed, since only finished feels safe. Ship a piece at a draft you would accept from others. Decide one small thing with no second look.",
+      "original": "Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe.",
+      "gate": "pass"
+    }
+  ]
+}

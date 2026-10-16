@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "土_七杀",
+  "$generated_by": "fable-v075-water-b",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Calm under pressure",
+        "Takes charge",
+        "Pushes through"
+      ],
+      "friction": [
+        "Hard on yourself",
+        "Never off duty",
+        "Shuts people out"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Calm under pressure",
+            "angles": {
+              "drive": "You are calmest when the pressure goes up. You want the weight of a hard day more than the ease of a light one, because the weight holds you in place. Keep some of that calm for the days that ask nothing of you."
+            }
+          },
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "Charge is something you take rather than wait to be given. An open decision weighs on you more than a mistake does, so you take charge the moment a plan goes quiet. Take charge as often as you like, and hand some back later."
+            }
+          },
+          {
+            "word": "Pushes through",
+            "angles": {
+              "drive": "You push through where stopping would cost nothing. You stay with strain more easily than with comfort, since comfort gives you nothing to push against. Keep pushing, and let one easy stretch count as progress rather than a pause."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "You are harder on yourself than any boss has been. Pressure from outside you can answer, while pressure from inside answers to no one, so you keep it as a kind of safety. Do remember that the standard is yours and you can ease it."
+            }
+          },
+          {
+            "word": "Never off duty",
+            "angles": {
+              "drive": "Being on duty is the only state you trust. A week with no pressure feels like a drop in rank more than a break, so you stay at your post through holidays. Bear in mind that guarding nothing costs the same sleep as guarding something."
+            }
+          },
+          {
+            "word": "Shuts people out",
+            "angles": {
+              "drive": "Shutting people out is your first answer to being pressed. You would rather carry your own pressure than add anyone else's, so you close up early. Remember that you keep the pressure out at the price of the company."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fortress-calm",
+            "angles": {
+              "drive": "Staying calm under pressure is load-bearing structure for you, and everyone leaning on it can tell. Deadlines collapse, clients raise their voices, and yours holds the level it keeps on an easy Tuesday. People bring you their panic the way they bring valuables to a vault."
+            }
+          },
+          {
+            "word": "Commanding",
+            "angles": {
+              "drive": "Taking charge comes to you the way gravity comes to heavy things, without asking. In any group without a plan, the plan starts collecting around you. You rarely raise your voice. The instructions simply sound like the ground everyone was waiting to stand on."
+            }
+          },
+          {
+            "word": "Siege-proof",
+            "angles": {
+              "drive": "Outlasting is your actual weapon, and you know exactly how long you can hold. Pressure campaigns, difficult vendors, slow disputes: your position is stocked for winters other people never planned for. You do not need to win quickly. You need to still be there."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Walled-up",
+            "angles": {
+              "drive": "Defenses are your first architecture, and by now they go up before anything has attacked. New ideas, new people, new plans all get met at the gate and asked for papers. The walls keep trouble out. They keep a good deal else out with it."
+            }
+          },
+          {
+            "word": "Heavy-handed",
+            "angles": {
+              "drive": "Force is your default tool, even for jobs that needed a lighter one. The email that required one sentence got a policy. The teenager who needed a talk got a lockdown. Every response lands heavier than the problem, and the problem learns to hide instead of heal."
+            }
+          },
+          {
+            "word": "Grinding",
+            "angles": {
+              "drive": "Pressing on is your answer to almost everything, including the things that needed releasing instead. The project grinds, the argument grinds, the schedule grinds, and your grip never loosens on its own. Endurance this strong has forgotten that stopping is also a decision."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fortress-calm",
+        "Commanding",
+        "Siege-proof"
+      ],
+      "friction": [
+        "Walled-up",
+        "Heavy-handed",
+        "Grinding"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.missing",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No bank anywhere, and the water goes wherever the ground tips and settles nowhere.",
+        "remedy": "Borrow Earth from someone above you, and a date you cannot move."
+      },
+      "original": {
+        "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
+        "remedy": "Borrow structure: one role, one rhythm."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "Nothing grows on the water, so what you know stays inside with no way out.",
+        "remedy": "Borrow it. Write one page a day or make one small thing."
+      },
+      "original": {
+        "clause": "The rain withholds: depth underground, nothing green from it.",
+        "remedy": "Borrow wood: mentor one person."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No flame anywhere under the deep, where nothing warms and nothing gets claimed.",
+        "remedy": "Borrow warmth from a friend who starts things."
+      },
+      "original": {
+        "clause": "Nothing bright is governed: depth with no stake in the blaze.",
+        "remedy": "Borrow fire: step toward one bright thing."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No cold surface for the water to form on, answers given before anything has settled.",
+        "remedy": "Borrow it, one trusted teacher, one rule you did not write."
+      },
+      "original": {
+        "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
+        "remedy": "Borrow metal: one exact teacher."
+      },
+      "gate": "pass"
+    }
+  ]
+}

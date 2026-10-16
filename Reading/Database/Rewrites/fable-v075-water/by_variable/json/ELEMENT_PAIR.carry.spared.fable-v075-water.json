@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.spared",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No Earth presses on the water here, and the current keeps its own depth.",
+        "remedy": "Leave it absent. Set your own pace and keep it."
+      },
+      "original": {
+        "clause": "Earth runs absent, and the current is free: no banks closing in.",
+        "remedy": "Keep it. Choose one wall."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No green draws on the water, and the source stays full for you.",
+        "remedy": "Keep it so. Take in before you give out."
+      },
+      "original": {
+        "clause": "Wood runs absent, and the depth is kept: nothing drained into other people's gardens.",
+        "remedy": "Keep it. Pour by choice."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "Nothing here to boil the water off, and the deep keeps what it has.",
+        "remedy": "Leave it unlit. Let the water stay cool."
+      },
+      "original": {
+        "clause": "Fire runs absent, and nothing needs damping: no hot chances chased.",
+        "remedy": "Keep it. Claim heat rarely."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No Metal over the water, and the water runs clearer for it.",
+        "remedy": "Keep it out. Act on what you already know."
+      },
+      "original": {
+        "clause": "Metal runs absent, and the water moves: nothing calcified, nothing over-refined.",
+        "remedy": "Keep it. Add rigor one method at a time."
+      },
+      "gate": "pass"
+    }
+  ]
+}

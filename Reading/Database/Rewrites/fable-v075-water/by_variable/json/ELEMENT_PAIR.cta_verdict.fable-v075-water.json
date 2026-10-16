@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.cta_verdict",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "cta_verdict",
+      "candidate": "You keep a rule best when you feel its weight rather than read it, and a demand with pressure behind it usually gets your fullest answer.",
+      "original": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "cta_verdict",
+      "candidate": "You put more into what you make than you ever say about it, and what you make usually outgrows the plan.",
+      "original": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "cta_verdict",
+      "candidate": "Your stamina rises and falls in long swings, and you would rather go it alone than let a peer take half of the hard weeks.",
+      "original": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "cta_verdict",
+      "candidate": "You act on warmth rather than on a plan, and what you start fast is what you most need help keeping.",
+      "original": "You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "cta_verdict",
+      "candidate": "You trust what you have tested rather than what you were told, so you learn slowly and keep it for good.",
+      "original": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you.",
+      "gate": "pass"
+    }
+  ]
+}

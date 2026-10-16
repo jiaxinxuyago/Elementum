@@ -1,0 +1,135 @@
+{
+  "$archetype": "金_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "金_偏印",
+  "$generated_by": "fable-v075-water-b",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Tests everything",
+        "Rarely fooled",
+        "Thinks alone"
+      ],
+      "friction": [
+        "Never done checking",
+        "Too exact",
+        "Hard to reach"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Tests everything",
+            "angles": {
+              "drive": "Every claim gets tested before you keep it. You need to know a thing for yourself, and that is why you hold it up to something real instead of taking anyone's word. Allow the slow start, and you get a knowing that never needs checking."
+            }
+          },
+          {
+            "word": "Rarely fooled",
+            "angles": {
+              "drive": "Fooling you takes work. You check a story against the feeling before it is finished, and you trust the feeling more than the smile beside it. Let a good smile in anyway, since catching a lie is worth less than a friend."
+            }
+          },
+          {
+            "word": "Thinks alone",
+            "angles": {
+              "drive": "You think alone, then arrive with the answer finished. You would rather be late than be seen mid-thought, and the working stays yours alone until it holds. If you say the half-made version to one person, you get the finished one sooner."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never done checking",
+            "angles": {
+              "drive": "Checking is the part you trust most. Only a fully tested thing feels safe to you, and that keeps you checking what already passed instead of letting it go. You know already that the third check finds nothing the second one missed."
+            }
+          },
+          {
+            "word": "Too exact",
+            "angles": {
+              "drive": "Nothing you say is allowed to be roughly right. Your own standard makes a loose word feel like an error, and that puts being exact ahead of being easy to listen to. Worth remembering, you were understood long before you were precise."
+            }
+          },
+          {
+            "word": "Hard to reach",
+            "angles": {
+              "drive": "You think best when unreachable. Quiet matters more to you than being easy to find, and the thought gets finished while the call goes unanswered. You keep forgetting that a finished thought is worth something only once it reaches somebody."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fine-tuned",
+            "angles": {
+              "drive": "Your mind runs at tolerances other people cannot perceive. The half-degree shift in a colleague’s tone, the number that is slightly off in a healthy report, the note out of place: your instruments register it all, early, while the dashboard still shows green."
+            }
+          },
+          {
+            "word": "Selective",
+            "angles": {
+              "drive": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer."
+            }
+          },
+          {
+            "word": "Ingenious",
+            "angles": {
+              "drive": "Your solutions arrive from angles that were not on the diagram. The mechanism repurposed, the rule read sideways, the tool used against its manual: what you build works for reasons that take other people a whiteboard to reconstruct. Cleverness is common. Yours has machining marks."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cryptic",
+            "angles": {
+              "drive": "Your thinking exits in compressed form, when it exits at all. The one-word answer holding a paragraph, the eyebrow holding a memo, the decision announced without its reasoning attached. People decode you like weather instruments, approximately, and the misreadings compound while the originals stay filed inside."
+            }
+          },
+          {
+            "word": "Hair-splitting",
+            "angles": {
+              "drive": "Distinctions multiply under your attention until nothing can be simply true. The almost-right word gets corrected mid-thanks, the good plan dies of a thousand refinements, and conversations with you develop footnotes. Precision was the gift. Somewhere it became the tax everyone pays to talk to you."
+            }
+          },
+          {
+            "word": "Shut-in",
+            "angles": {
+              "drive": "Your workshop became your world. The projects, the reading, the precise private hours: all of it arranged within reachable walls, while the outside gets handled through slots. Visits require recovery, calls require rehearsal, and the door, though never locked, has not been tested in months."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fine-tuned",
+        "Selective",
+        "Ingenious"
+      ],
+      "friction": [
+        "Cryptic",
+        "Hair-splitting",
+        "Shut-in"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

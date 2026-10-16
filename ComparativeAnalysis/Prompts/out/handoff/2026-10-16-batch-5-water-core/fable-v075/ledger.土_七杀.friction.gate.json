@@ -1,0 +1,84 @@
+{
+ "file": "ledger.土_七杀.friction.json",
+ "page": "The friction ledger of 土_七杀 (Earth carrying The General) on a Water core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[3] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Standing down feels like losing rank rather than taking a rest, so you\"",
+  "ledger[3] :: a word used twice (quiet; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: a word used twice (pressure; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Pressure from outside you can answer, while pressure from inside answe\"",
+  "ledger[0]#b :: a word used twice (pressure; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3]#b :: a word used twice (guarding; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6]#b :: a word used twice (pressure; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3], ledger[5] :: more than one passage of row 土_七杀|1 opens on \"You\" (B9, varied shapes; a note, the read decides)",
+  "the page :: \"so\" 11 times across the file's fields (B11, a note: vary the joints across the page or let the order carry the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 1,
+  "ledger[1]": 0,
+  "ledger[2]": 1,
+  "ledger[3]": 1,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 0,
+  "ledger[7]": 0,
+  "ledger[8]": 0,
+  "ledger[0]#b": 1,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 0
+ },
+ "zone": null,
+ "pass": true
+}

@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.excess",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Earth piles onto the water until the river chokes on mud and stops moving.",
+        "remedy": "Clear the mud. Drop two duties, keep one, and rest."
+      },
+      "original": {
+        "clause": "Weak water silts up under strong earth: structure past what the current can move, flow stopped by banks.",
+        "remedy": "Widen the channel. Add metal."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "The forest has outgrown its water, and the source shrinks with every new thing you make.",
+        "remedy": "Make less. Sleep more and read before you write."
+      },
+      "original": {
+        "clause": "Too much wood drinks the water: more growing than the depth can feed, the self drained raising it.",
+        "remedy": "Close the sky. Let the water table rise."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Water piled past its banks goes stale: the depth needs something growing to drain into.",
+        "remedy": "Drain it into something growing. Build, plant, start."
+      },
+      "original": {
+        "clause": "Strong water wants wood: so much depth nothing surfaces.",
+        "remedy": "Pour it out. Grow something."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "So much fire that the water itself runs hot, steaming away into every bright thing it meets.",
+        "remedy": "Cool it. Take one chance a season and decline the rest."
+      },
+      "original": {
+        "clause": "Too much fire heats the water: more bright chances than the depth can cool, boiled off by urgency.",
+        "remedy": "Step back from the blaze. Add metal."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Metal piled past use muddies what it feeds, and the current turns cloudy and slow.",
+        "remedy": "Pour something out, one decision and no more checking."
+      },
+      "original": {
+        "clause": "Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources.",
+        "remedy": "Pour something out. Stop collecting."
+      },
+      "gate": "pass"
+    }
+  ]
+}

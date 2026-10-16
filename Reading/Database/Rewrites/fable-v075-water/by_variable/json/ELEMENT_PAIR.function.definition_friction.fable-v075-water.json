@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_friction",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "function.definition_friction",
+      "candidate": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the judge becomes you. You measure yourself against every rule as much as every demand and never quite pass your own review.",
+      "original": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "function.definition_friction",
+      "candidate": "Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You give care and show talent more than you take in, until you end up emptier than anyone you filled.",
+      "original": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "function.definition_friction",
+      "candidate": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, it has nowhere to go, so you hold your standard rather than a peer's and race people who never entered. You win more arguments than you keep friends.",
+      "original": "Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "function.definition_friction",
+      "candidate": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light outruns its fuel, and you chase a new opening rather than keep what you have. You end up starting more than you can feed.",
+      "original": "Fire is your Action, and as a friction, it is urgency pulling on a system that runs deep and slow: hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "function.definition_friction",
+      "candidate": "Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. You check what you know rather than say it, and hold whoever you shelter to a standard they never asked for.",
+      "original": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking.",
+      "gate": "pass"
+    }
+  ]
+}

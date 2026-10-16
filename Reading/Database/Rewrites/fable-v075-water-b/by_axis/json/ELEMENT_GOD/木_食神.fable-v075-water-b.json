@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "木_食神",
+  "$generated_by": "fable-v075-water-b",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Gives first",
+        "Always making",
+        "Relaxed"
+      ],
+      "friction": [
+        "Coasts along",
+        "Never says no",
+        "Comfort first"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Gives first",
+            "angles": {
+              "drive": "You give before anyone has to ask. Being the one with something to offer feels safer than being the one in need, and that puts giving ahead of waiting to be wanted. Give first, and notice when the giving starts to replace the wanting."
+            }
+          },
+          {
+            "word": "Always making",
+            "angles": {
+              "drive": "Making things is your resting state. Because you trust your hands more than your words, you answer most questions with something made. Keep answering that way, and allow a made thing its slower understanding."
+            }
+          },
+          {
+            "word": "Relaxed",
+            "angles": {
+              "drive": "Staying relaxed is your natural speed. You would rather enjoy a thing than finish it fast, even on the days that want the other one. If you stay relaxed and meet the one deadline that matters, you keep both."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Coasts along",
+            "angles": {
+              "drive": "You coast whenever the day lets you. Ease is what you trust, so you take the easy stretch instead of the hard one, even when you planned otherwise. Remember that coasting has never carried you anywhere you meant to go."
+            }
+          },
+          {
+            "word": "Never says no",
+            "angles": {
+              "drive": "You say yes before the question is finished. Giving is how you know you are there, and that puts other people's needs ahead of your own supply. You were never asked to be the only one giving, and that is worth remembering."
+            }
+          },
+          {
+            "word": "Comfort first",
+            "angles": {
+              "drive": "You put comfort first and call it self care. You pick the pleasant choice ahead of the useful one, because the pleasant one asks nothing of you now. You know which of the two jobs you skip, comforting the body or keeping it strong."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fruitful",
+            "angles": {
+              "drive": "Your output ripens naturally and keeps coming. The dinners, the small gifts, the finished little projects: none announced, all delivered, season after season. Where others sprint and stall, you simply bear, and the people around you have quietly reorganized their lives around the harvest."
+            }
+          },
+          {
+            "word": "Mellow",
+            "angles": {
+              "drive": "Your temperament arrived pre-softened. Provocations land in you like stones in deep grass, absorbed without ceremony. People bring you their sharp edges and leave with them slightly rounded, and nobody, including you, can point to the moment the rounding happened."
+            }
+          },
+          {
+            "word": "Tending",
+            "angles": {
+              "drive": "You express care by making things comfortable around people. The blanket appears before anyone said cold, the kettle is on before the knock, the leftovers go home in containers with the right lids. Nobody calls it expression. It is your entire vocabulary."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overripe",
+            "angles": {
+              "drive": "Your gifts sat on the branch past their moment. The talent is real and increasingly historical: the almost-finished album, the recipe book everyone requested a decade ago, the sweetness starting to ferment into stories about what nearly happened. The season did not end. It just stopped being picked."
+            }
+          },
+          {
+            "word": "Lax",
+            "angles": {
+              "drive": "Standards around you loosen like old elastic. The deadline drifts, the quality bar lowers itself politely, the follow-up follows nothing. Ease was the gift. Unattended, it composted into a comfortable rot that everyone enjoys and nobody thanks later."
+            }
+          },
+          {
+            "word": "Overbooked",
+            "angles": {
+              "drive": "Saying no feels like unkindness to you, so you mostly do not. The favor, the shift swap, the third brunch: each yes is warm and small, and together they have booked your life solid. Everyone gets a slice of you. The slices stopped adding up to a person."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Fruitful",
+        "Mellow",
+        "Tending"
+      ],
+      "friction": [
+        "Overripe",
+        "Lax",
+        "Overbooked"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

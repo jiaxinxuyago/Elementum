@@ -1,0 +1,98 @@
+{
+ "file": "ledger.金_偏印.friction.json",
+ "page": "The friction ledger of 金_偏印 (Metal carrying The Alchemist) on a Water core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[1] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You would rather send it late and right than early and good enough, an\"",
+  "ledger[1] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[1] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[1] :: a word used twice (late; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[2] :: a word used twice (reply; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[3] :: a word used twice (enough; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[4] :: a word used twice (wanted; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[5] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[5] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[5] :: a word used twice (handed; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6] :: a word used twice (thought; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[7] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[8] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[8] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[8] :: a word used twice (thought; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[0]#b :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[0]#b :: a word used twice (already; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3]#b :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[3]#b :: a word used twice (were; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6]#b :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[6]#b :: a word used twice (thought, finished; B11, a note: vary it unless the repeat carries the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 1,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 1,
+  "ledger[4]": 1,
+  "ledger[5]": 1,
+  "ledger[6]": 0,
+  "ledger[7]": 0,
+  "ledger[8]": 1,
+  "ledger[0]#b": 1,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 0
+ },
+ "zone": null,
+ "pass": true
+}

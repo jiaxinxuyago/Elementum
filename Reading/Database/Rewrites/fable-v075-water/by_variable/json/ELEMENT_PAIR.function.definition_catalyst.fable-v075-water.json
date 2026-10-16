@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.definition_catalyst",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the standard arrives late. You chase a crisis rather than keep a position and finish under pressure you never chose.",
+      "original": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, the gate opens too rarely. You keep your care and your talent in rather than risk them, and stay unknown to the people you love.",
+      "original": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, you put standing alone and matching a rival ahead of resting, so the source empties faster than it refills.",
+      "original": "Water is your Body, and running thin, it is the deep reserve under your perception: sleep quality, quiet time, the stillness your system restores itself in. Yours drains invisibly, through noise and company, long before you feel tired.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the start comes late, and you want a far chance as much as steady pay. You pay most for what you never claim.",
+      "original": "Fire is your Action, and as a catalyst, it is the bright opportunity your judgment was built to run: launches, markets, moments that reward the person who read them early. You see clearly where others squint.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "function.definition_catalyst",
+      "candidate": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, the test gets skipped. You trust your hunch more than a lesson handed down, and decide alone with nothing settled.",
+      "original": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input.",
+      "gate": "pass"
+    }
+  ]
+}

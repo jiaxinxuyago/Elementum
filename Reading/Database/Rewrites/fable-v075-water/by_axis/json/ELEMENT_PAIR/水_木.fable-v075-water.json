@@ -1,0 +1,120 @@
+{
+  "$archetype": "水_木",
+  "axis": "ELEMENT_PAIR",
+  "key": "水_木",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Wood grows because water reaches it, the old texts say. Rain comes down, the ground takes it in, and the forest rises on what it drank. Nothing green stands without a source under it. The deeper the water, the taller the trunk it can feed, and every leaf is water that learned to stand.",
+      "catalyst_turn": "With too little Wood, the rain has nothing to raise and pools where it lands. What you feel and know stays under the surface. Say one true thing out loud every day.",
+      "friction_turn": "With too much Wood, the forest drinks faster than the rain can fall, and the source runs low under all that green. Sleep on one thing you meant to say."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The rain has nothing to raise and pools where it lands.",
+        "remedy": "Say one true thing out loud every day."
+      },
+      "friction": {
+        "clause": "The forest drinks faster than the rain can fall.",
+        "remedy": "Sleep on one thing you meant to say."
+      },
+      "wide": {
+        "clause": "Wood is easy for you to reach, the green the rain is for.",
+        "remedy": "Use it. Make one thing a week and show it."
+      },
+      "missing": {
+        "clause": "Nothing grows on the water, so what you know stays inside with no way out.",
+        "remedy": "Borrow it. Write one page a day or make one small thing."
+      },
+      "spared": {
+        "clause": "No green draws on the water, and the source stays full for you.",
+        "remedy": "Keep it so. Take in before you give out."
+      },
+      "thin": {
+        "clause": "Wood stays small in you, a few shoots the water can afford to feed.",
+        "remedy": "Keep it small. One thing made a month is enough."
+      },
+      "excess": {
+        "clause": "The forest has outgrown its water, and the source shrinks with every new thing you make.",
+        "remedy": "Make less. Sleep more and read before you write."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, the gate opens too rarely. You keep your care and your talent in rather than risk them, and stay unknown to the people you love.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You give care and show talent more than you take in, until you end up emptier than anyone you filled.",
+      "advise_catalyst": "Nothing you keep inside gets safer with time. Give the thing you made to someone before you think it is finished. Say the kind thought on the day you have it. Read one page you wrote to a child or a friend. Send the text without rereading it.",
+      "advise_friction": "Seek Metal, the Mind energy. Metal is the cold side water forms on: it pulls from the air and hands the water back to its source. Let it hold what Wood pours out. You cannot talk your way back to full. Read one whole chapter before you make the next thing. Let one question sit overnight."
+    },
+    "cta_verdict": "You put more into what you make than you ever say about it, and what you make usually outgrows the plan."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Water gives life to wood because it moistens, say the old texts: rain falls, the root drinks, and the forest stands up out of the ground the water made soft. The rain keeps nothing for itself. Everything it touches turns green on its behalf, and the tallest trees are its quietest monuments.",
+      "catalyst_turn": "Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public.",
+      "friction_turn": "Run heavy, the rain never closes: every still thing gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The rain withholds: depth circling underground, nothing green standing up from it.",
+        "remedy": "Mentor someone, seed the idea, water a thing in public."
+      },
+      "friction": {
+        "clause": "The rain never closes: every still thing gets watered, depth drained into other people’s forests.",
+        "remedy": "Rain is also allowed to rest."
+      },
+      "wide": {
+        "clause": "You were given plenty of Wood, the green thing your rain is for.",
+        "remedy": "Pick one green thing and pour into it."
+      },
+      "missing": {
+        "clause": "The rain withholds: depth underground, nothing green from it.",
+        "remedy": "Borrow wood: mentor one person."
+      },
+      "spared": {
+        "clause": "Wood runs absent, and the depth is kept: nothing drained into other people's gardens.",
+        "remedy": "Keep it. Pour by choice."
+      },
+      "thin": {
+        "clause": "Wood runs thin and unwanted: a small garden, easily watered.",
+        "remedy": "Water it. Plant no more."
+      },
+      "excess": {
+        "clause": "Too much wood drinks the water: more growing than the depth can feed, the self drained raising it.",
+        "remedy": "Close the sky. Let the water table rise."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.",
+      "definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.",
+      "advise_catalyst": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
+      "advise_friction": "Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
+    },
+    "cta_verdict": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "carry": {
+      "excess": "the cell's excess idiom, Wood flourishing while the water shrinks, said in English"
+    }
+  }
+}

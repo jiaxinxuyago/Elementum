@@ -1,0 +1,165 @@
+{
+  "$archetype": "火_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "火_偏财",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Sees chances early",
+        "Gives easily",
+        "Starts fast"
+      ],
+      "friction": [
+        "Chases the new",
+        "Spends it fast",
+        "Drops things halfway"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Sees chances early",
+            "angles": {
+              "drive": "Seeing a chance early is when you feel most alive. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays.",
+              "cost_self": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. Check what is already yours first, and you stop losing the nearest chance to the far one.",
+              "cost_others": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. Once you hand them the finished thing, you keep them for the one after."
+            }
+          },
+          {
+            "word": "Gives easily",
+            "angles": {
+              "drive": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Keep giving as you do, and note what each gift costs you.",
+              "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, the venture you want stays yours to fund.",
+              "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. With small gifts that repeat, you give them the steadiness along with the shine."
+            }
+          },
+          {
+            "word": "Starts fast",
+            "angles": {
+              "drive": "A fast start is where you do your best work. The beginning of a venture is the warm part, and you would rather open the next one than sit through the middle. Keep starting fast, as long as each start gets one dull week first.",
+              "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If you stay through one dull stretch on purpose, you keep the venture that would have paid.",
+              "cost_others": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Name your part before you start, so you ask less of their patience."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chases the new",
+            "angles": {
+              "drive": "The newest thing is what you want. You have more Fire than your core feeds, and a fresh chance pulls you more than a half-done one holds you. You pay for each chase with the catch you already had, and that is easy to forget.",
+              "cost_self": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. You lose the money at the end, since it only comes with staying, and that is the part to remember.",
+              "cost_others": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. Do not forget that every chase costs them the ending you promised."
+            }
+          },
+          {
+            "word": "Spends it fast",
+            "angles": {
+              "drive": "Spending fast is your reflex. The Fire in you runs ahead of what feeds it, and spending feels like living while saving feels like waiting. Bear in mind that fast spending is how you feel the moment, and the moment is all it buys.",
+              "cost_self": "Fast spending feels like freedom to you. You would rather have the thing now than the money later, and what comes in easily goes before it grows. It is worth knowing that what you spend fast is the stake you never put behind a venture.",
+              "cost_others": "You spend fast on the people you love, big gesture first. Giving them the moment matters more to you than giving them the month, so your family carries the gap. You leave them the gap once the treat is gone, something worth keeping in mind."
+            }
+          },
+          {
+            "word": "Drops things halfway",
+            "angles": {
+              "drive": "Halfway is where you drop things. The start gives you the rush, the middle gives you nothing, and you drop the half-done thing rather than push through it. Notice that you leave at the exact point where the work was about to pay.",
+              "cost_self": "Dropping things halfway means you never learn their worth. You would rather feel a fresh start than a slow middle, and the ending stays a story to you. Keep this close, that you lose the whole return on a venture by dropping its second half.",
+              "cost_others": "Whenever you drop something halfway, you leave the rest to your partners. Starting fresh feels better to you than finishing with them, since the middle bores you. You spend their patience on every half you leave behind, and that is worth remembering."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spark-spotting",
+            "angles": {
+              "drive": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying.",
+              "cost_self": "You bought the ugly little stand at the market’s dead corner because the foot traffic map in your head disagreed with the rent. Two seasons later the corner was the market, and the rent conversation went differently, in your favor, with you on the landlord side.",
+              "cost_others": "Friends have learned to note what you mention twice, since your casual enthusiasms have a habit of becoming everyone’s expensive enthusiasms two years later. A few of them now just ask directly, at dinner, in January: what are you seeing lately. The answers have funded renovations."
+            }
+          },
+          {
+            "word": "Charismatic",
+            "angles": {
+              "drive": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it.",
+              "cost_self": "You walked into the fully booked restaurant behind two parties who had been turned away, and left with a corner table, the chef’s recommendation, and a standing invitation. Your dinner companion timed the whole ascent: four minutes. She has retold that timing at every gathering since.",
+              "cost_others": "Gatherings rearrange around your arrival, which you notice less than everyone else does. Hosts introduce you first, strangers remember your name, and follow-ups appear in your inbox from conversations you barely registered. The network effect is compounding. Other people network. You just show up warm."
+            }
+          },
+          {
+            "word": "Fast-moving",
+            "angles": {
+              "drive": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language.",
+              "cost_self": "The pop-up went from group-chat joke to opening night in nineteen days, permits included. People asked how long you had been planning it. The honest answer, since the joke, confused them into laughter. The line outside, though, was fluent in results.",
+              "cost_others": "Partners either learn your tempo or watch from the platform. By the time competitors finish their market analysis, you are iterating on version two with actual customer complaints, which you consider the only research with calories in it. The analysts eventually cite you. As data."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Flash-chasing",
+            "angles": {
+              "drive": "Every new shine gets your full sprint. The trend, the token, the just-opened thing: you arrive first, burn bright, and are gone before the substance question comes up. Chasing light is genuinely fun. A portfolio of chases, though, is mostly a photo album of exits.",
+              "cost_self": "You were early to the app everyone joined and earlier out, early to the seltzer brand, the course platform, the resale game. Each sprint made money for three months and stories forever. The friend who boringly stayed in one lane just bought a house. You have anecdotes.",
+              "cost_others": "People invite your read on what is next and quietly discount your staying power, a distinction that took you years to notice. The introductions still come. What stopped coming are the long-term seats, the ones reserved for people who will still be there when the shine dulls."
+            }
+          },
+          {
+            "word": "Big spender",
+            "angles": {
+              "drive": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired.",
+              "cost_self": "The bonus landed on the fourth and was structurally gone by the nineteenth: the trip booked, the jacket, the speakers, the generous gesture at dinner that felt so right. Nothing was wasted, exactly. Nothing was kept, either. The statement reads like a wonderful month someone else paid for.",
+              "cost_others": "Friends love going out with you and wince at your math. The generosity is legendary and the reserves are rumor. People close to you have started celebrating your windfalls nervously, knowing the celebration itself will consume a measurable percentage. Somebody gifted you a budgeting app once. You upgraded it to premium."
+            }
+          },
+          {
+            "word": "Flighty",
+            "angles": {
+              "drive": "Your commitments have the lifespan of sparks. The plan ignites, glows, and is ash by the follow-through date, replaced by a newer, brighter plan in the same weekend. People stopped writing your intentions in ink around the time you did, which was never.",
+              "cost_self": "The Portugal trip was real for eleven days: researched, group-chatted, half-booked. Then the sailing course appeared, then the food truck idea, and by month’s end Portugal was a tab among tabs. Your browser history is an atlas of abandoned futures, each one sincerely meant for a week.",
+              "cost_others": "People triangulate your actual plans by waiting a month and checking what survived. Employers, partners, and one long-suffering travel agent have all developed the same policy: nothing books until you mention it a third time. You find the policy insulting. It has never once been wrong."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Spark-spotting",
+        "Charismatic",
+        "Fast-moving"
+      ],
+      "friction": [
+        "Flash-chasing",
+        "Big spender",
+        "Flighty"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "$archetype": "木_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "木_伤官",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Speaks up",
+        "Goes off script",
+        "Stands out"
+      ],
+      "friction": [
+        "Talks back",
+        "Shows off",
+        "Goes too far"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Speaks up",
+            "angles": {
+              "drive": "You speak up where silence would be easier. Keeping a true thing in feels worse than saying it, so you speak ahead of being sure anyone wants to hear. Keep speaking up, and accept a few conversations that go colder than you meant.",
+              "cost_self": "Speaking up costs you more than it looks. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after. Bring one ally before you speak up, and you give up fewer chances to it.",
+              "cost_others": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Let them pick the moment, and your speaking up stays a gift instead of an interruption."
+            }
+          },
+          {
+            "word": "Goes off script",
+            "angles": {
+              "drive": "Going off script is where you shine. A plan handed to you feels like a box for what you could do, so you change it ahead of following it. Keep going off script, and accept that the price is a plan nobody can count on.",
+              "cost_self": "Off script is how you stay interested. Following a plan feels like switching your talent off, and you rewrite it ahead of proving you could follow it. Follow one plan to the end, since the chances you lose are the ones that wanted it plain.",
+              "cost_others": "You go off script with shared plans as easily as your own. Because a better idea feels like a duty, you rewrite the shared plan ahead of asking whether anyone wanted it rewritten. Ask first, and you keep the plan something others can count on."
+            }
+          },
+          {
+            "word": "Stands out",
+            "angles": {
+              "drive": "Standing out comes naturally to you. Fitting in feels like a small lie about what you can do, so you stand out ahead of being asked to. Keep standing out, and take the envy as part of the price.",
+              "cost_self": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less. Take the quiet seat now and then, and you hold on to friendships standing out would cost.",
+              "cost_others": "You stand out in company that did not ask for a star. Because shrinking feels like lying, you take the attention ahead of leaving some for whoever needed it. Step back one time in three, and you hand the person beside you their turn."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Talks back",
+            "angles": {
+              "drive": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You know by now that talking back wins the moment and spends the week.",
+              "cost_self": "Your self-respect runs on talking back. Because giving in feels like losing yourself, you argue ahead of asking what the rule is for. You already know that the chances you talked yourself out of were the ones you wanted most.",
+              "cost_others": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself ahead of hearing what was offered. You hand them an argument where they asked for your ear, and you know the difference."
+            }
+          },
+          {
+            "word": "Shows off",
+            "angles": {
+              "drive": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off ahead of fitting in. It is worth remembering that showing off trades closeness for being admired, and you wanted the closeness more.",
+              "cost_self": "Showing off is how you check you exist in a group. Because being ordinary feels like being invisible, you perform ahead of resting, even with no show asked for. Never forget that you run every show on the rest you skipped for it.",
+              "cost_others": "Most of your showing off goes to the people who love you. Because applause is easier to feel than closeness, you give them a performance instead of a talk. You know who came for you and got the show, and that is their cost."
+            }
+          },
+          {
+            "word": "Goes too far",
+            "angles": {
+              "drive": "Going too far is where you feel alive. A fine moment asks to be pushed one step past fine, so you push ahead of stopping while it works. Just remember that going too far is how you lose the moment you started from.",
+              "cost_self": "Making sure a thing was done means going too far. Because stopping at enough feels like wasting talent, you push past it ahead of resting. You pay each step past enough with the strength you needed tomorrow, and you never quite forget it.",
+              "cost_others": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and that agreement is yours to keep."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Free-growing",
+            "angles": {
+              "drive": "Your expression grows wherever it wants, and forcing it into rows kills it. Give you a template and the life drains out. Give you open ground and something appears that nobody planted, better than what was planned, impossible to have ordered in advance.",
+              "cost_self": "The brief asked for a standard newsletter, and what you delivered was a running column with a voice, a following, and eventually a waiting list. Nobody approved the change. It grew past the approval stage while the approvers were in meetings, and readership tripled.",
+              "cost_others": "Editors, managers, and one long-suffering teacher all learned the same lesson: fence you and you produce hedges, free you and you produce forests. The people who benefit most from your work are the ones who learned to stop supervising the growing."
+            }
+          },
+          {
+            "word": "Original",
+            "angles": {
+              "drive": "Your ideas arrive without ancestors. Where others improve on the existing, you sprout something with no clear parent, odd at first sight and obvious in hindsight. Imitation is genuinely difficult for you, which cost you in school and pays you everywhere else.",
+              "cost_self": "The party game you invented on a napkin has now been played at four weddings and one corporate retreat, mutating slightly each time. Someone recently asked where you found it. The napkin is framed in your friend’s kitchen, which is its citation.",
+              "cost_others": "People carry your ideas into places you never visit, usually without your name attached, always with your fingerprints visible to anyone who knows you. Being copied stopped bothering you once you noticed the copies cannot make the next one. Only the source does that."
+            }
+          },
+          {
+            "word": "Untamed",
+            "angles": {
+              "drive": "Nobody ever quite domesticated your voice, and the wildness is the value. You say the thing with the bark still on it, unsanded by committee. Polished people find you alarming and then find themselves quoting you, because the rough version was the true one.",
+              "cost_self": "At the panel, between two rehearsed speakers, you answered the question everyone was avoiding, in the words everyone was avoiding it in. The moderator blinked. The clip, forty seconds long, outlived the entire conference, and next year they booked you first.",
+              "cost_others": "Organizers invite you with a specific mix of hope and bracing, the way towns invite weather. Something will happen, it will be alive, and it will not be what the agenda said. The agenda-keepers grumble. The audiences keep coming back for the weather."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chaotic",
+            "angles": {
+              "drive": "Direction is your allergy. The plan says left, and something in you veers right on principle, even when left was your own idea last week. Paths bore you the moment they firm up, which keeps life interesting and keeps arrival permanently postponed.",
+              "cost_self": "You quit the program two months before certification, the third finish line abandoned in five years, each exit backed by a compelling reason that shares no logic with the others. The certificates would spell a career by now. The reasons, laid end to end, spell only motion.",
+              "cost_others": "People stopped mapping your trajectory and started just asking where you are this season. Mentors who invested in one direction watched you grow in another, and the generous ones call it range. The honest ones ask what all this growing is refusing to become."
+            }
+          },
+          {
+            "word": "Sprawling",
+            "angles": {
+              "drive": "Your expression spreads faster than it deepens. The podcast, the essays, the half-built app, the sketchbooks: green shoots in every direction, canopy in none. Each new tendril takes light from the last one. The garden is enormous and, so far, fruitless.",
+              "cost_self": "The essay was going well until minute forty, when it became a second essay, which spawned a video idea, which required a new microphone, which arrived to find you starting a third essay. All four projects share one folder. The folder is named Focus.",
+              "cost_others": "Your feeds show a person of astonishing range and no address. Followers love the variety, and the industry people who could open doors keep asking the same question in different words: what is the one thing. You keep answering with five."
+            }
+          },
+          {
+            "word": "Defiant",
+            "angles": {
+              "drive": "Rules read as dares to you, including the ones that were protecting something. Authority triggers your sap like spring: the tone sharpens, the counterargument grows thorns, and suddenly the fight is the point. Half your battles improved things. The other half just cost you allies.",
+              "cost_self": "The new policy was mildly inconvenient and your response was a manifesto, posted in the all-hands channel at four on a Friday. It got eleven reactions and one meeting invite. The policy stayed. Your name moved onto a list nobody prints but everyone consults.",
+              "cost_others": "People with power approach you pre-flinched, which you enjoy more than is useful. Doors open more slowly for you than your talent justifies, and everyone except you can name the reason. The reason has thorns and posts on Fridays."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Free-growing",
+        "Original",
+        "Untamed"
+      ],
+      "friction": [
+        "Chaotic",
+        "Sprawling",
+        "Defiant"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

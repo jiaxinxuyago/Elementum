@@ -1,0 +1,115 @@
+{
+  "$archetype": "水_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "水_金",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and every spring remembers the cold stone it first seeped from.",
+      "catalyst_turn": "With too little Metal, less settles than you spend. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Read one slow book before the next hard call.",
+      "friction_turn": "With too much Metal, more settles in you than you pour out. The ore clouds the water it feeds, and each clear thought waits on one more check. Say one unfinished thing out loud."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing cold stands over the water, so no drop gathers",
+        "remedy": "Read one slow book before the next hard call."
+      },
+      "friction": {
+        "clause": "The ore clouds the water it feeds",
+        "remedy": "Say one unfinished thing out loud."
+      },
+      "wide": {
+        "clause": "You are well supplied with Metal, the cold surface the water gathers on.",
+        "remedy": "Use what has settled. Decide from it."
+      },
+      "missing": {
+        "clause": "No cold surface for the water to form on, answers given before anything has settled.",
+        "remedy": "Borrow it, one trusted teacher, one rule you did not write."
+      },
+      "spared": {
+        "clause": "No Metal over the water, and the water runs clearer for it.",
+        "remedy": "Keep it out. Act on what you already know."
+      },
+      "thin": {
+        "clause": "Only a little Metal feeds the water, a thin cold that never clouds it.",
+        "remedy": "Leave it small. One check, then move."
+      },
+      "excess": {
+        "clause": "Metal piled past use muddies what it feeds, and the current turns cloudy and slow.",
+        "remedy": "Pour something out, one decision and no more checking."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, the test gets skipped. You trust your hunch more than a lesson handed down, and decide alone with nothing settled.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. You check what you know rather than say it, and hold whoever you shelter to a standard they never asked for.",
+      "advise_catalyst": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it and wait for the whole story. Sleep on any answer that matters. Write the question down before you reply.",
+      "advise_friction": "Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. You keep testing what already passed, since only finished feels safe. Ship a piece at a draft you would accept from others. Decide one small thing with no second look."
+    },
+    "cta_verdict": "You trust what you have tested rather than what you were told, so you learn slowly and keep it for good."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Water is metal's child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the stream inherits, sharpness dissolved into current and carried further than any blade could reach.",
+      "catalyst_turn": "Run thin, the spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. Your chart asks for metal. Study something exact and drink from it.",
+      "friction_turn": "Run heavy, the rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. Pour something out. A spring proves itself by flowing."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.",
+        "remedy": "Study something exact and drink from it."
+      },
+      "friction": {
+        "clause": "The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.",
+        "remedy": "A spring proves itself by flowing."
+      },
+      "wide": {
+        "clause": "You have plenty of Metal, the spring that keeps your depth refilled.",
+        "remedy": "Use the exact sources you already have."
+      },
+      "missing": {
+        "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
+        "remedy": "Borrow metal: one exact teacher."
+      },
+      "spared": {
+        "clause": "Metal runs absent, and the water moves: nothing calcified, nothing over-refined.",
+        "remedy": "Keep it. Add rigor one method at a time."
+      },
+      "thin": {
+        "clause": "Metal runs thin and unwanted: a little rigor, easily carried.",
+        "remedy": "Carry it lightly."
+      },
+      "excess": {
+        "clause": "Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources.",
+        "remedy": "Pour something out. Stop collecting."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input.",
+      "definition_friction": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking.",
+      "advise_catalyst": "Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
+      "advise_friction": "Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe."
+    },
+    "cta_verdict": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

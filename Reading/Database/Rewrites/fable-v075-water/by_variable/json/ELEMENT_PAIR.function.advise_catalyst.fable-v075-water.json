@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_catalyst",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "function.advise_catalyst",
+      "candidate": "You do your best work when someone else sets the deadline. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Tell one person above you what you will deliver and when. Keep one standing rule at home, the same sleep hour every night. Pay one bill the day it arrives.",
+      "original": "Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "function.advise_catalyst",
+      "candidate": "Nothing you keep inside gets safer with time. Give the thing you made to someone before you think it is finished. Say the kind thought on the day you have it. Read one page you wrote to a child or a friend. Send the text without rereading it.",
+      "original": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "function.advise_catalyst",
+      "candidate": "You go it alone most easily when you have the least to go on. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down.",
+      "original": "Solitude is your maintenance, so dose it like medicine. One silent hour daily, no inputs. A full day alone each month, calendared in advance. Leave gatherings while they are still good, and let the quiet finish what the rest began.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "function.advise_catalyst",
+      "candidate": "You feel safer planning a thing than starting it, and the plan is where most of your chances end. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing.",
+      "original": "A gift for timing is wasted on a spectator. When your read says now, commit within a week instead of watching it prove you right. Size the bet so a miss stings without sinking. Keep one bright project live at all times.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "function.advise_catalyst",
+      "candidate": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it and wait for the whole story. Sleep on any answer that matters. Write the question down before you reply.",
+      "original": "Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
+      "gate": "pass"
+    }
+  ]
+}

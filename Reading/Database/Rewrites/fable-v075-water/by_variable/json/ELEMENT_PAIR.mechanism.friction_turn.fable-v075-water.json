@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.friction_turn",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Earth, the banks press in until the water barely moves. Every rule you meet turns into a judge of you. Read one slow book before the next demand.",
+      "original": "Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Wood, the forest drinks faster than the rain can fall, and the source runs low under all that green. Sleep on one thing you meant to say.",
+      "original": "Run heavy, the rain never closes: every still thing gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Water, the tide rises with no shore to meet, and depth becomes weight: the same thoughts circling and never landing. Pick one task and pour it all there.",
+      "original": "Run heavy, the surface seals: depth stilled under so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "mechanism.friction_turn",
+      "candidate": "Too much Fire and the water heats through: every warm chance taken at once, the deep boiling off faster than rain can fill it back. Sleep two nights on anything that shines.",
+      "original": "Run heavy, the water starts to boil: depth spent on every bright flare, nothing left cool for the long game. Cool it overnight before you move.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Metal, more settles in you than you pour out. The ore clouds the water it feeds, and each clear thought waits on one more check. Say one unfinished thing out loud.",
+      "original": "Run heavy, the rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. Pour something out. A spring proves itself by flowing.",
+      "gate": "pass"
+    }
+  ]
+}

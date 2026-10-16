@@ -1,0 +1,97 @@
+{
+  "$archetype": "水_水",
+  "axis": "ELEMENT_PAIR",
+  "key": "水_水",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Water meets water and nothing new is added, only more of the same. Nothing moistens all things like it, the old texts say. Two currents that join learn no new direction: they just run deeper. Depth is the gift and the danger of this pair, since a spring and a flood share one nature and differ in how much there is. The same element alone is its own supply and its own limit.",
+      "catalyst_turn": "When your own Water runs low, the spring thins and every current slows to a trickle, and each effort draws on a source nothing is refilling. Rest first, then decide.",
+      "friction_turn": "With too much Water, the tide rises with no shore to meet, and depth becomes weight: the same thoughts circling and never landing. Pick one task and pour it all there."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "the spring thins and every current slows to a trickle",
+        "remedy": "Rest first, then decide."
+      },
+      "friction": {
+        "clause": "the tide rises with no shore to meet",
+        "remedy": "Pick one task and pour it all there."
+      },
+      "unrooted": {
+        "clause": "No spring of your own, so every current you ride is borrowed from somewhere else.",
+        "remedy": "Borrow depth: rest, and keep one steady friend close."
+      },
+      "excess": {
+        "clause": "Water piled past its banks goes stale: the depth needs something growing to drain into.",
+        "remedy": "Drain it into something growing. Build, plant, start."
+      },
+      "thin": {
+        "clause": "Little Water of your own, and no loss in that: nothing pools long enough to weigh on you.",
+        "remedy": "Keep it small and keep it moving."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, you put standing alone and matching a rival ahead of resting, so the source empties faster than it refills.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, it has nowhere to go, so you hold your standard rather than a peer's and race people who never entered. You win more arguments than you keep friends.",
+      "advise_catalyst": "You go it alone most easily when you have the least to go on. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down.",
+      "advise_friction": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Hand someone above you a finish date in writing, then clear one small job today."
+    },
+    "cta_verdict": "Your stamina rises and falls in long swings, and you would rather go it alone than let a peer take half of the hard weeks."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Nothing moistens all things like water, the Book of Changes says: depth joined to depth, rivers feeding the sea that sends them back as rain. There is no reaction here, only gathering. Still water clarifies, deep water remembers, and the same softness that yields to every stone eventually carries the stone away.",
+      "catalyst_turn": "Run thin, the sea doubts its depth: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.",
+      "friction_turn": "Run heavy, the surface seals: depth stilled under so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The sea doubts its depth: perception discounted, knowing deferred to louder instruments.",
+        "remedy": "Trust one read all the way through."
+      },
+      "friction": {
+        "clause": "The surface seals: depth stilled under so much knowing that nothing surfaces to be checked.",
+        "remedy": "Deep water still needs shores."
+      },
+      "unrooted": {
+        "clause": "The self stands without roots: depth on will alone, a read with nothing under it.",
+        "remedy": "Feed the self. Trust one read through."
+      },
+      "excess": {
+        "clause": "Strong water wants wood: so much depth nothing surfaces.",
+        "remedy": "Pour it out. Grow something."
+      },
+      "thin": {
+        "clause": "Water runs thin and still carries weight: little depth, drawn on constantly.",
+        "remedy": "Draw on it less."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Water is your Body, and running thin, it is the deep reserve under your perception: sleep quality, quiet time, the stillness your system restores itself in. Yours drains invisibly, through noise and company, long before you feel tired.",
+      "definition_friction": "Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes.",
+      "advise_catalyst": "Solitude is your maintenance, so dose it like medicine. One silent hour daily, no inputs. A full day alone each month, calendared in advance. Leave gatherings while they are still good, and let the quiet finish what the rest began.",
+      "advise_friction": "Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself."
+    },
+    "cta_verdict": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.unrooted": "pass",
+    "carry.excess": "pass",
+    "carry.thin": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

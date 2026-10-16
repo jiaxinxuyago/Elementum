@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.base",
+  "$generated_by": "fable-v075-water",
+  "$handoff": "2026-10-16 batch-5-water-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "水_土",
+      "field": "mechanism.base",
+      "candidate": "Earth gives water its shape, the old texts say. Banks on either side, a bed beneath, and the river goes somewhere instead of everywhere. Without ground to press against, water spreads thin across the land and soaks away into nothing. The bank pushes, and the current answers by running deeper. That pressure turns a flood into a river, and a river into a road that reaches the sea.",
+      "original": "The solid prevails over the flowing, and so earth contains water: banks make the river, walls make the well, and depth without a vessel is only weather. Contained, water becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the river arrives.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_木",
+      "field": "mechanism.base",
+      "candidate": "Wood grows because water reaches it, the old texts say. Rain comes down, the ground takes it in, and the forest rises on what it drank. Nothing green stands without a source under it. The deeper the water, the taller the trunk it can feed, and every leaf is water that learned to stand.",
+      "original": "Water gives life to wood because it moistens, say the old texts: rain falls, the root drinks, and the forest stands up out of the ground the water made soft. The rain keeps nothing for itself. Everything it touches turns green on its behalf, and the tallest trees are its quietest monuments.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_水",
+      "field": "mechanism.base",
+      "candidate": "Water meets water and nothing new is added, only more of the same. Nothing moistens all things like it, the old texts say. Two currents that join learn no new direction: they just run deeper. Depth is the gift and the danger of this pair, since a spring and a flood share one nature and differ in how much there is. The same element alone is its own supply and its own limit.",
+      "original": "Nothing moistens all things like water, the Book of Changes says: depth joined to depth, rivers feeding the sea that sends them back as rain. There is no reaction here, only gathering. Still water clarifies, deep water remembers, and the same softness that yields to every stone eventually carries the stone away.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_火",
+      "field": "mechanism.base",
+      "candidate": "Water puts out fire, the old texts say, the way the many overcome the few: rain falls on the blaze until the ground goes dark and quiet. Fire gives the water its work. Over a flame the cold deep warms, moves and has somewhere to go. Water with no heat under it only sits, and heat with nothing deep enough to meet it spends itself on the air and is gone by morning.",
+      "original": "The many prevail over the few, and so water governs fire: the rain decides which flames continue, the river decides where the burning stops. Fire is brilliant and outnumbered. Depth arrives without hurry, spends nothing it cannot spare, and the blaze that seemed unstoppable at midnight is steam by morning.",
+      "gate": "pass"
+    },
+    {
+      "cell": "水_金",
+      "field": "mechanism.base",
+      "candidate": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and every spring remembers the cold stone it first seeped from.",
+      "original": "Water is metal's child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the stream inherits, sharpness dissolved into current and carried further than any blade could reach.",
+      "gate": "pass"
+    }
+  ]
+}
