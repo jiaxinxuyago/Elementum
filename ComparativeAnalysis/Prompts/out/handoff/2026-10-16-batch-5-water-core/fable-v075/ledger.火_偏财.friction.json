@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Chases the new",
-    "text": "The newest thing is what you want. You have more Fire than your core feeds, and a fresh chance pulls you more than a half-done one holds you. You pay for each chase with the catch you already had, and that is easy to forget."
+    "text": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of."
    },
    "value_b": {
     "word": "Chases the new",
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Chases the new",
-    "text": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. You lose the money at the end, since it only comes with staying, and that is the part to remember."
+    "text": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. Each time you leave early, you lose the money at the end, and that money is why you chase."
    }
   },
   "ledger[2]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Spends it fast",
-    "text": "Spending fast is your reflex. The Fire in you runs ahead of what feeds it, and spending feels like living while saving feels like waiting. Bear in mind that fast spending is how you feel the moment, and the moment is all it buys."
+    "text": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. Bear in mind that fast spending is how you live in the moment, and the moment is all it buys."
    },
    "value_b": {
     "word": "Spends it fast",
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Spends it fast",
-    "text": "You spend fast on the people you love, big gesture first. Giving them the moment matters more to you than giving them the month, so your family carries the gap. You leave them the gap once the treat is gone, something worth keeping in mind."
+    "text": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back."
    }
   },
   "ledger[6]": {
@@ -293,12 +293,12 @@
     }
    },
    "value": {
-    "word": "Drops things halfway",
-    "text": "Halfway is where you drop things. The start gives you the rush, the middle gives you nothing, and you drop the half-done thing rather than push through it. Notice that you leave at the exact point where the work was about to pay."
+    "word": "Looks past home",
+    "text": "Looking past home comes easily to you. The next venture feels like where your life begins, so you look ahead at what might come rather than at what is here. You are already living the life you look past."
    },
    "value_b": {
-    "word": "Drops things halfway",
-    "text": "Finishing never had the pull for you that starting has. Fire keeps asking you for the next thing, so you drop the half-done one sooner than you finish it. Remember that the half you left counts against you as much as the half you did."
+    "word": "Looks past home",
+    "text": "Home is what you look past first. You take what is near as settled and look out at the next venture instead of at the people already there. You lose the years at home you look past, and no venture gives them back."
    }
   },
   "ledger[7]": {
@@ -336,8 +336,8 @@
     }
    },
    "value": {
-    "word": "Drops things halfway",
-    "text": "Dropping things halfway means you never learn their worth. You would rather feel a fresh start than a slow middle, and the ending stays a story to you. Keep this close, that you lose the whole return on a venture by dropping its second half."
+    "word": "Looks past home",
+    "text": "Whenever you look past home, you save your best for what comes next. You would rather look toward somewhere new than settle where you already are. You miss the rest your own home was built to give you."
    }
   },
   "ledger[8]": {
@@ -375,8 +375,8 @@
     }
    },
    "value": {
-    "word": "Drops things halfway",
-    "text": "Whenever you drop something halfway, you leave the rest to your partners. Starting fresh feels better to you than finishing with them, since the middle bores you. You spend their patience on every half you leave behind, and that is worth remembering."
+    "word": "Looks past home",
+    "text": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
    }
   }
  }

@@ -66,7 +66,7 @@
     "element": "Fire",
     "notes": "opens on a plain statement of the state in the reader's terms (Fire named, its volume in ordinary words, the reference lead-in \"With too much Fire, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
    },
-   "value": "Too much Fire and the water heats through: every warm chance taken at once, the deep boiling off faster than rain can fill it back. Sleep two nights on anything that shines."
+   "value": "There is more Fire than your water can put out. The rain goes up in steam, and each venture you light spends some of the deep. Keep half of what every chase brings home."
   },
   "carry.friction": {
    "spec": {
@@ -84,8 +84,8 @@
     "notes": "cut from the friction turn above: its first clause and its own directive"
    },
    "value": {
-    "clause": "every warm chance taken at once, the deep boiling off faster than rain can fill it back",
-    "remedy": "Sleep two nights on anything that shines."
+    "clause": "The rain goes up in steam, and each venture you light spends some of the deep",
+    "remedy": "Keep half of what every chase brings home."
    }
   },
   "carry.wide": {
@@ -276,7 +276,7 @@
     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (noted on a verdict, the read decides)",
     "notes": "explains \"Fire is your Action\": a behavioural truth with the reader as its subject plus ONE tendency-framed consequence beat, true on either pole, the tension inside the one sentence where it can be; at least eight words, no arena word, no turn word (but, yet, however), no more than two commas (owner 2026-10-14, v0.7.1)"
    },
-   "value": "You act on warmth rather than on a plan, and what you start fast is what you most need help keeping.",
+   "value": "You reach for what matters to you with care as much as with nerve, and over the years the balance you strike shapes what you get to keep.",
    "value_b": "You give in bursts rather than on a schedule, and what you provide is remembered by how often it comes back."
   }
  }
