@@ -958,7 +958,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                                 <span className="el-remedytitles f">
                                   <span className="el-remedykicker"><Use id="ar-down" />{verb} {elScreen.elName} through</span>
                                   <span className="serifline el-remedytitle xl">{rem.name}</span>
-                                  {rem.fn && <span className="el-remedyname">the {rem.fn} energy{rem.el === elScreen.el ? ', your own' : ''}</span>}
+                                  {rem.fn && <span className="el-remedyname">the {rem.fn} energy{rem.el === m.core.el ? ', your own' : ''}</span>}
                                 </span>
                               ); })() : <span className="el-remedyname">{elScreen.elName}, the {elScreen.fnLabel} energy</span>}
                               {canGo && <span className="el-remedygo" aria-hidden="true"><Use id="ico-chev-r" /></span>}

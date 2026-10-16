@@ -23,7 +23,7 @@
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, you have more drive than work for it, and you chase the next opening more than you finish anything to keep.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, you take on past your strength, and you start a new venture rather than keep the money and love already yours.",
       "advise_catalyst": "Your drive outruns the places you can put it, and an opening only looked at becomes weight. Say yes to one opening and no to the next two out loud. Move a fixed sum into savings each month before you spend the rest. Take whoever you love somewhere new and close by. Empty your pockets into a jar each night.",
-      "advise_friction": "Seek Fire, the Body energy. Fire is warmth kept in: fuel, rest, the light that keeps itself lit before it works on anything. Let it hold what Metal spends. You say yes to more than you can finish, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
+      "advise_friction": "Seek Fire, your own Body energy. Fire is warmth kept in: fuel, rest, the light that keeps itself lit before it works on anything. Let it hold what Metal spends. You say yes to more than you can finish, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
     },
     "cta_verdict": "Your drive goes wherever there is something hard to shape, and you finish more by picking one thing to provide for than by chasing every opening you spot.",
     "carry": {
@@ -243,6 +243,13 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "owner-ruling",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (the remedy anchor reads \"your own Body energy\" wherever the energy sought is the reader's own core, as on the four other such pages)",
+      "replaced": "Seek Fire, the Body energy. Fire is warmth kept in: fuel, rest, the light that keeps itself lit before it works on anything. Let it hold what Metal spends. You say yes to more than you can finish, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
     }
   ]
 }
