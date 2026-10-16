@@ -23,6 +23,7 @@ import { IS_DEV_TOOLS } from '../../devtools.js';
 import { useReading } from '../reading/useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from '../dashboard/UpgradeModal.jsx';
+import { TIER_PRICES } from '../../infra/pricing.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 
@@ -352,7 +353,8 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
   // opens a sheet with the seat's teaser line and the unlock to the Domains
   // tier; unlocked, "Read it" lands in THE DOMAINS at that word.
   const [domSheet, setDomSheet] = useState(null);
-  const openDomainSheet = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0] || null; setDomSheet({ word, god, seat, elName: elScreen?.elName, el: elScreen?.el, teaser: seat ? (seat.teaser || seat.defline || firstSent(seat.reading || '')) : `${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.` }); };
+  useEffect(() => { setDomSheet(null); }, [screen, elOpen, elSec]);   // the sheet never outlives its page
+  const openDomainSheet = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0] || null; const face = elFaces.find((f) => f.god === god) || elFaces[0] || null; setDomSheet({ word, god, seat, face, elName: elScreen?.elName, el: elScreen?.el, teaser: seat ? (seat.teaser || seat.defline || firstSent(seat.reading || '')) : (face?.defline ? `${face.defline} ${elScreen?.elName} holds no seat in your pillars; it reaches you through the hidden stems, felt more than placed.` : `${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`) }); };
   const openDomainAt = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0]; setElSec('dom'); setPosOpen(seat?.id ?? null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); setDomScroll(seat ? word : null); };
   useEffect(() => { if (!domScroll) return; const t = setTimeout(() => { const el = document.querySelector(`.elpos-domread[data-dom="${domScroll}"]`) || document.querySelector('.elpos-row.open'); el?.scrollIntoView({ block: 'center', behavior: 'smooth' }); setDomScroll(null); }, 80); return () => clearTimeout(t); }, [domScroll, elSec, posOpen]);
   // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
@@ -855,15 +857,20 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                             {edge.items ? (
                               <>
                                 {edge.lead && <span className="body2 el-fnbody el-remedybody">{edge.lead}</span>}
-                                <ul className="el-edge-manual" aria-label="Where it pays">
-                                  {/* THE MANUAL (owner 2026-10-15, late): each row is one of the god's
-                                      ruling domains in the seats' own words with a full advice-grade
-                                      line; the domain mark is the door, a button that opens the domain
-                                      sheet (the seat's teaser, the unlock to the Domains tier). */}
+                                {/* THE DOORS (owner 2026-10-16): the three ruling domains as the
+                                    section's hero, each a ceremonial button into the Domains tier;
+                                    under each a bridge phrase, not advice; one transition line. */}
+                                <div className="el-edge-doors" role="group" aria-label="Your domains">
                                   {edge.items.map((it) => (
-                                    <li key={it.domain} className="door"><button type="button" className="el-edge-doorbtn" aria-haspopup="dialog" aria-label={`${it.domain}: open in The Domains`} onClick={() => openDomainSheet(it.domain, edge.god)}><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></button><span className="el-edge-dom">{it.domain}</span><span className="el-edge-manline">{it.line}</span></li>
+                                    <button key={it.domain} type="button" className="el-edge-door" aria-haspopup="dialog" onClick={() => openDomainSheet(it.domain, edge.god)}>
+                                      <span className="el-edge-doorring" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span>
+                                      <span className="el-edge-doorname">{it.domain}</span>
+                                      {it.bridge ? <span className="el-edge-doorbridge">{it.bridge}</span> : null}
+                                      {tier === 'free' ? <span className="el-edge-doorlock" aria-label="Opens with Seeker"><Use id="ico-lock" /></span> : <span className="el-edge-doorlock open" aria-hidden="true"><Use id="ico-chev-r" /></span>}
+                                    </button>
                                   ))}
-                                </ul>
+                                </div>
+                                <p className="el-edge-trans">{tier === 'free' ? 'Each one is read seat by seat in The Domains, with Seeker.' : 'Each one is read seat by seat in The Domains.'}</p>
                               </>
                             ) : (
                               <>
@@ -1115,18 +1122,22 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
         <div className="wordpop open" role="presentation">
           <div className="wp-scrim" onClick={() => setDomSheet(null)} />
           <div className={`wp-sheet t-cat el-domsheet pv-${domSheet.el || ''}`} role="dialog" aria-modal="true" aria-label={`${domSheet.word}, in The Domains`}>
-            <div className="wp-band">
+            <div className="wp-band el-domband">
               <span className="wp-wm el-fnwm"><Use id={DOM[domSheet.word] || 'dom-career'} /></span>
               <button className="wp-x" aria-label="Close" onClick={() => setDomSheet(null)}><Use id="ico-close" /></button>
-              <span className="wp-ey">{domSheet.seat ? domSheet.seat.term : `${domSheet.elName} in your pillars`}</span>
+              <span className="wp-ey">The Domains · {domSheet.elName}</span>
               <div className="wp-chipwrap"><span className="role-pill cat">{domSheet.word}</span></div>
             </div>
             <div className="wp-inner">
+              <p className="el-domsheet-title">{domSheet.seat ? `${domSheet.word}, read from ${domSheet.seat.term.replace(/^The /, 'the ')}.` : domSheet.face ? `${domSheet.word}, read from ${domSheet.face.persona} in your hidden stems.` : `${domSheet.word}, read from your pillars.`}</p>
               <p className="wp-body">{domSheet.teaser}</p>
               {tier === 'free' ? (
                 <>
-                  <p className="body2 el-domlock" style={{ margin: '10px 0 0' }}>The full reading of {domSheet.word} in this seat opens with Seeker: the reading, the people, the shadow, and the body.</p>
-                  <button type="button" className="el-domsheet-cta" onClick={() => { setDomSheet(null); openUpgrade('The Domains'); }}>Unlock The Domains <Use id="ico-arrow-r" /></button>
+                  {domSheet.seat?.domainReadings?.[domSheet.word] && (
+                    <div className="el-domsheet-locked" aria-hidden="true"><p>{firstSent(domSheet.seat.domainReadings[domSheet.word])} {domSheet.seat.domainReadings[domSheet.word].slice(firstSent(domSheet.seat.domainReadings[domSheet.word]).length, firstSent(domSheet.seat.domainReadings[domSheet.word]).length + 140)}</p><span className="el-domsheet-lockpill"><Use id="ico-lock" /> Seeker</span></div>
+                  )}
+                  <button type="button" className="el-domsheet-cta" onClick={() => { setDomSheet(null); openUpgrade('The Domains'); }}>Unlock The Domains <span className="el-domsheet-price">{TIER_PRICES.seeker}</span></button>
+                  <p className="el-domsheet-sub">All eight domains across every seat of your chart: the reading, the people, the shadow, and the body.</p>
                 </>
               ) : (
                 <button type="button" className="el-domsheet-cta" onClick={() => { const w = domSheet.word, g = domSheet.god; setDomSheet(null); openDomainAt(w, g); }}>Read it in The Domains <Use id="ico-arrow-r" /></button>

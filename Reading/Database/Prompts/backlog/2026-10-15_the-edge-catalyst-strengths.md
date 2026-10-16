@@ -61,3 +61,17 @@ The owner's read of the ten v4 cells: "the door teaser here does not reads very 
 
 The shape, v5: `{claim, lead, items: [3 × {domain, line}], metric}` as v4, the line eight to fourteen words. The gate's line range and the writer's package follow; the ten cells re-cut as `fable-edge-v3`.
 
+## 2026-10-16: the ceremonial entry (the owner's logic, confirmed; the design built as a mock)
+
+The owner: "The edge and remedy is the most related and connected entry into the world of ten god life domains which belongs to the second pricing tier. So here we need ceremonial user flows with strong teasers from UI introduction instead of a regular UI panel." Confirmed with one caveat (the friction page's remedy stays a reading; the ceremony lives on the edge, with a lighter strip under the remedy a separate ruling).
+
+The design, as built on the Wood, Water and Fire pages of the golden chart (preview, not in the station):
+
+| Element | Call |
+|---|---|
+| The doors | The three ruling domains as three large tiles across the box, each a button: the domain's glyph in a ring, the domain's name, a lock mark on the free tier. The section's hero. |
+| The inline | The advice lines retired from the box. Under each door a **bridge phrase** of three to six words that leads into the domain reading and is not advice ("what the slow hand builds", "who it keeps close", "where staying put pays"); one transition line under the three: "Each one is read seat by seat in The Domains, with Seeker." The lead sentence stays above. |
+| The sheet | A tap opens the ceremonial sheet: the domain's glyph as the watermark, "THE DOMAINS · Wood", the domain chip, a title ("Wealth, read from the Steward at the Hour Gate."), the seat's teaser line, the seat's domain reading blurred behind a SEEKER pill, the unlock with the price ("Unlock The Domains $9.99/mo") into the existing upgrade modal, and the tier's one-line promise. Unlocked: "Read it in The Domains" lands on the seat at the word. Where the energy holds no seat, the lead god's definition line stands in for the teaser and the blurred block is omitted. |
+
+Pending the owner's confirmation of the design: the card's items become `{domain, bridge}` (the bridge three to six words, a lead-in to the domain reading, never advice), the gate follows, and the writer cuts the ten bridges; the v3 advice lines are kept in the outputs for the record.
+
