@@ -70,3 +70,5 @@ Re-ruled the same hour: "Too long, it reads repetitive against the first paragra
 | the core, short | Refill it. | grow |
 | balanced | Keep the mix. | keep (the dot at the middle) |
 
+Re-ruled 2026-10-16: "instead of saying Use it, Grow it sounds better. Or, both catalyst and friction can remove the verbs, the release and grow dial explains itself." Built: two verbs only, the dial's own words, so the verdict, the dial and the last section's kicker say one thing: a catalyst reads "Grow it." (held in full or running short alike) and THE EDGE's kicker reads ↑ GROW; a friction reads "Release it." (in plenty or thin, and the core running over) and THE REMEDY's kicker reads ↓ RELEASE [energy] THROUGH; a short core reads "Grow it."; a balanced chart "Keep the mix.". The no-verb row (the pill and the dial alone) is shot beside it for the owner's pick.
+

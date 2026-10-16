@@ -685,17 +685,17 @@ export function edgeOf(r) {
 // direction mark (grow / release / keep) the bars' visual language draws.
 // Returns { pole, verdict, dir }.
 export function characterLine(r, condition) {
+  // Two verbs only (owner 2026-10-16): grow and release, the dial's own words,
+  // so the verdict, the dial and the last section's kicker say the same thing.
   if (r.isCore) {
-    return condition === 'Overfueled' ? { pole: 'cond', verdict: 'Channel it.', dir: 'release', verb: 'channel' }
-      : condition === 'Underfueled' ? { pole: 'cond', verdict: 'Refill it.', dir: 'grow', verb: 'refill' }
+    return condition === 'Overfueled' ? { pole: 'cond', verdict: 'Release it.', dir: 'release', verb: 'release' }
+      : condition === 'Underfueled' ? { pole: 'cond', verdict: 'Grow it.', dir: 'grow', verb: 'grow' }
         : { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep', verb: 'keep' };
   }
   if (condition === 'Balanced') return { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep', verb: 'keep' };
-  const v = r.volume || volumeOf(r.presence);
   const friction = r.role === 'friction' || r.coreExcess;
-  const low = v === 'absent' || v === 'thin';
-  if (friction) return low ? { pole: 'friction', verdict: 'Ease off it.', dir: 'release', verb: 'ease off' } : { pole: 'friction', verdict: 'Release it.', dir: 'release', verb: 'release' };
-  return low ? { pole: 'catalyst', verdict: 'Seek it.', dir: 'grow', verb: 'seek' } : { pole: 'catalyst', verdict: 'Use it.', dir: 'grow', verb: 'use' };
+  if (friction) return { pole: 'friction', verdict: 'Release it.', dir: 'release', verb: 'release' };
+  return { pole: 'catalyst', verdict: 'Grow it.', dir: 'grow', verb: 'grow' };
 }
 
 const PRESENT = new Set(['present', 'abundant', 'dominant']);
