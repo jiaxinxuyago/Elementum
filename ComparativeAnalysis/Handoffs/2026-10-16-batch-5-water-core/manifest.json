@@ -1,0 +1,152 @@
+{
+ "name": "batch-5-water-core",
+ "note": "REA_18 §5 batch 5, the Water core: the five ELEMENT_PAIR cells a Water core reads with both poles, both turns, both definitions, both advices, the verdict, the base and the carry parts for every state the cell renders (the station's carry keys), and the ten ELEMENT_GOD cells whose god sits on a Water core, both poles, all three rows, all three angles, candidates: 2 on each drive passage. Built by handoff.mjs --scope on prompt v0.7.5 (2026-10-16), after batch 3, on the owner's word (\"Make sure all the function description, metrics, 3 keywords, and the edge/remedy sections are all mapped into the database for ALL FIVE elements among all the stems\"); the dispatch prompt names the gate laws the earlier writers' checkers missed and the three findings the batch 3 audits made systemic (the catalyst close as an invitation with the price inside it, no close frame on more than a third of a page's rows, no exemplar scaffold). No chart: no percentage, no band, no state of one chart in any value.",
+ "core": "Water",
+ "cells": [
+  {
+   "axis": "ELEMENT_PAIR",
+   "cell": "水_木",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "states": "all"
+  },
+  {
+   "axis": "ELEMENT_PAIR",
+   "cell": "水_火",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "states": "all"
+  },
+  {
+   "axis": "ELEMENT_PAIR",
+   "cell": "水_土",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "states": "all"
+  },
+  {
+   "axis": "ELEMENT_PAIR",
+   "cell": "水_金",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "states": "all"
+  },
+  {
+   "axis": "ELEMENT_PAIR",
+   "cell": "水_水",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "states": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "水_比肩",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "水_劫财",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "木_食神",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "木_伤官",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "火_偏财",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "火_正财",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "土_七杀",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "土_正官",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "金_偏印",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  },
+  {
+   "axis": "ELEMENT_GOD",
+   "cell": "金_正印",
+   "poles": [
+    "catalyst",
+    "friction"
+   ],
+   "rows": "all",
+   "angles": "all"
+  }
+ ]
+}
