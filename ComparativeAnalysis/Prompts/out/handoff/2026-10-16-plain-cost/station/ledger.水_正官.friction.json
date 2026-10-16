@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Plays it safe",
-    "text": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. Remember that playing it safe has a price, and you pay it in chances never taken."
+    "text": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. You pay for playing it safe in chances you never took."
    },
    "value_b": {
     "word": "Plays it safe",
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Plays it safe",
-    "text": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail, and the real answer stays yours. You put their plans on hold for as long as you hesitate."
+    "text": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail. You put their plans on hold for as long as you hesitate."
    }
   },
   "ledger[3]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Waits for permission",
-    "text": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and you set that clock."
+    "text": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Each day you hold out for permission, you spend one of theirs as well."
    }
   },
   "ledger[6]": {

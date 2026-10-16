@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Races in secret",
-    "text": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Bear in mind that every race you never named is one you run alone."
+    "text": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. With the race never named, you run it alone and finish it alone."
    },
    "value_b": {
     "word": "Races in secret",
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Races in secret",
-    "text": "In secret, you make a friend a rival without telling them. You hide the race rather than risk them knowing, and they lose ground with no chance to answer. You sign them up for a race they never chose to run."
+    "text": "In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you openly."
    }
   },
   "ledger[3]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Spends shared money",
-    "text": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You keep them beside you with one question asked before you spend."
+    "text": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You want everyone looked after, and some of that comes out of their share."
    }
   },
   "ledger[6]": {
