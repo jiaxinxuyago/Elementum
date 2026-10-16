@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Always moving on",
-    "text": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You already know moving on leaves more money behind than new ventures bring in."
+    "text": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You leave more money behind by moving on than new ventures bring in."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Always moving on",
-    "text": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. You make your partners start over each time, and only you chose to go."
+    "text": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. Each time you move on, you leave your partners starting over."
    }
   },
   "ledger[3]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Spread thin",
-    "text": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You signed each of them up for all of you, and spread thin you show up in slices."
+    "text": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You give every partner less of you than the shared venture needs."
    }
   },
   "ledger[6]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Spends it all",
-    "text": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. It helps to remember that spending it all leaves you empty-handed for the next chance."
+    "text": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. Remember that you are allowed to let money sit until the right chance comes."
    },
    "value_b": {
     "word": "Spends it all",
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Spends it all",
-    "text": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. The thing to remember is that you spend what your family counts on for later."
+    "text": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. You spend the money your family was counting on for later."
    }
   }
  }
