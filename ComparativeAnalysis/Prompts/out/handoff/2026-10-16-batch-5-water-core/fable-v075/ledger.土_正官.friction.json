@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Follows every rule",
-    "text": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, so you follow rules written for someone else. Bear in mind that you can keep order without keeping every rule."
+    "text": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make."
    },
    "value_b": {
     "word": "Follows every rule",
-    "text": "Following the rule is where you feel surest. You would rather stand inside a rule than in the open on your own call, so you follow it past its point. Remember that a rule meant to hold you up can hold you in."
+    "text": "Following the rule is where you feel surest. You would rather stand within a rule than in the open on your own call, and you follow it past its use. Remind yourself that you pay for every rule kept too long in choices never made."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Follows every rule",
-    "text": "Whenever a rule and a chance pull apart, you keep to the rule. Being in order matters more than being lucky, so you pass on chances that need a rule stretched. It is worth remembering that you hand those openings to rules nobody checks."
+    "text": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Follows every rule",
-    "text": "You follow rules even with the people who need an exception. Being fair by the book feels more solid than being kind off it, so you hand them policy instead of a decision. Do not forget that you were asked for your judgment first."
+    "text": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Waits for permission",
-    "text": "You wait for permission to take what is already yours. Being approved counts for more with you than being first, so you sit on a plan until someone signs it. You are allowed to give yourself that permission, and that is worth remembering."
+    "text": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You give the plan's best months to waiting, and that is worth noticing."
    },
    "value_b": {
     "word": "Waits for permission",
-    "text": "Waiting for permission is your first move, whatever the move is. A yes from above is worth more than your own certainty, so you hold a question until it is answered. It helps to remember that you often wait on people waiting for you."
+    "text": "Waiting for permission is your first move, whatever the move is. You would sooner have a yes from above than your own, and you hold a question until someone else answers it. You often wait on people who are themselves waiting for you."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Waits for permission",
-    "text": "Where a raise is there for the asking, you wait for permission. Being handed a thing feels more earned than claiming it, so you wait on an offer waiting on you. Remember that you never got the raise you never asked for."
+    "text": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Waits for permission",
-    "text": "You wait for permission for everyone who waits on you. Being cleared from above feels more proper than moving on your own say, so you keep the people behind you waiting too. Keep in mind that your wait lands on them without their asking."
+    "text": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Slow to change",
-    "text": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, so a new way must earn years before it gets a week. Staying the same is a choice too, and its price is worth remembering."
+    "text": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given."
    },
    "value_b": {
     "word": "Slow to change",
-    "text": "You change late and on your own terms. You would rather keep a way that works than try one that works better, since trying is where things get lost. Remember that you protect what you have at the cost of what you could have."
+    "text": "You change late and on your own terms. You would rather keep a way that works than try one that works better, since trying is where things get lost. You protect what you have and never find out what the change would have brought."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Slow to change",
-    "text": "Whenever something needs changing, you change it last. Keeping what you know feels more like safety than finding out, so you stay in a job long past liking it. It is worth keeping in mind that a year spent deciding is a year spent staying."
+    "text": "Whenever something needs changing, you change it last. You would sooner keep what you know than find out what else there is, and you stay in a job you stopped liking for years. Remember how you spend each deciding year staying put."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Slow to change",
-    "text": "Even for those who need you to, you change slowly. Keeping things the same feels more fair than changing for one person, so you keep that person waiting. What you should remember is that you make them live the old way while you decide."
+    "text": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting. Keep sight of how you make them live the old way while you decide."
    }
   }
  }

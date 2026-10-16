@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Calm under pressure",
-    "text": "You stay calm under pressure, and it shows. Under pressure you have something solid to hold, so you save your calm for the hard moment rather than the ordinary day. Let the quiet days have some of it, since that calm is yours either way."
+    "text": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment ahead of the ordinary day. When a quiet day comes, give it some calm too, because that calm is yours anyway."
    },
    "value_b": {
     "word": "Calm under pressure",
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Calm under pressure",
-    "text": "Whenever pressure comes on, you turn calm and useful. Holding steady for everyone feels better than being held yourself, and that keeps you in a crisis after it needs you. Let one hard week run without you, then take back the rest you give away."
+    "text": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis ahead of an ordinary week, and the ordinary weeks get skipped. If you keep one stretch clear of crisis, you find that the calm comes with you, the rest with it."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Calm under pressure",
-    "text": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, so you take it off their hands before their calm gets a chance. Let someone else stay calm beside you for once."
+    "text": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, and you take it off their hands before their calm gets a chance. Let someone else stay calm beside you for once."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Takes charge",
-    "text": "Taking charge is a reflex for you. You would rather own a wrong call than leave one with no owner, and you take charge before anyone asks. Keep taking charge, and let a few calls be someone else's to carry."
+    "text": "Taking charge is a reflex for you. You would rather own a wrong call than leave one with no owner, and you take charge before anyone asks. If you hand a few calls to someone else, taking charge goes back to being a choice."
    },
    "value_b": {
     "word": "Takes charge",
-    "text": "Charge is something you take rather than wait to be given. An open decision weighs on you more than a mistake does, so you take charge the moment a plan goes quiet. Take charge as often as you like, and hand some back later."
+    "text": "Charge is something you take instead of something you wait for. An open decision weighs on you more than a mistake does, and you take charge the moment a plan goes quiet. Take charge as often as you like, and hand some back later."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Takes charge",
-    "text": "Whenever a plan stalls, you take charge before checking whether you wanted it. Deciding feels more like safety than like a load to you, so you take on calls that were never yours. Turn one down, and you get back the evenings those calls took."
+    "text": "Whenever a plan stalls, you take charge, wanted or not. Deciding feels like safety to you, more than waiting ever does, and calls that were never yours end up with you. When you turn one down, you keep the evening it would have eaten."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Takes charge",
-    "text": "For you, looking after a group means taking charge of it. You would rather hand people an answer than wait while they find one, and the finding is what you take from them. Leave one call open long enough for someone else to make."
+    "text": "For you, looking after a group means taking charge of it. Handing people an answer comes easier to you than waiting while they find one, and the finding is what you take from them. Leave one call open long enough for someone else to make."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Pushes through",
-    "text": "Pushing through is how you get to the end of anything hard. You need something to push against, so you finish under strain more easily than at ease. Push on, and notice which jobs you only finish when something pushes back."
+    "text": "Pushing through is how you get to the end of anything hard. You need something to push against, and you finish under strain more easily than at ease. Push on, and notice which jobs you only finish when something pushes back."
    },
    "value_b": {
     "word": "Pushes through",
-    "text": "You push through where stopping would cost nothing. You stay with strain more easily than with comfort, since comfort gives you nothing to push against. Keep pushing, and let one easy stretch count as progress rather than a pause."
+    "text": "You push through where stopping would be allowed. You stay with strain more easily than with comfort, since comfort gives you little to push against. If one easy stretch counts as progress rather than a pause, you lose nothing by pushing less."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Pushes through",
-    "text": "Under strain, you push through without a second thought. Pushing to the far side feels more honest to you than asking for less, and you never try the lighter road. Make one job easy on purpose, and keep the strength that pushing costs."
+    "text": "Under strain, you push through without a second thought. You would sooner push to the far side than ask for less, and you never try the lighter road. Make one job easy on purpose, and keep the strength that pushing costs."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Pushes through",
-    "text": "Whenever you push through, you bring the people with you along at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take yourself. Match the slowest once, and see what gets done anyway."
+    "text": "Whenever you push through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. When you match the slowest once, you see what gets done anyway."
    }
   }
  }
