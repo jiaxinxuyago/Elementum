@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Chases the new",
-    "text": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. Do not forget that every chase costs them the ending you promised."
+    "text": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. From your partners, you take the ending they were working toward."
    }
   },
   "ledger[3]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Spends it fast",
-    "text": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back."
+    "text": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take away their say in shared money with each fast spend."
    }
   },
   "ledger[6]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Looks past home",
-    "text": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
+    "text": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. Keep in mind that you are allowed to be home while you are home."
    }
   }
  }
