@@ -651,7 +651,7 @@ export function edgeOf(r) {
   const god = r.god || r.faces?.[0]?.god; if (!god) return null;
   const cell = `${r.hz}_${god}`;
   const preview = (typeof window !== 'undefined' && window.__edgePreview) ? window.__edgePreview[cell] : null;
-  const e = K2_CELLS[cell]?.edge || preview || null;
+  const e = preview || K2_CELLS[cell]?.edge || null;   // a preview, where one is injected, wins over the station for the owner's read
   if (!e) return null;
   // v2 (owner 2026-10-15, the same size and format as THE REMEDY): a claim
   // line, one body of about fifty-five words, one bar, two domain marks.
