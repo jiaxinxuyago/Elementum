@@ -1,6 +1,6 @@
 {
  "_generated_by": "REDACTED",
- "_handoff": "2026-10-15 the edge, metal core, v5 the manual",
+ "_handoff": "2026-10-16 the edge, metal core, v6 the ceremonial entry",
  "cell": "ELEMENT_GOD/土_正印 (catalyst)",
  "facts": {
   "persona": "The Sage (正印) on Earth",
@@ -68,22 +68,14 @@
  "fields": {
   "edge": {
    "spec": {
-    "card": "ELEMENT_GOD.edge (v5, the manual)",
+    "card": "ELEMENT_GOD.edge (v6, the ceremonial entry)",
     "shape": {
      "claim": "exactly facts.claim_fixed",
      "lead": "one sentence, 10-20 words, the reader its subject, what the gift buys in use",
-     "items": [
-      {
-       "domain": "facts.ruling_domains[i], in order",
-       "line": "8-14 words, advice-grade, lowercase, no terminal stop, at most one colon"
-      }
-     ],
+     "domains": "facts.ruling_domains, filled by the harness",
      "metric": "one of the bars keys"
     },
-    "counts": {
-     "items": 3
-    },
-    "notes": "see ELEMENT_GOD.edge.md; the sibling test against sibling_god_chips; no four-word run shared with any fact; no phrase repeated across the ten cells"
+    "notes": "v6 carries no written text per domain; the ten v3 leads stand as the set for the owner's pass"
    },
    "value": null
   }

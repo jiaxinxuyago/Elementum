@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v3 (v6 reduction, no new text)",
+ "_handoff": "2026-10-15 the edge, metal core, v5 the manual",
+ "cell": "ELEMENT_GOD/土_偏印 (catalyst)",
+ "facts": {
+  "persona": "The Alchemist (偏印) on Earth",
+  "function": "mind",
+  "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
+  "catalyst_chips": [
+   "Self-taught",
+   "Reads between lines",
+   "Solo thinker"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Self-taught",
+    "angles": {
+     "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. Let someone teach you from time to time, since a lesson only you know is lonely.",
+     "cost_self": "Whenever you want to know something, you teach it to yourself instead of asking. Teaching yourself an answer costs you a month where being taught it costs an hour. Ask for the hour sometimes, because you pay for each self-taught month in rest.",
+     "cost_others": "Rarely do you pass on the lesson you taught yourself. You taught it by a route too odd to explain, so you keep the knowing rather than tell it. Hand someone the messy version, because you leave anyone learning from you without the self-taught part."
+    }
+   },
+   {
+    "word": "Reads between lines",
+    "angles": {
+     "drive": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Wait for the reason to catch up, since you cannot pass a hunch on without proof.",
+     "cost_self": "Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so the doubt stays yours. Write the read down, since you pay for every unchecked read in doubt about your own mind.",
+     "cost_others": "Whatever gets left between the lines, you read first and skip asking. Since your read lands before your question, you answer what sits under the words instead of the words. Ask the plain question, because you take from people the chance to say it themselves."
+    }
+   },
+   {
+    "word": "Solo thinker",
+    "angles": {
+     "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Take one invitation you usually turn down, since you give up company for thinking alone.",
+     "cost_self": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. Guard the sleep too, since you take those hours from a night your body needed.",
+     "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. Name the length first, since you give those waiting no time to expect you."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Calming presence",
+   "Knows what works",
+   "Patient teacher"
+  ],
+  "pair_definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, and you work it out alone rather than lean on anyone. You judge best once you give a question its night.",
+  "pair_advise_catalyst": "Your judgment is only as good as the time you let it take in. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with nobody in it. Sleep on anything that costs money.",
+  "bars": [
+   {
+    "key": "intuition",
+    "label": "Intuition"
+   },
+   {
+    "key": "stability",
+    "label": "Stability"
+   },
+   {
+    "key": "instinct_research",
+    "label": "Instinct · Research"
+   }
+  ],
+  "ruling_domains": [
+   "Mind",
+   "Growth",
+   "Career"
+  ],
+  "claim_fixed": "How to use Earth, the Mind energy."
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v6, the ceremonial entry)"
+   },
+   "value": {
+    "claim": "How to use Earth, the Mind energy.",
+    "lead": "It makes you quick to pick up the odd subject alone and see what the others missed.",
+    "domains": [
+     "Mind",
+     "Growth",
+     "Career"
+    ],
+    "metric": "intuition"
+   }
+  }
+ }
+}

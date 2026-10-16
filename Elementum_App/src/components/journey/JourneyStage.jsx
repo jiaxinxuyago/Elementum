@@ -865,7 +865,6 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                                     <button key={it.domain} type="button" className="el-edge-door" aria-haspopup="dialog" onClick={() => openDomainSheet(it.domain, edge.god)}>
                                       <span className="el-edge-doorring" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span>
                                       <span className="el-edge-doorname">{it.domain}</span>
-                                      {it.bridge ? <span className="el-edge-doorbridge">{it.bridge}</span> : null}
                                       {tier === 'free' ? <span className="el-edge-doorlock" aria-label="Opens with Seeker"><Use id="ico-lock" /></span> : <span className="el-edge-doorlock open" aria-hidden="true"><Use id="ico-chev-r" /></span>}
                                     </button>
                                   ))}
