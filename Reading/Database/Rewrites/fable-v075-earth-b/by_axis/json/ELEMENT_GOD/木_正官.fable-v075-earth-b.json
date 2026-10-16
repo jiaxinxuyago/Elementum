@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_正官",
+  "axis": "ELEMENT_GOD",
+  "key": "木_正官",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Keeps your word",
+        "Earns every step",
+        "Holds the line"
+      ],
+      "friction": [
+        "By the book",
+        "Never bends",
+        "Rank comes first"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keeps your word",
+            "angles": {
+              "drive": "Your word is the one thing about you that never moves. Because a kept promise proves you are who you say, you keep your word rather than keep your options open. Say no sooner, and every yes you give keeps its worth."
+            }
+          },
+          {
+            "word": "Earns every step",
+            "angles": {
+              "drive": "A step up counts only once you have earned it. Because an unearned title feels like a coat too big for you, you would rather earn it slowly than be handed it fast. Let one step come to you unearned and keep it anyway."
+            }
+          },
+          {
+            "word": "Holds the line",
+            "angles": {
+              "drive": "Holding the line is where you feel most yourself. Because a rule that bends once stops being a rule to you, you would sooner hold it against a friend than drop it for one. Hold it, and say why before the line comes between you."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "By the book",
+            "angles": {
+              "drive": "Going by the book is the only fairness you trust. Because the written rule asks nothing of your nerve, you apply it to the letter instead of to the case. It is worth remembering that you serve the case, and the book only helps."
+            }
+          },
+          {
+            "word": "Never bends",
+            "angles": {
+              "drive": "Bending feels to you like losing, so you never do it. Wood puts more pressure on you than your core wants, and holding stiff is how you carry it. Keep in mind that you would sooner break than bend, and only bending heals."
+            }
+          },
+          {
+            "word": "Rank comes first",
+            "angles": {
+              "drive": "You put rank first, ahead of the person holding it. Wood sets a frame on you that your core does not fill, so you cling to the order of things. Notice that you see the rank and forget to look at the face."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Straight-growing",
+            "angles": {
+              "drive": "You grow toward the light in a straight line: education, career, family, each stage built plumb on the last. Shortcuts bend other people’s trunks. Yours rises clean, and decades later the straightness is visible from a distance, holding up more than itself."
+            }
+          },
+          {
+            "word": "Honorable",
+            "angles": {
+              "drive": "Your word is structural. What you promise happens, what you sign binds you, and what you would not want printed does not get done. In a market of loopholes you deal in load-bearing sentences, and people build on them without inspection."
+            }
+          },
+          {
+            "word": "Leads by example",
+            "angles": {
+              "drive": "Being the example is a role your conduct keeps applying for. You do the boring right thing repeatedly, visibly, without being asked, and standards form around you the way paths form where someone walks daily. Rules look livable in your vicinity, which is why they hold."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stiff",
+            "angles": {
+              "drive": "Bending is not in your repertoire. The joke lands on you and stops, the change of plans arrives and finds you already braced, the hug gets received like an audit. Your uprightness holds structures up and keeps warmth at handshake distance."
+            }
+          },
+          {
+            "word": "Overformal",
+            "angles": {
+              "drive": "Procedure is your native tongue, spoken even at picnics. The email where a text would do, the agenda for the family meeting, the correct channels pursued at incorrect moments. Form was meant to carry respect. Somewhere along the way it started replacing contact."
+            }
+          },
+          {
+            "word": "Change-proof",
+            "angles": {
+              "drive": "New ways bounce off your bark. The updated system, the different route, the revised recipe: each gets a trial with a predetermined result. What worked keeps working, in your telling, and the world’s job is to stop moving while you finish being right."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Straight-growing",
+        "Honorable",
+        "Leads by example"
+      ],
+      "friction": [
+        "Stiff",
+        "Overformal",
+        "Change-proof"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

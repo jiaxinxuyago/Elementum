@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.thin",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Earth kept small, a floor under you and never a wall around you.",
+        "remedy": "Keep it that size. Rest on it, nothing more."
+      },
+      "original": {
+        "clause": "Earth runs thin and still carries weight: little ground, held too hard.",
+        "remedy": "Loosen the grip."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A few roots in the ground, enough to grip and not enough to split it.",
+        "remedy": "Keep it small. One rule you chose, no more."
+      },
+      "original": {
+        "clause": "Wood runs thin and unwanted: a few roots, easily fed.",
+        "remedy": "Feed them. Take no more."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "Water is a trickle in you, and the banks take it without strain.",
+        "remedy": "Keep it small. One open chance at a time."
+      },
+      "original": {
+        "clause": "Water runs thin and unwanted: a small stream, easily watched.",
+        "remedy": "Watch it. Don't meter it."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A small fire warms this ground without drying it, the right size for the soil.",
+        "remedy": "Keep it small, one lamp at a time."
+      },
+      "original": {
+        "clause": "Fire runs thin and unwanted: a small warmth, easily borne.",
+        "remedy": "Bear it lightly."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "carry.thin",
+      "candidate": {
+        "clause": "A thin seam of ore, a small drain on ground that needs its weight.",
+        "remedy": "Keep it small. Say less and settle more."
+      },
+      "original": {
+        "clause": "Metal runs thin and unwanted: a small vein, easily left.",
+        "remedy": "Leave it in the ground."
+      },
+      "gate": "pass"
+    }
+  ]
+}

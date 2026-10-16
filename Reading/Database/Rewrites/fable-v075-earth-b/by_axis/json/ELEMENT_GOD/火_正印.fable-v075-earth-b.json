@@ -1,0 +1,135 @@
+{
+  "$archetype": "火_正印",
+  "axis": "ELEMENT_GOD",
+  "key": "火_正印",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Good listener",
+        "Looks after people",
+        "Slow to judge"
+      ],
+      "friction": [
+        "Protects too much",
+        "Leans on others",
+        "Too comfortable"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Good listener",
+            "angles": {
+              "drive": "You hear people out all the way to the end. Understanding someone warms you more than winning the point, so you let them finish rather than fix it halfway. Let someone listen back once in a while, and you get heard too."
+            }
+          },
+          {
+            "word": "Looks after people",
+            "angles": {
+              "drive": "Looking after someone is how you pay attention. You feel most yourself when a person is better for being near you, so you see to them rather than to your own tiredness. See to the tiredness as well, and you make the warmth last longer."
+            }
+          },
+          {
+            "word": "Slow to judge",
+            "angles": {
+              "drive": "You give people time before you make your mind up about them. Since a person's worst week tells you less than their best one, you wait to see more rather than settle on less. Keep waiting, and say what you decide out loud."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Protects too much",
+            "angles": {
+              "drive": "You protect the people you love from every fall. Seeing them hurt costs you more than the rescue does, so you smooth the way rather than let them walk it rough. Keep hold of the fact that you keep them from their own strength too."
+            }
+          },
+          {
+            "word": "Leans on others",
+            "angles": {
+              "drive": "You reach for help first and your own hands second. You would rather be steadied than stand alone, and lean before you have to. Never forget that the help is real, and the weight you never carried is real too."
+            }
+          },
+          {
+            "word": "Too comfortable",
+            "angles": {
+              "drive": "Comfortable is where you stop. Being warm enough feels like being done, so you settle for what is fine instead of reaching for what is better. Notice that fine is where what you wanted goes to wait."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Warm-hearted",
+            "angles": {
+              "drive": "Your presence is the warm center other lives arrange themselves around. People come in from their cold weeks and hold their hands out to you, mostly without noticing the gesture. The warmth is steady, unconditional, and quietly expensive to maintain. Nobody sees the fuel line. You are the fuel line."
+            }
+          },
+          {
+            "word": "Encouraging",
+            "angles": {
+              "drive": "You warm other people’s small flames on principle. The shaky first attempt, the half-announced dream, the try that failed: each gets your specific heat, aimed at the part that was brave. People attempt things in your presence they would not risk elsewhere. That is the whole climate you run."
+            }
+          },
+          {
+            "word": "Healing",
+            "angles": {
+              "drive": "Time near you repairs people. The burned-out friend, the post-hospital parent, the teenager mid-storm: they sit in your warmth doing apparently nothing, and leave with something reattached. You never announce a treatment. You just keep the light on and the questions gentle, and mending happens."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Babying",
+            "angles": {
+              "drive": "Your warmth removes obstacles that were doing important work. The struggle gets pre-solved, the consequence intercepted, the difficulty warmed away before it could teach anything. The people you love stay comfortable and stay soft, and the softness eventually presents its own bill, addressed to them."
+            }
+          },
+          {
+            "word": "Dependent",
+            "angles": {
+              "drive": "Being needed became your fuel, and the tank runs low without it. The empty nest, the recovered friend, the crisis that resolves: each healthy ending registers somewhere in you as a small layoff. You keep people slightly cold, unconsciously, to stay employed as their warmth."
+            }
+          },
+          {
+            "word": "Drowsy",
+            "angles": {
+              "drive": "Comfort has lowered your flame to standby. The naps lengthen, the plans soften, the day organizes itself around warmth and ease, and ambition visits like a former colleague, fondly and briefly. Nothing hurts. Nothing much happens either, and the two facts are holding hands."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Warm-hearted",
+        "Encouraging",
+        "Healing"
+      ],
+      "friction": [
+        "Babying",
+        "Dependent",
+        "Drowsy"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

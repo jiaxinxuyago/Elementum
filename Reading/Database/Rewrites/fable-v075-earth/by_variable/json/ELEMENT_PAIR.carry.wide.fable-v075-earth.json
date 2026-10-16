@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.wide",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_木",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Wood is easy for you to reach, the roots that keep your ground from sliding.",
+        "remedy": "Use it. Say yes to the demand you have been avoiding."
+      },
+      "original": {
+        "clause": "Wood is one thing you never run short of, the living thing your ground exists to hold.",
+        "remedy": "Say yes to the biggest responsibility on offer."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Water is easy for you to reach, the river already running where you stand.",
+        "remedy": "Use the current. Start the thing you keep describing."
+      },
+      "original": {
+        "clause": "Water is easy for you to reach, the river your banks were built for.",
+        "remedy": "Put the flow you already have to work."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "You were given plenty of Fire, the warmth every harvest starts from.",
+        "remedy": "Use it. Start what you keep studying."
+      },
+      "original": {
+        "clause": "Fire is all around you, the warmth that lets the ground grow anything.",
+        "remedy": "Spend the warmth. Host, teach, feed people."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "carry.wide",
+      "candidate": {
+        "clause": "Metal is easy for you to reach, and the finished thing comes off you without strain.",
+        "remedy": "Use it. Make something and give it away."
+      },
+      "original": {
+        "clause": "You have plenty of Metal, the ore your mountain was keeping.",
+        "remedy": "Ship the piece that is already finished."
+      },
+      "gate": "pass"
+    }
+  ]
+}

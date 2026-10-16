@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.excess",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Ground heaped on ground past any use, a mass only Metal can shape into something useful.",
+        "remedy": "Spend it through Metal. Finish one exact thing today."
+      },
+      "original": {
+        "clause": "Strong earth wants metal: so much steadiness nothing new can root.",
+        "remedy": "Till it. Mint something."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Wood has outgrown the ground that feeds it, and the whole hillside slides.",
+        "remedy": "Rest first. Drop every demand you did not choose."
+      },
+      "original": {
+        "clause": "Weak earth caves under strong wood: obligations past what the ground can hold, soil torn by roots.",
+        "remedy": "Let a slope go wild. Add fire."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Too much Water for the ground to bank, and what should water the field washes it away.",
+        "remedy": "Bank it. Finish one thing before you start another."
+      },
+      "original": {
+        "clause": "Too much water washes earth away: more flow than the banks can hold, ground lost managing it.",
+        "remedy": "Let it flow. Hold less of it."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "Fire enough to bake the ground it was meant to feed, the soil dried past growing.",
+        "remedy": "Cool the ground. Decide one thing and act on it."
+      },
+      "original": {
+        "clause": "Too much fire bakes the earth: ground hardened by heat, stubborn on the surface and dry underneath.",
+        "remedy": "Walk off the hearth. Add water."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "carry.excess",
+      "candidate": {
+        "clause": "More ore than the ground can grow, and the soil that made it turns into something else.",
+        "remedy": "Dig less. Let the ground lie still and take in."
+      },
+      "original": {
+        "clause": "Too much metal changes the earth: the ground turned over for output until it is no longer ground.",
+        "remedy": "Stop mining. Let it settle."
+      },
+      "gate": "pass"
+    }
+  ]
+}

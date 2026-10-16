@@ -1,0 +1,3 @@
+# Rewrites by fable-v075-earth
+
+Filed 2026-10-16 from 2026-10-16 batch-4-earth-core blind by `ComparativeAnalysis/Prompts/file-rewrites.mjs`. `by_axis/json/<AXIS>/<cell>.fable-v075-earth.json` mirrors the final template station's shape (sparse: only the fields this model wrote; `candidates` = the rewrite, `$original` = the shipping text, `$gate_findings` per field). `by_variable/json/<var>.fable-v075-earth.json` is the pivot per variable. `by_axis/md/` is the readable twin. Nothing here is truth: adopt a field with `node adopt.mjs fable-v075-earth <AXIS>/<cell> <field path>` on the owner's ruling.

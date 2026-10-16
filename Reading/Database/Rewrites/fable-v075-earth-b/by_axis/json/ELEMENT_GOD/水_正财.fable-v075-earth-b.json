@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_正财",
+  "axis": "ELEMENT_GOD",
+  "key": "水_正财",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Saves first",
+        "Sleeps on it",
+        "Shows up daily"
+      ],
+      "friction": [
+        "Holds it back",
+        "Counts every cost",
+        "Waits too long"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Saves first",
+            "angles": {
+              "drive": "Saving comes before wanting in you. A full account feels more like safety than a full life does, and you put the account first. Let one want through each season, since saving is only worth it when some of it gets spent."
+            }
+          },
+          {
+            "word": "Sleeps on it",
+            "angles": {
+              "drive": "A night's sleep goes into every decision you make. Being sure matters more than being quick to you, and waiting is how you came by most of what is yours. Sleep on the big choices, and let one small yes out the same day."
+            }
+          },
+          {
+            "word": "Shows up daily",
+            "angles": {
+              "drive": "Showing up is the whole of how you love. You count an ordinary evening for more than flowers once a year. Bring flowers on an ordinary evening now and then, and you show up in a way that gets seen."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Holds it back",
+            "angles": {
+              "drive": "Holding money back is a habit you never question. An untouched pool feels like the point of earning, and you would rather watch it grow than let any go. Keep in mind that a pool you never drink from is doing nothing for you."
+            }
+          },
+          {
+            "word": "Counts every cost",
+            "angles": {
+              "drive": "Counting is how you decide what is allowed. You add up every cost before every pleasure, and you trust the total more than the wanting. It helps to remember that the total counts what a thing costs and leaves out what it gives."
+            }
+          },
+          {
+            "word": "Waits too long",
+            "angles": {
+              "drive": "Waiting too long is your most comfortable mistake. You would rather miss a chance than take a wrong one, and the ones you miss were mostly fine. It is easy to forget that the chances you wait out do not wait for you."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Careful",
+            "angles": {
+              "drive": "You handle resources the way careful water handles a landscape, never taking more than the channel can hold. The purchase gets slept on, the debt gets declined, the plan keeps a margin. Boring, people say, until their own accounts get interesting in the bad way."
+            }
+          },
+          {
+            "word": "Steady-flowing",
+            "angles": {
+              "drive": "Your resources move like a reliable stream, in on schedule, out with intention, never flash-flooding. The salary lands, the transfers fire, the obligations get met a little early. Drama has no purchase on your finances, and the calm compounds as quietly as the interest."
+            }
+          },
+          {
+            "word": "Well-prepared",
+            "angles": {
+              "drive": "The future finds you already provisioned. The renewal date is in the calendar, the emergency fund holds six months, the umbrella lives in the car. Your readiness is so habitual it looks like luck: things simply never seem to catch you without the relevant item."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Dammed-up",
+            "angles": {
+              "drive": "Your resources pool behind walls you keep raising. The money accumulates and does not move, the generosity is rationed through a narrow spillway, and downstream, things that needed watering are visibly dry. The reservoir is impressive. Reservoirs, unvisited, are just deep places holding still."
+            }
+          },
+          {
+            "word": "Wary",
+            "angles": {
+              "drive": "Every offer arrives at your door pre-suspected. The deal has a catch, the kindness has an angle, the stranger has a reason: your default read is downstream contamination, and proof of purity is a standard almost nothing meets. You are rarely cheated. You are also rarely surprised by joy."
+            }
+          },
+          {
+            "word": "Can’t let go",
+            "angles": {
+              "drive": "Letting go, of money, of objects, of the way Sunday is supposed to run, activates something in your grip that logic cannot pry open. The sunk cost stays sunk and held, the worn-out thing stays shelved, and your hands, at any given moment, are completely full."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Careful",
+        "Steady-flowing",
+        "Well-prepared"
+      ],
+      "friction": [
+        "Dammed-up",
+        "Wary",
+        "Can’t let go"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

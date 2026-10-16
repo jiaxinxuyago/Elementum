@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.catalyst_turn",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Earth, the ground under you is shallow, and every load goes straight through to your knees. Nothing stays put without a push from outside. Sleep and eat before you decide anything.",
+      "original": "Run thin, the ground doubts its own bearing: steadiness performed, footing borrowed. Your chart asks you to feed the self. Keep one promise to yourself so long it becomes terrain.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Wood, nothing grows through the ground to hold it, and soil without roots spreads wherever it is pushed. Take on one demand with a date on it.",
+      "original": "Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "You carry little Water. The ground has banks and no river between them, and plans stay drawn while fields go dry. Start one thing this month and let it run.",
+      "original": "Run thin, the banks hold no river: structure ready, nothing flowing, canals waiting on rain. Your chart asks you to court the current. Go where things move and channel some.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Fire, the ground goes cold under the seed, and the soil feeds on an old harvest. Take in one warm thing a week, a teacher or a book.",
+      "original": "Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "mechanism.catalyst_turn",
+      "candidate": "With too little Metal, the ground keeps every bit of its ore, all that weight and patience and nothing coming out with a finished shape. Say one thing plainly before it is perfect.",
+      "original": "Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard.",
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$archetype": "土_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "土_火",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "cta_verdict": "You take ideas in through the people who carry them, so a warm teacher stays with you longer than a right one."
+  },
+  "$original": {
+    "cta_verdict": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever."
+  },
+  "$gate_findings": {
+    "cta_verdict": "pass"
+  }
+}

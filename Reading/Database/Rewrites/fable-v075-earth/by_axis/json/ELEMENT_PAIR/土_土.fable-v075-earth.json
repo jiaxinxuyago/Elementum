@@ -1,0 +1,97 @@
+{
+  "$archetype": "土_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "土_土",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Earth on earth is ground laid over ground. Soil settles onto soil, season after season, until the layers forget where one ended and the next began. Nothing arrives from outside, so the field thickens by its own weight, keeps what falls on it and gives it back slowly if at all. What grows there grows out of depth, and it stands long after faster things have fallen.",
+      "catalyst_turn": "With too little Earth, the ground under you is shallow, and every load goes straight through to your knees. Nothing stays put without a push from outside. Sleep and eat before you decide anything.",
+      "friction_turn": "With too much Earth, the ground packs down on itself until nothing moves across it and nothing new comes up. Every opinion settles into bedrock. Say yes to one deadline you did not set."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "the ground under you is shallow, and every load goes straight through to your knees",
+        "remedy": "Sleep and eat before you decide anything."
+      },
+      "friction": {
+        "clause": "the ground packs down on itself until nothing moves across it and nothing new comes up",
+        "remedy": "Say yes to one deadline you did not set."
+      },
+      "unrooted": {
+        "clause": "No Earth of your own under the whole structure, so every stand you take is on borrowed footing.",
+        "remedy": "Make your own footing from routine, the same bed and meals daily."
+      },
+      "excess": {
+        "clause": "Ground heaped on ground past any use, a mass only Metal can shape into something useful.",
+        "remedy": "Spend it through Metal. Finish one exact thing today."
+      },
+      "thin": {
+        "clause": "Earth kept small, a floor under you and never a wall around you.",
+        "remedy": "Keep it that size. Rest on it, nothing more."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth makes it steady, so you stay put when pushed. Running thin, the stand gives early, and you borrow a peer's certainty or drop a shared stake rather than fight. You keep only what you held on your own.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Earth makes it solid, so decisions stay decided. Running over, nothing moves you, and you trust your own measure more than any peer's or take the shared stake first. You end up right about everything and alone with it.",
+      "advise_catalyst": "Most of what you give up, you give up tired. Eat before the hard conversation, and sleep on the answer. Ask one peer to hold the line with you for a week. Keep one routine that survives a bad month. Say yes sitting down.",
+      "advise_friction": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You mistake not moving for being right. Hand one decision to someone above you and live with it for a month. Meet one deadline somebody else set."
+    },
+    "cta_verdict": "Your strength is the kind that stays put, and you usually wait a problem out rather than run from it."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Thick virtue carries all things, the Book of Changes says of earth: ground laid upon ground, bedrock under soil, the one element whose nature is simply to hold. Nothing reacts here. Ground settles onto ground, and the stillness deepens until mountains sit on it without complaint. What everything else moves through, earth remains.",
+      "catalyst_turn": "Run thin, the ground doubts its own bearing: steadiness performed, footing borrowed. Your chart asks you to feed the self. Keep one promise to yourself so long it becomes terrain.",
+      "friction_turn": "Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even bedrock is improved by weather."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The ground doubts its own bearing: steadiness performed, footing borrowed.",
+        "remedy": "Keep one promise to yourself so long it becomes terrain."
+      },
+      "friction": {
+        "clause": "The ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility.",
+        "remedy": "Even bedrock is improved by weather."
+      },
+      "unrooted": {
+        "clause": "The self stands without roots: steadiness performed, footing borrowed.",
+        "remedy": "Feed the self. Keep one promise until it is terrain."
+      },
+      "excess": {
+        "clause": "Strong earth wants metal: so much steadiness nothing new can root.",
+        "remedy": "Till it. Mint something."
+      },
+      "thin": {
+        "clause": "Earth runs thin and still carries weight: little ground, held too hard.",
+        "remedy": "Loosen the grip."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Earth is your Body, and running thin, it is the steadiness under everything: digestion, sleep depth, the physical calm that lets you carry weight. Yours erodes quietly under skipped meals and moved bedtimes.",
+      "definition_friction": "Earth is your Body, and running over, it is heaviness accumulating: routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving.",
+      "advise_catalyst": "Stability is a practice before it is a trait. Rebuild with boring regularity: same waking hour, real lunches eaten sitting down, one slow day a week defended like an appointment. Let others see you rest so they learn to expect it.",
+      "advise_friction": "Steadiness needs motion the way ground needs rain. Walk daily at the same hour until it is simply weather. Change one fixed habit each season purely to prove you can. Say yes to one invitation a month that mildly inconveniences you."
+    },
+    "cta_verdict": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.unrooted": "pass",
+    "carry.excess": "pass",
+    "carry.thin": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  }
+}

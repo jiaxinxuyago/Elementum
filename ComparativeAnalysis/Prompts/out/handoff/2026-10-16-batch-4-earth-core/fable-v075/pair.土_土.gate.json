@@ -1,0 +1,83 @@
+{
+ "file": "pair.土_土.json",
+ "page": "The energy page of Earth (your Body) for a Earth core, both poles and every state line (the cell is the repetition-law unit)",
+ "fields": {
+  "mechanism.base": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.catalyst_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.friction_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.friction": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.unrooted": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.excess": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.thin": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [],
+ "repInfo": [],
+ "rhythm": {
+  "mechanism.base": 1,
+  "mechanism.catalyst_turn": 0,
+  "carry.catalyst": 1,
+  "mechanism.friction_turn": 0,
+  "carry.friction": 1,
+  "carry.unrooted": 0,
+  "carry.excess": 0,
+  "carry.thin": 0,
+  "function.definition_catalyst": 0,
+  "function.definition_friction": 1,
+  "function.advise_catalyst": 0,
+  "function.advise_friction": 0,
+  "cta_verdict": 0,
+  "cta_verdict#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

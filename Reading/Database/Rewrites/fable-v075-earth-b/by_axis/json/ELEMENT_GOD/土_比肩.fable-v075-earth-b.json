@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_比肩",
+  "axis": "ELEMENT_GOD",
+  "key": "土_比肩",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Sets own bar",
+        "Needs no backup",
+        "Holds steady"
+      ],
+      "friction": [
+        "Never asks",
+        "Shuts people out",
+        "Takes no advice"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Sets own bar",
+            "angles": {
+              "drive": "You grade yourself before anyone else can. Knowing where you stand matters more to you than being told, so you set the bar at home and carry it everywhere. Keep it yours, and you hear praise as information instead of fuel."
+            }
+          },
+          {
+            "word": "Needs no backup",
+            "angles": {
+              "drive": "Catching yourself without backup is a habit you never had to learn. Asking costs you more than carrying on, so you finish tired instead of finishing owing. Ask anyway once a month, and you let a friend know you as no favour ever did."
+            }
+          },
+          {
+            "word": "Holds steady",
+            "angles": {
+              "drive": "Steadiness in you is a choice that looks like a trait. You would rather hold than be held, and a hard week never changes that order. Let a quiet week hold you for once, and you keep it for the next hard one."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Never asks",
+            "angles": {
+              "drive": "Asking for help is the one skill you skipped. Since you trust only your own footing, you would rather carry a thing to the end than owe one favour. You guard your strength at the price of ever being kept company."
+            }
+          },
+          {
+            "word": "Shuts people out",
+            "angles": {
+              "drive": "Keeping people out comes easier than keeping them close. Your own company is enough, and you stop at enough rather than risk more. You shut people out from comfort more than from hurt, and comfort is a poor reason to be alone."
+            }
+          },
+          {
+            "word": "Takes no advice",
+            "angles": {
+              "drive": "Advice reaches you late, if at all. Being right by your own measure matters more than being helped, and you hear a correction as a push rather than a gift. You lose nothing by hearing one out, and you know what you lose by not."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-grounded",
+            "angles": {
+              "drive": "Your footing comes from inside your own boundaries, and it shows in how little you sway. Trends pass, opinions swirl, someone is always panicking about something, and your center of gravity stays home. People push against you mostly to find out where solid feels like."
+            }
+          },
+          {
+            "word": "Solid",
+            "angles": {
+              "drive": "What you build, physically or otherwise, holds weight without creaking. The shelf, the budget, the promise: over-engineered slightly, tested honestly, then trusted completely. Flash was never the point. Your work is the kind people lean on without checking first."
+            }
+          },
+          {
+            "word": "Dependable",
+            "angles": {
+              "drive": "Showing up is your entire philosophy, executed daily. No dramatic rescues, just presence with a pattern: the shift covered, the call returned, the same seat at the same table when it matters. People build lives partly out of the certainty you supply."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Dug in",
+            "angles": {
+              "drive": "Your positions come with earthworks. The opinion dug in years ago has supply lines, sandbags, and a flag, and updating it now feels like losing a war rather than learning a fact. You defend ground long after anyone remembers what battle claimed it."
+            }
+          },
+          {
+            "word": "Hard-headed",
+            "angles": {
+              "drive": "Being told things is not how you learn. The lesson has to bruise you personally before it counts, and even then you sometimes get a second opinion from another bruise. Advice slides off the same skull the wall keeps failing to teach."
+            }
+          },
+          {
+            "word": "Set-apart",
+            "angles": {
+              "drive": "Standing slightly outside the group is your resting position. Neither hostile nor shy, just fenced: you attend, contribute, and remain somehow adjacent, a property with clear boundaries and one gate. People sense the line without seeing it, and mostly nobody tests the latch."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Self-grounded",
+        "Solid",
+        "Dependable"
+      ],
+      "friction": [
+        "Dug in",
+        "Hard-headed",
+        "Set-apart"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

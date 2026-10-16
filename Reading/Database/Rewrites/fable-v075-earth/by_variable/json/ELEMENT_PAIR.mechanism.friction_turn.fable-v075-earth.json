@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.mechanism.friction_turn",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Earth, the ground packs down on itself until nothing moves across it and nothing new comes up. Every opinion settles into bedrock. Say yes to one deadline you did not set.",
+      "original": "Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even bedrock is improved by weather.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Wood, the roots draw more than the ground can feed, and the slope gives way under the trees it carries. Turn down the next demand and rest a week.",
+      "original": "Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "mechanism.friction_turn",
+      "candidate": "More Water moves in you than the ground can hold. The river spreads wider than its banks, and the ground washes away under everything it chases. Keep one weekend free of anything new.",
+      "original": "Run heavy, the damming never stops: every stream metered, flow managed until nothing pools for joy. Unclench a channel. Some water is for watching.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Fire, the soil bakes to a hard dry crust over the seed, and nothing planted in it comes up. Make one thing from all you took in and hand it over.",
+      "original": "Run heavy, the warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. Walk off the hearth and bear some weather.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "mechanism.friction_turn",
+      "candidate": "With too much Metal, the hill is hollowed out by its own ore, every thought coming out finished and pointed while the ground under it thins. Keep one opinion back and sleep on it.",
+      "original": "Run heavy, the mining never stops: everything minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit.",
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "$archetype": "土_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "土_劫财",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Better with rivals",
+        "Bets big",
+        "Shares the win"
+      ],
+      "friction": [
+        "Always comparing",
+        "Hates losing",
+        "Spends to win"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Better with rivals",
+            "angles": {
+              "drive": "You are better with a rival in sight. Your own pace never quite wakes you, so you measure yourself against a person rather than a plan. Pick your rivals on purpose, and you turn a reflex into the fastest way you grow.",
+              "cost_self": "Being better with rivals leaves you rarely at your best alone. Without someone to beat, you drift rather than push, so the goals only you care about wait longest. Find a rival for the private goals too, and you stop leaving your own for last.",
+              "cost_others": "Better with a rival, you turn a peer into one without asking. You would rather race someone than keep them company, and you hand a contest to a friend who wanted none. Name the race, and you give them the choice to run it."
+            }
+          },
+          {
+            "word": "Bets big",
+            "angles": {
+              "drive": "Betting big is the only size that feels real to you. Small stakes never wake you, so you go all in rather than try a little first. Keep the bets you can afford, and you keep the boldness a strength instead of a story.",
+              "cost_self": "Where you bet big, you lose at the same size. You would rather be all in than in a little, and one bad bet eats a year of savings. Set the size before the pull, and you hold on to what a bold year eats.",
+              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Ask first, and you hand them a say in their own risk."
+            }
+          },
+          {
+            "word": "Shares the win",
+            "angles": {
+              "drive": "Sharing the win is where the race finally makes sense to you. Since a win nobody saw never felt like one, you would rather split a victory than hold it alone. Keep sharing it, and you make the win last longer than the race did.",
+              "cost_self": "Each shared win costs you the part that was only yours. You hand out credit rather than keep it, and your own work goes unnamed. Keep one win to yourself, and you have something left when the crowd goes home.",
+              "cost_others": "Your shared wins land on people who did not run for them. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Share the race too, and you offer them something to earn."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Always comparing",
+            "angles": {
+              "drive": "Comparing is the first thing you do in new company. Earth sits in you past one person's share, so you size up whoever is beside you ahead of anything else. Keep in mind how you compare to feel safe and never feel safer.",
+              "cost_self": "Always comparing gives you a result and never rest. You would rather know where you rank than enjoy where you are, so no win gets time to feel like one. You lose the quiet of a good week to a score only you can see.",
+              "cost_others": "Comparing turns the people nearest you into measuring sticks. Knowing how you rank beside a friend matters more than having the friend, and you hear their good news as a loss. Little by little you train the people you love to tell you less."
+            }
+          },
+          {
+            "word": "Hates losing",
+            "angles": {
+              "drive": "Losing is the one thing you never settle. You hold Earth past what you put to work, so a lost contest stays open in you rather than closing. Remember that you are beaten far less often than you think, and you keep every one.",
+              "cost_self": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests with the most to teach you. You also lose every race you skip to protect your record.",
+              "cost_others": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you put a friend on the losing side of a game they never entered. You turn company into opponents one win at a time."
+            }
+          },
+          {
+            "word": "Spends to win",
+            "angles": {
+              "drive": "Spending to win is your move when losing feels close. Earth stacks up in you past what you use, so money goes to prove a point rather than buy a thing. Worth remembering that you pay the bill whether you won or not.",
+              "cost_self": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You notice the money you did not keep last.",
+              "cost_others": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and the shared money pays for a contest your partner never entered. You spend the trust in a shared account faster than the balance."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Ground-taking",
+            "angles": {
+              "drive": "Advancing is how your body answers the world: a foot in the door, a stake in the ground, a seat claimed at tables you were not quite invited to. You expand quietly and hold what you take. By the time anyone objects, you are already infrastructure.",
+              "cost_self": "The abandoned corner of the office became your project station one shelf at a time, over six unremarkable weeks. Nobody approved it and nobody could unwind it, since by then the whole team used it. Management eventually labeled it, which is how conquest gets certified.",
+              "cost_others": "People discover your influence the way surveyors discover fences: already installed, weathered in, slightly past the property line. Nobody remembers granting the territory, and everybody relies on how well you run it. Complaints tend to die out on the walk over."
+            }
+          },
+          {
+            "word": "Tenacious",
+            "angles": {
+              "drive": "Letting go is simply not in your body’s vocabulary. The application gets resubmitted, the door gets knocked on again, the no gets treated as a scheduling issue. What you grip, you keep gripping, well past the point where everyone else’s hands opened.",
+              "cost_self": "The permit was denied twice, and the third application had photographs, precedents, and a cover letter that quoted the inspector back to himself. It passed. The clerk who stamped it said, with respect, that they hoped never to see your name again.",
+              "cost_others": "Opponents budget extra rounds for you, because your first defeat is just your intake meeting. People who watched you lose in March have learned not to celebrate, since your Aprils have a reputation. Eventually the resistance factors you in like weather and yields early."
+            }
+          },
+          {
+            "word": "Unbroken",
+            "angles": {
+              "drive": "Pressure that bends other people mostly just settles your stance. Criticism, setbacks, the year everything went wrong: your posture after each one is level ground. You take the hit, absorb it, and stand where you stood, which is its own kind of answer.",
+              "cost_self": "The venture failed publicly, and you showed up Monday at the usual hour with an ordinary face and a revised plan. The people waiting to see you diminished waited all week. By Friday they were reading the plan, mostly to learn what standing back up looks like.",
+              "cost_others": "People stop testing you after the first time they watch a real blow land and change nothing. The steadiness reads as almost unfair. Behind your back, the description is always some version of the same sentence: whatever happens, that one stays standing."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Territorial",
+            "angles": {
+              "drive": "Yours is a word your body enforces before your mind gets consulted. The parking spot, the project, the Sunday routine: incursions get met with a speed that surprises even you. Most of the invasions were imaginary. The defense spending has been extremely real.",
+              "cost_self": "A new hire touched your client file with good intentions, and the temperature of your reply preserved itself in the team’s memory for a year. They were trying to help. The help never came back, and now the workload is defended and entirely yours.",
+              "cost_others": "Colleagues navigate your territory with a map they keep updated among themselves: what not to touch, which chair is yours, when to ask versus announce. Cooperation with you has border-crossing paperwork. Some people just trade elsewhere, and you file that as respect."
+            }
+          },
+          {
+            "word": "Holds grudges",
+            "angles": {
+              "drive": "You keep score with geological patience. The slight from 2019 is filed, cross-referenced, and quietly load-bearing in how you treat its author. Forgiveness feels like surrendering land. So the ledger grows, and you pay its storage costs nightly without auditing what the grudges rent.",
+              "cost_self": "You attended the wedding and were pleasant all evening to the cousin, who never knew that the seating, the small talk, and the early exit were all footnotes to a loan unreturned in 2017. It was sixty dollars. The interest is now a relationship.",
+              "cost_others": "People sense the ledger without seeing it. There is a slight tax in how you greet certain names, a coolness with fifteen-year-old foundations. Newcomers get warned in shorthand: do not end up in the book. Nobody can say exactly how one gets out of it."
+            }
+          },
+          {
+            "word": "Bulldozing",
+            "angles": {
+              "drive": "When you want something, obstacles register as terrain rather than as people. The plan rolls forward, objections get graded flat, and you genuinely do not hear the crunch. Afterward the path is open and efficient, and someone behind you is holding pieces of their fence.",
+              "cost_self": "The family holiday got decided in one message, yours, sent before the poll you had proposed finished collecting votes. Three people had conflicts. The trip was excellent and efficiently run, and two of the three still bring up the poll, humorously, in a specific tone.",
+              "cost_others": "People agree with you in meetings and then meet again, smaller, without you. It is not sabotage. It is the only lane where their input survives contact. You keep winning the official votes and losing informal ones you never find out happened."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Ground-taking",
+        "Tenacious",
+        "Unbroken"
+      ],
+      "friction": [
+        "Territorial",
+        "Holds grudges",
+        "Bulldozing"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[1]": "pass",
+    "ledger[2]": "pass",
+    "ledger[3]": "pass",
+    "ledger[4]": "pass",
+    "ledger[5]": "pass",
+    "ledger[6]": "pass",
+    "ledger[7]": "pass",
+    "ledger[8]": "pass"
+  }
+}

@@ -1,0 +1,97 @@
+{
+ "file": "pair.土_水.json",
+ "page": "The energy page of Water (your Action) for a Earth core, both poles and every state line (the cell is the repetition-law unit)",
+ "fields": {
+  "mechanism.base": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.catalyst_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "mechanism.friction_turn": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.friction": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.wide": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.missing": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.spared": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.thin": {
+   "pass": true,
+   "findings": []
+  },
+  "carry.excess": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.definition_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_catalyst": {
+   "pass": true,
+   "findings": []
+  },
+  "function.advise_friction": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict": {
+   "pass": true,
+   "findings": []
+  },
+  "cta_verdict#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "function.definition_catalyst :: a word used twice (action, claim; B11, a note: vary it unless the repeat carries the logic)",
+  "function.definition_friction :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "function.definition_friction :: a word used twice (action; B11, a note: vary it unless the repeat carries the logic)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "mechanism.base": 0,
+  "mechanism.catalyst_turn": 0,
+  "carry.catalyst": 0,
+  "mechanism.friction_turn": 0,
+  "carry.friction": 0,
+  "carry.wide": 0,
+  "carry.missing": 0,
+  "carry.spared": 0,
+  "carry.thin": 0,
+  "carry.excess": 0,
+  "function.definition_catalyst": 0,
+  "function.definition_friction": 0,
+  "function.advise_catalyst": 1,
+  "function.advise_friction": 0,
+  "cta_verdict": 1,
+  "cta_verdict#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

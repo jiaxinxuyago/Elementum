@@ -1,0 +1,135 @@
+{
+  "$archetype": "土_劫财",
+  "axis": "ELEMENT_GOD",
+  "key": "土_劫财",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Better with rivals",
+        "Bets big",
+        "Shares the win"
+      ],
+      "friction": [
+        "Always comparing",
+        "Hates losing",
+        "Spends to win"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Better with rivals",
+            "angles": {
+              "drive": "Competition wakes something in you that nothing else reaches. Being measured against someone feels more honest than being measured alone, and a rival makes you better where a fan makes you comfortable. Keep one rival close, and you keep your best effort within reach."
+            }
+          },
+          {
+            "word": "Bets big",
+            "angles": {
+              "drive": "You bet big because small wins never feel like wins. A heavy stake is the only thing that gets all of you, so you risk a season rather than a week. Space the big bets, and you recover enough to make the next one count."
+            }
+          },
+          {
+            "word": "Shares the win",
+            "angles": {
+              "drive": "You share the win because a win with no witness feels unfinished. Being seen winning matters as much to you as winning, so you bring people into your victories rather than your fights. Keep doing it, and you win people as well as races."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Always comparing",
+            "angles": {
+              "drive": "You measure your life against the nearest life every single day. Since nothing in you feels real until it is ranked, you read a friend's news as a score rather than as news. You compare on reflex, and you carry the tiredness it leaves alone."
+            }
+          },
+          {
+            "word": "Hates losing",
+            "angles": {
+              "drive": "You hate losing more than you love winning. Since a loss feels like a judgment on you rather than a result, you replay it long past the point of learning. You know how to set a loss down, and you pick it back up anyway."
+            }
+          },
+          {
+            "word": "Spends to win",
+            "angles": {
+              "drive": "You spend to win far more often than you spend to have. A bigger bet feels like a bigger self, and your money follows the contest rather than the need. You keep paying to enter a race that never says where it ends."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Ground-taking",
+            "angles": {
+              "drive": "Advancing is how your body answers the world: a foot in the door, a stake in the ground, a seat claimed at tables you were not quite invited to. You expand quietly and hold what you take. By the time anyone objects, you are already infrastructure."
+            }
+          },
+          {
+            "word": "Tenacious",
+            "angles": {
+              "drive": "Letting go is simply not in your body’s vocabulary. The application gets resubmitted, the door gets knocked on again, the no gets treated as a scheduling issue. What you grip, you keep gripping, well past the point where everyone else’s hands opened."
+            }
+          },
+          {
+            "word": "Unbroken",
+            "angles": {
+              "drive": "Pressure that bends other people mostly just settles your stance. Criticism, setbacks, the year everything went wrong: your posture after each one is level ground. You take the hit, absorb it, and stand where you stood, which is its own kind of answer."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Territorial",
+            "angles": {
+              "drive": "Yours is a word your body enforces before your mind gets consulted. The parking spot, the project, the Sunday routine: incursions get met with a speed that surprises even you. Most of the invasions were imaginary. The defense spending has been extremely real."
+            }
+          },
+          {
+            "word": "Holds grudges",
+            "angles": {
+              "drive": "You keep score with geological patience. The slight from 2019 is filed, cross-referenced, and quietly load-bearing in how you treat its author. Forgiveness feels like surrendering land. So the ledger grows, and you pay its storage costs nightly without auditing what the grudges rent."
+            }
+          },
+          {
+            "word": "Bulldozing",
+            "angles": {
+              "drive": "When you want something, obstacles register as terrain rather than as people. The plan rolls forward, objections get graded flat, and you genuinely do not hear the crunch. Afterward the path is open and efficient, and someone behind you is holding pieces of their fence."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Ground-taking",
+        "Tenacious",
+        "Unbroken"
+      ],
+      "friction": [
+        "Territorial",
+        "Holds grudges",
+        "Bulldozing"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

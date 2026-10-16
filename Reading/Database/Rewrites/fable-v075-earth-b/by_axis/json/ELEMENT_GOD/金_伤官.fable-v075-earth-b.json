@@ -1,0 +1,146 @@
+{
+  "$archetype": "金_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "金_伤官",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Says it straight",
+        "Sets the bar",
+        "Best when watched"
+      ],
+      "friction": [
+        "Too direct",
+        "Talks back",
+        "Grades people"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Says it straight",
+            "angles": {
+              "drive": "You say the true thing in plain words. Since a padded answer feels like a waste of time to you, you would rather be exact than be liked in the moment. Keep the exactness, and add one sentence on why you are saying it."
+            }
+          },
+          {
+            "word": "Sets the bar",
+            "angles": {
+              "drive": "You raise the bar on yourself the moment you clear it. Good enough insults your talent, and you would rather fail at your own standard than pass at someone else's. Keep the bar yours, and let a friend hold it now and then."
+            }
+          },
+          {
+            "word": "Best when watched",
+            "angles": {
+              "drive": "You rise when someone is looking. Work with no one watching feels like nothing to you, and you give your best to the stage ahead of your desk. Put one witness on the private hours, and you give them the same best."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Too direct",
+            "angles": {
+              "drive": "You say the true thing before you check its cost. Being exact matters more to you than being easy to hear, and you give the direct answer and let it land hard. Keep in mind, you lose none of the truth by waiting a moment."
+            }
+          },
+          {
+            "word": "Talks back",
+            "angles": {
+              "drive": "You answer authority before you answer the question. Being told sits worse with you than being wrong, and you talk back to the person above you instead of taking the point. Remember that you got the point free and paid for the talking back."
+            }
+          },
+          {
+            "word": "Grades people",
+            "angles": {
+              "drive": "You know what you think of someone before they finish talking. Having no grade for someone feels like having no floor, and you grade early and defend it rather than change it. It is worth remembering that you get the early grades wrong most often."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Razor-witted",
+            "angles": {
+              "drive": "Your intelligence has an edge you can hear. The observation lands exactly where it aims, the flaw in the argument gets opened in one line, and conversations sharpen when you join them, the way knives sharpen near a good stone. People think faster around you, in self-defense."
+            }
+          },
+          {
+            "word": "Piercing",
+            "angles": {
+              "drive": "You say the thing everyone else is carefully not seeing. The flaw in the plan, the motive under the pitch, the number that does not add up: you name it out loud, early, in the meeting, while it can still be fixed. Comfort has never once outranked accuracy for you."
+            }
+          },
+          {
+            "word": "Masterful",
+            "angles": {
+              "drive": "Your skill is built to be witnessed. The presentation, the performance, the flawless run under pressure: you polish until the work holds up in front of anyone, and then you put it in front of everyone. Private excellence never interested you. Excellence, for you, is a public act."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutting",
+            "angles": {
+              "drive": "Your words leave edges in people. The observation was accurate, the phrasing was clean, and the person carrying it home was bleeding in a way neither of you acknowledged at the time. Accuracy is your alibi. It has covered a remarkable amount of damage."
+            }
+          },
+          {
+            "word": "Merciless",
+            "angles": {
+              "drive": "Weakness activates something in you that forgot to install brakes. The struggling presenter gets the hardest question, the failing argument gets dismantled past its surrender, the flinch invites a second cut. You call it rigor. The people watching call it something they discuss on the way home."
+            }
+          },
+          {
+            "word": "Judgy",
+            "angles": {
+              "drive": "Most people fail an exam you never announce. The mediocre effort, the fuzzy thinking, the ordinary taste: each gets silently graded and permanently filed, and the grade leaks through your face at doses everyone can read. Respect from you is rare currency. Its scarcity is the design."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Razor-witted",
+        "Piercing",
+        "Masterful"
+      ],
+      "friction": [
+        "Cutting",
+        "Merciless",
+        "Judgy"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the Virtuoso cannot hold its tongue, and on Metal the tongue is exact: the plain answer that wounds",
+      null,
+      null,
+      "defiance as the Virtuoso's domain: authority irritates unless earned, the pushback before the point",
+      null,
+      null,
+      "the Virtuoso's pride on Metal: the exact read of a person, given early and held, on a core that takes little in"
+    ]
+  }
+}

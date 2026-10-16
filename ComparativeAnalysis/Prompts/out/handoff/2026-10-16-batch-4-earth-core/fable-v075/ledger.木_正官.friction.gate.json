@@ -1,0 +1,92 @@
+{
+ "file": "ledger.木_正官.friction.json",
+ "page": "The friction ledger of 木_正官 (Wood carrying The Magistrate) on a Earth core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: the first sentence carries the object noun \"book\" outside the persona's domain words (D9 with E6; heuristic, not blocking, the read decides)",
+  "ledger[1] :: the first sentence carries the object noun \"book\" outside the persona's domain words (D9 with E6; heuristic, not blocking, the read decides)",
+  "ledger[2] :: outside the zone (not blocking): favourites",
+  "ledger[2] :: a word used twice (hand; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: the first sentence carries the object noun \"book\" outside the persona's domain words (D9 with E6; heuristic, not blocking, the read decides)",
+  "ledger[4] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"You lose every chance that arrives as a change, and you lose it by ref\"",
+  "ledger[4] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[4] :: a word used twice (lose; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[5] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[6] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[6] :: a word used twice (answer; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[7] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[7] :: a word used twice (stand; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[8] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[8] :: a word used twice (beside; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: a word used twice (case; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: the first sentence carries the object noun \"book\" outside the persona's domain words (D9 with E6; heuristic, not blocking, the read decides)",
+  "ledger[6]#b :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 0,
+  "ledger[1]": 0,
+  "ledger[2]": 0,
+  "ledger[3]": 1,
+  "ledger[4]": 0,
+  "ledger[5]": 0,
+  "ledger[6]": 0,
+  "ledger[7]": 0,
+  "ledger[8]": 0,
+  "ledger[0]#b": 0,
+  "ledger[3]#b": 0,
+  "ledger[6]#b": 0
+ },
+ "zone": null,
+ "pass": true
+}

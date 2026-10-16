@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.spared",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_木",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No trees stand on this ground, and the soil keeps all of itself.",
+        "remedy": "Leave it empty. Set your own pace."
+      },
+      "original": {
+        "clause": "Wood runs absent, and the soil is left alone: nobody leans on you, the ground keeps its own.",
+        "remedy": "Keep it. Take on roots by choice."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "There is no Water in you, and the ground never washes out from under you.",
+        "remedy": "Leave it out. Keep to the ground you already have."
+      },
+      "original": {
+        "clause": "Water runs absent, and nothing needs damming: the calm keeps itself.",
+        "remedy": "Keep the calm. Channel little."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No fire reaches this soil, and it keeps its water the better for it.",
+        "remedy": "Leave it unlit and build with what you have."
+      },
+      "original": {
+        "clause": "Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food.",
+        "remedy": "Keep it. Take warmth in small doses."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "carry.spared",
+      "candidate": {
+        "clause": "No ore leaves this ground, and the ground keeps its whole weight for itself.",
+        "remedy": "Leave it. Take things in before you put them out."
+      },
+      "original": {
+        "clause": "Metal runs absent, and the mountain is not mined: nothing demanded, nothing hollowed.",
+        "remedy": "Keep the ore. Mint only what matters."
+      },
+      "gate": "pass"
+    }
+  ]
+}

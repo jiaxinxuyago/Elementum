@@ -1,0 +1,146 @@
+{
+  "$archetype": "金_食神",
+  "axis": "ELEMENT_GOD",
+  "key": "金_食神",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Finishes things",
+        "Chooses well",
+        "Teaches by doing"
+      ],
+      "friction": [
+        "Hard to please",
+        "Gives too much",
+        "Takes it easy"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Finishes things",
+            "angles": {
+              "drive": "You do not let a thing leave you unfinished. Finishing feels better than beginning to you, since a finished thing asks nothing more. Pick fewer things, and you finish every one of them."
+            }
+          },
+          {
+            "word": "Chooses well",
+            "angles": {
+              "drive": "You choose a gift the way others choose what to keep. The thought behind it counts for more with you than the size, and you choose slowly and give rarely. Choose for the few, and what you give them fits."
+            }
+          },
+          {
+            "word": "Teaches by doing",
+            "angles": {
+              "drive": "You teach with your hands before your mouth. A thing done well in front of someone says more than any explanation, and you show the whole of it rather than describe a part. Slow down on the hard parts, because you teach the most there."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard to please",
+            "angles": {
+              "drive": "Nothing pleases you by accident. Because good enough never quite feels good to you, you would rather do without a thing than have it slightly wrong. It helps to remember that you are allowed to like something that is not perfect."
+            }
+          },
+          {
+            "word": "Gives too much",
+            "angles": {
+              "drive": "You give more than you have. A gift leaving your hands feels like proof you matter, and you hand over the next thing before the last one is paid for. Remember that giving from empty is borrowing, and you pay it back in rest."
+            }
+          },
+          {
+            "word": "Takes it easy",
+            "angles": {
+              "drive": "You get by on what comes easily. Since your first version of anything is already good, you take it easy rather than push, and the second one never gets made. You know already that easy and finished are different things."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Craft-loving",
+            "angles": {
+              "drive": "The making itself feeds you. The knife kept sharp, the joint fitted flush, the sentence revised until it clicks: process is your pleasure, and it shows in everything that leaves your hands. People sense the extra hour in your work without being able to point at it."
+            }
+          },
+          {
+            "word": "Refined",
+            "angles": {
+              "drive": "Your taste has a machinist’s tolerance. The one right glass for the wine, the single adjective where three loitered, the pause placed exactly: refinement is not fussiness in your hands, it is fit, and everything around you sits a little truer for it."
+            }
+          },
+          {
+            "word": "Savoring",
+            "angles": {
+              "drive": "You extract full value from good moments. The coffee gets its silence, the win gets its evening, the anniversary gets marked properly instead of glanced at. Pleasure, in your hands, is not consumed. It is machined for maximum yield, and the yields are excellent."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Fussy",
+            "angles": {
+              "drive": "The right way has become the only way, and the tolerances keep narrowing. The coffee is drinkable at one temperature, the towels fold along one axis, the restaurant loses you at the first wobbling table. Quality was the point once. The specifications have since annexed the pleasure."
+            }
+          },
+          {
+            "word": "Self-satisfied",
+            "angles": {
+              "drive": "Your own standards approve of you completely, and the audit ended there years ago. The taste is excellent and certain, the methods proven and closed, the feedback received warmly and filed unread. Contentment this polished repels improvement, and everything ambitious slides off, politely, elsewhere."
+            }
+          },
+          {
+            "word": "Dulled",
+            "angles": {
+              "drive": "Comfort has rounded your edge. The palate needs stronger seasoning, the wins need bigger stakes, the pleasures that once rang now land muffled under years of easy access. Everything is available and nothing is delicious. The instrument still works. It just cannot hear itself anymore."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Craft-loving",
+        "Refined",
+        "Savoring"
+      ],
+      "friction": [
+        "Fussy",
+        "Self-satisfied",
+        "Dulled"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  },
+  "$trace": {
+    "ledger": [
+      "the Artisan's ease in excess on Metal: the right way becomes the only way and the pleasure narrows to the exact",
+      null,
+      null,
+      "giving that feels like being, overgrown on a core that burns more than it takes in: the output drains the ground",
+      null,
+      null,
+      "the Artisan's drift and content: the first pass is good enough on Metal, so nothing new is taken in"
+    ]
+  }
+}

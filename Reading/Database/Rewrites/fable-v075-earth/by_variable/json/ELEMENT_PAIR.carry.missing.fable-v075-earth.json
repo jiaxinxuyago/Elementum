@@ -1,0 +1,61 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.missing",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_木",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No roots in the ground at all, nothing outside you to hold the plan in place.",
+        "remedy": "Borrow a rule. Find a coach, a deadline, someone to answer to."
+      },
+      "original": {
+        "clause": "Nothing roots in you: ground with no claim on it.",
+        "remedy": "Borrow roots: one living thing to tend."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No river between the banks, the ground ready and nothing moving across it.",
+        "remedy": "Borrow the flow from a partner, a deadline, one small venture."
+      },
+      "original": {
+        "clause": "No river in the banks: structure ready, nothing flowing.",
+        "remedy": "Borrow water: go where things move."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No fire under this ground, and the cold soil takes in nothing new.",
+        "remedy": "Borrow warmth from a teacher or one bright friend."
+      },
+      "original": {
+        "clause": "No warmth coming in: duties on cold ground, nothing learned by heart.",
+        "remedy": "Borrow fire: people, praise, a feast."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "carry.missing",
+      "candidate": {
+        "clause": "No ore comes out of this ground, so what you know stays known and never said.",
+        "remedy": "Borrow an ending. Set a date and hand over the rough draft."
+      },
+      "original": {
+        "clause": "The ore stays buried: patience that never mints anything.",
+        "remedy": "Borrow metal: finish one piece, say it once."
+      },
+      "gate": "pass"
+    }
+  ]
+}

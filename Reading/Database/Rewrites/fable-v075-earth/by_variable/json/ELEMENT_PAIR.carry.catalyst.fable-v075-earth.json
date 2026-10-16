@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.catalyst",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "the ground under you is shallow, and every load goes straight through to your knees",
+        "remedy": "Sleep and eat before you decide anything."
+      },
+      "original": {
+        "clause": "The ground doubts its own bearing: steadiness performed, footing borrowed.",
+        "remedy": "Keep one promise to yourself so long it becomes terrain."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "nothing grows through the ground to hold it",
+        "remedy": "Take on one demand with a date on it."
+      },
+      "original": {
+        "clause": "Nothing roots in you: ground with no claim on it, steadiness serving no living thing.",
+        "remedy": "Take on something growing and let it grip."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The ground has banks and no river between them",
+        "remedy": "Start one thing this month and let it run."
+      },
+      "original": {
+        "clause": "The banks hold no river: structure ready, nothing flowing, canals waiting on rain.",
+        "remedy": "Go where things move and channel some."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The ground goes cold under the seed.",
+        "remedy": "Take in one warm thing a week, a teacher or a book."
+      },
+      "original": {
+        "clause": "The ground goes gray: duties held on cold ground, nothing warm coming in.",
+        "remedy": "Attend the feast."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "carry.catalyst",
+      "candidate": {
+        "clause": "The ground keeps every bit of its ore.",
+        "remedy": "Say one thing plainly before it is perfect."
+      },
+      "original": {
+        "clause": "The ore stays buried: depth with no expression, patience that never mints anything.",
+        "remedy": "Finish a piece, publish the standard."
+      },
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_catalyst",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "function.advise_catalyst",
+      "candidate": "Most of what you give up, you give up tired. Eat before the hard conversation, and sleep on the answer. Ask one peer to hold the line with you for a week. Keep one routine that survives a bad month. Say yes sitting down.",
+      "original": "Stability is a practice before it is a trait. Rebuild with boring regularity: same waking hour, real lunches eaten sitting down, one slow day a week defended like an appointment. Let others see you rest so they learn to expect it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "function.advise_catalyst",
+      "candidate": "You run better under a demand than without one, even one you chose yourself. Tell someone the date you will finish and let them hold you to it. Run one thing this month, a trip, a team, a dinner. Keep one small promise to yourself each week, written down. Make your bed.",
+      "original": "Some people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "function.advise_catalyst",
+      "candidate": "You are better at keeping than at starting, and keeping is only half of what you have. Put one saved thing into motion this season, a trip booked or a small venture opened with money you can spare. Say yes to one invitation before you have checked the cost. Call home once a month.",
+      "original": "Value moves toward whoever moves it cleanly. Keep a fixed monthly review of what flows through you, income, offers, introductions, and route each one deliberately. Answer the forwardable email same-day. Save a fixed share of every inflow first.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "function.advise_catalyst",
+      "candidate": "You learn by being warmed, and warmth is something you have to go and sit near. Once a month sit in on a class or a talk as a listener only. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night.",
+      "original": "For you, warmth is a study technique. Take the class instead of the book. Explain new ideas to someone within a day of meeting them. Learn beside people on purpose, and let excitement pick the syllabus more often than duty does.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "function.advise_catalyst",
+      "candidate": "You are more finished on the inside than anyone can tell from the outside. Give one thing you made to someone this month, as it is. Say the clever line out loud instead of saving it. Show a child or a beginner how you do something well. Sign one piece of work.",
+      "original": "Scarcity is part of your signal, and shipping is the other part. Ship one polished thing a month, small is fine, finished is the point. Keep a file of your exact sentences. Volunteer the summary when talk runs long.",
+      "gate": "pass"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+ "file": "ledger.金_伤官.catalyst.json",
+ "page": "The catalyst ledger of 金_伤官 (Metal carrying The Virtuoso) on a Earth core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Say it early as well as straight, and the truth costs you fewer friend\"",
+  "ledger[0] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[0] :: a word used twice (truth; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[1] :: a word used twice (right; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Whenever something is wrong, you say so before you say anything kind.\"",
+  "ledger[2] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[2] :: a word used twice (mistake, credit; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[3] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[4] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[5] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[5] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[6] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Find a small audience for the dull parts too, and you do them as well \"",
+  "ledger[6] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[6] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[7] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[7] :: the catalyst close reads as an invitation (D12, tone by pole, a note)",
+  "ledger[7] :: a word used twice (hours; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[8] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[8] :: a word used twice (home; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[6]#b :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 1,
+  "ledger[1]": 1,
+  "ledger[2]": 0,
+  "ledger[3]": 1,
+  "ledger[4]": 1,
+  "ledger[5]": 1,
+  "ledger[6]": 0,
+  "ledger[7]": 1,
+  "ledger[8]": 1,
+  "ledger[0]#b": 1,
+  "ledger[3]#b": 0,
+  "ledger[6]#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

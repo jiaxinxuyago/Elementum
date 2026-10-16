@@ -1,0 +1,74 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.friction",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "the ground packs down on itself until nothing moves across it and nothing new comes up",
+        "remedy": "Say yes to one deadline you did not set."
+      },
+      "original": {
+        "clause": "The ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility.",
+        "remedy": "Even bedrock is improved by weather."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "the roots draw more than the ground can feed",
+        "remedy": "Turn down the next demand and rest a week."
+      },
+      "original": {
+        "clause": "The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds.",
+        "remedy": "You are ground, not groundskeeper to everyone."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The river spreads wider than its banks",
+        "remedy": "Keep one weekend free of anything new."
+      },
+      "original": {
+        "clause": "The damming never stops: every stream metered, flow managed until nothing pools for joy.",
+        "remedy": "Some water is for watching."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The soil bakes to a hard dry crust over the seed.",
+        "remedy": "Make one thing from all you took in and hand it over."
+      },
+      "original": {
+        "clause": "The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary.",
+        "remedy": "Walk off the hearth and bear some weather."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "carry.friction",
+      "candidate": {
+        "clause": "The hill is hollowed out by its own ore.",
+        "remedy": "Keep one opinion back and sleep on it."
+      },
+      "original": {
+        "clause": "The mining never stops: everything minted, the mountain hollowed for output.",
+        "remedy": "Your silence is part of the deposit."
+      },
+      "gate": "pass"
+    }
+  ]
+}

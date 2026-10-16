@@ -1,0 +1,92 @@
+{
+ "file": "ledger.金_食神.friction.json",
+ "page": "The friction ledger of 金_食神 (Metal carrying The Artisan) on a Earth core: three rows, three angles each",
+ "fields": {
+  "ledger[0]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[1]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[2]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[4]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[5]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[7]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[8]": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[0]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[3]#b": {
+   "pass": true,
+   "findings": []
+  },
+  "ledger[6]#b": {
+   "pass": true,
+   "findings": []
+  }
+ },
+ "blocking": [],
+ "readFlags": [
+  "ledger[0] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[0] :: none of the chip's words (\"Hard to please\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[1] :: a word used twice (detail, evening; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[2] :: a word used twice (first, thanks; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[2] :: none of the chip's words (\"Hard to please\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[5] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[5] :: a word used twice (making; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[7] :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[7] :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[8] :: a sentence with 3 clause joints (B10, phrases over clauses, at most two; a note, the read decides): \"Because your first try looks finished, you show them stopping rather t\"",
+  "ledger[0]#b :: a word used twice (good; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0]#b :: none of the chip's words (\"Hard to please\") appears in the passage (D13, the chip's action is the spine; a note since v0.7.2: the read decides whether a delegate verb or a metaphor took the action)",
+  "ledger[3]#b :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)",
+  "ledger[6]#b :: the friction close reads as a reminder (keep in mind, remember, worth remembering; D12, tone by pole, a note)",
+  "ledger[6]#b :: a word used twice (already; B11, a note: vary it unless the repeat carries the logic)",
+  "ledger[0], ledger[1] :: the same close frame (\"keep in …\") on 2 passages of the page (B9 and D12, v0.7.2: the reminder or invitation varies across a page and may be carried by the content, not the frame; a note)",
+  "ledger[4], ledger[5] :: the same close frame (\"remember that …\") on 2 passages of the page (B9 and D12, v0.7.2: the reminder or invitation varies across a page and may be carried by the content, not the frame; a note)"
+ ],
+ "repInfo": [],
+ "rhythm": {
+  "ledger[0]": 1,
+  "ledger[1]": 0,
+  "ledger[2]": 1,
+  "ledger[3]": 1,
+  "ledger[4]": 1,
+  "ledger[5]": 0,
+  "ledger[6]": 1,
+  "ledger[7]": 1,
+  "ledger[8]": 1,
+  "ledger[0]#b": 1,
+  "ledger[3]#b": 1,
+  "ledger[6]#b": 1
+ },
+ "zone": null,
+ "pass": true
+}

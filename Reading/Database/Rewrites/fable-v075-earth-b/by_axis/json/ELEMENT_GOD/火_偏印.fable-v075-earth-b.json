@@ -1,0 +1,135 @@
+{
+  "$archetype": "火_偏印",
+  "axis": "ELEMENT_GOD",
+  "key": "火_偏印",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Sees it whole",
+        "Self-taught",
+        "Thinks best alone"
+      ],
+      "friction": [
+        "One-track",
+        "All or nothing",
+        "Keeps to yourself"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Sees it whole",
+            "angles": {
+              "drive": "You get whole answers, with the reasons arriving later. Since you need to understand before being told, you trust the picture arriving complete more than one built step by step. Say what you saw out loud and let the reasons follow."
+            }
+          },
+          {
+            "word": "Self-taught",
+            "angles": {
+              "drive": "What you know best, you taught yourself. Being told an answer leaves it outside you, so you go looking in strange places alone instead of taking the lesson as given. Teach yourself by all means, and let somebody save you the odd year."
+            }
+          },
+          {
+            "word": "Thinks best alone",
+            "angles": {
+              "drive": "You think most clearly alone. In company you lose your own question, and you keep it for the walk home instead of the conversation. Guard that walk, and let the people closest to you hear the answer after."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "One-track",
+            "angles": {
+              "drive": "You give whatever has your attention all of it. You take a subject whole rather than in parts, and go deep on one thing while everything near it goes cold. Keep remembering that from inside, one track looks like the only one."
+            }
+          },
+          {
+            "word": "All or nothing",
+            "angles": {
+              "drive": "You take a thing up fully or leave it. Your interest arrives all at once or never, so you learn a subject in one push instead of an hour a week. Hold on to the fact that the gaps are part of the learning."
+            }
+          },
+          {
+            "word": "Keeps to yourself",
+            "angles": {
+              "drive": "You keep most of your life to yourself. You find being understood more tiring than being alone, and you keep your thoughts in and hand out the summary. It helps to remember that the part you keep to yourself is the part worth knowing."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Visionary",
+            "angles": {
+              "drive": "You see finished things where others see empty air. The business before the market exists, the picture before the first stroke, the version of a person they have not met yet. The visions arrive lit from inside, complete, and your job is mostly transcription."
+            }
+          },
+          {
+            "word": "Night-bright",
+            "angles": {
+              "drive": "Your mind switches on when the world switches off. After eleven, the connections arrive: the insight, the fix, the strange idea with the workable center. Daylight-you executes what midnight-you discovers, a two-shift operation everyone mistakes for one ordinary person."
+            }
+          },
+          {
+            "word": "Uncanny",
+            "angles": {
+              "drive": "Your knowing arrives without visible sources. The diagnosis before the tests, the reading of a stranger at a glance, the sense that this flight, this deal, this person is wrong. Asked to explain, you produce nothing auditable. Asked to be right, you mostly are."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Obsessive",
+            "angles": {
+              "drive": "One idea takes the whole house. The new interest arrives like ignition: gear bought, sleep skipped, meals forgotten, conversation rerouted through the topic for weeks. The heat is genuine and total, and everything else in your life stands in its light, waiting, unwatered."
+            }
+          },
+          {
+            "word": "Erratic",
+            "angles": {
+              "drive": "Your energy arrives on a schedule no one, including you, can publish. Tuesday-you rewires the kitchen at midnight and Thursday-you cannot answer a text. Plans made in a bright phase get inherited by a dim one, and both phases sign your name with equal authority."
+            }
+          },
+          {
+            "word": "Distant",
+            "angles": {
+              "drive": "Your inner world drifted from the shared one by degrees. The interests nobody around you shares, the hours nobody keeps, the references that land on silence: each pulled you a little further offshore. People love you from the mainland. The commute between you has gotten long."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Visionary",
+        "Night-bright",
+        "Uncanny"
+      ],
+      "friction": [
+        "Obsessive",
+        "Erratic",
+        "Distant"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.cta_verdict",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "cta_verdict",
+      "candidate": "You hold yourself up from the inside, and what you decide on your own you keep longer than anything handed to you.",
+      "original": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "cta_verdict",
+      "candidate": "You measure yourself by the demands you meet rather than the comfort you keep, and over time you find pressure easier than peace.",
+      "original": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "cta_verdict",
+      "candidate": "You build and keep by moving rather than by standing in place, so the chance you take is usually the one already flowing past you.",
+      "original": "You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "cta_verdict",
+      "candidate": "You take ideas in through the people who carry them, so a warm teacher stays with you longer than a right one.",
+      "original": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "cta_verdict",
+      "candidate": "You would rather give one thing done properly than ten things done fast, and you are remembered for the one.",
+      "original": "You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent.",
+      "gate": "pass"
+    }
+  ]
+}

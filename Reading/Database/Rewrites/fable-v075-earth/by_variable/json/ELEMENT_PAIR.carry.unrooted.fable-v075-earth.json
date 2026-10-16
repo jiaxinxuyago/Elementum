@@ -1,0 +1,22 @@
+{
+  "$variable": "ELEMENT_PAIR.carry.unrooted",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "carry.unrooted",
+      "candidate": {
+        "clause": "No Earth of your own under the whole structure, so every stand you take is on borrowed footing.",
+        "remedy": "Make your own footing from routine, the same bed and meals daily."
+      },
+      "original": {
+        "clause": "The self stands without roots: steadiness performed, footing borrowed.",
+        "remedy": "Feed the self. Keep one promise until it is terrain."
+      },
+      "gate": "pass"
+    }
+  ]
+}

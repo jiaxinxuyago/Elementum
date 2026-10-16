@@ -1,0 +1,135 @@
+{
+  "$archetype": "木_七杀",
+  "axis": "ELEMENT_GOD",
+  "key": "木_七杀",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Clear under pressure",
+        "Takes charge",
+        "Pushes through"
+      ],
+      "friction": [
+        "Hard on yourself",
+        "Never switches off",
+        "Impossible to please"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clear under pressure",
+            "angles": {
+              "drive": "A hard moment is where your head goes clear. Being needed under pressure settles the strength you store, and you pick the crisis rather than the comfortable plan. Take each pressure, and take the rest after it just as seriously."
+            }
+          },
+          {
+            "word": "Takes charge",
+            "angles": {
+              "drive": "Taking charge is your answer to a job with no owner. Because waiting to be asked feels like wasting what you carry, you would rather run the thing badly than watch it run without you. Keep taking charge, and ask who else wanted it."
+            }
+          },
+          {
+            "word": "Pushes through",
+            "angles": {
+              "drive": "You push through what would send most people home. Giving up means admitting a limit, so you would sooner push through the pain than name it. Keep that strength, and name the limit out loud before your body names it for you."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hard on yourself",
+            "angles": {
+              "drive": "You hold yourself to a rule you would never give a friend. Wood asks more of your core than it holds, and the extra becomes blame aimed at yourself. It is worth remembering that you are hard on yourself from habit rather than judgment."
+            }
+          },
+          {
+            "word": "Never switches off",
+            "angles": {
+              "drive": "Switching off feels to you like a step down. Since Wood presses on more than your core takes in, you treat a pause as a gap to fill instead of a rest to take. Bear in mind that you lose nothing by sleeping on it."
+            }
+          },
+          {
+            "word": "Impossible to please",
+            "angles": {
+              "drive": "Being pleased is a thing you rarely let yourself be. Since the pressure on you never lets up, you pass it on as a standard rather than carry it as weight. Notice that you let almost nothing please you, and your praise has grown rare."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Hard-trained",
+            "angles": {
+              "drive": "Discipline shaped you the way wind shapes a coastal tree, early and permanently. The training you put yourself through would read as punishment in someone else’s diary. In yours it reads as Tuesday, and the strength it built shows in everything you hold up."
+            }
+          },
+          {
+            "word": "Focused",
+            "angles": {
+              "drive": "Aiming at one thing is your natural state, and everything else becomes background. When a goal locks in, the noise drops away like leaves in November: one target, one season, one line of growth. Scattered people orbit you just to remember what direction feels like."
+            }
+          },
+          {
+            "word": "Storm-tested",
+            "angles": {
+              "drive": "Hard weather already came for you, and you are still standing, which changed what pressure means. New crises get measured against old ones and usually lose. You bend, hold, and straighten, with the particular calm of wood that has already survived its worst forecast."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Severe",
+            "angles": {
+              "drive": "Your standards fall on people like frost, necessary in your mind, killing in effect. The praise is rare, the corrections are exact, and small errors get treated as character evidence. You are hardest on yourself, which is true, and which warms nobody."
+            }
+          },
+          {
+            "word": "Straining",
+            "angles": {
+              "drive": "Effort past sense is your signature strain. The bar goes up the moment you clear it, rest gets rescheduled, and your body files complaints your calendar refuses to read. Growth needs push, and push is the only gift you know how to give it."
+            }
+          },
+          {
+            "word": "Overdriven",
+            "angles": {
+              "drive": "Your engine has no idle. Rest feels like falling behind, holidays get converted into projects, and even recovery has metrics now. Somewhere the drive stopped being toward anything. It just drives, and you are both the driver and the surface being worn down."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Hard-trained",
+        "Focused",
+        "Storm-tested"
+      ],
+      "friction": [
+        "Severe",
+        "Straining",
+        "Overdriven"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}

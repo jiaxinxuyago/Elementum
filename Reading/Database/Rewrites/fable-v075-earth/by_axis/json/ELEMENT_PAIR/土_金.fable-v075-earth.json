@@ -1,0 +1,130 @@
+{
+  "$archetype": "土_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "土_金",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "mechanism": {
+      "base": "Ore grows in the ground, in the dark of the stone and the wet that the stone holds. The earth does not pour it out. It gives up a little of its own weight, and what comes loose is harder and brighter than anything the ground was by itself. Metal is what the soil makes that can hold a point, and say in one clean line what the hillside spent an age holding.",
+      "catalyst_turn": "With too little Metal, the ground keeps every bit of its ore, all that weight and patience and nothing coming out with a finished shape. Say one thing plainly before it is perfect.",
+      "friction_turn": "With too much Metal, the hill is hollowed out by its own ore, every thought coming out finished and pointed while the ground under it thins. Keep one opinion back and sleep on it."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The ground keeps every bit of its ore.",
+        "remedy": "Say one thing plainly before it is perfect."
+      },
+      "friction": {
+        "clause": "The hill is hollowed out by its own ore.",
+        "remedy": "Keep one opinion back and sleep on it."
+      },
+      "wide": {
+        "clause": "Metal is easy for you to reach, and the finished thing comes off you without strain.",
+        "remedy": "Use it. Make something and give it away."
+      },
+      "missing": {
+        "clause": "No ore comes out of this ground, so what you know stays known and never said.",
+        "remedy": "Borrow an ending. Set a date and hand over the rough draft."
+      },
+      "spared": {
+        "clause": "No ore leaves this ground, and the ground keeps its whole weight for itself.",
+        "remedy": "Leave it. Take things in before you put them out."
+      },
+      "thin": {
+        "clause": "A thin seam of ore, a small drain on ground that needs its weight.",
+        "remedy": "Keep it small. Say less and settle more."
+      },
+      "excess": {
+        "clause": "More ore than the ground can grow, and the soil that made it turns into something else.",
+        "remedy": "Dig less. Let the ground lie still and take in."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. As a catalyst, the gate opens too seldom. You finish for yourself ahead of giving, you keep the clever remark unsaid, and you are known for steadiness alone.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Metal gives it a hard finish, nothing left half done. As a friction, the gate never closes. You say the exact thing ahead of the kind one, and run out of yourself before you run out of words.",
+      "advise_catalyst": "You are more finished on the inside than anyone can tell from the outside. Give one thing you made to someone this month, as it is. Say the clever line out loud instead of saving it. Show a child or a beginner how you do something well. Sign one piece of work.",
+      "advise_friction": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You answer faster than you take in. Sit on one big question for a day before you reply. Read a page by someone you think is wrong."
+    },
+    "cta_verdict": "You put a thing out finished rather than early, and what you say gets kept longer than you expect."
+  },
+  "$original": {
+    "mechanism": {
+      "base": "Metal is born of earth: it gathers in the mountain's stone, condensed out of long pressure and deep moisture, the ground's patience arriving at a point. The mountain speaks rarely. When it does, what it says is ore, and every refined thing that leaves the rock carries the mountain's patience inside it.",
+      "catalyst_turn": "Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard.",
+      "friction_turn": "Run heavy, the mining never stops: everything minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit."
+    },
+    "carry": {
+      "catalyst": {
+        "clause": "The ore stays buried: depth with no expression, patience that never mints anything.",
+        "remedy": "Finish a piece, publish the standard."
+      },
+      "friction": {
+        "clause": "The mining never stops: everything minted, the mountain hollowed for output.",
+        "remedy": "Your silence is part of the deposit."
+      },
+      "wide": {
+        "clause": "You have plenty of Metal, the ore your mountain was keeping.",
+        "remedy": "Ship the piece that is already finished."
+      },
+      "missing": {
+        "clause": "The ore stays buried: patience that never mints anything.",
+        "remedy": "Borrow metal: finish one piece, say it once."
+      },
+      "spared": {
+        "clause": "Metal runs absent, and the mountain is not mined: nothing demanded, nothing hollowed.",
+        "remedy": "Keep the ore. Mint only what matters."
+      },
+      "thin": {
+        "clause": "Metal runs thin and unwanted: a small vein, easily left.",
+        "remedy": "Leave it in the ground."
+      },
+      "excess": {
+        "clause": "Too much metal changes the earth: the ground turned over for output until it is no longer ground.",
+        "remedy": "Stop mining. Let it settle."
+      }
+    },
+    "function": {
+      "definition_catalyst": "Metal is your Expression, and as a catalyst, it is your patience surfacing as precision: the exact word, the finished piece, the standard people quote after you leave. You speak rarely and it lands.",
+      "definition_friction": "Metal is your Expression, and as a friction, it is output demanded from reserves that fill slowly: more deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you.",
+      "advise_catalyst": "Scarcity is part of your signal, and shipping is the other part. Ship one polished thing a month, small is fine, finished is the point. Keep a file of your exact sentences. Volunteer the summary when talk runs long.",
+      "advise_friction": "A slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again."
+    },
+    "cta_verdict": "You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent."
+  },
+  "$gate_findings": {
+    "mechanism.base": "pass",
+    "mechanism.catalyst_turn": "pass",
+    "carry.catalyst": "pass",
+    "mechanism.friction_turn": "pass",
+    "carry.friction": "pass",
+    "carry.wide": "pass",
+    "carry.missing": "pass",
+    "carry.spared": "pass",
+    "carry.thin": "pass",
+    "carry.excess": "pass",
+    "function.definition_catalyst": "pass",
+    "function.definition_friction": "pass",
+    "function.advise_catalyst": "pass",
+    "function.advise_friction": "pass",
+    "cta_verdict": "pass"
+  },
+  "$trace": {
+    "mechanism": {
+      "base": "Earth feeds Metal, ore grows in the mountain: the ground gives up its own substance to make the one hard, finished thing it can say",
+      "catalyst_turn": "Expression scarce on an Earth core: the ore never leaves the ground, so what is held never gets a finish",
+      "friction_turn": "the excess idiom, Earth makes Metal and too much Metal changes the Earth: output drains the ground that made it"
+    },
+    "carry": {
+      "excess": "Earth makes Metal, and too much Metal changes the Earth: the soil that grew the ore stops being soil"
+    },
+    "function": {
+      "definition_catalyst": "Expression scarce: the Artisan's giving and the Virtuoso's performing both stay inside, so the Earth core is seen only as steady",
+      "definition_friction": "Expression in excess drains the Earth core: the Virtuoso's exact word outruns the Artisan's kind one, and the ground thins",
+      "advise_friction": "Fire tames Metal and is this core's Mind: intake before output, the Refill case"
+    }
+  }
+}

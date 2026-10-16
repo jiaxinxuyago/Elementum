@@ -1,0 +1,44 @@
+{
+  "$variable": "ELEMENT_PAIR.function.advise_friction",
+  "$generated_by": "fable-v075-earth",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "土_土",
+      "field": "function.advise_friction",
+      "candidate": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You mistake not moving for being right. Hand one decision to someone above you and live with it for a month. Meet one deadline somebody else set.",
+      "original": "Steadiness needs motion the way ground needs rain. Walk daily at the same hour until it is simply weather. Change one fixed habit each season purely to prove you can. Say yes to one invitation a month that mildly inconveniences you.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_木",
+      "field": "function.advise_friction",
+      "candidate": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so what presses on you turns into understanding. Let it soften what Wood presses on you. You read every demand as proof of falling short. Read one page on why the rule exists before you answer it. Sit in the sun a while.",
+      "original": "Care that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_水",
+      "field": "function.advise_friction",
+      "candidate": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. You begin more than you finish because stopping feels like losing. Sleep before you say yes to anything new. Eat one meal a day sitting down, with nothing open.",
+      "original": "A well-built channel does not need a warden. Automate the transfers and check monthly, on one fixed day. Archive whatever sat watched but untouched for ninety days. Let one week a quarter pass entirely unmonitored, and spend the attention on something that cannot be refreshed.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_火",
+      "field": "function.advise_friction",
+      "candidate": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Finish one small thing a week and give it away.",
+      "original": "Attention is the meal, and yours is being eaten as snacks. Cut the feeds to one sitting a day. Give the freed hour to one slow subject and stay a month. Let yourself be bored on purpose until depth becomes interesting again.",
+      "gate": "pass"
+    },
+    {
+      "cell": "土_金",
+      "field": "function.advise_friction",
+      "candidate": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You answer faster than you take in. Sit on one big question for a day before you reply. Read a page by someone you think is wrong.",
+      "original": "A slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again.",
+      "gate": "pass"
+    }
+  ]
+}

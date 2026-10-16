@@ -1,0 +1,135 @@
+{
+  "$archetype": "水_偏财",
+  "axis": "ELEMENT_GOD",
+  "key": "水_偏财",
+  "$generated_by": "fable-v075-earth-b",
+  "$handoff": "2026-10-16 batch-4-earth-core blind",
+  "$filed": "2026-10-16",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "adj_chips": {
+      "catalyst": [
+        "Sees it coming",
+        "Moves early",
+        "Shares freely"
+      ],
+      "friction": [
+        "Leaves too soon",
+        "Spends it fast",
+        "Looks past people"
+      ]
+    },
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Sees it coming",
+            "angles": {
+              "drive": "The chance you see soonest is usually the farthest away. Being first matters more to you than being settled, so you see the far chance while the near one blurs. Let the far view pull you, and see what is near before you go."
+            }
+          },
+          {
+            "word": "Moves early",
+            "angles": {
+              "drive": "The start of a venture is the part you love most. Moving early keeps you free, and you want freedom more than the payout at the end. Wait for one payout before you move on, and you learn what moving early is worth."
+            }
+          },
+          {
+            "word": "Shares freely",
+            "angles": {
+              "drive": "Whatever you have, you share before you count it. Open hands matter more than a full pocket to you, because what you keep never feels like yours. Share as you do, and let one gift a year be for you."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Leaves too soon",
+            "angles": {
+              "drive": "Leaving early is the move you trust most. The far chance always looks better than the one you stand in, so you leave before the mess of finishing starts. Keep in mind that the finish is where a chance turns into something you keep."
+            }
+          },
+          {
+            "word": "Spends it fast",
+            "angles": {
+              "drive": "A windfall never stays long. Spending it feels like the natural end of lucky money, and you spend it while it is here instead of letting it sit. It helps to remember that money left sitting becomes savings, and savings get you through dry months."
+            }
+          },
+          {
+            "word": "Looks past people",
+            "angles": {
+              "drive": "Looking past the people nearest you is a habit you barely notice. You look at the far more than at the close, since the far asks only for hope. It is easy to forget that whoever you look past is the one who stays."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$original": {
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Far-flowing",
+            "angles": {
+              "drive": "Your reach extends the way rivers extend, finding distant ground that stay-at-home currents never touch. The overseas client, the cousin of a stranger, the market two time zones away: your opportunities live at range, and distance has never once read as an obstacle to you."
+            }
+          },
+          {
+            "word": "Adaptive",
+            "angles": {
+              "drive": "You take the shape of whatever situation holds you, instantly and without losing yourself. The boardroom register, the market-stall banter, the funeral tone: each arrives on cue, native-sounding, no seams. Change of plans, change of country, change of fortune: you pour into the new container and proceed."
+            }
+          },
+          {
+            "word": "Magnetic",
+            "angles": {
+              "drive": "Opportunity and company drift toward you the way streams find the low ground. You do not chase the introduction, the invitation, the tip: they arrive, carried by people who felt like telling you first. Something about your current makes things want to join it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Up and down",
+            "angles": {
+              "drive": "Your fortunes rise and fall on currents you ride but never steer. The windfall month, the wipeout quarter, the rescue that arrives from nowhere, the loss that follows it out: your financial life reads like a tide chart with no moon to blame."
+            }
+          },
+          {
+            "word": "Ungrounded",
+            "angles": {
+              "drive": "Nothing anchors. The city is temporary, the job is a stepping stone, the relationship is seeing where things go, and this has been true for eleven years. Your life is all current and no bed. Movement this constant looks free from the shore. From inside, lately, it just looks like water."
+            }
+          },
+          {
+            "word": "Everywhere at once",
+            "angles": {
+              "drive": "Your energy spreads across so many channels that no single one carries real depth. The five ventures, the three cities, the dozen half-relationships: everything gets a trickle, and trickles evaporate. The delta looks impressive from above. At ground level, none of the streams can float a boat."
+            }
+          }
+        ]
+      }
+    },
+    "adj_chips": {
+      "catalyst": [
+        "Far-flowing",
+        "Adaptive",
+        "Magnetic"
+      ],
+      "friction": [
+        "Up and down",
+        "Ungrounded",
+        "Everywhere at once"
+      ]
+    }
+  },
+  "$gate_findings": {
+    "ledger[0]": "pass",
+    "ledger[3]": "pass",
+    "ledger[6]": "pass"
+  }
+}
