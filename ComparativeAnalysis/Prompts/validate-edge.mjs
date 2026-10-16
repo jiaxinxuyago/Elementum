@@ -1,6 +1,6 @@
 // THE EDGE GATE (ELEMENT_GOD.edge v4, the door): checks a filled edge skeleton.
 //   node validate-edge.mjs <file.json|dir> [--json] [--quiet]
-// Blocking (v6): the claim exact · the lead one sentence of 10-20 words with a lawful opener · the three domains equal to facts.ruling_domains in order · the metric one of the bars · the reader zone on the lead · a four-word run shared with any fact · "will never" · a virtue head or a capacity opener · "become a/an" · a lead repeated across the dir.
+// Blocking (v7): the claim exact · the lead 35-55 words in 3-6 sentences opening on You, with a short imperative, no It opener · the three domains equal to facts.ruling_domains in order · the metric one of the bars · the reader zone on the lead · a four-word run shared with any fact · "will never" · a virtue head or a capacity opener · "become a/an" · a lead repeated across the dir.
 import fs from 'node:fs'; import path from 'node:path';
 import { wc, zoneCheck, VIRTUE_HEAD } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet'); const asJson = argv.includes('--json');
@@ -13,10 +13,12 @@ export function validateEdge(file, seen = new Map()) {
   if (!v || typeof v !== 'object') return { file: path.basename(file), blocking: ['no value'], pass: false };
   if (v.claim !== f.claim_fixed) B.push(`claim: expected "${f.claim_fixed}", got "${v.claim}"`);
   const lead = String(v.lead || ''); const lw = wc(lead);
-  if (lw < 10 || lw > 20) B.push(`lead: ${lw} words (10-20)`);
-  if ((lead.match(/[.!?](\s|$)/g) || []).length !== 1) B.push('lead: one sentence');
-  if (!OPENER.test(lead)) B.push('lead: opener not lawful (It makes you / It is why you / It gives you / You are the one who)');
-  if (VIRTUE_HEAD.test(lead.replace(OPENER, '').trim())) B.push('lead: virtue head');
+  if (lw < 35 || lw > 55) B.push(`lead: ${lw} words (35-55)`);
+  const nS = (lead.match(/[.!?](\s|$)/g) || []).length; if (nS < 3 || nS > 6) B.push(`lead: ${nS} sentences (3-6)`);
+  if (!/^You\b/.test(lead)) B.push('lead: must open on You');
+  if (/\bIt (makes|is why|gives) you\b/.test(lead)) B.push('lead: an It opener');
+  const sents = lead.split(/(?<=[.!?])\s+/); if (!sents.some((x) => { const n = wc(x); return n >= 2 && n <= 4 && /^[A-Z][a-z]+\b/.test(x) && !/^(You|It|The|A|An)\b/.test(x); })) B.push('lead: no short imperative of two to four words');
+  if (VIRTUE_HEAD.test(lead.replace(/^You\s+(are|get|have)\s+/, '').trim())) B.push('lead: virtue head');
   if (CAPACITY.test(lead)) B.push('lead: capacity opener');
   if (/\bwill never\b/i.test(JSON.stringify(v))) B.push('a "will never" guarantee');
   if (/\bbecome an? \w+/i.test(JSON.stringify(v))) B.push('a field of work as an instruction ("become a")');
