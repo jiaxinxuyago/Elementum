@@ -96,7 +96,7 @@
             "word": "Too direct",
             "angles": {
               "drive": "Direct is the only setting you have for the truth. A softened answer feels like a lie you would have to keep up, so you say it exactly rather than gently. Being this direct, you make a fair point land harder than it has to.",
-              "cost_self": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. Remember that you lose the company you came for each time you say it that directly.",
+              "cost_self": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. You lose the company you came for each time you say it that directly.",
               "cost_others": "You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you skip the soft words rather than soften the point. You leave them a bruise the truth alone would not have left."
             }
           },
@@ -105,13 +105,13 @@
             "angles": {
               "drive": "Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. You spend your talking back on small rules and have none left for big ones.",
               "cost_self": "You talk back hardest to the people who correct you. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them. You win the back-and-forth and leave the lesson behind.",
-              "cost_others": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. Do not forget that you spend a little of their patience on every small fight."
+              "cost_others": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. You use up a little of their patience with every small fight."
             }
           },
           {
             "word": "Grades people",
             "angles": {
-              "drive": "Grading people is something you do without meaning to. A quick read of someone's worth feels safer than not knowing, so you grade them on sight rather than wait to be surprised. It is worth remembering that you grade yourself the same way.",
+              "drive": "Grading people is something you do without meaning to. A quick read of someone's worth feels safer than not knowing, so you grade them on sight rather than wait to be surprised. Remember that you owe no one a grade on first sight.",
               "cost_self": "Grading someone costs you what they know. Since you would rather be right about a person than learn from them, you stop listening at the grade. You learn almost nothing from a person once you have graded them.",
               "cost_others": "When you meet someone, you grade them before you greet them. The fast read feels more honest than the slow one, and you give people the grade instead of your attention. You rarely let anyone change the first grade you gave them."
             }
@@ -409,6 +409,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "When you meet someone, you grade them before you greet them. The fast read feels more honest than the slow one, and you give people the grade instead of your attention. Try to remember how rarely you let someone change the first grade you gave."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. Remember that you lose the company you came for each time you say it that directly."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. Do not forget that you spend a little of their patience on every small fight."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Grading people is something you do without meaning to. A quick read of someone's worth feels safer than not knowing, so you grade them on sight rather than wait to be surprised. It is worth remembering that you grade yourself the same way."
     }
   ]
 }

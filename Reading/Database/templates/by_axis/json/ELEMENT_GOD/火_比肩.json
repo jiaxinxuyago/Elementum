@@ -96,7 +96,7 @@
             "word": "Goes it alone",
             "angles": {
               "drive": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. You finish sooner and carry the full weight with no one to share it.",
-              "cost_self": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. You pay for every hand not taken out of your own rest, and your body remembers.",
+              "cost_self": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. Out of your own rest, you pay for every hand you turn down.",
               "cost_others": "Whenever a job splits two ways, you carry both ends alone. Holding it yourself matters more than keeping a peer in the loop, so you leave them nothing to carry. You keep your peers on the outside of work they wanted a share in."
             }
           },
@@ -105,13 +105,13 @@
             "angles": {
               "drive": "Being told is the one thing you cannot take. Your own read feels more solid than any second opinion, so you hold it rather than test it. You carry a wrong read for weeks that one honest word from a peer would have fixed.",
               "cost_self": "Staying uncorrected is a rule you keep at a price. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You end up paying for the same mistake twice, and the second time you pay alone.",
-              "cost_others": "You decide a peer's correction is wrong before you hear it. Staying uncorrected matters more than staying in step, so you hand their advice back. Worth remembering, you take from them their one small way of being useful to you."
+              "cost_others": "You decide a peer's correction is wrong before you hear it. Staying uncorrected matters more than staying in step, so you hand their advice back. Each time you hand it back, you take away a peer's chance to help you."
             }
           },
           {
             "word": "Walls people out",
             "angles": {
-              "drive": "You wall people out without meaning to, by needing nothing from them. Matching you is rare, so you keep your own company rather than settle. You shut out the right ones as fast as the wrong ones, and that is worth remembering.",
+              "drive": "You wall people out without meaning to, by needing nothing from them. Matching you is rare, so you keep your own company rather than settle. Keep in mind that you wanted a match all along, never a wall.",
               "cost_self": "Walling people out keeps your standard safe and your evenings empty. You hold out for company that matches instead of company nearby, since near enough feels like settling. You go without closeness, and closeness only grows where someone sees you at less than your best.",
               "cost_others": "You put the wall up highest when someone gets closest. Being seen fine from far matters more than being seen tired up close, so you hold a peer there. You leave them a friend they can see and never quite reach."
             }
@@ -425,6 +425,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "You put the wall up highest when someone gets closest. Being seen fine from far matters more than being seen tired up close, so you hold a peer there. Remember that you leave them a friend they can see and never quite reach."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. You pay for every hand not taken out of your own rest, and your body remembers."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You decide a peer's correction is wrong before you hear it. Staying uncorrected matters more than staying in step, so you hand their advice back. Worth remembering, you take from them their one small way of being useful to you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You wall people out without meaning to, by needing nothing from them. Matching you is rare, so you keep your own company rather than settle. You shut out the right ones as fast as the wrong ones, and that is worth remembering."
     }
   ]
 }

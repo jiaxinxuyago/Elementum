@@ -1,0 +1,974 @@
+[
+ {
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. It is worth remembering that you leave the credit you earned unspent.",
+  "after": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. You never let yourself spend the credit you earned."
+ },
+ {
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You teach them your harshness without ever meaning it for them.",
+  "after": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. Remember that you are allowed to take their kindness on a hard day."
+ },
+ {
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it.",
+  "after": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. You lose the closeness along with the pressure you keep out."
+ },
+ {
+  "cell": "土_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Pushing back is how you keep hold of yourself in a group. Since giving in feels like disappearing, you push against help as much as against orders. Remember that what you keep pushing away is help you needed.",
+  "after": "Pushing back is how you keep hold of yourself in a group. Since giving in feels like disappearing, you push against help as much as against orders. You end up pushing away the help you most needed."
+ },
+ {
+  "cell": "土_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You say too much to whoever let you speak. Because a thought feels wasted unless it is said, you take their turn as much as your own. You owe whoever you talked over the sentence you took.",
+  "after": "You say too much to whoever let you speak. Because a thought feels wasted unless it is said, you take their turn as much as your own. You leave the person beside you no chance to finish their own point."
+ },
+ {
+  "cell": "土_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Overdoing it is the only way you know to be sure of enough. Since plain and finished feels like settling, you make it bigger rather than call it done. Keep in mind that you take every extra out of your own strength.",
+  "after": "Overdoing it is the only way you know to be sure of enough. Since plain and finished feels like settling, you make it bigger rather than call it done. For every extra, you draw on your own strength."
+ },
+ {
+  "cell": "土_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. You owed them the small one now, the one with a use.",
+  "after": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. Remember that you are allowed to give them less, and sooner."
+ },
+ {
+  "cell": "土_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Getting ready is the part you control, so it is where you stay. You lose nothing today by preparing once more, while you risk everything on a first try. You pay for the readiness, remember, in chances that closed before you felt ready.",
+  "after": "Getting ready is the part you control, so it is where you stay. You lose nothing today by preparing once more, while you risk everything on a first try. You pay for each extra round in chances that closed before you felt ready."
+ },
+ {
+  "cell": "土_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. Remind yourself that you usually land where your first read put you, weeks later.",
+  "after": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later."
+ },
+ {
+  "cell": "土_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The second guess is where most of your time goes. Needing to feel certain first, you keep second-guessing a choice after the guessing stops helping. Worth keeping in mind, you second-guess to feel sure rather than be sure, and you lose sleep to the difference.",
+  "after": "The second guess is where most of your time goes. Needing to feel certain first, you keep second-guessing a choice after the guessing stops helping. You second-guess to feel sure rather than be sure, and you lose sleep to the difference."
+ },
+ {
+  "cell": "土_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You owe them the plain answer you already reached.",
+  "after": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. Remember that you are allowed to hand over the answer you reached."
+ },
+ {
+  "cell": "土_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Chasing the next chance costs you the one you hold now. Each new start takes the strength the last one needs, and you would rather begin again than finish. You already know that the chance in your hands closes while you are off chasing.",
+  "after": "Chasing the next chance costs you the one you hold now. Each new start takes the strength the last one needs, and you would rather begin again than finish. You let the chance in your hands close while you are off chasing."
+ },
+ {
+  "cell": "土_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "You chase the next chance before anyone is out of the last one. You want starting more than staying, and you give the new venture what you owed the old one. You leave someone holding each chance you chase past.",
+  "after": "You chase the next chance before anyone is out of the last one. You want starting more than staying, and you give the new venture what you owed the old one. You chase the rush of a start, never the chance itself."
+ },
+ {
+  "cell": "土_偏财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. Do not forget that you give each person in your plans the part of you the others left.",
+  "after": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. Remember that you are free to let a few options close."
+ },
+ {
+  "cell": "土_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Finishing is what you save for later. The last stretch costs you more than the first, and you open a new thing sooner than you close an old one. Hold onto the thought that the money and the credit sit at the end you leave.",
+  "after": "Finishing is what you save for later. The last stretch costs you more than the first, and you open a new thing sooner than you close an old one. You leave the money and the credit sitting at the end you skip."
+ },
+ {
+  "cell": "土_劫财",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. Remember that you are beaten far less often than you think, and you keep every one.",
+  "after": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You carry each loss for weeks after the contest itself is over."
+ },
+ {
+  "cell": "土_劫财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you put a friend on the losing side of a game they never entered. You leave with the point and a little less warmth.",
+  "after": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you turn an easy talk with a friend into a match. You leave with the point and a little less warmth."
+ },
+ {
+  "cell": "土_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You notice the money you did not keep last.",
+  "after": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You count the cost when the account runs dry."
+ },
+ {
+  "cell": "土_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. You spend the trust in a shared account faster than the balance.",
+  "after": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. Along with the money, you spend a plan you made together."
+ },
+ {
+  "cell": "土_正印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Most days you play safe without noticing you chose. Because you fear the unknown more than you mind being bored, you pick the safe one and call the boredom peace. You buy that peace, bear in mind, with the chances that wanted a yes.",
+  "after": "Most days you play safe without noticing you chose. Because you fear the unknown more than you mind being bored, you pick the safe one and call the boredom peace. You buy that peace with the chances you turn down untried."
+ },
+ {
+  "cell": "土_正印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Handed someone's plan to change the shared life, you play safe for both. Keeping things as they are matters more than any change, and you slow it down. You make them play safe at your speed, and your safe is not theirs.",
+  "after": "Handed someone's plan to change the shared life, you play safe for both. Keeping things as they are matters more than any change, and you slow it down. You guard the life you share, and their plan belongs to it too."
+ },
+ {
+  "cell": "土_正印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Your protection arrives before anyone asks. Because you find watching someone struggle harder than doing it for them, you protect them by taking over instead of letting them finish badly. It helps to remember that you take a lesson from them with every rescue.",
+  "after": "Your protection arrives before anyone asks. Because you find watching someone struggle harder than doing it for them, you protect them by taking over instead of letting them finish badly. With every rescue, you take a lesson away from them."
+ },
+ {
+  "cell": "土_正印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Reaching for the same old answer beats finding a fresh one. You trust what you were told over what you tested, so you stop asking early. You know you inherited those answers rather than earned them, and you own only what you earn.",
+  "after": "Reaching for the same old answer beats finding a fresh one. You trust what you were told over what you tested, so you stop asking early. You inherited those answers rather than earned them, and you own only what you earn."
+ },
+ {
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks.",
+  "after": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. You hand those openings to rules nobody checks."
+ },
+ {
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself.",
+  "after": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You want fairness for everyone, and being kind to one is part of it."
+ },
+ {
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking.",
+  "after": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. You are free to give the go-ahead yourself."
+ },
+ {
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given.",
+  "after": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. By staying put, you miss the years a better way would have given."
+ },
+ {
+  "cell": "土_正财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. Let yourself see that you rent space for things that give nothing back.",
+  "after": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. You rent space for things that give nothing back."
+ },
+ {
+  "cell": "土_正财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and you fill the home from the walls in. You charge the people at home for it in space.",
+  "after": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and you fill the home from the walls in. At heart, you want to feel safe, and the people at home are safety too."
+ },
+ {
+  "cell": "土_正财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. Be honest with yourself about how much more you can afford than you let yourself have.",
+  "after": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. You get to enjoy money that is already yours."
+ },
+ {
+  "cell": "土_正财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Keep it in view that you end up with the money and without the thing it was for.",
+  "after": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Left with the money, you go without the thing it was for."
+ },
+ {
+  "cell": "土_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. Remember that you lose sleep over what one question would have settled.",
+  "after": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. You lose sleep over what one question would have settled."
+ },
+ {
+  "cell": "土_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You mostly shut out people who did nothing to earn it. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Bear in mind how long you leave people waiting for a welcome you rarely give.",
+  "after": "Needing rest, you shut out everyone, the people closest to you included. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Keep in mind that you wanted the quiet, never the distance from those you love."
+ },
+ {
+  "cell": "土_食神",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Giving without stopping is how you avoid asking what you need. Because running low feels better than asking, you give the rest you needed to whoever is next in line. Remember that the rest you keep skipping is the supply the giving runs on.",
+  "after": "Giving without stopping is how you avoid asking what you need. Because running low feels better than asking, you give the rest you needed to whoever is next in line. You go without the rest the giving runs on."
+ },
+ {
+  "cell": "土_食神",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "You give to the people at home without stopping, and never leave them a turn. Since giving feels safer than needing, you take from them the chance to look after you. You owe them the closeness of giving back once in a while.",
+  "after": "You give to the people at home without stopping, and never leave them a turn. Since giving feels safer than needing, you take from them the chance to look after you. You want closeness, and their care for you is part of it."
+ },
+ {
+  "cell": "土_食神",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Drifting along at home means the steering is not yours. Since going with the day suits you more than setting it, you leave the people you live with the choices you skip. You hand them the weight with the choice, and that is worth remembering.",
+  "after": "Drifting along at home means the steering is not yours. Since going with the day suits you more than setting it, you leave the people you live with the choices you skip. Whatever you skip, you hand them the work of deciding and its weight."
+ },
+ {
+  "cell": "土_食神",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Being too soft is how you say you care. Because you put other people's comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You know the money and rest you give away do not come back.",
+  "after": "Being too soft is how you say you care. Because you put other people's comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You give away money and rest that never come back."
+ },
+ {
+  "cell": "木_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Remember that you would rather pay for a mistake than fix it, and only fixing helps.",
+  "after": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Wanting only to get it right, you would rather pay for a mistake than fix it."
+ },
+ {
+  "cell": "木_七杀",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. It is worth knowing that you hand them what is left of you.",
+  "after": "Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. At home, you give them whatever the day did not use."
+ },
+ {
+  "cell": "木_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. Know that you are pleased only by the next standard, never by the one just met.",
+  "after": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. You are allowed to be pleased by a standard you have already met."
+ },
+ {
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You know by now that talking back wins the moment and spends the week.",
+  "after": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You win the moment by talking back and spend the week on the repairs."
+ },
+ {
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Going too far is where you feel alive. You need a thing to be more than fine, so you go one step too far instead of stopping while it works. Just remember that going too far is how you lose the moment you started from.",
+  "after": "Going too far is where you feel alive. You need a thing to be more than fine, so you go one step too far instead of stopping while it works. You wanted the moment itself, and going too far is how you lose it."
+ },
+ {
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and the stop is yours to keep.",
+  "after": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past where they meant to stop. You spend their rest along with yours on the extra step."
+ },
+ {
+  "cell": "木_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chance that needed an answer this week, and remembering that beats another circle.",
+  "after": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chances that needed an answer this week, one careful lap at a time."
+ },
+ {
+  "cell": "木_偏印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. Bear in mind that what you keep in gets built on by no one, you included.",
+  "after": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea safe and lose the one thing you wanted from it, being known."
+ },
+ {
+  "cell": "木_偏印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing for days at what takes you a minute, and the minute is yours.",
+  "after": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing at what you think, the one thing they asked you for."
+ },
+ {
+  "cell": "木_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Hiding away protects what is growing in you. Because time alone feels like rest to you, you hide away rather than go out and keep the quiet past the point it helps. You pay for the shut door in closeness, and that is worth remembering.",
+  "after": "Hiding away protects what is growing in you. Because time alone feels like rest to you, you hide away rather than go out and keep the quiet past the point it helps. Behind the shut door, you pay in closeness for every hour of quiet."
+ },
+ {
+  "cell": "木_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Where you are is rarely what you chase. Because staying feels like being stuck rather than home, you chase the far plan with hours the near one needed. Remember that each chase costs you the venture already begun, and half a venture pays nothing.",
+  "after": "Where you are is rarely what you chase. Because staying feels like being stuck rather than home, you chase the far plan with hours the near one needed. You lose the venture already begun to each new chase, and half of one pays nothing."
+ },
+ {
+  "cell": "木_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Chasing the next thing keeps you alive. Since the new chance pulls more than the promised one, you chase it and leave the unfinished half to your partner. You give them the start you promised and none of the middle.",
+  "after": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to your partner. You keep the start of a shared plan and hand your partner the long middle."
+ },
+ {
+  "cell": "木_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Bear in mind that you meet the slow month too, with everything already spent.",
+  "after": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Spending for freedom, you meet the slow month with none of it left."
+ },
+ {
+  "cell": "木_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending in money never kept, as every thin month reminds you.",
+  "after": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending with savings you never get to keep."
+ },
+ {
+  "cell": "木_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose in money not kept the bet you did not need, a number worth remembering.",
+  "after": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose real money on bets you never needed to make."
+ },
+ {
+  "cell": "木_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. Remember that what you spend from the pot is also somebody's savings.",
+  "after": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. For the sake of moving, you let the pot pay for your speed."
+ },
+ {
+  "cell": "木_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and that is the part to hold onto.",
+  "after": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and the owing stays with you."
+ },
+ {
+  "cell": "木_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too.",
+  "after": "Ahead of asking, you spend what was pooled and settle the split later. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
+ },
+ {
+  "cell": "木_正印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where the win was going. You took a try that was theirs, and the win you handed them was never theirs.",
+  "after": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where the win was going. You take from them the try, and the pride of a win they reached alone."
+ },
+ {
+  "cell": "木_正印",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "You hold the people you have grown close tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You know that a person held too tight leaves, later and hurting more.",
+  "after": "You hold the people you have grown close tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out."
+ },
+ {
+  "cell": "木_正印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "With anyone you helped grow, you hold on past the moment they are ready. Being needed feels like love, and you keep them close rather than wave them off. You owe each one a leaving without guilt, and holding too tight takes it away.",
+  "after": "With anyone you helped grow, you hold on past the moment they are ready. Being needed feels like love, and you keep them close rather than wave them off. By holding on, you take from each of them a leaving without guilt."
+ },
+ {
+  "cell": "木_正印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You stay where you are known rather than go where you would grow. Being sheltered feels the same as being fine from inside, so staying put never looks like a choice. Staying put costs you the growing, and that part is worth noticing.",
+  "after": "You stay where you are known rather than go where you would grow. Being sheltered feels the same as being fine from inside, so staying put never looks like a choice. Staying put, you trade the growing for the comfort of the known."
+ },
+ {
+  "cell": "木_正印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "When those close to you want to move, you stay put and stall. Keeping things as they are feels safer than change, and you hold the family in place. You keep them a year past their leaving, and the year is their price.",
+  "after": "When those close to you want to move, you stay put and stall. Keeping things as they are feels safer than change, and you hold the family in place. You slow the move they wanted to the pace that feels safe to you."
+ },
+ {
+  "cell": "木_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Do not forget that you lose the judgment you never use, and the step up that needed it.",
+  "after": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed."
+ },
+ {
+  "cell": "木_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. It helps to remember that you hand them the page and keep yourself out.",
+  "after": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
+ },
+ {
+  "cell": "木_正官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. Over time, you leave the people around you with ideas they no longer bother to share.",
+  "after": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. You leave the people around you holding ideas you never heard."
+ },
+ {
+  "cell": "木_正官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Know that you want the order more than the answer, and the job needs the answer.",
+  "after": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Underneath the ranking, you want a safe place more than the right answer."
+ },
+ {
+  "cell": "木_正财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. Bear in mind what staying costs, the better love or pay you never looked for.",
+  "after": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. By staying, you miss the better love or pay you never looked for."
+ },
+ {
+  "cell": "木_正财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you give your partner your staying instead of your honesty. You hold back the honest answer and cost your partner the years they wait for it.",
+  "after": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend your partner's years along with your own."
+ },
+ {
+  "cell": "木_正财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You know by now that you demand proof to avoid hurt, and waiting to trust is its own small hurt.",
+  "after": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You only want to be safe from hurt, and the long wait for proof hurts too."
+ },
+ {
+  "cell": "木_正财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Remember what proof costs you before you trust, closeness not had and years already gone.",
+  "after": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Holding out, you lose the closeness and the years that waiting for proof uses up."
+ },
+ {
+  "cell": "木_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. Keep in mind that not asking spares everyone except you.",
+  "after": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load."
+ },
+ {
+  "cell": "木_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Remember that you take from them, by being right, the pleasure of ever changing your mind.",
+  "after": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Each time you win the point, you cost them the pleasure of changing your mind."
+ },
+ {
+  "cell": "木_比肩",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. You keep out the very closeness you keep missing, and it helps to know that.",
+  "after": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. Out of reach, you miss the very closeness you keep out."
+ },
+ {
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. Keep in mind that coasting carries you a long way and never quite to the finish.",
+  "after": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. You coast a long way on ease and stop just short of the finish."
+ },
+ {
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give your family agreement instead of your real answer. You owe the people you love the honest no you never say.",
+  "after": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you agree to whatever your family asks rather than weigh what you have left. Never saying no, you hand your family none of your own wishes."
+ },
+ {
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. What you put second to comfort is usually what you wanted most, and you know it.",
+  "after": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. You put second to comfort the very thing you wanted most."
+ },
+ {
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "You put comfort first for those in your care too. Keeping a child happy now is easier than keeping them well later, so you pick pleasant hours over useful ones. You are choosing their later as well as their now, whatever it feels like today.",
+  "after": "You put comfort first for those in your care too. You would rather see a child happy now than stretched, so you pick pleasant hours over useful ones. You trade the effort they would grow on for an hour of ease."
+ },
+ {
+  "cell": "水_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in. Remember that you stay in the cold as long as anyone you put there.",
+  "after": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in. Keep in mind that you go cold wanting someone to come and find you."
+ },
+ {
+  "cell": "水_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and it is worth remembering what that costs in closeness.",
+  "after": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and you lose closeness with every cold day."
+ },
+ {
+  "cell": "水_七杀",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You land the hardness on them too, and it was not theirs to carry.",
+  "after": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You bring that line home and leave them no pass for a bad day."
+ },
+ {
+  "cell": "水_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You never let up, on anything or anyone. Since letting up feels like losing, you keep the pressure on rather than call the job done. You cannot feel finished until you let up on the thing you finished, and that is worth keeping in mind.",
+  "after": "You never let up, on anything or anyone. Since letting up feels like losing, you keep the pressure on rather than call the job done. Remember that you are allowed to let up once a thing is finished."
+ },
+ {
+  "cell": "水_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up costs them the evenings you gave up, and only you chose it.",
+  "after": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up, you spend their evenings as freely as your own."
+ },
+ {
+  "cell": "水_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You mock the people you are proudest of, because plain pride is too much. Sounding mocking rather than moved, you hand them praise with no way to keep it. Say the kind thing plainly, since the mocking is the part not worth keeping.",
+  "after": "You mock the people you are proudest of, because plain pride is too much. Sounding mocking rather than moved, you hand them praise with no way to keep it. You keep back the plain words they needed to hear."
+ },
+ {
+  "cell": "水_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight ahead of asking why. It is worth remembering that you pick the fight more often than it picks you.",
+  "after": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight ahead of asking why. Keep in mind that asking why first does not make you smaller."
+ },
+ {
+  "cell": "水_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Pick the same fight in private first and lose nothing.",
+  "after": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Underneath, you want to be heard as an equal."
+ },
+ {
+  "cell": "水_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. Keep in mind that you lose chances this way without a sound, and sleep with them.",
+  "after": "Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. You let chances close this way without a sound, and you lose sleep over them."
+ },
+ {
+  "cell": "水_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You already know that you trade closeness for that thread, and closeness does not wait.",
+  "after": "Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You trade closeness for that thread each time, and closeness does not wait."
+ },
+ {
+  "cell": "水_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and the money you go without is worth remembering.",
+  "after": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and you walk away with none of it."
+ },
+ {
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Bear in mind that every race you never named is one you run alone.",
+  "after": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. With the race never named, you run it alone and finish it alone."
+ },
+ {
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "In secret, you make a friend a rival without telling them. You hide the race rather than risk them knowing, and they lose ground with no chance to answer. You sign them up for a race they never chose to run.",
+  "after": "In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you openly."
+ },
+ {
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You keep them beside you with one question asked before you spend.",
+  "after": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You want everyone looked after, and some of that comes out of their share."
+ },
+ {
+  "cell": "水_正印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Drifting keeps the days quiet, and quiet feels like care. Stirring nothing costs less than reaching, and you renew the lease rather than ask what you want. Do not lose sight of how little you learn of your own wants while nothing changes at home.",
+  "after": "Drifting keeps the days quiet, and quiet feels like care. Stirring nothing costs less than reaching, and you renew the lease rather than ask what you want. You learn very little about your own wants while nothing at home changes."
+ },
+ {
+  "cell": "水_正印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You over-protect the people you love from what they could survive. Watching someone struggle hurts you more than doing it for them, so the help comes before the asking. Keep in mind how completely you can protect someone, until not even the lesson reaches them.",
+  "after": "You over-protect the people you love from what they could survive. Watching someone struggle hurts you more than doing it for them, so the help comes before the asking. Remember that you love them just as much when you let them struggle."
+ },
+ {
+  "cell": "水_正印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Over-protecting the ones you love never rests. Taking the hit for someone is easier for you than watching them take it, so you carry what was never yours. Bear in mind what you pay in rest for every hit you absorb for another person.",
+  "after": "Over-protecting the ones you love never rests. Taking the hit for someone is easier for you than watching them take it, so you carry what was never yours. You pay in lost rest for every hit you absorb for someone else."
+ },
+ {
+  "cell": "水_正官",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. Remember that playing it safe has a price, and you pay it in chances never taken.",
+  "after": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. You pay for playing it safe in chances you never took."
+ },
+ {
+  "cell": "水_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail, and the real answer stays yours. You put their plans on hold for as long as you hesitate.",
+  "after": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail. You put their plans on hold for as long as you hesitate."
+ },
+ {
+  "cell": "水_正官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and you set that clock.",
+  "after": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Each day you hold out for permission, you spend one of theirs as well."
+ },
+ {
+  "cell": "水_正财",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "You hold money back long after holding it back makes sense. Having it in the pool feels safer than having it out, so you hold it rather than use it. Remember that money held back is only safe until the day it is needed.",
+  "after": "You hold money back long after holding it back makes sense. Having it in the pool feels safer than having it out, so you hold it rather than use it. Remember that you were after the safety more than the money."
+ },
+ {
+  "cell": "水_正财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Waiting too long keeps you from being wrong. You want the sure yes more than the early one, and you wait until the choice makes itself. Do not forget that the price of waiting is the deals and people that stopped waiting for you.",
+  "after": "Waiting too long keeps you from being wrong. You want the sure yes more than the early one, and you wait until the choice makes itself. Waiting this long, you lose the deals and the people that stopped waiting for you."
+ },
+ {
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you are only warm to the people who can reach you.",
+  "after": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you want someone to reach you all the same."
+ },
+ {
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. Do not forget that you keep a peer at a distance every time you refuse their help.",
+  "after": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. You leave your peers at a distance, with nothing of yours to help with."
+ },
+ {
+  "cell": "火_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. Bear in mind that being this hard on yourself costs you days off never taken.",
+  "after": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. You lose the days off you never let yourself take."
+ },
+ {
+  "cell": "火_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You take that harshness home and leave the people you love no soft place to rest.",
+  "after": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You bring that standard home and leave the people you love nowhere to be less than their best."
+ },
+ {
+  "cell": "火_七杀",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. Before the next push, remember that you are harder to be close to than to follow.",
+  "after": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. You take away their chance to reach the answer at their own pace."
+ },
+ {
+  "cell": "火_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Worth remembering, you talk yourself out of the chances you wanted most.",
+  "after": "Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Over time, you talk yourself out of the chances you wanted most."
+ },
+ {
+  "cell": "火_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone ahead of the need. You leave them holding a fight they never brought.",
+  "after": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone ahead of the need. Each time, you leave them without the simple answer they came for."
+ },
+ {
+  "cell": "火_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "You need an audience more than you need to be right. Being seen is how you know you exist, and you take being watched doing badly over doing well alone. You are the one left behind when the audience goes home.",
+  "after": "You need an audience more than you need to be right. Being seen is how you know you exist, and you take being watched doing badly over doing well alone. Remember that you are just as real with no one watching."
+ },
+ {
+  "cell": "火_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. Remember, you take their evening and hand back a show.",
+  "after": "What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. You take a friend's evening and give back a show instead."
+ },
+ {
+  "cell": "火_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You overdo it, and you know it while you do. You never feel enough as a real amount, so you push a thing past its best rather than stop there. Mind that you run out well before the thing does.",
+  "after": "You overdo it, and you know it while you do. You never feel enough as a real amount, so you push a thing past its best rather than stop there. You are allowed to stop where a thing is at its best."
+ },
+ {
+  "cell": "火_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "One idea at a time gets the whole of you. You feel awake only inside one subject, so you follow it all the way down instead of keeping the rest of the week going. Keep in mind that your life waits where you left it.",
+  "after": "One idea at a time gets the whole of you. You feel awake only inside one subject, so you follow it all the way down instead of keeping the rest of the week going. You were only ever chasing the feeling of being awake."
+ },
+ {
+  "cell": "火_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "One subject at a time is how you take things in. You give it the hours meant for sleep rather than a stopping point, since you feel awake nowhere else. Do not forget that the rest you skip never comes back as insight.",
+  "after": "One subject at a time is how you take things in. You give it the hours meant for sleep rather than a stopping point, since you feel awake nowhere else. In the end, you lose more sleep than any subject gives back."
+ },
+ {
+  "cell": "火_偏印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Starting something together, you give it all of you until the switch goes off. You pull a friend in at full strength rather than a pace that lasts, so the plan outlives your part. Remember as well that you leave someone holding what you started.",
+  "after": "Starting something together, you give it all of you until the switch goes off. You pull a friend in at full strength rather than a pace that lasts, so the plan outlives your part. You leave your friend to carry the plan on alone."
+ },
+ {
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. Do not forget that every chase costs them the ending you promised.",
+  "after": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. From your partners, you take the ending they were working toward."
+ },
+ {
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back.",
+  "after": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take away their say in shared money with each fast spend."
+ },
+ {
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last.",
+  "after": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. Keep in mind that you are allowed to be home while you are home."
+ },
+ {
+  "cell": "火_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Hating to lose keeps you in every contest long after it stops paying. You would sooner stay in a losing race than be the first to step off, so you stay. Remember that you give up sleep for every race you refuse to leave.",
+  "after": "Hating to lose keeps you in every contest long after it stops paying. You would sooner stay in a losing race than be the first to step off, so you stay. For every race you refuse to leave, you give up a night of sleep."
+ },
+ {
+  "cell": "火_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. You are the one person timing this race, and you forget it most days.",
+  "after": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. As the only one timing this race, you are free to call it done."
+ },
+ {
+  "cell": "火_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. You repay every skipped rest later and at a higher price, bear that in mind.",
+  "after": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. Later you repay every skipped rest, and at a higher price."
+ },
+ {
+  "cell": "火_正印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "When something goes wrong, you take it to whoever holds you up. Being carried feels kinder to you than managing alone, and you add your weight on top of their own. Notice that you are leaning on someone who is also tired.",
+  "after": "When something goes wrong, you take it to whoever holds you up. Being carried feels kinder to you than managing alone, and you add your weight on top of their own. Leaning on them, you use up the rest they were saving for themselves."
+ },
+ {
+  "cell": "火_正印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy ahead of what you want. Without noticing, you trade the life you meant to have for a smaller one.",
+  "after": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy ahead of what you want. Bit by bit, you trade the life you meant to have for a smaller one."
+ },
+ {
+  "cell": "火_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Between a rule and a chance, you take the rule. You put being correct ahead of being free, so your career keeps the rules and never jumps. Bear in mind that you keep each rule at the price of jobs you never went for.",
+  "after": "Between a rule and a chance, you take the rule. You put being correct ahead of being free, so your career keeps the rules and never jumps. Along the way, you lose out on the jobs you never went for."
+ },
+ {
+  "cell": "火_正官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Hiding every slip is how you serve those who depend on you. Since a visible slip reads as failed duty, you offer them a composed self ahead of a true one. Before hiding the next slip, remember that you take their chance to help.",
+  "after": "Hiding every slip is how you serve those who depend on you. Since a visible slip reads as failed duty, you offer them a composed face ahead of a tired one. You leave them no way to help you carry it."
+ },
+ {
+  "cell": "火_正官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes ahead of getting home, you trade sleep for another duty. You are nobody's standard once you run out of sleep to say yes with, and that is worth remembering.",
+  "after": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes ahead of getting home, you trade sleep for another duty. By the end of most weeks, you are short of sleep and of the strength to say yes."
+ },
+ {
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Counting keeps the fear quiet and the pleasure quieter. You want to know what you have more than to use it, so the money sits counted and unspent. Worth remembering that you give up the use of your savings while busy adding them up.",
+  "after": "Counting keeps the fear quiet and the pleasure quieter. You want to know what you have more than to use it, so the money sits counted and unspent. Busy adding up your savings, you give up the use of them."
+ },
+ {
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, so your partner's bigger ideas wait. You lose little safety by saying yes to one small shared plan a year.",
+  "after": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, so your partner's bigger ideas wait. Remember that you make every safe call to protect what you share."
+ },
+ {
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Keeping yourself back spares you hurt and costs you being known. You would rather hold back part of yourself than give the whole, so you stay half known. Remember that the closeness itself is what you lose, since what you keep back cannot be held.",
+  "after": "Keeping yourself back spares you hurt and costs you being known. You would rather hold back part of yourself than give the whole, so you stay half known. You lose the closeness itself, since nobody can hold what you keep back."
+ },
+ {
+  "cell": "火_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. You pay for every hand not taken out of your own rest, and your body remembers.",
+  "after": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. Out of your own rest, you pay for every hand you turn down."
+ },
+ {
+  "cell": "火_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "You decide a peer's correction is wrong before you hear it. Staying uncorrected matters more than staying in step, so you hand their advice back. Worth remembering, you take from them their one small way of being useful to you.",
+  "after": "You decide a peer's correction is wrong before you hear it. Staying uncorrected matters more than staying in step, so you hand their advice back. Each time you hand it back, you take away a peer's chance to help you."
+ },
+ {
+  "cell": "火_比肩",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You wall people out without meaning to, by needing nothing from them. Matching you is rare, so you keep your own company rather than settle. You shut out the right ones as fast as the wrong ones, and that is worth remembering.",
+  "after": "You wall people out without meaning to, by needing nothing from them. Matching you is rare, so you keep your own company rather than settle. Keep in mind that you wanted a match all along, never a wall."
+ },
+ {
+  "cell": "火_食神",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Do not forget that you pay for each refused rest with your health.",
+  "after": "Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Each rest you turn down, you pay for later with your health."
+ },
+ {
+  "cell": "火_食神",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Try to remember that you leave them carrying choices you were meant to share.",
+  "after": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Day after day, you leave them to make the choices for you both."
+ },
+ {
+  "cell": "火_食神",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. Keep hold of this, that you run the pleasure on yourself and it puts nothing back.",
+  "after": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. You were after feeling alive all along, and pleasure was only the quickest way."
+ },
+ {
+  "cell": "金_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. Bear in mind that being this hard costs you credit never claimed and rest never taken.",
+  "after": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken."
+ },
+ {
+  "cell": "金_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Take note that you are using force with every push, whether you mean it kindly or not.",
+  "after": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Keep in mind that you are free to let a slow thing take its time."
+ },
+ {
+  "cell": "金_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You live in the body you push, and that is worth remembering.",
+  "after": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You run your own body down to keep every push going."
+ },
+ {
+  "cell": "金_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. You push them toward a good they never got to choose for themselves.",
+  "after": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. With every push, you take from them the chance to get there at their own pace."
+ },
+ {
+  "cell": "金_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. Remember that you lose the company you came for each time you say it that directly.",
+  "after": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. You lose the company you came for each time you say it that directly."
+ },
+ {
+  "cell": "金_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. Do not forget that you spend a little of their patience on every small fight.",
+  "after": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. You use up a little of their patience with every small fight."
+ },
+ {
+  "cell": "金_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Grading people is something you do without meaning to. A quick read of someone's worth feels safer than not knowing, so you grade them on sight rather than wait to be surprised. It is worth remembering that you grade yourself the same way.",
+  "after": "Grading people is something you do without meaning to. A quick read of someone's worth feels safer than not knowing, so you grade them on sight rather than wait to be surprised. Remember that you owe no one a grade on first sight."
+ },
+ {
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping.",
+  "after": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person."
+ },
+ {
+  "cell": "金_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You already know moving on leaves more money behind than new ventures bring in.",
+  "after": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You leave more money behind by moving on than new ventures bring in."
+ },
+ {
+  "cell": "金_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. You make your partners start over each time, and only you chose to go.",
+  "after": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. Each time you move on, you leave your partners starting over."
+ },
+ {
+  "cell": "金_偏财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You signed each of them up for all of you, and spread thin you show up in slices.",
+  "after": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You give every partner less of you than the shared venture needs."
+ },
+ {
+  "cell": "金_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. It helps to remember that spending it all leaves you empty-handed for the next chance.",
+  "after": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. Remember that you are allowed to let money sit until the right chance comes."
+ },
+ {
+  "cell": "金_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. The thing to remember is that you spend what your family counts on for later.",
+  "after": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. You spend the money your family was counting on for later."
+ },
+ {
+  "cell": "金_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of returning them, you hand the people you love a bill. You turn their gifts into debts and never tell them the price.",
+  "after": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of simply returning them, every gift to you arrives with a price attached. Keep in mind that you wanted the closeness long before you wanted the score."
+ },
+ {
+  "cell": "金_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Coming second sours the whole day for you. Being beaten feels like being replaced, and you hate the loss rather than learn from it. You give the loss the entire evening, remember, and get neither the rest nor the lesson back.",
+  "after": "Coming second sours the whole day for you. Being beaten feels like being replaced, and you hate the loss instead of learning from it. You give the loss the entire evening and get neither the rest nor the lesson back."
+ },
+ {
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. Remember that you lose the place meant for you to someone who felt ready sooner.",
+  "after": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. You pass up the place meant for you for one more year of learning."
+ },
+ {
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. Bear in mind, you trade your own rest for a lesson they never get to learn.",
+  "after": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. You lose your own rest to every risk you take off their hands."
+ },
+ {
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety where they wanted faith, and faith was cheaper.",
+  "after": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety and take away their own first steps."
+ },
+ {
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Keep in mind that you are correcting someone who only came to be loved.",
+  "after": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Remember that you are allowed to sit with a sad thing and fix nothing."
+ },
+ {
+  "cell": "金_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed, and that bill deserves remembering.",
+  "after": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed."
+ },
+ {
+  "cell": "金_正官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong, and that right is worth remembering.",
+  "after": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong."
+ },
+ {
+  "cell": "金_正财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. Never forget that the safe life you play for is only half yours to keep.",
+  "after": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. Remember that you care more for the partner than for the safe plan."
+ },
+ {
+  "cell": "金_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. Do not forget that every sealed hurt costs you evenings you could have shared.",
+  "after": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. You carry each hurt alone, and you lose evenings you could have shared."
+ },
+ {
+  "cell": "金_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. You leave your peers loving a version of you that never needs them.",
+  "after": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. Remember that you meant to seal out the hurt, never your peers."
+ },
+ {
+  "cell": "金_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix ahead of the question. Bear in mind what you take from your peers, the chance to be right now and again.",
+  "after": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix ahead of the question. You leave your peers no turn at being right."
+ },
+ {
+  "cell": "金_比肩",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Where a job is heavy, you take it all instead of asking for half. To prove you are enough, you carry it alone and spend sleep before spending one question. As you know, you pay in lost sleep for help you never ask for.",
+  "after": "Where a job is heavy, you take it all instead of asking for half. To prove you are enough, you carry it alone and spend sleep before spending one question. You pay in lost sleep for help you never ask for."
+ },
+ {
+  "cell": "金_食神",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Bear in mind that you never try the hard parts while taking it easy.",
+  "after": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried."
+ },
+ {
+  "cell": "金_土",
+  "field": "function.definition_friction",
+  "before": "Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of letting go. Remember that you sit on finished work past its time.",
+  "after": "Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of letting go. You sit on finished work long past its time."
+ },
+ {
+  "cell": "金_木",
+  "field": "function.definition_friction",
+  "before": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. Remember that you run out before your plans do.",
+  "after": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. You wear yourself out before your plans are finished."
+ },
+ {
+  "cell": "金_水",
+  "field": "function.definition_friction",
+  "before": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and you give what you meant to keep or say more than you know. Remember that you run empty before you run quiet.",
+  "after": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and you give what you meant to keep or say more than you know. You run empty long before you run quiet."
+ },
+ {
+  "cell": "金_火",
+  "field": "function.definition_friction",
+  "before": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up until you obey a crisis ahead of rest and a rule over your judgment. Remember you mistake pressure on yourself for discipline.",
+  "after": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up until you obey a crisis ahead of rest and a rule over your judgment. You end up tired and doubting your judgment."
+ },
+ {
+  "cell": "金_金",
+  "field": "function.definition_friction",
+  "before": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. Remember that you trade a peer for each argument won.",
+  "after": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. You lose a peer for each argument you win."
+ }
+]

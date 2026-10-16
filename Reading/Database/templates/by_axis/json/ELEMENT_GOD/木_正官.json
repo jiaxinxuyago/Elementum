@@ -96,8 +96,8 @@
             "word": "By the book",
             "angles": {
               "drive": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. Each time the book decides, you give up a chance to trust yourself.",
-              "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Do not forget that you lose the judgment you never use, and the step up that needed it.",
-              "cost_others": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. It helps to remember that you hand them the page and keep yourself out."
+              "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed.",
+              "cost_others": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
             }
           },
           {
@@ -105,13 +105,13 @@
             "angles": {
               "drive": "You never bend, whatever the day asks. Because standing firm feels safer to you, you brace against a change of plan rather than lean into it. You stay loyal to the old plan long after it has stopped working.",
               "cost_self": "Never bending keeps you honest and keeps you tired. Since a new plan feels like being pushed, you hold your shape instead of saving your strength. You lose every chance that arrives as a change, and you lose it by refusing to bend.",
-              "cost_others": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. Over time, you leave the people around you with ideas they no longer bother to share."
+              "cost_others": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. You leave the people around you holding ideas you never heard."
             }
           },
           {
             "word": "Rank comes first",
             "angles": {
-              "drive": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Know that you want the order more than the answer, and the job needs the answer.",
+              "drive": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Underneath the ranking, you want a safe place more than the right answer.",
               "cost_self": "Even when the one being ranked is you, rank comes first. Since a title tells you how well you are doing, you choose rank ahead of liking your work. You keep moving up into jobs you would not pick for the work alone.",
               "cost_others": "In how you treat people, rank comes first. Because order feels safer than equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
             }
@@ -377,6 +377,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
       "replaced": "Rollouts route around you by design now, with your section handled last and by specific patient people. You experience this as respect for your seniority. It is partly that, and partly the org chart drawing a fence around the place where change goes to stall."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Do not forget that you lose the judgment you never use, and the step up that needed it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. It helps to remember that you hand them the page and keep yourself out."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. Over time, you leave the people around you with ideas they no longer bother to share."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Know that you want the order more than the answer, and the job needs the answer."
     }
   ]
 }

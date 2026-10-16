@@ -96,22 +96,22 @@
             "word": "Talks back",
             "angles": {
               "drive": "Talking back comes faster to you than letting it pass. Being told what to do feels like shrinking, and you talk back rather than let a rule stand. You win the moment and spend goodwill you will need the next time you ask for something.",
-              "cost_self": "Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Worth remembering, you talk yourself out of the chances you wanted most.",
-              "cost_others": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone ahead of the need. You leave them holding a fight they never brought."
+              "cost_self": "Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Over time, you talk yourself out of the chances you wanted most.",
+              "cost_others": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone ahead of the need. Each time, you leave them without the simple answer they came for."
             }
           },
           {
             "word": "Needs an audience",
             "angles": {
-              "drive": "You need an audience more than you need to be right. Being seen is how you know you exist, and you take being watched doing badly over doing well alone. You are the one left behind when the audience goes home.",
+              "drive": "You need an audience more than you need to be right. Being seen is how you know you exist, and you take being watched doing badly over doing well alone. Remember that you are just as real with no one watching.",
               "cost_self": "Without an audience, you will not start. Practicing alone feels like wasted effort, and you save the real work for a crowd rather than do it unseen. You lose the quiet practice that your talent needs most to grow.",
-              "cost_others": "What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. Remember, you take their evening and hand back a show."
+              "cost_others": "What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. You take a friend's evening and give back a show instead."
             }
           },
           {
             "word": "Overdoes it",
             "angles": {
-              "drive": "You overdo it, and you know it while you do. You never feel enough as a real amount, so you push a thing past its best rather than stop there. Mind that you run out well before the thing does.",
+              "drive": "You overdo it, and you know it while you do. You never feel enough as a real amount, so you push a thing past its best rather than stop there. You are allowed to stop where a thing is at its best.",
               "cost_self": "Overdoing it is how you get a thing noticed. You feel safer with more than with enough, and you give a small occasion the full show. You pay with the body for each full show, and the bill never fails to arrive after the applause.",
               "cost_others": "For people who asked for little, you overdo it anyway. You feel a plain yes as too little, so you hand them the full production instead of what they named. You load them with more than they wanted, plus the work of thanking you."
             }
@@ -417,6 +417,46 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "For people who asked for little, you overdo it anyway. You feel a plain yes as too little, so you hand them the full production instead of what they named. Keep track of the extra you leave them to carry beyond what was asked."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Worth remembering, you talk yourself out of the chances you wanted most."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone ahead of the need. You leave them holding a fight they never brought."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You need an audience more than you need to be right. Being seen is how you know you exist, and you take being watched doing badly over doing well alone. You are the one left behind when the audience goes home."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. Remember, you take their evening and hand back a show."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You overdo it, and you know it while you do. You never feel enough as a real amount, so you push a thing past its best rather than stop there. Mind that you run out well before the thing does."
     }
   ]
 }

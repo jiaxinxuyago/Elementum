@@ -95,7 +95,7 @@
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Remember that you would rather pay for a mistake than fix it, and only fixing helps.",
+              "drive": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Wanting only to get it right, you would rather pay for a mistake than fix it.",
               "cost_self": "To you, being hard on yourself is the honest way to improve. You put every slip on trial in your head, so you replay the mistake instead of resting once the work is done. You pay for it in the rest you never take.",
               "cost_others": "Being hard on yourself does not stay inside you. Since you treat your own slips as weakness, you hold the people close to you to the same rule more than you say. You teach them to hide their small mistakes from you."
             }
@@ -105,13 +105,13 @@
             "angles": {
               "drive": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You spend your evenings at home on guard and gain nothing that rest would not.",
               "cost_self": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. You trade your sleep for that open job and never get the hours back.",
-              "cost_others": "Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. It is worth knowing that you hand them what is left of you."
+              "cost_others": "Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. At home, you give them whatever the day did not use."
             }
           },
           {
             "word": "Impossible to please",
             "angles": {
-              "drive": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. Know that you are pleased only by the next standard, never by the one just met.",
+              "drive": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. You are allowed to be pleased by a standard you have already met.",
               "cost_self": "Being impossible to please makes help hard to accept. Since good enough never feels safe to you, you redo what you are handed rather than let it please you. You end up carrying alone the work you would not let anyone share.",
               "cost_others": "Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard. You walk away with their ease and leave them guessing what would please you."
             }
@@ -407,6 +407,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. Do not forget that you trade sleep for it and never get it back."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Remember that you would rather pay for a mistake than fix it, and only fixing helps."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. It is worth knowing that you hand them what is left of you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. Know that you are pleased only by the next standard, never by the one just met."
     }
   ]
 }

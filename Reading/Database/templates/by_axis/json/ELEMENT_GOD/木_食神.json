@@ -95,7 +95,7 @@
           {
             "word": "Coasts along",
             "angles": {
-              "drive": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. Keep in mind that coasting carries you a long way and never quite to the finish.",
+              "drive": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. You coast a long way on ease and stop just short of the finish.",
               "cost_self": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. Coasting past the finish costs you the joy of a thing done, the pleasure you miss most.",
               "cost_others": "You coast on people who already like you. Since you feel safe with them, you give them the easy version instead of the effort you spend on strangers. You give your least trying to those who love you most."
             }
@@ -105,15 +105,15 @@
             "angles": {
               "drive": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes.",
               "cost_self": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. You lose sleep to each yes, and one no wins some of it back.",
-              "cost_others": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give your family agreement instead of your real answer. You owe the people you love the honest no you never say."
+              "cost_others": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you agree to whatever your family asks rather than weigh what you have left. Never saying no, you hand your family none of your own wishes."
             }
           },
           {
             "word": "Comfort first",
             "angles": {
-              "drive": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. What you put second to comfort is usually what you wanted most, and you know it.",
+              "drive": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. You put second to comfort the very thing you wanted most.",
               "cost_self": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. Count the good chances you let go by to stay comfortable, since few of them come back.",
-              "cost_others": "You put comfort first for those in your care too. Keeping a child happy now is easier than keeping them well later, so you pick pleasant hours over useful ones. You are choosing their later as well as their now, whatever it feels like today."
+              "cost_others": "You put comfort first for those in your care too. You would rather see a child happy now than stretched, so you pick pleasant hours over useful ones. You trade the effort they would grow on for an hour of ease."
             }
           }
         ]
@@ -390,6 +390,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "You coast on people who already like you. Since you feel safe with them, you give them the easy version instead of the effort you spend on strangers. Bear in mind that you give your least trying to those who love you most."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. Keep in mind that coasting carries you a long way and never quite to the finish."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give your family agreement instead of your real answer. You owe the people you love the honest no you never say."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. What you put second to comfort is usually what you wanted most, and you know it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You put comfort first for those in your care too. Keeping a child happy now is easier than keeping them well later, so you pick pleasant hours over useful ones. You are choosing their later as well as their now, whatever it feels like today."
     }
   ]
 }

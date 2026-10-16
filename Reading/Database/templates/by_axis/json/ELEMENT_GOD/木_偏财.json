@@ -96,8 +96,8 @@
             "word": "Chases the new",
             "angles": {
               "drive": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start ahead of the finish. You leave a row of half-done things behind you, each one new when you started.",
-              "cost_self": "Where you are is rarely what you chase. Because staying feels like being stuck rather than home, you chase the far plan with hours the near one needed. Remember that each chase costs you the venture already begun, and half a venture pays nothing.",
-              "cost_others": "Chasing the next thing keeps you alive. Since the new chance pulls more than the promised one, you chase it and leave the unfinished half to your partner. You give them the start you promised and none of the middle."
+              "cost_self": "Where you are is rarely what you chase. Because staying feels like being stuck rather than home, you chase the far plan with hours the near one needed. You lose the venture already begun to each new chase, and half of one pays nothing.",
+              "cost_others": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to your partner. You keep the start of a shared plan and hand your partner the long middle."
             }
           },
           {
@@ -111,8 +111,8 @@
           {
             "word": "Spends freely",
             "angles": {
-              "drive": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Bear in mind that you meet the slow month too, with everything already spent.",
-              "cost_self": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending in money never kept, as every thin month reminds you.",
+              "drive": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Spending for freedom, you meet the slow month with none of it left.",
+              "cost_self": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending with savings you never get to keep.",
               "cost_others": "Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. You spend their quiet months as well as your own."
             }
           }
@@ -681,6 +681,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. Never forget that you spend their quiet months as well as your own."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Where you are is rarely what you chase. Because staying feels like being stuck rather than home, you chase the far plan with hours the near one needed. Remember that each chase costs you the venture already begun, and half a venture pays nothing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Chasing the next thing keeps you alive. Since the new chance pulls more than the promised one, you chase it and leave the unfinished half to your partner. You give them the start you promised and none of the middle."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Bear in mind that you meet the slow month too, with everything already spent."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending in money never kept, as every thin month reminds you."
     }
   ]
 }

@@ -111,7 +111,7 @@
           {
             "word": "Takes it easy",
             "angles": {
-              "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Bear in mind that you never try the hard parts while taking it easy.",
+              "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried.",
               "cost_self": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
               "cost_others": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. You teach them to aim no higher than what you settle for."
             }
@@ -417,6 +417,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. Do not forget that you teach them by what you settle for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Bear in mind that you never try the hard parts while taking it easy."
     }
   ]
 }

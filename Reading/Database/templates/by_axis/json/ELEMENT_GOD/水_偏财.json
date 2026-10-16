@@ -96,7 +96,7 @@
             "word": "Leaves too soon",
             "angles": {
               "drive": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. Remember that the next place looks better mostly because you have not stayed there.",
-              "cost_self": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and the money you go without is worth remembering.",
+              "cost_self": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and you walk away with none of it.",
               "cost_others": "Whenever a venture turns slow, you are the first to leave it. Leaving early costs you less than staying, and it costs the people inside a pair of hands. You hand your share of the finish to whoever stays behind."
             }
           },
@@ -393,6 +393,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Sitting with someone, you look past them at what comes next. You give the one beside you part of a look rather than the whole, and save the rest for the distance. Do not forget that the rest is what that person came for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and the money you go without is worth remembering."
     }
   ]
 }

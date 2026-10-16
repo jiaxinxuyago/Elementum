@@ -95,7 +95,7 @@
           {
             "word": "Hard to reach",
             "angles": {
-              "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you are only warm to the people who can reach you.",
+              "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you want someone to reach you all the same.",
               "cost_self": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own.",
               "cost_others": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You make the people closest to you do all the reaching."
             }
@@ -105,7 +105,7 @@
             "angles": {
               "drive": "Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck.",
               "cost_self": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. You miss out on the rest that help would have given you.",
-              "cost_others": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. Do not forget that you keep a peer at a distance every time you refuse their help."
+              "cost_others": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. You leave your peers at a distance, with nothing of yours to help with."
             }
           },
           {
@@ -393,6 +393,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. It helps to remember that you lose the rest along with the help you never asked for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you are only warm to the people who can reach you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. Do not forget that you keep a peer at a distance every time you refuse their help."
     }
   ]
 }

@@ -105,15 +105,15 @@
             "angles": {
               "drive": "Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. Never forget that you mean the fondness more than the mocking lets on.",
               "cost_self": "Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private. You go without what you hoped for, because you never asked straight.",
-              "cost_others": "You mock the people you are proudest of, because plain pride is too much. Sounding mocking rather than moved, you hand them praise with no way to keep it. Say the kind thing plainly, since the mocking is the part not worth keeping."
+              "cost_others": "You mock the people you are proudest of, because plain pride is too much. Sounding mocking rather than moved, you hand them praise with no way to keep it. You keep back the plain words they needed to hear."
             }
           },
           {
             "word": "Picks fights",
             "angles": {
-              "drive": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight ahead of asking why. It is worth remembering that you pick the fight more often than it picks you.",
+              "drive": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight ahead of asking why. Keep in mind that asking why first does not make you smaller.",
               "cost_self": "Any push at all gets a fight out of you. You would rather lose on your terms than win on theirs, so you fight rules you never cared about. Skip the small fights, or each one you pick costs you a chance you wanted.",
-              "cost_others": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Pick the same fight in private first and lose nothing."
+              "cost_others": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Underneath, you want to be heard as an equal."
             }
           }
         ]
@@ -649,6 +649,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private. You already know the price, what you hoped for and never asked for straight."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You mock the people you are proudest of, because plain pride is too much. Sounding mocking rather than moved, you hand them praise with no way to keep it. Say the kind thing plainly, since the mocking is the part not worth keeping."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight ahead of asking why. It is worth remembering that you pick the fight more often than it picks you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Pick the same fight in private first and lose nothing."
     }
   ]
 }

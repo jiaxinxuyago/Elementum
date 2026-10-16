@@ -111,7 +111,7 @@
           {
             "word": "Hard to reach",
             "angles": {
-              "drive": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping.",
+              "drive": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person.",
               "cost_self": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and every call you let ring out proves it.",
               "cost_others": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands as the answer. Each time you give the minute first, you find the thought waiting when you come back."
             }
@@ -385,6 +385,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "You are never done checking. Letting a thing out early feels like a mistake you cannot undo, so you check once more rather than hand it over. Remember that you stopped finding errors long ago and now check for comfort."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping."
     }
   ]
 }

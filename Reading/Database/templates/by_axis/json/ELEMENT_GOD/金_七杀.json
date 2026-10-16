@@ -96,7 +96,7 @@
             "word": "Hard on yourself",
             "angles": {
               "drive": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you fail your own hard test sooner than pass someone else's. You answer to no judge harder than yourself.",
-              "cost_self": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. Bear in mind that being this hard costs you credit never claimed and rest never taken.",
+              "cost_self": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken.",
               "cost_others": "The hardness you keep for yourself sets everyone's rate. Your mistakes feel unforgivable, and being hard on people near you comes easier than letting one pass. You take their ease away with every mistake you refuse to let pass."
             }
           },
@@ -111,9 +111,9 @@
           {
             "word": "Pushes too hard",
             "angles": {
-              "drive": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Take note that you are using force with every push, whether you mean it kindly or not.",
-              "cost_self": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You live in the body you push, and that is worth remembering.",
-              "cost_others": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. You push them toward a good they never got to choose for themselves."
+              "drive": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Keep in mind that you are free to let a slow thing take its time.",
+              "cost_self": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You run your own body down to keep every push going.",
+              "cost_others": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. With every push, you take from them the chance to get there at their own pace."
             }
           }
         ]
@@ -425,6 +425,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. Keep patience in view, since it costs you less than the push."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. Bear in mind that being this hard costs you credit never claimed and rest never taken."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Take note that you are using force with every push, whether you mean it kindly or not."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You live in the body you push, and that is worth remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. You push them toward a good they never got to choose for themselves."
     }
   ]
 }

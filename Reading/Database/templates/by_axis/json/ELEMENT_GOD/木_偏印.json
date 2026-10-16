@@ -96,7 +96,7 @@
             "word": "Thinks in circles",
             "angles": {
               "drive": "Thinking a question through means thinking it around, each side first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You never reach the decision in the middle of a circle, and it never closes alone.",
-              "cost_self": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chance that needed an answer this week, and remembering that beats another circle.",
+              "cost_self": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chances that needed an answer this week, one careful lap at a time.",
               "cost_others": "Whenever someone brings you a question, you think in circles first. Every side counts for more than a usable reply, so you hand over the process instead of a yes. You make them wait through every circle for an answer they needed short."
             }
           },
@@ -104,15 +104,15 @@
             "word": "Keeps it in",
             "angles": {
               "drive": "What you understand, you keep in. Saying a thing out loud makes it ordinary, and you would rather hold an idea unfinished than hand it over half-formed. Keeping it in keeps it yours, and you never learn what it would have become.",
-              "cost_self": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. Bear in mind that what you keep in gets built on by no one, you included.",
-              "cost_others": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing for days at what takes you a minute, and the minute is yours."
+              "cost_self": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea safe and lose the one thing you wanted from it, being known.",
+              "cost_others": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing at what you think, the one thing they asked you for."
             }
           },
           {
             "word": "Hides away",
             "angles": {
               "drive": "You hide away to think, and the hiding comes before the thinking. Company costs you the thread of an idea, so you would rather be alone with a question than with people and an answer. Hiding away feeds the work and quietly stops feeding you.",
-              "cost_self": "Hiding away protects what is growing in you. Because time alone feels like rest to you, you hide away rather than go out and keep the quiet past the point it helps. You pay for the shut door in closeness, and that is worth remembering.",
+              "cost_self": "Hiding away protects what is growing in you. Because time alone feels like rest to you, you hide away rather than go out and keep the quiet past the point it helps. Behind the shut door, you pay in closeness for every hour of quiet.",
               "cost_others": "When people who love you reach for you, you hide longer. Being out of reach feels more like safety than absence, and your seat sits empty. On the days that count, you leave them a friend short."
             }
           }
@@ -398,6 +398,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "When people who love you reach for you, you hide longer. Being out of reach feels more like safety than absence, and your seat sits empty. On the days that count, you leave them a friend short, and the gap is worth keeping in mind."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chance that needed an answer this week, and remembering that beats another circle."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. Bear in mind that what you keep in gets built on by no one, you included."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing for days at what takes you a minute, and the minute is yours."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Hiding away protects what is growing in you. Because time alone feels like rest to you, you hide away rather than go out and keep the quiet past the point it helps. You pay for the shut door in closeness, and that is worth remembering."
     }
   ]
 }

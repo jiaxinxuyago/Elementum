@@ -96,7 +96,7 @@
             "word": "Needs permission",
             "angles": {
               "drive": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. You are the one holding back the permission you keep waiting for.",
-              "cost_self": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed, and that bill deserves remembering.",
+              "cost_self": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed.",
               "cost_others": "You pass the need for permission to anyone under you. Permission from above is the only yes you take, and you send their questions up rather than answer. You leave them waiting on a permission you were free to give."
             }
           },
@@ -105,7 +105,7 @@
             "angles": {
               "drive": "Hating being wrong is the part of you that works hardest. A mistake marks your name in your eyes, and you give silence in place of any answer that risks being wrong. You go silent on the answers you had right.",
               "cost_self": "Being wrong is what you have no procedure for. Right answers feel like the only safe ones, and you hold opinions back rather than risk being wrong. You lose every idea you kept back for fear of being wrong.",
-              "cost_others": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong, and that right is worth remembering."
+              "cost_others": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong."
             }
           },
           {
@@ -425,6 +425,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it ahead of the person's case. Each time the rule goes first, you take their hearing, and that is the thing to keep in mind."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed, and that bill deserves remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong, and that right is worth remembering."
     }
   ]
 }

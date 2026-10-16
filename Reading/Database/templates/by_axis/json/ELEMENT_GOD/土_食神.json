@@ -96,8 +96,8 @@
             "word": "Never stops giving",
             "angles": {
               "drive": "Giving is the one thing you never run out of. Since being useful feels more like you than being rested, you keep giving after the supply behind it goes quiet. You wear yourself out to keep the giving going.",
-              "cost_self": "Giving without stopping is how you avoid asking what you need. Because running low feels better than asking, you give the rest you needed to whoever is next in line. Remember that the rest you keep skipping is the supply the giving runs on.",
-              "cost_others": "You give to the people at home without stopping, and never leave them a turn. Since giving feels safer than needing, you take from them the chance to look after you. You owe them the closeness of giving back once in a while."
+              "cost_self": "Giving without stopping is how you avoid asking what you need. Because running low feels better than asking, you give the rest you needed to whoever is next in line. You go without the rest the giving runs on.",
+              "cost_others": "You give to the people at home without stopping, and never leave them a turn. Since giving feels safer than needing, you take from them the chance to look after you. You want closeness, and their care for you is part of it."
             }
           },
           {
@@ -105,14 +105,14 @@
             "angles": {
               "drive": "Drifting along is comfortable, and comfort is enough for you. Since the easy day never argues and the hard start always does, you would rather drift than start. You drift past the things you wanted most.",
               "cost_self": "Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one. You let the chance you were good enough for close while you drift, and you rarely count it.",
-              "cost_others": "Drifting along at home means the steering is not yours. Since going with the day suits you more than setting it, you leave the people you live with the choices you skip. You hand them the weight with the choice, and that is worth remembering."
+              "cost_others": "Drifting along at home means the steering is not yours. Since going with the day suits you more than setting it, you leave the people you live with the choices you skip. Whatever you skip, you hand them the work of deciding and its weight."
             }
           },
           {
             "word": "Too soft",
             "angles": {
               "drive": "Going soft on the people around you comes to you without thinking. Since comfort is the shape your care takes, you soften their way rather than let them manage it. You take on every hard thing they were able to manage.",
-              "cost_self": "Being too soft is how you say you care. Because you put other people's comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You know the money and rest you give away do not come back.",
+              "cost_self": "Being too soft is how you say you care. Because you put other people's comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You give away money and rest that never come back.",
               "cost_others": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you go soft before the first try ends. You keep taking from them a struggle that was theirs to grow on."
             }
           }
@@ -401,6 +401,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Going soft on the people around you comes to you without thinking. Since comfort is the shape your care takes, you soften their way rather than let them manage it. Remember that a little struggle is also something you can give."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Giving without stopping is how you avoid asking what you need. Because running low feels better than asking, you give the rest you needed to whoever is next in line. Remember that the rest you keep skipping is the supply the giving runs on."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You give to the people at home without stopping, and never leave them a turn. Since giving feels safer than needing, you take from them the chance to look after you. You owe them the closeness of giving back once in a while."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Drifting along at home means the steering is not yours. Since going with the day suits you more than setting it, you leave the people you live with the choices you skip. You hand them the weight with the choice, and that is worth remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Being too soft is how you say you care. Because you put other people's comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You know the money and rest you give away do not come back."
     }
   ]
 }

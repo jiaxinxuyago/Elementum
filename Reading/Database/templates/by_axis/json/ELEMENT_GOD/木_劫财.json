@@ -96,7 +96,7 @@
             "word": "Bets too big",
             "angles": {
               "drive": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. You fund next year's bet with the money this year needed.",
-              "cost_self": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose in money not kept the bet you did not need, a number worth remembering.",
+              "cost_self": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose real money on bets you never needed to make.",
               "cost_others": "Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. You risk their savings along with your own whenever you bet too big."
             }
           },
@@ -111,9 +111,9 @@
           {
             "word": "Spends shared money",
             "angles": {
-              "drive": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. Remember that what you spend from the pot is also somebody's savings.",
-              "cost_self": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and that is the part to hold onto.",
-              "cost_others": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
+              "drive": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. For the sake of moving, you let the pot pay for your speed.",
+              "cost_self": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and the owing stays with you.",
+              "cost_others": "Ahead of asking, you spend what was pooled and settle the split later. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
             }
           }
         ]
@@ -409,6 +409,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. It is worth remembering that spending shared money takes their say along with it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose in money not kept the bet you did not need, a number worth remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. Remember that what you spend from the pot is also somebody's savings."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and that is the part to hold onto."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
     }
   ]
 }

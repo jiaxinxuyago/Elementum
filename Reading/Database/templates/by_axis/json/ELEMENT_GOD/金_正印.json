@@ -96,7 +96,7 @@
             "word": "Stays the student",
             "angles": {
               "drive": "You stay the student long after you were able to teach. Learning under someone suits you more than standing alone, and that keeps your seat in the back row past its use. You decide when the student turns teacher, and you keep putting it off.",
-              "cost_self": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. Remember that you lose the place meant for you to someone who felt ready sooner.",
+              "cost_self": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. You pass up the place meant for you for one more year of learning.",
               "cost_others": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it."
             }
           },
@@ -104,14 +104,14 @@
             "word": "Too protective",
             "angles": {
               "drive": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in ahead of letting them fall. You are protecting them from the one thing that would have taught them.",
-              "cost_self": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. Bear in mind, you trade your own rest for a lesson they never get to learn.",
-              "cost_others": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety where they wanted faith, and faith was cheaper."
+              "cost_self": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. You lose your own rest to every risk you take off their hands.",
+              "cost_others": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety and take away their own first steps."
             }
           },
           {
             "word": "Loves by correcting",
             "angles": {
-              "drive": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Keep in mind that you are correcting someone who only came to be loved.",
+              "drive": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Remember that you are allowed to sit with a sad thing and fix nothing.",
               "cost_self": "Loving by correcting costs you the ones who stop bringing things. You put being useful to someone ahead of being close to them, and the corrected learn to bring you only finished things. You get respect for it, and the closeness goes somewhere less exact.",
               "cost_others": "Correcting is what you give people wanting comfort. You would rather set people straight than let them be, and you send them home taught instead of held. Each time you hold a lesson back, you let through the warmth it stood in front of."
             }
@@ -393,6 +393,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in ahead of letting them fall. You are protecting them from the one thing that would have taught them, and you know it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. Remember that you lose the place meant for you to someone who felt ready sooner."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. Bear in mind, you trade your own rest for a lesson they never get to learn."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety where they wanted faith, and faith was cheaper."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Keep in mind that you are correcting someone who only came to be loved."
     }
   ]
 }

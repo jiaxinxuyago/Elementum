@@ -96,8 +96,8 @@
             "word": "Hard on yourself",
             "angles": {
               "drive": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You live each mistake twice, once when it happens and again whenever you replay it.",
-              "cost_self": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. Bear in mind that being this hard on yourself costs you days off never taken.",
-              "cost_others": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You take that harshness home and leave the people you love no soft place to rest."
+              "cost_self": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. You lose the days off you never let yourself take.",
+              "cost_others": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You bring that standard home and leave the people you love nowhere to be less than their best."
             }
           },
           {
@@ -105,7 +105,7 @@
             "angles": {
               "drive": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along ahead of asking whether they wanted pushing. You reach the result first and arrive with followers who never said yes.",
               "cost_self": "Each time you push too hard, you spend strength you do not have. You would rather push through than keep the energy to finish the week. You end the week short on sleep and on the strength you spent pushing.",
-              "cost_others": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. Before the next push, remember that you are harder to be close to than to follow."
+              "cost_others": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. You take away their chance to reach the answer at their own pace."
             }
           },
           {
@@ -673,6 +673,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard ahead of someone to sit with. Remember how hard you are to reach when most on duty for them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. Bear in mind that being this hard on yourself costs you days off never taken."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You take that harshness home and leave the people you love no soft place to rest."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. Before the next push, remember that you are harder to be close to than to follow."
     }
   ]
 }

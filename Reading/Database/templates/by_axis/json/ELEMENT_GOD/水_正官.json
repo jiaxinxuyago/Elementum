@@ -95,9 +95,9 @@
           {
             "word": "Plays it safe",
             "angles": {
-              "drive": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. Remember that playing it safe has a price, and you pay it in chances never taken.",
+              "drive": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. You pay for playing it safe in chances you never took.",
               "cost_self": "Playing safe keeps the floor under you. Because a wrong move costs you more than a missed one, you keep playing it safe with the job you have. You let every chance you play safe around close, and the work you wanted goes with it.",
-              "cost_others": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail, and the real answer stays yours. You put their plans on hold for as long as you hesitate."
+              "cost_others": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail. You put their plans on hold for as long as you hesitate."
             }
           },
           {
@@ -105,7 +105,7 @@
             "angles": {
               "drive": "You wait for permission that is not coming. Being given permission feels safer than taking it, and you wait to be asked up rather than step up unasked. You already hold most of the permission you sit waiting for.",
               "cost_self": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your rank than claim the next one. You lose the rank above yours to whoever stopped waiting, and the waiting was your choice.",
-              "cost_others": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and you set that clock."
+              "cost_others": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Each day you hold out for permission, you spend one of theirs as well."
             }
           },
           {
@@ -393,6 +393,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "You wait for permission that is not coming. Being given permission feels safer than taking it, and you wait to be asked up rather than step up unasked. You hold most of the permission you wait for, a fact you keep forgetting."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. Remember that playing it safe has a price, and you pay it in chances never taken."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail, and the real answer stays yours. You put their plans on hold for as long as you hesitate."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and you set that clock."
     }
   ]
 }

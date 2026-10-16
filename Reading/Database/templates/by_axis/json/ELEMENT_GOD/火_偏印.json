@@ -95,8 +95,8 @@
           {
             "word": "One-track",
             "angles": {
-              "drive": "One idea at a time gets the whole of you. You feel awake only inside one subject, so you follow it all the way down instead of keeping the rest of the week going. Keep in mind that your life waits where you left it.",
-              "cost_self": "One subject at a time is how you take things in. You give it the hours meant for sleep rather than a stopping point, since you feel awake nowhere else. Do not forget that the rest you skip never comes back as insight.",
+              "drive": "One idea at a time gets the whole of you. You feel awake only inside one subject, so you follow it all the way down instead of keeping the rest of the week going. You were only ever chasing the feeling of being awake.",
+              "cost_self": "One subject at a time is how you take things in. You give it the hours meant for sleep rather than a stopping point, since you feel awake nowhere else. In the end, you lose more sleep than any subject gives back.",
               "cost_others": "When one idea has you, you are reachable only through it. Because you steer every talk back onto its track rather than let it change, you leave family and friends outside. You give them only the part of you that talks about it."
             }
           },
@@ -105,7 +105,7 @@
             "angles": {
               "drive": "You give a new interest everything or nothing at all. You count half an effort as none, so you give a thing every hour rather than a steady few until the wanting runs out. After the push, you go weeks without touching it at all.",
               "cost_self": "All or nothing is the only speed you have. Since you never learn at half speed, you give a subject one hard month rather than a slow year, and the month ends first. You stop at half the skill, right where the feeling did.",
-              "cost_others": "Starting something together, you give it all of you until the switch goes off. You pull a friend in at full strength rather than a pace that lasts, so the plan outlives your part. Remember as well that you leave someone holding what you started."
+              "cost_others": "Starting something together, you give it all of you until the switch goes off. You pull a friend in at full strength rather than a pace that lasts, so the plan outlives your part. You leave your friend to carry the plan on alone."
             }
           },
           {
@@ -377,6 +377,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
       "replaced": "Old friends describe you now with the phrase in their own world, said warmly and with a small shrug. Invitations still come, at holidays, in the plural, addressed to a version of you they remember. The estrangement was nobody’s decision. It accumulated, like heat leaving a house."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "One idea at a time gets the whole of you. You feel awake only inside one subject, so you follow it all the way down instead of keeping the rest of the week going. Keep in mind that your life waits where you left it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "One subject at a time is how you take things in. You give it the hours meant for sleep rather than a stopping point, since you feel awake nowhere else. Do not forget that the rest you skip never comes back as insight."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Starting something together, you give it all of you until the switch goes off. You pull a friend in at full strength rather than a pace that lasts, so the plan outlives your part. Remember as well that you leave someone holding what you started."
     }
   ]
 }

@@ -96,8 +96,8 @@
             "word": "Hard on yourself",
             "angles": {
               "drive": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in sleep you never get back.",
-              "cost_self": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. It is worth remembering that you leave the credit you earned unspent.",
-              "cost_others": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You teach them your harshness without ever meaning it for them."
+              "cost_self": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. You never let yourself spend the credit you earned.",
+              "cost_others": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. Remember that you are allowed to take their kindness on a hard day."
             }
           },
           {
@@ -111,7 +111,7 @@
           {
             "word": "Shuts people out",
             "angles": {
-              "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it.",
+              "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. You lose the closeness along with the pressure you keep out.",
               "cost_self": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away.",
               "cost_others": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
             }
@@ -385,6 +385,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. Keep in mind that you skip real sleep to guard nothing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. It is worth remembering that you leave the credit you earned unspent."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You teach them your harshness without ever meaning it for them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it."
     }
   ]
 }

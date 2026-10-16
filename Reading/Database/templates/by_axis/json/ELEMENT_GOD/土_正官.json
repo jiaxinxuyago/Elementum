@@ -96,8 +96,8 @@
             "word": "Follows every rule",
             "angles": {
               "drive": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make.",
-              "cost_self": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks.",
-              "cost_others": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself."
+              "cost_self": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. You hand those openings to rules nobody checks.",
+              "cost_others": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You want fairness for everyone, and being kind to one is part of it."
             }
           },
           {
@@ -105,13 +105,13 @@
             "angles": {
               "drive": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You spend the plan's best months on waiting.",
               "cost_self": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year.",
-              "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking."
+              "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. You are free to give the go-ahead yourself."
             }
           },
           {
             "word": "Slow to change",
             "angles": {
-              "drive": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given.",
+              "drive": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. By staying put, you miss the years a better way would have given.",
               "cost_self": "Whenever something needs changing, you change it last. You would sooner keep what you know than find out what else there is, and you stay in a job you stopped liking for years. You let the deciding years pass in a place you outgrew.",
               "cost_others": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting. You make them live the old way while you decide."
             }
@@ -401,6 +401,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting. Keep sight of how you make them live the old way while you decide."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given."
     }
   ]
 }

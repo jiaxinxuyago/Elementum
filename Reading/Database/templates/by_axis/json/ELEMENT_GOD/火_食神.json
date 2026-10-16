@@ -96,7 +96,7 @@
             "word": "Never says no",
             "angles": {
               "drive": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes ahead of checking the cost. You spend your own rest on every yes and seldom get it back.",
-              "cost_self": "Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Do not forget that you pay for each refused rest with your health.",
+              "cost_self": "Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Each rest you turn down, you pay for later with your health.",
               "cost_others": "You answer whoever asks first with a yes, and you leave the people at home what is left. Pleasing the person in front of you comes ahead of keeping your word at home. You give your family the leftovers of a day promised to others."
             }
           },
@@ -105,13 +105,13 @@
             "angles": {
               "drive": "You drift toward whatever asks the least of you. You treat comfort as the reward you are owed, and you let a day drift rather than steer it. You land where the days carry you instead of where you meant to go.",
               "cost_self": "Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so you put off the thing you meant to make again. You lose the one thing you most wanted to make, a day at a time.",
-              "cost_others": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Try to remember that you leave them carrying choices you were meant to share."
+              "cost_others": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Day after day, you leave them to make the choices for you both."
             }
           },
           {
             "word": "Pleasure first",
             "angles": {
-              "drive": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. Keep hold of this, that you run the pleasure on yourself and it puts nothing back.",
+              "drive": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. You were after feeling alive all along, and pleasure was only the quickest way.",
               "cost_self": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now ahead of health later. You pay for it in the body, and the body keeps a longer memory than you do.",
               "cost_others": "Whenever a plan with others meets your pleasure, you choose the pleasure. You take a good time now sooner than a promise kept later, and you spend the house money on the evening. You take their share and leave them short on plans made together."
             }
@@ -417,6 +417,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Whenever a plan with others meets your pleasure, you choose the pleasure. You take a good time now sooner than a promise kept later, and you spend the house money on the evening. Remember whose share you are spending, since part of it is theirs."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Do not forget that you pay for each refused rest with your health."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Try to remember that you leave them carrying choices you were meant to share."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. Keep hold of this, that you run the pleasure on yourself and it puts nothing back."
     }
   ]
 }

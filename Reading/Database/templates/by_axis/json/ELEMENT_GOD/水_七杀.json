@@ -95,8 +95,8 @@
           {
             "word": "Goes cold",
             "angles": {
-              "drive": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in. Remember that you stay in the cold as long as anyone you put there.",
-              "cost_self": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and it is worth remembering what that costs in closeness.",
+              "drive": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in. Keep in mind that you go cold wanting someone to come and find you.",
+              "cost_self": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and you lose closeness with every cold day.",
               "cost_others": "Whenever someone crosses you, you go cold on them first. You turn cold rather than show an anger that can be answered, and you take away their only way to fix it. You leave them to guess at a fault you never name."
             }
           },
@@ -105,15 +105,15 @@
             "angles": {
               "drive": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. You take the blame early and never stay long enough for praise.",
               "cost_self": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest never taken, because nothing you make gets to count.",
-              "cost_others": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You land the hardness on them too, and it was not theirs to carry."
+              "cost_others": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You bring that line home and leave them no pass for a bad day."
             }
           },
           {
             "word": "Never lets up",
             "angles": {
-              "drive": "You never let up, on anything or anyone. Since letting up feels like losing, you keep the pressure on rather than call the job done. You cannot feel finished until you let up on the thing you finished, and that is worth keeping in mind.",
+              "drive": "You never let up, on anything or anyone. Since letting up feels like losing, you keep the pressure on rather than call the job done. Remember that you are allowed to let up once a thing is finished.",
               "cost_self": "Never letting up is how you prove you belong. Because rest reads as falling behind, you would rather stay under pressure than put it down for a night. You settle the cost of never letting up in sleep, and the body sends the bill.",
-              "cost_others": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up costs them the evenings you gave up, and only you chose it."
+              "cost_others": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up, you spend their evenings as freely as your own."
             }
           }
         ]
@@ -393,6 +393,46 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. Bear in mind that being this hard is your choice and yours to lower."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in. Remember that you stay in the cold as long as anyone you put there."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and it is worth remembering what that costs in closeness."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You land the hardness on them too, and it was not theirs to carry."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You never let up, on anything or anyone. Since letting up feels like losing, you keep the pressure on rather than call the job done. You cannot feel finished until you let up on the thing you finished, and that is worth keeping in mind."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up costs them the evenings you gave up, and only you chose it."
     }
   ]
 }

@@ -103,17 +103,17 @@
           {
             "word": "Hates losing",
             "angles": {
-              "drive": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. Remember that you are beaten far less often than you think, and you keep every one.",
+              "drive": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You carry each loss for weeks after the contest itself is over.",
               "cost_self": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests with the most to teach you. You protect a record with very few wins on it.",
-              "cost_others": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you put a friend on the losing side of a game they never entered. You leave with the point and a little less warmth."
+              "cost_others": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you turn an easy talk with a friend into a match. You leave with the point and a little less warmth."
             }
           },
           {
             "word": "Spends to win",
             "angles": {
               "drive": "As a contest gets close, you spend to win it. You would rather pay to stay ahead than risk falling behind, and you spend to prove a point. Ask yourself before you pay whether you want the thing or only the win.",
-              "cost_self": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You notice the money you did not keep last.",
-              "cost_others": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. You spend the trust in a shared account faster than the balance."
+              "cost_self": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You count the cost when the account runs dry.",
+              "cost_others": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. Along with the money, you spend a plan you made together."
             }
           }
         ]
@@ -377,6 +377,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
       "replaced": "People agree with you in meetings and then meet again, smaller, without you. It is not sabotage. It is the only lane where their input survives contact. You keep winning the official votes and losing informal ones you never find out happened."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. Remember that you are beaten far less often than you think, and you keep every one."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you put a friend on the losing side of a game they never entered. You leave with the point and a little less warmth."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You notice the money you did not keep last."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. You spend the trust in a shared account faster than the balance."
     }
   ]
 }

@@ -105,7 +105,7 @@
             "angles": {
               "drive": "Your default with cost is playing it safe. You feel a loss more than a gain the same size, and you play safe for the small sure return rather than the big one. Playing safe costs you too, slower and in money you never count.",
               "cost_self": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched another take.",
-              "cost_others": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. Never forget that the safe life you play for is only half yours to keep."
+              "cost_others": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. Remember that you care more for the partner than for the safe plan."
             }
           },
           {
@@ -383,6 +383,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. Never forget that the safe life you play for is only half yours to keep."
     }
   ]
 }

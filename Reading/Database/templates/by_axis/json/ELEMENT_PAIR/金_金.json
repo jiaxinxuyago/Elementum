@@ -23,7 +23,7 @@
     "function": {
       "primary": "body",
       "definition_catalyst": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. Remember that you trade a peer for each argument won.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. You lose a peer for each argument you win.",
       "advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Take rest in first and sleep before the hard decision rather than after it. Let one peer carry a job you could do yourself. Sit out one contest a month on purpose. Eat before you answer the message.",
       "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it spend what Metal stores. You stay in charge of yourself by being right. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it."
     },
@@ -347,6 +347,14 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
       "replaced": "Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. Remember that you trade a peer for each argument won."
     }
   ]
 }

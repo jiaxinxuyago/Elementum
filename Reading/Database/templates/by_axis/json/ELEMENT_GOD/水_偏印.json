@@ -96,7 +96,7 @@
             "word": "Thinks too much",
             "angles": {
               "drive": "You think a decision over long after it stopped needing thought. Water comes into you faster than you spend it, and one more angle feels like care rather than delay. You never get the lesson that only a made choice could give you.",
-              "cost_self": "Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. Keep in mind that you lose chances this way without a sound, and sleep with them.",
+              "cost_self": "Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. You let chances close this way without a sound, and you lose sleep over them.",
               "cost_others": "Whenever someone needs an answer, you think it over once more. Getting it right matters more to you than getting it to them, and you hand over the wait. You hold up their next step while you make the reply perfect."
             }
           },
@@ -112,7 +112,7 @@
             "word": "Hard to reach",
             "angles": {
               "drive": "You are hard to reach even from across the table. Most of you lives in an unfinished thought, and you would rather finish it than answer the person in front of you. You stay in your head and miss what was said to you.",
-              "cost_self": "Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You already know that you trade closeness for that thread, and closeness does not wait.",
+              "cost_self": "Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You trade closeness for that thread each time, and closeness does not wait.",
               "cost_others": "Hard to reach means a thought is unfinished, and most of yours are. Finishing it comes ahead of the message, and you charge the person waiting in days. You leave them with less of you than they came for."
             }
           }
@@ -425,6 +425,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Hard to reach means a thought is unfinished, and most of yours are. Finishing it comes ahead of the message, and you charge the person waiting in days. Remind yourself that you are worth more fully there than mostly away."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. Keep in mind that you lose chances this way without a sound, and sleep with them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You already know that you trade closeness for that thread, and closeness does not wait."
     }
   ]
 }

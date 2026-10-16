@@ -97,7 +97,7 @@
             "angles": {
               "drive": "You keep an exact score with everyone you like. With Metal running over, you live on comparison more than company, so you keep a quiet tally of who gave more. You end up ahead on the tally and short on the company you wanted.",
               "cost_self": "Whenever a friend pulls ahead, you score it as a loss rather than their win. To stay sure, you keep score and spend the friendship checking the count. You pay for every point in closeness you never collect.",
-              "cost_others": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of returning them, you hand the people you love a bill. You turn their gifts into debts and never tell them the price."
+              "cost_others": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of simply returning them, every gift to you arrives with a price attached. Keep in mind that you wanted the closeness long before you wanted the score."
             }
           },
           {
@@ -112,7 +112,7 @@
             "word": "Hates to lose",
             "angles": {
               "drive": "Harder than any loss deserves, you hate to lose. You read a loss to a peer as a statement about you, so you argue the result instead of taking it. You hate losing your place, if you are honest, more than losing the point.",
-              "cost_self": "Coming second sours the whole day for you. Being beaten feels like being replaced, and you hate the loss rather than learn from it. You give the loss the entire evening, remember, and get neither the rest nor the lesson back.",
+              "cost_self": "Coming second sours the whole day for you. Being beaten feels like being replaced, and you hate the loss instead of learning from it. You give the loss the entire evening and get neither the rest nor the lesson back.",
               "cost_others": "Hating to lose even a game is how you show you care. Since you want the win ahead of the evening, you keep arguing after it ends. You cost the people you play with the fun of the game."
             }
           }
@@ -689,6 +689,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Hating to lose even a game is how you show you care. Since you want the win ahead of the evening, you keep arguing after it ends. Keep the people you play with in mind, because you cost them the fun of the game."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of returning them, you hand the people you love a bill. You turn their gifts into debts and never tell them the price."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Coming second sours the whole day for you. Being beaten feels like being replaced, and you hate the loss rather than learn from it. You give the loss the entire evening, remember, and get neither the rest nor the lesson back."
     }
   ]
 }

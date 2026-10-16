@@ -96,8 +96,8 @@
             "word": "Always moving on",
             "angles": {
               "drive": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay. You walk away from what each venture cost you to start.",
-              "cost_self": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You already know moving on leaves more money behind than new ventures bring in.",
-              "cost_others": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. You make your partners start over each time, and only you chose to go."
+              "cost_self": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You leave more money behind by moving on than new ventures bring in.",
+              "cost_others": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. Each time you move on, you leave your partners starting over."
             }
           },
           {
@@ -105,15 +105,15 @@
             "angles": {
               "drive": "Spread thin is how you like it. You feel most at ease with several ventures open, and you spread yourself across all of them rather than into one. You end up thin in the one place you most wanted to go deep.",
               "cost_self": "Spread thin, you never learn what you could do whole. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. Spread thin, you pay in rest never taken and the one venture that would have paid.",
-              "cost_others": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You signed each of them up for all of you, and spread thin you show up in slices."
+              "cost_others": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You give every partner less of you than the shared venture needs."
             }
           },
           {
             "word": "Spends it all",
             "angles": {
-              "drive": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. It helps to remember that spending it all leaves you empty-handed for the next chance.",
+              "drive": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. Remember that you are allowed to let money sit until the right chance comes.",
               "cost_self": "Deciding what to keep is harder than spending it all. You spend to feel money move rather than sit, since a sum held still feels like a missed chance. Spent out, you come up short for the one opening that asks for cash up front.",
-              "cost_others": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. The thing to remember is that you spend what your family counts on for later."
+              "cost_others": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. You spend the money your family was counting on for later."
             }
           }
         ]
@@ -401,6 +401,46 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Spread thin is how you like it. You feel most at ease with several ventures open, and you spread yourself across all of them rather than into one. It is worth remembering that spread thin leaves you thin where you most wanted to be."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You already know moving on leaves more money behind than new ventures bring in."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. You make your partners start over each time, and only you chose to go."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You signed each of them up for all of you, and spread thin you show up in slices."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. It helps to remember that spending it all leaves you empty-handed for the next chance."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. The thing to remember is that you spend what your family counts on for later."
     }
   ]
 }

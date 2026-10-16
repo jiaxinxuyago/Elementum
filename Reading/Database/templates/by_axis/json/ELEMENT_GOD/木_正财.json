@@ -96,8 +96,8 @@
             "word": "Stays too long",
             "angles": {
               "drive": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than learn what leaving costs. You keep paying in effort every month to a place that returns none of it.",
-              "cost_self": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. Bear in mind what staying costs, the better love or pay you never looked for.",
-              "cost_others": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you give your partner your staying instead of your honesty. You hold back the honest answer and cost your partner the years they wait for it."
+              "cost_self": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. By staying, you miss the better love or pay you never looked for.",
+              "cost_others": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend your partner's years along with your own."
             }
           },
           {
@@ -111,8 +111,8 @@
           {
             "word": "Slow to trust",
             "angles": {
-              "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You know by now that you demand proof to avoid hurt, and waiting to trust is its own small hurt.",
-              "cost_self": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Remember what proof costs you before you trust, closeness not had and years already gone.",
+              "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
+              "cost_self": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Holding out, you lose the closeness and the years that waiting for proof uses up.",
               "cost_others": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You hand all the proving to the one you love while you wait to trust."
             }
           }
@@ -681,6 +681,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You know already that you hand all the proving to the one you love while you wait to trust."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. Bear in mind what staying costs, the better love or pay you never looked for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you give your partner your staying instead of your honesty. You hold back the honest answer and cost your partner the years they wait for it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You know by now that you demand proof to avoid hurt, and waiting to trust is its own small hurt."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Remember what proof costs you before you trust, closeness not had and years already gone."
     }
   ]
 }

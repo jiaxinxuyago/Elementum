@@ -95,7 +95,7 @@
           {
             "word": "Asks no one",
             "angles": {
-              "drive": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. Keep in mind that not asking spares everyone except you.",
+              "drive": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load.",
               "cost_self": "Your hands are all you trust with hard jobs. Asking feels like admitting a shortfall, and you take the long way alone ahead of the short way with help. You pay for asking no one in rest you skip, and the bill is only yours.",
               "cost_others": "Whenever an offer comes, you have already finished alone. Owing nothing counts for more than being close, and that keeps your nearest people outside every struggle. By asking no one, you leave them no way to be needed by you."
             }
@@ -105,14 +105,14 @@
             "angles": {
               "drive": "You walk into most arguments already sure. More of you shows up than the argument needs, and the extra feels like proof, so you hold your view ahead of hearing theirs. You lose, by being right every time, the chance to be told something new.",
               "cost_self": "Being right is a comfort you never run out of. Admitting a mistake feels like losing part of yourself, and you defend a wrong call as much as a right one. You come out of each argument right and without the lesson it held.",
-              "cost_others": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Remember that you take from them, by being right, the pleasure of ever changing your mind."
+              "cost_others": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Each time you win the point, you cost them the pleasure of changing your mind."
             }
           },
           {
             "word": "Keeps distance",
             "angles": {
               "drive": "A little distance is your default with almost everyone. There is more of you than you want anyone handling, and you keep people at arm's length instead of letting them close. You keep that distance for safety, and it keeps the company out as well.",
-              "cost_self": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. You keep out the very closeness you keep missing, and it helps to know that.",
+              "cost_self": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. Out of reach, you miss the very closeness you keep out.",
               "cost_others": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and that gives your friends no way in. You cost them, with that distance, a friend they could have reached."
             }
           }
@@ -393,6 +393,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Being right is a comfort you never run out of. Admitting a mistake feels like losing part of yourself, and you defend a wrong call as much as a right one. You pay for each win in lessons never had, and that is worth remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. Keep in mind that not asking spares everyone except you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Remember that you take from them, by being right, the pleasure of ever changing your mind."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. You keep out the very closeness you keep missing, and it helps to know that."
     }
   ]
 }

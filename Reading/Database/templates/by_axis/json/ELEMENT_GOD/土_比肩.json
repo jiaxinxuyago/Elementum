@@ -96,7 +96,7 @@
             "word": "Never asks",
             "angles": {
               "drive": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out alone instead of handing any of it over. You carry each problem alone for longer than it needs.",
-              "cost_self": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. Remember that you lose sleep over what one question would have settled.",
+              "cost_self": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. You lose sleep over what one question would have settled.",
               "cost_others": "By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You only ever let someone in by letting them help."
             }
           },
@@ -105,7 +105,7 @@
             "angles": {
               "drive": "Tired, you shut people out before anything else. Quiet is how you recover, and you shut people out sooner than ask for the quiet you need. The longer you shut people out to rest, the harder you find the way back.",
               "cost_self": "Where you shut people out, you shut out what you were saving yourself for. Your own company works so well that you mistake it for the plan rather than a break. You pay for that peace in closeness, one quiet evening at a time.",
-              "cost_others": "You mostly shut out people who did nothing to earn it. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Bear in mind how long you leave people waiting for a welcome you rarely give."
+              "cost_others": "Needing rest, you shut out everyone, the people closest to you included. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Keep in mind that you wanted the quiet, never the distance from those you love."
             }
           },
           {
@@ -401,6 +401,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "When a friend offers advice, you thank them and go your own way. You keep your own plan ahead of theirs, and the care they put in goes to waste. Notice that taking even one piece of their advice tells them their care landed."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. Remember that you lose sleep over what one question would have settled."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You mostly shut out people who did nothing to earn it. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Bear in mind how long you leave people waiting for a welcome you rarely give."
     }
   ]
 }
