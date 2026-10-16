@@ -95,7 +95,7 @@
           {
             "word": "Needs permission",
             "angles": {
-              "drive": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. You are the one holding back the permission you keep waiting for.",
+              "drive": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. You hold the yes you keep waiting for, and it is yours to give.",
               "cost_self": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed.",
               "cost_others": "You pass the need for permission to anyone under you. Permission from above is the only yes you take, and you send their questions up rather than answer. You leave them waiting on a permission you were free to give."
             }
@@ -441,6 +441,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong, and that right is worth remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. You are the one holding back the permission you keep waiting for."
     }
   ]
 }

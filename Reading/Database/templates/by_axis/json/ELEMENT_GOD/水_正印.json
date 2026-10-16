@@ -104,7 +104,7 @@
             "word": "Stays sheltered",
             "angles": {
               "drive": "You stay where it is safe long after outgrowing it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you.",
-              "cost_self": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You miss the very chances the shelter was meant to prepare you for.",
+              "cost_self": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again.",
               "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
             }
           },
@@ -455,6 +455,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Over-protecting the ones you love never rests. Taking the hit for someone is easier for you than watching them take it, so you carry what was never yours. Bear in mind what you pay in rest for every hit you absorb for another person."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You miss the very chances the shelter was meant to prepare you for."
     }
   ]
 }

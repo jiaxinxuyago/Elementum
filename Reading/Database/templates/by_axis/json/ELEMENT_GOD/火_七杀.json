@@ -95,7 +95,7 @@
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You live each mistake twice, once when it happens and again whenever you replay it.",
+              "drive": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You paid for each mistake the first time, and that was enough.",
               "cost_self": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. You lose the days off you never let yourself take.",
               "cost_others": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You bring that standard home and leave the people you love nowhere to be less than their best."
             }
@@ -112,7 +112,7 @@
             "word": "Never off duty",
             "angles": {
               "drive": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty ahead of ending the day. Remember you were made to meet a crisis rather than stay on duty after it.",
-              "cost_self": "When one emergency ends, you look for the next rather than go off duty. You never take a rest you did not fight for, so duty is your normal. Only you can call yourself off duty, and waiting costs you every evening at home.",
+              "cost_self": "When one emergency ends, you look for the next rather than go off duty. You never take a rest you did not fight for, so duty is your normal. You hand every evening at home to a duty you gave yourself.",
               "cost_others": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard ahead of someone to sit with. You keep them safe and leave them without the company they wanted."
             }
           }
@@ -697,6 +697,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. Before the next push, remember that you are harder to be close to than to follow."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You live each mistake twice, once when it happens and again whenever you replay it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "When one emergency ends, you look for the next rather than go off duty. You never take a rest you did not fight for, so duty is your normal. Only you can call yourself off duty, and waiting costs you every evening at home."
     }
   ]
 }

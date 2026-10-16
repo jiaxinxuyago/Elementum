@@ -103,7 +103,7 @@
           {
             "word": "Never off duty",
             "angles": {
-              "drive": "Even on days nothing is asked of you, you stay on duty. Being needed is the only rest you trust, and you pick the next duty rather than the night off. You are the only one keeping you on duty.",
+              "drive": "Even on days nothing is asked of you, you stay on duty. Being needed is the only rest you trust, and you pick the next duty rather than the night off. You are allowed to come off duty without earning it first.",
               "cost_self": "Off duty is a state you never fully manage. The alert in you never stands down, and you spend a free evening on duty rather than inside it. You lose the rest your free evenings were meant to give you.",
               "cost_others": "Staying on duty is how you look after people. You stand duty over their troubles ahead of sitting with them, and the people you guard get a guard in place of company. You leave them protected and alone with their troubles."
             }
@@ -457,6 +457,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. You push them toward a good they never got to choose for themselves."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Even on days nothing is asked of you, you stay on duty. Being needed is the only rest you trust, and you pick the next duty rather than the night off. You are the only one keeping you on duty."
     }
   ]
 }

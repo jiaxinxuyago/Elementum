@@ -103,7 +103,7 @@
           {
             "word": "Says too much",
             "angles": {
-              "drive": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. You lose the useful part in everything else you say.",
+              "drive": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. You are allowed to say the useful half and call it honest.",
               "cost_self": "Saying too much proves to you that you were listening. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You talk away trust that comes back slower than it left.",
               "cost_others": "You say too much to whoever let you speak. Because a thought feels wasted unless it is said, you take their turn as much as your own. You leave the person beside you no chance to finish their own point."
             }
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "Overdoing it is the only way you know to be sure of enough. Since plain and finished feels like settling, you make it bigger rather than call it done. For every extra, you draw on your own strength.",
               "cost_self": "Overdoing it is how you make sure a thing looks like you. Long after the plain version would do, you keep adding rather than finishing and spend what the end needed. You pay for every extra in the sleep the finish was owed.",
-              "cost_others": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. Remember that you are allowed to give them less, and sooner."
+              "cost_others": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. You make them wait for more than they asked for."
             }
           }
         ]
@@ -449,6 +449,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. You owed them the small one now, the one with a use."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. You lose the useful part in everything else you say."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. Remember that you are allowed to give them less, and sooner."
     }
   ]
 }

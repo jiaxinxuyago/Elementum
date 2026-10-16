@@ -103,7 +103,7 @@
           {
             "word": "Spread thin",
             "angles": {
-              "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You spread one tired body over all of them.",
+              "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You wanted freedom all along, and a closed option leaves it whole.",
               "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you spread yourself over them, tired at each one. Spread this thin, you never get a full rest and start each day already tired.",
               "cost_others": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else."
             }
@@ -713,6 +713,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending in money never kept, as every thin month reminds you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You spread one tired body over all of them."
     }
   ]
 }

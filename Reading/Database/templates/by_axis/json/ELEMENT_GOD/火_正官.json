@@ -95,7 +95,7 @@
           {
             "word": "Rule-bound",
             "angles": {
-              "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one ahead of the useful one. You wrote most of these rules yourself, and you can retire them.",
+              "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one ahead of the useful one. You wrote most of these rules yourself and are free to retire them.",
               "cost_self": "Between a rule and a chance, you take the rule. You put being correct ahead of being free, so your career keeps the rules and never jumps. Along the way, you lose out on the jobs you never went for.",
               "cost_others": "Keeping to the rules is how you look after people. Because one exception feels like a collapse starting, you give them the rule ahead of what they asked for. You keep everyone at home in line and take from them the ease of being wrong."
             }
@@ -697,6 +697,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes ahead of getting home, you trade sleep for another duty. You are nobody's standard once you run out of sleep to say yes with, and that is worth remembering."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one ahead of the useful one. You wrote most of these rules yourself, and you can retire them."
     }
   ]
 }

@@ -95,9 +95,9 @@
           {
             "word": "Sealed-off",
             "angles": {
-              "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. You seal out the people you want as much as the risk.",
-              "cost_self": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. You carry each hurt alone, and you lose evenings you could have shared.",
-              "cost_others": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. Remember that you meant to seal out the hurt, never your peers."
+              "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Remember that you meant to seal out the hurt rather than your peers.",
+              "cost_self": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. You carry each hurt alone, and you lose the evenings you wanted to share.",
+              "cost_others": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. You keep your peers at a polite distance and never let them in."
             }
           },
           {
@@ -713,6 +713,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Where a job is heavy, you take it all instead of asking for half. To prove you are enough, you carry it alone and spend sleep before spending one question. As you know, you pay in lost sleep for help you never ask for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. You seal out the people you want as much as the risk."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. You carry each hurt alone, and you lose evenings you could have shared."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. Remember that you meant to seal out the hurt, never your peers."
     }
   ]
 }

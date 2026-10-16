@@ -95,7 +95,7 @@
           {
             "word": "Protects too much",
             "angles": {
-              "drive": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in ahead of being asked. You spare them every fall and take away their proof that they can stand.",
+              "drive": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in ahead of being asked. You are allowed to stand beside a struggle without taking it over.",
               "cost_self": "Protecting your own people takes most of you. Since you feel their trouble more than your own, you spend your rest on their emergencies rather than your life. It pays to remember that the life you put down for theirs is also yours.",
               "cost_others": "Each time a loved one is about to fail, you catch it. Protecting them from the consequence feels more like love to you than letting them meet it. With every rescue, you keep from them the small win of managing it."
             }
@@ -409,6 +409,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy ahead of what you want. Without noticing, you trade the life you meant to have for a smaller one."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in ahead of being asked. You spare them every fall and take away their proof that they can stand."
     }
   ]
 }

@@ -103,7 +103,7 @@
           {
             "word": "Never switches off",
             "angles": {
-              "drive": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You spend your evenings at home on guard and gain nothing that rest would not.",
+              "drive": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You have every right to switch off and let the evening be rest.",
               "cost_self": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. You trade your sleep for that open job and never get the hours back.",
               "cost_others": "Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. At home, you give them whatever the day did not use."
             }
@@ -431,6 +431,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. Know that you are pleased only by the next standard, never by the one just met."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You spend your evenings at home on guard and gain nothing that rest would not."
     }
   ]
 }

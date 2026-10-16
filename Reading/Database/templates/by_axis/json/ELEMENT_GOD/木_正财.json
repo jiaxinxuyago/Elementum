@@ -103,7 +103,7 @@
           {
             "word": "Counts everything",
             "angles": {
-              "drive": "Counting what something cost matters to you ahead of enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You end up pricing everything you own and enjoying little of it.",
+              "drive": "Counting what something cost matters to you ahead of enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
               "cost_self": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. You give up the easy days that all your counting was meant to buy.",
               "cost_others": "For the people you love, you count as closely as yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
             }
@@ -713,6 +713,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Remember what proof costs you before you trust, closeness not had and years already gone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Counting what something cost matters to you ahead of enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You end up pricing everything you own and enjoying little of it."
     }
   ]
 }

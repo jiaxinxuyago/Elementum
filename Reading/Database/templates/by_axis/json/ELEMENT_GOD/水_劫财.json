@@ -95,7 +95,7 @@
           {
             "word": "Races in secret",
             "angles": {
-              "drive": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. With the race never named, you run it alone and finish it alone.",
+              "drive": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Remember that you race a friend because you want to count as their equal.",
               "cost_self": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud.",
               "cost_others": "In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you openly."
             }
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "Never enough is the rule under everything you win. Water keeps rising in you and never lands, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one.",
               "cost_self": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings.",
-              "cost_others": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You call it done, and letting them stop counts as a win too."
+              "cost_others": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You spend the rest they had planned to take at the finish."
             }
           }
         ]
@@ -409,6 +409,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You keep them beside you with one question asked before you spend."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. With the race never named, you run it alone and finish it alone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You call it done, and letting them stop counts as a win too."
     }
   ]
 }

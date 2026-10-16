@@ -95,7 +95,7 @@
           {
             "word": "Never says no",
             "angles": {
-              "drive": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes ahead of checking the cost. You spend your own rest on every yes and seldom get it back.",
+              "drive": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes ahead of checking the cost. You owe no one a reason for saying no.",
               "cost_self": "Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Each rest you turn down, you pay for later with your health.",
               "cost_others": "You answer whoever asks first with a yes, and you leave the people at home what is left. Pleasing the person in front of you comes ahead of keeping your word at home. You give your family the leftovers of a day promised to others."
             }
@@ -441,6 +441,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. Keep hold of this, that you run the pleasure on yourself and it puts nothing back."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes ahead of checking the cost. You spend your own rest on every yes and seldom get it back."
     }
   ]
 }

@@ -95,7 +95,7 @@
           {
             "word": "By the book",
             "angles": {
-              "drive": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. Each time the book decides, you give up a chance to trust yourself.",
+              "drive": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. You are free to trust your guess wherever the book runs out.",
               "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed.",
               "cost_others": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
             }
@@ -409,6 +409,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Know that you want the order more than the answer, and the job needs the answer."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. Each time the book decides, you give up a chance to trust yourself."
     }
   ]
 }

@@ -97,7 +97,7 @@
             "angles": {
               "drive": "What you think is already out loud, and the editing happens after. You have more Water than time to settle it, so you share the thought ahead of asking whether it is yours. You give away ideas before you have finished thinking them.",
               "cost_self": "Sharing it all is easier than choosing which part, and you rarely choose. Since you let out more than comes back, you share every thought at full strength. You feel emptied afterwards, with nothing of it kept private.",
-              "cost_others": "To stay honest with people, you share everything you think. Sharing openly rather than asking what someone wants to hear, you take away their choice of how much to hold. You are allowed to let them ask before the rest comes out."
+              "cost_others": "To stay honest with people, you share everything you think. Sharing openly rather than asking what someone wants to hear, you take away their choice of how much to hold. You spend their attention on more of your thinking than they asked for."
             }
           },
           {
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight ahead of asking why. Keep in mind that asking why first does not make you smaller.",
               "cost_self": "Any push at all gets a fight out of you. You would rather lose on your terms than win on theirs, so you fight rules you never cared about. Skip the small fights, or each one you pick costs you a chance you wanted.",
-              "cost_others": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Underneath, you want to be heard as an equal."
+              "cost_others": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you."
             }
           }
         ]
@@ -673,6 +673,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Pick the same fight in private first and lose nothing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "To stay honest with people, you share everything you think. Sharing openly rather than asking what someone wants to hear, you take away their choice of how much to hold. You are allowed to let them ask before the rest comes out."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. Underneath, you want to be heard as an equal."
     }
   ]
 }

@@ -104,8 +104,8 @@
             "word": "Comfort first",
             "angles": {
               "drive": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. You enjoy the comfort less while the job sits undone.",
-              "cost_self": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, while what you avoided waits for you unchanged. You are taking comfort where you needed rest, and tomorrow you are just as tired.",
-              "cost_others": "Keeping everyone around you comfortable comes before asking anything of them. Since you put a child's comfort ahead of what they promised, you take from them the small steadiness they needed. Remember that you get to be both the comforting one and the steady one."
+              "cost_self": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, while what you avoided waits for you unchanged. Remember that what you were after all along was rest.",
+              "cost_others": "Keeping everyone around you comfortable comes before asking anything of them. Since you put a child's comfort ahead of what they promised, you take from them the small steadiness they needed. You spare them the promise and the pride of seeing it through."
             }
           },
           {
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "What you have, you give away before checking whether enough is left. Since giving is the nearest you get to feeling like yourself, you give away more than you keep. You are one of the people you give to, and that is worth remembering.",
               "cost_self": "Giving things away is quicker for you than working out what you need. Giving out more than comes back, you end most weeks with less than you started with. You go without exactly what you gave away, the rest and the money.",
-              "cost_others": "You give your hours to whoever is nearest, without deciding. Whenever you give everyone something rather than save enough for the few counting on you, you leave them less than was theirs. You give best from what you kept, and keeping is part of giving."
+              "cost_others": "You give your hours to whoever is nearest, without deciding. Whenever you give everyone something rather than save enough for the few counting on you, you leave them less than was theirs. You give away to everyone the hours meant for the few."
             }
           }
         ]
@@ -657,6 +657,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
       "replaced": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. Do not forget that you enjoy comfort more once the thing is finished."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, while what you avoided waits for you unchanged. You are taking comfort where you needed rest, and tomorrow you are just as tired."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Keeping everyone around you comfortable comes before asking anything of them. Since you put a child's comfort ahead of what they promised, you take from them the small steadiness they needed. Remember that you get to be both the comforting one and the steady one."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You give your hours to whoever is nearest, without deciding. Whenever you give everyone something rather than save enough for the few counting on you, you leave them less than was theirs. You give best from what you kept, and keeping is part of giving."
     }
   ]
 }

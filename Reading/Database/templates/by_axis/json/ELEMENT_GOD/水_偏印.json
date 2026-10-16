@@ -103,9 +103,9 @@
           {
             "word": "Keeps it in",
             "angles": {
-              "drive": "You keep what you know in until it is finished, and it never is. More goes into you than comes out, because a half-formed thought let loose feels like a thought lost. You guard your best ideas, and nobody ever gets to use them.",
+              "drive": "You keep what you know in until it is finished, and it never is. More goes into you than comes out, because a half-formed thought let loose feels like a thought lost. Remember that what you let out half-formed is yours all the same.",
               "cost_self": "Keeping it in keeps it from being judged. Inside is where an idea stays safe, so you hold yours back until perfect rather than let it out rough. You go unheard on the very things you understand best.",
-              "cost_others": "You keep in what others could use. A thought let out early feels broken to you, so you hold it in rather than hand it over. Remember how much more you help with half an answer than with a whole one never said."
+              "cost_others": "You keep in what others could use. A thought let out early feels broken to you, so you hold it in rather than hand it over. You make the people around you search alone for an answer you are holding."
             }
           },
           {
@@ -441,6 +441,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You already know that you trade closeness for that thread, and closeness does not wait."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You keep what you know in until it is finished, and it never is. More goes into you than comes out, because a half-formed thought let loose feels like a thought lost. You guard your best ideas, and nobody ever gets to use them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You keep in what others could use. A thought let out early feels broken to you, so you hold it in rather than hand it over. Remember how much more you help with half an answer than with a whole one never said."
     }
   ]
 }

@@ -103,7 +103,7 @@
           {
             "word": "Spread thin",
             "angles": {
-              "drive": "Spread thin is how you like it. You feel most at ease with several ventures open, and you spread yourself across all of them rather than into one. You end up thin in the one place you most wanted to go deep.",
+              "drive": "Spread thin is how you like it. You feel most at ease with several ventures open, and you spread yourself across all of them rather than into one. Under all the spreading, you want one venture worth staying in.",
               "cost_self": "Spread thin, you never learn what you could do whole. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. Spread thin, you pay in rest never taken and the one venture that would have paid.",
               "cost_others": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You give every partner less of you than the shared venture needs."
             }
@@ -441,6 +441,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. The thing to remember is that you spend what your family counts on for later."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Spread thin is how you like it. You feel most at ease with several ventures open, and you spread yourself across all of them rather than into one. You end up thin in the one place you most wanted to go deep."
     }
   ]
 }

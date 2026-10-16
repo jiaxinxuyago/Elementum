@@ -95,9 +95,9 @@
           {
             "word": "Hard to please",
             "angles": {
-              "drive": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole. Holding out for perfect, you go without being pleased at all.",
+              "drive": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole. You are allowed to be pleased by a thing that is nearly right.",
               "cost_self": "Being hard to please costs you the pleasure. Since your pleasure has to be earned, you hold it back rather than enjoy what is only nice. You never get back an evening spent waiting to be pleased.",
-              "cost_others": "You look a gift over before you let it please you. You put the flaw ahead of the thanks, and keep the maker from seeing you pleased. You give a maker the most when you let the gift please you first."
+              "cost_others": "You look a gift over before you let it please you. You put the flaw ahead of the thanks, and keep the maker from seeing you pleased. You take from each maker the joy of having pleased you."
             }
           },
           {
@@ -425,6 +425,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Bear in mind that you never try the hard parts while taking it easy."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole. Holding out for perfect, you go without being pleased at all."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You look a gift over before you let it please you. You put the flaw ahead of the thanks, and keep the maker from seeing you pleased. You give a maker the most when you let the gift please you first."
     }
   ]
 }

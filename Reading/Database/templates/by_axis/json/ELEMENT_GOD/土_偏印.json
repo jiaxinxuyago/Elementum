@@ -95,7 +95,7 @@
           {
             "word": "Never quite ready",
             "angles": {
-              "drive": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. You keep the first attempt waiting on a feeling.",
+              "drive": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. You are allowed to make the first attempt before the feeling arrives.",
               "cost_self": "Getting ready is the part you control, so it is where you stay. You lose nothing today by preparing once more, while you risk everything on a first try. You pay for each extra round in chances that closed before you felt ready.",
               "cost_others": "Asked for a quick take, you hand over a prepared one later. Being ready matters more to you than being on time, so you keep people waiting. You give them the clean take late when the rough one would have done."
             }
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later.",
               "cost_self": "The second guess is where most of your time goes. Needing to feel certain first, you keep second-guessing a choice after the guessing stops helping. You second-guess to feel sure rather than be sure, and you lose sleep to the difference.",
-              "cost_others": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. Remember that you are allowed to hand over the answer you reached."
+              "cost_others": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You hold up their next step for as long as you second-guess."
             }
           }
         ]
@@ -726,6 +726,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You owe them the plain answer you already reached."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. You keep the first attempt waiting on a feeling."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. Remember that you are allowed to hand over the answer you reached."
     }
   ]
 }

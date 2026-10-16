@@ -103,7 +103,7 @@
           {
             "word": "Spends for show",
             "angles": {
-              "drive": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You buy the evening with money you meant for something that lasts.",
+              "drive": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You were buying a place at the table that was already yours.",
               "cost_self": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen as generous beats being secure. You trade your own savings for a moment of looking generous.",
               "cost_others": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no chance to be generous back with you."
             }
@@ -449,6 +449,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. You repay every skipped rest later and at a higher price, bear that in mind."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You buy the evening with money you meant for something that lasts."
     }
   ]
 }

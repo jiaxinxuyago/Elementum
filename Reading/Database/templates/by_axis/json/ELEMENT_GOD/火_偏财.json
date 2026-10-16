@@ -103,7 +103,7 @@
           {
             "word": "Spends it fast",
             "angles": {
-              "drive": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. You enjoy each purchase and meet the next lean month with nothing saved.",
+              "drive": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. You were never after the things, only the proof that the money was yours.",
               "cost_self": "Fast spending feels like freedom to you. You would rather have the thing now than the money later, and what comes in easily goes before it grows. You never build the stake a venture of your own would need.",
               "cost_others": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take away their say in shared money with each fast spend."
             }
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "Looking past home comes easily to you. The next venture feels like where your life begins, so you look ahead at what might come rather than at what is here. You are already living the life you look past.",
               "cost_self": "Whenever you look past home, you save your best for what comes next. You would rather look toward somewhere new than settle where you already are. You miss the rest your own home was built to give you.",
-              "cost_others": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. Keep in mind that you are allowed to be home while you are home."
+              "cost_others": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on the nights you are home."
             }
           }
         ]
@@ -417,6 +417,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. You enjoy each purchase and meet the next lean month with nothing saved."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. Keep in mind that you are allowed to be home while you are home."
     }
   ]
 }

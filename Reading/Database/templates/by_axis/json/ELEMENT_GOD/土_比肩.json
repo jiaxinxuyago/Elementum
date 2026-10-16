@@ -97,15 +97,15 @@
             "angles": {
               "drive": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out alone instead of handing any of it over. You carry each problem alone for longer than it needs.",
               "cost_self": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. You lose sleep over what one question would have settled.",
-              "cost_others": "By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You only ever let someone in by letting them help."
+              "cost_others": "By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You give your friends no share in the weight you carry."
             }
           },
           {
             "word": "Shuts people out",
             "angles": {
-              "drive": "Tired, you shut people out before anything else. Quiet is how you recover, and you shut people out sooner than ask for the quiet you need. The longer you shut people out to rest, the harder you find the way back.",
+              "drive": "Tired, you shut people out before anything else. Quiet is how you recover, and you shut people out sooner than ask for the quiet you need. You only ever wanted rest, never distance from the people you love.",
               "cost_self": "Where you shut people out, you shut out what you were saving yourself for. Your own company works so well that you mistake it for the plan rather than a break. You pay for that peace in closeness, one quiet evening at a time.",
-              "cost_others": "Needing rest, you shut out everyone, the people closest to you included. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Keep in mind that you wanted the quiet, never the distance from those you love."
+              "cost_others": "Needing rest, you shut out everyone, the people closest to you included. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. You take your company from those you love for as long as you rest."
             }
           },
           {
@@ -417,6 +417,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You mostly shut out people who did nothing to earn it. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Bear in mind how long you leave people waiting for a welcome you rarely give."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You only ever let someone in by letting them help."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Tired, you shut people out before anything else. Quiet is how you recover, and you shut people out sooner than ask for the quiet you need. The longer you shut people out to rest, the harder you find the way back."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-plain-cost-2",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost-2/station/",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
+      "replaced": "Needing rest, you shut out everyone, the people closest to you included. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Keep in mind that you wanted the quiet, never the distance from those you love."
     }
   ]
 }
