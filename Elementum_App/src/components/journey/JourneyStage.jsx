@@ -1132,9 +1132,6 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
               <p className="wp-body">{domSheet.teaser}</p>
               {tier === 'free' ? (
                 <>
-                  {domSheet.seat?.domainReadings?.[domSheet.word] && (
-                    <div className="el-domsheet-locked" aria-hidden="true"><p>{firstSent(domSheet.seat.domainReadings[domSheet.word])} {domSheet.seat.domainReadings[domSheet.word].slice(firstSent(domSheet.seat.domainReadings[domSheet.word]).length, firstSent(domSheet.seat.domainReadings[domSheet.word]).length + 140)}</p><span className="el-domsheet-lockpill"><Use id="ico-lock" /> Seeker</span></div>
-                  )}
                   <button type="button" className="el-domsheet-cta" onClick={() => { setDomSheet(null); openUpgrade('The Domains'); }}>Unlock The Domains <span className="el-domsheet-price">{TIER_PRICES.seeker}</span></button>
                   <p className="el-domsheet-sub">All eight domains across every seat of your chart: the reading, the people, the shadow, and the body.</p>
                 </>
