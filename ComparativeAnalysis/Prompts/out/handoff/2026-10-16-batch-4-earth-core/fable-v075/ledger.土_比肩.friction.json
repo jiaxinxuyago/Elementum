@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Never asks",
-    "text": "Never asking is the rule you keep hardest. There is more Earth in you than you spend, so you hold a problem alone rather than hand half of it over. You keep the favour a friend never gets to give, and you call that strength."
+    "text": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out alone instead of handing any of it over. Keep in mind that anything you never ask about stays yours for longer than it needs to."
    },
    "value_b": {
     "word": "Never asks",
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Shuts people out",
-    "text": "Shutting people out is less a choice than a resting position. Earth piles up in you faster than you use it, so keeping to yourself feels like rest rather than hiding. Keep in mind that you protect your quiet until nobody gets through it."
+    "text": "Tired, you shut people out before anything else. Quiet is how you recover, and you shut people out sooner than ask for the quiet you need. The longer you shut people out to rest, the harder you find the way back."
    },
    "value_b": {
     "word": "Shuts people out",
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Takes no advice",
-    "text": "Taking advice is nearly the last thing you do. You carry more Earth than you use, so you put your own read ahead of anyone else's. Worth remembering that you can be the most solid person around and the last to take a correction."
+    "text": "You take no advice you have not tested yourself. Catching your own mistakes matters more to you than having a peer point them out. You do not have to be wrong to take advice that makes your plan better."
    },
    "value_b": {
     "word": "Takes no advice",
-    "text": "Advice reaches you late, if at all. Being right by your own measure matters more than being helped, and you hear a correction as a push rather than a gift. You lose nothing by hearing one out, and you know what you lose by not."
+    "text": "Advice reaches you late, if at all. Being right by your own measure matters more than being helped, and you hear a correction as a push rather than a gift. Each time you wave one off, you reach the same answer the long way."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Takes no advice",
-    "text": "Taking no advice means every lesson arrives the expensive way. Whenever you would rather learn a thing yourself than be told, a friend's one sentence becomes your whole season. You lose most of your chances while you are busy proving yourself right."
+    "text": "With no advice taken, you learn at full price. Whenever you would rather learn a thing yourself than be told, a friend's one sentence becomes your whole season. You end up repeating mistakes a friend had already solved for you."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Takes no advice",
-    "text": "Refusing advice teaches the people who offer it to stop. You would rather be right alone than helped in company, and each correction you wave off trains a friend to go quiet. You earn the silence of people who stopped trying to reach you."
+    "text": "When a friend offers advice, you thank them and go your own way. You keep your own plan ahead of theirs, and the care they put in goes to waste. Notice that taking even one piece of their advice tells them their care landed."
    }
   }
  }

@@ -54,7 +54,7 @@
    },
    "value_b": {
     "word": "Better with rivals",
-    "text": "Competition wakes something in you that nothing else reaches. Being measured against someone feels more honest than being measured alone, and a rival makes you better where a fan makes you comfortable. Keep one rival close, and you keep your best effort within reach."
+    "text": "Competition wakes something in you that nothing else reaches. Being measured against someone feels more honest than being measured alone, and you push harder for a rival than for a fan. Keep one rival close, and you keep your best effort within reach."
    }
   },
   "ledger[1]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Bets big",
-    "text": "Betting big is the only size that feels real to you. Small stakes never wake you, so you go all in rather than try a little first. Keep the bets you can afford, and you keep the boldness a strength instead of a story."
+    "text": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. If you let small bets count too, you stop missing the gains that come slowly."
    },
    "value_b": {
     "word": "Bets big",
-    "text": "You bet big because small wins never feel like wins. A heavy stake is the only thing that gets all of you, so you risk a season rather than a week. Space the big bets, and you recover enough to make the next one count."
+    "text": "Betting big, you find out what you are made of. You value one bold bet more than many safe ones, and you will stake a season on it. Leave a quiet stretch after each big bet to come back to the next one whole."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Bets big",
-    "text": "Where you bet big, you lose at the same size. You would rather be all in than in a little, and one bad bet eats a year of savings. Set the size before the pull, and you hold on to what a bold year eats."
+    "text": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. When you hold back one part of each bet, you keep the savings a single loss would take."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Bets big",
-    "text": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Ask first, and you hand them a say in their own risk."
+    "text": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Ask first, because you keep a partner who chose the risk."
    }
   },
   "ledger[6]": {
@@ -293,12 +293,12 @@
     }
    },
    "value": {
-    "word": "Shares the win",
-    "text": "Sharing the win is where the race finally makes sense to you. Since a win nobody saw never felt like one, you would rather split a victory than hold it alone. Keep sharing it, and you make the win last longer than the race did."
+    "word": "Shares the credit",
+    "text": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people inside it. When a win can count before you have shared it, you get to enjoy it twice."
    },
    "value_b": {
-    "word": "Shares the win",
-    "text": "You share the win because a win with no witness feels unfinished. Being seen winning matters as much to you as winning, so you bring people into your victories rather than your fights. Keep doing it, and you win people as well as races."
+    "word": "Shares the credit",
+    "text": "Whenever you come out ahead, you share the credit first. You want to be seen winning as much as you want the prize. Once you enjoy a result nobody saw, you share the credit freely instead of trading it for an audience."
    }
   },
   "ledger[7]": {
@@ -336,8 +336,8 @@
     }
    },
    "value": {
-    "word": "Shares the win",
-    "text": "Each shared win costs you the part that was only yours. You hand out credit rather than keep it, and your own work goes unnamed. Keep one win to yourself, and you have something left when the crowd goes home."
+    "word": "Shares the credit",
+    "text": "Taking the credit alone feels like showing off to you. You hand out credit rather than keep it, and your own work goes unnamed. If you put your own name on your part, you stop losing the chances that follow credit."
    }
   },
   "ledger[8]": {
@@ -375,8 +375,8 @@
     }
    },
    "value": {
-    "word": "Shares the win",
-    "text": "Your shared wins land on people who did not run for them. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Share the race too, and you offer them something to earn."
+    "word": "Shares the credit",
+    "text": "The credit you share lands on people who did not run for it. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Name who did what, to give praise each person can use."
    }
   }
  }
