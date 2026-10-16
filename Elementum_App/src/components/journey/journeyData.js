@@ -636,9 +636,10 @@ export function fnLabelFor(m, r) {
 // does not open on "Seek <Element>," renders as a plain box with no energy.
 const EL_KEY = { Metal: 'metal', Earth: 'earth', Wood: 'wood', Water: 'water', Fire: 'fire' };
 export function remedyOf(advise) {
-  const m = /^(Seek (Metal|Earth|Wood|Water|Fire), [^.]*\.)\s*/.exec(advise || '');
+  const m = /^(Seek (Metal|Earth|Wood|Water|Fire), (?:your own )?the ([A-Z][a-z]+) energy\.|Seek (Metal|Earth|Wood|Water|Fire), [^.]*\.)\s*/.exec(advise || '');
   if (!m) return null;
-  return { el: EL_KEY[m[2]], name: m[2], beat: m[1], rest: advise.slice(m[0].length) };
+  const name = m[2] || m[4]; const fn = m[3] || (/your own ([A-Z][a-z]+) energy/.exec(m[1]) || [])[1] || null;
+  return { el: EL_KEY[name], name, fn, beat: m[1], rest: advise.slice(m[0].length) };
 }
 
 // THE EDGE (owner 2026-10-15, three calls): on the catalyst pole the page's last
@@ -682,16 +683,16 @@ export function edgeOf(r) {
 // Returns { pole, verdict, dir }.
 export function characterLine(r, condition) {
   if (r.isCore) {
-    return condition === 'Overfueled' ? { pole: 'cond', verdict: 'Channel it.', dir: 'release' }
-      : condition === 'Underfueled' ? { pole: 'cond', verdict: 'Refill it.', dir: 'grow' }
-        : { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep' };
+    return condition === 'Overfueled' ? { pole: 'cond', verdict: 'Channel it.', dir: 'release', verb: 'channel' }
+      : condition === 'Underfueled' ? { pole: 'cond', verdict: 'Refill it.', dir: 'grow', verb: 'refill' }
+        : { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep', verb: 'keep' };
   }
-  if (condition === 'Balanced') return { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep' };
+  if (condition === 'Balanced') return { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep', verb: 'keep' };
   const v = r.volume || volumeOf(r.presence);
   const friction = r.role === 'friction' || r.coreExcess;
   const low = v === 'absent' || v === 'thin';
-  if (friction) return low ? { pole: 'friction', verdict: 'Ease off it.', dir: 'release' } : { pole: 'friction', verdict: 'Release it.', dir: 'release' };
-  return low ? { pole: 'catalyst', verdict: 'Seek more of it.', dir: 'grow' } : { pole: 'catalyst', verdict: 'Use it.', dir: 'grow' };
+  if (friction) return low ? { pole: 'friction', verdict: 'Ease off it.', dir: 'release', verb: 'ease off' } : { pole: 'friction', verdict: 'Release it.', dir: 'release', verb: 'release' };
+  return low ? { pole: 'catalyst', verdict: 'Seek more of it.', dir: 'grow', verb: 'seek' } : { pole: 'catalyst', verdict: 'Use it.', dir: 'grow', verb: 'use' };
 }
 
 const PRESENT = new Set(['present', 'abundant', 'dominant']);

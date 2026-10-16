@@ -22,3 +22,10 @@
 ## Open
 
 - None on the construct. If an advice ever opens on a different prescription shape, the parser's pattern follows the card.
+
+## 2026-10-16: the title echoes THE CHARACTER's verb
+
+The owner: "think of a way to change the title of each remedy to echo with the action verb, for example 'Seek Fire to channel the Metal energy', or 'Seek fire to channel your body', find the best fit for this and make sure this last section has a tight relationship and logic flow with the character."
+
+Built: the title is composed from the character's verdict and the remedy's sought energy, `Seek <Energy> to <verb> <this energy>.`: "Seek Wood to release Earth." under "Release it.", "Seek Fire to channel Metal." under "Channel it.", "Seek ... to ease off ..." under "Ease off it.". The energy's name was chosen over the function ("Seek Fire to channel your Body" reads as a bodily instruction, and the function is already the page's first line). The sought energy's function, which the old title carried ("Seek Fire, the Order energy."), rides beneath the title as the small line ("FIRE, THE ORDER ENERGY", "your own" appended where the remedy is the core itself). The station's `advise_friction` keeps its "Seek X, the F energy." opening as the parse anchor; nothing in the station changed. The flow of the page's last two sections is now: the verdict says the verb, the direction mark shows it, the remedy title repeats the verb with the energy to seek, the body says how.
+

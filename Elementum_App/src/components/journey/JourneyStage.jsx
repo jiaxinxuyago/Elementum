@@ -937,7 +937,15 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                           <Box className={`el-remedybox pv-${boxEl}${friction ? ' fric' : ' cat'}${canGo ? ' goa' : ''}`} {...(canGo ? { type: 'button', onClick: () => goElement(rem.el), 'aria-label': `Open the ${rem.name} energy page` } : {})}>
                             <span className="el-remedyhead">
                               <span className="el-remedyring" aria-hidden="true"><Use id={`el-${boxEl}`} /></span>
-                              {rem ? <span className="serifline el-remedytitle">{rem.beat}</span> : <span className="el-remedyname">{elScreen.elName}, the {elScreen.fnLabel} energy</span>}
+                              {/* The title echoes THE CHARACTER's verb (owner 2026-10-16):
+                                  "Seek Fire to channel Metal." The sought energy's
+                                  function rides beneath as the small line. */}
+                              {rem ? (
+                                <span className="el-remedytitles">
+                                  <span className="serifline el-remedytitle">Seek {rem.name} to {elScreen.fnReading.characterLine?.verb || 'release'} {elScreen.elName}.</span>
+                                  {rem.fn && <span className="el-remedyname">{rem.name}, the {rem.fn} energy{rem.el === elScreen.el ? ', your own' : ''}</span>}
+                                </span>
+                              ) : <span className="el-remedyname">{elScreen.elName}, the {elScreen.fnLabel} energy</span>}
                               {canGo && <span className="el-remedygo" aria-hidden="true"><Use id="ico-chev-r" /></span>}
                             </span>
                             <span className="body2 el-fnbody el-remedybody">{rem ? rem.rest : elScreen.fnReading.advise}</span>

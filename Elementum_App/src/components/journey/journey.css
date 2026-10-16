@@ -856,4 +856,8 @@
 .jny .dir-release .el-chardir-track i{ left: -2px; background: var(--down, #a85c48); }
 .jny .dir-keep .el-chardir-track i{ left: 50%; margin-left: -5px; }
 .jny .el-charrow + .el-measure{ margin-top: 10px; }
+/* THE REMEDY's title echoes THE CHARACTER's verb; the sought energy's function beneath (owner 2026-10-16) */
+.jny .el-remedytitles{ flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.jny .el-remedytitles .el-remedytitle{ flex: none; }
+.jny .el-remedytitles .el-remedyname{ flex: none; font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase; }
 
