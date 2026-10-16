@@ -1,0 +1,92 @@
+{
+ "_generated_by": "fable-edge-v5",
+ "_handoff": "2026-10-16 the edge, metal core, v7 the lead at the advice quality",
+ "cell": "ELEMENT_GOD/水_食神 (catalyst)",
+ "facts": {
+  "persona": "The Artisan (食神) on Water",
+  "function": "expression",
+  "core": "Metal (the cells are written for every chart with a Metal core; no number, band or state of one chart in any value)",
+  "catalyst_chips": [
+   "Giving",
+   "Unforced",
+   "Warm"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Giving",
+    "angles": {
+     "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, and you give the help ahead of the ask. Keep giving first, because you were never giving to earn your place.",
+     "cost_self": "Where a need is in front of you, you give before asking whose it was. You keep giving instead of wanting, until your own wants sit last in line. Let one person give to you, since you never get the pleasure you never ask for.",
+     "cost_others": "Long before the question, you give people what they need. You give the answer rather than let the ones you love ask, and you leave them out of practice. Wait for the question sometimes, because being asked is also a way of being given to."
+    }
+   },
+   {
+    "word": "Unforced",
+    "angles": {
+     "drive": "What you make is unforced, and you hardly notice how rare that is. Since effort is the only proof you trust, you put what you forced ahead of what came easily. Let the unforced thing count, because it was never the lesser one.",
+     "cost_self": "Whenever something comes to you without effort, you count it as worth less. Trusting the forced version more than the easy one, you add effort to finished work. Leave the unforced thing alone, or every hour spent forcing it is rest you lose.",
+     "cost_others": "Looking unforced is how you are kind to those you make things for. You hide the effort rather than show the care, and you keep them from knowing what they mean to you. Let the effort show sometimes, because the care is worth keeping."
+    }
+   },
+   {
+    "word": "Warm",
+    "angles": {
+     "drive": "Warmth matters to you more than winning the point, and an easy evening is where you are most yourself. This is why you make the warmth around you on purpose. Keep making it, and sit inside it as a guest some nights.",
+     "cost_self": "Keeping things warm for everyone comes before saying the hard thing. Since you keep the warmth instead of risking it on one honest line, you carry that line alone. Speak it early, because staying warm costs you the one sentence you most need to say.",
+     "cost_others": "Anything hard that has to reach someone, you warm first. Whenever you keep a child warm rather than tell them straight what you saw, you hold the plain version back. Give them the plain version sometimes, with the warmth never in doubt."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Quick-witted",
+   "Original",
+   "Speaks up"
+  ],
+  "pair_definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, your gate stays shut while you get a thing right rather than give it. You keep your kindness and your wit waiting past their moment.",
+  "pair_advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.",
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ],
+  "ruling_domains": [
+   "Health",
+   "Family",
+   "Career"
+  ],
+  "claim_fixed": "How to use Water, the Expression energy."
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v7)",
+    "shape": {
+     "claim": "exactly facts.claim_fixed",
+     "lead": "35-55 words, 3-6 sentences, opens on You (the condition the gift creates when it has nowhere to go), a short imperative of 2-4 words, then two or three concrete things to do with objects and cadences; never an It opener",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys"
+    },
+    "notes": "the pair_advise_catalyst in facts is the REGISTER to match, never a source: no four-word run shared with it; the examples should land, where natural, in the three ruling domains"
+   },
+   "value": {
+    "claim": "How to use Water, the Expression energy.",
+    "lead": "You get short with everyone at home on the days the warmth has had nowhere to land. Hand it over. Make someone younger a birthday card by hand, with more than your name inside. Show a colleague the half-done draft on Friday, and walk beside someone older on Sunday while they do the talking.",
+    "domains": [
+     "Health",
+     "Family",
+     "Career"
+    ],
+    "metric": "warmth"
+   }
+  }
+ }
+}
