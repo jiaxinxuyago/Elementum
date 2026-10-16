@@ -843,4 +843,8 @@
 .jny .el-domsheet-cta{ width: 100%; justify-content: center; }
 .jny .el-domsheet-price{ opacity: .75; font-weight: 500; margin-left: 4px; }
 .jny .el-domsheet-sub{ margin: 8px 0 0; font-size: 12px; line-height: 1.4; color: var(--inkLight); text-align: center; }
+/* THE CHARACTER's opening: the pole pill run in, then the manual line (owner 2026-10-16) */
+.jny .el-charline{ margin: 6px 0 0; font-size: 14.5px; line-height: 1.5; color: var(--ink); }
+.jny .el-charpill{ vertical-align: 2px; margin-right: 2px; cursor: pointer; font-size: 9px; padding: 3px 9px 3px 7px; }
+.jny .el-charline + .el-measure{ margin-top: 10px; }
 

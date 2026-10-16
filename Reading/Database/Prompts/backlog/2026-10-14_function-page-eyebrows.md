@@ -39,3 +39,22 @@ The page reads as a diagnosis in three moves: what the function is, how it runs 
 ## Open
 
 - The state words are app chrome under the owner's ruling, not a station field; if the owner wants them authored per energy, they become a station axis with a card.
+
+## 2026-10-16: THE CHARACTER's opening, the state line retired
+
+The owner: "the page only says the condition with Running thin, or Running Full. These are jargons that will fail the user to understand. 1. We need to re-iterate if this energy is a catalyst or a friction, consider if re-introduce catalyst or friction chip here is necessary or not. 2. After the chip, add one line of diagnosis/prescription saying this energy needs to be fueled or channeled/released. This line is the diagnosis and overall manual for this energy, refer to the energy manual and refine this line."
+
+Built: under THE CHARACTER, the pole restated as the glossary pill the catalogue already uses (Catalyst with the up arrow, Friction with the down arrow, the condition pill on the core's own page; a tap opens its definition), run in before one line of diagnosis and prescription composed from the manual's own vocabulary (the catalyst and friction definitions, the Channel and Refill tails), sized to how much of the energy the chart holds:
+
+| Case | Line |
+|---|---|
+| catalyst, held in full | "Wood is a catalyst for you, and you already hold it in full. Keep it fed: it is where your core's surplus goes to work." |
+| catalyst, running short | "Fire is a catalyst for you, and your chart runs short of it. Refill it: take in what feeds it, and the whole system moves easier." |
+| friction, carried in plenty | "Earth is a friction for you, and you carry plenty of it: more than your core can spend. Channel it: give the extra a place to go, add none." |
+| friction, thin | "... is a friction for you even at this size: your core already carries weight, and more ... adds to it. Ease off it: aim what you have, add none." |
+| the core, over | "This is your core, and it runs over: more comes in than it burns. Channel it: aim the surplus, do not store it." |
+| the core, short | "This is your core, and it runs short: it burns more than it takes in. Refill it: take in what feeds you." |
+| balanced | "... runs balanced in you. Nothing here needs forcing; keep the mix." |
+
+The chip: kept, as the pill rather than a new chip, because the word it restates is tappable to its definition and the catalogue uses the same pill, so the reader meets one mark for one idea. The lines are templated derived vocabulary like the energy page's diagnosis, not an authored corpus; the owner rules them row by row here.
+

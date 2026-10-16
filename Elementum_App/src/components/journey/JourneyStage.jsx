@@ -784,7 +784,16 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         THE ADVICE (what to do). The character's title line is
                         pole-specific, the state the chart gives this energy. */}
                     <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE CHARACTER</span>
-                    <span className="serifline el-teasetitle">{elScreen.fnReading.characterLine}</span>
+                    {/* The opening (owner 2026-10-16): the pole as the glossary pill
+                        (a tap defines it), then one line of diagnosis and
+                        prescription in the manual's words, in place of the
+                        "Running thin / full" state. */}
+                    {(() => { const c = elScreen.fnReading.characterLine; const k = c.pole === 'catalyst' ? 'cat' : c.pole === 'friction' ? 'fric' : 'cond'; return (
+                      <p className="body2 el-charline">
+                        <span className={`role-pill ${k} el-charpill`} role="button" tabIndex={0} onClick={() => setFnOpen(k)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setFnOpen(k); } }}>{k === 'cat' ? <><Use id="ar-up" />Catalyst</> : k === 'fric' ? <><Use id="ar-down" />Friction</> : <><Use id={m.condition === 'Overfueled' ? 'ic-charged' : m.condition === 'Underfueled' ? 'ic-receptive' : 'ic-balanced'} />{m.condition}</>}</span>
+                        {' '}{c.line}
+                      </p>
+                    ); })()}
                     {/* THE FUNCTION METRICS (owner 2026-10-14; REA_19): the
                         three bars open the character section; the bars lead
                         into the keywords. */}
