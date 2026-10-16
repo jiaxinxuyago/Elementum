@@ -860,13 +860,10 @@
 .jny .el-remedytitles{ flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
 .jny .el-remedytitles .el-remedytitle{ flex: none; }
 .jny .el-remedytitles .el-remedyname{ flex: none; font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase; }
-/* THE REMEDY's title, the F and C previews (owner 2026-10-16) */
-.jny .el-remedyring.lg{ width: 46px; height: 46px; flex-basis: 46px; }
-.jny .el-remedyring.lg svg{ width: 26px; height: 26px; }
+/* THE REMEDY's title, formula F (owner 2026-10-16): the energy to seek as the hero, never larger than the page's titles */
+.jny .el-remedyring.lg{ width: 42px; height: 42px; flex-basis: 42px; }
+.jny .el-remedyring.lg svg{ width: 23px; height: 23px; }
 .jny .el-remedykicker{ display: inline-flex; align-items: center; gap: 4px; font-size: 10px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--down, #a85c48); }
 .jny .el-remedykicker svg{ width: 11px; height: 11px; }
-.jny .el-remedytitles .el-remedytitle.xl{ font-size: 24px; line-height: 1.1; }
-.jny .el-remedychips{ display: flex; gap: 6px; margin-bottom: 5px; }
-.jny .el-elchip{ font-size: 9px; padding: 3px 8px 3px 6px; gap: 4px; }
-.jny .el-elchip svg{ width: 10px; height: 10px; }
+.jny .el-remedytitles .el-remedytitle.xl{ font-size: 16.5px; line-height: 1.2; font-weight: 500; }
 

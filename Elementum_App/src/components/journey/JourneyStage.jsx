@@ -936,41 +936,21 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                           <span className="laylab" style={{ display: 'block', marginTop: 16 }}>{friction ? 'THE REMEDY' : 'THE ADVICE'}</span>
                           <Box className={`el-remedybox pv-${boxEl}${friction ? ' fric' : ' cat'}${canGo ? ' goa' : ''}`} {...(canGo ? { type: 'button', onClick: () => goElement(rem.el), 'aria-label': `Open the ${rem.name} energy page` } : {})}>
                             <span className="el-remedyhead">
-                              <span className={`el-remedyring${(typeof window !== 'undefined' && window.__remedyTitle === 'F' && rem) ? ' lg' : ''}`} aria-hidden="true"><Use id={`el-${boxEl}`} /></span>
+                              <span className={`el-remedyring${rem ? ' lg' : ''}`} aria-hidden="true"><Use id={`el-${boxEl}`} /></span>
                               {/* The title echoes THE CHARACTER's verb (owner 2026-10-16):
                                   "Seek Fire to channel Metal." The sought energy's
                                   function rides beneath as the small line. */}
-                              {rem ? (() => {
-                                /* PREVIEW (owner 2026-10-16, "build F and C side by side"): the title
-                                   formula is read from window.__remedyTitle until ruled: 'A' the
-                                   sentence (default), 'F' the energy as the hero under a verb
-                                   kicker, 'C' two arrow chips and two imperatives. */
-                                const verb = elScreen.fnReading.characterLine?.verb || 'release';
-                                const cap = (w) => w.charAt(0).toUpperCase() + w.slice(1);
-                                const variant = (typeof window !== 'undefined' && window.__remedyTitle) || 'A';
-                                if (variant === 'F') return (
-                                  <span className="el-remedytitles f">
-                                    <span className="el-remedykicker"><Use id="ar-down" />{verb} {elScreen.elName} through</span>
-                                    <span className="serifline el-remedytitle xl">{rem.name}</span>
-                                    {rem.fn && <span className="el-remedyname">the {rem.fn} energy{rem.el === elScreen.el ? ', your own' : ''}</span>}
-                                  </span>
-                                );
-                                if (variant === 'C') return (
-                                  <span className="el-remedytitles c">
-                                    <span className="el-remedychips">
-                                      <span className="role-pill fric el-elchip"><Use id="ar-down" /><Use id={`el-${elScreen.el}`} />{elScreen.elName}</span>
-                                      <span className="role-pill cat el-elchip"><Use id="ar-up" /><Use id={`el-${rem.el}`} />{rem.name}</span>
-                                    </span>
-                                    <span className="serifline el-remedytitle">{cap(verb)} {elScreen.elName}. Seek {rem.name}.</span>
-                                  </span>
-                                );
-                                return (
-                                  <span className="el-remedytitles">
-                                    <span className="serifline el-remedytitle">Seek {rem.name} to {verb} {elScreen.elName}.</span>
-                                    {rem.fn && <span className="el-remedyname">{rem.name}, the {rem.fn} energy{rem.el === elScreen.el ? ', your own' : ''}</span>}
-                                  </span>
-                                );
-                              })() : <span className="el-remedyname">{elScreen.elName}, the {elScreen.fnLabel} energy</span>}
+                              {/* The title (owner 2026-10-16, formula F): the energy to seek
+                                  is the hero, its glyph large, the character's verb above it
+                                  as a kicker with the down arrow, its function beneath. The
+                                  name never exceeds the page's titles (16.5px). */}
+                              {rem ? (() => { const verb = elScreen.fnReading.characterLine?.verb || 'release'; return (
+                                <span className="el-remedytitles f">
+                                  <span className="el-remedykicker"><Use id="ar-down" />{verb} {elScreen.elName} through</span>
+                                  <span className="serifline el-remedytitle xl">{rem.name}</span>
+                                  {rem.fn && <span className="el-remedyname">the {rem.fn} energy{rem.el === elScreen.el ? ', your own' : ''}</span>}
+                                </span>
+                              ); })() : <span className="el-remedyname">{elScreen.elName}, the {elScreen.fnLabel} energy</span>}
                               {canGo && <span className="el-remedygo" aria-hidden="true"><Use id="ico-chev-r" /></span>}
                             </span>
                             <span className="body2 el-fnbody el-remedybody">{rem ? rem.rest : elScreen.fnReading.advise}</span>
