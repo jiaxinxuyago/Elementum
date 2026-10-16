@@ -97,14 +97,14 @@
             "angles": {
               "drive": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Remember that you would rather pay for a mistake than fix it, and only fixing helps.",
               "cost_self": "To you, being hard on yourself is the honest way to improve. You put every slip on trial in your head, so you replay the mistake instead of resting once the work is done. You pay for it in the rest you never take.",
-              "cost_others": "Being hard on yourself does not stay inside you. Since you treat your own slips as weakness, you hold the people close to you to the same rule more than you say. It helps to remember that you teach them to hide small mistakes."
+              "cost_others": "Being hard on yourself does not stay inside you. Since you treat your own slips as weakness, you hold the people close to you to the same rule more than you say. You teach them to hide their small mistakes from you."
             }
           },
           {
             "word": "Never switches off",
             "angles": {
-              "drive": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. Keep in mind that staying switched on at home buys you nothing rest would not.",
-              "cost_self": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. Do not forget that you trade sleep for it and never get it back.",
+              "drive": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You spend your evenings at home on guard and gain nothing that rest would not.",
+              "cost_self": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. You trade your sleep for that open job and never get the hours back.",
               "cost_others": "Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. It is worth knowing that you hand them what is left of you."
             }
           },
@@ -383,6 +383,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
       "replaced": "Watching you rest makes other people anxious, because you do it like a task with a deadline. Friends gave up telling you to slow down. You are not built for slow. You are built to keep going until it is done."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.木_七杀.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Being hard on yourself does not stay inside you. Since you treat your own slips as weakness, you hold the people close to you to the same rule more than you say. It helps to remember that you teach them to hide small mistakes."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.木_七杀.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. Keep in mind that staying switched on at home buys you nothing rest would not."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.木_七杀.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. Do not forget that you trade sleep for it and never get it back."
     }
   ]
 }

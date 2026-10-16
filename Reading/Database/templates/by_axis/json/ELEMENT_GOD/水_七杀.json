@@ -97,13 +97,13 @@
             "angles": {
               "drive": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in. Remember that you stay in the cold as long as anyone you put there.",
               "cost_self": "Going cold keeps the upper hand without a word. Since a fight means admitting you were hurt, you would rather go cold than lose the argument. You stay cold long after the fight ends, and it is worth remembering what that costs in closeness.",
-              "cost_others": "Whenever someone crosses you, you go cold on them first. You turn cold rather than show an anger that can be answered, and you take away their only way to fix it. Keep in mind that going cold leaves them a problem with no name."
+              "cost_others": "Whenever someone crosses you, you go cold on them first. You turn cold rather than show an anger that can be answered, and you take away their only way to fix it. You leave them to guess at a fault you never name."
             }
           },
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. Bear in mind that being this hard is your choice and yours to lower.",
+              "drive": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. You take the blame early and never stay long enough for praise.",
               "cost_self": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest never taken, because nothing you make gets to count.",
               "cost_others": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You land the hardness on them too, and it was not theirs to carry."
             }
@@ -377,6 +377,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.水_七杀.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Whenever someone crosses you, you go cold on them first. You turn cold rather than show an anger that can be answered, and you take away their only way to fix it. Keep in mind that going cold leaves them a problem with no name."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.水_七杀.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. Bear in mind that being this hard is your choice and yours to lower."
     }
   ]
 }

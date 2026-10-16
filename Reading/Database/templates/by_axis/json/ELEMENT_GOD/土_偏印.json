@@ -95,17 +95,17 @@
           {
             "word": "Never quite ready",
             "angles": {
-              "drive": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. Remember that you are ready long before you feel it.",
+              "drive": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. You keep the first attempt waiting on a feeling.",
               "cost_self": "Getting ready is the part you control, so it is where you stay. You lose nothing today by preparing once more, while you risk everything on a first try. You pay for the readiness, remember, in chances that closed before you felt ready.",
-              "cost_others": "Asked for a quick take, you hand over a prepared one later. Being ready matters more to you than being on time, so you keep people waiting. Keep in mind that you were asked for the rough take and prepared the clean one for yourself."
+              "cost_others": "Asked for a quick take, you hand over a prepared one later. Being ready matters more to you than being on time, so you keep people waiting. You give them the clean take late when the rough one would have done."
             }
           },
           {
             "word": "Hard to reach",
             "angles": {
-              "drive": "Long before anything goes wrong, you are already hard to reach. Taking things in alone, you let yourself be reached on your own schedule rather than anyone else's. Do not forget that you buy the quiet with friendships that wear thin.",
-              "cost_self": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet ahead of company until alone stops being a choice. Worth remembering, you trade being reached for loneliness and feel it only once the quiet ends.",
-              "cost_others": "Going into your head takes you out of people's reach. Since thinking alone beats talking for you, you go a week out of reach over sending one line. It helps to remember that you leave them guessing, and you end it with one answer."
+              "drive": "Long before anything goes wrong, you are already hard to reach. Taking things in alone, you let yourself be reached on your own schedule rather than anyone else's. You buy the quiet with friendships that wear thin.",
+              "cost_self": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet ahead of company until alone stops being a choice. You trade being reached for a loneliness you only feel later.",
+              "cost_others": "Going into your head takes you out of people's reach. Since thinking alone beats talking for you, you go a week out of reach over sending one line. You leave them guessing for a week that one line would have ended."
             }
           },
           {
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. Remind yourself that you usually land where your first read put you, weeks later.",
               "cost_self": "The second guess is where most of your time goes. Needing to feel certain first, you keep second-guessing a choice after the guessing stops helping. Worth keeping in mind, you second-guess to feel sure rather than be sure, and you lose sleep to the difference.",
-              "cost_others": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You take the plain answer from them, and you know a maybe beats weeks of silence."
+              "cost_others": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You owe them the plain answer you already reached."
             }
           }
         ]
@@ -646,6 +646,54 @@
         ],
         "metric": "intuition"
       }
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.土_偏印.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. Remember that you are ready long before you feel it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.土_偏印.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Asked for a quick take, you hand over a prepared one later. Being ready matters more to you than being on time, so you keep people waiting. Keep in mind that you were asked for the rough take and prepared the clean one for yourself."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.土_偏印.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Long before anything goes wrong, you are already hard to reach. Taking things in alone, you let yourself be reached on your own schedule rather than anyone else's. Do not forget that you buy the quiet with friendships that wear thin."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.土_偏印.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet ahead of company until alone stops being a choice. Worth remembering, you trade being reached for loneliness and feel it only once the quiet ends."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.土_偏印.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Going into your head takes you out of people's reach. Since thinking alone beats talking for you, you go a week out of reach over sending one line. It helps to remember that you leave them guessing, and you end it with one answer."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.土_偏印.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You take the plain answer from them, and you know a maybe beats weeks of silence."
     }
   ]
 }

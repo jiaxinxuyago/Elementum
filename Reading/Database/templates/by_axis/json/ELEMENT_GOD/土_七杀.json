@@ -103,7 +103,7 @@
           {
             "word": "Never off duty",
             "angles": {
-              "drive": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. Keep in mind that you skip real sleep to guard nothing.",
+              "drive": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. You spend the calm you earned standing guard over nothing.",
               "cost_self": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You refuse the rest that no one else can take for you.",
               "cost_others": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, and your attention goes to the next problem. Do not forget that you were wanted off duty more than on it."
             }
@@ -377,6 +377,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
       "replaced": "People admire your persistence first, then worry about it. From nearby, the grind stopped looking like ambition somewhere along the way and started looking like a stone you cannot put down. Friends have begun asking, gently, what would happen if you just set it there."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "opus-reminder-closes",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/station/ledger.土_七杀.friction.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Go with your recommendations for both issues\" (B9 v0.7.6: the reminder phrase is one close pattern, at most three of a friction ledger's nine closes; backlog/2026-10-16_reminder-close-family.md)",
+      "replaced": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. Keep in mind that you skip real sleep to guard nothing."
     }
   ]
 }

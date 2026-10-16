@@ -21,4 +21,7 @@ Measured on the live text before the ruling: 238 of 450 friction closes carry th
 
 ## Applied
 
-The 37 ledgers over the limit re-cut by sealed Opus writers, closes only, from the live station text (`ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/`), gated, adopted with provenance, transcribed.
+- The gate (`validate-template.mjs`, v0.7.6) blocks a fourth reminder close on a friction ledger, and a second one among the five passages the app shows (ledger[0], [2], [3], [4], [8]: the lead god's rows at their rotated angles, and the minority god's row 0 cost_others and row 1 drive). The shown-page limit follows from the ruling's purpose, the page the reader taps through, and was added once the writers found files that passed the count but showed the phrase twice.
+- The phrase family was widened twice during the re-cut to the near-forms the writers found ("Mind that", "Hold onto the thought", "Keep it in view", "Take note", "Keep this with you", "lose sight of", any form of notice or forget).
+- Five sealed Opus writers, one per element, re-cut 169 closes in 46 of the 50 friction ledgers, last sentences only, from the live station text (`ComparativeAnalysis/Prompts/out/handoff/2026-10-16-reminder-closes/`); two unshown second candidates on 金_劫财 and 金_比肩 were cleared of older faults. 50 of 50 pass; adopted with provenance (`adoption-2026-10-16.json` there), transcribed into k2.js, twins rebuilt, checks green.
+- Left for a later read: a few four-word runs the writers could not touch (in sentences one and two, or in second candidates), listed in their reports.
