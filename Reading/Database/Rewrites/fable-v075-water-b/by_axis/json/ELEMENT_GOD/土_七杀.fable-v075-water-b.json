@@ -32,13 +32,13 @@
           {
             "word": "Takes charge",
             "angles": {
-              "drive": "Charge is something you take rather than wait to be given. An open decision weighs on you more than a mistake does, so you take charge the moment a plan goes quiet. Take charge as often as you like, and hand some back later."
+              "drive": "Charge is something you take instead of something you wait for. An open decision weighs on you more than a mistake does, and you take charge the moment a plan goes quiet. Take charge as often as you like, and hand some back later."
             }
           },
           {
             "word": "Pushes through",
             "angles": {
-              "drive": "You push through where stopping would cost nothing. You stay with strain more easily than with comfort, since comfort gives you nothing to push against. Keep pushing, and let one easy stretch count as progress rather than a pause."
+              "drive": "You push through where stopping would be allowed. You stay with strain more easily than with comfort, since comfort gives you little to push against. If one easy stretch counts as progress rather than a pause, you lose nothing by pushing less."
             }
           }
         ]
@@ -48,19 +48,19 @@
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "You are harder on yourself than any boss has been. Pressure from outside you can answer, while pressure from inside answers to no one, so you keep it as a kind of safety. Do remember that the standard is yours and you can ease it."
+              "drive": "You hold yourself to a harder line than anyone has. Pressure from outside has an answer, while pressure from inside answers to no one, and you keep it as a kind of safety. Remember that you lose whole evenings to a standard you set yourself."
             }
           },
           {
             "word": "Never off duty",
             "angles": {
-              "drive": "Being on duty is the only state you trust. A week with no pressure feels like a drop in rank more than a break, so you stay at your post through holidays. Bear in mind that guarding nothing costs the same sleep as guarding something."
+              "drive": "Being on duty is the only state you trust. A week with no pressure unsettles you more than a hard one, and you stay at your post through every holiday. Bear in mind that you do not get the holidays back."
             }
           },
           {
             "word": "Shuts people out",
             "angles": {
-              "drive": "Shutting people out is your first answer to being pressed. You would rather carry your own pressure than add anyone else's, so you close up early. Remember that you keep the pressure out at the price of the company."
+              "drive": "Shutting people out is your first answer to being pressed. You would sooner carry your own pressure than add anyone else's, and you close up early. Do not lose sight of what the closed door costs you in company."
             }
           }
         ]

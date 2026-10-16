@@ -16,14 +16,14 @@
     "k2_functional": "You seize chances at speed, brilliant in windows, bored in pipelines.",
     "adj_chips": {
       "catalyst": [
-        "Spark-spotting",
-        "Charismatic",
-        "Fast-moving"
+        "Sees chances early",
+        "Gives easily",
+        "Starts fast"
       ],
       "friction": [
-        "Flash-chasing",
-        "Big spender",
-        "Flighty"
+        "Chases the new",
+        "Spends it fast",
+        "Looks past home"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Spark-spotting",
+            "word": "Sees chances early",
             "angles": {
-              "drive": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying.",
-              "cost_self": "You bought the ugly little stand at the market’s dead corner because the foot traffic map in your head disagreed with the rent. Two seasons later the corner was the market, and the rent conversation went differently, in your favor, with you on the landlord side.",
-              "cost_others": "Friends have learned to note what you mention twice, since your casual enthusiasms have a habit of becoming everyone’s expensive enthusiasms two years later. A few of them now just ask directly, at dinner, in January: what are you seeing lately. The answers have funded renovations."
+              "drive": "You see chances early, at their smallest. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays.",
+              "cost_self": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. Check what is already yours first, and you stop losing the nearest chance to the far one.",
+              "cost_others": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. Once you hand them the finished thing, you keep them for the one after."
             }
           },
           {
-            "word": "Charismatic",
+            "word": "Gives easily",
             "angles": {
-              "drive": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it.",
-              "cost_self": "You walked into the fully booked restaurant behind two parties who had been turned away, and left with a corner table, the chef’s recommendation, and a standing invitation. Your dinner companion timed the whole ascent: four minutes. She has retold that timing at every gathering since.",
-              "cost_others": "Gatherings rearrange around your arrival, which you notice less than everyone else does. Hosts introduce you first, strangers remember your name, and follow-ups appear in your inbox from conversations you barely registered. The network effect is compounding. Other people network. You just show up warm."
+              "drive": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Keep giving as you do, and note what each gift costs you.",
+              "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, you fund the venture you keep giving away.",
+              "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. With small gifts that repeat, you give them the steadiness along with the shine."
             }
           },
           {
-            "word": "Fast-moving",
+            "word": "Starts fast",
             "angles": {
-              "drive": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language.",
-              "cost_self": "The pop-up went from group-chat joke to opening night in nineteen days, permits included. People asked how long you had been planning it. The honest answer, since the joke, confused them into laughter. The line outside, though, was fluent in results.",
-              "cost_others": "Partners either learn your tempo or watch from the platform. By the time competitors finish their market analysis, you are iterating on version two with actual customer complaints, which you consider the only research with calories in it. The analysts eventually cite you. As data."
+              "drive": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. When you start fast on fewer ventures, you get to know the ones you start.",
+              "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If each fast start must prove itself after the rush, you lose only the weak ventures.",
+              "cost_others": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Name your part before you start, so you ask less of their patience."
             }
           }
         ]
@@ -93,27 +93,27 @@
       "friction": {
         "ledger": [
           {
-            "word": "Flash-chasing",
+            "word": "Chases the new",
             "angles": {
-              "drive": "Every new shine gets your full sprint. The trend, the token, the just-opened thing: you arrive first, burn bright, and are gone before the substance question comes up. Chasing light is genuinely fun. A portfolio of chases, though, is mostly a photo album of exits.",
-              "cost_self": "You were early to the app everyone joined and earlier out, early to the seltzer brand, the course platform, the resale game. Each sprint made money for three months and stories forever. The friend who boringly stayed in one lane just bought a house. You have anecdotes.",
-              "cost_others": "People invite your read on what is next and quietly discount your staying power, a distinction that took you years to notice. The introductions still come. What stopped coming are the long-term seats, the ones reserved for people who will still be there when the shine dulls."
+              "drive": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of.",
+              "cost_self": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. Each time you leave early, you lose the money at the end, and that money is why you chase.",
+              "cost_others": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. Do not forget that every chase costs them the ending you promised."
             }
           },
           {
-            "word": "Big spender",
+            "word": "Spends it fast",
             "angles": {
-              "drive": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired.",
-              "cost_self": "The bonus landed on the fourth and was structurally gone by the nineteenth: the trip booked, the jacket, the speakers, the generous gesture at dinner that felt so right. Nothing was wasted, exactly. Nothing was kept, either. The statement reads like a wonderful month someone else paid for.",
-              "cost_others": "Friends love going out with you and wince at your math. The generosity is legendary and the reserves are rumor. People close to you have started celebrating your windfalls nervously, knowing the celebration itself will consume a measurable percentage. Somebody gifted you a budgeting app once. You upgraded it to premium."
+              "drive": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. Bear in mind that fast spending is how you live in the moment, and the moment is all it buys.",
+              "cost_self": "Fast spending feels like freedom to you. You would rather have the thing now than the money later, and what comes in easily goes before it grows. It is worth knowing that what you spend fast is the stake you never put behind a venture.",
+              "cost_others": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back."
             }
           },
           {
-            "word": "Flighty",
+            "word": "Looks past home",
             "angles": {
-              "drive": "Your commitments have the lifespan of sparks. The plan ignites, glows, and is ash by the follow-through date, replaced by a newer, brighter plan in the same weekend. People stopped writing your intentions in ink around the time you did, which was never.",
-              "cost_self": "The Portugal trip was real for eleven days: researched, group-chatted, half-booked. Then the sailing course appeared, then the food truck idea, and by month’s end Portugal was a tab among tabs. Your browser history is an atlas of abandoned futures, each one sincerely meant for a week.",
-              "cost_others": "People triangulate your actual plans by waiting a month and checking what survived. Employers, partners, and one long-suffering travel agent have all developed the same policy: nothing books until you mention it a third time. You find the policy insulting. It has never once been wrong."
+              "drive": "Looking past home comes easily to you. The next venture feels like where your life begins, so you look ahead at what might come rather than at what is here. You are already living the life you look past.",
+              "cost_self": "Whenever you look past home, you save your best for what comes next. You would rather look toward somewhere new than settle where you already are. You miss the rest your own home was built to give you.",
+              "cost_others": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
             }
           }
         ]
@@ -137,6 +137,246 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Spark-spotting"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Charismatic"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Fast-moving"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Flash-chasing"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Big spender"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Flighty"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Spark-spotting"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You bought the ugly little stand at the market’s dead corner because the foot traffic map in your head disagreed with the rent. Two seasons later the corner was the market, and the rent conversation went differently, in your favor, with you on the landlord side."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Friends have learned to note what you mention twice, since your casual enthusiasms have a habit of becoming everyone’s expensive enthusiasms two years later. A few of them now just ask directly, at dinner, in January: what are you seeing lately. The answers have funded renovations."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Charismatic"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You walked into the fully booked restaurant behind two parties who had been turned away, and left with a corner table, the chef’s recommendation, and a standing invitation. Your dinner companion timed the whole ascent: four minutes. She has retold that timing at every gathering since."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Gatherings rearrange around your arrival, which you notice less than everyone else does. Hosts introduce you first, strangers remember your name, and follow-ups appear in your inbox from conversations you barely registered. The network effect is compounding. Other people network. You just show up warm."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Fast-moving"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The pop-up went from group-chat joke to opening night in nineteen days, permits included. People asked how long you had been planning it. The honest answer, since the joke, confused them into laughter. The line outside, though, was fluent in results."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Partners either learn your tempo or watch from the platform. By the time competitors finish their market analysis, you are iterating on version two with actual customer complaints, which you consider the only research with calories in it. The analysts eventually cite you. As data."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Flash-chasing"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Every new shine gets your full sprint. The trend, the token, the just-opened thing: you arrive first, burn bright, and are gone before the substance question comes up. Chasing light is genuinely fun. A portfolio of chases, though, is mostly a photo album of exits."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You were early to the app everyone joined and earlier out, early to the seltzer brand, the course platform, the resale game. Each sprint made money for three months and stories forever. The friend who boringly stayed in one lane just bought a house. You have anecdotes."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People invite your read on what is next and quietly discount your staying power, a distinction that took you years to notice. The introductions still come. What stopped coming are the long-term seats, the ones reserved for people who will still be there when the shine dulls."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Big spender"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The bonus landed on the fourth and was structurally gone by the nineteenth: the trip booked, the jacket, the speakers, the generous gesture at dinner that felt so right. Nothing was wasted, exactly. Nothing was kept, either. The statement reads like a wonderful month someone else paid for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Friends love going out with you and wince at your math. The generosity is legendary and the reserves are rumor. People close to you have started celebrating your windfalls nervously, knowing the celebration itself will consume a measurable percentage. Somebody gifted you a budgeting app once. You upgraded it to premium."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Flighty"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your commitments have the lifespan of sparks. The plan ignites, glows, and is ash by the follow-through date, replaced by a newer, brighter plan in the same weekend. People stopped writing your intentions in ink around the time you did, which was never."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The Portugal trip was real for eleven days: researched, group-chatted, half-booked. Then the sailing course appeared, then the food truck idea, and by month’s end Portugal was a tab among tabs. Your browser history is an atlas of abandoned futures, each one sincerely meant for a week."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/火_偏财.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People triangulate your actual plans by waiting a month and checking what survived. Employers, partners, and one long-suffering travel agent have all developed the same policy: nothing books until you mention it a third time. You find the policy insulting. It has never once been wrong."
     }
   ]
 }

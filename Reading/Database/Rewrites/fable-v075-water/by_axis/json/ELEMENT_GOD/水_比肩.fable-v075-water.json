@@ -26,25 +26,25 @@
           {
             "word": "Carries own weight",
             "angles": {
-              "drive": "Carrying your own weight is the first thing you do anywhere. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. Carry it beside someone once, and it gets lighter without getting smaller.",
-              "cost_self": "Where you feel most steady is carrying everything yourself. Water runs short in you before the week does, and you keep each load rather than share it. Set one weight down with a peer, and the rest you never take comes back to you.",
-              "cost_others": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness that comes with sharing it. Let them carry a little, because being needed is part of being close."
+              "drive": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. If you carry it beside someone once, it gets lighter without getting smaller.",
+              "cost_self": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. Set one weight down with a peer, and the rest you never take comes back to you.",
+              "cost_others": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness sharing brings. You give them a way to matter to you each time you let them carry a little."
             }
           },
           {
             "word": "Even pace",
             "angles": {
-              "drive": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. Keep it through a crowded week, and you arrive with something left.",
-              "cost_self": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts, while quick chances close before you reach them. Chase one of those a season, and you lose nothing you cannot earn back.",
-              "cost_others": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a friend in a hurry walks a stretch alone. Match theirs for one outing, and they feel you beside them."
+              "drive": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. If you keep it through a crowded week, you arrive with something left.",
+              "cost_self": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. If you break the pace for one chance a season, you lose fewer quick chances to your own even pace.",
+              "cost_others": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a hurried friend walks a stretch alone. When you match theirs for one outing, you walk beside them rather than apart."
             }
           },
           {
             "word": "Decides alone",
             "angles": {
-              "drive": "Deciding alone is your default. Asking around feels like handing over the one thing that is yours, so you decide by yourself ahead of hearing a second view. Ask one peer before the next big choice, and it keeps its speed and gains their eyes.",
-              "cost_self": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. Let a friend read the next big plan first, and the mistakes stay smaller than it.",
-              "cost_others": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. Bring one of them in early, and they get a say in what they live with."
+              "drive": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. If you ask one peer before the next big choice, you lose no speed and gain a second pair of eyes.",
+              "cost_self": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. Letting a friend read the next big plan first keeps your mistakes smaller than it.",
+              "cost_others": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. You hand them a say in what they live with by bringing one of them in early."
             }
           }
         ]
@@ -70,7 +70,7 @@
           {
             "word": "Expects the same",
             "angles": {
-              "drive": "Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and that deserves a second look.",
+              "drive": "Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and few can match it for long.",
               "cost_self": "Rarely let down, you hold everyone to the same standard. Water runs deep and stays hidden, and you would rather keep your own rule than lower it for company. You lose a lot of good company while waiting for the perfect match.",
               "cost_others": "Whenever you expect the same from a peer, you hand them your standard without asking for theirs. You judge their effort by your own rather than by what they had to give. Since the standard is yours, you are the one who can lower it."
             }

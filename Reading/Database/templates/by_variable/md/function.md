@@ -211,50 +211,50 @@
 | Field | Value |
 |---|---|
 | `primary` | expression |
-| `definition_catalyst` | Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others. |
-| `definition_friction` | Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in. |
-| `advise_catalyst` | Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown. |
-| `advise_friction` | Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week. |
+| `definition_catalyst` | Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea, and you let your family see only half of you. |
+| `definition_friction` | Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You give care and show talent more than you take in, until you end up emptier than anyone you filled. |
+| `advise_catalyst` | You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it. |
+| `advise_friction` | Seek Metal, the Mind energy. Metal is the cold side water forms on: it pulls from the air and hands the water back to its source. Let it hold what Wood pours out. You cannot talk your way back to full. Read one whole chapter before you make the next thing. Let one question sit overnight. |
 
 ### Water core × Fire — the Drive · 水_火
 
 | Field | Value |
 |---|---|
 | `primary` | action |
-| `definition_catalyst` | Fire is your Action, and as a catalyst, it is the bright opportunity your judgment was built to run: launches, markets, moments that reward the person who read them early. You see clearly where others squint. |
-| `definition_friction` | Fire is your Action, and as a friction, it is urgency pulling on a system that runs deep and slow: hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. |
-| `advise_catalyst` | A gift for timing is wasted on a spectator. When your read says now, commit within a week instead of watching it prove you right. Size the bet so a miss stings without sinking. Keep one bright project live at all times. |
-| `advise_friction` | Your edge is patience, so defend it from excitement. Let two opportunities pass for every one you take. Take only what survives a week of waiting. Keep a cooling-off rule for anything urgent, because urgency is usually someone else’s deadline. |
+| `definition_catalyst` | Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the start comes late, and you want a far chance as much as steady pay. You pay most for what you never claim. |
+| `definition_friction` | Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light outruns its fuel, and you chase a new opening rather than keep what you have. You end up starting more than you can feed. |
+| `advise_catalyst` | You feel safer planning a thing than starting it, and the plan is where most of your chances end. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing. |
+| `advise_friction` | Seek Water, your own Body energy. Water is the deep you draw from: sleep, food, the slow fill that comes before anything is lit. Let it hold what Fire burns. You spend yourself on every bright chance because stopping feels like losing. Keep one night a week unlit, in bed early. Eat before you say yes to anything. |
 
 ### Water core × Earth — the Duty · 水_土
 
 | Field | Value |
 |---|---|
 | `primary` | order |
-| `definition_catalyst` | Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose. |
-| `definition_friction` | Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own. |
-| `advise_catalyst` | Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit. |
-| `advise_friction` | A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone. |
+| `definition_catalyst` | Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the standard comes late. You take a dare sooner than a post, and you find your pace after someone sets it. |
+| `definition_friction` | Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the judge becomes you. You measure yourself against every rule as much as every demand and never quite pass your own review. |
+| `advise_catalyst` | You do your best work when someone else sets the deadline. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Tell one person above you what you will deliver and when. Keep one standing rule at home, the same sleep hour every night. Pay one bill the day it arrives. |
+| `advise_friction` | Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You answer to yourself more strictly than to anyone above you. Ask one person who has done it before, and write down the answer. Then sleep on it. |
 
 ### Water core × Metal — the Root · 水_金
 
 | Field | Value |
 |---|---|
 | `primary` | mind |
-| `definition_catalyst` | Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input. |
-| `definition_friction` | Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking. |
-| `advise_catalyst` | Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood. |
-| `advise_friction` | Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe. |
+| `definition_catalyst` | Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, the test gets skipped. You trust your hunch more than a lesson handed down, and decide alone with nothing settled. |
+| `definition_friction` | Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. You check what you know rather than say it, and hold whoever you shelter to a standard they never asked for. |
+| `advise_catalyst` | You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply. |
+| `advise_friction` | Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. You keep testing what already passed, since only finished feels safe. Ship a piece at a draft you would accept from others. Decide one small thing with no second look. |
 
 ### Water core × Water — the Core · 水_水
 
 | Field | Value |
 |---|---|
 | `primary` | body |
-| `definition_catalyst` | Water is your Body, and running thin, it is the deep reserve under your perception: sleep quality, quiet time, the stillness your system restores itself in. Yours drains invisibly, through noise and company, long before you feel tired. |
-| `definition_friction` | Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes. |
-| `advise_catalyst` | Solitude is your maintenance, so dose it like medicine. One silent hour daily, no inputs. A full day alone each month, calendared in advance. Leave gatherings while they are still good, and let the quiet finish what the rest began. |
-| `advise_friction` | Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself. |
+| `definition_catalyst` | Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, you put standing alone and matching a rival ahead of resting, so the source empties faster than it refills. |
+| `definition_friction` | Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, it has no outlet, and you keep your own company rather than a peer's and race people who never entered. You carry more than anyone near you ever sees. |
+| `advise_catalyst` | You go it alone most easily when you have the least to go on. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down. |
+| `advise_friction` | Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Hand someone above you a finish date in writing, then clear one small job today. |
 
 ## FUNCTION_METRICS (×5)
 

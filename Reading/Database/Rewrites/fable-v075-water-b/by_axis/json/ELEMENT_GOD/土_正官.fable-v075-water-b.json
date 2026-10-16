@@ -12,7 +12,7 @@
       "catalyst": [
         "Keeps every promise",
         "Plays fair",
-        "Earns it slowly"
+        "Sets the standard"
       ],
       "friction": [
         "Follows every rule",
@@ -26,19 +26,19 @@
           {
             "word": "Keeps every promise",
             "angles": {
-              "drive": "You treat a promise as a fixed point. Being counted on feels better to you than being free, so you carry plans you no longer want sooner than drop them. Make fewer promises, and every one you keep stays whole."
+              "drive": "You treat a promise as a fixed point. You trust being counted on more than being let off, and you carry plans you no longer want sooner than drop them. When you make fewer promises, each one you keep costs you less."
             }
           },
           {
             "word": "Plays fair",
             "angles": {
-              "drive": "You play fair by reflex rather than by decision. You want to be judged by the same measure you judge by, so you give up every advantage only you noticed. Stay fair, and let the advantage go to someone who will thank you."
+              "drive": "You play fair by reflex rather than by decision. You want to be judged by the same measure you judge by, and you give up every advantage only you noticed. Stay fair, since the advantage you give up usually lands with someone who thanks you."
             }
           },
           {
-            "word": "Earns it slowly",
+            "word": "Sets the standard",
             "angles": {
-              "drive": "Earning it slowly is how you trust what you hold. Rank you took would weigh less than rank you grew into, so you put in the years before you put in a claim. Trust the years, and claim one thing before it is fully earned."
+              "drive": "Setting the standard is how you make a place feel steady. You trust a rule you wrote more than one you were handed, and you write one wherever none exists. If you meet the standard first, set it wherever you please."
             }
           }
         ]
@@ -48,19 +48,19 @@
           {
             "word": "Follows every rule",
             "angles": {
-              "drive": "Following the rule is where you feel surest. You would rather stand inside a rule than in the open on your own call, so you follow it past its point. Remember that a rule meant to hold you up can hold you in."
+              "drive": "Following the rule is where you feel surest. You would rather stand within a rule than in the open on your own call, and you follow it past its use. Remind yourself that you pay for every rule kept too long in choices never made."
             }
           },
           {
             "word": "Waits for permission",
             "angles": {
-              "drive": "Waiting for permission is your first move, whatever the move is. A yes from above is worth more than your own certainty, so you hold a question until it is answered. It helps to remember that you often wait on people waiting for you."
+              "drive": "Waiting for permission is your first move, whatever the move is. You would sooner have a yes from above than your own, and you hold a question until someone else answers it. You often wait on people who are themselves waiting for you."
             }
           },
           {
             "word": "Slow to change",
             "angles": {
-              "drive": "You change late and on your own terms. You would rather keep a way that works than try one that works better, since trying is where things get lost. Remember that you protect what you have at the cost of what you could have."
+              "drive": "You change late and on your own terms. You would rather keep a way that works than try one that works better, since trying is where things get lost. You protect what you have and never find out what the change would have brought."
             }
           }
         ]

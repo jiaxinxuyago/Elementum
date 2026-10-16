@@ -1,0 +1,2844 @@
+[
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Fortress-calm",
+  "after": "Calm under pressure"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Commanding",
+  "after": "Takes charge"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Siege-proof",
+  "after": "Pushes through"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "adj_chips.friction[0]",
+  "before": "Walled-up",
+  "after": "Hard on yourself"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "adj_chips.friction[1]",
+  "before": "Heavy-handed",
+  "after": "Never off duty"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "adj_chips.friction[2]",
+  "before": "Grinding",
+  "after": "Shuts people out"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Fortress-calm",
+  "after": "Calm under pressure"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "Staying calm under pressure is load-bearing structure for you, and everyone leaning on it can tell. Deadlines collapse, clients raise their voices, and yours holds the level it keeps on an easy Tuesday. People bring you their panic the way they bring valuables to a vault.",
+  "after": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment ahead of the ordinary day. When a quiet day comes, give it some calm too, because that calm is yours anyway."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "The launch broke at nine and the group chat caught fire. Your first message, posted at 9:04, was a numbered list. By the third number the chat had gone quiet and gone to work, and the fire was just weather again.",
+  "after": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis ahead of an ordinary week, and the ordinary weeks get skipped. If you keep one stretch clear of crisis, you find that the calm comes with you, the rest with it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "New teammates think you are unbothered, and older ones know better. The calm is built, wall by wall, and it holds because you decided long ago that panicking is a second emergency. Nobody has seen the construction. They just live inside it.",
+  "after": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, and you take it off their hands before their calm gets a chance. Let someone else stay calm beside you for once."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Commanding",
+  "after": "Takes charge"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Taking charge comes to you the way gravity comes to heavy things, without asking. In any group without a plan, the plan starts collecting around you. You rarely raise your voice. The instructions simply sound like the ground everyone was waiting to stand on.",
+  "after": "Taking charge is a reflex for you. You would rather own a wrong call than leave one with no owner, and you take charge before anyone asks. If you hand a few calls to someone else, taking charge goes back to being a choice."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "The building alarm went off mid-meeting, and within a minute the whole floor was following your voice to the stairwell. Nobody elected you. By the time everyone stood outside counting heads, it seemed obvious that they always would have.",
+  "after": "Whenever a plan stalls, you take charge, wanted or not. Deciding feels like safety to you, more than waiting ever does, and calls that were never yours end up with you. When you turn one down, you keep the evening it would have eaten."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "People obey your stillness more than they obey other people’s shouting. Committees route hard calls to you without formally deciding to, and visitors assume you hold a title two levels above the one on your door. The assumption does your paperwork for you.",
+  "after": "For you, looking after a group means taking charge of it. Handing people an answer comes easier to you than waiting while they find one, and the finding is what you take from them. Leave one call open long enough for someone else to make."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Siege-proof",
+  "after": "Pushes through"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Outlasting is your actual weapon, and you know exactly how long you can hold. Pressure campaigns, difficult vendors, slow disputes: your position is stocked for winters other people never planned for. You do not need to win quickly. You need to still be there.",
+  "after": "Pushing through is how you get to the end of anything hard. You need something to push against, and you finish under strain more easily than at ease. Push on, and notice which jobs you only finish when something pushes back."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "The negotiation dragged into its fourth month, and the other side started making mistakes born of impatience. You had scheduled your patience in advance, supplies and all. The terms you signed in month five were the ones you wrote in week one.",
+  "after": "Under strain, you push through without a second thought. You would sooner push to the far side than ask for less, and you never try the lighter road. Make one job easy on purpose, and keep the strength that pushing costs."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "Rivals who try to rattle you end their campaigns tired and on schedule. Colleagues have watched vendors, auditors, and one memorable landlord take a run at your position and slide off it. Waiting you out has been tried many times. It has not once worked.",
+  "after": "Whenever you push through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. When you match the slowest once, you see what gets done anyway."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Walled-up",
+  "after": "Hard on yourself"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Defenses are your first architecture, and by now they go up before anything has attacked. New ideas, new people, new plans all get met at the gate and asked for papers. The walls keep trouble out. They keep a good deal else out with it.",
+  "after": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in sleep you never get back."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "The proposal died in your inbox behind three clarifying questions and a request for precedent. It was a good proposal. The author knew better than to push, which is exactly how the last four good proposals ended, quietly, at the wall.",
+  "after": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. It is worth remembering that you leave the credit you earned unspent."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People pitch to you the way they approach a fortified city, with supplies, patience, and low expectations. Half of them no longer bother. What feels like standards from inside the walls looks, from the road, like a gate that stopped opening years ago.",
+  "after": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You teach them your harshness without ever meaning it for them."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Heavy-handed",
+  "after": "Never off duty"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Force is your default tool, even for jobs that needed a lighter one. The email that required one sentence got a policy. The teenager who needed a talk got a lockdown. Every response lands heavier than the problem, and the problem learns to hide instead of heal.",
+  "after": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. Keep in mind that you skip real sleep to guard nothing."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "Someone missed one deadline, and by Friday there was a tracking sheet, a check-in meeting, and a new rule with their situation’s shape pressed into it. The sheet outlived the problem by a year. Everyone still fills it in, quietly resenting its birthday.",
+  "after": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You refuse the rest that no one else can take for you."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "People stopped bringing you small problems, because your solutions never come in small. They handle things quietly and tell you afterward, or never. It reads to you as being kept out of the loop. It reads to them as keeping the peace affordable.",
+  "after": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, and your attention goes to the next problem. Do not forget that you were wanted off duty more than on it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Grinding",
+  "after": "Shuts people out"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Pressing on is your answer to almost everything, including the things that needed releasing instead. The project grinds, the argument grinds, the schedule grinds, and your grip never loosens on its own. Endurance this strong has forgotten that stopping is also a decision.",
+  "after": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Year three of the side business that broke even in year one and never grew. Every Sunday night, the same four hours go in. You have stopped asking whether it works. The work itself became the answer, and the question quietly left.",
+  "after": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_七杀",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People admire your persistence first, then worry about it. From nearby, the grind stopped looking like ambition somewhere along the way and started looking like a stone you cannot put down. Friends have begun asking, gently, what would happen if you just set it there.",
+  "after": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Rock-steady",
+  "after": "Keeps every promise"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Fair",
+  "after": "Plays fair"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Load-bearing",
+  "after": "Sets the standard"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "adj_chips.friction[0]",
+  "before": "Slow-moving",
+  "after": "Follows every rule"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "adj_chips.friction[1]",
+  "before": "Rule-bound",
+  "after": "Waits for permission"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "adj_chips.friction[2]",
+  "before": "Set-in-stone",
+  "after": "Slow to change"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Rock-steady",
+  "after": "Keeps every promise"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "Reliability is your signature act, performed so long it stopped being a performance. You are where you said, when you said, doing what you agreed. Whole systems, families, and rosters get planned around the fact of you holding, and you simply keep holding.",
+  "after": "You keep every promise, including the ones that stopped making sense. Your word is what you stand on, and keeping it matters more to you than whether the promise fits your life now. If you change one promise out loud, you keep the rest whole."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "In eleven years you have missed the Thursday pickup twice, both hospital-grade reasons, both with a backup already arranged. The coach plans the schedule around your name first. Somewhere a whole carpool’s architecture rests on a person who just does not cancel.",
+  "after": "Whenever you give your word, you keep the promise in full. You wear reliable better than happy, and the agreements that cost more each year stay put. When you change one out loud, you get the plan you gave up for it back."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "People stop confirming with you after the first year, which is its own trophy. Plans that touch you are considered anchored. When someone flakes, the group’s sentence is always the same: at least we know so-and-so is coming. You are the so-and-so.",
+  "after": "Long after you stopped wanting to, you keep promises to people. Holding counts for more with you than honesty about changing, and you never tell the person that the promise went stale. Give one person the real answer, and let them choose."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Fair",
+  "after": "Plays fair"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Fairness runs your decisions even when favoritism would be cheaper. The rules apply to your favorite and your rival at the same rate, and to you first of all. People may dislike your ruling. They have stopped questioning how you reached it.",
+  "after": "You play fair even when it costs you the win. You only trust a rule that applies to everyone, and you keep yourself to it rather than make yourself the exception. If you let one person see the fairness, you lose nothing."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "You gave your closest friend the same late penalty you gave the stranger, and paid your own penalty the month your half of the paperwork slipped. The friend sulked for a week. The system survived, and it survives specifically because everyone watched you charge yourself.",
+  "after": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes ahead of arriving first, and the quick wins go to people who care less. Claim what you earned fairly, because the title you wait on goes elsewhere."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "Disputes come to you pre-softened, because both sides expect straight scales and dress accordingly. Your judgment gets borrowed by people who cannot agree on anything else. Being trusted like that is quiet, unpaid work. You do it anyway, and the peace holds.",
+  "after": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes ahead of being on anyone's side, and you never pick theirs either. Make one small exception, and see how little fairness it costs."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Load-bearing",
+  "after": "Sets the standard"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Heavy things migrate to you because you keep accepting them, and structures form on top. The team’s hardest account, the family’s paperwork, the club’s finances: whatever must not fail gets filed under your name. You carry it evenly and rarely mention the tonnage.",
+  "after": "You set the standard before anyone asks for one. You would rather set a clear standard than argue over one, and the one you set binds you first. When you set one with people instead of for them, you share its weight."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "When the audit came, three departments discovered that their processes all ran through one spreadsheet you maintain at seven each Monday. Nobody had documented this. The auditor asked what happens if you go on holiday. The silence answered thoroughly, and the holiday remains imaginary.",
+  "after": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure ahead of anyone else's, and yours sits a step above you. If you set the bar where you stand, you pass it for once."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "People sleep better because certain things are yours, and most could not list what those things are. The load only becomes visible when you are sick for a week and four small systems wobble. Everyone notices then. Everyone forgets again by the next quarter.",
+  "after": "You set a standard for the whole group. You hold people to a standard they can see rather than guess at, and the standard you set is theirs to meet too. If you ask them where to set it, you find it met more gladly."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Slow-moving",
+  "after": "Follows every rule"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Your pace has one setting, geological, and urgency does not shift it. The decision will be right and it will be late, in that order. Opportunities with expiry dates keep expiring in your in-tray while the due diligence achieves its usual thoroughness.",
+  "after": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "The apartment was perfect, and your offer went in nine days later, complete, signed and stamped, and third in line. The winning bid was written on a kitchen counter the first evening. You reviewed your process afterward, carefully, over several weeks.",
+  "after": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People bring you decisions early, padding for your timeline the way airlines pad schedules. Fast-moving partners have learned to route the urgent things around you and apologize later. Your thoroughness is real, and it keeps buying quality with time that some things did not have.",
+  "after": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Rule-bound",
+  "after": "Waits for permission"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "The rule outranks the situation for you, even when the situation is standing right there. Exceptions feel like structural damage, so the form gets filled, the channel gets followed, the spirit occasionally suffocates inside the letter. Order is kept. What order was for gets misplaced.",
+  "after": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You give the plan's best months to waiting, and that is worth noticing."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The refund was obviously deserved, and you declined it because the receipt was two days outside the window. The customer left angry and told the story often. Head office would have approved the exception. The window had not, and you answer to windows.",
+  "after": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "People experience you as a well-run tollbooth: fair, predictable, and immovable at exactly the moments that needed a human. Colleagues save their workarounds for your days off. The rules you enforce so faithfully were written by people who assumed more discretion than you spend.",
+  "after": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Set-in-stone",
+  "after": "Slow to change"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Once your position sets, it sets. New evidence arrives and finds the concrete already cured. You call it consistency, and it often is, and sometimes it is just the memory of a decision outliving every reason that made it.",
+  "after": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "You still refuse that vendor over an incident from 2016 whose participants have all left both companies. The current rep is excellent, and their quote came in lowest. The stone does not read quotes. The stone remembers 2016, and the contract went elsewhere, again.",
+  "after": "Whenever something needs changing, you change it last. You would sooner keep what you know than find out what else there is, and you stay in a job you stopped liking for years. Remember how you spend each deciding year staying put."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "土_正官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People have stopped bringing you second chances, for vendors or for people, because the outcome is pre-decided. Your world is firm, and its firmness is finished. In the archive of closed cases sit a few that deserved reopening, and everyone knows which ones except you.",
+  "after": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting. Keep sight of how you make them live the old way while you decide."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Free-growing",
+  "after": "Speaks up"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Original",
+  "after": "Goes off script"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Untamed",
+  "after": "Stands out"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "adj_chips.friction[0]",
+  "before": "Chaotic",
+  "after": "Talks back"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "adj_chips.friction[1]",
+  "before": "Sprawling",
+  "after": "Shows off"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "adj_chips.friction[2]",
+  "before": "Defiant",
+  "after": "Goes too far"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Free-growing",
+  "after": "Speaks up"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "Your expression grows wherever it wants, and forcing it into rows kills it. Give you a template and the life drains out. Give you open ground and something appears that nobody planted, better than what was planned, impossible to have ordered in advance.",
+  "after": "You speak up where silence would be easier. Holding a true thing in feels worse to you, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "The brief asked for a standard newsletter, and what you delivered was a running column with a voice, a following, and eventually a waiting list. Nobody approved the change. It grew past the approval stage while the approvers were in meetings, and readership tripled.",
+  "after": "For you, speaking up is never free. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after. Bring one ally before you speak up, and you give up fewer chances to it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "Editors, managers, and one long-suffering teacher all learned the same lesson: fence you and you produce hedges, free you and you produce forests. The people who benefit most from your work are the ones who learned to stop supervising the growing.",
+  "after": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Let them pick the moment, and your speaking up stays a gift instead of an interruption."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Original",
+  "after": "Goes off script"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Your ideas arrive without ancestors. Where others improve on the existing, you sprout something with no clear parent, odd at first sight and obvious in hindsight. Imitation is genuinely difficult for you, which cost you in school and pays you everywhere else.",
+  "after": "Going off script is where you shine. Since a fresh idea counts for more with you than a given plan, you leave the script instead of following it. Once you tell others you are going off script, you keep their trust along with your idea."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "The party game you invented on a napkin has now been played at four weddings and one corporate retreat, mutating slightly each time. Someone recently asked where you found it. The napkin is framed in your friend’s kitchen, which is its citation.",
+  "after": "Off script is how you stay interested. Sticking to a plan switches your talent off, and you head off script rather than see it through. Finish one plan unchanged, because that keeps the chances only a plain version wins."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "People carry your ideas into places you never visit, usually without your name attached, always with your fingerprints visible to anyone who knows you. Being copied stopped bothering you once you noticed the copies cannot make the next one. Only the source does that.",
+  "after": "You go off script with shared plans as easily as your own. A better idea seems like a duty to you, and you go off script instead of asking. Check with the group first, so that you hand them a better plan to lean on."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Untamed",
+  "after": "Stands out"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Nobody ever quite domesticated your voice, and the wildness is the value. You say the thing with the bark still on it, unsanded by committee. Polished people find you alarming and then find themselves quoting you, because the rough version was the true one.",
+  "after": "Standing out comes naturally to you. You would rather stand out than fit in, since hiding what you can do is a small lie to yourself. Each time you stand out, you trade a little ease for a voice that is yours."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "At the panel, between two rehearsed speakers, you answered the question everyone was avoiding, in the words everyone was avoiding it in. The moderator blinked. The clip, forty seconds long, outlived the entire conference, and next year they booked you first.",
+  "after": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less. Take the quiet seat now and then to hold on to the friendships standing out would cost."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "Organizers invite you with a specific mix of hope and bracing, the way towns invite weather. Something will happen, it will be alive, and it will not be what the agenda said. The agenda-keepers grumble. The audiences keep coming back for the weather.",
+  "after": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. Whenever you step back for a turn, you give the person beside you a chance to stand out."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Chaotic",
+  "after": "Talks back"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Direction is your allergy. The plan says left, and something in you veers right on principle, even when left was your own idea last week. Paths bore you the moment they firm up, which keeps life interesting and keeps arrival permanently postponed.",
+  "after": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You know by now that talking back wins the moment and spends the week."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "You quit the program two months before certification, the third finish line abandoned in five years, each exit backed by a compelling reason that shares no logic with the others. The certificates would spell a career by now. The reasons, laid end to end, spell only motion.",
+  "after": "Your self-respect runs on talking back. Giving in would mean losing yourself, and you would rather talk back than ask what the rule is for. Each time you talk back, you also turn away help that would have grown your talent."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People stopped mapping your trajectory and started just asking where you are this season. Mentors who invested in one direction watched you grow in another, and the generous ones call it range. The honest ones ask what all this growing is refusing to become.",
+  "after": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself ahead of hearing what was offered. You hand them an argument where they asked for your ear, and you know the difference."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Sprawling",
+  "after": "Shows off"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Your expression spreads faster than it deepens. The podcast, the essays, the half-built app, the sketchbooks: green shoots in every direction, canopy in none. Each new tendril takes light from the last one. The garden is enormous and, so far, fruitless.",
+  "after": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off rather than fit in. You collect praise with each show, and a quiet hour with one friend gives you what praise cannot."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The essay was going well until minute forty, when it became a second essay, which spawned a video idea, which required a new microphone, which arrived to find you starting a third essay. All four projects share one folder. The folder is named Focus.",
+  "after": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. With a show always running, you never find out how much you are liked as you are."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Your feeds show a person of astonishing range and no address. Followers love the variety, and the industry people who could open doors keep asking the same question in different words: what is the one thing. You keep answering with five.",
+  "after": "Most of your showing off goes to the people who love you. Because you feel applause more easily than closeness, you put on a show for them instead of talking. In place of a plain hour together, you give them a show."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Defiant",
+  "after": "Goes too far"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Rules read as dares to you, including the ones that were protecting something. Authority triggers your sap like spring: the tone sharpens, the counterargument grows thorns, and suddenly the fight is the point. Half your battles improved things. The other half just cost you allies.",
+  "after": "Going too far is where you feel alive. You need a thing to be more than fine, so you go one step too far instead of stopping while it works. Just remember that going too far is how you lose the moment you started from."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The new policy was mildly inconvenient and your response was a manifesto, posted in the all-hands channel at four on a Friday. It got eleven reactions and one meeting invite. The policy stayed. Your name moved onto a list nobody prints but everyone consults.",
+  "after": "Making sure a thing was done means going too far. To you, stopping at enough wastes talent, so you go past it instead of resting. Past enough, you trade the good version you had for one you like less."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_伤官",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People with power approach you pre-flinched, which you enjoy more than is useful. Doors open more slowly for you than your talent justifies, and everyone except you can name the reason. The reason has thorns and posts on Fridays.",
+  "after": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and the stop is yours to keep."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Fruitful",
+  "after": "Gives first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Mellow",
+  "after": "Always making"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Tending",
+  "after": "Relaxed"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "adj_chips.friction[0]",
+  "before": "Overripe",
+  "after": "Coasts along"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "adj_chips.friction[1]",
+  "before": "Lax",
+  "after": "Never says no"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "adj_chips.friction[2]",
+  "before": "Overbooked",
+  "after": "Comfort first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Fruitful",
+  "after": "Gives first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "Your output ripens naturally and keeps coming. The dinners, the small gifts, the finished little projects: none announced, all delivered, season after season. Where others sprint and stall, you simply bear, and the people around you have quietly reorganized their lives around the harvest.",
+  "after": "Giving comes before being asked, for you. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "The sourdough starter you keep has fed four households and outlived two of their marriages. Every week, loaves leave your kitchen without ceremony. Somebody once totaled a year of your giving on a napkin and stopped counting at a number that embarrassed everyone present.",
+  "after": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you. Let one person carry you this week, and you get back the rest that giving first keeps taking."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "People inventory what you produce only when you are sick for a month and the flow stops: the meals, the favors, the small repairs, the cards that arrive on time. The gap teaches them the size of the tree. You recover, and it resumes, unremarked.",
+  "after": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. Wait for the question some of the time, and you hand those you love the chance to want out loud."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Mellow",
+  "after": "Always making"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Your temperament arrived pre-softened. Provocations land in you like stones in deep grass, absorbed without ceremony. People bring you their sharp edges and leave with them slightly rounded, and nobody, including you, can point to the moment the rounding happened.",
+  "after": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. As long as you show one thing in three, you get to enjoy what you make."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "The road-rage incident happened entirely in the other car. You waved, genuinely unbothered, and finished the podcast. Your passenger spent ten minutes processing the injustice. You offered them a mint. By the destination they were laughing, and could not reconstruct why they had cared.",
+  "after": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "Tense situations get scheduled around your availability, informally, because things just go softer with you in the region. Nobody calls it a skill, which suits you. The mediator titles go to louder people. The actual mediating, most weeks, happens near the mint supply.",
+  "after": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen. The moment you set the making aside to listen, you give those near you what nothing you make can."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Tending",
+  "after": "Relaxed"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "You express care by making things comfortable around people. The blanket appears before anyone said cold, the kettle is on before the knock, the leftovers go home in containers with the right lids. Nobody calls it expression. It is your entire vocabulary.",
+  "after": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you. When you add one push to all that calm, you lose almost nothing to staying relaxed."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "While house-sitting, you left the place cozier than you found it: the reading lamp moved to where the light actually falls, the good mugs brought forward, soup in the freezer with a dated label. The owners noticed for three weeks, one small comfort at a time.",
+  "after": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. If you choose the harder one every season, you win back chances that staying relaxed lets slip."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "People relax in spaces you have touched and cannot say why. The guest who slept over once still mentions the bedside water. Comfort follows you into other people’s houses and stays after you leave, which is a strange, real talent, and completely unlisted.",
+  "after": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Overripe",
+  "after": "Coasts along"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Your gifts sat on the branch past their moment. The talent is real and increasingly historical: the almost-finished album, the recipe book everyone requested a decade ago, the sweetness starting to ferment into stories about what nearly happened. The season did not end. It just stopped being picked.",
+  "after": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. Keep in mind that coasting carries you a long way and never quite to the finish."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "You played the old demo for the young cousin, who was impressed and then asked, without cruelty, when it was recorded. The date was fourteen years ago. There is a newer song, technically. It has been almost done since the phone that recorded it was new.",
+  "after": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. Coasting past the finish costs you the joy of a thing done, the pleasure you miss most."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People still introduce you by your potential, and the introduction has begun to age in the middle. Everyone remembers the brilliance and awaits the shipment. The awaiting has developed rituals, gentler each year, the way families adjust their questions around a harvest that keeps being next season.",
+  "after": "You coast on people who already like you. Since you feel safe with them, you give them the easy version instead of the effort you spend on strangers. Bear in mind that you give your least trying to those who love you most."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Lax",
+  "after": "Never says no"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Standards around you loosen like old elastic. The deadline drifts, the quality bar lowers itself politely, the follow-up follows nothing. Ease was the gift. Unattended, it composted into a comfortable rot that everyone enjoys and nobody thanks later.",
+  "after": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The client got the draft nine days late with a breezy apology, which worked, as it usually works, until the quarter it stopped working. The lost contract funded someone else’s diligence. You called it their luck. The invoice history calls it something plainer.",
+  "after": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. You lose sleep to each yes, and one no wins some of it back."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "People adore working with you and quietly duplicate your responsibilities, building small safety nets under everything you carry. The nets catch things weekly. You have never noticed, which is partly the charm and mostly the problem. The adoration is real, and so are the nets.",
+  "after": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give your family agreement instead of your real answer. You owe the people you love the honest no you never say."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Overbooked",
+  "after": "Comfort first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Saying no feels like unkindness to you, so you mostly do not. The favor, the shift swap, the third brunch: each yes is warm and small, and together they have booked your life solid. Everyone gets a slice of you. The slices stopped adding up to a person.",
+  "after": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. What you put second to comfort is usually what you wanted most, and you know it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "Saturday holds pottery, the volunteer shift, two standing brunches, and a league you joined to be nice in 2022. You enjoy each one, tiredly. The afternoon you actually wanted, the empty one, has not appeared on the calendar since spring.",
+  "after": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. Count the good chances you let go by to stay comfortable, since few of them come back."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "木_食神",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People know you will say yes, and the knowing shows up in their asks. You are the default babysitter, the fallback host, the covering shift. Nobody means harm. But generosity with no gate gets scheduled by other people, and yours has been for years.",
+  "after": "You put comfort first for those in your care too. Keeping a child happy now is easier than keeping them well later, so you pick pleasant hours over useful ones. You are choosing their later as well as their now, whatever it feels like today."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Competitive",
+  "after": "Loves a race"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Unafraid",
+  "after": "Jumps in first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Agile",
+  "after": "All in together"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "adj_chips.friction[0]",
+  "before": "Undermining",
+  "after": "Races in secret"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "adj_chips.friction[1]",
+  "before": "Envious",
+  "after": "Spends shared money"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "adj_chips.friction[2]",
+  "before": "Slippery",
+  "after": "Never enough"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Competitive",
+  "after": "Loves a race"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "Rivalry wakes you up. A competitor in the water and your stroke sharpens, your pace lifts, and the race becomes the point of the day. You measure yourself against real people, openly, and you move faster for it than any plan could make you.",
+  "after": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. When you name one race a season out loud, you come out of it fed rather than spent."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "Someone at work started tracking the same clients, and your quarter, flat since spring, jumped within a month. Nothing else changed. You printed both sets of numbers and taped yours above the desk, slightly higher than theirs.",
+  "after": "You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you bring full stamina to the next one."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "People perform better around you and know exactly why. Teams put you next to whoever has gone comfortable, and the comfort ends within a week. Rivals call you exhausting, and most of them improved because you existed. Some even say so, at retirement parties.",
+  "after": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. If you tell them the race is on, you run it together instead of alone."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Unafraid",
+  "after": "Jumps in first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Your nerves hold exactly when the other side hopes they will not. The staring contest of a negotiation, the final round, the moment someone raises the stakes to scare you: your pulse spikes and your voice does not. Opponents read calm. It is actually appetite.",
+  "after": "Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. If you jump in where stakes are shared, you pay half of the first mistake."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "The other bidder raised twice to shake you loose, and your third bid came back before the echo faded, at a number you had chosen for exactly this moment. They folded in the parking lot. You had been enjoying yourself since the second raise.",
+  "after": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while early mistakes come out of your savings. When you read the plan first every third time, you hold on to more of your money."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "People bring you along to hard tables the way swimmers bring a strong current. When the other side pushes, you push back in real time, and your side stops shrinking. The invitations always sound casual. The seating never is.",
+  "after": "Whenever you go first, you pull your partner in after you. You decide for both ahead of asking, and you take the risk in their name too. If you ask before you jump, you go in side by side."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Agile",
+  "after": "All in together"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Mid-contest, you change course faster than anyone can cover you. The blocked route becomes a new route, the lost argument becomes a different argument, and by the time a rival adjusts, you have moved twice more. Beating you requires predicting you. Nobody manages it consistently.",
+  "after": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. When you pick people who count as carefully as you trust, all in pays off."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "The rival shop matched your prices on a Monday, and by Wednesday you had shifted the whole pitch to speed and service, ground they could not follow you onto. They spent a month matching a position you no longer held.",
+  "after": "Inside a shared stake, you feel your bravest. A pooled stake feels like company, and all in feels better to you than holding some back. If you keep one share out of every pool, you only ever lose what you can afford."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "Competitors describe planning against you with real fatigue: every counter they prepare answers your last move, never your next one. Colleagues stopped betting on where you will take things. They just watch the water for the turn, and it always comes.",
+  "after": "All in together means you take someone with you every time. You put the shared stake ahead of asking whose it was, and a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Undermining",
+  "after": "Races in secret"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Your competitiveness works underground. The compliment with a current in it, the help that arrives slightly late, the praise for a rival delivered where it does maximum quiet damage. On the surface, all is warmth. Below, the sand is always moving under someone.",
+  "after": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Bear in mind that every race you never named is one you run alone."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "You recommended your colleague for the committee, warmly, in the same email thread where you mentioned, in passing, their overloaded quarter. The recommendation was real. So was the sinking. They did not get it, and thanked you for trying, and you accepted the thanks.",
+  "after": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People near you sometimes find their footing giving way and cannot name why: the stalled promotion, the cooled friendship, the invitation that stopped coming. Nothing traces back. But older colleagues exchange a look when newcomers praise your generosity, and the look has tenure.",
+  "after": "In secret, you make a friend a rival without telling them. You hide the race rather than risk them knowing, and they lose ground with no chance to answer. You signed them up for a race they never chose, and that is yours to remember."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Envious",
+  "after": "Spends shared money"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Other people’s tides hurt you. The friend’s windfall, the peer’s launch, the sibling’s easy luck: each lands somewhere unprotected, and your congratulations come out slightly waterlogged. You want the good things wanted. You just want them to arrive in your harbor first.",
+  "after": "Spending shared money comes easier to you than spending your own. Shared money feels like courage, and you dip into it ahead of asking who put what in. You run the pool down faster than agreed, and slowing it is yours to do."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The group toasted the engagement and your glass rose with everyone’s, on a two-second delay that only you noticed. You were happy for them by Thursday, sincerely. The gap between the toast and Thursday is where your friendships keep taking on water.",
+  "after": "Spending from the shared pot is the easiest money there is. More Water moves through you than you keep, so you pay for everyone's good time ahead of your savings. You come out with the least from a pot you paid the most into."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Friends have started softening their good news before delivering it to you, sanding the shine off, adding disclaimers about luck. They do it out of care and do not discuss it. Your reaction was never cruel. It was just visible, every time, like weather through glass.",
+  "after": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You keep them beside you with one question asked before you spend."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Slippery",
+  "after": "Never enough"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Commitments run off you when conditions change, and conditions always change. The agreement meant everything at signing and less at settlement, the story adjusts to its audience, and blame finds you already moved downstream. Nothing sticks, which was once an advantage. People notice what nothing sticks to.",
+  "after": "Never enough is the rule under everything you win. Water keeps rising in you and never lands, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The deal you shook on in April had, by June, developed nuances nobody remembered negotiating. Your version was fluid, documented nowhere, and delivered with such ease that the other side doubted their own notes. They paid the difference. They also, quietly, retired your number.",
+  "after": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_劫财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People who have dealt with you twice bring witnesses the third time, or paper, or both. Your reputation flows ahead of you into new ventures, arriving before your charm does. The charm still works in the moment. It is the mornings after that have stopped cooperating.",
+  "after": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You call it done, and letting them stop counts as a win too."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Self-contained",
+  "after": "Carries own weight"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Even-keeled",
+  "after": "Even pace"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Independent",
+  "after": "Decides alone"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "adj_chips.friction[0]",
+  "before": "Cold-running",
+  "after": "Hard to reach"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "adj_chips.friction[1]",
+  "before": "Isolated",
+  "after": "Never asks"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "adj_chips.friction[2]",
+  "before": "Impenetrable",
+  "after": "Expects the same"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Self-contained",
+  "after": "Carries own weight"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "You carry your own weather system. Mood, motivation, entertainment, repair: all generated onboard, no docking required. Days alone pass without friction, and company, when chosen, is a preference rather than a need. People sense the completeness and find it either restful or quietly unnerving.",
+  "after": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. If you carry it beside someone once, it gets lighter without getting smaller."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "The solo trip lasted eighteen days, and the postcards home were cheerful and unnecessary. You ate well, navigated fine, and had exactly the conversations you wanted, several with strangers, none from loneliness. Friends asked if it got hard. It got, you said accurately, quiet.",
+  "after": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. Set one weight down with a peer, and the rest you never take comes back to you."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "People stop worrying about you early in the acquaintance, sensing a system that maintains itself. You are nobody’s project and nobody’s dependent. The freedom this grants your relationships is enormous and mostly invisible: everyone who stays, stays for the company, not the maintenance contract.",
+  "after": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness sharing brings. You give them a way to matter to you each time you let them carry a little."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Even-keeled",
+  "after": "Even pace"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Your levels hold. The praise does not inflate you, the setback does not sink you, and Tuesday-you is recognizably Friday-you. In a world of dramatic weather you are open water on a calm day, and people steer toward you when their own seas get theatrical.",
+  "after": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. If you keep it through a crowded week, you arrive with something left."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "You received the promotion email and the rejection letter in the same afternoon, and your dinner plans survived both unchanged. Your partner, telling the story later, could not remember which arrived first. Neither, notably, could you. The pasta was good. The week continued.",
+  "after": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. If you break the pace for one chance a season, you lose fewer quick chances to your own even pace."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "Teammates map their own volatility against your baseline, which has not moved in recorded history. In crises, the group instinctively checks your face before choosing a panic level, and your face declines to authorize one. Whole storms have been downgraded this way, repeatedly, to weather.",
+  "after": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a hurried friend walks a stretch alone. When you match theirs for one outing, you walk beside them rather than apart."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Independent",
+  "after": "Decides alone"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "You run your own race in your own lane at your own pace, and the pace is honest. Opinions get consulted and then decided past, help gets accepted without becoming structure, and your decisions, right or wrong, are recognizably yours. Ownership like that is rarer than talent.",
+  "after": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. If you ask one peer before the next big choice, you lose no speed and gain a second pair of eyes."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "You moved cities without a committee, changed careers on your own research, and told everyone after the deposits were paid. The announcements were calm and finished. Family learned years ago that input windows open before decisions, briefly, and that missing them is missing them.",
+  "after": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. Letting a friend read the next big plan first keeps your mistakes smaller than it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "People trust your choices with a specific confidence: whatever happens, you chose it, and you will handle it. Nobody hedges around you or manages your expectations. The respect is quiet and total, and it was purchased with years of never once outsourcing the blame.",
+  "after": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. You hand them a say in what they live with by bringing one of them in early."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Cold-running",
+  "after": "Hard to reach"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Your warmth exists and runs deep and rarely surfaces where people can feel it. The care comes out as errands, the affection as usefulness, and the words themselves stay below. People eventually stop swimming down to check. The temperature at the surface is what they live with.",
+  "after": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you are only warm to the people who can reach you."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Your partner mentioned, quietly, that you had not said anything warm in some weeks. You had fixed the brakes, renewed the insurance, and prepaid the winter heating that same month. You cited these. There was a silence in which both of you were right, and only one warm.",
+  "after": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People describe you as reliable first and affectionate somewhere after the pause. The love is inferred from your actions the way deep currents are inferred from instruments: real, documented, unfelt on the skin. Some loved ones adjusted. The ones who needed sun moved toward it, elsewhere.",
+  "after": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You only get answered where you let yourself be reached, and that is worth remembering."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Isolated",
+  "after": "Never asks"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Your self-sufficiency built a shoreline nobody lands on anymore. The company you technically enjoy gets postponed, the calls ring out, and the distance, initially a preference, has become the geography. You are fine, genuinely. Fine, and further out than anyone can comfortably swim.",
+  "after": "Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The last name in your call log is eleven days old and belongs to a delivery service. The weekend held reading, a long walk, good coffee, and no voices. You noticed the quiet the way you notice weather: fully, neutrally, and without doing anything about it.",
+  "after": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. It helps to remember that you lose the rest along with the help you never asked for."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Friends debated whether to worry and settled on a rotation of light check-ins, which you answer promptly and pleasantly, closing each door as gently as it was opened. Nobody can locate a problem. There is just an ocean where a neighborhood used to be, and it is widening.",
+  "after": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. Do not forget that you keep a peer at a distance every time you refuse their help."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Impenetrable",
+  "after": "Expects the same"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Nothing gets in past the surface. Feedback beads up and rolls off, affection finds no porous surface, and the hard conversations everyone rehearses with you simply do not land: you agree, calmly, and remain exactly as you were. The consistency is impressive. It is also the wall.",
+  "after": "Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and few can match it for long."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The intervention was loving and well-prepared, three people who care, specific examples, warm intent. You listened fully, thanked them sincerely, and changed nothing, without any spite in it, because nothing had, as far as you could tell, actually touched anything. They compare notes still, baffled.",
+  "after": "Rarely let down, you hold everyone to the same standard. Water runs deep and stays hidden, and you would rather keep your own rule than lower it for company. You lose a lot of good company while waiting for the perfect match."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "水_比肩",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People who love you describe conversations with you as skipping stones: beautiful contact, no entry. Over the years they have stopped throwing. What remains is pleasant and shallow by mutual, unspoken arrangement, and everyone involved calls it peace, in the tone reserved for treaties.",
+  "after": "Whenever you expect the same from a peer, you hand them your standard without asking for theirs. You judge their effort by your own rather than by what they had to give. Since the standard is yours, you are the one who can lower it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Spark-spotting",
+  "after": "Sees chances early"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Charismatic",
+  "after": "Gives easily"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Fast-moving",
+  "after": "Starts fast"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "adj_chips.friction[0]",
+  "before": "Flash-chasing",
+  "after": "Chases the new"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "adj_chips.friction[1]",
+  "before": "Big spender",
+  "after": "Spends it fast"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "adj_chips.friction[2]",
+  "before": "Flighty",
+  "after": "Looks past home"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Spark-spotting",
+  "after": "Sees chances early"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying.",
+  "after": "You see chances early, at their smallest. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "You bought the ugly little stand at the market’s dead corner because the foot traffic map in your head disagreed with the rent. Two seasons later the corner was the market, and the rent conversation went differently, in your favor, with you on the landlord side.",
+  "after": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. Check what is already yours first, and you stop losing the nearest chance to the far one."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "Friends have learned to note what you mention twice, since your casual enthusiasms have a habit of becoming everyone’s expensive enthusiasms two years later. A few of them now just ask directly, at dinner, in January: what are you seeing lately. The answers have funded renovations.",
+  "after": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. Once you hand them the finished thing, you keep them for the one after."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Charismatic",
+  "after": "Gives easily"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it.",
+  "after": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Keep giving as you do, and note what each gift costs you."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "You walked into the fully booked restaurant behind two parties who had been turned away, and left with a corner table, the chef’s recommendation, and a standing invitation. Your dinner companion timed the whole ascent: four minutes. She has retold that timing at every gathering since.",
+  "after": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, you fund the venture you keep giving away."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "Gatherings rearrange around your arrival, which you notice less than everyone else does. Hosts introduce you first, strangers remember your name, and follow-ups appear in your inbox from conversations you barely registered. The network effect is compounding. Other people network. You just show up warm.",
+  "after": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. With small gifts that repeat, you give them the steadiness along with the shine."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Fast-moving",
+  "after": "Starts fast"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language.",
+  "after": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. When you start fast on fewer ventures, you get to know the ones you start."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "The pop-up went from group-chat joke to opening night in nineteen days, permits included. People asked how long you had been planning it. The honest answer, since the joke, confused them into laughter. The line outside, though, was fluent in results.",
+  "after": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If each fast start must prove itself after the rush, you lose only the weak ventures."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "Partners either learn your tempo or watch from the platform. By the time competitors finish their market analysis, you are iterating on version two with actual customer complaints, which you consider the only research with calories in it. The analysts eventually cite you. As data.",
+  "after": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Name your part before you start, so you ask less of their patience."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Flash-chasing",
+  "after": "Chases the new"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Every new shine gets your full sprint. The trend, the token, the just-opened thing: you arrive first, burn bright, and are gone before the substance question comes up. Chasing light is genuinely fun. A portfolio of chases, though, is mostly a photo album of exits.",
+  "after": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "You were early to the app everyone joined and earlier out, early to the seltzer brand, the course platform, the resale game. Each sprint made money for three months and stories forever. The friend who boringly stayed in one lane just bought a house. You have anecdotes.",
+  "after": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. Each time you leave early, you lose the money at the end, and that money is why you chase."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People invite your read on what is next and quietly discount your staying power, a distinction that took you years to notice. The introductions still come. What stopped coming are the long-term seats, the ones reserved for people who will still be there when the shine dulls.",
+  "after": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. Do not forget that every chase costs them the ending you promised."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Big spender",
+  "after": "Spends it fast"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired.",
+  "after": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. Bear in mind that fast spending is how you live in the moment, and the moment is all it buys."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The bonus landed on the fourth and was structurally gone by the nineteenth: the trip booked, the jacket, the speakers, the generous gesture at dinner that felt so right. Nothing was wasted, exactly. Nothing was kept, either. The statement reads like a wonderful month someone else paid for.",
+  "after": "Fast spending feels like freedom to you. You would rather have the thing now than the money later, and what comes in easily goes before it grows. It is worth knowing that what you spend fast is the stake you never put behind a venture."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "Friends love going out with you and wince at your math. The generosity is legendary and the reserves are rumor. People close to you have started celebrating your windfalls nervously, knowing the celebration itself will consume a measurable percentage. Somebody gifted you a budgeting app once. You upgraded it to premium.",
+  "after": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Flighty",
+  "after": "Looks past home"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Your commitments have the lifespan of sparks. The plan ignites, glows, and is ash by the follow-through date, replaced by a newer, brighter plan in the same weekend. People stopped writing your intentions in ink around the time you did, which was never.",
+  "after": "Looking past home comes easily to you. The next venture feels like where your life begins, so you look ahead at what might come rather than at what is here. You are already living the life you look past."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The Portugal trip was real for eleven days: researched, group-chatted, half-booked. Then the sailing course appeared, then the food truck idea, and by month’s end Portugal was a tab among tabs. Your browser history is an atlas of abandoned futures, each one sincerely meant for a week.",
+  "after": "Whenever you look past home, you save your best for what comes next. You would rather look toward somewhere new than settle where you already are. You miss the rest your own home was built to give you."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_偏财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People triangulate your actual plans by waiting a month and checking what survived. Employers, partners, and one long-suffering travel agent have all developed the same policy: nothing books until you mention it a third time. You find the policy insulting. It has never once been wrong.",
+  "after": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Warm-handed",
+  "after": "Keeps it going"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Hardworking",
+  "after": "Saves first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Bankable",
+  "after": "Shows up daily"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "adj_chips.friction[0]",
+  "before": "Tight-fisted",
+  "after": "Counts everything"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "adj_chips.friction[1]",
+  "before": "Anxious",
+  "after": "Plays it safe"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "adj_chips.friction[2]",
+  "before": "Overcareful",
+  "after": "Holds back"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Warm-handed",
+  "after": "Keeps it going"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "Money leaves your hands warm. The fair wage rounded up, the invoice paid the day it arrives, the tip that acknowledges the human: your dealings carry heat without waste, and people remember transacting with you the way they remember good meals, specifically and fondly.",
+  "after": "Keeping a thing going is the warmest part of you. You would rather keep one thing warm for years than start many, since what lasts feels real to you. Keep it going as you do, and count the dull stretch as part of the work."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "You paid the young decorator his full quote the same evening, plus the amount his underquoting had cost him, with a note about knowing his worth. He kept the note. Three years and one thriving business later, he still bumps your jobs to the front of his book.",
+  "after": "Keeping something going also keeps you in it past its time. You would rather stay than leave, so you keep putting money into what no longer gives back. When you let go of what has stopped paying, you free your savings for what grows."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "Tradespeople answer your calls first, sellers hold things for you unasked, and your name in a transaction thaws the terms. The premium you occasionally pay for decency keeps returning as priority, honesty, and first refusal. Your money makes friends everywhere it goes, and they all remember your address.",
+  "after": "You keep love going on time and without fail. Reliable feels more like love to you than exciting does, so you give your partner steady warmth ahead of surprise. Give your partner one unplanned evening a month, since you already cover every other day."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Hardworking",
+  "after": "Saves first"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Your effort burns steady, on schedule, without applause requirements. The daily block, the maintained log, the follow-through that arrives exactly when promised: the work gets done at a sustainable temperature, every day, and the years quietly assemble the results into something substantial.",
+  "after": "Saving comes before spending for you, every time. Something put by is what lets you sleep, so you keep a little back rather than enjoy all of it now. When you save first toward something you want, you get the treat and keep the sleep."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "The certification took eighteen months of Tuesday and Thursday evenings, logged without drama while louder colleagues announced bootcamps they never finished. When the title bump came, people called it sudden. The logbook, four notebooks thick by then, had a different word for it.",
+  "after": "Saving first means the fun always comes second. You choose covered rather than comfortable, and the treat you could afford never gets bought. If you give one saved sum a job you enjoy, the saving stops costing you the life it was for."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "Managers hand you the long-burn projects, the ones that die in flashier hands, because your fire does not need feeding by an audience. What you tend, finishes. The portfolio of finished things has become your entire argument, and it wins every review without your voice rising once.",
+  "after": "You save first and ask the people at home to wait with you. You put being covered ahead of treating them, since you do the counting. Loosen one line of the budget for them, and your saving starts to feel like care."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Bankable",
+  "after": "Shows up daily"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Your word converts to certainty at full rate. The quote holds, the date holds, the handshake survives price movements: people budget on your commitments the way they budget on math. Being counted on is your asset class, and its yield compounds in reputation.",
+  "after": "Showing up every day is how you love. Being there outranks being exciting for you, and you give the daily thing ahead of the grand one. If you say once in a while that you choose to show up, you keep it from becoming duty."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "The contractor overran and your quote did not, absorbing the difference exactly as promised, exactly once. The client noticed both halves: the cost you ate and the silence you ate it with. Their next three projects arrived un-tendered, with a note: your number is the number.",
+  "after": "The daily showing up costs you the rest you needed. You put reliable ahead of rested, so you show up on days you have nothing left to bring. Take one day off from showing up, and you bring more to the week after it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "Around you, people stop building backup plans. The backup plans for your deliverables have quietly disappeared from other people’s spreadsheets, which is the highest compliment operations can pay. New partners get told simply: whatever that one says will happen, price it as done.",
+  "after": "You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. Once you ask what your partner wants that week, you show up with the right thing."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Tight-fisted",
+  "after": "Counts everything"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "The flame gets rationed like the last match. The heating negotiated by degrees, the gift budgeted to the occasion’s minimum, the generosity metered through a nozzle: nothing is ever quite wasted, and nothing is ever quite warm. The savings are real. So is the temperature.",
+  "after": "You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes ahead of enjoying the thing. Keep in mind that the counting protects you from loss and from pleasure in the same move."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "The birthday gift was practical, correctly sized, and returned the following week for something the recipient actually wanted, an exchange conducted politely and remembered longer than the birthday. You noticed the return in the account. You did not mention it. Neither did they, at length.",
+  "after": "Counting keeps the fear quiet and the pleasure quieter. You want to know what you have more than to use it, so the money sits counted and unspent. Worth remembering that you give up the use of your savings while busy adding them up."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People have quietly re-sorted you from ask to do not bother, and the re-sorting saved you money that cost you invitations. The rounds you never bought, the collections you queried, the split hairs at every bill: each small defense held. The territory it defended has emptied.",
+  "after": "Your count covers the household's spending as much as your own. Knowing where every bit went keeps you calm, and you ask about the receipt ahead of the day itself. Notice that you charge your family a question for every small purchase."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Anxious",
+  "after": "Plays it safe"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Money worry runs in you like a pilot light, never quite off. The balance gets checked at midnight, the small expense triggers the big spiral, and windfalls arrive pre-ruined by the question of losing them. The accounts are healthy. The relationship with them is not.",
+  "after": "Playing it safe is your first answer. You would rather keep a small sure thing than try for a big maybe, because being safe is what lets you rest. Every time you play it safe, you are also picking which chance to miss."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The unexpected dental bill was covered by any of four accounts, and still cost you a weekend of recalculating retirement projections at the kitchen table, again, with the door closed. Your partner watched the light under the door. The numbers were fine. The light stayed on till two.",
+  "after": "What you already have feels too precious to risk. Reaching for more feels like gambling, and you take the sure thing instead of the bigger one. Over the years, you give up more in missed chances than playing it safe ever saves you."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "People around you have learned that financial topics change your breathing, and they steer accordingly: trips proposed with cost worked out in advance, gifts disguised as luck. The care is loving and constant and slightly exhausting, and everyone maintains it because the alternative is watching you calculate.",
+  "after": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, so your partner's bigger ideas wait. You lose little safety by saying yes to one small shared plan a year."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Overcareful",
+  "after": "Holds back"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Every risk gets triple-checked until it leaves. The opportunity waits while you verify, the verified thing waits while you re-verify, and the moment, which had a temperature, cools to safe and worthless. Nothing bad gets past you. The cost is everything that needed slight courage.",
+  "after": "Without deciding to, you hold back warmth and money. Giving the whole of yourself feels like spending the last of something, and you give a careful portion rather than the full amount. You hold back more than you need to feel safe."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The franchise opportunity cleared your first review, your second, and your accountant’s, and died awaiting your third, taken instead by a former colleague with worse analysis and a signature. Their opening party invitation sat on your counter for a month. You checked their numbers annually, after.",
+  "after": "Keeping yourself back spares you hurt and costs you being known. You would rather hold back part of yourself than give the whole, so you stay half known. Remember that the closeness itself is what you lose, since what you keep back cannot be held."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "火_正财",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "People pitch you first for rigor and elsewhere for money, a routing everyone understands and nobody explains to you. Your due diligence is borrowed by half your circle, applied to deals you declined. The finder’s fees that never existed would, by now, have funded the caution.",
+  "after": "You hold back hardest where you love most. You keep a reserve rather than give it all, and your partner gets the careful share only. Never forget that you leave them guessing at warmth you have and keep."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Fine-tuned",
+  "after": "Tests everything"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Selective",
+  "after": "Rarely fooled"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Ingenious",
+  "after": "Thinks alone"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "adj_chips.friction[0]",
+  "before": "Cryptic",
+  "after": "Never done checking"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "adj_chips.friction[1]",
+  "before": "Hair-splitting",
+  "after": "Too exact"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "adj_chips.friction[2]",
+  "before": "Shut-in",
+  "after": "Hard to reach"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Fine-tuned",
+  "after": "Tests everything"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "Your mind runs at tolerances other people cannot perceive. The half-degree shift in a colleague’s tone, the number that is slightly off in a healthy report, the note out of place: your instruments register it all, early, while the dashboard still shows green.",
+  "after": "You test everything before you let it in. A fact only becomes yours once tried against something real, and that puts testing ahead of simply learning. Keep the slow filter, and what you know stays yours for good."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "You flagged the contract’s odd clause at the first read, one comma-deep in page thirty, and the lawyer’s follow-up confirmed what your calibration had already priced: the clause was the deal. Everyone else had read the same page. Their instruments simply do not go that fine.",
+  "after": "Testing everything costs you time. Slow and sure means more to you than quick and wrong, so most of your learning starts late. Let one good teacher skip the test, because every hour spent proving the known is an hour not spent learning the new."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "People run important things past you the way studios run final masters past the golden-eared engineer, for the flaws nobody else can hear. Your catches have saved deals, hires, and one marriage, each time via a detail everyone had seen and only you had registered.",
+  "after": "Whenever someone hands you a fact, you test it in front of them. Trying it yourself matters more than being agreeable, and whoever offered it gets a question instead of thanks. If you test it later in private, you keep both fact and goodwill."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Selective",
+  "after": "Rarely fooled"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer.",
+  "after": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the proof. When a kind person proves your doubt wrong, being fooled by kindness is a loss worth taking."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "From forty applications you pulled three names in one evening, and the hire, made from your three, is now running the department. The panel spent two weeks reaching the shortlist you reached before dinner. Nobody can extract your criteria. You suspect they would not transfer.",
+  "after": "Rarely fooled, you are slow to be glad. You check an offer for the catch before letting it near, and would rather miss a good thing than be fooled. Once you take an offer at its word, you get back what your doubt sends away."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "People borrow your taste when their own stakes rise: which offer, which school, which surgeon. You answer with questions first, then a quiet ranking that later proves prophetic at rates that should embarrass the professionals involved. Your recommendations have a resale value. Everyone knows it but you.",
+  "after": "You check an honest word as closely as a false one. Being hard to fool counts for more with you than being easy company, and you make a truthful person prove it twice. You keep more honest company with every first answer you let stand."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Ingenious",
+  "after": "Thinks alone"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Your solutions arrive from angles that were not on the diagram. The mechanism repurposed, the rule read sideways, the tool used against its manual: what you build works for reasons that take other people a whiteboard to reconstruct. Cleverness is common. Yours has machining marks.",
+  "after": "Your best thinking happens alone. You need quiet for a half-formed idea more than an audience, so you shut the door until it is whole. Each time you bring one person in at the halfway point, you keep the quiet and lose only the loneliness."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "The workshop door that defeated three contractors got fixed by you in an afternoon with a bicycle part and a magnet, a solution that has now held for four years and been photographed by two of the contractors. One asked permission to use it commercially. You waved it through.",
+  "after": "Thinking alone keeps the idea clean. You would rather carry a hard question alone than let anyone see it unsolved, and help only reaches a problem someone has heard about. Once you tell one person early, help you have done without starts arriving."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "Colleagues have stopped saying that will not work before your prototypes finish, having eaten the sentence too often. Your fixes look wrong until they run. The patent attorney who reviewed one, as a favor, sent back a note with a single underlined sentence: file this one.",
+  "after": "Your thinking stays private until it is a result for others. Working it out alone comes easier to you than together, and the people near you get only the conclusion. When the door opens earlier, you give them a say in the deciding."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Cryptic",
+  "after": "Never done checking"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Your thinking exits in compressed form, when it exits at all. The one-word answer holding a paragraph, the eyebrow holding a memo, the decision announced without its reasoning attached. People decode you like weather instruments, approximately, and the misreadings compound while the originals stay filed inside.",
+  "after": "You are never done checking. Letting a thing out early feels like a mistake you cannot undo, so you check once more rather than hand it over. Remember that you stopped finding errors long ago and now check for comfort."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Your reply to the six-paragraph proposal was two words: not yet. The team spent a week interpreting them, generating four theories, three of them wrong. The right theory, which you could have typed in a minute, eventually surfaced in a hallway, secondhand, wearing someone else’s name.",
+  "after": "Checking a thing again feels safer than handing it in. You would rather send it late and right than early and good enough, and the late ones mostly never go. You lose more chances to the extra check than to the errors it catches."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People spend real energy translating you, and the translation layer has become its own small bureaucracy: colleagues who explain what you meant, partners who interpret your silences for the children. You experience yourself as clear. The evidence experiences you as a cipher with a good heart.",
+  "after": "Whenever someone asks, you reply only once the answer is fully checked. Late sits easier with you than wrong, and you leave whoever asked waiting on your standard instead of your reply. You owe them a rough version now more than a right one later."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Hair-splitting",
+  "after": "Too exact"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Distinctions multiply under your attention until nothing can be simply true. The almost-right word gets corrected mid-thanks, the good plan dies of a thousand refinements, and conversations with you develop footnotes. Precision was the gift. Somewhere it became the tax everyone pays to talk to you.",
+  "after": "Precision matters to you past the point of being followed. A near-enough answer feels like a small lie to you, so you give the precise one rather than the easy one. Most days you get one of exact or understood, and one is enough."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "The team agreed in minute five, and the remaining fifty-five minutes were spent on your distinction between broadly aligned and aligned, a distinction with real content and no consequence. The decision shipped identical to draft one. Four people billed the hour. Two of them aged.",
+  "after": "Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You wanted to be told more than you wanted it exact, and that is worth remembering."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "People pre-concede your corrections now, sprinkling technically into their sentences like offerings. The accuracy you enforce is real, and its price is visible in every meeting you join: the shoulders that drop slightly, the estimates that double quietly, the good-enough that will not survive the hour.",
+  "after": "Handed a rough idea, you give it back exact. You would rather fix the wording than hear what it was for, and the one who brought it gets a correction instead of a reply. You were handed it for hearing, and grading was never asked."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Shut-in",
+  "after": "Hard to reach"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Your workshop became your world. The projects, the reading, the precise private hours: all of it arranged within reachable walls, while the outside gets handled through slots. Visits require recovery, calls require rehearsal, and the door, though never locked, has not been tested in months.",
+  "after": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The last spontaneous social contact in your records was in the spring, a neighbor at the mailbox, four minutes, pleasant. Everything since has been scheduled, softened, or declined. The workshop light is on every evening. From the street it reads as cozy. From inside it reads as complete.",
+  "after": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and every call you let ring out proves it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_偏印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "Friends have converted you into a letters-and-links relationship, affection maintained through screens at your evident preference. They speak of you warmly, in the past-adjacent tense reserved for lighthouse keepers and monks. The reunion invitations still arrive. Everyone, including you, knows the RSVP before it opens.",
+  "after": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands as the answer. Each time you give the minute first, you find the thought waiting when you come back."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "adj_chips.catalyst[0]",
+  "before": "Discreet",
+  "after": "Keeps a confidence"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "adj_chips.catalyst[1]",
+  "before": "Preserving",
+  "after": "Learns it properly"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "adj_chips.catalyst[2]",
+  "before": "Old soul",
+  "after": "Steadies people"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "adj_chips.friction[0]",
+  "before": "Detached",
+  "after": "Stays the student"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "adj_chips.friction[1]",
+  "before": "Formal",
+  "after": "Too protective"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "adj_chips.friction[2]",
+  "before": "Locked-away",
+  "after": "Loves by correcting"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[0].word",
+  "before": "Discreet",
+  "after": "Keeps a confidence"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[0].angles.drive",
+  "before": "What enters your keeping stays kept. The friend’s diagnosis, the colleague’s exit plans, the family matter: all held in a vault whose combination has never leaked once. In an age of broadcast, your silence is heirloom-grade, and people inventory it correctly as treasure.",
+  "after": "Whatever you are told stays with you. Being a safe place is how you know you matter, so you keep a confidence rather than ever use it. Let someone keep one of yours in return, because you wear thin with nothing kept for you."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+  "before": "When the merger rumors flew, three separate executives realized mid-panic that you had known for a month, from three separate confidences, and cross-referenced nothing to anyone. The realization traveled. Your calendar for the following quarter filled with meetings that began: this stays with you.",
+  "after": "Keeping a confidence means carrying it. You hold what people tell you rather than talk it through with anyone, and the weight of other lives sits on your own rest. Give one of them to a notebook, and you keep the trust and the sleep."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+  "before": "People sequence their disclosures by trust, and you are the first tier alone. Secrets travel toward you and stop, a fact widely relied upon and never once tested to failure. At every funeral, someone in the region is calmer because what they told you decades ago stayed told.",
+  "after": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and you give the ones who tell you everything nothing of yourself back. Once you hand one of them a worry, the shelter becomes shared."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[1].word",
+  "before": "Preserving",
+  "after": "Learns it properly"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[1].angles.drive",
+  "before": "You maintain what matters against time’s default. The friendship kept in service since school, the grandmother’s recipe made annually to spec, the archive of photos labeled while others let theirs dissolve into camera rolls. Loss takes a percentage from everyone else. You have negotiated a better rate.",
+  "after": "You learn a thing properly or not at all. Half-knowing a subject bothers you more than not knowing it, so you go to its end before counting it learned. When you take the slow way on purpose, what you learned stays true under pressure."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+  "before": "The recipe was almost lost twice, once at the funeral, once in the flood, and both times your copy, made years earlier in careful ink, restored it to the family. There are now four copies, distributed by you, laminated. The dish appears every winter, tasting like continuity.",
+  "after": "Learning it properly takes you longer. Knowing a thing to its end matters to you more than knowing it well enough, and most chances ask for less. Once you take one door on less than the whole, you stop watching chances go to faster people."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+  "before": "People discover what you have kept at exactly the moments loss becomes visible: the address that survived in your book, the photo of the shop before the fire, the friendship maintained through everyone’s chaotic decade. You are the family’s off-site backup, and everybody restores from you eventually.",
+  "after": "Teaching waits until you have learned it properly. You would rather pass a subject on whole than in pieces, and the people learning from you get nothing before the whole arrives. The more you teach as you learn, the less knowledge you keep from them."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[2].word",
+  "before": "Old soul",
+  "after": "Steadies people"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[2].angles.drive",
+  "before": "Your wisdom skips the podium. The insight arrives in a sentence near the end of the visit, unlabeled, easy to miss, and it reorganizes the listener’s month. You never claim the credit and rarely get it, which suits you. The advice was for using, never for citing.",
+  "after": "You steady people by holding them to something. Keeping someone safe matters more to you than keeping them comfortable, so your care arrives as a standard rather than a hug. When you put the warm word before the rule, your steadying lands as love."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+  "before": "Your niece made the decision everyone praised her for after one walk with you, during which, by her account, you mostly asked what she already thought and mentioned, once, what you had seen happen to hurry. The sentence took four seconds. She built two years on it.",
+  "after": "Steadying people earns you respect ahead of closeness. Being needed when things fall apart suits you more than being phoned for nothing, and the no-reason calls are what you miss. Once you rest the standard an evening, you get the closeness it stands in for."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+  "before": "People leave your company having reached their own conclusions, unaware of the machining. Years later they quote things you said as things they realized. You watch your sentences circulate under other people’s names, polished by use, and consider the ledger, on balance, exactly right.",
+  "after": "Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson. Each time you ask what they need first, you keep the steadying wanted."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[0].word",
+  "before": "Detached",
+  "after": "Stays the student"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[0].angles.drive",
+  "before": "Your care operates at instrument distance. The concern is genuine and arrives as analysis, the love is real and expressed as protocol, and the people receiving it stand slightly cold in the accuracy, holding perfectly correct advice, wishing it had arms.",
+  "after": "You stay the student long after you were able to teach. Learning under someone suits you more than standing alone, and that keeps your seat in the back row past its use. You decide when the student turns teacher, and you keep putting it off."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_self",
+  "before": "Your son called with news that had tears at its edges, and your response, calibrated and useful, addressed every practical dimension within four minutes. The call ended efficiently. He sat in the car afterward, helped and unheld, and then phoned his aunt to say the same things over.",
+  "after": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. Remember that you lose the place meant for you to someone who felt ready sooner."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[0].angles.cost_others",
+  "before": "People pre-sort what they bring you: problems yes, feelings elsewhere. The sorting is so old it feels like respect, and it has a cost ledger nobody opens. You are the first call for practical things and the last to hear anything that requires only company. The queue reveals the design.",
+  "after": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[1].word",
+  "before": "Formal",
+  "after": "Too protective"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[1].angles.drive",
+  "before": "Correctness armors every exchange. The thank-you notes are impeccable, the boundaries observed to the millimeter, the affection conducted through channels so proper that its temperature cannot be verified. People know exactly where they stand with you. Nobody knows how it feels there.",
+  "after": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in ahead of letting them fall. You are protecting them from the one thing that would have taught them, and you know it."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_self",
+  "before": "Your birthday call to your oldest friend ran eleven minutes, covered health, family, and weather in that order, and closed with regards to the household. It has run this way for thirty years. She once tried to break format with something raw. The pause was so perfect she apologized.",
+  "after": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. Bear in mind, you trade your own rest for a lesson they never get to learn."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[1].angles.cost_others",
+  "before": "People mirror your correctness back at you, and the relationship proceeds like diplomacy between friendly nations: warm communiques, scheduled summits, nothing unscripted. The love is real on both sides and fully suited at all times. Everyone involved occasionally wonders what casual would have felt like.",
+  "after": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety where they wanted faith, and faith was cheaper."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[2].word",
+  "before": "Locked-away",
+  "after": "Loves by correcting"
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[2].angles.drive",
+  "before": "Your inner life is in the vault with everyone else’s secrets. The grief went in decades ago, the hopes followed, and the combination, if you are honest, has drifted from your own memory. What remains public is composed, helpful, and sealed. Even you visit the contents rarely.",
+  "after": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Keep in mind that you are correcting someone who only came to be loved."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_self",
+  "before": "The night your oldest friend died, you tidied the kitchen, answered the necessary messages with grace, and slept on schedule. The crying happened weeks later, alone, in the car, over a song, for four minutes, and was filed before the engine cooled. Nobody ever knew. That was the design.",
+  "after": "Loving by correcting costs you the ones who stop bringing things. You put being useful to someone ahead of being close to them, and the corrected learn to bring you only finished things. You get respect for it, and the closeness goes somewhere less exact."
+ },
+ {
+  "axis": "ELEMENT_GOD",
+  "cell": "金_正印",
+  "field": "fn_reading.friction.ledger[2].angles.cost_others",
+  "before": "The people closest to you can list your kindnesses for hours and your feelings for seconds. At gatherings, your composure is the fixed point everyone appreciates and nobody can reach. Someone once asked what you were carrying. You answered with what you were managing. The difference went home unexamined.",
+  "after": "Correcting is what you give people wanting comfort. You would rather set people straight than let them be, and you send them home taught instead of held. Each time you hold a lesson back, you let through the warmth it stood in front of."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "mechanism.base",
+  "before": "The solid prevails over the flowing, and so earth contains water: banks make the river, walls make the well, and depth without a vessel is only weather. Contained, water becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the river arrives.",
+  "after": "Earth gives water its shape, the old texts say. Banks on either side, a bed beneath, and the river goes somewhere instead of everywhere. Without ground to press against, water spreads thin across the land and soaks away into nothing. The bank pushes, and the current answers by running deeper. That pressure turns a flood into a river, and a river into a road that reaches the sea."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "mechanism.catalyst_turn",
+  "before": "Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
+  "after": "With too little Earth, the water has no banks to push against. It spreads wide and shallow and arrives nowhere. Answer to one deadline you did not set, and keep it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "mechanism.friction_turn",
+  "before": "Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe.",
+  "after": "With too much Earth, the banks press in until the water barely moves. Every rule you meet turns into a judge of you. Read one slow book before the next demand."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.catalyst.clause",
+  "before": "Nothing banks you: depth spreading wide and arriving nowhere, freedom without force.",
+  "after": "the water has no banks to push against"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.catalyst.remedy",
+  "before": "Accept the role, the rhythm, the walls that aim you.",
+  "after": "Answer to one deadline you did not set, and keep it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.friction.clause",
+  "before": "The banks close in: current squeezed into a schedule until the water forgets it moves.",
+  "after": "the banks press in until the water barely moves"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.friction.remedy",
+  "before": "Rivers are meant to breathe.",
+  "after": "Read one slow book before the next demand."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.wide.clause",
+  "before": "You are well supplied with Earth, the banks that turn depth into a river.",
+  "after": "You were given plenty of Earth, the ground that gives your water a path."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.wide.remedy",
+  "before": "Keep the role you have. Let it aim you.",
+  "after": "Use the banks. Take on one hard deadline and meet it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.missing.clause",
+  "before": "Nothing banks the water: depth spreading wide, arriving nowhere.",
+  "after": "No bank anywhere, and the water goes wherever the ground tips and settles nowhere."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.missing.remedy",
+  "before": "Borrow structure: one role, one rhythm.",
+  "after": "Borrow Earth from someone above you, and a date you cannot move."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.spared.clause",
+  "before": "Earth runs absent, and the current is free: no banks closing in.",
+  "after": "No Earth presses on the water here, and the current keeps its own depth."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.spared.remedy",
+  "before": "Keep it. Choose one wall.",
+  "after": "Leave it absent. Set your own pace and keep it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.thin.clause",
+  "before": "Earth runs thin and unwanted: low banks, easily crossed.",
+  "after": "Only a little Earth touches the water, a low bank the current clears with ease."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.thin.remedy",
+  "before": "Cross them when you must.",
+  "after": "Keep it that small. Answer to few rules, chosen by you."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.excess.clause",
+  "before": "Weak water silts up under strong earth: structure past what the current can move, flow stopped by banks.",
+  "after": "Earth piles onto the water until the river chokes on mud and stops moving."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "carry.excess.remedy",
+  "before": "Widen the channel. Add metal.",
+  "after": "Clear the mud. Drop two duties, keep one, and rest."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "function.definition_catalyst",
+  "before": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose.",
+  "after": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the standard comes late. You take a dare sooner than a post, and you find your pace after someone sets it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "function.definition_friction",
+  "before": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own.",
+  "after": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the judge becomes you. You measure yourself against every rule as much as every demand and never quite pass your own review."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "function.advise_catalyst",
+  "before": "Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit.",
+  "after": "You do your best work when someone else sets the deadline. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Tell one person above you what you will deliver and when. Keep one standing rule at home, the same sleep hour every night. Pay one bill the day it arrives."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "function.advise_friction",
+  "before": "A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone.",
+  "after": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You answer to yourself more strictly than to anyone above you. Ask one person who has done it before, and write down the answer. Then sleep on it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_土",
+  "field": "cta_verdict",
+  "before": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds.",
+  "after": "You keep a rule best when you feel its weight rather than read it, and a demand with pressure behind it usually gets your fullest answer."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "mechanism.base",
+  "before": "Water gives life to wood because it moistens, say the old texts: rain falls, the root drinks, and the forest stands up out of the ground the water made soft. The rain keeps nothing for itself. Everything it touches turns green on its behalf, and the tallest trees are its quietest monuments.",
+  "after": "Wood grows because water reaches it, the old texts say. Rain comes down, the ground takes it in, and the forest rises on what it drank. Nothing green stands without a source under it. The deeper the water, the taller the trunk it can feed, and every leaf is water that learned to stand."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "mechanism.catalyst_turn",
+  "before": "Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public.",
+  "after": "With too little Wood, the rain has nothing to raise and pools where it lands. What you feel and know stays under the surface. Say one true thing out loud every day."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "mechanism.friction_turn",
+  "before": "Run heavy, the rain never closes: every still thing gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest.",
+  "after": "With too much Wood, the forest drinks faster than the rain can fall, and every word you give away leaves you drier. Sleep on one thing you meant to say."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.catalyst.clause",
+  "before": "The rain withholds: depth circling underground, nothing green standing up from it.",
+  "after": "The rain has nothing to raise and pools where it lands."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.catalyst.remedy",
+  "before": "Mentor someone, seed the idea, water a thing in public.",
+  "after": "Say one true thing out loud every day."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.friction.clause",
+  "before": "The rain never closes: every still thing gets watered, depth drained into other people’s forests.",
+  "after": "The forest drinks faster than the rain can fall."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.friction.remedy",
+  "before": "Rain is also allowed to rest.",
+  "after": "Sleep on one thing you meant to say."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.wide.clause",
+  "before": "You were given plenty of Wood, the green thing your rain is for.",
+  "after": "Wood is easy for you to reach, and the rain in you keeps it growing."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.wide.remedy",
+  "before": "Pick one green thing and pour into it.",
+  "after": "Use it. Make one thing a week and show it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.missing.clause",
+  "before": "The rain withholds: depth underground, nothing green from it.",
+  "after": "No green rises from your water, and the days pass with nothing new to show for them."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.missing.remedy",
+  "before": "Borrow wood: mentor one person.",
+  "after": "Borrow it. Sit in on a class or make beside a friend."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.spared.clause",
+  "before": "Wood runs absent, and the depth is kept: nothing drained into other people's gardens.",
+  "after": "No green draws on the water, and the source stays full for you."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.spared.remedy",
+  "before": "Keep it. Pour by choice.",
+  "after": "Keep it so. Take in before you give out."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.thin.clause",
+  "before": "Wood runs thin and unwanted: a small garden, easily watered.",
+  "after": "Wood stays small in you, a few shoots the water can afford to feed."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.thin.remedy",
+  "before": "Water it. Plant no more.",
+  "after": "Keep it small. One thing made a month is enough."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.excess.clause",
+  "before": "Too much wood drinks the water: more growing than the depth can feed, the self drained raising it.",
+  "after": "Wood grows thick while the water under it sinks lower with each thing you start."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "carry.excess.remedy",
+  "before": "Close the sky. Let the water table rise.",
+  "after": "Start nothing new for a month. Rest and let yourself fill up."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "function.definition_catalyst",
+  "before": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.",
+  "after": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea, and you let your family see only half of you."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "function.definition_friction",
+  "before": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.",
+  "after": "Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You give care and show talent more than you take in, until you end up emptier than anyone you filled."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "function.advise_catalyst",
+  "before": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
+  "after": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "function.advise_friction",
+  "before": "Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week.",
+  "after": "Seek Metal, the Mind energy. Metal is the cold side water forms on: it pulls from the air and hands the water back to its source. Let it hold what Wood pours out. You cannot talk your way back to full. Read one whole chapter before you make the next thing. Let one question sit overnight."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_木",
+  "field": "cta_verdict",
+  "before": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work.",
+  "after": "You put more into what you make than you ever say about it, and what you make usually outgrows the plan."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "mechanism.base",
+  "before": "Nothing moistens all things like water, the Book of Changes says: depth joined to depth, rivers feeding the sea that sends them back as rain. There is no reaction here, only gathering. Still water clarifies, deep water remembers, and the same softness that yields to every stone eventually carries the stone away.",
+  "after": "Water meets water and nothing new is added, only more of the same. Nothing moistens all things like it, the old texts say. Two currents that join learn no new direction: they just run deeper. Depth is the gift and the danger of this pair, since a spring and a flood share one nature and differ in how much there is. The same element alone is its own supply and its own limit."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "mechanism.catalyst_turn",
+  "before": "Run thin, the sea doubts its depth: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.",
+  "after": "When your own Water runs low, the spring thins and every current slows to a trickle, and each effort draws on a source nothing is refilling. Rest first, then decide."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "mechanism.friction_turn",
+  "before": "Run heavy, the surface seals: depth stilled under so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores.",
+  "after": "With too much Water, the tide rises with no shore to meet, and depth becomes weight: the same thoughts circling and never landing. Pick one task and pour it all there."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.catalyst.clause",
+  "before": "The sea doubts its depth: perception discounted, knowing deferred to louder instruments.",
+  "after": "the spring thins and every current slows to a trickle"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.catalyst.remedy",
+  "before": "Trust one read all the way through.",
+  "after": "Rest first, then decide."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.friction.clause",
+  "before": "The surface seals: depth stilled under so much knowing that nothing surfaces to be checked.",
+  "after": "the tide rises with no shore to meet"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.friction.remedy",
+  "before": "Deep water still needs shores.",
+  "after": "Pick one task and pour it all there."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.unrooted.clause",
+  "before": "The self stands without roots: depth on will alone, a read with nothing under it.",
+  "after": "No spring of your own, so every current you ride is borrowed from somewhere else."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.unrooted.remedy",
+  "before": "Feed the self. Trust one read through.",
+  "after": "Borrow depth: rest, and keep one steady friend close."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.excess.clause",
+  "before": "Strong water wants wood: so much depth nothing surfaces.",
+  "after": "Water piled past its banks goes stale: the depth needs something growing to drain into."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.excess.remedy",
+  "before": "Pour it out. Grow something.",
+  "after": "Drain it into something growing. Build, plant, start."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.thin.clause",
+  "before": "Water runs thin and still carries weight: little depth, drawn on constantly.",
+  "after": "Little Water of your own, and no loss in that: nothing pools long enough to weigh on you."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "carry.thin.remedy",
+  "before": "Draw on it less.",
+  "after": "Keep it small and keep it moving."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "function.definition_catalyst",
+  "before": "Water is your Body, and running thin, it is the deep reserve under your perception: sleep quality, quiet time, the stillness your system restores itself in. Yours drains invisibly, through noise and company, long before you feel tired.",
+  "after": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, you put standing alone and matching a rival ahead of resting, so the source empties faster than it refills."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "function.definition_friction",
+  "before": "Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes.",
+  "after": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, it has no outlet, and you keep your own company rather than a peer's and race people who never entered. You carry more than anyone near you ever sees."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "function.advise_catalyst",
+  "before": "Solitude is your maintenance, so dose it like medicine. One silent hour daily, no inputs. A full day alone each month, calendared in advance. Leave gatherings while they are still good, and let the quiet finish what the rest began.",
+  "after": "You go it alone most easily when you have the least to go on. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "function.advise_friction",
+  "before": "Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself.",
+  "after": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Hand someone above you a finish date in writing, then clear one small job today."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_水",
+  "field": "cta_verdict",
+  "before": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one.",
+  "after": "Your stamina rises and falls in long swings, and you spend the low stretches on your own more often than in company."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "mechanism.base",
+  "before": "The many prevail over the few, and so water governs fire: the rain decides which flames continue, the river decides where the burning stops. Fire is brilliant and outnumbered. Depth arrives without hurry, spends nothing it cannot spare, and the blaze that seemed unstoppable at midnight is steam by morning.",
+  "after": "Water puts out fire, the old texts say, the way the many overcome the few: rain falls on the blaze until the ground goes dark and quiet. Fire gives the water its work. Over a flame the cold deep warms, moves and has somewhere to go. Water with no heat under it only sits, and heat with nothing deep enough to meet it spends itself on the air and is gone by morning."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "mechanism.catalyst_turn",
+  "before": "Run thin, nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past. Your chart asks you to claim heat. Step toward the bright loud thing.",
+  "after": "With too little Fire, nothing warms the deep: all that water and no flame under it to make it move, and the chance goes unclaimed. Pick one opening this month and see it through."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "mechanism.friction_turn",
+  "before": "Run heavy, the water starts to boil: depth spent on every bright flare, nothing left cool for the long game. Cool it overnight before you move.",
+  "after": "There is more Fire than your water can put out. The rain goes up in steam, and each venture you light spends some of the deep. Keep half of what every chase brings home."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.catalyst.clause",
+  "before": "Nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past.",
+  "after": "all that water and no flame under it to make it move"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.catalyst.remedy",
+  "before": "Step toward the bright loud thing.",
+  "after": "Pick one opening this month and see it through."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.friction.clause",
+  "before": "The water starts to boil: depth spent on every bright flare, nothing left cool for the long game.",
+  "after": "The rain goes up in steam, and each venture you light spends some of the deep"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.friction.remedy",
+  "before": "Cool it overnight before you move.",
+  "after": "Keep half of what every chase brings home."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.wide.clause",
+  "before": "Fire is all around you, the bright thing your depth should claim.",
+  "after": "There is no shortage of Fire in you, the warmth that gets the deep moving."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.wide.remedy",
+  "before": "Claim one bright chance and see it through.",
+  "after": "Spend it on one venture at a time."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.missing.clause",
+  "before": "Nothing bright is governed: depth with no stake in the blaze.",
+  "after": "No flame anywhere under the deep, where nothing warms and nothing gets claimed."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.missing.remedy",
+  "before": "Borrow fire: step toward one bright thing.",
+  "after": "Borrow warmth from a friend who starts things."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.spared.clause",
+  "before": "Fire runs absent, and nothing needs damping: no hot chances chased.",
+  "after": "Nothing here to boil the water off, and the deep keeps what it has."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.spared.remedy",
+  "before": "Keep it. Claim heat rarely.",
+  "after": "Leave it unlit. Let the water stay cool."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.thin.clause",
+  "before": "Fire runs thin and unwanted: a small blaze, easily enjoyed.",
+  "after": "A small flame only, not enough to heat the water through."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.thin.remedy",
+  "before": "Enjoy it. Don't manage it.",
+  "after": "Keep it small and let it warm, not boil."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.excess.clause",
+  "before": "Too much fire heats the water: more bright chances than the depth can cool, boiled off by urgency.",
+  "after": "So much fire that the water itself runs hot, steaming away into every bright thing it meets."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "carry.excess.remedy",
+  "before": "Step back from the blaze. Add metal.",
+  "after": "Cool it. Take one chance a season and decline the rest."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "function.definition_catalyst",
+  "before": "Fire is your Action, and as a catalyst, it is the bright opportunity your judgment was built to run: launches, markets, moments that reward the person who read them early. You see clearly where others squint.",
+  "after": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the start comes late, and you want a far chance as much as steady pay. You pay most for what you never claim."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "function.definition_friction",
+  "before": "Fire is your Action, and as a friction, it is urgency pulling on a system that runs deep and slow: hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you.",
+  "after": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light outruns its fuel, and you chase a new opening rather than keep what you have. You end up starting more than you can feed."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "function.advise_catalyst",
+  "before": "A gift for timing is wasted on a spectator. When your read says now, commit within a week instead of watching it prove you right. Size the bet so a miss stings without sinking. Keep one bright project live at all times.",
+  "after": "You feel safer planning a thing than starting it, and the plan is where most of your chances end. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "function.advise_friction",
+  "before": "Your edge is patience, so defend it from excitement. Let two opportunities pass for every one you take. Take only what survives a week of waiting. Keep a cooling-off rule for anything urgent, because urgency is usually someone else’s deadline.",
+  "after": "Seek Water, your own Body energy. Water is the deep you draw from: sleep, food, the slow fill that comes before anything is lit. Let it hold what Fire burns. You spend yourself on every bright chance because stopping feels like losing. Keep one night a week unlit, in bed early. Eat before you say yes to anything."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_火",
+  "field": "cta_verdict",
+  "before": "You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase.",
+  "after": "You reach for what matters to you with care as much as with nerve, and over the years the balance you strike shapes what you get to keep."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "mechanism.base",
+  "before": "Water is metal's child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the stream inherits, sharpness dissolved into current and carried further than any blade could reach.",
+  "after": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and the whole tide below begins in drops this small."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "mechanism.catalyst_turn",
+  "before": "Run thin, the spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. Your chart asks for metal. Study something exact and drink from it.",
+  "after": "With too little Metal, less goes in than comes out. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Take one thing in before you pass it on."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "mechanism.friction_turn",
+  "before": "Run heavy, the rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. Pour something out. A spring proves itself by flowing.",
+  "after": "With too much Metal, more settles in you than you pour out. The ore clouds the water it feeds, and each clear thought waits on one more check. Say one unfinished thing out loud."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.catalyst.clause",
+  "before": "The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.",
+  "after": "Nothing cold stands over the water, so no drop gathers"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.catalyst.remedy",
+  "before": "Study something exact and drink from it.",
+  "after": "Take one thing in before you pass it on."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.friction.clause",
+  "before": "The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.",
+  "after": "The ore clouds the water it feeds"
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.friction.remedy",
+  "before": "A spring proves itself by flowing.",
+  "after": "Say one unfinished thing out loud."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.wide.clause",
+  "before": "You have plenty of Metal, the spring that keeps your depth refilled.",
+  "after": "You are well supplied with Metal, the cold surface the water gathers on."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.wide.remedy",
+  "before": "Use the exact sources you already have.",
+  "after": "Use what has settled. Decide from it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.missing.clause",
+  "before": "No spring feeding the depth: knowing drawn on and never refilled.",
+  "after": "The water has no cold to gather on, and what you give out is never put back."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.missing.remedy",
+  "before": "Borrow metal: one exact teacher.",
+  "after": "Borrow it from someone who has already tested it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.spared.clause",
+  "before": "Metal runs absent, and the water moves: nothing calcified, nothing over-refined.",
+  "after": "No Metal over the water, and the water runs clearer for it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.spared.remedy",
+  "before": "Keep it. Add rigor one method at a time.",
+  "after": "Keep it out. Act on what you already know."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.thin.clause",
+  "before": "Metal runs thin and unwanted: a little rigor, easily carried.",
+  "after": "Only a little Metal feeds the water, a thin cold that never clouds it."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.thin.remedy",
+  "before": "Carry it lightly.",
+  "after": "Leave it small. One check, then move."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.excess.clause",
+  "before": "Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources.",
+  "after": "Metal piled past use muddies what it feeds, and the current turns cloudy and slow."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "carry.excess.remedy",
+  "before": "Pour something out. Stop collecting.",
+  "after": "Pour something out, one decision and no more checking."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "function.definition_catalyst",
+  "before": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input.",
+  "after": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, the test gets skipped. You trust your hunch more than a lesson handed down, and decide alone with nothing settled."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "function.definition_friction",
+  "before": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking.",
+  "after": "Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. You check what you know rather than say it, and hold whoever you shelter to a standard they never asked for."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "function.advise_catalyst",
+  "before": "Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
+  "after": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "function.advise_friction",
+  "before": "Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe.",
+  "after": "Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. You keep testing what already passed, since only finished feels safe. Ship a piece at a draft you would accept from others. Decide one small thing with no second look."
+ },
+ {
+  "axis": "ELEMENT_PAIR",
+  "cell": "水_金",
+  "field": "cta_verdict",
+  "before": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you.",
+  "after": "You trust what you have tested rather than what you were told, so you learn slowly and keep it for good."
+ }
+]

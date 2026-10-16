@@ -14,46 +14,46 @@
   "candidates": {
     "mechanism": {
       "classic": "因水潤而能生",
-      "base": "Water gives life to wood because it moistens, say the old texts: rain falls, the root drinks, and the forest stands up out of the ground the water made soft. The rain keeps nothing for itself. Everything it touches turns green on its behalf, and the tallest trees are its quietest monuments.",
-      "catalyst_turn": "Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public.",
-      "friction_turn": "Run heavy, the rain never closes: every still thing gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest."
+      "base": "Wood grows because water reaches it, the old texts say. Rain comes down, the ground takes it in, and the forest rises on what it drank. Nothing green stands without a source under it. The deeper the water, the taller the trunk it can feed, and every leaf is water that learned to stand.",
+      "catalyst_turn": "With too little Wood, the rain has nothing to raise and pools where it lands. What you feel and know stays under the surface. Say one true thing out loud every day.",
+      "friction_turn": "With too much Wood, the forest drinks faster than the rain can fall, and every word you give away leaves you drier. Sleep on one thing you meant to say."
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.",
-      "definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.",
-      "advise_catalyst": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
-      "advise_friction": "Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea, and you let your family see only half of you.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You give care and show talent more than you take in, until you end up emptier than anyone you filled.",
+      "advise_catalyst": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it.",
+      "advise_friction": "Seek Metal, the Mind energy. Metal is the cold side water forms on: it pulls from the air and hands the water back to its source. Let it hold what Wood pours out. You cannot talk your way back to full. Read one whole chapter before you make the next thing. Let one question sit overnight."
     },
-    "cta_verdict": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work.",
+    "cta_verdict": "You put more into what you make than you ever say about it, and what you make usually outgrows the plan.",
     "carry": {
       "catalyst": {
-        "clause": "The rain withholds: depth circling underground, nothing green standing up from it.",
-        "remedy": "Mentor someone, seed the idea, water a thing in public."
+        "clause": "The rain has nothing to raise and pools where it lands.",
+        "remedy": "Say one true thing out loud every day."
       },
       "friction": {
-        "clause": "The rain never closes: every still thing gets watered, depth drained into other people’s forests.",
-        "remedy": "Rain is also allowed to rest."
+        "clause": "The forest drinks faster than the rain can fall.",
+        "remedy": "Sleep on one thing you meant to say."
       },
       "wide": {
-        "clause": "You were given plenty of Wood, the green thing your rain is for.",
-        "remedy": "Pick one green thing and pour into it."
+        "clause": "Wood is easy for you to reach, and the rain in you keeps it growing.",
+        "remedy": "Use it. Make one thing a week and show it."
       },
       "missing": {
-        "clause": "The rain withholds: depth underground, nothing green from it.",
-        "remedy": "Borrow wood: mentor one person."
+        "clause": "No green rises from your water, and the days pass with nothing new to show for them.",
+        "remedy": "Borrow it. Sit in on a class or make beside a friend."
       },
       "spared": {
-        "clause": "Wood runs absent, and the depth is kept: nothing drained into other people's gardens.",
-        "remedy": "Keep it. Pour by choice."
+        "clause": "No green draws on the water, and the source stays full for you.",
+        "remedy": "Keep it so. Take in before you give out."
       },
       "thin": {
-        "clause": "Wood runs thin and unwanted: a small garden, easily watered.",
-        "remedy": "Water it. Plant no more."
+        "clause": "Wood stays small in you, a few shoots the water can afford to feed.",
+        "remedy": "Keep it small. One thing made a month is enough."
       },
       "excess": {
-        "clause": "Too much wood drinks the water: more growing than the depth can feed, the self drained raising it.",
-        "remedy": "Close the sky. Let the water table rise."
+        "clause": "Wood grows thick while the water under it sinks lower with each thing you start.",
+        "remedy": "Start nothing new for a month. Rest and let yourself fill up."
       }
     },
     "__ore": {
@@ -72,5 +72,183 @@
     },
     "retired_v3_definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.\n\nThe junior who got promoted still quotes you. The idea you gave away is thriving under someone else’s name, and honestly it pleases you, because what you plant mattering more than what you hold is the whole shape of your gift.\n\nInfluence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
     "retired_v3_definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.\n\nEveryone’s mentor, no one’s project. The advice flows daily, the intros get made, the drafts get reviewed, and at the end of the month there is nothing with your own name on it and little water left either.\n\nGenerosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Water gives life to wood because it moistens, say the old texts: rain falls, the root drinks, and the forest stands up out of the ground the water made soft. The rain keeps nothing for itself. Everything it touches turns green on its behalf, and the tallest trees are its quietest monuments."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Run heavy, the rain never closes: every still thing gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The rain withholds: depth circling underground, nothing green standing up from it."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Mentor someone, seed the idea, water a thing in public."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The rain never closes: every still thing gets watered, depth drained into other people’s forests."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Rain is also allowed to rest."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You were given plenty of Wood, the green thing your rain is for."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Pick one green thing and pour into it."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The rain withholds: depth underground, nothing green from it."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Borrow wood: mentor one person."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Wood runs absent, and the depth is kept: nothing drained into other people's gardens."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Keep it. Pour by choice."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Wood runs thin and unwanted: a small garden, easily watered."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Water it. Plant no more."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Too much wood drinks the water: more growing than the depth can feed, the self drained raising it."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Close the sky. Let the water table rise."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_木.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work."
+    }
+  ]
 }

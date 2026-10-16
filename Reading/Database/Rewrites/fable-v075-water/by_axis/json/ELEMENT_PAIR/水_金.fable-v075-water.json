@@ -9,14 +9,14 @@
   "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
   "candidates": {
     "mechanism": {
-      "base": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and every spring remembers the cold stone it first seeped from.",
-      "catalyst_turn": "With too little Metal, less settles than you spend. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Read one slow book before the next hard call.",
+      "base": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and the whole tide below begins in drops this small.",
+      "catalyst_turn": "With too little Metal, less goes in than comes out. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Take one thing in before you pass it on.",
       "friction_turn": "With too much Metal, more settles in you than you pour out. The ore clouds the water it feeds, and each clear thought waits on one more check. Say one unfinished thing out loud."
     },
     "carry": {
       "catalyst": {
         "clause": "Nothing cold stands over the water, so no drop gathers",
-        "remedy": "Read one slow book before the next hard call."
+        "remedy": "Take one thing in before you pass it on."
       },
       "friction": {
         "clause": "The ore clouds the water it feeds",
@@ -27,8 +27,8 @@
         "remedy": "Use what has settled. Decide from it."
       },
       "missing": {
-        "clause": "No cold surface for the water to form on, answers given before anything has settled.",
-        "remedy": "Borrow it, one trusted teacher, one rule you did not write."
+        "clause": "The water has no cold to gather on, and what you give out is never put back.",
+        "remedy": "Borrow it from someone who has already tested it."
       },
       "spared": {
         "clause": "No Metal over the water, and the water runs clearer for it.",
@@ -46,7 +46,7 @@
     "function": {
       "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, the test gets skipped. You trust your hunch more than a lesson handed down, and decide alone with nothing settled.",
       "definition_friction": "Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. You check what you know rather than say it, and hold whoever you shelter to a standard they never asked for.",
-      "advise_catalyst": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it and wait for the whole story. Sleep on any answer that matters. Write the question down before you reply.",
+      "advise_catalyst": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply.",
       "advise_friction": "Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. You keep testing what already passed, since only finished feels safe. Ship a piece at a draft you would accept from others. Decide one small thing with no second look."
     },
     "cta_verdict": "You trust what you have tested rather than what you were told, so you learn slowly and keep it for good."

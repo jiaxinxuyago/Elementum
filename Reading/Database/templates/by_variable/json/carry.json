@@ -677,32 +677,32 @@
         "canonical_name": "Water core × Wood — the Voice",
         "value": {
           "catalyst": {
-            "clause": "The rain withholds: depth circling underground, nothing green standing up from it.",
-            "remedy": "Mentor someone, seed the idea, water a thing in public."
+            "clause": "The rain has nothing to raise and pools where it lands.",
+            "remedy": "Say one true thing out loud every day."
           },
           "friction": {
-            "clause": "The rain never closes: every still thing gets watered, depth drained into other people’s forests.",
-            "remedy": "Rain is also allowed to rest."
+            "clause": "The forest drinks faster than the rain can fall.",
+            "remedy": "Sleep on one thing you meant to say."
           },
           "wide": {
-            "clause": "You were given plenty of Wood, the green thing your rain is for.",
-            "remedy": "Pick one green thing and pour into it."
+            "clause": "Wood is easy for you to reach, and the rain in you keeps it growing.",
+            "remedy": "Use it. Make one thing a week and show it."
           },
           "missing": {
-            "clause": "The rain withholds: depth underground, nothing green from it.",
-            "remedy": "Borrow wood: mentor one person."
+            "clause": "No green rises from your water, and the days pass with nothing new to show for them.",
+            "remedy": "Borrow it. Sit in on a class or make beside a friend."
           },
           "spared": {
-            "clause": "Wood runs absent, and the depth is kept: nothing drained into other people's gardens.",
-            "remedy": "Keep it. Pour by choice."
+            "clause": "No green draws on the water, and the source stays full for you.",
+            "remedy": "Keep it so. Take in before you give out."
           },
           "thin": {
-            "clause": "Wood runs thin and unwanted: a small garden, easily watered.",
-            "remedy": "Water it. Plant no more."
+            "clause": "Wood stays small in you, a few shoots the water can afford to feed.",
+            "remedy": "Keep it small. One thing made a month is enough."
           },
           "excess": {
-            "clause": "Too much wood drinks the water: more growing than the depth can feed, the self drained raising it.",
-            "remedy": "Close the sky. Let the water table rise."
+            "clause": "Wood grows thick while the water under it sinks lower with each thing you start.",
+            "remedy": "Start nothing new for a month. Rest and let yourself fill up."
           }
         }
       },
@@ -712,32 +712,32 @@
         "canonical_name": "Water core × Fire — the Drive",
         "value": {
           "catalyst": {
-            "clause": "Nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past.",
-            "remedy": "Step toward the bright loud thing."
+            "clause": "all that water and no flame under it to make it move",
+            "remedy": "Pick one opening this month and see it through."
           },
           "friction": {
-            "clause": "The water starts to boil: depth spent on every bright flare, nothing left cool for the long game.",
-            "remedy": "Cool it overnight before you move."
+            "clause": "The rain goes up in steam, and each venture you light spends some of the deep",
+            "remedy": "Keep half of what every chase brings home."
           },
           "wide": {
-            "clause": "Fire is all around you, the bright thing your depth should claim.",
-            "remedy": "Claim one bright chance and see it through."
+            "clause": "There is no shortage of Fire in you, the warmth that gets the deep moving.",
+            "remedy": "Spend it on one venture at a time."
           },
           "missing": {
-            "clause": "Nothing bright is governed: depth with no stake in the blaze.",
-            "remedy": "Borrow fire: step toward one bright thing."
+            "clause": "No flame anywhere under the deep, where nothing warms and nothing gets claimed.",
+            "remedy": "Borrow warmth from a friend who starts things."
           },
           "spared": {
-            "clause": "Fire runs absent, and nothing needs damping: no hot chances chased.",
-            "remedy": "Keep it. Claim heat rarely."
+            "clause": "Nothing here to boil the water off, and the deep keeps what it has.",
+            "remedy": "Leave it unlit. Let the water stay cool."
           },
           "thin": {
-            "clause": "Fire runs thin and unwanted: a small blaze, easily enjoyed.",
-            "remedy": "Enjoy it. Don't manage it."
+            "clause": "A small flame only, not enough to heat the water through.",
+            "remedy": "Keep it small and let it warm, not boil."
           },
           "excess": {
-            "clause": "Too much fire heats the water: more bright chances than the depth can cool, boiled off by urgency.",
-            "remedy": "Step back from the blaze. Add metal."
+            "clause": "So much fire that the water itself runs hot, steaming away into every bright thing it meets.",
+            "remedy": "Cool it. Take one chance a season and decline the rest."
           }
         }
       },
@@ -747,32 +747,32 @@
         "canonical_name": "Water core × Earth — the Duty",
         "value": {
           "catalyst": {
-            "clause": "Nothing banks you: depth spreading wide and arriving nowhere, freedom without force.",
-            "remedy": "Accept the role, the rhythm, the walls that aim you."
+            "clause": "the water has no banks to push against",
+            "remedy": "Answer to one deadline you did not set, and keep it."
           },
           "friction": {
-            "clause": "The banks close in: current squeezed into a schedule until the water forgets it moves.",
-            "remedy": "Rivers are meant to breathe."
+            "clause": "the banks press in until the water barely moves",
+            "remedy": "Read one slow book before the next demand."
           },
           "wide": {
-            "clause": "You are well supplied with Earth, the banks that turn depth into a river.",
-            "remedy": "Keep the role you have. Let it aim you."
+            "clause": "You were given plenty of Earth, the ground that gives your water a path.",
+            "remedy": "Use the banks. Take on one hard deadline and meet it."
           },
           "missing": {
-            "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
-            "remedy": "Borrow structure: one role, one rhythm."
+            "clause": "No bank anywhere, and the water goes wherever the ground tips and settles nowhere.",
+            "remedy": "Borrow Earth from someone above you, and a date you cannot move."
           },
           "spared": {
-            "clause": "Earth runs absent, and the current is free: no banks closing in.",
-            "remedy": "Keep it. Choose one wall."
+            "clause": "No Earth presses on the water here, and the current keeps its own depth.",
+            "remedy": "Leave it absent. Set your own pace and keep it."
           },
           "thin": {
-            "clause": "Earth runs thin and unwanted: low banks, easily crossed.",
-            "remedy": "Cross them when you must."
+            "clause": "Only a little Earth touches the water, a low bank the current clears with ease.",
+            "remedy": "Keep it that small. Answer to few rules, chosen by you."
           },
           "excess": {
-            "clause": "Weak water silts up under strong earth: structure past what the current can move, flow stopped by banks.",
-            "remedy": "Widen the channel. Add metal."
+            "clause": "Earth piles onto the water until the river chokes on mud and stops moving.",
+            "remedy": "Clear the mud. Drop two duties, keep one, and rest."
           }
         }
       },
@@ -782,32 +782,32 @@
         "canonical_name": "Water core × Metal — the Root",
         "value": {
           "catalyst": {
-            "clause": "The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.",
-            "remedy": "Study something exact and drink from it."
+            "clause": "Nothing cold stands over the water, so no drop gathers",
+            "remedy": "Take one thing in before you pass it on."
           },
           "friction": {
-            "clause": "The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.",
-            "remedy": "A spring proves itself by flowing."
+            "clause": "The ore clouds the water it feeds",
+            "remedy": "Say one unfinished thing out loud."
           },
           "wide": {
-            "clause": "You have plenty of Metal, the spring that keeps your depth refilled.",
-            "remedy": "Use the exact sources you already have."
+            "clause": "You are well supplied with Metal, the cold surface the water gathers on.",
+            "remedy": "Use what has settled. Decide from it."
           },
           "missing": {
-            "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
-            "remedy": "Borrow metal: one exact teacher."
+            "clause": "The water has no cold to gather on, and what you give out is never put back.",
+            "remedy": "Borrow it from someone who has already tested it."
           },
           "spared": {
-            "clause": "Metal runs absent, and the water moves: nothing calcified, nothing over-refined.",
-            "remedy": "Keep it. Add rigor one method at a time."
+            "clause": "No Metal over the water, and the water runs clearer for it.",
+            "remedy": "Keep it out. Act on what you already know."
           },
           "thin": {
-            "clause": "Metal runs thin and unwanted: a little rigor, easily carried.",
-            "remedy": "Carry it lightly."
+            "clause": "Only a little Metal feeds the water, a thin cold that never clouds it.",
+            "remedy": "Leave it small. One check, then move."
           },
           "excess": {
-            "clause": "Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources.",
-            "remedy": "Pour something out. Stop collecting."
+            "clause": "Metal piled past use muddies what it feeds, and the current turns cloudy and slow.",
+            "remedy": "Pour something out, one decision and no more checking."
           }
         }
       },
@@ -817,24 +817,24 @@
         "canonical_name": "Water core × Water — the Core",
         "value": {
           "catalyst": {
-            "clause": "The sea doubts its depth: perception discounted, knowing deferred to louder instruments.",
-            "remedy": "Trust one read all the way through."
+            "clause": "the spring thins and every current slows to a trickle",
+            "remedy": "Rest first, then decide."
           },
           "friction": {
-            "clause": "The surface seals: depth stilled under so much knowing that nothing surfaces to be checked.",
-            "remedy": "Deep water still needs shores."
+            "clause": "the tide rises with no shore to meet",
+            "remedy": "Pick one task and pour it all there."
           },
           "unrooted": {
-            "clause": "The self stands without roots: depth on will alone, a read with nothing under it.",
-            "remedy": "Feed the self. Trust one read through."
+            "clause": "No spring of your own, so every current you ride is borrowed from somewhere else.",
+            "remedy": "Borrow depth: rest, and keep one steady friend close."
           },
           "excess": {
-            "clause": "Strong water wants wood: so much depth nothing surfaces.",
-            "remedy": "Pour it out. Grow something."
+            "clause": "Water piled past its banks goes stale: the depth needs something growing to drain into.",
+            "remedy": "Drain it into something growing. Build, plant, start."
           },
           "thin": {
-            "clause": "Water runs thin and still carries weight: little depth, drawn on constantly.",
-            "remedy": "Draw on it less."
+            "clause": "Little Water of your own, and no loss in that: nothing pools long enough to weigh on you.",
+            "remedy": "Keep it small and keep it moving."
           }
         }
       }

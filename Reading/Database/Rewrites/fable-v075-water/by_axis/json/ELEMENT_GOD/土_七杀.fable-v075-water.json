@@ -26,25 +26,25 @@
           {
             "word": "Calm under pressure",
             "angles": {
-              "drive": "You stay calm under pressure, and it shows. Under pressure you have something solid to hold, so you save your calm for the hard moment rather than the ordinary day. Let the quiet days have some of it, since that calm is yours either way.",
-              "cost_self": "Whenever pressure comes on, you turn calm and useful. Holding steady for everyone feels better than being held yourself, and that keeps you in a crisis after it needs you. Let one hard week run without you, then take back the rest you give away.",
-              "cost_others": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, so you take it off their hands before their calm gets a chance. Let someone else stay calm beside you for once."
+              "drive": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment ahead of the ordinary day. When a quiet day comes, give it some calm too, because that calm is yours anyway.",
+              "cost_self": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis ahead of an ordinary week, and the ordinary weeks get skipped. If you keep one stretch clear of crisis, you find that the calm comes with you, the rest with it.",
+              "cost_others": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, and you take it off their hands before their calm gets a chance. Let someone else stay calm beside you for once."
             }
           },
           {
             "word": "Takes charge",
             "angles": {
-              "drive": "Taking charge is a reflex for you. You would rather own a wrong call than leave one with no owner, and you take charge before anyone asks. Keep taking charge, and let a few calls be someone else's to carry.",
-              "cost_self": "Whenever a plan stalls, you take charge before checking whether you wanted it. Deciding feels more like safety than like a load to you, so you take on calls that were never yours. Turn one down, and you get back the evenings those calls took.",
-              "cost_others": "For you, looking after a group means taking charge of it. You would rather hand people an answer than wait while they find one, and the finding is what you take from them. Leave one call open long enough for someone else to make."
+              "drive": "Taking charge is a reflex for you. You would rather own a wrong call than leave one with no owner, and you take charge before anyone asks. If you hand a few calls to someone else, taking charge goes back to being a choice.",
+              "cost_self": "Whenever a plan stalls, you take charge, wanted or not. Deciding feels like safety to you, more than waiting ever does, and calls that were never yours end up with you. When you turn one down, you keep the evening it would have eaten.",
+              "cost_others": "For you, looking after a group means taking charge of it. Handing people an answer comes easier to you than waiting while they find one, and the finding is what you take from them. Leave one call open long enough for someone else to make."
             }
           },
           {
             "word": "Pushes through",
             "angles": {
-              "drive": "Pushing through is how you get to the end of anything hard. You need something to push against, so you finish under strain more easily than at ease. Push on, and notice which jobs you only finish when something pushes back.",
-              "cost_self": "Under strain, you push through without a second thought. Pushing to the far side feels more honest to you than asking for less, and you never try the lighter road. Make one job easy on purpose, and keep the strength that pushing costs.",
-              "cost_others": "Whenever you push through, you bring the people with you along at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take yourself. Match the slowest once, and see what gets done anyway."
+              "drive": "Pushing through is how you get to the end of anything hard. You need something to push against, and you finish under strain more easily than at ease. Push on, and notice which jobs you only finish when something pushes back.",
+              "cost_self": "Under strain, you push through without a second thought. You would sooner push to the far side than ask for less, and you never try the lighter road. Make one job easy on purpose, and keep the strength that pushing costs.",
+              "cost_others": "Whenever you push through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. When you match the slowest once, you see what gets done anyway."
             }
           }
         ]
@@ -54,25 +54,25 @@
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "Being hard on yourself is the one pressure you never question. Your own judge gets there before anyone else's, and you would rather be hard on yourself first than hear it from outside. Do not forget that you set this standard and can lower it.",
-              "cost_self": "Where a job is done, you are hard on yourself about what could have been better. Judging your own work feels more like control than being judged, so praise never gets in. It is worth remembering that you leave the credit you earned unspent.",
-              "cost_others": "You stay hard on yourself in front of the people you love. Doing it right matters more to you than being easy company, so each kindness you refuse teaches them to keep theirs. Keep in mind that how you treat yourself reaches them too."
+              "drive": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in sleep you never get back.",
+              "cost_self": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. It is worth remembering that you leave the credit you earned unspent.",
+              "cost_others": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You teach them your harshness without ever meaning it for them."
             }
           },
           {
             "word": "Never off duty",
             "angles": {
-              "drive": "You are never off duty, even when nothing needs guarding. Standing down feels like losing rank rather than taking a rest, so you keep watch over quiet weeks as closely as hard ones. Remember that you are allowed to let a quiet week pass unguarded.",
-              "cost_self": "Whenever the work ends, you find a reason to stay on duty. Being needed feels more solid than being free, so a day off turns into waiting for a call. You would do well to remember that the rest you refuse does not wait.",
-              "cost_others": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, so your attention stays on the next problem. You were wanted off duty more than on it, and that is worth remembering."
+              "drive": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. Keep in mind that you skip real sleep to guard nothing.",
+              "cost_self": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You refuse the rest that no one else can take for you.",
+              "cost_others": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, and your attention goes to the next problem. Do not forget that you were wanted off duty more than on it."
             }
           },
           {
             "word": "Shuts people out",
             "angles": {
-              "drive": "You shut people out before they get close enough to press on you. Your own pressure is plenty, so shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it.",
-              "cost_self": "Where help is offered, you shut it out kindly. Being pressed by no one suits you better than being helped, so you carry what was meant for two. It is worth keeping in mind that you pay alone for each hand you refuse.",
-              "cost_others": "Reaching for you is pressure too, so you shut out the people who try. Being alone matters more than being understood, and you shut the door hardest on the ones closest. What you should remember is that you leave them outside without a reason."
+              "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it.",
+              "cost_self": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away.",
+              "cost_others": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
             }
           }
         ]

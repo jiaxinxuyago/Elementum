@@ -17,7 +17,7 @@
       "friction": [
         "Chases the new",
         "Spends it fast",
-        "Drops things halfway"
+        "Looks past home"
       ]
     },
     "fn_reading": {
@@ -58,9 +58,9 @@
             }
           },
           {
-            "word": "Drops things halfway",
+            "word": "Looks past home",
             "angles": {
-              "drive": "Finishing never had the pull for you that starting has. Fire keeps asking you for the next thing, so you drop the half-done one sooner than you finish it. Remember that the half you left counts against you as much as the half you did."
+              "drive": "Home is what you look past first. You take what is near as settled and look out at the next venture instead of at the people already there. You lose the years at home you look past, and no venture gives them back."
             }
           }
         ]

@@ -16,46 +16,46 @@
   "candidates": {
     "mechanism": {
       "classic": "少陰之氣，銷金為水",
-      "base": "Water is metal's child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the stream inherits, sharpness dissolved into current and carried further than any blade could reach.",
-      "catalyst_turn": "Run thin, the spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. Your chart asks for metal. Study something exact and drink from it.",
-      "friction_turn": "Run heavy, the rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. Pour something out. A spring proves itself by flowing."
+      "base": "Water comes out of metal, as the old texts have it. The cold of the blade draws the damp from the air, and dew gathers along the steel where nothing was poured. The air gives up what it was holding. The hard thing gives the soft thing a surface to begin on, one clear drop at a time, and the whole tide below begins in drops this small.",
+      "catalyst_turn": "With too little Metal, less goes in than comes out. Nothing cold stands over the water, so no drop gathers and you answer on the spot. Take one thing in before you pass it on.",
+      "friction_turn": "With too much Metal, more settles in you than you pour out. The ore clouds the water it feeds, and each clear thought waits on one more check. Say one unfinished thing out loud."
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input.",
-      "definition_friction": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking.",
-      "advise_catalyst": "Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
-      "advise_friction": "Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe."
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, the test gets skipped. You trust your hunch more than a lesson handed down, and decide alone with nothing settled.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. You check what you know rather than say it, and hold whoever you shelter to a standard they never asked for.",
+      "advise_catalyst": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply.",
+      "advise_friction": "Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. You keep testing what already passed, since only finished feels safe. Ship a piece at a draft you would accept from others. Decide one small thing with no second look."
     },
-    "cta_verdict": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you.",
+    "cta_verdict": "You trust what you have tested rather than what you were told, so you learn slowly and keep it for good.",
     "carry": {
       "catalyst": {
-        "clause": "The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.",
-        "remedy": "Study something exact and drink from it."
+        "clause": "Nothing cold stands over the water, so no drop gathers",
+        "remedy": "Take one thing in before you pass it on."
       },
       "friction": {
-        "clause": "The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.",
-        "remedy": "A spring proves itself by flowing."
+        "clause": "The ore clouds the water it feeds",
+        "remedy": "Say one unfinished thing out loud."
       },
       "wide": {
-        "clause": "You have plenty of Metal, the spring that keeps your depth refilled.",
-        "remedy": "Use the exact sources you already have."
+        "clause": "You are well supplied with Metal, the cold surface the water gathers on.",
+        "remedy": "Use what has settled. Decide from it."
       },
       "missing": {
-        "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
-        "remedy": "Borrow metal: one exact teacher."
+        "clause": "The water has no cold to gather on, and what you give out is never put back.",
+        "remedy": "Borrow it from someone who has already tested it."
       },
       "spared": {
-        "clause": "Metal runs absent, and the water moves: nothing calcified, nothing over-refined.",
-        "remedy": "Keep it. Add rigor one method at a time."
+        "clause": "No Metal over the water, and the water runs clearer for it.",
+        "remedy": "Keep it out. Act on what you already know."
       },
       "thin": {
-        "clause": "Metal runs thin and unwanted: a little rigor, easily carried.",
-        "remedy": "Carry it lightly."
+        "clause": "Only a little Metal feeds the water, a thin cold that never clouds it.",
+        "remedy": "Leave it small. One check, then move."
       },
       "excess": {
-        "clause": "Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources.",
-        "remedy": "Pour something out. Stop collecting."
+        "clause": "Metal piled past use muddies what it feeds, and the current turns cloudy and slow.",
+        "remedy": "Pour something out, one decision and no more checking."
       }
     },
     "carry_yin": {
@@ -85,5 +85,183 @@
     },
     "retired_v3_definition_catalyst": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input.\n\nIntuitive first, exact second, formidable when both. The notation learned properly, the method drilled until invisible, the one rigorous teacher: each has turned a year of vague sensing into something you can actually wield.\n\nStructure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
     "retired_v3_definition_friction": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking.\n\nA note system with better architecture than the ideas inside it. Templates for everything, tags on the tags, and the strange truth that the clearest thinking lately happened away from the entire apparatus.\n\nMethod is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Water is metal's child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the stream inherits, sharpness dissolved into current and carried further than any blade could reach."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Run thin, the spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. Your chart asks for metal. Study something exact and drink from it."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Run heavy, the rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. Pour something out. A spring proves itself by flowing."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Study something exact and drink from it."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "A spring proves itself by flowing."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You have plenty of Metal, the spring that keeps your depth refilled."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Use the exact sources you already have."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "No spring feeding the depth: knowing drawn on and never refilled."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Borrow metal: one exact teacher."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Metal runs absent, and the water moves: nothing calcified, nothing over-refined."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Keep it. Add rigor one method at a time."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Metal runs thin and unwanted: a little rigor, easily carried."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Carry it lightly."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Pour something out. Stop collecting."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_金.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you."
+    }
+  ]
 }

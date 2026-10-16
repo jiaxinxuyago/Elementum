@@ -374,89 +374,89 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The rain withholds: depth circling underground, nothing green standing up from it. |
-| `catalyst.remedy` | Mentor someone, seed the idea, water a thing in public. |
-| `friction.clause` | The rain never closes: every still thing gets watered, depth drained into other people’s forests. |
-| `friction.remedy` | Rain is also allowed to rest. |
-| `wide.clause` | You were given plenty of Wood, the green thing your rain is for. |
-| `wide.remedy` | Pick one green thing and pour into it. |
-| `missing.clause` | The rain withholds: depth underground, nothing green from it. |
-| `missing.remedy` | Borrow wood: mentor one person. |
-| `spared.clause` | Wood runs absent, and the depth is kept: nothing drained into other people's gardens. |
-| `spared.remedy` | Keep it. Pour by choice. |
-| `thin.clause` | Wood runs thin and unwanted: a small garden, easily watered. |
-| `thin.remedy` | Water it. Plant no more. |
-| `excess.clause` | Too much wood drinks the water: more growing than the depth can feed, the self drained raising it. |
-| `excess.remedy` | Close the sky. Let the water table rise. |
+| `catalyst.clause` | The rain has nothing to raise and pools where it lands. |
+| `catalyst.remedy` | Say one true thing out loud every day. |
+| `friction.clause` | The forest drinks faster than the rain can fall. |
+| `friction.remedy` | Sleep on one thing you meant to say. |
+| `wide.clause` | Wood is easy for you to reach, and the rain in you keeps it growing. |
+| `wide.remedy` | Use it. Make one thing a week and show it. |
+| `missing.clause` | No green rises from your water, and the days pass with nothing new to show for them. |
+| `missing.remedy` | Borrow it. Sit in on a class or make beside a friend. |
+| `spared.clause` | No green draws on the water, and the source stays full for you. |
+| `spared.remedy` | Keep it so. Take in before you give out. |
+| `thin.clause` | Wood stays small in you, a few shoots the water can afford to feed. |
+| `thin.remedy` | Keep it small. One thing made a month is enough. |
+| `excess.clause` | Wood grows thick while the water under it sinks lower with each thing you start. |
+| `excess.remedy` | Start nothing new for a month. Rest and let yourself fill up. |
 
 ### Water core × Fire — the Drive · 水_火
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | Nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past. |
-| `catalyst.remedy` | Step toward the bright loud thing. |
-| `friction.clause` | The water starts to boil: depth spent on every bright flare, nothing left cool for the long game. |
-| `friction.remedy` | Cool it overnight before you move. |
-| `wide.clause` | Fire is all around you, the bright thing your depth should claim. |
-| `wide.remedy` | Claim one bright chance and see it through. |
-| `missing.clause` | Nothing bright is governed: depth with no stake in the blaze. |
-| `missing.remedy` | Borrow fire: step toward one bright thing. |
-| `spared.clause` | Fire runs absent, and nothing needs damping: no hot chances chased. |
-| `spared.remedy` | Keep it. Claim heat rarely. |
-| `thin.clause` | Fire runs thin and unwanted: a small blaze, easily enjoyed. |
-| `thin.remedy` | Enjoy it. Don't manage it. |
-| `excess.clause` | Too much fire heats the water: more bright chances than the depth can cool, boiled off by urgency. |
-| `excess.remedy` | Step back from the blaze. Add metal. |
+| `catalyst.clause` | all that water and no flame under it to make it move |
+| `catalyst.remedy` | Pick one opening this month and see it through. |
+| `friction.clause` | The rain goes up in steam, and each venture you light spends some of the deep |
+| `friction.remedy` | Keep half of what every chase brings home. |
+| `wide.clause` | There is no shortage of Fire in you, the warmth that gets the deep moving. |
+| `wide.remedy` | Spend it on one venture at a time. |
+| `missing.clause` | No flame anywhere under the deep, where nothing warms and nothing gets claimed. |
+| `missing.remedy` | Borrow warmth from a friend who starts things. |
+| `spared.clause` | Nothing here to boil the water off, and the deep keeps what it has. |
+| `spared.remedy` | Leave it unlit. Let the water stay cool. |
+| `thin.clause` | A small flame only, not enough to heat the water through. |
+| `thin.remedy` | Keep it small and let it warm, not boil. |
+| `excess.clause` | So much fire that the water itself runs hot, steaming away into every bright thing it meets. |
+| `excess.remedy` | Cool it. Take one chance a season and decline the rest. |
 
 ### Water core × Earth — the Duty · 水_土
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | Nothing banks you: depth spreading wide and arriving nowhere, freedom without force. |
-| `catalyst.remedy` | Accept the role, the rhythm, the walls that aim you. |
-| `friction.clause` | The banks close in: current squeezed into a schedule until the water forgets it moves. |
-| `friction.remedy` | Rivers are meant to breathe. |
-| `wide.clause` | You are well supplied with Earth, the banks that turn depth into a river. |
-| `wide.remedy` | Keep the role you have. Let it aim you. |
-| `missing.clause` | Nothing banks the water: depth spreading wide, arriving nowhere. |
-| `missing.remedy` | Borrow structure: one role, one rhythm. |
-| `spared.clause` | Earth runs absent, and the current is free: no banks closing in. |
-| `spared.remedy` | Keep it. Choose one wall. |
-| `thin.clause` | Earth runs thin and unwanted: low banks, easily crossed. |
-| `thin.remedy` | Cross them when you must. |
-| `excess.clause` | Weak water silts up under strong earth: structure past what the current can move, flow stopped by banks. |
-| `excess.remedy` | Widen the channel. Add metal. |
+| `catalyst.clause` | the water has no banks to push against |
+| `catalyst.remedy` | Answer to one deadline you did not set, and keep it. |
+| `friction.clause` | the banks press in until the water barely moves |
+| `friction.remedy` | Read one slow book before the next demand. |
+| `wide.clause` | You were given plenty of Earth, the ground that gives your water a path. |
+| `wide.remedy` | Use the banks. Take on one hard deadline and meet it. |
+| `missing.clause` | No bank anywhere, and the water goes wherever the ground tips and settles nowhere. |
+| `missing.remedy` | Borrow Earth from someone above you, and a date you cannot move. |
+| `spared.clause` | No Earth presses on the water here, and the current keeps its own depth. |
+| `spared.remedy` | Leave it absent. Set your own pace and keep it. |
+| `thin.clause` | Only a little Earth touches the water, a low bank the current clears with ease. |
+| `thin.remedy` | Keep it that small. Answer to few rules, chosen by you. |
+| `excess.clause` | Earth piles onto the water until the river chokes on mud and stops moving. |
+| `excess.remedy` | Clear the mud. Drop two duties, keep one, and rest. |
 
 ### Water core × Metal — the Root · 水_金
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. |
-| `catalyst.remedy` | Study something exact and drink from it. |
-| `friction.clause` | The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. |
-| `friction.remedy` | A spring proves itself by flowing. |
-| `wide.clause` | You have plenty of Metal, the spring that keeps your depth refilled. |
-| `wide.remedy` | Use the exact sources you already have. |
-| `missing.clause` | No spring feeding the depth: knowing drawn on and never refilled. |
-| `missing.remedy` | Borrow metal: one exact teacher. |
-| `spared.clause` | Metal runs absent, and the water moves: nothing calcified, nothing over-refined. |
-| `spared.remedy` | Keep it. Add rigor one method at a time. |
-| `thin.clause` | Metal runs thin and unwanted: a little rigor, easily carried. |
-| `thin.remedy` | Carry it lightly. |
-| `excess.clause` | Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources. |
-| `excess.remedy` | Pour something out. Stop collecting. |
+| `catalyst.clause` | Nothing cold stands over the water, so no drop gathers |
+| `catalyst.remedy` | Take one thing in before you pass it on. |
+| `friction.clause` | The ore clouds the water it feeds |
+| `friction.remedy` | Say one unfinished thing out loud. |
+| `wide.clause` | You are well supplied with Metal, the cold surface the water gathers on. |
+| `wide.remedy` | Use what has settled. Decide from it. |
+| `missing.clause` | The water has no cold to gather on, and what you give out is never put back. |
+| `missing.remedy` | Borrow it from someone who has already tested it. |
+| `spared.clause` | No Metal over the water, and the water runs clearer for it. |
+| `spared.remedy` | Keep it out. Act on what you already know. |
+| `thin.clause` | Only a little Metal feeds the water, a thin cold that never clouds it. |
+| `thin.remedy` | Leave it small. One check, then move. |
+| `excess.clause` | Metal piled past use muddies what it feeds, and the current turns cloudy and slow. |
+| `excess.remedy` | Pour something out, one decision and no more checking. |
 
 ### Water core × Water — the Core · 水_水
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The sea doubts its depth: perception discounted, knowing deferred to louder instruments. |
-| `catalyst.remedy` | Trust one read all the way through. |
-| `friction.clause` | The surface seals: depth stilled under so much knowing that nothing surfaces to be checked. |
-| `friction.remedy` | Deep water still needs shores. |
-| `unrooted.clause` | The self stands without roots: depth on will alone, a read with nothing under it. |
-| `unrooted.remedy` | Feed the self. Trust one read through. |
-| `excess.clause` | Strong water wants wood: so much depth nothing surfaces. |
-| `excess.remedy` | Pour it out. Grow something. |
-| `thin.clause` | Water runs thin and still carries weight: little depth, drawn on constantly. |
-| `thin.remedy` | Draw on it less. |
+| `catalyst.clause` | the spring thins and every current slows to a trickle |
+| `catalyst.remedy` | Rest first, then decide. |
+| `friction.clause` | the tide rises with no shore to meet |
+| `friction.remedy` | Pick one task and pour it all there. |
+| `unrooted.clause` | No spring of your own, so every current you ride is borrowed from somewhere else. |
+| `unrooted.remedy` | Borrow depth: rest, and keep one steady friend close. |
+| `excess.clause` | Water piled past its banks goes stale: the depth needs something growing to drain into. |
+| `excess.remedy` | Drain it into something growing. Build, plant, start. |
+| `thin.clause` | Little Water of your own, and no loss in that: nothing pools long enough to weigh on you. |
+| `thin.remedy` | Keep it small and keep it moving. |

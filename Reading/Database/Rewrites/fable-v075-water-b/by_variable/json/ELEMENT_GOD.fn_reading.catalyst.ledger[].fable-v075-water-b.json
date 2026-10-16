@@ -27,7 +27,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Takes charge",
-        "text": "Charge is something you take rather than wait to be given. An open decision weighs on you more than a mistake does, so you take charge the moment a plan goes quiet. Take charge as often as you like, and hand some back later."
+        "text": "Charge is something you take instead of something you wait for. An open decision weighs on you more than a mistake does, and you take charge the moment a plan goes quiet. Take charge as often as you like, and hand some back later."
       },
       "original": {
         "word": "Commanding",
@@ -44,7 +44,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Pushes through",
-        "text": "You push through where stopping would cost nothing. You stay with strain more easily than with comfort, since comfort gives you nothing to push against. Keep pushing, and let one easy stretch count as progress rather than a pause."
+        "text": "You push through where stopping would be allowed. You stay with strain more easily than with comfort, since comfort gives you little to push against. If one easy stretch counts as progress rather than a pause, you lose nothing by pushing less."
       },
       "original": {
         "word": "Siege-proof",
@@ -61,7 +61,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Keeps every promise",
-        "text": "You treat a promise as a fixed point. Being counted on feels better to you than being free, so you carry plans you no longer want sooner than drop them. Make fewer promises, and every one you keep stays whole."
+        "text": "You treat a promise as a fixed point. You trust being counted on more than being let off, and you carry plans you no longer want sooner than drop them. When you make fewer promises, each one you keep costs you less."
       },
       "original": {
         "word": "Rock-steady",
@@ -78,7 +78,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Plays fair",
-        "text": "You play fair by reflex rather than by decision. You want to be judged by the same measure you judge by, so you give up every advantage only you noticed. Stay fair, and let the advantage go to someone who will thank you."
+        "text": "You play fair by reflex rather than by decision. You want to be judged by the same measure you judge by, and you give up every advantage only you noticed. Stay fair, since the advantage you give up usually lands with someone who thanks you."
       },
       "original": {
         "word": "Fair",
@@ -94,8 +94,8 @@
       "cell": "土_正官",
       "field": "ledger[6]",
       "candidate": {
-        "word": "Earns it slowly",
-        "text": "Earning it slowly is how you trust what you hold. Rank you took would weigh less than rank you grew into, so you put in the years before you put in a claim. Trust the years, and claim one thing before it is fully earned."
+        "word": "Sets the standard",
+        "text": "Setting the standard is how you make a place feel steady. You trust a rule you wrote more than one you were handed, and you write one wherever none exists. If you meet the standard first, set it wherever you please."
       },
       "original": {
         "word": "Load-bearing",
@@ -129,7 +129,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Goes off script",
-        "text": "You leave the script once you see a better way. Following to the letter wastes the part of you that improves things, and you fix a plan rather than finish it. Go off script where it is yours, and the spark costs no one."
+        "text": "You leave the script once you see a better way. Following to the letter wastes the part of you that improves things, and you fix a plan rather than finish it. Whenever the plan is yours alone, go off script all the way."
       },
       "original": {
         "word": "Original",
@@ -146,7 +146,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Stands out",
-        "text": "You stand out in any group without trying to. Fitting in would mean hiding most of your talent, and you pick being seen ahead of being safe. Let yourself stand out, and know that some of the attention will be the wrong kind."
+        "text": "You stand out in any group without trying to. Fitting in would mean hiding most of your talent, and you pick being seen ahead of being safe. Let yourself stand out, since a little wrong attention is a fair price for being seen."
       },
       "original": {
         "word": "Untamed",
@@ -163,7 +163,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Gives first",
-        "text": "You give before anyone has to ask. Being the one with something to offer feels safer than being the one in need, and that puts giving ahead of waiting to be wanted. Give first, and notice when the giving starts to replace the wanting."
+        "text": "You give before anyone has to ask. A gift in your hands makes you feel secure, and you give it away rather than wait until you are wanted. Give first, and notice when the giving starts to replace the wanting."
       },
       "original": {
         "word": "Fruitful",
@@ -180,7 +180,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Always making",
-        "text": "Making things is your resting state. Because you trust your hands more than your words, you answer most questions with something made. Keep answering that way, and allow a made thing its slower understanding."
+        "text": "Making things is your resting state. Doing nothing makes you restless, and you start making a new piece instead of sharing the one you just finished. Each time you share a finished piece, you enjoy your making twice."
       },
       "original": {
         "word": "Mellow",
@@ -214,7 +214,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Loves a race",
-        "text": "Loving a race is how you love the work. Water comes in slowly for you and nothing refills it like someone to beat, and you put the race ahead of the task. Keep a rival you like, and the race stays a game worth running."
+        "text": "Loving a race is how you love the work. Water comes in slowly for you and nothing refills it like someone to beat, and you put the race ahead of the task. With a rival you like, you keep the race a game worth running."
       },
       "original": {
         "word": "Competitive",
@@ -248,7 +248,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "All in together",
-        "text": "You go all in together or you do not go in. A shared risk feels lighter than one carried alone, and you pool first and sort out shares later. Name your part before you go in, and you keep both the partner and the money."
+        "text": "You go all in together or you do not go in. A shared risk feels lighter than one carried alone, and you pool first and sort out shares later. When you name your part before going in, you keep both the partner and the money."
       },
       "original": {
         "word": "Agile",
@@ -265,7 +265,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Carries own weight",
-        "text": "You carry your own weight before anyone asks. Water runs low in you, and you would rather stand on your own than lean on a peer. Let a friend take a corner some weeks, and you keep more of yourself for the long run."
+        "text": "You carry your own weight before anyone asks. Water runs low in you, and you would rather stand on your own than lean on a peer. When you let a friend take a corner some weeks, you keep more of yourself for the long run."
       },
       "original": {
         "word": "Self-contained",
@@ -282,7 +282,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Even pace",
-        "text": "You hold one pace whether the people around you rush or stall. Nothing refills you quickly, and an even pace matters more to you than keeping up. Hold it in good company too, and the company lasts longer than the rush."
+        "text": "You hold one pace whether the people around you rush or stall. Nothing refills you quickly, and an even pace matters more to you than keeping up. When you hold it in good company, you keep the company longer than the rush."
       },
       "original": {
         "word": "Even-keeled",
@@ -452,7 +452,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Thinks alone",
-        "text": "You think alone, then arrive with the answer finished. You would rather be late than be seen mid-thought, and the working stays yours alone until it holds. If you say the half-made version to one person, you get the finished one sooner."
+        "text": "You think alone, then arrive with the answer finished. You put being late ahead of being seen mid-thought, and the working stays yours alone until it holds. If you say the half-made version to one person, you get the finished one sooner."
       },
       "original": {
         "word": "Ingenious",
@@ -486,7 +486,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Learns it properly",
-        "text": "Learning it properly is the only way you trust it. You would rather finish one subject than start ten, and that keeps your list short. Start the next one early, and that sure footing comes with you."
+        "text": "Learning it properly is the only way you trust it. You would rather finish one subject than start ten, and that keeps your list short. When you start the next one early, that sure footing comes with you."
       },
       "original": {
         "word": "Preserving",

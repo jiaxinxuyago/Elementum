@@ -10,7 +10,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Hard on yourself",
-        "text": "Being hard on yourself is the one pressure you never question. Your own judge gets there before anyone else's, and you would rather be hard on yourself first than hear it from outside. Do not forget that you set this standard and can lower it."
+        "text": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in sleep you never get back."
       },
       "original": {
         "word": "Walled-up",
@@ -27,7 +27,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Hard on yourself",
-        "text": "Where a job is done, you are hard on yourself about what could have been better. Judging your own work feels more like control than being judged, so praise never gets in. It is worth remembering that you leave the credit you earned unspent."
+        "text": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. It is worth remembering that you leave the credit you earned unspent."
       },
       "original": {
         "word": "Walled-up",
@@ -44,7 +44,7 @@
       "field": "ledger[2]",
       "candidate": {
         "word": "Hard on yourself",
-        "text": "You stay hard on yourself in front of the people you love. Doing it right matters more to you than being easy company, so each kindness you refuse teaches them to keep theirs. Keep in mind that how you treat yourself reaches them too."
+        "text": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You teach them your harshness without ever meaning it for them."
       },
       "original": {
         "word": "Walled-up",
@@ -61,7 +61,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Never off duty",
-        "text": "You are never off duty, even when nothing needs guarding. Standing down feels like losing rank rather than taking a rest, so you keep watch over quiet weeks as closely as hard ones. Remember that you are allowed to let a quiet week pass unguarded."
+        "text": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. Keep in mind that you skip real sleep to guard nothing."
       },
       "original": {
         "word": "Heavy-handed",
@@ -78,7 +78,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Never off duty",
-        "text": "Whenever the work ends, you find a reason to stay on duty. Being needed feels more solid than being free, so a day off turns into waiting for a call. You would do well to remember that the rest you refuse does not wait."
+        "text": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You refuse the rest that no one else can take for you."
       },
       "original": {
         "word": "Heavy-handed",
@@ -95,7 +95,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Never off duty",
-        "text": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, so your attention stays on the next problem. You were wanted off duty more than on it, and that is worth remembering."
+        "text": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, and your attention goes to the next problem. Do not forget that you were wanted off duty more than on it."
       },
       "original": {
         "word": "Heavy-handed",
@@ -112,7 +112,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Shuts people out",
-        "text": "You shut people out before they get close enough to press on you. Your own pressure is plenty, so shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it."
+        "text": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it."
       },
       "original": {
         "word": "Grinding",
@@ -129,7 +129,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Shuts people out",
-        "text": "Where help is offered, you shut it out kindly. Being pressed by no one suits you better than being helped, so you carry what was meant for two. It is worth keeping in mind that you pay alone for each hand you refuse."
+        "text": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away."
       },
       "original": {
         "word": "Grinding",
@@ -146,7 +146,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Shuts people out",
-        "text": "Reaching for you is pressure too, so you shut out the people who try. Being alone matters more than being understood, and you shut the door hardest on the ones closest. What you should remember is that you leave them outside without a reason."
+        "text": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
       },
       "original": {
         "word": "Grinding",
@@ -163,7 +163,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Follows every rule",
-        "text": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, so you follow rules written for someone else. Bear in mind that you can keep order without keeping every rule."
+        "text": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make."
       },
       "original": {
         "word": "Slow-moving",
@@ -180,7 +180,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Follows every rule",
-        "text": "Whenever a rule and a chance pull apart, you keep to the rule. Being in order matters more than being lucky, so you pass on chances that need a rule stretched. It is worth remembering that you hand those openings to rules nobody checks."
+        "text": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks."
       },
       "original": {
         "word": "Slow-moving",
@@ -197,7 +197,7 @@
       "field": "ledger[2]",
       "candidate": {
         "word": "Follows every rule",
-        "text": "You follow rules even with the people who need an exception. Being fair by the book feels more solid than being kind off it, so you hand them policy instead of a decision. Do not forget that you were asked for your judgment first."
+        "text": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself."
       },
       "original": {
         "word": "Slow-moving",
@@ -214,7 +214,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Waits for permission",
-        "text": "You wait for permission to take what is already yours. Being approved counts for more with you than being first, so you sit on a plan until someone signs it. You are allowed to give yourself that permission, and that is worth remembering."
+        "text": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You give the plan's best months to waiting, and that is worth noticing."
       },
       "original": {
         "word": "Rule-bound",
@@ -231,7 +231,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Waits for permission",
-        "text": "Where a raise is there for the asking, you wait for permission. Being handed a thing feels more earned than claiming it, so you wait on an offer waiting on you. Remember that you never got the raise you never asked for."
+        "text": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year."
       },
       "original": {
         "word": "Rule-bound",
@@ -248,7 +248,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Waits for permission",
-        "text": "You wait for permission for everyone who waits on you. Being cleared from above feels more proper than moving on your own say, so you keep the people behind you waiting too. Keep in mind that your wait lands on them without their asking."
+        "text": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking."
       },
       "original": {
         "word": "Rule-bound",
@@ -265,7 +265,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Slow to change",
-        "text": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, so a new way must earn years before it gets a week. Staying the same is a choice too, and its price is worth remembering."
+        "text": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given."
       },
       "original": {
         "word": "Set-in-stone",
@@ -282,7 +282,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Slow to change",
-        "text": "Whenever something needs changing, you change it last. Keeping what you know feels more like safety than finding out, so you stay in a job long past liking it. It is worth keeping in mind that a year spent deciding is a year spent staying."
+        "text": "Whenever something needs changing, you change it last. You would sooner keep what you know than find out what else there is, and you stay in a job you stopped liking for years. Remember how you spend each deciding year staying put."
       },
       "original": {
         "word": "Set-in-stone",
@@ -299,7 +299,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Slow to change",
-        "text": "Even for those who need you to, you change slowly. Keeping things the same feels more fair than changing for one person, so you keep that person waiting. What you should remember is that you make them live the old way while you decide."
+        "text": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting. Keep sight of how you make them live the old way while you decide."
       },
       "original": {
         "word": "Set-in-stone",
@@ -333,7 +333,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Talks back",
-        "text": "Your self-respect runs on talking back. Because giving in feels like losing yourself, you argue ahead of asking what the rule is for. You already know that the chances you talked yourself out of were the ones you wanted most."
+        "text": "Your self-respect runs on talking back. Giving in would mean losing yourself, and you would rather talk back than ask what the rule is for. Each time you talk back, you also turn away help that would have grown your talent."
       },
       "original": {
         "word": "Chaotic",
@@ -367,7 +367,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Shows off",
-        "text": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off ahead of fitting in. It is worth remembering that showing off trades closeness for being admired, and you wanted the closeness more."
+        "text": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off rather than fit in. You collect praise with each show, and a quiet hour with one friend gives you what praise cannot."
       },
       "original": {
         "word": "Sprawling",
@@ -384,7 +384,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Shows off",
-        "text": "Showing off is how you check you exist in a group. Because being ordinary feels like being invisible, you perform ahead of resting, even with no show asked for. Never forget that you run every show on the rest you skipped for it."
+        "text": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. With a show always running, you never find out how much you are liked as you are."
       },
       "original": {
         "word": "Sprawling",
@@ -401,7 +401,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Shows off",
-        "text": "Most of your showing off goes to the people who love you. Because applause is easier to feel than closeness, you give them a performance instead of a talk. You know who came for you and got the show, and that is their cost."
+        "text": "Most of your showing off goes to the people who love you. Because you feel applause more easily than closeness, you put on a show for them instead of talking. In place of a plain hour together, you give them a show."
       },
       "original": {
         "word": "Sprawling",
@@ -418,7 +418,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Goes too far",
-        "text": "Going too far is where you feel alive. A fine moment asks to be pushed one step past fine, so you push ahead of stopping while it works. Just remember that going too far is how you lose the moment you started from."
+        "text": "Going too far is where you feel alive. You need a thing to be more than fine, so you go one step too far instead of stopping while it works. Just remember that going too far is how you lose the moment you started from."
       },
       "original": {
         "word": "Defiant",
@@ -435,7 +435,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Goes too far",
-        "text": "Making sure a thing was done means going too far. Because stopping at enough feels like wasting talent, you push past it ahead of resting. You pay each step past enough with the strength you needed tomorrow, and you never quite forget it."
+        "text": "Making sure a thing was done means going too far. To you, stopping at enough wastes talent, so you go past it instead of resting. Past enough, you trade the good version you had for one you like less."
       },
       "original": {
         "word": "Defiant",
@@ -452,7 +452,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Goes too far",
-        "text": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and that agreement is yours to keep."
+        "text": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and the stop is yours to keep."
       },
       "original": {
         "word": "Defiant",
@@ -486,7 +486,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Coasts along",
-        "text": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. You already know what you coast past is the finish, and the finish is where your talent gets seen."
+        "text": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. Coasting past the finish costs you the joy of a thing done, the pleasure you miss most."
       },
       "original": {
         "word": "Overripe",
@@ -520,7 +520,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Never says no",
-        "text": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You know that each yes is paid by a later you who never agreed to it."
+        "text": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes."
       },
       "original": {
         "word": "Lax",
@@ -537,7 +537,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Never says no",
-        "text": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. Remember that you pay for every no you never say in sleep."
+        "text": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. You lose sleep to each yes, and one no wins some of it back."
       },
       "original": {
         "word": "Lax",
@@ -554,7 +554,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Never says no",
-        "text": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give them agreement instead of your real answer. Do not forget that you owe them a real no as much as an easy yes."
+        "text": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give your family agreement instead of your real answer. You owe the people you love the honest no you never say."
       },
       "original": {
         "word": "Lax",
@@ -588,7 +588,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Comfort first",
-        "text": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. You buy comfort with chances you cannot buy back, and that is the part to remember."
+        "text": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. Count the good chances you let go by to stay comfortable, since few of them come back."
       },
       "original": {
         "word": "Overbooked",
@@ -622,7 +622,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Races in secret",
-        "text": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Keep in mind that you run every race you never named alone."
+        "text": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Bear in mind that every race you never named is one you run alone."
       },
       "original": {
         "word": "Undermining",
@@ -639,7 +639,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Races in secret",
-        "text": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud, and that is worth remembering."
+        "text": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud."
       },
       "original": {
         "word": "Undermining",
@@ -707,7 +707,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Spends shared money",
-        "text": "Each time you spend what was pooled, you spend someone else's decision. You move the pool rather than ask, and a partner finds their share smaller than before. You keep them in the pool with one question before spending, and that is easy to forget."
+        "text": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You keep them beside you with one question asked before you spend."
       },
       "original": {
         "word": "Envious",
@@ -724,7 +724,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Never enough",
-        "text": "Never enough is the rule under everything you win. The Water in you keeps rising with nowhere to land, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one."
+        "text": "Never enough is the rule under everything you win. Water keeps rising in you and never lands, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one."
       },
       "original": {
         "word": "Slippery",
@@ -741,7 +741,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Never enough",
-        "text": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings, and the gap is worth a look."
+        "text": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings."
       },
       "original": {
         "word": "Slippery",
@@ -877,7 +877,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Expects the same",
-        "text": "Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and that deserves a second look."
+        "text": "Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and few can match it for long."
       },
       "original": {
         "word": "Impenetrable",
@@ -928,7 +928,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Chases the new",
-        "text": "The newest thing is what you want. You have more Fire than your core feeds, and a fresh chance pulls you more than a half-done one holds you. You pay for each chase with the catch you already had, and that is easy to forget."
+        "text": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of."
       },
       "original": {
         "word": "Flash-chasing",
@@ -945,7 +945,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Chases the new",
-        "text": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. You lose the money at the end, since it only comes with staying, and that is the part to remember."
+        "text": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. Each time you leave early, you lose the money at the end, and that money is why you chase."
       },
       "original": {
         "word": "Flash-chasing",
@@ -979,7 +979,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Spends it fast",
-        "text": "Spending fast is your reflex. The Fire in you runs ahead of what feeds it, and spending feels like living while saving feels like waiting. Bear in mind that fast spending is how you feel the moment, and the moment is all it buys."
+        "text": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. Bear in mind that fast spending is how you live in the moment, and the moment is all it buys."
       },
       "original": {
         "word": "Big spender",
@@ -1013,7 +1013,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Spends it fast",
-        "text": "You spend fast on the people you love, big gesture first. Giving them the moment matters more to you than giving them the month, so your family carries the gap. You leave them the gap once the treat is gone, something worth keeping in mind."
+        "text": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back."
       },
       "original": {
         "word": "Big spender",
@@ -1029,8 +1029,8 @@
       "cell": "火_偏财",
       "field": "ledger[6]",
       "candidate": {
-        "word": "Drops things halfway",
-        "text": "Halfway is where you drop things. The start gives you the rush, the middle gives you nothing, and you drop the half-done thing rather than push through it. Notice that you leave at the exact point where the work was about to pay."
+        "word": "Looks past home",
+        "text": "Looking past home comes easily to you. The next venture feels like where your life begins, so you look ahead at what might come rather than at what is here. You are already living the life you look past."
       },
       "original": {
         "word": "Flighty",
@@ -1046,8 +1046,8 @@
       "cell": "火_偏财",
       "field": "ledger[7]",
       "candidate": {
-        "word": "Drops things halfway",
-        "text": "Dropping things halfway means you never learn their worth. You would rather feel a fresh start than a slow middle, and the ending stays a story to you. Keep this close, that you lose the whole return on a venture by dropping its second half."
+        "word": "Looks past home",
+        "text": "Whenever you look past home, you save your best for what comes next. You would rather look toward somewhere new than settle where you already are. You miss the rest your own home was built to give you."
       },
       "original": {
         "word": "Flighty",
@@ -1063,8 +1063,8 @@
       "cell": "火_偏财",
       "field": "ledger[8]",
       "candidate": {
-        "word": "Drops things halfway",
-        "text": "Whenever you drop something halfway, you leave the rest to your partners. Starting fresh feels better to you than finishing with them, since the middle bores you. You spend their patience on every half you leave behind, and that is worth remembering."
+        "word": "Looks past home",
+        "text": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
       },
       "original": {
         "word": "Flighty",
@@ -1132,7 +1132,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Plays it safe",
-        "text": "Playing it safe is your first answer. A small sure thing beats a big maybe, since losing what you have scares you more than missing out. You buy the safe feeling with every chance that needed a risk, a trade worth remembering."
+        "text": "Playing it safe is your first answer. You would rather keep a small sure thing than try for a big maybe, because being safe is what lets you rest. Every time you play it safe, you are also picking which chance to miss."
       },
       "original": {
         "word": "Anxious",
@@ -1149,7 +1149,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Plays it safe",
-        "text": "Safe costs you the chance that never comes back. You would rather keep the sure thing than reach for the bigger one, and the better offer goes elsewhere. You lose the bigger return each time you take the sure one, a price easy to forget."
+        "text": "What you already have feels too precious to risk. Reaching for more feels like gambling, and you take the sure thing instead of the bigger one. Over the years, you give up more in missed chances than playing it safe ever saves you."
       },
       "original": {
         "word": "Anxious",
@@ -1166,7 +1166,7 @@
       "field": "ledger[5]",
       "candidate": {
         "word": "Plays it safe",
-        "text": "You play it safe with love as much as money. Being sure of someone comes before being close for you, so you hold the warmth back until it is safe. Worth noticing that you make your partner earn what you could simply give."
+        "text": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, so your partner's bigger ideas wait. You lose little safety by saying yes to one small shared plan a year."
       },
       "original": {
         "word": "Anxious",
@@ -1183,7 +1183,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Holds back",
-        "text": "Holding back is your first instinct with warmth and money both. Giving the whole of yourself feels like spending the last of something, and you give a careful portion rather than the full amount. Notice that what you hold back mostly goes unused."
+        "text": "Without deciding to, you hold back warmth and money. Giving the whole of yourself feels like spending the last of something, and you give a careful portion rather than the full amount. You hold back more than you need to feel safe."
       },
       "original": {
         "word": "Overcareful",
@@ -1200,7 +1200,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Holds back",
-        "text": "Keeping yourself back spares you hurt and costs you being known. You would rather be safe than close, and the version on offer is a guarded one. Remember that the closeness itself is what you lose, since what you keep back cannot be held."
+        "text": "Keeping yourself back spares you hurt and costs you being known. You would rather hold back part of yourself than give the whole, so you stay half known. Remember that the closeness itself is what you lose, since what you keep back cannot be held."
       },
       "original": {
         "word": "Overcareful",
@@ -1217,7 +1217,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Holds back",
-        "text": "You hold back most with the people closest to you. You keep a reserve rather than give it all, and your partner gets the careful share only. Never forget that you leave them guessing at warmth you have and keep."
+        "text": "You hold back hardest where you love most. You keep a reserve rather than give it all, and your partner gets the careful share only. Never forget that you leave them guessing at warmth you have and keep."
       },
       "original": {
         "word": "Overcareful",
@@ -1336,7 +1336,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Hard to reach",
-        "text": "Hard to reach is what you become when a thought is unfinished. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. Keep in mind that you will find the thought again sooner than the person."
+        "text": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping."
       },
       "original": {
         "word": "Shut-in",
@@ -1353,7 +1353,7 @@
       "field": "ledger[7]",
       "candidate": {
         "word": "Hard to reach",
-        "text": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and you know it each time the phone rings out."
+        "text": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and every call you let ring out proves it."
       },
       "original": {
         "word": "Shut-in",
@@ -1370,7 +1370,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Hard to reach",
-        "text": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands on them as the answer. You were needed for a minute, and the thought would have waited."
+        "text": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands as the answer. Each time you give the minute first, you find the thought waiting when you come back."
       },
       "original": {
         "word": "Shut-in",
@@ -1404,7 +1404,7 @@
       "field": "ledger[1]",
       "candidate": {
         "word": "Stays the student",
-        "text": "Staying the student keeps you safe and small. One more lesson suits you better than being judged on what you know, and you watch your place fill with someone who felt ready sooner. Remember that you feel ready only after you start."
+        "text": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. Remember that you lose the place meant for you to someone who felt ready sooner."
       },
       "original": {
         "word": "Detached",
@@ -1421,7 +1421,7 @@
       "field": "ledger[2]",
       "candidate": {
         "word": "Stays the student",
-        "text": "While you stay the student, the people who need you wait. You sit under a wing instead of being one, and the ones who need your knowledge get apologies. You were asked for what you know now, and you keep offering next year's version."
+        "text": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it."
       },
       "original": {
         "word": "Detached",
@@ -1455,7 +1455,7 @@
       "field": "ledger[4]",
       "candidate": {
         "word": "Too protective",
-        "text": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and tired sits easier with you than watching them hurt. You trade your rest for a lesson they never get, and that is worth remembering."
+        "text": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. Bear in mind, you trade your own rest for a lesson they never get to learn."
       },
       "original": {
         "word": "Formal",
@@ -1523,7 +1523,7 @@
       "field": "ledger[8]",
       "candidate": {
         "word": "Loves by correcting",
-        "text": "Correcting is what you give people who came to be comforted. Right feels more loving to you than warm, and you hand a lesson to someone who wanted a hug. You were handed a wish for warmth, and the correction was never on the list."
+        "text": "Correcting is what you give people wanting comfort. You would rather set people straight than let them be, and you send them home taught instead of held. Each time you hold a lesson back, you let through the warmth it stood in front of."
       },
       "original": {
         "word": "Locked-away",

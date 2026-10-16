@@ -66,7 +66,7 @@
     "element": "Wood",
     "notes": "opens on a plain statement of the state in the reader's terms (Wood named, its volume in ordinary words, the reference lead-in \"With too much Wood, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
    },
-   "value": "With too much Wood, the forest drinks faster than the rain can fall, and the source runs low under all that green. Sleep on one thing you meant to say."
+   "value": "With too much Wood, the forest drinks faster than the rain can fall, and every word you give away leaves you drier. Sleep on one thing you meant to say."
   },
   "carry.friction": {
    "spec": {
@@ -114,7 +114,7 @@
     "notes": "Wood is wanted and abundant: the plentiful line, opening with one of the eight wide openers, no door metaphor; the remedy tells the reader to use it"
    },
    "value": {
-    "clause": "Wood is easy for you to reach, the green the rain is for.",
+    "clause": "Wood is easy for you to reach, and the rain in you keeps it growing.",
     "remedy": "Use it. Make one thing a week and show it."
    }
   },
@@ -134,8 +134,8 @@
     "notes": "Wood wanted and absent: borrow it"
    },
    "value": {
-    "clause": "Nothing grows on the water, so what you know stays inside with no way out.",
-    "remedy": "Borrow it. Write one page a day or make one small thing."
+    "clause": "No green rises from your water, and the days pass with nothing new to show for them.",
+    "remedy": "Borrow it. Sit in on a class or make beside a friend."
    }
   },
   "carry.spared": {
@@ -194,8 +194,8 @@
     "notes": "Wood dominant: the cell's excess idiom in English, never quoted"
    },
    "value": {
-    "clause": "The forest has outgrown its water, and the source shrinks with every new thing you make.",
-    "remedy": "Make less. Sleep more and read before you write."
+    "clause": "Wood grows thick while the water under it sinks lower with each thing you start.",
+    "remedy": "Start nothing new for a month. Rest and let yourself fill up."
    },
    "_trace": "the cell's excess idiom, Wood flourishing while the water shrinks, said in English"
   },
@@ -216,7 +216,7 @@
     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
     "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Wood and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
    },
-   "value": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, the gate opens too rarely. You keep your care and your talent in rather than risk them, and stay unknown to the people you love."
+   "value": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea, and you let your family see only half of you."
   },
   "function.definition_friction": {
    "spec": {
@@ -247,7 +247,7 @@
     "remedy_gloss": "Channel: an outlet, an action that spends the excess (make, ship, say, lift, walk, cut); never a brake (the band's remedy verb, REA_02 §5c; no chart is attached: the catalyst pole of the Expression is the Overfueled band's case (the core has more than it channels))",
     "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), three or four, ending on the smallest, no aphorism close; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
    },
-   "value": "Nothing you keep inside gets safer with time. Give the thing you made to someone before you think it is finished. Say the kind thought on the day you have it. Read one page you wrote to a child or a friend. Send the text without rereading it."
+   "value": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it."
   },
   "function.advise_friction": {
    "spec": {
@@ -278,7 +278,7 @@
     "notes": "explains \"Wood is your Expression\": a behavioural truth with the reader as its subject plus ONE tendency-framed consequence beat, true on either pole, the tension inside the one sentence where it can be; at least eight words, no arena word, no turn word (but, yet, however), no more than two commas (owner 2026-10-14, v0.7.1)"
    },
    "value": "You put more into what you make than you ever say about it, and what you make usually outgrows the plan.",
-   "value_b": "You would rather show a thing than explain it, and most of your best ideas reach people as something made."
+   "value_b": "You would rather grow an idea in the open than perfect it alone, and what you share early usually keeps growing long after you let it go."
   }
  }
 }

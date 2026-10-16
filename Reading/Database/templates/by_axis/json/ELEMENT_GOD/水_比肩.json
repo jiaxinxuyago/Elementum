@@ -16,14 +16,14 @@
     "k2_functional": "Your energy runs in currents: even output for weeks, then a quiet season to refill the source.",
     "adj_chips": {
       "catalyst": [
-        "Self-contained",
-        "Even-keeled",
-        "Independent"
+        "Carries own weight",
+        "Even pace",
+        "Decides alone"
       ],
       "friction": [
-        "Cold-running",
-        "Isolated",
-        "Impenetrable"
+        "Hard to reach",
+        "Never asks",
+        "Expects the same"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Self-contained",
+            "word": "Carries own weight",
             "angles": {
-              "drive": "You carry your own weather system. Mood, motivation, entertainment, repair: all generated onboard, no docking required. Days alone pass without friction, and company, when chosen, is a preference rather than a need. People sense the completeness and find it either restful or quietly unnerving.",
-              "cost_self": "The solo trip lasted eighteen days, and the postcards home were cheerful and unnecessary. You ate well, navigated fine, and had exactly the conversations you wanted, several with strangers, none from loneliness. Friends asked if it got hard. It got, you said accurately, quiet.",
-              "cost_others": "People stop worrying about you early in the acquaintance, sensing a system that maintains itself. You are nobody’s project and nobody’s dependent. The freedom this grants your relationships is enormous and mostly invisible: everyone who stays, stays for the company, not the maintenance contract."
+              "drive": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. If you carry it beside someone once, it gets lighter without getting smaller.",
+              "cost_self": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. Set one weight down with a peer, and the rest you never take comes back to you.",
+              "cost_others": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness sharing brings. You give them a way to matter to you each time you let them carry a little."
             }
           },
           {
-            "word": "Even-keeled",
+            "word": "Even pace",
             "angles": {
-              "drive": "Your levels hold. The praise does not inflate you, the setback does not sink you, and Tuesday-you is recognizably Friday-you. In a world of dramatic weather you are open water on a calm day, and people steer toward you when their own seas get theatrical.",
-              "cost_self": "You received the promotion email and the rejection letter in the same afternoon, and your dinner plans survived both unchanged. Your partner, telling the story later, could not remember which arrived first. Neither, notably, could you. The pasta was good. The week continued.",
-              "cost_others": "Teammates map their own volatility against your baseline, which has not moved in recorded history. In crises, the group instinctively checks your face before choosing a panic level, and your face declines to authorize one. Whole storms have been downgraded this way, repeatedly, to weather."
+              "drive": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. If you keep it through a crowded week, you arrive with something left.",
+              "cost_self": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. If you break the pace for one chance a season, you lose fewer quick chances to your own even pace.",
+              "cost_others": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a hurried friend walks a stretch alone. When you match theirs for one outing, you walk beside them rather than apart."
             }
           },
           {
-            "word": "Independent",
+            "word": "Decides alone",
             "angles": {
-              "drive": "You run your own race in your own lane at your own pace, and the pace is honest. Opinions get consulted and then decided past, help gets accepted without becoming structure, and your decisions, right or wrong, are recognizably yours. Ownership like that is rarer than talent.",
-              "cost_self": "You moved cities without a committee, changed careers on your own research, and told everyone after the deposits were paid. The announcements were calm and finished. Family learned years ago that input windows open before decisions, briefly, and that missing them is missing them.",
-              "cost_others": "People trust your choices with a specific confidence: whatever happens, you chose it, and you will handle it. Nobody hedges around you or manages your expectations. The respect is quiet and total, and it was purchased with years of never once outsourcing the blame."
+              "drive": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. If you ask one peer before the next big choice, you lose no speed and gain a second pair of eyes.",
+              "cost_self": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. Letting a friend read the next big plan first keeps your mistakes smaller than it.",
+              "cost_others": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. You hand them a say in what they live with by bringing one of them in early."
             }
           }
         ]
@@ -93,27 +93,27 @@
       "friction": {
         "ledger": [
           {
-            "word": "Cold-running",
+            "word": "Hard to reach",
             "angles": {
-              "drive": "Your warmth exists and runs deep and rarely surfaces where people can feel it. The care comes out as errands, the affection as usefulness, and the words themselves stay below. People eventually stop swimming down to check. The temperature at the surface is what they live with.",
-              "cost_self": "Your partner mentioned, quietly, that you had not said anything warm in some weeks. You had fixed the brakes, renewed the insurance, and prepaid the winter heating that same month. You cited these. There was a silence in which both of you were right, and only one warm.",
-              "cost_others": "People describe you as reliable first and affectionate somewhere after the pause. The love is inferred from your actions the way deep currents are inferred from instruments: real, documented, unfelt on the skin. Some loved ones adjusted. The ones who needed sun moved toward it, elsewhere."
+              "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you are only warm to the people who can reach you.",
+              "cost_self": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own.",
+              "cost_others": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You only get answered where you let yourself be reached, and that is worth remembering."
             }
           },
           {
-            "word": "Isolated",
+            "word": "Never asks",
             "angles": {
-              "drive": "Your self-sufficiency built a shoreline nobody lands on anymore. The company you technically enjoy gets postponed, the calls ring out, and the distance, initially a preference, has become the geography. You are fine, genuinely. Fine, and further out than anyone can comfortably swim.",
-              "cost_self": "The last name in your call log is eleven days old and belongs to a delivery service. The weekend held reading, a long walk, good coffee, and no voices. You noticed the quiet the way you notice weather: fully, neutrally, and without doing anything about it.",
-              "cost_others": "Friends debated whether to worry and settled on a rotation of light check-ins, which you answer promptly and pleasantly, closing each door as gently as it was opened. Nobody can locate a problem. There is just an ocean where a neighborhood used to be, and it is widening."
+              "drive": "Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck.",
+              "cost_self": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. It helps to remember that you lose the rest along with the help you never asked for.",
+              "cost_others": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. Do not forget that you keep a peer at a distance every time you refuse their help."
             }
           },
           {
-            "word": "Impenetrable",
+            "word": "Expects the same",
             "angles": {
-              "drive": "Nothing gets in past the surface. Feedback beads up and rolls off, affection finds no porous surface, and the hard conversations everyone rehearses with you simply do not land: you agree, calmly, and remain exactly as you were. The consistency is impressive. It is also the wall.",
-              "cost_self": "The intervention was loving and well-prepared, three people who care, specific examples, warm intent. You listened fully, thanked them sincerely, and changed nothing, without any spite in it, because nothing had, as far as you could tell, actually touched anything. They compare notes still, baffled.",
-              "cost_others": "People who love you describe conversations with you as skipping stones: beautiful contact, no entry. Over the years they have stopped throwing. What remains is pleasant and shallow by mutual, unspoken arrangement, and everyone involved calls it peace, in the tone reserved for treaties."
+              "drive": "Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and few can match it for long.",
+              "cost_self": "Rarely let down, you hold everyone to the same standard. Water runs deep and stays hidden, and you would rather keep your own rule than lower it for company. You lose a lot of good company while waiting for the perfect match.",
+              "cost_others": "Whenever you expect the same from a peer, you hand them your standard without asking for theirs. You judge their effort by your own rather than by what they had to give. Since the standard is yours, you are the one who can lower it."
             }
           }
         ]
@@ -137,6 +137,246 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Self-contained"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Even-keeled"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Independent"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Cold-running"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Isolated"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Impenetrable"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Self-contained"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You carry your own weather system. Mood, motivation, entertainment, repair: all generated onboard, no docking required. Days alone pass without friction, and company, when chosen, is a preference rather than a need. People sense the completeness and find it either restful or quietly unnerving."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The solo trip lasted eighteen days, and the postcards home were cheerful and unnecessary. You ate well, navigated fine, and had exactly the conversations you wanted, several with strangers, none from loneliness. Friends asked if it got hard. It got, you said accurately, quiet."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People stop worrying about you early in the acquaintance, sensing a system that maintains itself. You are nobody’s project and nobody’s dependent. The freedom this grants your relationships is enormous and mostly invisible: everyone who stays, stays for the company, not the maintenance contract."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Even-keeled"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your levels hold. The praise does not inflate you, the setback does not sink you, and Tuesday-you is recognizably Friday-you. In a world of dramatic weather you are open water on a calm day, and people steer toward you when their own seas get theatrical."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You received the promotion email and the rejection letter in the same afternoon, and your dinner plans survived both unchanged. Your partner, telling the story later, could not remember which arrived first. Neither, notably, could you. The pasta was good. The week continued."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Teammates map their own volatility against your baseline, which has not moved in recorded history. In crises, the group instinctively checks your face before choosing a panic level, and your face declines to authorize one. Whole storms have been downgraded this way, repeatedly, to weather."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Independent"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You run your own race in your own lane at your own pace, and the pace is honest. Opinions get consulted and then decided past, help gets accepted without becoming structure, and your decisions, right or wrong, are recognizably yours. Ownership like that is rarer than talent."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You moved cities without a committee, changed careers on your own research, and told everyone after the deposits were paid. The announcements were calm and finished. Family learned years ago that input windows open before decisions, briefly, and that missing them is missing them."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People trust your choices with a specific confidence: whatever happens, you chose it, and you will handle it. Nobody hedges around you or manages your expectations. The respect is quiet and total, and it was purchased with years of never once outsourcing the blame."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Cold-running"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your warmth exists and runs deep and rarely surfaces where people can feel it. The care comes out as errands, the affection as usefulness, and the words themselves stay below. People eventually stop swimming down to check. The temperature at the surface is what they live with."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your partner mentioned, quietly, that you had not said anything warm in some weeks. You had fixed the brakes, renewed the insurance, and prepaid the winter heating that same month. You cited these. There was a silence in which both of you were right, and only one warm."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People describe you as reliable first and affectionate somewhere after the pause. The love is inferred from your actions the way deep currents are inferred from instruments: real, documented, unfelt on the skin. Some loved ones adjusted. The ones who needed sun moved toward it, elsewhere."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Isolated"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your self-sufficiency built a shoreline nobody lands on anymore. The company you technically enjoy gets postponed, the calls ring out, and the distance, initially a preference, has become the geography. You are fine, genuinely. Fine, and further out than anyone can comfortably swim."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The last name in your call log is eleven days old and belongs to a delivery service. The weekend held reading, a long walk, good coffee, and no voices. You noticed the quiet the way you notice weather: fully, neutrally, and without doing anything about it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Friends debated whether to worry and settled on a rotation of light check-ins, which you answer promptly and pleasantly, closing each door as gently as it was opened. Nobody can locate a problem. There is just an ocean where a neighborhood used to be, and it is widening."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Impenetrable"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Nothing gets in past the surface. Feedback beads up and rolls off, affection finds no porous surface, and the hard conversations everyone rehearses with you simply do not land: you agree, calmly, and remain exactly as you were. The consistency is impressive. It is also the wall."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The intervention was loving and well-prepared, three people who care, specific examples, warm intent. You listened fully, thanked them sincerely, and changed nothing, without any spite in it, because nothing had, as far as you could tell, actually touched anything. They compare notes still, baffled."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/水_比肩.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People who love you describe conversations with you as skipping stones: beautiful contact, no entry. Over the years they have stopped throwing. What remains is pleasant and shallow by mutual, unspoken arrangement, and everyone involved calls it peace, in the tone reserved for treaties."
     }
   ]
 }

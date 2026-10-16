@@ -15,7 +15,7 @@
     {
       "cell": "水_木",
       "field": "mechanism.friction_turn",
-      "candidate": "With too much Wood, the forest drinks faster than the rain can fall, and the source runs low under all that green. Sleep on one thing you meant to say.",
+      "candidate": "With too much Wood, the forest drinks faster than the rain can fall, and every word you give away leaves you drier. Sleep on one thing you meant to say.",
       "original": "Run heavy, the rain never closes: every still thing gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest.",
       "gate": "pass"
     },
@@ -29,7 +29,7 @@
     {
       "cell": "水_火",
       "field": "mechanism.friction_turn",
-      "candidate": "Too much Fire and the water heats through: every warm chance taken at once, the deep boiling off faster than rain can fill it back. Sleep two nights on anything that shines.",
+      "candidate": "There is more Fire than your water can put out. The rain goes up in steam, and each venture you light spends some of the deep. Keep half of what every chase brings home.",
       "original": "Run heavy, the water starts to boil: depth spent on every bright flare, nothing left cool for the long game. Cool it overnight before you move.",
       "gate": "pass"
     },

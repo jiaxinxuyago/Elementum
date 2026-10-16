@@ -16,14 +16,14 @@
     "k2_functional": "You think by refinement: melt the claim, pour off error, keep the metal.",
     "adj_chips": {
       "catalyst": [
-        "Fine-tuned",
-        "Selective",
-        "Ingenious"
+        "Tests everything",
+        "Rarely fooled",
+        "Thinks alone"
       ],
       "friction": [
-        "Cryptic",
-        "Hair-splitting",
-        "Shut-in"
+        "Never done checking",
+        "Too exact",
+        "Hard to reach"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Fine-tuned",
+            "word": "Tests everything",
             "angles": {
-              "drive": "Your mind runs at tolerances other people cannot perceive. The half-degree shift in a colleague’s tone, the number that is slightly off in a healthy report, the note out of place: your instruments register it all, early, while the dashboard still shows green.",
-              "cost_self": "You flagged the contract’s odd clause at the first read, one comma-deep in page thirty, and the lawyer’s follow-up confirmed what your calibration had already priced: the clause was the deal. Everyone else had read the same page. Their instruments simply do not go that fine.",
-              "cost_others": "People run important things past you the way studios run final masters past the golden-eared engineer, for the flaws nobody else can hear. Your catches have saved deals, hires, and one marriage, each time via a detail everyone had seen and only you had registered."
+              "drive": "You test everything before you let it in. A fact only becomes yours once tried against something real, and that puts testing ahead of simply learning. Keep the slow filter, and what you know stays yours for good.",
+              "cost_self": "Testing everything costs you time. Slow and sure means more to you than quick and wrong, so most of your learning starts late. Let one good teacher skip the test, because every hour spent proving the known is an hour not spent learning the new.",
+              "cost_others": "Whenever someone hands you a fact, you test it in front of them. Trying it yourself matters more than being agreeable, and whoever offered it gets a question instead of thanks. If you test it later in private, you keep both fact and goodwill."
             }
           },
           {
-            "word": "Selective",
+            "word": "Rarely fooled",
             "angles": {
-              "drive": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer.",
-              "cost_self": "From forty applications you pulled three names in one evening, and the hire, made from your three, is now running the department. The panel spent two weeks reaching the shortlist you reached before dinner. Nobody can extract your criteria. You suspect they would not transfer.",
-              "cost_others": "People borrow your taste when their own stakes rise: which offer, which school, which surgeon. You answer with questions first, then a quiet ranking that later proves prophetic at rates that should embarrass the professionals involved. Your recommendations have a resale value. Everyone knows it but you."
+              "drive": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the proof. When a kind person proves your doubt wrong, being fooled by kindness is a loss worth taking.",
+              "cost_self": "Rarely fooled, you are slow to be glad. You check an offer for the catch before letting it near, and would rather miss a good thing than be fooled. Once you take an offer at its word, you get back what your doubt sends away.",
+              "cost_others": "You check an honest word as closely as a false one. Being hard to fool counts for more with you than being easy company, and you make a truthful person prove it twice. You keep more honest company with every first answer you let stand."
             }
           },
           {
-            "word": "Ingenious",
+            "word": "Thinks alone",
             "angles": {
-              "drive": "Your solutions arrive from angles that were not on the diagram. The mechanism repurposed, the rule read sideways, the tool used against its manual: what you build works for reasons that take other people a whiteboard to reconstruct. Cleverness is common. Yours has machining marks.",
-              "cost_self": "The workshop door that defeated three contractors got fixed by you in an afternoon with a bicycle part and a magnet, a solution that has now held for four years and been photographed by two of the contractors. One asked permission to use it commercially. You waved it through.",
-              "cost_others": "Colleagues have stopped saying that will not work before your prototypes finish, having eaten the sentence too often. Your fixes look wrong until they run. The patent attorney who reviewed one, as a favor, sent back a note with a single underlined sentence: file this one."
+              "drive": "Your best thinking happens alone. You need quiet for a half-formed idea more than an audience, so you shut the door until it is whole. Each time you bring one person in at the halfway point, you keep the quiet and lose only the loneliness.",
+              "cost_self": "Thinking alone keeps the idea clean. You would rather carry a hard question alone than let anyone see it unsolved, and help only reaches a problem someone has heard about. Once you tell one person early, help you have done without starts arriving.",
+              "cost_others": "Your thinking stays private until it is a result for others. Working it out alone comes easier to you than together, and the people near you get only the conclusion. When the door opens earlier, you give them a say in the deciding."
             }
           }
         ]
@@ -93,27 +93,27 @@
       "friction": {
         "ledger": [
           {
-            "word": "Cryptic",
+            "word": "Never done checking",
             "angles": {
-              "drive": "Your thinking exits in compressed form, when it exits at all. The one-word answer holding a paragraph, the eyebrow holding a memo, the decision announced without its reasoning attached. People decode you like weather instruments, approximately, and the misreadings compound while the originals stay filed inside.",
-              "cost_self": "Your reply to the six-paragraph proposal was two words: not yet. The team spent a week interpreting them, generating four theories, three of them wrong. The right theory, which you could have typed in a minute, eventually surfaced in a hallway, secondhand, wearing someone else’s name.",
-              "cost_others": "People spend real energy translating you, and the translation layer has become its own small bureaucracy: colleagues who explain what you meant, partners who interpret your silences for the children. You experience yourself as clear. The evidence experiences you as a cipher with a good heart."
+              "drive": "You are never done checking. Letting a thing out early feels like a mistake you cannot undo, so you check once more rather than hand it over. Remember that you stopped finding errors long ago and now check for comfort.",
+              "cost_self": "Checking a thing again feels safer than handing it in. You would rather send it late and right than early and good enough, and the late ones mostly never go. You lose more chances to the extra check than to the errors it catches.",
+              "cost_others": "Whenever someone asks, you reply only once the answer is fully checked. Late sits easier with you than wrong, and you leave whoever asked waiting on your standard instead of your reply. You owe them a rough version now more than a right one later."
             }
           },
           {
-            "word": "Hair-splitting",
+            "word": "Too exact",
             "angles": {
-              "drive": "Distinctions multiply under your attention until nothing can be simply true. The almost-right word gets corrected mid-thanks, the good plan dies of a thousand refinements, and conversations with you develop footnotes. Precision was the gift. Somewhere it became the tax everyone pays to talk to you.",
-              "cost_self": "The team agreed in minute five, and the remaining fifty-five minutes were spent on your distinction between broadly aligned and aligned, a distinction with real content and no consequence. The decision shipped identical to draft one. Four people billed the hour. Two of them aged.",
-              "cost_others": "People pre-concede your corrections now, sprinkling technically into their sentences like offerings. The accuracy you enforce is real, and its price is visible in every meeting you join: the shoulders that drop slightly, the estimates that double quietly, the good-enough that will not survive the hour."
+              "drive": "Precision matters to you past the point of being followed. A near-enough answer feels like a small lie to you, so you give the precise one rather than the easy one. Most days you get one of exact or understood, and one is enough.",
+              "cost_self": "Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You wanted to be told more than you wanted it exact, and that is worth remembering.",
+              "cost_others": "Handed a rough idea, you give it back exact. You would rather fix the wording than hear what it was for, and the one who brought it gets a correction instead of a reply. You were handed it for hearing, and grading was never asked."
             }
           },
           {
-            "word": "Shut-in",
+            "word": "Hard to reach",
             "angles": {
-              "drive": "Your workshop became your world. The projects, the reading, the precise private hours: all of it arranged within reachable walls, while the outside gets handled through slots. Visits require recovery, calls require rehearsal, and the door, though never locked, has not been tested in months.",
-              "cost_self": "The last spontaneous social contact in your records was in the spring, a neighbor at the mailbox, four minutes, pleasant. Everything since has been scheduled, softened, or declined. The workshop light is on every evening. From the street it reads as cozy. From inside it reads as complete.",
-              "cost_others": "Friends have converted you into a letters-and-links relationship, affection maintained through screens at your evident preference. They speak of you warmly, in the past-adjacent tense reserved for lighthouse keepers and monks. The reunion invitations still arrive. Everyone, including you, knows the RSVP before it opens."
+              "drive": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping.",
+              "cost_self": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and every call you let ring out proves it.",
+              "cost_others": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands as the answer. Each time you give the minute first, you find the thought waiting when you come back."
             }
           }
         ]
@@ -137,6 +137,246 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Fine-tuned"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Selective"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Ingenious"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Cryptic"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Hair-splitting"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Shut-in"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Fine-tuned"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your mind runs at tolerances other people cannot perceive. The half-degree shift in a colleague’s tone, the number that is slightly off in a healthy report, the note out of place: your instruments register it all, early, while the dashboard still shows green."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You flagged the contract’s odd clause at the first read, one comma-deep in page thirty, and the lawyer’s follow-up confirmed what your calibration had already priced: the clause was the deal. Everyone else had read the same page. Their instruments simply do not go that fine."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People run important things past you the way studios run final masters past the golden-eared engineer, for the flaws nobody else can hear. Your catches have saved deals, hires, and one marriage, each time via a detail everyone had seen and only you had registered."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Selective"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "From forty applications you pulled three names in one evening, and the hire, made from your three, is now running the department. The panel spent two weeks reaching the shortlist you reached before dinner. Nobody can extract your criteria. You suspect they would not transfer."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People borrow your taste when their own stakes rise: which offer, which school, which surgeon. You answer with questions first, then a quiet ranking that later proves prophetic at rates that should embarrass the professionals involved. Your recommendations have a resale value. Everyone knows it but you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Ingenious"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your solutions arrive from angles that were not on the diagram. The mechanism repurposed, the rule read sideways, the tool used against its manual: what you build works for reasons that take other people a whiteboard to reconstruct. Cleverness is common. Yours has machining marks."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The workshop door that defeated three contractors got fixed by you in an afternoon with a bicycle part and a magnet, a solution that has now held for four years and been photographed by two of the contractors. One asked permission to use it commercially. You waved it through."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Colleagues have stopped saying that will not work before your prototypes finish, having eaten the sentence too often. Your fixes look wrong until they run. The patent attorney who reviewed one, as a favor, sent back a note with a single underlined sentence: file this one."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Cryptic"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your thinking exits in compressed form, when it exits at all. The one-word answer holding a paragraph, the eyebrow holding a memo, the decision announced without its reasoning attached. People decode you like weather instruments, approximately, and the misreadings compound while the originals stay filed inside."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your reply to the six-paragraph proposal was two words: not yet. The team spent a week interpreting them, generating four theories, three of them wrong. The right theory, which you could have typed in a minute, eventually surfaced in a hallway, secondhand, wearing someone else’s name."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People spend real energy translating you, and the translation layer has become its own small bureaucracy: colleagues who explain what you meant, partners who interpret your silences for the children. You experience yourself as clear. The evidence experiences you as a cipher with a good heart."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Hair-splitting"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Distinctions multiply under your attention until nothing can be simply true. The almost-right word gets corrected mid-thanks, the good plan dies of a thousand refinements, and conversations with you develop footnotes. Precision was the gift. Somewhere it became the tax everyone pays to talk to you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The team agreed in minute five, and the remaining fifty-five minutes were spent on your distinction between broadly aligned and aligned, a distinction with real content and no consequence. The decision shipped identical to draft one. Four people billed the hour. Two of them aged."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "People pre-concede your corrections now, sprinkling technically into their sentences like offerings. The accuracy you enforce is real, and its price is visible in every meeting you join: the shoulders that drop slightly, the estimates that double quietly, the good-enough that will not survive the hour."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Shut-in"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Your workshop became your world. The projects, the reading, the precise private hours: all of it arranged within reachable walls, while the outside gets handled through slots. Visits require recovery, calls require rehearsal, and the door, though never locked, has not been tested in months."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The last spontaneous social contact in your records was in the spring, a neighbor at the mailbox, four minutes, pleasant. Everything since has been scheduled, softened, or declined. The workshop light is on every evening. From the street it reads as cozy. From inside it reads as complete."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_GOD/金_偏印.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Friends have converted you into a letters-and-links relationship, affection maintained through screens at your evident preference. They speak of you warmly, in the past-adjacent tense reserved for lighthouse keepers and monks. The reunion invitations still arrive. Everyone, including you, knows the RSVP before it opens."
     }
   ]
 }

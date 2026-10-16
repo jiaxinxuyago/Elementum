@@ -27,14 +27,14 @@
             "word": "Keeps it going",
             "angles": {
               "drive": "Keeping a thing going is the warmest part of you. You would rather keep one thing warm for years than start many, since what lasts feels real to you. Keep it going as you do, and count the dull stretch as part of the work.",
-              "cost_self": "Keeping things going also keeps you in them too long. You would rather stay than leave, and you keep paying into what stopped paying you back. Ask once a year whether the thing still pays, and you keep your savings for the things that do.",
-              "cost_others": "You keep the love going like the lights, on time and every day. Reliable feels more like love to you than exciting does, so you give your partner steady warmth ahead of surprise. Plan one surprise a month, and the steadiness comes with some shine."
+              "cost_self": "Keeping something going also keeps you in it past its time. You would rather stay than leave, so you keep putting money into what no longer gives back. When you let go of what has stopped paying, you free your savings for what grows.",
+              "cost_others": "You keep love going on time and without fail. Reliable feels more like love to you than exciting does, so you give your partner steady warmth ahead of surprise. Give your partner one unplanned evening a month, since you already cover every other day."
             }
           },
           {
             "word": "Saves first",
             "angles": {
-              "drive": "Saving comes before spending for you, every time. Something put by is what lets you sleep, so you keep a little back rather than enjoy all of it now. Save first the way you do, and let the saving pay for one thing you want.",
+              "drive": "Saving comes before spending for you, every time. Something put by is what lets you sleep, so you keep a little back rather than enjoy all of it now. When you save first toward something you want, you get the treat and keep the sleep.",
               "cost_self": "Saving first means the fun always comes second. You choose covered rather than comfortable, and the treat you could afford never gets bought. If you give one saved sum a job you enjoy, the saving stops costing you the life it was for.",
               "cost_others": "You save first and ask the people at home to wait with you. You put being covered ahead of treating them, since you do the counting. Loosen one line of the budget for them, and your saving starts to feel like care."
             }
@@ -42,9 +42,9 @@
           {
             "word": "Shows up daily",
             "angles": {
-              "drive": "Showing up every day is how you love. Being there outranks being exciting for you, and you give the daily thing ahead of the grand one. Keep showing up, and say out loud once in a while that you chose to.",
+              "drive": "Showing up every day is how you love. Being there outranks being exciting for you, and you give the daily thing ahead of the grand one. If you say once in a while that you choose to show up, you keep it from becoming duty.",
               "cost_self": "The daily showing up costs you the rest you needed. You put reliable ahead of rested, so you show up on days you have nothing left to bring. Take one day off from showing up, and you bring more to the week after it.",
-              "cost_others": "You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. Ask once a week what your partner wants, and the showing up turns back into care."
+              "cost_others": "You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. Once you ask what your partner wants that week, you show up with the right thing."
             }
           }
         ]
@@ -62,17 +62,17 @@
           {
             "word": "Plays it safe",
             "angles": {
-              "drive": "Playing it safe is your first answer. A small sure thing beats a big maybe, since losing what you have scares you more than missing out. You buy the safe feeling with every chance that needed a risk, a trade worth remembering.",
-              "cost_self": "Safe costs you the chance that never comes back. You would rather keep the sure thing than reach for the bigger one, and the better offer goes elsewhere. You lose the bigger return each time you take the sure one, a price easy to forget.",
-              "cost_others": "You play it safe with love as much as money. Being sure of someone comes before being close for you, so you hold the warmth back until it is safe. Worth noticing that you make your partner earn what you could simply give."
+              "drive": "Playing it safe is your first answer. You would rather keep a small sure thing than try for a big maybe, because being safe is what lets you rest. Every time you play it safe, you are also picking which chance to miss.",
+              "cost_self": "What you already have feels too precious to risk. Reaching for more feels like gambling, and you take the sure thing instead of the bigger one. Over the years, you give up more in missed chances than playing it safe ever saves you.",
+              "cost_others": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, so your partner's bigger ideas wait. You lose little safety by saying yes to one small shared plan a year."
             }
           },
           {
             "word": "Holds back",
             "angles": {
-              "drive": "Holding back is your first instinct with warmth and money both. Giving the whole of yourself feels like spending the last of something, and you give a careful portion rather than the full amount. Notice that what you hold back mostly goes unused.",
-              "cost_self": "Keeping yourself back spares you hurt and costs you being known. You would rather be safe than close, and the version on offer is a guarded one. Remember that the closeness itself is what you lose, since what you keep back cannot be held.",
-              "cost_others": "You hold back most with the people closest to you. You keep a reserve rather than give it all, and your partner gets the careful share only. Never forget that you leave them guessing at warmth you have and keep."
+              "drive": "Without deciding to, you hold back warmth and money. Giving the whole of yourself feels like spending the last of something, and you give a careful portion rather than the full amount. You hold back more than you need to feel safe.",
+              "cost_self": "Keeping yourself back spares you hurt and costs you being known. You would rather hold back part of yourself than give the whole, so you stay half known. Remember that the closeness itself is what you lose, since what you keep back cannot be held.",
+              "cost_others": "You hold back hardest where you love most. You keep a reserve rather than give it all, and your partner gets the careful share only. Never forget that you leave them guessing at warmth you have and keep."
             }
           }
         ]

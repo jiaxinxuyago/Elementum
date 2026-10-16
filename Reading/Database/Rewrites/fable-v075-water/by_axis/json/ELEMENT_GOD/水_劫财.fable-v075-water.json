@@ -26,25 +26,25 @@
           {
             "word": "Loves a race",
             "angles": {
-              "drive": "A race gets all of you moving. You run on a small supply of Water, so you would rather chase a real person than follow a plan. Name one race a season out loud, and the racing feeds you more than it costs.",
-              "cost_self": "Racing is where you feel most alive. You have little Water, so you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you keep the stamina the next one needs.",
-              "cost_others": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. Tell them the race is on, and they get to run it with you."
+              "drive": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. When you name one race a season out loud, you come out of it fed rather than spent.",
+              "cost_self": "You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you bring full stamina to the next one.",
+              "cost_others": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. If you tell them the race is on, you run it together instead of alone."
             }
           },
           {
             "word": "Jumps in first",
             "angles": {
-              "drive": "Jumping in first is how you learn what a thing is really like. Water is short in you, and you would rather be inside a decision than stand beside it planning. Jump in where the stakes are shared, and the first mistake costs you half.",
-              "cost_self": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while the early mistakes come out of your savings. Read the plan first every third time, and you keep more of your own money.",
-              "cost_others": "Jumping first takes whoever shares your stakes in after you. You decide for both ahead of asking, and a partner finds the risk already taken in their name. Ask before you jump, and they go in beside you rather than after you."
+              "drive": "Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. If you jump in where stakes are shared, you pay half of the first mistake.",
+              "cost_self": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while early mistakes come out of your savings. When you read the plan first every third time, you hold on to more of your money.",
+              "cost_others": "Whenever you go first, you pull your partner in after you. You decide for both ahead of asking, and you take the risk in their name too. If you ask before you jump, you go in side by side."
             }
           },
           {
             "word": "All in together",
             "angles": {
-              "drive": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. Choose people who count as carefully as you trust, and going all in pays.",
-              "cost_self": "Inside a shared stake, you are at your bravest. A pooled stake feels like company, and all in feels better to you than keeping some back. Keep one share out of every pool, and you only ever lose what you can afford.",
-              "cost_others": "All in together means you take someone with you every time. You put the shared stake ahead of the question of whose it was, and a partner carries losses they never signed for. Agree the shares before the risk, and they stay a partner afterwards."
+              "drive": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. When you pick people who count as carefully as you trust, all in pays off.",
+              "cost_self": "Inside a shared stake, you feel your bravest. A pooled stake feels like company, and all in feels better to you than holding some back. If you keep one share out of every pool, you only ever lose what you can afford.",
+              "cost_others": "All in together means you take someone with you every time. You put the shared stake ahead of asking whose it was, and a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it."
             }
           }
         ]
@@ -54,8 +54,8 @@
           {
             "word": "Races in secret",
             "angles": {
-              "drive": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Keep in mind that you run every race you never named alone.",
-              "cost_self": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud, and that is worth remembering.",
+              "drive": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Bear in mind that every race you never named is one you run alone.",
+              "cost_self": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud.",
               "cost_others": "In secret, you make a friend a rival without telling them. You hide the race rather than risk them knowing, and they lose ground with no chance to answer. You signed them up for a race they never chose, and that is yours to remember."
             }
           },
@@ -64,14 +64,14 @@
             "angles": {
               "drive": "Spending shared money comes easier to you than spending your own. Shared money feels like courage, and you dip into it ahead of asking who put what in. You run the pool down faster than agreed, and slowing it is yours to do.",
               "cost_self": "Spending from the shared pot is the easiest money there is. More Water moves through you than you keep, so you pay for everyone's good time ahead of your savings. You come out with the least from a pot you paid the most into.",
-              "cost_others": "Each time you spend what was pooled, you spend someone else's decision. You move the pool rather than ask, and a partner finds their share smaller than before. You keep them in the pool with one question before spending, and that is easy to forget."
+              "cost_others": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You keep them beside you with one question asked before you spend."
             }
           },
           {
             "word": "Never enough",
             "angles": {
-              "drive": "Never enough is the rule under everything you win. The Water in you keeps rising with nowhere to land, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one.",
-              "cost_self": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings, and the gap is worth a look.",
+              "drive": "Never enough is the rule under everything you win. Water keeps rising in you and never lands, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one.",
+              "cost_self": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings.",
               "cost_others": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You call it done, and letting them stop counts as a win too."
             }
           }

@@ -15,7 +15,7 @@
     {
       "cell": "水_木",
       "field": "function.advise_catalyst",
-      "candidate": "Nothing you keep inside gets safer with time. Give the thing you made to someone before you think it is finished. Say the kind thought on the day you have it. Read one page you wrote to a child or a friend. Send the text without rereading it.",
+      "candidate": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it.",
       "original": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
       "gate": "pass"
     },
@@ -36,7 +36,7 @@
     {
       "cell": "水_金",
       "field": "function.advise_catalyst",
-      "candidate": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it and wait for the whole story. Sleep on any answer that matters. Write the question down before you reply.",
+      "candidate": "You decide faster than you learn, and the gap shows as answers you have to take back. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply.",
       "original": "Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
       "gate": "pass"
     }

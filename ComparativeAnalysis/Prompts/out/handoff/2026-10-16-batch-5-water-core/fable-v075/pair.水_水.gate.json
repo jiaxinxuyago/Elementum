@@ -60,7 +60,9 @@
   }
  },
  "blocking": [],
- "readFlags": [],
+ "readFlags": [
+  "function.definition_friction :: a causal joint present (because, so, since, this is why, whenever, until, over time, each time, the more, once, or another connective that carries the logic; B7, a note; since v0.7.2 the joint may stay implicit where the order of the sentences carries it)"
+ ],
  "repInfo": [],
  "rhythm": {
   "mechanism.base": 1,

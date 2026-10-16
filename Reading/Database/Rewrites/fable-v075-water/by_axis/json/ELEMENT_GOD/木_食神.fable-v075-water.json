@@ -26,25 +26,25 @@
           {
             "word": "Gives first",
             "angles": {
-              "drive": "Giving comes before being asked, for you. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Keep giving first, and accept that some of it reaches no one who needed it.",
+              "drive": "Giving comes before being asked, for you. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it.",
               "cost_self": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you. Let one person carry you this week, and you get back the rest that giving first keeps taking.",
-              "cost_others": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you take the asking off their hands. Wait for the question some of the time, and you hand those you love the chance to want out loud."
+              "cost_others": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. Wait for the question some of the time, and you hand those you love the chance to want out loud."
             }
           },
           {
             "word": "Always making",
             "angles": {
-              "drive": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. Keep making, and show one finished thing for every three you start.",
-              "cost_self": "Stopping feels like disappearing, and making keeps you here. Starting the next thing is easier than being judged on the last, so you make instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost.",
-              "cost_others": "Most of your answers come as things made rather than said. Making is where you feel useful, and your hands stay busy while you half listen. Put it down for one whole conversation, and you give the people near you what nothing you make can."
+              "drive": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. As long as you show one thing in three, you get to enjoy what you make.",
+              "cost_self": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost.",
+              "cost_others": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen. The moment you set the making aside to listen, you give those near you what nothing you make can."
             }
           },
           {
             "word": "Relaxed",
             "angles": {
               "drive": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you. When you add one push to all that calm, you lose almost nothing to staying relaxed.",
-              "cost_self": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. Pick the harder one once a season, and you lose fewer chances to the comfort of staying relaxed.",
-              "cost_others": "Relaxed is how you run things for those in your care. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Hold firm now and then, because you owe them a push along with your patience."
+              "cost_self": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. If you choose the harder one every season, you win back chances that staying relaxed lets slip.",
+              "cost_others": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself."
             }
           }
         ]
@@ -55,23 +55,23 @@
             "word": "Coasts along",
             "angles": {
               "drive": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. Keep in mind that coasting carries you a long way and never quite to the finish.",
-              "cost_self": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. You already know what you coast past is the finish, and the finish is where your talent gets seen.",
+              "cost_self": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. Coasting past the finish costs you the joy of a thing done, the pleasure you miss most.",
               "cost_others": "You coast on people who already like you. Since you feel safe with them, you give them the easy version instead of the effort you spend on strangers. Bear in mind that you give your least trying to those who love you most."
             }
           },
           {
             "word": "Never says no",
             "angles": {
-              "drive": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You know that each yes is paid by a later you who never agreed to it.",
-              "cost_self": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. Remember that you pay for every no you never say in sleep.",
-              "cost_others": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give them agreement instead of your real answer. Do not forget that you owe them a real no as much as an easy yes."
+              "drive": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes.",
+              "cost_self": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. You lose sleep to each yes, and one no wins some of it back.",
+              "cost_others": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give your family agreement instead of your real answer. You owe the people you love the honest no you never say."
             }
           },
           {
             "word": "Comfort first",
             "angles": {
               "drive": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. What you put second to comfort is usually what you wanted most, and you know it.",
-              "cost_self": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. You buy comfort with chances you cannot buy back, and that is the part to remember.",
+              "cost_self": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. Count the good chances you let go by to stay comfortable, since few of them come back.",
               "cost_others": "You put comfort first for those in your care too. Keeping a child happy now is easier than keeping them well later, so you pick pleasant hours over useful ones. You are choosing their later as well as their now, whatever it feels like today."
             }
           }

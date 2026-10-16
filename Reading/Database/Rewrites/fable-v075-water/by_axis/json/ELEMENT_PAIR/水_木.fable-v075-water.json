@@ -11,7 +11,7 @@
     "mechanism": {
       "base": "Wood grows because water reaches it, the old texts say. Rain comes down, the ground takes it in, and the forest rises on what it drank. Nothing green stands without a source under it. The deeper the water, the taller the trunk it can feed, and every leaf is water that learned to stand.",
       "catalyst_turn": "With too little Wood, the rain has nothing to raise and pools where it lands. What you feel and know stays under the surface. Say one true thing out loud every day.",
-      "friction_turn": "With too much Wood, the forest drinks faster than the rain can fall, and the source runs low under all that green. Sleep on one thing you meant to say."
+      "friction_turn": "With too much Wood, the forest drinks faster than the rain can fall, and every word you give away leaves you drier. Sleep on one thing you meant to say."
     },
     "carry": {
       "catalyst": {
@@ -23,12 +23,12 @@
         "remedy": "Sleep on one thing you meant to say."
       },
       "wide": {
-        "clause": "Wood is easy for you to reach, the green the rain is for.",
+        "clause": "Wood is easy for you to reach, and the rain in you keeps it growing.",
         "remedy": "Use it. Make one thing a week and show it."
       },
       "missing": {
-        "clause": "Nothing grows on the water, so what you know stays inside with no way out.",
-        "remedy": "Borrow it. Write one page a day or make one small thing."
+        "clause": "No green rises from your water, and the days pass with nothing new to show for them.",
+        "remedy": "Borrow it. Sit in on a class or make beside a friend."
       },
       "spared": {
         "clause": "No green draws on the water, and the source stays full for you.",
@@ -39,14 +39,14 @@
         "remedy": "Keep it small. One thing made a month is enough."
       },
       "excess": {
-        "clause": "The forest has outgrown its water, and the source shrinks with every new thing you make.",
-        "remedy": "Make less. Sleep more and read before you write."
+        "clause": "Wood grows thick while the water under it sinks lower with each thing you start.",
+        "remedy": "Start nothing new for a month. Rest and let yourself fill up."
       }
     },
     "function": {
-      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, the gate opens too rarely. You keep your care and your talent in rather than risk them, and stay unknown to the people you love.",
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea, and you let your family see only half of you.",
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You give care and show talent more than you take in, until you end up emptier than anyone you filled.",
-      "advise_catalyst": "Nothing you keep inside gets safer with time. Give the thing you made to someone before you think it is finished. Say the kind thought on the day you have it. Read one page you wrote to a child or a friend. Send the text without rereading it.",
+      "advise_catalyst": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it.",
       "advise_friction": "Seek Metal, the Mind energy. Metal is the cold side water forms on: it pulls from the air and hands the water back to its source. Let it hold what Wood pours out. You cannot talk your way back to full. Read one whole chapter before you make the next thing. Let one question sit overnight."
     },
     "cta_verdict": "You put more into what you make than you ever say about it, and what you make usually outgrows the plan."

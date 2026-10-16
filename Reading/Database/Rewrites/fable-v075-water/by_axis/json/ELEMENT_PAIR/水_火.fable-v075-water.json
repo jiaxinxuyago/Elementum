@@ -11,7 +11,7 @@
     "mechanism": {
       "base": "Water puts out fire, the old texts say, the way the many overcome the few: rain falls on the blaze until the ground goes dark and quiet. Fire gives the water its work. Over a flame the cold deep warms, moves and has somewhere to go. Water with no heat under it only sits, and heat with nothing deep enough to meet it spends itself on the air and is gone by morning.",
       "catalyst_turn": "With too little Fire, nothing warms the deep: all that water and no flame under it to make it move, and the chance goes unclaimed. Pick one opening this month and see it through.",
-      "friction_turn": "Too much Fire and the water heats through: every warm chance taken at once, the deep boiling off faster than rain can fill it back. Sleep two nights on anything that shines."
+      "friction_turn": "There is more Fire than your water can put out. The rain goes up in steam, and each venture you light spends some of the deep. Keep half of what every chase brings home."
     },
     "carry": {
       "catalyst": {
@@ -19,8 +19,8 @@
         "remedy": "Pick one opening this month and see it through."
       },
       "friction": {
-        "clause": "every warm chance taken at once, the deep boiling off faster than rain can fill it back",
-        "remedy": "Sleep two nights on anything that shines."
+        "clause": "The rain goes up in steam, and each venture you light spends some of the deep",
+        "remedy": "Keep half of what every chase brings home."
       },
       "wide": {
         "clause": "There is no shortage of Fire in you, the warmth that gets the deep moving.",
@@ -49,7 +49,7 @@
       "advise_catalyst": "You feel safer planning a thing than starting it, and the plan is where most of your chances end. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing.",
       "advise_friction": "Seek Water, your own Body energy. Water is the deep you draw from: sleep, food, the slow fill that comes before anything is lit. Let it hold what Fire burns. You spend yourself on every bright chance because stopping feels like losing. Keep one night a week unlit, in bed early. Eat before you say yes to anything."
     },
-    "cta_verdict": "You act on warmth rather than on a plan, and what you start fast is what you most need help keeping."
+    "cta_verdict": "You reach for what matters to you with care as much as with nerve, and over the years the balance you strike shapes what you get to keep."
   },
   "$original": {
     "mechanism": {

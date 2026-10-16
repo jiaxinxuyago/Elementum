@@ -26,25 +26,25 @@
           {
             "word": "Speaks up",
             "angles": {
-              "drive": "You speak up where silence would be easier. Keeping a true thing in feels worse than saying it, so you speak ahead of being sure anyone wants to hear. Keep speaking up, and accept a few conversations that go colder than you meant.",
-              "cost_self": "Speaking up costs you more than it looks. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after. Bring one ally before you speak up, and you give up fewer chances to it.",
+              "drive": "You speak up where silence would be easier. Holding a true thing in feels worse to you, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself.",
+              "cost_self": "For you, speaking up is never free. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after. Bring one ally before you speak up, and you give up fewer chances to it.",
               "cost_others": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Let them pick the moment, and your speaking up stays a gift instead of an interruption."
             }
           },
           {
             "word": "Goes off script",
             "angles": {
-              "drive": "Going off script is where you shine. A plan handed to you feels like a box for what you could do, so you change it ahead of following it. Keep going off script, and accept that the price is a plan nobody can count on.",
-              "cost_self": "Off script is how you stay interested. Following a plan feels like switching your talent off, and you rewrite it ahead of proving you could follow it. Follow one plan to the end, since the chances you lose are the ones that wanted it plain.",
-              "cost_others": "You go off script with shared plans as easily as your own. Because a better idea feels like a duty, you rewrite the shared plan ahead of asking whether anyone wanted it rewritten. Ask first, and you keep the plan something others can count on."
+              "drive": "Going off script is where you shine. Since a fresh idea counts for more with you than a given plan, you leave the script instead of following it. Once you tell others you are going off script, you keep their trust along with your idea.",
+              "cost_self": "Off script is how you stay interested. Sticking to a plan switches your talent off, and you head off script rather than see it through. Finish one plan unchanged, because that keeps the chances only a plain version wins.",
+              "cost_others": "You go off script with shared plans as easily as your own. A better idea seems like a duty to you, and you go off script instead of asking. Check with the group first, so that you hand them a better plan to lean on."
             }
           },
           {
             "word": "Stands out",
             "angles": {
-              "drive": "Standing out comes naturally to you. Fitting in feels like a small lie about what you can do, so you stand out ahead of being asked to. Keep standing out, and take the envy as part of the price.",
-              "cost_self": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less. Take the quiet seat now and then, and you hold on to friendships standing out would cost.",
-              "cost_others": "You stand out in company that did not ask for a star. Because shrinking feels like lying, you take the attention ahead of leaving some for whoever needed it. Step back one time in three, and you hand the person beside you their turn."
+              "drive": "Standing out comes naturally to you. You would rather stand out than fit in, since hiding what you can do is a small lie to yourself. Each time you stand out, you trade a little ease for a voice that is yours.",
+              "cost_self": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less. Take the quiet seat now and then to hold on to the friendships standing out would cost.",
+              "cost_others": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. Whenever you step back for a turn, you give the person beside you a chance to stand out."
             }
           }
         ]
@@ -55,24 +55,24 @@
             "word": "Talks back",
             "angles": {
               "drive": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You know by now that talking back wins the moment and spends the week.",
-              "cost_self": "Your self-respect runs on talking back. Because giving in feels like losing yourself, you argue ahead of asking what the rule is for. You already know that the chances you talked yourself out of were the ones you wanted most.",
+              "cost_self": "Your self-respect runs on talking back. Giving in would mean losing yourself, and you would rather talk back than ask what the rule is for. Each time you talk back, you also turn away help that would have grown your talent.",
               "cost_others": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself ahead of hearing what was offered. You hand them an argument where they asked for your ear, and you know the difference."
             }
           },
           {
             "word": "Shows off",
             "angles": {
-              "drive": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off ahead of fitting in. It is worth remembering that showing off trades closeness for being admired, and you wanted the closeness more.",
-              "cost_self": "Showing off is how you check you exist in a group. Because being ordinary feels like being invisible, you perform ahead of resting, even with no show asked for. Never forget that you run every show on the rest you skipped for it.",
-              "cost_others": "Most of your showing off goes to the people who love you. Because applause is easier to feel than closeness, you give them a performance instead of a talk. You know who came for you and got the show, and that is their cost."
+              "drive": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off rather than fit in. You collect praise with each show, and a quiet hour with one friend gives you what praise cannot.",
+              "cost_self": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. With a show always running, you never find out how much you are liked as you are.",
+              "cost_others": "Most of your showing off goes to the people who love you. Because you feel applause more easily than closeness, you put on a show for them instead of talking. In place of a plain hour together, you give them a show."
             }
           },
           {
             "word": "Goes too far",
             "angles": {
-              "drive": "Going too far is where you feel alive. A fine moment asks to be pushed one step past fine, so you push ahead of stopping while it works. Just remember that going too far is how you lose the moment you started from.",
-              "cost_self": "Making sure a thing was done means going too far. Because stopping at enough feels like wasting talent, you push past it ahead of resting. You pay each step past enough with the strength you needed tomorrow, and you never quite forget it.",
-              "cost_others": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and that agreement is yours to keep."
+              "drive": "Going too far is where you feel alive. You need a thing to be more than fine, so you go one step too far instead of stopping while it works. Just remember that going too far is how you lose the moment you started from.",
+              "cost_self": "Making sure a thing was done means going too far. To you, stopping at enough wastes talent, so you go past it instead of resting. Past enough, you trade the good version you had for one you like less.",
+              "cost_others": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and the stop is yours to keep."
             }
           }
         ]

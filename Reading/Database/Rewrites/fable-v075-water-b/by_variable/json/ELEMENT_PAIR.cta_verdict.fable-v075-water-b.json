@@ -8,21 +8,21 @@
     {
       "cell": "水_土",
       "field": "cta_verdict",
-      "candidate": "You answer to pressure more than to rules, so the deadline someone else set usually gets more of you than the plan you made yourself.",
+      "candidate": "You do more inside a rule than outside one, while the rule you push hardest against is usually the one giving you a direction.",
       "original": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds.",
       "gate": "pass"
     },
     {
       "cell": "水_木",
       "field": "cta_verdict",
-      "candidate": "You would rather show a thing than explain it, and most of your best ideas reach people as something made.",
+      "candidate": "You would rather grow an idea in the open than perfect it alone, and what you share early usually keeps growing long after you let it go.",
       "original": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work.",
       "gate": "pass"
     },
     {
       "cell": "水_水",
       "field": "cta_verdict",
-      "candidate": "Water as your Body is what you draw on last, and you would rather spend it in a race than in good company.",
+      "candidate": "Water as your Body means a quiet strength under everything you do, and you would rather spend it in a race than in good company.",
       "original": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one.",
       "gate": "pass"
     },
@@ -36,7 +36,7 @@
     {
       "cell": "水_金",
       "field": "cta_verdict",
-      "candidate": "Your mind keeps only what survives a test, and you would rather know a few things well than many things a little.",
+      "candidate": "You let in only what you have checked yourself, and you would rather know a few things well than many things a little.",
       "original": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you.",
       "gate": "pass"
     }

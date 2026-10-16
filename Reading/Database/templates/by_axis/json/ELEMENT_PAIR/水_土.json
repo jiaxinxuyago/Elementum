@@ -17,46 +17,46 @@
   "candidates": {
     "mechanism": {
       "classic": "實勝虛，故土勝水",
-      "base": "The solid prevails over the flowing, and so earth contains water: banks make the river, walls make the well, and depth without a vessel is only weather. Contained, water becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the river arrives.",
-      "catalyst_turn": "Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
-      "friction_turn": "Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe."
+      "base": "Earth gives water its shape, the old texts say. Banks on either side, a bed beneath, and the river goes somewhere instead of everywhere. Without ground to press against, water spreads thin across the land and soaks away into nothing. The bank pushes, and the current answers by running deeper. That pressure turns a flood into a river, and a river into a road that reaches the sea.",
+      "catalyst_turn": "With too little Earth, the water has no banks to push against. It spreads wide and shallow and arrives nowhere. Answer to one deadline you did not set, and keep it.",
+      "friction_turn": "With too much Earth, the banks press in until the water barely moves. Every rule you meet turns into a judge of you. Read one slow book before the next demand."
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose.",
-      "definition_friction": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own.",
-      "advise_catalyst": "Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit.",
-      "advise_friction": "A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone."
+      "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the standard comes late. You take a dare sooner than a post, and you find your pace after someone sets it.",
+      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the judge becomes you. You measure yourself against every rule as much as every demand and never quite pass your own review.",
+      "advise_catalyst": "You do your best work when someone else sets the deadline. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Tell one person above you what you will deliver and when. Keep one standing rule at home, the same sleep hour every night. Pay one bill the day it arrives.",
+      "advise_friction": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You answer to yourself more strictly than to anyone above you. Ask one person who has done it before, and write down the answer. Then sleep on it."
     },
-    "cta_verdict": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds.",
+    "cta_verdict": "You keep a rule best when you feel its weight rather than read it, and a demand with pressure behind it usually gets your fullest answer.",
     "carry": {
       "catalyst": {
-        "clause": "Nothing banks you: depth spreading wide and arriving nowhere, freedom without force.",
-        "remedy": "Accept the role, the rhythm, the walls that aim you."
+        "clause": "the water has no banks to push against",
+        "remedy": "Answer to one deadline you did not set, and keep it."
       },
       "friction": {
-        "clause": "The banks close in: current squeezed into a schedule until the water forgets it moves.",
-        "remedy": "Rivers are meant to breathe."
+        "clause": "the banks press in until the water barely moves",
+        "remedy": "Read one slow book before the next demand."
       },
       "wide": {
-        "clause": "You are well supplied with Earth, the banks that turn depth into a river.",
-        "remedy": "Keep the role you have. Let it aim you."
+        "clause": "You were given plenty of Earth, the ground that gives your water a path.",
+        "remedy": "Use the banks. Take on one hard deadline and meet it."
       },
       "missing": {
-        "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
-        "remedy": "Borrow structure: one role, one rhythm."
+        "clause": "No bank anywhere, and the water goes wherever the ground tips and settles nowhere.",
+        "remedy": "Borrow Earth from someone above you, and a date you cannot move."
       },
       "spared": {
-        "clause": "Earth runs absent, and the current is free: no banks closing in.",
-        "remedy": "Keep it. Choose one wall."
+        "clause": "No Earth presses on the water here, and the current keeps its own depth.",
+        "remedy": "Leave it absent. Set your own pace and keep it."
       },
       "thin": {
-        "clause": "Earth runs thin and unwanted: low banks, easily crossed.",
-        "remedy": "Cross them when you must."
+        "clause": "Only a little Earth touches the water, a low bank the current clears with ease.",
+        "remedy": "Keep it that small. Answer to few rules, chosen by you."
       },
       "excess": {
-        "clause": "Weak water silts up under strong earth: structure past what the current can move, flow stopped by banks.",
-        "remedy": "Widen the channel. Add metal."
+        "clause": "Earth piles onto the water until the river chokes on mud and stops moving.",
+        "remedy": "Clear the mud. Drop two duties, keep one, and rest."
       }
     },
     "carry_yin": {
@@ -86,5 +86,183 @@
     },
     "retired_v3_definition_catalyst": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose.\n\nFreeform by temperament, best in a frame. The standing deadline produced more than the free year did, the fixed morning routine made the afternoons deeper, and every fertile period of your life had a rhythm someone could set a clock by.\n\nChoose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit.",
     "retired_v3_definition_friction": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on.\n\nReliable, scheduled, subtly suffocating. Every hour is spoken for, the role fits like a uniform two sizes small, and the spontaneity that used to be your intelligence now needs an appointment.\n\nA schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The solid prevails over the flowing, and so earth contains water: banks make the river, walls make the well, and depth without a vessel is only weather. Contained, water becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the river arrives."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Nothing banks you: depth spreading wide and arriving nowhere, freedom without force."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Accept the role, the rhythm, the walls that aim you."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "The banks close in: current squeezed into a schedule until the water forgets it moves."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Rivers are meant to breathe."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "You are well supplied with Earth, the banks that turn depth into a river."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Keep the role you have. Let it aim you."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Nothing banks the water: depth spreading wide, arriving nowhere."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Borrow structure: one role, one rhythm."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Earth runs absent, and the current is free: no banks closing in."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Keep it. Choose one wall."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Earth runs thin and unwanted: low banks, easily crossed."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Cross them when you must."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Weak water silts up under strong earth: structure past what the current can move, flow stopped by banks."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Widen the channel. Add metal."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-water",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-water/by_axis/json/ELEMENT_PAIR/水_土.fable-v075-water.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
+      "replaced": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds."
+    }
+  ]
 }

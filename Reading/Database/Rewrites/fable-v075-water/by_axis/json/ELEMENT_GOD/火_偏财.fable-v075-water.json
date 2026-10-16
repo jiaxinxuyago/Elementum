@@ -17,7 +17,7 @@
       "friction": [
         "Chases the new",
         "Spends it fast",
-        "Drops things halfway"
+        "Looks past home"
       ]
     },
     "fn_reading": {
@@ -26,7 +26,7 @@
           {
             "word": "Sees chances early",
             "angles": {
-              "drive": "Seeing a chance early is when you feel most alive. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays.",
+              "drive": "You see chances early, at their smallest. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays.",
               "cost_self": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. Check what is already yours first, and you stop losing the nearest chance to the far one.",
               "cost_others": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. Once you hand them the finished thing, you keep them for the one after."
             }
@@ -35,15 +35,15 @@
             "word": "Gives easily",
             "angles": {
               "drive": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Keep giving as you do, and note what each gift costs you.",
-              "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, the venture you want stays yours to fund.",
+              "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, you fund the venture you keep giving away.",
               "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. With small gifts that repeat, you give them the steadiness along with the shine."
             }
           },
           {
             "word": "Starts fast",
             "angles": {
-              "drive": "A fast start is where you do your best work. The beginning of a venture is the warm part, and you would rather open the next one than sit through the middle. Keep starting fast, as long as each start gets one dull week first.",
-              "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If you stay through one dull stretch on purpose, you keep the venture that would have paid.",
+              "drive": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. When you start fast on fewer ventures, you get to know the ones you start.",
+              "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If each fast start must prove itself after the rush, you lose only the weak ventures.",
               "cost_others": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Name your part before you start, so you ask less of their patience."
             }
           }
@@ -54,25 +54,25 @@
           {
             "word": "Chases the new",
             "angles": {
-              "drive": "The newest thing is what you want. You have more Fire than your core feeds, and a fresh chance pulls you more than a half-done one holds you. You pay for each chase with the catch you already had, and that is easy to forget.",
-              "cost_self": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. You lose the money at the end, since it only comes with staying, and that is the part to remember.",
+              "drive": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of.",
+              "cost_self": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. Each time you leave early, you lose the money at the end, and that money is why you chase.",
               "cost_others": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. Do not forget that every chase costs them the ending you promised."
             }
           },
           {
             "word": "Spends it fast",
             "angles": {
-              "drive": "Spending fast is your reflex. The Fire in you runs ahead of what feeds it, and spending feels like living while saving feels like waiting. Bear in mind that fast spending is how you feel the moment, and the moment is all it buys.",
+              "drive": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. Bear in mind that fast spending is how you live in the moment, and the moment is all it buys.",
               "cost_self": "Fast spending feels like freedom to you. You would rather have the thing now than the money later, and what comes in easily goes before it grows. It is worth knowing that what you spend fast is the stake you never put behind a venture.",
-              "cost_others": "You spend fast on the people you love, big gesture first. Giving them the moment matters more to you than giving them the month, so your family carries the gap. You leave them the gap once the treat is gone, something worth keeping in mind."
+              "cost_others": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back."
             }
           },
           {
-            "word": "Drops things halfway",
+            "word": "Looks past home",
             "angles": {
-              "drive": "Halfway is where you drop things. The start gives you the rush, the middle gives you nothing, and you drop the half-done thing rather than push through it. Notice that you leave at the exact point where the work was about to pay.",
-              "cost_self": "Dropping things halfway means you never learn their worth. You would rather feel a fresh start than a slow middle, and the ending stays a story to you. Keep this close, that you lose the whole return on a venture by dropping its second half.",
-              "cost_others": "Whenever you drop something halfway, you leave the rest to your partners. Starting fresh feels better to you than finishing with them, since the middle bores you. You spend their patience on every half you leave behind, and that is worth remembering."
+              "drive": "Looking past home comes easily to you. The next venture feels like where your life begins, so you look ahead at what might come rather than at what is here. You are already living the life you look past.",
+              "cost_self": "Whenever you look past home, you save your best for what comes next. You would rather look toward somewhere new than settle where you already are. You miss the rest your own home was built to give you.",
+              "cost_others": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
             }
           }
         ]

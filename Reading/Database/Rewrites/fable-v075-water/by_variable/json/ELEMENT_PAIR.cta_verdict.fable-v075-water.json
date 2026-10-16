@@ -22,14 +22,14 @@
     {
       "cell": "水_水",
       "field": "cta_verdict",
-      "candidate": "Your stamina rises and falls in long swings, and you would rather go it alone than let a peer take half of the hard weeks.",
+      "candidate": "Your stamina rises and falls in long swings, and you spend the low stretches on your own more often than in company.",
       "original": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one.",
       "gate": "pass"
     },
     {
       "cell": "水_火",
       "field": "cta_verdict",
-      "candidate": "You act on warmth rather than on a plan, and what you start fast is what you most need help keeping.",
+      "candidate": "You reach for what matters to you with care as much as with nerve, and over the years the balance you strike shapes what you get to keep.",
       "original": "You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase.",
       "gate": "pass"
     },

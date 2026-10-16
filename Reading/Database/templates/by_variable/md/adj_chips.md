@@ -66,15 +66,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Fine-tuned · Selective · Ingenious |
-| `friction` | Cryptic · Hair-splitting · Shut-in |
+| `catalyst` | Tests everything · Rarely fooled · Thinks alone |
+| `friction` | Never done checking · Too exact · Hard to reach |
 
 ### The Sage · 金_正印
 
 | Field | Value |
 |---|---|
-| `catalyst` | Discreet · Preserving · Old soul |
-| `friction` | Detached · Formal · Locked-away |
+| `catalyst` | Keeps a confidence · Learns it properly · Steadies people |
+| `friction` | Stays the student · Too protective · Loves by correcting |
 
 ### The Twin · 土_比肩
 
@@ -122,15 +122,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Fortress-calm · Commanding · Siege-proof |
-| `friction` | Walled-up · Heavy-handed · Grinding |
+| `catalyst` | Calm under pressure · Takes charge · Pushes through |
+| `friction` | Hard on yourself · Never off duty · Shuts people out |
 
 ### The Magistrate · 土_正官
 
 | Field | Value |
 |---|---|
-| `catalyst` | Rock-steady · Fair · Load-bearing |
-| `friction` | Slow-moving · Rule-bound · Set-in-stone |
+| `catalyst` | Keeps every promise · Plays fair · Sets the standard |
+| `friction` | Follows every rule · Waits for permission · Slow to change |
 
 ### The Alchemist · 土_偏印
 
@@ -164,15 +164,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Fruitful · Mellow · Tending |
-| `friction` | Overripe · Lax · Overbooked |
+| `catalyst` | Gives first · Always making · Relaxed |
+| `friction` | Coasts along · Never says no · Comfort first |
 
 ### The Virtuoso · 木_伤官
 
 | Field | Value |
 |---|---|
-| `catalyst` | Free-growing · Original · Untamed |
-| `friction` | Chaotic · Sprawling · Defiant |
+| `catalyst` | Speaks up · Goes off script · Stands out |
+| `friction` | Talks back · Shows off · Goes too far |
 
 ### The Horizon · 木_偏财
 
@@ -220,15 +220,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Self-contained · Even-keeled · Independent |
-| `friction` | Cold-running · Isolated · Impenetrable |
+| `catalyst` | Carries own weight · Even pace · Decides alone |
+| `friction` | Hard to reach · Never asks · Expects the same |
 
 ### The Rival · 水_劫财
 
 | Field | Value |
 |---|---|
-| `catalyst` | Competitive · Unafraid · Agile |
-| `friction` | Undermining · Envious · Slippery |
+| `catalyst` | Loves a race · Jumps in first · All in together |
+| `friction` | Races in secret · Spends shared money · Never enough |
 
 ### The Artisan · 水_食神
 
@@ -318,15 +318,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Spark-spotting · Charismatic · Fast-moving |
-| `friction` | Flash-chasing · Big spender · Flighty |
+| `catalyst` | Sees chances early · Gives easily · Starts fast |
+| `friction` | Chases the new · Spends it fast · Looks past home |
 
 ### The Steward · 火_正财
 
 | Field | Value |
 |---|---|
-| `catalyst` | Warm-handed · Hardworking · Bankable |
-| `friction` | Tight-fisted · Anxious · Overcareful |
+| `catalyst` | Keeps it going · Saves first · Shows up daily |
+| `friction` | Counts everything · Plays it safe · Holds back |
 
 ### The General · 火_七杀
 

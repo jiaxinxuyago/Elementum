@@ -515,27 +515,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Fine-tuned",
+                "word": "Tests everything",
                 "angles": {
-                  "drive": "Your mind runs at tolerances other people cannot perceive. The half-degree shift in a colleague’s tone, the number that is slightly off in a healthy report, the note out of place: your instruments register it all, early, while the dashboard still shows green.",
-                  "cost_self": "You flagged the contract’s odd clause at the first read, one comma-deep in page thirty, and the lawyer’s follow-up confirmed what your calibration had already priced: the clause was the deal. Everyone else had read the same page. Their instruments simply do not go that fine.",
-                  "cost_others": "People run important things past you the way studios run final masters past the golden-eared engineer, for the flaws nobody else can hear. Your catches have saved deals, hires, and one marriage, each time via a detail everyone had seen and only you had registered."
+                  "drive": "You test everything before you let it in. A fact only becomes yours once tried against something real, and that puts testing ahead of simply learning. Keep the slow filter, and what you know stays yours for good.",
+                  "cost_self": "Testing everything costs you time. Slow and sure means more to you than quick and wrong, so most of your learning starts late. Let one good teacher skip the test, because every hour spent proving the known is an hour not spent learning the new.",
+                  "cost_others": "Whenever someone hands you a fact, you test it in front of them. Trying it yourself matters more than being agreeable, and whoever offered it gets a question instead of thanks. If you test it later in private, you keep both fact and goodwill."
                 }
               },
               {
-                "word": "Selective",
+                "word": "Rarely fooled",
                 "angles": {
-                  "drive": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer.",
-                  "cost_self": "From forty applications you pulled three names in one evening, and the hire, made from your three, is now running the department. The panel spent two weeks reaching the shortlist you reached before dinner. Nobody can extract your criteria. You suspect they would not transfer.",
-                  "cost_others": "People borrow your taste when their own stakes rise: which offer, which school, which surgeon. You answer with questions first, then a quiet ranking that later proves prophetic at rates that should embarrass the professionals involved. Your recommendations have a resale value. Everyone knows it but you."
+                  "drive": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the proof. When a kind person proves your doubt wrong, being fooled by kindness is a loss worth taking.",
+                  "cost_self": "Rarely fooled, you are slow to be glad. You check an offer for the catch before letting it near, and would rather miss a good thing than be fooled. Once you take an offer at its word, you get back what your doubt sends away.",
+                  "cost_others": "You check an honest word as closely as a false one. Being hard to fool counts for more with you than being easy company, and you make a truthful person prove it twice. You keep more honest company with every first answer you let stand."
                 }
               },
               {
-                "word": "Ingenious",
+                "word": "Thinks alone",
                 "angles": {
-                  "drive": "Your solutions arrive from angles that were not on the diagram. The mechanism repurposed, the rule read sideways, the tool used against its manual: what you build works for reasons that take other people a whiteboard to reconstruct. Cleverness is common. Yours has machining marks.",
-                  "cost_self": "The workshop door that defeated three contractors got fixed by you in an afternoon with a bicycle part and a magnet, a solution that has now held for four years and been photographed by two of the contractors. One asked permission to use it commercially. You waved it through.",
-                  "cost_others": "Colleagues have stopped saying that will not work before your prototypes finish, having eaten the sentence too often. Your fixes look wrong until they run. The patent attorney who reviewed one, as a favor, sent back a note with a single underlined sentence: file this one."
+                  "drive": "Your best thinking happens alone. You need quiet for a half-formed idea more than an audience, so you shut the door until it is whole. Each time you bring one person in at the halfway point, you keep the quiet and lose only the loneliness.",
+                  "cost_self": "Thinking alone keeps the idea clean. You would rather carry a hard question alone than let anyone see it unsolved, and help only reaches a problem someone has heard about. Once you tell one person early, help you have done without starts arriving.",
+                  "cost_others": "Your thinking stays private until it is a result for others. Working it out alone comes easier to you than together, and the people near you get only the conclusion. When the door opens earlier, you give them a say in the deciding."
                 }
               }
             ]
@@ -543,27 +543,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Cryptic",
+                "word": "Never done checking",
                 "angles": {
-                  "drive": "Your thinking exits in compressed form, when it exits at all. The one-word answer holding a paragraph, the eyebrow holding a memo, the decision announced without its reasoning attached. People decode you like weather instruments, approximately, and the misreadings compound while the originals stay filed inside.",
-                  "cost_self": "Your reply to the six-paragraph proposal was two words: not yet. The team spent a week interpreting them, generating four theories, three of them wrong. The right theory, which you could have typed in a minute, eventually surfaced in a hallway, secondhand, wearing someone else’s name.",
-                  "cost_others": "People spend real energy translating you, and the translation layer has become its own small bureaucracy: colleagues who explain what you meant, partners who interpret your silences for the children. You experience yourself as clear. The evidence experiences you as a cipher with a good heart."
+                  "drive": "You are never done checking. Letting a thing out early feels like a mistake you cannot undo, so you check once more rather than hand it over. Remember that you stopped finding errors long ago and now check for comfort.",
+                  "cost_self": "Checking a thing again feels safer than handing it in. You would rather send it late and right than early and good enough, and the late ones mostly never go. You lose more chances to the extra check than to the errors it catches.",
+                  "cost_others": "Whenever someone asks, you reply only once the answer is fully checked. Late sits easier with you than wrong, and you leave whoever asked waiting on your standard instead of your reply. You owe them a rough version now more than a right one later."
                 }
               },
               {
-                "word": "Hair-splitting",
+                "word": "Too exact",
                 "angles": {
-                  "drive": "Distinctions multiply under your attention until nothing can be simply true. The almost-right word gets corrected mid-thanks, the good plan dies of a thousand refinements, and conversations with you develop footnotes. Precision was the gift. Somewhere it became the tax everyone pays to talk to you.",
-                  "cost_self": "The team agreed in minute five, and the remaining fifty-five minutes were spent on your distinction between broadly aligned and aligned, a distinction with real content and no consequence. The decision shipped identical to draft one. Four people billed the hour. Two of them aged.",
-                  "cost_others": "People pre-concede your corrections now, sprinkling technically into their sentences like offerings. The accuracy you enforce is real, and its price is visible in every meeting you join: the shoulders that drop slightly, the estimates that double quietly, the good-enough that will not survive the hour."
+                  "drive": "Precision matters to you past the point of being followed. A near-enough answer feels like a small lie to you, so you give the precise one rather than the easy one. Most days you get one of exact or understood, and one is enough.",
+                  "cost_self": "Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You wanted to be told more than you wanted it exact, and that is worth remembering.",
+                  "cost_others": "Handed a rough idea, you give it back exact. You would rather fix the wording than hear what it was for, and the one who brought it gets a correction instead of a reply. You were handed it for hearing, and grading was never asked."
                 }
               },
               {
-                "word": "Shut-in",
+                "word": "Hard to reach",
                 "angles": {
-                  "drive": "Your workshop became your world. The projects, the reading, the precise private hours: all of it arranged within reachable walls, while the outside gets handled through slots. Visits require recovery, calls require rehearsal, and the door, though never locked, has not been tested in months.",
-                  "cost_self": "The last spontaneous social contact in your records was in the spring, a neighbor at the mailbox, four minutes, pleasant. Everything since has been scheduled, softened, or declined. The workshop light is on every evening. From the street it reads as cozy. From inside it reads as complete.",
-                  "cost_others": "Friends have converted you into a letters-and-links relationship, affection maintained through screens at your evident preference. They speak of you warmly, in the past-adjacent tense reserved for lighthouse keepers and monks. The reunion invitations still arrive. Everyone, including you, knows the RSVP before it opens."
+                  "drive": "Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person, and that fact is worth keeping.",
+                  "cost_self": "Being hard to reach keeps the thinking clean and the evenings empty. You would rather answer a thought than a person, and over time you get asked less. You give up closeness for the quiet, and every call you let ring out proves it.",
+                  "cost_others": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands as the answer. Each time you give the minute first, you find the thought waiting when you come back."
                 }
               }
             ]
@@ -578,27 +578,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Discreet",
+                "word": "Keeps a confidence",
                 "angles": {
-                  "drive": "What enters your keeping stays kept. The friend’s diagnosis, the colleague’s exit plans, the family matter: all held in a vault whose combination has never leaked once. In an age of broadcast, your silence is heirloom-grade, and people inventory it correctly as treasure.",
-                  "cost_self": "When the merger rumors flew, three separate executives realized mid-panic that you had known for a month, from three separate confidences, and cross-referenced nothing to anyone. The realization traveled. Your calendar for the following quarter filled with meetings that began: this stays with you.",
-                  "cost_others": "People sequence their disclosures by trust, and you are the first tier alone. Secrets travel toward you and stop, a fact widely relied upon and never once tested to failure. At every funeral, someone in the region is calmer because what they told you decades ago stayed told."
+                  "drive": "Whatever you are told stays with you. Being a safe place is how you know you matter, so you keep a confidence rather than ever use it. Let someone keep one of yours in return, because you wear thin with nothing kept for you.",
+                  "cost_self": "Keeping a confidence means carrying it. You hold what people tell you rather than talk it through with anyone, and the weight of other lives sits on your own rest. Give one of them to a notebook, and you keep the trust and the sleep.",
+                  "cost_others": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and you give the ones who tell you everything nothing of yourself back. Once you hand one of them a worry, the shelter becomes shared."
                 }
               },
               {
-                "word": "Preserving",
+                "word": "Learns it properly",
                 "angles": {
-                  "drive": "You maintain what matters against time’s default. The friendship kept in service since school, the grandmother’s recipe made annually to spec, the archive of photos labeled while others let theirs dissolve into camera rolls. Loss takes a percentage from everyone else. You have negotiated a better rate.",
-                  "cost_self": "The recipe was almost lost twice, once at the funeral, once in the flood, and both times your copy, made years earlier in careful ink, restored it to the family. There are now four copies, distributed by you, laminated. The dish appears every winter, tasting like continuity.",
-                  "cost_others": "People discover what you have kept at exactly the moments loss becomes visible: the address that survived in your book, the photo of the shop before the fire, the friendship maintained through everyone’s chaotic decade. You are the family’s off-site backup, and everybody restores from you eventually."
+                  "drive": "You learn a thing properly or not at all. Half-knowing a subject bothers you more than not knowing it, so you go to its end before counting it learned. When you take the slow way on purpose, what you learned stays true under pressure.",
+                  "cost_self": "Learning it properly takes you longer. Knowing a thing to its end matters to you more than knowing it well enough, and most chances ask for less. Once you take one door on less than the whole, you stop watching chances go to faster people.",
+                  "cost_others": "Teaching waits until you have learned it properly. You would rather pass a subject on whole than in pieces, and the people learning from you get nothing before the whole arrives. The more you teach as you learn, the less knowledge you keep from them."
                 }
               },
               {
-                "word": "Old soul",
+                "word": "Steadies people",
                 "angles": {
-                  "drive": "Your wisdom skips the podium. The insight arrives in a sentence near the end of the visit, unlabeled, easy to miss, and it reorganizes the listener’s month. You never claim the credit and rarely get it, which suits you. The advice was for using, never for citing.",
-                  "cost_self": "Your niece made the decision everyone praised her for after one walk with you, during which, by her account, you mostly asked what she already thought and mentioned, once, what you had seen happen to hurry. The sentence took four seconds. She built two years on it.",
-                  "cost_others": "People leave your company having reached their own conclusions, unaware of the machining. Years later they quote things you said as things they realized. You watch your sentences circulate under other people’s names, polished by use, and consider the ledger, on balance, exactly right."
+                  "drive": "You steady people by holding them to something. Keeping someone safe matters more to you than keeping them comfortable, so your care arrives as a standard rather than a hug. When you put the warm word before the rule, your steadying lands as love.",
+                  "cost_self": "Steadying people earns you respect ahead of closeness. Being needed when things fall apart suits you more than being phoned for nothing, and the no-reason calls are what you miss. Once you rest the standard an evening, you get the closeness it stands in for.",
+                  "cost_others": "Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson. Each time you ask what they need first, you keep the steadying wanted."
                 }
               }
             ]
@@ -606,27 +606,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Detached",
+                "word": "Stays the student",
                 "angles": {
-                  "drive": "Your care operates at instrument distance. The concern is genuine and arrives as analysis, the love is real and expressed as protocol, and the people receiving it stand slightly cold in the accuracy, holding perfectly correct advice, wishing it had arms.",
-                  "cost_self": "Your son called with news that had tears at its edges, and your response, calibrated and useful, addressed every practical dimension within four minutes. The call ended efficiently. He sat in the car afterward, helped and unheld, and then phoned his aunt to say the same things over.",
-                  "cost_others": "People pre-sort what they bring you: problems yes, feelings elsewhere. The sorting is so old it feels like respect, and it has a cost ledger nobody opens. You are the first call for practical things and the last to hear anything that requires only company. The queue reveals the design."
+                  "drive": "You stay the student long after you were able to teach. Learning under someone suits you more than standing alone, and that keeps your seat in the back row past its use. You decide when the student turns teacher, and you keep putting it off.",
+                  "cost_self": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. Remember that you lose the place meant for you to someone who felt ready sooner.",
+                  "cost_others": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it."
                 }
               },
               {
-                "word": "Formal",
+                "word": "Too protective",
                 "angles": {
-                  "drive": "Correctness armors every exchange. The thank-you notes are impeccable, the boundaries observed to the millimeter, the affection conducted through channels so proper that its temperature cannot be verified. People know exactly where they stand with you. Nobody knows how it feels there.",
-                  "cost_self": "Your birthday call to your oldest friend ran eleven minutes, covered health, family, and weather in that order, and closed with regards to the household. It has run this way for thirty years. She once tried to break format with something raw. The pause was so perfect she apologized.",
-                  "cost_others": "People mirror your correctness back at you, and the relationship proceeds like diplomacy between friendly nations: warm communiques, scheduled summits, nothing unscripted. The love is real on both sides and fully suited at all times. Everyone involved occasionally wonders what casual would have felt like."
+                  "drive": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in ahead of letting them fall. You are protecting them from the one thing that would have taught them, and you know it.",
+                  "cost_self": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired ahead of watching them hurt. Bear in mind, you trade your own rest for a lesson they never get to learn.",
+                  "cost_others": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety where they wanted faith, and faith was cheaper."
                 }
               },
               {
-                "word": "Locked-away",
+                "word": "Loves by correcting",
                 "angles": {
-                  "drive": "Your inner life is in the vault with everyone else’s secrets. The grief went in decades ago, the hopes followed, and the combination, if you are honest, has drifted from your own memory. What remains public is composed, helpful, and sealed. Even you visit the contents rarely.",
-                  "cost_self": "The night your oldest friend died, you tidied the kitchen, answered the necessary messages with grace, and slept on schedule. The crying happened weeks later, alone, in the car, over a song, for four minutes, and was filed before the engine cooled. Nobody ever knew. That was the design.",
-                  "cost_others": "The people closest to you can list your kindnesses for hours and your feelings for seconds. At gatherings, your composure is the fixed point everyone appreciates and nobody can reach. Someone once asked what you were carrying. You answered with what you were managing. The difference went home unexamined."
+                  "drive": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Keep in mind that you are correcting someone who only came to be loved.",
+                  "cost_self": "Loving by correcting costs you the ones who stop bringing things. You put being useful to someone ahead of being close to them, and the corrected learn to bring you only finished things. You get respect for it, and the closeness goes somewhere less exact.",
+                  "cost_others": "Correcting is what you give people wanting comfort. You would rather set people straight than let them be, and you send them home taught instead of held. Each time you hold a lesson back, you let through the warmth it stood in front of."
                 }
               }
             ]
@@ -1019,27 +1019,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Fortress-calm",
+                "word": "Calm under pressure",
                 "angles": {
-                  "drive": "Staying calm under pressure is load-bearing structure for you, and everyone leaning on it can tell. Deadlines collapse, clients raise their voices, and yours holds the level it keeps on an easy Tuesday. People bring you their panic the way they bring valuables to a vault.",
-                  "cost_self": "The launch broke at nine and the group chat caught fire. Your first message, posted at 9:04, was a numbered list. By the third number the chat had gone quiet and gone to work, and the fire was just weather again.",
-                  "cost_others": "New teammates think you are unbothered, and older ones know better. The calm is built, wall by wall, and it holds because you decided long ago that panicking is a second emergency. Nobody has seen the construction. They just live inside it."
+                  "drive": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment ahead of the ordinary day. When a quiet day comes, give it some calm too, because that calm is yours anyway.",
+                  "cost_self": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis ahead of an ordinary week, and the ordinary weeks get skipped. If you keep one stretch clear of crisis, you find that the calm comes with you, the rest with it.",
+                  "cost_others": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, and you take it off their hands before their calm gets a chance. Let someone else stay calm beside you for once."
                 }
               },
               {
-                "word": "Commanding",
+                "word": "Takes charge",
                 "angles": {
-                  "drive": "Taking charge comes to you the way gravity comes to heavy things, without asking. In any group without a plan, the plan starts collecting around you. You rarely raise your voice. The instructions simply sound like the ground everyone was waiting to stand on.",
-                  "cost_self": "The building alarm went off mid-meeting, and within a minute the whole floor was following your voice to the stairwell. Nobody elected you. By the time everyone stood outside counting heads, it seemed obvious that they always would have.",
-                  "cost_others": "People obey your stillness more than they obey other people’s shouting. Committees route hard calls to you without formally deciding to, and visitors assume you hold a title two levels above the one on your door. The assumption does your paperwork for you."
+                  "drive": "Taking charge is a reflex for you. You would rather own a wrong call than leave one with no owner, and you take charge before anyone asks. If you hand a few calls to someone else, taking charge goes back to being a choice.",
+                  "cost_self": "Whenever a plan stalls, you take charge, wanted or not. Deciding feels like safety to you, more than waiting ever does, and calls that were never yours end up with you. When you turn one down, you keep the evening it would have eaten.",
+                  "cost_others": "For you, looking after a group means taking charge of it. Handing people an answer comes easier to you than waiting while they find one, and the finding is what you take from them. Leave one call open long enough for someone else to make."
                 }
               },
               {
-                "word": "Siege-proof",
+                "word": "Pushes through",
                 "angles": {
-                  "drive": "Outlasting is your actual weapon, and you know exactly how long you can hold. Pressure campaigns, difficult vendors, slow disputes: your position is stocked for winters other people never planned for. You do not need to win quickly. You need to still be there.",
-                  "cost_self": "The negotiation dragged into its fourth month, and the other side started making mistakes born of impatience. You had scheduled your patience in advance, supplies and all. The terms you signed in month five were the ones you wrote in week one.",
-                  "cost_others": "Rivals who try to rattle you end their campaigns tired and on schedule. Colleagues have watched vendors, auditors, and one memorable landlord take a run at your position and slide off it. Waiting you out has been tried many times. It has not once worked."
+                  "drive": "Pushing through is how you get to the end of anything hard. You need something to push against, and you finish under strain more easily than at ease. Push on, and notice which jobs you only finish when something pushes back.",
+                  "cost_self": "Under strain, you push through without a second thought. You would sooner push to the far side than ask for less, and you never try the lighter road. Make one job easy on purpose, and keep the strength that pushing costs.",
+                  "cost_others": "Whenever you push through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. When you match the slowest once, you see what gets done anyway."
                 }
               }
             ]
@@ -1047,27 +1047,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Walled-up",
+                "word": "Hard on yourself",
                 "angles": {
-                  "drive": "Defenses are your first architecture, and by now they go up before anything has attacked. New ideas, new people, new plans all get met at the gate and asked for papers. The walls keep trouble out. They keep a good deal else out with it.",
-                  "cost_self": "The proposal died in your inbox behind three clarifying questions and a request for precedent. It was a good proposal. The author knew better than to push, which is exactly how the last four good proposals ended, quietly, at the wall.",
-                  "cost_others": "People pitch to you the way they approach a fortified city, with supplies, patience, and low expectations. Half of them no longer bother. What feels like standards from inside the walls looks, from the road, like a gate that stopped opening years ago."
+                  "drive": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in sleep you never get back.",
+                  "cost_self": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. It is worth remembering that you leave the credit you earned unspent.",
+                  "cost_others": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You teach them your harshness without ever meaning it for them."
                 }
               },
               {
-                "word": "Heavy-handed",
+                "word": "Never off duty",
                 "angles": {
-                  "drive": "Force is your default tool, even for jobs that needed a lighter one. The email that required one sentence got a policy. The teenager who needed a talk got a lockdown. Every response lands heavier than the problem, and the problem learns to hide instead of heal.",
-                  "cost_self": "Someone missed one deadline, and by Friday there was a tracking sheet, a check-in meeting, and a new rule with their situation’s shape pressed into it. The sheet outlived the problem by a year. Everyone still fills it in, quietly resenting its birthday.",
-                  "cost_others": "People stopped bringing you small problems, because your solutions never come in small. They handle things quietly and tell you afterward, or never. It reads to you as being kept out of the loop. It reads to them as keeping the peace affordable."
+                  "drive": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. Keep in mind that you skip real sleep to guard nothing.",
+                  "cost_self": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You refuse the rest that no one else can take for you.",
+                  "cost_others": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, and your attention goes to the next problem. Do not forget that you were wanted off duty more than on it."
                 }
               },
               {
-                "word": "Grinding",
+                "word": "Shuts people out",
                 "angles": {
-                  "drive": "Pressing on is your answer to almost everything, including the things that needed releasing instead. The project grinds, the argument grinds, the schedule grinds, and your grip never loosens on its own. Endurance this strong has forgotten that stopping is also a decision.",
-                  "cost_self": "Year three of the side business that broke even in year one and never grew. Every Sunday night, the same four hours go in. You have stopped asking whether it works. The work itself became the answer, and the question quietly left.",
-                  "cost_others": "People admire your persistence first, then worry about it. From nearby, the grind stopped looking like ambition somewhere along the way and started looking like a stone you cannot put down. Friends have begun asking, gently, what would happen if you just set it there."
+                  "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. Try to remember that shutting out the pressure shuts out the closeness with it.",
+                  "cost_self": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away.",
+                  "cost_others": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
                 }
               }
             ]
@@ -1082,27 +1082,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Rock-steady",
+                "word": "Keeps every promise",
                 "angles": {
-                  "drive": "Reliability is your signature act, performed so long it stopped being a performance. You are where you said, when you said, doing what you agreed. Whole systems, families, and rosters get planned around the fact of you holding, and you simply keep holding.",
-                  "cost_self": "In eleven years you have missed the Thursday pickup twice, both hospital-grade reasons, both with a backup already arranged. The coach plans the schedule around your name first. Somewhere a whole carpool’s architecture rests on a person who just does not cancel.",
-                  "cost_others": "People stop confirming with you after the first year, which is its own trophy. Plans that touch you are considered anchored. When someone flakes, the group’s sentence is always the same: at least we know so-and-so is coming. You are the so-and-so."
+                  "drive": "You keep every promise, including the ones that stopped making sense. Your word is what you stand on, and keeping it matters more to you than whether the promise fits your life now. If you change one promise out loud, you keep the rest whole.",
+                  "cost_self": "Whenever you give your word, you keep the promise in full. You wear reliable better than happy, and the agreements that cost more each year stay put. When you change one out loud, you get the plan you gave up for it back.",
+                  "cost_others": "Long after you stopped wanting to, you keep promises to people. Holding counts for more with you than honesty about changing, and you never tell the person that the promise went stale. Give one person the real answer, and let them choose."
                 }
               },
               {
-                "word": "Fair",
+                "word": "Plays fair",
                 "angles": {
-                  "drive": "Fairness runs your decisions even when favoritism would be cheaper. The rules apply to your favorite and your rival at the same rate, and to you first of all. People may dislike your ruling. They have stopped questioning how you reached it.",
-                  "cost_self": "You gave your closest friend the same late penalty you gave the stranger, and paid your own penalty the month your half of the paperwork slipped. The friend sulked for a week. The system survived, and it survives specifically because everyone watched you charge yourself.",
-                  "cost_others": "Disputes come to you pre-softened, because both sides expect straight scales and dress accordingly. Your judgment gets borrowed by people who cannot agree on anything else. Being trusted like that is quiet, unpaid work. You do it anyway, and the peace holds."
+                  "drive": "You play fair even when it costs you the win. You only trust a rule that applies to everyone, and you keep yourself to it rather than make yourself the exception. If you let one person see the fairness, you lose nothing.",
+                  "cost_self": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes ahead of arriving first, and the quick wins go to people who care less. Claim what you earned fairly, because the title you wait on goes elsewhere.",
+                  "cost_others": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes ahead of being on anyone's side, and you never pick theirs either. Make one small exception, and see how little fairness it costs."
                 }
               },
               {
-                "word": "Load-bearing",
+                "word": "Sets the standard",
                 "angles": {
-                  "drive": "Heavy things migrate to you because you keep accepting them, and structures form on top. The team’s hardest account, the family’s paperwork, the club’s finances: whatever must not fail gets filed under your name. You carry it evenly and rarely mention the tonnage.",
-                  "cost_self": "When the audit came, three departments discovered that their processes all ran through one spreadsheet you maintain at seven each Monday. Nobody had documented this. The auditor asked what happens if you go on holiday. The silence answered thoroughly, and the holiday remains imaginary.",
-                  "cost_others": "People sleep better because certain things are yours, and most could not list what those things are. The load only becomes visible when you are sick for a week and four small systems wobble. Everyone notices then. Everyone forgets again by the next quarter."
+                  "drive": "You set the standard before anyone asks for one. You would rather set a clear standard than argue over one, and the one you set binds you first. When you set one with people instead of for them, you share its weight.",
+                  "cost_self": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure ahead of anyone else's, and yours sits a step above you. If you set the bar where you stand, you pass it for once.",
+                  "cost_others": "You set a standard for the whole group. You hold people to a standard they can see rather than guess at, and the standard you set is theirs to meet too. If you ask them where to set it, you find it met more gladly."
                 }
               }
             ]
@@ -1110,27 +1110,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Slow-moving",
+                "word": "Follows every rule",
                 "angles": {
-                  "drive": "Your pace has one setting, geological, and urgency does not shift it. The decision will be right and it will be late, in that order. Opportunities with expiry dates keep expiring in your in-tray while the due diligence achieves its usual thoroughness.",
-                  "cost_self": "The apartment was perfect, and your offer went in nine days later, complete, signed and stamped, and third in line. The winning bid was written on a kitchen counter the first evening. You reviewed your process afterward, carefully, over several weeks.",
-                  "cost_others": "People bring you decisions early, padding for your timeline the way airlines pad schedules. Fast-moving partners have learned to route the urgent things around you and apologize later. Your thoroughness is real, and it keeps buying quality with time that some things did not have."
+                  "drive": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make.",
+                  "cost_self": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks.",
+                  "cost_others": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself."
                 }
               },
               {
-                "word": "Rule-bound",
+                "word": "Waits for permission",
                 "angles": {
-                  "drive": "The rule outranks the situation for you, even when the situation is standing right there. Exceptions feel like structural damage, so the form gets filled, the channel gets followed, the spirit occasionally suffocates inside the letter. Order is kept. What order was for gets misplaced.",
-                  "cost_self": "The refund was obviously deserved, and you declined it because the receipt was two days outside the window. The customer left angry and told the story often. Head office would have approved the exception. The window had not, and you answer to windows.",
-                  "cost_others": "People experience you as a well-run tollbooth: fair, predictable, and immovable at exactly the moments that needed a human. Colleagues save their workarounds for your days off. The rules you enforce so faithfully were written by people who assumed more discretion than you spend."
+                  "drive": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You give the plan's best months to waiting, and that is worth noticing.",
+                  "cost_self": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year.",
+                  "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking."
                 }
               },
               {
-                "word": "Set-in-stone",
+                "word": "Slow to change",
                 "angles": {
-                  "drive": "Once your position sets, it sets. New evidence arrives and finds the concrete already cured. You call it consistency, and it often is, and sometimes it is just the memory of a decision outliving every reason that made it.",
-                  "cost_self": "You still refuse that vendor over an incident from 2016 whose participants have all left both companies. The current rep is excellent, and their quote came in lowest. The stone does not read quotes. The stone remembers 2016, and the contract went elsewhere, again.",
-                  "cost_others": "People have stopped bringing you second chances, for vendors or for people, because the outcome is pre-decided. Your world is firm, and its firmness is finished. In the archive of closed cases sit a few that deserved reopening, and everyone knows which ones except you."
+                  "drive": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given.",
+                  "cost_self": "Whenever something needs changing, you change it last. You would sooner keep what you know than find out what else there is, and you stay in a job you stopped liking for years. Remember how you spend each deciding year staying put.",
+                  "cost_others": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting. Keep sight of how you make them live the old way while you decide."
                 }
               }
             ]
@@ -1397,27 +1397,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Fruitful",
+                "word": "Gives first",
                 "angles": {
-                  "drive": "Your output ripens naturally and keeps coming. The dinners, the small gifts, the finished little projects: none announced, all delivered, season after season. Where others sprint and stall, you simply bear, and the people around you have quietly reorganized their lives around the harvest.",
-                  "cost_self": "The sourdough starter you keep has fed four households and outlived two of their marriages. Every week, loaves leave your kitchen without ceremony. Somebody once totaled a year of your giving on a napkin and stopped counting at a number that embarrassed everyone present.",
-                  "cost_others": "People inventory what you produce only when you are sick for a month and the flow stops: the meals, the favors, the small repairs, the cards that arrive on time. The gap teaches them the size of the tree. You recover, and it resumes, unremarked."
+                  "drive": "Giving comes before being asked, for you. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it.",
+                  "cost_self": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you. Let one person carry you this week, and you get back the rest that giving first keeps taking.",
+                  "cost_others": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. Wait for the question some of the time, and you hand those you love the chance to want out loud."
                 }
               },
               {
-                "word": "Mellow",
+                "word": "Always making",
                 "angles": {
-                  "drive": "Your temperament arrived pre-softened. Provocations land in you like stones in deep grass, absorbed without ceremony. People bring you their sharp edges and leave with them slightly rounded, and nobody, including you, can point to the moment the rounding happened.",
-                  "cost_self": "The road-rage incident happened entirely in the other car. You waved, genuinely unbothered, and finished the podcast. Your passenger spent ten minutes processing the injustice. You offered them a mint. By the destination they were laughing, and could not reconstruct why they had cared.",
-                  "cost_others": "Tense situations get scheduled around your availability, informally, because things just go softer with you in the region. Nobody calls it a skill, which suits you. The mediator titles go to louder people. The actual mediating, most weeks, happens near the mint supply."
+                  "drive": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. As long as you show one thing in three, you get to enjoy what you make.",
+                  "cost_self": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost.",
+                  "cost_others": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen. The moment you set the making aside to listen, you give those near you what nothing you make can."
                 }
               },
               {
-                "word": "Tending",
+                "word": "Relaxed",
                 "angles": {
-                  "drive": "You express care by making things comfortable around people. The blanket appears before anyone said cold, the kettle is on before the knock, the leftovers go home in containers with the right lids. Nobody calls it expression. It is your entire vocabulary.",
-                  "cost_self": "While house-sitting, you left the place cozier than you found it: the reading lamp moved to where the light actually falls, the good mugs brought forward, soup in the freezer with a dated label. The owners noticed for three weeks, one small comfort at a time.",
-                  "cost_others": "People relax in spaces you have touched and cannot say why. The guest who slept over once still mentions the bedside water. Comfort follows you into other people’s houses and stays after you leave, which is a strange, real talent, and completely unlisted."
+                  "drive": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you. When you add one push to all that calm, you lose almost nothing to staying relaxed.",
+                  "cost_self": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. If you choose the harder one every season, you win back chances that staying relaxed lets slip.",
+                  "cost_others": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself."
                 }
               }
             ]
@@ -1425,27 +1425,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Overripe",
+                "word": "Coasts along",
                 "angles": {
-                  "drive": "Your gifts sat on the branch past their moment. The talent is real and increasingly historical: the almost-finished album, the recipe book everyone requested a decade ago, the sweetness starting to ferment into stories about what nearly happened. The season did not end. It just stopped being picked.",
-                  "cost_self": "You played the old demo for the young cousin, who was impressed and then asked, without cruelty, when it was recorded. The date was fourteen years ago. There is a newer song, technically. It has been almost done since the phone that recorded it was new.",
-                  "cost_others": "People still introduce you by your potential, and the introduction has begun to age in the middle. Everyone remembers the brilliance and awaits the shipment. The awaiting has developed rituals, gentler each year, the way families adjust their questions around a harvest that keeps being next season."
+                  "drive": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. Keep in mind that coasting carries you a long way and never quite to the finish.",
+                  "cost_self": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. Coasting past the finish costs you the joy of a thing done, the pleasure you miss most.",
+                  "cost_others": "You coast on people who already like you. Since you feel safe with them, you give them the easy version instead of the effort you spend on strangers. Bear in mind that you give your least trying to those who love you most."
                 }
               },
               {
-                "word": "Lax",
+                "word": "Never says no",
                 "angles": {
-                  "drive": "Standards around you loosen like old elastic. The deadline drifts, the quality bar lowers itself politely, the follow-up follows nothing. Ease was the gift. Unattended, it composted into a comfortable rot that everyone enjoys and nobody thanks later.",
-                  "cost_self": "The client got the draft nine days late with a breezy apology, which worked, as it usually works, until the quarter it stopped working. The lost contract funded someone else’s diligence. You called it their luck. The invoice history calls it something plainer.",
-                  "cost_others": "People adore working with you and quietly duplicate your responsibilities, building small safety nets under everything you carry. The nets catch things weekly. You have never noticed, which is partly the charm and mostly the problem. The adoration is real, and so are the nets."
+                  "drive": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes.",
+                  "cost_self": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. You lose sleep to each yes, and one no wins some of it back.",
+                  "cost_others": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you give your family agreement instead of your real answer. You owe the people you love the honest no you never say."
                 }
               },
               {
-                "word": "Overbooked",
+                "word": "Comfort first",
                 "angles": {
-                  "drive": "Saying no feels like unkindness to you, so you mostly do not. The favor, the shift swap, the third brunch: each yes is warm and small, and together they have booked your life solid. Everyone gets a slice of you. The slices stopped adding up to a person.",
-                  "cost_self": "Saturday holds pottery, the volunteer shift, two standing brunches, and a league you joined to be nice in 2022. You enjoy each one, tiredly. The afternoon you actually wanted, the empty one, has not appeared on the calendar since spring.",
-                  "cost_others": "People know you will say yes, and the knowing shows up in their asks. You are the default babysitter, the fallback host, the covering shift. Nobody means harm. But generosity with no gate gets scheduled by other people, and yours has been for years."
+                  "drive": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. What you put second to comfort is usually what you wanted most, and you know it.",
+                  "cost_self": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. Count the good chances you let go by to stay comfortable, since few of them come back.",
+                  "cost_others": "You put comfort first for those in your care too. Keeping a child happy now is easier than keeping them well later, so you pick pleasant hours over useful ones. You are choosing their later as well as their now, whatever it feels like today."
                 }
               }
             ]
@@ -1460,27 +1460,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Free-growing",
+                "word": "Speaks up",
                 "angles": {
-                  "drive": "Your expression grows wherever it wants, and forcing it into rows kills it. Give you a template and the life drains out. Give you open ground and something appears that nobody planted, better than what was planned, impossible to have ordered in advance.",
-                  "cost_self": "The brief asked for a standard newsletter, and what you delivered was a running column with a voice, a following, and eventually a waiting list. Nobody approved the change. It grew past the approval stage while the approvers were in meetings, and readership tripled.",
-                  "cost_others": "Editors, managers, and one long-suffering teacher all learned the same lesson: fence you and you produce hedges, free you and you produce forests. The people who benefit most from your work are the ones who learned to stop supervising the growing."
+                  "drive": "You speak up where silence would be easier. Holding a true thing in feels worse to you, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself.",
+                  "cost_self": "For you, speaking up is never free. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after. Bring one ally before you speak up, and you give up fewer chances to it.",
+                  "cost_others": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Let them pick the moment, and your speaking up stays a gift instead of an interruption."
                 }
               },
               {
-                "word": "Original",
+                "word": "Goes off script",
                 "angles": {
-                  "drive": "Your ideas arrive without ancestors. Where others improve on the existing, you sprout something with no clear parent, odd at first sight and obvious in hindsight. Imitation is genuinely difficult for you, which cost you in school and pays you everywhere else.",
-                  "cost_self": "The party game you invented on a napkin has now been played at four weddings and one corporate retreat, mutating slightly each time. Someone recently asked where you found it. The napkin is framed in your friend’s kitchen, which is its citation.",
-                  "cost_others": "People carry your ideas into places you never visit, usually without your name attached, always with your fingerprints visible to anyone who knows you. Being copied stopped bothering you once you noticed the copies cannot make the next one. Only the source does that."
+                  "drive": "Going off script is where you shine. Since a fresh idea counts for more with you than a given plan, you leave the script instead of following it. Once you tell others you are going off script, you keep their trust along with your idea.",
+                  "cost_self": "Off script is how you stay interested. Sticking to a plan switches your talent off, and you head off script rather than see it through. Finish one plan unchanged, because that keeps the chances only a plain version wins.",
+                  "cost_others": "You go off script with shared plans as easily as your own. A better idea seems like a duty to you, and you go off script instead of asking. Check with the group first, so that you hand them a better plan to lean on."
                 }
               },
               {
-                "word": "Untamed",
+                "word": "Stands out",
                 "angles": {
-                  "drive": "Nobody ever quite domesticated your voice, and the wildness is the value. You say the thing with the bark still on it, unsanded by committee. Polished people find you alarming and then find themselves quoting you, because the rough version was the true one.",
-                  "cost_self": "At the panel, between two rehearsed speakers, you answered the question everyone was avoiding, in the words everyone was avoiding it in. The moderator blinked. The clip, forty seconds long, outlived the entire conference, and next year they booked you first.",
-                  "cost_others": "Organizers invite you with a specific mix of hope and bracing, the way towns invite weather. Something will happen, it will be alive, and it will not be what the agenda said. The agenda-keepers grumble. The audiences keep coming back for the weather."
+                  "drive": "Standing out comes naturally to you. You would rather stand out than fit in, since hiding what you can do is a small lie to yourself. Each time you stand out, you trade a little ease for a voice that is yours.",
+                  "cost_self": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less. Take the quiet seat now and then to hold on to the friendships standing out would cost.",
+                  "cost_others": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. Whenever you step back for a turn, you give the person beside you a chance to stand out."
                 }
               }
             ]
@@ -1488,27 +1488,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Chaotic",
+                "word": "Talks back",
                 "angles": {
-                  "drive": "Direction is your allergy. The plan says left, and something in you veers right on principle, even when left was your own idea last week. Paths bore you the moment they firm up, which keeps life interesting and keeps arrival permanently postponed.",
-                  "cost_self": "You quit the program two months before certification, the third finish line abandoned in five years, each exit backed by a compelling reason that shares no logic with the others. The certificates would spell a career by now. The reasons, laid end to end, spell only motion.",
-                  "cost_others": "People stopped mapping your trajectory and started just asking where you are this season. Mentors who invested in one direction watched you grow in another, and the generous ones call it range. The honest ones ask what all this growing is refusing to become."
+                  "drive": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You know by now that talking back wins the moment and spends the week.",
+                  "cost_self": "Your self-respect runs on talking back. Giving in would mean losing yourself, and you would rather talk back than ask what the rule is for. Each time you talk back, you also turn away help that would have grown your talent.",
+                  "cost_others": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself ahead of hearing what was offered. You hand them an argument where they asked for your ear, and you know the difference."
                 }
               },
               {
-                "word": "Sprawling",
+                "word": "Shows off",
                 "angles": {
-                  "drive": "Your expression spreads faster than it deepens. The podcast, the essays, the half-built app, the sketchbooks: green shoots in every direction, canopy in none. Each new tendril takes light from the last one. The garden is enormous and, so far, fruitless.",
-                  "cost_self": "The essay was going well until minute forty, when it became a second essay, which spawned a video idea, which required a new microphone, which arrived to find you starting a third essay. All four projects share one folder. The folder is named Focus.",
-                  "cost_others": "Your feeds show a person of astonishing range and no address. Followers love the variety, and the industry people who could open doors keep asking the same question in different words: what is the one thing. You keep answering with five."
+                  "drive": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off rather than fit in. You collect praise with each show, and a quiet hour with one friend gives you what praise cannot.",
+                  "cost_self": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. With a show always running, you never find out how much you are liked as you are.",
+                  "cost_others": "Most of your showing off goes to the people who love you. Because you feel applause more easily than closeness, you put on a show for them instead of talking. In place of a plain hour together, you give them a show."
                 }
               },
               {
-                "word": "Defiant",
+                "word": "Goes too far",
                 "angles": {
-                  "drive": "Rules read as dares to you, including the ones that were protecting something. Authority triggers your sap like spring: the tone sharpens, the counterargument grows thorns, and suddenly the fight is the point. Half your battles improved things. The other half just cost you allies.",
-                  "cost_self": "The new policy was mildly inconvenient and your response was a manifesto, posted in the all-hands channel at four on a Friday. It got eleven reactions and one meeting invite. The policy stayed. Your name moved onto a list nobody prints but everyone consults.",
-                  "cost_others": "People with power approach you pre-flinched, which you enjoy more than is useful. Doors open more slowly for you than your talent justifies, and everyone except you can name the reason. The reason has thorns and posts on Fridays."
+                  "drive": "Going too far is where you feel alive. You need a thing to be more than fine, so you go one step too far instead of stopping while it works. Just remember that going too far is how you lose the moment you started from.",
+                  "cost_self": "Making sure a thing was done means going too far. To you, stopping at enough wastes talent, so you go past it instead of resting. Past enough, you trade the good version you had for one you like less.",
+                  "cost_others": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and the stop is yours to keep."
                 }
               }
             ]
@@ -1901,27 +1901,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Self-contained",
+                "word": "Carries own weight",
                 "angles": {
-                  "drive": "You carry your own weather system. Mood, motivation, entertainment, repair: all generated onboard, no docking required. Days alone pass without friction, and company, when chosen, is a preference rather than a need. People sense the completeness and find it either restful or quietly unnerving.",
-                  "cost_self": "The solo trip lasted eighteen days, and the postcards home were cheerful and unnecessary. You ate well, navigated fine, and had exactly the conversations you wanted, several with strangers, none from loneliness. Friends asked if it got hard. It got, you said accurately, quiet.",
-                  "cost_others": "People stop worrying about you early in the acquaintance, sensing a system that maintains itself. You are nobody’s project and nobody’s dependent. The freedom this grants your relationships is enormous and mostly invisible: everyone who stays, stays for the company, not the maintenance contract."
+                  "drive": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. If you carry it beside someone once, it gets lighter without getting smaller.",
+                  "cost_self": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. Set one weight down with a peer, and the rest you never take comes back to you.",
+                  "cost_others": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness sharing brings. You give them a way to matter to you each time you let them carry a little."
                 }
               },
               {
-                "word": "Even-keeled",
+                "word": "Even pace",
                 "angles": {
-                  "drive": "Your levels hold. The praise does not inflate you, the setback does not sink you, and Tuesday-you is recognizably Friday-you. In a world of dramatic weather you are open water on a calm day, and people steer toward you when their own seas get theatrical.",
-                  "cost_self": "You received the promotion email and the rejection letter in the same afternoon, and your dinner plans survived both unchanged. Your partner, telling the story later, could not remember which arrived first. Neither, notably, could you. The pasta was good. The week continued.",
-                  "cost_others": "Teammates map their own volatility against your baseline, which has not moved in recorded history. In crises, the group instinctively checks your face before choosing a panic level, and your face declines to authorize one. Whole storms have been downgraded this way, repeatedly, to weather."
+                  "drive": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. If you keep it through a crowded week, you arrive with something left.",
+                  "cost_self": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. If you break the pace for one chance a season, you lose fewer quick chances to your own even pace.",
+                  "cost_others": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a hurried friend walks a stretch alone. When you match theirs for one outing, you walk beside them rather than apart."
                 }
               },
               {
-                "word": "Independent",
+                "word": "Decides alone",
                 "angles": {
-                  "drive": "You run your own race in your own lane at your own pace, and the pace is honest. Opinions get consulted and then decided past, help gets accepted without becoming structure, and your decisions, right or wrong, are recognizably yours. Ownership like that is rarer than talent.",
-                  "cost_self": "You moved cities without a committee, changed careers on your own research, and told everyone after the deposits were paid. The announcements were calm and finished. Family learned years ago that input windows open before decisions, briefly, and that missing them is missing them.",
-                  "cost_others": "People trust your choices with a specific confidence: whatever happens, you chose it, and you will handle it. Nobody hedges around you or manages your expectations. The respect is quiet and total, and it was purchased with years of never once outsourcing the blame."
+                  "drive": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. If you ask one peer before the next big choice, you lose no speed and gain a second pair of eyes.",
+                  "cost_self": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. Letting a friend read the next big plan first keeps your mistakes smaller than it.",
+                  "cost_others": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. You hand them a say in what they live with by bringing one of them in early."
                 }
               }
             ]
@@ -1929,27 +1929,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Cold-running",
+                "word": "Hard to reach",
                 "angles": {
-                  "drive": "Your warmth exists and runs deep and rarely surfaces where people can feel it. The care comes out as errands, the affection as usefulness, and the words themselves stay below. People eventually stop swimming down to check. The temperature at the surface is what they live with.",
-                  "cost_self": "Your partner mentioned, quietly, that you had not said anything warm in some weeks. You had fixed the brakes, renewed the insurance, and prepaid the winter heating that same month. You cited these. There was a silence in which both of you were right, and only one warm.",
-                  "cost_others": "People describe you as reliable first and affectionate somewhere after the pause. The love is inferred from your actions the way deep currents are inferred from instruments: real, documented, unfelt on the skin. Some loved ones adjusted. The ones who needed sun moved toward it, elsewhere."
+                  "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you are only warm to the people who can reach you.",
+                  "cost_self": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own.",
+                  "cost_others": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You only get answered where you let yourself be reached, and that is worth remembering."
                 }
               },
               {
-                "word": "Isolated",
+                "word": "Never asks",
                 "angles": {
-                  "drive": "Your self-sufficiency built a shoreline nobody lands on anymore. The company you technically enjoy gets postponed, the calls ring out, and the distance, initially a preference, has become the geography. You are fine, genuinely. Fine, and further out than anyone can comfortably swim.",
-                  "cost_self": "The last name in your call log is eleven days old and belongs to a delivery service. The weekend held reading, a long walk, good coffee, and no voices. You noticed the quiet the way you notice weather: fully, neutrally, and without doing anything about it.",
-                  "cost_others": "Friends debated whether to worry and settled on a rotation of light check-ins, which you answer promptly and pleasantly, closing each door as gently as it was opened. Nobody can locate a problem. There is just an ocean where a neighborhood used to be, and it is widening."
+                  "drive": "Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck.",
+                  "cost_self": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. It helps to remember that you lose the rest along with the help you never asked for.",
+                  "cost_others": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. Do not forget that you keep a peer at a distance every time you refuse their help."
                 }
               },
               {
-                "word": "Impenetrable",
+                "word": "Expects the same",
                 "angles": {
-                  "drive": "Nothing gets in past the surface. Feedback beads up and rolls off, affection finds no porous surface, and the hard conversations everyone rehearses with you simply do not land: you agree, calmly, and remain exactly as you were. The consistency is impressive. It is also the wall.",
-                  "cost_self": "The intervention was loving and well-prepared, three people who care, specific examples, warm intent. You listened fully, thanked them sincerely, and changed nothing, without any spite in it, because nothing had, as far as you could tell, actually touched anything. They compare notes still, baffled.",
-                  "cost_others": "People who love you describe conversations with you as skipping stones: beautiful contact, no entry. Over the years they have stopped throwing. What remains is pleasant and shallow by mutual, unspoken arrangement, and everyone involved calls it peace, in the tone reserved for treaties."
+                  "drive": "Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and few can match it for long.",
+                  "cost_self": "Rarely let down, you hold everyone to the same standard. Water runs deep and stays hidden, and you would rather keep your own rule than lower it for company. You lose a lot of good company while waiting for the perfect match.",
+                  "cost_others": "Whenever you expect the same from a peer, you hand them your standard without asking for theirs. You judge their effort by your own rather than by what they had to give. Since the standard is yours, you are the one who can lower it."
                 }
               }
             ]
@@ -1964,27 +1964,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Competitive",
+                "word": "Loves a race",
                 "angles": {
-                  "drive": "Rivalry wakes you up. A competitor in the water and your stroke sharpens, your pace lifts, and the race becomes the point of the day. You measure yourself against real people, openly, and you move faster for it than any plan could make you.",
-                  "cost_self": "Someone at work started tracking the same clients, and your quarter, flat since spring, jumped within a month. Nothing else changed. You printed both sets of numbers and taped yours above the desk, slightly higher than theirs.",
-                  "cost_others": "People perform better around you and know exactly why. Teams put you next to whoever has gone comfortable, and the comfort ends within a week. Rivals call you exhausting, and most of them improved because you existed. Some even say so, at retirement parties."
+                  "drive": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. When you name one race a season out loud, you come out of it fed rather than spent.",
+                  "cost_self": "You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you bring full stamina to the next one.",
+                  "cost_others": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. If you tell them the race is on, you run it together instead of alone."
                 }
               },
               {
-                "word": "Unafraid",
+                "word": "Jumps in first",
                 "angles": {
-                  "drive": "Your nerves hold exactly when the other side hopes they will not. The staring contest of a negotiation, the final round, the moment someone raises the stakes to scare you: your pulse spikes and your voice does not. Opponents read calm. It is actually appetite.",
-                  "cost_self": "The other bidder raised twice to shake you loose, and your third bid came back before the echo faded, at a number you had chosen for exactly this moment. They folded in the parking lot. You had been enjoying yourself since the second raise.",
-                  "cost_others": "People bring you along to hard tables the way swimmers bring a strong current. When the other side pushes, you push back in real time, and your side stops shrinking. The invitations always sound casual. The seating never is."
+                  "drive": "Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. If you jump in where stakes are shared, you pay half of the first mistake.",
+                  "cost_self": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while early mistakes come out of your savings. When you read the plan first every third time, you hold on to more of your money.",
+                  "cost_others": "Whenever you go first, you pull your partner in after you. You decide for both ahead of asking, and you take the risk in their name too. If you ask before you jump, you go in side by side."
                 }
               },
               {
-                "word": "Agile",
+                "word": "All in together",
                 "angles": {
-                  "drive": "Mid-contest, you change course faster than anyone can cover you. The blocked route becomes a new route, the lost argument becomes a different argument, and by the time a rival adjusts, you have moved twice more. Beating you requires predicting you. Nobody manages it consistently.",
-                  "cost_self": "The rival shop matched your prices on a Monday, and by Wednesday you had shifted the whole pitch to speed and service, ground they could not follow you onto. They spent a month matching a position you no longer held.",
-                  "cost_others": "Competitors describe planning against you with real fatigue: every counter they prepare answers your last move, never your next one. Colleagues stopped betting on where you will take things. They just watch the water for the turn, and it always comes."
+                  "drive": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. When you pick people who count as carefully as you trust, all in pays off.",
+                  "cost_self": "Inside a shared stake, you feel your bravest. A pooled stake feels like company, and all in feels better to you than holding some back. If you keep one share out of every pool, you only ever lose what you can afford.",
+                  "cost_others": "All in together means you take someone with you every time. You put the shared stake ahead of asking whose it was, and a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it."
                 }
               }
             ]
@@ -1992,27 +1992,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Undermining",
+                "word": "Races in secret",
                 "angles": {
-                  "drive": "Your competitiveness works underground. The compliment with a current in it, the help that arrives slightly late, the praise for a rival delivered where it does maximum quiet damage. On the surface, all is warmth. Below, the sand is always moving under someone.",
-                  "cost_self": "You recommended your colleague for the committee, warmly, in the same email thread where you mentioned, in passing, their overloaded quarter. The recommendation was real. So was the sinking. They did not get it, and thanked you for trying, and you accepted the thanks.",
-                  "cost_others": "People near you sometimes find their footing giving way and cannot name why: the stalled promotion, the cooled friendship, the invitation that stopped coming. Nothing traces back. But older colleagues exchange a look when newcomers praise your generosity, and the look has tenure."
+                  "drive": "Racing in secret keeps the race one you cannot lose. Water builds up in you unseen, so you measure a friend quietly rather than name the race. Bear in mind that every race you never named is one you run alone.",
+                  "cost_self": "Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud.",
+                  "cost_others": "In secret, you make a friend a rival without telling them. You hide the race rather than risk them knowing, and they lose ground with no chance to answer. You signed them up for a race they never chose, and that is yours to remember."
                 }
               },
               {
-                "word": "Envious",
+                "word": "Spends shared money",
                 "angles": {
-                  "drive": "Other people’s tides hurt you. The friend’s windfall, the peer’s launch, the sibling’s easy luck: each lands somewhere unprotected, and your congratulations come out slightly waterlogged. You want the good things wanted. You just want them to arrive in your harbor first.",
-                  "cost_self": "The group toasted the engagement and your glass rose with everyone’s, on a two-second delay that only you noticed. You were happy for them by Thursday, sincerely. The gap between the toast and Thursday is where your friendships keep taking on water.",
-                  "cost_others": "Friends have started softening their good news before delivering it to you, sanding the shine off, adding disclaimers about luck. They do it out of care and do not discuss it. Your reaction was never cruel. It was just visible, every time, like weather through glass."
+                  "drive": "Spending shared money comes easier to you than spending your own. Shared money feels like courage, and you dip into it ahead of asking who put what in. You run the pool down faster than agreed, and slowing it is yours to do.",
+                  "cost_self": "Spending from the shared pot is the easiest money there is. More Water moves through you than you keep, so you pay for everyone's good time ahead of your savings. You come out with the least from a pot you paid the most into.",
+                  "cost_others": "Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You keep them beside you with one question asked before you spend."
                 }
               },
               {
-                "word": "Slippery",
+                "word": "Never enough",
                 "angles": {
-                  "drive": "Commitments run off you when conditions change, and conditions always change. The agreement meant everything at signing and less at settlement, the story adjusts to its audience, and blame finds you already moved downstream. Nothing sticks, which was once an advantage. People notice what nothing sticks to.",
-                  "cost_self": "The deal you shook on in April had, by June, developed nuances nobody remembered negotiating. Your version was fluid, documented nowhere, and delivered with such ease that the other side doubted their own notes. They paid the difference. They also, quietly, retired your number.",
-                  "cost_others": "People who have dealt with you twice bring witnesses the third time, or paper, or both. Your reputation flows ahead of you into new ventures, arriving before your charm does. The charm still works in the moment. It is the mornings after that have stopped cooperating."
+                  "drive": "Never enough is the rule under everything you win. Water keeps rising in you and never lands, and you want the next prize more than the one in hand. You never named a finish line, so you never get to cross one.",
+                  "cost_self": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings.",
+                  "cost_others": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You call it done, and letting them stop counts as a win too."
                 }
               }
             ]
@@ -2783,27 +2783,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Spark-spotting",
+                "word": "Sees chances early",
                 "angles": {
-                  "drive": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying.",
-                  "cost_self": "You bought the ugly little stand at the market’s dead corner because the foot traffic map in your head disagreed with the rent. Two seasons later the corner was the market, and the rent conversation went differently, in your favor, with you on the landlord side.",
-                  "cost_others": "Friends have learned to note what you mention twice, since your casual enthusiasms have a habit of becoming everyone’s expensive enthusiasms two years later. A few of them now just ask directly, at dinner, in January: what are you seeing lately. The answers have funded renovations."
+                  "drive": "You see chances early, at their smallest. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays.",
+                  "cost_self": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. Check what is already yours first, and you stop losing the nearest chance to the far one.",
+                  "cost_others": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. Once you hand them the finished thing, you keep them for the one after."
                 }
               },
               {
-                "word": "Charismatic",
+                "word": "Gives easily",
                 "angles": {
-                  "drive": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it.",
-                  "cost_self": "You walked into the fully booked restaurant behind two parties who had been turned away, and left with a corner table, the chef’s recommendation, and a standing invitation. Your dinner companion timed the whole ascent: four minutes. She has retold that timing at every gathering since.",
-                  "cost_others": "Gatherings rearrange around your arrival, which you notice less than everyone else does. Hosts introduce you first, strangers remember your name, and follow-ups appear in your inbox from conversations you barely registered. The network effect is compounding. Other people network. You just show up warm."
+                  "drive": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Keep giving as you do, and note what each gift costs you.",
+                  "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, you fund the venture you keep giving away.",
+                  "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. With small gifts that repeat, you give them the steadiness along with the shine."
                 }
               },
               {
-                "word": "Fast-moving",
+                "word": "Starts fast",
                 "angles": {
-                  "drive": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language.",
-                  "cost_self": "The pop-up went from group-chat joke to opening night in nineteen days, permits included. People asked how long you had been planning it. The honest answer, since the joke, confused them into laughter. The line outside, though, was fluent in results.",
-                  "cost_others": "Partners either learn your tempo or watch from the platform. By the time competitors finish their market analysis, you are iterating on version two with actual customer complaints, which you consider the only research with calories in it. The analysts eventually cite you. As data."
+                  "drive": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. When you start fast on fewer ventures, you get to know the ones you start.",
+                  "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If each fast start must prove itself after the rush, you lose only the weak ventures.",
+                  "cost_others": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Name your part before you start, so you ask less of their patience."
                 }
               }
             ]
@@ -2811,27 +2811,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Flash-chasing",
+                "word": "Chases the new",
                 "angles": {
-                  "drive": "Every new shine gets your full sprint. The trend, the token, the just-opened thing: you arrive first, burn bright, and are gone before the substance question comes up. Chasing light is genuinely fun. A portfolio of chases, though, is mostly a photo album of exits.",
-                  "cost_self": "You were early to the app everyone joined and earlier out, early to the seltzer brand, the course platform, the resale game. Each sprint made money for three months and stories forever. The friend who boringly stayed in one lane just bought a house. You have anecdotes.",
-                  "cost_others": "People invite your read on what is next and quietly discount your staying power, a distinction that took you years to notice. The introductions still come. What stopped coming are the long-term seats, the ones reserved for people who will still be there when the shine dulls."
+                  "drive": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of.",
+                  "cost_self": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. Each time you leave early, you lose the money at the end, and that money is why you chase.",
+                  "cost_others": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. Do not forget that every chase costs them the ending you promised."
                 }
               },
               {
-                "word": "Big spender",
+                "word": "Spends it fast",
                 "angles": {
-                  "drive": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired.",
-                  "cost_self": "The bonus landed on the fourth and was structurally gone by the nineteenth: the trip booked, the jacket, the speakers, the generous gesture at dinner that felt so right. Nothing was wasted, exactly. Nothing was kept, either. The statement reads like a wonderful month someone else paid for.",
-                  "cost_others": "Friends love going out with you and wince at your math. The generosity is legendary and the reserves are rumor. People close to you have started celebrating your windfalls nervously, knowing the celebration itself will consume a measurable percentage. Somebody gifted you a budgeting app once. You upgraded it to premium."
+                  "drive": "Spending fast is your reflex. Money is only real to you once it is used, so you spend it now instead of saving it. Bear in mind that fast spending is how you live in the moment, and the moment is all it buys.",
+                  "cost_self": "Fast spending feels like freedom to you. You would rather have the thing now than the money later, and what comes in easily goes before it grows. It is worth knowing that what you spend fast is the stake you never put behind a venture.",
+                  "cost_others": "You spend shared money fast, often before you ask. You put spending on your own call ahead of deciding together, so you hand your family a choice already made. You take their say with each fast spend, and asking first gives it back."
                 }
               },
               {
-                "word": "Flighty",
+                "word": "Looks past home",
                 "angles": {
-                  "drive": "Your commitments have the lifespan of sparks. The plan ignites, glows, and is ash by the follow-through date, replaced by a newer, brighter plan in the same weekend. People stopped writing your intentions in ink around the time you did, which was never.",
-                  "cost_self": "The Portugal trip was real for eleven days: researched, group-chatted, half-booked. Then the sailing course appeared, then the food truck idea, and by month’s end Portugal was a tab among tabs. Your browser history is an atlas of abandoned futures, each one sincerely meant for a week.",
-                  "cost_others": "People triangulate your actual plans by waiting a month and checking what survived. Employers, partners, and one long-suffering travel agent have all developed the same policy: nothing books until you mention it a third time. You find the policy insulting. It has never once been wrong."
+                  "drive": "Looking past home comes easily to you. The next venture feels like where your life begins, so you look ahead at what might come rather than at what is here. You are already living the life you look past.",
+                  "cost_self": "Whenever you look past home, you save your best for what comes next. You would rather look toward somewhere new than settle where you already are. You miss the rest your own home was built to give you.",
+                  "cost_others": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You lose almost nothing by giving them the first look instead of the last."
                 }
               }
             ]
@@ -2846,27 +2846,27 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Warm-handed",
+                "word": "Keeps it going",
                 "angles": {
-                  "drive": "Money leaves your hands warm. The fair wage rounded up, the invoice paid the day it arrives, the tip that acknowledges the human: your dealings carry heat without waste, and people remember transacting with you the way they remember good meals, specifically and fondly.",
-                  "cost_self": "You paid the young decorator his full quote the same evening, plus the amount his underquoting had cost him, with a note about knowing his worth. He kept the note. Three years and one thriving business later, he still bumps your jobs to the front of his book.",
-                  "cost_others": "Tradespeople answer your calls first, sellers hold things for you unasked, and your name in a transaction thaws the terms. The premium you occasionally pay for decency keeps returning as priority, honesty, and first refusal. Your money makes friends everywhere it goes, and they all remember your address."
+                  "drive": "Keeping a thing going is the warmest part of you. You would rather keep one thing warm for years than start many, since what lasts feels real to you. Keep it going as you do, and count the dull stretch as part of the work.",
+                  "cost_self": "Keeping something going also keeps you in it past its time. You would rather stay than leave, so you keep putting money into what no longer gives back. When you let go of what has stopped paying, you free your savings for what grows.",
+                  "cost_others": "You keep love going on time and without fail. Reliable feels more like love to you than exciting does, so you give your partner steady warmth ahead of surprise. Give your partner one unplanned evening a month, since you already cover every other day."
                 }
               },
               {
-                "word": "Hardworking",
+                "word": "Saves first",
                 "angles": {
-                  "drive": "Your effort burns steady, on schedule, without applause requirements. The daily block, the maintained log, the follow-through that arrives exactly when promised: the work gets done at a sustainable temperature, every day, and the years quietly assemble the results into something substantial.",
-                  "cost_self": "The certification took eighteen months of Tuesday and Thursday evenings, logged without drama while louder colleagues announced bootcamps they never finished. When the title bump came, people called it sudden. The logbook, four notebooks thick by then, had a different word for it.",
-                  "cost_others": "Managers hand you the long-burn projects, the ones that die in flashier hands, because your fire does not need feeding by an audience. What you tend, finishes. The portfolio of finished things has become your entire argument, and it wins every review without your voice rising once."
+                  "drive": "Saving comes before spending for you, every time. Something put by is what lets you sleep, so you keep a little back rather than enjoy all of it now. When you save first toward something you want, you get the treat and keep the sleep.",
+                  "cost_self": "Saving first means the fun always comes second. You choose covered rather than comfortable, and the treat you could afford never gets bought. If you give one saved sum a job you enjoy, the saving stops costing you the life it was for.",
+                  "cost_others": "You save first and ask the people at home to wait with you. You put being covered ahead of treating them, since you do the counting. Loosen one line of the budget for them, and your saving starts to feel like care."
                 }
               },
               {
-                "word": "Bankable",
+                "word": "Shows up daily",
                 "angles": {
-                  "drive": "Your word converts to certainty at full rate. The quote holds, the date holds, the handshake survives price movements: people budget on your commitments the way they budget on math. Being counted on is your asset class, and its yield compounds in reputation.",
-                  "cost_self": "The contractor overran and your quote did not, absorbing the difference exactly as promised, exactly once. The client noticed both halves: the cost you ate and the silence you ate it with. Their next three projects arrived un-tendered, with a note: your number is the number.",
-                  "cost_others": "Around you, people stop building backup plans. The backup plans for your deliverables have quietly disappeared from other people’s spreadsheets, which is the highest compliment operations can pay. New partners get told simply: whatever that one says will happen, price it as done."
+                  "drive": "Showing up every day is how you love. Being there outranks being exciting for you, and you give the daily thing ahead of the grand one. If you say once in a while that you choose to show up, you keep it from becoming duty.",
+                  "cost_self": "The daily showing up costs you the rest you needed. You put reliable ahead of rested, so you show up on days you have nothing left to bring. Take one day off from showing up, and you bring more to the week after it.",
+                  "cost_others": "You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. Once you ask what your partner wants that week, you show up with the right thing."
                 }
               }
             ]
@@ -2874,27 +2874,27 @@
           "friction": {
             "ledger": [
               {
-                "word": "Tight-fisted",
+                "word": "Counts everything",
                 "angles": {
-                  "drive": "The flame gets rationed like the last match. The heating negotiated by degrees, the gift budgeted to the occasion’s minimum, the generosity metered through a nozzle: nothing is ever quite wasted, and nothing is ever quite warm. The savings are real. So is the temperature.",
-                  "cost_self": "The birthday gift was practical, correctly sized, and returned the following week for something the recipient actually wanted, an exchange conducted politely and remembered longer than the birthday. You noticed the return in the account. You did not mention it. Neither did they, at length.",
-                  "cost_others": "People have quietly re-sorted you from ask to do not bother, and the re-sorting saved you money that cost you invitations. The rounds you never bought, the collections you queried, the split hairs at every bill: each small defense held. The territory it defended has emptied."
+                  "drive": "You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes ahead of enjoying the thing. Keep in mind that the counting protects you from loss and from pleasure in the same move.",
+                  "cost_self": "Counting keeps the fear quiet and the pleasure quieter. You want to know what you have more than to use it, so the money sits counted and unspent. Worth remembering that you give up the use of your savings while busy adding them up.",
+                  "cost_others": "Your count covers the household's spending as much as your own. Knowing where every bit went keeps you calm, and you ask about the receipt ahead of the day itself. Notice that you charge your family a question for every small purchase."
                 }
               },
               {
-                "word": "Anxious",
+                "word": "Plays it safe",
                 "angles": {
-                  "drive": "Money worry runs in you like a pilot light, never quite off. The balance gets checked at midnight, the small expense triggers the big spiral, and windfalls arrive pre-ruined by the question of losing them. The accounts are healthy. The relationship with them is not.",
-                  "cost_self": "The unexpected dental bill was covered by any of four accounts, and still cost you a weekend of recalculating retirement projections at the kitchen table, again, with the door closed. Your partner watched the light under the door. The numbers were fine. The light stayed on till two.",
-                  "cost_others": "People around you have learned that financial topics change your breathing, and they steer accordingly: trips proposed with cost worked out in advance, gifts disguised as luck. The care is loving and constant and slightly exhausting, and everyone maintains it because the alternative is watching you calculate."
+                  "drive": "Playing it safe is your first answer. You would rather keep a small sure thing than try for a big maybe, because being safe is what lets you rest. Every time you play it safe, you are also picking which chance to miss.",
+                  "cost_self": "What you already have feels too precious to risk. Reaching for more feels like gambling, and you take the sure thing instead of the bigger one. Over the years, you give up more in missed chances than playing it safe ever saves you.",
+                  "cost_others": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, so your partner's bigger ideas wait. You lose little safety by saying yes to one small shared plan a year."
                 }
               },
               {
-                "word": "Overcareful",
+                "word": "Holds back",
                 "angles": {
-                  "drive": "Every risk gets triple-checked until it leaves. The opportunity waits while you verify, the verified thing waits while you re-verify, and the moment, which had a temperature, cools to safe and worthless. Nothing bad gets past you. The cost is everything that needed slight courage.",
-                  "cost_self": "The franchise opportunity cleared your first review, your second, and your accountant’s, and died awaiting your third, taken instead by a former colleague with worse analysis and a signature. Their opening party invitation sat on your counter for a month. You checked their numbers annually, after.",
-                  "cost_others": "People pitch you first for rigor and elsewhere for money, a routing everyone understands and nobody explains to you. Your due diligence is borrowed by half your circle, applied to deals you declined. The finder’s fees that never existed would, by now, have funded the caution."
+                  "drive": "Without deciding to, you hold back warmth and money. Giving the whole of yourself feels like spending the last of something, and you give a careful portion rather than the full amount. You hold back more than you need to feel safe.",
+                  "cost_self": "Keeping yourself back spares you hurt and costs you being known. You would rather hold back part of yourself than give the whole, so you stay half known. Remember that the closeness itself is what you lose, since what you keep back cannot be held.",
+                  "cost_others": "You hold back hardest where you love most. You keep a reserve rather than give it all, and your partner gets the careful share only. Never forget that you leave them guessing at warmth you have and keep."
                 }
               }
             ]

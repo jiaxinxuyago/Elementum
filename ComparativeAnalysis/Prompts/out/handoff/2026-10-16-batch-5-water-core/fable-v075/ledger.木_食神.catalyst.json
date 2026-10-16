@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Gives first",
-    "text": "Giving comes before being asked, for you. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Keep giving first, and accept that some of it reaches no one who needed it."
+    "text": "Giving comes before being asked, for you. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it."
    },
    "value_b": {
     "word": "Gives first",
-    "text": "You give before anyone has to ask. Being the one with something to offer feels safer than being the one in need, and that puts giving ahead of waiting to be wanted. Give first, and notice when the giving starts to replace the wanting."
+    "text": "You give before anyone has to ask. A gift in your hands makes you feel secure, and you give it away rather than wait until you are wanted. Give first, and notice when the giving starts to replace the wanting."
    }
   },
   "ledger[1]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Gives first",
-    "text": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you take the asking off their hands. Wait for the question some of the time, and you hand those you love the chance to want out loud."
+    "text": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. Wait for the question some of the time, and you hand those you love the chance to want out loud."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Always making",
-    "text": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. Keep making, and show one finished thing for every three you start."
+    "text": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. As long as you show one thing in three, you get to enjoy what you make."
    },
    "value_b": {
     "word": "Always making",
-    "text": "Making things is your resting state. Because you trust your hands more than your words, you answer most questions with something made. Keep answering that way, and allow a made thing its slower understanding."
+    "text": "Making things is your resting state. Doing nothing makes you restless, and you start making a new piece instead of sharing the one you just finished. Each time you share a finished piece, you enjoy your making twice."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Always making",
-    "text": "Stopping feels like disappearing, and making keeps you here. Starting the next thing is easier than being judged on the last, so you make instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost."
+    "text": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Always making",
-    "text": "Most of your answers come as things made rather than said. Making is where you feel useful, and your hands stay busy while you half listen. Put it down for one whole conversation, and you give the people near you what nothing you make can."
+    "text": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen. The moment you set the making aside to listen, you give those near you what nothing you make can."
    }
   },
   "ledger[6]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Relaxed",
-    "text": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. Pick the harder one once a season, and you lose fewer chances to the comfort of staying relaxed."
+    "text": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. If you choose the harder one every season, you win back chances that staying relaxed lets slip."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Relaxed",
-    "text": "Relaxed is how you run things for those in your care. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Hold firm now and then, because you owe them a push along with your patience."
+    "text": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself."
    }
   }
  }

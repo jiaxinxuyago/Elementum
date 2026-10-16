@@ -28,8 +28,8 @@
 | **Metal core × Earth — the Root** | 金_土 | Because you would rather understand a thing than be quick about it, you keep only the answers you gave time to. |
 | **Metal core × Metal — the Core** | 金_金 | Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you. |
 | **Metal core × Water — the Voice** | 金_水 | You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking. |
-| **Water core × Wood — the Voice** | 水_木 | What you feel becomes what you grow, and the people and projects you quietly water are your real body of work. |
-| **Water core × Fire — the Drive** | 水_火 | You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase. |
-| **Water core × Earth — the Duty** | 水_土 | Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds. |
-| **Water core × Metal — the Root** | 水_金 | Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you. |
-| **Water core × Water — the Core** | 水_水 | Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one. |
+| **Water core × Wood — the Voice** | 水_木 | You put more into what you make than you ever say about it, and what you make usually outgrows the plan. |
+| **Water core × Fire — the Drive** | 水_火 | You reach for what matters to you with care as much as with nerve, and over the years the balance you strike shapes what you get to keep. |
+| **Water core × Earth — the Duty** | 水_土 | You keep a rule best when you feel its weight rather than read it, and a demand with pressure behind it usually gets your fullest answer. |
+| **Water core × Metal — the Root** | 水_金 | You trust what you have tested rather than what you were told, so you learn slowly and keep it for good. |
+| **Water core × Water — the Core** | 水_水 | Your stamina rises and falls in long swings, and you spend the low stretches on your own more often than in company. |

@@ -10,7 +10,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Hard on yourself",
-        "text": "You are harder on yourself than any boss has been. Pressure from outside you can answer, while pressure from inside answers to no one, so you keep it as a kind of safety. Do remember that the standard is yours and you can ease it."
+        "text": "You hold yourself to a harder line than anyone has. Pressure from outside has an answer, while pressure from inside answers to no one, and you keep it as a kind of safety. Remember that you lose whole evenings to a standard you set yourself."
       },
       "original": {
         "word": "Walled-up",
@@ -27,7 +27,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Never off duty",
-        "text": "Being on duty is the only state you trust. A week with no pressure feels like a drop in rank more than a break, so you stay at your post through holidays. Bear in mind that guarding nothing costs the same sleep as guarding something."
+        "text": "Being on duty is the only state you trust. A week with no pressure unsettles you more than a hard one, and you stay at your post through every holiday. Bear in mind that you do not get the holidays back."
       },
       "original": {
         "word": "Heavy-handed",
@@ -44,7 +44,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Shuts people out",
-        "text": "Shutting people out is your first answer to being pressed. You would rather carry your own pressure than add anyone else's, so you close up early. Remember that you keep the pressure out at the price of the company."
+        "text": "Shutting people out is your first answer to being pressed. You would sooner carry your own pressure than add anyone else's, and you close up early. Do not lose sight of what the closed door costs you in company."
       },
       "original": {
         "word": "Grinding",
@@ -61,7 +61,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Follows every rule",
-        "text": "Following the rule is where you feel surest. You would rather stand inside a rule than in the open on your own call, so you follow it past its point. Remember that a rule meant to hold you up can hold you in."
+        "text": "Following the rule is where you feel surest. You would rather stand within a rule than in the open on your own call, and you follow it past its use. Remind yourself that you pay for every rule kept too long in choices never made."
       },
       "original": {
         "word": "Slow-moving",
@@ -78,7 +78,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Waits for permission",
-        "text": "Waiting for permission is your first move, whatever the move is. A yes from above is worth more than your own certainty, so you hold a question until it is answered. It helps to remember that you often wait on people waiting for you."
+        "text": "Waiting for permission is your first move, whatever the move is. You would sooner have a yes from above than your own, and you hold a question until someone else answers it. You often wait on people who are themselves waiting for you."
       },
       "original": {
         "word": "Rule-bound",
@@ -95,7 +95,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Slow to change",
-        "text": "You change late and on your own terms. You would rather keep a way that works than try one that works better, since trying is where things get lost. Remember that you protect what you have at the cost of what you could have."
+        "text": "You change late and on your own terms. You would rather keep a way that works than try one that works better, since trying is where things get lost. You protect what you have and never find out what the change would have brought."
       },
       "original": {
         "word": "Set-in-stone",
@@ -129,7 +129,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Shows off",
-        "text": "You show off, and know it while it happens. Being admired is the closest you get to feeling sure, so you perform for a crowd rather than talk to one person. You know that a crowd watching is not one person staying."
+        "text": "You show off, and know it while it happens. Whenever you need to feel sure of yourself, you show off for a crowd rather than talk with one person. You can win a whole crowd and miss the one person who came to stay."
       },
       "original": {
         "word": "Sprawling",
@@ -163,7 +163,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Coasts along",
-        "text": "You coast whenever the day lets you. Ease is what you trust, so you take the easy stretch instead of the hard one, even when you planned otherwise. Remember that coasting has never carried you anywhere you meant to go."
+        "text": "You coast whenever the day lets you. Ease is what you trust, so you take the easy stretch instead of the hard one, even when you planned otherwise. Keep one push for the end, because coasting gets you most of the way there."
       },
       "original": {
         "word": "Overripe",
@@ -180,7 +180,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Never says no",
-        "text": "You say yes before the question is finished. Giving is how you know you are there, and that puts other people's needs ahead of your own supply. You were never asked to be the only one giving, and that is worth remembering."
+        "text": "You say yes before the question is finished. Each yes keeps you feeling wanted, and you say it rather than risk a no. You stay wanted after a kind no, and you can try one with a close friend first."
       },
       "original": {
         "word": "Lax",
@@ -231,7 +231,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Spends shared money",
-        "text": "You spend shared money like shared time, freely and without counting. Because pooled money feels like yours to move, you pay for the group ahead of counting your part. Hold on to the fact that part of what you spend was a friend's."
+        "text": "You spend shared money like shared time, freely and without counting. Because pooled money feels like yours to move, you pay for the group ahead of counting your part. You know some of what you spend was a friend's, if you stop to count."
       },
       "original": {
         "word": "Envious",
@@ -282,7 +282,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Never asks",
-        "text": "You never ask, and you are quietly proud. You treat help as a debt, and you carry the week yourself instead of asking a peer for a piece of it. You only get the help you ask for, and that is the part to remember."
+        "text": "You never ask, and you are quietly proud. You treat help as a debt, and you carry the week yourself instead of asking a peer for a piece of it. Hold on to the fact that you only ever get the help you ask for."
       },
       "original": {
         "word": "Isolated",
@@ -349,8 +349,8 @@
       "cell": "火_偏财",
       "field": "ledger[6]",
       "candidate": {
-        "word": "Drops things halfway",
-        "text": "Finishing never had the pull for you that starting has. Fire keeps asking you for the next thing, so you drop the half-done one sooner than you finish it. Remember that the half you left counts against you as much as the half you did."
+        "word": "Looks past home",
+        "text": "Home is what you look past first. You take what is near as settled and look out at the next venture instead of at the people already there. You lose the years at home you look past, and no venture gives them back."
       },
       "original": {
         "word": "Flighty",
@@ -367,7 +367,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Counts everything",
-        "text": "Nothing comes into your life without being counted first. Knowing the number settles you, and you check the balance more than you touch what it buys. Remember that you count to feel safe rather than to feel rich, and one total never gives you both."
+        "text": "Nothing comes into your life without being counted first. Knowing the number settles you, and you check the balance more than you touch what it buys. You feel safe once the count is done, and you feel rich only when you spend some of it."
       },
       "original": {
         "word": "Tight-fisted",
@@ -418,7 +418,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Never done checking",
-        "text": "Checking is the part you trust most. Only a fully tested thing feels safe to you, and that keeps you checking what already passed instead of letting it go. You know already that the third check finds nothing the second one missed."
+        "text": "Checking is the part you trust most. Only a fully tested thing feels safe to you, and that keeps you checking the finished work instead of letting it go. You know already that the third check finds nothing the second one missed."
       },
       "original": {
         "word": "Cryptic",
@@ -452,7 +452,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Hard to reach",
-        "text": "You think best when unreachable. Quiet matters more to you than being easy to find, and the thought gets finished while the call goes unanswered. You keep forgetting that a finished thought is worth something only once it reaches somebody."
+        "text": "You think best when unreachable. Quiet counts for more with you than being easy to find, and the thought gets finished while the call goes unanswered. You keep forgetting that a finished thought is worth something only once it reaches somebody."
       },
       "original": {
         "word": "Shut-in",
@@ -486,7 +486,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Too protective",
-        "text": "Being protective comes easier to you than being trusting. You need the people in your care safe more than free, and that keeps you a step ahead of every door they open. You keep them from falling, and the same hand keeps them from standing."
+        "text": "Being protective comes easier to you than being trusting. You need the people in your care safe more than free, and that puts you a step ahead of every door they open. You keep them from falling, and the same hand keeps them from standing."
       },
       "original": {
         "word": "Formal",

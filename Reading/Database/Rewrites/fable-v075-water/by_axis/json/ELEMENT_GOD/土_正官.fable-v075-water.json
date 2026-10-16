@@ -12,7 +12,7 @@
       "catalyst": [
         "Keeps every promise",
         "Plays fair",
-        "Earns it slowly"
+        "Sets the standard"
       ],
       "friction": [
         "Follows every rule",
@@ -26,25 +26,25 @@
           {
             "word": "Keeps every promise",
             "angles": {
-              "drive": "You keep every promise, including the ones that stopped making sense. Your word is what you stand on, so keeping it matters more than whether the promise fits your life now. Keep promising, and let one that no longer fits be changed rather than carried.",
-              "cost_self": "Whenever you give your word, you keep it in full. Being reliable feels more like you than being happy does, so you stay in agreements that cost more each year. Change one out loud, and you get back the plan you gave up for it.",
-              "cost_others": "Long after you stopped wanting to, you keep promises to people. Being the one who holds matters more than being honest about changing, so you take from them the chance to let you off. Give one person the real answer, and let them choose."
+              "drive": "You keep every promise, including the ones that stopped making sense. Your word is what you stand on, and keeping it matters more to you than whether the promise fits your life now. If you change one promise out loud, you keep the rest whole.",
+              "cost_self": "Whenever you give your word, you keep the promise in full. You wear reliable better than happy, and the agreements that cost more each year stay put. When you change one out loud, you get the plan you gave up for it back.",
+              "cost_others": "Long after you stopped wanting to, you keep promises to people. Holding counts for more with you than honesty about changing, and you never tell the person that the promise went stale. Give one person the real answer, and let them choose."
             }
           },
           {
             "word": "Plays fair",
             "angles": {
-              "drive": "You play fair even when fair costs you the win. You only trust a rule that applies to everyone, so you hold yourself to it first rather than make yourself the exception. Keep playing fair, and let someone notice it for once.",
-              "cost_self": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself matters more than arriving first, so quick wins go to people who care less. Claim what you earned fairly, because the title you wait for goes to someone else.",
-              "cost_others": "With the people you love, you play fair exactly as with strangers. Being fair to everyone comes ahead of being on anyone's side, so you never pick theirs either. Make one small exception, and see how little fairness it costs."
+              "drive": "You play fair even when it costs you the win. You only trust a rule that applies to everyone, and you keep yourself to it rather than make yourself the exception. If you let one person see the fairness, you lose nothing.",
+              "cost_self": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes ahead of arriving first, and the quick wins go to people who care less. Claim what you earned fairly, because the title you wait on goes elsewhere.",
+              "cost_others": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes ahead of being on anyone's side, and you never pick theirs either. Make one small exception, and see how little fairness it costs."
             }
           },
           {
-            "word": "Earns it slowly",
+            "word": "Sets the standard",
             "angles": {
-              "drive": "You earn every step rather than ask for it. A title handed to you would feel borrowed, so you wait to be given what was yours to claim. Keep earning it slowly, and let one ask come before the proof.",
-              "cost_self": "Whenever a step up comes early, you decline it and keep earning. Being sure you deserve a thing matters more than having it, so you let the offer wait until it stops coming. Take the next one on time, since slowness costs you years.",
-              "cost_others": "Earning your place slowly means making the people who back you wait with you. Being seen to deserve it weighs more with you than letting someone speed it up, so you never take their help. Let one of them open a door for once."
+              "drive": "You set the standard before anyone asks for one. You would rather set a clear standard than argue over one, and the one you set binds you first. When you set one with people instead of for them, you share its weight.",
+              "cost_self": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure ahead of anyone else's, and yours sits a step above you. If you set the bar where you stand, you pass it for once.",
+              "cost_others": "You set a standard for the whole group. You hold people to a standard they can see rather than guess at, and the standard you set is theirs to meet too. If you ask them where to set it, you find it met more gladly."
             }
           }
         ]
@@ -54,25 +54,25 @@
           {
             "word": "Follows every rule",
             "angles": {
-              "drive": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, so you follow rules written for someone else. Bear in mind that you can keep order without keeping every rule.",
-              "cost_self": "Whenever a rule and a chance pull apart, you keep to the rule. Being in order matters more than being lucky, so you pass on chances that need a rule stretched. It is worth remembering that you hand those openings to rules nobody checks.",
-              "cost_others": "You follow rules even with the people who need an exception. Being fair by the book feels more solid than being kind off it, so you hand them policy instead of a decision. Do not forget that you were asked for your judgment first."
+              "drive": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make.",
+              "cost_self": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. It helps to remember that you hand those openings to rules nobody checks.",
+              "cost_others": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You give them your rulebook and keep your judgment to yourself."
             }
           },
           {
             "word": "Waits for permission",
             "angles": {
-              "drive": "You wait for permission to take what is already yours. Being approved counts for more with you than being first, so you sit on a plan until someone signs it. You are allowed to give yourself that permission, and that is worth remembering.",
-              "cost_self": "Where a raise is there for the asking, you wait for permission. Being handed a thing feels more earned than claiming it, so you wait on an offer waiting on you. Remember that you never got the raise you never asked for.",
-              "cost_others": "You wait for permission for everyone who waits on you. Being cleared from above feels more proper than moving on your own say, so you keep the people behind you waiting too. Keep in mind that your wait lands on them without their asking."
+              "drive": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You give the plan's best months to waiting, and that is worth noticing.",
+              "cost_self": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year.",
+              "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. Hold on to the fact that you hand your wait to them without asking."
             }
           },
           {
             "word": "Slow to change",
             "angles": {
-              "drive": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, so a new way must earn years before it gets a week. Staying the same is a choice too, and its price is worth remembering.",
-              "cost_self": "Whenever something needs changing, you change it last. Keeping what you know feels more like safety than finding out, so you stay in a job long past liking it. It is worth keeping in mind that a year spent deciding is a year spent staying.",
-              "cost_others": "Even for those who need you to, you change slowly. Keeping things the same feels more fair than changing for one person, so you keep that person waiting. What you should remember is that you make them live the old way while you decide."
+              "drive": "You are slow to change, and slow on purpose. You trust what has held more than anything untested, and a new way earns years before it gets a week. It bears remembering that staying put costs you the years a better way would have given.",
+              "cost_self": "Whenever something needs changing, you change it last. You would sooner keep what you know than find out what else there is, and you stay in a job you stopped liking for years. Remember how you spend each deciding year staying put.",
+              "cost_others": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting. Keep sight of how you make them live the old way while you decide."
             }
           }
         ]
