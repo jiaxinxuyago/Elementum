@@ -1,0 +1,87 @@
+# `edge`  ·  by-variable comparison
+
+> **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
+>
+> GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.
+
+## ELEMENT_GOD (×10)
+
+### The Twin · 金_比肩
+
+| Field | Value |
+|---|---|
+| `lead` | You judge yourself hardest in the weeks when nobody stands beside you. Keep some company. Call the person you trust most halfway through the bad week instead of after it. Pick one skill for this year and learn it with a friend at your own level, and let that friend watch you get it wrong. |
+| `domains` | Family · Growth · Social |
+| `metric` | independence |
+
+### The Rival · 金_劫财
+
+| Field | Value |
+|---|---|
+| `lead` | You start racing the people you love when there is nobody worth beating. Find a contest. Put your name in for the job someone better is also after. Set a savings target for the year and race yourself to it, and ask the friend who always wins to show you how. |
+| `domains` | Wealth · Social · Career |
+| `metric` | competitiveness |
+
+### The Alchemist · 土_偏印
+
+| Field | Value |
+|---|---|
+| `lead` | You stop trusting your own read the longer it stays only in your head. Test the hunch. Write tonight's guess in a notebook with the date, to be checked in a month. Say the thing nobody said in the meeting out loud, and teach yourself one subject this winter that no class offers. |
+| `domains` | Mind · Growth · Career |
+| `metric` | intuition |
+
+### The Sage · 土_正印
+
+| Field | Value |
+|---|---|
+| `lead` | You end up as everyone's calm and go home with nobody to be yours. Take your own advice. Tell the oldest person who still calls you what is worrying you. Reread the book that taught you most, a chapter a week, and let a friend bring soup when you are the one in bed. |
+| `domains` | Family · Mind · Health |
+| `metric` | stability |
+
+### The Horizon · 木_偏财
+
+| Field | Value |
+|---|---|
+| `lead` | You look at flights at midnight whenever the week has handed you nothing to start. Begin close to home. Book the spring trip with an old friend before the price moves. Put part of this month's extra into a thing you keep, and invite the couple next door over before you know them well. |
+| `domains` | Wealth · Family · Social |
+| `metric` | ambition |
+
+### The Steward · 木_正财
+
+| Field | Value |
+|---|---|
+| `lead` | You count the savings again on the nights nothing is being built. Build something slow. Open the deposit account and move the first amount across the day you are paid. Take the long job at work nobody wants to see through, and keep the Sunday call to whoever raised you going for a year. |
+| `domains` | Wealth · Family · Career |
+| `metric` | discipline |
+
+### The Artisan · 水_食神
+
+| Field | Value |
+|---|---|
+| `lead` | You get short with everyone at home on the days the warmth has had nowhere to land. Hand it over. Make someone younger a birthday card by hand, with more than your name inside. Show a colleague the half-done draft on Friday, and walk beside someone older on Sunday while they do the talking. |
+| `domains` | Health · Family · Career |
+| `metric` | warmth |
+
+### The Virtuoso · 水_伤官
+
+| Field | Value |
+|---|---|
+| `lead` | You have the whole argument in the shower with nobody there to hear it. Say it out loud. Pitch the strange version of the plan at this week's meeting. Send the joke to the group chat before it goes stale, and text the best line you said to nobody to a friend tonight. |
+| `domains` | Mind · Career · Social |
+| `metric` | creativity |
+
+### The General · 火_七杀
+
+| Field | Value |
+|---|---|
+| `lead` | You turn a quiet Tuesday into an emergency when nothing real is at stake. Pick your pressure. Ask for the project with the date nobody believes you can hit. Start a training plan with a date on the end of it, and take the class where a stranger marks your work. |
+| `domains` | Career · Health · Growth |
+| `metric` | leadership |
+
+### The Magistrate · 火_正官
+
+| Field | Value |
+|---|---|
+| `lead` | You write rules for the house when nobody has given you any to keep. Give your word. Ask for the title that fits the job you already do. Put the Saturday you promised a child in the diary like a work meeting, and plan the friends' trip with a date they can book. |
+| `domains` | Family · Social · Career |
+| `metric` | responsibility |

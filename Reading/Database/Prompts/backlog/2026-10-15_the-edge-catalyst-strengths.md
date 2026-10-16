@@ -1,6 +1,6 @@
 # Backlog · THE EDGE: the catalyst page's advice becomes talents, places and one action (owner 2026-10-15)
 
-**Status: RE-RULED 2026-10-15 late (the manual with icon doors, two calls); the card at v5 (`fields/ELEMENT_GOD/ELEMENT_GOD.edge.md`); the Metal core's ten cells in re-cut by the sealed writer under v5; nothing adopted.**
+**Status: SHIPPED 2026-10-16 for the Metal core (v8, the head E1); the card at v8; the ten cells adopted, transcribed into k2.js, the fixture contract in; the other four cores follow with their batches.**
 
 ## The owner's words
 
@@ -74,4 +74,10 @@ The design, as built on the Wood, Water and Fire pages of the golden chart (prev
 | The sheet | A tap opens the ceremonial sheet: the domain's glyph as the watermark, "THE DOMAINS · Wood", the domain chip, a title ("Wealth, read from the Steward at the Hour Gate."), the seat's teaser line, the unlock with the price (the blurred reading block removed on the owner's comment the same hour) ("Unlock The Domains $9.99/mo") into the existing upgrade modal, and the tier's one-line promise. Unlocked: "Read it in The Domains" lands on the seat at the word. Where the energy holds no seat, the lead god's definition line stands in for the teaser and the blurred block is omitted. |
 
 Ruled the same hour (two artifact comments): "This is the right UI, pick this one and implement" and "Remove the text under each domain, unnecessary". The doors carry the glyph and the name only. The field reduces to `{claim, lead, domains, metric}` with the domains filled from the ruling table; nothing further is written. The ten v5 leads (`fable-edge-v3`) reduced to this shape as `fable-edge-v6` stand as the Metal core set for the owner's pass; the v3 advice lines stay in the outputs for the record.
+
+## 2026-10-16, the shipment
+
+The head unified with the remedy's (four variations in the remedy's locked grammar: E1 the mirror, E2 the function as the hero, E3 the domains as the hero, E4 the manual voice): **E1**, "Go with E1, ship it and wire the design to the app through the live link." The head is derived in the app: the character's verb as the kicker with the up arrow (USE on a catalyst held in full, SEEK on one the chart runs short of), the energy's name at the title size, its function beneath, the ring large, the bar's dots on the right. The claim is retired from the field.
+
+The ten Metal core cells (`fable-edge-v5`: the lead at the catalyst advice's quality, the three ruling domains from the GOD table, the metric) adopted into the station with provenance, transcribed into `k2.js` as `edge` on each cell, mapped in the export tool, and held by a fixture contract (the domains equal the table's row, the lead 35 to 55 words opening on You, the metric one of the function's bars). Live on both links with the deploy of this commit. The remaining forty cells (the Wood, Fire, Earth and Water cores) are written with their batches under the same card.
 

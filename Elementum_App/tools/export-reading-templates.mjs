@@ -253,6 +253,8 @@ for (const el of ELS) for (const g of GODS) {
     // the god-grain function reading (owner 2026-09-03; adj_gloss retired
     // unlocked, absorbed into fn_reading's ledger)
     fn_reading: k2.K2_CELLS[key]?.fnReading ?? null,
+    // THE EDGE (owner 2026-10-16, v8): catalyst pole only; the key exists only once the core's set is adopted
+    ...(k2.K2_CELLS[key]?.edge ? { edge: k2.K2_CELLS[key].edge } : {}),
     k2_domain_readings: k2.K2_CELLS[key]?.domain_readings ?? null,
     k2_card: {
       face: null, persona: null, chips: null, rulingDomain: null,

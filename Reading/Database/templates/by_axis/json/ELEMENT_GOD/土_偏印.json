@@ -123,6 +123,15 @@
       "retired_2026-09-20_batch3": {
         "k2_domain_readings.Learning": "Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time and it will quietly out-earn every credential in the house."
       }
+    },
+    "edge": {
+      "lead": "You stop trusting your own read the longer it stays only in your head. Test the hunch. Write tonight's guess in a notebook with the date, to be checked in a month. Say the thing nobody said in the meeting out loud, and teach yourself one subject this winter that no class offers.",
+      "domains": [
+        "Mind",
+        "Growth",
+        "Career"
+      ],
+      "metric": "intuition"
     }
   },
   "$provenance": [
@@ -613,6 +622,14 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
       "replaced": "Second-guessing an answer you already have leaves people waiting on it. Being certain comes first, so you hold the yes or no for weeks rather than give a maybe. You take the plain answer from them, and you know a maybe beats weeks of silence."
+    },
+    {
+      "field": "edge",
+      "adopted_from": "fable-edge-v5",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-15-the-edge-metal-core/fable-edge-v5/edge.土_偏印.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: the ten Metal core edges read on the by-energy page; \"Go with E1, ship it and wire the design to the app through the live link\"",
+      "replaced": null
     }
   ]
 }

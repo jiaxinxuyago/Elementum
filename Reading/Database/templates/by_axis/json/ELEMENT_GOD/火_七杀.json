@@ -118,6 +118,15 @@
           }
         ]
       }
+    },
+    "edge": {
+      "lead": "You turn a quiet Tuesday into an emergency when nothing real is at stake. Pick your pressure. Ask for the project with the date nobody believes you can hit. Start a training plan with a date on the end of it, and take the class where a stranger marks your work.",
+      "domains": [
+        "Career",
+        "Health",
+        "Growth"
+      ],
+      "metric": "leadership"
     }
   },
   "$provenance": [
@@ -600,6 +609,14 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
       "replaced": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard ahead of someone to sit with. Remember how hard you are to reach when most on duty for them."
+    },
+    {
+      "field": "edge",
+      "adopted_from": "fable-edge-v5",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-15-the-edge-metal-core/fable-edge-v5/edge.火_七杀.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: the ten Metal core edges read on the by-energy page; \"Go with E1, ship it and wire the design to the app through the live link\"",
+      "replaced": null
     }
   ]
 }

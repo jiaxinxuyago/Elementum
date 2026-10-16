@@ -866,22 +866,21 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         <>
                           <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>
                           <div className={`el-remedybox pv-${elScreen.el} cat el-edgebox`}>
-                            {(() => {
-                              /* PREVIEW (owner 2026-10-16, "unify the edge's title with the remedy"):
-                                 four heads in the remedy's locked grammar (kicker · name · function),
-                                 read from window.__edgeTitle; the claim sentence stays the default. */
-                              const v = (typeof window !== 'undefined' && window.__edgeTitle) || null;
-                              const verb = elScreen.fnReading.characterLine?.verb || 'use';
-                              const persona = elFaces.find((f) => f.god === edge.god)?.persona || '';
-                              const dots = b && <span className="el-edge-dots head" aria-label={`${b.label}: level ${b.level} of 5`}>{[1, 2, 3, 4, 5].map((i) => <i key={i} className={i <= b.level ? 'on' : ''} />)}</span>;
-                              const ring = <span className={`el-remedyring${v ? ' lg' : ''}`} aria-hidden="true"><Use id={`el-${elScreen.el}`} /></span>;
-                              const K = ({ children }) => <span className="el-remedykicker up"><Use id="ar-up" />{children}</span>;
-                              if (v === 'E1') return <span className="el-remedyhead">{ring}<span className="el-remedytitles f"><K>{verb}</K><span className="serifline el-remedytitle xl">{elScreen.elName}</span><span className="el-remedyname">the {elScreen.fnLabel} energy</span></span>{dots}</span>;
-                              if (v === 'E2') return <span className="el-remedyhead">{ring}<span className="el-remedytitles f"><K>{verb} {elScreen.elName} as</K><span className="serifline el-remedytitle xl">Your {elScreen.fnLabel}</span>{persona && <span className="el-remedyname">{persona}'s way</span>}</span>{dots}</span>;
-                              if (v === 'E3') return <span className="el-remedyhead">{ring}<span className="el-remedytitles f"><K>{verb} {elScreen.elName} in</K><span className="serifline el-remedytitle xl">{edge.domains.join(' · ')}</span>{persona && <span className="el-remedyname">{persona}'s domains</span>}</span>{dots}</span>;
-                              if (v === 'E4') return <span className="el-remedyhead">{ring}<span className="el-remedytitles f"><K>how to {verb}</K><span className="serifline el-remedytitle xl">{elScreen.elName}</span><span className="el-remedyname">the {elScreen.fnLabel} energy</span></span>{dots}</span>;
-                              return <span className="el-remedyhead">{ring}<span className="serifline el-remedytitle">{edge.claim}</span>{dots}</span>;
-                            })()}
+                            {/* The head (owner 2026-10-16, E1): the remedy's head with the
+                                arrow turned up. The kicker is the character's verb, the name
+                                the page's own energy at the title size, the function beneath,
+                                the ring large; the bar's level as dots on the right. */}
+                            {(() => { const verb = elScreen.fnReading.characterLine?.verb || 'use'; return (
+                              <span className="el-remedyhead">
+                                <span className="el-remedyring lg" aria-hidden="true"><Use id={`el-${elScreen.el}`} /></span>
+                                <span className="el-remedytitles f">
+                                  <span className="el-remedykicker up"><Use id="ar-up" />{verb}</span>
+                                  <span className="serifline el-remedytitle xl">{elScreen.elName}</span>
+                                  <span className="el-remedyname">the {elScreen.fnLabel} energy</span>
+                                </span>
+                                {b && <span className="el-edge-dots head" aria-label={`${b.label}: level ${b.level} of 5`}>{[1, 2, 3, 4, 5].map((i) => <i key={i} className={i <= b.level ? 'on' : ''} />)}</span>}
+                              </span>
+                            ); })()}
                             {edge.items ? (
                               <>
                                 {edge.lead && <span className="body2 el-fnbody el-remedybody">{edge.lead}</span>}

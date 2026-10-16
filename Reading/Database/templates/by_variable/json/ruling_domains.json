@@ -1,0 +1,108 @@
+{
+  "$variable": "ruling_domains",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "GOD": [
+      {
+        "id": "bijian",
+        "key": "比肩",
+        "canonical_name": "The Twin",
+        "value": [
+          "Family",
+          "Growth",
+          "Social"
+        ]
+      },
+      {
+        "id": "jiecai",
+        "key": "劫财",
+        "canonical_name": "The Rival",
+        "value": [
+          "Wealth",
+          "Social",
+          "Career"
+        ]
+      },
+      {
+        "id": "shishen",
+        "key": "食神",
+        "canonical_name": "The Artisan",
+        "value": [
+          "Health",
+          "Family",
+          "Career"
+        ]
+      },
+      {
+        "id": "shangguan",
+        "key": "伤官",
+        "canonical_name": "The Virtuoso",
+        "value": [
+          "Mind",
+          "Career",
+          "Social"
+        ]
+      },
+      {
+        "id": "piancai",
+        "key": "偏财",
+        "canonical_name": "The Horizon",
+        "value": [
+          "Wealth",
+          "Family",
+          "Social"
+        ]
+      },
+      {
+        "id": "zhengcai",
+        "key": "正财",
+        "canonical_name": "The Steward",
+        "value": [
+          "Wealth",
+          "Family",
+          "Career"
+        ]
+      },
+      {
+        "id": "qisha",
+        "key": "七杀",
+        "canonical_name": "The General",
+        "value": [
+          "Career",
+          "Health",
+          "Growth"
+        ]
+      },
+      {
+        "id": "zhengguan",
+        "key": "正官",
+        "canonical_name": "The Magistrate",
+        "value": [
+          "Family",
+          "Social",
+          "Career"
+        ]
+      },
+      {
+        "id": "pianyin",
+        "key": "偏印",
+        "canonical_name": "The Alchemist",
+        "value": [
+          "Mind",
+          "Growth",
+          "Career"
+        ]
+      },
+      {
+        "id": "zhengyin",
+        "key": "正印",
+        "canonical_name": "The Sage",
+        "value": [
+          "Family",
+          "Mind",
+          "Health"
+        ]
+      }
+    ]
+  }
+}

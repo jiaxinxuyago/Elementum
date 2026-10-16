@@ -118,6 +118,15 @@
           }
         ]
       }
+    },
+    "edge": {
+      "lead": "You write rules for the house when nobody has given you any to keep. Give your word. Ask for the title that fits the job you already do. Put the Saturday you promised a child in the diary like a work meeting, and plan the friends' trip with a date they can book.",
+      "domains": [
+        "Family",
+        "Social",
+        "Career"
+      ],
+      "metric": "responsibility"
     }
   },
   "$provenance": [
@@ -600,6 +609,14 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
       "replaced": "Saying yes to everyone keeps your place in their lives. Because a refusal feels like lost standing, you give everyone a slice rather than anyone your whole self. You will want to remember that you give those who need you most whatever is left."
+    },
+    {
+      "field": "edge",
+      "adopted_from": "fable-edge-v5",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-15-the-edge-metal-core/fable-edge-v5/edge.火_正官.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: the ten Metal core edges read on the by-energy page; \"Go with E1, ship it and wire the design to the app through the live link\"",
+      "replaced": null
     }
   ]
 }

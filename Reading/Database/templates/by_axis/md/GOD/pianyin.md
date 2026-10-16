@@ -9,7 +9,7 @@
 | **axis** | GOD |
 | **key** | 偏印 |
 | **canonical name** | The Alchemist |
-| **construct** | V-CLASS LOCKS (refreshed 2026-09-21): persona_name + definition_line (REA_02 §2; comma-joined, dashless, owner D8 2026-09-20) · keyword / charge / pole nouns (REA_02 §4, 2026-07-16) · domains ×3 (owner 2026-08-19; the Sage's third word Mother → Nurture 2026-09-20) · adj_catalyst / adj_friction = god-grain fallback tables, superseded by ELEMENT_GOD.adj_chips (dead at runtime; 七杀 Domineering → Bossy 2026-09-21) · face_kw / face_teaser = unrendered since the faces merge 2026-08-19, sign-free 2026-09-21, R5 scope open · family_brief / family_clause / family_element = energy-manual glue. Prompts: REA_17 §3.5. |
+| **construct** | V-CLASS LOCKS (refreshed 2026-09-21): persona_name + definition_line (REA_02 §2; comma-joined, dashless, owner D8 2026-09-20) · keyword / charge / pole nouns (REA_02 §4, 2026-07-16) · domains ×3 (owner 2026-08-19; the Sage's third word Mother → Nurture 2026-09-20) · adj_catalyst / adj_friction = god-grain fallback tables, superseded by ELEMENT_GOD.adj_chips (dead at runtime; 七杀 Domineering → Bossy 2026-09-21) · face_kw / face_teaser = unrendered since the faces merge 2026-08-19, sign-free 2026-09-21, R5 scope open · family_brief / family_clause / family_element = energy-manual glue. Prompts: REA_17 §3.5. · ruling_domains ×3 in the canonical taxonomy ×8 (owner 2026-10-15: fixed per god from the locked seat corpus, the three domains its seven seats declare most; the vocabulary THE EDGE rows and the Seeker readings share; `domains` keeps the god-flavored nouns for the WHO RUNS IT layer pending the owner's ruling on its readings) |
 | **sources** | REA_02 §2/§4/§4b locks · src/content/tgNames.js · src/components/journey/journeyData.js · src/content/reading/facesContent.js · src/content/archetypeSource.js (TG_CARD_DATA) |
 
 ## Candidate variables
@@ -31,6 +31,7 @@
 | `family_clause` | the ground you’re built on |
 | `family_element.appetite` | insight, the oblique, and understanding that transmutes |
 | `family_element.notAlone` | not comfort alone, but everything that feeds and restores you |
+| `ruling_domains` | Mind · Growth · Career |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

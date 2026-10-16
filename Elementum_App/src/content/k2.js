@@ -129,6 +129,8 @@ export const K2_CELLS = {
       Ventures: 'Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.',
       Father: 'The father-thread runs green and rangy: reach, enterprise, restlessness, wherever a paternal figure stood. Where that reaching shaped you, keep it. Where it left no roots, plant them yourself.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You look at flights at midnight whenever the week has handed you nothing to start. Begin close to home. Book the spring trip with an old friend before the price moves. Put part of this month\'s extra into a thing you keep, and invite the couple next door over before you know them well.', domains: ['Wealth', 'Family', 'Social'], metric: 'ambition' },
   },
   '木_正财': {
     overview: 'Your Wood moves as the Steward: growth banked in rings. You build worth the way orchards do, planted early, tended patiently, harvested honestly, replanted always. Assets in your care grow. So do people. Your fortune is cumulative and alive, and it rewards the seasons you refuse to rush.',
@@ -140,6 +142,8 @@ export const K2_CELLS = {
       Savings: 'You save like a granary: harvests stored against winters. Rotate the stock, reinvest the surplus, and remember granaries exist so that planting can be brave.',
       'Steady love': 'You love agriculturally: devotion planted deep, tended daily, expected to fruit for decades. Choose a fellow gardener. Then keep courting through every season, even the mud ones.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You count the savings again on the nights nothing is being built. Build something slow. Open the deposit account and move the first amount across the day you are paid. Take the long job at work nobody wants to see through, and keep the Sunday call to whoever raised you going for a year.', domains: ['Wealth', 'Family', 'Career'], metric: 'discipline' },
   },
   '木_七杀': {
     overview: 'Your Wood moves as the General: growth under discipline. Your ambition climbs like bamboo, fast, segmented, unstoppable, turning pressure into height. You command by growing first, taking the arrows meant for everyone behind you. Just remember trees also bend. The rigid campaign is the one that snaps.',
@@ -261,6 +265,8 @@ export const K2_CELLS = {
       Command: 'You command by fire: vision hot enough to melt objections. Troops follow the light. Mind the scorch radius, and let cooler officers handle the discipline your heat would burn.',
       Crisis: 'Crisis is your parade ground: you charge while others count. Victory loves you. Afterward, check who got trampled in the charge, including you.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You turn a quiet Tuesday into an emergency when nothing real is at stake. Pick your pressure. Ask for the project with the date nobody believes you can hit. Start a training plan with a date on the end of it, and take the class where a stranger marks your work.', domains: ['Career', 'Health', 'Growth'], metric: 'leadership' },
   },
   '火_正官': {
     overview: 'Your Fire moves as the Magistrate: civic light, authority that illuminates. You carry rules the way lighthouses carry flame, visibly, warmly, for everyone’s navigation. People follow your lead because it brightens rather than binds. Office becomes you. Keep the light public and tended, and rank will keep arriving on its own.',
@@ -272,6 +278,8 @@ export const K2_CELLS = {
       Status: 'Your standing is luminous and watched: warmth draws the credit and the scrutiny together. Live as if lit, because you are. The honest glow survives every inspection.',
       Order: 'Your order is inspirational: people comply because you made the rule glow with purpose. That is rare governance. Write things down too. Light needs a lamp when you leave.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You write rules for the house when nobody has given you any to keep. Give your word. Ask for the title that fits the job you already do. Put the Saturday you promised a child in the diary like a work meeting, and plan the friends\' trip with a date they can book.', domains: ['Family', 'Social', 'Career'], metric: 'responsibility' },
   },
   '火_偏印': {
     overview: 'Your Fire moves as the Alchemist: illumination in a closed vessel. Your insight comes in flashes, sudden clarity that lights a whole cavern, then dims while you sketch what you saw. You understand things sideways, by vision rather than proof. Keep notebooks. The flashes are real, and unrecorded lightning teaches no one.',
@@ -393,6 +401,8 @@ export const K2_CELLS = {
       Intuition: 'The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning.',
       Solitude: 'Time alone is this energy’s rent, and it collects whether you schedule it or not. Taken on purpose, solitude turns into your best material. Taken by accident, it curdles into distance from the people who were waiting outside the study.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You stop trusting your own read the longer it stays only in your head. Test the hunch. Write tonight\'s guess in a notebook with the date, to be checked in a month. Say the thing nobody said in the meeting out loud, and teach yourself one subject this winter that no class offers.', domains: ['Mind', 'Growth', 'Career'], metric: 'intuition' },
   },
   '土_正印': {
     overview: 'Your Earth moves as the Sage: mother ground, nurture in its home element, doubled. You hold people the way land holds houses, unconditionally, for generations, without once mentioning the load. Wisdom settles in you and stays. The whole village builds on your patience. Somewhere in the acreage, keep a field that feeds only you.',
@@ -404,6 +414,8 @@ export const K2_CELLS = {
       Shelter: 'Your shelter is the family land itself: people return to you between every attempt at the world. Being home is holy work with no clock. Post seasons. Even land lies fallow.',
       Nurture: 'The nourishing thread is bedrock here. Where care came early, you draw on it without thinking. Where it was missing, you became the ground yourself. Keep one plot for you.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You end up as everyone\'s calm and go home with nobody to be yours. Take your own advice. Tell the oldest person who still calls you what is worrying you. Reread the book that taught you most, a chapter a week, and let a friend bring soup when you are the one in bed.', domains: ['Family', 'Mind', 'Health'], metric: 'stability' },
   },
   '金_比肩': {
     overview: 'Your Metal moves as the Twin: a standing force that meets the world edge-first and equal. Nothing about you waits for permission. You hold your line the way a blade holds its shape, and you respect exactly the people who hold theirs. Company, for you, is two swords in one sheath: close, parallel, never fused.',
@@ -415,6 +427,8 @@ export const K2_CELLS = {
       Independence: 'Independence, in metal, is structural: you do not perform autonomy, you are made of it. Guard it without sealing it. A blade alone stays sharp but unused, and your edge exists for work that matters.',
       'Self-reliance': 'You carry your own weight and everyone can feel it. The practice to add is borrowing well: one tool, one favor, one opinion at a time. Even the finest steel was forged by other hands.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You judge yourself hardest in the weeks when nobody stands beside you. Keep some company. Call the person you trust most halfway through the bad week instead of after it. Pick one skill for this year and learn it with a friend at your own level, and let that friend watch you get it wrong.', domains: ['Family', 'Growth', 'Social'], metric: 'independence' },
   },
   '金_劫财': {
     overview: 'Your Metal moves as the Rival: an edge that sharpens against other edges. Competition wakes you up, stakes clarify you, and you cut boldest when something real is on the table. Money and metal both change hands fast around you. The trick of your life is dueling without wounding, and betting without handing over the sword.',
@@ -426,6 +440,8 @@ export const K2_CELLS = {
       'Shared stakes': 'You bet alongside people easily: ventures, splits, loans between friends. Metal keeps clean edges, so keep clean papers. The partnerships that survive you are the ones with terms as sharp as the trust.',
       Boldness: 'Your nerve is surgical: boldest when the cut is clear. Practice sizing the wager to the blade. Full force is for openings that deserve it, not for every glinting chance.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You start racing the people you love when there is nobody worth beating. Find a contest. Put your name in for the job someone better is also after. Set a savings target for the year and race yourself to it, and ask the friend who always wins to show you how.', domains: ['Wealth', 'Social', 'Career'], metric: 'competitiveness' },
   },
   '金_食神': {
     overview: 'Your Metal moves as the Artisan: an edge that makes beautiful, useful things instead of wounds. Craft flows out of you calmly, finished on the first pass more often than seems fair. You feed people with precision, the perfectly chosen gift, the exact right word, and your pleasure runs quiet and specific.',
@@ -547,6 +563,8 @@ export const K2_CELLS = {
       Enjoyment: 'You enjoy in gentle currents: long baths, slow music, conversation into the night. Honor these as necessities. A spring that is never let pool goes brackish.',
       Children: 'With the young you nourish invisibly: the listening, the softening, the words that raise them without their noticing. They will quote you for life, usually without knowing whom they are quoting.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You get short with everyone at home on the days the warmth has had nowhere to land. Hand it over. Make someone younger a birthday card by hand, with more than your name inside. Show a colleague the half-done draft on Friday, and walk beside someone older on Sunday while they do the talking.', domains: ['Health', 'Family', 'Career'], metric: 'warmth' },
   },
   '水_伤官': {
     overview: 'Your Water moves as the Virtuoso: a current too clever for its banks. You express in floods of insight, subversive, fluid, impossible to police, the writer between the lines, the wit that erodes pomposity by morning. Nothing contains you long. The art is choosing what your torrent carves next.',
@@ -558,6 +576,8 @@ export const K2_CELLS = {
       Performance: 'You perform by currents: the essay that spreads, the remark that travels. Your stage is wherever words flow. Publish more, polish less. Rivers are judged by movement, not by stillness.',
       Defiance: 'Your defiance dissolves things: authority mocked into smallness, rules outlived rather than fought. It is elegant and it accumulates enemies slowly. Now and then, defend something openly. It sweetens the water.',
     },
+    // THE EDGE (owner 2026-10-16, v8): the lead at the catalyst advice's quality, the ruling domains, the bar it draws on.
+    edge: { lead: 'You have the whole argument in the shower with nobody there to hear it. Say it out loud. Pitch the strange version of the plan at this week\'s meeting. Send the joke to the group chat before it goes stale, and text the best line you said to nobody to a friend tonight.', domains: ['Mind', 'Career', 'Social'], metric: 'creativity' },
   },
   '水_偏财': {
     overview: 'Your Water moves as the Horizon: current that finds every sea. Opportunity reaches you through flow, conversations, crossings, currents of information arriving before the news does. Your fortune is distributive: many streams, wide deltas, wealth that moves. Dam a portion. Deltas are rich and hard to hold.',

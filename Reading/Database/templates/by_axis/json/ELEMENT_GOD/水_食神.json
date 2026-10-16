@@ -118,6 +118,15 @@
           }
         ]
       }
+    },
+    "edge": {
+      "lead": "You get short with everyone at home on the days the warmth has had nowhere to land. Hand it over. Make someone younger a birthday card by hand, with more than your name inside. Show a colleague the half-done draft on Friday, and walk beside someone older on Sunday while they do the talking.",
+      "domains": [
+        "Health",
+        "Family",
+        "Career"
+      ],
+      "metric": "warmth"
     }
   },
   "$provenance": [
@@ -600,6 +609,14 @@
       "date": "2026-10-14",
       "ruling": "owner 2026-10-14: the variety pass (B11) and the remedy-first re-cut (D7) read and ruled \"All land, adopt the set\"",
       "replaced": "You give your hours to whoever is nearest, without deciding. Since you give everyone something rather than keep enough for the few who count on you, you leave them less than was theirs. You give best from something kept, and keeping is part of giving."
+    },
+    {
+      "field": "edge",
+      "adopted_from": "fable-edge-v5",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-15-the-edge-metal-core/fable-edge-v5/edge.水_食神.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: the ten Metal core edges read on the by-energy page; \"Go with E1, ship it and wire the design to the app through the live link\"",
+      "replaced": null
     }
   ]
 }

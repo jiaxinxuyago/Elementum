@@ -23,7 +23,8 @@ import { resolveDayMasterReading } from '../src/components/reading/readingResolv
 import { STEM_CARD_DATA } from '../src/content/index.js';
 import { STEM_VARIANTS } from '../src/content/stemVariants.js';
 import { PAIR_CELLS } from '../src/content/pairs.js';
-import { K2_CELLS } from '../src/content/k2.js';
+import { K2_CELLS, GOD_RULING_DOMAINS } from '../src/content/k2.js';
+import { FUNCTION_METRICS } from '../src/content/metrics.js';
 import { volumeOf, resolveBand, VOLUME } from '../src/engine/energyRoles.js';
 import { functionMetrics } from '../src/engine/functionMetrics.js';
 import { GOD_FN } from '../src/content/k2.js';
@@ -211,3 +212,24 @@ for (const f of FIXTURES) {
 
 console.log(fails ? `\n✗ ${fails} selection fixture failure(s)` : '\n✓ selection fixtures: every contract holds');
 process.exit(fails ? 1 : 0);
+
+// ---------------------------------------------------------------------------
+// THE EDGE (owner 2026-10-16, v8): every adopted edge carries exactly its god's
+// three ruling domains in the table's order, a lead of 35 to 55 words opening on
+// You, and a metric that is one of its function's bars.
+// ---------------------------------------------------------------------------
+{
+  const f = { name: 'edge · the ruling domains, the lead, the metric' }; let n = 0;
+  for (const [cell, c] of Object.entries(K2_CELLS)) {
+    if (!c.edge) continue; n++;
+    const god = cell.split('_')[1]; const want = GOD_RULING_DOMAINS[god] || [];
+    if (JSON.stringify(c.edge.domains) !== JSON.stringify(want)) fail(f, `${cell}: domains ${c.edge.domains?.join('/')} ≠ ${want.join('/')}`);
+    const w = String(c.edge.lead || '').trim().split(/\s+/).length; if (w < 35 || w > 55) fail(f, `${cell}: lead ${w} words`);
+    if (!/^You\b/.test(c.edge.lead || '')) fail(f, `${cell}: lead does not open on You`);
+    const fnKey = GOD_FN[god]; const fm = Object.values(FUNCTION_METRICS).find((x) => x.function === fnKey); const bars = (fm?.bars || fm?.metrics || []).map((b) => b.key);
+    if (!bars.length) fail(f, `${cell}: no bars found for the ${fnKey} function`);
+    if (bars.length && !bars.includes(c.edge.metric)) fail(f, `${cell}: metric ${c.edge.metric} not in ${bars.join('/')}`);
+  }
+  console.log(`  ${f.name}: ${n} edges checked`);
+}
+

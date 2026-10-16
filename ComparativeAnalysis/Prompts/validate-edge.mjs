@@ -11,7 +11,7 @@ const OPENER = /^(It makes you|It is why you|It gives you|You are the one who)\b
 export function validateEdge(file, seen = new Map()) {
   const sk = JSON.parse(fs.readFileSync(file, 'utf8')); const v = sk.fields?.edge?.value; const f = sk.facts || {}; const B = [];
   if (!v || typeof v !== 'object') return { file: path.basename(file), blocking: ['no value'], pass: false };
-  if (v.claim !== f.claim_fixed) B.push(`claim: expected "${f.claim_fixed}", got "${v.claim}"`);
+  if (v.claim != null && v.claim !== f.claim_fixed) B.push(`claim: expected "${f.claim_fixed}", got "${v.claim}"`);   // v8: the claim is derived in the app; checked only where an older set carries one
   const lead = String(v.lead || ''); const lw = wc(lead);
   if (lw < 35 || lw > 55) B.push(`lead: ${lw} words (35-55)`);
   const nS = (lead.match(/[.!?](\s|$)/g) || []).length; if (nS < 3 || nS > 6) B.push(`lead: ${nS} sentences (3-6)`);

@@ -662,7 +662,10 @@ export function edgeOf(r) {
   // DOMAINS at that word), the metric's dots in the head. No action row.
   // v6 (owner 2026-10-16): the claim, the lead, the three ruling domains as
   // doors (nothing written beneath them), the metric's dots in the head.
-  if (e.claim && (Array.isArray(e.domains) || Array.isArray(e.items))) { const domains = Array.isArray(e.domains) ? e.domains : e.items.map((i) => i.domain); return { cell, god, claim: e.claim, lead: e.lead || '', items: domains.map((d) => ({ domain: d })), metric: e.metric || null, domains }; }
+  // v8 (owner 2026-10-16, E1): the head is derived in the screen (the character's
+  // verb, the energy, its function); the cell carries the lead, the three ruling
+  // domains and the metric. A claim, where an older preview carries one, is ignored.
+  if (e.lead && (Array.isArray(e.domains) || Array.isArray(e.items))) { const domains = Array.isArray(e.domains) ? e.domains : e.items.map((i) => i.domain); return { cell, god, lead: e.lead, items: domains.map((d) => ({ domain: d })), metric: e.metric || null, domains }; }
   if (e.claim && e.body) return { cell, claim: e.claim, body: e.body, metric: e.metric || null, domains: Array.isArray(e.domains) ? e.domains : [] };
   if (!Array.isArray(e.talents) || !Array.isArray(e.places)) return null;
   return { cell, talents: e.talents, places: e.places, action: e.action || '' };
