@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Sealed-off",
-    "text": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Keep in mind that you seal out the closeness as much as the risk."
+    "text": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. You seal out the people you want as much as the risk."
    },
    "value_b": {
     "word": "Sealed-off",
-    "text": "The sealed version of you is the only one on offer. Since your Metal is more than you need, sealing off costs nothing and being unreachable comes ahead of being known. Part of you still wants to be known more than kept safe."
+    "text": "The sealed version of you is the only one on offer. Since your Metal is more than you need, sealing off costs nothing and being unreachable comes ahead of being known. Part of you still wants to be known rather than kept safe."
    }
   },
   "ledger[1]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Sealed-off",
-    "text": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. Remember that you leave them loving a version of you that never needs them."
+    "text": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. You leave your peers loving a version of you that never needs them."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Unteachable",
-    "text": "Being taught lands on you as an attack first and information second. With Metal running over, you put your own judgment ahead of any peer's lesson. It is worth remembering that you are only taught by someone you let be right."
+    "text": "Being taught lands on you as an attack first and information second. With Metal running over, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them."
    },
    "value_b": {
     "word": "Unteachable",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Unteachable",
-    "text": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend a position rather than learn from it. You lose, remember, every lesson that needed you to be wrong before it could teach you."
+    "text": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend a position rather than learn from it. You lose every lesson that needed you to be wrong before it could teach you."
    }
   },
   "ledger[5]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Asks no one",
-    "text": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. Notice how you count the asking as the cost and never the carrying."
+    "text": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. You count the asking as a cost and leave the carrying off the bill."
    },
    "value_b": {
     "word": "Asks no one",
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Asks no one",
-    "text": "Being nobody's burden is why you ask no one. Since you would rather owe nothing than be joined, you take the job back the moment someone offers. Spare a thought for the peer you send away with an offer still in hand."
+    "text": "Being nobody's burden is why you ask no one. Since you would rather owe nothing than be joined, you take the job back the moment someone offers. You send away the peer who offered and leave them no way to help you."
    }
   }
  }

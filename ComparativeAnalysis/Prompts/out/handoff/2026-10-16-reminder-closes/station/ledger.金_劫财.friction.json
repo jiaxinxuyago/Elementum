@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Keeps score",
-    "text": "You keep an exact score with everyone you like. With Metal running over, you live on comparison more than company, so you keep a quiet tally of who gave more. Remember that you started counting to be fair and kept counting to be ahead."
+    "text": "You keep an exact score with everyone you like. With Metal running over, you live on comparison more than company, so you keep a quiet tally of who gave more. You end up ahead on the tally and short on the company you wanted."
    },
    "value_b": {
     "word": "Keeps score",
-    "text": "Your sense of fair is a running score, one column per friend. With more Metal than you use, you count the friends you keep instead of having them. You know already that you count to stay fair and lose the closeness to the count."
+    "text": "Your sense of fair is a running score, one column per friend. With more Metal than you use, you count the friends you keep instead of having them. You know already that you count to stay fair and lose the closeness to the tally."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Keeps score",
-    "text": "Whenever a friend pulls ahead, you score it as a loss rather than their win. To stay sure, you keep score and spend the friendship checking the count. Do not forget that you pay for every point in closeness you never collect."
+    "text": "Whenever a friend pulls ahead, you score it as a loss rather than their win. To stay sure, you keep score and spend the friendship checking the count. You pay for every point in closeness you never collect."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Keeps score",
-    "text": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of returning them, you hand the people you love a bill. Be honest with yourself that you turn their gifts into debts without telling them the price."
+    "text": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of returning them, you hand the people you love a bill. You turn their gifts into debts and never tell them the price."
    }
   },
   "ledger[3]": {
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Bets the rent",
-    "text": "Your bets are sized to the thrill ahead of the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent, and you know it, on a feeling that fades faster than the bill."
+    "text": "Your bets are sized to the thrill ahead of the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent on a feeling that fades faster than the bill."
    },
    "value_b": {
     "word": "Bets the rent",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Bets the rent",
-    "text": "Where the bet is biggest you are calmest, and read it as a sign. Trusting nerve more than math, you bet with the rent before the sums are done. You pay for that calm later, as you know, in rent and sleep."
+    "text": "Where the bet is biggest you are calmest, and read it as a sign. Trusting nerve more than math, you bet with the rent before the sums are done. You come out of that calm short on rent and short on sleep."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Bets the rent",
-    "text": "Betting the rent is how you make a thing feel real. Since you size the bet to your nerve instead of theirs, you pull the people beside you into it. Weigh how much of their safety you bet along with your own each time."
+    "text": "Betting the rent is how you make a thing feel real. Since you size the bet to your nerve instead of theirs, you pull the people beside you into it. You put their safety on the bet along with your own."
    }
   },
   "ledger[6]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Hates to lose",
-    "text": "Hating to lose even a game is how you show you care. Since you want the win ahead of the evening, you keep arguing after it ends. Keep the people you play with in mind, because you cost them the fun of the game."
+    "text": "Hating to lose even a game is how you show you care. Since you want the win ahead of the evening, you keep arguing after it ends. You cost the people you play with the fun of the game."
    }
   }
  }
