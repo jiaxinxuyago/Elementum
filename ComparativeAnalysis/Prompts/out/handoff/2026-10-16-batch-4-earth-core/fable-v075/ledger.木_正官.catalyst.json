@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Keeps your word",
-    "text": "You keep your word long after it stops being convenient. A promise is a rule you chose, and keeping it gives your stored strength a shape. Keep your word ahead of your comfort, and make fewer promises so each one stays easy to keep."
+    "text": "You keep your word long after it stops being convenient. Being counted on is the respect you want, so you put a promise ahead of your comfort. Add your comfort to the promises you keep, because a word kept at any price wears you down."
    },
    "value_b": {
     "word": "Keeps your word",
@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Earns every step",
-    "text": "You earn every step before you take it. Rank you were handed feels borrowed, so you wait to be ready instead of asking to be next. Keep earning it, and ask for the next step a little before you feel you have earned it."
+    "text": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. When you ask for the next step a little sooner, you stop working a rank below your worth."
    },
    "value_b": {
     "word": "Earns every step",
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Earns every step",
-    "text": "Earning every step takes longer than asking for it. Since a rank you never asked for sits easier on you, you wait for the title rather than claim it. Ask once a year for what you have earned, and the chance stops passing you by."
+    "text": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. If you claim what you have earned, you stop losing the title to whoever asked first."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Earns every step",
-    "text": "Under you, every step gets earned rather than handed down. Because a shortcut looks like cheating to you, you hold back the lift you owe the people under you. Hand one step down early and give someone the start you never had."
+    "text": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Hand one person a step early, so they spend less time proving what you already know."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Holds the line",
-    "text": "You hold the line where letting it slide would be easier. A standard kept stops your stored strength from spreading flat, so you hold the rule ahead of the exception. Keep holding it, and decide in advance who you would bend it for."
+    "text": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Let someone else hold one line for a while, instead of carrying every rule alone."
    },
    "value_b": {
     "word": "Holds the line",
-    "text": "Holding the line is where you feel most yourself. Because a rule that bends once stops being a rule to you, you would sooner hold it against a friend than drop it for one. Hold it, and say why before the line comes between you."
+    "text": "Once you draw a line, you hold it. Since a rule with exceptions is no rule to you, you would sooner let a friend down than drop it. Tell a friend why you hold it, before the line ends up between you."
    }
   },
   "ledger[7]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Holds the line",
-    "text": "For everyone, you hold the line, even for those who needed an exception. Since one exception feels unfair to the rest, you give someone the rule in place of a second chance. Bend once on purpose, and you learn which lines only hold people back."
+    "text": "For everyone, you hold the line, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, to hold the line only where it helps."
    }
   }
  }
