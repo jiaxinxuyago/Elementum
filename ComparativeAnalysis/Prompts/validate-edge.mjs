@@ -16,8 +16,9 @@ export function validateEdge(file, seen = new Map()) {
   if (lw < 30 || lw > 45) B.push(`lead: ${lw} words (30-45)`);
   const sents = lead.split(/(?<=[.!?])\s+/).filter(Boolean); if (sents.length !== 2) B.push(`lead: ${sents.length} sentences (2)`);
   const want0 = f.ruling_domains || []; const EN = { Wood: 'Wood', Fire: 'Fire', Earth: 'Earth', Metal: 'Metal', Water: 'Water' };
-  const frame = new RegExp(`^(Wood|Fire|Earth|Metal|Water) runs through your ${want0[0]?.toLowerCase()}, your ${want0[1]?.toLowerCase()} and your ${want0[2]?.toLowerCase()}\\.$`);
-  if (!frame.test(sents[0] || '')) B.push(`lead: the first sentence is not the frame "<Energy> runs through your ${want0.map((d) => d.toLowerCase()).join(', your ')}."`);
+  const fw = (d) => (d === 'Social' ? 'social life' : String(d || '').toLowerCase());   // the frame's noun for Social (owner's read 2026-10-16: "your social" is not a noun)
+  const frame = new RegExp(`^(Wood|Fire|Earth|Metal|Water) runs through your ${fw(want0[0])}, your ${fw(want0[1])} and your ${fw(want0[2])}\\.$`);
+  if (!frame.test(sents[0] || '')) B.push(`lead: the first sentence is not the frame "<Energy> runs through your ${want0.map(fw).join(', your ')}."`);
   if (!/^It is\b/.test(sents[1] || '')) B.push('lead: the second sentence must open on It is');
   if (((sents[1] || '').match(/, and /g) || []).length !== 1 || ((sents[1] || '').match(/,/g) || []).length < 2) B.push('lead: the second sentence wants three clauses, commas and a final ", and"');
   if (/\b(may|might|perhaps|probably)\b/i.test(lead)) B.push('lead: a hedge');
