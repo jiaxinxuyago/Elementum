@@ -1,0 +1,283 @@
+{
+ "_generated_by": "fable-v073",
+ "_handoff": "2026-10-14 batch 1, the ten definitions under v0.7.3",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Where a spec says \"candidates\": 2, add \"value_b\" beside \"value\" with a second, different candidate of the same shape (two lines, each inside the frame; the read picks one). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/金_水",
+ "page": "The energy page of Water (your Expression) for a Metal core, both poles and every state line (the cell is the repetition-law unit)",
+ "stem": null,
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 金_水. Core element Metal, energy element Water. Law: Metal feeds Water (金生水: dew beads on the cold blade). Relative to the core the energy is the fed, so Water is this core's Expression.\n- Family personas and ruled domains (the cost domain: the cost is named in these words or in ordinary life, work only where a domain word is work; the definition names one drive per persona, E8): The Artisan: Expression, Enjoyment, Children · The Virtuoso: Talent, Performance, Defiance\n- mechanism.classic (the sourced epigraph): \"少陰之氣，銷金為水\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: [REDACTED: the target field]\n- mechanism.friction_turn: [REDACTED: the target field]\n- function.definition_catalyst: [REDACTED: the target field]\n- function.definition_friction: [REDACTED: the target field]\n- function.advise_catalyst: [REDACTED: the target field]\n- function.advise_friction: [REDACTED: the target field]\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: [REDACTED: the target field]\n- carry.friction: [REDACTED: the target field]\n- carry.wide: [REDACTED: the target field]\n- carry.missing: [REDACTED: the target field]\n- carry.spared: [REDACTED: the target field]\n- carry.thin: [REDACTED: the target field]\n- carry.excess: [REDACTED: the target field]\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 金能生水，水多金沉 (泄之太过, the Expression door).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\nNo chart is attached to this batch: the cell is written for every chart with a Metal core, so no percentage, no band and no state of one chart appears in any value (the engine owns the numbers). The pole's band facts come from the pair law and the band table (REA_02 §5c): the catalyst pole of Water as the Expression is the Overfueled band's case (the core has more than it channels), remedy verb Channel; the friction pole of Water as the Expression is the Underfueled band's case (the core burns more than it takes in), remedy verb Refill, cure set Earth (the taming cure by the ten equations, template-level). The states this cell renders (chart.mjs, journeyData.js: the pole's turn, or the carry line for an absent, thin, abundant, dominant or unrooted energy): catalyst_turn, friction_turn, wide, missing, spared, thin, excess. The yin sibling's overrides (mechanism_yin, carry_yin) are not in this batch and keep the station's text.",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "element": "Water",
+    "person": "fully third person, no \"you\", no function claim, no persona",
+    "chemistry": "the field carries one word of the pair's chemistry somewhere in it: Water's material or Metal's (an arena noun, its verb, or either element as a common noun); the gate blocks without it; the base keeps its material by the ruling (the one surface with the arena, with the turns, the carries and the sign paragraph)"
+   },
+   "value": "Metal feeds water, as the old texts have it: dew beads on the blade at dawn, drawn from the air by the chill of the steel. The edge does not pour. It makes the water by being what it is, hard and cold and exact, and the drops gather on the clean line without any effort of its own. What the blade cannot say, the dew says for it, running off into the ground."
+  },
+  "mechanism.catalyst_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Water",
+    "notes": "opens on a plain statement of the state in the reader's terms (Water named, its volume in ordinary words, the reference lead-in \"With too little Water, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too little Water, the blade stays dry: everything is judged and nothing is said. The work of the edge never leaves the hand. Say one unfinished thing out loud this week."
+  },
+  "carry.catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.catalyst_turn",
+    "notes": "cut from the catalyst turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The blade stays dry: everything is judged and nothing is said.",
+    "remedy": "Say one unfinished thing out loud this week."
+   }
+  },
+  "mechanism.friction_turn": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.catalyst_turn",
+    "min": 12,
+    "max": 35,
+    "element": "Water",
+    "notes": "opens on a plain statement of the state in the reader's terms (Water named, its volume in ordinary words, the reference lead-in \"With too much Water, …\" or any plain statement, never \"Run thin,\" or \"Run heavy,\"), then the elemental image of the state in one clause that stands alone, what it costs, then ONE plain directive that stands alone, the carry line below is cut from the image clause"
+   },
+   "value": "With too much Water, the edge washes away: every thought spoken the moment it forms, until nothing hard is left to speak from. Listen to the whole answer before you add yours."
+  },
+  "carry.friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": "mechanism.friction_turn",
+    "notes": "cut from the friction turn above: its first clause and its own directive"
+   },
+   "value": {
+    "clause": "The edge washes away: every thought spoken the moment it forms.",
+    "remedy": "Listen to the whole answer before you add yours."
+   }
+  },
+  "carry.wide": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "openers": [
+     "Water is one thing you never run short of",
+     "Water is easy for you to reach",
+     "Water is all around you",
+     "You have plenty of Water",
+     "Water is already here in plenty",
+     "You are well supplied with Water",
+     "You were given plenty of Water",
+     "There is no shortage of Water in you"
+    ],
+    "cut_from": null,
+    "notes": "Water is wanted and abundant: the plentiful line, opening with one of the eight wide openers, no door metaphor; the remedy tells the reader to use it"
+   },
+   "value": {
+    "clause": "Water is easy for you to reach, the dew your edge draws from the cold air.",
+    "remedy": "Use it. Say the thing, send the page."
+   }
+  },
+  "carry.missing": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Water wanted and absent: borrow it"
+   },
+   "value": {
+    "clause": "No dew on the blade: everything judged correctly and none of it ever said.",
+    "remedy": "Borrow a voice: write it down, read it to one person."
+   }
+  },
+  "carry.spared": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Water unwanted and absent: absent and better so"
+   },
+   "value": {
+    "clause": "No water to wash the edge away, and the edge is better for it.",
+    "remedy": "Keep it so. Speak when something is finished."
+   }
+  },
+  "carry.thin": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Water unwanted at ≤10%: kept small"
+   },
+   "value": {
+    "clause": "Only a little water on the steel, enough to say what is done.",
+    "remedy": "Keep it small. Let most thoughts stay unsaid."
+   }
+  },
+  "carry.excess": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "cut_from": null,
+    "notes": "Water dominant: the cell's excess idiom in English, never quoted"
+   },
+   "value": {
+    "clause": "Too much water sinks the metal: so much poured out that the edge goes under.",
+    "remedy": "Pour less. Take in one slow thing a day."
+   },
+   "_trace": "the Expression excess idiom, metal sinking in too much water"
+  },
+  "function.definition_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 30,
+    "max": 50,
+    "element": "Water",
+    "sentences": {
+     "min": 3,
+     "max": 4
+    },
+    "construct": "THE THREE BEATS (owner 2026-10-14, D14, function first). Beat 1, the first sentence, is this function's fixed sentence, word for word: \"Your Expression is the gate where inner work becomes outer fact.\" (the function for anyone; the gate blocks any other first sentence). Beat 2, one sentence: what Water makes of your Expression, Water as the agent with its plain verb or state (E7), ending on what that does to the function for this reader; no amount of Water, no pole. Beat 3, one or two sentences opening on \"As a catalyst,\": what the shortfall does to the function, then the family's two drives as one either-or (the tension sentence, D9, both personas inside it, E8), the cost as the close (D11, the reader its subject). NEVER an amount of the element anywhere in the definition (\"more Earth than\", \"little Water\", \"Metal to spare\", \"runs thin\": the gate blocks them; the bars will carry the amount); never the old opener \"{Element} is your {Function}, and as a …\" (the title line above the definition already says it). Three or four sentences, 30 to 50 words.",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it as the energy's plain verb or state, or the energy's name in the mechanism sentence (\"There is more Water in you than you use\"): Water's or Metal's (flows, pours, settles; grows, builds, reaches; warm, light, fuel; holds, shelters, steady; hard, exact, finishes); never a prop (blade, edge, ore, forge, cut, mountain, branch, root, stream, flame, heat, burn are blocked and do not count); the element's name in the opener does not count; the gate blocks without it (owner 2026-09-30, narrowed 2026-10-14)",
+    "person": "second person",
+    "opener": "Your Expression is the gate where inner work becomes outer fact.",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
+    "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Water and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+   },
+   "value": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, your gate stays shut while you get a thing right rather than give it. You keep your kindness and your wit waiting past their moment."
+  },
+  "function.definition_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 30,
+    "max": 50,
+    "element": "Water",
+    "sentences": {
+     "min": 3,
+     "max": 4
+    },
+    "construct": "THE THREE BEATS (owner 2026-10-14, D14, function first). Beat 1, the first sentence, is this function's fixed sentence, word for word: \"Your Expression is the gate where inner work becomes outer fact.\" (the function for anyone; the gate blocks any other first sentence). Beat 2, one sentence: what Water makes of your Expression, Water as the agent with its plain verb or state (E7), ending on what that does to the function for this reader; no amount of Water, no pole. Beat 3, one or two sentences opening on \"As a friction,\": what the surplus does to the function, then the family's two drives as one either-or (the tension sentence, D9, both personas inside it, E8), the cost as the close (D11, the reader its subject). NEVER an amount of the element anywhere in the definition (\"more Earth than\", \"little Water\", \"Metal to spare\", \"runs thin\": the gate blocks them; the bars will carry the amount); never the old opener \"{Element} is your {Function}, and as a …\" (the title line above the definition already says it). Three or four sentences, 30 to 50 words.",
+    "chemistry": "the field carries one word of the pair's chemistry anywhere in it as the energy's plain verb or state, or the energy's name in the mechanism sentence (\"There is more Water in you than you use\"): Water's or Metal's (flows, pours, settles; grows, builds, reaches; warm, light, fuel; holds, shelters, steady; hard, exact, finishes); never a prop (blade, edge, ore, forge, cut, mountain, branch, root, stream, flame, heat, burn are blocked and do not count); the element's name in the opener does not count; the gate blocks without it (owner 2026-09-30, narrowed 2026-10-14)",
+    "person": "second person",
+    "opener": "Your Expression is the gate where inner work becomes outer fact.",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
+    "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Water and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
+   },
+   "value": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and you give what you meant to keep or say more than you know. You run empty long before you run quiet."
+  },
+  "function.advise_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "remedy_verb": "Channel",
+    "remedy_gloss": "Channel: an outlet, an action that spends the excess (make, ship, say, lift, walk, cut); never a brake (the band's remedy verb, REA_02 §5c; no chart is attached: the catalyst pole of the Expression is the Overfueled band's case (the core has more than it channels))",
+    "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), three or four, ending on the smallest, no aphorism close; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it."
+  },
+  "function.advise_friction": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "cure_set": [
+     "Earth"
+    ],
+    "remedy_verb": "Refill",
+    "remedy_gloss": "Refill: intake, rest, taking in (read, sit, sleep, ask, wait for the whole answer); never a push for more output (the band's remedy verb, REA_02 §5c; no chart is attached: the friction pole of the Expression is the Underfueled band's case (the core burns more than it takes in))",
+    "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), two, in the cure's register (owner 2026-10-14, Q35: on an Order cure someone above you, a deadline, a judge, never a friend; on a Mind cure study, shelter, time; on an Action cure a thing made or shipped; on a Body cure sleep, food, rest; on an Expression cure a thing said or given), the smallest action last, closing on the energy prescription in the energy-manual register (owner 2026-09-29, the beat re-cut 2026-09-30): \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The energy is the subject, a material the reader can hold and use, no life action inside the beat; the element must be in cure_set, never one that feeds this friction; the gate blocks without the \"Seek {Element}, the {Function} energy\" form; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You say the thing to find out what you think, and you keep nothing back for yourself. Read a whole chapter before you answer. Sit with one question overnight."
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "candidates": 2,
+    "person": "second person",
+    "pole_neutral": "one verdict per pair, rendered on this page whichever pole the chart shows (this batch writes both poles), so it must read true on both: what Water as your Expression IS, never its state, no heavy, thin, too much, too little, running over, running short",
+    "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (noted on a verdict, the read decides)",
+    "notes": "explains \"Water is your Expression\": a behavioural truth with the reader as its subject plus ONE tendency-framed consequence beat, true on either pole, the tension inside the one sentence where it can be; at least eight words, no arena word, no turn word (but, yet, however), no more than two commas (owner 2026-10-14, v0.7.1)"
+   },
+   "value": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
+   "value_b": "You would rather be exact than quick, so you end up trusted more often than you are quoted."
+  }
+ }
+}

@@ -23,3 +23,11 @@ The friction definition (the line every reader of the page meets, above "Release
 ## Applied
 
 Re-cut by sealed Opus writers in `ComparativeAnalysis/Prompts/out/handoff/2026-10-16-plain-cost/`; the rewrites shown to the owner before landing (owner: "show me rewrites first").
+
+## Landed, and the second pass (owner 2026-10-16: "I read them, much better, concise and soft. Land them all, do the second pass on all three")
+
+The 162 rewrites landed. The owner's three calls, applied as a second pass:
+
+1. **No shown page of only losses.** Of the five passages the app shows (ledger[0], [2], [3], [4], [8]), at least one closes on the want underneath or a permission; it sits on a drive or cost-to-you slot ([0], [3] or [4]), so the cost-to-others closes keep the cost.
+2. **No capacity close.** No friction passage or definition closes on "you can …" or "you could …" (advice in capacity form, A10 at the close); the gate blocks it (v0.7.8). Five failed on the day.
+3. **The cost-to-others close carries the cost.** On ledger[2], [5] and [8] the last sentence states what the reader's act takes from people (as an act, without a charge); a close that names only the want or a permission while the cost sits in the body is re-cut.
