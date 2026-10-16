@@ -172,7 +172,7 @@
    },
    "value": {
     "word": "Hates losing",
-    "text": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. Remember that you are beaten far less often than you think, and you keep every one."
+    "text": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You carry each loss for weeks after the contest itself is over."
    },
    "value_b": {
     "word": "Hates losing",
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Hates losing",
-    "text": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you put a friend on the losing side of a game they never entered. You leave with the point and a little less warmth."
+    "text": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you turn an easy talk with a friend into a match. You leave with the point and a little less warmth."
    }
   },
   "ledger[6]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Spends to win",
-    "text": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You notice the money you did not keep last."
+    "text": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You count the cost when the account runs dry."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Spends to win",
-    "text": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. You spend the trust in a shared account faster than the balance."
+    "text": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. Along with the money, you spend a plan you made together."
    }
   }
  }
