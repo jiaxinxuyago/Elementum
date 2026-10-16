@@ -17,7 +17,7 @@
       "friction": [
         "One-track",
         "All or nothing",
-        "Keeps to yourself"
+        "Holds things in"
       ]
     },
     "fn_reading": {
@@ -27,24 +27,24 @@
             "word": "Sees it whole",
             "angles": {
               "drive": "You see the whole answer first and work out the steps after. You need the shape of a thing before its parts, so you trust what you saw rather than what you can prove. Take the whole picture seriously and let the proof catch up.",
-              "cost_self": "Seeing it whole is how you know a thing is true. Because a complete picture needs no steps, you keep the answer to yourself rather than say it too early. If you say it half-proved, you keep the head start you otherwise throw away.",
+              "cost_self": "Seeing it whole is how you know a thing is true. Because you want proof to show, you sit on the picture rather than use it. If you act on what you see early, you keep the head start that waiting throws away.",
               "cost_others": "Explaining a thing, you give the whole picture and skip the path. You care about the ending more than the steps, and hand over the answer without the way to it. Walk one person through it slowly, and you leave them the path too."
             }
           },
           {
             "word": "Self-taught",
             "angles": {
-              "drive": "Most of what you know, you taught yourself. You own a thing only once you have worked it out alone, so you would rather find the odd route than take the usual course. Keep teaching yourself, and ask one question when you get stuck.",
-              "cost_self": "Self-taught is the only learning you trust. Because a thing has to be found before it feels true, you spend months finding it alone rather than an hour being told. Allow one good teacher in, and you keep the months you pay for knowledge.",
-              "cost_others": "Whenever you are offered a lesson, you take the long self-taught way round instead. Since you would rather learn it yourself than be handed it, you leave the offer unused. Take one of those lessons, and you give its teacher the chance to give."
+              "drive": "Most of what you know, you taught yourself. You own a thing only once you work it out alone, so you would rather find your own way than take a course. Teach yourself the dull basics too, to keep your knowledge free of holes.",
+              "cost_self": "Self-taught is the only learning you trust. Because a thing has to be found before it feels true, you spend months finding it alone rather than an hour being told. Whenever a lesson would spare you the search, take it and keep those months.",
+              "cost_others": "You turn down help with anything you are learning. Being self-taught matters more to you than being shown, and you never let a friend who knows it well share it. Say yes to one lesson as a kindness to the person who offers it."
             }
           },
           {
             "word": "Thinks best alone",
             "angles": {
-              "drive": "Your best thinking happens with nobody else in it. You need quiet to hear your own thinking, so you take a question away to think it through rather than talk it out. Give yourself that quiet on purpose, and bring the answer back whole.",
-              "cost_self": "Thinking alone is where you are most yourself. Since you take every question into quiet first, you carry the hardest ones alone ahead of letting anyone near them. Let one person into the thinking, and you get back the closeness you spend on quiet.",
-              "cost_others": "Working something out, you go quiet on everyone around you. Because you think it through alone rather than out loud, your closest people get the conclusion and none of the working. Tell one of them how you got there, and you share the thinking too."
+              "drive": "Your best thinking happens with nobody else in it. You need quiet to hear your own thinking, so you take a question away to think it through rather than talk it out. Set that quiet aside before you have to think in a crowd.",
+              "cost_self": "When something weighs on you, you think it through alone first. Because talking before you have an answer feels unsafe, you carry the worry alone rather than share it. Let one person into your thinking to get the comfort you now go without.",
+              "cost_others": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. When you need to think, say it first and stay close enough to be good company."
             }
           }
         ]
@@ -56,23 +56,23 @@
             "angles": {
               "drive": "One idea at a time gets the whole of you. You feel awake only inside one subject, so you follow it all the way down instead of keeping the rest of the week going. Keep in mind that your life waits where you left it.",
               "cost_self": "One subject at a time is how you take things in. You give it the hours meant for sleep rather than a stopping point, since you feel awake nowhere else. Do not forget that the rest you skip never comes back as insight.",
-              "cost_others": "When one idea has you, you are reachable only through it. Because you bring every conversation back to the subject rather than let it move on, your closest people wait outside it. You were wanted for more than your subject, and that is worth remembering."
+              "cost_others": "When one idea has you, you are reachable only through it. Because you steer every talk back onto its track rather than let it change, you leave family and friends outside. You give them only the part of you that talks about it."
             }
           },
           {
             "word": "All or nothing",
             "angles": {
-              "drive": "You give a new interest everything or nothing at all. You count half an effort as none, so you give a thing every hour rather than a steady few until the wanting runs out. Remember that the nothing after is as real as the all.",
-              "cost_self": "All or nothing is the only speed you have. Since you never learn at half speed, you give a subject one hard month rather than a slow year, and the month ends first. Know that the skill you wanted stops where the feeling did.",
+              "drive": "You give a new interest everything or nothing at all. You count half an effort as none, so you give a thing every hour rather than a steady few until the wanting runs out. After the push, you go weeks without touching it at all.",
+              "cost_self": "All or nothing is the only speed you have. Since you never learn at half speed, you give a subject one hard month rather than a slow year, and the month ends first. You stop at half the skill, right where the feeling did.",
               "cost_others": "Starting something together, you give it all of you until the switch goes off. You pull a friend in at full strength rather than a pace that lasts, so the plan outlives your part. Remember as well that you leave someone holding what you started."
             }
           },
           {
-            "word": "Keeps to yourself",
+            "word": "Holds things in",
             "angles": {
-              "drive": "You keep what goes on in you to yourself. Explaining your inner life costs more than living it alone, and you let people see the finished thought and nothing of the thinking. Bear in mind that from outside, keeping to yourself looks like not caring.",
-              "cost_self": "Keeping to yourself rests you more than company does. You would rather carry a thing quietly than say it badly, and the people who could know you get the version with nothing to answer. It is worth remembering that the closeness you skip stays skipped.",
-              "cost_others": "Whenever something is wrong, you keep it to yourself instead of saying it. Since you find being looked after worse than being left alone, you tell the people who love you afterwards, if at all. Notice that you leave them guessing at you."
+              "drive": "You hold your inner life in, even with the people you trust. Because words feel too small for what goes on in you, you hold it all in rather than explain it. Whatever you hold in, you carry by yourself for longer.",
+              "cost_self": "Whenever something matters, you hold it in a little longer. You would rather keep a thought safe than say it badly, and you give the people near you the tidy version. Held back like this, you lose the closeness of being known half finished.",
+              "cost_others": "Most troubles you hold in until you have handled them. Since a struggle feels safer unspoken, you give your family the outcome rather than the story. Each time you do, you take from them the chance to stand beside you through it."
             }
           }
         ]

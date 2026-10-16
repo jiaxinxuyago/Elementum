@@ -8,7 +8,7 @@
     {
       "cell": "土_土",
       "field": "function.advise_friction",
-      "candidate": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You mistake not moving for being right. Hand one decision to someone above you and live with it for a month. Meet one deadline somebody else set.",
+      "candidate": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You mistake not moving for being right. Hand one decision to someone above you and live with it for a month. Put one plan up for review before you start it.",
       "original": "Steadiness needs motion the way ground needs rain. Walk daily at the same hour until it is simply weather. Change one fixed habit each season purely to prove you can. Say yes to one invitation a month that mildly inconveniences you.",
       "gate": "pass"
     },
@@ -29,14 +29,14 @@
     {
       "cell": "土_火",
       "field": "function.advise_friction",
-      "candidate": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Finish one small thing a week and give it away.",
+      "candidate": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Fix one small thing at home with what you already know.",
       "original": "Attention is the meal, and yours is being eaten as snacks. Cut the feeds to one sitting a day. Give the freed hour to one slow subject and stay a month. Let yourself be bored on purpose until depth becomes interesting again.",
       "gate": "pass"
     },
     {
       "cell": "土_金",
       "field": "function.advise_friction",
-      "candidate": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You answer faster than you take in. Sit on one big question for a day before you reply. Read a page by someone you think is wrong.",
+      "candidate": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You answer faster than you take in. Sit on one big question a day ahead of your reply. Read a page by someone you think is wrong.",
       "original": "A slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again.",
       "gate": "pass"
     }

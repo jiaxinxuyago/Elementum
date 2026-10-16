@@ -10,7 +10,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Better with rivals",
-        "text": "Competition wakes something in you that nothing else reaches. Being measured against someone feels more honest than being measured alone, and a rival makes you better where a fan makes you comfortable. Keep one rival close, and you keep your best effort within reach."
+        "text": "Competition wakes something in you that nothing else reaches. Being measured against someone feels more honest than being measured alone, and you push harder for a rival than for a fan. Keep one rival close, and you keep your best effort within reach."
       },
       "original": {
         "word": "Ground-taking",
@@ -27,7 +27,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Bets big",
-        "text": "You bet big because small wins never feel like wins. A heavy stake is the only thing that gets all of you, so you risk a season rather than a week. Space the big bets, and you recover enough to make the next one count."
+        "text": "Betting big, you find out what you are made of. You value one bold bet more than many safe ones, and you will stake a season on it. Leave a quiet stretch after each big bet to come back to the next one whole."
       },
       "original": {
         "word": "Tenacious",
@@ -43,8 +43,8 @@
       "cell": "土_劫财",
       "field": "ledger[6]",
       "candidate": {
-        "word": "Shares the win",
-        "text": "You share the win because a win with no witness feels unfinished. Being seen winning matters as much to you as winning, so you bring people into your victories rather than your fights. Keep doing it, and you win people as well as races."
+        "word": "Shares the credit",
+        "text": "Whenever you come out ahead, you share the credit first. You want to be seen winning as much as you want the prize. Once you enjoy a result nobody saw, you share the credit freely instead of trading it for an audience."
       },
       "original": {
         "word": "Unbroken",
@@ -61,7 +61,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Sets own bar",
-        "text": "You grade yourself before anyone else can. Knowing where you stand matters more to you than being told, so you set the bar at home and carry it everywhere. Keep it yours, and you hear praise as information instead of fuel."
+        "text": "You grade yourself before anyone else can. Knowing where you stand matters more to you than being told, and you carry your bar everywhere. When you let someone's praise sit beside your bar, you take in news you usually wave off."
       },
       "original": {
         "word": "Self-grounded",
@@ -78,7 +78,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Needs no backup",
-        "text": "Catching yourself without backup is a habit you never had to learn. Asking costs you more than carrying on, so you finish tired instead of finishing owing. Ask anyway once a month, and you let a friend know you as no favour ever did."
+        "text": "Catching yourself without backup is a habit you never had to learn. You would sooner be your own backup than owe a favour. Once going without backup is a choice instead of a rule, you pick which hard days to face alone."
       },
       "original": {
         "word": "Solid",
@@ -95,7 +95,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Holds steady",
-        "text": "Steadiness in you is a choice that looks like a trait. You would rather hold than be held, and a hard week never changes that order. Let a quiet week hold you for once, and you keep it for the next hard one."
+        "text": "Steadiness in you is a choice that looks like a trait. You would rather hold than be held, and a hard week never changes that order. If you hold steady for yourself too, you end a long stretch with calm left over."
       },
       "original": {
         "word": "Dependable",
@@ -112,7 +112,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Clear under pressure",
-        "text": "A hard moment is where your head goes clear. Being needed under pressure settles the strength you store, and you pick the crisis rather than the comfortable plan. Take each pressure, and take the rest after it just as seriously."
+        "text": "Under pressure, your thinking comes clear. Because a calm problem never holds your attention, you wait for it to press on you rather than sort it out while it is small. Turn that clear head on small problems early, before they grow into a crisis."
       },
       "original": {
         "word": "Hard-trained",
@@ -129,7 +129,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Takes charge",
-        "text": "Taking charge is your answer to a job with no owner. Because waiting to be asked feels like wasting what you carry, you would rather run the thing badly than watch it run without you. Keep taking charge, and ask who else wanted it."
+        "text": "Without thinking, you take charge whenever a job has no owner. Since waiting feels like waste, you would sooner run it badly than watch it drift. Let the next one wait a day, so you find out whether you even want it."
       },
       "original": {
         "word": "Focused",
@@ -146,7 +146,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Pushes through",
-        "text": "You push through what would send most people home. Giving up means admitting a limit, so you would sooner push through the pain than name it. Keep that strength, and name the limit out loud before your body names it for you."
+        "text": "Once a thing is started, you push through to the end. Giving up means admitting a limit, so you would sooner push through the pain than say it out loud. When you name a limit early, you save your strength for what matters most."
       },
       "original": {
         "word": "Storm-tested",
@@ -197,7 +197,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Holds the line",
-        "text": "Holding the line is where you feel most yourself. Because a rule that bends once stops being a rule to you, you would sooner hold it against a friend than drop it for one. Hold it, and say why before the line comes between you."
+        "text": "Once you draw a line, you hold it. Since a rule with exceptions is no rule to you, you would sooner let a friend down than drop it. Tell a friend why you hold it, before the line ends up between you."
       },
       "original": {
         "word": "Leads by example",
@@ -231,7 +231,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Moves early",
-        "text": "The start of a venture is the part you love most. Moving early keeps you free, and you want freedom more than the payout at the end. Wait for one payout before you move on, and you learn what moving early is worth."
+        "text": "The start of a venture is the part you love most. Moving early keeps you free, and you want freedom more than the payout at the end. Stay with one early move until it is done, to see what your starts turn into."
       },
       "original": {
         "word": "Adaptive",
@@ -248,7 +248,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Shares freely",
-        "text": "Whatever you have, you share before you count it. Open hands matter more than a full pocket to you, because what you keep never feels like yours. Share as you do, and let one gift a year be for you."
+        "text": "Whatever you have, you share before you count it. Open hands matter more than a full pocket to you, because what you keep never feels like yours. Share one gift a year with yourself the way you share with everyone else."
       },
       "original": {
         "word": "Magnetic",
@@ -265,7 +265,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Saves first",
-        "text": "Saving comes before wanting in you. A full account feels more like safety than a full life does, and you put the account first. Let one want through each season, since saving is only worth it when some of it gets spent."
+        "text": "Saving comes before wanting in you. A full account feels more like safety than a full life does, and you put the account first. Save toward one thing you want each season as well as toward feeling safe."
       },
       "original": {
         "word": "Careful",
@@ -282,7 +282,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Sleeps on it",
-        "text": "A night's sleep goes into every decision you make. Being sure matters more than being quick to you, and waiting is how you came by most of what is yours. Sleep on the big choices, and let one small yes out the same day."
+        "text": "A night's sleep goes into every decision you make. Being sure matters more than being quick to you, because a choice slept on feels like your own. Trust your first answer on one small thing a season to learn how often it was right."
       },
       "original": {
         "word": "Steady-flowing",
@@ -299,7 +299,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Shows up daily",
-        "text": "Showing up is the whole of how you love. You count an ordinary evening for more than flowers once a year. Bring flowers on an ordinary evening now and then, and you show up in a way that gets seen."
+        "text": "Showing up is the whole of how you love. You show up for the ordinary days rather than plan one grand evening, because big gestures feel like showing off. Plan one such evening a year for the fun that showing up every day leaves out."
       },
       "original": {
         "word": "Well-prepared",
@@ -316,7 +316,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Sees it whole",
-        "text": "You get whole answers, with the reasons arriving later. Since you need to understand before being told, you trust the picture arriving complete more than one built step by step. Say what you saw out loud and let the reasons follow."
+        "text": "You get whole answers, with the reasons arriving later. Taking a thing in piece by piece leaves you lost, and you trust the complete view more than any single step. When you say it unproven, you have the picture tested while it is fresh."
       },
       "original": {
         "word": "Visionary",
@@ -333,7 +333,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Self-taught",
-        "text": "What you know best, you taught yourself. Being told an answer leaves it outside you, so you go looking in strange places alone instead of taking the lesson as given. Teach yourself by all means, and let somebody save you the odd year."
+        "text": "You learn best as your own teacher. An answer you were taught never feels yours, and you teach it to yourself instead of taking the lesson. Put what you find on paper, where it counts outside your own head."
       },
       "original": {
         "word": "Night-bright",
@@ -350,7 +350,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Thinks best alone",
-        "text": "You think most clearly alone. In company you lose your own question, and you keep it for the walk home instead of the conversation. Guard that walk, and let the people closest to you hear the answer after."
+        "text": "You think most clearly alone. Since answering on the spot feels like guessing, you would rather think a thing over alone than give a quick reply. If a question matters, take a day to think and bring back an answer you trust."
       },
       "original": {
         "word": "Uncanny",
@@ -367,7 +367,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Good listener",
-        "text": "You hear people out all the way to the end. Understanding someone warms you more than winning the point, so you let them finish rather than fix it halfway. Let someone listen back once in a while, and you get heard too."
+        "text": "You hear people out to the very end. Understanding someone warms you more than winning the point, and you let a person finish rather than fix things halfway. Keep a turn in the talk for yourself, so good listening never costs you your voice."
       },
       "original": {
         "word": "Warm-hearted",
@@ -384,7 +384,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Looks after people",
-        "text": "Looking after someone is how you pay attention. You feel most yourself when a person is better for being near you, so you see to them rather than to your own tiredness. See to the tiredness as well, and you make the warmth last longer."
+        "text": "Looking after people is how you show love. You want the people close to you to do well for years, and you look after the whole person rather than one problem. Pace your care to make it last as long as it is needed."
       },
       "original": {
         "word": "Encouraging",
@@ -401,7 +401,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Slow to judge",
-        "text": "You give people time before you make your mind up about them. Since a person's worst week tells you less than their best one, you wait to see more rather than settle on less. Keep waiting, and say what you decide out loud."
+        "text": "Kindness comes before judgment for you. Since you want to know all of a person first, you hold off judging rather than settle on a single moment. Take your time to judge, as long as you count what the wait costs."
       },
       "original": {
         "word": "Healing",

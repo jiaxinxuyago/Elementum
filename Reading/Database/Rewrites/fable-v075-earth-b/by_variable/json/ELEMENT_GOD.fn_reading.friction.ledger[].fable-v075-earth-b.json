@@ -10,7 +10,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Always comparing",
-        "text": "You measure your life against the nearest life every single day. Since nothing in you feels real until it is ranked, you read a friend's news as a score rather than as news. You compare on reflex, and you carry the tiredness it leaves alone."
+        "text": "You measure your life against the nearest life every single day. Since nothing in you feels real until it is ranked, you judge your home by a friend's rather than live in it. You compare on reflex, and you carry the tiredness it leaves alone."
       },
       "original": {
         "word": "Territorial",
@@ -95,7 +95,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Takes no advice",
-        "text": "Advice reaches you late, if at all. Being right by your own measure matters more than being helped, and you hear a correction as a push rather than a gift. You lose nothing by hearing one out, and you know what you lose by not."
+        "text": "Advice reaches you late, if at all. Being right by your own measure matters more than being helped, and you hear a correction as a push rather than a gift. Each time you wave one off, you reach the same answer the long way."
       },
       "original": {
         "word": "Set-apart",
@@ -112,7 +112,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Hard on yourself",
-        "text": "You hold yourself to a rule you would never give a friend. Wood asks more of your core than it holds, and the extra becomes blame aimed at yourself. It is worth remembering that you are hard on yourself from habit rather than judgment."
+        "text": "Hard on yourself before anyone else can be, you stay ahead of blame. Since a slip named first hurts less, you blame yourself rather than wait to see if anyone minds. You alone noticed most of the slips you are hard on."
       },
       "original": {
         "word": "Severe",
@@ -129,7 +129,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Never switches off",
-        "text": "Switching off feels to you like a step down. Since Wood presses on more than your core takes in, you treat a pause as a gap to fill instead of a rest to take. Bear in mind that you lose nothing by sleeping on it."
+        "text": "Even at rest, you never fully switch off. Since being caught unprepared worries you more than being tired, you stay switched on instead of letting the day end. You miss the answers that only come when you stop all the way."
       },
       "original": {
         "word": "Straining",
@@ -146,7 +146,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Impossible to please",
-        "text": "Being pleased is a thing you rarely let yourself be. Since the pressure on you never lets up, you pass it on as a standard rather than carry it as weight. Notice that you let almost nothing please you, and your praise has grown rare."
+        "text": "Being pleased is a thing you rarely let yourself be. Since the pressure on you never eases, you pass it on as a standard rather than carry it as weight. You pass over good work, yours included, without letting it please you."
       },
       "original": {
         "word": "Overdriven",
@@ -214,7 +214,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Leaves too soon",
-        "text": "Leaving early is the move you trust most. The far chance always looks better than the one you stand in, so you leave before the mess of finishing starts. Keep in mind that the finish is where a chance turns into something you keep."
+        "text": "Leaving early is the move you trust most. Because a mess makes you restless, you leave at its first sign instead of staying to clear it up. Keep in mind that the finish is where a chance turns into something you keep."
       },
       "original": {
         "word": "Up and down",
@@ -231,7 +231,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Spends it fast",
-        "text": "A windfall never stays long. Spending it feels like the natural end of lucky money, and you spend it while it is here instead of letting it sit. It helps to remember that money left sitting becomes savings, and savings get you through dry months."
+        "text": "You never let a windfall stay long. Spending it feels like the natural end of lucky money, and you spend it while it is here instead of letting it sit. Once it is spent, you have only a good story to show for the luck."
       },
       "original": {
         "word": "Ungrounded",
@@ -265,7 +265,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Holds it back",
-        "text": "Holding money back is a habit you never question. An untouched pool feels like the point of earning, and you would rather watch it grow than let any go. Keep in mind that a pool you never drink from is doing nothing for you."
+        "text": "Holding money back never feels like a choice to you. An untouched account feels like the point of earning, and you would rather watch it grow than let any go. If you hold it all back, you have earned money that never works for you."
       },
       "original": {
         "word": "Dammed-up",
@@ -282,7 +282,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Counts every cost",
-        "text": "Counting is how you decide what is allowed. You add up every cost before every pleasure, and you trust the total more than the wanting. It helps to remember that the total counts what a thing costs and leaves out what it gives."
+        "text": "Counting is how you decide what is allowed. You add up every cost before every pleasure, and you trust the total more than the wanting. You end up with a correct total and few of the things the money was for."
       },
       "original": {
         "word": "Wary",
@@ -299,7 +299,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Waits too long",
-        "text": "Waiting too long is your most comfortable mistake. You would rather miss a chance than take a wrong one, and the ones you miss were mostly fine. It is easy to forget that the chances you wait out do not wait for you."
+        "text": "To you, waiting too long feels like the careful choice. You would rather miss a chance than take a wrong one, and the ones you miss were mostly fine. Sooner or later you find that waiting costs more than a wrong yes would."
       },
       "original": {
         "word": "Can’t let go",
@@ -316,7 +316,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "One-track",
-        "text": "You give whatever has your attention all of it. You take a subject whole rather than in parts, and go deep on one thing while everything near it goes cold. Keep remembering that from inside, one track looks like the only one."
+        "text": "Your attention goes to one subject and leaves nothing beside it. Since knowing a little of everything feels empty to you, you learn one subject to the bottom rather than several. Off that one track, you walk past interests you would love just as much."
       },
       "original": {
         "word": "Obsessive",
@@ -333,7 +333,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "All or nothing",
-        "text": "You take a thing up fully or leave it. Your interest arrives all at once or never, so you learn a subject in one push instead of an hour a week. Hold on to the fact that the gaps are part of the learning."
+        "text": "You throw yourself into a thing or do nothing with it. Your interest arrives all at once or never, and you learn a subject in one push instead of an hour a week. Over time you collect a shelf of half-learned things."
       },
       "original": {
         "word": "Erratic",
@@ -349,8 +349,8 @@
       "cell": "火_偏印",
       "field": "ledger[6]",
       "candidate": {
-        "word": "Keeps to yourself",
-        "text": "You keep most of your life to yourself. You find being understood more tiring than being alone, and you keep your thoughts in and hand out the summary. It helps to remember that the part you keep to yourself is the part worth knowing."
+        "word": "Holds things in",
+        "text": "Holding things in is your way of staying steady. Being seen unsure scares you more than being lonely, and you hold every worry in by yourself. You bring a worry out only once it is solved, too late for anyone to help."
       },
       "original": {
         "word": "Distant",
@@ -367,7 +367,7 @@
       "field": "ledger[0]",
       "candidate": {
         "word": "Protects too much",
-        "text": "You protect the people you love from every fall. Seeing them hurt costs you more than the rescue does, so you smooth the way rather than let them walk it rough. Keep hold of the fact that you keep them from their own strength too."
+        "text": "Keeping your people safe is always your first thought. Since their risk feels like your own, you protect them from a hard call instead of trusting them with it. You take on choices that belong to them."
       },
       "original": {
         "word": "Babying",
@@ -384,7 +384,7 @@
       "field": "ledger[3]",
       "candidate": {
         "word": "Leans on others",
-        "text": "You reach for help first and your own hands second. You would rather be steadied than stand alone, and lean before you have to. Never forget that the help is real, and the weight you never carried is real too."
+        "text": "You reach for help first and your own hands second. You would rather be steadied than stand alone, and lean before you have to. You never learn what your own hands could have held."
       },
       "original": {
         "word": "Dependent",
@@ -401,7 +401,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Too comfortable",
-        "text": "Comfortable is where you stop. Being warm enough feels like being done, so you settle for what is fine instead of reaching for what is better. Notice that fine is where what you wanted goes to wait."
+        "text": "Comfortable is where you stop. Being warm enough feels like being done, so you settle for what is fine instead of reaching for what is better. Bear in mind that fine is where what you wanted goes to wait."
       },
       "original": {
         "word": "Drowsy",
@@ -503,7 +503,7 @@
       "field": "ledger[6]",
       "candidate": {
         "word": "Takes it easy",
-        "text": "You get by on what comes easily. Since your first version of anything is already good, you take it easy rather than push, and the second one never gets made. You know already that easy and finished are different things."
+        "text": "You get by on what comes easily. Since your first version of anything is already good, you take it easy rather than push. Whenever you stop at good, you leave the better version unmade."
       },
       "original": {
         "word": "Dulled",

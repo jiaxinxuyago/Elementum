@@ -26,9 +26,9 @@
           {
             "word": "Says it straight",
             "angles": {
-              "drive": "Saying it straight is the only way you know. A softened truth feels like a lie with manners to you, so you name what is wrong ahead of smoothing it over. Say it early as well as straight, and the truth costs you fewer friends.",
-              "cost_self": "Being straight costs you the welcome. Because being right out loud matters more than comfort to you, you say the unsaid thing and lose a few invitations. Let a small wrong thing pass now and then, and you keep the friends worth being right for.",
-              "cost_others": "Whenever something is wrong, you say so before you say anything kind. Being exact feels more honest to you than being gentle, and you hand people the mistake ahead of the credit. Lead with the credit, and you make the mistake easier to hear."
+              "drive": "Saying it straight is the only way you know. A softened truth feels like a lie with manners to you, and you name what is wrong ahead of smoothing it over. Say it early as well as straight, so the truth costs you fewer friends.",
+              "cost_self": "Being straight costs you the welcome. Because being right out loud matters more than comfort to you, you say the unsaid thing and lose a few invitations. If you let a small wrong thing pass, you keep the friends worth being right for.",
+              "cost_others": "Whenever something is wrong, you say so before you say anything kind. Being exact feels more honest to you than being gentle, and you hand people the mistake ahead of the credit. Once you lead with the credit, you make the mistake easier to hear."
             }
           },
           {
@@ -36,15 +36,15 @@
             "angles": {
               "drive": "Setting the bar is something you do unasked. A standard you did not choose bores you, so you set your own rather than keep the given one, and hold yourself to it. Set it high for the year, lower for the day, and reach both.",
               "cost_self": "You never rest under a bar you set yourself. Because the standard is yours, you raise it rather than meet it, and the mark moves each time you near it. Set one bar you are allowed to clear this month, and enjoy the clearing.",
-              "cost_others": "When you set the bar, you set it for everyone near you. Your standard feels more honest than a shared one, and you hold the people beside you to a mark they never chose. Name the bar as yours, and you let them choose it."
+              "cost_others": "When you set the bar, you set it for everyone near you. Your standard feels more honest than a shared one, and you hold the people beside you to a mark they never chose. Call the bar yours to let them choose it."
             }
           },
           {
             "word": "Best when watched",
             "angles": {
-              "drive": "Being watched brings out your best work. A thing done unseen feels half real to you, and you perform in front of someone rather than practice alone. Find a small audience for the dull parts too, and you do them as well as the show.",
+              "drive": "Being watched brings out your best work. A thing done unseen feels half real to you, and you perform with someone watching rather than practice alone. When you find a small audience for the dull parts, you do them as well as the show.",
               "cost_self": "Your best needs a witness. With no one there to rise for, you let the private hours go slack rather than drill them, and the talent that grows unseen stays small. Record one practice a week, and you give the quiet hours an audience.",
-              "cost_others": "An audience gets your best. A crowd feels more worth rising for than one person, and you perform for strangers ahead of the people at home. Give the people at home one show a month, and keep your best where it is loved."
+              "cost_others": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers ahead of the people at home. Whenever you give the people at home a show, you keep your best where it is loved."
             }
           }
         ]
@@ -54,25 +54,25 @@
           {
             "word": "Too direct",
             "angles": {
-              "drive": "Direct is the only setting you have for the truth. A softened answer feels like a lie you would have to keep up, so you say it exactly rather than gently. Keep in mind that you can say it slowly, and slowly is kinder.",
-              "cost_self": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. You came for company and never the last word, and that is worth keeping in mind.",
-              "cost_others": "Whenever someone shows you something, you say what is wrong first. The exact reading feels more useful than the gentle one, and you hand it over direct and leave them the bruise. Remember that you lose nothing by giving the kinder order first."
+              "drive": "Direct is the only setting you have for the truth. A softened answer feels like a lie you would have to keep up, so you say it exactly rather than gently. Being this direct, you make a fair point land harder than it has to.",
+              "cost_self": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. Remember that you lose the company you came for each time you say it that directly.",
+              "cost_others": "You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you skip the soft words rather than soften the point. Keep in mind that you leave them a bruise the truth alone would not have left."
             }
           },
           {
             "word": "Talks back",
             "angles": {
-              "drive": "Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. Remember that you can pick the rules worth fighting and let the rest stand.",
-              "cost_self": "Each order carries some help, and talking back costs you that part. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them. Remember how much longer you keep a lesson than a win.",
-              "cost_others": "Given an instruction, you talk back in front of everyone. Having the last word feels more like respect to you than taking the note, and you make whoever is above you defend a small request. Remember to save the talking back for what matters."
+              "drive": "Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. It helps to remember that you waste your talking back on small rules.",
+              "cost_self": "You talk back hardest to the people who correct you. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them. You win the back-and-forth and leave the lesson behind.",
+              "cost_others": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. Do not forget that you spend a little of their patience on every small fight."
             }
           },
           {
             "word": "Grades people",
             "angles": {
               "drive": "Grading people is something you do without meaning to. A quick read of someone's worth feels safer than not knowing, so you grade them on sight rather than wait to be surprised. It is worth remembering that you grade yourself the same way.",
-              "cost_self": "Grading someone costs you what they know. Since you would rather be right about a person than learn from them, you stop listening at the grade. You learn nothing from someone you have graded, and that is the part to remember.",
-              "cost_others": "When you meet someone, you grade them before you greet them. The fast read feels more honest than the slow one, and you give people the grade instead of your attention. You leave them more chance to surprise you when you grade in pencil."
+              "cost_self": "Grading someone costs you what they know. Since you would rather be right about a person than learn from them, you stop listening at the grade. Bear in mind how little you learn from anyone once you have graded them.",
+              "cost_others": "When you meet someone, you grade them before you greet them. The fast read feels more honest than the slow one, and you give people the grade instead of your attention. Try to remember how rarely you let someone change the first grade you gave."
             }
           }
         ]

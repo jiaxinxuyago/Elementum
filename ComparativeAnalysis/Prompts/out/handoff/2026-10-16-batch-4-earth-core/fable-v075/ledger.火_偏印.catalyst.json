@@ -54,7 +54,7 @@
    },
    "value_b": {
     "word": "Sees it whole",
-    "text": "You get whole answers, with the reasons arriving later. Since you need to understand before being told, you trust the picture arriving complete more than one built step by step. Say what you saw out loud and let the reasons follow."
+    "text": "You get whole answers, with the reasons arriving later. Taking a thing in piece by piece leaves you lost, and you trust the complete view more than any single step. When you say it unproven, you have the picture tested while it is fresh."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Sees it whole",
-    "text": "Seeing it whole is how you know a thing is true. Because a complete picture needs no steps, you keep the answer to yourself rather than say it too early. If you say it half-proved, you keep the head start you otherwise throw away."
+    "text": "Seeing it whole is how you know a thing is true. Because you want proof to show, you sit on the picture rather than use it. If you act on what you see early, you keep the head start that waiting throws away."
    }
   },
   "ledger[2]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Self-taught",
-    "text": "Most of what you know, you taught yourself. You own a thing only once you have worked it out alone, so you would rather find the odd route than take the usual course. Keep teaching yourself, and ask one question when you get stuck."
+    "text": "Most of what you know, you taught yourself. You own a thing only once you work it out alone, so you would rather find your own way than take a course. Teach yourself the dull basics too, to keep your knowledge free of holes."
    },
    "value_b": {
     "word": "Self-taught",
-    "text": "What you know best, you taught yourself. Being told an answer leaves it outside you, so you go looking in strange places alone instead of taking the lesson as given. Teach yourself by all means, and let somebody save you the odd year."
+    "text": "You learn best as your own teacher. An answer you were taught never feels yours, and you teach it to yourself instead of taking the lesson. Put what you find on paper, where it counts outside your own head."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Self-taught",
-    "text": "Self-taught is the only learning you trust. Because a thing has to be found before it feels true, you spend months finding it alone rather than an hour being told. Allow one good teacher in, and you keep the months you pay for knowledge."
+    "text": "Self-taught is the only learning you trust. Because a thing has to be found before it feels true, you spend months finding it alone rather than an hour being told. Whenever a lesson would spare you the search, take it and keep those months."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Self-taught",
-    "text": "Whenever you are offered a lesson, you take the long self-taught way round instead. Since you would rather learn it yourself than be handed it, you leave the offer unused. Take one of those lessons, and you give its teacher the chance to give."
+    "text": "You turn down help with anything you are learning. Being self-taught matters more to you than being shown, and you never let a friend who knows it well share it. Say yes to one lesson as a kindness to the person who offers it."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Thinks best alone",
-    "text": "Your best thinking happens with nobody else in it. You need quiet to hear your own thinking, so you take a question away to think it through rather than talk it out. Give yourself that quiet on purpose, and bring the answer back whole."
+    "text": "Your best thinking happens with nobody else in it. You need quiet to hear your own thinking, so you take a question away to think it through rather than talk it out. Set that quiet aside before you have to think in a crowd."
    },
    "value_b": {
     "word": "Thinks best alone",
-    "text": "You think most clearly alone. In company you lose your own question, and you keep it for the walk home instead of the conversation. Guard that walk, and let the people closest to you hear the answer after."
+    "text": "You think most clearly alone. Since answering on the spot feels like guessing, you would rather think a thing over alone than give a quick reply. If a question matters, take a day to think and bring back an answer you trust."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Thinks best alone",
-    "text": "Thinking alone is where you are most yourself. Since you take every question into quiet first, you carry the hardest ones alone ahead of letting anyone near them. Let one person into the thinking, and you get back the closeness you spend on quiet."
+    "text": "When something weighs on you, you think it through alone first. Because talking before you have an answer feels unsafe, you carry the worry alone rather than share it. Let one person into your thinking to get the comfort you now go without."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Thinks best alone",
-    "text": "Working something out, you go quiet on everyone around you. Because you think it through alone rather than out loud, your closest people get the conclusion and none of the working. Tell one of them how you got there, and you share the thinking too."
+    "text": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. When you need to think, say it first and stay close enough to be good company."
    }
   }
  }

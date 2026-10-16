@@ -134,8 +134,8 @@
     "notes": "Fire wanted and absent: borrow it"
    },
    "value": {
-    "clause": "No fire under this ground, and the cold soil takes in nothing new.",
-    "remedy": "Borrow warmth from a teacher or one bright friend."
+    "clause": "Without fire there is no ash, and this ground has nothing new to grow from.",
+    "remedy": "Stay close to people who love what they learn."
    }
   },
   "carry.spared": {
@@ -194,8 +194,8 @@
     "notes": "Fire dominant: the cell's excess idiom in English, never quoted"
    },
    "value": {
-    "clause": "Fire enough to bake the ground it was meant to feed, the soil dried past growing.",
-    "remedy": "Cool the ground. Decide one thing and act on it."
+    "clause": "Fire past its use scorches the very ground it was lit to feed.",
+    "remedy": "Stop adding. Let the ground cool before you learn more."
    }
   },
   "function.definition_catalyst": {
@@ -215,7 +215,7 @@
     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
     "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Fire and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
    },
-   "value": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, you stay unlit, chasing one strange idea alone as much as waiting for a kind teacher. Until then you know less than you saw."
+   "value": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, your Mind is left wanting, so you either chase hunches alone or wait to be taught. You end up circling the same few ideas."
   },
   "function.definition_friction": {
    "spec": {
@@ -262,7 +262,7 @@
     "remedy_gloss": "Channel: an outlet, an action that spends the excess (make, ship, say, lift, walk, cut); never a brake (the band's remedy verb, REA_02 §5c; no chart is attached: the friction pole of the Mind is the Overfueled band's case (the core has more than it channels))",
     "notes": "one plain truth sentence with the reader as its subject naming the psychological truth under the state, every action in the remedy verb's shape, then small actions with objects and cadences from the family's ruled domains or ordinary life (work only where a domain word is work), two, in the cure's register (owner 2026-10-14, Q35: on an Order cure someone above you, a deadline, a judge, never a friend; on a Mind cure study, shelter, time; on an Action cure a thing made or shipped; on a Body cure sleep, food, rest; on an Expression cure a thing said or given), the smallest action last, closing on the energy prescription in the energy-manual register (owner 2026-09-29, the beat re-cut 2026-09-30): \"Seek {Element}, the {Function} energy. {Element} {is or does, in its own material, two clauses}. Let it {spend / hold / shape} what {the overgrown element} {stores / pours / burns}.\" The energy is the subject, a material the reader can hold and use, no life action inside the beat; the element must be in cure_set, never one that feeds this friction; the gate blocks without the \"Seek {Element}, the {Function} energy\" form; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
    },
-   "value": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Finish one small thing a week and give it away."
+   "value": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Fix one small thing at home with what you already know."
   },
   "cta_verdict": {
    "spec": {
@@ -276,8 +276,8 @@
     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (noted on a verdict, the read decides)",
     "notes": "explains \"Fire is your Mind\": a behavioural truth with the reader as its subject plus ONE tendency-framed consequence beat, true on either pole, the tension inside the one sentence where it can be; at least eight words, no arena word, no turn word (but, yet, however), no more than two commas (owner 2026-10-14, v0.7.1)"
    },
-   "value": "Your mind takes in what warms it first, so you learn more from one person who lights you up than from any lesson you sat through cold.",
-   "value_b": "You take ideas in through the people who carry them, so a warm teacher stays with you longer than a right one."
+   "value": "You take a thing in once you see why it matters to you, so you tend to ask what it is for more than how it works.",
+   "value_b": "You take ideas in through the people who carry them, so you tend to keep a kind teacher's words longer than a correct one's."
   }
  }
 }

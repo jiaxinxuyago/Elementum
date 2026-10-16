@@ -8,14 +8,14 @@
     {
       "cell": "土_土",
       "field": "cta_verdict",
-      "candidate": "Your strength is the kind that stays put, and you usually wait a problem out rather than run from it.",
+      "candidate": "You would rather go the distance than win a sprint, and you tend to do your best in the second half of anything long.",
       "original": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were.",
       "gate": "pass"
     },
     {
       "cell": "土_木",
       "field": "cta_verdict",
-      "candidate": "You work harder under a demand someone else set than under one you set yourself, so your own plans usually wait the longest.",
+      "candidate": "You make the rules you live by part of yourself, so over the years you value your standing as much as your work.",
       "original": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together.",
       "gate": "pass"
     },
@@ -29,7 +29,7 @@
     {
       "cell": "土_火",
       "field": "cta_verdict",
-      "candidate": "Your mind takes in what warms it first, so you learn more from one person who lights you up than from any lesson you sat through cold.",
+      "candidate": "You take a thing in once you see why it matters to you, so you tend to ask what it is for more than how it works.",
       "original": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.",
       "gate": "pass"
     },

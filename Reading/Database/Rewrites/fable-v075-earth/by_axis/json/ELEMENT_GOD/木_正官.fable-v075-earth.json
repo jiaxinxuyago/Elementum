@@ -26,7 +26,7 @@
           {
             "word": "Keeps your word",
             "angles": {
-              "drive": "You keep your word long after it stops being convenient. A promise is a rule you chose, and keeping it gives your stored strength a shape. Keep your word ahead of your comfort, and make fewer promises so each one stays easy to keep.",
+              "drive": "You keep your word long after it stops being convenient. Being counted on is the respect you want, so you put a promise ahead of your comfort. Add your comfort to the promises you keep, because a word kept at any price wears you down.",
               "cost_self": "Keeping your word matters more to you than keeping your options. Since breaking a promise feels like losing rank with yourself, you stay inside old plans rather than reopen them. Ask out of one dead promise, and you are free when the next chance comes.",
               "cost_others": "Whoever gives you their word, you expect them to keep it. Because you treat a promise as a rule, you count a missed one as a broken rule instead of a bad week. Allow people one free miss, and your word weighs more for it."
             }
@@ -34,17 +34,17 @@
           {
             "word": "Earns every step",
             "angles": {
-              "drive": "You earn every step before you take it. Rank you were handed feels borrowed, so you wait to be ready instead of asking to be next. Keep earning it, and ask for the next step a little before you feel you have earned it.",
-              "cost_self": "Earning every step takes longer than asking for it. Since a rank you never asked for sits easier on you, you wait for the title rather than claim it. Ask once a year for what you have earned, and the chance stops passing you by.",
-              "cost_others": "Under you, every step gets earned rather than handed down. Because a shortcut looks like cheating to you, you hold back the lift you owe the people under you. Hand one step down early and give someone the start you never had."
+              "drive": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. When you ask for the next step a little sooner, you stop working a rank below your worth.",
+              "cost_self": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. If you claim what you have earned, you stop losing the title to whoever asked first.",
+              "cost_others": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Hand one person a step early, so they spend less time proving what you already know."
             }
           },
           {
             "word": "Holds the line",
             "angles": {
-              "drive": "You hold the line where letting it slide would be easier. A standard kept stops your stored strength from spreading flat, so you hold the rule ahead of the exception. Keep holding it, and decide in advance who you would bend it for.",
+              "drive": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Let someone else hold one line for a while, instead of carrying every rule alone.",
               "cost_self": "Holding the line costs you more than you admit. Since bending a rule feels like losing yourself, you hold it against the people you love as much as against strangers. Bend it once for someone who matters, and you keep a closeness no rule replaces.",
-              "cost_others": "For everyone, you hold the line, even for those who needed an exception. Since one exception feels unfair to the rest, you give someone the rule in place of a second chance. Bend once on purpose, and you learn which lines only hold people back."
+              "cost_others": "For everyone, you hold the line, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, to hold the line only where it helps."
             }
           }
         ]
@@ -54,7 +54,7 @@
           {
             "word": "By the book",
             "angles": {
-              "drive": "You go by the book, even where it was never meant to reach. Wood presses on a core with little spare, so you trust the written rule rather than your own judgment. Remember that you go to the book for safety first and sense second.",
+              "drive": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. Each time the book decides, you give up a chance to trust yourself.",
               "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Do not forget that you lose the judgment you never use, and the step up that needed it.",
               "cost_others": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. It helps to remember that you hand them the page and keep yourself out."
             }
@@ -62,17 +62,17 @@
           {
             "word": "Never bends",
             "angles": {
-              "drive": "You never bend, whatever the day asks. Wood holds you upright past the point of use, so you brace against a change of plan rather than lean into it. Bear in mind that bending is not the same as breaking.",
+              "drive": "You never bend, whatever the day asks. Because standing firm feels safer to you, you brace against a change of plan rather than lean into it. You stay loyal to the old plan long after it has stopped working.",
               "cost_self": "Never bending keeps you honest and keeps you tired. Since a new plan feels like being pushed, you hold your shape instead of saving your strength. You lose every chance that arrives as a change, and you lose it by refusing to bend.",
-              "cost_others": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. You take from them the chance to be heard and from yourself the next idea."
+              "cost_others": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. Over time, you leave the people around you with ideas they no longer bother to share."
             }
           },
           {
             "word": "Rank comes first",
             "angles": {
               "drive": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Know that you want the order more than the answer, and the job needs the answer.",
-              "cost_self": "Even when the one being ranked is you, rank comes first. Since where you stand matters more than what you stand for, you chase the title instead of the work. You pay for it in the career you wanted, swapped for one that looked higher.",
-              "cost_others": "In how you treat people, rank comes first, whether you mean it or not. Since order feels safer than equals, you give the person above you your best ahead of the one beside you. You leave the one beside you whatever is left."
+              "cost_self": "Even when the one being ranked is you, rank comes first. Since a title tells you how well you are doing, you choose rank ahead of liking your work. You keep moving up into jobs you would not pick for the work alone.",
+              "cost_others": "In how you treat people, rank comes first. Because order feels safer than equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
             }
           }
         ]

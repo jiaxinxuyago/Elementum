@@ -26,23 +26,23 @@
           {
             "word": "Saves first",
             "angles": {
-              "drive": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. Spend one saved month on something you want, and you learn what the saving was for.",
-              "cost_self": "Saving first is how you stay calm. You put money away ahead of anything you would enjoy, because the account quiets your worry. Spend some on yourself every so often, and you stop paying for safety with the years you save for.",
-              "cost_others": "Saving first hands your people the careful version of you. You put the savings ahead of the trip together, and give them caution instead of company. Spend one saved thing on them a year, and you hand them the part of you the saving protects."
+              "drive": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. If you spend one saved month on something you want, you learn what the saving was for.",
+              "cost_self": "Your calm rests on saving first. You would rather save the money than spend it on yourself, because spending on you feels like a risk. Keep a small part for yourself until the saving stops costing you the years it was for.",
+              "cost_others": "Saving first hands your people the careful version of you. You put the savings ahead of the trip together, and give them caution instead of company. Save for one good time together with the care you give the account."
             }
           },
           {
             "word": "Sleeps on it",
             "angles": {
-              "drive": "You sleep on a decision before you make it, even a small one. Waiting a night costs nothing and hurrying costs plenty, so you would rather lose a day than a deal. Sleep on the big ones, and decide the small ones before bed.",
-              "cost_self": "Sleeping on a choice keeps your money safe, and it keeps you late. You wait a night ahead of saying yes, since being wrong costs more. Say yes the same day once a season, and you stop losing chances to whoever answered first.",
-              "cost_others": "Whenever you sleep on an answer, you leave someone waiting overnight. You would rather be sure tomorrow than quick today, and you hand the wait to whoever asked. Give the small answers before bed, and you keep the patience of the people around you."
+              "drive": "You sleep on a decision before you make it, even a small one. Waiting a night costs nothing and hurrying costs plenty, so you would rather lose a day than a deal. When a choice is small, decide it today and keep your nights free.",
+              "cost_self": "Sleeping on a choice keeps your money safe, and it keeps you late. You wait a night ahead of saying yes, since being wrong costs more. Answer the choices you already know the same day, before sleeping on them costs you the better price.",
+              "cost_others": "Whenever you sleep on an answer, you leave someone waiting overnight. You would rather be sure tomorrow than quick today, and you hand the wait to whoever asked. Tell the people close to you what day your answer comes while you sleep on it."
             }
           },
           {
             "word": "Shows up daily",
             "angles": {
-              "drive": "You show up every day the same way, noticed or not. Being counted on matters more to you than being exciting, so you show up on dull days too. Show up for yourself once a week as well, since steady love needs a steady supply.",
+              "drive": "You show up every day the same way, noticed or not. You put being counted on ahead of being exciting, and you show up on dull days too. Show up for one plan of your own by giving it a set place in your week.",
               "cost_self": "Showing up daily is your way of staying sure of someone. You keep the routine ahead of your rest, since a missed day feels like a crack. Miss one on purpose now and again, and you get the rest showing up runs on.",
               "cost_others": "What you give the ones you love is that you keep showing up. You hand them presence rather than surprise, and you let them know each day's shape in advance. Change the shape once a month, and you add something to look forward to."
             }
@@ -55,24 +55,24 @@
             "word": "Holds it back",
             "angles": {
               "drive": "You hold money back long after holding it back makes sense. Having it in the pool feels safer than having it out, so you hold it rather than use it. Remember that money held back is only safe until the day it is needed.",
-              "cost_self": "Holding back keeps the floor from dropping. You hold money ahead of using it even on things you need, because spending feels like losing. It is worth remembering that held money buys nothing, and what you go without is what it was for.",
-              "cost_others": "Whenever someone close asks, you hold back first and help second. Keeping the pool whole comes ahead of the ask, and you hand them a yes with most of it held back. You already know that the smaller yes is what stays with them."
+              "cost_self": "Holding back keeps the floor from dropping. You hold money ahead of using it even on things you need, because a smaller balance feels like danger. You pay for holding back with the things you needed and never bought.",
+              "cost_others": "Even with the people closest to you, you hold back first and help second. You would rather keep the account whole than give the full amount asked. For each amount you hold back from them, you take a little ease out of the closeness."
             }
           },
           {
             "word": "Counts every cost",
             "angles": {
-              "drive": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs ahead of what it is worth. Bear in mind that the count is right and the dinner was the point.",
+              "drive": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs ahead of what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it.",
               "cost_self": "Being caught short is the thing counting every cost protects you from. You would rather know what a kindness costs than take it, and you count the free ones too. Notice that counting has a price too, paid in closeness you never let in.",
-              "cost_others": "Counting every cost reaches the people you love. You keep a running total of what each of them costs rather than brings, and you let it show in what you give back. Keep the other column too, since the one you read from shows."
+              "cost_others": "With the people you love, you count every cost even on the time you share. You would rather count what an evening together costs than simply enjoy it. In the end, you hand them your company with the count in plain view."
             }
           },
           {
             "word": "Waits too long",
             "angles": {
-              "drive": "You wait for the sure thing, and it rarely comes on time. Being certain means more to you than being early, so you wait past the moment for yes. You know by now that waiting is a decision too, with its own price.",
+              "drive": "You wait for the sure thing, and it rarely comes on time. Being certain means more to you than being early, so you wait past the moment for yes. Waiting to be certain, you lose the years a yes would already have given you.",
               "cost_self": "Waiting too long keeps you from being wrong. You want the sure yes more than the early one, and you wait until the choice makes itself. Do not forget that the price of waiting is the deals and people that stopped waiting for you.",
-              "cost_others": "When someone needs your answer, you wait until you are sure. You put being certain ahead of being there, and you leave whoever asked holding a question. Know that a late yes reaches most people as a no, whatever you meant by it."
+              "cost_others": "No matter how close the person asking, you wait to be sure. You put being certain ahead of being there, and you leave them holding the question. By the time you stop waiting, you have already taken the time they needed to plan."
             }
           }
         ]

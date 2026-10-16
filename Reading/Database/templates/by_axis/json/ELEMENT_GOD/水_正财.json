@@ -16,14 +16,14 @@
     "k2_functional": "You administer gracefully: systems, budgets, routines that run without drought.",
     "adj_chips": {
       "catalyst": [
-        "Careful",
-        "Steady-flowing",
-        "Well-prepared"
+        "Saves first",
+        "Sleeps on it",
+        "Shows up daily"
       ],
       "friction": [
-        "Dammed-up",
-        "Wary",
-        "Can’t let go"
+        "Holds it back",
+        "Counts every cost",
+        "Waits too long"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Careful",
+            "word": "Saves first",
             "angles": {
-              "drive": "You handle resources the way careful water handles a landscape, never taking more than the channel can hold. The purchase gets slept on, the debt gets declined, the plan keeps a margin. Boring, people say, until their own accounts get interesting in the bad way.",
-              "cost_self": "The car was chosen after the insurance quote, the reliability data, and one conversation with a mechanic you trust. It has now outlasted three of your friends’ flashier choices, at half the total cost. The spreadsheet that picked it is still on your laptop, mildly famous.",
-              "cost_others": "Friends consult you before their big decisions the way travelers check the depth of a river before driving in. Your questions are unexciting and save fortunes: what does it cost per year, what happens if it breaks. Several disasters in your circle simply never happened. That was you."
+              "drive": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. If you spend one saved month on something you want, you learn what the saving was for.",
+              "cost_self": "Your calm rests on saving first. You would rather save the money than spend it on yourself, because spending on you feels like a risk. Keep a small part for yourself until the saving stops costing you the years it was for.",
+              "cost_others": "Saving first hands your people the careful version of you. You put the savings ahead of the trip together, and give them caution instead of company. Save for one good time together with the care you give the account."
             }
           },
           {
-            "word": "Steady-flowing",
+            "word": "Sleeps on it",
             "angles": {
-              "drive": "Your resources move like a reliable stream, in on schedule, out with intention, never flash-flooding. The salary lands, the transfers fire, the obligations get met a little early. Drama has no purchase on your finances, and the calm compounds as quietly as the interest.",
-              "cost_self": "Rent has arrived on the first for eleven consecutive years, across three landlords, one recession, and a broken leg. The current landlord once called to check the transfer was real, so rare is the species. You are the tenant reference other applicants wish existed.",
-              "cost_others": "The people downstream of you, family, dependents, one perpetually struggling friend, plan their lives around a reliability they have stopped noticing. The support just arrives, monthly, like weather in a fortunate climate. Nobody asks what maintaining a stream that steady requires. It requires everything, daily."
+              "drive": "You sleep on a decision before you make it, even a small one. Waiting a night costs nothing and hurrying costs plenty, so you would rather lose a day than a deal. When a choice is small, decide it today and keep your nights free.",
+              "cost_self": "Sleeping on a choice keeps your money safe, and it keeps you late. You wait a night ahead of saying yes, since being wrong costs more. Answer the choices you already know the same day, before sleeping on them costs you the better price.",
+              "cost_others": "Whenever you sleep on an answer, you leave someone waiting overnight. You would rather be sure tomorrow than quick today, and you hand the wait to whoever asked. Tell the people close to you what day your answer comes while you sleep on it."
             }
           },
           {
-            "word": "Well-prepared",
+            "word": "Shows up daily",
             "angles": {
-              "drive": "The future finds you already provisioned. The renewal date is in the calendar, the emergency fund holds six months, the umbrella lives in the car. Your readiness is so habitual it looks like luck: things simply never seem to catch you without the relevant item.",
-              "cost_self": "When the layoffs came, your household absorbed the news with a strange calm: the fund was there, the resume was current, the numbers had been run in advance during a peaceful January. The panic that visited every other affected house found yours already interviewed and hired.",
-              "cost_others": "People tease the preparations right up until they need them, at which point you become briefly, intensely popular. The jump cables, the spare charger, the printed copy: someone borrows one weekly. You have become the reason other people can afford to be spontaneous. Nobody sends a card."
+              "drive": "You show up every day the same way, noticed or not. You put being counted on ahead of being exciting, and you show up on dull days too. Show up for one plan of your own by giving it a set place in your week.",
+              "cost_self": "Showing up daily is your way of staying sure of someone. You keep the routine ahead of your rest, since a missed day feels like a crack. Miss one on purpose now and again, and you get the rest showing up runs on.",
+              "cost_others": "What you give the ones you love is that you keep showing up. You hand them presence rather than surprise, and you let them know each day's shape in advance. Change the shape once a month, and you add something to look forward to."
             }
           }
         ]
@@ -93,27 +93,27 @@
       "friction": {
         "ledger": [
           {
-            "word": "Dammed-up",
+            "word": "Holds it back",
             "angles": {
-              "drive": "Your resources pool behind walls you keep raising. The money accumulates and does not move, the generosity is rationed through a narrow spillway, and downstream, things that needed watering are visibly dry. The reservoir is impressive. Reservoirs, unvisited, are just deep places holding still.",
-              "cost_self": "The account crossed the threshold you once named as enough, and the threshold moved the same week, upward, as it always moves. Your niece’s tuition request took three weeks to answer and came back a loan, papered, at interest. Family dinners since have had a different acoustics.",
-              "cost_others": "People stopped asking, which you registered as peace. The requests dried up, the little fundraisers route around you, and the reputation settled like silt: comfortable, careful, closed. The wealth is real and growing. What it is for remains, to everyone including you, the open question."
+              "drive": "You hold money back long after holding it back makes sense. Having it in the pool feels safer than having it out, so you hold it rather than use it. Remember that money held back is only safe until the day it is needed.",
+              "cost_self": "Holding back keeps the floor from dropping. You hold money ahead of using it even on things you need, because a smaller balance feels like danger. You pay for holding back with the things you needed and never bought.",
+              "cost_others": "Even with the people closest to you, you hold back first and help second. You would rather keep the account whole than give the full amount asked. For each amount you hold back from them, you take a little ease out of the closeness."
             }
           },
           {
-            "word": "Wary",
+            "word": "Counts every cost",
             "angles": {
-              "drive": "Every offer arrives at your door pre-suspected. The deal has a catch, the kindness has an angle, the stranger has a reason: your default read is downstream contamination, and proof of purity is a standard almost nothing meets. You are rarely cheated. You are also rarely surprised by joy.",
-              "cost_self": "The neighbor’s offer to water your plants during your trip triggered a full risk assessment: motive, key custody, precedent. You declined with thanks and paid a service. The plants did fine. The neighbor waved differently afterward, from slightly further away, permanently.",
-              "cost_others": "People approach you with their cards face up and their movements slow, having learned that anything else reads as an angle. The honest ones find the screening mildly insulting and mostly stop volunteering. What gets through your filter is genuinely safe. So little gets through."
+              "drive": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs ahead of what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it.",
+              "cost_self": "Being caught short is the thing counting every cost protects you from. You would rather know what a kindness costs than take it, and you count the free ones too. Notice that counting has a price too, paid in closeness you never let in.",
+              "cost_others": "With the people you love, you count every cost even on the time you share. You would rather count what an evening together costs than simply enjoy it. In the end, you hand them your company with the count in plain view."
             }
           },
           {
-            "word": "Can’t let go",
+            "word": "Waits too long",
             "angles": {
-              "drive": "Letting go, of money, of objects, of the way Sunday is supposed to run, activates something in your grip that logic cannot pry open. The sunk cost stays sunk and held, the worn-out thing stays shelved, and your hands, at any given moment, are completely full.",
-              "cost_self": "The vacation fund has existed for nine years and never once been spent, each proposed trip failing the final review at the moment of booking. The money is for vacations. The vacations are somehow never quite worth the money. The fund grows, a monument to trips unrisked.",
-              "cost_others": "Prying anything from you, a concession, an old coat for the charity bag, an admission that plans changed, has a known difficulty rating among your people. They mostly stopped trying and started working around the grip. Your hands hold everything. Notably, lately, that includes very little of theirs."
+              "drive": "You wait for the sure thing, and it rarely comes on time. Being certain means more to you than being early, so you wait past the moment for yes. Waiting to be certain, you lose the years a yes would already have given you.",
+              "cost_self": "Waiting too long keeps you from being wrong. You want the sure yes more than the early one, and you wait until the choice makes itself. Do not forget that the price of waiting is the deals and people that stopped waiting for you.",
+              "cost_others": "No matter how close the person asking, you wait to be sure. You put being certain ahead of being there, and you leave them holding the question. By the time you stop waiting, you have already taken the time they needed to plan."
             }
           }
         ]
@@ -137,6 +137,246 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Careful"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Steady-flowing"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Well-prepared"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Dammed-up"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Wary"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Can’t let go"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Careful"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "You handle resources the way careful water handles a landscape, never taking more than the channel can hold. The purchase gets slept on, the debt gets declined, the plan keeps a margin. Boring, people say, until their own accounts get interesting in the bad way."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The car was chosen after the insurance quote, the reliability data, and one conversation with a mechanic you trust. It has now outlasted three of your friends’ flashier choices, at half the total cost. The spreadsheet that picked it is still on your laptop, mildly famous."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Friends consult you before their big decisions the way travelers check the depth of a river before driving in. Your questions are unexciting and save fortunes: what does it cost per year, what happens if it breaks. Several disasters in your circle simply never happened. That was you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Steady-flowing"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your resources move like a reliable stream, in on schedule, out with intention, never flash-flooding. The salary lands, the transfers fire, the obligations get met a little early. Drama has no purchase on your finances, and the calm compounds as quietly as the interest."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Rent has arrived on the first for eleven consecutive years, across three landlords, one recession, and a broken leg. The current landlord once called to check the transfer was real, so rare is the species. You are the tenant reference other applicants wish existed."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The people downstream of you, family, dependents, one perpetually struggling friend, plan their lives around a reliability they have stopped noticing. The support just arrives, monthly, like weather in a fortunate climate. Nobody asks what maintaining a stream that steady requires. It requires everything, daily."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Well-prepared"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The future finds you already provisioned. The renewal date is in the calendar, the emergency fund holds six months, the umbrella lives in the car. Your readiness is so habitual it looks like luck: things simply never seem to catch you without the relevant item."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "When the layoffs came, your household absorbed the news with a strange calm: the fund was there, the resume was current, the numbers had been run in advance during a peaceful January. The panic that visited every other affected house found yours already interviewed and hired."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People tease the preparations right up until they need them, at which point you become briefly, intensely popular. The jump cables, the spare charger, the printed copy: someone borrows one weekly. You have become the reason other people can afford to be spontaneous. Nobody sends a card."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Dammed-up"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your resources pool behind walls you keep raising. The money accumulates and does not move, the generosity is rationed through a narrow spillway, and downstream, things that needed watering are visibly dry. The reservoir is impressive. Reservoirs, unvisited, are just deep places holding still."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The account crossed the threshold you once named as enough, and the threshold moved the same week, upward, as it always moves. Your niece’s tuition request took three weeks to answer and came back a loan, papered, at interest. Family dinners since have had a different acoustics."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People stopped asking, which you registered as peace. The requests dried up, the little fundraisers route around you, and the reputation settled like silt: comfortable, careful, closed. The wealth is real and growing. What it is for remains, to everyone including you, the open question."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Wary"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Every offer arrives at your door pre-suspected. The deal has a catch, the kindness has an angle, the stranger has a reason: your default read is downstream contamination, and proof of purity is a standard almost nothing meets. You are rarely cheated. You are also rarely surprised by joy."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The neighbor’s offer to water your plants during your trip triggered a full risk assessment: motive, key custody, precedent. You declined with thanks and paid a service. The plants did fine. The neighbor waved differently afterward, from slightly further away, permanently."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People approach you with their cards face up and their movements slow, having learned that anything else reads as an angle. The honest ones find the screening mildly insulting and mostly stop volunteering. What gets through your filter is genuinely safe. So little gets through."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Can’t let go"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Letting go, of money, of objects, of the way Sunday is supposed to run, activates something in your grip that logic cannot pry open. The sunk cost stays sunk and held, the worn-out thing stays shelved, and your hands, at any given moment, are completely full."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The vacation fund has existed for nine years and never once been spent, each proposed trip failing the final review at the moment of booking. The money is for vacations. The vacations are somehow never quite worth the money. The fund grows, a monument to trips unrisked."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/水_正财.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Prying anything from you, a concession, an old coat for the charity bag, an admission that plans changed, has a known difficulty rating among your people. They mostly stopped trying and started working around the grip. Your hands hold everything. Notably, lately, that includes very little of theirs."
     }
   ]
 }

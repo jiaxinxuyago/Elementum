@@ -12,7 +12,7 @@
       "catalyst": [
         "Better with rivals",
         "Bets big",
-        "Shares the win"
+        "Shares the credit"
       ],
       "friction": [
         "Always comparing",
@@ -26,19 +26,19 @@
           {
             "word": "Better with rivals",
             "angles": {
-              "drive": "Competition wakes something in you that nothing else reaches. Being measured against someone feels more honest than being measured alone, and a rival makes you better where a fan makes you comfortable. Keep one rival close, and you keep your best effort within reach."
+              "drive": "Competition wakes something in you that nothing else reaches. Being measured against someone feels more honest than being measured alone, and you push harder for a rival than for a fan. Keep one rival close, and you keep your best effort within reach."
             }
           },
           {
             "word": "Bets big",
             "angles": {
-              "drive": "You bet big because small wins never feel like wins. A heavy stake is the only thing that gets all of you, so you risk a season rather than a week. Space the big bets, and you recover enough to make the next one count."
+              "drive": "Betting big, you find out what you are made of. You value one bold bet more than many safe ones, and you will stake a season on it. Leave a quiet stretch after each big bet to come back to the next one whole."
             }
           },
           {
-            "word": "Shares the win",
+            "word": "Shares the credit",
             "angles": {
-              "drive": "You share the win because a win with no witness feels unfinished. Being seen winning matters as much to you as winning, so you bring people into your victories rather than your fights. Keep doing it, and you win people as well as races."
+              "drive": "Whenever you come out ahead, you share the credit first. You want to be seen winning as much as you want the prize. Once you enjoy a result nobody saw, you share the credit freely instead of trading it for an audience."
             }
           }
         ]
@@ -48,7 +48,7 @@
           {
             "word": "Always comparing",
             "angles": {
-              "drive": "You measure your life against the nearest life every single day. Since nothing in you feels real until it is ranked, you read a friend's news as a score rather than as news. You compare on reflex, and you carry the tiredness it leaves alone."
+              "drive": "You measure your life against the nearest life every single day. Since nothing in you feels real until it is ranked, you judge your home by a friend's rather than live in it. You compare on reflex, and you carry the tiredness it leaves alone."
             }
           },
           {

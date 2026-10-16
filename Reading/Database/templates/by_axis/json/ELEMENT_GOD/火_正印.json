@@ -16,14 +16,14 @@
     "k2_functional": "You think in warm stories: knowledge kept as tales that teach without lecturing.",
     "adj_chips": {
       "catalyst": [
-        "Warm-hearted",
-        "Encouraging",
-        "Healing"
+        "Good listener",
+        "Looks after people",
+        "Slow to judge"
       ],
       "friction": [
-        "Babying",
-        "Dependent",
-        "Drowsy"
+        "Protects too much",
+        "Leans on others",
+        "Too comfortable"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Warm-hearted",
+            "word": "Good listener",
             "angles": {
-              "drive": "Your presence is the warm center other lives arrange themselves around. People come in from their cold weeks and hold their hands out to you, mostly without noticing the gesture. The warmth is steady, unconditional, and quietly expensive to maintain. Nobody sees the fuel line. You are the fuel line.",
-              "cost_self": "Sunday afternoons at yours have become load-bearing for at least five people, including one who mostly sits near the conversation without joining it. Nothing is organized. Soup happens, light happens, and everyone leaves warmer than they arrived. The tradition has no name and perfect attendance.",
-              "cost_others": "People describe your home with their shoulders, dropping them. New partners get brought to you early, unofficially, for climate testing. The warmth you offer asks no questions, and it has become the family’s reference temperature. Holidays anywhere else get compared to it, quietly, in the car home."
+              "drive": "You give everyone a good hearing. You need to be trusted more than to be right, so you hear a person out ahead of having your say. If you add your own view at the end, you offer help along with your ear.",
+              "cost_self": "Listening is the part of knowing people you do best. Since you take in a person's story ahead of telling your own, you end most conversations fully informed and entirely unheard. Tell your side now and then, and you get to be known as well.",
+              "cost_others": "Being a good listener is your first move. Since speaking up feels like a risk, you keep listening rather than give the help asked of you. When your advice is wanted, offer it and spare a person the wait."
             }
           },
           {
-            "word": "Encouraging",
+            "word": "Looks after people",
             "angles": {
-              "drive": "You warm other people’s small flames on principle. The shaky first attempt, the half-announced dream, the try that failed: each gets your specific heat, aimed at the part that was brave. People attempt things in your presence they would not risk elsewhere. That is the whole climate you run.",
-              "cost_self": "Your niece showed you eleven seconds of a song she was too shy to finish, and your response, proportionate and warm and precise, is why there is now an EP. She thanked you in the liner notes for hearing it before it existed. You framed nothing. You remembered everything.",
-              "cost_others": "People rehearse their announcements on you first, using your reaction as the prototype for braver telling. The pattern is invisible until you map it: half the leaps in your circle checked their footing against your encouragement first. You are the base camp several summits never mention."
+              "drive": "You look after people without being asked. Keeping the people near you sheltered is how you feel at ease, so you look after their comfort ahead of yours. Look after one plan of your own, before your care fills the week.",
+              "cost_self": "Your own needs come last whenever you are looking after someone. Because being needed feels easier than being tired, you give your rest away ahead of keeping any. When you hold some rest back, you stop paying for everyone's comfort with your sleep.",
+              "cost_others": "Whenever a loved one struggles, you look after it for them. Sparing a person the hard part feels kinder than watching them manage, so you carry what they could lift. Step back from one thing within their reach, and leave them the pride."
             }
           },
           {
-            "word": "Healing",
+            "word": "Slow to judge",
             "angles": {
-              "drive": "Time near you repairs people. The burned-out friend, the post-hospital parent, the teenager mid-storm: they sit in your warmth doing apparently nothing, and leave with something reattached. You never announce a treatment. You just keep the light on and the questions gentle, and mending happens.",
-              "cost_self": "Your brother spent three weekends on your couch after the divorce, barely speaking, watching cooking shows. You fed him, asked nothing, and let the couch work. On the fourth weekend he fixed your cabinet hinge, unprompted, whistling. You both understood the hinge was a discharge summary.",
-              "cost_others": "There is a folding of people into your care that everyone recognizes and nobody has named: after the bad news, so-and-so should probably go to yours. It is spoken like protocol. Your spare bed has hosted more recoveries than some clinics, at a fraction of the paperwork."
+              "drive": "You are slow to judge anyone. A quick judgment feels unfair to you, and you give a person the benefit of the doubt rather than make up your mind. Whenever a chance keeps costing you, let your judgment have the final say.",
+              "cost_self": "Slow judgment is your kindest habit. Because you need people to be better than their worst day, you keep trusting well after the pattern is plain. Judge a little sooner, for the warmth you now spend where it is never returned.",
+              "cost_others": "Your first read of anyone is a kind one. Because you would rather keep a person warm than judge them out loud, you hold back the honest read they needed. Offer the truth while it can help, in your own gentle way."
             }
           }
         ]
@@ -93,27 +93,27 @@
       "friction": {
         "ledger": [
           {
-            "word": "Babying",
+            "word": "Protects too much",
             "angles": {
-              "drive": "Your warmth removes obstacles that were doing important work. The struggle gets pre-solved, the consequence intercepted, the difficulty warmed away before it could teach anything. The people you love stay comfortable and stay soft, and the softness eventually presents its own bill, addressed to them.",
-              "cost_self": "Your son’s overdue essay got rescued by your midnight edit, again, the fourth rescue this term. His grades are excellent and weightless. The teacher suspects, the boy knows, and some part of him has begun to calculate, correctly, that finishing things is optional in a heated house.",
-              "cost_others": "Other adults watch you absorb consequences meant for people you love, and bite their tongues at various speeds. The kids are lovely and unweathered. Where resilience should be forming, there is instead a well-tended warmth, and everyone except you can see the forecast it cannot survive."
+              "drive": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in ahead of being asked. Do remember that protecting someone from every fall also keeps them from standing.",
+              "cost_self": "Protecting your own people takes most of you. Since you feel their trouble more than your own, you spend your rest on their emergencies rather than your life. It pays to remember that the life you put down for theirs is also yours.",
+              "cost_others": "Each time a loved one is about to fail, you catch it. Protecting them from the consequence feels more like love to you than letting them meet it. With every rescue, you keep from them the small win of managing it."
             }
           },
           {
-            "word": "Dependent",
+            "word": "Leans on others",
             "angles": {
-              "drive": "Being needed became your fuel, and the tank runs low without it. The empty nest, the recovered friend, the crisis that resolves: each healthy ending registers somewhere in you as a small layoff. You keep people slightly cold, unconsciously, to stay employed as their warmth.",
-              "cost_self": "When your daughter said the therapy was working and she felt genuinely okay, your joy arrived with a strange undertow you inspected later, alone. That week you called her twice with concerns she did not have. She noticed. The okay-ness held anyway, which helped and hurt.",
-              "cost_others": "People manage their independence around your feelings, staging their strength gently, keeping small needs alive for you like pilot lights. It is tender and slightly backwards, everyone caring for the caregiver by performing need. The healthiest thing anyone could give you is nothing to fix. Nobody dares yet."
+              "drive": "You lean on the people who look after you more than you need to. Being held up feels better than finding out if you stand alone, so you ask ahead of trying. Lean by lean, you come to trust your own footing less.",
+              "cost_self": "Leaning on someone makes a hard thing feel lighter to you. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow.",
+              "cost_others": "When something goes wrong, you take it to whoever holds you up. Being carried feels kinder to you than managing alone, and you add your weight on top of their own. Notice that you are leaning on someone who is also tired."
             }
           },
           {
-            "word": "Drowsy",
+            "word": "Too comfortable",
             "angles": {
-              "drive": "Comfort has lowered your flame to standby. The naps lengthen, the plans soften, the day organizes itself around warmth and ease, and ambition visits like a former colleague, fondly and briefly. Nothing hurts. Nothing much happens either, and the two facts are holding hands.",
-              "cost_self": "The afternoon disappeared again into the warm chair, the blanket, the something on in the background. The course tab is still open from Tuesday, bookmarked under a nap. At six you surfaced, cozy and faintly disappointed, and made tea, which resolved the disappointment into evening.",
-              "cost_others": "Your people have stopped scheduling you before noon or after eight, fitting themselves into your waking window with practiced ease. Plans involving you acquire cushions automatically. The affection is intact, and the shared unspoken knowledge too: the fire is banked so low now, it mostly keeps itself warm."
+              "drive": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy ahead of what you want. Without noticing, you trade the life you meant to have for a smaller one.",
+              "cost_self": "Comfort is the state you work hardest to keep. Because any change feels unsafe to you, you stay in the comfortable routine rather than try a new one. You end each easy stretch more tired than you began it.",
+              "cost_others": "Keeping the home as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them. Just as your people are ready to move, you keep them in place."
             }
           }
         ]
@@ -145,6 +145,246 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Warm-hearted"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Encouraging"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Healing"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Babying"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Dependent"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Drowsy"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Warm-hearted"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your presence is the warm center other lives arrange themselves around. People come in from their cold weeks and hold their hands out to you, mostly without noticing the gesture. The warmth is steady, unconditional, and quietly expensive to maintain. Nobody sees the fuel line. You are the fuel line."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Sunday afternoons at yours have become load-bearing for at least five people, including one who mostly sits near the conversation without joining it. Nothing is organized. Soup happens, light happens, and everyone leaves warmer than they arrived. The tradition has no name and perfect attendance."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People describe your home with their shoulders, dropping them. New partners get brought to you early, unofficially, for climate testing. The warmth you offer asks no questions, and it has become the family’s reference temperature. Holidays anywhere else get compared to it, quietly, in the car home."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Encouraging"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "You warm other people’s small flames on principle. The shaky first attempt, the half-announced dream, the try that failed: each gets your specific heat, aimed at the part that was brave. People attempt things in your presence they would not risk elsewhere. That is the whole climate you run."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your niece showed you eleven seconds of a song she was too shy to finish, and your response, proportionate and warm and precise, is why there is now an EP. She thanked you in the liner notes for hearing it before it existed. You framed nothing. You remembered everything."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People rehearse their announcements on you first, using your reaction as the prototype for braver telling. The pattern is invisible until you map it: half the leaps in your circle checked their footing against your encouragement first. You are the base camp several summits never mention."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Healing"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Time near you repairs people. The burned-out friend, the post-hospital parent, the teenager mid-storm: they sit in your warmth doing apparently nothing, and leave with something reattached. You never announce a treatment. You just keep the light on and the questions gentle, and mending happens."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your brother spent three weekends on your couch after the divorce, barely speaking, watching cooking shows. You fed him, asked nothing, and let the couch work. On the fourth weekend he fixed your cabinet hinge, unprompted, whistling. You both understood the hinge was a discharge summary."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "There is a folding of people into your care that everyone recognizes and nobody has named: after the bad news, so-and-so should probably go to yours. It is spoken like protocol. Your spare bed has hosted more recoveries than some clinics, at a fraction of the paperwork."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Babying"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your warmth removes obstacles that were doing important work. The struggle gets pre-solved, the consequence intercepted, the difficulty warmed away before it could teach anything. The people you love stay comfortable and stay soft, and the softness eventually presents its own bill, addressed to them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your son’s overdue essay got rescued by your midnight edit, again, the fourth rescue this term. His grades are excellent and weightless. The teacher suspects, the boy knows, and some part of him has begun to calculate, correctly, that finishing things is optional in a heated house."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Other adults watch you absorb consequences meant for people you love, and bite their tongues at various speeds. The kids are lovely and unweathered. Where resilience should be forming, there is instead a well-tended warmth, and everyone except you can see the forecast it cannot survive."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Dependent"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Being needed became your fuel, and the tank runs low without it. The empty nest, the recovered friend, the crisis that resolves: each healthy ending registers somewhere in you as a small layoff. You keep people slightly cold, unconsciously, to stay employed as their warmth."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "When your daughter said the therapy was working and she felt genuinely okay, your joy arrived with a strange undertow you inspected later, alone. That week you called her twice with concerns she did not have. She noticed. The okay-ness held anyway, which helped and hurt."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People manage their independence around your feelings, staging their strength gently, keeping small needs alive for you like pilot lights. It is tender and slightly backwards, everyone caring for the caregiver by performing need. The healthiest thing anyone could give you is nothing to fix. Nobody dares yet."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Drowsy"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Comfort has lowered your flame to standby. The naps lengthen, the plans soften, the day organizes itself around warmth and ease, and ambition visits like a former colleague, fondly and briefly. Nothing hurts. Nothing much happens either, and the two facts are holding hands."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The afternoon disappeared again into the warm chair, the blanket, the something on in the background. The course tab is still open from Tuesday, bookmarked under a nap. At six you surfaced, cozy and faintly disappointed, and made tea, which resolved the disappointment into evening."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/火_正印.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your people have stopped scheduling you before noon or after eight, fitting themselves into your waking window with practiced ease. Plans involving you acquire cushions automatically. The affection is intact, and the shared unspoken knowledge too: the fire is banked so low now, it mostly keeps itself warm."
     }
   ]
 }

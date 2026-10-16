@@ -23,7 +23,7 @@
         "remedy": "Keep one opinion back and sleep on it."
       },
       "wide": {
-        "clause": "Metal is easy for you to reach, and the finished thing comes off you without strain.",
+        "clause": "You are well supplied with Metal, and the finished thing comes off you without strain.",
         "remedy": "Use it. Make something and give it away."
       },
       "missing": {
@@ -44,10 +44,10 @@
       }
     },
     "function": {
-      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. As a catalyst, the gate opens too seldom. You finish for yourself ahead of giving, you keep the clever remark unsaid, and you are known for steadiness alone.",
-      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Metal gives it a hard finish, nothing left half done. As a friction, the gate never closes. You say the exact thing ahead of the kind one, and run out of yourself before you run out of words.",
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. As a catalyst, your work stays inside. You hold a gift back as much as you keep your opinion to yourself, and miss the joy of sharing either.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Metal gives it a hard finish, nothing left half done. As a friction, it takes from what holds you up. You give as much as you try to stand out, and wear yourself down on both.",
       "advise_catalyst": "You are more finished on the inside than anyone can tell from the outside. Give one thing you made to someone this month, as it is. Say the clever line out loud instead of saving it. Show a child or a beginner how you do something well. Sign one piece of work.",
-      "advise_friction": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You answer faster than you take in. Sit on one big question for a day before you reply. Read a page by someone you think is wrong."
+      "advise_friction": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You answer faster than you take in. Sit on one big question a day ahead of your reply. Read a page by someone you think is wrong."
     },
     "cta_verdict": "You put a thing out finished rather than early, and what you say gets kept longer than you expect."
   },
@@ -122,8 +122,8 @@
       "excess": "Earth makes Metal, and too much Metal changes the Earth: the soil that grew the ore stops being soil"
     },
     "function": {
-      "definition_catalyst": "Expression scarce: the Artisan's giving and the Virtuoso's performing both stay inside, so the Earth core is seen only as steady",
-      "definition_friction": "Expression in excess drains the Earth core: the Virtuoso's exact word outruns the Artisan's kind one, and the ground thins",
+      "definition_catalyst": "Expression scarce: the Artisan's gift and the Virtuoso's opinion both stay inside, and the joy of sharing them is lost",
+      "definition_friction": "Expression in excess drains the Earth core: the Artisan's giving and the Virtuoso's standing out both spend what holds the reader up",
       "advise_friction": "Fire tames Metal and is this core's Mind: intake before output, the Refill case"
     }
   }

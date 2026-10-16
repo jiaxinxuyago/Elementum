@@ -192,92 +192,92 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | Nothing roots in you: ground with no claim on it, steadiness serving no living thing. |
-| `catalyst.remedy` | Take on something growing and let it grip. |
-| `friction.clause` | The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. |
-| `friction.remedy` | You are ground, not groundskeeper to everyone. |
-| `wide.clause` | Wood is one thing you never run short of, the living thing your ground exists to hold. |
-| `wide.remedy` | Say yes to the biggest responsibility on offer. |
-| `missing.clause` | Nothing roots in you: ground with no claim on it. |
-| `missing.remedy` | Borrow roots: one living thing to tend. |
-| `spared.clause` | Wood runs absent, and the soil is left alone: nobody leans on you, the ground keeps its own. |
-| `spared.remedy` | Keep it. Take on roots by choice. |
-| `thin.clause` | Wood runs thin and unwanted: a few roots, easily fed. |
-| `thin.remedy` | Feed them. Take no more. |
-| `excess.clause` | Weak earth caves under strong wood: obligations past what the ground can hold, soil torn by roots. |
-| `excess.remedy` | Let a slope go wild. Add fire. |
+| `catalyst.clause` | nothing grows through the ground to hold it |
+| `catalyst.remedy` | Take on one demand with a date on it. |
+| `friction.clause` | the roots draw more than the ground can feed |
+| `friction.remedy` | Turn down the next demand and rest a week. |
+| `wide.clause` | Wood is easy for you to reach, the roots that keep your ground from sliding. |
+| `wide.remedy` | Use it. Say yes to the demand you have been avoiding. |
+| `missing.clause` | Open hillside, not a tree on it, and the soil shifts under every plan you set down. |
+| `missing.remedy` | Join one thing that keeps its own hours. |
+| `spared.clause` | No trees stand on this ground, and the soil keeps all of itself. |
+| `spared.remedy` | Leave it empty. Set your own pace. |
+| `thin.clause` | A few roots in the ground, enough to grip and not enough to split it. |
+| `thin.remedy` | Keep it small. One rule you chose, no more. |
+| `excess.clause` | Wood has outgrown the ground that feeds it, and the whole hillside slides. |
+| `excess.remedy` | Rest first. Drop every demand you did not choose. |
 
 ### Earth core × Fire — the Root · 土_火
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The ground goes gray: duties held on cold ground, nothing warm coming in. |
-| `catalyst.remedy` | Attend the feast. |
-| `friction.clause` | The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. |
-| `friction.remedy` | Walk off the hearth and bear some weather. |
-| `wide.clause` | Fire is all around you, the warmth that lets the ground grow anything. |
-| `wide.remedy` | Spend the warmth. Host, teach, feed people. |
-| `missing.clause` | No warmth coming in: duties on cold ground, nothing learned by heart. |
-| `missing.remedy` | Borrow fire: people, praise, a feast. |
-| `spared.clause` | Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food. |
-| `spared.remedy` | Keep it. Take warmth in small doses. |
-| `thin.clause` | Fire runs thin and unwanted: a small warmth, easily borne. |
-| `thin.remedy` | Bear it lightly. |
-| `excess.clause` | Too much fire bakes the earth: ground hardened by heat, stubborn on the surface and dry underneath. |
-| `excess.remedy` | Walk off the hearth. Add water. |
+| `catalyst.clause` | The ground goes cold under the seed. |
+| `catalyst.remedy` | Take in one warm thing a week, a teacher or a book. |
+| `friction.clause` | The soil bakes to a hard dry crust over the seed. |
+| `friction.remedy` | Make one thing from all you took in and hand it over. |
+| `wide.clause` | You were given plenty of Fire, the warmth every harvest starts from. |
+| `wide.remedy` | Use it. Start what you keep studying. |
+| `missing.clause` | Without fire there is no ash, and this ground has nothing new to grow from. |
+| `missing.remedy` | Stay close to people who love what they learn. |
+| `spared.clause` | No fire reaches this soil, and it keeps its water the better for it. |
+| `spared.remedy` | Leave it unlit and build with what you have. |
+| `thin.clause` | A small fire warms this ground without drying it, the right size for the soil. |
+| `thin.remedy` | Keep it small, one lamp at a time. |
+| `excess.clause` | Fire past its use scorches the very ground it was lit to feed. |
+| `excess.remedy` | Stop adding. Let the ground cool before you learn more. |
 
 ### Earth core × Earth — the Core · 土_土
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The ground doubts its own bearing: steadiness performed, footing borrowed. |
-| `catalyst.remedy` | Keep one promise to yourself so long it becomes terrain. |
-| `friction.clause` | The ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. |
-| `friction.remedy` | Even bedrock is improved by weather. |
-| `unrooted.clause` | The self stands without roots: steadiness performed, footing borrowed. |
-| `unrooted.remedy` | Feed the self. Keep one promise until it is terrain. |
-| `excess.clause` | Strong earth wants metal: so much steadiness nothing new can root. |
-| `excess.remedy` | Till it. Mint something. |
-| `thin.clause` | Earth runs thin and still carries weight: little ground, held too hard. |
-| `thin.remedy` | Loosen the grip. |
+| `catalyst.clause` | the ground under you is shallow, and every load goes straight through to your knees |
+| `catalyst.remedy` | Sleep and eat before you decide anything. |
+| `friction.clause` | the ground packs down on itself until nothing moves across it and nothing new comes up |
+| `friction.remedy` | Say yes to one deadline you did not set. |
+| `unrooted.clause` | No Earth of your own under the whole structure, so every stand you take is on borrowed footing. |
+| `unrooted.remedy` | Make your own footing from routine, the same bed and meals daily. |
+| `excess.clause` | Ground heaped on ground past any use, a mass only Metal can shape into something useful. |
+| `excess.remedy` | Spend it through Metal. Finish one exact thing today. |
+| `thin.clause` | Earth kept small, a floor under you and never a wall around you. |
+| `thin.remedy` | Keep it that size. Rest on it, nothing more. |
 
 ### Earth core × Metal — the Voice · 土_金
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The ore stays buried: depth with no expression, patience that never mints anything. |
-| `catalyst.remedy` | Finish a piece, publish the standard. |
-| `friction.clause` | The mining never stops: everything minted, the mountain hollowed for output. |
-| `friction.remedy` | Your silence is part of the deposit. |
-| `wide.clause` | You have plenty of Metal, the ore your mountain was keeping. |
-| `wide.remedy` | Ship the piece that is already finished. |
-| `missing.clause` | The ore stays buried: patience that never mints anything. |
-| `missing.remedy` | Borrow metal: finish one piece, say it once. |
-| `spared.clause` | Metal runs absent, and the mountain is not mined: nothing demanded, nothing hollowed. |
-| `spared.remedy` | Keep the ore. Mint only what matters. |
-| `thin.clause` | Metal runs thin and unwanted: a small vein, easily left. |
-| `thin.remedy` | Leave it in the ground. |
-| `excess.clause` | Too much metal changes the earth: the ground turned over for output until it is no longer ground. |
-| `excess.remedy` | Stop mining. Let it settle. |
+| `catalyst.clause` | The ground keeps every bit of its ore. |
+| `catalyst.remedy` | Say one thing plainly before it is perfect. |
+| `friction.clause` | The hill is hollowed out by its own ore. |
+| `friction.remedy` | Keep one opinion back and sleep on it. |
+| `wide.clause` | You are well supplied with Metal, and the finished thing comes off you without strain. |
+| `wide.remedy` | Use it. Make something and give it away. |
+| `missing.clause` | No ore comes out of this ground, so what you know stays known and never said. |
+| `missing.remedy` | Borrow an ending. Set a date and hand over the rough draft. |
+| `spared.clause` | No ore leaves this ground, and the ground keeps its whole weight for itself. |
+| `spared.remedy` | Leave it. Take things in before you put them out. |
+| `thin.clause` | A thin seam of ore, a small drain on ground that needs its weight. |
+| `thin.remedy` | Keep it small. Say less and settle more. |
+| `excess.clause` | More ore than the ground can grow, and the soil that made it turns into something else. |
+| `excess.remedy` | Dig less. Let the ground lie still and take in. |
 
 ### Earth core × Water — the Drive · 土_水
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The banks hold no river: structure ready, nothing flowing, canals waiting on rain. |
-| `catalyst.remedy` | Go where things move and channel some. |
-| `friction.clause` | The damming never stops: every stream metered, flow managed until nothing pools for joy. |
-| `friction.remedy` | Some water is for watching. |
-| `wide.clause` | Water is easy for you to reach, the river your banks were built for. |
-| `wide.remedy` | Put the flow you already have to work. |
-| `missing.clause` | No river in the banks: structure ready, nothing flowing. |
-| `missing.remedy` | Borrow water: go where things move. |
-| `spared.clause` | Water runs absent, and nothing needs damming: the calm keeps itself. |
-| `spared.remedy` | Keep the calm. Channel little. |
-| `thin.clause` | Water runs thin and unwanted: a small stream, easily watched. |
-| `thin.remedy` | Watch it. Don't meter it. |
-| `excess.clause` | Too much water washes earth away: more flow than the banks can hold, ground lost managing it. |
-| `excess.remedy` | Let it flow. Hold less of it. |
+| `catalyst.clause` | The ground has banks and no river between them |
+| `catalyst.remedy` | Start one thing this month and let it run. |
+| `friction.clause` | The river spreads wider than its banks |
+| `friction.remedy` | Keep one weekend free of anything new. |
+| `wide.clause` | There is no shortage of Water in you, the river already running where you stand. |
+| `wide.remedy` | Use the current. Start the thing you keep describing. |
+| `missing.clause` | The ground is dug and ready, and no spring rises to fill the well. |
+| `missing.remedy` | Borrow the flow from a partner, a deadline, one small venture. |
+| `spared.clause` | There is no Water in you, and the ground never washes out from under you. |
+| `spared.remedy` | Leave it out. Keep to the ground you already have. |
+| `thin.clause` | Water is a trickle in you, and the banks take it without strain. |
+| `thin.remedy` | Keep it small. One open chance at a time. |
+| `excess.clause` | Too much Water for the ground to bank, and what should water the field washes it away. |
+| `excess.remedy` | Bank it. Finish one thing before you start another. |
 
 ### Metal core × Wood — the Drive · 金_木
 

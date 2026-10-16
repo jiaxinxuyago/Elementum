@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Good listener",
-    "text": "You listen the way other people wait to talk. You need to be trusted more than to be right, so you hear a person out ahead of putting in your view. Keep listening like that, and you hear what gets kept from everyone else."
+    "text": "You give everyone a good hearing. You need to be trusted more than to be right, so you hear a person out ahead of having your say. If you add your own view at the end, you offer help along with your ear."
    },
    "value_b": {
     "word": "Good listener",
-    "text": "You hear people out all the way to the end. Understanding someone warms you more than winning the point, so you let them finish rather than fix it halfway. Let someone listen back once in a while, and you get heard too."
+    "text": "You hear people out to the very end. Understanding someone warms you more than winning the point, and you let a person finish rather than fix things halfway. Keep a turn in the talk for yourself, so good listening never costs you your voice."
    }
   },
   "ledger[1]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Good listener",
-    "text": "Hearing people out is your first move. You listen past the point where your answer would help, because understanding someone matters more to you than deciding for them. Give the answer sooner when you have it, and you offer the help along with the listening."
+    "text": "Being a good listener is your first move. Since speaking up feels like a risk, you keep listening rather than give the help asked of you. When your advice is wanted, offer it and spare a person the wait."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Looks after people",
-    "text": "You look after people before anyone asks you to. Being needed is the warmest thing you know, and you take care of the person in front of you ahead of yourself. Keep doing that, and let one of them look after you back."
+    "text": "You look after people without being asked. Keeping the people near you sheltered is how you feel at ease, so you look after their comfort ahead of yours. Look after one plan of your own, before your care fills the week."
    },
    "value_b": {
     "word": "Looks after people",
-    "text": "Looking after someone is how you pay attention. You feel most yourself when a person is better for being near you, so you see to them rather than to your own tiredness. See to the tiredness as well, and you make the warmth last longer."
+    "text": "Looking after people is how you show love. You want the people close to you to do well for years, and you look after the whole person rather than one problem. Pace your care to make it last as long as it is needed."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Looks after people",
-    "text": "Looking after people is where you put yourself first. Because being needed feels easier than being tired, you give your rest to whoever asks ahead of keeping any for yourself. Take the rest you are owed, and you stay warm enough to look after anyone."
+    "text": "Your own needs come last whenever you are looking after someone. Because being needed feels easier than being tired, you give your rest away ahead of keeping any. When you hold some rest back, you stop paying for everyone's comfort with your sleep."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Looks after people",
-    "text": "Whenever a loved one struggles, you look after it for them. Sparing a person the hard part feels kinder than watching them manage, so you carry what they could lift. Stand back for one hard thing, and you hand them pride as well as help."
+    "text": "Whenever a loved one struggles, you look after it for them. Sparing a person the hard part feels kinder than watching them manage, so you carry what they could lift. Step back from one thing within their reach, and leave them the pride."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Slow to judge",
-    "text": "You are slow to judge anyone. Keeping a person warm counts more with you than being right about them, and you give the benefit of the doubt long past its use. Keep that patience, and say the hard thing when it is the kind one."
+    "text": "You are slow to judge anyone. A quick judgment feels unfair to you, and you give a person the benefit of the doubt rather than make up your mind. Whenever a chance keeps costing you, let your judgment have the final say."
    },
    "value_b": {
     "word": "Slow to judge",
-    "text": "You give people time before you make your mind up about them. Since a person's worst week tells you less than their best one, you wait to see more rather than settle on less. Keep waiting, and say what you decide out loud."
+    "text": "Kindness comes before judgment for you. Since you want to know all of a person first, you hold off judging rather than settle on a single moment. Take your time to judge, as long as you count what the wait costs."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Slow to judge",
-    "text": "Slow judgment is your kindest habit. Because you need people to be better than their worst day, you keep trusting well after the pattern is plain. Judge a little sooner, and you save the warmth you now spend where it is never returned."
+    "text": "Slow judgment is your kindest habit. Because you need people to be better than their worst day, you keep trusting well after the pattern is plain. Judge a little sooner, for the warmth you now spend where it is never returned."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Slow to judge",
-    "text": "Your first read of anyone is a kind one. Because you would rather keep a person warm than judge them out loud, you hold back the honest read they needed. Say it sooner, and you give them the truth while it is useful."
+    "text": "Your first read of anyone is a kind one. Because you would rather keep a person warm than judge them out loud, you hold back the honest read they needed. Offer the truth while it can help, in your own gentle way."
    }
   }
  }

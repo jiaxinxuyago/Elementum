@@ -26,7 +26,7 @@
           {
             "word": "Sets own bar",
             "angles": {
-              "drive": "Setting your own bar is how you stay honest with yourself. Since no outside grade ever felt like proof, you measure your work against yesterday's rather than the person next to you. Keep setting it yourself, because a borrowed bar never tells you anything true.",
+              "drive": "On your own terms, you set a bar and trust it more than any outside grade. Each time you clear it, you set it a little higher. If you leave it in place for a week, you get the satisfaction you keep putting off.",
               "cost_self": "Where you set your own bar, you set it alone. Since no one else's standard moves you, you stay steady while you skip the help a peer would give. Let a peer check the bar sometimes, and you win back the help you walk past.",
               "cost_others": "The bar you set for yourself travels to everyone beside you. Because you never say it, you expect a match rather than ask for one. Say the bar out loud once, and you give the people beside you a fair chance to meet it."
             }
@@ -34,17 +34,17 @@
           {
             "word": "Needs no backup",
             "angles": {
-              "drive": "Needing no backup is what people count on in you. Your own footing feels safer than any hand on your shoulder, so you carry it all rather than share it. Let someone take a corner, and you keep that footing for the days it matters.",
-              "cost_self": "Without backup you never learn what being covered feels like. You give that relief far more than you accept it, since accepting would mean admitting a need. Take the cover once, and you find the rest you have been doing without.",
-              "cost_others": "Standing without backup keeps the people who would stand behind you at a distance. You would rather owe nothing than let a friend in, and that leaves them nothing to hold. Hand a friend one corner, and you give them a way in."
+              "drive": "You need no backup, and owing no one is how you feel safe. You trust yourself as backup more than anyone you could call. Go without backup only where it counts, because you need your strength for those days.",
+              "cost_self": "Without backup you never learn what being covered feels like. You give that relief far more than you accept it, since accepting would mean admitting a need. When you let yourself need backup, you get back the rest you have been doing without.",
+              "cost_others": "Standing without backup keeps the people who would stand behind you at a distance. You would rather owe nothing than let a friend in, and that leaves them nothing to hold. Call on a friend as backup once, to show them they count."
             }
           },
           {
             "word": "Holds steady",
             "angles": {
-              "drive": "Holding steady is the thing you do without deciding to. Your calm comes from needing very little from the moment, so you stay level rather than swing with the crowd. Hold it on purpose, and your steadiness becomes a thing a friend can borrow.",
-              "cost_self": "Steady on the outside, you hold a lot in. You absorb a bad day instead of naming it, and it settles in your body as tiredness. Say one bad day out loud, and you keep the steadiness without paying for it in sleep.",
-              "cost_others": "Steady for everyone, you give them little to carry for you. You look fine instead of asking for help, and over time you teach the people closest to you to stop offering. Wobble once in a while, and you let them be steady for you."
+              "drive": "Whatever the week brings, you hold steady. Calm is what you trust, and you hold steady instead of riding every mood around you. Whenever you hold steady by choice, not from habit, you keep some of that calm for yourself.",
+              "cost_self": "Holding steady for everyone, you hide your worst days. You absorb a bad day instead of naming it, and it settles in your body as tiredness. Tell one friend about a rough week, to take in some of the comfort you give everyone else.",
+              "cost_others": "Good news or bad, you hold steady and look the same. You would sooner keep a level face than show a peer what you feel. When you let one peer see what moves you, you stop leaving them to guess what matters."
             }
           }
         ]
@@ -54,7 +54,7 @@
           {
             "word": "Never asks",
             "angles": {
-              "drive": "Never asking is the rule you keep hardest. There is more Earth in you than you spend, so you hold a problem alone rather than hand half of it over. You keep the favour a friend never gets to give, and you call that strength.",
+              "drive": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out alone instead of handing any of it over. Keep in mind that anything you never ask about stays yours for longer than it needs to.",
               "cost_self": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. Remember that you lose sleep over what one question would have settled.",
               "cost_others": "By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You only ever let someone in by letting them help."
             }
@@ -62,7 +62,7 @@
           {
             "word": "Shuts people out",
             "angles": {
-              "drive": "Shutting people out is less a choice than a resting position. Earth piles up in you faster than you use it, so keeping to yourself feels like rest rather than hiding. Keep in mind that you protect your quiet until nobody gets through it.",
+              "drive": "Tired, you shut people out before anything else. Quiet is how you recover, and you shut people out sooner than ask for the quiet you need. The longer you shut people out to rest, the harder you find the way back.",
               "cost_self": "Where you shut people out, you shut out what you were saving yourself for. Your own company works so well that you mistake it for the plan rather than a break. You pay for that peace in closeness, one quiet evening at a time.",
               "cost_others": "You mostly shut out people who did nothing to earn it. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. Bear in mind how long you leave people waiting for a welcome you rarely give."
             }
@@ -70,9 +70,9 @@
           {
             "word": "Takes no advice",
             "angles": {
-              "drive": "Taking advice is nearly the last thing you do. You carry more Earth than you use, so you put your own read ahead of anyone else's. Worth remembering that you can be the most solid person around and the last to take a correction.",
-              "cost_self": "Taking no advice means every lesson arrives the expensive way. Whenever you would rather learn a thing yourself than be told, a friend's one sentence becomes your whole season. You lose most of your chances while you are busy proving yourself right.",
-              "cost_others": "Refusing advice teaches the people who offer it to stop. You would rather be right alone than helped in company, and each correction you wave off trains a friend to go quiet. You earn the silence of people who stopped trying to reach you."
+              "drive": "You take no advice you have not tested yourself. Catching your own mistakes matters more to you than having a peer point them out. You do not have to be wrong to take advice that makes your plan better.",
+              "cost_self": "With no advice taken, you learn at full price. Whenever you would rather learn a thing yourself than be told, a friend's one sentence becomes your whole season. You end up repeating mistakes a friend had already solved for you.",
+              "cost_others": "When a friend offers advice, you thank them and go your own way. You keep your own plan ahead of theirs, and the care they put in goes to waste. Notice that taking even one piece of their advice tells them their care landed."
             }
           }
         ]

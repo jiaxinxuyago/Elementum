@@ -12,7 +12,7 @@
       "catalyst": [
         "Better with rivals",
         "Bets big",
-        "Shares the win"
+        "Shares the credit"
       ],
       "friction": [
         "Always comparing",
@@ -34,17 +34,17 @@
           {
             "word": "Bets big",
             "angles": {
-              "drive": "Betting big is the only size that feels real to you. Small stakes never wake you, so you go all in rather than try a little first. Keep the bets you can afford, and you keep the boldness a strength instead of a story.",
-              "cost_self": "Where you bet big, you lose at the same size. You would rather be all in than in a little, and one bad bet eats a year of savings. Set the size before the pull, and you hold on to what a bold year eats.",
-              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Ask first, and you hand them a say in their own risk."
+              "drive": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. If you let small bets count too, you stop missing the gains that come slowly.",
+              "cost_self": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. When you hold back one part of each bet, you keep the savings a single loss would take.",
+              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Ask first, because you keep a partner who chose the risk."
             }
           },
           {
-            "word": "Shares the win",
+            "word": "Shares the credit",
             "angles": {
-              "drive": "Sharing the win is where the race finally makes sense to you. Since a win nobody saw never felt like one, you would rather split a victory than hold it alone. Keep sharing it, and you make the win last longer than the race did.",
-              "cost_self": "Each shared win costs you the part that was only yours. You hand out credit rather than keep it, and your own work goes unnamed. Keep one win to yourself, and you have something left when the crowd goes home.",
-              "cost_others": "Your shared wins land on people who did not run for them. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Share the race too, and you offer them something to earn."
+              "drive": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people inside it. When a win can count before you have shared it, you get to enjoy it twice.",
+              "cost_self": "Taking the credit alone feels like showing off to you. You hand out credit rather than keep it, and your own work goes unnamed. If you put your own name on your part, you stop losing the chances that follow credit.",
+              "cost_others": "The credit you share lands on people who did not run for it. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Name who did what, to give praise each person can use."
             }
           }
         ]
@@ -54,25 +54,25 @@
           {
             "word": "Always comparing",
             "angles": {
-              "drive": "Comparing is the first thing you do in new company. Earth sits in you past one person's share, so you size up whoever is beside you ahead of anything else. Keep in mind how you compare to feel safe and never feel safer.",
+              "drive": "In new company, you are comparing before you have said much. A clear rank makes you feel safe, and you compare yourself to someone rather than get to know them. Once the ranking is done, you have often missed the person.",
               "cost_self": "Always comparing gives you a result and never rest. You would rather know where you rank than enjoy where you are, so no win gets time to feel like one. You lose the quiet of a good week to a score only you can see.",
-              "cost_others": "Comparing turns the people nearest you into measuring sticks. Knowing how you rank beside a friend matters more than having the friend, and you hear their good news as a loss. Little by little you train the people you love to tell you less."
+              "cost_others": "Whenever a friend has good news, you compare before you say well done. You measure the gap ahead of being glad for them, and you give less praise than they earned. You can let their news stay theirs for a day and compare later."
             }
           },
           {
             "word": "Hates losing",
             "angles": {
-              "drive": "Losing is the one thing you never settle. You hold Earth past what you put to work, so a lost contest stays open in you rather than closing. Remember that you are beaten far less often than you think, and you keep every one.",
-              "cost_self": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests with the most to teach you. You also lose every race you skip to protect your record.",
-              "cost_others": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you put a friend on the losing side of a game they never entered. You turn company into opponents one win at a time."
+              "drive": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. Remember that you are beaten far less often than you think, and you keep every one.",
+              "cost_self": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests with the most to teach you. You protect a record with very few wins on it.",
+              "cost_others": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you put a friend on the losing side of a game they never entered. You leave with the point and a little less warmth."
             }
           },
           {
             "word": "Spends to win",
             "angles": {
-              "drive": "Spending to win is your move when losing feels close. Earth stacks up in you past what you use, so money goes to prove a point rather than buy a thing. Worth remembering that you pay the bill whether you won or not.",
+              "drive": "As a contest gets close, you spend to win it. You would rather pay to stay ahead than risk falling behind, and you spend to prove a point. Ask yourself before you pay whether you want the thing or only the win.",
               "cost_self": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You notice the money you did not keep last.",
-              "cost_others": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and the shared money pays for a contest your partner never entered. You spend the trust in a shared account faster than the balance."
+              "cost_others": "To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. You spend the trust in a shared account faster than the balance."
             }
           }
         ]

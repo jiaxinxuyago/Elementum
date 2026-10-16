@@ -22,7 +22,7 @@
       "cell": "土_水",
       "field": "carry.wide",
       "candidate": {
-        "clause": "Water is easy for you to reach, the river already running where you stand.",
+        "clause": "There is no shortage of Water in you, the river already running where you stand.",
         "remedy": "Use the current. Start the thing you keep describing."
       },
       "original": {
@@ -48,7 +48,7 @@
       "cell": "土_金",
       "field": "carry.wide",
       "candidate": {
-        "clause": "Metal is easy for you to reach, and the finished thing comes off you without strain.",
+        "clause": "You are well supplied with Metal, and the finished thing comes off you without strain.",
         "remedy": "Use it. Make something and give it away."
       },
       "original": {

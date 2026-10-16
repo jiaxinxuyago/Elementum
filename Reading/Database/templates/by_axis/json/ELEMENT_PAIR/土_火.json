@@ -16,46 +16,46 @@
   "candidates": {
     "mechanism": {
       "classic": "木焚而成灰，灰即土也",
-      "base": "Ash is earth, the old texts say: everything that burns comes down to soil at last. So the ground is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest.",
-      "catalyst_turn": "Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast.",
-      "friction_turn": "Run heavy, the warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. Walk off the hearth and bear some weather."
+      "base": "Fire feeds Earth, the old texts say. What burns comes down as ash, and ash is the first soil. Every field that grows was warmed before it was planted. The flame readies the ground rather than building it, loosening the cold and leaving a fine black dust that holds water and seed. The ground remembers each fire as a richer season, and a long cold year as a thin harvest.",
+      "catalyst_turn": "With too little Fire, the ground goes cold under the seed, and the soil feeds on an old harvest. Take in one warm thing a week, a teacher or a book.",
+      "friction_turn": "With too much Fire, the soil bakes to a hard dry crust over the seed, and nothing planted in it comes up. Make one thing from all you took in and hand it over."
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Fire is your Mind, and as a catalyst, it is how learning actually enters you: through excitement, people, and live example rather than cold text. You retain what warmed you. Affection, praise, and festivity all count as study.",
-      "definition_friction": "Fire is your Mind, and as a friction, it is stimulation mistaken for nourishment: feeds, sparks, novelty consumed all day while real understanding stays shallow. The excitement is spending you, and it feels like input.",
-      "advise_catalyst": "For you, warmth is a study technique. Take the class instead of the book. Explain new ideas to someone within a day of meeting them. Learn beside people on purpose, and let excitement pick the syllabus more often than duty does.",
-      "advise_friction": "Attention is the meal, and yours is being eaten as snacks. Cut the feeds to one sitting a day. Give the freed hour to one slow subject and stay a month. Let yourself be bored on purpose until depth becomes interesting again."
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, your Mind is left wanting, so you either chase hunches alone or wait to be taught. You end up circling the same few ideas.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you keep taking in after you have enough, sheltering an idea or a person rather than testing either. You know far more than you ever tried.",
+      "advise_catalyst": "You learn by being warmed, and warmth is something you have to go and sit near. Once a month sit in on a class or a talk as a listener only. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night.",
+      "advise_friction": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Fix one small thing at home with what you already know."
     },
-    "cta_verdict": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.",
+    "cta_verdict": "You take a thing in once you see why it matters to you, so you tend to ask what it is for more than how it works.",
     "carry": {
       "catalyst": {
-        "clause": "The ground goes gray: duties held on cold ground, nothing warm coming in.",
-        "remedy": "Attend the feast."
+        "clause": "The ground goes cold under the seed.",
+        "remedy": "Take in one warm thing a week, a teacher or a book."
       },
       "friction": {
-        "clause": "The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary.",
-        "remedy": "Walk off the hearth and bear some weather."
+        "clause": "The soil bakes to a hard dry crust over the seed.",
+        "remedy": "Make one thing from all you took in and hand it over."
       },
       "wide": {
-        "clause": "Fire is all around you, the warmth that lets the ground grow anything.",
-        "remedy": "Spend the warmth. Host, teach, feed people."
+        "clause": "You were given plenty of Fire, the warmth every harvest starts from.",
+        "remedy": "Use it. Start what you keep studying."
       },
       "missing": {
-        "clause": "No warmth coming in: duties on cold ground, nothing learned by heart.",
-        "remedy": "Borrow fire: people, praise, a feast."
+        "clause": "Without fire there is no ash, and this ground has nothing new to grow from.",
+        "remedy": "Stay close to people who love what they learn."
       },
       "spared": {
-        "clause": "Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food.",
-        "remedy": "Keep it. Take warmth in small doses."
+        "clause": "No fire reaches this soil, and it keeps its water the better for it.",
+        "remedy": "Leave it unlit and build with what you have."
       },
       "thin": {
-        "clause": "Fire runs thin and unwanted: a small warmth, easily borne.",
-        "remedy": "Bear it lightly."
+        "clause": "A small fire warms this ground without drying it, the right size for the soil.",
+        "remedy": "Keep it small, one lamp at a time."
       },
       "excess": {
-        "clause": "Too much fire bakes the earth: ground hardened by heat, stubborn on the surface and dry underneath.",
-        "remedy": "Walk off the hearth. Add water."
+        "clause": "Fire past its use scorches the very ground it was lit to feed.",
+        "remedy": "Stop adding. Let the ground cool before you learn more."
       }
     },
     "carry_yin": {
@@ -76,5 +76,183 @@
     },
     "retired_v3_definition_catalyst": "Fire is your Mind, and as a catalyst, it is how learning actually enters you: through excitement, people, and live example rather than cold text. You retain what warmed you. Affection, praise, and festivity all count as study.\n\nThe lecture you remember came from the teacher you loved. The skill that stuck was learned beside someone, the fact that stayed arrived inside a story, and everything studied dutifully alone has mostly evaporated.\n\nFor you, warmth is a study technique. Take the class instead of the book. Explain new ideas to someone within a day of meeting them. Learn beside people on purpose, and let excitement pick the syllabus more often than duty does.",
     "retired_v3_definition_friction": "Fire is your Mind, and as a friction, it is stimulation mistaken for nourishment: feeds, sparks, novelty consumed all day while real understanding stays shallow. The excitement is spending you, and it feels like input.\n\nInterested in everything for about a minute. Forty tabs of sparks, a feed refreshed at red lights, enthusiasm rented by the hour, and by evening the mind is somehow both overfull and unfed.\n\nAttention is the meal, and yours is being eaten as snacks. Cut the feeds to one sitting a day. Give the freed hour to one slow subject and stay a month. Let yourself be bored on purpose until depth becomes interesting again."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Ash is earth, the old texts say: everything that burns comes down to soil at last. So the ground is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Run heavy, the warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. Walk off the hearth and bear some weather."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The ground goes gray: duties held on cold ground, nothing warm coming in."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Attend the feast."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Walk off the hearth and bear some weather."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Fire is all around you, the warmth that lets the ground grow anything."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Spend the warmth. Host, teach, feed people."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "No warmth coming in: duties on cold ground, nothing learned by heart."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Borrow fire: people, praise, a feast."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Keep it. Take warmth in small doses."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Fire runs thin and unwanted: a small warmth, easily borne."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Bear it lightly."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Too much fire bakes the earth: ground hardened by heat, stubborn on the surface and dry underneath."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Walk off the hearth. Add water."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Fire is your Mind, and as a catalyst, it is how learning actually enters you: through excitement, people, and live example rather than cold text. You retain what warmed you. Affection, praise, and festivity all count as study."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Fire is your Mind, and as a friction, it is stimulation mistaken for nourishment: feeds, sparks, novelty consumed all day while real understanding stays shallow. The excitement is spending you, and it feels like input."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "For you, warmth is a study technique. Take the class instead of the book. Explain new ideas to someone within a day of meeting them. Learn beside people on purpose, and let excitement pick the syllabus more often than duty does."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Attention is the meal, and yours is being eaten as snacks. Cut the feeds to one sitting a day. Give the freed hour to one slow subject and stay a month. Let yourself be bored on purpose until depth becomes interesting again."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_火.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever."
+    }
+  ]
 }

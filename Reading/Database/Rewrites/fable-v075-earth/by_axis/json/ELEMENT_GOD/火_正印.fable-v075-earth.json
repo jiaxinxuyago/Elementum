@@ -26,25 +26,25 @@
           {
             "word": "Good listener",
             "angles": {
-              "drive": "You listen the way other people wait to talk. You need to be trusted more than to be right, so you hear a person out ahead of putting in your view. Keep listening like that, and you hear what gets kept from everyone else.",
+              "drive": "You give everyone a good hearing. You need to be trusted more than to be right, so you hear a person out ahead of having your say. If you add your own view at the end, you offer help along with your ear.",
               "cost_self": "Listening is the part of knowing people you do best. Since you take in a person's story ahead of telling your own, you end most conversations fully informed and entirely unheard. Tell your side now and then, and you get to be known as well.",
-              "cost_others": "Hearing people out is your first move. You listen past the point where your answer would help, because understanding someone matters more to you than deciding for them. Give the answer sooner when you have it, and you offer the help along with the listening."
+              "cost_others": "Being a good listener is your first move. Since speaking up feels like a risk, you keep listening rather than give the help asked of you. When your advice is wanted, offer it and spare a person the wait."
             }
           },
           {
             "word": "Looks after people",
             "angles": {
-              "drive": "You look after people before anyone asks you to. Being needed is the warmest thing you know, and you take care of the person in front of you ahead of yourself. Keep doing that, and let one of them look after you back.",
-              "cost_self": "Looking after people is where you put yourself first. Because being needed feels easier than being tired, you give your rest to whoever asks ahead of keeping any for yourself. Take the rest you are owed, and you stay warm enough to look after anyone.",
-              "cost_others": "Whenever a loved one struggles, you look after it for them. Sparing a person the hard part feels kinder than watching them manage, so you carry what they could lift. Stand back for one hard thing, and you hand them pride as well as help."
+              "drive": "You look after people without being asked. Keeping the people near you sheltered is how you feel at ease, so you look after their comfort ahead of yours. Look after one plan of your own, before your care fills the week.",
+              "cost_self": "Your own needs come last whenever you are looking after someone. Because being needed feels easier than being tired, you give your rest away ahead of keeping any. When you hold some rest back, you stop paying for everyone's comfort with your sleep.",
+              "cost_others": "Whenever a loved one struggles, you look after it for them. Sparing a person the hard part feels kinder than watching them manage, so you carry what they could lift. Step back from one thing within their reach, and leave them the pride."
             }
           },
           {
             "word": "Slow to judge",
             "angles": {
-              "drive": "You are slow to judge anyone. Keeping a person warm counts more with you than being right about them, and you give the benefit of the doubt long past its use. Keep that patience, and say the hard thing when it is the kind one.",
-              "cost_self": "Slow judgment is your kindest habit. Because you need people to be better than their worst day, you keep trusting well after the pattern is plain. Judge a little sooner, and you save the warmth you now spend where it is never returned.",
-              "cost_others": "Your first read of anyone is a kind one. Because you would rather keep a person warm than judge them out loud, you hold back the honest read they needed. Say it sooner, and you give them the truth while it is useful."
+              "drive": "You are slow to judge anyone. A quick judgment feels unfair to you, and you give a person the benefit of the doubt rather than make up your mind. Whenever a chance keeps costing you, let your judgment have the final say.",
+              "cost_self": "Slow judgment is your kindest habit. Because you need people to be better than their worst day, you keep trusting well after the pattern is plain. Judge a little sooner, for the warmth you now spend where it is never returned.",
+              "cost_others": "Your first read of anyone is a kind one. Because you would rather keep a person warm than judge them out loud, you hold back the honest read they needed. Offer the truth while it can help, in your own gentle way."
             }
           }
         ]
@@ -56,23 +56,23 @@
             "angles": {
               "drive": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in ahead of being asked. Do remember that protecting someone from every fall also keeps them from standing.",
               "cost_self": "Protecting your own people takes most of you. Since you feel their trouble more than your own, you spend your rest on their emergencies rather than your life. It pays to remember that the life you put down for theirs is also yours.",
-              "cost_others": "Each time a loved one is about to fail, you catch it. Protecting them from the consequence feels more like love than letting them meet it, so you take the lesson from their hands. Know that you take their getting up with the fall."
+              "cost_others": "Each time a loved one is about to fail, you catch it. Protecting them from the consequence feels more like love to you than letting them meet it. With every rescue, you keep from them the small win of managing it."
             }
           },
           {
             "word": "Leans on others",
             "angles": {
-              "drive": "You lean on the people who look after you more than you need to. Being held up feels better than finding out if you stand alone, so you ask ahead of trying. Remember that you reach for help before you have tried without it.",
-              "cost_self": "Leaning on someone makes a hard thing bearable for you. Because another person's steadiness feels more reliable than yours, you borrow theirs rather than build any. Remember that the strength you never test is the strength you never get.",
+              "drive": "You lean on the people who look after you more than you need to. Being held up feels better than finding out if you stand alone, so you ask ahead of trying. Lean by lean, you come to trust your own footing less.",
+              "cost_self": "Leaning on someone makes a hard thing feel lighter to you. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow.",
               "cost_others": "When something goes wrong, you take it to whoever holds you up. Being carried feels kinder to you than managing alone, and you add your weight on top of their own. Notice that you are leaning on someone who is also tired."
             }
           },
           {
             "word": "Too comfortable",
             "angles": {
-              "drive": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy ahead of what you want. Comfortable and finished are not the same thing, and that is worth keeping in mind.",
-              "cost_self": "Comfort is the state you work hardest to keep. Since the warm version of your life asks nothing of you, you choose it rather than the one asking you to try. It is worth knowing that the chance you keep not taking is closing.",
-              "cost_others": "When your people want change, you want it to stay warm. Leaving things comfortable seems gentler to you than any plan that unsettles them, and you answer their wanting with comfort. Keep in mind that you make them wait on your comfort."
+              "drive": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy ahead of what you want. Without noticing, you trade the life you meant to have for a smaller one.",
+              "cost_self": "Comfort is the state you work hardest to keep. Because any change feels unsafe to you, you stay in the comfortable routine rather than try a new one. You end each easy stretch more tired than you began it.",
+              "cost_others": "Keeping the home as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them. Just as your people are ready to move, you keep them in place."
             }
           }
         ]

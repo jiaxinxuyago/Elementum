@@ -8,7 +8,7 @@
     {
       "cell": "土_土",
       "field": "cta_verdict",
-      "candidate": "You hold yourself up from the inside, and what you decide on your own you keep longer than anything handed to you.",
+      "candidate": "You would sooner promise little than break your word, and you tend to keep it long after it stops suiting you.",
       "original": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were.",
       "gate": "pass"
     },
@@ -29,7 +29,7 @@
     {
       "cell": "土_火",
       "field": "cta_verdict",
-      "candidate": "You take ideas in through the people who carry them, so a warm teacher stays with you longer than a right one.",
+      "candidate": "You take ideas in through the people who carry them, so you tend to keep a kind teacher's words longer than a correct one's.",
       "original": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.",
       "gate": "pass"
     },

@@ -9,7 +9,7 @@
   "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
   "candidates": {
     "mechanism": {
-      "base": "Earth tames water, the old texts say. The solid wins over the empty, and the bank decides where the river goes. Water on its own spreads thin and finds every low place. Held by ground, it gathers into a channel deep enough to carry boats and turn a mill. The river does not lose its power to the bank. It gains a direction, and the ground gains a field that drinks.",
+      "base": "Earth tames water, the old texts say. The solid wins over the empty, and the bank decides where the river goes. Water on its own spreads thin and finds every low place. Held by ground, it gathers into a channel deep enough to carry boats and turn a mill. The river keeps all its force against the bank and comes away with a direction, while the ground gains a field that drinks.",
       "catalyst_turn": "You carry little Water. The ground has banks and no river between them, and plans stay drawn while fields go dry. Start one thing this month and let it run.",
       "friction_turn": "More Water moves in you than the ground can hold. The river spreads wider than its banks, and the ground washes away under everything it chases. Keep one weekend free of anything new."
     },
@@ -23,11 +23,11 @@
         "remedy": "Keep one weekend free of anything new."
       },
       "wide": {
-        "clause": "Water is easy for you to reach, the river already running where you stand.",
+        "clause": "There is no shortage of Water in you, the river already running where you stand.",
         "remedy": "Use the current. Start the thing you keep describing."
       },
       "missing": {
-        "clause": "No river between the banks, the ground ready and nothing moving across it.",
+        "clause": "The ground is dug and ready, and no spring rises to fill the well.",
         "remedy": "Borrow the flow from a partner, a deadline, one small venture."
       },
       "spared": {
@@ -44,7 +44,7 @@
       }
     },
     "function": {
-      "definition_catalyst": "Your Action is what you go and build, claim and provide. Water makes it flow, so what you claim comes by moving. As a catalyst, your Action is slow to begin. You keep what you saved rather than chase what you see, and the chance closes while you wait.",
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. As a catalyst, your Action is slow to begin. You keep what you saved rather than chase what you see, and the chance closes while you wait.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Water makes it pour and spread as it goes. As a friction, your Action spreads faster than it settles. You chase the next opening ahead of keeping this one, and you lose the savings that staying builds.",
       "advise_catalyst": "You are better at keeping than at starting, and keeping is only half of what you have. Put one saved thing into motion this season, a trip booked or a small venture opened with money you can spare. Say yes to one invitation before you have checked the cost. Call home once a month.",
       "advise_friction": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. You begin more than you finish because stopping feels like losing. Sleep before you say yes to anything new. Eat one meal a day sitting down, with nothing open."

@@ -26,25 +26,25 @@
           {
             "word": "Finishes things",
             "angles": {
-              "drive": "Finishing is where you feel most like yourself. Because a half-done thing feels like a half-told truth to you, you finish one thing properly rather than start three. If you keep the list short, you get to finish all of it.",
-              "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like before it is done, and you finish the gift ahead of the pleasure of making it. Leave one thing half done this week, and notice how much rest comes back to you.",
-              "cost_others": "Whenever you make someone something, you finish it before they see it. You hand over a done thing late rather than a rough one early, and the people you make for wait. Show them the half-made thing once, and you give them the making too."
+              "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. If you keep the list short, you get to finish all of it.",
+              "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. Leave one thing half done this week, and notice how much rest comes back to you.",
+              "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. When you finish the last step together, you hand them a share in the making."
             }
           },
           {
             "word": "Chooses well",
             "angles": {
-              "drive": "Choosing the right thing to give is how you care. A near-enough word feels like a small lie to you, and you choose the exact one or you say nothing for now. Keep choosing that carefully, and let a plain thank you cover the wait.",
-              "cost_self": "Choosing well costs you the moment. The right word rarely comes in time, and you choose it later instead of saying something warm now. Say the kind thing first and the exact one after, because closeness is what you were choosing for.",
-              "cost_others": "When you give, you choose exactly or you wait. Since a near-enough kindness feels unfinished to you, you put choosing ahead of giving and leave the people you love a little short of kind words. Give the rough version today and the chosen one later."
+              "drive": "Choosing the right thing to give is how you care. A wrong gift feels worse to you than none, so you choose slowly rather than give the nearest thing. Once you set yourself a deadline to choose, you reach the person while it counts.",
+              "cost_self": "For you, a good choice beats a fast one. Since getting the choice right matters more to you than being on time, you let the warm moment pass. Choose a little faster for the people you love, so you get the closeness you were after.",
+              "cost_others": "You choose kind words as carefully as gifts. Anything plain sounds careless to you, so you choose silence rather than say something plain to someone you love. Each time you choose the moment along with the words, you let them hear the warmth you feel."
             }
           },
           {
             "word": "Teaches by doing",
             "angles": {
               "drive": "Showing how a thing is done comes more easily to you than explaining it. You trust your hands over your words, and teach by doing it next to someone rather than telling them. Stay beside the learner, and you pass on the thing itself.",
-              "cost_self": "Teaching by doing takes your time twice, since you would rather do a thing beside someone than write it down. You give an hour where a note would do, and that comes straight out of your rest. Write it down once, and keep the hour.",
-              "cost_others": "Whenever someone asks how, you teach by doing it instead of explaining. Doing feels more honest to you than describing, and they learn your way ahead of their own. Let them get the next one wrong, and you hand them the lasting part."
+              "cost_self": "Teaching by doing takes your time twice, since you would rather do a thing beside someone than write it down. You teach that way even where a note would do. Teach one lesson by note to keep an hour of rest.",
+              "cost_others": "You teach a child by doing the whole thing yourself. Your own way is the one you know works, so you teach it rather than let them try another. Whenever you teach only the first step, you let them find a way of their own."
             }
           }
         ]
@@ -54,25 +54,25 @@
           {
             "word": "Hard to please",
             "angles": {
-              "drive": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole. Keep in mind that the standard is yours, and you can set it down for an evening.",
-              "cost_self": "Being hard to please costs you the pleasure. Since you see the wrong detail ahead of the whole, you spend the evening checking rather than enjoying. Keep in mind, you can fix the detail tomorrow and never get the evening back.",
-              "cost_others": "Whenever someone makes you something, you see what is wrong first. Being pleased properly matters more to you than being pleased fast, and you hand back a correction where thanks were wanted. You owe them the thanks first, and the notes can wait a day."
+              "drive": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole. Keep in mind that while you hold out for perfect, you go without being pleased at all.",
+              "cost_self": "Being hard to please costs you the pleasure. Since your pleasure has to be earned, you hold it back rather than enjoy what is only nice. It is worth remembering that you never get back an evening spent waiting to be pleased.",
+              "cost_others": "You look a gift over before you let it please you. You put the flaw ahead of the thanks, and keep the maker from seeing you pleased. You give a maker the most when you let the gift please you first."
             }
           },
           {
             "word": "Gives too much",
             "angles": {
               "drive": "Giving is how you know you are here. The made thing in someone's hands proves you more than anything kept, so you give what you made away ahead of keeping any of it. Remember to count yourself among the people you make things for.",
-              "cost_self": "Giving too much leaves you with the least. Since a made thing only counts in someone's hands, you give the good one away rather than keep it, and your rest goes out with the gift. Remember that you made enough to keep one.",
-              "cost_others": "When you love someone, you make things before they ask. Doing it feels warmer than watching them struggle, and you give the finished thing instead of the chance to try. Remember that you keep the making from them, and the making is the best part."
+              "cost_self": "Giving too much leaves you with the least. Since keeping a thing for yourself feels mean to you, you give the best one away rather than hold on to it. It pays to remember how much rest you give away with every gift.",
+              "cost_others": "When you love someone, you give before they ask. Giving feels more natural to you than keeping, so you hand over even the things you need. By giving it all, you leave the people you love no chance to look after you."
             }
           },
           {
             "word": "Takes it easy",
             "angles": {
-              "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. It is worth remembering that you chose the ease and can choose past it.",
+              "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Bear in mind that you never try the hard parts while taking it easy.",
               "cost_self": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
-              "cost_others": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. You teach by what you settle for, and that is worth remembering."
+              "cost_others": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. Do not forget that you teach them by what you settle for."
             }
           }
         ]

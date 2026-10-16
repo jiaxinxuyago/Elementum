@@ -343,32 +343,32 @@
         "canonical_name": "Earth core × Wood — the Duty",
         "value": {
           "catalyst": {
-            "clause": "Nothing roots in you: ground with no claim on it, steadiness serving no living thing.",
-            "remedy": "Take on something growing and let it grip."
+            "clause": "nothing grows through the ground to hold it",
+            "remedy": "Take on one demand with a date on it."
           },
           "friction": {
-            "clause": "The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds.",
-            "remedy": "You are ground, not groundskeeper to everyone."
+            "clause": "the roots draw more than the ground can feed",
+            "remedy": "Turn down the next demand and rest a week."
           },
           "wide": {
-            "clause": "Wood is one thing you never run short of, the living thing your ground exists to hold.",
-            "remedy": "Say yes to the biggest responsibility on offer."
+            "clause": "Wood is easy for you to reach, the roots that keep your ground from sliding.",
+            "remedy": "Use it. Say yes to the demand you have been avoiding."
           },
           "missing": {
-            "clause": "Nothing roots in you: ground with no claim on it.",
-            "remedy": "Borrow roots: one living thing to tend."
+            "clause": "Open hillside, not a tree on it, and the soil shifts under every plan you set down.",
+            "remedy": "Join one thing that keeps its own hours."
           },
           "spared": {
-            "clause": "Wood runs absent, and the soil is left alone: nobody leans on you, the ground keeps its own.",
-            "remedy": "Keep it. Take on roots by choice."
+            "clause": "No trees stand on this ground, and the soil keeps all of itself.",
+            "remedy": "Leave it empty. Set your own pace."
           },
           "thin": {
-            "clause": "Wood runs thin and unwanted: a few roots, easily fed.",
-            "remedy": "Feed them. Take no more."
+            "clause": "A few roots in the ground, enough to grip and not enough to split it.",
+            "remedy": "Keep it small. One rule you chose, no more."
           },
           "excess": {
-            "clause": "Weak earth caves under strong wood: obligations past what the ground can hold, soil torn by roots.",
-            "remedy": "Let a slope go wild. Add fire."
+            "clause": "Wood has outgrown the ground that feeds it, and the whole hillside slides.",
+            "remedy": "Rest first. Drop every demand you did not choose."
           }
         }
       },
@@ -378,32 +378,32 @@
         "canonical_name": "Earth core × Fire — the Root",
         "value": {
           "catalyst": {
-            "clause": "The ground goes gray: duties held on cold ground, nothing warm coming in.",
-            "remedy": "Attend the feast."
+            "clause": "The ground goes cold under the seed.",
+            "remedy": "Take in one warm thing a week, a teacher or a book."
           },
           "friction": {
-            "clause": "The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary.",
-            "remedy": "Walk off the hearth and bear some weather."
+            "clause": "The soil bakes to a hard dry crust over the seed.",
+            "remedy": "Make one thing from all you took in and hand it over."
           },
           "wide": {
-            "clause": "Fire is all around you, the warmth that lets the ground grow anything.",
-            "remedy": "Spend the warmth. Host, teach, feed people."
+            "clause": "You were given plenty of Fire, the warmth every harvest starts from.",
+            "remedy": "Use it. Start what you keep studying."
           },
           "missing": {
-            "clause": "No warmth coming in: duties on cold ground, nothing learned by heart.",
-            "remedy": "Borrow fire: people, praise, a feast."
+            "clause": "Without fire there is no ash, and this ground has nothing new to grow from.",
+            "remedy": "Stay close to people who love what they learn."
           },
           "spared": {
-            "clause": "Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food.",
-            "remedy": "Keep it. Take warmth in small doses."
+            "clause": "No fire reaches this soil, and it keeps its water the better for it.",
+            "remedy": "Leave it unlit and build with what you have."
           },
           "thin": {
-            "clause": "Fire runs thin and unwanted: a small warmth, easily borne.",
-            "remedy": "Bear it lightly."
+            "clause": "A small fire warms this ground without drying it, the right size for the soil.",
+            "remedy": "Keep it small, one lamp at a time."
           },
           "excess": {
-            "clause": "Too much fire bakes the earth: ground hardened by heat, stubborn on the surface and dry underneath.",
-            "remedy": "Walk off the hearth. Add water."
+            "clause": "Fire past its use scorches the very ground it was lit to feed.",
+            "remedy": "Stop adding. Let the ground cool before you learn more."
           }
         }
       },
@@ -413,24 +413,24 @@
         "canonical_name": "Earth core × Earth — the Core",
         "value": {
           "catalyst": {
-            "clause": "The ground doubts its own bearing: steadiness performed, footing borrowed.",
-            "remedy": "Keep one promise to yourself so long it becomes terrain."
+            "clause": "the ground under you is shallow, and every load goes straight through to your knees",
+            "remedy": "Sleep and eat before you decide anything."
           },
           "friction": {
-            "clause": "The ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility.",
-            "remedy": "Even bedrock is improved by weather."
+            "clause": "the ground packs down on itself until nothing moves across it and nothing new comes up",
+            "remedy": "Say yes to one deadline you did not set."
           },
           "unrooted": {
-            "clause": "The self stands without roots: steadiness performed, footing borrowed.",
-            "remedy": "Feed the self. Keep one promise until it is terrain."
+            "clause": "No Earth of your own under the whole structure, so every stand you take is on borrowed footing.",
+            "remedy": "Make your own footing from routine, the same bed and meals daily."
           },
           "excess": {
-            "clause": "Strong earth wants metal: so much steadiness nothing new can root.",
-            "remedy": "Till it. Mint something."
+            "clause": "Ground heaped on ground past any use, a mass only Metal can shape into something useful.",
+            "remedy": "Spend it through Metal. Finish one exact thing today."
           },
           "thin": {
-            "clause": "Earth runs thin and still carries weight: little ground, held too hard.",
-            "remedy": "Loosen the grip."
+            "clause": "Earth kept small, a floor under you and never a wall around you.",
+            "remedy": "Keep it that size. Rest on it, nothing more."
           }
         }
       },
@@ -440,32 +440,32 @@
         "canonical_name": "Earth core × Metal — the Voice",
         "value": {
           "catalyst": {
-            "clause": "The ore stays buried: depth with no expression, patience that never mints anything.",
-            "remedy": "Finish a piece, publish the standard."
+            "clause": "The ground keeps every bit of its ore.",
+            "remedy": "Say one thing plainly before it is perfect."
           },
           "friction": {
-            "clause": "The mining never stops: everything minted, the mountain hollowed for output.",
-            "remedy": "Your silence is part of the deposit."
+            "clause": "The hill is hollowed out by its own ore.",
+            "remedy": "Keep one opinion back and sleep on it."
           },
           "wide": {
-            "clause": "You have plenty of Metal, the ore your mountain was keeping.",
-            "remedy": "Ship the piece that is already finished."
+            "clause": "You are well supplied with Metal, and the finished thing comes off you without strain.",
+            "remedy": "Use it. Make something and give it away."
           },
           "missing": {
-            "clause": "The ore stays buried: patience that never mints anything.",
-            "remedy": "Borrow metal: finish one piece, say it once."
+            "clause": "No ore comes out of this ground, so what you know stays known and never said.",
+            "remedy": "Borrow an ending. Set a date and hand over the rough draft."
           },
           "spared": {
-            "clause": "Metal runs absent, and the mountain is not mined: nothing demanded, nothing hollowed.",
-            "remedy": "Keep the ore. Mint only what matters."
+            "clause": "No ore leaves this ground, and the ground keeps its whole weight for itself.",
+            "remedy": "Leave it. Take things in before you put them out."
           },
           "thin": {
-            "clause": "Metal runs thin and unwanted: a small vein, easily left.",
-            "remedy": "Leave it in the ground."
+            "clause": "A thin seam of ore, a small drain on ground that needs its weight.",
+            "remedy": "Keep it small. Say less and settle more."
           },
           "excess": {
-            "clause": "Too much metal changes the earth: the ground turned over for output until it is no longer ground.",
-            "remedy": "Stop mining. Let it settle."
+            "clause": "More ore than the ground can grow, and the soil that made it turns into something else.",
+            "remedy": "Dig less. Let the ground lie still and take in."
           }
         }
       },
@@ -475,32 +475,32 @@
         "canonical_name": "Earth core × Water — the Drive",
         "value": {
           "catalyst": {
-            "clause": "The banks hold no river: structure ready, nothing flowing, canals waiting on rain.",
-            "remedy": "Go where things move and channel some."
+            "clause": "The ground has banks and no river between them",
+            "remedy": "Start one thing this month and let it run."
           },
           "friction": {
-            "clause": "The damming never stops: every stream metered, flow managed until nothing pools for joy.",
-            "remedy": "Some water is for watching."
+            "clause": "The river spreads wider than its banks",
+            "remedy": "Keep one weekend free of anything new."
           },
           "wide": {
-            "clause": "Water is easy for you to reach, the river your banks were built for.",
-            "remedy": "Put the flow you already have to work."
+            "clause": "There is no shortage of Water in you, the river already running where you stand.",
+            "remedy": "Use the current. Start the thing you keep describing."
           },
           "missing": {
-            "clause": "No river in the banks: structure ready, nothing flowing.",
-            "remedy": "Borrow water: go where things move."
+            "clause": "The ground is dug and ready, and no spring rises to fill the well.",
+            "remedy": "Borrow the flow from a partner, a deadline, one small venture."
           },
           "spared": {
-            "clause": "Water runs absent, and nothing needs damming: the calm keeps itself.",
-            "remedy": "Keep the calm. Channel little."
+            "clause": "There is no Water in you, and the ground never washes out from under you.",
+            "remedy": "Leave it out. Keep to the ground you already have."
           },
           "thin": {
-            "clause": "Water runs thin and unwanted: a small stream, easily watched.",
-            "remedy": "Watch it. Don't meter it."
+            "clause": "Water is a trickle in you, and the banks take it without strain.",
+            "remedy": "Keep it small. One open chance at a time."
           },
           "excess": {
-            "clause": "Too much water washes earth away: more flow than the banks can hold, ground lost managing it.",
-            "remedy": "Let it flow. Hold less of it."
+            "clause": "Too much Water for the ground to bank, and what should water the field washes it away.",
+            "remedy": "Bank it. Finish one thing before you start another."
           }
         }
       },

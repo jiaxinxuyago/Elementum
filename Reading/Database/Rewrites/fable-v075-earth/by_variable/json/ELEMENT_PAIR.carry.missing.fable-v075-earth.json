@@ -9,8 +9,8 @@
       "cell": "土_木",
       "field": "carry.missing",
       "candidate": {
-        "clause": "No roots in the ground at all, nothing outside you to hold the plan in place.",
-        "remedy": "Borrow a rule. Find a coach, a deadline, someone to answer to."
+        "clause": "Open hillside, not a tree on it, and the soil shifts under every plan you set down.",
+        "remedy": "Join one thing that keeps its own hours."
       },
       "original": {
         "clause": "Nothing roots in you: ground with no claim on it.",
@@ -22,7 +22,7 @@
       "cell": "土_水",
       "field": "carry.missing",
       "candidate": {
-        "clause": "No river between the banks, the ground ready and nothing moving across it.",
+        "clause": "The ground is dug and ready, and no spring rises to fill the well.",
         "remedy": "Borrow the flow from a partner, a deadline, one small venture."
       },
       "original": {
@@ -35,8 +35,8 @@
       "cell": "土_火",
       "field": "carry.missing",
       "candidate": {
-        "clause": "No fire under this ground, and the cold soil takes in nothing new.",
-        "remedy": "Borrow warmth from a teacher or one bright friend."
+        "clause": "Without fire there is no ash, and this ground has nothing new to grow from.",
+        "remedy": "Stay close to people who love what they learn."
       },
       "original": {
         "clause": "No warmth coming in: duties on cold ground, nothing learned by heart.",

@@ -18,11 +18,11 @@
 | **Fire core × Earth — the Voice** | 火_土 | You show what you feel by making something solid rather than saying it, and what you build tends to outlast the moment. |
 | **Fire core × Metal — the Drive** | 火_金 | Your drive goes wherever there is something hard to shape, and you finish more by picking one thing to provide for than by chasing every opening you spot. |
 | **Fire core × Water — the Duty** | 火_水 | You take a rule in quietly and keep it for years, and you would rather answer to a standard you chose than to a voice raised at you. |
-| **Earth core × Wood — the Duty** | 土_木 | Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together. |
-| **Earth core × Fire — the Root** | 土_火 | Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever. |
-| **Earth core × Earth — the Core** | 土_土 | Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were. |
-| **Earth core × Metal — the Voice** | 土_金 | You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent. |
-| **Earth core × Water — the Drive** | 土_水 | You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades. |
+| **Earth core × Wood — the Duty** | 土_木 | You make the rules you live by part of yourself, so over the years you value your standing as much as your work. |
+| **Earth core × Fire — the Root** | 土_火 | You take a thing in once you see why it matters to you, so you tend to ask what it is for more than how it works. |
+| **Earth core × Earth — the Core** | 土_土 | You would rather go the distance than win a sprint, and you tend to do your best in the second half of anything long. |
+| **Earth core × Metal — the Voice** | 土_金 | You put a thing out finished rather than early, and what you say gets kept longer than you expect. |
+| **Earth core × Water — the Drive** | 土_水 | You get what you want by going around rather than through, and most of what you keep came to you while you were moving. |
 | **Metal core × Wood — the Drive** | 金_木 | You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you. |
 | **Metal core × Fire — the Duty** | 金_火 | You work harder for a standard someone else set than for one of your own, and you usually go looking for one. |
 | **Metal core × Earth — the Root** | 金_土 | Because you would rather understand a thing than be quick about it, you keep only the answers you gave time to. |

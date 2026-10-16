@@ -54,7 +54,7 @@
    },
    "value_b": {
     "word": "One-track",
-    "text": "You give whatever has your attention all of it. You take a subject whole rather than in parts, and go deep on one thing while everything near it goes cold. Keep remembering that from inside, one track looks like the only one."
+    "text": "Your attention goes to one subject and leaves nothing beside it. Since knowing a little of everything feels empty to you, you learn one subject to the bottom rather than several. Off that one track, you walk past interests you would love just as much."
    }
   },
   "ledger[1]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "One-track",
-    "text": "When one idea has you, you are reachable only through it. Because you bring every conversation back to the subject rather than let it move on, your closest people wait outside it. You were wanted for more than your subject, and that is worth remembering."
+    "text": "When one idea has you, you are reachable only through it. Because you steer every talk back onto its track rather than let it change, you leave family and friends outside. You give them only the part of you that talks about it."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "All or nothing",
-    "text": "You give a new interest everything or nothing at all. You count half an effort as none, so you give a thing every hour rather than a steady few until the wanting runs out. Remember that the nothing after is as real as the all."
+    "text": "You give a new interest everything or nothing at all. You count half an effort as none, so you give a thing every hour rather than a steady few until the wanting runs out. After the push, you go weeks without touching it at all."
    },
    "value_b": {
     "word": "All or nothing",
-    "text": "You take a thing up fully or leave it. Your interest arrives all at once or never, so you learn a subject in one push instead of an hour a week. Hold on to the fact that the gaps are part of the learning."
+    "text": "You throw yourself into a thing or do nothing with it. Your interest arrives all at once or never, and you learn a subject in one push instead of an hour a week. Over time you collect a shelf of half-learned things."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "All or nothing",
-    "text": "All or nothing is the only speed you have. Since you never learn at half speed, you give a subject one hard month rather than a slow year, and the month ends first. Know that the skill you wanted stops where the feeling did."
+    "text": "All or nothing is the only speed you have. Since you never learn at half speed, you give a subject one hard month rather than a slow year, and the month ends first. You stop at half the skill, right where the feeling did."
    }
   },
   "ledger[5]": {
@@ -293,12 +293,12 @@
     }
    },
    "value": {
-    "word": "Keeps to yourself",
-    "text": "You keep what goes on in you to yourself. Explaining your inner life costs more than living it alone, and you let people see the finished thought and nothing of the thinking. Bear in mind that from outside, keeping to yourself looks like not caring."
+    "word": "Holds things in",
+    "text": "You hold your inner life in, even with the people you trust. Because words feel too small for what goes on in you, you hold it all in rather than explain it. Whatever you hold in, you carry by yourself for longer."
    },
    "value_b": {
-    "word": "Keeps to yourself",
-    "text": "You keep most of your life to yourself. You find being understood more tiring than being alone, and you keep your thoughts in and hand out the summary. It helps to remember that the part you keep to yourself is the part worth knowing."
+    "word": "Holds things in",
+    "text": "Holding things in is your way of staying steady. Being seen unsure scares you more than being lonely, and you hold every worry in by yourself. You bring a worry out only once it is solved, too late for anyone to help."
    }
   },
   "ledger[7]": {
@@ -336,8 +336,8 @@
     }
    },
    "value": {
-    "word": "Keeps to yourself",
-    "text": "Keeping to yourself rests you more than company does. You would rather carry a thing quietly than say it badly, and the people who could know you get the version with nothing to answer. It is worth remembering that the closeness you skip stays skipped."
+    "word": "Holds things in",
+    "text": "Whenever something matters, you hold it in a little longer. You would rather keep a thought safe than say it badly, and you give the people near you the tidy version. Held back like this, you lose the closeness of being known half finished."
    }
   },
   "ledger[8]": {
@@ -375,8 +375,8 @@
     }
    },
    "value": {
-    "word": "Keeps to yourself",
-    "text": "Whenever something is wrong, you keep it to yourself instead of saying it. Since you find being looked after worse than being left alone, you tell the people who love you afterwards, if at all. Notice that you leave them guessing at you."
+    "word": "Holds things in",
+    "text": "Most troubles you hold in until you have handled them. Since a struggle feels safer unspoken, you give your family the outcome rather than the story. Each time you do, you take from them the chance to stand beside you through it."
    }
   }
  }

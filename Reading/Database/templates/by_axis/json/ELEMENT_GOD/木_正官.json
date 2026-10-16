@@ -16,14 +16,14 @@
     "k2_functional": "Order is your native climate: you grow straight inside good structure and warp without it.",
     "adj_chips": {
       "catalyst": [
-        "Straight-growing",
-        "Honorable",
-        "Leads by example"
+        "Keeps your word",
+        "Earns every step",
+        "Holds the line"
       ],
       "friction": [
-        "Stiff",
-        "Overformal",
-        "Change-proof"
+        "By the book",
+        "Never bends",
+        "Rank comes first"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Straight-growing",
+            "word": "Keeps your word",
             "angles": {
-              "drive": "You grow toward the light in a straight line: education, career, family, each stage built plumb on the last. Shortcuts bend other people’s trunks. Yours rises clean, and decades later the straightness is visible from a distance, holding up more than itself.",
-              "cost_self": "The five-year plan you wrote at twenty-four has checkmarks on it, most of them dated within a season of the target. It is framed nowhere and referenced constantly. People ask how you knew what you wanted. You mostly knew how you wanted to grow.",
-              "cost_others": "Younger relatives get pointed at your life the way apprentices get pointed at level foundations. It creates a pressure you never asked for and quietly enjoy. The nickname behind your back is some version of the reliable one. Worse names exist."
+              "drive": "You keep your word long after it stops being convenient. Being counted on is the respect you want, so you put a promise ahead of your comfort. Add your comfort to the promises you keep, because a word kept at any price wears you down.",
+              "cost_self": "Keeping your word matters more to you than keeping your options. Since breaking a promise feels like losing rank with yourself, you stay inside old plans rather than reopen them. Ask out of one dead promise, and you are free when the next chance comes.",
+              "cost_others": "Whoever gives you their word, you expect them to keep it. Because you treat a promise as a rule, you count a missed one as a broken rule instead of a bad week. Allow people one free miss, and your word weighs more for it."
             }
           },
           {
-            "word": "Honorable",
+            "word": "Earns every step",
             "angles": {
-              "drive": "Your word is structural. What you promise happens, what you sign binds you, and what you would not want printed does not get done. In a market of loopholes you deal in load-bearing sentences, and people build on them without inspection.",
-              "cost_self": "The handshake deal from 2015 cost you money to honor when prices moved, and you honored it without renegotiating. The other party tells that story at dinners. Their referrals arrive pre-sold, doing your marketing in a currency that cannot be purchased.",
-              "cost_others": "Your name gets invoked to settle arguments you are not present for, as in, would that person do this. Being a unit of measurement is unpaid work with excellent hours. People behave slightly better around you, and mostly cannot say why."
+              "drive": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. When you ask for the next step a little sooner, you stop working a rank below your worth.",
+              "cost_self": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. If you claim what you have earned, you stop losing the title to whoever asked first.",
+              "cost_others": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Hand one person a step early, so they spend less time proving what you already know."
             }
           },
           {
-            "word": "Leads by example",
+            "word": "Holds the line",
             "angles": {
-              "drive": "Being the example is a role your conduct keeps applying for. You do the boring right thing repeatedly, visibly, without being asked, and standards form around you the way paths form where someone walks daily. Rules look livable in your vicinity, which is why they hold.",
-              "cost_self": "You returned the extra change, filed the honest expense report, and took the parking ticket without contesting the unfair half. Small, dull, witnessed. Two years later a junior colleague, caught in a real dilemma, did the right thing and cited you. You had said nothing.",
-              "cost_others": "Parents point at you, managers reference you, and the group’s behavior improves measurably when you enter. It is a strange power, being calibration. The cost is that your rare bad day gets discussed like an earthquake. The benefit is everything that quietly never goes wrong."
+              "drive": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Let someone else hold one line for a while, instead of carrying every rule alone.",
+              "cost_self": "Holding the line costs you more than you admit. Since bending a rule feels like losing yourself, you hold it against the people you love as much as against strangers. Bend it once for someone who matters, and you keep a closeness no rule replaces.",
+              "cost_others": "For everyone, you hold the line, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, to hold the line only where it helps."
             }
           }
         ]
@@ -93,27 +93,27 @@
       "friction": {
         "ledger": [
           {
-            "word": "Stiff",
+            "word": "By the book",
             "angles": {
-              "drive": "Bending is not in your repertoire. The joke lands on you and stops, the change of plans arrives and finds you already braced, the hug gets received like an audit. Your uprightness holds structures up and keeps warmth at handshake distance.",
-              "cost_self": "The surprise party genuinely surprised you, and your first act was to check whether the kitchen had been left tidy. It had. You relaxed by degrees over ninety minutes, arriving at almost festive just as guests were leaving. They still describe you as having attended.",
-              "cost_others": "People warm up their news before bringing it to you, knowing spontaneity bounces off your posture. Children in the family treat you with formal fondness, like a beloved building. The loosening everyone hopes for appears only on rare evenings, and gets discussed for years."
+              "drive": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. Each time the book decides, you give up a chance to trust yourself.",
+              "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Do not forget that you lose the judgment you never use, and the step up that needed it.",
+              "cost_others": "Faced with a person, you reach for the book as much as for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. It helps to remember that you hand them the page and keep yourself out."
             }
           },
           {
-            "word": "Overformal",
+            "word": "Never bends",
             "angles": {
-              "drive": "Procedure is your native tongue, spoken even at picnics. The email where a text would do, the agenda for the family meeting, the correct channels pursued at incorrect moments. Form was meant to carry respect. Somewhere along the way it started replacing contact.",
-              "cost_self": "Your birthday message to your oldest friend arrived typed, punctuated, and signed with your full name, as it has for thirty years. They read it aloud to their spouse in a formal voice, laughed, and then, quietly, kept it. Both reactions were about the same thing.",
-              "cost_others": "People adjust their register around you like visitors at a consulate, and the real conversation happens after you leave the group. You are respected in full and confided in rarely. The distance between those two facts is where your friendships wait."
+              "drive": "You never bend, whatever the day asks. Because standing firm feels safer to you, you brace against a change of plan rather than lean into it. You stay loyal to the old plan long after it has stopped working.",
+              "cost_self": "Never bending keeps you honest and keeps you tired. Since a new plan feels like being pushed, you hold your shape instead of saving your strength. You lose every chance that arrives as a change, and you lose it by refusing to bend.",
+              "cost_others": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. Over time, you leave the people around you with ideas they no longer bother to share."
             }
           },
           {
-            "word": "Change-proof",
+            "word": "Rank comes first",
             "angles": {
-              "drive": "New ways bounce off your bark. The updated system, the different route, the revised recipe: each gets a trial with a predetermined result. What worked keeps working, in your telling, and the world’s job is to stop moving while you finish being right.",
-              "cost_self": "The team migrated tools in March, and you are still exporting everything to the old format, nightly, in a private folder labeled in case. The folder has never once been needed. Its maintenance now takes longer than learning the new tool would have.",
-              "cost_others": "Rollouts route around you by design now, with your section handled last and by specific patient people. You experience this as respect for your seniority. It is partly that, and partly the org chart drawing a fence around the place where change goes to stall."
+              "drive": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Know that you want the order more than the answer, and the job needs the answer.",
+              "cost_self": "Even when the one being ranked is you, rank comes first. Since a title tells you how well you are doing, you choose rank ahead of liking your work. You keep moving up into jobs you would not pick for the work alone.",
+              "cost_others": "In how you treat people, rank comes first. Because order feels safer than equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
             }
           }
         ]
@@ -137,6 +137,246 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
       "replaced": null
+    },
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Straight-growing"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Honorable"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Leads by example"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Stiff"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Overformal"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Change-proof"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Straight-growing"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "You grow toward the light in a straight line: education, career, family, each stage built plumb on the last. Shortcuts bend other people’s trunks. Yours rises clean, and decades later the straightness is visible from a distance, holding up more than itself."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The five-year plan you wrote at twenty-four has checkmarks on it, most of them dated within a season of the target. It is framed nowhere and referenced constantly. People ask how you knew what you wanted. You mostly knew how you wanted to grow."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Younger relatives get pointed at your life the way apprentices get pointed at level foundations. It creates a pressure you never asked for and quietly enjoy. The nickname behind your back is some version of the reliable one. Worse names exist."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Honorable"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your word is structural. What you promise happens, what you sign binds you, and what you would not want printed does not get done. In a market of loopholes you deal in load-bearing sentences, and people build on them without inspection."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The handshake deal from 2015 cost you money to honor when prices moved, and you honored it without renegotiating. The other party tells that story at dinners. Their referrals arrive pre-sold, doing your marketing in a currency that cannot be purchased."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your name gets invoked to settle arguments you are not present for, as in, would that person do this. Being a unit of measurement is unpaid work with excellent hours. People behave slightly better around you, and mostly cannot say why."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Leads by example"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Being the example is a role your conduct keeps applying for. You do the boring right thing repeatedly, visibly, without being asked, and standards form around you the way paths form where someone walks daily. Rules look livable in your vicinity, which is why they hold."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "You returned the extra change, filed the honest expense report, and took the parking ticket without contesting the unfair half. Small, dull, witnessed. Two years later a junior colleague, caught in a real dilemma, did the right thing and cited you. You had said nothing."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Parents point at you, managers reference you, and the group’s behavior improves measurably when you enter. It is a strange power, being calibration. The cost is that your rare bad day gets discussed like an earthquake. The benefit is everything that quietly never goes wrong."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Stiff"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Bending is not in your repertoire. The joke lands on you and stops, the change of plans arrives and finds you already braced, the hug gets received like an audit. Your uprightness holds structures up and keeps warmth at handshake distance."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The surprise party genuinely surprised you, and your first act was to check whether the kitchen had been left tidy. It had. You relaxed by degrees over ninety minutes, arriving at almost festive just as guests were leaving. They still describe you as having attended."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People warm up their news before bringing it to you, knowing spontaneity bounces off your posture. Children in the family treat you with formal fondness, like a beloved building. The loosening everyone hopes for appears only on rare evenings, and gets discussed for years."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Overformal"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Procedure is your native tongue, spoken even at picnics. The email where a text would do, the agenda for the family meeting, the correct channels pursued at incorrect moments. Form was meant to carry respect. Somewhere along the way it started replacing contact."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your birthday message to your oldest friend arrived typed, punctuated, and signed with your full name, as it has for thirty years. They read it aloud to their spouse in a formal voice, laughed, and then, quietly, kept it. Both reactions were about the same thing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "People adjust their register around you like visitors at a consulate, and the real conversation happens after you leave the group. You are respected in full and confided in rarely. The distance between those two facts is where your friendships wait."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Change-proof"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "New ways bounce off your bark. The updated system, the different route, the revised recipe: each gets a trial with a predetermined result. What worked keeps working, in your telling, and the world’s job is to stop moving while you finish being right."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The team migrated tools in March, and you are still exporting everything to the old format, nightly, in a private folder labeled in case. The folder has never once been needed. Its maintenance now takes longer than learning the new tool would have."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_GOD/木_正官.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Rollouts route around you by design now, with your section handled last and by specific patient people. You experience this as respect for your seniority. It is partly that, and partly the org chart drawing a fence around the place where change goes to stall."
     }
   ]
 }

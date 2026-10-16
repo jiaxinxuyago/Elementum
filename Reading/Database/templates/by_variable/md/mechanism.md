@@ -101,45 +101,45 @@
 | Field | Value |
 |---|---|
 | `classic` | 專勝散，故木勝土 |
-| `base` | The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a hillside carries its forest. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind. |
-| `catalyst_turn` | Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip. |
-| `friction_turn` | Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone. |
+| `base` | Wood takes hold of earth by going into it. The old texts say the concentrated wins over the scattered, and a root is exactly that, one living line driven through loose ground until the ground stops sliding. The hillside loses nothing to the tree. It gains a shape, a grip, a reason to stay where it is. Soil left to itself spreads and settles flat, and a forest teaches it to stand. |
+| `catalyst_turn` | With too little Wood, nothing grows through the ground to hold it, and soil without roots spreads wherever it is pushed. Take on one demand with a date on it. |
+| `friction_turn` | With too much Wood, the roots draw more than the ground can feed, and the slope gives way under the trees it carries. Turn down the next demand and rest a week. |
 
 ### Earth core × Fire — the Root · 土_火
 
 | Field | Value |
 |---|---|
 | `classic` | 木焚而成灰，灰即土也 |
-| `base` | Ash is earth, the old texts say: everything that burns comes down to soil at last. So the ground is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest. |
-| `catalyst_turn` | Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast. |
-| `friction_turn` | Run heavy, the warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. Walk off the hearth and bear some weather. |
+| `base` | Fire feeds Earth, the old texts say. What burns comes down as ash, and ash is the first soil. Every field that grows was warmed before it was planted. The flame readies the ground rather than building it, loosening the cold and leaving a fine black dust that holds water and seed. The ground remembers each fire as a richer season, and a long cold year as a thin harvest. |
+| `catalyst_turn` | With too little Fire, the ground goes cold under the seed, and the soil feeds on an old harvest. Take in one warm thing a week, a teacher or a book. |
+| `friction_turn` | With too much Fire, the soil bakes to a hard dry crust over the seed, and nothing planted in it comes up. Make one thing from all you took in and hand it over. |
 
 ### Earth core × Earth — the Core · 土_土
 
 | Field | Value |
 |---|---|
 | `classic` | 厚德載物 |
-| `base` | Thick virtue carries all things, the Book of Changes says of earth: ground laid upon ground, bedrock under soil, the one element whose nature is simply to hold. Nothing reacts here. Ground settles onto ground, and the stillness deepens until mountains sit on it without complaint. What everything else moves through, earth remains. |
-| `catalyst_turn` | Run thin, the ground doubts its own bearing: steadiness performed, footing borrowed. Your chart asks you to feed the self. Keep one promise to yourself so long it becomes terrain. |
-| `friction_turn` | Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even bedrock is improved by weather. |
+| `base` | Earth on earth is ground laid over ground. Soil settles onto soil, season after season, until the layers forget where one ended and the next began. Nothing arrives from outside, so the field thickens by its own weight, keeps what falls on it and gives it back slowly if at all. What grows there grows out of depth, and it stands long after faster things have fallen. |
+| `catalyst_turn` | With too little Earth, the ground under you is shallow, and every load goes straight through to your knees. Nothing stays put without a push from outside. Sleep and eat before you decide anything. |
+| `friction_turn` | With too much Earth, the ground packs down on itself until nothing moves across it and nothing new comes up. Every opinion settles into bedrock. Say yes to one deadline you did not set. |
 
 ### Earth core × Metal — the Voice · 土_金
 
 | Field | Value |
 |---|---|
 | `classic` | 金居石依山，津潤而生 |
-| `base` | Metal is born of earth: it gathers in the mountain's stone, condensed out of long pressure and deep moisture, the ground's patience arriving at a point. The mountain speaks rarely. When it does, what it says is ore, and every refined thing that leaves the rock carries the mountain's patience inside it. |
-| `catalyst_turn` | Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard. |
-| `friction_turn` | Run heavy, the mining never stops: everything minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit. |
+| `base` | Ore grows in the ground, in the dark of the stone and the wet that the stone holds. The earth does not pour it out. It gives up a little of its own weight, and what comes loose is harder and brighter than anything the ground was by itself. Metal is what the soil makes that can hold a point, and say in one clean line what the hillside spent an age holding. |
+| `catalyst_turn` | With too little Metal, the ground keeps every bit of its ore, all that weight and patience and nothing coming out with a finished shape. Say one thing plainly before it is perfect. |
+| `friction_turn` | With too much Metal, the hill is hollowed out by its own ore, every thought coming out finished and pointed while the ground under it thins. Keep one opinion back and sleep on it. |
 
 ### Earth core × Water — the Drive · 土_水
 
 | Field | Value |
 |---|---|
 | `classic` | 實勝虛，故土勝水 |
-| `base` | The solid prevails over the flowing, and so earth governs water: banks give the river its path, the dam gives the flood its pause, and what would spread into marsh becomes current with somewhere to go. Unbanked water wanders and thins. Held by ground, the same water turns wheels, floats grain, arrives. |
-| `catalyst_turn` | Run thin, the banks hold no river: structure ready, nothing flowing, canals waiting on rain. Your chart asks you to court the current. Go where things move and channel some. |
-| `friction_turn` | Run heavy, the damming never stops: every stream metered, flow managed until nothing pools for joy. Unclench a channel. Some water is for watching. |
+| `base` | Earth tames water, the old texts say. The solid wins over the empty, and the bank decides where the river goes. Water on its own spreads thin and finds every low place. Held by ground, it gathers into a channel deep enough to carry boats and turn a mill. The river keeps all its force against the bank and comes away with a direction, while the ground gains a field that drinks. |
+| `catalyst_turn` | You carry little Water. The ground has banks and no river between them, and plans stay drawn while fields go dry. Start one thing this month and let it run. |
+| `friction_turn` | More Water moves in you than the ground can hold. The river spreads wider than its banks, and the ground washes away under everything it chases. Keep one weekend free of anything new. |
 
 ### Metal core × Wood — the Drive · 金_木
 

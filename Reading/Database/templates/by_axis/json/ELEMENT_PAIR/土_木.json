@@ -16,46 +16,46 @@
   "candidates": {
     "mechanism": {
       "classic": "專勝散，故木勝土",
-      "base": "The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a hillside carries its forest. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind.",
-      "catalyst_turn": "Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip.",
-      "friction_turn": "Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone."
+      "base": "Wood takes hold of earth by going into it. The old texts say the concentrated wins over the scattered, and a root is exactly that, one living line driven through loose ground until the ground stops sliding. The hillside loses nothing to the tree. It gains a shape, a grip, a reason to stay where it is. Soil left to itself spreads and settles flat, and a forest teaches it to stand.",
+      "catalyst_turn": "With too little Wood, nothing grows through the ground to hold it, and soil without roots spreads wherever it is pushed. Take on one demand with a date on it.",
+      "friction_turn": "With too much Wood, the roots draw more than the ground can feed, and the slope gives way under the trees it carries. Turn down the next demand and rest a week."
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline.",
-      "definition_friction": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows. Fall short once and the harshest judgement comes from inside.",
-      "advise_catalyst": "Some people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it.",
-      "advise_friction": "Care that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour."
+      "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. As a catalyst, you lack a demand to meet, so you chase a crisis or a career someone else planned and finish less of your own.",
+      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Wood builds it upward, stage by stage. As a friction, the rules grow past you, so you serve the demand and the title ahead of your rest. In time you turn the pressure on yourself.",
+      "advise_catalyst": "You feel most like yourself when your effort has a name and an end. Tell someone the date you will finish and let them hold you to it. Plan one dinner this month, from the guest list to the bill. Sign up for one class that ends in a test. Make your bed.",
+      "advise_friction": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so what presses on you turns into understanding. Let it soften what Wood presses on you. You read every demand as proof of falling short. Read one page on why the rule exists before you answer it. Sit in the sun a while."
     },
-    "cta_verdict": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together.",
+    "cta_verdict": "You make the rules you live by part of yourself, so over the years you value your standing as much as your work.",
     "carry": {
       "catalyst": {
-        "clause": "Nothing roots in you: ground with no claim on it, steadiness serving no living thing.",
-        "remedy": "Take on something growing and let it grip."
+        "clause": "nothing grows through the ground to hold it",
+        "remedy": "Take on one demand with a date on it."
       },
       "friction": {
-        "clause": "The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds.",
-        "remedy": "You are ground, not groundskeeper to everyone."
+        "clause": "the roots draw more than the ground can feed",
+        "remedy": "Turn down the next demand and rest a week."
       },
       "wide": {
-        "clause": "Wood is one thing you never run short of, the living thing your ground exists to hold.",
-        "remedy": "Say yes to the biggest responsibility on offer."
+        "clause": "Wood is easy for you to reach, the roots that keep your ground from sliding.",
+        "remedy": "Use it. Say yes to the demand you have been avoiding."
       },
       "missing": {
-        "clause": "Nothing roots in you: ground with no claim on it.",
-        "remedy": "Borrow roots: one living thing to tend."
+        "clause": "Open hillside, not a tree on it, and the soil shifts under every plan you set down.",
+        "remedy": "Join one thing that keeps its own hours."
       },
       "spared": {
-        "clause": "Wood runs absent, and the soil is left alone: nobody leans on you, the ground keeps its own.",
-        "remedy": "Keep it. Take on roots by choice."
+        "clause": "No trees stand on this ground, and the soil keeps all of itself.",
+        "remedy": "Leave it empty. Set your own pace."
       },
       "thin": {
-        "clause": "Wood runs thin and unwanted: a few roots, easily fed.",
-        "remedy": "Feed them. Take no more."
+        "clause": "A few roots in the ground, enough to grip and not enough to split it.",
+        "remedy": "Keep it small. One rule you chose, no more."
       },
       "excess": {
-        "clause": "Weak earth caves under strong wood: obligations past what the ground can hold, soil torn by roots.",
-        "remedy": "Let a slope go wild. Add fire."
+        "clause": "Wood has outgrown the ground that feeds it, and the whole hillside slides.",
+        "remedy": "Rest first. Drop every demand you did not choose."
       }
     },
     "mechanism_yin": {
@@ -75,5 +75,183 @@
     },
     "retired_v3_definition_catalyst": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline.\n\nThe garden, the godchild, the junior you did not have to take on: what depends on you organizes you, and the years shaped by a growing responsibility have been your best years so far.\n\nSome people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it.",
     "retired_v3_definition_friction": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows.\n\nGodparent to everyone, patient of no one. Four groups depend on your steadiness, the calendar is other people’s growth, and the requests keep arriving because you have never once let a season lapse.\n\nCare that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a hillside carries its forest. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Nothing roots in you: ground with no claim on it, steadiness serving no living thing."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Take on something growing and let it grip."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "You are ground, not groundskeeper to everyone."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Wood is one thing you never run short of, the living thing your ground exists to hold."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Say yes to the biggest responsibility on offer."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Nothing roots in you: ground with no claim on it."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Borrow roots: one living thing to tend."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Wood runs absent, and the soil is left alone: nobody leans on you, the ground keeps its own."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Keep it. Take on roots by choice."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Wood runs thin and unwanted: a few roots, easily fed."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Feed them. Take no more."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Weak earth caves under strong wood: obligations past what the ground can hold, soil torn by roots."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Let a slope go wild. Add fire."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows. Fall short once and the harshest judgement comes from inside."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Some people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Care that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-earth",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-earth/by_axis/json/ELEMENT_PAIR/土_木.fable-v075-earth.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
+      "replaced": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together."
+    }
+  ]
 }

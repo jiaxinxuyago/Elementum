@@ -48,8 +48,8 @@
       "cell": "土_火",
       "field": "carry.excess",
       "candidate": {
-        "clause": "Fire enough to bake the ground it was meant to feed, the soil dried past growing.",
-        "remedy": "Cool the ground. Decide one thing and act on it."
+        "clause": "Fire past its use scorches the very ground it was lit to feed.",
+        "remedy": "Stop adding. Let the ground cool before you learn more."
       },
       "original": {
         "clause": "Too much fire bakes the earth: ground hardened by heat, stubborn on the surface and dry underneath.",

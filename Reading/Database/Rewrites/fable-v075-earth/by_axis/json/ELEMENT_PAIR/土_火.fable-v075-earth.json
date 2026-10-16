@@ -27,8 +27,8 @@
         "remedy": "Use it. Start what you keep studying."
       },
       "missing": {
-        "clause": "No fire under this ground, and the cold soil takes in nothing new.",
-        "remedy": "Borrow warmth from a teacher or one bright friend."
+        "clause": "Without fire there is no ash, and this ground has nothing new to grow from.",
+        "remedy": "Stay close to people who love what they learn."
       },
       "spared": {
         "clause": "No fire reaches this soil, and it keeps its water the better for it.",
@@ -39,17 +39,17 @@
         "remedy": "Keep it small, one lamp at a time."
       },
       "excess": {
-        "clause": "Fire enough to bake the ground it was meant to feed, the soil dried past growing.",
-        "remedy": "Cool the ground. Decide one thing and act on it."
+        "clause": "Fire past its use scorches the very ground it was lit to feed.",
+        "remedy": "Stop adding. Let the ground cool before you learn more."
       }
     },
     "function": {
-      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, you stay unlit, chasing one strange idea alone as much as waiting for a kind teacher. Until then you know less than you saw.",
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, your Mind is left wanting, so you either chase hunches alone or wait to be taught. You end up circling the same few ideas.",
       "definition_friction": "Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you keep taking in after you have enough, sheltering an idea or a person rather than testing either. You know far more than you ever tried.",
       "advise_catalyst": "You learn by being warmed, and warmth is something you have to go and sit near. Once a month sit in on a class or a talk as a listener only. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night.",
-      "advise_friction": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Finish one small thing a week and give it away."
+      "advise_friction": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Fix one small thing at home with what you already know."
     },
-    "cta_verdict": "Your mind takes in what warms it first, so you learn more from one person who lights you up than from any lesson you sat through cold."
+    "cta_verdict": "You take a thing in once you see why it matters to you, so you tend to ask what it is for more than how it works."
   },
   "$original": {
     "mechanism": {
