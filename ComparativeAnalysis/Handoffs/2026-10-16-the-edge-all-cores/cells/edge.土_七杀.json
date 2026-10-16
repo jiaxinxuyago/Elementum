@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/土_七杀 (catalyst)",
+ "facts": {
+  "persona": "The General (七杀) on Earth",
+  "function": "order",
+  "ruling_domains": [
+   "Career",
+   "Health",
+   "Growth"
+  ],
+  "catalyst_chips": [
+   "Fortress-calm",
+   "Commanding",
+   "Siege-proof"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Fortress-calm",
+    "angles": {
+     "drive": "Staying calm under pressure is load-bearing structure for you, and everyone leaning on it can tell. Deadlines collapse, clients raise their voices, and yours holds the level it keeps on an easy Tuesday. People bring you their panic the way they bring valuables to a vault.",
+     "cost_self": "The launch broke at nine and the group chat caught fire. Your first message, posted at 9:04, was a numbered list. By the third number the chat had gone quiet and gone to work, and the fire was just weather again.",
+     "cost_others": "New teammates think you are unbothered, and older ones know better. The calm is built, wall by wall, and it holds because you decided long ago that panicking is a second emergency. Nobody has seen the construction. They just live inside it."
+    }
+   },
+   {
+    "word": "Commanding",
+    "angles": {
+     "drive": "Taking charge comes to you the way gravity comes to heavy things, without asking. In any group without a plan, the plan starts collecting around you. You rarely raise your voice. The instructions simply sound like the ground everyone was waiting to stand on.",
+     "cost_self": "The building alarm went off mid-meeting, and within a minute the whole floor was following your voice to the stairwell. Nobody elected you. By the time everyone stood outside counting heads, it seemed obvious that they always would have.",
+     "cost_others": "People obey your stillness more than they obey other people’s shouting. Committees route hard calls to you without formally deciding to, and visitors assume you hold a title two levels above the one on your door. The assumption does your paperwork for you."
+    }
+   },
+   {
+    "word": "Siege-proof",
+    "angles": {
+     "drive": "Outlasting is your actual weapon, and you know exactly how long you can hold. Pressure campaigns, difficult vendors, slow disputes: your position is stocked for winters other people never planned for. You do not need to win quickly. You need to still be there.",
+     "cost_self": "The negotiation dragged into its fourth month, and the other side started making mistakes born of impatience. You had scheduled your patience in advance, supplies and all. The terms you signed in month five were the ones you wrote in week one.",
+     "cost_others": "Rivals who try to rattle you end their campaigns tired and on schedule. Colleagues have watched vendors, auditors, and one memorable landlord take a run at your position and slide off it. Waiting you out has been tried many times. It has not once worked."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Rock-steady",
+   "Fair",
+   "Load-bearing"
+  ],
+  "bars": [
+   {
+    "key": "leadership",
+    "label": "Leadership"
+   },
+   {
+    "key": "responsibility",
+    "label": "Responsibility"
+   },
+   {
+    "key": "flexible_structured",
+    "label": "Flexible · Structured"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

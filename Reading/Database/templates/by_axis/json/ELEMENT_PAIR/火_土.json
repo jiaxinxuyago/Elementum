@@ -14,46 +14,46 @@
   "candidates": {
     "mechanism": {
       "classic": "木焚而成灰，灰即土也",
-      "base": "Fire gives birth to earth, the old texts say: what burns comes down at last as ash, and ash settles into soil. Nothing bright is lost entirely. The flame that danced for an evening feeds the field for a generation, warmth pressed down into ground that will hold seeds long after the light is gone.",
-      "catalyst_turn": "Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it.",
-      "friction_turn": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something."
+      "base": "Earth is what the fire leaves behind. Wood burns down to ash and ash is already soil, so every blaze ends as ground that something else can stand on. The flame spends itself and the field keeps the gift, dark and warm and ready for seed. What began as light becomes a place, and the place outlasts the fire that made it.",
+      "catalyst_turn": "With too little Earth, the light has no ground to land on. What you make stays heat and never becomes something a person can hold. Finish one small thing and give it away.",
+      "friction_turn": "With too much Earth, the ground piles up and dims the fire. So much gets made that the light goes dull under its own harvest. Make nothing for a week and take something in."
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on.",
-      "definition_friction": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins.",
-      "advise_catalyst": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining.",
-      "advise_friction": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks, and you give quietly rather than show what you can do. You pay in kindness not given and talent not shown.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, so you keep giving or keep proving instead of taking in. You run empty on comfort given and points already won.",
+      "advise_catalyst": "What you keep inside does not count as finished. Make one thing a week that someone else can hold. Say the opinion you have been sitting on to one person. Show a child or a friend something you know how to do. Write one line down before bed.",
+      "advise_friction": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for reading."
     },
-    "cta_verdict": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say.",
+    "cta_verdict": "You show what you feel by making something solid rather than saying it, and what you build tends to outlast the moment.",
     "carry": {
       "catalyst": {
-        "clause": "The fire leaves no ash: heat and light, nothing banked, nothing built from the burning.",
-        "remedy": "Teach it, write it, found it."
+        "clause": "The light has no ground to land on.",
+        "remedy": "Finish one small thing and give it away."
       },
       "friction": {
-        "clause": "Every spark gets pressed into a monument: output hardening faster than it can live.",
-        "remedy": "Not every flame must found something."
+        "clause": "The ground piles up and dims the fire.",
+        "remedy": "Make nothing for a week and take something in."
       },
       "wide": {
-        "clause": "Earth is already here in plenty, the hearth that keeps what you burn.",
-        "remedy": "Build one thing that will outlast the evening."
+        "clause": "You have plenty of Earth, the ground your fire was always meant to warm.",
+        "remedy": "Build on it. Finish something that outlasts the week."
       },
       "missing": {
-        "clause": "No ash: heat and light, nothing built from the burning.",
-        "remedy": "Borrow ground: teach it, write it down."
+        "clause": "The fire finds nothing to warm into shape, so what you feel stays feeling.",
+        "remedy": "Take Earth on loan. Make one plain thing and hand it over."
       },
       "spared": {
-        "clause": "Earth runs absent, and the fire stays light: nothing pressed into a monument.",
-        "remedy": "Keep it light. Found only what you will tend."
+        "clause": "No Earth drawing on the fire, so the light keeps its warmth for itself.",
+        "remedy": "Leave it. Spend your warmth where it feeds you."
       },
       "thin": {
-        "clause": "Earth runs thin and unwanted: a small hearth, easy to keep.",
-        "remedy": "Keep the hearth small."
+        "clause": "Only a little Earth on the fire, enough to make something without dimming the light.",
+        "remedy": "Keep it small. One made thing at a time."
       },
       "excess": {
-        "clause": "Too much earth dims the fire: every spark pressed into form, output hardening while the light thins.",
-        "remedy": "Let some fires just burn."
+        "clause": "So much Earth that the fire can hardly be seen, a light buried under what it made.",
+        "remedy": "Clear the ash. Make less and rest more."
       }
     }
   },
@@ -66,5 +66,183 @@
     },
     "retired_v3_definition_catalyst": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on.\n\nThe recipe people ask for, the onboarding doc that outlived your job, the Friday dinner that somehow became an institution among your friends: that is this energy working. Your excitement keeps turning into furniture other lives get to use.\n\nEnthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining.",
     "retired_v3_definition_friction": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins.\n\nEvery hobby has a spreadsheet, every dinner a theme, every passing thought a folder. The instinct to make things last has started embalming them instead, and maintaining past enthusiasms now crowds out having new ones.\n\nSome warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Fire gives birth to earth, the old texts say: what burns comes down at last as ash, and ash settles into soil. Nothing bright is lost entirely. The flame that danced for an evening feeds the field for a generation, warmth pressed down into ground that will hold seeds long after the light is gone."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The fire leaves no ash: heat and light, nothing banked, nothing built from the burning."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Teach it, write it, found it."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Every spark gets pressed into a monument: output hardening faster than it can live."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Not every flame must found something."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Earth is already here in plenty, the hearth that keeps what you burn."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Build one thing that will outlast the evening."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "No ash: heat and light, nothing built from the burning."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Borrow ground: teach it, write it down."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Earth runs absent, and the fire stays light: nothing pressed into a monument."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Keep it light. Found only what you will tend."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Earth runs thin and unwanted: a small hearth, easy to keep."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Keep the hearth small."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Too much earth dims the fire: every spark pressed into form, output hardening while the light thins."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Let some fires just burn."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say."
+    }
+  ]
 }

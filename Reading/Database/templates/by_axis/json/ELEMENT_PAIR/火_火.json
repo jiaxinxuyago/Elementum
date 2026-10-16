@@ -16,38 +16,38 @@
   "candidates": {
     "mechanism": {
       "classic": "同明相照，同類相求",
-      "base": "Lights answer one another, the old histories say: flame set beside flame makes one blaze, brighter than the sum of what was lit. There is no reaction between them, only reinforcement, heat agreeing with heat. Such doubling warms whole houses, and it can also empty the woodpile twice as fast.",
-      "catalyst_turn": "Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining.",
-      "friction_turn": "Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night."
+      "base": "Fire meets fire and neither has to fight the other for air, the old texts say: like lights shine on each other, and like seeks like. One flame set beside another takes nothing from it. Each feeds on what it was given and both grow brighter for the company, until the shared heat outruns what any single hearth can hold. Fire is the one element fed by its own kind and spent by it.",
+      "catalyst_turn": "With too little Fire, the flame runs on its own fuel with no second light to borrow warmth from, and the day costs more than it returns. Rest beside someone else's fire once a week.",
+      "friction_turn": "With too much Fire, the blaze outgrows its hearth and every light nearby reads as a rival for the same air. Warmth meant for company turns to glare. Finish one thing before lighting the next."
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love.",
-      "definition_friction": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment.",
-      "advise_catalyst": "A light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns.",
-      "advise_friction": "Heat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle."
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of rest. You pay for each bright day with lost rest.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, it spills into contests, so you would sooner be right alone than level with a peer or double a stake than share it. You win most days and pay in company.",
+      "advise_catalyst": "You treat rest as a loss and company as a crutch. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day.",
+      "advise_friction": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first."
     },
-    "cta_verdict": "Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart.",
+    "cta_verdict": "You are your own engine and your own company, so you do your best work beside an equal rather than under anyone's wing.",
     "carry": {
       "catalyst": {
-        "clause": "The flame apologizes for shining: warmth dialed down, light waiting to be invited.",
-        "remedy": "Take the stage you keep declining."
+        "clause": "the flame runs on its own fuel with no second light to borrow warmth from",
+        "remedy": "Rest beside someone else's fire once a week."
       },
       "friction": {
-        "clause": "The light crowds out the sky.",
-        "remedy": "Stars are seen at night."
+        "clause": "the blaze outgrows its hearth and every light nearby reads as a rival for the same air",
+        "remedy": "Finish one thing before lighting the next."
       },
       "unrooted": {
-        "clause": "The self stands without roots: light on will alone, warmth with no hearth under it.",
-        "remedy": "Feed the self. Take the stage once."
+        "clause": "No fire of your own under the day: warmth borrowed from whoever stands nearest.",
+        "remedy": "Build one small hearth: a habit that is only yours."
       },
       "excess": {
-        "clause": "Strong fire wants earth: so much light nothing else is visible.",
-        "remedy": "Settle some flame. Build something."
+        "clause": "Fire past its task: a blaze that needs ground under it before it has anything left to warm.",
+        "remedy": "Give it earth: one slow and solid job, finished."
       },
       "thin": {
-        "clause": "Fire runs thin and still carries weight: little light, spent on everyone.",
-        "remedy": "Spend it on fewer."
+        "clause": "Fire kept low, and rightly: a small flame that lights the day without eating it.",
+        "remedy": "Keep it small. Feed it only what it asks."
       }
     },
     "carry_yin": {
@@ -70,5 +70,151 @@
     },
     "retired_v3_definition_catalyst": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love.\n\nBright in public, flat at home. The laugh still performs, the plans still get made, and the people closest to you get whatever is left, which lately is not much. Warmth on an empty tank comes out as effort.\n\nA light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns.",
     "retired_v3_definition_friction": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment.\n\nMagnetic, exhausting, on at all hours. The group chat gets voice notes at midnight, small plans become productions, and stillness itches so badly that even holidays get scheduled like campaigns.\n\nHeat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Lights answer one another, the old histories say: flame set beside flame makes one blaze, brighter than the sum of what was lit. There is no reaction between them, only reinforcement, heat agreeing with heat. Such doubling warms whole houses, and it can also empty the woodpile twice as fast."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The flame apologizes for shining: warmth dialed down, light waiting to be invited."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Take the stage you keep declining."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The light crowds out the sky."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Stars are seen at night."
+    },
+    {
+      "field": "carry.unrooted.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The self stands without roots: light on will alone, warmth with no hearth under it."
+    },
+    {
+      "field": "carry.unrooted.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Feed the self. Take the stage once."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Strong fire wants earth: so much light nothing else is visible."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Settle some flame. Build something."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Fire runs thin and still carries weight: little light, spent on everyone."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Spend it on fewer."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "A light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Heat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_火.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart."
+    }
+  ]
 }

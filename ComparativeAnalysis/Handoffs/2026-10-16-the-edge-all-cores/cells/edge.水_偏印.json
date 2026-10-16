@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/水_偏印 (catalyst)",
+ "facts": {
+  "persona": "The Alchemist (偏印) on Water",
+  "function": "mind",
+  "ruling_domains": [
+   "Mind",
+   "Growth",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Goes deep",
+   "Reads people",
+   "Self-taught"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Goes deep",
+    "angles": {
+     "drive": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. You pay for the one you own with every subject left at the surface.",
+     "cost_self": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. You lose nothing of the depth by surfacing a little sooner, and keep the open door.",
+     "cost_others": "Whenever you go deep, you go alone. Company slows you down, and you pick the quiet ahead of any company you did not choose. Once in a while take someone down with you instead of handing them the summary."
+    }
+   },
+   {
+    "word": "Reads people",
+    "angles": {
+     "drive": "You read what a person is not saying. A pause tells you more than the words around it, so you trust your feeling about someone ahead of the story you are given. Say the reading out loud, because an unsaid one cannot be corrected.",
+     "cost_self": "Reading a person ahead of their words keeps you from surprises. The reading comes faster than the asking, and you go with it instead of waiting for the rest. Ask the slow question anyway, because the closeness you skip is what being right early costs.",
+     "cost_others": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. You give the other person back their telling whenever you let the sentence finish."
+    }
+   },
+   {
+    "word": "Self-taught",
+    "angles": {
+     "drive": "You teach yourself what matters most to you. A lesson you worked out alone sits deeper than one handed to you, and your own odd route comes ahead of the course on offer. You lose years to the long way and would take it again.",
+     "cost_self": "Teaching yourself spares you being a beginner anywhere. Working it out alone feels easier than asking someone who knows, and the long road is the one you choose. Ask sooner than you want to, because the help you refuse gets paid for in years.",
+     "cost_others": "You taught yourself your own route, and it is hard to pass on. Showing the steps means admitting there were none, and you hand over the answer rather than the method. Write the route down, because the way is what anyone learning from you misses."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Calming presence",
+   "Soaks it up",
+   "Patient"
+  ],
+  "bars": [
+   {
+    "key": "intuition",
+    "label": "Intuition"
+   },
+   {
+    "key": "stability",
+    "label": "Stability"
+   },
+   {
+    "key": "instinct_research",
+    "label": "Instinct · Research"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

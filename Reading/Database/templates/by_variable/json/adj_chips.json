@@ -77,14 +77,14 @@
         "canonical_name": "The Horizon",
         "value": {
           "catalyst": [
-            "Quick-eyed",
-            "Polished",
-            "Adventurous"
+            "Spots the opening",
+            "Starts fast",
+            "Gives freely"
           ],
           "friction": [
-            "Mercenary",
-            "Deal-hungry",
-            "Restless"
+            "Always moving on",
+            "Spread thin",
+            "Spends it all"
           ]
         }
       },
@@ -94,14 +94,14 @@
         "canonical_name": "The Steward",
         "value": {
           "catalyst": [
-            "Thorough",
-            "Trustworthy",
-            "Slow and steady"
+            "Finishes things",
+            "Saves first",
+            "Keeps your word"
           ],
           "friction": [
-            "No-frills",
-            "Greedy",
-            "Won’t budge"
+            "Holds on tight",
+            "Plays it safe",
+            "Avoids change"
           ]
         }
       },
@@ -213,14 +213,14 @@
         "canonical_name": "The Artisan",
         "value": {
           "catalyst": [
-            "Hearty",
-            "Settled",
-            "Providing"
+            "Gives first",
+            "Makes things last",
+            "Happy with enough"
           ],
           "friction": [
-            "Coasting",
-            "Sluggish",
-            "Pampered"
+            "Never stops giving",
+            "Drifts along",
+            "Too soft"
           ]
         }
       },
@@ -230,14 +230,14 @@
         "canonical_name": "The Virtuoso",
         "value": {
           "catalyst": [
-            "Ground-breaking",
-            "Deadpan",
-            "Unconventional"
+            "Proves it",
+            "Speaks plainly",
+            "Rewrites the rules"
           ],
           "friction": [
-            "Contrarian",
-            "Eye-rolling",
-            "Quake-prone"
+            "Pushes back",
+            "Says too much",
+            "Overdoes it"
           ]
         }
       },
@@ -485,14 +485,14 @@
         "canonical_name": "The Alchemist",
         "value": {
           "catalyst": [
-            "Connects dots",
-            "Perceptive",
-            "Self-taught"
+            "Senses it first",
+            "Self-taught",
+            "Sleeps on it"
           ],
           "friction": [
-            "Tangled",
-            "Secretive",
-            "Reclusive"
+            "Thinks in circles",
+            "Keeps it in",
+            "Hides away"
           ]
         }
       },
@@ -502,14 +502,14 @@
         "canonical_name": "The Sage",
         "value": {
           "catalyst": [
-            "Nurturing",
-            "Evergreen",
-            "Shade-giving"
+            "Passes it on",
+            "Takes people in",
+            "Gives it time"
           ],
           "friction": [
-            "Smothering",
-            "Clingy",
-            "Dormant"
+            "Helps too soon",
+            "Holds too tight",
+            "Stays put"
           ]
         }
       },
@@ -621,14 +621,14 @@
         "canonical_name": "The General",
         "value": {
           "catalyst": [
-            "Cool-headed",
-            "Unblinking",
-            "Deep-striking"
+            "Clear-headed in crisis",
+            "Picks the moment",
+            "Leads without shouting"
           ],
           "friction": [
-            "Chilling",
-            "Relentless",
-            "Suffocating"
+            "Goes cold",
+            "Hard on yourself",
+            "Never lets up"
           ]
         }
       },
@@ -638,14 +638,14 @@
         "canonical_name": "The Magistrate",
         "value": {
           "catalyst": [
-            "Clockwork",
-            "Composed",
-            "Far-sighted"
+            "Follows through",
+            "Earns trust slowly",
+            "Paces yourself"
           ],
           "friction": [
-            "Overcautious",
-            "Muted",
-            "On rails"
+            "Plays it safe",
+            "Waits for permission",
+            "Bites your tongue"
           ]
         }
       },
@@ -689,14 +689,14 @@
         "canonical_name": "The Twin",
         "value": {
           "catalyst": [
-            "Self-lit",
-            "Vivid",
-            "Undimmed"
+            "Self-starting",
+            "Side by side",
+            "Bounces back"
           ],
           "friction": [
-            "Too proud",
-            "Touchy",
-            "Unapproachable"
+            "Goes it alone",
+            "Won't be told",
+            "Walls people out"
           ]
         }
       },
@@ -706,14 +706,14 @@
         "canonical_name": "The Rival",
         "value": {
           "catalyst": [
-            "Spark-chasing",
-            "Fearless",
-            "Electrifying"
+            "Rises to it",
+            "Catches ambition",
+            "Goes all in"
           ],
           "friction": [
-            "Hot-headed",
-            "Resentful",
-            "Explosive"
+            "Hates to lose",
+            "Spends for show",
+            "Never off"
           ]
         }
       },

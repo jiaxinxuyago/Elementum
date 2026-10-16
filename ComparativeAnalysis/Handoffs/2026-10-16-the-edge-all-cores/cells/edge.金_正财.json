@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_正财 (catalyst)",
+ "facts": {
+  "persona": "The Steward (正财) on Metal",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Thorough",
+   "Trustworthy",
+   "Slow and steady"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Thorough",
+    "angles": {
+     "drive": "Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done.",
+     "cost_self": "The warranty claim that saved you eleven hundred dollars took four minutes, because the receipt, the serial number, and the original packaging were exactly where your system said they would be, three years on. The agent audibly recalibrated. Most claims, she said, die of missing paperwork. Yours arrived immortal.",
+     "cost_others": "People hand you the things that must not go wrong: the visa form, the wedding plan, the contract with the odd clause on page nine. You read every line, then read it again in the morning. The people who check your work expect a clean copy, and still look, because you would want them to."
+    }
+   },
+   {
+    "word": "Trustworthy",
+    "angles": {
+     "drive": "Your reliability is collateral-grade. People secure real decisions against your word: the deposit sent on your say-so, the key left under your mat, the password shared without ceremony. Trust accumulates around you the way interest accumulates, quietly, on never-broken terms.",
+     "cost_self": "Four families on your street hold spare keys at your house, a fact none of them coordinated. When the locksmith asked how you became the neighborhood vault, you could not name a starting event. There was no event. There were twenty years of nothing ever going missing.",
+     "cost_others": "Banks, in-laws, and employers all reach the same conclusion from different evidence: whatever is placed with you comes back intact and on time. References describe you with the specific warmth reserved for people who have held their money. The word they all use is safe, meant as treasure."
+    }
+   },
+   {
+    "word": "Slow and steady",
+    "angles": {
+     "drive": "Your wealth grows the way rust never sleeps, in your favor: small, constant, compounding additions that no single day notices. The percent saved, the skill deepened annually, the relationship maintained for decades: everything in your portfolio gains a little every quarter, forever.",
+     "cost_self": "The account you opened at twenty-two with automatic transfers you never adjusted crossed a threshold this year that startled even you. The statement arrived on an ordinary Tuesday. You had done nothing dramatic in twenty years, which was, the statement made clear, the entire strategy.",
+     "cost_others": "People ask your secret expecting a trick and receive simple math: start early, add always, subtract rarely. They leave disappointed and return years later, converted, showing you their own compounding curves. Your example has quietly seeded more retirement accounts than any advisor in your zip code."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Quick-eyed",
+   "Polished",
+   "Adventurous"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

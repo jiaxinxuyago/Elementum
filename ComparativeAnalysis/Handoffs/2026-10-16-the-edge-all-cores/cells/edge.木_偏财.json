@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/木_偏财 (catalyst)",
+ "facts": {
+  "persona": "The Horizon (偏财) on Wood",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Spots openings",
+   "Quick to start",
+   "Generous"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Spots openings",
+    "angles": {
+     "drive": "Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you spot the far chance sooner than the one in your hand. Spot the near one as carefully, because it is yours to take.",
+     "cost_self": "Where you spot openings is always past where you stand. Wanting freedom more than settling, you spot what is far instead of taking what is near. Take a near one too, because each far chance you spot is one at hand you let close.",
+     "cost_others": "You point out the openings you spot to anyone beside you. Because the far chance holds you more than the near one, you spot the next before finishing this with them. Finish this one first, since spotting the next costs them some of your attention."
+    }
+   },
+   {
+    "word": "Quick to start",
+    "angles": {
+     "drive": "Starting comes easily to you, often before you finish deciding. Moving is how you feel alive, so you start and learn rather than wait until you are sure. Keep starting freely, and let one start run long enough to teach you its ending.",
+     "cost_self": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start ahead of the rest you are owed. Stay for the slow middle too, since every quick start costs you the rest you never get.",
+     "cost_others": "Whatever you start has other people in it before the thing is real. You need movement more than certainty, so you start, move on and leave the middle open. Stay for one ending, because each start you share leaves them the middle to finish."
+    }
+   },
+   {
+    "word": "Generous",
+    "angles": {
+     "drive": "Generosity comes more easily to you than keeping, especially money. Being generous makes the world feel wide, so you give away a good month rather than save it. Give on, and hold one part back, because what you hold is what the generosity stands on.",
+     "cost_self": "Giving is your first answer to most things. Since being generous feels more like you than being careful, you give the extra ahead of putting any aside. Keep a part for yourself too, because the money you never keep is what your generosity costs you.",
+     "cost_others": "Whenever the people close to you run short, you are generous before being asked. Because being generous keeps you freer than being owed, you give rather than build anything shared. Let them be generous sometimes, since your giving takes their chance to be generous."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Patient builder",
+   "Saves first",
+   "Loyal"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

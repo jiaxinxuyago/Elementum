@@ -16,14 +16,14 @@
     "k2_functional": "Your energy burns bright and social: fed by activity, drained by standing in another’s shadow.",
     "adj_chips": {
       "catalyst": [
-        "Self-lit",
-        "Vivid",
-        "Undimmed"
+        "Self-starting",
+        "Side by side",
+        "Bounces back"
       ],
       "friction": [
-        "Too proud",
-        "Touchy",
-        "Unapproachable"
+        "Goes it alone",
+        "Won't be told",
+        "Walls people out"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Self-lit",
+            "word": "Self-starting",
             "angles": {
-              "drive": "Your fire needs no external ignition. Motivation, celebration, recovery: all generated onboard, on your schedule, from your own fuel. Gray seasons that dim everyone else find your output unchanged, and people eventually ask where the switch is. There is no switch. There is just you, on.",
-              "cost_self": "The whole team went flat after the funding fell through, and you came in Monday running on the same setting as always, working the plan, playing your music. By Wednesday two others had re-lit off your example. Nobody discussed it. Flame transfers that way, wordlessly.",
-              "cost_others": "People keep expecting your energy to trace back to something: the routine, the diet, the secret. They audit your habits and find nothing transferable. The light is simply factory-installed, and the people who winter near you have learned to stop explaining it and start standing closer."
+              "drive": "You start on your own, before anyone has agreed to join you. Needing nobody's go-ahead keeps you free, so you would rather start by yourself than wait for a yes. Let one start wait for company, since starting alone is how you finish alone.",
+              "cost_self": "Self-starting means you never wait, and never get to be helped. You start alone rather than reach out, since reaching out feels like admitting the start was too big. Ask once before you begin, because the help you skip comes out of your rest.",
+              "cost_others": "You give a peer your finished start, never your first. Starting without company keeps the idea yours, so you put your own go ahead of anyone's offer to join. Offer someone the rough start sometimes, since you take from them nothing bigger than the beginning."
             }
           },
           {
-            "word": "Vivid",
+            "word": "Side by side",
             "angles": {
-              "drive": "You are unmistakably yourself at all times, and it costs you nothing. The opinions, the laugh, the orange shirt: none of it adjusts to the audience, because none of it was built for an audience. People meet one version of you. There is only one.",
-              "cost_self": "At the new job you dressed, joked, and disagreed exactly as you had at the old one, from day one. No feeling-out period, no beige phase. Within a month the team could imitate you affectionately, which is what happens to people who are only themselves.",
-              "cost_others": "Nobody has ever described you as an acquired taste, because there is nothing gradual about you. People place you instantly and permanently. Years later, strangers from one meeting recall you in detail, while the adaptable people around you have blurred together in everyone’s memory."
+              "drive": "Side by side is where you are most at ease. Walking side by side matters more than walking out front, so you drop the lead as fast as you refuse to follow. Take the lead sometimes, since the chances out front never come to you.",
+              "cost_self": "You trust closeness only side by side, so you let a friend near after they match you. You would rather keep your footing than be held up, even when you need it. Be carried sometimes, since the nearness you skip only comes from leaning.",
+              "cost_others": "You keep every friendship side by side, nobody carried, nobody carrying. Being helped bothers you as much as being led, so you wave off the hand. Let a peer help for a change, since the chance to be needed is one you hold back."
             }
           },
           {
-            "word": "Undimmed",
+            "word": "Bounces back",
             "angles": {
-              "drive": "Setbacks that lower other people’s flames leave your wattage stubbornly constant. The rejection, the rough year, the public stumble: each arrives expecting to find a dimmer switch and finds instead a person already back at brightness, slightly annoyed at the interruption.",
-              "cost_self": "The restaurant failed in March, publicly, expensively, and by June you were catering weddings out of a rented kitchen with the same menu and better margins. People kept waiting for the humbled chapter. You skipped it, apparently unaware it was scheduled, and the food got better.",
-              "cost_others": "People measure resilience against you and quietly retire the word for themselves. Your relights after failure have become local legend: same heat, new venue, no visible scar tissue. Investors who lost money on your last thing keep asking about your next one. Light like yours audits well."
+              "drive": "You bounce back faster than most get over the surprise. You would far sooner be upright than seen down, so you stand again ahead of getting over it. Stay down a day longer sometimes, since bouncing this fast never lets the hurt finish.",
+              "cost_self": "Bouncing back is what you are proudest of and what costs most. You get up rather than stay down to be looked after, because needing help feels like losing twice. Accept the care once, since what you never let in is the price you pay.",
+              "cost_others": "Whenever you fall, you are back up before anyone can reach you. Standing on your own matters more than being helped up, so you leave people nothing to do. Give a friend one bad day, since being there is what you keep from them."
             }
           }
         ]
@@ -93,31 +93,273 @@
       "friction": {
         "ledger": [
           {
-            "word": "Too proud",
+            "word": "Goes it alone",
             "angles": {
-              "drive": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects.",
-              "cost_self": "The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust.",
-              "cost_others": "People edit their offers of help into compliments before approaching you, a translation service everyone runs and nobody acknowledges. Your worst seasons are visible only in hindsight, dated by gaps in the photo record. The support you never requested was available the whole time, warming nobody."
+              "drive": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. Keep in mind that you are faster alone and not lighter.",
+              "cost_self": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. You pay for every hand not taken out of your own rest, and your body remembers.",
+              "cost_others": "Whenever a job splits two ways, you carry both ends alone. Holding it yourself matters more than keeping a peer in the loop, so you leave them nothing to carry. Remember that you keep from them half the job and half of you."
             }
           },
           {
-            "word": "Touchy",
+            "word": "Won't be told",
             "angles": {
-              "drive": "Being treated as less than an equal lights you up faster than any insult. The talked-over sentence, the credit handed elsewhere, the tone that files you under junior: your heat answers before your judgment gets a vote. The issue is never the thing. It is the standing.",
-              "cost_self": "The contractor explained your own trade to you, slowly, and the meeting changed temperature. You corrected him once, precisely, at volume. He was right about one small detail and never got to say it, which cost you a week and won you nothing.",
-              "cost_others": "People around you learn the one rule quickly: never talk down to you, even by accident. Introductions get made carefully, titles included. The respect this enforces is real, and so is the caution, and the two arrive together, holding hands."
+              "drive": "Being told is the one thing you cannot take. Your own read feels more solid than any second opinion, so you hold it rather than test it. You stay hard to correct and easy to leave wrong, and the second is the one to remember.",
+              "cost_self": "Staying uncorrected is a rule you keep at a price. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You trade being right early for being right alone, remember, and the chance goes with it.",
+              "cost_others": "You decide a peer's correction is wrong before you hear it. Staying uncorrected matters more than staying in step, so you hand their advice back. Worth remembering, you take from them their one small way of being useful to you."
             }
           },
           {
-            "word": "Unapproachable",
+            "word": "Walls people out",
             "angles": {
-              "drive": "Your brightness reads as a closed door. The confidence, the speed, the shine: together they build a glare people squint at from a distance, assuming you need nothing and no one. Invitations to depth stopped arriving years ago. Everyone assumed someone else was providing it.",
-              "cost_self": "At your lowest week in years, the phone stayed silent, and you realized the silence was your own engineering: a decade of seeming complete had trained everyone out of checking. The one friend who did call apologized twice for intruding. You were, you said brightly, fine.",
-              "cost_others": "New people orbit you at a fixed radius, warmed but not close, sensing no docking port in all that light. The intimates you do have all report the same onboarding: years of proximity before the first real conversation. Most people, understandably, settle for the glow and drift."
+              "drive": "You wall people out without meaning to, by needing nothing from them. Matching you is rare, so you keep your own company rather than settle. You shut out the right ones as fast as the wrong ones, and that is worth remembering.",
+              "cost_self": "Walling people out keeps your standard safe and your evenings empty. You hold out for company that matches instead of company nearby, since near enough feels like settling. You only grow close to whoever sees you at less than your best, and keep forgetting it.",
+              "cost_others": "You put the wall up highest when someone gets closest. Being seen fine from far matters more than being seen tired up close, so you hold a peer there. Remember that you leave them a friend they can see and never quite reach."
             }
           }
         ]
       }
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Self-lit"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Vivid"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Undimmed"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Too proud"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Touchy"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Unapproachable"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Self-lit"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Your fire needs no external ignition. Motivation, celebration, recovery: all generated onboard, on your schedule, from your own fuel. Gray seasons that dim everyone else find your output unchanged, and people eventually ask where the switch is. There is no switch. There is just you, on."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The whole team went flat after the funding fell through, and you came in Monday running on the same setting as always, working the plan, playing your music. By Wednesday two others had re-lit off your example. Nobody discussed it. Flame transfers that way, wordlessly."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People keep expecting your energy to trace back to something: the routine, the diet, the secret. They audit your habits and find nothing transferable. The light is simply factory-installed, and the people who winter near you have learned to stop explaining it and start standing closer."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Vivid"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "You are unmistakably yourself at all times, and it costs you nothing. The opinions, the laugh, the orange shirt: none of it adjusts to the audience, because none of it was built for an audience. People meet one version of you. There is only one."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "At the new job you dressed, joked, and disagreed exactly as you had at the old one, from day one. No feeling-out period, no beige phase. Within a month the team could imitate you affectionately, which is what happens to people who are only themselves."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Nobody has ever described you as an acquired taste, because there is nothing gradual about you. People place you instantly and permanently. Years later, strangers from one meeting recall you in detail, while the adaptable people around you have blurred together in everyone’s memory."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Undimmed"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Setbacks that lower other people’s flames leave your wattage stubbornly constant. The rejection, the rough year, the public stumble: each arrives expecting to find a dimmer switch and finds instead a person already back at brightness, slightly annoyed at the interruption."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The restaurant failed in March, publicly, expensively, and by June you were catering weddings out of a rented kitchen with the same menu and better margins. People kept waiting for the humbled chapter. You skipped it, apparently unaware it was scheduled, and the food got better."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People measure resilience against you and quietly retire the word for themselves. Your relights after failure have become local legend: same heat, new venue, no visible scar tissue. Investors who lost money on your last thing keep asking about your next one. Light like yours audits well."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Too proud"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People edit their offers of help into compliments before approaching you, a translation service everyone runs and nobody acknowledges. Your worst seasons are visible only in hindsight, dated by gaps in the photo record. The support you never requested was available the whole time, warming nobody."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Touchy"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Being treated as less than an equal lights you up faster than any insult. The talked-over sentence, the credit handed elsewhere, the tone that files you under junior: your heat answers before your judgment gets a vote. The issue is never the thing. It is the standing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The contractor explained your own trade to you, slowly, and the meeting changed temperature. You corrected him once, precisely, at volume. He was right about one small detail and never got to say it, which cost you a week and won you nothing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People around you learn the one rule quickly: never talk down to you, even by accident. Introductions get made carefully, titles included. The respect this enforces is real, and so is the caution, and the two arrive together, holding hands."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Unapproachable"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Your brightness reads as a closed door. The confidence, the speed, the shine: together they build a glare people squint at from a distance, assuming you need nothing and no one. Invitations to depth stopped arriving years ago. Everyone assumed someone else was providing it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "At your lowest week in years, the phone stayed silent, and you realized the silence was your own engineering: a decade of seeming complete had trained everyone out of checking. The one friend who did call apologized twice for intruding. You were, you said brightly, fine."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "New people orbit you at a fixed radius, warmed but not close, sensing no docking port in all that light. The intimates you do have all report the same onboarding: years of proximity before the first real conversation. Most people, understandably, settle for the glow and drift."
+    }
+  ]
 }

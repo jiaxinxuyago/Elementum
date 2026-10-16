@@ -16,14 +16,14 @@
     "k2_functional": "You strike opportunities with timing others envy: measured approach, decisive cut.",
     "adj_chips": {
       "catalyst": [
-        "Quick-eyed",
-        "Polished",
-        "Adventurous"
+        "Spots the opening",
+        "Starts fast",
+        "Gives freely"
       ],
       "friction": [
-        "Mercenary",
-        "Deal-hungry",
-        "Restless"
+        "Always moving on",
+        "Spread thin",
+        "Spends it all"
       ]
     },
     "k2_domain_readings": {
@@ -65,27 +65,27 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Quick-eyed",
+            "word": "Spots the opening",
             "angles": {
-              "drive": "Value flashes at you from clutter. The underpriced watch in the junk tray, the mispriced listing at midnight, the talented kid in the noisy audition: your eye sorts faster than markets do, and the gap between seeing and everyone-else-seeing is where your margins live.",
-              "cost_self": "At the estate sale you walked past forty tables, lifted one ugly lamp, and paid nine dollars for what the auction house later confirmed at twelve hundred. The seller was happy. You were happy. The dealers who arrived an hour earlier still discuss the lamp.",
-              "cost_others": "Friends send you photos before buying anything used: the car, the sofa, the ring. Your calls come back in seconds, are rarely wrong, and have saved your circle a documented fortune. Somebody proposed paying you a retainer once. You declined and appraised their offer instead, accurately."
+              "drive": "You spot the opening when it is only a gap. You wake more for a far chance than a near one, and you spot a newer opening while you are claiming this one. You pay in openings taken halfway, and one taken whole repays you.",
+              "cost_self": "Spotting the opening comes easier than staying for it. You spot to feel ahead, and once the opening is yours you look out again rather than down into it. Take one spotted chance through to the money, since those you leave open close without you.",
+              "cost_others": "Whenever you spot an opening, you tell the partner building this one with you. You spot the next one ahead of this one out loud, and your partner hears the plan move. You cost them a week of building toward somewhere you spotted and left."
             }
           },
           {
-            "word": "Polished",
+            "word": "Starts fast",
             "angles": {
-              "drive": "Your presentation is machined smooth. The shoes, the phrasing, the follow-up note: every surface catches light, and doors open on the shine before your substance says a word. People assume expensive training. It is actually maintenance, done privately, to standards nobody imposed but you.",
-              "cost_self": "You were the least qualified person in the final round and the offer came to you, a fact the recruiter later explained with unusual honesty: everyone answered similarly, and you were the answer they could picture in front of clients tomorrow. The picture closed. It usually does.",
-              "cost_others": "People upgrade their own presentation after time around you, quietly: the better email sign-off, the pressed shirt, the pause before answering. You set finish standards without announcing any. Rough talent gets sent to you for polishing the way stones get sent to tumblers, and emerges bookable."
+              "drive": "Fast starts are your natural speed. You feel most alive in the first week, and this is why you start the next venture rather than sit through this one. Staying through one middle is where your fast start turns into money.",
+              "cost_self": "Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. You never get paid by what you keep starting over, and the money waits at the end you skip.",
+              "cost_others": "Starting fast means starting for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You hand them a venture already moving and leave them a month of catching up to a start they never made."
             }
           },
           {
-            "word": "Adventurous",
+            "word": "Gives freely",
             "angles": {
-              "drive": "New territory pulls you the way bargains pull collectors. The unlisted trail, the menu with no translation, the market nobody in your industry has priced: you go first, pay the entry costs cheerfully, and return with either treasure or material. Both spend well at dinner.",
-              "cost_self": "The detour that made the whole trip was your call: off the itinerary, down the unmarked coast road, into the town where the festival happened to be. The group still ranks that accidental evening above everything planned. Your navigation method, they note, was curiosity at full speed.",
-              "cost_others": "People position themselves near your plans the way surfers position near reefs, knowing something will break interestingly. Half your friendships were formed mid-adventure, welded by weather and wrong turns. The stories that open every reunion have one census result: you are in nearly all of them."
+              "drive": "Giving freely is what you do first with what comes in. You feel money belongs to whoever needs it next, and you give it on rather than set it aside. You give best from a kept share, and the unkept share is the price.",
+              "cost_self": "Keeping is harder for you than giving freely. You would rather give money on than sit with it, since holding still feels like being stuck. You end up with nothing saved for the year you need it, because you never give to yourself.",
+              "cost_others": "With the people around you, giving freely is how you stay close. You give to the newest friend more freely than to the oldest one, since newness is what moves you. You leave the ones at home with what is left after the giving."
             }
           }
         ]
@@ -93,31 +93,273 @@
       "friction": {
         "ledger": [
           {
-            "word": "Mercenary",
+            "word": "Always moving on",
             "angles": {
-              "drive": "Every relationship carries a price tag only you can see. The friendship with useful contacts, the favor with its invoice pre-drafted, the warmth calibrated to net worth: your attention follows value with an honesty that would be refreshing if anyone enjoyed being an asset.",
-              "cost_self": "Your outreach pattern got noticed by a friend between jobs: three unanswered months, then a same-day reply once his new title went live. He tested it twice more over the years. The correlation held. He keeps you in his phone under a label that is not your name.",
-              "cost_others": "People experience your interest as a market signal and check what changed in their circumstances when you warm up. The network you built this way is wide, efficient, and thin, and it prices you back: when your own value dipped two years ago, the inbox went quiet, symmetrically."
+              "drive": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay. Keep in mind that each venture you move on from cost you something to start.",
+              "cost_self": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You already know moving on leaves more money behind than new ventures bring in.",
+              "cost_others": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. Bear in mind that your partners start over each time you move on, and only you chose it."
             }
           },
           {
-            "word": "Deal-hungry",
+            "word": "Spread thin",
             "angles": {
-              "drive": "Every deal within reach gets reached for. The marketplace find, the estate sale, the friend selling below value: your hands close on opportunities by reflex, and your storage fills with the proof. Each grab was genuinely smart. The appetite behind them has never once said enough.",
-              "cost_self": "You came home with three watches from a sale you attended for one, each undervalued, each a story. The drawer of brilliant purchases now holds forty such stories. Half are still in their boxes, appreciating quietly, waiting for a selling day that never quite arrives.",
-              "cost_others": "Dealers greet you by name in three cities, and your family greets new packages with a specific face. Nobody doubts your eye. What they count, privately, is how much brilliance sits boxed in the garage, bought at the right price for reasons that expired on arrival."
+              "drive": "Spread thin is how you like it. You feel most at ease with several ventures open, and you spread yourself across all of them rather than into one. It is worth remembering that spread thin leaves you thin where you most wanted to be.",
+              "cost_self": "Spread thin, you never learn what you could do whole. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. Spread thin, you pay in rest never taken and the one venture that would have paid.",
+              "cost_others": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You signed each of them up for all of you, and spread thin you show up in slices."
             }
           },
           {
-            "word": "Restless",
+            "word": "Spends it all",
             "angles": {
-              "drive": "Stillness costs you more than motion. The good position gets abandoned at its plateau, the profitable arrangement gets renegotiated out of boredom, the sure thing loses to the next thing on novelty alone. Your escape velocity is magnificent. Your orbits never complete.",
-              "cost_self": "The role was perfect for eighteen months, which your resume confirms is your standard tenure, seven entries deep. The recruiter flagged the pattern gently. You explained each move persuasively, as always. She listened, nodded, and wrote one word on her pad. You have wondered since what it was.",
-              "cost_others": "People hesitate to build anything long on you, having watched the eighteen-month clock run before. Partnerships offer you sprints, landlords remember you, and your own accountant keeps your files in the active drawer permanently. The freedom is real. The compounding it keeps interrupting is also real."
+              "drive": "Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. It helps to remember that spending it all leaves you empty-handed for the next chance.",
+              "cost_self": "Deciding what to keep is harder than spending it all. You spend to feel money move rather than sit, since a sum held still feels like a missed chance. Spent out, you come up short for the one opening that asks for cash up front.",
+              "cost_others": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. The thing to remember is that you spend what your family counts on for later."
             }
           }
         ]
       }
     }
-  }
+  },
+  "$provenance": [
+    {
+      "field": "adj_chips.catalyst[0]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Quick-eyed"
+    },
+    {
+      "field": "adj_chips.catalyst[1]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Polished"
+    },
+    {
+      "field": "adj_chips.catalyst[2]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Adventurous"
+    },
+    {
+      "field": "adj_chips.friction[0]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Mercenary"
+    },
+    {
+      "field": "adj_chips.friction[1]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Deal-hungry"
+    },
+    {
+      "field": "adj_chips.friction[2]",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Restless"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Quick-eyed"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Value flashes at you from clutter. The underpriced watch in the junk tray, the mispriced listing at midnight, the talented kid in the noisy audition: your eye sorts faster than markets do, and the gap between seeing and everyone-else-seeing is where your margins live."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "At the estate sale you walked past forty tables, lifted one ugly lamp, and paid nine dollars for what the auction house later confirmed at twelve hundred. The seller was happy. You were happy. The dealers who arrived an hour earlier still discuss the lamp."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Friends send you photos before buying anything used: the car, the sofa, the ring. Your calls come back in seconds, are rarely wrong, and have saved your circle a documented fortune. Somebody proposed paying you a retainer once. You declined and appraised their offer instead, accurately."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Polished"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Your presentation is machined smooth. The shoes, the phrasing, the follow-up note: every surface catches light, and doors open on the shine before your substance says a word. People assume expensive training. It is actually maintenance, done privately, to standards nobody imposed but you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "You were the least qualified person in the final round and the offer came to you, a fact the recruiter later explained with unusual honesty: everyone answered similarly, and you were the answer they could picture in front of clients tomorrow. The picture closed. It usually does."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People upgrade their own presentation after time around you, quietly: the better email sign-off, the pressed shirt, the pause before answering. You set finish standards without announcing any. Rough talent gets sent to you for polishing the way stones get sent to tumblers, and emerges bookable."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Adventurous"
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "New territory pulls you the way bargains pull collectors. The unlisted trail, the menu with no translation, the market nobody in your industry has priced: you go first, pay the entry costs cheerfully, and return with either treasure or material. Both spend well at dinner."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The detour that made the whole trip was your call: off the itinerary, down the unmarked coast road, into the town where the festival happened to be. The group still ranks that accidental evening above everything planned. Your navigation method, they note, was curiosity at full speed."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People position themselves near your plans the way surfers position near reefs, knowing something will break interestingly. Half your friendships were formed mid-adventure, welded by weather and wrong turns. The stories that open every reunion have one census result: you are in nearly all of them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Mercenary"
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Every relationship carries a price tag only you can see. The friendship with useful contacts, the favor with its invoice pre-drafted, the warmth calibrated to net worth: your attention follows value with an honesty that would be refreshing if anyone enjoyed being an asset."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Your outreach pattern got noticed by a friend between jobs: three unanswered months, then a same-day reply once his new title went live. He tested it twice more over the years. The correlation held. He keeps you in his phone under a label that is not your name."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People experience your interest as a market signal and check what changed in their circumstances when you warm up. The network you built this way is wide, efficient, and thin, and it prices you back: when your own value dipped two years ago, the inbox went quiet, symmetrically."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Deal-hungry"
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Every deal within reach gets reached for. The marketplace find, the estate sale, the friend selling below value: your hands close on opportunities by reflex, and your storage fills with the proof. Each grab was genuinely smart. The appetite behind them has never once said enough."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "You came home with three watches from a sale you attended for one, each undervalued, each a story. The drawer of brilliant purchases now holds forty such stories. Half are still in their boxes, appreciating quietly, waiting for a selling day that never quite arrives."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Dealers greet you by name in three cities, and your family greets new packages with a specific face. Nobody doubts your eye. What they count, privately, is how much brilliance sits boxed in the garage, bought at the right price for reasons that expired on arrival."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Restless"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Stillness costs you more than motion. The good position gets abandoned at its plateau, the profitable arrangement gets renegotiated out of boredom, the sure thing loses to the next thing on novelty alone. Your escape velocity is magnificent. Your orbits never complete."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The role was perfect for eighteen months, which your resume confirms is your standard tenure, seven entries deep. The recruiter flagged the pattern gently. You explained each move persuasively, as always. She listened, nodded, and wrote one word on her pad. You have wondered since what it was."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_偏财.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "People hesitate to build anything long on you, having watched the eighteen-month clock run before. Partnerships offer you sprints, landlords remember you, and your own accountant keeps your files in the active drawer permanently. The freedom is real. The compounding it keeps interrupting is also real."
+    }
+  ]
 }

@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/木_偏印 (catalyst)",
+ "facts": {
+  "persona": "The Alchemist (偏印) on Wood",
+  "function": "mind",
+  "ruling_domains": [
+   "Mind",
+   "Growth",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Connects dots",
+   "Perceptive",
+   "Self-taught"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Connects dots",
+    "angles": {
+     "drive": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone.",
+     "cost_self": "The shipping fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
+     "cost_others": "Colleagues have learned that your reading list is a leading indicator of next quarter’s ideas, and that none of it will look relevant at the time. Mushrooms, medieval trade, birdsong. Six months later one of them is a strategy. Nobody can predict which."
+    }
+   },
+   {
+    "word": "Perceptive",
+    "angles": {
+     "drive": "You notice the understory, the layer below what people say. The pause before the yes, the meeting scheduled suspiciously early, the plant someone stopped watering. Your reads arrive quietly and early, and they are right often enough to be slightly unsettling.",
+     "cost_self": "You read a table in the time it takes to sit down. A changed tone, a pause a beat too long, a chair pulled slightly away, and you know something has shifted, usually before anyone says so.",
+     "cost_others": "Friends run their situations past you the way farmers check soil, quietly and before committing. You rarely volunteer what you see, which people mistake for not seeing. The few who ask directly get answers that reorganize their month, and they learn to ask again."
+    }
+   },
+   {
+    "word": "Self-taught",
+    "angles": {
+     "drive": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Diplomas confuse people about you. The knowledge is real and the paper does not exist.",
+     "cost_self": "You learned the trade from a decade-old forum thread, two library books, and four hundred evenings of trying, and the certified people at work now quietly ask you the hard questions. Someone asked where you studied. The honest answer, nowhere, ended the conversation strangely.",
+     "cost_others": "People cannot place your education, and it bothers the ones with framed diplomas. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Nurturing",
+   "Evergreen",
+   "Shade-giving"
+  ],
+  "bars": [
+   {
+    "key": "intuition",
+    "label": "Intuition"
+   },
+   {
+    "key": "stability",
+    "label": "Stability"
+   },
+   {
+    "key": "instinct_research",
+    "label": "Instinct · Research"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/土_正财 (catalyst)",
+ "facts": {
+  "persona": "The Steward (正财) on Earth",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Makes things last",
+   "Saves first",
+   "Loyal"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Makes things last",
+    "angles": {
+     "drive": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. You pay by living with the older version a while longer than you need.",
+     "cost_self": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Once fixing costs more than the thing is worth, letting it go gives you those hours back.",
+     "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. You make the rest last, and one new thing a year is theirs to pick."
+    }
+   },
+   {
+    "word": "Saves first",
+    "angles": {
+     "drive": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. Saving first suits you, and a few good things you were slow to buy are the price.",
+     "cost_self": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. If you spend one saved sum on something you want, the pleasure you put off stops being the price.",
+     "cost_others": "You save for the people you love ahead of spending on them. A safe future is the gift you trust, and you give them the cushion rather than the dinner. Spend part of it on them this year, because it was for them all along."
+    }
+   },
+   {
+    "word": "Loyal",
+    "angles": {
+     "drive": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. You stay a while past where it serves you, and that is the price of loyalty like yours.",
+     "cost_self": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Asking every so often costs you little, while loyalty to what does not love you back costs you closeness.",
+     "cost_others": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Being chosen again is a thing you give out loud, and you give it less than you mean to."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Far-sighted",
+   "Takes the chance",
+   "Shares the win"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

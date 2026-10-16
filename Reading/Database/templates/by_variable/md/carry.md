@@ -101,92 +101,92 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. |
-| `catalyst.remedy` | Learn, gather, befriend, store. |
-| `friction.clause` | The fire outgrows its hearth: every branch thrown on at once, heat spent in a rush. |
-| `friction.remedy` | Burn one pile at a time. |
-| `wide.clause` | You were given plenty of Wood, the fuel your light was waiting for. |
-| `wide.remedy` | Burn what you have gathered. Light one thing this week. |
-| `missing.clause` | No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow. |
-| `missing.remedy` | Borrow wood: learn, gather, store. |
-| `spared.clause` | Wood runs absent, and the fire keeps its size: one flame, one task, burned to the end. |
-| `spared.remedy` | Keep it. Gather only what you will burn. |
-| `thin.clause` | Wood runs thin and unwanted: a small pile, easily burned. |
-| `thin.remedy` | Burn it as it comes. |
-| `excess.clause` | Too much wood feeds the fire past its task: a blaze that eats a season's fuel overnight. |
-| `excess.remedy` | Bank the fire. Save half the wood. |
+| `catalyst.clause` | The fire has nothing long to feed on, a bright start that drops to embers. |
+| `catalyst.remedy` | Keep one slow book going beside the fast ones. |
+| `friction.clause` | The logs are stacked higher than the flame can climb. |
+| `friction.remedy` | Finish one small thing before you read another word. |
+| `wide.clause` | Wood is one thing you never run short of, the fuel laid ready for your fire. |
+| `wide.remedy` | Light something with it this week. |
+| `missing.clause` | Nothing dry to put on the fire, so it lives on quick scraps and goes out early. |
+| `missing.remedy` | Ask someone older for the long version once a week. |
+| `spared.clause` | No Wood to pile on, and the fire is brighter for the open air. |
+| `spared.remedy` | Act on what you already know. |
+| `thin.clause` | A little Wood in the fire, enough to catch and not enough to smother it. |
+| `thin.remedy` | Keep it small. One book at a time. |
+| `excess.clause` | Wood piled past use and the fire blazes past its task, all flare and no lasting warmth. |
+| `excess.remedy` | Take in less. Put one idea to work. |
 
 ### Fire core × Fire — the Core · 火_火
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The flame apologizes for shining: warmth dialed down, light waiting to be invited. |
-| `catalyst.remedy` | Take the stage you keep declining. |
-| `friction.clause` | The light crowds out the sky. |
-| `friction.remedy` | Stars are seen at night. |
-| `unrooted.clause` | The self stands without roots: light on will alone, warmth with no hearth under it. |
-| `unrooted.remedy` | Feed the self. Take the stage once. |
-| `excess.clause` | Strong fire wants earth: so much light nothing else is visible. |
-| `excess.remedy` | Settle some flame. Build something. |
-| `thin.clause` | Fire runs thin and still carries weight: little light, spent on everyone. |
-| `thin.remedy` | Spend it on fewer. |
+| `catalyst.clause` | the flame runs on its own fuel with no second light to borrow warmth from |
+| `catalyst.remedy` | Rest beside someone else's fire once a week. |
+| `friction.clause` | the blaze outgrows its hearth and every light nearby reads as a rival for the same air |
+| `friction.remedy` | Finish one thing before lighting the next. |
+| `unrooted.clause` | No fire of your own under the day: warmth borrowed from whoever stands nearest. |
+| `unrooted.remedy` | Build one small hearth: a habit that is only yours. |
+| `excess.clause` | Fire past its task: a blaze that needs ground under it before it has anything left to warm. |
+| `excess.remedy` | Give it earth: one slow and solid job, finished. |
+| `thin.clause` | Fire kept low, and rightly: a small flame that lights the day without eating it. |
+| `thin.remedy` | Keep it small. Feed it only what it asks. |
 
 ### Fire core × Earth — the Voice · 火_土
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The fire leaves no ash: heat and light, nothing banked, nothing built from the burning. |
-| `catalyst.remedy` | Teach it, write it, found it. |
-| `friction.clause` | Every spark gets pressed into a monument: output hardening faster than it can live. |
-| `friction.remedy` | Not every flame must found something. |
-| `wide.clause` | Earth is already here in plenty, the hearth that keeps what you burn. |
-| `wide.remedy` | Build one thing that will outlast the evening. |
-| `missing.clause` | No ash: heat and light, nothing built from the burning. |
-| `missing.remedy` | Borrow ground: teach it, write it down. |
-| `spared.clause` | Earth runs absent, and the fire stays light: nothing pressed into a monument. |
-| `spared.remedy` | Keep it light. Found only what you will tend. |
-| `thin.clause` | Earth runs thin and unwanted: a small hearth, easy to keep. |
-| `thin.remedy` | Keep the hearth small. |
-| `excess.clause` | Too much earth dims the fire: every spark pressed into form, output hardening while the light thins. |
-| `excess.remedy` | Let some fires just burn. |
+| `catalyst.clause` | The light has no ground to land on. |
+| `catalyst.remedy` | Finish one small thing and give it away. |
+| `friction.clause` | The ground piles up and dims the fire. |
+| `friction.remedy` | Make nothing for a week and take something in. |
+| `wide.clause` | You have plenty of Earth, the ground your fire was always meant to warm. |
+| `wide.remedy` | Build on it. Finish something that outlasts the week. |
+| `missing.clause` | The fire finds nothing to warm into shape, so what you feel stays feeling. |
+| `missing.remedy` | Take Earth on loan. Make one plain thing and hand it over. |
+| `spared.clause` | No Earth drawing on the fire, so the light keeps its warmth for itself. |
+| `spared.remedy` | Leave it. Spend your warmth where it feeds you. |
+| `thin.clause` | Only a little Earth on the fire, enough to make something without dimming the light. |
+| `thin.remedy` | Keep it small. One made thing at a time. |
+| `excess.clause` | So much Earth that the fire can hardly be seen, a light buried under what it made. |
+| `excess.remedy` | Clear the ash. Make less and rest more. |
 
 ### Fire core × Metal — the Drive · 火_金
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The forge stands cold: heat with nothing hard to work, charm with no asset under it. |
-| `catalyst.remedy` | Take on the difficult, valuable thing. |
-| `friction.clause` | The melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. |
-| `friction.remedy` | A forge needs objects, not only fire. |
-| `wide.clause` | You are well supplied with Metal, the hard thing your heat was made to work. |
-| `wide.remedy` | Work the hard, valuable thing in front of you. |
-| `missing.clause` | The forge stands empty: heat with nothing hard to work. |
-| `missing.remedy` | Borrow metal: one difficult, valuable thing. |
-| `spared.clause` | Metal runs absent, and nothing needs reworking: the fire warms instead of melts. |
-| `spared.remedy` | Keep it. Take hard work rarely, on purpose. |
-| `thin.clause` | Metal runs thin and unwanted: a small piece, easily finished. |
-| `thin.remedy` | Finish it and let it cool. |
-| `excess.clause` | Too much metal puts out the fire: more hard work than the heat can take, effort cooling. |
-| `excess.remedy` | Work less metal. Add wood. |
+| `catalyst.clause` | the fire has nothing hard to work: heat spent on open air, light with no iron under it |
+| `catalyst.remedy` | Pick one solid thing and finish it this month. |
+| `friction.clause` | the ore crowds the forge: more iron than the fire can soften, and the flame goes dim |
+| `friction.remedy` | Set most of it aside and feed the fire first. |
+| `wide.clause` | You have plenty of Metal, enough iron to keep the fire busy for years. |
+| `wide.remedy` | Work it. Shape one real thing at a time. |
+| `missing.clause` | No Metal in reach of the fire: light burning on the air, nothing hard to shape or keep. |
+| `missing.remedy` | Borrow iron: one order to fill, one thing handed over finished. |
+| `spared.clause` | No Metal to drain the fire, and the warmth stays with the one who carries it. |
+| `spared.remedy` | Leave it. Keep the fire fed before taking on more. |
+| `thin.clause` | Only a little Metal, one small piece of iron that the fire softens without going out. |
+| `thin.remedy` | Keep it small. Finish what is in hand first. |
+| `excess.clause` | Too much metal puts the fire out: more to shape than the heat can ever soften. |
+| `excess.remedy` | Put most of it down. Fuel the fire before the work. |
 
 ### Fire core × Water — the Duty · 火_水
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | Nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on. |
-| `catalyst.remedy` | Seek the cold reviewer, the quiet counsel. |
-| `friction.clause` | The rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. |
-| `friction.remedy` | A doused fire serves no one. |
-| `wide.clause` | There is no shortage of Water in you, the depth that keeps the burn honest. |
-| `wide.remedy` | Take the cold review. Let it steady you. |
-| `missing.clause` | Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on. |
-| `missing.remedy` | Borrow water: one cold reviewer. |
-| `spared.clause` | Water runs absent, and nothing douses the flame: no drizzle on the spark, no second-guessing. |
-| `spared.remedy` | Keep it. Choose one check you trust. |
-| `thin.clause` | Water runs thin and unwanted: a light rain, easy to shine through. |
-| `thin.remedy` | Shine through it. |
-| `excess.clause` | Weak fire drowns in strong water: checks past what the flame can survive, caution putting the light out. |
-| `excess.remedy` | Get out of the rain. Add wood. |
+| `catalyst.clause` | the blaze meets nothing that can stop it |
+| `catalyst.remedy` | Take on one deadline someone else sets. |
+| `friction.clause` | the rain keeps falling on a small flame |
+| `friction.remedy` | Keep one evening a week with nothing due. |
+| `wide.clause` | There is no shortage of Water in you, the rain that keeps the blaze its right size. |
+| `wide.remedy` | Use it. Take the deadline and meet it. |
+| `missing.clause` | No rain anywhere near the blaze: nothing outside you says when enough is enough. |
+| `missing.remedy` | Borrow rules: one person above you, one date you did not pick. |
+| `spared.clause` | No rain falls on this low flame, and better so: nothing is pressing the light out. |
+| `spared.remedy` | Nothing to ease here. Build the fire up first. |
+| `thin.clause` | Only a little rain reaches this flame, and the light holds its heat under it. |
+| `thin.remedy` | Keep it small. Take rules as they come, one at a time. |
+| `excess.clause` | Water this deep puts a low fire out: so many rules answered that the light itself goes dark. |
+| `excess.remedy` | Answer fewer demands. Add fuel before the next one. |
 
 ### Earth core × Wood — the Duty · 土_木
 

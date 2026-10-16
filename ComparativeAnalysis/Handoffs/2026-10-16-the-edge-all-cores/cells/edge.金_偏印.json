@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_偏印 (catalyst)",
+ "facts": {
+  "persona": "The Alchemist (偏印) on Metal",
+  "function": "mind",
+  "ruling_domains": [
+   "Mind",
+   "Growth",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Fine-tuned",
+   "Selective",
+   "Ingenious"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Fine-tuned",
+    "angles": {
+     "drive": "Your mind runs at tolerances other people cannot perceive. The half-degree shift in a colleague’s tone, the number that is slightly off in a healthy report, the note out of place: your instruments register it all, early, while the dashboard still shows green.",
+     "cost_self": "You flagged the contract’s odd clause at the first read, one comma-deep in page thirty, and the lawyer’s follow-up confirmed what your calibration had already priced: the clause was the deal. Everyone else had read the same page. Their instruments simply do not go that fine.",
+     "cost_others": "People run important things past you the way studios run final masters past the golden-eared engineer, for the flaws nobody else can hear. Your catches have saved deals, hires, and one marriage, each time via a detail everyone had seen and only you had registered."
+    }
+   },
+   {
+    "word": "Selective",
+    "angles": {
+     "drive": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer.",
+     "cost_self": "From forty applications you pulled three names in one evening, and the hire, made from your three, is now running the department. The panel spent two weeks reaching the shortlist you reached before dinner. Nobody can extract your criteria. You suspect they would not transfer.",
+     "cost_others": "People borrow your taste when their own stakes rise: which offer, which school, which surgeon. You answer with questions first, then a quiet ranking that later proves prophetic at rates that should embarrass the professionals involved. Your recommendations have a resale value. Everyone knows it but you."
+    }
+   },
+   {
+    "word": "Ingenious",
+    "angles": {
+     "drive": "Your solutions arrive from angles that were not on the diagram. The mechanism repurposed, the rule read sideways, the tool used against its manual: what you build works for reasons that take other people a whiteboard to reconstruct. Cleverness is common. Yours has machining marks.",
+     "cost_self": "The workshop door that defeated three contractors got fixed by you in an afternoon with a bicycle part and a magnet, a solution that has now held for four years and been photographed by two of the contractors. One asked permission to use it commercially. You waved it through.",
+     "cost_others": "Colleagues have stopped saying that will not work before your prototypes finish, having eaten the sentence too often. Your fixes look wrong until they run. The patent attorney who reviewed one, as a favor, sent back a note with a single underlined sentence: file this one."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Discreet",
+   "Preserving",
+   "Old soul"
+  ],
+  "bars": [
+   {
+    "key": "intuition",
+    "label": "Intuition"
+   },
+   {
+    "key": "stability",
+    "label": "Stability"
+   },
+   {
+    "key": "instinct_research",
+    "label": "Instinct · Research"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

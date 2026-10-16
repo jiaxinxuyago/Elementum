@@ -38,15 +38,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Quick-eyed · Polished · Adventurous |
-| `friction` | Mercenary · Deal-hungry · Restless |
+| `catalyst` | Spots the opening · Starts fast · Gives freely |
+| `friction` | Always moving on · Spread thin · Spends it all |
 
 ### The Steward · 金_正财
 
 | Field | Value |
 |---|---|
-| `catalyst` | Thorough · Trustworthy · Slow and steady |
-| `friction` | No-frills · Greedy · Won’t budge |
+| `catalyst` | Finishes things · Saves first · Keeps your word |
+| `friction` | Holds on tight · Plays it safe · Avoids change |
 
 ### The General · 金_七杀
 
@@ -94,15 +94,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Hearty · Settled · Providing |
-| `friction` | Coasting · Sluggish · Pampered |
+| `catalyst` | Gives first · Makes things last · Happy with enough |
+| `friction` | Never stops giving · Drifts along · Too soft |
 
 ### The Virtuoso · 土_伤官
 
 | Field | Value |
 |---|---|
-| `catalyst` | Ground-breaking · Deadpan · Unconventional |
-| `friction` | Contrarian · Eye-rolling · Quake-prone |
+| `catalyst` | Proves it · Speaks plainly · Rewrites the rules |
+| `friction` | Pushes back · Says too much · Overdoes it |
 
 ### The Horizon · 土_偏财
 
@@ -206,15 +206,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Connects dots · Perceptive · Self-taught |
-| `friction` | Tangled · Secretive · Reclusive |
+| `catalyst` | Senses it first · Self-taught · Sleeps on it |
+| `friction` | Thinks in circles · Keeps it in · Hides away |
 
 ### The Sage · 木_正印
 
 | Field | Value |
 |---|---|
-| `catalyst` | Nurturing · Evergreen · Shade-giving |
-| `friction` | Smothering · Clingy · Dormant |
+| `catalyst` | Passes it on · Takes people in · Gives it time |
+| `friction` | Helps too soon · Holds too tight · Stays put |
 
 ### The Twin · 水_比肩
 
@@ -262,15 +262,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Cool-headed · Unblinking · Deep-striking |
-| `friction` | Chilling · Relentless · Suffocating |
+| `catalyst` | Clear-headed in crisis · Picks the moment · Leads without shouting |
+| `friction` | Goes cold · Hard on yourself · Never lets up |
 
 ### The Magistrate · 水_正官
 
 | Field | Value |
 |---|---|
-| `catalyst` | Clockwork · Composed · Far-sighted |
-| `friction` | Overcautious · Muted · On rails |
+| `catalyst` | Follows through · Earns trust slowly · Paces yourself |
+| `friction` | Plays it safe · Waits for permission · Bites your tongue |
 
 ### The Alchemist · 水_偏印
 
@@ -290,15 +290,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Self-lit · Vivid · Undimmed |
-| `friction` | Too proud · Touchy · Unapproachable |
+| `catalyst` | Self-starting · Side by side · Bounces back |
+| `friction` | Goes it alone · Won't be told · Walls people out |
 
 ### The Rival · 火_劫财
 
 | Field | Value |
 |---|---|
-| `catalyst` | Spark-chasing · Fearless · Electrifying |
-| `friction` | Hot-headed · Resentful · Explosive |
+| `catalyst` | Rises to it · Catches ambition · Goes all in |
+| `friction` | Hates to lose · Spends for show · Never off |
 
 ### The Artisan · 火_食神
 

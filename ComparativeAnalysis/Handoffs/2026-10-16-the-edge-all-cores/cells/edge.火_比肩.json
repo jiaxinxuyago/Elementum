@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_比肩 (catalyst)",
+ "facts": {
+  "persona": "The Twin (比肩) on Fire",
+  "function": "body",
+  "ruling_domains": [
+   "Family",
+   "Growth",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Self-lit",
+   "Vivid",
+   "Undimmed"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Self-lit",
+    "angles": {
+     "drive": "Your fire needs no external ignition. Motivation, celebration, recovery: all generated onboard, on your schedule, from your own fuel. Gray seasons that dim everyone else find your output unchanged, and people eventually ask where the switch is. There is no switch. There is just you, on.",
+     "cost_self": "The whole team went flat after the funding fell through, and you came in Monday running on the same setting as always, working the plan, playing your music. By Wednesday two others had re-lit off your example. Nobody discussed it. Flame transfers that way, wordlessly.",
+     "cost_others": "People keep expecting your energy to trace back to something: the routine, the diet, the secret. They audit your habits and find nothing transferable. The light is simply factory-installed, and the people who winter near you have learned to stop explaining it and start standing closer."
+    }
+   },
+   {
+    "word": "Vivid",
+    "angles": {
+     "drive": "You are unmistakably yourself at all times, and it costs you nothing. The opinions, the laugh, the orange shirt: none of it adjusts to the audience, because none of it was built for an audience. People meet one version of you. There is only one.",
+     "cost_self": "At the new job you dressed, joked, and disagreed exactly as you had at the old one, from day one. No feeling-out period, no beige phase. Within a month the team could imitate you affectionately, which is what happens to people who are only themselves.",
+     "cost_others": "Nobody has ever described you as an acquired taste, because there is nothing gradual about you. People place you instantly and permanently. Years later, strangers from one meeting recall you in detail, while the adaptable people around you have blurred together in everyone’s memory."
+    }
+   },
+   {
+    "word": "Undimmed",
+    "angles": {
+     "drive": "Setbacks that lower other people’s flames leave your wattage stubbornly constant. The rejection, the rough year, the public stumble: each arrives expecting to find a dimmer switch and finds instead a person already back at brightness, slightly annoyed at the interruption.",
+     "cost_self": "The restaurant failed in March, publicly, expensively, and by June you were catering weddings out of a rented kitchen with the same menu and better margins. People kept waiting for the humbled chapter. You skipped it, apparently unaware it was scheduled, and the food got better.",
+     "cost_others": "People measure resilience against you and quietly retire the word for themselves. Your relights after failure have become local legend: same heat, new venue, no visible scar tissue. Investors who lost money on your last thing keep asking about your next one. Light like yours audits well."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Spark-chasing",
+   "Fearless",
+   "Electrifying"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

@@ -16,3 +16,7 @@ Five independent auditors, one per share, read every value and value_b against t
 
 For the rules, before batch 4: a mechanical check in the gate for the close-frame share per page (no frame on more than a third, no two rows alike) and the catalyst invitation stated as a blocking form in the register; both to be drafted as a backlog item for the owner's ruling.
 
+## Adopted (2026-10-16)
+
+On the owner's word ("Batch these for all, map these edge and remedy to stations and ship them live") the whole set landed: 406 leaves with provenance (`adoption-2026-10-16.json`), transcribed into `k2.js` and `pairs.js`, the twins rebuilt, the station check, the voice audit and the fixtures green, live on both links with the deploy of the landing commit.
+

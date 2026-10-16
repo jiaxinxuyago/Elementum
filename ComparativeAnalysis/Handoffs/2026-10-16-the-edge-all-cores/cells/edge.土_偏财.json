@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/土_偏财 (catalyst)",
+ "facts": {
+  "persona": "The Horizon (偏财) on Earth",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Far-sighted",
+   "Takes the chance",
+   "Shares the win"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Far-sighted",
+    "angles": {
+     "drive": "You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Looking far costs you some of what is near, and the trade favors you.",
+     "cost_self": "Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. You lose the opening at hand most, and one quick look before passing it keeps it.",
+     "cost_others": "You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. If you let them look with you, you see far enough for all of them."
+    }
+   },
+   {
+    "word": "Takes the chance",
+    "angles": {
+     "drive": "A chance within reach is hard to leave alone, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. You take them best with your eyes open, since some of them cost you.",
+     "cost_self": "Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. Take the next one with money you can spare, because the wrong ones cost what the sure ones kept.",
+     "cost_others": "You take the chance for everyone whose money sits beside yours. Moving feels safer to you than staying, and you put their calm into the venture with your own. You take it for them too, and choosing its size with them costs you nothing."
+    }
+   },
+   {
+    "word": "Shares the win",
+    "angles": {
+     "drive": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. You share because it is right for you, and the thinner cushion is the price.",
+     "cost_self": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. If you keep some of each win back, the lean year stops costing you.",
+     "cost_others": "You share each win rather than sit on it. Giving in bursts is your way of loving, and you hand them plenty one year and nothing the next. You do them more good sharing in a shape that lasts, since they come back."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Makes things last",
+   "Saves first",
+   "Loyal"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

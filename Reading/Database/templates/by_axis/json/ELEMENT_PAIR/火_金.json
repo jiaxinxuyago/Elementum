@@ -14,46 +14,46 @@
   "candidates": {
     "mechanism": {
       "classic": "精勝堅，故火勝金",
-      "base": "The refined prevails over the stubborn, and so fire works metal: in the furnace the hardest thing in the world goes soft, gives up its rock, and takes a finer form. Cold, metal refuses every argument. Heated, it flows like consent, and the smith reads the glow the way farmers read the sky.",
-      "catalyst_turn": "Run thin, the forge stands cold: heat with nothing hard to work, charm with no asset under it. Your chart asks you to work metal. Take on the difficult, valuable thing.",
-      "friction_turn": "Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire."
+      "base": "Fire works metal, the old texts say: the forge softens the blade, and iron that held one shape for ages gives it up inside the heat. The flame does not break the ore, it loosens it until the hammer can ask for a new line. Every fire wants something hard to work on, and every finished blade keeps the warmth that once made it move.",
+      "catalyst_turn": "With too little Metal, the fire has nothing hard to work: heat spent on open air, light with no iron under it. Pick one solid thing and finish it this month.",
+      "friction_turn": "With too much Metal, the ore crowds the forge: more iron than the fire can soften, and the flame goes dim under the load. Set most of it aside and feed the fire first."
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you.",
-      "definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.",
-      "advise_catalyst": "Difficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months.",
-      "advise_friction": "Finished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, you have more drive than work for it, and you chase the next opening more than you finish anything to keep.",
+      "definition_friction": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, you take on past your strength, and you start a new venture rather than keep the money and love already yours.",
+      "advise_catalyst": "Your drive outruns the places you can put it, and an opening only looked at becomes weight. Say yes to one opening and no to the next two out loud. Move a fixed sum into savings each month before you spend the rest. Take whoever you love somewhere new and close by. Empty your pockets into a jar each night.",
+      "advise_friction": "Seek Fire, the Body energy. Fire is warmth kept in: fuel, rest, the light that keeps itself lit before it works on anything. Let it hold what Metal spends. You say yes to more than you can finish, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
     },
-    "cta_verdict": "You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea.",
+    "cta_verdict": "Your drive goes wherever there is something hard to shape, and you finish more by picking one thing to provide for than by chasing every opening you spot.",
     "carry": {
       "catalyst": {
-        "clause": "The forge stands cold: heat with nothing hard to work, charm with no asset under it.",
-        "remedy": "Take on the difficult, valuable thing."
+        "clause": "the fire has nothing hard to work: heat spent on open air, light with no iron under it",
+        "remedy": "Pick one solid thing and finish it this month."
       },
       "friction": {
-        "clause": "The melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge.",
-        "remedy": "A forge needs objects, not only fire."
+        "clause": "the ore crowds the forge: more iron than the fire can soften, and the flame goes dim",
+        "remedy": "Set most of it aside and feed the fire first."
       },
       "wide": {
-        "clause": "You are well supplied with Metal, the hard thing your heat was made to work.",
-        "remedy": "Work the hard, valuable thing in front of you."
+        "clause": "You have plenty of Metal, enough iron to keep the fire busy for years.",
+        "remedy": "Work it. Shape one real thing at a time."
       },
       "missing": {
-        "clause": "The forge stands empty: heat with nothing hard to work.",
-        "remedy": "Borrow metal: one difficult, valuable thing."
+        "clause": "No Metal in reach of the fire: light burning on the air, nothing hard to shape or keep.",
+        "remedy": "Borrow iron: one order to fill, one thing handed over finished."
       },
       "spared": {
-        "clause": "Metal runs absent, and nothing needs reworking: the fire warms instead of melts.",
-        "remedy": "Keep it. Take hard work rarely, on purpose."
+        "clause": "No Metal to drain the fire, and the warmth stays with the one who carries it.",
+        "remedy": "Leave it. Keep the fire fed before taking on more."
       },
       "thin": {
-        "clause": "Metal runs thin and unwanted: a small piece, easily finished.",
-        "remedy": "Finish it and let it cool."
+        "clause": "Only a little Metal, one small piece of iron that the fire softens without going out.",
+        "remedy": "Keep it small. Finish what is in hand first."
       },
       "excess": {
-        "clause": "Too much metal puts out the fire: more hard work than the heat can take, effort cooling.",
-        "remedy": "Work less metal. Add wood."
+        "clause": "Too much metal puts the fire out: more to shape than the heat can ever soften.",
+        "remedy": "Put most of it down. Fuel the fire before the work."
       }
     }
   },
@@ -66,5 +66,183 @@
     },
     "retired_v3_definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you.\n\nEnergized by difficulty, bored by the rest. The gnarly client, the instrument nobody masters, the conversation everyone else postpones: these are where your focus arrives whole, and where the money and the meaning both live.\n\nDifficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months.",
     "retired_v3_definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.\n\nPerfectionist heat with nowhere new to go. The sent email gets reread, the closed deal gets second-guessed, the finished piece gets one more pass that makes it different rather than better.\n\nFinished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
-  }
+  },
+  "$provenance": [
+    {
+      "field": "mechanism.base",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The refined prevails over the stubborn, and so fire works metal: in the furnace the hardest thing in the world goes soft, gives up its rock, and takes a finer form. Cold, metal refuses every argument. Heated, it flows like consent, and the smith reads the glow the way farmers read the sky."
+    },
+    {
+      "field": "mechanism.catalyst_turn",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Run thin, the forge stands cold: heat with nothing hard to work, charm with no asset under it. Your chart asks you to work metal. Take on the difficult, valuable thing."
+    },
+    {
+      "field": "mechanism.friction_turn",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire."
+    },
+    {
+      "field": "carry.catalyst.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The forge stands cold: heat with nothing hard to work, charm with no asset under it."
+    },
+    {
+      "field": "carry.catalyst.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Take on the difficult, valuable thing."
+    },
+    {
+      "field": "carry.friction.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge."
+    },
+    {
+      "field": "carry.friction.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "A forge needs objects, not only fire."
+    },
+    {
+      "field": "carry.wide.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "You are well supplied with Metal, the hard thing your heat was made to work."
+    },
+    {
+      "field": "carry.wide.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Work the hard, valuable thing in front of you."
+    },
+    {
+      "field": "carry.missing.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "The forge stands empty: heat with nothing hard to work."
+    },
+    {
+      "field": "carry.missing.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Borrow metal: one difficult, valuable thing."
+    },
+    {
+      "field": "carry.spared.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Metal runs absent, and nothing needs reworking: the fire warms instead of melts."
+    },
+    {
+      "field": "carry.spared.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Keep it. Take hard work rarely, on purpose."
+    },
+    {
+      "field": "carry.thin.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Metal runs thin and unwanted: a small piece, easily finished."
+    },
+    {
+      "field": "carry.thin.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Finish it and let it cool."
+    },
+    {
+      "field": "carry.excess.clause",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Too much metal puts out the fire: more hard work than the heat can take, effort cooling."
+    },
+    {
+      "field": "carry.excess.remedy",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Work less metal. Add wood."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Difficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "Finished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
+    },
+    {
+      "field": "cta_verdict",
+      "adopted_from": "fable-v075-fire",
+      "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_金.fable-v075-fire.json",
+      "date": "2026-10-14",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
+      "replaced": "You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea."
+    }
+  ]
 }

@@ -69,10 +69,10 @@
         "canonical_name": "Fire core × Wood — the Root",
         "value": {
           "primary": "mind",
-          "definition_catalyst": "Wood is your Mind, and as a catalyst, it is how your fuel accumulates: skills stacked, books finished, friendships tended, people learned from over years. What you gather quietly becomes what you later spend as brilliance.",
-          "definition_friction": "Wood is your Mind, and as a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long.",
-          "advise_catalyst": "Brilliance is mostly patience with good storage. Keep one slow project that grows monthly, a course, a craft, a language, and refuse to rush it. Finish books. Choose one person to learn from properly this year and stay teachable.",
-          "advise_friction": "You start more than you finish. Finish the one project closest to done this month, as it is, and let it ship at eighty percent. Put every new course, book or plan on a list until that one is out. When the urge to start something rises, ask which unfinished thing it would replace."
+          "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, the intake falls behind the output, and you would rather puzzle an answer out alone than take one from a teacher. Either way you run dry before you feel taught.",
+          "definition_friction": "Your Mind is where the world soaks in and becomes yours. Growing is what Wood makes of it. As a friction, intake outruns use and you take in more than you decide, your odd way or the way home taught you. You keep what you know where nobody learns it.",
+          "advise_catalyst": "You give out faster than you take in, and running on your own fuel feels like energy until it runs out. Take a class in something nobody pays you for. Keep one evening a week with no plans. Ask someone older how they did it and listen past the first sentence. Nap before the next idea.",
+          "advise_friction": "Seek Metal, the Action energy. Metal is the finished line: it decides, it ships, it dates the thing you keep studying. Let it spend what Wood piles up. You keep learning past the point of use because being judged feels worse than being unready. Decide one open question by a written date. Hand someone one unfinished page."
         }
       },
       {
@@ -81,10 +81,10 @@
         "canonical_name": "Fire core × Fire — the Core",
         "value": {
           "primary": "body",
-          "definition_catalyst": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love.",
-          "definition_friction": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment.",
-          "advise_catalyst": "A light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns.",
-          "advise_friction": "Heat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle."
+          "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of rest. You pay for each bright day with lost rest.",
+          "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, it spills into contests, so you would sooner be right alone than level with a peer or double a stake than share it. You win most days and pay in company.",
+          "advise_catalyst": "You treat rest as a loss and company as a crutch. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day.",
+          "advise_friction": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first."
         }
       },
       {
@@ -93,10 +93,10 @@
         "canonical_name": "Fire core × Earth — the Voice",
         "value": {
           "primary": "expression",
-          "definition_catalyst": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on.",
-          "definition_friction": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins.",
-          "advise_catalyst": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining.",
-          "advise_friction": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
+          "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks, and you give quietly rather than show what you can do. You pay in kindness not given and talent not shown.",
+          "definition_friction": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, so you keep giving or keep proving instead of taking in. You run empty on comfort given and points already won.",
+          "advise_catalyst": "What you keep inside does not count as finished. Make one thing a week that someone else can hold. Say the opinion you have been sitting on to one person. Show a child or a friend something you know how to do. Write one line down before bed.",
+          "advise_friction": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for reading."
         }
       },
       {
@@ -105,10 +105,10 @@
         "canonical_name": "Fire core × Metal — the Drive",
         "value": {
           "primary": "action",
-          "definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you.",
-          "definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.",
-          "advise_catalyst": "Difficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months.",
-          "advise_friction": "Finished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
+          "definition_catalyst": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, you have more drive than work for it, and you chase the next opening more than you finish anything to keep.",
+          "definition_friction": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, you take on past your strength, and you start a new venture rather than keep the money and love already yours.",
+          "advise_catalyst": "Your drive outruns the places you can put it, and an opening only looked at becomes weight. Say yes to one opening and no to the next two out loud. Move a fixed sum into savings each month before you spend the rest. Take whoever you love somewhere new and close by. Empty your pockets into a jar each night.",
+          "advise_friction": "Seek Fire, the Body energy. Fire is warmth kept in: fuel, rest, the light that keeps itself lit before it works on anything. Let it hold what Metal spends. You say yes to more than you can finish, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
         }
       },
       {
@@ -117,10 +117,10 @@
         "canonical_name": "Fire core × Water — the Duty",
         "value": {
           "primary": "order",
-          "definition_catalyst": "Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt.",
-          "definition_friction": "Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would, and the hardest judge of the flame is you.",
-          "advise_catalyst": "Discipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes.",
-          "advise_friction": "Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later."
+          "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint, so you answer a crisis more than you build a career and let your rank slip.",
+          "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the pull turns inward, so you hold your rank rather than risk it on a crisis and pay in tests never taken.",
+          "advise_catalyst": "You do your best work with a date on it and someone waiting at the other end. Give each big plan a finish line before you start it. Once a month, hand a decision to someone whose call you will keep. Tell one person your deadline. Set a stop time before you begin.",
+          "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it hold what Water pours on you. You take every rule to heart faster than you take anything in. Learn one thing a week nobody asked you for. Give each new demand a night to sit."
         }
       },
       {

@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/水_正官 (catalyst)",
+ "facts": {
+  "persona": "The Magistrate (正官) on Water",
+  "function": "order",
+  "ruling_domains": [
+   "Family",
+   "Social",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Clockwork",
+   "Composed",
+   "Far-sighted"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Clockwork",
+    "angles": {
+     "drive": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam.",
+     "cost_self": "The morning sequence has not changed in nine years: the walk, the list, the first hard task before mail. Colleagues set meetings around it like farmers around rainfall. On the rare day the sequence breaks, three people ask if everything is alright. It usually is, by ten.",
+     "cost_others": "Systems you build keep working after you leave them, which people discover with surprise and gratitude. The handover document from your last role is still in use, word for word, four successors later. Somebody described inheriting your process as moving into a house with the plumbing already perfect."
+    }
+   },
+   {
+    "word": "Composed",
+    "angles": {
+     "drive": "You hold your shape under pressure the way deep water holds its level: visibly, reassuringly, without effort you would admit to. The difficult meeting, the public mistake, the audit: your surface stays level, and everyone in the region borrows a little of it.",
+     "cost_self": "When your name was mentioned unfairly in the all-hands, forty faces turned to watch yours. It gave them nothing: a nod, a note taken, a follow-up requested calmly afterward through channels. The retraction came within the week, and your pulse, whatever it did, did it privately.",
+     "cost_others": "People bring you bad news first, specifically, because your reaction never adds to the problem. The messengers relax mid-sentence, watching it land in still water. What it costs you to keep the surface level is a figure nobody has ever seen, which is the point of paying it."
+    }
+   },
+   {
+    "word": "Far-sighted",
+    "angles": {
+     "drive": "You plan at distances other people reserve for fantasy. The pension started at twenty-three, the succession question asked a decade early, the consequence spotted three moves before it forms. Present-tense people find it eerie. Future-tense people find it, eventually, in their interest.",
+     "cost_self": "The clause you insisted on in 2019, the one everyone called paranoid, activated last spring and saved the partnership six figures. You accepted the apologies without ceremony. The next contract contains four such clauses. Nobody calls them paranoid now. They call them yours.",
+     "cost_others": "People check plans against your horizon the way ships check charts, especially for the waters nobody has entered yet. Your predictions are unglamorous and mostly correct, delivered early enough to act on. The ones who listened compound the benefit. The ones who did not become examples."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Cool-headed",
+   "Unblinking",
+   "Deep-striking"
+  ],
+  "bars": [
+   {
+    "key": "leadership",
+    "label": "Leadership"
+   },
+   {
+    "key": "responsibility",
+    "label": "Responsibility"
+   },
+   {
+    "key": "flexible_structured",
+    "label": "Flexible · Structured"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

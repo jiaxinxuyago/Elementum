@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_伤官 (catalyst)",
+ "facts": {
+  "persona": "The Virtuoso (伤官) on Fire",
+  "function": "expression",
+  "ruling_domains": [
+   "Mind",
+   "Career",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Speaks up",
+   "Born performer",
+   "Thinks fast"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Speaks up",
+    "angles": {
+     "drive": "You speak up right where it has gone quiet. You hear silence as agreeing, and you say the unsaid thing rather than sit with it. Keep speaking up, and own its price, since you are remembered for the sentence more than the care behind it.",
+     "cost_self": "Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it ahead of checking the cost. You close a chance you wanted with a good line more often than you notice.",
+     "cost_others": "Before anyone asks you to, you speak up for them. Having a voice comes more naturally to you than lending one, so you take the floor ahead of handing it over. Leave the quieter ones the first word, because you speak up on their turn."
+    }
+   },
+   {
+    "word": "Born performer",
+    "angles": {
+     "drive": "You change in front of an audience, for the better. Being watched is where your focus comes from, and you perform a thing sooner than you practice it. You pay for that in private, since nothing you do alone feels quite finished.",
+     "cost_self": "Performing is how you make things count. Being seen doing it matters more to you than doing it, so you keep performing after the show ends. Give yourself an hour with no one watching, because the rest you skip is the price of the stage.",
+     "cost_others": "For the people you love, you perform as much as for a crowd. Company feels like a show to you, and your best lines come ahead of your plain self. Save them one plain evening, because you keep performing where you were asked for yourself."
+    }
+   },
+   {
+    "word": "Thinks fast",
+    "angles": {
+     "drive": "You think fastest with no time to think. You light up under pressure rather than freeze, so you answer on the spot instead of taking it away with you. You rarely give the slow answer its turn, and the speed is worth that most days.",
+     "cost_self": "Thinking fast is the talent you lean on hardest. You have the first answer before the question is finished, and you trust it ahead of the second. You spend the better answer you never waited for to keep the quickness.",
+     "cost_others": "Fast enough to finish other people's sentences, you usually do. Waiting for a thought to end feels like wasted time, and you answer ahead of hearing it all. Let the slow thought finish, because you cost the slower ones the rest of theirs."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Gives freely",
+   "Enjoys out loud",
+   "Effortless"
+  ],
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

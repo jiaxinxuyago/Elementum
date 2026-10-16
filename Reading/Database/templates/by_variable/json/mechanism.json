@@ -64,9 +64,9 @@
         "canonical_name": "Fire core × Wood — the Root",
         "value": {
           "classic": "木性溫暖，火伏其中",
-          "base": "Wood is warm by nature and fire sleeps inside it, the classics say, so every flame is fed by what was gathered before it: dry branches, stacked seasons, years of quiet growth surrendered to one bright hour. A fire is only ever as tall as its fuel. The blaze borrows everything from the forest.",
-          "catalyst_turn": "Run thin, the flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. Your chart asks you to stack wood. Learn, gather, befriend, store.",
-          "friction_turn": "Run heavy, the fire outgrows its hearth: every branch thrown on at once, heat spent in a rush, ash by morning. Burn one pile at a time."
+          "base": "Wood is what a fire is made of before it is a fire. The warmth sits in the grain of a dry branch for years, waiting on one spark, and once the branch takes the flame has its shape and its hours. Fed on green wood a fire smokes and sulks, and fed on seasoned wood it burns steady into the night and leaves embers hot enough to start the morning.",
+          "catalyst_turn": "With too little Wood, the fire has nothing long to feed on, a bright start that drops to embers before the work is done. Keep one slow book going beside the fast ones.",
+          "friction_turn": "With too much Wood, the logs are stacked higher than the flame can climb, so much to take in that nothing gets lit. Finish one small thing before you read another word."
         }
       },
       {
@@ -75,9 +75,9 @@
         "canonical_name": "Fire core × Fire — the Core",
         "value": {
           "classic": "同明相照，同類相求",
-          "base": "Lights answer one another, the old histories say: flame set beside flame makes one blaze, brighter than the sum of what was lit. There is no reaction between them, only reinforcement, heat agreeing with heat. Such doubling warms whole houses, and it can also empty the woodpile twice as fast.",
-          "catalyst_turn": "Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining.",
-          "friction_turn": "Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night."
+          "base": "Fire meets fire and neither has to fight the other for air, the old texts say: like lights shine on each other, and like seeks like. One flame set beside another takes nothing from it. Each feeds on what it was given and both grow brighter for the company, until the shared heat outruns what any single hearth can hold. Fire is the one element fed by its own kind and spent by it.",
+          "catalyst_turn": "With too little Fire, the flame runs on its own fuel with no second light to borrow warmth from, and the day costs more than it returns. Rest beside someone else's fire once a week.",
+          "friction_turn": "With too much Fire, the blaze outgrows its hearth and every light nearby reads as a rival for the same air. Warmth meant for company turns to glare. Finish one thing before lighting the next."
         }
       },
       {
@@ -86,9 +86,9 @@
         "canonical_name": "Fire core × Earth — the Voice",
         "value": {
           "classic": "木焚而成灰，灰即土也",
-          "base": "Fire gives birth to earth, the old texts say: what burns comes down at last as ash, and ash settles into soil. Nothing bright is lost entirely. The flame that danced for an evening feeds the field for a generation, warmth pressed down into ground that will hold seeds long after the light is gone.",
-          "catalyst_turn": "Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it.",
-          "friction_turn": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something."
+          "base": "Earth is what the fire leaves behind. Wood burns down to ash and ash is already soil, so every blaze ends as ground that something else can stand on. The flame spends itself and the field keeps the gift, dark and warm and ready for seed. What began as light becomes a place, and the place outlasts the fire that made it.",
+          "catalyst_turn": "With too little Earth, the light has no ground to land on. What you make stays heat and never becomes something a person can hold. Finish one small thing and give it away.",
+          "friction_turn": "With too much Earth, the ground piles up and dims the fire. So much gets made that the light goes dull under its own harvest. Make nothing for a week and take something in."
         }
       },
       {
@@ -97,9 +97,9 @@
         "canonical_name": "Fire core × Metal — the Drive",
         "value": {
           "classic": "精勝堅，故火勝金",
-          "base": "The refined prevails over the stubborn, and so fire works metal: in the furnace the hardest thing in the world goes soft, gives up its rock, and takes a finer form. Cold, metal refuses every argument. Heated, it flows like consent, and the smith reads the glow the way farmers read the sky.",
-          "catalyst_turn": "Run thin, the forge stands cold: heat with nothing hard to work, charm with no asset under it. Your chart asks you to work metal. Take on the difficult, valuable thing.",
-          "friction_turn": "Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire."
+          "base": "Fire works metal, the old texts say: the forge softens the blade, and iron that held one shape for ages gives it up inside the heat. The flame does not break the ore, it loosens it until the hammer can ask for a new line. Every fire wants something hard to work on, and every finished blade keeps the warmth that once made it move.",
+          "catalyst_turn": "With too little Metal, the fire has nothing hard to work: heat spent on open air, light with no iron under it. Pick one solid thing and finish it this month.",
+          "friction_turn": "With too much Metal, the ore crowds the forge: more iron than the fire can soften, and the flame goes dim under the load. Set most of it aside and feed the fire first."
         }
       },
       {
@@ -108,9 +108,9 @@
         "canonical_name": "Fire core × Water — the Duty",
         "value": {
           "classic": "眾勝寡，故水勝火",
-          "base": "The many prevail over the few, and so water commands fire: one flame meets the falling rain, and however bright it burned, the rain does not run out first. What survives learns to burn banked and careful. Rain is the blaze's schooling: after it, fire keeps its heat closer and wastes less light.",
-          "catalyst_turn": "Run thin, nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on. Your chart asks for water. Seek the cold reviewer, the quiet counsel.",
-          "friction_turn": "Run heavy, the rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one."
+          "base": "Water ends fire, the old texts say: the many overcome the few, and rain outlasts any blaze. Heat climbs and spreads wherever it finds fuel, and water is the one thing it cannot consume. Poured over a flame, water does not argue with it. It takes the heat into itself, rises as steam and leaves the ground cool and dark, and every fire that meets water learns its true size.",
+          "catalyst_turn": "With too little Water, the blaze meets nothing that can stop it: every plan catches, no fire gets put out, and the heat runs wherever it likes. Take on one deadline someone else sets.",
+          "friction_turn": "With too much Water, the rain keeps falling on a small flame: every rule weighs more than it should, and the light shrinks to stay lit. Keep one evening a week with nothing due."
         }
       },
       {

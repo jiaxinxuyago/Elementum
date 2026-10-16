@@ -13,11 +13,11 @@
 | **Wood core × Earth — the Drive** | 木_土 | You build to keep rather than to show, and the things you go after slowly are usually the ones that stay yours. |
 | **Wood core × Metal — the Duty** | 木_金 | You grow best with a line to grow against, and you finish more under someone else's rule than under your own plan. |
 | **Wood core × Water — the Root** | 木_水 | You understand things by soaking in them rather than studying them, and your best decisions come after a night's sleep instead of a second search. |
-| **Fire core × Wood — the Root** | 火_木 | Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden. |
-| **Fire core × Fire — the Core** | 火_火 | Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart. |
-| **Fire core × Earth — the Voice** | 火_土 | Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say. |
-| **Fire core × Metal — the Drive** | 火_金 | You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea. |
-| **Fire core × Water — the Duty** | 火_水 | Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night. |
+| **Fire core × Wood — the Root** | 火_木 | You learn by growing an idea rather than collecting it, so you understand late and keep it for good. |
+| **Fire core × Fire — the Core** | 火_火 | You are your own engine and your own company, so you do your best work beside an equal rather than under anyone's wing. |
+| **Fire core × Earth — the Voice** | 火_土 | You show what you feel by making something solid rather than saying it, and what you build tends to outlast the moment. |
+| **Fire core × Metal — the Drive** | 火_金 | Your drive goes wherever there is something hard to shape, and you finish more by picking one thing to provide for than by chasing every opening you spot. |
+| **Fire core × Water — the Duty** | 火_水 | You take a rule in quietly and keep it for years, and you would rather answer to a standard you chose than to a voice raised at you. |
 | **Earth core × Wood — the Duty** | 土_木 | Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together. |
 | **Earth core × Fire — the Root** | 土_火 | Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever. |
 | **Earth core × Earth — the Core** | 土_土 | Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were. |

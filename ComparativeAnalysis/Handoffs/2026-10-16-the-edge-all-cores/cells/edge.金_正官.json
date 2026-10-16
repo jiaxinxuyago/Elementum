@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_正官 (catalyst)",
+ "facts": {
+  "persona": "The Magistrate (正官) on Metal",
+  "function": "order",
+  "ruling_domains": [
+   "Family",
+   "Social",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Keeps your word",
+   "Does it properly",
+   "Earns your place"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Keeps your word",
+    "angles": {
+     "drive": "Keeping your word is the standard you hold above every other. A promise is a rule of your own making, and you would rather carry a hard yes to the end than give an easy maybe. Enjoy that, and let a few promises stay small.",
+     "cost_self": "Once given, your word outranks your own change of mind. You would rather be stuck in a promise than break it, and you remain long after it stopped fitting. Renegotiate one promise, since the way out you never take is what trust costs you.",
+     "cost_others": "The word you keep is the one you quietly expect from everyone. A promise binds you, and you hold people to their exact words ahead of their meaning. Give them the looser reading sometimes, because your word holds whether theirs is exact or not."
+    }
+   },
+   {
+    "word": "Does it properly",
+    "angles": {
+     "drive": "Doing it properly is the only way you know. A rule gives your effort a shape, and you follow the proper procedure rather than any shortcut. Enjoy that your work holds, and allow one job a draft instead of the proper version.",
+     "cost_self": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserved. Let one thing be good enough, since the hours you never get back are what properly costs you.",
+     "cost_others": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step ahead of thanks. Lead with thanks sometimes, because your standard holds whether the proper step comes first or last."
+    }
+   },
+   {
+    "word": "Earns your place",
+    "angles": {
+     "drive": "Earning your place counts for more with you than being handed one. Rank only feels earned when the rules gave it, and you choose the slow route rather than the shortcut. Keep earning it that way, and let yourself accept the occasional gift.",
+     "cost_self": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Ask once this year, since the step never asked for is what earning slowly costs you.",
+     "cost_others": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record ahead of the talent. Credit the talent too, since your eye for the earned sees half a person."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Takes charge",
+   "Thrives under pressure",
+   "Decides fast"
+  ],
+  "bars": [
+   {
+    "key": "leadership",
+    "label": "Leadership"
+   },
+   {
+    "key": "responsibility",
+    "label": "Responsibility"
+   },
+   {
+    "key": "flexible_structured",
+    "label": "Flexible · Structured"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

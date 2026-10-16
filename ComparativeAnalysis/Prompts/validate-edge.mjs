@@ -1,6 +1,6 @@
 // THE EDGE GATE (ELEMENT_GOD.edge v4, the door): checks a filled edge skeleton.
 //   node validate-edge.mjs <file.json|dir> [--json] [--quiet]
-// Blocking (v7): the claim exact · the lead 35-55 words in 3-6 sentences opening on You, with a short imperative, no It opener · the three domains equal to facts.ruling_domains in order · the metric one of the bars · the reader zone on the lead · a four-word run shared with any fact · "will never" · a virtue head or a capacity opener · "become a/an" · a lead repeated across the dir.
+// Blocking (v9): the lead two sentences of 30-45 words, the first on the fixed frame naming the three ruling domains in order, the second opening on It is with three clauses, no hedge, no assumed relative · the three domains equal to facts.ruling_domains in order · the metric one of the bars · the reader zone on the lead · a four-word run shared with any fact · "will never" · a virtue head or a capacity opener · "become a/an" · a lead repeated across the dir.
 import fs from 'node:fs'; import path from 'node:path';
 import { wc, zoneCheck, VIRTUE_HEAD } from './lib.mjs';
 const argv = process.argv.slice(2); const quiet = argv.includes('--quiet'); const asJson = argv.includes('--json');
@@ -13,13 +13,17 @@ export function validateEdge(file, seen = new Map()) {
   if (!v || typeof v !== 'object') return { file: path.basename(file), blocking: ['no value'], pass: false };
   if (v.claim != null && v.claim !== f.claim_fixed) B.push(`claim: expected "${f.claim_fixed}", got "${v.claim}"`);   // v8: the claim is derived in the app; checked only where an older set carries one
   const lead = String(v.lead || ''); const lw = wc(lead);
-  if (lw < 35 || lw > 55) B.push(`lead: ${lw} words (35-55)`);
-  const nS = (lead.match(/[.!?](\s|$)/g) || []).length; if (nS < 3 || nS > 6) B.push(`lead: ${nS} sentences (3-6)`);
-  if (!/^You\b/.test(lead)) B.push('lead: must open on You');
-  if (/\bIt (makes|is why|gives) you\b/.test(lead)) B.push('lead: an It opener');
-  const sents = lead.split(/(?<=[.!?])\s+/); if (!sents.some((x) => { const n = wc(x); return n >= 2 && n <= 4 && /^[A-Z][a-z]+\b/.test(x) && !/^(You|It|The|A|An)\b/.test(x); })) B.push('lead: no short imperative of two to four words');
-  if (VIRTUE_HEAD.test(lead.replace(/^You\s+(are|get|have)\s+/, '').trim())) B.push('lead: virtue head');
-  if (CAPACITY.test(lead)) B.push('lead: capacity opener');
+  if (lw < 30 || lw > 45) B.push(`lead: ${lw} words (30-45)`);
+  const sents = lead.split(/(?<=[.!?])\s+/).filter(Boolean); if (sents.length !== 2) B.push(`lead: ${sents.length} sentences (2)`);
+  const want0 = f.ruling_domains || []; const EN = { Wood: 'Wood', Fire: 'Fire', Earth: 'Earth', Metal: 'Metal', Water: 'Water' };
+  const frame = new RegExp(`^(Wood|Fire|Earth|Metal|Water) runs through your ${want0[0]?.toLowerCase()}, your ${want0[1]?.toLowerCase()} and your ${want0[2]?.toLowerCase()}\\.$`);
+  if (!frame.test(sents[0] || '')) B.push(`lead: the first sentence is not the frame "<Energy> runs through your ${want0.map((d) => d.toLowerCase()).join(', your ')}."`);
+  if (!/^It is\b/.test(sents[1] || '')) B.push('lead: the second sentence must open on It is');
+  if (((sents[1] || '').match(/, and /g) || []).length !== 1 || ((sents[1] || '').match(/,/g) || []).length < 2) B.push('lead: the second sentence wants three clauses, commas and a final ", and"');
+  if (/\b(may|might|perhaps|probably)\b/i.test(lead)) B.push('lead: a hedge');
+  if (/\b(your (sister|brother|mother|father|niece|nephew|daughter|son|grandmother|grandfather|wife|husband|kids|children))\b/i.test(lead)) B.push('lead: a relative the reader may not have');
+  if (/^[^.]*\b(you can|you are able|you tend to)\b/i.test(sents[1] || '')) B.push('lead: capacity opener');
+  if (VIRTUE_HEAD.test((sents[1] || '').replace(/^It is\s+/, '').trim())) B.push('lead: virtue head');
   if (/\bwill never\b/i.test(JSON.stringify(v))) B.push('a "will never" guarantee');
   if (/\bbecome an? \w+/i.test(JSON.stringify(v))) B.push('a field of work as an instruction ("become a")');
   if (/\d/.test(JSON.stringify(v))) B.push('a digit');

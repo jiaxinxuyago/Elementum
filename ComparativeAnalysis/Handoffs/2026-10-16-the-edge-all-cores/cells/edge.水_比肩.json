@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/水_比肩 (catalyst)",
+ "facts": {
+  "persona": "The Twin (比肩) on Water",
+  "function": "body",
+  "ruling_domains": [
+   "Family",
+   "Growth",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Self-contained",
+   "Even-keeled",
+   "Independent"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Self-contained",
+    "angles": {
+     "drive": "You carry your own weather system. Mood, motivation, entertainment, repair: all generated onboard, no docking required. Days alone pass without friction, and company, when chosen, is a preference rather than a need. People sense the completeness and find it either restful or quietly unnerving.",
+     "cost_self": "The solo trip lasted eighteen days, and the postcards home were cheerful and unnecessary. You ate well, navigated fine, and had exactly the conversations you wanted, several with strangers, none from loneliness. Friends asked if it got hard. It got, you said accurately, quiet.",
+     "cost_others": "People stop worrying about you early in the acquaintance, sensing a system that maintains itself. You are nobody’s project and nobody’s dependent. The freedom this grants your relationships is enormous and mostly invisible: everyone who stays, stays for the company, not the maintenance contract."
+    }
+   },
+   {
+    "word": "Even-keeled",
+    "angles": {
+     "drive": "Your levels hold. The praise does not inflate you, the setback does not sink you, and Tuesday-you is recognizably Friday-you. In a world of dramatic weather you are open water on a calm day, and people steer toward you when their own seas get theatrical.",
+     "cost_self": "You received the promotion email and the rejection letter in the same afternoon, and your dinner plans survived both unchanged. Your partner, telling the story later, could not remember which arrived first. Neither, notably, could you. The pasta was good. The week continued.",
+     "cost_others": "Teammates map their own volatility against your baseline, which has not moved in recorded history. In crises, the group instinctively checks your face before choosing a panic level, and your face declines to authorize one. Whole storms have been downgraded this way, repeatedly, to weather."
+    }
+   },
+   {
+    "word": "Independent",
+    "angles": {
+     "drive": "You run your own race in your own lane at your own pace, and the pace is honest. Opinions get consulted and then decided past, help gets accepted without becoming structure, and your decisions, right or wrong, are recognizably yours. Ownership like that is rarer than talent.",
+     "cost_self": "You moved cities without a committee, changed careers on your own research, and told everyone after the deposits were paid. The announcements were calm and finished. Family learned years ago that input windows open before decisions, briefly, and that missing them is missing them.",
+     "cost_others": "People trust your choices with a specific confidence: whatever happens, you chose it, and you will handle it. Nobody hedges around you or manages your expectations. The respect is quiet and total, and it was purchased with years of never once outsourcing the blame."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Competitive",
+   "Unafraid",
+   "Agile"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}

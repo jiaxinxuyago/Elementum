@@ -1,0 +1,77 @@
+{
+ "_generated_by": "REDACTED",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/木_劫财 (catalyst)",
+ "facts": {
+  "persona": "The Rival (劫财) on Wood",
+  "function": "body",
+  "ruling_domains": [
+   "Wealth",
+   "Social",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Goes first",
+   "Loves a race",
+   "Shares the risk"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Goes first",
+    "angles": {
+     "drive": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. You pay for going first in landings taken alone, and asking one person along changes that.",
+     "cost_self": "Where the signal has not come, you have already gone. Being the one who moved counts for more than being the one who was ready. You take the first loss alone each time you go, and one person told beforehand would halve it.",
+     "cost_others": "Plan or no plan, you go first and let the rest catch up. Moving matters more than agreeing, and that puts your people a step behind their own decision. Wait one beat, because going first takes from them the chance to choose it with you."
+    }
+   },
+   {
+    "word": "Loves a race",
+    "angles": {
+     "drive": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, and you can let one end without losing anything.",
+     "cost_self": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep. You pay for each race in sleep not made up, and sitting one out costs you nothing.",
+     "cost_others": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. You cost them the rest they came for by racing on, and letting one end returns it."
+    }
+   },
+   {
+    "word": "Shares the risk",
+    "angles": {
+     "drive": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. You share the risk ahead of sizing it, and one look is cheap.",
+     "cost_self": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. You share each loss as readily as each win, and the money not kept is your price.",
+     "cost_others": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Whenever you count them in unasked, you take a choice they never made, and one question first gives it back."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Does it alone",
+   "Sets own pace",
+   "Consistent"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": null
+  }
+ }
+}
