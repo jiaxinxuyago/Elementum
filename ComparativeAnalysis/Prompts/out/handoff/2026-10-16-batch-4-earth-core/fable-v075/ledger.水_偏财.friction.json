@@ -54,7 +54,7 @@
    },
    "value_b": {
     "word": "Leaves too soon",
-    "text": "Leaving early is the move you trust most. The far chance always looks better than the one you stand in, so you leave before the mess of finishing starts. Keep in mind that the finish is where a chance turns into something you keep."
+    "text": "Leaving early is the move you trust most. Because a mess makes you restless, you leave at its first sign instead of staying to clear it up. Keep in mind that the finish is where a chance turns into something you keep."
    }
   },
   "ledger[1]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Spends it fast",
-    "text": "You spend a windfall at the speed it arrived. Money that comes fast feels unreal to you, and spending it fast feels more honest than saving it. You learn each time it is gone that the quick kind keeps as well as the slow kind."
+    "text": "You spend a windfall at the speed it arrived. Money that comes fast feels unreal to you, and spending it fast feels more honest than saving it. Whatever comes fast, you spend before it ever becomes yours."
    },
    "value_b": {
     "word": "Spends it fast",
-    "text": "A windfall never stays long. Spending it feels like the natural end of lucky money, and you spend it while it is here instead of letting it sit. It helps to remember that money left sitting becomes savings, and savings get you through dry months."
+    "text": "You never let a windfall stay long. Spending it feels like the natural end of lucky money, and you spend it while it is here instead of letting it sit. Once it is spent, you have only a good story to show for the luck."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Spends it fast",
-    "text": "Spending fast proves the money was real. You spend the windfall ahead of keeping any, because keeping feels like waiting. Notice that you are left with the memory of it, and the first slow month bills you for the savings you never built."
+    "text": "Spending fast proves the money was real. You spend the windfall ahead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Spends it fast",
-    "text": "When money comes fast, you spend it before home sees it. You would rather treat everyone today than owe anyone tomorrow, and you hand home a gift instead of a plan. You know by now that the plan was what you were asked for."
+    "text": "Whenever money arrives fast, you spend it on the people around you. You would rather give everyone a good time today than keep some for the months after. The faster you spend it, the longer you leave home short through the lean months."
    }
   },
   "ledger[6]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Looks past people",
-    "text": "You look past whoever is in front of you toward what is next. You look at the next place more than at the person across the table, since distance feels safe. Bear in mind that your life happens at the table."
+    "text": "You look past whoever is in front of you toward what is next. You look at the next place more than at the person across the table, since distance feels safe. Each time you look past someone, you live a little ahead of your life."
    },
    "value_b": {
     "word": "Looks past people",
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Looks past people",
-    "text": "Looking past the near keeps hope alive. You would rather look far for who is coming than look at who is here. Know that you go without the closeness right beside you, and the far side never makes it up to you."
+    "text": "Looking past the near keeps hope alive. You would rather look far for who is coming than look at who is here. As long as you look past the near, you go without the closeness right beside you."
    }
   },
   "ledger[8]": {

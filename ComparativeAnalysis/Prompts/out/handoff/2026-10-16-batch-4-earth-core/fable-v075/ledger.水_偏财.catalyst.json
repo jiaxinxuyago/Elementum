@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Sees it coming",
-    "text": "You see a chance coming before it reaches you. Seeing ahead is where you feel alive, and you see the far chance more clearly than the near one. If you also see what is close, you reach the far one with full hands."
+    "text": "You see a chance coming before it reaches you. Since an early sight feels like a head start, you see the far chance more clearly than the near one. When you also see what sits close, you reach the far one with full hands."
    },
    "value_b": {
     "word": "Sees it coming",
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Sees it coming",
-    "text": "Seeing far is the part of you that never rests. You see the distant chance ahead of the one in reach, because distance is what sets you free. See the near one too, and you stop losing the chances that sit closest to you."
+    "text": "Seeing far is the part of you that never rests. You see the distant chance ahead of the one in reach, because distance is what sets you free. Win back the chances closing nearest you by seeing one in reach through to its end."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Sees it coming",
-    "text": "Whenever you see a new chance coming, you are half gone already. You see what is ahead more than who is beside you, and you hand them what is left. See them whole before you go, and you keep company for the next place."
+    "text": "Whenever you see a new chance coming, you are half gone already. You see what is ahead more than who is beside you, and you hand them what is left. See the people beside you first to give them all of you before you go."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Moves early",
-    "text": "You move early, before a chance is sure or anyone asks. You would rather move while a thing is open than stay until it is settled. Stay for the slow second half now and then, and you collect what moving early earned you."
+    "text": "You move early, before a chance is sure or anyone asks. You would rather move while a thing is open than stay until it is settled. Let one early move run to its settled end for the proof your timing was right."
    },
    "value_b": {
     "word": "Moves early",
-    "text": "The start of a venture is the part you love most. Moving early keeps you free, and you want freedom more than the payout at the end. Wait for one payout before you move on, and you learn what moving early is worth."
+    "text": "The start of a venture is the part you love most. Moving early keeps you free, and you want freedom more than the payout at the end. Stay with one early move until it is done, to see what your starts turn into."
    }
   },
   "ledger[4]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Shares freely",
-    "text": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Keep one part back when you share, because the next gift has to come from somewhere."
+    "text": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Set aside the part that keeps you generous before you share the rest."
    },
    "value_b": {
     "word": "Shares freely",
-    "text": "Whatever you have, you share before you count it. Open hands matter more than a full pocket to you, because what you keep never feels like yours. Share as you do, and let one gift a year be for you."
+    "text": "Whatever you have, you share before you count it. Open hands matter more than a full pocket to you, because what you keep never feels like yours. Share one gift a year with yourself the way you share with everyone else."
    }
   },
   "ledger[7]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Shares freely",
-    "text": "Sharing freely is how you stay light. You share the whole windfall ahead of keeping any, because holding money feels like holding your breath. Keep one share each time, and you stop paying for your giving out of your rent."
+    "text": "Sharing freely is how you stay light. You share the whole windfall ahead of keeping any, because holding money feels like holding your breath. Share all you like while you keep back the rent and the stake for your next venture."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Shares freely",
-    "text": "Whenever luck lands, you share it outward first. Sharing far feels like more than sharing at your own table, and you put your people last. Share at home first some of the time, and you keep the ones who carry you through lean months."
+    "text": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and you give home a feast with no steady part. Share some of it across the lean months as well as on the day it lands."
    }
   }
  }

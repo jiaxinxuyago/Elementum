@@ -54,7 +54,7 @@
    },
    "value_b": {
     "word": "Holds it back",
-    "text": "Holding money back is a habit you never question. An untouched pool feels like the point of earning, and you would rather watch it grow than let any go. Keep in mind that a pool you never drink from is doing nothing for you."
+    "text": "Holding money back never feels like a choice to you. An untouched account feels like the point of earning, and you would rather watch it grow than let any go. If you hold it all back, you have earned money that never works for you."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Holds it back",
-    "text": "Holding back keeps the floor from dropping. You hold money ahead of using it even on things you need, because spending feels like losing. It is worth remembering that held money buys nothing, and what you go without is what it was for."
+    "text": "Holding back keeps the floor from dropping. You hold money ahead of using it even on things you need, because a smaller balance feels like danger. You pay for holding back with the things you needed and never bought."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Holds it back",
-    "text": "Whenever someone close asks, you hold back first and help second. Keeping the pool whole comes ahead of the ask, and you hand them a yes with most of it held back. You already know that the smaller yes is what stays with them."
+    "text": "Even with the people closest to you, you hold back first and help second. You would rather keep the account whole than give the full amount asked. For each amount you hold back from them, you take a little ease out of the closeness."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Counts every cost",
-    "text": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs ahead of what it is worth. Bear in mind that the count is right and the dinner was the point."
+    "text": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs ahead of what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it."
    },
    "value_b": {
     "word": "Counts every cost",
-    "text": "Counting is how you decide what is allowed. You add up every cost before every pleasure, and you trust the total more than the wanting. It helps to remember that the total counts what a thing costs and leaves out what it gives."
+    "text": "Counting is how you decide what is allowed. You add up every cost before every pleasure, and you trust the total more than the wanting. You end up with a correct total and few of the things the money was for."
    }
   },
   "ledger[4]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Counts every cost",
-    "text": "Counting every cost reaches the people you love. You keep a running total of what each of them costs rather than brings, and you let it show in what you give back. Keep the other column too, since the one you read from shows."
+    "text": "With the people you love, you count every cost even on the time you share. You would rather count what an evening together costs than simply enjoy it. In the end, you hand them your company with the count in plain view."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Waits too long",
-    "text": "You wait for the sure thing, and it rarely comes on time. Being certain means more to you than being early, so you wait past the moment for yes. You know by now that waiting is a decision too, with its own price."
+    "text": "You wait for the sure thing, and it rarely comes on time. Being certain means more to you than being early, so you wait past the moment for yes. Waiting to be certain, you lose the years a yes would already have given you."
    },
    "value_b": {
     "word": "Waits too long",
-    "text": "Waiting too long is your most comfortable mistake. You would rather miss a chance than take a wrong one, and the ones you miss were mostly fine. It is easy to forget that the chances you wait out do not wait for you."
+    "text": "To you, waiting too long feels like the careful choice. You would rather miss a chance than take a wrong one, and the ones you miss were mostly fine. Sooner or later you find that waiting costs more than a wrong yes would."
    }
   },
   "ledger[7]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Waits too long",
-    "text": "When someone needs your answer, you wait until you are sure. You put being certain ahead of being there, and you leave whoever asked holding a question. Know that a late yes reaches most people as a no, whatever you meant by it."
+    "text": "No matter how close the person asking, you wait to be sure. You put being certain ahead of being there, and you leave them holding the question. By the time you stop waiting, you have already taken the time they needed to plan."
    }
   }
  }

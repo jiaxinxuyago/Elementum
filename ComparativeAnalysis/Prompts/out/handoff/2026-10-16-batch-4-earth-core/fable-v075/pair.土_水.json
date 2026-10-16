@@ -26,7 +26,7 @@
     "person": "fully third person, no \"you\", no function claim, no persona",
     "chemistry": "the field carries one word of the pair's chemistry somewhere in it: Water's material or Earth's (an arena noun, its verb, or either element as a common noun); the gate blocks without it; the base keeps its material by the ruling (the one surface with the arena, with the turns, the carries and the sign paragraph)"
    },
-   "value": "Earth tames water, the old texts say. The solid wins over the empty, and the bank decides where the river goes. Water on its own spreads thin and finds every low place. Held by ground, it gathers into a channel deep enough to carry boats and turn a mill. The river does not lose its power to the bank. It gains a direction, and the ground gains a field that drinks."
+   "value": "Earth tames water, the old texts say. The solid wins over the empty, and the bank decides where the river goes. Water on its own spreads thin and finds every low place. Held by ground, it gathers into a channel deep enough to carry boats and turn a mill. The river keeps all its force against the bank and comes away with a direction, while the ground gains a field that drinks."
   },
   "mechanism.catalyst_turn": {
    "spec": {
@@ -134,7 +134,7 @@
     "notes": "Water wanted and absent: borrow it"
    },
    "value": {
-    "clause": "No river between the banks, the ground ready and nothing moving across it.",
+    "clause": "The ground is dug and ready, and no spring rises to fill the well.",
     "remedy": "Borrow the flow from a partner, a deadline, one small venture."
    }
   },
@@ -215,7 +215,7 @@
     "tension": "one tension sentence: two of the reader's own acts or wants joined by or or while, a comparison hinge (rather than, instead of, ahead of, as much as, more than, better than), or whether … or not, in the plainest words on the page (the gate blocks a definition without it)",
     "notes": "the family's two drives in one either-or, one clause per persona with its cost, anchored in that persona's ruled domain words, in two or three sentences (no inventory, owner 2026-10-14, polish rule 4); the mechanism sentence is required in a definition and names Water and its volume in ordinary words. The v0.7.1 register (owner 2026-10-14, the seven blind rewrite iterations): the reader is the subject of every sentence and a third party only the object, the mechanism the reader's own need and never an external pressure (a third-person subject is noted, and blocked on the last sentence); the sentences progress on causal joints (because, so, since, which is why, which puts, whenever, until, over time, each time) and never turn (but, yet, however, the difficulty is, and then are blocked); no sentence over two commas (blocked); the last sentence is the line the reader keeps, at least eight words (blocked under), never a tag, an image or a line that exists to be quoted; no arena word (blade, edge, ore, forge, cut, mountain, steel, sword, sheath, knife, whetstone, mine, sharp, branch, orchard, prune, root, stream, river, flood, flame, heat, burn: blocked); the therapist winding down a session could say every sentence."
    },
-   "value": "Your Action is what you go and build, claim and provide. Water makes it flow, so what you claim comes by moving. As a catalyst, your Action is slow to begin. You keep what you saved rather than chase what you see, and the chance closes while you wait."
+   "value": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. As a catalyst, your Action is slow to begin. You keep what you saved rather than chase what you see, and the chance closes while you wait."
   },
   "function.definition_friction": {
    "spec": {

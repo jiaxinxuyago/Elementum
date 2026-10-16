@@ -50,11 +50,11 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. Spend one saved month on something you want, and you learn what the saving was for."
+    "text": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. If you spend one saved month on something you want, you learn what the saving was for."
    },
    "value_b": {
     "word": "Saves first",
-    "text": "Saving comes before wanting in you. A full account feels more like safety than a full life does, and you put the account first. Let one want through each season, since saving is only worth it when some of it gets spent."
+    "text": "Saving comes before wanting in you. A full account feels more like safety than a full life does, and you put the account first. Save toward one thing you want each season as well as toward feeling safe."
    }
   },
   "ledger[1]": {
@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "Saving first is how you stay calm. You put money away ahead of anything you would enjoy, because the account quiets your worry. Spend some on yourself every so often, and you stop paying for safety with the years you save for."
+    "text": "Your calm rests on saving first. You would rather save the money than spend it on yourself, because spending on you feels like a risk. Keep a small part for yourself until the saving stops costing you the years it was for."
    }
   },
   "ledger[2]": {
@@ -132,7 +132,7 @@
    },
    "value": {
     "word": "Saves first",
-    "text": "Saving first hands your people the careful version of you. You put the savings ahead of the trip together, and give them caution instead of company. Spend one saved thing on them a year, and you hand them the part of you the saving protects."
+    "text": "Saving first hands your people the careful version of you. You put the savings ahead of the trip together, and give them caution instead of company. Save for one good time together with the care you give the account."
    }
   },
   "ledger[3]": {
@@ -172,11 +172,11 @@
    },
    "value": {
     "word": "Sleeps on it",
-    "text": "You sleep on a decision before you make it, even a small one. Waiting a night costs nothing and hurrying costs plenty, so you would rather lose a day than a deal. Sleep on the big ones, and decide the small ones before bed."
+    "text": "You sleep on a decision before you make it, even a small one. Waiting a night costs nothing and hurrying costs plenty, so you would rather lose a day than a deal. When a choice is small, decide it today and keep your nights free."
    },
    "value_b": {
     "word": "Sleeps on it",
-    "text": "A night's sleep goes into every decision you make. Being sure matters more than being quick to you, and waiting is how you came by most of what is yours. Sleep on the big choices, and let one small yes out the same day."
+    "text": "A night's sleep goes into every decision you make. Being sure matters more than being quick to you, because a choice slept on feels like your own. Trust your first answer on one small thing a season to learn how often it was right."
    }
   },
   "ledger[4]": {
@@ -215,7 +215,7 @@
    },
    "value": {
     "word": "Sleeps on it",
-    "text": "Sleeping on a choice keeps your money safe, and it keeps you late. You wait a night ahead of saying yes, since being wrong costs more. Say yes the same day once a season, and you stop losing chances to whoever answered first."
+    "text": "Sleeping on a choice keeps your money safe, and it keeps you late. You wait a night ahead of saying yes, since being wrong costs more. Answer the choices you already know the same day, before sleeping on them costs you the better price."
    }
   },
   "ledger[5]": {
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Sleeps on it",
-    "text": "Whenever you sleep on an answer, you leave someone waiting overnight. You would rather be sure tomorrow than quick today, and you hand the wait to whoever asked. Give the small answers before bed, and you keep the patience of the people around you."
+    "text": "Whenever you sleep on an answer, you leave someone waiting overnight. You would rather be sure tomorrow than quick today, and you hand the wait to whoever asked. Tell the people close to you what day your answer comes while you sleep on it."
    }
   },
   "ledger[6]": {
@@ -294,11 +294,11 @@
    },
    "value": {
     "word": "Shows up daily",
-    "text": "You show up every day the same way, noticed or not. Being counted on matters more to you than being exciting, so you show up on dull days too. Show up for yourself once a week as well, since steady love needs a steady supply."
+    "text": "You show up every day the same way, noticed or not. You put being counted on ahead of being exciting, and you show up on dull days too. Show up for one plan of your own by giving it a set place in your week."
    },
    "value_b": {
     "word": "Shows up daily",
-    "text": "Showing up is the whole of how you love. You count an ordinary evening for more than flowers once a year. Bring flowers on an ordinary evening now and then, and you show up in a way that gets seen."
+    "text": "Showing up is the whole of how you love. You show up for the ordinary days rather than plan one grand evening, because big gestures feel like showing off. Plan one such evening a year for the fun that showing up every day leaves out."
    }
   },
   "ledger[7]": {
