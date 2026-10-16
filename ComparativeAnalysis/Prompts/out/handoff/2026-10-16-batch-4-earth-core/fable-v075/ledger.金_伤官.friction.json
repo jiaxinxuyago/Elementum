@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Too direct",
-    "text": "Direct is the only setting you have for the truth. A softened answer feels like a lie you would have to keep up, so you say it exactly rather than gently. Keep in mind that you can say it slowly, and slowly is kinder."
+    "text": "Direct is the only setting you have for the truth. A softened answer feels like a lie you would have to keep up, so you say it exactly rather than gently. Being this direct, you make a fair point land harder than it has to."
    },
    "value_b": {
     "word": "Too direct",
@@ -94,7 +94,7 @@
    },
    "value": {
     "word": "Too direct",
-    "text": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. You came for company and never the last word, and that is worth keeping in mind."
+    "text": "Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. Remember that you lose the company you came for each time you say it that directly."
    }
   },
   "ledger[2]": {
@@ -133,7 +133,7 @@
    },
    "value": {
     "word": "Too direct",
-    "text": "Whenever someone shows you something, you say what is wrong first. The exact reading feels more useful than the gentle one, and you hand it over direct and leave them the bruise. Remember that you lose nothing by giving the kinder order first."
+    "text": "You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you skip the soft words rather than soften the point. Keep in mind that you leave them a bruise the truth alone would not have left."
    }
   },
   "ledger[3]": {
@@ -173,7 +173,7 @@
    },
    "value": {
     "word": "Talks back",
-    "text": "Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. Remember that you can pick the rules worth fighting and let the rest stand."
+    "text": "Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. It helps to remember that you waste your talking back on small rules."
    },
    "value_b": {
     "word": "Talks back",
@@ -217,7 +217,7 @@
    },
    "value": {
     "word": "Talks back",
-    "text": "Each order carries some help, and talking back costs you that part. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them. Remember how much longer you keep a lesson than a win."
+    "text": "You talk back hardest to the people who correct you. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them. You win the back-and-forth and leave the lesson behind."
    }
   },
   "ledger[5]": {
@@ -256,7 +256,7 @@
    },
    "value": {
     "word": "Talks back",
-    "text": "Given an instruction, you talk back in front of everyone. Having the last word feels more like respect to you than taking the note, and you make whoever is above you defend a small request. Remember to save the talking back for what matters."
+    "text": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. Do not forget that you spend a little of their patience on every small fight."
    }
   },
   "ledger[6]": {
@@ -340,7 +340,7 @@
    },
    "value": {
     "word": "Grades people",
-    "text": "Grading someone costs you what they know. Since you would rather be right about a person than learn from them, you stop listening at the grade. You learn nothing from someone you have graded, and that is the part to remember."
+    "text": "Grading someone costs you what they know. Since you would rather be right about a person than learn from them, you stop listening at the grade. Bear in mind how little you learn from anyone once you have graded them."
    }
   },
   "ledger[8]": {
@@ -379,7 +379,7 @@
    },
    "value": {
     "word": "Grades people",
-    "text": "When you meet someone, you grade them before you greet them. The fast read feels more honest than the slow one, and you give people the grade instead of your attention. You leave them more chance to surprise you when you grade in pencil."
+    "text": "When you meet someone, you grade them before you greet them. The fast read feels more honest than the slow one, and you give people the grade instead of your attention. Try to remember how rarely you let someone change the first grade you gave."
    }
   }
  }

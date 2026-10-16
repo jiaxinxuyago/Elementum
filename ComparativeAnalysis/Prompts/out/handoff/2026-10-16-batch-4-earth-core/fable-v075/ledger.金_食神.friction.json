@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Hard to please",
-    "text": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole. Keep in mind that the standard is yours, and you can set it down for an evening."
+    "text": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole. Keep in mind that while you hold out for perfect, you go without being pleased at all."
    },
    "value_b": {
     "word": "Hard to please",
@@ -94,7 +94,7 @@
    },
    "value": {
     "word": "Hard to please",
-    "text": "Being hard to please costs you the pleasure. Since you see the wrong detail ahead of the whole, you spend the evening checking rather than enjoying. Keep in mind, you can fix the detail tomorrow and never get the evening back."
+    "text": "Being hard to please costs you the pleasure. Since your pleasure has to be earned, you hold it back rather than enjoy what is only nice. It is worth remembering that you never get back an evening spent waiting to be pleased."
    }
   },
   "ledger[2]": {
@@ -133,7 +133,7 @@
    },
    "value": {
     "word": "Hard to please",
-    "text": "Whenever someone makes you something, you see what is wrong first. Being pleased properly matters more to you than being pleased fast, and you hand back a correction where thanks were wanted. You owe them the thanks first, and the notes can wait a day."
+    "text": "You look a gift over before you let it please you. You put the flaw ahead of the thanks, and keep the maker from seeing you pleased. You give a maker the most when you let the gift please you first."
    }
   },
   "ledger[3]": {
@@ -217,7 +217,7 @@
    },
    "value": {
     "word": "Gives too much",
-    "text": "Giving too much leaves you with the least. Since a made thing only counts in someone's hands, you give the good one away rather than keep it, and your rest goes out with the gift. Remember that you made enough to keep one."
+    "text": "Giving too much leaves you with the least. Since keeping a thing for yourself feels mean to you, you give the best one away rather than hold on to it. It pays to remember how much rest you give away with every gift."
    }
   },
   "ledger[5]": {
@@ -256,7 +256,7 @@
    },
    "value": {
     "word": "Gives too much",
-    "text": "When you love someone, you make things before they ask. Doing it feels warmer than watching them struggle, and you give the finished thing instead of the chance to try. Remember that you keep the making from them, and the making is the best part."
+    "text": "When you love someone, you give before they ask. Giving feels more natural to you than keeping, so you hand over even the things you need. By giving it all, you leave the people you love no chance to look after you."
    }
   },
   "ledger[6]": {
@@ -296,11 +296,11 @@
    },
    "value": {
     "word": "Takes it easy",
-    "text": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. It is worth remembering that you chose the ease and can choose past it."
+    "text": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Bear in mind that you never try the hard parts while taking it easy."
    },
    "value_b": {
     "word": "Takes it easy",
-    "text": "You get by on what comes easily. Since your first version of anything is already good, you take it easy rather than push, and the second one never gets made. You know already that easy and finished are different things."
+    "text": "You get by on what comes easily. Since your first version of anything is already good, you take it easy rather than push. Whenever you stop at good, you leave the better version unmade."
    },
    "_trace": "the Artisan's drift and content: the first pass is good enough on Metal, so nothing new is taken in"
   },
@@ -379,7 +379,7 @@
    },
    "value": {
     "word": "Takes it easy",
-    "text": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. You teach by what you settle for, and that is worth remembering."
+    "text": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. Do not forget that you teach them by what you settle for."
    }
   }
  }
