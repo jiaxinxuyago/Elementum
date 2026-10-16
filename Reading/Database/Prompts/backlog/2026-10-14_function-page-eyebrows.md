@@ -58,3 +58,15 @@ Built: under THE CHARACTER, the pole restated as the glossary pill the catalogue
 
 The chip: kept, as the pill rather than a new chip, because the word it restates is tappable to its definition and the catalogue uses the same pill, so the reader meets one mark for one idea. The lines are templated derived vocabulary like the energy page's diagnosis, not an authored corpus; the owner rules them row by row here.
 
+Re-ruled the same hour: "Too long, it reads repetitive against the first paragraph. Try to use visual and design language to deliver this: whether we need to grow this energy or release it? It must echo with the remedy and edge section. Use it or seek it more?" Built: the seven lines retired; the row is the pole pill, a two-word verdict, and a direction mark in the bars' own visual language (one dot on a two-ended track between RELEASE and GROW, tinted by the pole):
+
+| Case | Verdict | Mark |
+|---|---|---|
+| catalyst, held in full | Use it. (echoes THE EDGE, "How to use Wood") | grow |
+| catalyst, running short | Seek more of it. | grow |
+| friction, carried in plenty | Release it. (echoes THE REMEDY, which sends the reader to seek another energy) | release |
+| friction, thin | Ease off it. | release |
+| the core, over | Channel it. | release |
+| the core, short | Refill it. | grow |
+| balanced | Keep the mix. | keep (the dot at the middle) |
+

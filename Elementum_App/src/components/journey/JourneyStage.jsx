@@ -785,14 +785,22 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         pole-specific, the state the chart gives this energy. */}
                     <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE CHARACTER</span>
                     {/* The opening (owner 2026-10-16): the pole as the glossary pill
-                        (a tap defines it), then one line of diagnosis and
-                        prescription in the manual's words, in place of the
-                        "Running thin / full" state. */}
+                        (a tap defines it), a two-word verdict echoing the edge
+                        (use it) or the remedy (release it), and a direction mark
+                        between release and grow, in place of the "Running thin /
+                        full" state and the longer manual line. */}
                     {(() => { const c = elScreen.fnReading.characterLine; const k = c.pole === 'catalyst' ? 'cat' : c.pole === 'friction' ? 'fric' : 'cond'; return (
-                      <p className="body2 el-charline">
+                      <div className={`el-charrow dir-${c.dir}`}>
                         <span className={`role-pill ${k} el-charpill`} role="button" tabIndex={0} onClick={() => setFnOpen(k)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setFnOpen(k); } }}>{k === 'cat' ? <><Use id="ar-up" />Catalyst</> : k === 'fric' ? <><Use id="ar-down" />Friction</> : <><Use id={m.condition === 'Overfueled' ? 'ic-charged' : m.condition === 'Underfueled' ? 'ic-receptive' : 'ic-balanced'} />{m.condition}</>}</span>
-                        {' '}{c.line}
-                      </p>
+                        <span className="serifline el-charverdict">{c.verdict}</span>
+                        {/* the direction mark: the bars' own language, one dot on a
+                            two-ended track between release and grow */}
+                        <span className="el-chardir" aria-label={c.dir === 'grow' ? 'Grow this energy' : c.dir === 'release' ? 'Release this energy' : 'Keep this energy as it is'}>
+                          <span className="el-chardir-lab">Release</span>
+                          <span className="el-chardir-track"><i /></span>
+                          <span className="el-chardir-lab">Grow</span>
+                        </span>
+                      </div>
                     ); })()}
                     {/* THE FUNCTION METRICS (owner 2026-10-14; REA_19): the
                         three bars open the character section; the bars lead

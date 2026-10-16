@@ -672,33 +672,26 @@ export function edgeOf(r) {
 // uses for it: the core runs over (Overfueled) or short (Underfueled); the
 // other energies run by volume, abundant reading heavy on the friction pole
 // and full on the catalyst pole.
-// THE CHARACTER's opening (owner 2026-10-16: "Running thin / Running full
-// are jargons"): the pole restated as the glossary pill, then one line of
-// diagnosis and prescription in the manual's own words (W_CAT / W_FRIC and
-// the Channel / Refill tails), sized to how much of the energy the chart
-// holds. Returns { pole, line }; pole is the pill ('catalyst' | 'friction' |
-// 'cond' for the core itself and for a balanced chart).
+// THE CHARACTER's opening (owner 2026-10-16, twice: "Running thin / full are
+// jargons", then "too long, it reads repetitive against the first paragraph
+// ... whether we need to grow this energy or release it ... Use it or seek it
+// more?"): the pole as the glossary pill, a two-word verdict that echoes the
+// section that follows (the edge says how to USE a catalyst; the remedy sends
+// a friction's reader to SEEK another energy, so this one is released), and a
+// direction mark (grow / release / keep) the bars' visual language draws.
+// Returns { pole, verdict, dir }.
 export function characterLine(r, condition) {
-  const n = r.name;
   if (r.isCore) {
-    return condition === 'Overfueled'
-      ? { pole: 'cond', line: `This is your core, and it runs over: more comes in than it burns. Channel it: aim the surplus, do not store it.` }
-      : condition === 'Underfueled'
-        ? { pole: 'cond', line: `This is your core, and it runs short: it burns more than it takes in. Refill it: take in what feeds you.` }
-        : { pole: 'cond', line: `This is your core, and it holds its measure. Nothing to force; keep the mix.` };
+    return condition === 'Overfueled' ? { pole: 'cond', verdict: 'Channel it.', dir: 'release' }
+      : condition === 'Underfueled' ? { pole: 'cond', verdict: 'Refill it.', dir: 'grow' }
+        : { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep' };
   }
-  if (condition === 'Balanced') return { pole: 'cond', line: `${n} runs balanced in you. Nothing here needs forcing; keep the mix.` };
+  if (condition === 'Balanced') return { pole: 'cond', verdict: 'Keep the mix.', dir: 'keep' };
   const v = r.volume || volumeOf(r.presence);
   const friction = r.role === 'friction' || r.coreExcess;
   const low = v === 'absent' || v === 'thin';
-  if (friction) {
-    return low
-      ? { pole: 'friction', line: `${n} is a friction for you even at this size: your core already carries weight, and more ${n} adds to it. Ease off it: aim what you have, add none.` }
-      : { pole: 'friction', line: `${n} is a friction for you, and you carry plenty of it: more than your core can spend. Channel it: give the extra a place to go, add none.` };
-  }
-  return low
-    ? { pole: 'catalyst', line: `${n} is a catalyst for you, and your chart runs short of it. Refill it: take in what feeds it, and the whole system moves easier.` }
-    : { pole: 'catalyst', line: `${n} is a catalyst for you, and you already hold it in full. Keep it fed: it is where your core's surplus goes to work.` };
+  if (friction) return low ? { pole: 'friction', verdict: 'Ease off it.', dir: 'release' } : { pole: 'friction', verdict: 'Release it.', dir: 'release' };
+  return low ? { pole: 'catalyst', verdict: 'Seek more of it.', dir: 'grow' } : { pole: 'catalyst', verdict: 'Use it.', dir: 'grow' };
 }
 
 const PRESENT = new Set(['present', 'abundant', 'dominant']);
