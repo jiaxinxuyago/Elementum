@@ -862,7 +862,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                       const friction = (m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess);
                       const edge = !friction ? elScreen.fnReading.edge : null; if (!edge) return null;
                       const bars = elScreen.fnReading.metrics?.bars || [];
-                      if (edge.claim) { const b = bars.find((x) => x.key === edge.metric); return (
+                      if (edge.items || edge.claim) { const b = bars.find((x) => x.key === edge.metric); return (
                         <>
                           <span className="laylab" style={{ display: 'block', marginTop: 16 }}>THE EDGE</span>
                           <div className={`el-remedybox pv-${elScreen.el} cat el-edgebox`}>

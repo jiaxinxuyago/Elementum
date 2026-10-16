@@ -211,8 +211,6 @@ for (const f of FIXTURES) {
 }
 
 console.log(fails ? `\n✗ ${fails} selection fixture failure(s)` : '\n✓ selection fixtures: every contract holds');
-process.exit(fails ? 1 : 0);
-
 // ---------------------------------------------------------------------------
 // THE EDGE (owner 2026-10-16, v8): every adopted edge carries exactly its god's
 // three ruling domains in the table's order, a lead of 35 to 55 words opening on
@@ -233,3 +231,4 @@ process.exit(fails ? 1 : 0);
   console.log(`  ${f.name}: ${n} edges checked`);
 }
 
+process.exit(fails ? 1 : 0);
