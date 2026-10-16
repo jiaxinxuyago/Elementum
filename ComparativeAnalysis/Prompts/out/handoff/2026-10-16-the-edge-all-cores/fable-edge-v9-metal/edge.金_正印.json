@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_正印 (catalyst)",
+ "facts": {
+  "persona": "The Sage (正印) on Metal",
+  "function": "mind",
+  "ruling_domains": [
+   "Family",
+   "Mind",
+   "Health"
+  ],
+  "catalyst_chips": [
+   "Discreet",
+   "Preserving",
+   "Old soul"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Discreet",
+    "angles": {
+     "drive": "What enters your keeping stays kept. The friend’s diagnosis, the colleague’s exit plans, the family matter: all held in a vault whose combination has never leaked once. In an age of broadcast, your silence is heirloom-grade, and people inventory it correctly as treasure.",
+     "cost_self": "When the merger rumors flew, three separate executives realized mid-panic that you had known for a month, from three separate confidences, and cross-referenced nothing to anyone. The realization traveled. Your calendar for the following quarter filled with meetings that began: this stays with you.",
+     "cost_others": "People sequence their disclosures by trust, and you are the first tier alone. Secrets travel toward you and stop, a fact widely relied upon and never once tested to failure. At every funeral, someone in the region is calmer because what they told you decades ago stayed told."
+    }
+   },
+   {
+    "word": "Preserving",
+    "angles": {
+     "drive": "You maintain what matters against time’s default. The friendship kept in service since school, the grandmother’s recipe made annually to spec, the archive of photos labeled while others let theirs dissolve into camera rolls. Loss takes a percentage from everyone else. You have negotiated a better rate.",
+     "cost_self": "The recipe was almost lost twice, once at the funeral, once in the flood, and both times your copy, made years earlier in careful ink, restored it to the family. There are now four copies, distributed by you, laminated. The dish appears every winter, tasting like continuity.",
+     "cost_others": "People discover what you have kept at exactly the moments loss becomes visible: the address that survived in your book, the photo of the shop before the fire, the friendship maintained through everyone’s chaotic decade. You are the family’s off-site backup, and everybody restores from you eventually."
+    }
+   },
+   {
+    "word": "Old soul",
+    "angles": {
+     "drive": "Your wisdom skips the podium. The insight arrives in a sentence near the end of the visit, unlabeled, easy to miss, and it reorganizes the listener’s month. You never claim the credit and rarely get it, which suits you. The advice was for using, never for citing.",
+     "cost_self": "Your niece made the decision everyone praised her for after one walk with you, during which, by her account, you mostly asked what she already thought and mentioned, once, what you had seen happen to hurry. The sentence took four seconds. She built two years on it.",
+     "cost_others": "People leave your company having reached their own conclusions, unaware of the machining. Years later they quote things you said as things they realized. You watch your sentences circulate under other people’s names, polished by use, and consider the ledger, on balance, exactly right."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Fine-tuned",
+   "Selective",
+   "Ingenious"
+  ],
+  "bars": [
+   {
+    "key": "intuition",
+    "label": "Intuition"
+   },
+   {
+    "key": "stability",
+    "label": "Stability"
+   },
+   {
+    "key": "instinct_research",
+    "label": "Instinct · Research"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Metal runs through your family, your mind and your health. It is the secret told at home that stops with you, the quiet line at the door built on for months, and the old habit that keeps you steady through a hard year.",
+    "domains": [
+     "Family",
+     "Mind",
+     "Health"
+    ],
+    "metric": "stability"
+   }
+  }
+ }
+}

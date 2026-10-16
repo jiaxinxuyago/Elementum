@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/土_食神 (catalyst)",
+ "facts": {
+  "persona": "The Artisan (食神) on Earth",
+  "function": "expression",
+  "ruling_domains": [
+   "Health",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Hearty",
+   "Settled",
+   "Providing"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Hearty",
+    "angles": {
+     "drive": "Your warmth arrives in generous portions, seconds included. The laugh is real and audible from the driveway, the welcome fills doorways, the food comes in servings that assume everyone is recovering from something. People leave your presence heavier and lighter at the same time.",
+     "cost_self": "You hugged the departing intern on their last day and they cried, then laughed, then took the container of food you had somehow prepared. It was a Tuesday. Nobody else had planned anything. Your goodbyes just come catered, and people remember them for years.",
+     "cost_others": "Invitations to yours get accepted at a suspiciously high rate, and everyone brings appetites they deny elsewhere. Around your table, people eat like their grandmother is watching and talk like nobody is. The recipe everyone asks for is not really the food."
+    }
+   },
+   {
+    "word": "Settled",
+    "angles": {
+     "drive": "Contentment came to you early and never left. The house is enough, the work is enough, tonight’s dinner is a small event worth savoring out loud. Peace like yours reads as quietly radical among people who are permanently mid-upgrade.",
+     "cost_self": "Friends came over agitated about the market, the election, the everything, and left three hours later having discussed tomatoes, an old trip, and a plan for soup. Nothing was solved. Everything was better. Your kitchen table does this reliably, and nobody can explain the mechanism.",
+     "cost_others": "People visit you the way city dwellers visit the countryside, to remember a pace exists. Your unhurried answers slow their breathing within the hour. More than one friend has admitted planning a hard week around a stop at your place, medicinal and unofficial."
+    }
+   },
+   {
+    "word": "Providing",
+    "angles": {
+     "drive": "Feeding people, literally and otherwise, is your default expression of everything. Congratulations come as dinner, condolences as casserole, apology as pie. Words were never quite your instrument. The stocked plate says what you mean with better grammar than you ever found.",
+     "cost_self": "When the neighbors’ kitchen flooded, dinner appeared on their porch for six consecutive nights, different each night, unsigned after the second. They knew. Everyone always knows. The seventh night they came to your door with the empty dishes and stayed three hours.",
+     "cost_others": "There is a shelf of your containers in half the kitchens on the street, waiting to be returned, in no hurry. People measure crises partly by whether your food showed up. It always has, which is why nobody around you fully believes in worst cases."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Ground-breaking",
+   "Deadpan",
+   "Unconventional"
+  ],
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Earth runs through your health, your family and your career. It is the full night of sleep after a day of giving, the welcome that reaches the door before you do, and the work you make slowly and well enough to be kept.",
+    "domains": [
+     "Health",
+     "Family",
+     "Career"
+    ],
+    "metric": "warmth"
+   }
+  }
+ }
+}

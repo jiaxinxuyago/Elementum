@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/土_比肩 (catalyst)",
+ "facts": {
+  "persona": "The Twin (比肩) on Earth",
+  "function": "body",
+  "ruling_domains": [
+   "Family",
+   "Growth",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Self-grounded",
+   "Solid",
+   "Dependable"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Self-grounded",
+    "angles": {
+     "drive": "Your footing comes from inside your own boundaries, and it shows in how little you sway. Trends pass, opinions swirl, someone is always panicking about something, and your center of gravity stays home. People push against you mostly to find out where solid feels like.",
+     "cost_self": "The whole friend group pivoted careers, diets, and philosophies twice in three years. You kept the trade, the routine, and the Sunday walk, cheerfully unmoved. Two of the pivots have since called you asking, sincerely, how a person just stays put and stays fine.",
+     "cost_others": "In any shaken group, eyes drift to you the way feet find level ground. You rarely offer opinions on the storm of the week. Your steadiness is the opinion, and several people have privately rebuilt their footing using yours as the reference."
+    }
+   },
+   {
+    "word": "Solid",
+    "angles": {
+     "drive": "What you build, physically or otherwise, holds weight without creaking. The shelf, the budget, the promise: over-engineered slightly, tested honestly, then trusted completely. Flash was never the point. Your work is the kind people lean on without checking first.",
+     "cost_self": "The deck you built a decade ago has hosted every family summer since, thirty people at its worst, without one loose board. The neighbor’s newer deck is on its second rebuild. He asked what you did differently. You said screws, and time, and meant both.",
+     "cost_others": "People assign you the load-bearing jobs without discussion, the way nobody discusses which wall holds the roof. Your name on a task closes the worry about it. It is a quiet reputation, never announced, visible mainly in what people no longer double-check."
+    }
+   },
+   {
+    "word": "Dependable",
+    "angles": {
+     "drive": "Showing up is your entire philosophy, executed daily. No dramatic rescues, just presence with a pattern: the shift covered, the call returned, the same seat at the same table when it matters. People build lives partly out of the certainty you supply.",
+     "cost_self": "When the funeral was announced, three people separately texted to ask if you were going, and all three booked their travel only after you said yes. You had not organized anything. Your attendance was the organization, the fixed point the plans grew around.",
+     "cost_others": "Your reliability has become infrastructure other people budget on. Bosses give you the accounts that cannot wobble, friends give you the spare keys, family gives you the passwords. Nobody remembers deciding this. Trust just pooled where the ground never shifted."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Ground-taking",
+   "Tenacious",
+   "Unbroken"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Earth runs through your family, your growth and your social life. It is the home that is still there when you get back, the slow change that holds once it comes, and the friends who find you where they left you.",
+    "domains": [
+     "Family",
+     "Growth",
+     "Social"
+    ],
+    "metric": "independence"
+   }
+  }
+ }
+}

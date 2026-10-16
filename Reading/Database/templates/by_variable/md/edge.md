@@ -4,13 +4,13 @@
 >
 > GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.
 
-## ELEMENT_GOD (×10)
+## ELEMENT_GOD (×50)
 
 ### The Twin · 金_比肩
 
 | Field | Value |
 |---|---|
-| `lead` | You judge yourself hardest in the weeks when nobody stands beside you. Keep some company. Call the person you trust most halfway through the bad week instead of after it. Pick one skill for this year and learn it with a friend at your own level, and let that friend watch you get it wrong. |
+| `lead` | Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the standard you keep raising in private, and the friend who walks beside people rather than ahead of them. |
 | `domains` | Family · Growth · Social |
 | `metric` | independence |
 
@@ -18,15 +18,143 @@
 
 | Field | Value |
 |---|---|
-| `lead` | You start racing the people you love when there is nobody worth beating. Find a contest. Put your name in for the job someone better is also after. Set a savings target for the year and race yourself to it, and ask the friend who always wins to show you how. |
+| `lead` | Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with someone ahead to catch. |
 | `domains` | Wealth · Social · Career |
 | `metric` | competitiveness |
+
+### The Artisan · 金_食神
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your health, your family and your career. It is the slow morning you give its whole length, the thing you made by hand that stays in the family, and the care in your work that shows before it gets named. |
+| `domains` | Health · Family · Career |
+| `metric` | warmth |
+
+### The Virtuoso · 金_伤官
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your mind, your career and your social life. It is the question that lets the air out of a bad idea, the show you build for a full hall and open when ready, and the line at dinner quoted for years. |
+| `domains` | Mind · Career · Social |
+| `metric` | creativity |
+
+### The Horizon · 金_偏财
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your wealth, your family and your social life. It is the deal you spot on the table before the price moves, the eye your family borrows ahead of a big purchase, and the friends made on the road off the map. |
+| `domains` | Wealth · Family · Social |
+| `metric` | ambition |
+
+### The Steward · 金_正财
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your wealth, your family and your career. It is the money you put aside each month that grows while you sleep, the home where the spare key is on its hook, and the small print you read right to the end. |
+| `domains` | Wealth · Family · Career |
+| `metric` | discipline |
+
+### The General · 金_七杀
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your career, your health and your growth. It is the hand on the wheel when the trouble starts, the second wind that comes once something real is on the line, and the quick call you make first and grow into after. |
+| `domains` | Career · Health · Growth |
+| `metric` | leadership |
+
+### The Magistrate · 金_正官
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your family, your social life and your career. It is the promise at home that stands when keeping it is hard, the friend who turns up at the agreed hour, and the rank you reach a proper step at a time. |
+| `domains` | Family · Social · Career |
+| `metric` | responsibility |
+
+### The Alchemist · 金_偏印
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your mind, your growth and your career. It is the wrong note you catch while the music sounds fine, the odd way of learning that only works for you, and the fix built from a spare part that holds for good. |
+| `domains` | Mind · Growth · Career |
+| `metric` | intuition |
+
+### The Sage · 金_正印
+
+| Field | Value |
+|---|---|
+| `lead` | Metal runs through your family, your mind and your health. It is the secret told at home that stops with you, the quiet line at the door built on for months, and the old habit that keeps you steady through a hard year. |
+| `domains` | Family · Mind · Health |
+| `metric` | stability |
+
+### The Twin · 土_比肩
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your family, your growth and your social life. It is the home that is still there when you get back, the slow change that holds once it comes, and the friends who find you where they left you. |
+| `domains` | Family · Growth · Social |
+| `metric` | independence |
+
+### The Rival · 土_劫财
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your wealth, your social life and your career. It is the deal you win by asking again, the race that makes a friend of the one you beat, and the seat at work you took before anyone offered it. |
+| `domains` | Wealth · Social · Career |
+| `metric` | competitiveness |
+
+### The Artisan · 土_食神
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your health, your family and your career. It is the full night of sleep after a day of giving, the welcome that reaches the door before you do, and the work you make slowly and well enough to be kept. |
+| `domains` | Health · Family · Career |
+| `metric` | warmth |
+
+### The Virtuoso · 土_伤官
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your mind, your career and your social life. It is the question you ask once everyone else has agreed, the odd way of working that is left alone because it works, and the dry joke that says the true thing out loud. |
+| `domains` | Mind · Career · Social |
+| `metric` | creativity |
+
+### The Horizon · 土_偏财
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your wealth, your family and your social life. It is the chance you spot long before it is near, the good year that becomes a gift for everyone at home, and the luck you hand round before it has cooled. |
+| `domains` | Wealth · Family · Social |
+| `metric` | ambition |
+
+### The Steward · 土_正财
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your wealth, your family and your career. It is the money put by that makes a bad month ordinary, the old chair you fix instead of buying a new one, and the job you stay at until it is finished properly. |
+| `domains` | Wealth · Family · Career |
+| `metric` | discipline |
+
+### The General · 土_七杀
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your career, your health and your growth. It is the hard call that lands on your desk and ends there, the pulse that stays slow while the day falls apart, and the long wait you sit through because you packed for it. |
+| `domains` | Career · Health · Growth |
+| `metric` | leadership |
+
+### The Magistrate · 土_正官
+
+| Field | Value |
+|---|---|
+| `lead` | Earth runs through your family, your social life and your career. It is the promise at home kept without a reminder, the decision both sides of an argument can live with, and the weight of the job that is yours because it never slips. |
+| `domains` | Family · Social · Career |
+| `metric` | responsibility |
 
 ### The Alchemist · 土_偏印
 
 | Field | Value |
 |---|---|
-| `lead` | You stop trusting your own read the longer it stays only in your head. Test the hunch. Write tonight's guess in a notebook with the date, to be checked in a month. Say the thing nobody said in the meeting out loud, and teach yourself one subject this winter that no class offers. |
+| `lead` | Earth runs through your mind, your growth and your career. It is the idea you work out in your own strange way, the skill you picked up alone and kept to yourself, and the meaning you catch under the words in a meeting. |
 | `domains` | Mind · Growth · Career |
 | `metric` | intuition |
 
@@ -34,15 +162,47 @@
 
 | Field | Value |
 |---|---|
-| `lead` | You end up as everyone's calm and go home with nobody to be yours. Take your own advice. Tell the oldest person who still calls you what is worrying you. Reread the book that taught you most, a chapter a week, and let a friend bring soup when you are the one in bed. |
+| `lead` | Earth runs through your family, your mind and your health. It is the calm the whole house borrows on a bad night, the answer you trust because it has worked before, and the quiet hour that puts you back together. |
 | `domains` | Family · Mind · Health |
 | `metric` | stability |
+
+### The Twin · 木_比肩
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your family, your growth and your social life. It is the calm of standing on your own at home, the pace you keep while the street sprints past, and the friend whose voice stays the same in every crowd. |
+| `domains` | Family · Growth · Social |
+| `metric` | independence |
+
+### The Rival · 木_劫财
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your wealth, your social life and your career. It is the win that feels bigger split in half, the lift you get when a friend pulls ahead, and the first move at work you make before the vote is in. |
+| `domains` | Wealth · Social · Career |
+| `metric` | competitiveness |
+
+### The Artisan · 木_食神
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your health, your family and your career. It is the slow pulse a bad day cannot speed up, the lamp left on for whoever comes home late, and the work that arrives finished while the loud ones still talk. |
+| `domains` | Health · Family · Career |
+| `metric` | warmth |
+
+### The Virtuoso · 木_伤官
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your mind, your career and your social life. It is the idea from nowhere that turns out right, the brief you grow past before anyone signs off, and the rough true thing you say that friends repeat for weeks. |
+| `domains` | Mind · Career · Social |
+| `metric` | creativity |
 
 ### The Horizon · 木_偏财
 
 | Field | Value |
 |---|---|
-| `lead` | You look at flights at midnight whenever the week has handed you nothing to start. Begin close to home. Book the spring trip with an old friend before the price moves. Put part of this month's extra into a thing you keep, and invite the couple next door over before you know them well. |
+| `lead` | Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that opens before anyone asks, and the trip your friends still weigh while you are already packed. |
 | `domains` | Wealth · Family · Social |
 | `metric` | ambition |
 
@@ -50,15 +210,63 @@
 
 | Field | Value |
 |---|---|
-| `lead` | You count the savings again on the nights nothing is being built. Build something slow. Open the deposit account and move the first amount across the day you are paid. Take the long job at work nobody wants to see through, and keep the Sunday call to whoever raised you going for a year. |
+| `lead` | Wood runs through your wealth, your family and your career. It is the savings that carry you past a slow month, the people you show up for on ordinary days, and the long job you keep after the quick starters quit. |
 | `domains` | Wealth · Family · Career |
 | `metric` | discipline |
+
+### The General · 木_七杀
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your career, your health and your growth. It is the hard week at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse. |
+| `domains` | Career · Health · Growth |
+| `metric` | leadership |
+
+### The Magistrate · 木_正官
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your family, your social life and your career. It is the word you give at home that everyone leans on, the handshake friends trust more than the paperwork, and the long way up at work while others look for shortcuts. |
+| `domains` | Family · Social · Career |
+| `metric` | responsibility |
+
+### The Alchemist · 木_偏印
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your mind, your growth and your career. It is the far-apart things in your head that fit together, the next you that slips in by a side door, and the shift at work you feel before anyone says it. |
+| `domains` | Mind · Growth · Career |
+| `metric` | intuition |
+
+### The Sage · 木_正印
+
+| Field | Value |
+|---|---|
+| `lead` | Wood runs through your family, your mind and your health. It is the patience you keep for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you. |
+| `domains` | Family · Mind · Health |
+| `metric` | stability |
+
+### The Twin · 水_比肩
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your family, your growth and your social life. It is the same you who comes home on good days and bad, the choice you make alone and stand by either way, and the friends you choose when being alone already suited you. |
+| `domains` | Family · Growth · Social |
+| `metric` | independence |
+
+### The Rival · 水_劫财
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your wealth, your social life and your career. It is the money you chase harder once someone else wants it, the dare your friends already know you will take, and the new way through you find when the old one closes. |
+| `domains` | Wealth · Social · Career |
+| `metric` | competitiveness |
 
 ### The Artisan · 水_食神
 
 | Field | Value |
 |---|---|
-| `lead` | You get short with everyone at home on the days the warmth has had nowhere to land. Hand it over. Make someone younger a birthday card by hand, with more than your name inside. Show a colleague the half-done draft on Friday, and walk beside someone older on Sunday while they do the talking. |
+| `lead` | Water runs through your health, your family and your career. It is the nap you let yourself take without a reason, the warmth at home that nobody has to earn, and the work you make with a light hand and all your care. |
 | `domains` | Health · Family · Career |
 | `metric` | warmth |
 
@@ -66,15 +274,111 @@
 
 | Field | Value |
 |---|---|
-| `lead` | You have the whole argument in the shower with nobody there to hear it. Say it out loud. Pitch the strange version of the plan at this week's meeting. Send the joke to the group chat before it goes stale, and text the best line you said to nobody to a friend tonight. |
+| `lead` | Water runs through your mind, your career and your social life. It is the answer already in you before the question ends, the version of the job only you would think of, and the true thing you say out loud while others are still deciding. |
 | `domains` | Mind · Career · Social |
 | `metric` | creativity |
+
+### The Horizon · 水_偏财
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your wealth, your family and your social life. It is the chance from far away that still pays off, the home that comes with you to whatever city is next, and the stranger who sits down beside you and leaves a friend. |
+| `domains` | Wealth · Family · Social |
+| `metric` | ambition |
+
+### The Steward · 水_正财
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your wealth, your family and your career. It is the savings that sit untouched until the bad month comes, the home where the lights stay on without anyone thinking about it, and the work that lands when you said it would. |
+| `domains` | Wealth · Family · Career |
+| `metric` | discipline |
+
+### The General · 水_七杀
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your career, your health and your growth. It is the cool that comes over you when voices rise, the straight look you take at what your body is telling you, and the one quiet move that changes everything after it. |
+| `domains` | Career · Health · Growth |
+| `metric` | leadership |
+
+### The Magistrate · 水_正官
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your family, your social life and your career. It is the morning routine the whole home runs by, the promise your friends never have to check on, and the plan you make now for a year nobody can see yet. |
+| `domains` | Family · Social · Career |
+| `metric` | responsibility |
+
+### The Alchemist · 水_偏印
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your mind, your growth and your career. It is the question you keep asking after the easy answer came, the skill you learned your own way and own for good, and the read you have on someone before the handshake ends. |
+| `domains` | Mind · Growth · Career |
+| `metric` | intuition |
+
+### The Sage · 水_正印
+
+| Field | Value |
+|---|---|
+| `lead` | Water runs through your family, your mind and your health. It is the quiet you bring home that everyone there settles into, the knowledge that soaks into you from just being nearby, and the slow pace your body keeps thanking you for. |
+| `domains` | Family · Mind · Health |
+| `metric` | stability |
+
+### The Twin · 火_比肩
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your family, your growth and your social life. It is the mood you bring home whatever the day did, the setback you are past while others still discuss it, and the same you that each of your friends gets. |
+| `domains` | Family · Growth · Social |
+| `metric` | independence |
+
+### The Rival · 火_劫财
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your wealth, your social life and your career. It is the big ask you make before fear catches up, the quiet party that comes alive when you walk in, and the emergency you head for while others look for their coats. |
+| `domains` | Wealth · Social · Career |
+| `metric` | competitiveness |
+
+### The Artisan · 火_食神
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your health, your family and your career. It is the deep sleep that comes when nothing in you is forced, the small thing you hand over before anyone asks, and the work that comes out easy because you liked making it. |
+| `domains` | Health · Family · Career |
+| `metric` | warmth |
+
+### The Virtuoso · 火_伤官
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your mind, your career and your social life. It is the answer that comes before the question ends, the idea you say out loud while careful people are still planning, and the table that turns toward you once you start talking. |
+| `domains` | Mind · Career · Social |
+| `metric` | creativity |
+
+### The Horizon · 火_偏财
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your wealth, your family and your social life. It is the chance you spot while it is still small and cheap, the home that always makes space for another chair, and the stranger who is a friend before the evening ends. |
+| `domains` | Wealth · Family · Social |
+| `metric` | ambition |
+
+### The Steward · 火_正财
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your wealth, your family and your career. It is the bill you pay the day it comes in, the home that runs on small habits kept every week, and the quiet daily hour of work that slowly becomes a career. |
+| `domains` | Wealth · Family · Career |
+| `metric` | discipline |
 
 ### The General · 火_七杀
 
 | Field | Value |
 |---|---|
-| `lead` | You turn a quiet Tuesday into an emergency when nothing real is at stake. Pick your pressure. Ask for the project with the date nobody believes you can hit. Start a training plan with a date on the end of it, and take the class where a stranger marks your work. |
+| `lead` | Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the test you pick yourself because that is where you grow. |
 | `domains` | Career · Health · Growth |
 | `metric` | leadership |
 
@@ -82,6 +386,22 @@
 
 | Field | Value |
 |---|---|
-| `lead` | You write rules for the house when nobody has given you any to keep. Give your word. Ask for the title that fits the job you already do. Put the Saturday you promised a child in the diary like a work meeting, and plan the friends' trip with a date they can book. |
+| `lead` | Fire runs through your family, your social life and your career. It is the promise made lightly that you still keep, the name people say when a thing has to be done right, and the title that fits by the time it arrives. |
 | `domains` | Family · Social · Career |
 | `metric` | responsibility |
+
+### The Alchemist · 火_偏印
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your mind, your growth and your career. It is the feeling you trust before the reasons show up, the person you are quietly turning into before anyone notices, and the finished thing you see while the page is still empty. |
+| `domains` | Mind · Growth · Career |
+| `metric` | intuition |
+
+### The Sage · 火_正印
+
+| Field | Value |
+|---|---|
+| `lead` | Fire runs through your family, your mind and your health. It is the kitchen people drift into without being asked, the slow way you take things in until they are yours, and the rest that fills you up as surely as you fill others. |
+| `domains` | Family · Mind · Health |
+| `metric` | stability |

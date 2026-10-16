@@ -1,0 +1,62 @@
+[
+ {
+  "file": "edge.土_七杀.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_伤官.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_偏印.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_偏财.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_劫财.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_正印.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_正官.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_正财.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_比肩.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.土_食神.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ }
+]

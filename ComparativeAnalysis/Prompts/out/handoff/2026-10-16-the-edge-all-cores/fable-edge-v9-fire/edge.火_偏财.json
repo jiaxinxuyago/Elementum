@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_偏财 (catalyst)",
+ "facts": {
+  "persona": "The Horizon (偏财) on Fire",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Spark-spotting",
+   "Charismatic",
+   "Fast-moving"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Spark-spotting",
+    "angles": {
+     "drive": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying.",
+     "cost_self": "You bought the ugly little stand at the market’s dead corner because the foot traffic map in your head disagreed with the rent. Two seasons later the corner was the market, and the rent conversation went differently, in your favor, with you on the landlord side.",
+     "cost_others": "Friends have learned to note what you mention twice, since your casual enthusiasms have a habit of becoming everyone’s expensive enthusiasms two years later. A few of them now just ask directly, at dinner, in January: what are you seeing lately. The answers have funded renovations."
+    }
+   },
+   {
+    "word": "Charismatic",
+    "angles": {
+     "drive": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it.",
+     "cost_self": "You walked into the fully booked restaurant behind two parties who had been turned away, and left with a corner table, the chef’s recommendation, and a standing invitation. Your dinner companion timed the whole ascent: four minutes. She has retold that timing at every gathering since.",
+     "cost_others": "Gatherings rearrange around your arrival, which you notice less than everyone else does. Hosts introduce you first, strangers remember your name, and follow-ups appear in your inbox from conversations you barely registered. The network effect is compounding. Other people network. You just show up warm."
+    }
+   },
+   {
+    "word": "Fast-moving",
+    "angles": {
+     "drive": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language.",
+     "cost_self": "The pop-up went from group-chat joke to opening night in nineteen days, permits included. People asked how long you had been planning it. The honest answer, since the joke, confused them into laughter. The line outside, though, was fluent in results.",
+     "cost_others": "Partners either learn your tempo or watch from the platform. By the time competitors finish their market analysis, you are iterating on version two with actual customer complaints, which you consider the only research with calories in it. The analysts eventually cite you. As data."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Warm-handed",
+   "Hardworking",
+   "Bankable"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Fire runs through your wealth, your family and your social life. It is the chance you spot while it is still small and cheap, the home that always makes space for another chair, and the stranger who is a friend before the evening ends.",
+    "domains": [
+     "Wealth",
+     "Family",
+     "Social"
+    ],
+    "metric": "ambition"
+   }
+  }
+ }
+}

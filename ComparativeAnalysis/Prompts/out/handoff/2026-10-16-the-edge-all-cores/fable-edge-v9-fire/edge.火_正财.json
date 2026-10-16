@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_正财 (catalyst)",
+ "facts": {
+  "persona": "The Steward (正财) on Fire",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Warm-handed",
+   "Hardworking",
+   "Bankable"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Warm-handed",
+    "angles": {
+     "drive": "Money leaves your hands warm. The fair wage rounded up, the invoice paid the day it arrives, the tip that acknowledges the human: your dealings carry heat without waste, and people remember transacting with you the way they remember good meals, specifically and fondly.",
+     "cost_self": "You paid the young decorator his full quote the same evening, plus the amount his underquoting had cost him, with a note about knowing his worth. He kept the note. Three years and one thriving business later, he still bumps your jobs to the front of his book.",
+     "cost_others": "Tradespeople answer your calls first, sellers hold things for you unasked, and your name in a transaction thaws the terms. The premium you occasionally pay for decency keeps returning as priority, honesty, and first refusal. Your money makes friends everywhere it goes, and they all remember your address."
+    }
+   },
+   {
+    "word": "Hardworking",
+    "angles": {
+     "drive": "Your effort burns steady, on schedule, without applause requirements. The daily block, the maintained log, the follow-through that arrives exactly when promised: the work gets done at a sustainable temperature, every day, and the years quietly assemble the results into something substantial.",
+     "cost_self": "The certification took eighteen months of Tuesday and Thursday evenings, logged without drama while louder colleagues announced bootcamps they never finished. When the title bump came, people called it sudden. The logbook, four notebooks thick by then, had a different word for it.",
+     "cost_others": "Managers hand you the long-burn projects, the ones that die in flashier hands, because your fire does not need feeding by an audience. What you tend, finishes. The portfolio of finished things has become your entire argument, and it wins every review without your voice rising once."
+    }
+   },
+   {
+    "word": "Bankable",
+    "angles": {
+     "drive": "Your word converts to certainty at full rate. The quote holds, the date holds, the handshake survives price movements: people budget on your commitments the way they budget on math. Being counted on is your asset class, and its yield compounds in reputation.",
+     "cost_self": "The contractor overran and your quote did not, absorbing the difference exactly as promised, exactly once. The client noticed both halves: the cost you ate and the silence you ate it with. Their next three projects arrived un-tendered, with a note: your number is the number.",
+     "cost_others": "Around you, people stop building backup plans. The backup plans for your deliverables have quietly disappeared from other people’s spreadsheets, which is the highest compliment operations can pay. New partners get told simply: whatever that one says will happen, price it as done."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Spark-spotting",
+   "Charismatic",
+   "Fast-moving"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Fire runs through your wealth, your family and your career. It is the bill you pay the day it comes in, the home that runs on small habits kept every week, and the quiet daily hour of work that slowly becomes a career.",
+    "domains": [
+     "Wealth",
+     "Family",
+     "Career"
+    ],
+    "metric": "discipline"
+   }
+  }
+ }
+}

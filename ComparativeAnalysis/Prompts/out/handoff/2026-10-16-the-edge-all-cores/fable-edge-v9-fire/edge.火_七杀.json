@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_七杀 (catalyst)",
+ "facts": {
+  "persona": "The General (七杀) on Fire",
+  "function": "order",
+  "ruling_domains": [
+   "Career",
+   "Health",
+   "Growth"
+  ],
+  "catalyst_chips": [
+   "Clear under pressure",
+   "Takes charge",
+   "Loves high stakes"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Clear under pressure",
+    "angles": {
+     "drive": "Pressure is where your thinking gets clear. Since you need certainty more than comfort, you let outside pressure clear your head rather than make your own calm. Choose some of that pressure yourself, because you are only this clear with something at stake.",
+     "cost_self": "Whenever the pressure lifts, your clear head goes with it and a quiet week feels like punishment. You would rather be clear under pressure than at ease without it. Let one quiet week count as rest, because you trade the rest you need for clarity.",
+     "cost_others": "You bring pressure into calm places. Since you think more clearly under pressure, you put it on the people near you as much as yourself. Keep most of that pressure for yourself, because you take a calm evening from the people at home."
+    }
+   },
+   {
+    "word": "Takes charge",
+    "angles": {
+     "drive": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge ahead of the vote. Hand the next one over, because you take charge better by choice than by habit.",
+     "cost_self": "Being in charge weighs on you once you take it. You feel safer in charge alone than sharing it, so you are rarely carried. Let one person carry part of it, because you pay for being in charge by never being looked after.",
+     "cost_others": "Wherever a plan stalls, you take charge and mean it kindly. Because a slow group feels risky, you take charge rather than wait your turn. Leave the next one to them, since each time you take charge you take their chance to decide."
+    }
+   },
+   {
+    "word": "Loves high stakes",
+    "angles": {
+     "drive": "Nothing at stake feels to you like being passed over. Since you only come awake with something to lose, you take high stakes over sure things. Keep one high-stakes thing going, because you were built to be tested rather than kept safe.",
+     "cost_self": "Loving high stakes means a calm stretch never feels like a reward. You would rather raise the stakes on a sure thing than let it stay sure. Let something good keep its low stakes, because you spend the calm you could have had.",
+     "cost_others": "When a day has no stakes, you add some. Since an easy win bores you more than a hard loss, you raise everyone's stakes with yours. Keep high stakes for your own plans, because you take the plain good day from those beside you."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Keeps every promise",
+   "By the book",
+   "Earns the title"
+  ],
+  "bars": [
+   {
+    "key": "leadership",
+    "label": "Leadership"
+   },
+   {
+    "key": "responsibility",
+    "label": "Responsibility"
+   },
+   {
+    "key": "flexible_structured",
+    "label": "Flexible · Structured"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the test you pick yourself because that is where you grow.",
+    "domains": [
+     "Career",
+     "Health",
+     "Growth"
+    ],
+    "metric": "leadership"
+   }
+  }
+ }
+}

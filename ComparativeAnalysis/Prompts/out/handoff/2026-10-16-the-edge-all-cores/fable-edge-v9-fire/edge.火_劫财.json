@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_劫财 (catalyst)",
+ "facts": {
+  "persona": "The Rival (劫财) on Fire",
+  "function": "body",
+  "ruling_domains": [
+   "Wealth",
+   "Social",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Spark-chasing",
+   "Fearless",
+   "Electrifying"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Spark-chasing",
+    "angles": {
+     "drive": "You run toward whatever is catching fire, and the running is the point. The contested deal, the live crisis, the dare with witnesses: your blood answers heat the way others answer comfort. In a world of careful people, you are the one already moving, already lit.",
+     "cost_self": "When the flagship store’s launch collapsed at noon, you drove there without being asked, arriving mid-panic with energy the situation had run out of. By close, the day was saved and slightly legendary. Your boss asked who sent you. Nobody had. The smoke had.",
+     "cost_others": "Teams keep you near the volatile accounts the way stations keep engines running. When something flares, you are moving before the call finishes, and colleagues have learned to just hand you the keys. The calm assignments bore you visibly. Nobody wastes you on them anymore."
+    }
+   },
+   {
+    "word": "Fearless",
+    "angles": {
+     "drive": "Your asks have no ceiling. The cold call to the CEO, the bid above your class, the public promise that forces the miracle: you say the enormous thing out loud, and enough of it lands to fund the reputation. Fortune does seem to favor you. You invoice it accordingly.",
+     "cost_self": "You pitched the biggest client in the region from the lobby, uninvited, with a deck finished that morning in the car. Security was called and, in the end, so was the account manager. The contract took eight months. The story reached your industry in eight days.",
+     "cost_others": "People preface their descriptions of you with you will not believe, and the stories hold up under checking. Some rivals call the boldness reckless from a safe distance. Your collaborators call it Tuesday, and have learned to draft the press release before you finish the sentence."
+    }
+   },
+   {
+    "word": "Electrifying",
+    "angles": {
+     "drive": "Your energy transfers on contact. The flat team meeting catches current when you enter, the tired project finds voltage, the gathering’s pulse syncs upward to yours. People leave your orbit doing things they had filed under someday. The battery, mysteriously, never bills anyone.",
+     "cost_self": "The fundraiser was dying at forty percent with a week left, and your two-day blitz of calls, stunts, and shameless enthusiasm dragged it to one-forty. Volunteers who had gone quiet came back loud. The organizer’s thank-you note said simply: you plugged us back in.",
+     "cost_others": "People describe meetings before and after your arrival as different weather. Managers deploy you into stalled teams the way medics deploy adrenaline, and the effect is roughly as fast. The crash that sometimes follows is also documented. Everyone considers it worth it, and schedules for it."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Self-lit",
+   "Vivid",
+   "Undimmed"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Fire runs through your wealth, your social life and your career. It is the big ask you make before fear catches up, the quiet party that comes alive when you walk in, and the emergency you head for while others look for their coats.",
+    "domains": [
+     "Wealth",
+     "Social",
+     "Career"
+    ],
+    "metric": "competitiveness"
+   }
+  }
+ }
+}

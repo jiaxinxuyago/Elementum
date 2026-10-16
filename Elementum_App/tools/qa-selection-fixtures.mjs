@@ -212,9 +212,9 @@ for (const f of FIXTURES) {
 
 console.log(fails ? `\n✗ ${fails} selection fixture failure(s)` : '\n✓ selection fixtures: every contract holds');
 // ---------------------------------------------------------------------------
-// THE EDGE (owner 2026-10-16, v8): every adopted edge carries exactly its god's
-// three ruling domains in the table's order, a lead of 35 to 55 words opening on
-// You, and a metric that is one of its function's bars.
+// THE EDGE (owner 2026-10-16, v9): every adopted edge carries exactly its god's
+// three ruling domains in the table's order, a two-sentence lead of 30 to 45 words
+// on the fixed frame, and a metric that is one of its function's bars.
 // ---------------------------------------------------------------------------
 {
   const f = { name: 'edge · the ruling domains, the lead, the metric' }; let n = 0;
@@ -222,8 +222,13 @@ console.log(fails ? `\n✗ ${fails} selection fixture failure(s)` : '\n✓ selec
     if (!c.edge) continue; n++;
     const god = cell.split('_')[1]; const want = GOD_RULING_DOMAINS[god] || [];
     if (JSON.stringify(c.edge.domains) !== JSON.stringify(want)) fail(f, `${cell}: domains ${c.edge.domains?.join('/')} ≠ ${want.join('/')}`);
-    const w = String(c.edge.lead || '').trim().split(/\s+/).length; if (w < 35 || w > 55) fail(f, `${cell}: lead ${w} words`);
-    if (!/^You\b/.test(c.edge.lead || '')) fail(f, `${cell}: lead does not open on You`);
+    // v9 (owner 2026-10-16): two sentences of 30 to 45 words; the first on the frame
+    // "<Energy> runs through your <d1>, your <d2> and your <d3>." (Social reads "social life").
+    const w = String(c.edge.lead || '').trim().split(/\s+/).length; if (w < 30 || w > 45) fail(f, `${cell}: lead ${w} words`);
+    const EN = { '木': 'Wood', '火': 'Fire', '土': 'Earth', '金': 'Metal', '水': 'Water' }[cell.split('_')[0]];
+    const fw = (d) => (d === 'Social' ? 'social life' : String(d).toLowerCase());
+    if (!(c.edge.lead || '').startsWith(`${EN} runs through your ${want.map(fw).join(', your ').replace(/, your ([^,]+)$/, ' and your $1')}.`)) fail(f, `${cell}: the first sentence is not the frame`);
+    if ((c.edge.lead || '').split(/(?<=[.!?])\s+/).filter(Boolean).length !== 2) fail(f, `${cell}: not two sentences`);
     const fnKey = GOD_FN[god]; const fm = Object.values(FUNCTION_METRICS).find((x) => x.function === fnKey); const bars = (fm?.bars || fm?.metrics || []).map((b) => b.key);
     if (!bars.length) fail(f, `${cell}: no bars found for the ${fnKey} function`);
     if (bars.length && !bars.includes(c.edge.metric)) fail(f, `${cell}: metric ${c.edge.metric} not in ${bars.join('/')}`);

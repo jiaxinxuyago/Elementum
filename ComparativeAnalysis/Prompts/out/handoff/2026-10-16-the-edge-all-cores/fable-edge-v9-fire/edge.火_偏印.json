@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_偏印 (catalyst)",
+ "facts": {
+  "persona": "The Alchemist (偏印) on Fire",
+  "function": "mind",
+  "ruling_domains": [
+   "Mind",
+   "Growth",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Visionary",
+   "Night-bright",
+   "Uncanny"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Visionary",
+    "angles": {
+     "drive": "You see finished things where others see empty air. The business before the market exists, the picture before the first stroke, the version of a person they have not met yet. The visions arrive lit from inside, complete, and your job is mostly transcription.",
+     "cost_self": "You described the neighborhood’s future to a skeptical friend in 2019, cafe by cafe, almost address by address. You were renting there anyway when the wave arrived. The friend brings up that walk every time property prices come up, in the tone people use for eclipses.",
+     "cost_others": "People dismiss your predictions at intake and quote them at parties three years later. The pattern has repeated enough that a few colleagues now write down your stray remarks, timestamped, as a hobby. Their notebook, they say, outperforms their financial advisor. They are not entirely joking."
+    }
+   },
+   {
+    "word": "Night-bright",
+    "angles": {
+     "drive": "Your mind switches on when the world switches off. After eleven, the connections arrive: the insight, the fix, the strange idea with the workable center. Daylight-you executes what midnight-you discovers, a two-shift operation everyone mistakes for one ordinary person.",
+     "cost_self": "The solution to the storage problem arrived at 1:40am, complete, while the house slept, and you built the prototype by breakfast using a lamp and a towel to muffle the drill. The team spent Tuesday marveling. You spent Tuesday napping, having already been to Wednesday.",
+     "cost_others": "People learn to check their messages in the morning for your timestamps: 12:51, 2:14, 3:03, each carrying something the daylight meetings could not produce. Employers have stopped policing your hours. Whatever happens in your small hours arrives at standup already glowing, and nobody audits a lighthouse."
+    }
+   },
+   {
+    "word": "Uncanny",
+    "angles": {
+     "drive": "Your knowing arrives without visible sources. The diagnosis before the tests, the reading of a stranger at a glance, the sense that this flight, this deal, this person is wrong. Asked to explain, you produce nothing auditable. Asked to be right, you mostly are.",
+     "cost_self": "You told your friend not to take the apartment, unable to name a single concrete reason beyond the light felt wrong. She took it. The mold survey, the neighbor situation, and the landlord’s lawsuit all surfaced within the year, in roughly the order your discomfort had.",
+     "cost_others": "People consult you off the record, slightly embarrassed, the way executives consult weather folklore before big launches. Your hit rate embarrasses them further. Nobody builds a slide around your feelings, and increasingly nobody signs anything big without, casually, asking what your gut says first."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Warm-hearted",
+   "Encouraging",
+   "Healing"
+  ],
+  "bars": [
+   {
+    "key": "intuition",
+    "label": "Intuition"
+   },
+   {
+    "key": "stability",
+    "label": "Stability"
+   },
+   {
+    "key": "instinct_research",
+    "label": "Instinct · Research"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Fire runs through your mind, your growth and your career. It is the feeling you trust before the reasons show up, the person you are quietly turning into before anyone notices, and the finished thing you see while the page is still empty.",
+    "domains": [
+     "Mind",
+     "Growth",
+     "Career"
+    ],
+    "metric": "intuition"
+   }
+  }
+ }
+}

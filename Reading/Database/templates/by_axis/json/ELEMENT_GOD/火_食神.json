@@ -3,7 +3,7 @@
   "axis": "ELEMENT_GOD",
   "key": "火_食神",
   "canonical_name": "The Artisan",
-  "construct": "RULED, THE K2 CELL (refreshed 2026-09-21): k2_overview 40–70w (the persona's current in the element's arena) + k2_functional ≤22w (the god's own family function, re-ruled 2026-09-01) + k2_domain_readings 18–55w per ruled domain (owner construct 2026-08-19, corpus ×50 LOCKED) · adj_chips {catalyst ×3, friction ×3} 1–3w under THE KEYWORD DERIVATION CHAIN (2026-09-03) and THE VOCABULARY ZONE B1–B2 (2026-09-04) · fn_reading = the weighted three-door ledger {word, doors:{trait, scene, outside}} ×3 per pole, 35–55w per door (THE THREE DOORS 2026-09-03; corpus ×50 complete 2026-09-04) · structural_interaction = the REA_03 §4b authoring seed · k2_card = the unauthored register stub (REA_03 §4, superseded by the cell above). Prompts: REA_17 §3.4.",
+  "construct": "RULED, THE K2 CELL (refreshed 2026-09-21): k2_overview 40–70w (the persona's current in the element's arena) + k2_functional ≤22w (the god's own family function, re-ruled 2026-09-01) + k2_domain_readings 18–55w per ruled domain (owner construct 2026-08-19, corpus ×50 LOCKED) · adj_chips {catalyst ×3, friction ×3} 1–3w under THE KEYWORD DERIVATION CHAIN (2026-09-03) and THE VOCABULARY ZONE B1–B2 (2026-09-04) · fn_reading = the weighted three-door ledger {word, doors:{trait, scene, outside}} ×3 per pole, 35–55w per door (THE THREE DOORS 2026-09-03; corpus ×50 complete 2026-09-04) · structural_interaction = the REA_03 §4b authoring seed · k2_card = the unauthored register stub (REA_03 §4, superseded by the cell above). Prompts: REA_17 §3.4. · edge (catalyst pole only; owner 2026-10-16, THE EDGE v9: two sentences, the energy and its three ruling domains from the GOD table, then a clause per domain in The Pattern's voice; the metric; the head derived in the app)",
   "candidate_note": "LOCKED corpus ×50 (k2 cell 2026-08-19; chips and ledger 2026-09-04); k2_card registers remain an unauthored stub.",
   "sources": [
     "REA_03 §4b (interaction seeds — parsed from the doc)",
@@ -118,6 +118,15 @@
           }
         ]
       }
+    },
+    "edge": {
+      "lead": "Fire runs through your health, your family and your career. It is the deep sleep that comes when nothing in you is forced, the small thing you hand over before anyone asks, and the work that comes out easy because you liked making it.",
+      "domains": [
+        "Health",
+        "Family",
+        "Career"
+      ],
+      "metric": "warmth"
     }
   },
   "$provenance": [
@@ -360,6 +369,14 @@
       "date": "2026-10-15",
       "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
       "replaced": "People have stopped attaching outcomes to your enthusiasm, enjoying the sparkle and quietly sourcing delivery elsewhere. It happened gradually and completely: you are cherished at kickoffs and absent from credits. The gap between how much you are loved and how much you are counted on has become the fact of you."
+    },
+    {
+      "field": "edge",
+      "adopted_from": "fable-edge-v9",
+      "rewrite_station": "ComparativeAnalysis/Prompts/out/handoff/2026-10-16-the-edge-all-cores/fable-edge-v9-fire/edge.火_食神.json",
+      "date": "2026-10-16",
+      "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (THE EDGE v9, Formula A in The Pattern's voice, two sentences; all fifty cells, five sealed writers, fifty of fifty through the gate)",
+      "replaced": null
     }
   ]
 }

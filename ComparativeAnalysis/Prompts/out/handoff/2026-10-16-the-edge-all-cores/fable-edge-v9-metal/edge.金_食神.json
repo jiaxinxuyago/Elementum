@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_食神 (catalyst)",
+ "facts": {
+  "persona": "The Artisan (食神) on Metal",
+  "function": "expression",
+  "ruling_domains": [
+   "Health",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Craft-loving",
+   "Refined",
+   "Savoring"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Craft-loving",
+    "angles": {
+     "drive": "The making itself feeds you. The knife kept sharp, the joint fitted flush, the sentence revised until it clicks: process is your pleasure, and it shows in everything that leaves your hands. People sense the extra hour in your work without being able to point at it.",
+     "cost_self": "The cutting board you made as a housewarming gift took three weekends and outlasted the marriage it was given to. In the settlement, notably, it was contested. You have since made two more on request, each with a waiting period the recipients found completely reasonable.",
+     "cost_others": "People commission things from you that stores sell cheaper, and know exactly why they are paying more and waiting longer. Objects you have made get pointed out to houseguests, credited by name. Your work carries a small warranty nobody wrote down: it was made by someone who loved making it."
+    }
+   },
+   {
+    "word": "Refined",
+    "angles": {
+     "drive": "Your taste has a machinist’s tolerance. The one right glass for the wine, the single adjective where three loitered, the pause placed exactly: refinement is not fussiness in your hands, it is fit, and everything around you sits a little truer for it.",
+     "cost_self": "You reduced the menu from nine dishes to five, the invitation from a paragraph to a line, and the dinner, guests agreed afterward, was the best of the year, though nobody could name what made it feel that way. You could have named it: subtraction, done lovingly, all afternoon.",
+     "cost_others": "People borrow your eye before their big occasions: the outfit checked, the speech trimmed, the toast rehearsed. Your edits are small and decisive, and their absence is loud. Events that skip your review acquire, in your circle’s vocabulary, a technical description: slightly too much."
+    }
+   },
+   {
+    "word": "Savoring",
+    "angles": {
+     "drive": "You extract full value from good moments. The coffee gets its silence, the win gets its evening, the anniversary gets marked properly instead of glanced at. Pleasure, in your hands, is not consumed. It is machined for maximum yield, and the yields are excellent.",
+     "cost_self": "The bottle you had saved for eleven years got opened on an ordinary Thursday that you had unilaterally declared worthy, and the resulting three-hour dinner for two is now referenced in your household as the benchmark. Nothing had happened that day. That, you explained, was the occasion.",
+     "cost_others": "People slow down at your table without noticing the mechanism: courses that arrive unhurried, toasts that actually toast something, phones that migrate to pockets. Afterward they describe the evening as long in the good way. You have quietly taught everyone you host what time tastes like."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Razor-witted",
+   "Piercing",
+   "Masterful"
+  ],
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Metal runs through your health, your family and your career. It is the slow morning you give its whole length, the thing you made by hand that stays in the family, and the care in your work that shows before it gets named.",
+    "domains": [
+     "Health",
+     "Family",
+     "Career"
+    ],
+    "metric": "warmth"
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/水_正财 (catalyst)",
+ "facts": {
+  "persona": "The Steward (正财) on Water",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Careful",
+   "Steady-flowing",
+   "Well-prepared"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Careful",
+    "angles": {
+     "drive": "You handle resources the way careful water handles a landscape, never taking more than the channel can hold. The purchase gets slept on, the debt gets declined, the plan keeps a margin. Boring, people say, until their own accounts get interesting in the bad way.",
+     "cost_self": "The car was chosen after the insurance quote, the reliability data, and one conversation with a mechanic you trust. It has now outlasted three of your friends’ flashier choices, at half the total cost. The spreadsheet that picked it is still on your laptop, mildly famous.",
+     "cost_others": "Friends consult you before their big decisions the way travelers check the depth of a river before driving in. Your questions are unexciting and save fortunes: what does it cost per year, what happens if it breaks. Several disasters in your circle simply never happened. That was you."
+    }
+   },
+   {
+    "word": "Steady-flowing",
+    "angles": {
+     "drive": "Your resources move like a reliable stream, in on schedule, out with intention, never flash-flooding. The salary lands, the transfers fire, the obligations get met a little early. Drama has no purchase on your finances, and the calm compounds as quietly as the interest.",
+     "cost_self": "Rent has arrived on the first for eleven consecutive years, across three landlords, one recession, and a broken leg. The current landlord once called to check the transfer was real, so rare is the species. You are the tenant reference other applicants wish existed.",
+     "cost_others": "The people downstream of you, family, dependents, one perpetually struggling friend, plan their lives around a reliability they have stopped noticing. The support just arrives, monthly, like weather in a fortunate climate. Nobody asks what maintaining a stream that steady requires. It requires everything, daily."
+    }
+   },
+   {
+    "word": "Well-prepared",
+    "angles": {
+     "drive": "The future finds you already provisioned. The renewal date is in the calendar, the emergency fund holds six months, the umbrella lives in the car. Your readiness is so habitual it looks like luck: things simply never seem to catch you without the relevant item.",
+     "cost_self": "When the layoffs came, your household absorbed the news with a strange calm: the fund was there, the resume was current, the numbers had been run in advance during a peaceful January. The panic that visited every other affected house found yours already interviewed and hired.",
+     "cost_others": "People tease the preparations right up until they need them, at which point you become briefly, intensely popular. The jump cables, the spare charger, the printed copy: someone borrows one weekly. You have become the reason other people can afford to be spontaneous. Nobody sends a card."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Far-flowing",
+   "Adaptive",
+   "Magnetic"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Water runs through your wealth, your family and your career. It is the savings that sit untouched until the bad month comes, the home where the lights stay on without anyone thinking about it, and the work that lands when you said it would.",
+    "domains": [
+     "Wealth",
+     "Family",
+     "Career"
+    ],
+    "metric": "discipline"
+   }
+  }
+ }
+}

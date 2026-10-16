@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/火_食神 (catalyst)",
+ "facts": {
+  "persona": "The Artisan (食神) on Fire",
+  "function": "expression",
+  "ruling_domains": [
+   "Health",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Gives freely",
+   "Enjoys out loud",
+   "Effortless"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Gives freely",
+    "angles": {
+     "drive": "Giving is the easiest thing you do. You would rather be useful than be thanked, and you give ahead of being asked. Keep giving this freely, and notice its one price, the flat hour when nothing is needed from you.",
+     "cost_self": "Something to give away is where you are most at ease. Giving comes before wanting, and you would sooner give one more thing than name what you need. Take a turn too, because your enjoyment is the gift you keep skipping.",
+     "cost_others": "Whenever the people around you need something, you have given it before they ask. Providing feels safer than receiving, so you hand out more than you let in. Let them give back sometimes, because you have been taking that chance from them."
+    }
+   },
+   {
+    "word": "Enjoys out loud",
+    "angles": {
+     "drive": "Enjoying something quietly was never your way. You feel a pleasure fully only once it is shared, and you would rather enjoy a small thing with company than a big thing alone. You pay for enjoying out loud with the private kind, a fair trade.",
+     "cost_self": "Enjoyment only counts for you when it is shared. You write off an evening alone as wasted, and you pick less enjoyment in company ahead of more by yourself. Learn to enjoy the quiet kind too, because the rest in it is yours to keep.",
+     "cost_others": "Whatever you enjoy, you pull the people near you into enjoying as well. You run the fun rather than have it, and you leave little for the quieter people to add. Leave some open, because you take the air their smaller pleasures need."
+    }
+   },
+   {
+    "word": "Effortless",
+    "angles": {
+     "drive": "What you make comes out without strain. Ease is the sign you trust, and you do the thing that flows sooner than you force the thing that counts. If it came without effort, you own it a little less, and that is the whole price.",
+     "cost_self": "Effort was never your measure of worth. You rate what comes easily below what you fought for, so you hand the easy work over free ahead of charging for it. Price the ease too, because the money you wave off is the cost.",
+     "cost_others": "You make hard things look easy. You show the finished thing sooner than the work, and you leave the people learning from you the ease without the steps. Work at something in front of them once, since you teach more by steps than by ease."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Speaks up",
+   "Born performer",
+   "Thinks fast"
+  ],
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Fire runs through your health, your family and your career. It is the deep sleep that comes when nothing in you is forced, the small thing you hand over before anyone asks, and the work that comes out easy because you liked making it.",
+    "domains": [
+     "Health",
+     "Family",
+     "Career"
+    ],
+    "metric": "warmth"
+   }
+  }
+ }
+}

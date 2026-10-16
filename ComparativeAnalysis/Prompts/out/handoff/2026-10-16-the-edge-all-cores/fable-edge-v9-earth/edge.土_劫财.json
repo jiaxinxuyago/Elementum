@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/土_劫财 (catalyst)",
+ "facts": {
+  "persona": "The Rival (劫财) on Earth",
+  "function": "body",
+  "ruling_domains": [
+   "Wealth",
+   "Social",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Ground-taking",
+   "Tenacious",
+   "Unbroken"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Ground-taking",
+    "angles": {
+     "drive": "Advancing is how your body answers the world: a foot in the door, a stake in the ground, a seat claimed at tables you were not quite invited to. You expand quietly and hold what you take. By the time anyone objects, you are already infrastructure.",
+     "cost_self": "The abandoned corner of the office became your project station one shelf at a time, over six unremarkable weeks. Nobody approved it and nobody could unwind it, since by then the whole team used it. Management eventually labeled it, which is how conquest gets certified.",
+     "cost_others": "People discover your influence the way surveyors discover fences: already installed, weathered in, slightly past the property line. Nobody remembers granting the territory, and everybody relies on how well you run it. Complaints tend to die out on the walk over."
+    }
+   },
+   {
+    "word": "Tenacious",
+    "angles": {
+     "drive": "Letting go is simply not in your body’s vocabulary. The application gets resubmitted, the door gets knocked on again, the no gets treated as a scheduling issue. What you grip, you keep gripping, well past the point where everyone else’s hands opened.",
+     "cost_self": "The permit was denied twice, and the third application had photographs, precedents, and a cover letter that quoted the inspector back to himself. It passed. The clerk who stamped it said, with respect, that they hoped never to see your name again.",
+     "cost_others": "Opponents budget extra rounds for you, because your first defeat is just your intake meeting. People who watched you lose in March have learned not to celebrate, since your Aprils have a reputation. Eventually the resistance factors you in like weather and yields early."
+    }
+   },
+   {
+    "word": "Unbroken",
+    "angles": {
+     "drive": "Pressure that bends other people mostly just settles your stance. Criticism, setbacks, the year everything went wrong: your posture after each one is level ground. You take the hit, absorb it, and stand where you stood, which is its own kind of answer.",
+     "cost_self": "The venture failed publicly, and you showed up Monday at the usual hour with an ordinary face and a revised plan. The people waiting to see you diminished waited all week. By Friday they were reading the plan, mostly to learn what standing back up looks like.",
+     "cost_others": "People stop testing you after the first time they watch a real blow land and change nothing. The steadiness reads as almost unfair. Behind your back, the description is always some version of the same sentence: whatever happens, that one stays standing."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Self-grounded",
+   "Solid",
+   "Dependable"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Earth runs through your wealth, your social life and your career. It is the deal you win by asking again, the race that makes a friend of the one you beat, and the seat at work you took before anyone offered it.",
+    "domains": [
+     "Wealth",
+     "Social",
+     "Career"
+    ],
+    "metric": "competitiveness"
+   }
+  }
+ }
+}

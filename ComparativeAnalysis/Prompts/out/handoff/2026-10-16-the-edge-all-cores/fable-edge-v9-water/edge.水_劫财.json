@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/水_劫财 (catalyst)",
+ "facts": {
+  "persona": "The Rival (劫财) on Water",
+  "function": "body",
+  "ruling_domains": [
+   "Wealth",
+   "Social",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Competitive",
+   "Unafraid",
+   "Agile"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Competitive",
+    "angles": {
+     "drive": "Rivalry wakes you up. A competitor in the water and your stroke sharpens, your pace lifts, and the race becomes the point of the day. You measure yourself against real people, openly, and you move faster for it than any plan could make you.",
+     "cost_self": "Someone at work started tracking the same clients, and your quarter, flat since spring, jumped within a month. Nothing else changed. You printed both sets of numbers and taped yours above the desk, slightly higher than theirs.",
+     "cost_others": "People perform better around you and know exactly why. Teams put you next to whoever has gone comfortable, and the comfort ends within a week. Rivals call you exhausting, and most of them improved because you existed. Some even say so, at retirement parties."
+    }
+   },
+   {
+    "word": "Unafraid",
+    "angles": {
+     "drive": "Your nerves hold exactly when the other side hopes they will not. The staring contest of a negotiation, the final round, the moment someone raises the stakes to scare you: your pulse spikes and your voice does not. Opponents read calm. It is actually appetite.",
+     "cost_self": "The other bidder raised twice to shake you loose, and your third bid came back before the echo faded, at a number you had chosen for exactly this moment. They folded in the parking lot. You had been enjoying yourself since the second raise.",
+     "cost_others": "People bring you along to hard tables the way swimmers bring a strong current. When the other side pushes, you push back in real time, and your side stops shrinking. The invitations always sound casual. The seating never is."
+    }
+   },
+   {
+    "word": "Agile",
+    "angles": {
+     "drive": "Mid-contest, you change course faster than anyone can cover you. The blocked route becomes a new route, the lost argument becomes a different argument, and by the time a rival adjusts, you have moved twice more. Beating you requires predicting you. Nobody manages it consistently.",
+     "cost_self": "The rival shop matched your prices on a Monday, and by Wednesday you had shifted the whole pitch to speed and service, ground they could not follow you onto. They spent a month matching a position you no longer held.",
+     "cost_others": "Competitors describe planning against you with real fatigue: every counter they prepare answers your last move, never your next one. Colleagues stopped betting on where you will take things. They just watch the water for the turn, and it always comes."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Self-contained",
+   "Even-keeled",
+   "Independent"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Water runs through your wealth, your social life and your career. It is the money you chase harder once someone else wants it, the dare your friends already know you will take, and the new way through you find when the old one closes.",
+    "domains": [
+     "Wealth",
+     "Social",
+     "Career"
+    ],
+    "metric": "competitiveness"
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_七杀 (catalyst)",
+ "facts": {
+  "persona": "The General (七杀) on Metal",
+  "function": "order",
+  "ruling_domains": [
+   "Career",
+   "Health",
+   "Growth"
+  ],
+  "catalyst_chips": [
+   "Takes charge",
+   "Thrives under pressure",
+   "Decides fast"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Takes charge",
+    "angles": {
+     "drive": "Taking charge comes to you before anyone asks. A crisis gives your force a charge to carry, and you carry it yourself rather than wait for someone else to step up. Let someone else take charge sometimes, since always leading means never being carried.",
+     "cost_self": "Whenever something goes wrong you are already in charge. You would rather hold the charge than trust it to anyone, and the load stays yours by choice. Hand one charge over this month, because the rest you skip is a price only you pay.",
+     "cost_others": "In trouble that is not yours, taking charge is your first move. You take the charge ahead of being asked, and the people near you give up their own decisions early. Leave one charge unclaimed, since the people you lead need practice too."
+    }
+   },
+   {
+    "word": "Thrives under pressure",
+    "angles": {
+     "drive": "Pressure is where you do your best work. A real stake lets you thrive where comfort lets you drift, and being tested suits you better than being at ease. Keep thriving on it, and notice that nothing without pressure gets the same care.",
+     "cost_self": "Under pressure you become the self you trust most. Calm holds nothing to thrive on, and you take one more load rather than sit through a quiet week. Give yourself one empty day, since thriving charges you in rest you never take.",
+     "cost_others": "You expect everyone near you to thrive on the pressure you do. Stakes bring out your best, and you set pressure on others ahead of asking whether they wanted any. Ease the pressure sometimes, since those you push pay in calm they lose."
+    }
+   },
+   {
+    "word": "Decides fast",
+    "angles": {
+     "drive": "Deciding fast is how you stop a crisis from deciding for you. A quick decision points your push somewhere, and you accept being wrong early rather than being right too late. Keep the speed, and give one slow decision its day sometimes.",
+     "cost_self": "Fast decisions are the ones you trust. Deciding quickly keeps you ahead of the crisis, and you take the first good option rather than the best. Sleep on one decision a month, because the better option you never saw is what speed costs you.",
+     "cost_others": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Hold one decision open, because the people you decide for pay with their say."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Keeps your word",
+   "Does it properly",
+   "Earns your place"
+  ],
+  "bars": [
+   {
+    "key": "leadership",
+    "label": "Leadership"
+   },
+   {
+    "key": "responsibility",
+    "label": "Responsibility"
+   },
+   {
+    "key": "flexible_structured",
+    "label": "Flexible · Structured"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Metal runs through your career, your health and your growth. It is the hand on the wheel when the trouble starts, the second wind that comes once something real is on the line, and the quick call you make first and grow into after.",
+    "domains": [
+     "Career",
+     "Health",
+     "Growth"
+    ],
+    "metric": "leadership"
+   }
+  }
+ }
+}

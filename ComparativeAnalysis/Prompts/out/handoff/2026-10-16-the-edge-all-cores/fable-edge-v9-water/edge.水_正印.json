@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/水_正印 (catalyst)",
+ "facts": {
+  "persona": "The Sage (正印) on Water",
+  "function": "mind",
+  "ruling_domains": [
+   "Family",
+   "Mind",
+   "Health"
+  ],
+  "catalyst_chips": [
+   "Calming presence",
+   "Soaks it up",
+   "Patient"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Calming presence",
+    "angles": {
+     "drive": "You calm people down without trying to. Taking in someone's worry costs you less than watching them carry it, so you take it in and give back something steadier. Let a little of it out somewhere, because calm you only absorb runs dry.",
+     "cost_self": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. You leave your own upset unsettled until you let someone steady you for once.",
+     "cost_others": "When someone close to you is upset, you become the calm for both. Being needed suits you more than being known, and your own trouble never shows. Let them see you shaken sometimes, because calm with nothing behind it keeps people at a distance."
+    }
+   },
+   {
+    "word": "Soaks it up",
+    "angles": {
+     "drive": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You can trust the gap, since the proof turns up later than the understanding.",
+     "cost_self": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper once, because the chances asking for it close without you.",
+     "cost_others": "Soaking up what someone says comes ahead of deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. You help more with an honest no than a kind yes, and yours is already there."
+    }
+   },
+   {
+    "word": "Patient",
+    "angles": {
+     "drive": "Being patient comes easily to you. Letting a thing come in its own time feels more honest than forcing it, and you can wait on a question for months. Keep your pace, because the price is only the chance that needed a push.",
+     "cost_self": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. You gave up what you never asked for without noticing, and one question changes that.",
+     "cost_others": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. Push sometimes, because being patient is also the hand you kept back."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Goes deep",
+   "Reads people",
+   "Self-taught"
+  ],
+  "bars": [
+   {
+    "key": "intuition",
+    "label": "Intuition"
+   },
+   {
+    "key": "stability",
+    "label": "Stability"
+   },
+   {
+    "key": "instinct_research",
+    "label": "Instinct · Research"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Water runs through your family, your mind and your health. It is the quiet you bring home that everyone there settles into, the knowledge that soaks into you from just being nearby, and the slow pace your body keeps thanking you for.",
+    "domains": [
+     "Family",
+     "Mind",
+     "Health"
+    ],
+    "metric": "stability"
+   }
+  }
+ }
+}

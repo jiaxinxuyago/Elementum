@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/土_伤官 (catalyst)",
+ "facts": {
+  "persona": "The Virtuoso (伤官) on Earth",
+  "function": "expression",
+  "ruling_domains": [
+   "Mind",
+   "Career",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Ground-breaking",
+   "Deadpan",
+   "Unconventional"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Ground-breaking",
+    "angles": {
+     "drive": "Breaking new ground is how your expression works: the flat, settled, everyone-agrees surface is exactly where you start digging. Your best ideas arrive as polite earthquakes, reorganizing a topic people thought was finished. The field is never as settled as it looks, and you prove it.",
+     "cost_self": "The process had been the process for nine years, until your two-slide deck at the retreat. There was a silence, then laughter, then a whiteboard. By spring the old process was a story people told, and you were somehow not officially credited.",
+     "cost_others": "Managers learn to seat you carefully, because whatever the group has quietly agreed not to question is the first thing you will question. Half the time it is uncomfortable. The other half, the thing you dug up was the exact rock the plan was about to hit."
+    }
+   },
+   {
+    "word": "Deadpan",
+    "angles": {
+     "drive": "Dry is your native register. The joke arrives flat, two beats late, and lands harder for it, usually while everyone else is still being earnest. Humor is how your truth gets past security. People laugh first and only later notice what you actually said.",
+     "cost_self": "In the middle of the budget meeting’s third lap around the same point, you said one quiet sentence and the table broke. The meeting ended four minutes later with a decision. Your sentence had the decision folded inside the joke, which everyone realized on the stairs.",
+     "cost_others": "People quote you at dinners you were not invited to. The deadpan reads as harmless right up until someone writes it down, and there, in plain text, is a fairly serious critique of how things are run. You have been warned about this. The warnings were also quoted."
+    }
+   },
+   {
+    "word": "Unconventional",
+    "angles": {
+     "drive": "Doing it the standard way physically bothers you, the way a crooked picture frame bothers other people. Your methods look wrong until the results arrive. The spreadsheet is shaped strangely, the pitch skips the template, and both work for reasons the template never considered.",
+     "cost_self": "You taught the training session backward, results first, theory never. The feedback forms split perfectly: half the class wanted the old slides back, half said it was the first training they had ever stayed awake for. You kept the backward version and the split.",
+     "cost_others": "Coworkers describe your methods with a hand gesture, because words take too long. Nobody fully approves and nobody interferes, since the last person who standardized your workflow watched output drop by half. You are the licensed exception, and the license renews on results."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Hearty",
+   "Settled",
+   "Providing"
+  ],
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Earth runs through your mind, your career and your social life. It is the question you ask once everyone else has agreed, the odd way of working that is left alone because it works, and the dry joke that says the true thing out loud.",
+    "domains": [
+     "Mind",
+     "Career",
+     "Social"
+    ],
+    "metric": "creativity"
+   }
+  }
+ }
+}

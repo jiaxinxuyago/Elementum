@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/木_食神 (catalyst)",
+ "facts": {
+  "persona": "The Artisan (食神) on Wood",
+  "function": "expression",
+  "ruling_domains": [
+   "Health",
+   "Family",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Fruitful",
+   "Mellow",
+   "Tending"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Fruitful",
+    "angles": {
+     "drive": "Your output ripens naturally and keeps coming. The dinners, the small gifts, the finished little projects: none announced, all delivered, season after season. Where others sprint and stall, you simply bear, and the people around you have quietly reorganized their lives around the harvest.",
+     "cost_self": "The sourdough starter you keep has fed four households and outlived two of their marriages. Every week, loaves leave your kitchen without ceremony. Somebody once totaled a year of your giving on a napkin and stopped counting at a number that embarrassed everyone present.",
+     "cost_others": "People inventory what you produce only when you are sick for a month and the flow stops: the meals, the favors, the small repairs, the cards that arrive on time. The gap teaches them the size of the tree. You recover, and it resumes, unremarked."
+    }
+   },
+   {
+    "word": "Mellow",
+    "angles": {
+     "drive": "Your temperament arrived pre-softened. Provocations land in you like stones in deep grass, absorbed without ceremony. People bring you their sharp edges and leave with them slightly rounded, and nobody, including you, can point to the moment the rounding happened.",
+     "cost_self": "The road-rage incident happened entirely in the other car. You waved, genuinely unbothered, and finished the podcast. Your passenger spent ten minutes processing the injustice. You offered them a mint. By the destination they were laughing, and could not reconstruct why they had cared.",
+     "cost_others": "Tense situations get scheduled around your availability, informally, because things just go softer with you in the region. Nobody calls it a skill, which suits you. The mediator titles go to louder people. The actual mediating, most weeks, happens near the mint supply."
+    }
+   },
+   {
+    "word": "Tending",
+    "angles": {
+     "drive": "You express care by making things comfortable around people. The blanket appears before anyone said cold, the kettle is on before the knock, the leftovers go home in containers with the right lids. Nobody calls it expression. It is your entire vocabulary.",
+     "cost_self": "While house-sitting, you left the place cozier than you found it: the reading lamp moved to where the light actually falls, the good mugs brought forward, soup in the freezer with a dated label. The owners noticed for three weeks, one small comfort at a time.",
+     "cost_others": "People relax in spaces you have touched and cannot say why. The guest who slept over once still mentions the bedside water. Comfort follows you into other people’s houses and stays after you leave, which is a strange, real talent, and completely unlisted."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Free-growing",
+   "Original",
+   "Untamed"
+  ],
+  "bars": [
+   {
+    "key": "warmth",
+    "label": "Warmth"
+   },
+   {
+    "key": "creativity",
+    "label": "Creativity"
+   },
+   {
+    "key": "reserved_expressive",
+    "label": "Reserved · Expressive"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Wood runs through your health, your family and your career. It is the slow pulse a bad day cannot speed up, the lamp left on for whoever comes home late, and the work that arrives finished while the loud ones still talk.",
+    "domains": [
+     "Health",
+     "Family",
+     "Career"
+    ],
+    "metric": "warmth"
+   }
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # Backlog · THE EDGE: the catalyst page's advice becomes talents, places and one action (owner 2026-10-15)
 
-**Status: SHIPPED 2026-10-16 for the Metal core (v8, the head E1); the card at v8; the ten cells adopted, transcribed into k2.js, the fixture contract in; the other four cores follow with their batches.**
+**Status: SHIPPED 2026-10-16 for all fifty cells (v9, Formula A in The Pattern's voice, the head E1); the card at v9; fifty cells adopted, transcribed into k2.js, the fixture contract on the frame, the length and the domains.**
 
 ## The owner's words
 
@@ -80,4 +80,8 @@ Ruled the same hour (two artifact comments): "This is the right UI, pick this on
 The head unified with the remedy's (four variations in the remedy's locked grammar: E1 the mirror, E2 the function as the hero, E3 the domains as the hero, E4 the manual voice): **E1**, "Go with E1, ship it and wire the design to the app through the live link." The head is derived in the app: the character's verb as the kicker with the up arrow (USE on a catalyst held in full, SEEK on one the chart runs short of), the energy's name at the title size, its function beneath, the ring large, the bar's dots on the right. The claim is retired from the field.
 
 The ten Metal core cells (`fable-edge-v5`: the lead at the catalyst advice's quality, the three ruling domains from the GOD table, the metric) adopted into the station with provenance, transcribed into `k2.js` as `edge` on each cell, mapped in the export tool, and held by a fixture contract (the domains equal the table's row, the lead 35 to 55 words opening on You, the metric one of the function's bars). Live on both links with the deploy of this commit. The remaining forty cells (the Wood, Fire, Earth and Water cores) are written with their batches under the same card.
+
+## 2026-10-16, the fifty
+
+The passage re-ruled through four reads in one sitting: "start with introduce the energy's ruling domain, and find brief sentences introduce each domain" (Formula A of three), "adopt the Pattern's language and writing style", "beautify", "shorten it to 1-3 sentences", then "Batch these for all, map these edge and remedy to stations and ship them live." The shape: `<Energy> runs through your <d1>, your <d2> and your <d3>.` then `It is <clause>, <clause>, and <clause>.`, thirty to forty-five words, The Pattern's voice, no hedge, no assumed relative; Social reads "your social life" (the owner's read of the Earth set). Five sealed writers, one per element, ten cells each, fifty of fifty through the gate (first-run failures were reader-zone words and one capacity opener, re-cut by the writers); every folder verified for its file set, its element and its skeleton bytes, then gated again by the coordinator. Adopted into the fifty ELEMENT_GOD cells with provenance (the ten Metal v8 passages replaced), transcribed into `k2.js`, the fixture contract updated to the frame, live on both links with the landing commit.
 

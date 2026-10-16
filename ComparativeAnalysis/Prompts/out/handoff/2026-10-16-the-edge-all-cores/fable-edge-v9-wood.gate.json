@@ -1,0 +1,64 @@
+[
+ {
+  "file": "edge.木_七杀.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_伤官.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_偏印.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_偏财.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_劫财.json",
+  "blocking": [],
+  "zoneEdge": [
+   "lift (rank 4452)"
+  ],
+  "pass": true
+ },
+ {
+  "file": "edge.木_正印.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_正官.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_正财.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_比肩.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ },
+ {
+  "file": "edge.木_食神.json",
+  "blocking": [],
+  "zoneEdge": [],
+  "pass": true
+ }
+]

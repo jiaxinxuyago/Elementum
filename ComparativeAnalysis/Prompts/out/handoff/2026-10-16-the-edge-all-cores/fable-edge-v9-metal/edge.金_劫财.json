@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_劫财 (catalyst)",
+ "facts": {
+  "persona": "The Rival (劫财) on Metal",
+  "function": "body",
+  "ruling_domains": [
+   "Wealth",
+   "Social",
+   "Career"
+  ],
+  "catalyst_chips": [
+   "Competitive",
+   "First to bet",
+   "Shares the risk"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Competitive",
+    "angles": {
+     "drive": "You compete best with someone to beat and know it. Knowing where you stand matters more than comfort, so you compete harder against one rival than for any reward. Pick one contest with a finish line, because yours have no end in sight.",
+     "cost_self": "Without a rival, you lose your pace. Competing keeps you going, and the next round comes ahead of noticing you are tired. Compete against your own record for a month, since you never reach a finish that lets you rest.",
+     "cost_others": "For you, competing with a friend is taking them seriously. You raise the stakes out of wanting someone worth beating more than someone easy to keep. Keep one friend outside the contest, as you cost a rival the ease of siding with you."
+    }
+   },
+   {
+    "word": "First to bet",
+    "angles": {
+     "drive": "Your yes to a bet comes before the fear has finished. Hesitating feels like losing to yourself, so you bet first and size it afterwards. Keep one bet a year you can afford to lose, since nerve costs you money as much as pride.",
+     "cost_self": "Whenever the stakes go up, you are first to bet. Betting first is the closest you get to sure, and you size it to nerve rather than savings. Size one bet to the savings, because the early yes costs you money put aside.",
+     "cost_others": "Betting first is your way of carrying the people who hesitate. By betting for the group instead of asking it, you put their money where your nerve is. Check the size with them first, before you spend their caution like your own courage."
+    }
+   },
+   {
+    "word": "Shares the risk",
+    "angles": {
+     "drive": "You trust a person faster when the risk is shared. Sharing the risk makes the bond real to you, so you go in together ahead of writing anything down. Write the terms down once, because you risk the friendship as much as the money.",
+     "cost_self": "Where a friend needs backing, you share the risk first. Sharing the risk feels closer than staying out, and the shared bet comes before your margin. Keep one account no friend can draw on, since you cover their losses with money meant for rest.",
+     "cost_others": "Sharing a risk with someone is your warmest offer. Wanting them in it more than safe from it, you share the upside and the fall. Say the downside first, as you bring the people you like into risks sized to your nerve."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Self-made",
+   "Even-handed",
+   "Recovers alone"
+  ],
+  "bars": [
+   {
+    "key": "independence",
+    "label": "Independence"
+   },
+   {
+    "key": "competitiveness",
+    "label": "Competitiveness"
+   },
+   {
+    "key": "solo_team",
+    "label": "Solo · Team"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with someone ahead to catch.",
+    "domains": [
+     "Wealth",
+     "Social",
+     "Career"
+    ],
+    "metric": "competitiveness"
+   }
+  }
+ }
+}

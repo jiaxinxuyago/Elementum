@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/金_偏财 (catalyst)",
+ "facts": {
+  "persona": "The Horizon (偏财) on Metal",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Quick-eyed",
+   "Polished",
+   "Adventurous"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Quick-eyed",
+    "angles": {
+     "drive": "Value flashes at you from clutter. The underpriced watch in the junk tray, the mispriced listing at midnight, the talented kid in the noisy audition: your eye sorts faster than markets do, and the gap between seeing and everyone-else-seeing is where your margins live.",
+     "cost_self": "At the estate sale you walked past forty tables, lifted one ugly lamp, and paid nine dollars for what the auction house later confirmed at twelve hundred. The seller was happy. You were happy. The dealers who arrived an hour earlier still discuss the lamp.",
+     "cost_others": "Friends send you photos before buying anything used: the car, the sofa, the ring. Your calls come back in seconds, are rarely wrong, and have saved your circle a documented fortune. Somebody proposed paying you a retainer once. You declined and appraised their offer instead, accurately."
+    }
+   },
+   {
+    "word": "Polished",
+    "angles": {
+     "drive": "Your presentation is machined smooth. The shoes, the phrasing, the follow-up note: every surface catches light, and doors open on the shine before your substance says a word. People assume expensive training. It is actually maintenance, done privately, to standards nobody imposed but you.",
+     "cost_self": "You were the least qualified person in the final round and the offer came to you, a fact the recruiter later explained with unusual honesty: everyone answered similarly, and you were the answer they could picture in front of clients tomorrow. The picture closed. It usually does.",
+     "cost_others": "People upgrade their own presentation after time around you, quietly: the better email sign-off, the pressed shirt, the pause before answering. You set finish standards without announcing any. Rough talent gets sent to you for polishing the way stones get sent to tumblers, and emerges bookable."
+    }
+   },
+   {
+    "word": "Adventurous",
+    "angles": {
+     "drive": "New territory pulls you the way bargains pull collectors. The unlisted trail, the menu with no translation, the market nobody in your industry has priced: you go first, pay the entry costs cheerfully, and return with either treasure or material. Both spend well at dinner.",
+     "cost_self": "The detour that made the whole trip was your call: off the itinerary, down the unmarked coast road, into the town where the festival happened to be. The group still ranks that accidental evening above everything planned. Your navigation method, they note, was curiosity at full speed.",
+     "cost_others": "People position themselves near your plans the way surfers position near reefs, knowing something will break interestingly. Half your friendships were formed mid-adventure, welded by weather and wrong turns. The stories that open every reunion have one census result: you are in nearly all of them."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Thorough",
+   "Trustworthy",
+   "Slow and steady"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Metal runs through your wealth, your family and your social life. It is the deal you spot on the table before the price moves, the eye your family borrows ahead of a big purchase, and the friends made on the road off the map.",
+    "domains": [
+     "Wealth",
+     "Family",
+     "Social"
+    ],
+    "metric": "ambition"
+   }
+  }
+ }
+}

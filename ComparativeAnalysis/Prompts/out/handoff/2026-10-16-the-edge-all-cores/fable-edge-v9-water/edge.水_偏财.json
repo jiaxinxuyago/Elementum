@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/水_偏财 (catalyst)",
+ "facts": {
+  "persona": "The Horizon (偏财) on Water",
+  "function": "action",
+  "ruling_domains": [
+   "Wealth",
+   "Family",
+   "Social"
+  ],
+  "catalyst_chips": [
+   "Far-flowing",
+   "Adaptive",
+   "Magnetic"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Far-flowing",
+    "angles": {
+     "drive": "Your reach extends the way rivers extend, finding distant ground that stay-at-home currents never touch. The overseas client, the cousin of a stranger, the market two time zones away: your opportunities live at range, and distance has never once read as an obstacle to you.",
+     "cost_self": "The apartment in another country got rented through a chain of four people, none of whom you had met a year ago: a hostel conversation, a wedding, a group chat, a landlord. Your friends redraw the sequence on napkins and get lost. You just followed the water.",
+     "cost_others": "Your address book spans cities you have not visited yet, and somehow those entries pay off too. People far away describe you as the person to know locally, a math nobody can check. When anything needs to happen at distance, yours is the number that gets called."
+    }
+   },
+   {
+    "word": "Adaptive",
+    "angles": {
+     "drive": "You take the shape of whatever situation holds you, instantly and without losing yourself. The boardroom register, the market-stall banter, the funeral tone: each arrives on cue, native-sounding, no seams. Change of plans, change of country, change of fortune: you pour into the new container and proceed.",
+     "cost_self": "The flight got cancelled, the conference moved online, the currency dipped, and the deal closed anyway, renegotiated from a hotel lobby in a format invented that morning. Your colleague framed the itinerary as a souvenir of chaos. You framed the signed contract.",
+     "cost_others": "People stopped worrying about throwing you into new situations, since you land at operating temperature. New team, new city, new industry: within a month the locals assume you have always been there. The only constant across all your shapes, colleagues note, is the results."
+    }
+   },
+   {
+    "word": "Magnetic",
+    "angles": {
+     "drive": "Opportunity and company drift toward you the way streams find the low ground. You do not chase the introduction, the invitation, the tip: they arrive, carried by people who felt like telling you first. Something about your current makes things want to join it.",
+     "cost_self": "You sat alone at the airport bar for forty minutes and left with a job lead, a restaurant recommendation you later used, and the number of a supplier who now handles half your inventory. You had said maybe two hundred words. People just kept sitting down.",
+     "cost_others": "Hosts seat you strategically, having noticed the effect: conversation pools around your chair, introductions form near you unprompted, and the evening’s best story usually gets told in your direction. Networks assemble themselves around you while other people are still icebreaking."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Careful",
+   "Steady-flowing",
+   "Well-prepared"
+  ],
+  "bars": [
+   {
+    "key": "ambition",
+    "label": "Ambition"
+   },
+   {
+    "key": "discipline",
+    "label": "Discipline"
+   },
+   {
+    "key": "focused_multitasking",
+    "label": "Focused · Multitasking"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Water runs through your wealth, your family and your social life. It is the chance from far away that still pays off, the home that comes with you to whatever city is next, and the stranger who sits down beside you and leaves a friend.",
+    "domains": [
+     "Wealth",
+     "Family",
+     "Social"
+    ],
+    "metric": "ambition"
+   }
+  }
+ }
+}

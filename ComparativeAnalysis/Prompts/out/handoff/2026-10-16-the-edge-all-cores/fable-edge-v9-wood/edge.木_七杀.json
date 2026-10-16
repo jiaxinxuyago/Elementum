@@ -1,0 +1,85 @@
+{
+ "_generated_by": "fable-edge-v9",
+ "_handoff": "2026-10-16 the edge, all cores, v9",
+ "cell": "ELEMENT_GOD/木_七杀 (catalyst)",
+ "facts": {
+  "persona": "The General (七杀) on Wood",
+  "function": "order",
+  "ruling_domains": [
+   "Career",
+   "Health",
+   "Growth"
+  ],
+  "catalyst_chips": [
+   "Hard-trained",
+   "Focused",
+   "Storm-tested"
+  ],
+  "catalyst_ledger": [
+   {
+    "word": "Hard-trained",
+    "angles": {
+     "drive": "Discipline shaped you the way wind shapes a coastal tree, early and permanently. The training you put yourself through would read as punishment in someone else’s diary. In yours it reads as Tuesday, and the strength it built shows in everything you hold up.",
+     "cost_self": "Five-thirty alarm, the same drills, the log filled in daily for six years without an audience. When the crisis finally needed someone with exactly that conditioning, you were ready in a way that cannot be improvised. Everyone else called it luck. Your notebook disagrees.",
+     "cost_others": "People meet your regimen with a mix of awe and concern, then borrow pieces of it when their own lives wobble. Nobody manages the full program in one go. You built it ring by ring, which is the part imitators always skip."
+    }
+   },
+   {
+    "word": "Focused",
+    "angles": {
+     "drive": "Aiming at one thing is your natural state, and everything else becomes background. When a goal locks in, the noise drops away like leaves in November: one target, one season, one line of growth. Scattered people orbit you just to remember what direction feels like.",
+     "cost_self": "For eight months the exam was the only thing on the whiteboard, and the whiteboard was the only decoration you allowed. Friends sent invitations and got back polite versions of after June. June came. You passed in the top percentile, and repainted the whiteboard.",
+     "cost_others": "Interrupting you mid-pursuit is a known impossibility, and people schedule around your seasons of aim. Their word for it is intensity, said with respect and a little distance. Projects that need a spearpoint get handed to you. Projects that need a committee do not."
+    }
+   },
+   {
+    "word": "Storm-tested",
+    "angles": {
+     "drive": "Hard weather already came for you, and you are still standing, which changed what pressure means. New crises get measured against old ones and usually lose. You bend, hold, and straighten, with the particular calm of wood that has already survived its worst forecast.",
+     "cost_self": "When the company shed half its staff, panic moved through the office in waves and broke around your desk. You had rebuilt from worse in 2018. You spent the afternoon making two lists and booking one call, and by Friday people were borrowing your lists.",
+     "cost_others": "People check your face during bad news the way sailors check the barometer. If you are steady, the situation is survivable, and your steadiness was calibrated by real storms rather than confidence. The calibration shows. Nobody can fake rings."
+    }
+   }
+  ],
+  "sibling_god_chips": [
+   "Straight-growing",
+   "Honorable",
+   "Leads by example"
+  ],
+  "bars": [
+   {
+    "key": "leadership",
+    "label": "Leadership"
+   },
+   {
+    "key": "responsibility",
+    "label": "Responsibility"
+   },
+   {
+    "key": "flexible_structured",
+    "label": "Flexible · Structured"
+   }
+  ]
+ },
+ "fields": {
+  "edge": {
+   "spec": {
+    "card": "ELEMENT_GOD.edge (v9, Formula A)",
+    "shape": {
+     "lead": "two sentences, 30-45 words: \"<Energy> runs through your <d1>, your <d2> and your <d3>.\" then \"It is <clause>, <clause>, and <clause>.\"",
+     "domains": "exactly facts.ruling_domains",
+     "metric": "one of the bars keys, the god's own trait bar"
+    }
+   },
+   "value": {
+    "lead": "Wood runs through your career, your health and your growth. It is the hard week at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse.",
+    "domains": [
+     "Career",
+     "Health",
+     "Growth"
+    ],
+    "metric": "leadership"
+   }
+  }
+ }
+}
