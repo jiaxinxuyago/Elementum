@@ -50,7 +50,7 @@
    },
    "value": {
     "word": "Asks no one",
-    "text": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. Keep in mind that not asking spares everyone except you."
+    "text": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load."
    },
    "value_b": {
     "word": "Asks no one",
@@ -254,7 +254,7 @@
    },
    "value": {
     "word": "Always right",
-    "text": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Remember that you take from them, by being right, the pleasure of ever changing your mind."
+    "text": "Where you are sure, you leave no space for anyone partly right. Holding your view matters more than hearing theirs, and that costs people near you their say. Each time you win the point, you cost them the pleasure of changing your mind."
    }
   },
   "ledger[6]": {
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Keeps distance",
-    "text": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. You keep out the very closeness you keep missing, and it helps to know that."
+    "text": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. Out of reach, you miss the very closeness you keep out."
    }
   },
   "ledger[8]": {

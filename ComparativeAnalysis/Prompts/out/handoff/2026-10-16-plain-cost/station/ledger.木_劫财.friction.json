@@ -93,7 +93,7 @@
    },
    "value": {
     "word": "Bets too big",
-    "text": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose in money not kept the bet you did not need, a number worth remembering."
+    "text": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk ahead of sure footing. You lose real money on bets you never needed to make."
    }
   },
   "ledger[2]": {
@@ -294,7 +294,7 @@
    },
    "value": {
     "word": "Spends shared money",
-    "text": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. Remember that what you spend from the pot is also somebody's savings."
+    "text": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. For the sake of moving, you let the pot pay for your speed."
    },
    "value_b": {
     "word": "Spends shared money",
@@ -337,7 +337,7 @@
    },
    "value": {
     "word": "Spends shared money",
-    "text": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and that is the part to hold onto."
+    "text": "You spend what is shared like your own nerve, fast and ahead of the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and the owing stays with you."
    }
   },
   "ledger[8]": {
@@ -376,7 +376,7 @@
    },
    "value": {
     "word": "Spends shared money",
-    "text": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
+    "text": "Ahead of asking, you spend what was pooled and settle the split later. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
    }
   }
  }
