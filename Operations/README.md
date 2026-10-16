@@ -81,6 +81,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 | BIZ_01 | Elementum_Expense_Report | Monthly costs + phase projections + cost triggers |
 | BIZ_02 | Elementum_Validation_Sprint | Beta validation strategy |
 | BIZ_03 | Audience_Tone_Research | Target-audience demographics + competitor voice matrix + tone-of-voice variants for the Reading corpus (2026-08-05; §8 tone ratified 2026-08-05 — operating canon now REA_16) |
+| BIZ_04 | Friction_Framing_Research | How the friction pages frame the reader's downsides: audience evidence, blunt-versus-gentle feedback, feedback psychology, framework language; recommendation "plain cost, owned cause, open door" (2026-10-16, adopted; notes in `Business/research/BIZ_04_friction_framing_notes/`) |
 
 ### Legal_Admin/ — legal records, entity paperwork
 | File | Purpose |
