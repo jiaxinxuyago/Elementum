@@ -692,7 +692,7 @@ export function characterLine(r, condition) {
   const friction = r.role === 'friction' || r.coreExcess;
   const low = v === 'absent' || v === 'thin';
   if (friction) return low ? { pole: 'friction', verdict: 'Ease off it.', dir: 'release', verb: 'ease off' } : { pole: 'friction', verdict: 'Release it.', dir: 'release', verb: 'release' };
-  return low ? { pole: 'catalyst', verdict: 'Seek more of it.', dir: 'grow', verb: 'seek' } : { pole: 'catalyst', verdict: 'Use it.', dir: 'grow', verb: 'use' };
+  return low ? { pole: 'catalyst', verdict: 'Seek it.', dir: 'grow', verb: 'seek' } : { pole: 'catalyst', verdict: 'Use it.', dir: 'grow', verb: 'use' };
 }
 
 const PRESENT = new Set(['present', 'abundant', 'dominant']);

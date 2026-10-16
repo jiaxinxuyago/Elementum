@@ -847,7 +847,7 @@
 /* THE CHARACTER's opening (owner 2026-10-16): the pole pill, a two-word verdict, a direction mark */
 .jny .el-charrow{ display: flex; align-items: center; gap: 9px; margin: 7px 0 0; min-width: 0; }
 .jny .el-charpill{ cursor: pointer; font-size: 9px; padding: 3px 9px 3px 7px; flex: 0 0 auto; }
-.jny .el-charverdict{ font-size: 17px; flex: 1 1 auto; min-width: 0; }
+.jny .el-charverdict{ font-size: 17px; flex: 1 1 auto; min-width: 0; white-space: nowrap; }
 .jny .el-chardir{ display: inline-flex; align-items: center; gap: 5px; flex: 0 0 auto; }
 .jny .el-chardir-lab{ font-size: 8.5px; letter-spacing: 1.1px; text-transform: uppercase; color: var(--inkLight); }
 .jny .el-chardir-track{ position: relative; width: 44px; height: 5px; border-radius: 3px; background: color-mix(in srgb, var(--ink) 10%, transparent); }

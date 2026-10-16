@@ -63,7 +63,7 @@ Re-ruled the same hour: "Too long, it reads repetitive against the first paragra
 | Case | Verdict | Mark |
 |---|---|---|
 | catalyst, held in full | Use it. (echoes THE EDGE, "How to use Wood") | grow |
-| catalyst, running short | Seek more of it. | grow |
+| catalyst, running short | Seek it. (two words, so the row never wraps) | grow |
 | friction, carried in plenty | Release it. (echoes THE REMEDY, which sends the reader to seek another energy) | release |
 | friction, thin | Ease off it. | release |
 | the core, over | Channel it. | release |
