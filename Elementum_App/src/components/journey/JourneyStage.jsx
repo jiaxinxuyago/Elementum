@@ -93,15 +93,17 @@ const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
 );
 
-export default function JourneyStage({ reveal = false, openCore = false, onDone, onOpenDayMaster, onOpenCodex }) {
+export default function JourneyStage({ reveal = false, openCore = false, openEl = null, onDone, onOpenDayMaster, onOpenCodex }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const { openUpgrade } = useUpgrade();   // THE EDGE's domain sheet leads to the price gate (owner 2026-10-15)
   // `read-elemental` alias (owner 2026-09-15): the retired d12 Elemental
   // Nature detail opens straight onto the core's own energy page (the Body
   // corpus), so the initial screen is seeded from the prop, not set in an effect.
-  const [screen, setScreen] = useState(() => (openCore && ec ? 'element' : 'catalogue'));
-  const [elOpen, setElOpen] = useState(() => (openCore && ec ? coreElOf(ec) : null));      // element screen target
+  // `openEl` (owner 2026-10-17): a Day Master diagnosis row opens straight
+  // onto that energy's page, the same way.
+  const [screen, setScreen] = useState(() => ((openCore || openEl) && ec ? 'element' : 'catalogue'));
+  const [elOpen, setElOpen] = useState(() => (ec ? (openEl || (openCore ? coreElOf(ec) : null)) : null));      // element screen target
   const [showShare, setShowShare] = useState(false);
   const [cardStatus, setCardStatus] = useState(null);
   const cardRef = useRef(null);

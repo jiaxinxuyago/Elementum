@@ -846,3 +846,74 @@ export function buildCarryModel(m, chosen = {}) {
     seek: m.balanced ? null : row('seek', m.seek, chosen.gifts),
   };
 }
+
+// ────────────────────────────────────────────────────────────────
+// P4 v4, THE DIAGNOSIS (owner 2026-10-17, the recommended set Q1–Q12 A):
+// the Day Master page reads the chart's five energies as a diagnosis and
+// adds no keyword of its own. Each row is a recap of that energy's function
+// page, built by the same buildElementScreen the page uses:
+//   · the line = the page's own definition state (the persona tail; the 2+2
+//     page and a Balanced chart read the pair's shared text from sentence 3),
+//     its pole opener dropped because the row's pill says it;
+//   · the chips = the page's own keyword chips, in the page's order;
+//   · the pointer = THE EDGE's three domains (catalyst, Balanced) or THE
+//     REMEDY's energy (friction).
+// A friction that is absent or thin shows no chips (R3: it cannot be
+// overgrown). Order: frictions (cause) then catalysts (cure); a Balanced
+// chart is one group by amount. The pool items and the carry rows retire.
+// ────────────────────────────────────────────────────────────────
+const POLE_OPENER = /^(As a catalyst|As a friction|Running thin|Running over|In balance), /;
+const sentencesOf = (t) => (t || '').match(/[^.!?]+[.!?]+/g)?.map((s) => s.trim()) || [];
+// The door mark's volume words (owner R2, 2026-09-16), reused on the rows.
+const DX_VOL = { absent: 'absent', thin: 'thin', abundant: 'wide', dominant: 'excess' };
+
+export function buildDiagnosisModel(m) {
+  if (!m) return null;
+  const rowOf = (r) => {
+    const s = buildElementScreen(m, r.el);
+    const f = s?.fnReading; const fn = s?.fn;
+    const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst';
+    const twoFaced = r.faces.length > 1 && r.faces[0].share < 60;
+    const tail = twoFaced ? null : K2_CELLS[`${r.hz}_${r.god}`]?.fnReading?.[pole]?.define;
+    const state = !fn ? []
+      : m.balanced && fn.definition_balanced ? sentencesOf(fn.definition_balanced).slice(2)
+        : tail ? sentencesOf(tail)
+          : sentencesOf(pole === 'friction' ? fn.definition_friction : fn.definition_catalyst).slice(2);
+    const raw = state.join(' ').replace(POLE_OPENER, '');
+    const line = raw.charAt(0).toUpperCase() + raw.slice(1);
+    const quiet = !m.balanced && pole === 'friction' && !PRESENT.has(r.volume);
+    return {
+      el: r.el, name: r.name, hz: r.hz, isCore: r.isCore, presence: r.presence,
+      fn: s?.fnLabel || fnLabelFor(m, r), fnKey: s?.fnKey || fnKeyFor(m, r),
+      pole: m.balanced ? 'balanced' : pole,
+      vol: r.isCore && r.volume === 'absent' ? 'unrooted' : r.isCore ? '' : (DX_VOL[r.volume] || ''),
+      line,
+      chips: quiet ? [] : (f?.ledger || []).map((x) => x.word),
+      edge: f?.edge?.domains || null,
+      remedy: f?.remedy ? { el: f.remedy.el, name: f.remedy.name, fn: f.remedy.fn } : null,
+    };
+  };
+  const rows = Object.fromEntries(m.els.map((r) => [r.el, rowOf(r)]));
+  const coreName = m.core.name;
+  const nEase = m.skip.length; const nSeek = m.seek.length;
+  // The lead (tpl_carry_lead): Overfueled and Underfueled as ruled; the
+  // Balanced line re-cut (owner Q11 A, 2026-10-17: no "door", no "X, so Y").
+  const lead = m.condition === 'Overfueled'
+    ? `${coreName} runs Overfueled. ${NUM_WORD[nEase] || nEase} energies feed a core already full. ${NUM_WORD[nSeek] || nSeek} are where the surplus should go.`
+    : m.condition === 'Underfueled'
+      ? `${coreName} runs Underfueled. ${NUM_WORD[nSeek] || nSeek} energies are what the core is asking for. ${NUM_WORD[nEase] || nEase} already carry weight.`
+      : `${coreName} runs Balanced. Your five energies hold each other, and none of them needs to grow or be released.`;
+  const track = [...m.els].sort((a, b) => b.presence - a.presence).map((r) => ({
+    el: r.el, name: r.name, presence: r.presence,
+    mark: m.balanced ? null : m.seek.includes(r) ? 'seek' : m.skip.includes(r) ? 'ease' : null,
+  }));
+  const groups = m.balanced
+    ? [{ kind: 'balanced', rows: [...m.els].sort((a, b) => b.presence - a.presence).map((r) => rows[r.el]) }]
+    : [
+      { kind: 'friction', rows: m.skip.map((r) => rows[r.el]) },
+      { kind: 'catalyst', rows: m.seek.map((r) => rows[r.el]) },
+    ].filter((g) => g.rows.length);
+  // The first catalyst (the classical 用神, named in app words only, Q8 A).
+  const first = m.balanced ? null : m.seek[0]?.el || null;
+  return { condition: m.condition, lead, track, groups, first };
+}

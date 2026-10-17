@@ -18,7 +18,7 @@
 // Usage: node tools/qa-selection-fixtures.mjs   (exit 1 on any failure)
 // ===================================================================
 import { buildEnergyChart } from '../src/engine/buildEnergyChart.js';
-import { buildJourneyModel, poolDoors, buildCarryModel, buildElementScreen, clashes } from '../src/components/journey/journeyData.js';
+import { buildJourneyModel, poolDoors, buildCarryModel, buildElementScreen, buildDiagnosisModel, clashes } from '../src/components/journey/journeyData.js';
 import { resolveDayMasterReading } from '../src/components/reading/readingResolve.js';
 import { STEM_CARD_DATA } from '../src/content/index.js';
 import { STEM_VARIANTS } from '../src/content/stemVariants.js';
@@ -188,6 +188,44 @@ for (const f of FIXTURES) {
   check('50 / 50 tie → 2+2, yang face leads (stable sort)', [50, 50], 2, 2, '偏财');
   // the 60% face split never touches the 40% volume law: a 50/50 face split is not the Balanced chart baseline
   const tie = blend([50, 50]); if (tie.dx?.condition === 'Balanced') fail({ name: 'ledger · face split vs chart band' }, 'a balanced face split read as the Balanced chart');
+}
+
+// ---------------------------------------------------------------------------
+// E1 / E2 · THE DIAGNOSIS (P4 v4, owner 2026-10-17): the Day Master page adds
+// no keyword of its own. E1: every row's chips are that energy page's chips,
+// in order (none on an absent or thin friction, R3). E2: every row's line is
+// text of that energy page's definition. Every energy appears once; a
+// Balanced chart is one group; frictions come before catalysts.
+// ---------------------------------------------------------------------------
+{
+  const PRESENT_V = new Set(['present', 'abundant', 'dominant']);
+  let rowsChecked = 0;
+  for (const f of FIXTURES) {
+    const t = { name: `diagnosis · ${f.name}` };
+    const chart = { dayMaster: { stem: f.stem, element: f.element, strength: f.strength }, elements: Object.fromEntries(Object.entries(f.p).map(([k, score]) => [k, { score }])), pillars: {}, tgPattern: 'pure' };
+    const ec = buildEnergyChart(chart);
+    const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[f.stem] });
+    const dx = buildDiagnosisModel(m);
+    const rows = dx.groups.flatMap((g) => g.rows);
+    if (rows.length !== 5 || new Set(rows.map((r) => r.el)).size !== 5) fail(t, `${rows.length} rows, expected each of the five energies once`);
+    if (m.balanced && (dx.groups.length !== 1 || dx.groups[0].kind !== 'balanced')) fail(t, 'a Balanced chart should show one group');
+    if (!m.balanced && dx.groups.length === 2 && dx.groups[0].kind !== 'friction') fail(t, 'frictions should come before catalysts');
+    if (/door|[—→;]/i.test(dx.lead)) fail(t, `lead breaks the house words: "${dx.lead}"`);
+    for (const row of rows) {
+      rowsChecked++;
+      const s = buildElementScreen(m, row.el); const x = m.els.find((e) => e.el === row.el);
+      const page = (s.fnReading?.ledger || []).map((l) => l.word);
+      const quiet = !m.balanced && row.pole === 'friction' && !PRESENT_V.has(x.volume);
+      const want = quiet ? [] : page;
+      if (row.chips.join('|') !== want.join('|')) fail(t, `${row.name} chips ${row.chips.join(' / ')} ≠ its page ${want.join(' / ')}`);
+      const fn = s.fn || {};
+      const source = [fn.definition_balanced, fn.definition_catalyst, fn.definition_friction].join(' ');
+      const tails = ['catalyst', 'friction'].map((p) => K2_CELLS[`${x.hz}_${x.god}`]?.fnReading?.[p]?.define || '').join(' ');
+      const body = row.line.slice(1);
+      if (!row.line || !(source + ' ' + tails).includes(body)) fail(t, `${row.name} line is not its page's text: "${row.line.slice(0, 60)}"`);
+    }
+  }
+  console.log(`  E1/E2 diagnosis rows echo their energy pages: ${rowsChecked} rows across ${FIXTURES.length} fixtures`);
 }
 
 // M1 (owner 2026-10-14, REA_19): THE FUNCTION METRICS on every energy page of

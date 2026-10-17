@@ -411,6 +411,8 @@ function ReturningUserGate({ screen, onEnter }) {
 
 export default function App() {
   const [screen, setScreenState] = useState(readHash);
+  // The energy a Day Master diagnosis row asked to open (P4 v4, see openEnergy).
+  const [energyTarget, setEnergyTarget] = useState(null);
   // Navigations run as a transition: if the target screen is still lazy-loading,
   // React keeps the CURRENT screen on-screen until it's ready instead of
   // dropping to the blank Suspense fallback — so there's no "white blink" even
@@ -421,6 +423,7 @@ export default function App() {
   // deep-linkable during development).
   const setScreen = (next) => {
     const name = typeof next === 'function' ? next(screen) : next;
+    if (name !== 'app-reading') setEnergyTarget(null);
     startTransition(() => setScreenState(name));
     if (typeof window !== 'undefined') {
       window.location.hash = `#/${name}`;
@@ -454,6 +457,11 @@ export default function App() {
   }, []);
 
   const goto = (name) => () => setScreen(name);
+
+  // P4 v4 (owner 2026-10-17): a Day Master diagnosis row opens that energy's
+  // page. The target is read by JourneyStage when it mounts on app-reading,
+  // and cleared by any navigation elsewhere (setScreen).
+  const openEnergy = (el) => { setEnergyTarget(el); setScreen('app-reading'); };
 
   // Where Loading hands off once the chart is computed and the dwell ends:
   // 'reveal' (the Naming ceremony — a chart drawn for the first time through
@@ -663,11 +671,13 @@ export default function App() {
     case 'app-reading':
       // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
       // → towers + seal dock. Endpoints route into the existing reading pages.
-      rendered = <JourneyStage onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
+      rendered = <JourneyStage openEl={energyTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
-      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
+      // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
+      // the journey (the same hook the DevBar uses, set by JourneyStage).
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} />;
       break;
     case 'app-pillars':
       // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
@@ -715,7 +725,9 @@ export default function App() {
       break;
     case 'read-daymaster':
       // Retired DayMasterDetail — aliased to the D13 Day Master card (P4).
-      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
+      // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
+      // the journey (the same hook the DevBar uses, set by JourneyStage).
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} />;
       break;
     case 'read-tengods':
       rendered = <TenGodsDetail onBack={goto('app-reading')} />;
@@ -884,6 +896,17 @@ function DevHelpers() {
           });
           setChart(chart);
           console.log(`[seed] ${__stem} ${key} → dm=${chart.dayMaster?.stem}`);
+        } catch (err) {
+          console.error('[seed] calculateBaziChart failed:', err);
+        }
+      };
+
+      // Any birth (QA and review captures): window.__seedBirth({ year, month, day, hour }).
+      window.__seedBirth = (b) => {
+        const clean = { ...base, ...b };
+        updateBirthData(clean);
+        try {
+          setChart(calculateBaziChart({ year: clean.year, month: clean.month, day: clean.day, hour: resolveHourForCalc(clean), gender: resolveGenderForCalc(clean), longitude: resolveLongitudeForCalc(clean), location: resolveLocationName(clean) }));
         } catch (err) {
           console.error('[seed] calculateBaziChart failed:', err);
         }

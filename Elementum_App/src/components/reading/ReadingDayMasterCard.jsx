@@ -1,78 +1,77 @@
 // ===================================================================
-// ELEMENTUM · ReadingDayMasterCard  (P4 — the Day Master reference card)
+// ELEMENTUM · ReadingDayMasterCard  (P4 — the Day Master page)
 // ===================================================================
-// Reached from the catalogue hero arrow. The quintessence page (REA_02 §5h,
-// owner 2026-09-15): seal + archetype + manifesto, the "Birth Chart" route
-// into the 八字 chart, The Sign, Your nature, the Gifts & Shadows panel with
-// a door mark per trait, the pool note, and the carry card that puts all
-// five energies in the manual's EASE / SEEK rows. Fills the app frame; the
-// global tab bar sits over it. No gate here — identity is the free hook.
+// Reached from the catalogue hero arrow. P4 v4, THE DIAGNOSIS (owner
+// 2026-10-17, Q1–Q12 A): seal + archetype + manifesto, the "Birth Chart"
+// route into the 八字 chart, The Sign, how the core runs (condition, the
+// lead line, the five-energy track, the band paragraph), then every energy
+// as a recap of its own function page: frictions to release first, then
+// catalysts to grow (a Balanced chart: one group, keep the mix). Each row
+// opens its energy page. The page adds no keyword of its own: the lines and
+// chips are the energy pages' text (journeyData.buildDiagnosisModel).
+// No gate here — identity is the free hook.
 // Vocabulary firewall: no ten-god name on this page; function nouns only.
 // ===================================================================
 
+import { JOURNEY_DEFS } from '../journey/journeyDefs.js';
 
-// The door mark carries the energy's volume as well as its arrow (owner R2,
-// 2026-09-16): absent (unrooted for the core) · thin · wide · excess.
-const VOL_LABEL = { absent: 'absent', thin: 'thin', abundant: 'wide', dominant: 'excess' };
-function DoorMark({ mark }) {
-  if (!mark) return null;
-  const role = mark.role || 'none';
-  const vol = mark.volume === 'absent' && mark.isCore ? 'unrooted' : VOL_LABEL[mark.volume] || '';
-  return (
-    <span className={`dm-door ${mark.el} ${role}${vol ? ' v-' + vol : ''}`} aria-label={`${mark.name}${vol ? ', ' + vol : ''}, ${role === 'seek' ? 'seek' : role === 'ease' ? 'ease' : 'balanced'}`}>
-      <i />
-      <span>{mark.name}{vol ? <em> · {vol}</em> : null}</span>
-    </span>
-  );
-}
+// The energy pages' glyph set (element, function, domain, arrows), so the
+// rows wear the same marks as the pages they open.
+const Use = ({ id, className }) => (
+  <svg className={className} viewBox="0 0 24 24" aria-hidden="true"><use href={`#jny-${id}`} /></svg>
+);
+const DOM = { Wealth: 'dom-wealth', Career: 'dom-career', Health: 'dom-health', Love: 'dom-love', Family: 'dom-family', Social: 'dom-social', Mind: 'dom-mind', Growth: 'dom-growth' };
+const COND_ICON = { Overfueled: 'ic-charged', Underfueled: 'ic-receptive', Balanced: 'ic-balanced' };
+const GROUP = {
+  friction: { pill: 'fric', icon: 'ar-down', label: 'Friction', title: 'Release these' },
+  catalyst: { pill: 'cat', icon: 'ar-up', label: 'Catalyst', title: 'Grow these' },
+  balanced: { pill: 'cond', icon: 'ic-balanced', label: 'Balanced', title: 'Keep the mix' },
+};
 
-function CarryRow({ row }) {
-  if (!row) return null;
-  const role = row.kind === 'seek' ? 'Seek' : 'Ease';
+function EnergyRow({ row, first, onOpen }) {
+  const open = () => onOpen?.(row.el);
   return (
-    <div className={`dm-row ${row.kind}`}>
-      <div className="dm-dots">
-        {row.energies.map((e) => <span key={e.el} className={`dm-dot ${e.el}`}>{e.hz}</span>)}
+    <div className={`dx-row ${row.pole} dk-${row.el}`} role="button" tabIndex={0} aria-label={`${row.name} is your ${row.fn}, open its reading`}
+      onClick={open} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } }}>
+      <div className="dx-head">
+        <span className="dx-chip"><Use id={`el-${row.el}`} /></span>
+        <span className="dx-title">
+          <span className="dx-claim"><b>{row.name}</b> is your <b>{row.fn}</b><Use id={`fn-${row.fnKey}`} className="dx-fnicon" /></span>
+          {row.isCore || first ? (
+            <span className="dx-tags">
+              {row.isCore ? <span className="dx-tag you">Yourself</span> : null}
+              {first ? <span className="dx-tag first">Start here</span> : null}
+            </span>
+          ) : null}
+        </span>
+        <span className="dx-amt"><b>{row.presence}%</b>{row.vol ? <span>{row.vol}</span> : null}</span>
       </div>
-      <div className="dm-rowbody">
-        <div className="dm-rl">
-          <span className={`dm-role ${row.kind}`}>{role}</span>
-          {row.energies.map((e) => (
-            <span key={e.el}>{e.name} · {e.isCore ? 'you' : e.fn} · {e.presence}</span>
-          ))}
-        </div>
-        {row.sentence ? <p className="dm-eff">{row.sentence}</p> : null}
-        {row.remedy ? <p className="dm-rem">{row.remedy}</p> : null}
-        {row.touch?.length ? (
-          <div className="dm-touch">{row.touch.map((t) => <span key={t}>{t}</span>)}</div>
-        ) : null}
+      {row.line ? <p className="dx-line">{row.line}</p> : null}
+      {row.chips.length ? (
+        <div className="dx-chips">{row.chips.map((c) => <span key={c} className={`dx-kw ${row.pole}`}>{c}</span>)}</div>
+      ) : null}
+      <div className="dx-foot">
+        {row.remedy ? (
+          <span className="dx-ptr"><span className="dx-ptrlab">The remedy</span><span className="dx-seek">Seek <span className={`dx-mini dk-${row.remedy.el}`}><Use id={`el-${row.remedy.el}`} /></span>{row.remedy.name}{row.remedy.fn ? `, your ${row.remedy.fn}` : ''}</span></span>
+        ) : row.edge?.length ? (
+          <span className="dx-ptr"><span className="dx-ptrlab">The edge</span>{row.edge.map((d) => <span key={d} className="dx-dom"><Use id={DOM[d] || 'dom-career'} />{d}</span>)}</span>
+        ) : <span className="dx-ptr" />}
+        <span className="dx-go"><Use id="ico-arrow-r" /></span>
       </div>
     </div>
   );
 }
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, band, balanced, carry, onBack, onBirthChart, onShare }) {
-  // The causal frame (owner 2026-09-10) under the door rule (2026-09-15):
-  // gifts show through the energies the chart asks you to seek, shadows
-  // through the energies already carrying weight. A Balanced chart opens no
-  // doors, so the bridges fall back to the band form.
-  const shadowState = band === 'concentrated' ? 'RUNNING OVER' : band === 'open' ? 'RUNNING THIN' : 'OFF BALANCE';
-  // Bridges in the capability register (owner R5-of-the-report, 2026-09-16):
-  // the material's reach, not a claim about the chart; the carry card below
-  // keeps the chart claims.
-  const giftBridge = balanced ? 'These light up when your core runs balanced.' : `What ${archetype} can do where your chart asks for more.`;
-  const shadowBridge = balanced ? 'These swell when the balance slips.' : `Where ${archetype} overgrows when an energy carries weight.`;
-  // The pool note ("Five of the Blade's fourteen…") was retired by the owner
-  // on 2026-09-20: the bridges frame the chips, the count needs no apology.
-  // An empty side (no open door) renders nothing, header included.
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, dx, onBack, onBirthChart, onShare, onOpenEnergy }) {
   return (
     <div className="reading-fill">
+      <span style={{ display: 'none' }} dangerouslySetInnerHTML={{ __html: `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${JOURNEY_DEFS}</defs></svg>` }} />
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className="screen-pad">
         <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack} role="button" tabIndex={0} aria-label="Back" onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onBack?.(); } }}>
           <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l" /></svg></span>
-          <span className="eyebrow">YOUR ENERGIES · DAY MASTER</span>
+          <span className="eyebrow">YOUR ENERGIES · DIAGNOSIS</span>
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 18 }}>
@@ -104,69 +103,40 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
           </div>
         ) : null}
 
-        {nature ? (
-          <div className="layer" style={{ marginTop: 12 }}>
-            <div className="layer-label">Your nature</div>
-            <p>{nature}</p>
-          </div>
-        ) : null}
-
-        {(gifts?.length || shadows?.length) ? (
-          <div className="claims-card" style={{ marginTop: 12 }}>
-            {gifts?.length ? (
-              <>
-                <div className="layer-label gs-right" style={{ padding: '2px 0 2px' }}>{archetype.toUpperCase()}, RUNNING RIGHT</div>
-                <div className="gs-bridge">{giftBridge}</div>
-              </>
-            ) : null}
-            {(gifts || []).map((g) => (
-              <div className="claim dm-claim" key={g.phrase}>
-                <span><b>{g.phrase}.</b> {g.desc}</span>
-                <DoorMark mark={g.mark} />
-              </div>
-            ))}
-            {shadows?.length ? (
-              <>
-                <div className="layer-label gs-over" style={{ padding: '10px 0 2px' }}>{archetype.toUpperCase()}, {shadowState}</div>
-                <div className="gs-bridge">{shadowBridge}</div>
-              </>
-            ) : null}
-            {(shadows || []).map((s) => (
-              <div className="claim dm-claim" key={s.phrase}>
-                <span><b>{s.phrase}.</b> {s.desc}</span>
-                <DoorMark mark={s.mark} />
-              </div>
-            ))}
-          </div>
-        ) : null}
-
-        {carry ? (
-          <div className="layer dm-carry" style={{ marginTop: 12 }}>
-            <div className="layer-label">How your chart carries {archetype}</div>
-            <p className="dm-lead">{carry.lead}</p>
+        {dx ? (
+          <div className="layer dx-cond" style={{ marginTop: 12 }}>
+            <div className="dx-condhead">
+              <span className="layer-label" style={{ margin: 0 }}>How {archetype} runs</span>
+              <span className={`dx-pill cond`}><Use id={COND_ICON[dx.condition] || 'ic-balanced'} />{dx.condition}</span>
+            </div>
+            <p className="dx-lead">{dx.lead}</p>
             <div className="dm-track" aria-label="Your five energies by presence">
-              {carry.track.map((t) => <b key={t.el} className={t.el} style={{ width: `${Math.max(t.presence, 2)}%` }} />)}
+              {dx.track.map((t) => <b key={t.el} className={t.el} style={{ width: `${Math.max(t.presence, 2)}%` }} />)}
             </div>
             <div className="dm-tracklab">
-              {carry.track.map((t) => (
+              {dx.track.map((t) => (
                 <span key={t.el} style={{ width: `${Math.max(t.presence, 2)}%` }}>
                   <em>{t.presence}</em>
                   {t.presence >= 12 ? <>{t.name}{t.mark ? <i className={t.mark}>{t.mark === 'seek' ? '▲' : '▼'}</i> : null}</> : null}
                 </span>
               ))}
             </div>
-            {carry.ease || carry.seek ? (
-              <div className="dm-rows">
-                <CarryRow row={carry.ease} />
-                <CarryRow row={carry.seek} />
-              </div>
-            ) : null}
-            <button type="button" className="dm-handoff" onClick={onBack}>
-              <span>Your <b>manual</b> holds the full seek and ease rows.</span>
-              <svg className="bc-arr" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-arrow-r" /></svg>
-            </button>
+            {nature ? <p className="dx-nature">{nature}</p> : null}
           </div>
         ) : null}
+
+        {(dx?.groups || []).map((g) => {
+          const G = GROUP[g.kind];
+          return (
+            <div className="dx-group" key={g.kind}>
+              <div className="dx-ghead">
+                <span className={`dx-pill ${G.pill}`}><Use id={G.icon} />{G.label}</span>
+                <span className="dx-gtitle">{G.title}</span>
+              </div>
+              {g.rows.map((row) => <EnergyRow key={row.el} row={row} first={dx.first === row.el} onOpen={onOpenEnergy} />)}
+            </div>
+          );
+        })}
 
         <div className="expander">
           <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-r" /></svg></span>

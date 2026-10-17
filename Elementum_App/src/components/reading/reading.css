@@ -604,3 +604,51 @@
 .reading .dm-touch{ display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
 .reading .dm-touch span{ font-size:10.5px; padding:2px 8px; border-radius:999px; border:1px solid rgba(139,115,85,.35); color:var(--inkSoft); background:rgba(248,241,225,.7); }
 .reading .dm-carry .dm-handoff{ margin-top:10px; background:transparent; border:0; border-top:1px dotted rgba(139,115,85,.3); border-radius:0; padding:9px 0 2px; }
+
+/* ── P4 v4, THE DIAGNOSIS (owner 2026-10-17): the five energies as recaps of
+   their function pages. The marks are the energy pages' own: the element
+   chip, the function glyph, the Catalyst / Friction pills, the keyword
+   chips and the domain marks. ── */
+.reading .dx-cond .dx-condhead{ display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:7px; }
+.reading .dx-pill{ display:inline-flex; align-items:center; gap:4px; font-family:'EB Garamond',Georgia,serif; font-size:8.5px; font-weight:700; letter-spacing:.8px; text-transform:uppercase; color:#fff; padding:3px 9px; border-radius:999px; flex:none; }
+.reading .dx-pill svg{ width:10px; height:10px; }
+.reading .dx-pill.cat{ background:var(--up); } .reading .dx-pill.fric{ background:var(--down); } .reading .dx-pill.cond{ background:var(--bronzeDark); }
+.reading .dx-lead{ margin:0 0 9px; font-size:14px; line-height:1.5; color:var(--ink); font-weight:500; }
+.reading .dx-nature{ margin-top:11px !important; padding-top:10px; border-top:1px dotted rgba(139,115,85,.3); }
+.reading .dx-group{ margin-top:16px; }
+.reading .dx-ghead{ display:flex; align-items:center; gap:9px; margin:0 2px 8px; }
+.reading .dx-gtitle{ font-family:'Cormorant Garamond','EB Garamond',Georgia,serif; font-size:19px; font-weight:600; color:var(--ink); }
+.reading .dx-row{ background:var(--cardstock); border:1px solid var(--paperHair); border-radius:14px; box-shadow:var(--shadow-card); padding:11px 13px 9px; margin-bottom:9px; cursor:pointer; position:relative; overflow:hidden; transition:transform .14s var(--ease-out), box-shadow .14s; }
+.reading .dx-row::before{ content:''; position:absolute; left:-30px; top:-30px; width:150px; height:90px; background:radial-gradient(ellipse 50% 50% at 40% 50%, color-mix(in srgb, var(--pig) 16%, transparent), transparent 75%); pointer-events:none; }
+.reading .dx-row:hover{ transform:translateY(-1px); box-shadow:var(--shadow-tile); }
+.reading .dx-row:focus-visible{ outline:2px solid var(--bronzeDark); outline-offset:2px; }
+.reading .dx-head{ display:grid; grid-template-columns:auto 1fr auto; gap:10px; align-items:center; position:relative; }
+.reading .dx-chip{ width:30px; height:30px; border-radius:9px; background:rgba(248,244,236,.95); box-shadow:0 1px 3px rgba(43,39,34,.1); display:flex; align-items:center; justify-content:center; color:var(--pigDeep); }
+.reading .dx-chip svg{ width:17px; height:17px; }
+.reading .dx-title{ display:flex; flex-direction:column; gap:3px; min-width:0; }
+.reading .dx-claim{ font-size:15px; line-height:1.2; color:var(--inkSoft); display:inline-flex; align-items:center; gap:4px; flex-wrap:wrap; }
+.reading .dx-claim b{ font-weight:600; color:var(--ink); }
+.reading .dx-fnicon{ width:16px; height:16px; margin-left:3px; color:var(--pigDeep); }
+.reading .dx-row.friction .dx-fnicon{ color:var(--down); } .reading .dx-row.catalyst .dx-fnicon{ color:var(--up); }
+.reading .dx-tags{ display:flex; gap:5px; }
+.reading .dx-tag{ font-family:'Cinzel',serif; font-size:7px; font-weight:600; letter-spacing:1.2px; text-transform:uppercase; padding:2px 6px; border-radius:4px; }
+.reading .dx-tag.you{ color:var(--silk); background:var(--dmBorder); }
+.reading .dx-tag.first{ color:var(--up); background:color-mix(in srgb, var(--up) 12%, transparent); border:1px solid color-mix(in srgb, var(--up) 30%, transparent); }
+.reading .dx-amt{ display:flex; flex-direction:column; align-items:flex-end; font-variant-numeric:tabular-nums; }
+.reading .dx-amt b{ font-size:16px; font-weight:600; color:var(--pigDeep); line-height:1; }
+.reading .dx-amt span{ font-family:'Cinzel',serif; font-size:7px; letter-spacing:1.2px; text-transform:uppercase; color:var(--inkLight); margin-top:3px; }
+.reading .dx-line{ margin:9px 0 0; font-size:13.5px; line-height:1.5; color:var(--inkSoft); position:relative; }
+.reading .dx-chips{ display:flex; flex-wrap:wrap; gap:5px; margin-top:8px; }
+.reading .dx-kw{ font-size:11px; letter-spacing:.6px; padding:3px 9px; border-radius:999px; background:rgba(76,122,79,.10); border:1px solid rgba(76,122,79,.28); color:#3f6342; }
+.reading .dx-kw.friction{ background:rgba(163,84,62,.09); border-color:rgba(163,84,62,.26); color:#8a4632; }
+.reading .dx-kw.balanced{ background:rgba(139,115,85,.1); border-color:rgba(139,115,85,.3); color:var(--bronzeDark); }
+.reading .dx-foot{ display:flex; align-items:center; gap:8px; margin-top:9px; padding-top:7px; border-top:1px dotted rgba(139,115,85,.3); position:relative; }
+.reading .dx-ptr{ display:flex; align-items:center; flex-wrap:wrap; gap:4px 9px; flex:1; min-width:0; font-size:12.5px; color:var(--inkSoft); }
+.reading .dx-ptrlab{ font-family:'Cinzel',serif; font-size:7.5px; font-weight:600; letter-spacing:1.4px; text-transform:uppercase; color:var(--inkLight); }
+.reading .dx-dom{ display:inline-flex; align-items:center; gap:3px; color:var(--bronzeDark); }
+.reading .dx-dom svg{ width:13px; height:13px; }
+.reading .dx-seek{ display:inline-flex; align-items:center; gap:4px; color:var(--ink); }
+.reading .dx-mini{ width:17px; height:17px; border-radius:5px; display:inline-flex; align-items:center; justify-content:center; background:color-mix(in srgb, var(--pig) 16%, transparent); color:var(--pigDeep); }
+.reading .dx-mini svg{ width:11px; height:11px; }
+.reading .dx-go{ width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:1.5px solid color-mix(in srgb, var(--bronze) 50%, transparent); color:var(--bronzeDark); flex:none; }
+.reading .dx-go svg{ width:13px; height:13px; }
