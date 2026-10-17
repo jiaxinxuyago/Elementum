@@ -792,6 +792,21 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                         (use it) or the remedy (release it), and a direction mark
                         between release and grow, in place of the "Running thin /
                         full" state and the longer manual line. */}
+                    {/* THE AMOUNT (owner 2026-10-17, Q1 a · Q2 a · Q3 a): how much of
+                        this energy the chart holds, as the overview hero's own
+                        five-energy bar, number and bar only (no volume word), on
+                        every energy's page, the core included (its pill carries
+                        the state). */}
+                    <div className="el-amount" aria-label={`${elScreen.elName}: ${m.byEl[elScreen.el].presence}% of your chart`}>
+                      <span className="el-amount-row"><span className="el-amount-lab">{elScreen.elName} in your chart</span><b className="el-amount-pct">{m.byEl[elScreen.el].presence}%</b></span>
+                      <span className="el-amount-track" aria-hidden="true">
+                        {towers.map((t) => (
+                          t.presence > 0
+                            ? <i key={t.el} style={{ width: `${t.presence}%`, background: t.el === elScreen.el ? `var(--${t.el}Deep)` : `color-mix(in srgb, var(--${t.el}Deep) 22%, var(--silkDeep))` }} />
+                            : <i key={t.el} style={{ width: '2%', background: t.el === elScreen.el ? `var(--${t.el}Deep)` : 'transparent' }} />
+                        ))}
+                      </span>
+                    </div>
                     {(() => { const c = elScreen.fnReading.characterLine; const k = c.pole === 'catalyst' ? 'cat' : c.pole === 'friction' ? 'fric' : 'cond'; return (
                       <div className={`el-charrow dir-${c.dir}`}>
                         <span className={`role-pill ${k} el-charpill`} role="button" tabIndex={0} onClick={() => setFnOpen(k)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setFnOpen(k); } }}>{k === 'cat' ? <><Use id="ar-up" />Catalyst</> : k === 'fric' ? <><Use id="ar-down" />Friction</> : <><Use id={m.condition === 'Overfueled' ? 'ic-charged' : m.condition === 'Underfueled' ? 'ic-receptive' : 'ic-balanced'} />{m.condition}</>}</span>

@@ -845,6 +845,15 @@
 .jny .el-domsheet-sub{ margin: 8px 0 0; font-size: 12px; line-height: 1.4; color: var(--inkLight); text-align: center; }
 
 /* THE CHARACTER's opening (owner 2026-10-16): the pole pill, a two-word verdict, a direction mark */
+/* THE AMOUNT (owner 2026-10-17): the overview's five-energy bar above THE CHARACTER's pill row */
+.jny .el-amount{ display: block; margin: 8px 0 0; }
+.jny .el-amount-row{ display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.jny .el-amount-lab{ font-size: 12.5px; letter-spacing: 0.2px; color: var(--ink); }
+.jny .el-amount-pct{ font-family: 'EB Garamond', Georgia, serif; font-size: 16px; font-weight: 600; color: var(--ink); }
+.jny .el-amount-track{ display: flex; height: 6px; border-radius: 4px; overflow: hidden; gap: 1px; margin: 5px 0 0;
+  border: 1px solid rgba(43,39,34,0.10); background: rgba(248,244,236,0.7); }
+.jny .el-amount-track i{ height: 100%; display: block; }
+.jny .el-amount + .el-charrow{ margin-top: 10px; }
 .jny .el-charrow{ display: flex; align-items: center; gap: 9px; margin: 7px 0 0; min-width: 0; }
 .jny .el-charpill{ cursor: pointer; font-size: 9px; padding: 3px 9px 3px 7px; flex: 0 0 auto; }
 .jny .el-charverdict{ font-size: 17px; flex: 1 1 auto; min-width: 0; white-space: nowrap; }

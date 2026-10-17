@@ -80,3 +80,10 @@ Then: "run round 5".
   - rename "Never satisfied" to "Demands more";
   - rename "Never switches off" to "Always on call", which also clears P015;
   - keep both as they are.
+
+## Design: the amount on the function page (owner, 2026-10-17)
+Options page: https://claude.ai/artifact/MDoKZ9gSC3tah1M2ggBzyN. The owner chose "Q1 a, Q2 a, Q3 a" and, in an artifact comment, "Go with this design".
+- **Q1 a:** each energy's function page shows how much of that energy the chart holds. A strip sits under THE CHARACTER eyebrow, above the pill row: "<Element> in your chart <n>%" and the overview hero's five-energy bar, with this energy deep and the others faded.
+- **Q2 a:** the number and the bar only. No volume word; "Running thin / full" stays retired.
+- **Q3 a:** the core's page shows the same strip, and its OVERFUELED / UNDERFUELED pill carries the state.
+- Code: `JourneyStage.jsx` (`.el-amount`) and `journey.css`. No content change.
