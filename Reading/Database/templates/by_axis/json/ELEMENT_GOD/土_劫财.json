@@ -70,7 +70,7 @@
             "angles": {
               "drive": "You are better with a rival in sight. Your own pace never quite wakes you, so you measure yourself against a person rather than a plan. Some of your best work exists only because someone else was ahead.",
               "cost_self": "Being better with rivals leaves you rarely at your best alone. Without someone to beat, you drift rather than push, so the goals only you care about wait longest. Your private hopes gather dust while the public races get all of you.",
-              "cost_others": "Better with a rival, you turn a peer into one without asking. You would rather race someone than keep them company, and you hand a contest to a friend who wanted none. Your friends get faster just from standing next to you."
+              "cost_others": "Because you do better with a rival, you turn a peer into one without asking. You would rather race someone than keep them company, and you hand a contest to a friend who wanted none. Your friends get faster just from standing next to you."
             }
           },
           {
@@ -555,6 +555,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "earth:E-24",
       "replaced": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You carry each loss for weeks after the contest itself is over."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-33",
+      "replaced": "Better with a rival, you turn a peer into one without asking. You would rather race someone than keep them company, and you hand a contest to a friend who wanted none. Your friends get faster just from standing next to you."
     }
   ]
 }

@@ -105,7 +105,7 @@
           {
             "word": "Too protective",
             "angles": {
-              "drive": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in before letting them fall. You are protecting them from the one thing that would have taught them.",
+              "drive": "Protective is your instinct with the people you love. You need them safe more than you need them tested, so you step in before letting them fall. You are protecting them from the one thing that would have taught them.",
               "cost_self": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired over watching them hurt. You lose your own rest to every risk you take off their hands.",
               "cost_others": "Your protective side keeps the ones you love from finding their feet. Catching them matters more to you than letting them learn, and you take one lesson from them with every rescue. You give them safety and take away their own first steps."
             }
@@ -609,6 +609,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "metal:MT-35",
       "replaced": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-36",
+      "replaced": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in before letting them fall. You are protecting them from the one thing that would have taught them."
     }
   ]
 }

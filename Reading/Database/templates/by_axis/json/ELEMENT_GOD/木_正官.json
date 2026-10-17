@@ -99,7 +99,7 @@
             "angles": {
               "drive": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. You are free to trust your guess wherever the book runs out.",
               "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book over your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed.",
-              "cost_others": "Faced with a person, you reach for the book as you would for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
+              "cost_others": "Faced with a person, you reach for the book as if they were a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
             }
           },
           {
@@ -579,6 +579,14 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 wood:W2-033",
+      "replaced": "Faced with a person, you reach for the book as you would for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
     }
   ]
 }

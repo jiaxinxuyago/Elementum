@@ -63,14 +63,14 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, the gate opens slowly. Nothing of yours comes through until it is solid, and then it comes out blunt and complete.",
+        "define": "As a catalyst, the gate opens late. Nothing of yours comes through until it is ready, and then it comes out blunt and complete.",
         "ledger": [
           {
             "word": "Proves it",
             "angles": {
               "drive": "Proving a point matters more to you than making it. Because a finished thing argues better than you could out loud, you would rather prove an idea than pitch it. Your work arrives whole, and it answers the doubters by itself.",
               "cost_self": "Proving it is the only kind of winning you trust. Since you prove rather than pitch, you let the chances that needed a quick yes go by. Ideas that were yours first end up with other people's names on them.",
-              "cost_others": "You prove an idea before you share it. Whenever you would rather show a result than explain a plan, you keep people out of it until it is done. Those close to you meet the work at the end and miss the making of it."
+              "cost_others": "You prove an idea before you share it. Because you would rather show a result than explain a plan, you keep people out of it until it is done. Those close to you meet the work at the end and miss the making of it."
             }
           },
           {
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Rules read to you as first drafts. Since you would rather fix a bad rule than follow it, you rewrite it in the doing and in plain sight. The people who come after you inherit a rule that works.",
               "cost_self": "Rewriting a rule is your answer to one that makes no sense. Each time you choose to fix it rather than obey it, you lose the credit that following it would earn. On paper, you look like trouble.",
-              "cost_others": "When a rule stops making sense, you rewrite it with people still standing on it. Since you fix it rather than keeping the peace, you change the footing with no warning. The rule you found pointless was somebody's floor."
+              "cost_others": "When a rule stops making sense, you rewrite it with people still standing on it. Since you fix it rather than keep the peace, you change the footing with no warning. The rule you found pointless was somebody's floor."
             }
           }
         ]
@@ -99,7 +99,7 @@
             "angles": {
               "drive": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it. You spend the same fight on a good plan as on a bad one.",
               "cost_self": "Pushing back is how you keep hold of yourself in a group. Since giving in feels like disappearing, you push against help as much as against orders. You end up pushing away the help you most needed.",
-              "cost_others": "You push back before you hear the end of a plan. Where being hard to convince feels like being hard to fool, you make people defend a plan instead of taking it. You take the ease out of every offer they bring you."
+              "cost_others": "You push back before you hear the end of a plan. To you, being hard to convince feels like being hard to fool, and you make people defend a plan instead of taking it. You take the ease out of every offer they bring you."
             }
           },
           {
@@ -579,6 +579,38 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "earth:E-21",
       "replaced": "You rewrite a rule that stops making sense under the people standing on it. Since you fix it rather than keeping the peace, you change the footing with no warning. The rule you found pointless was somebody's floor."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-21",
+      "replaced": "You push back before you hear the end of a plan. Where being hard to convince feels like being hard to fool, you make people defend a plan instead of taking it. You take the ease out of every offer they bring you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-22",
+      "replaced": "You prove an idea before you share it. Whenever you would rather show a result than explain a plan, you keep people out of it until it is done. Those close to you meet the work at the end and miss the making of it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-23",
+      "replaced": "When a rule stops making sense, you rewrite it with people still standing on it. Since you fix it rather than keeping the peace, you change the footing with no warning. The rule you found pointless was somebody's floor."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-24",
+      "replaced": "As a catalyst, the gate opens slowly. Nothing of yours comes through until it is solid, and then it comes out blunt and complete."
     }
   ]
 }

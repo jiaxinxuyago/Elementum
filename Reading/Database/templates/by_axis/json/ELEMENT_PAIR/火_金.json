@@ -24,7 +24,7 @@
       "definition_friction": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, your Action takes more strength than you have, and little is left to enjoy what is already yours.",
       "definition_balanced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, you claim what you can carry and see it through. What comes in is enjoyed and kept.",
       "advise_catalyst": "Your drive is short, and each piece of it needs a clear place to go. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never. Clear out one drawer and give away what you have not used in a year.",
-      "advise_friction": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Eat warm food daily. Talk deals through with a friend."
+      "advise_friction": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on your claims, not yourself, and tired is where you make your worst deals. Eat warm food daily. Talk deals through with a friend."
     },
     "cta_verdict": "Your drive goes wherever there is something hard to shape, and you finish more by picking one thing to provide for than by chasing every opening you spot.",
     "carry": {
@@ -315,6 +315,14 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Sleep on any new venture before you answer."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-26",
+      "replaced": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Eat warm food daily. Talk deals through with a friend."
     }
   ]
 }

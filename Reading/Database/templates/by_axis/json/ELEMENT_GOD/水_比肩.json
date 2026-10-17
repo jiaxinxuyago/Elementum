@@ -68,7 +68,7 @@
           {
             "word": "Carries own weight",
             "angles": {
-              "drive": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. Nobody ever has to wonder whether you will pull your share.",
+              "drive": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, and you carry what is yours rather than hand a corner to a peer. Nobody ever has to wonder whether you will do your share.",
               "cost_self": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. All of the strain lands on your shoulders and nobody else's.",
               "cost_others": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness sharing brings. Friends who would gladly help you stay on the outside of your hard weeks."
             }
@@ -561,6 +561,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "water:W-033",
       "replaced": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 water:W-039",
+      "replaced": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. Nobody ever has to wonder whether you will pull your share."
     }
   ]
 }

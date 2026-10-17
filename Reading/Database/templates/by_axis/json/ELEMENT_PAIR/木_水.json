@@ -25,7 +25,7 @@
       "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake runs short, but what does come in sinks far and stays. You know more by feel than by proof.",
       "definition_friction": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, because knowing more feels safer than moving. The moment to act passes while you wait.",
       "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives.",
-      "advise_catalyst": "Your mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it.",
+      "advise_catalyst": "Your Mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it.",
       "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands."
     },
     "cta_verdict": "You understand things by soaking in them rather than studying them, and your best decisions come after a night's sleep instead of a second search.",
@@ -326,6 +326,14 @@
       "ruling": "Owner 2026-10-17: system item approved, the remedy's \"Let it …\" verb varied so each is used once per core and fits its element",
       "finding": "remedy verbs",
       "replaced": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 water:W-021",
+      "replaced": "Your mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it."
     }
   ]
 }

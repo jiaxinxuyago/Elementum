@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "Running over, your will needs a contest and finds one wherever you go. Wanting to know where you stand costs you the company you wanted.",
+        "define": "Running over, your will needs a contest and finds one wherever you go. Wanting to know where you stand costs you the company you came for.",
         "ledger": [
           {
             "word": "Keeps score",
@@ -106,7 +106,7 @@
             "word": "Bets the rent",
             "angles": {
               "drive": "Your bets are sized to the thrill more than the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent on a feeling that fades faster than the bill.",
-              "cost_self": "Where the bet is biggest, you are calmest, and you take that as a sign. Trusting nerve more than math, you bet with the rent before the sums are done. You come out of that calm short on rent and short on sleep.",
+              "cost_self": "Where the bet is biggest, you are calmest, and you take that as a sign. Trusting nerve more than numbers, you bet with the rent before the sums are done. You come out of that calm short on rent and short on sleep.",
               "cost_others": "Betting the rent is how you make a thing feel real. Since you size the bet to your nerve instead of theirs, you pull the people beside you into it. You put their safety on the bet along with your own."
             }
           },
@@ -875,6 +875,22 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Hating to lose even a game is how you show you care. Since you want the win ahead of the evening, you keep arguing after it ends. You cost the people you play with the fun of the game."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-32",
+      "replaced": "Running over, your will needs a contest and finds one wherever you go. Wanting to know where you stand costs you the company you wanted."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-33",
+      "replaced": "Where the bet is biggest, you are calmest, and you take that as a sign. Trusting nerve more than math, you bet with the rent before the sums are done. You come out of that calm short on rent and short on sleep."
     }
   ]
 }

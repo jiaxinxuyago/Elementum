@@ -97,7 +97,7 @@
           {
             "word": "Thinks in circles",
             "angles": {
-              "drive": "Thinking a question through means thinking it around, each side first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You circle a question for weeks that a single choice would have closed.",
+              "drive": "Thinking a question through means walking all the way round it first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You circle a question for weeks that a single choice would have closed.",
               "cost_self": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chances that needed an answer this week, one careful lap at a time.",
               "cost_others": "Whenever someone brings you a question, you think in circles first. Every side counts for more than a usable reply, so you hand over the process instead of a yes. You make them wait through every circle for an answer they needed short."
             }
@@ -106,7 +106,7 @@
             "word": "Keeps it in",
             "angles": {
               "drive": "What you understand, you keep in. Saying a thing out loud makes it ordinary, and you would rather hold an idea unfinished than hand it over half-formed. Keeping it in keeps it yours, and you never learn what it would have become.",
-              "cost_self": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea safe and lose the one thing you wanted from it, being known.",
+              "cost_self": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea whole and lose the one thing you wanted from it, being known.",
               "cost_others": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing at what you think, the one thing they asked you for."
             }
           },
@@ -558,6 +558,22 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "wood:W-036",
       "replaced": "Thinking a question through means thinking it around, each side first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You never reach the decision in the middle of a circle, and it never closes alone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 wood:W2-029",
+      "replaced": "Thinking a question through means thinking it around, each side first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You circle a question for weeks that a single choice would have closed."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 wood:W2-030",
+      "replaced": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea safe and lose the one thing you wanted from it, being known."
     }
   ]
 }

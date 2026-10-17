@@ -77,7 +77,7 @@
             "word": "Side by side",
             "angles": {
               "drive": "Side by side is where you are most at ease. Walking side by side matters more than walking out front, so you drop the lead as fast as you refuse to follow. Your friends never feel managed or looked down on by you.",
-              "cost_self": "You trust closeness only side by side, so you let a friend near once they match your pace. You would rather keep your footing than be held up, even when you need it. On your hard days, nobody is close enough to catch you.",
+              "cost_self": "You trust closeness only side by side, so you let a friend near once they match your pace. You would rather keep your footing than be carried, even when you need it. On your hard days, nobody is close enough to catch you.",
               "cost_others": "You keep every friendship side by side, nobody carried, nobody carrying. Being helped bothers you as much as being led, so you wave off the hand. Those who love you rarely get to be needed by you."
             }
           },
@@ -579,6 +579,14 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You bounce back faster than most get over the surprise. You would far sooner be upright than seen down, so you stand again ahead of getting over it. Setbacks that flatten others barely slow you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 fire:F2-31",
+      "replaced": "You trust closeness only side by side, so you let a friend near once they match your pace. You would rather keep your footing than be held up, even when you need it. On your hard days, nobody is close enough to catch you."
     }
   ]
 }

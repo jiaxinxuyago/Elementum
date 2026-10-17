@@ -77,7 +77,7 @@
             "word": "Takes charge",
             "angles": {
               "drive": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge before the vote. Around you, decisions get made and the work starts.",
-              "cost_self": "Being in charge weighs on you once you take it. You feel safer in charge alone than sharing it, so you are rarely carried. Nobody thinks to ask how you are holding up.",
+              "cost_self": "Being in charge weighs on you once you take it. You feel safer running things alone than sharing them, so you are rarely carried. Nobody thinks to ask how you are holding up.",
               "cost_others": "Wherever a plan stalls, you take charge and mean it kindly. Because a slow group feels risky, you take charge rather than wait your turn. Your colleagues get fewer chances to decide things for themselves."
             }
           },
@@ -867,6 +867,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "fire:F-30",
       "replaced": "Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the test you pick yourself because that is where you grow."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 fire:F2-41",
+      "replaced": "Being in charge weighs on you once you take it. You feel safer in charge alone than sharing it, so you are rarely carried. Nobody thinks to ask how you are holding up."
     }
   ]
 }

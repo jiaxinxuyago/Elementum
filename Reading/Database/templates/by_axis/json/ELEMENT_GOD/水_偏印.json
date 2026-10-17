@@ -106,7 +106,7 @@
             "word": "Keeps it in",
             "angles": {
               "drive": "You keep what you know in until it is finished, and it never is. More goes into you than comes out, because a half-formed thought let loose feels like a thought lost. Remember that what you let out half-formed is yours all the same.",
-              "cost_self": "Keeping it in keeps it from being judged. Inside is where an idea stays safe, so you hold yours back until perfect rather than let it out rough. You go unheard on the very things you understand best.",
+              "cost_self": "Keeping it in keeps it from being judged. Inside is where an idea stays safe, and you hold yours back until it is perfect rather than let it out rough. You go unheard on the very things you understand best.",
               "cost_others": "You keep in what others could use. A thought let out early feels broken to you, so you hold it in rather than hand it over. You make the people around you search alone for an answer you are holding."
             }
           },
@@ -122,7 +122,7 @@
       }
     },
     "edge": {
-      "lead": "Water runs through your mind, your growth and your career. It is the question you keep asking after the easy answer came, the skill you learned your own way and own for good, and the read you have on someone before the handshake ends.",
+      "lead": "Water runs through your mind, your growth and your career. It is the question you keep asking after the easy answer has come, the skill you learned your own way and own for good, and the read you have on someone before the handshake ends.",
       "domains": [
         "Mind",
         "Growth",
@@ -587,6 +587,22 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "water:W-016",
       "replaced": "Hard to reach means a thought is unfinished, and most of yours are. Finishing it comes before the message, and you charge the person waiting in days. You leave them with less of you than they came for."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 water:W-020",
+      "replaced": "Keeping it in keeps it from being judged. Inside is where an idea stays safe, so you hold yours back until perfect rather than let it out rough. You go unheard on the very things you understand best."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 water:W-022",
+      "replaced": "Water runs through your mind, your growth and your career. It is the question you keep asking after the easy answer came, the skill you learned your own way and own for good, and the read you have on someone before the handshake ends."
     }
   ]
 }

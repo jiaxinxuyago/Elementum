@@ -107,7 +107,7 @@
             "angles": {
               "drive": "Counting what something cost matters to you more than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
               "cost_self": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. You give up the easy days that all your counting was meant to buy.",
-              "cost_others": "For the people you love, you count as closely as yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
+              "cost_others": "You count as closely for those you love as for yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
             }
           },
           {
@@ -891,6 +891,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "wood:W-042",
       "replaced": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than learn what leaving costs. You keep paying in effort every month to a place that returns none of it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 wood:W2-035",
+      "replaced": "For the people you love, you count as closely as yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
     }
   ]
 }

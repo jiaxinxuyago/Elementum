@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, your Action spreads quicker than it settles. Each opening pulls you on before the last one pays.",
+        "define": "As a friction, your Action moves on quicker than it settles. Each opening pulls you on before the last one pays.",
         "ledger": [
           {
             "word": "Leaves too soon",
@@ -515,6 +515,14 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Spending fast proves the money was real. You spend the windfall ahead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 water:W-027",
+      "replaced": "As a friction, your Action spreads quicker than it settles. Each opening pulls you on before the last one pays."
     }
   ]
 }

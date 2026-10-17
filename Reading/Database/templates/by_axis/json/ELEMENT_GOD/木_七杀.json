@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, the demands outgrow your strength and the pressure turns inward. Even an hour of ease begins to feel like a debt you have not earned.",
+        "define": "As a friction, the demands outgrow your strength and the pressure turns inward. Even an hour of ease begins to feel unearned.",
         "ledger": [
           {
             "word": "Hard on yourself",
@@ -569,6 +569,14 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. You are allowed to be pleased by a standard you have already met."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 wood:W2-032",
+      "replaced": "As a friction, the demands outgrow your strength and the pressure turns inward. Even an hour of ease begins to feel like a debt you have not earned."
     }
   ]
 }

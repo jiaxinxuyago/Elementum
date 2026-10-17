@@ -76,7 +76,7 @@
           {
             "word": "Original",
             "angles": {
-              "drive": "Doing a thing the usual way is nearly impossible for you, and only an original one feels done. Needing it in pieces first, you make your own version rather than follow the rule. Your work carries a mark nobody else could have left.",
+              "drive": "Doing a thing the usual way is nearly impossible for you, and only an original one feels done. Taking it apart first, you make your own version rather than follow the rule. Your work carries a mark nobody else could have left.",
               "cost_self": "Nothing feels real to you until you have made it original. You take being wrong your own way over being right theirs, so you redo finished work. You spend whole weekends changing things that were already good enough.",
               "cost_others": "Making an original version of what you were handed shows you cared. You make someone's plan your own instead of following it, and you deny them the small pride of a plan done as drawn. What they gave you comes back as yours."
             }
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight before asking why. Keep in mind that asking why first does not make you smaller.",
               "cost_self": "Any push at all gets a fight out of you. You would rather lose on your terms than win on theirs, so you fight rules you never cared about. Skip the small fights, or each one you pick costs you a chance you wanted.",
-              "cost_others": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you."
+              "cost_others": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than in private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you."
             }
           }
         ]
@@ -851,6 +851,22 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "water:W-031",
       "replaced": "Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. Never forget that you mean the fondness more than the mocking lets on."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 water:W-036",
+      "replaced": "Doing a thing the usual way is nearly impossible for you, and only an original one feels done. Needing it in pieces first, you make your own version rather than follow the rule. Your work carries a mark nobody else could have left."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 water:W-034",
+      "replaced": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you."
     }
   ]
 }

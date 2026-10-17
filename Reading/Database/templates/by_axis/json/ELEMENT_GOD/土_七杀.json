@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Pushing through is how you get to the end of anything hard. You need something to push against, and you finish under strain more easily than at ease. The jobs others drop halfway are the ones you see through.",
               "cost_self": "Under strain, you push through without a second thought. You would sooner push to the far side than ask for less, and you never try the lighter road. Your body pays for the hard way long after the job is done.",
-              "cost_others": "Pushing through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. With you at the front, the group finishes what it started."
+              "cost_others": "Pushing through, you carry the people with you at your pace. You would rather keep your speed than slow it for someone, and that costs them the pause you never take. With you at the front, the group finishes what it started."
             }
           }
         ]
@@ -617,6 +617,14 @@
           "cost_others": "In your tight ship everyone has a job, and the people at home get theirs from you. You need the household to run like a team, and your requests land as orders. Your family does what you ask and keeps its ideas quiet."
         }
       }
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-27",
+      "replaced": "Pushing through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. With you at the front, the group finishes what it started."
     }
   ]
 }

@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, the line runs faint and you draw it yourself. Your rank was built one rule at a time.",
+        "define": "As a catalyst, the line runs faint and you draw it yourself. You built your standing one rule after another.",
         "ledger": [
           {
             "word": "Keeps your word",
@@ -77,7 +77,7 @@
             "word": "Does it properly",
             "angles": {
               "drive": "Doing it properly is the only way you know. A rule gives your effort a shape, and you follow the proper procedure rather than any shortcut. Work that passes through your hands stands up to any inspection.",
-              "cost_self": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserved. Your evenings go to jobs that nobody would ever check.",
+              "cost_self": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserve. Your evenings go to jobs that nobody would ever check.",
               "cost_others": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step instead of thanks. Anyone trained by you learns the trade with no bad habits to undo."
             }
           },
@@ -603,6 +603,22 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "metal:MT-17",
       "replaced": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record more than the talent. Bright newcomers wait a long time for your nod."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-23",
+      "replaced": "As a catalyst, the line runs faint and you draw it yourself. Your rank was built one rule at a time."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-24",
+      "replaced": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserved. Your evenings go to jobs that nobody would ever check."
     }
   ]
 }

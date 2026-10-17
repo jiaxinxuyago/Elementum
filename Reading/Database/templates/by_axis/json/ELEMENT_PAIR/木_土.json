@@ -26,7 +26,7 @@
       "definition_friction": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish.",
       "definition_balanced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays.",
       "advise_catalyst": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month.",
-      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Start each week with one thing that is only for you. Say no to one request before you say yes again."
+      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week with one thing that is only for you. Say no to one request before you say yes again."
     },
     "cta_verdict": "You build to keep rather than to show, and the things you go after slowly are usually the ones that stay yours.",
     "carry": {
@@ -320,6 +320,14 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Eat a real meal before any decision about money. Sleep on every yes before you give it."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-31",
+      "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Start each week with one thing that is only for you. Say no to one request before you say yes again."
     }
   ]
 }

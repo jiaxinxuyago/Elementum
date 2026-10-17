@@ -122,7 +122,7 @@
       }
     },
     "edge": {
-      "lead": "Earth runs through your family, your social life and your career. It is the promise at home kept without a reminder, the decision both sides of an argument can live with, and the weight of the job that is yours because it never slips.",
+      "lead": "Earth runs through your family, your social life and your career. It is the promise at home kept without a reminder, the decision both sides of an argument can live with, and the work left in your hands because you never let it slip.",
       "domains": [
         "Family",
         "Social",
@@ -571,6 +571,14 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure ahead of anyone else's, and yours sits a step above you. Your best days still feel like falling short."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-34",
+      "replaced": "Earth runs through your family, your social life and your career. It is the promise at home kept without a reminder, the decision both sides of an argument can live with, and the weight of the job that is yours because it never slips."
     }
   ]
 }

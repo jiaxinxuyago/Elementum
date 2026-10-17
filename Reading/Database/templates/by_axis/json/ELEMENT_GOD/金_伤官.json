@@ -76,7 +76,7 @@
           {
             "word": "Sets the bar",
             "angles": {
-              "drive": "Setting the bar is something you do unasked. A standard you did not choose bores you, so you set your own rather than keep the given one, and hold yourself to it. What leaves your hands has already passed the hardest judge it will meet.",
+              "drive": "Setting the bar is something you do unasked. A standard you did not choose bores you, so you set your own rather than keep the given one, and hold yourself to it. Anything you finish has already passed the hardest judge it will meet.",
               "cost_self": "You never rest under a bar you set yourself. Because the standard is yours, you raise it rather than meet it, and the mark moves each time you near it. Your wins go by uncelebrated, since none of them was ever the goal.",
               "cost_others": "When you set the bar, you set it for everyone near you. Your standard feels more honest than a shared one, and you hold the people beside you to a mark they never chose. Some do their finest work because you asked for it."
             }
@@ -579,6 +579,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "metal:MT-25",
       "replaced": "You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you skip the soft words rather than soften the point. You leave them a bruise the truth alone would not have left."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-30",
+      "replaced": "Setting the bar is something you do unasked. A standard you did not choose bores you, so you set your own rather than keep the given one, and hold yourself to it. What leaves your hands has already passed the hardest judge it will meet."
     }
   ]
 }

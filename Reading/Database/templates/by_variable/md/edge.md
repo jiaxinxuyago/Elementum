@@ -122,7 +122,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Earth runs through your wealth, your family and your social life. It is the chance you spot long before it is near, the good year that becomes a gift for everyone at home, and the luck you hand round before it has cooled. |
+| `lead` | Earth runs through your wealth, your family and your social life. It is the chance you spot while it is still far off, the good year that becomes a gift for everyone at home, and the luck you hand round before it has cooled. |
 | `domains` | Wealth · Family · Social |
 | `metric` | ambition |
 
@@ -130,7 +130,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Earth runs through your wealth, your family and your career. It is the money put by that makes a bad month ordinary, the old chair you fix instead of buying a new one, and the job you stay at until it is finished properly. |
+| `lead` | Earth runs through your wealth, your family and your career. It is the money put by that makes a bad month ordinary, the old chair you fix instead of buying a new one, and the job you see through to a proper finish. |
 | `domains` | Wealth · Family · Career |
 | `metric` | discipline |
 
@@ -146,7 +146,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Earth runs through your family, your social life and your career. It is the promise at home kept without a reminder, the decision both sides of an argument can live with, and the weight of the job that is yours because it never slips. |
+| `lead` | Earth runs through your family, your social life and your career. It is the promise at home kept without a reminder, the decision both sides of an argument can live with, and the work left in your hands because you never let it slip. |
 | `domains` | Family · Social · Career |
 | `metric` | responsibility |
 
@@ -154,7 +154,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Earth runs through your mind, your growth and your career. It is the idea you work out in your own strange way, the skill you picked up alone and kept to yourself, and the meaning you catch under the words in a meeting. |
+| `lead` | Earth runs through your mind, your growth and your career. It is the idea you work out in your own strange way, the skill you picked up without a teacher and kept to yourself, and the meaning you catch under the words in a meeting. |
 | `domains` | Mind · Growth · Career |
 | `metric` | intuition |
 
@@ -314,7 +314,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Water runs through your mind, your growth and your career. It is the question you keep asking after the easy answer came, the skill you learned your own way and own for good, and the read you have on someone before the handshake ends. |
+| `lead` | Water runs through your mind, your growth and your career. It is the question you keep asking after the easy answer has come, the skill you learned your own way and own for good, and the read you have on someone before the handshake ends. |
 | `domains` | Mind · Growth · Career |
 | `metric` | intuition |
 

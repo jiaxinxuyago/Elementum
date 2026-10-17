@@ -106,7 +106,7 @@
             "word": "Plays it safe",
             "angles": {
               "drive": "Your default with cost is playing it safe. You feel a loss more than a gain the same size, and you play safe for the small sure return rather than the big one. Playing safe costs you too, slower and in money you never count.",
-              "cost_self": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched another take.",
+              "cost_self": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched others take.",
               "cost_others": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. You take from your partner the risks that were theirs to choose."
             }
           },
@@ -575,6 +575,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "metal:MT-20",
       "replaced": "Your answer to ownership is holding on tight. You would rather hold on than risk losing, so you hold on to money, things and people past where holding helps. You have every right to let go of what you no longer want."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 metal:MT2-27",
+      "replaced": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched another take."
     }
   ]
 }

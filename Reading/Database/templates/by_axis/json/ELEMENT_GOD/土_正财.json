@@ -115,14 +115,14 @@
             "angles": {
               "drive": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. You get to enjoy money that is already yours.",
               "cost_self": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Left with the money, you go without the thing it was for.",
-              "cost_others": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. You take what you save out of their share."
+              "cost_others": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you cut back on them first. You take what you save out of their share."
             }
           }
         ]
       }
     },
     "edge": {
-      "lead": "Earth runs through your wealth, your family and your career. It is the money put by that makes a bad month ordinary, the old chair you fix instead of buying a new one, and the job you stay at until it is finished properly.",
+      "lead": "Earth runs through your wealth, your family and your career. It is the money put by that makes a bad month ordinary, the old chair you fix instead of buying a new one, and the job you see through to a proper finish.",
       "domains": [
         "Wealth",
         "Family",
@@ -611,6 +611,22 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You save for the people you love ahead of spending on them. A safe future is the gift you trust, and you give them the cushion rather than the dinner. Whatever comes, your family has something to fall back on."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-29",
+      "replaced": "Earth runs through your wealth, your family and your career. It is the money put by that makes a bad month ordinary, the old chair you fix instead of buying a new one, and the job you stay at until it is finished properly."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-32",
+      "replaced": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. You take what you save out of their share."
     }
   ]
 }

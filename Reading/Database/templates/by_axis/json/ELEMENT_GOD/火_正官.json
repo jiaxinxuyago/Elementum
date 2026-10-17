@@ -76,8 +76,8 @@
           {
             "word": "By the book",
             "angles": {
-              "drive": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book over the shortcut. Your work is the standard others get checked against.",
-              "cost_self": "Where the book and your judgment part, you side with the book. You want it done in order more than your way, so you let the book decide what you knew. Chances that needed a quick call pass you by.",
+              "drive": "You trust a thing only when it is done by the book. Since an outside rule steadies you, you go by the book over the shortcut. Your work is the standard others get checked against.",
+              "cost_self": "Where the book and your judgment part, you side with the book. You want it done in order more than your way, so you let the book overrule what you already knew. Chances that needed a quick call pass you by.",
               "cost_others": "Doing it by the book counts as respect paid forward. Because you want it right more than fast, you hold a friend's rushed job to the book too. The people you work with turn in sounder work for your standards."
             }
           },
@@ -905,6 +905,22 @@
           "cost_others": "In meetings you wait your turn to speak, and the idea waits with you. Speaking before others feels like a step above your place, and the talk moves on before your turn comes. Your team loses the idea that would have helped them."
         }
       }
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 fire:F2-42",
+      "replaced": "Where the book and your judgment part, you side with the book. You want it done in order more than your way, so you let the book decide what you knew. Chances that needed a quick call pass you by."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 fire:F2-43",
+      "replaced": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book over the shortcut. Your work is the standard others get checked against."
     }
   ]
 }

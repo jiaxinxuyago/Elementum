@@ -70,14 +70,14 @@
             "angles": {
               "drive": "You speak up where silence would be easier. Holding a true thing in feels worse to you than saying it, so you speak rather than wait for a welcome. You are usually the only one who will.",
               "cost_self": "For you, speaking up is never free. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after. What you want is to be heard and still be asked back.",
-              "cost_others": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Your voice fills the space their own words were meant for."
+              "cost_others": "Speaking up for someone who has not asked you to is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Your voice fills the space their own words were meant for."
             }
           },
           {
             "word": "Goes off script",
             "angles": {
               "drive": "Going off script is where you shine. Since a fresh idea counts for more with you than a given plan, you leave the script instead of following it. The moments people talk about afterwards tend to be yours.",
-              "cost_self": "Off script is how you stay interested. Sticking to a plan switches your talent off, and you head off script rather than see it through. Many of your best ideas end up half built and never shown whole.",
+              "cost_self": "Off script is how you stay interested. Sticking to a plan dulls your talent, and you head off script rather than see it through. Many of your best ideas end up half built and never shown whole.",
               "cost_others": "You go off script with shared plans as easily as your own. A better idea seems like a duty to you, and you go off script instead of asking. The group meets your change while the old version is still running."
             }
           },
@@ -531,6 +531,22 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself ahead of hearing what was offered. You hand them an argument where they asked for your ear."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 wood:W2-038",
+      "replaced": "Off script is how you stay interested. Sticking to a plan switches your talent off, and you head off script rather than see it through. Many of your best ideas end up half built and never shown whole."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 wood:W2-039",
+      "replaced": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Your voice fills the space their own words were meant for."
     }
   ]
 }

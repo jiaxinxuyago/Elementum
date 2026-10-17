@@ -22,7 +22,7 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you would rather keep moving than stop to refill. You pay for each bright day with a tired one.",
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you keep moving instead of stopping to refill. You pay for each bright day with a tired one.",
       "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, your strength wants to carry everything itself, since needing anyone feels like falling short. You win most days and pay in company.",
       "definition_balanced": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. In balance, the warmth holds steady and you spend no faster than you refill. A peer is company and a contest is a game.",
       "advise_catalyst": "Your strength runs on what you put back, and putting back is the part you skip. Ask one person for help on a job you usually do alone. Get two friends together once a month just for fun. Stand in the sun for ten minutes each morning.",
@@ -280,6 +280,14 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 fire:F2-32",
+      "replaced": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you would rather keep moving than stop to refill. You pay for each bright day with a tired one."
     }
   ]
 }

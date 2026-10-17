@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, the holding never stops. Familiar ground draws you in, every change looks like a threat, and your world grows smaller each year.",
+        "define": "As a friction, the holding never stops. Familiar ground draws you in, every change looks like a threat, and your life grows smaller each year.",
         "ledger": [
           {
             "word": "Stays near home",
@@ -897,6 +897,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "earth:E-10",
       "replaced": "Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You get to let them take their own risks."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r2-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
+      "finding": "R2 earth:E2-25",
+      "replaced": "As a friction, the holding never stops. Familiar ground draws you in, every change looks like a threat, and your world grows smaller each year."
     }
   ]
 }
