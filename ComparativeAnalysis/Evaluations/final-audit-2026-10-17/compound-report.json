@@ -1,0 +1,2774 @@
+[
+ {
+  "name": "P001",
+  "title": "P001 · Wood core · Wood page · friction · The Twin",
+  "words": 235,
+  "reps": [
+   "hold×4",
+   "reach×3",
+   "way×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P002",
+  "title": "P002 · Wood core · Wood page · friction · The Rival",
+  "words": 232,
+  "reps": [
+   "keep×5",
+   "ask×3"
+  ],
+  "opens": [],
+  "conn": [],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P003",
+  "title": "P003 · Wood core · Wood page · friction · blend The Twin+The Rival (2+2)",
+  "words": 278,
+  "reps": [
+   "keep×4",
+   "hold×3",
+   "finish×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"instead of\"×2",
+   "\"and you\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 22
+ },
+ {
+  "name": "P004",
+  "title": "P004 · Wood core · Wood page · catalyst · The Twin",
+  "words": 277,
+  "reps": [
+   "carry×3",
+   "sprint×3",
+   "hold×3",
+   "friend×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 20
+ },
+ {
+  "name": "P005",
+  "title": "P005 · Wood core · Wood page · catalyst · The Rival",
+  "words": 281,
+  "reps": [
+   "carry×3",
+   "rather×3",
+   "ahead×3",
+   "feel×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 20
+ },
+ {
+  "name": "P006",
+  "title": "P006 · Wood core · Wood page · catalyst · blend The Twin+The Rival (2+2)",
+  "words": 323,
+  "reps": [
+   "let×4",
+   "carry×3",
+   "plan×3",
+   "someone×3",
+   "sprint×3",
+   "tak×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×3",
+   "\"because\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 23
+ },
+ {
+  "name": "P007",
+  "title": "P007 · Fire core · Wood page · friction · The Alchemist",
+  "words": 232,
+  "reps": [
+   "decide×3",
+   "reach×3",
+   "feel×3"
+  ],
+  "opens": [
+   "\"you keep\"×3"
+  ],
+  "conn": [
+   "\"so you\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P008",
+  "title": "P008 · Fire core · Wood page · friction · The Sage",
+  "words": 237,
+  "reps": [
+   "keep×6",
+   "feel×4",
+   "someone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P009",
+  "title": "P009 · Fire core · Wood page · friction · blend The Alchemist+The Sage (2+2)",
+  "words": 280,
+  "reps": [
+   "feel×4",
+   "take×3",
+   "decide×3",
+   "someone×3"
+  ],
+  "opens": [
+   "\"you keep\"×3"
+  ],
+  "conn": [
+   "\"rather than\"×2",
+   "\"so you\"×3"
+  ],
+  "youOpen": 7,
+  "sents": 22
+ },
+ {
+  "name": "P010",
+  "title": "P010 · Fire core · Wood page · catalyst · The Alchemist",
+  "words": 277,
+  "reps": [
+   "run×4",
+   "feel×4",
+   "answer×3",
+   "take×3",
+   "give×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P011",
+  "title": "P011 · Fire core · Wood page · catalyst · The Sage",
+  "words": 277,
+  "reps": [
+   "take×3",
+   "run×3",
+   "feel×3",
+   "hand×3",
+   "someone×3",
+   "back×3",
+   "give×3",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"until\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P012",
+  "title": "P012 · Fire core · Wood page · catalyst · blend The Alchemist+The Sage (2+2)",
+  "words": 320,
+  "reps": [
+   "feel×6",
+   "take×4",
+   "run×4",
+   "rather×3",
+   "answer×3",
+   "give×3",
+   "ask×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×2",
+   "\"and you\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 23
+ },
+ {
+  "name": "P013",
+  "title": "P013 · Earth core · Wood page · friction · The General",
+  "words": 237,
+  "reps": [
+   "answer×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P014",
+  "title": "P014 · Earth core · Wood page · friction · The Magistrate",
+  "words": 233,
+  "reps": [
+   "feel×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"instead of\"×2",
+   "\"ahead of\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P015",
+  "title": "P015 · Earth core · Wood page · friction · blend The General+The Magistrate (2+2)",
+  "words": 279,
+  "reps": [
+   "answer×3",
+   "rather×3",
+   "feel×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"so you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 22
+ },
+ {
+  "name": "P016",
+  "title": "P016 · Earth core · Wood page · catalyst · The General",
+  "words": 279,
+  "reps": [
+   "week×4",
+   "feel×4",
+   "someone×3",
+   "keep×3",
+   "let×3",
+   "ask×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"instead of\"×2",
+   "\"so you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 19
+ },
+ {
+  "name": "P017",
+  "title": "P017 · Earth core · Wood page · catalyst · The Magistrate",
+  "words": 280,
+  "reps": [
+   "someone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 19
+ },
+ {
+  "name": "P018",
+  "title": "P018 · Earth core · Wood page · catalyst · blend The General+The Magistrate (2+2)",
+  "words": 322,
+  "reps": [
+   "week×4",
+   "feel×4",
+   "rank×3",
+   "someone×3",
+   "rather×3",
+   "let×3",
+   "ask×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"instead of\"×2",
+   "\"so you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 22
+ },
+ {
+  "name": "P019",
+  "title": "P019 · Metal core · Wood page · friction · The Horizon",
+  "words": 229,
+  "reps": [
+   "start×4",
+   "keep×3",
+   "feel×3",
+   "strength×3",
+   "chase×3",
+   "next×3",
+   "finish×3",
+   "body×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"ahead of\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P020",
+  "title": "P020 · Metal core · Wood page · friction · The Steward",
+  "words": 226,
+  "reps": [
+   "feel×3",
+   "strength×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"so you\"×3",
+   "\"while\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P021",
+  "title": "P021 · Metal core · Wood page · friction · blend The Horizon+The Steward (2+2)",
+  "words": 265,
+  "reps": [
+   "start×4",
+   "keep×3",
+   "feel×3",
+   "strength×3",
+   "chase×3",
+   "finish×3",
+   "ahead×3",
+   "body×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"ahead of\"×3",
+   "\"so you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 22
+ },
+ {
+  "name": "P022",
+  "title": "P022 · Metal core · Wood page · catalyst · The Horizon",
+  "words": 274,
+  "reps": [
+   "build×4",
+   "hand×4",
+   "open×4",
+   "ask×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"because\"×3"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P023",
+  "title": "P023 · Metal core · Wood page · catalyst · The Steward",
+  "words": 266,
+  "reps": [
+   "build×5",
+   "keep×4",
+   "hand×3",
+   "slow×3",
+   "feel×3",
+   "put×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"ahead of\"×2",
+   "\"because\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P024",
+  "title": "P024 · Metal core · Wood page · catalyst · blend The Horizon+The Steward (2+2)",
+  "words": 316,
+  "reps": [
+   "build×5",
+   "hand×4",
+   "open×4",
+   "spend×3",
+   "ask×3",
+   "ahead×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×3",
+   "\"and you\"×2",
+   "\"because\"×4"
+  ],
+  "youOpen": 3,
+  "sents": 23
+ },
+ {
+  "name": "P025",
+  "title": "P025 · Water core · Wood page · friction · The Artisan",
+  "words": 232,
+  "reps": [
+   "rather×3",
+   "back×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×2"
+  ],
+  "youOpen": 9,
+  "sents": 19
+ },
+ {
+  "name": "P026",
+  "title": "P026 · Water core · Wood page · friction · The Virtuoso",
+  "words": 236,
+  "reps": [],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P027",
+  "title": "P027 · Water core · Wood page · friction · blend The Artisan+The Virtuoso (2+2)",
+  "words": 274,
+  "reps": [
+   "anyone×3",
+   "rather×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 10,
+  "sents": 22
+ },
+ {
+  "name": "P028",
+  "title": "P028 · Water core · Wood page · catalyst · The Artisan",
+  "words": 278,
+  "reps": [
+   "let×4",
+   "keep×3",
+   "com×3",
+   "give×3",
+   "finish×3",
+   "child×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×2",
+   "\"until\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 20
+ },
+ {
+  "name": "P029",
+  "title": "P029 · Water core · Wood page · catalyst · The Virtuoso",
+  "words": 272,
+  "reps": [
+   "keep×4",
+   "let×3",
+   "rather×3",
+   "plan×3",
+   "turn×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"and you\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P030",
+  "title": "P030 · Water core · Wood page · catalyst · blend The Artisan+The Virtuoso (2+2)",
+  "words": 323,
+  "reps": [
+   "let×3",
+   "keep×3",
+   "stay×3",
+   "idea×3",
+   "com×3",
+   "give×3",
+   "someone×3",
+   "instead×3",
+   "finish×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"instead of\"×3",
+   "\"ahead of\"×2",
+   "\"so you\"×2",
+   "\"until\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 23
+ },
+ {
+  "name": "P031",
+  "title": "P031 · Wood core · Fire page · friction · The Artisan",
+  "words": 226,
+  "reps": [
+   "feel×3",
+   "take×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×3"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P032",
+  "title": "P032 · Wood core · Fire page · friction · The Virtuoso",
+  "words": 232,
+  "reps": [
+   "feel×4",
+   "work×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×3",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P033",
+  "title": "P033 · Wood core · Fire page · friction · blend The Artisan+The Virtuoso (2+2)",
+  "words": 264,
+  "reps": [
+   "feel×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2",
+   "\"and you\"×4"
+  ],
+  "youOpen": 7,
+  "sents": 22
+ },
+ {
+  "name": "P034",
+  "title": "P034 · Wood core · Fire page · catalyst · The Artisan",
+  "words": 271,
+  "reps": [
+   "work×5",
+   "keep×3",
+   "com×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2",
+   "\"and you\"×4",
+   "\"because\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 21
+ },
+ {
+  "name": "P035",
+  "title": "P035 · Wood core · Fire page · catalyst · The Virtuoso",
+  "words": 274,
+  "reps": [
+   "end×4",
+   "perform×3",
+   "keep×3",
+   "say×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×3",
+   "\"because\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 21
+ },
+ {
+  "name": "P036",
+  "title": "P036 · Wood core · Fire page · catalyst · blend The Artisan+The Virtuoso (2+2)",
+  "words": 313,
+  "reps": [
+   "com×5",
+   "work×3",
+   "keep×3",
+   "ahead×3",
+   "ask×3",
+   "noth×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×3",
+   "\"and you\"×4",
+   "\"because\"×3"
+  ],
+  "youOpen": 6,
+  "sents": 24
+ },
+ {
+  "name": "P037",
+  "title": "P037 · Fire core · Fire page · friction · The Twin",
+  "words": 234,
+  "reps": [
+   "keep×3",
+   "peer×3",
+   "pay×3",
+   "mistake×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"so you\"×3"
+  ],
+  "youOpen": 8,
+  "sents": 19
+ },
+ {
+  "name": "P038",
+  "title": "P038 · Fire core · Fire page · friction · The Rival",
+  "words": 233,
+  "reps": [
+   "keep×3",
+   "win×3",
+   "friend×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 8,
+  "sents": 19
+ },
+ {
+  "name": "P039",
+  "title": "P039 · Fire core · Fire page · friction · blend The Twin+The Rival (2+2)",
+  "words": 281,
+  "reps": [
+   "pay×5",
+   "keep×3",
+   "rather×3",
+   "mistake×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"so you\"×4",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 10,
+  "sents": 22
+ },
+ {
+  "name": "P040",
+  "title": "P040 · Fire core · Fire page · catalyst · The Twin",
+  "words": 274,
+  "reps": [
+   "alone×4",
+   "day×4",
+   "start×4",
+   "rest×3",
+   "keep×3",
+   "let×3",
+   "since×3",
+   "friend×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×4"
+  ],
+  "youOpen": 5,
+  "sents": 20
+ },
+ {
+  "name": "P041",
+  "title": "P041 · Fire core · Fire page · catalyst · The Rival",
+  "words": 273,
+  "reps": [
+   "ask×6",
+   "want×4",
+   "alone×3",
+   "ahead×3",
+   "bet×3",
+   "rest×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×3",
+   "\"so you\"×3",
+   "\"and you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 20
+ },
+ {
+  "name": "P042",
+  "title": "P042 · Fire core · Fire page · catalyst · blend The Twin+The Rival (2+2)",
+  "words": 320,
+  "reps": [
+   "keep×5",
+   "friend×5",
+   "alone×4",
+   "start×4",
+   "since×4",
+   "rest×3",
+   "day×3",
+   "rather×3",
+   "wait×3",
+   "let×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×5"
+  ],
+  "youOpen": 7,
+  "sents": 23
+ },
+ {
+  "name": "P043",
+  "title": "P043 · Earth core · Fire page · friction · The Alchemist",
+  "words": 237,
+  "reps": [
+   "feel×4",
+   "keep×3",
+   "idea×3",
+   "rather×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"more than\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P044",
+  "title": "P044 · Earth core · Fire page · friction · The Sage",
+  "words": 231,
+  "reps": [
+   "keep×4",
+   "people×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×3",
+   "\"because\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P045",
+  "title": "P045 · Earth core · Fire page · friction · blend The Alchemist+The Sage (2+2)",
+  "words": 279,
+  "reps": [
+   "feel×5",
+   "keep×4",
+   "idea×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×3",
+   "\"so you\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 22
+ },
+ {
+  "name": "P046",
+  "title": "P046 · Earth core · Fire page · catalyst · The Alchemist",
+  "words": 276,
+  "reps": [
+   "keep×3",
+   "trust×3",
+   "rather×3",
+   "month×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"so you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P047",
+  "title": "P047 · Earth core · Fire page · catalyst · The Sage",
+  "words": 272,
+  "reps": [
+   "keep×4",
+   "warm×3",
+   "person×3",
+   "need×3",
+   "rest×3",
+   "read×3",
+   "ask×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2",
+   "\"so you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P048",
+  "title": "P048 · Earth core · Fire page · catalyst · blend The Alchemist+The Sage (2+2)",
+  "words": 312,
+  "reps": [
+   "keep×5",
+   "feel×4",
+   "ask×4",
+   "trust×3",
+   "rather×3",
+   "month×3",
+   "person×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"so you\"×3"
+  ],
+  "youOpen": 5,
+  "sents": 22
+ },
+ {
+  "name": "P049",
+  "title": "P049 · Metal core · Fire page · friction · The General",
+  "words": 228,
+  "reps": [
+   "hold×3",
+   "strength×3",
+   "keep×3",
+   "week×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P050",
+  "title": "P050 · Metal core · Fire page · friction · The Magistrate",
+  "words": 232,
+  "reps": [
+   "rul×3",
+   "hold×3",
+   "ahead×3",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×3",
+   "\"until\"×3"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P051",
+  "title": "P051 · Metal core · Fire page · friction · blend The General+The Magistrate (2+2)",
+  "words": 274,
+  "reps": [
+   "hold×4",
+   "keep×4",
+   "strength×3",
+   "spend×3",
+   "week×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2"
+  ],
+  "youOpen": 8,
+  "sents": 22
+ },
+ {
+  "name": "P052",
+  "title": "P052 · Metal core · Fire page · catalyst · The General",
+  "words": 278,
+  "reps": [
+   "hard×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"because\"×4"
+  ],
+  "youOpen": 3,
+  "sents": 19
+ },
+ {
+  "name": "P053",
+  "title": "P053 · Metal core · Fire page · catalyst · The Magistrate",
+  "words": 279,
+  "reps": [
+   "make×4",
+   "rank×3",
+   "time×3",
+   "done×3",
+   "word×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×2",
+   "\"because\"×3"
+  ],
+  "youOpen": 3,
+  "sents": 19
+ },
+ {
+  "name": "P054",
+  "title": "P054 · Metal core · Fire page · catalyst · blend The General+The Magistrate (2+2)",
+  "words": 318,
+  "reps": [
+   "get×3",
+   "since×3",
+   "let×3",
+   "make×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"because\"×5"
+  ],
+  "youOpen": 3,
+  "sents": 22
+ },
+ {
+  "name": "P055",
+  "title": "P055 · Water core · Fire page · friction · The Horizon",
+  "words": 233,
+  "reps": [
+   "chance×3",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"because\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P056",
+  "title": "P056 · Water core · Fire page · friction · The Steward",
+  "words": 231,
+  "reps": [
+   "feel×4",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P057",
+  "title": "P057 · Water core · Fire page · friction · blend The Horizon+The Steward (2+2)",
+  "words": 274,
+  "reps": [
+   "chance×4",
+   "keep×4",
+   "rather×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"and you\"×2",
+   "\"because\"×3",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 22
+ },
+ {
+  "name": "P058",
+  "title": "P058 · Water core · Fire page · catalyst · The Horizon",
+  "words": 277,
+  "reps": [
+   "want×3",
+   "chance×3",
+   "pay×3",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×3",
+   "\"and you\"×2",
+   "\"while\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 20
+ },
+ {
+  "name": "P059",
+  "title": "P059 · Water core · Fire page · catalyst · The Steward",
+  "words": 283,
+  "reps": [
+   "start×3",
+   "com×3",
+   "want×3",
+   "pay×3",
+   "feel×3",
+   "week×3"
+  ],
+  "opens": [],
+  "conn": [],
+  "youOpen": 5,
+  "sents": 20
+ },
+ {
+  "name": "P060",
+  "title": "P060 · Water core · Fire page · catalyst · blend The Horizon+The Steward (2+2)",
+  "words": 322,
+  "reps": [
+   "want×4",
+   "time×3",
+   "chance×3",
+   "pay×3",
+   "now×3",
+   "love×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"so you\"×2",
+   "\"and you\"×2",
+   "\"while\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 23
+ },
+ {
+  "name": "P061",
+  "title": "P061 · Wood core · Earth page · friction · The Horizon",
+  "words": 230,
+  "reps": [
+   "keep×4",
+   "strength×3",
+   "feel×3",
+   "enough×3",
+   "give×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P062",
+  "title": "P062 · Wood core · Earth page · friction · The Steward",
+  "words": 222,
+  "reps": [
+   "giv×3",
+   "strength×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"and you\"×2",
+   "\"while\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P063",
+  "title": "P063 · Wood core · Earth page · friction · blend The Horizon+The Steward (2+2)",
+  "words": 269,
+  "reps": [
+   "rather×4",
+   "stay×4",
+   "strength×3",
+   "take×3",
+   "feel×3",
+   "enough×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×4",
+   "\"more than\"×2",
+   "\"and you\"×3",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 8,
+  "sents": 22
+ },
+ {
+  "name": "P064",
+  "title": "P064 · Wood core · Earth page · catalyst · The Horizon",
+  "words": 279,
+  "reps": [
+   "next×4",
+   "claim×3",
+   "want×3",
+   "far×3",
+   "year×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×2",
+   "\"so you\"×2",
+   "\"and you\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 20
+ },
+ {
+  "name": "P065",
+  "title": "P065 · Wood core · Earth page · catalyst · The Steward",
+  "words": 282,
+  "reps": [
+   "keep×4",
+   "claim×3",
+   "want×3",
+   "rather×3",
+   "put×3",
+   "stay×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"instead of\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 5,
+  "sents": 20
+ },
+ {
+  "name": "P066",
+  "title": "P066 · Wood core · Earth page · catalyst · blend The Horizon+The Steward (2+2)",
+  "words": 326,
+  "reps": [
+   "claim×3",
+   "want×3",
+   "keep×3",
+   "next×3",
+   "far×3",
+   "put×3",
+   "money×3",
+   "rather×3",
+   "year×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"more than\"×2",
+   "\"so you\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 5,
+  "sents": 23
+ },
+ {
+  "name": "P067",
+  "title": "P067 · Fire core · Earth page · friction · The Artisan",
+  "words": 236,
+  "reps": [
+   "keep×6",
+   "hold×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"instead of\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P068",
+  "title": "P068 · Fire core · Earth page · friction · The Virtuoso",
+  "words": 235,
+  "reps": [
+   "feel×4",
+   "someth×4",
+   "hold×3",
+   "keep×3",
+   "giv×3",
+   "instead×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"instead of\"×3",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P069",
+  "title": "P069 · Fire core · Earth page · friction · blend The Artisan+The Virtuoso (2+2)",
+  "words": 278,
+  "reps": [
+   "keep×5",
+   "feel×4",
+   "hold×3",
+   "instead×3",
+   "useful×3",
+   "like×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"instead of\"×3",
+   "\"so you\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 22
+ },
+ {
+  "name": "P070",
+  "title": "P070 · Fire core · Earth page · catalyst · The Artisan",
+  "words": 273,
+  "reps": [
+   "rather×4",
+   "work×3",
+   "show×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P071",
+  "title": "P071 · Fire core · Earth page · catalyst · The Virtuoso",
+  "words": 271,
+  "reps": [
+   "work×3",
+   "mak×3",
+   "give×3",
+   "rather×3",
+   "say×3",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2",
+   "\"because\"×4"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P072",
+  "title": "P072 · Fire core · Earth page · catalyst · blend The Artisan+The Virtuoso (2+2)",
+  "words": 317,
+  "reps": [
+   "rather×5",
+   "show×4",
+   "since×4",
+   "work×3",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 23
+ },
+ {
+  "name": "P073",
+  "title": "P073 · Earth core · Earth page · friction · The Twin",
+  "words": 224,
+  "reps": [
+   "plan×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P074",
+  "title": "P074 · Earth core · Earth page · friction · The Rival",
+  "words": 234,
+  "reps": [
+   "rather×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×4"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P075",
+  "title": "P075 · Earth core · Earth page · friction · blend The Twin+The Rival (2+2)",
+  "words": 267,
+  "reps": [
+   "stand×3",
+   "feel×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×3"
+  ],
+  "youOpen": 9,
+  "sents": 22
+ },
+ {
+  "name": "P076",
+  "title": "P076 · Earth core · Earth page · catalyst · The Twin",
+  "words": 263,
+  "reps": [
+   "peer×4",
+   "back×3",
+   "get×3",
+   "keep×3",
+   "give×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 20
+ },
+ {
+  "name": "P077",
+  "title": "P077 · Earth core · Earth page · catalyst · The Rival",
+  "words": 260,
+  "reps": [
+   "whole×3",
+   "keep×3",
+   "give×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P078",
+  "title": "P078 · Earth core · Earth page · catalyst · blend The Twin+The Rival (2+2)",
+  "words": 307,
+  "reps": [
+   "get×4",
+   "give×4",
+   "peer×3",
+   "back×3",
+   "keep×3",
+   "without×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 22
+ },
+ {
+  "name": "P079",
+  "title": "P079 · Metal core · Earth page · friction · The Alchemist",
+  "words": 231,
+  "reps": [
+   "hold×4",
+   "feel×4",
+   "first×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"ahead of\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P080",
+  "title": "P080 · Metal core · Earth page · friction · The Sage",
+  "words": 227,
+  "reps": [
+   "look×3",
+   "rather×3",
+   "someone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"instead of\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P081",
+  "title": "P081 · Metal core · Earth page · friction · blend The Alchemist+The Sage (2+2)",
+  "words": 271,
+  "reps": [
+   "feel×4",
+   "take×4",
+   "first×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"ahead of\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 8,
+  "sents": 22
+ },
+ {
+  "name": "P082",
+  "title": "P082 · Metal core · Earth page · catalyst · The Alchemist",
+  "words": 279,
+  "reps": [
+   "rather×4",
+   "time×4",
+   "long×3",
+   "alone×3",
+   "best×3",
+   "teach×3",
+   "let×3",
+   "since×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×4",
+   "\"and you\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P083",
+  "title": "P083 · Metal core · Earth page · catalyst · The Sage",
+  "words": 274,
+  "reps": [
+   "rather×3",
+   "let×3",
+   "take×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"instead of\"×2",
+   "\"because\"×3"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P084",
+  "title": "P084 · Metal core · Earth page · catalyst · blend The Alchemist+The Sage (2+2)",
+  "words": 323,
+  "reps": [
+   "rather×4",
+   "give×3",
+   "teach×3",
+   "trust×3",
+   "let×3",
+   "time×3",
+   "since×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×4",
+   "\"because\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 23
+ },
+ {
+  "name": "P085",
+  "title": "P085 · Water core · Earth page · friction · The General",
+  "words": 239,
+  "reps": [
+   "answer×3",
+   "ask×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P086",
+  "title": "P086 · Water core · Earth page · friction · The Magistrate",
+  "words": 232,
+  "reps": [
+   "ask×4",
+   "answer×3",
+   "person×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×3"
+  ],
+  "youOpen": 8,
+  "sents": 19
+ },
+ {
+  "name": "P087",
+  "title": "P087 · Water core · Earth page · friction · blend The General+The Magistrate (2+2)",
+  "words": 280,
+  "reps": [
+   "answer×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"and you\"×3",
+   "\"until\"×2"
+  ],
+  "youOpen": 11,
+  "sents": 22
+ },
+ {
+  "name": "P088",
+  "title": "P088 · Water core · Earth page · catalyst · The General",
+  "words": 289,
+  "reps": [
+   "day×4",
+   "hold×3",
+   "stay×3",
+   "take×3",
+   "pace×3",
+   "someone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 21
+ },
+ {
+  "name": "P089",
+  "title": "P089 · Water core · Earth page · catalyst · The Magistrate",
+  "words": 288,
+  "reps": [],
+  "opens": [],
+  "conn": [
+   "\"because\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 21
+ },
+ {
+  "name": "P090",
+  "title": "P090 · Water core · Earth page · catalyst · blend The General+The Magistrate (2+2)",
+  "words": 328,
+  "reps": [
+   "day×4",
+   "person×4",
+   "hold×3",
+   "rule×3",
+   "stay×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×4",
+   "\"because\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 24
+ },
+ {
+  "name": "P091",
+  "title": "P091 · Wood core · Metal page · friction · The General",
+  "words": 230,
+  "reps": [
+   "judge×4",
+   "answer×3",
+   "turn×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P092",
+  "title": "P092 · Wood core · Metal page · friction · The Magistrate",
+  "words": 222,
+  "reps": [
+   "hold×4",
+   "rule×4",
+   "answer×3",
+   "rather×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"and you\"×4"
+  ],
+  "youOpen": 3,
+  "sents": 19
+ },
+ {
+  "name": "P093",
+  "title": "P093 · Wood core · Metal page · friction · blend The General+The Magistrate (2+2)",
+  "words": 266,
+  "reps": [
+   "answer×6",
+   "judge×4",
+   "turn×3",
+   "rather×3",
+   "free×3",
+   "give×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"and you\"×5"
+  ],
+  "youOpen": 6,
+  "sents": 22
+ },
+ {
+  "name": "P094",
+  "title": "P094 · Wood core · Metal page · catalyst · The General",
+  "words": 278,
+  "reps": [
+   "take×5",
+   "hold×4",
+   "someone×4",
+   "com×3",
+   "rather×3",
+   "else×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"and you\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P095",
+  "title": "P095 · Wood core · Metal page · catalyst · The Magistrate",
+  "words": 280,
+  "reps": [
+   "rank×3",
+   "hold×3",
+   "hard×3",
+   "take×3",
+   "small×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P096",
+  "title": "P096 · Wood core · Metal page · catalyst · blend The General+The Magistrate (2+2)",
+  "words": 320,
+  "reps": [
+   "hold×6",
+   "take×5",
+   "exact×3",
+   "com×3",
+   "rather×3",
+   "someone×3",
+   "else×3",
+   "give×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"and you\"×4"
+  ],
+  "youOpen": 1,
+  "sents": 23
+ },
+ {
+  "name": "P097",
+  "title": "P097 · Fire core · Metal page · friction · The Horizon",
+  "words": 231,
+  "reps": [
+   "keep×4",
+   "venture×4",
+   "rather×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3"
+  ],
+  "youOpen": 6,
+  "sents": 18
+ },
+ {
+  "name": "P098",
+  "title": "P098 · Fire core · Metal page · friction · The Steward",
+  "words": 232,
+  "reps": [
+   "keep×5",
+   "take×3",
+   "rather×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 18
+ },
+ {
+  "name": "P099",
+  "title": "P099 · Fire core · Metal page · friction · blend The Horizon+The Steward (2+2)",
+  "words": 280,
+  "reps": [
+   "rather×5",
+   "venture×4",
+   "keep×3",
+   "count×3",
+   "cost×3",
+   "never×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×5",
+   "\"more than\"×2",
+   "\"and you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 21
+ },
+ {
+  "name": "P100",
+  "title": "P100 · Fire core · Metal page · catalyst · The Horizon",
+  "words": 288,
+  "reps": [],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2",
+   "\"while\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P101",
+  "title": "P101 · Fire core · Metal page · catalyst · The Steward",
+  "words": 284,
+  "reps": [
+   "open×5",
+   "put×3",
+   "kept×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"ahead of\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P102",
+  "title": "P102 · Fire core · Metal page · catalyst · blend The Horizon+The Steward (2+2)",
+  "words": 333,
+  "reps": [
+   "spend×4",
+   "take×3",
+   "feel×3",
+   "rather×3",
+   "wait×3",
+   "sum×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×2",
+   "\"while\"×2"
+  ],
+  "youOpen": 9,
+  "sents": 22
+ },
+ {
+  "name": "P103",
+  "title": "P103 · Earth core · Metal page · friction · The Artisan",
+  "words": 234,
+  "reps": [
+   "give×3",
+   "pleas×3",
+   "rather×3",
+   "take×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P104",
+  "title": "P104 · Earth core · Metal page · friction · The Virtuoso",
+  "words": 234,
+  "reps": [
+   "feel×3",
+   "grade×3",
+   "let×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"instead of\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P105",
+  "title": "P105 · Earth core · Metal page · friction · blend The Artisan+The Virtuoso (2+2)",
+  "words": 276,
+  "reps": [
+   "rather×4",
+   "left×3",
+   "give×3",
+   "pleas×3",
+   "feel×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×4",
+   "\"so you\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 22
+ },
+ {
+  "name": "P106",
+  "title": "P106 · Earth core · Metal page · catalyst · The Artisan",
+  "words": 279,
+  "reps": [
+   "work×5",
+   "get×3",
+   "let×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 20
+ },
+ {
+  "name": "P107",
+  "title": "P107 · Earth core · Metal page · catalyst · The Virtuoso",
+  "words": 280,
+  "reps": [
+   "work×3",
+   "show×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2",
+   "\"and you\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P108",
+  "title": "P108 · Earth core · Metal page · catalyst · blend The Artisan+The Virtuoso (2+2)",
+  "words": 324,
+  "reps": [
+   "work×4",
+   "keep×3",
+   "get×3",
+   "someth×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 23
+ },
+ {
+  "name": "P109",
+  "title": "P109 · Metal core · Metal page · friction · The Twin",
+  "words": 233,
+  "reps": [
+   "peer×4",
+   "stay×3",
+   "seal×3",
+   "rather×3",
+   "someone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P110",
+  "title": "P110 · Metal core · Metal page · friction · The Rival",
+  "words": 230,
+  "reps": [
+   "want×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×3"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P111",
+  "title": "P111 · Metal core · Metal page · friction · blend The Twin+The Rival (2+2)",
+  "words": 274,
+  "reps": [
+   "peer×3",
+   "stay×3",
+   "seal×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 22
+ },
+ {
+  "name": "P112",
+  "title": "P112 · Metal core · Metal page · catalyst · The Twin",
+  "words": 278,
+  "reps": [
+   "rather×6",
+   "rest×4",
+   "let×4",
+   "mak×3",
+   "standard×3",
+   "friend×3",
+   "people×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×6",
+   "\"instead of\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P113",
+  "title": "P113 · Metal core · Metal page · catalyst · The Rival",
+  "words": 278,
+  "reps": [
+   "rest×4",
+   "rather×3",
+   "someone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"more than\"×2",
+   "\"instead of\"×2",
+   "\"so you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 20
+ },
+ {
+  "name": "P114",
+  "title": "P114 · Metal core · Metal page · catalyst · blend The Twin+The Rival (2+2)",
+  "words": 321,
+  "reps": [
+   "rather×5",
+   "friend×5",
+   "keep×5",
+   "rest×4",
+   "mak×3",
+   "alone×3",
+   "let×3",
+   "standard×3",
+   "someone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×5",
+   "\"instead of\"×2",
+   "\"so you\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 23
+ },
+ {
+  "name": "P115",
+  "title": "P115 · Water core · Metal page · friction · The Alchemist",
+  "words": 232,
+  "reps": [
+   "test×3",
+   "rather×3",
+   "thought×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3"
+  ],
+  "youOpen": 8,
+  "sents": 19
+ },
+ {
+  "name": "P116",
+  "title": "P116 · Water core · Metal page · friction · The Sage",
+  "words": 227,
+  "reps": [
+   "keep×3",
+   "test×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P117",
+  "title": "P117 · Water core · Metal page · friction · blend The Alchemist+The Sage (2+2)",
+  "words": 277,
+  "reps": [
+   "keep×4",
+   "rather×4",
+   "people×4",
+   "test×3",
+   "shelter×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×4",
+   "\"more than\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 9,
+  "sents": 22
+ },
+ {
+  "name": "P118",
+  "title": "P118 · Water core · Metal page · catalyst · The Alchemist",
+  "words": 273,
+  "reps": [
+   "take×3",
+   "get×3",
+   "learn×3",
+   "good×3"
+  ],
+  "opens": [],
+  "conn": [],
+  "youOpen": 4,
+  "sents": 20
+ },
+ {
+  "name": "P119",
+  "title": "P119 · Water core · Metal page · catalyst · The Sage",
+  "words": 280,
+  "reps": [
+   "take×3",
+   "know×3",
+   "matter×3",
+   "someone×3",
+   "ask×3",
+   "steady×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P120",
+  "title": "P120 · Water core · Metal page · catalyst · blend The Alchemist+The Sage (2+2)",
+  "words": 317,
+  "reps": [
+   "take×4",
+   "becom×3",
+   "slow×3",
+   "good×3",
+   "back×3",
+   "hold×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 23
+ },
+ {
+  "name": "P121",
+  "title": "P121 · Wood core · Water page · friction · The Alchemist",
+  "words": 227,
+  "reps": [
+   "understand×3",
+   "hold×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 18
+ },
+ {
+  "name": "P122",
+  "title": "P122 · Wood core · Water page · friction · The Sage",
+  "words": 233,
+  "reps": [
+   "call×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"instead of\"×2",
+   "\"and you\"×4"
+  ],
+  "youOpen": 4,
+  "sents": 18
+ },
+ {
+  "name": "P123",
+  "title": "P123 · Wood core · Water page · friction · blend The Alchemist+The Sage (2+2)",
+  "words": 270,
+  "reps": [
+   "call×4",
+   "understand×3",
+   "hold×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"so you\"×2",
+   "\"and you\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 21
+ },
+ {
+  "name": "P124",
+  "title": "P124 · Wood core · Water page · catalyst · The Alchemist",
+  "words": 281,
+  "reps": [
+   "ask×4",
+   "ahead×3",
+   "know×3",
+   "way×3",
+   "learn×3",
+   "question×3",
+   "keep×3",
+   "wait×3",
+   "answer×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"instead of\"×2",
+   "\"ahead of\"×3",
+   "\"so you\"×2",
+   "\"and you\"×2",
+   "\"because\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 19
+ },
+ {
+  "name": "P125",
+  "title": "P125 · Wood core · Water page · catalyst · The Sage",
+  "words": 276,
+  "reps": [
+   "back×3",
+   "wait×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2",
+   "\"so you\"×2",
+   "\"because\"×3"
+  ],
+  "youOpen": 3,
+  "sents": 19
+ },
+ {
+  "name": "P126",
+  "title": "P126 · Wood core · Water page · catalyst · blend The Alchemist+The Sage (2+2)",
+  "words": 324,
+  "reps": [
+   "know×4",
+   "keep×4",
+   "ask×4",
+   "ahead×3",
+   "question×3",
+   "wait×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×3",
+   "\"instead of\"×2",
+   "\"ahead of\"×3",
+   "\"so you\"×3",
+   "\"because\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 22
+ },
+ {
+  "name": "P127",
+  "title": "P127 · Fire core · Water page · friction · The General",
+  "words": 236,
+  "reps": [
+   "keep×4",
+   "rather×4",
+   "hold×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3"
+  ],
+  "youOpen": 4,
+  "sents": 18
+ },
+ {
+  "name": "P128",
+  "title": "P128 · Fire core · Water page · friction · The Magistrate",
+  "words": 235,
+  "reps": [
+   "keep×5",
+   "rank×4",
+   "hold×3",
+   "take×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×3"
+  ],
+  "youOpen": 5,
+  "sents": 18
+ },
+ {
+  "name": "P129",
+  "title": "P129 · Fire core · Water page · friction · blend The General+The Magistrate (2+2)",
+  "words": 270,
+  "reps": [
+   "hold×5",
+   "rather×5",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×4"
+  ],
+  "youOpen": 7,
+  "sents": 21
+ },
+ {
+  "name": "P130",
+  "title": "P130 · Fire core · Water page · catalyst · The General",
+  "words": 279,
+  "reps": [
+   "move×4",
+   "someone×4",
+   "answer×3",
+   "keep×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P131",
+  "title": "P131 · Fire core · Water page · catalyst · The Magistrate",
+  "words": 281,
+  "reps": [
+   "finish×4",
+   "ahead×3",
+   "rather×3",
+   "someone×3",
+   "run×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"so you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P132",
+  "title": "P132 · Fire core · Water page · catalyst · blend The General+The Magistrate (2+2)",
+  "words": 322,
+  "reps": [
+   "move×4",
+   "hold×3",
+   "keep×3",
+   "rather×3",
+   "someone×3",
+   "plan×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"more than\"×3",
+   "\"so you\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 22
+ },
+ {
+  "name": "P133",
+  "title": "P133 · Earth core · Water page · friction · The Horizon",
+  "words": 222,
+  "reps": [
+   "next×4",
+   "keep×4",
+   "feel×4",
+   "open×3",
+   "stay×3",
+   "like×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2",
+   "\"because\"×3",
+   "\"feels like\"×3"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P134",
+  "title": "P134 · Earth core · Water page · friction · The Steward",
+  "words": 229,
+  "reps": [],
+  "opens": [],
+  "conn": [
+   "\"more than\"×2",
+   "\"ahead of\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P135",
+  "title": "P135 · Earth core · Water page · friction · blend The Horizon+The Steward (2+2)",
+  "words": 270,
+  "reps": [
+   "keep×5",
+   "feel×4",
+   "next×3",
+   "open×3",
+   "ahead×3",
+   "stay×3",
+   "like×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×3",
+   "\"because\"×3",
+   "\"feels like\"×3"
+  ],
+  "youOpen": 6,
+  "sents": 22
+ },
+ {
+  "name": "P136",
+  "title": "P136 · Earth core · Water page · catalyst · The Horizon",
+  "words": 282,
+  "reps": [
+   "keep×4",
+   "see×4",
+   "chance×4",
+   "start×4",
+   "far×3",
+   "share×3",
+   "home×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P137",
+  "title": "P137 · Earth core · Water page · catalyst · The Steward",
+  "words": 280,
+  "reps": [
+   "keep×6",
+   "month×5",
+   "rather×3",
+   "someth×3",
+   "cost×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"and you\"×3"
+  ],
+  "youOpen": 5,
+  "sents": 19
+ },
+ {
+  "name": "P138",
+  "title": "P138 · Earth core · Water page · catalyst · blend The Horizon+The Steward (2+2)",
+  "words": 321,
+  "reps": [
+   "keep×5",
+   "see×4",
+   "chance×4",
+   "start×4",
+   "far×3",
+   "put×3",
+   "small×3",
+   "cost×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"ahead of\"×2",
+   "\"feels like\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 22
+ },
+ {
+  "name": "P139",
+  "title": "P139 · Metal core · Water page · friction · The Artisan",
+  "words": 230,
+  "reps": [
+   "give×4",
+   "meant×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"and you\"×2",
+   "\"until\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 19
+ },
+ {
+  "name": "P140",
+  "title": "P140 · Metal core · Water page · friction · The Virtuoso",
+  "words": 233,
+  "reps": [
+   "keep×3",
+   "think×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"and you\"×2",
+   "\"because\"×2",
+   "\"until\"×2"
+  ],
+  "youOpen": 7,
+  "sents": 19
+ },
+ {
+  "name": "P141",
+  "title": "P141 · Metal core · Water page · friction · blend The Artisan+The Virtuoso (2+2)",
+  "words": 275,
+  "reps": [
+   "think×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×2",
+   "\"instead of\"×2",
+   "\"and you\"×2",
+   "\"until\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 22
+ },
+ {
+  "name": "P142",
+  "title": "P142 · Metal core · Water page · catalyst · The Artisan",
+  "words": 274,
+  "reps": [
+   "give×4",
+   "keep×4",
+   "work×3",
+   "com×3",
+   "ask×3",
+   "version×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 20
+ },
+ {
+  "name": "P143",
+  "title": "P143 · Metal core · Water page · catalyst · The Virtuoso",
+  "words": 278,
+  "reps": [
+   "work×3",
+   "right×3",
+   "wit×3",
+   "answer×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"ahead of\"×2",
+   "\"until\"×2",
+   "\"while\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 20
+ },
+ {
+  "name": "P144",
+  "title": "P144 · Metal core · Water page · catalyst · blend The Artisan+The Virtuoso (2+2)",
+  "words": 319,
+  "reps": [
+   "work×3",
+   "feel×3",
+   "com×3",
+   "give×3",
+   "keep×3",
+   "ask×3",
+   "count×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"because\"×3",
+   "\"while\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 23
+ },
+ {
+  "name": "P145",
+  "title": "P145 · Water core · Water page · friction · The Twin",
+  "words": 229,
+  "reps": [
+   "rather×4",
+   "keep×3",
+   "anyone×3",
+   "hold×3"
+  ],
+  "opens": [
+   "\"you hold\"×3"
+  ],
+  "conn": [
+   "\"rather than\"×4",
+   "\"more than\"×2",
+   "\"and you\"×2"
+  ],
+  "youOpen": 6,
+  "sents": 18
+ },
+ {
+  "name": "P146",
+  "title": "P146 · Water core · Water page · friction · The Rival",
+  "words": 232,
+  "reps": [
+   "keep×4",
+   "race×4",
+   "finish×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"more than\"×3",
+   "\"ahead of\"×2",
+   "\"so you\"×2"
+  ],
+  "youOpen": 5,
+  "sents": 18
+ },
+ {
+  "name": "P147",
+  "title": "P147 · Water core · Water page · friction · blend The Twin+The Rival (2+2)",
+  "words": 266,
+  "reps": [
+   "keep×4",
+   "rather×4",
+   "race×3",
+   "anyone×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×4",
+   "\"more than\"×2",
+   "\"and you\"×3"
+  ],
+  "youOpen": 7,
+  "sents": 21
+ },
+ {
+  "name": "P148",
+  "title": "P148 · Water core · Water page · catalyst · The Twin",
+  "words": 276,
+  "reps": [
+   "carry×4",
+   "stand×3",
+   "com×3",
+   "rather×3",
+   "peer×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×3",
+   "\"ahead of\"×2"
+  ],
+  "youOpen": 3,
+  "sents": 19
+ },
+ {
+  "name": "P149",
+  "title": "P149 · Water core · Water page · catalyst · The Rival",
+  "words": 277,
+  "reps": [
+   "ahead×4",
+   "plan×3",
+   "take×3",
+   "shar×3"
+  ],
+  "opens": [],
+  "conn": [
+   "\"rather than\"×2",
+   "\"ahead of\"×4"
+  ],
+  "youOpen": 4,
+  "sents": 19
+ },
+ {
+  "name": "P150",
+  "title": "P150 · Water core · Water page · catalyst · blend The Twin+The Rival (2+2)",
+  "words": 320,
+  "reps": [
+   "alone×5",
+   "carry×4",
+   "rather×4",
+   "stand×3",
+   "com×3",
+   "peer×3",
+   "run×3"
+  ],
+  "opens": [
+   "\"if you\"×4"
+  ],
+  "conn": [
+   "\"rather than\"×4",
+   "\"ahead of\"×2"
+  ],
+  "youOpen": 2,
+  "sents": 22
+ }
+]
