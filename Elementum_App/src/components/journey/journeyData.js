@@ -580,7 +580,6 @@ export function buildElementScreen(model, el) {
       const twoFaced = r.faces.length > 1 && r.faces[0].share < 60;
       const tail = twoFaced ? null : K2_CELLS[`${r.hz}_${r.god}`]?.fnReading?.[pole]?.define;
       const head = (t) => (t.match(/[^.!?]+[.!?]+/g) || []).slice(0, 2).map((x) => x.trim()).join(' ');
-      const balancedAdvice = fn && model.condition === 'Balanced' ? fn.advise_balanced || null : null;
       const raw = !fn ? ''
         : model.condition === 'Balanced' && fn.definition_balanced ? fn.definition_balanced
         : tail ? `${head(shared)} ${tail}` : shared;
@@ -599,8 +598,8 @@ export function buildElementScreen(model, el) {
         // THE CHARACTER's title line (owner 2026-10-14, Q2 of the eyebrow
         // rulings: pole-specific): the state the chart gives this energy,
         // in the register's own words for it.
-        // a Balanced chart reads the pair's balanced advice, never a remedy (owner R2-1, 2026-10-17)
-        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: (balancedAdvice || fn[`advise_${pole}`] || ''), remedy: pole === 'friction' && !balancedAdvice ? remedyOf(fn[`advise_${pole}`] || '') : null, edge: pole === 'catalyst' ? edgeOf(r) : null } : null,
+        // (function.advise_balanced is stored, not rendered: catalyst and Balanced pages end on THE EDGE, owner 2026-10-17)
+        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '', remedy: pole === 'friction' ? remedyOf(fn[`advise_${pole}`] || '') : null, edge: pole === 'catalyst' ? edgeOf(r) : null } : null,
       };
     })()),
     // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —
