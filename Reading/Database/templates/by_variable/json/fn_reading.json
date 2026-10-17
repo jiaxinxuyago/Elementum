@@ -1083,7 +1083,7 @@
               {
                 "word": "Hard on yourself",
                 "angles": {
-                  "drive": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in sleep you never get back.",
+                  "drive": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in calm you never get back.",
                   "cost_self": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. You never let yourself spend the credit you earned.",
                   "cost_others": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You take from them the plain comfort of looking after you."
                 }
@@ -2002,7 +2002,7 @@
                 "word": "Never asks",
                 "angles": {
                   "drive": "Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck.",
-                  "cost_self": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. You miss out on the rest that help would have given you.",
+                  "cost_self": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you.",
                   "cost_others": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. You leave your peers at a distance, with nothing of yours to help with."
                 }
               },
@@ -2053,7 +2053,7 @@
             ]
           },
           "friction": {
-            "define": "Running over, the depth churns with no outlet. You need to prove yourself among friends, and the drive gives you little rest.",
+            "define": "Running over, the depth churns with no outlet. You need to prove yourself among friends, and the drive never lets you stop.",
             "ledger": [
               {
                 "word": "Races in secret",
@@ -3093,7 +3093,7 @@
             ]
           },
           "friction": {
-            "define": "As a friction, more standards reach you than you can meet, and each one tests your worth. You end up tired and never sure it was enough.",
+            "define": "As a friction, more standards reach you than you can meet, and each one tests your worth. You end up spent and never sure it was enough.",
             "ledger": [
               {
                 "word": "Rule-bound",

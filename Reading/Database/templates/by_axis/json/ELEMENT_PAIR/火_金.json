@@ -23,8 +23,8 @@
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, the edge runs thin. You work in short strokes and your gains come in pieces.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, your Action takes more strength than you have, and little is left to enjoy what is already yours.",
       "definition_balanced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, you claim what you can carry and see it through. What comes in is enjoyed and kept.",
-      "advise_catalyst": "Your drive is short, and each piece of it needs a clear place to go. Say yes to one opening and no to the next two out loud. Move a fixed sum into savings each month before you spend the rest. Take whoever you love somewhere new and close by. Empty your pockets into a jar each night.",
-      "advise_friction": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Sleep on any new venture before you answer."
+      "advise_catalyst": "Your drive is short, and each piece of it needs a clear place to go. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never. Clear out one drawer and give away what you have not used in a year.",
+      "advise_friction": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Eat warm food daily. Talk deals through with a friend."
     },
     "cta_verdict": "Your drive goes wherever there is something hard to shape, and you finish more by picking one thing to provide for than by chasing every opening you spot.",
     "carry": {
@@ -299,6 +299,22 @@
       "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
       "finding": "M2 voice audit",
       "replaced": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "Your drive is short, and each piece of it needs a clear place to go. Say yes to one opening and no to the next two out loud. Move a fixed sum into savings each month before you spend the rest. Take whoever you love somewhere new and close by. Empty your pockets into a jar each night."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Sleep on any new venture before you answer."
     }
   ]
 }

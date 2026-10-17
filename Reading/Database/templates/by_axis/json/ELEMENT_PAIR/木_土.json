@@ -25,8 +25,8 @@
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish.",
       "definition_balanced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays.",
-      "advise_catalyst": "The ground under your plans is thinner than they need. Put one goal in writing with a date beside it. Move a fixed sum into savings on the same day each month. Tell the person you love one plan for the year and keep to it. Finish the small thing before you start another.",
-      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Eat a real meal before any decision about money. Sleep on every yes before you give it."
+      "advise_catalyst": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month.",
+      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Start each week with one thing that is only for you. Say no to one request before you say yes again."
     },
     "cta_verdict": "You build to keep rather than to show, and the things you go after slowly are usually the ones that stay yours.",
     "carry": {
@@ -304,6 +304,22 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2 advise friction",
       "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. You agree to more than you have strength for. Eat a real meal before any decision about money. Sleep on every yes before you give it."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "The ground under your plans is thinner than they need. Put one goal in writing with a date beside it. Move a fixed sum into savings on the same day each month. Tell the person you love one plan for the year and keep to it. Finish the small thing before you start another."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Eat a real meal before any decision about money. Sleep on every yes before you give it."
     }
   ]
 }

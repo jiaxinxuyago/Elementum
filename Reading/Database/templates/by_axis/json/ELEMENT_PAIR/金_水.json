@@ -25,8 +25,8 @@
       "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, the flow runs short. Your kindness and wit come out fast and then run dry.",
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and more goes out of you than comes back. You run empty long before you run quiet.",
       "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, the gate opens and closes when you choose. Your kindness and wit come out at the moment they are needed.",
-      "advise_catalyst": "What you have to give runs short, and it counts for nothing until someone hears it. Send the page before the third read. Tell someone one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.",
-      "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Read a whole chapter before you answer. Sit with one question overnight."
+      "advise_catalyst": "What you have to give runs short, and it counts for nothing until someone hears it. Tell someone one story with no lesson in it. Ask one person what they took from it, and listen to the end.",
+      "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Keep one piece of news to yourself for a week. Hold to one plan for a whole month."
     },
     "cta_verdict": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
     "carry": {
@@ -501,6 +501,22 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2 advise friction",
       "replaced": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You say the thing to find out what you think, and you keep nothing back for yourself. Read a whole chapter before you answer. Sit with one question overnight."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "What you have to give runs short, and it counts for nothing until someone hears it. Send the page before the third read. Tell someone one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Read a whole chapter before you answer. Sit with one question overnight."
     }
   ]
 }

@@ -25,8 +25,8 @@
       "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, little flows in from outside. What does reach you is held close and goes deep.",
       "definition_friction": "Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. Nothing feels safe to you until it is right, and making sure eats the hours you meant for living.",
       "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. In balance, the test is quick and fair. What passes it settles in, and you trust it enough to use it.",
-      "advise_catalyst": "You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply.",
-      "advise_friction": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Decide one small thing with no second look."
+      "advise_catalyst": "You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Pick one hard question and collect three answers before you decide. Sort what you hear into what you will use and what you will drop. Clear one hour a week for a subject outside your field.",
+      "advise_friction": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Share one rough idea with a group this week."
     },
     "cta_verdict": "You trust what you have tested rather than what you were told, so you learn slowly and keep it for good.",
     "carry": {
@@ -319,6 +319,22 @@
       "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
       "finding": "M2 voice audit",
       "replaced": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft you would accept from others. Decide one small thing with no second look."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m6-advice-acts",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
+      "finding": "M6",
+      "replaced": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Decide one small thing with no second look."
     }
   ]
 }

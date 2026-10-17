@@ -1,17 +1,79 @@
 [
- { "pair_cell": "土_木",
-   "advise_catalyst": { "acts": ["Sign up for one class that ends in a test.", "Pick one goal for this season and mark the finish on a calendar."] },
-   "advise_friction": { "acts": ["Ask whoever made one rule why it matters to them.", "Tell one friend each week what is weighing on you."] } },
- { "pair_cell": "土_火",
-   "advise_catalyst": { "acts": ["Once a month go to a class or a talk just to take it in.", "Keep one person you can ask the simple question, and ask it."] },
-   "advise_friction": { "acts": ["Fix one small thing with what you already know.", "Pass on one thing you learned to someone who needs it."] } },
- { "pair_cell": "土_土",
-   "advise_catalyst": { "acts": ["Wait for the whole answer before you agree to anything.", "Keep one routine that survives a bad month.", "Tend one pot of herbs through a whole season."] },
-   "advise_friction": { "acts": ["Put one plan up for review before you start it.", "Learn one new skill this season from a coach."] } },
- { "pair_cell": "土_金",
-   "advise_catalyst": { "acts": ["Give one thing you made to someone this month, as it is.", "Cut one draft in half and send the shorter one.", "Sign one piece of work."] },
-   "advise_friction": { "acts": ["See one show this month as a guest, not a critic.", "Accept the next compliment with a plain thank you."] } },
- { "pair_cell": "土_水",
-   "advise_catalyst": { "acts": ["Put one plan into motion this season, a trip booked or a small venture opened with money you can spare.", "Follow one lead you heard about to see where it goes."] },
-   "advise_friction": { "acts": ["Finish one thing you started before you open anything new.", "Keep one evening a week at home with nothing planned."] } }
+ {
+  "pair_cell": "土_木",
+  "advise_catalyst": {
+   "acts": [
+    "Sign up for one class that ends in a test.",
+    "Pick one goal for this season and mark the finish on a calendar."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Ask whoever made one rule why it matters to them.",
+    "Tell one friend each week what is weighing on you."
+   ]
+  }
+ },
+ {
+  "pair_cell": "土_火",
+  "advise_catalyst": {
+   "acts": [
+    "Once a month go to a talk or a workshop just to take it in.",
+    "Keep one person to ask the simple question, and ask it."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Fix one small thing with what you already know.",
+    "Pass on one thing you learned to someone who needs it."
+   ]
+  }
+ },
+ {
+  "pair_cell": "土_土",
+  "advise_catalyst": {
+   "acts": [
+    "Wait for the whole answer before you agree to anything.",
+    "Keep one routine that survives a bad month.",
+    "Tend one pot of herbs from spring to autumn."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Put one plan up for review before you start it.",
+    "Take up one new skill with a coach this year."
+   ]
+  }
+ },
+ {
+  "pair_cell": "土_金",
+  "advise_catalyst": {
+   "acts": [
+    "Give one thing you made to someone this month, as it is.",
+    "Cut one draft in half and send the shorter one.",
+    "Sign one piece of work."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "See one show as a guest, not a critic.",
+    "Accept the next compliment with a plain thank you."
+   ]
+  }
+ },
+ {
+  "pair_cell": "土_水",
+  "advise_catalyst": {
+   "acts": [
+    "Put one plan into motion this season, a trip booked or a small venture opened with money you can spare.",
+    "Follow one lead you heard about to see where it goes."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Finish one thing you started before you open anything new.",
+    "Keep one evening a week at home with nothing planned."
+   ]
+  }
+ }
 ]

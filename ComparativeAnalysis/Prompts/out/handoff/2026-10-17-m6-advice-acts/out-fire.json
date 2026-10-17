@@ -1,17 +1,81 @@
 [
- { "pair_cell": "火_木",
-   "advise_catalyst": { "acts": ["Take a class in something nobody pays you for.", "Start one slow project that will take the whole year to grow."] },
-   "advise_friction": { "acts": ["Close one open question this week.", "Choose one idea to finish and drop the rest."] } },
- { "pair_cell": "火_火",
-   "advise_catalyst": { "acts": ["Ask one person for help on a job you usually do alone.", "Get two friends together once a month just for fun.", "Stand in the sun for ten minutes each morning."] },
-   "advise_friction": { "acts": ["Rest one full day a week with no work at all.", "Let someone finish speaking before you answer."] } },
- { "pair_cell": "火_土",
-   "advise_catalyst": { "acts": ["Finish one piece of work a week that someone else can hold.", "Tend one plant or patch of soil through the whole month.", "Keep a box for the things you have made and open it at the end of the year."] },
-   "advise_friction": { "acts": ["Join one course this month.", "Give each new idea a week to grow."] } },
- { "pair_cell": "火_金",
-   "advise_catalyst": { "acts": ["Choose one aim for this month and cross two others off.", "Sort your open tasks into now, later and never.", "Clear out one drawer and give away what you have not used in a year."] },
-   "advise_friction": { "acts": ["Eat one hot meal daily.", "Show a friend every deal."] } },
- { "pair_cell": "火_水",
-   "advise_catalyst": { "acts": ["Ask for honest feedback on one piece of work and just listen.", "Learn how one new task works before you start on it.", "Leave an hour empty between two big jobs."] },
-   "advise_friction": { "acts": ["Start one project of your own this month.", "Learn one skill no rule asks for."] } }
+ {
+  "pair_cell": "火_木",
+  "advise_catalyst": {
+   "acts": [
+    "Take a class in something nobody pays you for.",
+    "Start one slow project that will take the whole year to grow."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Close one open question this week.",
+    "Choose one idea to finish and drop the rest."
+   ]
+  }
+ },
+ {
+  "pair_cell": "火_火",
+  "advise_catalyst": {
+   "acts": [
+    "Ask one person for help on a job you usually do alone.",
+    "Get two friends together once a month just for fun.",
+    "Stand in the sun for ten minutes each morning."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Rest one full day a week with no work at all.",
+    "Let someone finish speaking before you answer."
+   ]
+  }
+ },
+ {
+  "pair_cell": "火_土",
+  "advise_catalyst": {
+   "acts": [
+    "Finish one piece of work a week that someone else can hold.",
+    "Tend one plant or patch of soil through the whole month.",
+    "Keep a box for the things you have made and open it at the end of the year."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Join one course this month.",
+    "Give each new idea a week to grow."
+   ]
+  }
+ },
+ {
+  "pair_cell": "火_金",
+  "advise_catalyst": {
+   "acts": [
+    "Choose one aim for this month and cross two others off.",
+    "Sort your open tasks into now, later and never.",
+    "Clear out one drawer and give away what you have not used in a year."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Eat warm food daily.",
+    "Talk deals through with a friend."
+   ]
+  }
+ },
+ {
+  "pair_cell": "火_水",
+  "advise_catalyst": {
+   "acts": [
+    "Ask for honest feedback on one piece of work and just listen.",
+    "Learn how one new task works before you start on it.",
+    "Leave an hour empty between two big jobs."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Start one project of your own this month.",
+    "Learn one skill no rule asks for."
+   ]
+  }
+ }
 ]
