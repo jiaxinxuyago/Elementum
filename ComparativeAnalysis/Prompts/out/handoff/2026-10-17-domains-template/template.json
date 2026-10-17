@@ -1,0 +1,335 @@
+{
+  "_note": "THE DOMAINS template batch (owner rulings 2026-10-17, Q1-Q15 A, S1-S8 A). The golden chart's eight domain pages. Seats: headline, recognition, lived (+ ahead on Day and Hour seats) per declared domain, plus the rewritten defline and reading (Q14 A). Decades: GOD x ruling domain x pole (helping|heavy) x tense (lived|ahead). Gaps: domain x the gate the reader lives in, when no seat there rules it. Patterns: the nine classical pairs, rewritten (step 1's second paragraph). Unruled: a domain with no seat (Q4 A). Ages and years never appear in the text: the engine prints them in the labels.",
+  "seats": {
+    "zhengcai_year_stem": {
+      "defline": "The Steward stands at your Year Gate, in plain view: your first home ran on care, counting and things kept.",
+      "reading": "You grew up where money was spoken about plainly and spent with a plan, and that order was the first thing people saw in your family. Because care with money reached you as safety, you still feel calm when the accounts are in order and uneasy when they are not. You still run every budget on the habits you formed before sixteen, and they are why your savings grow when others stall.",
+      "domains": {
+        "Wealth": {
+          "headline": "You learned the value of money early.",
+          "recognition": "You spend with a list and save before anyone asks you to, and money that sits unplanned makes you uneasy. Because order around money felt like safety from your first years, you lose more sleep over a careless purchase than it ever cost you. You are slower to enjoy what you have than to keep it.",
+          "lived": "You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent."
+        },
+        "Family": {
+          "headline": "You grew up in a careful, orderly home.",
+          "recognition": "You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no.",
+          "lived": "Someone in your first home kept the household running on plans and promises kept, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones."
+        }
+      }
+    },
+    "shishen_year_branch": {
+      "defline": "The Artisan lives inside your Year Gate: underneath your early years were comfort and care, given freely.",
+      "reading": "You were fed well as a child, in more than one sense, and that early comfort still sits under the way you live. Because ease was given to you before you had to earn it, you recover through simple things, food and a full night's sleep and the company of people you love. Whatever else your first home held, you took from it a store of warmth you have drawn on in every hard season since.",
+      "domains": {
+        "Family": {
+          "headline": "You were fed well, and you became the one who feeds.",
+          "recognition": "You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it.",
+          "lived": "Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside."
+        },
+        "Health": {
+          "headline": "Your body trusts food and rest to put it right.",
+          "recognition": "You trust your body to fix itself with a good meal and a long sleep, and for most of your life it has. Because comfort is how you recover, you reach for it under stress, and you turn the extra helping or the lost weekend into a habit before you notice. Your body asks you for rhythm more than for effort.",
+          "lived": "You were a child who recovered quickly, from colds and falls and bad days alike. Your appetite and your sleep were steady, and you came into adulthood with more reserve than most of the people around you."
+        }
+      }
+    },
+    "bijian_month_stem": {
+      "defline": "The Twin stands at your Month Gate, in plain view: at work you are seen as the one who carries their own weight.",
+      "reading": "You built your working life on your own effort, and the people around you have always seen it. Because doing it yourself is how you stay sure of your worth, you take whole tasks and sign your name to them, and you stall wherever credit is shared loosely. You keep your equals close at work, and you have quietly let go of everyone who treated you as junior.",
+      "domains": {
+        "Career": {
+          "headline": "You do your best work as nobody's junior.",
+          "recognition": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end.",
+          "lived": "Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work."
+        },
+        "Social": {
+          "headline": "Your friends are your equals, or they drift.",
+          "recognition": "You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years.",
+          "lived": "Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear."
+        }
+      }
+    },
+    "pianyin_month_branch": {
+      "defline": "The Alchemist holds your strongest seat, inside your Month Gate: your working years run on thinking done in private.",
+      "reading": "You do your real thinking alone, on questions most people find strange, and your working years are built on it. Because you trust what you have worked out yourself more than what you were taught, you look quiet from outside while the real work happens inside. You found your important teachers off the usual path, and you are slowly becoming the odd teacher someone else needs.",
+      "domains": {
+        "Mind": {
+          "headline": "Your mind runs best on what others find strange.",
+          "recognition": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most.",
+          "lived": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back."
+        },
+        "Growth": {
+          "headline": "You grow late, and mostly in private.",
+          "recognition": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess.",
+          "lived": "Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years."
+        },
+        "Career": {
+          "headline": "Your work pays for what only you know.",
+          "recognition": "You are the specialist people call when the usual answers fail. Because you trust knowledge you have dug out yourself, you are drawn to a narrow field the mainstream ignores, and you would rather be paid for strange work than praised for ordinary work. You earn more from the niche you choose than any ladder would pay you.",
+          "lived": "Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew."
+        }
+      }
+    },
+    "piancai_day_branch": {
+      "defline": "The Horizon lives inside your Day Gate, the seat of your partner: your private life always has an opening in it.",
+      "reading": "You want a home life with somewhere to go in it, and you are drawn to people whose world is wider than yours. Because your openings come through the people closest to you, love and opportunity arrive together for you more often than for most. From your mid-thirties your home years open wider than any before them, and you will share them with a person whose world is bigger than your own.",
+      "domains": {
+        "Love": {
+          "headline": "You fall for people who widen your life.",
+          "recognition": "You fall for people who widen your life, the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
+          "lived": "The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.",
+          "ahead": "Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+        },
+        "Social": {
+          "headline": "Your friends come with plans.",
+          "recognition": "You collect friends who are going somewhere, the ones with a trip planned and a contact for everything. Because range is what draws you, you lose touch with friends whose lives stay small, and you feel guilty about it only later. You know a great many people, and you let only a few of them close.",
+          "lived": "Most of your friendships so far started with an introduction or an invitation, someone who brought you into their circle. You have kept some of those circles longer than you kept the people who brought you in.",
+          "ahead": "From your mid-thirties your circle widens through a partner's world, through their friends and their family and their work. You will meet the people who shape your next twenty years through someone you share a home with."
+        },
+        "Wealth": {
+          "headline": "Your money comes through the people close to you.",
+          "recognition": "You find money through other people, in a tip from a friend or a side venture with someone close. Because your openings arrive through people you trust, you say yes before you read the terms, and you earn in bursts more than in a steady line. The money you make fastest is the money you hold on to least.",
+          "lived": "Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, by saying yes before you had read the terms.",
+          "ahead": "From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you keep only what has both names written down."
+        }
+      }
+    },
+    "zhengcai_hour_stem": {
+      "defline": "The Steward stands at your Hour Gate, in plain view: your later life is ordered and well provided for.",
+      "reading": "You are building toward a late life that pays its own way, even when the middle years scatter your plans. Because keeping things in order is how you show care, the habits you hold now turn into calm accounts and settled debts after your late forties. You will teach the people after you about money mostly by example, and you will leave them more than numbers.",
+      "domains": {
+        "Wealth": {
+          "headline": "Your money gets steadier every decade.",
+          "recognition": "You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it.",
+          "lived": "Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention.",
+          "ahead": "Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough."
+        },
+        "Family": {
+          "headline": "You end up as the one who provides.",
+          "recognition": "You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early.",
+          "lived": "Since your late forties you have become your family's provider, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard.",
+          "ahead": "From your late forties your family leans on what you have built, and you give it calmly. You become the relative everyone trusts with arrangements, and you will find yourself saying out loud some of what your money already says."
+        }
+      }
+    },
+    "jiecai_hour_branch": {
+      "defline": "The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend.",
+      "reading": "Your later life stays loud and full, with younger people around you who argue with you and for you. Because you value being matched more than being obeyed, you are drawn to the bold ones, and you give them more than you promised yourself. You will share most of what you build late, and you hold on to your part only where you fixed its size early.",
+      "domains": {
+        "Family": {
+          "headline": "Your family grows louder, and dearer, with age.",
+          "recognition": "You are pulled toward the strong-willed people in your family, the ones who push back and want their share. Because you respect whoever stands up to you, you give most to whoever argues hardest, and the quieter ones get less of you. You love a full and noisy table more than a calm one.",
+          "lived": "Since your late forties your family has grown louder, with younger people who want your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
+          "ahead": "From your late forties the people after you, children or younger relatives or someone you train, will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys."
+        },
+        "Wealth": {
+          "headline": "Your later money will always have company.",
+          "recognition": "You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks.",
+          "lived": "Since your late forties more people have had a claim on your money, children or younger relatives or someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance.",
+          "ahead": "From your late forties the people after you, children or younger relatives or someone you train, will start to make claims on your money. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks."
+        }
+      }
+    }
+  },
+  "decades": {
+    "正财": {
+      "Wealth": {
+        "helping": {
+          "ahead": "You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it."
+        }
+      },
+      "Family": {
+        "helping": {
+          "ahead": "Your family life settles in these years around what you provide, a home that is kept and bills paid on time. You become the one your relatives rely on, and you are glad to be."
+        }
+      },
+      "Career": {
+        "helping": {
+          "ahead": "Your work starts paying properly in these years, steadily and in proportion to what you put in. You stop chasing the next thing and build on what you already do well."
+        }
+      }
+    },
+    "偏财": {
+      "Wealth": {
+        "helping": {
+          "ahead": "Money comes to you through openings in these years more than through salary, a deal or a side venture or a move. You take more chances with money than you did ten years earlier, and most of them pay."
+        }
+      },
+      "Family": {
+        "helping": {
+          "ahead": "Your family widens in these years, through a partner's relatives, new arrivals or a household that keeps its door open. You spend more on the people around you than ever before, and you mind it less than you expected."
+        }
+      },
+      "Social": {
+        "helping": {
+          "ahead": "You widen your circle in these years, through travel and new groups and people met through other people. You make more new friends in this decade than in the two before it."
+        }
+      }
+    },
+    "正印": {
+      "Family": {
+        "heavy": {
+          "lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You learned to be good before you learned to be yourself."
+        }
+      },
+      "Health": {
+        "heavy": {
+          "lived": "You were looked after closely in those years, and you learned to rest only when someone told you to. Your body got used to care coming from outside, and you had to learn later to give it to yourself."
+        }
+      }
+    },
+    "正官": {
+      "Family": {
+        "helping": {
+          "ahead": "You take a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that you keep for the rest of your life."
+        }
+      },
+      "Career": {
+        "helping": {
+          "ahead": "Your work gains structure in these ten years, a proper title or a role with real responsibility. You are trusted with more than before, and the trust lasts beyond the job that gave it."
+        }
+      },
+      "Social": {
+        "helping": {
+          "ahead": "You gain standing among friends and colleagues in these years, and people start asking your opinion before they decide. You become the steady one in your circle, and you take the part seriously."
+        }
+      }
+    },
+    "偏印": {
+      "Career": {
+        "heavy": {
+          "lived": "Those years pulled you toward study and odd side paths more than toward a steady job. You learned a great deal that did not pay yet, and you doubted yourself while you did it."
+        }
+      },
+      "Mind": {
+        "heavy": {
+          "lived": "You turned inward in those years, into subjects few people around you shared. You spent long stretches alone with your thinking, and some of it still feels like the most important work you have done."
+        }
+      },
+      "Growth": {
+        "heavy": {
+          "lived": "You grew in those years by going your own way, often away from what was expected of you. The progress was real and nearly invisible, and you felt behind while you made it."
+        }
+      }
+    },
+    "七杀": {
+      "Career": {
+        "helping": {
+          "ahead": "You take on hard assignments and real pressure in these years, and you rise because of them. You come out of the decade with more authority than you went in with."
+        }
+      },
+      "Growth": {
+        "helping": {
+          "ahead": "You grow fastest in these years through pressure, a hard role or a challenge you choose on purpose. You come out of the decade stronger in the places that used to hold you back."
+        }
+      },
+      "Health": {
+        "helping": {
+          "ahead": "You carry more pressure in these years, and for once it suits your body. You are fitter and sharper in a demanding decade than in an easy one, and you stay that way while you keep sleeping."
+        }
+      }
+    },
+    "伤官": {
+      "Social": {
+        "helping": {
+          "ahead": "You become more outspoken in these years, and the people who like it like it a great deal. You gather an audience of your own, and you lose patience with company that asks you to be quieter."
+        }
+      },
+      "Mind": {
+        "helping": {
+          "ahead": "You turn your thinking outward in these years, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before."
+        }
+      }
+    },
+    "食神": {
+      "Health": {
+        "helping": {
+          "ahead": "You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than you have since childhood."
+        }
+      }
+    }
+  },
+  "gaps": {
+    "Wealth": {
+      "month": "Since sixteen you have put work, study and friends before money, and your income has stayed below what you could earn."
+    },
+    "Family": {
+      "month": "Since sixteen your energy has gone into work and friends more than into family, and you have seen less of your relatives than you meant to."
+    },
+    "Health": {
+      "month": "Since sixteen your body has come second to work and study, and you have been spending the reserve your childhood gave you."
+    }
+  },
+  "patterns": {
+    "shishen_zhi_sha": {
+      "readings": {
+        "Career": "You do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands.",
+        "Health": "Comfort is what protects you, because good food and work with your hands turn pressure into something you can use."
+      },
+      "fused_line": "The two share one gate in you, and you turn pressure into calm almost as soon as it lands."
+    },
+    "shang_guan_pei_yin": {
+      "readings": {
+        "Career": "Your boldest ideas and your patience for study feed each other, and you grow braver in public with every qualification you earn.",
+        "Mind": "You learn best when you can perform what you learn, and you turn every course you finish into something you can say out loud."
+      },
+      "fused_line": "They share one gate in you, and you never have to choose between your talent and your training."
+    },
+    "xiao_shen_duo_shi": {
+      "readings": {
+        "Mind": "You also think so long about a thing that you miss the moment to make it, and you keep a drawer of nearly finished work.",
+        "Career": "You also polish your work in private until the moment to show it has passed, and you lose more chances by not finishing than by failing.",
+        "Health": "In your heaviest thinking seasons you also forget to eat and sleep properly, and your body tells you before your mind admits it."
+      },
+      "fused_line": "They share one gate in you, and you feel the pull between thinking and finishing almost every day."
+    },
+    "shang_guan_jian_guan": {
+      "readings": {
+        "Career": "You keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest."
+      },
+      "fused_line": "They share one gate in you, and you have argued with your own position since your first job."
+    },
+    "sha_yin_xiang_sheng": {
+      "readings": {
+        "Career": "You come out of every hard stretch at work more senior than you went in, and the pattern grows stronger with age.",
+        "Growth": "You grow most through the years that weigh on you, and you have left every heavy stretch more skilled than you entered it.",
+        "Mind": "You turn pressure into understanding, and the hardest years of your life are the ones that taught you how to think."
+      },
+      "fused_line": "They share one gate in you, and you learn from pressure in the same week it arrives."
+    },
+    "bi_jie_duo_cai": {
+      "readings": {
+        "Wealth": "You lose money most easily where you share it with friends and family, and you also find your safety net among those same people."
+      },
+      "fused_line": "They share one gate in you, and you rarely own anything that is only yours."
+    },
+    "shi_shang_sheng_cai": {
+      "readings": {
+        "Wealth": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+        "Career": "You are paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing."
+      },
+      "fused_line": "They share one gate in you, and you are paid in the same season that you make."
+    },
+    "cai_guan_xiang_sheng": {
+      "readings": {
+        "Career": "Your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
+        "Wealth": "You turn money into position, and you feel richer when a gain comes with respect than when it comes alone."
+      },
+      "fused_line": "They share one gate in you, and you find every gain arguing quietly for your next title."
+    },
+    "guan_yin_xiang_sheng": {
+      "readings": {
+        "Career": "You find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
+        "Mind": "You learn best inside a frame, a school or a firm or a discipline, and you keep studying long after the course has ended."
+      },
+      "fused_line": "They share one gate in you, and you rise in rank and in learning together."
+    }
+  },
+  "unruled": {
+    "Health": "Your health has no fixed pattern of its own. You feel well for some stretches of years and worn for others, and the change has no obvious cause because the decade is what moves it."
+  },
+  "_approved": [
+    "piancai_day_branch.Wealth",
+    "pattern shishen_zhi_sha.Health"
+  ]
+}

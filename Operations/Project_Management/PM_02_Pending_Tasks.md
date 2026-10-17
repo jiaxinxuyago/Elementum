@@ -55,7 +55,8 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 
 ## DOM — the Domain reading, a new pricing tier (owner 2026-10-17)
 
-### DOM-1 · The "who runs it" layer → the Domain reading ⏳ OWNER-SEQUENCED, after the free-tier function readings close
+### DOM-1 · The "who runs it" layer → the Domain reading 🔄 IN PROGRESS (owner rulings round 1, 2026-10-17: Q1–Q15 A; record `ComparativeAnalysis/Handoffs/2026-10-17-domains/03_RULINGS.md`; golden template awaiting the owner's read)
+(The design is ruled: domain first, a chart-wide hub, three steps, a domain-only prediction law, WHO RUNS IT retired to ore, the domain sheet and its price retired (S1 closed), D2 fixed in full when it lands.)
 The owner's framing (2026-10-17): "Who runs it layer is a major Domain reading task, which is related to ten-god positioning and a new reading section to a new pricing tier, we will move on to that in a new session after five energy function readings in free tier are sorted out." Starting point: the WHO RUNS IT accordion on the element page (persona, defline, "Runs your …" line, three god-flavoured domain chips from `GOD_DOMAINS`, and 150 `K2_CELLS[*].domain_readings` behind the Seeker tier) predates the canonical ruling domains of 2026-10-15 (`GOD_RULING_DOMAINS`, used by THE EDGE) and the v0.7 voice. Open rulings: re-key the readings to the canonical domains, retire them for the seat readings, or rebuild the layer as the new tier's Domain reading with ten-god positioning. Gate: the final content audit of the function pages closed (`ComparativeAnalysis/Evaluations/final-audit-2026-10-17/`). Pointers: `Reading/Database/Prompts/backlog/2026-10-15_god-ruling-domains.md`, `Elementum_App/src/content/k2.js` (GOD_DOMAINS, domain_readings), `JourneyStage.jsx` (the WHO RUNS IT block).
 
 ## EP — the element-page restructure (owner feedback + rulings ×4, 2026-08-19; REA_03 ELEMENT_PAIR row)
