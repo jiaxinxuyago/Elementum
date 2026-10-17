@@ -1,0 +1,167 @@
+[
+ {
+  "key": "PAIR 木_土 · function.definition_friction",
+  "text": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier year by year. Holding it is how you feel secure, and over time you carry more than you finish.",
+  "id": "R5 earth:E5-02"
+ },
+ {
+  "key": "PAIR 土_土 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it hardens into a fixed stance. You give up closeness to keep your place.",
+  "id": "R5 earth:E5-03"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and those who share your things live with your repairs rather than their own picks. They seldom get anything new for themselves.",
+  "id": "R5 earth:E5-04"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay with those you chose instead of looking for new ones. The people you stand by know exactly where to find you.",
+  "id": "R5 earth:E5-05"
+ },
+ {
+  "key": "K2 土_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You go soft on whoever is in your care because their struggle hurts. You fix their trouble rather than sit through it, and you step in before the first try ends. You take from them a struggle that was theirs to grow on.",
+  "id": "R5 earth:E5-06"
+ },
+ {
+  "key": "K2 土_食神 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Being unhurried means your work takes the time it takes. Enjoying the making matters more to you than the deadline, and faster hands get theirs out first. Some of the credit goes to them.",
+  "id": "R5 earth:E5-07"
+ },
+ {
+  "key": "K2 土_偏印 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. What you find out this way goes deep and stays put.",
+  "id": "R5 earth:E5-08"
+ },
+ {
+  "key": "K2 土_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Your best thinking happens alone, and you go off to it without saying how long. Once out of reach, you let the solo hours run on and lose track of the clock. The people waiting on you never know when to expect you back.",
+  "id": "R5 earth:E5-09"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. You leave them to follow through on the plans you made together.",
+  "id": "R5 fire:F5-01"
+ },
+ {
+  "key": "K2 火_食神 · edge.lead",
+  "text": "Fire runs through your health, your family and your career. It is the deep sleep that comes when nothing in you is forced, the small thing you hand over before anyone asks, and the work that goes easily because you liked making it.",
+  "id": "R5 fire:F5-02"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Other people's ambition is the kind you catch most easily. You catch a rival's goal faster than you find your own, so you run on borrowed wanting rather than wait. What you are hungry for is a contest worth your whole heart.",
+  "id": "R5 fire:F5-03"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.define",
+  "text": "As a catalyst, the warmth runs short and travels in sparks rather than a steady glow. What gets through comes in bright, scattered bursts.",
+  "id": "R5 fire:F5-04"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.define",
+  "text": "As a catalyst, what little warmth there is gets guarded close. It reaches a few and stays with them.",
+  "id": "R5 fire:F5-05"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than let it drag, and those close to you lose the chance to choose. Your call lifts a weight you hate to see them under.",
+  "id": "R5 metal:MR5-02"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Off duty is a state you only half manage. The alert in you never stands down, and you spend a free evening on duty rather than inside it. You lose the rest your evenings off were meant to give you.",
+  "id": "R5 metal:MR5-03"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.friction.define",
+  "text": "As a friction, you take on far more than you see through. Your freedom lives in the next chance, and the one in hand rarely pays off.",
+  "id": "R5 metal:MR5-04"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spread thin, you never learn what full effort can do. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in lost rest and in the one venture that would have paid.",
+  "id": "R5 metal:MR5-05"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since caution is never judged. You pay for playing it safe in the chance you watched others take.",
+  "id": "R5 metal:MR5-06"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer of them tell you much. You wanted to be told more than you wanted it exact.",
+  "id": "R5 metal:MR5-07"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You learn a thing properly or not at all. A trusted teacher and a subject that holds still feel like shelter to you, and you stay with both to the end. Your knowledge survives hard questions because it runs all the way down.",
+  "id": "R5 metal:MR5-08"
+ },
+ {
+  "key": "PAIR 土_水 · function.advise_friction",
+  "text": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. Little of what you earn ever feels truly yours. Put aside one sum for a treat, then spend it on that. Keep one evening a week at home with nothing planned.",
+  "id": "R5 water:WA5-10"
+ },
+ {
+  "key": "K2 水_正财 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "With the people you love, you count every cost even on the time you share. You weigh what a night out together costs instead of simply enjoying it. In the end, you hand them your company with the count in plain view.",
+  "id": "R5 water:WA5-11"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.define",
+  "text": "As a friction, your words move faster than you can weigh them, and holding one back feels like shrinking. You end up drained and explaining what you never meant.",
+  "id": "R5 water:WA5-12"
+ },
+ {
+  "key": "K2 水_食神 · fn_reading.catalyst.define",
+  "text": "As a catalyst, what flows out of you is a thin stream. It runs toward whoever needs it most and arrives as care.",
+  "id": "R5 water:WA5-13"
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Handling it all is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for backup. You miss out on the ease that help would have given you.",
+  "id": "R5 water:WA5-14"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.friction.define",
+  "text": "Running over, the depth churns and floods into every contest. You need to prove yourself among friends, and the drive never lets you stop.",
+  "id": "R5 water:WA5-15"
+ },
+ {
+  "key": "PAIR 水_水 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, the depth floods inward. Your force and your wants build up inside, and you carry more than anyone near you ever sees.",
+  "id": "R5 water:WA5-16"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you face to face.",
+  "id": "R5 water:WA5-17"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You soak things up rather than study them. Knowledge settles into you from whatever is nearby, and you know a thing long before you can pass a test on it. Your grasp of a subject is often firmer than anyone guesses.",
+  "id": "R5 water:WA5-18"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you believe in someone, nothing they do ever quite satisfies you. Because you want them at their best, you pass on the strain as much as the standard. You cost them their ease, and they keep guessing what would please you.",
+  "id": "R5 wood:W5-T1"
+ },
+ {
+  "key": "K2 木_偏财 · edge.lead",
+  "text": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without a second thought, and the trip your friends still weigh while you are already packed.",
+  "id": "R5 wood:W5-T2"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You earn every step before you take it. Since a rank handed to you feels borrowed, you earn it twice over rather than ask once. Nobody questions a place you hold, because everyone saw you work for it.",
+  "id": "R5 wood:W5-T3"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You put comfort first for those in your care too. You would rather see them happy now than stretched, and you pick the easy choice over the useful one. You trade the effort they would grow on for a moment of ease.",
+  "id": "R5 wood:W5-T4"
+ }
+]

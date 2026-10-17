@@ -68,7 +68,7 @@
           {
             "word": "Self-taught",
             "angles": {
-              "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. What you learn this way goes deep and stays put.",
+              "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. What you find out this way goes deep and stays put.",
               "cost_self": "Whenever you want to know something, you teach it to yourself instead of asking. Teaching yourself an answer costs you a month where being taught it costs an hour. Underneath sits a wish to owe nobody for what you know.",
               "cost_others": "Rarely do you pass on the lesson you taught yourself. You taught it by a route too odd to explain, so you keep the knowing rather than tell it. Whoever learns from you gets the answer and misses the road to it."
             }
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet more than the company. Ideas come back from those hours finished and fully yours.",
               "cost_self": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. That hour is the one stretch of time that belongs only to you.",
-              "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run on and lose track of the clock. The people waiting on you never know when to expect you back."
+              "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Once out of reach, you let the solo hours run on and lose track of the clock. The people waiting on you never know when to expect you back."
             }
           }
         ]
@@ -888,6 +888,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-3",
       "replaced": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 earth:E5-08",
+      "replaced": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. What you learn this way goes deep and stays put."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 earth:E5-09",
+      "replaced": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run on and lose track of the clock. The people waiting on you never know when to expect you back."
     }
   ]
 }

@@ -70,7 +70,7 @@
             "angles": {
               "drive": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Under your hands, old things keep earning their place.",
               "cost_self": "Making things last keeps you in control of what you own. You put hours into repairs instead of the better thing on offer, because replacing feels like waste. Your weekends go to mending things worth less than the time they take.",
-              "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and those who share your things live with your repairs rather than their own picks. They seldom get to pick something new for themselves."
+              "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and those who share your things live with your repairs rather than their own picks. They seldom get anything new for themselves."
             }
           },
           {
@@ -84,7 +84,7 @@
           {
             "word": "Loyal",
             "angles": {
-              "drive": "Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay with the people you chose instead of looking for new ones. The people you stand by know exactly where to find you.",
+              "drive": "Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay with those you chose instead of looking for new ones. The people you stand by know exactly where to find you.",
               "cost_self": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Under it all, you want proof that the bond runs both ways.",
               "cost_others": "Loyalty is how you love, and you show it by staying. You stand by the people you chose rather than look around, and you let the staying speak for you. Those you love rarely hear it in words."
             }
@@ -707,6 +707,22 @@
       "ruling": "Owner 2026-10-17: \"1A 2A 3A\" (2A: the auditor's head wording for 木_火 and 水_火; 3A: neutral space for the household line)",
       "finding": "Owner 3A (R2-4)",
       "replaced": "Things come in far more easily than they go out. You keep a thing rather than take its space back, and the house fills from the walls in. The people you live with get less space in their own home."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 earth:E5-04",
+      "replaced": "You keep old things going for everyone around you. Fixing beats choosing for you, and those who share your things live with your repairs rather than their own picks. They seldom get to pick something new for themselves."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 earth:E5-05",
+      "replaced": "Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay with the people you chose instead of looking for new ones. The people you stand by know exactly where to find you."
     }
   ]
 }

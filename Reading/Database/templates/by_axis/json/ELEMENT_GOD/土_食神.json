@@ -77,7 +77,7 @@
             "word": "Unhurried",
             "angles": {
               "drive": "You make things slowly and enjoy every stage. The pleasure of the making matters more to you than the finish line, and you never feel any need to rush. What you make carries that ease, and people sense it.",
-              "cost_self": "Being unhurried means your work takes the time it takes. Enjoying the making matters more to you than the deadline, and faster hands get their work out first. Some of the credit goes to them.",
+              "cost_self": "Being unhurried means your work takes the time it takes. Enjoying the making matters more to you than the deadline, and faster hands get theirs out first. Some of the credit goes to them.",
               "cost_others": "People waiting on something you are making get it in your own good time. You need the making to stay a pleasure, and you will not rush it for anyone's calendar. What arrives is worth having and a little late."
             }
           },
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Going soft on the people around you comes to you without thinking. Since comfort is the shape your care takes, you soften their way rather than let them manage it. You take on every hard thing they were able to manage.",
               "cost_self": "Being too soft is how you say you care. Because you put other people's comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You give away money and rest that never come back.",
-              "cost_others": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you step in before the first try ends. You keep taking from them a struggle that was theirs to grow on."
+              "cost_others": "You go soft on whoever is in your care because their struggle hurts. You fix their trouble rather than sit through it, and you step in before the first try ends. You take from them a struggle that was theirs to grow on."
             }
           }
         ]
@@ -625,6 +625,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 earth:E4-17",
       "replaced": "As a catalyst, the gate opens slowly and little comes through at once. The little that does is modest and useful and asks for no audience."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 earth:E5-06",
+      "replaced": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you step in before the first try ends. You keep taking from them a struggle that was theirs to grow on."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 earth:E5-07",
+      "replaced": "Being unhurried means your work takes the time it takes. Enjoying the making matters more to you than the deadline, and faster hands get their work out first. Some of the credit goes to them."
     }
   ]
 }

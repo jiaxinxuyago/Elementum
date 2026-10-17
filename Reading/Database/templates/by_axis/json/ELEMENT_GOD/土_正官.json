@@ -99,7 +99,7 @@
             "angles": {
               "drive": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. Your own good sense is permission enough.",
               "cost_self": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. You hand those openings to rules nobody checks.",
-              "cost_others": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You keep from them the exception that was yours to give."
+              "cost_others": "You follow rules even with people who need an exception. Being fair by the book feels safer to you than bending it to be kind, and you hand them policy instead of a decision. You keep from them the exception that was yours to give."
             }
           },
           {
@@ -643,6 +643,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
       "finding": "R4 earth:E4-05",
       "replaced": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r5-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1, A3 excluded; \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 earth:E5-01",
+      "replaced": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You keep from them the exception that was yours to give."
     }
   ]
 }

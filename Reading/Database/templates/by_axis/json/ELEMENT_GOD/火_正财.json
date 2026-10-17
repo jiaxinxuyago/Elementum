@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, what little warmth there is gets guarded close. It reaches a few people and stays with them.",
+        "define": "As a catalyst, what little warmth there is gets guarded close. It reaches a few and stays with them.",
         "ledger": [
           {
             "word": "Keeps it going",
@@ -675,6 +675,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 fire:F3-22",
       "replaced": "You keep love going on time and without fail. Reliable feels more like love to you than exciting does, and you give the one closest to you steady warmth over surprise. Life with you has everything except the unexpected."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 fire:F5-05",
+      "replaced": "As a catalyst, what little warmth there is gets guarded close. It reaches a few people and stays with them."
     }
   ]
 }

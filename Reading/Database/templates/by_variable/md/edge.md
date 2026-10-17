@@ -202,7 +202,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without being asked, and the trip your friends still weigh while you are already packed. |
+| `lead` | Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without a second thought, and the trip your friends still weigh while you are already packed. |
 | `domains` | Wealth · Family · Social |
 | `metric` | ambition |
 
@@ -346,7 +346,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Fire runs through your health, your family and your career. It is the deep sleep that comes when nothing in you is forced, the small thing you hand over before anyone asks, and the work that comes out easy because you liked making it. |
+| `lead` | Fire runs through your health, your family and your career. It is the deep sleep that comes when nothing in you is forced, the small thing you hand over before anyone asks, and the work that goes easily because you liked making it. |
 | `domains` | Health · Family · Career |
 | `metric` | warmth |
 

@@ -76,7 +76,7 @@
           {
             "word": "Earns every step",
             "angles": {
-              "drive": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. Nobody questions a place you hold, because everyone saw you work for it.",
+              "drive": "You earn every step before you take it. Since a rank handed to you feels borrowed, you earn it twice over rather than ask once. Nobody questions a place you hold, because everyone saw you work for it.",
               "cost_self": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. The next step up you earned often goes to someone louder.",
               "cost_others": "Among the people who look to you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. They spend extra years proving what you already see in them."
             }
@@ -627,6 +627,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 wood:W4-T11",
       "replaced": "As a friction, the rules spread past where they belong, and order feels too safe to question. The structure that steadied you starts to box you in."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 wood:W5-T3",
+      "replaced": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. Nobody questions a place you hold, because everyone saw you work for it."
     }
   ]
 }

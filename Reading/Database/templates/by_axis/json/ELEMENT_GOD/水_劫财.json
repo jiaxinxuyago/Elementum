@@ -92,14 +92,14 @@
         ]
       },
       "friction": {
-        "define": "Running over, the depth churns and spills into every contest. You need to prove yourself among friends, and the drive never lets you stop.",
+        "define": "Running over, the depth churns and floods into every contest. You need to prove yourself among friends, and the drive never lets you stop.",
         "ledger": [
           {
             "word": "Races in secret",
             "angles": {
               "drive": "Racing in secret keeps the race one you cannot lose. You fear losing in the open, and you measure a friend quietly rather than name the race. Remember that you race a friend because you want to count as their equal.",
               "cost_self": "Secret racing keeps you safe while you race. Being seen to try and fail scares you most, and you spend your drive on quiet races rather than on one open try. You never get the win said out loud.",
-              "cost_others": "In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you openly."
+              "cost_others": "In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you face to face."
             }
           },
           {
@@ -707,6 +707,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
       "finding": "R4 water:W4-01 (sister tail)",
       "replaced": "Running over, the depth churns with no outlet. You need to prove yourself among friends, and the drive never lets you stop."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 water:WA5-15",
+      "replaced": "Running over, the depth churns and spills into every contest. You need to prove yourself among friends, and the drive never lets you stop."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 water:WA5-17",
+      "replaced": "In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you openly."
     }
   ]
 }

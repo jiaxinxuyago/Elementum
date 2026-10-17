@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, the warmth runs short and travels in sparks rather than a steady glow. What reaches people comes in bright, scattered bursts.",
+        "define": "As a catalyst, the warmth runs short and travels in sparks rather than a steady glow. What gets through comes in bright, scattered bursts.",
         "ledger": [
           {
             "word": "Sees chances early",
@@ -563,6 +563,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 fire:F3-05",
       "replaced": "The people at home are the first you look past. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on the nights you are home."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 fire:F5-04",
+      "replaced": "As a catalyst, the warmth runs short and travels in sparks rather than a steady glow. What reaches people comes in bright, scattered bursts."
     }
   ]
 }

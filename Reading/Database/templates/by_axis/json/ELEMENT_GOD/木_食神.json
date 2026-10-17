@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option over the one that pays off. You put second to comfort the very thing you wanted most.",
               "cost_self": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you choose ease over effort. You let good chances go by to stay comfortable, and few come back.",
-              "cost_others": "You put comfort first for those in your care too. You would rather see them happy now than stretched, and you pick the easy choice over the useful one. You trade the effort they would grow on for an hour of ease."
+              "cost_others": "You put comfort first for those in your care too. You would rather see them happy now than stretched, and you pick the easy choice over the useful one. You trade the effort they would grow on for a moment of ease."
             }
           }
         ]
@@ -624,6 +624,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 wood:W4-T10",
       "replaced": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. All you ever wanted was to enjoy the hours you had."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 wood:W5-T4",
+      "replaced": "You put comfort first for those in your care too. You would rather see them happy now than stretched, and you pick the easy choice over the useful one. You trade the effort they would grow on for an hour of ease."
     }
   ]
 }

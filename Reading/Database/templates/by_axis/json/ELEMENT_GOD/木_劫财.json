@@ -99,13 +99,13 @@
             "angles": {
               "drive": "You size every bet past what the moment asks. Playing small feels like standing still to you, and everything goes into the stake instead of the base under it. You fund next year's bet with the money this year needed.",
               "cost_self": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk over sure footing. You lose real money on bets you never needed to make.",
-              "cost_others": "Your biggest bets land on other people too. Going big matters more to you than going safe, and the shared money rides on your nerve. You set the size of a risk that the people who pooled with you have to carry."
+              "cost_others": "Your biggest bets land on other people too. Going big matters more to you than going safe, and the shared money rides on your nerve. You set the size of a risk that the people who pooled with you have to live with."
             }
           },
           {
             "word": "Never stops racing",
             "angles": {
-              "drive": "Finished, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next one instead of keeping the win, and the win was the point.",
+              "drive": "Finished, you look for the next race before the last cools. Staying put feels like being passed, and only the race ahead counts for you. You race the next one instead of keeping the win, and the win was the point.",
               "cost_self": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You are allowed to stop while someone else overtakes you.",
               "cost_others": "Win or lose, you keep racing people who stopped a while ago. Staying ahead matters more than staying close, and that turns a friend into someone to beat. You take from them, by racing someone who stopped, the ease of just being with you."
             }
@@ -651,6 +651,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
       "finding": "R4 wood:W4-M2",
       "replaced": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. You fund next year's bet with the money this year needed."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r5-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1, A3 excluded; \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 wood:W5-M1",
+      "replaced": "Finished, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next one instead of keeping the win, and the win was the point."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r5-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1, A3 excluded; \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 wood:W5-M2",
+      "replaced": "Your biggest bets land on other people too. Going big matters more to you than going safe, and the shared money rides on your nerve. You set the size of a risk that the people who pooled with you have to carry."
     }
   ]
 }

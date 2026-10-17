@@ -107,7 +107,7 @@
             "angles": {
               "drive": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs more than what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it.",
               "cost_self": "Counting every cost protects you from being caught short. You would rather know what a kindness costs than take it, and you count the free ones too. You miss the closeness that comes from simply letting someone give.",
-              "cost_others": "With the people you love, you count every cost even on the time you share. You would rather count what an evening together costs than simply enjoy it. In the end, you hand them your company with the count in plain view."
+              "cost_others": "With the people you love, you count every cost even on the time you share. You weigh what a night out together costs instead of simply enjoying it. In the end, you hand them your company with the count in plain view."
             }
           },
           {
@@ -571,6 +571,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 water:W-018",
       "replaced": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. The people who depend on you never have to worry about a sudden bill."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 water:WA5-11",
+      "replaced": "With the people you love, you count every cost even on the time you share. You would rather count what an evening together costs than simply enjoy it. In the end, you hand them your company with the count in plain view."
     }
   ]
 }

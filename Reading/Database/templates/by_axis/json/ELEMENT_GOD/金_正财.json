@@ -106,7 +106,7 @@
             "word": "Plays it safe",
             "angles": {
               "drive": "Your default with cost is playing it safe. You feel a loss more than a gain the same size, and you play safe for the small sure return rather than the big one. Playing safe costs you too, slower and in money you never count.",
-              "cost_self": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched others take.",
+              "cost_self": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since caution is never judged. You pay for playing it safe in the chance you watched others take.",
               "cost_others": "For the ones you love, playing safe is the rule too. You keep the person you love on the safe plan rather than the one they wanted, since their risk feels like yours. You take from them the risks that were theirs to choose."
             }
           },
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Keeping what works means avoiding change. You know the price of what you have and not of the better, and you keep the known rather than try a change. Long after the known stops paying you, you go on avoiding change.",
               "cost_self": "Avoiding change spares you being new at anything. You keep the steady job and the steady love after they stop feeding you rather than change either. Avoiding change costs you the better life you never tried.",
-              "cost_others": "Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You miss the new starts they wanted to make with you."
+              "cost_others": "Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You put off the new starts they wanted to make."
             }
           }
         ]
@@ -639,6 +639,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
       "finding": "R4 metal:MR4-01",
       "replaced": "Where you avoid change, you avoid it for others too. You keep the people close to you inside the old plan instead of letting them change it. They miss the new starts they wanted to make."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 metal:MR5-06",
+      "replaced": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched others take."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r5-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1, A3 excluded; \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 metal:MR5-01",
+      "replaced": "Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You miss the new starts they wanted to make with you."
     }
   ]
 }

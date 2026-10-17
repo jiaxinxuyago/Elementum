@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, you claim far more than you see through. Your freedom lives in the next chance, and the one in hand rarely pays off.",
+        "define": "As a friction, you take on far more than you see through. Your freedom lives in the next chance, and the one in hand rarely pays off.",
         "ledger": [
           {
             "word": "Always moving on",
@@ -106,7 +106,7 @@
             "word": "Spread thin",
             "angles": {
               "drive": "Spread thin is how you like it. You feel most at ease with several ventures open, and you spread yourself across all of them rather than into one. Under all the spreading, you want one venture worth staying in.",
-              "cost_self": "Spread thin, you never learn what full effort can do. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in rest never taken and in the one venture that would have paid.",
+              "cost_self": "Spread thin, you never learn what full effort can do. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in lost rest and in the one venture that would have paid.",
               "cost_others": "Spreading yourself thin spreads your partners thin with you. You spread your attention over every venture instead of down into one, and each partner gets a slice. You give every partner less of you than the shared venture needs."
             }
           },
@@ -665,6 +665,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 metal:MT3-06",
       "replaced": "You spot the opening when it is only a gap. You wake more for a far chance than a near one, and you spot a newer opening while you are claiming this one. Your eye finds a door where everyone else sees a wall."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 metal:MR5-04",
+      "replaced": "As a friction, you claim far more than you see through. Your freedom lives in the next chance, and the one in hand rarely pays off."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 metal:MR5-05",
+      "replaced": "Spread thin, you never learn what full effort can do. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in rest never taken and in the one venture that would have paid."
     }
   ]
 }

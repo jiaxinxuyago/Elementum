@@ -24,7 +24,7 @@
       "primary": "mind",
       "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake runs short, but what does come in sinks far and stays. You know more by feel than by proof.",
       "definition_friction": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, because knowing more seems safer than moving. The moment to act passes while you wait.",
-      "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives.",
+      "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, the water runs clear all the way down. Your instinct is ready when a choice arrives.",
       "advise_catalyst": "Your Mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it.",
       "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Make one choice this week and act on it the same day. Fix one broken thing with your own hands.",
       "advise_balanced": "Your Mind takes in as much as it uses, and the mix holds while both keep moving. Ask one person who knows more than you and wait for the whole reply. Leave one hard question open for a week before you answer it."
@@ -359,6 +359,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 water:W4-11",
       "replaced": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, because knowing more feels safer than moving. The moment to act passes while you wait."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r5-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1, A3 excluded; \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 cross:X5-01",
+      "replaced": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives."
     }
   ]
 }

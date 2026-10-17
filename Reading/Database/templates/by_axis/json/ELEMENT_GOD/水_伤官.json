@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, words leave you before you have weighed them, and holding one back feels like shrinking. You end up drained and explaining what you never meant.",
+        "define": "As a friction, your words move faster than you can weigh them, and holding one back feels like shrinking. You end up drained and explaining what you never meant.",
         "ledger": [
           {
             "word": "Overshares",
@@ -955,6 +955,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 water:W4-19",
       "replaced": "Nothing feels real to you until you have made it original. You take being wrong your own way over being right theirs, so you redo finished work. You spend whole weekends changing things that were already good enough."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 water:WA5-12",
+      "replaced": "As a friction, words leave you before you have weighed them, and holding one back feels like shrinking. You end up drained and explaining what you never meant."
     }
   ]
 }

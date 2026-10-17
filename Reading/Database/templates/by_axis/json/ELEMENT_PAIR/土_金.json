@@ -24,7 +24,7 @@
       "primary": "expression",
       "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. As a catalyst, little gets through the gate and what does is made with care. A piece goes out only when it meets your own standard.",
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Metal gives it a hard finish, nothing left half done. As a friction, more goes out through the gate than comes back in, and it drains what holds you up. You wear yourself thin on getting it right.",
-      "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. You give out no faster than you refill.",
+      "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. You come to each new piece fresh.",
       "advise_catalyst": "Your standard is high enough that little ever leaves your hands. Give one thing you made to someone this month, as it is. Cut one draft in half and send the shorter one. Sign one piece of work.",
       "advise_friction": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. Enjoy one evening of music without judging a single note. Accept the next compliment with a plain thank you.",
       "advise_balanced": "Your Expression stays even while what you finish and what you keep back are both chosen with care. Cut one draft in half and send the shorter one. Sign one piece of work."
@@ -372,6 +372,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 metal:MR4-04",
       "replaced": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. As a catalyst, little gets through the gate and what does is made with care. A piece leaves you only when it meets your own standard."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r5-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1, A3 excluded; \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 cross:X5-01",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. You give out no faster than you refill."
     }
   ]
 }

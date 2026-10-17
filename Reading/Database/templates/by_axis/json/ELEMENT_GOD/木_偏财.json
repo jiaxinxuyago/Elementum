@@ -122,7 +122,7 @@
       }
     },
     "edge": {
-      "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without being asked, and the trip your friends still weigh while you are already packed.",
+      "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without a second thought, and the trip your friends still weigh while you are already packed.",
       "domains": [
         "Wealth",
         "Family",
@@ -979,6 +979,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 wood:W4-T13",
       "replaced": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives before anyone asks, and the trip your friends still weigh while you are already packed."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r5-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
+      "finding": "R5 wood:W5-T2",
+      "replaced": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without being asked, and the trip your friends still weigh while you are already packed."
     }
   ]
 }
