@@ -13,6 +13,7 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 ## The card
 
 - Construct: `face` names the band state in the element's arena ("The edge, never sheathed"); `presence` is being that state, dignified even on the Underfueled band. Two candidates are asked for on `presence` in the handoff skeleton (`candidates: 2`, owner 2026-09-30), each gated, the read picks one; `face` stays single.
+- On the diagnosis (owner 2026-10-17): the card sits on the core's own energy page beside its definition and keywords, so the presence line, like the band paragraph, reads how the core runs in its band (the condition's drive and its cost), never a trait the page's keywords already carry, and shares no four-word run with the band paragraph.
 - Reasoning chain: the band as a physical state of the material → a noun phrase for it → one or two sentences on living as that state, the cost implied not moralised.
 - Style: situational register; the Underfueled band is never a deficit portrait ("A blade that waits is not a blade that dulled"). The presence line is a descriptive field under v0.7.1 (owner 2026-10-14): the reader its subject, no arena word in it (the face keeps the arena, the presence does not), no turn word, no tag close, its last sentence at least eight words with the reader as subject; the face stays the band state named in the element's arena.
 - Checks: face ≤8w, presence ≤30w, zero dashes, cross-stem 4-gram uniqueness; on the presence the v0.7.1 gate (no arena word, no turn word, no sentence over two commas, the last sentence at least eight words with the reader as its subject: blocking; the tension note, D9).
@@ -30,3 +31,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
 | 2026-09-30 | Two candidates asked for in the handoff skeleton (`candidates: 2`), each gated, the read picks one | owner 2026-09-30, Q1i of the v0.6 questionnaire (REA_16 §6) |
 | 2026-10-14 | v0.7.1: the presence line in the ledger's register (the reader the subject, no arena word, no tag close); the presence exemplar removed | owner 2026-10-14, the seven iterations and the polish rules (`backlog/2026-10-14_prompt-v071-iterations.md`; REA_16 §6) |
+| 2026-10-17 | The presence line reads how the core runs in its band, not a trait; no four-word run shared with the band paragraph | owner 2026-10-17, the Day Master rewrite questions (scope includes the band card; job: how the core runs) |

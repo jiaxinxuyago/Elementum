@@ -1,0 +1,39 @@
+{
+ "id": "dmgold-xin",
+ "field": "STEM_BAND.yourNature_desc+self_card",
+ "cards": [
+  "STEM_BAND.yourNature_desc",
+  "STEM_BAND.self_card"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "STEM_BAND.yourNature_desc+self_card",
+  "axis": "STEM_BAND",
+  "band": "balanced",
+  "chart": null,
+  "stem": "辛",
+  "yin": true,
+  "cell": "xin_balanced"
+ },
+ "original": {
+  "yourNature_desc": "You hold the jeweler's eye without living under it. Quality gets your full attention where quality matters, and the merely fine gets to stay fine. Done exists again in your workshop, and what leaves it on time still shines years past anyone's expecting. That balance took you longer to cut than any stone. It shows.",
+  "self_card": {
+   "face": "Polish with a finish line",
+   "presence": "The standard shows up for what deserves it and lets the rest be ordinary. Done exists again, and the shine survives it."
+  }
+ },
+ "repFields": {
+  "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.",
+  "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
+  "manifesto": "Refinement over output · You are the Metal that refines until nothing extra remains.",
+  "inscription": "You hold your work to a standard nobody set, and it never says finished."
+ },
+ "repBlock": false,
+ "swapGram": "yourNature_desc",
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"yourNature_desc\": \"...\", \"self_card\": {\"face\": \"...\", \"presence\": \"...\"}}",
+ "promptWords": 7410,
+ "rea17Version": "0.7.5",
+ "assembledAt": "2026-10-17T21:41:39.231Z"
+}

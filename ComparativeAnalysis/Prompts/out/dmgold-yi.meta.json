@@ -1,0 +1,39 @@
+{
+ "id": "dmgold-yi",
+ "field": "STEM_BAND.yourNature_desc+self_card",
+ "cards": [
+  "STEM_BAND.yourNature_desc",
+  "STEM_BAND.self_card"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "STEM_BAND.yourNature_desc+self_card",
+  "axis": "STEM_BAND",
+  "band": "open",
+  "chart": null,
+  "stem": "乙",
+  "yin": true,
+  "cell": "yi_open"
+ },
+ "original": {
+  "yourNature_desc": "You keep the vine's gift of finding windows, even in seasons when you knock on fewer doors. The winding costs more in this season, so you pick your walls with care. Nothing about that is retreat. A climber who chooses the wall is simply done wasting green on stone that won't hold it.",
+  "self_card": {
+   "face": "The winding rests between walls",
+   "presence": "You still find the way around, just not every day. Some walls get climbed next month, and the vine loses nothing by waiting."
+  }
+ },
+ "repFields": {
+  "dm_overview": "The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved.",
+  "yourNature_desc": "You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful.",
+  "manifesto": "Route bends. Destination holds. · You are the Wood that gets there anyway.",
+  "inscription": "You find a way around what stops other people, and they call it luck."
+ },
+ "repBlock": false,
+ "swapGram": "yourNature_desc",
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"yourNature_desc\": \"...\", \"self_card\": {\"face\": \"...\", \"presence\": \"...\"}}",
+ "promptWords": 7429,
+ "rea17Version": "0.7.5",
+ "assembledAt": "2026-10-17T21:41:39.146Z"
+}
