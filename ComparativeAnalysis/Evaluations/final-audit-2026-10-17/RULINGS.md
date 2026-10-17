@@ -69,3 +69,14 @@ Owner's picks ("1A 2A 3A", 2026-10-17):
 | 3 · 土_正财 "Keeps everything" household line | **A: neutral space.** "…and your space fills from the walls in. Whoever shares it with you gets less of it to call their own." |
 
 Then: "run round 5".
+
+## Round 5 (2026-10-17): the confirming round
+**0 MAJOR in all six reports.** 6 MINOR, 33 TWEAK, mean B 4.33, no page below 4.
+- All 33 tweaks were applied.
+- Five of the six minors were applied:
+  - X5-01: six Balanced tails rewritten, so no chart repeats one "same pace" claim;
+  - E5-01, MR5-01, W5-M1 and W5-M2.
+- **Left for the owner:** X5-02. The General's single-face page (P013) shows two chips that open with "Never" ("Never switches off · Never satisfied"). The choices:
+  - rename "Never satisfied" to "Demands more";
+  - rename "Never switches off" to "Always on call", which also clears P015;
+  - keep both as they are.
