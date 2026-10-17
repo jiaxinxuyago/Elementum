@@ -50,3 +50,18 @@ Results: https://claude.ai/artifact/Sg5Q7Jzy5qP1XErcHSgtDR. 16 MAJOR (five theme
 ### A finding while landing round 2 (2026-10-17)
 In the app, a catalyst page and a Balanced page end on **THE EDGE**, and THE ADVICE is not shown there (JourneyStage.jsx: the advice box renders only where there is no edge; all 50 cells carry an edge since the THE EDGE ruling of 2026-10-15). So `advise_catalyst` and `advise_balanced` are not read on any page today. THE REMEDY on friction pages is read. The audit page builder showed THE ADVICE on catalyst pages in rounds 1 and 2; it now mirrors the app. Work done on the catalyst and balanced advice (M6, R2-1, R2-5) is stored and checked but not visible until the owner decides whether catalyst and Balanced pages should show it.
 **Owner ruling:** "EDGE only (as now)". Catalyst and Balanced pages keep ending on THE EDGE. `advise_catalyst` and `advise_balanced` stay stored, not rendered. Round 3 audits the pages exactly as the app shows them.
+
+## Round 3 (2026-10-17)
+1 MAJOR (F3-01, friction pages that show only losses: the owner's 2026-10-16 want-or-permission close extended to the three shown passages; 26 closes rewritten), 44 MINOR and 66 TWEAK applied, five clash pairs added. Mean B 4.29.
+
+## Round 4 (2026-10-17): the stop condition is met
+**0 MAJOR in all six reports.** 32 MINOR, 69 TWEAK, mean B 4.31, one page below 4.
+- The 67 TWEAK fields were applied (commit 0e54f43).
+- The MINOR pass was done by two sealed writers and gated. 34 fields landed (19a6b69), plus one clash pair: Never asks × Spends shared money (W4-02).
+- Two keywords were renamed: 金_食神 "Takes it easy" → "Looks effortless" (X4-04), and 木_七杀 "Impossible to please" → "Never satisfied" (X4-05).
+- W4-01: the auditor proposed "Running high". The "Running over," opener was kept, as in the ten sister cells, and only the "no outlet" contradiction was fixed, in all three Water tails.
+
+Left for the owner, never changed without leave:
+- the six friction Horizon+Steward blends that have no clean 2+2 and show 2+1;
+- the shared head sentences F3-02 (木_火 "whatever you do shows") and F3-03 (水_火 "in time");
+- 土_正财 friction cost_others still assumes a household ("the people you live with"; R2-4 wording, not flagged this round).
