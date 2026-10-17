@@ -1,0 +1,529 @@
+<title>The Domains, Domain First</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=EB+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one reading column for the review; phone-shaped mockups in the app's own cardstock look sit inside it. */
+:root{
+  --bg:#F2F1EE; --fg:#1E2124; --muted:#5E6369; --line:#D9D7D2; --panel:#FFFFFF; --accent:#33557A; --accentSoft:#E3EAF2; --rec:#2F6B4F; --recSoft:#E2EFE7; --warn:#8A5A12; --warnSoft:#F6ECD9;
+  /* the app's own surface, the same in both themes because it is a picture of the app */
+  --paper:#F6F0E1; --paperHair:#CDBE9E; --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --gold:#B8962E; --seal:#9E3B2C;
+  --wood:#7A9E6E; --metal:#8BA3B8; --fire:#C4745A; --earth:#B89A6A; --water:#5F7F96;
+  --f-ui:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif; --f-mono:'JetBrains Mono',Consolas,monospace;
+  --f-app:'EB Garamond',Georgia,serif; --f-disp:'Cormorant Garamond',Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15171A;--fg:#E7E8EA;--muted:#A2A7AD;--line:#2D3136;--panel:#1D2024;--accent:#8FB1D6;--accentSoft:#22303F;--rec:#7FC4A0;--recSoft:#1C2F26;--warn:#E0B66A;--warnSoft:#33291A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15171A;--fg:#E7E8EA;--muted:#A2A7AD;--line:#2D3136;--panel:#1D2024;--accent:#8FB1D6;--accentSoft:#22303F;--rec:#7FC4A0;--recSoft:#1C2F26;--warn:#E0B66A;--warnSoft:#33291A;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-ui);font-size:15px;line-height:1.55;margin:0}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 80px}
+h1{font-size:26px;line-height:1.2;margin:0 0 8px;text-wrap:balance}
+h2{font-size:20px;line-height:1.25;margin:44px 0 10px;text-wrap:balance;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:26px 0 8px;text-wrap:balance}
+p{margin:0 0 12px}
+.lede{color:var(--muted);font-size:15px}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14px}
+.note b{font-weight:600}
+.rec{border-color:var(--rec);background:var(--recSoft)}
+.warn{border-color:var(--warn);background:var(--warnSoft)}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:99px;border:1px solid var(--line);color:var(--muted);vertical-align:2px}
+.tag.rec{color:var(--rec);border-color:var(--rec);background:transparent}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.toc a{font-size:13px;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:3px 10px;background:var(--panel)}
+.flow{display:grid;gap:10px;margin:12px 0}
+.flowrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:13.5px}
+.flowrow .lab{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);width:100%}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:5px 9px}
+.step.new{border-color:var(--accent);background:var(--accentSoft)}
+.arr{color:var(--muted)}
+.pair{display:grid;grid-template-columns:1fr;gap:14px;margin:14px 0}
+@media(min-width:720px){.pair{grid-template-columns:1fr 1fr}}
+.pair>div{min-width:0}
+.cap{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+.tbl{overflow-x:auto;margin:10px 0}
+th,td{text-align:left;vertical-align:top;padding:7px 8px;border-bottom:1px solid var(--line)}
+th{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+/* ── the app mockup ── */
+.phone{background:var(--paper);color:var(--ink);border:1px solid var(--paperHair);border-radius:22px;padding:18px 16px 20px;max-width:390px;margin:0 auto;font-family:var(--f-app);font-size:15.5px;line-height:1.5;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+.phone .ey{font-family:var(--f-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkLight);margin:0 0 4px}
+.phone .ttl{font-family:var(--f-disp);font-weight:600;font-size:24px;line-height:1.15;margin:0 0 6px;text-wrap:balance}
+.phone .sub{font-size:14.5px;color:var(--inkSoft);margin:0 0 10px}
+.phone p{margin:0 0 10px}
+.card{background:#FBF7EC;border:1px solid var(--paperHair);border-radius:12px;padding:12px 12px;margin:10px 0}
+.card .laylab{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkLight);display:block;margin:0 0 4px}
+.chip{display:inline-block;font-family:var(--f-app);font-size:12.5px;border:1px solid var(--paperHair);border-radius:99px;padding:0 8px;margin:2px 3px 0 0;color:var(--inkSoft)}
+.seatrow{display:block;padding:8px 0;border-top:1px dashed var(--paperHair)}
+.seatrow:first-of-type{border-top:0}
+.seatrow b{font-weight:600}
+.small{font-size:13.5px;color:var(--inkSoft)}
+.lock{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--seal)}
+.climb{border-left:2px solid var(--paperHair);padding-left:11px;margin:16px 0 6px}
+.climb .stepey{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--seal);margin:0 0 2px}
+.climb .stephd{font-family:var(--f-disp);font-weight:600;font-size:19px;line-height:1.2;margin:0 0 6px}
+.beat{margin:0 0 12px}
+.beat .when{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--inkLight);display:block;margin:0 0 2px}
+.beat .who{font-size:13px;color:var(--inkLight)}
+.beat.now .when{color:var(--seal)}
+.beat.decade{background:#FBF7EC;border:1px solid var(--paperHair);border-radius:10px;padding:9px 10px}
+.gap{font-size:14px;color:var(--inkSoft);border:1px dashed var(--paperHair);border-radius:10px;padding:8px 10px;margin:0 0 12px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
+.tile{background:#FBF7EC;border:1px solid var(--paperHair);border-radius:12px;padding:9px 9px 8px;min-width:0}
+.tile .tn{font-family:var(--f-disp);font-weight:600;font-size:17px;line-height:1.1}
+.tile .tc{font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--inkLight)}
+.tile .th{font-size:13px;line-height:1.35;color:var(--inkSoft);margin-top:4px}
+.tile.ghost{background:transparent;border-style:dashed;opacity:.8}
+.tile.hl{border-color:var(--ink)}
+.seatcard{border-top:1px solid var(--paperHair);padding:9px 0 2px}
+.seatcard .st{font-weight:600}
+.seatcard .zh{font-size:12px;color:var(--inkLight);margin-left:6px}
+.closed{font-size:13.5px;color:var(--inkSoft);border:1px dashed var(--paperHair);border-radius:10px;padding:8px 10px;margin:8px 0}
+/* the life line */
+.ll{margin:10px 0 12px}
+.ll-grid{position:relative;display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--paperHair);border-radius:10px;overflow:hidden;background:#FBF7EC}
+.ll-col{border-left:1px solid var(--paperHair);padding:6px 4px 5px;min-width:0;position:relative}
+.ll-col:first-child{border-left:0}
+.ll-col.future{background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(184,150,46,.07) 6px 12px)}
+.ll-col.closedcol{background:repeating-linear-gradient(135deg,transparent 0 5px,rgba(133,125,114,.14) 5px 10px)}
+.ll-gate{font-family:var(--f-mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--inkLight);display:block;text-align:center}
+.ll-age{font-family:var(--f-mono);font-size:8.5px;color:var(--inkLight);display:block;text-align:center;margin-bottom:3px}
+.ll-seat{display:block;font-size:11.5px;line-height:1.2;text-align:center;border-radius:6px;padding:3px 2px;margin:3px 0;border:1px solid transparent;color:var(--inkLight)}
+.ll-seat.on{color:var(--ink);font-weight:600;border-color:var(--paperHair);background:var(--paper)}
+.ll-seat .k{display:block;font-family:var(--f-mono);font-size:7.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:400;color:var(--inkLight)}
+.ll-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:3px;vertical-align:1px}
+.ll-empty{display:block;font-size:10.5px;text-align:center;color:var(--inkLight);padding:3px 0;margin:3px 0}
+.ll-mark{position:absolute;top:0;bottom:0;width:0;border-left:2px solid var(--seal);pointer-events:none}
+.ll-mark span{position:absolute;top:-1px;left:3px;font-family:var(--f-mono);font-size:8.5px;letter-spacing:.06em;color:#fff;background:var(--seal);border-radius:3px;padding:0 4px;white-space:nowrap}
+.ll-key{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--inkLight);margin-top:3px}
+/* questions */
+.q{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:12px 0}
+.q h4{margin:0 0 8px;font-size:15px;line-height:1.35}
+.q .qid{font-family:var(--f-mono);font-size:11px;color:var(--accent);margin-right:6px}
+.opt{display:flex;gap:9px;align-items:flex-start;padding:7px 8px;border:1px solid var(--line);border-radius:9px;margin:6px 0;cursor:pointer}
+.opt input{margin-top:4px;flex:none}
+.opt span{min-width:0}
+.opt:has(input:checked){border-color:var(--accent);background:var(--accentSoft)}
+.opt:focus-within{outline:2px solid var(--accent);outline-offset:1px}
+.opt small{display:block;color:var(--muted);font-size:13px}
+.bar{position:sticky;bottom:0;margin-top:24px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+.bar output{font-family:var(--f-mono);font-size:12.5px;flex:1 1 220px;min-width:0;word-break:break-word}
+button{font:inherit;font-weight:600;font-size:14px;background:var(--accent);color:var(--bg);border:0;border-radius:9px;padding:8px 14px;cursor:pointer}
+button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.src{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.before{font-size:13.5px;color:var(--muted)}
+.before b{color:var(--fg);font-weight:600}
+</style>
+
+<div class="wrap">
+<p class="eyebrow">Elementum · The Domains · design and samples, round 1</p>
+<h1>The Domains, read domain first</h1>
+<p class="lede">The flow turned around (domain, then the seats that rule it), how the reader first meets a seat, and the three-step domain reading: it knows me, how did it know that, is that really going to happen. Shown on the golden chart, then a weak core, then a chart with no birth hour. Every seat, age and decade below comes from the app's own engine. The questions are at the end. Rule them row by row and press the button to copy your codes.</p>
+<div class="toc">
+<a href="#flow">1 · The flow</a><a href="#teach">2 · Meeting the seats</a><a href="#climb">3 · The climb</a><a href="#golden">4 · Golden chart</a><a href="#chartb">5 · Weak core</a><a href="#chartc">6 · No birth hour</a><a href="#corpus">7 · What gets written</a><a href="#questions">8 · Questions</a>
+</div>
+
+<!-- ───────────────────────── 1 FLOW ───────────────────────── -->
+<h2 id="flow">1 · The flow</h2>
+<div class="flow">
+  <div class="flowrow"><span class="lab">Today</span>
+    <span class="step">An energy page</span><span class="arr">→</span><span class="step">THE DOMAINS card (that energy's seats)</span><span class="arr">→</span><span class="step">A seat</span><span class="arr">→</span><span class="step">Its domain paragraphs</span><span class="arr">→</span><span class="step">WHO RUNS IT</span>
+  </div>
+  <div class="flowrow"><span class="lab">Proposed</span>
+    <span class="step new">YOUR DOMAINS on Your Reading (all eight)</span><span class="arr">→</span><span class="step new">A domain page: How you are · What has already happened · What is coming</span><span class="arr">→</span><span class="step">The seats that rule it (the positioning reading)</span>
+  </div>
+  <div class="flowrow"><span class="lab">Other doors into the same pages</span>
+    <span class="step">Energy page THE DOMAINS card → the domains this energy's seats rule</span><span class="step">THE EDGE domain tiles → that domain's page (D2 fixed in full)</span>
+  </div>
+</div>
+<p>The reason to make the domain page chart-wide, and not per energy: Wealth on the golden chart is held by four seats on two energy pages (three Wood seats, one Metal seat). Read per energy, the reader never sees that one seat sits in childhood and three sit ahead of them. Read across the whole chart, in gate order, the domain becomes a life story with a past and a future. That timeline is what makes the reading predictive.</p>
+
+<div class="pair">
+<div><p class="cap">Today · Wood page, THE DOMAINS card (golden)</p>
+<div class="phone">
+  <div class="card"><span class="laylab">The Domains</span>
+    <div class="ttl" style="font-size:20px">What it rules in your life</div>
+    <span class="seatrow"><b>The Steward at the Year Gate</b><br><span class="chip">Wealth</span><span class="chip">Family</span><br><span class="small">You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home.</span></span>
+    <span class="seatrow"><b>The Horizon inside the Day Gate</b><br><span class="chip">Love</span><span class="chip">Social</span><br><span class="small">You are drawn to partners with range, people who open doors you would not find alone. Marriage, for you, is also where opportunity walks in.</span></span>
+    <span class="seatrow"><b>The Steward at the Hour Gate</b><br><span class="chip">Wealth</span><span class="chip">Family</span><br><span class="small">Whatever the middle years scatter, you end well provided for. What you save builds toward an old age that pays its own way, with something left to hand on.</span></span>
+  </div>
+</div></div>
+<div><p class="cap">Proposed · the same card</p>
+<div class="phone">
+  <div class="card"><span class="laylab">The Domains</span>
+    <div class="ttl" style="font-size:20px">What Wood rules in your life</div>
+    <p class="small">Three of your seven seats hold Wood. They rule four parts of your life.</p>
+    <div class="tiles">
+      <div class="tile hl"><div class="tn">Wealth</div><div class="tc">3 Wood seats · of 4</div><div class="th">Your money comes through the people close to you.</div></div>
+      <div class="tile hl"><div class="tn">Family</div><div class="tc">2 Wood seats · of 4</div><div class="th">You became the careful one, and you stay the one who provides.</div></div>
+      <div class="tile"><div class="tn">Love</div><div class="tc">1 Wood seat</div><div class="th">You fall for people who widen your life.</div></div>
+      <div class="tile"><div class="tn">Social</div><div class="tc">1 Wood seat · of 2</div><div class="th">Your friends come with plans.</div></div>
+    </div>
+    <p class="small">Each tile opens the full domain, with every seat that rules it, from any energy.</p>
+  </div>
+</div></div>
+</div>
+
+<!-- ───────────────────────── 2 TEACH ───────────────────────── -->
+<h2 id="teach">2 · Meeting the seats: the teaching beat</h2>
+<p>THE DOMAINS is where the app first uses the ten characters by seat, so this is the moment to teach it (REA_06 L-row 2.6, position). The ladder's rule is "claims lead, teaching sits under the claim". So the hub opens on a claim about this reader, then three plain sentences, then the picture that does most of the teaching: the life line. Four gates as four stretches of life, the seats in them, and a mark at the reader's age. Left of the mark has happened. Right of it is still coming. The reader sees why the reading can talk about their past and their future before a single paragraph says so.</p>
+
+<div class="pair">
+<div><p class="cap">Proposed · YOUR DOMAINS, top of the hub (golden, age 31)</p>
+<div class="phone">
+  <p class="ey">Your Domains</p>
+  <div class="ttl">Wealth and Family carry the most weight in your life.</div>
+  <p class="sub">Four seats rule each of them. Love, Health and Mind hang on one seat apiece.</p>
+  <p>Your chart has four gates, and each gate is a stretch of your life. Every gate holds two seats, one in plain view and one inside, and one of the ten characters sits in each seat. A character rules the parts of your life its seat touches, and the gate says when it takes over.</p>
+  <div class="ll" data-ll='{"age":31,"seats":[["year","at","The Steward","wood",0],["year","inside","The Artisan","water",0],["month","at","The Twin","metal",0],["month","inside","The Alchemist","earth",0],["day","inside","The Horizon","wood",0],["hour","at","The Steward","wood",0],["hour","inside","The Rival","metal",0]],"allOn":true}'></div>
+  <p class="small">The lit part of the line is behind you. The shaded part is still to come.</p>
+</div></div>
+<div><p class="cap">Proposed · the eight tiles under it</p>
+<div class="phone">
+  <div class="tiles">
+    <div class="tile"><div class="tn">Wealth</div><div class="tc">4 seats · Year, Day, Hour</div><div class="th">Your money comes through the people close to you.</div></div>
+    <div class="tile"><div class="tn">Family</div><div class="tc">4 seats · Year, Hour</div><div class="th">You became the careful one, and you stay the one who provides.</div></div>
+    <div class="tile"><div class="tn">Career</div><div class="tc">2 seats · Month</div><div class="th">Your work pays for what only you know.</div></div>
+    <div class="tile"><div class="tn">Social</div><div class="tc">2 seats · Month, Day</div><div class="th">Your friends are your equals, or they drift.</div></div>
+    <div class="tile"><div class="tn">Mind</div><div class="tc">1 seat · Month</div><div class="th">Your mind runs best on what others find strange.</div></div>
+    <div class="tile"><div class="tn">Growth</div><div class="tc">1 seat · Month</div><div class="th">You grow late, and mostly in private.</div></div>
+    <div class="tile"><div class="tn">Health</div><div class="tc">1 seat · Year</div><div class="th">Your body trusts food and rest to put it right.</div></div>
+    <div class="tile"><div class="tn">Love</div><div class="tc">1 seat · Day</div><div class="th">You fall for people who widen your life.</div></div>
+  </div>
+  <p class="small">Tiles sort by weight. The count line says where in life the seats sit, which already hints at timing (Career is all Month Gate, so it is happening now).</p>
+</div></div>
+</div>
+<div class="note"><b>Why "characters".</b> The app already shows each one by name (the Steward, the Horizon). The teaching beat needs a group noun for the ten, and "Ten Gods" is banned. "Characters" is plain and fits a reader meeting them for the first time. Q6 asks.</div>
+
+<!-- ───────────────────────── 3 CLIMB ───────────────────────── -->
+<h2 id="climb">3 · The climb: one domain page, three steps</h2>
+<p>Every domain page climbs the same three steps, in this order. Each step has its own source in the chart, so each claim can be traced.</p>
+<div class="tbl"><table>
+<tr><th>Step</th><th>What the reader feels</th><th>What it says</th><th>Where it comes from</th></tr>
+<tr><td><b>1 · How you are</b></td><td>"It knows me."</td><td>The behaviour in this domain: the drive, its tension, its cost, present tense.</td><td>The lead seat in this domain (the seat ranking that is already locked: month branch first). If a classical pair fires on this domain, its line follows.</td></tr>
+<tr><td><b>2 · What has already happened</b></td><td>"How did it know that?"</td><td>Definite things that have already happened, each tied to an age span.</td><td>The seats whose gate the reader has already lived (gate eras: Year to 15, Month 16 to 34, Day 35 to 47, Hour 48 on), plus past decades whose character rules the domain. A Day Gate seat also gives the pattern so far. A gate with no seat here gives one line on what that absence meant.</td></tr>
+<tr><td><b>3 · What is coming</b></td><td>"Is that really going to happen to me?"</td><td>The trajectory: what each coming seat brings, from what age and year, and the strongest window.</td><td>The seats whose gate is still ahead, labelled with the age and calendar year it opens. Then the coming decades (the ten-year luck pillars) whose character rules the domain, read as helping or heavy for this chart. When a decade's character is the same as a seat's in this domain, the two line up, and that is named as the strongest window.</td></tr>
+</table></div>
+<div class="note warn"><b>This step needs a new law.</b> The master prompt today bans biography ("never assert a past event, an age at which something happened") and allows exactly one tendency-framed predictive beat. BIZ_04 calls a predicted outcome "too harsh". Your goal for this section asks for the opposite. I propose a law for the domain reading only: Q8 to Q11.</div>
+<p>Under the three steps sit <b>the seats that rule this domain</b>, one card each, with the seat's gate, age span and its full reading (the positioning dive). The god layer WHO RUNS IT and the old god-noun domain readings leave this page (Q13).</p>
+
+<!-- ───────────────────────── 4 GOLDEN ───────────────────────── -->
+<h2 id="golden">4 · The golden chart: 1995-04-29 18:00 Beijing, the Blade, Overfueled</h2>
+<p class="lede">Age 31 in 2026. Living in the Month Gate (16 to 34). Current decade 2023 to 2032. Coming decades: 2033 General, 2043 Steward, 2053 Horizon.</p>
+
+<h3>Wealth · four seats</h3>
+<div class="pair">
+<div><p class="cap">Today · what a Seeker reads about money (spread over two energy pages)</p>
+<div class="before">
+<p><b>Wood page · The Steward at the Year Gate · Wealth.</b> Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.</p>
+<p><b>Wood page · The Horizon inside the Day Gate · Wealth.</b> Money moves through your intimate life: opportunities arriving via the partner, ventures shared across the pillow, windfalls with two names on them. It prospers with clean structure, shared goals, separate accounts, written agreements even in love. Romance handles the dreaming. Paperwork keeps the dream funded.</p>
+<p><b>Wood page · The Steward at the Hour Gate · Wealth.</b> Your money story ends better than it middles: late-life finances organize, debts clear, and the estate takes shape exactly when others' unravel. Compounding is loyal to you because you were loyal to it first. Keep the discipline light in the final decades. The wall is built. Live against it.</p>
+<p><b>Metal page · The Rival inside the Hour Gate · Wealth.</b> Late wealth needs a gatekeeper, and it should be you on your clearest day: claims will come dressed as family, opportunity, and honor. Fix your giving number annually, protect the floor beneath your own feet first. Generosity from a defended base reads as blessing. From an open vault it reads as weather.</p>
+<p>Four separate seat paragraphs, no order in time, advice in most closes, old voice (aphorisms, imperatives, "the wall is built"). The reader has to assemble the story.</p>
+</div></div>
+<div><p class="cap">Proposed · the Wealth page (Seeker view)</p>
+<div class="phone">
+  <p class="ey">The Domains · Wealth</p>
+  <div class="ttl">Your money comes through the people close to you.</div>
+  <p class="sub">Four seats rule Wealth in your chart: one in your childhood, one in your home years and two in your late life.</p>
+  <div class="ll" data-ll='{"age":31,"seats":[["year","at","The Steward","wood",1],["year","inside","The Artisan","water",0],["month","at","The Twin","metal",0],["month","inside","The Alchemist","earth",0],["day","inside","The Horizon","wood",1],["hour","at","The Steward","wood",1],["hour","inside","The Rival","metal",1]]}'></div>
+
+  <div class="climb"><p class="stepey">How you are</p><p class="stephd">With money</p>
+    <p>You find money through other people, in a tip from a friend or a side venture with someone close. Because your openings arrive through people you trust, you say yes before you read the terms, and you earn in bursts more than in a steady line. The money you make fastest is the money you hold on to least.</p>
+    <p>You lose money most easily where you share it with friends and family, and you also find your safety net among those same people.</p>
+  </div>
+
+  <div class="climb"><p class="stepey">What has already happened</p><p class="stephd">From your first home to now</p>
+    <div class="beat"><span class="when">The Early Chapter · birth to 15</span>
+      <p>You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent.</p>
+      <span class="who">The Steward at the Year Gate</span></div>
+    <div class="gap"><span class="when" style="font-family:var(--f-mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--seal)">The Rising Chapter · 16 to now</span><br>No seat in your Month Gate rules Wealth. Since sixteen you have put work, study and friends before money, and your income has stayed below what you could earn.</div>
+  </div>
+
+  <div class="climb"><p class="stepey">What is coming</p><p class="stephd">The years your money turns</p>
+    <div class="beat"><span class="when">The Home Chapter · from 35 · 2030</span>
+      <p>From about 35 your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you keep only what has both names written down.</p>
+      <span class="who">The Horizon inside the Day Gate</span></div>
+    <div class="beat"><span class="when">The Late Chapter · from 48 · 2043</span>
+      <p>Your late forties are when the saving you started as a child finally shows. Debts close and the accounts settle, and you become the one in your family who has enough.</p>
+      <span class="who">The Steward at the Hour Gate</span></div>
+    <div class="beat"><span class="when">The Late Chapter · from 48 · 2043</span>
+      <p>The same years bring claims on that money from the people after you, whether children, younger relatives or someone you train. You give more than you planned each time, and you keep your own floor only where you set the number before anyone asks.</p>
+      <span class="who">The Rival inside the Hour Gate</span></div>
+    <div class="beat decade"><span class="when">Your strongest window · 2043 to 2052</span>
+      <p>Your decade from 2043 to 2052 is a Steward decade, and it lines up with the Steward in your Hour Gate. You build more lasting wealth in these ten years than in any other stretch of your life.</p>
+      <p style="margin:0">From 2053 a Horizon decade follows, and you take more chances with money at 58 than you did at 38.</p></div>
+  </div>
+
+  <div class="card"><span class="laylab">The seats that rule Wealth</span>
+    <div class="seatcard"><span class="st">The Steward at the Year Gate</span><span class="zh">正财在年干</span><br><span class="small">Birth to 15 · in plain view · Wealth, Family</span><br><span class="small">Read this seat ›</span></div>
+    <div class="seatcard"><span class="st">The Horizon inside the Day Gate</span><span class="zh">偏财在日支</span><br><span class="small">35 to 47 · inside · Love, Social, Wealth</span><br><span class="small">Read this seat ›</span></div>
+    <div class="seatcard"><span class="st">The Steward at the Hour Gate</span><span class="zh">正财在时干</span><br><span class="small">48 on · in plain view · Wealth, Family</span><br><span class="small">Read this seat ›</span></div>
+    <div class="seatcard"><span class="st">The Rival inside the Hour Gate</span><span class="zh">劫财在时支</span><br><span class="small">48 on · inside · Family, Wealth</span><br><span class="small">Read this seat ›</span></div>
+  </div>
+</div></div>
+</div>
+<p class="src">Chart logic: the Steward (正财) at the Year stem is visible early provision; no wealth character in the Month Gate; the Horizon (偏财) in the Day branch is wealth through the partner; the Steward and the Rival (劫财) share the Hour pillar, so peers and heirs contest late money (比劫夺财 fires, rewritten as the second paragraph of step 1). Decades from the engine: 48 to 57 正财, 58 to 67 偏财. Wood is a helping energy for this Overfueled Metal core, so both wealth decades read as helping.</p>
+
+<h3>Love · one seat</h3>
+<div class="pair">
+<div><p class="cap">Today · the Horizon inside the Day Gate · Love</p>
+<div class="before"><p><b>Love.</b> In love you are drawn to range: partners with reach, plans, and a suitcase half-packed. Romance for you needs a horizon in it, shared ventures, travel, the next thing planned at breakfast. Choose a partner whose breadth has a center, and the marriage stays an expedition rather than a drift.</p>
+<p><b>The Home Chapter.</b> Your home chapter, the marriage-and-household decades, is where range enters your life: the partner's world widens yours, and adulthood keeps offering side doors. This era rewards saying yes to shared ventures, and the middle of your life will be its widest part.</p></div></div>
+<div><p class="cap">Proposed · the Love page</p>
+<div class="phone">
+  <p class="ey">The Domains · Love</p>
+  <div class="ttl">You fall for people who widen your life.</div>
+  <p class="sub">One seat rules Love in your chart, inside your Day Gate, the seat of the partner.</p>
+  <div class="ll" data-ll='{"age":31,"seats":[["year","at","The Steward","wood",0],["year","inside","The Artisan","water",0],["month","at","The Twin","metal",0],["month","inside","The Alchemist","earth",0],["day","inside","The Horizon","wood",1],["hour","at","The Steward","wood",0],["hour","inside","The Rival","metal",0]]}'></div>
+  <div class="climb"><p class="stepey">How you are</p><p class="stephd">In love</p>
+    <p>You fall for people who widen your life, the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.</p></div>
+  <div class="climb"><p class="stepey">What has already happened</p><p class="stephd">So far</p>
+    <div class="beat"><span class="when">Your Day Gate · the pattern so far</span>
+      <p>The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person.</p>
+      <span class="who">The Horizon inside the Day Gate</span></div></div>
+  <div class="climb"><p class="stepey">What is coming</p><p class="stephd">Your Home Chapter</p>
+    <div class="beat"><span class="when">The Home Chapter · from 35 · 2030</span>
+      <p>Your Home Chapter opens at about 35, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together.</p>
+      <span class="who">The Horizon inside the Day Gate</span></div>
+    <p class="small">Love has no decade of its own. It is read from your Day Gate alone.</p></div>
+</div></div>
+</div>
+
+<!-- ───────────────────────── 5 CHART B ───────────────────────── -->
+<h2 id="chartb">5 · A weak core: 1990-09-17 05:00 Beijing, male, the Vine, Underfueled</h2>
+<p class="lede">Wood 12 percent against Metal 76 percent. Age 36, so this reader has just crossed into the Day Gate. Health is held three times, twice by the General. Decades: 2007 Artisan, 2017 Steward (now), 2047 General, 2057 Sage.</p>
+<div class="pair">
+<div><p class="cap">Today · the Health paragraphs a Seeker reads</p>
+<div class="before">
+<p><b>Fire page · The Artisan inside the Year Gate · Health.</b> Your constitution is a friendly one: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most.</p>
+<p><b>Metal page · The General inside the Month Gate · Health.</b> This seat spends the body like salary: adrenaline drawn daily, invoices deferred. The forties collect if the thirties never paid. Train hard, rest harder, and treat decompression as a professional skill. A maintained commander is a long reign. An unmaintained one is a short story.</p>
+<p><b>Metal page · The General inside the Day Gate · Health.</b> Your body scores every domestic round: contested seasons land in your sleep, your shoulders, your appetite. Peace at home is a physical program here. Make up before midnight as a health practice, and the constitution stays formidable.</p>
+</div></div>
+<div><p class="cap">Proposed · the Health page</p>
+<div class="phone">
+  <p class="ey">The Domains · Health</p>
+  <div class="ttl">Your body works until something makes it stop.</div>
+  <p class="sub">Three seats rule Health in your chart, and two of them hold the same character.</p>
+  <div class="ll" data-ll='{"age":36,"seats":[["year","at","The Magistrate","metal",0],["year","inside","The Artisan","fire",1],["month","at","The Twin","wood",0],["month","inside","The General","metal",1],["day","inside","The General","metal",1],["hour","at","The Horizon","earth",0],["hour","inside","The Twin","wood",0]]}'></div>
+  <div class="climb"><p class="stepey">How you are</p><p class="stephd">With your body</p>
+    <p>You treat your body as the tool that gets the job done, and you push it through tired weeks without stopping to ask. Because pressure is what keeps you going, rest feels like falling behind, and you take it last. The cost shows in your sleep and your shoulders long before you admit you are tired.</p>
+    <p>Comfort is what protects you, because good food and work with your hands turn pressure into something you can use.</p></div>
+  <div class="climb"><p class="stepey">What has already happened</p><p class="stephd">From your first home to now</p>
+    <div class="beat"><span class="when">The Early Chapter · birth to 15</span>
+      <p>You were well fed as a child, in every sense of the word. Someone in your first home made comfort a daily thing, and your body still trusts a good meal and a long rest to put it right.</p>
+      <span class="who">The Artisan inside the Year Gate</span></div>
+    <div class="beat decade"><span class="when">An Artisan decade · 2007 to 2016</span>
+      <p style="margin:0">From 17 to 26 you spent energy as fast as you made it, on friends, food and late nights, and your recovery slowed for the first time.</p></div>
+    <div class="beat"><span class="when">The Rising Chapter · 16 to 34</span>
+      <p>From your late teens your body went into service, through the hardest training or the hardest job you could find. Around thirty you noticed it no longer recovered overnight, and you kept going at the same pace anyway.</p>
+      <span class="who">The General inside the Month Gate</span></div></div>
+  <div class="climb"><p class="stepey">What is coming</p><p class="stephd">The years your body asks back</p>
+    <div class="beat now"><span class="when">The Home Chapter · now to 47</span>
+      <p>From 35 to your late forties the pressure moves home. Strain you used to carry at work now lands in your sleep, your neck and your appetite whenever things at home are tense, and in these years your health follows the peace of your home more closely than any routine.</p>
+      <span class="who">The General inside the Day Gate</span></div>
+    <div class="beat decade"><span class="when">Your heaviest window · 2047 to 2056</span>
+      <p>Your decade from 2047 to 2056 is a General decade, and it brings back the pressure your chart already carries too much of. You will live in those years on the rest you learn to take before them.</p>
+      <p style="margin:0">From 2057 a Sage decade brings the easiest years your body has had since childhood.</p></div></div>
+</div></div>
+</div>
+<p class="src">Chart logic: the Artisan (食神) in the Year branch is early nourishment; the General (七杀) holds the month branch (the strongest seat) and the Day branch, Metal 76 percent against a Wood core at 12, so pressure is the chart's excess; 食神制杀 fires (the Artisan tames the General), rewritten as step 1's second paragraph. Decades: 17 to 26 食神 (Fire, heavy for this chart), 57 to 66 七杀 (Metal, heavy), 67 to 76 正印 (Water, helping). Wellness words only: sleep, neck, appetite, rest. No illness.</p>
+
+<!-- ───────────────────────── 6 CHART C ───────────────────────── -->
+<h2 id="chartc">6 · No birth hour: 1992-05-25 Beijing, female, the Jewel, Underfueled</h2>
+<p class="lede">Hour unknown, so both Hour Gate seats are hidden, as today. Age 34: her Home Chapter opens next year. Five seats. No known seat rules Health. Decades: 2008 Artisan, 2018 Virtuoso (now), 2058 Sage.</p>
+<div class="pair">
+<div><p class="cap">Proposed · the hub, top and tiles</p>
+<div class="phone">
+  <p class="ey">Your Domains</p>
+  <div class="ttl">Your friendships and your work carry the most weight in your life.</div>
+  <p class="sub">Three seats rule Social and two rule Career. Your Health has no ruler you can see yet.</p>
+  <div class="ll" data-ll='{"age":34,"hourClosed":true,"seats":[["year","at","The Virtuoso","water",0],["year","inside","The Rival","metal",0],["month","at","The Horizon","wood",0],["month","inside","The Magistrate","fire",0],["day","inside","The Alchemist","earth",0]],"allOn":true}'></div>
+  <div class="closed">Your Hour Gate is closed. Without your birth hour your late chapter cannot be read. Add your birth hour ›</div>
+  <div class="tiles">
+    <div class="tile"><div class="tn">Social</div><div class="tc">3 seats · Year, Month</div><div class="th">People remember you after one evening.</div></div>
+    <div class="tile"><div class="tn">Career</div><div class="tc">2 seats · Month</div><div class="th">You rise inside structures you keep correcting.</div></div>
+    <div class="tile"><div class="tn">Wealth</div><div class="tc">2 seats · Year, Month</div><div class="th">Your money comes in surges and leaves with friends.</div></div>
+    <div class="tile"><div class="tn">Mind</div><div class="tc">2 seats · Year, Day</div><div class="th">You think fastest out loud and deepest alone.</div></div>
+    <div class="tile"><div class="tn">Family</div><div class="tc">1 seat · Year</div><div class="th">What was yours as a child was rarely only yours.</div></div>
+    <div class="tile"><div class="tn">Growth</div><div class="tc">1 seat · Month</div><div class="th">You grow by holding a role and then reshaping it.</div></div>
+    <div class="tile"><div class="tn">Love</div><div class="tc">1 seat · Day</div><div class="th">You love best with a door you can close.</div></div>
+    <div class="tile ghost"><div class="tn">Health</div><div class="tc">No seat · read from your decades</div><div class="th">Your body follows the decade you are in.</div></div>
+  </div>
+</div></div>
+<div><p class="cap">Proposed · the Love page</p>
+<div class="phone">
+  <p class="ey">The Domains · Love</p>
+  <div class="ttl">You love best with a door you can close.</div>
+  <p class="sub">One seat rules Love in your chart, inside your Day Gate, the seat of the partner.</p>
+  <div class="ll" data-ll='{"age":34,"hourClosed":true,"seats":[["year","at","The Virtuoso","water",0],["year","inside","The Rival","metal",0],["month","at","The Horizon","wood",0],["month","inside","The Magistrate","fire",0],["day","inside","The Alchemist","earth",1]]}'></div>
+  <div class="climb"><p class="stepey">How you are</p><p class="stephd">In love</p>
+    <p>You want closeness with space built into it, a partner near enough to share a life with and far enough to leave you with your own thoughts. Because you refill by withdrawing, you pull back exactly when someone asks for more of you, and you read their hurt as proof that they do not understand you. What you want is someone who waits at the door instead of knocking it down.</p></div>
+  <div class="climb"><p class="stepey">What has already happened</p><p class="stephd">So far</p>
+    <div class="beat"><span class="when">Your Day Gate · the pattern so far</span>
+      <p>You have stayed longest with the people who let you disappear for a day without asking why. You have left, or been left by, the ones who needed your silences explained.</p>
+      <span class="who">The Alchemist inside the Day Gate</span></div></div>
+  <div class="climb"><p class="stepey">What is coming</p><p class="stephd">Your Home Chapter, from next year</p>
+    <div class="beat now"><span class="when">The Home Chapter · from 35 · 2027</span>
+      <p>Your Home Chapter opens next year, and with it your love life settles into the shape it keeps. You build one shared home in these years with a door you can close, and you know it is the right person when they never ask you to stop needing that door.</p>
+      <span class="who">The Alchemist inside the Day Gate</span></div></div>
+</div></div>
+</div>
+
+<div class="pair">
+<div><p class="cap">Proposed · the Health page, with no seat</p>
+<div class="phone">
+  <p class="ey">The Domains · Health</p>
+  <div class="ttl">Your body follows the decade you are in.</div>
+  <p class="sub">None of your known seats rules Health, so your decades read it instead.</p>
+  <div class="ll" data-ll='{"age":34,"hourClosed":true,"seats":[["year","at","The Virtuoso","water",0],["year","inside","The Rival","metal",0],["month","at","The Horizon","wood",0],["month","inside","The Magistrate","fire",0],["day","inside","The Alchemist","earth",0]]}'></div>
+  <div class="climb"><p class="stepey">How you are</p><p class="stephd">With your body</p>
+    <p>Your health has no fixed pattern of its own. You feel well for some stretches of years and worn for others, and the change has no obvious cause because the decade is what moves it.</p></div>
+  <div class="climb"><p class="stepey">What has already happened</p><p class="stephd">The last decade that ruled it</p>
+    <div class="beat decade"><span class="when">An Artisan decade · 2008 to 2017</span>
+      <p style="margin:0">From 16 to 25 you spent energy faster than you rebuilt it, on study, friends and late nights, and you came out of those years more tired than you went in.</p></div></div>
+  <div class="climb"><p class="stepey">What is coming</p><p class="stephd">The next decade that rules it</p>
+    <div class="beat decade"><span class="when">A Sage decade · 2058 to 2067</span>
+      <p style="margin:0">Your next health decade starts at 66, and it is the most restoring stretch your chart holds.</p></div>
+    <div class="closed">Your Hour Gate may hold a Health seat. Add your birth hour to read your late chapter ›</div></div>
+</div></div>
+<div><p class="cap">What the reader with no hour sees, in one line each</p>
+<div class="note">
+<p><b>On the life line.</b> The Hour Gate column is shaded closed, with no seats in it.</p>
+<p><b>On the hub.</b> One line under the line: "Your Hour Gate is closed", and a link to the hour discovery that already exists (REA_06 4.2).</p>
+<p><b>On a domain page.</b> The closed note appears only where an Hour Gate seat could rule that domain (Family, Wealth, Growth, Health, Mind, Career and Social can all sit there; Love cannot). On the Love page it does not appear.</p>
+<p style="margin:0"><b>On a domain with no seat.</b> The tile stays, dashed. The page reads it from the decades: the last decade whose character rules it, the next one, and the hour note.</p>
+</div>
+<p class="src">Chart logic: no known seat declares Health. Decades from the engine whose character rules Health: 16 to 25 食神 (Water, heavy for this weak Metal core), 66 to 75 正印 (Earth, helping). Love: the Alchemist (偏印) in the Day branch, solitude inside intimacy.</p>
+</div>
+</div>
+
+<!-- ───────────────────────── 7 CORPUS ───────────────────────── -->
+<h2 id="corpus">7 · What gets written, and what happens to today's text</h2>
+<div class="tbl"><table>
+<tr><th>New unit</th><th>How many</th><th>Size</th><th>Job</th></tr>
+<tr><td>Headline, per seat × each domain it rules</td><td>160</td><td>up to 9 words</td><td>The tile line and the page title when this seat leads.</td></tr>
+<tr><td>How you are, per seat × domain</td><td>160</td><td>2 to 3 sentences</td><td>Step 1 when this seat leads the domain.</td></tr>
+<tr><td>Already happened, per seat × domain</td><td>160</td><td>2 sentences</td><td>Step 2. On a Day Gate seat, the pattern so far.</td></tr>
+<tr><td>Coming, per Day and Hour seat × domain</td><td>71</td><td>2 sentences</td><td>Step 3, labelled by age and year.</td></tr>
+<tr><td>Decade lines, per character × its three domains × helping or heavy × past or coming</td><td>120</td><td>1 to 2 sentences</td><td>The decade beats and the strongest or heaviest window.</td></tr>
+<tr><td>A domain with no seat</td><td>5</td><td>2 sentences</td><td>Step 1 for Wealth, Health, Mind, Growth or Social with no seat.</td></tr>
+<tr><td>The teaching beat and the hub claim</td><td>a few templates</td><td>3 sentences</td><td>Section 2. The gap line ("No seat in your Month Gate rules Wealth") is a template too.</td></tr>
+</table></div>
+<div class="tbl"><table>
+<tr><th>Today's text</th><th>Proposal</th></tr>
+<tr><td>Seat <span class="src">domain_readings</span>, <span class="src">life_chapter</span>, <span class="src">relations</span>, turns (POSITION ×70)</td><td>Replaced by the new units above. Kept in the station as ore.</td></tr>
+<tr><td>Seat <span class="src">reading</span> and <span class="src">defline</span></td><td>Stay in the seat cards under each domain. Rewrite in the current voice (Q14): today's deflines say "spouse palace", and the readings close on imperatives ("Maintain it").</td></tr>
+<tr><td>Seat <span class="src">teaser</span></td><td>Leaves the energy-page card (the tiles replace it). Kept as ore.</td></tr>
+<tr><td>Pattern lines (the nine classical pairs)</td><td>Kept as step 1's second paragraph, rewritten in the current voice (9 units).</td></tr>
+<tr><td>WHO RUNS IT and the 150 god-noun domain readings</td><td>Leave the page, kept as ore (Q13).</td></tr>
+<tr><td>The edge domain sheet with "$9.99/mo" (S1)</td><td>Retired: the edge tile opens the domain page (Q2).</td></tr>
+</table></div>
+<p>After your rulings: one template batch of 10 seats on the golden chart for you to read, then the sealed writers for the rest, gated, landed through the station and audited with a new "domains" surface in the audit kit.</p>
+
+<!-- ───────────────────────── 8 QUESTIONS ───────────────────────── -->
+<h2 id="questions">8 · Questions</h2>
+<p class="lede">The first option is my recommendation each time. Pick one per row. Your codes collect in the bar at the bottom.</p>
+<div id="qs"></div>
+<div class="bar"><output id="codes">No answers yet.</output><button id="copy" type="button">Copy my answers</button></div>
+</div>
+
+<script>
+const GATES=['year','month','day','hour'],GN={year:'Year Gate',month:'Month Gate',day:'Day Gate',hour:'Hour Gate'},AGE={year:'0 to 15',month:'16 to 34',day:'35 to 47',hour:'48 on'};
+function agePos(a){if(a<16)return a/16*25;if(a<35)return 25+(a-16)/19*25;if(a<48)return 50+(a-35)/13*25;return 75+Math.min(1,(a-48)/30)*25}
+function curIdx(a){return a<16?0:a<35?1:a<48?2:3}
+document.querySelectorAll('.ll').forEach(el=>{
+  let d;try{d=JSON.parse(el.dataset.ll)}catch(e){return}
+  const ci=curIdx(d.age);
+  const cols=GATES.map((g,i)=>{
+    const closed=d.hourClosed&&g==='hour';
+    const cls='ll-col'+(closed?' closedcol':(i>ci?' future':''));
+    let inner=`<span class="ll-gate">${GN[g]}</span><span class="ll-age">${AGE[g]}</span>`;
+    if(closed){inner+='<span class="ll-empty">closed</span><span class="ll-empty">no birth hour</span>'}
+    else{
+      for(const k of ['at','inside']){
+        if(g==='day'&&k==='at'){inner+='<span class="ll-empty">you</span>';continue}
+        const s=(d.seats||[]).find(x=>x[0]===g&&x[1]===k);
+        if(!s){inner+='<span class="ll-empty">·</span>';continue}
+        const on=d.allOn||s[4];
+        inner+=`<span class="ll-seat${on?' on':''}"><span class="k">${k}</span><span class="ll-dot" style="background:var(--${s[3]})"></span>${s[2].replace('The ','')}</span>`;
+      }
+    }
+    return `<div class="${cls}">${inner}</div>`;
+  }).join('');
+  el.innerHTML=`<div class="ll-grid">${cols}<div class="ll-mark" style="left:${agePos(d.age)}%"><span>you · ${d.age}</span></div></div><div class="ll-key"><span>childhood</span><span>working prime</span><span>home years</span><span>late life</span></div>`;
+});
+
+const Q=[
+['Q1','Where the domains live',[
+ ['A','A hub of all eight on Your Reading, plus the energy page card listing the domains its seats rule. Both open the same chart-wide domain pages.'],
+ ['B','The hub only. The energy page loses its THE DOMAINS card.'],
+ ['C','Per energy only. Each domain page shows just that energy’s seats.']]],
+['Q2','Where the hub sits on Your Reading',[
+ ['A','A fourth beat after YOUR ENERGY MAP, reached by a bridge line ("See where your life is ruled").'],
+ ['B','Its own tab beside the reading.'],
+ ['C','At the end of the Day Master page.']]],
+['Q3','THE EDGE domain tiles and the domain sheet (D2 in full, and S1)',[
+ ['A','A tile opens that domain’s page directly. The small domain sheet retires, and its price line with it.'],
+ ['B','Keep the sheet as a preview, price included, with a link through to the page.'],
+ ['C','Keep the sheet without the price.']]],
+['Q4','A domain no seat rules (Health on chart C)',[
+ ['A','Keep the tile, dashed. The page reads it from the decades that rule it, past and coming.'],
+ ['B','Hide the tile and the page.']]],
+['Q5','No birth hour',[
+ ['A','Show the Hour Gate closed on the life line, with one line linking to the hour discovery, and the note on the domains an Hour seat could rule.'],
+ ['B','Hide the Hour Gate silently, as today.']]],
+['Q6','Teaching the seats, and the word for the ten',[
+ ['A','The teaching beat at the top of the hub (claim, three sentences, the life line with "you · 31"), and the ten are called "characters".'],
+ ['B','The same beat, and the ten are called "personas".'],
+ ['C','No teaching beat. The hub opens on the tiles, and a "How seats work" sheet sits behind a link.']]],
+['Q7','The three steps on every domain page',[
+ ['A','Labelled steps: How you are, What has already happened, What is coming. Then the seats.'],
+ ['B','One flowing reading with no step labels. Then the seats.']]],
+['Q8','How dated the reading is',[
+ ['A','Ages from the gates ("from about 35") and calendar years from the decades ("2043 to 2052").'],
+ ['B','Ages only, no calendar years.'],
+ ['C','Life stages only ("your home years"), no ages or years.']]],
+['Q9','The licence for the past step (a new law for the domain reading only; the master prompt bans biography today)',[
+ ['A','Definite past patterns tied to an age span ("by your teens you were already saving"). Never one dated event, a place or a named person.'],
+ ['B','Tendency form only ("you likely learned early").'],
+ ['C','Bolder: single events allowed ("at around 30 you changed jobs").']]],
+['Q10','People in the reading (the function pages ban an assumed partner or child)',[
+ ['A','The Day Gate may name "a partner". The Hour Gate names "the people after you" with a range (children, younger relatives, someone you train), so a reader without children still fits.'],
+ ['B','No assumed people, as on the function pages.']]],
+['Q11','Hard news in the future step (BIZ_04 calls a predicted outcome too harsh)',[
+ ['A','Allowed when tied to a decade or a gate, and the same beat says what carries the reader through ("you will live in those years on the rest you take before them"). Never illness, death, divorce or sums of money.'],
+ ['B','Only gains are predicted. A heavy stretch is named as heavy, with no outcome.']]],
+['Q12','What is free',[
+ ['A','Free: the hub, the life line and step 1 on every domain page. Seeker: steps 2 and 3 and the seat readings.'],
+ ['B','Free also gets the first past beat, the "how did it know" moment, then it locks.'],
+ ['C','A new tier above Seeker holds the dated future (step 3).']]],
+['Q13','The old layers (DOM-1)',[
+ ['A','WHO RUNS IT and the 150 god-noun domain readings leave the page, kept in the station as ore. Each seat card keeps a one-line "About the Steward".'],
+ ['B','Re-key the 150 readings to the eight domains and keep the layer.'],
+ ['C','Keep both as they are, below the seats.']]],
+['Q14','The seat cards under each domain',[
+ ['A','Rewrite the 70 seat readings and deflines in the current voice, 60 to 80 words, no "spouse palace", no imperative closes.'],
+ ['B','Keep the locked text for now, and rewrite later.'],
+ ['C','Retire the seat reading. The card shows the defline only, since the domain beats now carry the content.']]],
+['Q15','Advice on the domain pages',[
+ ['A','None. The domain reading names the pattern and the timeline, and advice stays on THE REMEDY.'],
+ ['B','One counsel line closes each domain page.']]],
+['S1','Sample: golden Wealth, step 1 (How you are)',[['A','Keep as written'],['B','More definite'],['C','Softer'],['D','Rewrite (say how in chat)']]],
+['S2','Sample: golden Wealth, step 2 (the Year Gate beat and the Month Gate gap line)',[['A','Keep as written'],['B','More definite'],['C','Softer'],['D','Rewrite (say how in chat)']]],
+['S3','Sample: golden Wealth, step 3 (the three coming seats and the strongest window)',[['A','Keep as written'],['B','More definite'],['C','Softer'],['D','Rewrite (say how in chat)']]],
+['S4','Sample: golden Love page',[['A','Keep as written'],['B','More definite'],['C','Softer'],['D','Rewrite (say how in chat)']]],
+['S5','Sample: weak core Health page (chart B)',[['A','Keep as written'],['B','More definite'],['C','Softer'],['D','Rewrite (say how in chat)']]],
+['S6','Sample: no-hour Love page (chart C)',[['A','Keep as written'],['B','More definite'],['C','Softer'],['D','Rewrite (say how in chat)']]],
+['S7','Sample: no-seat Health page (chart C)',[['A','Keep as written'],['B','More definite'],['C','Softer'],['D','Rewrite (say how in chat)']]],
+['S8','Sample: the tile headlines (golden and chart C)',[['A','Keep as written'],['B','Shorter'],['C','More predictive (add timing)'],['D','Rewrite (say how in chat)']]]
+];
+const box=document.getElementById('qs');let saved={};
+try{saved=JSON.parse(localStorage.getItem('dom-v1')||'{}')}catch(e){}
+box.innerHTML=Q.map(([id,t,opts])=>`<div class="q"><h4><span class="qid">${id}</span>${t}</h4>${opts.map(([k,txt],i)=>`<label class="opt" for="${id}-${k}"><input type="radio" name="${id}" id="${id}-${k}" value="${k}"${saved[id]===k?' checked':''}><span><b>${k}</b>${i===0&&id[0]==='Q'?' <span class="tag rec">recommended</span>':''} ${txt}</span></label>`).join('')}</div>`).join('');
+function codes(){const s={};Q.forEach(([id])=>{const c=document.querySelector(`input[name="${id}"]:checked`);if(c)s[id]=c.value});try{localStorage.setItem('dom-v1',JSON.stringify(s))}catch(e){}
+ const t=Object.entries(s).map(([k,v])=>k+' '+v).join(', ');document.getElementById('codes').textContent=t||'No answers yet.';return t}
+box.addEventListener('change',codes);codes();
+document.getElementById('copy').addEventListener('click',()=>{const t=codes();const o=document.getElementById('codes');
+ const done=()=>{const b=document.getElementById('copy');b.textContent='Copied';setTimeout(()=>b.textContent='Copy my answers',1600)};
+ if(navigator.clipboard&&t){navigator.clipboard.writeText(t).then(done,()=>{const r=document.createRange();r.selectNodeContents(o);const sel=getSelection();sel.removeAllRanges();sel.addRange(r)})}});
+</script>
