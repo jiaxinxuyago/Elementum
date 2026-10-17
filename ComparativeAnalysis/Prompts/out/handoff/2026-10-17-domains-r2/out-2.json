@@ -20,7 +20,7 @@
   },
   "shangguan_hour_branch": {
    "defline": "The Virtuoso lives inside your Hour Gate: your later life stays full of ideas, opinions and people who argue back.",
-   "reading": "In later life you keep making things and saying what you think, and you look for younger people who will answer you back. Because being heard has always kept you well, the ones who stand up to you become your favourites, whether they are children or younger relatives or someone you train. Your family gets your sharpest wit and your newest plans, and you stay closest to the ones who also get your warmth.",
+   "reading": "In later life you keep making things and saying what you think, and you look for younger people who will take you on. Because being heard has always kept you well, the ones who stand up to you become your favourites, whether they are children or younger relatives or someone you train. Your family gets your sharpest wit and your newest plans, and you stay closest to the ones who also get your warmth.",
    "domains": {
     "Family": {
      "headline": "Your family stays loud with argument and ideas.",
@@ -109,7 +109,7 @@
     "Social": {
      "headline": "People remember you after one meeting.",
      "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
-     "lived": "As a child your remarks were the ones repeated at family gatherings and at the school gate. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+     "lived": "As a child your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
     },
     "Mind": {
      "headline": "Your mind gets there first and gets bored first.",
@@ -180,7 +180,7 @@
   },
   "shishen_month_branch": {
    "defline": "The Artisan holds your strongest seat, inside your Month Gate: your working years run on steady craft and a body kept well.",
-   "reading": "You do your work steadily and without fuss, and over the years you quietly produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. You do your best in making, feeding or teaching, and you keep improving at it long after others have peaked.",
+   "reading": "You do your work quietly and without fuss, and over the years you produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. You do your best in making, feeding or teaching, and you keep improving at it long after others have peaked.",
    "domains": {
     "Career": {
      "headline": "Your career runs on craft and good habits.",
@@ -201,7 +201,7 @@
     "Career": {
      "headline": "You earn most from the work you enjoy.",
      "recognition": "Your best work comes when you like it, and everyone around you can tell the difference within a week. Since pleasure is what keeps you going, a joyless job empties you out faster than a demanding one. Your ease makes you look less ambitious than you are, and you let the finished work speak for you.",
-     "lived": "Through your first working years your best jobs were the ones you enjoyed, and your worst stretches went on forcing yourself through work you disliked. At least once a parent or an older colleague took your ease for a lack of drive, and you proved them wrong quietly."
+     "lived": "Through your first working years your best jobs were the ones you enjoyed, and your worst stretches were the ones you forced yourself through. At least once a parent or an older colleague took your ease for a lack of drive, and you proved them wrong quietly."
     },
     "Social": {
      "headline": "Your easy manner wins you friends at work.",
