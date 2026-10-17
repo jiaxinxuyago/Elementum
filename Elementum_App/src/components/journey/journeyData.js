@@ -101,7 +101,7 @@ export const clashes = (a, b) => CLASH.has(`${a}|${b}`);
 // Round 2 (owner R2-2, 2026-10-17): the picker searches every combination of the
 // two personas' keywords (lead 2 of 3 × minority n of 3, lowest ranks first) and
 // takes the first with no clash, so a 2+2 page shows two and two whenever a clean
-// set exists (owner decision pending for the six pages where none does).
+// set exists (the six pages where none does show a clean 2+1: owner 1A, 2026-10-17).
 export function pickBlendRows(lead, minor, nMinor, leadGod, minorGod) {
   const pairs = (k, n) => (n === 1 ? [[0], [1], [2]] : [[0, 1], [0, 2], [1, 2]]).filter((c) => c.every((i) => i < k));
   const combos = [];

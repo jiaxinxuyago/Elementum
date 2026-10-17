@@ -20,9 +20,9 @@
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want the long shot as much as the steady pay. You lose most on what you leave unclaimed.",
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Fire makes it warm, and people feel what you build. As a catalyst, the warmth runs short, and you want the long shot as much as the steady pay. You lose most on what you leave unclaimed.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light burns through its fuel. Gain and loss fill your thoughts, and little of you is left to rest.",
-      "definition_balanced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Whether you reach for something new or hold on to the old, the warmth stays.",
+      "definition_balanced": "Your Action is what you go and build, claim and provide. Fire makes it warm, and people feel what you build. In balance, the fire burns steady. Whether you reach for something new or hold on to the old, the warmth stays.",
       "advise_catalyst": "What you build earns less than it should, since you seldom ask to be paid for it. Name your price once and hold to it. Put the idea in front of a real buyer this month.",
       "advise_friction": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before any big choice. Let the numbers wait.",
       "advise_balanced": "Your fire burns steady while new ventures and old ones both get some of your warmth. Put the idea in front of a real buyer this month. Warm up one old venture you have let go cold."
@@ -398,6 +398,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 fire:F4-12",
       "replaced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want a far chance as much as steady pay. You lose most on what you leave unclaimed."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-owner-picks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"1A 2A 3A\" (2A: the auditor's head wording for 木_火 and 水_火; 3A: neutral space for the household line)",
+      "finding": "Owner 2A (F3-03)",
+      "replaced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want the long shot as much as the steady pay. You lose most on what you leave unclaimed."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-owner-picks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"1A 2A 3A\" (2A: the auditor's head wording for 木_火 and 水_火; 3A: neutral space for the household line)",
+      "finding": "Owner 2A (F3-03)",
+      "replaced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Whether you reach for something new or hold on to the old, the warmth stays."
     }
   ]
 }

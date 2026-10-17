@@ -65,9 +65,9 @@ export const PAIR_CELLS = {
     },
     function: {
       primary: 'expression',
-      definition_catalyst: 'Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit show in the moment and then fade, and little of it lasts once the evening is over.',
+      definition_catalyst: 'Your Expression is the gate where inner work becomes outer fact. Fire lights it, and what you do can be seen. As a catalyst, the light runs short. Your warmth and wit show in the moment and then fade, and little of it lasts once the evening is over.',
       definition_friction: 'Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, the gate never shuts, because everything in you wants out at once. You spend yourself on each moment and keep little for the work ahead.',
-      definition_balanced: 'Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, what you make and what you show keep the same pace. Your warmth and wit reach people at the moment they count.',
+      definition_balanced: 'Your Expression is the gate where inner work becomes outer fact. Fire lights it, and what you do can be seen. In balance, what you make and what you show keep the same pace. Your warmth and wit reach people at the moment they count.',
       advise_catalyst: 'Your light runs short, and little of what you make lasts past the moment. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends.',
       advise_friction: 'Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Listen to one album from start to finish. Wait three days before you share your next idea.',
       advise_balanced: 'Your light reaches people when it counts, and it stays bright while you keep letting work out. Play an unfinished song to one friend. Bring one thing you made to the next gathering of friends.',
@@ -706,9 +706,9 @@ export const PAIR_CELLS = {
     },
     function: {
       primary: 'action',
-      definition_catalyst: 'Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want the long shot as much as the steady pay. You lose most on what you leave unclaimed.',
+      definition_catalyst: 'Your Action is what you go and build, claim and provide. Fire makes it warm, and people feel what you build. As a catalyst, the warmth runs short, and you want the long shot as much as the steady pay. You lose most on what you leave unclaimed.',
       definition_friction: 'Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light burns through its fuel. Gain and loss fill your thoughts, and little of you is left to rest.',
-      definition_balanced: 'Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Whether you reach for something new or hold on to the old, the warmth stays.',
+      definition_balanced: 'Your Action is what you go and build, claim and provide. Fire makes it warm, and people feel what you build. In balance, the fire burns steady. Whether you reach for something new or hold on to the old, the warmth stays.',
       advise_catalyst: 'What you build earns less than it should, since you seldom ask to be paid for it. Name your price once and hold to it. Put the idea in front of a real buyer this month.',
       advise_friction: 'Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before any big choice. Let the numbers wait.',
       advise_balanced: 'Your fire burns steady while new ventures and old ones both get some of your warmth. Put the idea in front of a real buyer this month. Warm up one old venture you have let go cold.',

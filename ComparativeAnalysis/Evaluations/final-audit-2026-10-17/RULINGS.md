@@ -61,7 +61,11 @@ In the app, a catalyst page and a Balanced page end on **THE EDGE**, and THE ADV
 - Two keywords were renamed: 金_食神 "Takes it easy" → "Looks effortless" (X4-04), and 木_七杀 "Impossible to please" → "Never satisfied" (X4-05).
 - W4-01: the auditor proposed "Running high". The "Running over," opener was kept, as in the ten sister cells, and only the "no outlet" contradiction was fixed, in all three Water tails.
 
-Left for the owner, never changed without leave:
-- the six friction Horizon+Steward blends that have no clean 2+2 and show 2+1;
-- the shared head sentences F3-02 (木_火 "whatever you do shows") and F3-03 (水_火 "in time");
-- 土_正财 friction cost_others still assumes a household ("the people you live with"; R2-4 wording, not flagged this round).
+Owner's picks ("1A 2A 3A", 2026-10-17):
+| Item | Ruling |
+|---|---|
+| 1 · six friction Horizon+Steward blends with no clean 2+2 | **A: keep the clean 2+1.** No hinge line, no blend-only keyword. |
+| 2 · shared heads F3-02, F3-03 | **A: the auditor's wording.** 木_火 "Fire lights it, and what you do can be seen." 水_火 "Fire makes it warm, and people feel what you build." (catalyst and balanced definitions) |
+| 3 · 土_正财 "Keeps everything" household line | **A: neutral space.** "…and your space fills from the walls in. Whoever shares it with you gets less of it to call their own." |
+
+Then: "run round 5".

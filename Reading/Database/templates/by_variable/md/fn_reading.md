@@ -492,7 +492,7 @@
 | `friction.ledger[0].word` | Keeps everything |
 | `friction.ledger[0].angles.drive` | Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. What no longer matters to you is yours to part with. |
 | `friction.ledger[0].angles.cost_self` | Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. You rent space for things that give nothing back. |
-| `friction.ledger[0].angles.cost_others` | Things come in far more easily than they go out. You keep a thing rather than take its space back, and the house fills from the walls in. The people you live with get less space in their own home. |
+| `friction.ledger[0].angles.cost_others` | Things come in far more easily than they go out. You keep a thing rather than take its space back, and your space fills from the walls in. Whoever shares it with you gets less of it to call their own. |
 | `friction.ledger[1].word` | Hard to move |
 | `friction.ledger[1].angles.drive` | Staying put feels like safety, whatever the place becomes. Moving asks more of you than staying, so you keep the known rather than go toward the better. You are free to move and take your safety with you. |
 | `friction.ledger[1].angles.cost_self` | Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it. You lose the chance to go in the time you spend deciding. |
