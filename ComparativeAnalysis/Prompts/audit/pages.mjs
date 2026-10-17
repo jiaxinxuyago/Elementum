@@ -24,18 +24,25 @@ const GODS_OF = { self: ['比肩', '劫财'], output: ['食神', '伤官'], weal
 const PERSONA = { 比肩: 'The Twin', 劫财: 'The Rival', 食神: 'The Artisan', 伤官: 'The Virtuoso', 偏财: 'The Horizon', 正财: 'The Steward', 七杀: 'The General', 正官: 'The Magistrate', 偏印: 'The Alchemist', 正印: 'The Sage' };
 const FN = { self: 'Body', resource: 'Mind', output: 'Expression', wealth: 'Action', officer: 'Order' };
 const ANG = ['drive', 'cost_self', 'cost_others'];
+const head = (t) => (t.match(/[^.!?]+[.!?]+/g) || []).slice(0, 2).map((x) => x.trim()).join(' ');
 
 // THE FUNCTION PAGE: every pair cell × both poles × (each god as the single face, and the 2+2 blend),
 // the order the app renders (journeyData.buildElementScreen): definition, character, keywords, remedy or advice + edge.
 async function functionSurface() {
+  const { pickBlendRows } = await import(ROOT + 'Elementum_App/src/components/journey/journeyData.js');
   const { K2_CELLS } = await import(A + 'k2.js'); const { PAIR_CELLS } = await import(A + 'pairs.js'); const { FUNCTION_METRICS } = await import(A + 'metrics.js');
   const pages = []; let n = 0;
   for (const el of EL) for (const core of EL) {
     const r = relation(core, el); const [g1, g2] = GODS_OF[r]; const fnName = FN[r]; const p = PAIR_CELLS[`${core}_${el}`].function;
     for (const pole of ['friction', 'catalyst']) for (const [lead, minor] of [[g1, null], [g2, null], [g1, g2]]) {
-      const L = K2_CELLS[`${el}_${lead}`];
-      const rows = minor ? [...L.fnReading[pole].ledger.slice(0, 2).map((x, i) => [x, lead, i]), ...K2_CELLS[`${el}_${minor}`].fnReading[pole].ledger.slice(0, 2).map((x, i) => [x, minor, i])] : L.fnReading[pole].ledger.map((x, i) => [x, lead, i]);
-      const sections = [{ head: 'THE FUNCTION', sub: `${EN[el]} is your ${fnName}.`, key: `PAIR ${core}_${el} · function.definition_${pole}`, text: p[`definition_${pole}`] },
+      const L = K2_CELLS[`${el}_${lead}`]; const M = minor ? K2_CELLS[`${el}_${minor}`] : null;
+      // the keywords as the app picks them (M4: a 2+2 page never sets a keyword beside its opposite)
+      const picked = minor ? pickBlendRows(L.fnReading[pole].ledger, M.fnReading[pole].ledger, 2, lead, minor) : L.fnReading[pole].ledger.map((x) => ({ ...x, god: lead }));
+      const rows = picked.map((x) => [x, x.god, (x.god === lead ? L : M).fnReading[pole].ledger.findIndex((y) => y.word === x.word)]);
+      // the definition as the app builds it (M2): the pair's head + the persona's own tail; the 2+2 page reads the shared text
+      const tail = minor ? null : L.fnReading[pole].define;
+      const def = tail ? { key: `PAIR ${core}_${el} · function.definition_${pole} (sentences 1-2) + K2 ${el}_${lead} · fn_reading.${pole}.define`, text: `${head(p[`definition_${pole}`])} ${tail}` } : { key: `PAIR ${core}_${el} · function.definition_${pole}`, text: p[`definition_${pole}`] };
+      const sections = [{ head: 'THE FUNCTION', sub: `${EN[el]} is your ${fnName}.`, ...def },
         { head: 'THE CHARACTER', sub: pole === 'friction' ? 'Friction · Release it.' : 'Catalyst · Grow it.', key: '', text: `Bars: ${(FUNCTION_METRICS[fnName]?.bars || []).map((b) => b.label).join(' · ')}`, nonProse: true }];
       rows.forEach(([x, g, ri], i) => sections.push({ head: `KEYWORD · ${x.word}`, sub: `(${PERSONA[g]}, ${ANG[i % 3]})`, key: `K2 ${el}_${g} · fn_reading.${pole}.ledger[${ri}].angles.${ANG[i % 3]}`, text: x.angles[ANG[i % 3]] }));
       if (pole === 'friction') sections.push({ head: 'THE REMEDY', sub: '', key: `PAIR ${core}_${el} · function.advise_friction`, text: p.advise_friction });
@@ -44,10 +51,20 @@ async function functionSurface() {
         sections, exempt: [...rows.map(([x]) => x.word), EN[el], fnName, ...Object.values(EN)] });
     }
   }
+  // the Balanced chart (bug check S5, owner M2): verdict "Keep the mix.", the pair's balanced text, the catalyst keywords
+  for (const el of EL) for (const core of EL) {
+    const r = relation(core, el); const [g1] = GODS_OF[r]; const fnName = FN[r]; const p = PAIR_CELLS[`${core}_${el}`].function; const L = K2_CELLS[`${el}_${g1}`];
+    if (!p.definition_balanced) continue;
+    const sections = [{ head: 'THE FUNCTION', sub: `${EN[el]} is your ${fnName}.`, key: `PAIR ${core}_${el} · function.definition_balanced`, text: p.definition_balanced },
+      { head: 'THE CHARACTER', sub: 'Balanced · Keep the mix.', key: '', text: `Bars: ${(FUNCTION_METRICS[fnName]?.bars || []).map((b) => b.label).join(' · ')}`, nonProse: true }];
+    L.fnReading.catalyst.ledger.forEach((x, i) => sections.push({ head: `KEYWORD · ${x.word}`, sub: `(${PERSONA[g1]}, ${ANG[i % 3]})`, key: `K2 ${el}_${g1} · fn_reading.catalyst.ledger[${i}].angles.${ANG[i % 3]}`, text: x.angles[ANG[i % 3]] }));
+    sections.push({ head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_catalyst`, text: p.advise_catalyst }); if (L.edge) sections.push({ head: 'THE EDGE', sub: L.edge.domains.join(' · '), key: `K2 ${el}_${g1} · edge.lead`, text: L.edge.lead });
+    n++; pages.push({ id: `P${String(n).padStart(3, '0')}`, group: EN[el].toLowerCase(), title: `${EN[core]} core · ${EN[el]} page · balanced chart · ${PERSONA[g1]}`, sections, exempt: [...L.fnReading.catalyst.ledger.map((x) => x.word), EN[el], fnName, ...Object.values(EN)] });
+  }
   return pages;
 }
 
-export const SURFACES = { function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions)', build: functionSurface } };
+export const SURFACES = { function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
 
 export function toMarkdown(pages, group) {
   const parts = [`# ${group} · pages as read`, ''];
