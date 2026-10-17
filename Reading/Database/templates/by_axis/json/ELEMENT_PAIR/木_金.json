@@ -23,10 +23,11 @@
     "function": {
       "primary": "order",
       "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs. As a catalyst, the line runs faint. Most of your order is the order you bring, and little of it comes handed down.",
-      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and rest never comes.",
+      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and enough never comes.",
       "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs. In balance, the line holds firm without closing in. You keep the standards you chose and still leave space to grow.",
-      "advise_catalyst": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Set a weekly time with a friend to train or practise together.",
-      "advise_friction": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages."
+      "advise_catalyst": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Follow one training plan set by someone else for a whole month.",
+      "advise_friction": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages.",
+      "advise_balanced": "Your line holds firm and still bends where your growth needs it to. Clear out one drawer and keep only what you use. Choose one rule you keep and test this month whether it still serves you."
     },
     "cta_verdict": "You grow best with a line to grow against, and you finish more under someone else's rule than under your own plan.",
     "carry": {
@@ -313,6 +314,30 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Spend one evening a week learning something nobody grades. Sleep on the next hard reply before you send it."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Set a weekly time with a friend to train or practise together."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and rest never comes."
     }
   ]
 }

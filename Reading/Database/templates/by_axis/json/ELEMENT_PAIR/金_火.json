@@ -26,9 +26,10 @@
       "primary": "order",
       "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. As a catalyst, those demands come rarely, and you miss having something to answer to. You stay half-used until a real test arrives.",
       "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up faster than you rest, and every demand feels like yours to meet. You end up tired and doubting yourself.",
-      "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to fair rules and hold your rank without strain.",
-      "advise_catalyst": "You do your best work when someone is allowed to tell you no. Ask someone you respect to grade one piece of your work, and hear the score. Say your doubt out loud the next time a plan is agreed too fast.",
-      "advise_friction": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, soil that does not catch. Let it ground what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached."
+      "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to rules you find fair, and your rank keeps pace with your work.",
+      "advise_catalyst": "You do your best work when someone else sets the bar. Join one team this month where another person calls the plays. Volunteer for the most visible job at the next gathering.",
+      "advise_friction": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, soil that does not catch. Let it ground what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached.",
+      "advise_balanced": "The demands that reach you come at a pace you can meet, and you stay sharp while one fair standard stays in view. Join one team this month where another person calls the plays. Volunteer for the most visible job at the next gathering."
     },
     "cta_verdict": "You work harder for a standard someone else set than for one of your own, and you usually go looking for one.",
     "carry": {
@@ -545,6 +546,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 fire:F2-40",
       "replaced": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, ground that does not catch. Let it ground what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "You do your best work when someone is allowed to tell you no. Ask someone you respect to grade one piece of your work, and hear the score. Say your doubt out loud the next time a plan is agreed too fast."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to fair rules and hold your rank without strain."
     }
   ]
 }

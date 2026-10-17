@@ -11,22 +11,24 @@
 | Field | Value |
 |---|---|
 | `primary` | body |
-| `definition_catalyst` | Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You often run out before the thing is done. |
+| `definition_catalyst` | Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You save it for the few things that matter most. |
 | `definition_friction` | Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every plan and partner, because your own way is the one you trust. You press on and lose the people beside you. |
 | `definition_balanced` | Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. In balance, what goes in keeps pace with the reach. You hold your own ground and still have space for a peer beside you. |
-| `advise_catalyst` | Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and give it water each morning. Hand one errand to someone else this month and leave it with them. |
+| `advise_catalyst` | Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and tend it until it stands on its own. Hand one errand to someone else this month and leave it with them. |
 | `advise_friction` | Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Close one open project this week and say it is done. Let someone else set the end point for one plan. |
+| `advise_balanced` | Your reach holds while what you take in keeps pace with how far you push. Grow one plant from seed and tend it until it stands on its own. Begin one new habit for your body this month and let it grow slowly. |
 
 ### Wood core × Fire — the Voice · 木_火
 
 | Field | Value |
 |---|---|
 | `primary` | expression |
-| `definition_catalyst` | Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts once the evening is over. |
+| `definition_catalyst` | Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit show in the moment and then fade, and little of it lasts once the evening is over. |
 | `definition_friction` | Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, the gate never shuts, because what you feel wants out at once. You spend yourself on each moment and keep little for the work ahead. |
-| `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, the gate lets your work out when it is ready. Your warmth and wit reach people at the moment they count. |
-| `advise_catalyst` | Your light runs short, and what you make on your own rarely gets seen. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends. |
+| `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, what you make and what you show keep the same pace. Your warmth and wit reach people at the moment they count. |
+| `advise_catalyst` | Your light runs short, and little of what you make lasts past the moment. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends. |
 | `advise_friction` | Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Listen to one album from start to finish. Wait three days before you share your next idea. |
+| `advise_balanced` | Your light reaches people when it counts, and it stays bright while you keep letting work out. Play an unfinished song to one friend. Bring one thing you made to the next gathering of friends. |
 
 ### Wood core × Earth — the Drive · 木_土
 
@@ -35,9 +37,10 @@
 | `primary` | action |
 | `definition_catalyst` | Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough. |
 | `definition_friction` | Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish. |
-| `definition_balanced` | Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays. |
-| `advise_catalyst` | The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month. |
-| `advise_friction` | Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week with one thing that is only for you. Say no to one request before you say yes again. |
+| `definition_balanced` | Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. Neither the chase nor the keeping outgrows the other. |
+| `advise_catalyst` | The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Ask one friend to check on your progress in a month. |
+| `advise_friction` | Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Begin one small project this month that is yours alone. Say no to one request before you say yes again. |
+| `advise_balanced` | What you reach for and what you keep stay level while both get your hours. Mend one worn thing you own before you buy anything new. Pick one plan for the season and keep at it until the season turns. |
 
 ### Wood core × Metal — the Duty · 木_金
 
@@ -45,10 +48,11 @@
 |---|---|
 | `primary` | order |
 | `definition_catalyst` | Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs. As a catalyst, the line runs faint. Most of your order is the order you bring, and little of it comes handed down. |
-| `definition_friction` | Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and rest never comes. |
+| `definition_friction` | Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and enough never comes. |
 | `definition_balanced` | Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs. In balance, the line holds firm without closing in. You keep the standards you chose and still leave space to grow. |
-| `advise_catalyst` | Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Set a weekly time with a friend to train or practise together. |
+| `advise_catalyst` | Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Follow one training plan set by someone else for a whole month. |
 | `advise_friction` | Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages. |
+| `advise_balanced` | Your line holds firm and still bends where your growth needs it to. Clear out one drawer and keep only what you use. Choose one rule you keep and test this month whether it still serves you. |
 
 ### Wood core × Water — the Root · 木_水
 
@@ -60,6 +64,7 @@
 | `definition_balanced` | Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives. |
 | `advise_catalyst` | Your Mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it. |
 | `advise_friction` | Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands. |
+| `advise_balanced` | Your Mind takes in as much as it uses, and the mix holds while both keep moving. Ask one person who knows more than you and wait for the whole reply. Leave one hard question open for a week before you answer it. |
 
 ### Fire core × Wood — the Root · 火_木
 
@@ -69,8 +74,9 @@
 | `definition_catalyst` | Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again. |
 | `definition_friction` | Your Mind is where the world soaks in and becomes yours. Growing is what Wood makes of it. As a friction, more soaks in than you ever let go, whether an idea or a person. Whatever enters stays close and stops growing. |
 | `definition_balanced` | Your Mind is where the world soaks in and becomes yours. Wood makes it grow. In balance, you take in about as much as you give out. What you learn settles in and still finds a use. |
-| `advise_catalyst` | You run on your existing stores, and that feels like energy until it runs out. Take a class in something nobody pays you for. Start one slow project that will take the whole year to grow. |
-| `advise_friction` | Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go feels like loss. Close one open question this week. Choose one idea to finish and drop the rest. |
+| `advise_catalyst` | You run on your existing stores, and that feels like energy until it runs out. Take a class in something nobody pays you for. Follow one subject you love through the whole year and watch it grow. |
+| `advise_friction` | Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go feels like loss. Close one open question this week. Send one idea out before it feels ready. |
+| `advise_balanced` | Your mind stays fresh while something new is always taking root. Take a class in something nobody pays you for. Follow one subject you love through the whole year and watch it grow. |
 
 ### Fire core × Fire — the Core · 火_火
 
@@ -79,20 +85,22 @@
 | `primary` | body |
 | `definition_catalyst` | Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you keep moving instead of stopping to refill. You pay for each bright day with a tired one. |
 | `definition_friction` | Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, your strength wants to carry everything itself, since needing anyone feels like falling short. You win most days and pay in company. |
-| `definition_balanced` | Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. In balance, the warmth holds steady and you spend no faster than you refill. A peer is company and a contest is a game. |
+| `definition_balanced` | Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. In balance, the warmth holds steady and you spend no faster than you refill. Peers and contests feed you as fast as they tire you. |
 | `advise_catalyst` | Your strength runs on what you put back, and putting back is the part you skip. Ask one person for help on a job you usually do alone. Get two friends together once a month just for fun. Stand in the sun for ten minutes each morning. |
-| `advise_friction` | Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You mistake being unstoppable for being well. Rest one full day a week with no work at all. Let someone finish speaking before you answer. |
+| `advise_friction` | Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You take being unstoppable for being well. Hand the lead on one shared job to someone else this month. Hear someone out in full before you answer. |
+| `advise_balanced` | Your strength holds while what you put back keeps pace with what you spend. Ask one person for help on a job you usually do alone. Get two friends together once a month just for fun. Stand in the sun for ten minutes each morning. |
 
 ### Fire core × Earth — the Voice · 火_土
 
 | Field | Value |
 |---|---|
 | `primary` | expression |
-| `definition_catalyst` | Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks and only a little of what you have gets out. Much of your kindness and talent stays unseen. |
+| `definition_catalyst` | Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks and only a little of what you have gets out. Much of your talent stays unseen. |
 | `definition_friction` | Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, and more goes out of you than comes in. You run empty on what you have already spent. |
-| `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. In balance, the gate opens at its own steady pace. What comes out is kind and true, and it arrives when it is wanted. |
+| `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. In balance, the gate opens at its own steady pace. What goes out of you is matched by what comes back in. |
 | `advise_catalyst` | What you keep inside does not count as finished. Finish one piece of work a week that someone else can hold. Tend one plant or patch of soil through the whole month. Keep a box for the things you have made and open it at the end of the year. |
-| `advise_friction` | Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it take in what Earth keeps handing out. Whatever you feel or think leaves you before it has had time to grow. Join one course this month. Give each new idea a week to grow. |
+| `advise_friction` | Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it take in what Earth keeps handing out. Whatever you feel or think leaves you before it has had time to grow. Plant one seed in a pot. Hold each new idea for a week. |
+| `advise_balanced` | Your gate stays steady while what you finish keeps pace with what you feel. Tend one plant or patch of soil through the whole month. Keep a box for the things you have made and open it at the end of the year. |
 
 ### Fire core × Metal — the Drive · 火_金
 
@@ -101,9 +109,10 @@
 | `primary` | action |
 | `definition_catalyst` | Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, the edge runs thin. You work in short strokes and your gains come in pieces. |
 | `definition_friction` | Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, your Action takes more strength than you have, and little is left to enjoy what is already yours. |
-| `definition_balanced` | Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, you claim what you can carry and see it through. What comes in is enjoyed and kept. |
+| `definition_balanced` | Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. What comes in is enjoyed, and some of it stays. |
 | `advise_catalyst` | Your drive is short, and each piece of it needs a clear place to go. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never. Clear out one drawer and give away what you have not used in a year. |
-| `advise_friction` | Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on your claims, not yourself, and tired is where you make your worst deals. Eat warm food daily. Talk deals through with a friend. |
+| `advise_friction` | Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on your claims, not yourself, and tired is where you make your worst deals. Never bargain cold or hungry. Talk deals through with a friend. |
+| `advise_balanced` | Your drive goes where it counts while your aims stay few and clear. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never. |
 
 ### Fire core × Water — the Duty · 火_水
 
@@ -114,7 +123,8 @@
 | `definition_friction` | Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the rules outweigh what you want. You give up ease to keep them. |
 | `definition_balanced` | Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. In balance, the rules you keep are your own choice. Rank comes as the work earns it. |
 | `advise_catalyst` | You do your best work with a date on it and someone waiting at the other end. Ask for honest feedback on one thing you made and just listen. Learn how one new task is done before you start on it. Leave an hour empty between two big jobs. |
-| `advise_friction` | Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Start one project of your own this month. Learn one skill no rule asks for. |
+| `advise_friction` | Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Begin one thing this month that is only yours. Keep it off every list. |
+| `advise_balanced` | Your rules stay light while you take in as much as you take on. Ask for honest feedback on one thing you made and just listen. Leave an hour empty between two big jobs. |
 
 ### Earth core × Wood — the Duty · 土_木
 
@@ -123,9 +133,10 @@
 | `primary` | order |
 | `definition_catalyst` | Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. As a catalyst, too little is asked of you from outside. The demands you live by are the ones you set yourself. |
 | `definition_friction` | Your Order is the rules you answer to and the rank you hold by them. Wood builds it upward, stage by stage. As a friction, the demands stack up past what you can carry. You stay at attention long after the day is done, with little left for ease. |
-| `definition_balanced` | Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. In balance, the rules you answer to fit the life you are building. Your standards rise with you and still leave you free to rest. |
+| `definition_balanced` | Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. In balance, the rules you answer to fit the life you are building. Your standards rise with you at a steady pace. |
 | `advise_catalyst` | You feel most like yourself when your effort has a name and an end. Sign up for one class that ends in a test. Pick one goal for this season and mark the finish on a calendar. |
 | `advise_friction` | Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You meet every demand as if your standing hangs on it. Ask whoever made one rule why it matters to them. Tell one friend each week what is weighing on you. |
+| `advise_balanced` | Your standards and your ease stay level while each rule you keep grows at your own pace. Pick one goal for this season and mark the finish on a calendar. Begin one new habit this spring and let it grow all year. |
 
 ### Earth core × Fire — the Root · 土_火
 
@@ -134,9 +145,10 @@
 | `primary` | mind |
 | `definition_catalyst` | Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, little warmth or teaching reaches you. You learn to manage without it, and what you understand you reached on your own. |
 | `definition_friction` | Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you absorb more than you can use, and the warmth keeps you from testing any of it. Much of what you hold never meets the world. |
-| `definition_balanced` | Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. In balance, what you take in warms you without weighing you down. You learn from others and still make each idea your own. |
+| `definition_balanced` | Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. In balance, what you take in warms you without weighing you down. Each idea you keep becomes your own. |
 | `advise_catalyst` | Your Mind grows on warmth, and warmth is something you have to go and sit near. Once a month, go to a talk or a workshop just to take it in. Choose one person to ask the simple questions, and ask them. |
 | `advise_friction` | Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and it sits in you unspent. Fix one small thing with what you already know. Pass on one thing you learned to someone who needs it. |
+| `advise_balanced` | Your Mind stays warm while what you take in and what you make of it keep pace. Choose one person to ask the simple questions, and ask them. Show one friend something that lit you up this month and hear their view. |
 
 ### Earth core × Earth — the Core · 土_土
 
@@ -145,9 +157,10 @@
 | `primary` | body |
 | `definition_catalyst` | Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and you care where it goes. You stand firmest with a clear stake of your own. |
 | `definition_friction` | Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. You give up closeness to keep your place. |
-| `definition_balanced` | Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, you stand on your own strength and still lean on a peer when it helps. You keep your ground without having to prove it. |
+| `definition_balanced` | Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, your strength carries what is yours at an even pace. Your effort and your recovery keep step with each other. |
 | `advise_catalyst` | Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn. |
-| `advise_friction` | Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Take up one new skill with a coach this year. |
+| `advise_friction` | Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Keep to one rule for a month that someone else set. |
+| `advise_balanced` | Your ground stays firm while the load you carry matches the strength you keep for it. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn. |
 
 ### Earth core × Metal — the Voice · 土_金
 
@@ -158,7 +171,8 @@
 | `definition_friction` | Your Expression is the gate where inner work becomes outer fact. Metal gives it a hard finish, nothing left half done. As a friction, more goes out through the gate than comes back in, and it drains what holds you up. You wear yourself thin on getting it right. |
 | `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. What you make and say leaves you whole. |
 | `advise_catalyst` | Your standard is high enough that little ever leaves your hands. Give one thing you made to someone this month, as it is. Cut one draft in half and send the shorter one. Sign one piece of work. |
-| `advise_friction` | Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. See one show as a guest, not a critic. Accept the next compliment with a plain thank you. |
+| `advise_friction` | Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. Enjoy one evening of music without judging a single note. Accept the next compliment with a plain thank you. |
+| `advise_balanced` | Your Expression stays even while what you finish and what you keep back are both chosen with care. Cut one draft in half and send the shorter one. Sign one piece of work. |
 
 ### Earth core × Water — the Drive · 土_水
 
@@ -167,9 +181,10 @@
 | `primary` | action |
 | `definition_catalyst` | Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. As a catalyst, the current runs thin. You choose where it goes, and each gain you make is one you worked for. |
 | `definition_friction` | Your Action is what you go and build, claim and provide. Water makes it pour and spread as it goes. As a friction, more pours through than you can settle. No gain ever feels like firm ground, and what comes your way is rarely enjoyed. |
-| `definition_balanced` | Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out after an opening and come back with something kept. |
+| `definition_balanced` | Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. What flows out and what comes back stay level. |
 | `advise_catalyst` | Your Action grows when it has somewhere to go and something to bring back. Put one plan into motion this season, a trip booked or a small venture opened with money you can spare. Follow one lead you heard about and see what it turns up. |
 | `advise_friction` | Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Finish one thing you started before you open anything new. Keep one evening a week at home with nothing planned. |
+| `advise_balanced` | Your Action stays steady while what you go out for and what you bring home keep the same pace. Follow one lead you heard about and see what it turns up. Let one quiet morning a month pass with no plans at all. |
 
 ### Metal core × Wood — the Drive · 金_木
 
@@ -178,9 +193,10 @@
 | `primary` | action |
 | `definition_catalyst` | Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, the growth runs thin, and your hands have less to work on than they want. You build less than your strength could carry. |
 | `definition_friction` | Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, and the work always asks for more than you have. You spend yourself faster than you refill. |
-| `definition_balanced` | Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, what you take on matches the strength you have to carry it. Each venture gets finished and pays its way. |
-| `advise_catalyst` | You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Plant one thing this week, a seed or a skill, and watch it grow. |
-| `advise_friction` | Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it trim what Wood spreads. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and turn down the others. |
+| `definition_balanced` | Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, what you take on matches the strength you have to carry it. Your hunger and your stamina keep the same pace. |
+| `advise_catalyst` | You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Plant one thing this week, a seed or a habit, and watch it grow. |
+| `advise_friction` | Seek Metal, your own Body energy. Metal is your own core under the effort, what stays when the wanting stops. Let it trim what Wood spreads. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and let the others wait. |
+| `advise_balanced` | Your work keeps growing while each new start stays in step with your strength. Begin one new venture this month at a size you can tend. Plant one thing this week, a seed or a habit, and watch it grow. |
 
 ### Metal core × Fire — the Duty · 金_火
 
@@ -189,9 +205,10 @@
 | `primary` | order |
 | `definition_catalyst` | Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. As a catalyst, those demands come rarely, and you miss having something to answer to. You stay half-used until a real test arrives. |
 | `definition_friction` | Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up faster than you rest, and every demand feels like yours to meet. You end up tired and doubting yourself. |
-| `definition_balanced` | Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to fair rules and hold your rank without strain. |
-| `advise_catalyst` | You do your best work when someone is allowed to tell you no. Ask someone you respect to grade one piece of your work, and hear the score. Say your doubt out loud the next time a plan is agreed too fast. |
+| `definition_balanced` | Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to rules you find fair, and your rank keeps pace with your work. |
+| `advise_catalyst` | You do your best work when someone else sets the bar. Join one team this month where another person calls the plays. Volunteer for the most visible job at the next gathering. |
 | `advise_friction` | Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, soil that does not catch. Let it ground what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached. |
+| `advise_balanced` | The demands that reach you come at a pace you can meet, and you stay sharp while one fair standard stays in view. Join one team this month where another person calls the plays. Volunteer for the most visible job at the next gathering. |
 
 ### Metal core × Earth — the Root · 金_土
 
@@ -201,8 +218,9 @@
 | `definition_catalyst` | Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, the ground runs short, and new things pass through before they settle. You take longer than most to trust what you learn. |
 | `definition_friction` | Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, and you take in far more than you ever act on. You stay put well past the time to move. |
 | `definition_balanced` | Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. In balance, what you take in settles at a steady pace. You trust what you learn and still let new things in. |
-| `advise_catalyst` | Your judgment is only as good as the time you let it take. Bring one half-done job from last year to its end this month. Hold a big choice for seven days and see if it still stands. |
+| `advise_catalyst` | What you take in needs time to settle before it holds your weight. Bring one half-done job from last year to its end this month. Write down one thing each week that you now know for sure, and keep the list. |
 | `advise_friction` | Seek Wood, the Action energy. Wood draws on the ground it grows from and turns what it takes into something built. Let it spend what Earth stores. You stay with what you already know rather than put it to use. Send the rough draft before the clean one exists. Try a new method on a familiar problem. |
+| `advise_balanced` | What you take in settles at a steady pace, and your judgement holds while each new thing gets time to sink in. Bring one half-done job from last year to its end this month. Write down one thing each week that you now know for sure, and keep the list. |
 
 ### Metal core × Metal — the Core · 金_金
 
@@ -211,9 +229,10 @@
 | `primary` | body |
 | `definition_catalyst` | Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, your strength gives out sooner than you let on. You spend it as if it were full and seldom stop to refill. |
 | `definition_friction` | Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your strength has nowhere to go and gets spent holding your ground against the people beside you. You lose a peer for each argument you win. |
-| `definition_balanced` | Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. In balance, your strength is firm but never stiff. You stand on your own and still let a peer share the weight. |
-| `advise_catalyst` | You treat rest as something you earn after the work instead of the thing the work runs on. Cut one commitment this month that drains more than it gives. Decide your stopping time before you start, and stop there. |
-| `advise_friction` | Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no one above you, you answer only to yourself. Say your plan to a person who can refuse it. Share one unfinished piece of work with three people this month. |
+| `definition_balanced` | Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. In balance, your strength is firm but never stiff. You stand on your own and still bend when a peer has the better case. |
+| `advise_catalyst` | You treat rest as something you earn after the work instead of the thing the work runs on. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there. |
+| `advise_friction` | Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure to meet, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way. |
+| `advise_balanced` | Your strength holds firm while you spend it no faster than you refill it. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there. |
 
 ### Metal core × Water — the Voice · 金_水
 
@@ -222,9 +241,10 @@
 | `primary` | expression |
 | `definition_catalyst` | Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, the flow runs short. Your kindness and wit come out fast and then run dry. |
 | `definition_friction` | Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and more goes out of you than comes back. You run empty long before you run quiet. |
-| `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, the gate opens and closes when you choose. Your kindness and wit come out at the moment they are needed. |
-| `advise_catalyst` | What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and listen to the end. |
+| `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, what goes out of you keeps pace with what comes back in. Your kindness and wit flow freely and still refill. |
+| `advise_catalyst` | What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer. |
 | `advise_friction` | Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Keep one piece of news to yourself for a week. Stick with one plan for a whole month. |
+| `advise_balanced` | What you feel comes out freely, and the flow holds while you take in as much as you give. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer. |
 
 ### Water core × Wood — the Voice · 水_木
 
@@ -234,8 +254,9 @@
 | `definition_catalyst` | Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, the growth runs short. Your warmth and your boldest ideas reach people early, and little comes after to carry them further. |
 | `definition_friction` | Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You spend yourself on how the moment feels, and little is left over for later. |
 | `definition_balanced` | Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. In balance, the gate opens at your pace. Your warmth and your ideas take root and grow, and enough stays inside to feed what comes next. |
-| `advise_catalyst` | Your output comes in bursts, and the slow work in between stays hidden. Take one idea you dropped last year one step further. Tell one person about a plan you have kept quiet. Add ten minutes to the same project every day for a month. |
-| `advise_friction` | Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it prune what Wood spreads. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good. |
+| `advise_catalyst` | Much of what you make never leaves your hands, and the slow work behind it stays hidden. Take one idea you dropped last year one step further. Tell one person about a plan you have kept quiet. Let one small project grow for a month before you judge it. |
+| `advise_friction` | Seek Metal, the Mind energy. Metal is the blade that trims a growing thing, and the strength returns to its root. Let it prune what Wood spreads. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good. |
+| `advise_balanced` | Your work reaches people at a steady pace, and it keeps that pace while each new piece grows out of the one before. Take one idea you dropped last year one step further. Let one small project grow for a month before you judge it. |
 
 ### Water core × Fire — the Drive · 水_火
 
@@ -244,9 +265,10 @@
 | `primary` | action |
 | `definition_catalyst` | Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want a far chance as much as steady pay. You lose most on what you leave unclaimed. |
 | `definition_friction` | Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light burns through its fuel. Gain and loss fill your thoughts, and little of you is left to rest. |
-| `definition_balanced` | Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. New ground and old ground both get your warmth, and it reaches the people you provide for. |
-| `advise_catalyst` | Most of your chances are lost by never being claimed, not by failing. Tell three people about the venture you have in mind. Ask once for the price you think your work is worth. Put the idea in front of a real buyer this month. |
-| `advise_friction` | Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Take one slow weekend. Let the numbers wait. |
+| `definition_balanced` | Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Your reach for the new and your hold on the old keep the same pace. |
+| `advise_catalyst` | What you build earns less than it should, since you seldom ask to be paid for it. Name your price once and hold to it. Put the idea in front of a real buyer this month. |
+| `advise_friction` | Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before you sign. Let the numbers wait. |
+| `advise_balanced` | Your fire burns steady while new ventures and old ones both get some of your warmth. Put the idea in front of a real buyer this month. Warm up one old venture you have let go cold. |
 
 ### Water core × Earth — the Duty · 水_土
 
@@ -256,8 +278,9 @@
 | `definition_catalyst` | Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the frame runs thin. Little structure comes from outside, and you supply the rest from your own will. |
 | `definition_friction` | Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the frame closes in. You need to stand right with the rules, and that leaves you little space of your own. |
 | `definition_balanced` | Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. In balance, the frame holds without closing in. You keep the rules you chose and stand easy inside them. |
-| `advise_catalyst` | You carry every line you live by alone, since few deadlines come to you from outside. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Hold one fixed hour each week for it and do not move it. |
-| `advise_friction` | Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Cut one task this week that nobody asked you for. Ask what is needed, then do that much and stop. |
+| `advise_catalyst` | You carry every line you live by alone, since few deadlines come to you from outside. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Stay with it through the dull weeks in the middle. |
+| `advise_friction` | Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Check each new demand against what was actually said. Ask what is needed, then do that much and stop. |
+| `advise_balanced` | Your frame holds while the rules you keep are the ones you chose. Keep one promise this week that nobody will check. Stay with one thing you signed up for through its dull middle weeks. |
 
 ### Water core × Metal — the Root · 水_金
 
@@ -266,9 +289,10 @@
 | `primary` | mind |
 | `definition_catalyst` | Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, little flows in from outside. What does reach you is held close and goes deep. |
 | `definition_friction` | Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. Nothing feels safe to you until it is right, and making sure eats the hours you meant for living. |
-| `definition_balanced` | Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. In balance, the test is quick and fair. What passes it settles in, and you trust it enough to use it. |
-| `advise_catalyst` | You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Pick one hard question and collect three answers before you decide. Sort what you hear into what you will use and what you will drop. Clear one hour a week for a subject outside your field. |
-| `advise_friction` | Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Share one rough idea with a group this week. |
+| `definition_balanced` | Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. In balance, the test is fair and it ends. What passes it settles in, and you trust it enough to use it. |
+| `advise_catalyst` | You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Pick one hard question and collect three answers before you decide. Sort what you hear into what you will use now and what can wait. Clear one hour a week for a subject outside your field. |
+| `advise_friction` | Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Act on one idea within a day of having it. |
+| `advise_balanced` | What you take in and what you test keep pace, and the mix holds while what passes gets put to use. Sort what you hear into what you will use now and what can wait. Put one idea you have tested to work this week. |
 
 ### Water core × Water — the Core · 水_水
 
@@ -280,6 +304,7 @@
 | `definition_balanced` | Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. In balance, the tide goes out and comes back in. You spend and refill in turn, and your strength holds. |
 | `advise_catalyst` | Every push you make draws on a reserve that was small to begin with. Rest a full day after any big push. Ask a friend for the whole answer rather than guessing it. Hand half of one shared task to a peer. |
 | `advise_friction` | Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Before Sunday, finish one job you have put off. Keep the same day each week for one steady task. |
+| `advise_balanced` | Your stamina holds while every long push is met by an equally long refill. Rest a full day after any big push. Ask a friend for the whole answer rather than guessing it. |
 
 ## FUNCTION_METRICS (×5)
 

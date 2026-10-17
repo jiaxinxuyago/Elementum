@@ -46,7 +46,8 @@ async function functionSurface() {
         { head: 'THE CHARACTER', sub: pole === 'friction' ? 'Friction · Release it.' : 'Catalyst · Grow it.', key: '', text: `Bars: ${(FUNCTION_METRICS[fnName]?.bars || []).map((b) => b.label).join(' · ')}`, nonProse: true }];
       rows.forEach(([x, g, ri], i) => sections.push({ head: `KEYWORD · ${x.word}`, sub: `(${PERSONA[g]}, ${ANG[i % 3]})`, key: `K2 ${el}_${g} · fn_reading.${pole}.ledger[${ri}].angles.${ANG[i % 3]}`, text: x.angles[ANG[i % 3]] }));
       if (pole === 'friction') sections.push({ head: 'THE REMEDY', sub: '', key: `PAIR ${core}_${el} · function.advise_friction`, text: p.advise_friction });
-      else { sections.push({ head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_catalyst`, text: p.advise_catalyst }); if (L.edge) sections.push({ head: 'THE EDGE', sub: L.edge.domains.join(' · '), key: `K2 ${el}_${lead} · edge.lead`, text: L.edge.lead }); }
+      // as the app renders it (THE EDGE ruling, owner 2026-10-15): a catalyst page ends on THE EDGE where the cell has one, else THE ADVICE
+      else if (L.edge) sections.push({ head: 'THE EDGE', sub: L.edge.domains.join(' · '), key: `K2 ${el}_${lead} · edge.lead`, text: L.edge.lead }); else sections.push({ head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_catalyst`, text: p.advise_catalyst });
       n++; pages.push({ id: `P${String(n).padStart(3, '0')}`, group: EN[el].toLowerCase(), title: `${EN[core]} core · ${EN[el]} page · ${pole} · ${minor ? `blend ${PERSONA[lead]}+${PERSONA[minor]} (2+2)` : PERSONA[lead]}`,
         sections, exempt: [...rows.map(([x]) => x.word), EN[el], fnName, ...Object.values(EN)] });
     }
@@ -58,7 +59,7 @@ async function functionSurface() {
     const sections = [{ head: 'THE FUNCTION', sub: `${EN[el]} is your ${fnName}.`, key: `PAIR ${core}_${el} · function.definition_balanced`, text: p.definition_balanced },
       { head: 'THE CHARACTER', sub: 'Balanced · Keep the mix.', key: '', text: `Bars: ${(FUNCTION_METRICS[fnName]?.bars || []).map((b) => b.label).join(' · ')}`, nonProse: true }];
     L.fnReading.catalyst.ledger.forEach((x, i) => sections.push({ head: `KEYWORD · ${x.word}`, sub: `(${PERSONA[g1]}, ${ANG[i % 3]})`, key: `K2 ${el}_${g1} · fn_reading.catalyst.ledger[${i}].angles.${ANG[i % 3]}`, text: x.angles[ANG[i % 3]] }));
-    sections.push(p.advise_balanced ? { head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_balanced`, text: p.advise_balanced } : { head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_catalyst`, text: p.advise_catalyst }); if (L.edge) sections.push({ head: 'THE EDGE', sub: L.edge.domains.join(' · '), key: `K2 ${el}_${g1} · edge.lead`, text: L.edge.lead });
+    if (L.edge) sections.push({ head: 'THE EDGE', sub: L.edge.domains.join(' · '), key: `K2 ${el}_${g1} · edge.lead`, text: L.edge.lead }); else sections.push({ head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_balanced`, text: p.advise_balanced || p.advise_catalyst });
     n++; pages.push({ id: `P${String(n).padStart(3, '0')}`, group: EN[el].toLowerCase(), title: `${EN[core]} core · ${EN[el]} page · balanced chart · ${PERSONA[g1]}`, sections, exempt: [...L.fnReading.catalyst.ledger.map((x) => x.word), EN[el], fnName, ...Object.values(EN)] });
   }
   return pages;

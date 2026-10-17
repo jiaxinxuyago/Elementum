@@ -22,9 +22,10 @@
       "primary": "action",
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. As a catalyst, the current runs thin. You choose where it goes, and each gain you make is one you worked for.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Water makes it pour and spread as it goes. As a friction, more pours through than you can settle. No gain ever feels like firm ground, and what comes your way is rarely enjoyed.",
-      "definition_balanced": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out after an opening and come back with something kept.",
+      "definition_balanced": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. What flows out and what comes back stay level.",
       "advise_catalyst": "Your Action grows when it has somewhere to go and something to bring back. Put one plan into motion this season, a trip booked or a small venture opened with money you can spare. Follow one lead you heard about and see what it turns up.",
-      "advise_friction": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Finish one thing you started before you open anything new. Keep one evening a week at home with nothing planned."
+      "advise_friction": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Finish one thing you started before you open anything new. Keep one evening a week at home with nothing planned.",
+      "advise_balanced": "Your Action stays steady while what you go out for and what you bring home keep the same pace. Follow one lead you heard about and see what it turns up. Let one quiet morning a month pass with no plans at all."
     },
     "cta_verdict": "You get what you want by going around rather than through, and most of what you keep came to you while you were moving.",
     "carry": {
@@ -316,6 +317,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-041",
       "replaced": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out after a chance and come home with something kept."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out after an opening and come back with something kept."
     }
   ]
 }

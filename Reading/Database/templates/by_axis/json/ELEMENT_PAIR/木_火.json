@@ -22,11 +22,12 @@
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts once the evening is over.",
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit show in the moment and then fade, and little of it lasts once the evening is over.",
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, the gate never shuts, because what you feel wants out at once. You spend yourself on each moment and keep little for the work ahead.",
-      "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, the gate lets your work out when it is ready. Your warmth and wit reach people at the moment they count.",
-      "advise_catalyst": "Your light runs short, and what you make on your own rarely gets seen. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends.",
-      "advise_friction": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Listen to one album from start to finish. Wait three days before you share your next idea."
+      "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, what you make and what you show keep the same pace. Your warmth and wit reach people at the moment they count.",
+      "advise_catalyst": "Your light runs short, and little of what you make lasts past the moment. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends.",
+      "advise_friction": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Listen to one album from start to finish. Wait three days before you share your next idea.",
+      "advise_balanced": "Your light reaches people when it counts, and it stays bright while you keep letting work out. Play an unfinished song to one friend. Bring one thing you made to the next gathering of friends."
     },
     "cta_verdict": "You come alive when something you made gets seen, and most weeks you judge yourself by how much of you got out.",
     "carry": {
@@ -325,6 +326,38 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Your light runs short, and what you make on your own rarely gets seen. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, the gate lets your work out when it is ready. Your warmth and wit reach people at the moment they count."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts once the evening is over."
     }
   ]
 }

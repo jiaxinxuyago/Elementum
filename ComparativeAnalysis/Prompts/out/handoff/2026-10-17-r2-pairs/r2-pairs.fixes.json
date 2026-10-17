@@ -1,0 +1,237 @@
+[
+ {
+  "key": "PAIR 土_木 · function.definition_balanced",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. In balance, the rules you answer to fit the life you are building. Your standards rise with you at a steady pace.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 土_火 · function.definition_balanced",
+  "text": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. In balance, what you take in warms you without weighing you down. Each idea you keep becomes your own.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 土_土 · function.advise_friction",
+  "text": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Keep to one rule for a month that someone else set.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 土_土 · function.definition_balanced",
+  "text": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, your strength carries what is yours at an even pace. Your effort and your recovery keep step with each other.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 土_金 · function.advise_friction",
+  "text": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. Enjoy one evening of music without judging a single note. Accept the next compliment with a plain thank you.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 土_水 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. What flows out and what comes back stay level.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 火_木 · function.advise_catalyst",
+  "text": "You run on your existing stores, and that feels like energy until it runs out. Take a class in something nobody pays you for. Follow one subject you love through the whole year and watch it grow.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 火_木 · function.advise_friction",
+  "text": "Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go feels like loss. Close one open question this week. Send one idea out before it feels ready.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 火_火 · function.advise_friction",
+  "text": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You take being unstoppable for being well. Hand the lead on one shared job to someone else this month. Hear someone out in full before you answer.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 火_火 · function.definition_balanced",
+  "text": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. In balance, the warmth holds steady and you spend no faster than you refill. Peers and contests feed you as fast as they tire you.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 火_土 · function.advise_friction",
+  "text": "Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it take in what Earth keeps handing out. Whatever you feel or think leaves you before it has had time to grow. Plant one seed in a pot. Hold each new idea for a week.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 火_土 · function.definition_balanced",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. In balance, the gate opens at its own steady pace. What goes out of you is matched by what comes back in.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 火_土 · function.definition_catalyst",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks and only a little of what you have gets out. Much of your talent stays unseen.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 火_金 · function.advise_friction",
+  "text": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on your claims, not yourself, and tired is where you make your worst deals. Never bargain cold or hungry. Talk deals through with a friend.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 火_金 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. What comes in is enjoyed, and some of it stays.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 火_水 · function.advise_friction",
+  "text": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Begin one thing this month that is only yours. Keep it off every list.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_木 · function.advise_catalyst",
+  "text": "You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Plant one thing this week, a seed or a habit, and watch it grow.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_木 · function.advise_friction",
+  "text": "Seek Metal, your own Body energy. Metal is your own core under the effort, what stays when the wanting stops. Let it trim what Wood spreads. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and let the others wait.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_木 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, what you take on matches the strength you have to carry it. Your hunger and your stamina keep the same pace.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 金_火 · function.advise_catalyst",
+  "text": "You do your best work when someone else sets the bar. Join one team this month where another person calls the plays. Volunteer for the most visible job at the next gathering.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_火 · function.definition_balanced",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to rules you find fair, and your rank keeps pace with your work.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 金_土 · function.advise_catalyst",
+  "text": "What you take in needs time to settle before it holds your weight. Bring one half-done job from last year to its end this month. Write down one thing each week that you now know for sure, and keep the list.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_金 · function.advise_catalyst",
+  "text": "You treat rest as something you earn after the work instead of the thing the work runs on. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_金 · function.advise_friction",
+  "text": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure to meet, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_金 · function.definition_balanced",
+  "text": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. In balance, your strength is firm but never stiff. You stand on your own and still bend when a peer has the better case.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 金_水 · function.advise_catalyst",
+  "text": "What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 金_水 · function.definition_balanced",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, what goes out of you keeps pace with what comes back in. Your kindness and wit flow freely and still refill.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 水_木 · function.advise_catalyst",
+  "text": "Much of what you make never leaves your hands, and the slow work behind it stays hidden. Take one idea you dropped last year one step further. Tell one person about a plan you have kept quiet. Let one small project grow for a month before you judge it.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_木 · function.advise_friction",
+  "text": "Seek Metal, the Mind energy. Metal is the blade that trims a growing thing, and the strength returns to its root. Let it prune what Wood spreads. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_火 · function.advise_catalyst",
+  "text": "What you build earns less than it should, since you seldom ask to be paid for it. Name your price once and hold to it. Put the idea in front of a real buyer this month.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_火 · function.advise_friction",
+  "text": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before you sign. Let the numbers wait.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_火 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Your reach for the new and your hold on the old keep the same pace.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 水_土 · function.advise_catalyst",
+  "text": "You carry every line you live by alone, since few deadlines come to you from outside. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Stay with it through the dull weeks in the middle.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_土 · function.advise_friction",
+  "text": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Check each new demand against what was actually said. Ask what is needed, then do that much and stop.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_金 · function.advise_catalyst",
+  "text": "You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Pick one hard question and collect three answers before you decide. Sort what you hear into what you will use now and what can wait. Clear one hour a week for a subject outside your field.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_金 · function.advise_friction",
+  "text": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Act on one idea within a day of having it.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 水_金 · function.definition_balanced",
+  "text": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. In balance, the test is fair and it ends. What passes it settles in, and you trust it enough to use it.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 木_木 · function.advise_catalyst",
+  "text": "Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and tend it until it stands on its own. Hand one errand to someone else this month and leave it with them.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 木_木 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You save it for the few things that matter most.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 木_火 · function.advise_catalyst",
+  "text": "Your light runs short, and little of what you make lasts past the moment. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 木_火 · function.definition_balanced",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, what you make and what you show keep the same pace. Your warmth and wit reach people at the moment they count.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 木_火 · function.definition_catalyst",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit show in the moment and then fade, and little of it lasts once the evening is over.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 木_土 · function.advise_catalyst",
+  "text": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Ask one friend to check on your progress in a month.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 木_土 · function.advise_friction",
+  "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Begin one small project this month that is yours alone. Say no to one request before you say yes again.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 木_土 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. Neither the chase nor the keeping outgrows the other.",
+  "id": "R2-1"
+ },
+ {
+  "key": "PAIR 木_金 · function.advise_catalyst",
+  "text": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Follow one training plan set by someone else for a whole month.",
+  "id": "R2 pairs"
+ },
+ {
+  "key": "PAIR 木_金 · function.definition_friction",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and enough never comes.",
+  "id": "R2 pairs"
+ }
+]

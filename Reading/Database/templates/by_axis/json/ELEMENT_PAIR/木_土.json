@@ -24,9 +24,10 @@
       "primary": "action",
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish.",
-      "definition_balanced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays.",
-      "advise_catalyst": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month.",
-      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week with one thing that is only for you. Say no to one request before you say yes again."
+      "definition_balanced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. Neither the chase nor the keeping outgrows the other.",
+      "advise_catalyst": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Ask one friend to check on your progress in a month.",
+      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Begin one small project this month that is yours alone. Say no to one request before you say yes again.",
+      "advise_balanced": "What you reach for and what you keep stay level while both get your hours. Mend one worn thing you own before you buy anything new. Pick one plan for the season and keep at it until the season turns."
     },
     "cta_verdict": "You build to keep rather than to show, and the things you go after slowly are usually the ones that stay yours.",
     "carry": {
@@ -328,6 +329,38 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 earth:E2-31",
       "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Start each week with one thing that is only for you. Say no to one request before you say yes again."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week with one thing that is only for you. Say no to one request before you say yes again."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays."
     }
   ]
 }

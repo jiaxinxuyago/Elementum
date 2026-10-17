@@ -24,9 +24,10 @@
       "primary": "expression",
       "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, the flow runs short. Your kindness and wit come out fast and then run dry.",
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and more goes out of you than comes back. You run empty long before you run quiet.",
-      "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, the gate opens and closes when you choose. Your kindness and wit come out at the moment they are needed.",
-      "advise_catalyst": "What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and listen to the end.",
-      "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Keep one piece of news to yourself for a week. Stick with one plan for a whole month."
+      "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, what goes out of you keeps pace with what comes back in. Your kindness and wit flow freely and still refill.",
+      "advise_catalyst": "What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer.",
+      "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Keep one piece of news to yourself for a week. Stick with one plan for a whole month.",
+      "advise_balanced": "What you feel comes out freely, and the flow holds while you take in as much as you give. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer."
     },
     "cta_verdict": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
     "carry": {
@@ -533,6 +534,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-035",
       "replaced": "What you have to give runs short, and it counts for nothing until someone hears it. Tell someone one story with no lesson in it. Ask one person what they took from it, and listen to the end."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and listen to the end."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, the gate opens and closes when you choose. Your kindness and wit come out at the moment they are needed."
     }
   ]
 }

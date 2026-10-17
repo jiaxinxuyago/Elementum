@@ -24,9 +24,10 @@
       "primary": "action",
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, the growth runs thin, and your hands have less to work on than they want. You build less than your strength could carry.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, and the work always asks for more than you have. You spend yourself faster than you refill.",
-      "definition_balanced": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, what you take on matches the strength you have to carry it. Each venture gets finished and pays its way.",
-      "advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Plant one thing this week, a seed or a skill, and watch it grow.",
-      "advise_friction": "Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it trim what Wood spreads. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and turn down the others."
+      "definition_balanced": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, what you take on matches the strength you have to carry it. Your hunger and your stamina keep the same pace.",
+      "advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Plant one thing this week, a seed or a habit, and watch it grow.",
+      "advise_friction": "Seek Metal, your own Body energy. Metal is your own core under the effort, what stays when the wanting stops. Let it trim what Wood spreads. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and let the others wait.",
+      "advise_balanced": "Your work keeps growing while each new start stays in step with your strength. Begin one new venture this month at a size you can tend. Plant one thing this week, a seed or a habit, and watch it grow."
     },
     "cta_verdict": "You want something to build more than something to be given, so you stay with what you made long after a gift would have bored you.",
     "carry": {
@@ -528,6 +529,38 @@
       "ruling": "Owner 2026-10-17: system item approved, the remedy's \"Let it …\" verb varied so each is used once per core and fits its element",
       "finding": "remedy verbs",
       "replaced": "Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and turn down the others."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Plant one thing this week, a seed or a skill, and watch it grow."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it trim what Wood spreads. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and turn down the others."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, what you take on matches the strength you have to carry it. Each venture gets finished and pays its way."
     }
   ]
 }

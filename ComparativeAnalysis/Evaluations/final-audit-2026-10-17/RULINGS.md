@@ -46,3 +46,6 @@ Results: https://claude.ai/artifact/Sg5Q7Jzy5qP1XErcHSgtDR. 16 MAJOR (five theme
 | R2-4 · a partner, child or boss assumed | **Approved.** Neutral wording, changing only those words. |
 | R2-5 · the same act under another name | **Approved.** Acts are counted by meaning, per reader set (weak, strong, Balanced) of one core. |
 | Gift closes that end on other people | **Allowed** ("Allow them"). A catalyst gift close may show its effect on others. |
+
+### A finding while landing round 2 (2026-10-17)
+In the app, a catalyst page and a Balanced page end on **THE EDGE**, and THE ADVICE is not shown there (JourneyStage.jsx: the advice box renders only where there is no edge; all 50 cells carry an edge since the THE EDGE ruling of 2026-10-15). So `advise_catalyst` and `advise_balanced` are not read on any page today. THE REMEDY on friction pages is read. The audit page builder showed THE ADVICE on catalyst pages in rounds 1 and 2; it now mirrors the app. Work done on the catalyst and balanced advice (M6, R2-1, R2-5) is stored and checked but not visible until the owner decides whether catalyst and Balanced pages should show it.

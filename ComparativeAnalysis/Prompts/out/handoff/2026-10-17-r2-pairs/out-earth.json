@@ -1,37 +1,77 @@
 [
  {
   "pair_cell": "土_木",
-  "advise_catalyst": { "text": "You feel most like yourself when your effort has a name and an end. Sign up for one class that ends in a test. Pick one goal for this season and mark the finish on a calendar." },
-  "advise_friction": { "text": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You meet every demand as if your standing hangs on it. Ask whoever made one rule why it matters to them. Tell one friend each week what is weighing on you." },
-  "advise_balanced": { "text": "Your standards and your ease stay level while each rule you keep grows at your own pace. Pick one goal for this season and mark the finish on a calendar. Begin one new habit this spring and let it grow all year." },
-  "definition_balanced": { "tail": "In balance, the rules you answer to fit the life you are building. Your standards rise with you at a pace you can hold." }
+  "advise_catalyst": {
+   "text": "You feel most like yourself when your effort has a name and an end. Sign up for one class that ends in a test. Pick one goal for this season and mark the finish on a calendar."
+  },
+  "advise_friction": {
+   "text": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You meet every demand as if your standing hangs on it. Ask whoever made one rule why it matters to them. Tell one friend each week what is weighing on you."
+  },
+  "advise_balanced": {
+   "text": "Your standards and your ease stay level while each rule you keep grows at your own pace. Pick one goal for this season and mark the finish on a calendar. Begin one new habit this spring and let it grow all year."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the rules you answer to fit the life you are building. Your standards rise with you at a steady pace."
+  }
  },
  {
   "pair_cell": "土_火",
-  "advise_catalyst": { "text": "Your Mind grows on warmth, and warmth is something you have to go and sit near. Once a month, go to a talk or a workshop just to take it in. Choose one person to ask the simple questions, and ask them." },
-  "advise_friction": { "text": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and it sits in you unspent. Fix one small thing with what you already know. Pass on one thing you learned to someone who needs it." },
-  "advise_balanced": { "text": "Your Mind stays warm while what you take in and what you make of it keep pace. Choose one person to ask the simple questions, and ask them. Show one friend something that lit you up this month and hear their view." },
-  "definition_balanced": { "tail": "In balance, what you take in warms you without weighing you down. Each idea you keep becomes your own." }
+  "advise_catalyst": {
+   "text": "Your Mind grows on warmth, and warmth is something you have to go and sit near. Once a month, go to a talk or a workshop just to take it in. Choose one person to ask the simple questions, and ask them."
+  },
+  "advise_friction": {
+   "text": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and it sits in you unspent. Fix one small thing with what you already know. Pass on one thing you learned to someone who needs it."
+  },
+  "advise_balanced": {
+   "text": "Your Mind stays warm while what you take in and what you make of it keep pace. Choose one person to ask the simple questions, and ask them. Show one friend something that lit you up this month and hear their view."
+  },
+  "definition_balanced": {
+   "tail": "In balance, what you take in warms you without weighing you down. Each idea you keep becomes your own."
+  }
  },
  {
   "pair_cell": "土_土",
-  "advise_catalyst": { "text": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn." },
-  "advise_friction": { "text": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Keep to one rule for a month that someone else set." },
-  "advise_balanced": { "text": "Your ground stays firm while the load you carry matches the strength you keep for it. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn." },
-  "definition_balanced": { "tail": "In balance, your strength carries what is yours at an even pace. Your effort and your recovery keep step with each other." }
+  "advise_catalyst": {
+   "text": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn."
+  },
+  "advise_friction": {
+   "text": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Keep to one rule for a month that someone else set."
+  },
+  "advise_balanced": {
+   "text": "Your ground stays firm while the load you carry matches the strength you keep for it. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn."
+  },
+  "definition_balanced": {
+   "tail": "In balance, your strength carries what is yours at an even pace. Your effort and your recovery keep step with each other."
+  }
  },
  {
   "pair_cell": "土_金",
-  "advise_catalyst": { "text": "Your standard is high enough that little ever leaves your hands. Give one thing you made to someone this month, as it is. Cut one draft in half and send the shorter one. Sign one piece of work." },
-  "advise_friction": { "text": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. Enjoy one evening of music without judging a single note. Accept the next compliment with a plain thank you." },
-  "advise_balanced": { "text": "Your Expression stays even while what you finish and what you keep back are both chosen with care. Cut one draft in half and send the shorter one. Sign one piece of work." },
-  "definition_balanced": { "tail": "In balance, the gate opens when a piece is ready and closes when you need to rest. What you make and say leaves you whole." }
+  "advise_catalyst": {
+   "text": "Your standard is high enough that little ever leaves your hands. Give one thing you made to someone this month, as it is. Cut one draft in half and send the shorter one. Sign one piece of work."
+  },
+  "advise_friction": {
+   "text": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. Enjoy one evening of music without judging a single note. Accept the next compliment with a plain thank you."
+  },
+  "advise_balanced": {
+   "text": "Your Expression stays even while what you finish and what you keep back are both chosen with care. Cut one draft in half and send the shorter one. Sign one piece of work."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the gate opens when a piece is ready and closes when you need to rest. What you make and say leaves you whole."
+  }
  },
  {
   "pair_cell": "土_水",
-  "advise_catalyst": { "text": "Your Action grows when it has somewhere to go and something to bring back. Put one plan into motion this season, a trip booked or a small venture opened with money you can spare. Follow one lead you heard about and see what it turns up." },
-  "advise_friction": { "text": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Finish one thing you started before you open anything new. Keep one evening a week at home with nothing planned." },
-  "advise_balanced": { "text": "Your Action stays steady while what you go out for and what you bring home keep the same pace. Follow one lead you heard about and see what it turns up. Let one quiet morning a month pass with no plans at all." },
-  "definition_balanced": { "tail": "In balance, the current moves at your pace. What flows out and what comes back stay level." }
+  "advise_catalyst": {
+   "text": "Your Action grows when it has somewhere to go and something to bring back. Put one plan into motion this season, a trip booked or a small venture opened with money you can spare. Follow one lead you heard about and see what it turns up."
+  },
+  "advise_friction": {
+   "text": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Finish one thing you started before you open anything new. Keep one evening a week at home with nothing planned."
+  },
+  "advise_balanced": {
+   "text": "Your Action stays steady while what you go out for and what you bring home keep the same pace. Follow one lead you heard about and see what it turns up. Let one quiet morning a month pass with no plans at all."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the current moves at your pace. What flows out and what comes back stay level."
+  }
  }
 ]

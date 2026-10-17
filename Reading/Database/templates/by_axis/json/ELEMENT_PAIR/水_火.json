@@ -22,9 +22,10 @@
       "primary": "action",
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want a far chance as much as steady pay. You lose most on what you leave unclaimed.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light burns through its fuel. Gain and loss fill your thoughts, and little of you is left to rest.",
-      "definition_balanced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. New ground and old ground both get your warmth, and it reaches the people you provide for.",
-      "advise_catalyst": "Most of your chances are lost by never being claimed, not by failing. Tell three people about the venture you have in mind. Ask once for the price you think your work is worth. Put the idea in front of a real buyer this month.",
-      "advise_friction": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Take one slow weekend. Let the numbers wait."
+      "definition_balanced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Your reach for the new and your hold on the old keep the same pace.",
+      "advise_catalyst": "What you build earns less than it should, since you seldom ask to be paid for it. Name your price once and hold to it. Put the idea in front of a real buyer this month.",
+      "advise_friction": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before you sign. Let the numbers wait.",
+      "advise_balanced": "Your fire burns steady while new ventures and old ones both get some of your warmth. Put the idea in front of a real buyer this month. Warm up one old venture you have let go cold."
     },
     "cta_verdict": "You reach for what matters to you with care as much as with nerve, and over the years the balance you strike shapes what you get to keep.",
     "carry": {
@@ -341,6 +342,38 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 fire:F2-45",
       "replaced": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light burns through its fuel. Gain and loss fill your whole mind, and little of you is left to rest."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Most of your chances are lost by never being claimed, not by failing. Tell three people about the venture you have in mind. Ask once for the price you think your work is worth. Put the idea in front of a real buyer this month."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Take one slow weekend. Let the numbers wait."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. New ground and old ground both get your warmth, and it reaches the people you provide for."
     }
   ]
 }

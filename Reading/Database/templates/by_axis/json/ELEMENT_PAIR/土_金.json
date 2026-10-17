@@ -26,7 +26,8 @@
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Metal gives it a hard finish, nothing left half done. As a friction, more goes out through the gate than comes back in, and it drains what holds you up. You wear yourself thin on getting it right.",
       "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. What you make and say leaves you whole.",
       "advise_catalyst": "Your standard is high enough that little ever leaves your hands. Give one thing you made to someone this month, as it is. Cut one draft in half and send the shorter one. Sign one piece of work.",
-      "advise_friction": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. See one show as a guest, not a critic. Accept the next compliment with a plain thank you."
+      "advise_friction": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. Enjoy one evening of music without judging a single note. Accept the next compliment with a plain thank you.",
+      "advise_balanced": "Your Expression stays even while what you finish and what you keep back are both chosen with care. Cut one draft in half and send the shorter one. Sign one piece of work."
     },
     "cta_verdict": "You put a thing out finished rather than early, and what you say gets kept longer than you expect.",
     "carry": {
@@ -339,6 +340,22 @@
       "ruling": "Owner 2026-10-17: system item approved, the remedy's \"Let it …\" verb varied so each is used once per core and fits its element",
       "finding": "remedy verbs",
       "replaced": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You give out faster than you refill. See one show as a guest, not a critic. Accept the next compliment with a plain thank you."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it warm what Metal has hardened. You give out faster than you refill. See one show as a guest, not a critic. Accept the next compliment with a plain thank you."
     }
   ]
 }

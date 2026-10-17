@@ -25,7 +25,8 @@
       "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the rules outweigh what you want. You give up ease to keep them.",
       "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. In balance, the rules you keep are your own choice. Rank comes as the work earns it.",
       "advise_catalyst": "You do your best work with a date on it and someone waiting at the other end. Ask for honest feedback on one thing you made and just listen. Learn how one new task is done before you start on it. Leave an hour empty between two big jobs.",
-      "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Start one project of your own this month. Learn one skill no rule asks for."
+      "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Begin one thing this month that is only yours. Keep it off every list.",
+      "advise_balanced": "Your rules stay light while you take in as much as you take on. Ask for honest feedback on one thing you made and just listen. Leave an hour empty between two big jobs."
     },
     "cta_verdict": "You take a rule in quietly and keep it for years, and you would rather answer to a standard you chose than to a voice raised at you.",
     "carry": {
@@ -316,6 +317,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-025",
       "replaced": "You do your best work with a date on it and someone waiting at the other end. Ask for honest feedback on one piece of work and just listen. Learn how one new task works before you start on it. Leave an hour empty between two big jobs."
+    },
+    {
+      "field": "function.advise_balanced",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2-1",
+      "replaced": null
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
+      "finding": "R2 pairs",
+      "replaced": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Start one project of your own this month. Learn one skill no rule asks for."
     }
   ]
 }
