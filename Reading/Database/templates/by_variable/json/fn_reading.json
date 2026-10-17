@@ -187,10 +187,10 @@
                 }
               },
               {
-                "word": "Takes it easy",
+                "word": "Looks effortless",
                 "angles": {
-                  "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried.",
-                  "cost_self": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
+                  "drive": "Looking effortless comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Behind the effortless look, the hard parts stay untried.",
+                  "cost_self": "Your best work is what looking effortless costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
                   "cost_others": "Whenever you make the work look easy, people learn from the surface alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care."
                 }
               }
@@ -386,7 +386,7 @@
                 "angles": {
                   "drive": "Keeping what works means avoiding change. You know the price of what you have and not of the better, and you keep the known rather than try a change. Long after the known stops paying you, you go on avoiding change.",
                   "cost_self": "Avoiding change spares you being new at anything. You keep the steady job and the steady love after they stop feeding you rather than change either. Avoiding change costs you the better life you never tried.",
-                  "cost_others": "Where you avoid change, you avoid it for others too. You keep the people close to you inside the old plan instead of letting them change it. They miss the new starts they wanted to make."
+                  "cost_others": "Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You miss the new starts they wanted to make with you."
                 }
               }
             ]
@@ -776,7 +776,7 @@
                 "angles": {
                   "drive": "As a contest gets close, you spend to win it. You would rather pay to stay ahead than risk falling behind, and you spend to prove a point. Ask yourself before you pay whether you want the thing or only the win.",
                   "cost_self": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You count the cost when the account runs dry.",
-                  "cost_others": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even with money you pooled with friends. Along with the money, you spend a plan you made together."
+                  "cost_others": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even out of savings meant for a trip with friends. Along with the money, you spend a plan you made together."
                 }
               }
             ]
@@ -941,7 +941,7 @@
                 "word": "Shares the win",
                 "angles": {
                   "drive": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. In a good year, everyone at your table eats well.",
-                  "cost_self": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Your own cushion never gets the chance to grow.",
+                  "cost_self": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Of every win you share, the smallest part stays with you.",
                   "cost_others": "You share each win rather than sit on it. Giving in bursts is your way of loving, and you hand the people around you plenty one year and nothing the next. Nobody near you ever doubts where your heart is."
                 }
               }
@@ -1005,7 +1005,7 @@
               {
                 "word": "Loyal",
                 "angles": {
-                  "drive": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. The people you stand by know exactly where to find you.",
+                  "drive": "Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay with the people you chose instead of looking for new ones. The people you stand by know exactly where to find you.",
                   "cost_self": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Under it all, you want proof that the bond runs both ways.",
                   "cost_others": "Loyalty is how you love, and you show it by staying. You stand by the people you chose rather than look around, and you let the staying speak for you. Those you love rarely hear it in words."
                 }
@@ -1020,7 +1020,7 @@
                 "angles": {
                   "drive": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. What no longer matters to you is yours to part with.",
                   "cost_self": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. You rent space for things that give nothing back.",
-                  "cost_others": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and the house fills from the walls in. You leave the people you live with less space in their own home."
+                  "cost_others": "Things come in far more easily than they go out. You keep a thing rather than take its space back, and the house fills from the walls in. The people you live with get less space in their own home."
                 }
               },
               {
@@ -1157,7 +1157,7 @@
                 "word": "Waits for permission",
                 "angles": {
                   "drive": "You wait for permission to take what you have earned. An approval from above counts for more with you than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
-                  "cost_self": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring.",
+                  "cost_self": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you hold off until someone offers it. Year after year, you miss what one question would bring.",
                   "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. You hold up their work for a go-ahead you had all along."
                 }
               },
@@ -1408,7 +1408,7 @@
               {
                 "word": "Bets too big",
                 "angles": {
-                  "drive": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. You fund next year's bet with the money this year needed.",
+                  "drive": "You size every bet past what the moment asks. Playing small feels like standing still to you, and everything goes into the stake instead of the base under it. You fund next year's bet with the money this year needed.",
                   "cost_self": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk over sure footing. You lose real money on bets you never needed to make.",
                   "cost_others": "Your biggest bets land on other people too. Going big matters more to you than going safe, and the shared money rides on your nerve. You set the size of a risk that the people who pooled with you have to carry."
                 }
@@ -1527,7 +1527,7 @@
                 "angles": {
                   "drive": "Standing out comes naturally to you. You would rather stand out than fit in, since hiding what you can do is a small lie to yourself. Your work is never mistaken for anyone else's.",
                   "cost_self": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less. You pay for the spotlight in friendships that cool while you shine.",
-                  "cost_others": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. Around you, quieter people find the nerve to try things they would not try alone."
+                  "cost_others": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. You take the spotlight that quieter people were waiting for."
                 }
               }
             ]
@@ -1547,7 +1547,7 @@
                 "word": "Shows off",
                 "angles": {
                   "drive": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off rather than fit in. You collect praise with each show, and a quiet hour with one friend gives you what praise cannot.",
-                  "cost_self": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Sitting quietly among friends is enough.",
+                  "cost_self": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Under the show, what you want is to be liked as you are.",
                   "cost_others": "Most of your showing off goes to the people who love you. Because you feel applause more easily than closeness, you put on a show for them instead of talking. In place of a plain hour together, you give them a show."
                 }
               },
@@ -1747,11 +1747,11 @@
                 }
               },
               {
-                "word": "Impossible to please",
+                "word": "Never satisfied",
                 "angles": {
-                  "drive": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look instead of giving it. You are allowed to be pleased by a standard you have already met.",
-                  "cost_self": "Being impossible to please makes help hard to accept. Since good enough never feels safe to you, you redo what you are handed rather than let it please you. You end up carrying alone the work you would not let anyone share.",
-                  "cost_others": "Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard. You walk away with their ease and leave them guessing what would please you."
+                  "drive": "You are never satisfied, not even with yourself. Pressure is how you show you take a thing seriously, so you hold back the pleased look instead of giving it. You are allowed to be pleased by a standard you have already met.",
+                  "cost_self": "Never being satisfied makes help hard to accept. Since good enough never feels safe to you, you redo what you are handed rather than let it please you. You end up carrying alone the work you would not let anyone share.",
+                  "cost_others": "Where you believe in someone, nothing they do ever quite satisfies you. Because you want them at their best, you pass on the strain as much as the standard. It costs them their ease, and they keep guessing what would please you."
                 }
               }
             ]
@@ -1988,7 +1988,7 @@
             ]
           },
           "friction": {
-            "define": "Running over, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
+            "define": "Running over, the depth floods inward instead of out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
             "ledger": [
               {
                 "word": "Keeps to yourself",
@@ -2053,7 +2053,7 @@
             ]
           },
           "friction": {
-            "define": "Running over, the depth churns with no outlet. You need to prove yourself among friends, and the drive never lets you stop.",
+            "define": "Running over, the depth churns and spills into every contest. You need to prove yourself among friends, and the drive never lets you stop.",
             "ledger": [
               {
                 "word": "Races in secret",
@@ -2253,7 +2253,7 @@
               {
                 "word": "Leaves too soon",
                 "angles": {
-                  "drive": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. All you are after is the freedom of the open road.",
+                  "drive": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. What you want underneath is to know you are free to go.",
                   "cost_self": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and you walk away with none of it.",
                   "cost_others": "Whenever a venture turns slow, you are the first to leave it. Leaving early costs you less than staying, and it costs the people inside a pair of hands. You hand your share of the finish to whoever stays behind."
                 }
@@ -2551,7 +2551,7 @@
                 "angles": {
                   "drive": "You calm people down without trying to. Taking in someone's worry costs you less than watching them carry it, so you take it in and give back something steadier. Around you, frightened people find their feet again.",
                   "cost_self": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. You want someone to steady you for a change.",
-                  "cost_others": "When someone close to you is upset, you become the calm for both. Feeling held matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you."
+                  "cost_others": "When someone close to you is upset, you become the calm for both. A safe place matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you."
                 }
               },
               {
@@ -2643,7 +2643,7 @@
               {
                 "word": "Goes it alone",
                 "angles": {
-                  "drive": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. You are allowed to share the work, even if it takes longer.",
+                  "drive": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. What you want is company that matches your pace.",
                   "cost_self": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. Out of your own rest, you pay for every hand you turn down.",
                   "cost_others": "Whenever a job splits two ways, you carry both ends alone. Holding it yourself matters more than keeping a peer in the loop, so you leave them nothing to carry. You keep your peers on the outside of work they wanted a share in."
                 }
@@ -2790,8 +2790,8 @@
                 "word": "Pleasure first",
                 "angles": {
                   "drive": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option over the needed one. You were after feeling alive all along, and pleasure was only the quickest way.",
-                  "cost_self": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.",
-                  "cost_others": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. You leave them short on the plans you made together."
+                  "cost_self": "Pleasure first is the only self-care you trust. Feeling soothed matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.",
+                  "cost_others": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. They end up keeping the plans you made together on their own."
                 }
               }
             ]
@@ -3098,7 +3098,7 @@
               {
                 "word": "Rule-bound",
                 "angles": {
-                  "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You wrote most of these rules yourself and are free to retire them.",
+                  "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You are free to retire a rule once it has done its job.",
                   "cost_self": "Between a rule and a chance, you take the rule. You put being correct ahead of being free, so your career keeps the rules and never jumps. Along the way, you lose out on the jobs you never went for.",
                   "cost_others": "Keeping to the rules is how you look after people. Because one exception feels like the first crack, you give them the rule instead of what they asked for. You hold your people to the letter and take from them the ease of being wrong."
                 }
@@ -3246,7 +3246,7 @@
                 "angles": {
                   "drive": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy over what you want. Bit by bit, you trade the life you meant to have for a smaller one.",
                   "cost_self": "Comfort is the state you work hardest to keep. Because any change feels unsafe to you, you stay in the comfortable routine rather than try a new one. You end each easy stretch more tired than you began it.",
-                  "cost_others": "Keeping the home as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them. Just as your people are ready to move, you keep them in place."
+                  "cost_others": "Keeping everything as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them. Just as your people are ready to move on, you keep them in place."
                 }
               }
             ]

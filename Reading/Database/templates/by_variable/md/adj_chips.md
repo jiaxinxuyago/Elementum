@@ -25,7 +25,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Loves the craft · Chooses well · Teaches by doing |
-| `friction` | Hard to please · Gives too much · Takes it easy |
+| `friction` | Hard to please · Gives too much · Looks effortless |
 
 ### The Virtuoso · 金_伤官
 
@@ -193,7 +193,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Clear under pressure · Takes charge · Pushes through |
-| `friction` | Hard on yourself · Never switches off · Impossible to please |
+| `friction` | Hard on yourself · Never switches off · Never satisfied |
 
 ### The Magistrate · 木_正官
 

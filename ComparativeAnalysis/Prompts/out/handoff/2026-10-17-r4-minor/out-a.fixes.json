@@ -1,0 +1,127 @@
+[
+ {
+  "key": "PAIR 火_金 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, the edge cuts where you choose. You pick your openings well and know which ones to let pass.",
+  "id": "R4 cross:X4-01"
+ },
+ {
+  "key": "PAIR 土_水 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current carries you through the dry spells. Each lean stretch passes before it costs you much.",
+  "id": "R4 cross:X4-02"
+ },
+ {
+  "key": "K2 土_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Of every win you share, the smallest part stays with you.",
+  "id": "R4 cross:X4-03"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You are free to retire a rule once it has done its job.",
+  "id": "R4 cross:X4-06"
+ },
+ {
+  "key": "PAIR 木_土 · function.definition_catalyst",
+  "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. You never quite feel you have enough put by.",
+  "id": "R4 earth:E4-01"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay with the people you chose instead of looking for new ones. The people you stand by know exactly where to find you.",
+  "id": "R4 earth:E4-02"
+ },
+ {
+  "key": "PAIR 土_土 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and holds back until something real is on the line. Once it is, you give it everything.",
+  "id": "R4 earth:E4-03"
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even out of savings meant for a trip with friends. Along with the money, you spend a plan you made together.",
+  "id": "R4 earth:E4-04"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you hold off until someone offers it. Year after year, you miss what one question would bring.",
+  "id": "R4 earth:E4-05"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Things come in far more easily than they go out. You keep a thing rather than take its space back, and the house fills from the walls in. The people you live with get less space in their own home.",
+  "id": "R4 earth:E4-06"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. They end up keeping the plans you made together on their own.",
+  "id": "R4 fire:F4-01"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Pleasure first is the only self-care you trust. Feeling soothed matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.",
+  "id": "R4 fire:F4-02"
+ },
+ {
+  "key": "PAIR 火_火 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve never builds, and you spend each gain as soon as it comes. You pay for each bright day with a tired one.",
+  "id": "R4 fire:F4-03"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Keeping everything as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them. Just as your people are ready to move on, you keep them in place.",
+  "id": "R4 fire:F4-04"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. What you want is company that matches your pace.",
+  "id": "R4 fire:F4-05"
+ },
+ {
+  "key": "PAIR 土_水 · function.advise_friction",
+  "text": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. Little of what you earn ever feels truly yours. Put aside one sum for a treat, then spend it on the treat. Keep one evening a week at home with nothing planned.",
+  "id": "R4 water:W4-03"
+ },
+ {
+  "key": "PAIR 木_木 · function.advise_friction",
+  "text": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Without a line from outside, you rarely stop at all. Close one open project this week and say it is done. Let someone else set the end point for one plan.",
+  "id": "R4 wood:W4-M1"
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You size every bet past what the moment asks. Playing small feels like standing still to you, and everything goes into the stake instead of the base under it. You fund next year's bet with the money this year needed.",
+  "id": "R4 wood:W4-M2"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you believe in someone, nothing they do ever quite satisfies you. Because you want them at their best, you pass on the strain as much as the standard. It costs them their ease, and they keep guessing what would please you.",
+  "id": "R4 wood:W4-M3+R4 rename Impossible to please"
+ },
+ {
+  "key": "K2 木_七杀 · edge.lead",
+  "text": "Wood runs through your career, your health and your growth. It is the hard stretch at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm when others shake.",
+  "id": "R4 wood:W4-M4"
+ },
+ {
+  "key": "K2 木_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. You take the spotlight that quieter people were waiting for.",
+  "id": "R4 wood:W4-M5"
+ },
+ {
+  "key": "K2 木_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Under the show, what you want is to be liked as you are.",
+  "id": "R4 wood:W4-M6"
+ },
+ {
+  "key": "PAIR 火_木 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry faster than you fill up again.",
+  "id": "R4 wood:W4-M7"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "You are never satisfied, not even with yourself. Pressure is how you show you take a thing seriously, so you hold back the pleased look instead of giving it. You are allowed to be pleased by a standard you have already met.",
+  "id": "R4 rename Impossible to please"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Never being satisfied makes help hard to accept. Since good enough never feels safe to you, you redo what you are handed rather than let it please you. You end up carrying alone the work you would not let anyone share.",
+  "id": "R4 rename Impossible to please"
+ }
+]

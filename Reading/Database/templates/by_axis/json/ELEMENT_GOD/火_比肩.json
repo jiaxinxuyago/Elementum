@@ -97,7 +97,7 @@
           {
             "word": "Goes it alone",
             "angles": {
-              "drive": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. You are allowed to share the work, even if it takes longer.",
+              "drive": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. What you want is company that matches your pace.",
               "cost_self": "Going it alone means the whole load sits on one back, yours. You put in extra hours rather than accept the hand, because being helped feels like being less. Out of your own rest, you pay for every hand you turn down.",
               "cost_others": "Whenever a job splits two ways, you carry both ends alone. Holding it yourself matters more than keeping a peer in the loop, so you leave them nothing to carry. You keep your peers on the outside of work they wanted a share in."
             }
@@ -611,6 +611,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 fire:F3-12",
       "replaced": "A peer's correction stings more than being wrong. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You end up paying for the same mistake twice, and the second time you pay alone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 fire:F4-05",
+      "replaced": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. You are allowed to share the work, even if it takes longer."
     }
   ]
 }

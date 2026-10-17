@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Keeping what works means avoiding change. You know the price of what you have and not of the better, and you keep the known rather than try a change. Long after the known stops paying you, you go on avoiding change.",
               "cost_self": "Avoiding change spares you being new at anything. You keep the steady job and the steady love after they stop feeding you rather than change either. Avoiding change costs you the better life you never tried.",
-              "cost_others": "Where you avoid change, you avoid it for others too. You keep the people close to you inside the old plan instead of letting them change it. They miss the new starts they wanted to make."
+              "cost_others": "Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You miss the new starts they wanted to make with you."
             }
           }
         ]
@@ -631,6 +631,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 metal:MT3-03",
       "replaced": "Where you avoid change, you avoid it for others too. You keep the person you love inside the agreed life instead of letting them change it. You avoid change for yourself, and they go without any too."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 metal:MR4-01",
+      "replaced": "Where you avoid change, you avoid it for others too. You keep the people close to you inside the old plan instead of letting them change it. They miss the new starts they wanted to make."
     }
   ]
 }

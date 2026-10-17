@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Standing out comes naturally to you. You would rather stand out than fit in, since hiding what you can do is a small lie to yourself. Your work is never mistaken for anyone else's.",
               "cost_self": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less. You pay for the spotlight in friendships that cool while you shine.",
-              "cost_others": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. Around you, quieter people find the nerve to try things they would not try alone."
+              "cost_others": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. You take the spotlight that quieter people were waiting for."
             }
           }
         ]
@@ -106,7 +106,7 @@
             "word": "Shows off",
             "angles": {
               "drive": "You show off without deciding to. Being the interesting one feels safer than being one of the group, so you show off rather than fit in. You collect praise with each show, and a quiet hour with one friend gives you what praise cannot.",
-              "cost_self": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Sitting quietly among friends is enough.",
+              "cost_self": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Under the show, what you want is to be liked as you are.",
               "cost_others": "Most of your showing off goes to the people who love you. Because you feel applause more easily than closeness, you put on a show for them instead of talking. In place of a plain hour together, you give them a show."
             }
           },
@@ -555,6 +555,22 @@
       "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
       "finding": "R3 soft close (permission)",
       "replaced": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. With a show always running, you never find out how much you are liked as you are."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 wood:W4-M5",
+      "replaced": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. Around you, quieter people find the nerve to try things they would not try alone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 wood:W4-M6",
+      "replaced": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Sitting quietly among friends is enough."
     }
   ]
 }

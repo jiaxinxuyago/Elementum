@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "Running over, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
+        "define": "Running over, the depth floods inward instead of out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
         "ledger": [
           {
             "word": "Keeps to yourself",
@@ -633,6 +633,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 water:W4-21",
       "replaced": "Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 water:W4-01",
+      "replaced": "Running over, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it."
     }
   ]
 }

@@ -22,7 +22,7 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and you care where it goes. You stand firmest with a clear stake of your own.",
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and holds back until something real is on the line. Once it is, you give it everything.",
       "definition_friction": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. You give up closeness to keep your place.",
       "definition_balanced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, your strength carries what is yours at an even pace. Your effort and your recovery keep step with each other.",
       "advise_catalyst": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn.",
@@ -320,6 +320,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 earth:E4-07",
       "replaced": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Keep to one rule for a month that someone else set."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 earth:E4-03",
+      "replaced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and you care where it goes. You stand firmest with a clear stake of your own."
     }
   ]
 }

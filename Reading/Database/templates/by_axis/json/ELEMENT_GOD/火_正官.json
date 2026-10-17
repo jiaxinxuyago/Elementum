@@ -97,7 +97,7 @@
           {
             "word": "Rule-bound",
             "angles": {
-              "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You wrote most of these rules yourself and are free to retire them.",
+              "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You are free to retire a rule once it has done its job.",
               "cost_self": "Between a rule and a chance, you take the rule. You put being correct ahead of being free, so your career keeps the rules and never jumps. Along the way, you lose out on the jobs you never went for.",
               "cost_others": "Keeping to the rules is how you look after people. Because one exception feels like the first crack, you give them the rule instead of what they asked for. You hold your people to the letter and take from them the ease of being wrong."
             }
@@ -969,6 +969,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 fire:F3-06",
       "replaced": "In meetings you wait your turn to speak, and the idea waits with you. Speaking before others feels like a step above your place, and the talk moves on before your turn comes. Your team loses the idea that would have helped them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 cross:X4-06",
+      "replaced": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You wrote most of these rules yourself and are free to retire them."
     }
   ]
 }

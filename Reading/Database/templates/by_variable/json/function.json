@@ -13,7 +13,7 @@
           "definition_friction": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every shared plan, because your own way is the one you trust. You press on without checking who is still beside you.",
           "definition_balanced": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. In balance, what goes in keeps pace with the reach. You hold your own ground and still have space for a peer beside you.",
           "advise_catalyst": "Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and tend it until it stands on its own. Hand one errand to someone else this month and leave it with them.",
-          "advise_friction": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Close one open project this week and say it is done. Let someone else set the end point for one plan.",
+          "advise_friction": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. With no outside line, you rarely stop. Close one open project this week and say it is done. Let someone else set the end point for one plan.",
           "advise_balanced": "Your reach holds while what you take in keeps pace with how far you push. Grow one plant from seed and tend it until it stands on its own. Begin one new habit for your body this month and let it grow slowly."
         }
       },
@@ -37,7 +37,7 @@
         "canonical_name": "Wood core × Earth — the Drive",
         "value": {
           "primary": "action",
-          "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough.",
+          "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. You never quite feel you have enough put by.",
           "definition_friction": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish.",
           "definition_balanced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, firm ground holds under each new reach. Whatever you chase, something solid stays under your feet.",
           "advise_catalyst": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Ask one friend to check on your progress in a month.",
@@ -79,7 +79,7 @@
         "canonical_name": "Fire core × Wood — the Root",
         "value": {
           "primary": "mind",
-          "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again.",
+          "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry faster than you fill up again.",
           "definition_friction": "Your Mind is where the world soaks in and becomes yours. Growing is what Wood makes of it. As a friction, more soaks in than you ever let go, whether an idea or a person. Whatever enters stays close and stops growing.",
           "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. In balance, you take in about as much as you give out. What you learn settles in and still finds a use.",
           "advise_catalyst": "You run on your existing stores, and that feels like energy until it runs out. Take a class in something nobody pays you for. Follow one subject you love through the whole year and watch it grow.",
@@ -93,7 +93,7 @@
         "canonical_name": "Fire core × Fire — the Core",
         "value": {
           "primary": "body",
-          "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you keep moving instead of stopping to refill. You pay for each bright day with a tired one.",
+          "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve never builds, and you spend each gain as soon as it comes. You pay for each bright day with a tired one.",
           "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, your strength wants to carry everything itself, because you count needing others as falling short. You win most days and pay in company.",
           "definition_balanced": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. In balance, the warmth holds steady and you spend no faster than you refill. Peers and contests feed you as fast as they tire you.",
           "advise_catalyst": "Your strength runs on what you put back, and putting back is the part you skip. Ask one person for help on a job you usually do alone. Get two friends together once a month just for fun. Stand in the sun for ten minutes each morning.",
@@ -123,7 +123,7 @@
           "primary": "action",
           "definition_catalyst": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, the edge runs thin. You work in short strokes and your gains come in pieces.",
           "definition_friction": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, your Action takes more strength than you have, and little is left to enjoy what is already yours.",
-          "definition_balanced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. Your reach and your means keep the same pace.",
+          "definition_balanced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, the edge cuts where you choose. You pick your openings well and know which ones to let pass.",
           "advise_catalyst": "Your drive is short, and each piece of it needs a clear place to go. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never. Clear out one drawer and give away what you have not used in a year.",
           "advise_friction": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on everything but yourself, and tired is where you make your worst deals. Never bargain cold or hungry. Talk deals through with a friend.",
           "advise_balanced": "Your drive goes where it counts while your aims stay few and clear. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never."
@@ -177,7 +177,7 @@
         "canonical_name": "Earth core × Earth — the Core",
         "value": {
           "primary": "body",
-          "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and you care where it goes. You stand firmest with a clear stake of your own.",
+          "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and holds back until something real is on the line. Once it is, you give it everything.",
           "definition_friction": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. You give up closeness to keep your place.",
           "definition_balanced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, your strength carries what is yours at an even pace. Your effort and your recovery keep step with each other.",
           "advise_catalyst": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn.",
@@ -207,9 +207,9 @@
           "primary": "action",
           "definition_catalyst": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. As a catalyst, the current runs thin. You choose where it goes, and each gain you make is one you worked for.",
           "definition_friction": "Your Action is what you go and build, claim and provide. Water makes it pour and spread as it goes. As a friction, more pours through than you can settle. No gain ever feels like firm ground, and what comes your way is rarely enjoyed.",
-          "definition_balanced": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out and come back at a steady rhythm.",
+          "definition_balanced": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current carries you through the dry spells. Each lean stretch passes before it costs you much.",
           "advise_catalyst": "Your Action grows when it has somewhere to go and something to bring back. Put one plan into motion this season, a trip booked or a small venture opened with money you can spare. Follow one lead you heard about and see what it turns up.",
-          "advise_friction": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Finish one thing you started before you open anything new. Keep one evening a week at home with nothing planned.",
+          "advise_friction": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. Little of what you earn ever feels truly yours. Put aside one sum for a treat, then spend it on the treat. Keep one evening a week at home with nothing planned.",
           "advise_balanced": "Your Action stays steady while what you go out for and what you bring home keep the same pace. Follow one lead you heard about and see what it turns up. Let one quiet morning a month pass with no plans at all."
         }
       },
@@ -265,7 +265,7 @@
           "definition_friction": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your strength has nowhere to go and gets spent holding your ground against the people beside you. You lose a peer for each argument you win.",
           "definition_balanced": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. In balance, your strength is firm but never stiff. You stand on your own and still bend when a peer has the better case.",
           "advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there.",
-          "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure in view, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
+          "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no judge above you, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
           "advise_balanced": "Your strength holds firm while you spend it no faster than you refill it. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there."
         }
       },
@@ -346,7 +346,7 @@
         "value": {
           "primary": "body",
           "definition_catalyst": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, the well is shallow. Every push takes from what little you hold, and the bottom comes early.",
-          "definition_friction": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, the depth has no outlet. Your strength and your wants pile up inside, and you carry more than anyone near you ever sees.",
+          "definition_friction": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, the depth floods inward. Your force and your wants pile up inside, and you carry more than anyone near you ever sees.",
           "definition_balanced": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. In balance, the tide goes out and comes back in. You spend and refill in turn, and you never run dry.",
           "advise_catalyst": "Every push you make draws on a reserve that was small to begin with. Rest a full day after any big push. Ask a friend for the whole answer rather than guessing it. Hand half of one shared task to a peer.",
           "advise_friction": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. Without a shore your strength either piles up into weight or spills over. Before Sunday, finish one job you have put off. Keep the same day each week for one steady task.",

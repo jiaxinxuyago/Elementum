@@ -22,7 +22,7 @@
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough.",
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. You never quite feel you have enough put by.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish.",
       "definition_balanced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, firm ground holds under each new reach. Whatever you chase, something solid stays under your feet.",
       "advise_catalyst": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Ask one friend to check on your progress in a month.",
@@ -385,6 +385,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 earth:E3-01",
       "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear. Begin one small project this month that is yours alone. Say no to one request before you say yes again."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 earth:E4-01",
+      "replaced": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough."
     }
   ]
 }

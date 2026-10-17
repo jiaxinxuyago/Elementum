@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "Running over, the depth churns with no outlet. You need to prove yourself among friends, and the drive never lets you stop.",
+        "define": "Running over, the depth churns and spills into every contest. You need to prove yourself among friends, and the drive never lets you stop.",
         "ledger": [
           {
             "word": "Races in secret",
@@ -699,6 +699,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 water:W4-22",
       "replaced": "Going first is where your boldness lives. Coming second feels like losing, and you jump in before reading the plan with your own savings on the line. Your bank balance carries the lessons everyone after you gets for free."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 water:W4-01 (sister tail)",
+      "replaced": "Running over, the depth churns with no outlet. You need to prove yourself among friends, and the drive never lets you stop."
     }
   ]
 }

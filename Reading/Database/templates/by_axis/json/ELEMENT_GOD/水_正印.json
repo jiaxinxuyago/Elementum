@@ -70,7 +70,7 @@
             "angles": {
               "drive": "You calm people down without trying to. Taking in someone's worry costs you less than watching them carry it, so you take it in and give back something steadier. Around you, frightened people find their feet again.",
               "cost_self": "Being the calm one is a job you never put down. You take in other people's upset and level it, while yours waits for a quiet that never comes. You want someone to steady you for a change.",
-              "cost_others": "When someone close to you is upset, you become the calm for both. Feeling held matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you."
+              "cost_others": "When someone close to you is upset, you become the calm for both. A safe place matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you."
             }
           },
           {
@@ -665,6 +665,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 water:W4-12",
       "replaced": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. With you nearby, a struggling friend never feels pushed or judged."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 water:W4-05",
+      "replaced": "When someone close to you is upset, you become the calm for both. Feeling held matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you."
     }
   ]
 }

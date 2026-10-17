@@ -23,7 +23,7 @@
       "friction": [
         "Hard to please",
         "Gives too much",
-        "Takes it easy"
+        "Looks effortless"
       ]
     },
     "k2_domain_readings": {
@@ -111,10 +111,10 @@
             }
           },
           {
-            "word": "Takes it easy",
+            "word": "Looks effortless",
             "angles": {
-              "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried.",
-              "cost_self": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
+              "drive": "Looking effortless comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Behind the effortless look, the hard parts stay untried.",
+              "cost_self": "Your best work is what looking effortless costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
               "cost_others": "Whenever you make the work look easy, people learn from the surface alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care."
             }
           }
@@ -633,6 +633,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 metal:MR4-09",
       "replaced": "Whenever you make the work look easy, people learn from the look alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].word",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR, MINOR fixes approved as in round 1 (SOP)",
+      "finding": "R4 cross:X4-04",
+      "replaced": "Takes it easy"
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 rename Takes it easy",
+      "replaced": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 rename Takes it easy",
+      "replaced": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out."
     }
   ]
 }

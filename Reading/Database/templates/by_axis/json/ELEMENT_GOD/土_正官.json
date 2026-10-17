@@ -106,7 +106,7 @@
             "word": "Waits for permission",
             "angles": {
               "drive": "You wait for permission to take what you have earned. An approval from above counts for more with you than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
-              "cost_self": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring.",
+              "cost_self": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you hold off until someone offers it. Year after year, you miss what one question would bring.",
               "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. You hold up their work for a go-ahead you had all along."
             }
           },
@@ -635,6 +635,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 earth:E4-12",
       "replaced": "You wait for permission to take what you have earned. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 earth:E4-05",
+      "replaced": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring."
     }
   ]
 }

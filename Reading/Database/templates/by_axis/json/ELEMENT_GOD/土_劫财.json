@@ -115,7 +115,7 @@
             "angles": {
               "drive": "As a contest gets close, you spend to win it. You would rather pay to stay ahead than risk falling behind, and you spend to prove a point. Ask yourself before you pay whether you want the thing or only the win.",
               "cost_self": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You count the cost when the account runs dry.",
-              "cost_others": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even with money you pooled with friends. Along with the money, you spend a plan you made together."
+              "cost_others": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even out of savings meant for a trip with friends. Along with the money, you spend a plan you made together."
             }
           }
         ]
@@ -627,6 +627,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 earth:E4-24",
       "replaced": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people inside it. Everyone who stood beside you walks away feeling counted."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 earth:E4-04",
+      "replaced": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even with money you pooled with friends. Along with the money, you spend a plan you made together."
     }
   ]
 }

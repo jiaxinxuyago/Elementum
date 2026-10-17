@@ -21,7 +21,7 @@
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again.",
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry faster than you fill up again.",
       "definition_friction": "Your Mind is where the world soaks in and becomes yours. Growing is what Wood makes of it. As a friction, more soaks in than you ever let go, whether an idea or a person. Whatever enters stays close and stops growing.",
       "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. In balance, you take in about as much as you give out. What you learn settles in and still finds a use.",
       "advise_catalyst": "You run on your existing stores, and that feels like energy until it runs out. Take a class in something nobody pays you for. Follow one subject you love through the whole year and watch it grow.",
@@ -371,6 +371,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 wood:W3-009",
       "replaced": "Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go feels like loss. Close one open question this week. Send one idea out before it feels ready."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 wood:W4-M7",
+      "replaced": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again."
     }
   ]
 }

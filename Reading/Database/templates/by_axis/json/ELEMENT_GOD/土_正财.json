@@ -84,7 +84,7 @@
           {
             "word": "Loyal",
             "angles": {
-              "drive": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. The people you stand by know exactly where to find you.",
+              "drive": "Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay with the people you chose instead of looking for new ones. The people you stand by know exactly where to find you.",
               "cost_self": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Under it all, you want proof that the bond runs both ways.",
               "cost_others": "Loyalty is how you love, and you show it by staying. You stand by the people you chose rather than look around, and you let the staying speak for you. Those you love rarely hear it in words."
             }
@@ -99,7 +99,7 @@
             "angles": {
               "drive": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. What no longer matters to you is yours to part with.",
               "cost_self": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. You rent space for things that give nothing back.",
-              "cost_others": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and the house fills from the walls in. You leave the people you live with less space in their own home."
+              "cost_others": "Things come in far more easily than they go out. You keep a thing rather than take its space back, and the house fills from the walls in. The people you live with get less space in their own home."
             }
           },
           {
@@ -683,6 +683,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R4 earth:E4-18",
       "replaced": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you own wears well."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 earth:E4-02",
+      "replaced": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. The people you stand by know exactly where to find you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r4-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; MINOR fixes approved as in round 1 (\"Approve all other fixes besides the four system-level items\"), A3 excluded",
+      "finding": "R4 earth:E4-06",
+      "replaced": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and the house fills from the walls in. You leave the people you live with less space in their own home."
     }
   ]
 }
