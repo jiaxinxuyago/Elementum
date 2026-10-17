@@ -8,7 +8,7 @@
      "headline": "You love best with time alone built in.",
      "recognition": "You want a partner close, and you also want hours each week that belong only to you. Because you sort out your feelings alone, you go quiet before a serious talk, and a partner who presses gets less of you. What you need in love is someone who waits for you to come back.",
      "lived": "The people you have loved so far have split into two kinds, those who left you alone to think and those who took your silence personally. You have stayed longest with the first kind, and the arguments you remember were mostly about time apart.",
-     "ahead": "Through your Home Chapter your household settles around a shared rhythm, with time together and time apart agreed without a fight. You grow closer to a partner in these years by talking through what you have already worked through alone."
+     "ahead": "Through your Home Chapter your household settles around a shared rhythm, with time together and time apart agreed without a fight. You grow closer to a partner in these years by talking through what you have already worked out alone."
     },
     "Mind": {
      "headline": "You think alone and speak once you are sure.",
@@ -31,8 +31,8 @@
     "Mind": {
      "headline": "Your mind gets clearer with every year.",
      "recognition": "You spend your best hours on one subject at a time, reading and thinking until it comes clear. Because understanding is the thing you value most, you guard those hours closely, and you resent the phone call that breaks them. You are sharper than people expect, and you enjoy surprising them.",
-     "lived": "Your thinking has narrowed since your late forties to the few questions that matter to you, and it has grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
-     "ahead": "From your late forties you work on one question at a time, in study and quiet work of your own choosing, and you get further with each one. You turn what you know into notes or lessons for the people after you, and they come back to them for years."
+     "lived": "The questions you think about have narrowed since your late forties to the few that matter to you, and your answers have grown more exact. You have settled things that puzzled you for decades, and you have shared less of what you found than people would like.",
+     "ahead": "Study and quiet work of your own choosing fill your days from your late forties, and you take each question as far as it will go. You turn what you know into notes or lessons for the people after you, and they come back to them for years."
     },
     "Growth": {
      "headline": "You grow in later life by keeping only what matters.",
@@ -44,7 +44,7 @@
   },
   "pianyin_hour_stem": {
    "defline": "The Alchemist stands at your Hour Gate, in plain view: in later life people come to you for what few others know.",
-   "reading": "You become known for a rare kind of knowledge, and people with odd problems come looking for you. Because your insight keeps growing with use, your most valued ideas and work arrive past your late forties. The younger people who seek you out, children or younger relatives or someone you train, learn from you what no course offered them. You are consulted far more than you are kept company, and your method stays unwritten for longer than it should.",
+   "reading": "You become known for a rare kind of knowledge, and people with odd problems come looking for you. Because your insight keeps growing with use, your strongest ideas and your most valued work come after your late forties. The younger people who seek you out, children or younger relatives or someone you train, learn from you what no course offered them. You are consulted far more than you are kept company, and your method stays unwritten for longer than it should.",
    "domains": {
     "Mind": {
      "headline": "You see further in later life, and faster.",
@@ -54,7 +54,7 @@
     },
     "Growth": {
      "headline": "You keep learning what few people bother to learn.",
-     "recognition": "With each decade you go deeper into rare subjects, the overlooked field or the old method nobody teaches. Because the unusual is what holds your interest, you grow faster on your own than in any class, and you find most courses too slow. You buy the out of print book and write to the one person still working on the question.",
+     "recognition": "With each decade you go deeper into rare subjects, the overlooked field or the old method nobody teaches. Because the unusual is what holds your interest, you grow faster on your own than in any class, and you find most courses too slow. You buy the out-of-print book and write to the one person still working on the question.",
      "lived": "At least one subject most people your age would never touch has become yours since your late forties. You have gone further into it than you expected, and you have said less about it than it deserves.",
      "ahead": "You grow from your late forties by mastering one rare thing completely. You put what you learn into a form others can use, a written method or a body of work, and you see it travel further than you do."
     },
@@ -105,7 +105,7 @@
   },
   "pianyin_year_branch": {
    "defline": "The Alchemist lives inside your Year Gate: underneath your childhood was care that came in unusual forms.",
-   "reading": "As a child you were loved through books or silence or an adult who cared for you in ideas more than in hugs. Because you learned early to feed your own mind, you have depended on yourself for understanding ever since. You came on in odd subjects and under unlikely teachers, at a pace nobody at home could set for you. Time alone still restores you in a way company never quite does, and you are used to being slightly apart.",
+   "reading": "As a child you were loved through books or silence or an adult who cared for you in ideas more than in hugs. Because you learned early to feed your own mind, you have depended on yourself for understanding ever since. You grew up through odd subjects and unlikely teachers, at a pace nobody at home could set for you. Time alone still restores you in a way company never quite does, and you are used to being slightly apart.",
    "domains": {
     "Family": {
      "headline": "You were loved at home in an unusual way.",
@@ -166,7 +166,7 @@
   },
   "zhengyin_hour_branch": {
    "defline": "The Sage lives inside your Hour Gate: underneath your later years is a quiet store of care, given back.",
-   "reading": "Accepting help feels strange to you, because for most of your life you have done the looking after. In later life help reaches you anyway, as care from children or younger relatives or someone you trained, and you learn to take it slowly. Your days settle into steady routines of reading, rest and good company, and your mind stays clear on them. You feel smallest in the weeks when nobody needs anything from you, and you say so to no one.",
+   "reading": "Accepting help feels strange to you, because for most of your life you have done the looking after. In later life help reaches you anyway, as care from children or younger relatives or someone you trained, and you learn to take it slowly. Your days settle into steady routines of reading, rest and good company, and your mind stays clear on them. You feel smallest in the weeks when nobody needs anything from you, and you rarely say so.",
    "domains": {
     "Family": {
      "headline": "Your family looks after you, and you let it.",
@@ -176,14 +176,14 @@
     },
     "Health": {
      "headline": "Your health in later life rests on gentle rhythm.",
-     "recognition": "You stay well on regular meals, unhurried walks and early nights, and you sleep badly the week the rhythm breaks. Because ease restores you, you take it further than it helps you, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
+     "recognition": "You stay well on regular meals, unhurried walks and early nights, and you sleep badly the week the rhythm breaks. Because ease restores you, you let the ease run on past the point it helps you, until days with no effort leave you flat and low on energy. You feel best in a week that holds a small challenge.",
      "lived": "Your sleep has come more easily since your late forties, and your days have found a steadier pace. You have also gone through a stretch of too much rest, and your energy came back once something asked more of you.",
      "ahead": "Your body does well from your late forties on gentle habits and the company of people who look after you. You hold your strength in these years through one demanding thing each week, and you feel the difference whenever you let it go."
     },
     "Mind": {
      "headline": "Your mind stays clear through daily habit.",
      "recognition": "You keep your thinking clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and a year with nothing to puzzle over leaves you restless. You think best with one good question in front of you.",
-     "lived": "Your thinking has grown calmer and steadier since your late forties, held up by daily reading and talks with people you trust. You have become the one others ask for a clear view, and you have enjoyed being asked.",
+     "lived": "Daily reading and talks with people you trust have kept your thinking calm and steady since your late forties. You have become the one others ask for a clear view, and you have enjoyed being asked.",
      "ahead": "Reading fills more of your days from your late forties, and you remember more of it than you did in your busiest years. Younger people come to rely on your judgement in these years, and you give it carefully."
     }
    }
@@ -196,7 +196,7 @@
      "headline": "You become the one your family turns to.",
      "recognition": "When your family needs advice or a calm word in a bad week, you are the one they call. Because protecting the young matters to you deeply, you step in early when someone younger is struggling, and you give more than you are asked for. You are respected at family gatherings more than you are relaxed at them.",
      "lived": "Younger people in your family have brought you their problems since your late forties, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
-     "ahead": "From your late forties the people after you look to you for guidance, and for cover when things fall apart. You give both steadily in these years, and you see what you taught them carry on in their lives."
+     "ahead": "Younger people look to you from your late forties for guidance, and for cover when things fall apart. You give both steadily in these years, and you see what you taught them carry on in their lives."
     },
     "Growth": {
      "headline": "You grow in later life by teaching.",
@@ -206,7 +206,7 @@
     },
     "Mind": {
      "headline": "Your thinking stays quick because people keep asking.",
-     "recognition": "You keep your mind in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a week when nobody calls, and you pick up the phone yourself before it ends.",
+     "recognition": "You keep your mind in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. You feel slower in a week when nobody calls, and you pick up the phone yourself before the week is out.",
      "lived": "Other people's questions have kept your mind active since your late forties, the advice asked for and the problems brought to you. You have read more in these years than in your busiest working ones, and you remember most of it.",
      "ahead": "Younger people bring you their hardest questions from your late forties, and you enjoy the work of answering them. You are quoted and asked for in these years, and you feel most yourself when a question has no easy answer."
     }
@@ -256,7 +256,7 @@
   },
   "zhengyin_year_branch": {
    "defline": "The Sage lives inside your Year Gate: underneath your childhood was real care, steady enough to trust.",
-   "reading": "Someone in your first home gave you decent, patient care, and the ease it gave you became the way you meet the world. Because care reached you early, you trust people first, and you find the protective ones quickly. The same safety made leaving it hard, and you have stayed in comfortable places longer than they helped you. You still recover from hard seasons by going back to the people who love you.",
+   "reading": "Someone in your first home gave you decent, patient care, and the ease it gave you became the way you meet the world. Because care reached you early, you trust people first, and you find the protective ones quickly. The same safety made leaving it hard, and you have stayed in comfortable places longer than they helped you grow. You still sleep and eat better after a hard season once you are back with the people who love you.",
    "domains": {
     "Family": {
      "headline": "You were truly looked after as a child.",

@@ -52,3 +52,24 @@ Page: https://claude.ai/artifact/Vz38yjKw7uDv3CtkpDfq2r
 - Page: https://claude.ai/artifact/YSEbBsneiSwky8sC1t9F7Z (source: `round-2/`).
 - Content: `ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json` (120 units, gate 0 failures).
 - Gate: `gate.mjs` in the same folder.
+
+## Round 2 rulings (owner 2026-10-17): "T0 A … T10 A, P1 A, P2 A"
+
+- **The golden template:** approved.
+- **Sealed writers:** wrote the rest. 849 units landed, gated.
+- **First audit:** mean B 2.79. The majors were mostly composition; fixes went into the resolver.
+- **Revision round 2:** written and gated (out-1 to out-6 in `ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-r2/`). Not landed.
+
+## Owner feedback 2026-10-17 (after the journey map): pause and redesign
+
+> "the domain section should be separated from the life chapter (pillar reading section), thus, the additional section revealed from the catalogue page should include: 1. A domain page 2. Life chapter page. A. Domain page can show each 8 life domain as icons, and when tapping into each icons leads into each domain reading dissected by the ten-god positioning as the first reading angle. (we could add in other reading angle for higher pricing tiers) B. The life chapter page is the page dedicated to pillar readings". The owner keeps the four ways in, including THE EDGE icons from each energy page.
+
+**Done:** the screens are paused (`DOMAINS_V2 = false` everywhere; code kept).
+
+**Redesign page:** https://claude.ai/artifact/TSnLeJvnmD1awD4eLwKghQ (source: `round-3/`). It covers:
+- beat 4 YOUR DOMAINS and beat 5 YOUR LIFE CHAPTERS;
+- the Domains page (eight icons);
+- a domain reading with angle tabs: By position, and By decade for a higher tier;
+- the Life Chapters page: four chapter cards, each with its seats, chapter readings, domain chips and decades.
+
+**Open:** Q1–Q10 and S1–S2. The main one is the name clash, because the Today tab already says "Life Chapter" for the decades.

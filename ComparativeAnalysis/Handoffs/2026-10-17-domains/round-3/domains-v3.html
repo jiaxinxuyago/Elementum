@@ -1,0 +1,377 @@
+<title>Domains and Life Chapters</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=EB+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one reading column for the review; phone-shaped mockups in the app's own cardstock look sit inside it. */
+:root{
+  --bg:#F2F1EE; --fg:#1E2124; --muted:#5E6369; --line:#D9D7D2; --panel:#FFFFFF; --accent:#33557A; --accentSoft:#E3EAF2; --rec:#2F6B4F; --recSoft:#E2EFE7; --warn:#8A5A12; --warnSoft:#F6ECD9;
+  /* the app's own surface, the same in both themes because it is a picture of the app */
+  --paper:#F6F0E1; --paperHair:#CDBE9E; --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --gold:#B8962E; --seal:#9E3B2C;
+  --wood:#7A9E6E; --metal:#8BA3B8; --fire:#C4745A; --earth:#B89A6A; --water:#5F7F96;
+  --f-ui:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif; --f-mono:'JetBrains Mono',Consolas,monospace;
+  --f-app:'EB Garamond',Georgia,serif; --f-disp:'Cormorant Garamond',Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15171A;--fg:#E7E8EA;--muted:#A2A7AD;--line:#2D3136;--panel:#1D2024;--accent:#8FB1D6;--accentSoft:#22303F;--rec:#7FC4A0;--recSoft:#1C2F26;--warn:#E0B66A;--warnSoft:#33291A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15171A;--fg:#E7E8EA;--muted:#A2A7AD;--line:#2D3136;--panel:#1D2024;--accent:#8FB1D6;--accentSoft:#22303F;--rec:#7FC4A0;--recSoft:#1C2F26;--warn:#E0B66A;--warnSoft:#33291A;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-ui);font-size:15px;line-height:1.55;margin:0}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 80px}
+h1{font-size:26px;line-height:1.2;margin:0 0 8px;text-wrap:balance}
+h2{font-size:20px;line-height:1.25;margin:44px 0 10px;text-wrap:balance;padding-top:18px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:26px 0 8px;text-wrap:balance}
+p{margin:0 0 12px}
+.lede{color:var(--muted);font-size:15px}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14px}
+.note b{font-weight:600}
+.rec{border-color:var(--rec);background:var(--recSoft)}
+.warn{border-color:var(--warn);background:var(--warnSoft)}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:99px;border:1px solid var(--line);color:var(--muted);vertical-align:2px}
+.tag.rec{color:var(--rec);border-color:var(--rec);background:transparent}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.toc a{font-size:13px;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:3px 10px;background:var(--panel)}
+.flow{display:grid;gap:10px;margin:12px 0}
+.flowrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:13.5px}
+.flowrow .lab{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);width:100%}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:5px 9px}
+.step.new{border-color:var(--accent);background:var(--accentSoft)}
+.arr{color:var(--muted)}
+.pair{display:grid;grid-template-columns:1fr;gap:14px;margin:14px 0}
+@media(min-width:720px){.pair{grid-template-columns:1fr 1fr}}
+.pair>div{min-width:0}
+.cap{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+.tbl{overflow-x:auto;margin:10px 0}
+th,td{text-align:left;vertical-align:top;padding:7px 8px;border-bottom:1px solid var(--line)}
+th{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+/* ── the app mockup ── */
+.phone{background:var(--paper);color:var(--ink);border:1px solid var(--paperHair);border-radius:22px;padding:18px 16px 20px;max-width:390px;margin:0 auto;font-family:var(--f-app);font-size:15.5px;line-height:1.5;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+.phone .ey{font-family:var(--f-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkLight);margin:0 0 4px}
+.phone .ttl{font-family:var(--f-disp);font-weight:600;font-size:24px;line-height:1.15;margin:0 0 6px;text-wrap:balance}
+.phone .sub{font-size:14.5px;color:var(--inkSoft);margin:0 0 10px}
+.phone p{margin:0 0 10px}
+.card{background:#FBF7EC;border:1px solid var(--paperHair);border-radius:12px;padding:12px 12px;margin:10px 0}
+.card .laylab{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkLight);display:block;margin:0 0 4px}
+.chip{display:inline-block;font-family:var(--f-app);font-size:12.5px;border:1px solid var(--paperHair);border-radius:99px;padding:0 8px;margin:2px 3px 0 0;color:var(--inkSoft)}
+.seatrow{display:block;padding:8px 0;border-top:1px dashed var(--paperHair)}
+.seatrow:first-of-type{border-top:0}
+.seatrow b{font-weight:600}
+.small{font-size:13.5px;color:var(--inkSoft)}
+.lock{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--seal)}
+.climb{border-left:2px solid var(--paperHair);padding-left:11px;margin:16px 0 6px}
+.climb .stepey{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--seal);margin:0 0 2px}
+.climb .stephd{font-family:var(--f-disp);font-weight:600;font-size:19px;line-height:1.2;margin:0 0 6px}
+.beat{margin:0 0 12px}
+.beat .when{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--inkLight);display:block;margin:0 0 2px}
+.beat .who{font-size:13px;color:var(--inkLight)}
+.beat.now .when{color:var(--seal)}
+.beat.decade{background:#FBF7EC;border:1px solid var(--paperHair);border-radius:10px;padding:9px 10px}
+.gap{font-size:14px;color:var(--inkSoft);border:1px dashed var(--paperHair);border-radius:10px;padding:8px 10px;margin:0 0 12px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
+.tile{background:#FBF7EC;border:1px solid var(--paperHair);border-radius:12px;padding:9px 9px 8px;min-width:0}
+.tile .tn{font-family:var(--f-disp);font-weight:600;font-size:17px;line-height:1.1}
+.tile .tc{font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--inkLight)}
+.tile .th{font-size:13px;line-height:1.35;color:var(--inkSoft);margin-top:4px}
+.tile.ghost{background:transparent;border-style:dashed;opacity:.8}
+.tile.hl{border-color:var(--ink)}
+.seatcard{border-top:1px solid var(--paperHair);padding:9px 0 2px}
+.seatcard .st{font-weight:600}
+.seatcard .zh{font-size:12px;color:var(--inkLight);margin-left:6px}
+.closed{font-size:13.5px;color:var(--inkSoft);border:1px dashed var(--paperHair);border-radius:10px;padding:8px 10px;margin:8px 0}
+/* the life line */
+.ll{margin:10px 0 12px}
+.ll-grid{position:relative;display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--paperHair);border-radius:10px;overflow:hidden;background:#FBF7EC}
+.ll-col{border-left:1px solid var(--paperHair);padding:6px 4px 5px;min-width:0;position:relative}
+.ll-col:first-child{border-left:0}
+.ll-col.future{background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(184,150,46,.07) 6px 12px)}
+.ll-col.closedcol{background:repeating-linear-gradient(135deg,transparent 0 5px,rgba(133,125,114,.14) 5px 10px)}
+.ll-gate{font-family:var(--f-mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--inkLight);display:block;text-align:center}
+.ll-age{font-family:var(--f-mono);font-size:8.5px;color:var(--inkLight);display:block;text-align:center;margin-bottom:3px}
+.ll-seat{display:block;font-size:11.5px;line-height:1.2;text-align:center;border-radius:6px;padding:3px 2px;margin:3px 0;border:1px solid transparent;color:var(--inkLight)}
+.ll-seat.on{color:var(--ink);font-weight:600;border-color:var(--paperHair);background:var(--paper)}
+.ll-seat .k{display:block;font-family:var(--f-mono);font-size:7.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:400;color:var(--inkLight)}
+.ll-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:3px;vertical-align:1px}
+.ll-empty{display:block;font-size:10.5px;text-align:center;color:var(--inkLight);padding:3px 0;margin:3px 0}
+.ll-mark{position:absolute;top:0;bottom:0;width:0;border-left:2px solid var(--seal);pointer-events:none}
+.ll-mark span{position:absolute;top:-1px;left:3px;font-family:var(--f-mono);font-size:8.5px;letter-spacing:.06em;color:#fff;background:var(--seal);border-radius:3px;padding:0 4px;white-space:nowrap}
+.ll-key{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--inkLight);margin-top:3px}
+/* questions */
+.q{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:12px 0}
+.q h4{margin:0 0 8px;font-size:15px;line-height:1.35}
+.q .qid{font-family:var(--f-mono);font-size:11px;color:var(--accent);margin-right:6px}
+.opt{display:flex;gap:9px;align-items:flex-start;padding:7px 8px;border:1px solid var(--line);border-radius:9px;margin:6px 0;cursor:pointer}
+.opt input{margin-top:4px;flex:none}
+.opt span{min-width:0}
+.opt:has(input:checked){border-color:var(--accent);background:var(--accentSoft)}
+.opt:focus-within{outline:2px solid var(--accent);outline-offset:1px}
+.opt small{display:block;color:var(--muted);font-size:13px}
+.bar{position:sticky;bottom:0;margin-top:24px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+.bar output{font-family:var(--f-mono);font-size:12.5px;flex:1 1 220px;min-width:0;word-break:break-word}
+button{font:inherit;font-weight:600;font-size:14px;background:var(--accent);color:var(--bg);border:0;border-radius:9px;padding:8px 14px;cursor:pointer}
+button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.src{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.before{font-size:13.5px;color:var(--muted)}
+.before b{color:var(--fg);font-weight:600}
+
+.iconrow{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:8px 0 0}
+.ic{display:flex;flex-direction:column;align-items:center;gap:1px;border:1px solid var(--paperHair);border-radius:12px;padding:8px 2px;background:#FBF7EC;font-size:12.5px;min-width:0}
+.ic b{font-family:var(--f-disp);font-size:15px}.ic i{font-style:normal;font-family:var(--f-mono);font-size:9px;color:var(--inkLight)}
+.ic.on{border-color:var(--ink)}
+.icongrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.gi{display:flex;flex-direction:column;gap:2px;border:1px solid var(--paperHair);border-radius:12px;padding:9px;background:#FBF7EC;min-width:0}
+.gi b{font-family:var(--f-disp);font-size:17px}.gi i{font-style:normal;font-family:var(--f-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--inkLight)}.gi em{font-style:normal;font-size:13px;line-height:1.35;color:var(--inkSoft)}
+.gi.on{border-color:var(--ink)}
+.tabs2{display:flex;gap:6px;margin:6px 0 10px}.tabs2 .t{font-family:var(--f-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--paperHair);border-radius:99px;padding:3px 9px;color:var(--inkLight)}
+.tabs2 .t.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}.tabs2 .t.lock{border-style:dashed}
+.seatblk{border-top:1px solid var(--paperHair);padding:9px 0 4px}.seatblk .sh{display:block;font-weight:600}.seatblk .sm{display:block;font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--inkLight);margin:1px 0 5px}
+.seatblk .more{font-size:13px;color:var(--inkLight)}
+.chap{border:1px solid var(--paperHair);border-radius:12px;padding:10px 11px;margin:10px 0;background:#FBF7EC}.chap.now{border-color:var(--seal)}
+.chh{display:flex;justify-content:space-between;align-items:baseline;gap:6px;flex-wrap:wrap}.cn{font-family:var(--f-disp);font-weight:600;font-size:18px}
+.cs{font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--inkLight)}.cs.now{color:var(--seal)}
+.cseat{font-size:12.5px;font-weight:600;color:var(--inkSoft);margin:8px 0 2px}.chips{margin:4px 0}.old{font-size:12px;color:var(--inkLight);border-top:1px dashed var(--paperHair);padding-top:6px;margin:6px 0 0}
+.tree li{margin:5px 0}</style>
+<div class="wrap">
+<p class="eyebrow">Elementum · The Domains · round 3 · your new structure</p>
+<h1>Domains and Life Chapters, two sections from Your Reading</h1>
+<p class="lede">Your feedback, applied. Your Reading opens two new sections after YOUR ENERGY MAP. The first is Domains: eight icons, each opening a domain reading cut by ten-god position, with more angles on higher tiers. The second is Life Chapters: the four pillars read as four stretches of your life. Energy pages keep their direct doors into a domain reading. Everything below uses the golden chart (age 31) and real text: approved text where it exists, new drafts marked as drafts. Questions at the end.</p>
+<div class="toc"><a href="#heard">1 · What I heard</a><a href="#map">2 · The new map</a><a href="#cat">3 · Your Reading</a><a href="#dom">4 · Domains</a><a href="#read">5 · A domain reading</a><a href="#lc">6 · Life Chapters</a><a href="#doors">7 · Doors from energy pages</a><a href="#moves">8 · What moves where</a><a href="#questions">9 · Questions</a></div>
+
+<h2 id="heard">1 · What I heard, and what I paused</h2>
+<div class="note"><b>Paused.</b> The domain screens I had built (one hub with the life line plus the three-step domain pages) are switched off on dev.elementum.life as well as elementum.life. The code stays, so nothing is lost. The domain text the writers revised after the first audit is gated but not landed. It is content, and it fits either structure.</div>
+<div class="tbl"><table>
+<tr><th>You said</th><th>What it means for the design</th></tr>
+<tr><td>Keep an overall domain section from Your Reading, and keep direct doors from each energy page (THE EDGE icons).</td><td>All four ways in stay. Every door lands on the same domain reading.</td></tr>
+<tr><td>Separate the domains from the life chapters (the pillar reading).</td><td>Two sections, two pages. Time, meaning the gates and the decades, moves out of the domain page into Life Chapters.</td></tr>
+<tr><td>A Domains page with the eight domains as icons. Each opens a domain reading cut by ten-god position as the first angle, with other angles for higher tiers.</td><td>The domain reading gets angle tabs. Angle 1, By position: the seats that rule this domain, one block each, in gate order. Angle 2, By decade, is a proposed higher-tier angle.</td></tr>
+<tr><td>A Life Chapters page dedicated to the pillar readings.</td><td>The four gates as four chapters (Early, Rising, Home, Late). Each holds its two seats, its chapter reading, the domains it rules and the decades that fall in it.</td></tr>
+</table></div>
+
+<h2 id="map">2 · The new map</h2>
+<ul class="tree" style="list-style:none;padding:0">
+<li><b>Your Reading</b> (the Reading tab home)
+  <ul style="list-style:none;border-left:1px dashed var(--line);padding-left:14px">
+    <li>Beat 1 You are · Beat 2 YOUR ENERGY MANUAL · Beat 3 YOUR ENERGY MAP (all unchanged)</li>
+    <li><b style="color:var(--rec)">Beat 4 · YOUR DOMAINS</b> <span class="tag rec">new</span>: one card, the claim and the eight icons. Tap the card or an icon.
+      <ul style="list-style:none;border-left:1px dashed var(--line);padding-left:14px">
+        <li><b>Domains page</b> <span class="tag rec">new</span>: eight icons, plus how a seat rules a domain
+          <ul style="list-style:none;border-left:1px dashed var(--line);padding-left:14px"><li><b>A domain reading</b> <span class="tag rec">new</span>: angle tabs, By position (Seeker) and By decade (higher tier) → the seat cards</li></ul></li>
+      </ul></li>
+    <li><b style="color:var(--rec)">Beat 5 · YOUR LIFE CHAPTERS</b> <span class="tag rec">new</span>: one card, the life line with "you · 31". Tap the card.
+      <ul style="list-style:none;border-left:1px dashed var(--line);padding-left:14px"><li><b>Life Chapters page</b> <span class="tag rec">new</span>: four chapter cards. Each chapter's domain chips open that domain's reading.</li></ul></li>
+    <li>The words on this page (unchanged)</li>
+    <li>An energy page: THE DOMAINS card icons → a domain reading <span class="tag rec">new door</span> · THE FUNCTION → THE EDGE icons → a domain reading <span class="tag rec">new door</span></li>
+    <li>Day Master page → Pillar chart (its "Your positions" rows could open Life Chapters, Q9)</li>
+  </ul></li>
+</ul>
+
+<h2 id="cat">3 · Your Reading: the two new beats</h2>
+<div class="pair">
+<div><p class="cap">Beat 4 · YOUR DOMAINS (golden)</p>
+<div class="phone">
+  <p class="ey">Your Domains</p>
+  <div class="ttl" style="font-size:21px">Wealth and Family carry the most weight in your life.</div>
+  <div class="iconrow">
+    <span class="ic on"><b>Wealth</b><i>4</i></span><span class="ic on"><b>Family</b><i>4</i></span><span class="ic"><b>Career</b><i>2</i></span><span class="ic"><b>Social</b><i>2</i></span>
+    <span class="ic"><b>Mind</b><i>1</i></span><span class="ic"><b>Growth</b><i>1</i></span><span class="ic"><b>Health</b><i>1</i></span><span class="ic"><b>Love</b><i>1</i></span>
+  </div>
+  <p class="small" style="margin:6px 0 0">Eight parts of your life, and the characters that rule them ›</p>
+</div></div>
+<div><p class="cap">Beat 5 · YOUR LIFE CHAPTERS (golden)</p>
+<div class="phone">
+  <p class="ey">Your Life Chapters</p>
+  <div class="ttl" style="font-size:21px">You are in your Rising Chapter, three years from your Home Chapter.</div>
+  <div class="ll" data-ll='{"age":31,"seats":[["year","at","The Steward","wood",1],["year","inside","The Artisan","water",1],["month","at","The Twin","metal",1],["month","inside","The Alchemist","earth",1],["day","inside","The Horizon","wood",1],["hour","at","The Steward","wood",1],["hour","inside","The Rival","metal",1]],"allOn":true}'></div>
+  <p class="small" style="margin:0">Four gates, four stretches of your life, read one by one ›</p>
+</div></div>
+</div>
+<p class="note">The beat-4 icons are the same eight icons as the Domains page. Each number is the count of seats that rule that domain. Tapping an icon jumps straight to that domain's reading, and tapping the card opens the Domains page (Q1).</p>
+
+<h2 id="dom">4 · The Domains page</h2>
+<div class="pair">
+<div><p class="cap">Proposed · Domains page (golden)</p>
+<div class="phone">
+  <p class="ey">The Domains</p>
+  <div class="ttl">Eight parts of your life, and who rules them</div>
+  <p>One of ten characters sits in each seat of your chart, and each character rules certain parts of your life. Where several seats rule the same domain, that domain carries more weight for you.</p>
+  <div class="icongrid">
+    <span class="gi on"><b>Wealth</b><i>4 seats</i><em>Your money comes through the people close to you.</em></span>
+    <span class="gi on"><b>Family</b><i>4 seats</i><em>You were fed well, and you became the one who feeds.</em></span>
+    <span class="gi"><b>Career</b><i>2 seats</i><em>Your work pays for what only you know.</em></span>
+    <span class="gi"><b>Social</b><i>2 seats</i><em>Your friends are your equals, or they drift.</em></span>
+    <span class="gi"><b>Mind</b><i>1 seat</i><em>Your mind runs best on what others find strange.</em></span>
+    <span class="gi"><b>Growth</b><i>1 seat</i><em>You grow late, and mostly in private.</em></span>
+    <span class="gi"><b>Health</b><i>1 seat</i><em>Your body trusts food and rest to put it right.</em></span>
+    <span class="gi"><b>Love</b><i>1 seat</i><em>You fall for people who widen your life.</em></span>
+  </div>
+  <p class="small">A domain with no seat keeps a dashed icon. All of this page is free.</p>
+</div></div>
+<div><p class="cap">What changed from the hub you saw before</p>
+<div class="note">
+<p><b>Out:</b> the life line and the four-gates lesson. They now teach the Life Chapters page, because they are about time.</p>
+<p><b>In:</b> a two-sentence lesson on position, "a character in a seat rules a domain", because this page is about who rules what.</p>
+<p style="margin:0"><b>Kept:</b> the claim, the eight tiles with their headlines, and the weight order. The tiles are drawn as icons now, which matches your ask and the icons THE EDGE already uses.</p>
+</div></div>
+</div>
+
+<h2 id="read">5 · A domain reading: angle 1, by position</h2>
+<p>The reading is cut by seat. The lead seat opens with how you are, then every seat that rules the domain gets its own block, in gate order. The gate gives each block its time, so the climb (it knows me, how did it know, will that happen) survives inside the positions: the Year seat reads as your past, the Hour seats as your future. Decades move to angle 2.</p>
+<div class="pair">
+<div><p class="cap">Proposed · Wealth, By position (golden, Seeker view)</p>
+<div class="phone">
+  <p class="ey">The Domains · Wealth</p>
+  <div class="ttl">Your money comes through the people close to you.</div>
+  <div class="tabs2"><span class="t on">By position</span><span class="t lock">By decade · Advisor</span></div>
+  <div class="climb"><p class="stepey">How you are</p>
+    <p>You find money through other people, in a tip from a friend or a side venture with someone close. Because your openings arrive through people you trust, you say yes before you read the terms, and you earn in bursts more than in a steady line. The money you make fastest is the money you hold on to least.</p>
+    <p>You lose money most easily where you share it with friends and family, and you also find your safety net among those same people.</p></div>
+  <p class="stepey" style="margin:14px 0 4px">The four seats that rule your Wealth</p>
+  <div class="seatblk"><span class="sh">The Steward at the Year Gate</span><span class="sm">Birth to 15 · in plain view · already lived</span>
+    <p>You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent.</p><span class="more">Read this seat ›</span></div>
+  <div class="gap"><span class="when" style="font-family:var(--f-mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--seal)">Your Month Gate · 16 to now · no Wealth seat</span><br>Since sixteen you have put work, study and friends before money, and your income has stayed below what you could earn.</div>
+  <div class="seatblk"><span class="sh">The Horizon inside the Day Gate</span><span class="sm">35 to 47 · inside · from 2030</span>
+    <p>From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you keep only what has both names written down.</p><span class="more">Read this seat ›</span></div>
+  <div class="seatblk"><span class="sh">The Steward at the Hour Gate</span><span class="sm">48 on · in plain view · from 2043</span>
+    <p>Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough.</p><span class="more">Read this seat ›</span></div>
+  <div class="seatblk"><span class="sh">The Rival inside the Hour Gate</span><span class="sm">48 on · inside · from 2043</span>
+    <p>Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks.</p><span class="more">Read this seat ›</span></div>
+  <p class="small">See your Wealth across your Life Chapters ›</p>
+</div></div>
+<div><p class="cap">Angle 2 · By decade (proposed for a higher tier)</p>
+<div class="phone">
+  <p class="ey">The Domains · Wealth</p>
+  <div class="tabs2"><span class="t">By position</span><span class="t on">By decade</span></div>
+  <p class="small">The ten-year decades whose character rules your Wealth, and where they meet your seats.</p>
+  <div class="beat decade"><span class="when">Your strongest window · 2043 to 2052</span><p style="margin:0 0 6px"><b>The Steward rules this decade and your Hour Gate both.</b></p><p style="margin:0">You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it.</p></div>
+  <div class="beat decade"><span class="when">A Horizon decade · 2053 to 2062</span><p style="margin:0">Money comes to you through openings in these years more than through salary, a deal or a side venture or a move. You take more chances with money than you did ten years earlier, and most of them pay.</p></div>
+  <p class="small" style="margin-top:10px">Other angles can sit here later: by element, by this year, by a person (compatibility).</p>
+</div>
+<div class="note" style="margin-top:12px"><b>Free reader.</b> Sees the title, the tabs and "How you are". The seat blocks show their names and gate lines, with the text locked behind Seeker. The By decade tab shows the window's label and dates, with its text locked behind the higher tier (Q4, Q5).</div>
+</div>
+</div>
+
+<h2 id="lc">6 · The Life Chapters page: the four pillars</h2>
+<p>Each pillar is one chapter of life. A chapter card holds:
+<ul>
+<li>its two seats and their chapter reading;</li>
+<li>the domains that chapter rules, as chips that open that domain's reading;</li>
+<li>the decades that fall inside it.</li>
+</ul>
+Status follows your age: lived, now or coming. The chapter readings are drafts in the current voice, replacing the old <span class="src">life_chapter</span> texts (shown in grey under the first card for comparison).</p>
+<div class="pair">
+<div><p class="cap">Proposed · Life Chapters page (golden) · drafts</p>
+<div class="phone">
+  <p class="ey">Your Life Chapters</p>
+  <div class="ttl">Four gates, four stretches of your life</div>
+  <p>Your chart has four gates, and each one is a stretch of your life. Every gate holds two seats, one in plain view and one inside, and the characters in them set the tone of those years.</p>
+  <div class="ll" data-ll='{"age":31,"seats":[["year","at","The Steward","wood",1],["year","inside","The Artisan","water",1],["month","at","The Twin","metal",1],["month","inside","The Alchemist","earth",1],["day","inside","The Horizon","wood",1],["hour","at","The Steward","wood",1],["hour","inside","The Rival","metal",1]],"allOn":true}'></div>
+
+  <div class="chap"><div class="chh"><span class="cn">The Early Chapter</span><span class="cs lived">birth to 15 · lived</span></div>
+    <p class="cseat">The Steward at the Year Gate</p><p>Your Early Chapter was an orderly one, with money counted at home and promises kept in front of you. You came out of it careful, and the habits you formed then still run your accounts.</p>
+    <p class="cseat">The Artisan inside the Year Gate</p><p>Underneath that order was comfort given freely, a home where someone made sure you were fed and warm. You still recover the way you learned to then, through rest and food and people you love.</p>
+    <div class="chips"><span class="chip">Wealth</span><span class="chip">Family</span><span class="chip">Health</span></div>
+    <p class="small">Decades inside it: a Sage decade from 8 (2003 to 2012)</p>
+    <p class="old">Today's text: "Your early chapter ran on order: money named, chores real, promises kept in front of you. Whatever else childhood held, it taught account-keeping early…"</p></div>
+
+  <div class="chap now"><div class="chh"><span class="cn">The Rising Chapter</span><span class="cs now">16 to 34 · now</span></div>
+    <p class="cseat">The Twin at the Month Gate</p><p>Your Rising Chapter is the one where you prove yourself alone, taking whole jobs and signing your name to them. These years reward what you do with your own hands, and you pay for every credit you share loosely.</p>
+    <p class="cseat">The Alchemist inside the Month Gate · your strongest seat</p><p>Inside it runs a private education, in subjects few people around you follow. These years look slow from outside, and you are building the knowledge your later work will be paid for.</p>
+    <div class="chips"><span class="chip">Career</span><span class="chip">Social</span><span class="chip">Mind</span><span class="chip">Growth</span></div>
+    <p class="small">Decades inside it: an Alchemist decade (2013 to 2022), and now a Magistrate decade (2023 to 2032)</p></div>
+
+  <div class="chap"><div class="chh"><span class="cn">The Home Chapter</span><span class="cs">35 to 47 · from 2030</span></div>
+    <p class="cseat">The Horizon inside the Day Gate</p><p>Your Home Chapter opens wider than the ones before it, through a partner whose world is bigger than yours. Love, friends and money start to move together in these years, and you say yes to more than you ever have.</p>
+    <div class="chips"><span class="chip">Love</span><span class="chip">Social</span><span class="chip">Wealth</span></div>
+    <p class="small">Decades inside it: a General decade (2033 to 2042)</p></div>
+
+  <div class="chap"><div class="chh"><span class="cn">The Late Chapter</span><span class="cs">48 on · from 2043</span></div>
+    <p class="cseat">The Steward at the Hour Gate</p><p>Your Late Chapter is the well-kept one, when the saving of every earlier decade finally shows. You end up as the one in your family who has enough, and you plan for the people after you years early.</p>
+    <p class="cseat">The Rival inside the Hour Gate</p><p>Inside it, the people after you push against you and fight for you, and they ask for a share of what you built. These years stay loud and warm, and you keep your own part only where you fixed its size early.</p>
+    <div class="chips"><span class="chip">Wealth</span><span class="chip">Family</span></div>
+    <p class="small">Decades inside it: Steward from 48 (2043), Horizon from 58 (2053)</p></div>
+</div></div>
+<div><p class="cap">How it relates to what exists</p>
+<div class="note">
+<p><b>The word "Life Chapter" is already in use for the decades.</b> The Today tab has a "Life Chapter · The {Element} Decade" tile and page. An older "Life Chapters · Your decades" screen also exists, but nothing links to it. Your Life Chapters are the four pillars, so two features would share one name (Q2).</p>
+<p><b>The Pillar chart page</b> (Day Master → Birth Chart) already lists "Your positions · who sits in each seat" as plain rows. Those rows could open the matching chapter (Q9).</p>
+<p style="margin:0"><b>Free reader.</b> Sees the life line, the four chapter names and status, the seat names and the domain chips. The chapter readings are Seeker (Q7).</p>
+</div>
+<div class="note"><b>No birth hour.</b> The Late Chapter card is shown closed: "Your Hour Gate is closed. Add your birth hour to read your Late Chapter." It links to the hour discovery.</div>
+</div>
+</div>
+
+<h2 id="doors">7 · Doors from each energy page (kept, all lead to the domain reading)</h2>
+<div class="pair">
+<div><p class="cap">Energy page · THE DOMAINS card (Wood, golden)</p>
+<div class="phone">
+  <div class="card"><span class="laylab">The Domains</span>
+    <div class="ttl" style="font-size:19px">What Wood rules in your life</div>
+    <div class="iconrow" style="grid-template-columns:repeat(4,1fr)">
+      <span class="ic on"><b>Wealth</b><i>3 of 4</i></span><span class="ic on"><b>Family</b><i>2 of 4</i></span><span class="ic"><b>Love</b><i>1</i></span><span class="ic"><b>Social</b><i>1 of 2</i></span>
+    </div>
+    <p class="small" style="margin:6px 0 0">Each icon opens that domain's reading, with every seat that rules it.</p></div>
+</div></div>
+<div><p class="cap">Function detail · THE EDGE (a Wood catalyst page)</p>
+<div class="phone">
+  <div class="card"><span class="laylab">The Edge</span>
+    <p class="small" style="margin:0 0 6px">The edge line, as today.</p>
+    <div class="iconrow" style="grid-template-columns:repeat(3,1fr)"><span class="ic on"><b>Wealth</b><i>›</i></span><span class="ic on"><b>Family</b><i>›</i></span><span class="ic on"><b>Social</b><i>›</i></span></div>
+    <p class="small" style="margin:6px 0 0">An icon opens that domain's reading directly. The small domain sheet and its price line go.</p></div>
+</div></div>
+</div>
+
+<h2 id="moves">8 · What moves where</h2>
+<div class="tbl"><table>
+<tr><th>Piece</th><th>Before (the paused design)</th><th>Now</th></tr>
+<tr><td>The life line and the four-gates lesson</td><td>Top of the domain hub</td><td>The Life Chapters page and its beat-5 card</td></tr>
+<tr><td>"How you are" (the lead seat)</td><td>Domain page, step 1</td><td>Domain reading, top of By position. Unchanged.</td></tr>
+<tr><td>Seat beats (lived or coming)</td><td>Spread across steps 2 and 3, by time</td><td>One block per seat, in gate order, under By position</td></tr>
+<tr><td>Gap lines ("no Wealth seat in your Month Gate")</td><td>Step 2</td><td>A thin row between seat blocks, at its gate</td></tr>
+<tr><td>Decade lines and the strongest or heaviest window</td><td>Step 3</td><td>The By decade angle (higher tier). Also listed inside each Life Chapter.</td></tr>
+<tr><td>Seat readings and deflines</td><td>Seat cards at the page foot</td><td>"Read this seat" inside each block, and on the Life Chapters page</td></tr>
+<tr><td>Chapter readings (the old <span class="src">life_chapter</span>, ×70)</td><td>Retired to ore</td><td>Rewritten as the Life Chapters page's text, one per seat</td></tr>
+</table></div>
+<p>The corpus already written (headlines, recognition, lived and ahead per seat and domain, decade lines, gap lines) fits this structure as it is. Only the chapter readings are new writing: 70 units, plus Day and Hour variants for readers already past those gates.</p>
+
+<h2 id="questions">9 · Questions</h2>
+<p class="lede">The first option is my recommendation each time.</p>
+<div id="qs"></div>
+<div class="bar"><output id="codes">No answers yet.</output><button id="copy" type="button">Copy my answers</button></div>
+</div>
+
+<script>
+const GATES=['year','month','day','hour'],GN={year:'Year Gate',month:'Month Gate',day:'Day Gate',hour:'Hour Gate'},AGE={year:'0 to 15',month:'16 to 34',day:'35 to 47',hour:'48 on'};
+function agePos(a){if(a<16)return a/16*25;if(a<35)return 25+(a-16)/19*25;if(a<48)return 50+(a-35)/13*25;return 75+Math.min(1,(a-48)/30)*25}
+function curIdx(a){return a<16?0:a<35?1:a<48?2:3}
+document.querySelectorAll('.ll').forEach(el=>{
+  let d;try{d=JSON.parse(el.dataset.ll)}catch(e){return}
+  const ci=curIdx(d.age);
+  const cols=GATES.map((g,i)=>{
+    const closed=d.hourClosed&&g==='hour';
+    const cls='ll-col'+(closed?' closedcol':(i>ci?' future':''));
+    let inner=`<span class="ll-gate">${GN[g]}</span><span class="ll-age">${AGE[g]}</span>`;
+    if(closed){inner+='<span class="ll-empty">closed</span><span class="ll-empty">no birth hour</span>'}
+    else{
+      for(const k of ['at','inside']){
+        if(g==='day'&&k==='at'){inner+='<span class="ll-empty">you</span>';continue}
+        const s=(d.seats||[]).find(x=>x[0]===g&&x[1]===k);
+        if(!s){inner+='<span class="ll-empty">·</span>';continue}
+        const on=d.allOn||s[4];
+        inner+=`<span class="ll-seat${on?' on':''}"><span class="k">${k}</span><span class="ll-dot" style="background:var(--${s[3]})"></span>${s[2].replace('The ','')}</span>`;
+      }
+    }
+    return `<div class="${cls}">${inner}</div>`;
+  }).join('');
+  el.innerHTML=`<div class="ll-grid">${cols}<div class="ll-mark" style="left:${agePos(d.age)}%"><span>you · ${d.age}</span></div></div><div class="ll-key"><span>childhood</span><span>working prime</span><span>home years</span><span>late life</span></div>`;
+});
+
+const Q=[["Q1","Beat 4 on Your Reading",[["A","One card with the claim and the eight icons. An icon opens that domain’s reading, and the card opens the Domains page."],["B","A plain card that opens the Domains page, with no icons on Your Reading."],["C","The full eight-tile grid right on Your Reading, with no separate Domains page."]]],["Q2","The name clash: \"Life Chapter\" already means a decade on the Today tab",[["A","The four pillars keep \"Life Chapters\". The Today tab’s decade tile and page become \"This Decade\", and the unlinked \"Life Chapters · Your decades\" screen retires."],["B","Call the new section \"Your Four Gates\" and leave the Today tab as it is."],["C","Fold the decades into Life Chapters, so the Today tab’s tile opens the current chapter."]]],["Q3","The shape of a domain reading, angle 1",[["A","How you are (the lead seat), then one block per seat in gate order, each with its lived or coming beat, and gap rows at their gate. \"Read this seat\" sits inside each block."],["B","Keep the three steps (How you are, Already happened, Coming), with each beat labelled by its seat."]]],["Q4","The decades in a domain reading",[["A","A second angle, By decade, with the strongest or heaviest window. The decades also appear inside each Life Chapter."],["B","Decades only on the Life Chapters page, not in the domain reading."],["C","Keep the decades inside angle 1."]]],["Q5","Tiers for the domain reading",[["A","Free: the Domains page, the icons, every headline and \"How you are\". Seeker: the By position seat blocks and the seat readings. Advisor: By decade and later angles."],["B","Seeker holds both angles, and the higher tier holds future angles only."],["C","A new tier between Seeker and Advisor for the domain reading."]]],["Q6","Where each lesson is taught",[["A","The four-gates lesson and the life line on Life Chapters. \"A character in a seat rules a domain\" on the Domains page."],["B","Both lessons on the Domains page, which you reach first."]]],["Q7","The Life Chapters page content and tier",[["A","Each chapter: its seats, one chapter reading per seat (the 70 old life_chapter texts rewritten, with Day and Hour variants for lived or coming), the domain chips and the decades inside it. Free: names, status, seats and chips. Seeker: the readings."],["B","The same, but the chapter readings are free, as the hook for the domain readings."]]],["Q8","The order of the two new beats",[["A","Beat 4 YOUR DOMAINS, then beat 5 YOUR LIFE CHAPTERS."],["B","Life Chapters first, then Domains."]]],["Q9","The Pillar chart page’s \"Your positions\" rows",[["A","Each row opens its chapter on the Life Chapters page."],["B","Leave the rows as they are, an index only."]]],["Q10","The domain text already written and revised after the audit",[["A","Keep it. It fits the new shape as it is. Land it, re-audit in the new shape, then build the screens."],["B","Hold it until the screens are rebuilt."]]],["S1","Draft chapter readings (the four golden chapters above)",[["A","Keep as written"],["B","More definite"],["C","Softer"],["D","Rewrite (say how in chat)"]]],["S2","Wealth, By position, as laid out above",[["A","Keep as written"],["B","More definite"],["C","Softer"],["D","Rewrite (say how in chat)"]]]];
+const box=document.getElementById('qs');let saved={};
+try{saved=JSON.parse(localStorage.getItem('dom-v3')||'{}')}catch(e){}
+box.innerHTML=Q.map(([id,t,opts])=>`<div class="q"><h4><span class="qid">${id}</span>${t}</h4>${opts.map(([k,txt],i)=>`<label class="opt" for="${id}-${k}"><input type="radio" name="${id}" id="${id}-${k}" value="${k}"${saved[id]===k?' checked':''}><span><b>${k}</b>${i===0&&id[0]==='Q'?' <span class="tag rec">recommended</span>':''} ${txt}</span></label>`).join('')}</div>`).join('');
+function codes(){const s={};Q.forEach(([id])=>{const c=document.querySelector(`input[name="${id}"]:checked`);if(c)s[id]=c.value});try{localStorage.setItem('dom-v3',JSON.stringify(s))}catch(e){}
+ const t=Object.entries(s).map(([k,v])=>k+' '+v).join(', ');document.getElementById('codes').textContent=t||'No answers yet.';return t}
+box.addEventListener('change',codes);codes();
+document.getElementById('copy').addEventListener('click',()=>{const t=codes();const o=document.getElementById('codes');
+ const done=()=>{const b=document.getElementById('copy');b.textContent='Copied';setTimeout(()=>b.textContent='Copy my answers',1600)};
+ if(navigator.clipboard&&t){navigator.clipboard.writeText(t).then(done,()=>{const r=document.createRange();r.selectNodeContents(o);const sel=getSelection();sel.removeAllRanges();sel.addRange(r)})}});
+</script>
