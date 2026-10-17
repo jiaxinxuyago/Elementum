@@ -73,3 +73,20 @@ Page: https://claude.ai/artifact/Vz38yjKw7uDv3CtkpDfq2r
 - the Life Chapters page: four chapter cards, each with its seats, chapter readings, domain chips and decades.
 
 **Open:** Q1–Q10 and S1–S2. The main one is the name clash, because the Today tab already says "Life Chapter" for the decades.
+
+## Owner feedback 2026-10-17: four in-depth sections
+
+**Three sections, plus a fourth:**
+- **Your People:** dropped, because it is the relationship domain and already exists.
+- **Domains:** kept.
+- **Life Chapters:** the pillars, with 大运 folded in.
+- **Energy Blueprint:** top tier. It holds the deep decoding: the structure (格局), seen and unseen, god pairings and clashes, strongest vs missing (调候 and 用神).
+- **Stars (神煞):** added as the fourth section.
+
+**My evaluation:**
+- Domains: the conversion engine. Free entry, Seeker readings, Advisor angles.
+- Life Chapters: the predictive spine. Free glimpse, Seeker chapters and decades, Advisor years.
+- Stars: high pull, low classical weight, a fate risk. Free badges, Seeker readings.
+- Blueprint: Advisor only. Highest classical weight and the biggest accuracy risk: the structure rule (golden: Steward structure 正财格 by the revealed-stem rule, Alchemist structure 偏印格 by the main stem).
+
+**Questionnaire:** https://claude.ai/artifact/TpNPDwa9BZ5FGvFPPgvvHs (source: `round-4/`). 34 rulings (A placement, B Domains, C Life Chapters, D Stars, E Blueprint, F tiers, G content law) and 6 write-ins. It supersedes the round-3 questions.
