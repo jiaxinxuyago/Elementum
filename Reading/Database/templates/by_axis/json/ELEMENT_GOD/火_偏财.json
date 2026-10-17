@@ -67,25 +67,25 @@
           {
             "word": "Sees chances early",
             "angles": {
-              "drive": "You see chances early, at their smallest. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays.",
-              "cost_self": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. Check what is already yours first, and you stop losing the nearest chance to the far one.",
-              "cost_others": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. Once you hand them the finished thing, you keep them for the one after."
+              "drive": "You see chances early, at their smallest. Being first matters to you more than being sure, and you move while the chance is only a guess. Your friends hear about the good openings from you.",
+              "cost_self": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. What you already have gets less of you than it deserves.",
+              "cost_others": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. The people you work with are left holding unfinished work."
             }
           },
           {
             "word": "Gives easily",
             "angles": {
-              "drive": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Keep giving as you do, and note what each gift costs you.",
-              "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, you fund the venture you keep giving away.",
-              "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. With small gifts that repeat, you give them the steadiness along with the shine."
+              "drive": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Around you, nobody goes short for long.",
+              "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. Your own ventures get funded last, from whatever remains.",
+              "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. Your household's best stories come from the days you made."
             }
           },
           {
             "word": "Starts fast",
             "angles": {
-              "drive": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. When you start fast on fewer ventures, you get to know the ones you start.",
-              "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If each fast start must prove itself after the rush, you lose only the weak ventures.",
-              "cost_others": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Name your part before you start, so you ask less of their patience."
+              "drive": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. Much of what your circle now enjoys exists because you went first.",
+              "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. What you are after is the feeling of the first day, again and again.",
+              "cost_others": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Their evenings go into seeing your ideas through."
             }
           }
         ]
@@ -441,6 +441,78 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "fire:F-40",
       "replaced": "You look past the people at home first. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on the nights you are home."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You see chances early, at their smallest. Being first matters to you more than being sure, and you move while the chance is only a guess. If you name what you see early, the credit stays yours when it pays."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Your eye goes to the far chance before the near one. You look ahead for the next opening more than down at what is in hand. Check what is already yours first, and you stop losing the nearest chance to the far one."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Whenever you see a new chance, you bring it to your partners before the last one pays. You would rather share the next idea than finish the current plan. Once you hand them the finished thing, you keep them for the one after."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Keep giving as you do, and note what each gift costs you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. When you set aside the price of one gift each month, you fund the venture you keep giving away."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)",
+      "replaced": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. With small gifts that repeat, you give them the steadiness along with the shine."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. When you start fast on fewer ventures, you get to know the ones you start."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self (want)",
+      "replaced": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. If each fast start must prove itself after the rush, you lose only the weak ventures."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 火_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Name your part before you start, so you ask less of their patience."
     }
   ]
 }

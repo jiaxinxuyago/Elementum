@@ -67,25 +67,25 @@
           {
             "word": "Proves it",
             "angles": {
-              "drive": "Proving a point matters more to you than making it. Because a finished thing argues better than you could out loud, you would rather prove an idea than pitch it. You pay in time, and you get to be right in a way that lasts.",
-              "cost_self": "Proving it is the only kind of winning you trust. Since you prove rather than pitch, you let the chances that needed a quick yes go by. You lose credit for ideas that were yours first, so pitch one before the proof is done.",
-              "cost_others": "You prove an idea before you share it. Whenever you would rather show a result than explain a plan, you keep people out of it until it is done. Tell one person the plan early, since a surprise is harder to help than a sketch."
+              "drive": "Proving a point matters more to you than making it. Because a finished thing argues better than you could out loud, you would rather prove an idea than pitch it. Your work arrives whole, and it answers the doubters by itself.",
+              "cost_self": "Proving it is the only kind of winning you trust. Since you prove rather than pitch, you let the chances that needed a quick yes go by. Ideas that were yours first end up with other people's names on them.",
+              "cost_others": "You prove an idea before you share it. Whenever you would rather show a result than explain a plan, you keep people out of it until it is done. Those close to you meet the work at the end and miss the making of it."
             }
           },
           {
             "word": "Speaks plainly",
             "angles": {
-              "drive": "Speaking plainly comes easier to you than softening it. Since a true thing said flat feels more honest than a kind thing dressed up, you speak plainly rather than nicely. You pay for it in warmth, and to you the truth is worth it.",
-              "cost_self": "Speaking plainly is how you stay honest with yourself. You would rather be understood than liked, so you say what goes unsaid and give up the easy welcome of keeping quiet. Soften one true thing a week, because you wanted that welcome too.",
-              "cost_others": "You speak plainly to the people who matter most to you. Where the truth counts for more than the landing, you hand it over without the cushion it needed. Add the cushion sometimes, because you want them to land softly too."
+              "drive": "Speaking plainly comes easier to you than softening it. Since a true thing said flat feels more honest than a kind thing dressed up, you speak plainly rather than nicely. People always know where they stand with you.",
+              "cost_self": "Speaking plainly is how you stay honest with yourself. You would rather be understood than liked, so you say what goes unsaid and give up the easy welcome of keeping quiet. Part of you wanted that welcome too.",
+              "cost_others": "You speak plainly to the people who matter most to you. Where the truth counts for more than the landing, you hand it over without the cushion it needed. Your honesty reaches them whole, and some of it stings."
             }
           },
           {
             "word": "Rewrites the rules",
             "angles": {
-              "drive": "Rules read to you as first drafts. Since you would rather fix a bad rule than follow it, you rewrite it in the doing and in plain sight. You spend a while being marked wrong, and the rewrite tends to look like sense later.",
-              "cost_self": "Rewriting a rule is your answer to one that makes no sense. Each time you choose to fix it rather than obey it, you lose the credit that following it would earn. Follow one you dislike this month, because that approval was yours too.",
-              "cost_others": "You rewrite a rule that stops making sense under the people standing on it. Since you fix it ahead of keeping the peace, you change the footing with no warning. Give the warning first, because the rule you found pointless was somebody's floor."
+              "drive": "Rules read to you as first drafts. Since you would rather fix a bad rule than follow it, you rewrite it in the doing and in plain sight. The people who come after you inherit a rule that works.",
+              "cost_self": "Rewriting a rule is your answer to one that makes no sense. Each time you choose to fix it rather than obey it, you lose the credit that following it would earn. On paper, you look like trouble.",
+              "cost_others": "You rewrite a rule that stops making sense under the people standing on it. Since you fix it ahead of keeping the peace, you change the footing with no warning. The rule you found pointless was somebody's floor."
             }
           }
         ]
@@ -465,6 +465,78 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. Remember that you are allowed to give them less, and sooner."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "Proving a point matters more to you than making it. Because a finished thing argues better than you could out loud, you would rather prove an idea than pitch it. You pay in time, and you get to be right in a way that lasts."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Proving it is the only kind of winning you trust. Since you prove rather than pitch, you let the chances that needed a quick yes go by. You lose credit for ideas that were yours first, so pitch one before the proof is done."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "You prove an idea before you share it. Whenever you would rather show a result than explain a plan, you keep people out of it until it is done. Tell one person the plan early, since a surprise is harder to help than a sketch."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "Speaking plainly comes easier to you than softening it. Since a true thing said flat feels more honest than a kind thing dressed up, you speak plainly rather than nicely. You pay for it in warmth, and to you the truth is worth it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self (want)",
+      "replaced": "Speaking plainly is how you stay honest with yourself. You would rather be understood than liked, so you say what goes unsaid and give up the easy welcome of keeping quiet. Soften one true thing a week, because you wanted that welcome too."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "You speak plainly to the people who matter most to you. Where the truth counts for more than the landing, you hand it over without the cushion it needed. Add the cushion sometimes, because you want them to land softly too."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "Rules read to you as first drafts. Since you would rather fix a bad rule than follow it, you rewrite it in the doing and in plain sight. You spend a while being marked wrong, and the rewrite tends to look like sense later."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Rewriting a rule is your answer to one that makes no sense. Each time you choose to fix it rather than obey it, you lose the credit that following it would earn. Follow one you dislike this month, because that approval was yours too."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "You rewrite a rule that stops making sense under the people standing on it. Since you fix it ahead of keeping the peace, you change the footing with no warning. Give the warning first, because the rule you found pointless was somebody's floor."
     }
   ]
 }

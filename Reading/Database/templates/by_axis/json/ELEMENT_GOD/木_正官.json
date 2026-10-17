@@ -67,25 +67,25 @@
           {
             "word": "Keeps your word",
             "angles": {
-              "drive": "You keep your word long after it stops being convenient. Being counted on is the respect you want, so you put a promise ahead of your comfort. Add your comfort to the promises you keep, because a word kept at any price wears you down.",
-              "cost_self": "Keeping your word matters more to you than keeping your options. Since breaking a promise feels like losing rank with yourself, you stay inside old plans rather than reopen them. Ask out of one dead promise, and you are free when the next chance comes.",
-              "cost_others": "Whoever gives you their word, you expect them to keep it. Because you treat a promise as a rule, you count a missed one as a broken rule instead of a bad week. Allow people one free miss, and your word weighs more for it."
+              "drive": "You keep your word long after it stops being convenient. Being counted on is the respect you want, so you put a promise ahead of your comfort. Anyone who has your yes builds on it without a second thought.",
+              "cost_self": "Keeping your word matters more to you than keeping your options. Since breaking a promise feels like losing rank with yourself, you stay inside old plans rather than reopen them. Some of your years go to promises made by a younger you.",
+              "cost_others": "Whoever gives you their word, you expect them to keep it. Because you treat a promise as a rule, you count a missed one as a broken rule instead of a bad week. Around you, people say yes more carefully and mean it."
             }
           },
           {
             "word": "Earns every step",
             "angles": {
-              "drive": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. When you ask for the next step a little sooner, you stop working a rank below your worth.",
-              "cost_self": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. If you claim what you have earned, you stop losing the title to whoever asked first.",
-              "cost_others": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Hand one person a step early, so they spend less time proving what you already know."
+              "drive": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. Nobody questions a place you hold, because everyone saw you work for it.",
+              "cost_self": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. Promotions you deserved have gone to louder people.",
+              "cost_others": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Your team spends extra years proving what you already see in them."
             }
           },
           {
             "word": "Holds the line",
             "angles": {
-              "drive": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Let someone else hold one line for a while, instead of carrying every rule alone.",
-              "cost_self": "Holding the line costs you more than you admit. Since bending a rule feels like losing yourself, you hold it against the people you love as much as against strangers. Bend it once for someone who matters, and you keep a closeness no rule replaces.",
-              "cost_others": "You hold the line for everyone, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, and hold the line only where it helps."
+              "drive": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Everyone around you is sure of the ground under their feet.",
+              "cost_self": "Holding the line costs you more than you admit. Since bending a rule feels like losing yourself, you hold it against the people you love as much as against strangers. Your fairness takes some of the warmth out of home.",
+              "cost_others": "You hold the line for everyone, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. A friend in real trouble gets the same answer from you as anyone."
             }
           }
         ]
@@ -441,6 +441,78 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "wood:W-016",
       "replaced": "For everyone, you hold the line, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, to hold the line only where it helps."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You keep your word long after it stops being convenient. Being counted on is the respect you want, so you put a promise ahead of your comfort. Add your comfort to the promises you keep, because a word kept at any price wears you down."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Keeping your word matters more to you than keeping your options. Since breaking a promise feels like losing rank with yourself, you stay inside old plans rather than reopen them. Ask out of one dead promise, and you are free when the next chance comes."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[0].angles.cost_others (gift)",
+      "replaced": "Whoever gives you their word, you expect them to keep it. Because you treat a promise as a rule, you count a missed one as a broken rule instead of a bad week. Allow people one free miss, and your word weighs more for it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once. When you ask for the next step a little sooner, you stop working a rank below your worth."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. If you claim what you have earned, you stop losing the title to whoever asked first."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Hand one person a step early, so they spend less time proving what you already know."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Let someone else hold one line for a while, instead of carrying every rule alone."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Holding the line costs you more than you admit. Since bending a rule feels like losing yourself, you hold it against the people you love as much as against strangers. Bend it once for someone who matters, and you keep a closeness no rule replaces."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "You hold the line for everyone, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, and hold the line only where it helps."
     }
   ]
 }

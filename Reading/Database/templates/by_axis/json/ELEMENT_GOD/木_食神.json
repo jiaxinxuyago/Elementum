@@ -67,25 +67,25 @@
           {
             "word": "Gives first",
             "angles": {
-              "drive": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it.",
-              "cost_self": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you. Let one person carry you this week, and you get back the rest that giving first keeps taking.",
-              "cost_others": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. Wait for the question some of the time, and you hand those you love the chance to want out loud."
+              "drive": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Your kitchen, your toolbox and your time are open to whoever walks in.",
+              "cost_self": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you. Underneath is a wish to be loved for who you are, empty-handed.",
+              "cost_others": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. The people you love rarely get to say what they wanted from you."
             }
           },
           {
             "word": "Always making",
             "angles": {
-              "drive": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. As long as you show one thing in three, you get to enjoy what you make.",
-              "cost_self": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost.",
-              "cost_others": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen. The moment you set the making aside to listen, you give those near you what nothing you make can."
+              "drive": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. Your home fills with useful, lovely pieces nobody else would have made.",
+              "cost_self": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Fine work of yours sits in drawers, unseen and unthanked.",
+              "cost_others": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen. Friends who drop by to talk often find your eyes on your work."
             }
           },
           {
             "word": "Relaxed",
             "angles": {
-              "drive": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you. When you add one push to all that calm, you lose almost nothing to staying relaxed.",
-              "cost_self": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. If you choose the harder one every season, you win back chances that staying relaxed lets slip.",
-              "cost_others": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself."
+              "drive": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you. People breathe easier at your table, and nobody feels hurried there.",
+              "cost_self": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. Some of your bigger chances drift past unclaimed.",
+              "cost_others": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Those you teach learn without fear of getting it wrong in front of you."
             }
           }
         ]
@@ -430,6 +430,78 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "wood:W-020",
       "replaced": "Giving comes before being asked, for you. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.cost_self (want)",
+      "replaced": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you. Let one person carry you this week, and you get back the rest that giving first keeps taking."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. Wait for the question some of the time, and you hand those you love the chance to want out loud."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last. As long as you show one thing in three, you get to enjoy what you make."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Stay beside a finished thing until praise comes, since the credit you never collect is the cost."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen. The moment you set the making aside to listen, you give those near you what nothing you make can."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you. When you add one push to all that calm, you lose almost nothing to staying relaxed."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. If you choose the harder one every season, you win back chances that staying relaxed lets slip."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)",
+      "replaced": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself."
     }
   ]
 }

@@ -67,25 +67,25 @@
           {
             "word": "Loves a race",
             "angles": {
-              "drive": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. When you name one race a season out loud, you come out of it fed rather than spent.",
-              "cost_self": "You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you bring full stamina to the next one.",
-              "cost_others": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. If you tell them the race is on, you run it together instead of alone."
+              "drive": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. Your best work shows up with someone fast at your shoulder.",
+              "cost_self": "You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. The tiredness from one contest is still in you at the start of the next.",
+              "cost_others": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. Time with you comes with a scoreboard running."
             }
           },
           {
             "word": "Jumps in first",
             "angles": {
-              "drive": "Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. If you jump in where stakes are shared, you pay half of the first mistake.",
-              "cost_self": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while early mistakes come out of your savings. When you read the plan first every third time, you hold on to more of your money.",
-              "cost_others": "Whenever you go first, you pull your partner in after you. You decide for both ahead of asking, and you take the risk in their name too. If you ask before you jump, you go in side by side."
+              "drive": "Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. You bring back first-hand news while everyone else is still reading about it.",
+              "cost_self": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while early mistakes come out of your savings. Your bank balance carries the lessons everyone after you gets for free.",
+              "cost_others": "Whenever you go first, you pull your partner in after you. You decide for both ahead of asking, and you take the risk in their name too. The person beside you gets courage on loan the moment you move."
             }
           },
           {
             "word": "All in together",
             "angles": {
-              "drive": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. When you pick people who count as carefully as you trust, all in pays off.",
-              "cost_self": "Inside a shared stake, you feel your bravest. A pooled stake feels like company, and all in feels better to you than holding some back. If you keep one share out of every pool, you only ever lose what you can afford.",
-              "cost_others": "All in together means you take someone with you every time. You put the shared stake ahead of asking whose it was, and a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it."
+              "drive": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. You want to win with people, never just near them.",
+              "cost_self": "Inside a shared stake, you feel your bravest. A pooled stake feels like company, and all in feels better to you than holding some back. A bad turn takes your whole share at once, with nothing set aside to land on.",
+              "cost_others": "All in together means you take someone with you every time. You put the shared stake ahead of asking whose it was, and a partner carries losses they never signed for. Anyone in with you lives through each venture's lows as well as its highs."
             }
           }
         ]
@@ -425,6 +425,78 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round ahead of asking, and they put in more than they meant. You call it done, and letting them stop counts as a win too."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. When you name one race a season out loud, you come out of it fed rather than spent."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. Rest between races as hard as you run them, and you bring full stamina to the next one."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. If you tell them the race is on, you run it together instead of alone."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. If you jump in where stakes are shared, you pay half of the first mistake."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Going first is where your boldness lives. Little Water backs you, and you jump in ahead of reading the plan, while early mistakes come out of your savings. When you read the plan first every third time, you hold on to more of your money."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)",
+      "replaced": "Whenever you go first, you pull your partner in after you. You decide for both ahead of asking, and you take the risk in their name too. If you ask before you jump, you go in side by side."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[2].angles.drive (want)",
+      "replaced": "Going all in together is the only way you go in. Shared stakes feel more real to you than a safe share kept back, so you pool money and effort. When you pick people who count as carefully as you trust, all in pays off."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Inside a shared stake, you feel your bravest. A pooled stake feels like company, and all in feels better to you than holding some back. If you keep one share out of every pool, you only ever lose what you can afford."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "All in together means you take someone with you every time. You put the shared stake ahead of asking whose it was, and a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it."
     }
   ]
 }

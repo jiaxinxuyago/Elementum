@@ -68,24 +68,24 @@
             "word": "Passes it on",
             "angles": {
               "drive": "What you know is not finished until it is passed on. Since being useful matters more than being ahead, you hand over a lesson the day you learn it. Passing it on costs you the head start, and your knowing comes alive in others.",
-              "cost_self": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught. Keep one thing you know for yourself, because what you pass on first never pays you back.",
-              "cost_others": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find. Let them ask sometimes, because you land a lesson better when it was wanted."
+              "cost_self": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught. Others build careers on ideas that started with you.",
+              "cost_others": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find. Those around you miss the thrill of the search."
             }
           },
           {
             "word": "Takes people in",
             "angles": {
-              "drive": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. You go without a home that is only yours, and the trade feels fair to you.",
-              "cost_self": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. You hand over your rest a night at a time, and being taken in once would hand some back.",
-              "cost_others": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year. You keep them comfortable past where comfort helps, and the kindest stay ends."
+              "drive": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. Several friends got through their worst year under your roof.",
+              "cost_self": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. Your home is seldom fully yours, and your evenings belong to guests.",
+              "cost_others": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year. Your guests get time to mend without a clock running."
             }
           },
           {
             "word": "Gives it time",
             "angles": {
               "drive": "You give a person time rather than a push. A push feels like a way to spoil the growing, so you wait for someone to get there instead of pulling. You see the result last of everyone, and the waiting is the care itself.",
-              "cost_self": "Giving it time is how you respect someone's growth. Waiting for them to get there feels kinder than pulling them, so your own next step stays parked with theirs. You give away the time your chance needed, and it closes while you wait on theirs.",
-              "cost_others": "When someone close to you grows slowly, you give them time instead of a push. Holding back feels more like respect than a nudge, so their nudge never comes. You hold back the push that would have moved them, and it is yours to give."
+              "cost_self": "Giving it time is how you respect someone's growth. Waiting for them to get there feels kinder than pulling them, so your own next step stays parked with theirs. Years of your life go to someone else's schedule.",
+              "cost_others": "When someone close to you grows slowly, you give them time instead of a push. Holding back feels more like respect than a nudge, so their nudge never comes. Your patience leaves them to find the hard part on their own."
             }
           }
         ]
@@ -449,6 +449,62 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "wood:W-010",
       "replaced": "Whenever you learn something, you pass it on to whoever is nearest. You would rather give the lesson than be asked for it, and you hand people answers they enjoyed finding. Let them ask sometimes, because you land a lesson better when it was wanted."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正印 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught. Keep one thing you know for yourself, because what you pass on first never pays you back."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正印 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find. Let them ask sometimes, because you land a lesson better when it was wanted."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. You go without a home that is only yours, and the trade feels fair to you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. You hand over your rest a night at a time, and being taken in once would hand some back."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)",
+      "replaced": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year. You keep them comfortable past where comfort helps, and the kindest stay ends."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正印 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Giving it time is how you respect someone's growth. Waiting for them to get there feels kinder than pulling them, so your own next step stays parked with theirs. You give away the time your chance needed, and it closes while you wait on theirs."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_正印 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "When someone close to you grows slowly, you give them time instead of a push. Holding back feels more like respect than a nudge, so their nudge never comes. You hold back the push that would have moved them, and it is yours to give."
     }
   ]
 }

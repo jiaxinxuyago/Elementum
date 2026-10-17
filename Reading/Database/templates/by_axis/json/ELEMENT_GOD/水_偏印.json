@@ -67,25 +67,25 @@
           {
             "word": "Goes deep",
             "angles": {
-              "drive": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. You pay for the one you own with every subject left at the surface.",
-              "cost_self": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. You lose nothing of the depth by surfacing a little sooner, and keep the open door.",
-              "cost_others": "Whenever you go deep, you go alone. Company slows you down, and you pick the quiet ahead of any company you did not choose. Once in a while take someone down with you instead of handing them the summary."
+              "drive": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. What you bring back up stays yours for life.",
+              "cost_self": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. Invitations and openings wait for you and then go elsewhere.",
+              "cost_others": "Whenever you go deep, you go alone. Company slows you down, and you pick the quiet ahead of any company you did not choose. Those close to you lose you for weeks at a time to a question."
             }
           },
           {
             "word": "Reads people",
             "angles": {
-              "drive": "You read what a person is not saying. A pause tells you more than the words around it, so you trust your feeling about someone ahead of the story you are given. Say the reading out loud, because an unsaid one cannot be corrected.",
-              "cost_self": "Reading a person ahead of their words keeps you from surprises. The reading comes faster than the asking, and you go with it instead of waiting for the rest. Ask the slow question anyway, because the closeness you skip is what being right early costs.",
-              "cost_others": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. You give the other person back their telling whenever you let the sentence finish."
+              "drive": "You read what a person is not saying. A pause tells you more than the words around it, so you trust your feeling about someone ahead of the story you are given. People feel understood around you before they have explained anything.",
+              "cost_self": "Reading a person ahead of their words keeps you from surprises. The reading comes faster than the asking, and you go with it instead of waiting for the rest. Being right early leaves you knowing people without being close to them.",
+              "cost_others": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. They never get to say it to you in their own words."
             }
           },
           {
             "word": "Self-taught",
             "angles": {
               "drive": "You teach yourself what matters most to you. A lesson you worked out alone sits deeper than one handed to you, and your own odd route comes ahead of the course on offer. You lose years to the long way and would take it again.",
-              "cost_self": "Teaching yourself spares you being a beginner anywhere. Working it out alone feels easier than asking someone who knows, and the long road is the one you choose. Ask sooner than you want to, because the help you refuse gets paid for in years.",
-              "cost_others": "You taught yourself your own route, and it is hard to pass on. Showing the steps means admitting there were none, and you hand over the answer rather than the method. Write the route down, because the way is what anyone learning from you misses."
+              "cost_self": "Teaching yourself spares you being a beginner anywhere. Working it out alone feels easier than asking someone who knows, and the long road is the one you choose. Lessons a friend would have shown you in an afternoon take you a season.",
+              "cost_others": "You taught yourself your own route, and it is hard to pass on. Showing the steps means admitting there were none, and you hand over the answer rather than the method. Anyone learning from you gets a shortcut nobody else would have found."
             }
           }
         ]
@@ -457,6 +457,70 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You keep in what others could use. A thought let out early feels broken to you, so you hold it in rather than hand it over. Remember how much more you help with half an answer than with a whole one never said."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. You pay for the one you own with every subject left at the surface."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. You lose nothing of the depth by surfacing a little sooner, and keep the open door."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Whenever you go deep, you go alone. Company slows you down, and you pick the quiet ahead of any company you did not choose. Once in a while take someone down with you instead of handing them the summary."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You read what a person is not saying. A pause tells you more than the words around it, so you trust your feeling about someone ahead of the story you are given. Say the reading out loud, because an unsaid one cannot be corrected."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Reading a person ahead of their words keeps you from surprises. The reading comes faster than the asking, and you go with it instead of waiting for the rest. Ask the slow question anyway, because the closeness you skip is what being right early costs."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "Where someone stops short, you read the rest and answer it. Reading them feels like care, and you answer the unsaid rather than wait to be told it. You give the other person back their telling whenever you let the sentence finish."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Teaching yourself spares you being a beginner anywhere. Working it out alone feels easier than asking someone who knows, and the long road is the one you choose. Ask sooner than you want to, because the help you refuse gets paid for in years."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)",
+      "replaced": "You taught yourself your own route, and it is hard to pass on. Showing the steps means admitting there were none, and you hand over the answer rather than the method. Write the route down, because the way is what anyone learning from you misses."
     }
   ]
 }

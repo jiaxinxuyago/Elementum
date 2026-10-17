@@ -67,25 +67,25 @@
           {
             "word": "Self-made",
             "angles": {
-              "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, since you pay most for the things you make alone.",
-              "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Ask for a hand early, or everything self-made costs you rest you never take.",
-              "cost_others": "Making everything yourself is what you show a new peer first. By making each thing alone instead of sharing it, you leave your peers nothing to carry. Hand one piece over, because all you take from them is the chance to matter to you."
+              "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Every part of your life carries your fingerprints and nobody else's.",
+              "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Everything you make alone is paid for in hours nobody sees.",
+              "cost_others": "Making everything yourself is what you show a new peer first. By making each thing alone instead of sharing it, you leave your peers nothing to carry. Your peers miss the chance to matter to you through the work."
             }
           },
           {
             "word": "Even-handed",
             "angles": {
-              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance.",
-              "cost_self": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even standard is how you stay honest. Bend it once for someone you like, because you spend long stretches without company that fits.",
-              "cost_others": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Offer the warmth first, as you cost them the ease of being liked without being graded."
+              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Every person in your circle gets an honest deal and knows it.",
+              "cost_self": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even standard is how you stay honest. Your circle is small, and each gap in it was your own call.",
+              "cost_others": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Friends who stay get a respect from you that never wavers."
             }
           },
           {
             "word": "Recovers alone",
             "angles": {
-              "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to.",
-              "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. Show someone the half-built version before recovering alone costs you the friend who would have come.",
-              "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Let them in on one of those days, since you deny your closest people the chance to be needed."
+              "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. What you want is to walk back in whole, owing no one.",
+              "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. The worst weeks of your life are the ones nobody saw you through.",
+              "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Your closest people meet you only on your good days."
             }
           }
         ]
@@ -737,6 +737,78 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. Remember that you meant to seal out the hurt, never your peers."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, since you pay most for the things you make alone."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Ask for a hand early, or everything self-made costs you rest you never take."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Making everything yourself is what you show a new peer first. By making each thing alone instead of sharing it, you leave your peers nothing to carry. Hand one piece over, because all you take from them is the chance to matter to you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even standard is how you stay honest. Bend it once for someone you like, because you spend long stretches without company that fits."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)",
+      "replaced": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Offer the warmth first, as you cost them the ease of being liked without being graded."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.drive (want)",
+      "replaced": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. Show someone the half-built version before recovering alone costs you the friend who would have come."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Let them in on one of those days, since you deny your closest people the chance to be needed."
     }
   ]
 }

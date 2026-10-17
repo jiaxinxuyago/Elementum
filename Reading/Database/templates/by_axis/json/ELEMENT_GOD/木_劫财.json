@@ -67,25 +67,25 @@
           {
             "word": "Goes first",
             "angles": {
-              "drive": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. You pay for going first in landings taken alone, and asking one person along changes that.",
-              "cost_self": "Where the signal has not come, you have already gone. Being the one who moved counts for more than being the one who was ready. You take the first loss alone each time you go, and one person told beforehand would halve it.",
-              "cost_others": "Plan or no plan, you go first and let the rest catch up. Moving matters more than agreeing, and that puts your people a step behind their own decision. Wait one beat, because going first takes from them the chance to choose it with you."
+              "drive": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. Others find their nerve by watching you move.",
+              "cost_self": "Where the signal has not come, you have already gone. Being the one who moved counts for more than being the one who was ready. You take the first hit alone, every time.",
+              "cost_others": "Plan or no plan, you go first and let the rest catch up. Moving matters more than agreeing, and that puts your people a step behind their own decision. Your lead gives slower friends a path already cut."
             }
           },
           {
             "word": "Loves a race",
             "angles": {
-              "drive": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, so letting one end costs you nothing.",
-              "cost_self": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep. You pay for each race in sleep not made up, and sitting one out costs you nothing.",
-              "cost_others": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. You cost them the rest they came for by racing on, and letting one end returns it."
+              "drive": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. What you want is a rival worth keeping up with.",
+              "cost_self": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep. Your body runs on empty for days after each finish line.",
+              "cost_others": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. Your friends get very few slow afternoons in your company."
             }
           },
           {
             "word": "Shares the risk",
             "angles": {
-              "drive": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. You share the risk ahead of sizing it, and one look is cheap.",
-              "cost_self": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. You share each loss as readily as each win, and the money not kept is your price.",
-              "cost_others": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Whenever you count them in unasked, you take a choice they never made, and one question first gives it back."
+              "drive": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. Your partners never face a bad loss by themselves.",
+              "cost_self": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. Half of every good year of yours belongs to someone else.",
+              "cost_others": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Their savings rise and fall with your choices."
             }
           }
         ]
@@ -465,6 +465,78 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "wood:W-008",
       "replaced": "Wood runs through your wealth, your social life and your career. It is the win that feels bigger split in half, the lift you get when a friend pulls ahead, and the first move at work you make before the vote is in."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. You pay for going first in landings taken alone, and asking one person along changes that."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Where the signal has not come, you have already gone. Being the one who moved counts for more than being the one who was ready. You take the first loss alone each time you go, and one person told beforehand would halve it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others (gift)",
+      "replaced": "Plan or no plan, you go first and let the rest catch up. Moving matters more than agreeing, and that puts your people a step behind their own decision. Wait one beat, because going first takes from them the chance to choose it with you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.drive (want)",
+      "replaced": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, so letting one end costs you nothing."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep. You pay for each race in sleep not made up, and sitting one out costs you nothing."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. You cost them the rest they came for by racing on, and letting one end returns it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. You share the risk ahead of sizing it, and one look is cheap."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. You share each loss as readily as each win, and the money not kept is your price."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Whenever you count them in unasked, you take a choice they never made, and one question first gives it back."
     }
   ]
 }

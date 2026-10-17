@@ -67,25 +67,25 @@
           {
             "word": "Clear-headed in crisis",
             "angles": {
-              "drive": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. If you bring that clear head into a calm week, you keep it for the next crisis.",
-              "cost_self": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. You pay for every skipped quiet week in sleep, and rest counts as much as a crisis.",
-              "cost_others": "In a crisis you take the clear head and every decision. Deciding fast feels safer than watching anyone decide slowly, so you carry the whole crisis rather than share it. Hand one piece over, because a crisis is learned by holding part of it."
+              "drive": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. Your calm in the worst hour gives everyone else somewhere to stand.",
+              "cost_self": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. Ordinary days pass you by half-lived, along with the slow gains they hold.",
+              "cost_others": "In a crisis you take the clear head and every decision. Deciding fast feels safer than watching anyone decide slowly, so you carry the whole crisis rather than share it. The people beside you come through it without ever handling the hard part."
             }
           },
           {
             "word": "Picks the moment",
             "angles": {
-              "drive": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Each time an open door counts as a moment, you stop needing the right time to announce itself.",
-              "cost_self": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be undone. You watch the chance you held back go to someone faster, and the good-enough moment was yours.",
-              "cost_others": "The moment is yours alone to pick. You would rather keep the plan until the moment than explain it, and you leave the people you lead without a signal. You give up less by naming the moment early than your silence costs the people waiting."
+              "drive": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Your single well-timed move often does the work of a whole week of pushing.",
+              "cost_self": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be undone. Some of your best chances go to people quicker off the mark.",
+              "cost_others": "The moment is yours alone to pick. You would rather keep the plan until the moment than explain it, and you leave the people you lead without a signal. Those who follow you spend the waiting hours guessing what comes next."
             }
           },
           {
             "word": "Leads without shouting",
             "angles": {
-              "drive": "You lead without shouting, often without anyone noticing. You would sooner be right than be obeyed, and you lead by arranging the outcome rather than asking. Whenever you say the plan aloud, your quiet leading reaches past the people already listening.",
-              "cost_self": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. If you claim one of them, leading that leaves a trace starts earning you the rank.",
-              "cost_others": "Arranging beats asking whenever you lead. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. You took their answer by never asking, and leading with one question costs you less than that."
+              "drive": "You lead without shouting, often without anyone noticing. You would sooner be right than be obeyed, and you lead by arranging the outcome rather than asking. Under your hand a team runs smoothly, and few people guess why.",
+              "cost_self": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. The credit, and the rank that comes with it, goes to someone louder than you.",
+              "cost_others": "Arranging beats asking whenever you lead. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. Your people travel a calm road and never feel pushed along it."
             }
           }
         ]
@@ -441,6 +441,78 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "water:W-054",
       "replaced": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest never taken, because nothing you make gets to count."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. If you bring that clear head into a calm week, you keep it for the next crisis."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. You pay for every skipped quiet week in sleep, and rest counts as much as a crisis."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "In a crisis you take the clear head and every decision. Deciding fast feels safer than watching anyone decide slowly, so you carry the whole crisis rather than share it. Hand one piece over, because a crisis is learned by holding part of it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Each time an open door counts as a moment, you stop needing the right time to announce itself."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be undone. You watch the chance you held back go to someone faster, and the good-enough moment was yours."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "The moment is yours alone to pick. You would rather keep the plan until the moment than explain it, and you leave the people you lead without a signal. You give up less by naming the moment early than your silence costs the people waiting."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "You lead without shouting, often without anyone noticing. You would sooner be right than be obeyed, and you lead by arranging the outcome rather than asking. Whenever you say the plan aloud, your quiet leading reaches past the people already listening."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. If you claim one of them, leading that leaves a trace starts earning you the rank."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)",
+      "replaced": "Arranging beats asking whenever you lead. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. You took their answer by never asking, and leading with one question costs you less than that."
     }
   ]
 }

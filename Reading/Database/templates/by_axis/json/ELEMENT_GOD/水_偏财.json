@@ -67,25 +67,25 @@
           {
             "word": "Sees it coming",
             "angles": {
-              "drive": "You see a chance coming before it reaches you. Since an early sight feels like a head start, you see the far chance more clearly than the near one. When you also see what sits close, you reach the far one with full hands.",
-              "cost_self": "Seeing far is the part of you that never rests. You see the distant chance ahead of the one in reach, because distance is what sets you free. Win back the chances closing nearest you by seeing one in reach through to its end.",
-              "cost_others": "Whenever you see a new chance coming, you are half gone already. You see what is ahead more than who is beside you, and you hand them what is left. See the people beside you first to give them all of you before you go."
+              "drive": "You see a chance coming before it reaches you. Since an early sight feels like a head start, you see the far chance more clearly than the near one. Those who trust your eye get there before the crowd.",
+              "cost_self": "Seeing far is the part of you that never rests. You see the distant chance ahead of the one in reach, because distance is what sets you free. The good things close at hand often slip away while you look further out.",
+              "cost_others": "Whenever you see a new chance coming, you are half gone already. You see what is ahead more than who is beside you, and you hand them what is left. The people at your side get your company with your mind already packed."
             }
           },
           {
             "word": "Moves early",
             "angles": {
-              "drive": "You move early, before a chance is sure or anyone asks. You would rather move while a thing is open than stay until it is settled. Let one early move run to its settled end for the proof your timing was right.",
-              "cost_self": "Your strongest moment is the start, and the start is also your exit. Moving early feels like freedom, and it puts leaving ahead of collecting. If you move on one stretch later than usual, you finally hold the money you keep walking away from.",
-              "cost_others": "Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave your partner the whole finish. Say your exit out loud while you can help, and you stay a partner after you go."
+              "drive": "You move early, before a chance is sure or anyone asks. You would rather move while a thing is open than stay until it is settled. You are through the door while others are still deciding.",
+              "cost_self": "Your strongest moment is the start, and the start is also your exit. Moving early feels like freedom, and it puts leaving ahead of collecting. The money from your best ideas often lands in someone else's pocket.",
+              "cost_others": "Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave your partner the whole finish. Whoever starts with you gets you at your brightest."
             }
           },
           {
             "word": "Shares freely",
             "angles": {
-              "drive": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Set aside the part that keeps you generous before you share the rest.",
-              "cost_self": "Sharing freely is how you stay light. You share the whole windfall ahead of keeping any, because holding money feels like holding your breath. Share all you like while you keep back the rent and the stake for your next venture.",
-              "cost_others": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and you give home a feast with no steady part. Share some of it across the lean months as well as on the day it lands."
+              "drive": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Around you, a bit of good fortune turns into a party for everyone.",
+              "cost_self": "Sharing freely is how you stay light. You share the whole windfall ahead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account.",
+              "cost_others": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and you give home a feast with no steady part. Home with you swings between plenty and making do."
             }
           }
         ]
@@ -401,6 +401,78 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and the money you go without is worth remembering."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You see a chance coming before it reaches you. Since an early sight feels like a head start, you see the far chance more clearly than the near one. When you also see what sits close, you reach the far one with full hands."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Seeing far is the part of you that never rests. You see the distant chance ahead of the one in reach, because distance is what sets you free. Win back the chances closing nearest you by seeing one in reach through to its end."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Whenever you see a new chance coming, you are half gone already. You see what is ahead more than who is beside you, and you hand them what is left. See the people beside you first to give them all of you before you go."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You move early, before a chance is sure or anyone asks. You would rather move while a thing is open than stay until it is settled. Let one early move run to its settled end for the proof your timing was right."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Your strongest moment is the start, and the start is also your exit. Moving early feels like freedom, and it puts leaving ahead of collecting. If you move on one stretch later than usual, you finally hold the money you keep walking away from."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)",
+      "replaced": "Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave your partner the whole finish. Say your exit out loud while you can help, and you stay a partner after you go."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Set aside the part that keeps you generous before you share the rest."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Sharing freely is how you stay light. You share the whole windfall ahead of keeping any, because holding money feels like holding your breath. Share all you like while you keep back the rent and the stake for your next venture."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and you give home a feast with no steady part. Share some of it across the lean months as well as on the day it lands."
     }
   ]
 }

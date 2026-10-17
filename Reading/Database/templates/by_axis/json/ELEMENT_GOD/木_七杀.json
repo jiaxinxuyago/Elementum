@@ -67,25 +67,25 @@
           {
             "word": "Clear under pressure",
             "angles": {
-              "drive": "Your head is clearest when something presses on you. Pressure gives your stored strength a direction, so you look for a hard deadline rather than a quiet week. Keep choosing the pressure, and let a calm week count as rest instead of loss.",
-              "cost_self": "You think clearest under pressure and drift without it. Since calm gives you nothing to press against, you let the easy weeks pass rather than use them. Make one big choice in a calm week instead of waiting for a crisis to force it.",
-              "cost_others": "When things go wrong, your head stays clear. Because calm makes you restless, you bring a crisis pace home rather than let ordinary days run slow. Save that pace for real trouble to give the people you live with a calmer you."
+              "drive": "Your head is clearest when something presses on you. Pressure gives your stored strength a direction, so you look for a hard deadline rather than a quiet week. On a bad day, people steady themselves on your calm.",
+              "cost_self": "You think clearest under pressure and drift without it. Since calm gives you nothing to press against, you let the easy weeks pass rather than use them. Your best ideas sit idle between one emergency and the next.",
+              "cost_others": "When things go wrong, your head stays clear. Because calm makes you restless, you bring a crisis pace home rather than let ordinary days run slow. Everyone you live with moves at your speed, even on a lazy Sunday."
             }
           },
           {
             "word": "Takes charge",
             "angles": {
-              "drive": "You take charge before anyone asks you to. Being out in front settles you, so you would rather take charge than wait to be chosen. If you wait to be asked for once, you give yourself the chance to be chosen.",
-              "cost_self": "Taking charge comes to you faster than asking for help. Since staying in charge feels safe, you carry the whole plan rather than hand half over. When you let someone take charge of one part, you win back the help you keep refusing.",
-              "cost_others": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people ahead of asking them. Leave one choice open this week, since taking charge of everything leaves them nothing to own."
+              "drive": "You take charge before anyone asks you to. Being out in front settles you, so you would rather take charge than wait to be chosen. In a stalled meeting, your first move gets everyone else going.",
+              "cost_self": "Taking charge comes to you faster than asking for help. Since staying in charge feels safe, you carry the whole plan rather than hand half over. The weight of everything you run lands on your shoulders alone.",
+              "cost_others": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people ahead of asking them. Those close to you get looked after and seldom get a say."
             }
           },
           {
             "word": "Pushes through",
             "angles": {
-              "drive": "Where most plans would stop, you push through. Because quitting feels like weakness, you would rather push through than choose to rest. Push through only for plans you would start again, until resting feels like a choice of yours.",
-              "cost_self": "Pushing through is the only pace you trust. A pause reads to you as giving in, and you would rather finish worn out than stop halfway and rested. Stop a day early once a month, because you push through with the only body you get.",
-              "cost_others": "You push through and expect the people beside you to push through too. Because slowing down feels like letting them down, you keep the pace high instead of asking who is tired. Ask once a week, and you give them a say in the pace."
+              "drive": "Where most plans would stop, you push through. Because quitting feels like weakness, you would rather push through than choose to rest. Much of what gets done around you gets done because you stayed.",
+              "cost_self": "Pushing through is the only pace you trust. A pause reads to you as giving in, and you would rather finish worn out than stop halfway and rested. Your body keeps the bill for every hard mile.",
+              "cost_others": "You push through and expect the people beside you to push through too. Because slowing down feels like letting them down, you keep the pace high instead of asking who is tired. With you, whole teams reach finish lines they would have walked away from."
             }
           }
         ]
@@ -455,6 +455,86 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "wood:W-015",
       "replaced": "Wood runs through your career, your health and your growth. It is the hard week at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "Your head is clearest when something presses on you. Pressure gives your stored strength a direction, so you look for a hard deadline rather than a quiet week. Keep choosing the pressure, and let a calm week count as rest instead of loss."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "You think clearest under pressure and drift without it. Since calm gives you nothing to press against, you let the easy weeks pass rather than use them. Make one big choice in a calm week instead of waiting for a crisis to force it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "When things go wrong, your head stays clear. Because calm makes you restless, you bring a crisis pace home rather than let ordinary days run slow. Save that pace for real trouble to give the people you live with a calmer you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You take charge before anyone asks you to. Being out in front settles you, so you would rather take charge than wait to be chosen. If you wait to be asked for once, you give yourself the chance to be chosen."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Taking charge comes to you faster than asking for help. Since staying in charge feels safe, you carry the whole plan rather than hand half over. When you let someone take charge of one part, you win back the help you keep refusing."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people ahead of asking them. Leave one choice open this week, since taking charge of everything leaves them nothing to own."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "Where most plans would stop, you push through. Because quitting feels like weakness, you would rather push through than choose to rest. Push through only for plans you would start again, until resting feels like a choice of yours."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Pushing through is the only pace you trust. A pause reads to you as giving in, and you would rather finish worn out than stop halfway and rested. Stop a day early once a month, because you push through with the only body you get."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 木_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)",
+      "replaced": "You push through and expect the people beside you to push through too. Because slowing down feels like letting them down, you keep the pace high instead of asking who is tired. Ask once a week, and you give them a say in the pace."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M1; the voice audit's rationed \"room\" and banned \"verdict\"",
+      "finding": "M1 voice audit",
+      "replaced": "You take charge before anyone asks you to. Being out in front settles you, so you would rather take charge than wait to be chosen. In a stalled room, your first move gets everyone else going."
     }
   ]
 }

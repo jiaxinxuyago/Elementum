@@ -67,25 +67,25 @@
           {
             "word": "Better with rivals",
             "angles": {
-              "drive": "You are better with a rival in sight. Your own pace never quite wakes you, so you measure yourself against a person rather than a plan. Pick your rivals on purpose, and you turn a reflex into the fastest way you grow.",
-              "cost_self": "Being better with rivals leaves you rarely at your best alone. Without someone to beat, you drift rather than push, so the goals only you care about wait longest. Find a rival for the private goals too, and you stop leaving your own for last.",
-              "cost_others": "Better with a rival, you turn a peer into one without asking. You would rather race someone than keep them company, and you hand a contest to a friend who wanted none. Name the race, and you give them the choice to run it."
+              "drive": "You are better with a rival in sight. Your own pace never quite wakes you, so you measure yourself against a person rather than a plan. Some of your best work exists only because someone else was ahead.",
+              "cost_self": "Being better with rivals leaves you rarely at your best alone. Without someone to beat, you drift rather than push, so the goals only you care about wait longest. Your private hopes gather dust while the public races get all of you.",
+              "cost_others": "Better with a rival, you turn a peer into one without asking. You would rather race someone than keep them company, and you hand a contest to a friend who wanted none. Your friends get faster just from standing next to you."
             }
           },
           {
             "word": "Bets big",
             "angles": {
-              "drive": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. If you let small bets count too, you stop missing the gains that come slowly.",
-              "cost_self": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. When you hold back one part of each bet, you keep the savings a single loss would take.",
-              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Ask first, because you keep a partner who chose the risk."
+              "drive": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. The wins you land are big enough to change your year.",
+              "cost_self": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound.",
+              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Your partner lives through every swing beside you."
             }
           },
           {
             "word": "Shares the credit",
             "angles": {
-              "drive": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people inside it. When a win can count before you have shared it, you get to enjoy it twice.",
-              "cost_self": "Taking the credit alone feels like showing off to you. You hand out credit rather than keep it, and your own work goes unnamed. If you put your own name on your part, you stop losing the chances that follow credit.",
-              "cost_others": "The credit you share lands on people who did not run for it. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Name who did what, to give praise each person can use."
+              "drive": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people inside it. Everyone who stood beside you walks away feeling counted.",
+              "cost_self": "Taking the credit alone feels like showing off to you. You hand out credit rather than keep it, and your own work goes unnamed. Offers go to the names people know, and yours is often missing.",
+              "cost_others": "The credit you share lands on people who did not run for it. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Praise from you says little about who did what."
             }
           }
         ]
@@ -441,6 +441,78 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "earth:E-47",
       "replaced": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests with the most to teach you. You protect a record with very few wins on it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You are better with a rival in sight. Your own pace never quite wakes you, so you measure yourself against a person rather than a plan. Pick your rivals on purpose, and you turn a reflex into the fastest way you grow."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Being better with rivals leaves you rarely at your best alone. Without someone to beat, you drift rather than push, so the goals only you care about wait longest. Find a rival for the private goals too, and you stop leaving your own for last."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others (gift)",
+      "replaced": "Better with a rival, you turn a peer into one without asking. You would rather race someone than keep them company, and you hand a contest to a friend who wanted none. Name the race, and you give them the choice to run it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. If you let small bets count too, you stop missing the gains that come slowly."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. When you hold back one part of each bet, you keep the savings a single loss would take."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Ask first, because you keep a partner who chose the risk."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people inside it. When a win can count before you have shared it, you get to enjoy it twice."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Taking the credit alone feels like showing off to you. You hand out credit rather than keep it, and your own work goes unnamed. If you put your own name on your part, you stop losing the chances that follow credit."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "The credit you share lands on people who did not run for it. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Name who did what, to give praise each person can use."
     }
   ]
 }

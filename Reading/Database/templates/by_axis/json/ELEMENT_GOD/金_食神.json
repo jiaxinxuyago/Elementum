@@ -67,25 +67,25 @@
           {
             "word": "Finishes things",
             "angles": {
-              "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. If you keep the list short, you get to finish all of it.",
-              "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. Leave one thing half done this week, and notice how much rest comes back to you.",
-              "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. When you finish the last step together, you hand them a share in the making."
+              "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. The things you make arrive whole, every edge seen to.",
+              "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
+              "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. The one it is for gets your polish and misses the hours behind it."
             }
           },
           {
             "word": "Chooses well",
             "angles": {
-              "drive": "Choosing the right thing to give is how you care. A wrong gift feels worse to you than none, so you choose slowly rather than give the nearest thing. Once you set yourself a deadline to choose, you reach the person while it counts.",
-              "cost_self": "For you, a good choice beats a fast one. Since getting the choice right matters more to you than being on time, you let the warm moment pass. Choose a little faster for the people you love, so you get the closeness you were after.",
-              "cost_others": "You choose kind words as carefully as gifts. Anything plain sounds careless to you, so you choose silence rather than say something plain to someone you love. Each time you choose the moment along with the words, you let them hear the warmth you feel."
+              "drive": "Choosing the right thing to give is how you care. A wrong gift feels worse to you than none, so you choose slowly rather than give the nearest thing. What you hand people tends to stay with them for years.",
+              "cost_self": "For you, a good choice beats a fast one. Since getting the choice right matters more to you than being on time, you let the warm moment pass. Underneath it, you want to be known as someone who truly listens.",
+              "cost_others": "You choose kind words as carefully as gifts. Anything plain sounds careless to you, so you choose silence rather than say something plain to someone you love. Much of your fondness goes unspoken to the very people it is for."
             }
           },
           {
             "word": "Teaches by doing",
             "angles": {
-              "drive": "Showing how a thing is done comes more easily to you than explaining it. You trust your hands over your words, and teach by doing it next to someone rather than telling them. Stay beside the learner, and you pass on the thing itself.",
-              "cost_self": "Teaching by doing takes your time twice, since you would rather do a thing beside someone than write it down. You teach that way even where a note would do. Teach one lesson by note to keep an hour of rest.",
-              "cost_others": "You teach a child by doing the whole thing yourself. Your own way is the one you know works, so you teach it rather than let them try another. Whenever you teach only the first step, you let them find a way of their own."
+              "drive": "Showing how a thing is done comes more easily to you than explaining it. You trust your hands over your words, and teach by doing it next to someone rather than telling them. Learners leave you with the feel of the craft in their fingers.",
+              "cost_self": "Teaching by doing takes your time twice, since you would rather do a thing beside someone than write it down. You teach that way even where a note would do. Whole afternoons of your own work go to lessons a page could carry.",
+              "cost_others": "You teach a child by doing the whole thing yourself. Your own way is the one you know works, so you teach it rather than let them try another. The child walks away with a method that holds, learned at your side."
             }
           }
         ]
@@ -441,6 +441,78 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You look a gift over before you let it please you. You put the flaw ahead of the thanks, and keep the maker from seeing you pleased. You give a maker the most when you let the gift please you first."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. If you keep the list short, you get to finish all of it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. Leave one thing half done this week, and notice how much rest comes back to you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. When you finish the last step together, you hand them a share in the making."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "Choosing the right thing to give is how you care. A wrong gift feels worse to you than none, so you choose slowly rather than give the nearest thing. Once you set yourself a deadline to choose, you reach the person while it counts."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.cost_self (want)",
+      "replaced": "For you, a good choice beats a fast one. Since getting the choice right matters more to you than being on time, you let the warm moment pass. Choose a little faster for the people you love, so you get the closeness you were after."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "You choose kind words as carefully as gifts. Anything plain sounds careless to you, so you choose silence rather than say something plain to someone you love. Each time you choose the moment along with the words, you let them hear the warmth you feel."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "Showing how a thing is done comes more easily to you than explaining it. You trust your hands over your words, and teach by doing it next to someone rather than telling them. Stay beside the learner, and you pass on the thing itself."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.cost_self (price)",
+      "replaced": "Teaching by doing takes your time twice, since you would rather do a thing beside someone than write it down. You teach that way even where a note would do. Teach one lesson by note to keep an hour of rest."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)",
+      "replaced": "You teach a child by doing the whole thing yourself. Your own way is the one you know works, so you teach it rather than let them try another. Whenever you teach only the first step, you let them find a way of their own."
     }
   ]
 }

@@ -67,25 +67,25 @@
           {
             "word": "Self-taught",
             "angles": {
-              "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. Let someone teach you from time to time, since a lesson only you know is lonely.",
-              "cost_self": "Whenever you want to know something, you teach it to yourself instead of asking. Teaching yourself an answer costs you a month where being taught it costs an hour. Ask for the hour sometimes, because you pay for each self-taught month in rest.",
-              "cost_others": "Rarely do you pass on the lesson you taught yourself. You taught it by a route too odd to explain, so you keep the knowing rather than tell it. Hand someone the messy version, because you leave anyone learning from you without the self-taught part."
+              "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. What you learn this way goes deep and stays put.",
+              "cost_self": "Whenever you want to know something, you teach it to yourself instead of asking. Teaching yourself an answer costs you a month where being taught it costs an hour. Underneath sits a wish to owe nobody for what you know.",
+              "cost_others": "Rarely do you pass on the lesson you taught yourself. You taught it by a route too odd to explain, so you keep the knowing rather than tell it. Whoever learns from you gets the answer and misses the road to it."
             }
           },
           {
             "word": "Reads between lines",
             "angles": {
-              "drive": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Wait for the reason to catch up, since you cannot pass a hunch on without proof.",
-              "cost_self": "Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so the doubt stays yours. Write the read down, since you pay for every unchecked read in doubt about your own mind.",
-              "cost_others": "Whatever gets left between the lines, you read first and skip asking. Since your read lands before your question, you answer what sits under the words instead of the words. Ask the plain question, because you take from people the chance to say it themselves."
+              "drive": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Very little gets past you, least of all what people leave unsaid.",
+              "cost_self": "Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so the doubt stays yours. You end up alone with hunches nobody else can see.",
+              "cost_others": "Whatever gets left between the lines, you read first and skip asking. Since your read lands before your question, you answer what sits under the words instead of the words. Talking to you, people get answered before they have said their piece."
             }
           },
           {
             "word": "Solo thinker",
             "angles": {
-              "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Take one invitation you usually turn down, since you give up company for thinking alone.",
-              "cost_self": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. Guard the sleep too, since you take those hours from a night your body needed.",
-              "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. Name the length first, since you give those waiting no time to expect you."
+              "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Ideas come back from those hours finished and fully yours.",
+              "cost_self": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. That hour is the one stretch of time that belongs only to you.",
+              "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. The people waiting on you never know when to expect you back."
             }
           }
         ]
@@ -742,6 +742,78 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. Remember that you are allowed to hand over the answer you reached."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. Let someone teach you from time to time, since a lesson only you know is lonely."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[0].angles.cost_self (want)",
+      "replaced": "Whenever you want to know something, you teach it to yourself instead of asking. Teaching yourself an answer costs you a month where being taught it costs an hour. Ask for the hour sometimes, because you pay for each self-taught month in rest."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Rarely do you pass on the lesson you taught yourself. You taught it by a route too odd to explain, so you keep the knowing rather than tell it. Hand someone the messy version, because you leave anyone learning from you without the self-taught part."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Wait for the reason to catch up, since you cannot pass a hunch on without proof."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so the doubt stays yours. Write the read down, since you pay for every unchecked read in doubt about your own mind."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "Whatever gets left between the lines, you read first and skip asking. Since your read lands before your question, you answer what sits under the words instead of the words. Ask the plain question, because you take from people the chance to say it themselves."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Take one invitation you usually turn down, since you give up company for thinking alone."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[2].angles.cost_self (want)",
+      "replaced": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. Guard the sleep too, since you take those hours from a night your body needed."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 土_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
+      "replaced": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. Name the length first, since you give those waiting no time to expect you."
     }
   ]
 }

@@ -67,25 +67,25 @@
           {
             "word": "Follows through",
             "angles": {
-              "drive": "You follow through long after the mood that said yes has gone. Following through matters more to you than improving, so you finish the version you announced. You come out ahead by letting a better version in, rather than finishing a worse one you announced.",
-              "cost_self": "Following through is the part of yourself you count on. Because stopping halfway feels like a broken promise, you follow through on what no longer fits rather than leave it. You give up the chance you wanted most to follow the last plan through.",
-              "cost_others": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since a plan nobody checks again costs them the better one."
+              "drive": "You follow through long after the mood that said yes has gone. Following through matters more to you than improving, so you finish the version you announced. People plan around your word because it holds.",
+              "cost_self": "Following through is the part of yourself you count on. Because stopping halfway feels like a broken promise, you follow through on what no longer fits rather than leave it. Whole seasons go into plans you outgrew long ago.",
+              "cost_others": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Those working with you keep to a road that may no longer suit them."
             }
           },
           {
             "word": "Earns trust slowly",
             "angles": {
-              "drive": "You earn trust slowly and prefer it that way. You care about being counted on more than being liked, so you earn trust by record rather than by charm. The more warmth you let go first, the sooner slow trust has a place to start.",
-              "cost_self": "Slowly earned trust is the only trust you believe. You would rather earn trust over a year than be oversold in a day, since quick trust feels false. You hand chances that need you now to someone quicker, and one named strength costs no trust.",
-              "cost_others": "Trust from you comes as slowly as you earn it. Since easy trust feels false to you, you make a new person earn it rather than let them in. You can end the wait any day, for the warmth was earned before you offered it."
+              "drive": "You earn trust slowly and prefer it that way. You care about being counted on more than being liked, so you earn trust by record rather than by charm. The faith people place in you survives a bad year.",
+              "cost_self": "Slowly earned trust is the only trust you believe. You would rather earn trust over a year than be oversold in a day, since quick trust feels false. Work that needed you this month goes to someone with an easier smile.",
+              "cost_others": "Trust from you comes as slowly as you earn it. Since easy trust feels false to you, you make a new person earn it rather than let them in. Newcomers spend a long first year on the outside of your circle."
             }
           },
           {
             "word": "Paces yourself",
             "angles": {
-              "drive": "You pace yourself through things other people sprint. Arriving whole counts for more with you than arriving first, and you keep a pace you can hold for years. You have a sprint in you as well, and pacing yourself was never meant to hide it.",
+              "drive": "You pace yourself through things other people sprint. Arriving whole counts for more with you than arriving first, and you keep a pace you can hold for years. You are still going strong long after the quick starters have dropped out.",
               "cost_self": "Your pace is set so that nothing breaks. Since a sprint costs the steadiness you built, you keep your pace rather than take the opening that needs a rush. You lose the openings that needed a rush to the pace that keeps you whole.",
-              "cost_others": "Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, and you keep everyone at your pace. You take a finish of their own from the people you pace to you, and one running ahead takes nothing from you."
+              "cost_others": "Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, and you keep everyone at your pace. Nobody walking with you is ever left behind."
             }
           }
         ]
@@ -433,6 +433,70 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "water:W-059",
       "replaced": "Your tongue gets bitten hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[0].angles.drive (gift)",
+      "replaced": "You follow through long after the mood that said yes has gone. Following through matters more to you than improving, so you finish the version you announced. You come out ahead by letting a better version in, rather than finishing a worse one you announced."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[0].angles.cost_self (price)",
+      "replaced": "Following through is the part of yourself you count on. Because stopping halfway feels like a broken promise, you follow through on what no longer fits rather than leave it. You give up the chance you wanted most to follow the last plan through."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[0].angles.cost_others (price)",
+      "replaced": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since a plan nobody checks again costs them the better one."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[1].angles.drive (gift)",
+      "replaced": "You earn trust slowly and prefer it that way. You care about being counted on more than being liked, so you earn trust by record rather than by charm. The more warmth you let go first, the sooner slow trust has a place to start."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[1].angles.cost_self (price)",
+      "replaced": "Slowly earned trust is the only trust you believe. You would rather earn trust over a year than be oversold in a day, since quick trust feels false. You hand chances that need you now to someone quicker, and one named strength costs no trust."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[1].angles.cost_others (price)",
+      "replaced": "Trust from you comes as slowly as you earn it. Since easy trust feels false to you, you make a new person earn it rather than let them in. You can end the wait any day, for the warmth was earned before you offered it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[2].angles.drive (gift)",
+      "replaced": "You pace yourself through things other people sprint. Arriving whole counts for more with you than arriving first, and you keep a pace you can hold for years. You have a sprint in you as well, and pacing yourself was never meant to hide it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m1-catalyst-closes",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
+      "finding": "K2 水_正官 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)",
+      "replaced": "Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, and you keep everyone at your pace. You take a finish of their own from the people you pace to you, and one running ahead takes nothing from you."
     }
   ]
 }
