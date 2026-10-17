@@ -1,0 +1,302 @@
+[
+ {
+  "key": "K2 土_偏财 · fn_reading.catalyst.define",
+  "text": "As a catalyst, firm ground is scarce and you see good fields everywhere with little seed for any of them. What you gain passes on through your hands.",
+  "id": "R2 cross:X2-06"
+ },
+ {
+  "key": "K2 土_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "At home, enough is the mood you set. Since you are content with enough, you let the people around you rest rather than push them for more. Those close to you live free of the itch of always wanting more.",
+  "id": "R2 cross:X2-13+R2 earth:E2-03"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Keeping a thing going is the warmest part of you. You would rather keep one thing warm for years than start many, since what lasts feels real to you. You keep friendships that others would have let drift.",
+  "id": "R2 cross:X2-15"
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Paying for everyone feels like winning to you, even when the money is shared. You would rather cover the whole bill than split it, and you dip into money pooled with others. Along with the money, you spend a plan you made together.",
+  "id": "R2 earth:E2-04"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring.",
+  "id": "R2 earth:E2-05+R2-4"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Loyalty is how you love, and you show it by staying. You stand by the people you chose rather than look around, and you let the staying speak for you. Those you love rarely hear it in words.",
+  "id": "R2 earth:E2-06"
+ },
+ {
+  "key": "K2 土_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "In your tight ship everyone has a job, and the people at home get theirs from you. You need things to run like a team, and your requests land as orders. You get what you ask for and rarely hear their ideas.",
+  "id": "R2 earth:E2-07+R2-4"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and those who share your things live with your repairs rather than their own picks. They seldom get to pick something new for themselves.",
+  "id": "R2 earth:E2-08"
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Your patience is what you teach with first. You explain a thing twice instead of watching someone struggle, and take the struggle that would have made it theirs. They end up knowing your answer without the work of finding it.",
+  "id": "R2 earth:E2-09"
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Protecting the people you love is your first move when they face trouble. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You carry risks that were always theirs to take.",
+  "id": "R2 earth:E2-10"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Long after you stopped wanting to, you keep promises to people. Your word counts for more with you than your mood, and a promise outlives the wish behind it. Whatever you promised them still arrives, on time and in full.",
+  "id": "R2 earth:E2-11"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.friction.define",
+  "text": "As a friction, what you own weighs more each year. You keep it near for comfort, and your hands stay full with no space for anything new.",
+  "id": "R2 earth:E2-17"
+ },
+ {
+  "key": "K2 土_比肩 · fn_reading.friction.define",
+  "text": "Running over, your strength feels like enough for anything, and owing nobody becomes the rule. You end up carrying loads that others would have shared.",
+  "id": "R2 earth:E2-18"
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because a low rank feels worse than no rank at all. You replay each defeat for weeks after the game is over.",
+  "id": "R2 earth:E2-19"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. You leave them short on the plans you made together.",
+  "id": "R2 fire:F2-05"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Even with close friends, you want an audience more than a companion. Company feels real to you only once it faces you, and you turn a friend into a crowd. You take a friend's evening and give back a show instead.",
+  "id": "R2 fire:F2-06"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "A peer's correction stings more than being wrong. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You end up paying for the same mistake twice, and the second time you pay alone.",
+  "id": "R2 fire:F2-07"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "With a friend you never switch off, and you hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove.",
+  "id": "R2 fire:F2-08"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "With someone you like, you go all in without being asked. You would rather add your own money than ask if they wanted it, and you double what they put in. Their plan ends up bigger and riskier than the one they made.",
+  "id": "R2 fire:F2-09"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You take up a friend's dare at full speed, before they can laugh it off. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. Nothing with you is ever just a game.",
+  "id": "R2 fire:F2-10"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. Those closest to you get days of silence with no word on why.",
+  "id": "R2 fire:F2-12+R2-4"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Each time you push too hard, you draw on strength you do not have. You would rather push through than keep the energy to finish the week. By the weekend you are short on sleep and on everything you meant to save.",
+  "id": "R2 fire:F2-13"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Keeping to the rules is how you look after people. Because one exception feels like the first crack, you give them the rule instead of what they asked for. You hold your people to the letter and take from them the ease of being wrong.",
+  "id": "R2 fire:F2-14"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "When it comes to titles, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. They climb the slow way, and every step is theirs.",
+  "id": "R2 fire:F2-15+R2-4"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold others to theirs as tightly as your own. You treat a friend's offhand words as a contract.",
+  "id": "R2 fire:F2-16"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You hold back hardest where you love most. You keep a reserve rather than give it all, and the person closest to you gets the careful share only. You feel more warmth than they ever get to see.",
+  "id": "R2 fire:F2-17+R2-4"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You show up every day for the person you love, needed or not. Being there makes you feel useful, so you offer presence where a question would serve better. They get your company without fail and seldom the thing they wanted.",
+  "id": "R2 fire:F2-18+R2-4"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep love going on time and without fail. Reliable feels more like love to you than exciting does, and you give the one closest to you steady warmth over surprise. Life with you has everything except the unexpected.",
+  "id": "R2 fire:F2-19+R2-4"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you. All you want is to get it right, and you would rather pay for a mistake than fix it.",
+  "id": "R2 wood:W2-002"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Whatever is newest in front of you is what you chase hardest. Beginning is what wakes you up, and you chase the fresh start over the finish. You leave a row of half-done things behind you, each one new when you started.",
+  "id": "R2 wood:W2-003+R2-3"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Leaving comes hard to you, and you stay where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
+  "id": "R2 wood:W2-004+R2-3"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Trusting takes you years, losing it an afternoon. Being fooled is what you fear, and you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
+  "id": "R2 wood:W2-005+R2-3"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Spotting openings is what you do before anything is obvious. Hungry for what could be, you notice the far chance more than the one in your hand. You point at good ideas long before your circle sees them.",
+  "id": "R2 wood:W2-006+R2-3"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Building slowly is where you feel most sure of yourself. Wanting something that lasts, you build one thing for years rather than chase several. Your work is still standing when quicker efforts have fallen.",
+  "id": "R2 wood:W2-007+R2-3"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the one closest to you your presence more than your feelings. They get all of your time and few of your words.",
+  "id": "R2 wood:W2-008+R2-4"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Being loyal comes before being exciting for you. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. The people beside you have little reason to doubt you.",
+  "id": "R2 wood:W2-009"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let whoever learns from you set their own pace. Those you teach learn without fear of getting it wrong in front of you.",
+  "id": "R2 wood:W2-010+R2-4"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the one in charge your best rather than the one beside you. You send the credit for shared work upward, past your peers.",
+  "id": "R2 wood:W2-011+R2-4"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. The next step up you earned often goes to someone louder.",
+  "id": "R2 wood:W2-012+R2-4"
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Your biggest bets land on other people too. Going big matters more to you than going safe, and the shared money rides on your nerve. You set the size of a risk that the people who pooled with you have to carry.",
+  "id": "R2 wood:W2-019"
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "When those close to you want to move, you stay put and stall. Keeping things as they are feels steadier to you than change, and you hold everyone in place. You slow the move they wanted to the pace that suits you.",
+  "id": "R2 wood:W2-020"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You never bend, whatever the day asks. Standing firm feels safer to you than giving way, and you brace against a change of plan rather than lean into it. You keep faith with the old plan after it has stopped working.",
+  "id": "R2 wood:W2-021"
+ },
+ {
+  "key": "K2 木_比肩 · fn_reading.catalyst.define",
+  "text": "Running thin, your strength stretches to one thing at a time. You spend it on ground you know, and what grows there holds its shape.",
+  "id": "R2 wood:W2-022"
+ },
+ {
+  "key": "K2 木_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Being right is a comfort you never run out of. Admitting a mistake costs you a piece of yourself, and you defend a wrong call as much as a right one. You come out of each argument right and without the lesson it held.",
+  "id": "R2 wood:W2-023"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Something new opens, and you start before asking what it needs. Because starting feels like freedom, you take the quick start over the slow finish. Your life fills with things you began and never saw through.",
+  "id": "R2 wood:W2-024"
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer arrives before theirs. You take away their try, and the pride of a win they would have reached alone.",
+  "id": "R2 wood:W2-025"
+ },
+ {
+  "key": "K2 土_偏印 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "With a decision nearly made, you second-guess it from one more angle. Fearing the wrong call, you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later.",
+  "id": "R2-3"
+ },
+ {
+  "key": "K2 土_食神 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Chances you never pushed for go to people who did.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to those beside you. You keep the start of a shared plan and hand them the long middle.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand the people closest to you the same thin slice as everything else.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Among the people who look to you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. They spend extra years proving what you already see in them.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. You weather bad years that sink other people.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend the other person's years along with your own.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Counting what something cost matters to you more than enjoying it. Afraid of running short, you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
+  "id": "R2-3"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Wherever a plan stalls, you take charge and mean it kindly. Because a slow group feels risky, you take charge rather than wait your turn. Others in the group get fewer chances to decide things for themselves.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "When a day has no stakes, you add some. Since an easy win bores you more than a hard loss, you raise everyone's stakes with yours. The people close to you feel every swing you take.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and the people you love get the big day and live through the gap. Their best stories come from the days you made.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Saving comes before spending for you, every time. Something put by is what lets you sleep, so you keep a little back rather than enjoy all of it now. The lean months find you ready.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Your count covers money you share with others as much as your own. Knowing where every bit went keeps you calm, and you ask about the receipt before the day itself. You charge them a question for every small purchase.",
+  "id": "R2-4"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, and the other person's bigger ideas wait. You give up their chances with your own each time you say no.",
+  "id": "R2-4"
+ }
+]
