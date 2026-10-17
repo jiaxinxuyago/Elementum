@@ -99,11 +99,15 @@ Written 2026-10-17 by the session "Cross-LLM reading-content generation and comp
 - **Stale twin header:** the twin MD header still describes the ledger as "three doors (trait, scene, outside)". The data uses drive / cost_self / cost_others.
 - **DOM-1:** the Domain reading for a new tier. S1 (the price on the domain sheet) waits for it. S2–S4 are app-bug suspects on the backlog. Not approved: "Intuition" → "Insight" and the Virtuoso's domain "Mind" → "Growth".
 
-## 4. Next workstream: the Day Master page as a diagnosis
+## 4. Next workstreams: the Day Master page, then THE DOMAINS
 
 Started 2026-10-17 in the session "Elementum day master reading" (session_018G2UubTGzVjLkSgBzGXtjX).
 - The task brief and catch-up: `ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/`.
 - Earlier Day Master laws: the 2026-09-11, 2026-09-15 (P4, door-tagged pools) and 2026-09-20 handoffs in this folder.
+
+**THE DOMAINS, domain first, then the ten-god positions** (DOM-1). Started 2026-10-17 in the session "Elementum Domains reading", the owner's "most important next section".
+- **The reading has to climb:** "it knows me", then "how did it know that?" (the past), then "is that really going to happen?" (the future).
+- **Brief and catch-up:** `ComparativeAnalysis/Handoffs/2026-10-17-domains/`.
 
 ## 5. The owner's review pages for this workstream (claude.ai artifacts)
 
