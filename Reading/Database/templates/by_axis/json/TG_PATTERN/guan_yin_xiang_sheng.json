@@ -27,6 +27,26 @@
     ],
     "line": "Your officer star feeds your seal: structure flows into learning, position into protection. Institutions treat you kindly and mentors appear inside them. Steady ascent is the wiring.",
     "reading": "A protected road runs underneath: structure keeps converting into learning for you, and position into shelter. Mentors appear inside hierarchies, promotions arrive without scandal, and your name gathers weight the slow, durable way. The only hazard is staying past a frame’s worth. Audit the ladder every few years, then climb on.",
-    "fused_line": "Fused in one pillar, the blessing is concentrated: your rank and your learning rise as one column."
-  }
+    "fused_line": "They share one gate in you, and you rise in rank and in learning together.",
+    "domain_lines": {
+      "Career": "You find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
+      "Mind": "You learn best inside a frame, a school or a firm or a discipline, and you keep studying long after the course has ended."
+    }
+  },
+  "$provenance": [
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "Fused in one pillar, the blessing is concentrated: your rank and your learning rise as one column."
+    }
+  ]
 }

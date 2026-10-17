@@ -25,4 +25,6 @@
 | `target_domains` | Career · Mind |
 | `line` | Your officer star feeds your seal: structure flows into learning, position into protection. Institutions treat you kindly and mentors appear inside them. Steady ascent is the wiring. |
 | `reading` | A protected road runs underneath: structure keeps converting into learning for you, and position into shelter. Mentors appear inside hierarchies, promotions arrive without scandal, and your name gathers weight the slow, durable way. The only hazard is staying past a frame’s worth. Audit the ladder every few years, then climb on. |
-| `fused_line` | Fused in one pillar, the blessing is concentrated: your rank and your learning rise as one column. |
+| `fused_line` | They share one gate in you, and you rise in rank and in learning together. |
+| `domain_lines.Career` | You find your mentors inside the structures you join, and your name gathers weight the slow and lasting way. |
+| `domain_lines.Mind` | You learn best inside a frame, a school or a firm or a discipline, and you keep studying long after the course has ended. |

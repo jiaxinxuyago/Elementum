@@ -24,4 +24,6 @@
 | `target_domains` | Career · Health |
 | `line` | Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline. |
 | `reading` | There is a rarer wiring underneath this: stress reaches you pre-processed. Deadlines that grind other people turn into output in your hands, and your calmest work happens closest to the pressure. That composure is produced, and it costs fuel. Protect the rest, the craft, and the small pleasures that produce it, and pressure stays your employee. |
-| `fused_line` | The two share one pillar in you, so this alchemy runs close to the bone: pressure converts almost instantly. |
+| `fused_line` | The two share one gate in you, and you turn pressure into calm almost as soon as it lands. |
+| `domain_lines.Career` | You do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands. |
+| `domain_lines.Health` | Comfort is what protects you, because good food and work with your hands turn pressure into something you can use. |

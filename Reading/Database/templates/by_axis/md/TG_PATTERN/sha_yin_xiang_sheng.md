@@ -25,4 +25,7 @@
 | `target_domains` | Career · Growth · Mind |
 | `line` | Pressure and shelter feed each other in your chart: hard chapters keep converting into wisdom and rank. What tests you also promotes you, and the pattern strengthens with age. |
 | `reading` | A stronger current runs underneath: hardship keeps converting into wisdom and rank for you. Each heavy chapter has left you promoted, certified, or deeper, usually all three, and the pattern strengthens with age. Trust weight to be a ladder. Just rest between climbs, because the converter needs cooling. |
-| `fused_line` | Fused in one pillar, the conversion is immediate for you: pressure barely lands before it becomes lesson. |
+| `fused_line` | They share one gate in you, and you learn from pressure in the same week it arrives. |
+| `domain_lines.Career` | You come out of every hard stretch at work more senior than you went in, and the pattern grows stronger with age. |
+| `domain_lines.Growth` | You grow most through the years that weigh on you, and you have left every heavy stretch more skilled than you entered it. |
+| `domain_lines.Mind` | You turn pressure into understanding, and the hardest years of your life are the ones that taught you how to think. |

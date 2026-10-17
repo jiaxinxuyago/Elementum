@@ -129,6 +129,75 @@
       "Mind",
       "Career",
       "Social"
-    ]
-  }
+    ],
+    "decade_lines": {
+      "Social": {
+        "helping": {
+          "ahead": "You become more outspoken in these years, and the people who like it like it a great deal. You gather an audience of your own, and you lose patience with company that asks you to be quieter.",
+          "lived": "In company you were the lively one in those years, quick with a joke and a sharp opinion. People sought you out for the spark, and you enjoyed being heard."
+        },
+        "heavy": {
+          "lived": "Your sharp tongue cost you friends in those years, and a few groups closed ranks against you. You kept the people who liked your honesty, and those few saw you through.",
+          "ahead": "Bluntness strains your friendships in these years, and some people take offence at what you meant as wit. The friends who stay value your candour, and you find them worth more than a wide circle."
+        }
+      },
+      "Mind": {
+        "helping": {
+          "ahead": "You turn your thinking outward in these years, and you say in public what you used to keep to yourself. You are quicker and bolder with ideas than at any time before.",
+          "lived": "Ideas came fast in those years, and you spoke them aloud with confidence. You were quicker than the people around you, and you enjoyed proving it in argument."
+        },
+        "heavy": {
+          "lived": "Restless thinking ran through those years, and you argued with every idea that came from above. Your mind never settled, and what carried you was one project worth all that energy.",
+          "ahead": "Your thoughts run hot in these years, and every rule you meet invites a quarrel. Work that uses the energy keeps you clear, and you sleep better on the days you finish something."
+        }
+      },
+      "Career": {
+        "helping": {
+          "lived": "Talent made your name in those years, through work that broke with how things were usually done. You stood out for being different, and the people who hired you wanted exactly that.",
+          "ahead": "Original work brings you recognition in these ten years. You win clients and audiences by doing what others will not, and your reputation grows on your own terms."
+        },
+        "heavy": {
+          "lived": "Clashes with bosses marked those years, because you said aloud what others kept quiet. You lost favour more than once, and your skill carried you to the next job each time.",
+          "ahead": "Authority pushes back on you in these years, and a frank remark costs more than it used to. Work that is yours alone carries you through, and you do better outside a strict chain of command."
+        }
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "decade_lines.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

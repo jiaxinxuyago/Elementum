@@ -671,7 +671,7 @@ export default function App() {
     case 'app-reading':
       // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
       // → towers + seal dock. Endpoints route into the existing reading pages.
-      rendered = <JourneyStage openEl={energyTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
+      rendered = <JourneyStage openEl={energyTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.

@@ -878,3 +878,63 @@
 .jny .el-remedykicker.up{ color: var(--up, #4a7a52); }
 .jny .el-edgebox .el-remedytitles .el-remedytitle.xl{ font-size: 16.5px; letter-spacing: 0; }
 
+
+/* ── THE DOMAINS, domain first (DOM-1, owner 2026-10-17) ─────────── */
+.jny .dl-hub{ display: flex; flex-direction: column; gap: 8px; }
+.jny .dl-claim{ font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 22px; line-height: 1.2; color: var(--ink); margin: 2px 0 0; text-wrap: balance; }
+.jny .dl-sub{ margin: 0; }
+.jny .dl-teach{ margin: 2px 0 0; color: var(--ink); font-size: 14px; }
+.jny .dl-legend{ margin: 0; font-size: 12.5px; }
+.jny .dl-ll{ margin: 6px 0 2px; }
+.jny .dl-grid{ position: relative; display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--paperHair); border-radius: 12px; overflow: hidden; background: var(--cardstock); }
+.jny .dl-col{ border-left: 1px solid var(--paperHair); padding: 6px 3px 5px; min-width: 0; }
+.jny .dl-col:first-child{ border-left: 0; }
+.jny .dl-col.future{ background: repeating-linear-gradient(135deg, transparent 0 6px, rgba(184,150,46,0.08) 6px 12px); }
+.jny .dl-col.closed{ background: repeating-linear-gradient(135deg, transparent 0 5px, rgba(133,125,114,0.16) 5px 10px); }
+.jny .dl-gate, .jny .dl-age{ display: block; text-align: center; font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: var(--inkLight); }
+.jny .dl-age{ letter-spacing: 0.4px; margin-bottom: 3px; }
+.jny .dl-seat{ display: block; text-align: center; font-size: 11px; line-height: 1.2; border-radius: 7px; padding: 3px 1px; margin: 3px 0; border: 1px solid transparent; color: var(--inkLight); }
+.jny .dl-seat.on{ color: var(--ink); font-weight: 600; border-color: var(--paperHair); background: #FBF7EC; }
+.jny .dl-k{ display: block; font-size: 7px; letter-spacing: 1px; text-transform: uppercase; font-weight: 400; color: var(--inkLight); }
+.jny .dl-dot{ display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 3px; vertical-align: 1px; }
+.jny .dl-empty{ display: block; text-align: center; font-size: 10.5px; color: var(--inkLight); padding: 3px 0; margin: 3px 0; }
+.jny .dl-mark{ position: absolute; top: 0; bottom: 0; width: 0; border-left: 2px solid var(--sealRed); pointer-events: none; }
+.jny .dl-mark span{ position: absolute; top: -1px; left: 3px; font-size: 8.5px; letter-spacing: 0.5px; color: #FBF7EC; background: var(--sealRed); border-radius: 3px; padding: 0 4px; white-space: nowrap; }
+.jny .dl-key{ display: flex; justify-content: space-between; font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: var(--inkLight); margin-top: 3px; }
+.jny .dl-tiles{ display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 6px 0 0; }
+.jny .dl-tile{ display: flex; flex-direction: column; gap: 2px; text-align: left; background: var(--cardstock); border: 1px solid var(--paperHair); border-radius: 13px; padding: 9px 10px; color: var(--ink); cursor: pointer; min-width: 0; }
+.jny .dl-tile.hl{ border-color: var(--inkSoft); }
+.jny .dl-tile.ghost{ background: transparent; border-style: dashed; }
+.jny .dl-tile:focus-visible, .jny .dl-closed:focus-visible{ outline: 2px solid var(--ink); outline-offset: 2px; }
+.jny .dl-tilehead{ display: flex; align-items: center; gap: 5px; }
+.jny .dl-tileic, .jny .dl-headic{ width: 15px; height: 15px; color: var(--inkSoft); flex: none; }
+.jny .dl-headic{ width: 11px; height: 11px; margin-right: 5px; vertical-align: -1px; }
+.jny .dl-tn{ font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 17px; line-height: 1.1; }
+.jny .dl-tc{ font-size: 8.5px; letter-spacing: 1px; text-transform: uppercase; color: var(--inkLight); }
+.jny .dl-th{ font-size: 13px; line-height: 1.35; color: var(--inkSoft); }
+.jny .dl-closed{ display: block; width: 100%; text-align: left; font-size: 13px; line-height: 1.45; color: var(--inkSoft); background: transparent; border: 1px dashed var(--paperHair); border-radius: 11px; padding: 8px 10px; margin: 6px 0; cursor: pointer; }
+.jny .dl-closed svg{ width: 11px; height: 11px; vertical-align: -1px; }
+.jny .dl-page{ display: flex; flex-direction: column; gap: 12px; }
+.jny .dl-title{ font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 23px; line-height: 1.15; margin: 2px 0 6px; color: var(--ink); text-wrap: balance; }
+.jny .dl-step{ border-left: 2px solid var(--paperHair); padding: 0 2px 0 12px; }
+.jny .dl-stepey{ display: block; font-size: 8.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--sealRed); margin-bottom: 2px; }
+.jny .dl-stephd{ display: block; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 18px; line-height: 1.2; margin-bottom: 5px; color: var(--ink); }
+.jny .dl-text{ font-size: 15px; line-height: 1.5; color: var(--ink); margin: 0 0 8px; }
+.jny .dl-beat{ margin: 0 0 10px; }
+.jny .dl-beat.dec{ background: var(--cardstock); border: 1px solid var(--paperHair); border-radius: 11px; padding: 8px 10px; }
+.jny .dl-beat.win.helping{ border-color: var(--up); }
+.jny .dl-beat.win.heavy{ border-color: var(--down); }
+.jny .dl-beat.dec .dl-text{ margin: 0; }
+.jny .dl-when{ display: block; font-size: 8.5px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--inkLight); margin-bottom: 2px; }
+.jny .dl-beat.now .dl-when, .jny .dl-when.now{ color: var(--sealRed); }
+.jny .dl-lead{ font-size: 13.5px; font-weight: 600; color: var(--ink); margin: 0 0 5px; }
+.jny .dl-who{ display: block; font-size: 12.5px; color: var(--inkLight); margin-top: -4px; }
+.jny .dl-gap{ font-size: 14px; line-height: 1.5; color: var(--inkSoft); border: 1px dashed var(--paperHair); border-radius: 11px; padding: 8px 10px; margin: 0 0 10px; }
+.jny .dl-note{ margin: 4px 0 0; font-size: 12.5px; }
+.jny .dl-seatcard{ border-top: 1px solid var(--paperHair); padding: 9px 0 3px; }
+.jny .dl-seatcard:first-of-type{ border-top: 0; }
+.jny .dl-st{ display: block; font-weight: 600; font-size: 15px; color: var(--ink); }
+.jny .dl-zh{ font-family: 'Noto Serif SC', serif; font-size: 11.5px; font-weight: 400; color: var(--inkLight); margin-left: 6px; }
+.jny .dl-meta{ display: block; font-size: 8.5px; letter-spacing: 1px; text-transform: uppercase; color: var(--inkLight); margin: 2px 0 4px; }
+.jny .dl-defl, .jny .dl-read, .jny .dl-about{ margin: 0 0 6px; }
+.jny .dl-elcard{ cursor: default; }

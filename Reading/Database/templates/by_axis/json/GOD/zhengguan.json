@@ -131,6 +131,82 @@
       "Family",
       "Social",
       "Career"
-    ]
-  }
+    ],
+    "decade_lines": {
+      "Family": {
+        "helping": {
+          "ahead": "You take a proper place in your family in these years, as the reliable one with a role and a duty. You earn a standing among your relatives that you keep for the rest of your life.",
+          "lived": "Order and good manners shaped your home in those years, and you knew your place and your duties. You earned respect from older relatives by keeping the family's rules, and you felt secure inside them."
+        },
+        "heavy": {
+          "lived": "Family rules weighed on you in those years, and you lived up to expectations that left you little say. You did your duty well, and the discipline it taught you later gave you a voice of your own.",
+          "ahead": "Obligations at home pile up in these years, with duties to elders and a reputation to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone."
+        }
+      },
+      "Career": {
+        "helping": {
+          "ahead": "Your work gains structure in these ten years, a proper title or a role with real responsibility. You are trusted with more than before, and the trust lasts beyond the job that gave it.",
+          "lived": "Promotion came the proper way in those years, through good work noticed by the right people. You earned a title you could be proud of, and you wore the responsibility well."
+        },
+        "heavy": {
+          "lived": "Rules and rank boxed you in at work during those years, and you followed procedure long after it stopped helping. You were reliable to a fault, and your record carried you into better posts later.",
+          "ahead": "Hierarchy presses on you at work in these ten years, and each new duty tightens a frame that is already close. You stay respected throughout, and you find freedom in the parts of the job you shape yourself."
+        }
+      },
+      "Social": {
+        "helping": {
+          "ahead": "You gain standing among friends and colleagues in these years, and people start asking your opinion before they decide. You become the steady one in your circle, and you take the part seriously.",
+          "lived": "Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once."
+        },
+        "heavy": {
+          "lived": "Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle.",
+          "ahead": "Duty shapes your friendships in these years, and social life starts to feel like obligation. Your good name holds, and you find relief with the friends who expect nothing formal from you."
+        }
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "decade_lines.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "decade_lines.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-6.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

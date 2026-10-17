@@ -23,8 +23,8 @@
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Wealth |
-| `defline` | The Steward holds your chart’s strongest seat: your prime compounds, brick by deliberate brick. |
-| `reading` | This position rules Career and Wealth, and it holds the deep seat of your prime. The Steward lives inside your Month Gate: your working life is built on earned ground, income you can explain, assets you maintain, promises you keep. The engine is patience with compounding, and it runs your middle decades with quiet power. Expect your wealth curve to be unfashionably smooth: slower than you want at first, further than you guessed by the end. Avoid ventures that require you to become someone else. Your fortune is character-shaped, and the character is the moat. |
+| `defline` | The Steward lives inside your Month Gate: your working years rest on steady effort and money you have plainly earned. |
+| `reading` | Under your working life sits a patient wish to build something that lasts, a skill kept up and savings that grow each year. Because you trust only what you have earned yourself, you turn down quick gains that would ask you to become someone else. Your progress looks slow at first and surprises people later. The cost is a tight grip, and you deny yourself the pleasure of what you have built. |
 | `teaser` | Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect. |
 | `domain_readings.Career` | Earned ground is your deep engine: income you can explain, skills you maintain, promises you keep. Careers reward you the way soil rewards farmers, seasonally, honestly, cumulatively. Avoid ventures requiring you to become someone else. Your character is the business model. |
 | `domain_readings.Wealth` | Your wealth curve is unfashionably smooth: slower than wanted at first, further than guessed by the end. The engine is patience with compounding, and it runs your middle decades with quiet power. Protect it from excitement. Every boring year is secretly a very good one. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the building never pauses: maintenance as compulsion, rest as risk. Schedule the fallow season deliberately. |
 | `shadow_line` | Overloaded, the earned becomes the hoarded: value kept from everyone, including you. |
 | `health_line` | Your health is maintenance-shaped: it responds to routine like machinery to oil. Skip nothing small and nothing large will arrive. |
+| `domain_climb.Career.headline` | Your career grows slowly and keeps growing. |
+| `domain_climb.Career.recognition` | You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. You are underrated in the early years of any role, and you outlast most of the people who underrated you. |
+| `domain_climb.Career.lived` | Since your late teens your working life has moved forward one step at a time, with each job adding a skill you kept. More than once you have overtaken people who started faster than you. |
+| `domain_climb.Wealth.headline` | Your savings grow quietly, year after year. |
+| `domain_climb.Wealth.recognition` | You save a part of everything you earn, and a steady rise in your accounts pleases you more than any windfall. Because security is what you are working for, you avoid risks that would make you rich quickly. Your caution keeps you safe, and you feel a good year as relief more than as joy. |
+| `domain_climb.Wealth.lived` | Since your late teens you have put money aside even in lean months, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk. |

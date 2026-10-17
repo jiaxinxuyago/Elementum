@@ -25,4 +25,6 @@
 | `target_domains` | Career · Wealth |
 | `line` | Your wealth stars feed your officer star: diligence converts into title, resources into standing. You rise by being worth promoting. Negotiate rank as deliberately as you earn. |
 | `reading` | A steady engine runs underneath: what you earn keeps converting into standing. Results banked become titles offered, and property and position reinforce each other through your middle decades. The one flaw is under-asking. Negotiate rank as deliberately as you earn it, and make sure someone senior sees the ledger. |
-| `fused_line` | In one pillar together, earning and standing braid tightly for you: every gain quietly argues for your next title. |
+| `fused_line` | They share one gate in you, and you find every gain arguing quietly for your next title. |
+| `domain_lines.Career` | Your earnings keep turning into standing, and you rarely ask for the title your results have already earned. |
+| `domain_lines.Wealth` | You turn money into position, and you feel richer when a gain comes with respect than when it comes alone. |

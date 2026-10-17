@@ -1,0 +1,523 @@
+[
+ {
+  "id": "bijian_day_branch",
+  "term": "The Twin inside the Day Gate",
+  "god": "比肩",
+  "persona": "The Twin",
+  "gate": "day",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Day Gate: 35 to 47 era, the self and the partner (a Day seat also gives the pattern so far)",
+  "domains": [
+   "Love",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Love": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Twin sits in your spouse palace: you partner as an equal, and only as an equal.",
+   "reading": "This position rules Love and Social, and it works from your marriage palace. The Twin lives inside your Day Gate: at close range you need an equal, a partner whose spine matches yours, and romance built on leaning never holds you long. Your adult chapters run as a two-captain household, strong, frank, occasionally a contest. Friends of the marriage tend to be shared and loyal. Watch for score-keeping in the kitchen, the quiet ledger of who did what. Choose someone you admire, then let them carry you now and then. That is the hard move, and the marriage-saving one.",
+   "teaser": "In love you need an equal, someone with a spine that matches yours. Marriage will feel like a partnership of captains, and it works when neither keeps score.",
+   "domain_readings": {
+    "Love": "In love you need a spine that matches yours: romance built on leaning never holds you, and admiration is your real aphrodisiac. The marriage that works is two captains with one map. Practice being carried occasionally. It is the single hardest and most bonding move available to you.",
+    "Social": "Your social life routes through respect: friends earned as equals, kept as family, never collected. Couple-friendships suit you, allies of the household rather than audiences for it. Keep the circle small and the standards visible. People rise to them or rotate out, and both outcomes serve."
+   },
+   "life_chapter": "Your home chapter runs as a partnership of equals: the adult decades organize around a marriage or bond where neither leads by default. Expect the era’s lessons to be about yielding, not standing, you arrived already knowing how to stand. The households you build will be sturdy and frank.",
+   "relations": "The spouse is this seat’s person, and they will be your match: strong-willed, capable, unimpressed by performance. In-laws and close friends read your household as a unit. Guard against score-keeping at close range. Equals keep ledgers by instinct, and love asks you to lose count.",
+   "shadow_line": "Overloaded, intimacy becomes negotiation: affection with terms, warmth with a scoreboard.",
+   "health_line": "Your body mirrors the household: it settles when home is level and knots when home contests. Peace at the table is physical medicine here."
+  }
+ },
+ {
+  "id": "bijian_hour_branch",
+  "term": "The Twin inside the Hour Gate",
+  "god": "比肩",
+  "persona": "The Twin",
+  "gate": "hour",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Twin lives inside your Hour Gate: the root of your late life is company of equals, kept small and true.",
+   "reading": "This position rules Family and Growth, and it works in the root of your late years. The Twin lives inside your Hour Gate: your harvest runs on a few chosen equals, friends who became family, children raised to stand level with you. The root wants respect more than care, and it will trade comfort for dignity every time it is asked. So build the small circle now that you intend to grow old inside. Two or three people who never needed you weak will keep your last chapters warm, and your independence honest.",
+   "teaser": "Your later years run on a few chosen equals, friends who became family. Invest in that small circle now: it is the pension no market touches.",
+   "domain_readings": {
+    "Family": "Your late family is chosen as much as given: friends who became kin, children raised to stand level, a table where respect outranks ceremony. The root wants peers, so become one to your own descendants. The household that debates you as an equal is the one that keeps you young.",
+    "Growth": "Growth in the last era comes through the small circle: two or three equals who never needed you weak, sharpening you to the end. Invest in those bonds now like the pension they are. Solitary strength ages fine. Companioned strength ages well."
+   },
+   "life_chapter": "Your late chapter roots in chosen company: the harvest decades run on a few level bonds, tended long, trusted completely. Expect the final era to be sturdier than most people’s and smaller than most people’s, by design. The circle you build by fifty is the one that carries you after.",
+   "relations": "The chosen equals are this seat’s people: old friends with keys to your house, children who grew into peers, the late companions who knock without ceremony. Keep them close and keep them few. This root holds by depth, never by width.",
+   "shadow_line": "Overloaded, chosen few becomes chosen none: dignity kept, company lost.",
+   "health_line": "Late health tracks companionship here: the tended body follows the tended bond. Walk with someone, and both outlast the actuary."
+  }
+ },
+ {
+  "id": "bijian_hour_stem",
+  "term": "The Twin at the Hour Gate",
+  "god": "比肩",
+  "persona": "The Twin",
+  "gate": "hour",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Growth",
+   "Family"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Twin stands at your Hour Gate: what you show the future is independence, taught by demonstration.",
+   "reading": "This position rules Growth and Family, and it shapes how your story ends. The Twin stands at your Hour Gate, visible to the last: you will age on your own terms, keys kept, help declined politely. What you show children and juniors is self-reliance done with dignity, and they will copy it whether you narrate it or leave it silent. Late growth stays real for you, new skills after most people stop. One counsel from the old readings: stand alone with the door open. The young remember both, and they return to the second.",
+   "teaser": "You will age on your own terms and make it look easy. The young learn self-reliance from watching you, so leave the door open while you stand alone.",
+   "domain_readings": {
+    "Growth": "Your growth never files for retirement: new skills past sixty, standards that keep rising after the audience leaves. What you demonstrate late becomes the masterclass. Keep one apprenticeship running, with you as either party. The last decades are for finishing the self, and you will.",
+    "Family": "To family you become the standing example: the elder who needs nothing and notices everything. Children and juniors learn independence from your bearing before your words. Add the words anyway. Demonstrated strength teaches, but narrated strength comforts, and they will need both after you."
+   },
+   "life_chapter": "Your late chapter keeps its own keys: the last decades run on self-command, health self-managed, affairs self-kept, dignity non-negotiable. Expect to be the oldest capable person at every table and quietly proud of it. Plan the interdependence early, because your default plans none.",
+   "relations": "Children, juniors, and the young who watch you are this seat’s people: your independence is their inheritance, delivered by example. The relationships deepen when you occasionally need them. Schedule that vulnerability like an appointment. It is the one gift your strength withholds.",
+   "shadow_line": "Overloaded, the example hardens into distance: admired from across a gap nobody chose.",
+   "health_line": "Your late body answers to use: strength kept by training, stiffness earned by pride. Keep lifting lightly and asking occasionally."
+  }
+ },
+ {
+  "id": "bijian_month_branch",
+  "term": "The Twin inside the Month Gate",
+  "god": "比肩",
+  "persona": "The Twin",
+  "gate": "month",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Twin holds your chart’s strongest seat: your prime runs on self-reliance, built into the frame itself.",
+   "reading": "This position rules Career and Growth, and it holds the deepest seat your chart has. The Twin lives inside your Month Gate: the engine of your prime is self-propulsion, careers built with your own hands and defended with your own name. Autonomy is oxygen through your working decades, and bosses either learn that or lose you. Growth compounds when the skill is yours outright. Money made with partners blurs, so write the equity down while everyone still likes each other. Your prime will carry you exactly as far as your own engine is maintained. Maintain it.",
+   "teaser": "Your prime runs on your own engine: careers built alone hold, careers built on rescue stall. Equity and credit stay cleanest when they are written down early.",
+   "domain_readings": {
+    "Career": "Your career engine is self-propulsion: work owned whole, standards self-set, results signed. You flourish exactly where autonomy is real and suffocate where it is decorative. Interview employers for freedom before salary. Your output doubles when nobody is holding the other handle.",
+    "Growth": "Your growth compounds through mastery held outright: skills nobody can reassign, a name nobody can dilute. The plateau danger is going it alone past the point of learning. Hire teachers the way you hire tools, deliberately, and your ceiling keeps moving."
+   },
+   "life_chapter": "Your rising chapter runs on your own fuel: the prime decades reward every skill you own outright and tax every dependency. Expect the pattern to sharpen through your thirties, autonomy paying, waiting costing. Build the engine early and service it always. The era belongs to the self-propelled.",
+   "relations": "Colleagues who became equals are this seat’s people: the working partnerships that survived because nobody was junior. Parents may read your independence as distance during these years. Translate for them occasionally. The engine was never a rejection.",
+   "shadow_line": "Overloaded, the prime becomes a fortress: victories stacking inside walls nobody is invited past.",
+   "health_line": "Your working body runs hot and silent: it performs until it stops. Put rest into the schedule as a task, because it will never volunteer."
+  }
+ },
+ {
+  "id": "bijian_year_branch",
+  "term": "The Twin inside the Year Gate",
+  "god": "比肩",
+  "persona": "The Twin",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Twin lives inside your Year Gate: the root of your early world was learning to hold your own.",
+   "reading": "This position rules Family and Growth, and it works from the root of your story. The Twin lives inside your Year Gate, the hidden face: somewhere early you became your own backup, in a house that treated small people as capable ones. The root took, and it still holds your weight. Growth for you starts from self-trust, and it always will. Family bonds run level, brothers and sisters in spirit if they were level too. The counsel is gentle: some help is worth accepting purely to stay in practice. Sturdiness that never leans eventually forgets how.",
+   "teaser": "Some part of you grew up fast and private, learning to need very little. That toughness holds, though letting people in will always take deliberate effort.",
+   "domain_readings": {
+    "Family": "Your family root runs on quiet capability: a house where small people were treated as able ones, and you rose to it. As an adult you hold family the same way, present, level, unfussy. The tenderness is real underneath. Let it surface before occasions force it.",
+    "Growth": "You grow from self-trust outward: every skill you own began with deciding you could. That root makes you nearly unteachable by force and endlessly teachable by choice. Choose teachers on purpose. Growth accelerates the moment you allow someone alongside."
+   },
+   "life_chapter": "Your early chapter built the keel: somewhere before the world was watching, you learned to hold your own, and it set the hull for everything after. The strengths of those hidden years surface all your life as steadiness others cannot explain. Expect to be the calm one in every storm.",
+   "relations": "Siblings and the earliest household are this seat’s people: bonds forged level, loyalty without ceremony. Whoever stood beside you in the first chapters keeps a claim on you, and honoring it keeps you whole. Reach back sometimes. The root feeds both directions.",
+   "shadow_line": "Overloaded, the root refuses replanting: growth declined because it required asking.",
+   "health_line": "Your constitution is quietly durable: it endures more than it should before signaling. Build the habit of early rest, because your body will never demand it."
+  }
+ },
+ {
+  "id": "bijian_year_stem",
+  "term": "The Twin at the Year Gate",
+  "god": "比肩",
+  "persona": "The Twin",
+  "gate": "year",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Social",
+   "Family"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Twin stands at your Year Gate: independence is the first thing your story shows, inherited and worn openly.",
+   "reading": "This position rules Social and Family, and it rules them from your beginnings. The Twin stood openly at your Year Gate: a self-made line, a family that praised standing on your own feet, a childhood where help was earned. The world still meets that face first, capable and unleaning. Friendships form the way siblings do for you, level or never. Expect early independence to keep paying: doors open because people trust you to carry your side. The inheritance has one gap, and you know it. Practice asking. The strong version of you can afford to.",
+   "teaser": "Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway.",
+   "domain_readings": {
+    "Social": "Your social world sorts itself early and stays sorted: a few equals held close, a wide ring kept at handshake distance. People read you as complete, which draws the strong and quietly deters the needy. Curate on purpose. Your circle is small by design, so every chair matters.",
+    "Family": "Family taught you standing, and you honor it by standing: duties met without being asked, help given without being owed. You are the relative who never calls needing something. Call anyway sometimes. The family reads your silence as distance, and it was only ever self-sufficiency."
+   },
+   "life_chapter": "Your early chapter made you sturdy in public: a childhood where capability was noticed and rewarded, and softness kept private. The self you built before sixteen is load-bearing still. Expect the themes of those years, earning your place, carrying your share, to keep returning as strengths.",
+   "relations": "The father-line and early peers are this seat’s people: a self-made elder whose example outweighed his words, and childhood friends who competed you into shape. The bonds that last from that era are the level ones. Revisit them. They still hold.",
+   "shadow_line": "Overloaded, early pride calcifies: help refused on principle, even the help you wanted.",
+   "health_line": "Your body carries its loads without announcing them: strong frame, quiet strain. Check what you carry before it checks you."
+  }
+ },
+ {
+  "id": "jiecai_day_branch",
+  "term": "The Rival inside the Day Gate",
+  "god": "劫财",
+  "persona": "The Rival",
+  "gate": "day",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Day Gate: 35 to 47 era, the self and the partner (a Day seat also gives the pattern so far)",
+  "domains": [
+   "Love",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Love": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "In your spouse palace lives the fellow gambler: love, for you, is a joint venture with real stakes.",
+   "reading": "This position rules Love and Wealth, and it works from your marriage palace. The Rival lives inside your Day Gate: you fall for bold ones, partners with fire, opinions, and their own way with money. Home will never be dull. Your adult chapters carry a contested-purse quality at close range, generous seasons and tight ones, and the marriage stays happiest when the accounts keep separate lanes with one shared road. Admire the fire, fund the household by rule, and let the passion argue about anything except the rent. That division keeps both love and money warm.",
+   "teaser": "You fall for bold ones, partners with fire and opinions. Home will never be dull, and it stays happy when the money keeps separate lanes.",
+   "domain_readings": {
+    "Love": "You fall for fire: partners with opinions, appetites, and their own way with money. Mild love bores you within a season, and you know it. The marriage that lasts will be vivid, occasionally loud, and genuinely alive. Choose the flame that warms without needing to win.",
+    "Wealth": "Money at close range runs contested: two strong wills, one household, accounts that blur affectionately and sting later. The fix is architectural, separate lanes, one shared road, terms agreed in calm weather. Do it early and the vividness stays fun. Skip it and every argument finds the wallet."
+   },
+   "life_chapter": "Your home chapter is a lively one: the adult decades build a household with weather in it, passion, debate, shared bets, real warmth. Expect the era to test ownership more than affection. The couples version of you thrives on declared terms and honest fire. Arrange both.",
+   "relations": "The spouse is this seat’s person: bold, opinionated, financially their own creature. You chose fire on purpose, so warm yourself instead of fighting it. In-laws and friends will have claims too. The household needs one treasurer and it should probably rotate.",
+   "shadow_line": "Overloaded, passion becomes rivalry at home: winning arguments, losing evenings.",
+   "health_line": "Your body reads the household weather: vivid seasons energize, contested ones erode. Make peace physically, walks, meals, sleep, and the vitality returns."
+  }
+ },
+ {
+  "id": "jiecai_hour_stem",
+  "term": "The Rival at the Hour Gate",
+  "god": "劫财",
+  "persona": "The Rival",
+  "gate": "hour",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Wealth",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "At your Hour Gate stands the risk-taker: your later ambitions stay bold, and visibly so.",
+   "reading": "This position rules Wealth and Growth, and it shapes how your story ends. The Rival stands at your Hour Gate, visible in the last chapters: heirs and juniors copy your nerve first, and people will keep asking you to back them late into life. Some of that backing is your genuine growth, the pleasure of funding the young and the bold. Some is leak wearing a warm face. Decide the number early, the amount your yes can afford each year, and give inside it freely. Boldness with a boundary reads as legacy. Without one it reads as lesson.",
+   "teaser": "You will show the future your nerve: heirs and juniors copy your boldness first. Budget for late generosity, because people will ask, and you will want to say yes.",
+   "domain_readings": {
+    "Wealth": "Late money keeps your signature moves: the backing of bold things, the open hand, the requests that arrive dressed as opportunity. The estate survives on one discipline, the yearly number your yes can afford. Set it, give inside it freely, and generosity finishes as legacy instead of leakage.",
+    "Growth": "Your growth late in life comes through the young and daring: their ventures, their nerve, your seasoned eye on their bets. Mentoring bold people keeps your own boldness fed. Choose proteges the way you once chose risks. Carefully, then completely."
+   },
+   "life_chapter": "Your late chapter stays in the game: backing ventures, funding nerve, refusing the spectator seat. The last decades run warmer and more generous than most, and the only threat is unbounded yes. Fence the giving, keep the fire, and the ending reads like a patron’s, not a lesson.",
+   "relations": "Heirs and proteges are this seat’s people: young, bold, and drawn to your backing. They copy your nerve before your caution, which is the correct order and an expensive one. Teach the bookkeeping alongside the daring. That pairing is the true inheritance.",
+   "shadow_line": "Overloaded, patronage becomes the last contest: giving to outgive, remembered for the amounts.",
+   "health_line": "Your late energy loves the arena more than the armchair: activity sustains you, idleness corrodes. Keep a physical practice with stakes, however small."
+  }
+ },
+ {
+  "id": "jiecai_month_branch",
+  "term": "The Rival inside the Month Gate",
+  "god": "劫财",
+  "persona": "The Rival",
+  "gate": "month",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Wealth",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Inside your Month Gate runs the gambler’s current: your prime years are built for bold, shared ventures.",
+   "reading": "This position rules Career, Wealth, and Social, and it holds the deep seat of your prime. The Rival lives inside your Month Gate: under your working life runs a gambler’s pulse, bold moves feeling safer than waiting ever does. Careers with stakes suit you, sales, ventures, anything scored in public. Money through your middle decades comes in surges and leaves through company, so the vault needs one patient keeper who is not you. Friends double as colleagues and sometimes as costs. Bet your courage, insure your floor, and your prime pays the brave version of you handsomely.",
+   "teaser": "Under your working life runs a gambler’s pulse: bold moves feel safer to you than waiting. Midlife pays your courage well once partners stop holding your purse.",
+   "domain_readings": {
+    "Career": "Your career pulse is a gambler’s: bold moves feel safer than waiting, and the deep engine of your prime runs on stakes. Sales, ventures, turnarounds, anything scored in public suits the wiring. Pair with one patient operator and your daring becomes a business instead of a story.",
+    "Wealth": "Money through your middle decades arrives in surges and leaves through company: the win, the round of celebration, the friend’s venture, the lighter wallet. The pattern is fixable at the vault, never at the table. Automate the skim on every surge. Live richly on the rest.",
+    "Social": "Your work circle doubles as your stake pool: friends become partners, partners become costs, and the warmth is real throughout. People trust your nerve with their hopes. Deserve it with structure. The written deal is how your boldness keeps its friends."
+   },
+   "life_chapter": "Your rising chapter runs on wagers: the prime decades keep offering stakes, and your instinct to take them is usually right and occasionally expensive. Expect surges, droughts, and a net curve that rewards the brave-with-bookkeeping. The era’s best bet is backing yourself, properly papered.",
+   "relations": "Partners and backers are this seat’s people: the ones in your bets, willingly or by marriage. They ride your surges and absorb your droughts, so declare the odds honestly. Family money and venture money want separate tables. Keep them seated apart.",
+   "shadow_line": "Overloaded, the gamble becomes the identity: risk taken to feel real, not to win.",
+   "health_line": "Your system runs on stakes and pays in tension: the body holds every open bet. Close positions before bed, financially and otherwise."
+  }
+ },
+ {
+  "id": "jiecai_month_stem",
+  "term": "The Rival at the Month Gate",
+  "god": "劫财",
+  "persona": "The Rival",
+  "gate": "month",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "At your Month Gate stands the daring colleague: the working world sees your nerve first.",
+   "reading": "This position rules Career and Social, and it runs the prime of your life. The Rival stands at your Month Gate in full view: the working world reads your nerve first, the colleague who volunteers for the contest. Your prime rewards open competition, commissions, rankings, arenas with scoreboards, and it punishes vague partnerships. Allies come easily and rotate often. Through your thirties and forties, the wins are personal and the losses are usually shared bets. So compete in the open, split the prize before the race, and keep one rival you respect. They are your best coach.",
+   "teaser": "At work you compete the way others breathe, and people feel it. Your career rises fastest in open contests, and slowest wherever the prize must be split.",
+   "domain_readings": {
+    "Career": "Your career runs on open contest: rankings, commissions, arenas with scoreboards, and you visibly alive in them. Vague collectives dull you and clear stakes sharpen you. Choose fields where winning is measurable and yours. The nerve that unsettles quiet offices is exactly what podiums pay for.",
+    "Social": "Work fills your social ledger: allies made fast, rivals made faster, both rotated often. The respect you earn in competition outlasts the friendships it costs. Keep one rival close and honored. They are the only colleague who will always tell you the truth."
+   },
+   "life_chapter": "Your rising chapter is a tournament: the prime decades hand you contests, and you convert them into rank while steadier people convert hours. Expect wins that arrive in public and losses that arrive through partners. Compete openly, split prizes beforehand, and the era pays your nerve well.",
+   "relations": "Rivals and running mates are this seat’s people: the peers you measure against, the partners whose bets you share. Parents watch these decades with held breath. The relationships thrive on declared terms. Ambiguity is the only opponent that reliably beats you.",
+   "shadow_line": "Overloaded, the colleague becomes the mark: wins counted in someone else’s losses.",
+   "health_line": "Adrenaline is your work fuel and your work tax: the body scores every contest. Cool down as deliberately as you compete."
+  }
+ },
+ {
+  "id": "jiecai_year_branch",
+  "term": "The Rival inside the Year Gate",
+  "god": "劫财",
+  "persona": "The Rival",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Inside your Year Gate sits the shared purse: early life taught you that what is yours is rarely only yours.",
+   "reading": "This position rules Family and Wealth, and it works from the root of your story. The Rival lives inside your Year Gate: you grew up where mine and yours blurred, pooled money, borrowed things, siblings or cousins close enough to claim. It made you generous and alert in the same breath. As an adult you give easily and count quietly, and both instincts are correct. Family will always have a hand near your pocket, mostly with love. Share on purpose, in writing where it matters. Clarity is how this root stays warm instead of expensive.",
+   "teaser": "You grew up where mine and yours blurred, and it made you generous and watchful at once. Keep sharing on purpose: looseness with money costs you relationships first.",
+   "domain_readings": {
+    "Family": "Your family root pooled everything: money, space, claims, love. It made you generous by reflex and watchful by experience, and both instincts are correct. As an adult, formalize what the childhood left loose. Written clarity is how this family stays warm instead of expensive.",
+    "Wealth": "Wealth in your story has always had company: shared accounts, borrowed sums, the relative whose need arrives before your surplus does. Your money grows best with boundaries it never had at home. One private account, one giving budget, and generosity becomes a joy again."
+   },
+   "life_chapter": "Your early chapter blurred mine and yours: a household of pooled resources and open hands, where sharing was survival and boundaries were rude. It made you brave about money and loose about ownership. Expect both to echo lifelong. Keep the bravery. Upgrade the paperwork.",
+   "relations": "Siblings and cousins are this seat’s people: the pack you shared everything with, and who still reach for you first. The claims are love wearing its work clothes. Answer them on purpose, within numbers you set annually, and the pack stays a blessing.",
+   "shadow_line": "Overloaded, generosity turns resentful: giving that keeps receipts and reads them aloud.",
+   "health_line": "Your reserves deplete socially: family seasons drain you below the line you notice. Schedule solitary recovery after every gathering."
+  }
+ },
+ {
+  "id": "jiecai_year_stem",
+  "term": "The Rival at the Year Gate",
+  "god": "劫财",
+  "persona": "The Rival",
+  "gate": "year",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Wealth",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "This bold companion stands at your Year Gate: daring runs in the visible bloodline.",
+   "reading": "This position rules Wealth and Social, and it rules them from your beginnings. The Rival stood openly at your Year Gate: a bold line, money that moved fast around your childhood, charm as the family currency. You inherited the nerve and the leak. People take to you quickly, and your daring opens what patience cannot. The pattern to respect: windfalls arrive social, through friends, crowds, and shared bets, and they leave the same way. Keep an honest ledger somewhere boring. Your fortune favors the brave with bookkeeping.",
+   "teaser": "Daring runs in your bloodline and shows early. Money moves fast around you, in and out, so your fortune favors nerve backed by a ledger someone honest keeps.",
+   "domain_readings": {
+    "Wealth": "Money entered your story moving: a childhood where fortunes shifted, generosity flowed, and nothing stayed in the vault long. You inherited the nerve and the leak together. Windfalls will find you socially all your life. Bank a fixed share of every one before the celebrating starts.",
+    "Social": "You draw people the way bold things draw crowds: quickly, warmly, and in numbers. The charm is real currency, and it buys crowds of allies with a handful of anchors. Learn to tell the two apart early. Anchors hold when the weather turns. Crowds watch."
+   },
+   "life_chapter": "Your early chapter ran on nerve: a family line of risk and generosity, fortunes in motion, a child who learned that boldness gets fed first. The daring you inherited opens doors patience never finds. The bookkeeping you did not inherit is the one skill worth adding.",
+   "relations": "The bold elders are this seat’s people: a father or uncle whose daring shaped the family weather, siblings close enough to share and to claim. You love them by matching their nerve. Protect yourself by writing things down anyway. Both are loyalty.",
+   "shadow_line": "Overloaded, daring becomes performance: risks taken for the audience, paid for alone.",
+   "health_line": "Your energy spends in bursts and borrows from tomorrow: brilliant days, crashed weeks. Even out the fuel and the nerve stays sharp."
+  }
+ }
+]

@@ -32,6 +32,18 @@
 | `family_element.appetite` | challenge, pressure, and the trials that forge you |
 | `family_element.notAlone` | not control alone, but everything that tests you and steadies you |
 | `ruling_domains` | Career · Health · Growth |
+| `decade_lines.Career.helping.ahead` | You take on hard assignments and real pressure in these years, and you rise because of them. You come out of the decade with more authority than you went in with. |
+| `decade_lines.Career.helping.lived` | Hard jobs found you in those years, and you met pressure that would have stopped most people. You rose by handling it, and you learned your strength in the worst weeks. |
+| `decade_lines.Career.heavy.lived` | Pressure at work came without pause in those years, from demanding bosses, tight deadlines and fights you had not chosen. You kept going on sheer will, and the few people who stood by you carried you through. |
+| `decade_lines.Career.heavy.ahead` | Demands pile up at work in these years faster than you can meet them, and a calm week feels like falling behind. Your standing survives the decade, and you get through by choosing which fights matter. |
+| `decade_lines.Growth.helping.ahead` | You grow fastest in these years through pressure, a hard role or a challenge you choose on purpose. You come out of the decade stronger in the places that used to hold you back. |
+| `decade_lines.Growth.helping.lived` | Challenges shaped you in those years, and each hard test left you more capable than before. You learned to face pressure directly, and the courage you built has stayed with you. |
+| `decade_lines.Growth.heavy.lived` | Those years tested you more than they taught you, with one hard stretch after another. You grew in spite of the pressure, and you came out tougher and more tired than you expected. |
+| `decade_lines.Growth.heavy.ahead` | Setbacks arrive in these years without warning, and you are pushed before you feel ready. What carries you is the discipline you already have, and you end the decade tougher in ways that show later. |
+| `decade_lines.Health.helping.ahead` | You carry more pressure in these years, and for once it suits your body. You are fitter and sharper in a demanding decade than in an easy one, and you stay that way while you keep sleeping. |
+| `decade_lines.Health.helping.lived` | Your body answered strain well in those years, and hard training or hard work made you stronger. You had energy for demanding days, and you recovered fast between them. |
+| `decade_lines.Health.heavy.lived` | Strain gathered in your body during those years, in your shoulders, your back and your sleep. You pushed through on nerve alone, and what carried you was a few people who made you stop. |
+| `decade_lines.Health.heavy.ahead` | Stress sits in your body through these years, in tight shoulders and short nights. Your energy returns whenever sleep and slow meals get their place in the week, and you recover fast once the pressure lifts. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

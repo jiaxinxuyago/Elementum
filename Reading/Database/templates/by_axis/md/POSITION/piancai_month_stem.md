@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Wealth · Social |
-| `defline` | Opportunity stands at your Month Gate: the working world sees the dealmaker, already reaching. |
-| `reading` | This position rules Career, Wealth, and Social, and it runs the prime of your life. The Horizon stands at your Month Gate in view: the working world reads you as the one who spots the opening, the colleague with the tip, the friend of the deal. Your prime pays in windfalls and timing rather than salary curves, and your network is genuinely an asset class. The pattern through your thirties and forties: money arrives through people and motion, and it leaves through generosity and drift. Harvest the windfalls into something boring. Then go find the next one. |
+| `defline` | The Horizon stands at your Month Gate, in plain view: at work you are known as the one who spots the opening first. |
+| `reading` | People at work know you as the one with the tip, the contact and the good timing. Because chances reach you through people, you spend your working years meeting them, and your income follows deals more than a pay scale. Money comes in through friends and movement, and it leaves the same way, through gifts and plans that drift. You are richest in the years when some of each windfall stays put. |
 | `teaser` | The working world reads you as the one who spots the opening. Your career pays in windfalls and timing, so keep a steady hand on the harvests. |
 | `domain_readings.Career` | The working world reads you as the one who spots the opening: the tip, the timing, the door others walked past. Careers in deals, scouting, connecting, anything with a hunt in it, pay your instinct properly. Salaried stillness dulls you. Keep a hunt in the portfolio always. |
 | `domain_readings.Wealth` | Your money arrives in windfalls and timing, and leaves through generosity and drift: both flows are real and only one has a valve. Harvest every windfall into something boring before celebrating. The instinct finds the money. The discipline keeps enough to hunt again. |
@@ -35,3 +35,12 @@
 | `turn_friction` | Run heavy, everything is an angle: relationships priced, gatherings scanned. Attend one gathering with nothing to gain. |
 | `shadow_line` | Overloaded, the hunter cannot stop: enough never arriving, the next opening always louder. |
 | `health_line` | Your energy tracks the chase: vivid in pursuit, flat between hunts. Build ordinary-day vitality, meals, sleep, walks, so the engine survives the lulls. |
+| `domain_climb.Career.headline` | You are paid for spotting the chance others miss. |
+| `domain_climb.Career.recognition` | You do your best work wherever there is something to find, a client or a deal or a gap in the market. Because the search keeps you sharp, a fixed salary and a quiet desk wear you down faster than hard work. You are the colleague people come to first when they need a way in. |
+| `domain_climb.Career.lived` | Since your late teens your best career moves have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up. |
+| `domain_climb.Wealth.headline` | Your money arrives in windfalls and leaves through friends. |
+| `domain_climb.Wealth.recognition` | You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust the next chance to arrive, you spend and lend freely between windfalls. Your money leaves as easily as it arrives, and you notice only when a quiet season comes. |
+| `domain_climb.Wealth.lived` | Since your late teens you have had good years and thin ones, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before keeping any of it. |
+| `domain_climb.Social.headline` | You know someone for every need. |
+| `domain_climb.Social.recognition` | You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact. |
+| `domain_climb.Social.lived` | Since your late teens most of your friendships have started through work, a deal or an introduction or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life. |

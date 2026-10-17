@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Social |
-| `defline` | The General stands at your Month Gate: the working world sees command presence and expects orders. |
-| `reading` | This position rules Career and Social, and it runs the prime of your life. The General stands at your Month Gate in view: the working world reads command on you before you speak. Careers with stakes suit your prime, operations, emergencies, leadership under weather, and your rank rises fastest exactly where others crack. Colleagues respect you first and warm to you second, in that order, always. The predictive line is simple: pressure keeps arriving because you keep converting it. Choose battles worth your metal, delegate the skirmishes, and midlife hands you real authority. |
+| `defline` | The General stands at your Month Gate, in plain view: at work people see someone who can handle pressure. |
+| `reading` | People at work read authority on you before you say a word, and they hand you the hard jobs early. Because you meet pressure head on, you rise fastest in work with real stakes, and the crises that break others build your name. Colleagues respect you before they warm to you, and you have learned to accept that order. Your standing in these years comes from what you carried when it was hardest. |
 | `teaser` | The working world reads command on you before you speak. Careers with stakes suit you, and your rank rises fastest where others crack. |
 | `domain_readings.Career` | The working world reads command on you before you speak: careers with stakes suit your prime, operations, crises, leadership under weather. Your rank rises fastest exactly where others crack. Choose battles worth your metal and delegate the skirmishes. Midlife hands you real authority either way. |
 | `domain_readings.Social` | Colleagues respect you first and warm to you second, in that order, always: your professional circle is built of proven people. The intensity that deters the casual attracts the serious. Keep one irreverent friend on staff. Command needs a court jester it trusts. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, everything becomes an operation: meetings run, people managed, evenings scheduled. Stand down one day a week, fully. |
 | `shadow_line` | Overloaded, the commander cannot be off duty: relaxation experienced as dereliction. |
 | `health_line` | Adrenaline is your working fuel and its own tax: decompress as professionally as you perform. The body honors the discipline it is shown. |
+| `domain_climb.Career.headline` | Your career rises fastest where the stakes are highest. |
+| `domain_climb.Career.recognition` | You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers trust you with more than your title says, and the load keeps growing. You earn rank through pressure, and you rarely get a quiet week. |
+| `domain_climb.Career.lived` | Since your late teens your reputation at work has grown out of hard moments, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week. |
+| `domain_climb.Social.headline` | Your friends are people who have earned it. |
+| `domain_climb.Social.recognition` | You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, casual company bores you and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years. |
+| `domain_climb.Social.lived` | From your late teens your closest friends have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed. |

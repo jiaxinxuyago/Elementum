@@ -32,6 +32,18 @@
 | `family_element.appetite` | making, voice, and the urge to put something into the world |
 | `family_element.notAlone` | not talent alone, but everything you shape and send outward |
 | `ruling_domains` | Health · Family · Career |
+| `decade_lines.Health.helping.ahead` | You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than you have since childhood. |
+| `decade_lines.Health.helping.lived` | Your appetite and sleep were good in those years, and ordinary pleasures kept you well. You ate with enjoyment and moved without strain, and you felt at ease in your own body. |
+| `decade_lines.Health.heavy.lived` | Comfort turned into excess in those years, with rich food, late nights and too little effort. Your energy dropped as the easy habits piled up, and what carried you back was a plain daily routine. |
+| `decade_lines.Health.heavy.ahead` | Ease turns into slackness in these years, and good food and long evenings cost you energy. You stay well through a simple routine you enjoy, since pleasure is what keeps you to it. |
+| `decade_lines.Family.helping.lived` | Home was warm in those years, full of meals and easy evenings with the people you lived with. You were the one who fed and comforted others, and your family loved you for it. |
+| `decade_lines.Family.helping.ahead` | These ten years bring a softer household, with shared meals and unhurried weekends. You make the home a comfortable place, and relatives come to you because it feels good to be there. |
+| `decade_lines.Family.heavy.lived` | During those years you gave your family comfort without limit, and some of them came to expect it. You spoiled the people closest to you, and you got your own ease back once others began to care for you in turn. |
+| `decade_lines.Family.heavy.ahead` | Indulgence runs the household in these years, with treats, late meals and little order. The warmth survives while your family learns to look after itself, and you stop wearing yourself out to please them. |
+| `decade_lines.Career.helping.lived` | Work came easily in those years, especially work that let you make things or please people. You did your best at a relaxed pace, and others valued what you produced. |
+| `decade_lines.Career.helping.ahead` | A craft or skill you enjoy starts to pay in these ten years. You earn through work that feels like pleasure, and clients return because what you make is good. |
+| `decade_lines.Career.heavy.lived` | Comfort dulled your drive at work in those years, and easy jobs held you longer than they should have. You were well liked and under-stretched, and what carried you was the skill you kept practising for pleasure. |
+| `decade_lines.Career.heavy.ahead` | Ambition softens in these years, and the easy option keeps winning at work. What you make still has value, and you move forward each time a deadline or a client gives you a reason to finish. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

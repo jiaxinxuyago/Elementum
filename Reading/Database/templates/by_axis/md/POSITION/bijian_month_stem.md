@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Social |
-| `defline` | The Twin stands at your Month Gate: the working world sees a colleague who carries their own weight, visibly. |
-| `reading` | This position rules Career and Social, and it runs the prime of your life. The Twin stands at your Month Gate in full view: the working world meets you as the equal, the colleague who owns whole tasks and quietly declines to be managed. From your twenties into your forties, rank comes to you through competence witnessed, and partnership taxes your speed. You feel both. Among peers and siblings the same law repeats: bonds hold best side by side, never one above the other. So keep money clean with friends, written down and unromantic. Choose the two or three long roads worth sharing the wheel for. The short ones were always yours. |
+| `defline` | The Twin stands at your Month Gate, in plain view: at work you are seen as the one who carries their own weight. |
+| `reading` | You built your working life on your own effort, and the people around you have always seen it. Because doing it yourself is how you stay sure of your worth, you take whole tasks and sign your name to them, and you stall wherever credit is shared loosely. You keep your equals close at work, and you have quietly let go of everyone who treated you as junior. |
 | `teaser` | You do your best work as nobody’s junior. Midlife rewards your independence, though shared money with friends will need clearer lines than friendship likes. |
 | `domain_readings.Career` | Your working life is a solo instrument played in public: you rise on competence witnessed, own tasks whole, and stall wherever credit blurs. Choose roles with clean scoreboards. Promotion for you follows visibility of workmanship, so work where the work can be seen, and signed. |
 | `domain_readings.Social` | Your circle runs level: peers, never patrons, and friendship as a pact between equals. People trust you fast and lean on you rarely, because you signal so little need. Let two or three actually in. The Twin’s crowd is small on purpose, and it holds when chosen well. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, self-reliance walls you in at work: delegation feels like defeat. Hand one wheel over on purpose. |
 | `shadow_line` | Overloaded, the equal becomes the rival everywhere: every meeting a quiet arm-wrestle. |
 | `health_line` | Your body works like you do, alone and hard: it excels under self-set training and breaks quietly rather than complain. Schedule the checkups it will never request. |
+| `domain_climb.Career.headline` | You do your best work as nobody's junior. |
+| `domain_climb.Career.recognition` | You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end. |
+| `domain_climb.Career.lived` | Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work. |
+| `domain_climb.Social.headline` | Your friends are your equals, or they drift. |
+| `domain_climb.Social.recognition` | You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years. |
+| `domain_climb.Social.lived` | Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear. |

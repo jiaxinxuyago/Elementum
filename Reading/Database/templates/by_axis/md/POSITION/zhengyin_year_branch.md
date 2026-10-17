@@ -23,8 +23,8 @@
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Growth · Health |
-| `defline` | Care lives inside your Year Gate: your root is shelter itself, deep and possibly too warm. |
-| `reading` | This position rules Family, Growth, and Health, and it works from the root of your story. The Sage lives inside your Year Gate: real nurture sits deep in your foundations, a mother-warmth that took, or a caretaker whose steadiness became your nervous system. You default to trust, and life keeps rewarding it with protectors you did not request. Your constitution is fundamentally kind to you, healing well, aging gently, provided you accept care instead of only providing it. Growth follows safety in your chart. Build the safe base first, every time. Everything you attempt from shelter succeeds sooner. |
+| `defline` | The Sage lives inside your Year Gate: underneath your childhood was real care, steady enough to trust. |
+| `reading` | Real care sits underneath your early years, from someone whose steadiness became the way you meet the world. Because someone took good care of you, you trust people first, and protectors keep turning up when you need them. The same safety made leaving it hard, and you have stayed in comfortable places longer than they helped you. You still recover from hard seasons by going back to the people who love you. |
 | `teaser` | Deep in your roots is real nurture, a mother-warmth that took. You default to trust, and life keeps rewarding it with protectors you did not request. |
 | `domain_readings.Family` | Real nurture sits deep in your foundations: a mother-warmth that took, or a caretaker whose steadiness became your nervous system. You default to trust because trust was proven early. Guard the default. It is rarer than any talent and worth more. |
 | `domain_readings.Growth` | Growth follows safety in your chart: you attempt best from shelter, learn best when held. Build the secure base before every leap, deliberately. It is not timidity. It is your actual architecture, and everything you build from it succeeds sooner. |
@@ -35,3 +35,12 @@
 | `turn_friction` | Run heavy, the holding never loosens: comfort as gravity. Leave the nest monthly, voluntarily, and return proud. |
 | `shadow_line` | Overloaded, being held becomes being kept: safety trading places with growth. |
 | `health_line` | Your body heals on trust and rest: recovery accelerates near people who love you. Convalesce accompanied whenever life allows. |
+| `domain_climb.Family.headline` | You were truly looked after as a child. |
+| `domain_climb.Family.recognition` | In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You are hurt more than most when a relative lets you down, because you never expected it. |
+| `domain_climb.Family.lived` | Someone in your first home looked after you closely, a parent or an older relative whose calm you came to rely on. By your teens you expected the world to treat you with the same care, and mostly it did. |
+| `domain_climb.Growth.headline` | You grow best from a safe base. |
+| `domain_climb.Growth.recognition` | You take your biggest steps from a secure position, with people behind you and a home to return to. Because safety came first in your life, you learn faster when you feel held, and you stall under pressure from people you do not trust. You put off a change until the support is in place. |
+| `domain_climb.Growth.lived` | As a child you tried new things when someone you trusted stood close by, and you held back when nobody did. By your teens home felt so safe that leaving it seemed harder than staying, and you set off later than your friends. |
+| `domain_climb.Health.headline` | Your body heals well when someone looks after you. |
+| `domain_climb.Health.recognition` | You bounce back from tiring weeks and bad nights, and faster with someone close looking after you. Because care was what restored you from the start, you let yourself rest properly only when another person insists. Your body does well on trust, rest and good company. |
+| `domain_climb.Health.lived` | As a child you were looked after well whenever you were tired or run down, and you got your energy back quickly. By your teens you had a steady energy the adults around you counted on, and you have kept much of it since. |

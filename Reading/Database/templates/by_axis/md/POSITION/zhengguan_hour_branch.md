@@ -23,8 +23,8 @@
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
 | `domains` | Family · Growth |
-| `defline` | Order lives inside your Hour Gate: the root of your harvest is a life that kept its word. |
-| `reading` | This position rules Family and Growth, and it works in the root of your late years. The Magistrate lives inside your Hour Gate: order is the ground your last chapters stand on, affairs settled, duties completed, a name kept in good repair. Family in late life organizes around your word, and your word stays good. Growth continues as refinement rather than reinvention, the same values held to higher polish. Do the estate work early and thoroughly, it is your love language anyway. Then let some evenings go unscheduled. Even a completed ledger deserves a sunset. |
+| `defline` | The Magistrate lives inside your Hour Gate: your later years rest on a quiet sense of duty done well. |
+| `reading` | You want your later life in good order, with your affairs settled and your obligations met. Because keeping your word is how you feel at peace, you finish what you owe before you allow yourself to rest. The people closest to you trust that your arrangements will hold. Your late years stay calm and respected, and you find more ease in them than you planned for. |
 | `teaser` | Order is the root of your late years: affairs settled, duties completed, a name in good repair. Your legacy will be trusted, which is rarer than being missed. |
 | `domain_readings.Family` | Order is the root of your late family: affairs settled, duties completed, a household that trusts your word because it never broke. Your legacy will be reliability itself. Add stories to the estate. The paperwork protects them, the telling makes them family. |
 | `domain_readings.Growth` | Late growth is refinement here: the same values held to higher polish, wisdom as quality control. You do not reinvent in the last decades, you perfect. Finish the character the way craftsmen finish wood, patiently, until it glows. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the completing never completes: perfection as the last deadline. Declare the ledger finished and go outside. |
 | `shadow_line` | Overloaded, good repair becomes the whole late life: maintained, correct, unlived. |
 | `health_line` | Your late constitution runs on completed rest: sleep improves as duties resolve. Settle the affairs and the body settles with them. |
+| `domain_climb.Family.headline` | Your family trusts your word completely. |
+| `domain_climb.Family.recognition` | You look after your family by keeping everything in order, the papers sorted and the promises kept. Because reliability is how you express love, you are more at ease arranging things for people than talking about feelings. Your family depends on that order, and they know less of your heart than of your plans. |
+| `domain_climb.Family.lived` | Since your late forties the people after you, children or younger relatives or someone you train, have relied on your word without checking it. You have settled matters for them quietly and in good time, and few of them have seen how much you handled. |
+| `domain_climb.Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you. |
+| `domain_climb.Growth.headline` | You grow later by refining what you value. |
+| `domain_climb.Growth.recognition` | In later life you grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you have little interest in reinventing yourself, and change in you shows up as care and patience. Your progress is quiet, and it is easy for others to miss. |
+| `domain_climb.Growth.lived` | Since your late forties your growth has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did. |
+| `domain_climb.Growth.ahead` | From your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example. |

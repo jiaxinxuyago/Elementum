@@ -32,6 +32,18 @@
 | `family_element.appetite` | learning, care, and the roots that steady you |
 | `family_element.notAlone` | not comfort alone, but everything that feeds and restores you |
 | `ruling_domains` | Family · Mind · Health |
+| `decade_lines.Family.heavy.lived` | Your family sheltered you in those years more than you needed, and the care came with expectations. You learned to be good before you learned to be yourself. |
+| `decade_lines.Family.heavy.ahead` | Family protection turns heavy in these years, and help arrives with conditions attached. You stay grateful and still find your own way, and the bond survives the distance you need. |
+| `decade_lines.Family.helping.lived` | Care surrounded you in those years, from an older relative or a home that put your needs first. You felt protected and supported, and that security gave you the confidence to grow. |
+| `decade_lines.Family.helping.ahead` | Elders and family support you in these ten years, with advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it. |
+| `decade_lines.Health.heavy.lived` | You were looked after closely in those years, and you learned to rest only when someone told you to. Your body got used to care coming from outside, and you had to learn later to give it to yourself. |
+| `decade_lines.Health.heavy.ahead` | Too much rest dulls you in these years, and comfort slides into inactivity. Your energy returns through regular movement and a reason to get up early, and you feel better each time you have one. |
+| `decade_lines.Health.helping.lived` | Good care kept you well in those years, with regular meals, early nights and someone who noticed when you were tired. You recovered quickly from strain, and you felt safe in your body. |
+| `decade_lines.Health.helping.ahead` | Support and good rest restore you in these ten years, and recovery from strain comes faster than before. You sleep well and eat well, and your energy holds steady through the decade. |
+| `decade_lines.Mind.helping.lived` | Steady study suited you in those years, and good teachers gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade. |
+| `decade_lines.Mind.helping.ahead` | Learning comes easily in these years, through books, teachers or a qualification taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past. |
+| `decade_lines.Mind.heavy.lived` | Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied without acting on much of it, and you came out wiser and a little stuck. |
+| `decade_lines.Mind.heavy.ahead` | Study without action marks these years, and your thinking settles into caution. Work that asks you to use what you know breaks the stillness, and you feel the ideas come alive again. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

@@ -20,8 +20,8 @@
       "Growth",
       "Social"
     ],
-    "defline": "Order holds your chart’s strongest seat: your prime is an office held with honor.",
-    "reading": "This position rules Career, Growth, and Social, and it holds the deep seat of your prime. The Magistrate lives inside your Month Gate: the frame of your working life is duty done properly, and your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles, and the titles stay. People organize around your steadiness, which is influence dressed as reliability. The deep cost is elasticity: the frame can hold you as much as it holds you up. Renegotiate the role every few years on purpose. Structure serves best when it is reviewed.",
+    "defline": "The Magistrate holds your strongest seat, inside your Month Gate: your working years are built on duty done properly.",
+    "reading": "You feel most yourself when you have a clear role and do it well, and your working years are shaped around that need. Because steady reliability earns trust, your responsibilities grow year by year inside the places you join. The frame that supports you also holds you in, and your freedom shrinks as your rank grows. Your influence comes from being dependable, and it is greater than it looks.",
     "teaser": "Your prime is built for responsibility: the frame of your working life is duty done properly. Titles find you midlife, and they tend to stick.",
     "domain_readings": {
       "Career": "Duty done properly is the frame of your working life: your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles that stay. The deep cost is elasticity. Renegotiate your role every few years on purpose. Structure serves best reviewed.",
@@ -33,6 +33,60 @@
     "turn_catalyst": "Run thin, the frame stays theoretical: capability unenrolled. Join the structure worth your decade this year. The engine needs a building.",
     "turn_friction": "Run heavy, the institution becomes the identity: the badge outranking the man. Spend one weekend monthly as nobody’s title.",
     "shadow_line": "Overloaded, the frame holds you more than up: security renamed confinement.",
-    "health_line": "Your health runs on office rhythm: regular hours suit you biologically. Guard the weekends from the weekdays, and both improve."
-  }
+    "health_line": "Your health runs on office rhythm: regular hours suit you biologically. Guard the weekends from the weekdays, and both improve.",
+    "domain_climb": {
+      "Career": {
+        "headline": "Your career grows steadily inside a structure.",
+        "recognition": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a proper title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
+        "lived": "Since your late teens your career has moved up in steady steps, a promotion earned or a responsibility added each time you proved yourself. Your seniors noticed your reliability early, and you were trusted with more than your age suggested."
+      },
+      "Growth": {
+        "headline": "You grow by moving from one structure to the next.",
+        "recognition": "You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move.",
+        "lived": "From your late teens you grew through formal steps, a qualification finished or a rank reached or a role handed over to you. Each structure you joined shaped you for a few years, and you outgrew most of them on time."
+      },
+      "Social": {
+        "headline": "People rely on you to keep things steady.",
+        "recognition": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone credits you for.",
+        "lived": "Since your late teens your friendships have grown out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You became the steady one in every group you joined, and some of those bonds have lasted well beyond the job."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "Order holds your chart’s strongest seat: your prime is an office held with honor."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Career, Growth, and Social, and it holds the deep seat of your prime. The Magistrate lives inside your Month Gate: the frame of your working life is duty done properly, and your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles, and the titles stay. People organize around your steadiness, which is influence dressed as reliability. The deep cost is elasticity: the frame can hold you as much as it holds you up. Renegotiate the role every few years on purpose. Structure serves best when it is reviewed."
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

@@ -1,0 +1,628 @@
+[
+ {
+  "id": "pianyin_day_branch",
+  "term": "The Alchemist inside the Day Gate",
+  "god": "偏印",
+  "persona": "The Alchemist",
+  "gate": "day",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Day Gate: 35 to 47 era, the self and the partner (a Day seat also gives the pattern so far)",
+  "domains": [
+   "Love",
+   "Mind"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Love": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Alchemist sits in your spouse palace: intimacy, for you, begins where small talk dies.",
+   "reading": "This position rules Love and Mind, and it works from your marriage palace. The Alchemist lives inside your Day Gate: you need a partner who respects your inner weather, closeness with breathing space built in. Marriage for you works as two studies with a shared door, together deeply, alone regularly, both by design. Your adult chapters favor the cerebral bond, love as one long conversation. A partner who pathologizes your solitude will exhaust you, and one who guards it will keep you. Choose the guard. Then open your door on schedule. Intimacy, for you, is a practice more than an instinct.",
+   "teaser": "You need a partner who respects your inner weather: closeness with breathing space built in. Marriage works as two studies with a shared door.",
+   "domain_readings": {
+    "Love": "You need a partner who respects your inner weather: closeness with breathing space built in, marriage as two studies with a shared door. The one who pathologizes your solitude will exhaust you. The one who guards it will keep you. Choose the guard, then open your door on schedule.",
+    "Mind": "At close range your mind stays private even in love: processing alone, concluding aloud. The partner learns your silences carry work, never distance. Teach them the difference early. Intimacy for you is a practice with a rhythm, and the rhythm is learnable."
+   },
+   "life_chapter": "Your home chapter keeps a shut door and a shared one: the adult decades build a household with solitude in the floor plan. Expect love that deepens through respected space. The marriage that lasts will know when to knock, and you will love it for knocking.",
+   "relations": "The guarding partner is this seat’s person: someone who protects your solitude like a shared asset, because it is. They will explain you to bewildered relatives. Thank them specifically. Translation is an act of devotion, and they perform it weekly.",
+   "shadow_line": "Overloaded, the inner weather becomes the marriage’s climate: two people, one forecast.",
+   "health_line": "Your body recharges in solitude and depletes in crowds, even beloved ones: schedule the alone time as marital infrastructure. It keeps the shared time warm."
+  }
+ },
+ {
+  "id": "pianyin_hour_branch",
+  "term": "The Alchemist inside the Hour Gate",
+  "god": "偏印",
+  "persona": "The Alchemist",
+  "gate": "hour",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Mind",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Alchemist lives inside your Hour Gate: the root of your harvest is understanding, finally ripe.",
+   "reading": "This position rules Family, Mind, and Growth, and it works in the root of your late years. The Alchemist lives inside your Hour Gate: the inner library is where your last chapters live, study, intuition, chosen quiet, a household that respects a shut door. Age suits you, because depth is the one asset that only accrues. Family in late life includes the young minds you quietly shaped. Keep a practice that externalizes the thinking, notes, letters, one apprentice. The mind stays lit by being poured. Poured, this root makes your old age the family’s deep well.",
+   "teaser": "The root of your late years is the inner library: study, intuition, chosen quiet. Age will suit you, because depth is the one asset that only accrues.",
+   "domain_readings": {
+    "Family": "Your late family includes the minds you shaped: apprentices as kin, kin as students, a household that respects a shut door. The bonds are quiet and permanent. Emerge for the meals. The family learns you by your returns, and the returns are what they keep.",
+    "Mind": "The inner library is where your last chapters live: study, intuition, chosen quiet, depth as the one asset that only accrues. Age suits this mind unusually well. Keep a practice that pours it outward, notes, letters, one late apprentice. Poured, it stays lit.",
+    "Growth": "Late growth is distillation: everything learned reducing to what was essential, wisdom by evaporation. The last era refines rather than accumulates. Trust the reduction. What remains at the bottom of the still is the inheritance."
+   },
+   "life_chapter": "Your late chapter deepens in place: the last decades live in the inner library, distilling a lifetime’s strange learning into essence. Expect old age to suit you better than youth did. Become the family’s deep well, and let them draw from it.",
+   "relations": "The quiet heirs are this seat’s people: the child or student who understands the silences, who will keep the notebooks. One or two, no more, exactly as designed. Name them early and teach them everything. The depth transfers by apprenticeship only.",
+   "shadow_line": "Overloaded, the deep well forgets the bucket: unreachable exactly when needed.",
+   "health_line": "Your late health mirrors your stillness practice: meditative routine literally maintains you. Keep the quiet hours and the gentle walks. They are the regimen."
+  }
+ },
+ {
+  "id": "pianyin_hour_stem",
+  "term": "The Alchemist at the Hour Gate",
+  "god": "偏印",
+  "persona": "The Alchemist",
+  "gate": "hour",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Mind",
+   "Growth",
+   "Career"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Career": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Alchemist stands at your Hour Gate: your later output turns inward, and finer.",
+   "reading": "This position rules Mind, Growth, and Career, and it shapes how your story ends. The Alchemist stands at your Hour Gate, visible in the last chapters: age sharpens your insight instead of dulling it, and your best ideas may arrive after everyone expects them. Late career bends toward the advisory and the arcane, the consulted mind, the strange mentor. The gifted and unusual young will find you, and they are your true heirs whatever the bloodline says. Publish the method before the end, in any form. Minds like yours are libraries, and libraries are meant to lend.",
+   "teaser": "Late life sharpens your insight instead of dulling it. You will mentor the strange and gifted, and your best ideas may arrive after everyone expects them.",
+   "domain_readings": {
+    "Mind": "Age sharpens your insight instead of dulling it: the late mind grows stranger and more precise at once. Your best ideas may arrive after everyone expects them. Keep the instrument in daily use. Minds like yours are libraries, and libraries are meant to lend.",
+    "Growth": "Late growth bends toward the arcane: deeper study, rarer knowledge, mastery of what few pursue. The last decades reward your appetite for the overlooked. Publish the method in any form. What you refined alone deserves witnesses eventually.",
+    "Career": "Your late career turns advisory: the consulted mind, the strange mentor, the diagnostician emeritus. The gifted and unusual young will find you, whatever door you hide behind. Leave it ajar on purpose. They are your true heirs, whatever the bloodline says."
+   },
+   "life_chapter": "Your late chapter is the sage’s study: insight compounding past every retirement, the strange knowledge finally fully priced. Expect your last decades to be your most consulted. Lend the library generously. Wisdom unread is just weight.",
+   "relations": "The unusual young are this seat’s people: the odd, gifted seekers who find you late and learn what universities could not teach them. They inherit the method. Choose them slowly, teach them completely. One true apprentice outweighs a hundred readers.",
+   "shadow_line": "Overloaded, the sage disappears into the method: consulted, never accompanied.",
+   "health_line": "Your late vitality is candle-like: steady, quiet, needing protection from drafts. Keep the routines gentle and the sleep deep, and it burns long."
+  }
+ },
+ {
+  "id": "pianyin_month_stem",
+  "term": "The Alchemist at the Month Gate",
+  "god": "偏印",
+  "persona": "The Alchemist",
+  "gate": "month",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Mind"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Alchemist stands at your Month Gate: the working world sees the specialist it does not quite understand.",
+   "reading": "This position rules Career and Mind, and it runs the prime of your life. The Alchemist stands at your Month Gate in view: the working world sees your odd angle first, the specialist, the diagnostician, the one who reads between. Your prime pays for insight rather than hours, and the niche will always outpay the ladder. Colleagues bring you the unsolvable and remember you for it. The market for your mind widens through your thirties and forties as the strange becomes the sought. Name your specialty in public. Obscurity is the only tax on this gate.",
+   "teaser": "The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Career luck favors your niche over any ladder.",
+   "domain_readings": {
+    "Career": "The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Your niche will always outpay the ladder, and your reputation compounds through solved unsolvables. Name the specialty publicly. Obscurity is the only tax on this gate.",
+    "Mind": "Insight is your professional instrument: you are paid for what you notice, and you notice what training cannot teach. Protect the conditions it needs, quiet, autonomy, strange inputs. The mind that reads between lines cannot work in constant company."
+   },
+   "life_chapter": "Your rising chapter specializes: the prime decades reward your odd angle with a niche that widens as the strange becomes the sought. Expect your authority to build through diagnoses others missed. The era pays insight by the insight. Keep the instrument calibrated.",
+   "relations": "The consulting colleagues are this seat’s people: the ones who bring you the unsolvable and remember you for it. Your professional bonds form over hard problems, never small talk. Maintain them between crises. Gratitude has a short professional memory.",
+   "shadow_line": "Overloaded, insight isolates: the one who sees through everyone, invited by no one.",
+   "health_line": "Your working mind burns clean fuel or none: noise and interruption cost you double. Engineer the quiet, and the stamina appears."
+  }
+ },
+ {
+  "id": "pianyin_year_branch",
+  "term": "The Alchemist inside the Year Gate",
+  "god": "偏印",
+  "persona": "The Alchemist",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Mind",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Alchemist lives inside your Year Gate: your root drinks from an odd, deep well.",
+   "reading": "This position rules Family, Mind, and Growth, and it works from the root of your story. The Alchemist lives inside your Year Gate: nurture came to you sideways, through books, silence, an unconventional guardian, or a house where love spoke in ideas. It built a mind that feeds itself. Solitude restores you, and always will, so treat it as nutrition rather than absence. Family may stay slightly puzzled by you, lovingly. Growth arrives through the unusual door in every era of your life. Keep walking through those. The conventional ones were never locked. They were just empty.",
+   "teaser": "Your roots hold an unusual nurture: care that came sideways, through books, silence, or an unconventional guardian. Solitude restores you, and always will.",
+   "domain_readings": {
+    "Family": "Nurture came to you sideways: through books, silence, an unconventional guardian, or a house where love spoke in ideas. The family remains slightly puzzled by you, lovingly. Translate yourself occasionally. They funded the library without reading it, and that too was love.",
+    "Mind": "Your mind feeds itself and always has: self-taught in the corners, curious past every curriculum. The root gives you intellectual self-sufficiency most people never develop. Trust it. What you teach yourself stays taught, and the syllabus was always yours.",
+    "Growth": "Growth arrives through the unusual door in every era of your life: the odd mentor, the sideways opportunity, the path nobody recommended. Keep walking through those. The conventional doors were never locked. They were just empty for someone built like you."
+   },
+   "life_chapter": "Your early chapter grew in the margins: nourishment found sideways, wisdom gathered from unassigned shelves. Those quiet roots feed everything unusual and valuable about you now. Expect your beginnings to make sense only in retrospect, and gloriously.",
+   "relations": "The unconventional guardian is this seat’s person: whoever fed your mind when the standard channels missed you, a grandmother of odd wisdom, an absent parent’s bookshelf. The nurture was real and strangely shaped. Honor it by nurturing strangely too.",
+   "shadow_line": "Overloaded, the root hides in its own depth: fed alone, known by none.",
+   "health_line": "Your constitution is quietly particular: it thrives on routines others find austere and sickens on excess others call fun. Trust your settings."
+  }
+ },
+ {
+  "id": "pianyin_year_stem",
+  "term": "The Alchemist at the Year Gate",
+  "god": "偏印",
+  "persona": "The Alchemist",
+  "gate": "year",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Mind",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Alchemist stands at your Year Gate: the world’s first read of you is depth, slightly apart.",
+   "reading": "This position rules Mind and Social, and it rules them from your beginnings. The Alchemist stood openly at your Year Gate: you were the watchful child, visibly different in how you learned, reading sideways while the class read forward. Adults found you old, peers found you strange, and both were early compliments. Your mind remains your public signature, the odd angle people eventually pay for. Socially you run selective and always will, three real people over thirty acquaintances. Expect the strange skills gathered early to become the livelihood nobody predicted. They were never a phase. They were the plan.",
+   "teaser": "You were the watchful child, visibly different in how you learned. Your path stays unconventional: the strange skills gathered early become the livelihood nobody predicted.",
+   "domain_readings": {
+    "Mind": "Your mind was visibly different from the start: reading sideways, learning at strange angles, arriving at answers by unlisted roads. It remains your public signature, the odd lens people eventually pay for. Feed it strangeness on schedule. Ordinary inputs starve extraordinary instruments.",
+    "Social": "You run selective and always have: three real people over thirty acquaintances, depth over circulation. The watchful child became the adult others confide in precisely because you are not everywhere. Keep the ratio. Your social wealth was never meant to be liquid."
+   },
+   "life_chapter": "Your early chapter watched from the doorway: visibly different, quietly cataloguing, gathering the strange skills nobody assigned. Those years built the unusual instrument you became. Expect the oddness of your beginnings to keep converting into the authority of your middles.",
+   "relations": "The puzzled adults are this seat’s people: family who loved you without quite decoding you, teachers who sensed more than they could grade. A few saw clearly, and you remember each one. Become that seer for another strange child. The debt transfers that way.",
+   "shadow_line": "Overloaded, difference becomes the fortress: understood by few, approached by fewer.",
+   "health_line": "Your system runs sensitive and private: it registers what others miss and depletes from what others enjoy. Honor the early exits. They are maintenance."
+  }
+ },
+ {
+  "id": "zhengyin_day_branch",
+  "term": "The Sage inside the Day Gate",
+  "god": "正印",
+  "persona": "The Sage",
+  "gate": "day",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Day Gate: 35 to 47 era, the self and the partner (a Day seat also gives the pattern so far)",
+  "domains": [
+   "Love",
+   "Family",
+   "Health"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Love": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Health": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Care sits in your spouse palace: home, for you, must be a harbor before it is anything else.",
+   "reading": "This position rules Love, Family, and Health, and it works from your marriage palace. The Sage lives inside your Day Gate: you are built to be cared for at close range, and to trust it. Marriage brings shelter, a partner whose steadiness becomes your second spine, and the household runs on kindness kept ordinary. Your health answers to your home: peace at the table shows up in your bloodwork. The adult chapters reward choosing the nurturer over the dazzler, and your chart means it. Let yourself be tended without auditing it. Receiving well is this palace’s whole lesson.",
+   "teaser": "You are built to be cared for at close range, and to trust it. Marriage brings shelter: a partner whose steadiness becomes your second spine.",
+   "domain_readings": {
+    "Love": "You are built to be cared for at close range, and to trust it: marriage brings shelter, a partner whose steadiness becomes your second spine. Choose the nurturer over the dazzler, and your chart means it. Then receive well. Being tended without auditing is the whole lesson.",
+    "Family": "Your household runs on kindness kept ordinary: care as climate, gentleness as policy. The home becomes everyone’s recovery ward eventually, and yours first. Protect its softness fiercely. In a hard world, a gentle house is a strategic asset.",
+    "Health": "Your health answers to your home: peace at the table shows up in your bloodwork. The body keeps score of domestic weather and pays dividends on calm. Invest in household peace as preventive medicine. It outperforms every supplement you will ever buy."
+   },
+   "life_chapter": "Your home chapter is the sheltered one: the adult decades build a marriage that tends, a house that heals, safety as the family business. Expect love to steady everything it touches in these years. Receive it without auditing. That is your era’s single assignment.",
+   "relations": "The steady nurturer is this seat’s person: a partner whose care arrives as reliability, whose presence lowers your pulse on contact. They become your second spine. Tend them back deliberately, because natural receivers forget. Gratitude is the household’s rent.",
+   "shadow_line": "Overloaded, the cared-for stops carrying: love received as service, returned as assumption.",
+   "health_line": "Your body is domestic: it flourishes on home cooking, shared beds, and peace. Guard the household calm and the checkups become formalities."
+  }
+ },
+ {
+  "id": "zhengyin_hour_branch",
+  "term": "The Sage inside the Hour Gate",
+  "god": "正印",
+  "persona": "The Sage",
+  "gate": "hour",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Health",
+   "Mind"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Health": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Care lives inside your Hour Gate: the root of your harvest is peace, tended into permanence.",
+   "reading": "This position rules Family, Health, and Mind, and it works in the root of your late years. The Sage lives inside your Hour Gate: quiet backing is the ground of your last chapters, pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age, and you have been depositing all your life. The mind stays clear the way tended gardens stay green, with routine, reading, and company that is gentle by default. Accept the care when it comes. You taught everyone around you how, and they learned it watching you.",
+   "teaser": "The root of your late years is quiet backing: pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age.",
+   "domain_readings": {
+    "Family": "Quiet backing is your late family’s shape: children who shelter you, goodwill banked across decades paying out as care. You taught them how by example. Accept the tending when it comes. They learned it watching you, and refusing it ungrades the lesson.",
+    "Health": "Kindness banked early pays your old age: sleep that comes easily, a body tended by people who want to tend it. Your late health is communal property in the best sense. Keep the gentle routines and the gentle company. Both are prescription.",
+    "Mind": "The mind stays clear the way tended gardens stay green: routine, reading, company gentle by default. Late clarity is a maintained garden, never an accident. Keep the daily reading and the weekly conversations. They are the fence and the watering."
+   },
+   "life_chapter": "Your late chapter is quietly banked: decades of kindness paying out as shelter, sleep, and company that arrives unbidden. Expect the gentlest old age your line has seen. You built it deposit by deposit. Draw it down without guilt.",
+   "relations": "The tending circle is this seat’s people: children, old students, neighbors whose kindness you seeded years back. They arrive with soup and stay for stories. Let them. The circle you fed is feeding back, exactly as designed.",
+   "shadow_line": "Overloaded, the sheltered elder stops weathering: protected from life itself.",
+   "health_line": "Your late body runs on gentleness and rhythm: soft exercise, regular company, unhurried meals. Managed so, it outlives every prediction."
+  }
+ },
+ {
+  "id": "zhengyin_hour_stem",
+  "term": "The Sage at the Hour Gate",
+  "god": "正印",
+  "persona": "The Sage",
+  "gate": "hour",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Growth",
+   "Mind"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Care stands at your Hour Gate: what you show the future is teaching, given freely.",
+   "reading": "This position rules Family, Growth, and Mind, and it shapes how your story ends. The Sage stands at your Hour Gate, visible in the last chapters: you end as the elder people consult, knowledge kept warm and given away. Children and students carry your teaching further than your name, which is the better vehicle anyway. Late growth comes through giving the learning form, classes, letters, a shelf of notes that outlives you. Protect the young deliberately, the way someone once protected you. History keeps the shelter you build. It is the one estate that never probates.",
+   "teaser": "You will end as the elder people consult: knowledge kept warm and given away. Teach deliberately, because your protection of others is what history keeps.",
+   "domain_readings": {
+    "Family": "You end as the family’s consulted elder: knowledge kept warm and given away, protection extended to the third generation. Children and students carry your teaching further than your name. Teach deliberately in the last decades. History keeps the shelter you build.",
+    "Growth": "Late growth gives the learning form: classes, letters, a shelf of notes that outlives you. The last era converts wisdom into artifacts. Make them physical. What you write down becomes the estate that never probates.",
+    "Mind": "Your mind ages like a library in good hands: cataloged, warm, increasingly visited. Clarity holds because you keep lending it. Stay in circulation always, questions answered, letters returned promptly. The consulted mind is the preserved one."
+   },
+   "life_chapter": "Your late chapter is the teaching one: the last decades give away what the earlier ones gathered, and the giving is the glory. Expect to be consulted, quoted, and quietly beloved. Protect the young deliberately, the way someone once protected you. That is the estate.",
+   "relations": "The sheltered young are this seat’s people: children, students, and strays who found warmth at your door. They will carry the teaching past your name, which is the better vehicle. Protect them deliberately. Someone once did it for you, and it made everything.",
+   "shadow_line": "Overloaded, the elder becomes the archive: consulted often, embraced rarely.",
+   "health_line": "Your late vitality flows from usefulness and rest in equal measure: teach mornings, nap afternoons, and the constitution carries you far past the tables."
+  }
+ },
+ {
+  "id": "zhengyin_month_branch",
+  "term": "The Sage inside the Month Gate",
+  "god": "正印",
+  "persona": "The Sage",
+  "gate": "month",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Mind",
+   "Career",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Care holds your chart’s strongest seat: your prime is built on learning that never stops arriving.",
+   "reading": "This position rules Mind, Career, and Growth, and it holds the deep seat of your prime. The Sage lives inside your Month Gate: your working life is carried by learning, the deeper the study, the steadier the rise. Your name comes to rest on what you know, and it ages well, the way references beat headlines. Expect midlife to convert knowledge into quiet authority, students into allies, reading into rank. The hazard is gentle: shelter can become a reason to wait. Publish, apply, teach, before you feel ready. Your readiness has always lagged your ability by years.",
+   "teaser": "Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well.",
+   "domain_readings": {
+    "Mind": "Learning carries your working life: the deeper the study, the steadier the rise. Your name comes to rest on what you know, and it ages the way references beat headlines. Publish, apply, teach before you feel ready. Your readiness always lagged your ability by years.",
+    "Career": "Midlife converts your knowledge into quiet authority: students into allies, reading into rank. The career compounds through depth, never through noise. Trust the conversion. What you studied in obscurity gets promoted in daylight, reliably, on this seat’s schedule.",
+    "Growth": "The hazard of your growth is gentle: shelter can become a reason to wait. Comfortable competence delays the leap this seat was built for. Set launch dates and honor them. Growth here needs deadlines the way gardens need fences."
+   },
+   "life_chapter": "Your rising chapter studies its way upward: the prime decades bank knowledge and midlife pays it out as authority. Expect the slow compounding to look like luck by fifty. It was homework. Set deadlines through these years, because your depth never volunteers its own.",
+   "relations": "Teachers and students are this seat’s people, and the roles alternate: mentors who deepened you, then learners who sharpen you by asking. Family may not follow the studies. They follow the calm the studies produce. Both are the inheritance.",
+   "shadow_line": "Overloaded, preparation becomes the profession: forever nearly ready.",
+   "health_line": "Your system thrives on scholarly rhythm: reading, walking, sleeping in order. Chaos taxes you doubly. Keep the days shaped, and the mind keeps the body."
+  }
+ },
+ {
+  "id": "zhengyin_month_stem",
+  "term": "The Sage at the Month Gate",
+  "god": "正印",
+  "persona": "The Sage",
+  "gate": "month",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Mind",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Care stands at your Month Gate: the working world sees the teacher, and brings it students.",
+   "reading": "This position rules Career, Mind, and Social, and it runs the prime of your life. The Sage stands at your Month Gate in view: the working world reads you as credible, the one with the knowledge and the calm, and your career advances through reputation and study rather than push. Elders open your doors. Your prime years collect credentials, references, and the kind of trust that outlasts employers. Socially you become the counselor early, and the pattern deepens with rank. Keep learning in public: every course and every kindness compounds. Your name is your salary’s slow engine.",
+   "teaser": "The working world reads you as credible: the one with the knowledge and the calm. Your career advances through reputation and study, and elders open the doors.",
+   "domain_readings": {
+    "Career": "The working world reads you as credible: the one with the knowledge and the calm, promoted through reputation and study rather than push. Elders open your doors. Keep learning in public. Every course and kindness compounds into the name that becomes your salary’s engine.",
+    "Mind": "Your mind advances by absorption: study that becomes instinct, knowledge worn so naturally it reads as temperament. You learn continuously and forget to claim it. Claim it. Credentials are your native currency, and the mint is always open.",
+    "Social": "You become the counselor early: the colleague consulted, the friend who holds confidences, the calm one in every storm. The role deepens with rank. Set its hours. Even the counsel table needs closing time, and yours never learned one."
+   },
+   "life_chapter": "Your rising chapter earns its reputation reading: the prime decades convert study into standing, references into rank, calm into authority. Expect elders to sponsor you and juniors to consult you, often in the same season. The era trusts you early. Deserve it on schedule.",
+   "relations": "The door-opening elders are this seat’s people: mentors who sponsored, seniors who vouched, the lineage of teachers running through your career. You are the next link. Sponsor somebody before you feel senior enough. That is exactly when it counts.",
+   "shadow_line": "Overloaded, credibility becomes caretaking: trusted by all, tended by none.",
+   "health_line": "Your steadiness spends real energy: holding the calm for others draws on your reserves. Refill in solitude and study, your original medicines."
+  }
+ },
+ {
+  "id": "zhengyin_year_branch",
+  "term": "The Sage inside the Year Gate",
+  "god": "正印",
+  "persona": "The Sage",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Growth",
+   "Health"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Health": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Care lives inside your Year Gate: your root is shelter itself, deep and possibly too warm.",
+   "reading": "This position rules Family, Growth, and Health, and it works from the root of your story. The Sage lives inside your Year Gate: real nurture sits deep in your foundations, a mother-warmth that took, or a caretaker whose steadiness became your nervous system. You default to trust, and life keeps rewarding it with protectors you did not request. Your constitution is fundamentally kind to you, healing well, aging gently, provided you accept care instead of only providing it. Growth follows safety in your chart. Build the safe base first, every time. Everything you attempt from shelter succeeds sooner.",
+   "teaser": "Deep in your roots is real nurture, a mother-warmth that took. You default to trust, and life keeps rewarding it with protectors you did not request.",
+   "domain_readings": {
+    "Family": "Real nurture sits deep in your foundations: a mother-warmth that took, or a caretaker whose steadiness became your nervous system. You default to trust because trust was proven early. Guard the default. It is rarer than any talent and worth more.",
+    "Growth": "Growth follows safety in your chart: you attempt best from shelter, learn best when held. Build the secure base before every leap, deliberately. It is not timidity. It is your actual architecture, and everything you build from it succeeds sooner.",
+    "Health": "Your constitution is fundamentally kind: healing well, aging gently, forgiving much. It asks one thing, that you accept care instead of only providing it. Let yourself be tended through every illness. The body remembers who let it be loved."
+   },
+   "life_chapter": "Your early chapter was held: nurture deep enough to become your nervous system, warmth that still steadies your pulse in hard seasons. Those roots are your lifelong advantage. Expect to trust first and be right about it more often than the guarded ever are.",
+   "relations": "The nurturing root is this seat’s person: the mother or mother-figure whose care became your baseline. The bond runs beneath language. Tend it while you can, and grieve it fully when you must. Either way, become what it taught.",
+   "shadow_line": "Overloaded, being held becomes being kept: safety trading places with growth.",
+   "health_line": "Your body heals on trust and rest: recovery accelerates near people who love you. Convalesce accompanied whenever life allows."
+  }
+ },
+ {
+  "id": "zhengyin_year_stem",
+  "term": "The Sage at the Year Gate",
+  "god": "正印",
+  "persona": "The Sage",
+  "gate": "year",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Mind"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Mind": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Care stands at your Year Gate: the first thing your story shows is that you were well held.",
+   "reading": "This position rules Family and Mind, and it rules them from your beginnings. The Sage stood openly at your Year Gate: you were sheltered by someone principled, and it shows in your bearing to this day. Learning is your inheritance, credentials, teachers, timely protection that kept arriving just before you needed it. The family gave you a moral spine and a library card, in whatever form. Expect that pattern to continue: elders, mentors, and doors that open on reputation. Repay it forward rather than backward. Shelter given is how this inheritance stays alive.",
+   "teaser": "You were sheltered by someone principled, and it shows in your bearing. Learning is your inheritance: credentials, teachers, and timely protection keep appearing across your life.",
+   "domain_readings": {
+    "Family": "You were sheltered by someone principled and it shows in your bearing: the protection of your early years installed a baseline trust most people have to construct. Family remains your first reference for safety. Repay the shelter forward. It was always meant to travel.",
+    "Mind": "Learning is your inheritance: credentials, teachers, timely knowledge arriving just before you needed it. Your mind was raised expecting to be taught, and it kept the posture. Stay a student in every decade. The inheritance pays out only while enrolled."
+   },
+   "life_chapter": "Your early chapter was gently guarded: a principled protector, a house with books, safety arriving before you knew to want it. Those years installed your deep settings, trust, learning, decency. Expect protectors to keep appearing lifelong. You were trained to deserve them.",
+   "relations": "The principled shelterer is this seat’s person: a mother, a mentor, an elder whose steadiness became your first floor. Their protection shaped your bearing. Shelter someone the same way, unasked, without invoice. That completes the circuit they opened.",
+   "shadow_line": "Overloaded, trust waits for rescue: capability paused until someone arrives.",
+   "health_line": "Your constitution responds to care like a garden to rain: tended, it flourishes visibly. Accept the tending. Self-sufficiency is not the assignment here."
+  }
+ }
+]

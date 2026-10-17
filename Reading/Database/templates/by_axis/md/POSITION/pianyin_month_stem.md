@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Mind |
-| `defline` | The Alchemist stands at your Month Gate: the working world sees the specialist it does not quite understand. |
-| `reading` | This position rules Career and Mind, and it runs the prime of your life. The Alchemist stands at your Month Gate in view: the working world sees your odd angle first, the specialist, the diagnostician, the one who reads between. Your prime pays for insight rather than hours, and the niche will always outpay the ladder. Colleagues bring you the unsolvable and remember you for it. The market for your mind widens through your thirties and forties as the strange becomes the sought. Name your specialty in public. Obscurity is the only tax on this gate. |
+| `defline` | The Alchemist stands at your Month Gate, in plain view: at work you are known as the specialist nobody quite understands. |
+| `reading` | Colleagues have seen your odd angle since your first jobs, and they bring you the problems that have beaten everyone else. Because you notice what training does not teach, you are paid for insight more than for hours, and you do your best work with quiet and freedom. The same oddness keeps you outside the circle that hands out promotions. You are remembered for the problem you solved, and you are left out of the meeting after it. |
 | `teaser` | The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Career luck favors your niche over any ladder. |
 | `domain_readings.Career` | The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Your niche will always outpay the ladder, and your reputation compounds through solved unsolvables. Name the specialty publicly. Obscurity is the only tax on this gate. |
 | `domain_readings.Mind` | Insight is your professional instrument: you are paid for what you notice, and you notice what training cannot teach. Protect the conditions it needs, quiet, autonomy, strange inputs. The mind that reads between lines cannot work in constant company. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the reading-between never stops: motives diagnosed at dinner. Take some evenings at face value. |
 | `shadow_line` | Overloaded, insight isolates: the one who sees through everyone, invited by no one. |
 | `health_line` | Your working mind burns clean fuel or none: noise and interruption cost you double. Engineer the quiet, and the stamina appears. |
+| `domain_climb.Career.headline` | You are hired for the problems nobody else can solve. |
+| `domain_climb.Career.recognition` | Colleagues come to you when a problem has stopped making sense. Because your value lies in seeing what others miss, you choose a narrow speciality over a broad ladder, and you lose interest in work anyone could do. Your reputation travels further than your title, and it travels slowly. |
+| `domain_climb.Career.lived` | Since your late teens you have chosen work with an odd corner to it, a niche most people around you ignored. You have been passed over at least once for someone easier to explain, and you have been called back later to fix what they could not. |
+| `domain_climb.Mind.headline` | Your mind is your trade, and it needs quiet. |
+| `domain_climb.Mind.recognition` | You think in leaps that skip the steps others need, and you arrive at answers before you can say how. Because your best insight comes in silence, open offices and constant meetings drain you faster than hard work does. You protect your quiet hours at work with more care than your free time. |
+| `domain_climb.Mind.lived` | From your late teens your thinking set you apart at work, quick to spot the flaw and slow to explain it. You have left more than one project half finished because the interesting part was solved, and the finishing bored you. |

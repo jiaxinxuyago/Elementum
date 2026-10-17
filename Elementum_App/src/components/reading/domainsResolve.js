@@ -35,6 +35,7 @@ const OWN = { Wealth: 'your money', Family: 'your family', Career: 'your work', 
 const gateIdx = (age) => (age < 16 ? 0 : age < 35 ? 1 : age < 48 ? 2 : 3);
 const persona = (god) => TG_PERSONA[god] || god;
 const bare = (p) => p.replace(/^The /, '');
+const GOD_ID = { 比肩: 'bijian', 劫财: 'jiecai', 食神: 'shishen', 伤官: 'shangguan', 偏财: 'piancai', 正财: 'zhengcai', 七杀: 'qisha', 正官: 'zhengguan', 偏印: 'pianyin', 正印: 'zhengyin' };
 const an = (w) => `${/^[AEIOU]/.test(w) ? 'An' : 'A'} ${w}`;
 
 // the reader's age this year and their birth year, from the engine's luck pillars
@@ -89,10 +90,11 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       const fused = ['year', 'month', 'hour'].some((gk) => { const at = positions.filter((x) => x.gateKey === gk); return at.some((x) => a.includes(x.god)) && at.some((x) => b.includes(x.god)); });
       const pc = content?.patterns?.[tp.key];
       const body = pc?.readings?.[d] || pc?.reading;
-      if (body) pattern = { key: tp.key, text: fused && pc.fused_line ? `${body} ${pc.fused_line}` : body };
+      if (body) pattern = { key: tp.key, src: `TG_PATTERN ${tp.key} · domain_lines.${d}${fused && pc.fused_line ? ' + fused_line' : ''}`, text: fused && pc.fused_line ? `${body} ${pc.fused_line}` : body };
       break;
     }
     const how = lead ? (leadU?.recognition || null) : (content?.unruled?.[d] || null);
+    const howSrc = lead ? `POSITION ${lead.id} · domain_climb.${d}.recognition` : `TEMPLATED tpl_domains · domain_unruled.${d}`;
 
     // decades that rule this domain
     const ruling = luck.filter((l) => RULING[l.god]?.includes(d)).map((l) => ({ ...l, pole: decadePole(l.el, roles, condition) }));
@@ -110,23 +112,23 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       if (!show || !u?.lived) continue;
       const label = p.gateKey === 'day' && age < 35 ? 'Your Day Gate · the pattern so far'
         : `${CHAPTERS[p.gateKey]} · ${gi === cur ? `${p.gateKey === 'year' ? 'birth' : GATE_START[p.gateKey]} to now` : GATE_SPAN[p.gateKey]}`;
-      past.push({ kind: 'seat', order: p.gateKey === 'day' && age < 35 ? age : GATE_START[p.gateKey], label, text: u.lived, seat: p.term });
+      past.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.lived`, order: p.gateKey === 'day' && age < 35 ? age : GATE_START[p.gateKey], label, text: u.lived, seat: p.term });
     }
-    if (lastPast && decText(lastPast, 'lived')) past.push({ kind: 'decade', order: lastPast.startAge, label: `${an(bare(persona(lastPast.god)))} decade · ${lastPast.startYear} to ${lastPast.endYear}`, text: decText(lastPast, 'lived') });
+    if (lastPast && decText(lastPast, 'lived')) past.push({ kind: 'decade', src: `GOD ${GOD_ID[lastPast.god]} · decade_lines.${d}.${lastPast.pole}.lived`, order: lastPast.startAge, label: `${an(bare(persona(lastPast.god)))} decade · ${lastPast.startYear} to ${lastPast.endYear}`, text: decText(lastPast, 'lived') });
     const curGate = GATE_ORDER[cur];
     if (cur > 0 && seats.length && !seats.some((p) => p.gateKey === curGate) && !(curGate === 'hour' && hourUnknown)) {
       const g = content?.gaps?.[d]?.[curGate];
-      if (g) past.push({ kind: 'gap', order: GATE_START[curGate], label: `${CHAPTERS[curGate]} · ${GATE_START[curGate]} to now`, lead: `No seat in your ${GATES[curGate]} rules ${d}.`, text: g });
+      if (g) past.push({ kind: 'gap', src: `TEMPLATED tpl_domains · domain_gaps.${d}.${curGate}`, order: GATE_START[curGate], label: `${CHAPTERS[curGate]} · ${GATE_START[curGate]} to now`, lead: `No seat in your ${GATES[curGate]} rules ${d}.`, text: g });
     }
     past.sort((a, b) => a.order - b.order);
 
     // step 3
     const future = [];
-    if (nowDec && decText(nowDec, 'ahead')) future.push({ kind: 'decade', now: true, order: age, label: `Now · ${an(bare(persona(nowDec.god))).replace(/^A/, 'a')} decade · ${nowDec.startYear} to ${nowDec.endYear}`, text: decText(nowDec, 'ahead') });
+    if (nowDec && decText(nowDec, 'ahead')) future.push({ kind: 'decade', now: true, src: `GOD ${GOD_ID[nowDec.god]} · decade_lines.${d}.${nowDec.pole}.ahead`, order: age, label: `Now · ${an(bare(persona(nowDec.god))).replace(/^A/, 'a')} decade · ${nowDec.startYear} to ${nowDec.endYear}`, text: decText(nowDec, 'ahead') });
     for (const p of seats) {
       const u = unit(p, d); if (!u?.ahead) continue;
-      if (p.gateKey === 'day' && age < 48) future.push({ kind: 'seat', now: age >= 35, order: Math.max(35, age), label: age >= 35 ? `${CHAPTERS.day} · now to 47` : `${CHAPTERS.day} · from 35 · ${yearAt(35) ?? ''}`.replace(/ · $/, ''), text: u.ahead, seat: p.term });
-      if (p.gateKey === 'hour' && age < 48) future.push({ kind: 'seat', order: 48, label: `${CHAPTERS.hour} · from 48 · ${yearAt(48) ?? ''}`.replace(/ · $/, ''), text: u.ahead, seat: p.term });
+      if (p.gateKey === 'day' && age < 48) future.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.ahead`, now: age >= 35, order: Math.max(35, age), label: age >= 35 ? `${CHAPTERS.day} · now to 47` : `${CHAPTERS.day} · from 35 · ${yearAt(35) ?? ''}`.replace(/ · $/, ''), text: u.ahead, seat: p.term });
+      if (p.gateKey === 'hour' && age < 48) future.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.ahead`, order: 48, label: `${CHAPTERS.hour} · from 48 · ${yearAt(48) ?? ''}`.replace(/ · $/, ''), text: u.ahead, seat: p.term });
     }
     let windowShown = false;
     for (const l of coming) {
@@ -134,9 +136,9 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       const match = seatGods.has(l.god) ? [...seats].reverse().find((p) => p.god === l.god) : null;
       if (match && !windowShown) {
         windowShown = true;
-        future.push({ kind: 'window', pole: l.pole, order: l.startAge + 0.5, label: `Your ${l.pole === 'helping' ? 'strongest' : 'heaviest'} window · ${l.startYear} to ${l.endYear}`,
+        future.push({ kind: 'window', src: `GOD ${GOD_ID[l.god]} · decade_lines.${d}.${l.pole}.ahead`, pole: l.pole, order: l.startAge + 0.5, label: `Your ${l.pole === 'helping' ? 'strongest' : 'heaviest'} window · ${l.startYear} to ${l.endYear}`,
           lead: `${an(bare(persona(l.god)))} decade, lining up with the ${bare(persona(l.god))} in your ${GATES[match.gateKey]}. ${l.pole === 'helping' ? `It is the strongest stretch for ${OWN[d]} in your chart.` : `It is the stretch that asks most of ${OWN[d]}.`}`, text: t });
-      } else future.push({ kind: 'decade', order: l.startAge + 0.5, label: `${an(bare(persona(l.god)))} decade · ${l.startYear} to ${l.endYear}`, text: t });
+      } else future.push({ kind: 'decade', src: `GOD ${GOD_ID[l.god]} · decade_lines.${d}.${l.pole}.ahead`, order: l.startAge + 0.5, label: `${an(bare(persona(l.god)))} decade · ${l.startYear} to ${l.endYear}`, text: t });
     }
     future.sort((a, b) => a.order - b.order);
     const laterSeat = seats.some((p) => (p.gateKey === 'day' && age < 48) || (p.gateKey === 'hour' && age < 48));
@@ -150,7 +152,7 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       domain: d, seats, lead, empty: !seats.length,
       headline: leadU?.headline || (seats.length ? null : content?.unruledHeadline?.[d] || null),
       count: seats.length ? `${seats.length} seat${seats.length > 1 ? 's' : ''} · ${gates.join(', ')}` : 'No seat · read from your decades',
-      how, pattern, past, future, notes,
+      how, howSrc, headlineSrc: lead ? `POSITION ${lead.id} · domain_climb.${d}.headline` : `TEMPLATED tpl_domains · domain_unruled_headline.${d}`, pattern, past, future, notes,
     };
   });
   pages.sort((a, b) => b.seats.length - a.seats.length);

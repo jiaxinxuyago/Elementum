@@ -19,8 +19,8 @@
       "Love",
       "Family"
     ],
-    "defline": "The Steward sits in your spouse palace: you love in deposits, steadily, for keeps.",
-    "reading": "This position rules Love and Family, and it works from your marriage palace. The Steward lives inside your Day Gate: you are made for steady love, a partner who keeps what you build and builds what you keep. Your adult chapters center on a provisioned home, bills paid, pantry full, promises honored on the ordinary days. Marriage becomes your most reliable asset, and like any asset it wants tending: schedule the delight, not just the duties. Choose someone who finds maintenance romantic. With that person, your household becomes the quiet fortune the rest of the chart banks on.",
+    "defline": "The Steward lives inside your Day Gate, the seat of your partner: your private life is built on steady, practical care.",
+    "reading": "You love by providing, with bills paid, food in the house and promises kept on ordinary days. Because steadiness is how you feel safe, you want a partner who values upkeep as much as you do. The cost comes when care turns into chores and the warmth goes quiet. From your mid-thirties you make your home the calm centre of your life, and the people you love come to rely on it.",
     "teaser": "You are made for steady love: a partner who keeps what you build and builds what you keep. Marriage becomes your most reliable asset, tended like one.",
     "domain_readings": {
       "Love": "You are made for steady love: a partner who keeps what you build and builds what you keep. Romance for you is reliability with warmth in it, promises kept on ordinary Tuesdays. Schedule the delight alongside the duties. Maintenance is your love language, and delight is its grammar.",
@@ -31,6 +31,50 @@
     "turn_catalyst": "Run thin, the provision runs quiet: love expressed so practically it goes unheard. Say the warm thing out loud this week, unprompted.",
     "turn_friction": "Run heavy, the household becomes procedure: everything kept, nothing kindled. Break one routine together, somewhere unscheduled.",
     "shadow_line": "Overloaded, care calcifies into upkeep: the house perfect, the marriage furnished.",
-    "health_line": "Your body settles where the household settles: domestic peace is your baseline medicine. Guard the shared meals and the early nights."
-  }
+    "health_line": "Your body settles where the household settles: domestic peace is your baseline medicine. Guard the shared meals and the early nights.",
+    "domain_climb": {
+      "Love": {
+        "headline": "You love someone by looking after them.",
+        "recognition": "You show love through practical care, a meal ready or a problem fixed before your partner mentions it. Because reliability is what made you feel loved, you trust a partner who keeps small promises more than one who makes big ones. You let romance fade when the duties fill every evening.",
+        "lived": "So far the partners who have lasted with you have been the steady ones, people who turned up on time and kept their word. You have lost interest in at least one exciting person who could not manage an ordinary week.",
+        "ahead": "From your mid-thirties your partnership becomes the most reliable thing in your life, built on shared accounts and a home kept well. You find these years warmest when pleasure keeps its place beside the chores, and you notice quickly when it slips."
+      },
+      "Family": {
+        "headline": "Your home runs well, and everyone leans on it.",
+        "recognition": "You keep your household running, the cupboards full and the bills paid before they are due. Because a well kept home is how you show love, you feel uneasy when things at home are left undone. Your family feels safe without knowing how much you do, and you rarely tell them.",
+        "lived": "So far you have been the one who keeps the home in order, wherever you have lived. Your family and friends have turned to your household in hard weeks, and you have always made space for them.",
+        "ahead": "From your mid-thirties your home becomes the steady point for your whole family, the place relatives come to when life is hard. You give these years to keeping it well, and the order you keep outlasts every crisis that passes through."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-3.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "The Steward sits in your spouse palace: you love in deposits, steadily, for keeps."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-3.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Love and Family, and it works from your marriage palace. The Steward lives inside your Day Gate: you are made for steady love, a partner who keeps what you build and builds what you keep. Your adult chapters center on a provisioned home, bills paid, pantry full, promises honored on the ordinary days. Marriage becomes your most reliable asset, and like any asset it wants tending: schedule the delight, not just the duties. Choose someone who finds maintenance romantic. With that person, your household becomes the quiet fortune the rest of the chart banks on."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-3.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-3.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

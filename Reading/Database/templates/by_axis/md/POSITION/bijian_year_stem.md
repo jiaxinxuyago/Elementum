@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Social · Family |
-| `defline` | The Twin stands at your Year Gate: independence is the first thing your story shows, inherited and worn openly. |
-| `reading` | This position rules Social and Family, and it rules them from your beginnings. The Twin stood openly at your Year Gate: a self-made line, a family that praised standing on your own feet, a childhood where help was earned. The world still meets that face first, capable and unleaning. Friendships form the way siblings do for you, level or never. Expect early independence to keep paying: doors open because people trust you to carry your side. The inheritance has one gap, and you know it. Practice asking. The strong version of you can afford to. |
+| `defline` | The Twin stands at your Year Gate, in plain view: your family raised you to stand on your own. |
+| `reading` | You grew up in a family that praised independence, where help was earned and a capable child was noticed. Because standing on your own won you approval early, people still meet that capable face first, and they trust you to carry your share. Asking for anything has stayed the hardest thing you do, and you go without more often than anyone around you guesses. |
 | `teaser` | Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway. |
 | `domain_readings.Social` | Your social world sorts itself early and stays sorted: a few equals held close, a wide ring kept at handshake distance. People read you as complete, which draws the strong and quietly deters the needy. Curate on purpose. Your circle is small by design, so every chair matters. |
 | `domain_readings.Family` | Family taught you standing, and you honor it by standing: duties met without being asked, help given without being owed. You are the relative who never calls needing something. Call anyway sometimes. The family reads your silence as distance, and it was only ever self-sufficiency. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the same ground hardens: self-sufficiency becomes a wall with a family on the other side. Open one door you usually guard. |
 | `shadow_line` | Overloaded, early pride calcifies: help refused on principle, even the help you wanted. |
 | `health_line` | Your body carries its loads without announcing them: strong frame, quiet strain. Check what you carry before it checks you. |
+| `domain_climb.Social.headline` | Your friends are equals, or they are not friends. |
+| `domain_climb.Social.recognition` | You keep a few equals close and everyone else at a friendly distance. Because you seem to need nothing, you attract people as capable as you are, and the ones who want support look elsewhere. Your circle is small and sturdy, and you feel its gaps more than you admit. |
+| `domain_climb.Social.lived` | As a child your friends were your equals, children who competed with you and stood up for you in turn. By your teens the friendships that lasted were the level ones, and you dropped the rest without a fuss. |
+| `domain_climb.Family.headline` | You are the relative who never needs rescuing. |
+| `domain_climb.Family.recognition` | You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, never when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness. |
+| `domain_climb.Family.lived` | In your first home an older relative made a point of standing on their own, and you copied it before you understood it. By your teens you had stopped asking for help, and the adults around you praised you for it. |

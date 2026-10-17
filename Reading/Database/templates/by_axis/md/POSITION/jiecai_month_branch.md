@@ -23,8 +23,8 @@
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Wealth · Social |
-| `defline` | Inside your Month Gate runs the gambler’s current: your prime years are built for bold, shared ventures. |
-| `reading` | This position rules Career, Wealth, and Social, and it holds the deep seat of your prime. The Rival lives inside your Month Gate: under your working life runs a gambler’s pulse, bold moves feeling safer than waiting ever does. Careers with stakes suit you, sales, ventures, anything scored in public. Money through your middle decades comes in surges and leaves through company, so the vault needs one patient keeper who is not you. Friends double as colleagues and sometimes as costs. Bet your courage, insure your floor, and your prime pays the brave version of you handsomely. |
+| `defline` | The Rival holds your strongest seat, inside your Month Gate: your working years are built on risk and on people who share it. |
+| `reading` | Underneath your working years is a need to have something at stake, and waiting has always felt riskier to you than acting. Because you measure yourself against the people beside you, you do your best work where results are counted in public and shared with partners. Your income arrives in bursts and much of it goes on the people around you, and your prime builds more than it keeps. |
 | `teaser` | Under your working life runs a gambler’s pulse: bold moves feel safer to you than waiting. Midlife pays your courage well once partners stop holding your purse. |
 | `domain_readings.Career` | Your career pulse is a gambler’s: bold moves feel safer than waiting, and the deep engine of your prime runs on stakes. Sales, ventures, turnarounds, anything scored in public suits the wiring. Pair with one patient operator and your daring becomes a business instead of a story. |
 | `domain_readings.Wealth` | Money through your middle decades arrives in surges and leaves through company: the win, the round of celebration, the friend’s venture, the lighter wallet. The pattern is fixable at the vault, never at the table. Automate the skim on every surge. Live richly on the rest. |
@@ -35,3 +35,12 @@
 | `turn_friction` | Run heavy, every surge finds an exit: winnings pre-spent, ventures pre-shared. Skim first, celebrate second, always in that order. |
 | `shadow_line` | Overloaded, the gamble becomes the identity: risk taken to feel real, not to win. |
 | `health_line` | Your system runs on stakes and pays in tension: the body holds every open bet. Close positions before bed, financially and otherwise. |
+| `domain_climb.Career.headline` | You work best with something real at stake. |
+| `domain_climb.Career.recognition` | You are at your sharpest in jobs with clear stakes, sales or ventures or anything where the score is public. Because you need to feel the risk to feel awake, you move first and sort out the rest afterwards. Your bold moves pay best beside a colleague who checks the details, and you have little patience for the checking yourself. |
+| `domain_climb.Career.lived` | Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have never once wished for a duller job. |
+| `domain_climb.Wealth.headline` | Your money comes in bursts, and leaves with friends. |
+| `domain_climb.Wealth.recognition` | Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. Your savings stay thin through the good years as well as the lean ones, and you feel it most after a win. |
+| `domain_climb.Wealth.lived` | From your late teens your income has come in surges, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it. |
+| `domain_climb.Social.headline` | Your friends and your work are the same circle. |
+| `domain_climb.Social.recognition` | Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because your confidence is catching, others join your plans quickly. You find the warmth real on both sides, and you also lose money and friendships when a shared plan goes wrong. |
+| `domain_climb.Social.lived` | Since your late teens your closest friends have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money. |

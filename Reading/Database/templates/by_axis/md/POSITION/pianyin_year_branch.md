@@ -23,8 +23,8 @@
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Mind · Growth |
-| `defline` | The Alchemist lives inside your Year Gate: your root drinks from an odd, deep well. |
-| `reading` | This position rules Family, Mind, and Growth, and it works from the root of your story. The Alchemist lives inside your Year Gate: nurture came to you sideways, through books, silence, an unconventional guardian, or a house where love spoke in ideas. It built a mind that feeds itself. Solitude restores you, and always will, so treat it as nutrition rather than absence. Family may stay slightly puzzled by you, lovingly. Growth arrives through the unusual door in every era of your life. Keep walking through those. The conventional ones were never locked. They were just empty. |
+| `defline` | The Alchemist lives inside your Year Gate: underneath your childhood was care that came in unusual forms. |
+| `reading` | Care reached you in an unusual form as a child, through books or silence or an adult who loved you in ideas more than in hugs. Because you learned early to feed your own mind, you have depended on yourself for understanding ever since. Time alone restores you in a way company never quite does. Few people have really known you as a result, and you have grown used to being slightly apart. |
 | `teaser` | Your roots hold an unusual nurture: care that came sideways, through books, silence, or an unconventional guardian. Solitude restores you, and always will. |
 | `domain_readings.Family` | Nurture came to you sideways: through books, silence, an unconventional guardian, or a house where love spoke in ideas. The family remains slightly puzzled by you, lovingly. Translate yourself occasionally. They funded the library without reading it, and that too was love. |
 | `domain_readings.Mind` | Your mind feeds itself and always has: self-taught in the corners, curious past every curriculum. The root gives you intellectual self-sufficiency most people never develop. Trust it. What you teach yourself stays taught, and the syllabus was always yours. |
@@ -35,3 +35,12 @@
 | `turn_friction` | Run heavy, the sideways becomes the only direction: help refused unless unusual. Accept one ordinary kindness plainly. |
 | `shadow_line` | Overloaded, the root hides in its own depth: fed alone, known by none. |
 | `health_line` | Your constitution is quietly particular: it thrives on routines others find austere and sickens on excess others call fun. Trust your settings. |
+| `domain_climb.Family.headline` | You were loved at home in an unusual way. |
+| `domain_climb.Family.recognition` | You show love to your family through ideas and help with problems more than through warmth on the surface. Because the care you got early was quiet and odd, you trust a relative who understands you more than one who hugs you, and you feel lonely at noisy gatherings. You come home as the quiet one, and your relatives have stopped trying to change that. |
+| `domain_climb.Family.lived` | In your first home someone gave you books, questions or long silences in place of the usual fuss, an older relative or a parent who lived in their own head. By your teens you had learned to look after your own mind, and you rarely asked anyone for help. |
+| `domain_climb.Mind.headline` | You taught yourself most of what you know. |
+| `domain_climb.Mind.recognition` | You learn best alone, from books and odd sources and your own testing, at a pace no class has ever matched. Because nobody handed you a set path, you trust the understanding you dig out yourself, and you forget what you were simply told. You know a great deal that you have never shown anyone. |
+| `domain_climb.Mind.lived` | As a child you read past whatever you were set and wandered into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you told almost no one. |
+| `domain_climb.Growth.headline` | Your growth comes through the unusual teacher. |
+| `domain_climb.Growth.recognition` | You grow fastest through unusual people and unplanned turns, the odd teacher or the subject you stumbled on. Because the standard routes never fitted how you learn, you find them dull and leave them early. You grow in your own order, and others notice only when it is done. |
+| `domain_climb.Growth.lived` | As a child you learned most from a person outside the usual line, a neighbour or relative with odd interests who took you seriously. By your teens you had grown in ways your family could not quite follow, and you had stopped expecting them to. |

@@ -23,8 +23,8 @@
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Health |
-| `defline` | The General holds your chart’s strongest seat: your prime is a campaign, won by discipline. |
-| `reading` | This position rules Career and Health, and it holds the deep seat of your prime. The General lives inside your Month Gate: your working decades run under pressure by design, hard arenas chosen because ease bores you. Power arrives midlife through the campaigns nobody else would take. The cost center is the body: this seat spends adrenaline like salary, and the invoice lands in your forties if unpaid earlier. So train, sleep, and decompress as professionally as you fight. Command with a maintained body is a long reign. Without one it is a short story. |
+| `defline` | The General holds your strongest seat, inside your Month Gate: your working years run on pressure you choose for yourself. |
+| `reading` | You chose hard work from your late teens, the demanding course or the tough job or the role others turned down, because easy work bored you. The strain you took on built your ability faster than comfort could have, and your standing grew through it. Your body has paid for that pace in short nights and tired shoulders, and you have always recovered once you let yourself stop. |
 | `teaser` | Your prime runs under pressure by design: you choose hard arenas because ease bores you. Power arrives midlife, through the campaigns nobody else would take. |
 | `domain_readings.Career` | Pressure by design runs your deep engine: hard arenas chosen because ease bores you, power arriving midlife through campaigns nobody else would take. The wiring is elite and expensive. Service the machine, sleep, training, decompression, and the reign runs long. |
 | `domain_readings.Health` | This seat spends the body like salary: adrenaline drawn daily, invoices deferred. The forties collect if the thirties never paid. Train hard, rest harder, and treat decompression as a professional skill. A maintained commander is a long reign. An unmaintained one is a short story. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the pressure has no off-season: every quarter a campaign. Declare an armistice month and hold it. |
 | `shadow_line` | Overloaded, difficulty becomes the drug: peace abandoned for the familiar weight. |
 | `health_line` | Your engine redlines silently: it performs through damage and reports late. Schedule the inspections your pride would cancel. |
+| `domain_climb.Career.headline` | You do your best work under real pressure. |
+| `domain_climb.Career.recognition` | You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest. |
+| `domain_climb.Career.lived` | Since your late teens your progress at work has come through crises, the deadline nobody could meet or the team that was falling apart. Each hard stretch left you more trusted than before, and you have rarely chosen the comfortable post. |
+| `domain_climb.Health.headline` | Your body carries the cost of your pace. |
+| `domain_climb.Health.recognition` | You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep and a sore back as if they were part of the job. Your energy is deep, and you spend it faster than you replace it. |
+| `domain_climb.Health.lived` | Since your late teens your body has kept up with demands that would have stopped most people. More than once a hard season ended with you worn out for weeks, and you came back stronger each time you gave yourself real rest. |

@@ -19,8 +19,8 @@
       "Love",
       "Health"
     ],
-    "defline": "The General sits in your spouse palace: love, for you, has a chain of command to dismantle.",
-    "reading": "This position rules Love and Health, and it works from your marriage palace. The General lives inside your Day Gate: you are drawn to intensity at close range, a partner with force, a home with weather. Mild love has never once held your attention. The adult chapters thrive when the two of you aim the pressure outward, shared missions, shared enemies, renovations, causes. Aimed inward, the same voltage becomes the argument that never ends, and your body scores every round. Pick a worthy co-commander. Then guard the peace at home like the strategic asset it is.",
+    "defline": "The General lives inside your Day Gate, the seat of your partner: your closest bond runs on force and pressure.",
+    "reading": "You are drawn to a partner with real force, someone whose will is as strong as yours, and a calm match has never held you for long. Because pressure is what makes you feel alive, your home life runs hot, and the strain lands in your own sleep when it turns inward. From your mid-thirties your home years carry more weight than any before them, and you will share them with a partner who meets your strength with their own.",
     "teaser": "You are drawn to intensity at close range: a partner with force, a home with weather. Love holds when the two of you aim the pressure outward together.",
     "domain_readings": {
       "Love": "You are drawn to intensity at close range: a partner with force, a home with weather, love that has never once been mild. The marriage thrives when you two aim the pressure outward, shared missions, shared builds, shared adversaries. Inward, the same voltage becomes the argument without end. Aim it.",
@@ -31,6 +31,50 @@
     "turn_catalyst": "Run thin, the intensity banks itself: passion rationed into politeness. Start a shared campaign this season. The marriage runs on missions.",
     "turn_friction": "Run heavy, the voltage arcs inward: love as siege. Surrender something small daily. It is the strongest move available.",
     "shadow_line": "Overloaded, home becomes the last battlefield: victories counted, marriage losing.",
-    "health_line": "Your vitality tracks the household’s treaty status: peace restores you at double rate. Invest in it like the medicine it is."
-  }
+    "health_line": "Your vitality tracks the household’s treaty status: peace restores you at double rate. Invest in it like the medicine it is.",
+    "domain_climb": {
+      "Love": {
+        "headline": "You love people strong enough to push back.",
+        "recognition": "You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you.",
+        "lived": "So far the people you have loved have each been hard to move, with strong opinions and no wish to bend. At least once a relationship has worn you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
+        "ahead": "From your mid-thirties love asks more of you, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task."
+      },
+      "Health": {
+        "headline": "Your body carries whatever strain your home holds.",
+        "recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain settles in your shoulders and your appetite. Your strength comes back quickly once the house is calm again.",
+        "lived": "So far your hardest seasons at home have also been your most tired ones, with broken sleep and a stiff back. Each time a quarrel ended, you got your energy back faster than you expected.",
+        "ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are stronger in these years than in your twenties whenever the house is at peace, and every long quarrel costs you rest."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "The General sits in your spouse palace: love, for you, has a chain of command to dismantle."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Love and Health, and it works from your marriage palace. The General lives inside your Day Gate: you are drawn to intensity at close range, a partner with force, a home with weather. Mild love has never once held your attention. The adult chapters thrive when the two of you aim the pressure outward, shared missions, shared enemies, renovations, causes. Aimed inward, the same voltage becomes the argument that never ends, and your body scores every round. Pick a worthy co-commander. Then guard the peace at home like the strategic asset it is."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

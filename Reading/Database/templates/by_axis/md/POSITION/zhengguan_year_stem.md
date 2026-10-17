@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Social · Family |
-| `defline` | Order stands at your Year Gate: respectability is the first thing your story shows. |
-| `reading` | This position rules Social and Family, and it rules them from your beginnings. The Magistrate stood openly at your Year Gate: you come from order worn in public, a respectable name, early rules, standards met where neighbors could see them. Reputation is your inheritance, and it still opens doors before you knock. People extend you trust on sight, the way they trusted the house you came from. The estate has terms: it keeps paying while you keep it clean. Carry the name lightly, break the pointless rules privately, and the worthy ones will carry you. |
+| `defline` | The Magistrate stands at your Year Gate, in plain view: you come from a family whose good name others could see. |
+| `reading` | You grew up in a household known for doing things properly, with rules kept where the neighbours could see them. Because that reputation came with you, your word was believed early and responsibility found you young. The name has its price, and you have always felt the pressure to live up to it. You carry your family's standing into every group you join, and it has served you well. |
 | `teaser` | You come from order worn openly: a respectable name, early rules, standards met. Reputation is your inheritance, and it keeps paying as long as you keep it clean. |
 | `domain_readings.Social` | People extend you trust on sight: the respectable name you came from still walks ahead of you. Your social standing is inherited capital, and it compounds while you keep it clean. Spend it opening doors for others. Reputation grows fastest in escrow. |
 | `domain_readings.Family` | You come from order worn openly: a family of standards met where neighbors could see. The name carries expectations and privileges in equal weight. Carry it lightly, break the pointless rules privately, and hand it forward improved. That is the whole assignment. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the collar tightens: propriety policing your every appearance. Be unremarkable somewhere weekly, deliberately. |
 | `shadow_line` | Overloaded, the name wears you: a life curated for an audience of ancestors. |
 | `health_line` | Your body holds itself correctly and pays in stiffness: posture perfect, shoulders carrying the family name. Slouch somewhere safe, regularly. |
+| `domain_climb.Social.headline` | People trust you before they know you. |
+| `domain_climb.Social.recognition` | New people give you their trust quickly, and you are offered responsibility in a group before you have earned it. Because a good name was part of your upbringing, you behave in public with care, and you dislike being seen at your worst. Your standing is a real advantage, and you guard it more closely than you need to. |
+| `domain_climb.Social.lived` | As a child you were trusted by teachers and neighbours, partly because of the family you came from. By your teens you were the one picked to lead or to represent the group, and you felt the weight of behaving well. |
+| `domain_climb.Family.headline` | You come from a family that kept its standards. |
+| `domain_climb.Family.recognition` | You hold your family's name with pride and some strain, and its standards still shape what you allow yourself. Because what the family stood for was visible to others, you feel its expectations most in public. You honour the values you were given, and you quietly drop the rules that never made sense. |
+| `domain_climb.Family.lived` | In your first home there were clear rules and an older relative who held everyone to them. By your teens you knew exactly what the family expected of you, and you met most of it while keeping a few doubts to yourself. |

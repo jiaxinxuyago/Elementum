@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Wealth |
-| `defline` | The Steward stands at your Month Gate: the working world sees the safe pair of hands. |
-| `reading` | This position rules Career and Wealth, and it runs the prime of your life. The Steward stands at your Month Gate in view: the working world trusts you with money, and it should. Your prime climbs through stewardship, real budgets, steady roles, value kept and grown. Wealth arrives on schedule rather than by surprise, which suits you fine. Colleagues bring you their messes because your desk is where things become orderly. Charge properly for that. Reliability is a premium service, and your era rewards the people who price it like one. |
+| `defline` | The Steward stands at your Month Gate, in plain view: at work you are known as the one trusted with the money. |
+| `reading` | People at work hand you the budget, the accounts and the jobs that need order. Because being relied on is how you prove your worth, you take on other people's messes and sort them without fuss. Your income rises on a steady schedule, and your standing rises with it. You are needed everywhere at work, and you are thanked less than you are used. |
 | `teaser` | The working world trusts you with money and should. Your career rewards stewardship: steady roles, real budgets, value kept. Wealth arrives on schedule rather than by surprise. |
 | `domain_readings.Career` | The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes. |
 | `domain_readings.Wealth` | Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, stewardship swallows the steward: everyone’s books balanced except your evenings. Return two hours nightly to yourself. |
 | `shadow_line` | Overloaded, dependability becomes the whole identity: needed everywhere, celebrated nowhere. |
 | `health_line` | Your body runs on the same schedule as your money: steady deposits, rare withdrawals. Keep the sleep regular and it stays solvent. |
+| `domain_climb.Career.headline` | You are the one trusted with the books. |
+| `domain_climb.Career.recognition` | You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it. |
+| `domain_climb.Career.lived` | Since your late teens you have been handed responsibility early, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved. |
+| `domain_climb.Wealth.headline` | Your money arrives on time and keeps arriving. |
+| `domain_climb.Wealth.recognition` | You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way. |
+| `domain_climb.Wealth.lived` | Since your late teens your income has risen steadily, without big jumps and without big falls. You have kept to your own plan while friends chased quick gains, and most of them now have less than you. |

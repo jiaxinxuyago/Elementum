@@ -25,6 +25,25 @@
     ],
     "line": "Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it.",
     "reading": "One friction runs underneath: you keep correcting the very structures you climb. Under close supervision you dim and chafe, and your brightest work appears wherever the leash is longest. Choose formats that license your candor, your own practice, your own desk, a title with give in it, and the friction becomes reform.",
-    "fused_line": "They sit in one pillar in you, so the friction is native: build your own structure early."
-  }
+    "fused_line": "They share one gate in you, and you have argued with your own position since your first job.",
+    "domain_lines": {
+      "Career": "You keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest."
+    }
+  },
+  "$provenance": [
+    {
+      "field": "domain_lines",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "fused_line",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-template/template.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "They sit in one pillar in you, so the friction is native: build your own structure early."
+    }
+  ]
 }

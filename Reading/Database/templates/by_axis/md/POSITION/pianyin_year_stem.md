@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Mind · Social |
-| `defline` | The Alchemist stands at your Year Gate: the world’s first read of you is depth, slightly apart. |
-| `reading` | This position rules Mind and Social, and it rules them from your beginnings. The Alchemist stood openly at your Year Gate: you were the watchful child, visibly different in how you learned, reading sideways while the class read forward. Adults found you old, peers found you strange, and both were early compliments. Your mind remains your public signature, the odd angle people eventually pay for. Socially you run selective and always will, three real people over thirty acquaintances. Expect the strange skills gathered early to become the livelihood nobody predicted. They were never a phase. They were the plan. |
+| `defline` | The Alchemist stands at your Year Gate, in plain view: as a child you were seen as watchful, deep and a little apart. |
+| `reading` | You were the child who watched before joining in, and adults noticed how differently you learned. Because you took in the world on your own terms, adults found you older than your years and other children found you hard to read. That early difference became the way people still see you, thoughtful and selective and slow to open up. You keep a few close friends in place of a crowd, and you have never regretted the trade. |
 | `teaser` | You were the watchful child, visibly different in how you learned. Your path stays unconventional: the strange skills gathered early become the livelihood nobody predicted. |
 | `domain_readings.Mind` | Your mind was visibly different from the start: reading sideways, learning at strange angles, arriving at answers by unlisted roads. It remains your public signature, the odd lens people eventually pay for. Feed it strangeness on schedule. Ordinary inputs starve extraordinary instruments. |
 | `domain_readings.Social` | You run selective and always have: three real people over thirty acquaintances, depth over circulation. The watchful child became the adult others confide in precisely because you are not everywhere. Keep the ratio. Your social wealth was never meant to be liquid. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the watching replaces the joining: life observed from the doorway. Enter one gathering fully, coat off. |
 | `shadow_line` | Overloaded, difference becomes the fortress: understood by few, approached by fewer. |
 | `health_line` | Your system runs sensitive and private: it registers what others miss and depletes from what others enjoy. Honor the early exits. They are maintenance. |
+| `domain_climb.Mind.headline` | Your mind has always worked at an angle. |
+| `domain_climb.Mind.recognition` | You come at problems from an unexpected direction, and people notice the answer before they understand the route. Because your mind took its own path from the start, you get bored by the obvious approach and drift toward the strange one. Your way of thinking is the first thing people remember about you. |
+| `domain_climb.Mind.lived` | As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both. |
+| `domain_climb.Social.headline` | You choose a small circle and keep it close. |
+| `domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. You find parties tiring and long talks restoring. |
+| `domain_climb.Social.lived` | As a child you stood at the edge of groups for a long time, and other children took a while to warm to you. By your teens you had one or two close friends who understood you, and you needed nobody else. |

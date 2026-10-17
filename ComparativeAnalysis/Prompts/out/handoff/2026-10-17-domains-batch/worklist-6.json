@@ -1,0 +1,791 @@
+{
+ "decades": [
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Growth",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Growth",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Growth",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Growth",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Social",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Social",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "比肩",
+   "persona": "The Twin",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Wealth",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Wealth",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Wealth",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Wealth",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Social",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Social",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "劫财",
+   "persona": "The Rival",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Health",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Health",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Health",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "食神",
+   "persona": "The Artisan",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Mind",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Mind",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Mind",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Social",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "伤官",
+   "persona": "The Virtuoso",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Wealth",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Wealth",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Wealth",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Social",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "偏财",
+   "persona": "The Horizon",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Wealth",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Wealth",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Wealth",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "正财",
+   "persona": "The Steward",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Health",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Health",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Health",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Growth",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Growth",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "七杀",
+   "persona": "The General",
+   "domain": "Growth",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Social",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Social",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "正官",
+   "persona": "The Magistrate",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Mind",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Mind",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Mind",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Growth",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Growth",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Growth",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Career",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "domain": "Career",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Family",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Family",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Mind",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Mind",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Mind",
+   "pole": "heavy",
+   "tense": "lived"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Mind",
+   "pole": "heavy",
+   "tense": "ahead"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Health",
+   "pole": "helping",
+   "tense": "lived"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Health",
+   "pole": "helping",
+   "tense": "ahead"
+  },
+  {
+   "god": "正印",
+   "persona": "The Sage",
+   "domain": "Health",
+   "pole": "heavy",
+   "tense": "ahead"
+  }
+ ],
+ "gaps": [
+  {
+   "domain": "Wealth",
+   "gate": "day"
+  },
+  {
+   "domain": "Wealth",
+   "gate": "hour"
+  },
+  {
+   "domain": "Family",
+   "gate": "day"
+  },
+  {
+   "domain": "Family",
+   "gate": "hour"
+  },
+  {
+   "domain": "Career",
+   "gate": "month"
+  },
+  {
+   "domain": "Career",
+   "gate": "day"
+  },
+  {
+   "domain": "Career",
+   "gate": "hour"
+  },
+  {
+   "domain": "Social",
+   "gate": "month"
+  },
+  {
+   "domain": "Social",
+   "gate": "day"
+  },
+  {
+   "domain": "Social",
+   "gate": "hour"
+  },
+  {
+   "domain": "Mind",
+   "gate": "month"
+  },
+  {
+   "domain": "Mind",
+   "gate": "day"
+  },
+  {
+   "domain": "Mind",
+   "gate": "hour"
+  },
+  {
+   "domain": "Growth",
+   "gate": "month"
+  },
+  {
+   "domain": "Growth",
+   "gate": "day"
+  },
+  {
+   "domain": "Growth",
+   "gate": "hour"
+  },
+  {
+   "domain": "Health",
+   "gate": "day"
+  },
+  {
+   "domain": "Health",
+   "gate": "hour"
+  }
+ ],
+ "unruled": [
+  "Wealth",
+  "Mind",
+  "Growth",
+  "Social"
+ ],
+ "unruledHeadline": [
+  "Wealth",
+  "Health",
+  "Mind",
+  "Growth",
+  "Social"
+ ]
+}

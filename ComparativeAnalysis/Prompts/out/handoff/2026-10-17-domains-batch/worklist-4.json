@@ -1,0 +1,640 @@
+[
+ {
+  "id": "qisha_day_branch",
+  "term": "The General inside the Day Gate",
+  "god": "七杀",
+  "persona": "The General",
+  "gate": "day",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Day Gate: 35 to 47 era, the self and the partner (a Day seat also gives the pattern so far)",
+  "domains": [
+   "Love",
+   "Health"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Love": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Health": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The General sits in your spouse palace: love, for you, has a chain of command to dismantle.",
+   "reading": "This position rules Love and Health, and it works from your marriage palace. The General lives inside your Day Gate: you are drawn to intensity at close range, a partner with force, a home with weather. Mild love has never once held your attention. The adult chapters thrive when the two of you aim the pressure outward, shared missions, shared enemies, renovations, causes. Aimed inward, the same voltage becomes the argument that never ends, and your body scores every round. Pick a worthy co-commander. Then guard the peace at home like the strategic asset it is.",
+   "teaser": "You are drawn to intensity at close range: a partner with force, a home with weather. Love holds when the two of you aim the pressure outward together.",
+   "domain_readings": {
+    "Love": "You are drawn to intensity at close range: a partner with force, a home with weather, love that has never once been mild. The marriage thrives when you two aim the pressure outward, shared missions, shared builds, shared adversaries. Inward, the same voltage becomes the argument without end. Aim it.",
+    "Health": "Your body scores every domestic round: contested seasons land in your sleep, your shoulders, your appetite. Peace at home is a physical program here. Make up before midnight as a health practice, and the constitution stays formidable."
+   },
+   "life_chapter": "Your home chapter has weather: the adult decades build a household with force in it, passion, campaigns, renovation in every sense. Expect a marriage that could run a company. The era’s discipline is keeping the war outside the walls, and it is learnable.",
+   "relations": "The forceful partner is this seat’s person: someone with their own command, unimpressed by yours, magnetic for exactly that reason. You chose a co-commander, so share the theater. Divide the fronts, never the loyalty. The household runs beautifully on clear command structure.",
+   "shadow_line": "Overloaded, home becomes the last battlefield: victories counted, marriage losing.",
+   "health_line": "Your vitality tracks the household’s treaty status: peace restores you at double rate. Invest in it like the medicine it is."
+  }
+ },
+ {
+  "id": "qisha_hour_branch",
+  "term": "The General inside the Hour Gate",
+  "god": "七杀",
+  "persona": "The General",
+  "gate": "hour",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Health",
+   "Family",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Health": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The General lives inside your Hour Gate: the root of your harvest is strength, held to the last.",
+   "reading": "This position rules Health, Family, and Growth, and it works in the root of your late years. The General lives inside your Hour Gate: discipline never quite retires in you, and the last chapters keep a garrison quality, routines held, standards kept, one more campaign than you planned. Family feels your protection more than your softness, and they rely on both. The body in late life responds to training like an old soldier, gratefully and fast. March daily, rest like an order, and keep a gate open for visitors. Fortresses age best with gardens.",
+   "teaser": "The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest.",
+   "domain_readings": {
+    "Health": "Your late body responds to training like an old soldier, gratefully and fast: strength returns on demand, stiffness arrives through pride. March daily, stretch nightly, rest like an order. Managed this way, the constitution outlasts every prediction made about it.",
+    "Family": "Your late family lives inside your protection: they feel the perimeter more than the embrace, and both are love. Let the walls show their doors. The household that knows it is guarded and knows it is cherished gives you the finest last years available.",
+    "Growth": "Discipline never quite retires in you, and late growth rides it: new practices, kept standards, one more campaign than planned. The root stays strong through use. Keep a gate open for rest and visitors. Fortresses age best with gardens."
+   },
+   "life_chapter": "Your late chapter holds the garrison: routines kept, standards held, protection running silently under everything. Expect stronger last decades than most, carried by discipline that forgot how to stop. Add the garden to the fortress. It is the one structure still missing.",
+   "relations": "The protected are this seat’s people: family and dependents living safely inside arrangements they rarely see. Your care is architectural. Show the blueprints occasionally, and the gratitude finds its address. Guarded love wants naming too.",
+   "shadow_line": "Overloaded, protection becomes confinement: loved ones safe, slightly imprisoned.",
+   "health_line": "Your late vitality is drill-shaped: it thrives on kept routines and erodes in formless days. Keep the morning ritual sacred, whatever it is."
+  }
+ },
+ {
+  "id": "qisha_hour_stem",
+  "term": "The General at the Hour Gate",
+  "god": "七杀",
+  "persona": "The General",
+  "gate": "hour",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Career",
+   "Growth",
+   "Family"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The General stands at your Hour Gate: your later years keep rank, and the young feel it.",
+   "reading": "This position rules Career, Growth, and Family, and it shapes how your story ends. The General stands at your Hour Gate, visible in the last chapters: you will command to the end, and the young will both fear and follow you. Late authority is your pattern, boards, councils, the call that still comes at midnight because you still answer. Heirs inherit your standards and flinch at your delivery, so soften the orders and the loyalty doubles. Keep one campaign running past retirement age. Purpose is your pension, and this gate pays it in rank.",
+   "teaser": "You will command to the end, and the young will both fear and follow you. Late authority is yours: soften the orders and the loyalty doubles.",
+   "domain_readings": {
+    "Career": "You will command to the end: boards, councils, the midnight call that still comes because you still answer. Late authority is your pattern, and it deepens rather than fades. Keep one campaign running past every retirement age. Purpose is your pension, and this gate pays it in rank.",
+    "Growth": "Late growth arrives through command refined: the same force, better aimed, more economical, increasingly wise. The last decades teach you to win without spending soldiers. Mentor the fierce young. Teaching restraint is the final promotion.",
+    "Family": "Heirs inherit your standards and flinch at your delivery: the family feels your protection more than your softness, and relies on both. Soften the orders and the loyalty doubles. Praise before correcting, always. They have been measuring themselves against you for decades."
+   },
+   "life_chapter": "Your late chapter keeps the watch: the last decades carry authority that refuses to retire, and the young both fear and follow you. Expect to be consulted in every crisis until the end. Plan the softening deliberately. Late warmth from a commander lands like knighthood.",
+   "relations": "The heirs and lieutenants are this seat’s people: children and juniors formed by your standards, marked by your delivery. They will quote you at their own troops someday. Give them one tenderness for every ten instructions. That ratio becomes the memory.",
+   "shadow_line": "Overloaded, the general cannot demobilize: peace administered instead of enjoyed.",
+   "health_line": "Your late strength is real and it hoards tension: the guard duty never quite ends in the body. Put the armor down nightly, with ceremony if needed."
+  }
+ },
+ {
+  "id": "qisha_month_branch",
+  "term": "The General inside the Month Gate",
+  "god": "七杀",
+  "persona": "The General",
+  "gate": "month",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Health"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Health": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The General holds your chart’s strongest seat: your prime is a campaign, won by discipline.",
+   "reading": "This position rules Career and Health, and it holds the deep seat of your prime. The General lives inside your Month Gate: your working decades run under pressure by design, hard arenas chosen because ease bores you. Power arrives midlife through the campaigns nobody else would take. The cost center is the body: this seat spends adrenaline like salary, and the invoice lands in your forties if unpaid earlier. So train, sleep, and decompress as professionally as you fight. Command with a maintained body is a long reign. Without one it is a short story.",
+   "teaser": "Your prime runs under pressure by design: you choose hard arenas because ease bores you. Power arrives midlife, through the campaigns nobody else would take.",
+   "domain_readings": {
+    "Career": "Pressure by design runs your deep engine: hard arenas chosen because ease bores you, power arriving midlife through campaigns nobody else would take. The wiring is elite and expensive. Service the machine, sleep, training, decompression, and the reign runs long.",
+    "Health": "This seat spends the body like salary: adrenaline drawn daily, invoices deferred. The forties collect if the thirties never paid. Train hard, rest harder, and treat decompression as a professional skill. A maintained commander is a long reign. An unmaintained one is a short story."
+   },
+   "life_chapter": "Your rising chapter runs under chosen pressure: the prime decades seek out the hard arenas and are built by them. Expect power to arrive through what you survived on purpose. The era’s only real enemy is the maintenance you skip. Skip none of it.",
+   "relations": "Fellow soldiers are this seat’s people: the colleagues who held the line beside you, bonded by campaigns the peaceful will never understand. The friendships are few, deep, and permanent. Reunite regularly. Nobody else speaks the dialect.",
+   "shadow_line": "Overloaded, difficulty becomes the drug: peace abandoned for the familiar weight.",
+   "health_line": "Your engine redlines silently: it performs through damage and reports late. Schedule the inspections your pride would cancel."
+  }
+ },
+ {
+  "id": "qisha_month_stem",
+  "term": "The General at the Month Gate",
+  "god": "七杀",
+  "persona": "The General",
+  "gate": "month",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The General stands at your Month Gate: the working world sees command presence and expects orders.",
+   "reading": "This position rules Career and Social, and it runs the prime of your life. The General stands at your Month Gate in view: the working world reads command on you before you speak. Careers with stakes suit your prime, operations, emergencies, leadership under weather, and your rank rises fastest exactly where others crack. Colleagues respect you first and warm to you second, in that order, always. The predictive line is simple: pressure keeps arriving because you keep converting it. Choose battles worth your metal, delegate the skirmishes, and midlife hands you real authority.",
+   "teaser": "The working world reads command on you before you speak. Careers with stakes suit you, and your rank rises fastest where others crack.",
+   "domain_readings": {
+    "Career": "The working world reads command on you before you speak: careers with stakes suit your prime, operations, crises, leadership under weather. Your rank rises fastest exactly where others crack. Choose battles worth your metal and delegate the skirmishes. Midlife hands you real authority either way.",
+    "Social": "Colleagues respect you first and warm to you second, in that order, always: your professional circle is built of proven people. The intensity that deters the casual attracts the serious. Keep one irreverent friend on staff. Command needs a court jester it trusts."
+   },
+   "life_chapter": "Your rising chapter is a campaign: the prime decades hand you pressure and watch you convert it, promotion by crisis, rank by weather survived. Expect your reputation to be forged in the storms others avoided. The era pays commanders, and it is paying you.",
+   "relations": "The tested colleagues are this seat’s people: comrades from hard projects, loyal precisely because the loyalty was earned under fire. Parents may worry about the load these years. Show them the rank occasionally. It reads better than the schedule.",
+   "shadow_line": "Overloaded, the commander cannot be off duty: relaxation experienced as dereliction.",
+   "health_line": "Adrenaline is your working fuel and its own tax: decompress as professionally as you perform. The body honors the discipline it is shown."
+  }
+ },
+ {
+  "id": "qisha_year_branch",
+  "term": "The General inside the Year Gate",
+  "god": "七杀",
+  "persona": "The General",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Growth",
+   "Health"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Health": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The General lives inside your Year Gate: your root was forged, not furnished.",
+   "reading": "This position rules Family, Growth, and Health, and it works from the root of your story. The General lives inside your Year Gate: some early weight pressed where no one watched, and you turned it into spine. That hidden forge set your growth pattern for life, crisis promotes you, ease unsettles you. The body keeps the campaign records, so tension is your inheritance along with the strength. Family may never fully know what you carried. You do. Train the load on purpose now, rest like it is a discipline, and the root that pressured you becomes the root that powers you.",
+   "teaser": "Some early weight pressed on you where no one watched, and you turned it into spine. Crisis will always promote you: it is your native ladder.",
+   "domain_readings": {
+    "Family": "Some early weight pressed where no one watched, and you turned it into spine: your family story holds a hidden forge. As an adult you protect the household the way you were never protected. Let them see the softness occasionally. Protection with warmth lands twice as deep.",
+    "Growth": "Crisis promotes you, ease unsettles you: the hidden pressure of your first years set the growth pattern for life. Choose difficulty on purpose now, training, hard projects, honest stakes, and the old reflex becomes an engine instead of a scar.",
+    "Health": "The body kept the campaign records: tension is your inheritance alongside the strength. Train the load deliberately and rest like it is a discipline, because for you it is. Managed, this constitution outlasts everyone. Unmanaged, it invoices in your forties."
+   },
+   "life_chapter": "Your early chapter forged in private: weight carried where no one watched, strength built without witnesses. Those hidden years made you the person crises trust. Expect your resilience to seem inexplicable to others. It has a history, even if you rarely tell it.",
+   "relations": "The household that pressed you is this seat’s people: family bound by what was survived together, or what was survived alone in their house. The bonds are complicated and load-bearing. Honor what held, forgive what pressed, and keep the strength either way.",
+   "shadow_line": "Overloaded, the survivor recruits new wars: calm manufactured into crisis for familiarity.",
+   "health_line": "Your reserves are deep and privately spent: exhaustion arrives without warning signs you honor. Install the warning signs, then honor them."
+  }
+ },
+ {
+  "id": "qisha_year_stem",
+  "term": "The General at the Year Gate",
+  "god": "七杀",
+  "persona": "The General",
+  "gate": "year",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Social",
+   "Career"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The General stands at your Year Gate: the world’s first read of you is force.",
+   "reading": "This position rules Social and Career, and it rules them from your beginnings. The General stood openly at your Year Gate: pressure entered your story early and in public, a demanding house, a hard district, a name that required defending. Everyone could see you carrying it, and the carrying built you. Authority finds you young, first as weight, later as rank. Your social world sorts by respect: people either match your intensity or orbit it. Expect to be tested often and promoted for surviving it. Just retire the armor at home. It was for the field.",
+   "teaser": "Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Expect authority to find you young and test you often.",
+   "domain_readings": {
+    "Social": "Your social world sorts by respect: people either match your intensity or orbit it, and both arrangements work. You entered every group as a force and learned diplomacy later, if at all. Keep two peers who push back. Command without friction forgets its own weight.",
+    "Career": "Authority found you young, first as weight, then as rank: careers with stakes keep finding you, and you keep converting them. The early pressure became your qualification. Choose arenas worth the armor. You will wear it either way, so aim it."
+   },
+   "life_chapter": "Your early chapter carried visible weight: a demanding house, a hard start, a name that needed defending, and everyone could see you carrying it. The carrying built you in public. Expect tests to keep arriving early in every new arena, and promotions to follow them.",
+   "relations": "The demanding elders are this seat’s people: whoever pressed you first, hardest, and, in their way, most formatively. The relationship softens once you outrank the memory. Visit it kindly. They forged what you now command, however rough the forge.",
+   "shadow_line": "Overloaded, respect becomes the only currency: warmth priced out of the exchange.",
+   "health_line": "Your body was trained by pressure and holds it loyally: tension is the old uniform. Take it off with real exercise, then real rest."
+  }
+ },
+ {
+  "id": "zhengguan_day_branch",
+  "term": "The Magistrate inside the Day Gate",
+  "god": "正官",
+  "persona": "The Magistrate",
+  "gate": "day",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Day Gate: 35 to 47 era, the self and the partner (a Day seat also gives the pattern so far)",
+  "domains": [
+   "Love",
+   "Family"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Love": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Order sits in your spouse palace: you love formally, faithfully, and for the record.",
+   "reading": "This position rules Love and Family, and it works from your marriage palace. The Magistrate lives inside your Day Gate: you are built for committed love, a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it tends to arrive with weight, formal, meant, durable. Your adult chapters favor the long vow over the wild season, and your fortune agrees: things settle for you once the ring does. Choose character first, chemistry a close second. Then honor the small ceremonies, anniversaries, rituals, the weekly table. This palace runs on kept form.",
+   "teaser": "You are built for committed love: a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it arrives with weight and stays.",
+   "domain_readings": {
+    "Love": "You are built for committed love: a principled partner, promises kept on ordinary days, romance that arrives with weight and stays. Things settle for you once the ring does. Choose character first, chemistry a close second, and honor the small ceremonies. This palace runs on kept form.",
+    "Family": "Your household runs on kept promises: standards visible, duties shared, a home other families point to. The order is real affection wearing its work clothes. Add the unscheduled tenderness. A correct house with warm corners is the full inheritance."
+   },
+   "life_chapter": "Your home chapter formalizes beautifully: the adult decades favor the long vow, the stable household, love as kept structure. Expect marriage to steady your whole chart and to deepen by anniversary. The era honors form. Fill the form with warmth, deliberately, forever.",
+   "relations": "The principled partner is this seat’s person: someone whose word holds like yours, building a household on mutual reliability. In-laws respect the marriage almost immediately. Keep the courtship alive inside the contract. Vows are the walls. Romance is the heating.",
+   "shadow_line": "Overloaded, the promise outweighs the person: duty attended, spouse assumed.",
+   "health_line": "Your body thrives inside domestic order: regular meals, shared routines, early nights. The household schedule is half your medicine."
+  }
+ },
+ {
+  "id": "zhengguan_hour_branch",
+  "term": "The Magistrate inside the Hour Gate",
+  "god": "正官",
+  "persona": "The Magistrate",
+  "gate": "hour",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Order lives inside your Hour Gate: the root of your harvest is a life that kept its word.",
+   "reading": "This position rules Family and Growth, and it works in the root of your late years. The Magistrate lives inside your Hour Gate: order is the ground your last chapters stand on, affairs settled, duties completed, a name kept in good repair. Family in late life organizes around your word, and your word stays good. Growth continues as refinement rather than reinvention, the same values held to higher polish. Do the estate work early and thoroughly, it is your love language anyway. Then let some evenings go unscheduled. Even a completed ledger deserves a sunset.",
+   "teaser": "Order is the root of your late years: affairs settled, duties completed, a name in good repair. Your legacy will be trusted, which is rarer than being missed.",
+   "domain_readings": {
+    "Family": "Order is the root of your late family: affairs settled, duties completed, a household that trusts your word because it never broke. Your legacy will be reliability itself. Add stories to the estate. The paperwork protects them, the telling makes them family.",
+    "Growth": "Late growth is refinement here: the same values held to higher polish, wisdom as quality control. You do not reinvent in the last decades, you perfect. Finish the character the way craftsmen finish wood, patiently, until it glows."
+   },
+   "life_chapter": "Your late chapter closes its books properly: affairs settled early, duties completed fully, a name kept in good repair to the end. Expect the calm that correctness purchases. Then spend some of it, unscheduled evenings, unplanned laughter, sunsets without agenda.",
+   "relations": "The trusting household is this seat’s people: family organized around your word in the last decades, secure in arrangements that never wobble. They rest on your reliability. Rest on theirs occasionally. Trust flowing one way is duty. Both ways, it is home.",
+   "shadow_line": "Overloaded, good repair becomes the whole late life: maintained, correct, unlived.",
+   "health_line": "Your late constitution runs on completed rest: sleep improves as duties resolve. Settle the affairs and the body settles with them."
+  }
+ },
+ {
+  "id": "zhengguan_hour_stem",
+  "term": "The Magistrate at the Hour Gate",
+  "god": "正官",
+  "persona": "The Magistrate",
+  "gate": "hour",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Social",
+   "Career"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Career": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Order stands at your Hour Gate: what you show the future is standards, upheld to the end.",
+   "reading": "This position rules Family, Social, and Career, and it shapes how your story ends. The Magistrate stands at your Hour Gate, visible in the last chapters: your standing grows with age, honors late, respect that outlives the job. Children and juniors measure themselves against your standards, quietly and for decades, so praise them before you correct them and the measuring becomes love. Your late career leans toward governance, boards, and the keeping of institutions you once merely served. The name you leave will be trusted, which is rarer than being missed. Endings are your specialty. Make yours exemplary.",
+   "teaser": "Your standing grows with age: honors late, respect that outlives the job. Children measure themselves against your standards, so praise them before you correct them.",
+   "domain_readings": {
+    "Family": "Children and juniors measure themselves against your standards, quietly and for decades: praise them before you correct them and the measuring becomes love. Your late family holds you as its reference point. Be a warm one. The standard they inherit should include kindness to themselves.",
+    "Social": "Your standing grows with age: honors late, respect that outlives the job, a name consulted after the title expires. The community keeps electing you to things. Serve what deserves it. Late reputation is the purest kind, spend it on worthy causes.",
+    "Career": "Your late career leans toward governance: boards, councils, the keeping of institutions you once merely served. Endings are your specialty, so make yours exemplary. The trusted name is rarer than the missed one. You are building the first."
+   },
+   "life_chapter": "Your late chapter collects the honors: the last decades bring respect that outlives every title, and a family calibrated by your example. Expect to matter more after retirement than during it. Praise generously in these years. It is the correction that teaches best.",
+   "relations": "The measuring young are this seat’s people: children and juniors who calibrated on your standards and never quite stopped. Your approval is their quiet currency. Mint it freely late in life. The exchange rate only rises.",
+   "shadow_line": "Overloaded, the example forgets to embrace: revered at arm’s length.",
+   "health_line": "Your late body keeps its appointments and its posture: dutiful to the end. Add the undutiful pleasures. They are medicine too."
+  }
+ },
+ {
+  "id": "zhengguan_month_branch",
+  "term": "The Magistrate inside the Month Gate",
+  "god": "正官",
+  "persona": "The Magistrate",
+  "gate": "month",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Growth",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Order holds your chart’s strongest seat: your prime is an office held with honor.",
+   "reading": "This position rules Career, Growth, and Social, and it holds the deep seat of your prime. The Magistrate lives inside your Month Gate: the frame of your working life is duty done properly, and your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles, and the titles stay. People organize around your steadiness, which is influence dressed as reliability. The deep cost is elasticity: the frame can hold you as much as it holds you up. Renegotiate the role every few years on purpose. Structure serves best when it is reviewed.",
+   "teaser": "Your prime is built for responsibility: the frame of your working life is duty done properly. Titles find you midlife, and they tend to stick.",
+   "domain_readings": {
+    "Career": "Duty done properly is the frame of your working life: your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles that stay. The deep cost is elasticity. Renegotiate your role every few years on purpose. Structure serves best reviewed.",
+    "Growth": "You grow inside frameworks and outgrow them on schedule: each structure teaches, then confines, then hands you to the next. Honor the rhythm. The promotion beyond a frame is also a form of loyalty to it. Climb without guilt.",
+    "Social": "People organize around your steadiness: teams stabilize, committees function, chaos finds its filing system. Your influence wears reliability’s plain clothes. Know exactly what that is worth. The one who keeps things standing quietly decides what stands."
+   },
+   "life_chapter": "Your rising chapter builds inside great structures: the prime decades build inside structures, and the structures build you back, title by title. Expect your steadiness to become the department’s foundation. Review the building every few years. Foundations deserve architects, not just tenants.",
+   "relations": "The org chart neighbors are this seat’s people: reports who trust you, seniors who rely on you, the whole scaffolding of working bonds. They will define these decades’ friendships. Take two of them beyond the building. Colleagues age into brothers if invited.",
+   "shadow_line": "Overloaded, the frame holds you more than up: security renamed confinement.",
+   "health_line": "Your health runs on office rhythm: regular hours suit you biologically. Guard the weekends from the weekdays, and both improve."
+  }
+ },
+ {
+  "id": "zhengguan_month_stem",
+  "term": "The Magistrate at the Month Gate",
+  "god": "正官",
+  "persona": "The Magistrate",
+  "gate": "month",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Order stands at your Month Gate: the working world sees an officer, promotable on sight.",
+   "reading": "This position rules Career and Social, and it runs the prime of your life. The Magistrate stands at your Month Gate in view: the working world sees the officer in you, reliable, correct, promotable, and it responds with rank. Your prime climbs by record: titles find you, and they tend to stick. Your name will matter more than your salary, and eventually decide it. Socially you are the one made responsible, the emergency contact of entire departments. Accept it, it is how your era pays. Just keep one lawless hobby. Even judges need a garden.",
+   "teaser": "The working world sees the officer in you: reliable, correct, promotable. Your career climbs by rank and record, and your name will matter more than your salary.",
+   "domain_readings": {
+    "Career": "The working world sees the officer in you: reliable, correct, promotable, and it responds with rank. Titles find you and stick. Your name will matter more than your salary and eventually decide it. Keep the record clean and the climb takes care of itself.",
+    "Social": "You are the one made responsible: emergency contact of departments, keeper of the calendars, the colleague adults trust. It is how your circle pays respect. Accept the role and price it. Also keep one lawless hobby. Even judges need a garden."
+   },
+   "life_chapter": "Your rising chapter climbs by record: the prime decades stack titles, references, and a name that opens doors before you knock. Expect promotion by trust rather than campaign. The era rewards your correctness with rank, and rank with more correctness. Schedule some mischief.",
+   "relations": "The promoting elders are this seat’s people: bosses who trusted early, mentors who wrote the letters, seniors who said your name in the right meetings. Repay them by becoming one. The ladder you climbed stays standing only if you hold it for the next.",
+   "shadow_line": "Overloaded, the position replaces the person: respected title, unvisited self.",
+   "health_line": "Your body performs its duties and postpones its complaints: symptoms filed under later. Open that file quarterly, with a professional."
+  }
+ },
+ {
+  "id": "zhengguan_year_branch",
+  "term": "The Magistrate inside the Year Gate",
+  "god": "正官",
+  "persona": "The Magistrate",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Order lives inside your Year Gate: your root is a rulebook, learned before you could read it.",
+   "reading": "This position rules Family and Growth, and it works from the root of your story. The Magistrate lives inside your Year Gate: discipline was the air of your early home, felt more than announced, and it gave you a straight spine before you knew you had one. Growth for you follows structure, courses finished, ranks earned, standards internalized young. Family expectations shaped you and mostly served you, and the residue is a conscience that files reports. Keep the spine, pension the guilt. Order held from love ages into dignity. Order held from fear just ages you.",
+   "teaser": "Discipline was the air of your early home, felt more than announced. It gave you a straight spine. Institutions will trust you early and promote you steadily.",
+   "domain_readings": {
+    "Family": "Discipline was the air of your early home, felt more than announced: it gave you a straight spine before you knew you had one. Family bonds run on kept expectations. Keep them from love, never from fear. The difference decides how the order ages in you.",
+    "Growth": "Your growth follows structure: courses finished, ranks earned, standards internalized young and upgraded ever since. You climb frameworks the way vines climb trellises. Choose worthy frames and audit them regularly. Your discipline deserves architecture that deserves it."
+   },
+   "life_chapter": "Your early chapter internalized the frame: discipline absorbed so young it feels like temperament. Those years installed a conscience that files reports and a spine that never slouches. Expect structure to remain your native climate. Renovate it whenever it stops fitting.",
+   "relations": "The expectant household is this seat’s people: family whose standards shaped you and whose approval still audits quietly. The residue is a conscience with their accent. Keep the values, pension the guilt. Order held from love ages into dignity.",
+   "shadow_line": "Overloaded, the conscience turns warden: correctness enforced from a cell of its own.",
+   "health_line": "Your body obeys routine gratefully and rebels against chaos quietly: irregularity sickens you faster than strain. Keep the schedule and it keeps you."
+  }
+ },
+ {
+  "id": "zhengguan_year_stem",
+  "term": "The Magistrate at the Year Gate",
+  "god": "正官",
+  "persona": "The Magistrate",
+  "gate": "year",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Social",
+   "Family"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Order stands at your Year Gate: respectability is the first thing your story shows.",
+   "reading": "This position rules Social and Family, and it rules them from your beginnings. The Magistrate stood openly at your Year Gate: you come from order worn in public, a respectable name, early rules, standards met where neighbors could see them. Reputation is your inheritance, and it still opens doors before you knock. People extend you trust on sight, the way they trusted the house you came from. The estate has terms: it keeps paying while you keep it clean. Carry the name lightly, break the pointless rules privately, and the worthy ones will carry you.",
+   "teaser": "You come from order worn openly: a respectable name, early rules, standards met. Reputation is your inheritance, and it keeps paying as long as you keep it clean.",
+   "domain_readings": {
+    "Social": "People extend you trust on sight: the respectable name you came from still walks ahead of you. Your social standing is inherited capital, and it compounds while you keep it clean. Spend it opening doors for others. Reputation grows fastest in escrow.",
+    "Family": "You come from order worn openly: a family of standards met where neighbors could see. The name carries expectations and privileges in equal weight. Carry it lightly, break the pointless rules privately, and hand it forward improved. That is the whole assignment."
+   },
+   "life_chapter": "Your early chapter wore a pressed collar: rules early, standards visible, a name that behaved in public. The order of those years gave you a bearing people still trust on sight. Expect doors to keep opening on reputation. Keep the hinges honest.",
+   "relations": "The upstanding elders are this seat’s people: parents or grandparents whose correctness was both shelter and script. You inherited their standing and their expectations together. Honor the first, renegotiate the second. Both acts are filial.",
+   "shadow_line": "Overloaded, the name wears you: a life curated for an audience of ancestors.",
+   "health_line": "Your body holds itself correctly and pays in stiffness: posture perfect, shoulders carrying the family name. Slouch somewhere safe, regularly."
+  }
+ }
+]

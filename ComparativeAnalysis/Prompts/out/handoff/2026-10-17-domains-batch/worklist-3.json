@@ -1,0 +1,487 @@
+[
+ {
+  "id": "piancai_hour_branch",
+  "term": "The Horizon inside the Hour Gate",
+  "god": "偏财",
+  "persona": "The Horizon",
+  "gate": "hour",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Opportunity lives inside your Hour Gate: your harvest arrives from many fields, some you forgot planting.",
+   "reading": "This position rules Family and Wealth, and it works in the root of your late years. The Horizon lives inside your Hour Gate: your late chapters keep a wide door, travel, ventures, younger company, family scattered across distances and gathered in bursts. Money in the last era stays in motion, and so do you, which is precisely how your luck prefers it. Children and heirs inherit your range, and possibly your restlessness. Fund the gatherings: they are the family’s true estate. Stillness is the only real risk on this root. Keep one journey always half-planned.",
+   "teaser": "Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion.",
+   "domain_readings": {
+    "Family": "Your late family scatters and gathers: children across distances, reunions in bursts, love maintained by journeys and full tables. Fund the gatherings without apology. They are the family’s true estate, and you were always going to be their patron.",
+    "Wealth": "Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred."
+   },
+   "life_chapter": "Your late chapter keeps a wide root: the last decades hold travel, ventures, scattered kin gathered in bursts, and a fortune that prefers motion to rest. Expect old age with a suitcase half-packed. The design suits you. Keep one journey always in planning.",
+   "relations": "The scattered heirs are this seat’s people: children and grandchildren across distances, inheriting your range and possibly your restlessness. You hold the web by moving along it. Visit in rotation, host in seasons. The family stays whole because you circulate.",
+   "shadow_line": "Overloaded, circulation replaces connection: many visits, few arrivals.",
+   "health_line": "Movement is your late medicine: the body stays young in transit and stiffens in storage. Walk far, fly occasionally, sit least."
+  }
+ },
+ {
+  "id": "piancai_hour_stem",
+  "term": "The Horizon at the Hour Gate",
+  "god": "偏财",
+  "persona": "The Horizon",
+  "gate": "hour",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Wealth",
+   "Growth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Growth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Opportunity stands at your Hour Gate: your later years keep a venture warm and a bag half packed.",
+   "reading": "This position rules Wealth and Growth, and it shapes how your story ends. The Horizon stands at your Hour Gate, visible in the last chapters: you stay opportunity’s friend to the end, late ventures, late windfalls, a door that never quite closes. Younger company keeps finding you, drawn to the range. Your growth in the last era comes from new fields entered late, and it keeps you vivid. The estate needs a map, because your generosity will outrun your paperwork by a decade. Write it down while it is easy. Then keep playing. You are built for a wide ending.",
+   "teaser": "You will stay opportunity’s friend to the end: late ventures, late windfalls, a wide door. Leave the estate mapped, because your generosity will outrun your paperwork.",
+   "domain_readings": {
+    "Wealth": "Your money stays lively to the end: late ventures, late windfalls, a door that never fully closes. The estate needs a map early, because your generosity will outrun your paperwork by a decade. Write it down while it is easy. Then keep playing. You are built for a wide ending.",
+    "Growth": "Late growth arrives through new fields: ventures entered past the age of supposed settling, younger company keeping your range honest. The horizon habit is your youth serum. Enter one unfamiliar arena per era. Curiosity is the muscle, and yours refuses to atrophy."
+   },
+   "life_chapter": "Your late chapter keeps the door open: opportunity stays your friend past every retirement age, and the last decades run wide, peopled, and in motion. Expect to be the elder with the newest stories. Map the estate early, then spend the rest of the era collecting more.",
+   "relations": "The young and venturesome are this seat’s people: proteges with prospects, late friendships across generations, heirs who inherit your range. They keep your horizon honest and your calendar full. Back them with numbers attached. Patronage papered is patronage sustained.",
+   "shadow_line": "Overloaded, the horizon never lands: motion to the end, arrival never scheduled.",
+   "health_line": "Your late vitality feeds on novelty and company: new places, young voices, plans in the calendar. Stillness is the only ailment to dodge."
+  }
+ },
+ {
+  "id": "piancai_month_branch",
+  "term": "The Horizon inside the Month Gate",
+  "god": "偏财",
+  "persona": "The Horizon",
+  "gate": "month",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Opportunity holds your chart’s strongest seat: your prime is a marketplace, and you own a stall.",
+   "reading": "This position rules Career and Wealth, and it holds the deep seat of your prime. The Horizon lives inside your Month Gate: under your working life runs a trader’s instinct, value sensed moving before it moves. Careers that reward reading the field suit you, markets, sourcing, scouting, anything with a horizon in it. Your middle decades earn best in cycles, and the skill is keeping harvest discipline inside the hunting spirit. Let someone patient mind the vault while you mind the weather. Paired that way, the instinct compounds into genuine wealth instead of great stories.",
+   "teaser": "Under your prime runs a trader’s instinct: you sense value moving before it moves. Trust it in the field, and let someone patient mind the vault.",
+   "domain_readings": {
+    "Career": "A trader’s instinct runs your deep engine: value sensed moving before it moves, fields read the way farmers read sky. Careers in markets, sourcing, and scouting suit the wiring outright. In any other field, be the one who sees around corners. That is the job under your job.",
+    "Wealth": "Your middle decades earn in cycles: surge, harvest, quiet, surge. The skill is keeping harvest discipline inside the hunting spirit, skimming every peak into something patient. Let a steady partner mind the vault. Paired that way, the cycles compound instead of merely repeating."
+   },
+   "life_chapter": "Your rising chapter reads the weather: the prime decades reward your feel for movement, in markets, in crowds, in moments. Expect income shaped like seasons and instincts that improve with use. The era’s fortune goes to the harvester you choose to become at every peak.",
+   "relations": "Partners of opposite temperament are this seat’s people: the patient ones who hold what you catch. Choose them with the care you give to openings. The hunter-keeper pairing, in business and at home, is this seat’s whole formula for lasting wealth.",
+   "shadow_line": "Overloaded, the instinct gambles its own harvest: winnings rehunted until gone.",
+   "health_line": "Your system cycles like your income: brilliant sprints, flat recoveries. Respect the fallow weeks. They are part of the yield."
+  }
+ },
+ {
+  "id": "piancai_month_stem",
+  "term": "The Horizon at the Month Gate",
+  "god": "偏财",
+  "persona": "The Horizon",
+  "gate": "month",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Wealth",
+   "Social"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Social": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Opportunity stands at your Month Gate: the working world sees the dealmaker, already reaching.",
+   "reading": "This position rules Career, Wealth, and Social, and it runs the prime of your life. The Horizon stands at your Month Gate in view: the working world reads you as the one who spots the opening, the colleague with the tip, the friend of the deal. Your prime pays in windfalls and timing rather than salary curves, and your network is genuinely an asset class. The pattern through your thirties and forties: money arrives through people and motion, and it leaves through generosity and drift. Harvest the windfalls into something boring. Then go find the next one.",
+   "teaser": "The working world reads you as the one who spots the opening. Your career pays in windfalls and timing, so keep a steady hand on the harvests.",
+   "domain_readings": {
+    "Career": "The working world reads you as the one who spots the opening: the tip, the timing, the door others walked past. Careers in deals, scouting, connecting, anything with a hunt in it, pay your instinct properly. Salaried stillness dulls you. Keep a hunt in the portfolio always.",
+    "Wealth": "Your money arrives in windfalls and timing, and leaves through generosity and drift: both flows are real and only one has a valve. Harvest every windfall into something boring before celebrating. The instinct finds the money. The discipline keeps enough to hunt again.",
+    "Social": "Your network is an asset class: contacts on every shelf, favors in circulation, introductions as your signature product. Tend it like the portfolio it is, deliberately, generously, with records. The person who connects everyone eventually holds the gathering’s real wealth."
+   },
+   "life_chapter": "Your rising chapter hunts: the prime decades run on openings spotted and seized, money in surges, reputation as the one who knows first. Expect timing to be your edge and drift to be your tax. Harvest discipline turns this era’s stories into this era’s estate.",
+   "relations": "The network is this seat’s family: contacts who become friends, friends who become deals, a father-line lesson about provision running underneath it all. Keep the warm ones separate from the useful ones in your accounting. Both are real. Confusing them costs both.",
+   "shadow_line": "Overloaded, the hunter cannot stop: enough never arriving, the next opening always louder.",
+   "health_line": "Your energy tracks the chase: vivid in pursuit, flat between hunts. Build ordinary-day vitality, meals, sleep, walks, so the engine survives the lulls."
+  }
+ },
+ {
+  "id": "piancai_year_branch",
+  "term": "The Horizon inside the Year Gate",
+  "god": "偏财",
+  "persona": "The Horizon",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Opportunity lives inside your Year Gate: your root memory of providing runs wide, not deep.",
+   "reading": "This position rules Family and Wealth, and it works from the root of your story. The Horizon lives inside your Year Gate: somewhere in your line sits a wanderer, and their restlessness lives on in you, quietly, underneath the settled surface. Your luck travels. Opportunity favors you farther from home than comfort likes, and family fortunes in your story tend to involve journeys, migrations, or the one relative who left. Honor the pattern: build a base, then range from it. The root gives you both the itch and the map. Use them in that order.",
+   "teaser": "Somewhere in your roots sits a wanderer, and their restlessness lives in you. Your luck travels: opportunity favors you farther from home than comfort likes.",
+   "domain_readings": {
+    "Family": "A wanderer sits in your roots: the relative who left, the migration that made the family, the restlessness passed down as inheritance. Your bonds stretch across distances and hold. Keep the far ones fed with visits and calls. Your family was built by journeys, and it maintains by them.",
+    "Wealth": "Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time."
+   },
+   "life_chapter": "Your early chapter planted the itch: somewhere in the roots, movement was survival or salvation, and it lives in you as a quiet pull toward elsewhere. Expect your best luck at a distance and your best rest at home. The design wants both. Alternate deliberately.",
+   "relations": "The scattered kin are this seat’s people: family across cities or seas, bonds that survive distance because they were built by it. You are the connector between far points. Make the calls nobody else makes. The web holds because you do.",
+   "shadow_line": "Overloaded, restlessness impersonates purpose: always leaving, rarely arriving.",
+   "health_line": "Your body needs new air on a schedule: staleness sickens you faster than strain. Change the scenery before the scenery changes you."
+  }
+ },
+ {
+  "id": "piancai_year_stem",
+  "term": "The Horizon at the Year Gate",
+  "god": "偏财",
+  "persona": "The Horizon",
+  "gate": "year",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Wealth",
+   "Family"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "Opportunity stands at your Year Gate: fortune’s door was visible from your first address.",
+   "reading": "This position rules Wealth and Family, and it rules them from your beginnings. The Horizon stood openly at your Year Gate: generosity was visible in your early world, a family that spent on people and chances, often led by a father figure with range and appetite. Money entered your story as movement rather than storage. The inheritance is a nose for openings and a light grip on cash, both lifelong. Fortune finds you through motion, strangers, and distance from home. Keep one anchored account the family charm cannot reach. The rest can stay in play.",
+   "teaser": "Generosity was visible in your beginnings: a family that spent on people and chances. Money finds you through motion and strangers, rarely through sitting still.",
+   "domain_readings": {
+    "Wealth": "Money entered your story as movement: a family that spent on people and chances, fortune arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play.",
+    "Family": "Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family fortune moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it."
+   },
+   "life_chapter": "Your early chapter watched money move: generosity visible, fortunes fluid, opportunity treated as a family member. It gave you ease around risk that vault-raised people never learn. Expect openings to find you lifelong, and expect to need the anchor you were never handed.",
+   "relations": "The open-handed elder is this seat’s person: a father or patron whose generosity, or its costly absence, taught you what open hands do. You repay the lesson by giving with structure. Provide the way they meant to. Deliberately.",
+   "shadow_line": "Overloaded, generosity performs: giving seen becoming the point of giving.",
+   "health_line": "Your vitality is circulatory: it rises in motion and pools in stillness. Move daily, travel seasonally, and the engine self-maintains."
+  }
+ },
+ {
+  "id": "zhengcai_day_branch",
+  "term": "The Steward inside the Day Gate",
+  "god": "正财",
+  "persona": "The Steward",
+  "gate": "day",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Day Gate: 35 to 47 era, the self and the partner (a Day seat also gives the pattern so far)",
+  "domains": [
+   "Love",
+   "Family"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Love": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Steward sits in your spouse palace: you love in deposits, steadily, for keeps.",
+   "reading": "This position rules Love and Family, and it works from your marriage palace. The Steward lives inside your Day Gate: you are made for steady love, a partner who keeps what you build and builds what you keep. Your adult chapters center on a provisioned home, bills paid, pantry full, promises honored on the ordinary days. Marriage becomes your most reliable asset, and like any asset it wants tending: schedule the delight, not just the duties. Choose someone who finds maintenance romantic. With that person, your household becomes the quiet fortune the rest of the chart banks on.",
+   "teaser": "You are made for steady love: a partner who keeps what you build and builds what you keep. Marriage becomes your most reliable asset, tended like one.",
+   "domain_readings": {
+    "Love": "You are made for steady love: a partner who keeps what you build and builds what you keep. Romance for you is reliability with warmth in it, promises kept on ordinary Tuesdays. Schedule the delight alongside the duties. Maintenance is your love language, and delight is its grammar.",
+    "Family": "Your household runs provisioned: bills paid, pantry full, small people secure without knowing why. The home you keep becomes the family’s steady point, and its calm outlasts every storm that visits. Build it thoroughly. Everyone you love will shelter there eventually."
+   },
+   "life_chapter": "Your home chapter is the well-kept one: the adult decades center on a household that works, love expressed as provision, stability as the family’s climate. Expect marriage to steady your whole chart. The era rewards tending, and you arrived with the tools.",
+   "relations": "The steady partner is this seat’s person: someone who finds maintenance romantic and returns it in kind. Together you become the couple others quietly rely on. Guard the courtship inside the partnership. Reliability wins the years, and romance keeps them warm.",
+   "shadow_line": "Overloaded, care calcifies into upkeep: the house perfect, the marriage furnished.",
+   "health_line": "Your body settles where the household settles: domestic peace is your baseline medicine. Guard the shared meals and the early nights."
+  }
+ },
+ {
+  "id": "zhengcai_hour_branch",
+  "term": "The Steward inside the Hour Gate",
+  "god": "正财",
+  "persona": "The Steward",
+  "gate": "hour",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Hour Gate: 48 on, late life, the people after you (children, younger relatives, someone you train)",
+  "domains": [
+   "Family",
+   "Health",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Health": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived",
+     "ahead"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Steward lives inside your Hour Gate: your harvest is everything you maintained, still standing.",
+   "reading": "This position rules Family, Health, and Wealth, and it works in the root of your late years. The Steward lives inside your Hour Gate: provision done right is the quiet ground of your last chapters, reserves kept, care funded, children taught thrift by watching rather than lecture. Your health in late life benefits from the same stewardship, maintenance over heroics, checkups kept like appointments with yourself. Money finishes stable: the estate lands where you intend it, and the household never feels the weather. Spend some comfort on yourself deliberately. You will have earned it twice by then.",
+   "teaser": "Security deepens with age: the root of your late years is provision done right. Children learn thrift from you, and your estate lands where you intend it.",
+   "domain_readings": {
+    "Family": "Your late family rests on your provision: the root of the last decades is a household squared away, heirs taught thrift by demonstration, care funded before it is needed. Narrate the choices occasionally. The lesson outlasts the money, and it cannot be misspent.",
+    "Health": "Your late health answers to stewardship: maintenance over heroics, checkups kept like appointments with yourself, moderation without misery. The body rewards the ledger-keeper’s patience. Tend it the way you tend accounts, regularly, and it funds a long retirement.",
+    "Wealth": "Money finishes stable here: the estate lands where you point it, the household never feels the weather, and the floor holds. The discipline built it. Now spend some comfort on yourself deliberately. You will have earned it twice over by then."
+   },
+   "life_chapter": "Your late chapter is provisioned ground: the last decades run on reserves built early and kept honestly, a household that never feels the weather. Expect calm where others meet turbulence. The era’s one assignment is learning to enjoy what you secured.",
+   "relations": "The provided-for are this seat’s people: children, grandchildren, the household that rests on your quiet arrangements. They may never see the work, only the warmth. Show a little of the work. Gratitude needs a ledger to read.",
+   "shadow_line": "Overloaded, provision becomes the last word: love spoken only through arrangements.",
+   "health_line": "Your late body keeps what you maintained: steady walks, kept appointments, honest portions. It ages like a well-serviced engine, gradually and without drama."
+  }
+ },
+ {
+  "id": "zhengcai_month_branch",
+  "term": "The Steward inside the Month Gate",
+  "god": "正财",
+  "persona": "The Steward",
+  "gate": "month",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Steward holds your chart’s strongest seat: your prime compounds, brick by deliberate brick.",
+   "reading": "This position rules Career and Wealth, and it holds the deep seat of your prime. The Steward lives inside your Month Gate: your working life is built on earned ground, income you can explain, assets you maintain, promises you keep. The engine is patience with compounding, and it runs your middle decades with quiet power. Expect your wealth curve to be unfashionably smooth: slower than you want at first, further than you guessed by the end. Avoid ventures that require you to become someone else. Your fortune is character-shaped, and the character is the moat.",
+   "teaser": "Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect.",
+   "domain_readings": {
+    "Career": "Earned ground is your deep engine: income you can explain, skills you maintain, promises you keep. Careers reward you the way soil rewards farmers, seasonally, honestly, cumulatively. Avoid ventures requiring you to become someone else. Your character is the business model.",
+    "Wealth": "Your wealth curve is unfashionably smooth: slower than wanted at first, further than guessed by the end. The engine is patience with compounding, and it runs your middle decades with quiet power. Protect it from excitement. Every boring year is secretly a very good one."
+   },
+   "life_chapter": "Your rising chapter builds on bedrock: the prime decades stack earned things, skills, savings, standing, layer by unspectacular layer. Expect to be underestimated at thirty and unbudgeable at fifty. The era’s whole trick is refusing to interrupt yourself. Keep laying courses.",
+   "relations": "The long-haul colleagues are this seat’s people: working bonds measured in decades, references that read like family letters. You keep professional promises the way others keep photographs. The network never dazzles and never fails. Tend it annually, like the orchard it is.",
+   "shadow_line": "Overloaded, the earned becomes the hoarded: value kept from everyone, including you.",
+   "health_line": "Your health is maintenance-shaped: it responds to routine like machinery to oil. Skip nothing small and nothing large will arrive."
+  }
+ },
+ {
+  "id": "zhengcai_month_stem",
+  "term": "The Steward at the Month Gate",
+  "god": "正财",
+  "persona": "The Steward",
+  "gate": "month",
+  "slot_kind": "stem: in plain view, the shown face",
+  "era": "Month Gate: 16 to 34, working prime, parents, siblings, colleagues",
+  "domains": [
+   "Career",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Career": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Steward stands at your Month Gate: the working world sees the safe pair of hands.",
+   "reading": "This position rules Career and Wealth, and it runs the prime of your life. The Steward stands at your Month Gate in view: the working world trusts you with money, and it should. Your prime climbs through stewardship, real budgets, steady roles, value kept and grown. Wealth arrives on schedule rather than by surprise, which suits you fine. Colleagues bring you their messes because your desk is where things become orderly. Charge properly for that. Reliability is a premium service, and your era rewards the people who price it like one.",
+   "teaser": "The working world trusts you with money and should. Your career rewards stewardship: steady roles, real budgets, value kept. Wealth arrives on schedule rather than by surprise.",
+   "domain_readings": {
+    "Career": "The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes.",
+    "Wealth": "Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune."
+   },
+   "life_chapter": "Your rising chapter earns trust first and money second: the prime decades hand you stewardship, then keys, then titles, in that order. Expect advancement that looks slow yearly and remarkable by decade. The era pays your reliability compound interest. Collect it without apology.",
+   "relations": "Employers and dependents are this seat’s people: the bosses who hand you the books, the colleagues whose messes you quietly order. Being trusted is your social position. Invoice it occasionally, in raises, in titles, in first pick. Trust unpriced becomes furniture.",
+   "shadow_line": "Overloaded, dependability becomes the whole identity: needed everywhere, celebrated nowhere.",
+   "health_line": "Your body runs on the same schedule as your money: steady deposits, rare withdrawals. Keep the sleep regular and it stays solvent."
+  }
+ },
+ {
+  "id": "zhengcai_year_branch",
+  "term": "The Steward inside the Year Gate",
+  "god": "正财",
+  "persona": "The Steward",
+  "gate": "year",
+  "slot_kind": "branch: inside, the root, private and dispositional",
+  "era": "Year Gate: birth to 15, the first home, parents and older relatives as the family of origin",
+  "domains": [
+   "Family",
+   "Wealth"
+  ],
+  "need": {
+   "defline": 1,
+   "reading": 1,
+   "domains": {
+    "Family": [
+     "headline",
+     "recognition",
+     "lived"
+    ],
+    "Wealth": [
+     "headline",
+     "recognition",
+     "lived"
+    ]
+   }
+  },
+  "ore": {
+   "defline": "The Steward lives inside your Year Gate: your root is a kept house, and it keeps you still.",
+   "reading": "This position rules Family and Wealth, and it works from the root of your story. The Steward lives inside your Year Gate: thrift is in your foundations, a home that counted carefully, wasted little, and kept its word about money. You absorbed it before you could name it. Your fortune compounds the same way, quietly, earlier than anyone notices, and mostly through patience the loud world mistakes for luck. Family remains your soundest network: help flows there reliably in both directions. Keep the ledgers kind and current. This root turns small discipline into generational ground.",
+   "teaser": "Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices.",
+   "domain_readings": {
+    "Family": "Your family root kept its word about money: a house that counted, saved, and never dramatized it. You inherited solvency as a temperament. Family remains your soundest network, help flowing reliably both ways. Keep the ledgers kind, and this root funds generations.",
+    "Wealth": "Your fortune compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning."
+   },
+   "life_chapter": "Your early chapter was quietly provisioned: a childhood of counted carefully and enough, where money had manners and promises held. The solvency you absorbed before understanding it remains your deepest asset. Expect stability to follow you the way it furnished those first years.",
+   "relations": "The careful keepers are this seat’s people: the parent or grandparent who saved without saying so, whose thrift was a love letter read decades later. You honor them by keeping the habit warm. Add the enjoying they postponed. Complete the lesson for them.",
+   "shadow_line": "Overloaded, thrift turns hereditary anxiety: saving as flinching, passed down intact.",
+   "health_line": "Your constitution is steady stock: it keeps well under routine and wears down only through neglect nobody notices. Notice on schedule."
+  }
+ }
+]

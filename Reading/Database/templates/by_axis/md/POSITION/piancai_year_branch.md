@@ -23,8 +23,8 @@
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
-| `defline` | Opportunity lives inside your Year Gate: your root memory of providing runs wide, not deep. |
-| `reading` | This position rules Family and Wealth, and it works from the root of your story. The Horizon lives inside your Year Gate: somewhere in your line sits a wanderer, and their restlessness lives on in you, quietly, underneath the settled surface. Your luck travels. Opportunity favors you farther from home than comfort likes, and family fortunes in your story tend to involve journeys, migrations, or the one relative who left. Honor the pattern: build a base, then range from it. The root gives you both the itch and the map. Use them in that order. |
+| `defline` | The Horizon lives inside your Year Gate: underneath your settled surface sits a pull toward somewhere else, carried down your family. |
+| `reading` | Somewhere in your family a relative left home to look for something better, and that restlessness lives on quietly in you. Because moving was part of how your family got by, you feel most alive in unfamiliar places and most at rest when you come back. Your best chances come from far off, and you have always needed a fixed home to return to. |
 | `teaser` | Somewhere in your roots sits a wanderer, and their restlessness lives in you. Your luck travels: opportunity favors you farther from home than comfort likes. |
 | `domain_readings.Family` | A wanderer sits in your roots: the relative who left, the migration that made the family, the restlessness passed down as inheritance. Your bonds stretch across distances and hold. Keep the far ones fed with visits and calls. Your family was built by journeys, and it maintains by them. |
 | `domain_readings.Wealth` | Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the wandering forgets the map home: motion as avoidance. Return deliberately, and bring the stories. |
 | `shadow_line` | Overloaded, restlessness impersonates purpose: always leaving, rarely arriving. |
 | `health_line` | Your body needs new air on a schedule: staleness sickens you faster than strain. Change the scenery before the scenery changes you. |
+| `domain_climb.Family.headline` | Your family holds together across distance. |
+| `domain_climb.Family.recognition` | You keep close ties with relatives who live far away, and you are the one who calls first. Because distance was ordinary when you were growing up, a long absence never feels to you like a break in love. You are the link between relatives who would otherwise lose touch. |
+| `domain_climb.Family.lived` | As a child you heard about a relative who had moved away, or you moved yourself and learned to make friends quickly. By your teens your family stretched across more than one place, and you felt at home in each of them. |
+| `domain_climb.Wealth.headline` | Your luck with money improves the further you go. |
+| `domain_climb.Wealth.recognition` | You find your best chances away from home, in a new city or an unfamiliar market or among strangers. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place. |
+| `domain_climb.Wealth.lived` | By your teens you had seen that money in your family came through moving, a relative working away or a business that travelled. The first money you made yourself came from beyond your own neighbourhood, and you liked how that felt. |

@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Wealth · Family |
-| `defline` | Opportunity stands at your Year Gate: fortune’s door was visible from your first address. |
-| `reading` | This position rules Wealth and Family, and it rules them from your beginnings. The Horizon stood openly at your Year Gate: generosity was visible in your early world, a family that spent on people and chances, often led by a father figure with range and appetite. Money entered your story as movement rather than storage. The inheritance is a nose for openings and a light grip on cash, both lifelong. Fortune finds you through motion, strangers, and distance from home. Keep one anchored account the family charm cannot reach. The rest can stay in play. |
+| `defline` | The Horizon stands at your Year Gate, in plain view: your first home spent openly on people and on chances. |
+| `reading` | You grew up in a family that spent on guests, gifts and new plans, and everyone around you could see it. Because money moved freely in the house you grew up in, you learned to spot a chance quickly and to hold cash loosely. That ease with risk has served you all your life, and you have had to build for yourself the savings habit your family never taught. |
 | `teaser` | Generosity was visible in your beginnings: a family that spent on people and chances. Money finds you through motion and strangers, rarely through sitting still. |
 | `domain_readings.Wealth` | Money entered your story as movement: a family that spent on people and chances, fortune arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play. |
 | `domain_readings.Family` | Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family fortune moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, everything circulates: money, favors, attention, none of it settling. Anchor one asset this year and let it bore you. |
 | `shadow_line` | Overloaded, generosity performs: giving seen becoming the point of giving. |
 | `health_line` | Your vitality is circulatory: it rises in motion and pools in stillness. Move daily, travel seasonally, and the engine self-maintains. |
+| `domain_climb.Wealth.headline` | You learned early that money is for moving. |
+| `domain_climb.Wealth.recognition` | You spend on people and chances easily, and a good opening excites you more than a full account. Because money in your first home came and went in plain sight, you feel calm with risks that frighten more careful people. What you lack is a store kept apart from your generosity, and you know it. |
+| `domain_climb.Wealth.lived` | As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance and very little saved, and both habits stayed. |
+| `domain_climb.Family.headline` | Your family taught you generosity, and its price. |
+| `domain_climb.Family.recognition` | You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that open hands make people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later. |
+| `domain_climb.Family.lived` | An older relative in your first home, a father or someone who stood in for one, spent widely and drew people around them. By your teens you had learned both the warmth of that generosity and what it cost the household. |

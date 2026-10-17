@@ -23,8 +23,8 @@
 | `slot_zh` | 日支 |
 | `slot_kind` | branch |
 | `domains` | Love · Social |
-| `defline` | The Twin sits in your spouse palace: you partner as an equal, and only as an equal. |
-| `reading` | This position rules Love and Social, and it works from your marriage palace. The Twin lives inside your Day Gate: at close range you need an equal, a partner whose spine matches yours, and romance built on leaning never holds you long. Your adult chapters run as a two-captain household, strong, frank, occasionally a contest. Friends of the marriage tend to be shared and loyal. Watch for score-keeping in the kitchen, the quiet ledger of who did what. Choose someone you admire, then let them carry you now and then. That is the hard move, and the marriage-saving one. |
+| `defline` | The Twin lives inside your Day Gate, the seat of your partner: you love as an equal, and only as an equal. |
+| `reading` | At close range you need a partner who stands as tall as you, and you have never stayed long with someone who leans. Because equality is how you feel respected, your home runs with two people deciding and neither one in charge. The cost is a quiet tally of who did what, kept by both of you and spoken by neither. From your mid-thirties your private life settles around one level bond, and you grow easier about being looked after inside it. |
 | `teaser` | In love you need an equal, someone with a spine that matches yours. Marriage will feel like a partnership of captains, and it works when neither keeps score. |
 | `domain_readings.Love` | In love you need a spine that matches yours: romance built on leaning never holds you, and admiration is your real aphrodisiac. The marriage that works is two captains with one map. Practice being carried occasionally. It is the single hardest and most bonding move available to you. |
 | `domain_readings.Social` | Your social life routes through respect: friends earned as equals, kept as family, never collected. Couple-friendships suit you, allies of the household rather than audiences for it. Keep the circle small and the standards visible. People rise to them or rotate out, and both outcomes serve. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the partnership turns contest: two captains, one wheel, daily elections. Hand over the wheel on alternating days. |
 | `shadow_line` | Overloaded, intimacy becomes negotiation: affection with terms, warmth with a scoreboard. |
 | `health_line` | Your body mirrors the household: it settles when home is level and knots when home contests. Peace at the table is physical medicine here. |
+| `domain_climb.Love.headline` | You love best as an equal, or not at all. |
+| `domain_climb.Love.recognition` | You fall for people with their own opinions and their own plans, and you lose interest in anyone who needs you to lead. Because a matched partner makes you feel safe, you argue as an equal and keep count of who gave way last. You find it harder to be carried by a partner, even for a day, than to win any argument. |
+| `domain_climb.Love.lived` | The partners who have mattered to you so far were strong-willed people with lives of their own, never ones who leaned. More than once a good relationship of yours turned into a contest over small things, and you kept the score as carefully as they did. |
+| `domain_climb.Love.ahead` | From your mid-thirties love settles into a partnership between two people who each run their own lives. Over these years the tally between you grows shorter, and you find you can lean on a partner without feeling smaller. |
+| `domain_climb.Social.headline` | Your friends are shared, few and loyal. |
+| `domain_climb.Social.recognition` | Your closest friends are the ones you and a partner both respect, other couples and old friends who treat your home as a unit. Because respect is the only thing that keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle, and every person in it has earned their place. |
+| `domain_climb.Social.lived` | So far your friendships have been between equals, people who never needed you to rescue them. The friends who wanted looking after drifted away, and you let them go without much regret. |
+| `domain_climb.Social.ahead` | From your mid-thirties your circle becomes a shared one, friends who know the two of you as a pair. You spend these years with fewer people than before, and you trust each of them more. |

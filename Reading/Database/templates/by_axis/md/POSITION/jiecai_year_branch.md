@@ -23,8 +23,8 @@
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
-| `defline` | Inside your Year Gate sits the shared purse: early life taught you that what is yours is rarely only yours. |
-| `reading` | This position rules Family and Wealth, and it works from the root of your story. The Rival lives inside your Year Gate: you grew up where mine and yours blurred, pooled money, borrowed things, siblings or cousins close enough to claim. It made you generous and alert in the same breath. As an adult you give easily and count quietly, and both instincts are correct. Family will always have a hand near your pocket, mostly with love. Share on purpose, in writing where it matters. Clarity is how this root stays warm instead of expensive. |
+| `defline` | The Rival lives inside your Year Gate: in your first home almost everything was shared, and almost everything was claimed. |
+| `reading` | You grew up in a household where money and belongings were pooled and a brother, sister or cousin always had a claim on what you had. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help first, and you say yes before you have worked out what it costs. |
 | `teaser` | You grew up where mine and yours blurred, and it made you generous and watchful at once. Keep sharing on purpose: looseness with money costs you relationships first. |
 | `domain_readings.Family` | Your family root pooled everything: money, space, claims, love. It made you generous by reflex and watchful by experience, and both instincts are correct. As an adult, formalize what the childhood left loose. Written clarity is how this family stays warm instead of expensive. |
 | `domain_readings.Wealth` | Wealth in your story has always had company: shared accounts, borrowed sums, the relative whose need arrives before your surplus does. Your money grows best with boundaries it never had at home. One private account, one giving budget, and generosity becomes a joy again. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the pool floods: every relative a stakeholder in your wallet. Post the boundaries kindly and hold them plainly. |
 | `shadow_line` | Overloaded, generosity turns resentful: giving that keeps receipts and reads them aloud. |
 | `health_line` | Your reserves deplete socially: family seasons drain you below the line you notice. Schedule solitary recovery after every gathering. |
+| `domain_climb.Family.headline` | You grew up sharing everything with family. |
+| `domain_climb.Family.recognition` | You treat family as people with a natural claim on your time, your space and your money. Because sharing was how your first home held together, refusing a relative feels like disloyalty to you. You give without fuss, and you resent it quietly when the giving is taken for granted. |
+| `domain_climb.Family.lived` | In your first home the money and the clothes and the space were all shared, and a sibling or cousin was never far from what was yours. By your teens you could give without being asked and could tell exactly who had taken what. |
+| `domain_climb.Wealth.headline` | You give money easily and keep track of it. |
+| `domain_climb.Wealth.recognition` | You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your savings grow slowly while your family's claims stay open, and you feel both generous and short. |
+| `domain_climb.Wealth.lived` | As a child you saw money borrowed and lent around the family without anything being written down. By your teens you had already given away more than you could spare, and you had learned which relatives paid you back. |

@@ -23,8 +23,8 @@
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Wealth |
-| `defline` | Opportunity holds your chart’s strongest seat: your prime is a marketplace, and you own a stall. |
-| `reading` | This position rules Career and Wealth, and it holds the deep seat of your prime. The Horizon lives inside your Month Gate: under your working life runs a trader’s instinct, value sensed moving before it moves. Careers that reward reading the field suit you, markets, sourcing, scouting, anything with a horizon in it. Your middle decades earn best in cycles, and the skill is keeping harvest discipline inside the hunting spirit. Let someone patient mind the vault while you mind the weather. Paired that way, the instinct compounds into genuine wealth instead of great stories. |
+| `defline` | The Horizon lives inside your Month Gate: under your working years runs a quiet sense of where value is about to move. |
+| `reading` | Under your working life sits an instinct for what is about to rise or fall, in prices and people and trends. Because you trust that instinct more than any plan, you earn in waves, with strong seasons followed by flat ones. Each good run makes you want a bigger one, and the gains go back into the next chance. Your working years reward your timing, and you keep most when someone patient holds what you bring in. |
 | `teaser` | Under your prime runs a trader’s instinct: you sense value moving before it moves. Trust it in the field, and let someone patient mind the vault. |
 | `domain_readings.Career` | A trader’s instinct runs your deep engine: value sensed moving before it moves, fields read the way farmers read sky. Careers in markets, sourcing, and scouting suit the wiring outright. In any other field, be the one who sees around corners. That is the job under your job. |
 | `domain_readings.Wealth` | Your middle decades earn in cycles: surge, harvest, quiet, surge. The skill is keeping harvest discipline inside the hunting spirit, skimming every peak into something patient. Let a steady partner mind the vault. Paired that way, the cycles compound instead of merely repeating. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, every season is hunting season: rest read as loss. Sit out one obvious opening on purpose, and notice you survived. |
 | `shadow_line` | Overloaded, the instinct gambles its own harvest: winnings rehunted until gone. |
 | `health_line` | Your system cycles like your income: brilliant sprints, flat recoveries. Respect the fallow weeks. They are part of the yield. |
+| `domain_climb.Career.headline` | Your work pays for reading where things are going. |
+| `domain_climb.Career.recognition` | You are drawn to work where timing matters, buying and selling or finding things before others notice them. Because you read change early, a job where nothing moves bores you, and you leave it sooner than you planned. In any role you end up as the person who sees what is coming next. |
+| `domain_climb.Career.lived` | Since your late teens your work has gone best where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do. |
+| `domain_climb.Wealth.headline` | Your money comes in strong seasons and quiet ones. |
+| `domain_climb.Wealth.recognition` | You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each lucky stretch than after it. |
+| `domain_climb.Wealth.lived` | Since your late teens your income has risen and fallen in turns, with good runs and lean months. At least once you have lost the gains of a good year by chasing a better one, and you have learned the shape of your own luck. |

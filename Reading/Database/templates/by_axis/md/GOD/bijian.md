@@ -32,6 +32,18 @@
 | `family_element.appetite` | identity, autonomy, and the standard you hold yourself to |
 | `family_element.notAlone` | not pride alone, but the self the other four energies turn around |
 | `ruling_domains` | Family · Growth · Social |
+| `decade_lines.Family.helping.lived` | Those years made you an equal in your family more than a child or a dependant. You stood on your own feet among your relatives, and they treated your word as worth the same as theirs. |
+| `decade_lines.Family.helping.ahead` | Brothers, sisters and cousins become allies in these ten years, and the household runs on shared effort. You carry your own share at home, and your relatives carry theirs without being asked. |
+| `decade_lines.Family.heavy.lived` | In those years you kept your own counsel at home and asked your family for very little. The distance grew quietly, and what carried you was the one relative who treated you as an equal. |
+| `decade_lines.Family.heavy.ahead` | Pride runs the household in these years, with everyone at home insisting on their own way. The quarrels shrink once each person has a clear part, and you come through by doing yours without keeping score. |
+| `decade_lines.Growth.helping.lived` | Your progress in those years came from peers who were your equals, people you learned beside more than beneath. You set your own standard and met it, and the confidence lasted. |
+| `decade_lines.Growth.helping.ahead` | Self-reliance pays in these ten years. You teach yourself what you need and find equals to train beside, and you come out more capable on your own terms than before. |
+| `decade_lines.Growth.heavy.lived` | Stubbornness slowed you in those years, because you refused help that would have saved time. You did everything the hard way on your own, and you came out with skills nobody had handed you. |
+| `decade_lines.Growth.heavy.ahead` | Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. You keep growing because one equal works beside you instead of against you. |
+| `decade_lines.Social.helping.lived` | Friendships among equals defined those years, with people who matched your pace and asked nothing extra. You found a few friends who met you level, and you have kept some of them since. |
+| `decade_lines.Social.helping.ahead` | These ten years bring friends who stand beside you as equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd. |
+| `decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle shrank to one or two, and you found those one or two were enough. |
+| `decade_lines.Social.heavy.ahead` | Company that truly matches you grows scarce in these years, and crowded groups wear you out quickly. One steady friend carries the decade, and you value that friend more than a full calendar. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

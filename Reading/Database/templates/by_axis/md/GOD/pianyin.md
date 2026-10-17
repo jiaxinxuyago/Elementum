@@ -32,6 +32,18 @@
 | `family_element.appetite` | insight, the oblique, and understanding that transmutes |
 | `family_element.notAlone` | not comfort alone, but everything that feeds and restores you |
 | `ruling_domains` | Mind · Growth · Career |
+| `decade_lines.Career.heavy.lived` | Those years pulled you toward study and odd side paths more than toward a steady job. You learned a great deal that did not pay yet, and you doubted yourself while you did it. |
+| `decade_lines.Career.heavy.ahead` | Your career wanders in these years between study and side projects, and steady output is hard to keep up. What carries you is one skill you can sell, and you return to it whenever money runs short. |
+| `decade_lines.Career.helping.lived` | Specialist work suited you in those years, the kind that needs unusual knowledge and a quiet desk. You became good at something few others understood, and it paid in respect first. |
+| `decade_lines.Career.helping.ahead` | Niche expertise brings offers in these years, through research, advising or technical work. You get paid for knowing what others do not, and your reputation grows inside a small field. |
+| `decade_lines.Mind.heavy.lived` | You turned inward in those years, into subjects few people around you shared. You spent long stretches alone with your thinking, and some of it still feels like the most important work you have done. |
+| `decade_lines.Mind.heavy.ahead` | Your mind turns inward in these years, and long stretches of solitary thought leave work half done. One person who hears your ideas keeps you steady, and you finish more when someone is waiting. |
+| `decade_lines.Mind.helping.lived` | Strange subjects drew you in those years, and you learned through instinct and odd teachers more than classrooms. Your thinking grew original, and you trusted hunches that later proved right. |
+| `decade_lines.Mind.helping.ahead` | Intuition sharpens in these ten years, and unusual ideas finally find a use. You think in ways few others do, and people start coming to you for the angle they missed. |
+| `decade_lines.Growth.heavy.lived` | You grew in those years by going your own way, often away from what was expected of you. The progress was real and nearly invisible, and you felt behind while you made it. |
+| `decade_lines.Growth.heavy.ahead` | Solitary searching slows you in these years, with many interests started and few carried through. One finished project gets you through, and you feel the decade's progress most on the day it is done. |
+| `decade_lines.Growth.helping.lived` | Unconventional paths taught you most in those years, a strange course, a self-taught skill or a mentor outside the usual. You developed in your own direction, and the difference became your strength. |
+| `decade_lines.Growth.helping.ahead` | Private study pays in these years, and the things you taught yourself start to count. You grow in directions nobody planned for you, and the progress shows in work only you could do. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

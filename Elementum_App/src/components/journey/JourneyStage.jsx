@@ -63,6 +63,9 @@ function MetricBars({ m }) {
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
+import { resolveDomains } from '../reading/domainsResolve.js';
+import { DOMAINS_CONTENT } from '../../content/domains.js';
+import { DomainsHub, DomainPage, DomainTiles } from './DomainsViews.jsx';
 import { SLOT_RANK } from '../../content/positions.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
@@ -93,7 +96,11 @@ const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
 );
 
-export default function JourneyStage({ reveal = false, openCore = false, openEl = null, onDone, onOpenDayMaster, onOpenCodex }) {
+// THE DOMAINS read domain first (DOM-1, owner 2026-10-17, P2 A): live on
+// the dev site (dev tools on) until the corpus lands, then for everyone.
+const DOMAINS_V2 = IS_DEV_TOOLS;
+
+export default function JourneyStage({ reveal = false, openCore = false, openEl = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const { openUpgrade } = useUpgrade();   // THE EDGE's domain sheet leads to the price gate (owner 2026-10-15)
@@ -116,6 +123,8 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom') — fn re-split as the function reading's home (owner re-org 2026-09-02)
   const [deepOpen, setDeepOpen] = useState(false); // seat Stage B ("the deeper layers") — resets per seat
   const [godOpen, setGodOpen] = useState(null);    // WHO RUNS IT god accordion (god zh) — collapsed by default
+  const [domOpen, setDomOpen] = useState(null);    // THE DOMAINS page (domain word) — DOM-1
+  const [domFrom, setDomFrom] = useState('catalogue'); // where the domain page's back row returns
 
   const model = useMemo(() => {
     if (!chart || !ec || !identity) return null;
@@ -446,6 +455,10 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   // the catalogue takeaway strip + dot-card hints derive from the same
   // resolution the element pages use; element seats sort by SLOT_RANK.
   const allPositions = m ? resolvePositions(chart, hourUnknown) : [];
+  // THE DOMAINS (DOM-1): every domain page, composed chart-wide from the seats + the decades
+  const dm = DOMAINS_V2 ? resolveDomains(chart, allPositions, DOMAINS_CONTENT, { hourUnknown, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])) }) : null;
+  const domPage = dm && domOpen ? dm.pages.find((p) => p.domain === domOpen) : null;
+  const openDomain = (word, from) => { setDomOpen(word); setDomFrom(from); goScreen('domain'); };
   const bySeatRank = (a, b) => (SLOT_RANK[a.slot] || 9) - (SLOT_RANK[b.slot] || 9);
   const firstSent = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
   // (the catalogue takeaway strip retired — owner 2026-09-04: the covers,
@@ -631,6 +644,16 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     ))}
                   </div>
                 </div>
+                {/* YOUR DOMAINS, the fourth beat (DOM-1, owner 2026-10-17 Q1/Q2 A) */}
+                {DOMAINS_V2 && dm && (
+                  <>
+                    <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="4"]'), 56)}><span>See where your life is ruled</span><Use id="ar-down" /></button>
+                    <div className="beat" data-beat="4">
+                      <span className="sec-eyebrow">YOUR DOMAINS</span>
+                      <DomainsHub dm={dm} positions={allPositions} onOpen={(d) => openDomain(d, 'catalogue')} onDiscoverHour={onDiscoverHour} Use={Use} DOM={DOM} />
+                    </div>
+                  </>
+                )}
                 {/* (the beat-3 SEEK/SKIP panels retired 2026-09-10 — their
                     rows live on as YOUR ENERGY MANUAL's doors in beat 2;
                     SKIP re-worded EASE so the core itself can sit there) */}
@@ -711,7 +734,14 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 {/* (the BAND-C band card "How your core is running" retired 2026-10-17,
                     owner: "Remove the band card from the energy reading page. That page
                     is already packed." Its 30 texts hibernate in the station.) */}
-                {elFaces.length ? (
+                {DOMAINS_V2 && dm ? (
+                  <div className="cardstock el-tease dl-elcard">
+                    <span className="laylab">THE DOMAINS</span>
+                    <span className="serifline el-teasetitle">What {elScreen.elName} rules in your life</span>
+                    <DomainTiles dm={dm} el={elScreen.el} elName={elScreen.elName} onOpen={(d) => openDomain(d, 'element')} Use={Use} DOM={DOM} />
+                    <span className="body2 dl-sub" style={{ display: 'block', marginTop: 6 }}>Each tile opens the full domain, with every seat that rules it, from any energy.</span>
+                  </div>
+                ) : elFaces.length ? (
                   <button className="cardstock el-tease goa" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
@@ -904,7 +934,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                                     under each a bridge phrase, not advice; one transition line. */}
                                 <div className="el-edge-doors" role="group" aria-label="Your domains">
                                   {edge.items.map((it) => (
-                                    <button key={it.domain} type="button" className="el-edge-door" aria-haspopup="dialog" onClick={() => openDomainSheet(it.domain, edge.god)}>
+                                    <button key={it.domain} type="button" className="el-edge-door" aria-haspopup="dialog" onClick={() => (DOMAINS_V2 ? openDomain(it.domain, 'element') : openDomainSheet(it.domain, edge.god))}>
                                       <span className="el-edge-doorring" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span>
                                       <span className="el-edge-doorname">{it.domain}</span>
                                       {tier === 'free' ? <span className="el-edge-doorlock" aria-label="Opens with Seeker"><Use id="ico-lock" /></span> : <span className="el-edge-doorlock open" aria-hidden="true"><Use id="ico-chev-r" /></span>}
@@ -1119,6 +1149,20 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     )}
                   </div>
                 ) : null}
+              </div></div>
+            </div>
+          )}
+
+          {/* ── a domain page (DOM-1, owner 2026-10-17) ── */}
+          {DOMAINS_V2 && domPage && (
+            <div className={`jscreen${screen === 'domain' ? ' active' : ''}`} data-screen="domain">
+              <div className="plateimg a-plate-rice" /><div className="eltint" />
+              <button className="backrow" aria-label="Back" onClick={() => goScreen(domFrom === 'element' && elScreen ? 'element' : 'catalogue')}>
+                <span className="bico"><Use id="ico-chev-l" /></span>
+                <span className="bl el-back">{domFrom === 'element' && elScreen ? `${elScreen.name} · ` : 'YOUR DOMAINS · '}{domPage.domain.toUpperCase()}</span>
+              </button>
+              <div className="scrollwrap"><div className="padv2">
+                <DomainPage page={domPage} dm={dm} positions={allPositions} tier={tier} onUpgrade={openUpgrade} onDiscoverHour={onDiscoverHour} Use={Use} DOM={DOM} />
               </div></div>
             </div>
           )}

@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Social |
-| `defline` | Order stands at your Month Gate: the working world sees an officer, promotable on sight. |
-| `reading` | This position rules Career and Social, and it runs the prime of your life. The Magistrate stands at your Month Gate in view: the working world sees the officer in you, reliable, correct, promotable, and it responds with rank. Your prime climbs by record: titles find you, and they tend to stick. Your name will matter more than your salary, and eventually decide it. Socially you are the one made responsible, the emergency contact of entire departments. Accept it, it is how your era pays. Just keep one lawless hobby. Even judges need a garden. |
+| `defline` | The Magistrate stands at your Month Gate, in plain view: at work people see someone reliable and ready for promotion. |
+| `reading` | People at work see you as correct and dependable, and they answer with responsibility and rank. Because your record speaks for you, titles come to you in steady order, and they stay. In your circle you are the one made responsible, the person others call when something must be done properly. Your name matters more than your pay in these years, and over time it raises your pay as well. |
 | `teaser` | The working world sees the officer in you: reliable, correct, promotable. Your career climbs by rank and record, and your name will matter more than your salary. |
 | `domain_readings.Career` | The working world sees the officer in you: reliable, correct, promotable, and it responds with rank. Titles find you and stick. Your name will matter more than your salary and eventually decide it. Keep the record clean and the climb takes care of itself. |
 | `domain_readings.Social` | You are the one made responsible: emergency contact of departments, keeper of the calendars, the colleague adults trust. It is how your circle pays respect. Accept the role and price it. Also keep one lawless hobby. Even judges need a garden. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the office follows you home: rank worn at dinner. Leave the title at the door with the shoes. |
 | `shadow_line` | Overloaded, the position replaces the person: respected title, unvisited self. |
 | `health_line` | Your body performs its duties and postpones its complaints: symptoms filed under later. Open that file quarterly, with a professional. |
+| `domain_climb.Career.headline` | Your record earns you rank. |
+| `domain_climb.Career.recognition` | You climb at work through trust, the clean record and the job done the way it should be. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record. |
+| `domain_climb.Career.lived` | Since your late teens you have been promoted by people who trusted you early, a manager or a mentor who put your name forward. Your references have opened doors for you more than once, and you have rarely had to ask for a step up. |
+| `domain_climb.Social.headline` | Everyone trusts you with the responsible job. |
+| `domain_climb.Social.recognition` | Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, and you have less time for fun than the people who lean on you. |
+| `domain_climb.Social.lived` | From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. At least once that role cost you a weekend or a holiday you had planned for yourself, and you gave it up without complaint. |

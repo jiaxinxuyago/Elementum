@@ -65,7 +65,45 @@ async function functionSurface() {
   return pages;
 }
 
-export const SURFACES = { function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
+// THE DOMAINS (DOM-1, owner 2026-10-17): domain pages as the reader sees them, composed by domainsResolve.js from
+// real birth charts. Charts are picked greedily so every unit the corpus holds is reached on some page; a unit no
+// chart reaches (a low-ranked seat that never leads) is listed on a closing "unreached" page, so nothing goes unread.
+async function domainsSurface() {
+  const { calculateBaziChart } = await import(ROOT + 'Elementum_App/src/engine/calculator.js');
+  const { buildEnergyChart } = await import(ROOT + 'Elementum_App/src/engine/buildEnergyChart.js');
+  const { buildJourneyModel } = await import(ROOT + 'Elementum_App/src/components/journey/journeyData.js');
+  const { STEM_CARD_DATA } = await import(A + 'index.js');
+  const { resolvePositions } = await import(ROOT + 'Elementum_App/src/components/reading/positionsResolve.js');
+  const { resolveDomains } = await import(ROOT + 'Elementum_App/src/components/reading/domainsResolve.js');
+  const { DOMAINS_CONTENT } = await import(A + 'domains.js');
+  const compose = (c, hu) => { const chart = calculateBaziChart(c); const ec = buildEnergyChart(chart); const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[chart.pillars.day.stem] });
+    const pos = resolvePositions(chart, hu); return { m, pos, r: resolveDomains(chart, pos, DOMAINS_CONTENT, { hourUnknown: hu, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])), year: 2026 }) }; };
+  const unitsOf = (p) => [p.headlineSrc, p.howSrc, p.pattern?.src, ...p.past.map((b) => b.src), ...p.future.map((b) => b.src)].filter(Boolean);
+  const all = new Set(); for (const [id, s] of Object.entries(DOMAINS_CONTENT.seats)) for (const [d, u] of Object.entries(s.domains)) for (const k of Object.keys(u)) all.add(`POSITION ${id} · domain_climb.${d}.${k}`);
+  const seen = new Set(); const pages = []; let n = 0; let i = 0;
+  for (let y = 1958; y <= 2006 && pages.length < 200; y++) for (const [mo, hr] of [[2, 3], [5, 9], [8, 15], [11, 21]]) {
+    i++; const hu = i % 9 === 0; const c = { year: y, month: mo, day: 1 + ((y * 7 + mo) % 27), hour: hr, location: 'Beijing', gender: i % 2 ? 'male' : 'female' };
+    let res; try { res = compose(c, hu); } catch { continue; }
+    for (const p of res.r.pages) {
+      const u = unitsOf(p); const fresh = u.filter((x) => !seen.has(x)); if (!fresh.length || pages.length >= 200) continue; u.forEach((x) => seen.add(x));
+      const sec = [{ head: 'TITLE', sub: p.count, key: p.headlineSrc, text: p.headline || '(none)' }, { head: 'HOW YOU ARE', sub: '', key: p.howSrc, text: p.how || '(none)' }];
+      if (p.pattern) sec.push({ head: 'HOW YOU ARE · the pair line', sub: '', key: p.pattern.src, text: p.pattern.text });
+      for (const b of p.past) sec.push({ head: 'ALREADY HAPPENED', sub: b.label, key: b.src, text: (b.lead ? b.lead + ' ' : '') + b.text });
+      for (const b of p.future) sec.push({ head: 'COMING', sub: b.label, key: b.src, text: (b.lead ? b.lead + ' ' : '') + b.text });
+      for (const t of p.notes) sec.push({ head: 'NOTE', sub: '', key: '', text: t, nonProse: true });
+      for (const s of p.seats) sec.push({ head: 'SEAT CARD', sub: s.term, key: `POSITION ${s.id} · reading`, text: `${s.defline} ${s.reading}` });
+      n++; pages.push({ id: `D${String(n).padStart(3, '0')}`, group: p.domain.toLowerCase(), title: `${p.domain} · ${res.m.archetype || ''} ${res.m.condition} · age ${res.r.age}${hu ? ' · no birth hour' : ''} · born ${c.year}-${c.month}-${c.day} ${c.hour}:00 ${c.gender}`, sections: sec, exempt: [p.domain] });
+    }
+  }
+  const miss = [...all].filter((x) => !seen.has(x));
+  if (miss.length) {
+    const get = (k) => { const m = k.match(/^POSITION (\S+) · domain_climb\.(\w+)\.(\w+)$/); return m ? DOMAINS_CONTENT.seats[m[1]]?.domains?.[m[2]]?.[m[3]] : ''; };
+    pages.push({ id: 'D999', group: 'unreached', title: `Units no sampled chart reaches (${miss.length}); read as a seat sheet`, sections: miss.map((k) => ({ head: 'UNIT', sub: '', key: k, text: get(k) || '' })), exempt: [] });
+  }
+  return pages;
+}
+
+export const SURFACES = { domains: { describe: 'THE DOMAINS: domain pages as composed for real charts (greedy cover of every unit) plus the unreached units', build: domainsSurface }, function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
 
 export function toMarkdown(pages, group) {
   const parts = [`# ${group} · pages as read`, ''];

@@ -23,8 +23,8 @@
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
 | `domains` | Family · Health · Mind |
-| `defline` | Care lives inside your Hour Gate: the root of your harvest is peace, tended into permanence. |
-| `reading` | This position rules Family, Health, and Mind, and it works in the root of your late years. The Sage lives inside your Hour Gate: quiet backing is the ground of your last chapters, pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age, and you have been depositing all your life. The mind stays clear the way tended gardens stay green, with routine, reading, and company that is gentle by default. Accept the care when it comes. You taught everyone around you how, and they learned it watching you. |
+| `defline` | The Sage lives inside your Hour Gate: underneath your later years is a quiet store of care, given back. |
+| `reading` | Your later life rests on kindness you gave years before, and it comes back to you as care from those you helped. Because you spent decades looking after others, accepting help feels strange to you, and you learn it slowly. Your days settle into gentle routines of reading, rest and good company. A life with no strain grows small, and you feel it most in the seasons when nobody asks anything of you. |
 | `teaser` | The root of your late years is quiet backing: pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age. |
 | `domain_readings.Family` | Quiet backing is your late family’s shape: children who shelter you, goodwill banked across decades paying out as care. You taught them how by example. Accept the tending when it comes. They learned it watching you, and refusing it ungrades the lesson. |
 | `domain_readings.Health` | Kindness banked early pays your old age: sleep that comes easily, a body tended by people who want to tend it. Your late health is communal property in the best sense. Keep the gentle routines and the gentle company. Both are prescription. |
@@ -35,3 +35,15 @@
 | `turn_friction` | Run heavy, the gentleness settles too deep: tended into passivity. Keep one responsibility that is genuinely yours. |
 | `shadow_line` | Overloaded, the sheltered elder stops weathering: protected from life itself. |
 | `health_line` | Your late body runs on gentleness and rhythm: soft exercise, regular company, unhurried meals. Managed so, it outlives every prediction. |
+| `domain_climb.Family.headline` | Your family looks after you, and you let it. |
+| `domain_climb.Family.recognition` | You are cared for by younger people more than you expected, with visits and help and small kindnesses. Because you are used to being the one who gives, you wave off help you need, and it hurts the people offering. What you want from your family now is company more than help. |
+| `domain_climb.Family.lived` | Since your late forties the people around you have started looking after you in small ways, a lift or a meal or a phone call that comes unasked. You have found it harder to accept than to give, and you have learned to say yes more often. |
+| `domain_climb.Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, return the care you gave them. You become the calm centre of a close family in these years, and you take their help without keeping score. |
+| `domain_climb.Health.headline` | Your health in later life rests on gentle rhythm. |
+| `domain_climb.Health.recognition` | You stay well on regular meals, unhurried walks and early nights, and your body complains when the rhythm breaks. Because ease restores you, you are tempted to take it further than is good for you, until days with no effort leave you stiff and flat. You feel best when the week holds a little challenge. |
+| `domain_climb.Health.lived` | Since your late forties your sleep has come more easily and your days have found a steadier pace. You have also gone through a stretch of too much rest, and your energy came back once something asked more of you. |
+| `domain_climb.Health.ahead` | From your late forties your body does well on gentleness, steady habits and the company of people who look after you. You stay well for longer than people expect, and you stay strongest in the years you keep moving. |
+| `domain_climb.Mind.headline` | Your mind stays clear through daily habit. |
+| `domain_climb.Mind.recognition` | You keep your mind clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and you lose some sharpness in years that are too quiet. You think best with one good question in front of you. |
+| `domain_climb.Mind.lived` | Since your late forties your thinking has grown calmer and steadier, held up by daily reading and talks with people you trust. You have become the one others ask for a clear view, and you have enjoyed being asked. |
+| `domain_climb.Mind.ahead` | From your late forties your mind stays clear because you use it gently every day. You read more and remember more of it in these years, and your judgement becomes the thing younger people around you rely on. |

@@ -23,8 +23,8 @@
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Growth · Health |
-| `defline` | The General lives inside your Year Gate: your root was forged, not furnished. |
-| `reading` | This position rules Family, Growth, and Health, and it works from the root of your story. The General lives inside your Year Gate: some early weight pressed where no one watched, and you turned it into spine. That hidden forge set your growth pattern for life, crisis promotes you, ease unsettles you. The body keeps the campaign records, so tension is your inheritance along with the strength. Family may never fully know what you carried. You do. Train the load on purpose now, rest like it is a discipline, and the root that pressured you becomes the root that powers you. |
+| `defline` | The General lives inside your Year Gate: underneath your early years was a weight you carried quietly. |
+| `reading` | Your first home asked a lot of you as a child, and some of what it asked happened where nobody else could see. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and your body has held the strain since. You still draw on that early toughness whenever life turns hard. |
 | `teaser` | Some early weight pressed on you where no one watched, and you turned it into spine. Crisis will always promote you: it is your native ladder. |
 | `domain_readings.Family` | Some early weight pressed where no one watched, and you turned it into spine: your family story holds a hidden forge. As an adult you protect the household the way you were never protected. Let them see the softness occasionally. Protection with warmth lands twice as deep. |
 | `domain_readings.Growth` | Crisis promotes you, ease unsettles you: the hidden pressure of your first years set the growth pattern for life. Choose difficulty on purpose now, training, hard projects, honest stakes, and the old reflex becomes an engine instead of a scar. |
@@ -35,3 +35,12 @@
 | `turn_friction` | Run heavy, the vigilance never stands down: peace read as prelude. Tell the troops the war ended. Repeat nightly. |
 | `shadow_line` | Overloaded, the survivor recruits new wars: calm manufactured into crisis for familiarity. |
 | `health_line` | Your reserves are deep and privately spent: exhaustion arrives without warning signs you honor. Install the warning signs, then honor them. |
+| `domain_climb.Family.headline` | You carried more at home than anyone knew. |
+| `domain_climb.Family.recognition` | At home you protect your family closely, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. Your family relies on your strength, and few of them know what it cost you to build. |
+| `domain_climb.Family.lived` | As a child you carried a weight in your first home that few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself. |
+| `domain_climb.Growth.headline` | Hard times have always made you grow. |
+| `domain_climb.Growth.recognition` | You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you take on hard projects by choice and feel restless without one. Your best progress comes in the seasons other people would call the worst. |
+| `domain_climb.Growth.lived` | By your teens you had already learned to rise to a challenge, in school or at home or in a sport. Each hard year left you more capable than before, and you came to trust difficulty more than ease. |
+| `domain_climb.Health.headline` | Your body is strong and holds its strain. |
+| `domain_climb.Health.recognition` | Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it settles as stiffness in your back and shoulders. You recover well once you finally rest, and you rarely rest early enough. |
+| `domain_climb.Health.lived` | As a child you were tough and slow to complain, and you rarely let anyone see you tired. By your teens you were already holding tension in your shoulders, and you got through hard weeks on reserves most children did not need. |

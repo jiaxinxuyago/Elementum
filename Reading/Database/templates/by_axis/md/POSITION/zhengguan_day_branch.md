@@ -23,8 +23,8 @@
 | `slot_zh` | 日支 |
 | `slot_kind` | branch |
 | `domains` | Love · Family |
-| `defline` | Order sits in your spouse palace: you love formally, faithfully, and for the record. |
-| `reading` | This position rules Love and Family, and it works from your marriage palace. The Magistrate lives inside your Day Gate: you are built for committed love, a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it tends to arrive with weight, formal, meant, durable. Your adult chapters favor the long vow over the wild season, and your fortune agrees: things settle for you once the ring does. Choose character first, chemistry a close second. Then honor the small ceremonies, anniversaries, rituals, the weekly table. This palace runs on kept form. |
+| `defline` | The Magistrate lives inside your Day Gate, the seat of your partner: you love seriously, with promises meant to last. |
+| `reading` | You want love that is committed and clear, with a partner whose word holds as firmly as yours. Because keeping promises is how you show care, you judge a partner from the start by what they do on ordinary days. Over time that seriousness turns part of your love into routine, and the warmth goes quiet before you notice. From your mid-thirties a lasting partnership steadies the rest of your life, and you build it with someone you trust completely. |
 | `teaser` | You are built for committed love: a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it arrives with weight and stays. |
 | `domain_readings.Love` | You are built for committed love: a principled partner, promises kept on ordinary days, romance that arrives with weight and stays. Things settle for you once the ring does. Choose character first, chemistry a close second, and honor the small ceremonies. This palace runs on kept form. |
 | `domain_readings.Family` | Your household runs on kept promises: standards visible, duties shared, a home other families point to. The order is real affection wearing its work clothes. Add the unscheduled tenderness. A correct house with warm corners is the full inheritance. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the marriage becomes administration: love filed correctly. Un-schedule one evening weekly and see what happens. |
 | `shadow_line` | Overloaded, the promise outweighs the person: duty attended, spouse assumed. |
 | `health_line` | Your body thrives inside domestic order: regular meals, shared routines, early nights. The household schedule is half your medicine. |
+| `domain_climb.Love.headline` | You love with promises, and you keep them. |
+| `domain_climb.Love.recognition` | You are drawn to partners with clear values, people who keep their word and expect you to keep yours. Because reliability is what love means to you, you trust slowly and commit fully, and you find casual romance empty. What you want is a partner you can count on for life, and you give the same in return. |
+| `domain_climb.Love.lived` | So far the relationships that mattered to you have been serious from early on, with plans made and promises kept. At least once you stayed loyal to a commitment after the feeling had faded, and you were slow to admit it. |
+| `domain_climb.Love.ahead` | From your mid-thirties love settles into something formal and lasting, a shared home and a shared name for what you are. You grow closer to a partner through the small rituals you keep together, and you find the warmth that duty alone never gave you. |
+| `domain_climb.Family.headline` | Your home runs on kept promises. |
+| `domain_climb.Family.recognition` | You run your household on clear duties and fair rules, and the people in it know what to expect. Because order is how you protect the people you love, you notice a broken promise at home faster than a kind word. Your family feels secure with you, and some of them wish you were less strict. |
+| `domain_climb.Family.lived` | So far your family life has been built on structure, regular meals and shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who keeps its promises when others forgot. |
+| `domain_climb.Family.ahead` | From your mid-thirties your home becomes the steady centre of your family, the place relatives turn to and point to. You add more warmth to its order in these years, and you find that a correct house can also be an easy one to live in. |

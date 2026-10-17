@@ -19,8 +19,8 @@
       "Love",
       "Wealth"
     ],
-    "defline": "In your spouse palace lives the fellow gambler: love, for you, is a joint venture with real stakes.",
-    "reading": "This position rules Love and Wealth, and it works from your marriage palace. The Rival lives inside your Day Gate: you fall for bold ones, partners with fire, opinions, and their own way with money. Home will never be dull. Your adult chapters carry a contested-purse quality at close range, generous seasons and tight ones, and the marriage stays happiest when the accounts keep separate lanes with one shared road. Admire the fire, fund the household by rule, and let the passion argue about anything except the rent. That division keeps both love and money warm.",
+    "defline": "The Rival lives inside your Day Gate, the seat of your partner: your love life carries real stakes, in money and in pride.",
+    "reading": "You are drawn to bold partners with strong opinions and their own way with money, and a mild love has never held your interest for long. Because you feel most alive when someone pushes back, your home is lively and loud, full of debate and shared bets. The cost shows up in money, because two people who both want their way share one household, and you end up arguing over spending more than over love.",
     "teaser": "You fall for bold ones, partners with fire and opinions. Home will never be dull, and it stays happy when the money keeps separate lanes.",
     "domain_readings": {
       "Love": "You fall for fire: partners with opinions, appetites, and their own way with money. Mild love bores you within a season, and you know it. The marriage that lasts will be vivid, occasionally loud, and genuinely alive. Choose the flame that warms without needing to win.",
@@ -31,6 +31,50 @@
     "turn_catalyst": "Run thin, the vividness dims to politeness: a fire tended down to embers. Argue about something honest this week. The marriage runs on live current.",
     "turn_friction": "Run heavy, the contest moves into the kitchen: love scored, money weaponized. Return the scoreboard to the garage.",
     "shadow_line": "Overloaded, passion becomes rivalry at home: winning arguments, losing evenings.",
-    "health_line": "Your body reads the household weather: vivid seasons energize, contested ones erode. Make peace physically, walks, meals, sleep, and the vitality returns."
-  }
+    "health_line": "Your body reads the household weather: vivid seasons energize, contested ones erode. Make peace physically, walks, meals, sleep, and the vitality returns.",
+    "domain_climb": {
+      "Love": {
+        "headline": "You fall for people who push back.",
+        "recognition": "You fall for partners with a temper, an opinion and plans of their own. Because being challenged is how you know you matter to someone, a calm and agreeable partner bores you within months. You keep loving through the arguments, and you count a quiet week as a sign that something has gone wrong.",
+        "lived": "The people you have loved so far were strong-willed and hard to predict, and none of them let you win easily. More than once a relationship of yours ran hot and loud for years, and you stayed because it never bored you.",
+        "ahead": "From your mid-thirties you share a home with a partner as bold as you are, and the house is rarely quiet. Love in these years holds through open argument, and you find more warmth in it than in any calmer bond before."
+      },
+      "Wealth": {
+        "headline": "Your money at home is shared, and contested.",
+        "recognition": "You treat money in a relationship as joint, and you give freely when your partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it.",
+        "lived": "So far your money has risen and fallen with the people you lived with, generous seasons followed by tight ones. You have paid for a partner's plans more than once, and you found it easier to give than to talk about it afterwards.",
+        "ahead": "From your mid-thirties money and love move together in your household, and the stakes on both rise. You earn well with a partner in these years, and you keep the peace at home whenever each of you holds an account of your own."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "In your spouse palace lives the fellow gambler: love, for you, is a joint venture with real stakes."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Love and Wealth, and it works from your marriage palace. The Rival lives inside your Day Gate: you fall for bold ones, partners with fire, opinions, and their own way with money. Home will never be dull. Your adult chapters carry a contested-purse quality at close range, generous seasons and tight ones, and the marriage stays happiest when the accounts keep separate lanes with one shared road. Admire the fire, fund the household by rule, and let the passion argue about anything except the rent. That division keeps both love and money warm."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-1.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

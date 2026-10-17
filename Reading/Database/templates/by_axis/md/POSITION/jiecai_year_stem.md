@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Wealth · Social |
-| `defline` | This bold companion stands at your Year Gate: daring runs in the visible bloodline. |
-| `reading` | This position rules Wealth and Social, and it rules them from your beginnings. The Rival stood openly at your Year Gate: a bold line, money that moved fast around your childhood, charm as the family currency. You inherited the nerve and the leak. People take to you quickly, and your daring opens what patience cannot. The pattern to respect: windfalls arrive social, through friends, crowds, and shared bets, and they leave the same way. Keep an honest ledger somewhere boring. Your fortune favors the brave with bookkeeping. |
+| `defline` | The Rival stands at your Year Gate, in plain view: you grew up in a bold family where money moved fast. |
+| `reading` | Your family was known for its nerve, with money that came and went quickly and charm that won people over. Because boldness was praised in your first home, people warm to you quickly, and you act while others are still deciding. You also learned to spend as fast as you earn, and you feel uneasy holding on to money for long. |
 | `teaser` | Daring runs in your bloodline and shows early. Money moves fast around you, in and out, so your fortune favors nerve backed by a ledger someone honest keeps. |
 | `domain_readings.Wealth` | Money entered your story moving: a childhood where fortunes shifted, generosity flowed, and nothing stayed in the vault long. You inherited the nerve and the leak together. Windfalls will find you socially all your life. Bank a fixed share of every one before the celebrating starts. |
 | `domain_readings.Social` | You draw people the way bold things draw crowds: quickly, warmly, and in numbers. The charm is real currency, and it buys crowds of allies with a handful of anchors. Learn to tell the two apart early. Anchors hold when the weather turns. Crowds watch. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, all of this runs louder: charm spending faster than it earns. Appoint one boring account no charm can reach. |
 | `shadow_line` | Overloaded, daring becomes performance: risks taken for the audience, paid for alone. |
 | `health_line` | Your energy spends in bursts and borrows from tomorrow: brilliant days, crashed weeks. Even out the fuel and the nerve stays sharp. |
+| `domain_climb.Wealth.headline` | Money moved fast around you from the start. |
+| `domain_climb.Wealth.recognition` | You spend quickly and generously, and money that comes in through friends or luck goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives. |
+| `domain_climb.Wealth.lived` | As a child you watched money arrive and vanish in your family, a good year followed by a hard one. By your teens you had your own share of that nerve, and you spent what you had almost as soon as you had it. |
+| `domain_climb.Social.headline` | People take to you quickly, and in numbers. |
+| `domain_climb.Social.recognition` | You make friends fast, and a new group accepts you within an evening. Because charm was your family's way with people, you collect many allies and only a few who would stay through trouble. You know the difference between the two, and you feel it most in a hard year when the crowd thins. |
+| `domain_climb.Social.lived` | As a child you were popular with other children and with adults, and you were invited everywhere. By your teens you had a wide circle and one or two close friends who mattered far more, and you knew which were which. |

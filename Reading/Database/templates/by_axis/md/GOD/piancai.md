@@ -32,6 +32,18 @@
 | `family_element.appetite` | value, growth, and the things worth having |
 | `family_element.notAlone` | not money alone, but everything you treat as worth acquiring and tending |
 | `ruling_domains` | Wealth · Family · Social |
+| `decade_lines.Wealth.helping.ahead` | Money comes to you through openings in these years more than through salary, a deal or a side venture or a move. You take more chances with money than you did ten years earlier, and most of them pay. |
+| `decade_lines.Wealth.helping.lived` | Openings came your way in those years, a side deal, a lucky move or a contact with an offer. You made money in ways a salary never paid, and you grew bolder with it. |
+| `decade_lines.Wealth.heavy.lived` | Easy money came and went in those years, and each windfall left as fast as it arrived. You chased too many openings at once, and what saved you was the steady income underneath. |
+| `decade_lines.Wealth.heavy.ahead` | Chances multiply in these years and spread you thin, with more deals in view than you can follow. One reliable source keeps paying while the others rise and fall, and you come through with your savings intact. |
+| `decade_lines.Family.helping.ahead` | Your family widens in these years, through a partner's relatives, new arrivals or a household that keeps its door open. You spend more on the people around you than ever before, and you mind it less than you expected. |
+| `decade_lines.Family.helping.lived` | Your household opened outward in those years, through travel, new relatives or friends who became family. You gave generously to everyone at home, and the house was busier for it. |
+| `decade_lines.Family.heavy.lived` | Work and travel pulled you away from home in those years, and the people closest to you saw less of you than they wanted. You made it up in bursts of generosity, and your family forgave more than you expected. |
+| `decade_lines.Family.heavy.ahead` | Distant plans crowd out home life in these years, and the people nearest to you feel the gap. What brings you back is a relative who asks plainly for your time, and you give it once you see the cost. |
+| `decade_lines.Social.helping.ahead` | You widen your circle in these years, through travel and new groups and people met through other people. You make more new friends in this decade than in the two before it. |
+| `decade_lines.Social.helping.lived` | Your circle spread wide in those years, through travel, work and friends of friends. You met people easily everywhere you went, and several of them opened doors for you. |
+| `decade_lines.Social.heavy.lived` | Acquaintances crowded those years, and few of them stayed close. You knew people in many places and confided in almost none, and the one old friend who stayed kept you steady. |
+| `decade_lines.Social.heavy.ahead` | New contacts arrive faster than you can keep them in these years, and old friends drift to the edge. A small group who knew you before the busy decade keeps your footing, and you return to them again and again. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

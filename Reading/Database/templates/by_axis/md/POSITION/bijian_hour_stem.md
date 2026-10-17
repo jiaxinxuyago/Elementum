@@ -23,8 +23,8 @@
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
 | `domains` | Growth · Family |
-| `defline` | The Twin stands at your Hour Gate: what you show the future is independence, taught by demonstration. |
-| `reading` | This position rules Growth and Family, and it shapes how your story ends. The Twin stands at your Hour Gate, visible to the last: you will age on your own terms, keys kept, help declined politely. What you show children and juniors is self-reliance done with dignity, and they will copy it whether you narrate it or leave it silent. Late growth stays real for you, new skills after most people stop. One counsel from the old readings: stand alone with the door open. The young remember both, and they return to the second. |
+| `defline` | The Twin stands at your Hour Gate, in plain view: people see you grow old on your own terms. |
+| `reading` | Your later life is visibly your own, the affairs run by you and help turned down politely. Because standing on your own is how you show who you are, those who come after you learn self-reliance from watching you more than from anything you say. You go on learning new skills long after most people stop, and you pay for the independence with a distance that the young find hard to cross. |
 | `teaser` | You will age on your own terms and make it look easy. The young learn self-reliance from watching you, so leave the door open while you stand alone. |
 | `domain_readings.Growth` | Your growth never files for retirement: new skills past sixty, standards that keep rising after the audience leaves. What you demonstrate late becomes the masterclass. Keep one apprenticeship running, with you as either party. The last decades are for finishing the self, and you will. |
 | `domain_readings.Family` | To family you become the standing example: the elder who needs nothing and notices everything. Children and juniors learn independence from your bearing before your words. Add the words anyway. Demonstrated strength teaches, but narrated strength comforts, and they will need both after you. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, self-command becomes sealed command: help refused at the exact age it becomes wisdom. Accept one standing offer. |
 | `shadow_line` | Overloaded, the example hardens into distance: admired from across a gap nobody chose. |
 | `health_line` | Your late body answers to use: strength kept by training, stiffness earned by pride. Keep lifting lightly and asking occasionally. |
+| `domain_climb.Growth.headline` | Your growth keeps going when others stop. |
+| `domain_climb.Growth.recognition` | You take up new skills in later life with the same seriousness you brought to your first job. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You find it hard to learn beside other people, and you lose some of the help that would come from it. |
+| `domain_climb.Growth.lived` | Since your late forties you have taken up at least one serious new skill, and you have kept at it without an audience. Younger people noticed before you mentioned it, and you have been asked how you do it more than once. |
+| `domain_climb.Growth.ahead` | From your late forties you keep learning in plain view, and those younger than you copy the habit. You become their clearest example of growing older well, and you are admired for it more than anyone says. |
+| `domain_climb.Family.headline` | Your family learns independence by watching you. |
+| `domain_climb.Family.recognition` | You are the relative who manages alone and sees more than you say, and your family knows it. Because asking for help feels like losing ground, you keep your troubles to yourself until they are over. You are admired by the younger people in your family, and you are harder for them to reach than you know. |
+| `domain_climb.Family.lived` | Since your late forties your family has seen you handle your own affairs, the paperwork and the repairs and the bad weeks alike. You turned down offers of help more than once, and a younger relative learned to stop offering. |
+| `domain_climb.Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, take their idea of independence from you. You teach them most by example, and you find that the few words you add mean more to them than you expect. |

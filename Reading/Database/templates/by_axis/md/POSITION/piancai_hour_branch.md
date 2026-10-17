@@ -23,8 +23,8 @@
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
-| `defline` | Opportunity lives inside your Hour Gate: your harvest arrives from many fields, some you forgot planting. |
-| `reading` | This position rules Family and Wealth, and it works in the root of your late years. The Horizon lives inside your Hour Gate: your late chapters keep a wide door, travel, ventures, younger company, family scattered across distances and gathered in bursts. Money in the last era stays in motion, and so do you, which is precisely how your luck prefers it. Children and heirs inherit your range, and possibly your restlessness. Fund the gatherings: they are the family’s true estate. Stillness is the only real risk on this root. Keep one journey always half-planned. |
+| `defline` | The Horizon lives inside your Hour Gate: underneath your later years runs a wish to keep moving and keep meeting people. |
+| `reading` | You want your later life in motion, with plans on the calendar and people arriving from far away. Because new places and new company keep you lively, a quiet year weighs on you more than a busy one. After your late forties your family spreads out and comes together in bursts, and the younger ones carry some of your restlessness. You visit everyone and settle with almost no one, and you count the gatherings as your real wealth. |
 | `teaser` | Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion. |
 | `domain_readings.Family` | Your late family scatters and gathers: children across distances, reunions in bursts, love maintained by journeys and full tables. Fund the gatherings without apology. They are the family’s true estate, and you were always going to be their patron. |
 | `domain_readings.Wealth` | Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the motion scatters the center: everywhere visited, nowhere kept. Name a home base and defend its calendar. |
 | `shadow_line` | Overloaded, circulation replaces connection: many visits, few arrivals. |
 | `health_line` | Movement is your late medicine: the body stays young in transit and stiffens in storage. Walk far, fly occasionally, sit least. |
+| `domain_climb.Family.headline` | Your family spreads wide and gathers in bursts. |
+| `domain_climb.Family.recognition` | You love your family best when everyone is together for a few loud days, and you plan those days months early. Because distance has never felt like loss to you, long gaps between visits pass without worry. You give the people close to you many short visits and few long stays. |
+| `domain_climb.Family.lived` | Since your late forties your family has spread out, with children or younger relatives living far from you and from each other. You have become the one who brings them together, and your best days in these years have been reunions. |
+| `domain_climb.Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, settle in different places and keep you travelling to see them. You become the reason they meet, and you find the gatherings worth more to you than anything you could buy them. |
+| `domain_climb.Wealth.headline` | Your later money keeps moving, and so do you. |
+| `domain_climb.Wealth.recognition` | You keep money in motion, in a late venture or a trip or help for someone younger with a plan. Because an untouched account feels wasted to you, you spend on movement and company before you think of reserves. Your savings grow slowly because so much of your money is always on its way somewhere. |
+| `domain_climb.Wealth.lived` | Since your late forties your money has gone out as fast as it came in, into travel, new projects and the plans of younger people. You have earned well from at least one late venture, and you have spent most of it on getting people together. |
+| `domain_climb.Wealth.ahead` | From your late forties new chances to earn keep reaching you, through younger people or through a move. Your money stays lively in these years, and you sleep best when one part of it never moves. |

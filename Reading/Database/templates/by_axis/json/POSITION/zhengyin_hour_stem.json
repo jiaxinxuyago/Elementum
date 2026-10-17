@@ -20,8 +20,8 @@
       "Growth",
       "Mind"
     ],
-    "defline": "Care stands at your Hour Gate: what you show the future is teaching, given freely.",
-    "reading": "This position rules Family, Growth, and Mind, and it shapes how your story ends. The Sage stands at your Hour Gate, visible in the last chapters: you end as the elder people consult, knowledge kept warm and given away. Children and students carry your teaching further than your name, which is the better vehicle anyway. Late growth comes through giving the learning form, classes, letters, a shelf of notes that outlives you. Protect the young deliberately, the way someone once protected you. History keeps the shelter you build. It is the one estate that never probates.",
+    "defline": "The Sage stands at your Hour Gate, in plain view: in later life you are seen as the one who teaches and protects.",
+    "reading": "Your later years make you the elder people come to for advice and for shelter. Because care and knowledge are what you have to give, you pass them on freely, to younger people who carry them further than your name will travel. Much of your growth in these years comes from teaching, writing things down or showing someone how. You are consulted more often than you are held, and you feel that gap on quiet evenings.",
     "teaser": "You will end as the elder people consult: knowledge kept warm and given away. Teach deliberately, because your protection of others is what history keeps.",
     "domain_readings": {
       "Family": "You end as the family’s consulted elder: knowledge kept warm and given away, protection extended to the third generation. Children and students carry your teaching further than your name. Teach deliberately in the last decades. History keeps the shelter you build.",
@@ -33,6 +33,63 @@
     "turn_catalyst": "Run thin, the teaching stays oral: wisdom given, form ungiven. Write the notes this year. The shelf is the succession plan.",
     "turn_friction": "Run heavy, the giving empties the giver: everyone sheltered except you. Accept protection from the protected. They have been offering.",
     "shadow_line": "Overloaded, the elder becomes the archive: consulted often, embraced rarely.",
-    "health_line": "Your late vitality flows from usefulness and rest in equal measure: teach mornings, nap afternoons, and the constitution carries you far past the tables."
-  }
+    "health_line": "Your late vitality flows from usefulness and rest in equal measure: teach mornings, nap afternoons, and the constitution carries you far past the tables.",
+    "domain_climb": {
+      "Family": {
+        "headline": "You become the elder your family turns to.",
+        "recognition": "When your family needs advice or a calm word in a bad week, you are the one they call. Because protecting the young matters to you deeply, you step in early when someone younger is struggling, and you give more than you are asked for. You are respected at family gatherings more than you are relaxed at them.",
+        "lived": "Since your late forties younger members of your family have come to you with their problems, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again.",
+        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, look to you for guidance and protection. You give it steadily in these years, and what you teach them goes on in their lives long after the lesson."
+      },
+      "Growth": {
+        "headline": "You grow in later life by teaching.",
+        "recognition": "Passing on what you know is how you grow now, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find a new purpose in being useful to people who are just starting.",
+        "lived": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
+        "ahead": "From your late forties your growth comes through giving your knowledge a lasting form, a course or a set of notes or a body of advice. You see it outlast your own involvement, and you take quiet pride in that."
+      },
+      "Mind": {
+        "headline": "Your mind stays sharp because others keep asking.",
+        "recognition": "You keep your thinking in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. Your mind goes dull only when nobody calls.",
+        "lived": "Since your late forties your mind has stayed active through other people's questions, the advice asked for and the problems brought to you. You have read more in later life than in your busiest working years, and you remember most of it.",
+        "ahead": "From your late forties your mind holds its clarity because it stays in use, sharing what it knows with younger people. You are quoted and asked for in these years, and you feel most yourself when someone brings you a hard question."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "Care stands at your Hour Gate: what you show the future is teaching, given freely."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Family, Growth, and Mind, and it shapes how your story ends. The Sage stands at your Hour Gate, visible in the last chapters: you end as the elder people consult, knowledge kept warm and given away. Children and students carry your teaching further than your name, which is the better vehicle anyway. Late growth comes through giving the learning form, classes, letters, a shelf of notes that outlives you. Protect the young deliberately, the way someone once protected you. History keeps the shelter you build. It is the one estate that never probates."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-5.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

@@ -23,8 +23,8 @@
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Growth · Social |
-| `defline` | Order holds your chart’s strongest seat: your prime is an office held with honor. |
-| `reading` | This position rules Career, Growth, and Social, and it holds the deep seat of your prime. The Magistrate lives inside your Month Gate: the frame of your working life is duty done properly, and your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles, and the titles stay. People organize around your steadiness, which is influence dressed as reliability. The deep cost is elasticity: the frame can hold you as much as it holds you up. Renegotiate the role every few years on purpose. Structure serves best when it is reviewed. |
+| `defline` | The Magistrate holds your strongest seat, inside your Month Gate: your working years are built on duty done properly. |
+| `reading` | You feel most yourself when you have a clear role and do it well, and your working years are shaped around that need. Because steady reliability earns trust, your responsibilities grow year by year inside the places you join. The frame that supports you also holds you in, and your freedom shrinks as your rank grows. Your influence comes from being dependable, and it is greater than it looks. |
 | `teaser` | Your prime is built for responsibility: the frame of your working life is duty done properly. Titles find you midlife, and they tend to stick. |
 | `domain_readings.Career` | Duty done properly is the frame of your working life: your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles that stay. The deep cost is elasticity. Renegotiate your role every few years on purpose. Structure serves best reviewed. |
 | `domain_readings.Growth` | You grow inside frameworks and outgrow them on schedule: each structure teaches, then confines, then hands you to the next. Honor the rhythm. The promotion beyond a frame is also a form of loyalty to it. Climb without guilt. |
@@ -35,3 +35,12 @@
 | `turn_friction` | Run heavy, the institution becomes the identity: the badge outranking the man. Spend one weekend monthly as nobody’s title. |
 | `shadow_line` | Overloaded, the frame holds you more than up: security renamed confinement. |
 | `health_line` | Your health runs on office rhythm: regular hours suit you biologically. Guard the weekends from the weekdays, and both improve. |
+| `domain_climb.Career.headline` | Your career grows steadily inside a structure. |
+| `domain_climb.Career.recognition` | You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a proper title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly. |
+| `domain_climb.Career.lived` | Since your late teens your career has moved up in steady steps, a promotion earned or a responsibility added each time you proved yourself. Your seniors noticed your reliability early, and you were trusted with more than your age suggested. |
+| `domain_climb.Growth.headline` | You grow by moving from one structure to the next. |
+| `domain_climb.Growth.recognition` | You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move. |
+| `domain_climb.Growth.lived` | From your late teens you grew through formal steps, a qualification finished or a rank reached or a role handed over to you. Each structure you joined shaped you for a few years, and you outgrew most of them on time. |
+| `domain_climb.Social.headline` | People rely on you to keep things steady. |
+| `domain_climb.Social.recognition` | You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone credits you for. |
+| `domain_climb.Social.lived` | Since your late teens your friendships have grown out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You became the steady one in every group you joined, and some of those bonds have lasted well beyond the job. |

@@ -1,0 +1,749 @@
+# `domain_climb`  ·  by-variable comparison
+
+> **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
+>
+> GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.
+
+## POSITION (×57)
+
+### The Twin at the Year Gate · 比肩在年干
+
+| Field | Value |
+|---|---|
+| `Social.headline` | Your friends are equals, or they are not friends. |
+| `Social.recognition` | You keep a few equals close and everyone else at a friendly distance. Because you seem to need nothing, you attract people as capable as you are, and the ones who want support look elsewhere. Your circle is small and sturdy, and you feel its gaps more than you admit. |
+| `Social.lived` | As a child your friends were your equals, children who competed with you and stood up for you in turn. By your teens the friendships that lasted were the level ones, and you dropped the rest without a fuss. |
+| `Family.headline` | You are the relative who never needs rescuing. |
+| `Family.recognition` | You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, never when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness. |
+| `Family.lived` | In your first home an older relative made a point of standing on their own, and you copied it before you understood it. By your teens you had stopped asking for help, and the adults around you praised you for it. |
+
+### The Twin inside the Year Gate · 比肩在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You grew up level with the people around you. |
+| `Family.recognition` | You treat your family as equals, present and practical and never fussy. Because closeness when you were small came from standing side by side, you show tenderness late and mostly through what you do. You are the relative everyone counts on, and you rarely tell them what you feel. |
+| `Family.lived` | In your first home a sibling or a cousin stood beside you as an equal, and the two of you looked after each other. By your teens you were trusted to handle things alone, and you seldom asked an adult for help. |
+| `Growth.headline` | You grow from trusting yourself first. |
+| `Growth.recognition` | Every skill you have began with deciding that you could do it. Because you learned early to depend on yourself, nobody can push you into learning, and you take to a teacher only once you have chosen them. Your progress speeds up whenever you let someone learn alongside you, and you let few people that close. |
+| `Growth.lived` | When you were small you taught yourself things the adults around you had not shown you, and you kept quiet about how hard it was. By your teens you had a stubborn way of learning, on your own terms and at your own pace. |
+
+### The Twin at the Month Gate · 比肩在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You do your best work as nobody's junior. |
+| `Career.recognition` | You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end. |
+| `Career.lived` | Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work. |
+| `Social.headline` | Your friends are your equals, or they drift. |
+| `Social.recognition` | You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years. |
+| `Social.lived` | Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear. |
+
+### The Twin inside the Month Gate · 比肩在月支
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You work best when the whole job is yours. |
+| `Career.recognition` | You take a task from start to finish and want your name on the result. Because your sense of worth comes from your own output, you lose energy fast in any job where freedom exists only on paper. Your output rises with every piece of real freedom you get, and a manager who checks in daily costs you more than a lower salary would. |
+| `Career.lived` | From your late teens you chose work you could own outright, even when a shared role paid better. At least once you left a job because the freedom it promised turned out to be for show, and you have not regretted it. |
+| `Growth.headline` | Your skills are yours, and nobody can take them. |
+| `Growth.recognition` | You grow by mastering things fully, until the skill belongs to you and nobody else. Because you trust only what you have built yourself, you keep going alone long after a teacher would have helped. Your progress is fastest the moment someone you respect works beside you, and you put that moment off. |
+| `Growth.lived` | Since your late teens you have taught yourself most of what you know, often the slow way. More than once you hit a long flat stretch that ended only when you finally learned from someone better, and you remember each of those people. |
+
+### The Twin inside the Day Gate · 比肩在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You love best as an equal, or not at all. |
+| `Love.recognition` | You fall for people with their own opinions and their own plans, and you lose interest in anyone who needs you to lead. Because a matched partner makes you feel safe, you argue as an equal and keep count of who gave way last. You find it harder to be carried by a partner, even for a day, than to win any argument. |
+| `Love.lived` | The partners who have mattered to you so far were strong-willed people with lives of their own, never ones who leaned. More than once a good relationship of yours turned into a contest over small things, and you kept the score as carefully as they did. |
+| `Love.ahead` | From your mid-thirties love settles into a partnership between two people who each run their own lives. Over these years the tally between you grows shorter, and you find you can lean on a partner without feeling smaller. |
+| `Social.headline` | Your friends are shared, few and loyal. |
+| `Social.recognition` | Your closest friends are the ones you and a partner both respect, other couples and old friends who treat your home as a unit. Because respect is the only thing that keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle, and every person in it has earned their place. |
+| `Social.lived` | So far your friendships have been between equals, people who never needed you to rescue them. The friends who wanted looking after drifted away, and you let them go without much regret. |
+| `Social.ahead` | From your mid-thirties your circle becomes a shared one, friends who know the two of you as a pair. You spend these years with fewer people than before, and you trust each of them more. |
+
+### The Twin at the Hour Gate · 比肩在时干
+
+| Field | Value |
+|---|---|
+| `Growth.headline` | Your growth keeps going when others stop. |
+| `Growth.recognition` | You take up new skills in later life with the same seriousness you brought to your first job. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You find it hard to learn beside other people, and you lose some of the help that would come from it. |
+| `Growth.lived` | Since your late forties you have taken up at least one serious new skill, and you have kept at it without an audience. Younger people noticed before you mentioned it, and you have been asked how you do it more than once. |
+| `Growth.ahead` | From your late forties you keep learning in plain view, and those younger than you copy the habit. You become their clearest example of growing older well, and you are admired for it more than anyone says. |
+| `Family.headline` | Your family learns independence by watching you. |
+| `Family.recognition` | You are the relative who manages alone and sees more than you say, and your family knows it. Because asking for help feels like losing ground, you keep your troubles to yourself until they are over. You are admired by the younger people in your family, and you are harder for them to reach than you know. |
+| `Family.lived` | Since your late forties your family has seen you handle your own affairs, the paperwork and the repairs and the bad weeks alike. You turned down offers of help more than once, and a younger relative learned to stop offering. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, take their idea of independence from you. You teach them most by example, and you find that the few words you add mean more to them than you expect. |
+
+### The Twin inside the Hour Gate · 比肩在时支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your late family is chosen as much as born. |
+| `Family.recognition` | You treat the younger people in your family as equals, and you want their argument more than their care. Because being looked down on is the one thing you cannot bear, you hide a hard week from anyone young enough to fuss. Your family stays close in a level way, and you miss some of the softness it never offers. |
+| `Family.lived` | Since your late forties your family has come to include people you chose, old friends with a key and younger relatives who treat you as their match. You have kept that circle small on purpose, and you have seen less of relatives who treated you as fragile. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, grow into equals who stand beside you. You end these years with a smaller family than most people have, and you are prouder of it than of anything you own. |
+| `Growth.headline` | You keep growing through the few who match you. |
+| `Growth.recognition` | You grow in later life through two or three people who push you as hard as you push yourself. Because you learn only from someone you respect, you ignore advice from anyone who treats you as old. Your progress is slower without that small company, and you notice it within weeks. |
+| `Growth.lived` | Since your late forties you have learned most from a few equals, a friend or a colleague who never let you coast. Whenever you worked alone for long, your progress stalled, and you came back to them each time. |
+| `Growth.ahead` | From your late forties your growth comes through company, long talks and shared work with people who expect a great deal of you. You stay sharper in these years than most people your age, and you owe it to the few who keep you honest. |
+
+### The Rival at the Year Gate · 劫财在年干
+
+| Field | Value |
+|---|---|
+| `Wealth.headline` | Money moved fast around you from the start. |
+| `Wealth.recognition` | You spend quickly and generously, and money that comes in through friends or luck goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives. |
+| `Wealth.lived` | As a child you watched money arrive and vanish in your family, a good year followed by a hard one. By your teens you had your own share of that nerve, and you spent what you had almost as soon as you had it. |
+| `Social.headline` | People take to you quickly, and in numbers. |
+| `Social.recognition` | You make friends fast, and a new group accepts you within an evening. Because charm was your family's way with people, you collect many allies and only a few who would stay through trouble. You know the difference between the two, and you feel it most in a hard year when the crowd thins. |
+| `Social.lived` | As a child you were popular with other children and with adults, and you were invited everywhere. By your teens you had a wide circle and one or two close friends who mattered far more, and you knew which were which. |
+
+### The Rival inside the Year Gate · 劫财在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You grew up sharing everything with family. |
+| `Family.recognition` | You treat family as people with a natural claim on your time, your space and your money. Because sharing was how your first home held together, refusing a relative feels like disloyalty to you. You give without fuss, and you resent it quietly when the giving is taken for granted. |
+| `Family.lived` | In your first home the money and the clothes and the space were all shared, and a sibling or cousin was never far from what was yours. By your teens you could give without being asked and could tell exactly who had taken what. |
+| `Wealth.headline` | You give money easily and keep track of it. |
+| `Wealth.recognition` | You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your savings grow slowly while your family's claims stay open, and you feel both generous and short. |
+| `Wealth.lived` | As a child you saw money borrowed and lent around the family without anything being written down. By your teens you had already given away more than you could spare, and you had learned which relatives paid you back. |
+
+### The Rival at the Month Gate · 劫财在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You rise fastest where the score is public. |
+| `Career.recognition` | You come alive in work that ranks people openly, commissions and targets and anything with a clear winner. Because you need proof that you are winning, a vague team goal leaves you flat and restless. You unsettle quieter colleagues without meaning to, and you do your best work where nobody minds. |
+| `Career.lived` | Since your late teens your best jobs have been the ones with a clear score, sales figures or rankings or a promotion race. You have left at least one shared project because the prize was never clearly divided, and you have done better alone since. |
+| `Social.headline` | Your circle is full of rivals you respect. |
+| `Social.recognition` | Most of your friends come from work, and many of them started as people you competed against. Because you respect anyone who can beat you, your closest bond at work is with a former rival. You lose friends over contests more easily than most people, and you keep the ones who competed fairly. |
+| `Social.lived` | From your late teens you have made friends through competition, in teams and offices and courses where everyone was ranked. More than once a friendship ended when you won, and you have kept the rival who took a loss well. |
+
+### The Rival inside the Month Gate · 劫财在月支
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You work best with something real at stake. |
+| `Career.recognition` | You are at your sharpest in jobs with clear stakes, sales or ventures or anything where the score is public. Because you need to feel the risk to feel awake, you move first and sort out the rest afterwards. Your bold moves pay best beside a colleague who checks the details, and you have little patience for the checking yourself. |
+| `Career.lived` | Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have never once wished for a duller job. |
+| `Wealth.headline` | Your money comes in bursts, and leaves with friends. |
+| `Wealth.recognition` | Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. Your savings stay thin through the good years as well as the lean ones, and you feel it most after a win. |
+| `Wealth.lived` | From your late teens your income has come in surges, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it. |
+| `Social.headline` | Your friends and your work are the same circle. |
+| `Social.recognition` | Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because your confidence is catching, others join your plans quickly. You find the warmth real on both sides, and you also lose money and friendships when a shared plan goes wrong. |
+| `Social.lived` | Since your late teens your closest friends have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money. |
+
+### The Rival inside the Day Gate · 劫财在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You fall for people who push back. |
+| `Love.recognition` | You fall for partners with a temper, an opinion and plans of their own. Because being challenged is how you know you matter to someone, a calm and agreeable partner bores you within months. You keep loving through the arguments, and you count a quiet week as a sign that something has gone wrong. |
+| `Love.lived` | The people you have loved so far were strong-willed and hard to predict, and none of them let you win easily. More than once a relationship of yours ran hot and loud for years, and you stayed because it never bored you. |
+| `Love.ahead` | From your mid-thirties you share a home with a partner as bold as you are, and the house is rarely quiet. Love in these years holds through open argument, and you find more warmth in it than in any calmer bond before. |
+| `Wealth.headline` | Your money at home is shared, and contested. |
+| `Wealth.recognition` | You treat money in a relationship as joint, and you give freely when your partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it. |
+| `Wealth.lived` | So far your money has risen and fallen with the people you lived with, generous seasons followed by tight ones. You have paid for a partner's plans more than once, and you found it easier to give than to talk about it afterwards. |
+| `Wealth.ahead` | From your mid-thirties money and love move together in your household, and the stakes on both rise. You earn well with a partner in these years, and you keep the peace at home whenever each of you holds an account of your own. |
+
+### The Rival at the Hour Gate · 劫财在时干
+
+| Field | Value |
+|---|---|
+| `Wealth.headline` | Your later money goes to the bold. |
+| `Wealth.recognition` | You back people you believe in, a younger relative's venture or a friend's new start, and you give with an open hand. Because daring is what you admire most, a confident request is hard for you to refuse. Your savings shrink in the years you give without counting, and you know which of your gifts were really losses. |
+| `Wealth.lived` | Since your late forties people have turned to you for support, younger relatives and friends with plans that needed money. You have said yes more often than you meant to, and you have seen some of it pay off and some of it disappear. |
+| `Wealth.ahead` | From your late forties the people after you, children or younger relatives or someone you train, start bringing you their plans and asking for support. You spend more on other people's ventures in these years than on your own comfort, and you are glad of most of it. |
+| `Growth.headline` | You keep growing through the daring young. |
+| `Growth.recognition` | You grow in later life by watching bold people take risks and judging their bets with an experienced eye. Because risk still interests you, mentoring someone daring keeps your own nerve sharp. You lose interest in cautious company, and you come alive around anyone young enough to try something foolish. |
+| `Growth.lived` | Since your late forties your learning has come through other people's ventures, the plans you advised on and the risks you watched up close. You have grown sharper each time a younger person asked for your judgement, and you have enjoyed being asked. |
+| `Growth.ahead` | From your late forties you grow by staying involved, advising and backing people who are still at the start. These years keep your mind quick, and you end them with more nerve than most people half your age. |
+
+### The Rival inside the Hour Gate · 劫财在时支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family grows louder, and dearer, with age. |
+| `Family.recognition` | You are pulled toward the strong-willed people in your family, the ones who push back and want their share. Because you respect whoever stands up to you, you give most to whoever argues hardest, and the quieter ones get less of you. You love a full and noisy table more than a calm one. |
+| `Family.lived` | Since your late forties your family has grown louder, with younger people who want your time, your backing and your money. You have given more than you meant to, and you would do most of it again. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys. |
+| `Wealth.headline` | Your later money will always have company. |
+| `Wealth.recognition` | You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks. |
+| `Wealth.lived` | Since your late forties more people have had a claim on your money, children or younger relatives or someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance. |
+| `Wealth.ahead` | From your late forties the people after you, children or younger relatives or someone you train, will start to make claims on your money. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks. |
+
+### The Artisan inside the Year Gate · 食神在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You were fed well, and you became the one who feeds. |
+| `Family.recognition` | You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it. |
+| `Family.lived` | Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside. |
+| `Health.headline` | Your body trusts food and rest to put it right. |
+| `Health.recognition` | You trust your body to fix itself with a good meal and a long sleep, and for most of your life it has. Because comfort is how you recover, you reach for it under stress, and you turn the extra helping or the lost weekend into a habit before you notice. Your body asks you for rhythm more than for effort. |
+| `Health.lived` | You were a child who recovered quickly, from colds and falls and bad days alike. Your appetite and your sleep were steady, and you came into adulthood with more reserve than most of the people around you. |
+
+### The Horizon at the Year Gate · 偏财在年干
+
+| Field | Value |
+|---|---|
+| `Wealth.headline` | You learned early that money is for moving. |
+| `Wealth.recognition` | You spend on people and chances easily, and a good opening excites you more than a full account. Because money in your first home came and went in plain sight, you feel calm with risks that frighten more careful people. What you lack is a store kept apart from your generosity, and you know it. |
+| `Wealth.lived` | As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance and very little saved, and both habits stayed. |
+| `Family.headline` | Your family taught you generosity, and its price. |
+| `Family.recognition` | You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that open hands make people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later. |
+| `Family.lived` | An older relative in your first home, a father or someone who stood in for one, spent widely and drew people around them. By your teens you had learned both the warmth of that generosity and what it cost the household. |
+
+### The Horizon inside the Year Gate · 偏财在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family holds together across distance. |
+| `Family.recognition` | You keep close ties with relatives who live far away, and you are the one who calls first. Because distance was ordinary when you were growing up, a long absence never feels to you like a break in love. You are the link between relatives who would otherwise lose touch. |
+| `Family.lived` | As a child you heard about a relative who had moved away, or you moved yourself and learned to make friends quickly. By your teens your family stretched across more than one place, and you felt at home in each of them. |
+| `Wealth.headline` | Your luck with money improves the further you go. |
+| `Wealth.recognition` | You find your best chances away from home, in a new city or an unfamiliar market or among strangers. Because familiar places feel small to you, you look outward for money before you look nearby. You earn far from home and feel safe only once the money is back in one place. |
+| `Wealth.lived` | By your teens you had seen that money in your family came through moving, a relative working away or a business that travelled. The first money you made yourself came from beyond your own neighbourhood, and you liked how that felt. |
+
+### The Horizon at the Month Gate · 偏财在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You are paid for spotting the chance others miss. |
+| `Career.recognition` | You do your best work wherever there is something to find, a client or a deal or a gap in the market. Because the search keeps you sharp, a fixed salary and a quiet desk wear you down faster than hard work. You are the colleague people come to first when they need a way in. |
+| `Career.lived` | Since your late teens your best career moves have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up. |
+| `Wealth.headline` | Your money arrives in windfalls and leaves through friends. |
+| `Wealth.recognition` | You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust the next chance to arrive, you spend and lend freely between windfalls. Your money leaves as easily as it arrives, and you notice only when a quiet season comes. |
+| `Wealth.lived` | Since your late teens you have had good years and thin ones, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before keeping any of it. |
+| `Social.headline` | You know someone for every need. |
+| `Social.recognition` | You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact. |
+| `Social.lived` | Since your late teens most of your friendships have started through work, a deal or an introduction or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life. |
+
+### The Horizon inside the Month Gate · 偏财在月支
+
+| Field | Value |
+|---|---|
+| `Career.headline` | Your work pays for reading where things are going. |
+| `Career.recognition` | You are drawn to work where timing matters, buying and selling or finding things before others notice them. Because you read change early, a job where nothing moves bores you, and you leave it sooner than you planned. In any role you end up as the person who sees what is coming next. |
+| `Career.lived` | Since your late teens your work has gone best where you could spot a trend early, in sales or trading or finding the right people. More than once you have left a steady job because it gave your instinct nothing to do. |
+| `Wealth.headline` | Your money comes in strong seasons and quiet ones. |
+| `Wealth.recognition` | You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each lucky stretch than after it. |
+| `Wealth.lived` | Since your late teens your income has risen and fallen in turns, with good runs and lean months. At least once you have lost the gains of a good year by chasing a better one, and you have learned the shape of your own luck. |
+
+### The Horizon inside the Day Gate · 偏财在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You fall for people who widen your life. |
+| `Love.recognition` | You fall for people who widen your life, the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out. |
+| `Love.lived` | The people you have fallen for so far each came with a world attached, a circle of friends or a plan to move or a family that took you in. More than once you have stayed a little longer for the life around someone than for the person. |
+| `Love.ahead` | Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together. |
+| `Social.headline` | Your friends come with plans. |
+| `Social.recognition` | You collect friends who are going somewhere, the ones with a trip planned and a contact for everything. Because range is what draws you, you lose touch with friends whose lives stay small, and you feel guilty about it only later. You know a great many people, and you let only a few of them close. |
+| `Social.lived` | Most of your friendships so far started with an introduction or an invitation, someone who brought you into their circle. You have kept some of those circles longer than you kept the people who brought you in. |
+| `Social.ahead` | From your mid-thirties your circle widens through a partner's world, through their friends and their family and their work. You will meet the people who shape your next twenty years through someone you share a home with. |
+| `Wealth.headline` | Your money comes through the people close to you. |
+| `Wealth.recognition` | You find money through other people, in a tip from a friend or a side venture with someone close. Because your openings arrive through people you trust, you say yes before you read the terms, and you earn in bursts more than in a steady line. The money you make fastest is the money you hold on to least. |
+| `Wealth.lived` | Your best money moments so far came through someone else, a tip or a job offer or a deal brought to you by a friend. You lost money the same way, by saying yes before you had read the terms. |
+| `Wealth.ahead` | From your mid-thirties your income starts to rise through the life you share with a partner, through a joint venture, a move or an opening from their side. You will earn more in these years than in all the years before, and you keep only what has both names written down. |
+
+### The Horizon at the Hour Gate · 偏财在时干
+
+| Field | Value |
+|---|---|
+| `Wealth.headline` | Your money finds new openings late in life. |
+| `Wealth.recognition` | You notice a chance to earn where others see an ending, a late venture or a deal offered by someone younger. Because new money excites you more than kept money, you give generously and write down too little of it. Your plans live in your head far longer than they live on paper. |
+| `Wealth.lived` | Since your late forties money has reached you through new ventures and unexpected offers, at least once from a direction you had stopped watching. You have given a good share of it away, more than once without noting to whom. |
+| `Wealth.ahead` | From your late forties chances to earn keep arriving, through new projects and through people a generation younger who want you involved. You give a great deal in these years, and your affairs stay clear only where you have put the details in writing. |
+| `Growth.headline` | You keep starting new things when others stop. |
+| `Growth.recognition` | You grow by entering fields you know nothing about, at an age when most people stick to what they know. Because being a beginner keeps you awake and curious, a life that only repeats itself bores you within months. You surprise the people around you with how many times you begin again. |
+| `Growth.lived` | Since your late forties you have taken up at least one new field, a subject or a trade or a kind of work nobody expected from you. Younger company has kept you learning in those years, and you have looked less settled than people your age. |
+| `Growth.ahead` | From your late forties you keep learning in public, through new work and through friendships with people much younger than you. You grow more curious with each decade, and you are the one in your family with the newest stories. |
+
+### The Horizon inside the Hour Gate · 偏财在时支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family spreads wide and gathers in bursts. |
+| `Family.recognition` | You love your family best when everyone is together for a few loud days, and you plan those days months early. Because distance has never felt like loss to you, long gaps between visits pass without worry. You give the people close to you many short visits and few long stays. |
+| `Family.lived` | Since your late forties your family has spread out, with children or younger relatives living far from you and from each other. You have become the one who brings them together, and your best days in these years have been reunions. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, settle in different places and keep you travelling to see them. You become the reason they meet, and you find the gatherings worth more to you than anything you could buy them. |
+| `Wealth.headline` | Your later money keeps moving, and so do you. |
+| `Wealth.recognition` | You keep money in motion, in a late venture or a trip or help for someone younger with a plan. Because an untouched account feels wasted to you, you spend on movement and company before you think of reserves. Your savings grow slowly because so much of your money is always on its way somewhere. |
+| `Wealth.lived` | Since your late forties your money has gone out as fast as it came in, into travel, new projects and the plans of younger people. You have earned well from at least one late venture, and you have spent most of it on getting people together. |
+| `Wealth.ahead` | From your late forties new chances to earn keep reaching you, through younger people or through a move. Your money stays lively in these years, and you sleep best when one part of it never moves. |
+
+### The Steward at the Year Gate · 正财在年干
+
+| Field | Value |
+|---|---|
+| `Wealth.headline` | You learned the value of money early. |
+| `Wealth.recognition` | You spend with a list and save before anyone asks you to, and money that sits unplanned makes you uneasy. Because order around money felt like safety from your first years, you lose more sleep over a careless purchase than it ever cost you. You are slower to enjoy what you have than to keep it. |
+| `Wealth.lived` | You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent. |
+| `Family.headline` | You grew up in a careful, orderly home. |
+| `Family.recognition` | You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no. |
+| `Family.lived` | Someone in your first home kept the household running on plans and promises kept, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones. |
+
+### The Steward inside the Year Gate · 正财在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family keeps its promises, and so do you. |
+| `Family.recognition` | You rely on your family more than on friends, because help between you has always come back when it was needed. Since your first home kept careful accounts, you keep track of what is owed between relatives without saying so. You give help readily, and you feel uneasy until a debt is settled. |
+| `Family.lived` | As a child you knew that money at home was handled carefully and that promises about it were kept. By your teens you counted your own money and kept your own promises the way the household did. |
+| `Wealth.headline` | Your money grows quietly from early habits. |
+| `Wealth.recognition` | You save without thinking about it, a little from everything, and spending without a reason feels wrong to you. Because careful habits were normal in your first home, you build wealth slowly and steadily, and few people notice until it is large. You enjoy keeping money more than spending it, and a big purchase stays on your mind for weeks. |
+| `Wealth.lived` | By your teens you were already saving, keeping coins or small earnings longer than your friends did. You learned as a child that money kept quietly was money that stayed, and you have kept that habit. |
+
+### The Steward at the Month Gate · 正财在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You are the one trusted with the books. |
+| `Career.recognition` | You are given charge of money and order wherever you work, and things run better near your desk. Because reliability is what you offer, you accept extra tasks without asking for more pay or a promotion. You carry more of the work than your title shows, and your colleagues lean on it. |
+| `Career.lived` | Since your late teens you have been handed responsibility early, a budget or a set of keys or a team's accounts. Your promotions have come steadily, each one a little later than your work deserved. |
+| `Wealth.headline` | Your money arrives on time and keeps arriving. |
+| `Wealth.recognition` | You earn a regular income and build on it month by month, with raises won through steady work. Because predictability makes you feel safe, you distrust any money that comes too easily. Your wealth grows in a straight line, and you prefer it that way. |
+| `Wealth.lived` | Since your late teens your income has risen steadily, without big jumps and without big falls. You have kept to your own plan while friends chased quick gains, and most of them now have less than you. |
+
+### The Steward inside the Month Gate · 正财在月支
+
+| Field | Value |
+|---|---|
+| `Career.headline` | Your career grows slowly and keeps growing. |
+| `Career.recognition` | You do your best work in a job you can stay in and get better at, with clear tasks and fair pay. Because you value what you can explain and defend, you distrust shortcuts and the people who take them. You are underrated in the early years of any role, and you outlast most of the people who underrated you. |
+| `Career.lived` | Since your late teens your working life has moved forward one step at a time, with each job adding a skill you kept. More than once you have overtaken people who started faster than you. |
+| `Wealth.headline` | Your savings grow quietly, year after year. |
+| `Wealth.recognition` | You save a part of everything you earn, and a steady rise in your accounts pleases you more than any windfall. Because security is what you are working for, you avoid risks that would make you rich quickly. Your caution keeps you safe, and you feel a good year as relief more than as joy. |
+| `Wealth.lived` | Since your late teens you have put money aside even in lean months, and your savings have grown more than people expected. You have turned down at least one exciting offer because it asked too much risk. |
+
+### The Steward inside the Day Gate · 正财在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You love someone by looking after them. |
+| `Love.recognition` | You show love through practical care, a meal ready or a problem fixed before your partner mentions it. Because reliability is what made you feel loved, you trust a partner who keeps small promises more than one who makes big ones. You let romance fade when the duties fill every evening. |
+| `Love.lived` | So far the partners who have lasted with you have been the steady ones, people who turned up on time and kept their word. You have lost interest in at least one exciting person who could not manage an ordinary week. |
+| `Love.ahead` | From your mid-thirties your partnership becomes the most reliable thing in your life, built on shared accounts and a home kept well. You find these years warmest when pleasure keeps its place beside the chores, and you notice quickly when it slips. |
+| `Family.headline` | Your home runs well, and everyone leans on it. |
+| `Family.recognition` | You keep your household running, the cupboards full and the bills paid before they are due. Because a well kept home is how you show love, you feel uneasy when things at home are left undone. Your family feels safe without knowing how much you do, and you rarely tell them. |
+| `Family.lived` | So far you have been the one who keeps the home in order, wherever you have lived. Your family and friends have turned to your household in hard weeks, and you have always made space for them. |
+| `Family.ahead` | From your mid-thirties your home becomes the steady point for your whole family, the place relatives come to when life is hard. You give these years to keeping it well, and the order you keep outlasts every crisis that passes through. |
+
+### The Steward at the Hour Gate · 正财在时干
+
+| Field | Value |
+|---|---|
+| `Wealth.headline` | Your money gets steadier every decade. |
+| `Wealth.recognition` | You plan for the long run even when the present is messy, and a small regular saving pleases you more than a big win. Because security matters more to you than excitement, you judge a year by what you kept rather than what you earned. You are building something slowly, and you know it. |
+| `Wealth.lived` | Since your late forties your accounts have settled, the debts cleared and the savings finally visible. You became the one in your family with enough, and you have quietly paid for more than you mention. |
+| `Wealth.ahead` | Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough. |
+| `Family.headline` | You end up as the one who provides. |
+| `Family.recognition` | You show love for the people who rely on you by making sure they are covered. Because provision is how you say what matters, you are more comfortable paying for something than talking about it. You want everyone who comes after you to be safe, and you plan for it years early. |
+| `Family.lived` | Since your late forties you have become your family's provider, the one who covers the gaps and makes the arrangements. You have said more with money than with words, and some of it has gone unheard. |
+| `Family.ahead` | From your late forties your family leans on what you have built, and you give it calmly. You become the relative everyone trusts with arrangements, and you will find yourself saying out loud some of what your money already says. |
+
+### The Steward inside the Hour Gate · 正财在时支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family rests on what you quietly arrange. |
+| `Family.recognition` | You look after your family through arrangements, the bills covered and the plans made for whoever needs them. Because care for you means provision, you say almost nothing about what you have arranged. Your family sees the comfort and rarely the work behind it, and you prefer it that way. |
+| `Family.lived` | Since your late forties you have been the one who keeps your family covered, with help ready before anyone asks. You have taught children or younger relatives or someone you trained to be careful with money, mostly by example. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud. |
+| `Health.headline` | Your body does best on steady upkeep. |
+| `Health.recognition` | You look after your body the way you look after your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early. |
+| `Health.lived` | Since your late forties your energy has held steady because you kept your sleep and your meals in order. You have aged more gently than people who pushed hard and rested little. |
+| `Health.ahead` | From your late forties your body repays the care you keep giving it, with steady energy and good sleep. You age slowly in these years, and you feel the benefit of every ordinary habit. |
+| `Wealth.headline` | Your money ends up settled and secure. |
+| `Wealth.recognition` | You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use. |
+| `Wealth.lived` | Since your late forties your finances have settled, with reserves kept and your household untouched by hard times around you. You have spent more on others than on your own comfort in that time. |
+| `Wealth.ahead` | From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it. |
+
+### The General at the Year Gate · 七杀在年干
+
+| Field | Value |
+|---|---|
+| `Social.headline` | People respect you first and like you second. |
+| `Social.recognition` | You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back. |
+| `Social.lived` | As a child you were the one others looked to in a fight or a dare, and you did not back down easily. By your teens your friends were either as tough as you or kept at a distance, and you learned diplomacy slowly. |
+| `Career.headline` | Authority found you early and kept finding you. |
+| `Career.recognition` | You end up in charge in most places you work, often before you ask for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months. |
+| `Career.lived` | By your teens you were already given responsibility beyond your age, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends. |
+
+### The General inside the Year Gate · 七杀在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You carried more at home than anyone knew. |
+| `Family.recognition` | At home you protect your family closely, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. Your family relies on your strength, and few of them know what it cost you to build. |
+| `Family.lived` | As a child you carried a weight in your first home that few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself. |
+| `Growth.headline` | Hard times have always made you grow. |
+| `Growth.recognition` | You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you take on hard projects by choice and feel restless without one. Your best progress comes in the seasons other people would call the worst. |
+| `Growth.lived` | By your teens you had already learned to rise to a challenge, in school or at home or in a sport. Each hard year left you more capable than before, and you came to trust difficulty more than ease. |
+| `Health.headline` | Your body is strong and holds its strain. |
+| `Health.recognition` | Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it settles as stiffness in your back and shoulders. You recover well once you finally rest, and you rarely rest early enough. |
+| `Health.lived` | As a child you were tough and slow to complain, and you rarely let anyone see you tired. By your teens you were already holding tension in your shoulders, and you got through hard weeks on reserves most children did not need. |
+
+### The General at the Month Gate · 七杀在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | Your career rises fastest where the stakes are highest. |
+| `Career.recognition` | You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers trust you with more than your title says, and the load keeps growing. You earn rank through pressure, and you rarely get a quiet week. |
+| `Career.lived` | Since your late teens your reputation at work has grown out of hard moments, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week. |
+| `Social.headline` | Your friends are people who have earned it. |
+| `Social.recognition` | You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, casual company bores you and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years. |
+| `Social.lived` | From your late teens your closest friends have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed. |
+
+### The General inside the Month Gate · 七杀在月支
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You do your best work under real pressure. |
+| `Career.recognition` | You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest. |
+| `Career.lived` | Since your late teens your progress at work has come through crises, the deadline nobody could meet or the team that was falling apart. Each hard stretch left you more trusted than before, and you have rarely chosen the comfortable post. |
+| `Health.headline` | Your body carries the cost of your pace. |
+| `Health.recognition` | You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep and a sore back as if they were part of the job. Your energy is deep, and you spend it faster than you replace it. |
+| `Health.lived` | Since your late teens your body has kept up with demands that would have stopped most people. More than once a hard season ended with you worn out for weeks, and you came back stronger each time you gave yourself real rest. |
+
+### The General inside the Day Gate · 七杀在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You love people strong enough to push back. |
+| `Love.recognition` | You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you. |
+| `Love.lived` | So far the people you have loved have each been hard to move, with strong opinions and no wish to bend. At least once a relationship has worn you down through constant argument, and you stayed in it longer because the fight felt like closeness. |
+| `Love.ahead` | From your mid-thirties love asks more of you, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task. |
+| `Health.headline` | Your body carries whatever strain your home holds. |
+| `Health.recognition` | Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain settles in your shoulders and your appetite. Your strength comes back quickly once the house is calm again. |
+| `Health.lived` | So far your hardest seasons at home have also been your most tired ones, with broken sleep and a stiff back. Each time a quarrel ended, you got your energy back faster than you expected. |
+| `Health.ahead` | From your mid-thirties your body becomes the clearest record of how your home is going. You are stronger in these years than in your twenties whenever the house is at peace, and every long quarrel costs you rest. |
+
+### The General at the Hour Gate · 七杀在时干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | Your authority keeps growing after others retire. |
+| `Career.recognition` | You stay in demand late, the one called when a problem is too hard for anyone else. Because pressure is where you feel useful, you take on serious responsibility at an age when most people step back. What you find hardest is a calendar with nothing urgent in it, and you fill it fast. |
+| `Career.lived` | Since your late forties you have been asked to lead in the hard moments, on boards or in crises or in work nobody else would take on. You turned down at least one easy exit because the demanding role kept you sharp. |
+| `Career.ahead` | From your late forties your working life carries more weight, with senior roles and serious decisions that people trust you to make. You stay active in work well past the usual age, and you are consulted long after others have stopped being asked. |
+| `Growth.headline` | You grow by using your strength with more care. |
+| `Growth.recognition` | In later life you change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. Your growth now comes from restraint, and you are wiser than you were in your thirties. |
+| `Growth.lived` | Since your late forties you have learned to get results with less pressure, and you have made fewer enemies along the way. You started to guide younger people through hard work, and teaching them restraint has taught you more than any role. |
+| `Growth.ahead` | From your late forties your growth comes through teaching, as you pass on how to handle pressure to people who are just starting. You become calmer and more exact with age, and you win more by doing less. |
+| `Family.headline` | Your family measures itself against your standards. |
+| `Family.recognition` | You hold the people in your family to high standards, and you correct before you praise. Because you were made strong by demands, you believe demands are a form of care, and the people close to you feel the weight before the care. Your family respects you deeply, and some of them are a little afraid of you. |
+| `Family.lived` | Since your late forties the people after you, children or younger relatives or someone you train, have measured themselves against you. They took your standards seriously, and you saw at least once that a sharp word from you stayed with them for years. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, carry your standards into their own lives. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give. |
+
+### The General inside the Hour Gate · 七杀在时支
+
+| Field | Value |
+|---|---|
+| `Health.headline` | Your body stays strong on routine. |
+| `Health.recognition` | You treat your body as something to keep in working order, with a fixed hour to rise and a daily walk or workout. Because strength is part of how you see yourself, you ignore stiffness and tiredness until they slow you down. Your energy is at its best when the week has a shape. |
+| `Health.lived` | Since your late forties your body has answered regular effort quickly, and your strength has come back each time you returned to a routine. Each setback came through pride, and you paid for pushing through tiredness in your back or shoulders. |
+| `Health.ahead` | From your late forties your health depends more on routine than on luck, and a steady week keeps you fitter than people half your age. Formless days drain you and ordered ones restore you, and you feel the difference within a week. |
+| `Family.headline` | Your family feels your protection first. |
+| `Family.recognition` | You look after your family by making sure they are safe, the arrangements firm and the risks dealt with before anyone else sees them. Because care for you means strength, you find it easier to fix a problem than to say a tender thing. Your family knows they are covered, and they wait longer to hear that they are loved. |
+| `Family.lived` | Since your late forties the people after you, children or younger relatives or someone you train, have leaned on your strength in hard moments. You gave them firm help sooner than warmth, and the warmth they did get from you counted for a great deal. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, come to you first when things go wrong. You give them safety without being asked, and you find in these years that saying the kind thing out loud is easier than it used to be. |
+| `Growth.headline` | You keep growing by setting yourself hard tasks. |
+| `Growth.recognition` | In later life you grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work. |
+| `Growth.lived` | Since your late forties you have taken on at least one new discipline, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless. |
+| `Growth.ahead` | From your late forties you grow through challenges you choose yourself, and each one makes you sharper and steadier. Your strength lasts longer than most people's because you keep using it, and you learn slowly to count rest as part of the work. |
+
+### The Magistrate at the Year Gate · 正官在年干
+
+| Field | Value |
+|---|---|
+| `Social.headline` | People trust you before they know you. |
+| `Social.recognition` | New people give you their trust quickly, and you are offered responsibility in a group before you have earned it. Because a good name was part of your upbringing, you behave in public with care, and you dislike being seen at your worst. Your standing is a real advantage, and you guard it more closely than you need to. |
+| `Social.lived` | As a child you were trusted by teachers and neighbours, partly because of the family you came from. By your teens you were the one picked to lead or to represent the group, and you felt the weight of behaving well. |
+| `Family.headline` | You come from a family that kept its standards. |
+| `Family.recognition` | You hold your family's name with pride and some strain, and its standards still shape what you allow yourself. Because what the family stood for was visible to others, you feel its expectations most in public. You honour the values you were given, and you quietly drop the rules that never made sense. |
+| `Family.lived` | In your first home there were clear rules and an older relative who held everyone to them. By your teens you knew exactly what the family expected of you, and you met most of it while keeping a few doubts to yourself. |
+
+### The Magistrate inside the Year Gate · 正官在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You absorbed your family's rules early. |
+| `Family.recognition` | The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull long after you have left home. |
+| `Family.lived` | As a child you knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly. |
+| `Growth.headline` | You grow best inside a clear structure. |
+| `Growth.recognition` | You grow by finishing what you start, the course completed and the level passed and the standard met. Because structure is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. Your progress is steady, and you climb further than people who started faster. |
+| `Growth.lived` | By your teens you had a record of steady progress, school years finished well and responsibilities taken on early. Teachers and older relatives trusted you, and you came to measure your growth by the steps you completed. |
+
+### The Magistrate at the Month Gate · 正官在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | Your record earns you rank. |
+| `Career.recognition` | You climb at work through trust, the clean record and the job done the way it should be. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record. |
+| `Career.lived` | Since your late teens you have been promoted by people who trusted you early, a manager or a mentor who put your name forward. Your references have opened doors for you more than once, and you have rarely had to ask for a step up. |
+| `Social.headline` | Everyone trusts you with the responsible job. |
+| `Social.recognition` | Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, and you have less time for fun than the people who lean on you. |
+| `Social.lived` | From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. At least once that role cost you a weekend or a holiday you had planned for yourself, and you gave it up without complaint. |
+
+### The Magistrate inside the Month Gate · 正官在月支
+
+| Field | Value |
+|---|---|
+| `Career.headline` | Your career grows steadily inside a structure. |
+| `Career.recognition` | You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a proper title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly. |
+| `Career.lived` | Since your late teens your career has moved up in steady steps, a promotion earned or a responsibility added each time you proved yourself. Your seniors noticed your reliability early, and you were trusted with more than your age suggested. |
+| `Growth.headline` | You grow by moving from one structure to the next. |
+| `Growth.recognition` | You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move. |
+| `Growth.lived` | From your late teens you grew through formal steps, a qualification finished or a rank reached or a role handed over to you. Each structure you joined shaped you for a few years, and you outgrew most of them on time. |
+| `Social.headline` | People rely on you to keep things steady. |
+| `Social.recognition` | You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone credits you for. |
+| `Social.lived` | Since your late teens your friendships have grown out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You became the steady one in every group you joined, and some of those bonds have lasted well beyond the job. |
+
+### The Magistrate inside the Day Gate · 正官在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You love with promises, and you keep them. |
+| `Love.recognition` | You are drawn to partners with clear values, people who keep their word and expect you to keep yours. Because reliability is what love means to you, you trust slowly and commit fully, and you find casual romance empty. What you want is a partner you can count on for life, and you give the same in return. |
+| `Love.lived` | So far the relationships that mattered to you have been serious from early on, with plans made and promises kept. At least once you stayed loyal to a commitment after the feeling had faded, and you were slow to admit it. |
+| `Love.ahead` | From your mid-thirties love settles into something formal and lasting, a shared home and a shared name for what you are. You grow closer to a partner through the small rituals you keep together, and you find the warmth that duty alone never gave you. |
+| `Family.headline` | Your home runs on kept promises. |
+| `Family.recognition` | You run your household on clear duties and fair rules, and the people in it know what to expect. Because order is how you protect the people you love, you notice a broken promise at home faster than a kind word. Your family feels secure with you, and some of them wish you were less strict. |
+| `Family.lived` | So far your family life has been built on structure, regular meals and shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who keeps its promises when others forgot. |
+| `Family.ahead` | From your mid-thirties your home becomes the steady centre of your family, the place relatives turn to and point to. You add more warmth to its order in these years, and you find that a correct house can also be an easy one to live in. |
+
+### The Magistrate at the Hour Gate · 正官在时干
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family takes its standards from you. |
+| `Family.recognition` | You set a clear example for your family, and you notice when someone falls short of it. Because you care about doing things properly, you correct before you praise, and the people close to you remember both. Your approval matters more to them than you realise, and you give it less than they need. |
+| `Family.lived` | Since your late forties the people after you, children or younger relatives or someone you train, have watched how you conduct yourself and copied more than you knew. More than once a word of your approval stayed with one of them for years, and you heard about it only later. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, treat you as the one whose opinion settles things. You praise more freely in these years, and they grow steadier for it. |
+| `Social.headline` | Your reputation keeps rising with age. |
+| `Social.recognition` | You are the person people ask to chair the meeting or hold the keys or settle the dispute. Because you take duty seriously, you say yes to roles others avoid, and your circle trusts you more each year. Your friendships carry a little formality, and you find it hard to let others see you off duty. |
+| `Social.lived` | Since your late forties your name has carried weight in your circle, and you have been asked to lead groups you once simply belonged to. You gained respect that outlasted any title, and you found yourself consulted on matters well outside your old work. |
+| `Social.ahead` | From your late forties your community keeps giving you positions of trust, a committee or a board or a role as the steady voice. You are honoured more in these years than in your working prime, and you choose carefully which causes get your name. |
+| `Career.headline` | Your later working life moves toward leadership. |
+| `Career.recognition` | You are drawn in later life to work that keeps an organisation sound, the overseeing and the guiding more than the doing. Because you respect structure, you would rather look after something lasting than start something new. Your value at work now lies in judgement, and you are trusted with decisions others will not make. |
+| `Career.lived` | Since your late forties your work has shifted toward oversight, a seat on a board or a senior post or a role guiding the people below you. You were trusted with the running of things you once only served, and you handled it with care. |
+| `Career.ahead` | From your late forties you move into roles that govern more than they produce, and your judgement becomes your main asset. You end your working life on a high standard, and the respect you earn lasts longer than any post you hold. |
+
+### The Magistrate inside the Hour Gate · 正官在时支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family trusts your word completely. |
+| `Family.recognition` | You look after your family by keeping everything in order, the papers sorted and the promises kept. Because reliability is how you express love, you are more at ease arranging things for people than talking about feelings. Your family depends on that order, and they know less of your heart than of your plans. |
+| `Family.lived` | Since your late forties the people after you, children or younger relatives or someone you train, have relied on your word without checking it. You have settled matters for them quietly and in good time, and few of them have seen how much you handled. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you. |
+| `Growth.headline` | You grow later by refining what you value. |
+| `Growth.recognition` | In later life you grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you have little interest in reinventing yourself, and change in you shows up as care and patience. Your progress is quiet, and it is easy for others to miss. |
+| `Growth.lived` | Since your late forties your growth has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did. |
+| `Growth.ahead` | From your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example. |
+
+### The Alchemist at the Year Gate · 偏印在年干
+
+| Field | Value |
+|---|---|
+| `Mind.headline` | Your mind has always worked at an angle. |
+| `Mind.recognition` | You come at problems from an unexpected direction, and people notice the answer before they understand the route. Because your mind took its own path from the start, you get bored by the obvious approach and drift toward the strange one. Your way of thinking is the first thing people remember about you. |
+| `Mind.lived` | As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both. |
+| `Social.headline` | You choose a small circle and keep it close. |
+| `Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. You find parties tiring and long talks restoring. |
+| `Social.lived` | As a child you stood at the edge of groups for a long time, and other children took a while to warm to you. By your teens you had one or two close friends who understood you, and you needed nobody else. |
+
+### The Alchemist inside the Year Gate · 偏印在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You were loved at home in an unusual way. |
+| `Family.recognition` | You show love to your family through ideas and help with problems more than through warmth on the surface. Because the care you got early was quiet and odd, you trust a relative who understands you more than one who hugs you, and you feel lonely at noisy gatherings. You come home as the quiet one, and your relatives have stopped trying to change that. |
+| `Family.lived` | In your first home someone gave you books, questions or long silences in place of the usual fuss, an older relative or a parent who lived in their own head. By your teens you had learned to look after your own mind, and you rarely asked anyone for help. |
+| `Mind.headline` | You taught yourself most of what you know. |
+| `Mind.recognition` | You learn best alone, from books and odd sources and your own testing, at a pace no class has ever matched. Because nobody handed you a set path, you trust the understanding you dig out yourself, and you forget what you were simply told. You know a great deal that you have never shown anyone. |
+| `Mind.lived` | As a child you read past whatever you were set and wandered into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you told almost no one. |
+| `Growth.headline` | Your growth comes through the unusual teacher. |
+| `Growth.recognition` | You grow fastest through unusual people and unplanned turns, the odd teacher or the subject you stumbled on. Because the standard routes never fitted how you learn, you find them dull and leave them early. You grow in your own order, and others notice only when it is done. |
+| `Growth.lived` | As a child you learned most from a person outside the usual line, a neighbour or relative with odd interests who took you seriously. By your teens you had grown in ways your family could not quite follow, and you had stopped expecting them to. |
+
+### The Alchemist at the Month Gate · 偏印在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You are hired for the problems nobody else can solve. |
+| `Career.recognition` | Colleagues come to you when a problem has stopped making sense. Because your value lies in seeing what others miss, you choose a narrow speciality over a broad ladder, and you lose interest in work anyone could do. Your reputation travels further than your title, and it travels slowly. |
+| `Career.lived` | Since your late teens you have chosen work with an odd corner to it, a niche most people around you ignored. You have been passed over at least once for someone easier to explain, and you have been called back later to fix what they could not. |
+| `Mind.headline` | Your mind is your trade, and it needs quiet. |
+| `Mind.recognition` | You think in leaps that skip the steps others need, and you arrive at answers before you can say how. Because your best insight comes in silence, open offices and constant meetings drain you faster than hard work does. You protect your quiet hours at work with more care than your free time. |
+| `Mind.lived` | From your late teens your thinking set you apart at work, quick to spot the flaw and slow to explain it. You have left more than one project half finished because the interesting part was solved, and the finishing bored you. |
+
+### The Alchemist inside the Month Gate · 偏印在月支
+
+| Field | Value |
+|---|---|
+| `Mind.headline` | Your mind runs best on what others find strange. |
+| `Mind.recognition` | You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most. |
+| `Mind.lived` | From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back. |
+| `Growth.headline` | You grow late, and mostly in private. |
+| `Growth.recognition` | You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess. |
+| `Growth.lived` | Since your late teens your growth has looked slow from the outside, years spent studying or testing or changing direction while friends settled. Most of what you can do now, you taught yourself in those years. |
+| `Career.headline` | Your work pays for what only you know. |
+| `Career.recognition` | You are the specialist people call when the usual answers fail. Because you trust knowledge you have dug out yourself, you are drawn to a narrow field the mainstream ignores, and you would rather be paid for strange work than praised for ordinary work. You earn more from the niche you choose than any ladder would pay you. |
+| `Career.lived` | Your working life so far has run underground, in jobs that looked quiet while you were building a skill nobody asked for. At least once you won a role over a better-connected person because of something strange you knew. |
+
+### The Alchemist inside the Day Gate · 偏印在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You love best with time alone built in. |
+| `Love.recognition` | You want a partner close, and you also want hours each week that belong only to you. Because you work out your feelings alone, you go quiet before a serious talk, and a partner who presses gets less of you. What you need in love is someone who waits for you to come back. |
+| `Love.lived` | So far the people you have loved have split into two kinds, those who left you alone to think and those who took your silence personally. You have stayed longest with the first kind, and the arguments you remember were mostly about time apart. |
+| `Love.ahead` | From your mid-thirties your home settles around a shared rhythm, time together and time apart agreed without a fight. You grow closer to a partner in these years by talking through what you have already thought through alone. |
+| `Mind.headline` | You think alone and speak once you are sure. |
+| `Mind.recognition` | For days you turn a problem over before you say a word about it, and you say it only once you have an answer. Because a half-formed thought feels unsafe to you, the people closest to you hear your conclusions without the reasoning. You let a partner further into your thinking than anyone, and even they see only part of it. |
+| `Mind.lived` | So far your clearest thinking has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been working on for weeks in silence. |
+| `Mind.ahead` | From your mid-thirties your thinking deepens and turns toward a single subject you have circled for years. You share more of the work in progress with a partner in these years, and the work gets better for it. |
+
+### The Alchemist at the Hour Gate · 偏印在时干
+
+| Field | Value |
+|---|---|
+| `Mind.headline` | Your mind sharpens in later life while others slow. |
+| `Mind.recognition` | You notice what others miss, and in later life you notice it faster. Because you trust pattern and instinct built over decades, you reach answers in a sentence that once took you a month, and people find that hard to follow. You rarely explain how you got there, and some people stop asking. |
+| `Mind.lived` | Since your late forties your judgement has become the thing people remark on, quick and accurate and hard to explain. You have been right more than once about something everyone else missed, and you have been thanked for it later than you liked. |
+| `Mind.ahead` | From your late forties your mind keeps sharpening while the people around you start to slow. You do some of your best thinking in these years, and it reaches further once someone younger helps you put it into words. |
+| `Growth.headline` | You keep learning what few people bother to learn. |
+| `Growth.recognition` | With each decade you go deeper into rare subjects, the overlooked field or the old method nobody teaches. Because the unusual is what holds your interest, you grow faster on your own than in any class, and you find most courses too slow. You are a student at heart, and a demanding one. |
+| `Growth.lived` | Since your late forties you have taken up at least one subject most people your age would never touch. You have gone further into it than you expected, and you have said less about it than it deserves. |
+| `Growth.ahead` | From your late forties your growth comes from mastering one rare thing completely. You put what you learn into a form others can use, a written method or a body of work, and you see it travel further than you do. |
+| `Career.headline` | Your later work is advice, and people pay for it. |
+| `Career.recognition` | In later life you move toward advisory work, the expert called in when the usual answers run out. Because people value what you alone can see, your name opens doors without a title attached, and you prefer it that way. You turn down steady roles and say yes to hard problems. |
+| `Career.lived` | Since your late forties more of your work has come to you by word of mouth, from people who heard you could solve what others could not. You have taken on at least one younger person who learned your methods closely, and you have seen them do well. |
+| `Career.ahead` | From your late forties the people after you, children or younger relatives or someone you train, seek out what you know. You become the one they consult on hard questions, and the best of them carry your methods into work you will never see. |
+
+### The Alchemist inside the Hour Gate · 偏印在时支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your later family is a few people who understand your silences. |
+| `Family.recognition` | You keep family life quiet and close, with a small number of people who know when to leave you be. Because your inner life matters more to you than a full house, you see your relatives less than they would like, and you love them no less for it. You show care by what you teach more than by what you say. |
+| `Family.lived` | Since your late forties your household has grown quieter, with fewer visits and long afternoons given to your own work. One of the younger people around you has learned to sit with your silence, and you have trusted them with more than anyone else. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, come to you for what you understand. You draw one or two of them close, and they carry your way of thinking further than you can. |
+| `Mind.headline` | Your mind gets clearer with every year. |
+| `Mind.recognition` | You spend your best hours on one subject at a time, reading and thinking until it comes clear. Because understanding is the thing you value most, you guard those hours closely, and you resent the phone call that breaks them. You are sharper at this age than people expect, and you enjoy surprising them. |
+| `Mind.lived` | Since your late forties your thinking has narrowed to the few questions that matter to you, and it has grown more exact. You have settled things that puzzled you for decades, and you have shared very little of what you found. |
+| `Mind.ahead` | From your late forties your mind keeps its edge because you use it every day, on study and quiet work of your own choosing. You turn what you know into notes or lessons for the people after you, children or younger relatives or someone you train. |
+| `Growth.headline` | You grow in later life by keeping only what matters. |
+| `Growth.recognition` | Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, your life looks smaller from outside while it gets richer inside. You care less each year about keeping up, and more about getting one thing right. |
+| `Growth.lived` | Since your late forties you have dropped the commitments that once filled your weeks, the groups and roles you took on from habit. What is left is a handful of practices you return to every day, and you have grown more through them than through anything new. |
+| `Growth.ahead` | From your late forties your growth comes from refining what you already know, until a lifetime of odd learning comes down to a few clear ideas. You pass those ideas on in plain words, and they outlast the years it took you to reach them. |
+
+### The Sage at the Year Gate · 正印在年干
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You grew up protected by someone principled. |
+| `Family.recognition` | The steady, decent care you had early is the measure you hold family to, and you notice quickly when it is missing. Because your first home gave you safety and clear values, you trust family as the place to turn first. You feel let down harder than most when a relative falls short of that standard. |
+| `Family.lived` | Someone in your first home protected you with care and clear rules, a parent or older relative who held everyone to a high standard. By your teens you had their sense of right and wrong, and people outside the family noticed it in you. |
+| `Mind.headline` | You were raised to learn, and you still do. |
+| `Mind.recognition` | You approach a new subject expecting to be taught well, and good teachers keep finding you. Because books and good teachers were part of your childhood, you learn easily inside a course or a school, and you value a qualification for its own sake. You find it harder to learn where nobody is guiding you. |
+| `Mind.lived` | As a child you had books at home and adults who answered your questions, and school came easily. By your teens a teacher or older relative had taken a special interest in you, and you worked harder because of it. |
+
+### The Sage inside the Year Gate · 正印在年支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You were truly looked after as a child. |
+| `Family.recognition` | In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You are hurt more than most when a relative lets you down, because you never expected it. |
+| `Family.lived` | Someone in your first home looked after you closely, a parent or an older relative whose calm you came to rely on. By your teens you expected the world to treat you with the same care, and mostly it did. |
+| `Growth.headline` | You grow best from a safe base. |
+| `Growth.recognition` | You take your biggest steps from a secure position, with people behind you and a home to return to. Because safety came first in your life, you learn faster when you feel held, and you stall under pressure from people you do not trust. You put off a change until the support is in place. |
+| `Growth.lived` | As a child you tried new things when someone you trusted stood close by, and you held back when nobody did. By your teens home felt so safe that leaving it seemed harder than staying, and you set off later than your friends. |
+| `Health.headline` | Your body heals well when someone looks after you. |
+| `Health.recognition` | You bounce back from tiring weeks and bad nights, and faster with someone close looking after you. Because care was what restored you from the start, you let yourself rest properly only when another person insists. Your body does well on trust, rest and good company. |
+| `Health.lived` | As a child you were looked after well whenever you were tired or run down, and you got your energy back quickly. By your teens you had a steady energy the adults around you counted on, and you have kept much of it since. |
+
+### The Sage at the Month Gate · 正印在月干
+
+| Field | Value |
+|---|---|
+| `Career.headline` | You rise at work because people trust you. |
+| `Career.recognition` | References, qualifications and the good word of people senior to you win you roles. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place. |
+| `Career.lived` | Since your late teens older people at work have backed you, vouched for you or quietly put your name forward. You have collected qualifications and references in those years that still carry weight wherever you apply, and you have needed to push less than most. |
+| `Mind.headline` | Knowledge becomes second nature to you. |
+| `Mind.recognition` | You learn by steady absorption, and what you study becomes part of how you think without effort. Because the learning feels natural to you, you forget how much of it you have, and others notice before you do. You underrate your own knowledge more than anyone around you does. |
+| `Mind.lived` | From your late teens you took in courses, books and advice from people who knew more, and kept nearly all of it. Over those years you came to know your field better than you let on, and you have rarely made a show of it. |
+| `Social.headline` | Your friends bring you their troubles. |
+| `Social.recognition` | You become the friend people confide in, the calm one who listens and gives sound advice. Because being trusted feels like a kind of care to you, you rarely say no, and your evenings fill with other people's problems. You find it hard to ask for the same help yourself. |
+| `Social.lived` | Since your late teens you have been the one friends and colleagues come to when something goes wrong. You have kept more confidences than you can count, and few people have asked how you were doing in return. |
+
+### The Sage inside the Month Gate · 正印在月支
+
+| Field | Value |
+|---|---|
+| `Mind.headline` | You learn steadily, and it never stops. |
+| `Mind.recognition` | Week by week you add to what you know, studying in a steady and patient way. Because understanding a thing fully is what makes you feel secure, you read the extra chapter and take the extra course, and you rarely feel finished. You know far more than you claim to. |
+| `Mind.lived` | From your late teens learning carried you, through courses and qualifications and the teachers who took an interest. You have stayed a student in some form ever since, and it has kept you steadier than the people around you. |
+| `Career.headline` | Your career rises on what you have studied. |
+| `Career.recognition` | You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than it should. Your standing grows slowly and holds when louder careers fall away. |
+| `Career.lived` | Since your late teens your progress at work has come through qualifications and the backing of people senior to you. At least once a senior colleague put your name forward before you felt ready, and you have proved them right. |
+| `Growth.headline` | Your growth waits on a readiness you already have. |
+| `Growth.recognition` | You grow best from a safe position, with the training done and the support in place. Because shelter feels like the right place to prepare, you stay in comfortable roles past the point they teach you anything, and you wait for one more sign that you are ready. You are readier than you feel, and you have been for a long time. |
+| `Growth.lived` | From your late teens you have grown in steady steps, each one taken only after you felt well prepared. You have stayed somewhere safe for longer than it served you at least once, and you did better than you feared once you finally moved. |
+
+### The Sage inside the Day Gate · 正印在日支
+
+| Field | Value |
+|---|---|
+| `Love.headline` | You love the person who makes you feel safe. |
+| `Love.recognition` | You fall for steadiness, the partner who turns up on time and stays calm when you are not. Because safety is what love means to you, you relax completely with the right person, and you take their care as a given. You are slow to notice how much they carry, and slower to thank them. |
+| `Love.lived` | So far the partners who mattered most were the ones who looked after you, practically and without fuss. You have left at least one exciting person for a kinder one, and you have not regretted it. |
+| `Love.ahead` | From your mid-thirties love settles into a shared life that is quiet, warm and dependable. You return the care more consciously in these years, and the partnership grows deeper because you do. |
+| `Family.headline` | Your home runs on everyday kindness. |
+| `Family.recognition` | You make your household gentle, with meals shared and voices kept low and nobody left out. Because a peaceful house is what lets you function, you smooth over arguments fast, and some of them never get settled. Your family comes to you to recover from the world, and you let them. |
+| `Family.lived` | So far your home has been the calm house in your family, the one where people come when things go wrong elsewhere. You have kept the peace there more than once at the cost of saying what you really thought. |
+| `Family.ahead` | From your mid-thirties your household becomes the place your wider family gathers, because it is the calmest one they know. You hold it together with a partner in these years, and you speak up more than you used to. |
+| `Health.headline` | Your body follows the mood of your home. |
+| `Health.recognition` | You sleep well and eat well in a settled house, and both slip the moment it turns tense. Because your body takes its cue from the people you live with, tension at home shows up in your back and shoulders before you name it. Your energy is highest in the seasons you feel most looked after. |
+| `Health.lived` | So far your health has tracked your home life closely, steady in the calm years and worn in the tense ones. You have recovered fastest from hard stretches with someone close looking after you, and slowest when you went through them alone. |
+| `Health.ahead` | From your mid-thirties a settled home gives your body a steadier rhythm, with regular meals and proper rest. You feel better in these years than you have for a long time, and you put it down to the partner beside you. |
+
+### The Sage at the Hour Gate · 正印在时干
+
+| Field | Value |
+|---|---|
+| `Family.headline` | You become the elder your family turns to. |
+| `Family.recognition` | When your family needs advice or a calm word in a bad week, you are the one they call. Because protecting the young matters to you deeply, you step in early when someone younger is struggling, and you give more than you are asked for. You are respected at family gatherings more than you are relaxed at them. |
+| `Family.lived` | Since your late forties younger members of your family have come to you with their problems, and you have taken real care over each one. At least once you have protected someone younger at a cost to yourself, and you would do it again. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, look to you for guidance and protection. You give it steadily in these years, and what you teach them goes on in their lives long after the lesson. |
+| `Growth.headline` | You grow in later life by teaching. |
+| `Growth.recognition` | Passing on what you know is how you grow now, through lessons, letters or the patient answer to a question. Because teaching makes you put your knowledge in order, you understand your own life better each time you explain it. You find a new purpose in being useful to people who are just starting. |
+| `Growth.lived` | Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before. |
+| `Growth.ahead` | From your late forties your growth comes through giving your knowledge a lasting form, a course or a set of notes or a body of advice. You see it outlast your own involvement, and you take quiet pride in that. |
+| `Mind.headline` | Your mind stays sharp because others keep asking. |
+| `Mind.recognition` | You keep your thinking in use by answering questions, reading widely and staying in touch with people who want your view. Because being consulted keeps you alert, you are sharpest in the weeks you are busiest with others. Your mind goes dull only when nobody calls. |
+| `Mind.lived` | Since your late forties your mind has stayed active through other people's questions, the advice asked for and the problems brought to you. You have read more in later life than in your busiest working years, and you remember most of it. |
+| `Mind.ahead` | From your late forties your mind holds its clarity because it stays in use, sharing what it knows with younger people. You are quoted and asked for in these years, and you feel most yourself when someone brings you a hard question. |
+
+### The Sage inside the Hour Gate · 正印在时支
+
+| Field | Value |
+|---|---|
+| `Family.headline` | Your family looks after you, and you let it. |
+| `Family.recognition` | You are cared for by younger people more than you expected, with visits and help and small kindnesses. Because you are used to being the one who gives, you wave off help you need, and it hurts the people offering. What you want from your family now is company more than help. |
+| `Family.lived` | Since your late forties the people around you have started looking after you in small ways, a lift or a meal or a phone call that comes unasked. You have found it harder to accept than to give, and you have learned to say yes more often. |
+| `Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, return the care you gave them. You become the calm centre of a close family in these years, and you take their help without keeping score. |
+| `Health.headline` | Your health in later life rests on gentle rhythm. |
+| `Health.recognition` | You stay well on regular meals, unhurried walks and early nights, and your body complains when the rhythm breaks. Because ease restores you, you are tempted to take it further than is good for you, until days with no effort leave you stiff and flat. You feel best when the week holds a little challenge. |
+| `Health.lived` | Since your late forties your sleep has come more easily and your days have found a steadier pace. You have also gone through a stretch of too much rest, and your energy came back once something asked more of you. |
+| `Health.ahead` | From your late forties your body does well on gentleness, steady habits and the company of people who look after you. You stay well for longer than people expect, and you stay strongest in the years you keep moving. |
+| `Mind.headline` | Your mind stays clear through daily habit. |
+| `Mind.recognition` | You keep your mind clear with reading, routine and conversation with people who are kind to you. Because your thinking needs calm to work, you avoid arguments and noise, and you lose some sharpness in years that are too quiet. You think best with one good question in front of you. |
+| `Mind.lived` | Since your late forties your thinking has grown calmer and steadier, held up by daily reading and talks with people you trust. You have become the one others ask for a clear view, and you have enjoyed being asked. |
+| `Mind.ahead` | From your late forties your mind stays clear because you use it gently every day. You read more and remember more of it in these years, and your judgement becomes the thing younger people around you rely on. |

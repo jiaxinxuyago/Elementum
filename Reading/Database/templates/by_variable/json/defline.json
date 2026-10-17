@@ -7,85 +7,85 @@
         "id": "bijian_year_stem",
         "key": "比肩在年干",
         "canonical_name": "The Twin at the Year Gate",
-        "value": "The Twin stands at your Year Gate: independence is the first thing your story shows, inherited and worn openly."
+        "value": "The Twin stands at your Year Gate, in plain view: your family raised you to stand on your own."
       },
       {
         "id": "bijian_year_branch",
         "key": "比肩在年支",
         "canonical_name": "The Twin inside the Year Gate",
-        "value": "The Twin lives inside your Year Gate: the root of your early world was learning to hold your own."
+        "value": "The Twin lives inside your Year Gate: underneath your early years you learned to rely on yourself."
       },
       {
         "id": "bijian_month_stem",
         "key": "比肩在月干",
         "canonical_name": "The Twin at the Month Gate",
-        "value": "The Twin stands at your Month Gate: the working world sees a colleague who carries their own weight, visibly."
+        "value": "The Twin stands at your Month Gate, in plain view: at work you are seen as the one who carries their own weight."
       },
       {
         "id": "bijian_month_branch",
         "key": "比肩在月支",
         "canonical_name": "The Twin inside the Month Gate",
-        "value": "The Twin holds your chart’s strongest seat: your prime runs on self-reliance, built into the frame itself."
+        "value": "The Twin holds your strongest seat, inside your Month Gate: your working years run on your own effort."
       },
       {
         "id": "bijian_day_branch",
         "key": "比肩在日支",
         "canonical_name": "The Twin inside the Day Gate",
-        "value": "The Twin sits in your spouse palace: you partner as an equal, and only as an equal."
+        "value": "The Twin lives inside your Day Gate, the seat of your partner: you love as an equal, and only as an equal."
       },
       {
         "id": "bijian_hour_stem",
         "key": "比肩在时干",
         "canonical_name": "The Twin at the Hour Gate",
-        "value": "The Twin stands at your Hour Gate: what you show the future is independence, taught by demonstration."
+        "value": "The Twin stands at your Hour Gate, in plain view: people see you grow old on your own terms."
       },
       {
         "id": "bijian_hour_branch",
         "key": "比肩在时支",
         "canonical_name": "The Twin inside the Hour Gate",
-        "value": "The Twin lives inside your Hour Gate: the root of your late life is company of equals, kept small and true."
+        "value": "The Twin lives inside your Hour Gate: your later years rest on a few people who treat you as their equal."
       },
       {
         "id": "jiecai_year_stem",
         "key": "劫财在年干",
         "canonical_name": "The Rival at the Year Gate",
-        "value": "This bold companion stands at your Year Gate: daring runs in the visible bloodline."
+        "value": "The Rival stands at your Year Gate, in plain view: you grew up in a bold family where money moved fast."
       },
       {
         "id": "jiecai_year_branch",
         "key": "劫财在年支",
         "canonical_name": "The Rival inside the Year Gate",
-        "value": "Inside your Year Gate sits the shared purse: early life taught you that what is yours is rarely only yours."
+        "value": "The Rival lives inside your Year Gate: in your first home almost everything was shared, and almost everything was claimed."
       },
       {
         "id": "jiecai_month_stem",
         "key": "劫财在月干",
         "canonical_name": "The Rival at the Month Gate",
-        "value": "At your Month Gate stands the daring colleague: the working world sees your nerve first."
+        "value": "The Rival stands at your Month Gate, in plain view: at work people see your nerve before anything else."
       },
       {
         "id": "jiecai_month_branch",
         "key": "劫财在月支",
         "canonical_name": "The Rival inside the Month Gate",
-        "value": "Inside your Month Gate runs the gambler’s current: your prime years are built for bold, shared ventures."
+        "value": "The Rival holds your strongest seat, inside your Month Gate: your working years are built on risk and on people who share it."
       },
       {
         "id": "jiecai_day_branch",
         "key": "劫财在日支",
         "canonical_name": "The Rival inside the Day Gate",
-        "value": "In your spouse palace lives the fellow gambler: love, for you, is a joint venture with real stakes."
+        "value": "The Rival lives inside your Day Gate, the seat of your partner: your love life carries real stakes, in money and in pride."
       },
       {
         "id": "jiecai_hour_stem",
         "key": "劫财在时干",
         "canonical_name": "The Rival at the Hour Gate",
-        "value": "At your Hour Gate stands the risk-taker: your later ambitions stay bold, and visibly so."
+        "value": "The Rival stands at your Hour Gate, in plain view: in later life people see your nerve and ask you to back them."
       },
       {
         "id": "jiecai_hour_branch",
         "key": "劫财在时支",
         "canonical_name": "The Rival inside the Hour Gate",
-        "value": "Inside your Hour Gate sits the shared harvest: what you build late in life is built with others."
+        "value": "The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend."
       },
       {
         "id": "shishen_year_stem",
@@ -97,7 +97,7 @@
         "id": "shishen_year_branch",
         "key": "食神在年支",
         "canonical_name": "The Artisan inside the Year Gate",
-        "value": "The Artisan lives inside your Year Gate: the root of your early world was nourishment, given and remembered."
+        "value": "The Artisan lives inside your Year Gate: underneath your early years were comfort and care, given freely."
       },
       {
         "id": "shishen_month_stem",
@@ -175,253 +175,253 @@
         "id": "piancai_year_stem",
         "key": "偏财在年干",
         "canonical_name": "The Horizon at the Year Gate",
-        "value": "Opportunity stands at your Year Gate: fortune’s door was visible from your first address."
+        "value": "The Horizon stands at your Year Gate, in plain view: your first home spent openly on people and on chances."
       },
       {
         "id": "piancai_year_branch",
         "key": "偏财在年支",
         "canonical_name": "The Horizon inside the Year Gate",
-        "value": "Opportunity lives inside your Year Gate: your root memory of providing runs wide, not deep."
+        "value": "The Horizon lives inside your Year Gate: underneath your settled surface sits a pull toward somewhere else, carried down your family."
       },
       {
         "id": "piancai_month_stem",
         "key": "偏财在月干",
         "canonical_name": "The Horizon at the Month Gate",
-        "value": "Opportunity stands at your Month Gate: the working world sees the dealmaker, already reaching."
+        "value": "The Horizon stands at your Month Gate, in plain view: at work you are known as the one who spots the opening first."
       },
       {
         "id": "piancai_month_branch",
         "key": "偏财在月支",
         "canonical_name": "The Horizon inside the Month Gate",
-        "value": "Opportunity holds your chart’s strongest seat: your prime is a marketplace, and you own a stall."
+        "value": "The Horizon lives inside your Month Gate: under your working years runs a quiet sense of where value is about to move."
       },
       {
         "id": "piancai_day_branch",
         "key": "偏财在日支",
         "canonical_name": "The Horizon inside the Day Gate",
-        "value": "Opportunity sits in your spouse palace: your intimate life keeps a horizon in it."
+        "value": "The Horizon lives inside your Day Gate, the seat of your partner: your private life always has an opening in it."
       },
       {
         "id": "piancai_hour_stem",
         "key": "偏财在时干",
         "canonical_name": "The Horizon at the Hour Gate",
-        "value": "Opportunity stands at your Hour Gate: your later years keep a venture warm and a bag half packed."
+        "value": "The Horizon stands at your Hour Gate, in plain view: people see your later years as busy with new chances and new ventures."
       },
       {
         "id": "piancai_hour_branch",
         "key": "偏财在时支",
         "canonical_name": "The Horizon inside the Hour Gate",
-        "value": "Opportunity lives inside your Hour Gate: your harvest arrives from many fields, some you forgot planting."
+        "value": "The Horizon lives inside your Hour Gate: underneath your later years runs a wish to keep moving and keep meeting people."
       },
       {
         "id": "zhengcai_year_stem",
         "key": "正财在年干",
         "canonical_name": "The Steward at the Year Gate",
-        "value": "The Steward stands at your Year Gate: prudence is the family trait your story shows first."
+        "value": "The Steward stands at your Year Gate, in plain view: your first home ran on care, counting and things kept."
       },
       {
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
         "canonical_name": "The Steward inside the Year Gate",
-        "value": "The Steward lives inside your Year Gate: your root is a kept house, and it keeps you still."
+        "value": "The Steward lives inside your Year Gate: underneath your first years lay a careful home where nothing was wasted."
       },
       {
         "id": "zhengcai_month_stem",
         "key": "正财在月干",
         "canonical_name": "The Steward at the Month Gate",
-        "value": "The Steward stands at your Month Gate: the working world sees the safe pair of hands."
+        "value": "The Steward stands at your Month Gate, in plain view: at work you are known as the one trusted with the money."
       },
       {
         "id": "zhengcai_month_branch",
         "key": "正财在月支",
         "canonical_name": "The Steward inside the Month Gate",
-        "value": "The Steward holds your chart’s strongest seat: your prime compounds, brick by deliberate brick."
+        "value": "The Steward lives inside your Month Gate: your working years rest on steady effort and money you have plainly earned."
       },
       {
         "id": "zhengcai_day_branch",
         "key": "正财在日支",
         "canonical_name": "The Steward inside the Day Gate",
-        "value": "The Steward sits in your spouse palace: you love in deposits, steadily, for keeps."
+        "value": "The Steward lives inside your Day Gate, the seat of your partner: your private life is built on steady, practical care."
       },
       {
         "id": "zhengcai_hour_stem",
         "key": "正财在时干",
         "canonical_name": "The Steward at the Hour Gate",
-        "value": "The Steward stands at your Hour Gate: what you show the future is order, provided for."
+        "value": "The Steward stands at your Hour Gate, in plain view: your later life is ordered and well provided for."
       },
       {
         "id": "zhengcai_hour_branch",
         "key": "正财在时支",
         "canonical_name": "The Steward inside the Hour Gate",
-        "value": "The Steward lives inside your Hour Gate: your harvest is everything you maintained, still standing."
+        "value": "The Steward lives inside your Hour Gate: underneath your later years sits a quiet habit of keeping everything provided for."
       },
       {
         "id": "qisha_year_stem",
         "key": "七杀在年干",
         "canonical_name": "The General at the Year Gate",
-        "value": "The General stands at your Year Gate: the world’s first read of you is force."
+        "value": "The General stands at your Year Gate, in plain view: from childhood people saw you as someone strong under pressure."
       },
       {
         "id": "qisha_year_branch",
         "key": "七杀在年支",
         "canonical_name": "The General inside the Year Gate",
-        "value": "The General lives inside your Year Gate: your root was forged, not furnished."
+        "value": "The General lives inside your Year Gate: underneath your early years was a weight you carried quietly."
       },
       {
         "id": "qisha_month_stem",
         "key": "七杀在月干",
         "canonical_name": "The General at the Month Gate",
-        "value": "The General stands at your Month Gate: the working world sees command presence and expects orders."
+        "value": "The General stands at your Month Gate, in plain view: at work people see someone who can handle pressure."
       },
       {
         "id": "qisha_month_branch",
         "key": "七杀在月支",
         "canonical_name": "The General inside the Month Gate",
-        "value": "The General holds your chart’s strongest seat: your prime is a campaign, won by discipline."
+        "value": "The General holds your strongest seat, inside your Month Gate: your working years run on pressure you choose for yourself."
       },
       {
         "id": "qisha_day_branch",
         "key": "七杀在日支",
         "canonical_name": "The General inside the Day Gate",
-        "value": "The General sits in your spouse palace: love, for you, has a chain of command to dismantle."
+        "value": "The General lives inside your Day Gate, the seat of your partner: your closest bond runs on force and pressure."
       },
       {
         "id": "qisha_hour_stem",
         "key": "七杀在时干",
         "canonical_name": "The General at the Hour Gate",
-        "value": "The General stands at your Hour Gate: your later years keep rank, and the young feel it."
+        "value": "The General stands at your Hour Gate, in plain view: in later life people see your authority before your warmth."
       },
       {
         "id": "qisha_hour_branch",
         "key": "七杀在时支",
         "canonical_name": "The General inside the Hour Gate",
-        "value": "The General lives inside your Hour Gate: the root of your harvest is strength, held to the last."
+        "value": "The General lives inside your Hour Gate: your later years keep a private discipline that never quite stops."
       },
       {
         "id": "zhengguan_year_stem",
         "key": "正官在年干",
         "canonical_name": "The Magistrate at the Year Gate",
-        "value": "Order stands at your Year Gate: respectability is the first thing your story shows."
+        "value": "The Magistrate stands at your Year Gate, in plain view: you come from a family whose good name others could see."
       },
       {
         "id": "zhengguan_year_branch",
         "key": "正官在年支",
         "canonical_name": "The Magistrate inside the Year Gate",
-        "value": "Order lives inside your Year Gate: your root is a rulebook, learned before you could read it."
+        "value": "The Magistrate lives inside your Year Gate: underneath your early years was a quiet order you absorbed as a child."
       },
       {
         "id": "zhengguan_month_stem",
         "key": "正官在月干",
         "canonical_name": "The Magistrate at the Month Gate",
-        "value": "Order stands at your Month Gate: the working world sees an officer, promotable on sight."
+        "value": "The Magistrate stands at your Month Gate, in plain view: at work people see someone reliable and ready for promotion."
       },
       {
         "id": "zhengguan_month_branch",
         "key": "正官在月支",
         "canonical_name": "The Magistrate inside the Month Gate",
-        "value": "Order holds your chart’s strongest seat: your prime is an office held with honor."
+        "value": "The Magistrate holds your strongest seat, inside your Month Gate: your working years are built on duty done properly."
       },
       {
         "id": "zhengguan_day_branch",
         "key": "正官在日支",
         "canonical_name": "The Magistrate inside the Day Gate",
-        "value": "Order sits in your spouse palace: you love formally, faithfully, and for the record."
+        "value": "The Magistrate lives inside your Day Gate, the seat of your partner: you love seriously, with promises meant to last."
       },
       {
         "id": "zhengguan_hour_stem",
         "key": "正官在时干",
         "canonical_name": "The Magistrate at the Hour Gate",
-        "value": "Order stands at your Hour Gate: what you show the future is standards, upheld to the end."
+        "value": "The Magistrate stands at your Hour Gate, in plain view: in later life your standing and your standards are what people see."
       },
       {
         "id": "zhengguan_hour_branch",
         "key": "正官在时支",
         "canonical_name": "The Magistrate inside the Hour Gate",
-        "value": "Order lives inside your Hour Gate: the root of your harvest is a life that kept its word."
+        "value": "The Magistrate lives inside your Hour Gate: your later years rest on a quiet sense of duty done well."
       },
       {
         "id": "pianyin_year_stem",
         "key": "偏印在年干",
         "canonical_name": "The Alchemist at the Year Gate",
-        "value": "The Alchemist stands at your Year Gate: the world’s first read of you is depth, slightly apart."
+        "value": "The Alchemist stands at your Year Gate, in plain view: as a child you were seen as watchful, deep and a little apart."
       },
       {
         "id": "pianyin_year_branch",
         "key": "偏印在年支",
         "canonical_name": "The Alchemist inside the Year Gate",
-        "value": "The Alchemist lives inside your Year Gate: your root drinks from an odd, deep well."
+        "value": "The Alchemist lives inside your Year Gate: underneath your childhood was care that came in unusual forms."
       },
       {
         "id": "pianyin_month_stem",
         "key": "偏印在月干",
         "canonical_name": "The Alchemist at the Month Gate",
-        "value": "The Alchemist stands at your Month Gate: the working world sees the specialist it does not quite understand."
+        "value": "The Alchemist stands at your Month Gate, in plain view: at work you are known as the specialist nobody quite understands."
       },
       {
         "id": "pianyin_month_branch",
         "key": "偏印在月支",
         "canonical_name": "The Alchemist inside the Month Gate",
-        "value": "The Alchemist holds your chart’s strongest seat, the month branch, and does its thinking from the middle of your working life."
+        "value": "The Alchemist holds your strongest seat, inside your Month Gate: your working years run on thinking done in private."
       },
       {
         "id": "pianyin_day_branch",
         "key": "偏印在日支",
         "canonical_name": "The Alchemist inside the Day Gate",
-        "value": "The Alchemist sits in your spouse palace: intimacy, for you, begins where small talk dies."
+        "value": "The Alchemist lives inside your Day Gate, the seat of your partner: your closest life keeps a quiet corner of its own."
       },
       {
         "id": "pianyin_hour_stem",
         "key": "偏印在时干",
         "canonical_name": "The Alchemist at the Hour Gate",
-        "value": "The Alchemist stands at your Hour Gate: your later output turns inward, and finer."
+        "value": "The Alchemist stands at your Hour Gate, in plain view: in later life people come to you for what few others know."
       },
       {
         "id": "pianyin_hour_branch",
         "key": "偏印在时支",
         "canonical_name": "The Alchemist inside the Hour Gate",
-        "value": "The Alchemist lives inside your Hour Gate: the root of your harvest is understanding, finally ripe."
+        "value": "The Alchemist lives inside your Hour Gate: your later years turn inward, toward study and a quiet you choose."
       },
       {
         "id": "zhengyin_year_stem",
         "key": "正印在年干",
         "canonical_name": "The Sage at the Year Gate",
-        "value": "Care stands at your Year Gate: the first thing your story shows is that you were well held."
+        "value": "The Sage stands at your Year Gate, in plain view: your childhood showed the world that you were well protected."
       },
       {
         "id": "zhengyin_year_branch",
         "key": "正印在年支",
         "canonical_name": "The Sage inside the Year Gate",
-        "value": "Care lives inside your Year Gate: your root is shelter itself, deep and possibly too warm."
+        "value": "The Sage lives inside your Year Gate: underneath your childhood was real care, steady enough to trust."
       },
       {
         "id": "zhengyin_month_stem",
         "key": "正印在月干",
         "canonical_name": "The Sage at the Month Gate",
-        "value": "Care stands at your Month Gate: the working world sees the teacher, and brings it students."
+        "value": "The Sage stands at your Month Gate, in plain view: at work you are seen as the calm one who knows things."
       },
       {
         "id": "zhengyin_month_branch",
         "key": "正印在月支",
         "canonical_name": "The Sage inside the Month Gate",
-        "value": "Care holds your chart’s strongest seat: your prime is built on learning that never stops arriving."
+        "value": "The Sage holds your strongest seat, inside your Month Gate: your working years are carried by steady learning."
       },
       {
         "id": "zhengyin_day_branch",
         "key": "正印在日支",
         "canonical_name": "The Sage inside the Day Gate",
-        "value": "Care sits in your spouse palace: home, for you, must be a harbor before it is anything else."
+        "value": "The Sage lives inside your Day Gate, the seat of your partner: your closest life is built around shelter and care."
       },
       {
         "id": "zhengyin_hour_stem",
         "key": "正印在时干",
         "canonical_name": "The Sage at the Hour Gate",
-        "value": "Care stands at your Hour Gate: what you show the future is teaching, given freely."
+        "value": "The Sage stands at your Hour Gate, in plain view: in later life you are seen as the one who teaches and protects."
       },
       {
         "id": "zhengyin_hour_branch",
         "key": "正印在时支",
         "canonical_name": "The Sage inside the Hour Gate",
-        "value": "Care lives inside your Hour Gate: the root of your harvest is peace, tended into permanence."
+        "value": "The Sage lives inside your Hour Gate: underneath your later years is a quiet store of care, given back."
       }
     ],
     "CONDITION": [

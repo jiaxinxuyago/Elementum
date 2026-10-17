@@ -20,8 +20,8 @@
       "Social",
       "Career"
     ],
-    "defline": "Order stands at your Hour Gate: what you show the future is standards, upheld to the end.",
-    "reading": "This position rules Family, Social, and Career, and it shapes how your story ends. The Magistrate stands at your Hour Gate, visible in the last chapters: your standing grows with age, honors late, respect that outlives the job. Children and juniors measure themselves against your standards, quietly and for decades, so praise them before you correct them and the measuring becomes love. Your late career leans toward governance, boards, and the keeping of institutions you once merely served. The name you leave will be trusted, which is rarer than being missed. Endings are your specialty. Make yours exemplary.",
+    "defline": "The Magistrate stands at your Hour Gate, in plain view: in later life your standing and your standards are what people see.",
+    "reading": "Your standing grows with age, and people go on asking for your judgement long after a job has ended. Because doing things properly is how you earn your place, you take on roles of trust in later life and fill them with care. Younger people measure themselves against your example, and the measuring is quiet and lasting. Your name becomes one that others trust, and you leave it in good order.",
     "teaser": "Your standing grows with age: honors late, respect that outlives the job. Children measure themselves against your standards, so praise them before you correct them.",
     "domain_readings": {
       "Family": "Children and juniors measure themselves against your standards, quietly and for decades: praise them before you correct them and the measuring becomes love. Your late family holds you as its reference point. Be a warm one. The standard they inherit should include kindness to themselves.",
@@ -33,6 +33,63 @@
     "turn_catalyst": "Run thin, the elder statesman defers: counsel ready, service declined. Accept the next board seat. The chapter wrote it for you.",
     "turn_friction": "Run heavy, the standards audit the grandchildren: correctness at three generations’ distance. Retire the inspector, keep the grandfather.",
     "shadow_line": "Overloaded, the example forgets to embrace: revered at arm’s length.",
-    "health_line": "Your late body keeps its appointments and its posture: dutiful to the end. Add the undutiful pleasures. They are medicine too."
-  }
+    "health_line": "Your late body keeps its appointments and its posture: dutiful to the end. Add the undutiful pleasures. They are medicine too.",
+    "domain_climb": {
+      "Family": {
+        "headline": "Your family takes its standards from you.",
+        "recognition": "You set a clear example for your family, and you notice when someone falls short of it. Because you care about doing things properly, you correct before you praise, and the people close to you remember both. Your approval matters more to them than you realise, and you give it less than they need.",
+        "lived": "Since your late forties the people after you, children or younger relatives or someone you train, have watched how you conduct yourself and copied more than you knew. More than once a word of your approval stayed with one of them for years, and you heard about it only later.",
+        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, treat you as the one whose opinion settles things. You praise more freely in these years, and they grow steadier for it."
+      },
+      "Social": {
+        "headline": "Your reputation keeps rising with age.",
+        "recognition": "You are the person people ask to chair the meeting or hold the keys or settle the dispute. Because you take duty seriously, you say yes to roles others avoid, and your circle trusts you more each year. Your friendships carry a little formality, and you find it hard to let others see you off duty.",
+        "lived": "Since your late forties your name has carried weight in your circle, and you have been asked to lead groups you once simply belonged to. You gained respect that outlasted any title, and you found yourself consulted on matters well outside your old work.",
+        "ahead": "From your late forties your community keeps giving you positions of trust, a committee or a board or a role as the steady voice. You are honoured more in these years than in your working prime, and you choose carefully which causes get your name."
+      },
+      "Career": {
+        "headline": "Your later working life moves toward leadership.",
+        "recognition": "You are drawn in later life to work that keeps an organisation sound, the overseeing and the guiding more than the doing. Because you respect structure, you would rather look after something lasting than start something new. Your value at work now lies in judgement, and you are trusted with decisions others will not make.",
+        "lived": "Since your late forties your work has shifted toward oversight, a seat on a board or a senior post or a role guiding the people below you. You were trusted with the running of things you once only served, and you handled it with care.",
+        "ahead": "From your late forties you move into roles that govern more than they produce, and your judgement becomes your main asset. You end your working life on a high standard, and the respect you earn lasts longer than any post you hold."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "Order stands at your Hour Gate: what you show the future is standards, upheld to the end."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Family, Social, and Career, and it shapes how your story ends. The Magistrate stands at your Hour Gate, visible in the last chapters: your standing grows with age, honors late, respect that outlives the job. Children and juniors measure themselves against your standards, quietly and for decades, so praise them before you correct them and the measuring becomes love. Your late career leans toward governance, boards, and the keeping of institutions you once merely served. The name you leave will be trusted, which is rarer than being missed. Endings are your specialty. Make yours exemplary."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Social",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Career",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-4.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

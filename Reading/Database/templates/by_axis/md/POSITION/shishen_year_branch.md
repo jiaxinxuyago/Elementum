@@ -23,8 +23,8 @@
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Health |
-| `defline` | The Artisan lives inside your Year Gate: the root of your early world was nourishment, given and remembered. |
-| `reading` | This position rules Family and Health, and it works from the root of your story. The Artisan lives inside your Year Gate, the hidden face: nourishment was built into your early world, as food, ease, or someone’s quiet generosity, and your body still remembers it. You restore quickly, you digest life well, and comfort works on you as medicine rather than indulgence. Blessing in your line flows downhill through the older generation, often by way of the kitchen. Health stays your quiet inheritance so long as you keep the habits that honor it. Feed people in your turn. Your luck has always traveled with the table, and it still does. |
+| `defline` | The Artisan lives inside your Year Gate: underneath your early years were comfort and care, given freely. |
+| `reading` | You were fed well as a child, in more than one sense, and that early comfort still sits under the way you live. Because ease was given to you before you had to earn it, you recover through simple things, food and a full night's sleep and the company of people you love. Whatever else your first home held, you took from it a store of warmth you have drawn on in every hard season since. |
 | `teaser` | Somewhere early, someone fed you well, in every sense. That ease still lives underneath you, and providing for others will keep quietly providing for you. |
 | `domain_readings.Family` | Your family root carries sweetness: somewhere in the early line, nurture was generous, and it still reaches you as an instinct for kinship and comfort. You gather relatives the way hearths gather chairs. Keep the recipes and the rituals. They are the family’s actual inheritance, and you are their keeper. |
 | `domain_readings.Health` | Your constitution is a friendly one: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, ease becomes indulgence here: comfort eaten past nourishment. Keep the feasts, add the fasts. |
 | `shadow_line` | Overloaded, this root drifts: sweetness used as sedative, the couch quietly winning years. |
 | `health_line` | Your constitution runs on comfort honestly taken: regular meals, real rest, pleasure without guilt. Feed it on schedule and it forgives almost everything else. |
+| `domain_climb.Family.headline` | You were fed well, and you became the one who feeds. |
+| `domain_climb.Family.recognition` | You hold your family together through comfort, the visit kept and the favour done and the table set. Because care reached you first as warmth, you give it back the same way, and you feel useless in a family crisis that kindness cannot touch. What you want from your family is ease, and you work hard to make it. |
+| `domain_climb.Family.lived` | Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside. |
+| `domain_climb.Health.headline` | Your body trusts food and rest to put it right. |
+| `domain_climb.Health.recognition` | You trust your body to fix itself with a good meal and a long sleep, and for most of your life it has. Because comfort is how you recover, you reach for it under stress, and you turn the extra helping or the lost weekend into a habit before you notice. Your body asks you for rhythm more than for effort. |
+| `domain_climb.Health.lived` | You were a child who recovered quickly, from colds and falls and bad days alike. Your appetite and your sleep were steady, and you came into adulthood with more reserve than most of the people around you. |

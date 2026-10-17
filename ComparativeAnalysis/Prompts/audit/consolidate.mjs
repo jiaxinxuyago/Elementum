@@ -5,7 +5,7 @@
 //   node audit/consolidate.mjs <audit-dir>        reads <audit-dir>/audit/*.md, writes <audit-dir>/findings.json
 import fs from 'node:fs';
 const dir = process.argv[2]; if (!dir) { console.log('usage: node audit/consolidate.mjs <audit-dir>'); process.exit(2); }
-const KEY = /\b(K2|PAIR) ([^\s·|]+) · ([a-z_][\w.]*(?:\[\d+\][\w.]*)*)/;
+const KEY = /\b(K2|PAIR|POSITION|GOD|TG_PATTERN|TEMPLATED) ([^\s·|]+) · ([A-Za-z_][\w.]*(?:\[\d+\][\w.]*)*)/;
 const cells = (row) => row.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim());
 const findings = []; const scores = [];
 for (const f of fs.readdirSync(dir + '/audit').filter((x) => x.endsWith('.md'))) {
@@ -19,8 +19,8 @@ for (const f of fs.readdirSync(dir + '/audit').filter((x) => x.endsWith('.md')))
       const get = (name) => { const i = header.findIndex((h) => h.includes(name)); return i >= 0 ? c[i] : ''; };
       const keyCell = c.find((x) => KEY.test(x)) || ''; const m = keyCell.match(KEY);
       findings.push({ source: src, id: c[0], severity: c[sevIdx].replace(/\*/g, '').toUpperCase(), criterion: get('crit'), pages: get('page'), key: m ? `${m[1]} ${m[2]} · ${m[3].trim()}` : '', quote: get('quot'), issue: get('wrong') || get('issue'), fix: get('fix') || get('propos') || c[c.length - 1] });
-    } else if (/^\**P\d{3}/.test(c[0]) && header.includes('b')) {
-      const bi = header.indexOf('b'); const b = parseFloat(c[bi]); if (!isNaN(b)) scores.push({ source: src, page: c[0].match(/P\d{3}/)[0], B: b, row: c });
+    } else if (/^\**[PD]\d{3}/.test(c[0]) && header.includes('b')) {
+      const bi = header.indexOf('b'); const b = parseFloat(c[bi]); if (!isNaN(b)) scores.push({ source: src, page: c[0].match(/[PD]\d{3}/)[0], B: b, row: c });
     }
   }
 }

@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Wealth · Family |
-| `defline` | The Steward stands at your Year Gate: prudence is the family trait your story shows first. |
-| `reading` | This position rules Wealth and Family, and it rules them from your beginnings. The Steward stood openly at your Year Gate: a household that provided by planning, elders who counted carefully, a childhood where money had rules and the rules mostly held. The world still reads that face on you, dependable and early to save. Money learned young stays learned: your fortune keeps favoring the long way around. Through the family line come your steadiest assets, advice worth taking and sometimes property worth keeping. Honor the thrift you inherited, and spend on purpose now and then. Permission to enjoy it is part of the estate. |
+| `defline` | The Steward stands at your Year Gate, in plain view: your first home ran on care, counting and things kept. |
+| `reading` | You grew up where money was spoken about plainly and spent with a plan, and that order was the first thing people saw in your family. Because care with money reached you as safety, you still feel calm when the accounts are in order and uneasy when they are not. You still run every budget on the habits you formed before sixteen, and they are why your savings grow when others stall. |
 | `teaser` | You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home. |
 | `domain_readings.Wealth` | Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time. |
 | `domain_readings.Family` | Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you. |
 | `shadow_line` | Overloaded, prudence turns miserly here: joy postponed for a rainy day that never gets invited. |
 | `health_line` | The body budgets like you do: it thrives on regular hours and resents sudden splurges of effort. Keep the routines honest and it keeps the books balanced. |
+| `domain_climb.Wealth.headline` | You learned the value of money early. |
+| `domain_climb.Wealth.recognition` | You spend with a list and save before anyone asks you to, and money that sits unplanned makes you uneasy. Because order around money felt like safety from your first years, you lose more sleep over a careless purchase than it ever cost you. You are slower to enjoy what you have than to keep it. |
+| `domain_climb.Wealth.lived` | You learned what things cost before most children do. Money at home was counted and spent with care, and by your teens you were already saving what your friends spent. |
+| `domain_climb.Family.headline` | You grew up in a careful, orderly home. |
+| `domain_climb.Family.recognition` | You show love in your family by keeping things in order, the bills paid and the arrangements made. Because care at home looked like provision when you were small, you trust a relative who plans more than one who says warm things. You are the one your family calls when something needs organising, and you rarely say no. |
+| `domain_climb.Family.lived` | Someone in your first home kept the household running on plans and promises kept, and you watched closely. By your teens you were the child trusted with the money, the keys or the younger ones. |
