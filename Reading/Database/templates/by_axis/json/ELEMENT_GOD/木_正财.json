@@ -76,17 +76,17 @@
           {
             "word": "Saves first",
             "angles": {
-              "drive": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save ahead of wanting. Your household weathers bad years that sink other families.",
+              "drive": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. Your household weathers bad years that sink other families.",
               "cost_self": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures. Whole seasons of your life pass without a single treat.",
-              "cost_others": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving ahead of the wish. Your family never wonders where the next month's money comes from."
+              "cost_others": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Your family never wonders where the next month's money comes from."
             }
           },
           {
             "word": "Loyal",
             "angles": {
-              "drive": "Being loyal comes ahead of being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. The person beside you has never once doubted you.",
+              "drive": "Being loyal comes before being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. The person beside you has never once doubted you.",
               "cost_self": "Where you gave your word, you stay loyal after the reasons change. Since loyalty feels more like love than choosing, you stop asking whether this is what you want or promised. Some of your choices were made once and never made again.",
-              "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence ahead of your feelings. Your partner gets all of your time and few of your words."
+              "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence more than your feelings. Your partner gets all of your time and few of your words."
             }
           }
         ]
@@ -105,7 +105,7 @@
           {
             "word": "Counts everything",
             "angles": {
-              "drive": "Counting what something cost matters to you ahead of enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
+              "drive": "Counting what something cost matters to you more than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
               "cost_self": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. You give up the easy days that all your counting was meant to buy.",
               "cost_others": "For the people you love, you count as closely as yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
             }
@@ -113,8 +113,8 @@
           {
             "word": "Slow to trust",
             "angles": {
-              "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
-              "cost_self": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Holding out, you lose the closeness and the years that waiting for proof uses up.",
+              "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
+              "cost_self": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof before trusting. Holding out, you lose the closeness and the years that waiting for proof uses up.",
               "cost_others": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You hand all the proving to the one you love while you wait to trust."
             }
           }
@@ -827,6 +827,62 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save ahead of wanting. Your household weathers bad years that sink other families."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving ahead of the wish. Your family never wonders where the next month's money comes from."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Being loyal comes ahead of being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. The person beside you has never once doubted you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence ahead of your feelings. Your partner gets all of your time and few of your words."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Counting what something cost matters to you ahead of enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You only want to be safe from hurt, and the long wait for proof hurts too."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof ahead of trusting. Holding out, you lose the closeness and the years that waiting for proof uses up."
     }
   ]
 }

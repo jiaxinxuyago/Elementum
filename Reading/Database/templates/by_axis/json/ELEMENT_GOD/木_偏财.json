@@ -77,7 +77,7 @@
             "word": "Quick to start",
             "angles": {
               "drive": "Starting comes easily to you, often before you finish deciding. Moving is how you feel alive, so you start and learn rather than wait until you are sure. Whole projects exist because you went first while others were still talking.",
-              "cost_self": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start ahead of the rest you are owed. Your life fills with things you began and never saw through.",
+              "cost_self": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start over the rest you are owed. Your life fills with things you began and never saw through.",
               "cost_others": "Whatever you start has other people in it before the thing is real. You need movement more than certainty, so you start, move on and leave the middle open. The slow work of finishing falls to whoever came along with you."
             }
           },
@@ -85,7 +85,7 @@
             "word": "Generous",
             "angles": {
               "drive": "Generosity comes more easily to you than keeping, especially money. Being generous makes the world feel wide, so you give away a good month rather than save it. More than one friend got through a hard year with your help.",
-              "cost_self": "Giving is your first answer to most things. Since being generous feels more like you than being careful, you give the extra ahead of putting any aside. Your savings stay thin through even the best years.",
+              "cost_self": "Giving is your first answer to most things. Since being generous feels more like you than being careful, you give the extra instead of putting any aside. Your savings stay thin through even the best years.",
               "cost_others": "Whenever the people close to you run short, you are generous before being asked. Because being generous keeps you freer than being owed, you give rather than build anything shared. Nobody near you goes without for long."
             }
           }
@@ -97,7 +97,7 @@
           {
             "word": "Chases the new",
             "angles": {
-              "drive": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start ahead of the finish. You leave a row of half-done things behind you, each one new when you started.",
+              "drive": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start over the finish. You leave a row of half-done things behind you, each one new when you started.",
               "cost_self": "Where you are is rarely what you chase. Because staying feels like being stuck rather than home, you chase the far plan with hours the near one needed. You lose the venture already begun to each new chase, and half of one pays nothing.",
               "cost_others": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to your partner. You keep the start of a shared plan and hand your partner the long middle."
             }
@@ -114,7 +114,7 @@
             "word": "Spends freely",
             "angles": {
               "drive": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Spending for freedom, you meet the slow month with none of it left.",
-              "cost_self": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending with savings you never get to keep.",
+              "cost_self": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month instead of keeping any. You pay for the free spending with savings you never get to keep.",
               "cost_others": "Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. You spend their quiet months as well as your own."
             }
           }
@@ -819,6 +819,38 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start ahead of the rest you are owed. Your life fills with things you began and never saw through."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Giving is your first answer to most things. Since being generous feels more like you than being careful, you give the extra ahead of putting any aside. Your savings stay thin through even the best years."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start ahead of the finish. You leave a row of half-done things behind you, each one new when you started."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month ahead of keeping any. You pay for the free spending with savings you never get to keep."
     }
   ]
 }

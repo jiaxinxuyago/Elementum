@@ -77,7 +77,7 @@
             "word": "Sleeps on it",
             "angles": {
               "drive": "You sleep on a decision before you make it, even a small one. Waiting a night costs nothing and hurrying costs plenty, so you would rather lose a day than a deal. Few of your choices ever need undoing.",
-              "cost_self": "Sleeping on a choice keeps your money safe, and it makes you late. You wait a night ahead of saying yes, since being wrong costs more. Bargains and good seats often go to whoever answered while you were still weighing it up.",
+              "cost_self": "Sleeping on a choice keeps your money safe, and it makes you late. You wait a night before saying yes, since being wrong costs more. Bargains and good seats often go to whoever answered while you were still weighing it up.",
               "cost_others": "Whenever you sleep on an answer, you leave someone waiting overnight. You would rather be sure tomorrow than quick today, and you hand the wait to whoever asked. Whatever you finally say is something people can build on."
             }
           },
@@ -85,7 +85,7 @@
             "word": "Shows up daily",
             "angles": {
               "drive": "You show up every day the same way, noticed or not. You put being counted on ahead of being exciting, and you show up on dull days too. Whole teams quietly lean on you without saying so.",
-              "cost_self": "Showing up daily is your way of staying sure of someone. You keep the routine ahead of your rest, since a missed day feels like a crack. Your own plans wait for a gap in a week that has none.",
+              "cost_self": "Showing up daily is your way of staying sure of someone. You keep the routine over your rest, since a missed day feels like a crack. Your own plans wait for a gap in a week that has none.",
               "cost_others": "What you give the ones you love is that you keep showing up. You hand them presence rather than surprise, and you let them know each day's shape in advance. Life with you is steady and seldom brings anything unexpected."
             }
           }
@@ -98,14 +98,14 @@
             "word": "Holds it back",
             "angles": {
               "drive": "You hold money back long after holding it back makes sense. Having it in the pool feels safer than having it out, so you hold it rather than use it. Remember that you were after the safety more than the money.",
-              "cost_self": "Holding back keeps the floor from dropping. You hold money ahead of using it even on things you need, because a smaller balance feels like danger. You pay for holding back with the things you needed and never bought.",
+              "cost_self": "Holding back keeps the floor from dropping. You hold money rather than using it even on things you need, because a smaller balance feels like danger. You pay for holding back with the things you needed and never bought.",
               "cost_others": "Even with the people closest to you, you hold back first and help second. You would rather keep the account whole than give the full amount asked. For each amount you hold back from them, you take a little ease out of the closeness."
             }
           },
           {
             "word": "Counts every cost",
             "angles": {
-              "drive": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs ahead of what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it.",
+              "drive": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs more than what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it.",
               "cost_self": "Counting every cost protects you from being caught short. You would rather know what a kindness costs than take it, and you count the free ones too. You miss the closeness that comes from simply letting someone give.",
               "cost_others": "With the people you love, you count every cost even on the time you share. You would rather count what an evening together costs than simply enjoy it. In the end, you hand them your company with the count in plain view."
             }
@@ -507,6 +507,38 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Sleeping on a choice keeps your money safe, and it makes you late. You wait a night ahead of saying yes, since being wrong costs more. Bargains and good seats often go to whoever answered while you were still weighing it up."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Showing up daily is your way of staying sure of someone. You keep the routine ahead of your rest, since a missed day feels like a crack. Your own plans wait for a gap in a week that has none."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Holding back keeps the floor from dropping. You hold money ahead of using it even on things you need, because a smaller balance feels like danger. You pay for holding back with the things you needed and never bought."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs ahead of what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it."
     }
   ]
 }

@@ -84,7 +84,7 @@
           {
             "word": "Solo thinker",
             "angles": {
-              "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Ideas come back from those hours finished and fully yours.",
+              "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet more than the company. Ideas come back from those hours finished and fully yours.",
               "cost_self": "After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. That hour is the one stretch of time that belongs only to you.",
               "cost_others": "Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. The people waiting on you never know when to expect you back."
             }
@@ -106,7 +106,7 @@
             "word": "Hard to reach",
             "angles": {
               "drive": "Long before anything goes wrong, you are already hard to reach. Taking things in alone, you let yourself be reached on your own schedule rather than anyone else's. You buy the quiet with friendships that wear thin.",
-              "cost_self": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet ahead of company until alone stops being a choice. You trade being reached for a loneliness you only feel later.",
+              "cost_self": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet over company until alone stops being a choice. You trade being reached for a loneliness you only feel later.",
               "cost_others": "Going into your head takes you out of people's reach. Since thinking alone beats talking for you, you go a week out of reach over sending one line. You leave them guessing for a week that one line would have ended."
             }
           },
@@ -832,6 +832,22 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Ideas come back from those hours finished and fully yours."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet ahead of company until alone stops being a choice. You trade being reached for a loneliness you only feel later."
     }
   ]
 }

@@ -76,7 +76,7 @@
           {
             "word": "Rarely fooled",
             "angles": {
-              "drive": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the proof. The friends who lean on your judgement are seldom led astray.",
+              "drive": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling above the proof. The friends who lean on your judgement are seldom led astray.",
               "cost_self": "Rarely fooled, you are slow to be glad. You check an offer for the catch before letting it near, and would rather miss a good thing than be fooled. Real kindness reaches you late, after your doubt has worn itself out.",
               "cost_others": "You check an honest word as closely as a false one. Being hard to fool counts for more with you than being easy company, and you make a truthful person prove it twice. Whoever earns your trust gets it whole and for keeps."
             }
@@ -523,6 +523,14 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the proof. The friends who lean on your judgement are seldom led astray."
     }
   ]
 }

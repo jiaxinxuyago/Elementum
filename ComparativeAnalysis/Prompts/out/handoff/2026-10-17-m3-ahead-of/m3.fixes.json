@@ -1,0 +1,757 @@
+[
+ {
+  "key": "K2 土_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment rather than the ordinary day. In a crisis, people look around and find you already steady.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_七杀 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis rather than an ordinary week, and the ordinary weeks get skipped. Most of your life happens between emergencies, and you are only half there for it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_七杀 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You stay hard on yourself in front of the people you love. Getting it right comes first, before being easy company, so each kindness you refuse teaches them to keep theirs. You take from them the plain comfort of looking after you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You rewrite a rule that stops making sense under the people standing on it. Since you fix it rather than keeping the peace, you change the footing with no warning. The rule you found pointless was somebody's floor.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_偏印 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet more than the company. Ideas come back from those hours finished and fully yours.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet over company until alone stops being a choice. You trade being reached for a loneliness you only feel later.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Your own cushion never gets the chance to grow.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Whenever a friend has good news, you compare before you say well done. You measure the gap before being glad for them, and you give less praise than they earned. You take some of the joy out of the news they bring you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Your presence calms people before your words do. Since you need people safe rather than impressed, you calm them with the slow question before the fix. A worried table goes quiet soon after you sit down at it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "You teach a thing a third time with the patience of the first. Needing the person to get there, you teach at their pace instead of your own. Whatever someone learns from you, they learn without shame.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes above arriving first, and the quick wins go to people who care less. A clean conscience matters to you more than any title.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes before being on anyone's side, and you never pick theirs either. Your own people sometimes wanted a champion and got a referee.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure over anyone else's, and yours sits a step above you. Your best days still feel like falling short.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Making things last keeps you in control of what you own. You put hours into repairs instead of the better thing on offer, because replacing feels like waste. Your weekends go to mending things worth less than the time they take.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Saving comes first for you, before the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. A bad month never finds you short.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You save for the people you love before spending on them. A safe future is the gift you trust, and you give them the cushion rather than the dinner. Whatever comes, your family has something to fall back on.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "When a friend offers advice, you thank them and go your own way. You keep your own plan over theirs, and the care they put in goes to waste. You leave your friends unsure whether their help is welcome.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 土_食神 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Before the asking, you have usually already given. Because the gift comes before the need, you never learn whether you were wanted or only useful. Underneath, you want to be wanted for more than what you bring.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people before asking them. Those close to you get looked after and seldom get a say.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look instead of giving it. You are allowed to be pleased by a standard you have already met.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_伤官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it before hearing it out. You win the moment by talking back and spend the week on the repairs.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_伤官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself before hearing what was offered. You hand them an argument where they asked for your ear.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start over the rest you are owed. Your life fills with things you began and never saw through.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Giving is your first answer to most things. Since being generous feels more like you than being careful, you give the extra instead of putting any aside. Your savings stay thin through even the best years.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start over the finish. You leave a row of half-done things behind you, each one new when you started.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month instead of keeping any. You pay for the free spending with savings you never get to keep.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[0].angles.cost_self",
+  "text": "Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk over sure footing. You lose real money on bets you never needed to make.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "You spend what is shared like your own nerve, fast and before the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and the owing stays with you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Before asking, you spend what was pooled and settle the split later. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Passing it on is your favorite part of knowing. Teaching the thing comes before using it, and the advantage you earned goes to whoever you taught. Others build careers on ideas that started with you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You help the moment you see a need, before being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried. Helping this soon, you teach them that they needed you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule above the exception. Everyone around you is sure of the ground under their feet.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[0].angles.cost_self",
+  "text": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book over your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no before hearing it out. You leave the people around you holding ideas you never heard.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up before who is right. Underneath the ranking, you want a safe place more than the right answer.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Even when the one being ranked is you, rank comes first. Since a title tells you how well you are doing, you choose rank over liking your work. You keep moving up into jobs you would not pick for the work alone.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best rather than the one beside you. You send the credit for shared work upward, past your peers.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. Your household weathers bad years that sink other families.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Your family never wonders where the next month's money comes from.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Being loyal comes before being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. The person beside you has never once doubted you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence more than your feelings. Your partner gets all of your time and few of your words.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Counting what something cost matters to you more than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof before trusting. Holding out, you lose the closeness and the years that waiting for proof uses up.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_比肩 · fn_reading.friction.ledger[0].angles.cost_self",
+  "text": "Your hands are all you trust with hard jobs. Asking feels like admitting a shortfall, and you take the long way alone over the short way with help. You pay for asking no one in rest you skip, and the bill is only yours.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_比肩 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You walk into most arguments already sure. More of you shows up than the argument needs, and the extra feels like proof, so you hold your view instead of hearing theirs. You lose, by being right every time, the chance to be told something new.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give before knowing whether anyone needs it. Your kitchen, your toolbox and your time are open to whoever walks in.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Saying no has never come easily to you. A no feels like going missing, so you say yes before checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option over the one that pays off. You put second to comfort the very thing you wanted most.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Nothing feels real to you until you have made it original. You take being wrong your own way over being right theirs, so you redo finished work. You spend whole weekends changing things that were already good enough.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Not speaking up about something wrong is almost physically hard for you. You speak up rather than being liked, because a true sentence left unsaid feels like a lie you took part in. You are usually the only one who will.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "What you think is already out loud, and the editing happens after. You have more Water than time to settle it, so you share the thought before asking whether it is ready. You give away ideas before you have finished thinking them.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight before asking why. Keep in mind that asking why first does not make you smaller.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Whenever you go deep, you go alone. Company slows you down, and you pick the quiet over any company you did not choose. Those close to you lose you for weeks at a time to a question.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You read what a person is not saying. A pause tells you more than the words around it, so you trust your feeling about someone over the story you are given. People feel understood around you before they have explained anything.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Reading a person before their words keeps you from surprises. The reading comes faster than the asking, and you go with it instead of waiting for the rest. Being right early leaves you knowing people without being close to them.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "You teach yourself what matters most to you. A lesson you worked out alone sits deeper than one handed to you, and your own odd route comes before the course on offer. You lose years to the long way and would take it again.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Hard to reach means a thought is unfinished, and most of yours are. Finishing it comes before the message, and you charge the person waiting in days. You leave them with less of you than they came for.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Seeing far is the part of you that never rests. You see the distant chance before the one in reach, because distance is what sets you free. The good things close at hand often slip away while you look further out.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Sharing freely is how you stay light. You share the whole windfall instead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Going first is where your boldness lives. Little Water backs you, and you jump in before reading the plan, while early mistakes come out of your savings. Your bank balance carries the lessons everyone after you gets for free.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Whenever you go first, you pull your partner in after you. You decide for both before asking, and you take the risk in their name too. The person beside you gets courage on loan the moment you move.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "All in together means you take someone with you every time. You put the shared stake before asking whose it was, and a partner carries losses they never signed for. Anyone in with you lives through each venture's lows as well as its highs.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Spending shared money comes easier to you than spending your own. Shared money feels like courage, and you dip into it before asking who put what in. You run the pool down faster than agreed, and slowing it is yours to do.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spending from the shared pot is the easiest money there is. More Water moves through you than you keep, so you pay for everyone's good time before your savings. You come out with the least from a pot you paid the most into.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round before asking, and they put in more than they meant. You spend the rest they had planned to take at the finish.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Soaking up what someone says comes before deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. Your second view never reaches the people you listen to.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known over the better whenever the two come apart. You pass up the life that leaving would have given you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Staying sheltered keeps you home while others go out. You pick being safe over being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way over the good one. You pay for playing it safe in chances you never took.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Sleeping on a choice keeps your money safe, and it makes you late. You wait a night before saying yes, since being wrong costs more. Bargains and good seats often go to whoever answered while you were still weighing it up.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Showing up daily is your way of staying sure of someone. You keep the routine over your rest, since a missed day feels like a crack. Your own plans wait for a gap in a week that has none.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正财 · fn_reading.friction.ledger[0].angles.cost_self",
+  "text": "Holding back keeps the floor from dropping. You hold money rather than using it even on things you need, because a smaller balance feels like danger. You pay for holding back with the things you needed and never bought.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_正财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You count the cost before you let yourself want anything. Knowing the price makes a thing safe, so you count what a dinner costs more than what it is worth. Until you count the worth as well, you pay for every dinner without enjoying it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself instead of a second view. Your choices come quick and clean, with nobody else's doubts mixed in.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 水_食神 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, and you give the help before the ask. You were never giving to earn your place.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge before the vote. Around you, decisions get made and the work starts.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along before asking whether they wanted pushing. You reach the result first and arrive with followers who never said yes.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty in place of ending the day. Remember you were made to meet a crisis rather than stay on duty after it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard in place of someone to sit with. You keep them safe and leave them without the company they wanted.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it before checking the cost. A good line has closed doors you wanted open.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Before anyone asks you to, you speak up for them. Having a voice comes more naturally to you than lending one, so you take the floor rather than handing it over. The quieter ones get heard in your words more than their own.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "For the people you love, you perform as much as for a crowd. Company feels like a show to you, and your best lines come before your plain self. Those closest to you get the act and miss the person behind it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Thinking fast is the talent you lean on hardest. You have the first answer before the question is finished, and you trust it over the second. The better idea often arrives after you have spoken.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Fast enough to finish other people's sentences, you usually do. Waiting for a thought to end feels like wasted time, and you answer before hearing it all. Slower thinkers lose the last part of their point to your reply.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone more than the need. Each time, you leave them without the simple answer they came for.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You rise to a dare before deciding if you want it. You wake in a contest like nowhere else, so you weigh the rival more than the stakes. With you in the race, everyone runs faster.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Catching ambition is quicker than growing it, and you know it. You go after what a rival chases before asking what you want yourself, because wanting alone feels thin. Some of your hardest wins were for things you never cared about.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "On a shared bet, you go all in before anyone asks. Holding back feels like not being there, so you put in your money before reading the terms. Your friends never have to wonder whose side you are on.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Being all in is how you show you mean it. You put money where your friends are rather than where your sense is, because holding back feels worse than losing. Your savings rise and fall with the plans of the people you love.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You give everyone a good hearing. You need to be trusted more than to be right, so you hear a person out before having your say. People leave a talk with you feeling lighter than they came.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Listening is the part of knowing people you do best. Since you take in a person's story before telling your own, you end most conversations fully informed and entirely unheard. Most of those close to you know little of what you carry.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You look after people without being asked. Keeping the people near you sheltered is how you feel at ease, so you look after their comfort before yours. Under your roof, everyone breathes out.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Your own needs come last whenever you are looking after someone. Because being needed feels easier than being tired, you give your rest away rather than keeping any. Your hobbies, friendships and plans all wait their turn behind everyone else's.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in before being asked. You are allowed to stand beside a struggle without taking it over.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You lean on the people who look after you more than you need to. Being held up feels better than finding out if you stand alone, so you ask before trying. Lean by lean, you come to trust your own footing less.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy over what you want. Bit by bit, you trade the life you meant to have for a smaller one.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Every promise you make becomes a rule you keep. Being relied on is the closest you get to feeling safe, so you keep your word over your freedom to change it. People build their plans on your yes.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book over the shortcut. Your work is the standard others get checked against.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "A fairly earned title is worth more to you than any praise. Since an earned rank says you belong, you earn the next title instead of chasing the next thrill. What you want is a place no one could question.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You wrote most of these rules yourself and are free to retire them.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Keeping to the rules is how you look after people. Because one exception feels like a collapse starting, you give them the rule instead of what they asked for. You keep everyone at home in line and take from them the ease of being wrong.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Hiding every slip is how you serve those who depend on you. Since a visible slip reads as failed duty, you offer them a composed face over a tired one. You leave them no way to help you carry it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you never say no to the next request before finishing the last. You pay for your standing in the strength that keeps it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes before getting home, you trade sleep for another duty. By the end of most weeks, you are short of sleep and of the strength to say yes.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep love going on time and without fail. Reliable feels more like love to you than exciting does, so you give your partner steady warmth over surprise. Home life with you has everything except the unexpected.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Showing up every day is how you love. Being there outranks being exciting for you, and you give the daily thing over the grand one. Those who count on you have never once been left waiting.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes before enjoying the thing. You were only counting until it felt safe to enjoy what you have.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Your count covers the household's spending as much as your own. Knowing where every bit went keeps you calm, and you ask about the receipt before the day itself. You charge your family a question for every small purchase.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "You bounce back faster than most get over the surprise. You would far sooner be upright than seen down, so you stand again before getting over it. Setbacks that flatten others barely slow you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Giving is the easiest thing you do. You would rather be useful than be thanked, and you give before being asked. The people near you feel looked after before they know they need it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Enjoyment only counts for you when it is shared. You write off an evening alone as wasted, and you pick less enjoyment in company over more by yourself. Hours on your own feel empty, and the good in them passes you by.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Effort was never your measure of worth. You rate what comes easily below what you fought for, so you hand the easy work over free instead of charging for it. Your income is smaller than your talent.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes before checking the cost. You owe no one a reason for saying no.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You answer whoever asks first with a yes, and you leave the people at home what is left. Pleasing the person in front of you comes before keeping your word at home. You give your family the leftovers of a day promised to others.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option over the needed one. You were after feeling alive all along, and pleasure was only the quickest way.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "In trouble that is not yours, taking charge is your first move. You take the charge before being asked, and the people near you give up their own decisions early. Your readiness costs them the practice that only a hard hour gives.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You expect everyone near you to thrive on the pressure you do. Stakes bring out your best, and you set pressure on others before asking whether they wanted any. They carry your pace on days they had meant to take slowly.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[0].angles.cost_self",
+  "text": "Under any load, you go hard on yourself first. You take the blame harder than the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Staying on duty is how you look after people. You stand duty over their troubles rather than sitting with them, and the people you guard get a guard in place of company. You leave them protected and alone with their troubles.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push before asking if the push was wanted. Keep in mind that you are free to let a slow thing take its time.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Your care comes out as a hard push. You push loved ones toward their good before asking, and those closest to you get force in place of patience. With every push, you take from them the chance to get there at their own pace.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Saying it straight is the only way you know. A softened truth feels like a lie with manners to you, and you name what is wrong rather than smoothing it over. Whoever asks your view walks away with the real one.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Whenever something is wrong, you say so before you say anything kind. Being exact feels more honest to you than being gentle, and you hand people the mistake before the credit. Your praise reaches them late, after the sting has landed.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers over the people at home. Your own household gets you after the show, the shine already spent.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.friction.define",
+  "text": "As a friction, the gate stays wide open, since being exact is how you feel safe. Your edge comes out before your warmth, and closeness pays for it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling above the proof. The friends who lean on your judgement are seldom led astray.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Whenever you spot an opening, you tell the partner building this one with you. You name the next opening before this one is done, and your partner hears the plan move. Their week of work points at a place your mind has already left.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Without a rival, you lose your pace. Competing keeps you going, and the next round comes before noticing you are tired. Your body pays for a race with no finish.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "You trust a person faster when the risk is shared. Sharing the risk makes the bond real to you, so you go in together before writing anything down. The partner you want is one with as much to lose as you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Your bets are sized to the thrill more than the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent on a feeling that fades faster than the bill.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Hating to lose even a game is how you show you care. Since you want the win more than the evening, you keep arguing after it ends. You cost the people you play with the fun of the game.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Steadying people earns you respect more than closeness. Being needed when things fall apart suits you more than being phoned for nothing, and the no-reason calls are what you miss. Underneath, you would like to be sought out for your company alone.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in before letting them fall. You are protecting them from the one thing that would have taught them.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired over watching them hurt. You lose your own rest to every risk you take off their hands.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "The word you keep is the one you quietly expect from everyone. A promise binds you, and you hold people to their exact words more than their meaning. Those around you weigh each casual remark before saying it to you.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step instead of thanks. Anyone trained by you learns the trade with no bad habits to undo.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record more than the talent. Bright newcomers wait a long time for your nod.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer before hearing where it went wrong. You cost those near you the right to call you wrong.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it before the person's case. Each time the rule goes first, you take away their fair hearing.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Finishing things settles you more than starting them. You carry an open task until it is closed, so you finish what you hold before starting anything new. Anything put in your hands comes back done.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept over your way out. A handshake with you is as good as a contract.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes before going to bed. Everything you make alone is paid for in hours nobody sees.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes before being easy on them. Every person in your circle gets an honest deal and knows it.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard before your warmth. Friends who stay get a respect from you that never wavers.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet over their wish to come in. You keep your peers at a polite distance and never let them in.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix before the question. You leave your peers no turn at being right.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift before the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
+  "id": "M3 ahead of"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Giving is how you know you are here. The made thing in someone's hands proves you more than anything kept, so you give what you made away rather than keeping any of it. You leave yourself off the list of people you give to.",
+  "id": "M3 ahead of"
+ }
+]

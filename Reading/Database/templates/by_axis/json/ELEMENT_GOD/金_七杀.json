@@ -70,7 +70,7 @@
             "angles": {
               "drive": "Taking charge comes to you before anyone asks. A crisis gives your force a charge to carry, and you carry it yourself rather than wait for someone else to step up. At the worst moment, everyone steadies because you steadied first.",
               "cost_self": "Whenever something goes wrong you are already in charge. You would rather hold the charge than trust it to anyone, and the load stays yours by choice. Your own worries wait at the end of every queue you manage.",
-              "cost_others": "In trouble that is not yours, taking charge is your first move. You take the charge ahead of being asked, and the people near you give up their own decisions early. Your readiness costs them the practice that only a hard hour gives."
+              "cost_others": "In trouble that is not yours, taking charge is your first move. You take the charge before being asked, and the people near you give up their own decisions early. Your readiness costs them the practice that only a hard hour gives."
             }
           },
           {
@@ -78,7 +78,7 @@
             "angles": {
               "drive": "Pressure is where you do your best work. A real stake lets you thrive where comfort lets you drift, and being tested suits you better than being at ease. A deadline that rattles others leaves you clear and steady.",
               "cost_self": "Under pressure you become the self you trust most. Calm holds nothing to thrive on, and you take one more load rather than sit through a quiet week. Your ordinary days go by half lived while you wait for the next alarm.",
-              "cost_others": "You expect everyone near you to thrive on the pressure you do. Stakes bring out your best, and you set pressure on others ahead of asking whether they wanted any. They carry your pace on days they had meant to take slowly."
+              "cost_others": "You expect everyone near you to thrive on the pressure you do. Stakes bring out your best, and you set pressure on others before asking whether they wanted any. They carry your pace on days they had meant to take slowly."
             }
           },
           {
@@ -98,7 +98,7 @@
             "word": "Hard on yourself",
             "angles": {
               "drive": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you fail your own hard test sooner than pass someone else's. You answer to no judge harder than yourself.",
-              "cost_self": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken.",
+              "cost_self": "Under any load, you go hard on yourself first. You take the blame harder than the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken.",
               "cost_others": "The hardness you keep for yourself sets everyone's rate. Your mistakes feel unforgivable, and being hard on people near you comes easier than letting one pass. You take their ease away with every mistake you refuse to let pass."
             }
           },
@@ -107,15 +107,15 @@
             "angles": {
               "drive": "Even on days nothing is asked of you, you stay on duty. Being needed is the only rest you trust, and you pick the next duty rather than the night off. You are allowed to come off duty without earning it first.",
               "cost_self": "Off duty is a state you never fully manage. The alert in you never stands down, and you spend a free evening on duty rather than inside it. You lose the rest your free evenings were meant to give you.",
-              "cost_others": "Staying on duty is how you look after people. You stand duty over their troubles ahead of sitting with them, and the people you guard get a guard in place of company. You leave them protected and alone with their troubles."
+              "cost_others": "Staying on duty is how you look after people. You stand duty over their troubles rather than sitting with them, and the people you guard get a guard in place of company. You leave them protected and alone with their troubles."
             }
           },
           {
             "word": "Pushes too hard",
             "angles": {
-              "drive": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Keep in mind that you are free to let a slow thing take its time.",
+              "drive": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push before asking if the push was wanted. Keep in mind that you are free to let a slow thing take its time.",
               "cost_self": "You pay more for every push than the thing you pushed does. Stopping feels like falling behind to you, and you push on rather than refuel. You run your own body down to keep every push going.",
-              "cost_others": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. With every push, you take from them the chance to get there at their own pace."
+              "cost_others": "Your care comes out as a hard push. You push loved ones toward their good before asking, and those closest to you get force in place of patience. With every push, you take from them the chance to get there at their own pace."
             }
           }
         ]
@@ -563,6 +563,54 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "In trouble that is not yours, taking charge is your first move. You take the charge ahead of being asked, and the people near you give up their own decisions early. Your readiness costs them the practice that only a hard hour gives."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You expect everyone near you to thrive on the pressure you do. Stakes bring out your best, and you set pressure on others ahead of asking whether they wanted any. They carry your pace on days they had meant to take slowly."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Under any load, you go hard on yourself first. You take the blame hard and ahead of the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Staying on duty is how you look after people. You stand duty over their troubles ahead of sitting with them, and the people you guard get a guard in place of company. You leave them protected and alone with their troubles."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Pushing too hard is your answer to anything slow. Your own pace is the only safe one, and you push ahead of asking if the push was wanted. Keep in mind that you are free to let a slow thing take its time."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Your care comes out as a hard push. You push loved ones toward their good ahead of asking, and those closest to you get force in place of patience. With every push, you take from them the chance to get there at their own pace."
     }
   ]
 }

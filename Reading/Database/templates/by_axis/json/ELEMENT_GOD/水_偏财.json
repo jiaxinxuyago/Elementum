@@ -69,7 +69,7 @@
             "word": "Sees it coming",
             "angles": {
               "drive": "You see a chance coming before it reaches you. Since an early sight feels like a head start, you see the far chance more clearly than the near one. Those who trust your eye get there before the crowd.",
-              "cost_self": "Seeing far is the part of you that never rests. You see the distant chance ahead of the one in reach, because distance is what sets you free. The good things close at hand often slip away while you look further out.",
+              "cost_self": "Seeing far is the part of you that never rests. You see the distant chance before the one in reach, because distance is what sets you free. The good things close at hand often slip away while you look further out.",
               "cost_others": "Whenever you see a new chance coming, you are half gone already. You see what is ahead more than who is beside you, and you hand them what is left. The people at your side get your company with your mind already packed."
             }
           },
@@ -85,7 +85,7 @@
             "word": "Shares freely",
             "angles": {
               "drive": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Around you, a bit of good fortune turns into a party for everyone.",
-              "cost_self": "Sharing freely is how you stay light. You share the whole windfall ahead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account.",
+              "cost_self": "Sharing freely is how you stay light. You share the whole windfall instead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account.",
               "cost_others": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and you give home a feast with no steady part. Home with you swings between plenty and making do."
             }
           }
@@ -106,7 +106,7 @@
             "word": "Spends it fast",
             "angles": {
               "drive": "You spend a windfall at the speed it arrived. Money that comes fast feels unreal to you, and spending it fast feels more honest than saving it. Whatever comes fast, you spend before it ever becomes yours.",
-              "cost_self": "Spending fast proves the money was real. You spend the windfall ahead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in.",
+              "cost_self": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in.",
               "cost_others": "Whenever money arrives fast, you spend it on the people around you. You would rather give everyone a good time today than keep some for the months after. The faster you spend it, the longer you leave home short through the lean months."
             }
           },
@@ -491,6 +491,30 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Seeing far is the part of you that never rests. You see the distant chance ahead of the one in reach, because distance is what sets you free. The good things close at hand often slip away while you look further out."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Sharing freely is how you stay light. You share the whole windfall ahead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Spending fast proves the money was real. You spend the windfall ahead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in."
     }
   ]
 }

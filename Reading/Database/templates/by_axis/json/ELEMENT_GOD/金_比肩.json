@@ -69,16 +69,16 @@
             "word": "Self-made",
             "angles": {
               "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Every part of your life carries your fingerprints and nobody else's.",
-              "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Everything you make alone is paid for in hours nobody sees.",
+              "cost_self": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes before going to bed. Everything you make alone is paid for in hours nobody sees.",
               "cost_others": "Making everything yourself is what you show a new peer first. By making each thing alone instead of sharing it, you leave your peers nothing to carry. Your peers miss the chance to matter to you through the work."
             }
           },
           {
             "word": "Even-handed",
             "angles": {
-              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Every person in your circle gets an honest deal and knows it.",
+              "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes before being easy on them. Every person in your circle gets an honest deal and knows it.",
               "cost_self": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even standard is how you stay honest. Your circle is small, and each gap in it was your own call.",
-              "cost_others": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Friends who stay get a respect from you that never wavers."
+              "cost_others": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard before your warmth. Friends who stay get a respect from you that never wavers."
             }
           },
           {
@@ -99,7 +99,7 @@
             "angles": {
               "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Remember that you meant to seal out the hurt rather than your peers.",
               "cost_self": "A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. You carry each hurt alone, and you lose the evenings you wanted to share.",
-              "cost_others": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. You keep your peers at a polite distance and never let them in."
+              "cost_others": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet over their wish to come in. You keep your peers at a polite distance and never let them in."
             }
           },
           {
@@ -107,7 +107,7 @@
             "angles": {
               "drive": "Being taught lands on you as an attack first and information second. With Metal running over, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them.",
               "cost_self": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend a position rather than learn from it. You lose every lesson that needed you to be wrong before it could teach you.",
-              "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix ahead of the question. You leave your peers no turn at being right."
+              "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix before the question. You leave your peers no turn at being right."
             }
           },
           {
@@ -827,6 +827,46 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Everything you make alone is paid for in hours nobody sees."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Every person in your circle gets an honest deal and knows it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Friends who stay get a respect from you that never wavers."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet ahead of their wish to come in. You keep your peers at a polite distance and never let them in."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix ahead of the question. You leave your peers no turn at being right."
     }
   ]
 }

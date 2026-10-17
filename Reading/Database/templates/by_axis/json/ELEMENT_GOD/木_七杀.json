@@ -78,7 +78,7 @@
             "angles": {
               "drive": "You take charge before anyone asks you to. Being out in front settles you, so you would rather take charge than wait to be chosen. In a stalled meeting, your first move gets everyone else going.",
               "cost_self": "Taking charge comes to you faster than asking for help. Since staying in charge feels safe, you carry the whole plan rather than hand half over. The weight of everything you run lands on your shoulders alone.",
-              "cost_others": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people ahead of asking them. Those close to you get looked after and seldom get a say."
+              "cost_others": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people before asking them. Those close to you get looked after and seldom get a say."
             }
           },
           {
@@ -113,7 +113,7 @@
           {
             "word": "Impossible to please",
             "angles": {
-              "drive": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. You are allowed to be pleased by a standard you have already met.",
+              "drive": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look instead of giving it. You are allowed to be pleased by a standard you have already met.",
               "cost_self": "Being impossible to please makes help hard to accept. Since good enough never feels safe to you, you redo what you are handed rather than let it please you. You end up carrying alone the work you would not let anyone share.",
               "cost_others": "Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard. You walk away with their ease and leave them guessing what would please you."
             }
@@ -553,6 +553,22 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people ahead of asking them. Those close to you get looked after and seldom get a say."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look ahead of giving it. You are allowed to be pleased by a standard you have already met."
     }
   ]
 }

@@ -69,7 +69,7 @@
             "word": "Passes it on",
             "angles": {
               "drive": "What you know is not finished until it is passed on. Since being useful matters more than being ahead, you hand over a lesson the day you learn it. Passing it on costs you the head start, and your knowing comes alive in others.",
-              "cost_self": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught. Others build careers on ideas that started with you.",
+              "cost_self": "Passing it on is your favorite part of knowing. Teaching the thing comes before using it, and the advantage you earned goes to whoever you taught. Others build careers on ideas that started with you.",
               "cost_others": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find. Those around you miss the thrill of the search."
             }
           },
@@ -97,7 +97,7 @@
           {
             "word": "Helps too soon",
             "angles": {
-              "drive": "You help the moment you see a need, ahead of being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried. Helping this soon, you teach them that they needed you.",
+              "drive": "You help the moment you see a need, before being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried. Helping this soon, you teach them that they needed you.",
               "cost_self": "Helping too soon fills your days with other people's tasks. Taking over feels quicker than watching it done badly, and you hold jobs nobody handed you. You give shelter to everyone else and take none yourself, and your own home is the price.",
               "cost_others": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where the win was going. You take from them the try, and the pride of a win they reached alone."
             }
@@ -531,6 +531,22 @@
       "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
       "finding": "M2 voice audit",
       "replaced": "As a friction, shelter gathers round you thicker than you need, and the near and known feel like the only safe ground. Nothing new finds room to take root."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught. Others build careers on ideas that started with you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You help the moment you see a need, ahead of being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried. Helping this soon, you teach them that they needed you."
     }
   ]
 }

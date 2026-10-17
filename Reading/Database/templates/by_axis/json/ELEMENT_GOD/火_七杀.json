@@ -76,7 +76,7 @@
           {
             "word": "Takes charge",
             "angles": {
-              "drive": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge ahead of the vote. Around you, decisions get made and the work starts.",
+              "drive": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge before the vote. Around you, decisions get made and the work starts.",
               "cost_self": "Being in charge weighs on you once you take it. You feel safer in charge alone than sharing it, so you are rarely carried. Nobody thinks to ask how you are holding up.",
               "cost_others": "Wherever a plan stalls, you take charge and mean it kindly. Because a slow group feels risky, you take charge rather than wait your turn. Your colleagues get fewer chances to decide things for themselves."
             }
@@ -105,7 +105,7 @@
           {
             "word": "Pushes too hard",
             "angles": {
-              "drive": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along ahead of asking whether they wanted pushing. You reach the result first and arrive with followers who never said yes.",
+              "drive": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along before asking whether they wanted pushing. You reach the result first and arrive with followers who never said yes.",
               "cost_self": "Each time you push too hard, you spend strength you do not have. You would rather push through than keep the energy to finish the week. You end the week short on sleep and on the strength you spent pushing.",
               "cost_others": "Pushing people toward an answer is faster than walking them there. Since you trust a push over patience, you push whoever is nearest whether they asked or not. You take away their chance to reach the answer at their own pace."
             }
@@ -113,9 +113,9 @@
           {
             "word": "Never off duty",
             "angles": {
-              "drive": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty ahead of ending the day. Remember you were made to meet a crisis rather than stay on duty after it.",
+              "drive": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty in place of ending the day. Remember you were made to meet a crisis rather than stay on duty after it.",
               "cost_self": "When one emergency ends, you look for the next rather than go off duty. You never take a rest you did not fight for, so duty is your normal. You hand every evening at home to a duty you gave yourself.",
-              "cost_others": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard ahead of someone to sit with. You keep them safe and leave them without the company they wanted."
+              "cost_others": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard in place of someone to sit with. You keep them safe and leave them without the company they wanted."
             }
           }
         ]
@@ -811,6 +811,38 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge ahead of the vote. Around you, decisions get made and the work starts."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along ahead of asking whether they wanted pushing. You reach the result first and arrive with followers who never said yes."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty ahead of ending the day. Remember you were made to meet a crisis rather than stay on duty after it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard ahead of someone to sit with. You keep them safe and leave them without the company they wanted."
     }
   ]
 }

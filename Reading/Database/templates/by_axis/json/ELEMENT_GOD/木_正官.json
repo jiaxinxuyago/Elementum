@@ -84,7 +84,7 @@
           {
             "word": "Holds the line",
             "angles": {
-              "drive": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Everyone around you is sure of the ground under their feet.",
+              "drive": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule above the exception. Everyone around you is sure of the ground under their feet.",
               "cost_self": "Holding the line costs you more than you admit. Since bending a rule feels like losing yourself, you hold it against the people you love as much as against strangers. Your fairness takes some of the warmth out of home.",
               "cost_others": "You hold the line for everyone, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. A friend in real trouble gets the same answer from you as anyone."
             }
@@ -98,7 +98,7 @@
             "word": "By the book",
             "angles": {
               "drive": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment. You are free to trust your guess wherever the book runs out.",
-              "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed.",
+              "cost_self": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book over your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed.",
               "cost_others": "Faced with a person, you reach for the book as you would for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
             }
           },
@@ -107,15 +107,15 @@
             "angles": {
               "drive": "You never bend, whatever the day asks. Because standing firm feels safer to you, you brace against a change of plan rather than lean into it. You stay loyal to the old plan long after it has stopped working.",
               "cost_self": "Never bending keeps you honest and keeps you tired. Since a new plan feels like being pushed, you hold your shape instead of saving your strength. You lose every chance that arrives as a change, and you lose it by refusing to bend.",
-              "cost_others": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. You leave the people around you holding ideas you never heard."
+              "cost_others": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no before hearing it out. You leave the people around you holding ideas you never heard."
             }
           },
           {
             "word": "Rank comes first",
             "angles": {
-              "drive": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Underneath the ranking, you want a safe place more than the right answer.",
-              "cost_self": "Even when the one being ranked is you, rank comes first. Since a title tells you how well you are doing, you choose rank ahead of liking your work. You keep moving up into jobs you would not pick for the work alone.",
-              "cost_others": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
+              "drive": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up before who is right. Underneath the ranking, you want a safe place more than the right answer.",
+              "cost_self": "Even when the one being ranked is you, rank comes first. Since a title tells you how well you are doing, you choose rank over liking your work. You keep moving up into jobs you would not pick for the work alone.",
+              "cost_others": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best rather than the one beside you. You send the credit for shared work upward, past your peers."
             }
           }
         ]
@@ -531,6 +531,54 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception. Everyone around you is sure of the ground under their feet."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "The book spares you the weight of deciding. Since a decision by the rule is never your fault, you follow the book ahead of your own read. Leaving it to the rule, you lose the judgment you never use and the step up it needed."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Before anyone asks, you make it clear that you never bend. Because a suggested change feels like a push against you, you say no ahead of hearing it out. You leave the people around you holding ideas you never heard."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Rank comes first with you, yours and everyone else's. Because a clear ladder tells you where you stand, you check who is higher up ahead of who is right. Underneath the ranking, you want a safe place more than the right answer."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Even when the one being ranked is you, rank comes first. Since a title tells you how well you are doing, you choose rank ahead of liking your work. You keep moving up into jobs you would not pick for the work alone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
     }
   ]
 }

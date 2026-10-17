@@ -68,7 +68,7 @@
           {
             "word": "Gives first",
             "angles": {
-              "drive": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Your kitchen, your toolbox and your time are open to whoever walks in.",
+              "drive": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give before knowing whether anyone needs it. Your kitchen, your toolbox and your time are open to whoever walks in.",
               "cost_self": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you. Underneath is a wish to be loved for who you are, empty-handed.",
               "cost_others": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign. The people you love rarely get to say what they wanted from you."
             }
@@ -105,7 +105,7 @@
           {
             "word": "Never says no",
             "angles": {
-              "drive": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes.",
+              "drive": "Saying no has never come easily to you. A no feels like going missing, so you say yes before checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes.",
               "cost_self": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows. You lose sleep to each yes, and one no wins some of it back.",
               "cost_others": "A no feels unkind to you, every time. Because a yes keeps the peace while a no risks it, you agree to whatever your family asks rather than weigh what you have left. Never saying no, you hand your family none of your own wishes."
             }
@@ -113,7 +113,7 @@
           {
             "word": "Comfort first",
             "angles": {
-              "drive": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. You put second to comfort the very thing you wanted most.",
+              "drive": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option over the one that pays off. You put second to comfort the very thing you wanted most.",
               "cost_self": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. Count the good chances you let go by to stay comfortable, since few of them come back.",
               "cost_others": "You put comfort first for those in your care too. You would rather see a child happy now than stretched, so you pick pleasant hours over useful ones. You trade the effort they would grow on for an hour of ease."
             }
@@ -520,6 +520,30 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Your kitchen, your toolbox and your time are open to whoever walks in."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Saying no has never come easily to you. A no feels like going missing, so you say yes ahead of checking whether you have it to give. You are allowed to check first, because a later, tired you keeps each yes."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option ahead of the one that pays off. You put second to comfort the very thing you wanted most."
     }
   ]
 }

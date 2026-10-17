@@ -70,7 +70,7 @@
             "angles": {
               "drive": "You spot the opening when it is only a gap. You wake more for a far chance than a near one, and you spot a newer opening while you are claiming this one. Your eye finds the door before anyone else sees a wall.",
               "cost_self": "Spotting the opening comes easier than staying for it. You spot to feel ahead, and once the opening is yours you look out again rather than down into it. Most of what you find pays out to whoever is left to work it.",
-              "cost_others": "Whenever you spot an opening, you tell the partner building this one with you. You spot the next one ahead of this one out loud, and your partner hears the plan move. Their week of work points at a place your mind has already left."
+              "cost_others": "Whenever you spot an opening, you tell the partner building this one with you. You name the next opening before this one is done, and your partner hears the plan move. Their week of work points at a place your mind has already left."
             }
           },
           {
@@ -547,6 +547,14 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever you spot an opening, you tell the partner building this one with you. You spot the next one ahead of this one out loud, and your partner hears the plan move. Their week of work points at a place your mind has already left."
     }
   ]
 }

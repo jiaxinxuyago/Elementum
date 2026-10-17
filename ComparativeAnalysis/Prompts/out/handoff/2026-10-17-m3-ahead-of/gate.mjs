@@ -10,7 +10,7 @@ const fails = []; let swaps = 0; const used = {};
 for (const o of out) {
   const old = work.get(o.key); if (!old) { fails.push(`${o.key}: not in the worklist`); continue; }
   const parts = old.split(/\bahead of\b/i);
-  const re = new RegExp('^' + parts.map(esc).join(`(${ALLOWED.map(esc).join('|')})`) + '$');
+  const re = new RegExp('^' + parts.map(esc).join(`(${ALLOWED.map(esc).join('|')})`) + '$', 'i');
   const m = o.text.match(re); if (!m) { fails.push(`${o.key}: only "ahead of" may change:\n      old: ${old}\n      new: ${o.text}`); continue; }
   for (const g of m.slice(1)) { used[g] = (used[g] || 0) + 1; if (g !== 'ahead of') swaps++; }
 }

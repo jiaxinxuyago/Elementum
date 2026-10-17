@@ -78,7 +78,7 @@
             "angles": {
               "drive": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. Your grasp of a subject often goes deeper than anyone guesses.",
               "cost_self": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Openings that ask for a certificate pass you by.",
-              "cost_others": "Soaking up what someone says comes ahead of deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. Your second view never reaches the people you listen to."
+              "cost_others": "Soaking up what someone says comes before deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. Your second view never reaches the people you listen to."
             }
           },
           {
@@ -105,9 +105,9 @@
           {
             "word": "Stays sheltered",
             "angles": {
-              "drive": "You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you.",
+              "drive": "You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known over the better whenever the two come apart. You pass up the life that leaving would have given you.",
               "cost_self": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again.",
-              "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
+              "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe over being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
             }
           },
           {
@@ -569,6 +569,30 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Soaking up what someone says comes ahead of deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. Your second view never reaches the people you listen to."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
     }
   ]
 }

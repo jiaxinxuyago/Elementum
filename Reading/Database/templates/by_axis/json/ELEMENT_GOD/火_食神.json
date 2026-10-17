@@ -68,7 +68,7 @@
           {
             "word": "Gives freely",
             "angles": {
-              "drive": "Giving is the easiest thing you do. You would rather be useful than be thanked, and you give ahead of being asked. The people near you feel looked after before they know they need it.",
+              "drive": "Giving is the easiest thing you do. You would rather be useful than be thanked, and you give before being asked. The people near you feel looked after before they know they need it.",
               "cost_self": "Something to give away is where you are most at ease. Giving comes before wanting, and you would sooner give one more thing than name what you need. Underneath, you want someone to offer before you have to ask.",
               "cost_others": "Whenever the people around you need something, you have given it before they ask. Providing feels safer than receiving, so you hand out more than you let in. Those close to you seldom get the pleasure of returning the favour."
             }
@@ -77,7 +77,7 @@
             "word": "Enjoys out loud",
             "angles": {
               "drive": "Enjoying something quietly was never your way. You feel a pleasure fully only once it is shared, and you would rather enjoy a small thing with company than a big thing alone. A dinner with you turns into an occasion.",
-              "cost_self": "Enjoyment only counts for you when it is shared. You write off an evening alone as wasted, and you pick less enjoyment in company ahead of more by yourself. Hours on your own feel empty, and the good in them passes you by.",
+              "cost_self": "Enjoyment only counts for you when it is shared. You write off an evening alone as wasted, and you pick less enjoyment in company over more by yourself. Hours on your own feel empty, and the good in them passes you by.",
               "cost_others": "Whatever you enjoy, you pull the people near you into enjoying as well. You run the fun rather than have it, and you leave little for the quieter people to add. Their own ideas of a good time get lost inside yours."
             }
           },
@@ -85,7 +85,7 @@
             "word": "Effortless",
             "angles": {
               "drive": "What you make comes out without strain. Ease is the sign you trust, and you do the thing that flows sooner than you force the thing that counts. Your work has a lightness people feel at once.",
-              "cost_self": "Effort was never your measure of worth. You rate what comes easily below what you fought for, so you hand the easy work over free ahead of charging for it. Your income is smaller than your talent.",
+              "cost_self": "Effort was never your measure of worth. You rate what comes easily below what you fought for, so you hand the easy work over free instead of charging for it. Your income is smaller than your talent.",
               "cost_others": "You make hard things look easy. You show the finished thing sooner than the work, and you leave the people learning from you the ease without the steps. Anyone watching you sees how good the result can be."
             }
           }
@@ -97,9 +97,9 @@
           {
             "word": "Never says no",
             "angles": {
-              "drive": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes ahead of checking the cost. You owe no one a reason for saying no.",
+              "drive": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes before checking the cost. You owe no one a reason for saying no.",
               "cost_self": "Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Each rest you turn down, you pay for later with your health.",
-              "cost_others": "You answer whoever asks first with a yes, and you leave the people at home what is left. Pleasing the person in front of you comes ahead of keeping your word at home. You give your family the leftovers of a day promised to others."
+              "cost_others": "You answer whoever asks first with a yes, and you leave the people at home what is left. Pleasing the person in front of you comes before keeping your word at home. You give your family the leftovers of a day promised to others."
             }
           },
           {
@@ -113,8 +113,8 @@
           {
             "word": "Pleasure first",
             "angles": {
-              "drive": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. You were after feeling alive all along, and pleasure was only the quickest way.",
-              "cost_self": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now ahead of health later. You pay for it in the body, and the body keeps a longer memory than you do.",
+              "drive": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option over the needed one. You were after feeling alive all along, and pleasure was only the quickest way.",
+              "cost_self": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.",
               "cost_others": "Whenever a plan with others meets your pleasure, you choose the pleasure. You take a good time now sooner than a promise kept later, and you spend the house money on the evening. You take their share and leave them short on plans made together."
             }
           }
@@ -547,6 +547,62 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Giving is the easiest thing you do. You would rather be useful than be thanked, and you give ahead of being asked. The people near you feel looked after before they know they need it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Enjoyment only counts for you when it is shared. You write off an evening alone as wasted, and you pick less enjoyment in company ahead of more by yourself. Hours on your own feel empty, and the good in them passes you by."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Effort was never your measure of worth. You rate what comes easily below what you fought for, so you hand the easy work over free ahead of charging for it. Your income is smaller than your talent."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes ahead of checking the cost. You owe no one a reason for saying no."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You answer whoever asks first with a yes, and you leave the people at home what is left. Pleasing the person in front of you comes ahead of keeping your word at home. You give your family the leftovers of a day promised to others."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option ahead of the needed one. You were after feeling alive all along, and pleasure was only the quickest way."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now ahead of health later. You pay for it in the body, and the body keeps a longer memory than you do."
     }
   ]
 }

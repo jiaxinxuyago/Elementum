@@ -85,7 +85,7 @@
             "word": "Shares the win",
             "angles": {
               "drive": "A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. In a good year, everyone at your table eats well.",
-              "cost_self": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. Your own cushion never gets the chance to grow.",
+              "cost_self": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Your own cushion never gets the chance to grow.",
               "cost_others": "You share each win rather than sit on it. Giving in bursts is your way of loving, and you hand them plenty one year and nothing the next. Nobody near you ever doubts where your heart is."
             }
           }
@@ -579,6 +579,14 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes ahead of keeping. Your own cushion never gets the chance to grow."
     }
   ]
 }

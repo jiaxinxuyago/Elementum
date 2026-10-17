@@ -84,7 +84,7 @@
           {
             "word": "Decides alone",
             "angles": {
-              "drive": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. Your choices come quick and clean, with nobody else's doubts mixed in.",
+              "drive": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself instead of a second view. Your choices come quick and clean, with nobody else's doubts mixed in.",
               "cost_self": "Alone with a decision, you are at your most sure. You keep the choice yours rather than take a second opinion, the one place blind spots get named. The mistakes a friend would have caught are yours to pay for.",
               "cost_others": "Each time you decide alone, you decide for the people it touches too. You settle it first, and a peer hears the plan instead of shaping it. The people closest to you live by choices they had no part in."
             }
@@ -515,6 +515,14 @@
       "ruling": "Owner 2026-10-17: M6 (lost rest is the cost at most once per page)",
       "finding": "M6 rest once per page",
       "replaced": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. You miss out on the rest that help would have given you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. Your choices come quick and clean, with nobody else's doubts mixed in."
     }
   ]
 }

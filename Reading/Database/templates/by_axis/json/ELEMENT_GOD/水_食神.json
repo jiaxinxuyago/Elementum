@@ -68,7 +68,7 @@
           {
             "word": "Giving",
             "angles": {
-              "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, and you give the help ahead of the ask. You were never giving to earn your place.",
+              "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, and you give the help before the ask. You were never giving to earn your place.",
               "cost_self": "Where a need is in front of you, you give before asking whose it was. You keep giving instead of wanting, until your own wants sit last in line. Somewhere under all of it, you would like to be looked after too.",
               "cost_others": "Long before the question, you give people what they need. You give the answer rather than let the ones you love ask, and you leave them out of practice. Your people seldom get to come to you with a request of their own."
             }
@@ -779,6 +779,14 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, and you give the help ahead of the ask. You were never giving to earn your place."
     }
   ]
 }

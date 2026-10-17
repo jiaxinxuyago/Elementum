@@ -69,7 +69,7 @@
             "word": "Finishes things",
             "angles": {
               "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. The things you make arrive whole, every edge seen to.",
-              "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
+              "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift before the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
               "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. The one it is for gets your polish and misses the hours behind it."
             }
           },
@@ -105,7 +105,7 @@
           {
             "word": "Gives too much",
             "angles": {
-              "drive": "Giving is how you know you are here. The made thing in someone's hands proves you more than anything kept, so you give what you made away ahead of keeping any of it. You leave yourself off the list of people you give to.",
+              "drive": "Giving is how you know you are here. The made thing in someone's hands proves you more than anything kept, so you give what you made away rather than keeping any of it. You leave yourself off the list of people you give to.",
               "cost_self": "Giving too much leaves you with the least. Since keeping a thing for yourself feels mean to you, you give the best one away rather than hold on to it. With every gift, you give away a little more of your own rest.",
               "cost_others": "When you love someone, you give before they ask. Giving feels more natural to you than keeping, so you hand over even the things you need. By giving it all, you leave the people you love no chance to look after you."
             }
@@ -531,6 +531,22 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. The best part of the work goes by while your mind waits for the end."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Giving is how you know you are here. The made thing in someone's hands proves you more than anything kept, so you give what you made away ahead of keeping any of it. You leave yourself off the list of people you give to."
     }
   ]
 }

@@ -1,0 +1,538 @@
+{
+ "renames": [
+  {
+   "cell": "火_正官",
+   "persona": "the Magistrate",
+   "pole": "friction",
+   "i": 2,
+   "word": "Never says no",
+   "angles": {
+    "drive": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you never say no to the next request ahead of finishing the last. You pay for your standing in the strength that keeps it.",
+    "cost_self": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes ahead of getting home, you trade sleep for another duty. By the end of most weeks, you are short of sleep and of the strength to say yes.",
+    "cost_others": "Saying yes to everyone keeps your place in their lives. Because a refusal feels like lost standing, you give everyone a slice rather than anyone your whole self. You save the thinnest slice for those who need you most."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Keeps every promise",
+     "By the book",
+     "Earns the title"
+    ],
+    "friction": [
+     "Rule-bound",
+     "Afraid to slip",
+     "Never says no"
+    ]
+   },
+   "why": "Never says no is the Artisan's keyword (Wood, Fire)."
+  },
+  {
+   "cell": "金_正财",
+   "persona": "the Steward",
+   "pole": "catalyst",
+   "i": 2,
+   "word": "Keeps your word",
+   "angles": {
+    "drive": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept ahead of your way out. A handshake with you is as good as a contract.",
+    "cost_self": "Changing your mind is harder than keeping your word. Your word stays kept past its reason rather than broken, since breaking it dents how steady you feel. Being someone whose yes never moves is what you need underneath.",
+    "cost_others": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Old promises stay binding on both of you, long after the mood that made them."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Finishes things",
+     "Saves first",
+     "Keeps your word"
+    ],
+    "friction": [
+     "Holds on tight",
+     "Plays it safe",
+     "Avoids change"
+    ]
+   },
+   "why": "Keeps your word is the Magistrate's keyword (Wood, Metal)."
+  },
+  {
+   "cell": "木_偏印",
+   "persona": "the Alchemist",
+   "pole": "catalyst",
+   "i": 2,
+   "word": "Sleeps on it",
+   "angles": {
+    "drive": "You sleep on a question rather than answer on the spot. Forcing an answer now feels like lying to you, and you give the question a night first. Your decisions come late and hold up for years.",
+    "cost_self": "Sleeping on a question makes the answer real. Being sure later matters more to you than being in it now, so the opening that wanted an answer closes. Some good chances go to quicker people while you are still deciding.",
+    "cost_others": "With an answer someone needs, you sleep on it before you give it. Sleeping on it matters more than a quick reply, and you leave whoever asked waiting longer. What they get from you in the end is a word you will stand by."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Senses it first",
+     "Self-taught",
+     "Sleeps on it"
+    ],
+    "friction": [
+     "Thinks in circles",
+     "Keeps it in",
+     "Hides away"
+    ]
+   },
+   "why": "Sleeps on it is the Steward's keyword (Water)."
+  },
+  {
+   "cell": "金_偏财",
+   "persona": "the Horizon",
+   "pole": "catalyst",
+   "i": 2,
+   "word": "Gives freely",
+   "angles": {
+    "drive": "Giving freely is what you do first with what comes in. You feel money belongs to whoever needs it next, and you give it on rather than set it aside. Friends in a tight month find your hand already open.",
+    "cost_self": "Keeping is harder for you than giving freely. You would rather give money on than sit with it, since holding still feels like being stuck. Your own hard year finds the account empty.",
+    "cost_others": "With the people around you, giving freely is how you stay close. You give to the newest friend more freely than to the oldest one, since newness is what moves you. Your household lives on whatever is left over."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Spots the opening",
+     "Starts fast",
+     "Gives freely"
+    ],
+    "friction": [
+     "Always moving on",
+     "Spread thin",
+     "Spends it all"
+    ]
+   },
+   "why": "Gives freely is the Artisan's keyword (Fire)."
+  },
+  {
+   "cell": "土_正印",
+   "persona": "the Sage",
+   "pole": "friction",
+   "i": 0,
+   "word": "Plays it safe",
+   "angles": {
+    "drive": "Playing it safe is a choice you make before looking at the others. You carry Earth past what you need, so you play safe to be held instead of tested. You rest in the safe place rather than live in it.",
+    "cost_self": "Most days you play safe without noticing you chose. Because you fear the unknown more than you mind being bored, you pick the safe one and call the boredom peace. You buy that peace with the chances you turn down untried.",
+    "cost_others": "Handed someone's plan to change the shared life, you play safe for both. Keeping things as they are matters more than any change, and you slow it down. You take away their equal say in the life you share."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Calming presence",
+     "Knows what works",
+     "Patient teacher"
+    ],
+    "friction": [
+     "Plays it safe",
+     "Overprotective",
+     "Same old answers"
+    ]
+   },
+   "why": "Plays it safe is the Steward's keyword (Fire, Metal). Write it to the owner's reading of the Sage: drawn to shelter, or shelter comes to them."
+  },
+  {
+   "cell": "水_正官",
+   "persona": "the Magistrate",
+   "pole": "friction",
+   "i": 0,
+   "word": "Plays it safe",
+   "angles": {
+    "drive": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. You pay for playing it safe in chances you never took.",
+    "cost_self": "Playing safe keeps the floor under you. Because a wrong move costs you more than a missed one, you keep playing it safe with the job you have. You let every chance you play safe around close, and the work you wanted goes with it.",
+    "cost_others": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail. You put their plans on hold for as long as you hesitate."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Follows through",
+     "Earns trust slowly",
+     "Paces yourself"
+    ],
+    "friction": [
+     "Plays it safe",
+     "Waits for permission",
+     "Bites your tongue"
+    ]
+   },
+   "why": "Plays it safe is the Steward's keyword. Owner-approved new word: \"Holds the yes\" (use it).",
+   "approved_word": "Holds the yes"
+  },
+  {
+   "cell": "土_七杀",
+   "persona": "the General",
+   "pole": "friction",
+   "i": 2,
+   "word": "Shuts people out",
+   "angles": {
+    "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. You lose the closeness along with the pressure you keep out.",
+    "cost_self": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away.",
+    "cost_others": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Calm under pressure",
+     "Takes charge",
+     "Pushes through"
+    ],
+    "friction": [
+     "Hard on yourself",
+     "Never off duty",
+     "Shuts people out"
+    ]
+   },
+   "why": "Shuts people out is the Twin's keyword (Earth). The General drifted into the Twin's withdrawal here; write the General (takes charge, hard on yourself, never off duty)."
+  },
+  {
+   "cell": "土_食神",
+   "persona": "the Artisan",
+   "pole": "catalyst",
+   "i": 1,
+   "word": "Makes things last",
+   "angles": {
+    "drive": "What you make is made to last, slowly and on purpose. The making itself is the enjoyment, so you make things for the years rather than for the showing. Your work is still in daily use long after the fashion has moved on.",
+    "cost_self": "Making things last is your idea of doing something right. Since the work is only right once it holds, you would rather be finished than first. Rougher versions reach people before yours do, and the praise goes with them.",
+    "cost_others": "You make things last for your family rather than arrive on time. You never count the waiting, and next year you deliver what was needed this year. They manage without for a year while your careful version takes shape."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Gives first",
+     "Makes things last",
+     "Happy with enough"
+    ],
+    "friction": [
+     "Never stops giving",
+     "Drifts along",
+     "Too soft"
+    ]
+   },
+   "why": "Makes things last is the Steward's keyword (Earth). The auditor proposed \"Unhurried\" for the Artisan, the one who enjoys the making."
+  },
+  {
+   "cell": "水_比肩",
+   "persona": "the Twin",
+   "pole": "friction",
+   "i": 0,
+   "word": "Hard to reach",
+   "angles": {
+    "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you want someone to reach you all the same.",
+    "cost_self": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own.",
+    "cost_others": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You make the people closest to you do all the reaching."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Carries own weight",
+     "Even pace",
+     "Decides alone"
+    ],
+    "friction": [
+     "Hard to reach",
+     "Never asks",
+     "Expects the same"
+    ]
+   },
+   "why": "Hard to reach is the Alchemist's keyword (Earth, Metal, Water)."
+  },
+  {
+   "cell": "金_食神",
+   "persona": "the Artisan",
+   "pole": "catalyst",
+   "i": 0,
+   "word": "Finishes things",
+   "angles": {
+    "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. The things you make arrive whole, every edge seen to.",
+    "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
+    "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. The one it is for gets your polish and misses the hours behind it."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Finishes things",
+     "Chooses well",
+     "Teaches by doing"
+    ],
+    "friction": [
+     "Hard to please",
+     "Gives too much",
+     "Takes it easy"
+    ]
+   },
+   "why": "Finishes things is the Steward's keyword (Metal). The Artisan on Metal had drifted into a perfectionist; write the Artisan (makes and gives with ease and enjoyment)."
+  },
+  {
+   "cell": "金_正印",
+   "persona": "the Sage",
+   "pole": "friction",
+   "i": 2,
+   "word": "Loves by correcting",
+   "angles": {
+    "drive": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Remember that you are allowed to sit with a sad thing and fix nothing.",
+    "cost_self": "Loving by correcting costs you the ones who stop bringing things. You put being useful to someone ahead of being close to them, and the corrected learn to bring you only finished things. You get respect for it, and the closeness goes somewhere less exact.",
+    "cost_others": "Correcting is what you give people wanting comfort. You would rather set people straight than let them be, and you send them home taught instead of held. With every correction, you take from them the comfort they came for."
+   },
+   "cell_keywords": {
+    "catalyst": [
+     "Keeps a confidence",
+     "Learns it properly",
+     "Steadies people"
+    ],
+    "friction": [
+     "Stays the student",
+     "Too protective",
+     "Loves by correcting"
+    ]
+   },
+   "why": "\"Loves by correcting\" is neither side of the Sage. Owner-approved new word \"Waits to be told\" with an approved drive (in approved_drive); write cost_self and cost_others to match.",
+   "approved_word": "Waits to be told",
+   "approved_drive": "You wait to be told before you trust your own read. A word from someone wiser feels like cover, and you keep asking long after you know. You hand your best judgement to people who know less than you do."
+  }
+ ],
+ "texts": [
+  {
+   "key": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "text": "Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson. Your warmth reaches them a step behind your advice.",
+   "why": "The Sage on Metal turns into a corrector here (\"hand the one who came for comfort a lesson\"). Rewrite the first two sentences to the owner's reading of the Sage; the close (from M1) may stay if it still fits.",
+   "persona": "the Sage"
+  },
+  {
+   "key": "K2 水_正印 · fn_reading.friction.ledger[2].angles.drive",
+   "text": "You over-protect the people you love from what they could survive. Watching someone struggle hurts you more than doing it for them, so the help comes before the asking. Remember that you love them just as much when you let them struggle.",
+   "why": "This page also shows \"Lets it drift\" and \"Stays sheltered\". Link them as the owner approved for the Fire Sage: protecting others is the outer act of someone who wants shelter. Change only the middle sentence, e.g. \"Feeling safe is what you want most, and you shelter them the way you wish to be sheltered.\" The friction close may stay.",
+   "persona": "the Sage"
+  }
+ ],
+ "all_keyword_words": [
+  "Afraid to slip",
+  "All in together",
+  "All or nothing",
+  "Always comparing",
+  "Always making",
+  "Always moving on",
+  "Always right",
+  "Asks no one",
+  "Avoids change",
+  "Best when watched",
+  "Bets big",
+  "Bets the rent",
+  "Bets too big",
+  "Better with rivals",
+  "Bites your tongue",
+  "Born performer",
+  "Bounces back",
+  "By the book",
+  "Calm under pressure",
+  "Calming presence",
+  "Carries own weight",
+  "Catches ambition",
+  "Chases every chance",
+  "Chases the new",
+  "Chooses well",
+  "Clear under pressure",
+  "Clear-headed in crisis",
+  "Coasts along",
+  "Comfort first",
+  "Competitive",
+  "Consistent",
+  "Counts every cost",
+  "Counts everything",
+  "Decides alone",
+  "Decides fast",
+  "Does it alone",
+  "Does it properly",
+  "Drifts",
+  "Drifts along",
+  "Earns every step",
+  "Earns the title",
+  "Earns trust slowly",
+  "Earns your place",
+  "Effortless",
+  "Enjoys out loud",
+  "Even pace",
+  "Even-handed",
+  "Expects the same",
+  "Far-sighted",
+  "Finishes things",
+  "First to bet",
+  "Follows every rule",
+  "Follows through",
+  "Generous",
+  "Gives easily",
+  "Gives first",
+  "Gives freely",
+  "Gives it away",
+  "Gives it time",
+  "Gives too much",
+  "Giving",
+  "Goes all in",
+  "Goes cold",
+  "Goes deep",
+  "Goes first",
+  "Goes it alone",
+  "Goes off script",
+  "Goes too far",
+  "Good listener",
+  "Grades people",
+  "Half-finished",
+  "Happy with enough",
+  "Hard on yourself",
+  "Hard to move",
+  "Hard to please",
+  "Hard to reach",
+  "Hates being wrong",
+  "Hates losing",
+  "Hates to lose",
+  "Hates to spend",
+  "Helps too soon",
+  "Hides away",
+  "Holds back",
+  "Holds it back",
+  "Holds on tight",
+  "Holds steady",
+  "Holds the line",
+  "Holds things in",
+  "Holds too tight",
+  "Impossible to please",
+  "Jumps in first",
+  "Keeps a confidence",
+  "Keeps distance",
+  "Keeps every promise",
+  "Keeps everything",
+  "Keeps it going",
+  "Keeps it in",
+  "Keeps score",
+  "Keeps your word",
+  "Knows what works",
+  "Leads without shouting",
+  "Leans on others",
+  "Learns it properly",
+  "Leaves too soon",
+  "Lets it drift",
+  "Looks after people",
+  "Looks past home",
+  "Looks past people",
+  "Loves a race",
+  "Loves by correcting",
+  "Loves high stakes",
+  "Loyal",
+  "Makes things last",
+  "Mocking",
+  "Moves early",
+  "Needs an audience",
+  "Needs no backup",
+  "Needs permission",
+  "Never asks",
+  "Never bends",
+  "Never done checking",
+  "Never enough",
+  "Never lets up",
+  "Never off",
+  "Never off duty",
+  "Never quite ready",
+  "Never says no",
+  "Never stops giving",
+  "Never stops racing",
+  "Never switches off",
+  "One-track",
+  "Original",
+  "Over-protects",
+  "Overdoes it",
+  "Overprotective",
+  "Overshares",
+  "Paces yourself",
+  "Passes it on",
+  "Patient",
+  "Patient builder",
+  "Patient teacher",
+  "Picks fights",
+  "Picks the moment",
+  "Plays fair",
+  "Plays it safe",
+  "Pleasure first",
+  "Protects too much",
+  "Proves it",
+  "Pushes back",
+  "Pushes through",
+  "Pushes too hard",
+  "Puts rules first",
+  "Quick to start",
+  "Quick-witted",
+  "Races in secret",
+  "Rank comes first",
+  "Rarely fooled",
+  "Reads between lines",
+  "Reads people",
+  "Recovers alone",
+  "Relaxed",
+  "Rewrites the rules",
+  "Rises to it",
+  "Rule-bound",
+  "Same old answers",
+  "Saves first",
+  "Says it straight",
+  "Says too much",
+  "Sealed-off",
+  "Second-guesses",
+  "Sees chances early",
+  "Sees it coming",
+  "Sees it whole",
+  "Self-made",
+  "Self-starting",
+  "Self-taught",
+  "Senses it first",
+  "Sets own bar",
+  "Sets own pace",
+  "Sets the bar",
+  "Sets the standard",
+  "Shares freely",
+  "Shares the credit",
+  "Shares the risk",
+  "Shares the win",
+  "Shows off",
+  "Shows up daily",
+  "Shuts people out",
+  "Side by side",
+  "Sleeps on it",
+  "Slow to change",
+  "Slow to judge",
+  "Slow to trust",
+  "Soaks it up",
+  "Solo thinker",
+  "Speaks plainly",
+  "Speaks up",
+  "Spends for show",
+  "Spends freely",
+  "Spends it all",
+  "Spends it fast",
+  "Spends shared money",
+  "Spends to win",
+  "Spots openings",
+  "Spots the opening",
+  "Spread thin",
+  "Spread too thin",
+  "Stands out",
+  "Starts fast",
+  "Stays put",
+  "Stays sheltered",
+  "Stays the student",
+  "Stays too long",
+  "Steadies people",
+  "Takes charge",
+  "Takes it easy",
+  "Takes no advice",
+  "Takes people in",
+  "Takes the chance",
+  "Talks back",
+  "Teaches by doing",
+  "Tests everything",
+  "Thinks alone",
+  "Thinks best alone",
+  "Thinks fast",
+  "Thinks in circles",
+  "Thinks too much",
+  "Thrives under pressure",
+  "Too comfortable",
+  "Too direct",
+  "Too exact",
+  "Too protective",
+  "Too soft",
+  "Unforced",
+  "Unteachable",
+  "Waits for permission",
+  "Waits too long",
+  "Walls people out",
+  "Warm",
+  "Won't be told"
+ ]
+}

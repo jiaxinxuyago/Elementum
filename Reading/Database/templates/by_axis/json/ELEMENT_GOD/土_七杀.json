@@ -68,8 +68,8 @@
           {
             "word": "Calm under pressure",
             "angles": {
-              "drive": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment ahead of the ordinary day. In a crisis, people look around and find you already steady.",
-              "cost_self": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis ahead of an ordinary week, and the ordinary weeks get skipped. Most of your life happens between emergencies, and you are only half there for it.",
+              "drive": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment rather than the ordinary day. In a crisis, people look around and find you already steady.",
+              "cost_self": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis rather than an ordinary week, and the ordinary weeks get skipped. Most of your life happens between emergencies, and you are only half there for it.",
               "cost_others": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, and you take it off their hands before their calm gets a chance. Their own footing never gets tested."
             }
           },
@@ -99,7 +99,7 @@
             "angles": {
               "drive": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in calm you never get back.",
               "cost_self": "Once a job is done, you are hard on yourself about the part that fell short. You would rather judge your own work than let anyone else, and the praise never gets in. You never let yourself spend the credit you earned.",
-              "cost_others": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You take from them the plain comfort of looking after you."
+              "cost_others": "You stay hard on yourself in front of the people you love. Getting it right comes first, before being easy company, so each kindness you refuse teaches them to keep theirs. You take from them the plain comfort of looking after you."
             }
           },
           {
@@ -563,6 +563,30 @@
       "ruling": "Owner 2026-10-17: M6 (lost rest is the cost at most once per page)",
       "finding": "M6 rest once per page",
       "replaced": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them. You pay for getting there first in sleep you never get back."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You stay calm under pressure, and it shows. Pressure hands you something solid to hold, and you save your calm for the hard moment ahead of the ordinary day. In a crisis, people look around and find you already steady."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever pressure comes on, you turn calm. You spend that calm on a crisis ahead of an ordinary week, and the ordinary weeks get skipped. Most of your life happens between emergencies, and you are only half there for it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You take from them the plain comfort of looking after you."
     }
   ]
 }

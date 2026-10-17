@@ -70,7 +70,7 @@
             "angles": {
               "drive": "Keeping your word is the standard you hold above every other. A promise is a rule of your own making, and you would rather carry a hard yes to the end than give an easy maybe. People build their plans on what you say.",
               "cost_self": "Once given, your word outranks your own change of mind. You would rather be stuck in a promise than break it, and you remain long after it stopped fitting. Years of your life go to promises made by a younger you.",
-              "cost_others": "The word you keep is the one you quietly expect from everyone. A promise binds you, and you hold people to their exact words ahead of their meaning. Those around you weigh each casual remark before saying it to you."
+              "cost_others": "The word you keep is the one you quietly expect from everyone. A promise binds you, and you hold people to their exact words more than their meaning. Those around you weigh each casual remark before saying it to you."
             }
           },
           {
@@ -78,7 +78,7 @@
             "angles": {
               "drive": "Doing it properly is the only way you know. A rule gives your effort a shape, and you follow the proper procedure rather than any shortcut. Work that passes through your hands stands up to any inspection.",
               "cost_self": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserved. Your evenings go to jobs that nobody would ever check.",
-              "cost_others": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step ahead of thanks. Anyone trained by you learns the trade with no bad habits to undo."
+              "cost_others": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step instead of thanks. Anyone trained by you learns the trade with no bad habits to undo."
             }
           },
           {
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Earning your place counts for more with you than being handed one. Rank only feels earned when the rules gave it, and you choose the slow route rather than the shortcut. A title built step by step is one no rival takes from you.",
               "cost_self": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Louder colleagues reach the jobs you were ready for years before.",
-              "cost_others": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record ahead of the talent. Bright newcomers wait a long time for your nod."
+              "cost_others": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record more than the talent. Bright newcomers wait a long time for your nod."
             }
           }
         ]
@@ -107,7 +107,7 @@
             "angles": {
               "drive": "Hating being wrong is the part of you that works hardest. A mistake marks your name in your eyes, and you give silence in place of any answer that risks being wrong. You go silent on the answers you had right.",
               "cost_self": "Being wrong is what you have no procedure for. Right answers feel like the only safe ones, and you hold opinions back rather than risk being wrong. You lose every idea you kept back for fear of being wrong.",
-              "cost_others": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong."
+              "cost_others": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer before hearing where it went wrong. You cost those near you the right to call you wrong."
             }
           },
           {
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Putting rules first is how you stay steady. A rule asks nothing of your judgement, and you follow it rather than read the person in front of you. Keep this with you, that you hold the rule and the rule does not hold you.",
               "cost_self": "Rules come first with you, even ones that hurt. Breaking a rule feels like losing standing, and you stay inside a dead rule rather than step out. You miss out on the standing that one broken rule would have earned you.",
-              "cost_others": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it ahead of the person's case. Each time the rule goes first, you take away their fair hearing."
+              "cost_others": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it before the person's case. Each time the rule goes first, you take away their fair hearing."
             }
           }
         ]
@@ -539,6 +539,46 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "The word you keep is the one you quietly expect from everyone. A promise binds you, and you hold people to their exact words ahead of their meaning. Those around you weigh each casual remark before saying it to you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step ahead of thanks. Anyone trained by you learns the trade with no bad habits to undo."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record ahead of the talent. Bright newcomers wait a long time for your nod."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer ahead of hearing where it went wrong. You cost those near you the right to call you wrong."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it ahead of the person's case. Each time the rule goes first, you take away their fair hearing."
     }
   ]
 }

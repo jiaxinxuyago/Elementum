@@ -68,9 +68,9 @@
           {
             "word": "Says it straight",
             "angles": {
-              "drive": "Saying it straight is the only way you know. A softened truth feels like a lie with manners to you, and you name what is wrong ahead of smoothing it over. Whoever asks your view walks away with the real one.",
+              "drive": "Saying it straight is the only way you know. A softened truth feels like a lie with manners to you, and you name what is wrong rather than smoothing it over. Whoever asks your view walks away with the real one.",
               "cost_self": "Being straight costs you the welcome. Because being right out loud matters more than comfort to you, you say the unsaid thing and lose a few invitations. What you want is a circle where honesty counts as a kindness.",
-              "cost_others": "Whenever something is wrong, you say so before you say anything kind. Being exact feels more honest to you than being gentle, and you hand people the mistake ahead of the credit. Your praise reaches them late, after the sting has landed."
+              "cost_others": "Whenever something is wrong, you say so before you say anything kind. Being exact feels more honest to you than being gentle, and you hand people the mistake before the credit. Your praise reaches them late, after the sting has landed."
             }
           },
           {
@@ -86,13 +86,13 @@
             "angles": {
               "drive": "Being watched brings out your best work. A thing done unseen feels half real to you, and you perform with someone watching rather than practice alone. Anyone in the seats gets years of your craft in a single hour.",
               "cost_self": "Your best needs a witness. With no one there to rise for, you let the private hours go slack rather than drill them, and the talent that grows unseen stays small. Applause is what you are after, and an empty hall gives none.",
-              "cost_others": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers ahead of the people at home. Your own household gets you after the show, the shine already spent."
+              "cost_others": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers over the people at home. Your own household gets you after the show, the shine already spent."
             }
           }
         ]
       },
       "friction": {
-        "define": "As a friction, the gate stays wide open, since being exact is how you feel safe. Your edge comes out ahead of your warmth, and closeness pays for it.",
+        "define": "As a friction, the gate stays wide open, since being exact is how you feel safe. Your edge comes out before your warmth, and closeness pays for it.",
         "ledger": [
           {
             "word": "Too direct",
@@ -539,6 +539,38 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Saying it straight is the only way you know. A softened truth feels like a lie with manners to you, and you name what is wrong ahead of smoothing it over. Whoever asks your view walks away with the real one."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever something is wrong, you say so before you say anything kind. Being exact feels more honest to you than being gentle, and you hand people the mistake ahead of the credit. Your praise reaches them late, after the sting has landed."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers ahead of the people at home. Your own household gets you after the show, the shine already spent."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "As a friction, the gate stays wide open, since being exact is how you feel safe. Your edge comes out ahead of your warmth, and closeness pays for it."
     }
   ]
 }

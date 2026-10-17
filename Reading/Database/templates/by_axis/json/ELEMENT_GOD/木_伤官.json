@@ -97,9 +97,9 @@
           {
             "word": "Talks back",
             "angles": {
-              "drive": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You win the moment by talking back and spend the week on the repairs.",
+              "drive": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it before hearing it out. You win the moment by talking back and spend the week on the repairs.",
               "cost_self": "Your self-respect runs on talking back. Giving in would mean losing yourself, and you would rather talk back than ask what the rule is for. Each time you talk back, you also turn away help that would have grown your talent.",
-              "cost_others": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself ahead of hearing what was offered. You hand them an argument where they asked for your ear."
+              "cost_others": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself before hearing what was offered. You hand them an argument where they asked for your ear."
             }
           },
           {
@@ -515,6 +515,22 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it ahead of hearing it out. You win the moment by talking back and spend the week on the repairs."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You talk back to family as easily as to anyone in charge. Because a correction feels like an attack, you defend yourself ahead of hearing what was offered. You hand them an argument where they asked for your ear."
     }
   ]
 }

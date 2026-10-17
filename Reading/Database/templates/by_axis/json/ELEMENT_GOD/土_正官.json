@@ -77,15 +77,15 @@
             "word": "Plays fair",
             "angles": {
               "drive": "You play fair even when it costs you the win. You only trust a rule that applies to everyone, and you keep yourself to it rather than make yourself the exception. People who lose to you still shake your hand.",
-              "cost_self": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes ahead of arriving first, and the quick wins go to people who care less. A clean conscience matters to you more than any title.",
-              "cost_others": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes ahead of being on anyone's side, and you never pick theirs either. Your own people sometimes wanted a champion and got a referee."
+              "cost_self": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes above arriving first, and the quick wins go to people who care less. A clean conscience matters to you more than any title.",
+              "cost_others": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes before being on anyone's side, and you never pick theirs either. Your own people sometimes wanted a champion and got a referee."
             }
           },
           {
             "word": "Sets the standard",
             "angles": {
               "drive": "You set the standard before anyone asks for one. You would rather set a clear standard than argue over one, and the one you set binds you first. Around you, everyone knows what good looks like.",
-              "cost_self": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure ahead of anyone else's, and yours sits a step above you. Your best days still feel like falling short.",
+              "cost_self": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure over anyone else's, and yours sits a step above you. Your best days still feel like falling short.",
               "cost_others": "You set a standard for the whole group. You hold people to a standard they can see rather than guess at, and the standard you set is theirs to meet too. Your group works to a mark it had no say in choosing."
             }
           }
@@ -547,6 +547,30 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes ahead of arriving first, and the quick wins go to people who care less. A clean conscience matters to you more than any title."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes ahead of being on anyone's side, and you never pick theirs either. Your own people sometimes wanted a champion and got a referee."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure ahead of anyone else's, and yours sits a step above you. Your best days still feel like falling short."
     }
   ]
 }

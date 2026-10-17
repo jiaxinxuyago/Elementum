@@ -99,7 +99,7 @@
             "angles": {
               "drive": "In new company, you are comparing before you have said much. A clear rank makes you feel safe, and you compare yourself to someone rather than get to know them. You wanted a place among them, and ranking felt like the quick way in.",
               "cost_self": "Always comparing gives you a result and never rest. You would rather know where you rank than enjoy where you are, so no win gets time to feel like one. You lose the quiet of a good week to a score you keep alone.",
-              "cost_others": "Whenever a friend has good news, you compare before you say well done. You measure the gap ahead of being glad for them, and you give less praise than they earned. You take some of the joy out of the news they bring you."
+              "cost_others": "Whenever a friend has good news, you compare before you say well done. You measure the gap before being glad for them, and you give less praise than they earned. You take some of the joy out of the news they bring you."
             }
           },
           {
@@ -531,6 +531,14 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Whenever a friend has good news, you compare before you say well done. You measure the gap ahead of being glad for them, and you give less praise than they earned. You take some of the joy out of the news they bring you."
     }
   ]
 }

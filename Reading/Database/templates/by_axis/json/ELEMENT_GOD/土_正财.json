@@ -69,16 +69,16 @@
             "word": "Makes things last",
             "angles": {
               "drive": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Under your hands, old things keep earning their place.",
-              "cost_self": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Your weekends go to mending things worth less than the time they take.",
+              "cost_self": "Making things last keeps you in control of what you own. You put hours into repairs instead of the better thing on offer, because replacing feels like waste. Your weekends go to mending things worth less than the time they take.",
               "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Your family seldom gets to pick something new for themselves."
             }
           },
           {
             "word": "Saves first",
             "angles": {
-              "drive": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. A bad month never finds you short.",
+              "drive": "Saving comes first for you, before the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. A bad month never finds you short.",
               "cost_self": "Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. Year after year, the treats you promised yourself stay on the list.",
-              "cost_others": "You save for the people you love ahead of spending on them. A safe future is the gift you trust, and you give them the cushion rather than the dinner. Whatever comes, your family has something to fall back on."
+              "cost_others": "You save for the people you love before spending on them. A safe future is the gift you trust, and you give them the cushion rather than the dinner. Whatever comes, your family has something to fall back on."
             }
           },
           {
@@ -587,6 +587,30 @@
       "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
       "finding": "M2 voice audit",
       "replaced": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no room for anything new."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Making things last keeps you in control of what you own. You put hours into repairs ahead of the better thing on offer, because replacing feels like waste. Your weekends go to mending things worth less than the time they take."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "Saving comes first for you, ahead of the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. A bad month never finds you short."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "m3-ahead-of",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
+      "finding": "M3 ahead of",
+      "replaced": "You save for the people you love ahead of spending on them. A safe future is the gift you trust, and you give them the cushion rather than the dinner. Whatever comes, your family has something to fall back on."
     }
   ]
 }
