@@ -93,6 +93,8 @@ export const BLEND_CLASHES = [
   ['Reads between lines', 'Knows what works'], ['Sets own bar', 'Better with rivals'], ['Carries own weight', 'All in together'],
   // round 3: pairs found on pages the round-2 picker brought together
   ['Shares the win', 'Saves first'], ['Takes the chance', 'Saves first'], ['Drifts', 'Overdoes it'], ['Half-finished', 'Hard to move'],
+  // round 4 (W4-02)
+  ['Never asks', 'Spends shared money'],
 ];
 const CLASH = new Set(BLEND_CLASHES.flatMap(([a, b]) => [`${a}|${b}`, `${b}|${a}`]));
 export const clashes = (a, b) => CLASH.has(`${a}|${b}`);

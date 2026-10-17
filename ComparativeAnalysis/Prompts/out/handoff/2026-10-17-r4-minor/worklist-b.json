@@ -1,0 +1,107 @@
+[
+ {
+  "key": "K2 金_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you avoid change, you avoid it for others too. You keep the people close to you inside the old plan instead of letting them change it. They miss the new starts they wanted to make.",
+  "findings": [
+   {
+    "id": "R4 metal:MR4-01",
+    "criterion": "D4 (BIZ_04 owned cause), A4",
+    "issue": "MT3-03 landed without its cause clause. The middle names only the act and gives no reason of the reader's own. It is the only friction passage on these pages with no owned cause. The close then moves off the reader to \"They\", which reads as others being harmed rather than the reader paying a cost.",
+    "auditor_note": "\"Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You cost them the new starts they wanted to make.\" (44)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 金_金 · function.advise_friction",
+  "text": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure in view, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
+  "findings": [
+   {
+    "id": "R4 metal:MR4-02",
+    "criterion": "A1, D1",
+    "issue": "The remedy is shared by both personas, so its diagnosis must hold for both (M2). For the Twin it fits. For the Rival it contradicts the page: P110 says \"You keep an exact score with everyone you like\" and \"Wanting to know where you stand costs you the company you came for\", and P111 says \"holding your ground against the people beside you\". A scorekeeper is told they have no outside measure. The real lack (官杀 for 比劫) is a judge above, not peers beside.",
+    "auditor_note": "\"Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no judge above you, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.\" (58)"
+   }
+  ]
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.define",
+  "text": "Running over, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
+  "findings": [
+   {
+    "id": "R4 water:W4-01",
+    "criterion": "A1, A2 (C on P147)",
+    "issue": "Water that is running over is spilling out, so each tail says it overflows and has no way out. The page's own remedy also says the strength \"spills over\". \"Running high\" keeps the excess and the parallel with the catalyst's \"Running thin\", without the contradiction. On P147 the blend tail also repeats the remedy (\"Your strength … pile up\" beside \"your strength either piles up\"), making \"strength\" the third on the page.",
+    "auditor_note": "P145: \"Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running high, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.\" (45) · P146: \"Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running high, the depth churns with no outlet. You need to prove yourself among friends, and the drive never lets you stop.\" (41) · P147: \"Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running high, the depth has no outlet. Your force and your wants build up inside, and you carry more than anyone near you ever sees.\" (44)"
+   }
+  ]
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for backup. You miss out on the ease that help would have given you.",
+  "findings": [
+   {
+    "id": "R4 water:W4-02",
+    "criterion": "M4, A1",
+    "issue": "The one reader is told she would rather do the work than owe anyone, and then that she dips into other people's money without asking. \"Never asks\" and \"Spends shared money\" are opposed on owing, and the \"asking\" wording makes the clash obvious. This pair is not in the clash list.",
+    "auditor_note": "Add \"Never asks\" × \"Spends shared money\" (Twin × Rival, friction) to the 2+2 picker's clash list. Clean sets remain: Twin \"Keeps to yourself\" + \"Never asks\" with Rival \"Races in secret\" + \"Never enough\", or Twin \"Keeps to yourself\" + \"Expects the same\" with Rival \"Races in secret\" + \"Spends shared money\"."
+   }
+  ]
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. All you are after is the freedom of the open road.",
+  "findings": [
+   {
+    "id": "R4 water:W4-04",
+    "criterion": "B, A5, C",
+    "issue": "The F3-01 close is a stock travel-advert phrase. It names the surface wish, not the want underneath it (BIZ_04), and it is the fourth \"open\" on P133 (after \"opening\", \"opening\" and \"open anything new\"). It replaced one of the sharpest Horizon lines. The rewrite keeps a want close and ties it to \"Staying feels like being stuck\".",
+    "auditor_note": "\"You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. Underneath, you want to know you are free to go.\" (37)"
+   }
+  ]
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "When someone close to you is upset, you become the calm for both. Feeling held matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you.",
+  "findings": [
+   {
+    "id": "R4 water:W4-05",
+    "criterion": "A2, A1",
+    "issue": "The reader is the one holding someone, and the close says nobody gets to look after her. So \"feeling held\" reads as the opposite of what the passage shows, and it has to be read twice. The Sage's want, as the owner settled it, is a safe place (shelter). Stating that want makes the hidden trouble follow at once.",
+    "auditor_note": "\"When someone close to you is upset, you become the calm for both. A safe place matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you.\" (41)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried.",
+  "findings": [
+   {
+    "id": "R4 rename Takes it easy",
+    "criterion": "D2",
+    "issue": "X4-04: the chip \"Takes it easy\" contradicts \"Hard to please\" on the same page; the passages are about making the work look easy so learners see only the ease. The chip becomes \"Looks effortless\" (the main session changes the word). Where the passage quotes or echoes the old chip, fit it to \"Looks effortless\"; otherwise leave the passage as it is (no_change_reason)."
+   }
+  ]
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
+  "findings": [
+   {
+    "id": "R4 rename Takes it easy",
+    "criterion": "D2",
+    "issue": "X4-04: the chip \"Takes it easy\" contradicts \"Hard to please\" on the same page; the passages are about making the work look easy so learners see only the ease. The chip becomes \"Looks effortless\" (the main session changes the word). Where the passage quotes or echoes the old chip, fit it to \"Looks effortless\"; otherwise leave the passage as it is (no_change_reason)."
+   }
+  ]
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever you make the work look easy, people learn from the surface alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care.",
+  "findings": [
+   {
+    "id": "R4 rename Takes it easy",
+    "criterion": "D2",
+    "issue": "X4-04: the chip \"Takes it easy\" contradicts \"Hard to please\" on the same page; the passages are about making the work look easy so learners see only the ease. The chip becomes \"Looks effortless\" (the main session changes the word). Where the passage quotes or echoes the old chip, fit it to \"Looks effortless\"; otherwise leave the passage as it is (no_change_reason)."
+   }
+  ]
+ }
+]

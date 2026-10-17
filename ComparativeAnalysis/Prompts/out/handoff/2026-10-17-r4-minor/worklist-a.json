@@ -1,0 +1,305 @@
+[
+ {
+  "key": "PAIR 火_金 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. Your reach and your means keep the same pace.",
+  "findings": [
+   {
+    "id": "R4 cross:X4-01",
+    "criterion": "A1 · D3 (Balanced, R2-1; X3-04 half applied)",
+    "issue": "The round-3 fix replaced the second sentence and kept the first, which is the sentence the keyword denies. The new sentence repeats \"keep the same pace\", the phrase X3-02 found denied on P160.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, the edge cuts where you choose. You pick your openings well and know which ones to let go.\" (46 words. The head is unchanged. The tail is true of the Steward too.)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 土_水 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out and come back at a steady rhythm.",
+  "findings": [
+   {
+    "id": "R4 cross:X4-02",
+    "criterion": "A1 · D3 (Balanced, R2-1; X3-05 half applied)",
+    "issue": "\"Level\" became \"a steady rhythm\", which is still the claim the keyword under it denies. A reader is told steady and swinging on one screen.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current carries you past the dry spells. You come out of each lean stretch before it costs you much.\" (44. The tail grants the swing and claims recovery.)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Your own cushion never gets the chance to grow.",
+  "findings": [
+   {
+    "id": "R4 cross:X4-03",
+    "criterion": "A1 · M4 (X3-06 half applied; repick opened a new tension)",
+    "issue": "Removing Saves first took away one of round 3's three cushion claims. \"Grows slowly\" against \"never gets the chance to grow\" is still a flat contradiction between the shared definition and a keyword. The repick then put the Horizon's \"standing in place is losing\" beside the Steward's \"the known is safe\", which is the new-versus-known axis the clash list exists for.",
+    "auditor_note": "Text fix (this passage shows only on P066): \"Sharing the win is your natural generosity, and it leaves you short. What you give in a good year you lack in a lean one, because giving comes before keeping. Of every win you share, your own part is the smallest.\" (41. The close states the price flat, per M1.) For the picker: add Takes the chance (drive) × Loyal (drive) to the clash list if a clean set remains. If none does, fold P066 into the owner's pending Horizon+Steward decision."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You wrote most of these rules yourself and are free to retire them.",
+  "findings": [
+   {
+    "id": "R4 cross:X4-06",
+    "criterion": "A1 · D2 (a claim the reading cannot know; against the definition)",
+    "issue": "The rules are \"learned\" in sentence one and self-written in sentence three. On every other cell the Magistrate answers to rules from outside (\"rules written for someone else\", \"an approval from above\"). The page's own definition says the standards reach the reader.",
+    "auditor_note": "\"A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You are free to retire a rule once it has done its job.\" (44. The permission close required by F3-01 is kept.)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 木_土 · function.definition_catalyst",
+  "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough.",
+  "findings": [
+   {
+    "id": "R4 earth:E4-01",
+    "criterion": "A1 · M2 (a 2+2 page reads one text)",
+    "issue": "The shared definition says the cushion grows slowly, and a picked keyword on the same page says it never grows. \"cushion\" also appears twice. The picker changed after round 3, and the shared tail was not re-read against the new set.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. You never quite feel you have enough put by.\" (45 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. The people you stand by know exactly where to find you.",
+  "findings": [
+   {
+    "id": "R4 earth:E4-02",
+    "criterion": "A1 · M4",
+    "issue": "The page gives two opposed motives: the known thing is safe, and standing in place is losing. \"Loyal\" is about people, but its middle sentence is written as a general rule about safety and not looking elsewhere, so it collides with the Horizon drive. A text fix is cleaner than a clash entry: adding \"Takes the chance ↔ Loyal\" would push \"Far-sighted\" (\"Having somewhere next to go is your safety\") beside \"Loyal\" instead. The field shows only on 2+2 pages.",
+    "auditor_note": "\"Being loyal costs you less than leaving ever would. Old ties are what you trust most, and you stay beside those you chose through bad years as well as good. The people you stand by know exactly where to find you.\" (41 words)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 土_土 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and you care where it goes. You stand firmest with a clear stake of your own.",
+  "findings": [
+   {
+    "id": "R4 earth:E4-03",
+    "criterion": "A1 · M2",
+    "issue": "The shared definition makes the reader careful with reserves and firmest on a stake of their own. Two sections down, the reader bets a shared stake whole rather than keep half safe. \"stake\" is also used in two senses.",
+    "auditor_note": "\"Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and holds back until something real is at stake. Once it is, you give it everything.\" (44 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even with money you pooled with friends. Along with the money, you spend a plan you made together.",
+  "findings": [
+   {
+    "id": "R4 earth:E4-04",
+    "criterion": "A1 · A2",
+    "issue": "This is the third round of patching, and the logic still fails. Covering the whole bill out of a pool the friends paid into is not paying for everyone, so the \"winning\" disappears. \"with … with … with\" also clutters it. The cost works once the money is the reader's own, set aside for a shared plan.",
+    "auditor_note": "\"Paying for everyone feels like winning to you. You reach for the whole bill instead of splitting it, and you dip into money set aside for something you planned together. Along with the money, you spend the plan.\" (38 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring.",
+  "findings": [
+   {
+    "id": "R4 earth:E4-05",
+    "criterion": "A2",
+    "issue": "The chiasmus takes two reads. It is the one sentence on the page a B1 reader stalls on (round 3 listed it as weak).",
+    "auditor_note": "\"Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you let it sit until someone offers it. Year after year, you miss what one question would bring.\" (44 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and the house fills from the walls in. You leave the people you live with less space in their own home.",
+  "findings": [
+   {
+    "id": "R4 earth:E4-06",
+    "criterion": "A2 · C",
+    "issue": "The first sentence is circular: you hold onto what you cannot drop. It also carries the page's fourth \"hold\" and second \"you hold onto\", and its close is the page's second close opening \"You leave\" (after \"You leave the money and the credit …\").",
+    "auditor_note": "\"Things come in far more easily than they go out. You keep a thing rather than take its space back, and the house fills from the walls in. You give the people you live with less space in their own home.\" (41 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. You leave them short on the plans you made together.",
+  "findings": [
+   {
+    "id": "R4 fire:F4-01",
+    "criterion": "A2",
+    "issue": "\"Short on\" means lacking a quantity, so a B1 reader can take it as \"they lack plans\", not as being let down on the plans. The cost is right, but the idiom blurs it.",
+    "auditor_note": "\"Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. You leave them alone with the plans you made together.\" (39; the comparative middle is kept word for word)"
+   }
+  ]
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.",
+  "findings": [
+   {
+    "id": "R4 fire:F4-02",
+    "criterion": "A2, C",
+    "issue": "\"The one care you trust\" has no clear sense (\"care\" with no object), so the reader has to work out that it means self-care. \"Comforted … comfort\" sit in one sentence, and \"comfort\" appears ×3 on P033 with \"Drifts\". The close is one of the best lines on the page and stays.",
+    "auditor_note": "\"Pleasure first is the only self-care you trust. Feeling soothed matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.\" (42; the middle is kept with one word swapped)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 火_火 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you keep moving instead of stopping to refill. You pay for each bright day with a tired one.",
+  "findings": [
+   {
+    "id": "R4 fire:F4-03",
+    "criterion": "A1, C",
+    "issue": "The head says that doing is how you recover. The tail then says that you fail to refill because you keep moving. Two sentences apart, the definition contradicts itself. \"Keep\" also appears ×5 on the page. The new tail keeps the thin reserve and the tired day, and it does not clash with the Balanced tail (\"you spend no faster than you refill\").",
+    "auditor_note": "\"Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve never builds, since you spend what you gain as soon as it comes. You pay for each bright day with a tired one.\" (48; the head is kept word for word)"
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Keeping the home as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them. Just as your people are ready to move, you keep them in place.",
+  "findings": [
+   {
+    "id": "R4 fire:F4-04",
+    "criterion": "A1 (house rule R2-4: no assumed household; the round-3 precedent is F3-05), A2",
+    "issue": "\"The home\" assumes the reader keeps a home with other people in it, the same ground on which F3-05 changed P055. After \"home\", \"ready to move\" first reads as moving house. The Sage's sheltering (settled point 4) stays.",
+    "auditor_note": "\"Keeping everything as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them. Just as your people are ready to move on, you keep them in place.\" (44; the comparative middle is kept word for word)"
+   }
+  ]
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. You are allowed to share the work, even if it takes longer.",
+  "findings": [
+   {
+    "id": "R4 fire:F4-05",
+    "criterion": "D1",
+    "issue": "The F3-01 permission close gives the remedy's own act two sections early. The keyword prescribes, and THE REMEDY then repeats it. A want close meets the same 10-16 rule and leaves the act to the remedy. It is also true to the Twin's catalyst side (\"once they match your pace\"), which helps D3.",
+    "auditor_note": "\"You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. What you want is company that matches your pace.\" (38; the live \"so\" middle is kept word for word)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 土_水 · function.advise_friction",
+  "text": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Finish one thing you started before you open anything new. Keep one evening a week at home with nothing planned.",
+  "findings": [
+   {
+    "id": "R4 water:W4-03",
+    "criterion": "A1, M2 (the remedy holds for all six keywords of both personas), house rule (no chart quantity as a cause)",
+    "issue": "The act fits the Horizon, who leaves too soon. It is wrong for the Steward, whose friction is holding back and waiting (\"Chances pass by before the water settles\"): telling her not to open anything new makes it worse. This is the problem round 3 fixed on 水_水. The diagnosis also gives an amount (\"this much flowing through\") as the cause. The new act works both ways: the Horizon keeps before she spends, and the Steward spends what she kept. No other Earth-core remedy has a money act, and the evening act is kept.",
+    "auditor_note": "\"Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. Little of what you earn ever feels truly yours. Save one sum for a treat, then spend it on that. Keep one evening a week at home with nothing planned.\" (57)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 木_木 · function.advise_friction",
+  "text": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Close one open project this week and say it is done. Let someone else set the end point for one plan.",
+  "findings": [
+   {
+    "id": "R4 wood:W4-M1",
+    "criterion": "A2, A5",
+    "issue": "The diagnosis line reads like a motivational poster, and a reader can take it as praise on a friction page. It should name the problem plainly: no line from outside stops you.",
+    "auditor_note": "\"Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. You stop only where you choose to. Close one open project this week and say it is done. Let someone else set the end point for one plan.\" (58 words; only the fourth sentence changes)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. You fund next year's bet with the money this year needed.",
+  "findings": [
+   {
+    "id": "R4 wood:W4-M2",
+    "criterion": "A1, D4 (the cause is a quantity, not the reader's need; R2-3 in spirit)",
+    "issue": "The middle explains the bet by a surplus of drive, which is the chart's excess restated. It does not give the need under the act. It is the only friction middle on Wood without one.",
+    "auditor_note": "\"You size every bet past what the moment asks. Playing small feels like standing still, and everything goes into the stake instead of the base under it. You fund next year's bet with the money this year needed.\" (38 words; sentences 1 and 3 unchanged)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard. You walk away with their ease and leave them guessing what would please you.",
+  "findings": [
+   {
+    "id": "R4 wood:W4-M3",
+    "criterion": "D4, A2 (a charge on cost to others; a misfiring idiom)",
+    "issue": "\"Walk away with\" means to take something off with you, so the close reads as a theft. \"Leave them guessing\" also suggests the reader holds back on purpose. BIZ_04 asks for the cost without the charge.",
+    "auditor_note": "\"Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard. You cost them their ease, and they keep guessing what would satisfy you.\" (40 words; sentences 1 and 2 unchanged)"
+   },
+   {
+    "id": "R4 rename Impossible to please",
+    "criterion": "D2",
+    "issue": "X4-05: the General's \"Impossible to please\" meets the Artisan's \"Hard to please\" on one reader's chart. The chip becomes \"Never satisfied\" (the main session changes the word). Where the passage quotes or echoes the old chip, fit it to \"Never satisfied\"; otherwise leave the passage as it is (no_change_reason)."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_七杀 · edge.lead",
+  "text": "Wood runs through your career, your health and your growth. It is the hard stretch at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse.",
+  "findings": [
+   {
+    "id": "R4 wood:W4-M4",
+    "criterion": "A1 (a claim the reading cannot know)",
+    "issue": "It states as fact that the reader has already been through worse pressure. That is biography, which the reading cannot know. Round 3 removed the same kind of claimed past from the Sage.",
+    "auditor_note": "\"Wood runs through your career, your health and your growth. It is the hard stretch at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm while others shake.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 木_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. Around you, quieter people find the nerve to try things they would not try alone.",
+  "findings": [
+   {
+    "id": "R4 wood:W4-M5",
+    "criterion": "A1 (a close that undoes its own middle), C",
+    "issue": "The middle says nobody else gets a turn, and the close says quieter people find the nerve to take one. The reader stops at the clash, and \"try\" appears twice in the close. The fix closes on the price, stated flat, which M1 allows.",
+    "auditor_note": "\"You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn. You take the spotlight quieter people were waiting to step into.\" (37 words; sentences 1 and 2 unchanged)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Sitting quietly among friends is enough.",
+  "findings": [
+   {
+    "id": "R4 wood:W4-M6",
+    "criterion": "A5, B",
+    "issue": "The F3-01 permission close replaced the page's best line (\"you never find out how much you are liked as you are\") with a greeting-card line in which the reader is not the subject. A want close meets F3-01 and keeps the sting.",
+    "auditor_note": "\"Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Underneath the show, you want to be liked as you are.\" (38 words; a want close; sentences 1 and 2 unchanged)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 火_木 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again.",
+  "findings": [
+   {
+    "id": "R4 wood:W4-M7",
+    "criterion": "A2",
+    "issue": "The sentence reads two ways. \"Long before\" suggests a long gap in time, but the point is that you empty faster than you fill. A reader has to work out the order of running dry and feeling full.",
+    "auditor_note": "\"Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry faster than you fill back up.\" (43 words; sentences 1 to 3 unchanged)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "You are impossible to please, yourself included. Pressure is how you show you take a thing seriously, so you hold back the pleased look instead of giving it. You are allowed to be pleased by a standard you have already met.",
+  "findings": [
+   {
+    "id": "R4 rename Impossible to please",
+    "criterion": "D2",
+    "issue": "X4-05: the General's \"Impossible to please\" meets the Artisan's \"Hard to please\" on one reader's chart. The chip becomes \"Never satisfied\" (the main session changes the word). Where the passage quotes or echoes the old chip, fit it to \"Never satisfied\"; otherwise leave the passage as it is (no_change_reason)."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Being impossible to please makes help hard to accept. Since good enough never feels safe to you, you redo what you are handed rather than let it please you. You end up carrying alone the work you would not let anyone share.",
+  "findings": [
+   {
+    "id": "R4 rename Impossible to please",
+    "criterion": "D2",
+    "issue": "X4-05: the General's \"Impossible to please\" meets the Artisan's \"Hard to please\" on one reader's chart. The chip becomes \"Never satisfied\" (the main session changes the word). Where the passage quotes or echoes the old chip, fit it to \"Never satisfied\"; otherwise leave the passage as it is (no_change_reason)."
+   }
+  ]
+ }
+]
