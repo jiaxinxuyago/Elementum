@@ -29,7 +29,7 @@ Status before the polish round: 166 Minor findings. 88 were already resolved by 
 | Item | Ruling |
 |---|---|
 | A3 · restatement (17 open) | **Not approved; the originals stay.** "A3 original wins, the table example reads less better than the chair, not approved, keep the original." It applies to all A3 findings ("All A3 skipped"). |
-| A1, A2, D4 and the other kinds (52 open) | **Not yet.** The owner will review further before any is applied. |
+| A1, A2, D4 and the other kinds | **Approved** (owner 2026-10-17): "Approve all other fixes besides the four system-level items." Re-counted on the live text: 55 open findings (A3-only excluded; on mixed findings only the non-A3 part is fixed) plus the "sooner than" sweep, 64 fields. The six approved samples that are not A3 are used word for word. |
 | Remedy "Let it …" verb | **Approved and applied.** Each core now uses each verb once, the verb fits its element, and Wood and Metal no longer "pour" (7 lines). |
 | Mind bar "Intuition" → "Insight" | Not approved. Stays as is. |
 | Virtuoso "Mind" domain → "Growth" | Not approved. Stays as is (can go to DOM-1). |

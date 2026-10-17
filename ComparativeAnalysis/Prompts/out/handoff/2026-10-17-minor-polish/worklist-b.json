@@ -1,0 +1,302 @@
+[
+ {
+  "key": "K2 金_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Remember that you meant to seal out the hurt rather than your peers.",
+  "findings": [
+   {
+    "id": "metal:MT-06",
+    "criterion": "A1 (D10), C",
+    "issue": "The cause is the element, not the reader's need (D10). \"peers\" makes peer ×4 on P109, and \"seal\" appears three times.",
+    "auditor_note": "\"You stay sealed off long after the reason has gone. Needing no one once kept you safe, so you shut out help without checking whether you still want any. Remember that you meant to keep out the hurt, never the people near you.\" (43)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Being nobody's burden is why you ask no one. Since you would rather owe nothing than be joined, you take the job back the moment someone offers. You send away the peer who offered and leave them no way to help you.",
+  "findings": [
+   {
+    "id": "metal:MT-07",
+    "criterion": "A2, C",
+    "issue": "\"be joined\" is unclear. \"Since\" also opens the second sentence of \"Unteachable\" on the same page, and \"peer\" appears again.",
+    "auditor_note": "\"Being nobody's burden is why you ask no one. You would rather owe nothing than share the load, so you take the job back the moment someone offers. You send away the friend who offered and leave them no way to help you.\" (43)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you fail your own hard test sooner than pass someone else's. You answer to no judge harder than yourself.",
+  "findings": [
+   {
+    "id": "metal:MT-12",
+    "criterion": "A2",
+    "issue": "\"sooner than\" in the sense of \"rather than\" makes readers parse it twice.",
+    "auditor_note": "\"Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You answer to no judge harder than yourself.\" (43)",
+    "owner_approved": [
+     "you fail your own hard test sooner than pass someone else's.",
+     "you would rather fail your own hard test than pass someone else's easy one."
+    ]
+   },
+   {
+    "id": "sweep:sooner-than",
+    "criterion": "A2",
+    "issue": "\"sooner than\" used as a disguised \"rather than\" (owner approved the sweep with the MT-12 sample). Where it means time, it stays."
+   }
+  ]
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Being wrong is what you have no procedure for. Right answers feel like the only safe ones, and you hold opinions back rather than risk being wrong. You lose every idea you kept back for fear of being wrong.",
+  "findings": [
+   {
+    "id": "metal:MT-13",
+    "criterion": "A3, C",
+    "issue": "\"being wrong\" appears three times in 39 words, and the close repeats the middle.",
+    "auditor_note": "\"Being wrong is what you have no procedure for. Right answers feel like the only safe ones, so you keep your opinions to yourself until you are sure. You lose every idea you never said while you waited for certainty.\" (40)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Hating being wrong is the part of you that works hardest. A mistake marks your name in your eyes, and you give silence in place of any answer that risks being wrong. You go silent on the answers you had right.",
+  "findings": [
+   {
+    "id": "metal:MT-14",
+    "criterion": "A2",
+    "issue": "\"marks your name in your eyes\" is not an idiom.",
+    "auditor_note": "\"Hating being wrong is the part of you that works hardest. A mistake feels like a mark on your name, so you hold back any answer that might be wrong. You go silent on the answers you had right.\" (39)",
+    "owner_approved": [
+     "A mistake marks your name in your eyes,",
+     "A mistake feels like a mark on your name,"
+    ]
+   }
+  ]
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record more than the talent. Bright newcomers wait a long time for your nod.",
+  "findings": [
+   {
+    "id": "metal:MT-17",
+    "criterion": "D13",
+    "issue": "The chip names the reader's act, but the passage is about the reader checking other people.",
+    "auditor_note": "\"Earning your place step by step is the only rank you respect. You hold everyone near you to that same ladder, and you credit people for their record before their talent. Credit the talent too, since your eye for the earned sees half a person.\" (45)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. You spend the money your family was counting on for later.",
+  "findings": [
+   {
+    "id": "metal:MT-18",
+    "criterion": "D4",
+    "issue": "The opener is weak, \"spend\" appears three times, and every close on P097 (and all four on P099) is a loss, which is BIZ_04's \"too harsh\" test.",
+    "auditor_note": "\"Spending it all feels like generosity to you. You pay the bill, buy the gift and make the loan, since giving suits you better than keeping. You meant to make the people you love feel rich, and you leave them short for later.\" (43)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Your answer to ownership is holding on tight. You would rather hold on than risk losing, so you hold on to money, things and people past where holding helps. You have every right to let go of what you no longer want.",
+  "findings": [
+   {
+    "id": "metal:MT-20",
+    "criterion": "A2, C",
+    "issue": "\"hold\" appears five times in 42 words, and \"Your answer to ownership\" is not plain English.",
+    "auditor_note": "\"Holding on tight makes what you have feel safe. You would rather keep a thing than risk losing it, so you grip money, things and people past where holding helps. You have every right to let go of what you no longer want.\" (43)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. The payday sits at the end of the work, long after your attention has moved on.",
+  "findings": [
+   {
+    "id": "metal:MT-23",
+    "criterion": "A2",
+    "issue": "\"on a fresh start than a middle\" does not parse, and \"start\" appears four times.",
+    "auditor_note": "\"Where you feel surest is starting fast. You start on speed alone, and your patience runs out somewhere in the middle. You never get paid for what you keep starting over, and the money waits at the end you skip.\" (40)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you skip the soft words rather than soften the point. You leave them a bruise the truth alone would not have left.",
+  "findings": [
+   {
+    "id": "metal:MT-25",
+    "criterion": "A1, A2",
+    "issue": "The alternative it names (softening the point) is the thing a direct person rightly refuses, so the logic is reversed.",
+    "auditor_note": "\"You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you cut the kind words and keep only the point. You leave them a bruise the truth alone would not have left.\" (41)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You wanted to be told more than you wanted it exact, and that is worth remembering.",
+  "findings": [
+   {
+    "id": "metal:MT-32",
+    "criterion": "A3, D4",
+    "issue": "\"and that is worth remembering\" is the reminder-dodge tail that BIZ_04 names, added to a close that already carries the want.",
+    "auditor_note": "\"Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You always wanted to be told more than you wanted it exact.\" (41)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it.",
+  "findings": [
+   {
+    "id": "metal:MT-35",
+    "criterion": "A2, C",
+    "issue": "\"make one of it\" makes readers stop to parse it. \"shelter\" appears twice and \"stay\" twice.",
+    "auditor_note": "\"Your door stays closed while you stay the student. You keep learning under someone else's wing instead of spreading your own, and the people who need you stand outside. You keep them outside one more year for every year you stay the student.\" (43)"
+   }
+  ]
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Hard to reach means a thought is unfinished, and most of yours are. Finishing it comes before the message, and you charge the person waiting in days. You leave them with less of you than they came for.",
+  "findings": [
+   {
+    "id": "water:W-016",
+    "criterion": "A2, A3, D2",
+    "issue": "The opener does not parse as a definition. \"Charge… in days\" is a strained idiom. It repeats \"Keeps it in\" (holding a thing back until finished). The chip \"Hard to reach\" is also 水_比肩's friction drive chip, with a different meaning (D2).",
+    "auditor_note": "\"You go quiet while a thought is still unfinished, and most of yours are. Finishing the thought comes ahead of answering the message, so the person waiting hears nothing for days. You leave them with less of you than they came for.\" Rename the chip to **\"Slow to answer\"**."
+   }
+  ]
+ },
+ {
+  "key": "K2 水_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Anything hard that has to reach someone, you warm first. Whenever you keep a child warm rather than tell them straight what you saw, you hold the plain version back. Bad news from you lands softly, and nobody feels small hearing it.",
+  "findings": [
+   {
+    "id": "water:W-018",
+    "criterion": "A1, A2",
+    "issue": "Assumes the reader has a child, which the reading cannot know for a reader of 18 to 35. \"Keep a child warm\" reads literally (blankets).",
+    "auditor_note": "\"Anything hard that has to reach someone, you warm first. Softening the news feels kinder to you than saying it straight, so the plain version stays behind the comfort. You leave the people you love unsure of what you really saw.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. Time with you comes with a scoreboard running.",
+  "findings": [
+   {
+    "id": "water:W-025",
+    "criterion": "D4",
+    "issue": "The victim image BIZ_04 cut from the friction cell (\"a race they never chose to run\") survives here.",
+    "auditor_note": "\"Every race you love needs someone else in it. You make a rival of a peer before you ask them, so they are running before they know it. You get a better race when the other person knows it has started.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You give your hours to whoever is nearest, without deciding. Whenever you give everyone something rather than save enough for the few counting on you, you leave them less than was theirs. You give away to everyone the hours meant for the few.",
+  "findings": [
+   {
+    "id": "water:W-028",
+    "criterion": "A3, C",
+    "issue": "The third sentence restates the second. \"Give\" ×4. \"Less than was theirs\" leans toward a charge.",
+    "auditor_note": "\"You give your hours to whoever is nearest, without deciding. Saying yes to everyone is easier than choosing, so the few counting on you get what is left. You give away the hours that were meant for them.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you.",
+  "findings": [
+   {
+    "id": "water:W-029",
+    "criterion": "A2",
+    "issue": "\"Audience included\" dangles, and the sentence has to be read twice.",
+    "auditor_note": "\"With whoever is in charge, you pick fights and call it honesty. Because you argue in public instead of in private, the one above you loses face in front of others. You leave them no quiet way to answer you.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "To stay honest with people, you share everything you think. Sharing openly rather than asking what someone wants to hear, you take away their choice of how much to hold. You spend their attention on more of your thinking than they asked for.",
+  "findings": [
+   {
+    "id": "water:W-030",
+    "criterion": "A1, A2",
+    "issue": "It frames the alternative as people-pleasing (\"what someone wants to hear\"). \"How much to hold\" is unclear.",
+    "auditor_note": "\"To stay honest with people, you share everything you think. You say it all before asking how much they want, so they get no choice in what they carry. You spend their attention on more of your thinking than they asked for.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. Never forget that you mean the fondness more than the mocking lets on.",
+  "findings": [
+   {
+    "id": "water:W-031",
+    "criterion": "D4, C",
+    "issue": "P141 closes two of four passages on a reminder phrase (also \"Remember that what you were after all along was rest\"), over the BIZ_04 budget of one per five shown. The want carries without the wrapper.",
+    "auditor_note": "\"Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. You mean the fondness far more than the mocking lets on.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your rank than claim the next one. You lose the rank above yours to whoever stopped waiting, and the waiting was your choice.",
+  "findings": [
+   {
+    "id": "water:W-032",
+    "criterion": "C, D4",
+    "issue": "\"Rank\" ×4 on the page (×2 here). \"The waiting was your choice\" reads as a charge.",
+    "auditor_note": "\"Waiting for permission keeps you in line. Permission given feels cleaner to you than permission taken, so you keep your place instead of claiming the next one. You watch the step above yours go to whoever stopped waiting first.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you.",
+  "findings": [
+   {
+    "id": "water:W-033",
+    "criterion": "A3, D4",
+    "issue": "Fifth statement of \"more in you than shows\" on P145 (the definition ×2, the drive, this passage, the remedy). It also replaces the reader's own need with a quantity of Water.",
+    "auditor_note": "\"Managing without asking is what you do best. Asking feels like owing, so you do it alone even when company would make it lighter. You miss out on the rest that help would have given you.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again.",
+  "findings": [
+   {
+    "id": "water:W-034",
+    "criterion": "A1",
+    "issue": "The cause does not hold: why would unready feel more honest?",
+    "auditor_note": "\"Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, so you stay long past the day leaving was open to you. You are allowed to be tested and come home again.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Spending shared money comes easier to you than spending your own. Shared money feels like courage, and you dip into it before asking who put what in. You run the pool down faster than agreed, and slowing it is yours to do.",
+  "findings": [
+   {
+    "id": "water:W-035",
+    "criterion": "A1, D4",
+    "issue": "The cause is odd. The close slides toward a capacity close or a charge.",
+    "auditor_note": "\"Spending shared money comes easier to you than spending your own. Nobody's name is on it, so you dip into it ahead of asking who put what in. You run the pool down faster than anyone agreed to.\""
+   }
+  ]
+ },
+ {
+  "key": "PAIR 金_金 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, your strength gives out sooner than you let on. You spend it as if it were full and seldom stop to refill.",
+  "findings": [
+   {
+    "id": "sweep:sooner-than",
+    "criterion": "A2",
+    "issue": "\"sooner than\" used as a disguised \"rather than\" (owner approved the sweep with the MT-12 sample). Where it means time, it stays."
+   }
+  ]
+ }
+]
