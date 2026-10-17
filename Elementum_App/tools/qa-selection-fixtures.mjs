@@ -18,7 +18,7 @@
 // Usage: node tools/qa-selection-fixtures.mjs   (exit 1 on any failure)
 // ===================================================================
 import { buildEnergyChart } from '../src/engine/buildEnergyChart.js';
-import { buildJourneyModel, poolDoors, buildCarryModel, buildElementScreen } from '../src/components/journey/journeyData.js';
+import { buildJourneyModel, poolDoors, buildCarryModel, buildElementScreen, clashes } from '../src/components/journey/journeyData.js';
 import { resolveDayMasterReading } from '../src/components/reading/readingResolve.js';
 import { STEM_CARD_DATA } from '../src/content/index.js';
 import { STEM_VARIANTS } from '../src/content/stemVariants.js';
@@ -169,7 +169,9 @@ for (const f of FIXTURES) {
     if (nLead !== wantLead || nMinor !== wantMinor) fail(f, `${nLead}+${nMinor} rows, expected ${wantLead}+${wantMinor} (${rows.map((r) => r.word).join(' / ')})`);
     // rank: rows are the authored top-N of each cell, in authored order; the angles rotate drive/cost_self/cost_others by position
     const minor = x.faces[1]?.god;
-    const expected = [...L(lead).slice(0, wantLead).map((r) => ({ ...r, god: lead })), ...(minor ? L(minor).slice(0, wantMinor).map((r) => ({ ...r, god: minor })) : [])];
+    // the minority skips a keyword that opposes a lead keyword (owner M4, 2026-10-17: BLEND_CLASHES)
+    const leadRows = L(lead).slice(0, wantLead);
+    const expected = [...leadRows.map((r) => ({ ...r, god: lead })), ...(minor ? L(minor).filter((m) => !leadRows.some((l) => clashes(l.word, m.word))).slice(0, wantMinor).map((r) => ({ ...r, god: minor })) : [])];
     expected.forEach((e, i) => { const r = rows[i]; if (!r || r.word !== e.word) fail(f, `row ${i} is ${r?.word}, expected ${e.word}`); else if (r.text !== e.angles[ANGLES[i % 3]]) fail(f, `row ${i} (${r.word}) did not enter by the ${ANGLES[i % 3]} angle`); });
     if (x.adj.join('|') !== rows.map((r) => r.word).join('|')) fail(f, 'card chips are not the ledger words');
     console.log(`  ${f.name}: ${rows.map((r) => `${r.word}${r.god ? ` (${r.god})` : ''}`).join(' · ')}`);

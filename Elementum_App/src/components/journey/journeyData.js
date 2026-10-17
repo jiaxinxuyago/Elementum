@@ -68,6 +68,38 @@ export const POLE_FRICTION = {
 };
 
 // §5c strength terms + remedy verbs (LOCKED 2026-07-16)
+// THE BLEND WITHOUT A CLASH (owner M4, 2026-10-17): the two personas of one
+// energy are written as opposites, so a blended page must never set a keyword
+// beside its opposite ("Moves early" beside "Sleeps on it"). The minority
+// persona skips a keyword that opposes a lead keyword and gives its next one;
+// if it runs out, the lead's third keyword fills the place, and where even that
+// clashes the page shows three keywords instead of four. Each pair below is
+// two keywords that can meet on one page (same element, same pole).
+export const BLEND_CLASHES = [
+  ['Sets own pace', 'Loves a race'], ['Does it alone', 'Shares the risk'],
+  ['Never says no', 'Talks back'], ['Too soft', 'Pushes back'], ['Comfort first', 'Picks fights'],
+  ['Quick to start', 'Patient builder'], ['Generous', 'Saves first'],
+  ['Chases the new', 'Stays too long'], ['Spends freely', 'Counts everything'],
+  ['Starts fast', 'Keeps it going'], ['Gives easily', 'Saves first'],
+  ['Chases the new', 'Plays it safe'], ['Chases the new', 'Holds back'], ['Spends it fast', 'Counts everything'], ['Spends it fast', 'Holds back'],
+  ['Takes the chance', 'Saves first'], ['Chases every chance', 'Hard to move'], ['Chases every chance', 'Keeps everything'],
+  ['Starts fast', 'Finishes things'], ['Gives freely', 'Saves first'],
+  ['Always moving on', 'Holds on tight'], ['Always moving on', 'Avoids change'], ['Spends it all', 'Holds on tight'],
+  ['Pushes too hard', 'Needs permission'],
+  ['Decides alone', 'All in together'], ['Even pace', 'Loves a race'], ['Even pace', 'Jumps in first'],
+  ['Moves early', 'Sleeps on it'], ['Shares freely', 'Saves first'],
+  ['Leaves too soon', 'Waits too long'], ['Spends it fast', 'Counts every cost'], ['Spends it fast', 'Holds it back'], ['Leaves too soon', 'Holds it back'],
+];
+const CLASH = new Set(BLEND_CLASHES.flatMap(([a, b]) => [`${a}|${b}`, `${b}|${a}`]));
+export const clashes = (a, b) => CLASH.has(`${a}|${b}`);
+export function pickBlendRows(lead, minor, nMinor, leadGod, minorGod) {
+  const rows = lead.slice(0, 2).map((row) => ({ ...row, god: leadGod }));
+  const ok = (row) => !rows.some((x) => clashes(x.word, row.word));
+  for (const row of minor) { if (rows.length >= 2 + nMinor) break; if (ok(row)) rows.push({ ...row, god: minorGod }); }
+  if (rows.length < 2 + nMinor && lead[2] && ok(lead[2])) rows.push({ ...lead[2], god: leadGod });
+  return rows;
+}
+
 export const CONDITION = { concentrated: 'Overfueled', balanced: 'Balanced', open: 'Underfueled' };
 export const APPROACH = { concentrated: 'Channel', balanced: null, open: 'Refill' };
 
@@ -342,10 +374,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       let picked;
       if (minorRd) {
         const nMinor = r.faces[0].share < 60 ? 2 : 1;
-        picked = [
-          ...leadRd.ledger.slice(0, 2).map((row) => ({ ...row, god: r.god })),
-          ...minorRd.ledger.slice(0, nMinor).map((row) => ({ ...row, god: minor.god })),
-        ];
+        picked = pickBlendRows(leadRd.ledger, minorRd.ledger, nMinor, r.god, minor.god);
       } else {
         picked = leadRd.ledger.map((row) => ({ ...row, god: null }));
       }
