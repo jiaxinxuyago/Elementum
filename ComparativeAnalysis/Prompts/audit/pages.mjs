@@ -58,7 +58,7 @@ async function functionSurface() {
     const sections = [{ head: 'THE FUNCTION', sub: `${EN[el]} is your ${fnName}.`, key: `PAIR ${core}_${el} · function.definition_balanced`, text: p.definition_balanced },
       { head: 'THE CHARACTER', sub: 'Balanced · Keep the mix.', key: '', text: `Bars: ${(FUNCTION_METRICS[fnName]?.bars || []).map((b) => b.label).join(' · ')}`, nonProse: true }];
     L.fnReading.catalyst.ledger.forEach((x, i) => sections.push({ head: `KEYWORD · ${x.word}`, sub: `(${PERSONA[g1]}, ${ANG[i % 3]})`, key: `K2 ${el}_${g1} · fn_reading.catalyst.ledger[${i}].angles.${ANG[i % 3]}`, text: x.angles[ANG[i % 3]] }));
-    sections.push({ head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_catalyst`, text: p.advise_catalyst }); if (L.edge) sections.push({ head: 'THE EDGE', sub: L.edge.domains.join(' · '), key: `K2 ${el}_${g1} · edge.lead`, text: L.edge.lead });
+    sections.push(p.advise_balanced ? { head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_balanced`, text: p.advise_balanced } : { head: 'THE ADVICE', sub: '', key: `PAIR ${core}_${el} · function.advise_catalyst`, text: p.advise_catalyst }); if (L.edge) sections.push({ head: 'THE EDGE', sub: L.edge.domains.join(' · '), key: `K2 ${el}_${g1} · edge.lead`, text: L.edge.lead });
     n++; pages.push({ id: `P${String(n).padStart(3, '0')}`, group: EN[el].toLowerCase(), title: `${EN[core]} core · ${EN[el]} page · balanced chart · ${PERSONA[g1]}`, sections, exempt: [...L.fnReading.catalyst.ledger.map((x) => x.word), EN[el], fnName, ...Object.values(EN)] });
   }
   return pages;

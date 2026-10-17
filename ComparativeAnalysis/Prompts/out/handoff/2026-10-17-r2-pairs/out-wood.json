@@ -1,11 +1,11 @@
 [
  {
   "pair_cell": "木_木",
-  "advise_catalyst": { "text": "Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and give it water each morning. Hand one errand to someone else this month and leave it with them." },
+  "advise_catalyst": { "text": "Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and tend it until it stands on its own. Hand one errand to someone else this month and leave it with them." },
   "advise_friction": { "text": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Close one open project this week and say it is done. Let someone else set the end point for one plan." },
-  "advise_balanced": { "text": "Your reach holds while what you take in keeps pace with how far you push. Grow one plant from seed and give it water each morning. Begin one new habit for your body this month and build on it slowly as it takes root." },
+  "advise_balanced": { "text": "Your reach holds while what you take in keeps pace with how far you push. Grow one plant from seed and tend it until it stands on its own. Begin one new habit for your body this month and let it grow slowly." },
   "definition_balanced": { "tail": "In balance, what goes in keeps pace with the reach. You hold your own ground and still have space for a peer beside you." },
-  "definition_catalyst": { "tail": "Running thin, the reserve under your reach is small and every push draws on all of it. You save what you have for the few things that matter most." }
+  "definition_catalyst": { "tail": "Running thin, the reserve under your reach is small and every push draws on all of it. You save it for the few things that matter most." }
  },
  {
   "pair_cell": "木_火",
@@ -17,14 +17,14 @@
  },
  {
   "pair_cell": "木_土",
-  "advise_catalyst": { "text": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month." },
-  "advise_friction": { "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week with one thing that is only for you. Say no to one request before you say yes again." },
-  "advise_balanced": { "text": "What you reach for and what you keep stay level while both get your hours. Mend one worn thing you own before you buy anything new. Pick one plan for the season and tend it until the season ends." },
+  "advise_catalyst": { "text": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Ask one friend to check on your progress in a month." },
+  "advise_friction": { "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Begin one small project this month that is yours alone. Say no to one request before you say yes again." },
+  "advise_balanced": { "text": "What you reach for and what you keep stay level while both get your hours. Mend one worn thing you own before you buy anything new. Pick one plan for the season and keep at it until the season turns." },
   "definition_balanced": { "tail": "In balance, what you go after and what you hold grow at the same pace. Neither the chase nor the keeping outgrows the other." }
  },
  {
   "pair_cell": "木_金",
-  "advise_catalyst": { "text": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Set a weekly time with a friend to train or practise together." },
+  "advise_catalyst": { "text": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Follow one training plan set by someone else for a whole month." },
   "advise_friction": { "text": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages." },
   "advise_balanced": { "text": "Your line holds firm and still bends where your growth needs it to. Clear out one drawer and keep only what you use. Choose one rule you keep and test this month whether it still serves you." },
   "definition_balanced": { "tail": "In balance, the line holds firm without closing in. You keep the standards you chose and still leave space to grow." },

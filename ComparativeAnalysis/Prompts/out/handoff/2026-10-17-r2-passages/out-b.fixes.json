@@ -1,7 +1,7 @@
 [
  {
   "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
-  "text": "Whenever you take it easy, you take people with you. Your first try already looks right, and they see the ease without the care behind it. You hand on the ease and keep the care to yourself.",
+  "text": "Whenever you take it easy, you take people with you. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care.",
   "id": "R2 cross:X2-09+R2 metal:MT2-09"
  },
  {
@@ -156,7 +156,7 @@
  },
  {
   "key": "K2 水_劫财 · fn_reading.friction.ledger[0].angles.cost_self",
-  "text": "Secret racing keeps you safe while you race. A public loss is what you fear most, and you spend your drive on quiet races rather than on one open try. You never get the win said out loud.",
+  "text": "Secret racing keeps you safe while you race. Being seen to try and fail scares you most, and you spend your drive on quiet races rather than on one open try. You never get the win said out loud.",
   "id": "R2-3"
  },
  {
@@ -171,7 +171,7 @@
  },
  {
   "key": "K2 水_劫财 · fn_reading.friction.ledger[2].angles.cost_self",
-  "text": "Never having enough keeps you bold after the boldness has paid. You fear standing still more than running short, and you spend the win on the next race rather than bank it. You end each year with more wins than savings.",
+  "text": "Never having enough keeps you bold after the boldness has paid. Slowing down scares you more than running short, and you spend the win on the next race rather than bank it. You end each year with more wins than savings.",
   "id": "R2-3"
  },
  {
