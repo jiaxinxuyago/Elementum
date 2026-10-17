@@ -23,6 +23,7 @@ import { SLOT_RANK, CHAPTERS, GATES, DOMAIN_TAXONOMY } from '../../content/posit
 import { TG_PERSONA } from '../../content/tgNames.js';
 import { TG_PATTERNS } from '../../content/tgPatterns.js';
 
+export const DEC_MIN = 10; export const DEC_MAX = 75;
 export const GATE_ORDER = ['year', 'month', 'day', 'hour'];
 export const GATE_START = { year: 0, month: 16, day: 35, hour: 48 };
 export const GATE_SPAN = { year: 'birth to 15', month: '16 to 34', day: '35 to 47', hour: '48 on' };
@@ -98,9 +99,10 @@ export function resolveDomains(chart, positions, content, opts = {}) {
 
     // decades that rule this domain
     const ruling = luck.filter((l) => RULING[l.god]?.includes(d)).map((l) => ({ ...l, pole: decadePole(l.el, roles, condition) }));
-    const lastPast = ruling.filter((l) => l.endAge < age).slice(-1)[0] || null;
+    // decades read only inside the life window their lines are written for (audit round 1, M3)
+    const lastPast = ruling.filter((l) => l.endAge < age && l.startAge >= DEC_MIN).slice(-1)[0] || null;
     const nowDec = ruling.find((l) => l.startAge <= age && age <= l.endAge) || null;
-    const coming = ruling.filter((l) => l.startAge > age).slice(0, 2);
+    const coming = ruling.filter((l) => l.startAge > age && l.startAge <= DEC_MAX).slice(0, 2);
     const decText = (l, tense) => D[l.god]?.[d]?.[l.pole]?.[tense] || null;
     const seatGods = new Set(seats.map((p) => p.god));
 
@@ -108,17 +110,18 @@ export function resolveDomains(chart, positions, content, opts = {}) {
     const past = [];
     for (const p of seats) {
       const u = unit(p, d); const gi = GATE_ORDER.indexOf(p.gateKey);
-      const show = p.gateKey === 'day' ? age < 35 || age >= 48 : gi <= cur && !(p.gateKey === 'hour' && age < 48);
+      const show = p.gateKey === 'day' ? true : gi <= cur && !(p.gateKey === 'hour' && age < 48);
       if (!show || !u?.lived) continue;
-      const label = p.gateKey === 'day' && age < 35 ? 'Your Day Gate · the pattern so far'
+      const label = p.gateKey === 'day' ? 'Your Day Gate · the pattern so far'
         : `${CHAPTERS[p.gateKey]} · ${gi === cur ? `${p.gateKey === 'year' ? 'birth' : GATE_START[p.gateKey]} to now` : GATE_SPAN[p.gateKey]}`;
-      past.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.lived`, order: p.gateKey === 'day' && age < 35 ? age : GATE_START[p.gateKey], label, text: u.lived, seat: p.term });
+      past.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.lived`, order: p.gateKey === 'day' ? Math.min(age, 35) : GATE_START[p.gateKey], label, text: u.lived, seat: p.term });
     }
     if (lastPast && decText(lastPast, 'lived')) past.push({ kind: 'decade', src: `GOD ${GOD_ID[lastPast.god]} · decade_lines.${d}.${lastPast.pole}.lived`, order: lastPast.startAge, label: `${an(bare(persona(lastPast.god)))} decade · ${lastPast.startYear} to ${lastPast.endYear}`, text: decText(lastPast, 'lived') });
     const curGate = GATE_ORDER[cur];
-    if (cur > 0 && seats.length && !seats.some((p) => p.gateKey === curGate) && !(curGate === 'hour' && hourUnknown)) {
+    const decInGate = ruling.some((l) => l.startAge <= age && l.endAge >= GATE_START[curGate]);
+    if (cur > 0 && seats.length && !decInGate && !seats.some((p) => p.gateKey === curGate) && !(curGate === 'hour' && hourUnknown)) {
       const g = content?.gaps?.[d]?.[curGate];
-      if (g) past.push({ kind: 'gap', src: `TEMPLATED tpl_domains · domain_gaps.${d}.${curGate}`, order: GATE_START[curGate], label: `${CHAPTERS[curGate]} · ${GATE_START[curGate]} to now`, lead: `No seat in your ${GATES[curGate]} rules ${d}.`, text: g });
+      if (g) past.push({ kind: 'gap', src: `TEMPLATED tpl_domains · domain_gaps.${d}.${curGate}`, order: GATE_START[curGate], label: `${CHAPTERS[curGate]} · ${GATE_START[curGate]} to now · no ${d} seat`, text: g });
     }
     past.sort((a, b) => a.order - b.order);
 
@@ -127,7 +130,7 @@ export function resolveDomains(chart, positions, content, opts = {}) {
     if (nowDec && decText(nowDec, 'ahead')) future.push({ kind: 'decade', now: true, src: `GOD ${GOD_ID[nowDec.god]} · decade_lines.${d}.${nowDec.pole}.ahead`, order: age, label: `Now · ${an(bare(persona(nowDec.god))).replace(/^A/, 'a')} decade · ${nowDec.startYear} to ${nowDec.endYear}`, text: decText(nowDec, 'ahead') });
     for (const p of seats) {
       const u = unit(p, d); if (!u?.ahead) continue;
-      if (p.gateKey === 'day' && age < 48) future.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.ahead`, now: age >= 35, order: Math.max(35, age), label: age >= 35 ? `${CHAPTERS.day} · now to 47` : `${CHAPTERS.day} · from 35 · ${yearAt(35) ?? ''}`.replace(/ · $/, ''), text: u.ahead, seat: p.term });
+      if (p.gateKey === 'day' && age < 35) future.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.ahead`, order: 35, label: `${CHAPTERS.day} · from 35 · ${yearAt(35) ?? ''}`.replace(/ · $/, ''), text: u.ahead, seat: p.term });
       if (p.gateKey === 'hour' && age < 48) future.push({ kind: 'seat', src: `POSITION ${p.id} · domain_climb.${d}.ahead`, order: 48, label: `${CHAPTERS.hour} · from 48 · ${yearAt(48) ?? ''}`.replace(/ · $/, ''), text: u.ahead, seat: p.term });
     }
     let windowShown = false;
@@ -137,14 +140,15 @@ export function resolveDomains(chart, positions, content, opts = {}) {
       if (match && !windowShown) {
         windowShown = true;
         future.push({ kind: 'window', src: `GOD ${GOD_ID[l.god]} · decade_lines.${d}.${l.pole}.ahead`, pole: l.pole, order: l.startAge + 0.5, label: `Your ${l.pole === 'helping' ? 'strongest' : 'heaviest'} window · ${l.startYear} to ${l.endYear}`,
-          lead: `${an(bare(persona(l.god)))} decade, lining up with the ${bare(persona(l.god))} in your ${GATES[match.gateKey]}. ${l.pole === 'helping' ? `It is the strongest stretch for ${OWN[d]} in your chart.` : `It is the stretch that asks most of ${OWN[d]}.`}`, text: t });
+          lead: `The ${bare(persona(l.god))} rules this decade and your ${GATES[match.gateKey]} both.`, text: t });
       } else future.push({ kind: 'decade', src: `GOD ${GOD_ID[l.god]} · decade_lines.${d}.${l.pole}.ahead`, order: l.startAge + 0.5, label: `${an(bare(persona(l.god)))} decade · ${l.startYear} to ${l.endYear}`, text: t });
     }
     future.sort((a, b) => a.order - b.order);
     const laterSeat = seats.some((p) => (p.gateKey === 'day' && age < 48) || (p.gateKey === 'hour' && age < 48));
     const notes = [];
     if (!laterSeat && seats.length && age < 48 && !(hourUnknown && HOUR_DOMAINS.has(d))) notes.push(`Your later gates hold no ${d} seat, so your decades set its course from here.`);
-    if (d === 'Love' && !ruling.length) notes.push('Love has no decade of its own. It is read from your Day Gate alone.');
+    if (d === 'Love') notes.push(age < 35 ? 'Love has no decade of its own. It is read from your Day Gate alone.' : 'Love has no decade of its own. The pattern your Day Gate set is the one your love life keeps.');
+    else if (!future.length && !notes.length && seats.length) notes.push(age >= 48 ? `Your four gates have all opened, so ${OWN[d]} moves with your decades from here.` : `Your later gates hold no ${d} seat, so your decades set its course from here.`);
     if (hourUnknown && HOUR_DOMAINS.has(d)) notes.push(seats.length ? 'Your Hour Gate is closed. Add your birth hour to read your late chapter.' : `Your Hour Gate may hold a ${d} seat. Add your birth hour to read your late chapter.`);
 
     const gates = [...new Set(seats.map((p) => GATES[p.gateKey].replace(' Gate', '')))];

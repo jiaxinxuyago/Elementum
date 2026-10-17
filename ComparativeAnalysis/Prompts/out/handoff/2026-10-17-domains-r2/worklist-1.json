@@ -1,0 +1,398 @@
+[
+ {
+  "id": "bijian_day_branch",
+  "term": "The Twin inside the Day Gate",
+  "gate": "day",
+  "slot_kind": "branch",
+  "domains": [
+   "Love",
+   "Social"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Twin lives inside your Day Gate, the seat of your partner: you love as an equal, and only as an equal.",
+   "reading": "At close range you need a partner who stands as tall as you, and you have never stayed long with someone who leans. Because equality is how you feel respected, your home runs with two people deciding and neither one in charge. The cost is a quiet tally of who did what, kept by both of you and spoken by neither. From your mid-thirties your private life settles around one level bond, and you grow easier about being looked after inside it.",
+   "domains": {
+    "Love": {
+     "headline": "You love best as an equal, or not at all.",
+     "recognition": "You fall for people with their own opinions and their own plans, and you lose interest in anyone who needs you to lead. Because a matched partner makes you feel safe, you argue as an equal and keep count of who gave way last. You find it harder to be carried by a partner, even for a day, than to win any argument.",
+     "lived": "The partners who have mattered to you so far were strong-willed people with lives of their own, never ones who leaned. More than once a good relationship of yours turned into a contest over small things, and you kept the score as carefully as they did.",
+     "ahead": "From your mid-thirties love settles into a partnership between two people who each run their own lives. Over these years the tally between you grows shorter, and you find you can lean on a partner without feeling smaller."
+    },
+    "Social": {
+     "headline": "Your friends are shared, few and loyal.",
+     "recognition": "Your closest friends are the ones you and a partner both respect, other couples and old friends who treat your home as a unit. Because respect is the only thing that keeps you close to anyone, you let wider acquaintances fade without a word. You keep a small circle, and every person in it has earned their place.",
+     "lived": "So far your friendships have been between equals, people who never needed you to rescue them. The friends who wanted looking after drifted away, and you let them go without much regret.",
+     "ahead": "From your mid-thirties your circle becomes a shared one, friends who know the two of you as a pair. You spend these years with fewer people than before, and you trust each of them more."
+    }
+   }
+  }
+ },
+ {
+  "id": "bijian_hour_branch",
+  "term": "The Twin inside the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "branch",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Twin lives inside your Hour Gate: your later years rest on a few people who treat you as their equal.",
+   "reading": "Your later life runs on a small group of people you respect and who respect you back, old friends who became family and younger people who speak to you as equals. Because dignity matters more to you than comfort, you turn down help that comes with pity, and you keep company only where you are met level. The circle grows smaller with each decade after your late forties, and you find it holds you better for being small.",
+   "domains": {
+    "Family": {
+     "headline": "Your late family is chosen as much as born.",
+     "recognition": "You treat the younger people in your family as equals, and you want their argument more than their care. Because being looked down on is the one thing you cannot bear, you hide a hard week from anyone young enough to fuss. Your family stays close in a level way, and you miss some of the softness it never offers.",
+     "lived": "Since your late forties your family has come to include people you chose, old friends with a key and younger relatives who treat you as their match. You have kept that circle small on purpose, and you have seen less of relatives who treated you as fragile.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, grow into equals who stand beside you. You end these years with a smaller family than most people have, and you are prouder of it than of anything you own."
+    },
+    "Growth": {
+     "headline": "You keep growing through the few who match you.",
+     "recognition": "You grow in later life through two or three people who push you as hard as you push yourself. Because you learn only from someone you respect, you ignore advice from anyone who treats you as old. Your progress is slower without that small company, and you notice it within weeks.",
+     "lived": "Since your late forties you have learned most from a few equals, a friend or a colleague who never let you coast. Whenever you worked alone for long, your progress stalled, and you came back to them each time.",
+     "ahead": "From your late forties your growth comes through company, long talks and shared work with people who expect a great deal of you. You stay sharper in these years than most people your age, and you owe it to the few who keep you honest."
+    }
+   }
+  }
+ },
+ {
+  "id": "bijian_hour_stem",
+  "term": "The Twin at the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "stem",
+  "domains": [
+   "Growth",
+   "Family"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Twin stands at your Hour Gate, in plain view: people see you grow old on your own terms.",
+   "reading": "Your later life is visibly your own, the affairs run by you and help turned down politely. Because standing on your own is how you show who you are, those who come after you learn self-reliance from watching you more than from anything you say. You go on learning new skills long after most people stop, and you pay for the independence with a distance that the young find hard to cross.",
+   "domains": {
+    "Growth": {
+     "headline": "Your growth keeps going when others stop.",
+     "recognition": "You take up new skills in later life with the same seriousness you brought to your first job. Because your own standard is the only one you answer to, you keep raising it long after anyone else is watching. You find it hard to learn beside other people, and you lose some of the help that would come from it.",
+     "lived": "Since your late forties you have taken up at least one serious new skill, and you have kept at it without an audience. Younger people noticed before you mentioned it, and you have been asked how you do it more than once.",
+     "ahead": "From your late forties you keep learning in plain view, and those younger than you copy the habit. You become their clearest example of growing older well, and you are admired for it more than anyone says."
+    },
+    "Family": {
+     "headline": "Your family learns independence by watching you.",
+     "recognition": "You are the relative who manages alone and sees more than you say, and your family knows it. Because asking for help feels like losing ground, you keep your troubles to yourself until they are over. You are admired by the younger people in your family, and you are harder for them to reach than you know.",
+     "lived": "Since your late forties your family has seen you handle your own affairs, the paperwork and the repairs and the bad weeks alike. You turned down offers of help more than once, and a younger relative learned to stop offering.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, take their idea of independence from you. You teach them most by example, and you find that the few words you add mean more to them than you expect."
+    }
+   }
+  }
+ },
+ {
+  "id": "bijian_month_branch",
+  "term": "The Twin inside the Month Gate",
+  "gate": "month",
+  "slot_kind": "branch",
+  "domains": [
+   "Career",
+   "Growth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Twin holds your strongest seat, inside your Month Gate: your working years run on your own effort.",
+   "reading": "Under your working years sits a need to own what you do, the skill and the result and the name on it. Because depending on anyone feels like losing yourself, you have built your prime on effort nobody else can claim. You keep working alone past the point where help would speed you up, and your parents have read it as distance more than once.",
+   "domains": {
+    "Career": {
+     "headline": "You work best when the whole job is yours.",
+     "recognition": "You take a task from start to finish and want your name on the result. Because your sense of worth comes from your own output, you lose energy fast in any job where freedom exists only on paper. Your output rises with every piece of real freedom you get, and a manager who checks in daily costs you more than a lower salary would.",
+     "lived": "From your late teens you chose work you could own outright, even when a shared role paid better. At least once you left a job because the freedom it promised turned out to be for show, and you have not regretted it."
+    },
+    "Growth": {
+     "headline": "Your skills are yours, and nobody can take them.",
+     "recognition": "You grow by mastering things fully, until the skill belongs to you and nobody else. Because you trust only what you have built yourself, you keep going alone long after a teacher would have helped. Your progress is fastest the moment someone you respect works beside you, and you put that moment off.",
+     "lived": "Since your late teens you have taught yourself most of what you know, often the slow way. More than once you hit a long flat stretch that ended only when you finally learned from someone better, and you remember each of those people."
+    }
+   }
+  }
+ },
+ {
+  "id": "bijian_month_stem",
+  "term": "The Twin at the Month Gate",
+  "gate": "month",
+  "slot_kind": "stem",
+  "domains": [
+   "Career",
+   "Social"
+  ],
+  "golden": true,
+  "current": {
+   "defline": "The Twin stands at your Month Gate, in plain view: at work you are seen as the one who carries their own weight.",
+   "reading": "You built your working life on your own effort, and the people around you have always seen it. Because doing it yourself is how you stay sure of your worth, you take whole tasks and sign your name to them, and you stall wherever credit is shared loosely. You keep your equals close at work, and you have quietly let go of everyone who treated you as junior.",
+   "domains": {
+    "Career": {
+     "headline": "You do your best work as nobody's junior.",
+     "recognition": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end.",
+     "lived": "Since your late teens you have been the one handed the job nobody else would finish alone. You have changed teams or roles at least once because someone else took the credit for your work."
+    },
+    "Social": {
+     "headline": "Your friends are your equals, or they drift.",
+     "recognition": "You choose friends who match you, people who carry their own weight and expect you to carry yours. Because you measure everyone against your own standard, you drift from anyone who leans on you, and you rarely say why. You keep a small circle, and you keep it for years.",
+     "lived": "Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear."
+    }
+   }
+  }
+ },
+ {
+  "id": "bijian_year_branch",
+  "term": "The Twin inside the Year Gate",
+  "gate": "year",
+  "slot_kind": "branch",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Twin lives inside your Year Gate: underneath your early years you learned to rely on yourself.",
+   "reading": "As a child you learned to be your own support, in a home that expected you to manage. Because you were trusted young, you came to trust yourself before anyone else, and that steadiness has carried you through every hard year since. The habit also makes it hard for you to let people in, and you accept help only after you have tried everything alone.",
+   "domains": {
+    "Family": {
+     "headline": "You grew up level with the people around you.",
+     "recognition": "You treat your family as equals, present and practical and never fussy. Because closeness when you were small came from standing side by side, you show tenderness late and mostly through what you do. You are the relative everyone counts on, and you rarely tell them what you feel.",
+     "lived": "In your first home a sibling or a cousin stood beside you as an equal, and the two of you looked after each other. By your teens you were trusted to handle things alone, and you seldom asked an adult for help."
+    },
+    "Growth": {
+     "headline": "You grow from trusting yourself first.",
+     "recognition": "Every skill you have began with deciding that you could do it. Because you learned early to depend on yourself, nobody can push you into learning, and you take to a teacher only once you have chosen them. Your progress speeds up whenever you let someone learn alongside you, and you let few people that close.",
+     "lived": "When you were small you taught yourself things the adults around you had not shown you, and you kept quiet about how hard it was. By your teens you had a stubborn way of learning, on your own terms and at your own pace."
+    }
+   }
+  }
+ },
+ {
+  "id": "bijian_year_stem",
+  "term": "The Twin at the Year Gate",
+  "gate": "year",
+  "slot_kind": "stem",
+  "domains": [
+   "Social",
+   "Family"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Twin stands at your Year Gate, in plain view: your family raised you to stand on your own.",
+   "reading": "You grew up in a family that praised independence, where help was earned and a capable child was noticed. Because standing on your own won you approval early, people still meet that capable face first, and they trust you to carry your share. Asking for anything has stayed the hardest thing you do, and you go without more often than anyone around you guesses.",
+   "domains": {
+    "Social": {
+     "headline": "Your friends are equals, or they are not friends.",
+     "recognition": "You keep a few equals close and everyone else at a friendly distance. Because you seem to need nothing, you attract people as capable as you are, and the ones who want support look elsewhere. Your circle is small and sturdy, and you feel its gaps more than you admit.",
+     "lived": "As a child your friends were your equals, children who competed with you and stood up for you in turn. By your teens the friendships that lasted were the level ones, and you dropped the rest without a fuss."
+    },
+    "Family": {
+     "headline": "You are the relative who never needs rescuing.",
+     "recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, never when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness.",
+     "lived": "In your first home an older relative made a point of standing on their own, and you copied it before you understood it. By your teens you had stopped asking for help, and the adults around you praised you for it."
+    }
+   }
+  }
+ },
+ {
+  "id": "jiecai_day_branch",
+  "term": "The Rival inside the Day Gate",
+  "gate": "day",
+  "slot_kind": "branch",
+  "domains": [
+   "Love",
+   "Wealth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Rival lives inside your Day Gate, the seat of your partner: your love life carries real stakes, in money and in pride.",
+   "reading": "You are drawn to bold partners with strong opinions and their own way with money, and a mild love has never held your interest for long. Because you feel most alive when someone pushes back, your home is lively and loud, full of debate and shared bets. The cost shows up in money, because two people who both want their way share one household, and you end up arguing over spending more than over love.",
+   "domains": {
+    "Love": {
+     "headline": "You fall for people who push back.",
+     "recognition": "You fall for partners with a temper, an opinion and plans of their own. Because being challenged is how you know you matter to someone, a calm and agreeable partner bores you within months. You keep loving through the arguments, and you count a quiet week as a sign that something has gone wrong.",
+     "lived": "The people you have loved so far were strong-willed and hard to predict, and none of them let you win easily. More than once a relationship of yours ran hot and loud for years, and you stayed because it never bored you.",
+     "ahead": "From your mid-thirties you share a home with a partner as bold as you are, and the house is rarely quiet. Love in these years holds through open argument, and you find more warmth in it than in any calmer bond before."
+    },
+    "Wealth": {
+     "headline": "Your money at home is shared, and contested.",
+     "recognition": "You treat money in a relationship as joint, and you give freely when your partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it.",
+     "lived": "So far your money has risen and fallen with the people you lived with, generous seasons followed by tight ones. You have paid for a partner's plans more than once, and you found it easier to give than to talk about it afterwards.",
+     "ahead": "From your mid-thirties money and love move together in your household, and the stakes on both rise. You earn well with a partner in these years, and you keep the peace at home whenever each of you holds an account of your own."
+    }
+   }
+  }
+ },
+ {
+  "id": "jiecai_hour_branch",
+  "term": "The Rival inside the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "branch",
+  "domains": [
+   "Family",
+   "Wealth"
+  ],
+  "golden": true,
+  "current": {
+   "defline": "The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend.",
+   "reading": "Your later life stays loud and full, with younger people around you who argue with you and for you. Because you value being matched more than being obeyed, you are drawn to the bold ones, and you give them more than you promised yourself. You will share most of what you build late, and you hold on to your part only where you fixed its size early.",
+   "domains": {
+    "Family": {
+     "headline": "Your family grows louder, and dearer, with age.",
+     "recognition": "You are pulled toward the strong-willed people in your family, the ones who push back and want their share. Because you respect whoever stands up to you, you give most to whoever argues hardest, and the quieter ones get less of you. You love a full and noisy table more than a calm one.",
+     "lived": "Since your late forties your family has grown louder, with younger people who want your time, your backing and your money. You have given more than you meant to, and you would do most of it again.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys."
+    },
+    "Wealth": {
+     "headline": "Your later money will always have company.",
+     "recognition": "You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks.",
+     "lived": "Since your late forties more people have had a claim on your money, children or younger relatives or someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, will start to make claims on your money. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks."
+    }
+   }
+  }
+ },
+ {
+  "id": "jiecai_hour_stem",
+  "term": "The Rival at the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "stem",
+  "domains": [
+   "Wealth",
+   "Growth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Rival stands at your Hour Gate, in plain view: in later life people see your nerve and ask you to back them.",
+   "reading": "Your later years stay bold and public, with people coming to you for backing long after others have stopped taking risks. Because being in the contest keeps you feeling alive, you say yes to the young and the daring more than you planned. You find real joy in some of that backing, and you lose part of what you give to people who only wanted the money.",
+   "domains": {
+    "Wealth": {
+     "headline": "Your later money goes to the bold.",
+     "recognition": "You back people you believe in, a younger relative's venture or a friend's new start, and you give with an open hand. Because daring is what you admire most, a confident request is hard for you to refuse. Your savings shrink in the years you give without counting, and you know which of your gifts were really losses.",
+     "lived": "Since your late forties people have turned to you for support, younger relatives and friends with plans that needed money. You have said yes more often than you meant to, and you have seen some of it pay off and some of it disappear.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, start bringing you their plans and asking for support. You spend more on other people's ventures in these years than on your own comfort, and you are glad of most of it."
+    },
+    "Growth": {
+     "headline": "You keep growing through the daring young.",
+     "recognition": "You grow in later life by watching bold people take risks and judging their bets with an experienced eye. Because risk still interests you, mentoring someone daring keeps your own nerve sharp. You lose interest in cautious company, and you come alive around anyone young enough to try something foolish.",
+     "lived": "Since your late forties your learning has come through other people's ventures, the plans you advised on and the risks you watched up close. You have grown sharper each time a younger person asked for your judgement, and you have enjoyed being asked.",
+     "ahead": "From your late forties you grow by staying involved, advising and backing people who are still at the start. These years keep your mind quick, and you end them with more nerve than most people half your age."
+    }
+   }
+  }
+ },
+ {
+  "id": "jiecai_month_branch",
+  "term": "The Rival inside the Month Gate",
+  "gate": "month",
+  "slot_kind": "branch",
+  "domains": [
+   "Career",
+   "Wealth",
+   "Social"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Rival holds your strongest seat, inside your Month Gate: your working years are built on risk and on people who share it.",
+   "reading": "Underneath your working years is a need to have something at stake, and waiting has always felt riskier to you than acting. Because you measure yourself against the people beside you, you do your best work where results are counted in public and shared with partners. Your income arrives in bursts and much of it goes on the people around you, and your prime builds more than it keeps.",
+   "domains": {
+    "Career": {
+     "headline": "You work best with something real at stake.",
+     "recognition": "You are at your sharpest in jobs with clear stakes, sales or ventures or anything where the score is public. Because you need to feel the risk to feel awake, you move first and sort out the rest afterwards. Your bold moves pay best beside a colleague who checks the details, and you have little patience for the checking yourself.",
+     "lived": "Since your late teens you have chosen work that paid by results over work that paid by the hour. You have had big wins and sharp drops in those years, and you have never once wished for a duller job."
+    },
+    "Wealth": {
+     "headline": "Your money comes in bursts, and leaves with friends.",
+     "recognition": "Money reaches you suddenly and leaves with the people you celebrate with, a friend's venture or a round for the table. Because generosity is how you show you belong, you lend before you are asked and count only later. Your savings stay thin through the good years as well as the lean ones, and you feel it most after a win.",
+     "lived": "From your late teens your income has come in surges, a good year followed by a thin one. More than once you lent or spent a windfall on friends within weeks, and you have mostly not regretted it."
+    },
+    "Social": {
+     "headline": "Your friends and your work are the same circle.",
+     "recognition": "Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because your confidence is catching, others join your plans quickly. You find the warmth real on both sides, and you also lose money and friendships when a shared plan goes wrong.",
+     "lived": "Since your late teens your closest friends have also been the people you worked or did deals with. At least one friendship of yours ended over a shared venture, and you still count the friend as a loss more than the money."
+    }
+   }
+  }
+ },
+ {
+  "id": "jiecai_month_stem",
+  "term": "The Rival at the Month Gate",
+  "gate": "month",
+  "slot_kind": "stem",
+  "domains": [
+   "Career",
+   "Social"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Rival stands at your Month Gate, in plain view: at work people see your nerve before anything else.",
+   "reading": "The working world sees your competitive side first, the colleague who volunteers whenever there is a contest to enter. Because winning in the open is how you prove your worth, you rise fastest where results are ranked and stall where credit is pooled. You make allies quickly and lose them almost as quickly, and your worst setbacks have come through bets you shared with someone else.",
+   "domains": {
+    "Career": {
+     "headline": "You rise fastest where the score is public.",
+     "recognition": "You come alive in work that ranks people openly, commissions and targets and anything with a clear winner. Because you need proof that you are winning, a vague team goal leaves you flat and restless. You unsettle quieter colleagues without meaning to, and you do your best work where nobody minds.",
+     "lived": "Since your late teens your best jobs have been the ones with a clear score, sales figures or rankings or a promotion race. You have left at least one shared project because the prize was never clearly divided, and you have done better alone since."
+    },
+    "Social": {
+     "headline": "Your circle is full of rivals you respect.",
+     "recognition": "Most of your friends come from work, and many of them started as people you competed against. Because you respect anyone who can beat you, your closest bond at work is with a former rival. You lose friends over contests more easily than most people, and you keep the ones who competed fairly.",
+     "lived": "From your late teens you have made friends through competition, in teams and offices and courses where everyone was ranked. More than once a friendship ended when you won, and you have kept the rival who took a loss well."
+    }
+   }
+  }
+ },
+ {
+  "id": "jiecai_year_branch",
+  "term": "The Rival inside the Year Gate",
+  "gate": "year",
+  "slot_kind": "branch",
+  "domains": [
+   "Family",
+   "Wealth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Rival lives inside your Year Gate: in your first home almost everything was shared, and almost everything was claimed.",
+   "reading": "You grew up in a household where money and belongings were pooled and a brother, sister or cousin always had a claim on what you had. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help first, and you say yes before you have worked out what it costs.",
+   "domains": {
+    "Family": {
+     "headline": "You grew up sharing everything with family.",
+     "recognition": "You treat family as people with a natural claim on your time, your space and your money. Because sharing was how your first home held together, refusing a relative feels like disloyalty to you. You give without fuss, and you resent it quietly when the giving is taken for granted.",
+     "lived": "In your first home the money and the clothes and the space were all shared, and a sibling or cousin was never far from what was yours. By your teens you could give without being asked and could tell exactly who had taken what."
+    },
+    "Wealth": {
+     "headline": "You give money easily and keep track of it.",
+     "recognition": "You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your savings grow slowly while your family's claims stay open, and you feel both generous and short.",
+     "lived": "As a child you saw money borrowed and lent around the family without anything being written down. By your teens you had already given away more than you could spare, and you had learned which relatives paid you back."
+    }
+   }
+  }
+ },
+ {
+  "id": "jiecai_year_stem",
+  "term": "The Rival at the Year Gate",
+  "gate": "year",
+  "slot_kind": "stem",
+  "domains": [
+   "Wealth",
+   "Social"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Rival stands at your Year Gate, in plain view: you grew up in a bold family where money moved fast.",
+   "reading": "Your family was known for its nerve, with money that came and went quickly and charm that won people over. Because boldness was praised in your first home, people warm to you quickly, and you act while others are still deciding. You also learned to spend as fast as you earn, and you feel uneasy holding on to money for long.",
+   "domains": {
+    "Wealth": {
+     "headline": "Money moved fast around you from the start.",
+     "recognition": "You spend quickly and generously, and money that comes in through friends or luck goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
+     "lived": "As a child you watched money arrive and vanish in your family, a good year followed by a hard one. By your teens you had your own share of that nerve, and you spent what you had almost as soon as you had it."
+    },
+    "Social": {
+     "headline": "People take to you quickly, and in numbers.",
+     "recognition": "You make friends fast, and a new group accepts you within an evening. Because charm was your family's way with people, you collect many allies and only a few who would stay through trouble. You know the difference between the two, and you feel it most in a hard year when the crowd thins.",
+     "lived": "As a child you were popular with other children and with adults, and you were invited everywhere. By your teens you had a wide circle and one or two close friends who mattered far more, and you knew which were which."
+    }
+   }
+  }
+ }
+]

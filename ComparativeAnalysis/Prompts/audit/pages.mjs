@@ -81,11 +81,13 @@ async function domainsSurface() {
   const unitsOf = (p) => [p.headlineSrc, p.howSrc, p.pattern?.src, ...p.past.map((b) => b.src), ...p.future.map((b) => b.src)].filter(Boolean);
   const all = new Set(); for (const [id, s] of Object.entries(DOMAINS_CONTENT.seats)) for (const [d, u] of Object.entries(s.domains)) for (const k of Object.keys(u)) all.add(`POSITION ${id} · domain_climb.${d}.${k}`);
   const seen = new Set(); const pages = []; let n = 0; let i = 0;
-  for (let y = 1958; y <= 2006 && pages.length < 200; y++) for (const [mo, hr] of [[2, 3], [5, 9], [8, 15], [11, 21]]) {
+  // the target reader first (owner audience 18 to 35, audit round 1): births 1986 to 2008, then the older band
+  const YEARS = [...Array.from({ length: 18 }, (_, k) => 1991 + k), ...Array.from({ length: 33 }, (_, k) => 1958 + k)];
+  for (const y of YEARS) for (const [mo, hr] of [[2, 3], [5, 9], [8, 15], [11, 21]]) { if (pages.length >= 220) break;
     i++; const hu = i % 9 === 0; const c = { year: y, month: mo, day: 1 + ((y * 7 + mo) % 27), hour: hr, location: 'Beijing', gender: i % 2 ? 'male' : 'female' };
     let res; try { res = compose(c, hu); } catch { continue; }
     for (const p of res.r.pages) {
-      const u = unitsOf(p); const fresh = u.filter((x) => !seen.has(x)); if (!fresh.length || pages.length >= 200) continue; u.forEach((x) => seen.add(x));
+      const u = unitsOf(p); const fresh = u.filter((x) => !seen.has(x)); if (!fresh.length || pages.length >= 220) continue; u.forEach((x) => seen.add(x));
       const sec = [{ head: 'TITLE', sub: p.count, key: p.headlineSrc, text: p.headline || '(none)' }, { head: 'HOW YOU ARE', sub: '', key: p.howSrc, text: p.how || '(none)' }];
       if (p.pattern) sec.push({ head: 'HOW YOU ARE · the pair line', sub: '', key: p.pattern.src, text: p.pattern.text });
       for (const b of p.past) sec.push({ head: 'ALREADY HAPPENED', sub: b.label, key: b.src, text: (b.lead ? b.lead + ' ' : '') + b.text });

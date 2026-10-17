@@ -1,0 +1,425 @@
+[
+ {
+  "id": "qisha_day_branch",
+  "term": "The General inside the Day Gate",
+  "gate": "day",
+  "slot_kind": "branch",
+  "domains": [
+   "Love",
+   "Health"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The General lives inside your Day Gate, the seat of your partner: your closest bond runs on force and pressure.",
+   "reading": "You are drawn to a partner with real force, someone whose will is as strong as yours, and a calm match has never held you for long. Because pressure is what makes you feel alive, your home life runs hot, and the strain lands in your own sleep when it turns inward. From your mid-thirties your home years carry more weight than any before them, and you will share them with a partner who meets your strength with their own.",
+   "domains": {
+    "Love": {
+     "headline": "You love people strong enough to push back.",
+     "recognition": "You fall for people with force, the ones who argue their case and refuse to be managed. Because a gentle partner leaves you restless, you bring pressure into love without meaning to, and small disagreements grow into contests. What you want is a partner who matches your strength and turns it toward the world with you.",
+     "lived": "So far the people you have loved have each been hard to move, with strong opinions and no wish to bend. At least once a relationship has worn you down through constant argument, and you stayed in it longer because the fight felt like closeness.",
+     "ahead": "From your mid-thirties love asks more of you, a shared home and a shared load and the pressure of building both. You come through these years closer to a partner when the two of you turn your strength to the same hard task."
+    },
+    "Health": {
+     "headline": "Your body carries whatever strain your home holds.",
+     "recognition": "Your energy rises and falls with the mood of your home, and a long quarrel shows up in your sleep before you admit it is there. Because you meet pressure by tightening up, the strain settles in your shoulders and your appetite. Your strength comes back quickly once the house is calm again.",
+     "lived": "So far your hardest seasons at home have also been your most tired ones, with broken sleep and a stiff back. Each time a quarrel ended, you got your energy back faster than you expected.",
+     "ahead": "From your mid-thirties your body becomes the clearest record of how your home is going. You are stronger in these years than in your twenties whenever the house is at peace, and every long quarrel costs you rest."
+    }
+   }
+  }
+ },
+ {
+  "id": "qisha_hour_branch",
+  "term": "The General inside the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "branch",
+  "domains": [
+   "Health",
+   "Family",
+   "Growth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The General lives inside your Hour Gate: your later years keep a private discipline that never quite stops.",
+   "reading": "Your later life runs on habits you do not let slip, the early start and the work finished and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The younger people around you feel protected by you more than held. Your late years stay full and demanding, and you keep your strength longer than most.",
+   "domains": {
+    "Health": {
+     "headline": "Your body stays strong on routine.",
+     "recognition": "You treat your body as something to keep in working order, with a fixed hour to rise and a daily walk or workout. Because strength is part of how you see yourself, you ignore stiffness and tiredness until they slow you down. Your energy is at its best when the week has a shape.",
+     "lived": "Since your late forties your body has answered regular effort quickly, and your strength has come back each time you returned to a routine. Each setback came through pride, and you paid for pushing through tiredness in your back or shoulders.",
+     "ahead": "From your late forties your health depends more on routine than on luck, and a steady week keeps you fitter than people half your age. Formless days drain you and ordered ones restore you, and you feel the difference within a week."
+    },
+    "Family": {
+     "headline": "Your family feels your protection first.",
+     "recognition": "You look after your family by making sure they are safe, the arrangements firm and the risks dealt with before anyone else sees them. Because care for you means strength, you find it easier to fix a problem than to say a tender thing. Your family knows they are covered, and they wait longer to hear that they are loved.",
+     "lived": "Since your late forties the people after you, children or younger relatives or someone you train, have leaned on your strength in hard moments. You gave them firm help sooner than warmth, and the warmth they did get from you counted for a great deal.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, come to you first when things go wrong. You give them safety without being asked, and you find in these years that saying the kind thing out loud is easier than it used to be."
+    },
+    "Growth": {
+     "headline": "You keep growing by setting yourself hard tasks.",
+     "recognition": "In later life you grow the way you always have, by taking on something difficult and holding yourself to it. Because ease makes you uneasy, you start a new practice or project long after others have stopped, and you finish it. What costs you is the quiet, and you find unplanned days harder than hard work.",
+     "lived": "Since your late forties you have taken on at least one new discipline, a skill or a sport or a role, and stuck with it longer than people expected. Your growth in those years came through effort, and the calm stretches between left you restless.",
+     "ahead": "From your late forties you grow through challenges you choose yourself, and each one makes you sharper and steadier. Your strength lasts longer than most people's because you keep using it, and you learn slowly to count rest as part of the work."
+    }
+   }
+  }
+ },
+ {
+  "id": "qisha_hour_stem",
+  "term": "The General at the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "stem",
+  "domains": [
+   "Career",
+   "Growth",
+   "Family"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The General stands at your Hour Gate, in plain view: in later life people see your authority before your warmth.",
+   "reading": "You keep working under pressure in later life, and people go on bringing you the hard problems because you still take them. Because demanding work is how you know you matter, stopping feels like losing your place. Those who come after you learn your standards early and feel your sharpness as well, and they respect you more than they relax around you. Your late years carry real authority, and you hold it to the end.",
+   "domains": {
+    "Career": {
+     "headline": "Your authority keeps growing after others retire.",
+     "recognition": "You stay in demand late, the one called when a problem is too hard for anyone else. Because pressure is where you feel useful, you take on serious responsibility at an age when most people step back. What you find hardest is a calendar with nothing urgent in it, and you fill it fast.",
+     "lived": "Since your late forties you have been asked to lead in the hard moments, on boards or in crises or in work nobody else would take on. You turned down at least one easy exit because the demanding role kept you sharp.",
+     "ahead": "From your late forties your working life carries more weight, with senior roles and serious decisions that people trust you to make. You stay active in work well past the usual age, and you are consulted long after others have stopped being asked."
+    },
+    "Growth": {
+     "headline": "You grow by using your strength with more care.",
+     "recognition": "In later life you change by getting better at pressure, using less force to get the same result. Because you have tested yourself so many times, you know your limits well, and you spend your energy where it counts. Your growth now comes from restraint, and you are wiser than you were in your thirties.",
+     "lived": "Since your late forties you have learned to get results with less pressure, and you have made fewer enemies along the way. You started to guide younger people through hard work, and teaching them restraint has taught you more than any role.",
+     "ahead": "From your late forties your growth comes through teaching, as you pass on how to handle pressure to people who are just starting. You become calmer and more exact with age, and you win more by doing less."
+    },
+    "Family": {
+     "headline": "Your family measures itself against your standards.",
+     "recognition": "You hold the people in your family to high standards, and you correct before you praise. Because you were made strong by demands, you believe demands are a form of care, and the people close to you feel the weight before the care. Your family respects you deeply, and some of them are a little afraid of you.",
+     "lived": "Since your late forties the people after you, children or younger relatives or someone you train, have measured themselves against you. They took your standards seriously, and you saw at least once that a sharp word from you stayed with them for years.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, carry your standards into their own lives. You soften with them in these years, and a few words of praise from you mean more to them than anything else you give."
+    }
+   }
+  }
+ },
+ {
+  "id": "qisha_month_branch",
+  "term": "The General inside the Month Gate",
+  "gate": "month",
+  "slot_kind": "branch",
+  "domains": [
+   "Career",
+   "Health"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The General holds your strongest seat, inside your Month Gate: your working years run on pressure you choose for yourself.",
+   "reading": "You chose hard work from your late teens, the demanding course or the tough job or the role others turned down, because easy work bored you. The strain you took on built your ability faster than comfort could have, and your standing grew through it. Your body has paid for that pace in short nights and tired shoulders, and you have always recovered once you let yourself stop.",
+   "domains": {
+    "Career": {
+     "headline": "You do your best work under real pressure.",
+     "recognition": "You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest.",
+     "lived": "Since your late teens your progress at work has come through crises, the deadline nobody could meet or the team that was falling apart. Each hard stretch left you more trusted than before, and you have rarely chosen the comfortable post."
+    },
+    "Health": {
+     "headline": "Your body carries the cost of your pace.",
+     "recognition": "You run on adrenaline through long weeks and notice the tiredness only when the pressure lifts. Because effort is where you feel most like yourself, you push through poor sleep and a sore back as if they were part of the job. Your energy is deep, and you spend it faster than you replace it.",
+     "lived": "Since your late teens your body has kept up with demands that would have stopped most people. More than once a hard season ended with you worn out for weeks, and you came back stronger each time you gave yourself real rest."
+    }
+   }
+  }
+ },
+ {
+  "id": "qisha_month_stem",
+  "term": "The General at the Month Gate",
+  "gate": "month",
+  "slot_kind": "stem",
+  "domains": [
+   "Career",
+   "Social"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The General stands at your Month Gate, in plain view: at work people see someone who can handle pressure.",
+   "reading": "People at work read authority on you before you say a word, and they hand you the hard jobs early. Because you meet pressure head on, you rise fastest in work with real stakes, and the crises that break others build your name. Colleagues respect you before they warm to you, and you have learned to accept that order. Your standing in these years comes from what you carried when it was hardest.",
+   "domains": {
+    "Career": {
+     "headline": "Your career rises fastest where the stakes are highest.",
+     "recognition": "You are given the urgent problem, the team in trouble or the deadline that cannot slip. Because you stay steady when others panic, your managers trust you with more than your title says, and the load keeps growing. You earn rank through pressure, and you rarely get a quiet week.",
+     "lived": "Since your late teens your reputation at work has grown out of hard moments, the emergency handled or the project rescued. You were promoted at least once for the steadiness you showed in a bad week."
+    },
+    "Social": {
+     "headline": "Your friends are people who have earned it.",
+     "recognition": "You keep a circle of people who have proved themselves, colleagues who stood with you when the work was hard. Because respect comes first for you, casual company bores you and light talk feels like a waste of time. Your friendships are few and serious, and the people in them stay loyal for years.",
+     "lived": "From your late teens your closest friends have been the people you worked hardest beside, in a tough job or a demanding team. Some acquaintances found you too intense and drifted off, and you kept the ones who stayed."
+    }
+   }
+  }
+ },
+ {
+  "id": "qisha_year_branch",
+  "term": "The General inside the Year Gate",
+  "gate": "year",
+  "slot_kind": "branch",
+  "domains": [
+   "Family",
+   "Growth",
+   "Health"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The General lives inside your Year Gate: underneath your early years was a weight you carried quietly.",
+   "reading": "Your first home asked a lot of you as a child, and some of what it asked happened where nobody else could see. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and your body has held the strain since. You still draw on that early toughness whenever life turns hard.",
+   "domains": {
+    "Family": {
+     "headline": "You carried more at home than anyone knew.",
+     "recognition": "At home you protect your family closely, and you take on their problems before they ask. Because you learned early to carry weight without help, you find it hard to let anyone see you struggle. Your family relies on your strength, and few of them know what it cost you to build.",
+     "lived": "As a child you carried a weight in your first home that few people saw, a strict rule or a hard stretch or a worry beyond your age. By your teens you were the steady one in your family, and you kept your own needs to yourself."
+    },
+    "Growth": {
+     "headline": "Hard times have always made you grow.",
+     "recognition": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you take on hard projects by choice and feel restless without one. Your best progress comes in the seasons other people would call the worst.",
+     "lived": "By your teens you had already learned to rise to a challenge, in school or at home or in a sport. Each hard year left you more capable than before, and you came to trust difficulty more than ease."
+    },
+    "Health": {
+     "headline": "Your body is strong and holds its strain.",
+     "recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it settles as stiffness in your back and shoulders. You recover well once you finally rest, and you rarely rest early enough.",
+     "lived": "As a child you were tough and slow to complain, and you rarely let anyone see you tired. By your teens you were already holding tension in your shoulders, and you got through hard weeks on reserves most children did not need."
+    }
+   }
+  }
+ },
+ {
+  "id": "qisha_year_stem",
+  "term": "The General at the Year Gate",
+  "gate": "year",
+  "slot_kind": "stem",
+  "domains": [
+   "Social",
+   "Career"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The General stands at your Year Gate, in plain view: from childhood people saw you as someone strong under pressure.",
+   "reading": "Your early life carried pressure that others could see, a demanding home or a tough school or a name you had to defend. Because you were tested young and in public, people learned to respect you early, and authority came to you sooner than to your friends. That start made you hard to push around, and you still meet every new group with your guard up.",
+   "domains": {
+    "Social": {
+     "headline": "People respect you first and like you second.",
+     "recognition": "You walk into a group and people sort themselves around you, some matching your strength and others keeping their distance. Because respect is what you learned to earn first, you are slow to relax with new people, and you test them before you trust them. Your friendships are strong and few, and you keep the ones who push back.",
+     "lived": "As a child you were the one others looked to in a fight or a dare, and you did not back down easily. By your teens your friends were either as tough as you or kept at a distance, and you learned diplomacy slowly."
+    },
+    "Career": {
+     "headline": "Authority found you early and kept finding you.",
+     "recognition": "You end up in charge in most places you work, often before you ask for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
+     "lived": "By your teens you were already given responsibility beyond your age, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends."
+    }
+   }
+  }
+ },
+ {
+  "id": "zhengguan_day_branch",
+  "term": "The Magistrate inside the Day Gate",
+  "gate": "day",
+  "slot_kind": "branch",
+  "domains": [
+   "Love",
+   "Family"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Magistrate lives inside your Day Gate, the seat of your partner: you love seriously, with promises meant to last.",
+   "reading": "You want love that is committed and clear, with a partner whose word holds as firmly as yours. Because keeping promises is how you show care, you judge a partner from the start by what they do on ordinary days. Over time that seriousness turns part of your love into routine, and the warmth goes quiet before you notice. From your mid-thirties a lasting partnership steadies the rest of your life, and you build it with someone you trust completely.",
+   "domains": {
+    "Love": {
+     "headline": "You love with promises, and you keep them.",
+     "recognition": "You are drawn to partners with clear values, people who keep their word and expect you to keep yours. Because reliability is what love means to you, you trust slowly and commit fully, and you find casual romance empty. What you want is a partner you can count on for life, and you give the same in return.",
+     "lived": "So far the relationships that mattered to you have been serious from early on, with plans made and promises kept. At least once you stayed loyal to a commitment after the feeling had faded, and you were slow to admit it.",
+     "ahead": "From your mid-thirties love settles into something formal and lasting, a shared home and a shared name for what you are. You grow closer to a partner through the small rituals you keep together, and you find the warmth that duty alone never gave you."
+    },
+    "Family": {
+     "headline": "Your home runs on kept promises.",
+     "recognition": "You run your household on clear duties and fair rules, and the people in it know what to expect. Because order is how you protect the people you love, you notice a broken promise at home faster than a kind word. Your family feels secure with you, and some of them wish you were less strict.",
+     "lived": "So far your family life has been built on structure, regular meals and shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who keeps its promises when others forgot.",
+     "ahead": "From your mid-thirties your home becomes the steady centre of your family, the place relatives turn to and point to. You add more warmth to its order in these years, and you find that a correct house can also be an easy one to live in."
+    }
+   }
+  }
+ },
+ {
+  "id": "zhengguan_hour_branch",
+  "term": "The Magistrate inside the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "branch",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Magistrate lives inside your Hour Gate: your later years rest on a quiet sense of duty done well.",
+   "reading": "You want your later life in good order, with your affairs settled and your obligations met. Because keeping your word is how you feel at peace, you finish what you owe before you allow yourself to rest. The people closest to you trust that your arrangements will hold. Your late years stay calm and respected, and you find more ease in them than you planned for.",
+   "domains": {
+    "Family": {
+     "headline": "Your family trusts your word completely.",
+     "recognition": "You look after your family by keeping everything in order, the papers sorted and the promises kept. Because reliability is how you express love, you are more at ease arranging things for people than talking about feelings. Your family depends on that order, and they know less of your heart than of your plans.",
+     "lived": "Since your late forties the people after you, children or younger relatives or someone you train, have relied on your word without checking it. You have settled matters for them quietly and in good time, and few of them have seen how much you handled.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, organise their own lives around what you have arranged. You share more of your stories with them in these years, and they come to know you as well as they trust you."
+    },
+    "Growth": {
+     "headline": "You grow later by refining what you value.",
+     "recognition": "In later life you grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you have little interest in reinventing yourself, and change in you shows up as care and patience. Your progress is quiet, and it is easy for others to miss.",
+     "lived": "Since your late forties your growth has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did.",
+     "ahead": "From your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example."
+    }
+   }
+  }
+ },
+ {
+  "id": "zhengguan_hour_stem",
+  "term": "The Magistrate at the Hour Gate",
+  "gate": "hour",
+  "slot_kind": "stem",
+  "domains": [
+   "Family",
+   "Social",
+   "Career"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Magistrate stands at your Hour Gate, in plain view: in later life your standing and your standards are what people see.",
+   "reading": "Your standing grows with age, and people go on asking for your judgement long after a job has ended. Because doing things properly is how you earn your place, you take on roles of trust in later life and fill them with care. Younger people measure themselves against your example, and the measuring is quiet and lasting. Your name becomes one that others trust, and you leave it in good order.",
+   "domains": {
+    "Family": {
+     "headline": "Your family takes its standards from you.",
+     "recognition": "You set a clear example for your family, and you notice when someone falls short of it. Because you care about doing things properly, you correct before you praise, and the people close to you remember both. Your approval matters more to them than you realise, and you give it less than they need.",
+     "lived": "Since your late forties the people after you, children or younger relatives or someone you train, have watched how you conduct yourself and copied more than you knew. More than once a word of your approval stayed with one of them for years, and you heard about it only later.",
+     "ahead": "From your late forties the people after you, children or younger relatives or someone you train, treat you as the one whose opinion settles things. You praise more freely in these years, and they grow steadier for it."
+    },
+    "Social": {
+     "headline": "Your reputation keeps rising with age.",
+     "recognition": "You are the person people ask to chair the meeting or hold the keys or settle the dispute. Because you take duty seriously, you say yes to roles others avoid, and your circle trusts you more each year. Your friendships carry a little formality, and you find it hard to let others see you off duty.",
+     "lived": "Since your late forties your name has carried weight in your circle, and you have been asked to lead groups you once simply belonged to. You gained respect that outlasted any title, and you found yourself consulted on matters well outside your old work.",
+     "ahead": "From your late forties your community keeps giving you positions of trust, a committee or a board or a role as the steady voice. You are honoured more in these years than in your working prime, and you choose carefully which causes get your name."
+    },
+    "Career": {
+     "headline": "Your later working life moves toward leadership.",
+     "recognition": "You are drawn in later life to work that keeps an organisation sound, the overseeing and the guiding more than the doing. Because you respect structure, you would rather look after something lasting than start something new. Your value at work now lies in judgement, and you are trusted with decisions others will not make.",
+     "lived": "Since your late forties your work has shifted toward oversight, a seat on a board or a senior post or a role guiding the people below you. You were trusted with the running of things you once only served, and you handled it with care.",
+     "ahead": "From your late forties you move into roles that govern more than they produce, and your judgement becomes your main asset. You end your working life on a high standard, and the respect you earn lasts longer than any post you hold."
+    }
+   }
+  }
+ },
+ {
+  "id": "zhengguan_month_branch",
+  "term": "The Magistrate inside the Month Gate",
+  "gate": "month",
+  "slot_kind": "branch",
+  "domains": [
+   "Career",
+   "Growth",
+   "Social"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Magistrate holds your strongest seat, inside your Month Gate: your working years are built on duty done properly.",
+   "reading": "You feel most yourself when you have a clear role and do it well, and your working years are shaped around that need. Because steady reliability earns trust, your responsibilities grow year by year inside the places you join. The frame that supports you also holds you in, and your freedom shrinks as your rank grows. Your influence comes from being dependable, and it is greater than it looks.",
+   "domains": {
+    "Career": {
+     "headline": "Your career grows steadily inside a structure.",
+     "recognition": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a proper title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
+     "lived": "Since your late teens your career has moved up in steady steps, a promotion earned or a responsibility added each time you proved yourself. Your seniors noticed your reliability early, and you were trusted with more than your age suggested."
+    },
+    "Growth": {
+     "headline": "You grow by moving from one structure to the next.",
+     "recognition": "You grow inside a framework, a course or a firm or a discipline, until you have learned everything it can teach. Because loyalty runs deep in you, leaving one structure for a bigger one feels like a betrayal, and you wait longer than you need to. Your growth comes in clear stages, and each one starts when you finally move.",
+     "lived": "From your late teens you grew through formal steps, a qualification finished or a rank reached or a role handed over to you. Each structure you joined shaped you for a few years, and you outgrew most of them on time."
+    },
+    "Social": {
+     "headline": "People rely on you to keep things steady.",
+     "recognition": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone credits you for.",
+     "lived": "Since your late teens your friendships have grown out of work and shared duties, the colleagues you trusted and the seniors who trusted you. You became the steady one in every group you joined, and some of those bonds have lasted well beyond the job."
+    }
+   }
+  }
+ },
+ {
+  "id": "zhengguan_month_stem",
+  "term": "The Magistrate at the Month Gate",
+  "gate": "month",
+  "slot_kind": "stem",
+  "domains": [
+   "Career",
+   "Social"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Magistrate stands at your Month Gate, in plain view: at work people see someone reliable and ready for promotion.",
+   "reading": "People at work see you as correct and dependable, and they answer with responsibility and rank. Because your record speaks for you, titles come to you in steady order, and they stay. In your circle you are the one made responsible, the person others call when something must be done properly. Your name matters more than your pay in these years, and over time it raises your pay as well.",
+   "domains": {
+    "Career": {
+     "headline": "Your record earns you rank.",
+     "recognition": "You climb at work through trust, the clean record and the job done the way it should be. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record.",
+     "lived": "Since your late teens you have been promoted by people who trusted you early, a manager or a mentor who put your name forward. Your references have opened doors for you more than once, and you have rarely had to ask for a step up."
+    },
+    "Social": {
+     "headline": "Everyone trusts you with the responsible job.",
+     "recognition": "Your friends and colleagues hand you the keys, the calendar and the emergency. Because people trust you on sight, you get the duty along with the respect, and you rarely refuse it. Your social life runs on reliability, and you have less time for fun than the people who lean on you.",
+     "lived": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. At least once that role cost you a weekend or a holiday you had planned for yourself, and you gave it up without complaint."
+    }
+   }
+  }
+ },
+ {
+  "id": "zhengguan_year_branch",
+  "term": "The Magistrate inside the Year Gate",
+  "gate": "year",
+  "slot_kind": "branch",
+  "domains": [
+   "Family",
+   "Growth"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Magistrate lives inside your Year Gate: underneath your early years was a quiet order you absorbed as a child.",
+   "reading": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You still carry the standards you learned at home, and they have served you well.",
+   "domains": {
+    "Family": {
+     "headline": "You absorbed your family's rules early.",
+     "recognition": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull long after you have left home.",
+     "lived": "As a child you knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly."
+    },
+    "Growth": {
+     "headline": "You grow best inside a clear structure.",
+     "recognition": "You grow by finishing what you start, the course completed and the level passed and the standard met. Because structure is where you first felt secure, you do well wherever the steps are clear and lose heart when they are not. Your progress is steady, and you climb further than people who started faster.",
+     "lived": "By your teens you had a record of steady progress, school years finished well and responsibilities taken on early. Teachers and older relatives trusted you, and you came to measure your growth by the steps you completed."
+    }
+   }
+  }
+ },
+ {
+  "id": "zhengguan_year_stem",
+  "term": "The Magistrate at the Year Gate",
+  "gate": "year",
+  "slot_kind": "stem",
+  "domains": [
+   "Social",
+   "Family"
+  ],
+  "golden": false,
+  "current": {
+   "defline": "The Magistrate stands at your Year Gate, in plain view: you come from a family whose good name others could see.",
+   "reading": "You grew up in a household known for doing things properly, with rules kept where the neighbours could see them. Because that reputation came with you, your word was believed early and responsibility found you young. The name has its price, and you have always felt the pressure to live up to it. You carry your family's standing into every group you join, and it has served you well.",
+   "domains": {
+    "Social": {
+     "headline": "People trust you before they know you.",
+     "recognition": "New people give you their trust quickly, and you are offered responsibility in a group before you have earned it. Because a good name was part of your upbringing, you behave in public with care, and you dislike being seen at your worst. Your standing is a real advantage, and you guard it more closely than you need to.",
+     "lived": "As a child you were trusted by teachers and neighbours, partly because of the family you came from. By your teens you were the one picked to lead or to represent the group, and you felt the weight of behaving well."
+    },
+    "Family": {
+     "headline": "You come from a family that kept its standards.",
+     "recognition": "You hold your family's name with pride and some strain, and its standards still shape what you allow yourself. Because what the family stood for was visible to others, you feel its expectations most in public. You honour the values you were given, and you quietly drop the rules that never made sense.",
+     "lived": "In your first home there were clear rules and an older relative who held everyone to them. By your teens you knew exactly what the family expected of you, and you met most of it while keeping a few doubts to yourself."
+    }
+   }
+  }
+ }
+]

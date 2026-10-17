@@ -1,0 +1,70 @@
+{
+ "patterns": {
+  "shishen_zhi_sha": {
+   "readings": {
+    "Career": "Underneath, you do your calmest work closest to pressure, because the deadlines that grind other people turn into steady output in your hands.",
+    "Health": "Comfort is what protects you, because good food and work with your hands turn pressure into something you can use."
+   },
+   "fused_line": "In you this runs close to the surface, and you turn pressure into calm almost as soon as it lands."
+  },
+  "shang_guan_pei_yin": {
+   "readings": {
+    "Career": "Your boldest ideas and your patience for study also feed each other, and you grow braver in public with every qualification you earn.",
+    "Mind": "You also learn best when you can show what you learn, and you turn every course you finish into something you can say out loud."
+   },
+   "fused_line": "In you the two never pull apart, and you rarely have to choose between your talent and your training."
+  },
+  "xiao_shen_duo_shi": {
+   "readings": {
+    "Mind": "You also think so long about a thing that you miss the moment to make it, and you keep a drawer of nearly finished work.",
+    "Career": "You also polish your work in private until the moment to show it has passed, and you lose more chances by not finishing than by failing.",
+    "Health": "In your heaviest thinking seasons you also forget to eat and sleep properly, and your body tells you before your mind admits it."
+   },
+   "fused_line": "In you this pull is constant, and you feel the tug between thinking and finishing almost every day."
+  },
+  "shang_guan_jian_guan": {
+   "readings": {
+    "Career": "You also keep correcting the very structures you climb, and you do your brightest work wherever the rules are loosest."
+   },
+   "fused_line": "In you this runs deep, and you have argued with your own position since your first job."
+  },
+  "sha_yin_xiang_sheng": {
+   "readings": {
+    "Career": "Underneath, you come out of every hard stretch at work more senior than you went in, and the pattern grows stronger with age.",
+    "Growth": "Underneath, you grow most through the years that weigh on you, and you have left every heavy stretch more skilled than you entered it.",
+    "Mind": "Underneath, you turn pressure into understanding, and the hardest years of your life are the ones that taught you how to think."
+   },
+   "fused_line": "In you this works fast, and you learn from pressure in the same week it arrives."
+  },
+  "bi_jie_duo_cai": {
+   "readings": {
+    "Wealth": "You lose money most easily where you share it with friends and family, and you also find your safety net among those same people."
+   },
+   "fused_line": "In you this runs close to home, and you rarely own anything that is only yours."
+  },
+  "shi_shang_sheng_cai": {
+   "readings": {
+    "Wealth": "Underneath, what you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+    "Career": "You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing."
+   },
+   "fused_line": "In you the gap is short, and you are paid in the same season that you make."
+  },
+  "cai_guan_xiang_sheng": {
+   "readings": {
+    "Career": "Underneath, your earnings keep turning into standing, and you rarely ask for the title your results have already earned.",
+    "Wealth": "You also turn money into position, and you feel richer when a gain comes with respect than when it comes alone."
+   },
+   "fused_line": "In you the two are tightly bound, and you find every gain arguing quietly for your next title."
+  },
+  "guan_yin_xiang_sheng": {
+   "readings": {
+    "Career": "You also find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
+    "Mind": "Even so, you learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended."
+   },
+   "fused_line": "In you the two move together, and you rise in rank and in learning at once."
+  }
+ },
+ "_approved": [
+  "pattern shishen_zhi_sha.Health"
+ ]
+}

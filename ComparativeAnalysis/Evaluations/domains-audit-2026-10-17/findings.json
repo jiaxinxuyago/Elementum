@@ -1,0 +1,3868 @@
+{
+ "findings": [
+  {
+   "source": "A-wealth-family",
+   "id": "MAJ-1",
+   "severity": "MAJOR",
+   "criterion": "C3, C1",
+   "pages": "~36 beats on 33 pages (listed in the rule)",
+   "key": "GOD * · decade_lines.",
+   "quote": "\"You won your share by working beside rivals\" (D091, ages 3 to 12); \"Care surrounded you … gave you the confidence to grow\" (D115, ages 54 to 63); \"You keep enough because your own income keeps rising\" (D200, ages 87 to 96)",
+   "issue": "Decade lines are written for one life stage (a young adult) but the engine prints them for any age the decade falls on, so they read as false to the reader.",
+   "fix": "**Rule: every decade line declares an age band (childhood < 16 · adult 16 to 59 · late 60+). The engine picks the variant whose band holds most of the decade's span, and suppresses the line if no variant fits.** Counts in this set: childhood decades given adult money lines, 4 (D063 9 to 18, D075 11 to 20, D091 3 to 12, D195 2 to 11); adult decades given child-under-elders Family lines, 11 (D017, D048, D055, D066, D070, D089, D098, D110, D115, D154, D162); late decades promising rising income, new deals, partnerships, elders' support or siblings, ~21 (Wealth: D007, D018, D053, D057, D075×2, D079, D091, D093, D105, D113, D130, D151, D184, D195, D200; Family: D034×2, D115, D167, D180). Lines that are age-neutral already (Steward heavy ahead \"You have more put by than you feel you have\") show the target. TW-2 to TW-10 give drop-in age-neutral versions for the worst keys."
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "MAJ-2",
+   "severity": "MAJOR",
+   "criterion": "C2",
+   "pages": "10 pages",
+   "key": "",
+   "quote": "D177: \"very little saved, and both habits stayed\" then \"By your teens you were already saving\"; D063: \"income has risen steadily, without big jumps\" then \"your income has come in surges\"; D079: \"your accounts have settled, the debts cleared\" then \"your money has gone out as fast as it came in\"; D198: \"relatives have seen less of you than they wanted\" then \"the house was busier for it\"",
+   "issue": "Two beats claim opposite behaviour for the same age span, with no tension named, so the reader stops believing both.",
+   "fix": "**Rule: when two beats cover overlapping spans, the composer checks them against a per-key polarity tag (saves/spends, near/far, under rules/sets rules). On a clash it either (a) prints a fused bridge sentence that names the tension as plain view versus inside (stem = what people saw, branch = what you did privately), or (b) drops the lower-ranked beat. The gap line never prints in a span that a decade line also fills.** Pages: D042 (Year Horizon vs Month Steward; gap vs Rival decade at 51 to 60), D057 (gap \"held level\" vs \"income keeps rising\"), D063, D079, D103 (gap vs \"you saved steadily\" at 54 to 63), D136, D177, D098 (Magistrate heavy \"little say\" vs Hour \"relied on your word\", 54 to 63), D115 (Sage \"older relative … put your needs first\" vs provider, 54 to 63), D198."
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "MAJ-3",
+   "severity": "MAJOR",
+   "criterion": "C3, C2",
+   "pages": "24 instances",
+   "key": "",
+   "quote": "\"So far your home has been the calm house\" (D017, age 68); \"From your mid-thirties … you will share them with a person\" (piancai_day_branch reading, D057 at 67); D180 at 47: \"COMING The Home Chapter · now to 47 … From your mid-thirties the family starts to gather at your house\"",
+   "issue": "Shared seat text is written from one point in life. For a reader past that gate it reads in the wrong tense, and for a reader inside the Day Gate the engine shows the \"ahead\" beat in place of the \"lived\" one.",
+   "fix": "**Rule: (1) Day lived beats lose \"so far\" once the reader is 48 or over (the engine strips it or keeps a second variant). (2) Seat readings carry no future-tense age clause (\"From your mid-thirties … will\", \"after your late forties\", \"You will share\"), or they carry a past variant chosen by the reader's age. (3) A reader aged 35 to 47 gets the Day seat's lived beat in step 2, and the ahead beat only in a present-continuous form (\"Through your forties …\"). (4) An unreached Hour seat may lead step 1 only with a recognition written in the present (\"You already …\"), not in late-life terms.** Counts: \"so far\" past 47, 11 (D057, D063, D105, D113, D130, D157, D017, D080, D124, D132, D142); future-tense readings for past gates, 10 (piancai_day_branch D057, D063, D105, D113, D157; zhengcai_hour_stem D079, D151, D080; jiecai_hour_branch D029, D025); Day ahead in place of lived at 47, 2 (D180, D187); unreached Hour lead at 47, 1 (D195 \"You notice a chance to earn … a deal offered by someone younger\"). Several of these texts are template-approved; the defect is where they are placed, not how they are worded."
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "MAJ-4",
+   "severity": "MAJOR",
+   "criterion": "C5",
+   "pages": "~30 pages",
+   "key": "",
+   "quote": "\"Since your late forties the people after you, children or younger relatives or someone you train,\" opens two beats on D001, D089 (and two ahead beats on D187, \"From your late forties the people after you, children or younger relatives or someone you train,\"); \"By your teens\" closes or opens both Year beats on D001, D017, D025, D041, D055, D066, D115, D139, D162, D168, D193, D198, D018",
+   "issue": "The brief bans a repeated phrase or opener across a page; the composer stacks beats that were each written to stand alone, so the 15-word range phrase and the age opener repeat.",
+   "fix": "**Rule: the range phrase (\"children or younger relatives or someone you train\") prints once per page, on the first Hour beat; later Hour beats get a short form (\"they\", \"the younger ones\"). An age opener (\"Since your late forties\", \"By your teens\", \"Since your late teens\", \"From your late forties\") may open at most one beat per step; the label already carries the span, so the second beat's opener is dropped.** Counts: range phrase twice on one page, 6 (D001, D041, D089, D102, D187, D198); \"By your teens\" in both Year beats, 13; \"Since your late forties/teens\" opening three beats in one step, 3 (D042, D079, plus four Late beats across D001/D089 pairs)."
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "MIN-1",
+   "severity": "MINOR",
+   "criterion": "C5, C2",
+   "pages": "14 (Wealth.hour: D042, D057, D075, D091, D103, D136, D157, D176, D177; Wealth.day: D184, D195, D200; Family.day: D193, D198)",
+   "key": "TEMPLATED tpl_domains · domain_gaps.",
+   "quote": "\"No seat in your Hour Gate rules Wealth. Since your late forties, you have cared more … and your money has held level.\"",
+   "issue": "The gap is two sentences (the budget is one), the first is engine talk, and \"money has held level\" clashes with a decade on four of these pages. The golden gap is one plain sentence.",
+   "fix": "Wealth.hour: \"Since your late forties you have cared more about the people after you and your own time than about earning more.\" Wealth.day: \"Since your mid-thirties you have put a partner and your own life first, and money has stayed something you manage more than something you build.\" Family.day: \"Since your mid-thirties you have put work and your own direction before family life, and relatives have seen less of you than they wanted.\""
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "MIN-2",
+   "severity": "MINOR",
+   "criterion": "C5, C2",
+   "pages": "19 (Wealth: D018, D053, D075, D093, D130, D176, D195; Family: D017, D025, D034, D048, D055, D070, D102, D132, D142, D162, D167, D198)",
+   "key": "",
+   "quote": "\"A Steward decade, lining up with the Steward in your Year Gate. It is the stretch that asks most of your money.\"",
+   "issue": "A fragment, then a stock sentence that repeats on every window. On Wealth Steward heavy, the line that follows (\"you relax a little each time you check\") does not carry \"asks most\", so the pole reads overstated.",
+   "fix": "Heavy: \"This Steward decade meets the Steward in your Year Gate, and no stretch of your chart asks more of your money.\" Helping: \"This Horizon decade meets the Horizon in your Hour Gate, and no stretch of your chart does more for your money.\" (one sentence, seat and domain filled in by the engine)."
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "MIN-3",
+   "severity": "MINOR",
+   "criterion": "C5",
+   "pages": "9 (D053, D063, D079, D105, D113, D136, D151, D184, D195)",
+   "key": "TG_PATTERN bi_jie_duo_cai · fused_line",
+   "quote": "\"You lose money most easily where you share it with friends and family … They share one gate in you\"",
+   "issue": "\"They\" has no antecedent on the page, so it reads as \"friends and family share one gate in you\". The pair is never named. (The wording is template-approved; the problem appears once it is printed after this domain line.)",
+   "fix": "bi_jie_duo_cai: \"Both seats sit in one gate in you, and you rarely own anything that is only yours.\" shi_shang_sheng_cai: \"Both seats sit in one gate in you, and you are paid in the same season that you make.\""
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "MIN-4",
+   "severity": "MINOR",
+   "criterion": "C2",
+   "pages": "6 (D042, D113, D136, D151, D176, D184)",
+   "key": "TG_PATTERN shi_shang_sheng_cai · domain_lines.Wealth",
+   "quote": "Recognition: \"you distrust any money that comes too easily\" → pair line: \"you earn most from the work that feels like play\"",
+   "issue": "On a careful-saver page the pair line contradicts step 1 with no bridge.",
+   "fix": "Add a Steward-lead variant: \"Your care with money and your making feed each other, and the work that feels like play is where your steady income grows fastest.\""
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-1",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D055, D132, D198",
+   "key": "POSITION zhengyin_hour_branch · reading",
+   "quote": "\"A life with no strain grows small\"",
+   "issue": "An aphorism, which the brief bans; it also closes the unit.",
+   "fix": "\"Your later life rests on kindness you gave years before, and it comes back to you as care from those you helped. Because you spent decades looking after others, accepting help feels strange to you, and you learn it slowly. Your days settle into gentle routines of reading, rest and good company. You feel smallest in the weeks when nobody needs anything from you, and you say so to no one.\" (71 words)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-2",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D057, D063, D093, D177, D200",
+   "key": "GOD jiecai · decade_lines.Wealth.heavy.ahead",
+   "quote": "\"You keep enough because your own income keeps rising\"",
+   "issue": "Promises a rising income, which is false at 77 to 98 on three pages.",
+   "fix": "\"Other people reach for your money in these years, through loans, shared costs and favours that never come back. You keep enough because you set your own share aside first, and you stop spending to prove yourself.\" (37)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-3",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D079, D105, D113, D151",
+   "key": "GOD jiecai · decade_lines.Wealth.helping.ahead",
+   "quote": "\"Partnerships and shared ventures pay … You earn more with people at your side\"",
+   "issue": "Assumes working life, but the decades fall at 73 to 93.",
+   "fix": "\"Shared money works for you in these ten years, because the contest with others keeps you sharp. You do better with people at your side than alone, and you keep a fair part of what you win together.\" (38)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-4",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D007, D018, D091, D097, D130, D176, D184",
+   "key": "GOD piancai · decade_lines.Wealth.heavy.ahead",
+   "quote": "\"with more deals in view than you can follow\"",
+   "issue": "\"Deals\" assumes a working life; five of these decades fall after 73.",
+   "fix": "\"Chances multiply in these years and spread you thin, with more offers and requests than you can follow. One reliable source keeps paying while the others rise and fall, and you come through with your savings intact.\" (37)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-5",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D048, D055, D070",
+   "key": "GOD zhengguan · decade_lines.Family.helping.lived",
+   "quote": "\"You earned respect from older relatives by keeping the family's rules\"",
+   "issue": "A child's line, but the decades fall at 40 to 60.",
+   "fix": "\"Order and good manners shaped your home in those years, and everyone knew their place and their duties. You earned respect in your family by keeping its rules, and you felt secure inside them.\" (34)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-6",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D041, D110, D115, D154, D162, D187",
+   "key": "GOD zhengyin · decade_lines.Family.helping.lived",
+   "quote": "\"from an older relative … gave you the confidence to grow\"",
+   "issue": "Childlike at 36 to 63, and it clashes with a provider Hour seat (D115).",
+   "fix": "\"Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before.\" (34)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-7",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D089, D098, D167",
+   "key": "GOD zhengguan · decade_lines.Family.heavy.lived",
+   "quote": "\"the discipline it taught you later gave you a voice of your own\"",
+   "issue": "A coming-of-age line, but the decades fall at 43 to 63.",
+   "fix": "\"Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and what carried you was the respect it earned you.\" (35)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-8",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D017, D180",
+   "key": "GOD bijian · decade_lines.Family.helping.lived",
+   "quote": "\"an equal in your family more than a child or a dependant\"",
+   "issue": "Reads as wrong at 44 to 53 (D017).",
+   "fix": "\"Those years made you an equal in your family, with a voice as strong as anyone's. You stood on your own feet among your relatives, and they treated your word as worth the same as theirs.\" (36)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-9",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D034, D167, D180",
+   "key": "GOD zhengyin · decade_lines.Family.helping.ahead",
+   "quote": "\"Elders and family support you\"",
+   "issue": "No living elders are likely at 68 to 77 (D034).",
+   "fix": "\"Family support reaches you in these ten years, as advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it.\" (36)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-10",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D034, D110, D154, D162, D180",
+   "key": "GOD zhengguan · decade_lines.Family.heavy.ahead",
+   "quote": "\"with duties to elders and a reputation to protect\"",
+   "issue": "\"Duties to elders\" at 71 to 97 (D034, D180).",
+   "fix": "\"Obligations at home pile up in these years, with duties to the people who rely on you and a family name to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone.\" (40)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-11",
+   "severity": "TWEAK",
+   "criterion": "C4",
+   "pages": "D015, D018, D093, D097",
+   "key": "POSITION jiecai_hour_stem · reading",
+   "quote": "\"you lose part of what you give to people who only wanted the money\"",
+   "issue": "The close accuses others of bad faith (BIZ_04: no victims and no bad faith). The cause should be the reader's own act.",
+   "fix": "\"Your later years stay bold and public, with people coming to you for backing long after others have stopped taking risks. Because being in the contest keeps you feeling alive, you say yes to the young and the daring more than you planned. You find real joy in some of that backing, and you lose part of what you give because you said yes before you asked what it was for.\" (71)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-12",
+   "severity": "TWEAK",
+   "criterion": "C2",
+   "pages": "D042, D057, D136, D177, D200",
+   "key": "POSITION piancai_year_stem · domain_climb.Wealth.lived",
+   "quote": "\"very little saved, and both habits stayed\"",
+   "issue": "It leans on the reader having no saver seat, and it clashes with Steward seats on three pages and with its own reading (\"you have had to build for yourself the savings habit\").",
+   "fix": "\"As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance, and saving was something you had to teach yourself.\" (38)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-13",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D018, D075, D079, D177",
+   "key": "POSITION zhengcai_year_branch · domain_climb.Wealth.lived",
+   "quote": "\"By your teens you were already saving\"",
+   "issue": "Repeats the stem's lived beat almost word for word (D018) and adds a third \"By your teens\".",
+   "fix": "\"As a child you kept coins and small earnings longer than your friends did, and nobody had to tell you to. You learned early that money kept quietly was money that stayed, and you have never lost the habit.\" (39)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-14",
+   "severity": "TWEAK",
+   "criterion": "C1",
+   "pages": "D007",
+   "key": "TEMPLATED tpl_domains · domain_unruled.Wealth",
+   "quote": "\"Some stretches of years bring money in and others drain it, and you feel the difference\"",
+   "issue": "Barnum: true of anyone.",
+   "fix": "\"Your finances follow no single pattern from birth, so you have never trusted one good year to last. Some decades bring money in and others drain it, and you notice the turn before anyone around you does.\" (37)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-15",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D017, D070, D080, D135",
+   "key": "POSITION zhengcai_year_branch · domain_climb.Family.lived",
+   "quote": "\"promises about it were kept … kept your own promises\"",
+   "issue": "Echoes the stem's \"promises kept\" on D017 and adds another \"By your teens\".",
+   "fix": "\"As a child you knew that money at home was handled carefully and that nothing was spent without a reason. Early on you counted your own money and kept your word the way the household did.\" (35)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-16",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D001, D154",
+   "key": "POSITION bijian_year_branch · domain_climb.Family.lived",
+   "quote": "\"you seldom asked an adult for help\"",
+   "issue": "The same close as bijian_year_stem (\"you had stopped asking for help\") on D001.",
+   "fix": "\"In your first home a sibling or a cousin stood beside you as an equal, and the two of you looked after each other. You learned to settle things between yourselves, and the adults were the last to hear about them.\" (41)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-17",
+   "severity": "TWEAK",
+   "criterion": "C3, C4",
+   "pages": "D139, D168, D180",
+   "key": "POSITION qisha_year_branch · reading",
+   "quote": "\"your body has held the strain since\"",
+   "issue": "A shared Family reading leans on Health and edges toward illness.",
+   "fix": "\"Your first home asked a lot of you as a child, and some of what it asked happened where nobody else could see. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and you still wait too long to say when something is heavy. You draw on that early toughness whenever life turns hard.\" (76)"
+  },
+  {
+   "source": "A-wealth-family",
+   "id": "TW-18",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D102",
+   "key": "POSITION shishen_hour_branch · domain_climb.Family.lived",
+   "quote": "\"your home has filled with … someone you train\"",
+   "issue": "\"Someone you train\" filling your home reads oddly.",
+   "fix": "\"Since your late forties your home has filled with the people after you, children or younger relatives or the ones you have taught. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed.\" (48)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "M1",
+   "severity": "MAJOR",
+   "criterion": "C1, C3",
+   "pages": "Career: 36 of 70 coming decade units start at age 70 or older (D002 at 85, D012 at 86, D033 at 78 and 88, D050 at 80 and 90, D056 at 79 and 89, D134 at 78 and 88, D106 at 84, among others). Social: 31 of 46 (D021 at 84, D026 at 88, D039 at 88, D059 at 89, D111 at 86).",
+   "key": "GOD jiecai · decade_lines.Career.heavy.ahead",
+   "quote": "\"Office rivalry eats your energy in these years\" (age 89) · \"clients return because what you make is good\" (age 90) · \"you rise because of them\" (age 88) · \"It is the strongest stretch for your work in your chart\" (age 78)",
+   "issue": "Step 3 prints working-life prophecy at 70 to 99, so the \"is that really going to happen to me?\" step reads as a machine that does not know the reader's age. On 9 of 26 Social pages, and on many Career pages, the only beats after Now are at 70 or older.",
+   "fix": "**Life-stage rule for decade lines.** (a) A Career decade line starting at 65 or older uses a later-life variant per god and pole: standing, teaching, or what the work leaves behind, never promotion, clients, rivalry or \"money runs short\". (b) No strongest or heaviest window starts past 75 for Career. Past that age, the window moves to the nearest matching decade, or the page drops the window. (c) Step 3 shows at most one decade that starts more than 25 years after the reader's current age. (d) Social and the other domains get the same age band check (Social decade lines at 80 and older should not say \"you gather an audience\")."
+  },
+  {
+   "source": "B-career-social",
+   "id": "M2",
+   "severity": "MAJOR",
+   "criterion": "C2",
+   "pages": "Career Hour gap with a decade beat on the same page that says the opposite: 8 of 13 pages (D012, D050, D074, D078, D118, D144, D165, D170). Social Hour gap against a helping lived decade inside the Late Chapter: 5 of 18 (D003, D014, D026, D039, D129).",
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.hour",
+   "quote": "\"you have cared less about rising at work\" → next beat \"a proper title or a role with real responsibility\" (D118). \"you have seen friends less … and the quiet has suited you\" → \"Your circle spread wide in those years, through travel, work and friends of friends\" (D026, ages 48 to 57).",
+   "issue": "The gap line is printed whenever the gate is empty, even when a decade on the same page claims the opposite for the same years. The two beats contradict each other, and nothing names the tension.",
+   "fix": "**Gap–decade guard.** (a) Suppress the gap line when a helping decade on the page overlaps the gap's span by five or more years. (b) Otherwise, when a decade on the page points the other way, print a second gap variant that names the turn (\"the decade pulled you back toward …\"). (c) Count it in the gate check: a page fails if the gap's direction and an overlapping decade's direction disagree."
+  },
+  {
+   "source": "B-career-social",
+   "id": "M3",
+   "severity": "MAJOR",
+   "criterion": "C1, C3",
+   "pages": "7 Social pages show a Day lived beat written as \"so far\" under a 35-to-47 label for readers aged 59 to 68 (D003, D051, D071, D099 bijian; D059, D064, D156 piancai). 15 \"Now\" decade beats are written as beginnings five or more years into the decade (Career: D050, D056, D065, D074, D109, D138, D144, D179, D188. Social: D039, D047, D064, D111, D146, D156). 3 Horizon Day cards use the future tense for readers aged 59 to 67 (D059, D064, D156).",
+   "key": "POSITION bijian_day_branch · domain_climb.Social.lived",
+   "quote": "\"So far your friendships have been between equals\" (age 68, label 35 to 47) · \"Your work starts paying properly in these years\" (seven years in) · \"These ten years bring friends …\" (a decade that ends this year) · \"From your mid-thirties your home years open wider … and you will share them\" (age 67)",
+   "issue": "The engine reuses texts written for one point in life at any age. The past reads as present and the present reads as future, so the \"how did it know\" step misfires on exactly the pages that should land hardest.",
+   "fix": "**Tense follows the reader.** (a) Every Day lived beat carries two variants: \"pattern so far\" for readers under 35, and a closed past for 35 and older (see T5, T13). (b) A Now decade more than three years in uses a \"these years have …, and the rest of the decade …\" form. (c) A seat reading whose last sentence is future-tensed for a gate the reader has already passed gets a past variant, or is rewritten tense-neutral. The gate counts future verbs in units whose span is already past."
+  },
+  {
+   "source": "B-career-social",
+   "id": "M4",
+   "severity": "MAJOR",
+   "criterion": "C1, C3",
+   "pages": "Social: 16 of 26 pages carry at least one Month card whose defline opens \"at work\" and whose body is about rank, pay or bosses (D003, D014, D021, D026, D039, D051, D059, D064, D071, D083, D090, D094, D096, D099, D111, D156). 7 carry a partner-only Day card. 7 carry a Year card about money (jiecai_year_stem: D094, D099, D129, D156) or health (shishen_year_stem: D071, D083, D174).",
+   "key": "POSITION qisha_month_stem · reading",
+   "quote": "\"Because you meet pressure head on, you rise fastest in work with real stakes\" (D039's only card on its Social page) · \"you grew up in a bold family where money moved fast\" · \"Your health has held up on regular meals and sleep\"",
+   "issue": "The seat cards are the page's last word, and on a Social page most of them say nothing about friends. The golden readings each carry a light clause for the seat's other domain (bijian_month_stem: \"You keep your equals close at work\"). Most of the live readings do not.",
+   "fix": "**One clause per ruled domain.** Each of the 70 readings carries at least one clause for every domain the seat rules. Social seats need a circle or friendship clause, as the golden bijian_month_stem and zhengguan_month_stem (\"In your circle you are the one made responsible\") already have. Gate check: a reading shown on a domain page must contain one of that domain's keywords. At present, shangguan_month_stem, qisha_month_stem, jiecai_month_branch, jiecai_year_stem and shishen_year_stem fail on Social."
+  },
+  {
+   "source": "B-career-social",
+   "id": "M5",
+   "severity": "MAJOR",
+   "criterion": "C5",
+   "pages": "58 Month lived beats across the 31 Career pages open \"Since your late teens\", \"From your late teens\" or \"Your friendships since your late teens\". 20 of 31 Career pages fail their own compound check with opener \"since your\" ×3. Every Hour lived beat and both Hour gaps open \"Since your late forties\". 6 pages print two same-god stem and branch beats that say nearly the same thing (D002 qisha, D020/D095/D134 zhengguan, D126 pianyin, D021 Social zhengguan).",
+   "key": "POSITION qisha_month_stem · domain_climb.Career.lived",
+   "quote": "\"Since your late teens your reputation at work has grown out of hard moments, the emergency handled …\" / \"Since your late teens your progress at work has come through crises, the deadline nobody could meet …\" (adjacent, D002)",
+   "issue": "The brief bans a repeated opener on a page. Here the step 2 beats read like one template run twice, which kills the \"how did it know\" effect.",
+   "fix": "**Opener rotation and twin guard.** (a) Each Month and Hour lived beat carries two opener variants, for example \"Since your late teens\" / \"Through your twenties and early thirties\" / \"In your first working years\", and \"Since your late forties\" / \"In the years after your late forties\". The composer picks so that no two adjacent beats share an opener. (b) When stem and branch hold the same god, the branch beat must name the inside drive (why), not repeat the visible pattern (what). Gate: fail any page with an opener ×3, or with two beats whose content words overlap by more than 40%."
+  },
+  {
+   "source": "B-career-social",
+   "id": "m1",
+   "severity": "MINOR",
+   "criterion": "C5",
+   "pages": "15 windows (Career: D033, D101, D121, D134, D158, D165, D170, D179, D188. Social: D090, D094, D099, D129, D137, D146)",
+   "key": "GOD * · decade_lines.",
+   "quote": "\"An Alchemist decade, lining up with the Alchemist in your Hour Gate. It is the stretch that asks most of your work.\"",
+   "issue": "The prefix is engine prose. \"Asks most of your work\" is unclear English, \"in your chart\" repeats, and the prefix pushes the unit to 57 to 59 words against a 45-word cap.",
+   "fix": "Strongest window: \"This decade matches the {Character} in your {Gate}, and it is the strongest for your {domain noun} in your life.\" Heaviest window: \"This decade matches the {Character} in your {Gate}, and it will test your {domain noun} hardest.\" The decade body that follows then has a 30-word cap."
+  },
+  {
+   "source": "B-career-social",
+   "id": "m2",
+   "severity": "MINOR",
+   "criterion": "C2",
+   "pages": "D096",
+   "key": "POSITION zhengguan_month_branch · domain_climb.Social.recognition",
+   "quote": "\"Your place in a circle is quiet\" · \"More than once a friendship ended over something you said in public\"",
+   "issue": "A classical clash inside one gate reaches the Social page with nothing naming it. The page reads as careful and reckless at once.",
+   "fix": "Add `shang_guan_jian_guan.readings.Social`: \"You keep the group in order and you say what it would rather not hear, and your friends are the ones who accept both.\""
+  },
+  {
+   "source": "B-career-social",
+   "id": "m3",
+   "severity": "MINOR",
+   "criterion": "C2, C5",
+   "pages": "D106",
+   "key": "TG_PATTERN xiao_shen_duo_shi · domain_lines.Career",
+   "quote": "\"You also polish your work in private until the moment to show it has passed\"",
+   "issue": "\"Also\" hangs off the Horizon lead (\"sees what is coming next\"), which it contradicts. The line only works after a recognition it extends (as in D148).",
+   "fix": "Make the line stand alone and name the pull: \"Your private thinking slows what you make, so you polish your work until the moment to show it has passed, and you lose more chances by not finishing than by failing.\""
+  },
+  {
+   "source": "B-career-social",
+   "id": "m4",
+   "severity": "MINOR",
+   "criterion": "C5",
+   "pages": "D083, D099",
+   "key": "POSITION zhengyin_month_stem · domain_climb.Social.lived",
+   "quote": "\"few people have asked how you were doing in return\" (repeating the recognition's \"You find it hard to ask for the same help yourself\" and the card's \"you are rarely the one anyone thinks to look after\")",
+   "issue": "The same cost appears three times on one page, so the lived beat adds nothing new.",
+   "fix": "\"Since your late teens friends and colleagues have brought you their crises, and several of your closest friendships began with someone else's bad news. You have kept more confidences than you can count, and people still repeat what you told them years ago.\" (43 words, 2 sentences)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T1",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "13 Career pages",
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.hour",
+   "quote": "\"No seat in your Hour Gate rules Career. Since your late forties, you have cared …\"",
+   "issue": "Two sentences where the budget allows one, and the first is engine prose. The golden gaps have neither.",
+   "fix": "\"Since your late forties you have cared less about rising at work and more about the people and the hours that are yours.\" (23 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T2",
+   "severity": "TWEAK",
+   "criterion": "C4, C5",
+   "pages": "D179, D188, D199",
+   "key": "TEMPLATED tpl_domains · domain_gaps.Career.day",
+   "quote": "\"No seat in your Day Gate rules Career. Since your mid-thirties work has taken second place to a partner and your private life, and you have stayed in jobs that ask little of you.\"",
+   "issue": "35 words in two sentences. It assumes a partner the reader may not have (the gap is not a Day seat), and \"jobs that ask little of you\" is a sting that every helping Now decade contradicts.",
+   "fix": "\"Since your mid-thirties your private life has taken more of your energy than your career, and you have pushed for less at work than you could.\" (26 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T3",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "18 Social pages",
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.hour",
+   "quote": "\"No seat in your Hour Gate rules Social. Since your late forties, …\"",
+   "issue": "Two sentences, 33 words, with engine prose.",
+   "fix": "\"Since your late forties you have seen friends less and spent more time with family and on your own, and the quiet has suited you.\" (25 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T4",
+   "severity": "TWEAK",
+   "criterion": "C3, C5",
+   "pages": "D186",
+   "key": "TEMPLATED tpl_domains · domain_gaps.Social.day",
+   "quote": "\"No seat in your Day Gate rules Social. Since your mid-thirties you have spent your evenings on a partner, work and home …\"",
+   "issue": "Two sentences, 33 words, and it assumes a partner.",
+   "fix": "\"Since your mid-thirties your evenings have gone to home and work more than to friends, and your circle has thinned without anyone deciding it.\" (24 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T5",
+   "severity": "TWEAK",
+   "criterion": "C1, C2",
+   "pages": "D003, D051, D071, D099",
+   "key": "POSITION bijian_day_branch · domain_climb.Social.lived",
+   "quote": "\"So far your friendships have been between equals … The friends who wanted looking after drifted away\"",
+   "issue": "\"So far\" is mis-tensed for readers aged 65 to 68. It also contradicts the Sage \"friends bring you their troubles\" on D099.",
+   "fix": "\"Through your Home Chapter your closest friendships have been between equals, people who did not need you to rescue them. You gave less time to the friends who wanted looking after, and the level ones are the ones you kept.\" (40 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T6",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D064",
+   "key": "POSITION jiecai_month_branch · domain_climb.Social.recognition",
+   "quote": "\"You find the warmth real on both sides, and you also lose money and friendships when a shared plan goes wrong.\"",
+   "issue": "The last sentence, the one the reader keeps, is muddled, and the \"because\" clause explains nothing.",
+   "fix": "\"Your friends and colleagues are mostly the same people, and you go into business with the ones you like. Because you trust the people you enjoy, you agree to shared plans before the terms are clear. When one of those plans fails, you lose the friend along with the money.\" (50 words, 3 sentences)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T7",
+   "severity": "TWEAK",
+   "criterion": "C3, C5",
+   "pages": "D002, D012, D088",
+   "key": "POSITION qisha_month_branch · reading",
+   "quote": "\"Your body has paid for that pace in short nights and tired shoulders, and you have always recovered once you let yourself stop.\"",
+   "issue": "A Career card closes on the body. That is imagery and a Health lean.",
+   "fix": "\"You chose hard work from your late teens, the demanding course or the tough job or the role others turned down, because easy work bored you. The strain you took on built your ability faster than comfort could have, and your standing grew through it. You have rarely rested before a job was finished, and the rest you skipped is the price you have paid for your name.\" (68 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T8",
+   "severity": "TWEAK",
+   "criterion": "C3",
+   "pages": "D144",
+   "key": "POSITION bijian_month_branch · reading",
+   "quote": "\"your parents have read it as distance more than once\" · \"your prime\"",
+   "issue": "It leans on parents (Family, Year Gate) on a Career card, and \"prime\" is jargon.",
+   "fix": "\"Under your working years sits a need to own what you do, the skill and the result and the name on it. Because depending on anyone feels like losing yourself, you have built your working life on effort nobody else can claim. You keep working alone past the point where help would speed you up, and you finish later than you would beside one trusted colleague.\" (66 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T9",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D065, D064",
+   "key": "POSITION jiecai_month_branch · reading",
+   "quote": "\"and your prime builds more than it keeps.\"",
+   "issue": "\"Prime\" is a figure of speech above B2, and it closes the card.",
+   "fix": "\"Underneath your working years is a need to have something at stake, and waiting has always felt riskier to you than acting. Because you measure yourself against the people beside you, you do your best work where results are counted in public and shared with partners. Your income arrives in bursts and much of it goes on the people around you, so your working years build more than they keep.\" (70 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T10",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D003, D021, D090, D096, D111, D164, D174, D186",
+   "key": "GOD piancai · decade_lines.Social.heavy.ahead",
+   "quote": "\"old friends drift to the edge. A small group … keeps your footing\"",
+   "issue": "Two images (\"the edge\", \"footing\") where the brief bans imagery.",
+   "fix": "\"You meet more people in these years than you can keep up with, and old friends see less of you. A small group who knew you before this busy decade stays close, and you return to them again and again.\" (40 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T11",
+   "severity": "TWEAK",
+   "criterion": "C1",
+   "pages": "D173",
+   "key": "POSITION pianyin_year_stem · domain_climb.Social.recognition",
+   "quote": "\"You find parties tiring and long talks restoring.\"",
+   "issue": "A Barnum close, true of any introvert.",
+   "fix": "\"You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Very few people know you well, and you chose it that way.\" (51 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T12",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D047, D120",
+   "key": "TEMPLATED tpl_domains · domain_unruled.Social",
+   "quote": "\"Your circle widens in some decades and thins in others\" (with the headline \"Your circle widens and thins …\")",
+   "issue": "The headline and the recognition repeat \"Your circle widens\" (\"your circle\" opens three units on D047).",
+   "fix": "\"Your friendships follow no fixed pattern of their own. You have crowded years and quiet ones, and the change arrives with the decade more than with any choice you make.\" (30 words)"
+  },
+  {
+   "source": "B-career-social",
+   "id": "T13",
+   "severity": "TWEAK",
+   "criterion": "C1, C5",
+   "pages": "D059, D064, D156",
+   "key": "POSITION piancai_day_branch · domain_climb.Social.lived",
+   "quote": "\"Most of your friendships so far started with an introduction or an invitation\"",
+   "issue": "\"So far\" is mis-tensed for readers aged 59 to 67. On D156 it also repeats the Month beat (\"started through work, a deal or an introduction\").",
+   "fix": "\"Through your Home Chapter most of your friendships started with an introduction or an invitation, someone who brought you into their circle. You have kept some of those circles longer than you kept the people who brought you in.\" (39 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "M1",
+   "severity": "MAJOR",
+   "criterion": "C1",
+   "pages": "Love: D006 D016 D023 D031 D038 D062 D084 D128 D131 D133 (no step 3); D185 D190 D197 (no step 2). Health: D005 D087 D116 (no step 3)",
+   "key": "",
+   "quote": "(absent)",
+   "issue": "16 of 36 pages lose a whole step of the climb without any notice. Love loses step 3 for every reader over 47 (10 of 13) and step 2 for every reader aged 35 to 47 (3 of 13).",
+   "fix": "**Rule:** every domain page prints all three steps. (a) Love, reader 48+: add a `domain_climb.Love.after` unit per Day seat (10 units, 20 to 55 words, 2 sentences), for example for bijian: \"From your late forties the bond you have built runs on two lives kept side by side. You keep less of a tally in these years, and you let a partner carry you more often.\" It must not touch illness, death or divorce. (b) Day seat, reader 35 to 47: print the `.lived` beat as \"the pattern so far\" in step 2 as well as `.ahead` in step 3. (c) When no ruling decade falls in view, print a step-3 note from the latest seat (\"Your later years keep the {seat}'s pattern …\") rather than nothing."
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "M2",
+   "severity": "MAJOR",
+   "criterion": "C1, C2",
+   "pages": "D181 D189 (Health), D185 D190 D197 (Love); \"Now\" decades in their last years: D058 (2018 to 2027, age 67), D076 (2021 to 2030, age 66), D141 (2019 to 2028, age 61), D178 (2019 to 2028, age 48); D178 Hour lived at 48",
+   "key": "",
+   "quote": "\"From your mid-thirties your health improves with a settled home\"; \"From your mid-thirties love settles into a shared life\" (label: \"now to 47\")",
+   "issue": "Text written to open a chapter is shown to readers who have lived 12 of its 13 years. The \"how did it know\" past is sold as a \"will it happen\" future, which kills both feelings.",
+   "fix": "**Rule:** the tense follows the reader's position. Day `.ahead` units get an in-gate variant for readers 40 to 47 that opens on what the rest of the gate settles (\"Through the rest of your Home Chapter …\"). A \"Now\" decade with 3 or fewer years left prints the `.lived` line under \"Already happened\", plus one closing clause. An Hour `.lived` beat needs at least 2 years inside the gate (age 50+); before that, show the Hour `.ahead`. 9 pages affected."
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "M3",
+   "severity": "MAJOR",
+   "criterion": "C1, C4",
+   "pages": "Far windows: D054 (ages 90 to 99, \"strongest\"), D069 (89 to 98), D141 (84 to 93), D189 (79 to 88), D011 (76 to 85), D171 (74 to 83, \"heaviest\"), D178 (71 to 80, \"heaviest\"); childlike Sage line at adult ages: D069 (39 to 48), D076 (31 to 40), D196 (22 to 31)",
+   "key": "",
+   "quote": "\"You enjoy your health in this decade more than you have since childhood\" (at 90); \"you learned to rest only when someone told you to\" (at 39)",
+   "issue": "Decade lines are blind to age. Promising peak health in the nineties is not credible, and flagging the late seventies as the stretch that \"asks most\" of the body invites an illness reading. The Sage heavy line is a child's line and misfires on adult decades. 10 pages.",
+   "fix": "**Rule:** (a) Health shows no decade that starts after the reader turns 75, and the strongest or heaviest window is chosen only from decades that start before 75. (b) Health decade lines get two age bands, under 40 and 40+. The 40+ band drops childhood comparisons (\"since childhood\") and words about being looked after by others. For example, zhengyin heavy lived 40+: \"You let other people set your pace in those years, and you rested only when someone made room for it. You had to learn afterwards to give yourself that care without waiting to be asked.\""
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "M4",
+   "severity": "MAJOR",
+   "criterion": "C4",
+   "pages": "Health, nearly every General or home page: D005 D011 D022 D030 D044 D087 D108 D141 D166 D181 D189",
+   "key": "GOD qisha · decade_lines.Health.heavy.lived",
+   "quote": "\"a sore back\"; \"a stiff back\"; \"tension … shows up in your back and shoulders\"; \"in tight shoulders and short nights\"",
+   "issue": "10 units place strain in named body parts, so \"shoulders\" appears 17 times and \"back\" 7 times on D087 alone. Pain words read as complaint and edge out of the wellness register; repeated, they stop being recognition and become a template.",
+   "fix": "**Rule:** Health speaks in wellness states (energy, sleep, appetite, rest, strength, pace, rhythm). Allow at most one named body part per page and no pain or stiffness adjective (\"sore\", \"stiff\", \"tight\"). Rewrite example for qisha_day_branch `.lived`: \"So far your hardest seasons at home have also been your most tired ones, with broken sleep and short reserves. Each time a quarrel ended, you got your energy back faster than you expected.\""
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m1",
+   "severity": "MINOR",
+   "criterion": "C4",
+   "pages": "D141 D181",
+   "key": "POSITION qisha_year_branch · reading",
+   "quote": "\"Your first home asked a lot of you as a child, and some of what it asked happened where nobody else could see.\"",
+   "issue": "As a definite claim shared by every holder, it hints at hidden harm in childhood. That is a heavy biography the reader may not have, given with nothing that carries them through.",
+   "fix": "\"Your first home asked a lot of you as a child, and you gave it more strength than anyone thought to ask about. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and you still keep your tiredness to yourself. You draw on that early toughness whenever life turns hard.\" (72 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m2",
+   "severity": "MINOR",
+   "criterion": "C4",
+   "pages": "D081 (also D100 D147 D178 via \"without guilt\")",
+   "key": "POSITION shishen_day_branch · domain_climb.Health.lived",
+   "quote": "\"Your appetite has shifted more than once with trouble at home, and you have turned to food for comfort each time.\"",
+   "issue": "A definite comfort-eating pattern (\"each time\"), shown to an audience that is mostly young women, edges toward a disordered-eating reading. The related \"enjoyed your food without guilt\" (shishen_hour_branch `.lived`) assumes the guilt came first.",
+   "fix": "\"So far your energy has risen and fallen with the state of your home, steady in the good years and low in the strained ones. Your sleep and appetite have followed every change at home, and they have settled again each time the house grew calm.\" (46 words). In shishen_hour_branch `.lived`, change \"you have enjoyed your food without guilt\" to \"you have enjoyed your food more than ever\"."
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m3",
+   "severity": "MINOR",
+   "criterion": "C4, C2",
+   "pages": "D058 D108 D171 D178 D181",
+   "key": "",
+   "quote": "\"It is the stretch that asks most of your body.\"",
+   "issue": "On readers aged 66 to 85 this sounds like decline or illness. On D058, D171 and D178 it also clashes with the line that follows, which is about too much rest.",
+   "fix": "Health heavy-window label: \"It is the stretch that asks the most care of your routine.\" (12 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m4",
+   "severity": "MINOR",
+   "criterion": "C5",
+   "pages": "D100 D147",
+   "key": "POSITION shishen_month_branch · reading",
+   "quote": "\"Careers in making or feeding or teaching suit you best\"",
+   "issue": "A career recommendation is advice, which is banned on the page, and it is off-domain on Health.",
+   "fix": "\"You do your work steadily and without fuss, and over your working years you quietly produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. You do your best in making, feeding or teaching, and you keep improving at it long after others have peaked.\" (63 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m5",
+   "severity": "MINOR",
+   "criterion": "C4, C3",
+   "pages": "D131",
+   "key": "POSITION jiecai_day_branch · reading",
+   "quote": "\"The cost shows up in money … you end up arguing over spending more than over love.\"",
+   "issue": "Hard news with no open door. It is the only Love reading without a forward close, and it reads as a Wealth reading.",
+   "fix": "\"You are drawn to bold partners with strong opinions and their own way with money, and a mild love has never held you long. Because you feel most alive when someone pushes back, your home is lively and loud, full of debate and shared bets. Money is where the two of you clash most, since you both want your way. From your mid-thirties the bond holds best where each of you keeps an account of your own, and the arguments turn back to love.\" (84 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m6",
+   "severity": "MINOR",
+   "criterion": "C5",
+   "pages": "D128 (versus D023 D190)",
+   "key": "POSITION zhengcai_day_branch · domain_climb.Love.lived",
+   "quote": "\"You have lost interest in at least one exciting person who could not manage an ordinary week.\"",
+   "issue": "Nearly duplicates zhengyin_day_branch `.lived` (\"left at least one exciting person for a kinder one\"), so two characters read as one.",
+   "fix": "\"So far the partners who have lasted with you have been the steady ones, people who turned up on time and kept their word. More than once the running of a shared home has filled your evenings, and you noticed the romance had gone quiet only afterwards.\" (47 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m7",
+   "severity": "MINOR",
+   "criterion": "C3, C4",
+   "pages": "D999",
+   "key": "POSITION qisha_hour_stem · domain_climb.Family.recognition",
+   "quote": "\"Because you were made strong by demands … some of them are a little afraid of you.\"",
+   "issue": "The cause leans on an early-life pressure seat the reader may not hold. The close is a character verdict, and \"correct before you praise\" duplicates zhengguan_hour_stem.",
+   "fix": "\"You hold the people in your family to high standards, and you notice the slip before the effort. Because demands are how you show care, the people close to you feel the weight before they feel the care. Your family respects you deeply, and some of them wait a long time for your praise.\" (54 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m8",
+   "severity": "MINOR",
+   "criterion": "C3",
+   "pages": "D005 D011 D087 D166 (and 9 more units, see P4)",
+   "key": "POSITION qisha_hour_branch · reading",
+   "quote": "\"The younger people around you feel protected by you more than held.\"",
+   "issue": "Owner law: an Hour seat names \"the people after you\" with a range.",
+   "fix": "\"Your later life runs on habits you do not let slip, the early start and the work finished and the standard kept. Because being strong is how you feel safe, you push on past the point where others would ease off, and rest comes hard to you. The people after you, children or younger relatives or someone you train, feel protected by you more than held. Your late years stay full and demanding, and you keep your strength longer than most.\" (81 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m9",
+   "severity": "MINOR",
+   "criterion": "C4",
+   "pages": "D999",
+   "key": "POSITION pianyin_hour_stem · domain_climb.Mind.ahead",
+   "quote": "\"your mind keeps sharpening while the people around you start to slow\"",
+   "issue": "The contrast casts peers as declining, which is cognitive-decline adjacent for readers 48+. Four Hour Mind.ahead units also repeat the same \"mind stays clear\" idea.",
+   "fix": "\"From your late forties your mind keeps sharpening, and you take on questions you once put aside. You do some of your best thinking in these years, and it reaches further once someone younger helps you put it into words.\" (40 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "m10",
+   "severity": "MINOR",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION shangguan_month_stem · domain_climb.Career.recognition",
+   "quote": "\"Your brilliance gets you in the door, and finishing what you start is what keeps you there.\"",
+   "issue": "Flattery (\"brilliance\"), an idiom, and a close that reads as a tip.",
+   "fix": "\"You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your talent wins you the role, and your record of finishing decides how long you keep it.\" (55 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t1",
+   "severity": "TWEAK",
+   "criterion": "C4",
+   "pages": "D171 D196",
+   "key": "POSITION zhengyin_year_branch · domain_climb.Health.headline",
+   "quote": "\"Your body heals well when someone looks after you.\"",
+   "issue": "\"Heals\" assumes an injury or illness.",
+   "fix": "\"Your body recovers best when someone looks after you.\" (9 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t2",
+   "severity": "TWEAK",
+   "criterion": "C4",
+   "pages": "D005 D011 D087 D166",
+   "key": "POSITION qisha_hour_branch · domain_climb.Health.lived",
+   "quote": "\"Each setback came through pride, and you paid for pushing through tiredness in your back or shoulders.\"",
+   "issue": "\"Setback\" plus a body part reads as injury, and the cause is put as blame.",
+   "fix": "\"Since your late forties your body has answered regular effort quickly, and your strength has come back each time you returned to a routine. When you were tired, pride kept you going past the point of rest, and you felt it for days afterwards.\" (44 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t3",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D022 D030 D037 D044 D054 D076 D081 D141 D171",
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.hour",
+   "quote": "\"No seat in your Hour Gate rules Health. Since your late forties, …\"",
+   "issue": "Two sentences, against a one-sentence budget. The first is system talk the label already carries.",
+   "fix": "\"Since your late forties you have given your attention to others and to work more than to your body, and your energy has followed the decade you are in.\" (29 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t4",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D196",
+   "key": "TEMPLATED tpl_domains · domain_gaps.Health.day",
+   "quote": "\"No seat in your Day Gate rules Health. Since your mid-thirties …\"",
+   "issue": "Same problem as t3.",
+   "fix": "\"Since your mid-thirties your body has come second to a partner, work and home, and you have run on habits formed many years before.\" (24 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t5",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D058",
+   "key": "POSITION zhengyin_hour_branch · reading",
+   "quote": "\"A life with no strain grows small, and you feel it most …\"",
+   "issue": "The last line is an aphorism, and \"those you helped\" misses the Hour range.",
+   "fix": "\"Your later life rests on kindness you gave years before, and it comes back to you as care from the people after you, children or younger relatives or someone you once trained. Because you spent decades looking after others, accepting help feels strange to you, and you learn it slowly. Your days settle into gentle routines of reading, rest and good company. You feel flattest in the seasons when nobody asks anything of you.\" (74 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t6",
+   "severity": "TWEAK",
+   "criterion": "C5, C4",
+   "pages": "D044 D058 D100 D116 D171 D178 D196",
+   "key": "POSITION zhengyin_year_branch · reading",
+   "quote": "\"Real care sits underneath your early years … protectors keep turning up when you need them.\"",
+   "issue": "The first sentence restates the defline. \"Protectors keep turning up\" is a Barnum promise.",
+   "fix": "\"Someone in your first home gave you steady, decent care, and that steadiness became the way you meet the world. Because care reached you early, you trust people first, and you find the protective ones quickly. The same safety made leaving it hard, and you have stayed in comfortable places longer than they helped you. You still recover from hard seasons by going back to the people who love you.\" (70 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t7",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION qisha_day_branch · domain_climb.Health.ahead",
+   "quote": "\"You are stronger in these years than in your twenties\"",
+   "issue": "An age in the text, which the law confines to labels.",
+   "fix": "\"From your mid-thirties your body becomes the clearest record of how your home is going. You are at your strongest in these years whenever the house is at peace, and every long quarrel costs you rest.\" (36 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t8",
+   "severity": "TWEAK",
+   "criterion": "C5, C4",
+   "pages": "D999",
+   "key": "POSITION qisha_hour_branch · domain_climb.Health.ahead",
+   "quote": "\"your health depends more on routine than on luck … Formless days drain you and ordered ones restore you\"",
+   "issue": "\"Luck\" invites thoughts of illness. The second sentence is an aphoristic parallel, and \"half your age\" repeats a jiecai_hour_stem unit.",
+   "fix": "\"From your late forties your health rests on routine, and a steady week keeps you fitter than most people your age. Days with no shape drain your energy and ordered ones bring it back, and you feel the difference within a week.\" (42 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t9",
+   "severity": "TWEAK",
+   "criterion": "C1",
+   "pages": "D190",
+   "key": "POSITION zhengyin_day_branch · domain_climb.Love.ahead",
+   "quote": "\"love settles into a shared life that is quiet, warm and dependable\"",
+   "issue": "Barnum (true of anyone), and printed as future at 47.",
+   "fix": "\"Through your Home Chapter you learn to give back the steady care you once took as a given. You notice what a partner carries for you in these years, and you start carrying some of it yourself.\" (37 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t10",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION bijian_hour_stem · domain_climb.Family.recognition",
+   "quote": "\"You are the relative who manages alone and sees more than you say\"",
+   "issue": "Mixed person (\"who … sees … than you say\").",
+   "fix": "\"In your family you manage alone and see more than you say, and your relatives know it. Because asking for help feels like losing ground, you keep your troubles to yourself until they are over. The younger people in your family admire you, and you are harder for them to reach than you know.\" (54 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t11",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION shangguan_day_branch · domain_climb.Mind.ahead",
+   "quote": "\"The ideas you test across the kitchen table\"",
+   "issue": "Imagery and an implied place.",
+   "fix": "\"From your mid-thirties your thinking grows bolder, and a partner is the first to hear each new idea. The ideas the two of you test at home in these years become the ones you are known for, and you say them more kindly than you once did.\" (47 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t12",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION zhengguan_day_branch · domain_climb.Family.ahead",
+   "quote": "\"you find that a correct house can also be an easy one to live in\"",
+   "issue": "An aphorism, and the reader is not the subject of the close.",
+   "fix": "\"From your mid-thirties your home becomes the steady centre of your family, the place relatives turn to and point to. You add more warmth to its order in these years, and you find your own house easier to live in than it used to be.\" (45 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t13",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION shishen_hour_stem · domain_climb.Family.recognition",
+   "quote": "\"turns up with a present … you hand over presents\"",
+   "issue": "\"Present/presents\" repeats across two sentences.",
+   "fix": "\"In your family you are the one who remembers birthdays, cooks for the holidays and never arrives empty-handed. Because giving is how you feel close, you hand over gifts more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade.\" (50 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t14",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION pianyin_hour_branch · domain_climb.Growth.recognition",
+   "quote": "\"your life looks smaller from outside while it gets richer inside\"",
+   "issue": "An aphoristic inside/outside image.",
+   "fix": "\"Interests and habits that no longer teach you anything fall away, and you hold on hard to the few that do. Because you grow by going deeper more than wider, you look as if you are doing less while you understand more. You care less each year about keeping up, and more about getting one thing right.\" (57 words)"
+  },
+  {
+   "source": "D-health-love-unreached",
+   "id": "t15",
+   "severity": "TWEAK",
+   "criterion": "C5",
+   "pages": "D999",
+   "key": "POSITION zhengyin_month_stem · domain_climb.Career.recognition",
+   "quote": "\"References, qualifications and the good word of people senior to you win you roles.\"",
+   "issue": "The opening sentence has things as its subject, not the reader.",
+   "fix": "\"You win roles through references, qualifications and the good word of people senior to you. Because steadiness is what you offer, you are given responsibility early, and you rarely have to sell yourself. You find open competition uncomfortable and do your best work where trust is already in place.\" (49 words)"
+  }
+ ],
+ "scores": [
+  {
+   "source": "A-wealth-family",
+   "page": "D007",
+   "B": 2,
+   "row": [
+    "D007",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "2",
+    "Unruled step 1 is Barnum, and \"more deals in view than you can follow\" lands at 75 to 84."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D015",
+   "B": 4,
+   "row": [
+    "D015",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "4",
+    "Clean single-seat climb; the reading's close blames \"people who only wanted the money\"."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D018",
+   "B": 3,
+   "row": [
+    "D018",
+    "4",
+    "3",
+    "3",
+    "4",
+    "2",
+    "3",
+    "Two Steward childhood beats say \"By your teens you were already saving\" twice; the \"heaviest window\" text is mild."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D029",
+   "B": 4,
+   "row": [
+    "D029",
+    "4",
+    "4",
+    "3",
+    "4",
+    "4",
+    "4",
+    "Tight and specific; the reading's \"You will share\" is future tense for a 68-year-old."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D036",
+   "B": 3,
+   "row": [
+    "D036",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A coherent bursts-and-spend story, but generic in places."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D042",
+   "B": 2,
+   "row": [
+    "D042",
+    "3",
+    "2",
+    "3",
+    "4",
+    "2",
+    "2",
+    "Says \"very little saved, and both habits stayed\" and then a lifelong saver; the gap says \"money held level\" against an earning decade at 51 to 60."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D053",
+   "B": 3,
+   "row": [
+    "D053",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Good late-venture story; \"more chances than ten years earlier\" lands at 70 to 79."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D057",
+   "B": 2,
+   "row": [
+    "D057",
+    "4",
+    "2",
+    "2",
+    "3",
+    "3",
+    "2",
+    "The gap says \"money has held level\", then \"your own income keeps rising\" at 89 to 98; the Day reading is in future tense at 67."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D063",
+   "B": 2,
+   "row": [
+    "D063",
+    "3",
+    "2",
+    "2",
+    "4",
+    "3",
+    "2",
+    "One seat says income \"risen steadily, without big jumps\", the other \"come in surges\", same span; adult \"side deals\" at ages 9 to 18."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D075",
+   "B": 2,
+   "row": [
+    "D075",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "2",
+    "\"Cash … lent to friends\" at ages 11 to 20; \"take more chances\" at 81 to 90."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D079",
+   "B": 2,
+   "row": [
+    "D079",
+    "3",
+    "2",
+    "3",
+    "4",
+    "2",
+    "2",
+    "Two Hour beats in the same span: \"accounts have settled\" and \"money has gone out as fast as it came in\"."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D091",
+   "B": 2,
+   "row": [
+    "D091",
+    "4",
+    "3",
+    "1",
+    "4",
+    "3",
+    "2",
+    "\"You won your share by working beside rivals\" at ages 3 to 12."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D093",
+   "B": 3,
+   "row": [
+    "D093",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Strong Rival arc; heaviest window promises \"income keeps rising\" at 77 to 86."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D097",
+   "B": 3,
+   "row": [
+    "D097",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Coherent; both heavy decades describe deal-chasing at 64 to 83."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D103",
+   "B": 3,
+   "row": [
+    "D103",
+    "4",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "The gap (\"money has held level\") contradicts the decade at 54 to 63 (\"you saved steadily\")."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D105",
+   "B": 3,
+   "row": [
+    "D105",
+    "4",
+    "3",
+    "3",
+    "4",
+    "2",
+    "3",
+    "Four Horizon seats all say the same thing; the Day reading is future tense at 64; partnerships \"pay\" at 84 to 93."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D113",
+   "B": 3,
+   "row": [
+    "D113",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Reasonable saver arc; the Day reading is future tense; the Rival \"contest pushes you harder\" at 74 to 83."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D130",
+   "B": 3,
+   "row": [
+    "D130",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Good Day Rival beat, but \"So far\" at 63; heaviest window \"more deals\" at 79 to 88."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D136",
+   "B": 3,
+   "row": [
+    "D136",
+    "4",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "\"Very little saved, and both habits stayed\" sits above \"risen steadily … kept to your own plan\"."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D151",
+   "B": 3,
+   "row": [
+    "D151",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Steward Hour arc is sound; the reading says \"after your late forties\" (future) at 60."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D157",
+   "B": 3,
+   "row": [
+    "D157",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "The most coherent windfall-and-friends story in the set; the Day reading is future tense."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D176",
+   "B": 4,
+   "row": [
+    "D176",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Close to the template (much of it is template text); clean."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D177",
+   "B": 2,
+   "row": [
+    "D177",
+    "4",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "Two consecutive childhood beats contradict (\"very little saved\" against \"already saving … kept that habit\")."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D184",
+   "B": 3,
+   "row": [
+    "D184",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Sparse but coherent; the one decade ahead falls at 81 to 90."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D195",
+   "B": 2,
+   "row": [
+    "D195",
+    "3",
+    "3",
+    "1",
+    "4",
+    "3",
+    "2",
+    "\"Cash slipped through your hands … lent to friends\" at ages 2 to 11; a late-life seat is read as present tense at 47."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D200",
+   "B": 3,
+   "row": [
+    "D200",
+    "4",
+    "3",
+    "2",
+    "3",
+    "3",
+    "3",
+    "Good \"further you go\" step 1; \"your own income keeps rising\" at 87 to 96."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D001",
+   "B": 3,
+   "row": [
+    "D001",
+    "4",
+    "4",
+    "3",
+    "4",
+    "2",
+    "3",
+    "Strong General arc; both Year beats end on not asking for help, and both Hour beats open with the same 15 words."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D013",
+   "B": 4,
+   "row": [
+    "D013",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "4",
+    "Clear protective-elder story with good tension."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D017",
+   "B": 3,
+   "row": [
+    "D017",
+    "4",
+    "3",
+    "2",
+    "4",
+    "2",
+    "3",
+    "\"An equal … more than a child or a dependant\" at 44 to 53; \"promises kept\" twice; \"So far\" at 68."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D025",
+   "B": 3,
+   "row": [
+    "D025",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Fine Hour beats (\"a younger relative learned to stop offering\"); the two Magistrate Year beats overlap."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D034",
+   "B": 2,
+   "row": [
+    "D034",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "2",
+    "\"Elders and family support you\" at 68 to 77; \"duties to elders\" at 88 to 97."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D041",
+   "B": 4,
+   "row": [
+    "D041",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "4",
+    "Best Family page; the Virtuoso lines land. Two Hour beats repeat the range phrase."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D048",
+   "B": 3,
+   "row": [
+    "D048",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "Good Twin step 1; \"earned respect from older relatives by keeping the family's rules\" at 40 to 49."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D055",
+   "B": 3,
+   "row": [
+    "D055",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "Good help-accepting arc; the same \"older relatives\" line at 49 to 58; the reading ends on an aphorism."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D066",
+   "B": 3,
+   "row": [
+    "D066",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "\"You learned to be good before you learned to be yourself\" at 39 to 48."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D070",
+   "B": 3,
+   "row": [
+    "D070",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "Quiet-elder story works; \"older relatives … family's rules\" at 51 to 60."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D080",
+   "B": 3,
+   "row": [
+    "D080",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Coherent host-and-provider story; \"So far\" at 66; the Steward reading is in future tense."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D089",
+   "B": 3,
+   "row": [
+    "D089",
+    "4",
+    "3",
+    "2",
+    "4",
+    "2",
+    "3",
+    "\"Family rules … the discipline later gave you a voice\" at 43 to 52; two Hour beats share the same opener."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D098",
+   "B": 2,
+   "row": [
+    "D098",
+    "4",
+    "2",
+    "2",
+    "3",
+    "3",
+    "2",
+    "At 54 to 63 the reader both \"lived up to expectations that left you little say\" and is the one whose word is relied on. Three heavy decades ahead in a row."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D102",
+   "B": 4,
+   "row": [
+    "D102",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "4",
+    "Warm and specific (\"started to be fed by the people you once fed\")."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D110",
+   "B": 3,
+   "row": [
+    "D110",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "\"Care surrounded you … confidence to grow\" at 36 to 45."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D115",
+   "B": 2,
+   "row": [
+    "D115",
+    "4",
+    "2",
+    "2",
+    "4",
+    "3",
+    "2",
+    "At 54 to 63 the reader is both cared for by \"an older relative\" and the family's provider."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D124",
+   "B": 4,
+   "row": [
+    "D124",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "4",
+    "Strong Virtuoso childhood; good Hour pair."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D132",
+   "B": 3,
+   "row": [
+    "D132",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Coherent but 884 words; the reading ends on an aphorism; \"So far\" at 62."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D135",
+   "B": 4,
+   "row": [
+    "D135",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Clean one-seat page; step 1 (\"uneasy until a debt is settled\") lands."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D139",
+   "B": 3,
+   "row": [
+    "D139",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Good General childhood; the reading's \"your body has held the strain\" leans on Health."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D142",
+   "B": 3,
+   "row": [
+    "D142",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Sound; \"So far\" at 61; \"new arrivals\" at 84 to 93."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D154",
+   "B": 3,
+   "row": [
+    "D154",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "\"Care surrounded you … confidence to grow\" at 39 to 48."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D162",
+   "B": 3,
+   "row": [
+    "D162",
+    "4",
+    "3",
+    "2",
+    "4",
+    "3",
+    "3",
+    "The same Sage line at 44 to 53."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D167",
+   "B": 3,
+   "row": [
+    "D167",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Good honesty arc; \"Brothers, sisters and cousins become allies\" at 80 to 89."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D168",
+   "B": 4,
+   "row": [
+    "D168",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "4",
+    "Strong mix of the General childhood and the Twin and Horizon Hour seats."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D180",
+   "B": 2,
+   "row": [
+    "D180",
+    "3",
+    "2",
+    "2",
+    "4",
+    "3",
+    "2",
+    "At 47 the Home Chapter (12 years in) is shown only as \"COMING … From your mid-thirties the family starts to gather\"."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D187",
+   "B": 2,
+   "row": [
+    "D187",
+    "3",
+    "2",
+    "2",
+    "4",
+    "2",
+    "2",
+    "The same Day-ahead defect; two Hour ahead beats open with the same 15 words."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D193",
+   "B": 3,
+   "row": [
+    "D193",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Good Twin ahead close; the gap is two sentences."
+   ]
+  },
+  {
+   "source": "A-wealth-family",
+   "page": "D198",
+   "B": 2,
+   "row": [
+    "D198",
+    "4",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "The gap (\"relatives have seen less of you\") contradicts the decade for the same span (\"the house was busier for it\")."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D002",
+   "B": 3,
+   "row": [
+    "D002",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A consistent pressure story. The two General lived beats say the same thing, and step 3 reaches age 85."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D012",
+   "B": 2,
+   "row": [
+    "D012",
+    "2",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The Hour gap says \"cared less about rising\", then the Rival decade says promotions went to others. The one future decade is at 86."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D020",
+   "B": 3,
+   "row": [
+    "D020",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The Magistrate stem and branch lived beats are near twins. The \"ambition softens\" Now decade fits the gap well."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D028",
+   "B": 2,
+   "row": [
+    "D028",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "At 68 the reader is told \"a craft or skill you enjoy starts to pay\", and a Virtuoso decade arrives at 78."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D033",
+   "B": 3,
+   "row": [
+    "D033",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Strong past beats. The strongest window (\"niche expertise brings offers\") opens at 78, then hierarchy presses at 88."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D043",
+   "B": 3,
+   "row": [
+    "D043",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Steward recognition and lived beats are among the best in the set. Step 3 is authority and clients at 71 and 81."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D050",
+   "B": 2,
+   "row": [
+    "D050",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "\"Your work starts paying properly\" lands seven years into the decade at 67, and later decades run to age 99."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D056",
+   "B": 2,
+   "row": [
+    "D056",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "Good Artisan Hour lived beat. Step 3 says \"money runs short\" at 79 and \"office rivalry\" at 89."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D065",
+   "B": 2,
+   "row": [
+    "D065",
+    "2",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "Steward \"steady promotions\" sits beside Rival \"big wins and sharp drops\" with no tension named. Step 3 runs from 79 to 98."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D074",
+   "B": 2,
+   "row": [
+    "D074",
+    "2",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The gap says the reader stopped caring about rising, and the Now decade says \"you rise because of them\"."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D078",
+   "B": 2,
+   "row": [
+    "D078",
+    "3",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The fused pair line is fine. The General decade at 49 to 58 says \"you rose\", against the gap for the same years."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D082",
+   "B": 3,
+   "row": [
+    "D082",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Coherent: the Virtuoso clashes, then \"ambition softens\" at 63. Repetitive openers."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D088",
+   "B": 3,
+   "row": [
+    "D088",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The fused shishen_zhi_sha line names the ease-and-pressure tension well. Step 3 ends at 83."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D095",
+   "B": 3,
+   "row": [
+    "D095",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The best-built page: the fused pair names the Virtuoso and Magistrate clash outright. Step 3 is still at 74 and 84."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D101",
+   "B": 2,
+   "row": [
+    "D101",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The strongest window (\"a proper title or a role with real responsibility\") opens at 75."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D106",
+   "B": 2,
+   "row": [
+    "D106",
+    "2",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "\"You also polish your work in private\" contradicts the Horizon lead (\"sees what is coming next\"). The one future decade is at 84."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D109",
+   "B": 2,
+   "row": [
+    "D109",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "Three heavy decades in a row, from 56 to 85, all about workplace strain."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D114",
+   "B": 3,
+   "row": [
+    "D114",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The Virtuoso Hour lived beat is sharp (\"a role ended because you would not soften a view\"). Step 3 is plausible to 73."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D118",
+   "B": 2,
+   "row": [
+    "D118",
+    "2",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The gap (\"cared less about rising\") is followed by \"a proper title\" at 61."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D121",
+   "B": 3,
+   "row": [
+    "D121",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "A rich four-seat past. The heaviest window, at 81, ends on \"money runs short\"."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D126",
+   "B": 3,
+   "row": [
+    "D126",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Two Alchemist cards back to back. \"Office rivalry\" arrives at 70."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D134",
+   "B": 2,
+   "row": [
+    "D134",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The strongest window is at 78. \"You rise because of them\" is at 88."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D138",
+   "B": 3,
+   "row": [
+    "D138",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Ages are plausible throughout: Artisan at 54, Rival at 64. A solid page."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D144",
+   "B": 2,
+   "row": [
+    "D144",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "The gap says the reader stopped caring about rising, and the Now decade says \"office rivalry eats your energy\". The Twin card leans on parents."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D148",
+   "B": 3,
+   "row": [
+    "D148",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The fused xiao_shen line fits the Artisan lead well. Step 3 starts at 64 with \"starts paying properly\"."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D158",
+   "B": 3,
+   "row": [
+    "D158",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Coherent craft story. The heaviest window, at 71, still talks of deadlines and clients."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D165",
+   "B": 2,
+   "row": [
+    "D165",
+    "3",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The gap contradicts the Now Magistrate decade (\"proper title\") at 54."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D170",
+   "B": 2,
+   "row": [
+    "D170",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The Now Rival decade is fine. Then step 3 jumps to a heaviest window at 84."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D179",
+   "B": 3,
+   "row": [
+    "D179",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Credible future: the Hour ahead beat with its range, and a heaviest window at 61. The Day gap assumes a partner and stings."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D188",
+   "B": 3,
+   "row": [
+    "D188",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The most credible step 3 in the file. The Day gap (\"jobs that ask little of you\") contradicts the Now decade."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D199",
+   "B": 3,
+   "row": [
+    "D199",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A good climb at 47: the Magistrate title now, the Artisan Hour ahead next. The Day gap is the weak beat."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D003",
+   "B": 2,
+   "row": [
+    "D003",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "The Rival decade's \"lively company\" (45 to 54) is followed by the gap, which says friends thinned since the late forties. A Day \"so far\" beat shows at 68."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D014",
+   "B": 3,
+   "row": [
+    "D014",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "A clear dependable-friend arc. Step 3 is one decade. The Magistrate card is all about work."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D021",
+   "B": 2,
+   "row": [
+    "D021",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "2",
+    "The two Magistrate lived beats overlap. The only future decade is at 84. Both cards are about work."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D026",
+   "B": 2,
+   "row": [
+    "D026",
+    "2",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "\"Your circle spread wide\" (48 to 57) contradicts the gap for the same years. Step 3 is at 78 and 88."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D039",
+   "B": 2,
+   "row": [
+    "D039",
+    "2",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "One seat, and its card is about work. The \"Now\" decade ending in 2026 is written as a beginning. The next decade is at 88."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D047",
+   "B": 2,
+   "row": [
+    "D047",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "2",
+    "The unruled template is thin, and the recognition is true of anyone."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D051",
+   "B": 3,
+   "row": [
+    "D051",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "A strong Rival recognition (\"your closest bond at work is with a former rival\"). The Day beat is mis-tensed."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D059",
+   "B": 2,
+   "row": [
+    "D059",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "2",
+    "The only future decade is at 89. The Horizon Day card says \"you will share them\" to a 67-year-old."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D064",
+   "B": 3,
+   "row": [
+    "D064",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "The Rival-branch recognition ends on a muddled sentence. Future-tense Day card."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D071",
+   "B": 3,
+   "row": [
+    "D071",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "A good Virtuoso arc. The Artisan Year card talks about health on a Social page. Step 3 is one decade at 81."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D083",
+   "B": 3,
+   "row": [
+    "D083",
+    "3",
+    "4",
+    "3",
+    "4",
+    "2",
+    "3",
+    "Coherent, but \"nobody looks after you\" is said three times: in the recognition, the lived beat and the card."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D090",
+   "B": 3,
+   "row": [
+    "D090",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "A fine Artisan recognition (\"much of your working circle began over a lunch\"). The heaviest window is at 83."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D094",
+   "B": 3,
+   "row": [
+    "D094",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Solid. The Rival Year card is about money, not friends."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D096",
+   "B": 3,
+   "row": [
+    "D096",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "A Magistrate \"quiet place in a circle\" sits beside Virtuoso \"ended over something you said in public\" in the same gate, with no pair line."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D099",
+   "B": 3,
+   "row": [
+    "D099",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Sage \"friends bring you their troubles\" contradicts Twin Day \"the friends who wanted looking after drifted away\"."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D111",
+   "B": 3,
+   "row": [
+    "D111",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "A clear Virtuoso page. The next decade after Now is at 86."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D120",
+   "B": 2,
+   "row": [
+    "D120",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "2",
+    "Unruled, 102 words. \"You\" opens 43% of sentences."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D129",
+   "B": 2,
+   "row": [
+    "D129",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "A strong Rival recognition, then \"the lively one in those years\" (50 to 59) against the gap. The card is about money."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D137",
+   "B": 3,
+   "row": [
+    "D137",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Coherent: rising reputation, then duty heavy at 73. \"Asked to lead\" or \"people ask\" appears three times."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D146",
+   "B": 3,
+   "row": [
+    "D146",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "One seat, read cleanly from childhood wit to a strongest window."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D156",
+   "B": 3,
+   "row": [
+    "D156",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Best recognition in the file. Two \"started through an introduction\" lived beats run back to back. \"Money\" appears five times."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D161",
+   "B": 3,
+   "row": [
+    "D161",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Lean but consistent. The only future decade is at 72."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D164",
+   "B": 3,
+   "row": [
+    "D164",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A good close (\"you feel its gaps more than you admit\")."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D173",
+   "B": 3,
+   "row": [
+    "D173",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Consistent introvert arc, but the recognition's close is generic."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D174",
+   "B": 3,
+   "row": [
+    "D174",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "Warm Artisan page. The card's health line is off-domain."
+   ]
+  },
+  {
+   "source": "B-career-social",
+   "page": "D186",
+   "B": 2,
+   "row": [
+    "D186",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "At 47, step 3 skips 24 years and opens at 71. The Day gap assumes a partner."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D008",
+   "B": 2,
+   "row": [
+    "D008 Mind",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "Unruled: one Barnum step 1, two decade lines, 103 words. Thin."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D009",
+   "B": 3,
+   "row": [
+    "D009 Mind",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Rich and recognisable. Then a \"practical\" gap, and a heaviest window at 86 about \"work half done\"."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D024",
+   "B": 1,
+   "row": [
+    "D024 Mind",
+    "1",
+    "3",
+    "3",
+    "4",
+    "3",
+    "1",
+    "No step 3. \"No seat sets the shape of your thinking\" sits beside a definite shape (pair line)."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D032",
+   "B": 2,
+   "row": [
+    "D032 Mind",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "2",
+    "Unruled and thin. The only future is \"quicker and bolder than ever\", from 78."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D035",
+   "B": 4,
+   "row": [
+    "D035 Mind",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The best Mind page: a clear Day lived beat, a credible strongest window."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D046",
+   "B": 3,
+   "row": [
+    "D046 Mind",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A coherent Hour-led story. The headline says \"old age\"."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D052",
+   "B": 3,
+   "row": [
+    "D052 Mind",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Reads well until the gap says \"curiosity turned practical\" and then promises \"bolder than ever\" at 80."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D060",
+   "B": 3,
+   "row": [
+    "D060 Mind",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Solid. The decade lived from age 9 reads adult."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D067",
+   "B": 2,
+   "row": [
+    "D067 Mind",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "\"You learn best alone\" then \"You learn best inside a frame\". Flat contradiction, and a repeated opener."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D072",
+   "B": 2,
+   "row": [
+    "D072 Mind",
+    "2",
+    "2",
+    "3",
+    "4",
+    "3",
+    "2",
+    "No step 3. \"Keep most of what you know to yourself\" against the pair's \"say out loud\"."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D077",
+   "B": 3,
+   "row": [
+    "D077 Mind",
+    "4",
+    "3",
+    "4",
+    "4",
+    "2",
+    "3",
+    "Five seats and 874 words. Repetitive (\"Since your late forties\" ×2, \"in these years\" ×2)."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D085",
+   "B": 2,
+   "row": [
+    "D085 Mind",
+    "2",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "No step 3. The gap (\"curiosity turned practical\") clashes with a restless decade over the same years."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D092",
+   "B": 3,
+   "row": [
+    "D092 Mind",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Good past. The heaviest window opens at 83 (\"every rule you meet invites a quarrel\")."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D107",
+   "B": 3,
+   "row": [
+    "D107 Mind",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "Strong Hour seat. The pair line (\"think so long … miss the moment\") contradicts \"answers in a sentence\"."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D119",
+   "B": 3,
+   "row": [
+    "D119 Mind",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Clean, but the only future is a heaviest window at 81."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D122",
+   "B": 3,
+   "row": [
+    "D122 Mind",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A coherent \"reviser\" portrait. The heaviest window is at 81."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D127",
+   "B": 3,
+   "row": [
+    "D127 Mind",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A good past. The only step 3 starts at 90."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D145",
+   "B": 4,
+   "row": [
+    "D145 Mind",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "A tight, credible climb. The strongest window is at 74."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D149",
+   "B": 2,
+   "row": [
+    "D149 Mind",
+    "2",
+    "2",
+    "4",
+    "4",
+    "4",
+    "2",
+    "No step 3. The gap overlaps \"Ideas came fast\" (2010 to 2019)."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D153",
+   "B": 3,
+   "row": [
+    "D153 Mind",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Good. The \"Now\" decade ends next year and still reads as future."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D159",
+   "B": 3,
+   "row": [
+    "D159 Mind",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Fine. The seat reading closes on an aphorism."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D160",
+   "B": 2,
+   "row": [
+    "D160 Mind",
+    "3",
+    "2",
+    "4",
+    "4",
+    "4",
+    "2",
+    "The gap (\"curiosity turned practical\") versus \"Steady study … that decade\" over the same years. A decade at 89."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D172",
+   "B": 4,
+   "row": [
+    "D172 Mind",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Simple and coherent. A credible future at 64."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D182",
+   "B": 3,
+   "row": [
+    "D182 Mind",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A well-ordered 47-year-old page. The Day gap (\"study slipped to the edges\") sits uneasily with the Now decade."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D194",
+   "B": 2,
+   "row": [
+    "D194 Mind",
+    "3",
+    "2",
+    "3",
+    "4",
+    "4",
+    "2",
+    "At 47 the Day seat's twelve past years print as \"COMING … From your mid-thirties\"."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D004",
+   "B": 2,
+   "row": [
+    "D004 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "Strong seat beats, but no step 3."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D010",
+   "B": 3,
+   "row": [
+    "D010 Growth",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Rich. A decade lived from age 6; the heaviest window at 86."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D019",
+   "B": 2,
+   "row": [
+    "D019 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "No step 3. A good Magistrate recognition."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D027",
+   "B": 3,
+   "row": [
+    "D027 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "The heaviest window opens at 88: \"Comparison with peers drives you hard\"."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D040",
+   "B": 3,
+   "row": [
+    "D040 Growth",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "The Now decade is in its last year; the strongest window is at 78."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D045",
+   "B": 4,
+   "row": [
+    "D045 Growth",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "The best Growth page: restraint as late growth, a coherent past."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D049",
+   "B": 2,
+   "row": [
+    "D049 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "No step 3. \"Readiness\" is said three times."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D061",
+   "B": 2,
+   "row": [
+    "D061 Growth",
+    "3",
+    "2",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The gap says \"settled … more than pushed to change\" over a Now \"grow fastest through pressure\" decade."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D068",
+   "B": 4,
+   "row": [
+    "D068 Growth",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "No hour, handled cleanly. A credible future."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D073",
+   "B": 4,
+   "row": [
+    "D073 Growth",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "A strong private-grower story. Repeated openers."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D086",
+   "B": 2,
+   "row": [
+    "D086 Growth",
+    "1",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "Unruled and thin. The only future starts at 83."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D104",
+   "B": 3,
+   "row": [
+    "D104 Growth",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "\"Refused help\" in a decade that began at age 5. A future at 85."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D112",
+   "B": 2,
+   "row": [
+    "D112 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "2",
+    "Unruled and thin. Its closed-hour note is worded differently from D068's."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D117",
+   "B": 3,
+   "row": [
+    "D117 Growth",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Good Hour stem. The second future decade is at 84."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D123",
+   "B": 3,
+   "row": [
+    "D123 Growth",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "A Twin heavy lived from age 1 (\"refused help that would have saved time\"). The heaviest window is at 81."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D125",
+   "B": 3,
+   "row": [
+    "D125 Growth",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Dense but coherent. The only future starts at 80."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D140",
+   "B": 3,
+   "row": [
+    "D140 Growth",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Coherent. The future is at 74."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D143",
+   "B": 2,
+   "row": [
+    "D143 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "2",
+    "2",
+    "No step 3. \"Alone, refusing help\" said four times."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D150",
+   "B": 3,
+   "row": [
+    "D150 Growth",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Coherent. \"A hard role\" from 74."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D152",
+   "B": 3,
+   "row": [
+    "D152 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "A good doubter portrait. The only future is at 86."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D155",
+   "B": 2,
+   "row": [
+    "D155 Growth",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "2",
+    "No hour and no step 3. The page ends on the past."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D163",
+   "B": 2,
+   "row": [
+    "D163 Growth",
+    "1",
+    "2",
+    "4",
+    "4",
+    "4",
+    "2",
+    "No step 3. The gap contradicts \"Your progress in those years came from peers\" (2015 to 2024)."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D169",
+   "B": 3,
+   "row": [
+    "D169 Growth",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "A coherent Rival story. The third decade is at 88."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D175",
+   "B": 3,
+   "row": [
+    "D175 Growth",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Good Horizon. The only future is at 80."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D183",
+   "B": 3,
+   "row": [
+    "D183 Growth",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "A credible heaviest window at 61. The gap clashes with the Now decade; \"in these years\" ×3."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D191",
+   "B": 2,
+   "row": [
+    "D191 Growth",
+    "3",
+    "2",
+    "2",
+    "4",
+    "3",
+    "2",
+    "At 47 step 1 is the Hour seat in present tense: \"In later life you change…\"."
+   ]
+  },
+  {
+   "source": "C-mind-growth",
+   "page": "D192",
+   "B": 3,
+   "row": [
+    "D192 Growth",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Rich. Two \"From your late forties\" openers in a row."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D005",
+   "B": 3,
+   "row": [
+    "D005 Health",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Strong recognition. No step 3 at all, and \"Each setback came through pride\" reads as injury and blame."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D011",
+   "B": 3,
+   "row": [
+    "D011 Health",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Full climb, but \"each time\" ×3 and back/shoulders recur. The Sage window lands at ages 76 to 85."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D022",
+   "B": 3,
+   "row": [
+    "D022 Health",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Coherent home-and-body story. The gap line is two sentences and opens on a system sentence."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D030",
+   "B": 3,
+   "row": [
+    "D030 Health",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Readable. Shoulders, back and sleep stack up across three beats."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D037",
+   "B": 4,
+   "row": [
+    "D037 Health",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Closest to golden: template seat and pair, clean decade logic."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D044",
+   "B": 3,
+   "row": [
+    "D044 Health",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Six beats and 432 words. Energy ×6 and back ×5 blur the story."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D054",
+   "B": 3,
+   "row": [
+    "D054 Health",
+    "3",
+    "4",
+    "4",
+    "2",
+    "3",
+    "3",
+    "The \"strongest window\" is ages 90 to 99, and it promises the best health \"since childhood\"."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D058",
+   "B": 3,
+   "row": [
+    "D058 Health",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The heaviest window \"asks most of your body\", but its text is about too much rest. Ends on an aphorism."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D069",
+   "B": 3,
+   "row": [
+    "D069 Health",
+    "3",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "Golden unruled opener. The Sage \"learned to rest only when someone told you\" lands at ages 39 to 48, and the next decade at ages 89 to 98."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D076",
+   "B": 3,
+   "row": [
+    "D076 Health",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "\"Forgiving body\" is good. The childlike Sage decade line lands at ages 31 to 40."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D081",
+   "B": 3,
+   "row": [
+    "D081 Health",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The home-mood link lands. \"Turned to food for comfort each time\" is a risky definite past."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D087",
+   "B": 2,
+   "row": [
+    "D087 Health",
+    "3",
+    "2",
+    "4",
+    "3",
+    "2",
+    "2",
+    "Three General seats plus a General decade make \"back\" ×7. The pair line (\"turn pressure into calm as soon as it lands\") contradicts the strain beats with no tension named. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D100",
+   "B": 3,
+   "row": [
+    "D100 Health",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Rich, but 552 words. The Month reading ends on career advice."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D108",
+   "B": 3,
+   "row": [
+    "D108 Health",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Sound. The heaviest window at ages 66 to 75 \"asks most of your body\"."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D116",
+   "B": 3,
+   "row": [
+    "D116 Health",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "The Steward Hour unit is fine and plain. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D141",
+   "B": 3,
+   "row": [
+    "D141 Health",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "3",
+    "The Year General reading hints at hidden childhood harm. The Sage window lands at ages 84 to 93."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D147",
+   "B": 3,
+   "row": [
+    "D147 Health",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Work-and-sleep link credible. \"work\" ×9 and \"sleep\" ×8."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D166",
+   "B": 4,
+   "row": [
+    "D166 Health",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Lean, coherent, credible strongest window at ages 62 to 71."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D171",
+   "B": 3,
+   "row": [
+    "D171 Health",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "\"Heals\" in the headline. Heaviest window at ages 74 to 83."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D178",
+   "B": 3,
+   "row": [
+    "D178 Health",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "At age 48 the Hour \"since your late forties\" beat covers a single year. Heaviest window at ages 71 to 80."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D181",
+   "B": 3,
+   "row": [
+    "D181 Health",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The Day ahead beat (\"From your mid-thirties…\") is shown as future at 47. The comfort-into-excess idea appears twice."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D189",
+   "B": 3,
+   "row": [
+    "D189 Health",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Same tense problem at 47. The next decade lands at ages 79 to 88."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D196",
+   "B": 3,
+   "row": [
+    "D196 Health",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "\"Heals\". \"Rest only when someone insists / told you\" twice on one page."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D006",
+   "B": 3,
+   "row": [
+    "D006 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Sharp recognition (\"harder to be carried … than to win any argument\"). Nothing coming."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D016",
+   "B": 3,
+   "row": [
+    "D016 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Good lived beat. The page stops at step 2."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D023",
+   "B": 3,
+   "row": [
+    "D023 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "\"Slower to thank them\" is a keeper. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D031",
+   "B": 3,
+   "row": [
+    "D031 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Honest about argument as closeness. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D038",
+   "B": 3,
+   "row": [
+    "D038 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "The two-kinds lived beat is specific. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D062",
+   "B": 4,
+   "row": [
+    "D062 Love",
+    "3",
+    "5",
+    "5",
+    "5",
+    "5",
+    "4",
+    "Golden text. Only the structure (no step 3 at 67) holds it back."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D084",
+   "B": 3,
+   "row": [
+    "D084 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "\"Stayed longer than the relationship deserved\" lands. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D128",
+   "B": 3,
+   "row": [
+    "D128 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The lived beat nearly duplicates the Sage's \"exciting person\" line. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D131",
+   "B": 3,
+   "row": [
+    "D131 Love",
+    "3",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "The reading closes on a money fight with no open door, and leans on Wealth."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D133",
+   "B": 3,
+   "row": [
+    "D133 Love",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "Clean and serious. No step 3."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D185",
+   "B": 3,
+   "row": [
+    "D185 Love",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "At 47: no step 2, and \"From your mid-thirties\" is printed as coming."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D190",
+   "B": 2,
+   "row": [
+    "D190 Love",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "At 47: no step 2, and the ahead beat is generic (\"quiet, warm and dependable\")."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D197",
+   "B": 3,
+   "row": [
+    "D197 Love",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "At 47: no step 2. The ahead beat itself is specific and good."
+   ]
+  },
+  {
+   "source": "D-health-love-unreached",
+   "page": "D999",
+   "B": 4,
+   "row": [
+    "D999 Unreached",
+    "4",
+    "4",
+    "3",
+    "4",
+    "3",
+    "4",
+    "Mostly strong, specific units. Weak spots: Hour people named without the range, one age in text, a few aphorisms, a near-duplicate pair."
+   ]
+  }
+ ]
+}
