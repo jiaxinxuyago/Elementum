@@ -1,6 +1,6 @@
 # The five-energy function reading is final; next, the Day Master page
 
-Written 2026-10-17 by the session "Cross-LLM reading-content generation and comparative eval (Elementum)" (session_01Fj5XhdVYBu4nnzYQ9zqQfL, on main). This is the newest handoff and the live one. Older files in this folder are history. Main was at `0037dd3` when this was written.
+Written 2026-10-17 by the session "Cross-LLM reading-content generation and comparative eval (Elementum)" (session_01Fj5XhdVYBu4nnzYQ9zqQfL, on main). This is the newest handoff and the live one. Older files in this folder are history. Main was at `0037dd3` when this was written. It was updated the same day for the amount-strip ruling (§2, live at `51809a5`).
 
 ## 1. Standing laws (the owner's, verbatim where quoted)
 
@@ -38,6 +38,12 @@ Written 2026-10-17 by the session "Cross-LLM reading-content generation and comp
 - Normally the pair cell's head (its first two sentences) followed by the persona tail, `K2 <el>_<god> fn_reading[pole].define`.
 - A 2+2 page uses the shared pair text, "treat the blend as an individual".
 - A Balanced chart uses `definition_balanced`.
+
+**THE AMOUNT** (owner 2026-10-17, "Q1 a, Q2 a, Q3 a" and "Go with this design"; options page https://claude.ai/artifact/MDoKZ9gSC3tah1M2ggBzyN):
+- Under THE CHARACTER eyebrow, above the pill row, a strip reads "<Element> in your chart <n>%". Under it sits the overview hero's five-energy bar, with this energy deep and the others faded.
+- It shows the number and the bar only: no volume word. "Running thin / full" stays retired as jargon.
+- The core's page shows the strip too; its OVERFUELED / UNDERFUELED pill carries the state.
+- It reads `m.byEl[el].presence` and the `towers` the hero already uses. Code: `JourneyStage.jsx` `.el-amount` and `journey.css`. Live since `51809a5`.
 
 **THE CHARACTER:** the pole pill, the dial, three metric bars, then the keyword chips. Tapping a chip opens a pop-up with one passage.
 - A single persona shows ledger[0].drive, ledger[1].cost_self and ledger[2].cost_others.
@@ -105,3 +111,4 @@ Started 2026-10-17 in the session "Elementum day master reading" (session_018G2U
 - Round 2 results: https://claude.ai/artifact/Sg5Q7Jzy5qP1XErcHSgtDR
 - Final audit lists: https://claude.ai/artifact/SVcnEvG6DzSLVkqAoveyT9
 - The golden chart in the app, every text traced: https://claude.ai/artifact/KnkX8upNnWGU9EejZ1CnD5
+- Amount on the function page, the options and the ruling: https://claude.ai/artifact/MDoKZ9gSC3tah1M2ggBzyN
