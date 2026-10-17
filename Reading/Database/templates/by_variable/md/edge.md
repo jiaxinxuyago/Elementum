@@ -170,7 +170,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Wood runs through your family, your growth and your social life. It is the calm of standing on your own at home, the pace you keep while the street sprints past, and the friend whose voice stays the same in every crowd. |
+| `lead` | Wood runs through your family, your growth and your social life. It is the calm of standing on your own at home, the pace you keep while the street rushes past, and the friend whose voice stays the same in every crowd. |
 | `domains` | Family · Growth · Social |
 | `metric` | independence |
 
@@ -178,7 +178,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Wood runs through your wealth, your social life and your career. It is the win that feels bigger split in half, the lift you get when a friend pulls ahead, and the first move at work you make before the vote is in. |
+| `lead` | Wood runs through your wealth, your social life and your career. It is the win that feels bigger once it is split in half, the lift you get when a friend pulls ahead, and the first move at work you make before anyone agrees. |
 | `domains` | Wealth · Social · Career |
 | `metric` | competitiveness |
 
@@ -202,7 +202,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that opens before anyone asks, and the trip your friends still weigh while you are already packed. |
+| `lead` | Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives before anyone asks, and the trip your friends still weigh while you are already packed. |
 | `domains` | Wealth · Family · Social |
 | `metric` | ambition |
 
@@ -218,7 +218,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Wood runs through your career, your health and your growth. It is the hard week at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse. |
+| `lead` | Wood runs through your career, your health and your growth. It is the hard stretch at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse. |
 | `domains` | Career · Health · Growth |
 | `metric` | leadership |
 

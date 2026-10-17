@@ -23,7 +23,7 @@
     "function": {
       "primary": "body",
       "definition_catalyst": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, you carry everything alone rather than lean on a peer, or race the one ahead with no reserve. You run out before the thing is done.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, you hold your way against a peer's advice, or treat shared ground as yours alone. You keep your way and lose the people beside you.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, you hold to your own way against a peer's advice, or treat shared ground as yours alone. You keep your way and lose the people beside you.",
       "advise_catalyst": "Holding yourself up takes more than you are taking in. Sleep a full night before a big decision rather than after it. Share one weekly meal with a peer who is not competing with you. Let someone carry one thing for you each month. Sit down for ten minutes before you say yes.",
       "advise_friction": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. You carry more push than any one thing asks for. Give one plan to someone above you and take their deadline as final. Finish the small thing first."
     },
@@ -219,6 +219,14 @@
       "date": "2026-10-15",
       "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
       "replaced": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-003",
+      "replaced": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, you hold your way against a peer's advice, or treat shared ground as yours alone. You keep your way and lose the people beside you."
     }
   ]
 }

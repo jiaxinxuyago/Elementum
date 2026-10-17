@@ -25,7 +25,7 @@
       "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. As a catalyst, you lack a demand to meet, so you chase a crisis or a career someone else planned and finish less of your own.",
       "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Wood builds it upward, stage by stage. As a friction, the rules grow past you, so you serve the demand and the title ahead of your rest. In time you turn the pressure on yourself.",
       "advise_catalyst": "You feel most like yourself when your effort has a name and an end. Tell someone the date you will finish and let them hold you to it. Plan one dinner this month, from the guest list to the bill. Sign up for one class that ends in a test. Make your bed.",
-      "advise_friction": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so what presses on you turns into understanding. Let it soften what Wood presses on you. You read every demand as proof of falling short. Read one page on why the rule exists before you answer it. Sit in the sun a while."
+      "advise_friction": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You read every demand as proof of falling short. Read one page on why the rule exists before you answer it. Sit in the sun a while."
     },
     "cta_verdict": "You make the rules you live by part of yourself, so over the years you value your standing as much as your work.",
     "carry": {
@@ -252,6 +252,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
       "replaced": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-013",
+      "replaced": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so what presses on you turns into understanding. Let it soften what Wood presses on you. You read every demand as proof of falling short. Read one page on why the rule exists before you answer it. Sit in the sun a while."
     }
   ]
 }

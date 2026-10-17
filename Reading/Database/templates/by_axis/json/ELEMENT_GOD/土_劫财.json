@@ -104,7 +104,7 @@
             "word": "Hates losing",
             "angles": {
               "drive": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You carry each loss for weeks after the contest itself is over.",
-              "cost_self": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests with the most to teach you. You protect a record with very few wins on it.",
+              "cost_self": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests that would stretch you furthest. You protect a record with very few wins on it.",
               "cost_others": "Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you turn an easy talk with a friend into a match. You leave with the point and a little less warmth."
             }
           },
@@ -433,6 +433,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Whenever a friend has good news, you compare before you say well done. You measure the gap ahead of being glad for them, and you give less praise than they earned. You can let their news stay theirs for a day and compare later."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-47",
+      "replaced": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests with the most to teach you. You protect a record with very few wins on it."
     }
   ]
 }

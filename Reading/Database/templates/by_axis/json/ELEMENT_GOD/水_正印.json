@@ -75,7 +75,7 @@
           {
             "word": "Soaks it up",
             "angles": {
-              "drive": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You can trust the gap, since the proof turns up later than the understanding.",
+              "drive": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You are right to trust the gap, since proof turns up later than understanding.",
               "cost_self": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Get the paper once, because the chances asking for it close without you.",
               "cost_others": "Soaking up what someone says comes ahead of deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. You help more with an honest no than a kind yes, and yours is already there."
             }
@@ -103,7 +103,7 @@
           {
             "word": "Stays sheltered",
             "angles": {
-              "drive": "You stay where it is safe long after outgrowing it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you.",
+              "drive": "You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you.",
               "cost_self": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again.",
               "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
             }
@@ -463,6 +463,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You miss the very chances the shelter was meant to prepare you for."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "cross:X-23+water:W-050",
+      "replaced": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You can trust the gap, since the proof turns up later than the understanding."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "water:W-055",
+      "replaced": "You stay where it is safe long after outgrowing it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you."
     }
   ]
 }

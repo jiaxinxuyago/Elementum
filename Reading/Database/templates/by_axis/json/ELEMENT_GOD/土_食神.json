@@ -104,7 +104,7 @@
             "word": "Drifts along",
             "angles": {
               "drive": "Drifting along is comfortable, and comfort is enough for you. Since the easy day never argues and the hard start always does, you would rather drift than start. You drift past the things you wanted most.",
-              "cost_self": "Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one. You let the chance you were good enough for close while you drift, and you rarely count it.",
+              "cost_self": "Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one. While you drift, you let chances you were good enough for slip by, and you rarely count them.",
               "cost_others": "Drifting along at home means the steering is not yours. Since going with the day suits you more than setting it, you leave the people you live with the choices you skip. Whatever you skip, you hand them the work of deciding and its weight."
             }
           },
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "Going soft on the people around you comes to you without thinking. Since comfort is the shape your care takes, you soften their way rather than let them manage it. You take on every hard thing they were able to manage.",
               "cost_self": "Being too soft is how you say you care. Because you put other people's comfort ahead of anything kept for yourself, you go soft over money and spend what you set aside. You give away money and rest that never come back.",
-              "cost_others": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you go soft before the first try ends. You keep taking from them a struggle that was theirs to grow on."
+              "cost_others": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you step in before the first try ends. You keep taking from them a struggle that was theirs to grow on."
             }
           }
         ]
@@ -449,6 +449,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You give to the people at home without stopping, and never leave them a turn. Since giving feels safer than needing, you take from them the chance to look after you. You want closeness, and their care for you is part of it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-40",
+      "replaced": "Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one. You let the chance you were good enough for close while you drift, and you rarely count it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-41",
+      "replaced": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you go soft before the first try ends. You keep taking from them a struggle that was theirs to grow on."
     }
   ]
 }

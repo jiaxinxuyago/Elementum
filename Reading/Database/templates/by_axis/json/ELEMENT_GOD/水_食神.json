@@ -95,7 +95,7 @@
           {
             "word": "Drifts along",
             "angles": {
-              "drive": "Drifting along is easier than steering, and mostly you do. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go.",
+              "drive": "Drifting is easier than steering, and most days you choose it. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go.",
               "cost_self": "Most days you drift, and it rarely feels like a loss. Since you take in less than you let out, you drift to whatever is nearest rather than pick. You still want things, and the drift costs you each one that was not nearby.",
               "cost_others": "Going with the drift keeps things easy for everyone. Whenever you drift with a plan in place of saying what you wanted, you leave the people closest to you guessing. You hand them a maybe where they needed a real answer."
             }
@@ -681,6 +681,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You give your hours to whoever is nearest, without deciding. Whenever you give everyone something rather than save enough for the few counting on you, you leave them less than was theirs. You give best from what you kept, and keeping is part of giving."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "water:W-056",
+      "replaced": "Drifting along is easier than steering, and mostly you do. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go."
     }
   ]
 }

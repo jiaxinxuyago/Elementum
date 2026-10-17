@@ -104,7 +104,7 @@
             "word": "Overprotective",
             "angles": {
               "drive": "Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You get to let them take their own risks.",
-              "cost_self": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them, and pick up weight nobody handed you. You look after everyone and leave no one looking after you.",
+              "cost_self": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you.",
               "cost_others": "Your protection arrives before anyone asks. Because you find watching someone struggle harder than doing it for them, you protect them by taking over instead of letting them finish badly. With every rescue, you take a lesson away from them."
             }
           },
@@ -737,6 +737,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You carry the worry for a fall that was theirs to take."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-11",
+      "replaced": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them, and pick up weight nobody handed you. You look after everyone and leave no one looking after you."
     }
   ]
 }

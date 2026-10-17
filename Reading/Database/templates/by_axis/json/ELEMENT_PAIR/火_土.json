@@ -23,7 +23,7 @@
       "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks, and you give quietly rather than show what you can do. You pay in kindness not given and talent not shown.",
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, so you keep giving or keep proving instead of taking in. You run empty on comfort given and points already won.",
       "advise_catalyst": "What you keep inside does not count as finished. Make one thing a week that someone else can hold. Say the opinion you have been sitting on to one person. Show a child or a friend something you know how to do. Write one line down before bed.",
-      "advise_friction": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for reading."
+      "advise_friction": "Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for books."
     },
     "cta_verdict": "You show what you feel by making something solid rather than saying it, and what you build tends to outlast the moment.",
     "carry": {
@@ -243,6 +243,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-46",
+      "replaced": "Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for reading."
     }
   ]
 }

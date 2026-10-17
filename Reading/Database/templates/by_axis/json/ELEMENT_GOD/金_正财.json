@@ -76,7 +76,7 @@
             "word": "Saves first",
             "angles": {
               "drive": "Your reflex with money is saving first. You feel a sum set aside cannot be lost, so you save rather than spend, and spend only what is left. You save your way past small pleasures too, and one sum spent uncounted buys one back.",
-              "cost_self": "Saving first keeps the fear of having nothing away. You put the saving ahead of what it was for, and you move the wanting to later. You pay for saving first with a life kept for later, and you cannot bank the years.",
+              "cost_self": "Saving first keeps away the fear of having nothing. You put the saving ahead of what it was for, and you move the wanting to later. You pay for saving first with a life kept for later, and you cannot bank the years.",
               "cost_others": "You save first for the people you love as much as for yourself. You save for a shared future rather than spend on a shared present, and call that love. You put the evenings you saved through into a future your partner never asked for."
             }
           },
@@ -97,7 +97,7 @@
             "angles": {
               "drive": "Your answer to ownership is holding on tight. You would rather hold on than risk losing, so you hold on to money, things and people past where holding helps. You have every right to let go of what you no longer want.",
               "cost_self": "The fear of loss goes quiet while you are holding tight. You keep hold of the savings rather than spend them on their year, since spending feels exposed. Holding on costs you trips not taken, with the money outliving its purpose.",
-              "cost_others": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than let them go. You leave the person beside you no air when you hold on this tight."
+              "cost_others": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than give them slack. You leave the person beside you no air when you hold on this tight."
             }
           },
           {
@@ -407,6 +407,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. Remember that you care more for the partner than for the safe plan."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "metal:MT-43",
+      "replaced": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than let them go. You leave the person beside you no air when you hold on this tight."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "metal:MT-48",
+      "replaced": "Saving first keeps the fear of having nothing away. You put the saving ahead of what it was for, and you move the wanting to later. You pay for saving first with a life kept for later, and you cannot bank the years."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "metal:MT-43",
+      "replaced": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than give them room. You leave the person beside you no air when you hold on this tight."
     }
   ]
 }

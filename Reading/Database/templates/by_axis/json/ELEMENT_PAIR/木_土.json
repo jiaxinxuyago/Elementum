@@ -25,7 +25,7 @@
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, the wanting outruns the keeping, and you chase the next venture instead of holding what you have. You end up owning far less than you built.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, providing outgrows your strength, and you take on another venture while you guard every saving. Over time you carry more than you finish.",
       "advise_catalyst": "You want things far more easily than you claim them. Put one goal in writing with a date beside it. Move a fixed sum into savings on the same day each month. Tell the person you love one plan for the year and keep to it. Finish the small thing before you start another.",
-      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for: sleep, food, rest, the strength that stands before it carries. Let it hold what Earth piles up. You agree to more than you have strength for. Eat a real meal before any decision about money. Sleep on every yes before you give it."
+      "advise_friction": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. You agree to more than you have strength for. Eat a real meal before any decision about money. Sleep on every yes before you give it."
     },
     "cta_verdict": "You build to keep rather than to show, and the things you go after slowly are usually the ones that stay yours.",
     "carry": {
@@ -255,6 +255,14 @@
       "date": "2026-10-15",
       "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
       "replaced": "You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-45",
+      "replaced": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for: sleep, food, rest, the strength that stands before it carries. Let it hold what Earth piles up. You agree to more than you have strength for. Eat a real meal before any decision about money. Sleep on every yes before you give it."
     }
   ]
 }

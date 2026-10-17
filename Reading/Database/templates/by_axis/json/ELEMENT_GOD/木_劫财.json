@@ -75,7 +75,7 @@
           {
             "word": "Loves a race",
             "angles": {
-              "drive": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, and you can let one end without losing anything.",
+              "drive": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, so letting one end costs you nothing.",
               "cost_self": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep. You pay for each race in sleep not made up, and sitting one out costs you nothing.",
               "cost_others": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish. You cost them the rest they came for by racing on, and letting one end returns it."
             }
@@ -103,7 +103,7 @@
           {
             "word": "Never stops racing",
             "angles": {
-              "drive": "Whenever you finish, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next instead of keeping the win, and the win was the point.",
+              "drive": "Finished, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next one instead of keeping the win, and the win was the point.",
               "cost_self": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You trade each win for another race and never take the rest you earned.",
               "cost_others": "Win or lose, you keep racing people who stopped a while ago. Staying ahead matters more than staying close, and that turns a friend into someone to beat. You take from them, by racing someone who stopped, the ease of just being with you."
             }
@@ -120,7 +120,7 @@
       }
     },
     "edge": {
-      "lead": "Wood runs through your wealth, your social life and your career. It is the win that feels bigger split in half, the lift you get when a friend pulls ahead, and the first move at work you make before the vote is in.",
+      "lead": "Wood runs through your wealth, your social life and your career. It is the win that feels bigger once it is split in half, the lift you get when a friend pulls ahead, and the first move at work you make before anyone agrees.",
       "domains": [
         "Wealth",
         "Social",
@@ -441,6 +441,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Ahead of asking, you spend what was pooled as if that settled it. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "cross:X-22+wood:W-006",
+      "replaced": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, and you can let one end without losing anything."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-005",
+      "replaced": "Whenever you finish, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next instead of keeping the win, and the win was the point."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-008",
+      "replaced": "Wood runs through your wealth, your social life and your career. It is the win that feels bigger split in half, the lift you get when a friend pulls ahead, and the first move at work you make before the vote is in."
     }
   ]
 }

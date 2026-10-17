@@ -69,7 +69,7 @@
             "angles": {
               "drive": "You follow through long after the mood that said yes has gone. Following through matters more to you than improving, so you finish the version you announced. You come out ahead by letting a better version in, rather than finishing a worse one you announced.",
               "cost_self": "Following through is the part of yourself you count on. Because stopping halfway feels like a broken promise, you follow through on what no longer fits rather than leave it. You give up the chance you wanted most to follow the last plan through.",
-              "cost_others": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since following through on a plan never rechecked costs them the better one."
+              "cost_others": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since a plan nobody checks again costs them the better one."
             }
           },
           {
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "You bite your tongue long before anyone asks you to. You bite down rather than cost the mood, since a smooth evening feels safer to you than an honest one. You keep the peace by biting your tongue, and you alone carry what went unsaid.",
               "cost_self": "Safe and unheard is where biting your tongue leaves you. You would rather bite your tongue than put your standing on the line for a point. You hand away the credit for everything you bit back, and a point never made cannot be yours.",
-              "cost_others": "Your tongue gets bitten hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
+              "cost_others": "You bite your tongue hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
             }
           }
         ]
@@ -417,6 +417,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Waiting for permission costs them the days you spend waiting too, and you set that clock."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "water:W-052",
+      "replaced": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since following through on a plan never rechecked costs them the better one."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "water:W-059",
+      "replaced": "Your tongue gets bitten hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
     }
   ]
 }

@@ -24,7 +24,7 @@
     "function": {
       "primary": "order",
       "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the standard comes late. You take a dare sooner than a post, and you find your pace after someone sets it.",
-      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the judge becomes you. You measure yourself against every rule as much as every demand and never quite pass your own review.",
+      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, you become the judge. You measure yourself against every rule as much as every demand and never quite pass your own review.",
       "advise_catalyst": "You do your best work when someone else sets the deadline. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Tell one person above you what you will deliver and when. Keep one standing rule at home, the same sleep hour every night. Pay one bill the day it arrives.",
       "advise_friction": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You answer to yourself more strictly than to anyone above you. Ask one person who has done it before, and write down the answer. Then sleep on it."
     },
@@ -263,6 +263,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
       "replaced": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-42",
+      "replaced": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the judge becomes you. You measure yourself against every rule as much as every demand and never quite pass your own review."
     }
   ]
 }

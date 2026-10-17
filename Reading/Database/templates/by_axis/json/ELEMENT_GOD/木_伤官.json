@@ -67,7 +67,7 @@
           {
             "word": "Speaks up",
             "angles": {
-              "drive": "You speak up where silence would be easier. Holding a true thing in feels worse to you, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself.",
+              "drive": "You speak up where silence would be easier. Holding a true thing in feels worse to you than saying it, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself.",
               "cost_self": "For you, speaking up is never free. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after. Bring one ally before you speak up, and you give up fewer chances to it.",
               "cost_others": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them. Let them pick the moment, and your speaking up stays a gift instead of an interruption."
             }
@@ -409,6 +409,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past the agreed stop. You agreed to enough with them, and the stop is yours to keep."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-021",
+      "replaced": "You speak up where silence would be easier. Holding a true thing in feels worse to you, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself."
     }
   ]
 }

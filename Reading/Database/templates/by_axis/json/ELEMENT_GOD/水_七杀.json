@@ -104,7 +104,7 @@
             "word": "Hard on yourself",
             "angles": {
               "drive": "You are harder on yourself than anyone has been. You would rather catch a fault first than be told, and you are hard on your work before anyone else can be. You take the blame early and never stay long enough for praise.",
-              "cost_self": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest never taken, because nothing you make gets to count.",
+              "cost_self": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest you skip, because nothing you make gets to count.",
               "cost_others": "Hard on yourself never stays on yourself. You hold the people close to you to the same hard line rather than a kinder one, since you never let yourself off. You bring that line home and leave them no pass for a bad day."
             }
           },
@@ -433,6 +433,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace. Never letting up costs them the evenings you gave up, and only you chose it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "water:W-054",
+      "replaced": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest never taken, because nothing you make gets to count."
     }
   ]
 }

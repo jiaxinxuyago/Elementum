@@ -67,7 +67,7 @@
           {
             "word": "Clear under pressure",
             "angles": {
-              "drive": "Your head is clearest when something presses on you. Pressure gives the strength you store a direction, so you look for a hard deadline rather than a quiet week. Keep choosing the pressure, and let a calm week count as rest instead of loss.",
+              "drive": "Your head is clearest when something presses on you. Pressure gives your stored strength a direction, so you look for a hard deadline rather than a quiet week. Keep choosing the pressure, and let a calm week count as rest instead of loss.",
               "cost_self": "You think clearest under pressure and drift without it. Since calm gives you nothing to press against, you let the easy weeks pass rather than use them. Make one big choice in a calm week instead of waiting for a crisis to force it.",
               "cost_others": "When things go wrong, your head stays clear. Because calm makes you restless, you bring a crisis pace home rather than let ordinary days run slow. Save that pace for real trouble to give the people you live with a calmer you."
             }
@@ -126,7 +126,7 @@
       }
     },
     "edge": {
-      "lead": "Wood runs through your career, your health and your growth. It is the hard week at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse.",
+      "lead": "Wood runs through your career, your health and your growth. It is the hard stretch at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse.",
       "domains": [
         "Career",
         "Health",
@@ -439,6 +439,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You spend your evenings at home on guard and gain nothing that rest would not."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-014",
+      "replaced": "Your head is clearest when something presses on you. Pressure gives the strength you store a direction, so you look for a hard deadline rather than a quiet week. Keep choosing the pressure, and let a calm week count as rest instead of loss."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-015",
+      "replaced": "Wood runs through your career, your health and your growth. It is the hard week at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse."
     }
   ]
 }

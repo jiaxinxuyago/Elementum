@@ -22,7 +22,7 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, you bend sooner and lean on a peer's view or step back from a stake you share. You end up living by calls that were not yours.",
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. As a catalyst, you bend sooner and lean on a peer's view or step back from a stake you share. You end up living by calls that were not yours.",
       "definition_friction": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, it has no outlet, and you hold peers to your pace or take more than your share. You stay in front with fewer partners each year.",
       "advise_catalyst": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Ask one peer to hold the line with you for a week. Keep one routine that survives a bad month. Say yes sitting down.",
       "advise_friction": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You mistake not moving for being right. Hand one decision to someone above you and live with it for a month. Put one plan up for review before you start it."
@@ -214,6 +214,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
       "replaced": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "earth:E-43",
+      "replaced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, you bend sooner and lean on a peer's view or step back from a stake you share. You end up living by calls that were not yours."
     }
   ]
 }

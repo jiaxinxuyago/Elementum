@@ -1,6 +1,259 @@
 {
  "findings": [
   {
+   "source": "cross",
+   "id": "X-01",
+   "severity": "MAJOR",
+   "criterion": "D1 · verdict vs text · C",
+   "pages": "all 75 catalyst pages",
+   "key": "",
+   "quote": "\"Let someone carry a corner, because …\" (P004); \"Skip a race sometimes, because …\" (P041); \"Let someone else take charge sometimes, since …\" (P094); \"Keep one bet a year you can afford to lose, since …\" (P114)",
+   "issue": "The catalyst ledger closes on an instruction. Of 200 catalyst passages, 169 do not close on a \"You\" statement: 108 are imperatives (82 of them in the frame \"Do X, since/because Y\") and about 51 are conditionals (\"If/When/Once you X, you Y\"). About 134 of them tell the reader to do *less* of the persona's own act (\"sometimes\" 11, \"once\" 12, \"one … a week/month/season\" 10). The verdict above them says **Grow it.**, so the catalyst page tells the reader to grow the energy and then to hold back its behaviour three times. It also pre-empts THE ADVICE, which follows with four or five more imperatives (D1), and BIZ_04 rules \"keep advice out of the passages\". Friction ledgers close on an instruction 3 times in 200.",
+   "fix": "Rule: a catalyst passage closes on the gift, on its price stated flat, or on the want under it (the three honest closes in BIZ_04), never on an instruction or an \"If you …, you …\" fix. THE ADVICE alone prescribes. If the owner wants one hands-on line per page, cap it at one imperative close per catalyst page, and it must point toward growing the energy, not restraining it. Re-cut the 169 closes (list: every catalyst passage whose last sentence does not open on \"You\")."
+  },
+  {
+   "source": "cross",
+   "id": "X-02",
+   "severity": "MAJOR",
+   "criterion": "D3 · A1",
+   "pages": "火_火 (P037–P042), 水_水 (P145–P150), 金_金 (P109–P114), 木_木 (P001–P006); 木_土 (P061–P066), 火_金 (P097–P102), 金_木 (P019–P024)",
+   "key": "",
+   "quote": "水_水 catalyst \"you put standing alone and matching a rival ahead of resting\"; friction \"you keep your own company rather than a peer's and race people who never entered\". 火_金 catalyst \"you chase the next opening more than you finish anything to keep\"; friction \"you start a new venture rather than keep the money and love already yours\". 金_金 catalyst \"you manage alone … and bet big\"; friction \"you trust your call more than a peer's in every fight over shared stakes\"",
+   "issue": "In 6 of 25 pair cells, the catalyst (\"Grow it.\") and friction (\"Release it.\") definitions name the same acts, so the reader cannot tell which way the energy runs. Body: thin and over both produce \"alone + race/bet\" (火_火, 水_水, 金_金; 木_木 shares \"alone\" on both poles). Action: thin and over both produce \"chase the next venture\" (木_土, 火_金, 金_木). Partial blur in 4 more cells: 水_火 (\"want a far chance\" / \"chase a new opening\"), 土_木 (\"a career someone else planned\" / \"serve the title\"), 金_火 (\"want a crisis\" / \"obey a crisis\") and 木_木. The other 15 cells hold (all Mind and all Expression cells; 土_土 is the model Body cell: thin = \"lean on a peer's view\", over = \"hold peers to your pace\").",
+   "fix": "Rule: the catalyst definition names the function under-supplied (what the reader lacks, leans on or fails to start); the friction definition names it overrunning. The two definitions of one cell share no main act verb (alone, race, bet, chase, venture). Rebuild the 6 failing cells and check the 4 partial ones. Example, 火_金 catalyst: \"Your Action is what you go and build, claim and provide. Metal makes it exact, finished or not at all. As a catalyst, you claim too little to work on, and you wait for the perfect opening. You end up finishing other people's plans instead of your own.\" (46 words)"
+  },
+  {
+   "source": "cross",
+   "id": "X-03",
+   "severity": "MAJOR",
+   "criterion": "D2 · D3 · A1",
+   "pages": "P021, P024, P057, P060, P063, P066, P099, P102, P135, P138 (all 10 Horizon+Steward blends); P006; P033",
+   "key": "",
+   "quote": "P021: \"Whatever is newest in front of you is what you chase hardest\" + \"You stay in a love the way you stay anywhere … Leaving comes hard to you\". P102: \"Where you feel surest is starting fast\" + \"Finishing things settles you more than starting them\". P063: \"Movement is how you feel alive\" + \"Staying put feels like safety\". P006: \"borrowed tempo is never yours\" + \"a pace you can see beats one you must invent\". P033: \"Saying no has never come easily to you … you say yes ahead of checking the cost\" + \"You hear a request as a demand\"",
+   "issue": "The two personas of one energy are written as opposites. That passes D2's \"different people\" test, but it means the 2+2 blend asserts two incompatible readers on one page with nothing to join them. All 10 Action blends contradict themselves outright; P006 and P033 contradict on one axis. The reader meets \"you chase\" and \"you stay\" on the same screen and believes neither.",
+   "fix": "Rule for blends: (a) the pairing step rejects antonym chips on one page (Chases the new × Stays too long; Starts fast × Finishes things; Spends it fast × Counts everything; Takes the chance × Saves first; Moves early × Sleeps on it; Sets own pace × Loves a race; Never says no × Talks back) and swaps in the second god's non-opposed keyword. (b) Every 2+2 page carries one fixed hinge under THE CHARACTER that names the split as the reading (\"Two faces pull this energy: one reaches, one keeps.\"), so the opposites read as a known tension rather than an error. Both are needed for Horizon/Steward."
+  },
+  {
+   "source": "cross",
+   "id": "X-04",
+   "severity": "MAJOR",
+   "criterion": "D2",
+   "pages": "P044, P122, P116, P119, P120 (and P124 for the copied sentence)",
+   "key": "K2 火_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+   "quote": "P044: \"Watching someone struggle is harder for you than carrying it yourself, so you step in\" + \"Because another person's steadiness feels more reliable than yours, you lean on theirs\". P122: \"You let things drift … Being carried feels easier than steering\" + \"you over-protect and step in first\". P120: \"Half-knowing a subject bothers you more than not knowing it\" vs the Alchemist P124 \"Half-knowing bothers you more than not knowing at all\"; P116/P119: \"you hand the one who came for comfort a lesson\", \"you send them home taught instead of held\"",
+   "issue": "The Sage is two people. On Wood and Earth it is the one who shelters (takes people in, calms, protects). On Fire, Water and Metal it is also the one who wants shelter (leans, drifts, stays the student). The single-face pages P044 and P122 put both on one page with no link. On Metal the Sage also becomes a corrector and copies the Alchemist's sentence almost word for word, so on Metal the two Mind personas merge.",
+   "fix": "Persona ruling: the Sage shelters. Its need to be sheltered may appear only as the *cause* inside a sheltering passage (\"you shelter others the way you wanted to be sheltered\"), never as a separate behaviour on the same page. Rebuild 火_正印 friction ledger[1] (Leans on others), 水_正印 friction ledger[0] (Lets it drift) and ledger[1] (Stays sheltered), and 金_正印 friction ledger[0] (Stays the student), or move them to one pole whose three keywords all take the same side. Rewrite 金_正印 catalyst ledger[1] so it does not duplicate the Alchemist."
+  },
+  {
+   "source": "cross",
+   "id": "X-05",
+   "severity": "MAJOR",
+   "criterion": "C (cross-corpus)",
+   "pages": "all 150",
+   "key": "",
+   "quote": "Edge: \"[Element] runs through your A, your B and your C. It is the …, the … and the …\" (50 of 50). Remedy: \"Seek X, the Y energy. X is … Let it [hold/shape/spend/soften] what Z [verb]. You …\" (25 of 25; \"Let it hold what\" 14 of 25; \"Let it hold what Fire burns\" word for word ×3). Ledger: 399 of 400 passages are three sentences; in 297 the middle sentence turns on a comparative joint (\"rather than\", \"instead of\", \"ahead of\", \"sooner than\", \"more than\"). 113 of 400 open by restating the chip as a gerund subject (\"Saving first is …\", \"Talking back is your first move\")",
+   "issue": "One reader's five pages run on the same frames. Per chart the mean count of comparative joints is 17.5 to 23.8 across the five pages (max 32); \"rather than\" alone averages 7.0 to 10.0 (max 17, Fire core). Every catalyst page repeats the edge frame (0 to 5 per chart, mean 2.5) and every friction page the remedy frame (same). By the third page the reader can predict the next sentence's shape. This is the \"tell\" BIZ_04 warns about for wrapper phrases, and here it sits at sentence-frame level.",
+   "fix": "Rule: a per-core sameness check across all the texts one core can show (10 pair texts, 10 god cells). Cap \"rather than\" at 4 per chart. No more than 2 of a page's 3 or 4 middle sentences on a comparative joint. The gerund-chip opener at most once per page. The edge frame gets three ruled variants for its second sentence (list form, single-scene form, contrast form), assigned so that no core meets the same one twice. The remedy drops the \"Let it … what …\" clause, which restates \"Seek X\", or varies it by element."
+  },
+  {
+   "source": "cross",
+   "id": "X-06",
+   "severity": "MAJOR",
+   "criterion": "advice family · C",
+   "pages": "P001–P150 (advice/remedy on every page); ledgers listed",
+   "key": "",
+   "quote": "\"Sleep on every yes before you give it\" (木_土 f); \"Sleep a full night before a big decision rather than after it\" (木_木 c); \"sleep before the hard decision rather than after it\" (金_金 c); \"Eat lunch sitting down.\" (水_水 c and 火_金 f, word for word); \"Ask someone older how they did it\" (水_金 c, 火_木 c, word for word); ledger \"You pay for being this hard in rest never taken\", \"thriving charges you in rest you never take\"",
+   "issue": "The same few acts carry the advice family. Sleep, night or bed appears in 22 of 50 advice/remedy texts. In the Wood and Water cores, all five pair cells have a sleep act on one pole, so one reader can meet \"sleep on it\" on 5 of 5 pages. \"Sit / sitting down\" appears in 14 of 50 (all 5 Earth-core cells), eat/meal/lunch in 9, read a chapter/page/book in 13, date/deadline in 15, \"someone above you\" in 7, \"a child\" in 5. The ledgers then name lost rest or sleep as the cost in about 28 closes (35 passages mention rest). The four Body catalyst advices (木_木, 火_火, 金_金, 水_水) are one template with no element in it and could be swapped without anyone noticing.",
+   "fix": "Rule: an act budget per core. Across the 10 advice/remedy texts one core can show, each act family (sleep, eat, sit, read, deadline, ask an elder, hand to someone above) appears at most once, and each pole's acts must draw on its element's ruling image (Wood: start/grow; Fire: show/warm; Earth: keep/hold; Metal: cut/finish; Water: rest/take in). On the ledger side, lost rest is the cost in at most one cost_self passage per page."
+  },
+  {
+   "source": "cross",
+   "id": "X-07",
+   "severity": "MINOR",
+   "criterion": "D2 · D3",
+   "pages": "P103 (also P105, P106)",
+   "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+   "quote": "\"Pleasing you takes exactness. A thing has to be right in every detail\" (drive) beside \"Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling.\"",
+   "issue": "On one page the reader is exacting and also the one who settles for good enough. The catalyst page P106 (\"you finish one thing properly rather than start three\") agrees with the first claim, not the second.",
+   "fix": "Rewrite the field: \"Whenever you make it look easy, the people learning from you see only the finish. Because your first try already looks right, you show them the result rather than the checking behind it. You leave them aiming at an ease they never saw you earn.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-08",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "P130, P132",
+   "key": "K2 水_七杀 · fn_reading.catalyst.ledger[1].angles.cost_self",
+   "quote": "\"You hold a move until the moment is certain rather than good enough, since an early move cannot be undone.\"",
+   "issue": "The General waits for certainty here, against its own drive on the same page (\"you want the next move more than the right feeling\") and against itself on Metal (\"you settle it in one fast decision\") and Earth (\"Whenever a plan stalls, you take charge\"). On this cell the General reads as the Magistrate.",
+   "fix": "Rewrite the field: \"Picking the moment is where your nerve shows. You move the instant a crisis turns, while others are still weighing it, so nobody sees why you went then. You carry each of those calls alone, since only you saw the moment.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-09",
+   "severity": "MINOR",
+   "criterion": "C (same chart)",
+   "pages": "Fire core: P128 + P098 (and P099, P129); Water core: P145 + P115 (and P117, P147)",
+   "key": "K2 水_正官 · fn_reading.friction.ledger[0]",
+   "quote": "\"Plays it safe\" (Magistrate, Water page) and \"Plays it safe\" (Steward, Metal page); \"Hard to reach\" (Twin, Water page) and \"Hard to reach\" (Alchemist, Metal page)",
+   "issue": "One reader's chart shows the same chip on two different energy pages, from two different personas. Fire-core readers with friction on Water and Metal see \"Plays it safe\" twice; Water-core readers with friction on Water and Metal see \"Hard to reach\" twice.",
+   "fix": "Rename one chip of each pair and re-open its three angles: the Magistrate's \"Plays it safe\" becomes \"Holds the yes\"; the Alchemist's \"Hard to reach\" becomes \"Mid-thought\"."
+  },
+  {
+   "source": "cross",
+   "id": "X-10",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "P070/P065, P106/P101, P085/P073, P050, P010/P137, P034/P100",
+   "key": "",
+   "quote": "\"Makes things last\" (Artisan and Steward); \"Finishes things\" (Artisan and Steward); \"Shuts people out\" (Twin and General, whose passage reads \"You would rather be alone than understood\"); \"Never says no\" (Artisan ×2 and Magistrate); \"Sleeps on it\" (Alchemist and Steward); \"Gives freely\" (Artisan and Horizon)",
+   "issue": "Nine chips are shared between personas (240 distinct chips in all). Where the passage also borrows the other persona's motive, the persona blurs: the Artisan reads as the Steward on Earth and Metal, and the General as the Twin on Earth.",
+   "fix": "Each chip belongs to one persona. Rewrite 土_食神 catalyst ledger[1].cost_self as chip \"Unhurried\": \"Unhurried is the only way you make anything. Since the pleasure is in the making, you let a thing take as long as it likes rather than rush it out. You miss the early chances because you were still enjoying the work.\" Rewrite 土_七杀 friction ledger[2].cost_others: \"Being reached for feels like one more demand, so you meet care with the same guard you keep for pressure. You shut the door hardest on the people closest to you. You leave them outside with no reason and no way to ask for one.\" Rename the others (Artisan Metal \"Finishes things\" → \"Sees it through\"; Magistrate \"Never says no\" → \"Yes to everyone\"; Steward Water \"Sleeps on it\" → \"Waits a night\"; Horizon Metal \"Gives freely\" → \"Treats the newest\")."
+  },
+  {
+   "source": "cross",
+   "id": "X-11",
+   "severity": "MINOR",
+   "criterion": "D2 · D4",
+   "pages": "P101",
+   "key": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"Your word, kept for both of you, costs your partner a wish they were never allowed to say.\"",
+   "issue": "The Steward borrows the Magistrate's chip (\"Keeps your word\"), and the close charges the reader with control (\"never allowed\"), the bad-faith reading BIZ_04 rules out.",
+   "fix": "Rewrite the field: \"Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it change. You keep the agreed plan safe and leave your partner little room to want something new.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-12",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "P041",
+   "key": "K2 火_劫财 · edge.lead",
+   "quote": "\"the emergency you head for while others look for their coats\"",
+   "issue": "A General image (the crisis) on the Rival's edge. Nothing in the Rival's 40 passages heads for emergencies.",
+   "fix": "Rewrite the field: \"Fire runs through your wealth, your social life and your career. It is the big ask you make before fear catches up, the quiet party that comes alive when you walk in, and the bid you raise because someone else wants the same prize.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-13",
+   "severity": "MINOR",
+   "criterion": "definitions family",
+   "pages": "P082–P084, P052–P054, P022–P024, P112–P114, P088–P090 (the catalyst cells concerned); all definitions",
+   "key": "PAIR 金_土 · function.definition_catalyst",
+   "quote": "\"You judge best once you give a question its night.\" / \"You get most done under rules someone else set.\" / \"You do best once you choose one and finish it.\" / \"You last longest once you let rest and company in.\"",
+   "issue": "21 of 25 catalyst definitions close on the cost of running thin. The Metal-core cluster closes on a \"you do best once …\" reassurance, which turns the definition into advice and breaks the family. The family is also formulaic: \"[Element] makes it …\" in 26 of 50; \"Wood makes it grow\" word for word in 4; Metal is \"exact\" in 7 of 10; Expression friction is \"the gate never shuts / never gets to close\" in 4 of 5; Expression catalyst \"give quietly rather than perform / show what you can do\" twice.",
+   "fix": "Rewrite 金_土 catalyst: \"Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, and you work it out alone rather than lean on anyone. You decide too soon and take answers back later.\" Rewrite 金_火 catalyst: \"Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and demands shape you. As a catalyst, nothing tests you, so you wait for a crisis to give the day a shape. You drift on the days nobody sets you a rule.\" Re-cut 金_木 and 金_金 under X-02. Vary the second sentence's verb by element across one core."
+  },
+  {
+   "source": "cross",
+   "id": "X-14",
+   "severity": "MINOR",
+   "criterion": "remedy family · A1",
+   "pages": "P067–P069, P025–P027, P019–P021",
+   "key": "PAIR 火_土 · function.advise_friction",
+   "quote": "\"Let it hold what Earth pours.\" / \"Let it hold what Wood pours out.\" (twice) / \"Metal is the cold side water forms on: it pulls from the air and hands the water back to its source.\"",
+   "issue": "The clause written for Water is pasted onto Earth and Wood, which do not pour. The 水_木 image (condensation) asks the B1 reader to solve physics. \"Let it hold what Fire burns\" repeats word for word in 木_火, 水_火 and 金_火.",
+   "fix": "Rewrite 火_土: \"Seek Wood, the Mind energy. Wood is the slow growing, roots holding ground and leaf fed by rain, something in you before anything comes out. Let it take in what Earth keeps handing out. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for reading.\" Rewrite 水_木: \"Seek Metal, the Mind energy. Metal is the blade that prunes, cutting a growing thing back so its strength returns to the root. Let it trim what Wood keeps putting out. You cannot talk your way back to full. Read one whole chapter before you make the next thing. Let one question sit overnight.\" Rewrite 金_木: \"Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it cut back what Wood keeps reaching for. You start more than your body has strength to finish. Sleep a full night ahead of any new yes. Eat before you plan the next thing.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-15",
+   "severity": "MINOR",
+   "criterion": "cross-page logic",
+   "pages": "P029, P035, P071, P107, P143",
+   "key": "K2 *_伤官 · edge.lead",
+   "quote": "\"Wood runs through your mind, your career and your social life.\" (P029, a Water-core reader whose Mind is Metal)",
+   "issue": "The Virtuoso's ruled domains include \"Mind\", so an Expression page tells the reader that this element runs through their mind, while another page of the same chart says a different element *is* their Mind. The Sage and Alchemist use \"Mind\" on Mind pages, where it agrees.",
+   "fix": "Replace the Virtuoso's \"Mind\" domain with \"Ideas\" (chip and body: \"runs through your ideas, your career and your social life\"), or rule that no domain may repeat a function name on a page of a different function."
+  },
+  {
+   "source": "cross",
+   "id": "X-16",
+   "severity": "MINOR",
+   "criterion": "bars vs text",
+   "pages": "all 30 Mind pages; Twin pages P004, P076, P148; Magistrate friction P086, P087, P092, P128",
+   "key": "",
+   "quote": "Mind: \"Intuition · Stability · Instinct · Research\"; Body: \"Independence · Competitiveness · Solo · Team\" over \"You would sooner be late on your terms than rushed on another's\" (P004); Order: \"Leadership · Responsibility · Flexible · Structured\" over \"You wait for permission to take what is already yours\" (P087)",
+   "issue": "The bar labels are fixed per function, the same on both poles and for both personas (values are not in the audit pages, so only the labels can be judged). On the Mind card the bar \"Intuition\" and the dial pole \"Instinct\" are near-synonyms, so the reader cannot tell the bar from the dial. The Twin's pages refuse the race that \"Competitiveness\" names, and the Magistrate's friction pages describe the opposite of \"Leadership\".",
+   "fix": "Rename the Mind dial to \"Gut · Study\" (or the bar to \"Insight\") so the two do not overlap. Confirm that the bar values are drawn per persona; if they are drawn per function only, add a one-line legend (\"how much of this energy shows, not which face\")."
+  },
+  {
+   "source": "cross",
+   "id": "X-17",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P131",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+   "quote": "\"You hand chances that need you now to someone quicker, and one named strength costs no trust.\"",
+   "issue": "The second clause does not parse at first reading; it comes from the forced \"cost + fix\" close of X-01.",
+   "fix": "Rewrite the field: \"Slowly earned trust is the only trust you believe. You earn it over a year rather than be oversold in a day, since quick trust feels false. You lose the chances that needed you now to people who named their strengths.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-18",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P131",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"You take a finish of their own from the people you pace to you, and one running ahead takes nothing from you.\"",
+   "issue": "Garbled (\"the people you pace to you\"), and the fix half contradicts the cost.",
+   "fix": "Rewrite the field: \"Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, so you keep the whole group at your speed. You hold back the ones ready to finish first, and arriving together was mostly your wish.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-19",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P114",
+   "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+   "quote": "\"Keep one friend outside the contest, as you cost a rival the ease of siding with you.\"",
+   "issue": "\"as\" reads as \"while\", and the cost that follows is unclear.",
+   "fix": "Rewrite the field: \"For you, competing with a friend is taking them seriously. You raise the stakes because you want someone worth beating more than someone easy to keep. You turn friends into rivals, and they lose the ease of simply being on your side.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-20",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P143",
+   "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+   "quote": "\"You take being wrong your own way ahead of being right theirs … Count the originals that landed, with the rest paid for in hours you never owed.\"",
+   "issue": "The middle sentence turns the idiom inside out, and the close does not parse.",
+   "fix": "Rewrite the field: \"Nothing feels real to you until you have made it original. You would rather be wrong your own way than right theirs, so you redo finished work. You pay for each original in hours the plain version never asked of you.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-21",
+   "severity": "MINOR",
+   "criterion": "A1 · A2",
+   "pages": "P028",
+   "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself.\"",
+   "issue": "The reason given does not support the instruction (patience is why you would *not* push).",
+   "fix": "Rewrite the field: \"With those in your care, you keep things relaxed. Since being enjoyed beats being obeyed, you let a child set their own pace. You give them the confidence that patience grows, and you hold back the push that would stretch them.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-22",
+   "severity": "TWEAK",
+   "criterion": "house limit (no \"you can\" close)",
+   "pages": "P006",
+   "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+   "quote": "\"You race for the movement more than the win, and you can let one end without losing anything.\"",
+   "issue": "A capacity close.",
+   "fix": "\"A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, and you lose nothing by letting one race end.\""
+  },
+  {
+   "source": "cross",
+   "id": "X-23",
+   "severity": "TWEAK",
+   "criterion": "house limit (no \"you can\" close)",
+   "pages": "P126",
+   "key": "K2 水_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+   "quote": "\"You can trust the gap, since the proof turns up later than the understanding.\"",
+   "issue": "A capacity close.",
+   "fix": "\"You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You are free to trust the gap, since proof comes later than understanding.\""
+  },
+  {
    "source": "earth",
    "id": "E-01",
    "severity": "MAJOR",
@@ -17,7 +270,7 @@
    "severity": "MAJOR",
    "criterion": "D1, C, A2",
    "pages": "All 15 catalyst pages; worst P082, P083, P084 (every close the same frame), P078, P072",
-   "key": "K2 土_* · fn_reading.catalyst.ledger[*",
+   "key": "K2 土_* · fn_reading.catalyst.ledger",
    "quote": "\"Let someone teach you from time to time, since …\" / \"Write the read down, since …\" / \"Name the length first, since …\" (P082, all three closes). \"Want more out loud for them, and the size of your enough becomes the size of their life.\" \"Take the next one with money you can spare, because the wrong ones cost what the sure ones kept.\"",
    "issue": "Of the 40 distinct catalyst passages, 31 close on advice. In 20 the close is an imperative and in 11 it is an \"If/When you X, you Y\" conditional. That pre-empts THE ADVICE (D1: the keywords name behaviour, the advice prescribes). It breaks the reminder register for compliments (D12). It turns into one frame, \"[Imperative], since/because [reason]\", used 15 times; on P082 to P084 every close has that shape. Most of the garbled lines on the pole are these closes (E-28 to E-31, E-37 to E-40).",
    "fix": "**Rule:** catalyst ledger closes are declarative closures (the effect, the price or the want), in the compliment register. No imperative appears in a ledger passage. At most one conditional appears per page, and the ADVICE box holds the instructions. If the owner prefers to keep an \"open door\" on the catalyst cost angles, cap it at one per page and ban the \"…, since/because …\" tail. **Evidence:** 31 of 40 passages. Only 9 close declaratively (e.g. \"You pay in time, and you get to be right in a way that lasts\"; \"You pay for it in warmth, and to you the truth is worth it\"), and those read best. The MINOR rewrites below for catalyst passages already follow this rule."
@@ -50,7 +303,7 @@
    "severity": "MINOR",
    "criterion": "A1, B, D4",
    "pages": "P079, P081 **golden**",
-   "key": "K2 土_偏印 · fn_reading.friction.ledger[0",
+   "key": "K2 土_偏印 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"With more Earth than your core uses, you choose another round of preparing over a first attempt.\"",
    "issue": "The cause is the chart's arithmetic, not the reader's need (D10, the owned cause). The prose should carry no astrology (benchmarks §1.2). This is the only K2 passage on the 30 pages that does it, and it sits on the golden chart. The house's own exemplar for this chip (benchmarks §4: \"Getting ready is where you feel most in control\") is stronger than the live text. \"first attempt\" also appears twice.",
    "fix": "\"You wait to feel ready rather than work to be ready, and getting ready never ends. Preparing is the part you control, so you choose another round of it over a first attempt. You are allowed to start before the feeling arrives.\" (42)"
@@ -61,7 +314,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2, A5",
    "pages": "P080 **golden**",
-   "key": "K2 土_正印 · fn_reading.friction.ledger[0",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"You carry Earth past what you need, so you play safe to be held instead of tested. You rest in the safe place rather than live in it.\"",
    "issue": "The cause is the chart's arithmetic again (the second passage on the 30 pages that does it, also golden). \"safe\" appears 4 times in 3 sentences. The close (\"rest in … rather than live in it\") names no cost the reader could check against their week.",
    "fix": "\"Playing it safe is a choice you make before looking at the others. Being held feels better to you than being tested, so you pick the known road every time. You pay for that safety in chances you never looked at.\" (41)"
@@ -83,7 +336,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P079 **golden**",
-   "key": "K2 土_偏印 · fn_reading.friction.ledger[2",
+   "key": "K2 土_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"…leaves people waiting on it. … You hold up their next step for as long as you second-guess.\"",
    "issue": "The close restates the opener (people wait while you second-guess), so the passage does not progress. \"hold\" appears twice.",
    "fix": "\"Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You make their plans wait on your peace of mind.\" (39)"
@@ -94,7 +347,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P081 **golden**",
-   "key": "K2 土_正印 · fn_reading.friction.ledger[0",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[0].angles.cost_others",
    "quote": "\"Handed someone's plan to change the shared life, you play safe for both.\"",
    "issue": "The dangling participle has to be parsed twice. \"the shared life\" and \"the life you share\" say the same thing twice.",
    "fix": "\"When someone you share a life with wants a change, you play safe for both. Keeping things as they are matters more to you than any change, and you slow theirs down. You take away their equal say in that life.\" (41)"
@@ -105,7 +358,7 @@
    "severity": "MINOR",
    "criterion": "A5, B",
    "pages": "P081 **golden**",
-   "key": "K2 土_正印 · fn_reading.friction.ledger[1",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"You get to let them take their own risks.\"",
    "issue": "A weak, slightly odd permission close: \"get to let\" and \"take … risk\" twice. It is the last word on the golden page's final keyword.",
    "fix": "\"Protecting the people you love is your first move with news. Because you treat their safety as your job, you shield them from a risk rather than watch them take it. You are allowed to stand beside them and let the risk be theirs.\" (44)"
@@ -116,7 +369,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P080 **golden**",
-   "key": "K2 土_正印 · fn_reading.friction.ledger[1",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"You carry their trouble rather than let them, and pick up weight nobody handed you.\"",
    "issue": "The clause is elliptical (\"let them\" what?).",
    "fix": "\"When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you.\""
@@ -127,7 +380,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2",
    "pages": "P065",
-   "key": "K2 土_正财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Being chosen again is a thing you give out loud, and you give it less than you mean to.\"",
    "issue": "Being chosen is something you receive, not something you give, so the close is illogical.",
    "fix": "\"Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. You choose them again in silence, and you say it less often than you mean it.\" (42)"
@@ -138,7 +391,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2",
    "pages": "P070",
-   "key": "K2 土_食神 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Want more out loud for them, and the size of your enough becomes the size of their life.\"",
    "issue": "The logic is inverted: as written, wanting more makes your enough the size of their life, which is the outcome the line warns against.",
    "fix": "\"At home, enough is the mood you set. Whenever enough comes early for you, you settle for the people in your care rather than push for them. You make the size of your enough the size of their life.\" (39)"
@@ -149,7 +402,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P064, P066",
-   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"Take the next one with money you can spare, because the wrong ones cost what the sure ones kept.\"",
    "issue": "The close does not parse on first read, and it is advice (E-02).",
    "fix": "\"Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. You win bigger than the careful do, and you lose bigger too.\" (38)"
@@ -160,7 +413,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P064",
-   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"You do them more good sharing in a shape that lasts, since they come back.\"",
    "issue": "\"since they come back\" has no clear sense.",
    "fix": "\"You share each win rather than sit on it. Giving in bursts is how you love, so they get plenty one year and nothing the next. You give them a feast or a famine, and they never know which is coming.\" (41)"
@@ -171,7 +424,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P065",
-   "key": "K2 土_正财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 土_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"If you spend one saved sum on something you want, the pleasure you put off stops being the price.\"",
    "issue": "The sentence has to be read twice.",
    "fix": "\"Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. You pay for the cushion in pleasures you put off past the point of enjoying them.\" (42)"
@@ -182,7 +435,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P062",
-   "key": "K2 土_正财 · fn_reading.friction.ledger[1",
+   "key": "K2 土_正财 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"the better place is taken while you weigh it. You lose the chance to go in the time you spend deciding.\"",
    "issue": "The same loss is said twice.",
    "fix": "\"Being hard to move keeps your life steady and small. You would rather weigh a move than make one, since the known place asks nothing new of you. You lose the better place in the time you spend deciding.\" (39)"
@@ -193,7 +446,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P062",
-   "key": "K2 土_正财 · fn_reading.friction.ledger[2",
+   "key": "K2 土_正财 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"you make the saving on them. You take what you save out of their share.\"",
    "issue": "Sentences 2 and 3 say the same thing.",
    "fix": "\"Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, so the gift shrinks before you hand it over. You take what you save out of their share.\" (38)"
@@ -204,7 +457,7 @@
    "severity": "MINOR",
    "criterion": "A2, A1",
    "pages": "P061, P063",
-   "key": "K2 土_偏财 · fn_reading.friction.ledger[1",
+   "key": "K2 土_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"Spreading yourself thin keeps you from being caught out and keeps you tired.\"",
    "issue": "\"keeps you from being caught out\" is unclear: caught out doing what?",
    "fix": "\"Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You run all of them on the one body you have.\" (44)"
@@ -215,7 +468,7 @@
    "severity": "MINOR",
    "criterion": "A1",
    "pages": "P068",
-   "key": "K2 土_伤官 · fn_reading.friction.ledger[1",
+   "key": "K2 土_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"Saying too much proves to you that you were listening.\"",
    "issue": "The cause does not fit the act; the Virtuoso talks to show what they have, not that they heard.",
    "fix": "\"Saying too much proves to you that you have something to add. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You talk away trust that comes back slower than it left.\" (45)"
@@ -226,7 +479,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P071",
-   "key": "K2 土_伤官 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"You rewrite a rule that stops making sense under the people standing on it.\"",
    "issue": "A garden-path opener. Keep the excellent \"somebody's floor\".",
    "fix": "\"When a rule stops making sense, you rewrite it, even with people standing on it. Since you fix it ahead of keeping the peace, the footing changes with no warning. You forget that the rule you found pointless was somebody's floor.\" (41)"
@@ -237,7 +490,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P073, P075",
-   "key": "K2 土_比肩 · fn_reading.friction.ledger[1",
+   "key": "K2 土_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"Where you shut people out, you shut out what you were saving yourself for.\"",
    "issue": "The opener is opaque: what was being saved, and for what?",
    "fix": "\"Shutting people out feels like rest to you, and it works too well. Your own company is so easy that you mistake it for the plan rather than a break. You pay for that peace in closeness, one quiet evening at a time.\" (43)"
@@ -248,7 +501,7 @@
    "severity": "MINOR",
    "criterion": "D4, A1, C",
    "pages": "P074",
-   "key": "K2 土_劫财 · fn_reading.friction.ledger[2",
+   "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"you spend money your partner set aside for the two of you. Along with the money, you spend a plan you made together.\"",
    "issue": "\"spend\" appears 4 times. \"money your partner set aside\" implies taking what is not yours, a bad-faith charge that BIZ_04's too-harsh test rules out. \"To win\" never says what is being won.",
    "fix": "\"Winning the room matters enough that you pay for it with shared money. You would rather cover the whole bill than split it, even from savings meant for two. You spend a plan you made together along with the cash.\" (40)"
@@ -259,7 +512,7 @@
    "severity": "MINOR",
    "criterion": "A3, C",
    "pages": "P075",
-   "key": "K2 土_劫财 · fn_reading.friction.ledger[1",
+   "key": "K2 土_劫财 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"…a blow to your standing. … because your standing feels at stake. You carry each loss for weeks…\"",
    "issue": "Sentence 2's reason restates sentence 1. \"standing\" and \"contest\" each appear twice. On P075, \"You carry each loss\" echoes \"You carry each problem alone\" two passages up.",
    "fix": "\"You feel every loss as a blow to your standing. Since a loss says something about you, you would rather sit out a contest than risk it. You replay each defeat for weeks after the game is over.\" (38)"
@@ -270,7 +523,7 @@
    "severity": "MINOR",
    "criterion": "A2, A3",
    "pages": "P082",
-   "key": "K2 土_偏印 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Thinking best out of reach, you let the solo hours run long … Name the length first, since you give those waiting no time to expect you.\"",
    "issue": "\"best thinking\" then \"Thinking best\" says it twice, and \"long\" appears 3 times. The close is garbled.",
    "fix": "\"Your best thinking happens alone, and you go off to it without saying how long. Since you think most clearly out of reach, you let the solo hours run on. You leave the people waiting with no idea when to expect you.\" (42)"
@@ -281,7 +534,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P082, P084",
-   "key": "K2 土_偏印 · fn_reading.catalyst.ledger[1",
+   "key": "K2 土_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"so the doubt stays yours. Write the read down, since you pay for every unchecked read in doubt about your own mind.\"",
    "issue": "The doubt is said twice, and writing a read down does not check it.",
    "fix": "\"Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so nobody checks it but you. You carry every unchecked read alone, and the doubt about your own mind stays with you.\" (44)"
@@ -292,7 +545,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P083",
-   "key": "K2 土_正印 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"You teach it a second time instead of watching someone struggle, and take the struggle that made it theirs. Let them not know a while longer, since you take the practice with every answer handed over.\"",
    "issue": "\"it\" has no clear referent, \"take\" appears 3 times, and \"Let them not know\" is awkward.",
    "fix": "\"Your patience is what you teach with first. Rather than watch someone struggle, you explain it a second time and a third. You take from them the struggle that would have made the lesson theirs.\" (35)"
@@ -303,7 +556,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P086",
-   "key": "K2 土_正官 · fn_reading.friction.ledger[1",
+   "key": "K2 土_正官 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"Where a raise is there for the asking … You lose the raise you never ask for, year after year.\"",
    "issue": "The close repeats the opener. \"wait\" appears 3 times, and \"you wait on an offer waiting on you\" is a tongue-twister.",
    "fix": "\"Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, so you wait for an offer that is waiting on you. You fall further behind every year you stay quiet.\" (44)"
@@ -314,7 +567,7 @@
    "severity": "MINOR",
    "criterion": "A3, B",
    "pages": "P089",
-   "key": "K2 土_正官 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"the standard you set is theirs to meet too. If you ask them where to set it, you find it met more gladly.\"",
    "issue": "Sentence 2 is circular: a standard set for a group is theirs to meet by definition. The close is advice (E-02).",
    "fix": "\"You set a standard for the whole group. You hold people to a bar they can see rather than guess at, and you rarely ask whether they agree to it. You get their effort more easily than their goodwill.\" (39)"
@@ -325,7 +578,7 @@
    "severity": "MINOR",
    "criterion": "D4",
    "pages": "P090",
-   "key": "K2 土_正官 · fn_reading.catalyst.ledger[0",
+   "key": "K2 土_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
    "quote": "\"you never tell the person that the promise went stale. Give one person the real answer, and let them choose.\"",
    "issue": "\"never tell\" implies concealment, which is the bad-faith charge BIZ_04 names. The close is an imperative.",
    "fix": "\"Long after you stopped wanting to, you keep promises to people. Holding to your word counts for more with you than saying you have changed, so the promise goes stale in silence. You give them your effort without your heart in it.\" (42)"
@@ -336,7 +589,7 @@
    "severity": "MINOR",
    "criterion": "A1, B",
    "pages": "P090",
-   "key": "K2 土_正官 · fn_reading.catalyst.ledger[1",
+   "key": "K2 土_正官 · fn_reading.catalyst.ledger[1].angles.drive",
    "quote": "\"If you let one person see the fairness, you lose nothing.\"",
    "issue": "The close says nothing the reader can check.",
    "fix": "\"You play fair even when it costs you the win. You only trust a rule that applies to everyone, and you keep yourself to it rather than make yourself the exception. You lose some races and keep a name nobody can question.\" (42)"
@@ -347,7 +600,7 @@
    "severity": "MINOR",
    "criterion": "A1, B",
    "pages": "P088, P090",
-   "key": "K2 土_七杀 · fn_reading.catalyst.ledger[0",
+   "key": "K2 土_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"When a quiet day comes, give it some calm too, because that calm is yours anyway.\"",
    "issue": "The logic is thin, and the close is advice.",
    "fix": "\"You stay calm under pressure, and it shows. Pressure hands you something solid to hold, so you save your calm for the hard moment ahead of the ordinary day. You are steadiest in a crisis and restless on a quiet Tuesday.\" (41)"
@@ -391,7 +644,7 @@
    "severity": "MINOR",
    "criterion": "D2",
    "pages": "P073/P075 vs P085/P087; P065/P066 vs P070/P072",
-   "key": "K2 土_比肩 · …friction.ledger[1",
+   "key": "",
    "quote": "\"Shuts people out\" (the Twin and the General); \"Makes things last\" (the Steward and the Artisan)",
    "issue": "Two different gods share one chip in each case, so the personas blur (for the cross-energy auditor).",
    "fix": "Rename the General's chip \"Closes the door\" (its passage already turns on \"the door shuts hardest\"). Rename the Artisan's \"Slow and solid\", with the passage opening \"Slow and solid is your idea of doing something right.\""
@@ -402,7 +655,7 @@
    "severity": "MINOR",
    "criterion": "A3, D2",
    "pages": "P070, P072 vs P083",
-   "key": "K2 土_食神 · fn_reading.catalyst.ledger[1",
+   "key": "K2 土_食神 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"the chances that wanted you early close while you keep making\" (the Artisan) and \"you miss the chances that wanted you early\" (the Sage)",
    "issue": "Two gods share one figure (the image BIZ_04 already moved away from: \"chances that wanted a yes\").",
    "fix": "Artisan passage: \"Making things last is your idea of doing something right. Since the work is only right once it holds, you would rather be finished than first. You miss the early chances while you are still making.\" (36)"
@@ -424,7 +677,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P064, P066",
-   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[0",
+   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"the trade favors you\"",
    "issue": "US spelling; the other energy pages use \"favour/favours\".",
    "fix": "\"You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Looking far costs you some of what is near, and the trade favours you.\""
@@ -435,7 +688,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P067, P069",
-   "key": "K2 土_食神 · fn_reading.friction.ledger[1",
+   "key": "K2 土_食神 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"You let the chance you were good enough for close while you drift\"",
    "issue": "Garden path: it reads as \"good enough for close\".",
    "fix": "\"Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one. While you drift, you let chances you were good enough for slip by, and you rarely count them.\""
@@ -446,7 +699,7 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P067",
-   "key": "K2 土_食神 · fn_reading.friction.ledger[2",
+   "key": "K2 土_食神 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"You go soft on … you go soft before the first try ends.\"",
    "issue": "\"go soft\" appears twice in two sentences.",
    "fix": "\"You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you step in before the first try ends. You keep taking from them a struggle that was theirs to grow on.\""
@@ -512,7 +765,7 @@
    "severity": "TWEAK",
    "criterion": "A3",
    "pages": "P074",
-   "key": "K2 土_劫财 · fn_reading.friction.ledger[1",
+   "key": "K2 土_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"the losses that would have taught you most … the contests with the most to teach you\"",
    "issue": "\"teach\" and \"most\" are repeated with an obvious swap.",
    "fix": "\"Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests that would stretch you furthest. You protect a record with very few wins on it.\""
@@ -523,7 +776,7 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P063",
-   "key": "K2 土_正财 · fn_reading.friction.ledger[0",
+   "key": "K2 土_正财 · fn_reading.friction.ledger[0].angles.cost_others",
    "quote": "\"you fill the home from the walls in. You leave the people you live with less space in their own home.\"",
    "issue": "\"home\" appears twice in the passage.",
    "fix": "\"You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and you fill the rooms from the walls in. You leave the people you live with less space in their own home.\""
@@ -534,21 +787,10 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P088",
-   "key": "K2 土_七杀 · fn_reading.catalyst.ledger[2",
+   "key": "K2 土_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Whenever you push through\" (with \"Whenever a plan stalls\" one passage up)",
    "issue": "\"Whenever\" opens two passages on one page.",
    "fix": "\"Pushing through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. When you match the slowest once, you see what gets done anyway.\""
-  },
-  {
-   "source": "earth",
-   "id": "E-11",
-   "severity": "TWEAK",
-   "criterion": "A2",
-   "pages": "P080",
-   "key": "",
-   "quote": "",
-   "issue": "",
-   "fix": ""
   },
   {
    "source": "fire",
@@ -567,7 +809,7 @@
    "severity": "MAJOR",
    "criterion": "D1, A5, C",
    "pages": "All 15 catalyst pages (P034 to P036, P040 to P042, P046 to P048, P052 to P054, P058 to P060)",
-   "key": "K2 火_* · fn_reading.catalyst.ledger[*",
+   "key": "K2 火_* · fn_reading.catalyst.ledger",
    "quote": "39 of the 40 unique catalyst passages close on advice: 29 imperatives (\"Keep giving this freely, and notice its one price\"; \"Let one start wait for company, since…\"; \"Ask first, since…\"; \"Allow the book one exception, because…\") and 10 conditional rewards (\"If you name what you see early, the credit stays yours\"; \"When you hold some rest back, you stop paying…\"). 24 of the 40 take the same shape: \"[Imperative], because/since [cost]\".",
    "issue": "The ledger does THE ADVICE's job before THE ADVICE arrives. A catalyst page then gives 3 or 4 instructions in the ledger and 4 or 5 more in the advice box, which reads as preachy to a reader who drops apps that tell her what to do. The fixed \"Do X, because Y\" tail is also the most repeated frame on these pages.",
    "fix": "**Rule:** catalyst closes vary across the page among the same honest kinds as friction closes (the effect, the price stated flat, the want underneath), with at most one imperative per page. The instruction lives in THE ADVICE. Samples: \"Keep speaking up, and own its price, since you are remembered for the sentence more than the care behind it.\" becomes \"You are remembered for the sentence more than for the care behind it.\" \"Let one start wait for company, since starting alone is how you finish alone.\" becomes \"You start alone, and so you finish alone.\" Rewrite all 40 closes in one pass."
@@ -589,7 +831,7 @@
    "severity": "MINOR",
    "criterion": "A1, D2",
    "pages": "P031, P033",
-   "key": "K2 火_食神 · fn_reading.friction.ledger[0",
+   "key": "K2 火_食神 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"Helping feels more like you than resting does\"",
    "issue": "The next passage on the same page says \"Taking it easy feels better than taking it on\", so the reader is both the one who never rests and the one who drifts. The close also answers a guilt (\"owe no one a reason\") that the passage never raised.",
    "fix": "\"Saying no has never come easily to you. A yes keeps the evening warm and everyone pleased, so you agree before you check what it costs. You never had to buy your place with a yes.\""
@@ -600,7 +842,7 @@
    "severity": "MINOR",
    "criterion": "A2, D4",
    "pages": "P031",
-   "key": "K2 火_食神 · fn_reading.friction.ledger[2",
+   "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"you spend the house money on the evening. You take their share and leave them short\"",
    "issue": "\"House money\" is a gambling idiom (winnings you can afford to lose), so it does not mean shared money. Two sentences open on \"You take\", and \"take their share\" reads as a charge of taking.",
    "fix": "\"Whenever a plan with others meets your pleasure, you choose the pleasure. A good time now feels surer than a promise kept later, so you spend on the evening what was meant for the plan. You leave them short on what you had agreed together.\""
@@ -611,7 +853,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P033",
-   "key": "K2 火_伤官 · fn_reading.friction.ledger[1",
+   "key": "K2 火_伤官 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"you take being watched doing badly over doing well alone\"",
    "issue": "The sentence has to be read twice to parse.",
    "fix": "\"You need an audience more than you need to be right. Being seen is how you know you exist, so you would rather do badly in front of people than well on your own. Remember that you are just as real with no one watching.\""
@@ -622,7 +864,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2",
    "pages": "P036",
-   "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0",
+   "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others",
    "quote": "\"Before anyone asks you to, you speak up for them. Having a voice comes more naturally to you than lending one\"",
    "issue": "The passage opens on speaking up for others (lending your voice) and then charges the reader with not lending one. It contradicts itself.",
    "fix": "\"Before the quiet ones find their words, you have said yours. Speaking comes more naturally to you than making room, so you take the floor before handing it over. Leave them the first word, since their turn is where you speak up.\""
@@ -633,7 +875,7 @@
    "severity": "MINOR",
    "criterion": "A1, B",
    "pages": "P038",
-   "key": "K2 火_劫财 · fn_reading.friction.ledger[0",
+   "key": "K2 火_劫财 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"You hate to lose more than you love to win … since the Fire in you outlasts a single victory.\"",
    "issue": "The opener is a famous sports quote, so it is not specific to the reader. The \"since\" clause does not explain why a rival's win reads as your loss, and the cause is chart talk, not the reader's need.",
    "fix": "\"Losing stays with you far longer than winning does. A rival's win feels like a piece taken from you, so every friendly game becomes a fight to get it back. You win more often than most and enjoy the playing less.\""
@@ -644,7 +886,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P041",
-   "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"You would sooner share the stake than check if they wanted one, so you double a bet that was theirs.\"",
    "issue": "The stake/bet metaphor stands in for the action, so the reader has to decode it, and \"bet\" appears twice.",
    "fix": "\"Beside someone you like, you go all in unasked. Sharing your energy feels like the best gift, so you double their plan without checking. Ask first, since you leave them a plan twice the size they chose.\""
@@ -666,7 +908,7 @@
    "severity": "MINOR",
    "criterion": "D2, A1",
    "pages": "P044 (P045 carries the drive twin)",
-   "key": "K2 火_正印 · fn_reading.friction.ledger[1",
+   "key": "K2 火_正印 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"Because another person's steadiness feels more reliable than yours, you lean on theirs\"",
    "issue": "On the same page the reader \"steps in ahead of being asked\" to carry others. The protector and the leaner read as two people because the page never ties them together.",
    "fix": "\"The care you give so freely is the care you lean on in return. Another person's steadiness feels safer than your own, so you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow.\""
@@ -677,7 +919,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2",
    "pages": "P047",
-   "key": "K2 火_正印 · fn_reading.catalyst.ledger[1",
+   "key": "K2 火_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"Because being needed feels easier than being tired\"",
    "issue": "Being needed and being tired are not alternatives, so the cause does not parse. \"Rest\" also appears twice.",
    "fix": "\"Your own needs come last whenever you are looking after someone. Being needed feels better to you than being rested, so you give your evenings away before keeping any. When you hold one back, you stop paying for everyone's comfort with your sleep.\""
@@ -688,7 +930,7 @@
    "severity": "MINOR",
    "criterion": "A5, C",
    "pages": "P047",
-   "key": "K2 火_正印 · fn_reading.catalyst.ledger[2",
+   "key": "K2 火_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Offer the truth while it can help, in your own gentle way.\"",
    "issue": "The close is greeting-card soft, and \"read\" appears twice in the passage and again in the advice box below.",
    "fix": "\"Your first read of anyone is a kind one. Keeping a person warm matters more to you than judging them out loud, so you hold back the honest word they needed. Offer the truth while it can still help.\""
@@ -699,7 +941,7 @@
    "severity": "MINOR",
    "criterion": "A5, D4",
    "pages": "P049, P051",
-   "key": "K2 火_七杀 · fn_reading.friction.ledger[0",
+   "key": "K2 火_七杀 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go.\"",
    "issue": "The cause is chart mechanics instead of the reader's own need, and \"hard on yourself\" appears twice in two sentences. The close is excellent and stays.",
    "fix": "\"You are harder on yourself than anyone else has been. Letting a mistake go feels like letting yourself off, so you go over it long after everyone else has moved on. You paid for each mistake the first time, and that was enough.\""
@@ -710,7 +952,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P049, P051",
-   "key": "K2 火_七杀 · fn_reading.friction.ledger[1",
+   "key": "K2 火_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"you spend strength you do not have … short on sleep and on the strength you spent pushing\"",
    "issue": "The first and last sentences say the same thing, push appears 3 times, and the passage gives no need.",
    "fix": "\"Each time you push too hard, you spend strength you do not have. Stopping short feels like letting the job down, so you push through instead of keeping some back for the rest of the week. You reach Friday with nothing left for yourself.\""
@@ -721,7 +963,7 @@
    "severity": "MINOR",
    "criterion": "A2, C",
    "pages": "P049",
-   "key": "K2 火_七杀 · fn_reading.friction.ledger[2",
+   "key": "K2 火_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"you give them a guard ahead of someone to sit with … without the company they wanted\"",
    "issue": "\"A guard ahead of someone\" is awkward, and \"company\" and \"duty\" each appear twice.",
    "fix": "\"Staying on duty is how you love the people in your care. Watching over them comes easier to you than sitting with them, so you stand guard where they wanted company. You keep them safe and miss the evenings they hoped to share with you.\""
@@ -754,7 +996,7 @@
    "severity": "MINOR",
    "criterion": "A2, C",
    "pages": "P053",
-   "key": "K2 火_正官 · fn_reading.catalyst.ledger[1",
+   "key": "K2 火_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"so you let the book decide what you knew. Allow the book one exception\"",
    "issue": "\"Book\" appears 4 times, and \"decide what you knew\" mixes tenses.",
    "fix": "\"Where the book and your judgment part, you side with the book. Doing it in order feels safer than doing it your way, so you overrule what you already knew. Allow one exception, because you give up chances that cannot wait.\""
@@ -765,7 +1007,7 @@
    "severity": "MINOR",
    "criterion": "D2",
    "pages": "P050 (and P031 to P033)",
-   "key": "K2 火_正官 · fn_reading.friction.ledger[2",
+   "key": "K2 火_正官 · fn_reading.friction.ledger[2]",
    "quote": "\"Never says no\" (Magistrate) and \"Never says no\" (Artisan)",
    "issue": "Two gods of the Fire energy share one chip label, which weakens \"the two gods read as different people\".",
    "fix": "Rename the 火_正官 friction chip to \"Spread too thin\" (the passage is about slices of yourself, not refusal). Keep the passage."
@@ -776,7 +1018,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P056",
-   "key": "K2 火_正财 · fn_reading.friction.ledger[0",
+   "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"You were only counting until it felt safe to enjoy what you have.\"",
    "issue": "The past continuous suggests the counting has stopped, so the reader has to work out the meaning.",
    "fix": "\"You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes ahead of enjoying the thing. You started counting so that one day you could enjoy what you have.\""
@@ -787,7 +1029,7 @@
    "severity": "MINOR",
    "criterion": "D4",
    "pages": "P056",
-   "key": "K2 火_正财 · fn_reading.friction.ledger[2",
+   "key": "K2 火_正财 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"You leave your partner guessing at a warmth you have and never hand over.\"",
    "issue": "\"Never hand over\" implies withholding on purpose. This is the concealment charge BIZ_04 rules out.",
    "fix": "\"You hold back hardest where you love most. Keeping a reserve feels safer than giving it all, so your partner gets the careful share only. You feel more warmth than your partner ever gets to see.\""
@@ -798,7 +1040,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P057",
-   "key": "K2 火_正财 · fn_reading.friction.ledger[0",
+   "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.cost_others",
    "quote": "\"you ask about the receipt ahead of the day itself\"",
    "issue": "It is not clear what \"the day itself\" is.",
    "fix": "\"Your count covers the household's spending as much as your own. Knowing where every bit went keeps you calm, so you ask what something cost before you ask how the day was. You charge your family a question for every small purchase.\""
@@ -886,7 +1128,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P037",
-   "key": "K2 火_比肩 · fn_reading.friction.ledger[2",
+   "key": "K2 火_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"Being seen fine from far … so you hold a peer there.\"",
    "issue": "\"From far\" is ungrammatical, and \"there\" has no referent.",
    "fix": "\"You put the wall up highest when someone gets closest. Being seen as fine from a distance matters more than being seen tired up close, so you keep a peer at arm's length. You leave them a friend they can see and never quite reach.\""
@@ -897,7 +1139,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P040",
-   "key": "K2 火_比肩 · fn_reading.catalyst.ledger[2",
+   "key": "K2 火_比肩 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Give a friend one bad day\"",
    "issue": "This reads as \"ruin a friend's day\".",
    "fix": "\"Whenever you fall, you are back up before anyone can reach you. Standing on your own matters more than being helped up, so you leave people nothing to do. Let a friend see one bad day, since being there is what you keep from them.\""
@@ -908,7 +1150,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P040, P042",
-   "key": "K2 火_比肩 · fn_reading.catalyst.ledger[1",
+   "key": "K2 火_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"you let a friend near after they match you\"",
    "issue": "\"After they match you\" is unclear: match what?",
    "fix": "\"You trust closeness only side by side, so you let a friend near once they match your pace. You would rather keep your footing than be held up, even when you need it. Be carried sometimes, since the nearness you skip only comes from leaning.\""
@@ -919,7 +1161,7 @@
    "severity": "TWEAK",
    "criterion": "A2, C",
    "pages": "P031, P033",
-   "key": "K2 火_食神 · fn_reading.friction.ledger[1",
+   "key": "K2 火_食神 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"you put off the thing you meant to make again. You lose the one thing you most wanted to make\"",
    "issue": "\"Again\" can attach to \"make\" or to \"put off\", and \"make\" is repeated.",
    "fix": "\"Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so once again you put off the thing you meant to start. You lose the one thing you most wanted to make, a day at a time.\""
@@ -930,7 +1172,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P032",
-   "key": "K2 火_伤官 · fn_reading.friction.ledger[2",
+   "key": "K2 火_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"You feel a plain yes as too little\"",
    "issue": "\"Feel X as Y\" is not idiomatic English.",
    "fix": "\"For people who asked for little, you overdo it anyway. A plain yes seems too small to you, so you hand them the full production instead of what they named. You load them with more than they wanted, plus the work of thanking you.\""
@@ -941,7 +1183,7 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P038, P039",
-   "key": "K2 火_劫财 · fn_reading.friction.ledger[1",
+   "key": "K2 火_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"being seen as generous … a moment of looking generous\"",
    "issue": "\"Generous\" is repeated in two sentences in a row.",
    "fix": "\"Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You trade your own savings for a moment of looking generous.\""
@@ -952,7 +1194,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P038",
-   "key": "K2 火_劫财 · fn_reading.friction.ledger[2",
+   "key": "K2 火_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"so you turn a walk into a pace\"",
    "issue": "\"Turn a walk into a pace\" is not an English idiom.",
    "fix": "\"Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove.\""
@@ -963,7 +1205,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P053",
-   "key": "K2 火_正官 · fn_reading.catalyst.ledger[2",
+   "key": "K2 火_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Say the word sometimes\"",
    "issue": "\"Say the word\" means \"just give the signal\", not \"put in a quiet word\".",
    "fix": "\"Where titles are concerned, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. Put in that word sometimes, because you take from them the years that earning costs.\""
@@ -974,7 +1216,7 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P059",
-   "key": "K2 火_正财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 火_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"your partner … your partner … what your partner wants\"",
    "issue": "\"Partner\" appears 3 times in three sentences.",
    "fix": "\"You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. Once you ask what they want that week, you show up with the right thing.\""
@@ -985,7 +1227,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P055, P057",
-   "key": "K2 火_偏财 · fn_reading.friction.ledger[2",
+   "key": "K2 火_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"You look past the people at home first.\"",
    "issue": "\"First\" can mean \"before doing anything else\". The intended meaning is \"they are the first people you overlook\".",
    "fix": "\"The people at home are the first you look past. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on the nights you are home.\""
@@ -996,10 +1238,549 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P046, P048",
-   "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2",
+   "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"say it first\"",
    "issue": "\"It\" has no referent.",
    "fix": "\"Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. When you need to think, say so first and stay close enough to be good company.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-01",
+   "severity": "MAJOR",
+   "criterion": "A1, D3, D1",
+   "pages": "P094, P095, P096, P101, P102, P106, P107, P108, P118, P119, P120 (11 of 15 catalyst pages); P098, P099 on friction",
+   "key": "PAIR 木_金 · function.definition_catalyst",
+   "quote": "Water: \"As a catalyst, the test gets skipped. You trust your hunch more than a lesson handed down\" above 金_偏印 \"You test everything before you let it in\" and 金_正印 \"Learning it properly takes you longer\". Advice: \"You decide faster than you learn\". Wood: \"the standard comes too seldom … leave most things unfinished\" above 金_正官 \"Properly is the one speed you own\". Fire: \"you chase the next opening more than you finish anything to keep\" above 金_正财 \"Finishing things settles you more than starting them\". Advice \"Move a fixed sum into savings each month\" above \"You pay for saving first with a life kept for later\". Earth: \"You hold a gift back as much as you keep your opinion to yourself\" above 金_伤官 \"Saying it straight is the only way you know\". Wood advice: \"Take charge of the next small emergency at home without being asked\" under \"Let someone else take charge sometimes\". Fire friction: \"you start a new venture rather than keep the money and love already yours\" and remedy \"You say yes to more than you can finish\" above 金_正财 \"Holds on tight\", \"Plays it safe\", \"Avoids change\".",
+   "issue": "The pair fields (definition, advice, remedy) describe Metal as thin and name one god's behaviour (usually the 偏 god). The catalyst ledger describes the god's trait in full supply. On 11 of 15 catalyst pages the reader is told one thing in THE FUNCTION and the opposite in the keywords, and on 5 of those THE ADVICE prescribes what a keyword already says the reader overdoes. Only 金_金 (P112 to P114) and the 偏财 page (P100) agree with themselves.",
+   "fix": "**Rule:** a pair field must be true of both gods' chips on that pole. Before landing, cross-read each pair definition, advice and remedy against all six chips of the two god cells on the same pole. A field fails if it names the opposite of any chip's behaviour. **Ruling needed first:** what the catalyst ledger claims when Metal is thin. Either (a) the ledger names the trait as the shape the thin energy takes, in which case the definitions must stop saying the trait is missing; or (b) the definition names the shortage, in which case the ledger must be re-cut as the trait to grow, not one the reader already overdoes. **Rebuild:** 4 catalyst definitions, 4 catalyst advices, 1 friction definition and 1 friction remedy (火_金). A sample for the friction pole that fits both 偏财 and 正财: \"Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, what you own starts to own you. You carry more than your strength allows, with no rest left for what you have.\" (48 words)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-02",
+   "severity": "MAJOR",
+   "criterion": "C, A2",
+   "pages": "20 of 30 pages carry \"rather than\" ×2 or more (P112 ×6; P099, P114 ×5); 64 of 80 unique passages",
+   "key": "K2 金_比肩 · fn_reading.catalyst.ledger",
+   "quote": "\"you keep the measure rather than the friend\" (good, alone); then on the same page \"so you build alone rather than with help\", \"You return recovered rather than being seen recovering\", advice \"rather than after it\", edge \"rather than ahead of them\" (P112). The substitute joint: \"Your bets are sized to the thrill ahead of the margin\", \"you want the win ahead of the evening\", \"you choose tired ahead of watching them hurt\", \"you credit people for the record ahead of the talent\", \"you hold people to their exact words ahead of their meaning\".",
+   "issue": "The second sentence of 64 of 80 passages is one clause shape: \"[cause], and/so you A rather than / ahead of / instead of / more than B\". The either-or is The Pattern's centre, but repeated three or four times on a page it becomes the page's rhythm. \"ahead of\" (15 uses, 13 in passages) is used as a disguised \"rather than\", and in at least five places it is not idiomatic English.",
+   "fix": "**Rule:** on each pole of a god cell, at most one of the three passages carries a comparator either-or (rather than / instead of / ahead of / in place of / sooner than / more than) in its centre sentence. The other two progress on cause or consequence (\"so\", \"until\", \"each time\", \"since\"). Use \"ahead of\" only in its time sense (\"before\"). The pair advice and the edge carry no comparator. This brings P112 from six joints to at most two and covers all 20 flagged pages. Mechanical gate: count comparators per assembled page, fail at 3 or more."
+  },
+  {
+   "source": "metal",
+   "id": "MT-03",
+   "severity": "MAJOR",
+   "criterion": "A1, D1, A3, C",
+   "pages": "23 of 40 catalyst passages; overlap with THE ADVICE on P094, P112, P113, P114",
+   "key": "",
+   "quote": "\"Let someone else take charge sometimes, since…\", \"Give yourself one empty day, since…\", \"Hold one decision open, because…\", \"Let one thing be good enough, since…\", \"Let one favour into the making, since…\", \"Bend it once for someone you like, because…\", \"Pick one contest with a finish line, because…\", \"Size one bet to the savings, because…\", \"Keep one friend outside the contest, as…\"",
+   "issue": "Three problems in one formula. (1) 23 of 40 catalyst closes are an imperative plus a \"since/because/as\" cost clause, so a catalyst page reads as three instructions before THE ADVICE gives five more. (2) About 17 of the 23 tell the reader to do less of the very trait the verdict above says to \"Grow it.\" (3) Several repeat the advice on the same page: P112 \"Let one favour into the making\" next to the advice \"Let one peer carry a job you could do yourself\"; P113 \"Pick one contest with a finish line\" next to \"Sit out one contest a month on purpose\".",
+   "fix": "**Rule:** a catalyst close is one of the three honest kinds that BIZ_04 rules for friction, turned toward the gift: the effect the trait buys (16P's \"This gives them…\"), the want underneath, or the price stated flat. At most one imperative close per god cell per pole, and it may not repeat or anticipate the pair advice. **Owner ruling needed:** whether a \"Grow it.\" page may tell the reader to dial a trait down at all. If not, the 17 tempering closes are rewritten as effect or want closes. Evidence: the imperative closes of 金_七杀 (3/3), 金_正官 (3/3), 金_比肩 (3/3), 金_劫财 (5/5) and 金_伤官 (3/5)."
+  },
+  {
+   "source": "metal",
+   "id": "MT-04",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P109, P110, P111 **[golden]**",
+   "key": "PAIR 金_金 · function.definition_friction",
+   "quote": "\"Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes.\"",
+   "issue": "A will that \"sits unused\" and fights every fight in the same sentence is a contradiction. \"shared stakes\" is abstract, and \"Running over\" replaces the \"As a friction,\" frame that BIZ_04 asks to keep visible. The close (\"You lose a peer for each argument you win\") is the best line on the page and stays.",
+   "fix": "\"Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. As a friction, that strength has nowhere to go, so you spend it on overruling the people beside you. You lose a peer for each argument you win.\" (47 words)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-05",
+   "severity": "MINOR",
+   "criterion": "A3, A1",
+   "pages": "P109, P110, P111 **[golden]**",
+   "key": "PAIR 金_金 · function.advise_friction",
+   "quote": "\"Let it spend what Metal stores. You stay in charge of yourself by being right.\"",
+   "issue": "The diagnosis repeats \"Unteachable\" (\"Since being right is how you stay safe\") on P109 and P111. \"spend what Metal stores\" is the same figure as the Water remedy, and the Body does not store.",
+   "fix": "\"Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it melt what Metal hoards. With no one above you, you answer only to yourself. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-06",
+   "severity": "MINOR",
+   "criterion": "A1 (D10), C",
+   "pages": "P109, P111 **[golden]**",
+   "key": "K2 金_比肩 · fn_reading.friction.ledger[0].angles.drive",
+   "quote": "\"There is Metal to spare in you, so you seal yourself off from help … Remember that you meant to seal out the hurt rather than your peers.\"",
+   "issue": "The cause is the element, not the reader's need (D10). \"peers\" makes peer ×4 on P109, and \"seal\" appears three times.",
+   "fix": "\"You stay sealed off long after the reason has gone. Needing no one once kept you safe, so you shut out help without checking whether you still want any. Remember that you meant to keep out the hurt, never the people near you.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-07",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "P109 **[golden]**",
+   "key": "K2 金_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+   "quote": "\"Since you would rather owe nothing than be joined\"",
+   "issue": "\"be joined\" is unclear. \"Since\" also opens the second sentence of \"Unteachable\" on the same page, and \"peer\" appears again.",
+   "fix": "\"Being nobody's burden is why you ask no one. You would rather owe nothing than share the load, so you take the job back the moment someone offers. You send away the friend who offered and leave them no way to help you.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-08",
+   "severity": "MINOR",
+   "criterion": "A2, A1 (D10)",
+   "pages": "P111 **[golden]**",
+   "key": "K2 金_劫财 · fn_reading.friction.ledger[1].angles.drive",
+   "quote": "\"Your bets are sized to the thrill ahead of the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed.\"",
+   "issue": "It does not parse on first read: \"ahead of the margin\" is a disguised \"rather than\", \"caution borrowed\" means nothing plain, and the element is the cause. The close is good and stays.",
+   "fix": "\"You size a bet by the thrill it gives, never by what you can lose. A big stake is where you feel most awake, so caution never gets a vote. You bet the rent on a feeling that fades faster than the bill.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-09",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P110 **[golden]**",
+   "key": "K2 金_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+   "quote": "\"Hating to lose even a game is how you show you care. Since you want the win ahead of the evening, you keep arguing after it ends.\"",
+   "issue": "\"is how you show you care\" is a claim the passage never supports. \"ahead of the evening\" is not idiomatic, and \"it\" could be the game or the evening.",
+   "fix": "\"Losing even a small game feels like losing ground to you. You play every round to win, and you keep arguing after the last hand. You take the fun out of the evening for the people you play with.\" (40)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-10",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P091, P092, P093",
+   "key": "PAIR 木_金 · function.definition_friction",
+   "quote": "\"As a friction, the line turns inward, and you push past the task rather than keep your rank.\"",
+   "issue": "\"push past the task rather than keep your rank\" does not say a plain act, and readers have to parse it twice.",
+   "fix": "\"Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, and you police yourself harder than any rank asks. You become the one judge you never satisfy.\" (48)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-11",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P091, P093 (P092)",
+   "key": "PAIR 木_金 · function.advise_friction",
+   "quote": "\"The hardest judge you answer to lives in your head.\"",
+   "issue": "This is the third time the page says it, after the definition close (\"the one judge you never satisfy\") and the \"Hard on yourself\" close (\"no judge harder than yourself\"). \"Let it hold what Metal cuts\" is muddled.",
+   "fix": "\"Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. Nothing you do counts for you until it has passed a test. Spend one evening a week learning something nobody grades. Sleep on the next hard reply before you send it.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-12",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P091, P093",
+   "key": "K2 金_七杀 · fn_reading.friction.ledger[0].angles.drive",
+   "quote": "\"you fail your own hard test sooner than pass someone else's\"",
+   "issue": "\"sooner than\" in the sense of \"rather than\" makes readers parse it twice.",
+   "fix": "\"Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You answer to no judge harder than yourself.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-13",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "P092",
+   "key": "K2 金_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+   "quote": "\"…rather than risk being wrong. You lose every idea you kept back for fear of being wrong.\"",
+   "issue": "\"being wrong\" appears three times in 39 words, and the close repeats the middle.",
+   "fix": "\"Being wrong is what you have no procedure for. Right answers feel like the only safe ones, so you keep your opinions to yourself until you are sure. You lose every idea you never said while you waited for certainty.\" (40)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-14",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P093",
+   "key": "K2 金_正官 · fn_reading.friction.ledger[1].angles.drive",
+   "quote": "\"A mistake marks your name in your eyes, and you give silence in place of any answer that risks being wrong.\"",
+   "issue": "\"marks your name in your eyes\" is not an idiom.",
+   "fix": "\"Hating being wrong is the part of you that works hardest. A mistake feels like a mark on your name, so you hold back any answer that might be wrong. You go silent on the answers you had right.\" (39)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-15",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P094, P096",
+   "key": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"those close to you lose the chance to choose. Hold one decision open, because the people you decide for pay with their say.\"",
+   "issue": "The cost is said twice and the reader's reason is missing.",
+   "fix": "\"When someone near you is stuck, you decide for them. A fast answer feels kinder to you than a wait, so you settle it before they have weighed it. Hold one decision open, because the people you decide for pay with their say.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-16",
+   "severity": "MINOR",
+   "criterion": "A2, D11",
+   "pages": "P095",
+   "key": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.drive",
+   "quote": "\"Enjoy that, and let a few promises stay small.\"",
+   "issue": "\"that\" has no clear antecedent, and the close is the weakest catalyst close in the set.",
+   "fix": "\"Keeping your word is the standard you hold above every other. A promise is a rule of your own making, so you carry a hard yes to the end and never offer an easy maybe. You give a yes that people can build on.\" (44)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-17",
+   "severity": "MINOR",
+   "criterion": "D13",
+   "pages": "P095",
+   "key": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "chip \"Earns your place\" over \"Each time someone rises near you, you check the place was earned.\"",
+   "issue": "The chip names the reader's act, but the passage is about the reader checking other people.",
+   "fix": "\"Earning your place step by step is the only rank you respect. You hold everyone near you to that same ladder, and you credit people for their record before their talent. Credit the talent too, since your eye for the earned sees half a person.\" (45)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-18",
+   "severity": "MINOR",
+   "criterion": "D4",
+   "pages": "P097 (P099)",
+   "key": "K2 金_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+   "quote": "\"Where you are generous, you spend everything too. … You spend the money your family was counting on for later.\"",
+   "issue": "The opener is weak, \"spend\" appears three times, and every close on P097 (and all four on P099) is a loss, which is BIZ_04's \"too harsh\" test.",
+   "fix": "\"Spending it all feels like generosity to you. You pay the bill, buy the gift and make the loan, since giving suits you better than keeping. You meant to make the people you love feel rich, and you leave them short for later.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-19",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P098",
+   "key": "K2 金_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+   "quote": "\"Where you avoid change, you avoid it for two. … You avoid change so well that your partner goes without any too.\"",
+   "issue": "The close repeats the opener, and \"so well that\" reads as sarcasm.",
+   "fix": "\"Where you avoid change, you avoid it for two. Since the agreed life feels safe to you, you keep the person you love inside it instead of letting them change it. You hold them back from the changes they wanted to make.\" (42)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-20",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "P098",
+   "key": "K2 金_正财 · fn_reading.friction.ledger[0].angles.drive",
+   "quote": "\"Your answer to ownership is holding on tight. You would rather hold on than risk losing, so you hold on to money…\"",
+   "issue": "\"hold\" appears five times in 42 words, and \"Your answer to ownership\" is not plain English.",
+   "fix": "\"Holding on tight makes what you have feel safe. You would rather keep a thing than risk losing it, so you grip money, things and people past where holding helps. You have every right to let go of what you no longer want.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-21",
+   "severity": "MINOR",
+   "criterion": "A4, D4",
+   "pages": "P101",
+   "key": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"Your word, kept for both of you, costs your partner a wish they were never allowed to say.\"",
+   "issue": "The close's subject is not the reader, and \"never allowed\" charges the reader with control.",
+   "fix": "\"Where your word is kept, you expect the same back. You hold your partner to a word given in another mood rather than let them change it. You keep the promise for both of you, and your partner stops asking for anything new.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-22",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P102",
+   "key": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+   "quote": "\"and one sum spent uncounted buys one back\"",
+   "issue": "\"one … one\" does not resolve on first read.",
+   "fix": "\"Your reflex with money is saving first. A sum set aside feels safe from loss, so you save rather than spend, and spend only what is left. You save your way past small pleasures too, and you miss them more than the money.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-23",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P100, P102",
+   "key": "K2 金_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+   "quote": "\"while you would rather spend your patience on a fresh start than a middle\"",
+   "issue": "\"on a fresh start than a middle\" does not parse, and \"start\" appears four times.",
+   "fix": "\"Where you feel surest is starting fast. You start on speed alone, and your patience runs out somewhere in the middle. You never get paid for what you keep starting over, and the money waits at the end you skip.\" (40)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-24",
+   "severity": "MINOR",
+   "criterion": "A1, D2",
+   "pages": "P103",
+   "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+   "quote": "\"Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling.\"",
+   "issue": "The same page's drive says \"A thing has to be right in every detail before it pleases you.\" Within one page the persona is both a perfectionist and someone who settles.",
+   "fix": "\"Whenever you take it easy, you take people with you. Your comfort sets the pace, so the people near you slow down when you do. You teach them to stop when you stop, whatever the work still needs.\" (38)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-25",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P105",
+   "key": "K2 金_伤官 · fn_reading.friction.ledger[0].angles.cost_others",
+   "quote": "\"so you skip the soft words rather than soften the point\"",
+   "issue": "The alternative it names (softening the point) is the thing a direct person rightly refuses, so the logic is reversed.",
+   "fix": "\"You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you cut the kind words and keep only the point. You leave them a bruise the truth alone would not have left.\" (41)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-26",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P106",
+   "key": "PAIR 土_金 · function.advise_catalyst",
+   "quote": "\"Show a child or a beginner how you do something well.\"",
+   "issue": "It sits under \"You teach a child by doing the whole thing yourself\" (金_食神 catalyst cost_others), which is the same act named as the cost. (This is local evidence for MT-01.)",
+   "fix": "\"You are more finished on the inside than anyone can tell from the outside. Give one thing you made to someone this month, as it is. Say the clever line out loud instead of saving it. Let a beginner do one thing badly beside you. Sign one piece of work.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-27",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P107",
+   "key": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"Whenever you give the people at home a show, you keep your best where it is loved.\"",
+   "issue": "The close has to be parsed twice.",
+   "fix": "\"You save your best for an audience. A crowd feels more worth rising for than one person, so the people at home get what is left. Bring one show home, since the people who love you rarely see your best.\" (40)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-28",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P112, P113, P114",
+   "key": "PAIR 金_金 · function.definition_catalyst",
+   "quote": "\"Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in.\"",
+   "issue": "\"strength gives out, so you manage alone\" is a non sequitur, and \"bet big\" is a symptom of excess, not shortage. The close pre-empts the advice (\"Take rest in first\"; \"Let one peer carry a job\").",
+   "fix": "\"Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. As a catalyst, that strength runs thin, and you spend it alone with no peer to share the load. You run out sooner than anyone sees and never stop to refill.\" (50)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-29",
+   "severity": "MINOR",
+   "criterion": "A3, D1",
+   "pages": "P112, P114",
+   "key": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.drive",
+   "quote": "\"Let one favour into the making, since you pay most for the things you make alone.\"",
+   "issue": "It repeats the advice (\"Let one peer carry a job you could do yourself\"), and \"you pay most\" is vague.",
+   "fix": "\"You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. What you make alone is yours, and so is every hour it took.\" (41)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-30",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P114",
+   "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+   "quote": "\"Keep one friend outside the contest, as you cost a rival the ease of siding with you.\"",
+   "issue": "\"as\" is ambiguous, and \"cost a rival the ease of siding with you\" does not parse.",
+   "fix": "\"For you, competing with a friend is taking them seriously. You want someone worth beating more than someone easy to keep, so you raise the stakes with the friends you rate. Keep one friend outside the contest, so someone near you can simply relax.\" (44)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-31",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P114",
+   "key": "K2 金_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+   "quote": "\"Keep one bet a year you can afford to lose\"",
+   "issue": "\"Keep a bet\" is unclear: hold it, or make it?",
+   "fix": "\"Your yes to a bet comes before the fear has finished. Hesitating feels like losing to yourself, so you bet first and size it afterwards. Make one bet a year small enough to lose, since nerve costs you money as much as pride.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-32",
+   "severity": "MINOR",
+   "criterion": "A3, D4",
+   "pages": "P115, P117",
+   "key": "K2 金_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+   "quote": "\"You wanted to be told more than you wanted it exact, and that is worth remembering.\"",
+   "issue": "\"and that is worth remembering\" is the reminder-dodge tail that BIZ_04 names, added to a close that already carries the want.",
+   "fix": "\"Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You always wanted to be told more than you wanted it exact.\" (41)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-33",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P115, P117",
+   "key": "PAIR 水_金 · function.advise_friction",
+   "quote": "\"You keep testing what already passed, since only finished feels safe.\"",
+   "issue": "This is the third statement of one idea on the page (definition \"the test never ends\"; drive \"You are never done checking\").",
+   "fix": "\"Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Every extra check buys you safety and costs you a move. Ship one piece as a draft you would accept from others. Decide one small thing with no second look.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-34",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P116",
+   "key": "K2 金_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+   "quote": "\"Being too protective costs you your sleep. … You lose your own rest to every risk you take off their hands.\"",
+   "issue": "The opener and close say the same thing, and \"every risk\" appears twice.",
+   "fix": "\"Being too protective costs you your sleep. You carry every risk your family should carry themselves, because watching them hurt feels worse to you than being tired. You end up exhausted in a house where everyone else sleeps well.\" (39)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-35",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "P117",
+   "key": "K2 金_正印 · fn_reading.friction.ledger[0].angles.cost_others",
+   "quote": "\"You keep your knowledge under another's wing rather than make one of it\"",
+   "issue": "\"make one of it\" makes readers stop to parse it. \"shelter\" appears twice and \"stay\" twice.",
+   "fix": "\"Your door stays closed while you stay the student. You keep learning under someone else's wing instead of spreading your own, and the people who need you stand outside. You keep them outside one more year for every year you stay the student.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-36",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P119",
+   "key": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+   "quote": "\"Once you take one door on less than the whole, you stop watching chances go to faster people.\"",
+   "issue": "\"take one door on less than the whole\" is a mixed figure.",
+   "fix": "\"Learning it properly takes you longer. Knowing a thing to its end matters to you more than knowing it well enough, and most chances ask for less. Take one chance on half of what you know, and you stop watching faster people get there first.\" (45)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-37",
+   "severity": "MINOR",
+   "criterion": "A2, D3",
+   "pages": "P119",
+   "key": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"Each time you ask what they need first, you keep the steadying wanted.\"",
+   "issue": "\"keep the steadying wanted\" is not English. The passage is also the friction \"Loves by correcting\" behaviour placed under a catalyst chip (flag for the D2/D3 auditor).",
+   "fix": "\"Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson. Ask what they need first, and your steadying lands as care.\" (43)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-38",
+   "severity": "MINOR",
+   "criterion": "A2, A4",
+   "pages": "P120",
+   "key": "K2 金_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+   "quote": "\"you give the ones who tell you everything nothing of yourself back. Once you hand one of them a worry, the shelter becomes shared.\"",
+   "issue": "The middle sentence has to be parsed twice, and the close's subject is \"the shelter\".",
+   "fix": "\"You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, so the people who tell you everything hear nothing of yours. Hand one of them a worry, and you make the shelter shared.\" (41)"
+  },
+  {
+   "source": "metal",
+   "id": "MT-39",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "across cells (not on one page)",
+   "key": "K2 金_正官 · catalyst.ledger[0]",
+   "quote": "\"Keeps your word\" (Magistrate and Steward); \"Finishes things\" (Steward and Artisan); \"Unteachable\" (\"You lose every lesson that needed you to be wrong\") against \"Talks back\" (\"You win the back-and-forth and leave the lesson behind\")",
+   "issue": "Three Metal chips or drives are shared by two different gods, which blurs which person each persona is. No single page shows both, so the reader impact is low.",
+   "fix": "Pass to the cross-energy D2 auditor. Rename one chip of each pair (e.g. Steward catalyst cost_others \"Holds you to it\"; Steward catalyst drive \"Sees it through\")."
+  },
+  {
+   "source": "metal",
+   "id": "MT-40",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P110 **[golden]**",
+   "key": "K2 金_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+   "quote": "\"Where the bet is biggest you are calmest, and read it as a sign.\"",
+   "issue": "A comma is missing after the fronted clause, the second verb has no subject, and \"it\" has no clear antecedent.",
+   "fix": "\"Where the bet is biggest, you are calmest, and you take that as a sign. Trusting nerve more than math, you bet with the rent before the sums are done. You come out of that calm short on rent and short on sleep.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-41",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P097, P099",
+   "key": "K2 金_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+   "quote": "\"Spread thin, you never learn … Spread thin, you pay in rest never taken and the one venture that would have paid.\"",
+   "issue": "The same opener appears twice in one passage.",
+   "fix": "\"Spread thin, you never learn what you could do whole. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in rest never taken and in the one venture that would have paid.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-42",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P106, P107, P108",
+   "key": "PAIR 土_金 · function.definition_catalyst",
+   "quote": "\"and miss the joy of sharing either\"",
+   "issue": "\"either\" after a pair the reader misses both of is a slip.",
+   "fix": "\"Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. As a catalyst, your work stays inside. You hold a gift back as much as you keep your opinion to yourself, and miss the joy of sharing both.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-43",
+   "severity": "TWEAK",
+   "criterion": "A2 (idiom)",
+   "pages": "P099",
+   "key": "K2 金_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+   "quote": "\"rather than let them go\"",
+   "issue": "\"let them go\" reads as ending the relationship, but the sense is \"give them space\".",
+   "fix": "\"Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than give them room. You leave the person beside you no air when you hold on this tight.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-44",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P115, P117",
+   "key": "PAIR 水_金 · function.advise_friction",
+   "quote": "\"Ship a piece at a draft you would accept from others.\"",
+   "issue": "\"at a draft\" is a broken preposition. (Superseded if MT-33 lands.)",
+   "fix": "\"Seek Fire, the Action energy. Fire melts what has gone hard: a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. You keep testing what already passed, since only finished feels safe. Ship one piece as a draft you would accept from others. Decide one small thing with no second look.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-45",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P113",
+   "key": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"Say the downside first, as you bring the people you like…\"",
+   "issue": "\"as\" is ambiguous between \"while\" and \"because\".",
+   "fix": "\"Sharing a risk with someone is your warmest offer. Wanting them in it more than safe from it, you share the upside and the fall. Say the downside first, because you bring the people you like into risks sized to your nerve.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-46",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P100, P102",
+   "key": "K2 金_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+   "quote": "\"You never get paid by what you keep starting over\"",
+   "issue": "Wrong preposition (\"paid for\"). (Superseded if MT-23 lands.)",
+   "fix": "\"Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. You never get paid for what you keep starting over, and the money waits at the end you skip.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-47",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P113",
+   "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
+   "quote": "\"You compete best with someone to beat and know it.\"",
+   "issue": "The second verb has no subject.",
+   "fix": "\"You compete best with someone to beat, and you know it. Knowing where you stand matters more than comfort, so you compete harder against one rival than for any reward. Pick one contest with a finish line, because yours have no end in sight.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-48",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P101",
+   "key": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+   "quote": "\"Saving first keeps the fear of having nothing away.\"",
+   "issue": "The split phrasal verb makes readers parse it twice.",
+   "fix": "\"Saving first keeps away the fear of having nothing. You put the saving ahead of what it was for, and you move the wanting to later. You pay for saving first with a life kept for later, and you cannot bank the years.\""
+  },
+  {
+   "source": "metal",
+   "id": "MT-49",
+   "severity": "TWEAK",
+   "criterion": "A4",
+   "pages": "P118, P120",
+   "key": "K2 金_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+   "quote": "\"When the door opens earlier, you give them a say in the deciding.\"",
+   "issue": "The door opens itself; the reader should be the one who opens it.",
+   "fix": "\"Your thinking stays private until it is a result for others. Working it out alone comes easier to you than together, and the people near you get only the conclusion. When you open the door earlier, you give them a say in the deciding.\""
   },
   {
    "source": "water",
@@ -1007,7 +1788,7 @@
    "severity": "MAJOR",
    "criterion": "D1, A5, C",
    "pages": "all 15 catalyst pages (P124–126, P130–132, P136–138, P142–144, P148–150)",
-   "key": "K2 水_* · fn_reading.catalyst.ledger[*",
+   "key": "K2 水_* · fn_reading.catalyst.ledger",
    "quote": "\"Ask the slow question anyway, because…\" (水_偏印 cat [1]); \"Let a little of it out somewhere, because…\" (水_正印 cat [0]); \"Get the paper once, because…\"; \"Push sometimes, because…\"; \"If you jump in where stakes are shared…\"; \"If you break the pace for one chance a season…\"; \"When a choice is small, decide it today…\"; \"You can trust the gap…\"",
    "issue": "The catalyst ledger closes on advice, so the keywords do THE ADVICE's job (D1). With the 4 to 5 commands in THE ADVICE below them, a \"Grow it\" page gives the reader 7 to 9 instructions, which reads as preachy, not as a compliment (D12). **Evidence:** 38 of 40 unique catalyst passages close on advice: 14 as \"imperative + because/since\", 10 as \"If/When you X, you Y\", and the rest as levers (\"by -ing\", \"The more… the sooner\", \"costs you less than that\"). Only 水_七杀 cat [1] and 水_偏印 cat [0] close otherwise. Friction closes, by contrast, are flat costs, wants and permissions: 0 of 40 are advice. On P124 the ledger's \"Ask the slow question\" sits directly above the advice's \"Ask one person… and wait for the whole reply\". P150 opens all four closes with \"If you\" (the mechanical check flags it).",
    "fix": "**Rule:** a catalyst passage closes on a closure the reader keeps, never on an instruction. Use the three friction close kinds, recast for the gift pole: (a) the effect, the gift at work (\"You make your best calls on the days others make their worst\"); (b) the want underneath (\"you were never giving to earn your place\"); (c) the cost as a plain fact, on cost_self and cost_others only. Allow at most one lever close per page, written as a fact, not a command. All instructions go to THE ADVICE. Re-cut the 38 passages by cell; W-010 to W-027 show the shape."
@@ -1029,7 +1810,7 @@
    "severity": "MINOR",
    "criterion": "A2, D4",
    "pages": "P131",
-   "key": "K2 水_正官 · fn_reading.catalyst.ledger[2",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"You take a finish of their own from the people you pace to you, and one running ahead takes nothing from you.\"",
    "issue": "Does not parse (\"the people you pace to you\"), and the tacked-on reassurance contradicts the cost.",
    "fix": "\"Pacing yourself paces everyone beside you. Arriving together matters more to you than arriving first, so you hold the fastest back to your speed. You take from them the finish they could have reached on their own.\""
@@ -1040,7 +1821,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P131",
-   "key": "K2 水_正官 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"…and one named strength costs no trust.\"",
    "issue": "A cryptic tail that hides the cost, a symptom of cramming at the 45-word cap.",
    "fix": "\"Slowly earned trust is the only trust you believe. Quick trust feels false, so you prove yourself over a year instead of selling yourself in a day. You lose this week's chances to people who simply say what they can do.\""
@@ -1051,7 +1832,7 @@
    "severity": "MINOR",
    "criterion": "A2, D4",
    "pages": "P130, P132",
-   "key": "K2 水_七杀 · fn_reading.catalyst.ledger[2",
+   "key": "K2 水_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"You took their answer by never asking, and leading with one question costs you less than that.\"",
    "issue": "A tense slip to \"took\", a charge, and a comparison (\"less than that\") with no clear anchor.",
    "fix": "\"Arranging beats asking whenever you lead. Steering quietly feels cleaner to you than a request someone could refuse, so the people you lead never get to say yes or no. You lose the agreement that one plain question would have won you.\""
@@ -1062,7 +1843,7 @@
    "severity": "MINOR",
    "criterion": "A1, D1",
    "pages": "P130, P132",
-   "key": "K2 水_七杀 · fn_reading.catalyst.ledger[0",
+   "key": "K2 水_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"If you bring that clear head into a calm week, you keep it for the next crisis.\"",
    "issue": "The logic does not follow: how does a calm week keep clarity for a crisis? It is also advice on a drive that should land as a compliment.",
    "fix": "\"You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. You make your best calls on the days others make their worst.\""
@@ -1073,7 +1854,7 @@
    "severity": "MINOR",
    "criterion": "C, D1",
    "pages": "P131",
-   "key": "K2 水_正官 · fn_reading.catalyst.ledger[0",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"…so you finish the version you announced. You come out ahead by letting a better version in, rather than finishing a worse one you announced.\"",
    "issue": "\"Announced\" and \"version\" are each said twice. The catalyst drive ends as a lever on a cost, not as the gift.",
    "fix": "\"You follow through long after the mood that said yes has gone. Keeping your word matters more to you than improving the plan, so you finish the version you promised. You are the person whose yes still holds a month later.\""
@@ -1084,7 +1865,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P132",
-   "key": "K2 水_正官 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[1].angles.drive",
    "quote": "\"The more warmth you let go first, the sooner slow trust has a place to start.\"",
    "issue": "\"Let go\" reads as \"give up\" before it reads as \"offer\", so the sentence takes a second read.",
    "fix": "\"You earn trust slowly and prefer it that way. Being counted on matters more to you than being liked, so you build trust by record instead of charm. You earn the kind of trust that is still there in ten years.\""
@@ -1095,7 +1876,7 @@
    "severity": "MINOR",
    "criterion": "A2, A3, D2",
    "pages": "P121",
-   "key": "K2 水_偏印 · fn_reading.friction.ledger[2",
+   "key": "K2 水_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"Hard to reach means a thought is unfinished, and most of yours are… you charge the person waiting in days.\"",
    "issue": "The opener does not parse as a definition. \"Charge… in days\" is a strained idiom. It repeats \"Keeps it in\" (holding a thing back until finished). The chip \"Hard to reach\" is also 水_比肩's friction drive chip, with a different meaning (D2).",
    "fix": "\"You go quiet while a thought is still unfinished, and most of yours are. Finishing the thought comes ahead of answering the message, so the person waiting hears nothing for days. You leave them with less of you than they came for.\" Rename the chip to **\"Slow to answer\"**."
@@ -1106,7 +1887,7 @@
    "severity": "MINOR",
    "criterion": "A2, D1",
    "pages": "P125",
-   "key": "K2 水_正印 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"Get the paper once, because the chances asking for it close without you.\"",
    "issue": "\"Get the paper\" is slang for money to many readers, and the close is an instruction.",
    "fix": "\"Soaking it up is how learning stays with you. Sitting with a subject until it is yours comes easier than proving it on paper, so the proof is the part you skip. You lose the chances that ask for the certificate you never got.\""
@@ -1117,7 +1898,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2",
    "pages": "P142",
-   "key": "K2 水_食神 · fn_reading.catalyst.ledger[2",
+   "key": "K2 水_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Whenever you keep a child warm rather than tell them straight what you saw…\"",
    "issue": "Assumes the reader has a child, which the reading cannot know for a reader of 18 to 35. \"Keep a child warm\" reads literally (blankets).",
    "fix": "\"Anything hard that has to reach someone, you warm first. Softening the news feels kinder to you than saying it straight, so the plain version stays behind the comfort. You leave the people you love unsure of what you really saw.\""
@@ -1139,7 +1920,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P144",
-   "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1].angles.drive",
    "quote": "\"Needing it in pieces first, you make your own version rather than follow the rule. Let originality count as talent, because it was never a fight.\"",
    "issue": "\"Needing it in pieces first\" does not parse. \"It was never a fight\" has no clear referent.",
    "fix": "\"Only an original version of a thing feels done to you. You take the rule apart before you use it, so you end up with your own way. You were never fighting the rule, only making it yours.\""
@@ -1150,7 +1931,7 @@
    "severity": "MINOR",
    "criterion": "A2, D1",
    "pages": "P143",
-   "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"Count the originals that landed, with the rest paid for in hours you never owed.\"",
    "issue": "An instruction plus an obscure participle. The cost is not stated plainly.",
    "fix": "\"Nothing feels real to you until you have made it original. You would rather be wrong your own way than right in someone else's, so you redo work that was already finished. You spend hours you never owed on versions nobody asked for.\""
@@ -1161,7 +1942,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P136",
-   "key": "K2 水_偏财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 水_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"…you give home a feast with no steady part. Share some of it across the lean months…\"",
    "issue": "\"Give home a feast with no steady part\" does not read at B1. The close is an instruction.",
    "fix": "\"Whenever luck lands, you share it outward first. You spend it all on one big day instead of spreading it out, so home gets a feast and then a lean month. You give the people at home a party when they needed a steady supply.\""
@@ -1172,7 +1953,7 @@
    "severity": "MINOR",
    "criterion": "A2, D1",
    "pages": "P136, P138",
-   "key": "K2 水_偏财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"If you move on one stretch later than usual, you finally hold the money you keep walking away from.\"",
    "issue": "\"Move on one stretch later\" is unclear, and the close is a conditional lever.",
    "fix": "\"Your strongest moment is the start, and the start is also your exit. Moving early feels like freedom, so you leave before the collecting begins. You walk away from money you had already earned the right to take.\""
@@ -1183,7 +1964,7 @@
    "severity": "MINOR",
    "criterion": "A2, C",
    "pages": "P148, P150",
-   "key": "K2 水_比肩 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"If you break the pace for one chance a season, you lose fewer quick chances to your own even pace.\"",
    "issue": "Clumsy: \"pace\" ×3 and \"chance\" ×2 in one sentence, and a conditional close.",
    "fix": "\"Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. You lose the quick chances that only a burst could have caught.\""
@@ -1194,7 +1975,7 @@
    "severity": "MINOR",
    "criterion": "D4",
    "pages": "P150",
-   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[0",
+   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
    "quote": "\"…and they run a race they never chose.\"",
    "issue": "The victim image BIZ_04 cut from the friction cell (\"a race they never chose to run\") survives here.",
    "fix": "\"Every race you love needs someone else in it. You make a rival of a peer before you ask them, so they are running before they know it. You get a better race when the other person knows it has started.\""
@@ -1205,7 +1986,7 @@
    "severity": "MINOR",
    "criterion": "A2, D4",
    "pages": "P149",
-   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"…a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it.\"",
    "issue": "\"Never signed for\" is the same victim shape. \"Past the risk… before it\" has no clear referent.",
    "fix": "\"All in together means you take someone with you every time. You put the shared stake on the table before asking whose it was, so a partner ends up carrying part of your loss. You keep partners longer when shares are agreed before the risk.\""
@@ -1216,7 +1997,7 @@
    "severity": "MINOR",
    "criterion": "A1",
    "pages": "P150",
-   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
    "quote": "\"If you jump in where stakes are shared, you pay half of the first mistake.\"",
    "issue": "Ambiguous: it reads as advice to share risk, which P149 counts as a cost to partners.",
    "fix": "\"Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. You learn more from one early mistake than others learn from a month of plans.\""
@@ -1227,7 +2008,7 @@
    "severity": "MINOR",
    "criterion": "A3, C",
    "pages": "P139",
-   "key": "K2 水_食神 · fn_reading.friction.ledger[2",
+   "key": "K2 水_食神 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"…you leave them less than was theirs. You give away to everyone the hours meant for the few.\"",
    "issue": "The third sentence restates the second. \"Give\" ×4. \"Less than was theirs\" leans toward a charge.",
    "fix": "\"You give your hours to whoever is nearest, without deciding. Saying yes to everyone is easier than choosing, so the few counting on you get what is left. You give away the hours that were meant for them.\""
@@ -1238,7 +2019,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P140",
-   "key": "K2 水_伤官 · fn_reading.friction.ledger[2",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"…you pick fights as your kind of honesty, audience included.\"",
    "issue": "\"Audience included\" dangles, and the sentence has to be read twice.",
    "fix": "\"With whoever is in charge, you pick fights and call it honesty. Because you argue in public instead of in private, the one above you loses face in front of others. You leave them no quiet way to answer you.\""
@@ -1249,7 +2030,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2",
    "pages": "P141",
-   "key": "K2 水_伤官 · fn_reading.friction.ledger[0",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[0].angles.cost_others",
    "quote": "\"Sharing openly rather than asking what someone wants to hear, you take away their choice of how much to hold.\"",
    "issue": "It frames the alternative as people-pleasing (\"what someone wants to hear\"). \"How much to hold\" is unclear.",
    "fix": "\"To stay honest with people, you share everything you think. You say it all before asking how much they want, so they get no choice in what they carry. You spend their attention on more of your thinking than they asked for.\""
@@ -1260,7 +2041,7 @@
    "severity": "MINOR",
    "criterion": "D4, C",
    "pages": "P141",
-   "key": "K2 水_伤官 · fn_reading.friction.ledger[1",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"Never forget that you mean the fondness more than the mocking lets on.\"",
    "issue": "P141 closes two of four passages on a reminder phrase (also \"Remember that what you were after all along was rest\"), over the BIZ_04 budget of one per five shown. The want carries without the wrapper.",
    "fix": "\"Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. You mean the fondness far more than the mocking lets on.\""
@@ -1271,7 +2052,7 @@
    "severity": "MINOR",
    "criterion": "C, D4",
    "pages": "P128",
-   "key": "K2 水_正官 · fn_reading.friction.ledger[1",
+   "key": "K2 水_正官 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"…keep your rank than claim the next one. You lose the rank above yours… and the waiting was your choice.\"",
    "issue": "\"Rank\" ×4 on the page (×2 here). \"The waiting was your choice\" reads as a charge.",
    "fix": "\"Waiting for permission keeps you in line. Permission given feels cleaner to you than permission taken, so you keep your place instead of claiming the next one. You watch the step above yours go to whoever stopped waiting first.\""
@@ -1282,7 +2063,7 @@
    "severity": "MINOR",
    "criterion": "A3, D4",
    "pages": "P145, P147",
-   "key": "K2 水_比肩 · fn_reading.friction.ledger[1",
+   "key": "K2 水_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"The Water in you runs deeper than anyone sees…\"",
    "issue": "Fifth statement of \"more in you than shows\" on P145 (the definition ×2, the drive, this passage, the remedy). It also replaces the reader's own need with a quantity of Water.",
    "fix": "\"Managing without asking is what you do best. Asking feels like owing, so you do it alone even when company would make it lighter. You miss out on the rest that help would have given you.\""
@@ -1293,7 +2074,7 @@
    "severity": "MINOR",
    "criterion": "A1",
    "pages": "P122",
-   "key": "K2 水_正印 · fn_reading.friction.ledger[1",
+   "key": "K2 水_正印 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"Not being ready feels more honest than being ready…\"",
    "issue": "The cause does not hold: why would unready feel more honest?",
    "fix": "\"Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, so you stay long past the day leaving was open to you. You are allowed to be tested and come home again.\""
@@ -1304,7 +2085,7 @@
    "severity": "MINOR",
    "criterion": "A1, D4",
    "pages": "P147",
-   "key": "K2 水_劫财 · fn_reading.friction.ledger[1",
+   "key": "K2 水_劫财 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"Shared money feels like courage… and slowing it is yours to do.\"",
    "issue": "The cause is odd. The close slides toward a capacity close or a charge.",
    "fix": "\"Spending shared money comes easier to you than spending your own. Nobody's name is on it, so you dip into it ahead of asking who put what in. You run the pool down faster than anyone agreed to.\""
@@ -1348,7 +2129,7 @@
    "severity": "TWEAK",
    "criterion": "D4",
    "pages": "P126",
-   "key": "K2 水_正印 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_正印 · fn_reading.catalyst.ledger[1].angles.drive",
    "quote": "\"You can trust the gap…\"",
    "issue": "A \"you can\" close, which the house rules ban.",
    "fix": "\"You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You are right to trust the gap, since proof turns up later than understanding.\""
@@ -1359,7 +2140,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P137",
-   "key": "K2 水_正财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 水_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"…and it keeps you late.\"",
    "issue": "Wrong idiom: \"keeps you late\" means \"keeps you after hours\"; the meaning is \"makes you late\".",
    "fix": "\"Sleeping on a choice keeps your money safe, and it makes you late. You wait a night ahead of saying yes, since being wrong costs more. Answer the choices you already know the same day, before sleeping on them costs you the better price.\""
@@ -1370,7 +2151,7 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P132",
-   "key": "K2 水_正官 · fn_reading.catalyst.ledger[0",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
    "quote": "\"a course never rechecked… a plan never rechecked\"",
    "issue": "\"Never rechecked\" is repeated inside one passage.",
    "fix": "\"Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since a plan nobody checks again costs them the better one.\""
@@ -1392,7 +2173,7 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P127, P129",
-   "key": "K2 水_七杀 · fn_reading.friction.ledger[1",
+   "key": "K2 水_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"in rest never taken\"",
    "issue": "Echoes the definition's \"tests never taken\" on the same page.",
    "fix": "\"Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest you skip, because nothing you make gets to count.\""
@@ -1403,7 +2184,7 @@
    "severity": "TWEAK",
    "criterion": "C",
    "pages": "P123",
-   "key": "K2 水_正印 · fn_reading.friction.ledger[1",
+   "key": "K2 水_正印 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"long after outgrowing it\"",
    "issue": "Repeats \"long after\" from \"Thinks too much\" on the same page.",
    "fix": "\"You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you.\""
@@ -1414,7 +2195,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P139, P141",
-   "key": "K2 水_食神 · fn_reading.friction.ledger[0",
+   "key": "K2 水_食神 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"Drifting along is easier than steering, and mostly you do.\"",
    "issue": "The ellipsis is ambiguous: \"you do\" can be read as \"you steer\".",
    "fix": "\"Drifting is easier than steering, and most days you choose it. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go.\""
@@ -1425,7 +2206,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P140",
-   "key": "K2 水_伤官 · fn_reading.friction.ledger[0",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"…ahead of asking whether it is yours.\"",
    "issue": "\"Whether it is yours\" does not parse in context; the sense is \"whether it is ready\".",
    "fix": "\"What you think is already out loud, and the editing happens after. You have more Water than time to settle it, so you share the thought ahead of asking whether it is ready. You give away ideas before you have finished thinking them.\""
@@ -1436,7 +2217,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P134",
-   "key": "K2 水_正财 · fn_reading.friction.ledger[1",
+   "key": "K2 水_正财 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"Being caught short is the thing counting every cost protects you from.\"",
    "issue": "An inverted opener that has to be read twice.",
    "fix": "\"Counting every cost protects you from being caught short. You would rather know what a kindness costs than take it, and you count the free ones too. You miss the closeness that comes from simply letting someone give.\""
@@ -1447,7 +2228,7 @@
    "severity": "TWEAK",
    "criterion": "A4",
    "pages": "P128",
-   "key": "K2 水_正官 · fn_reading.friction.ledger[2",
+   "key": "K2 水_正官 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"Your tongue gets bitten hardest around the people who need your answer.\"",
    "issue": "Passive, so the reader is not the actor in the opener.",
    "fix": "\"You bite your tongue hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you.\""
@@ -1491,7 +2272,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P001",
-   "key": "K2 木_比肩 · fn_reading.friction.ledger[2",
+   "key": "K2 木_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"You cost them, with that distance, a friend they could have reached.\"",
    "issue": "The phrase inserted mid-sentence makes the close read twice; moving it to the front fixes the order.",
    "fix": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and that gives your friends no way in. With that distance, you cost them a friend they could have reached."
@@ -1502,7 +2283,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P003",
-   "key": "K2 木_劫财 · fn_reading.friction.ledger[1",
+   "key": "K2 木_劫财 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"You race the next instead of keeping the win\"",
    "issue": "\"the next\" lacks its noun (\"one\"); one word is cut from the opener to keep the cap.",
    "fix": "Finished, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next one instead of keeping the win, and the win was the point."
@@ -1513,7 +2294,7 @@
    "severity": "TWEAK",
    "criterion": "D4 (house limit)",
    "pages": "P006",
-   "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
    "quote": "\"and you can let one end without losing anything\"",
    "issue": "A \"you can\" close, which the house limits forbid.",
    "fix": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, so letting one end costs you nothing."
@@ -1546,7 +2327,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P009",
-   "key": "K2 木_正印 · fn_reading.friction.ledger[1",
+   "key": "K2 木_正印 · fn_reading.friction.ledger[1].angles.drive",
    "quote": "\"the people you have grown close tighter than they need\"",
    "issue": "\"grown close\" is missing \"to\".",
    "fix": "You hold the people you have grown close to tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out."
@@ -1557,7 +2338,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P012",
-   "key": "K2 木_正印 · fn_reading.catalyst.ledger[0",
+   "key": "K2 木_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
    "quote": "\"you hand people answers they enjoyed finding\"",
    "issue": "Wrong tense: they never found them, because you handed them over.",
    "fix": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find. Let them ask sometimes, because you land a lesson better when it was wanted."
@@ -1568,7 +2349,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P014",
-   "key": "K2 木_正官 · fn_reading.friction.ledger[2",
+   "key": "K2 木_正官 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"Because order feels safer than equals\"",
    "issue": "The sentence compares an arrangement with people; the two sides need to match.",
    "fix": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
@@ -1579,7 +2360,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P015",
-   "key": "K2 木_正官 · fn_reading.friction.ledger[0",
+   "key": "K2 木_正官 · fn_reading.friction.ledger[0].angles.cost_others",
    "quote": "\"you reach for the book as much as for a form\"",
    "issue": "Does not parse: the intended sense is \"as you would for a form\".",
    "fix": "Faced with a person, you reach for the book as you would for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
@@ -1601,7 +2382,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P016, P018",
-   "key": "K2 木_七杀 · fn_reading.catalyst.ledger[0",
+   "key": "K2 木_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"Pressure gives the strength you store a direction\"",
    "issue": "The double object makes the reader parse twice.",
    "fix": "Your head is clearest when something presses on you. Pressure gives your stored strength a direction, so you look for a hard deadline rather than a quiet week. Keep choosing the pressure, and let a calm week count as rest instead of loss."
@@ -1623,7 +2404,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P017",
-   "key": "K2 木_正官 · fn_reading.catalyst.ledger[2",
+   "key": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"For everyone, you hold the line\" · \"Weigh what a rule costs someone, to hold the line only where it helps.\"",
    "issue": "The fronted \"For everyone\" reads oddly, and the purpose \"to\" clause does not follow from \"Weigh\".",
    "fix": "You hold the line for everyone, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, and hold the line only where it helps."
@@ -1645,7 +2426,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P023",
-   "key": "K2 木_正财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"and hand the person you keep your presence ahead of your feelings\"",
    "issue": "\"the person you keep\" does not read as \"your partner\"; the clause also drops its subject.",
    "fix": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence ahead of your feelings. Say it once in plain words, because unspoken loyalty leaves them guessing."
@@ -1656,7 +2437,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P024",
-   "key": "K2 木_正财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.drive",
    "quote": "\"Saving comes before spending for you, and you never decide it.\"",
    "issue": "\"you never decide it\" reads as a refusal; the sense is that it happens without a decision.",
    "fix": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save ahead of wanting. Spend a small part of what you save on yourself, because a cushion is also for sitting on."
@@ -1667,7 +2448,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P028, P030",
-   "key": "K2 木_食神 · fn_reading.catalyst.ledger[0",
+   "key": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"Giving comes before being asked, for you.\"",
    "issue": "The trailing \", for you\" is an afterthought; it belongs at the front.",
    "fix": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it."
@@ -1678,7 +2459,7 @@
    "severity": "TWEAK",
    "criterion": "A2",
    "pages": "P029",
-   "key": "K2 木_伤官 · fn_reading.catalyst.ledger[0",
+   "key": "K2 木_伤官 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"Holding a true thing in feels worse to you, so you speak\"",
    "issue": "An unfinished comparison: worse than what?",
    "fix": "You speak up where silence would be easier. Holding a true thing in feels worse to you than saying it, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself."
@@ -1777,7 +2558,7 @@
    "severity": "MINOR",
    "criterion": "A2, A3",
    "pages": "P001, P003",
-   "key": "K2 木_比肩 · fn_reading.friction.ledger[0",
+   "key": "K2 木_比肩 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load.\"",
    "issue": "\"hold more of yourself than one load needs\" is abstract, and \"owe … a piece\" is said twice in two sentences.",
    "fix": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, so you carry the whole load instead of sharing it. You are allowed to owe someone a piece of the load."
@@ -1788,7 +2569,7 @@
    "severity": "MINOR",
    "criterion": "D3, A3",
    "pages": "P004, P006",
-   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[0",
+   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"Owing nobody feels safer to you, so you do the whole thing yourself sooner than hand off a piece.\"",
    "issue": "This repeats the friction pole's \"Asks no one\" (the same act, the same cause, the same \"piece\"), so the two poles do not differ in direction; it also closes on advice (W-001).",
    "fix": "Doing it alone is where your strength shows. You trust your own hands before anyone's plan, so you finish what others are still waiting on. You keep that strength with company beside you too."
@@ -1799,7 +2580,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P004, P006",
-   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"Where a sprint would get you in\" · \"since borrowed tempo is never yours\"",
    "issue": "\"get you in\" is unclear, \"tempo\" is above B2, and the reason goes round in a circle.",
    "fix": "When a sprint would get you there, you keep your own pace instead. Being late on your terms sits better with you than being rushed on someone else's. You lose the chances that needed a sprint, and you chose that trade."
@@ -1810,7 +2591,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P004",
-   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[2",
+   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"you hand them the easier you, and consistency is none the poorer\"",
    "issue": "\"none the poorer\" is a C1 idiom, and \"the easier you\" is vague; the cost to friends never lands.",
    "fix": "Holding yourself to one standard means holding friends to it. Staying the same matters more to you than meeting anyone halfway, so an off day gets no slack. You give your friends the same you every day, and none of the softness they need."
@@ -1821,7 +2602,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P005",
-   "key": "K2 木_劫财 · fn_reading.catalyst.ledger[0",
+   "key": "K2 木_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
    "quote": "\"You pay for going first in landings taken alone, and asking one person along changes that.\"",
    "issue": "\"landings taken alone\" is a figure the reader has to decode, and the tail is advice.",
    "fix": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. You get every opening first, and you land alone more often than you need to."
@@ -1832,7 +2613,7 @@
    "severity": "MINOR",
    "criterion": "A3, D4",
    "pages": "P003",
-   "key": "K2 木_劫财 · fn_reading.friction.ledger[0",
+   "key": "K2 木_劫财 · fn_reading.friction.ledger[0].angles.cost_others",
    "quote": "\"You risk their savings along with your own whenever you bet too big.\"",
    "issue": "The close restates the chip and sentence 2, in the \"along with your own\" formula (pattern 6).",
    "fix": "Your biggest bets land on other people too. Going big matters more to you than going safe, so the shared money rides at your size of risk. You set the size of a risk that the people who pooled with you have to carry."
@@ -1843,7 +2624,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P007, P009",
-   "key": "K2 木_偏印 · fn_reading.friction.ledger[0",
+   "key": "K2 木_偏印 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"You never reach the decision in the middle of a circle, and it never closes alone.\"",
    "issue": "It is unclear what \"it\" is (the circle? the decision?), and \"never … never\" blurs the cost.",
    "fix": "Thinking a question through means walking all the way around it first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You circle a question for weeks that a single choice would have closed."
@@ -1854,7 +2635,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P010, P012",
-   "key": "K2 木_偏印 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"you spend years on what a teacher would hand you in a day. You pay in years for what one shown shortcut would give back.\"",
    "issue": "The close says sentence 2 again, in harder words (\"one shown shortcut\").",
    "fix": "Being self-taught makes the knowing yours. The long way feels more honest than the short, so you spend years on what a teacher would hand you in a day. You own every answer you have, and each cost you more time than it needed."
@@ -1865,7 +2646,7 @@
    "severity": "MINOR",
    "criterion": "A3, A2",
    "pages": "P011",
-   "key": "K2 木_正印 · fn_reading.catalyst.ledger[2",
+   "key": "K2 木_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Holding back feels more like respect than a nudge, so their nudge never comes. You hold back the push that would have moved them, and it is yours to give.\"",
    "issue": "Push and nudge are said three times, and the tail \"it is yours to give\" is unclear.",
    "fix": "When someone close to you grows slowly, you give them time instead of a push. Pushing feels to you like a lack of respect, so the nudge never comes. You hold back the one push that would have moved them."
@@ -1876,7 +2657,7 @@
    "severity": "MINOR",
    "criterion": "A3",
    "pages": "P014",
-   "key": "K2 木_正官 · fn_reading.friction.ledger[1",
+   "key": "K2 木_正官 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"You lose every chance that arrives as a change, and you lose it by refusing to bend.\"",
    "issue": "The second clause restates the first and the chip.",
    "fix": "Never bending keeps you honest and keeps you tired. Since a new plan feels like being pushed, you hold your shape instead of saving your strength. You turn down every chance that arrives dressed as a change."
@@ -1887,7 +2668,7 @@
    "severity": "MINOR",
    "criterion": "A3, C",
    "pages": "P019, P021",
-   "key": "K2 木_偏财 · fn_reading.friction.ledger[1",
+   "key": "K2 木_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
    "quote": "\"you spread yourself over them, tired at each one. Spread this thin, you never get a full rest and start each day already tired.\"",
    "issue": "spread×4 and tired×2 in 43 words; the close restates sentence 2.",
    "fix": "You are spread over more things than your body can keep up with. Letting one go feels like losing, so you keep them all and arrive at each one tired. You never get a full rest, and you start each day already behind."
@@ -1898,7 +2679,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P019",
-   "key": "K2 木_偏财 · fn_reading.friction.ledger[2",
+   "key": "K2 木_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"You spend their quiet months as well as your own.\"",
    "issue": "The reader cannot tell what \"their quiet months\" are; the cost to others does not land.",
    "fix": "Spending on the people near you comes before your own next month. Helping them out feels better than keeping, so you cover their short weeks instead of a shared cushion. You spend the savings that would have carried you both through a lean month."
@@ -1909,7 +2690,7 @@
    "severity": "MINOR",
    "criterion": "A1",
    "pages": "P020",
-   "key": "K2 木_正财 · fn_reading.friction.ledger[0",
+   "key": "K2 木_正财 · fn_reading.friction.ledger[0].angles.drive",
    "quote": "\"so you stay rather than learn what leaving costs\"",
    "issue": "The logic is turned around: the reader stays because they fear what leaving costs, not to avoid learning it.",
    "fix": "Leaving comes hard to you, so you stay where the giving back stopped. With more Wood than strength for it, you put more in rather than face leaving. You keep paying in effort every month to a place that returns none of it."
@@ -1920,7 +2701,7 @@
    "severity": "MINOR",
    "criterion": "A1, A2",
    "pages": "P022, P024",
-   "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"you take the quick start ahead of the rest you are owed … every quick start costs you the rest you never get\"",
    "issue": "\"rest\" can be read as remainder or as sleep, and the real cost of quick starts (the unfinished middle) is named only in the instruction.",
    "fix": "Whenever something new opens, you start before asking what it needs. Starting feels like freedom, so the slow middle of each thing gets less of you than the first day did. You pay for every quick start with the finishes you never reach."
@@ -1931,7 +2712,7 @@
    "severity": "MINOR",
    "criterion": "C, A3",
    "pages": "P022",
-   "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2",
+   "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"you are generous … being generous … Let them be generous sometimes, since your giving takes their chance to be generous.\"",
    "issue": "generous×4 in 44 words.",
    "fix": "When the people close to you run short, you give before being asked. Being the giver keeps you freer than being owed, so you give rather than build anything shared. You keep the giving one-way, and the people you help never get to give back."
@@ -1942,7 +2723,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P023",
-   "key": "K2 木_正财 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"saving first costs you the today you never have\"",
    "issue": "\"the today you never have\" does not read at B1.",
    "fix": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures. You put off today's small joys for a tomorrow that keeps moving."
@@ -1953,7 +2734,7 @@
    "severity": "MINOR",
    "criterion": "A2",
    "pages": "P028, P030",
-   "key": "K2 木_食神 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_食神 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"Stay beside a finished thing until praise comes, since the credit you never collect is the cost.\"",
    "issue": "\"is the cost\" is bolted on, and the instruction carries the meaning.",
    "fix": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you start something new the day the last one is done. You leave each finished thing before anyone thanks you for it, and the credit goes uncollected."
@@ -1964,7 +2745,7 @@
    "severity": "MINOR",
    "criterion": "A1",
    "pages": "P028",
-   "key": "K2 木_食神 · fn_reading.catalyst.ledger[2",
+   "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
    "quote": "\"Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself.\"",
    "issue": "The reason argues against its own instruction (patience is why you should push?); the passage assumes a child (child×2, \"itself\").",
    "fix": "With people who look to you, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a younger friend or a student set their own pace. You give them ease, and sometimes they needed the push you held back."
@@ -1975,7 +2756,7 @@
    "severity": "MINOR",
    "criterion": "A2, D1",
    "pages": "P029",
-   "key": "K2 木_伤官 · fn_reading.catalyst.ledger[1",
+   "key": "K2 木_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
    "quote": "\"Finish one plan unchanged, because that keeps the chances only a plain version wins.\"",
    "issue": "The close does not parse, and it is advice (W-001).",
    "fix": "Off script is how you stay interested. Sticking to a plan switches your talent off, so you change it halfway rather than see it through. You lose the results that only come to a plan carried out as written."
@@ -1986,7 +2767,7 @@
    "severity": "MINOR",
    "criterion": "A1",
    "pages": "P025",
-   "key": "K2 木_食神 · fn_reading.friction.ledger[2",
+   "key": "K2 木_食神 · fn_reading.friction.ledger[2].angles.cost_others",
    "quote": "\"You would rather see a child happy now than stretched\"",
    "issue": "A claim the reading cannot know: an 18 to 35 reader mostly has no child, and the line excludes them.",
    "fix": "You put comfort first for the people in your care too. You would rather see them happy now than stretched, so you pick pleasant hours over useful ones. You trade the effort they would grow on for an hour of ease."
@@ -3052,6 +3833,516 @@
     "3",
     "2",
     "The same Horizon contradiction (\"Sees chances early\" under \"the start comes late\")."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P091",
+   "B": 4,
+   "row": [
+    "P091 Wood · fr · General",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The voice is strong, but \"judge\" is the idea of the definition, the drive close and the remedy (×4 on the page)."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P092",
+   "B": 4,
+   "row": [
+    "P092 Wood · fr · Magistrate",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"You hold the yes you keep waiting for\" carries the page. \"Being wrong\" appears three times in one passage."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P093",
+   "B": 4,
+   "row": [
+    "P093 Wood · fr · blend",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "2",
+    "3",
+    "\"answer\" ×6, and \"A mistake marks your name in your eyes\" does not parse."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P094",
+   "B": 3,
+   "row": [
+    "P094 Wood · cat · General",
+    "2",
+    "4",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The advice says \"Take charge … without being asked\". The drive close says \"Let someone else take charge\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P095",
+   "B": 3,
+   "row": [
+    "P095 Wood · cat · Magistrate",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The definition says \"the standard comes too seldom … leave most things unfinished\" above \"Properly is the one speed you own\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P096",
+   "B": 3,
+   "row": [
+    "P096 Wood · cat · blend",
+    "2",
+    "4",
+    "3",
+    "5",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Both contradictions of P094 and P095 sit on one page, with hold ×6 and take ×5."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P097",
+   "B": 4,
+   "row": [
+    "P097 Fire · fr · Horizon",
+    "4",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The page is accurate, but all three closes are losses and \"Spread thin,\" opens two sentences."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P098",
+   "B": 4,
+   "row": [
+    "P098 Fire · fr · Steward",
+    "2",
+    "4",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The definition and remedy describe The Horizon (\"start a new venture\", \"say yes to more\") above a reader who holds on and plays it safe."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P099",
+   "B": 4,
+   "row": [
+    "P099 Fire · fr · blend",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "2",
+    "3",
+    "\"rather than\" ×5. Four loss closes. \"rather than let them go\" reads as a break-up."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P100",
+   "B": 4,
+   "row": [
+    "P100 Fire · cat · Horizon",
+    "4",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The page is coherent. \"spend your patience on a fresh start than a middle\" has to be read twice."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P101",
+   "B": 3,
+   "row": [
+    "P101 Fire · cat · Steward",
+    "2",
+    "3",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "The definition says you chase rather than finish, above \"Finishing things settles you\". The advice says save, above \"Saves first\" as a cost."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P102",
+   "B": 3,
+   "row": [
+    "P102 Fire · cat · blend",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "2",
+    "It carries the same contradictions as P101. It is the longest page in the set (333 words), and \"one sum spent uncounted buys one back\" does not parse."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P103",
+   "B": 4,
+   "row": [
+    "P103 Earth · fr · Artisan",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The same persona is \"Hard to please\" (right in every detail) and \"Takes it easy\" (good enough as the ceiling)."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P104",
+   "B": 5,
+   "row": [
+    "P104 Earth · fr · Virtuoso",
+    "5",
+    "5",
+    "4",
+    "5",
+    "5",
+    "5",
+    "4",
+    "5",
+    "This is the best page in the set. Three specific acts, a want close, and \"you grade them before you greet them\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P105",
+   "B": 4,
+   "row": [
+    "P105 Earth · fr · blend",
+    "4",
+    "3",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The page is strong. \"skip the soft words rather than soften the point\" reverses its own logic."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P106",
+   "B": 3,
+   "row": [
+    "P106 Earth · cat · Artisan",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The advice \"Show a child … how you do something well\" sits under \"You teach a child by doing the whole thing yourself\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P107",
+   "B": 4,
+   "row": [
+    "P107 Earth · cat · Virtuoso",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "The definition says \"keep your opinion to yourself\" above \"Saying it straight is the only way you know\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P108",
+   "B": 4,
+   "row": [
+    "P108 Earth · cat · blend",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "It has the same contradiction as P107. \"Whenever something is wrong, you say so\" sits under \"your work stays inside\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P109",
+   "B": 4,
+   "row": [
+    "P109 Metal · fr · Twin **[golden]**",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The closes are strong. The definition's \"your will sits unused\" clashes with \"every fight\". The cause is \"Metal to spare\". The remedy repeats \"being right\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P110",
+   "B": 4,
+   "row": [
+    "P110 Metal · fr · Rival **[golden]**",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"Keeps score\" is a good page lead. \"Bets the rent\" lacks a comma and has an unclear \"it\", and \"Hates to lose\" is loose."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P111",
+   "B": 4,
+   "row": [
+    "P111 Metal · fr · blend **[golden]**",
+    "3",
+    "2",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The \"Bets the rent\" drive does not parse (\"sized to the thrill ahead of the margin … caution borrowed\")."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P112",
+   "B": 4,
+   "row": [
+    "P112 Metal · cat · Twin",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "2",
+    "3",
+    "\"rather than\" ×6. The \"Self-made\" close repeats the advice. The definition's \"strength gives out, so you manage alone\" is a non sequitur."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P113",
+   "B": 3,
+   "row": [
+    "P113 Metal · cat · Rival",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "Five joints repeat. \"and know it\" and \"as you bring\" are slips."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P114",
+   "B": 3,
+   "row": [
+    "P114 Metal · cat · blend",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"as you cost a rival the ease of siding with you\" does not parse. friend ×5, keep ×5."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P115",
+   "B": 5,
+   "row": [
+    "P115 Water · fr · Alchemist",
+    "5",
+    "4",
+    "3",
+    "5",
+    "5",
+    "5",
+    "4",
+    "4",
+    "\"now check for comfort\" is Pattern-plus. The test idea is said three times."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P116",
+   "B": 4,
+   "row": [
+    "P116 Water · fr · Sage",
+    "5",
+    "4",
+    "3",
+    "5",
+    "5",
+    "4",
+    "4",
+    "4",
+    "\"taught instead of held\" is excellent. \"Too protective\" says sleep and rest twice."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P117",
+   "B": 4,
+   "row": [
+    "P117 Water · fr · blend",
+    "4",
+    "3",
+    "3",
+    "5",
+    "5",
+    "4",
+    "3",
+    "4",
+    "The page is strong. \"rather than make one of it\" has to be read twice."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P118",
+   "B": 3,
+   "row": [
+    "P118 Water · cat · Alchemist",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "3",
+    "The definition says \"the test gets skipped\" above \"You test everything before you let it in\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P119",
+   "B": 3,
+   "row": [
+    "P119 Water · cat · Sage",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The advice says \"You decide faster than you learn\" above \"Learning it properly takes you longer\"."
+   ]
+  },
+  {
+   "source": "metal",
+   "page": "P120",
+   "B": 3,
+   "row": [
+    "P120 Water · cat · blend",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "It has both contradictions, plus \"give the ones who tell you everything nothing of yourself back\"."
    ]
   },
   {

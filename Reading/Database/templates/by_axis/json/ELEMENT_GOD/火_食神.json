@@ -104,7 +104,7 @@
             "word": "Drifts",
             "angles": {
               "drive": "You drift toward whatever asks the least of you. You treat comfort as the reward you are owed, and you let a day drift rather than steer it. You land where the days carry you instead of where you meant to go.",
-              "cost_self": "Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so you put off the thing you meant to make again. You lose the one thing you most wanted to make, a day at a time.",
+              "cost_self": "Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so once again you put off the thing you meant to start. You lose the one thing you most wanted to make, a day at a time.",
               "cost_others": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Day after day, you leave them to make the choices for you both."
             }
           },
@@ -449,6 +449,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes ahead of checking the cost. You spend your own rest on every yes and seldom get it back."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "fire:F-11",
+      "replaced": "Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so you put off the thing you meant to make again. You lose the one thing you most wanted to make, a day at a time."
     }
   ]
 }

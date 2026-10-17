@@ -104,7 +104,7 @@
             "word": "Spends for show",
             "angles": {
               "drive": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You were buying a place at the table that was already yours.",
-              "cost_self": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen as generous beats being secure. You trade your own savings for a moment of looking generous.",
+              "cost_self": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You trade your own savings for a moment of looking generous.",
               "cost_others": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no chance to be generous back with you."
             }
           },
@@ -113,7 +113,7 @@
             "angles": {
               "drive": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. As the only one timing this race, you are free to call it done.",
               "cost_self": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. Later you repay every skipped rest, and at a higher price.",
-              "cost_others": "Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you turn a walk into a pace. You keep from them a friend with nothing to prove."
+              "cost_others": "Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove."
             }
           }
         ]
@@ -457,6 +457,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You buy the evening with money you meant for something that lasts."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "fire:F-13",
+      "replaced": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen as generous beats being secure. You trade your own savings for a moment of looking generous."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "fire:F-14",
+      "replaced": "Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you turn a walk into a pace. You keep from them a friend with nothing to prove."
     }
   ]
 }

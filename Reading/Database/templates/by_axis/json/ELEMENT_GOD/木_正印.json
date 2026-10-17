@@ -69,7 +69,7 @@
             "angles": {
               "drive": "What you know is not finished until it is passed on. Since being useful matters more than being ahead, you hand over a lesson the day you learn it. Passing it on costs you the head start, and your knowing comes alive in others.",
               "cost_self": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught. Keep one thing you know for yourself, because what you pass on first never pays you back.",
-              "cost_others": "Whenever you learn something, you pass it on to whoever is nearest. You would rather give the lesson than be asked for it, and you hand people answers they enjoyed finding. Let them ask sometimes, because you land a lesson better when it was wanted."
+              "cost_others": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find. Let them ask sometimes, because you land a lesson better when it was wanted."
             }
           },
           {
@@ -103,7 +103,7 @@
           {
             "word": "Holds too tight",
             "angles": {
-              "drive": "You hold the people you have grown close tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out.",
+              "drive": "You hold the people you have grown close to tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out.",
               "cost_self": "Holding too tight keeps what you grew from leaving. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You lose the friends you never made to the grip, and the loss is quiet enough to miss.",
               "cost_others": "With anyone you helped grow, you hold on past the moment they are ready. Being needed feels like love, and you keep them close rather than wave them off. By holding on, you take from each of them a leaving without guilt."
             }
@@ -433,6 +433,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "When those close to you want to move, you stay put and stall. Keeping things as they are feels safer than change, and you hold the family in place. You keep them a year past their leaving, and the year is their price."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-009",
+      "replaced": "You hold the people you have grown close tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-010",
+      "replaced": "Whenever you learn something, you pass it on to whoever is nearest. You would rather give the lesson than be asked for it, and you hand people answers they enjoyed finding. Let them ask sometimes, because you land a lesson better when it was wanted."
     }
   ]
 }

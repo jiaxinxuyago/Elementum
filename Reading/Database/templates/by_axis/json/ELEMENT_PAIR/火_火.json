@@ -22,8 +22,8 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of rest. You pay for each bright day with lost rest.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, it spills into contests, so you would sooner be right alone than level with a peer or double a stake than share it. You win most days and pay in company.",
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone without asking a peer or bet bold instead of resting. You pay for each bright day with a tired one.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, it spills into contests, so you would sooner be right alone than equal to a peer or double a stake than share it. You win most days and pay in company.",
       "advise_catalyst": "You treat rest as a loss and company as a crutch. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day.",
       "advise_friction": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You mistake being unstoppable for being well. Hand one project to a deadline someone else set. Ask the person above you which fire to put out first."
     },
@@ -215,6 +215,22 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "fire:F-05",
+      "replaced": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, it spills into contests, so you would sooner be right alone than level with a peer or double a stake than share it. You win most days and pay in company."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "fire:F-06",
+      "replaced": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of rest. You pay for each bright day with lost rest."
     }
   ]
 }

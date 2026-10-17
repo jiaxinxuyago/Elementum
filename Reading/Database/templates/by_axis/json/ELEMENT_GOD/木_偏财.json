@@ -120,7 +120,7 @@
       }
     },
     "edge": {
-      "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that opens before anyone asks, and the trip your friends still weigh while you are already packed.",
+      "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives before anyone asks, and the trip your friends still weigh while you are already packed.",
       "domains": [
         "Wealth",
         "Family",
@@ -721,6 +721,14 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You spread one tired body over all of them."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
+      "finding": "wood:W-017",
+      "replaced": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that opens before anyone asks, and the trip your friends still weigh while you are already packed."
     }
   ]
 }

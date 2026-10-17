@@ -5,7 +5,7 @@
 //   node audit/consolidate.mjs <audit-dir>        reads <audit-dir>/audit/*.md, writes <audit-dir>/findings.json
 import fs from 'node:fs';
 const dir = process.argv[2]; if (!dir) { console.log('usage: node audit/consolidate.mjs <audit-dir>'); process.exit(2); }
-const KEY = /\b(K2|PAIR) ([^\s·|]+) · ([^\]|`]+?)(?=[\]|`]|\s*$|\s{2})/;
+const KEY = /\b(K2|PAIR) ([^\s·|]+) · ([a-z_][\w.]*(?:\[\d+\][\w.]*)*)/;
 const cells = (row) => row.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim());
 const findings = []; const scores = [];
 for (const f of fs.readdirSync(dir + '/audit').filter((x) => x.endsWith('.md'))) {
@@ -24,6 +24,9 @@ for (const f of fs.readdirSync(dir + '/audit').filter((x) => x.endsWith('.md')))
     }
   }
 }
+// A finding cited twice in one report (a summary row like "see 2.2") keeps the row that carries the fix.
+const seen = new Map(); for (const f of findings) { const k = f.source + ' ' + f.id; const o = seen.get(k); if (!o || (f.key && f.fix.length > o.fix.length)) seen.set(k, f); }
+findings.splice(0, findings.length, ...seen.values());
 fs.writeFileSync(dir + '/findings.json', JSON.stringify({ findings, scores }, null, 1));
 const by = (k) => findings.reduce((a, f) => ((a[f[k]] = (a[f[k]] || 0) + 1), a), {});
 console.log(`${findings.length} findings from ${new Set(findings.map((f) => f.source)).size} reports:`, JSON.stringify(by('severity')));
