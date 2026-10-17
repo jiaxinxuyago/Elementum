@@ -338,7 +338,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Fire runs through your wealth, your social life and your career. It is the big ask you make before fear catches up, the quiet party that comes alive when you walk in, and the emergency you head for while others look for their coats. |
+| `lead` | Fire runs through your wealth, your social life and your career. It is the big ask you make before fear catches up, the quiet party that comes alive when you walk in, and the bid you raise because someone else wants the same prize. |
 | `domains` | Wealth · Social · Career |
 | `metric` | competitiveness |
 
@@ -378,7 +378,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the test you pick yourself because that is where you grow. |
+| `lead` | Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the deadline that gets more out of you than you planned to give. |
 | `domains` | Career · Health · Growth |
 | `metric` | leadership |
 

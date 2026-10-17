@@ -106,7 +106,7 @@
             "word": "Waits for permission",
             "angles": {
               "drive": "You wait for permission that is not coming. Being given permission feels safer than taking it, and you wait to be asked up rather than step up unasked. You already hold most of the permission you sit waiting for.",
-              "cost_self": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your rank than claim the next one. You lose the rank above yours to whoever stopped waiting, and the waiting was your choice.",
+              "cost_self": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your place than claim the next one. You watch the step above yours go to whoever stopped waiting first.",
               "cost_others": "Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Each day you hold out for permission, you spend one of theirs as well."
             }
           },
@@ -553,6 +553,14 @@
           "cost_others": "The people who ask you for something wait longer for your yes than for anyone else's. Your yes has to be one you will stand behind, and the question hangs open while you weigh it. Their plans stay on hold until your answer comes."
         }
       }
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "water:W-032",
+      "replaced": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your rank than claim the next one. You lose the rank above yours to whoever stopped waiting, and the waiting was your choice."
     }
   ]
 }

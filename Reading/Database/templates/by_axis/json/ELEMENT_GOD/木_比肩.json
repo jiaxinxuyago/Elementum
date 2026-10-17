@@ -68,7 +68,7 @@
           {
             "word": "Does it alone",
             "angles": {
-              "drive": "Doing it alone comes before any plan you make. Owing nobody feels safer to you, so you do the whole thing yourself sooner than hand off a piece. What you build is yours from the first nail to the last.",
+              "drive": "Doing it alone is where your strength shows. You trust your own hands before anyone's plan, and you finish what others are still waiting on. What you build is yours from the first nail to the last.",
               "cost_self": "Whenever help comes near, you do the thing alone first. Being helped feels like debt, so you would rather do it tired than owe. Your hardest weeks are carried on one pair of shoulders.",
               "cost_others": "Your own two hands are the only ones you count on. Doing it alone matters more than being carried, and that keeps your friends outside every hard week. People who would gladly help seldom get the chance to be needed by you."
             }
@@ -77,7 +77,7 @@
             "word": "Sets own pace",
             "angles": {
               "drive": "Fast or slow around you, you move at your own speed. Being your own clock keeps you steady, since a borrowed pace never feels like yours. Nobody rushes you into a decision you would regret.",
-              "cost_self": "Where a sprint would get you in, you keep your pace instead. You would sooner be late on your terms than rushed on another's, since borrowed tempo is never yours. Some doors shut while you are still walking towards them.",
+              "cost_self": "When a sprint would get you there, you keep your own pace instead. Being late on your terms sits better with you than being rushed on someone else's. Some doors shut while you are still walking towards them.",
               "cost_others": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. Days out with you often split into two groups."
             }
           },
@@ -97,7 +97,7 @@
           {
             "word": "Asks no one",
             "angles": {
-              "drive": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load.",
+              "drive": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it. You are allowed to owe someone a piece of the load.",
               "cost_self": "Your hands are all you trust with hard jobs. Asking feels like admitting a shortfall, and you take the long way alone over the short way with help. You pay for asking no one in rest you skip, and the bill is only yours.",
               "cost_others": "Whenever an offer comes, you have already finished alone. Owing nothing counts for more than being close, and that keeps your nearest people outside every struggle. By asking no one, you leave them no way to be needed by you."
             }
@@ -547,6 +547,30 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You walk into most arguments already sure. More of you shows up than the argument needs, and the extra feels like proof, so you hold your view ahead of hearing theirs. You lose, by being right every time, the chance to be told something new."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "wood:W-030",
+      "replaced": "Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "wood:W-031+sweep:sooner-than",
+      "replaced": "Doing it alone comes before any plan you make. Owing nobody feels safer to you, so you do the whole thing yourself sooner than hand off a piece. What you build is yours from the first nail to the last."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "wood:W-032",
+      "replaced": "Where a sprint would get you in, you keep your pace instead. You would sooner be late on your terms than rushed on another's, since borrowed tempo is never yours. Some doors shut while you are still walking towards them."
     }
   ]
 }

@@ -77,7 +77,7 @@
             "word": "Looks after people",
             "angles": {
               "drive": "You look after people without being asked. Keeping the people near you sheltered is how you feel at ease, so you look after their comfort before yours. Under your roof, everyone breathes out.",
-              "cost_self": "Your own needs come last whenever you are looking after someone. Because being needed feels easier than being tired, you give your rest away rather than keeping any. Your hobbies, friendships and plans all wait their turn behind everyone else's.",
+              "cost_self": "Your own needs come last whenever you are looking after someone. Being needed feels better to you than being rested, and you give your evenings away rather than keeping any. Your hobbies, friendships and plans all wait their turn behind everyone else's.",
               "cost_others": "Whenever a loved one struggles, you look after it for them. Sparing a person the hard part feels kinder than watching them manage, so you carry what they could lift. They miss the pride of getting through it without you."
             }
           },
@@ -106,7 +106,7 @@
             "word": "Leans on others",
             "angles": {
               "drive": "You lean on the people who look after you more than you need to. Being held up feels better than finding out if you stand alone, so you ask before trying. Lean by lean, you come to trust your own footing less.",
-              "cost_self": "Leaning on someone makes a hard thing feel lighter to you. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow.",
+              "cost_self": "The care you give so freely is also the care you lean on in return. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow.",
               "cost_others": "When something goes wrong, you take it to whoever holds you up. Being carried feels kinder to you than managing alone, and you add your weight on top of their own. Leaning on them, you use up the rest they were saving for themselves."
             }
           },
@@ -579,6 +579,22 @@
       "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
       "finding": "M5",
       "replaced": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in before being asked. You are allowed to stand beside a struggle without taking it over."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "fire:F-23",
+      "replaced": "Leaning on someone makes a hard thing feel lighter to you. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "fire:F-24",
+      "replaced": "Your own needs come last whenever you are looking after someone. Because being needed feels easier than being tired, you give your rest away rather than keeping any. Your hobbies, friendships and plans all wait their turn behind everyone else's."
     }
   ]
 }

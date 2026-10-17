@@ -97,7 +97,7 @@
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You paid for each mistake the first time, and that was enough.",
+              "drive": "You are harder on yourself than anyone else has been. Letting a mistake go feels like letting yourself off, and you go over it long after everyone else has moved on. You paid for each mistake the first time, and that was enough.",
               "cost_self": "Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. You lose the days off you never let yourself take.",
               "cost_others": "Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You bring that standard home and leave the people you love nowhere to be less than their best."
             }
@@ -115,14 +115,14 @@
             "angles": {
               "drive": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty in place of ending the day. Remember you were made to meet a crisis rather than stay on duty after it.",
               "cost_self": "When one emergency ends, you look for the next rather than go off duty. You never take a rest you did not fight for, so duty is your normal. You hand every evening at home to a duty you gave yourself.",
-              "cost_others": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard in place of someone to sit with. You keep them safe and leave them without the company they wanted."
+              "cost_others": "Staying on duty is how you love the people in your care. Watching over them comes easier to you than sitting with them, and you stand guard where they wanted company. You keep them safe and miss the evenings they hoped to share with you."
             }
           }
         ]
       }
     },
     "edge": {
-      "lead": "Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the test you pick yourself because that is where you grow.",
+      "lead": "Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the deadline that gets more out of you than you planned to give.",
       "domains": [
         "Career",
         "Health",
@@ -843,6 +843,30 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard ahead of someone to sit with. You keep them safe and leave them without the company they wanted."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "fire:F-26",
+      "replaced": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You paid for each mistake the first time, and that was enough."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "fire:F-28",
+      "replaced": "Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard in place of someone to sit with. You keep them safe and leave them without the company they wanted."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "fire:F-30",
+      "replaced": "Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the test you pick yourself because that is where you grow."
     }
   ]
 }

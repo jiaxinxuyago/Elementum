@@ -25,7 +25,7 @@
 | `catalyst.ledger[2].angles.cost_others` | Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Your closest people meet you only on your good days. |
 | `friction.define` | Running over, the need to stand on your own sets hard. You carry more than you have to, and nobody sees what it costs. |
 | `friction.ledger[0].word` | Sealed-off |
-| `friction.ledger[0].angles.drive` | You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Remember that you meant to seal out the hurt rather than your peers. |
+| `friction.ledger[0].angles.drive` | You stay sealed off long after the reason has gone. Needing no one once kept you safe, and you still shut out help without checking whether you want any. Remember that you meant to keep out the hurt and never the people near you. |
 | `friction.ledger[0].angles.cost_self` | A hurt is the first thing you seal off, before anyone notices. Needing no one proves you are fine, and you keep it sealed instead of letting help in. You carry each hurt alone, and you lose the evenings you wanted to share. |
 | `friction.ledger[0].angles.cost_others` | Sealing everyone off politely keeps you easy to live with. You give them calm with nothing under it, your sealed quiet over their wish to come in. You keep your peers at a polite distance and never let them in. |
 | `friction.ledger[1].word` | Unteachable |
@@ -35,7 +35,7 @@
 | `friction.ledger[2].word` | Asks no one |
 | `friction.ledger[2].angles.drive` | Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. You count the asking as a cost and leave the carrying off the bill. |
 | `friction.ledger[2].angles.cost_self` | Where a job is heavy, you take it all instead of asking for half. To prove you are enough, you carry it alone and spend sleep before spending one question. You pay in lost sleep for help you never ask for. |
-| `friction.ledger[2].angles.cost_others` | Being nobody's burden is why you ask no one. Since you would rather owe nothing than be joined, you take the job back the moment someone offers. You send away the peer who offered and leave them no way to help you. |
+| `friction.ledger[2].angles.cost_others` | Being nobody's burden is why you ask no one. You would rather owe nothing than share the load, and you take the job back the moment someone offers. You send away the person who offered and leave them no way to help you. |
 
 ### The Rival · 金_劫财
 
@@ -120,7 +120,7 @@
 | `friction.ledger[0].word` | Too direct |
 | `friction.ledger[0].angles.drive` | Direct is the only setting you have for the truth. A softened answer feels like a lie you would have to keep up, so you say it exactly rather than gently. You only ever wanted to be believed, and the hurt was never the point. |
 | `friction.ledger[0].angles.cost_self` | Direct talk costs you people who would have stayed. Being right counts for more with you than a welcome, so you say the hard thing and lose easy company. You lose the company you came for each time you say it that directly. |
-| `friction.ledger[0].angles.cost_others` | You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, so you skip the soft words rather than soften the point. You leave them a bruise the truth alone would not have left. |
+| `friction.ledger[0].angles.cost_others` | You hand people your read in its plainest, most direct form. Plain truth feels like respect to you, and you cut the kind words and keep only the point. You leave them a bruise the truth alone would not have left. |
 | `friction.ledger[1].word` | Talks back |
 | `friction.ledger[1].angles.drive` | Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. You spend your talking back on small rules and have none left for big ones. |
 | `friction.ledger[1].angles.cost_self` | You talk back hardest to the people who correct you. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them. You win the back-and-forth and leave the lesson behind. |
@@ -141,7 +141,7 @@
 | `catalyst.ledger[0].angles.cost_others` | Whenever you spot an opening, you tell the partner building this one with you. You name the next opening before this one is done, and your partner hears the plan move. Their week of work points at a place your mind has already left. |
 | `catalyst.ledger[1].word` | Starts fast |
 | `catalyst.ledger[1].angles.drive` | Fast starts are your natural speed. You feel most alive in the first week, and this is why you start the next venture rather than sit through this one. Projects that sat on paper for years get moving the day you arrive. |
-| `catalyst.ledger[1].angles.cost_self` | Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. The payday sits at the end of the work, long after your attention has moved on. |
+| `catalyst.ledger[1].angles.cost_self` | Where you feel surest is starting fast. You start on speed alone, and your patience runs out somewhere in the middle. The payday sits at the end of the work, long after your attention has moved on. |
 | `catalyst.ledger[1].angles.cost_others` | Starting fast means starting for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You hand them a venture already moving and leave them a month of catching up to a start they never made. |
 | `catalyst.ledger[2].word` | Open-handed |
 | `catalyst.ledger[2].angles.drive` | You are open-handed the moment something good comes in. A gain only feels real to you once it has reached other people, and you pass part of it on the same day. Friends in a tight month find your hand already open. |
@@ -159,7 +159,7 @@
 | `friction.ledger[2].word` | Spends it all |
 | `friction.ledger[2].angles.drive` | Spending it all is your first instinct. You feel money that sits is a chance going cold, and you spend it all on the next thing rather than keep it. Remember that you are allowed to let money sit until the right chance comes. |
 | `friction.ledger[2].angles.cost_self` | Deciding what to keep is harder than spending it all. You spend to feel money move rather than sit, since a sum held still feels like a missed chance. Spent out, you come up short for the one opening that asks for cash up front. |
-| `friction.ledger[2].angles.cost_others` | Where you are generous, you spend everything too. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. You spend the money your family was counting on for later. |
+| `friction.ledger[2].angles.cost_others` | Spending it all feels like generosity to you. You spend it on the bill, the gift and the loan, since giving suits you better than keeping. You meant to make the people you love feel rich, and you leave them short for later. |
 
 ### The Steward · 金_正财
 
@@ -180,7 +180,7 @@
 | `catalyst.ledger[2].angles.cost_others` | You stand by the people you have had for years. You need the old ties to stay strong, and newer faces take a long time to get in. Those who arrive late find a warm circle that is already full. |
 | `friction.define` | As a friction, what you own starts to own you. A loss weighs more with you than any gain. |
 | `friction.ledger[0].word` | Holds on tight |
-| `friction.ledger[0].angles.drive` | Your answer to ownership is holding on tight. You would rather hold on than risk losing, so you hold on to money, things and people past where holding helps. You have every right to let go of what you no longer want. |
+| `friction.ledger[0].angles.drive` | Holding on tight makes what you have feel safe. You would rather keep a thing than risk losing it, and you grip money, things and people past where holding helps. You have every right to let go of what you no longer want. |
 | `friction.ledger[0].angles.cost_self` | The fear of loss goes quiet while you are holding tight. You keep hold of the savings rather than spend them on their year, since spending feels exposed. Holding on costs you trips not taken, with the money outliving its purpose. |
 | `friction.ledger[0].angles.cost_others` | Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than give them slack. You leave the person beside you no air when you hold on this tight. |
 | `friction.ledger[1].word` | Plays it safe |
@@ -211,7 +211,7 @@
 | `catalyst.ledger[2].angles.cost_others` | When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your quick call lifts a weight you hate to see them carry. |
 | `friction.define` | As a friction, the line cuts deeper than any task asks, because standing down feels unsafe. You wear out long before the work does. |
 | `friction.ledger[0].word` | Hard on yourself |
-| `friction.ledger[0].angles.drive` | Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you fail your own hard test sooner than pass someone else's. You answer to no judge harder than yourself. |
+| `friction.ledger[0].angles.drive` | Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You answer to no judge harder than yourself. |
 | `friction.ledger[0].angles.cost_self` | Under any load, you go hard on yourself first. You take the blame harder than the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken. |
 | `friction.ledger[0].angles.cost_others` | The hardness you keep for yourself sets everyone's rate. Your mistakes feel unforgivable, and being hard on people near you comes easier than letting one pass. You take their ease away with every mistake you refuse to let pass. |
 | `friction.ledger[1].word` | Never off duty |
@@ -239,15 +239,15 @@
 | `catalyst.ledger[2].word` | Earns your place |
 | `catalyst.ledger[2].angles.drive` | Earning your place counts for more with you than being handed one. Rank only feels earned when the rules gave it, and you choose the slow route rather than the shortcut. A title built step by step is one no rival takes from you. |
 | `catalyst.ledger[2].angles.cost_self` | Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Louder colleagues reach the jobs you were ready for years before. |
-| `catalyst.ledger[2].angles.cost_others` | Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record more than the talent. Bright newcomers wait a long time for your nod. |
+| `catalyst.ledger[2].angles.cost_others` | Having earned your own place, you check that everyone who rises near you earned theirs. An unearned rank looks wrong to you, and you credit people for the record more than the talent. Bright newcomers wait a long time for your nod. |
 | `friction.define` | As a friction, the line closes in around you, because a clean record is what lets you rest. Much that is yours stays unclaimed. |
 | `friction.ledger[0].word` | Needs permission |
 | `friction.ledger[0].angles.drive` | Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. You hold the yes you keep waiting for, and it is yours to give. |
 | `friction.ledger[0].angles.cost_self` | Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed. |
 | `friction.ledger[0].angles.cost_others` | You pass the need for permission to anyone under you. Permission from above is the only yes you take, and you send their questions up rather than answer. You leave them waiting on a permission you were free to give. |
 | `friction.ledger[1].word` | Hates being wrong |
-| `friction.ledger[1].angles.drive` | Hating being wrong is the part of you that works hardest. A mistake marks your name in your eyes, and you give silence in place of any answer that risks being wrong. You go silent on the answers you had right. |
-| `friction.ledger[1].angles.cost_self` | Being wrong is what you have no procedure for. Right answers feel like the only safe ones, and you hold opinions back rather than risk being wrong. You lose every idea you kept back for fear of being wrong. |
+| `friction.ledger[1].angles.drive` | Hating being wrong is the part of you that works hardest. A mistake feels like a mark on your name, and you give silence in place of any answer that risks being wrong. You go silent on the answers you had right. |
+| `friction.ledger[1].angles.cost_self` | Being wrong is what you have no procedure for. Right answers feel like the only safe ones, and you hold opinions back rather than risk a mistake. You lose every idea you kept back for fear of being wrong. |
 | `friction.ledger[1].angles.cost_others` | Whenever a correction comes, hating being wrong slows you. A correction feels like a charge, and you defend the answer before hearing where it went wrong. You cost those near you the right to call you wrong. |
 | `friction.ledger[2].word` | Puts rules first |
 | `friction.ledger[2].angles.drive` | Putting rules first is how you stay steady. A rule asks nothing of your judgement, and you follow it rather than read the person in front of you. Keep this with you, that you hold the rule and the rule does not hold you. |
@@ -278,7 +278,7 @@
 | `friction.ledger[0].angles.cost_others` | Whenever someone asks, you reply only once the answer is fully checked. Late sits easier with you than wrong, and you leave whoever asked waiting on your standard instead of your reply. You spend their time on each extra check for your own peace. |
 | `friction.ledger[1].word` | Too exact |
 | `friction.ledger[1].angles.drive` | Precision matters to you past the point of being followed. A near-enough answer feels like a small lie to you, so you give the precise one rather than the easy one. Most days you get one of exact or understood, and one is enough. |
-| `friction.ledger[1].angles.cost_self` | Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You wanted to be told more than you wanted it exact, and that is worth remembering. |
+| `friction.ledger[1].angles.cost_self` | Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much. You wanted to be told more than you wanted it exact. |
 | `friction.ledger[1].angles.cost_others` | Handed a rough idea, you give it back exact. You would rather fix the wording than hear what it was for, and the one who brought it gets a correction instead of a reply. You leave them corrected when they came to be heard. |
 | `friction.ledger[2].word` | Hard to reach |
 | `friction.ledger[2].angles.drive` | Hard to reach is what you become mid-thought. You need it whole before anyone touches it, so you let messages wait rather than answer half-minded. You get the thought back more easily than the person. |
@@ -306,7 +306,7 @@
 | `friction.ledger[0].word` | Stays the student |
 | `friction.ledger[0].angles.drive` | You stay the student long after you were able to teach. Learning under someone suits you more than standing alone, and that keeps your seat in the back row past its use. You need no one's permission to stop being the student. |
 | `friction.ledger[0].angles.cost_self` | Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. You pass up the place meant for you for one more year of learning. |
-| `friction.ledger[0].angles.cost_others` | Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it. |
+| `friction.ledger[0].angles.cost_others` | Your door stays closed while you stay the student. You keep learning under someone else's wing instead of spreading your own, and the people who need your shelter wait outside. Each year you remain the student is a year they go without it. |
 | `friction.ledger[1].word` | Too protective |
 | `friction.ledger[1].angles.drive` | Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in before letting them fall. You are protecting them from the one thing that would have taught them. |
 | `friction.ledger[1].angles.cost_self` | Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired over watching them hurt. You lose your own rest to every risk you take off their hands. |
@@ -339,8 +339,8 @@
 | `friction.ledger[0].angles.cost_self` | Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. You lose sleep over what one question would have settled. |
 | `friction.ledger[0].angles.cost_others` | By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You give your friends no share in the weight you carry. |
 | `friction.ledger[1].word` | Shuts people out |
-| `friction.ledger[1].angles.drive` | Tired, you shut people out before anything else. Quiet is how you recover, and you shut people out sooner than ask for the quiet you need. You only ever wanted rest, never distance from the people you love. |
-| `friction.ledger[1].angles.cost_self` | Where you shut people out, you shut out what you were saving yourself for. Your own company works so well that you mistake it for the plan rather than a break. You pay for that peace in closeness, one quiet evening at a time. |
+| `friction.ledger[1].angles.drive` | Tired, you shut people out before anything else. Quiet is how you recover, and you would rather shut people out than ask for the quiet you need. You only ever wanted rest, never distance from the people you love. |
+| `friction.ledger[1].angles.cost_self` | Shutting people out feels like rest, and you reach for it too often. Your own company works so well that you mistake it for the plan rather than a break. You pay for that peace in closeness, one quiet evening at a time. |
 | `friction.ledger[1].angles.cost_others` | Needing rest, you shut out everyone, the people closest to you included. You keep to yourself rather than explain yourself, and you hand a friend your distance before your reason. You take your company from those you love for as long as you rest. |
 | `friction.ledger[2].word` | Takes no advice |
 | `friction.ledger[2].angles.drive` | You take no advice you have not tested yourself. Catching your own mistakes matters more to you than having a peer point them out. You spend weeks on mistakes a peer would have caught at a glance. |
@@ -370,13 +370,13 @@
 | `friction.ledger[0].angles.cost_self` | Always comparing gives you a result and never rest. You would rather know where you rank than enjoy where you are, so no win gets time to feel like one. You lose the quiet of a good week to a score you keep alone. |
 | `friction.ledger[0].angles.cost_others` | Whenever a friend has good news, you compare before you say well done. You measure the gap before being glad for them, and you give less praise than they earned. You take some of the joy out of the news they bring you. |
 | `friction.ledger[1].word` | Hates losing |
-| `friction.ledger[1].angles.drive` | You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You carry each loss for weeks after the contest itself is over. |
+| `friction.ledger[1].angles.drive` | You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You replay each defeat for weeks after the game is over. |
 | `friction.ledger[1].angles.cost_self` | Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests that would stretch you furthest. You protect a record with very few wins on it. |
 | `friction.ledger[1].angles.cost_others` | Shared things turn into contests when you hate to lose. You would rather win the argument than keep the evening, and you turn an easy talk with a friend into a match. You leave with the point and a little less warmth. |
 | `friction.ledger[2].word` | Spends to win |
 | `friction.ledger[2].angles.drive` | As a contest gets close, you spend to win it. You would rather pay to stay ahead than risk falling behind, and you spend to prove a point. Ask yourself before you pay whether you want the thing or only the win. |
 | `friction.ledger[2].angles.cost_self` | Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You count the cost when the account runs dry. |
-| `friction.ledger[2].angles.cost_others` | To win, you spend what is not only yours. You would rather cover the whole bill than split it, and you spend money your partner set aside for the two of you. Along with the money, you spend a plan you made together. |
+| `friction.ledger[2].angles.cost_others` | Paying for everyone feels like winning to you, even when the money is shared. You would rather cover the whole bill than split it, and you use savings meant for two. Along with the money, you spend a plan you made together. |
 
 ### The Artisan · 土_食神
 
@@ -425,7 +425,7 @@
 | `catalyst.ledger[2].word` | Rewrites the rules |
 | `catalyst.ledger[2].angles.drive` | Rules read to you as first drafts. Since you would rather fix a bad rule than follow it, you rewrite it in the doing and in plain sight. The people who come after you inherit a rule that works. |
 | `catalyst.ledger[2].angles.cost_self` | Rewriting a rule is your answer to one that makes no sense. Each time you choose to fix it rather than obey it, you lose the credit that following it would earn. On paper, you look like trouble. |
-| `catalyst.ledger[2].angles.cost_others` | You rewrite a rule that stops making sense under the people standing on it. Since you fix it rather than keeping the peace, you change the footing with no warning. The rule you found pointless was somebody's floor. |
+| `catalyst.ledger[2].angles.cost_others` | When a rule stops making sense, you rewrite it with people still standing on it. Since you fix it rather than keeping the peace, you change the footing with no warning. The rule you found pointless was somebody's floor. |
 | `friction.define` | As a friction, the gate stays open and anything held in feels false to you. Your strength drains into more than each moment needs. |
 | `friction.ledger[0].word` | Pushes back |
 | `friction.ledger[0].angles.drive` | Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it. You spend the same fight on a good plan as on a bad one. |
@@ -433,7 +433,7 @@
 | `friction.ledger[0].angles.cost_others` | You push back before you hear the end of a plan. Where being hard to convince feels like being hard to fool, you make people defend a plan instead of taking it. You take the ease out of every offer they bring you. |
 | `friction.ledger[1].word` | Says too much |
 | `friction.ledger[1].angles.drive` | Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. You are allowed to say the useful half and call it honest. |
-| `friction.ledger[1].angles.cost_self` | Saying too much proves to you that you were listening. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You talk away trust that comes back slower than it left. |
+| `friction.ledger[1].angles.cost_self` | Saying too much proves to you that you have something to add. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You talk away trust that comes back slower than it left. |
 | `friction.ledger[1].angles.cost_others` | You say too much to whoever let you speak. Because a thought feels wasted unless it is said, you take their turn as much as your own. You leave the person beside you no chance to finish their own point. |
 | `friction.ledger[2].word` | Overdoes it |
 | `friction.ledger[2].angles.drive` | Overdoing it is the only way you know to be sure of enough. Since plain and finished feels like settling, you make it bigger rather than call it done. For every extra, you draw on your own strength. |
@@ -447,7 +447,7 @@
 | `catalyst.define` | As a catalyst, firm ground is scarce and your eyes go to the next field before this one settles. What you gain passes on through your hands. |
 | `catalyst.ledger[0].word` | Far-sighted |
 | `catalyst.ledger[0].angles.drive` | You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. By the time others see the opening, you are already there. |
-| `catalyst.ledger[0].angles.cost_self` | Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you see the far chance sooner than the near one. The opening right in front of you is the one you walk past most. |
+| `catalyst.ledger[0].angles.cost_self` | Looking far comes naturally, and it pays. The next place is clearer to you than this one, so you notice the far chance more than the near one. The opening right in front of you is the one you walk past most. |
 | `catalyst.ledger[0].angles.cost_others` | You look past the people closest to you toward the next place. Seeing far is how you keep them safe, and that gives the plan more of you than them. They get the future you are building and less of you today. |
 | `catalyst.ledger[1].word` | Takes the chance |
 | `catalyst.ledger[1].angles.drive` | A chance within reach is hard to leave alone, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. The doors you walk through are ones most people only look at. |
@@ -464,11 +464,11 @@
 | `friction.ledger[0].angles.cost_others` | You chase the next chance before anyone is out of the last one. You want starting more than staying, and you give the new venture what you owed the old one. You put the unfinished work of the old venture on your partners. |
 | `friction.ledger[1].word` | Spread too thin |
 | `friction.ledger[1].angles.drive` | You are spread across more things than any one of them can use. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to say no and give one of them all of you. |
-| `friction.ledger[1].angles.cost_self` | Spreading yourself thin keeps you from being caught out and keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You run all of them on the one body you have. |
+| `friction.ledger[1].angles.cost_self` | Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You run all of them on the one body you have. |
 | `friction.ledger[1].angles.cost_others` | Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. You offer each person and plan a slice of you too thin to count on. |
 | `friction.ledger[2].word` | Half-finished |
 | `friction.ledger[2].angles.drive` | Starting a thing gives you more than finishing it. The beginning is where the feeling lives, and you spend your strength there rather than on the last stretch. You get nothing for the half until the rest is done. |
-| `friction.ledger[2].angles.cost_self` | Finishing is what you save for later. The last stretch costs you more than the first, and you open a new thing sooner than you close an old one. You leave the money and the credit sitting at the end you skip. |
+| `friction.ledger[2].angles.cost_self` | Finishing is what you save for later. The last stretch costs you more than the first, and you would rather open a new thing than close an old one. You leave the money and the credit sitting at the end you skip. |
 | `friction.ledger[2].angles.cost_others` | You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. You give the people waiting your start and somebody else's finish. |
 
 ### The Steward · 土_正财
@@ -580,10 +580,10 @@
 | `catalyst.ledger[2].word` | Solo thinker |
 | `catalyst.ledger[2].angles.drive` | Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet more than the company. Ideas come back from those hours finished and fully yours. |
 | `catalyst.ledger[2].angles.cost_self` | After a day of company, you need an hour of thinking alone to feel yourself. You think alone to fill up rather than hide, so you guard it over sleep. That hour is the one stretch of time that belongs only to you. |
-| `catalyst.ledger[2].angles.cost_others` | Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run long rather than stop early. The people waiting on you never know when to expect you back. |
+| `catalyst.ledger[2].angles.cost_others` | Your best thinking happens alone, and you go off to it without saying how long. Thinking best out of reach, you let the solo hours run on and lose track of the clock. The people waiting on you never know when to expect you back. |
 | `friction.define` | As a friction, the holding never stops, and needing the full picture keeps you in your head. Chances to act pass while you are still taking it in. |
 | `friction.ledger[0].word` | Never quite ready |
-| `friction.ledger[0].angles.drive` | You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. You are allowed to make the first attempt before the feeling arrives. |
+| `friction.ledger[0].angles.drive` | You wait to feel ready rather than work to be ready, and getting ready never ends. Preparing is the part you control, and you choose another round of it over a first attempt. You are allowed to start before the feeling arrives. |
 | `friction.ledger[0].angles.cost_self` | Getting ready is the part you control, so it is where you stay. You lose nothing today by preparing once more, while you risk everything on a first try. You pay for each extra round in chances that closed before you felt ready. |
 | `friction.ledger[0].angles.cost_others` | Asked for a quick take, you hand over a prepared one later. Being ready matters more to you than being on time, so you keep people waiting. You give them the clean take late when the rough one would have done. |
 | `friction.ledger[1].word` | Hard to reach |
@@ -618,7 +618,7 @@
 | `friction.ledger[0].angles.cost_self` | Staying close to home keeps you among people who already know you. You learn best where you feel held, and unfamiliar ground makes your mind go quiet. You miss what only a strange place would have shown you. |
 | `friction.ledger[0].angles.cost_others` | Staying close to home means the people near you go out without you. You need familiar walls around you to feel held, and the trips and evenings out happen in your absence. Those you love come home with stories you were not part of. |
 | `friction.ledger[1].word` | Overprotective |
-| `friction.ledger[1].angles.drive` | Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You get to let them take their own risks. |
+| `friction.ledger[1].angles.drive` | Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You are allowed to let the risk be theirs. |
 | `friction.ledger[1].angles.cost_self` | When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you. |
 | `friction.ledger[1].angles.cost_others` | Your protection arrives before anyone asks. Because you find watching someone struggle harder than doing it for them, you protect them by taking over instead of letting them finish badly. With every rescue, you take a lesson away from them. |
 | `friction.ledger[2].word` | Same old answers |
@@ -632,12 +632,12 @@
 |---|---|
 | `catalyst.define` | Running thin, there is only enough of you for one. You spend it on ground you know, and what grows there holds its shape. |
 | `catalyst.ledger[0].word` | Does it alone |
-| `catalyst.ledger[0].angles.drive` | Doing it alone comes before any plan you make. Owing nobody feels safer to you, so you do the whole thing yourself sooner than hand off a piece. What you build is yours from the first nail to the last. |
+| `catalyst.ledger[0].angles.drive` | Doing it alone is where your strength shows. You trust your own hands before anyone's plan, and you finish what others are still waiting on. What you build is yours from the first nail to the last. |
 | `catalyst.ledger[0].angles.cost_self` | Whenever help comes near, you do the thing alone first. Being helped feels like debt, so you would rather do it tired than owe. Your hardest weeks are carried on one pair of shoulders. |
 | `catalyst.ledger[0].angles.cost_others` | Your own two hands are the only ones you count on. Doing it alone matters more than being carried, and that keeps your friends outside every hard week. People who would gladly help seldom get the chance to be needed by you. |
 | `catalyst.ledger[1].word` | Sets own pace |
 | `catalyst.ledger[1].angles.drive` | Fast or slow around you, you move at your own speed. Being your own clock keeps you steady, since a borrowed pace never feels like yours. Nobody rushes you into a decision you would regret. |
-| `catalyst.ledger[1].angles.cost_self` | Where a sprint would get you in, you keep your pace instead. You would sooner be late on your terms than rushed on another's, since borrowed tempo is never yours. Some doors shut while you are still walking towards them. |
+| `catalyst.ledger[1].angles.cost_self` | When a sprint would get you there, you keep your own pace instead. Being late on your terms sits better with you than being rushed on someone else's. Some doors shut while you are still walking towards them. |
 | `catalyst.ledger[1].angles.cost_others` | Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead. Days out with you often split into two groups. |
 | `catalyst.ledger[2].word` | Consistent |
 | `catalyst.ledger[2].angles.drive` | You are the same person in any company. Holding one standard for yourself keeps your footing, since a new shape for each group would cost you your measure. Friends never have to guess which you will turn up. |
@@ -645,7 +645,7 @@
 | `catalyst.ledger[2].angles.cost_others` | Holding yourself to one standard means holding friends to it. Staying the same matters more than meeting anyone halfway, and an off day gets no slack. In a hard week, the people close to you get no softer version of you. |
 | `friction.define` | Running over, you fill all the space around you, since relying on yourself is what feels safe. Help finds no way in, and the weight stays with you. |
 | `friction.ledger[0].word` | Asks no one |
-| `friction.ledger[0].angles.drive` | Asking comes last, well after the point where it would have worked. You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load. |
+| `friction.ledger[0].angles.drive` | Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it. You are allowed to owe someone a piece of the load. |
 | `friction.ledger[0].angles.cost_self` | Your hands are all you trust with hard jobs. Asking feels like admitting a shortfall, and you take the long way alone over the short way with help. You pay for asking no one in rest you skip, and the bill is only yours. |
 | `friction.ledger[0].angles.cost_others` | Whenever an offer comes, you have already finished alone. Owing nothing counts for more than being close, and that keeps your nearest people outside every struggle. By asking no one, you leave them no way to be needed by you. |
 | `friction.ledger[1].word` | Always right |
@@ -678,7 +678,7 @@
 | `friction.ledger[0].word` | Bets too big |
 | `friction.ledger[0].angles.drive` | You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it. You fund next year's bet with the money this year needed. |
 | `friction.ledger[0].angles.cost_self` | Where a smaller bet would hold, you put down the big one. Playing small feels worse than losing, and you take the big risk over sure footing. You lose real money on bets you never needed to make. |
-| `friction.ledger[0].angles.cost_others` | Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. You risk their savings along with your own whenever you bet too big. |
+| `friction.ledger[0].angles.cost_others` | Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. You set the size of a risk that the people who pooled with you have to carry. |
 | `friction.ledger[1].word` | Never stops racing |
 | `friction.ledger[1].angles.drive` | Finished, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next one instead of keeping the win, and the win was the point. |
 | `friction.ledger[1].angles.cost_self` | Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You trade each win for another race and never take the rest you earned. |
@@ -717,7 +717,7 @@
 | `friction.ledger[2].word` | Comfort first |
 | `friction.ledger[2].angles.drive` | Comfort comes first with you. Because feeling good now is more real than feeling glad later, you take the soft option over the one that pays off. You put second to comfort the very thing you wanted most. |
 | `friction.ledger[2].angles.cost_self` | Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. Count the good chances you let go by to stay comfortable, since few of them come back. |
-| `friction.ledger[2].angles.cost_others` | You put comfort first for those in your care too. You would rather see a child happy now than stretched, so you pick pleasant hours over useful ones. You trade the effort they would grow on for an hour of ease. |
+| `friction.ledger[2].angles.cost_others` | You put comfort first for those in your care too. You would rather see them happy now than stretched, so you pick pleasant hours over useful ones. You trade the effort they would grow on for an hour of ease. |
 
 ### The Virtuoso · 木_伤官
 
@@ -756,7 +756,7 @@
 |---|---|
 | `catalyst.define` | As a catalyst, the growth on offer is smaller than your hunger for it. What you gain comes in bursts and leaves as easily as it came. |
 | `catalyst.ledger[0].word` | Spots openings |
-| `catalyst.ledger[0].angles.drive` | Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you spot the far chance sooner than the one in your hand. Half the good ideas in your circle started as something you pointed at. |
+| `catalyst.ledger[0].angles.drive` | Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you notice the far chance more than the one in your hand. Half the good ideas in your circle started as something you pointed at. |
 | `catalyst.ledger[0].angles.cost_self` | Where you spot openings is always past where you stand. Wanting freedom more than settling, you spot what is far instead of taking what is near. Good things within reach go by while you look further out. |
 | `catalyst.ledger[0].angles.cost_others` | You point out the openings you spot to anyone beside you. Because the far chance holds you more than the near one, you spot the next before finishing this with them. Your partners get half of your mind on the shared work. |
 | `catalyst.ledger[1].word` | Quick to start |
@@ -774,12 +774,12 @@
 | `friction.ledger[0].angles.cost_others` | Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to your partner. You keep the start of a shared plan and hand your partner the long middle. |
 | `friction.ledger[1].word` | Spread thin |
 | `friction.ledger[1].angles.drive` | Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You wanted freedom all along, and a closed option leaves it whole. |
-| `friction.ledger[1].angles.cost_self` | You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you spread yourself over them, tired at each one. Spread this thin, you never get a full rest and start each day already tired. |
+| `friction.ledger[1].angles.cost_self` | You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Spread this thin, you never get a full rest and start each day already tired. |
 | `friction.ledger[1].angles.cost_others` | Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else. |
 | `friction.ledger[2].word` | Spends freely |
 | `friction.ledger[2].angles.drive` | Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Spending for freedom, you meet the slow month with none of it left. |
-| `friction.ledger[2].angles.cost_self` | With money, you spend sooner than you let it sit. Since spending feels like living and saving like waiting, you spend the whole month instead of keeping any. You pay for the free spending with savings you never get to keep. |
-| `friction.ledger[2].angles.cost_others` | Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. You spend their quiet months as well as your own. |
+| `friction.ledger[2].angles.cost_self` | With money, you would rather spend than let it sit. Since spending feels like living and saving like waiting, you spend the whole month instead of keeping any. You pay for the free spending with savings you never get to keep. |
+| `friction.ledger[2].angles.cost_others` | Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. You spend the savings that would carry you all through a lean month. |
 
 ### The Steward · 木_正财
 
@@ -800,7 +800,7 @@
 | `catalyst.ledger[2].angles.cost_others` | Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence more than your feelings. Your partner gets all of your time and few of your words. |
 | `friction.define` | As a friction, the work takes more out of you than it gives back. Needing to feel covered, you guard each gain and take little joy in it. |
 | `friction.ledger[0].word` | Stays too long |
-| `friction.ledger[0].angles.drive` | Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than learn what leaving costs. You keep paying in effort every month to a place that returns none of it. |
+| `friction.ledger[0].angles.drive` | Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it. |
 | `friction.ledger[0].angles.cost_self` | Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. By staying, you miss the better love or pay you never looked for. |
 | `friction.ledger[0].angles.cost_others` | You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend your partner's years along with your own. |
 | `friction.ledger[1].word` | Counts everything |
@@ -893,7 +893,7 @@
 | `catalyst.ledger[2].angles.cost_others` | With other people's plans, you ask why before you join in. Taking part only feels honest once the reason holds up for you, and your questions arrive before your help does. Friends get a sharper plan and a slower yes. |
 | `friction.define` | As a friction, you take in far more than you use. What you know piles up out of sight, because a thing half known feels unsafe to act on. |
 | `friction.ledger[0].word` | Thinks in circles |
-| `friction.ledger[0].angles.drive` | Thinking a question through means thinking it around, each side first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You never reach the decision in the middle of a circle, and it never closes alone. |
+| `friction.ledger[0].angles.drive` | Thinking a question through means thinking it around, each side first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You circle a question for weeks that a single choice would have closed. |
 | `friction.ledger[0].angles.cost_self` | Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chances that needed an answer this week, one careful lap at a time. |
 | `friction.ledger[0].angles.cost_others` | Whenever someone brings you a question, you think in circles first. Every side counts for more than a usable reply, so you hand over the process instead of a yes. You make them wait through every circle for an answer they needed short. |
 | `friction.ledger[1].word` | Keeps it in |
@@ -960,7 +960,7 @@
 | `friction.ledger[0].angles.cost_others` | Keeping to yourself leaves the people close to you guessing at your mood. Privacy feels like solid ground to you, and your inner weather stays behind a quiet face. They are left to read you from small signs. |
 | `friction.ledger[1].word` | Never asks |
 | `friction.ledger[1].angles.drive` | Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck. |
-| `friction.ledger[1].angles.cost_self` | Managing without asking is what you do best. The Water in you runs deeper than anyone sees, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you. |
+| `friction.ledger[1].angles.cost_self` | Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you. |
 | `friction.ledger[1].angles.cost_others` | Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. You leave your peers at a distance, with nothing of yours to help with. |
 | `friction.ledger[2].word` | Expects the same |
 | `friction.ledger[2].angles.drive` | Expecting the same of everyone keeps your standard honest. You hold yourself to a hard line, and you hold your peers to it rather than to their own. You measure people by a rule they never agreed to, and few can match it for long. |
@@ -975,7 +975,7 @@
 | `catalyst.ledger[0].word` | Loves a race |
 | `catalyst.ledger[0].angles.drive` | A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. Your best work shows up with someone fast at your shoulder. |
 | `catalyst.ledger[0].angles.cost_self` | You feel most alive inside a race. You have little Water, and you race more than you rest and spend what the quiet weeks put back. The tiredness from one contest is still in you at the start of the next. |
-| `catalyst.ledger[0].angles.cost_others` | Every race you love needs someone else in it. You make a rival of a peer rather than ask them first, and they run a race they never chose. Time with you comes with a scoreboard running. |
+| `catalyst.ledger[0].angles.cost_others` | Every race you love needs someone else in it. You make a rival of a peer without asking first, and the race starts on your word. Time with you comes with a scoreboard running. |
 | `catalyst.ledger[1].word` | Jumps in first |
 | `catalyst.ledger[1].angles.drive` | Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. You bring back first-hand news while everyone else is still reading about it. |
 | `catalyst.ledger[1].angles.cost_self` | Going first is where your boldness lives. Little Water backs you, and you jump in before reading the plan, while early mistakes come out of your savings. Your bank balance carries the lessons everyone after you gets for free. |
@@ -990,7 +990,7 @@
 | `friction.ledger[0].angles.cost_self` | Secret racing keeps you safe while you race. Water gathers in you with nowhere to go, and you spend it on quiet races rather than on one open try. You never get the win said out loud. |
 | `friction.ledger[0].angles.cost_others` | In secret, you make a friend a rival without asking them. You keep the race hidden rather than risk losing it in the open. You take away their chance to answer, or to race you openly. |
 | `friction.ledger[1].word` | Spends shared money |
-| `friction.ledger[1].angles.drive` | Spending shared money comes easier to you than spending your own. Shared money feels like courage, and you dip into it before asking who put what in. You run the pool down faster than agreed, and slowing it is yours to do. |
+| `friction.ledger[1].angles.drive` | Spending shared money comes easier to you than spending your own. Nobody's name is on it, and you dip into it before asking who put what in. You run the pool down faster than anyone agreed to. |
 | `friction.ledger[1].angles.cost_self` | Spending from the shared pot is the easiest money there is. More Water moves through you than you keep, so you pay for everyone's good time before your savings. You come out with the least from a pot you paid the most into. |
 | `friction.ledger[1].angles.cost_others` | Each time you spend what was pooled, you spend someone else's decision. You move the money rather than ask, and you leave a partner a smaller share than they put in. You want everyone looked after, and some of that comes out of their share. |
 | `friction.ledger[2].word` | Never enough |
@@ -1014,7 +1014,7 @@
 | `catalyst.ledger[2].word` | Warm |
 | `catalyst.ledger[2].angles.drive` | Warmth matters to you more than winning the point, and an easy evening is where you are most yourself. This is why you make the warmth around you on purpose. People stay longer at your table than they meant to. |
 | `catalyst.ledger[2].angles.cost_self` | Keeping things warm for everyone comes before saying the hard thing. Since you keep the warmth instead of risking it on one honest line, you carry that line alone. The sentence you most need to get out goes unspoken for years. |
-| `catalyst.ledger[2].angles.cost_others` | Anything hard that has to reach someone, you warm first. Whenever you keep a child warm rather than tell them straight what you saw, you hold the plain version back. Bad news from you lands softly, and nobody feels small hearing it. |
+| `catalyst.ledger[2].angles.cost_others` | Anything hard that has to reach someone, you warm first. Softening it feels kinder to you than saying it straight, and the plain version stays behind the comfort. Bad news from you lands softly, and nobody feels small hearing it. |
 | `friction.define` | As a friction, you pour out care faster than it refills, because being needed feels like safety. By evening little is left for your own plans. |
 | `friction.ledger[0].word` | Drifts along |
 | `friction.ledger[0].angles.drive` | Drifting is easier than steering, and most days you choose it. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go. |
@@ -1027,7 +1027,7 @@
 | `friction.ledger[2].word` | Gives it away |
 | `friction.ledger[2].angles.drive` | What you have, you give away before checking whether enough is left. Since giving is the nearest you get to feeling like yourself, you give away more than you keep. You are one of the people you give to, and that is worth remembering. |
 | `friction.ledger[2].angles.cost_self` | Giving things away is quicker for you than working out what you need. Giving out more than comes back, you end most weeks with less than you started with. You go without exactly what you gave away, the rest and the money. |
-| `friction.ledger[2].angles.cost_others` | You give your hours to whoever is nearest, without deciding. Whenever you give everyone something rather than save enough for the few counting on you, you leave them less than was theirs. You give away to everyone the hours meant for the few. |
+| `friction.ledger[2].angles.cost_others` | You give your hours to whoever is nearest, without deciding. Saying yes to everyone is easier than choosing, and the few counting on you get what is left. You give away to everyone the hours meant for the few. |
 
 ### The Virtuoso · 水_伤官
 
@@ -1050,15 +1050,15 @@
 | `friction.ledger[0].word` | Overshares |
 | `friction.ledger[0].angles.drive` | What you think is already out loud, and the editing happens after. You have more Water than time to settle it, so you share the thought before asking whether it is ready. You give away ideas before you have finished thinking them. |
 | `friction.ledger[0].angles.cost_self` | Sharing it all is easier than choosing which part, and you rarely choose. Since you let out more than comes back, you share every thought at full strength. You feel emptied afterwards, with nothing of it kept private. |
-| `friction.ledger[0].angles.cost_others` | To stay honest with people, you share everything you think. Sharing openly rather than asking what someone wants to hear, you take away their choice of how much to hold. You spend their attention on more of your thinking than they asked for. |
+| `friction.ledger[0].angles.cost_others` | To stay honest with people, you share everything you think. You say it all before asking how much they want, and they get no choice in what they carry. You spend their attention on more of your thinking than they asked for. |
 | `friction.ledger[1].word` | Mocking |
-| `friction.ledger[1].angles.drive` | Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. Never forget that you mean the fondness more than the mocking lets on. |
+| `friction.ledger[1].angles.drive` | Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. You mean the fondness far more than the mocking lets on. |
 | `friction.ledger[1].angles.cost_self` | Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private. You go without what you hoped for, because you never asked straight. |
 | `friction.ledger[1].angles.cost_others` | You mock the people you are proudest of, because plain pride is too much. Sounding mocking rather than moved, you hand them praise with no way to keep it. You keep back the plain words they needed to hear. |
 | `friction.ledger[2].word` | Picks fights |
 | `friction.ledger[2].angles.drive` | Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight before asking why. Keep in mind that asking why first does not make you smaller. |
 | `friction.ledger[2].angles.cost_self` | Any push at all gets a fight out of you. You would rather lose on your terms than win on theirs, so you fight rules you never cared about. Skip the small fights, or each one you pick costs you a chance you wanted. |
-| `friction.ledger[2].angles.cost_others` | With whoever is in charge, you pick fights as your kind of honesty, audience included. Because you fight in public rather than private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you. |
+| `friction.ledger[2].angles.cost_others` | With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you. |
 
 ### The Horizon · 水_偏财
 
@@ -1177,7 +1177,7 @@
 | `friction.ledger[0].angles.cost_others` | The people who ask you for something wait longer for your yes than for anyone else's. Your yes has to be one you will stand behind, and the question hangs open while you weigh it. Their plans stay on hold until your answer comes. |
 | `friction.ledger[1].word` | Waits for permission |
 | `friction.ledger[1].angles.drive` | You wait for permission that is not coming. Being given permission feels safer than taking it, and you wait to be asked up rather than step up unasked. You already hold most of the permission you sit waiting for. |
-| `friction.ledger[1].angles.cost_self` | Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your rank than claim the next one. You lose the rank above yours to whoever stopped waiting, and the waiting was your choice. |
+| `friction.ledger[1].angles.cost_self` | Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your place than claim the next one. You watch the step above yours go to whoever stopped waiting first. |
 | `friction.ledger[1].angles.cost_others` | Your waiting for permission gets passed down the line. Since you would rather have permission than have the lead, you hold their answer until yours arrives. Each day you hold out for permission, you spend one of theirs as well. |
 | `friction.ledger[2].word` | Bites your tongue |
 | `friction.ledger[2].angles.drive` | You bite your tongue long before anyone asks you to. You bite down rather than cost the mood, since a smooth evening feels safer to you than an honest one. You keep the peace by biting your tongue, and you alone carry what went unsaid. |
@@ -1213,7 +1213,7 @@
 | `friction.ledger[2].word` | Hard to reach |
 | `friction.ledger[2].angles.drive` | You are hard to reach even from across the table. Most of you lives in an unfinished thought, and you would rather finish it than answer the person in front of you. You stay in your head and miss what was said to you. |
 | `friction.ledger[2].angles.cost_self` | Being hard to reach keeps your thinking whole. An interruption costs you the thread, so you answer late or not at all rather than lose it. You trade closeness for that thread each time, and closeness does not wait. |
-| `friction.ledger[2].angles.cost_others` | Hard to reach means a thought is unfinished, and most of yours are. Finishing it comes before the message, and you charge the person waiting in days. You leave them with less of you than they came for. |
+| `friction.ledger[2].angles.cost_others` | You are hard to reach while a thought is unfinished, and most of yours are. Finishing the thought comes before answering the message, and the person waiting hears nothing for days. You leave them with less of you than they came for. |
 
 ### The Sage · 水_正印
 
@@ -1239,7 +1239,7 @@
 | `friction.ledger[0].angles.cost_others` | Whatever you let drift, you leave to someone else. Being carried feels easier than steering, and you let the people close to you make the calls you never did. You put on them the weight of every call you dodge. |
 | `friction.ledger[1].word` | Stays sheltered |
 | `friction.ledger[1].angles.drive` | You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known over the better whenever the two come apart. You pass up the life that leaving would have given you. |
-| `friction.ledger[1].angles.cost_self` | Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again. |
+| `friction.ledger[1].angles.cost_self` | Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again. |
 | `friction.ledger[1].angles.cost_others` | Staying sheltered keeps you home while others go out. You pick being safe over being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company. |
 | `friction.ledger[2].word` | Over-protects |
 | `friction.ledger[2].angles.drive` | You over-protect the people you love from what they could survive. Feeling safe is what you want most, and you hold them the way you wish to be held. Remember that you love them just as much when you let them struggle. |
@@ -1293,10 +1293,10 @@
 | `catalyst.ledger[2].word` | Goes all in |
 | `catalyst.ledger[2].angles.drive` | On a shared bet, you go all in before anyone asks. Holding back feels like not being there, so you put in your money before reading the terms. Your friends never have to wonder whose side you are on. |
 | `catalyst.ledger[2].angles.cost_self` | Being all in is how you show you mean it. You put money where your friends are rather than where your sense is, because holding back feels worse than losing. Your savings rise and fall with the plans of the people you love. |
-| `catalyst.ledger[2].angles.cost_others` | Beside someone you like, you are all in unasked. You would sooner share the stake than check if they wanted one, so you double a bet that was theirs. Your money makes their plan bigger and riskier than they chose. |
+| `catalyst.ledger[2].angles.cost_others` | Beside someone you like, you are all in unasked. You would rather add your own money than ask if they wanted it, and you double what they put in. Your money makes their plan bigger and riskier than they chose. |
 | `friction.define` | Running over, your strength hunts for a contest in everything. Your need to stay ahead burns through rest and friendship alike. |
 | `friction.ledger[0].word` | Hates to lose |
-| `friction.ledger[0].angles.drive` | You hate to lose more than you love to win, and the gap shows. You read a rival's win as your loss, since the Fire in you outlasts a single victory. You turn every friendly game into a fight and miss the fun of playing. |
+| `friction.ledger[0].angles.drive` | Losing stays with you far longer than winning does. A rival's win feels like something taken from you, and you set out to get it back. You turn every friendly game into a fight and miss the fun of playing. |
 | `friction.ledger[0].angles.cost_self` | Hating to lose keeps you in every contest long after it stops paying. You would sooner stay in a losing race than be the first to step off, so you stay. For every race you refuse to leave, you give up a night of sleep. |
 | `friction.ledger[0].angles.cost_others` | Whenever a friend pulls ahead, you hate it before you are glad. You hear their good news as lost ground, so you answer it with news of your own instead of just listening. You take a little joy out of every win a friend shares. |
 | `friction.ledger[1].word` | Spends for show |
@@ -1322,12 +1322,12 @@
 | `catalyst.ledger[1].angles.cost_self` | Enjoyment only counts for you when it is shared. You write off an evening alone as wasted, and you pick less enjoyment in company over more by yourself. Hours on your own feel empty, and the good in them passes you by. |
 | `catalyst.ledger[1].angles.cost_others` | Whatever you enjoy, you pull the people near you into enjoying as well. You run the fun rather than have it, and you leave little for the quieter people to add. Their own ideas of a good time get lost inside yours. |
 | `catalyst.ledger[2].word` | Effortless |
-| `catalyst.ledger[2].angles.drive` | What you make comes out without strain. Ease is the sign you trust, and you do the thing that flows sooner than you force the thing that counts. Your work has a lightness people feel at once. |
+| `catalyst.ledger[2].angles.drive` | What you make comes out without strain. Ease is the sign you trust, and you would rather do the thing that flows than force the thing that counts. Your work has a lightness people feel at once. |
 | `catalyst.ledger[2].angles.cost_self` | Effort was never your measure of worth. You rate what comes easily below what you fought for, so you hand the easy work over free instead of charging for it. Your income is smaller than your talent. |
-| `catalyst.ledger[2].angles.cost_others` | You make hard things look easy. You show the finished thing sooner than the work, and you leave the people learning from you the ease without the steps. Anyone watching you sees how good the result can be. |
+| `catalyst.ledger[2].angles.cost_others` | You make hard things look easy. You would rather show the finished thing than the work, and you leave the people learning from you the ease without the steps. Anyone watching you sees how good the result can be. |
 | `friction.define` | As a friction, the warmth runs toward the comfort you need. Your hours go to the soft option and the next favour, and your own work stays undone. |
 | `friction.ledger[0].word` | Never says no |
-| `friction.ledger[0].angles.drive` | Saying no has never come easily to you. Helping feels more like you than resting does, and you say yes before checking the cost. You owe no one a reason for saying no. |
+| `friction.ledger[0].angles.drive` | Saying no has never come easily to you. A yes keeps the evening warm and everyone pleased, and you agree before you check what it costs. You never had to buy your place with a yes. |
 | `friction.ledger[0].angles.cost_self` | Staying on good terms with whoever asks is what your yes is for. Being needed feels safer than being rested, so you say yes to the evening rather than keep it. Each rest you turn down, you pay for later with your health. |
 | `friction.ledger[0].angles.cost_others` | You answer whoever asks first with a yes, and you leave the people at home what is left. Pleasing the person in front of you comes before keeping your word at home. You give your family the leftovers of a day promised to others. |
 | `friction.ledger[1].word` | Drifts |
@@ -1337,7 +1337,7 @@
 | `friction.ledger[2].word` | Pleasure first |
 | `friction.ledger[2].angles.drive` | You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option over the needed one. You were after feeling alive all along, and pleasure was only the quickest way. |
 | `friction.ledger[2].angles.cost_self` | Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do. |
-| `friction.ledger[2].angles.cost_others` | Whenever a plan with others meets your pleasure, you choose the pleasure. You take a good time now sooner than a promise kept later, and you spend the house money on the evening. You take their share and leave them short on plans made together. |
+| `friction.ledger[2].angles.cost_others` | Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and you spend the shared money on the evening. You leave them short on the plans you made together. |
 
 ### The Virtuoso · 火_伤官
 
@@ -1347,9 +1347,9 @@
 | `catalyst.ledger[0].word` | Speaks up |
 | `catalyst.ledger[0].angles.drive` | You speak up right where it has gone quiet. You hear silence as agreeing, and you say the unsaid thing rather than sit with it. You are usually the only one who will. |
 | `catalyst.ledger[0].angles.cost_self` | Speaking up is the part of you that never needs rehearsing. You find the clever answer faster than the careful one, and you say it before checking the cost. A good line has closed doors you wanted open. |
-| `catalyst.ledger[0].angles.cost_others` | Before anyone asks you to, you speak up for them. Having a voice comes more naturally to you than lending one, so you take the floor rather than handing it over. The quieter ones get heard in your words more than their own. |
+| `catalyst.ledger[0].angles.cost_others` | Before others find their words, you have already spoken up for them. Speaking comes more naturally to you than waiting, and you take the floor rather than hand it over. The quieter ones get heard in your words more than their own. |
 | `catalyst.ledger[1].word` | Born performer |
-| `catalyst.ledger[1].angles.drive` | You change in front of an audience, for the better. Being watched is where your focus comes from, and you perform a thing sooner than you practice it. Your best work happens live, and the crowd gets all of it. |
+| `catalyst.ledger[1].angles.drive` | You change in front of an audience, for the better. Being watched is where your focus comes from, and you would rather perform a thing than practise it. Your best work happens live, and the crowd gets all of it. |
 | `catalyst.ledger[1].angles.cost_self` | Performing is how you make things count. Being seen doing it matters more to you than doing it, so you keep performing after the show ends. What you want, under it all, is to be liked with the lights off. |
 | `catalyst.ledger[1].angles.cost_others` | For the people you love, you perform as much as for a crowd. Company feels like a show to you, and your best lines come before your plain self. Those closest to you get the act and miss the person behind it. |
 | `catalyst.ledger[2].word` | Thinks fast |
@@ -1362,7 +1362,7 @@
 | `friction.ledger[0].angles.cost_self` | Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Over time, you talk yourself out of the chances you wanted most. |
 | `friction.ledger[0].angles.cost_others` | You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone more than the need. Each time, you leave them without the simple answer they came for. |
 | `friction.ledger[1].word` | Needs an audience |
-| `friction.ledger[1].angles.drive` | You need an audience more than you need to be right. Being seen is how you know you exist, and you take being watched doing badly over doing well alone. Remember that you are just as real with no one watching. |
+| `friction.ledger[1].angles.drive` | You need an audience more than you need to be right. Being seen is how you know you exist, and you would rather do badly in front of people than well on your own. Remember that you are just as real with no one watching. |
 | `friction.ledger[1].angles.cost_self` | Without an audience, you will not start. Practicing alone feels like wasted effort, and you save the real work for a crowd rather than do it unseen. You lose the quiet practice that your talent needs most to grow. |
 | `friction.ledger[1].angles.cost_others` | What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. You take a friend's evening and give back a show instead. |
 | `friction.ledger[2].word` | Overdoes it |
@@ -1420,7 +1420,7 @@
 | `catalyst.ledger[2].angles.cost_others` | You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. They get your company without fail and seldom the thing they wanted. |
 | `friction.define` | As a friction, each bright chance lands like a threat. Your need to feel secure keeps you braced against the heat until it wears you out. |
 | `friction.ledger[0].word` | Counts everything |
-| `friction.ledger[0].angles.drive` | You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes before enjoying the thing. You were only counting until it felt safe to enjoy what you have. |
+| `friction.ledger[0].angles.drive` | You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes before enjoying the thing. Underneath the counting, you want to enjoy what you have. |
 | `friction.ledger[0].angles.cost_self` | Counting keeps the fear quiet and the pleasure quieter. You want to know what you have more than to use it, so the money sits counted and unspent. Busy adding up your savings, you give up the use of them. |
 | `friction.ledger[0].angles.cost_others` | Your count covers the household's spending as much as your own. Knowing where every bit went keeps you calm, and you ask about the receipt before the day itself. You charge your family a question for every small purchase. |
 | `friction.ledger[1].word` | Plays it safe |
@@ -1430,7 +1430,7 @@
 | `friction.ledger[2].word` | Holds back |
 | `friction.ledger[2].angles.drive` | Without deciding to, you hold back warmth and money. Giving the whole of yourself feels like spending the last of something, and you give a careful portion rather than the full amount. You hold back more than you need to feel safe. |
 | `friction.ledger[2].angles.cost_self` | Keeping yourself back spares you hurt and costs you being known. You would rather hold back part of yourself than give the whole, so you stay half known. You lose the closeness itself, since nobody can hold what you keep back. |
-| `friction.ledger[2].angles.cost_others` | You hold back hardest where you love most. You keep a reserve rather than give it all, and your partner gets the careful share only. You leave your partner guessing at a warmth you have and never hand over. |
+| `friction.ledger[2].angles.cost_others` | You hold back hardest where you love most. You keep a reserve rather than give it all, and your partner gets the careful share only. You feel more warmth than your partner ever gets to see. |
 
 ### The General · 火_七杀
 
@@ -1451,7 +1451,7 @@
 | `catalyst.ledger[2].angles.cost_others` | When a day has no stakes, you add some. Since an easy win bores you more than a hard loss, you raise everyone's stakes with yours. Your family and team feel every swing you take. |
 | `friction.define` | As a friction, the heat keeps coming, and a quiet day feels to you like danger. You wear down the strength your rank stands on. |
 | `friction.ledger[0].word` | Hard on yourself |
-| `friction.ledger[0].angles.drive` | You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You paid for each mistake the first time, and that was enough. |
+| `friction.ledger[0].angles.drive` | You are harder on yourself than anyone else has been. Letting a mistake go feels like letting yourself off, and you go over it long after everyone else has moved on. You paid for each mistake the first time, and that was enough. |
 | `friction.ledger[0].angles.cost_self` | Long before anyone sees a mistake, you are already hard on yourself. No day off feels earned under that hardness, so you apologise for rest rather than take it. You lose the days off you never let yourself take. |
 | `friction.ledger[0].angles.cost_others` | Your hardness on yourself never stays private. Since you give yourself no pass, you hold those close to you to your standard rather than theirs. You bring that standard home and leave the people you love nowhere to be less than their best. |
 | `friction.ledger[1].word` | Pushes too hard |
@@ -1461,7 +1461,7 @@
 | `friction.ledger[2].word` | Never off duty |
 | `friction.ledger[2].angles.drive` | Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty in place of ending the day. Remember you were made to meet a crisis rather than stay on duty after it. |
 | `friction.ledger[2].angles.cost_self` | When one emergency ends, you look for the next rather than go off duty. You never take a rest you did not fight for, so duty is your normal. You hand every evening at home to a duty you gave yourself. |
-| `friction.ledger[2].angles.cost_others` | Staying on duty is how you love the people in your care. Since being on duty comes easier than company, you give them a guard in place of someone to sit with. You keep them safe and leave them without the company they wanted. |
+| `friction.ledger[2].angles.cost_others` | Staying on duty is how you love the people in your care. Watching over them comes easier to you than sitting with them, and you stand guard where they wanted company. You keep them safe and miss the evenings they hoped to share with you. |
 
 ### The Magistrate · 火_正官
 
@@ -1536,7 +1536,7 @@
 | `catalyst.ledger[0].angles.cost_others` | Being a good listener is your first move. Since speaking up feels like a risk, you keep listening rather than give the help asked of you. Friends who came for your advice leave with only your sympathy. |
 | `catalyst.ledger[1].word` | Looks after people |
 | `catalyst.ledger[1].angles.drive` | You look after people without being asked. Keeping the people near you sheltered is how you feel at ease, so you look after their comfort before yours. Under your roof, everyone breathes out. |
-| `catalyst.ledger[1].angles.cost_self` | Your own needs come last whenever you are looking after someone. Because being needed feels easier than being tired, you give your rest away rather than keeping any. Your hobbies, friendships and plans all wait their turn behind everyone else's. |
+| `catalyst.ledger[1].angles.cost_self` | Your own needs come last whenever you are looking after someone. Being needed feels better to you than being rested, and you give your evenings away rather than keeping any. Your hobbies, friendships and plans all wait their turn behind everyone else's. |
 | `catalyst.ledger[1].angles.cost_others` | Whenever a loved one struggles, you look after it for them. Sparing a person the hard part feels kinder than watching them manage, so you carry what they could lift. They miss the pride of getting through it without you. |
 | `catalyst.ledger[2].word` | Slow to judge |
 | `catalyst.ledger[2].angles.drive` | You are slow to judge anyone. A quick judgment feels unfair to you, and you give a person the benefit of the doubt rather than make up your mind. People grow into their better selves on the credit you extend. |
@@ -1549,7 +1549,7 @@
 | `friction.ledger[0].angles.cost_others` | Each time a loved one is about to fail, you catch it. Protecting them from the consequence feels more like love to you than letting them meet it. With every rescue, you keep from them the small win of managing it. |
 | `friction.ledger[1].word` | Leans on others |
 | `friction.ledger[1].angles.drive` | You lean on the people who look after you more than you need to. Being held up feels better than finding out if you stand alone, so you ask before trying. Lean by lean, you come to trust your own footing less. |
-| `friction.ledger[1].angles.cost_self` | Leaning on someone makes a hard thing feel lighter to you. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow. |
+| `friction.ledger[1].angles.cost_self` | The care you give so freely is also the care you lean on in return. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow. |
 | `friction.ledger[1].angles.cost_others` | When something goes wrong, you take it to whoever holds you up. Being carried feels kinder to you than managing alone, and you add your weight on top of their own. Leaning on them, you use up the rest they were saving for themselves. |
 | `friction.ledger[2].word` | Too comfortable |
 | `friction.ledger[2].angles.drive` | You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy over what you want. Bit by bit, you trade the life you meant to have for a smaller one. |

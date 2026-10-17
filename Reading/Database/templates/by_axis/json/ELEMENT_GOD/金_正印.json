@@ -99,7 +99,7 @@
             "angles": {
               "drive": "You stay the student long after you were able to teach. Learning under someone suits you more than standing alone, and that keeps your seat in the back row past its use. You need no one's permission to stop being the student.",
               "cost_self": "Staying the student keeps you safe and small. You would rather stay under what you are learning than stand on what you know, and staying asks nothing of you. You pass up the place meant for you for one more year of learning.",
-              "cost_others": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it."
+              "cost_others": "Your door stays closed while you stay the student. You keep learning under someone else's wing instead of spreading your own, and the people who need your shelter wait outside. Each year you remain the student is a year they go without it."
             }
           },
           {
@@ -601,6 +601,14 @@
           "cost_others": "When others look to you for a call, you wait to be told too. You want the shelter of a wiser word first, and the people counting on you wait while you ask. They lose days to a decision you had already reached."
         }
       }
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
+      "finding": "metal:MT-35",
+      "replaced": "Your door stays closed while you stay the student. You keep your knowledge under another's wing rather than make one of it, and the ones who need your shelter stand outside. Every year as the student, you keep a shelter from people who needed it."
     }
   ]
 }
