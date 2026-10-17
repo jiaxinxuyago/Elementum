@@ -22,9 +22,10 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, you put standing alone and matching a rival ahead of resting, so the source empties faster than it refills.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, it has no outlet, and you keep your own company rather than a peer's and race people who never entered. You carry more than anyone near you ever sees.",
-      "advise_catalyst": "You go it alone most easily when you have the least to go on. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down.",
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, the well is shallow. Every push takes from what little you hold, and the bottom comes early.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, the depth has no outlet. Your strength and your wants pile up inside, and you carry more than anyone near you ever sees.",
+      "definition_balanced": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. In balance, the tide goes out and comes back in. You spend and refill in turn, and your strength holds.",
+      "advise_catalyst": "Every push you make draws on a reserve that was small to begin with. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down.",
       "advise_friction": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Hand someone above you a finish date in writing, then clear one small job today."
     },
     "cta_verdict": "Your stamina rises and falls in long swings, and you spend the low stretches on your own more often than in company.",
@@ -219,6 +220,46 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 5, the Water core; craft audit violations re-cut, the Fire and Wood shares and four audits on Opus)",
       "replaced": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 · S5",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared catalyst",
+      "replaced": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, you put standing alone and matching a rival ahead of resting, so the source empties faster than it refills."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise catalyst",
+      "replaced": "You go it alone most easily when you have the least to go on. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared friction",
+      "replaced": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, it has no outlet, and you keep your own company rather than a peer's and race people who never entered. You carry more than anyone near you ever sees."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, the well is shallow. Each effort draws on what little you hold, and the bottom comes early."
     }
   ]
 }

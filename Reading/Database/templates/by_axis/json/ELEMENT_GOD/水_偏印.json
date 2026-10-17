@@ -63,6 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
+        "define": "As a catalyst, the intake runs short and you follow one stream to its source. What little comes in, you work out alone.",
         "ledger": [
           {
             "word": "Goes deep",
@@ -91,6 +92,7 @@
         ]
       },
       "friction": {
+        "define": "As a friction, the water rises faster than it drains, because you trust only what you know whole. Decisions wait while you turn each one over.",
         "ledger": [
           {
             "word": "Thinks too much",
@@ -521,6 +523,22 @@
       "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
       "finding": "K2 水_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)",
       "replaced": "You taught yourself your own route, and it is hard to pass on. Showing the steps means admitting there were none, and you hand over the answer rather than the method. Write the route down, because the way is what anyone learning from you misses."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
     }
   ]
 }

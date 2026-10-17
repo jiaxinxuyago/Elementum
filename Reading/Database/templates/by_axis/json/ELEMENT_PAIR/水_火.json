@@ -20,10 +20,11 @@
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the start comes late, and you want a far chance as much as steady pay. You pay most for what you never claim.",
-      "definition_friction": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light outruns its fuel, and you chase a new opening rather than keep what you have. You end up starting more than you ever finish.",
-      "advise_catalyst": "You feel safer planning a thing than starting it, and the plan is where most of your chances end. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing.",
-      "advise_friction": "Seek Water, your own Body energy. Water is the deep you draw from: sleep, food, the slow fill that comes before anything is lit. Let it hold what Fire burns. You spend yourself on every bright chance because stopping feels like losing. Keep one night a week unlit, in bed early. Eat before you say yes to anything."
+      "definition_catalyst": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want a far chance as much as steady pay. You lose most on what you leave unclaimed.",
+      "definition_friction": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light burns through its fuel. Gain and loss fill your whole mind, and little of you is left to rest.",
+      "definition_balanced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. New ground and old ground both get your warmth, and it reaches the people you provide for.",
+      "advise_catalyst": "Most of your chances are lost by never being claimed, not by failing. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing.",
+      "advise_friction": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it hold what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Keep one night a week unlit, in bed early."
     },
     "cta_verdict": "You reach for what matters to you with care as much as with nerve, and over the years the balance you strike shapes what you get to keep.",
     "carry": {
@@ -260,6 +261,54 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Land them all, do the second pass on all three\" (a want or permission on every shown page, no capacity close, the cost-to-others close carries the cost; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light outruns its fuel, and you chase a new opening rather than keep what you have. You end up starting more than you can feed."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 · S5",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared catalyst",
+      "replaced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the start comes late, and you want a far chance as much as steady pay. You pay most for what you never claim."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise catalyst",
+      "replaced": "You feel safer planning a thing than starting it, and the plan is where most of your chances end. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared friction",
+      "replaced": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light outruns its fuel, and you chase a new opening rather than keep what you have. You end up starting more than you ever finish."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise friction",
+      "replaced": "Seek Water, your own Body energy. Water is the deep you draw from: sleep, food, the slow fill that comes before anything is lit. Let it hold what Fire burns. You spend yourself on every bright chance because stopping feels like losing. Keep one night a week unlit, in bed early. Eat before you say yes to anything."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it hold what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Keep one night a week unlit, in bed early. Eat before you say yes to anything."
     }
   ]
 }

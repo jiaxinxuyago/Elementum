@@ -22,10 +22,11 @@
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, it opens too rarely, and you give quietly rather than perform what you are good at. You keep a talent waiting that deserves an audience.",
-      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, it never shuts. You please people as much as you prove them wrong, and you pay for every word with sleep you skip.",
-      "advise_catalyst": "You hold your work in until it is perfect, and perfect never comes. Let the rough version out. Play the half-written song for one friend. Post the drawing with the mistake left in. Tell a child the story before you know its ending. Say one unchecked opinion out loud.",
-      "advise_friction": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it hold what Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning."
+      "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts once the evening is over.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, the gate never shuts, because what you feel wants out at once. You spend yourself on each moment and keep little for the work ahead.",
+      "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, the gate lets your work out when it is ready. Your warmth and wit reach people at the moment they count.",
+      "advise_catalyst": "Your light runs short, and what you make on your own rarely gets seen. Let the rough version out. Play the half-written song for one friend. Post the drawing with the mistake left in. Tell a child the story before you know its ending. Say one unchecked opinion out loud.",
+      "advise_friction": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning."
     },
     "cta_verdict": "You come alive when something you made gets seen, and most weeks you judge yourself by how much of you got out.",
     "carry": {
@@ -260,6 +261,54 @@
       "date": "2026-10-15",
       "ruling": "owner 2026-10-15: batch 2 read on four examples (\"Batch 2 here all win over the original ones\"), passed on the condition of a conformance audit; five independent audits, 36 craft violations re-cut and re-gated, 25 of 25 files pass; \"Once the audit is clean, adopt batch 2\"",
       "replaced": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 · S5",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared catalyst",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, it opens too rarely, and you give quietly rather than perform what you are good at. You keep a talent waiting that deserves an audience."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise catalyst",
+      "replaced": "You hold your work in until it is perfect, and perfect never comes. Let the rough version out. Play the half-written song for one friend. Post the drawing with the mistake left in. Tell a child the story before you know its ending. Say one unchecked opinion out loud."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared friction",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, it never shuts. You please people as much as you prove them wrong, and you pay for every word with sleep you skip."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise friction",
+      "replaced": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it hold what Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts beyond the room it was made in."
     }
   ]
 }

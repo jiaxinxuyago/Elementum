@@ -63,6 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
+        "define": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you own wears well.",
         "ledger": [
           {
             "word": "Makes things last",
@@ -91,6 +92,7 @@
         ]
       },
       "friction": {
+        "define": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no space for anything new.",
         "ledger": [
           {
             "word": "Keeps everything",
@@ -561,6 +563,30 @@
       "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
       "finding": "K2 土_正财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
       "replaced": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Being chosen again is a thing you give out loud, and you give it less than you mean to."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no room for anything new."
     }
   ]
 }

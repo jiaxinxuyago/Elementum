@@ -22,10 +22,11 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. As a catalyst, you bend sooner and lean on a peer's view or step back from a stake you share. You end up living by calls that were not yours.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, it has no outlet, and you hold peers to your pace or take more than your share. You stay in front with fewer partners each year.",
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and you care where it goes. You stand firmest with a clear stake of your own.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. You give up closeness to keep your place.",
+      "definition_balanced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, you stand on your own strength and still lean on a peer when it helps. You keep your ground without having to prove it.",
       "advise_catalyst": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Ask one peer to hold the line with you for a week. Keep one routine that survives a bad month. Say yes sitting down.",
-      "advise_friction": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You mistake not moving for being right. Hand one decision to someone above you and live with it for a month. Put one plan up for review before you start it."
+      "advise_friction": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Hand one decision to someone above you. Put one plan up for review before you start it."
     },
     "cta_verdict": "You would rather go the distance than win a sprint, and you tend to do your best in the second half of anything long.",
     "carry": {
@@ -222,6 +223,54 @@
       "ruling": "Owner, 2026-10-17: small tweaks you can fix along the way while auditing",
       "finding": "earth:E-43",
       "replaced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, you bend sooner and lean on a peer's view or step back from a stake you share. You end up living by calls that were not yours."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 · S5",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared catalyst",
+      "replaced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. As a catalyst, you bend sooner and lean on a peer's view or step back from a stake you share. You end up living by calls that were not yours."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared friction",
+      "replaced": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, it has no outlet, and you hold peers to your pace or take more than your share. You stay in front with fewer partners each year."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise friction",
+      "replaced": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You mistake not moving for being right. Hand one decision to someone above you and live with it for a month. Put one plan up for review before you start it."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. Closeness is what you give up to keep your place."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Hand one decision to someone above you and live with it for a month. Put one plan up for review before you start it."
     }
   ]
 }

@@ -1,0 +1,161 @@
+[
+  {
+    "pair_cell": "木_木",
+    "tails": {
+      "木_比肩": {
+        "catalyst": "Running thin, there is only enough of you for one. You spend it on ground you know, and what grows there holds its shape.",
+        "friction": "Running over, you fill all the room around you, since relying on yourself is what feels safe. Help finds no way in, and the weight stays with you."
+      },
+      "木_劫财": {
+        "catalyst": "Running thin, your reserve is shallow and comes in quick bursts. The people around you are where the rest of your reach comes from.",
+        "friction": "Running over, the reach outgrows its roots. Falling behind is what you dread, and each new push costs ground the last one won."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "Running thin, the reserve under your reach is small and every push draws on all of it. You often run out before the thing is done."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "Running over, your push outgrows every plan and partner, because your own way is the one you trust. You press on and lose the people beside you."
+      }
+    },
+    "balanced_tail": "In balance, what goes in keeps pace with the reach. You hold your own ground and still have room for a peer beside you.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "Holding yourself up takes more than you are taking in. Sleep a full night before a big decision rather than after it. Share one weekly meal with a peer who is not competing with you. Once a month, hand one errand to someone else and leave it with them. Sit down for ten minutes before you say yes."
+    },
+    "advise_friction": {
+      "decision": "rewrite",
+      "text": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Give one plan to someone above you and take their deadline as final. Finish the small thing first."
+    }
+  },
+  {
+    "pair_cell": "木_火",
+    "tails": {
+      "火_食神": {
+        "catalyst": "As a catalyst, the light burns low and reaches only the people nearest you. What little shows comes out as warmth.",
+        "friction": "As a friction, the warmth runs toward the comfort you need. Your hours go to the soft option and the next favour, and your own work stays undone."
+      },
+      "火_伤官": {
+        "catalyst": "As a catalyst, the light burns low and comes in short bright flashes. Each one catches when the moment calls for it.",
+        "friction": "As a friction, the flame burns hotter than the moment asks, because you come alive in the light. Each blaze costs you strength you meant to keep."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts beyond the room it was made in."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, the gate never shuts, because what you feel wants out at once. You spend yourself on each moment and keep little for the work ahead."
+      }
+    },
+    "balanced_tail": "In balance, the gate lets your work out when it is ready. Your warmth and wit reach people at the moment they count.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "Your light runs short, and what you make on your own rarely gets seen. Let the rough version out. Play the half-written song for one friend. Post the drawing with the mistake left in. Tell a child the story before you know its ending. Say one unchecked opinion out loud."
+    },
+    "advise_friction": {
+      "decision": "rewrite",
+      "text": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning."
+    }
+  },
+  {
+    "pair_cell": "木_土",
+    "tails": {
+      "土_偏财": {
+        "catalyst": "As a catalyst, firm ground is scarce and your eyes go to the next field before this one settles. What you gain passes on through your hands.",
+        "friction": "As a friction, more comes within reach than you can hold, because something new is what lifts you. Much of what you claim slips away before it pays."
+      },
+      "土_正财": {
+        "catalyst": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you own wears well.",
+        "friction": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no room for anything new."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish."
+      }
+    },
+    "balanced_tail": "In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "The ground under your plans is thinner than they need. Put one goal in writing with a date beside it. Move a fixed sum into savings on the same day each month. Tell the person you love one plan for the year and keep to it. Finish the small thing before you start another."
+    },
+    "advise_friction": {
+      "decision": "rewrite",
+      "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Eat a real meal before any decision about money. Sleep on every yes before you give it."
+    }
+  },
+  {
+    "pair_cell": "木_金",
+    "tails": {
+      "金_七杀": {
+        "catalyst": "As a catalyst, the line runs faint and shows only when something urgent draws it. Calm days leave you without an edge.",
+        "friction": "As a friction, the line cuts deeper than any task asks, because standing down feels unsafe. You wear out long before the work does."
+      },
+      "金_正官": {
+        "catalyst": "As a catalyst, the line runs faint and you draw it yourself. Your rank was built one rule at a time.",
+        "friction": "As a friction, the line closes in around you, because a clean record is what lets you rest. Much that is yours stays unclaimed."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, the line runs faint. Most of your order is the order you bring, and little of it comes handed down."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and rest never comes."
+      }
+    },
+    "balanced_tail": "In balance, the line holds firm without closing in. You keep the standards you chose and still leave room to grow.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "Little of the order in your life comes from outside you. Give one deadline a month to someone else to hold. Join one class that meets at a set time. Send the work with one mistake left in it. Write one rule on a card and keep it for a week."
+    },
+    "advise_friction": {
+      "decision": "rewrite",
+      "text": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Spend one evening a week learning something nobody grades. Sleep on the next hard reply before you send it."
+    }
+  },
+  {
+    "pair_cell": "木_水",
+    "tails": {
+      "水_偏印": {
+        "catalyst": "As a catalyst, the intake runs short and you follow one stream to its source. What little comes in, you work out alone.",
+        "friction": "As a friction, the water rises faster than it drains, because you trust only what you know whole. Decisions wait while you turn each one over."
+      },
+      "水_正印": {
+        "catalyst": "As a catalyst, the intake runs short. What comes in reaches you through safe places and steady people, and it settles slowly and stays.",
+        "friction": "As a friction, the water pools and goes still. Safe places draw you in, and your own plans wait there with you."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, the intake runs short, but what does come in sinks far and stays. You know more by feel than by proof."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, the Mind fills faster than it empties, because knowing more feels safer than moving. The moment to act passes while you wait."
+      }
+    },
+    "balanced_tail": "In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "Your mind takes in less than it could use. Ahead of a decision, read a full chapter instead of the summary. Ask one person who knows more than you and wait for the whole reply. Keep a notebook by the bed for the thought that arrives late. Sleep on anything that can wait a night."
+    },
+    "advise_friction": {
+      "decision": "keep"
+    }
+  }
+]

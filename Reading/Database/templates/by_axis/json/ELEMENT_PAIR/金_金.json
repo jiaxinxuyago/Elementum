@@ -22,10 +22,11 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. You lose a peer for each argument you win.",
+      "definition_catalyst": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, your strength gives out sooner than you let on. You spend it as if it were full and seldom stop to refill.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your strength has nowhere to go and gets spent holding your ground against the people beside you. You lose a peer for each argument you win.",
+      "definition_balanced": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. In balance, your strength is firm but never stiff. You stand on your own and still let a peer share the weight.",
       "advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Take rest in first and sleep before the hard decision rather than after it. Let one peer carry a job you could do yourself. Sit out one contest a month on purpose. Eat before you answer the message.",
-      "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it spend what Metal stores. You stay in charge of yourself by being right. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it."
+      "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no one above you, you answer only to yourself. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it."
     },
     "cta_verdict": "Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you.",
     "carry": {
@@ -355,6 +356,38 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"I read them, much better, concise and soft. Land them all\" (plain cost, owned cause, open door; BIZ_04; backlog/2026-10-16_plain-cost-owned-cause.md)",
       "replaced": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. Remember that you trade a peer for each argument won."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 · S5",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared catalyst",
+      "replaced": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared friction",
+      "replaced": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. You lose a peer for each argument you win."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise friction",
+      "replaced": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it spend what Metal stores. You stay in charge of yourself by being right. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it."
     }
   ]
 }

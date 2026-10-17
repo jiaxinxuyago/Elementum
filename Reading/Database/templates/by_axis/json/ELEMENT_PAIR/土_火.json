@@ -22,10 +22,11 @@
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, your Mind is left wanting, so you either chase hunches alone or wait to be taught. You end up circling the same few ideas.",
-      "definition_friction": "Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you keep taking in after you have enough, sheltering an idea or a person rather than testing either. You know far more than you ever tried.",
-      "advise_catalyst": "You learn by being warmed, and warmth is something you have to go and sit near. Once a month sit in on a class or a talk as a listener only. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night.",
-      "advise_friction": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Fix one small thing at home with what you already know."
+      "definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, little warmth or teaching reaches you. Your Mind learns to manage without it, and what you understand you reached on your own.",
+      "definition_friction": "Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you absorb more than you can use, and the warmth keeps you from testing any of it. Much of what you hold never meets the world.",
+      "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. In balance, what you take in warms you without weighing you down. You learn from others and still make each idea your own.",
+      "advise_catalyst": "Your Mind grows on warmth, and warmth is something you have to go and sit near. Once a month go to a class or a talk just to take it in. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night.",
+      "advise_friction": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and it sits in you unspent. Decide one open question by a date. Fix one small thing at home with what you already know."
     },
     "cta_verdict": "You take a thing in once you see why it matters to you, so you tend to ask what it is for more than how it works.",
     "carry": {
@@ -253,6 +254,54 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Run 4 and 5 if you have not done so, complete the earth and water core\" and \"Go ahead with Opus, notify me when live\" (batch 4, the Earth core; craft audit violations re-cut, all five audits and all five shares re-cut on Opus)",
       "replaced": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 · S5",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared catalyst",
+      "replaced": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, your Mind is left wanting, so you either chase hunches alone or wait to be taught. You end up circling the same few ideas."
+    },
+    {
+      "field": "function.advise_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise catalyst",
+      "replaced": "You learn by being warmed, and warmth is something you have to go and sit near. Once a month sit in on a class or a talk as a listener only. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared friction",
+      "replaced": "Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you keep taking in after you have enough, sheltering an idea or a person rather than testing either. You know far more than you ever tried."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 advise friction",
+      "replaced": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and each new idea costs you the last. Decide one open question by a date. Fix one small thing at home with what you already know."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you take in more than you can use, and the warmth keeps you from testing any of it. Much of what you hold never meets the world."
     }
   ]
 }

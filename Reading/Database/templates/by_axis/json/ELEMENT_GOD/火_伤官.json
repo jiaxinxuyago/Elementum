@@ -63,6 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
+        "define": "As a catalyst, the light burns low and comes in short bright flashes. Each one catches when the moment calls for it.",
         "ledger": [
           {
             "word": "Speaks up",
@@ -91,6 +92,7 @@
         ]
       },
       "friction": {
+        "define": "As a friction, the flame burns hotter than the moment asks, because you come alive in the light. Each blaze costs you strength you meant to keep.",
         "ledger": [
           {
             "word": "Talks back",
@@ -545,6 +547,22 @@
       "ruling": "Owner 2026-10-17: M1; the voice audit's rationed \"room\" and banned \"verdict\"",
       "finding": "M1 voice audit",
       "replaced": "You speak up right where it has gone quiet. You hear silence as agreeing, and you say the unsaid thing rather than sit with it. You are usually the only one in the room who will."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
     }
   ]
 }

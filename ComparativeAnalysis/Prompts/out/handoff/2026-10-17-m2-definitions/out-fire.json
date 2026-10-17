@@ -1,0 +1,158 @@
+[
+  {
+    "pair_cell": "火_木",
+    "tails": {
+      "木_偏印": {
+        "catalyst": "As a catalyst, little soaks in from outside. Your own stores feed you, and hunches fill the gaps where lessons would have gone.",
+        "friction": "As a friction, you take in far more than you use. What you know piles up out of sight, because a thing half known feels unsafe to act on."
+      },
+      "木_正印": {
+        "catalyst": "As a catalyst, little soaks in and shelter seldom comes your way. The safe place you look for is the one you end up making for others.",
+        "friction": "As a friction, shelter gathers round you thicker than you need, and the near and known feel like the only safe ground. Nothing new finds room to take root."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, more soaks in than you ever let go, whether an idea or a person. What you take in stays close and stops growing."
+      }
+    },
+    "balanced_tail": "In balance, you take in about as much as you give out. What you learn settles in and still finds a use.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "You run on what you already have, and that feels like energy until it runs out. Take a class in something nobody pays you for. Keep one evening a week with no plans. Ask someone older how they did it and listen past the first sentence. Nap before the next idea."
+    },
+    "advise_friction": {
+      "decision": "rewrite",
+      "text": "Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go feels like loss. Decide one open question by a written date. Hand someone one unfinished page."
+    }
+  },
+  {
+    "pair_cell": "火_火",
+    "tails": {
+      "火_比肩": {
+        "catalyst": "Running thin, the reserve is small and you spend it in quick turns. You trust your own spark more than any store and refill on the move.",
+        "friction": "Running over, your strength is too much your own. Leaning on anyone feels like losing ground, and every load stays yours to carry."
+      },
+      "火_劫财": {
+        "catalyst": "Running thin, the reserve is small and needs a contest to light it. Your heat comes most easily from someone else's.",
+        "friction": "Running over, your strength hunts for a contest in everything. Your need to stay ahead burns through rest and friendship alike."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "Running thin, the reserve goes first, because you would rather keep moving than stop to refill. You pay for each bright day with a tired one."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "Running over, your strength wants to carry everything itself, since needing anyone feels like falling short. You win most days and pay in company."
+      }
+    },
+    "balanced_tail": "In balance, the warmth holds steady and you spend no faster than you refill. A peer is company and a contest is a game.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "Your strength runs on what you put back, and putting back is the part you skip. Refuel on purpose. Sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day."
+    },
+    "advise_friction": {
+      "decision": "keep"
+    }
+  },
+  {
+    "pair_cell": "火_土",
+    "tails": {
+      "土_食神": {
+        "catalyst": "As a catalyst, the gate opens slowly and little comes through at once. The little that does is modest and useful and asks for no audience.",
+        "friction": "As a friction, the gate stays open for anyone in need. Being needed feels like home, but your own plans wait while the supply runs down."
+      },
+      "土_伤官": {
+        "catalyst": "As a catalyst, the gate opens slowly. Nothing of yours comes through until it is solid, and then it comes out blunt and complete.",
+        "friction": "As a friction, the gate stays open and anything held in feels false to you. Your strength drains into more than each moment needs."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, the gate sticks and only a little of what you have gets out. Much of your kindness and talent stays unseen."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, the gate never shuts, and more goes out of you than comes in. You run empty on what you have already spent."
+      }
+    },
+    "balanced_tail": "In balance, the gate opens at its own steady pace. What comes out is kind and true, and it arrives when it is wanted.",
+    "advise_catalyst": {
+      "decision": "keep"
+    },
+    "advise_friction": {
+      "decision": "rewrite",
+      "text": "Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it take in what Earth keeps handing out. Whatever you feel or think leaves you before it has had time to grow. Read one chapter ahead of giving an opinion. Keep one evening a week for books."
+    }
+  },
+  {
+    "pair_cell": "火_金",
+    "tails": {
+      "金_偏财": {
+        "catalyst": "As a catalyst, the edge runs thin. Your reach goes far and your grip stays light.",
+        "friction": "As a friction, you claim far more than you see through. Your freedom lives in the next chance, and the last one rarely pays."
+      },
+      "金_正财": {
+        "catalyst": "As a catalyst, the edge runs thin and you take on little. Each piece you pick up is carried to its end.",
+        "friction": "As a friction, what you own starts to own you. A loss weighs more with you than any gain."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, the edge runs thin. You work in short strokes and your gains come in pieces."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, your Action takes more strength than you have, and little is left to enjoy what is already yours."
+      }
+    },
+    "balanced_tail": "In balance, you claim what you can carry and see it through. What comes in is enjoyed and kept.",
+    "advise_catalyst": {
+      "decision": "rewrite",
+      "text": "Your drive is short, and each piece of it needs a clear place to go. Say yes to one opening and no to the next two out loud. Move a fixed sum into savings each month before you spend the rest. Take whoever you love somewhere new and close by. Empty your pockets into a jar each night."
+    },
+    "advise_friction": {
+      "decision": "rewrite",
+      "text": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down."
+    }
+  },
+  {
+    "pair_cell": "火_水",
+    "tails": {
+      "水_七杀": {
+        "catalyst": "As a catalyst, the pull stays faint until pressure comes. Your rank is earned on hard days more than calm ones.",
+        "friction": "As a friction, each rule becomes a demand on you. Falling short feels worse than strain to you, and the weight is seldom set down."
+      },
+      "水_正官": {
+        "catalyst": "As a catalyst, the pull stays faint. You rise by small, steady steps.",
+        "friction": "As a friction, good standing feels like shelter and the rules weigh more than your wishes. Much goes untried and unspoken."
+      }
+    },
+    "shared": {
+      "catalyst": {
+        "decision": "rewrite",
+        "tail": "As a catalyst, the pull stays faint and you seldom reach for rank. Rank comes late and by your record."
+      },
+      "friction": {
+        "decision": "rewrite",
+        "tail": "As a friction, the rules outweigh what you want. You pay for it in ease."
+      }
+    },
+    "balanced_tail": "In balance, the rules you keep are your own choice. Rank comes as the work earns it.",
+    "advise_catalyst": {
+      "decision": "keep"
+    },
+    "advise_friction": {
+      "decision": "keep"
+    }
+  }
+]

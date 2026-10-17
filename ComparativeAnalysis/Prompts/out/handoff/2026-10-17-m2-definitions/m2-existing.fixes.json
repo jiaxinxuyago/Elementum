@@ -1,0 +1,447 @@
+[
+ {
+  "key": "PAIR 土_木 · function.definition_catalyst",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. As a catalyst, too little is asked of you from outside. The demands you live by are the ones you set yourself.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 土_木 · function.definition_friction",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Wood builds it upward, stage by stage. As a friction, the demands stack up past what you can carry. You stay at attention long after the day is done, with little room left for ease.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 土_木 · function.advise_friction",
+  "text": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You meet every demand as if your standing hangs on it. Read one page on why the rule exists before you answer it. Sit in the sun a while.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 土_火 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. As a catalyst, little warmth or teaching reaches you. Your Mind learns to manage without it, and what you understand you reached on your own.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 土_火 · function.advise_catalyst",
+  "text": "Your Mind grows on warmth, and warmth is something you have to go and sit near. Once a month go to a class or a talk just to take it in. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 土_火 · function.definition_friction",
+  "text": "Your Mind is where the world soaks in and becomes yours. What moves you stays, because Fire keeps it warm. As a friction, you take in more than you can use, and the warmth keeps you from testing any of it. Much of what you hold never meets the world.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 土_火 · function.advise_friction",
+  "text": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and it sits in you unspent. Decide one open question by a date. Fix one small thing at home with what you already know.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 土_土 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. Running thin, your strength has less in reserve and you care where it goes. You stand firmest with a clear stake of your own.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 土_土 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. Closeness is what you give up to keep your place.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 土_土 · function.advise_friction",
+  "text": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Hand one decision to someone above you and live with it for a month. Put one plan up for review before you start it.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 土_金 · function.definition_catalyst",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. As a catalyst, little gets through the gate and what does is made with care. A piece leaves you only when it meets your own standard.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 土_金 · function.advise_catalyst",
+  "text": "Your standard is high enough that little ever leaves your hands. Give one thing you made to someone this month, as it is. Show one rough draft before it feels ready. Let a beginner do one thing badly beside you. Sign one piece of work.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 土_金 · function.definition_friction",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Metal gives it a hard finish, nothing left half done. As a friction, more goes out through the gate than comes back in, and it drains what holds you up. You wear yourself thin on getting it right.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 土_金 · function.advise_friction",
+  "text": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. More goes out of you than comes back in. Sit on one big question a day ahead of your reply. Read a page by someone you think is wrong.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 土_水 · function.definition_catalyst",
+  "text": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. As a catalyst, the current runs thin. You choose where it goes, and each gain you make is one you worked for.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 土_水 · function.advise_catalyst",
+  "text": "Your Action grows when it has somewhere to go and something to bring back. Put one plan into motion this season, a trip booked or a small venture opened with money you can spare. Say yes to one invitation before you have checked the cost. Call home once a month.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 土_水 · function.definition_friction",
+  "text": "Your Action is what you go and build, claim and provide. Water makes it pour and spread as it goes. As a friction, more pours through than you can settle. No gain ever feels like firm ground, and what comes your way is rarely enjoyed.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 土_水 · function.advise_friction",
+  "text": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Sleep before you say yes to anything new. Eat one meal a day sitting down, with nothing open.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 火_木 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 火_木 · function.advise_catalyst",
+  "text": "You run on what you already have, and that feels like energy until it runs out. Take a class in something nobody pays you for. Keep one evening a week with no plans. Ask someone older how they did it and listen past the first sentence. Nap before the next idea.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 火_木 · function.definition_friction",
+  "text": "Your Mind is where the world soaks in and becomes yours. Growing is what Wood makes of it. As a friction, more soaks in than you ever let go, whether an idea or a person. What you take in stays close and stops growing.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 火_木 · function.advise_friction",
+  "text": "Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go feels like loss. Decide one open question by a written date. Hand someone one unfinished page.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 火_火 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you would rather keep moving than stop to refill. You pay for each bright day with a tired one.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 火_火 · function.advise_catalyst",
+  "text": "Your strength runs on what you put back, and putting back is the part you skip. Refuel on purpose. Sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 火_火 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, your strength wants to carry everything itself, since needing anyone feels like falling short. You win most days and pay in company.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 火_土 · function.definition_catalyst",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks and only a little of what you have gets out. Much of your kindness and talent stays unseen.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 火_土 · function.definition_friction",
+  "text": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, and more goes out of you than comes in. You run empty on what you have already spent.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 火_土 · function.advise_friction",
+  "text": "Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it take in what Earth keeps handing out. Whatever you feel or think leaves you before it has had time to grow. Read one chapter ahead of giving an opinion. Keep one evening a week for books.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 火_金 · function.definition_catalyst",
+  "text": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, the edge runs thin. You work in short strokes and your gains come in pieces.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 火_金 · function.advise_catalyst",
+  "text": "Your drive is short, and each piece of it needs a clear place to go. Say yes to one opening and no to the next two out loud. Move a fixed sum into savings each month before you spend the rest. Take whoever you love somewhere new and close by. Empty your pockets into a jar each night.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 火_金 · function.definition_friction",
+  "text": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, your Action takes more strength than you have, and little is left to enjoy what is already yours.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 火_金 · function.advise_friction",
+  "text": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on what you claim before yourself, and tired is where you make your worst deals. Sleep on any new venture before you answer. Eat lunch sitting down.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 火_水 · function.definition_catalyst",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint and you seldom reach for rank. Rank comes late and by your record.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 火_水 · function.definition_friction",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the rules outweigh what you want. You pay for it in ease.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 金_木 · function.definition_catalyst",
+  "text": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, the growth runs thin, and your hands have less to work on than they want. You build less than your strength could carry.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 金_木 · function.advise_catalyst",
+  "text": "You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Put a date on one money goal and meet it. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 金_木 · function.definition_friction",
+  "text": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done. As a friction, wanting outruns strength, and the work always asks for more than you have. You spend yourself faster than you refill.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 金_木 · function.advise_friction",
+  "text": "Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out. You treat rest as time stolen from building. Sleep a full night ahead of any new yes. Eat before you plan the next thing.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 金_火 · function.definition_catalyst",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. As a catalyst, those demands come rarely, and you miss having something to answer to. You stay half-used until a real test arrives.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 金_火 · function.advise_catalyst",
+  "text": "You do your best work when someone is allowed to tell you no. Pick one job this month that comes with a deadline and a judge, and ship it on time. Make the hard call out loud in front of the people it affects. Ask someone you respect to grade one piece of your work, and hear the score.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 金_火 · function.definition_friction",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up faster than you rest, and every demand feels like yours to meet. You end up tired and doubting yourself.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 金_土 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, the ground runs short, and new things pass through before they settle. You take longer than most to trust what you learn.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 金_土 · function.definition_friction",
+  "text": "Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, and you take in far more than you ever act on. You stay put long after it is time to move.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 金_土 · function.advise_friction",
+  "text": "Seek Wood, the Action energy. Wood draws on the ground it grows from and turns what it takes into something built. Let it spend what Earth stores. You stay with what you already know rather than put it to use. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 金_金 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. Running thin, your strength gives out sooner than you let on. You spend it as if it were full and seldom stop to refill.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 金_金 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your strength has nowhere to go and gets spent holding your ground against the people beside you. You lose a peer for each argument you win.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 金_金 · function.advise_friction",
+  "text": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no one above you, you answer only to yourself. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 金_水 · function.definition_catalyst",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, the flow runs short. Your kindness and wit come out fast and then run dry.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 金_水 · function.advise_catalyst",
+  "text": "What you have to give runs short, and it counts for nothing until someone hears it. Send the page before the third read. Tell someone one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 金_水 · function.definition_friction",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and more goes out of you than comes back. You run empty long before you run quiet.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 金_水 · function.advise_friction",
+  "text": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Read a whole chapter before you answer. Sit with one question overnight.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 水_木 · function.definition_catalyst",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, the growth runs short. Your warmth and your boldest ideas reach people early, and little comes after to carry them further.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 水_木 · function.advise_catalyst",
+  "text": "What you let out comes in bursts, and the slow work in between stays hidden. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a friend. Send the text without rereading it.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 水_木 · function.definition_friction",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You spend yourself on how the moment feels, and little is left over for later.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 水_木 · function.advise_friction",
+  "text": "Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it hold what Wood pours out. Nothing you let out will fill you back up. Read one whole chapter before you make the next thing. Let one question sit overnight.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 水_火 · function.definition_catalyst",
+  "text": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. As a catalyst, the warmth runs short, and you want a far chance as much as steady pay. You lose most on what you leave unclaimed.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 水_火 · function.advise_catalyst",
+  "text": "Most of your chances are lost by never being claimed, not by failing. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 水_火 · function.definition_friction",
+  "text": "Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light burns through its fuel. Gain and loss fill your whole mind, and little of you is left to rest.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 水_火 · function.advise_friction",
+  "text": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it hold what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Keep one night a week unlit, in bed early. Eat before you say yes to anything.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 水_土 · function.definition_catalyst",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the frame runs thin. Little structure comes from outside, and you supply the rest from your own will.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 水_土 · function.advise_catalyst",
+  "text": "You carry every line you live by alone, since few deadlines come to you from outside. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Tell one person above you what you will deliver and when. Keep one standing rule at home, the same sleep hour every night. Pay one bill the day it arrives.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 水_土 · function.definition_friction",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, the frame closes in. You need to stand right with the rules, and that leaves you little room of your own.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 水_土 · function.advise_friction",
+  "text": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Before your next big yes, ask one person who has made the same call, and write down what they say. Then sleep on it.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 水_金 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. As a catalyst, little flows in from outside. What does reach you is held close and goes deep.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 水_金 · function.advise_catalyst",
+  "text": "You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 水_金 · function.definition_friction",
+  "text": "Your Mind is where the world soaks in and becomes yours. Metal makes it hard, keeping only what passed a test. As a friction, the test never ends. Nothing feels safe to you until it is right, and making sure eats the hours you meant for living.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 水_金 · function.advise_friction",
+  "text": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft you would accept from others. Decide one small thing with no second look.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 水_水 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Water makes it flow, and your stamina comes and goes in long stretches. Running thin, the well is shallow. Each effort draws on what little you hold, and the bottom comes early.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 水_水 · function.advise_catalyst",
+  "text": "Every push you make draws on a reserve that was small to begin with. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 水_水 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, the depth has no outlet. Your strength and your wants pile up inside, and you carry more than anyone near you ever sees.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 木_木 · function.definition_catalyst",
+  "text": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You often run out before the thing is done.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 木_木 · function.advise_catalyst",
+  "text": "Holding yourself up takes more than you are taking in. Sleep a full night before a big decision rather than after it. Share one weekly meal with a peer who is not competing with you. Once a month, hand one errand to someone else and leave it with them. Sit down for ten minutes before you say yes.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 木_木 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every plan and partner, because your own way is the one you trust. You press on and lose the people beside you.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 木_木 · function.advise_friction",
+  "text": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Give one plan to someone above you and take their deadline as final. Finish the small thing first.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 木_火 · function.definition_catalyst",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts beyond the room it was made in.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 木_火 · function.advise_catalyst",
+  "text": "Your light runs short, and what you make on your own rarely gets seen. Let the rough version out. Play the half-written song for one friend. Post the drawing with the mistake left in. Tell a child the story before you know its ending. Say one unchecked opinion out loud.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 木_火 · function.definition_friction",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, the gate never shuts, because what you feel wants out at once. You spend yourself on each moment and keep little for the work ahead.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 木_火 · function.advise_friction",
+  "text": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Read one slow book you keep to yourself. Sleep on the next idea, unsaid till morning.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 木_土 · function.definition_catalyst",
+  "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 木_土 · function.advise_catalyst",
+  "text": "The ground under your plans is thinner than they need. Put one goal in writing with a date beside it. Move a fixed sum into savings on the same day each month. Tell the person you love one plan for the year and keep to it. Finish the small thing before you start another.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 木_土 · function.definition_friction",
+  "text": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 木_土 · function.advise_friction",
+  "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what one body can bear. Eat a real meal before any decision about money. Sleep on every yes before you give it.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 木_金 · function.definition_catalyst",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs. As a catalyst, the line runs faint. Most of your order is the order you bring, and little of it comes handed down.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 木_金 · function.advise_catalyst",
+  "text": "Little of the order in your life comes from outside you. Give one deadline a month to someone else to hold. Join one class that meets at a set time. Send the work with one mistake left in it. Write one rule on a card and keep it for a week.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 木_金 · function.definition_friction",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and rest never comes.",
+  "id": "M2 shared friction"
+ },
+ {
+  "key": "PAIR 木_金 · function.advise_friction",
+  "text": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Spend one evening a week learning something nobody grades. Sleep on the next hard reply before you send it.",
+  "id": "M2 advise friction"
+ },
+ {
+  "key": "PAIR 木_水 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake runs short, but what does come in sinks far and stays. You know more by feel than by proof.",
+  "id": "M2 shared catalyst"
+ },
+ {
+  "key": "PAIR 木_水 · function.advise_catalyst",
+  "text": "Your mind takes in less than it could use. Ahead of a decision, read a full chapter instead of the summary. Ask one person who knows more than you and wait for the whole reply. Keep a notebook by the bed for the thought that arrives late. Sleep on anything that can wait a night.",
+  "id": "M2 advise catalyst"
+ },
+ {
+  "key": "PAIR 木_水 · function.definition_friction",
+  "text": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, because knowing more feels safer than moving. The moment to act passes while you wait.",
+  "id": "M2 shared friction"
+ }
+]

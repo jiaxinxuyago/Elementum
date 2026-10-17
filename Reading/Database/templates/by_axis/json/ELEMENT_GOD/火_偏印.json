@@ -63,6 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
+        "define": "As a catalyst, little teaching reaches you. Your Mind feeds on what it finds by itself, and insight arrives in flashes with nobody there to share it.",
         "ledger": [
           {
             "word": "Sees it whole",
@@ -91,6 +92,7 @@
         ]
       },
       "friction": {
+        "define": "As a friction, more pours in than you can share. You sink deep into whatever warms you most, and little of it reaches anyone near you.",
         "ledger": [
           {
             "word": "One-track",
@@ -481,6 +483,22 @@
       "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
       "finding": "K2 火_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
       "replaced": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. When you need to think, say so first and stay close enough to be good company."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
     }
   ]
 }

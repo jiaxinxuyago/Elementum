@@ -63,6 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
+        "define": "As a catalyst, little soaks in from outside. Your own stores feed you, and hunches fill the gaps where lessons would have gone.",
         "ledger": [
           {
             "word": "Senses it first",
@@ -91,6 +92,7 @@
         ]
       },
       "friction": {
+        "define": "As a friction, you take in far more than you use. What you know piles up out of sight, because a thing half known feels unsafe to act on.",
         "ledger": [
           {
             "word": "Thinks in circles",
@@ -502,6 +504,22 @@
       "ruling": "Owner 2026-10-17: M1; the voice audit's rationed \"room\" and banned \"verdict\"",
       "finding": "M1 voice audit",
       "replaced": "Sensing a thing first comes easier to you than waiting to be told. You sense the pause before an answer, and your guess runs past the words. The mood of a room reaches you before anyone has named it."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
     }
   ]
 }

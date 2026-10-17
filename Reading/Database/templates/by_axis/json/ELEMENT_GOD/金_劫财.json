@@ -63,6 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
+        "define": "Running thin, your strength needs someone across the table to wake it. With no one to measure against, you go flat.",
         "ledger": [
           {
             "word": "Competitive",
@@ -91,6 +92,7 @@
         ]
       },
       "friction": {
+        "define": "Running over, your will needs a contest and finds one wherever you go. Wanting to know where you stand costs you the company you wanted.",
         "ledger": [
           {
             "word": "Keeps score",
@@ -817,6 +819,30 @@
       "ruling": "Owner 2026-10-17: \"M1 approve, apply the fix across all content that has the issue\" (catalyst passages close on the gift, the price or the want, never on an instruction)",
       "finding": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)",
       "replaced": "Sharing a risk with someone is your warmest offer. Wanting them in it more than safe from it, you share the upside and the fall. Say the downside first, because you bring the people you like into risks sized to your nerve."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M2; the voice audit (rationed \"room\", phrase law v6, advice budget 60 words)",
+      "finding": "M2 voice audit",
+      "replaced": "Running over, your will needs a contest and finds one in every room. Wanting to know where you stand costs you the company you wanted."
     }
   ]
 }

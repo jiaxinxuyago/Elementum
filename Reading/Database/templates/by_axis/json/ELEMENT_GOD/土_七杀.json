@@ -63,6 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
+        "define": "As a catalyst, the frame runs thin, and it firms up only when the stakes rise.",
         "ledger": [
           {
             "word": "Calm under pressure",
@@ -91,6 +92,7 @@
         ]
       },
       "friction": {
+        "define": "As a friction, the frame presses in. Needing to be ready for the worst, you carry the strain long past the danger.",
         "ledger": [
           {
             "word": "Hard on yourself",
@@ -537,6 +539,22 @@
       "ruling": "Owner 2026-10-17: M1; the voice audit's rationed \"room\"",
       "finding": "M1 voice audit",
       "replaced": "Your calm is what you offer first in a crisis. You would rather carry the hard part for someone than watch them shake, and you take it off their hands before their calm gets a chance. Your steadiness leaves them little room to steady themselves."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2",
+      "replaced": null
     }
   ]
 }

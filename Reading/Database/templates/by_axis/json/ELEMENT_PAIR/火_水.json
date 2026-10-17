@@ -21,8 +21,9 @@
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint, so you answer a crisis more than you build a career and let your rank slip.",
-      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the pull turns inward, so you hold your rank rather than risk it on a crisis and pay in tests never taken.",
+      "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint and you seldom reach for rank. Rank comes late and by your record.",
+      "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the rules outweigh what you want. You pay for it in ease.",
+      "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. In balance, the rules you keep are your own choice. Rank comes as the work earns it.",
       "advise_catalyst": "You do your best work with a date on it and someone waiting at the other end. Give each big plan a finish line before you start it. Once a month, hand a decision to someone whose call you will keep. Tell one person your deadline. Set a stop time before you begin.",
       "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it hold what Water pours on you. You take every rule to heart faster than you take anything in. Learn one thing a week nobody asked you for. Give each new demand a night to sit."
     },
@@ -243,6 +244,30 @@
       "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 · S5",
+      "replaced": null
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared catalyst",
+      "replaced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint, so you answer a crisis more than you build a career and let your rank slip."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "m2-definitions",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
+      "finding": "M2 shared friction",
+      "replaced": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the pull turns inward, so you hold your rank rather than risk it on a crisis and pay in tests never taken."
     }
   ]
 }
