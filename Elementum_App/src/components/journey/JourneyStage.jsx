@@ -352,9 +352,12 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
   // THE EDGE's domain sheet (owner 2026-10-15, late): a row's domain mark
   // opens a sheet with the seat's teaser line and the unlock to the Domains
   // tier; unlocked, "Read it" lands in THE DOMAINS at that word.
+  // The title and the button name a seat only when that seat rules the word
+  // (`rules`); otherwise they promise no reading for it (bug check D2, owner
+  // 2026-10-17). The full landing is rebuilt with the Domain reading (DOM-1).
   const [domSheet, setDomSheet] = useState(null);
   useEffect(() => { setDomSheet(null); }, [screen, elOpen, elSec]);   // the sheet never outlives its page
-  const openDomainSheet = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0] || null; const face = elFaces.find((f) => f.god === god) || elFaces[0] || null; setDomSheet({ word, god, seat, face, elName: elScreen?.elName, el: elScreen?.el, teaser: seat ? (seat.teaser || seat.defline || firstSent(seat.reading || '')) : (face?.defline ? `${face.defline}. ${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.` : `${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`) }); };
+  const openDomainSheet = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0] || null; const face = elFaces.find((f) => f.god === god) || elFaces[0] || null; setDomSheet({ word, god, seat, rules: !!seat && has(seat), face, elName: elScreen?.elName, el: elScreen?.el, teaser: seat ? (seat.teaser || seat.defline || firstSent(seat.reading || '')) : (face?.defline ? `${face.defline}. ${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.` : `${elScreen?.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`) }); };
   const openDomainAt = (word, god) => { const has = (p) => (p.domains || []).includes(word); const seat = elPositions.find((p) => p.god === god && has(p)) || elPositions.find(has) || elPositions.find((p) => p.god === god) || elPositions[0]; setElSec('dom'); setPosOpen(seat?.id ?? null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); setDomScroll(seat ? word : null); };
   useEffect(() => { if (!domScroll) return; const t = setTimeout(() => { const el = document.querySelector(`.elpos-domread[data-dom="${domScroll}"]`) || document.querySelector('.elpos-row.open'); el?.scrollIntoView({ block: 'center', behavior: 'smooth' }); setDomScroll(null); }, 80); return () => clearTimeout(t); }, [domScroll, elSec, posOpen]);
   // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
@@ -1168,7 +1171,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
               <div className="wp-chipwrap"><span className="role-pill cat">{domSheet.word}</span></div>
             </div>
             <div className="wp-inner">
-              <p className="el-domsheet-title">{domSheet.seat ? `${domSheet.word}, read from ${domSheet.seat.term.replace(/^The /, 'the ')}.` : domSheet.face ? `${domSheet.word}, read from ${domSheet.face.persona} in your hidden stems.` : `${domSheet.word}, read from your pillars.`}</p>
+              <p className="el-domsheet-title">{domSheet.rules ? `${domSheet.word}, read from ${domSheet.seat.term.replace(/^The /, 'the ')}.` : `${domSheet.word}, as ${domSheet.elName} touches it.`}</p>
               <p className="wp-body">{domSheet.teaser}</p>
               {tier === 'free' ? (
                 <>
@@ -1176,7 +1179,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                   <p className="el-domsheet-sub">All eight domains across every seat of your chart: the reading, the people, the shadow, and the body.</p>
                 </>
               ) : (
-                <button type="button" className="el-domsheet-cta" onClick={() => { const w = domSheet.word, g = domSheet.god; setDomSheet(null); openDomainAt(w, g); }}>Read it in The Domains <Use id="ico-arrow-r" /></button>
+                <button type="button" className="el-domsheet-cta" onClick={() => { const w = domSheet.word, g = domSheet.god; setDomSheet(null); openDomainAt(w, g); }}>{domSheet.rules ? 'Read it in The Domains' : 'Open The Domains'} <Use id="ico-arrow-r" /></button>
               )}
             </div>
           </div>
