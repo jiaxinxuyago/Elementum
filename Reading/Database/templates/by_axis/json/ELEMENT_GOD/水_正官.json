@@ -70,7 +70,7 @@
             "angles": {
               "drive": "You follow through long after the mood that said yes has gone. Following through matters more to you than improving, so you finish the version you announced. People plan around your word because it holds.",
               "cost_self": "Following through is the part of yourself you count on. Because stopping halfway feels like a broken promise, you follow through on what no longer fits rather than leave it. Whole seasons go into plans you outgrew long ago.",
-              "cost_others": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Those working with you keep to a road that may no longer suit them."
+              "cost_others": "Your follow-through covers everyone attached to the plan. You keep to the agreed course rather than reopen it, and you hold them to it without a second look. Those working with you follow a road nobody has checked since the start."
             }
           },
           {
@@ -569,6 +569,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-026",
       "replaced": "Slowly earned trust is the only trust you believe. You would rather earn trust over a year than be oversold in a day, since quick trust feels false. Work that needed you this month goes to someone with an easier smile."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 water:W-014",
+      "replaced": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Those working with you keep to a road that may no longer suit them."
     }
   ]
 }

@@ -85,7 +85,7 @@
             "word": "Earns your place",
             "angles": {
               "drive": "Earning your place counts for more with you than being handed one. Rank only feels earned when the rules gave it, and you choose the slow route rather than the shortcut. A title built step by step is one no rival takes from you.",
-              "cost_self": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Louder colleagues reach the jobs you were ready for years before.",
+              "cost_self": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to move you up rather than put yourself forward. Louder people reach the places you were ready for years before.",
               "cost_others": "Having earned your own place, you check that everyone who rises near you earned theirs. An unearned rank looks wrong to you, and you credit people for the record more than the talent. Bright newcomers wait a long time for your nod."
             }
           }
@@ -99,7 +99,7 @@
             "angles": {
               "drive": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. You hold the yes you keep waiting for, and it is yours to give.",
               "cost_self": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed.",
-              "cost_others": "You pass the need for permission to anyone under you. Permission from above is the only yes you take, and you send their questions up rather than answer. You leave them waiting on a permission you were free to give."
+              "cost_others": "You pass the need for permission to whoever comes to you. Permission from whoever signs off is the only yes you take, and you pass their questions on rather than settle them. You leave them waiting on a permission you were free to give."
             }
           },
           {
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Putting rules first is how you stay steady. A rule asks nothing of your judgement, and you follow it rather than read the person in front of you. Keep this with you, that you hold the rule and the rule does not hold you.",
               "cost_self": "Rules come first with you, even ones that hurt. Breaking a rule feels like losing standing, and you stay inside a dead rule rather than step out. You miss out on the standing that one broken rule would have earned you.",
-              "cost_others": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it before the person's case. Each time the rule goes first, you take away their fair hearing."
+              "cost_others": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it before the person's case. Each time the rule goes first, their side of it comes last."
             }
           }
         ]
@@ -619,6 +619,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-24",
       "replaced": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserved. Your evenings go to jobs that nobody would ever check."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-05",
+      "replaced": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it before the person's case. Each time the rule goes first, you take away their fair hearing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-06+R2-4",
+      "replaced": "You pass the need for permission to anyone under you. Permission from above is the only yes you take, and you send their questions up rather than answer. You leave them waiting on a permission you were free to give."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Louder colleagues reach the jobs you were ready for years before."
     }
   ]
 }

@@ -68,7 +68,7 @@
           {
             "word": "Patient builder",
             "angles": {
-              "drive": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several. Your work is still standing when quicker efforts have fallen.",
+              "drive": "Building slowly is where you feel most sure of yourself. Wanting something that lasts, you build one thing for years rather than chase several. Your work is still standing when quicker efforts have fallen.",
               "cost_self": "Whatever matters to you, you build for years. You put the thing in hand ahead of the wanted one and keep at it while your wish waits. A part of you still aches for the dream you set aside.",
               "cost_others": "You provide by building what lasts. Since you put finished ahead of shared, you build in private and keep the people near you waiting. Your family sees the result and very little of the making."
             }
@@ -76,7 +76,7 @@
           {
             "word": "Saves first",
             "angles": {
-              "drive": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. Your household weathers bad years that sink other families.",
+              "drive": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. You weather bad years that sink other people.",
               "cost_self": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures. Whole seasons of your life pass without a single treat.",
               "cost_others": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Your family never wonders where the next month's money comes from."
             }
@@ -84,9 +84,9 @@
           {
             "word": "Loyal",
             "angles": {
-              "drive": "Being loyal comes before being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. The person beside you has never once doubted you.",
+              "drive": "Being loyal comes before being exciting for you. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. The people beside you have little reason to doubt you.",
               "cost_self": "Where you gave your word, you stay loyal after the reasons change. Since loyalty feels more like love than choosing, you stop asking whether this is what you want or promised. Some of your choices were made once and never made again.",
-              "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence more than your feelings. Your partner gets all of your time and few of your words."
+              "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the one closest to you your presence more than your feelings. They get all of your time and few of your words."
             }
           }
         ]
@@ -97,15 +97,15 @@
           {
             "word": "Stays too long",
             "angles": {
-              "drive": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
+              "drive": "Leaving comes hard to you, and you stay where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
               "cost_self": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. By staying, you miss the better love or pay you never looked for.",
-              "cost_others": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend your partner's years along with your own."
+              "cost_others": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend the other person's years along with your own."
             }
           },
           {
             "word": "Counts everything",
             "angles": {
-              "drive": "Counting what something cost matters to you more than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
+              "drive": "Counting what something cost matters to you more than enjoying it. Afraid of running short, you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
               "cost_self": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. You give up the easy days that all your counting was meant to buy.",
               "cost_others": "You count as closely for those you love as for yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
             }
@@ -113,7 +113,7 @@
           {
             "word": "Slow to trust",
             "angles": {
-              "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
+              "drive": "Trusting takes you years, losing it an afternoon. Being fooled is what you fear, and you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
               "cost_self": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof before trusting. Holding out, you lose the closeness and the years that waiting for proof uses up.",
               "cost_others": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You hand all the proving to the one you love while you wait to trust."
             }
@@ -899,6 +899,70 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 wood:W2-035",
       "replaced": "For the people you love, you count as closely as yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-004+R2-3",
+      "replaced": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-005+R2-3",
+      "replaced": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-007+R2-3",
+      "replaced": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several. Your work is still standing when quicker efforts have fallen."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-008+R2-4",
+      "replaced": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence more than your feelings. Your partner gets all of your time and few of your words."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-009",
+      "replaced": "Being loyal comes before being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. The person beside you has never once doubted you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. Your household weathers bad years that sink other families."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend your partner's years along with your own."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "Counting what something cost matters to you more than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first."
     }
   ]
 }

@@ -70,7 +70,7 @@
             "angles": {
               "drive": "You keep every promise, including the ones that stopped making sense. Your word is what you stand on, and keeping it matters more to you than whether the promise fits your life now. People build their plans on what you say.",
               "cost_self": "Whenever you give your word, you keep the promise in full. You wear reliable better than happy, and the agreements that cost more each year stay put. Your life slowly fills with old yeses made by a younger you.",
-              "cost_others": "Long after you stopped wanting to, you keep promises to people. Holding counts for more with you than honesty about changing, and you never tell the person that the promise went stale. Whatever you promised them still arrives, on time and in full."
+              "cost_others": "Long after you stopped wanting to, you keep promises to people. Your word counts for more with you than your mood, and a promise outlives the wish behind it. Whatever you promised them still arrives, on time and in full."
             }
           },
           {
@@ -106,7 +106,7 @@
             "word": "Waits for permission",
             "angles": {
               "drive": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
-              "cost_self": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year.",
+              "cost_self": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring.",
               "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. You hold up their work for a go-ahead you had all along."
             }
           },
@@ -579,6 +579,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 earth:E2-34",
       "replaced": "Earth runs through your family, your social life and your career. It is the promise at home kept without a reminder, the decision both sides of an argument can live with, and the weight of the job that is yours because it never slips."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 earth:E2-05+R2-4",
+      "replaced": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 earth:E2-11",
+      "replaced": "Long after you stopped wanting to, you keep promises to people. Holding counts for more with you than honesty about changing, and you never tell the person that the promise went stale. Whatever you promised them still arrives, on time and in full."
     }
   ]
 }

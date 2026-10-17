@@ -68,7 +68,7 @@
           {
             "word": "Saves first",
             "angles": {
-              "drive": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. The people who depend on you never have to worry about a sudden bill.",
+              "drive": "You save before you spend, every time. Something put away lets you relax, and you save a little from every month rather than enjoy all of one. You meet a sudden bill with money already set aside.",
               "cost_self": "Your calm rests on saving first. You would rather save the money than spend it on yourself, because spending on you feels like a risk. Years pass with the things you wanted for yourself still on the list.",
               "cost_others": "Saving first hands your people the careful version of you. You put the savings before the trip together, and give them caution instead of company. The holidays they hoped to take with you stay in the planning."
             }
@@ -563,6 +563,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-030",
       "replaced": "You show up every day the same way, noticed or not. You put being counted on ahead of being exciting, and you show up on dull days too. Whole teams quietly lean on you without saying so."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 water:W-018",
+      "replaced": "You save before you spend, every time. Something put away lets you relax, so you save a little from every month rather than enjoy all of one. The people who depend on you never have to worry about a sudden bill."
     }
   ]
 }

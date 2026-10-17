@@ -68,7 +68,7 @@
           {
             "word": "Spots openings",
             "angles": {
-              "drive": "Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you notice the far chance more than the one in your hand. Half the good ideas in your circle started as something you pointed at.",
+              "drive": "Spotting openings is what you do before anything is obvious. Hungry for what could be, you notice the far chance more than the one in your hand. You point at good ideas long before your circle sees them.",
               "cost_self": "Where you spot openings is always past where you stand. Wanting freedom more than settling, you spot what is far instead of taking what is near. Good things within reach go by while you look further out.",
               "cost_others": "You point out the openings you spot to anyone beside you. Because the far chance holds you more than the near one, you spot the next before finishing this with them. Your partners get half of your mind on the shared work."
             }
@@ -77,7 +77,7 @@
             "word": "Quick to start",
             "angles": {
               "drive": "Starting comes easily to you, often before you finish deciding. Moving is how you feel alive, so you start and learn rather than wait until you are sure. Whole projects exist because you went first while others were still talking.",
-              "cost_self": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start over the rest you are owed. Your life fills with things you began and never saw through.",
+              "cost_self": "Something new opens, and you start before asking what it needs. Because starting feels like freedom, you take the quick start over the slow finish. Your life fills with things you began and never saw through.",
               "cost_others": "Whatever you start has other people in it before the thing is real. You need movement more than certainty, so you start, move on and leave the middle open. The slow work of finishing falls to whoever came along with you."
             }
           },
@@ -97,9 +97,9 @@
           {
             "word": "Chases the new",
             "angles": {
-              "drive": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start over the finish. You leave a row of half-done things behind you, each one new when you started.",
+              "drive": "Whatever is newest in front of you is what you chase hardest. Beginning is what wakes you up, and you chase the fresh start over the finish. You leave a row of half-done things behind you, each one new when you started.",
               "cost_self": "Where you are is rarely what you chase. Because staying feels like being stuck rather than home, you chase the far plan with hours the near one needed. You lose the venture already begun to each new chase, and half of one pays nothing.",
-              "cost_others": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to your partner. You keep the start of a shared plan and hand your partner the long middle."
+              "cost_others": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to those beside you. You keep the start of a shared plan and hand them the long middle."
             }
           },
           {
@@ -107,7 +107,7 @@
             "angles": {
               "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You wanted freedom all along, and a closed option leaves it whole.",
               "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Spread this thin, you never get a full rest and start each day already tired.",
-              "cost_others": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else."
+              "cost_others": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand the people closest to you the same thin slice as everything else."
             }
           },
           {
@@ -891,6 +891,46 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 wood:W2-034",
       "replaced": "Spending on the people near you comes before your own next month. Because helping them out feels better than keeping, you spend on their short weeks rather than a shared cushion. You spend the savings that would carry you all through a lean month."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-003+R2-3",
+      "replaced": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start over the finish. You leave a row of half-done things behind you, each one new when you started."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-006+R2-3",
+      "replaced": "Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you notice the far chance more than the one in your hand. Half the good ideas in your circle started as something you pointed at."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-024",
+      "replaced": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start over the rest you are owed. Your life fills with things you began and never saw through."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to your partner. You keep the start of a shared plan and hand your partner the long middle."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else."
     }
   ]
 }

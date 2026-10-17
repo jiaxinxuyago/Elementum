@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Being watched brings out your best work. A thing done unseen feels half real to you, and you perform with someone watching rather than practice alone. Anyone in the seats gets years of your craft in a single hour.",
               "cost_self": "Your best needs a witness. With no one there to rise for, you let the private hours go slack rather than drill them, and the talent that grows unseen stays small. Applause is what you are after, and an empty hall gives none.",
-              "cost_others": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers over the people at home. Your own household gets you after the show, the shine already spent."
+              "cost_others": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers over the people nearest you. Those closest to you get you after the show, the shine already spent."
             }
           }
         ]
@@ -105,7 +105,7 @@
           {
             "word": "Talks back",
             "angles": {
-              "drive": "Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. You spend your talking back on small rules and have none left for big ones.",
+              "drive": "Talking back is your first move. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. You use up your fight on small rules and have none left for the big ones.",
               "cost_self": "You talk back hardest to the people who correct you. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them. You win the back-and-forth and leave the lesson behind.",
               "cost_others": "Given a task by a teacher, you talk back first. Since the last word guards your pride, you would rather talk back than get on with it. You use up a little of their patience with every small fight."
             }
@@ -587,6 +587,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-30",
       "replaced": "Setting the bar is something you do unasked. A standard you did not choose bores you, so you set your own rather than keep the given one, and hold yourself to it. What leaves your hands has already passed the hardest judge it will meet."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-10",
+      "replaced": "Talking back comes first in you. A rule you did not agree to feels like being pushed around, so you talk back rather than ask what it is for. You spend your talking back on small rules and have none left for big ones."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers over the people at home. Your own household gets you after the show, the shine already spent."
     }
   ]
 }

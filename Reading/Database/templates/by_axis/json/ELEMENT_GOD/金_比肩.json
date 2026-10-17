@@ -105,7 +105,7 @@
           {
             "word": "Unteachable",
             "angles": {
-              "drive": "Being taught lands on you as an attack first and information second. With Metal running over, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them.",
+              "drive": "Being taught lands on you as an attack first and information second. Afraid of looking smaller, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them.",
               "cost_self": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend your position rather than learn from theirs. You lose every lesson that needed you to be wrong before it could teach you.",
               "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix before the question. You leave your peers no turn at being right."
             }
@@ -113,7 +113,7 @@
           {
             "word": "Asks no one",
             "angles": {
-              "drive": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. You count the asking as a cost and leave the carrying off the bill.",
+              "drive": "Asking once costs you more than doing a thing twice yourself. You fear looking weak, and asking reads as failure while carrying alone reads as proof. You count the asking as a cost and leave the carrying off the bill.",
               "cost_self": "Where a job is heavy, you take it all instead of asking for half. To prove you are enough, you carry it alone and spend sleep before spending one question. You pay in lost sleep for help you never ask for.",
               "cost_others": "Being nobody's burden is why you ask no one. You would rather owe nothing than share the load, and you take the job back the moment someone offers. You send away the person who offered and leave them no way to help you."
             }
@@ -899,6 +899,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-34",
       "replaced": "Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Your closest people meet you only on your good days."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "Being taught lands on you as an attack first and information second. With Metal running over, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. You count the asking as a cost and leave the carrying off the bill."
     }
   ]
 }

@@ -70,7 +70,7 @@
             "angles": {
               "drive": "Finishing things settles you more than starting them. You carry an open task until it is closed, so you finish what you hold before starting anything new. Anything put in your hands comes back done.",
               "cost_self": "Proof that you are reliable comes from finishing things. You finish whatever is nearest rather than whatever matters most, since finished is the feeling you are after. Your big plans wait at the bottom of a tidy list.",
-              "cost_others": "For other people, you finish things too. You finish the last steps of a shared plan rather than wait for your partner, since waiting feels like leaving it undone. Your partner loses the small pride of closing what they began."
+              "cost_others": "For other people, you finish things too. You finish the last steps of a shared plan rather than wait for the others, since waiting feels like leaving it undone. The others lose the small pride of closing what they began."
             }
           },
           {
@@ -99,7 +99,7 @@
             "angles": {
               "drive": "Holding on tight makes what you have feel safe. You would rather keep a thing than risk losing it, and you grip money, things and people past where holding helps. You have every right to let go of what you no longer want.",
               "cost_self": "The fear of loss goes quiet while you are holding tight. You keep hold of the savings rather than spend them on their year, since spending feels exposed. Holding on costs you trips not taken, with the money outliving its purpose.",
-              "cost_others": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than give them slack. You leave the person beside you no air when you hold on this tight."
+              "cost_others": "Holding on tight reaches the people you love too. You hold the person you love the way you hold a sum, close and counted, rather than give them slack. You leave the person beside you no air when you hold on this tight."
             }
           },
           {
@@ -107,7 +107,7 @@
             "angles": {
               "drive": "Your default with cost is playing it safe. You feel a loss more than a gain the same size, and you play safe for the small sure return rather than the big one. Playing safe costs you too, slower and in money you never count.",
               "cost_self": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched others take.",
-              "cost_others": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. You take from your partner the risks that were theirs to choose."
+              "cost_others": "For the ones you love, playing safe is the rule too. You keep the person you love on the safe plan rather than the one they wanted, since their risk feels like yours. You take from them the risks that were theirs to choose."
             }
           },
           {
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Keeping what works means avoiding change. You know the price of what you have and not of the better, and you keep the known rather than try a change. Long after the known stops paying you, you go on avoiding change.",
               "cost_self": "Avoiding change spares you being new at anything. You keep the steady job and the steady love after they stop feeding you rather than change either. Avoiding change costs you the better life you never tried.",
-              "cost_others": "Where you avoid change, you avoid it for two. You keep the person you love inside the agreed life instead of letting them change it. You avoid change so well that your partner goes without any too."
+              "cost_others": "Where you avoid change, you avoid it for others too. You keep the person you love inside the agreed life instead of letting them change it. You avoid change for yourself, and they go without any too."
             }
           }
         ]
@@ -583,6 +583,38 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-27",
       "replaced": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged. You pay for playing it safe in the chance you watched another take."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-07+R2-4",
+      "replaced": "Where you avoid change, you avoid it for two. You keep the person you love inside the agreed life instead of letting them change it. You avoid change so well that your partner goes without any too."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-08+R2-4",
+      "replaced": "For the ones you love, playing safe is the rule too. You keep a partner on the safe plan rather than their wanted one, since their risk feels like yours. You take from your partner the risks that were theirs to choose."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "For other people, you finish things too. You finish the last steps of a shared plan rather than wait for your partner, since waiting feels like leaving it undone. Your partner loses the small pride of closing what they began."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than give them slack. You leave the person beside you no air when you hold on this tight."
     }
   ]
 }

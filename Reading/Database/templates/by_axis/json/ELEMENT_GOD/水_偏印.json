@@ -68,7 +68,7 @@
           {
             "word": "Goes deep",
             "angles": {
-              "drive": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. What you bring back up stays yours for life.",
+              "drive": "Going deep is how you learn best. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. What you bring back up stays yours for life.",
               "cost_self": "Where you go deepest is where you are most at home. You would rather stay down with one question than come up for the people and chances passing overhead. Invitations and openings wait for you and then go elsewhere.",
               "cost_others": "Whenever you go deep, you go alone. Company slows you down, and you pick the quiet over any company you did not choose. Those close to you lose you for weeks at a time to a question."
             }
@@ -97,7 +97,7 @@
           {
             "word": "Thinks too much",
             "angles": {
-              "drive": "You think a decision over long after it stopped needing thought. Water comes into you faster than you spend it, and one more angle feels like care rather than delay. You never get the lesson that only a made choice could give you.",
+              "drive": "You think a decision over long after it stopped needing thought. You fear choosing wrong more than choosing late, and one more angle feels like care rather than delay. You never get the lesson that only a made choice could give you.",
               "cost_self": "Thinking too much is your way of not being wrong. A wrong call scares you more than a late one, so you think a choice over past its day. You let chances close this way without a sound, and you lose sleep over them.",
               "cost_others": "Whenever someone needs an answer, you think it over once more. Getting it right matters more to you than getting it to them, and you hand over the wait. You hold up their next step while you make the reply perfect."
             }
@@ -603,6 +603,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-022",
       "replaced": "Water runs through your mind, your growth and your career. It is the question you keep asking after the easy answer came, the skill you learned your own way and own for good, and the read you have on someone before the handshake ends."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 water:W-010",
+      "replaced": "Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. What you bring back up stays yours for life."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "You think a decision over long after it stopped needing thought. Water comes into you faster than you spend it, and one more angle feels like care rather than delay. You never get the lesson that only a made choice could give you."
     }
   ]
 }

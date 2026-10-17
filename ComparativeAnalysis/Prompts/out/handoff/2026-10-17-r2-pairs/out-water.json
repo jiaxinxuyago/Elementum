@@ -1,0 +1,77 @@
+[
+ {
+  "pair_cell": "水_木",
+  "advise_catalyst": {
+   "text": "Much of what you make never leaves your hands, and the slow work behind it stays hidden. Take one idea you dropped last year one step further. Tell one person about a plan you have kept quiet. Let one small project grow for a month before you judge it."
+  },
+  "advise_friction": {
+   "text": "Seek Metal, the Mind energy. Metal is the blade that trims a growing thing, and the strength returns to its root. Let it prune what Wood spreads. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good."
+  },
+  "advise_balanced": {
+   "text": "Your work reaches people at a steady pace, and it keeps that pace while each new piece grows out of the one before. Take one idea you dropped last year one step further. Let one small project grow for a month before you judge it."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the gate opens at your pace. Your warmth and your ideas take root and grow, and enough stays inside to feed what comes next."
+  }
+ },
+ {
+  "pair_cell": "水_火",
+  "advise_catalyst": {
+   "text": "What you build earns less than it should, since you seldom ask to be paid for it. Name your price once and hold to it. Put the idea in front of a real buyer this month."
+  },
+  "advise_friction": {
+   "text": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before you sign. Let the numbers wait."
+  },
+  "advise_balanced": {
+   "text": "Your fire burns steady while new ventures and old ones both get some of your warmth. Put the idea in front of a real buyer this month. Warm up one old venture you have let go cold."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the fire burns steady. Your reach for the new and your hold on the old keep the same pace."
+  }
+ },
+ {
+  "pair_cell": "水_土",
+  "advise_catalyst": {
+   "text": "You carry every line you live by alone, since few deadlines come to you from outside. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Stay with it through the dull weeks in the middle."
+  },
+  "advise_friction": {
+   "text": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Check each new demand against what was actually said. Ask what is needed, then do that much and stop."
+  },
+  "advise_balanced": {
+   "text": "Your frame holds while the rules you keep are the ones you chose. Keep one promise this week that nobody will check. Stay with one thing you signed up for through its dull middle weeks."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the frame holds without closing in. You keep the rules you chose and stand easy inside them."
+  }
+ },
+ {
+  "pair_cell": "水_金",
+  "advise_catalyst": {
+   "text": "You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Pick one hard question and collect three answers before you decide. Sort what you hear into what you will use now and what can wait. Clear one hour a week for a subject outside your field."
+  },
+  "advise_friction": {
+   "text": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Act on one idea within a day of having it."
+  },
+  "advise_balanced": {
+   "text": "What you take in and what you test keep pace, and the mix holds while what passes gets put to use. Sort what you hear into what you will use now and what can wait. Put one idea you have tested to work this week."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the test is fair and it ends. What passes it settles in, and you trust it enough to use it."
+  }
+ },
+ {
+  "pair_cell": "水_水",
+  "advise_catalyst": {
+   "text": "Every push you make draws on a reserve that was small to begin with. Rest a full day after any big push. Ask a friend for the whole answer rather than guessing it. Hand half of one shared task to a peer."
+  },
+  "advise_friction": {
+   "text": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Before Sunday, finish one job you have put off. Keep the same day each week for one steady task."
+  },
+  "advise_balanced": {
+   "text": "Your stamina holds while every long push is met by an equally long refill. Rest a full day after any big push. Ask a friend for the whole answer rather than guessing it."
+  },
+  "definition_balanced": {
+   "tail": "In balance, the tide goes out and comes back in. You spend and refill in turn, and your strength holds."
+  }
+ }
+]

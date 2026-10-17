@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, firm ground is scarce and your eyes go to the next field before this one settles. What you gain passes on through your hands.",
+        "define": "As a catalyst, firm ground is scarce and you see good fields everywhere with little seed for any of them. What you gain passes on through your hands.",
         "ledger": [
           {
             "word": "Far-sighted",
@@ -627,6 +627,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 earth:E2-28",
       "replaced": "Earth runs through your wealth, your family and your social life. It is the chance you spot long before it is near, the good year that becomes a gift for everyone at home, and the luck you hand round before it has cooled."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 cross:X2-06",
+      "replaced": "As a catalyst, firm ground is scarce and your eyes go to the next field before this one settles. What you gain passes on through your hands."
     }
   ]
 }

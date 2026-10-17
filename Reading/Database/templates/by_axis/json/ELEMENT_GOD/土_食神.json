@@ -85,8 +85,8 @@
             "word": "Happy with enough",
             "angles": {
               "drive": "Enough is a place you can live in. Being happy with what is here comes easier than wanting, so you enjoy what you have rather than chase what you lack. There is a peace in your home that money rarely buys.",
-              "cost_self": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Raises and roles you never pushed for go to people who did.",
-              "cost_others": "At home, enough is the mood you set. Whenever enough comes early for you, you settle for the people in your care rather than push for them. Those in your care grow up without the itch of always wanting more."
+              "cost_self": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Chances you never pushed for go to people who did.",
+              "cost_others": "At home, enough is the mood you set. Since you are content with enough, you let the people around you rest rather than push them for more. Those close to you live free of the itch of always wanting more."
             }
           }
         ]
@@ -593,6 +593,22 @@
           "cost_others": "People waiting on something you are making get it in your own good time. You need the making to stay a pleasure, and you will not rush it for anyone's calendar. What arrives is worth having and a little late."
         }
       }
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 cross:X2-13+R2 earth:E2-03",
+      "replaced": "At home, enough is the mood you set. Whenever enough comes early for you, you settle for the people in your care rather than push for them. Those in your care grow up without the itch of always wanting more."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Raises and roles you never pushed for go to people who did."
     }
   ]
 }

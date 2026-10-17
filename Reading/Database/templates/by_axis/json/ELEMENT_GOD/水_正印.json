@@ -97,9 +97,9 @@
           {
             "word": "Lets it drift",
             "angles": {
-              "drive": "You let things drift rather than decide them, and you call it patience. There is more Water in you than you turn into motion, so choosing costs more than going along. You end up with the days that happened instead of the ones you wanted.",
+              "drive": "You let things drift rather than decide them, and you call it patience. You dread getting it wrong, and choosing costs you more than going along. You end up with the days that happened instead of the ones you wanted.",
               "cost_self": "Drifting keeps the days quiet, and quiet feels like care. Stirring nothing costs less than reaching, and you renew the lease rather than ask what you want. You learn very little about your own wants while nothing at home changes.",
-              "cost_others": "Whatever you let drift, you leave to someone else. Being carried feels easier than steering, and you let the people close to you make the calls you never did. You put on them the weight of every call you dodge."
+              "cost_others": "Whatever you let drift, you leave to someone else. Being carried feels safer than choosing, and the people close to you end up deciding for you. You put on them the weight of every call you dodge."
             }
           },
           {
@@ -609,6 +609,22 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "water:W-034",
       "replaced": "Staying in is how you avoid being tested. Not being ready feels more honest than being ready, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 water:W-012",
+      "replaced": "Whatever you let drift, you leave to someone else. Being carried feels easier than steering, and you let the people close to you make the calls you never did. You put on them the weight of every call you dodge."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "You let things drift rather than decide them, and you call it patience. There is more Water in you than you turn into motion, so choosing costs more than going along. You end up with the days that happened instead of the ones you wanted."
     }
   ]
 }

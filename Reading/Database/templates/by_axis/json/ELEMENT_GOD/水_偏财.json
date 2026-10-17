@@ -78,7 +78,7 @@
             "angles": {
               "drive": "You move early, before a chance is sure or anyone asks. You would rather move while a thing is open than stay until it is settled. You are through the door while others are still deciding.",
               "cost_self": "Your strongest moment is the start, and the start is also your exit. Moving early feels like freedom, and it puts leaving ahead of collecting. The money from your best ideas often lands in someone else's pocket.",
-              "cost_others": "Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave your partner the whole finish. Whoever starts with you gets you at your brightest."
+              "cost_others": "Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave the others the whole finish. Whoever starts with you gets you at your brightest."
             }
           },
           {
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Around you, a bit of good fortune turns into a party for everyone.",
               "cost_self": "Sharing freely is how you stay light. You share the whole windfall instead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account.",
-              "cost_others": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and you give home a feast with no steady part. Home with you swings between plenty and making do."
+              "cost_others": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and every feast you throw comes before a long gap. Life around you swings between plenty and making do."
             }
           }
         ]
@@ -523,6 +523,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-027",
       "replaced": "As a friction, your Action spreads quicker than it settles. Each opening pulls you on before the last one pays."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 water:W-015",
+      "replaced": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and you give home a feast with no steady part. Home with you swings between plenty and making do."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave your partner the whole finish. Whoever starts with you gets you at your brightest."
     }
   ]
 }

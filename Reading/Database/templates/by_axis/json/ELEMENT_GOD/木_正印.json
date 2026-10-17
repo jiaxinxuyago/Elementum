@@ -99,7 +99,7 @@
             "angles": {
               "drive": "You help the moment you see a need, before being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried. Helping this soon, you teach them that they needed you.",
               "cost_self": "Helping too soon fills your days with other people's tasks. Taking over feels quicker than watching it done badly, and you hold jobs nobody handed you. You give shelter to everyone else and take none yourself, and your own home is the price.",
-              "cost_others": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where the win was going. You take from them the try, and the pride of a win they reached alone."
+              "cost_others": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer arrives before theirs. You take away their try, and the pride of a win they would have reached alone."
             }
           },
           {
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "You stay where you are known rather than go where you would grow. Being sheltered feels the same as being fine from inside, so staying put never looks like a choice. Staying put, you trade the growing for the comfort of the known.",
               "cost_self": "Staying put keeps the world small enough to manage. The place you know asks less than the one you want, and you keep it until the wanting goes quiet. You miss the move you were due, and the chance goes to someone who moved.",
-              "cost_others": "When those close to you want to move, you stay put and stall. Keeping things as they are feels safer than change, and you hold the family in place. You slow the move they wanted to the pace that feels safe to you."
+              "cost_others": "When those close to you want to move, you stay put and stall. Keeping things as they are feels steadier to you than change, and you hold everyone in place. You slow the move they wanted to the pace that suits you."
             }
           }
         ]
@@ -555,6 +555,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 wood:W2-031",
       "replaced": "When someone close to you grows slowly, you give them time instead of a push. Holding back feels more like respect than a nudge, so their nudge never comes. Your patience leaves them to find the hard part on their own."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-020",
+      "replaced": "When those close to you want to move, you stay put and stall. Keeping things as they are feels safer than change, and you hold the family in place. You slow the move they wanted to the pace that feels safe to you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-025",
+      "replaced": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where the win was going. You take from them the try, and the pride of a win they reached alone."
     }
   ]
 }

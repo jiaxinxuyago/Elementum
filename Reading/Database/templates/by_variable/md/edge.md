@@ -82,7 +82,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Metal runs through your family, your mind and your health. It is the secret told at home that stops with you, the quiet line at the door built on for months, and the old habit that keeps you steady through a hard year. |
+| `lead` | Metal runs through your family, your mind and your health. It is the secret told at home that stops with you, the one subject you study down to its roots, and the old habit that keeps you steady through a hard year. |
 | `domains` | Family · Mind · Health |
 | `metric` | stability |
 

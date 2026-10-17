@@ -78,7 +78,7 @@
             "angles": {
               "drive": "Fast starts are your natural speed. You feel most alive in the first week, and this is why you start the next venture rather than sit through this one. Projects that sat on paper for years get moving the day you arrive.",
               "cost_self": "Where you feel surest is starting fast. You start on speed alone, and your patience runs out somewhere in the middle. The payday sits at the end of the work, long after your attention has moved on.",
-              "cost_others": "Starting fast means starting for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You hand them a venture already moving and leave them a month of catching up to a start they never made."
+              "cost_others": "Starting fast means starting for other people too. Since you start before the others have agreed, you put your speed ahead of their say. You hand them a venture already moving and leave them a month of catching up to a start they never made."
             }
           },
           {
@@ -625,6 +625,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-29",
       "replaced": "You spot the opening when it is only a gap. You wake more for a far chance than a near one, and you spot a newer opening while you are claiming this one. Your eye finds the door before anyone else sees a wall."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Starting fast means starting for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You hand them a venture already moving and leave them a month of catching up to a start they never made."
     }
   ]
 }

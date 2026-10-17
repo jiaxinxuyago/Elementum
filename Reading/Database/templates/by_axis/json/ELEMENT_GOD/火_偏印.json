@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Your best thinking happens with nobody else in it. You need quiet to hear your own thinking, so you take a question away to think it through rather than talk it out. What you bring back has been tested from every side.",
               "cost_self": "When something weighs on you, you think it through alone first. Because talking before you have an answer feels unsafe, you carry the worry alone rather than share it. Underneath, you want someone near while you work it out, no explaining needed.",
-              "cost_others": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. Your partner and friends get days of silence with no word on why."
+              "cost_others": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. Those closest to you get days of silence with no word on why."
             }
           }
         ]
@@ -507,6 +507,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 fire:F2-33",
       "replaced": "As a catalyst, little teaching reaches you. Your Mind feeds on what it finds by itself, and insight arrives in flashes with nobody there to share it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 fire:F2-12+R2-4",
+      "replaced": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. Your partner and friends get days of silence with no word on why."
     }
   ]
 }

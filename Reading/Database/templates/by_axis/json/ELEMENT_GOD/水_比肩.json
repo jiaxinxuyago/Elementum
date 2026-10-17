@@ -69,15 +69,15 @@
             "word": "Carries own weight",
             "angles": {
               "drive": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, and you carry what is yours rather than hand a corner to a peer. Nobody ever has to wonder whether you will do your share.",
-              "cost_self": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. All of the strain lands on your shoulders and nobody else's.",
+              "cost_self": "Carrying everything yourself is what steadies you most. You hate to owe anyone, and you keep each load rather than share it. All of the strain lands on your shoulders and nobody else's.",
               "cost_others": "Whenever you carry the whole weight yourself, you leave the people beside you nothing to hold. You put the load ahead of the closeness sharing brings. Friends who would gladly help you stay on the outside of your hard weeks."
             }
           },
           {
             "word": "Even pace",
             "angles": {
-              "drive": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. You arrive at the end of a long stretch with something left to give.",
-              "cost_self": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. Chances that call for a sudden push slip by while you hold your stride.",
+              "drive": "An even pace is how you get through everything. You fear burning out early, and you keep one steady pace rather than match every start and stop around you. You arrive at the end of a long stretch with something left to give.",
+              "cost_self": "Your even pace holds you up through a long week. You want your strength to last, and you spend it steadily rather than in bursts. Chances that call for a sudden push slip by while you hold your stride.",
               "cost_others": "Keeping an even pace leaves the people near you to match it or go on alone. You put your pace ahead of theirs, and a hurried friend walks a stretch alone. Anyone who drops back always finds you right where they left you."
             }
           },
@@ -105,7 +105,7 @@
           {
             "word": "Never asks",
             "angles": {
-              "drive": "Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck.",
+              "drive": "Never asking is a rule you keep and never say. You fear being a burden, and you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck.",
               "cost_self": "Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you.",
               "cost_others": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. You leave your peers at a distance, with nothing of yours to help with."
             }
@@ -569,6 +569,38 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 water:W-039",
       "replaced": "Carrying your own weight is the first thing you do. Being a load on nobody feels like safety, so you carry what is yours rather than hand a corner to a peer. Nobody ever has to wonder whether you will pull your share."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "Carrying everything yourself is what steadies you most. Water runs short in you before the week does, and you keep each load rather than share it. All of the strain lands on your shoulders and nobody else's."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "An even pace is how you get through everything. You carry little Water, so you keep one steady pace rather than match every start and stop around you. You arrive at the end of a long stretch with something left to give."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. Chances that call for a sudden push slip by while you hold your stride."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "Never asking is a rule you keep and never say. Water piles up in you unshared, so you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck."
     }
   ]
 }

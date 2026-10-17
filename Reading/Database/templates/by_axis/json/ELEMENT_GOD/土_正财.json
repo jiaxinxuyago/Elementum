@@ -70,7 +70,7 @@
             "angles": {
               "drive": "Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Under your hands, old things keep earning their place.",
               "cost_self": "Making things last keeps you in control of what you own. You put hours into repairs instead of the better thing on offer, because replacing feels like waste. Your weekends go to mending things worth less than the time they take.",
-              "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Your family seldom gets to pick something new for themselves."
+              "cost_others": "You keep old things going for everyone around you. Fixing beats choosing for you, and those who share your things live with your repairs rather than their own picks. They seldom get to pick something new for themselves."
             }
           },
           {
@@ -86,13 +86,13 @@
             "angles": {
               "drive": "Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. The people you stand by know exactly where to find you.",
               "cost_self": "Your loyalty stays put, and it pays in people who stay. You keep choosing what is yours rather than ask if it chooses you too. Under it all, you want proof that the bond runs both ways.",
-              "cost_others": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Those you love rarely hear it in words."
+              "cost_others": "Loyalty is how you love, and you show it by staying. You stand by the people you chose rather than look around, and you let the staying speak for you. Those you love rarely hear it in words."
             }
           }
         ]
       },
       "friction": {
-        "define": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no space for anything new.",
+        "define": "As a friction, what you own weighs more each year. You keep it near for comfort, and your hands stay full with no space for anything new.",
         "ledger": [
           {
             "word": "Keeps everything",
@@ -627,6 +627,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 earth:E2-32",
       "replaced": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you make the saving on them. You take what you save out of their share."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 earth:E2-06",
+      "replaced": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Those you love rarely hear it in words."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 earth:E2-08",
+      "replaced": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Your family seldom gets to pick something new for themselves."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 earth:E2-17",
+      "replaced": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no space for anything new."
     }
   ]
 }

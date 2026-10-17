@@ -86,7 +86,7 @@
             "angles": {
               "drive": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you. People breathe easier at your table, and nobody feels hurried there.",
               "cost_self": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one. Some of your bigger chances drift past unclaimed.",
-              "cost_others": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Those you teach learn without fear of getting it wrong in front of you."
+              "cost_others": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let whoever learns from you set their own pace. Those you teach learn without fear of getting it wrong in front of you."
             }
           }
         ]
@@ -568,6 +568,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 wood:W2-037",
       "replaced": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by. Fine work of yours sits in drawers, unseen and unthanked."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 wood:W2-010+R2-4",
+      "replaced": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Those you teach learn without fear of getting it wrong in front of you."
     }
   ]
 }

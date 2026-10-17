@@ -97,7 +97,7 @@
           {
             "word": "Keeps score",
             "angles": {
-              "drive": "You keep an exact score with everyone you like. With Metal running over, you live on comparison more than company, so you keep a quiet tally of who gave more. Keep in mind that you wanted the closeness long before you wanted the score.",
+              "drive": "You keep an exact score with everyone you like. Afraid of giving more than you get, you lean on comparison more than friendship and keep a quiet tally. Keep in mind that you wanted the closeness long before you wanted the score.",
               "cost_self": "Whenever a friend pulls ahead, you score it as a loss rather than their win. To stay sure, you keep score and spend the friendship checking the count. You pay for every point in closeness you never collect.",
               "cost_others": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of simply returning them, every gift to you arrives with a price attached. You take the joy out of giving for the friends who give to you."
             }
@@ -105,7 +105,7 @@
           {
             "word": "Bets the rent",
             "angles": {
-              "drive": "Your bets are sized to the thrill more than the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent on a feeling that fades faster than the bill.",
+              "drive": "Your bets are sized to the thrill more than the margin. You want the rush more than the safety, and caution never gets a say. You bet the rent on a feeling that fades faster than the bill.",
               "cost_self": "Where the bet is biggest, you are calmest, and you take that as a sign. Trusting nerve more than numbers, you bet with the rent before the sums are done. You come out of that calm short on rent and short on sleep.",
               "cost_others": "Betting the rent is how you make a thing feel real. Since you size the bet to your nerve instead of theirs, you pull the people beside you into it. You put their safety on the bet along with your own."
             }
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Harder than any loss deserves, you hate to lose. You read a loss to a peer as a statement about you, so you argue the result instead of taking it. You hate losing your place, if you are honest, more than losing the point.",
               "cost_self": "Coming second sours the whole day for you. Being beaten feels like being replaced, and you hate the loss instead of learning from it. You give the loss the entire evening and get neither the rest nor the lesson back.",
-              "cost_others": "Hating to lose even a game is how you show you care. Since you want the win more than the evening, you keep arguing after it ends. You cost the people you play with the fun of the game."
+              "cost_others": "Even a friendly game feels like a test you cannot fail. Since you want the win more than the evening, you keep arguing after the last point. You cost the people you play with the fun of the game."
             }
           }
         ]
@@ -891,6 +891,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-33",
       "replaced": "Where the bet is biggest, you are calmest, and you take that as a sign. Trusting nerve more than math, you bet with the rent before the sums are done. You come out of that calm short on rent and short on sleep."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-13+R2-3",
+      "replaced": "You keep an exact score with everyone you like. With Metal running over, you live on comparison more than company, so you keep a quiet tally of who gave more. Keep in mind that you wanted the closeness long before you wanted the score."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-14",
+      "replaced": "Hating to lose even a game is how you show you care. Since you want the win more than the evening, you keep arguing after it ends. You cost the people you play with the fun of the game."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-15+R2-3",
+      "replaced": "Your bets are sized to the thrill more than the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent on a feeling that fades faster than the bill."
     }
   ]
 }

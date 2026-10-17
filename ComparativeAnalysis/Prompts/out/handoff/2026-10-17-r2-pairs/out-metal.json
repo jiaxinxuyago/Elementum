@@ -1,0 +1,37 @@
+[
+ {
+  "pair_cell": "金_木",
+  "advise_catalyst": { "text": "You get hardest on yourself when your strength has nothing to build. Give it something. Pick one venture this month and carry it to its first result. Plant one thing this week, a seed or a habit, and watch it grow." },
+  "advise_friction": { "text": "Seek Metal, your own Body energy. Metal is your own core under the effort, what stays when the wanting stops. Let it trim what Wood spreads. You treat rest as time stolen from building. Drop one project you no longer believe in. Choose three things for this month and let the others wait." },
+  "advise_balanced": { "text": "Your work keeps growing while each new start stays in step with your strength. Begin one new venture this month at a size you can tend. Plant one thing this week, a seed or a habit, and watch it grow." },
+  "definition_balanced": { "tail": "In balance, what you take on matches the strength you have to carry it. Your hunger and your stamina keep the same pace." }
+ },
+ {
+  "pair_cell": "金_火",
+  "advise_catalyst": { "text": "You do your best work when someone else sets the bar. Join one team this month where another person calls the plays. Volunteer for the most visible job at the next gathering." },
+  "advise_friction": { "text": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, soil that does not catch. Let it ground what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached." },
+  "advise_balanced": { "text": "The demands that reach you come at a pace you can meet, and you stay sharp while one fair standard stays in view. Join one team this month where another person calls the plays. Volunteer for the most visible job at the next gathering." },
+  "definition_balanced": { "tail": "In balance, demands come at a pace you can meet. You answer to rules you find fair, and your rank keeps pace with your work." }
+ },
+ {
+  "pair_cell": "金_土",
+  "advise_catalyst": { "text": "What you take in needs time to settle before it holds your weight. Bring one half-done job from last year to its end this month. Write down one thing each week that you now know for sure, and keep the list." },
+  "advise_friction": { "text": "Seek Wood, the Action energy. Wood draws on the ground it grows from and turns what it takes into something built. Let it spend what Earth stores. You stay with what you already know rather than put it to use. Send the rough draft before the clean one exists. Try a new method on a familiar problem." },
+  "advise_balanced": { "text": "What you take in settles at a steady pace, and your judgement holds while each new thing gets time to sink in. Bring one half-done job from last year to its end this month. Write down one thing each week that you now know for sure, and keep the list." },
+  "definition_balanced": { "tail": "In balance, what you take in settles at a steady pace. You trust what you learn and still let new things in." }
+ },
+ {
+  "pair_cell": "金_金",
+  "advise_catalyst": { "text": "You treat rest as something you earn after the work instead of the thing the work runs on. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there." },
+  "advise_friction": { "text": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure to meet, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way." },
+  "advise_balanced": { "text": "Your strength holds firm while you spend it no faster than you refill it. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there." },
+  "definition_balanced": { "tail": "In balance, your strength is firm but never stiff. You stand on your own and still bend when a peer has the better case." }
+ },
+ {
+  "pair_cell": "金_水",
+  "advise_catalyst": { "text": "What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer." },
+  "advise_friction": { "text": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Keep one piece of news to yourself for a week. Stick with one plan for a whole month." },
+  "advise_balanced": { "text": "What you feel comes out freely, and the flow holds while you take in as much as you give. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer." },
+  "definition_balanced": { "tail": "In balance, what goes out of you keeps pace with what comes back in. Your kindness and wit flow freely and still refill." }
+ }
+]

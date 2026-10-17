@@ -70,7 +70,7 @@
             "angles": {
               "drive": "Every promise you make becomes a rule you keep. Being relied on is the closest you get to feeling safe, so you keep your word over your freedom to change it. People build their plans on your yes.",
               "cost_self": "Keeping a promise costs you the right to change your mind. You would rather keep a stale promise than break it, so you stay inside plans past their use. Better offers come and go while you honour an old one.",
-              "cost_others": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold everyone to every one they make. Your friends have their offhand words held to the letter."
+              "cost_others": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold others to theirs as tightly as your own. You treat a friend's offhand words as a contract."
             }
           },
           {
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "A fairly earned title is worth more to you than any praise. Since an earned rank says you belong, you earn the next title instead of chasing the next thrill. What you want is a place no one could question.",
               "cost_self": "Earning the title comes first, claiming it long after. You want to look deserving more than to be paid, so you earn it twice before asking once. Money owed to you stays on the table for years.",
-              "cost_others": "Where titles are concerned, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. Colleagues climb the slow way, with no help from you."
+              "cost_others": "When it comes to titles, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. They climb the slow way, and every step is theirs."
             }
           }
         ]
@@ -99,7 +99,7 @@
             "angles": {
               "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one. You wrote most of these rules yourself and are free to retire them.",
               "cost_self": "Between a rule and a chance, you take the rule. You put being correct ahead of being free, so your career keeps the rules and never jumps. Along the way, you lose out on the jobs you never went for.",
-              "cost_others": "Keeping to the rules is how you look after people. Because one exception feels like a collapse starting, you give them the rule instead of what they asked for. You keep everyone at home in line and take from them the ease of being wrong."
+              "cost_others": "Keeping to the rules is how you look after people. Because one exception feels like the first crack, you give them the rule instead of what they asked for. You hold your people to the letter and take from them the ease of being wrong."
             }
           },
           {
@@ -921,6 +921,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 fire:F2-43",
       "replaced": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book over the shortcut. Your work is the standard others get checked against."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 fire:F2-14",
+      "replaced": "Keeping to the rules is how you look after people. Because one exception feels like a collapse starting, you give them the rule instead of what they asked for. You keep everyone at home in line and take from them the ease of being wrong."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 fire:F2-15+R2-4",
+      "replaced": "Where titles are concerned, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. Colleagues climb the slow way, with no help from you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 fire:F2-16",
+      "replaced": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold everyone to every one they make. Your friends have their offhand words held to the letter."
     }
   ]
 }

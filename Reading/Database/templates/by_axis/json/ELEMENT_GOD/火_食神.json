@@ -115,7 +115,7 @@
             "angles": {
               "drive": "You put pleasure first and the rest after. Feeling good is how you check you are alive, so you take the nicer option over the needed one. You were after feeling alive all along, and pleasure was only the quickest way.",
               "cost_self": "Pleasure first is the one care you trust. Feeling comforted matters more to you than feeling well, and you take comfort now over health later. You pay for it in the body, and the body keeps a longer memory than you do.",
-              "cost_others": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and you spend the shared money on the evening. You leave them short on the plans you made together."
+              "cost_others": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins. You leave them short on the plans you made together."
             }
           }
         ]
@@ -635,6 +635,14 @@
       "ruling": "Owner 2026-10-17: \"Approve all other fixes besides the four system-level items\" (A3 restatement fixes not approved)",
       "finding": "sweep:sooner-than",
       "replaced": "You make hard things look easy. You show the finished thing sooner than the work, and you leave the people learning from you the ease without the steps. Anyone watching you sees how good the result can be."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 fire:F2-05",
+      "replaced": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and you spend the shared money on the evening. You leave them short on the plans you made together."
     }
   ]
 }

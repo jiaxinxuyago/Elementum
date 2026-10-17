@@ -70,7 +70,7 @@
             "angles": {
               "drive": "Whatever you are told stays with you. Being a safe place is how you know you matter, so you keep a confidence rather than ever use it. People hand you what they have shown no one else, and they leave lighter.",
               "cost_self": "Keeping a confidence means carrying it. You hold what people tell you rather than talk it through with anyone, and the weight of other lives sits on your own rest. Some days you walk around full of secrets that are not even yours.",
-              "cost_others": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and you give the ones who tell you everything nothing of yourself back. Your closest friends see your calm face and never your worries."
+              "cost_others": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and the people who tell you everything hear nothing of yours. Your closest friends see your calm face and never your worries."
             }
           },
           {
@@ -114,7 +114,7 @@
             "word": "Waits to hear",
             "angles": {
               "drive": "You wait to be told before you trust your own read. A word from someone wiser feels like cover, and you keep asking long after you know. You hand your best judgement to people who know less than you do.",
-              "cost_self": "Waiting to be told leaves your own good sense unused for weeks. You need someone above you to say it is safe, and their word comes later than your own read did. Your first instinct is often right and seldom acted on.",
+              "cost_self": "Waiting to be told leaves your own good sense unused for weeks. You need the one in charge to say it is safe, and their word comes later than your own read did. Your first instinct is often right and seldom acted on.",
               "cost_others": "When others look to you for a call, you wait to be told too. You want the shelter of a wiser word first, and the people counting on you wait while you ask. They lose days to a decision you had already reached."
             }
           }
@@ -130,7 +130,7 @@
       }
     },
     "edge": {
-      "lead": "Metal runs through your family, your mind and your health. It is the secret told at home that stops with you, the quiet line at the door built on for months, and the old habit that keeps you steady through a hard year.",
+      "lead": "Metal runs through your family, your mind and your health. It is the secret told at home that stops with you, the one subject you study down to its roots, and the old habit that keeps you steady through a hard year.",
       "domains": [
         "Family",
         "Mind",
@@ -617,6 +617,30 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-36",
       "replaced": "Protective is your instinct with the people you love. You need them safe more than you need them tried, so you step in before letting them fall. You are protecting them from the one thing that would have taught them."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-16",
+      "replaced": "Metal runs through your family, your mind and your health. It is the secret told at home that stops with you, the quiet line at the door built on for months, and the old habit that keeps you steady through a hard year."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2 metal:MT2-17",
+      "replaced": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and you give the ones who tell you everything nothing of yourself back. Your closest friends see your calm face and never your worries."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "Waiting to be told leaves your own good sense unused for weeks. You need someone above you to say it is safe, and their word comes later than your own read did. Your first instinct is often right and seldom acted on."
     }
   ]
 }

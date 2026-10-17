@@ -113,7 +113,7 @@
           {
             "word": "Second-guesses",
             "angles": {
-              "drive": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later.",
+              "drive": "With a decision nearly made, you second-guess it from one more angle. Fearing the wrong call, you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later.",
               "cost_self": "The second guess is where most of your time goes. Needing to feel certain first, you keep second-guessing a choice after the guessing stops helping. You second-guess to feel sure rather than be sure, and you lose sleep to the difference.",
               "cost_others": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you sit on the yes or no for weeks rather than give a maybe. You stall their next step for as long as you second-guess."
             }
@@ -880,6 +880,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 earth:E2-30",
       "replaced": "Earth runs through your mind, your growth and your career. It is the idea you work out in your own strange way, the skill you picked up alone and kept to yourself, and the meaning you catch under the words in a meeting."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-3",
+      "replaced": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later."
     }
   ]
 }

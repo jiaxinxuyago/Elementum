@@ -78,7 +78,7 @@
             "angles": {
               "drive": "Giving comes easily to you, often before you have counted. Generosity is how you feel rich, so you would rather give the thing now than keep it for a tighter month. Around you, nobody goes short for long.",
               "cost_self": "Giving easily leaves little behind for you. You want the pleasure of giving now more than a cushion later, and now keeps winning. Your own ventures get funded last, from whatever remains.",
-              "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. Your household's best stories come from the days you made."
+              "cost_others": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and the people you love get the big day and live through the gap. Their best stories come from the days you made."
             }
           },
           {
@@ -531,6 +531,14 @@
       "ruling": "Owner 2026-10-17: \"Go with B for definitions, A for advice … treat the blend as an individual\"; \"M2 approved, apply the fix across all the content that shares the issue.\"",
       "finding": "M2",
       "replaced": null
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r2",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
+      "finding": "R2-4",
+      "replaced": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. Your household's best stories come from the days you made."
     }
   ]
 }
