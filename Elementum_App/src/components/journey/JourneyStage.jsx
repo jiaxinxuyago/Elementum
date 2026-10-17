@@ -96,9 +96,11 @@ const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
 );
 
-// THE DOMAINS read domain first (DOM-1, owner 2026-10-17, P2 A): live on
-// the dev site (dev tools on) until the corpus lands, then for everyone.
-const DOMAINS_V2 = IS_DEV_TOOLS;
+// THE DOMAINS read domain first (DOM-1): PAUSED by the owner 2026-10-17
+// ("pause and revert now") while the catalogue's new sections are
+// redesigned (a Domains page and a Life Chapters page). Off everywhere;
+// the views stay in the code for the redesign.
+const DOMAINS_V2 = false;
 
 export default function JourneyStage({ reveal = false, openCore = false, openEl = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour }) {
   const { chart, ec, identity, hourUnknown } = useReading();
