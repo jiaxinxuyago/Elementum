@@ -1,0 +1,87 @@
+[
+ {
+  "key": "PAIR 金_木 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, your hunger to build has strength under it. In a lean stretch, you slow down and still grow.",
+  "id": "R3 cross:X3-01"
+ },
+ {
+  "key": "PAIR 水_火 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Whether you reach for something new or hold on to the old, the warmth stays.",
+  "id": "R3 cross:X3-02"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "A race gets all of you moving. You come alive with a rival in sight, and chasing a real person drives you harder than any plan. Your best work shows up with someone fast at your shoulder.",
+  "id": "R3 cross:X3-10+R3 water:W-010"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever you make the work look easy, people learn from the look alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care.",
+  "id": "R3 cross:X3-12+R3 metal:MT3-04"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.define",
+  "text": "As a catalyst, the edge runs thin. You see more openings than you have the means to take.",
+  "id": "R3 cross:X3-13"
+ },
+ {
+  "key": "PAIR 金_土 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, the ground runs short, and new things pass through before they settle. Only what you work through yourself stays with you.",
+  "id": "R3 earth:E3-04"
+ },
+ {
+  "key": "PAIR 水_火 · function.advise_friction",
+  "text": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before any big choice. Let the numbers wait.",
+  "id": "R3 fire:F3-07"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. Underneath, you want to hear that you did well.",
+  "id": "R3 metal:MT3-01"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You pass the need for permission to whoever comes to you. A yes only counts once someone else gives it, and you send their questions on unanswered. You leave them waiting on a permission you were free to give.",
+  "id": "R3 metal:MT3-02"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you avoid change, you avoid it for others too. You keep the people close to you inside the old plan instead of letting them change it. They miss the new starts they wanted to make.",
+  "id": "R3 metal:MT3-03"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spread thin, you never learn what full effort can do. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in rest never taken and in the one venture that would have paid.",
+  "id": "R3 metal:MT3-05"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You spot the opening when it is only a gap. A distant chance thrills you more than a near one, and you spot a newer opening while you are claiming this one. Your eye finds a door where everyone else sees a wall.",
+  "id": "R3 metal:MT3-06"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "A bar you set yourself never lets you rest. Because the standard is yours, you raise it rather than meet it, and the mark moves each time you near it. Your wins go by uncelebrated, since none of them was ever the goal.",
+  "id": "R3 metal:MT3-07"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "For you, competing with someone is how you take them seriously. You raise the stakes because a rival worth beating means more to you than easy company. Your friends rarely get a game with you that is only a game.",
+  "id": "R3 metal:MT3-08"
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Going first is where your boldness lives. Coming second feels like losing, and you jump in before reading the plan with your own savings on the line. Your bank balance carries the lessons everyone after you gets for free.",
+  "id": "R3 water:W-011"
+ },
+ {
+  "key": "PAIR 水_水 · function.advise_friction",
+  "text": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. Without a shore your strength either piles up into weight or spills over. Before Sunday, finish one job you have put off. Keep the same day each week for one steady task.",
+  "id": "R3 water:W-013"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "When someone close to you is upset, you become the calm for both. Feeling held matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you.",
+  "id": "R3 water:W-016"
+ }
+]
