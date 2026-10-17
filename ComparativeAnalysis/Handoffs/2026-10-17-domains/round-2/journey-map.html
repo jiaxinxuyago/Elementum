@@ -1,0 +1,297 @@
+<title>Elementum Journey Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=JetBrains+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one reading column. The Reading tab is drawn as an indented tree of screens; each screen card lists its sections in order and its taps as links to the screen they open. */
+:root{
+  --bg:#F3F1EC; --fg:#1F2226; --muted:#62676D; --line:#DAD6CE; --panel:#FFFFFF;
+  --accent:#33557A; --new:#1F7A55; --newSoft:#E1F1E8; --chg:#8A5A12; --chgSoft:#F6ECD9; --ret:#9A3B2E; --retSoft:#F7E3DF; --lock:#5B4A8C; --lockSoft:#ECE8F6;
+  --f-ui:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif; --f-mono:'JetBrains Mono',Consolas,monospace; --f-disp:'Cormorant Garamond',Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15171A;--fg:#E8E9EB;--muted:#A3A8AE;--line:#2E3237;--panel:#1D2024;--accent:#8FB1D6;--new:#7FD0A6;--newSoft:#173126;--chg:#E2B868;--chgSoft:#33291A;--ret:#E99486;--retSoft:#3A221E;--lock:#B7A8E8;--lockSoft:#26213A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15171A;--fg:#E8E9EB;--muted:#A3A8AE;--line:#2E3237;--panel:#1D2024;--accent:#8FB1D6;--new:#7FD0A6;--newSoft:#173126;--chg:#E2B868;--chgSoft:#33291A;--ret:#E99486;--retSoft:#3A221E;--lock:#B7A8E8;--lockSoft:#26213A;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-ui);font-size:15px;line-height:1.5;margin:0}
+.wrap{max-width:780px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:26px 70px}
+h1{font-family:var(--f-disp);font-size:30px;line-height:1.1;margin:0 0 8px;text-wrap:balance}
+h2{font-size:19px;margin:40px 0 10px;padding-top:16px;border-top:1px solid var(--line);text-wrap:balance}
+h3{font-size:15.5px;margin:0 0 4px}
+p{margin:0 0 10px}
+.lede{color:var(--muted)}
+.ey{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:99px;border:1px solid var(--line);color:var(--muted);vertical-align:1px;white-space:nowrap}
+.tag.new{color:var(--new);border-color:var(--new);background:var(--newSoft)}
+.tag.chg{color:var(--chg);border-color:var(--chg);background:var(--chgSoft)}
+.tag.ret{color:var(--ret);border-color:var(--ret);background:var(--retSoft)}
+.tag.lock{color:var(--lock);border-color:var(--lock);background:var(--lockSoft)}
+.tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:10px 0}
+.tab{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 6px;text-align:center;font-size:12.5px;min-width:0}
+.tab b{display:block;font-size:13.5px}
+.tab.on{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+/* tree */
+.tree{margin:10px 0;padding:0;list-style:none}
+.tree ul{list-style:none;margin:0;padding-left:16px;border-left:1px dashed var(--line)}
+.tree li{margin:6px 0;position:relative}
+.node{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:5px 9px;font-size:13.5px;text-decoration:none;color:var(--fg)}
+.node.new{border-color:var(--new);background:var(--newSoft)}
+.node.ret{border-color:var(--ret);background:var(--retSoft);text-decoration:line-through;text-decoration-color:var(--ret)}
+.node small{color:var(--muted);font-size:12px}
+.sec{font-size:13px;color:var(--muted);margin:2px 0 0 4px}
+/* paths */
+.path{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:10px 0}
+.steps{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-top:6px}
+.st{font-size:12.5px;border:1px solid var(--line);border-radius:8px;padding:3px 8px;background:var(--bg)}
+.st.new{border-color:var(--new);background:var(--newSoft)}
+.ar{color:var(--muted);font-size:12px}
+/* screen cards */
+.screen{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:14px 0;scroll-margin-top:12px}
+.screen.new{border-color:var(--new);box-shadow:0 0 0 1px var(--new) inset}
+.screen .where{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;margin:0 0 6px}
+.screen ol{margin:6px 0 0;padding-left:20px}
+.screen ol li{margin:5px 0;font-size:14px}
+.screen ol li.new::marker{color:var(--new);font-weight:700}
+.taps{margin:4px 0 0;padding:0;list-style:none}
+.taps li{font-size:13px;margin:2px 0;color:var(--muted)}
+.taps a{color:var(--accent);text-decoration:none;font-weight:600}
+.taps a:hover,.taps a:focus-visible{text-decoration:underline}
+.back{font-size:12.5px;color:var(--muted);margin-top:8px;border-top:1px dashed var(--line);padding-top:6px}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0;font-size:14px}
+.note.warn{border-color:var(--chg);background:var(--chgSoft)}
+.tbl{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;vertical-align:top;padding:6px 8px;border-bottom:1px solid var(--line)}
+th{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0}
+.toc a{font-size:13px;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:3px 10px;background:var(--panel)}
+@media (max-width:420px){.tabs{gap:4px}.tab{font-size:11px;padding:6px 3px}.tab b{font-size:12px}}
+</style>
+
+<div class="wrap">
+<p class="ey">Elementum · how the screens connect · with THE DOMAINS added</p>
+<h1>Where every section lives, and how one page leads to the next</h1>
+<p class="lede">The whole app as a user moves through it today, with the new Domains screens placed in. Every screen, section and link below was read from the app's code. Tap a link inside a screen card to jump to the screen it opens.</p>
+<div class="legend"><span class="tag new">new</span> added by this work <span class="tag chg">changed</span> same place, new content <span class="tag ret">retired</span> leaves the flow <span class="tag lock">Seeker</span> locked on the free tier</div>
+<div class="toc"><a href="#glance">1 · At a glance</a><a href="#reading">2 · The Reading tab tree</a><a href="#paths">3 · Ways into a domain</a><a href="#screens">4 · Screen by screen</a><a href="#other">5 · The other tabs</a><a href="#back">6 · Going back</a><a href="#flags">7 · Things I noticed</a></div>
+
+<h2 id="glance">1 · At a glance</h2>
+<p>Five tabs at the bottom, icons only. After onboarding the reveal lands on the Reading tab. THE DOMAINS lives entirely inside the Reading tab.</p>
+<div class="tabs" role="list">
+  <div class="tab" role="listitem"><b>Today</b>calendar</div>
+  <div class="tab" role="listitem"><b>Guidance</b>compass</div>
+  <div class="tab on" role="listitem"><b>Reading</b>open book</div>
+  <div class="tab" role="listitem"><b>Compat</b>two circles</div>
+  <div class="tab" role="listitem"><b>Profile</b>person</div>
+</div>
+<div class="path"><h3>First run</h3>
+<div class="steps"><span class="st">Welcome</span><span class="ar">→</span><span class="st">Year</span><span class="ar">→</span><span class="st">Month</span><span class="ar">→</span><span class="st">Day</span><span class="ar">→</span><span class="st">Hour (or a window, or unknown)</span><span class="ar">→</span><span class="st">Place</span><span class="ar">→</span><span class="st">Polarity</span><span class="ar">→</span><span class="st">Notify</span><span class="ar">→</span><span class="st">Loading</span><span class="ar">→</span><span class="st">Reveal ("You are …", swipe up)</span><span class="ar">→</span><span class="st">Your Reading</span></div>
+<p class="sec" style="margin-top:6px">A returning, signed-in reader skips straight from Loading to Your Reading.</p></div>
+
+<h2 id="reading">2 · The Reading tab, as a tree</h2>
+<p>Each level is one tap deeper. Items in a screen are its sections, top to bottom.</p>
+<ul class="tree">
+<li><a class="node" href="#s-catalogue"><b>Your Reading</b><small>the tab's home</small></a>
+  <div class="sec">Beat 1 You are · Beat 2 YOUR ENERGY MANUAL · Beat 3 YOUR ENERGY MAP · <b style="color:var(--new)">Beat 4 YOUR DOMAINS</b> <span class="tag new">new</span> · the words note</div>
+  <ul>
+    <li><a class="node" href="#s-daymaster"><b>Day Master page</b><small>from the hero arrow</small></a>
+      <ul>
+        <li><a class="node" href="#s-pillars"><b>Pillar chart</b><small>"Birth Chart"</small></a>
+          <ul><li><a class="node" href="#s-resonance"><b>Discover your birth hour</b><small>only when the hour is unknown</small></a></li></ul></li>
+        <li><span class="node"><small>each diagnosis row opens that energy's page ↓</small></span></li>
+      </ul></li>
+    <li><a class="node" href="#s-element"><b>An energy page</b><small>from a wheel dot or a manual row, ×5 energies</small></a>
+      <div class="sec">Hero card · THE FUNCTION · THE DOMAINS card <span class="tag chg">changed</span></div>
+      <ul>
+        <li><a class="node" href="#s-mech"><b>The mechanism</b><small>from the hero card</small></a></li>
+        <li><a class="node" href="#s-fn"><b>The function</b><small>THE FUNCTION · THE CHARACTER · THE EDGE or THE REMEDY</small></a>
+          <ul><li><span class="node ret"><b>Domain sheet</b><small>with "$9.99/mo"</small></span> <span class="tag ret">retired</span> <small style="color:var(--muted)">an EDGE tile now opens the domain page</small></li></ul></li>
+        <li><span class="node ret"><b>THE DOMAINS detail (seats, WHO RUNS IT)</b></span> <span class="tag ret">retired</span></li>
+      </ul></li>
+    <li><a class="node new" href="#s-domain"><b>A domain page</b> <span class="tag new">new</span><small>×8 domains, from beat 4, the energy page card or an EDGE tile</small></a>
+      <div class="sec">The head card with the life line · How you are · <span class="tag lock">Seeker</span> What has already happened · <span class="tag lock">Seeker</span> What is coming · The seats that rule it</div>
+      <ul><li><a class="node" href="#s-resonance"><b>Discover your birth hour</b><small>from "Your Hour Gate is closed" (no birth hour only)</small></a></li></ul></li>
+  </ul></li>
+</ul>
+
+<h2 id="paths">3 · The four ways into a domain page</h2>
+<p>Every route ends on the same chart-wide page for that domain. This is the full fix for the old EDGE landing (D2): no route lands on a seat that does not hold the word.</p>
+<div class="path"><h3>A · From Your Reading (the main door)</h3>
+<div class="steps"><span class="st">Your Reading</span><span class="ar">→ scroll, or tap "See where your life is ruled" →</span><span class="st new">Beat 4 YOUR DOMAINS</span><span class="ar">→ tap the Wealth tile →</span><span class="st new">Wealth page</span></div>
+<p class="sec" style="margin-top:6px">The reader meets the gates and the life line here first, before any domain page.</p></div>
+<div class="path"><h3>B · From an energy page</h3>
+<div class="steps"><span class="st">Your Reading</span><span class="ar">→ tap the Wood dot →</span><span class="st">dot card</span><span class="ar">→</span><span class="st">Wood page</span><span class="ar">→ THE DOMAINS card, tap Wealth →</span><span class="st new">Wealth page</span></div>
+<p class="sec" style="margin-top:6px">The card lists only the domains this energy's seats rule ("3 Wood seats · of 4"). The page shows all four Wealth seats, from any energy.</p></div>
+<div class="path"><h3>C · From THE EDGE (a catalyst energy's function page)</h3>
+<div class="steps"><span class="st">Wood page</span><span class="ar">→ THE FUNCTION →</span><span class="st">function detail</span><span class="ar">→ THE EDGE, tap the Family door →</span><span class="st new">Family page</span></div></div>
+<div class="path"><h3>D · From the Day Master page</h3>
+<div class="steps"><span class="st">Your Reading</span><span class="ar">→ hero arrow →</span><span class="st">Day Master page</span><span class="ar">→ a diagnosis row →</span><span class="st">that energy's page</span><span class="ar">→ route B →</span><span class="st new">a domain page</span></div></div>
+
+<h2 id="screens">4 · Screen by screen</h2>
+
+<div class="screen" id="s-catalogue">
+<p class="where">Reading tab · home · "YOUR READING"</p>
+<h3>Your Reading</h3>
+<ol>
+<li><b>Beat 1 · You are.</b> Seal, "You are" + archetype, manifesto, "{stem} · CAST FROM YOUR DAY OF BIRTH".</li>
+<li><b>Beat 2 · YOUR ENERGY MANUAL.</b> One row, "{Core} is your {function} · it runs {Condition}". It unfolds to SEEK THESE and EASE THESE rows.</li>
+<li><b>Beat 3 · YOUR ENERGY MAP.</b> The dominance wheel (unchanged), with the SEEK and EASE rails.</li>
+<li class="new"><b>Beat 4 · YOUR DOMAINS</b> <span class="tag new">new</span>
+  <ul>
+    <li>The claim ("Wealth and Family carry the most weight in your life.") and a sub line.</li>
+    <li>The teaching beat: four gates, two seats each, ten characters.</li>
+    <li>The life line, with "you · 31".</li>
+    <li>With no birth hour, the closed Hour Gate line.</li>
+    <li>Eight tiles, heaviest first. A domain with no seat shows a dashed tile.</li>
+  </ul> All free.</li>
+<li><b>The words on this page.</b> Core, {Condition}, Catalyst, Friction.</li>
+</ol>
+<ul class="taps">
+<li>Hero arrow → <a href="#s-daymaster">Day Master page</a> · share icon or wheel centre → identity card share</li>
+<li>A manual row or a wheel dot → dot card → <a href="#s-element">that energy's page</a></li>
+<li>Bridge "See where your life is ruled" → scrolls to beat 4 <span class="tag new">new</span> · a domain tile → <a href="#s-domain">that domain's page</a> <span class="tag new">new</span></li>
+<li>Pills and word chips → a definition float → "Deeper in the Codex" → Codex (Guidance tab)</li>
+</ul>
+</div>
+
+<div class="screen" id="s-element">
+<p class="where">Reading tab · one tap in · back row "YOUR ENERGIES · {Energy}"</p>
+<h3>An energy page (one per energy)</h3>
+<ol>
+<li><b>The hero card.</b> Art, the 生/克 equation with the role, the dominance bar and the diagnosis.</li>
+<li><b>THE FUNCTION.</b> "{Energy} is your {function}.", the verdict and the keyword chips.</li>
+<li class="new"><b>THE DOMAINS</b> <span class="tag chg">changed</span>
+  <ul>
+    <li><b>Today:</b> this energy's seats, each with chips and a teaser.</li>
+    <li><b>Now:</b> "What Wood rules in your life", a count line, and one tile per domain its seats rule ("3 Wood seats · of 4" plus the headline).</li>
+  </ul></li>
+</ol>
+<ul class="taps">
+<li>Hero card → <a href="#s-mech">the mechanism</a> · THE FUNCTION → <a href="#s-fn">the function detail</a></li>
+<li>A domain tile → <a href="#s-domain">that domain's page</a> <span class="tag new">new</span> (it used to open the seat list, now retired)</li>
+</ul>
+<p class="back">Back → Your Reading.</p>
+</div>
+
+<div class="screen" id="s-mech">
+<p class="where">Reading tab · two taps in</p>
+<h3>The mechanism</h3>
+<ol><li>THE MECHANISM: title, epigraph, base text, state turn. No onward taps.</li></ol>
+<p class="back">Back → the energy page.</p>
+</div>
+
+<div class="screen" id="s-fn">
+<p class="where">Reading tab · two taps in</p>
+<h3>The function detail</h3>
+<ol>
+<li><b>THE FUNCTION.</b> The definition.</li>
+<li><b>THE CHARACTER.</b> The amount strip, the pole pill, the dial, three metric bars and keyword chips. A chip opens its passage.</li>
+<li><b>THE EDGE</b> (catalyst page) or <b>THE REMEDY</b> (friction page). THE EDGE has three domain doors <span class="tag chg">changed</span>.</li>
+</ol>
+<ul class="taps">
+<li>An EDGE domain door → <a href="#s-domain">that domain's page</a> <span class="tag new">new</span>. The domain sheet and its price line are <span class="tag ret">retired</span>.</li>
+<li>THE REMEDY box → <a href="#s-element">the remedy energy's page</a></li>
+</ul>
+<p class="back">Back → the energy page.</p>
+</div>
+
+<div class="screen new" id="s-domain">
+<p class="where">Reading tab · new screen · back row "YOUR DOMAINS · WEALTH" (from beat 4) or "{Energy} · WEALTH" (from an energy page)</p>
+<h3>A domain page (×8: Wealth, Family, Career, Social, Mind, Growth, Health, Love)</h3>
+<ol>
+<li class="new"><b>The head card.</b> "The Domains · Wealth", the headline ("Your money comes through the people close to you."), the count line ("4 seats rule Wealth … Year Gate, Day Gate and Hour Gate"), and the life line with this domain's seats lit. Free.</li>
+<li class="new"><b>How you are</b> ("With money"). The lead seat's recognition, plus the classical pair line when one fires. Free. This is the "it knows me" step.</li>
+<li class="new"><b>What has already happened</b> <span class="tag lock">Seeker</span>
+  <ul>
+    <li>Gate beats in time order, each with its age span ("The Early Chapter · birth to 15").</li>
+    <li>The last decade that ruled it ("An Alchemist decade · 2013 to 2022").</li>
+    <li>The gap line when your current gate holds no seat here.</li>
+  </ul> This is "how did it know that?"</li>
+<li class="new"><b>What is coming</b> <span class="tag lock">Seeker</span>
+  <ul>
+    <li>The coming seats with ages and years ("The Home Chapter · from 35 · 2030").</li>
+    <li>The coming decades, and the strongest or heaviest window ("2043 to 2052").</li>
+    <li>Notes.</li>
+  </ul> This is "is that really going to happen?"</li>
+<li class="new"><b>The seats that rule Wealth.</b>
+  <ul>
+    <li>One card per seat: term and 汉字, age span and face, domains.</li>
+    <li>The defline (free) and the full reading (<span class="tag lock">Seeker</span>).</li>
+    <li>"About the Steward".</li>
+  </ul> This is the positioning dive.</li>
+</ol>
+<ul class="taps">
+<li>Free reader: "Open with Seeker" → the upgrade sheet (where steps 2 and 3 would be)</li>
+<li>No birth hour: "Your Hour Gate is closed … Add your birth hour" → <a href="#s-resonance">Discover your birth hour</a></li>
+</ul>
+<p class="back">Back → where the reader came from: Your Reading (beat 4) or the energy page.</p>
+</div>
+
+<div class="screen" id="s-daymaster">
+<p class="where">Reading tab · from the hero arrow · back row "YOUR ENERGIES · DIAGNOSIS" (being restructured in a parallel session)</p>
+<h3>Day Master page</h3>
+<ol>
+<li>Seal, archetype, manifesto, the "Birth Chart" button.</li>
+<li>The Sign.</li>
+<li>"How {archetype} runs": the condition pill, a five-energy track, the nature paragraph.</li>
+<li>Release these (Friction) and Grow these (Catalyst): one row per energy, ending on "The remedy: …" or "The edge: …".</li>
+<li>"What's a Day Master …" and "Deeper in the Codex" (no action yet).</li>
+</ol>
+<ul class="taps"><li>"Birth Chart" → <a href="#s-pillars">Pillar chart</a> · a diagnosis row → <a href="#s-element">that energy's page</a></li></ul>
+<p class="back">Back → Your Reading.</p>
+</div>
+
+<div class="screen" id="s-pillars">
+<p class="where">Reading tab · from Day Master "Birth Chart", or Profile "View birth chart"</p>
+<h3>Pillar chart</h3>
+<ol><li>Four Pillars · Eight Characters (the 4 columns)</li><li>Your positions: who sits in each seat (index only)</li><li>Patterns (placeholder)</li><li>Energy map</li><li>With no birth hour: "Cast without your hour … Discover it →"</li></ol>
+<ul class="taps"><li>"Discover it" → <a href="#s-resonance">Discover your birth hour</a></li></ul>
+<p class="back">Back → Day Master page.</p>
+</div>
+
+<div class="screen" id="s-resonance">
+<p class="where">No tab bar</p>
+<h3>Discover your birth hour</h3>
+<ol><li>Intro, then three rounds of portraits, then "Your hour resonates with …" with an apply button.</li></ol>
+<ul class="taps"><li>Done → <a href="#s-pillars">Pillar chart</a>. Once applied, the Hour Gate opens on the life line and on every domain page.</li></ul>
+<p class="back">Back → Profile.</p>
+</div>
+
+<h2 id="other">5 · The other tabs (unchanged by this work)</h2>
+<div class="tbl"><table>
+<tr><th>Tab</th><th>Home</th><th>One tap in</th></tr>
+<tr><td><b>Today</b></td><td>Your Readings · Across time: tiles for Today, This Month, This Year, Life Chapter (the current decade)</td><td>
+  <ul style="margin:0;padding-left:16px">
+    <li>Day page: catalyst, do and avoid, best hours. It links to the decade.</li>
+    <li>Month page.</li>
+    <li>Year page.</li>
+    <li>Decade page: "The {El} Decade", the ten-year arc.</li>
+  </ul></td></tr>
+<tr><td><b>Guidance</b></td><td>Your Guidance · five practices</td><td>Elemental Draw (free) · Energy Manual <span class="tag lock">Seeker</span> · Self-Report <span class="tag lock">Seeker</span> · AI Consultant (Advisor) · BaZi Codex (part Seeker)</td></tr>
+<tr><td><b>Compat</b></td><td>Your Circle</td><td>Their birth details, then the reading of two (full reading <span class="tag lock">Seeker</span>)</td></tr>
+<tr><td><b>Profile</b></td><td>Birth data, plan, account</td><td>Discover your birth hour · View birth chart (Pillar chart) · Edit (re-runs onboarding)</td></tr>
+</table></div>
+<div class="note">The Decade page on the Today tab and the decades on a domain page read the same ten-year luck pillars. The Today tab reads the current decade for the whole chart. A domain page reads only the decades whose character rules that domain, past and coming.</div>
+
+<h2 id="back">6 · Going back</h2>
+<div class="tbl"><table>
+<tr><th>From</th><th>Back goes to</th></tr>
+<tr><td>An energy page</td><td>Your Reading (even when opened from the Day Master page)</td></tr>
+<tr><td>The mechanism, the function detail</td><td>The energy page</td></tr>
+<tr><td>A domain page <span class="tag new">new</span></td><td>Your Reading if opened from beat 4. The energy page if opened from its card or an EDGE door.</td></tr>
+<tr><td>Day Master page</td><td>Your Reading</td></tr>
+<tr><td>Pillar chart</td><td>Day Master page</td></tr>
+<tr><td>Discover your birth hour</td><td>Profile (it finishes on the Pillar chart)</td></tr>
+<tr><td>Tab homes</td><td>No back row. Move with the tab bar.</td></tr>
+</table></div>
+
+<h2 id="flags">7 · Things I noticed while mapping (not changed)</h2>
+<div class="note warn">
+<ul style="margin:0;padding-left:18px">
+<li>After a purchase, the welcome ceremony sends the reader to an old screen (<code>app-energymap</code>, the legacy energy catalogue), not to Your Reading. That looks stale.</li>
+<li>On the Day Master page, "What's a Day Master …" and "Deeper in the Codex" have no action yet.</li>
+<li>On the Pillar chart, "What's a pillar? → Codex" has no action.</li>
+<li>Five detail routes (ten gods, forces, chapters, patterns, seasonal) can only be reached by a direct link. No button leads to them.</li>
+<li>Discover your birth hour always goes back to Profile, wherever it was opened from. From a domain page the reader lands on the Pillar chart once done, not back on the domain.</li>
+</ul></div>
+<p class="sec">Where things stand: the domain screens run on dev.elementum.life (dev tools on) and stay off elementum.life until the corpus audit lands.</p>
+</div>
