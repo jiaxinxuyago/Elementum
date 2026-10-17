@@ -161,7 +161,7 @@ export const SHAPES = {
     desc:   { type: 'string', sentenceMin: 1, sentenceMax: 3, required: true,
               note: 'The trait seen through the item\'s angle — a concrete real-life image (REA_16 §3 desc law).' },
     door:   { type: "'body' | 'mind' | 'expression' | 'action' | 'order'", required: true,
-              note: 'The §5f function the trait is exercised through (REA_02 §5h). Gift faces show when the door\'s energy is a catalyst, shadow faces when it carries weight; selectPoolByDoor picks one chip per open door.' },
+              note: 'The §5f function the trait is exercised through (REA_02 §5h). Gift faces show when the door\'s energy is a catalyst, shadow faces when it carries weight; (retired selector: selectPoolByDoor, in git history).' },
     face:   { type: "'echo' | 'wide' | 'excess'", required: true,
               note: 'The derivation law (owner R4, 2026-09-16): echo = cut from the pair cell\'s function definition (item[0] of each door); wide = the abundant catalyst (gifts, Body/Mind second item, from carry.wide); excess = the dominant energy (shadows, Body/Mind second item, from carry.excess). Station-side `echo_of` names the pair field the item is cut from.' },
   },
@@ -266,18 +266,18 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   gifts: {
-    _meta: { tier: 'free', varyBy: ['stem', 'chart roles'], section: 'Gifts row (door-tagged pool ×7 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
-    type: 'object[]', arrayLen: null, required: true,
+    _meta: { tier: 'free', varyBy: ['stem', 'chart roles'], section: 'RETIRED 2026-10-17 (P4 v4 diagnosis): hibernating in the station, STEM __ore.retired_2026-10-17_diagnosis', itemShape: 'TaggedPoolItem', retired: '2026-10-17' },
+    type: 'object[]', arrayLen: null, required: false,
     itemShape: SHAPES.TaggedPoolItem,
-    note: 'Door-tagged pool (REA_02 §5h): a gift face per §5f function, Body + Mind doubled. selectPoolByDoor picks the chart\'s trio: one per catalyst energy in the manual\'s SEEK order, the third from the heaviest catalyst\'s second item. Authored station-first; `dim` (the ANGLE) stays station-side.',
+    note: 'Door-tagged pool (REA_02 §5h): a gift face per §5f function, Body + Mind doubled. The retired selector (selectPoolByDoor) picked the chart\'s trio: one per catalyst energy in the manual\'s SEEK order, the third from the heaviest catalyst\'s second item. Authored station-first; `dim` (the ANGLE) stays station-side.',
     example: [{ phrase: 'Crisis performer', door: 'order', desc: 'The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved.' }],
   },
 
   shadows: {
-    _meta: { tier: 'free', varyBy: ['stem', 'chart roles'], section: 'Shadows row (door-tagged pool ×7 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
-    type: 'object[]', arrayLen: null, required: true,
+    _meta: { tier: 'free', varyBy: ['stem', 'chart roles'], section: 'RETIRED 2026-10-17 (P4 v4 diagnosis): hibernating in the station, STEM __ore.retired_2026-10-17_diagnosis', itemShape: 'TaggedPoolItem', retired: '2026-10-17' },
+    type: 'object[]', arrayLen: null, required: false,
     itemShape: SHAPES.TaggedPoolItem,
-    note: 'Symmetric with gifts: a shadow face per function = the function overgrown (REA_02 §4b). selectPoolByDoor picks one per friction energy, core first, in the manual\'s EASE order.',
+    note: 'Symmetric with gifts: a shadow face per function = the function overgrown (REA_02 §4b). The retired selector picked one per friction energy, core first, in the manual\'s EASE order.',
     example: [{ phrase: 'Stays decided', door: 'body', desc: 'Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut.' }],
   },
 

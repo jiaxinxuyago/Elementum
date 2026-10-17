@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
   "candidates": {
     "archetype_name": "The Field",
     "manifesto": "Nourish without credit · You are the Earth that turns what it holds into growth.",
@@ -28,122 +28,6 @@
     "dm_mechanism": "Yin Earth that nourishes quietly — fertile ground that asks for no credit.",
     "yourNature_desc": "You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late.",
     "dm_overview": "The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away.",
-    "gifts": [
-      {
-        "phrase": "Restful company",
-        "dim": "presence",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "Nobody performs around you. The physical calm under everything lets friends unclench, say the true version, and stay an hour longer than they planned."
-      },
-      {
-        "phrase": "Quietly essential",
-        "dim": "being noticed",
-        "door": "body",
-        "face": "wide",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
-      },
-      {
-        "phrase": "Never forgets a kindness",
-        "dim": "how you learn",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_catalyst",
-        "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
-      },
-      {
-        "phrase": "Perfect timing",
-        "dim": "timing",
-        "door": "mind",
-        "face": "wide",
-        "echo_of": "土_火.carry.wide",
-        "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
-      },
-      {
-        "phrase": "Every word counts",
-        "dim": "speaking up",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_catalyst",
-        "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
-      },
-      {
-        "phrase": "Feeds the table",
-        "dim": "provision",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_catalyst",
-        "desc": "There is always enough. Money, chances, people in motion pass through your steady hands, and nobody asks how it was there before they were hungry."
-      },
-      {
-        "phrase": "Keeps every promise",
-        "dim": "obligations",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_catalyst",
-        "desc": "Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
-      }
-    ],
-    "shadows": [
-      {
-        "phrase": "Bogged down",
-        "dim": "what gets dropped",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_friction",
-        "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
-      },
-      {
-        "phrase": "Resists change",
-        "dim": "changing course",
-        "door": "body",
-        "face": "excess",
-        "echo_of": "土_土.carry.excess",
-        "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
-      },
-      {
-        "phrase": "Lives on praise",
-        "dim": "praise",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_friction",
-        "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
-      },
-      {
-        "phrase": "Busy but barren",
-        "dim": "producing",
-        "door": "mind",
-        "face": "excess",
-        "echo_of": "土_火.carry.excess",
-        "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
-      },
-      {
-        "phrase": "Drained by demands",
-        "dim": "output on demand",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_friction",
-        "desc": "Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground."
-      },
-      {
-        "phrase": "Penny-watcher",
-        "dim": "control",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_friction",
-        "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
-      },
-      {
-        "phrase": "Sorry for everything",
-        "dim": "being judged",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_friction",
-        "desc": "The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather."
-      }
-    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -483,14 +367,135 @@
           "echo_of": "土_水.function.definition_friction",
           "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
         }
+      },
+      "retired_2026-10-17_diagnosis": {
+        "status": "HIBERNATING",
+        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages.",
+        "revive": "Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit).",
+        "gifts": [
+          {
+            "phrase": "Restful company",
+            "dim": "presence",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "Nobody performs around you. The physical calm under everything lets friends unclench, say the true version, and stay an hour longer than they planned."
+          },
+          {
+            "phrase": "Quietly essential",
+            "dim": "being noticed",
+            "door": "body",
+            "face": "wide",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
+          },
+          {
+            "phrase": "Never forgets a kindness",
+            "dim": "how you learn",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "土_火.function.definition_catalyst",
+            "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
+          },
+          {
+            "phrase": "Perfect timing",
+            "dim": "timing",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "土_火.carry.wide",
+            "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
+          },
+          {
+            "phrase": "Every word counts",
+            "dim": "speaking up",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "土_金.function.definition_catalyst",
+            "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
+          },
+          {
+            "phrase": "Feeds the table",
+            "dim": "provision",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "土_水.function.definition_catalyst",
+            "desc": "There is always enough. Money, chances, people in motion pass through your steady hands, and nobody asks how it was there before they were hungry."
+          },
+          {
+            "phrase": "Keeps every promise",
+            "dim": "obligations",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "土_木.function.definition_catalyst",
+            "desc": "Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Bogged down",
+            "dim": "what gets dropped",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "土_土.function.definition_friction",
+            "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
+          },
+          {
+            "phrase": "Resists change",
+            "dim": "changing course",
+            "door": "body",
+            "face": "excess",
+            "echo_of": "土_土.carry.excess",
+            "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
+          },
+          {
+            "phrase": "Lives on praise",
+            "dim": "praise",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "土_火.function.definition_friction",
+            "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
+          },
+          {
+            "phrase": "Busy but barren",
+            "dim": "producing",
+            "door": "mind",
+            "face": "excess",
+            "echo_of": "土_火.carry.excess",
+            "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
+          },
+          {
+            "phrase": "Drained by demands",
+            "dim": "output on demand",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "土_金.function.definition_friction",
+            "desc": "Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground."
+          },
+          {
+            "phrase": "Penny-watcher",
+            "dim": "control",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "土_水.function.definition_friction",
+            "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
+          },
+          {
+            "phrase": "Sorry for everything",
+            "dim": "being judged",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "土_木.function.definition_friction",
+            "desc": "The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather."
+          }
+        ],
+        "door_note": {
+          "body": "Earth",
+          "mind": "Fire",
+          "expression": "Metal",
+          "action": "Water",
+          "order": "Wood"
+        }
       }
-    },
-    "door_note": {
-      "body": "Earth",
-      "mind": "Fire",
-      "expression": "Metal",
-      "action": "Water",
-      "order": "Wood"
     }
   },
   "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."

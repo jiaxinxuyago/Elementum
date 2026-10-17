@@ -10,7 +10,7 @@
 | **key** | 丁 |
 | **canonical name** | The Candle |
 | **construct** | RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1. |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -26,95 +26,6 @@
 | `dm_mechanism` | Yin Fire kept close — a focused heat that endures by staying contained. |
 | `yourNature_desc` | You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it. |
 | `dm_overview` | The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance. |
-| `gifts[0].phrase` | Fully committed |
-| `gifts[0].dim` | the inner circle |
-| `gifts[0].door` | body |
-| `gifts[0].face` | echo |
-| `gifts[0].echo_of` | 火_火.function.definition_catalyst |
-| `gifts[0].desc` | What you choose gets all the energy you have, in bursts, at close range. The people inside your circle never wonder where they stand. |
-| `gifts[1].phrase` | Deeply present |
-| `gifts[1].dim` | attention |
-| `gifts[1].door` | body |
-| `gifts[1].face` | wide |
-| `gifts[1].echo_of` | 火_火.function.definition_catalyst |
-| `gifts[1].desc` | Plenty of light and all of it pointed at one person. Phones stay dark, time goes quiet, and they leave feeling seen in a way that is hard to find. |
-| `gifts[2].phrase` | Studies one thing |
-| `gifts[2].dim` | depth |
-| `gifts[2].door` | mind |
-| `gifts[2].face` | echo |
-| `gifts[2].echo_of` | 火_木.function.definition_catalyst |
-| `gifts[2].desc` | One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance. |
-| `gifts[3].phrase` | Spots the detail |
-| `gifts[3].dim` | small details |
-| `gifts[3].door` | mind |
-| `gifts[3].face` | wide |
-| `gifts[3].echo_of` | 火_木.carry.wide |
-| `gifts[3].desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains. |
-| `gifts[4].phrase` | Rekindles people |
-| `gifts[4].dim` | close range |
-| `gifts[4].door` | expression |
-| `gifts[4].face` | echo |
-| `gifts[4].echo_of` | 火_土.function.definition_catalyst |
-| `gifts[4].desc` | Your belief in someone works at close range and lasts. What you give a friend over one evening, a push, a plan, a way to see it, is still holding them up a year later. |
-| `gifts[5].phrase` | Cracks hard problems |
-| `gifts[5].dim` | the work you pick |
-| `gifts[5].door` | action |
-| `gifts[5].face` | echo |
-| `gifts[5].echo_of` | 火_金.function.definition_catalyst |
-| `gifts[5].desc` | Easy work wastes you. Give you one difficult, valuable thing within arm's reach and the heat finally has something to work on. |
-| `gifts[6].phrase` | Listens to doubt |
-| `gifts[6].dim` | before the leap |
-| `gifts[6].door` | order |
-| `gifts[6].face` | echo |
-| `gifts[6].echo_of` | 火_水.function.definition_catalyst |
-| `gifts[6].desc` | One calm person whose questions slow you down before the leap. Your best decisions all survived a night of doubt. |
-| `shadows[0].phrase` | Can't cool down |
-| `shadows[0].dim` | rest |
-| `shadows[0].door` | body |
-| `shadows[0].face` | echo |
-| `shadows[0].echo_of` | 火_火.function.definition_friction |
-| `shadows[0].desc` | More heat than your days can spend. The evening will not end, and the intensity leaks into every conversation until rest feels like punishment. |
-| `shadows[1].phrase` | Tunnel vision |
-| `shadows[1].dim` | the edge of attention |
-| `shadows[1].door` | body |
-| `shadows[1].face` | excess |
-| `shadows[1].echo_of` | 火_火.carry.excess |
-| `shadows[1].desc` | Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind. |
-| `shadows[2].phrase` | Never ready enough |
-| `shadows[2].dim` | preparation |
-| `shadows[2].door` | mind |
-| `shadows[2].face` | echo |
-| `shadows[2].echo_of` | 火_木.function.definition_friction |
-| `shadows[2].desc` | One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do. |
-| `shadows[3].phrase` | Burns out fast |
-| `shadows[3].dim` | too many plans |
-| `shadows[3].door` | mind |
-| `shadows[3].face` | excess |
-| `shadows[3].echo_of` | 火_木.carry.excess |
-| `shadows[3].desc` | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest. |
-| `shadows[4].phrase` | Overplans the fun |
-| `shadows[4].dim` | moments |
-| `shadows[4].door` | expression |
-| `shadows[4].face` | echo |
-| `shadows[4].echo_of` | 火_土.function.definition_friction |
-| `shadows[4].desc` | The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live. |
-| `shadows[5].phrase` | Never calls it done |
-| `shadows[5].dim` | finishing |
-| `shadows[5].door` | action |
-| `shadows[5].face` | echo |
-| `shadows[5].echo_of` | 火_金.function.definition_friction |
-| `shadows[5].desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |
-| `shadows[6].phrase` | Takes it personally |
-| `shadows[6].dim` | criticism |
-| `shadows[6].door` | order |
-| `shadows[6].face` | echo |
-| `shadows[6].echo_of` | 火_水.function.definition_friction |
-| `shadows[6].desc` | A criticism of the work lands as a criticism of your soul. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
-| `door_note.body` | Fire |
-| `door_note.mind` | Wood |
-| `door_note.expression` | Earth |
-| `door_note.action` | Metal |
-| `door_note.order` | Water |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -320,3 +231,95 @@
 | `retired_2026-09-21_cold_read.shadows.Keeps reworking it.face` | echo |
 | `retired_2026-09-21_cold_read.shadows.Keeps reworking it.echo_of` | 火_金.function.definition_friction |
 | `retired_2026-09-21_cold_read.shadows.Keeps reworking it.desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |
+| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
+| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
+| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Fully committed |
+| `retired_2026-10-17_diagnosis.gifts[0].dim` | the inner circle |
+| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
+| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 火_火.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[0].desc` | What you choose gets all the energy you have, in bursts, at close range. The people inside your circle never wonder where they stand. |
+| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Deeply present |
+| `retired_2026-10-17_diagnosis.gifts[1].dim` | attention |
+| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
+| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
+| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 火_火.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[1].desc` | Plenty of light and all of it pointed at one person. Phones stay dark, time goes quiet, and they leave feeling seen in a way that is hard to find. |
+| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Studies one thing |
+| `retired_2026-10-17_diagnosis.gifts[2].dim` | depth |
+| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
+| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 火_木.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[2].desc` | One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance. |
+| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Spots the detail |
+| `retired_2026-10-17_diagnosis.gifts[3].dim` | small details |
+| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
+| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
+| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 火_木.carry.wide |
+| `retired_2026-10-17_diagnosis.gifts[3].desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains. |
+| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Rekindles people |
+| `retired_2026-10-17_diagnosis.gifts[4].dim` | close range |
+| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
+| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 火_土.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[4].desc` | Your belief in someone works at close range and lasts. What you give a friend over one evening, a push, a plan, a way to see it, is still holding them up a year later. |
+| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Cracks hard problems |
+| `retired_2026-10-17_diagnosis.gifts[5].dim` | the work you pick |
+| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
+| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 火_金.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[5].desc` | Easy work wastes you. Give you one difficult, valuable thing within arm's reach and the heat finally has something to work on. |
+| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Listens to doubt |
+| `retired_2026-10-17_diagnosis.gifts[6].dim` | before the leap |
+| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
+| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 火_水.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[6].desc` | One calm person whose questions slow you down before the leap. Your best decisions all survived a night of doubt. |
+| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Can't cool down |
+| `retired_2026-10-17_diagnosis.shadows[0].dim` | rest |
+| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
+| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 火_火.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[0].desc` | More heat than your days can spend. The evening will not end, and the intensity leaks into every conversation until rest feels like punishment. |
+| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Tunnel vision |
+| `retired_2026-10-17_diagnosis.shadows[1].dim` | the edge of attention |
+| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
+| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
+| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 火_火.carry.excess |
+| `retired_2026-10-17_diagnosis.shadows[1].desc` | Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind. |
+| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Never ready enough |
+| `retired_2026-10-17_diagnosis.shadows[2].dim` | preparation |
+| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
+| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 火_木.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[2].desc` | One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do. |
+| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Burns out fast |
+| `retired_2026-10-17_diagnosis.shadows[3].dim` | too many plans |
+| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
+| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
+| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 火_木.carry.excess |
+| `retired_2026-10-17_diagnosis.shadows[3].desc` | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest. |
+| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Overplans the fun |
+| `retired_2026-10-17_diagnosis.shadows[4].dim` | moments |
+| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
+| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 火_土.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[4].desc` | The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live. |
+| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Never calls it done |
+| `retired_2026-10-17_diagnosis.shadows[5].dim` | finishing |
+| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
+| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 火_金.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[5].desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |
+| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Takes it personally |
+| `retired_2026-10-17_diagnosis.shadows[6].dim` | criticism |
+| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
+| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 火_水.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[6].desc` | A criticism of the work lands as a criticism of your soul. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
+| `retired_2026-10-17_diagnosis.door_note.body` | Fire |
+| `retired_2026-10-17_diagnosis.door_note.mind` | Wood |
+| `retired_2026-10-17_diagnosis.door_note.expression` | Earth |
+| `retired_2026-10-17_diagnosis.door_note.action` | Metal |
+| `retired_2026-10-17_diagnosis.door_note.order` | Water |

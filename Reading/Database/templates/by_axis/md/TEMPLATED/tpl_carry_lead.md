@@ -9,7 +9,7 @@
 | **axis** | TEMPLATED |
 | **key** | tpl_carry_lead |
 | **construct** | Derived slot template (REA_03 §5; REA_02 §5h) |
-| **status** | LIVE 2026-09-15 · P4 carry card lead line |
+| **status** | LIVE 2026-09-15 · P4 carry card lead line · now the P4 v4 diagnosis lead (owner 2026-10-17); Balanced line re-cut (Q11 A) |
 | **budget** | ≤20w |
 | **sources** | REA_02 §5h · DES_04 §AM.11 P4 v3 |
 
@@ -19,4 +19,12 @@
 |---|---|
 | `Overfueled` | {Core} runs Overfueled. {nEase} energies feed a core already full. {nSeek} are where the surplus should go. |
 | `Underfueled` | {Core} runs Underfueled. {nSeek} energies are what the core is asking for. {nEase} already carry weight. |
-| `Balanced` | {Core} runs Balanced. Intake and burn hold each other, so the doors below are open on both sides. |
+| `Balanced` | {Core} runs Balanced. Your five energies hold each other, and none of them needs to grow or be released. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `retired_2026-10-17_balanced_lead.status` | HIBERNATING |
+| `retired_2026-10-17_balanced_lead.note` | Replaced by owner Q11 A (2026-10-17): the old line said 'door' and used 'X, so Y'. |
+| `retired_2026-10-17_balanced_lead.Balanced` | {Core} runs Balanced. Intake and burn hold each other, so the doors below are open on both sides. |

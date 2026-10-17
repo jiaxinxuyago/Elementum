@@ -10,7 +10,7 @@
 | **key** | 丙 |
 | **canonical name** | The Sun |
 | **construct** | RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1. |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -26,95 +26,6 @@
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
 | `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
-| `gifts[0].phrase` | Lifts the morning |
-| `gifts[0].dim` | energy |
-| `gifts[0].door` | body |
-| `gifts[0].face` | echo |
-| `gifts[0].echo_of` | 火_火.function.definition_catalyst |
-| `gifts[0].desc` | Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright. |
-| `gifts[1].phrase` | Generous with warmth |
-| `gifts[1].dim` | reach |
-| `gifts[1].door` | body |
-| `gifts[1].face` | wide |
-| `gifts[1].echo_of` | 火_火.function.definition_catalyst |
-| `gifts[1].desc` | Plenty of light and no meter on it. Everyone in the building gets some, whether they asked or not. |
-| `gifts[2].phrase` | Learns from everyone |
-| `gifts[2].dim` | refueling |
-| `gifts[2].door` | mind |
-| `gifts[2].face` | echo |
-| `gifts[2].echo_of` | 火_木.function.definition_catalyst |
-| `gifts[2].desc` | Skills stacked, books finished, friends kept for years. What you gather quietly is what you later spend as brilliance. |
-| `gifts[3].phrase` | Full of ideas |
-| `gifts[3].dim` | what catches |
-| `gifts[3].door` | mind |
-| `gifts[3].face` | wide |
-| `gifts[3].echo_of` | 火_木.carry.wide |
-| `gifts[3].desc` | With this much fuel around you, the light never wants for something to burn. Ideas, people, plans, all of it catches. |
-| `gifts[4].phrase` | Starts traditions |
-| `gifts[4].dim` | what lasts |
-| `gifts[4].door` | expression |
-| `gifts[4].face` | echo |
-| `gifts[4].echo_of` | 火_土.function.definition_catalyst |
-| `gifts[4].desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
-| `gifts[5].phrase` | Takes hard jobs |
-| `gifts[5].dim` | the work you pick |
-| `gifts[5].door` | action |
-| `gifts[5].face` | echo |
-| `gifts[5].echo_of` | 火_金.function.definition_catalyst |
-| `gifts[5].desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
-| `gifts[6].phrase` | Checks before leaping |
-| `gifts[6].dim` | before the leap |
-| `gifts[6].door` | order |
-| `gifts[6].face` | echo |
-| `gifts[6].echo_of` | 火_水.function.definition_catalyst |
-| `gifts[6].desc` | Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands. |
-| `shadows[0].phrase` | Can't switch off |
-| `shadows[0].dim` | personal reserves |
-| `shadows[0].door` | body |
-| `shadows[0].face` | echo |
-| `shadows[0].echo_of` | 火_火.function.definition_friction |
-| `shadows[0].desc` | More heat than your days can spend. The day will not end on time, intensity leaks into every conversation, and rest feels like a punishment. |
-| `shadows[1].phrase` | Steals the spotlight |
-| `shadows[1].dim` | the whole sky |
-| `shadows[1].door` | body |
-| `shadows[1].face` | excess |
-| `shadows[1].echo_of` | 火_火.carry.excess |
-| `shadows[1].desc` | So much light that nothing else in the sky is visible, including the people you were warming. |
-| `shadows[2].phrase` | Chases every idea |
-| `shadows[2].dim` | starting |
-| `shadows[2].door` | mind |
-| `shadows[2].face` | echo |
-| `shadows[2].echo_of` | 火_木.function.definition_friction |
-| `shadows[2].desc` | Another book, another course, another person worth learning from, and each one starts something before the last one is done. The fire is spreading, not growing. |
-| `shadows[3].phrase` | Buried in ideas |
-| `shadows[3].dim` | too many plans |
-| `shadows[3].door` | mind |
-| `shadows[3].face` | excess |
-| `shadows[3].echo_of` | 火_木.carry.excess |
-| `shadows[3].desc` | So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking. |
-| `shadows[4].phrase` | Formalizes everything |
-| `shadows[4].dim` | quiet moments |
-| `shadows[4].door` | expression |
-| `shadows[4].face` | echo |
-| `shadows[4].echo_of` | 火_土.function.definition_friction |
-| `shadows[4].desc` | Every idea becomes a project and every project becomes permanent. The output hardens while the light behind it thins. |
-| `shadows[5].phrase` | Reopens settled things |
-| `shadows[5].dim` | settled things |
-| `shadows[5].door` | action |
-| `shadows[5].face` | echo |
-| `shadows[5].echo_of` | 火_金.function.definition_friction |
-| `shadows[5].desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
-| `shadows[6].phrase` | Own harshest judge |
-| `shadows[6].dim` | being judged |
-| `shadows[6].door` | order |
-| `shadows[6].face` | echo |
-| `shadows[6].echo_of` | 火_水.function.definition_friction |
-| `shadows[6].desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe, and the hardest judge of the flame is you. |
-| `door_note.body` | Fire |
-| `door_note.mind` | Wood |
-| `door_note.expression` | Earth |
-| `door_note.action` | Metal |
-| `door_note.order` | Water |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -321,3 +232,95 @@
 | `retired_2026-09-21_cold_read.shadows.Outshines everyone.face` | excess |
 | `retired_2026-09-21_cold_read.shadows.Outshines everyone.echo_of` | 火_火.carry.excess |
 | `retired_2026-09-21_cold_read.shadows.Outshines everyone.desc` | So much light that nothing else in the sky is visible, including the people you were warming. |
+| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
+| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
+| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Lifts the morning |
+| `retired_2026-10-17_diagnosis.gifts[0].dim` | energy |
+| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
+| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 火_火.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[0].desc` | Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright. |
+| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Generous with warmth |
+| `retired_2026-10-17_diagnosis.gifts[1].dim` | reach |
+| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
+| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
+| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 火_火.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[1].desc` | Plenty of light and no meter on it. Everyone in the building gets some, whether they asked or not. |
+| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Learns from everyone |
+| `retired_2026-10-17_diagnosis.gifts[2].dim` | refueling |
+| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
+| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 火_木.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[2].desc` | Skills stacked, books finished, friends kept for years. What you gather quietly is what you later spend as brilliance. |
+| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Full of ideas |
+| `retired_2026-10-17_diagnosis.gifts[3].dim` | what catches |
+| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
+| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
+| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 火_木.carry.wide |
+| `retired_2026-10-17_diagnosis.gifts[3].desc` | With this much fuel around you, the light never wants for something to burn. Ideas, people, plans, all of it catches. |
+| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Starts traditions |
+| `retired_2026-10-17_diagnosis.gifts[4].dim` | what lasts |
+| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
+| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 火_土.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[4].desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
+| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Takes hard jobs |
+| `retired_2026-10-17_diagnosis.gifts[5].dim` | the work you pick |
+| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
+| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 火_金.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[5].desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
+| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Checks before leaping |
+| `retired_2026-10-17_diagnosis.gifts[6].dim` | before the leap |
+| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
+| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 火_水.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[6].desc` | Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands. |
+| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Can't switch off |
+| `retired_2026-10-17_diagnosis.shadows[0].dim` | personal reserves |
+| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
+| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 火_火.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[0].desc` | More heat than your days can spend. The day will not end on time, intensity leaks into every conversation, and rest feels like a punishment. |
+| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Steals the spotlight |
+| `retired_2026-10-17_diagnosis.shadows[1].dim` | the whole sky |
+| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
+| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
+| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 火_火.carry.excess |
+| `retired_2026-10-17_diagnosis.shadows[1].desc` | So much light that nothing else in the sky is visible, including the people you were warming. |
+| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Chases every idea |
+| `retired_2026-10-17_diagnosis.shadows[2].dim` | starting |
+| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
+| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 火_木.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[2].desc` | Another book, another course, another person worth learning from, and each one starts something before the last one is done. The fire is spreading, not growing. |
+| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Buried in ideas |
+| `retired_2026-10-17_diagnosis.shadows[3].dim` | too many plans |
+| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
+| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
+| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 火_木.carry.excess |
+| `retired_2026-10-17_diagnosis.shadows[3].desc` | So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking. |
+| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Formalizes everything |
+| `retired_2026-10-17_diagnosis.shadows[4].dim` | quiet moments |
+| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
+| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 火_土.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[4].desc` | Every idea becomes a project and every project becomes permanent. The output hardens while the light behind it thins. |
+| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Reopens settled things |
+| `retired_2026-10-17_diagnosis.shadows[5].dim` | settled things |
+| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
+| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 火_金.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[5].desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
+| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Own harshest judge |
+| `retired_2026-10-17_diagnosis.shadows[6].dim` | being judged |
+| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
+| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 火_水.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[6].desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe, and the hardest judge of the flame is you. |
+| `retired_2026-10-17_diagnosis.door_note.body` | Fire |
+| `retired_2026-10-17_diagnosis.door_note.mind` | Wood |
+| `retired_2026-10-17_diagnosis.door_note.expression` | Earth |
+| `retired_2026-10-17_diagnosis.door_note.action` | Metal |
+| `retired_2026-10-17_diagnosis.door_note.order` | Water |

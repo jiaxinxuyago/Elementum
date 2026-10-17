@@ -29,7 +29,7 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart, onOpenEne
   );
   // One band for every surface (owner B11 2026-09-20): the resolved ec.band,
   // never raw engine strength, picks the nature variant.
-  const reading = useMemo(() => resolveDayMasterReading(stem, chart, undefined, m?.band) || {}, [stem, chart, m]);
+  const reading = useMemo(() => resolveDayMasterReading(stem, chart, m?.band) || {}, [stem, chart, m]);
   const dx = useMemo(() => buildDiagnosisModel(m), [m]);
   if (!ec || !identity) return null;
   return (

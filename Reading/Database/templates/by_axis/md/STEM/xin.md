@@ -10,7 +10,7 @@
 | **key** | 辛 |
 | **canonical name** | The Jewel |
 | **construct** | RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1. |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -26,95 +26,6 @@
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
 | `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early. |
-| `gifts[0].phrase` | Steady under strain |
-| `gifts[0].dim` | being handled |
-| `gifts[0].door` | body |
-| `gifts[0].face` | echo |
-| `gifts[0].echo_of` | 金_金.function.definition_catalyst |
-| `gifts[0].desc` | Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late. |
-| `gifts[1].phrase` | Polished by default |
-| `gifts[1].dim` | finishing |
-| `gifts[1].door` | body |
-| `gifts[1].face` | wide |
-| `gifts[1].echo_of` | 金_金.function.definition_catalyst |
-| `gifts[1].desc` | Plenty of the material and all of it finished. Even the things nobody will see leave your hands done properly. |
-| `gifts[2].phrase` | Impeccable taste |
-| `gifts[2].dim` | quality |
-| `gifts[2].door` | mind |
-| `gifts[2].face` | echo |
-| `gifts[2].echo_of` | 金_土.function.definition_catalyst |
-| `gifts[2].desc` | Years of quiet looking went in first. Now you know the good one from the almost-good one at a glance, and friends borrow your eye before they buy. |
-| `gifts[3].phrase` | Spots the crack |
-| `gifts[3].dim` | early warnings |
-| `gifts[3].door` | mind |
-| `gifts[3].face` | wide |
-| `gifts[3].echo_of` | 金_土.carry.wide |
-| `gifts[3].desc` | With this much ground under the stone, you saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait. |
-| `gifts[4].phrase` | Understated excellence |
-| `gifts[4].dim` | self-presentation |
-| `gifts[4].door` | expression |
-| `gifts[4].face` | echo |
-| `gifts[4].echo_of` | 金_水.function.definition_catalyst |
-| `gifts[4].desc` | What is inside moves outward without forcing. You do not advertise, compete, or explain. The work speaks quietly, and the people who know, know. |
-| `gifts[5].phrase` | Prices it right |
-| `gifts[5].dim` | placing value |
-| `gifts[5].door` | action |
-| `gifts[5].face` | echo |
-| `gifts[5].echo_of` | 金_木.function.definition_catalyst |
-| `gifts[5].desc` | You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it. |
-| `gifts[6].phrase` | Built to last |
-| `gifts[6].dim` | at work |
-| `gifts[6].door` | order |
-| `gifts[6].face` | echo |
-| `gifts[6].echo_of` | 金_火.function.definition_catalyst |
-| `gifts[6].desc` | Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection. |
-| `shadows[0].phrase` | Polishes forever |
-| `shadows[0].dim` | deadlines |
-| `shadows[0].door` | body |
-| `shadows[0].face` | echo |
-| `shadows[0].echo_of` | 金_金.function.definition_friction |
-| `shadows[0].desc` | Discipline with no outlet turns on the work. The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
-| `shadows[1].phrase` | Trusts one judge |
-| `shadows[1].dim` | taking advice |
-| `shadows[1].door` | body |
-| `shadows[1].face` | excess |
-| `shadows[1].echo_of` | 金_金.carry.excess |
-| `shadows[1].desc` | So much certainty it cuts everything the same way. The only opinion that counts on your work is yours, and it has never once been satisfied. |
-| `shadows[2].phrase` | Never stops preparing |
-| `shadows[2].dim` | preparation |
-| `shadows[2].door` | mind |
-| `shadows[2].face` | echo |
-| `shadows[2].echo_of` | 金_土.function.definition_friction |
-| `shadows[2].desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
-| `shadows[3].phrase` | Buried talent |
-| `shadows[3].dim` | being sheltered |
-| `shadows[3].door` | mind |
-| `shadows[3].face` | excess |
-| `shadows[3].echo_of` | 金_土.carry_yin.excess |
-| `shadows[3].desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
-| `shadows[4].phrase` | Sharp tongue |
-| `shadows[4].dim` | small remarks |
-| `shadows[4].door` | expression |
-| `shadows[4].face` | echo |
-| `shadows[4].echo_of` | 金_水.function.definition_friction |
-| `shadows[4].desc` | Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
-| `shadows[5].phrase` | Hoarder of starts |
-| `shadows[5].dim` | acquiring |
-| `shadows[5].door` | action |
-| `shadows[5].face` | echo |
-| `shadows[5].echo_of` | 金_木.function.definition_friction |
-| `shadows[5].desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |
-| `shadows[6].phrase` | Hardest on itself |
-| `shadows[6].dim` | being judged |
-| `shadows[6].door` | order |
-| `shadows[6].face` | echo |
-| `shadows[6].echo_of` | 金_火.function.definition_friction |
-| `shadows[6].desc` | Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you. |
-| `door_note.body` | Metal |
-| `door_note.mind` | Earth |
-| `door_note.expression` | Water |
-| `door_note.action` | Wood |
-| `door_note.order` | Fire |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -271,3 +182,95 @@
 | `retired_2026-09-21_cold_read.shadows.Hoards raw stones.face` | echo |
 | `retired_2026-09-21_cold_read.shadows.Hoards raw stones.echo_of` | 金_木.function.definition_friction |
 | `retired_2026-09-21_cold_read.shadows.Hoards raw stones.desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |
+| `retired_2026-10-17_diagnosis.status` | HIBERNATING |
+| `retired_2026-10-17_diagnosis.note` | The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages. |
+| `retired_2026-10-17_diagnosis.revive` | Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit). |
+| `retired_2026-10-17_diagnosis.gifts[0].phrase` | Steady under strain |
+| `retired_2026-10-17_diagnosis.gifts[0].dim` | being handled |
+| `retired_2026-10-17_diagnosis.gifts[0].door` | body |
+| `retired_2026-10-17_diagnosis.gifts[0].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[0].echo_of` | 金_金.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[0].desc` | Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late. |
+| `retired_2026-10-17_diagnosis.gifts[1].phrase` | Polished by default |
+| `retired_2026-10-17_diagnosis.gifts[1].dim` | finishing |
+| `retired_2026-10-17_diagnosis.gifts[1].door` | body |
+| `retired_2026-10-17_diagnosis.gifts[1].face` | wide |
+| `retired_2026-10-17_diagnosis.gifts[1].echo_of` | 金_金.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[1].desc` | Plenty of the material and all of it finished. Even the things nobody will see leave your hands done properly. |
+| `retired_2026-10-17_diagnosis.gifts[2].phrase` | Impeccable taste |
+| `retired_2026-10-17_diagnosis.gifts[2].dim` | quality |
+| `retired_2026-10-17_diagnosis.gifts[2].door` | mind |
+| `retired_2026-10-17_diagnosis.gifts[2].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[2].echo_of` | 金_土.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[2].desc` | Years of quiet looking went in first. Now you know the good one from the almost-good one at a glance, and friends borrow your eye before they buy. |
+| `retired_2026-10-17_diagnosis.gifts[3].phrase` | Spots the crack |
+| `retired_2026-10-17_diagnosis.gifts[3].dim` | early warnings |
+| `retired_2026-10-17_diagnosis.gifts[3].door` | mind |
+| `retired_2026-10-17_diagnosis.gifts[3].face` | wide |
+| `retired_2026-10-17_diagnosis.gifts[3].echo_of` | 金_土.carry.wide |
+| `retired_2026-10-17_diagnosis.gifts[3].desc` | With this much ground under the stone, you saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait. |
+| `retired_2026-10-17_diagnosis.gifts[4].phrase` | Understated excellence |
+| `retired_2026-10-17_diagnosis.gifts[4].dim` | self-presentation |
+| `retired_2026-10-17_diagnosis.gifts[4].door` | expression |
+| `retired_2026-10-17_diagnosis.gifts[4].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[4].echo_of` | 金_水.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[4].desc` | What is inside moves outward without forcing. You do not advertise, compete, or explain. The work speaks quietly, and the people who know, know. |
+| `retired_2026-10-17_diagnosis.gifts[5].phrase` | Prices it right |
+| `retired_2026-10-17_diagnosis.gifts[5].dim` | placing value |
+| `retired_2026-10-17_diagnosis.gifts[5].door` | action |
+| `retired_2026-10-17_diagnosis.gifts[5].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[5].echo_of` | 金_木.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[5].desc` | You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it. |
+| `retired_2026-10-17_diagnosis.gifts[6].phrase` | Built to last |
+| `retired_2026-10-17_diagnosis.gifts[6].dim` | at work |
+| `retired_2026-10-17_diagnosis.gifts[6].door` | order |
+| `retired_2026-10-17_diagnosis.gifts[6].face` | echo |
+| `retired_2026-10-17_diagnosis.gifts[6].echo_of` | 金_火.function.definition_catalyst |
+| `retired_2026-10-17_diagnosis.gifts[6].desc` | Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection. |
+| `retired_2026-10-17_diagnosis.shadows[0].phrase` | Polishes forever |
+| `retired_2026-10-17_diagnosis.shadows[0].dim` | deadlines |
+| `retired_2026-10-17_diagnosis.shadows[0].door` | body |
+| `retired_2026-10-17_diagnosis.shadows[0].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[0].echo_of` | 金_金.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[0].desc` | Discipline with no outlet turns on the work. The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
+| `retired_2026-10-17_diagnosis.shadows[1].phrase` | Trusts one judge |
+| `retired_2026-10-17_diagnosis.shadows[1].dim` | taking advice |
+| `retired_2026-10-17_diagnosis.shadows[1].door` | body |
+| `retired_2026-10-17_diagnosis.shadows[1].face` | excess |
+| `retired_2026-10-17_diagnosis.shadows[1].echo_of` | 金_金.carry.excess |
+| `retired_2026-10-17_diagnosis.shadows[1].desc` | So much certainty it cuts everything the same way. The only opinion that counts on your work is yours, and it has never once been satisfied. |
+| `retired_2026-10-17_diagnosis.shadows[2].phrase` | Never stops preparing |
+| `retired_2026-10-17_diagnosis.shadows[2].dim` | preparation |
+| `retired_2026-10-17_diagnosis.shadows[2].door` | mind |
+| `retired_2026-10-17_diagnosis.shadows[2].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[2].echo_of` | 金_土.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[2].desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
+| `retired_2026-10-17_diagnosis.shadows[3].phrase` | Buried talent |
+| `retired_2026-10-17_diagnosis.shadows[3].dim` | being sheltered |
+| `retired_2026-10-17_diagnosis.shadows[3].door` | mind |
+| `retired_2026-10-17_diagnosis.shadows[3].face` | excess |
+| `retired_2026-10-17_diagnosis.shadows[3].echo_of` | 金_土.carry_yin.excess |
+| `retired_2026-10-17_diagnosis.shadows[3].desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
+| `retired_2026-10-17_diagnosis.shadows[4].phrase` | Sharp tongue |
+| `retired_2026-10-17_diagnosis.shadows[4].dim` | small remarks |
+| `retired_2026-10-17_diagnosis.shadows[4].door` | expression |
+| `retired_2026-10-17_diagnosis.shadows[4].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[4].echo_of` | 金_水.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[4].desc` | Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
+| `retired_2026-10-17_diagnosis.shadows[5].phrase` | Hoarder of starts |
+| `retired_2026-10-17_diagnosis.shadows[5].dim` | acquiring |
+| `retired_2026-10-17_diagnosis.shadows[5].door` | action |
+| `retired_2026-10-17_diagnosis.shadows[5].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[5].echo_of` | 金_木.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[5].desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |
+| `retired_2026-10-17_diagnosis.shadows[6].phrase` | Hardest on itself |
+| `retired_2026-10-17_diagnosis.shadows[6].dim` | being judged |
+| `retired_2026-10-17_diagnosis.shadows[6].door` | order |
+| `retired_2026-10-17_diagnosis.shadows[6].face` | echo |
+| `retired_2026-10-17_diagnosis.shadows[6].echo_of` | 金_火.function.definition_friction |
+| `retired_2026-10-17_diagnosis.shadows[6].desc` | Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you. |
+| `retired_2026-10-17_diagnosis.door_note.body` | Metal |
+| `retired_2026-10-17_diagnosis.door_note.mind` | Earth |
+| `retired_2026-10-17_diagnosis.door_note.expression` | Water |
+| `retired_2026-10-17_diagnosis.door_note.action` | Wood |
+| `retired_2026-10-17_diagnosis.door_note.order` | Fire |

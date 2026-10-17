@@ -49,62 +49,14 @@ export function archetypeKeyFor(stem, chart) {
     || `${stem}_${getEnergyBand(chart?.dayMaster?.strength || 'moderate')}_${chart?.tgPattern || 'pure'}`;
 }
 
-// Select a chart's chips from a door-tagged pool (REA_02 §5h selection law).
-// `doors` is the ordered list of doors the chart opens for this pool (the
-// manual's SEEK order for gifts, EASE order for shadows), each `{ door,
-// volume }` (a bare function key is accepted too). One chip per open door,
-// so the count follows the chart (owner R3, 2026-09-16; D2, 2026-09-20). The
-// face chosen through a door depends on the energy's volume (owner R1/R2):
-// the pool's `echo` face (item[0] of the door, cut from the pair definition)
-// by default; on a doubled door the second item is the `wide` face for
-// gifts (an abundant catalyst) or the `excess` face for shadows (an abundant
-// or dominant friction).
-//
-// Two modes (owner D2, 2026-09-20): `doors` OMITTED (undefined/null) is the
-// Balanced baseline and shows the pool's first ×3 under the Balanced bridge;
-// `doors` EMPTY ([]) is an explicitly empty selection and returns nothing.
-// A chip never comes through a door the chart did not open. The one
-// exception is a lone door: when exactly one door is open, that door's
-// other face fills the second slot (Body and Mind carry two faces for this).
-const BIG = new Set(['abundant', 'dominant']);
-export function selectPoolByDoor(pool, doors, kind = 'gifts') {
-  if (!Array.isArray(pool)) return [];
-  if (doors == null) return pool.slice(0, 3);
-  const list = (Array.isArray(doors) ? doors : []).filter(Boolean)
-    .map((d) => (typeof d === 'string' ? { door: d } : d));
-  if (!list.length) return [];
-  const used = new Set();
-  const out = [];
-  const bigFace = kind === 'shadows' ? 'excess' : 'wide';
-  for (const d of list) {
-    if (out.length >= 3) break;
-    const atDoor = pool.filter((x) => x.door === d.door);
-    const cands = atDoor.filter((x) => !used.has(x));
-    if (!cands.length) continue;
-    // face: the station's tag, else by position (item[0] echo, item[1] the big face)
-    const faceOf = (x) => x.face || (atDoor.indexOf(x) === 0 ? 'echo' : bigFace);
-    let pick = null;
-    if (BIG.has(d.volume)) pick = cands.find((x) => faceOf(x) === bigFace) || null;
-    if (!pick) pick = cands.find((x) => faceOf(x) === 'echo') || cands[0];
-    used.add(pick); out.push(pick);
-  }
-  // The lone door shows both its faces (owner D2). Never another door's.
-  if (out.length === 1 && list.length === 1) {
-    const other = pool.find((x) => x.door === list[0].door && !used.has(x));
-    if (other) out.push(other);
-  }
-  return out.slice(0, 3);
-}
-
-// Merge the pre-generated band variant (yourNature / gifts / shadows) over
-// the stem baseline. Returns a baseline-shaped object, variant-enriched.
-// gifts/shadows come back door-selected (winning pool → selectPoolByDoor);
-// `doors` = { gifts, shadows } from the chart's roles (journeyData.poolDoors):
-// a side omitted → the Balanced baseline, a side empty → no chips.
+// Merge the pre-generated band variant (yourNature) over the stem baseline.
+// Returns a baseline-shaped object, variant-enriched. (The door-tagged gift and
+// shadow pools and their selector retired with the P4 v3 panel on 2026-10-17;
+// the pools hibernate in the station's STEM __ore.)
 // `band` is the RESOLVED presentation band (buildEnergyChart's `ec.band`,
 // owner B11 2026-09-20) so every surface reads one band; raw engine strength
 // is only the fallback when no resolved band is supplied.
-export function resolveArchetype(stem, baseline, chart, doors = {}, band = null) {
+export function resolveArchetype(stem, baseline, chart, band = null) {
   if (!baseline) return baseline;
   // Variant lookup with a fallback chain (Group C) so a stem can ship concise
   // band/pattern variants instead of all 15 compounds:
@@ -119,8 +71,6 @@ export function resolveArchetype(stem, baseline, chart, doors = {}, band = null)
   return {
     ...baseline,
     yourNature: { ...(baseline.yourNature || {}), ...(v.yourNature || {}) },
-    gifts: selectPoolByDoor((v.gifts && v.gifts.length) ? v.gifts : baseline.gifts, doors.gifts, 'gifts'),
-    shadows: selectPoolByDoor((v.shadows && v.shadows.length) ? v.shadows : baseline.shadows, doors.shadows, 'shadows'),
   };
 }
 

@@ -9,11 +9,18 @@
     "REA_02 §5h",
     "ELEMENT_PAIR.carry"
   ],
-  "status_note": "LIVE 2026-09-15 · P4 carry card rows (assembly law, code-resident: ReadingDayMasterScreen)",
+  "status_note": "RETIRED 2026-10-17 · HIBERNATING in __ore.retired_2026-10-17_diagnosis (P4 v4 diagnosis; was: LIVE 2026-09-15 · P4 carry card rows (assembly law, code-resident: ReadingDayMasterScreen))",
   "budget": "label ≤6 tokens",
   "candidates": {
-    "label": "{Role} · {El} · {Fn} · {pct}",
-    "core_label": "{Role} · {El} · you · {pct}",
-    "assembly": "sentence = ELEMENT_PAIR[core_el].carry[pole].clause for each energy in the manual's order (abundant catalyst → carry.wide), joined as sentences; remedy = the same rows' remedies; touch = the chosen P4 items whose door resolves to an energy in the row"
+    "__ore": {
+      "retired_2026-10-17_diagnosis": {
+        "status": "HIBERNATING",
+        "note": "The P4 v3 carry card EASE / SEEK rows, retired from the Day Master page on 2026-10-17 when it became the chart's diagnosis (owner: 'Go with your proposed diagnosis page'). Kept whole, never deleted.",
+        "revive": "Move the fields back to candidates and restore the T() body in tools/export-reading-templates.mjs.",
+        "label": "{Role} · {El} · {Fn} · {pct}",
+        "core_label": "{Role} · {El} · you · {pct}",
+        "assembly": "sentence = ELEMENT_PAIR[core_el].carry[pole].clause for each energy in the manual's order (abundant catalyst → carry.wide), joined as sentences; remedy = the same rows' remedies; touch = the chosen P4 items whose door resolves to an energy in the row"
+      }
+    }
   }
 }

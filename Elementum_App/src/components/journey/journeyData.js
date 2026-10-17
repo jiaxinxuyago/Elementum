@@ -465,7 +465,9 @@ function fullManifesto(card) {
   const m = card?.identity?.manifesto || '';
   const parts = m.split(' · ');
   if (parts.length < 2) return m;
-  return `${parts[0]}. ${parts[1]}`;
+  // A thesis that already ends on its own stop (乙 "Route bends. Destination
+  // holds.") takes no second one (owner 2026-10-17: no "holds..").
+  return `${parts[0]}${/[.!?]$/.test(parts[0]) ? '' : '.'} ${parts[1]}`;
 }
 
 // ── element reading screen data (ELD equivalent, templatized) ──────
@@ -663,13 +665,12 @@ export function buildElementScreen(model, el) {
 
 
 // ────────────────────────────────────────────────────────────────
-// P4 v3 (REA_02 §5h, owner 2026-09-15): the door-tagged pools and the
-// carry card are derived from the same journey model the catalogue uses,
-// so P4 and the manual can never disagree about which energies are open.
+// The function an energy runs for this core, and the pieces of its page the
+// P4 diagnosis recaps (THE REMEDY's energy, THE EDGE, THE CHARACTER's line).
 // ────────────────────────────────────────────────────────────────
 
 // The §5f function an energy runs for this core (the pair cell's primary),
-// as the pool `door` key. Family fallback for an unbatched pair.
+// Family fallback for an unbatched pair.
 export function fnKeyFor(m, r) {
   return PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function?.primary
     || String(FAMILY_FN[r.family] || '').toLowerCase();
@@ -680,13 +681,6 @@ export function fnLabelFor(m, r) {
   return (K2_FUNCTIONS.find((f) => f.key === key) || {}).label || FAMILY_FN[r.family] || '';
 }
 
-// The open doors per pool: gifts through the catalysts (the manual's SEEK
-// order), shadows through the frictions (core first, the EASE order). A
-// Balanced chart hides its rails and opens no doors (pool order shows).
-// Each door carries the energy's volume (owner R2/R3, 2026-09-16): gifts open
-// through every wanted door (a gift is what the material CAN do, absent or
-// not); shadows open only through PRESENT unwanted doors — an absent or thin
-// energy cannot be overgrown. The chip count follows the chart (two or three).
 // THE REMEDY BOX (owner 2026-10-14): a friction advice opens on the energy
 // prescription, "Seek Wood, the Action energy." (v0.7.5, the beat first). The
 // app splits that first sentence off as the box's title line and reads the
@@ -757,95 +751,9 @@ export function characterLine(r, condition) {
   return { pole: 'catalyst', verdict: 'Grow it.', dir: 'grow', verb: 'grow' };
 }
 
+// The volumes a friction must reach to be overgrown (owner R3, 2026-09-16).
 const PRESENT = new Set(['present', 'abundant', 'dominant']);
-// A Balanced chart opens no doors and reads the pools' baseline: both sides
-// come back OMITTED (undefined), which selectPoolByDoor reads as the Balanced
-// mode. A non-Balanced chart with nothing eligible on a side returns [] for
-// that side, an explicitly empty selection (owner D2, 2026-09-20).
-export function poolDoors(m) {
-  if (!m || m.balanced) return { gifts: undefined, shadows: undefined, balanced: true };
-  const d = (r) => ({ door: fnKeyFor(m, r), volume: r.volume, el: r.el, isCore: r.isCore, excess: r.excess });
-  return {
-    gifts: m.seek.map(d),
-    shadows: m.skip.filter((r) => PRESENT.has(r.volume)).map(d),
-  };
-}
-
-// The door mark for a chosen item: the energy its door resolves to and the
-// manual's arrow for it (seek / ease / null when the chart is balanced).
-export function doorMarkFor(m, item) {
-  if (!m || !item?.door) return null;
-  const r = m.els.find((x) => fnKeyFor(m, x) === item.door);
-  if (!r) return null;
-  const role = m.seek.includes(r) ? 'seek' : m.skip.includes(r) ? 'ease' : null;
-  return { el: r.el, name: r.name, hz: r.hz, presence: r.presence, role, volume: r.volume, isCore: r.isCore, excess: r.excess };
-}
-
 const NUM_WORD = ['No', 'One', 'Two', 'Three', 'Four', 'Five'];
-
-// The carry card model: lead line (tpl_carry_lead), the five-energy track
-// with the manual's arrows, one EASE row and one SEEK row assembled from the
-// ELEMENT_PAIR `carry` micro-lines in the manual's order, and the chosen
-// trait chips each row produces.
-export function buildCarryModel(m, chosen = {}) {
-  if (!m) return null;
-  // The 25 pair cells are shared by the yin and yang siblings of a core
-  // element. Their carry lines wear the yang archetype's noun (the blade,
-  // the trunk, the sea); `carry_yin` holds the yin sibling's own lines
-  // (the stone, the vine, the rain) as sparse overrides (owner 2026-09-16).
-  const yin = STEM_YIN[m.stem] === 1;
-  const pairFor = (r) => {
-    const cell = PAIR_CELLS[`${m.core.hz}_${r.hz}`];
-    // A cell with no `carry` at all speaks nothing here, even if it carries
-    // yin overrides — the guard stays ahead of the shared merge.
-    if (!cell?.carry) return null;
-    return mergeCarry(cell, yin);
-  };
-  const coreName = m.core.name;
-  const nEase = m.skip.length; const nSeek = m.seek.length;
-  const lead = m.condition === 'Overfueled'
-    ? `${coreName} runs Overfueled. ${NUM_WORD[nEase] || nEase} energies feed a core already full. ${NUM_WORD[nSeek] || nSeek} are where the surplus should go.`
-    : m.condition === 'Underfueled'
-      ? `${coreName} runs Underfueled. ${NUM_WORD[nSeek] || nSeek} energies are what the core is asking for. ${NUM_WORD[nEase] || nEase} already carry weight.`
-      : `${coreName} runs Balanced. Intake and burn hold each other, so the doors below are open on both sides.`;
-  const track = [...m.els].sort((a, b) => b.presence - a.presence).map((r) => ({
-    el: r.el, name: r.name, hz: r.hz, presence: r.presence, isCore: r.isCore,
-    mark: m.seek.includes(r) ? 'seek' : m.skip.includes(r) ? 'ease' : null,
-  }));
-  const row = (kind, rows, items) => {
-    if (!rows.length) return null;
-    const energies = rows.map((r) => ({ el: r.el, name: r.name, hz: r.hz, presence: r.presence, isCore: r.isCore, fn: fnLabelFor(m, r) }));
-    // The line per energy is picked by valence × volume (owner R1/R2,
-    // 2026-09-16). Wanted: absent → `missing` (borrow it) · abundant → `wide`
-    // · else the catalyst turn. Unwanted: absent → `spared` (absent, and
-    // better so) · thin → `thin` (kept small) · dominant → `excess` (the
-    // 渊海子平 idiom; the valence flip) · else the friction turn. Each state
-    // line falls back to the pole's turn until the cell carries it.
-    const lineFor = (r) => {
-      const c = pairFor(r); if (!c) return null;
-      const v = r.volume || volumeOf(r.presence);
-      if (r.isCore && v === 'absent' && c.unrooted?.clause) return c.unrooted;   // 日主无根 (owner R6)
-      if (kind === 'seek') {
-        if (v === 'absent' && c.missing?.clause) return c.missing;
-        if (!r.isCore && (v === 'abundant' || v === 'dominant') && c.wide?.clause) return c.wide;
-        return c.catalyst;
-      }
-      if (v === 'absent' && c.spared?.clause) return c.spared;
-      if (v === 'thin' && c.thin?.clause) return c.thin;
-      if (v === 'dominant' && c.excess?.clause) return c.excess;
-      return c.friction;
-    };
-    const sentence = rows.map((r) => lineFor(r)?.clause || '').filter(Boolean).join(' ');
-    const remedy = rows.map((r) => lineFor(r)?.remedy || '').filter(Boolean).join(' ');
-    const touch = (items || []).map((it) => it.phrase);
-    return { kind, energies, sentence, remedy, touch };
-  };
-  return {
-    lead, track, balanced: !!m.balanced,
-    ease: m.balanced ? null : row('ease', m.skip, chosen.shadows),
-    seek: m.balanced ? null : row('seek', m.seek, chosen.gifts),
-  };
-}
 
 // ────────────────────────────────────────────────────────────────
 // P4 v4, THE DIAGNOSIS (owner 2026-10-17, the recommended set Q1–Q12 A):

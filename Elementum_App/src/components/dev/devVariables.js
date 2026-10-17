@@ -9,7 +9,6 @@
 // ===================================================================
 
 import { STEM_CARD_DATA, TG_PERSONA, resolveArchetype, selfCardFor } from '../../content/index.js';
-import { poolDoors } from '../journey/journeyData.js';
 import { FACE_CARD } from '../../content/reading/index.js';
 
 const join = (xs) => xs.filter(Boolean).join(' · ');
@@ -24,13 +23,13 @@ const EL_HZ = { Metal: '金', Wood: '木', Water: '水', Fire: '火', Earth: '�
 // depth home) — element-scoped rows resolve for it instead of the core.
 // chart = the active chart (null-safe: pre-onboarding there is none). Card
 // rows resolve through resolveArchetype exactly as the app's P4 does, so the
-// band variant (yourNature) and the band-selected ×3 (gifts/shadows) print
+// band variant (yourNature) prints
 // what is on screen; without a chart the raw stem baseline is the fallback.
 export function buildVariableGroups(model, activeEl, chart) {
   const m = model;
   const stem = m?.stem;
   const baseline = stem ? STEM_CARD_DATA[stem] : null;
-  const card = baseline && chart ? resolveArchetype(stem, baseline, chart, m ? poolDoors(m) : {}, m?.band || null) : baseline;
+  const card = baseline && chart ? resolveArchetype(stem, baseline, chart, m?.band || null) : baseline;
   const towers = m ? [...m.els].sort((a, b) => b.presence - a.presence) : [];
   const perEl = (f) => join(towers.map((r) => `${r.name}:${f(r) ?? '—'}`));
 
@@ -82,7 +81,7 @@ export function buildVariableGroups(model, activeEl, chart) {
       vars: [
         { name: 'pinyin_display (dm-hero + share card)', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.pinyin },
         { name: 'inscription (locked corpus — home RULED 2026-08-13: dm_claims claim 1; surfaces when dm_claims ships)', axis: 'STEM×10', arch: stemArch, status: 'LOCKED · awaiting dm_claims', value: m?.inscription },
-        { name: 'gifts + shadows (band-tagged pools ×5 → chart ×3; owner-locked 2026-08-13)', axis: 'STEM×10 · band-selected', arch: stemArch, status: 'LIVE', value: card?.gifts?.map((g) => g.phrase).join(' · ') },
+        { name: 'gifts + shadows (door-tagged pools; RETIRED 2026-10-17, hibernating in STEM __ore)', axis: 'STEM×10', arch: stemArch, status: 'RETIRED', value: null },
         { name: 'dm_overview (P4 opening section)', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: card?.identity?.overview },
         { name: 'yourNature_desc (P4 "Your nature" — band variant ×30, BAND-A 2026-08-13; baseline = fallback)', axis: 'STEM·BAND×30', arch: bandArch, status: 'LIVE', value: card?.yourNature?.desc },
         { name: 'dm_claims', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },

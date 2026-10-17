@@ -168,8 +168,8 @@ for (const s of STEMS) {
     dm_mechanism: dm.edge ?? null,
     yourNature_desc: card.yourNature?.desc ?? null,
     dm_overview: card.identity?.overview ?? null,
-    gifts: card.gifts ?? null,
-    shadows: card.shadows ?? null,
+    // gifts / shadows / door_note HIBERNATING in the station's __ore
+    // (retired_2026-10-17_diagnosis, P4 v4): no longer code-mapped.
     __ore: {
       note: 'legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)',
       subtitle: card.subtitle ?? null, chips: card.chips ?? null,
@@ -359,24 +359,18 @@ T('tpl_share_coreline', 'LIVE', 'one line', { pattern: '{El} is your Core — {C
 T('tpl_dm_prescription', 'RETIRED → ore 2026-09-15 (superseded by the P4 carry card, REA_02 §5h); INTERIM (pending K2) — UNSURFACED since the J4 sub-screen retired (owner 2026-08-13); P4 renders no prescription cards', '1–2 sentences', { pattern: 'SEEK THIS · {EL} / SKIP THIS · {EL} + body', clauses: { seek_present: '{El} is the energy your chart asks for — thin in you and worth feeding. Seek it on purpose.', seek_missing: "{El} is the energy you don't carry — the one your chart asks for most. Borrow it daily{, through …}.", skip: '{El} is already rich in you — more of it weighs the core. Stop adding; let what you have ease.' } });
 T('tpl_element_verdict', 'LIVE', '1 sentence', { clauses: { core: 'Balanced — nothing to force; keep the mix. / Underfueled — it burns more than it takes in; refill it.', core_excess: "Overfueled — honor it, don't feed it further.", friction: 'Already rich in you — more of it weighs the core; stop adding.', catalyst_missing: 'Cast with none — borrow it daily · with {others}.', catalyst_thin: 'Thin in you — worth feeding.', catalyst: 'Give it more to shape.' } });
 T('tpl_hour_chip', 'LIVE', '≤12w', { pattern: 'Cast without your hour — close, not exact. Discover it →' });
-// P4 v3 — the carry card + pool bridges (REA_02 §5h, owner 2026-09-15). Code-resident copies live in ReadingDayMasterScreen.
+// P4 — the lead line (P4 v3 carry card 2026-09-15; the P4 v4 diagnosis lead since 2026-10-17). Code-resident copy: journeyData.buildDiagnosisModel.
 T('tpl_carry_lead', 'LIVE 2026-09-15 · P4 carry card lead line', '≤20w', {
   Overfueled: '{Core} runs Overfueled. {nEase} energies feed a core already full. {nSeek} are where the surplus should go.',
   Underfueled: '{Core} runs Underfueled. {nSeek} energies are what the core is asking for. {nEase} already carry weight.',
-  Balanced: '{Core} runs Balanced. Intake and burn hold each other, so the doors below are open on both sides.',
+  Balanced: '{Core} runs Balanced. Your five energies hold each other, and none of them needs to grow or be released.',
 });
-T('tpl_carry_row', 'LIVE 2026-09-15 · P4 carry card rows (assembly law, code-resident: ReadingDayMasterScreen)', 'label ≤6 tokens', {
-  label: '{Role} · {El} · {Fn} · {pct}',
-  core_label: '{Role} · {El} · you · {pct}',
-  assembly: "sentence = ELEMENT_PAIR[core_el].carry[pole].clause for each energy in the manual's order (abundant catalyst → carry.wide), joined as sentences; remedy = the same rows' remedies; touch = the chosen P4 items whose door resolves to an energy in the row",
-});
-T('tpl_pool_bridge', 'LIVE 2026-09-16 · P4 panel bridge lines in the capability register (owner 2026-09-16: the material\'s reach, not a chart claim; the carry card keeps the chart claims)', '≤12w', {
-  gifts: 'What {Arch} can do where your chart asks for more.',
-  shadows: 'Where {Arch} overgrows when an energy carries weight.',
-  gifts_balanced: 'These light up when your core runs balanced.',
-  shadows_balanced: 'These swell when the balance slips.',
-});
-T('tpl_pool_note', 'LIVE 2026-09-16 · P4 panel foot (count follows the chart, owner R3)', '≤14w', { pattern: "{Shown} of {Arch}'s {n}. Your chart picks which show, and how many." });
+// tpl_carry_row, tpl_pool_bridge, tpl_pool_note: RETIRED 2026-10-17 with the
+// P4 v3 panel (the diagnosis page, owner Q1-Q12 A). Their text hibernates in
+// each station file's __ore.retired_2026-10-17_diagnosis; nothing is code-mapped.
+T('tpl_carry_row', 'RETIRED 2026-10-17 · HIBERNATING in __ore', null, {});
+T('tpl_pool_bridge', 'RETIRED 2026-10-17 · HIBERNATING in __ore', null, {});
+T('tpl_pool_note', 'RETIRED 2026-10-17 · HIBERNATING in __ore', null, {});
 T('tpl_presence_frames', 'PLANNED', '≤20w ×4', { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null } });
 T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the 生/克 cognition floor; surfaces pending (wheel arrows · seat derivations · team sentence · Codex chapter)', 'law verb + image line ≤8w · ×10', {
   pattern: '{ElA} {feeds|tames} {ElB} — {image line}',

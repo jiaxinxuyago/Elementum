@@ -8,9 +8,16 @@
   "sources": [
     "REA_02 §5h"
   ],
-  "status_note": "LIVE 2026-09-16 · P4 panel foot (count follows the chart, owner R3)",
+  "status_note": "RETIRED 2026-10-17 · HIBERNATING in __ore.retired_2026-10-17_diagnosis (P4 v4 diagnosis; was: LIVE 2026-09-16 · P4 panel foot (count follows the chart, owner R3))",
   "budget": "≤14w",
   "candidates": {
-    "pattern": "{Shown} of {Arch}'s {n}. Your chart picks which show, and how many."
+    "__ore": {
+      "retired_2026-10-17_diagnosis": {
+        "status": "HIBERNATING",
+        "note": "The P4 v3 panel foot, retired from the Day Master page on 2026-10-17 when it became the chart's diagnosis (owner: 'Go with your proposed diagnosis page'). Kept whole, never deleted.",
+        "revive": "Move the fields back to candidates and restore the T() body in tools/export-reading-templates.mjs.",
+        "pattern": "{Shown} of {Arch}'s {n}. Your chart picks which show, and how many."
+      }
+    }
   }
 }

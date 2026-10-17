@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) · gifts/shadows/door_note HIBERNATING in __ore.retired_2026-10-17_diagnosis (owner 2026-10-17, P4 v4 diagnosis)",
   "candidates": {
     "archetype_name": "The Mountain",
     "manifesto": "Immovable by design · You are the Earth others use to find their footing.",
@@ -28,122 +28,6 @@
     "dm_mechanism": "Yang Earth that holds its shape — weight that becomes shelter under load.",
     "yourNature_desc": "You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying.",
     "dm_overview": "The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair.",
-    "gifts": [
-      {
-        "phrase": "Everyone's rock",
-        "dim": "being leaned on",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes."
-      },
-      {
-        "phrase": "Shows up regardless",
-        "dim": "showing up",
-        "door": "body",
-        "face": "wide",
-        "echo_of": "土_土.function.definition_catalyst",
-        "desc": "Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six."
-      },
-      {
-        "phrase": "Learns from people",
-        "dim": "how you learn",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_catalyst",
-        "desc": "Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick."
-      },
-      {
-        "phrase": "Keeps the record",
-        "dim": "memory",
-        "door": "mind",
-        "face": "wide",
-        "echo_of": "土_火.carry.wide",
-        "desc": "So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened."
-      },
-      {
-        "phrase": "Says it once",
-        "dim": "speaking up",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_catalyst",
-        "desc": "You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time."
-      },
-      {
-        "phrase": "Safe hands",
-        "dim": "things in motion",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_catalyst",
-        "desc": "Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system."
-      },
-      {
-        "phrase": "Carries the family",
-        "dim": "obligations",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_catalyst",
-        "desc": "Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving."
-      }
-    ],
-    "shadows": [
-      {
-        "phrase": "Sinks into routine",
-        "dim": "habits",
-        "door": "body",
-        "face": "echo",
-        "echo_of": "土_土.function.definition_friction",
-        "desc": "Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving."
-      },
-      {
-        "phrase": "Can't let go",
-        "dim": "endings",
-        "door": "body",
-        "face": "excess",
-        "echo_of": "土_土.carry.excess",
-        "desc": "So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding."
-      },
-      {
-        "phrase": "Feeds on distraction",
-        "dim": "what counts as input",
-        "door": "mind",
-        "face": "echo",
-        "echo_of": "土_火.function.definition_friction",
-        "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
-      },
-      {
-        "phrase": "Hard to persuade",
-        "dim": "changing course",
-        "door": "mind",
-        "face": "excess",
-        "echo_of": "土_火.carry.excess",
-        "desc": "Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map."
-      },
-      {
-        "phrase": "Drained by deadlines",
-        "dim": "output on demand",
-        "door": "expression",
-        "face": "echo",
-        "echo_of": "土_金.function.definition_friction",
-        "desc": "More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you."
-      },
-      {
-        "phrase": "Micromanages",
-        "dim": "control",
-        "door": "action",
-        "face": "echo",
-        "echo_of": "土_水.function.definition_friction",
-        "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
-      },
-      {
-        "phrase": "Never forgives itself",
-        "dim": "being judged",
-        "door": "order",
-        "face": "echo",
-        "echo_of": "土_木.function.definition_friction",
-        "desc": "Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years."
-      }
-    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -448,14 +332,135 @@
           "echo_of": "土_水.function.definition_friction",
           "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
         }
+      },
+      "retired_2026-10-17_diagnosis": {
+        "status": "HIBERNATING",
+        "note": "The door-tagged gift and shadow pools (P4 v3, REA_02 §5h, owner 2026-09-15; cold read 2026-09-21) and their door_note. Retired from the Day Master page on 2026-10-17 when the page became the chart's diagnosis (owner: 'Go with your proposed diagnosis page', Q1-Q12 A): the page now recaps each energy page's own keywords and adds none of its own. On 2,000 random charts none of the pool labels appeared on the reader's energy pages.",
+        "revive": "Kept whole, never deleted. To revive: move gifts / shadows / door_note back to candidates, restore their export mapping (tools/export-reading-templates.mjs STEM block) and a selector (resolveVariant.selectPoolByDoor, git history before the retirement commit).",
+        "gifts": [
+          {
+            "phrase": "Everyone's rock",
+            "dim": "being leaned on",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes."
+          },
+          {
+            "phrase": "Shows up regardless",
+            "dim": "showing up",
+            "door": "body",
+            "face": "wide",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six."
+          },
+          {
+            "phrase": "Learns from people",
+            "dim": "how you learn",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "土_火.function.definition_catalyst",
+            "desc": "Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick."
+          },
+          {
+            "phrase": "Keeps the record",
+            "dim": "memory",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "土_火.carry.wide",
+            "desc": "So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened."
+          },
+          {
+            "phrase": "Says it once",
+            "dim": "speaking up",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "土_金.function.definition_catalyst",
+            "desc": "You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time."
+          },
+          {
+            "phrase": "Safe hands",
+            "dim": "things in motion",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "土_水.function.definition_catalyst",
+            "desc": "Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system."
+          },
+          {
+            "phrase": "Carries the family",
+            "dim": "obligations",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "土_木.function.definition_catalyst",
+            "desc": "Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving."
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Sinks into routine",
+            "dim": "habits",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "土_土.function.definition_friction",
+            "desc": "Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving."
+          },
+          {
+            "phrase": "Can't let go",
+            "dim": "endings",
+            "door": "body",
+            "face": "excess",
+            "echo_of": "土_土.carry.excess",
+            "desc": "So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding."
+          },
+          {
+            "phrase": "Feeds on distraction",
+            "dim": "what counts as input",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "土_火.function.definition_friction",
+            "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
+          },
+          {
+            "phrase": "Hard to persuade",
+            "dim": "changing course",
+            "door": "mind",
+            "face": "excess",
+            "echo_of": "土_火.carry.excess",
+            "desc": "Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map."
+          },
+          {
+            "phrase": "Drained by deadlines",
+            "dim": "output on demand",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "土_金.function.definition_friction",
+            "desc": "More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you."
+          },
+          {
+            "phrase": "Micromanages",
+            "dim": "control",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "土_水.function.definition_friction",
+            "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
+          },
+          {
+            "phrase": "Never forgives itself",
+            "dim": "being judged",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "土_木.function.definition_friction",
+            "desc": "Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years."
+          }
+        ],
+        "door_note": {
+          "body": "Earth",
+          "mind": "Fire",
+          "expression": "Metal",
+          "action": "Water",
+          "order": "Wood"
+        }
       }
-    },
-    "door_note": {
-      "body": "Earth",
-      "mind": "Fire",
-      "expression": "Metal",
-      "action": "Water",
-      "order": "Wood"
     }
   },
   "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
