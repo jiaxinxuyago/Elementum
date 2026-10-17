@@ -1,0 +1,48 @@
+[
+ {
+  "key": "K2 金_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You miss the new starts they wanted to make with you."
+ },
+ {
+  "key": "PAIR 金_金 · function.advise_friction",
+  "text": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no judge above you, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way."
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.define",
+  "text": "Running over, the depth floods inward instead of out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it."
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for backup. You miss out on the ease that help would have given you.",
+  "no_change_reason": "The finding's fix is in the 2+2 picker: add \"Never asks\" × \"Spends shared money\" (Twin × Rival, friction) to its clash list. The passage itself is sound and echoes its own chip, so the text stays; the main session should make the picker change."
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. What you want underneath is to know you are free to go."
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "When someone close to you is upset, you become the calm for both. A safe place matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you."
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Looking effortless comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Behind the effortless look, the hard parts stay untried."
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Your best work is what looking effortless costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out."
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever you make the work look easy, people learn from the surface alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care.",
+  "no_change_reason": "The passage never quotes or echoes the old chip \"Takes it easy\". It is already about making the work look easy, which fits the new chip \"Looks effortless\" as it stands."
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.friction.define",
+  "text": "Running over, the depth churns and spills into every contest. You need to prove yourself among friends, and the drive never lets you stop."
+ },
+ {
+  "key": "PAIR 水_水 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, the depth floods inward. Your force and your wants pile up inside, and you carry more than anyone near you ever sees."
+ }
+]

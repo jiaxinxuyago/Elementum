@@ -1,0 +1,37 @@
+[
+ {
+  "key": "K2 金_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you avoid change, you avoid it for others too. The old plan is the one you trust, and you keep the people close to you inside it instead of letting them change it. You miss the new starts they wanted to make with you.",
+  "id": "R4 metal:MR4-01"
+ },
+ {
+  "key": "PAIR 金_金 · function.advise_friction",
+  "text": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no judge above you, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
+  "id": "R4 metal:MR4-02"
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.define",
+  "text": "Running over, the depth floods inward instead of out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
+  "id": "R4 water:W4-01"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. What you want underneath is to know you are free to go.",
+  "id": "R4 water:W4-04"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "When someone close to you is upset, you become the calm for both. A safe place matters more to you than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you.",
+  "id": "R4 water:W4-05"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Looking effortless comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. Behind the effortless look, the hard parts stay untried.",
+  "id": "R4 rename Takes it easy"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Your best work is what looking effortless costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
+  "id": "R4 rename Takes it easy"
+ }
+]
