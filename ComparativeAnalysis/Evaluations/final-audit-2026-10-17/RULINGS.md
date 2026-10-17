@@ -21,3 +21,15 @@ Source: the three-lists page (https://claude.ai/artifact/SVcnEvG6DzSLVkqAoveyT9)
 | S5 · a Balanced chart is told "As a catalyst" | Add to the rebuild: a balanced tail per pair cell, so a balanced reader is never told "as a catalyst". |
 | S1 · "$9.99/mo" on the free domain sheet | Leave until DOM-1, which reworks The Domains' tier and price. |
 | S2, S3, S4 | Not ruled; kept on the backlog (browser back leaves the reading; read-elemental back loses the tab bar; two "Current plan" labels on Advisor). |
+
+## The Minor list (owner, 2026-10-17)
+
+Status before the polish round: 166 Minor findings. 88 were already resolved by the M1, M2, M3 and M6 rewrites. 69 are still open in the live text. 9 are system-level, and 5 of those are covered by the M5 renames. Samples: https://claude.ai/artifact/RB9VgL8Wdv19nh4tJiiMmB
+
+| Item | Ruling |
+|---|---|
+| A3 · restatement (17 open) | **Not approved; the originals stay.** "A3 original wins, the table example reads less better than the chair, not approved, keep the original." It applies to all A3 findings ("All A3 skipped"). |
+| A1, A2, D4 and the other kinds (52 open) | **Not yet.** The owner will review further before any is applied. |
+| Remedy "Let it …" verb | **Approved and applied.** Each core now uses each verb once, the verb fits its element, and Wood and Metal no longer "pour" (7 lines). |
+| Mind bar "Intuition" → "Insight" | Not approved. Stays as is. |
+| Virtuoso "Mind" domain → "Growth" | Not approved. Stays as is (can go to DOM-1). |

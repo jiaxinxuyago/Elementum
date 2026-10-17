@@ -28,7 +28,7 @@
       "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up faster than you rest, and every demand feels like yours to meet. You end up tired and doubting yourself.",
       "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to fair rules and hold your rank without strain.",
       "advise_catalyst": "You do your best work when someone is allowed to tell you no. Ask someone you respect to grade one piece of your work, and hear the score. Say your doubt out loud the next time a plan is agreed too fast.",
-      "advise_friction": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, ground that does not catch. Let it hold what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached."
+      "advise_friction": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, ground that does not catch. Let it ground what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached."
     },
     "cta_verdict": "You work harder for a standard someone else set than for one of your own, and you usually go looking for one.",
     "carry": {
@@ -529,6 +529,14 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, ground that does not catch. Let it hold what Fire burns. You answer to pressure faster than you recover from it. Spend one evening a week with nobody to report to. Read the whole message before the next hard call."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: system item approved, the remedy's \"Let it …\" verb varied so each is used once per core and fits its element",
+      "finding": "remedy verbs",
+      "replaced": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, ground that does not catch. Let it hold what Fire burns. You answer to pressure faster than you recover from it. Stay with one hard feeling for ten minutes before you act on it. Tend one plant or one friendship with no goal attached."
     }
   ]
 }

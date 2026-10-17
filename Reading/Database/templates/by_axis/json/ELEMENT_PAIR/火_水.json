@@ -25,7 +25,7 @@
       "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the rules outweigh what you want. You pay for it in ease.",
       "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. In balance, the rules you keep are your own choice. Rank comes as the work earns it.",
       "advise_catalyst": "You do your best work with a date on it and someone waiting at the other end. Ask for honest feedback on one piece of work and just listen. Learn how one new task works before you start on it. Leave an hour empty between two big jobs.",
-      "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it hold what Water pours on you. You take every rule to heart faster than you take anything in. Start one project of your own this month. Learn one skill no rule asks for."
+      "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Start one project of your own this month. Learn one skill no rule asks for."
     },
     "cta_verdict": "You take a rule in quietly and keep it for years, and you would rather answer to a standard you chose than to a voice raised at you.",
     "carry": {
@@ -284,6 +284,14 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it hold what Water pours on you. You take every rule to heart faster than you take anything in. Learn one thing a week nobody asked you for. Give each new demand a night to sit."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: system item approved, the remedy's \"Let it …\" verb varied so each is used once per core and fits its element",
+      "finding": "remedy verbs",
+      "replaced": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can use. Let it hold what Water pours on you. You take every rule to heart faster than you take anything in. Start one project of your own this month. Learn one skill no rule asks for."
     }
   ]
 }

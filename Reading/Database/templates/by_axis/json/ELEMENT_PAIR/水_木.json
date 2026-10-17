@@ -24,7 +24,7 @@
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Wood sets it growing, and whatever you say keeps reaching. As a friction, the gate never gets to close. You spend yourself on how the moment feels, and little is left over for later.",
       "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. In balance, the gate opens at your pace. Your warmth and your ideas take root and grow, and enough stays inside to feed what comes next.",
       "advise_catalyst": "Your output comes in bursts, and the slow work in between stays hidden. Take one idea you dropped last year one step further. Tell one person about a plan you have kept quiet. Add ten minutes to the same project every day for a month.",
-      "advise_friction": "Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it hold what Wood pours out. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good."
+      "advise_friction": "Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it prune what Wood spreads. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good."
     },
     "cta_verdict": "You put more into what you make than you ever say about it, and what you make usually outgrows the plan.",
     "carry": {
@@ -314,6 +314,14 @@
       "ruling": "Owner 2026-10-17: \"M6 approved, apply the fix to all content that shares the issue\" (each act once per core, drawn from its element)",
       "finding": "M6",
       "replaced": "Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it hold what Wood pours out. Nothing you let out will fill you back up. Read one whole chapter before you make the next thing. Let one question sit overnight."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-minor",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: system item approved, the remedy's \"Let it …\" verb varied so each is used once per core and fits its element",
+      "finding": "remedy verbs",
+      "replaced": "Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it hold what Wood pours out. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good."
     }
   ]
 }
