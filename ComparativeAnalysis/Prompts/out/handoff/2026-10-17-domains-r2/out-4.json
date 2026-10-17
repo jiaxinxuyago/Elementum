@@ -68,12 +68,12 @@
   },
   "qisha_month_branch": {
    "defline": "The General holds your strongest seat, inside your Month Gate: your working years run on pressure you choose for yourself.",
-   "reading": "Easy work has bored you from your late teens, and you went looking for the demanding course or the tough job or the role others turned down. The strain you took on built your ability faster than comfort could have, and your standing grew through it. You have rarely rested before a job was finished, and your sleep and your energy are what that pace has cost you.",
+   "reading": "Easy work has bored you since your late teens, and you went looking for the demanding course or the tough job or the role others turned down. The strain you took on built your ability faster than comfort could have, and your standing grew through it. You have rarely rested before a job was finished, and your sleep and your energy are what that pace has cost you.",
    "domains": {
     "Career": {
      "headline": "You do your best work under real pressure.",
      "recognition": "You pick the job with the highest stakes and the tightest deadlines, and you are at your sharpest when it is going badly for everyone else. Because pressure is how you prove yourself to yourself, calm work leaves you flat and restless. What you build fastest is respect, and what you lose first is rest.",
-     "lived": "A calm post has left you uneasy since your late teens, as if you had not earned your place, and you asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours."
+     "lived": "A calm post has left you uneasy since your late teens, as if you had not earned your place, and you have asked for the hard assignment instead. Each crisis you took on left you more trusted, and at least once you turned down an easier job with better hours."
     },
     "Health": {
      "headline": "Your body carries the cost of your pace.",
@@ -100,7 +100,7 @@
   },
   "qisha_year_branch": {
    "defline": "The General lives inside your Year Gate: underneath your early years was a weight you carried quietly.",
-   "reading": "Your first home asked a lot of you as a child, and you gave it more strength than anyone thought to ask about. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and you still keep your tiredness to yourself. You have come through each hard stretch since then stronger for it, and you know it.",
+   "reading": "Your first home asked a lot of you as a child, and you gave it more strength than anyone thought to ask about. Because you had to be strong early, you learned to stay calm in a crisis and uneasy when life goes easy. The same strength left a habit of carrying everything alone, and you still keep your tiredness to yourself. Each hard stretch since has added to what you can carry, and you are steadier for it.",
    "domains": {
     "Family": {
      "headline": "You carried more at home than anyone knew.",
@@ -234,7 +234,7 @@
   },
   "zhengguan_year_branch": {
    "defline": "The Magistrate lives inside your Year Gate: underneath your early years was a quiet order you absorbed as a child.",
-   "reading": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You grow best where the steps are written down, and you still measure yourself by the standards you learned at home.",
+   "reading": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You still measure yourself by the standards you learned at home, and you do best wherever the next step is written down.",
    "domains": {
     "Family": {
      "headline": "You absorbed your family's rules early.",

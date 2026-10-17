@@ -18,7 +18,7 @@
     },
     "heavy": {
      "lived": "You measured yourself against your peers in those years and would not ask the ones further along for help. Your progress came slower than it needed to, and what carried you was knowing every skill you gained was your own.",
-     "ahead": "Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. What carries you is one equal who works beside you instead of against you, and you keep growing because of it."
+     "ahead": "Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. One equal who works beside you instead of against you keeps you going, and you grow because of it."
     }
    },
    "Social": {
@@ -39,7 +39,7 @@
      "ahead": "Shared money works for you in these ten years, because the contest with others keeps you sharp. You do better with people at your side than alone, and you keep a fair part of what you win together."
     },
     "heavy": {
-     "lived": "Money went out on friends in those years, lent to them or spent keeping up with them. You learned what generosity costs, and what carried you was work you could do on your own.",
+     "lived": "Money went out on friends in those years, lent to them or spent keeping up with them. You learned what generosity costs, and you got through on work you could do on your own.",
      "ahead": "Other people reach for your money in these years, through loans, shared costs and favours that do not all come back. You keep enough because you set your own share aside first, and you spend less on proving yourself."
     }
    },
@@ -49,7 +49,7 @@
      "ahead": "Rivalry turns friendly in these years, and people who compete with you end up on your side. You keep a busy circle through the decade, one where you give and receive in fair measure."
     },
     "heavy": {
-     "lived": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. What carried you was the company itself, and you learned to tell an ally from a competitor.",
+     "lived": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. You got through on the company itself, and you learned to tell an ally from a competitor.",
      "ahead": "Comparison runs through your friendships in these years, and you notice who earns more and who wins more. What carries you is one friend who never competes with you, and you lean on that friend often."
     }
    },
@@ -81,7 +81,7 @@
      "lived": "Your household opened outward in those years, through travel, new relatives or friends who became family. You gave generously to everyone at home, and the house was busier for it."
     },
     "heavy": {
-     "lived": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and what carried you was a family that forgave more than you expected.",
+     "lived": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through on a family that forgave more than you expected.",
      "ahead": "Distant plans crowd out home life in these years, and the people nearest to you feel the gap. What brings you back is a relative who asks plainly for your time, and you give it once you see the cost."
     }
    },
@@ -91,7 +91,7 @@
      "lived": "Your circle spread wide in those years, through travel, work and friends of friends. You met people easily everywhere you went, and several of them opened doors for you."
     },
     "heavy": {
-     "lived": "Acquaintances crowded those years, and you knew people in many places without letting many of them close. What carried you was one old friend who stayed, and you confided in that friend more than in anyone new.",
+     "lived": "Acquaintances crowded those years, and you knew people in many places without letting many of them close. One old friend who stayed kept you steady, and you confided in that friend more than in anyone new.",
      "ahead": "You meet more people in these years than you can keep up with, and old friends see less of you. A small group who knew you before this busy decade stays close, and you return to them again and again."
     }
    }
@@ -99,8 +99,8 @@
   "偏印": {
    "Career": {
     "heavy": {
-     "lived": "Those years pulled you toward study and odd side paths more than toward steady work. You learned a great deal that did not pay at the time, and what carried you was the one skill people kept asking you for.",
-     "ahead": "Your work wanders in these years between study and side projects, and steady output is hard to keep up. What carries you is one skill people pay for, and you return to it each time a side path stalls."
+     "lived": "Those years pulled you toward study and odd side paths more than toward steady work. You learned a great deal that did not pay at the time, and you got through on the one skill people kept asking you for.",
+     "ahead": "Your work wanders in these years between study and side projects, and steady output is hard to keep up. You get through on one skill people pay for, and you return to it each time a side path stalls."
     },
     "helping": {
      "lived": "Unusual work suited you in those years, the kind that needs odd knowledge and long hours alone. You became good at something few others understood, and it earned you respect before it earned you anything else.",
@@ -109,7 +109,7 @@
    },
    "Mind": {
     "heavy": {
-     "lived": "You turned inward in those years, into subjects few people around you shared. You spent long stretches alone with your thinking, and what carried you was work that still feels like the most important you have done.",
+     "lived": "You turned inward in those years, into subjects few people around you shared. You spent long stretches alone with your thinking, and you came out of it with work that still feels like the most important you have done.",
      "ahead": "Your mind turns inward in these years, and long stretches of solitary thought leave work half done. One person who hears your ideas keeps you steady, and you finish more when someone is waiting."
     },
     "helping": {
@@ -145,7 +145,7 @@
      "lived": "Challenges shaped you in those years, and each hard test left you more capable than before. You learned to face pressure directly, and the courage you built has stayed with you."
     },
     "heavy": {
-     "lived": "Those years tested you more than they taught you, with one hard stretch after another. What carried you was a stubborn refusal to stop, and you came out tougher and more tired than you expected.",
+     "lived": "Those years tested you more than they taught you, with one hard stretch after another. A stubborn refusal to stop kept you going, and you came out tougher and more tired than you expected.",
      "ahead": "Setbacks arrive in these years without warning, and you are pushed before you feel ready. What carries you is the discipline you already have, and you end the decade tougher in ways that show later."
     }
    },
@@ -155,7 +155,7 @@
      "lived": "Your body answered strain well in those years, and hard training or hard work made you stronger. You had energy for demanding days, and you recovered fast between them."
     },
     "heavy": {
-     "lived": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and what carried you was a few people who made you stop.",
+     "lived": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and you got through because a few people made you stop.",
      "ahead": "Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is sleep and slow meals given their place in the week, and you recover fast once the pressure lifts."
     }
    }
@@ -199,8 +199,8 @@
      "lived": "Your appetite and sleep were good in those years, and ordinary pleasures kept you well. You ate with enjoyment and moved without strain, and you felt at ease in your own body."
     },
     "heavy": {
-     "lived": "Rich food, late nights and easy evenings piled up in those years, and your energy dropped as the habits grew. What carried you back was a plain daily routine, and you felt the change within weeks.",
-     "ahead": "Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. What carries you is a simple routine you enjoy, and you keep to it because it gives you pleasure."
+     "lived": "Rich food, late nights and easy evenings piled up in those years, and your energy dropped as the habits grew. A plain daily routine brought you back, and you felt the change within weeks.",
+     "ahead": "Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure."
     }
    },
    "Family": {
@@ -210,7 +210,7 @@
     },
     "heavy": {
      "lived": "During those years you gave your family more comfort than they asked for, and some of them came to expect it. You spoiled the people closest to you, and you got your own ease back once others began to care for you in turn.",
-     "ahead": "Indulgence runs the household in these years, with treats, late meals and little order. What carries you is the warmth itself, and you wear yourself out less as your family learns to look after itself."
+     "ahead": "Indulgence runs the household in these years, with treats, late meals and little order. You get through on the warmth itself, and you wear yourself out less as your family learns to look after itself."
     }
    },
    "Career": {
@@ -219,8 +219,8 @@
      "ahead": "A craft or skill you enjoy is what pays in these ten years. People come back for what you make, and you do your best work at an easy pace."
     },
     "heavy": {
-     "lived": "Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and what carried you was the skill you kept practising for pleasure.",
-     "ahead": "Ambition softens in these years, and the easy option keeps winning in your work. What carries you is the value of what you make, and you move forward each time a deadline gives you a reason to finish."
+     "lived": "Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and the skill you kept practising for pleasure is what kept you going.",
+     "ahead": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make keeps you going, and you move forward each time a deadline gives you a reason to finish."
     }
    }
   },
@@ -231,7 +231,7 @@
      "lived": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without luck or risk, and you trusted your own counting more than any tip."
     },
     "heavy": {
-     "lived": "Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and what carried you was the security that careful habit built.",
+     "lived": "Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built.",
      "ahead": "Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check."
     }
    },
@@ -242,7 +242,7 @@
     },
     "heavy": {
      "lived": "Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly.",
-     "ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. What carries you is the order you built, and you pass some of the load over once your family sees it."
+     "ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it."
     }
    },
    "Career": {
@@ -263,7 +263,7 @@
      "lived": "Order and good manners shaped your home in those years, and everyone knew their place and their duties. You earned respect in your family by keeping its rules, and you felt secure inside them."
     },
     "heavy": {
-     "lived": "Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and what carried you was the respect it earned you.",
+     "lived": "Family duty weighed on you in those years, and you met expectations that left you little say. You did what was asked of you well, and you came out of it with the respect it earned you.",
      "ahead": "Obligations at home pile up in these years, with duties to the people who rely on you and a family name to protect. You meet them faithfully, and you guard a part of your life that belongs to you alone."
     }
    },
@@ -292,7 +292,7 @@
    "Family": {
     "heavy": {
      "lived": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing what was expected, and what carried you was one thing you chose for yourself.",
-     "ahead": "Family care comes with conditions in these years, and help arrives with a say in your choices. What carries you is a way of your own that you keep without a quarrel, and the bond survives the distance you need."
+     "ahead": "Family care comes with conditions in these years, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need."
     },
     "helping": {
      "lived": "Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before.",
@@ -315,7 +315,7 @@
      "ahead": "Learning comes easily in these years, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past."
     },
     "heavy": {
-     "lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied more than you acted, and what carried you was the depth of what you had learned.",
+     "lived": "Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied more than you acted, and the depth of what you had learned is what kept you going.",
      "ahead": "You study more than you act in these years, and your thinking turns cautious. Work that puts what you know to use carries you through, and you trust your own ideas again once you see them working."
     }
    }
