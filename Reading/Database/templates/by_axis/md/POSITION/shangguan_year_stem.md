@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Social · Mind |
-| `defline` | Brilliance stands at your Year Gate: the first thing your story shows is a spark that refuses dimming. |
-| `reading` | This position rules Social and Mind, and it rules them from your beginnings. The Virtuoso stood openly at your Year Gate: you were the bright one early, the child who outgrew the script and said so. Your mind moves faster than the crowd expects, and people sort quickly into the delighted and the offended. Both follow you for life, and both are useful. Expect your name to travel on wit and candor, and to cost you a warden or two along the way. Aim the voltage at work worth lighting. The early friction was never a flaw. |
+| `defline` | The Virtuoso stands at your Year Gate, in plain view: you were known early as the bright child who answered back. |
+| `reading` | You were the quick one in your first years, the child who spotted the flaw in the lesson and pointed it out. Because you think quicker than people expect, the people you meet sort quickly into those who enjoy you and those who resent you. Teachers and older relatives were the first to feel both reactions, and you have done better every year you picked your own company and work. |
 | `teaser` | You were the bright one early, the child who outgrew the script. Authority and you started rough, and your luck improves every year you pick your own stage. |
 | `domain_readings.Social` | You entered every gathering brightly and were remembered: the quick child, the sharp tongue, the one adults quoted. Your social life still sorts people into the delighted and the offended, and both camps stay full. Curate for the delighted. They were always your real audience. |
 | `domain_readings.Mind` | Your mind moves ahead of the crowd and always has: patterns seen early, scripts outgrown fast, boredom arriving before permission. Feed it stages and hard problems in equal measure. Left unfed, it critiques. Fed properly, it creates. The difference is only diet. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the sparkle cuts: every audience a jury, every silence a review. Perform for joy one night, scoreless. |
 | `shadow_line` | Overloaded, brilliance demands witnesses: unwatched excellence feeling like waste. |
 | `health_line` | Your nerves run bright and close to the surface: stimulation is food until it is poison. Learn your dose, and take silence like a vitamin. |
+| `domain_climb.Social.headline` | People remember you after one meeting. |
+| `domain_climb.Social.recognition` | You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it. |
+| `domain_climb.Social.lived` | As a child you were the one whose remarks got repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you. |
+| `domain_climb.Mind.headline` | Your mind gets there first and gets bored first. |
+| `domain_climb.Mind.recognition` | You see the pattern before others have finished explaining it, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither. |
+| `domain_climb.Mind.lived` | At school you finished the work early and went looking for something harder, or for trouble when nothing harder came. By your teens you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were. |

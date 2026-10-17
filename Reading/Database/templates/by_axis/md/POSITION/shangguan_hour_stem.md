@@ -23,8 +23,8 @@
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
 | `domains` | Career · Growth |
-| `defline` | Brilliance stands at your Hour Gate: your later years intend to be seen, and heard. |
-| `reading` | This position rules Career and Growth, and it shapes how your story ends. The Virtuoso stands at your Hour Gate, visible in the last chapters: your late work will be your boldest, and the young will quote you. Retirement in the resting sense is not really on your chart. Expect gifted, headstrong heirs and students, inheriting the talent with the allergy to instruction, and love them for it. Your growth keeps its edge to the end, provided the stage keeps changing. Say the true thing late in life. By then, your candor reads as wisdom. |
+| `defline` | The Virtuoso stands at your Hour Gate, in plain view: your later years are when people hear you most clearly. |
+| `reading` | Your boldest work comes late, after most people expect you to slow down, and it is the work the people after you remember. Because saying the true thing matters more to you than keeping a title, you speak more freely with every year past your late forties, and some who hold rank resent it. Those you teach pick up your talent along with your dislike of being told what to do, and you are proud of both. |
 | `teaser` | Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction. |
 | `domain_readings.Career` | Your late work will be your boldest: the filters thin with age and the craft peaks, a dangerous, wonderful combination. Retirement in the resting sense is not on your chart. Plan a late act worth quoting. The last stage is the one they remember. |
 | `domain_readings.Growth` | Growth keeps its edge to your final decades, provided the stage keeps changing: new formats, new audiences, new fights worth having. Sameness ages you faster than years do. Book the unfamiliar venue at every age. Your candor matures into wisdom exactly on schedule. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the candor scorches: truth delivered at full wattage to dimming audiences. Add warmth to the spotlight. The message lands further. |
 | `shadow_line` | Overloaded, the last word becomes the only goal: right, ringing, and alone. |
 | `health_line` | Your energy stays performance-shaped to the end: it rallies for occasions and crashes after. Build recovery into every encore. |
+| `domain_climb.Career.headline` | Your best work is the work you do last. |
+| `domain_climb.Career.recognition` | You do your best work where you can say what you think, and a job that asks for quiet manners tires you. Because your skill has grown faster than your patience for rules, you are better at the job than many who manage it. What you make in later life outlasts the job that paid for it, and you judge yourself by the work alone. |
+| `domain_climb.Career.lived` | Since your late forties your work has grown bolder, and you have said things in meetings and in public that you once kept back. At least once a role ended because you would not soften a view, and you did better work in the next one. |
+| `domain_climb.Career.ahead` | From your late forties your influence grows as titles start to matter less, and people begin to repeat what you say. Children or younger relatives or someone you train carry your methods into their own work, and you hear your own style in the way they argue with you. |
+| `domain_climb.Growth.headline` | You grow for as long as the work stays new. |
+| `domain_climb.Growth.recognition` | You grow fastest when the task is new to you, a different kind of audience or a skill nobody expects you to learn at your age. Because sameness bores you before it tires you, you leave a settled position sooner than others think wise. Each change costs you some comfort, and you come out of it sharper than you went in. |
+| `domain_climb.Growth.lived` | Since your late forties you have changed direction when others expected you to settle, taking up a new field or a new way of working. Each move looked risky to the people around you, and you grew more for it than you did in the calmer years before. |
+| `domain_climb.Growth.ahead` | From your late forties you grow by saying out loud what you used to keep to yourself, and people who once called you difficult start calling you wise. You stay sharp in these years while something in your life is new, and you go looking for it when nothing is. |

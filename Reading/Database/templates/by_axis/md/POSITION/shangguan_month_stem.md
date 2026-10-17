@@ -23,8 +23,8 @@
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Social |
-| `defline` | Brilliance stands at your Month Gate: the working world sees the performer, dazzling and hard to manage. |
-| `reading` | This position rules Career and Social, and it runs the prime of your life. The Virtuoso stands at your Month Gate in view: the working world sees your talent before your discipline, and both are real. Your prime wants a stage, formats loose enough for brilliance and honest enough to score it. Bosses who need obedience will not keep you, and the feeling is mutual. Reputation through your thirties and forties runs on performance, visible wins, quotable work. Pick collaborators who enjoy fireworks. Then finish things. Finished brilliance is the only kind the era rewards. |
+| `defline` | The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage. |
+| `reading` | Your talent is the first thing colleagues see, and your patience with rules is the last. Because you need your work to be seen and judged fairly, you shine under bosses who reward results and stall under bosses who want obedience. Your name in your working years is built on visible wins, and you have walked away from at least one job that wanted you quieter. |
 | `teaser` | The working world sees your talent before your discipline, and both are real. Careers with a stage suit you, and bosses who need obedience will not keep you. |
 | `domain_readings.Career` | The working world sees your talent before your discipline, and hires the first while praying for the second: both are real, and stages suit you better than desks. Choose careers with performance in them, pitching, teaching, creating, leading from the front. Supervision is your kryptonite and spotlight your spinach. |
 | `domain_readings.Social` | Your professional circle divides on contact: champions and detractors, rarely neutrals. The champions carry you further than consensus ever would. Collect them deliberately, thank them loudly, and let the detractors keep each other company. Polarizing is a strategy when the poles are chosen. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, every gathering becomes a stage: colleagues as audience, meetings as reviews. Do one thing anonymously this month. |
 | `shadow_line` | Overloaded, the performance never ends: applause required for breakfast. |
 | `health_line` | You metabolize attention like sugar: highs, crashes, cravings. Balance the performance diet with unwitnessed work, and the nerves steady. |
+| `domain_climb.Career.headline` | You are hired for your talent and tested on your discipline. |
+| `domain_climb.Career.recognition` | You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your brilliance gets you in the door, and finishing what you start is what keeps you there. |
+| `domain_climb.Career.lived` | Since your late teens bosses have either backed you fully or tried to slow you down, and few have been neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not. |
+| `domain_climb.Social.headline` | People at work either love you or resist you. |
+| `domain_climb.Social.recognition` | Your circle at work splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in meetings and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years. |
+| `domain_climb.Social.lived` | From your late teens your friendships have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it. |

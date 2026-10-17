@@ -23,8 +23,8 @@
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
 | `domains` | Family · Career |
-| `defline` | The Artisan stands at your Hour Gate: what you show the future is the joy of making. |
-| `reading` | This position rules Family and Career, and it shapes how your story ends. The Artisan stands at your Hour Gate, visible in the last chapters: what you make late in life may outshine everything before it, and the young inherit your gifts along with your recipes. Children and students take after you in the best ways, ease, kindness, appetite. Your late career leans toward mentoring, hosting, and finishing the beautiful projects the busy years postponed. Plan for a productive old age rather than a resting one. Your sweetness compounds, and the last chapters read like dessert. |
+| `defline` | The Artisan stands at your Hour Gate, in plain view: your later years are known for what you make and give. |
+| `reading` | You make things and give them away more freely in later life than at any earlier time, and the younger people around you carry your skills and your generosity with them. Because making and giving are how you feel useful, you spend those years making things for the pleasure of it and teaching what your hands know. You enjoy those years more than most people do, and the one thing that slows your work is comfort that asks nothing of you. |
 | `teaser` | What you make late in life may outshine everything before it. Children and students take after your gifts, and your last chapters read sweeter than your first. |
 | `domain_readings.Family` | The family’s sweetness concentrates in your later role: the elder who hosts, gifts, and remembers birthdays with actual presents. Children and grandchildren take after your gifts more than your advice. Cook with them. The recipes are the will they will actually read. |
 | `domain_readings.Career` | Your late career leans generous: mentoring, finishing beautiful postponed projects, work that feeds people literally or otherwise. What you make after sixty may outshine the busy decades. Plan a productive late era, not a resting one. Your gift matures late and sweetens the whole story. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the hosting never closes: generous to depletion. Let the guests wash up. They have been waiting to. |
 | `shadow_line` | Overloaded, the giver retires into the giving: presence replaced by presents. |
 | `health_line` | Your late body stays kind if fed kindly: appetite is the gauge to watch. When it dims, rest before worrying. It usually only wants sleep. |
+| `domain_climb.Family.headline` | You become the elder everyone wants to visit. |
+| `domain_climb.Family.recognition` | In your family you are the one who remembers birthdays, cooks for the holidays and turns up with a present. Because giving is how you feel close, you hand over presents more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade. |
+| `domain_climb.Family.lived` | Since your late forties you have become the relative who hosts, the one whose home the younger ones head for at holidays. Children or younger relatives or someone you train have picked up your habits of giving, and you see yourself in how they treat their own guests. |
+| `domain_climb.Family.ahead` | From your late forties your family gathers around what you give, the meals and the gifts and the time. Children or younger relatives or someone you train grow easy and generous around you, and you see the best of yourself in them. |
+| `domain_climb.Career.headline` | Your later work is your most generous. |
+| `domain_climb.Career.recognition` | You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on pleasure, and you do more of it in a happy month than in a pressured year. |
+| `domain_climb.Career.lived` | Since your late forties your work has turned toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it. |
+| `domain_climb.Career.ahead` | From your late forties your working life becomes a productive one in the ways that suit you, mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money. |

@@ -23,8 +23,8 @@
 | `slot_zh` | 日支 |
 | `slot_kind` | branch |
 | `domains` | Love · Mind |
-| `defline` | Brilliance sits in your spouse palace: intimacy, for you, is vivid, verbal, and never beige. |
-| `reading` | This position rules Love and Mind, and it works from your marriage palace. The Virtuoso lives inside your Day Gate: at close range you need applause and honesty in the same person, a partner sharp enough to spar with and warm enough to clap. Your adult chapters run on wit at home, banter as affection, critique as intimacy. The hazard is precision aimed at the beloved. Turn the editing outward, compete with the world as a pair, and the marriage becomes a writers’ table. Praise first, polish second. The order matters more than the talent. |
+| `defline` | The Virtuoso lives inside your Day Gate, the seat of your partner: your closest bond runs on talk, wit and honesty. |
+| `reading` | You want a partner who can keep up with you in talk, someone quick enough to argue with and warm enough to praise you. Because being understood is how you feel loved, you say exactly what you notice at home, and the sharpest of it lands on the person you care about most. From your mid-thirties your home life turns into a long conversation between equals, and you do your best thinking in it. |
 | `teaser` | You need a partner who applauds, and you notice when they do not. Marriage thrives once the two of you compete with the world instead of each other. |
 | `domain_readings.Love` | You need applause and honesty from the same person: a partner sharp enough to spar with, warm enough to clap. Banter is your love language and critique your accidental one. Praise first, polish second, always in that order. The marriage becomes a writers’ table or a courtroom. You choose nightly. |
 | `domain_readings.Mind` | At close range your mind stays lit: the partner gets your best material and your roughest drafts. Intimacy for you is thinking aloud with someone unafraid. Protect the play in it. The moment home becomes another venue to win, the brilliance starts costing rent. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the wit turns forensic: love cross-examined nightly. Adjourn. Affection needs no exhibits. |
 | `shadow_line` | Overloaded, the beloved becomes the reviewed: home as a stage with one harsh critic. |
 | `health_line` | Your rest depends on the last conversation of the day: end evenings in warmth rather than open debate, and the body sleeps like it won. |
+| `domain_climb.Love.headline` | You love the person who can answer you back. |
+| `domain_climb.Love.recognition` | You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing your partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half. |
+| `domain_climb.Love.lived` | The partners you have chosen so far have all been quick, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it. |
+| `domain_climb.Love.ahead` | From your mid-thirties your home fills with talk, and the partner you share it with matches you word for word. The two of you grow closer through what you argue about together, and you aim your sharpest words at the world outside your door. |
+| `domain_climb.Mind.headline` | Your mind is sharpest in conversation with someone close. |
+| `domain_climb.Mind.recognition` | You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give your partner your best ideas first, and your harshest opinions too. |
+| `domain_climb.Mind.lived` | Your clearest thinking so far has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening. |
+| `domain_climb.Mind.ahead` | From your mid-thirties your thinking grows bolder, and a partner is the first to hear each new idea. The ideas you test across the kitchen table in these years become the ones you are known for, and you say them more kindly than you once did. |

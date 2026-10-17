@@ -91,7 +91,7 @@
         "id": "shishen_year_stem",
         "key": "食神在年干",
         "canonical_name": "The Artisan at the Year Gate",
-        "value": "The Artisan stands at your Year Gate: ease and charm are the first things your story shows."
+        "value": "The Artisan stands at your Year Gate, in plain view: warmth and easy charm were the first things people saw in you."
       },
       {
         "id": "shishen_year_branch",
@@ -103,73 +103,73 @@
         "id": "shishen_month_stem",
         "key": "食神在月干",
         "canonical_name": "The Artisan at the Month Gate",
-        "value": "The Artisan stands at your Month Gate: the working world sees the maker, gracious and unhurried."
+        "value": "The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker."
       },
       {
         "id": "shishen_month_branch",
         "key": "食神在月支",
         "canonical_name": "The Artisan inside the Month Gate",
-        "value": "The Artisan holds your chart’s strongest seat: your prime runs on craft, flow, and sustainable pleasure."
+        "value": "The Artisan holds your strongest seat, inside your Month Gate: your working years run on steady craft and a body kept well."
       },
       {
         "id": "shishen_day_branch",
         "key": "食神在日支",
         "canonical_name": "The Artisan inside the Day Gate",
-        "value": "The Artisan sits in your spouse palace: home, for you, is where life gets savored."
+        "value": "The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home."
       },
       {
         "id": "shishen_hour_stem",
         "key": "食神在时干",
         "canonical_name": "The Artisan at the Hour Gate",
-        "value": "The Artisan stands at your Hour Gate: what you show the future is the joy of making."
+        "value": "The Artisan stands at your Hour Gate, in plain view: your later years are known for what you make and give."
       },
       {
         "id": "shishen_hour_branch",
         "key": "食神在时支",
         "canonical_name": "The Artisan inside the Hour Gate",
-        "value": "The Artisan lives inside your Hour Gate: your harvest is children, comfort, and a well-fed old age."
+        "value": "The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back."
       },
       {
         "id": "shangguan_year_stem",
         "key": "伤官在年干",
         "canonical_name": "The Virtuoso at the Year Gate",
-        "value": "Brilliance stands at your Year Gate: the first thing your story shows is a spark that refuses dimming."
+        "value": "The Virtuoso stands at your Year Gate, in plain view: you were known early as the bright child who answered back."
       },
       {
         "id": "shangguan_year_branch",
         "key": "伤官在年支",
         "canonical_name": "The Virtuoso inside the Year Gate",
-        "value": "Brilliance lives inside your Year Gate: you were rooted in a house that talent had to outgrow."
+        "value": "The Virtuoso lives inside your Year Gate: underneath your childhood ran a quiet disagreement with the way things were done at home."
       },
       {
         "id": "shangguan_month_stem",
         "key": "伤官在月干",
         "canonical_name": "The Virtuoso at the Month Gate",
-        "value": "Brilliance stands at your Month Gate: the working world sees the performer, dazzling and hard to manage."
+        "value": "The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage."
       },
       {
         "id": "shangguan_month_branch",
         "key": "伤官在月支",
         "canonical_name": "The Virtuoso inside the Month Gate",
-        "value": "Brilliance holds your chart’s strongest seat: your prime is built to break forms and sign the result."
+        "value": "The Virtuoso holds your strongest seat, inside your Month Gate: your working years run on seeing how everything could be better."
       },
       {
         "id": "shangguan_day_branch",
         "key": "伤官在日支",
         "canonical_name": "The Virtuoso inside the Day Gate",
-        "value": "Brilliance sits in your spouse palace: intimacy, for you, is vivid, verbal, and never beige."
+        "value": "The Virtuoso lives inside your Day Gate, the seat of your partner: your closest bond runs on talk, wit and honesty."
       },
       {
         "id": "shangguan_hour_stem",
         "key": "伤官在时干",
         "canonical_name": "The Virtuoso at the Hour Gate",
-        "value": "Brilliance stands at your Hour Gate: your later years intend to be seen, and heard."
+        "value": "The Virtuoso stands at your Hour Gate, in plain view: your later years are when people hear you most clearly."
       },
       {
         "id": "shangguan_hour_branch",
         "key": "伤官在时支",
         "canonical_name": "The Virtuoso inside the Hour Gate",
-        "value": "Brilliance lives inside your Hour Gate: the root of your harvest is a mind that never retires."
+        "value": "The Virtuoso lives inside your Hour Gate: your later life stays full of ideas, opinions and people who argue back."
       },
       {
         "id": "piancai_year_stem",

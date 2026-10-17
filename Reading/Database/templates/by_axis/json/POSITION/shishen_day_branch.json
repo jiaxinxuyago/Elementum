@@ -20,8 +20,8 @@
       "Family",
       "Health"
     ],
-    "defline": "The Artisan sits in your spouse palace: home, for you, is where life gets savored.",
-    "reading": "This position rules Love, Family, and Health, and it works from your marriage palace. The Artisan lives inside your Day Gate: you are built for a warm table and a gentle partner, and your best fortune gathers around the home you two keep. Love, for you, is fed daily rather than declared. The household tends toward comfort, good food, and soft evenings, and your health rises with the quality of your home life more than any regimen. Choose the person who makes ordinary days delicious. Guard the table together. Everything else in your chart eats from it.",
+    "defline": "The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home.",
+    "reading": "You are happiest in a home where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small comforts more than through words. From your mid-thirties your home becomes the centre of your life, and you give so much to it that you forget to take your own share.",
     "teaser": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep.",
     "domain_readings": {
       "Love": "You love by feeding, in every sense: care arrives as meals, comfort, ease made daily. The partner who suits you receives gently and returns warmth without keeping score. Beware only the taker who mistakes your table for a service counter. Love should cook for you sometimes.",
@@ -33,6 +33,63 @@
     "turn_catalyst": "Run thin, the hearth burns low: care given on schedule, warmth running on reserve. Let someone cook for you this week. Receiving is also hosting.",
     "turn_friction": "Run heavy, comfort overfills: sweetness past nourishment, ease past aliveness. Add one shared challenge to the household diet.",
     "shadow_line": "Overloaded, the feeder disappears into the feeding: everyone full, host unfed.",
-    "health_line": "Your body eats what the household serves, mood included: tension at home lands in your digestion first. Keep the table peaceful and portions honest."
-  }
+    "health_line": "Your body eats what the household serves, mood included: tension at home lands in your digestion first. Keep the table peaceful and portions honest.",
+    "domain_climb": {
+      "Love": {
+        "headline": "You show love by making life easy.",
+        "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you notice a partner who only takes much later than your friends do.",
+        "lived": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
+        "ahead": "From your mid-thirties your love life settles into a shared home with a partner who makes ordinary days pleasant. The two of you build your life around the same table, and you find yourself looked after in return more than at any time before."
+      },
+      "Family": {
+        "headline": "You become the host your family returns to.",
+        "recognition": "Your home is where your family ends up, for meals and holidays and the nights someone needs a bed. Because a full house makes you feel settled, you take on more hosting than anyone asks of you. Relatives treat your door as always open, and you rarely show them how tired you are by the end.",
+        "lived": "So far your home has been the one your relatives and friends drift towards, for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
+        "ahead": "From your mid-thirties the family starts to gather at your house, children or relatives or friends who treat it as their second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home."
+      },
+      "Health": {
+        "headline": "Your body does well when home is calm.",
+        "recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
+        "lived": "So far your energy has risen and fallen with the state of your home, steady in the good years and low in the strained ones. Your appetite has shifted more than once with trouble at home, and you have turned to food for comfort each time.",
+        "ahead": "From your mid-thirties your health improves with a settled home, and your sleep and appetite steady as the household does. Comfort slides into excess in the busiest of these years, and you stay well because the people at home with you eat and rest alongside you."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "The Artisan sits in your spouse palace: home, for you, is where life gets savored."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Love, Family, and Health, and it works from your marriage palace. The Artisan lives inside your Day Gate: you are built for a warm table and a gentle partner, and your best fortune gathers around the home you two keep. Love, for you, is fed daily rather than declared. The household tends toward comfort, good food, and soft evenings, and your health rises with the quality of your home life more than any regimen. Choose the person who makes ordinary days delicious. Guard the table together. Everything else in your chart eats from it."
+    },
+    {
+      "field": "domain_climb.Love",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Health",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

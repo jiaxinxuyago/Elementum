@@ -19,8 +19,8 @@
       "Family",
       "Mind"
     ],
-    "defline": "Brilliance lives inside your Hour Gate: the root of your harvest is a mind that never retires.",
-    "reading": "This position rules Family and Mind, and it works in the root of your late years. The Virtuoso lives inside your Hour Gate: expression never retires in you, and the last chapters stay full of making, correcting, and dazzling. The family of your late life includes minds you trained, and the house stays loud with ideas. Your own mind ages like a performer, hungry for material, allergic to idleness. Feed it projects, audiences, arguments worth having. Kept lit, this root makes old age your most honest decade, and honestly, your funniest.",
+    "defline": "The Virtuoso lives inside your Hour Gate: your later life stays full of ideas, opinions and people who argue back.",
+    "reading": "Your mind does not slow down with age, and your later years stay busy with making things and saying what you think. Because being heard has always kept you well, you gather younger people who will argue with you, and the ones who stand up to you become your favourites. From your late forties your family gets your sharpest wit, and you stay closest to the ones who also get your warmth.",
     "teaser": "The root of your late years is expression that never retires. You will be making, correcting, and dazzling to the end, and it will keep you young.",
     "domain_readings": {
       "Family": "Your late family stays loud with ideas: minds you trained around the table, debate as the house dialect, affection delivered as banter. The young come back for the conversation. Keep hosting it. A family that thinks together stays entertained together, and yours will.",
@@ -31,6 +31,50 @@
     "turn_catalyst": "Run thin, the workshop dims early: wit intact, output shelved. Start the late project now. The root feeds on making, at every age.",
     "turn_friction": "Run heavy, the correcting outpaces the connecting: family edited more than embraced. Hug first, revise later.",
     "shadow_line": "Overloaded, the wit fences everyone out: brilliant commentary, empty chairs.",
-    "health_line": "Mental fire keeps your late body warm: engagement is the medicine here. Protect the sleep it forgets to want, and it burns beautifully long."
-  }
+    "health_line": "Mental fire keeps your late body warm: engagement is the medicine here. Protect the sleep it forgets to want, and it burns beautifully long.",
+    "domain_climb": {
+      "Family": {
+        "headline": "Your family stays loud with argument and ideas.",
+        "recognition": "You love your family through talk, about ideas and plans and whatever they are getting wrong. Because a good argument is how you stay close, you push the people you love harder than strangers, and the gentler ones keep their distance. What you want from your family is a table that answers you, and you feel old only when it goes quiet.",
+        "lived": "Since your late forties the talk in your family has got sharper and funnier, with children or younger relatives or someone you train answering you back. You have been proudest when one of them beat you in an argument, and you have rarely said so.",
+        "ahead": "From your late forties the people after you, children or younger relatives or someone you train, seek you out for talk they cannot get anywhere else. You become the one in your family whose opinion is asked for, and you give it with more warmth than you once did."
+      },
+      "Mind": {
+        "headline": "Your mind stays quick and restless into old age.",
+        "recognition": "You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays young while it has work, and you feel it within days when it has none.",
+        "lived": "Since your late forties your mind has kept finding new work, a subject or a project to pick up whenever an old one ran out. You have started more debates in this stretch than in any earlier decade, and you have enjoyed nearly all of them.",
+        "ahead": "From your late forties your thinking gets bolder, and you say plainly what you held back in earlier years. Your sleep is the part that suffers when an idea grips you, and you sleep well again once you have said it out loud."
+      }
+    }
+  },
+  "$provenance": [
+    {
+      "field": "defline",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "Brilliance lives inside your Hour Gate: the root of your harvest is a mind that never retires."
+    },
+    {
+      "field": "reading",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": "This position rules Family and Mind, and it works in the root of your late years. The Virtuoso lives inside your Hour Gate: expression never retires in you, and the last chapters stay full of making, correcting, and dazzling. The family of your late life includes minds you trained, and the house stays loud with ideas. Your own mind ages like a performer, hungry for material, allergic to idleness. Feed it projects, audiences, arguments worth having. Kept lit, this root makes old age your most honest decade, and honestly, your funniest."
+    },
+    {
+      "field": "domain_climb.Family",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    },
+    {
+      "field": "domain_climb.Mind",
+      "adopted_from": "ComparativeAnalysis/Prompts/out/handoff/2026-10-17-domains-batch/out-2.json",
+      "date": "2026-10-17",
+      "ruling": "owner 2026-10-17 (DOM-1 rulings Q1-Q15 A, T0-T10 A, P1 A)",
+      "replaced": null
+    }
+  ]
 }

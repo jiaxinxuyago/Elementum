@@ -23,8 +23,8 @@
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
 | `domains` | Family · Health |
-| `defline` | The Artisan lives inside your Hour Gate: your harvest is children, comfort, and a well-fed old age. |
-| `reading` | This position rules Family and Health, and it works in the root of your late years. The Artisan lives inside your Hour Gate: ease deepens as you age, comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays, with children or chosen family close to the kitchen. Your health in the last chapters answers to warmth: fed well and loved plainly, you last. The counsel is almost embarrassingly simple. Keep hosting. The people you feed become the people who tend you, and this root repays every meal with years. |
+| `defline` | The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back. |
+| `reading` | Your life grows easier with age, and the comfort you have worked for becomes yours to enjoy after your late forties. Because care for you has always meant a good meal and a warm bed, your later home fills with younger people and old friends. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm. |
 | `teaser` | Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays. |
 | `domain_readings.Family` | Your late family gathers by scent: whoever you feed becomes kin, and the kitchen stays the family’s true address. Chosen family counts fully here. Keep hosting past the point that seems sensible. The people you feed become the people who tend you, at astonishing exchange rates. |
 | `domain_readings.Health` | Ease deepens into your bones with age: sleep improves, appetite steadies, comfort finally guiltless. Your late health asks mostly for rhythm and company. Eat with people whenever you can manage it. Solitary meals age you faster than birthdays do. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, comfort settles too deep: the couch winning quiet years. Keep one standing engagement that requires shoes. |
 | `shadow_line` | Overloaded, ease becomes sediment: cozy, sweet, and slowly sinking. |
 | `health_line` | Your late constitution runs on warmth and routine: regular meals, gentle movement, people nearby. Loneliness is the only illness to actually fear. |
+| `domain_climb.Family.headline` | Your later family is the people at your table. |
+| `domain_climb.Family.recognition` | You treat anyone who eats at your home often enough as family, and a friend who comes every week matters to you as much as a cousin. Because feeding people is how you show care, you keep inviting people long after others have stopped hosting. Your house stays busy because of it, and you would feel lost in a home that no one visits. |
+| `domain_climb.Family.lived` | Since your late forties your home has filled with the people after you, children or younger relatives or someone you train. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed. |
+| `domain_climb.Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed. |
+| `domain_climb.Health.headline` | Your body grows easier to live in with age. |
+| `domain_climb.Health.recognition` | You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it slides into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone. |
+| `domain_climb.Health.lived` | Since your late forties your sleep has deepened and your appetite has steadied, and you have enjoyed your food without guilt. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again. |
+| `domain_climb.Health.ahead` | From your late forties your body settles into an easy routine, with good sleep and steady appetite and company at meals. Late life suits your body unusually well, and you stay strong in these years while there are people around you. |

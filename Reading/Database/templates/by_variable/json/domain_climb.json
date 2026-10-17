@@ -259,6 +259,23 @@
         }
       },
       {
+        "id": "shishen_year_stem",
+        "key": "食神在年干",
+        "canonical_name": "The Artisan at the Year Gate",
+        "value": {
+          "Social": {
+            "headline": "Your warmth opens doors for you.",
+            "recognition": "People warm to you on first meeting, and they remember how you made them feel long after the talk itself. Since being liked was your first way of belonging, you give more than you take in every circle you join, through hosting and small kindnesses. Your friends are many and loyal, and you show your worries to very few of them.",
+            "lived": "As a child you were the one other children wanted to sit next to, and adults made a fuss of you at every gathering. By your teens you already had more friends than you could keep up with, and you were invited everywhere."
+          },
+          "Health": {
+            "headline": "You were born with a forgiving body.",
+            "recognition": "You recover quickly from big meals and short nights, and your body has rarely let you down. Because pleasure has never felt dangerous to you, you let the treats and the late nights pile up until your energy drops. A steady routine of food and rest puts you right, and you feel well again within a week of going back to it.",
+            "lived": "You ate well and slept soundly in your first years, and a bad day or a cold never kept you down for long. Food at home was a pleasure more than a rule, and by your teens you loved a good meal more than most of your friends did."
+          }
+        }
+      },
+      {
         "id": "shishen_year_branch",
         "key": "食神在年支",
         "canonical_name": "The Artisan inside the Year Gate",
@@ -272,6 +289,228 @@
             "headline": "Your body trusts food and rest to put it right.",
             "recognition": "You trust your body to fix itself with a good meal and a long sleep, and for most of your life it has. Because comfort is how you recover, you reach for it under stress, and you turn the extra helping or the lost weekend into a habit before you notice. Your body asks you for rhythm more than for effort.",
             "lived": "You were a child who recovered quickly, from colds and falls and bad days alike. Your appetite and your sleep were steady, and you came into adulthood with more reserve than most of the people around you."
+          }
+        }
+      },
+      {
+        "id": "shishen_month_stem",
+        "key": "食神在月干",
+        "canonical_name": "The Artisan at the Month Gate",
+        "value": {
+          "Career": {
+            "headline": "You earn most from the work you enjoy.",
+            "recognition": "Your best work comes when you like it, and everyone around you can tell the difference within a week. Since pleasure is what keeps you going, a joyless job empties you out faster than a demanding one. Your ease makes you look less ambitious than you are, and you let the finished work speak for you.",
+            "lived": "Since your late teens your best jobs have been the ones you enjoyed, and your worst stretches were spent forcing yourself through work you disliked. At least once a parent or an older colleague took your ease for a lack of drive, and you proved them wrong quietly."
+          },
+          "Social": {
+            "headline": "Your easy manner wins you friends at work.",
+            "recognition": "You put people at ease without trying, and a tense meeting turns friendly once you join it. Because sharing food and good company is how you connect, much of your working circle began over a lunch or a drink. You know more people than you realise, and you are slow to ask any of them for a favour.",
+            "lived": "From your late teens your closest friends at work have come out of shared breaks and long evenings, the colleagues you ate with. More than once a friendly contact has turned into a job or an opening, and you had not been looking for either."
+          }
+        }
+      },
+      {
+        "id": "shishen_month_branch",
+        "key": "食神在月支",
+        "canonical_name": "The Artisan inside the Month Gate",
+        "value": {
+          "Career": {
+            "headline": "Your career runs on craft and good habits.",
+            "recognition": "You do your best work through skill built slowly, in fields where the hands or the senses know things. Since steady practice is what you trust, you are slow to take on work you cannot yet do well, and you miss a few openings that way. You are seldom the loudest on a team, and your work is the work that holds up.",
+            "lived": "From your late teens you have built your skill quietly, through practice more than ambition, in work that let you make or tend something. In time the people around you came to call your skill a gift, and you knew it had come one day at a time."
+          },
+          "Health": {
+            "headline": "Your work is only as good as your sleep.",
+            "recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because pleasure in food and rest comes easily to you, comfort slips into excess in your busiest months and your energy drops. You notice tiredness in the quality of your work before you feel it, and a few good nights of sleep put it right.",
+            "lived": "Since your late teens your energy has followed your routine closely, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
+          }
+        }
+      },
+      {
+        "id": "shishen_day_branch",
+        "key": "食神在日支",
+        "canonical_name": "The Artisan inside the Day Gate",
+        "value": {
+          "Love": {
+            "headline": "You show love by making life easy.",
+            "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you notice a partner who only takes much later than your friends do.",
+            "lived": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
+            "ahead": "From your mid-thirties your love life settles into a shared home with a partner who makes ordinary days pleasant. The two of you build your life around the same table, and you find yourself looked after in return more than at any time before."
+          },
+          "Family": {
+            "headline": "You become the host your family returns to.",
+            "recognition": "Your home is where your family ends up, for meals and holidays and the nights someone needs a bed. Because a full house makes you feel settled, you take on more hosting than anyone asks of you. Relatives treat your door as always open, and you rarely show them how tired you are by the end.",
+            "lived": "So far your home has been the one your relatives and friends drift towards, for a meal or a night or a long weekend. You have fed more people than you could easily afford to, and you have counted it as time well spent.",
+            "ahead": "From your mid-thirties the family starts to gather at your house, children or relatives or friends who treat it as their second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home."
+          },
+          "Health": {
+            "headline": "Your body does well when home is calm.",
+            "recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
+            "lived": "So far your energy has risen and fallen with the state of your home, steady in the good years and low in the strained ones. Your appetite has shifted more than once with trouble at home, and you have turned to food for comfort each time.",
+            "ahead": "From your mid-thirties your health improves with a settled home, and your sleep and appetite steady as the household does. Comfort slides into excess in the busiest of these years, and you stay well because the people at home with you eat and rest alongside you."
+          }
+        }
+      },
+      {
+        "id": "shishen_hour_stem",
+        "key": "食神在时干",
+        "canonical_name": "The Artisan at the Hour Gate",
+        "value": {
+          "Family": {
+            "headline": "You become the elder everyone wants to visit.",
+            "recognition": "In your family you are the one who remembers birthdays, cooks for the holidays and turns up with a present. Because giving is how you feel close, you hand over presents more easily than advice. Your family takes after your kindness more than your opinions, and you are glad of the trade.",
+            "lived": "Since your late forties you have become the relative who hosts, the one whose home the younger ones head for at holidays. Children or younger relatives or someone you train have picked up your habits of giving, and you see yourself in how they treat their own guests.",
+            "ahead": "From your late forties your family gathers around what you give, the meals and the gifts and the time. Children or younger relatives or someone you train grow easy and generous around you, and you see the best of yourself in them."
+          },
+          "Career": {
+            "headline": "Your later work is your most generous.",
+            "recognition": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on pleasure, and you do more of it in a happy month than in a pressured year.",
+            "lived": "Since your late forties your work has turned toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
+            "ahead": "From your late forties your working life becomes a productive one in the ways that suit you, mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money."
+          }
+        }
+      },
+      {
+        "id": "shishen_hour_branch",
+        "key": "食神在时支",
+        "canonical_name": "The Artisan inside the Hour Gate",
+        "value": {
+          "Family": {
+            "headline": "Your later family is the people at your table.",
+            "recognition": "You treat anyone who eats at your home often enough as family, and a friend who comes every week matters to you as much as a cousin. Because feeding people is how you show care, you keep inviting people long after others have stopped hosting. Your house stays busy because of it, and you would feel lost in a home that no one visits.",
+            "lived": "Since your late forties your home has filled with the people after you, children or younger relatives or someone you train. You have hosted more in this stretch than in any earlier decade, and you have started to be fed by the people you once fed.",
+            "ahead": "From your late forties the people after you, children or younger relatives or someone you train, gather at your table more each year. The care you have given starts to come back to you in these years, and you are looked after by those you once fed."
+          },
+          "Health": {
+            "headline": "Your body grows easier to live in with age.",
+            "recognition": "You look after your body through regular meals, gentle movement and people nearby, and it answers you well. Since rest comes easily to you, a good week of it slides into a slow month before you notice. Your health depends more on company than on effort, and you feel the difference within days when you eat alone.",
+            "lived": "Since your late forties your sleep has deepened and your appetite has steadied, and you have enjoyed your food without guilt. Your energy has dipped in the stretches when you were on your own too much, and it has come back each time the house filled up again.",
+            "ahead": "From your late forties your body settles into an easy routine, with good sleep and steady appetite and company at meals. Late life suits your body unusually well, and you stay strong in these years while there are people around you."
+          }
+        }
+      },
+      {
+        "id": "shangguan_year_stem",
+        "key": "伤官在年干",
+        "canonical_name": "The Virtuoso at the Year Gate",
+        "value": {
+          "Social": {
+            "headline": "People remember you after one meeting.",
+            "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
+            "lived": "As a child you were the one whose remarks got repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+          },
+          "Mind": {
+            "headline": "Your mind gets there first and gets bored first.",
+            "recognition": "You see the pattern before others have finished explaining it, and boredom reaches you long before the lesson ends. Since your thinking was praised early for speed, you are careless with the slower parts of a problem. Your mind does its best work on hard problems with someone watching, and you drift when it has neither.",
+            "lived": "At school you finished the work early and went looking for something harder, or for trouble when nothing harder came. By your teens you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
+          }
+        }
+      },
+      {
+        "id": "shangguan_year_branch",
+        "key": "伤官在年支",
+        "canonical_name": "The Virtuoso inside the Year Gate",
+        "value": {
+          "Family": {
+            "headline": "Your family gets your honesty along with your love.",
+            "recognition": "You love your family most easily where you are allowed to disagree, and a home that asks you to keep quiet feels cold to you. Because honesty was your first way of belonging at home, you say what others leave unsaid, and a relative or two finds you hard work. Your warmth is real, and you show it most to the people who argue back.",
+            "lived": "As a child you questioned at least one rule at home that everyone else accepted, quietly or out loud. Someone in your first home found you difficult for it, and by your teens you had learned which opinions to keep to yourself."
+          },
+          "Growth": {
+            "headline": "You grow by doubting what you are given.",
+            "recognition": "You improve anything you are handed by questioning it first, a method or a belief or a piece of advice. Since accepting things whole has never felt honest to you, you learn more slowly from teachers and faster from your own mistakes. Your doubt turns into skill whenever it has real work in front of it, and you grow restless when it has none.",
+            "lived": "By your teens you had already outgrown some of what your family believed, and you got there by arguing with it. In school you did best in the subjects that let you ask why, and you drifted through the ones that did not."
+          }
+        }
+      },
+      {
+        "id": "shangguan_month_stem",
+        "key": "伤官在月干",
+        "canonical_name": "The Virtuoso at the Month Gate",
+        "value": {
+          "Career": {
+            "headline": "You are hired for your talent and tested on your discipline.",
+            "recognition": "You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your brilliance gets you in the door, and finishing what you start is what keeps you there.",
+            "lived": "Since your late teens bosses have either backed you fully or tried to slow you down, and few have been neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not."
+          },
+          "Social": {
+            "headline": "People at work either love you or resist you.",
+            "recognition": "Your circle at work splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in meetings and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years.",
+            "lived": "From your late teens your friendships have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it."
+          }
+        }
+      },
+      {
+        "id": "shangguan_month_branch",
+        "key": "伤官在月支",
+        "canonical_name": "The Virtuoso inside the Month Gate",
+        "value": {
+          "Career": {
+            "headline": "You are paid to make things better.",
+            "recognition": "You are best in jobs where improving things is the work itself, editing or design or reform of some kind. Because a weak plan is plain to you before anyone asks, you correct work that was never yours to correct. Your value at work grows with every process you improve, and you are known as the colleague who will not let poor work pass.",
+            "lived": "Since your late teens you have been the one who points out what could be better, in a class or a team or a first job. You have clashed with at least one boss over it, and you have also been the person they sent for when something needed fixing."
+          },
+          "Mind": {
+            "headline": "Your mind never stops improving what it sees.",
+            "recognition": "You think in revisions, turning over a plan or an idea or your own opinion until it is better, and nothing feels quite finished to you. Since a fault you have noticed stays with you until it is mended, your mind keeps working when the day is over. You sleep best in the weeks when one hard problem has all of your attention.",
+            "lived": "From your late teens your mind has gone looking for faults, in what you were taught and in what you believed yourself. You have changed your view on something important more than once over those years, and each time you argued yourself into the new view first."
+          }
+        }
+      },
+      {
+        "id": "shangguan_day_branch",
+        "key": "伤官在日支",
+        "canonical_name": "The Virtuoso inside the Day Gate",
+        "value": {
+          "Love": {
+            "headline": "You love the person who can answer you back.",
+            "recognition": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing your partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
+            "lived": "The partners you have chosen so far have all been quick, people who argued well and laughed at the right moments. More than once a relationship cooled because your honesty arrived before your warmth, and you remember which words did it.",
+            "ahead": "From your mid-thirties your home fills with talk, and the partner you share it with matches you word for word. The two of you grow closer through what you argue about together, and you aim your sharpest words at the world outside your door."
+          },
+          "Mind": {
+            "headline": "Your mind is sharpest in conversation with someone close.",
+            "recognition": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give your partner your best ideas first, and your harshest opinions too.",
+            "lived": "Your clearest thinking so far has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening.",
+            "ahead": "From your mid-thirties your thinking grows bolder, and a partner is the first to hear each new idea. The ideas you test across the kitchen table in these years become the ones you are known for, and you say them more kindly than you once did."
+          }
+        }
+      },
+      {
+        "id": "shangguan_hour_stem",
+        "key": "伤官在时干",
+        "canonical_name": "The Virtuoso at the Hour Gate",
+        "value": {
+          "Career": {
+            "headline": "Your best work is the work you do last.",
+            "recognition": "You do your best work where you can say what you think, and a job that asks for quiet manners tires you. Because your skill has grown faster than your patience for rules, you are better at the job than many who manage it. What you make in later life outlasts the job that paid for it, and you judge yourself by the work alone.",
+            "lived": "Since your late forties your work has grown bolder, and you have said things in meetings and in public that you once kept back. At least once a role ended because you would not soften a view, and you did better work in the next one.",
+            "ahead": "From your late forties your influence grows as titles start to matter less, and people begin to repeat what you say. Children or younger relatives or someone you train carry your methods into their own work, and you hear your own style in the way they argue with you."
+          },
+          "Growth": {
+            "headline": "You grow for as long as the work stays new.",
+            "recognition": "You grow fastest when the task is new to you, a different kind of audience or a skill nobody expects you to learn at your age. Because sameness bores you before it tires you, you leave a settled position sooner than others think wise. Each change costs you some comfort, and you come out of it sharper than you went in.",
+            "lived": "Since your late forties you have changed direction when others expected you to settle, taking up a new field or a new way of working. Each move looked risky to the people around you, and you grew more for it than you did in the calmer years before.",
+            "ahead": "From your late forties you grow by saying out loud what you used to keep to yourself, and people who once called you difficult start calling you wise. You stay sharp in these years while something in your life is new, and you go looking for it when nothing is."
+          }
+        }
+      },
+      {
+        "id": "shangguan_hour_branch",
+        "key": "伤官在时支",
+        "canonical_name": "The Virtuoso inside the Hour Gate",
+        "value": {
+          "Family": {
+            "headline": "Your family stays loud with argument and ideas.",
+            "recognition": "You love your family through talk, about ideas and plans and whatever they are getting wrong. Because a good argument is how you stay close, you push the people you love harder than strangers, and the gentler ones keep their distance. What you want from your family is a table that answers you, and you feel old only when it goes quiet.",
+            "lived": "Since your late forties the talk in your family has got sharper and funnier, with children or younger relatives or someone you train answering you back. You have been proudest when one of them beat you in an argument, and you have rarely said so.",
+            "ahead": "From your late forties the people after you, children or younger relatives or someone you train, seek you out for talk they cannot get anywhere else. You become the one in your family whose opinion is asked for, and you give it with more warmth than you once did."
+          },
+          "Mind": {
+            "headline": "Your mind stays quick and restless into old age.",
+            "recognition": "You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays young while it has work, and you feel it within days when it has none.",
+            "lived": "Since your late forties your mind has kept finding new work, a subject or a project to pick up whenever an old one ran out. You have started more debates in this stretch than in any earlier decade, and you have enjoyed nearly all of them.",
+            "ahead": "From your late forties your thinking gets bolder, and you say plainly what you held back in earlier years. Your sleep is the part that suffers when an idea grips you, and you sleep well again once you have said it out loud."
           }
         }
       },

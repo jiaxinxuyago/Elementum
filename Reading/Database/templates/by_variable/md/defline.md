@@ -22,20 +22,20 @@
 | **The Rival inside the Day Gate** | 劫财在日支 | The Rival lives inside your Day Gate, the seat of your partner: your love life carries real stakes, in money and in pride. |
 | **The Rival at the Hour Gate** | 劫财在时干 | The Rival stands at your Hour Gate, in plain view: in later life people see your nerve and ask you to back them. |
 | **The Rival inside the Hour Gate** | 劫财在时支 | The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend. |
-| **The Artisan at the Year Gate** | 食神在年干 | The Artisan stands at your Year Gate: ease and charm are the first things your story shows. |
+| **The Artisan at the Year Gate** | 食神在年干 | The Artisan stands at your Year Gate, in plain view: warmth and easy charm were the first things people saw in you. |
 | **The Artisan inside the Year Gate** | 食神在年支 | The Artisan lives inside your Year Gate: underneath your early years were comfort and care, given freely. |
-| **The Artisan at the Month Gate** | 食神在月干 | The Artisan stands at your Month Gate: the working world sees the maker, gracious and unhurried. |
-| **The Artisan inside the Month Gate** | 食神在月支 | The Artisan holds your chart’s strongest seat: your prime runs on craft, flow, and sustainable pleasure. |
-| **The Artisan inside the Day Gate** | 食神在日支 | The Artisan sits in your spouse palace: home, for you, is where life gets savored. |
-| **The Artisan at the Hour Gate** | 食神在时干 | The Artisan stands at your Hour Gate: what you show the future is the joy of making. |
-| **The Artisan inside the Hour Gate** | 食神在时支 | The Artisan lives inside your Hour Gate: your harvest is children, comfort, and a well-fed old age. |
-| **The Virtuoso at the Year Gate** | 伤官在年干 | Brilliance stands at your Year Gate: the first thing your story shows is a spark that refuses dimming. |
-| **The Virtuoso inside the Year Gate** | 伤官在年支 | Brilliance lives inside your Year Gate: you were rooted in a house that talent had to outgrow. |
-| **The Virtuoso at the Month Gate** | 伤官在月干 | Brilliance stands at your Month Gate: the working world sees the performer, dazzling and hard to manage. |
-| **The Virtuoso inside the Month Gate** | 伤官在月支 | Brilliance holds your chart’s strongest seat: your prime is built to break forms and sign the result. |
-| **The Virtuoso inside the Day Gate** | 伤官在日支 | Brilliance sits in your spouse palace: intimacy, for you, is vivid, verbal, and never beige. |
-| **The Virtuoso at the Hour Gate** | 伤官在时干 | Brilliance stands at your Hour Gate: your later years intend to be seen, and heard. |
-| **The Virtuoso inside the Hour Gate** | 伤官在时支 | Brilliance lives inside your Hour Gate: the root of your harvest is a mind that never retires. |
+| **The Artisan at the Month Gate** | 食神在月干 | The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker. |
+| **The Artisan inside the Month Gate** | 食神在月支 | The Artisan holds your strongest seat, inside your Month Gate: your working years run on steady craft and a body kept well. |
+| **The Artisan inside the Day Gate** | 食神在日支 | The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home. |
+| **The Artisan at the Hour Gate** | 食神在时干 | The Artisan stands at your Hour Gate, in plain view: your later years are known for what you make and give. |
+| **The Artisan inside the Hour Gate** | 食神在时支 | The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back. |
+| **The Virtuoso at the Year Gate** | 伤官在年干 | The Virtuoso stands at your Year Gate, in plain view: you were known early as the bright child who answered back. |
+| **The Virtuoso inside the Year Gate** | 伤官在年支 | The Virtuoso lives inside your Year Gate: underneath your childhood ran a quiet disagreement with the way things were done at home. |
+| **The Virtuoso at the Month Gate** | 伤官在月干 | The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage. |
+| **The Virtuoso inside the Month Gate** | 伤官在月支 | The Virtuoso holds your strongest seat, inside your Month Gate: your working years run on seeing how everything could be better. |
+| **The Virtuoso inside the Day Gate** | 伤官在日支 | The Virtuoso lives inside your Day Gate, the seat of your partner: your closest bond runs on talk, wit and honesty. |
+| **The Virtuoso at the Hour Gate** | 伤官在时干 | The Virtuoso stands at your Hour Gate, in plain view: your later years are when people hear you most clearly. |
+| **The Virtuoso inside the Hour Gate** | 伤官在时支 | The Virtuoso lives inside your Hour Gate: your later life stays full of ideas, opinions and people who argue back. |
 | **The Horizon at the Year Gate** | 偏财在年干 | The Horizon stands at your Year Gate, in plain view: your first home spent openly on people and on chances. |
 | **The Horizon inside the Year Gate** | 偏财在年支 | The Horizon lives inside your Year Gate: underneath your settled surface sits a pull toward somewhere else, carried down your family. |
 | **The Horizon at the Month Gate** | 偏财在月干 | The Horizon stands at your Month Gate, in plain view: at work you are known as the one who spots the opening first. |

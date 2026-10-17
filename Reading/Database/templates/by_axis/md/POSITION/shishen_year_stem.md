@@ -23,8 +23,8 @@
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Social · Health |
-| `defline` | The Artisan stands at your Year Gate: ease and charm are the first things your story shows. |
-| `reading` | This position rules Social and Health, and it rules them from your beginnings. The Artisan stood openly at your Year Gate: warmth was your first language, learned young and worn where everyone could see it. People have fed you, hosted you, and forgiven you easily all your life, and your body has mostly returned the favor. Charm opens your doors, taste keeps them open. The constitution is genuinely good, and it stays good on rhythm rather than discipline. Keep the meals, the sleep, and the company regular. Your luck has manners, and it likes being fed. |
+| `defline` | The Artisan stands at your Year Gate, in plain view: warmth and easy charm were the first things people saw in you. |
+| `reading` | You were a warm, easy child, and the older relatives around you noticed it before anything else. Because affection came to you early and without effort, people have welcomed you and let you off lightly all your life. Your health has held up on regular meals and sleep more than on effort, and you feel the seasons of excess later than others do. |
 | `teaser` | Warmth was your first language, learned young and worn openly. Doors open for you through charm and good taste, and they keep opening as long as you keep giving. |
 | `domain_readings.Social` | Warmth is your opening move and it has never failed you: people relax on meeting you and remember the feeling. Your social capital compounds through hosting, feeding, and easing. Spend it generously. The circles you warm keep returning the temperature, usually with interest. |
 | `domain_readings.Health` | Your constitution arrived friendly and stays friendly under rhythm: regular meals, honest sleep, pleasure taken without guilt. The risks in your chart are excess-shaped, never fragility-shaped. Alternate the feasts with quiet days and this body carries you smiling into old age. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the sweetness overpours: pleasing everyone, becoming furniture. Warm the deserving. Lukewarm is fine for the rest. |
 | `shadow_line` | Overloaded, charm becomes the whole job: liked everywhere, known nowhere. |
 | `health_line` | Your body forgives generously and remembers eventually: indulgence compounds quietly. Keep the pleasures rhythmic and the body stays your friend. |
+| `domain_climb.Social.headline` | Your warmth opens doors for you. |
+| `domain_climb.Social.recognition` | People warm to you on first meeting, and they remember how you made them feel long after the talk itself. Since being liked was your first way of belonging, you give more than you take in every circle you join, through hosting and small kindnesses. Your friends are many and loyal, and you show your worries to very few of them. |
+| `domain_climb.Social.lived` | As a child you were the one other children wanted to sit next to, and adults made a fuss of you at every gathering. By your teens you already had more friends than you could keep up with, and you were invited everywhere. |
+| `domain_climb.Health.headline` | You were born with a forgiving body. |
+| `domain_climb.Health.recognition` | You recover quickly from big meals and short nights, and your body has rarely let you down. Because pleasure has never felt dangerous to you, you let the treats and the late nights pile up until your energy drops. A steady routine of food and rest puts you right, and you feel well again within a week of going back to it. |
+| `domain_climb.Health.lived` | You ate well and slept soundly in your first years, and a bad day or a cold never kept you down for long. Food at home was a pleasure more than a rule, and by your teens you loved a good meal more than most of your friends did. |

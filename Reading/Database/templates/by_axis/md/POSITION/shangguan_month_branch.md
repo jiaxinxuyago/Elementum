@@ -23,8 +23,8 @@
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Mind |
-| `defline` | Brilliance holds your chart’s strongest seat: your prime is built to break forms and sign the result. |
-| `reading` | This position rules Career and Mind, and it holds the deep seat of your prime. The Virtuoso lives inside your Month Gate: under your working life runs a current of critique, the mind that sees the better version of everything instantly. It makes you invaluable and occasionally exhausting, mostly to managers. Your prime pays best where improvement is the actual job, editing, design, strategy, reform. The private cost is restlessness, a mind that files the world under drafts. Give it one worthy revision at a time. Mastery calms what variety only feeds. |
+| `defline` | The Virtuoso holds your strongest seat, inside your Month Gate: your working years run on seeing how everything could be better. |
+| `reading` | You see the better version of almost everything at once, a plan or a process or a piece of work, and your working years are built on that eye. Because a flaw left alone bothers you more than hard work does, you keep improving things long after others call them finished. Managers find you tiring and colleagues find you useful, and you are proud of being both. |
 | `teaser` | Your prime runs on performance: you outdo, outshine, and occasionally overstep. The money follows your gift wherever the format is loose and the spotlight honest. |
 | `domain_readings.Career` | Improvement is your actual profession, whatever the title says: you see the better version instantly and cannot unsee it. Careers where revision is the job, editing, design, strategy, reform, pay you for what others endure in you. Aim the critique at systems. Systems thank you. People vary. |
 | `domain_readings.Mind` | Your mind files the world under drafts: everything improvable, nothing finished, including your own positions. It is exhausting and it is a gift. Give it one worthy revision at a time and it produces mastery. Give it everything at once and it produces insomnia. |
@@ -34,3 +34,9 @@
 | `turn_friction` | Run heavy, the red pen never caps: everything marked up, nothing enjoyed. Read one thing this week purely for pleasure. |
 | `shadow_line` | Overloaded, the editor edits the editor: self-revision without a final draft. |
 | `health_line` | The unfinished list lives in your body: sleep waits on solved problems. Write tomorrow’s revisions down tonight, and let the mind clock out. |
+| `domain_climb.Career.headline` | You are paid to make things better. |
+| `domain_climb.Career.recognition` | You are best in jobs where improving things is the work itself, editing or design or reform of some kind. Because a weak plan is plain to you before anyone asks, you correct work that was never yours to correct. Your value at work grows with every process you improve, and you are known as the colleague who will not let poor work pass. |
+| `domain_climb.Career.lived` | Since your late teens you have been the one who points out what could be better, in a class or a team or a first job. You have clashed with at least one boss over it, and you have also been the person they sent for when something needed fixing. |
+| `domain_climb.Mind.headline` | Your mind never stops improving what it sees. |
+| `domain_climb.Mind.recognition` | You think in revisions, turning over a plan or an idea or your own opinion until it is better, and nothing feels quite finished to you. Since a fault you have noticed stays with you until it is mended, your mind keeps working when the day is over. You sleep best in the weeks when one hard problem has all of your attention. |
+| `domain_climb.Mind.lived` | From your late teens your mind has gone looking for faults, in what you were taught and in what you believed yourself. You have changed your view on something important more than once over those years, and each time you argued yourself into the new view first. |

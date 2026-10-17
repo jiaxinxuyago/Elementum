@@ -283,8 +283,8 @@ export const POSITION_READINGS = {
   shishen_year_stem: {
     teaser: 'Warmth was your first language, learned young and worn openly. Doors open for you through charm and good taste, and they keep opening as long as you keep giving.',
     domains: ['Social', 'Health'],
-    defline: 'The Artisan stands at your Year Gate: ease and charm are the first things your story shows.',
-    reading: 'This position rules Social and Health, and it rules them from your beginnings. The Artisan stood openly at your Year Gate: warmth was your first language, learned young and worn where everyone could see it. People have fed you, hosted you, and forgiven you easily all your life, and your body has mostly returned the favor. Charm opens your doors, taste keeps them open. The constitution is genuinely good, and it stays good on rhythm rather than discipline. Keep the meals, the sleep, and the company regular. Your luck has manners, and it likes being fed.',
+    defline: 'The Artisan stands at your Year Gate, in plain view: warmth and easy charm were the first things people saw in you.',
+    reading: 'You were a warm, easy child, and the older relatives around you noticed it before anything else. Because affection came to you early and without effort, people have welcomed you and let you off lightly all your life. Your health has held up on regular meals and sleep more than on effort, and you feel the seasons of excess later than others do.',
     domain_readings: {
       Social: 'Warmth is your opening move and it has never failed you: people relax on meeting you and remember the feeling. Your social capital compounds through hosting, feeding, and easing. Spend it generously. The circles you warm keep returning the temperature, usually with interest.',
       Health: 'Your constitution arrived friendly and stays friendly under rhythm: regular meals, honest sleep, pleasure taken without guilt. The risks in your chart are excess-shaped, never fragility-shaped. Alternate the feasts with quiet days and this body carries you smiling into old age.',
@@ -315,8 +315,8 @@ export const POSITION_READINGS = {
   shishen_month_stem: {
     teaser: 'The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best.',
     domains: ['Career', 'Social'],
-    defline: 'The Artisan stands at your Month Gate: the working world sees the maker, gracious and unhurried.',
-    reading: 'This position rules Career and Social, and it runs the prime of your life. The Artisan stands at your Month Gate in view: the working world knows you by the ease of what you make, output that flows without visible strain. Your prime grows by appetite rather than ambition, and the work you enjoy quietly outearns the work you force. Colleagues relax around you, which is a career asset dressed as a personality. The watch is drift: when everything flows, coasting feels like working. Pick one craft to deepen on purpose. Ease plus depth is your whole fortune.',
+    defline: 'The Artisan stands at your Month Gate, in plain view: at work you are known as the easy, gifted maker.',
+    reading: 'People at work see how easily things come to you, and much of what you produce looks effortless because you enjoy it. Because enjoyment is what drives you, the jobs you like go well for you and the ones you only endure stall. Colleagues find you easy to work with, and that ease has opened more doors for you than ambition has. You coast through a smooth year without noticing, and you feel the cost only when it ends.',
     domain_readings: {
       Career: 'Your career grows by appetite: the work you enjoy visibly outperforms the work you force, and everyone can tell which is which. Build the livelihood around what you would half-do for free. Enjoyment is your productivity system, and it does not transfer to joyless work.',
       Social: 'Colleagues relax around you, which is a career asset wearing a personality: tension leaves meetings when you enter, and deals close over meals you suggested. Use the gift on purpose. The host of the working world quietly ends up owning its address book.',
@@ -331,8 +331,8 @@ export const POSITION_READINGS = {
   shishen_month_branch: {
     teaser: 'Craft sits in your bones: your prime years produce steadily, without drama, and better than louder people. Guard your health and routine, they are your production line.',
     domains: ['Career', 'Health'],
-    defline: 'The Artisan holds your chart’s strongest seat: your prime runs on craft, flow, and sustainable pleasure.',
-    reading: 'This position rules Career and Health, and it holds the deep seat of your prime. The Artisan lives inside your Month Gate: craft sits in your bones, and your working decades produce steadily, without drama, better than louder people manage. The engine is physical. Your output rises and falls with sleep, food, and routine, so the production line is literally your body. Careers in making, feeding, teaching, and tending pay you twice. Guard the habits the way others guard titles. Kept well, this seat gives you the rarest career arc: long, calm, and still improving at the end.',
+    defline: 'The Artisan holds your strongest seat, inside your Month Gate: your working years run on steady craft and a body kept well.',
+    reading: 'You do your work steadily and without fuss, and over your working years you quietly produce more than people who make more noise. Because your energy comes from sleep, food and routine, your work rises and falls with how well you are living. Careers in making or feeding or teaching suit you best, and you improve at them long after others have peaked.',
     domain_readings: {
       Career: 'Craft is your deep engine: your working decades produce steadily, without drama, better than louder people manage. Making, feeding, teaching, tending, any field where the hands know things suits the wiring. Guard the routine like the machinery it is. Your career runs exactly as well as your habits.',
       Health: 'The production line is literally your body here: output rises with sleep, falls with skipped meals, and recovers with honest rest. Treat your health as a professional asset with a maintenance schedule. Kept well, this seat delivers the rarest arc, long, calm, and improving at the end.',
@@ -347,8 +347,8 @@ export const POSITION_READINGS = {
   shishen_day_branch: {
     teaser: 'You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep.',
     domains: ['Love', 'Family', 'Health'],
-    defline: 'The Artisan sits in your spouse palace: home, for you, is where life gets savored.',
-    reading: 'This position rules Love, Family, and Health, and it works from your marriage palace. The Artisan lives inside your Day Gate: you are built for a warm table and a gentle partner, and your best fortune gathers around the home you two keep. Love, for you, is fed daily rather than declared. The household tends toward comfort, good food, and soft evenings, and your health rises with the quality of your home life more than any regimen. Choose the person who makes ordinary days delicious. Guard the table together. Everything else in your chart eats from it.',
+    defline: 'The Artisan lives inside your Day Gate, the seat of your partner: your private life is built around comfort shared at home.',
+    reading: 'You are happiest in a home where food, rest and easy company are part of every day, and you choose a partner who enjoys them with you. Because ease makes you feel safe, you look after the people you live with through meals and small comforts more than through words. From your mid-thirties your home becomes the centre of your life, and you give so much to it that you forget to take your own share.',
     domain_readings: {
       Love: 'You love by feeding, in every sense: care arrives as meals, comfort, ease made daily. The partner who suits you receives gently and returns warmth without keeping score. Beware only the taker who mistakes your table for a service counter. Love should cook for you sometimes.',
       Family: 'Your household becomes the family’s hearth: the gathering point, the good table, the place children and strays remember. Build it on purpose, comfort is your architecture. The home you keep becomes the family’s institution, and its warmth outlives every argument held inside it.',
@@ -364,8 +364,8 @@ export const POSITION_READINGS = {
   shishen_hour_stem: {
     teaser: 'What you make late in life may outshine everything before it. Children and students take after your gifts, and your last chapters read sweeter than your first.',
     domains: ['Family', 'Career'],
-    defline: 'The Artisan stands at your Hour Gate: what you show the future is the joy of making.',
-    reading: 'This position rules Family and Career, and it shapes how your story ends. The Artisan stands at your Hour Gate, visible in the last chapters: what you make late in life may outshine everything before it, and the young inherit your gifts along with your recipes. Children and students take after you in the best ways, ease, kindness, appetite. Your late career leans toward mentoring, hosting, and finishing the beautiful projects the busy years postponed. Plan for a productive old age rather than a resting one. Your sweetness compounds, and the last chapters read like dessert.',
+    defline: 'The Artisan stands at your Hour Gate, in plain view: your later years are known for what you make and give.',
+    reading: 'You make things and give them away more freely in later life than at any earlier time, and the younger people around you carry your skills and your generosity with them. Because making and giving are how you feel useful, you spend those years making things for the pleasure of it and teaching what your hands know. You enjoy those years more than most people do, and the one thing that slows your work is comfort that asks nothing of you.',
     domain_readings: {
       Family: 'The family’s sweetness concentrates in your later role: the elder who hosts, gifts, and remembers birthdays with actual presents. Children and grandchildren take after your gifts more than your advice. Cook with them. The recipes are the will they will actually read.',
       Career: 'Your late career leans generous: mentoring, finishing beautiful postponed projects, work that feeds people literally or otherwise. What you make after sixty may outshine the busy decades. Plan a productive late era, not a resting one. Your gift matures late and sweetens the whole story.',
@@ -380,8 +380,8 @@ export const POSITION_READINGS = {
   shishen_hour_branch: {
     teaser: 'Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays.',
     domains: ['Family', 'Health'],
-    defline: 'The Artisan lives inside your Hour Gate: your harvest is children, comfort, and a well-fed old age.',
-    reading: 'This position rules Family and Health, and it works in the root of your late years. The Artisan lives inside your Hour Gate: ease deepens as you age, comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays, with children or chosen family close to the kitchen. Your health in the last chapters answers to warmth: fed well and loved plainly, you last. The counsel is almost embarrassingly simple. Keep hosting. The people you feed become the people who tend you, and this root repays every meal with years.',
+    defline: 'The Artisan lives inside your Hour Gate: your later life settles into good food, deep sleep and people who keep coming back.',
+    reading: 'Your life grows easier with age, and the comfort you have worked for becomes yours to enjoy after your late forties. Because care for you has always meant a good meal and a warm bed, your later home fills with younger people and old friends. Ease is both the reward of those years and their one risk, and you stay well for as long as your days keep a rhythm.',
     domain_readings: {
       Family: 'Your late family gathers by scent: whoever you feed becomes kin, and the kitchen stays the family’s true address. Chosen family counts fully here. Keep hosting past the point that seems sensible. The people you feed become the people who tend you, at astonishing exchange rates.',
       Health: 'Ease deepens into your bones with age: sleep improves, appetite steadies, comfort finally guiltless. Your late health asks mostly for rhythm and company. Eat with people whenever you can manage it. Solitary meals age you faster than birthdays do.',
@@ -396,8 +396,8 @@ export const POSITION_READINGS = {
   shangguan_year_stem: {
     teaser: 'You were the bright one early, the child who outgrew the script. Authority and you started rough, and your luck improves every year you pick your own stage.',
     domains: ['Social', 'Mind'],
-    defline: 'Brilliance stands at your Year Gate: the first thing your story shows is a spark that refuses dimming.',
-    reading: 'This position rules Social and Mind, and it rules them from your beginnings. The Virtuoso stood openly at your Year Gate: you were the bright one early, the child who outgrew the script and said so. Your mind moves faster than the crowd expects, and people sort quickly into the delighted and the offended. Both follow you for life, and both are useful. Expect your name to travel on wit and candor, and to cost you a warden or two along the way. Aim the voltage at work worth lighting. The early friction was never a flaw.',
+    defline: 'The Virtuoso stands at your Year Gate, in plain view: you were known early as the bright child who answered back.',
+    reading: 'You were the quick one in your first years, the child who spotted the flaw in the lesson and pointed it out. Because you think quicker than people expect, the people you meet sort quickly into those who enjoy you and those who resent you. Teachers and older relatives were the first to feel both reactions, and you have done better every year you picked your own company and work.',
     domain_readings: {
       Social: 'You entered every gathering brightly and were remembered: the quick child, the sharp tongue, the one adults quoted. Your social life still sorts people into the delighted and the offended, and both camps stay full. Curate for the delighted. They were always your real audience.',
       Mind: 'Your mind moves ahead of the crowd and always has: patterns seen early, scripts outgrown fast, boredom arriving before permission. Feed it stages and hard problems in equal measure. Left unfed, it critiques. Fed properly, it creates. The difference is only diet.',
@@ -412,8 +412,8 @@ export const POSITION_READINGS = {
   shangguan_year_branch: {
     teaser: 'Underneath your story runs an early refusal: some rule at home never fit, and you knew it young. That edge becomes brilliance once it stops needing an audience.',
     domains: ['Family', 'Growth'],
-    defline: 'Brilliance lives inside your Year Gate: you were rooted in a house that talent had to outgrow.',
-    reading: 'This position rules Family and Growth, and it works from the root of your story. The Virtuoso lives inside your Year Gate: some rule at home never fit, and you knew it young, quietly or otherwise. That early refusal became your growth engine, the part of you that improves whatever it is handed by first doubting it. Family may still read your honesty as rebellion. Let the results argue for you. The edge turns to brilliance in every season you give it real material, and the childhood friction fades into origin story, which is where it belongs.',
+    defline: 'The Virtuoso lives inside your Year Gate: underneath your childhood ran a quiet disagreement with the way things were done at home.',
+    reading: 'Long before you could say it you saw what was wrong with the rules at home, and the habit of doubting first has stayed with you. Because you learned early to trust your own judgement over what you were told, you have grown fastest in places that let you test things for yourself. Some in your family took your honesty for defiance, and you are closest now to the relatives who heard you out.',
     domain_readings: {
       Family: 'Some rule at home never fit and you knew it young: the refusal underneath your story is old and honest. As an adult, your family relationships flourish exactly where honesty is allowed. Keep telling the truth kindly. The relatives who can hear it become your real ones.',
       Growth: 'You grow by improving what you are handed: doubting first, testing second, upgrading third. It makes you allergic to received wisdom and brilliant at revision. Give the doubt real material, systems, drafts, broken things, and it turns from rebellion into engineering.',
@@ -428,8 +428,8 @@ export const POSITION_READINGS = {
   shangguan_month_stem: {
     teaser: 'The working world sees your talent before your discipline, and both are real. Careers with a stage suit you, and bosses who need obedience will not keep you.',
     domains: ['Career', 'Social'],
-    defline: 'Brilliance stands at your Month Gate: the working world sees the performer, dazzling and hard to manage.',
-    reading: 'This position rules Career and Social, and it runs the prime of your life. The Virtuoso stands at your Month Gate in view: the working world sees your talent before your discipline, and both are real. Your prime wants a stage, formats loose enough for brilliance and honest enough to score it. Bosses who need obedience will not keep you, and the feeling is mutual. Reputation through your thirties and forties runs on performance, visible wins, quotable work. Pick collaborators who enjoy fireworks. Then finish things. Finished brilliance is the only kind the era rewards.',
+    defline: 'The Virtuoso stands at your Month Gate, in plain view: at work you are seen as gifted and hard to manage.',
+    reading: 'Your talent is the first thing colleagues see, and your patience with rules is the last. Because you need your work to be seen and judged fairly, you shine under bosses who reward results and stall under bosses who want obedience. Your name in your working years is built on visible wins, and you have walked away from at least one job that wanted you quieter.',
     domain_readings: {
       Career: 'The working world sees your talent before your discipline, and hires the first while praying for the second: both are real, and stages suit you better than desks. Choose careers with performance in them, pitching, teaching, creating, leading from the front. Supervision is your kryptonite and spotlight your spinach.',
       Social: 'Your professional circle divides on contact: champions and detractors, rarely neutrals. The champions carry you further than consensus ever would. Collect them deliberately, thank them loudly, and let the detractors keep each other company. Polarizing is a strategy when the poles are chosen.',
@@ -444,8 +444,8 @@ export const POSITION_READINGS = {
   shangguan_month_branch: {
     teaser: 'Your prime runs on performance: you outdo, outshine, and occasionally overstep. The money follows your gift wherever the format is loose and the spotlight honest.',
     domains: ['Career', 'Mind'],
-    defline: 'Brilliance holds your chart’s strongest seat: your prime is built to break forms and sign the result.',
-    reading: 'This position rules Career and Mind, and it holds the deep seat of your prime. The Virtuoso lives inside your Month Gate: under your working life runs a current of critique, the mind that sees the better version of everything instantly. It makes you invaluable and occasionally exhausting, mostly to managers. Your prime pays best where improvement is the actual job, editing, design, strategy, reform. The private cost is restlessness, a mind that files the world under drafts. Give it one worthy revision at a time. Mastery calms what variety only feeds.',
+    defline: 'The Virtuoso holds your strongest seat, inside your Month Gate: your working years run on seeing how everything could be better.',
+    reading: 'You see the better version of almost everything at once, a plan or a process or a piece of work, and your working years are built on that eye. Because a flaw left alone bothers you more than hard work does, you keep improving things long after others call them finished. Managers find you tiring and colleagues find you useful, and you are proud of being both.',
     domain_readings: {
       Career: 'Improvement is your actual profession, whatever the title says: you see the better version instantly and cannot unsee it. Careers where revision is the job, editing, design, strategy, reform, pay you for what others endure in you. Aim the critique at systems. Systems thank you. People vary.',
       Mind: 'Your mind files the world under drafts: everything improvable, nothing finished, including your own positions. It is exhausting and it is a gift. Give it one worthy revision at a time and it produces mastery. Give it everything at once and it produces insomnia.',
@@ -460,8 +460,8 @@ export const POSITION_READINGS = {
   shangguan_day_branch: {
     teaser: 'You need a partner who applauds, and you notice when they do not. Marriage thrives once the two of you compete with the world instead of each other.',
     domains: ['Love', 'Mind'],
-    defline: 'Brilliance sits in your spouse palace: intimacy, for you, is vivid, verbal, and never beige.',
-    reading: 'This position rules Love and Mind, and it works from your marriage palace. The Virtuoso lives inside your Day Gate: at close range you need applause and honesty in the same person, a partner sharp enough to spar with and warm enough to clap. Your adult chapters run on wit at home, banter as affection, critique as intimacy. The hazard is precision aimed at the beloved. Turn the editing outward, compete with the world as a pair, and the marriage becomes a writers’ table. Praise first, polish second. The order matters more than the talent.',
+    defline: 'The Virtuoso lives inside your Day Gate, the seat of your partner: your closest bond runs on talk, wit and honesty.',
+    reading: 'You want a partner who can keep up with you in talk, someone quick enough to argue with and warm enough to praise you. Because being understood is how you feel loved, you say exactly what you notice at home, and the sharpest of it lands on the person you care about most. From your mid-thirties your home life turns into a long conversation between equals, and you do your best thinking in it.',
     domain_readings: {
       Love: 'You need applause and honesty from the same person: a partner sharp enough to spar with, warm enough to clap. Banter is your love language and critique your accidental one. Praise first, polish second, always in that order. The marriage becomes a writers’ table or a courtroom. You choose nightly.',
       Mind: 'At close range your mind stays lit: the partner gets your best material and your roughest drafts. Intimacy for you is thinking aloud with someone unafraid. Protect the play in it. The moment home becomes another venue to win, the brilliance starts costing rent.',
@@ -476,8 +476,8 @@ export const POSITION_READINGS = {
   shangguan_hour_stem: {
     teaser: 'Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction.',
     domains: ['Career', 'Growth'],
-    defline: 'Brilliance stands at your Hour Gate: your later years intend to be seen, and heard.',
-    reading: 'This position rules Career and Growth, and it shapes how your story ends. The Virtuoso stands at your Hour Gate, visible in the last chapters: your late work will be your boldest, and the young will quote you. Retirement in the resting sense is not really on your chart. Expect gifted, headstrong heirs and students, inheriting the talent with the allergy to instruction, and love them for it. Your growth keeps its edge to the end, provided the stage keeps changing. Say the true thing late in life. By then, your candor reads as wisdom.',
+    defline: 'The Virtuoso stands at your Hour Gate, in plain view: your later years are when people hear you most clearly.',
+    reading: 'Your boldest work comes late, after most people expect you to slow down, and it is the work the people after you remember. Because saying the true thing matters more to you than keeping a title, you speak more freely with every year past your late forties, and some who hold rank resent it. Those you teach pick up your talent along with your dislike of being told what to do, and you are proud of both.',
     domain_readings: {
       Career: 'Your late work will be your boldest: the filters thin with age and the craft peaks, a dangerous, wonderful combination. Retirement in the resting sense is not on your chart. Plan a late act worth quoting. The last stage is the one they remember.',
       Growth: 'Growth keeps its edge to your final decades, provided the stage keeps changing: new formats, new audiences, new fights worth having. Sameness ages you faster than years do. Book the unfamiliar venue at every age. Your candor matures into wisdom exactly on schedule.',
@@ -492,8 +492,8 @@ export const POSITION_READINGS = {
   shangguan_hour_branch: {
     teaser: 'The root of your late years is expression that never retires. You will be making, correcting, and dazzling to the end, and it will keep you young.',
     domains: ['Family', 'Mind'],
-    defline: 'Brilliance lives inside your Hour Gate: the root of your harvest is a mind that never retires.',
-    reading: 'This position rules Family and Mind, and it works in the root of your late years. The Virtuoso lives inside your Hour Gate: expression never retires in you, and the last chapters stay full of making, correcting, and dazzling. The family of your late life includes minds you trained, and the house stays loud with ideas. Your own mind ages like a performer, hungry for material, allergic to idleness. Feed it projects, audiences, arguments worth having. Kept lit, this root makes old age your most honest decade, and honestly, your funniest.',
+    defline: 'The Virtuoso lives inside your Hour Gate: your later life stays full of ideas, opinions and people who argue back.',
+    reading: 'Your mind does not slow down with age, and your later years stay busy with making things and saying what you think. Because being heard has always kept you well, you gather younger people who will argue with you, and the ones who stand up to you become your favourites. From your late forties your family gets your sharpest wit, and you stay closest to the ones who also get your warmth.',
     domain_readings: {
       Family: 'Your late family stays loud with ideas: minds you trained around the table, debate as the house dialect, affection delivered as banter. The young come back for the conversation. Keep hosting it. A family that thinks together stays entertained together, and yours will.',
       Mind: 'Your mind refuses the rocking chair: expression, correction, and dazzle continue to the end, and they keep you young more reliably than any regimen. Feed it projects and worthy arguments. An unfed mind of this voltage does not idle. It sparks.',

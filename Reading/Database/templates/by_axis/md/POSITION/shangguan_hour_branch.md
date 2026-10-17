@@ -23,8 +23,8 @@
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
 | `domains` | Family · Mind |
-| `defline` | Brilliance lives inside your Hour Gate: the root of your harvest is a mind that never retires. |
-| `reading` | This position rules Family and Mind, and it works in the root of your late years. The Virtuoso lives inside your Hour Gate: expression never retires in you, and the last chapters stay full of making, correcting, and dazzling. The family of your late life includes minds you trained, and the house stays loud with ideas. Your own mind ages like a performer, hungry for material, allergic to idleness. Feed it projects, audiences, arguments worth having. Kept lit, this root makes old age your most honest decade, and honestly, your funniest. |
+| `defline` | The Virtuoso lives inside your Hour Gate: your later life stays full of ideas, opinions and people who argue back. |
+| `reading` | Your mind does not slow down with age, and your later years stay busy with making things and saying what you think. Because being heard has always kept you well, you gather younger people who will argue with you, and the ones who stand up to you become your favourites. From your late forties your family gets your sharpest wit, and you stay closest to the ones who also get your warmth. |
 | `teaser` | The root of your late years is expression that never retires. You will be making, correcting, and dazzling to the end, and it will keep you young. |
 | `domain_readings.Family` | Your late family stays loud with ideas: minds you trained around the table, debate as the house dialect, affection delivered as banter. The young come back for the conversation. Keep hosting it. A family that thinks together stays entertained together, and yours will. |
 | `domain_readings.Mind` | Your mind refuses the rocking chair: expression, correction, and dazzle continue to the end, and they keep you young more reliably than any regimen. Feed it projects and worthy arguments. An unfed mind of this voltage does not idle. It sparks. |
@@ -34,3 +34,11 @@
 | `turn_friction` | Run heavy, the correcting outpaces the connecting: family edited more than embraced. Hug first, revise later. |
 | `shadow_line` | Overloaded, the wit fences everyone out: brilliant commentary, empty chairs. |
 | `health_line` | Mental fire keeps your late body warm: engagement is the medicine here. Protect the sleep it forgets to want, and it burns beautifully long. |
+| `domain_climb.Family.headline` | Your family stays loud with argument and ideas. |
+| `domain_climb.Family.recognition` | You love your family through talk, about ideas and plans and whatever they are getting wrong. Because a good argument is how you stay close, you push the people you love harder than strangers, and the gentler ones keep their distance. What you want from your family is a table that answers you, and you feel old only when it goes quiet. |
+| `domain_climb.Family.lived` | Since your late forties the talk in your family has got sharper and funnier, with children or younger relatives or someone you train answering you back. You have been proudest when one of them beat you in an argument, and you have rarely said so. |
+| `domain_climb.Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, seek you out for talk they cannot get anywhere else. You become the one in your family whose opinion is asked for, and you give it with more warmth than you once did. |
+| `domain_climb.Mind.headline` | Your mind stays quick and restless into old age. |
+| `domain_climb.Mind.recognition` | You keep your mind busy with projects and opinions, and an empty week wears you down faster than a hard one. Since an idea feels finished to you only once it has been argued, you go looking for a debate when none comes to you. Your thinking stays young while it has work, and you feel it within days when it has none. |
+| `domain_climb.Mind.lived` | Since your late forties your mind has kept finding new work, a subject or a project to pick up whenever an old one ran out. You have started more debates in this stretch than in any earlier decade, and you have enjoyed nearly all of them. |
+| `domain_climb.Mind.ahead` | From your late forties your thinking gets bolder, and you say plainly what you held back in earlier years. Your sleep is the part that suffers when an idea grips you, and you sleep well again once you have said it out loud. |
