@@ -10,10 +10,17 @@
   ],
   "candidates": {
     "yourNature_desc": "You fall the way rain falls in its right season, everywhere it's needed and nowhere it isn't. What lands on you soaks in or drains off in roughly the right amounts, and what you give returns often enough to keep the ground honest. The softness is doing real work. Nothing about a gentle rain is weak.",
-    "self_card": {
-      "face": "Rain in its right season",
-      "presence": "What falls on you soaks in or drains off, mostly in the right amounts. The sensitivity serves you now more than it spends you."
+    "__ore": {
+      "retired_2026-10-17_band_card": {
+        "status": "HIBERNATING",
+        "note": "The band card 'How your core is running' (BAND-C, 2026-08-14), removed from the core's energy page on 2026-10-17 (owner: \"Remove the band card from the energy reading page. That page is already packed\"). Kept whole, never deleted.",
+        "revive": "Move self_card back to candidates, restore its export mapping (tools/export-reading-templates.mjs STEM_BAND block), selfCardFor and the card in JourneyStage (git history before the retirement commit).",
+        "self_card": {
+          "face": "Rain in its right season",
+          "presence": "What falls on you soaks in or drains off, mostly in the right amounts. The sensitivity serves you now more than it spends you."
+        }
+      }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
 }

@@ -10,10 +10,17 @@
   ],
   "candidates": {
     "yourNature_desc": "You grow the way the old tree grows, upward without hurry and without doubt. The reach comes when called and rests when it isn't needed, so what you start, you tend to finish. People join your climb because the pace leaves them able to. Rings get added either way. That is the part most people miss about you.",
-    "self_card": {
-      "face": "Growth on a steady trellis",
-      "presence": "The reach is there when you call it and quiet when you don't. Things get started, and things get finished, in that order more often than not."
+    "__ore": {
+      "retired_2026-10-17_band_card": {
+        "status": "HIBERNATING",
+        "note": "The band card 'How your core is running' (BAND-C, 2026-08-14), removed from the core's energy page on 2026-10-17 (owner: \"Remove the band card from the energy reading page. That page is already packed\"). Kept whole, never deleted.",
+        "revive": "Move self_card back to candidates, restore its export mapping (tools/export-reading-templates.mjs STEM_BAND block), selfCardFor and the card in JourneyStage (git history before the retirement commit).",
+        "self_card": {
+          "face": "Growth on a steady trellis",
+          "presence": "The reach is there when you call it and quiet when you don't. Things get started, and things get finished, in that order more often than not."
+        }
+      }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
 }

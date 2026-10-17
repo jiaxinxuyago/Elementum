@@ -8,7 +8,7 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 | **Axis** | STEM_BAND |
 | **Header** | the core element's screen only · portrait · face impersonal, presence second person allowed · face ≤8w · presence ≤30w · LOCKED ×30 |
 | **Harness field key** | STEM_BAND.yourNature_desc+self_card |
-| **Status** | LOCKED ×30 |
+| **Status** | RETIRED 2026-10-17 · the card left the energy page; the 30 texts hibernate in STEM_BAND __ore.retired_2026-10-17_band_card |
 
 ## The card
 
@@ -32,3 +32,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | 2026-09-30 | Two candidates asked for in the handoff skeleton (`candidates: 2`), each gated, the read picks one | owner 2026-09-30, Q1i of the v0.6 questionnaire (REA_16 §6) |
 | 2026-10-14 | v0.7.1: the presence line in the ledger's register (the reader the subject, no arena word, no tag close); the presence exemplar removed | owner 2026-10-14, the seven iterations and the polish rules (`backlog/2026-10-14_prompt-v071-iterations.md`; REA_16 §6) |
 | 2026-10-17 | The presence line reads how the core runs in its band, not a trait; no four-word run shared with the band paragraph | owner 2026-10-17, the Day Master rewrite questions (scope includes the band card; job: how the core runs) |
+| 2026-10-17 | RETIRED: the band card is removed from the core's energy page; its 30 texts hibernate in the station; no rewrite (the 庚 R2 card text stays on file in ComparativeAnalysis/Prompts/out/dmgold-geng.R2.json) | owner 2026-10-17: "Remove the band card (How Your Energy Is Running) from the energy reading page. That page is already packed" |

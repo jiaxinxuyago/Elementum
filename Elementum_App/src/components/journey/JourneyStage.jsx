@@ -708,14 +708,9 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 )}
-                {/* BAND-C self_card — only the CORE element carries the band mirror */}
-                {elScreen.selfCard && (
-                  <div className="cardstock el-selfcard">
-                    <span className="laylab">HOW YOUR CORE IS RUNNING</span>
-                    <p className="serifline el-selfface" style={{ margin: '0 0 5px', fontSize: 14.5 }}>{elScreen.selfCard.face}</p>
-                    <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
-                  </div>
-                )}
+                {/* (the BAND-C band card "How your core is running" retired 2026-10-17,
+                    owner: "Remove the band card from the energy reading page. That page
+                    is already packed." Its 30 texts hibernate in the station.) */}
                 {elFaces.length ? (
                   <button className="cardstock el-tease goa" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>

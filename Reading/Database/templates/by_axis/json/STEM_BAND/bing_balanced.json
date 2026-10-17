@@ -10,10 +10,17 @@
   ],
   "candidates": {
     "yourNature_desc": "You shine the way the sky's fire was meant to work, generously and with a night to every day. The warmth goes out real and comes home rested. People trust your light because it doesn't perform, and the mornings you keep for yourself are exactly what makes the afternoons believable.",
-    "self_card": {
-      "face": "Light with its own mornings",
-      "presence": "The warmth comes out when it means it and rests when it needs to. People trust your sunshine more because it has a night."
+    "__ore": {
+      "retired_2026-10-17_band_card": {
+        "status": "HIBERNATING",
+        "note": "The band card 'How your core is running' (BAND-C, 2026-08-14), removed from the core's energy page on 2026-10-17 (owner: \"Remove the band card from the energy reading page. That page is already packed\"). Kept whole, never deleted.",
+        "revive": "Move self_card back to candidates, restore its export mapping (tools/export-reading-templates.mjs STEM_BAND block), selfCardFor and the card in JourneyStage (git history before the retirement commit).",
+        "self_card": {
+          "face": "Light with its own mornings",
+          "presence": "The warmth comes out when it means it and rests when it needs to. People trust your sunshine more because it has a night."
+        }
+      }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
 }

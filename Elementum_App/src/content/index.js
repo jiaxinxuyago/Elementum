@@ -24,7 +24,6 @@ export {
   resolveText,
   variantKeys,
   archetypeKeyFor,
-  selfCardFor,
 } from './resolveVariant.js';
 
 // Ten-God personas

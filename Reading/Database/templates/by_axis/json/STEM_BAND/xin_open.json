@@ -10,10 +10,17 @@
   ],
   "candidates": {
     "yourNature_desc": "You keep the cutting eye. What softened is the belief that anyone is waiting to see the work shine, so some of your best sits in drawers, catching light for no one. The eye never dulled. The hands just ration it now, and what they still finish holds more care per inch than the busy years ever managed.",
-    "self_card": {
-      "face": "Polish saved for small things",
-      "presence": "The eye still catches everything. The hands pick their projects now, and the quality that remains runs deeper for being rationed."
+    "__ore": {
+      "retired_2026-10-17_band_card": {
+        "status": "HIBERNATING",
+        "note": "The band card 'How your core is running' (BAND-C, 2026-08-14), removed from the core's energy page on 2026-10-17 (owner: \"Remove the band card from the energy reading page. That page is already packed\"). Kept whole, never deleted.",
+        "revive": "Move self_card back to candidates, restore its export mapping (tools/export-reading-templates.mjs STEM_BAND block), selfCardFor and the card in JourneyStage (git history before the retirement commit).",
+        "self_card": {
+          "face": "Polish saved for small things",
+          "presence": "The eye still catches everything. The hands pick their projects now, and the quality that remains runs deeper for being rationed."
+        }
+      }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
 }

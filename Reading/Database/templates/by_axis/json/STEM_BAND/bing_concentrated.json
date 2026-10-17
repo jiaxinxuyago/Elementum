@@ -10,10 +10,17 @@
   ],
   "candidates": {
     "yourNature_desc": "You are the light the village plans its day around. Warmth leaves you the way heat leaves the sun, constantly, without a meter, whether or not anyone asked. People bloom in it and forget it costs. You refill in private, if at all, and the sky you hold up would genuinely surprise the people living under it.",
-    "self_card": {
-      "face": "Light running at full noon",
-      "presence": "The brightness doesn't ask before it spends. Everyone near you gets summer, all day, and the bill for it arrives quietly, always addressed to you."
+    "__ore": {
+      "retired_2026-10-17_band_card": {
+        "status": "HIBERNATING",
+        "note": "The band card 'How your core is running' (BAND-C, 2026-08-14), removed from the core's energy page on 2026-10-17 (owner: \"Remove the band card from the energy reading page. That page is already packed\"). Kept whole, never deleted.",
+        "revive": "Move self_card back to candidates, restore its export mapping (tools/export-reading-templates.mjs STEM_BAND block), selfCardFor and the card in JourneyStage (git history before the retirement commit).",
+        "self_card": {
+          "face": "Light running at full noon",
+          "presence": "The brightness doesn't ask before it spends. Everyone near you gets summer, all day, and the bill for it arrives quietly, always addressed to you."
+        }
+      }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
 }

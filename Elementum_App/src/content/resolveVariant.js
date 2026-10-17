@@ -74,10 +74,5 @@ export function resolveArchetype(stem, baseline, chart, band = null) {
   };
 }
 
-// The core element screen's band mirror (BAND-C, owner slot ruling 2026-08-14;
-// REA_03 §self_card). Band-grain only — the slot was ruled as a band statement,
-// so unlike yourNature there is no stem baseline underneath it: an unauthored
-// band means no card, and the screen simply omits it.
-export function selfCardFor(stem, band) {
-  return VARIANTS[`${stem}_${band}`]?.selfCard ?? null;
-}
+// (selfCardFor, the core screen's band card, retired 2026-10-17: the card left
+// the energy page and its 30 texts hibernate in the station's STEM_BAND __ore.)

@@ -10,10 +10,17 @@
   ],
   "candidates": {
     "yourNature_desc": "You are the candle burning with a bonfire's ambition, one thing at a time, all of it. Whatever holds your focus holds everything you have, and the rest of the world politely stops existing. The ones inside your light call it unforgettable. The ones just outside it could file a different report. The flame does not do halves. Neither do you.",
-    "self_card": {
-      "face": "One flame, burning all night",
-      "presence": "Whatever holds your focus holds all of it. The burn is total and the choosing is the whole game, because the flame doesn't do halves."
+    "__ore": {
+      "retired_2026-10-17_band_card": {
+        "status": "HIBERNATING",
+        "note": "The band card 'How your core is running' (BAND-C, 2026-08-14), removed from the core's energy page on 2026-10-17 (owner: \"Remove the band card from the energy reading page. That page is already packed\"). Kept whole, never deleted.",
+        "revive": "Move self_card back to candidates, restore its export mapping (tools/export-reading-templates.mjs STEM_BAND block), selfCardFor and the card in JourneyStage (git history before the retirement commit).",
+        "self_card": {
+          "face": "One flame, burning all night",
+          "presence": "Whatever holds your focus holds all of it. The burn is total and the choosing is the whole game, because the flame doesn't do halves."
+        }
+      }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
 }

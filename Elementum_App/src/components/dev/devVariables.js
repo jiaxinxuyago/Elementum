@@ -8,7 +8,7 @@
 // registry changes, update this mirror.
 // ===================================================================
 
-import { STEM_CARD_DATA, TG_PERSONA, resolveArchetype, selfCardFor } from '../../content/index.js';
+import { STEM_CARD_DATA, TG_PERSONA, resolveArchetype } from '../../content/index.js';
 import { FACE_CARD } from '../../content/reading/index.js';
 
 const join = (xs) => xs.filter(Boolean).join(' · ');
@@ -38,7 +38,6 @@ export function buildVariableGroups(model, activeEl, chart) {
   const condArch = m?.condition ? m.condition.toLowerCase() : null;
   const condRemedyArch = m ? join([condArch, m.approach?.toLowerCase()]) : null;
   const bandArch = stem && m?.band ? `${STEM_ID[stem]}_${m.band}` : null;
-  const selfCard = selfCardFor(stem, m?.band);
   const godsArch = m ? join(towers.map((r) => r.god)) : null;
   const coreGodArch = m?.core?.god ? `${m.core.god} ${GOD_ID[m.core.god] ?? ''}`.trim() : null;
   const elGodArch = m ? join(towers.map((r) => `${EL_HZ[r.name] ?? r.name}_${r.god}`)) : null;
@@ -94,7 +93,7 @@ export function buildVariableGroups(model, activeEl, chart) {
       vars: [
         { name: 'mechanism (base + role-resolved turn — section 1, EP restructure 2026-08-19)', axis: 'ELEMENT_PAIR×25', arch: focus ? `pair · DM×${focus.el}` : 'DM × each', status: 'LOCKED ×25', value: 'base 45–75w (§5d equation + image line + seat) · catalyst/friction turns ≤35w' },
         { name: 'function (primary + definition_catalyst/friction + dips — THE FUNCTION reading, §5f bijection)', axis: 'ELEMENT_PAIR×25', arch: focus ? `pair · DM×${focus.el}` : 'DM × each', status: 'v3 LOCKED ×50 readings', value: 'Body · Mind · Expression · Action · Order (flexible 3-¶ register 100-140w, role-resolved; card teaser = derived first sentence)' },
-        { name: 'self_card (face+presence — CORE element only, band mirror; BAND-C 2026-08-14)', axis: 'STEM·BAND×30', arch: bandArch, status: 'LIVE', value: join([selfCard?.face, selfCard?.presence]) || null },
+        { name: 'self_card (the band card; RETIRED 2026-10-17, hibernating in STEM_BAND __ore)', axis: 'STEM·BAND×30', arch: bandArch, status: 'RETIRED', value: null },
         { name: 'persona_name (V — Ruling Domains god sub-blocks)', axis: 'GOD×10', arch: focus ? focusGodArch : godsArch, status: 'LIVE', value: focus ? TG_PERSONA[focus.god] : perEl((r) => TG_PERSONA[r.god]) },
         { name: 'face_kw', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE', value: focusGod ? (FACE_CARD[focusGod]?.kw || []).join(' · ') : null },
         { name: 'face_teaser', axis: 'GOD×10', arch: focusGodArch, status: 'OFF-PAGE (EP restructure) ⚠R5 scope', value: focusGod ? FACE_CARD[focusGod]?.teaser : null },

@@ -14,7 +14,7 @@
 // ===================================================================
 
 import { getEnergyBand, relationOf, STEM_YIN, volumeOf } from '../../engine/index.js';
-import { TG_PERSONA, TG_DEFLINE, selfCardFor } from '../../content/index.js';
+import { TG_PERSONA, TG_DEFLINE } from '../../content/index.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN } from '../../content/k2.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
@@ -491,11 +491,6 @@ export function buildElementScreen(model, el) {
     ? (r.coreExcess ? 'YOUR CORE — ALSO YOUR EXCESS' : r.coreCatalyst ? 'YOUR CORE — FEED IT' : 'YOUR CORE')
     : r.role === 'friction' ? 'YOUR FRICTION — SKIP THIS' : 'YOUR CATALYST — SEEK THIS';
 
-  // BAND-C self_card (owner slot ruling 2026-08-14): the core element's
-  // screen carries the band mirror — how YOUR core is running. Other
-  // elements' screens don't (selfCard stays null there).
-  const selfCard = r.isCore ? selfCardFor(model.stem, model.band) : null;
-
   // THE MECHANISM (element-page restructure, owner rulings 2026-08-19):
   // the ELEMENT_PAIR cell (DM element × this energy) consolidates the old
   // law card + state verdict + persona bridge. The edge powers the section's
@@ -552,7 +547,6 @@ export function buildElementScreen(model, el) {
     reye, roleKind,
     // tile hook + tag retired from the hero (owner 2026-09-01: the hero card
     // headline is the function CLAIM; ENERGY_TILE hooks become unrendered ore)
-    selfCard,
     elName: r.name, dx: r.dx,
     mech,
     // Consolidated card title (owner 2026-09-01): the FUNCTION noun, never

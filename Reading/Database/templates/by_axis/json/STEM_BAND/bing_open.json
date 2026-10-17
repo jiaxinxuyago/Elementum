@@ -10,10 +10,17 @@
   ],
   "candidates": {
     "yourNature_desc": "You carry the great light on a closer setting now. The broadcast that once reached every stranger has narrowed to the faces at your table, and they get sunlight with nothing watered down. The ones who know you never doubt the fire. They just know where it chooses to land now.",
-    "self_card": {
-      "face": "Light held close and low",
-      "presence": "You don't broadcast the way you used to, and that's not a fault. Late sun warms deeper than noon, and the ones in it know."
+    "__ore": {
+      "retired_2026-10-17_band_card": {
+        "status": "HIBERNATING",
+        "note": "The band card 'How your core is running' (BAND-C, 2026-08-14), removed from the core's energy page on 2026-10-17 (owner: \"Remove the band card from the energy reading page. That page is already packed\"). Kept whole, never deleted.",
+        "revive": "Move self_card back to candidates, restore its export mapping (tools/export-reading-templates.mjs STEM_BAND block), selfCardFor and the card in JourneyStage (git history before the retirement commit).",
+        "self_card": {
+          "face": "Light held close and low",
+          "presence": "You don't broadcast the way you used to, and that's not a fault. Late sun warms deeper than noon, and the ones in it know."
+        }
+      }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
 }
