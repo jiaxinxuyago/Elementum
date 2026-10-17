@@ -1,0 +1,327 @@
+[
+ {
+  "key": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. You take whoever is in it with you through every swing.",
+  "id": "R3 cross:X3-16"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. You let good chances go by to stay comfortable, and few come back.",
+  "id": "R3 cross:X3-17"
+ },
+ {
+  "key": "PAIR 木_土 · function.advise_friction",
+  "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear. Begin one small project this month that is yours alone. Say no to one request before you say yes again.",
+  "id": "R3 cross:X3-18"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Looking past the near keeps hope alive. You would rather watch for who is coming than see who is here. As long as you look past the near, you go without the closeness right beside you.",
+  "id": "R3 water:W-028"
+ },
+ {
+  "key": "K2 土_偏财 · fn_reading.friction.define",
+  "text": "As a friction, more comes within reach than you can hold, because something new is what lifts you. Much of what you gain slips away before it pays.",
+  "id": "R3 earth:E3-11"
+ },
+ {
+  "key": "PAIR 火_土 · function.definition_friction",
+  "text": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, and more goes out of you than comes in. You end up running on empty.",
+  "id": "R3 earth:E3-12"
+ },
+ {
+  "key": "K2 土_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You carry each problem alone for longer than it needs.",
+  "id": "R3 earth:E3-13"
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "When you bet big, you lose big too. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound.",
+  "id": "R3 earth:E3-14"
+ },
+ {
+  "key": "PAIR 水_土 · function.advise_friction",
+  "text": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Check each one against what was actually said. Ask what is needed, then do that much and stop.",
+  "id": "R3 earth:E3-15"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You wait for permission to take what you have earned. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
+  "id": "R3 earth:E3-16"
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "When trouble lands on someone you love, you take it on as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you.",
+  "id": "R3 earth:E3-17"
+ },
+ {
+  "key": "PAIR 木_火 · function.definition_friction",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, the gate never shuts, because everything in you wants out at once. You spend yourself on each moment and keep little for the work ahead.",
+  "id": "R3 fire:F3-08"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Even with close friends, you want an audience more than a companion. Company feels real to you only once it faces you, and you turn a friend into a crowd. You take their evening and give back a show instead.",
+  "id": "R3 fire:F3-09"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You make hard things look easy. You would rather show the finished thing than the work, and the people learning from you get the ease without the steps. Anyone watching you sees how good the result can be.",
+  "id": "R3 fire:F3-10"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You speak up right where it has gone quiet. You hear silence as agreement, and you say the unsaid thing rather than sit with it. You are usually the only one who will.",
+  "id": "R3 fire:F3-11"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "A peer's correction stings more than being wrong. You repeat your own mistake rather than take their version, since yours at least stays yours. You end up paying for the same mistake twice, and the second time you pay alone.",
+  "id": "R3 fire:F3-12"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Even with a friend, you stay switched on and hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove.",
+  "id": "R3 fire:F3-13"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival treat you. You were buying a place at the table that was already yours.",
+  "id": "R3 fire:F3-14"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "With someone you like, you go all in without being asked. You would rather add your own money than check whether they wanted it, and you double what they put in. Their plan ends up bigger and riskier than the one they made.",
+  "id": "R3 fire:F3-15"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You take up a friend's dare at full speed, before they can laugh it off. Winning in front of them matters more than keeping it friendly, so you play every round for keeps. Nothing with you is ever just a game.",
+  "id": "R3 fire:F3-16"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You look after people without being asked. Keeping those near you sheltered is how you feel at ease, so you put their comfort before yours. Under your roof, everyone breathes out.",
+  "id": "R3 fire:F3-17"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "One slip stays with you longer than with anyone who saw it. Afraid to slip, you put looking steady ahead of feeling rested, until good days tire you like bad ones. You give up your evenings to guard against slips that rarely come.",
+  "id": "R3 fire:F3-18"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "What you already have seems too precious to risk. Reaching for more feels like gambling, and you take the sure thing instead of the bigger one. Over the years, you give up more in missed chances than playing it safe ever saves you.",
+  "id": "R3 fire:F3-19"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Your count covers money you share with others as much as your own. Knowing where every bit went keeps you calm, and you ask about the receipt before you ask how the day went. You charge them a question for every small purchase.",
+  "id": "R3 fire:F3-20"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You start at full speed, with others pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Their evenings go into seeing your ideas through.",
+  "id": "R3 fire:F3-21"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep love going without fail. Reliable feels more like love to you than exciting does, and you give the one closest to you steady warmth over surprise. Life with you has everything except the unexpected.",
+  "id": "R3 fire:F3-22"
+ },
+ {
+  "key": "PAIR 金_火 · function.definition_balanced",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. In balance, demands come at a pace you can meet. You answer to rules you find fair, and your rank grows with your work.",
+  "id": "R3 fire:F3-23"
+ },
+ {
+  "key": "PAIR 木_金 · function.advise_friction",
+  "text": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You follow more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages.",
+  "id": "R3 metal:MT3-10"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Hating being wrong is the part of you that works hardest. A mistake feels like a mark on your name, and you give silence in place of any reply that risks being wrong. You go silent on the answers you had right.",
+  "id": "R3 metal:MT3-11"
+ },
+ {
+  "key": "K2 金_正财 · edge.lead",
+  "text": "Metal runs through your wealth, your family and your career. It is the money you set aside each month that earns while you sleep, the home where the spare key is on its hook, and the small print you read right to the end.",
+  "id": "R3 metal:MT3-12"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.define",
+  "text": "As a catalyst, little passes the gate. Each piece has to be worth it, and your care goes into the few you let go.",
+  "id": "R3 metal:MT3-13"
+ },
+ {
+  "key": "PAIR 金_金 · function.advise_friction",
+  "text": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure in view, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
+  "id": "R3 metal:MT3-14"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You keep an exact score with everyone you like. Afraid of giving more than you get, you lean on comparison over friendship and run a quiet tally. Keep in mind that you wanted the closeness long before you wanted the score.",
+  "id": "R3 metal:MT3-15"
+ },
+ {
+  "key": "K2 金_比肩 · edge.lead",
+  "text": "Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the bar you keep raising in private, and the friend who walks beside people and not ahead of them.",
+  "id": "R3 metal:MT3-16"
+ },
+ {
+  "key": "K2 金_劫财 · edge.lead",
+  "text": "Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with a runner ahead to catch.",
+  "id": "R3 metal:MT3-17"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You learn a thing properly or not at all. A trusted teacher and a subject that holds still feel like shelter to you, and you stay with both until it is whole. Your knowledge survives hard questions because it runs all the way down.",
+  "id": "R3 metal:MT3-18"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your quick call lifts a weight you hate to see them under.",
+  "id": "R3 metal:MT3-19"
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You are hard to reach while a thought is unfinished, and most of yours are. Finishing it comes before answering the message, and the person waiting hears nothing for days. You leave them with less of you than they came for.",
+  "id": "R3 water:W-020"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever someone you love is about to struggle, you over-protect and step in first. Sparing them the hard part feels like love, and you choose their comfort rather than their growth. You take from them the one lesson that would have stuck.",
+  "id": "R3 water:W-021"
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You soak things up rather than study them. Knowledge settles into you from whatever is nearby, and you know a thing long before you can pass a test on it. Your grasp of a subject often goes deeper than anyone guesses.",
+  "id": "R3 water:W-022"
+ },
+ {
+  "key": "K2 水_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You get clearer the harder things press, because only pressure stops your second-guessing. Inside a crisis you want the next move more than the right feeling. Your calm in the worst hour gives everyone else somewhere to stand.",
+  "id": "R3 water:W-023"
+ },
+ {
+  "key": "K2 水_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Arranging beats asking whenever you lead. Setting things up quietly feels cleaner to you than asking and risking a no, and the people you lead never get a say. Your people travel a smooth road and never feel pushed along it.",
+  "id": "R3 water:W-024"
+ },
+ {
+  "key": "K2 水_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Pacing yourself paces everyone beside you. You would rather arrive together than let anyone run ahead, and you keep everyone at your pace. Nobody walking with you is ever left behind.",
+  "id": "R3 water:W-025"
+ },
+ {
+  "key": "PAIR 火_水 · function.definition_catalyst",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint and you seldom reach for rank. It comes late, earned by what you have done.",
+  "id": "R3 water:W-026"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last one, you meet the next real opening with nothing to put in.",
+  "id": "R3 water:W-027"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.catalyst.define",
+  "text": "As a catalyst, the current runs thin and you go looking for its source. Your gains come from places nobody else has reached yet.",
+  "id": "R3 water:W-029"
+ },
+ {
+  "key": "K2 水_食神 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Drifting is easier than steering, and most days you choose it. You want things easy, and you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go.",
+  "id": "R3 water:W-030"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than in private, you cost them their footing in front of others. You leave them no quiet way to answer you.",
+  "id": "R3 water:W-031"
+ },
+ {
+  "key": "PAIR 金_水 · function.advise_friction",
+  "text": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and none of it settles before it leaves. Keep one piece of news to yourself for a week. Stick with one plan for a whole month.",
+  "id": "R3 water:W-032"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.catalyst.define",
+  "text": "As a catalyst, little comes through the gate, and what does get through comes out sharp. Your few words cut where many would not.",
+  "id": "R3 water:W-033"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "When someone leaves a thing unsaid, you speak up about it as a kindness. Speaking up rather than waiting for them to work it out, you get there before they can. With you near, nobody has to wonder where they stand.",
+  "id": "R3 water:W-034"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Saying the witty thing is how you take part. Getting the laugh with a quick reply instead of letting one person finish, you cost them the chance to be heard out. Their slower thought ends up as the setup to your joke.",
+  "id": "R3 water:W-035"
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever you expect the same from a peer, you hand them your standard without asking for theirs. You judge their effort by your own rather than by what they had to give. You hold back the credit they had already earned.",
+  "id": "R3 water:W-036"
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Alone with a decision, you are at your most sure. You keep the choice yours rather than ask for a second opinion, and your blind spots go unnamed. The mistakes a friend would have caught are yours to pay for.",
+  "id": "R3 water:W-037"
+ },
+ {
+  "key": "K2 水_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You bite your tongue hardest around the people who need your answer. You smooth things over instead of saying what you see, and you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you.",
+  "id": "R3 water:W-038"
+ },
+ {
+  "key": "K2 木_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it. You are allowed to owe someone part of the load.",
+  "id": "R3 wood:W3-010"
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.catalyst.define",
+  "text": "Running thin, your reserve is shallow and spent in quick bursts. The people around you are where the rest of your reach comes from.",
+  "id": "R3 wood:W3-011"
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Holding too tight, you let nothing you grew leave. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You lose the friends you never made to the grip, and the loss is quiet enough to miss.",
+  "id": "R3 wood:W3-012"
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. Your home is rarely fully yours, and your evenings belong to guests.",
+  "id": "R3 wood:W3-013"
+ },
+ {
+  "key": "K2 木_正印 · edge.lead",
+  "text": "Wood runs through your family, your mind and your health. It is the patience you have for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you.",
+  "id": "R3 wood:W3-014"
+ },
+ {
+  "key": "PAIR 土_木 · function.advise_friction",
+  "text": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You meet every demand as if your standing hangs on it. Ask the person behind one rule why it matters to them. Tell one friend each week what is weighing on you.",
+  "id": "R3 wood:W3-015"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.define",
+  "text": "As a friction, your Action stretches wider than your strength can follow. Wanting every road left open, you get to the end of very few.",
+  "id": "R3 wood:W3-016"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Spending on the people near you comes before your own next month. Because helping them feels better than holding on, you spend on their short weeks rather than a shared cushion. You spend the savings meant to carry all of you through lean times.",
+  "id": "R3 wood:W3-017"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.catalyst.define",
+  "text": "As a catalyst, the growth stays low to the ground. What you share is small and warm, and it seldom reaches past the people nearest you.",
+  "id": "R3 wood:W3-018"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let anyone learning from you set their own pace. Those you teach learn without fear of getting it wrong in front of you.",
+  "id": "R3 wood:W3-019"
+ }
+]
