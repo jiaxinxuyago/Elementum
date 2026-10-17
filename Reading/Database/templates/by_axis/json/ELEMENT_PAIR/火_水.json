@@ -21,7 +21,7 @@
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint and you seldom reach for rank. Rank comes late and by your record.",
+      "definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint and you seldom reach for rank. It comes late, earned by what you have done.",
       "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the rules outweigh what you want. You give up ease to keep them.",
       "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. In balance, the rules you keep are your own choice. Rank comes as the work earns it.",
       "advise_catalyst": "You do your best work with a date on it and someone waiting at the other end. Ask for honest feedback on one thing you made and just listen. Learn how one new task is done before you start on it. Leave an hour empty between two big jobs.",
@@ -333,6 +333,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2 pairs",
       "replaced": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Start one project of your own this month. Learn one skill no rule asks for."
+    },
+    {
+      "field": "function.definition_catalyst",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-026",
+      "replaced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint and you seldom reach for rank. Rank comes late and by your record."
     }
   ]
 }

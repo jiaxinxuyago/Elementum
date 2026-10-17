@@ -106,7 +106,7 @@
             "word": "Afraid to slip",
             "angles": {
               "drive": "Fear of slipping runs under most of what you do well. Since your standing holds your worth, you would rather never be seen to slip than be at ease. You spend more effort guarding against a slip than any slip would ever cost you.",
-              "cost_self": "One slip stays with you longer than with anyone who saw it. Afraid to slip, you put looking steady ahead of feeling rested, until good days tire you like bad ones. You give up your evenings to guard against slips that mostly never come.",
+              "cost_self": "One slip stays with you longer than with anyone who saw it. Afraid to slip, you put looking steady ahead of feeling rested, until good days tire you like bad ones. You give up your evenings to guard against slips that rarely come.",
               "cost_others": "Hiding every slip is how you serve those who depend on you. Since a visible slip reads as failed duty, you offer them a composed face over a tired one. You leave them no way to help you carry it."
             }
           },
@@ -945,6 +945,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 fire:F2-16",
       "replaced": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold everyone to every one they make. Your friends have their offhand words held to the letter."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 fire:F3-18",
+      "replaced": "One slip stays with you longer than with anyone who saw it. Afraid to slip, you put looking steady ahead of feeling rested, until good days tire you like bad ones. You give up your evenings to guard against slips that mostly never come."
     }
   ]
 }

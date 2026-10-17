@@ -97,7 +97,7 @@
           {
             "word": "Always moving on",
             "angles": {
-              "drive": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay. You walk away from what each venture cost you to start.",
+              "drive": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay. What you are after is a life that never closes in.",
               "cost_self": "Always moving on is how you avoid being pinned. You would rather move on to somewhere new than be found at the old venture, even with money still in it. You leave more money behind by moving on than new ventures bring in.",
               "cost_others": "Moving on, you leave people as well as plans. You move on and put the next place ahead of those who built the last one with you. Each time you move on, you leave your partners starting over."
             }
@@ -633,6 +633,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Starting fast means starting for other people too. Since you start before your partner has agreed, you put your speed ahead of their say. You hand them a venture already moving and leave them a month of catching up to a start they never made."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (want)",
+      "replaced": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay. You walk away from what each venture cost you to start."
     }
   ]
 }

@@ -97,7 +97,7 @@
           {
             "word": "Drifts along",
             "angles": {
-              "drive": "Drifting is easier than steering, and most days you choose it. You want each day to stay easy, and you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go.",
+              "drive": "Drifting is easier than steering, and most days you choose it. You want things easy, and you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go.",
               "cost_self": "Most days you drift, and it rarely feels like a loss. Since you take in less than you let out, you drift to whatever is nearest rather than pick. You still want things, and the drift costs you each one that was not nearby.",
               "cost_others": "Going with the drift keeps things easy for everyone. Whenever you drift with a plan in place of saying what you wanted, you leave the people closest to you guessing. You hand them a maybe where they needed a real answer."
             }
@@ -835,6 +835,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Keeping everyone around you comfortable comes before asking anything of them. Since you put a child's comfort ahead of what they promised, you take from them the small steadiness they needed. You spare them the promise and the pride of seeing it through."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-030",
+      "replaced": "Drifting is easier than steering, and most days you choose it. You want each day to stay easy, and you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go."
     }
   ]
 }

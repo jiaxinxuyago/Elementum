@@ -106,7 +106,7 @@
             "word": "Keeps it in",
             "angles": {
               "drive": "What you understand, you keep in. Saying a thing out loud makes it ordinary, and you would rather hold an idea unfinished than hand it over half-formed. Keeping it in keeps it yours, and you never learn what it would have become.",
-              "cost_self": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea whole and lose the one thing you wanted from it, being known.",
+              "cost_self": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. Underneath, all you want is to be fully known.",
               "cost_others": "You keep in what your closest people want to know. A held thought feels less exposed than a shared one, and you give silence instead of answers. You leave them guessing at what you think, the one thing they asked you for."
             }
           },
@@ -574,6 +574,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 wood:W2-030",
       "replaced": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea safe and lose the one thing you wanted from it, being known."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (want)",
+      "replaced": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. You keep the idea whole and lose the one thing you wanted from it, being known."
     }
   ]
 }

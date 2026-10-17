@@ -97,7 +97,7 @@
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you. All you want is to get it right, and you would rather pay for a mistake than fix it.",
+              "drive": "You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you. You are allowed the same mercy you show the people you love.",
               "cost_self": "To you, being hard on yourself is the honest way to improve. You put every slip on trial in your head, so you replay the mistake instead of resting once the work is done. You pay for it in the rest you never take.",
               "cost_others": "Being hard on yourself does not stay inside you. Since you treat your own slips as weakness, you hold the people close to you to the same rule more than you say. You teach them to hide their small mistakes from you."
             }
@@ -585,6 +585,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 wood:W2-002",
       "replaced": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Wanting only to get it right, you would rather pay for a mistake than fix it."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you. All you want is to get it right, and you would rather pay for a mistake than fix it."
     }
   ]
 }

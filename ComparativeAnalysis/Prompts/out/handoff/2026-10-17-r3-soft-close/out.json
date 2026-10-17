@@ -1,0 +1,304 @@
+[
+ {
+  "cell": "木_比肩",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "木_劫财",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "You are allowed to stop while someone else overtakes you."
+ },
+ {
+  "cell": "木_食神",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "want",
+  "close": "All you ever wanted was to enjoy the hours you had."
+ },
+ {
+  "cell": "木_伤官",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "Sitting quietly among friends is enough."
+ },
+ {
+  "cell": "木_偏财",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "Setting some of them down for good is yours to decide."
+ },
+ {
+  "cell": "木_正财",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "want",
+  "close": "Beneath the sums, all you want is to be safe and at ease."
+ },
+ {
+  "cell": "木_七杀",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "You are allowed the same mercy you show the people you love."
+ },
+ {
+  "cell": "木_正官",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "木_偏印",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "want",
+  "close": "Underneath, all you want is to be fully known."
+ },
+ {
+  "cell": "木_正印",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "You are allowed to let them go and still be their shelter."
+ },
+ {
+  "cell": "火_比肩",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "You are allowed to share the work, even if it takes longer."
+ },
+ {
+  "cell": "火_劫财",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "You are allowed to be generous in private."
+ },
+ {
+  "cell": "火_食神",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "火_伤官",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "Your talent is yours to enjoy with nobody watching."
+ },
+ {
+  "cell": "火_偏财",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "want",
+  "close": "Under the chase, you are after the feeling of being alive."
+ },
+ {
+  "cell": "火_正财",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "火_七杀",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "火_正官",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "火_偏印",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "火_正印",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "土_比肩",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "You have every right to lean on a friend."
+ },
+ {
+  "cell": "土_劫财",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "土_食神",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "土_伤官",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "You are allowed to say yes and lose nothing of yourself."
+ },
+ {
+  "cell": "土_偏财",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "You are allowed to end one and call it a choice."
+ },
+ {
+  "cell": "土_正财",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "What no longer matters to you is yours to part with."
+ },
+ {
+  "cell": "土_七杀",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "You are allowed to rest and be unreachable for the whole evening."
+ },
+ {
+  "cell": "土_正官",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "Your own good sense is permission enough."
+ },
+ {
+  "cell": "土_偏印",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "土_正印",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "want",
+  "close": "Underneath, you want the same shelter you give to others."
+ },
+ {
+  "cell": "金_比肩",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "金_劫财",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "金_食神",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "金_伤官",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "金_偏财",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "want",
+  "close": "What you are after is a life that never closes in."
+ },
+ {
+  "cell": "金_正财",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "金_七杀",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "You are allowed to mark yourself kindly."
+ },
+ {
+  "cell": "金_正官",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "金_偏印",
+  "decision": "already",
+  "which": "cost_self"
+ },
+ {
+  "cell": "金_正印",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "水_比肩",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "permission",
+  "close": "You are allowed to let one person all the way in."
+ },
+ {
+  "cell": "水_劫财",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "水_食神",
+  "decision": "already",
+  "which": "cost_self"
+ },
+ {
+  "cell": "水_伤官",
+  "decision": "rewrite",
+  "which": "cost_self",
+  "kind": "permission",
+  "close": "You are allowed to care openly about what is dear to you."
+ },
+ {
+  "cell": "水_偏财",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "want",
+  "close": "All you are after is the freedom of the open road."
+ },
+ {
+  "cell": "水_正财",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "水_七杀",
+  "decision": "already",
+  "which": "drive"
+ },
+ {
+  "cell": "水_正官",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "want",
+  "close": "What you want most is for your word to be good."
+ },
+ {
+  "cell": "水_偏印",
+  "decision": "rewrite",
+  "which": "drive",
+  "kind": "want",
+  "close": "All you really want is to get it right."
+ },
+ {
+  "cell": "水_正印",
+  "decision": "already",
+  "which": "cost_self"
+ }
+]

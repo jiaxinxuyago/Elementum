@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, the current runs thin and you go looking for where it starts. Your gains come from places nobody else has reached yet.",
+        "define": "As a catalyst, the current runs thin and you go looking for its source. Your gains come from places nobody else has reached yet.",
         "ledger": [
           {
             "word": "Sees it coming",
@@ -97,7 +97,7 @@
           {
             "word": "Leaves too soon",
             "angles": {
-              "drive": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. Remember that the next place looks better mostly because you have not stayed there.",
+              "drive": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. All you are after is the freedom of the open road.",
               "cost_self": "Leaving is how you stay free. You would rather leave a venture clean than stay long enough to be owed by it. You leave most ventures a season before the money comes, and you walk away with none of it.",
               "cost_others": "Whenever a venture turns slow, you are the first to leave it. Leaving early costs you less than staying, and it costs the people inside a pair of hands. You hand your share of the finish to whoever stays behind."
             }
@@ -106,7 +106,7 @@
             "word": "Spends it fast",
             "angles": {
               "drive": "You spend a windfall at the speed it arrived. Money that comes fast feels unreal to you, and spending it fast feels more honest than saving it. Whatever comes fast, you spend before it ever becomes yours.",
-              "cost_self": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in.",
+              "cost_self": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last one, you meet the next real opening with nothing to put in.",
               "cost_others": "Whenever money arrives fast, you spend it on the people around you. You would rather give everyone a good time today than keep some for the months after. The faster you spend it, the longer you leave home short through the lean months."
             }
           },
@@ -114,7 +114,7 @@
             "word": "Looks past people",
             "angles": {
               "drive": "You look past whoever is in front of you toward what is next. You look at the next place more than at the person across the table, since distance feels safe. Each time you look past someone, you live a little ahead of your life.",
-              "cost_self": "Looking past the near keeps hope alive. You would rather look far for who is coming than look at who is here. As long as you look past the near, you go without the closeness right beside you.",
+              "cost_self": "Looking past the near keeps hope alive. You would rather watch for who is coming than see who is here. As long as you look past the near, you go without the closeness right beside you.",
               "cost_others": "Sitting with someone, you look past them at what comes next. You give the one beside you part of a look rather than the whole, and save the rest for the distance. You hold back the attention that person came for."
             }
           }
@@ -539,6 +539,38 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Moving early also means moving away from people. You move on at the slow part instead of at the end, and you leave your partner the whole finish. Whoever starts with you gets you at your brightest."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (want)",
+      "replaced": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. Remember that the next place looks better mostly because you have not stayed there."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_self",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-028",
+      "replaced": "Looking past the near keeps hope alive. You would rather look far for who is coming than look at who is here. As long as you look past the near, you go without the closeness right beside you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-027",
+      "replaced": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last windfall, you meet the next real opening with nothing to put in."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-029",
+      "replaced": "As a catalyst, the current runs thin and you go looking for where it starts. Your gains come from places nobody else has reached yet."
     }
   ]
 }

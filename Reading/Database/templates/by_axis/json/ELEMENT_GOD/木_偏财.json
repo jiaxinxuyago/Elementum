@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, your Action reaches wider than your strength can follow. Wanting every road left open, you reach the end of very few.",
+        "define": "As a friction, your Action stretches wider than your strength can follow. Wanting every road left open, you get to the end of very few.",
         "ledger": [
           {
             "word": "Chases the new",
@@ -106,7 +106,7 @@
             "word": "Spread thin",
             "angles": {
               "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You wanted freedom all along, and a closed option leaves it whole.",
-              "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Spread this thin, you never get a full rest and start each day already tired.",
+              "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Setting some of them down for good is yours to decide.",
               "cost_others": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand the people closest to you the same thin slice as everything else."
             }
           },
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Spending for freedom, you meet the slow month with none of it left.",
               "cost_self": "With money, you would rather spend than let it sit. Since spending feels like living and saving like waiting, you spend the whole month instead of keeping any. You pay for the free spending with savings you never get to keep.",
-              "cost_others": "Spending on the people near you comes before your own next month. Because helping them feels better than holding on, you spend on their short weeks rather than a shared cushion. You spend the savings meant to carry all of you through a lean month."
+              "cost_others": "Spending on the people near you comes before your own next month. Because helping them feels better than holding on, you spend on their short weeks rather than a shared cushion. You spend the savings meant to carry all of you through lean times."
             }
           }
         ]
@@ -931,6 +931,30 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Spread this thin, you never get a full rest and start each day already tired."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 wood:W3-016",
+      "replaced": "As a friction, your Action reaches wider than your strength can follow. Wanting every road left open, you reach the end of very few."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 wood:W3-017",
+      "replaced": "Spending on the people near you comes before your own next month. Because helping them feels better than holding on, you spend on their short weeks rather than a shared cushion. You spend the savings meant to carry all of you through a lean month."
     }
   ]
 }

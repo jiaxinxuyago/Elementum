@@ -77,7 +77,7 @@
             "word": "Takes people in",
             "angles": {
               "drive": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. Several friends got through their worst year under your roof.",
-              "cost_self": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. Your home is seldom fully yours, and your evenings belong to guests.",
+              "cost_self": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. Your home is rarely fully yours, and your evenings belong to guests.",
               "cost_others": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year. Your guests get time to mend without a clock running."
             }
           },
@@ -106,7 +106,7 @@
             "word": "Holds too tight",
             "angles": {
               "drive": "You hold the people you have grown close to tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out.",
-              "cost_self": "Holding too tight keeps what you grew from leaving. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You lose the friends you never made to the grip, and the loss is quiet enough to miss.",
+              "cost_self": "Holding too tight, you let nothing you grew leave. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You are allowed to let them go and still be their shelter.",
               "cost_others": "With anyone you helped grow, you hold on past the moment they are ready. Being needed feels like love, and you keep them close rather than wave them off. By holding on, you take from each of them a leaving without guilt."
             }
           },
@@ -130,7 +130,7 @@
       }
     },
     "edge": {
-      "lead": "Wood runs through your family, your mind and your health. It is the patience you keep for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you.",
+      "lead": "Wood runs through your family, your mind and your health. It is the patience you have for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you.",
       "domains": [
         "Family",
         "Mind",
@@ -571,6 +571,38 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 wood:W2-025",
       "replaced": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where the win was going. You take from them the try, and the pride of a win they reached alone."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Holding too tight keeps what you grew from leaving. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You lose the friends you never made to the grip, and the loss is quiet enough to miss."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 wood:W3-012",
+      "replaced": "Holding too tight keeps what you grew from leaving. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You are allowed to let them go and still be their shelter."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 wood:W3-013",
+      "replaced": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. Your home is seldom fully yours, and your evenings belong to guests."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 wood:W3-014",
+      "replaced": "Wood runs through your family, your mind and your health. It is the patience you keep for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you."
     }
   ]
 }

@@ -77,8 +77,8 @@
             "word": "Bets big",
             "angles": {
               "drive": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. The wins you land are big enough to change your year.",
-              "cost_self": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound.",
-              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Your partner lives through every swing beside you."
+              "cost_self": "When you bet big, you lose big too. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound.",
+              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. You take whoever is in it with you through every swing."
             }
           },
           {
@@ -579,6 +579,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 earth:E2-19",
       "replaced": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You replay each defeat for weeks after the game is over."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 cross:X3-16",
+      "replaced": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Your partner lives through every swing beside you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 earth:E3-14",
+      "replaced": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound."
     }
   ]
 }

@@ -97,7 +97,7 @@
           {
             "word": "Keeps everything",
             "angles": {
-              "drive": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. You end up looking after everything you keep.",
+              "drive": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. What no longer matters to you is yours to part with.",
               "cost_self": "Keeping everything is your insurance against going without, and it costs you. You would rather pay to store a thing than risk needing it, and your money guards what you never use. You rent space for things that give nothing back.",
               "cost_others": "You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and the house fills from the walls in. You leave the people you live with less space in their own home."
             }
@@ -651,6 +651,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 earth:E2-17",
       "replaced": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no space for anything new."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. You end up looking after everything you keep."
     }
   ]
 }

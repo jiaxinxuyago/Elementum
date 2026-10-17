@@ -76,7 +76,7 @@
           {
             "word": "Learns it properly",
             "angles": {
-              "drive": "You learn a thing properly or not at all. A trusted teacher and a subject that holds still feel like shelter to you, and you stay with both until it is whole. Your knowledge holds under hard questions because it runs all the way down.",
+              "drive": "You learn a thing properly or not at all. A trusted teacher and a subject that holds still feel like shelter to you, and you stay with both until it is whole. Your knowledge survives hard questions because it runs all the way down.",
               "cost_self": "Learning it properly takes you longer. Knowing a thing to its end matters to you more than knowing it well enough, and most chances ask for less. Openings go to quicker people while you are still at chapter three.",
               "cost_others": "Teaching waits until you have learned it properly. You would rather pass a subject on whole than in pieces, and the people learning from you get nothing before the whole arrives. Your lessons arrive late but complete, safe ground to build on."
             }
@@ -641,6 +641,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Waiting to be told leaves your own good sense unused for weeks. You need someone above you to say it is safe, and their word comes later than your own read did. Your first instinct is often right and seldom acted on."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-18",
+      "replaced": "You learn a thing properly or not at all. A trusted teacher and a subject that holds still feel like shelter to you, and you stay with both until it is whole. Your knowledge holds under hard questions because it runs all the way down."
     }
   ]
 }

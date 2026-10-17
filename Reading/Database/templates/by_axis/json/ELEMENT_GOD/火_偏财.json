@@ -86,7 +86,7 @@
             "angles": {
               "drive": "In a new venture, you start fast and plan later. The beginning is the warm part, and you would rather open the next one than sit through the middle. Much of what your circle now enjoys exists because you went first.",
               "cost_self": "The easy part for you is the start. You would rather start something new than wait out a long middle, so most ventures end where the rush does. What you are after is the feeling of the first day, again and again.",
-              "cost_others": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Their evenings go into seeing your ideas through."
+              "cost_others": "You start at full speed, with others pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Their evenings go into seeing your ideas through."
             }
           }
         ]
@@ -97,7 +97,7 @@
           {
             "word": "Chases the new",
             "angles": {
-              "drive": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of.",
+              "drive": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. Under the chase, you are after the feeling of being alive.",
               "cost_self": "Chasing the new keeps you at the start. Each new chance looks better than the one in hand, so you leave before it pays back. Each time you leave early, you lose the money at the end, and that money is why you chase.",
               "cost_others": "Whenever something new shows up, you chase it and leave your partners the middle. You want the next chance more than the ending of this one, since staying put feels like falling behind. From your partners, you take the ending they were working toward."
             }
@@ -539,6 +539,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. Your household's best stories come from the days you made."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (want)",
+      "replaced": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. With each chase, you trade away the catch already in your hands, the only one you were sure of."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 fire:F3-21",
+      "replaced": "You start at full speed, with your partners pulled in beside you. Being at the beginning suits you more than staying for the middle, and the long part lands on them. Their evenings go into seeing your ideas through."
     }
   ]
 }

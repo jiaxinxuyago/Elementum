@@ -26,7 +26,7 @@
       "definition_friction": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. Running over, your strength has nowhere to go and gets spent holding your ground against the people beside you. You lose a peer for each argument you win.",
       "definition_balanced": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. In balance, your strength is firm but never stiff. You stand on your own and still bend when a peer has the better case.",
       "advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there.",
-      "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure to meet, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
+      "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure in view, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way.",
       "advise_balanced": "Your strength holds firm while you spend it no faster than you refill it. Sort one week into hours that drain you and hours that restore you, and even out the two. Decide your stopping time before you start, and stop there."
     },
     "cta_verdict": "Your strength is the kind you make alone, so you measure yourself against your own last best rather than against anyone beside you.",
@@ -445,6 +445,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2-1",
       "replaced": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. In balance, your strength is firm but never stiff. You stand on your own and still let a peer share the weight."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-14",
+      "replaced": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure to meet, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way."
     }
   ]
 }

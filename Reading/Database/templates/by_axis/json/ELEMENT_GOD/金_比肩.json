@@ -122,7 +122,7 @@
       }
     },
     "edge": {
-      "lead": "Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the standard you keep raising in private, and the friend who walks beside people rather than ahead of them.",
+      "lead": "Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the bar you keep raising in private, and the friend who walks beside people and not ahead of them.",
       "domains": [
         "Family",
         "Growth",
@@ -915,6 +915,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-3",
       "replaced": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. You count the asking as a cost and leave the carrying off the bill."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-16",
+      "replaced": "Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the standard you keep raising in private, and the friend who walks beside people rather than ahead of them."
     }
   ]
 }

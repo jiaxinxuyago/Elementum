@@ -31,7 +31,7 @@
  },
  {
   "key": "K2 土_比肩 · fn_reading.friction.ledger[0].angles.drive",
-  "text": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You carry each problem alone for longer than it needs.",
+  "text": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You have every right to lean on a friend.",
   "id": "R3 earth:E3-13"
  },
  {
@@ -51,7 +51,7 @@
  },
  {
   "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.cost_self",
-  "text": "When trouble lands on someone you love, you take it on as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you.",
+  "text": "When trouble lands on someone you love, you take it on as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. Underneath, you want the same shelter you give to others.",
   "id": "R3 earth:E3-17"
  },
  {
@@ -286,7 +286,7 @@
  },
  {
   "key": "K2 木_正印 · fn_reading.friction.ledger[1].angles.cost_self",
-  "text": "Holding too tight, you let nothing you grew leave. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You lose the friends you never made to the grip, and the loss is quiet enough to miss.",
+  "text": "Holding too tight, you let nothing you grew leave. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You are allowed to let them go and still be their shelter.",
   "id": "R3 wood:W3-012"
  },
  {

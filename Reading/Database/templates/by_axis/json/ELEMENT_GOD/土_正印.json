@@ -106,7 +106,7 @@
             "word": "Overprotective",
             "angles": {
               "drive": "Protecting the people you love is your first move when they face trouble. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You carry risks that were always theirs to take.",
-              "cost_self": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you.",
+              "cost_self": "When trouble lands on someone you love, you take it on as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. Underneath, you want the same shelter you give to others.",
               "cost_others": "Your protection arrives before anyone asks. Because you find watching someone struggle harder than doing it for them, you protect them by taking over instead of letting them finish badly. With every rescue, you take a lesson away from them."
             }
           },
@@ -921,6 +921,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 earth:E2-10",
       "replaced": "Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You are allowed to let the risk be theirs."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (want)",
+      "replaced": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 earth:E3-17",
+      "replaced": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. Underneath, you want the same shelter you give to others."
     }
   ]
 }

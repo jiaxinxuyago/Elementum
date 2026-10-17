@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Deciding fast is how you stop a crisis from deciding for you. A quick decision points your push somewhere, and you accept being wrong early rather than being right too late. While others are still weighing it, your call has already got people moving.",
               "cost_self": "Fast decisions are the ones you trust. Deciding quickly keeps you ahead of the crisis, and you take the first good option rather than the best. The better answer turns up a day later, and by then you are already committed.",
-              "cost_others": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your quick call lifts a weight you hate to see them carry."
+              "cost_others": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your quick call lifts a weight you hate to see them under."
             }
           }
         ]
@@ -97,7 +97,7 @@
           {
             "word": "Hard on yourself",
             "angles": {
-              "drive": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You answer to no judge harder than yourself.",
+              "drive": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You are allowed to mark yourself kindly.",
               "cost_self": "Under any load, you go hard on yourself first. You take the blame harder than the credit every time, since your standard never relaxes. You pay for being this hard in credit never claimed and rest never taken.",
               "cost_others": "The hardness you keep for yourself sets everyone's rate. Your mistakes feel unforgivable, and being hard on people near you comes easier than letting one pass. You take their ease away with every mistake you refuse to let pass."
             }
@@ -635,6 +635,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 metal:MT2-22",
       "replaced": "Off duty is a state you never fully manage. The alert in you never stands down, and you spend a free evening on duty rather than inside it. You lose the rest your free evenings were meant to give you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You answer to no judge harder than yourself."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-19",
+      "replaced": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your quick call lifts a weight you hate to see them carry."
     }
   ]
 }

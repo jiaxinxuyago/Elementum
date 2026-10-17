@@ -86,7 +86,7 @@
             "angles": {
               "drive": "You pace yourself through things other people sprint. Arriving whole counts for more with you than arriving first, and you keep a pace you can hold for years. You are still going strong long after the quick starters have dropped out.",
               "cost_self": "Your pace is set so that nothing breaks. Since a sprint costs the steadiness you built, you keep your pace rather than take the opening that needs a rush. You lose the openings that needed a rush to the pace that keeps you whole.",
-              "cost_others": "Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, and you keep everyone at your pace. Nobody walking with you is ever left behind."
+              "cost_others": "Pacing yourself paces everyone beside you. You would rather arrive together than let anyone run ahead, and you keep everyone at your pace. Nobody walking with you is ever left behind."
             }
           }
         ]
@@ -97,7 +97,7 @@
           {
             "word": "Holds the yes",
             "angles": {
-              "drive": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check. Good offers run out in the gap.",
+              "drive": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check. What you want most is for your word to be good.",
               "cost_self": "Holding the yes keeps you out of promises you could not keep. You need your word to be solid before it leaves you, and a maybe can sit with you for weeks. Those weeks of maybe tire you more than the promise would.",
               "cost_others": "The people who ask you for something wait longer for your yes than for anyone else's. Your yes has to be one you will stand behind, and the question hangs open while you weigh it. Their plans stay on hold until your answer comes."
             }
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "You bite your tongue long before anyone asks you to. You bite down rather than cost the mood, since a smooth evening feels safer to you than an honest one. You keep the peace by biting your tongue, and you alone carry what went unsaid.",
               "cost_self": "Safe and unheard is where biting your tongue leaves you. You would rather bite your tongue than put your standing on the line for a point. You hand away the credit for everything you bit back, and a point never made cannot be yours.",
-              "cost_others": "You bite your tongue hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
+              "cost_others": "You bite your tongue hardest around the people who need your answer. You smooth things over instead of saying what you see, and you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
             }
           }
         ]
@@ -577,6 +577,30 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 water:W-014",
       "replaced": "Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Those working with you keep to a road that may no longer suit them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (want)",
+      "replaced": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check. Good offers run out in the gap."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-025",
+      "replaced": "Pacing yourself paces everyone beside you. You would rather arrive together than let one run ahead, and you keep everyone at your pace. Nobody walking with you is ever left behind."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-038",
+      "replaced": "You bite your tongue hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
     }
   ]
 }

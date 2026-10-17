@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Running thin, your reserve is shallow and comes in quick bursts. The people around you are where the rest of your reach comes from.",
+        "define": "Running thin, your reserve is shallow and spent in quick bursts. The people around you are where the rest of your reach comes from.",
         "ledger": [
           {
             "word": "Goes first",
@@ -106,7 +106,7 @@
             "word": "Never stops racing",
             "angles": {
               "drive": "Finished, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next one instead of keeping the win, and the win was the point.",
-              "cost_self": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You trade each win for another race and never take the rest you earned.",
+              "cost_self": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You are allowed to stop while someone else overtakes you.",
               "cost_others": "Win or lose, you keep racing people who stopped a while ago. Staying ahead matters more than staying close, and that turns a friend into someone to beat. You take from them, by racing someone who stopped, the ease of just being with you."
             }
           },
@@ -595,6 +595,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 wood:W2-019",
       "replaced": "Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. You set the size of a risk that the people who pooled with you have to carry."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You trade each win for another race and never take the rest you earned."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 wood:W3-011",
+      "replaced": "Running thin, your reserve is shallow and comes in quick bursts. The people around you are where the rest of your reach comes from."
     }
   ]
 }

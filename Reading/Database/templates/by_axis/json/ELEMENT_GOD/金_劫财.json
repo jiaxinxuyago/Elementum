@@ -97,7 +97,7 @@
           {
             "word": "Keeps score",
             "angles": {
-              "drive": "You keep an exact score with everyone you like. Afraid of giving more than you get, you lean on comparison more than friendship and keep a quiet tally. Keep in mind that you wanted the closeness long before you wanted the score.",
+              "drive": "You keep an exact score with everyone you like. Afraid of giving more than you get, you lean on comparison over friendship and run a quiet tally. Keep in mind that you wanted the closeness long before you wanted the score.",
               "cost_self": "Whenever a friend pulls ahead, you score it as a loss rather than their win. To stay sure, you keep score and spend the friendship checking the count. You pay for every point in closeness you never collect.",
               "cost_others": "Keeping the score even is how you keep a friendship honest. Since you count favours instead of simply returning them, every gift to you arrives with a price attached. You take the joy out of giving for the friends who give to you."
             }
@@ -122,7 +122,7 @@
       }
     },
     "edge": {
-      "lead": "Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with someone ahead to catch.",
+      "lead": "Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with a runner ahead to catch.",
       "domains": [
         "Wealth",
         "Social",
@@ -915,6 +915,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 metal:MT2-15+R2-3",
       "replaced": "Your bets are sized to the thrill more than the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent on a feeling that fades faster than the bill."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-15",
+      "replaced": "You keep an exact score with everyone you like. Afraid of giving more than you get, you lean on comparison more than friendship and keep a quiet tally. Keep in mind that you wanted the closeness long before you wanted the score."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-17",
+      "replaced": "Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with someone ahead to catch."
     }
   ]
 }

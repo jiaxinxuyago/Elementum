@@ -97,7 +97,7 @@
           {
             "word": "Asks no one",
             "angles": {
-              "drive": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it. You are allowed to owe someone a piece of the load.",
+              "drive": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it. You are allowed to owe someone part of the load.",
               "cost_self": "Your hands are all you trust with hard jobs. Asking feels like admitting a shortfall, and you take the long way alone over the short way with help. You pay for asking no one in rest you skip, and the bill is only yours.",
               "cost_others": "Whenever an offer comes, you have already finished alone. Owing nothing counts for more than being close, and that keeps your nearest people outside every struggle. By asking no one, you leave them no way to be needed by you."
             }
@@ -619,6 +619,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 wood:W2-023",
       "replaced": "Being right is a comfort you never run out of. Admitting a mistake feels like losing part of yourself, and you defend a wrong call as much as a right one. You come out of each argument right and without the lesson it held."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 wood:W3-010",
+      "replaced": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it. You are allowed to owe someone a piece of the load."
     }
   ]
 }

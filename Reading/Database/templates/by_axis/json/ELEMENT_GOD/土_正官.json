@@ -97,7 +97,7 @@
           {
             "word": "Follows every rule",
             "angles": {
-              "drive": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make.",
+              "drive": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. Your own good sense is permission enough.",
               "cost_self": "Whenever a rule and a chance pull apart, you follow the rule. Order weighs more than luck with you, and the chances that need a rule stretched pass you by. You hand those openings to rules nobody checks.",
               "cost_others": "You follow rules even with the people who need an exception. You find fair by the book easier than kind off it, and you hand them policy instead of a decision. You keep from them the exception that was yours to give."
             }
@@ -105,7 +105,7 @@
           {
             "word": "Waits for permission",
             "angles": {
-              "drive": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
+              "drive": "You wait for permission to take what you have earned. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
               "cost_self": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring.",
               "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. You hold up their work for a go-ahead you had all along."
             }
@@ -595,6 +595,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 earth:E2-11",
       "replaced": "Long after you stopped wanting to, you keep promises to people. Holding counts for more with you than honesty about changing, and you never tell the person that the promise went stale. Whatever you promised them still arrives, on time and in full."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. You pay for that sureness with decisions that were yours to make."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 earth:E3-16",
+      "replaced": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours."
     }
   ]
 }

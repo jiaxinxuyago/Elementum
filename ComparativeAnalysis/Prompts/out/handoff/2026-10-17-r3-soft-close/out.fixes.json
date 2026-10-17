@@ -1,0 +1,132 @@
+[
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you. You are allowed to stop while someone else overtakes you.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. All you ever wanted was to enjoy the hours you had.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 木_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary. Sitting quietly among friends is enough.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Setting some of them down for good is yours to decide.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. Beneath the sums, all you want is to be safe and at ease.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you. You are allowed the same mercy you show the people you love.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 木_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea. Underneath, all you want is to be fully known.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Holding too tight keeps what you grew from leaving. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You are allowed to let them go and still be their shelter.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone. You are allowed to share the work, even if it takes longer.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You are allowed to be generous in private.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Without an audience, you will not start. Practising alone feels like wasted effort, and you save the real work for a crowd rather than do it unseen. Your talent is yours to enjoy with nobody watching.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you. Under the chase, you are after the feeling of being alive.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 土_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out alone instead of handing any of it over. You have every right to lean on a friend.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 土_伤官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it. You are allowed to say yes and lose nothing of yourself.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 土_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You are allowed to end one and call it a choice.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use. What no longer matters to you is yours to part with.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 土_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You are allowed to rest and be unreachable for the whole evening.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too. Your own good sense is permission enough.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. Underneath, you want the same shelter you give to others.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay. What you are after is a life that never closes in.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You are allowed to mark yourself kindly.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 水_比肩 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You keep to yourself even among people you like. Your own company is where you feel steady, and you share your days without sharing much of what is in them. You are allowed to let one person all the way in.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 水_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private. You are allowed to care openly about what is dear to you.",
+  "id": "R3 soft close (permission)"
+ },
+ {
+  "key": "K2 水_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through. All you are after is the freedom of the open road.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 水_正官 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check. What you want most is for your word to be good.",
+  "id": "R3 soft close (want)"
+ },
+ {
+  "key": "K2 水_偏印 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You think a decision over long after it stopped needing thought. You fear choosing wrong more than choosing late, and one more angle feels like care rather than delay. All you really want is to get it right.",
+  "id": "R3 soft close (want)"
+ }
+]

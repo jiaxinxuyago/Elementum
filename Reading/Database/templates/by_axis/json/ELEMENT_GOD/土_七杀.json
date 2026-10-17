@@ -106,7 +106,7 @@
             "word": "Never off duty",
             "angles": {
               "drive": "You are never off duty, even when nothing needs guarding. To you standing down is a drop in rank rather than a rest, and quiet weeks get watched like hard ones. You are allowed to take a quiet week as the rest you earned.",
-              "cost_self": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You refuse the rest that no one else can take for you.",
+              "cost_self": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You are allowed to rest and be unreachable for the whole evening.",
               "cost_others": "You come home on duty, and your family gets the guard rather than the person. Keeping watch feels more useful than being there, and your attention goes to the next problem. You keep your company from your family even while you sit with them."
             }
           },
@@ -633,6 +633,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 earth:E2-07+R2-4",
       "replaced": "In your tight ship everyone has a job, and the people at home get theirs from you. You need the household to run like a team, and your requests land as orders. Your family does what you ask and keeps its ideas quiet."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call. You refuse the rest that no one else can take for you."
     }
   ]
 }

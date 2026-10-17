@@ -76,7 +76,7 @@
           {
             "word": "Soaks it up",
             "angles": {
-              "drive": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. Your grasp of a subject often goes deeper than anyone guesses.",
+              "drive": "You soak things up rather than study them. Knowledge settles into you from whatever is nearby, and you know a thing long before you can pass a test on it. Your grasp of a subject often goes deeper than anyone guesses.",
               "cost_self": "Soaking it up is how learning stays with you. Sitting with it until it is yours comes easier than proving it on paper, and the proof is the part you skip. Openings that ask for a certificate pass you by.",
               "cost_others": "Soaking up what someone says comes before deciding whether you agree. Taking it in is easier than pushing back, so your disagreement stays where it helps no one. Your second view never reaches the people you listen to."
             }
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "You over-protect the people you love from what they could survive. Feeling safe is what you want most, and you hold them the way you wish to be held. Remember that you love them just as much when you let them struggle.",
               "cost_self": "Over-protecting the ones you love never rests. Taking the hit for someone is easier for you than watching them take it, so you carry what was never yours. You pay in lost rest for every hit you absorb for someone else.",
-              "cost_others": "Whenever someone you love is about to struggle, you over-protect and step in first. Sparing them the hard part feels like love, and you choose their comfort rather than their growing. You take from them the one lesson that would have stuck."
+              "cost_others": "Whenever someone you love is about to struggle, you over-protect and step in first. Sparing them the hard part feels like love, and you choose their comfort rather than their growth. You take from them the one lesson that would have stuck."
             }
           }
         ]
@@ -625,6 +625,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-3",
       "replaced": "You let things drift rather than decide them, and you call it patience. There is more Water in you than you turn into motion, so choosing costs more than going along. You end up with the days that happened instead of the ones you wanted."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-021",
+      "replaced": "Whenever someone you love is about to struggle, you over-protect and step in first. Sparing them the hard part feels like love, and you choose their comfort rather than their growing. You take from them the one lesson that would have stuck."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-022",
+      "replaced": "You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. Your grasp of a subject often goes deeper than anyone guesses."
     }
   ]
 }

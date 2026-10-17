@@ -68,7 +68,7 @@
           {
             "word": "Clear-headed in crisis",
             "angles": {
-              "drive": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. Your calm in the worst hour gives everyone else somewhere to stand.",
+              "drive": "You get clearer the harder things press, because only pressure stops your second-guessing. Inside a crisis you want the next move more than the right feeling. Your calm in the worst hour gives everyone else somewhere to stand.",
               "cost_self": "Clear-headed in crisis is the self you trust. Since calm gives you nothing to push on, you chase the next crisis rather than rest in a quiet one. Ordinary days pass you by half-lived, along with the slow gains they hold.",
               "cost_others": "In a crisis you take the clear head and every decision. Deciding fast feels safer than watching anyone decide slowly, so you carry the whole crisis rather than share it. The people beside you come through it without ever handling the hard part."
             }
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "You lead without shouting, often without anyone noticing. You would sooner be right than be obeyed, and you lead by arranging the outcome rather than asking. Under your hand a team runs smoothly, and few people guess why.",
               "cost_self": "Leading without shouting keeps you out of the argument. Because you would rather lead quietly than be seen asking, you leave your name off most of what you steered. The credit, and the rank that comes with it, goes to someone louder than you.",
-              "cost_others": "Arranging beats asking whenever you lead. Setting things up quietly feels cleaner to you than asking and risking a no, and the people you lead never get a say. Your people travel a calm road and never feel pushed along it."
+              "cost_others": "Arranging beats asking whenever you lead. Setting things up quietly feels cleaner to you than asking and risking a no, and the people you lead never get a say. Your people travel a smooth road and never feel pushed along it."
             }
           }
         ]
@@ -555,6 +555,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 water:W-016",
       "replaced": "Arranging beats asking whenever you lead. Leading without shouting feels cleaner than a request someone can refuse, and you give the people you steer no yes or no. Your people travel a calm road and never feel pushed along it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-023",
+      "replaced": "You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. Your calm in the worst hour gives everyone else somewhere to stand."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-024",
+      "replaced": "Arranging beats asking whenever you lead. Setting things up quietly feels cleaner to you than asking and risking a no, and the people you lead never get a say. Your people travel a calm road and never feel pushed along it."
     }
   ]
 }

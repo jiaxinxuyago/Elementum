@@ -97,7 +97,7 @@
           {
             "word": "Pushes back",
             "angles": {
-              "drive": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it. You spend the same fight on a good plan as on a bad one.",
+              "drive": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it. You are allowed to say yes and lose nothing of yourself.",
               "cost_self": "Pushing back is how you keep hold of yourself in a group. Since giving in feels like disappearing, you push against help as much as against orders. You end up pushing away the help you most needed.",
               "cost_others": "You push back before you hear the end of a plan. To you, being hard to convince feels like being hard to fool, and you make people defend a plan instead of taking it. You take the ease out of every offer they bring you."
             }
@@ -611,6 +611,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs are fixed along the way (SOP)",
       "finding": "R2 earth:E2-24",
       "replaced": "As a catalyst, the gate opens slowly. Nothing of yours comes through until it is solid, and then it comes out blunt and complete."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it. You spend the same fight on a good plan as on a bad one."
     }
   ]
 }

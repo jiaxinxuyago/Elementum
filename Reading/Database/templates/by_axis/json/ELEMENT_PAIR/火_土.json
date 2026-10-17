@@ -21,7 +21,7 @@
     "function": {
       "primary": "expression",
       "definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks and only a little of what you have gets out. Much of your talent stays unseen.",
-      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, and more goes out of you than comes in. You run empty on what you have already spent.",
+      "definition_friction": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, and more goes out of you than comes in. You end up running on empty.",
       "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. In balance, the gate opens at its own steady pace. What goes out of you is matched by what comes back in.",
       "advise_catalyst": "What you keep inside does not count as finished. Finish one piece of work a week that someone else can hold. Tend one plant or patch of soil through the whole month. Keep a box for the things you have made and open it at the end of the year.",
       "advise_friction": "Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it take in what Earth keeps handing out. Whatever you feel or think leaves you before it has had time to grow. Plant one seed in a pot. Hold each new idea for a week.",
@@ -341,6 +341,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2 pairs",
       "replaced": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. As a catalyst, the gate sticks and only a little of what you have gets out. Much of your kindness and talent stays unseen."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 earth:E3-12",
+      "replaced": "Your Expression is the gate where inner work becomes outer fact. What you give, Earth settles into a shape that holds. As a friction, the gate never shuts, and more goes out of you than comes in. You run empty on what you have already spent."
     }
   ]
 }

@@ -106,7 +106,7 @@
             "word": "Counts everything",
             "angles": {
               "drive": "Counting what something cost matters to you more than enjoying it. Afraid of running short, you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
-              "cost_self": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. You give up the easy days that all your counting was meant to buy.",
+              "cost_self": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. Beneath the sums, all you want is to be safe and at ease.",
               "cost_others": "You count as closely for those you love as for yourself. Since a cost stays with you longer than a pleasure, you count shared things aloud rather than let them pass. You take the small treats out of their days, one price at a time."
             }
           },
@@ -963,6 +963,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-3",
       "replaced": "Counting what something cost matters to you more than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (want)",
+      "replaced": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. You give up the easy days that all your counting was meant to buy."
     }
   ]
 }

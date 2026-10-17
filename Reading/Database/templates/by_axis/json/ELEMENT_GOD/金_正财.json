@@ -128,7 +128,7 @@
       }
     },
     "edge": {
-      "lead": "Metal runs through your wealth, your family and your career. It is the money you put aside each month that grows while you sleep, the home where the spare key is on its hook, and the small print you read right to the end.",
+      "lead": "Metal runs through your wealth, your family and your career. It is the money you set aside each month that earns while you sleep, the home where the spare key is on its hook, and the small print you read right to the end.",
       "domains": [
         "Wealth",
         "Family",
@@ -615,6 +615,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Holding on tight reaches the people you love too. You hold a partner the way you hold a sum, close and counted, rather than give them slack. You leave the person beside you no air when you hold on this tight."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-12",
+      "replaced": "Metal runs through your wealth, your family and your career. It is the money you put aside each month that grows while you sleep, the home where the spare key is on its hook, and the small print you read right to the end."
     }
   ]
 }

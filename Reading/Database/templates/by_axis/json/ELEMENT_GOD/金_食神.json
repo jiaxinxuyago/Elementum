@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, little leaves the gate. What does leave has to be worth it, and your care goes into the few pieces you let go.",
+        "define": "As a catalyst, little passes the gate. Each piece has to be worth it, and your care goes into the few you let go.",
         "ledger": [
           {
             "word": "Loves the craft",
@@ -609,6 +609,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 metal:MT2-12+R2-4",
       "replaced": "You teach a child by doing the whole thing yourself. Your own way is the one you know works, so you teach it rather than let them try another. The child walks away with a method that holds, learned at your side."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 metal:MT3-13",
+      "replaced": "As a catalyst, little leaves the gate. What does leave has to be worth it, and your care goes into the few pieces you let go."
     }
   ]
 }

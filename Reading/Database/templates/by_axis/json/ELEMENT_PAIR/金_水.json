@@ -26,7 +26,7 @@
       "definition_friction": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in. As a friction, the gate never shuts, and more goes out of you than comes back. You run empty long before you run quiet.",
       "definition_balanced": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, what goes out of you keeps pace with what comes back in. Your kindness and wit flow freely and still refill.",
       "advise_catalyst": "What you have to give runs short, and it counts for nothing until someone hears it. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer.",
-      "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Keep one piece of news to yourself for a week. Stick with one plan for a whole month.",
+      "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and it leaves before it settles. Keep one piece of news to yourself for a week. Stick with one plan for a whole month.",
       "advise_balanced": "What you feel comes out freely, and the flow holds while you take in as much as you give. Tell one person a story with no lesson in it. Ask them what they took from it, and hear their whole answer."
     },
     "cta_verdict": "You say one true thing rather than ten pleasant ones, so you say as much by staying quiet as by speaking.",
@@ -558,6 +558,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2-1",
       "replaced": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. In balance, the gate opens and closes when you choose. Your kindness and wit come out at the moment they are needed."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-032",
+      "replaced": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and nothing stays in long enough to settle. Keep one piece of news to yourself for a week. Stick with one plan for a whole month."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: TWEAK (the voice audit's phrase law v6)",
+      "finding": "R3 phrase law",
+      "replaced": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You let it all out as it comes, and none of it settles before it leaves. Keep one piece of news to yourself for a week. Stick with one plan for a whole month."
     }
   ]
 }

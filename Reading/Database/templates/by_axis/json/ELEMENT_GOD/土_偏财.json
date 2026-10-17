@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, more comes within reach than you can hold, because something new is what lifts you. Much of what you claim slips away before it pays.",
+        "define": "As a friction, more comes within reach than you can hold, because something new is what lifts you. Much of what you gain slips away before it pays.",
         "ledger": [
           {
             "word": "Chases every chance",
@@ -106,7 +106,7 @@
             "word": "Spread too thin",
             "angles": {
               "drive": "You are spread across more things than any one of them can use. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to say no and give one of them all of you.",
-              "cost_self": "Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You run all of them on the one body you have.",
+              "cost_self": "Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You are allowed to end one and call it a choice.",
               "cost_others": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. You offer each person and plan a slice of you too thin to count on."
             }
           },
@@ -635,6 +635,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 cross:X2-06",
       "replaced": "As a catalyst, firm ground is scarce and your eyes go to the next field before this one settles. What you gain passes on through your hands."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You run all of them on the one body you have."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 earth:E3-11",
+      "replaced": "As a friction, more comes within reach than you can hold, because something new is what lifts you. Much of what you claim slips away before it pays."
     }
   ]
 }

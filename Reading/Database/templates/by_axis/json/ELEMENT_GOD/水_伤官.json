@@ -63,14 +63,14 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, little comes through the gate, and what does comes out sharp. Your few words cut where many would not.",
+        "define": "As a catalyst, little comes through the gate, and what does get through comes out sharp. Your few words cut where many would not.",
         "ledger": [
           {
             "word": "Quick-witted",
             "angles": {
               "drive": "Your wit answers before your care does, and mostly you let it. Since being quick is how you know you are awake, you put the quick answer ahead of the careful one. Talk turns lively the moment you join it.",
               "cost_self": "When talk gets hard, you reach the witty line before the honest one. You stay quick rather than get caught feeling something, until your wit lands where plain words belonged. Underneath the jokes, you want to be known as well as enjoyed.",
-              "cost_others": "Saying the witty thing is how you take part. Getting the laugh with the quick line instead of letting one person finish, you cost them being heard out. Their slower thought ends up as the setup to your joke."
+              "cost_others": "Saying the witty thing is how you take part. Getting the laugh with a quick reply instead of letting one person finish, you cost them the chance to be heard out. Their slower thought ends up as the setup to your joke."
             }
           },
           {
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Not speaking up about something wrong is almost physically hard for you. You speak up rather than being liked, because a true sentence left unsaid feels like a lie you took part in. You are usually the only one who will.",
               "cost_self": "Speaking up comes first, and counting the cost comes after. With honesty worth more to you than comfort, you speak up straight into fights you never meant to start. Some friendships cool over a sentence you felt bound to say.",
-              "cost_others": "When someone leaves a thing unsaid, you speak up about it as a kindness. Speaking up rather than waiting for them to work it out, you reach it before they can. With you near, nobody has to wonder where they stand."
+              "cost_others": "When someone leaves a thing unsaid, you speak up about it as a kindness. Speaking up rather than waiting for them to work it out, you get there before they can. With you near, nobody has to wonder where they stand."
             }
           }
         ]
@@ -106,7 +106,7 @@
             "word": "Mocking",
             "angles": {
               "drive": "Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. You mean the fondness far more than the mocking lets on.",
-              "cost_self": "Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private. You go without what you hoped for, because you never asked straight.",
+              "cost_self": "Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private. You are allowed to care openly about what is dear to you.",
               "cost_others": "You mock the people you are proudest of, because plain pride is too much. Sounding mocking rather than moved, you hand them praise with no way to keep it. You keep back the plain words they needed to hear."
             }
           },
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight before asking why. Keep in mind that asking why first does not make you smaller.",
               "cost_self": "Any push at all gets a fight out of you. You would rather lose on your terms than win on theirs, so you fight rules you never cared about. Skip the small fights, or each one you pick costs you a chance you wanted.",
-              "cost_others": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than in private, you cost the one in charge their footing in front of others. You leave them no quiet way to answer you."
+              "cost_others": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than in private, you cost them their footing in front of others. You leave them no quiet way to answer you."
             }
           }
         ]
@@ -891,6 +891,46 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than in private, you cost the one above you their footing in front of others. You leave them no quiet way to answer you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private. You go without what you hoped for, because you never asked straight."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-031",
+      "replaced": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than in private, you cost the one in charge their footing in front of others. You leave them no quiet way to answer you."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-033",
+      "replaced": "As a catalyst, little comes through the gate, and what does comes out sharp. Your few words cut where many would not."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-034",
+      "replaced": "When someone leaves a thing unsaid, you speak up about it as a kindness. Speaking up rather than waiting for them to work it out, you reach it before they can. With you near, nobody has to wonder where they stand."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 water:W-035",
+      "replaced": "Saying the witty thing is how you take part. Getting the laugh with the quick line instead of letting one person finish, you cost them being heard out. Their slower thought ends up as the setup to your joke."
     }
   ]
 }

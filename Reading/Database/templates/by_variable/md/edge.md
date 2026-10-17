@@ -10,7 +10,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the standard you keep raising in private, and the friend who walks beside people rather than ahead of them. |
+| `lead` | Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the bar you keep raising in private, and the friend who walks beside people and not ahead of them. |
 | `domains` | Family · Growth · Social |
 | `metric` | independence |
 
@@ -18,7 +18,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with someone ahead to catch. |
+| `lead` | Metal runs through your wealth, your social life and your career. It is the stake you put down first and count afterwards, the friendship that grows closer every time you race each other, and the pace you only find with a runner ahead to catch. |
 | `domains` | Wealth · Social · Career |
 | `metric` | competitiveness |
 
@@ -50,7 +50,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Metal runs through your wealth, your family and your career. It is the money you put aside each month that grows while you sleep, the home where the spare key is on its hook, and the small print you read right to the end. |
+| `lead` | Metal runs through your wealth, your family and your career. It is the money you set aside each month that earns while you sleep, the home where the spare key is on its hook, and the small print you read right to the end. |
 | `domains` | Wealth · Family · Career |
 | `metric` | discipline |
 
@@ -242,7 +242,7 @@
 
 | Field | Value |
 |---|---|
-| `lead` | Wood runs through your family, your mind and your health. It is the patience you keep for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you. |
+| `lead` | Wood runs through your family, your mind and your health. It is the patience you have for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you. |
 | `domains` | Family · Mind · Health |
 | `metric` | stability |
 

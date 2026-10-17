@@ -70,7 +70,7 @@
             "angles": {
               "drive": "You rise to a dare before deciding if you want it. You wake in a contest like nowhere else, so you weigh the rival more than the stakes. With you in the race, everyone runs faster.",
               "cost_self": "Rising to a dare tells you that you are in the game. You would sooner take a test than take a break, so rest never comes first. Your body pays for every race, including the ones you won.",
-              "cost_others": "You take up a friend's dare at full speed, before they can laugh it off. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. Nothing with you is ever just a game."
+              "cost_others": "You take up a friend's dare at full speed, before they can laugh it off. Winning in front of them matters more than keeping it friendly, so you play every round for keeps. Nothing with you is ever just a game."
             }
           },
           {
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "On a shared bet, you go all in before anyone asks. Holding back feels like not being there, so you put in your money before reading the terms. Your friends never have to wonder whose side you are on.",
               "cost_self": "Being all in is how you show you mean it. You put money where your friends are rather than where your sense is, because holding back feels worse than losing. Your savings rise and fall with the plans of the people you love.",
-              "cost_others": "With someone you like, you go all in without being asked. You would rather add your own money than ask if they wanted it, and you double what they put in. Their plan ends up bigger and riskier than the one they made."
+              "cost_others": "With someone you like, you go all in without being asked. You would rather add your own money than check whether they wanted it, and you double what they put in. Their plan ends up bigger and riskier than the one they made."
             }
           }
         ]
@@ -105,8 +105,8 @@
           {
             "word": "Spends for show",
             "angles": {
-              "drive": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You were buying a place at the table that was already yours.",
-              "cost_self": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You trade your own savings for a moment of looking generous.",
+              "drive": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival treat you. You were buying a place at the table that was already yours.",
+              "cost_self": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You are allowed to be generous in private.",
               "cost_others": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no chance to be generous back with you."
             }
           },
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. As the only one timing this race, you are free to call it done.",
               "cost_self": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. Later you repay every skipped rest, and at a higher price.",
-              "cost_others": "Even with a friend, you never switch off and hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove."
+              "cost_others": "Even with a friend, you stay switched on and hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove."
             }
           }
         ]
@@ -643,6 +643,46 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2 fire:F2-10",
       "replaced": "You give a friend's dare your full speed before they take it back. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. Nothing with you is ever just a game."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
+      "finding": "R3 soft close (permission)",
+      "replaced": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You trade your own savings for a moment of looking generous."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 fire:F3-13",
+      "replaced": "Even with a friend, you never switch off and hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 fire:F3-14",
+      "replaced": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival pay for you. You were buying a place at the table that was already yours."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 fire:F3-15",
+      "replaced": "With someone you like, you go all in without being asked. You would rather add your own money than ask if they wanted it, and you double what they put in. Their plan ends up bigger and riskier than the one they made."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r3-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R3 fire:F3-16",
+      "replaced": "You take up a friend's dare at full speed, before they can laugh it off. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. Nothing with you is ever just a game."
     }
   ]
 }
