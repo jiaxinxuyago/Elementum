@@ -1,0 +1,1402 @@
+[
+ {
+  "cell": "木_比肩",
+  "persona": "the Twin",
+  "define": "Running over, you fill all the space around you, since relying on yourself is what feels safe. Help never gets a turn, and the weight stays with you.",
+  "shown": [
+   {
+    "key": "K2 木_比肩 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Asks no one",
+    "angle": "drive",
+    "keep_as_is": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it.",
+    "close": "You are allowed to owe someone a piece of the load."
+   },
+   {
+    "key": "K2 木_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Always right",
+    "angle": "cost_self",
+    "keep_as_is": "Being right is a comfort you never run out of. Admitting a mistake costs you a piece of yourself, and you defend a wrong call as much as a right one.",
+    "close": "You come out of each argument right and without the lesson it held."
+   },
+   {
+    "key": "K2 木_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Keeps distance",
+    "angle": "cost_others",
+    "keep_as_is": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and your friends stay at the door.",
+    "close": "With that distance, you cost them a friend they could have reached."
+   }
+  ]
+ },
+ {
+  "cell": "木_劫财",
+  "persona": "the Rival",
+  "define": "Running over, the reach outgrows its roots. Falling behind is what you dread, and each new push costs ground the last one won.",
+  "shown": [
+   {
+    "key": "K2 木_劫财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Bets too big",
+    "angle": "drive",
+    "keep_as_is": "You size every bet past what the moment asks. More drive sits in you than one plan can use, and the extra goes into the stake instead of the base under it.",
+    "close": "You fund next year's bet with the money this year needed."
+   },
+   {
+    "key": "K2 木_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Never stops racing",
+    "angle": "cost_self",
+    "keep_as_is": "Racing without a finish is the shape of your effort. You keep going past where rest would pay rather than let anyone pass you.",
+    "close": "You trade each win for another race and never take the rest you earned."
+   },
+   {
+    "key": "K2 木_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Spends shared money",
+    "angle": "cost_others",
+    "keep_as_is": "Before asking, you spend what was pooled and settle the split later. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed.",
+    "close": "Each time you spend the shared money, you spend their say in it too."
+   }
+  ]
+ },
+ {
+  "cell": "木_食神",
+  "persona": "the Artisan",
+  "define": "As a friction, the current spreads wide and shallow. Your strength drains away into pleasant hours, because each day has to feel good.",
+  "shown": [
+   {
+    "key": "K2 木_食神 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Coasts along",
+    "angle": "drive",
+    "keep_as_is": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point.",
+    "close": "You coast a long way on ease and stop just short of the finish."
+   },
+   {
+    "key": "K2 木_食神 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Never says no",
+    "angle": "cost_self",
+    "keep_as_is": "Never saying no is how you stay loved. You would rather be tired than be the one who said no, so you run on less rest than anyone around you knows.",
+    "close": "You lose sleep to each yes, and one no wins some of it back."
+   },
+   {
+    "key": "K2 木_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Comfort first",
+    "angle": "cost_others",
+    "keep_as_is": "You put comfort first for those in your care too. You would rather see them happy now than stretched, and you pick the easy choice over the useful one.",
+    "close": "You trade the effort they would grow on for an hour of ease."
+   }
+  ]
+ },
+ {
+  "cell": "木_伤官",
+  "persona": "the Virtuoso",
+  "define": "As a friction, the current runs loud. Each word leaves at full force for the rush of it and costs more than it brings.",
+  "shown": [
+   {
+    "key": "K2 木_伤官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Talks back",
+    "angle": "drive",
+    "keep_as_is": "Talking back is your first move. A rule you did not choose feels like being talked down to, so you answer it before hearing it out.",
+    "close": "You win the moment by talking back and spend the week on the repairs."
+   },
+   {
+    "key": "K2 木_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Shows off",
+    "angle": "cost_self",
+    "keep_as_is": "Showing off is how you check you exist in a group. Since plain company leaves you feeling unseen, you show off instead of letting yourself be ordinary.",
+    "close": "With a show always running, you never find out how much you are liked as you are."
+   },
+   {
+    "key": "K2 木_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Goes too far",
+    "angle": "cost_others",
+    "keep_as_is": "You go too far with people who have to live with it. Because a half-done thing bothers you more than a worn-out person, you push the shared plan past where they meant to stop.",
+    "close": "You spend their rest along with yours on the extra step."
+   }
+  ]
+ },
+ {
+  "cell": "木_偏财",
+  "persona": "the Horizon",
+  "define": "As a friction, your Action reaches wider than your strength can follow. Wanting every road left open, you reach the end of very few.",
+  "shown": [
+   {
+    "key": "K2 木_偏财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Chases the new",
+    "angle": "drive",
+    "keep_as_is": "Whatever is newest in front of you is what you chase hardest. Beginning is what wakes you up, and you chase the fresh start over the finish.",
+    "close": "You leave a row of half-done things behind you, each one new when you started."
+   },
+   {
+    "key": "K2 木_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Spread thin",
+    "angle": "cost_self",
+    "keep_as_is": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained.",
+    "close": "Spread this thin, you never get a full rest and start each day already tired."
+   },
+   {
+    "key": "K2 木_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Spends freely",
+    "angle": "cost_others",
+    "keep_as_is": "Spending on the people near you comes before your own next month. Because helping them feels better than holding on, you spend on their short weeks rather than a shared cushion.",
+    "close": "You spend the savings meant to carry all of you through a lean month."
+   }
+  ]
+ },
+ {
+  "cell": "木_正财",
+  "persona": "the Steward",
+  "define": "As a friction, the work takes more out of you than it gives back. Needing to feel covered, you guard each gain and take little joy in it.",
+  "shown": [
+   {
+    "key": "K2 木_正财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Stays too long",
+    "angle": "drive",
+    "keep_as_is": "Leaving comes hard to you, and you stay where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs.",
+    "close": "You keep paying in effort every month to a place that returns none of it."
+   },
+   {
+    "key": "K2 木_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Counts everything",
+    "angle": "cost_self",
+    "keep_as_is": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day.",
+    "close": "You give up the easy days that all your counting was meant to buy."
+   },
+   {
+    "key": "K2 木_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Slow to trust",
+    "angle": "cost_others",
+    "keep_as_is": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof.",
+    "close": "You hand all the proving to the one you love while you wait to trust."
+   }
+  ]
+ },
+ {
+  "cell": "木_七杀",
+  "persona": "the General",
+  "define": "As a friction, the demands outgrow your strength and the pressure turns inward. Even an hour of ease begins to feel unearned.",
+  "shown": [
+   {
+    "key": "K2 木_七杀 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Hard on yourself",
+    "angle": "drive",
+    "keep_as_is": "You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you.",
+    "close": "All you want is to get it right, and you would rather pay for a mistake than fix it."
+   },
+   {
+    "key": "K2 木_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Never switches off",
+    "angle": "cost_self",
+    "keep_as_is": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it.",
+    "close": "You trade your sleep for that open job and never get the hours back."
+   },
+   {
+    "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Impossible to please",
+    "angle": "cost_others",
+    "keep_as_is": "Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard.",
+    "close": "You walk away with their ease and leave them guessing what would please you."
+   }
+  ]
+ },
+ {
+  "cell": "木_正官",
+  "persona": "the Magistrate",
+  "define": "As a friction, the rules spread past where they belong, and order feels too safe to question. The structure that steadied you starts to box you in.",
+  "shown": [
+   {
+    "key": "K2 木_正官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "By the book",
+    "angle": "drive",
+    "keep_as_is": "You go by the book, even where it was never meant to reach. Since a written rule feels surer than a guess, you go with the book instead of your own judgment.",
+    "close": "You are free to trust your guess wherever the book runs out."
+   },
+   {
+    "key": "K2 木_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Never bends",
+    "angle": "cost_self",
+    "keep_as_is": "Never bending keeps you honest and keeps you tired. Since a new plan feels like being pushed, you hold your shape instead of saving your strength.",
+    "close": "You lose every chance that arrives as a change, and you lose it by refusing to bend."
+   },
+   {
+    "key": "K2 木_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Rank comes first",
+    "angle": "cost_others",
+    "keep_as_is": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the one in charge your best rather than the one beside you.",
+    "close": "You send the credit for shared work upward, past your peers."
+   }
+  ]
+ },
+ {
+  "cell": "木_偏印",
+  "persona": "the Alchemist",
+  "define": "As a friction, you take in far more than you use. What you know piles up out of sight, because a thing half known feels unsafe to act on.",
+  "shown": [
+   {
+    "key": "K2 木_偏印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Thinks in circles",
+    "angle": "drive",
+    "keep_as_is": "Thinking a question through means walking all the way round it first. Being certain weighs more with you than being quick, so you take one more angle rather than decide.",
+    "close": "You circle a question for weeks that a single choice would have closed."
+   },
+   {
+    "key": "K2 木_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Keeps it in",
+    "angle": "cost_self",
+    "keep_as_is": "Keeping it in feels safer than being half understood. The private version stays perfect while the spoken one takes its chances, so you say the smaller idea.",
+    "close": "You keep the idea whole and lose the one thing you wanted from it, being known."
+   },
+   {
+    "key": "K2 木_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Hides away",
+    "angle": "cost_others",
+    "keep_as_is": "When people who love you reach for you, you hide longer. Being out of reach feels more like safety than absence, and your seat sits empty.",
+    "close": "On the days that count, you leave them a friend short."
+   }
+  ]
+ },
+ {
+  "cell": "木_正印",
+  "persona": "the Sage",
+  "define": "As a friction, shelter gathers round you thicker than you need, and the near and known feel like the only safe ground. Nothing new finds space to take root.",
+  "shown": [
+   {
+    "key": "K2 木_正印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Helps too soon",
+    "angle": "drive",
+    "keep_as_is": "You help the moment you see a need, before being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried.",
+    "close": "Helping this soon, you teach them that they needed you."
+   },
+   {
+    "key": "K2 木_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Holds too tight",
+    "angle": "cost_self",
+    "keep_as_is": "Holding too tight keeps what you grew from leaving. Keeping someone close feels safer than making new friends, so the few you hold become all you have.",
+    "close": "You lose the friends you never made to the grip, and the loss is quiet enough to miss."
+   },
+   {
+    "key": "K2 木_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Stays put",
+    "angle": "cost_others",
+    "keep_as_is": "When those close to you want to move, you stay put and stall. Keeping things as they are feels steadier to you than change, and you hold everyone in place.",
+    "close": "You slow the move they wanted to the pace that suits you."
+   }
+  ]
+ },
+ {
+  "cell": "火_比肩",
+  "persona": "the Twin",
+  "define": "Running over, your strength is too much your own. Leaning on anyone feels like losing ground, and every load stays yours to carry.",
+  "shown": [
+   {
+    "key": "K2 火_比肩 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Goes it alone",
+    "angle": "drive",
+    "keep_as_is": "You go it alone by default, before anyone refuses to help. Waiting on help feels like being slowed, so you do it yourself rather than explain it to anyone.",
+    "close": "You finish sooner and carry the full weight with no one to share it."
+   },
+   {
+    "key": "K2 火_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Won't be told",
+    "angle": "cost_self",
+    "keep_as_is": "A peer's correction stings more than being wrong. You repeat your own mistake rather than take a peer's version, since yours at least stays yours.",
+    "close": "You end up paying for the same mistake twice, and the second time you pay alone."
+   },
+   {
+    "key": "K2 火_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Walls people out",
+    "angle": "cost_others",
+    "keep_as_is": "You put the wall up highest when someone gets closest. Being seen as fine from a distance matters more than being seen tired up close, so you keep a peer at arm's length.",
+    "close": "You leave them a friend they can see and never quite reach."
+   }
+  ]
+ },
+ {
+  "cell": "火_劫财",
+  "persona": "the Rival",
+  "define": "Running over, your strength hunts for a contest in everything. Your need to stay ahead burns through rest and friendship alike.",
+  "shown": [
+   {
+    "key": "K2 火_劫财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Hates to lose",
+    "angle": "drive",
+    "keep_as_is": "Losing stays with you far longer than winning does. A rival's win feels like something taken from you, and you set out to get it back.",
+    "close": "You turn every friendly game into a fight and miss the fun of playing."
+   },
+   {
+    "key": "K2 火_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Spends for show",
+    "angle": "cost_self",
+    "keep_as_is": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure.",
+    "close": "You trade your own savings for a moment of looking generous."
+   },
+   {
+    "key": "K2 火_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Never off",
+    "angle": "cost_others",
+    "keep_as_is": "Even with a friend, you never switch off and hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk.",
+    "close": "You keep from them a friend with nothing to prove."
+   }
+  ]
+ },
+ {
+  "cell": "火_食神",
+  "persona": "the Artisan",
+  "define": "As a friction, the warmth runs toward the comfort you need. Your hours go to the soft option and the next favour, and your own work stays undone.",
+  "shown": [
+   {
+    "key": "K2 火_食神 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Never says no",
+    "angle": "drive",
+    "keep_as_is": "Saying no has never come easily to you. A yes keeps the evening warm and everyone pleased, and you agree before you check what it costs.",
+    "close": "You never had to buy your place with a yes."
+   },
+   {
+    "key": "K2 火_食神 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Drifts",
+    "angle": "cost_self",
+    "keep_as_is": "Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so once again you put off the thing you meant to start.",
+    "close": "You lose the one thing you most wanted to make, a day at a time."
+   },
+   {
+    "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Pleasure first",
+    "angle": "cost_others",
+    "keep_as_is": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and the evening wins.",
+    "close": "You leave them short on the plans you made together."
+   }
+  ]
+ },
+ {
+  "cell": "火_伤官",
+  "persona": "the Virtuoso",
+  "define": "As a friction, the flame burns hotter than the moment asks, because you come alive in the light. Each blaze costs you strength you meant to keep.",
+  "shown": [
+   {
+    "key": "K2 火_伤官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Talks back",
+    "angle": "drive",
+    "keep_as_is": "Talking back comes faster to you than letting it pass. Being told what to do feels like shrinking, and you talk back rather than let a rule stand.",
+    "close": "You win the moment and spend goodwill you will need the next time you ask for something."
+   },
+   {
+    "key": "K2 火_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Needs an audience",
+    "angle": "cost_self",
+    "keep_as_is": "Without an audience, you will not start. Practising alone feels like wasted effort, and you save the real work for a crowd rather than do it unseen.",
+    "close": "You lose the quiet practice that your talent needs most to grow."
+   },
+   {
+    "key": "K2 火_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Overdoes it",
+    "angle": "cost_others",
+    "keep_as_is": "For people who asked for little, you overdo it anyway. A plain yes seems too small to you, so you hand them the full production instead of what they named.",
+    "close": "You load them with more than they wanted, plus the work of thanking you."
+   }
+  ]
+ },
+ {
+  "cell": "火_偏财",
+  "persona": "the Horizon",
+  "define": "As a friction, the light runs ahead of its fuel. The next thing makes you feel alive, and what you already have burns down behind you.",
+  "shown": [
+   {
+    "key": "K2 火_偏财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Chases the new",
+    "angle": "drive",
+    "keep_as_is": "The newest thing is what you want. Because new things wake you up, a fresh chance pulls you more than a half-done one holds you.",
+    "close": "With each chase, you trade away the catch already in your hands, the only one you were sure of."
+   },
+   {
+    "key": "K2 火_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Spends it fast",
+    "angle": "cost_self",
+    "keep_as_is": "Fast spending feels like freedom to you. You would rather have the thing now than the money later, and what comes in easily goes before it grows.",
+    "close": "You never build the stake a venture of your own would need."
+   },
+   {
+    "key": "K2 火_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Looks past home",
+    "angle": "cost_others",
+    "keep_as_is": "The people at home are the first you look past. Getting to the next venture matters more to you than being with them, so you give them what is left.",
+    "close": "You keep your full attention from them, even on the nights you are home."
+   }
+  ]
+ },
+ {
+  "cell": "火_正财",
+  "persona": "the Steward",
+  "define": "As a friction, each bright chance lands like a threat. Your need to feel secure keeps you braced against the heat until it wears you out.",
+  "shown": [
+   {
+    "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Counts everything",
+    "angle": "drive",
+    "keep_as_is": "You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes before enjoying the thing.",
+    "close": "Underneath the counting, you want to enjoy what you have."
+   },
+   {
+    "key": "K2 火_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Plays it safe",
+    "angle": "cost_self",
+    "keep_as_is": "What you already have feels too precious to risk. Reaching for more feels like gambling, and you take the sure thing instead of the bigger one.",
+    "close": "Over the years, you give up more in missed chances than playing it safe ever saves you."
+   },
+   {
+    "key": "K2 火_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Holds back",
+    "angle": "cost_others",
+    "keep_as_is": "You hold back hardest where you love most. You keep a reserve rather than give it all, and the person closest to you gets the careful share only.",
+    "close": "You feel more warmth than they ever get to see."
+   }
+  ]
+ },
+ {
+  "cell": "火_七杀",
+  "persona": "the General",
+  "define": "As a friction, the heat keeps coming, and a quiet day feels to you like danger. You wear down the strength your rank stands on.",
+  "shown": [
+   {
+    "key": "K2 火_七杀 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Hard on yourself",
+    "angle": "drive",
+    "keep_as_is": "You are harder on yourself than anyone else has been. Letting a mistake go feels like letting yourself off, and you go over it long after everyone else has moved on.",
+    "close": "You paid for each mistake the first time, and that was enough."
+   },
+   {
+    "key": "K2 火_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Pushes too hard",
+    "angle": "cost_self",
+    "keep_as_is": "Each time you push too hard, you draw on strength you do not have. You would rather push through than keep the energy to finish the week.",
+    "close": "By the weekend you are short on sleep and on everything you meant to save."
+   },
+   {
+    "key": "K2 火_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Never off duty",
+    "angle": "cost_others",
+    "keep_as_is": "Staying on duty is how you love the people in your care. Watching over them comes easier to you than sitting with them, and you stand guard where they wanted company.",
+    "close": "You keep them safe and miss the evenings they hoped to share with you."
+   }
+  ]
+ },
+ {
+  "cell": "火_正官",
+  "persona": "the Magistrate",
+  "define": "As a friction, more standards reach you than you can meet, and each one tests your worth. You end up spent and never sure it was enough.",
+  "shown": [
+   {
+    "key": "K2 火_正官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Rule-bound",
+    "angle": "drive",
+    "keep_as_is": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one over the useful one.",
+    "close": "You wrote most of these rules yourself and are free to retire them."
+   },
+   {
+    "key": "K2 火_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Afraid to slip",
+    "angle": "cost_self",
+    "keep_as_is": "One slip stays with you longer than with anyone who saw it. Afraid to slip, you put looking steady ahead of feeling rested, until good days tire you like bad ones.",
+    "close": "You give up your evenings to guard against slips that mostly never come."
+   },
+   {
+    "key": "K2 火_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Waits your turn",
+    "angle": "cost_others",
+    "keep_as_is": "In meetings you wait your turn to speak, and the idea waits with you. Speaking before others feels like a step above your place, and the talk moves on before your turn comes.",
+    "close": "Your team loses the idea that would have helped them."
+   }
+  ]
+ },
+ {
+  "cell": "火_偏印",
+  "persona": "the Alchemist",
+  "define": "As a friction, more pours in than you can share. You sink deep into whatever warms you most, and little of it reaches anyone near you.",
+  "shown": [
+   {
+    "key": "K2 火_偏印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "One-track",
+    "angle": "drive",
+    "keep_as_is": "One idea at a time gets the whole of you. You feel awake only inside one subject, so you follow it all the way down instead of keeping the rest of the week going.",
+    "close": "You were only ever chasing the feeling of being awake."
+   },
+   {
+    "key": "K2 火_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "All or nothing",
+    "angle": "cost_self",
+    "keep_as_is": "All or nothing is the only speed you have. Since you never learn at half speed, you give a subject one hard month rather than a slow year, and the month ends first.",
+    "close": "You stop at half the skill, right where the feeling did."
+   },
+   {
+    "key": "K2 火_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Holds things in",
+    "angle": "cost_others",
+    "keep_as_is": "Most troubles you hold in until you have handled them. Since a struggle feels safer unspoken, you give your family the outcome rather than the story.",
+    "close": "Each time you do, you take from them the chance to stand beside you through it."
+   }
+  ]
+ },
+ {
+  "cell": "火_正印",
+  "persona": "the Sage",
+  "define": "As a friction, the warmth is more than you need. You wrap it around yourself and those you love, but inside that shelter little gets tested or grows.",
+  "shown": [
+   {
+    "key": "K2 火_正印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Protects too much",
+    "angle": "drive",
+    "keep_as_is": "You protect the people you love more than they need. Feeling safe is what you want most, and you guard them the way you wish to be guarded.",
+    "close": "You are allowed to stand beside a struggle without taking it over."
+   },
+   {
+    "key": "K2 火_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Leans on others",
+    "angle": "cost_self",
+    "keep_as_is": "The care you give so freely is also the care you lean on in return. Because another person's steadiness feels more reliable than yours, you lean on theirs rather than build your own.",
+    "close": "You go without the one kind of strength you cannot borrow."
+   },
+   {
+    "key": "K2 火_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Too comfortable",
+    "angle": "cost_others",
+    "keep_as_is": "Keeping the home as it is matters to you, even when the people you shelter want a change. Leaving things comfortable seems gentler to you than any plan that unsettles them.",
+    "close": "Just as your people are ready to move, you keep them in place."
+   }
+  ]
+ },
+ {
+  "cell": "土_比肩",
+  "persona": "the Twin",
+  "define": "Running over, your strength feels like enough for anything, and owing nobody becomes the rule. You end up carrying loads that others would have shared.",
+  "shown": [
+   {
+    "key": "K2 土_比肩 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Never asks",
+    "angle": "drive",
+    "keep_as_is": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out alone instead of handing any of it over.",
+    "close": "You carry each problem alone for longer than it needs."
+   },
+   {
+    "key": "K2 土_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Shuts people out",
+    "angle": "cost_self",
+    "keep_as_is": "Shutting people out feels like rest, and you reach for it too often. Your own company works so well that you mistake it for the plan rather than a break.",
+    "close": "You pay for that peace in closeness, one quiet evening at a time."
+   },
+   {
+    "key": "K2 土_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Takes no advice",
+    "angle": "cost_others",
+    "keep_as_is": "When a friend offers advice, you thank them and go your own way. You keep your own plan over theirs, and the care they put in goes to waste.",
+    "close": "You leave your friends unsure whether their help is welcome."
+   }
+  ]
+ },
+ {
+  "cell": "土_劫财",
+  "persona": "the Rival",
+  "define": "Running over, your strength looks for somewhere to prove itself. Each meeting becomes a match, and your peace rides on where you end up.",
+  "shown": [
+   {
+    "key": "K2 土_劫财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Always comparing",
+    "angle": "drive",
+    "keep_as_is": "In new company, you are comparing before you have said much. A clear rank makes you feel safe, and you compare yourself to someone rather than get to know them.",
+    "close": "You wanted a place among them, and ranking felt like the quick way in."
+   },
+   {
+    "key": "K2 土_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Hates losing",
+    "angle": "cost_self",
+    "keep_as_is": "Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests that would stretch you furthest.",
+    "close": "You protect a record with very few wins on it."
+   },
+   {
+    "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Spends to win",
+    "angle": "cost_others",
+    "keep_as_is": "Paying for everyone feels like winning to you, even when the money is shared. You would rather cover the whole bill than split it, and you dip into money pooled with others.",
+    "close": "Along with the money, you spend a plan you made together."
+   }
+  ]
+ },
+ {
+  "cell": "土_食神",
+  "persona": "the Artisan",
+  "define": "As a friction, the gate stays open for anyone in need. Being needed feels like home, but your own plans wait while the supply runs down.",
+  "shown": [
+   {
+    "key": "K2 土_食神 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Never stops giving",
+    "angle": "drive",
+    "keep_as_is": "Giving is the one thing you never run out of. Since being useful feels more like you than being rested, you keep giving after the supply behind it goes quiet.",
+    "close": "You are free to stop before you have nothing left to give."
+   },
+   {
+    "key": "K2 土_食神 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Drifts along",
+    "angle": "cost_self",
+    "keep_as_is": "Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one.",
+    "close": "While you drift, you let chances you were good enough for slip by, and you rarely count them."
+   },
+   {
+    "key": "K2 土_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Too soft",
+    "angle": "cost_others",
+    "keep_as_is": "You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you step in before the first try ends.",
+    "close": "You keep taking from them a struggle that was theirs to grow on."
+   }
+  ]
+ },
+ {
+  "cell": "土_伤官",
+  "persona": "the Virtuoso",
+  "define": "As a friction, the gate stays open and anything held in feels false to you. Your strength drains into more than each moment needs.",
+  "shown": [
+   {
+    "key": "K2 土_伤官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Pushes back",
+    "angle": "drive",
+    "keep_as_is": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it.",
+    "close": "You spend the same fight on a good plan as on a bad one."
+   },
+   {
+    "key": "K2 土_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Says too much",
+    "angle": "cost_self",
+    "keep_as_is": "Saying too much proves to you that you have something to add. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one.",
+    "close": "You talk away trust that comes back slower than it left."
+   },
+   {
+    "key": "K2 土_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Overdoes it",
+    "angle": "cost_others",
+    "keep_as_is": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now.",
+    "close": "You make them wait for more than they asked for."
+   }
+  ]
+ },
+ {
+  "cell": "土_偏财",
+  "persona": "the Horizon",
+  "define": "As a friction, more comes within reach than you can hold, because something new is what lifts you. Much of what you claim slips away before it pays.",
+  "shown": [
+   {
+    "key": "K2 土_偏财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Chases every chance",
+    "angle": "drive",
+    "keep_as_is": "The next chance always looks better to you than the one in your hands. Movement is how you feel alive, and you chase what is coming rather than work what is here.",
+    "close": "You only keep what you stay long enough to collect."
+   },
+   {
+    "key": "K2 土_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Spread too thin",
+    "angle": "cost_self",
+    "keep_as_is": "Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing.",
+    "close": "You run all of them on the one body you have."
+   },
+   {
+    "key": "K2 土_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Half-finished",
+    "angle": "cost_others",
+    "keep_as_is": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last.",
+    "close": "You give the people waiting your start and somebody else's finish."
+   }
+  ]
+ },
+ {
+  "cell": "土_正财",
+  "persona": "the Steward",
+  "define": "As a friction, what you own weighs more each year. You keep it near for comfort, and your hands stay full with no space for anything new.",
+  "shown": [
+   {
+    "key": "K2 土_正财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Keeps everything",
+    "angle": "drive",
+    "keep_as_is": "Letting a thing go is harder for you than keeping it. Having it within reach makes you feel safe, so you keep things for a someday need rather than a present use.",
+    "close": "You end up looking after everything you keep."
+   },
+   {
+    "key": "K2 土_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Hard to move",
+    "angle": "cost_self",
+    "keep_as_is": "Being hard to move keeps your life steady and small. You would rather weigh a move than make one, and the better place is taken while you weigh it.",
+    "close": "You lose the chance to go in the time you spend deciding."
+   },
+   {
+    "key": "K2 土_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Hates to spend",
+    "angle": "cost_others",
+    "keep_as_is": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you cut back on them first.",
+    "close": "You take what you save out of their share."
+   }
+  ]
+ },
+ {
+  "cell": "土_七杀",
+  "persona": "the General",
+  "define": "As a friction, the frame presses in. Needing to be ready for the worst, you carry the strain long past the danger.",
+  "shown": [
+   {
+    "key": "K2 土_七杀 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Hard on yourself",
+    "angle": "drive",
+    "keep_as_is": "Being hard on yourself is the pressure you never question. Before anyone outside can judge you, you have judged yourself, and you would sooner be hard on yourself than hear it from them.",
+    "close": "You pay for getting there first in calm you never get back."
+   },
+   {
+    "key": "K2 土_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Never off duty",
+    "angle": "cost_self",
+    "keep_as_is": "Whenever the work ends, you find a reason to stay on duty. You trust being needed more than being free, until a day off turns into a day waiting for a call.",
+    "close": "You refuse the rest that no one else can take for you."
+   },
+   {
+    "key": "K2 土_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Keeps tight control",
+    "angle": "cost_others",
+    "keep_as_is": "In your tight ship everyone has a job, and the people at home get theirs from you. You need things to run like a team, and your requests land as orders.",
+    "close": "You get what you ask for and rarely hear their ideas."
+   }
+  ]
+ },
+ {
+  "cell": "土_正官",
+  "persona": "the Magistrate",
+  "define": "As a friction, the frame decides for you. You need to feel on solid ground, and your own judgement goes unused.",
+  "shown": [
+   {
+    "key": "K2 土_正官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Follows every rule",
+    "angle": "drive",
+    "keep_as_is": "You follow every rule, including the ones nobody checks. You like knowing where you stand more than deciding for yourself, and you follow rules written for someone else too.",
+    "close": "You pay for that sureness with decisions that were yours to make."
+   },
+   {
+    "key": "K2 土_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Waits for permission",
+    "angle": "cost_self",
+    "keep_as_is": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you.",
+    "close": "Year after year, you miss what one question would bring."
+   },
+   {
+    "key": "K2 土_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Slow to change",
+    "angle": "cost_others",
+    "keep_as_is": "Even for those who need you to, you change slowly. Changing for one person feels less fair to you than keeping things the same, and you keep that person waiting.",
+    "close": "You make them live the old way while you decide."
+   }
+  ]
+ },
+ {
+  "cell": "土_偏印",
+  "persona": "the Alchemist",
+  "define": "As a friction, the holding never stops, and needing the full picture keeps you in your head. Chances to act pass while you are still taking it in.",
+  "shown": [
+   {
+    "key": "K2 土_偏印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Never quite ready",
+    "angle": "drive",
+    "keep_as_is": "You wait to feel ready rather than work to be ready, and getting ready never ends. Preparing is the part you control, and you choose another round of it over a first attempt.",
+    "close": "You are allowed to start before the feeling arrives."
+   },
+   {
+    "key": "K2 土_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Hard to reach",
+    "angle": "cost_self",
+    "keep_as_is": "Being reached feels like being spent, so you turn hard to reach before anything is asked. You take quiet over company until alone stops being a choice.",
+    "close": "You trade being reached for a loneliness you only feel later."
+   },
+   {
+    "key": "K2 土_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Second-guesses",
+    "angle": "cost_others",
+    "keep_as_is": "Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you sit on the yes or no for weeks rather than give a maybe.",
+    "close": "You stall their next step for as long as you second-guess."
+   }
+  ]
+ },
+ {
+  "cell": "土_正印",
+  "persona": "the Sage",
+  "define": "As a friction, the holding never stops. Familiar ground draws you in, every change looks like a threat, and your life grows smaller each year.",
+  "shown": [
+   {
+    "key": "K2 土_正印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Stays near home",
+    "angle": "drive",
+    "keep_as_is": "You stay close to home and the few people who hold you steady. Being held is where you feel most yourself, and you go back to that shelter over any open road.",
+    "close": "The wider world reaches you mostly second-hand."
+   },
+   {
+    "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Overprotective",
+    "angle": "cost_self",
+    "keep_as_is": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you.",
+    "close": "You look after everyone and leave no one looking after you."
+   },
+   {
+    "key": "K2 土_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Same old answers",
+    "angle": "cost_others",
+    "keep_as_is": "Your first answer to someone's new idea is the same old one. Because you find a tested answer kinder, you give the old one rather than the one asked for.",
+    "close": "You send them off with your answer in place of theirs."
+   }
+  ]
+ },
+ {
+  "cell": "金_比肩",
+  "persona": "the Twin",
+  "define": "Running over, the need to stand on your own sets hard. You carry more than you have to, and nobody sees what it costs.",
+  "shown": [
+   {
+    "key": "K2 金_比肩 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Sealed-off",
+    "angle": "drive",
+    "keep_as_is": "You stay sealed off long after the reason has gone. Needing no one once kept you safe, and you still shut out help without checking whether you want any.",
+    "close": "Remember that you meant to keep out the hurt and never the people near you."
+   },
+   {
+    "key": "K2 金_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Unteachable",
+    "angle": "cost_self",
+    "keep_as_is": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend your position rather than learn from theirs.",
+    "close": "You lose every lesson that needed you to be wrong before it could teach you."
+   },
+   {
+    "key": "K2 金_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Asks no one",
+    "angle": "cost_others",
+    "keep_as_is": "Being nobody's burden is why you ask no one. You would rather owe nothing than share the load, and you take the job back the moment someone offers.",
+    "close": "You send away the person who offered and leave them no way to help you."
+   }
+  ]
+ },
+ {
+  "cell": "金_劫财",
+  "persona": "the Rival",
+  "define": "Running over, your will needs a contest and finds one wherever you go. Wanting to know where you stand costs you the company you came for.",
+  "shown": [
+   {
+    "key": "K2 金_劫财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Keeps score",
+    "angle": "drive",
+    "keep_as_is": "You keep an exact score with everyone you like. Afraid of giving more than you get, you lean on comparison more than friendship and keep a quiet tally.",
+    "close": "Keep in mind that you wanted the closeness long before you wanted the score."
+   },
+   {
+    "key": "K2 金_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Bets the rent",
+    "angle": "cost_self",
+    "keep_as_is": "Where the bet is biggest, you are calmest, and you take that as a sign. Trusting nerve more than numbers, you bet with the rent before the sums are done.",
+    "close": "You come out of that calm short on rent and short on sleep."
+   },
+   {
+    "key": "K2 金_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Hates to lose",
+    "angle": "cost_others",
+    "keep_as_is": "Even a friendly game feels like a test you cannot fail. Since you want the win more than the evening, you keep arguing after the last point.",
+    "close": "You cost the people you play with the fun of the game."
+   }
+  ]
+ },
+ {
+  "cell": "金_食神",
+  "persona": "the Artisan",
+  "define": "As a friction, the gate stays wide open, since making is how you feel real. Your strength runs out through your hands faster than it comes back.",
+  "shown": [
+   {
+    "key": "K2 金_食神 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Hard to please",
+    "angle": "drive",
+    "keep_as_is": "Pleasing you takes exactness. A thing has to be right in every detail before it pleases you, and you check the small part rather than enjoy the whole.",
+    "close": "You are allowed to be pleased by a thing that is nearly right."
+   },
+   {
+    "key": "K2 金_食神 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Gives too much",
+    "angle": "cost_self",
+    "keep_as_is": "Giving too much leaves you with the least. Since keeping a thing for yourself feels mean to you, you give the best one away rather than hold on to it.",
+    "close": "With every gift, you give away a little more of your own rest."
+   },
+   {
+    "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Takes it easy",
+    "angle": "cost_others",
+    "keep_as_is": "Whenever you take it easy, you take people with you. Your first try already looks right, and they see the ease without the care behind it.",
+    "close": "You pass on the ease but never the care."
+   }
+  ]
+ },
+ {
+  "cell": "金_伤官",
+  "persona": "the Virtuoso",
+  "define": "As a friction, the gate stays wide open, since being exact is how you feel safe. Your edge comes out before your warmth, and closeness pays for it.",
+  "shown": [
+   {
+    "key": "K2 金_伤官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Too direct",
+    "angle": "drive",
+    "keep_as_is": "Direct is the only setting you have for the truth. A softened answer feels like a lie you would have to keep up, so you say it exactly rather than gently.",
+    "close": "You only ever wanted to be believed, and the hurt was never the point."
+   },
+   {
+    "key": "K2 金_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Talks back",
+    "angle": "cost_self",
+    "keep_as_is": "You talk back hardest to the people who correct you. Because being corrected feels like being made small, you talk back to whoever could teach you instead of learning from them.",
+    "close": "You win the back-and-forth and leave the lesson behind."
+   },
+   {
+    "key": "K2 金_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Grades people",
+    "angle": "cost_others",
+    "keep_as_is": "When you meet someone, you grade them before you greet them. The fast read feels more honest than the slow one, and you give people the grade instead of your attention.",
+    "close": "You rarely let anyone change the first grade you gave them."
+   }
+  ]
+ },
+ {
+  "cell": "金_偏财",
+  "persona": "the Horizon",
+  "define": "As a friction, you claim far more than you see through. Your freedom lives in the next chance, and the one in hand rarely pays off.",
+  "shown": [
+   {
+    "key": "K2 金_偏财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Always moving on",
+    "angle": "drive",
+    "keep_as_is": "The move you trust most is moving on. You need the next place in view to feel free, so you move on at the first slow week rather than stay.",
+    "close": "You walk away from what each venture cost you to start."
+   },
+   {
+    "key": "K2 金_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Spread thin",
+    "angle": "cost_self",
+    "keep_as_is": "Spread thin, you never learn what you could do whole. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better.",
+    "close": "You pay in rest never taken and in the one venture that would have paid."
+   },
+   {
+    "key": "K2 金_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Spends it all",
+    "angle": "cost_others",
+    "keep_as_is": "Spending it all feels like generosity to you. You spend it on the bill, the gift and the loan, since giving suits you better than keeping.",
+    "close": "You meant to make the people you love feel rich, and you leave them short for later."
+   }
+  ]
+ },
+ {
+  "cell": "金_正财",
+  "persona": "the Steward",
+  "define": "As a friction, what you own starts to own you. A loss weighs more with you than any gain.",
+  "shown": [
+   {
+    "key": "K2 金_正财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Holds on tight",
+    "angle": "drive",
+    "keep_as_is": "Holding on tight makes what you have feel safe. You would rather keep a thing than risk losing it, and you grip money, things and people past where holding helps.",
+    "close": "You have every right to let go of what you no longer want."
+   },
+   {
+    "key": "K2 金_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Plays it safe",
+    "angle": "cost_self",
+    "keep_as_is": "Playing it safe keeps you out of the loss column and the win column. You take the known small wage rather than the unknown better one, since playing safe is never judged.",
+    "close": "You pay for playing it safe in the chance you watched others take."
+   },
+   {
+    "key": "K2 金_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Avoids change",
+    "angle": "cost_others",
+    "keep_as_is": "Where you avoid change, you avoid it for others too. You keep the person you love inside the agreed life instead of letting them change it.",
+    "close": "You avoid change for yourself, and they go without any too."
+   }
+  ]
+ },
+ {
+  "cell": "金_七杀",
+  "persona": "the General",
+  "define": "As a friction, the line cuts deeper than any task asks, because easing off feels unsafe. You wear out long before the work does.",
+  "shown": [
+   {
+    "key": "K2 金_七杀 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Hard on yourself",
+    "angle": "drive",
+    "keep_as_is": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one.",
+    "close": "You answer to no judge harder than yourself."
+   },
+   {
+    "key": "K2 金_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Never off duty",
+    "angle": "cost_self",
+    "keep_as_is": "Off duty is a state you never fully manage. The alert in you never stands down, and you spend a free evening on duty rather than inside it.",
+    "close": "You lose the rest your evenings off were meant to give you."
+   },
+   {
+    "key": "K2 金_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Pushes too hard",
+    "angle": "cost_others",
+    "keep_as_is": "Your care comes out as a hard push. You push loved ones toward their good before asking, and those closest to you get force in place of patience.",
+    "close": "With every push, you take from them the chance to get there at their own pace."
+   }
+  ]
+ },
+ {
+  "cell": "金_正官",
+  "persona": "the Magistrate",
+  "define": "As a friction, the line closes in around you, because a clean record is what lets you rest. Much that is yours stays unclaimed.",
+  "shown": [
+   {
+    "key": "K2 金_正官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Needs permission",
+    "angle": "drive",
+    "keep_as_is": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours.",
+    "close": "You hold the yes you keep waiting for, and it is yours to give."
+   },
+   {
+    "key": "K2 金_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Hates being wrong",
+    "angle": "cost_self",
+    "keep_as_is": "Being wrong is what you have no procedure for. Right answers feel like the only safe ones, and you hold opinions back rather than risk a mistake.",
+    "close": "You lose every idea you kept back for fear of being wrong."
+   },
+   {
+    "key": "K2 金_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Puts rules first",
+    "angle": "cost_others",
+    "keep_as_is": "Unsure of someone, you put the rule first. A rule treats everyone the same, and you apply it before the person's case.",
+    "close": "Each time the rule goes first, their side of it comes last."
+   }
+  ]
+ },
+ {
+  "cell": "金_偏印",
+  "persona": "the Alchemist",
+  "define": "As a friction, the test runs on past its use. Your need for certainty costs you whole days of proving what is already proved.",
+  "shown": [
+   {
+    "key": "K2 金_偏印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Never done checking",
+    "angle": "drive",
+    "keep_as_is": "You are never done checking. Letting a thing out early feels like a mistake you cannot undo, so you check once more rather than hand it over.",
+    "close": "You stopped finding errors long ago and now check for comfort."
+   },
+   {
+    "key": "K2 金_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Too exact",
+    "angle": "cost_self",
+    "keep_as_is": "Being exact costs you people who talk loosely. You correct a small error in a story rather than let it land, and over time fewer people tell you much.",
+    "close": "You wanted to be told more than you wanted it exact."
+   },
+   {
+    "key": "K2 金_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Hard to reach",
+    "angle": "cost_others",
+    "keep_as_is": "Reaching you means waiting for a thought to finish first. You put the unfinished idea ahead of the person at the door, and your silence lands as the answer.",
+    "close": "You hold back your company from them until the thought is done."
+   }
+  ]
+ },
+ {
+  "cell": "金_正印",
+  "persona": "the Sage",
+  "define": "As a friction, shelter piles up around you. Cover feels like safety to you, and you spend years under a roof you have outgrown.",
+  "shown": [
+   {
+    "key": "K2 金_正印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Stays the student",
+    "angle": "drive",
+    "keep_as_is": "You stay the student long after you were able to teach. Learning under someone suits you more than standing alone, and that keeps your seat in the back row past its use.",
+    "close": "You need no one's permission to stop being the student."
+   },
+   {
+    "key": "K2 金_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Too protective",
+    "angle": "cost_self",
+    "keep_as_is": "Being too protective costs you your sleep. You carry every risk your family should carry themselves, and you choose tired over watching them hurt.",
+    "close": "You lose your own rest to every risk you take off their hands."
+   },
+   {
+    "key": "K2 金_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Waits to hear",
+    "angle": "cost_others",
+    "keep_as_is": "When others look to you for a call, you wait to be told too. You want the shelter of a wiser word first, and the people counting on you wait while you ask.",
+    "close": "They lose days to a decision you had already reached."
+   }
+  ]
+ },
+ {
+  "cell": "水_比肩",
+  "persona": "the Twin",
+  "define": "Running over, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
+  "shown": [
+   {
+    "key": "K2 水_比肩 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Keeps to yourself",
+    "angle": "drive",
+    "keep_as_is": "You keep to yourself even among people you like. Your own company is where you feel steady, and you share your days without sharing much of what is in them.",
+    "close": "Those who love you know your habits better than your heart."
+   },
+   {
+    "key": "K2 水_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Never asks",
+    "angle": "cost_self",
+    "keep_as_is": "Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for company.",
+    "close": "You miss out on the ease that help would have given you."
+   },
+   {
+    "key": "K2 水_比肩 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Expects the same",
+    "angle": "cost_others",
+    "keep_as_is": "Whenever you expect the same from a peer, you hand them your standard without asking for theirs. You judge their effort by your own rather than by what they had to give.",
+    "close": "You hold back the credit their effort had already earned."
+   }
+  ]
+ },
+ {
+  "cell": "水_劫财",
+  "persona": "the Rival",
+  "define": "Running over, the depth churns with no outlet. You need to prove yourself among friends, and the drive never lets you stop.",
+  "shown": [
+   {
+    "key": "K2 水_劫财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Races in secret",
+    "angle": "drive",
+    "keep_as_is": "Racing in secret keeps the race one you cannot lose. You fear losing in the open, and you measure a friend quietly rather than name the race.",
+    "close": "Remember that you race a friend because you want to count as their equal."
+   },
+   {
+    "key": "K2 水_劫财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Spends shared money",
+    "angle": "cost_self",
+    "keep_as_is": "Spending from the shared pot is the easiest money there is. Wanting a good night for everyone, you let the pot pay for it before your own savings do.",
+    "close": "You end up owing the group more than you noticed spending."
+   },
+   {
+    "key": "K2 水_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Never enough",
+    "angle": "cost_others",
+    "keep_as_is": "Whenever enough is not enough, you keep your partners running past their finish. You push for the next round before asking, and they put in more than they meant.",
+    "close": "You use up the break they had planned to take at the end."
+   }
+  ]
+ },
+ {
+  "cell": "水_食神",
+  "persona": "the Artisan",
+  "define": "As a friction, you spend care faster than it refills, because being needed feels like safety. By evening little is left for your own plans.",
+  "shown": [
+   {
+    "key": "K2 水_食神 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Drifts along",
+    "angle": "drive",
+    "keep_as_is": "Drifting is easier than steering, and most days you choose it. You want each day to stay easy, and you drift with what moves instead of picking a direction.",
+    "close": "You end up where the day takes you, rarely where you meant to go."
+   },
+   {
+    "key": "K2 水_食神 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Comfort first",
+    "angle": "cost_self",
+    "keep_as_is": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, while what you avoided waits for you unchanged.",
+    "close": "Remember that what you were after all along was rest."
+   },
+   {
+    "key": "K2 水_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Gives it away",
+    "angle": "cost_others",
+    "keep_as_is": "You give your hours to whoever is nearest, without deciding. Saying yes to everyone is easier than choosing, and the few counting on you get what is left.",
+    "close": "You give away to everyone the hours meant for the few."
+   }
+  ]
+ },
+ {
+  "cell": "水_伤官",
+  "persona": "the Virtuoso",
+  "define": "As a friction, words leave you before they settle, and holding one back feels like shrinking. You end up drained and explaining what you never meant.",
+  "shown": [
+   {
+    "key": "K2 水_伤官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Overshares",
+    "angle": "drive",
+    "keep_as_is": "What you think is already out loud, and the editing happens after. You want the thought heard while it is still fresh, and you share it before asking whether it is ready.",
+    "close": "You give away ideas before you have finished thinking them."
+   },
+   {
+    "key": "K2 水_伤官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Mocking",
+    "angle": "cost_self",
+    "keep_as_is": "Where something matters to you, you mock it to keep it at a distance. You mock the thing you want instead of being seen wanting it, and the wish stays private.",
+    "close": "You go without what you hoped for, because you never asked straight."
+   },
+   {
+    "key": "K2 水_伤官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Picks fights",
+    "angle": "cost_others",
+    "keep_as_is": "With whoever is in charge, you pick fights as your own kind of honesty. Because you fight in public rather than in private, you cost the one in charge their footing in front of others.",
+    "close": "You leave them no quiet way to answer you."
+   }
+  ]
+ },
+ {
+  "cell": "水_偏财",
+  "persona": "the Horizon",
+  "define": "As a friction, your Action moves on quicker than it settles. Each opening pulls you on before the last one pays.",
+  "shown": [
+   {
+    "key": "K2 水_偏财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Leaves too soon",
+    "angle": "drive",
+    "keep_as_is": "You leave a thing before it has finished with you. Staying feels like being stuck, and leaving a chance half done feels better than seeing it through.",
+    "close": "Remember that the next place looks better mostly because you have not stayed there."
+   },
+   {
+    "key": "K2 水_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Spends it fast",
+    "angle": "cost_self",
+    "keep_as_is": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting.",
+    "close": "Having spent the last windfall, you meet the next real opening with nothing to put in."
+   },
+   {
+    "key": "K2 水_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Looks past people",
+    "angle": "cost_others",
+    "keep_as_is": "Sitting with someone, you look past them at what comes next. You give the one beside you part of a look rather than the whole, and save the rest for the distance.",
+    "close": "You hold back the attention that person came for."
+   }
+  ]
+ },
+ {
+  "cell": "水_正财",
+  "persona": "the Steward",
+  "define": "As a friction, more comes at you than feels safe and you close the gate on it. Chances pass by before the water settles.",
+  "shown": [
+   {
+    "key": "K2 水_正财 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Holds it back",
+    "angle": "drive",
+    "keep_as_is": "You hold money back long after holding it back makes sense. Having it in the pool feels safer than having it out, so you hold it rather than use it.",
+    "close": "Remember that you were after the safety more than the money."
+   },
+   {
+    "key": "K2 水_正财 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Counts every cost",
+    "angle": "cost_self",
+    "keep_as_is": "Counting every cost protects you from being caught short. You would rather know what a kindness costs than take it, and you count the free ones too.",
+    "close": "You miss the closeness that comes from simply letting someone give."
+   },
+   {
+    "key": "K2 水_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Waits too long",
+    "angle": "cost_others",
+    "keep_as_is": "No matter how close the person asking, you wait to be sure. You put being certain ahead of being there, and you leave them holding the question.",
+    "close": "By the time you stop waiting, you have already taken the time they needed to plan."
+   }
+  ]
+ },
+ {
+  "cell": "水_七杀",
+  "persona": "the General",
+  "define": "As a friction, each rule becomes a demand on you. Falling short feels worse than strain to you, and the weight is seldom set down.",
+  "shown": [
+   {
+    "key": "K2 水_七杀 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Goes cold",
+    "angle": "drive",
+    "keep_as_is": "You go cold rather than say what hurt. Going cold keeps you in charge of the hurt, and silence gives no one a way back in.",
+    "close": "Keep in mind that you go cold wanting someone to come and find you."
+   },
+   {
+    "key": "K2 水_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Hard on yourself",
+    "angle": "cost_self",
+    "keep_as_is": "Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it.",
+    "close": "You pay for being this hard in rest you skip, because nothing you make gets to count."
+   },
+   {
+    "key": "K2 水_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Never lets up",
+    "angle": "cost_others",
+    "keep_as_is": "Letting up is something you refuse the people beside you as well. You would rather share the pressure than let up alone, and you keep them at your pace.",
+    "close": "Never letting up, you spend their evenings as freely as your own."
+   }
+  ]
+ },
+ {
+  "cell": "水_正官",
+  "persona": "the Magistrate",
+  "define": "As a friction, good standing feels like shelter and the rules weigh more than your wishes. Much goes untried and unspoken.",
+  "shown": [
+   {
+    "key": "K2 水_正官 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Holds the yes",
+    "angle": "drive",
+    "keep_as_is": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check.",
+    "close": "Good offers run out in the gap."
+   },
+   {
+    "key": "K2 水_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Waits for permission",
+    "angle": "cost_self",
+    "keep_as_is": "Waiting for permission keeps you in line. Since permission given feels cleaner than permission taken, you would rather keep your place than claim the next one.",
+    "close": "You watch the step above yours go to whoever stopped waiting first."
+   },
+   {
+    "key": "K2 水_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Bites your tongue",
+    "angle": "cost_others",
+    "keep_as_is": "You bite your tongue hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes.",
+    "close": "Biting your tongue costs them the one no they needed from you."
+   }
+  ]
+ },
+ {
+  "cell": "水_偏印",
+  "persona": "the Alchemist",
+  "define": "As a friction, the water rises faster than it drains, because you trust only what you know whole. Decisions wait while you turn each one over.",
+  "shown": [
+   {
+    "key": "K2 水_偏印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Thinks too much",
+    "angle": "drive",
+    "keep_as_is": "You think a decision over long after it stopped needing thought. You fear choosing wrong more than choosing late, and one more angle feels like care rather than delay.",
+    "close": "You never get the lesson that only a made choice could give you."
+   },
+   {
+    "key": "K2 水_偏印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Keeps it in",
+    "angle": "cost_self",
+    "keep_as_is": "Keeping it in keeps it from being judged. Inside is where an idea stays safe, and you hold yours back until it is perfect rather than let it out rough.",
+    "close": "You go unheard on the very things you understand best."
+   },
+   {
+    "key": "K2 水_偏印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Hard to reach",
+    "angle": "cost_others",
+    "keep_as_is": "You are hard to reach while a thought is unfinished, and most of yours are. Finishing the thought comes before answering the message, and the person waiting hears nothing for days.",
+    "close": "You leave them with less of you than they came for."
+   }
+  ]
+ },
+ {
+  "cell": "水_正印",
+  "persona": "the Sage",
+  "define": "As a friction, the water pools and goes still. Safe places draw you in, and your own plans wait there with you.",
+  "shown": [
+   {
+    "key": "K2 水_正印 · fn_reading.friction.ledger[0].angles.drive",
+    "word": "Lets it drift",
+    "angle": "drive",
+    "keep_as_is": "You let things drift rather than decide them, and you call it patience. You dread getting it wrong, and choosing costs you more than going along.",
+    "close": "You end up with the days that happened instead of the ones you wanted."
+   },
+   {
+    "key": "K2 水_正印 · fn_reading.friction.ledger[1].angles.cost_self",
+    "word": "Stays sheltered",
+    "angle": "cost_self",
+    "keep_as_is": "Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, and you stay long past the day leaving was open to you.",
+    "close": "You are allowed to be tested and come home again."
+   },
+   {
+    "key": "K2 水_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+    "word": "Over-protects",
+    "angle": "cost_others",
+    "keep_as_is": "Whenever someone you love is about to struggle, you over-protect and step in first. Sparing them the hard part feels like love, and you choose their comfort rather than their growing.",
+    "close": "You take from them the one lesson that would have stuck."
+   }
+  ]
+ }
+]
