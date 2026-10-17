@@ -1,0 +1,356 @@
+[
+ {
+  "key": "PAIR 木_土 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. Neither the chase nor the keeping outgrows the other.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-03",
+    "criterion": "A1 · D3 (Balanced, R2-1)",
+    "issue": "Both keywords show the chase outgrowing the keeping.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, firm ground holds under each new reach. After a lean year, you still have something solid to stand on.\" (41)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 火_金 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. What comes in is enjoyed, and some of it stays.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-04",
+    "criterion": "A1 · D3 (Balanced, R2-1)",
+    "issue": "The keyword says the payday is missed, and the definition says it is enjoyed.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, your reach and your means stay close together. You get through a slow month and still end up ahead.\" (47)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 土_水 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. What flows out and what comes back stay level.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-05",
+    "criterion": "A1 · D3 (Balanced, R2-1)",
+    "issue": "\"Level\" against \"swings\" on one screen: a flat contradiction.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. Whatever the tide does, you never run dry.\" (39)"
+   },
+   {
+    "id": "R3 water:W-012",
+    "criterion": "A1, R2-1 (a Balanced definition must not deny a persona's keywords)",
+    "issue": "On the same page, \"Shares freely\" closes on \"Life around you swings between plenty and making do\", and \"Moves early\" says the money \"lands in someone else's pocket\". The definition says the reader's flow is level, and the page then denies it twice.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out after what you want and come back with something to show for it.\" (47)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. What you want is a rival worth keeping up with.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-07",
+    "criterion": "M4 · D2 (new from the R2-2 picker)",
+    "issue": "The Rival leads in one passage and needs someone ahead in the next, on the same page. (Make the drive not need \"someone just ahead\", so it sits with \"Goes first\".)",
+    "auditor_note": "Show Loves a race on its cost_self angle (the P005 text: \"Being ahead feels better than being rested …\"), which agrees with Goes first. Add Goes first × Loves a race (drive) to the clash list."
+   }
+  ]
+ },
+ {
+  "key": "PAIR 木_水 · function.advise_friction",
+  "text": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-11",
+    "criterion": "M6 per reader (R2-5 residual)",
+    "issue": "The same act appears twice on one chart. Round 2 named this pair (X2-05), and it is still live. The finishing act belongs to Metal, which is 木_木's cure. 木_水 seeks Earth.",
+    "auditor_note": "\"Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Make one choice you have been weighing, and hold to it for a month. Fix one broken thing with your own hands.\" (59)"
+   },
+   {
+    "id": "R3 water:W-015",
+    "criterion": "M6, R2-5 (each act once per reader set, by meaning)",
+    "issue": "A strong (concentrated) Wood reader gets the friction pole on both Body and Mind (`energyRoles.js`: concentrated → friction on self and resource). That reader therefore reads this remedy and the 木_木 remedy, \"Close one open project this week and say it is done.\" Both say the same act: finish one open thing this week. The fix swaps this core's act for one drawn on Earth as Action. It answers the line before it, \"No amount of knowing decides for you.\" (Changing 木_木 instead would also work.)",
+    "auditor_note": "\"Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Make one choice this week and act on it the same day. Fix one broken thing with your own hands.\" (57)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard. You walk away with their ease and leave them guessing what would please you.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-14",
+    "criterion": "M5 · C (one chart)",
+    "issue": "Two personas own the same chip on one reader's chart, which also carries \"Hard on yourself\".",
+    "auditor_note": "Chip \"Pushes people\". \"Where you believe in someone, you push them furthest. Because you want them at their best, you pass on the strain as much as the standard. You walk away with their ease and leave them guessing what would please you.\" (40)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. Several friends got through their worst year under your roof.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-15",
+    "criterion": "A1 (a claim the reading cannot know)",
+    "issue": "It asserts a biography (a spare bed, friends' worst years), the same class as round 2's \"decades old\" friendships. It is false for many readers aged 18 to 35.",
+    "auditor_note": "\"You take people in, whatever space you have. Being the safe place is how you feel most yourself, and you would rather shelter someone than be sheltered. Friends in a bad week know your door is open.\" (37)"
+   },
+   {
+    "id": "R3 wood:W3-001",
+    "criterion": "A1, D2 (an error inside settled item 4; a claimed past)",
+    "issue": "The owner ruled that the Sage is drawn to shelter. This line denies that want outright, under a definition on the same page that says you lack \"a safe place to think it\". The close also states a past event the reading cannot know. This was filed in round 2 as W2-013 and is still live; waive it if the owner declined it then.",
+    "auditor_note": "\"You take people in, spare bed and all. The shelter you want for yourself is the one you find easiest to give, and your door stays open. You make a friend's worst year a little softer under your roof.\" (39 words)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 木_土 · function.advise_friction",
+  "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear. Begin one small project this month that is yours alone. Say no to one request before you say yes again.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-01",
+    "criterion": "A1 · D1 · M6",
+    "issue": "The remedy tells a reader who is overloaded and spread thin to start something new. On P063 it sits under \"you would rather open a new thing than close an old one\", and on P062 under \"no space for anything new\". \"alone\" also appears twice in a row. The round 2 act (\"Start each week with one thing only for you\") was swapped out under R2-5, and the new act works against the friction. I checked the weak-Wood set: \"hand one errand to someone\" (木_木 catalyst), rest days and learning (木_金), and the album (木_火) are all taken, and the act below repeats none of them.",
+    "auditor_note": "\"Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week by dropping one thing you no longer use. Say no to one request before you say yes again.\" (60 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. You take whoever is in it with you through every swing.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-03",
+    "criterion": "house rule (partner) · A2",
+    "issue": "\"Your partner\" and \"both of you\" assume a partner (R2-4). This field was not on an Earth page in round 2, so the sweep missed it. \"their caution becomes your dare\" takes two reads.",
+    "auditor_note": "\"On a shared stake, you bet someone else's year along with your own. You would rather win big for everyone in it than keep half safe, and you talk past their caution. You take whoever stakes with you through every swing.\" (41 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Your first answer to someone's new idea is the same old one. Because you find a tested answer kinder, you give the old one rather than the one asked for. You send them off with your answer in place of theirs.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-05",
+    "criterion": "A2 · C",
+    "issue": "\"answer\" appears four times and \"one\" five times in 41 words. \"the one asked for\" has no clear referent (no answer was asked for; an idea was offered).",
+    "auditor_note": "\"Your first reply to a new idea is one that has worked before. A tested answer feels kinder to you than an untried one, and you give it before you hear the question. You send people off with your solution in place of theirs.\" (44 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You set a standard for the whole group. You hold people to a standard they can see rather than guess at, and the standard you set is theirs to meet too. Your group works to a mark it had no say in choosing.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-06",
+    "criterion": "A2 · C",
+    "issue": "\"standard\" appears three times (four with the chip) and \"set\" three times. The second half of the middle sentence repeats the first sentence.",
+    "auditor_note": "\"You set the standard for the whole group. You would rather people see the bar than guess at it, and you clear it yourself before you ask it of them. You hand the group a mark it had no say in choosing.\" (42 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Paying for everyone feels like winning to you, even when the money is shared. You would rather cover the whole bill than split it, and you dip into money pooled with others. Along with the money, you spend a plan you made together.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-07",
+    "criterion": "A2",
+    "issue": "It is still unclear who shares the money and why that matters to paying (round 2 E2-04; only \"savings meant for two\" was changed). The pooled money belongs in the middle sentence, where it explains the cost.",
+    "auditor_note": "\"Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even when the money you reach for is pooled with others. Along with that money, you spend a plan you made together.\" (40 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_偏财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You are spread across more things than any one of them can use. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to say no and give one of them all of you.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-08",
+    "criterion": "A2 · D1 · C",
+    "issue": "The first sentence does not parse: a thing cannot \"use\" a number of things. The close's \"say no\" repeats the remedy's act on the same page (\"Say no to one request\"), and \"say\" appears four times on the page and \"hold\" four times.",
+    "auditor_note": "\"You are spread so thin that no one thing gets enough of you. Since saying no feels like losing, you juggle many small pieces rather than one whole thing. You have every right to drop a few and give one of them all of you.\" (45 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_伤官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. You are allowed to say the useful half and call it honest.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-09",
+    "criterion": "C · BIZ_04 (vary the close)",
+    "issue": "Two of the four closes on the page are the same permission frame (\"You are [free/allowed] to …\"). It is the only page in the corpus where this happens (I checked all 175). \"useful\" appears three times on the page.",
+    "auditor_note": "\"Saying too much is the honesty you were built for. Since a thought left unsaid feels like a lie to you, you say the whole thing rather than the useful half. You lose nothing honest when you stop at the half that helps.\" (43 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you cut back on them first. You take what you save out of their share.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-10",
+    "criterion": "A1 · D4",
+    "issue": "Sentence 1 says you are as tight with yourself as with them, and \"first\" then says you cut them before yourself. That is a contradiction, and it tips the cost into a charge of putting yourself first.",
+    "auditor_note": "\"Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you trim gifts for them as hard as treats for you. You take what you save out of their share.\" (41 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.define",
+  "text": "As a catalyst, few of those demands reach you. The standard you answer to is one nobody else set, and rank comes slowly through proof.",
+  "findings": [
+   {
+    "id": "R3 fire:F3-04",
+    "criterion": "A1, D1",
+    "issue": "Directly below, \"By the book\" says \"Where the book and your judgment part, you side with the book\". On P054, the same persona's \"By the book\" says \"an outside rule steadies you\". The tail credits the Magistrate with a self-set standard, which the ledger denies on the same page.",
+    "auditor_note": "\"Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. As a catalyst, few of those demands reach you. You go looking for a standard worth meeting, and rank comes slowly through proof.\" (46 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "The people at home are the first you look past. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on the nights you are home.",
+  "findings": [
+   {
+    "id": "R3 fire:F3-05",
+    "criterion": "A1 (house rule R2-4: neutral wording, no assumed household)",
+    "issue": "It assumes the reader lives with other people. Round 2 removed \"everyone at home\" from P051 (F2-14) on the same ground.",
+    "auditor_note": "\"The people closest to you are the first you look past. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on the nights you spend together.\" (45 words; the live \"so\" middle is kept word for word)"
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "In meetings you wait your turn to speak, and the idea waits with you. Speaking before others feels like a step above your place, and the talk moves on before your turn comes. Your team loses the idea that would have helped them.",
+  "findings": [
+   {
+    "id": "R3 fire:F3-06",
+    "criterion": "A2, A1 (assumed workplace)",
+    "issue": "\"A step above your place\" is a broken idiom, so the sentence needs a second read. \"Meetings\" and \"your team\" assume a workplace and a team. The close is the only friction cost-to-others close on the page that does not have the reader as its subject.",
+    "auditor_note": "\"In a group you wait your turn to speak, and the idea waits with you. Speaking first feels like putting yourself above others, and the talk moves on before your turn comes. You leave the group without the idea that would have helped it.\" (44 words)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 土_金 · function.definition_balanced",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. What you make and say leaves you whole.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-09",
+    "criterion": "C",
+    "issue": "\"leaves you\" appears twice in one definition (sentence 2 is fixed: \"before it leaves you\"). The same \"What you make …\" opener closes \"Loves the craft\" on the page, and \"whole\" appears ×3.",
+    "auditor_note": "\"Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. You give fully and still have plenty left.\" (45)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 火_水 · function.advise_friction",
+  "text": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Begin one thing this month that is only yours. Keep it off every list.",
+  "findings": [
+   {
+    "id": "R3 water:W-014",
+    "criterion": "A2, C",
+    "issue": "The diagnosis has to be read twice. Rules are also \"taken in\", so the comparison folds back on itself, and \"take\" appears twice. \"Keep\" is also the fifth or sixth \"keep\" on all three pages (compound check: ×5, ×6, ×5). The rewrite states the Order-over-Mind state plainly. It leads straight into \"Begin one thing … only yours\".",
+    "auditor_note": "\"Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart and grow nothing of your own beside it. Begin one thing this month that is only yours. Leave it off every list.\" (59)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is. Their savings rise and fall with your choices.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-002",
+    "criterion": "A1 (contradiction on one page)",
+    "issue": "On the same page the Rival goes first \"with the plan half done and the vote not in\", and the edge makes \"the first move at work you make before anyone agrees\". That is owning the call. This passage says the reader avoids it.",
+    "auditor_note": "\"Your bets carry other people's names. You like company in a big risk, and that puts their money where your nerve is. You move their savings up and down with each call you make.\" (34 words)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 木_木 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every plan and partner, because your own way is the one you trust. You press on and lose the people beside you.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-003",
+    "criterion": "D4, A4 (a predicted outcome; an assumed partner)",
+    "issue": "The close predicts that the reader loses people. BIZ_04 classes a predicted outcome as too harsh. \"Partner\" can read as a romantic partner, which R2-4 removed elsewhere.",
+    "auditor_note": "\"Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every shared plan, because your own way is the one you trust. You press on without checking who is still with you.\" (48 words; sentences 1 and 2 unchanged)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Whenever the people close to you run short, you are generous before being asked. Because being generous keeps you freer than being owed, you give rather than build anything shared. Nobody near you goes without for long.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-004",
+    "criterion": "A2 (a middle that does not parse as logic)",
+    "issue": "A giver is the one who is owed, so \"freer than being owed\" reads backwards, and the reader has to work out the link to \"build anything shared\". It also makes the second \"Because\" middle on both pages.",
+    "auditor_note": "\"Whenever the people close to you run short, you give before being asked. A gift feels lighter to you than a joint plan, and you hand out what you have instead of building something shared. Nobody near you goes without for long.\" (42 words; the gift close is kept as it stands, which settled item \"Allow them\" permits)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you take calm rather than right. You let good chances go by to stay comfortable, and few come back.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-005",
+    "criterion": "D4, D1 (friction close rule: a flat cost, the want or a permission, never advice)",
+    "issue": "It is an instruction inside a friction passage. Advice belongs to THE REMEDY, and it is the only imperative close among the 41 distinct friction passages on Wood. \"You take calm rather than right\" also uses adjectives as nouns.",
+    "auditor_note": "\"Putting comfort first gets you through a hard week. The easy choice calms you now while the right one pays off later, and you pick it. You let good chances pass to stay comfortable, and few of them come back.\" (40 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You hand all the proving to the one you love while you wait to trust.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-006",
+    "criterion": "A4 (an assumed partner), C",
+    "issue": "\"The one you love\" assumes a single beloved, which is the case R2-4 removes. The close restates the opener (\"prove it first\"), and the passage uses \"first\" twice, \"hand\" twice and prove/proof/proving three times.",
+    "auditor_note": "\"You make the people who love you prove it first. Since trusting early feels like handing over the means to hurt you, proof has to come before closeness. You leave them to do all the work of getting near you.\" (40 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Your family never wonders where the next month's money comes from.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-007",
+    "criterion": "A1, A4 (an assumed household with the reader as provider)",
+    "issue": "It assumes the reader runs a household and supports a family, and it states that as a fact. Many readers aged 18 to 35 do neither. It also makes the second \"Because\" middle on the page.",
+    "auditor_note": "\"Whenever someone near you wants something, you are already saving. Safety together matters more to you than happiness today, which puts saving above the wish. You make sure nobody close to you has to worry about next month.\" (38 words)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 土_木 · function.definition_balanced",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. In balance, the rules you answer to fit the life you are building. Your standards rise with you at a steady pace.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-008",
+    "criterion": "C (an exact phrase repeated inside one definition)",
+    "issue": "Within four sentences the tail repeats two phrases of the fixed head word for word. The balance claim adds nothing the reader has not just read. It is the weakest of the five Wood definitions.",
+    "auditor_note": "\"Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. In balance, what is asked of you fits the life you are building. You meet each new demand without losing your footing.\" (46 words; sentences 1 and 2 unchanged)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 火_木 · function.advise_friction",
+  "text": "Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go feels like loss. Close one open question this week. Send one idea out before it feels ready.",
+  "findings": [
+   {
+    "id": "R3 wood:W3-009",
+    "criterion": "C (word count on the page)",
+    "issue": "All three pages already carry \"feel\" three times from the ledger. The remedy adds two more, which gives \"feel\" ×5 on every page of the pair, the most on the energy. The two remedy uses are the only ones that can change without touching the settled middle.",
+    "auditor_note": "\"Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go means losing. Close one open question this week. Send one idea out while it is still rough.\" (59 words; same acts)"
+   }
+  ]
+ }
+]

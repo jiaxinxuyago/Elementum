@@ -1,0 +1,218 @@
+[
+ {
+  "key": "PAIR 金_木 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, what you take on matches the strength you have to carry it. Your hunger and your stamina keep the same pace.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-01",
+    "criterion": "A1 · D3 (Balanced, R2-1)",
+    "issue": "The definition says the reader carries what they take on. The Horizon keyword on the same screen says they never see it through.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. In balance, there is strength under your hunger to build. Through a lean stretch, you slow down and keep growing.\" (41 words; also true of the Steward)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 水_火 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Your reach for the new and your hold on the old keep the same pace.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-02",
+    "criterion": "A1 · D3 (Balanced, R2-1)",
+    "issue": "\"Same pace\" is denied by the keyword shown under it.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Whether you chase a new chance or tend an old one, you never run cold.\" (44)"
+   }
+  ]
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. Your best work shows up with someone fast at your shoulder.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-10",
+    "criterion": "house rule \"no chart arithmetic as a cause\" (R2-3 residual)",
+    "issue": "The R2-3 sweep missed these 2 of 17. Both are on one page, so the page states the chart's quantity twice.",
+    "auditor_note": "drive: \"A race gets all of you moving. A pace you set alone soon goes flat for you, and chasing a real person keeps you going longer than any plan. Your best work shows up with someone fast at your shoulder.\" (40) · cost_self: \"Going first is where your boldness lives. Waiting to read the plan feels like losing your nerve, and you jump in with your own savings on the line. Your bank balance carries the lessons everyone after you gets for free.\" (40)"
+   },
+   {
+    "id": "R3 water:W-010",
+    "criterion": "A1, house rule (no chart arithmetic as a cause; R2-3)",
+    "issue": "The reason the reader loves a race is given as an amount of Water. R2-3 is marked fixed, but this field was missed. A grep of all 175 pages finds only this passage and W-011 still naming an element in the ledger.",
+    "auditor_note": "\"A race gets all of you moving. You come alive with a rival in view, and chasing a real person fills you faster than any plan. Your best work shows up with someone fast at your shoulder.\" (36)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever you take it easy, you take people with you. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-12",
+    "criterion": "D2 · D3 (X2-09 half applied)",
+    "issue": "The close was fixed, but the chip and the opener still make the exacting Artisan the lax one. The passage's own middle (\"the care behind it\") says the opposite.",
+    "auditor_note": "Chip \"Makes it look easy\". \"Whenever you make it look easy, the people learning from you see only the finish. Your first try already looks right, and the checking behind it stays hidden. You pass on the ease but never the care.\" (37)"
+   },
+   {
+    "id": "R3 metal:MT3-04",
+    "criterion": "A1, D2",
+    "issue": "The opener says the reader takes it easy. Two lines up, the drive says \"A thing has to be right in every detail before it pleases you\", and the passage's own next sentence says the ease is only how it looks. The reader is told two opposite things on one page. This is round 2's MT2-09, only half applied.",
+    "auditor_note": "\"You take it easy in front of people, however hard the work underneath. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care.\" (39)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.define",
+  "text": "As a catalyst, the edge runs thin. Your reach goes far and your grip stays light.",
+  "findings": [
+   {
+    "id": "R3 cross:X3-13",
+    "criterion": "D3 (X2-06 half applied)",
+    "issue": "The 木_土 Horizon tail was fixed, and this one was not. \"Grow it.\" and \"Release it.\" still describe the same over-reach.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, the edge runs thin. You see openings everywhere and have the means for few of them.\" (45)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 金_土 · function.definition_catalyst",
+  "text": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, the ground runs short, and new things pass through before they settle. You take longer than most to trust what you learn.",
+  "findings": [
+   {
+    "id": "R3 earth:E3-04",
+    "criterion": "A1 · M2 (2+2 reads one text)",
+    "issue": "The shared 2+2 definition makes the reader slow to trust, and two sections down the Alchemist keyword says they trust a hunch without waiting for proof.",
+    "auditor_note": "\"Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, the ground runs short, and new things pass through before they settle. Only what you work through yourself lasts.\" (43 words)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 水_火 · function.advise_friction",
+  "text": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before you sign. Let the numbers wait.",
+  "findings": [
+   {
+    "id": "R3 fire:F3-07",
+    "criterion": "A2, A1",
+    "issue": "\"Sign\" leaves the reader asking \"sign what?\" It also assumes contracts or deals, which most readers aged 18 to 35 do not sign in a normal week, and it fits the Steward reader poorly. The eat act itself is right, since Water is the Body and the fixed line names \"sleep and food\".",
+    "auditor_note": "\"Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it cool what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Eat before you decide. Let the numbers wait.\" (59 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. You are allowed to mark yourself kindly.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-01",
+    "criterion": "D4 (BIZ_04 close), C",
+    "issue": "This is the only friction close of 40 that is neither a flat cost, a want nor a permission: it restates the chip. It also adds a second \"judge\" to the passage and a third \"answer\" to P091 (fifth on P093).",
+    "auditor_note": "\"Being hard on yourself is a rule you never had to learn. Every standard turns into a judge in you, and you would rather fail your own hard test than pass someone else's easy one. Underneath, you want to hear that you did well.\" (44)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You pass the need for permission to whoever comes to you. Permission from whoever signs off is the only yes you take, and you pass their questions on rather than settle them. You leave them waiting on a permission you were free to give.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-02",
+    "criterion": "A2, C",
+    "issue": "\"whoever\" ×2, \"pass\" ×2 and \"permission\" ×3 in three sentences, so the middle reads as a tongue-twister. \"whoever signs off\" still hints at someone above the reader.",
+    "auditor_note": "\"You pass your need for permission to whoever comes to you. A yes only counts for you once someone else has signed it, and you send their questions on rather than settle them. You leave them waiting on a permission you were free to give.\" (45)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you avoid change, you avoid it for others too. You keep the person you love inside the agreed life instead of letting them change it. You avoid change for yourself, and they go without any too.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-03",
+    "criterion": "House rule (partner), D4, A5",
+    "issue": "Round 2's MT2-07 landed only in its opener. \"The person you love\" together with \"the agreed life\" still reads as a partner. The close repeats the opener, uses \"too\" a second time, and leaves \"any\" to be decoded. It is the weakest close on the Fire pages.",
+    "auditor_note": "\"Where you avoid change, you avoid it for others too. The agreed plan feels safe to you, and you keep the people you love inside it instead of letting them change it. You cost them the new starts they wanted to make.\" (42)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Spread thin, you never learn what you could do whole. You stay spread over shallow ventures rather than deep in one, since the one you skipped always looks better. You pay in rest never taken and in the one venture that would have paid.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-05",
+    "criterion": "A2",
+    "issue": "\"do whole\" is not English a B1 reader will parse; it has to be decoded as \"with your whole effort\".",
+    "auditor_note": "\"Spread thin, you never find out what your whole effort could do. You stay spread over shallow ventures rather than deep in one, since the skipped one always looks better. You pay in rest never taken and in the one venture that would have paid.\" (45)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You spot the opening when it is only a gap. You wake more for a far chance than a near one, and you spot a newer opening while you are claiming this one. Your eye finds a door where everyone else sees a wall.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-06",
+    "criterion": "A2 (idiom)",
+    "issue": "\"Wake for\" is not an idiom for \"come alive for\". Read first, it says the reader wakes up. It appears on three pages.",
+    "auditor_note": "\"You spot the opening when it is only a gap. A far chance excites you more than a near one, and you spot a newer opening while you are claiming this one. Your eye finds a door where everyone else sees a wall.\" (43)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "You never rest under a bar you set yourself. Because the standard is yours, you raise it rather than meet it, and the mark moves each time you near it. Your wins go by uncelebrated, since none of them was ever the goal.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-07",
+    "criterion": "A2",
+    "issue": "\"Rest under a bar\" gives no clear picture: resting beneath it, or settling below it? The meaning, that your own bar never lets you stop, has to be worked out.",
+    "auditor_note": "\"A bar you set yourself never lets you rest. Because the standard is yours, you raise it rather than meet it, and the mark moves each time you near it. Your wins go by uncelebrated, since none of them was ever the goal.\" (43)"
+   }
+  ]
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "For you, competing with a friend is taking them seriously. You raise the stakes out of wanting someone worth beating more than someone easy to keep. Your friends rarely get a game with you that is only a game.",
+  "findings": [
+   {
+    "id": "R3 metal:MT3-08",
+    "criterion": "A2, C",
+    "issue": "The middle sentence has to be read twice (\"out of wanting … more than someone easy to keep\"). The passage also brings \"friend\" to ×5 on P114.",
+    "auditor_note": "\"Competing with someone is how you take them seriously. A rival worth beating means more to you than easy company, and you raise the stakes with everyone you like. You rarely give anyone a game that is only a game.\" (39)"
+   }
+  ]
+ },
+ {
+  "key": "K2 水_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Going first is where your boldness lives. Little Water backs you, and you jump in before reading the plan, while early mistakes come out of your savings. Your bank balance carries the lessons everyone after you gets for free.",
+  "findings": [
+   {
+    "id": "R3 water:W-011",
+    "criterion": "A1, house rule (R2-3)",
+    "issue": "The cause is an amount of Water, not the reader's need. The middle sentence also runs three clauses on two joints.",
+    "auditor_note": "\"Going first is where your boldness lives. Being second feels like losing, and you jump in before reading the plan. You pay for the early mistakes out of your savings, and everyone after you learns from them for free.\" (41)"
+   }
+  ]
+ },
+ {
+  "key": "PAIR 水_水 · function.advise_friction",
+  "text": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Before Sunday, finish one job you have put off. Keep the same day each week for one steady task.",
+  "findings": [
+   {
+    "id": "R3 water:W-013",
+    "criterion": "A1, M2 (the remedy holds for all six keywords of both personas)",
+    "issue": "This is true of the Twin, who keeps things to herself and never asks. It is false of the Rival on the same pole: she \"runs the pool down\", \"keeps your partners running\" and \"the drive never lets you stop\". The Rival is all movement. The new line covers both: the Twin piles up, and the Rival spills over.",
+    "auditor_note": "\"Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. Your strength answers to nothing outside you, and it either piles up or spills over. Before Sunday, finish one job you have put off. Keep the same day each week for one steady task.\" (59)"
+   }
+  ]
+ },
+ {
+  "key": "K2 水_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "When someone close to you is upset, you become the calm for both. Being needed suits you more than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you.",
+  "findings": [
+   {
+    "id": "R3 water:W-016",
+    "criterion": "D2 (persona truth)",
+    "issue": "\"Being needed\" is the Artisan's want on this energy: \"Being needed feels closer to safe than being admired\" (P142, P144, P174) and \"because being needed feels like safety\" (P139). The Sage's root, as the owner settled it, is shelter: sheltering others grows out of wanting shelter. The rewrite keeps the act and the close and roots the reason in shelter.",
+    "auditor_note": "\"When someone close to you is upset, you become the calm for both. Being the safe place feels better to you than needing one, and your own trouble never shows. The people you shelter seldom get the chance to look after you.\" (43)"
+   }
+  ]
+ }
+]

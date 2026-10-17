@@ -88,9 +88,11 @@ export const BLEND_CLASHES = [
   ['Moves early', 'Sleeps on it'], ['Shares freely', 'Saves first'],
   ['Leaves too soon', 'Waits too long'], ['Spends it fast', 'Counts every cost'], ['Spends it fast', 'Holds it back'], ['Leaves too soon', 'Holds it back'],
   // round 2 (owner R2-2): pairs the auditors found on blended pages
-  ['Coasts along', 'Goes too far'], ['Far-sighted', 'Loyal'], ['Takes the chance', 'Loyal'], ['Sets own pace', 'Goes first'],
+  ['Coasts along', 'Goes too far'], ['Far-sighted', 'Loyal'], ['Sets own pace', 'Goes first'],
   ['Spends it all', 'Plays it safe'], ['Always moving on', 'Plays it safe'], ['Unforced', 'Quick-witted'],
   ['Reads between lines', 'Knows what works'], ['Sets own bar', 'Better with rivals'], ['Carries own weight', 'All in together'],
+  // round 3: pairs found on pages the round-2 picker brought together
+  ['Shares the win', 'Saves first'], ['Takes the chance', 'Saves first'], ['Drifts', 'Overdoes it'], ['Half-finished', 'Hard to move'],
 ];
 const CLASH = new Set(BLEND_CLASHES.flatMap(([a, b]) => [`${a}|${b}`, `${b}|${a}`]));
 export const clashes = (a, b) => CLASH.has(`${a}|${b}`);
