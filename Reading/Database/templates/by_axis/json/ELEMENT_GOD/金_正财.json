@@ -140,7 +140,7 @@
       "field": "adj_chips.catalyst[0]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Thorough"
     },
@@ -148,7 +148,7 @@
       "field": "adj_chips.catalyst[1]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Trustworthy"
     },
@@ -156,7 +156,7 @@
       "field": "adj_chips.catalyst[2]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Slow and steady"
     },
@@ -164,7 +164,7 @@
       "field": "adj_chips.friction[0]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "No-frills"
     },
@@ -172,7 +172,7 @@
       "field": "adj_chips.friction[1]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Greedy"
     },
@@ -180,7 +180,7 @@
       "field": "adj_chips.friction[2]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Won’t budge"
     },
@@ -188,7 +188,7 @@
       "field": "fn_reading.catalyst.ledger[0].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Thorough"
     },
@@ -196,7 +196,7 @@
       "field": "fn_reading.catalyst.ledger[0].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done."
     },
@@ -204,7 +204,7 @@
       "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The warranty claim that saved you eleven hundred dollars took four minutes, because the receipt, the serial number, and the original packaging were exactly where your system said they would be, three years on. The agent audibly recalibrated. Most claims, she said, die of missing paperwork. Yours arrived immortal."
     },
@@ -212,7 +212,7 @@
       "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People hand you the things that must not go wrong: the visa form, the wedding plan, the contract with the odd clause on page nine. You read every line, then read it again in the morning. The people who check your work expect a clean copy, and still look, because you would want them to."
     },
@@ -220,7 +220,7 @@
       "field": "fn_reading.catalyst.ledger[1].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Trustworthy"
     },
@@ -228,7 +228,7 @@
       "field": "fn_reading.catalyst.ledger[1].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your reliability is collateral-grade. People secure real decisions against your word: the deposit sent on your say-so, the key left under your mat, the password shared without ceremony. Trust accumulates around you the way interest accumulates, quietly, on never-broken terms."
     },
@@ -236,7 +236,7 @@
       "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Four families on your street hold spare keys at your house, a fact none of them coordinated. When the locksmith asked how you became the neighborhood vault, you could not name a starting event. There was no event. There were twenty years of nothing ever going missing."
     },
@@ -244,7 +244,7 @@
       "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Banks, in-laws, and employers all reach the same conclusion from different evidence: whatever is placed with you comes back intact and on time. References describe you with the specific warmth reserved for people who have held their money. The word they all use is safe, meant as treasure."
     },
@@ -252,7 +252,7 @@
       "field": "fn_reading.catalyst.ledger[2].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Slow and steady"
     },
@@ -260,7 +260,7 @@
       "field": "fn_reading.catalyst.ledger[2].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your wealth grows the way rust never sleeps, in your favor: small, constant, compounding additions that no single day notices. The percent saved, the skill deepened annually, the relationship maintained for decades: everything in your portfolio gains a little every quarter, forever."
     },
@@ -268,7 +268,7 @@
       "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The account you opened at twenty-two with automatic transfers you never adjusted crossed a threshold this year that startled even you. The statement arrived on an ordinary Tuesday. You had done nothing dramatic in twenty years, which was, the statement made clear, the entire strategy."
     },
@@ -276,7 +276,7 @@
       "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People ask your secret expecting a trick and receive simple math: start early, add always, subtract rarely. They leave disappointed and return years later, converted, showing you their own compounding curves. Your example has quietly seeded more retirement accounts than any advisor in your zip code."
     },
@@ -284,7 +284,7 @@
       "field": "fn_reading.friction.ledger[0].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "No-frills"
     },
@@ -292,7 +292,7 @@
       "field": "fn_reading.friction.ledger[0].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Comfort gets audited out of your life on principle. The heating conservative, the furnishings functional, the pleasures budgeted to their nutritional minimum: discipline built the estate, and somewhere it kept building past the point of purpose, into corners nobody warms."
     },
@@ -300,7 +300,7 @@
       "field": "fn_reading.friction.ledger[0].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The dinner you hosted was correct: adequate portions, sensible wine, lights at economy. Guests praised the meal and stopped somewhere short of settling in, coats kept near. The evening ended punctually. Your home, one of them said in the car, is the tidiest place she has ever been cold."
     },
@@ -308,7 +308,7 @@
       "field": "fn_reading.friction.ledger[0].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People describe your life with respect and no envy, a combination that took you years to notice. The discipline is admired at a distance, like a fortress: impressive, orderly, and not somewhere anyone dreams of moving. Invitations to yours get accepted dutifully. Invitations elsewhere get accepted first."
     },
@@ -316,7 +316,7 @@
       "field": "fn_reading.friction.ledger[1].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Greedy"
     },
@@ -324,7 +324,7 @@
       "field": "fn_reading.friction.ledger[1].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "What comes near your hands tends to stay in them. The negotiation pushed past won into extractive, the split adjusted a few percent your way, the free thing taken because free: each grasp is small, and the sum has a gravity that people feel and rarely name."
     },
@@ -332,7 +332,7 @@
       "field": "fn_reading.friction.ledger[1].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The settlement was fair at the first offer, and your counter, and the counter after that, extracted eleven percent more and something else that did not appear on the term sheet. The other side paid in full and briefed their industry. Your next three negotiations opened noticeably colder."
     },
@@ -340,7 +340,7 @@
       "field": "fn_reading.friction.ledger[1].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People check the terms twice when your name is on them, a due diligence premium that costs you deals you never learn about. What you have gathered is substantial and correctly titled. What it displaced, the easy trust, the rounded-up generosity, appears on no statement, and compounds anyway."
     },
@@ -348,7 +348,7 @@
       "field": "fn_reading.friction.ledger[2].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Won’t budge"
     },
@@ -356,7 +356,7 @@
       "field": "fn_reading.friction.ledger[2].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your positions are priced once and never repriced. The offer stands as made, the grudge as filed, the opinion as formed in the original year: movement reads to you as loss, so nothing moves, and the world negotiates around you the way rivers negotiate around bedrock."
     },
@@ -364,7 +364,7 @@
       "field": "fn_reading.friction.ledger[2].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The house sat unsold for fourteen months because your price, set in a different market, declined to acknowledge the new one. The eventual sale, at less than the early offers you refused, closed a chapter your spouse refers to only by its duration. The number had not budged. Everything else had."
     },
@@ -372,7 +372,7 @@
       "field": "fn_reading.friction.ledger[2].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/金_正财.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Negotiators bring you take-it-or-leave-it terms now, having learned that middles do not exist in your geography. Some deals close efficiently this way. The ones needing give simply route elsewhere, and your reputation, hard as bearing steel, attracts exactly the partners who want a wall, and no others."
     },

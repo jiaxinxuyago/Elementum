@@ -792,7 +792,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
                     {(() => { const c = elScreen.fnReading.characterLine; const k = c.pole === 'catalyst' ? 'cat' : c.pole === 'friction' ? 'fric' : 'cond'; return (
                       <div className={`el-charrow dir-${c.dir}`}>
                         <span className={`role-pill ${k} el-charpill`} role="button" tabIndex={0} onClick={() => setFnOpen(k)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setFnOpen(k); } }}>{k === 'cat' ? <><Use id="ar-up" />Catalyst</> : k === 'fric' ? <><Use id="ar-down" />Friction</> : <><Use id={m.condition === 'Overfueled' ? 'ic-charged' : m.condition === 'Underfueled' ? 'ic-receptive' : 'ic-balanced'} />{m.condition}</>}</span>
-                        {!(typeof window !== 'undefined' && window.__noVerdict) && <span className="serifline el-charverdict">{c.verdict}</span>}   {/* PREVIEW: the no-verb row, for the owner's pick */}
+                        <span className="serifline el-charverdict">{c.verdict}</span>
                         {/* the direction mark: the bars' own language, one dot on a
                             two-ended track between release and grow */}
                         <span className="el-chardir" aria-label={c.dir === 'grow' ? 'Grow this energy' : c.dir === 'release' ? 'Release this energy' : 'Keep this energy as it is'}>

@@ -134,7 +134,7 @@
       "field": "adj_chips.catalyst[0]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Self-lit"
     },
@@ -142,7 +142,7 @@
       "field": "adj_chips.catalyst[1]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Vivid"
     },
@@ -150,7 +150,7 @@
       "field": "adj_chips.catalyst[2]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Undimmed"
     },
@@ -158,7 +158,7 @@
       "field": "adj_chips.friction[0]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Too proud"
     },
@@ -166,7 +166,7 @@
       "field": "adj_chips.friction[1]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Touchy"
     },
@@ -174,7 +174,7 @@
       "field": "adj_chips.friction[2]",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Unapproachable"
     },
@@ -182,7 +182,7 @@
       "field": "fn_reading.catalyst.ledger[0].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Self-lit"
     },
@@ -190,7 +190,7 @@
       "field": "fn_reading.catalyst.ledger[0].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your fire needs no external ignition. Motivation, celebration, recovery: all generated onboard, on your schedule, from your own fuel. Gray seasons that dim everyone else find your output unchanged, and people eventually ask where the switch is. There is no switch. There is just you, on."
     },
@@ -198,7 +198,7 @@
       "field": "fn_reading.catalyst.ledger[0].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The whole team went flat after the funding fell through, and you came in Monday running on the same setting as always, working the plan, playing your music. By Wednesday two others had re-lit off your example. Nobody discussed it. Flame transfers that way, wordlessly."
     },
@@ -206,7 +206,7 @@
       "field": "fn_reading.catalyst.ledger[0].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People keep expecting your energy to trace back to something: the routine, the diet, the secret. They audit your habits and find nothing transferable. The light is simply factory-installed, and the people who winter near you have learned to stop explaining it and start standing closer."
     },
@@ -214,7 +214,7 @@
       "field": "fn_reading.catalyst.ledger[1].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Vivid"
     },
@@ -222,7 +222,7 @@
       "field": "fn_reading.catalyst.ledger[1].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "You are unmistakably yourself at all times, and it costs you nothing. The opinions, the laugh, the orange shirt: none of it adjusts to the audience, because none of it was built for an audience. People meet one version of you. There is only one."
     },
@@ -230,7 +230,7 @@
       "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "At the new job you dressed, joked, and disagreed exactly as you had at the old one, from day one. No feeling-out period, no beige phase. Within a month the team could imitate you affectionately, which is what happens to people who are only themselves."
     },
@@ -238,7 +238,7 @@
       "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Nobody has ever described you as an acquired taste, because there is nothing gradual about you. People place you instantly and permanently. Years later, strangers from one meeting recall you in detail, while the adaptable people around you have blurred together in everyone’s memory."
     },
@@ -246,7 +246,7 @@
       "field": "fn_reading.catalyst.ledger[2].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Undimmed"
     },
@@ -254,7 +254,7 @@
       "field": "fn_reading.catalyst.ledger[2].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Setbacks that lower other people’s flames leave your wattage stubbornly constant. The rejection, the rough year, the public stumble: each arrives expecting to find a dimmer switch and finds instead a person already back at brightness, slightly annoyed at the interruption."
     },
@@ -262,7 +262,7 @@
       "field": "fn_reading.catalyst.ledger[2].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The restaurant failed in March, publicly, expensively, and by June you were catering weddings out of a rented kitchen with the same menu and better margins. People kept waiting for the humbled chapter. You skipped it, apparently unaware it was scheduled, and the food got better."
     },
@@ -270,7 +270,7 @@
       "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People measure resilience against you and quietly retire the word for themselves. Your relights after failure have become local legend: same heat, new venue, no visible scar tissue. Investors who lost money on your last thing keep asking about your next one. Light like yours audits well."
     },
@@ -278,7 +278,7 @@
       "field": "fn_reading.friction.ledger[0].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Too proud"
     },
@@ -286,7 +286,7 @@
       "field": "fn_reading.friction.ledger[0].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects."
     },
@@ -294,7 +294,7 @@
       "field": "fn_reading.friction.ledger[0].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust."
     },
@@ -302,7 +302,7 @@
       "field": "fn_reading.friction.ledger[0].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People edit their offers of help into compliments before approaching you, a translation service everyone runs and nobody acknowledges. Your worst seasons are visible only in hindsight, dated by gaps in the photo record. The support you never requested was available the whole time, warming nobody."
     },
@@ -310,7 +310,7 @@
       "field": "fn_reading.friction.ledger[1].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Touchy"
     },
@@ -318,7 +318,7 @@
       "field": "fn_reading.friction.ledger[1].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Being treated as less than an equal lights you up faster than any insult. The talked-over sentence, the credit handed elsewhere, the tone that files you under junior: your heat answers before your judgment gets a vote. The issue is never the thing. It is the standing."
     },
@@ -326,7 +326,7 @@
       "field": "fn_reading.friction.ledger[1].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The contractor explained your own trade to you, slowly, and the meeting changed temperature. You corrected him once, precisely, at volume. He was right about one small detail and never got to say it, which cost you a week and won you nothing."
     },
@@ -334,7 +334,7 @@
       "field": "fn_reading.friction.ledger[1].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "People around you learn the one rule quickly: never talk down to you, even by accident. Introductions get made carefully, titles included. The respect this enforces is real, and so is the caution, and the two arrive together, holding hands."
     },
@@ -342,7 +342,7 @@
       "field": "fn_reading.friction.ledger[2].word",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Unapproachable"
     },
@@ -350,7 +350,7 @@
       "field": "fn_reading.friction.ledger[2].angles.drive",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your brightness reads as a closed door. The confidence, the speed, the shine: together they build a glare people squint at from a distance, assuming you need nothing and no one. Invitations to depth stopped arriving years ago. Everyone assumed someone else was providing it."
     },
@@ -358,7 +358,7 @@
       "field": "fn_reading.friction.ledger[2].angles.cost_self",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "At your lowest week in years, the phone stayed silent, and you realized the silence was your own engineering: a decade of seeming complete had trained everyone out of checking. The one friend who did call apologized twice for intruding. You were, you said brightly, fine."
     },
@@ -366,7 +366,7 @@
       "field": "fn_reading.friction.ledger[2].angles.cost_others",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_GOD/火_比肩.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "New people orbit you at a fixed radius, warmed but not close, sensing no docking port in all that light. The intimates you do have all report the same onboarding: years of proximity before the first real conversation. Most people, understandably, settle for the glow and drift."
     },

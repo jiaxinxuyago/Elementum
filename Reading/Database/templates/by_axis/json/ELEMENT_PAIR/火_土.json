@@ -72,7 +72,7 @@
       "field": "mechanism.base",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Fire gives birth to earth, the old texts say: what burns comes down at last as ash, and ash settles into soil. Nothing bright is lost entirely. The flame that danced for an evening feeds the field for a generation, warmth pressed down into ground that will hold seeds long after the light is gone."
     },
@@ -80,7 +80,7 @@
       "field": "mechanism.catalyst_turn",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it."
     },
@@ -88,7 +88,7 @@
       "field": "mechanism.friction_turn",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something."
     },
@@ -96,7 +96,7 @@
       "field": "carry.catalyst.clause",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "The fire leaves no ash: heat and light, nothing banked, nothing built from the burning."
     },
@@ -104,7 +104,7 @@
       "field": "carry.catalyst.remedy",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Teach it, write it, found it."
     },
@@ -112,7 +112,7 @@
       "field": "carry.friction.clause",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Every spark gets pressed into a monument: output hardening faster than it can live."
     },
@@ -120,7 +120,7 @@
       "field": "carry.friction.remedy",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Not every flame must found something."
     },
@@ -128,7 +128,7 @@
       "field": "carry.wide.clause",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Earth is already here in plenty, the hearth that keeps what you burn."
     },
@@ -136,7 +136,7 @@
       "field": "carry.wide.remedy",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Build one thing that will outlast the evening."
     },
@@ -144,7 +144,7 @@
       "field": "carry.missing.clause",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "No ash: heat and light, nothing built from the burning."
     },
@@ -152,7 +152,7 @@
       "field": "carry.missing.remedy",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Borrow ground: teach it, write it down."
     },
@@ -160,7 +160,7 @@
       "field": "carry.spared.clause",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Earth runs absent, and the fire stays light: nothing pressed into a monument."
     },
@@ -168,7 +168,7 @@
       "field": "carry.spared.remedy",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Keep it light. Found only what you will tend."
     },
@@ -176,7 +176,7 @@
       "field": "carry.thin.clause",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Earth runs thin and unwanted: a small hearth, easy to keep."
     },
@@ -184,7 +184,7 @@
       "field": "carry.thin.remedy",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Keep the hearth small."
     },
@@ -192,7 +192,7 @@
       "field": "carry.excess.clause",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Too much earth dims the fire: every spark pressed into form, output hardening while the light thins."
     },
@@ -200,7 +200,7 @@
       "field": "carry.excess.remedy",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Let some fires just burn."
     },
@@ -208,7 +208,7 @@
       "field": "function.definition_catalyst",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on."
     },
@@ -216,7 +216,7 @@
       "field": "function.definition_friction",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins."
     },
@@ -224,7 +224,7 @@
       "field": "function.advise_catalyst",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining."
     },
@@ -232,7 +232,7 @@
       "field": "function.advise_friction",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
     },
@@ -240,7 +240,7 @@
       "field": "cta_verdict",
       "adopted_from": "fable-v075-fire",
       "rewrite_station": "Reading/Database/Rewrites/fable-v075-fire/by_axis/json/ELEMENT_PAIR/火_土.fable-v075-fire.json",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "ruling": "owner 2026-10-16: \"Batch these for all, map these edge and remedy to stations and ship them live\" (batch 3, the Fire core, through the five craft audits and the gate, 25 of 25)",
       "replaced": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say."
     }
