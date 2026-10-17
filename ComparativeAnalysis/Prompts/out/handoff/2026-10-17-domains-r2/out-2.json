@@ -56,7 +56,7 @@
   },
   "shangguan_month_branch": {
    "defline": "The Virtuoso holds your strongest seat, inside your Month Gate: your working years run on seeing how everything could be better.",
-   "reading": "You spot the better version of a plan, a process or a piece of work almost at once, and the weaker version nags at you until it is gone. Because an unfixed flaw weighs on you more than hard work does, you keep improving things long after others call them finished, and you are still thinking about them at night. Managers find you tiring and colleagues find you useful, and you are proud of being both.",
+   "reading": "You spot the better version of a plan, a process or a piece of work almost at once, and the weaker version nags at you for days. Because an unfixed flaw weighs on you more than hard work does, you keep improving things long after others call them finished, and you are still thinking about them at night. Managers find you tiring and colleagues find you useful, and you are proud of being both.",
    "domains": {
     "Career": {
      "headline": "You are paid to make things better.",
@@ -81,7 +81,7 @@
     },
     "Social": {
      "headline": "Friends and colleagues either love you or resist you.",
-     "recognition": "Your circle splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing at the table or in the meeting and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years.",
+     "recognition": "Your circle splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in company and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years.",
      "lived": "Your friendships since your late teens have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it."
     }
    }
@@ -138,7 +138,7 @@
      "headline": "Your body does well when home is calm.",
      "recognition": "Your health follows your home life closely, and you sleep and eat well in the seasons when the house is peaceful. Because tension at home reaches your body before you name it, a bad month with a partner shows up in your appetite and your rest. You recover fastest through ordinary comfort, a shared meal and an early night.",
      "lived": "Your energy has risen and fallen so far with the state of your home, steady in the good years and low in the strained ones. Your sleep and appetite have followed each change at home, and they have settled again whenever the house grew calm.",
-     "ahead": "Your sleep and appetite steady from your mid-thirties as your household settles, and a calm year at home gives you more energy than a busy one. In the fullest of these years you eat and rest in step with the people you live with, and you stay well because of it."
+     "ahead": "Your sleep and appetite steady from your mid-thirties as your household settles, and a calm year at home gives you more energy than a busy one. In the fullest of these years you eat and rest in step with whoever shares your home, and you stay well because of it."
     }
    }
   },
@@ -162,7 +162,7 @@
   },
   "shishen_hour_stem": {
    "defline": "The Artisan stands at your Hour Gate, in plain view: your later years are known for what you make and give.",
-   "reading": "In later life people see you cooking, mending or teaching for others, and children or younger relatives or someone you train pick up your skills along with your generosity. Because being useful is how you feel at ease, you keep making things for the pleasure of it and passing on what your hands know. Comfort that asks nothing of you is the one thing that slows your work, and you notice it in the weeks with no one to make anything for.",
+   "reading": "In later life people see you cooking, mending or teaching for others, and children or younger relatives or someone you train pick up your skills along with your generosity. Because being useful puts you at ease, you keep making things for the pleasure of it and passing on what your hands know. Comfort that asks nothing of you is the one thing that slows your work, and you notice it in the weeks with no one to make anything for.",
    "domains": {
     "Family": {
      "headline": "You become the relative everyone wants to visit.",
@@ -189,7 +189,7 @@
     },
     "Health": {
      "headline": "Your work is only as good as your sleep.",
-     "recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because food and rest are your pleasures as well as your fuel, you eat late and sleep short in your busiest months, and your energy drops. You notice tiredness in the quality of your work before you feel it, and a few good nights of sleep put it right.",
+     "recognition": "Your body and your work move together, and both run best on regular meals, real rest and a steady routine. Because food and rest are pleasures to you, you eat late and sleep short in busy months, and your energy drops. You notice tiredness in your work before you feel it, and a few good nights put it right.",
      "lived": "Your energy has followed your routine closely since your late teens, high in the months you slept and ate well and flat when either slipped. At least once a long stretch of hard work wore you down, and you came back from it through rest more than effort."
     }
    }

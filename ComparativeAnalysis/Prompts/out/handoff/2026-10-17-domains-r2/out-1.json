@@ -113,7 +113,7 @@
     },
     "Family": {
      "headline": "You are the relative who never needs rescuing.",
-     "recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, never when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness.",
+     "recognition": "You do your part in the family before anyone thinks to ask, and you expect nothing back. Because your first home rewarded self-reliance, you call your relatives when there is something to offer, rarely when there is something to ask. Your relatives hear from you less than they want, and you mean the quiet as a kindness.",
      "lived": "An older relative in your first home made a point of standing on their own, and you copied it before you understood it. You asked for less with each year you grew, and the adults around you praised you for it."
     }
    }
@@ -156,7 +156,7 @@
   },
   "jiecai_hour_stem": {
    "defline": "The Rival stands at your Hour Gate, in plain view: in later life people see your nerve and ask you to back them.",
-   "reading": "Your later years stay bold and public, and you keep taking risks long after people your age have stopped. Because being in the contest keeps you feeling alive, you say yes to children or younger relatives or someone you train more than you planned, and their ventures keep you learning. You find real joy in some of that backing, and you lose part of what you give because you said yes before you asked what it was for.",
+   "reading": "Your later years stay bold and public, and you keep taking risks long after people your age have stopped. Because being in the contest keeps you feeling alive, you say yes to children or younger relatives or someone you train more than you planned, and their ventures keep you learning. You find real joy in some of that backing, and you lose part of what you give because you say yes before you ask what it is for.",
    "domains": {
     "Wealth": {
      "headline": "Your later money goes to the bold.",
@@ -221,7 +221,7 @@
     "Wealth": {
      "headline": "You give money easily and keep track of it.",
      "recognition": "You lend to family before you have finished saving for yourself, and you rarely ask for it back. Because money at home was always pooled, a private account feels slightly selfish to you. Your savings grow slowly while your family's claims stay open, and you feel both generous and short.",
-     "lived": "You saw money borrowed and lent around the family as a child, and nothing was ever written down. Before you were grown you had given away more than you could spare, and you had learned which relatives paid you back."
+     "lived": "You saw money borrowed and lent around the family as a child, and little of it was written down. Before you were grown you had given away more than you could spare, and you had learned which relatives paid you back."
     }
    }
   },
