@@ -1,0 +1,542 @@
+[
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "In a crisis, the room steadies around your voice.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Underneath, you want to feel needed on days when nothing is going wrong.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Those around you end up working at your pace, even on their slow days.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "Around you, decisions get made and the work starts.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Nobody thinks to ask how you are holding up.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your colleagues get fewer chances to decide things for themselves.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "Your nerve is what others lean on when the outcome is in doubt.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Some of what you lose is lost only for the thrill.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your family and team carry risks they never chose.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "You are usually the only one in the room who will.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "A good line has closed doors you wanted open.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "The quieter ones get heard in your words more than their own.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "Your best work happens live, and the crowd gets all of it.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "What you want, under it all, is to be liked with the lights off.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Those closest to you get the act and miss the person behind it.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "On a deadline, everyone looks to you for the first word.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "The better idea often arrives after you have spoken.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Slower thinkers lose the last part of their point to your reply.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "Your leaps often land where others arrive months later.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Ideas you saw first turn up later under other people's names.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your listeners are left holding a conclusion they cannot retrace.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "What you understand, you understand down to the roots.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Much of your time goes into ground others crossed years ago.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Those who know the subject never get to teach you.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "What you bring back has been tested from every side.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Underneath, you want someone near while you work it out, no explaining needed.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your partner and friends get days of silence with no word on why.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "Your friends hear about the good openings from you.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "What you already have gets less of you than it deserves.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "The people you work with are left holding unfinished work.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "Around you, nobody goes short for long.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Your own ventures get funded last, from whatever remains.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your household's best stories come from the days you made.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "Much of what your circle now enjoys exists because you went first.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "What you are after is the feeling of the first day, again and again.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Their evenings go into seeing your ideas through.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "With you in the race, everyone runs faster.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Your body pays for every race, including the ones you won.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Nothing with you is ever just a game.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "What you are hungry for is a contest worth your whole heart.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Some of your hardest wins were for things you never cared about.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "The win they pictured alone ends up with you in it.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "Your friends never have to wonder whose side you are on.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Your savings rise and fall with the plans of the people you love.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your money makes their plan bigger and riskier than they chose.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "People leave a talk with you feeling lighter than they came.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Most of those close to you know little of what you carry.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Friends who came for your advice leave with only your sympathy.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "Under your roof, everyone breathes out.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Your hobbies, friendships and plans all wait their turn behind everyone else's.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "They miss the pride of getting through it without you.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "People grow into their better selves on the credit you extend.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Some of your warmth goes to those who never return it.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "They walk away with your warmth and without your verdict.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "People build their plans on your yes.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Better offers come and go while you honour an old one.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your friends have their offhand words held to the letter.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "Your work is the standard others get checked against.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Chances that needed a quick call pass you by.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "The people you work with turn in sounder work for your standards.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "What you want is a place no one could question.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Money owed to you stays on the table for years.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Colleagues climb the slow way, with no help from you.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "Your friendships are decades old, and they still hold.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Your savings are tied up in things you stopped loving long ago.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Home life with you has everything except the unexpected.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "The lean months find your household ready.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "What you want is proof that you are safe enough to enjoy something.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your family's treats come after the budget.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "Those who count on you have never once been left waiting.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Your health quietly pays for that perfect attendance.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "They get your company without fail and seldom the thing they wanted.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "Projects exist because you began them while others were still talking.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Everything you begin is paid for in hours nobody sees.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "The people around you get a say only after the shape is set.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "Your friends never feel managed or looked down on by you.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "On your hard days, nobody is close enough to catch you.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Those who love you rarely get to be needed by you.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "Setbacks that flatten others barely slow you.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "What you want is care that does not cost you your pride.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Your friends arrive with help to find you already on your feet.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[0].angles.drive",
+  "decision": "rewrite",
+  "close": "The people near you feel looked after before they know they need it.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Underneath, you want someone to offer before you have to ask.",
+  "kind": "want"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Those close to you seldom get the pleasure of returning the favour.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[1].angles.drive",
+  "decision": "rewrite",
+  "close": "A dinner with you turns into an occasion.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Hours on your own feel empty, and the good in them passes you by.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Their own ideas of a good time get lost inside yours.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[2].angles.drive",
+  "decision": "rewrite",
+  "close": "Your work has a lightness people feel at once.",
+  "kind": "gift"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "decision": "rewrite",
+  "close": "Your income is smaller than your talent.",
+  "kind": "price"
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "decision": "rewrite",
+  "close": "Anyone watching you sees how good the result can be.",
+  "kind": "gift"
+ }
+]

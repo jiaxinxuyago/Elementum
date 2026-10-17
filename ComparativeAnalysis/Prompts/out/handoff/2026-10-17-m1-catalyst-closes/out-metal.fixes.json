@@ -1,0 +1,447 @@
+[
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Taking charge comes to you before anyone asks. A crisis gives your force a charge to carry, and you carry it yourself rather than wait for someone else to step up. At the worst moment, the room steadies because you steadied first.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Whenever something goes wrong you are already in charge. You would rather hold the charge than trust it to anyone, and the load stays yours by choice. Your own worries wait at the end of every queue you manage.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "In trouble that is not yours, taking charge is your first move. You take the charge ahead of being asked, and the people near you give up their own decisions early. Your readiness costs them the practice that only a hard hour gives.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Pressure is where you do your best work. A real stake lets you thrive where comfort lets you drift, and being tested suits you better than being at ease. A deadline that rattles others leaves you clear and steady.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Under pressure you become the self you trust most. Calm holds nothing to thrive on, and you take one more load rather than sit through a quiet week. Your ordinary days go by half lived while you wait for the next alarm.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You expect everyone near you to thrive on the pressure you do. Stakes bring out your best, and you set pressure on others ahead of asking whether they wanted any. They carry your pace on days they had meant to take slowly.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Deciding fast is how you stop a crisis from deciding for you. A quick decision points your push somewhere, and you accept being wrong early rather than being right too late. While others are still weighing it, your call has already got people moving.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Fast decisions are the ones you trust. Deciding quickly keeps you ahead of the crisis, and you take the first good option rather than the best. The better answer turns up a day later, and by then you are already committed.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your quick call lifts a weight you hate to see them carry.",
+  "id": "K2 金_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Saying it straight is the only way you know. A softened truth feels like a lie with manners to you, and you name what is wrong ahead of smoothing it over. Whoever asks your view walks away with the real one.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Being straight costs you the welcome. Because being right out loud matters more than comfort to you, you say the unsaid thing and lose a few invitations. What you want is a circle where honesty counts as a kindness.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.cost_self (want)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Whenever something is wrong, you say so before you say anything kind. Being exact feels more honest to you than being gentle, and you hand people the mistake ahead of the credit. Your praise reaches them late, after the sting has landed.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Setting the bar is something you do unasked. A standard you did not choose bores you, so you set your own rather than keep the given one, and hold yourself to it. What leaves your hands has already passed the hardest judge it will meet.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "You never rest under a bar you set yourself. Because the standard is yours, you raise it rather than meet it, and the mark moves each time you near it. Your wins go by uncelebrated, since none of them was ever the goal.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "When you set the bar, you set it for everyone near you. Your standard feels more honest than a shared one, and you hold the people beside you to a mark they never chose. Some do their finest work because you asked for it.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Being watched brings out your best work. A thing done unseen feels half real to you, and you perform with someone watching rather than practice alone. Anyone in the seats gets years of your craft in a single hour.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Your best needs a witness. With no one there to rise for, you let the private hours go slack rather than drill them, and the talent that grows unseen stays small. Applause is what you are after, and an empty room gives none.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.cost_self (want)"
+ },
+ {
+  "key": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You save your best for an audience. A crowd feels more worth rising for than one person, and you perform for strangers ahead of the people at home. Your own household gets you after the show, the shine already spent.",
+  "id": "K2 金_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You test everything before you let it in. A fact only becomes yours once tried against something real, and that puts testing ahead of simply learning. Whatever passes your trial stays solid under you for years.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Testing everything costs you time. Slow and sure means more to you than quick and wrong, so most of your learning starts late. Whole seasons go into proving things your teachers already knew.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Whenever someone hands you a fact, you test it in front of them. Trying it yourself matters more than being agreeable, and whoever offered it gets a question instead of thanks. Your checking lands on them as doubt, even on days you mean none.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You are rarely fooled. Being fooled by a person costs you more than being slow to trust one, so you weigh the uneasy feeling ahead of the proof. The friends who lean on your judgement are seldom led astray.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Rarely fooled, you are slow to be glad. You check an offer for the catch before letting it near, and would rather miss a good thing than be fooled. Real kindness reaches you late, after your doubt has worn itself out.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You check an honest word as closely as a false one. Being hard to fool counts for more with you than being easy company, and you make a truthful person prove it twice. Whoever earns your trust gets it whole and for keeps.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Your best thinking happens alone. You need quiet for a half-formed idea more than an audience, so you shut the door until it is whole. Ideas leave that room with your own stamp on them, owing nothing to the crowd.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Thinking alone keeps the idea clean. You would rather carry a hard question alone than let anyone see it unsolved, and help only reaches a problem someone has heard about. What you guard is the picture of yourself as the one with answers.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[2].angles.cost_self (want)"
+ },
+ {
+  "key": "K2 金_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Your thinking stays private until it is a result for others. Working it out alone comes easier to you than together, and the people near you get only the conclusion. They meet your plans finished, with no part in the making of them.",
+  "id": "K2 金_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You spot the opening when it is only a gap. You wake more for a far chance than a near one, and you spot a newer opening while you are claiming this one. Your eye finds the door before anyone else sees a wall.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Spotting the opening comes easier than staying for it. You spot to feel ahead, and once the opening is yours you look out again rather than down into it. Most of what you find pays out to whoever is left to work it.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Whenever you spot an opening, you tell the partner building this one with you. You spot the next one ahead of this one out loud, and your partner hears the plan move. Their week of work points at a place your mind has already left.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Fast starts are your natural speed. You feel most alive in the first week, and this is why you start the next venture rather than sit through this one. Projects that sat on paper for years get moving the day you arrive.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Where you feel surest is starting fast. You start on speed alone, while you would rather spend your patience on a fresh start than a middle. The payday sits at the end of the work, long after your attention has moved on.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Giving freely is what you do first with what comes in. You feel money belongs to whoever needs it next, and you give it on rather than set it aside. Friends in a tight month find your hand already open.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Keeping is harder for you than giving freely. You would rather give money on than sit with it, since holding still feels like being stuck. Your own hard year finds the account empty.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "With the people around you, giving freely is how you stay close. You give to the newest friend more freely than to the oldest one, since newness is what moves you. Your household lives on whatever is left over.",
+  "id": "K2 金_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You compete best with someone to beat, and you know it. Knowing where you stand matters more than comfort, so you compete harder against one rival than for any reward. A worthy opponent pulls out of you a level that practice never reaches.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Without a rival, you lose your pace. Competing keeps you going, and the next round comes ahead of noticing you are tired. Your body pays for a race with no finish.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "For you, competing with a friend is taking them seriously. You raise the stakes out of wanting someone worth beating more than someone easy to keep. Your friends rarely get a game with you that is only a game.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Your yes to a bet comes before the fear has finished. Hesitating feels like losing to yourself, so you bet first and size it afterwards. Ventures that would have died in committee find their backer in you.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Whenever the stakes go up, you are first to bet. Betting first is the closest you get to sure, and you size it to nerve rather than savings. Your losses land early and in full, before anyone else has moved.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Betting first is your way of carrying the people who hesitate. By betting for the group instead of asking it, you put their money where your nerve is. The careful ones gain a leader in you, one who takes the opening hit.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "You trust a person faster when the risk is shared. Sharing the risk makes the bond real to you, so you go in together ahead of writing anything down. The partner you want is one with as much to lose as you.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.drive (want)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Where a friend needs backing, you share the risk first. Sharing the risk feels closer than staying out, and the shared bet comes before your margin. Your savings carry other people's bad luck along with your own.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Sharing a risk with someone is your warmest offer. Wanting them in it more than safe from it, you share the upside and the fall. The people you love carry stakes measured by your nerve.",
+  "id": "K2 金_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Whatever you are told stays with you. Being a safe place is how you know you matter, so you keep a confidence rather than ever use it. People hand you what they have shown no one else, and they leave lighter.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Keeping a confidence means carrying it. You hold what people tell you rather than talk it through with anyone, and the weight of other lives sits on your own rest. Some days you walk around full of secrets that are not even yours.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep your own troubles as closely as everyone else's. You would rather hold things than need holding, and you give the ones who tell you everything nothing of yourself back. Your closest friends see your calm face and never your worries.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You learn a thing properly or not at all. Half-knowing a subject bothers you more than not knowing it, so you go to its end before counting it learned. Your knowledge holds under hard questions because it runs all the way down.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Learning it properly takes you longer. Knowing a thing to its end matters to you more than knowing it well enough, and most chances ask for less. Openings go to quicker people while you are still at chapter three.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Teaching waits until you have learned it properly. You would rather pass a subject on whole than in pieces, and the people learning from you get nothing before the whole arrives. Your lessons arrive late but complete, safe ground to build on.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "You steady people by holding them to something. Keeping someone safe matters more to you than keeping them comfortable, so your care arrives as a standard rather than a hug. In a storm, others find a fixed point in you.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Steadying people earns you respect ahead of closeness. Being needed when things fall apart suits you more than being phoned for nothing, and the no-reason calls are what you miss. Underneath, you would like to be sought out for your company alone.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.cost_self (want)"
+ },
+ {
+  "key": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson. Your warmth reaches them a step behind your advice.",
+  "id": "K2 金_正印 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Keeping your word is the standard you hold above every other. A promise is a rule of your own making, and you would rather carry a hard yes to the end than give an easy maybe. People build their plans on what you say.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Once given, your word outranks your own change of mind. You would rather be stuck in a promise than break it, and you remain long after it stopped fitting. Years of your life go to promises made by a younger you.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "The word you keep is the one you quietly expect from everyone. A promise binds you, and you hold people to their exact words ahead of their meaning. Those around you weigh each casual remark before saying it to you.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Doing it properly is the only way you know. A rule gives your effort a shape, and you follow the proper procedure rather than any shortcut. Work that passes through your hands stands up to any inspection.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Properly is the one speed you own. You do every step properly rather than good enough, and small tasks take the care big ones deserved. Your evenings go to jobs that nobody would ever check.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "With everyone near you, properly is the standard. Procedure matters more than pace to you, and you send work back for its improper step ahead of thanks. Anyone trained by you learns the trade with no bad habits to undo.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Earning your place counts for more with you than being handed one. Rank only feels earned when the rules gave it, and you choose the slow route rather than the shortcut. A title built step by step is one no rival takes from you.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Slowly earned is the only place you trust. An early title feels unearned, and you wait for the rules to promote you rather than put yourself forward. Louder colleagues reach the jobs you were ready for years before.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Each time someone rises near you, you check the place was earned. An unearned rank looks wrong to you, and you credit people for the record ahead of the talent. Bright newcomers wait a long time for your nod.",
+  "id": "K2 金_正官 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Finishing things settles you more than starting them. You carry an open task until it is closed, so you finish what you hold ahead of starting anything new. Anything put in your hands comes back done.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Proof that you are reliable comes from finishing things. You finish whatever is nearest rather than whatever matters most, since finished is the feeling you are after. Your big plans wait at the bottom of a tidy list.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "For other people, you finish things too. You finish the last steps of a shared plan rather than wait for your partner, since waiting feels like leaving it undone. Your partner loses the small pride of closing what they began.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Your reflex with money is saving first. You feel a sum set aside cannot be lost, so you save rather than spend, and spend only what is left. Those who depend on you never meet a bad month unprotected.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Saving first keeps away the fear of having nothing. You put the saving ahead of what it was for, and you move the wanting to later. Your own pleasures wait in an account that grows while the years go by.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You save first for the people you love as much as for yourself. You save for a shared future rather than spend on a shared present, and call that love. Evenings out with you are rare, however secure the years ahead.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[1].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept ahead of your way out. A handshake with you is as good as a contract.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Changing your mind is harder than keeping your word. Your word stays kept past its reason rather than broken, since breaking it dents how steady you feel. Being someone whose yes never moves is what you need underneath.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.cost_self (want)"
+ },
+ {
+  "key": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Old promises stay binding on both of you, long after the mood that made them.",
+  "id": "K2 金_正财 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Every part of your life carries your fingerprints and nobody else's.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Whenever something matters, you make it yourself and let no one offer. Making it alone proves the standard is yours, and doing without help comes ahead of going to bed. Everything you make alone is paid for in hours nobody sees.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Making everything yourself is what you show a new peer first. By making each thing alone instead of sharing it, you leave your peers nothing to carry. Your peers miss the chance to matter to you through the work.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Every person in your circle gets an honest deal and knows it.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Whenever a friend falls short of the measure, you keep the measure rather than the friend. Holding everyone to one even standard is how you stay honest. Your circle is small, and each gap in it was your own call.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Being even-handed with a friend is how you show respect. You hold people you like to your own measure, and hand them your standard ahead of your warmth. Friends who stay get a respect from you that never wavers.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[1].angles.cost_others (gift)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. What you want is to walk back in whole, owing no one.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.drive (want)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. The worst weeks of your life are the ones nobody saw you through.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Recovering alone spares the people near you your worst days. You return recovered rather than being seen recovering, and give them the finished version only. Your closest people meet you only on your good days.",
+  "id": "K2 金_比肩 · fn_reading.catalyst.ledger[2].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. The things you make arrive whole, every edge seen to.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.cost_self",
+  "text": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift ahead of the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. The one it is for gets your polish and misses the hours behind it.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[0].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Choosing the right thing to give is how you care. A wrong gift feels worse to you than none, so you choose slowly rather than give the nearest thing. What you hand people tends to stay with them for years.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "For you, a good choice beats a fast one. Since getting the choice right matters more to you than being on time, you let the warm moment pass. Underneath it, you want to be known as someone who truly listens.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.cost_self (want)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You choose kind words as carefully as gifts. Anything plain sounds careless to you, so you choose silence rather than say something plain to someone you love. Much of your fondness goes unspoken to the very people it is for.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[1].angles.cost_others (price)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Showing how a thing is done comes more easily to you than explaining it. You trust your hands over your words, and teach by doing it next to someone rather than telling them. Learners leave you with the feel of the craft in their fingers.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.drive (gift)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Teaching by doing takes your time twice, since you would rather do a thing beside someone than write it down. You teach that way even where a note would do. Whole afternoons of your own work go to lessons a page could carry.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.cost_self (price)"
+ },
+ {
+  "key": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You teach a child by doing the whole thing yourself. Your own way is the one you know works, so you teach it rather than let them try another. The child walks away with a method that holds, learned at your side.",
+  "id": "K2 金_食神 · fn_reading.catalyst.ledger[2].angles.cost_others (gift)"
+ }
+]

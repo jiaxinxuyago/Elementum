@@ -528,7 +528,19 @@ export function buildElementScreen(model, el) {
     // reading's first sentence.
     ...((() => {
       const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst';
-      const raw = fn ? ((pole === 'friction' ? fn.definition_friction : fn.definition_catalyst) || '') : '';
+      // THE DEFINITION BY PERSONA (owner M2, 2026-10-17): the pair's head (its
+      // first two sentences: the function, the element) + the lead persona's own
+      // tail from its god cell; the 2+2 page (two personas under 60% each) keeps
+      // the pair's one shared text, the reader read as one person; a Balanced
+      // chart reads the pair's balanced text. A cell without a tail falls back
+      // to the shared text.
+      const shared = fn ? ((pole === 'friction' ? fn.definition_friction : fn.definition_catalyst) || '') : '';
+      const twoFaced = r.faces.length > 1 && r.faces[0].share < 60;
+      const tail = twoFaced ? null : K2_CELLS[`${r.hz}_${r.god}`]?.fnReading?.[pole]?.define;
+      const head = (t) => (t.match(/[^.!?]+[.!?]+/g) || []).slice(0, 2).map((x) => x.trim()).join(' ');
+      const raw = !fn ? ''
+        : model.condition === 'Balanced' && fn.definition_balanced ? fn.definition_balanced
+        : tail ? `${head(shared)} ${tail}` : shared;
       // display de-dup (owner 2026-09-02): the claim TITLES the section now,
       // so the reading renders with its claim clause stripped — "As a
       // friction, it is intake…" / "Running over, it is…". Corpus untouched.

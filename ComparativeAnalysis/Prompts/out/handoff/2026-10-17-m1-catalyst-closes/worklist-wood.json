@@ -1,0 +1,1017 @@
+{
+ "energy": "wood",
+ "cells": [
+  {
+   "cell": "木_七杀",
+   "persona": "the General",
+   "god": "七杀",
+   "core_element": "土",
+   "energy_element": "木",
+   "pair_function": "order",
+   "pair_definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. As a catalyst, you lack a demand to meet, so you chase a crisis or a career someone else planned and finish less of your own.",
+   "pair_advise_catalyst": "You feel most like yourself when your effort has a name and an end. Tell someone the date you will finish and let them hold you to it. Plan one dinner this month, from the guest list to the bill. Sign up for one class that ends in a test. Make your bed.",
+   "friction_words": [
+    "Hard on yourself",
+    "Never switches off",
+    "Impossible to please"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Clear under pressure",
+     "passages": [
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Your head is clearest when something presses on you. Pressure gives your stored strength a direction, so you look for a hard deadline rather than a quiet week.",
+       "close": "Keep choosing the pressure, and let a calm week count as rest instead of loss.",
+       "words": 43,
+       "audit_notes": [
+        "TWEAK W-014: The double object makes the reader parse twice."
+       ]
+      },
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "You think clearest under pressure and drift without it. Since calm gives you nothing to press against, you let the easy weeks pass rather than use them.",
+       "close": "Make one big choice in a calm week instead of waiting for a crisis to force it.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "When things go wrong, your head stays clear. Because calm makes you restless, you bring a crisis pace home rather than let ordinary days run slow.",
+       "close": "Save that pace for real trouble to give the people you live with a calmer you.",
+       "words": 42
+      }
+     ]
+    },
+    {
+     "word": "Takes charge",
+     "passages": [
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You take charge before anyone asks you to. Being out in front settles you, so you would rather take charge than wait to be chosen.",
+       "close": "If you wait to be asked for once, you give yourself the chance to be chosen.",
+       "words": 41
+      },
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Taking charge comes to you faster than asking for help. Since staying in charge feels safe, you carry the whole plan rather than hand half over.",
+       "close": "When you let someone take charge of one part, you win back the help you keep refusing.",
+       "words": 43
+      },
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Anything half yours, you take charge of as if it were whole. Being in charge is how you show care, and you decide for people ahead of asking them.",
+       "close": "Leave one choice open this week, since taking charge of everything leaves them nothing to own.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Pushes through",
+     "passages": [
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Where most plans would stop, you push through. Because quitting feels like weakness, you would rather push through than choose to rest.",
+       "close": "Push through only for plans you would start again, until resting feels like a choice of yours.",
+       "words": 39
+      },
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Pushing through is the only pace you trust. A pause reads to you as giving in, and you would rather finish worn out than stop halfway and rested.",
+       "close": "Stop a day early once a month, because you push through with the only body you get.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You push through and expect the people beside you to push through too. Because slowing down feels like letting them down, you keep the pace high instead of asking who is tired.",
+       "close": "Ask once a week, and you give them a say in the pace.",
+       "words": 45
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_伤官",
+   "persona": "the Virtuoso",
+   "god": "伤官",
+   "core_element": "水",
+   "energy_element": "木",
+   "pair_function": "expression",
+   "pair_definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea, and you let your family see only half of you.",
+   "pair_advise_catalyst": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it.",
+   "friction_words": [
+    "Talks back",
+    "Shows off",
+    "Goes too far"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Speaks up",
+     "passages": [
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You speak up where silence would be easier. Holding a true thing in feels worse to you than saying it, so you speak rather than wait for a welcome.",
+       "close": "If you let a few conversations go cold, you get to keep speaking up as yourself.",
+       "words": 45,
+       "audit_notes": [
+        "TWEAK W-021: An unfinished comparison: worse than what?"
+       ]
+      },
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "For you, speaking up is never free. Honesty matters more to you than being liked, so you say the hard thing and sit alone in the quiet after.",
+       "close": "Bring one ally before you speak up, and you give up fewer chances to it.",
+       "words": 43
+      },
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Speaking up for someone before being asked is a habit of yours. Because a wrong left standing bothers you more than overstepping, you say their piece ahead of them.",
+       "close": "Let them pick the moment, and your speaking up stays a gift instead of an interruption.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Goes off script",
+     "passages": [
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Going off script is where you shine. Since a fresh idea counts for more with you than a given plan, you leave the script instead of following it.",
+       "close": "Once you tell others you are going off script, you keep their trust along with your idea.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Off script is how you stay interested. Sticking to a plan switches your talent off, and you head off script rather than see it through.",
+       "close": "Finish one plan unchanged, because that keeps the chances only a plain version wins.",
+       "words": 39,
+       "audit_notes": [
+        "MINOR W-048: The close does not parse, and it is advice (W-001)."
+       ]
+      },
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You go off script with shared plans as easily as your own. A better idea seems like a duty to you, and you go off script instead of asking.",
+       "close": "Check with the group first, so that you hand them a better plan to lean on.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Stands out",
+     "passages": [
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Standing out comes naturally to you. You would rather stand out than fit in, since hiding what you can do is a small lie to yourself.",
+       "close": "Each time you stand out, you trade a little ease for a voice that is yours.",
+       "words": 42
+      },
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Being in a group means standing out, for you. Being noticed matters more than being safe, and you pick the stage where a quieter seat would cost less.",
+       "close": "Take the quiet seat now and then to hold on to the friendships standing out would cost.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_伤官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You stand out in company that did not ask for a star. Attention steadies you, and you keep standing out rather than leave anyone a turn.",
+       "close": "Whenever you step back for a turn, you give the person beside you a chance to stand out.",
+       "words": 44
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_偏印",
+   "persona": "the Alchemist",
+   "god": "偏印",
+   "core_element": "火",
+   "energy_element": "木",
+   "pair_function": "mind",
+   "pair_definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, the intake falls behind the output, and you would rather puzzle an answer out alone than take one from a teacher. Either way you run dry before you feel taught.",
+   "pair_advise_catalyst": "You give out faster than you take in, and running on your own fuel feels like energy until it runs out. Take a class in something nobody pays you for. Keep one evening a week with no plans. Ask someone older how they did it and listen past the first sentence. Nap before the next idea.",
+   "friction_words": [
+    "Thinks in circles",
+    "Keeps it in",
+    "Hides away"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Senses it first",
+     "passages": [
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Sensing a thing first comes easier to you than waiting to be told. You sense the pause before an answer, and your guess runs past the words.",
+       "close": "What you sense first arrives ahead of your ability to say it, so let the words catch up.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "A thing sensed first feels safer than a plain question asked. Since you would rather sense it than be told, what you have half right stays half right.",
+       "close": "Say it out loud sometimes, because the lesson you keep missing comes to the one who asks.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Whenever someone starts telling you something, you sense its direction and answer that. Sensing the point before the words saves you time and costs the other person their own ending.",
+       "close": "Let them reach it, because you want them heard as much as understood.",
+       "words": 43
+      }
+     ]
+    },
+    {
+     "word": "Self-taught",
+     "passages": [
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You teach yourself what others take classes in. Being handed an answer never feels like knowing it, and you would rather be self-taught than shown.",
+       "close": "The self-taught way costs you time, and what you learn by it is the kind that stays.",
+       "words": 42
+      },
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Being self-taught makes the knowing yours. The long way feels more honest than the short, so you spend years on what a teacher would hand you in a day.",
+       "close": "You pay in years for what one shown shortcut would give back.",
+       "words": 41,
+       "audit_notes": [
+        "MINOR W-037: The close says sentence 2 again, in harder words (\"one shown shortcut\")."
+       ]
+      },
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Teaching yourself means you rarely ask anyone who knows. Working it out alone feels cleaner than owing an answer, so you keep questions private.",
+       "close": "Learning by yourself denies the people who know the pleasure of being asked, and you repay it with one question.",
+       "words": 44
+      }
+     ]
+    },
+    {
+     "word": "Sleeps on it",
+     "passages": [
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You sleep on a question rather than answer on the spot. Forcing an answer now feels like lying to you, and you give the question a night first.",
+       "close": "Sleeping on it makes you the slow one in every quick exchange, and that slowness is chosen.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Sleeping on a question makes the answer real. Being sure later matters more to you than being in it now, so the opening that wanted an answer closes.",
+       "close": "You lose chances to a yes one day late, and the quick yes is yours too.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "With an answer someone needs, you sleep on it before you give it. Sleeping on it matters more than a quick reply, and you leave whoever asked waiting longer.",
+       "close": "You cost them a day of wondering, and a date you name is cheaper than silence.",
+       "words": 45
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_偏财",
+   "persona": "the Horizon",
+   "god": "偏财",
+   "core_element": "金",
+   "energy_element": "木",
+   "pair_function": "action",
+   "pair_definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it.",
+   "pair_advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
+   "friction_words": [
+    "Chases the new",
+    "Spread thin",
+    "Spends freely"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Spots openings",
+     "passages": [
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you spot the far chance sooner than the one in your hand.",
+       "close": "Spot the near one as carefully, because it is yours to take.",
+       "words": 41
+      },
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Where you spot openings is always past where you stand. Wanting freedom more than settling, you spot what is far instead of taking what is near.",
+       "close": "Take a near one too, because each far chance you spot is one at hand you let close.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You point out the openings you spot to anyone beside you. Because the far chance holds you more than the near one, you spot the next before finishing this with them.",
+       "close": "Finish this one first, since spotting the next costs them some of your attention.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Quick to start",
+     "passages": [
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Starting comes easily to you, often before you finish deciding. Moving is how you feel alive, so you start and learn rather than wait until you are sure.",
+       "close": "Keep starting freely, and let one start run long enough to teach you its ending.",
+       "words": 43
+      },
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start ahead of the rest you are owed.",
+       "close": "Stay for the slow middle too, since every quick start costs you the rest you never get.",
+       "words": 45,
+       "audit_notes": [
+        "MINOR W-043: \"rest\" can be read as remainder or as sleep, and the real cost of quick starts (the unfinished middle) is named only in the instruction."
+       ]
+      },
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Whatever you start has other people in it before the thing is real. You need movement more than certainty, so you start, move on and leave the middle open.",
+       "close": "Stay for one ending, because each start you share leaves them the middle to finish.",
+       "words": 44
+      }
+     ]
+    },
+    {
+     "word": "Generous",
+     "passages": [
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Generosity comes more easily to you than keeping, especially money. Being generous makes the world feel wide, so you give away a good month rather than save it.",
+       "close": "Give on, and hold one part back, because what you hold is what the generosity stands on.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Giving is your first answer to most things. Since being generous feels more like you than being careful, you give the extra ahead of putting any aside.",
+       "close": "Keep a part for yourself too, because the money you never keep is what your generosity costs you.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Whenever the people close to you run short, you are generous before being asked. Because being generous keeps you freer than being owed, you give rather than build anything shared.",
+       "close": "Let them be generous sometimes, since your giving takes their chance to be generous.",
+       "words": 44,
+       "audit_notes": [
+        "MINOR W-044: generous×4 in 44 words."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_劫财",
+   "persona": "the Rival",
+   "god": "劫财",
+   "core_element": "木",
+   "energy_element": "木",
+   "pair_function": "body",
+   "pair_definition_catalyst": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, you carry everything alone rather than lean on a peer, or race the one ahead with no reserve. You run out before the thing is done.",
+   "pair_advise_catalyst": "Holding yourself up takes more than you are taking in. Sleep a full night before a big decision rather than after it. Share one weekly meal with a peer who is not competing with you. Let someone carry one thing for you each month. Sit down for ten minutes before you say yes.",
+   "friction_words": [
+    "Bets too big",
+    "Never stops racing",
+    "Spends shared money"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Goes first",
+     "passages": [
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty.",
+       "close": "You pay for going first in landings taken alone, and asking one person along changes that.",
+       "words": 45,
+       "audit_notes": [
+        "MINOR W-034: \"landings taken alone\" is a figure the reader has to decode, and the tail is advice."
+       ]
+      },
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Where the signal has not come, you have already gone. Being the one who moved counts for more than being the one who was ready.",
+       "close": "You take the first loss alone each time you go, and one person told beforehand would halve it.",
+       "words": 43
+      },
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Plan or no plan, you go first and let the rest catch up. Moving matters more than agreeing, and that puts your people a step behind their own decision.",
+       "close": "Wait one beat, because going first takes from them the chance to choose it with you.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Loves a race",
+     "passages": [
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent.",
+       "close": "You race for the movement more than the win, so letting one end costs you nothing.",
+       "words": 43,
+       "audit_notes": [
+        "TWEAK X-22: A capacity close.",
+        "TWEAK W-006: A \"you can\" close, which the house limits forbid."
+       ]
+      },
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Racing brings out your best and spends most of it. Being ahead feels better than being rested, and that comes out of a reserve that was never deep.",
+       "close": "You pay for each race in sleep not made up, and sitting one out costs you nothing.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You turn shared things into a race. Moving counts for more with you than winning, and that keeps the people beside you in motion long after their finish.",
+       "close": "You cost them the rest they came for by racing on, and letting one end returns it.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Shares the risk",
+     "passages": [
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split.",
+       "close": "You share the risk ahead of sizing it, and one look is cheap.",
+       "words": 43
+      },
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole.",
+       "close": "You share each loss as readily as each win, and the money not kept is your price.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Your bets carry other people's names. You would rather share the risk than own the call, and that puts their money where your nerve is.",
+       "close": "Whenever you count them in unasked, you take a choice they never made, and one question first gives it back.",
+       "words": 45
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_正印",
+   "persona": "the Sage",
+   "god": "正印",
+   "core_element": "火",
+   "energy_element": "木",
+   "pair_function": "mind",
+   "pair_definition_catalyst": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, the intake falls behind the output, and you would rather puzzle an answer out alone than take one from a teacher. Either way you run dry before you feel taught.",
+   "pair_advise_catalyst": "You give out faster than you take in, and running on your own fuel feels like energy until it runs out. Take a class in something nobody pays you for. Keep one evening a week with no plans. Ask someone older how they did it and listen past the first sentence. Nap before the next idea.",
+   "friction_words": [
+    "Helps too soon",
+    "Holds too tight",
+    "Stays put"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Passes it on",
+     "passages": [
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "What you know is not finished until it is passed on. Since being useful matters more than being ahead, you hand over a lesson the day you learn it.",
+       "close": "Passing it on costs you the head start, and your knowing comes alive in others.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Passing it on is your favorite part of knowing. Teaching the thing comes ahead of using it, and the advantage you earned goes to whoever you taught.",
+       "close": "Keep one thing you know for yourself, because what you pass on first never pays you back.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find.",
+       "close": "Let them ask sometimes, because you land a lesson better when it was wanted.",
+       "words": 45,
+       "audit_notes": [
+        "TWEAK W-010: Wrong tense: they never found them, because you handed them over."
+       ]
+      }
+     ]
+    },
+    {
+     "word": "Takes people in",
+     "passages": [
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered.",
+       "close": "You go without a home that is only yours, and the trade feels fair to you.",
+       "words": 43
+      },
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go.",
+       "close": "You hand over your rest a night at a time, and being taken in once would hand some back.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year.",
+       "close": "You keep them comfortable past where comfort helps, and the kindest stay ends.",
+       "words": 43
+      }
+     ]
+    },
+    {
+     "word": "Gives it time",
+     "passages": [
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You give a person time rather than a push. A push feels like a way to spoil the growing, so you wait for someone to get there instead of pulling.",
+       "close": "You see the result last of everyone, and the waiting is the care itself.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Giving it time is how you respect someone's growth. Waiting for them to get there feels kinder than pulling them, so your own next step stays parked with theirs.",
+       "close": "You give away the time your chance needed, and it closes while you wait on theirs.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "When someone close to you grows slowly, you give them time instead of a push. Holding back feels more like respect than a nudge, so their nudge never comes.",
+       "close": "You hold back the push that would have moved them, and it is yours to give.",
+       "words": 45,
+       "audit_notes": [
+        "MINOR W-038: Push and nudge are said three times, and the tail \"it is yours to give\" is unclear."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_正官",
+   "persona": "the Magistrate",
+   "god": "正官",
+   "core_element": "土",
+   "energy_element": "木",
+   "pair_function": "order",
+   "pair_definition_catalyst": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. As a catalyst, you lack a demand to meet, so you chase a crisis or a career someone else planned and finish less of your own.",
+   "pair_advise_catalyst": "You feel most like yourself when your effort has a name and an end. Tell someone the date you will finish and let them hold you to it. Plan one dinner this month, from the guest list to the bill. Sign up for one class that ends in a test. Make your bed.",
+   "friction_words": [
+    "By the book",
+    "Never bends",
+    "Rank comes first"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Keeps your word",
+     "passages": [
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You keep your word long after it stops being convenient. Being counted on is the respect you want, so you put a promise ahead of your comfort.",
+       "close": "Add your comfort to the promises you keep, because a word kept at any price wears you down.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Keeping your word matters more to you than keeping your options. Since breaking a promise feels like losing rank with yourself, you stay inside old plans rather than reopen them.",
+       "close": "Ask out of one dead promise, and you are free when the next chance comes.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Whoever gives you their word, you expect them to keep it. Because you treat a promise as a rule, you count a missed one as a broken rule instead of a bad week.",
+       "close": "Allow people one free miss, and your word weighs more for it.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Earns every step",
+     "passages": [
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You earn every step before you take it. Since a handed rank feels borrowed to you, you earn it twice over rather than ask once.",
+       "close": "When you ask for the next step a little sooner, you stop working a rank below your worth.",
+       "words": 43
+      },
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it.",
+       "close": "If you claim what you have earned, you stop losing the title to whoever asked first.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift.",
+       "close": "Hand one person a step early, so they spend less time proving what you already know.",
+       "words": 45
+      }
+     ]
+    },
+    {
+     "word": "Holds the line",
+     "passages": [
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You hold the line where letting it slide would be easier. Since you need to know how things stand, you hold the rule ahead of the exception.",
+       "close": "Let someone else hold one line for a while, instead of carrying every rule alone.",
+       "words": 42
+      },
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Holding the line costs you more than you admit. Since bending a rule feels like losing yourself, you hold it against the people you love as much as against strangers.",
+       "close": "Bend it once for someone who matters, and you keep a closeness no rule replaces.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You hold the line for everyone, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance.",
+       "close": "Weigh what a rule costs someone, and hold the line only where it helps.",
+       "words": 45,
+       "audit_notes": [
+        "TWEAK W-016: The fronted \"For everyone\" reads oddly, and the purpose \"to\" clause does not follow from \"Weigh\"."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_正财",
+   "persona": "the Steward",
+   "god": "正财",
+   "core_element": "金",
+   "energy_element": "木",
+   "pair_function": "action",
+   "pair_definition_catalyst": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it.",
+   "pair_advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
+   "friction_words": [
+    "Stays too long",
+    "Counts everything",
+    "Slow to trust"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Patient builder",
+     "passages": [
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several.",
+       "close": "Stay patient at that pace, because the slow one is what you keep.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Whatever matters to you, you build for years. You put the thing in hand ahead of the wanted one and keep at it while your wish waits.",
+       "close": "Start building the wanted one too, because patience costs you the thing you never began.",
+       "words": 42
+      },
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You provide by building what lasts. Since you put finished ahead of shared, you build in private and keep the people near you waiting.",
+       "close": "Show them one thing half done, because the wait is the small price your care asks of them.",
+       "words": 42
+      }
+     ]
+    },
+    {
+     "word": "Saves first",
+     "passages": [
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save ahead of wanting.",
+       "close": "Spend a small part of what you save on yourself, because a cushion is also for sitting on.",
+       "words": 44,
+       "audit_notes": [
+        "TWEAK W-019: \"you never decide it\" reads as a refusal; the sense is that it happens without a decision."
+       ]
+      },
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures.",
+       "close": "Spend one of them on purpose, because saving first costs you the today you never have.",
+       "words": 40,
+       "audit_notes": [
+        "MINOR W-045: \"the today you never have\" does not read at B1."
+       ]
+      },
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving ahead of the wish.",
+       "close": "Say yes to one wish early, since you are asking them to put a life on hold.",
+       "words": 43
+      }
+     ]
+    },
+    {
+     "word": "Loyal",
+     "passages": [
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Being loyal comes ahead of being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones.",
+       "close": "Surprise the one you are loyal to once a year, because the same days are loyalty's price.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Where you gave your word, you stay loyal after the reasons change. Since loyalty feels more like love than choosing, you stop asking whether this is what you want or promised.",
+       "close": "Ask yourself every few years, because loyalty costs you the love you never chose.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence ahead of your feelings.",
+       "close": "Say it once in plain words, because unspoken loyalty leaves them guessing.",
+       "words": 42,
+       "audit_notes": [
+        "TWEAK W-018: \"the person you keep\" does not read as \"your partner\"; the clause also drops its subject."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_比肩",
+   "persona": "the Twin",
+   "god": "比肩",
+   "core_element": "木",
+   "energy_element": "木",
+   "pair_function": "body",
+   "pair_definition_catalyst": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, you carry everything alone rather than lean on a peer, or race the one ahead with no reserve. You run out before the thing is done.",
+   "pair_advise_catalyst": "Holding yourself up takes more than you are taking in. Sleep a full night before a big decision rather than after it. Share one weekly meal with a peer who is not competing with you. Let someone carry one thing for you each month. Sit down for ten minutes before you say yes.",
+   "friction_words": [
+    "Asks no one",
+    "Always right",
+    "Keeps distance"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Does it alone",
+     "passages": [
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Doing it alone comes before any plan you make. Owing nobody feels safer to you, so you do the whole thing yourself sooner than hand off a piece.",
+       "close": "Let someone carry a corner, because you do just as well with company beside you.",
+       "words": 43,
+       "audit_notes": [
+        "MINOR W-031: This repeats the friction pole's \"Asks no one\" (the same act, the same cause, the same \"piece\"), so the two poles do not differ in direction; it also closes on advice (W-001)."
+       ]
+      },
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Whenever help comes near, you do the thing alone first. Being helped feels like debt, so you would rather do it tired than owe.",
+       "close": "You pay for doing it alone in rest never taken, and you can take that back one evening at a time.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Your own two hands are the only ones you count on. Doing it alone matters more than being carried, and that keeps your friends outside every hard week.",
+       "close": "Let one peer in, since doing it alone costs them the chance to matter to you.",
+       "words": 44
+      }
+     ]
+    },
+    {
+     "word": "Sets own pace",
+     "passages": [
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "Fast or slow around you, you move at your own speed. Being your own clock keeps you steady, since a borrowed pace never feels like yours.",
+       "close": "You keep your own pace ahead of catching the group, and some days the group is worth catching.",
+       "words": 44
+      },
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Where a sprint would get you in, you keep your pace instead. You would sooner be late on your terms than rushed on another's, since borrowed tempo is never yours.",
+       "close": "You lose the chance that needed a sprint, and that pace was yours to choose.",
+       "words": 45,
+       "audit_notes": [
+        "MINOR W-032: \"get you in\" is unclear, \"tempo\" is above B2, and the reason goes round in a circle."
+       ]
+      },
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Your pace is one thing you never change for company. Keeping your own speed matters more than keeping step, and that leaves your people waiting or going ahead.",
+       "close": "You cost them the company of moving together, and one matched step a week is cheap.",
+       "words": 44
+      }
+     ]
+    },
+    {
+     "word": "Consistent",
+     "passages": [
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You are the same person in any company. Holding one standard for yourself keeps your footing, since a new shape for each group would cost you your measure.",
+       "close": "You stay consistent ahead of fitting in, and fitting in once in a while costs you nothing.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Whenever the moment calls for a softer you, you show up as usual. You would rather stay the same than be liked for a performance, since an adjusted self is hard to trust.",
+       "close": "You miss the closeness that bending buys, and a little is allowed.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_比肩 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Holding yourself to one standard means holding friends to it. Staying the same matters more than meeting anyone halfway, and an off day gets no slack.",
+       "close": "Whenever you bend for one friend, you hand them the easier you, and consistency is none the poorer.",
+       "words": 44,
+       "audit_notes": [
+        "MINOR W-033: \"none the poorer\" is a C1 idiom, and \"the easier you\" is vague; the cost to friends never lands."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cell": "木_食神",
+   "persona": "the Artisan",
+   "god": "食神",
+   "core_element": "水",
+   "energy_element": "木",
+   "pair_function": "expression",
+   "pair_definition_catalyst": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow, so what you let out keeps building. As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea, and you let your family see only half of you.",
+   "pair_advise_catalyst": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a child or a friend. Send the text without rereading it.",
+   "friction_words": [
+    "Coasts along",
+    "Never says no",
+    "Comfort first"
+   ],
+   "catalyst_rows": [
+    {
+     "word": "Gives first",
+     "passages": [
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it.",
+       "close": "Once you wait for a need to show, you give each gift to someone who wanted it.",
+       "words": 43,
+       "audit_notes": [
+        "TWEAK W-020: The trailing \", for you\" is an afterthought; it belongs at the front."
+       ]
+      },
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Giving first is how you make sure you matter. Because you would rather give than receive, you hardly ever let anyone give to you.",
+       "close": "Let one person carry you this week, and you get back the rest that giving first keeps taking.",
+       "words": 42
+      },
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[0].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "You hand things over before anyone near you can ask. Giving first feels easier than being asked, so you give at the first sign.",
+       "close": "Wait for the question some of the time, and you hand those you love the chance to want out loud.",
+       "words": 44
+      }
+     ]
+    },
+    {
+     "word": "Always making",
+     "passages": [
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[1].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You are always making something, and the making matters more than the result. Busy hands keep you steady, and you start the next thing rather than show the last.",
+       "close": "As long as you show one thing in three, you get to enjoy what you make.",
+       "words": 45
+      },
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[1].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you make something new instead of standing by.",
+       "close": "Stay beside a finished thing until praise comes, since the credit you never collect is the cost.",
+       "words": 43,
+       "audit_notes": [
+        "MINOR W-046: \"is the cost\" is bolted on, and the instruction carries the meaning."
+       ]
+      },
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[1].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "Most of your answers come as things made rather than said. Making is where you feel useful, and you keep making while you half listen.",
+       "close": "The moment you set the making aside to listen, you give those near you what nothing you make can.",
+       "words": 44
+      }
+     ]
+    },
+    {
+     "word": "Relaxed",
+     "passages": [
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.drive",
+       "angle": "drive",
+       "keep_as_is": "You stay relaxed on purpose. Enjoying what is in front of you matters more than getting ahead, and good enough is good enough for you.",
+       "close": "When you add one push to all that calm, you lose almost nothing to staying relaxed.",
+       "words": 41
+      },
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_self",
+       "angle": "cost_self",
+       "keep_as_is": "Staying relaxed is how you keep life good. Pushing feels like spoiling the day, and you take the comfortable choice rather than the forward one.",
+       "close": "If you choose the harder one every season, you win back chances that staying relaxed lets slip.",
+       "words": 42
+      },
+      {
+       "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+       "angle": "cost_others",
+       "keep_as_is": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace.",
+       "close": "Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself.",
+       "words": 45,
+       "audit_notes": [
+        "MINOR X-21: The reason given does not support the instruction (patience is why you would *not* push).",
+        "MINOR W-047: The reason argues against its own instruction (patience is why you should push?); the passage assumes a child (child×2, \"itself\")."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,453 @@
+{
+ "core": "metal",
+ "cells": [
+  {
+   "pair_cell": "金_木",
+   "core_element": "金",
+   "energy_element": "木",
+   "function": "action",
+   "self_pair": false,
+   "catalyst": {
+    "head": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up.",
+    "current_tail": "As a catalyst, your hands sit empty, and you want the next opening as much as a steady love. You do best once you choose one and finish it."
+   },
+   "friction": {
+    "head": "Your Action is what you go and build, claim and provide. Wood keeps it reaching, and building never feels done.",
+    "current_tail": "As a friction, wanting outruns strength, so you chase the next venture while holding your savings just as tight. You wear yourself out before your plans are finished."
+   },
+   "advise_catalyst": "You get hardest on yourself when your strength has nothing to build. Give it something. Agree to one venture before you are sure. Put a date on the saving you keep putting off. Fix one thing at home with your own hands, and write the first line of the plan tonight.",
+   "advise_friction": "Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out. You start more than your body has strength to finish. Sleep a full night ahead of any new yes. Eat before you plan the next thing.",
+   "personas": [
+    {
+     "k2_cell": "木_偏财",
+     "god": "偏财",
+     "persona": "the Horizon",
+     "catalyst_keywords": [
+      {
+       "word": "Spots openings",
+       "drive": "Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you spot the far chance sooner than the one in your hand. Spot the near one as carefully, because it is yours to take."
+      },
+      {
+       "word": "Quick to start",
+       "drive": "Starting comes easily to you, often before you finish deciding. Moving is how you feel alive, so you start and learn rather than wait until you are sure. Keep starting freely, and let one start run long enough to teach you its ending."
+      },
+      {
+       "word": "Generous",
+       "drive": "Generosity comes more easily to you than keeping, especially money. Being generous makes the world feel wide, so you give away a good month rather than save it. Give on, and hold one part back, because what you hold is what the generosity stands on."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Chases the new",
+       "drive": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start ahead of the finish. You leave a row of half-done things behind you, each one new when you started."
+      },
+      {
+       "word": "Spread thin",
+       "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You wanted freedom all along, and a closed option leaves it whole."
+      },
+      {
+       "word": "Spends freely",
+       "drive": "Unspent money feels less real to you than money already gone. Spending keeps life open, so you spend an easy month rather than put any toward a slow one. Spending for freedom, you meet the slow month with none of it left."
+      }
+     ]
+    },
+    {
+     "k2_cell": "木_正财",
+     "god": "正财",
+     "persona": "the Steward",
+     "catalyst_keywords": [
+      {
+       "word": "Patient builder",
+       "drive": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several. Stay patient at that pace, because the slow one is what you keep."
+      },
+      {
+       "word": "Saves first",
+       "drive": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save ahead of wanting. Spend a small part of what you save on yourself, because a cushion is also for sitting on."
+      },
+      {
+       "word": "Loyal",
+       "drive": "Being loyal comes ahead of being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. Surprise the one you are loyal to once a year, because the same days are loyalty's price."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Stays too long",
+       "drive": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than learn what leaving costs. You keep paying in effort every month to a place that returns none of it."
+      },
+      {
+       "word": "Counts everything",
+       "drive": "Counting what something cost matters to you ahead of enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first."
+      },
+      {
+       "word": "Slow to trust",
+       "drive": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof ahead of feeling. You only want to be safe from hurt, and the long wait for proof hurts too."
+      }
+     ]
+    }
+   ],
+   "audit_notes": [
+    "MINOR W-026 [function.definition_catalyst]: Wanting both does not describe a lack; the close prescribes (the advice's job) and leans on capacity (\"You do best\"). | auditor proposal: Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, so you reach for every new opening or hold tight to one safe thing. You build less than your strength could carry.",
+    "MINOR W-027 [function.advise_friction]: This repeats the definition's \"You wear yourself out before your plans are finished\" and \"Chases the new\"; the diagnosis should add the cause that the cure answers. | auditor proposal: Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out. You treat rest as time stolen from building. Sleep a full night ahead of any new yes. Eat before you plan the next thing."
+   ]
+  },
+  {
+   "pair_cell": "金_火",
+   "core_element": "金",
+   "energy_element": "火",
+   "function": "order",
+   "self_pair": false,
+   "catalyst": {
+    "head": "Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you.",
+    "current_tail": "As a catalyst, nothing tests you, and over time you want a crisis as much as a rank. You get most done under rules someone else set."
+   },
+   "friction": {
+    "head": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you.",
+    "current_tail": "As a friction, pressure piles up until you obey a crisis ahead of rest and a rule over your judgment. You end up tired and doubting yourself."
+   },
+   "advise_catalyst": "You do your best work when someone is allowed to tell you no. Pick one job this month that comes with a deadline and a judge, and ship it on time. Make the hard call out loud in front of the people it affects. Finish one small thing before anyone has to chase you for it.",
+   "advise_friction": "Seek Earth, the Mind energy. Earth takes the blaze in and keeps the warmth, ground that does not catch. Let it hold what Fire burns. You answer to pressure faster than you recover from it. Spend one evening a week with nobody to report to. Read the whole message before the next hard call.",
+   "personas": [
+    {
+     "k2_cell": "火_七杀",
+     "god": "七杀",
+     "persona": "the General",
+     "catalyst_keywords": [
+      {
+       "word": "Clear under pressure",
+       "drive": "Pressure is where your thinking gets clear. Since you need certainty more than comfort, you let outside pressure clear your head rather than make your own calm. Choose some of that pressure yourself, because you are only this clear with something at stake."
+      },
+      {
+       "word": "Takes charge",
+       "drive": "Taking charge comes to you before anyone offers it. Standing by while a group drifts feels worse than being wrong out loud, so you take charge ahead of the vote. Hand the next one over, because you take charge better by choice than by habit."
+      },
+      {
+       "word": "Loves high stakes",
+       "drive": "Nothing at stake feels to you like being passed over. Since you only come awake with something to lose, you take high stakes over sure things. Keep one high-stakes thing going, because you were built to be tested rather than kept safe."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Hard on yourself",
+       "drive": "You are harder on yourself than anyone else has been. With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go. You paid for each mistake the first time, and that was enough."
+      },
+      {
+       "word": "Pushes too hard",
+       "drive": "Your push arrives before anyone has asked for it. Because waiting for a yes feels like losing ground, you push people along ahead of asking whether they wanted pushing. You reach the result first and arrive with followers who never said yes."
+      },
+      {
+       "word": "Never off duty",
+       "drive": "Going off duty is an order you never learned to take. Since you feel safe only with something to handle, you stay on duty ahead of ending the day. Remember you were made to meet a crisis rather than stay on duty after it."
+      }
+     ]
+    },
+    {
+     "k2_cell": "火_正官",
+     "god": "正官",
+     "persona": "the Magistrate",
+     "catalyst_keywords": [
+      {
+       "word": "Keeps every promise",
+       "drive": "Every promise you make becomes a rule you keep. Being relied on is the closest you get to feeling safe, so you keep your word ahead of your freedom to change it. Promise a little less freely, because you keep every one you make."
+      },
+      {
+       "word": "By the book",
+       "drive": "By the book is the only way you trust a thing done. Since an outside rule steadies you, you go by the book ahead of the shortcut. Stay with the book, because you are the standard the work gets checked against."
+      },
+      {
+       "word": "Earns the title",
+       "drive": "A fairly earned title is worth more to you than any praise. Since an earned rank says you belong, you earn the next title ahead of chasing the next thrill. Let the title come slowly, because you are already doing the job it names."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Rule-bound",
+       "drive": "A rule you learned once stays in force after it stops helping. The rules that steady you also hold you in, until you keep the correct one ahead of the useful one. You wrote most of these rules yourself and are free to retire them."
+      },
+      {
+       "word": "Afraid to slip",
+       "drive": "Fear of slipping runs under most of what you do well. Since your standing holds your worth, you would rather never be seen to slip than be at ease. You spend more effort guarding against a slip than any slip would ever cost you."
+      },
+      {
+       "word": "Never says no",
+       "drive": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you never say no to the next request ahead of finishing the last. You pay for your standing in the strength that keeps it."
+      }
+     ]
+    }
+   ],
+   "audit_notes": [
+    "MINOR F-29 [function.definition_catalyst]: \"Demands shape you\" and \"nothing tests you\" contradict each other, and the close is restated word for word in spirit by the advice opener (\"You do your best work when someone is allowed to tell you no\"). Applying this supersedes F-04. | auditor proposal: \"Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and every real demand sharpens you. As a catalyst, too few demands reach you, so you go looking for a test. You stay half-used until something asks a lot of you.\"",
+    "TWEAK F-04 [function.definition_catalyst]: This leads you down the wrong path: \"demands\" first reads as a verb whose subject is Fire. | auditor proposal: \"Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. As a catalyst, nothing tests you, and over time you want a crisis as much as a rank. You get most done under rules someone else set.\"",
+    "TWEAK F-07 [function.definition_friction]: \"Judgment\" is repeated in two sentences in a row. | auditor proposal: \"Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up until you obey a crisis ahead of rest and a rule over your judgment. You end up tired and doubting yourself.\""
+   ]
+  },
+  {
+   "pair_cell": "金_土",
+   "core_element": "金",
+   "energy_element": "土",
+   "function": "mind",
+   "self_pair": false,
+   "catalyst": {
+    "head": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in.",
+    "current_tail": "As a catalyst, nothing settles for long, and you work it out alone rather than lean on anyone. You judge best once you give a question its night."
+   },
+   "friction": {
+    "head": "Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost.",
+    "current_tail": "As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of letting go. You sit on finished work long past its time."
+   },
+   "advise_catalyst": "Your judgment is only as good as the time you let it take. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with nobody in it. Sleep on anything that costs money.",
+   "advise_friction": "Seek Wood, the Action energy. Wood grows from the ground that fed it, a thing built with the reading half done. Let it spend what Earth stores. You keep getting ready, your most comfortable way of not starting. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists.",
+   "personas": [
+    {
+     "k2_cell": "土_偏印",
+     "god": "偏印",
+     "persona": "the Alchemist",
+     "catalyst_keywords": [
+      {
+       "word": "Self-taught",
+       "drive": "Teaching yourself matters more to you than being taught. Needing to understand before you trust, you teach yourself from odd sources rather than take the standard lesson. Let someone teach you from time to time, since a lesson only you know is lonely."
+      },
+      {
+       "word": "Reads between lines",
+       "drive": "You read between the lines before you finish the lines. Needing to know a thing from underneath, you trust what sits between the words over what they say. Wait for the reason to catch up, since you cannot pass a hunch on without proof."
+      },
+      {
+       "word": "Solo thinker",
+       "drive": "Thinking alone is how you do your best thinking. Because you need the whole picture before you share any of it, you want the quiet ahead of the company. Take one invitation you usually turn down, since you give up company for thinking alone."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Never quite ready",
+       "drive": "You wait to feel ready rather than work to be ready, and getting ready never ends. With more Earth than your core uses, you choose another round of preparing over a first attempt. You are allowed to make the first attempt before the feeling arrives."
+      },
+      {
+       "word": "Hard to reach",
+       "drive": "Long before anything goes wrong, you are already hard to reach. Taking things in alone, you let yourself be reached on your own schedule rather than anyone else's. You buy the quiet with friendships that wear thin."
+      },
+      {
+       "word": "Second-guesses",
+       "drive": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later."
+      }
+     ]
+    },
+    {
+     "k2_cell": "土_正印",
+     "god": "正印",
+     "persona": "the Sage",
+     "catalyst_keywords": [
+      {
+       "word": "Calming presence",
+       "drive": "Your presence calms people before your words do. Since you need people safe rather than impressed, you calm them with the slow question ahead of the fix. Let someone be the calm one for you sometimes, because you need calming as much as anyone."
+      },
+      {
+       "word": "Knows what works",
+       "drive": "Knowing what works comes easier to you than hoping something unproven will. Because you need an answer to have lasted, you reach for what has worked over what sounds clever. Give a new idea one honest try, since every answer you trust was new once."
+      },
+      {
+       "word": "Patient teacher",
+       "drive": "You teach a thing a third time with the patience of the first. Needing the person to get there, you teach at their pace ahead of your own. Keep one hour a week that teaches nobody, because only you fill your patience back up."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Plays it safe",
+       "drive": "Playing it safe is a choice you make before looking at the others. You carry Earth past what you need, so you play safe to be held instead of tested. You rest in the safe place rather than live in it."
+      },
+      {
+       "word": "Overprotective",
+       "drive": "Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You get to let them take their own risks."
+      },
+      {
+       "word": "Same old answers",
+       "drive": "The same old answers are the ones you reach for first. Because you trust a handed-down answer over a new one, you ask the same few voices rather than a stranger. You keep the answer long after the question has moved on."
+      }
+     ]
+    }
+   ],
+   "audit_notes": [
+    "MINOR X-13 [function.definition_catalyst]: 21 of 25 catalyst definitions close on the cost of running thin. The Metal-core cluster closes on a \"you do best once …\" reassurance, which turns the definition into advice and breaks the family. The family is also formulaic: \"[Element] makes it …\" in 26 of 50; \"Wood makes it grow\" word for word in 4; Metal is \"exact\" in 7 of 10; Expression friction is \"the gate never shuts / never gets to close\" in 4 of 5; Expression catalyst \"give quietly rather than perform / show what you can do\" twice. | auditor proposal: Rewrite 金_土 catalyst: \"Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. As a catalyst, nothing settles for long, and you work it out alone rather than lean on anyone. You decide too soon and take answers back later.\" Rewrite 金_火 catalyst: \"Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and demands shape",
+    "MINOR E-04 [function.definition_friction]: \"sheltered\" and \"letting go\" are not opposites, so the either-or does not land. \"Finished work\" contradicts the page below it: \"getting ready never ends\" (Never quite ready) and the remedy's \"before the clean one exists\". The reader is told both that the work is finished and that it never gets started. | auditor proposal: \"Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of stepping out. You end up knowing far more than you ever use.\" (50 words)",
+    "MINOR E-07 [function.advise_friction]: \"a thing built with the reading half done\" has to be read twice. The diagnosis sentence repeats the \"Never quite ready\" passage almost word for word (A3). On P080 (the Sage alone) it names a trait the page never showed. | auditor proposal: \"Seek Wood, the Action energy. Wood draws on the ground it grows from and turns what it takes into something built. Let it spend what Earth stores. You treat each new thing to learn as a reason to wait. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists.\"",
+    "TWEAK E-44 [function.advise_catalyst]: \"take in\" makes the phrase ambiguous; \"take\" is meant. | auditor proposal: \"Your judgment is only as good as the time you let it take. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with nobody in it. Sleep on anything that costs money.\""
+   ]
+  },
+  {
+   "pair_cell": "金_金",
+   "core_element": "金",
+   "energy_element": "金",
+   "function": "body",
+   "self_pair": true,
+   "catalyst": {
+    "head": "Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds.",
+    "current_tail": "Running thin, strength gives out, so you manage alone rather than lean on a peer and bet big instead of resting. You last longest once you let rest and company in."
+   },
+   "friction": {
+    "head": "Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds.",
+    "current_tail": "Running over, your will sits unused, and you trust your call more than a peer's in every fight over shared stakes. You lose a peer for each argument you win."
+   },
+   "advise_catalyst": "You treat rest as something you earn after the work instead of the thing the work runs on. Take rest in first and sleep before the hard decision rather than after it. Let one peer carry a job you could do yourself. Sit out one contest a month on purpose. Eat before you answer the message.",
+   "advise_friction": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it spend what Metal stores. You stay in charge of yourself by being right. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it.",
+   "personas": [
+    {
+     "k2_cell": "金_比肩",
+     "god": "比肩",
+     "persona": "the Twin",
+     "catalyst_keywords": [
+      {
+       "word": "Self-made",
+       "drive": "You built your own standard with no one watching. Making a thing yourself feels safer than being measured on it, so you build alone rather than with help. Let one favour into the making, since you pay most for the things you make alone."
+      },
+      {
+       "word": "Even-handed",
+       "drive": "You hold everyone to the same measure as yourself. Fairness feels cleaner to you than favour, so being even with someone comes ahead of being easy on them. Let a friend off the hook sometimes, since you keep everyone you measure at a distance."
+      },
+      {
+       "word": "Recovers alone",
+       "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. Let one person near while you are low, because you recover slower alone than you need to."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Sealed-off",
+       "drive": "You stay sealed off long after the reason has gone. There is Metal to spare in you, so you seal yourself off from help without noticing whether you want any. Remember that you meant to seal out the hurt rather than your peers."
+      },
+      {
+       "word": "Unteachable",
+       "drive": "Being taught lands on you as an attack first and information second. With Metal running over, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them."
+      },
+      {
+       "word": "Asks no one",
+       "drive": "Asking once costs you more than doing a thing twice yourself. Metal is heavy in you, so asking reads as failure and carrying alone reads as proof. You count the asking as a cost and leave the carrying off the bill."
+      }
+     ]
+    },
+    {
+     "k2_cell": "金_劫财",
+     "god": "劫财",
+     "persona": "the Rival",
+     "catalyst_keywords": [
+      {
+       "word": "Competitive",
+       "drive": "You compete best with someone to beat, and you know it. Knowing where you stand matters more than comfort, so you compete harder against one rival than for any reward. Pick one contest with a finish line, because yours have no end in sight."
+      },
+      {
+       "word": "First to bet",
+       "drive": "Your yes to a bet comes before the fear has finished. Hesitating feels like losing to yourself, so you bet first and size it afterwards. Keep one bet a year you can afford to lose, since nerve costs you money as much as pride."
+      },
+      {
+       "word": "Shares the risk",
+       "drive": "You trust a person faster when the risk is shared. Sharing the risk makes the bond real to you, so you go in together ahead of writing anything down. Write the terms down once, because you risk the friendship as much as the money."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Keeps score",
+       "drive": "You keep an exact score with everyone you like. With Metal running over, you live on comparison more than company, so you keep a quiet tally of who gave more. Keep in mind that you wanted the closeness long before you wanted the score."
+      },
+      {
+       "word": "Bets the rent",
+       "drive": "Your bets are sized to the thrill ahead of the margin. Metal piles up in you, so your bets run on nerve to spare and caution borrowed. You bet the rent on a feeling that fades faster than the bill."
+      },
+      {
+       "word": "Hates to lose",
+       "drive": "Harder than any loss deserves, you hate to lose. You read a loss to a peer as a statement about you, so you argue the result instead of taking it. You hate losing your place, if you are honest, more than losing the point."
+      }
+     ]
+    }
+   ],
+   "audit_notes": [
+    "MINOR MT-04 [function.definition_friction]: A will that \"sits unused\" and fights every fight in the same sentence is a contradiction. \"shared stakes\" is abstract, and \"Running over\" replaces the \"As a friction,\" frame that BIZ_04 asks to keep visible. The close (\"You lose a peer for each argument you win\") is the best line on the page and stays. | auditor proposal: \"Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds. As a friction, that strength has nowhere to go, so you spend it on overruling the people beside you. You lose a peer for each argument you win.\" (47 words)",
+    "MINOR MT-05 [function.advise_friction]: The diagnosis repeats \"Unteachable\" (\"Since being right is how you stay safe\") on P109 and P111. \"spend what Metal stores\" is the same figure as the Water remedy, and the Body does not store. | auditor proposal: \"Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it melt what Metal hoards. With no one above you, you answer only to yourself. Ship one finished thing to someone above you by their date. Say your plan to a person who can refuse it.\"",
+    "MINOR MT-28 [function.definition_catalyst]: \"strength gives out, so you manage alone\" is a non sequitur, and \"bet big\" is a symptom of excess, not shortage. The close pre-empts the advice (\"Take rest in first\"; \"Let one peer carry a job\"). | auditor proposal: \"Your Body is the strength the whole of you stands on. Metal makes it hard, and your will holds. As a catalyst, that strength runs thin, and you spend it alone with no peer to share the load. You run out sooner than anyone sees and never stop to refill.\" (50)"
+   ]
+  },
+  {
+   "pair_cell": "金_水",
+   "core_element": "金",
+   "energy_element": "水",
+   "function": "expression",
+   "self_pair": false,
+   "catalyst": {
+    "head": "Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out.",
+    "current_tail": "As a catalyst, your gate stays shut while you get a thing right rather than give it. You keep your kindness and your wit waiting past their moment."
+   },
+   "friction": {
+    "head": "Your Expression is the gate where inner work becomes outer fact. Water pours it out until nothing stays in.",
+    "current_tail": "As a friction, the gate never shuts, and you give what you meant to keep or say more than you know. You run empty long before you run quiet."
+   },
+   "advise_catalyst": "You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell a child one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.",
+   "advise_friction": "Seek Earth, the Mind energy. Earth is the ground under the water, the bank that stills it until it clears. Let it hold what Water pours. You say the thing to find out what you think, and you keep nothing back for yourself. Read a whole chapter before you answer. Sit with one question overnight.",
+   "personas": [
+    {
+     "k2_cell": "水_食神",
+     "god": "食神",
+     "persona": "the Artisan",
+     "catalyst_keywords": [
+      {
+       "word": "Giving",
+       "drive": "Giving comes to you before anyone has asked, the most natural thing you do. Being needed feels closer to safe than being admired, and you give the help ahead of the ask. Keep giving first, because you were never giving to earn your place."
+      },
+      {
+       "word": "Unforced",
+       "drive": "What you make is unforced, and you hardly notice how rare that is. Since effort is the only proof you trust, you put what you forced ahead of what came easily. Let the unforced thing count, because it was never the lesser one."
+      },
+      {
+       "word": "Warm",
+       "drive": "Warmth matters to you more than winning the point, and an easy evening is where you are most yourself. This is why you make the warmth around you on purpose. Keep making it, and sit inside it as a guest some nights."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Drifts along",
+       "drive": "Drifting is easier than steering, and most days you choose it. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go."
+      },
+      {
+       "word": "Comfort first",
+       "drive": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. You enjoy the comfort less while the job sits undone."
+      },
+      {
+       "word": "Gives it away",
+       "drive": "What you have, you give away before checking whether enough is left. Since giving is the nearest you get to feeling like yourself, you give away more than you keep. You are one of the people you give to, and that is worth remembering."
+      }
+     ]
+    },
+    {
+     "k2_cell": "水_伤官",
+     "god": "伤官",
+     "persona": "the Virtuoso",
+     "catalyst_keywords": [
+      {
+       "word": "Quick-witted",
+       "drive": "Your wit answers before your care does, and mostly you let it. Since being quick is how you know you are awake, you put the quick answer ahead of the careful one. Let the wit out, because you are kinder with it than you fear."
+      },
+      {
+       "word": "Original",
+       "drive": "Doing a thing the usual way is nearly impossible for you, and only an original one feels done. Needing it in pieces first, you make your own version rather than follow the rule. Let originality count as talent, because it was never a fight."
+      },
+      {
+       "word": "Speaks up",
+       "drive": "Not speaking up about something wrong is almost physically hard for you. You speak up ahead of being liked, because a true sentence left unsaid feels like a lie you took part in. Keep speaking up, since you are usually the only one who will."
+      }
+     ],
+     "friction_keywords": [
+      {
+       "word": "Overshares",
+       "drive": "What you think is already out loud, and the editing happens after. You have more Water than time to settle it, so you share the thought ahead of asking whether it is ready. You give away ideas before you have finished thinking them."
+      },
+      {
+       "word": "Mocking",
+       "drive": "Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. Never forget that you mean the fondness more than the mocking lets on."
+      },
+      {
+       "word": "Picks fights",
+       "drive": "Picking a fight with a rule starts before you decide to. Since being told what to do feels like being made smaller, you pick the fight ahead of asking why. Keep in mind that asking why first does not make you smaller."
+      }
+     ]
+    }
+   ],
+   "audit_notes": [
+    "MINOR W-019 [function.advise_catalyst]: The same assumption that the reader has a child, on every Metal-core catalyst page. | auditor proposal: \"You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell someone one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.\""
+   ]
+  }
+ ]
+}
