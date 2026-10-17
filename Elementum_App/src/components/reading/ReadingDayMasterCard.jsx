@@ -70,7 +70,7 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className="screen-pad">
-        <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack}>
+        <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack} role="button" tabIndex={0} aria-label="Back" onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onBack?.(); } }}>
           <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l" /></svg></span>
           <span className="eyebrow">YOUR ENERGIES · DAY MASTER</span>
         </div>

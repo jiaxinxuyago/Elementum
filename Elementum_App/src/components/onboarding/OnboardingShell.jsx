@@ -300,10 +300,12 @@ export function ScrollPicker({
 
       {/* minimal iOS-style carets */}
       <button
+        type="button"
         onClick={() => step(-1)}
         aria-label="previous"
         style={{
           position: 'absolute',
+          zIndex: 6, // above the draggable rows (zIndex 2), or a tap lands on a row
           top: -2,
           left: '50%',
           transform: 'translateX(-50%)',
@@ -319,10 +321,12 @@ export function ScrollPicker({
         ▲
       </button>
       <button
+        type="button"
         onClick={() => step(1)}
         aria-label="next"
         style={{
           position: 'absolute',
+          zIndex: 6, // above the draggable rows (zIndex 2), or a tap lands on a row
           bottom: -2,
           left: '50%',
           transform: 'translateX(-50%)',

@@ -66,7 +66,7 @@ export default function ReadingPillarChartCard({ pillars, energies, positions = 
       <img className="ground-img" src="/backgrounds/bg-reading-01-side-margins.png" alt="" />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className="screen-pad">
-        <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack}>
+        <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack} role="button" tabIndex={0} aria-label="Back" onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onBack?.(); } }}>
           <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l" /></svg></span>
           <span className="eyebrow">YOUR ENERGIES · PILLAR CHART</span>
         </div>
@@ -76,7 +76,7 @@ export default function ReadingPillarChartCard({ pillars, energies, positions = 
           {pillars.map((col) => <Pillar key={col.key} col={col} />)}
         </div>
         <div style={{ textAlign: 'center', margin: '7px 0 12px', fontSize: 11, lineHeight: 1.5, color: 'var(--inkLight)', fontFamily: "'EB Garamond', serif" }}>
-          Each of the eight characters pairs with its element. The day stem is your Day Master; the Hour pillar completes once your birth time is set.
+          Each of the eight characters pairs with its element. The day stem is your Day Master.{hourUnknown && ' The Hour pillar completes once your birth time is set.'}
         </div>
 
         {positions.length > 0 && (

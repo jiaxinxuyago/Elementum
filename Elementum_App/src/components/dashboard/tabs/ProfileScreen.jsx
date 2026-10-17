@@ -68,7 +68,7 @@ export default function ProfileScreen() {
   let tstStr = null;
   if (!birthData?.hourUnknown && birthData?.hour != null
       && typeof lon === 'number' && Math.abs(lon - 120) > 0.5) {
-    const tst = (((birthData.hour - (lon - 120) / 15) % 24) + 24) % 24;
+    const tst = (((birthData.hour + (lon - 120) / 15) % 24) + 24) % 24;
     const h = Math.floor(tst);
     const m = Math.round((tst - h) * 60);
     tstStr = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
@@ -172,6 +172,7 @@ export default function ProfileScreen() {
           </div>
           <Toggle
             on={pushOn}
+            label="Daily reading"
             onToggle={async () => {
               setPushMsg(''); setPreviewState('');
               if (pushOn) {
@@ -414,12 +415,13 @@ function Row({ children, borderBottom, onClick }) {
   );
 }
 
-function Toggle({ on, onToggle }) {
+function Toggle({ on, onToggle, label }) {
   return (
     <button
       type="button"
       role="switch"
       aria-checked={on}
+      aria-label={label}
       onClick={onToggle}
       style={{
         width: 42, height: 24, borderRadius: 999,

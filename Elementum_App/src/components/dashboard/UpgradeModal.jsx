@@ -184,6 +184,15 @@ export function UpgradeModalHost() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [payState, tier]);
 
+  // Escape closes the sheet like × and "Not now" do (the sign-in sheet on top
+  // handles its own keys, so it is left alone while open).
+  useEffect(() => {
+    if (!feature || authOpen) return undefined;
+    const onKey = (e) => { if (e.key === 'Escape') closeUpgrade(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [feature, authOpen, closeUpgrade]);
+
   const dmElement = chart?.dayMaster?.element || 'Metal';
   const dmPigKey = ELEMENT_TO_PIGMENT[dmElement] || 'metal';
   const checkColor = pigments[dmPigKey].deep;

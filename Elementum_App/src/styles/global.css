@@ -52,6 +52,14 @@
   .reading .status {
     display: none !important;
   }
+  /*  · .jny .status2  → the journey surfaces (catalogue, element, function,
+                          domains). It stays as a 48px spacer so the layout
+                          still clears the real status bar, but draws nothing
+                          and takes no taps (it sat over the identity scrim). */
+  .jny .status2 {
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
   /* The D13 surfaces fill the frame with position:absolute (inset:0), so they
      don't inherit .el-frame's safe-area padding. With the 52px mock status
      gone, give the scroll content the SAME 54px top inset the dashboard tab
