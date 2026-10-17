@@ -1,0 +1,4078 @@
+{
+ "findings": [
+  {
+   "source": "earth",
+   "id": "E-01",
+   "severity": "MAJOR",
+   "criterion": "A1, D1, D3",
+   "pages": "P064, P065, P066, P070, P072, P076, P077, P078, P088, P089, P090 (11 of 15 catalyst pages)",
+   "key": "PAIR 木_土 · function.definition_catalyst",
+   "quote": "水_土: \"As a catalyst, the standard comes late. You take a dare sooner than a post, and you find your pace after someone sets it.\" then on the same page \"You set a standard for the whole group.\" 火_土: \"you give quietly … You pay in kindness not given\" then \"Giving comes to you before the question does.\" 土_土: \"lean on a peer's view or step back from a stake you share\" then \"you set a bar and trust it more than any outside grade\" and \"You stake the whole amount\". 木_土: \"You end up owning far less than you built\" then \"Saving first is the quiet skill under everything you own.\"",
+   "issue": "Each catalyst definition describes the thin state as a behaviour (you give too little, you follow others' pace, you don't keep). The god ledgers below it praise the opposite behaviour as a gift. The page contradicts itself in 4 of 5 cells. Only 金_土 holds, and even there \"nothing settles for long\" sits uneasily over the Sage's \"Knows what works\".",
+   "fix": "**Rule:** a catalyst definition names what is thin as a want or a missing support, never as the opposite of a behaviour either god's catalyst chips claim. **Gate:** for each catalyst definition, check every catalyst chip of both gods for direct antonymy before landing. **Rebuild** four definitions (木_土, 火_土, 土_土, 水_土). Two illustrations, first sentence kept, within 50 words. 水_土: \"Your Order is the rules you answer to and the rank you hold by them. Earth makes it steady, a rule that stays once you agree. As a catalyst, the frame is thin, and the order you keep rests on you alone. You end up holding standards nobody holds you to.\" 土_土: \"Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. As a catalyst, the base is thin, so you stand alone on a bar no one else is holding. You end up carrying alone what a peer would share.\" Both fit both gods and the existing advice."
+  },
+  {
+   "source": "earth",
+   "id": "E-02",
+   "severity": "MAJOR",
+   "criterion": "D1, C, A2",
+   "pages": "All 15 catalyst pages; worst P082, P083, P084 (every close the same frame), P078, P072",
+   "key": "K2 土_* · fn_reading.catalyst.ledger[*",
+   "quote": "\"Let someone teach you from time to time, since …\" / \"Write the read down, since …\" / \"Name the length first, since …\" (P082, all three closes). \"Want more out loud for them, and the size of your enough becomes the size of their life.\" \"Take the next one with money you can spare, because the wrong ones cost what the sure ones kept.\"",
+   "issue": "Of the 40 distinct catalyst passages, 31 close on advice. In 20 the close is an imperative and in 11 it is an \"If/When you X, you Y\" conditional. That pre-empts THE ADVICE (D1: the keywords name behaviour, the advice prescribes). It breaks the reminder register for compliments (D12). It turns into one frame, \"[Imperative], since/because [reason]\", used 15 times; on P082 to P084 every close has that shape. Most of the garbled lines on the pole are these closes (E-28 to E-31, E-37 to E-40).",
+   "fix": "**Rule:** catalyst ledger closes are declarative closures (the effect, the price or the want), in the compliment register. No imperative appears in a ledger passage. At most one conditional appears per page, and the ADVICE box holds the instructions. If the owner prefers to keep an \"open door\" on the catalyst cost angles, cap it at one per page and ban the \"…, since/because …\" tail. **Evidence:** 31 of 40 passages. Only 9 close declaratively (e.g. \"You pay in time, and you get to be right in a way that lasts\"; \"You pay for it in warmth, and to you the truth is worth it\"), and those read best. The MINOR rewrites below for catalyst passages already follow this rule."
+  },
+  {
+   "source": "earth",
+   "id": "E-03",
+   "severity": "MAJOR",
+   "criterion": "C",
+   "pages": "16 of 30 pages repeat the same contrast joint: P061, P063, P064, P065, P066, P067, P068, P069, P070, P072, P079, P080, P081, P082, P083, P084",
+   "key": "",
+   "quote": "P063: \"rather than work what is here\" / \"rather than enough to win\" / \"rather than take its space back\" / \"rather than go toward the better\" (×4 on one page). P080: \"rather than\" ×3 + \"instead of\" ×2 + \"ahead of\" ×1.",
+   "issue": "The middle sentence of the ledger is built as \"[need], so you [act] rather than / instead of [alternative]\", in 48 of the 80 distinct passages. That is the house's either-or by design, but it has one surface. On a page of 3 or 4 passages plus a definition it repeats the joint, against C (\"no joint repeated\"). 19 pages carry 3 or more contrast joints. The blend pages are worst because they put two gods' templates side by side.",
+   "fix": "**Rule:** the either-or keeps its place but rotates its surface: \"over\", \"before\", \"sooner than\", \"trade X for Y\", \"pick X when Y was there\", or a plain two-clause contrast. **Gate:** an assembly check on all 150 pages fails a page with the same contrast joint twice. The blend composer may swap in a sibling angle when two passages collide. This needs a gate, not 16 local edits."
+  },
+  {
+   "source": "earth",
+   "id": "E-04",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P079, P080, P081 **golden**",
+   "key": "PAIR 金_土 · function.definition_friction",
+   "quote": "\"so you learn ahead of deciding and stay sheltered instead of letting go. You sit on finished work long past its time.\"",
+   "issue": "\"sheltered\" and \"letting go\" are not opposites, so the either-or does not land. \"Finished work\" contradicts the page below it: \"getting ready never ends\" (Never quite ready) and the remedy's \"before the clean one exists\". The reader is told both that the work is finished and that it never gets started.",
+   "fix": "\"Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost. As a friction, the holding never stops, so you learn ahead of deciding and stay sheltered instead of stepping out. You end up knowing far more than you ever use.\" (50 words)"
+  },
+  {
+   "source": "earth",
+   "id": "E-05",
+   "severity": "MINOR",
+   "criterion": "A1, B, D4",
+   "pages": "P079, P081 **golden**",
+   "key": "K2 土_偏印 · fn_reading.friction.ledger[0",
+   "quote": "\"With more Earth than your core uses, you choose another round of preparing over a first attempt.\"",
+   "issue": "The cause is the chart's arithmetic, not the reader's need (D10, the owned cause). The prose should carry no astrology (benchmarks §1.2). This is the only K2 passage on the 30 pages that does it, and it sits on the golden chart. The house's own exemplar for this chip (benchmarks §4: \"Getting ready is where you feel most in control\") is stronger than the live text. \"first attempt\" also appears twice.",
+   "fix": "\"You wait to feel ready rather than work to be ready, and getting ready never ends. Preparing is the part you control, so you choose another round of it over a first attempt. You are allowed to start before the feeling arrives.\" (42)"
+  },
+  {
+   "source": "earth",
+   "id": "E-06",
+   "severity": "MINOR",
+   "criterion": "A1, A2, A5",
+   "pages": "P080 **golden**",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[0",
+   "quote": "\"You carry Earth past what you need, so you play safe to be held instead of tested. You rest in the safe place rather than live in it.\"",
+   "issue": "The cause is the chart's arithmetic again (the second passage on the 30 pages that does it, also golden). \"safe\" appears 4 times in 3 sentences. The close (\"rest in … rather than live in it\") names no cost the reader could check against their week.",
+   "fix": "\"Playing it safe is a choice you make before looking at the others. Being held feels better to you than being tested, so you pick the known road every time. You pay for that safety in chances you never looked at.\" (41)"
+  },
+  {
+   "source": "earth",
+   "id": "E-07",
+   "severity": "MINOR",
+   "criterion": "A3, A1, D1",
+   "pages": "P079, P080, P081 **golden**",
+   "key": "PAIR 金_土 · function.advise_friction",
+   "quote": "\"Wood grows from the ground that fed it, a thing built with the reading half done. … You keep getting ready, your most comfortable way of not starting.\"",
+   "issue": "\"a thing built with the reading half done\" has to be read twice. The diagnosis sentence repeats the \"Never quite ready\" passage almost word for word (A3). On P080 (the Sage alone) it names a trait the page never showed.",
+   "fix": "\"Seek Wood, the Action energy. Wood draws on the ground it grows from and turns what it takes into something built. Let it spend what Earth stores. You treat each new thing to learn as a reason to wait. Decide one thing you have read enough about. Send the rough version to someone before the clean one exists.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-08",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P079 **golden**",
+   "key": "K2 土_偏印 · fn_reading.friction.ledger[2",
+   "quote": "\"…leaves people waiting on it. … You hold up their next step for as long as you second-guess.\"",
+   "issue": "The close restates the opener (people wait while you second-guess), so the passage does not progress. \"hold\" appears twice.",
+   "fix": "\"Second-guessing an answer you already have leaves people waiting on it. Because being certain comes first, you hold the yes or no for weeks rather than give a maybe. You make their plans wait on your peace of mind.\" (39)"
+  },
+  {
+   "source": "earth",
+   "id": "E-09",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P081 **golden**",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[0",
+   "quote": "\"Handed someone's plan to change the shared life, you play safe for both.\"",
+   "issue": "The dangling participle has to be parsed twice. \"the shared life\" and \"the life you share\" say the same thing twice.",
+   "fix": "\"When someone you share a life with wants a change, you play safe for both. Keeping things as they are matters more to you than any change, and you slow theirs down. You take away their equal say in that life.\" (41)"
+  },
+  {
+   "source": "earth",
+   "id": "E-10",
+   "severity": "MINOR",
+   "criterion": "A5, B",
+   "pages": "P081 **golden**",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[1",
+   "quote": "\"You get to let them take their own risks.\"",
+   "issue": "A weak, slightly odd permission close: \"get to let\" and \"take … risk\" twice. It is the last word on the golden page's final keyword.",
+   "fix": "\"Protecting the people you love is your first move with news. Because you treat their safety as your job, you shield them from a risk rather than watch them take it. You are allowed to stand beside them and let the risk be theirs.\" (44)"
+  },
+  {
+   "source": "earth",
+   "id": "E-11",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P080 **golden**",
+   "key": "K2 土_正印 · fn_reading.friction.ledger[1",
+   "quote": "\"You carry their trouble rather than let them, and pick up weight nobody handed you.\"",
+   "issue": "The clause is elliptical (\"let them\" what?).",
+   "fix": "\"When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. You look after everyone and leave no one looking after you.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-12",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P065",
+   "key": "K2 土_正财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Being chosen again is a thing you give out loud, and you give it less than you mean to.\"",
+   "issue": "Being chosen is something you receive, not something you give, so the close is illogical.",
+   "fix": "\"Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. You choose them again in silence, and you say it less often than you mean it.\" (42)"
+  },
+  {
+   "source": "earth",
+   "id": "E-13",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P070",
+   "key": "K2 土_食神 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Want more out loud for them, and the size of your enough becomes the size of their life.\"",
+   "issue": "The logic is inverted: as written, wanting more makes your enough the size of their life, which is the outcome the line warns against.",
+   "fix": "\"At home, enough is the mood you set. Whenever enough comes early for you, you settle for the people in your care rather than push for them. You make the size of your enough the size of their life.\" (39)"
+  },
+  {
+   "source": "earth",
+   "id": "E-14",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P064, P066",
+   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Take the next one with money you can spare, because the wrong ones cost what the sure ones kept.\"",
+   "issue": "The close does not parse on first read, and it is advice (E-02).",
+   "fix": "\"Taking the chance pays you more than waiting does. Moving makes you feel alive, so you put money into what moves rather than what is safe. You win bigger than the careful do, and you lose bigger too.\" (38)"
+  },
+  {
+   "source": "earth",
+   "id": "E-15",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P064",
+   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"You do them more good sharing in a shape that lasts, since they come back.\"",
+   "issue": "\"since they come back\" has no clear sense.",
+   "fix": "\"You share each win rather than sit on it. Giving in bursts is how you love, so they get plenty one year and nothing the next. You give them a feast or a famine, and they never know which is coming.\" (41)"
+  },
+  {
+   "source": "earth",
+   "id": "E-16",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P065",
+   "key": "K2 土_正财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"If you spend one saved sum on something you want, the pleasure you put off stops being the price.\"",
+   "issue": "The sentence has to be read twice.",
+   "fix": "\"Saving first is the quiet skill under everything you own. You would rather be covered than pleased, and the good thing you can afford keeps waiting. You pay for the cushion in pleasures you put off past the point of enjoying them.\" (42)"
+  },
+  {
+   "source": "earth",
+   "id": "E-17",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P062",
+   "key": "K2 土_正财 · fn_reading.friction.ledger[1",
+   "quote": "\"the better place is taken while you weigh it. You lose the chance to go in the time you spend deciding.\"",
+   "issue": "The same loss is said twice.",
+   "fix": "\"Being hard to move keeps your life steady and small. You would rather weigh a move than make one, since the known place asks nothing new of you. You lose the better place in the time you spend deciding.\" (39)"
+  },
+  {
+   "source": "earth",
+   "id": "E-18",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P062",
+   "key": "K2 土_正财 · fn_reading.friction.ledger[2",
+   "quote": "\"you make the saving on them. You take what you save out of their share.\"",
+   "issue": "Sentences 2 and 3 say the same thing.",
+   "fix": "\"Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, so the gift shrinks before you hand it over. You take what you save out of their share.\" (38)"
+  },
+  {
+   "source": "earth",
+   "id": "E-19",
+   "severity": "MINOR",
+   "criterion": "A2, A1",
+   "pages": "P061, P063",
+   "key": "K2 土_偏财 · fn_reading.friction.ledger[1",
+   "quote": "\"Spreading yourself thin keeps you from being caught out and keeps you tired.\"",
+   "issue": "\"keeps you from being caught out\" is unclear: caught out doing what?",
+   "fix": "\"Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You run all of them on the one body you have.\" (44)"
+  },
+  {
+   "source": "earth",
+   "id": "E-20",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P068",
+   "key": "K2 土_伤官 · fn_reading.friction.ledger[1",
+   "quote": "\"Saying too much proves to you that you were listening.\"",
+   "issue": "The cause does not fit the act; the Virtuoso talks to show what they have, not that they heard.",
+   "fix": "\"Saying too much proves to you that you have something to add. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You talk away trust that comes back slower than it left.\" (45)"
+  },
+  {
+   "source": "earth",
+   "id": "E-21",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P071",
+   "key": "K2 土_伤官 · fn_reading.catalyst.ledger[2",
+   "quote": "\"You rewrite a rule that stops making sense under the people standing on it.\"",
+   "issue": "A garden-path opener. Keep the excellent \"somebody's floor\".",
+   "fix": "\"When a rule stops making sense, you rewrite it, even with people standing on it. Since you fix it ahead of keeping the peace, the footing changes with no warning. You forget that the rule you found pointless was somebody's floor.\" (41)"
+  },
+  {
+   "source": "earth",
+   "id": "E-22",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P073, P075",
+   "key": "K2 土_比肩 · fn_reading.friction.ledger[1",
+   "quote": "\"Where you shut people out, you shut out what you were saving yourself for.\"",
+   "issue": "The opener is opaque: what was being saved, and for what?",
+   "fix": "\"Shutting people out feels like rest to you, and it works too well. Your own company is so easy that you mistake it for the plan rather than a break. You pay for that peace in closeness, one quiet evening at a time.\" (43)"
+  },
+  {
+   "source": "earth",
+   "id": "E-23",
+   "severity": "MINOR",
+   "criterion": "D4, A1, C",
+   "pages": "P074",
+   "key": "K2 土_劫财 · fn_reading.friction.ledger[2",
+   "quote": "\"you spend money your partner set aside for the two of you. Along with the money, you spend a plan you made together.\"",
+   "issue": "\"spend\" appears 4 times. \"money your partner set aside\" implies taking what is not yours, a bad-faith charge that BIZ_04's too-harsh test rules out. \"To win\" never says what is being won.",
+   "fix": "\"Winning the room matters enough that you pay for it with shared money. You would rather cover the whole bill than split it, even from savings meant for two. You spend a plan you made together along with the cash.\" (40)"
+  },
+  {
+   "source": "earth",
+   "id": "E-24",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "P075",
+   "key": "K2 土_劫财 · fn_reading.friction.ledger[1",
+   "quote": "\"…a blow to your standing. … because your standing feels at stake. You carry each loss for weeks…\"",
+   "issue": "Sentence 2's reason restates sentence 1. \"standing\" and \"contest\" each appear twice. On P075, \"You carry each loss\" echoes \"You carry each problem alone\" two passages up.",
+   "fix": "\"You feel every loss as a blow to your standing. Since a loss says something about you, you would rather sit out a contest than risk it. You replay each defeat for weeks after the game is over.\" (38)"
+  },
+  {
+   "source": "earth",
+   "id": "E-25",
+   "severity": "MINOR",
+   "criterion": "A2, A3",
+   "pages": "P082",
+   "key": "K2 土_偏印 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Thinking best out of reach, you let the solo hours run long … Name the length first, since you give those waiting no time to expect you.\"",
+   "issue": "\"best thinking\" then \"Thinking best\" says it twice, and \"long\" appears 3 times. The close is garbled.",
+   "fix": "\"Your best thinking happens alone, and you go off to it without saying how long. Since you think most clearly out of reach, you let the solo hours run on. You leave the people waiting with no idea when to expect you.\" (42)"
+  },
+  {
+   "source": "earth",
+   "id": "E-26",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P082, P084",
+   "key": "K2 土_偏印 · fn_reading.catalyst.ledger[1",
+   "quote": "\"so the doubt stays yours. Write the read down, since you pay for every unchecked read in doubt about your own mind.\"",
+   "issue": "The doubt is said twice, and writing a read down does not check it.",
+   "fix": "\"Between the lines is where you are quickest and hardest to follow. You go with the read rather than wait for proof, so nobody checks it but you. You carry every unchecked read alone, and the doubt about your own mind stays with you.\" (44)"
+  },
+  {
+   "source": "earth",
+   "id": "E-27",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P083",
+   "key": "K2 土_正印 · fn_reading.catalyst.ledger[2",
+   "quote": "\"You teach it a second time instead of watching someone struggle, and take the struggle that made it theirs. Let them not know a while longer, since you take the practice with every answer handed over.\"",
+   "issue": "\"it\" has no clear referent, \"take\" appears 3 times, and \"Let them not know\" is awkward.",
+   "fix": "\"Your patience is what you teach with first. Rather than watch someone struggle, you explain it a second time and a third. You take from them the struggle that would have made the lesson theirs.\" (35)"
+  },
+  {
+   "source": "earth",
+   "id": "E-28",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P086",
+   "key": "K2 土_正官 · fn_reading.friction.ledger[1",
+   "quote": "\"Where a raise is there for the asking … You lose the raise you never ask for, year after year.\"",
+   "issue": "The close repeats the opener. \"wait\" appears 3 times, and \"you wait on an offer waiting on you\" is a tongue-twister.",
+   "fix": "\"Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, so you wait for an offer that is waiting on you. You fall further behind every year you stay quiet.\" (44)"
+  },
+  {
+   "source": "earth",
+   "id": "E-29",
+   "severity": "MINOR",
+   "criterion": "A3, B",
+   "pages": "P089",
+   "key": "K2 土_正官 · fn_reading.catalyst.ledger[2",
+   "quote": "\"the standard you set is theirs to meet too. If you ask them where to set it, you find it met more gladly.\"",
+   "issue": "Sentence 2 is circular: a standard set for a group is theirs to meet by definition. The close is advice (E-02).",
+   "fix": "\"You set a standard for the whole group. You hold people to a bar they can see rather than guess at, and you rarely ask whether they agree to it. You get their effort more easily than their goodwill.\" (39)"
+  },
+  {
+   "source": "earth",
+   "id": "E-30",
+   "severity": "MINOR",
+   "criterion": "D4",
+   "pages": "P090",
+   "key": "K2 土_正官 · fn_reading.catalyst.ledger[0",
+   "quote": "\"you never tell the person that the promise went stale. Give one person the real answer, and let them choose.\"",
+   "issue": "\"never tell\" implies concealment, which is the bad-faith charge BIZ_04 names. The close is an imperative.",
+   "fix": "\"Long after you stopped wanting to, you keep promises to people. Holding to your word counts for more with you than saying you have changed, so the promise goes stale in silence. You give them your effort without your heart in it.\" (42)"
+  },
+  {
+   "source": "earth",
+   "id": "E-31",
+   "severity": "MINOR",
+   "criterion": "A1, B",
+   "pages": "P090",
+   "key": "K2 土_正官 · fn_reading.catalyst.ledger[1",
+   "quote": "\"If you let one person see the fairness, you lose nothing.\"",
+   "issue": "The close says nothing the reader can check.",
+   "fix": "\"You play fair even when it costs you the win. You only trust a rule that applies to everyone, and you keep yourself to it rather than make yourself the exception. You lose some races and keep a name nobody can question.\" (42)"
+  },
+  {
+   "source": "earth",
+   "id": "E-32",
+   "severity": "MINOR",
+   "criterion": "A1, B",
+   "pages": "P088, P090",
+   "key": "K2 土_七杀 · fn_reading.catalyst.ledger[0",
+   "quote": "\"When a quiet day comes, give it some calm too, because that calm is yours anyway.\"",
+   "issue": "The logic is thin, and the close is advice.",
+   "fix": "\"You stay calm under pressure, and it shows. Pressure hands you something solid to hold, so you save your calm for the hard moment ahead of the ordinary day. You are steadiest in a crisis and restless on a quiet Tuesday.\" (41)"
+  },
+  {
+   "source": "earth",
+   "id": "E-33",
+   "severity": "MINOR",
+   "criterion": "A1, D2",
+   "pages": "P068 (and P067, P069)",
+   "key": "PAIR 火_土 · function.advise_friction",
+   "quote": "\"You do not have to turn every warm feeling into something given.\"",
+   "issue": "The diagnosis fits the Artisan only. On the Virtuoso page (pushes back, says too much, overdoes it) it names a trait the page never showed. Includes E-46.",
+   "fix": "\"Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it hold what Earth pours. You give out faster than you take in. Read one chapter ahead of giving an opinion. Keep one evening a week with nothing to make.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-34",
+   "severity": "MINOR",
+   "criterion": "A1, D2",
+   "pages": "P074 (and P073, P075)",
+   "key": "PAIR 土_土 · function.advise_friction",
+   "quote": "\"You mistake not moving for being right.\"",
+   "issue": "This fits the Twin but not the Rival (comparing, hates losing, spends to win).",
+   "fix": "\"Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You let no one but yourself set the bar. Hand one decision to someone above you and live with it for a month. Put one plan up for review before you start it.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-35",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P086 (and P085, P087)",
+   "key": "PAIR 水_土 · function.advise_friction",
+   "quote": "\"You answer to yourself more strictly than to anyone above you. Ask one person who has done it before, and write down the answer. Then sleep on it.\"",
+   "issue": "The diagnosis contradicts the Magistrate's \"You trust an approval from above more than your own certainty\" (on P087 both appear). The \"it\" in \"done it before\" has no referent.",
+   "fix": "\"Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take every rule as a verdict on yourself. Before your next big yes, ask one person who has made the same call, and write down what they say. Then sleep on it.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-36",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "P073/P075 vs P085/P087; P065/P066 vs P070/P072",
+   "key": "K2 土_比肩 · …friction.ledger[1",
+   "quote": "\"Shuts people out\" (the Twin and the General); \"Makes things last\" (the Steward and the Artisan)",
+   "issue": "Two different gods share one chip in each case, so the personas blur (for the cross-energy auditor).",
+   "fix": "Rename the General's chip \"Closes the door\" (its passage already turns on \"the door shuts hardest\"). Rename the Artisan's \"Slow and solid\", with the passage opening \"Slow and solid is your idea of doing something right.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-37",
+   "severity": "MINOR",
+   "criterion": "A3, D2",
+   "pages": "P070, P072 vs P083",
+   "key": "K2 土_食神 · fn_reading.catalyst.ledger[1",
+   "quote": "\"the chances that wanted you early close while you keep making\" (the Artisan) and \"you miss the chances that wanted you early\" (the Sage)",
+   "issue": "Two gods share one figure (the image BIZ_04 already moved away from: \"chances that wanted a yes\").",
+   "fix": "Artisan passage: \"Making things last is your idea of doing something right. Since the work is only right once it holds, you would rather be finished than first. You miss the early chances while you are still making.\" (36)"
+  },
+  {
+   "source": "earth",
+   "id": "E-38",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P065",
+   "key": "K2 土_正财 · edge.lead",
+   "quote": "\"the old chair you fix instead of buying a new one, and the job you stay at until it is finished properly\"",
+   "issue": "It restates \"you repair what you own rather than replace it\" on the same page. A job is not \"finished\".",
+   "fix": "\"Earth runs through your wealth, your family and your career. It is the money put by that makes a bad month ordinary, the table at home that stays full through a lean year, and the work you stay with until it is done properly.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-39",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P064, P066",
+   "key": "K2 土_偏财 · fn_reading.catalyst.ledger[0",
+   "quote": "\"the trade favors you\"",
+   "issue": "US spelling; the other energy pages use \"favour/favours\".",
+   "fix": "\"You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. Looking far costs you some of what is near, and the trade favours you.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-40",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P067, P069",
+   "key": "K2 土_食神 · fn_reading.friction.ledger[1",
+   "quote": "\"You let the chance you were good enough for close while you drift\"",
+   "issue": "Garden path: it reads as \"good enough for close\".",
+   "fix": "\"Drifting along is your way around deciding anything. Because the comfortable day is already here, you keep choosing it instead of making the better one. While you drift, you let chances you were good enough for slip by, and you rarely count them.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-41",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P067",
+   "key": "K2 土_食神 · fn_reading.friction.ledger[2",
+   "quote": "\"You go soft on … you go soft before the first try ends.\"",
+   "issue": "\"go soft\" appears twice in two sentences.",
+   "fix": "\"You go soft on whoever is in your care because their struggle hurts. Since you fix their trouble rather than sit through it, you step in before the first try ends. You keep taking from them a struggle that was theirs to grow on.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-42",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P085, P086, P087",
+   "key": "PAIR 水_土 · function.definition_friction",
+   "quote": "\"As a friction, the judge becomes you.\"",
+   "issue": "A broken idiom: \"X becomes you\" means \"X suits you\".",
+   "fix": "\"Your Order is the rules you answer to and the rank you hold by them. Earth makes it settled, a frame that stays put. As a friction, you become the judge. You measure yourself against every rule as much as every demand and never quite pass your own review.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-43",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P076, P077, P078",
+   "key": "PAIR 土_土 · function.definition_catalyst",
+   "quote": "\"Running thin, you bend sooner\"",
+   "issue": "A dangling modifier: Earth runs thin, not you. (If E-01 rebuilds this field, that supersedes this tweak.)",
+   "fix": "\"Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. As a catalyst, you bend sooner and lean on a peer's view or step back from a stake you share. You end up living by calls that were not yours.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-44",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P082, P083, P084",
+   "key": "PAIR 金_土 · function.advise_catalyst",
+   "quote": "\"only as good as the time you let it take in\"",
+   "issue": "\"take in\" makes the phrase ambiguous; \"take\" is meant.",
+   "fix": "\"Your judgment is only as good as the time you let it take. Read one book slowly instead of five fast. Ask the oldest person you trust how they would do it, and hear them out to the end. Keep one evening a week with nobody in it. Sleep on anything that costs money.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-45",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P061, P062, P063",
+   "key": "PAIR 木_土 · function.advise_friction",
+   "quote": "\"the strength that stands before it carries … more than you have strength for\"",
+   "issue": "\"strength\" appears 3 times on each page (once in the definition, twice here).",
+   "fix": "\"Seek Wood, your own Body energy. Wood is the trunk under everything you reach for: sleep, food, rest, the body that stands before it carries. Let it hold what Earth piles up. You agree to more than you have strength for. Eat a real meal before any decision about money. Sleep on every yes before you give it.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-46",
+   "severity": "TWEAK",
+   "criterion": "A2, C",
+   "pages": "P067, P068, P069",
+   "key": "PAIR 火_土 · function.advise_friction",
+   "quote": "\"Wood is the slow growing, roots holding ground and leaf fed by rain … Read one chapter … Keep one evening a week for reading.\"",
+   "issue": "\"the slow growing\" is not a noun phrase, and \"Read\" / \"reading\" sit back to back. (E-33 supersedes this if adopted.)",
+   "fix": "\"Seek Wood, the Mind energy. Wood is slow growth, roots holding ground and leaves fed by rain, something in you before anything comes out. Let it hold what Earth pours. You do not have to turn every warm feeling into something given. Read one chapter ahead of giving an opinion. Keep one evening a week for books.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-47",
+   "severity": "TWEAK",
+   "criterion": "A3",
+   "pages": "P074",
+   "key": "K2 土_劫财 · fn_reading.friction.ledger[1",
+   "quote": "\"the losses that would have taught you most … the contests with the most to teach you\"",
+   "issue": "\"teach\" and \"most\" are repeated with an obvious swap.",
+   "fix": "\"Hating to lose costs you the losses that would have taught you most. You would rather not play than be beaten, and you never enter the contests that would stretch you furthest. You protect a record with very few wins on it.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-48",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P063",
+   "key": "K2 土_正财 · fn_reading.friction.ledger[0",
+   "quote": "\"you fill the home from the walls in. You leave the people you live with less space in their own home.\"",
+   "issue": "\"home\" appears twice in the passage.",
+   "fix": "\"You hold onto things you cannot bring yourself to drop. You keep a thing rather than take its space back, and you fill the rooms from the walls in. You leave the people you live with less space in their own home.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-49",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P088",
+   "key": "K2 土_七杀 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Whenever you push through\" (with \"Whenever a plan stalls\" one passage up)",
+   "issue": "\"Whenever\" opens two passages on one page.",
+   "fix": "\"Pushing through, you carry the people with you at your pace. You would rather hold the pace than slow it for someone, and that costs them the pause you never take. When you match the slowest once, you see what gets done anyway.\""
+  },
+  {
+   "source": "earth",
+   "id": "E-11",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P080",
+   "key": "",
+   "quote": "",
+   "issue": "",
+   "fix": ""
+  },
+  {
+   "source": "fire",
+   "id": "F-01",
+   "severity": "MAJOR",
+   "criterion": "A1, D1, D3",
+   "pages": "P035, P036, P047, P048, P053, P056, P057, P058, P060 (9 of 30)",
+   "key": "PAIR 木_火 · function.definition_catalyst",
+   "quote": "(a) 木_火: \"it opens too rarely, and you give quietly rather than perform\" and \"Say one unchecked opinion out loud\" above Virtuoso's \"You speak up right where it has gone quiet\" and edge \"the idea you say out loud while careful people are still planning\". (b) 土_火: \"sit in on a class or a talk as a listener only\" above Sage's \"you keep listening rather than give the help asked of you\". (c) 金_火: \"Pick one job this month that comes with a deadline and a judge\" above Magistrate's \"Allow the book one exception\". (d) 水_火 friction: \"you chase a new opening rather than keep what you have. You end up starting more than you ever finish\" and \"You spend yourself on every bright chance\" above Steward's \"you take the sure thing instead of the bigger one\". (e) 水_火 catalyst: \"the start comes late\" and \"You feel safer planning a thing than starting it\" above Horizon's \"Starts fast: You start at full speed\"",
+   "issue": "Each pair cell's definition, remedy and advice are shared by two gods, but on 4 of the 5 Fire cells at least one of these fields describes only one god's behaviour. On the other god's page it tells the reader the opposite of the ledger directly below, which a reader catches at once.",
+   "fix": "**Rule:** a pair-level field names the need the two gods share, never one god's behaviour, and is read against both gods' ledgers on that pole (single face and blend) before it lands. A sentence that fits only one god moves into that god's cell. **Rebuild the 8 fields listed.** Sample, 水_火 definition_friction (48 words): \"Your Action is what you go and build, claim and provide. Fire turns it bright, lit the moment a chance appears. As a friction, the light outruns its fuel, and every chance or coin asks more of you than you have. You end up serving what you own.\" Sample, 水_火 advise_friction opener: \"You spend yourself on every chance and every count, because stopping feels like losing.\" Sample, 木_火 definition_catalyst: see F-36. Sample, 土_火 advise_catalyst, second sentence: \"Once a month sit in on a class or a talk and ask one question out loud.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-02",
+   "severity": "MAJOR",
+   "criterion": "D1, A5, C",
+   "pages": "All 15 catalyst pages (P034 to P036, P040 to P042, P046 to P048, P052 to P054, P058 to P060)",
+   "key": "K2 火_* · fn_reading.catalyst.ledger[*",
+   "quote": "39 of the 40 unique catalyst passages close on advice: 29 imperatives (\"Keep giving this freely, and notice its one price\"; \"Let one start wait for company, since…\"; \"Ask first, since…\"; \"Allow the book one exception, because…\") and 10 conditional rewards (\"If you name what you see early, the credit stays yours\"; \"When you hold some rest back, you stop paying…\"). 24 of the 40 take the same shape: \"[Imperative], because/since [cost]\".",
+   "issue": "The ledger does THE ADVICE's job before THE ADVICE arrives. A catalyst page then gives 3 or 4 instructions in the ledger and 4 or 5 more in the advice box, which reads as preachy to a reader who drops apps that tell her what to do. The fixed \"Do X, because Y\" tail is also the most repeated frame on these pages.",
+   "fix": "**Rule:** catalyst closes vary across the page among the same honest kinds as friction closes (the effect, the price stated flat, the want underneath), with at most one imperative per page. The instruction lives in THE ADVICE. Samples: \"Keep speaking up, and own its price, since you are remembered for the sentence more than the care behind it.\" becomes \"You are remembered for the sentence more than for the care behind it.\" \"Let one start wait for company, since starting alone is how you finish alone.\" becomes \"You start alone, and so you finish alone.\" Rewrite all 40 closes in one pass."
+  },
+  {
+   "source": "fire",
+   "id": "F-03",
+   "severity": "MAJOR",
+   "criterion": "C, A2",
+   "pages": "All 30 pages",
+   "key": "",
+   "quote": "72 of 80 unique passages build the middle sentence the same way: \"[A] feels/matters more than [B], so you X rather than/ahead of Y\". Across the 80 passages: \"ahead of\" 23 times, \"rather than\" 21, \"more than\" 18, \"sooner\" 6. Unidiomatic \"ahead of\" for \"instead of\": \"you give ahead of being asked\"; \"you ask ahead of trying\"; \"you give them a guard ahead of someone to sit with\"; \"you pick less enjoyment in company ahead of more by yourself\"; \"you ask about the receipt ahead of the day itself\"; definitions \"you obey a crisis ahead of rest\", \"you go alone ahead of asking a peer\".",
+   "issue": "The Pattern uses its comparative once per paragraph. Here every keyword on a page uses it, so a page of four passages runs on one sentence shape (criterion C). \"Ahead of\" used to mean \"instead of\" sounds translated to a B1 reader and often has to be read twice.",
+   "fix": "**Rule:** at most one comparative middle per page. The other passages carry the mechanism as a plain cause (\"Because…\", \"Since…\"), a condition, or a flat statement of the need. Use \"ahead of\" only in its time sense (\"before\"). Apply this in the polish pass together with F-02, page by page, since one rewrite touches both."
+  },
+  {
+   "source": "fire",
+   "id": "F-16",
+   "severity": "MINOR",
+   "criterion": "A1, D2",
+   "pages": "P031, P033",
+   "key": "K2 火_食神 · fn_reading.friction.ledger[0",
+   "quote": "\"Helping feels more like you than resting does\"",
+   "issue": "The next passage on the same page says \"Taking it easy feels better than taking it on\", so the reader is both the one who never rests and the one who drifts. The close also answers a guilt (\"owe no one a reason\") that the passage never raised.",
+   "fix": "\"Saying no has never come easily to you. A yes keeps the evening warm and everyone pleased, so you agree before you check what it costs. You never had to buy your place with a yes.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-17",
+   "severity": "MINOR",
+   "criterion": "A2, D4",
+   "pages": "P031",
+   "key": "K2 火_食神 · fn_reading.friction.ledger[2",
+   "quote": "\"you spend the house money on the evening. You take their share and leave them short\"",
+   "issue": "\"House money\" is a gambling idiom (winnings you can afford to lose), so it does not mean shared money. Two sentences open on \"You take\", and \"take their share\" reads as a charge of taking.",
+   "fix": "\"Whenever a plan with others meets your pleasure, you choose the pleasure. A good time now feels surer than a promise kept later, so you spend on the evening what was meant for the plan. You leave them short on what you had agreed together.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-18",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P033",
+   "key": "K2 火_伤官 · fn_reading.friction.ledger[1",
+   "quote": "\"you take being watched doing badly over doing well alone\"",
+   "issue": "The sentence has to be read twice to parse.",
+   "fix": "\"You need an audience more than you need to be right. Being seen is how you know you exist, so you would rather do badly in front of people than well on your own. Remember that you are just as real with no one watching.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-19",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P036",
+   "key": "K2 火_伤官 · fn_reading.catalyst.ledger[0",
+   "quote": "\"Before anyone asks you to, you speak up for them. Having a voice comes more naturally to you than lending one\"",
+   "issue": "The passage opens on speaking up for others (lending your voice) and then charges the reader with not lending one. It contradicts itself.",
+   "fix": "\"Before the quiet ones find their words, you have said yours. Speaking comes more naturally to you than making room, so you take the floor before handing it over. Leave them the first word, since their turn is where you speak up.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-20",
+   "severity": "MINOR",
+   "criterion": "A1, B",
+   "pages": "P038",
+   "key": "K2 火_劫财 · fn_reading.friction.ledger[0",
+   "quote": "\"You hate to lose more than you love to win … since the Fire in you outlasts a single victory.\"",
+   "issue": "The opener is a famous sports quote, so it is not specific to the reader. The \"since\" clause does not explain why a rival's win reads as your loss, and the cause is chart talk, not the reader's need.",
+   "fix": "\"Losing stays with you far longer than winning does. A rival's win feels like a piece taken from you, so every friendly game becomes a fight to get it back. You win more often than most and enjoy the playing less.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-21",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P041",
+   "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"You would sooner share the stake than check if they wanted one, so you double a bet that was theirs.\"",
+   "issue": "The stake/bet metaphor stands in for the action, so the reader has to decode it, and \"bet\" appears twice.",
+   "fix": "\"Beside someone you like, you go all in unasked. Sharing your energy feels like the best gift, so you double their plan without checking. Ask first, since you leave them a plan twice the size they chose.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-22",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P040, P041, P042",
+   "key": "PAIR 火_火 · function.advise_catalyst",
+   "quote": "\"You treat rest as a loss and company as a crutch.\"",
+   "issue": "This repeats the definition above it (\"you go alone ahead of asking a peer or bet bold instead of rest … lost rest\").",
+   "fix": "\"Your strength runs on what you put back, and you put back the least. Refuel on purpose: sleep before the second wind arrives. Eat with a peer once a week and let them pay. Ask one person for help on a job you usually do alone. Sit still for ten minutes a day.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-23",
+   "severity": "MINOR",
+   "criterion": "D2, A1",
+   "pages": "P044 (P045 carries the drive twin)",
+   "key": "K2 火_正印 · fn_reading.friction.ledger[1",
+   "quote": "\"Because another person's steadiness feels more reliable than yours, you lean on theirs\"",
+   "issue": "On the same page the reader \"steps in ahead of being asked\" to carry others. The protector and the leaner read as two people because the page never ties them together.",
+   "fix": "\"The care you give so freely is the care you lean on in return. Another person's steadiness feels safer than your own, so you lean on theirs rather than build any. You go without the one kind of strength you cannot borrow.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-24",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P047",
+   "key": "K2 火_正印 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Because being needed feels easier than being tired\"",
+   "issue": "Being needed and being tired are not alternatives, so the cause does not parse. \"Rest\" also appears twice.",
+   "fix": "\"Your own needs come last whenever you are looking after someone. Being needed feels better to you than being rested, so you give your evenings away before keeping any. When you hold one back, you stop paying for everyone's comfort with your sleep.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-25",
+   "severity": "MINOR",
+   "criterion": "A5, C",
+   "pages": "P047",
+   "key": "K2 火_正印 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Offer the truth while it can help, in your own gentle way.\"",
+   "issue": "The close is greeting-card soft, and \"read\" appears twice in the passage and again in the advice box below.",
+   "fix": "\"Your first read of anyone is a kind one. Keeping a person warm matters more to you than judging them out loud, so you hold back the honest word they needed. Offer the truth while it can still help.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-26",
+   "severity": "MINOR",
+   "criterion": "A5, D4",
+   "pages": "P049, P051",
+   "key": "K2 火_七杀 · fn_reading.friction.ledger[0",
+   "quote": "\"With Fire past what your strength holds, you would sooner be hard on yourself than let one mistake go.\"",
+   "issue": "The cause is chart mechanics instead of the reader's own need, and \"hard on yourself\" appears twice in two sentences. The close is excellent and stays.",
+   "fix": "\"You are harder on yourself than anyone else has been. Letting a mistake go feels like letting yourself off, so you go over it long after everyone else has moved on. You paid for each mistake the first time, and that was enough.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-27",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P049, P051",
+   "key": "K2 火_七杀 · fn_reading.friction.ledger[1",
+   "quote": "\"you spend strength you do not have … short on sleep and on the strength you spent pushing\"",
+   "issue": "The first and last sentences say the same thing, push appears 3 times, and the passage gives no need.",
+   "fix": "\"Each time you push too hard, you spend strength you do not have. Stopping short feels like letting the job down, so you push through instead of keeping some back for the rest of the week. You reach Friday with nothing left for yourself.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-28",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "P049",
+   "key": "K2 火_七杀 · fn_reading.friction.ledger[2",
+   "quote": "\"you give them a guard ahead of someone to sit with … without the company they wanted\"",
+   "issue": "\"A guard ahead of someone\" is awkward, and \"company\" and \"duty\" each appear twice.",
+   "fix": "\"Staying on duty is how you love the people in your care. Watching over them comes easier to you than sitting with them, so you stand guard where they wanted company. You keep them safe and miss the evenings they hoped to share with you.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-29",
+   "severity": "MINOR",
+   "criterion": "A1, A3",
+   "pages": "P052, P053, P054",
+   "key": "PAIR 金_火 · function.definition_catalyst",
+   "quote": "\"Fire fuels it, and demands shape you. As a catalyst, nothing tests you … You get most done under rules someone else set.\"",
+   "issue": "\"Demands shape you\" and \"nothing tests you\" contradict each other, and the close is restated word for word in spirit by the advice opener (\"You do your best work when someone is allowed to tell you no\"). Applying this supersedes F-04.",
+   "fix": "\"Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and every real demand sharpens you. As a catalyst, too few demands reach you, so you go looking for a test. You stay half-used until something asks a lot of you.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-30",
+   "severity": "MINOR",
+   "criterion": "A3, D1",
+   "pages": "P052, P054",
+   "key": "K2 火_七杀 · edge.lead",
+   "quote": "\"the test you pick yourself because that is where you grow\"",
+   "issue": "This repeats the ledger's \"Choose some of that pressure yourself\" and pulls against the advice (\"someone is allowed to tell you no\").",
+   "fix": "\"Fire runs through your career, your health and your growth. It is the hard week that wakes you up, the body that finds its second wind when the stakes are real, and the deadline that gets more out of you than you planned to give.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-31",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "P053",
+   "key": "K2 火_正官 · fn_reading.catalyst.ledger[1",
+   "quote": "\"so you let the book decide what you knew. Allow the book one exception\"",
+   "issue": "\"Book\" appears 4 times, and \"decide what you knew\" mixes tenses.",
+   "fix": "\"Where the book and your judgment part, you side with the book. Doing it in order feels safer than doing it your way, so you overrule what you already knew. Allow one exception, because you give up chances that cannot wait.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-32",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "P050 (and P031 to P033)",
+   "key": "K2 火_正官 · fn_reading.friction.ledger[2",
+   "quote": "\"Never says no\" (Magistrate) and \"Never says no\" (Artisan)",
+   "issue": "Two gods of the Fire energy share one chip label, which weakens \"the two gods read as different people\".",
+   "fix": "Rename the 火_正官 friction chip to \"Spread too thin\" (the passage is about slices of yourself, not refusal). Keep the passage."
+  },
+  {
+   "source": "fire",
+   "id": "F-33",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P056",
+   "key": "K2 火_正财 · fn_reading.friction.ledger[0",
+   "quote": "\"You were only counting until it felt safe to enjoy what you have.\"",
+   "issue": "The past continuous suggests the counting has stopped, so the reader has to work out the meaning.",
+   "fix": "\"You count everything, the money and the favours and the hours. Counting is your way of feeling safe, so knowing the total comes ahead of enjoying the thing. You started counting so that one day you could enjoy what you have.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-34",
+   "severity": "MINOR",
+   "criterion": "D4",
+   "pages": "P056",
+   "key": "K2 火_正财 · fn_reading.friction.ledger[2",
+   "quote": "\"You leave your partner guessing at a warmth you have and never hand over.\"",
+   "issue": "\"Never hand over\" implies withholding on purpose. This is the concealment charge BIZ_04 rules out.",
+   "fix": "\"You hold back hardest where you love most. Keeping a reserve feels safer than giving it all, so your partner gets the careful share only. You feel more warmth than your partner ever gets to see.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-35",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P057",
+   "key": "K2 火_正财 · fn_reading.friction.ledger[0",
+   "quote": "\"you ask about the receipt ahead of the day itself\"",
+   "issue": "It is not clear what \"the day itself\" is.",
+   "fix": "\"Your count covers the household's spending as much as your own. Knowing where every bit went keeps you calm, so you ask what something cost before you ask how the day was. You charge your family a question for every small purchase.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-36",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P034, P035, P036",
+   "key": "PAIR 木_火 · function.definition_catalyst",
+   "quote": "\"Fire makes it light, so whatever you do shows. As a catalyst, it opens too rarely\"",
+   "issue": "The second sentence says everything shows and the third says the gate rarely opens. \"Makes it light\" also reads as weight.",
+   "fix": "\"Your Expression is the gate where inner work becomes outer fact. Fire lights it, so what you make can reach people. As a catalyst, the gate opens too rarely, and your best work stays in the room where you made it. You keep a talent waiting that deserves an audience.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-37",
+   "severity": "MINOR",
+   "criterion": "A1, C",
+   "pages": "P031 to P033, P049 to P051, P055 to P057",
+   "key": "PAIR 木_火 · function.advise_friction",
+   "quote": "\"Let it hold what Fire burns.\"",
+   "issue": "One sentence is used on three cells, and on Wood the picture is wrong: rain does not hold what fire burns, it feeds the wood.",
+   "fix": "木_火: \"Let it feed the wood that Fire burns.\" 金_火: \"Let it take in what Fire throws at you.\" 水_火: \"Let it refill what Fire spends.\" The rest of each remedy stays."
+  },
+  {
+   "source": "fire",
+   "id": "F-38",
+   "severity": "MINOR",
+   "criterion": "A2, A1",
+   "pages": "P058, P059, P060",
+   "key": "PAIR 水_火 · function.definition_catalyst",
+   "quote": "\"so what you build reaches people in time. As a catalyst, the start comes late … steady pay. You pay most\"",
+   "issue": "\"In time\" is unclear, \"pay\" appears twice, and \"the start comes late\" contradicts Horizon (see F-01).",
+   "fix": "\"Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people. As a catalyst, it runs short, and you want a far chance as much as steady pay. You lose most on what you never claim.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-04",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P052, P053, P054",
+   "key": "PAIR 金_火 · function.definition_catalyst",
+   "quote": "\"Fire fuels it, and demands shape you.\"",
+   "issue": "This leads you down the wrong path: \"demands\" first reads as a verb whose subject is Fire.",
+   "fix": "\"Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you. As a catalyst, nothing tests you, and over time you want a crisis as much as a rank. You get most done under rules someone else set.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-05",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P037, P038, P039",
+   "key": "PAIR 火_火 · function.definition_friction",
+   "quote": "\"be right alone than level with a peer\"",
+   "issue": "\"Level with someone\" means \"be honest with them\", not \"be equal to them\".",
+   "fix": "\"Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, it spills into contests, so you would sooner be right alone than equal to a peer, or double a stake than share it. You win most days and pay in company.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-06",
+   "severity": "TWEAK",
+   "criterion": "A2, C",
+   "pages": "P040, P041, P042",
+   "key": "PAIR 火_火 · function.definition_catalyst",
+   "quote": "\"bet bold instead of rest. You pay for each bright day with lost rest.\"",
+   "issue": "The parallel needs the gerund, and \"rest\" appears in two sentences in a row.",
+   "fix": "\"Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, and you go alone ahead of asking a peer or bet bold instead of resting. You pay for each bright day with a tired one.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-07",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P049, P050, P051",
+   "key": "PAIR 金_火 · function.definition_friction",
+   "quote": "\"a rule over your judgment. You end up tired and doubting your judgment.\"",
+   "issue": "\"Judgment\" is repeated in two sentences in a row.",
+   "fix": "\"Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up until you obey a crisis ahead of rest and a rule over your judgment. You end up tired and doubting yourself.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-08",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P037",
+   "key": "K2 火_比肩 · fn_reading.friction.ledger[2",
+   "quote": "\"Being seen fine from far … so you hold a peer there.\"",
+   "issue": "\"From far\" is ungrammatical, and \"there\" has no referent.",
+   "fix": "\"You put the wall up highest when someone gets closest. Being seen as fine from a distance matters more than being seen tired up close, so you keep a peer at arm's length. You leave them a friend they can see and never quite reach.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-09",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P040",
+   "key": "K2 火_比肩 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Give a friend one bad day\"",
+   "issue": "This reads as \"ruin a friend's day\".",
+   "fix": "\"Whenever you fall, you are back up before anyone can reach you. Standing on your own matters more than being helped up, so you leave people nothing to do. Let a friend see one bad day, since being there is what you keep from them.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-10",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P040, P042",
+   "key": "K2 火_比肩 · fn_reading.catalyst.ledger[1",
+   "quote": "\"you let a friend near after they match you\"",
+   "issue": "\"After they match you\" is unclear: match what?",
+   "fix": "\"You trust closeness only side by side, so you let a friend near once they match your pace. You would rather keep your footing than be held up, even when you need it. Be carried sometimes, since the nearness you skip only comes from leaning.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-11",
+   "severity": "TWEAK",
+   "criterion": "A2, C",
+   "pages": "P031, P033",
+   "key": "K2 火_食神 · fn_reading.friction.ledger[1",
+   "quote": "\"you put off the thing you meant to make again. You lose the one thing you most wanted to make\"",
+   "issue": "\"Again\" can attach to \"make\" or to \"put off\", and \"make\" is repeated.",
+   "fix": "\"Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so once again you put off the thing you meant to start. You lose the one thing you most wanted to make, a day at a time.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-12",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P032",
+   "key": "K2 火_伤官 · fn_reading.friction.ledger[2",
+   "quote": "\"You feel a plain yes as too little\"",
+   "issue": "\"Feel X as Y\" is not idiomatic English.",
+   "fix": "\"For people who asked for little, you overdo it anyway. A plain yes seems too small to you, so you hand them the full production instead of what they named. You load them with more than they wanted, plus the work of thanking you.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-13",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P038, P039",
+   "key": "K2 火_劫财 · fn_reading.friction.ledger[1",
+   "quote": "\"being seen as generous … a moment of looking generous\"",
+   "issue": "\"Generous\" is repeated in two sentences in a row.",
+   "fix": "\"Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You trade your own savings for a moment of looking generous.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-14",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P038",
+   "key": "K2 火_劫财 · fn_reading.friction.ledger[2",
+   "quote": "\"so you turn a walk into a pace\"",
+   "issue": "\"Turn a walk into a pace\" is not an English idiom.",
+   "fix": "\"Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-15",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P053",
+   "key": "K2 火_正官 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Say the word sometimes\"",
+   "issue": "\"Say the word\" means \"just give the signal\", not \"put in a quiet word\".",
+   "fix": "\"Where titles are concerned, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. Put in that word sometimes, because you take from them the years that earning costs.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-39",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P059",
+   "key": "K2 火_正财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"your partner … your partner … what your partner wants\"",
+   "issue": "\"Partner\" appears 3 times in three sentences.",
+   "fix": "\"You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. Once you ask what they want that week, you show up with the right thing.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-40",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P055, P057",
+   "key": "K2 火_偏财 · fn_reading.friction.ledger[2",
+   "quote": "\"You look past the people at home first.\"",
+   "issue": "\"First\" can mean \"before doing anything else\". The intended meaning is \"they are the first people you overlook\".",
+   "fix": "\"The people at home are the first you look past. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on the nights you are home.\""
+  },
+  {
+   "source": "fire",
+   "id": "F-41",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P046, P048",
+   "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2",
+   "quote": "\"say it first\"",
+   "issue": "\"It\" has no referent.",
+   "fix": "\"Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. When you need to think, say so first and stay close enough to be good company.\""
+  },
+  {
+   "source": "water",
+   "id": "W-001",
+   "severity": "MAJOR",
+   "criterion": "D1, A5, C",
+   "pages": "all 15 catalyst pages (P124–126, P130–132, P136–138, P142–144, P148–150)",
+   "key": "K2 水_* · fn_reading.catalyst.ledger[*",
+   "quote": "\"Ask the slow question anyway, because…\" (水_偏印 cat [1]); \"Let a little of it out somewhere, because…\" (水_正印 cat [0]); \"Get the paper once, because…\"; \"Push sometimes, because…\"; \"If you jump in where stakes are shared…\"; \"If you break the pace for one chance a season…\"; \"When a choice is small, decide it today…\"; \"You can trust the gap…\"",
+   "issue": "The catalyst ledger closes on advice, so the keywords do THE ADVICE's job (D1). With the 4 to 5 commands in THE ADVICE below them, a \"Grow it\" page gives the reader 7 to 9 instructions, which reads as preachy, not as a compliment (D12). **Evidence:** 38 of 40 unique catalyst passages close on advice: 14 as \"imperative + because/since\", 10 as \"If/When you X, you Y\", and the rest as levers (\"by -ing\", \"The more… the sooner\", \"costs you less than that\"). Only 水_七杀 cat [1] and 水_偏印 cat [0] close otherwise. Friction closes, by contrast, are flat costs, wants and permissions: 0 of 40 are advice. On P124 the ledger's \"Ask the slow question\" sits directly above the advice's \"Ask one person… and wait for the whole reply\". P150 opens all four closes with \"If you\" (the mechanical check flags it).",
+   "fix": "**Rule:** a catalyst passage closes on a closure the reader keeps, never on an instruction. Use the three friction close kinds, recast for the gift pole: (a) the effect, the gift at work (\"You make your best calls on the days others make their worst\"); (b) the want underneath (\"you were never giving to earn your place\"); (c) the cost as a plain fact, on cost_self and cost_others only. Allow at most one lever close per page, written as a fact, not a command. All instructions go to THE ADVICE. Re-cut the 38 passages by cell; W-010 to W-027 show the shape."
+  },
+  {
+   "source": "water",
+   "id": "W-002",
+   "severity": "MAJOR",
+   "criterion": "A1, D1, D3",
+   "pages": "P124, P125, P126, P134, P135, P136, P138, P142, P143, P144 (10 pages, 4 of 5 pair cells); milder on P127, P131",
+   "key": "PAIR 木_水 · function.definition_catalyst",
+   "quote": "金_水 cat definition: \"your gate stays shut… You keep your kindness and your wit waiting past their moment\", against \"Giving comes to you before anyone has asked\" and \"Your wit answers before your care does\". 土_水 cat: \"your Action is slow to begin\" / \"You are better at keeping than at starting\", against \"Your strongest moment is the start\". 土_水 fr: \"You chase the next opening ahead of keeping this one\" / \"You begin more than you finish\", against \"You hold money back long after holding it back makes sense\". 木_水 cat: \"you trust a hunch ahead of sitting with what you know\" / \"You reach for the answer while the lesson is still landing\", against \"Going deep is the only way you learn\" and \"Sitting with it until it is yours comes easier\"",
+   "issue": "The pair definition and the advice or remedy were written to one god's behaviour (or as the plain opposite of the element's gift). The other face's keywords then contradict them on the same screen. The reader is told two opposite things about herself, which breaks the \"how does it know\" effect at its root. **Evidence:** 10 pages contradict outright. Milder: 火_水 fr \"hold your rank rather than risk it\" fits the Magistrate, not the General's \"Goes cold\" or \"Never lets up\"; 火_水 cat \"you answer a crisis more than you build a career\" against the Magistrate edge \"the plan you make now for a year nobody can see yet\".",
+   "fix": "**Rule:** the pole clause of a pair definition, and the diagnosis line that opens its advice or remedy, must be true of all six chips of both faces on that pole. Check each against the six chips before landing. On the catalyst pole, name the shortage as *short supply* (\"runs short\", \"comes out fast and then runs dry\"), not as the opposite habit. **Example rewrites** (first sentence fixed): 木_水 cat: \"Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake runs short, so you know a few things deeply and answer the rest from a hunch.\" (45). 金_水 cat: \"Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out. As a catalyst, the flow runs short, so your kindness and wit come out fast and then run dry. You give your best first and little after.\" (48). 土_水 cat: \"Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. As a catalyst, the current runs thin, so your moves come too seldom to collect on. You see more chances than you take.\" (46). 土_水 fr: \"Your Action is what you go and build, claim and provide. Water makes it pour and spread as it goes. As a friction, your Action outruns your hold on it. You either spend what comes in or guard it so tightly that it never works for you.\" (47). Recut the first line of each matching advice or remedy the same way, e.g. 土_水 advise_friction \"You begin more than you finish because stopping feels like losing\" becomes \"You handle more than you hold, and it slips out or locks up.\""
+  },
+  {
+   "source": "water",
+   "id": "W-010",
+   "severity": "MINOR",
+   "criterion": "A2, D4",
+   "pages": "P131",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[2",
+   "quote": "\"You take a finish of their own from the people you pace to you, and one running ahead takes nothing from you.\"",
+   "issue": "Does not parse (\"the people you pace to you\"), and the tacked-on reassurance contradicts the cost.",
+   "fix": "\"Pacing yourself paces everyone beside you. Arriving together matters more to you than arriving first, so you hold the fastest back to your speed. You take from them the finish they could have reached on their own.\""
+  },
+  {
+   "source": "water",
+   "id": "W-011",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P131",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[1",
+   "quote": "\"…and one named strength costs no trust.\"",
+   "issue": "A cryptic tail that hides the cost, a symptom of cramming at the 45-word cap.",
+   "fix": "\"Slowly earned trust is the only trust you believe. Quick trust feels false, so you prove yourself over a year instead of selling yourself in a day. You lose this week's chances to people who simply say what they can do.\""
+  },
+  {
+   "source": "water",
+   "id": "W-012",
+   "severity": "MINOR",
+   "criterion": "A2, D4",
+   "pages": "P130, P132",
+   "key": "K2 水_七杀 · fn_reading.catalyst.ledger[2",
+   "quote": "\"You took their answer by never asking, and leading with one question costs you less than that.\"",
+   "issue": "A tense slip to \"took\", a charge, and a comparison (\"less than that\") with no clear anchor.",
+   "fix": "\"Arranging beats asking whenever you lead. Steering quietly feels cleaner to you than a request someone could refuse, so the people you lead never get to say yes or no. You lose the agreement that one plain question would have won you.\""
+  },
+  {
+   "source": "water",
+   "id": "W-013",
+   "severity": "MINOR",
+   "criterion": "A1, D1",
+   "pages": "P130, P132",
+   "key": "K2 水_七杀 · fn_reading.catalyst.ledger[0",
+   "quote": "\"If you bring that clear head into a calm week, you keep it for the next crisis.\"",
+   "issue": "The logic does not follow: how does a calm week keep clarity for a crisis? It is also advice on a drive that should land as a compliment.",
+   "fix": "\"You get clearer the harder things press, because only pressure stops your guessing. Inside a crisis you want the next move more than the right feeling. You make your best calls on the days others make their worst.\""
+  },
+  {
+   "source": "water",
+   "id": "W-014",
+   "severity": "MINOR",
+   "criterion": "C, D1",
+   "pages": "P131",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[0",
+   "quote": "\"…so you finish the version you announced. You come out ahead by letting a better version in, rather than finishing a worse one you announced.\"",
+   "issue": "\"Announced\" and \"version\" are each said twice. The catalyst drive ends as a lever on a cost, not as the gift.",
+   "fix": "\"You follow through long after the mood that said yes has gone. Keeping your word matters more to you than improving the plan, so you finish the version you promised. You are the person whose yes still holds a month later.\""
+  },
+  {
+   "source": "water",
+   "id": "W-015",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P132",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[1",
+   "quote": "\"The more warmth you let go first, the sooner slow trust has a place to start.\"",
+   "issue": "\"Let go\" reads as \"give up\" before it reads as \"offer\", so the sentence takes a second read.",
+   "fix": "\"You earn trust slowly and prefer it that way. Being counted on matters more to you than being liked, so you build trust by record instead of charm. You earn the kind of trust that is still there in ten years.\""
+  },
+  {
+   "source": "water",
+   "id": "W-016",
+   "severity": "MINOR",
+   "criterion": "A2, A3, D2",
+   "pages": "P121",
+   "key": "K2 水_偏印 · fn_reading.friction.ledger[2",
+   "quote": "\"Hard to reach means a thought is unfinished, and most of yours are… you charge the person waiting in days.\"",
+   "issue": "The opener does not parse as a definition. \"Charge… in days\" is a strained idiom. It repeats \"Keeps it in\" (holding a thing back until finished). The chip \"Hard to reach\" is also 水_比肩's friction drive chip, with a different meaning (D2).",
+   "fix": "\"You go quiet while a thought is still unfinished, and most of yours are. Finishing the thought comes ahead of answering the message, so the person waiting hears nothing for days. You leave them with less of you than they came for.\" Rename the chip to **\"Slow to answer\"**."
+  },
+  {
+   "source": "water",
+   "id": "W-017",
+   "severity": "MINOR",
+   "criterion": "A2, D1",
+   "pages": "P125",
+   "key": "K2 水_正印 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Get the paper once, because the chances asking for it close without you.\"",
+   "issue": "\"Get the paper\" is slang for money to many readers, and the close is an instruction.",
+   "fix": "\"Soaking it up is how learning stays with you. Sitting with a subject until it is yours comes easier than proving it on paper, so the proof is the part you skip. You lose the chances that ask for the certificate you never got.\""
+  },
+  {
+   "source": "water",
+   "id": "W-018",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P142",
+   "key": "K2 水_食神 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Whenever you keep a child warm rather than tell them straight what you saw…\"",
+   "issue": "Assumes the reader has a child, which the reading cannot know for a reader of 18 to 35. \"Keep a child warm\" reads literally (blankets).",
+   "fix": "\"Anything hard that has to reach someone, you warm first. Softening the news feels kinder to you than saying it straight, so the plain version stays behind the comfort. You leave the people you love unsure of what you really saw.\""
+  },
+  {
+   "source": "water",
+   "id": "W-019",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P142, P143, P144",
+   "key": "PAIR 金_水 · function.advise_catalyst",
+   "quote": "\"Tell a child one story with no lesson in it.\"",
+   "issue": "The same assumption that the reader has a child, on every Metal-core catalyst page.",
+   "fix": "\"You keep being right in private, and that counts for nothing until someone hears it. Send the page before the third read. Tell someone one story with no lesson in it. Every month, give something you made to a friend who did not ask. Say the compliment the moment you think it.\""
+  },
+  {
+   "source": "water",
+   "id": "W-020",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P144",
+   "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Needing it in pieces first, you make your own version rather than follow the rule. Let originality count as talent, because it was never a fight.\"",
+   "issue": "\"Needing it in pieces first\" does not parse. \"It was never a fight\" has no clear referent.",
+   "fix": "\"Only an original version of a thing feels done to you. You take the rule apart before you use it, so you end up with your own way. You were never fighting the rule, only making it yours.\""
+  },
+  {
+   "source": "water",
+   "id": "W-021",
+   "severity": "MINOR",
+   "criterion": "A2, D1",
+   "pages": "P143",
+   "key": "K2 水_伤官 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Count the originals that landed, with the rest paid for in hours you never owed.\"",
+   "issue": "An instruction plus an obscure participle. The cost is not stated plainly.",
+   "fix": "\"Nothing feels real to you until you have made it original. You would rather be wrong your own way than right in someone else's, so you redo work that was already finished. You spend hours you never owed on versions nobody asked for.\""
+  },
+  {
+   "source": "water",
+   "id": "W-022",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P136",
+   "key": "K2 水_偏财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"…you give home a feast with no steady part. Share some of it across the lean months…\"",
+   "issue": "\"Give home a feast with no steady part\" does not read at B1. The close is an instruction.",
+   "fix": "\"Whenever luck lands, you share it outward first. You spend it all on one big day instead of spreading it out, so home gets a feast and then a lean month. You give the people at home a party when they needed a steady supply.\""
+  },
+  {
+   "source": "water",
+   "id": "W-023",
+   "severity": "MINOR",
+   "criterion": "A2, D1",
+   "pages": "P136, P138",
+   "key": "K2 水_偏财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"If you move on one stretch later than usual, you finally hold the money you keep walking away from.\"",
+   "issue": "\"Move on one stretch later\" is unclear, and the close is a conditional lever.",
+   "fix": "\"Your strongest moment is the start, and the start is also your exit. Moving early feels like freedom, so you leave before the collecting begins. You walk away from money you had already earned the right to take.\""
+  },
+  {
+   "source": "water",
+   "id": "W-024",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "P148, P150",
+   "key": "K2 水_比肩 · fn_reading.catalyst.ledger[1",
+   "quote": "\"If you break the pace for one chance a season, you lose fewer quick chances to your own even pace.\"",
+   "issue": "Clumsy: \"pace\" ×3 and \"chance\" ×2 in one sentence, and a conditional close.",
+   "fix": "\"Your even pace holds you up through a long week. Little Water comes in, and you spend it steadily rather than in bursts. You lose the quick chances that only a burst could have caught.\""
+  },
+  {
+   "source": "water",
+   "id": "W-025",
+   "severity": "MINOR",
+   "criterion": "D4",
+   "pages": "P150",
+   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[0",
+   "quote": "\"…and they run a race they never chose.\"",
+   "issue": "The victim image BIZ_04 cut from the friction cell (\"a race they never chose to run\") survives here.",
+   "fix": "\"Every race you love needs someone else in it. You make a rival of a peer before you ask them, so they are running before they know it. You get a better race when the other person knows it has started.\""
+  },
+  {
+   "source": "water",
+   "id": "W-026",
+   "severity": "MINOR",
+   "criterion": "A2, D4",
+   "pages": "P149",
+   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"…a partner carries losses they never signed for. You keep a partner past the risk by agreeing the shares before it.\"",
+   "issue": "\"Never signed for\" is the same victim shape. \"Past the risk… before it\" has no clear referent.",
+   "fix": "\"All in together means you take someone with you every time. You put the shared stake on the table before asking whose it was, so a partner ends up carrying part of your loss. You keep partners longer when shares are agreed before the risk.\""
+  },
+  {
+   "source": "water",
+   "id": "W-027",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P150",
+   "key": "K2 水_劫财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"If you jump in where stakes are shared, you pay half of the first mistake.\"",
+   "issue": "Ambiguous: it reads as advice to share risk, which P149 counts as a cost to partners.",
+   "fix": "\"Jumping in first is how you learn what a thing is like. Water is short in you, and being inside a decision suits you better than planning beside it. You learn more from one early mistake than others learn from a month of plans.\""
+  },
+  {
+   "source": "water",
+   "id": "W-028",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "P139",
+   "key": "K2 水_食神 · fn_reading.friction.ledger[2",
+   "quote": "\"…you leave them less than was theirs. You give away to everyone the hours meant for the few.\"",
+   "issue": "The third sentence restates the second. \"Give\" ×4. \"Less than was theirs\" leans toward a charge.",
+   "fix": "\"You give your hours to whoever is nearest, without deciding. Saying yes to everyone is easier than choosing, so the few counting on you get what is left. You give away the hours that were meant for them.\""
+  },
+  {
+   "source": "water",
+   "id": "W-029",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P140",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[2",
+   "quote": "\"…you pick fights as your kind of honesty, audience included.\"",
+   "issue": "\"Audience included\" dangles, and the sentence has to be read twice.",
+   "fix": "\"With whoever is in charge, you pick fights and call it honesty. Because you argue in public instead of in private, the one above you loses face in front of others. You leave them no quiet way to answer you.\""
+  },
+  {
+   "source": "water",
+   "id": "W-030",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P141",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[0",
+   "quote": "\"Sharing openly rather than asking what someone wants to hear, you take away their choice of how much to hold.\"",
+   "issue": "It frames the alternative as people-pleasing (\"what someone wants to hear\"). \"How much to hold\" is unclear.",
+   "fix": "\"To stay honest with people, you share everything you think. You say it all before asking how much they want, so they get no choice in what they carry. You spend their attention on more of your thinking than they asked for.\""
+  },
+  {
+   "source": "water",
+   "id": "W-031",
+   "severity": "MINOR",
+   "criterion": "D4, C",
+   "pages": "P141",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[1",
+   "quote": "\"Never forget that you mean the fondness more than the mocking lets on.\"",
+   "issue": "P141 closes two of four passages on a reminder phrase (also \"Remember that what you were after all along was rest\"), over the BIZ_04 budget of one per five shown. The want carries without the wrapper.",
+   "fix": "\"Mocking is your first language, and plain praise comes out like a foreign one. Since being clever feels safer than being seen caring, you mock what you love instead of praising it. You mean the fondness far more than the mocking lets on.\""
+  },
+  {
+   "source": "water",
+   "id": "W-032",
+   "severity": "MINOR",
+   "criterion": "C, D4",
+   "pages": "P128",
+   "key": "K2 水_正官 · fn_reading.friction.ledger[1",
+   "quote": "\"…keep your rank than claim the next one. You lose the rank above yours… and the waiting was your choice.\"",
+   "issue": "\"Rank\" ×4 on the page (×2 here). \"The waiting was your choice\" reads as a charge.",
+   "fix": "\"Waiting for permission keeps you in line. Permission given feels cleaner to you than permission taken, so you keep your place instead of claiming the next one. You watch the step above yours go to whoever stopped waiting first.\""
+  },
+  {
+   "source": "water",
+   "id": "W-033",
+   "severity": "MINOR",
+   "criterion": "A3, D4",
+   "pages": "P145, P147",
+   "key": "K2 水_比肩 · fn_reading.friction.ledger[1",
+   "quote": "\"The Water in you runs deeper than anyone sees…\"",
+   "issue": "Fifth statement of \"more in you than shows\" on P145 (the definition ×2, the drive, this passage, the remedy). It also replaces the reader's own need with a quantity of Water.",
+   "fix": "\"Managing without asking is what you do best. Asking feels like owing, so you do it alone even when company would make it lighter. You miss out on the rest that help would have given you.\""
+  },
+  {
+   "source": "water",
+   "id": "W-034",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P122",
+   "key": "K2 水_正印 · fn_reading.friction.ledger[1",
+   "quote": "\"Not being ready feels more honest than being ready…\"",
+   "issue": "The cause does not hold: why would unready feel more honest?",
+   "fix": "\"Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, so you stay long past the day leaving was open to you. You are allowed to be tested and come home again.\""
+  },
+  {
+   "source": "water",
+   "id": "W-035",
+   "severity": "MINOR",
+   "criterion": "A1, D4",
+   "pages": "P147",
+   "key": "K2 水_劫财 · fn_reading.friction.ledger[1",
+   "quote": "\"Shared money feels like courage… and slowing it is yours to do.\"",
+   "issue": "The cause is odd. The close slides toward a capacity close or a charge.",
+   "fix": "\"Spending shared money comes easier to you than spending your own. Nobody's name is on it, so you dip into it ahead of asking who put what in. You run the pool down faster than anyone agreed to.\""
+  },
+  {
+   "source": "water",
+   "id": "W-036",
+   "severity": "MINOR",
+   "criterion": "D2",
+   "pages": "P122/P123 against P139/P141 (and the P121/P145 chips, see W-016)",
+   "key": "K2 水_正印 · friction",
+   "quote": "\"Lets it drift\" (the Sage) / \"Drifts along\" (the Artisan)",
+   "issue": "On Water, two personas carry the same chip, and both passages lean on Water-as-current. The Sage and the Artisan read as one person.",
+   "fix": "Keep the Artisan's \"Drifts along\". Re-point the Sage's chip to its 正印 core, dependence on being carried: rename it **\"Lets others steer\"**. The P123 cost_others passage already says this (\"Being carried feels easier than steering\")."
+  },
+  {
+   "source": "water",
+   "id": "W-037",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P121–P126",
+   "key": "",
+   "quote": "\"Bars: Intuition · Stability · Instinct · Research\"",
+   "issue": "\"Intuition\" (a metric) and \"Instinct\" (a dial pole) are near-synonyms on one card, so the reader cannot tell them apart.",
+   "fix": "For owner decision: rename the dial pole to \"Gut\" or the metric to \"Insight\". (I note this only; the metric design was not in my reading set.)"
+  },
+  {
+   "source": "water",
+   "id": "W-038",
+   "severity": "MINOR",
+   "criterion": "A2, C",
+   "pages": "P121, P122, P123",
+   "key": "PAIR 木_水 · function.definition_friction",
+   "quote": "\"…and you understand things instead of using them while shelter holds you longer than you meant.\"",
+   "issue": "Three clause joints in the last sentence, \"understand\" ×2 in the definition, and a last clause whose subject is not the reader.",
+   "fix": "\"Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, so you go on taking in long after it is time to act.\""
+  },
+  {
+   "source": "water",
+   "id": "W-050",
+   "severity": "TWEAK",
+   "criterion": "D4",
+   "pages": "P126",
+   "key": "K2 水_正印 · fn_reading.catalyst.ledger[1",
+   "quote": "\"You can trust the gap…\"",
+   "issue": "A \"you can\" close, which the house rules ban.",
+   "fix": "\"You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. You are right to trust the gap, since proof turns up later than understanding.\""
+  },
+  {
+   "source": "water",
+   "id": "W-051",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P137",
+   "key": "K2 水_正财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"…and it keeps you late.\"",
+   "issue": "Wrong idiom: \"keeps you late\" means \"keeps you after hours\"; the meaning is \"makes you late\".",
+   "fix": "\"Sleeping on a choice keeps your money safe, and it makes you late. You wait a night ahead of saying yes, since being wrong costs more. Answer the choices you already know the same day, before sleeping on them costs you the better price.\""
+  },
+  {
+   "source": "water",
+   "id": "W-052",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P132",
+   "key": "K2 水_正官 · fn_reading.catalyst.ledger[0",
+   "quote": "\"a course never rechecked… a plan never rechecked\"",
+   "issue": "\"Never rechecked\" is repeated inside one passage.",
+   "fix": "\"Your follow-through covers everyone attached to the plan. You follow the agreed course through rather than reopen it, and you hold them to a course never rechecked. Ask once midway, since a plan nobody checks again costs them the better one.\""
+  },
+  {
+   "source": "water",
+   "id": "W-053",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P121, P122, P123",
+   "key": "PAIR 木_水 · function.advise_friction",
+   "quote": "\"No amount of knowing makes the call for you. Pick a date and make the call on it.\"",
+   "issue": "\"Make the call\" is repeated in consecutive sentences, which pushes \"call\" to ×4 on P123.",
+   "fix": "\"Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it hold what Water keeps pouring in. No amount of knowing decides for you. Pick a date and make the call on it. Finish one small thing and show it to someone.\""
+  },
+  {
+   "source": "water",
+   "id": "W-054",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P127, P129",
+   "key": "K2 水_七杀 · fn_reading.friction.ledger[1",
+   "quote": "\"in rest never taken\"",
+   "issue": "Echoes the definition's \"tests never taken\" on the same page.",
+   "fix": "\"Your own work gets the hardest judge you know. Since pleasure in your work feels like dropping your guard, you stay hard on it rather than enjoy it. You pay for being this hard in rest you skip, because nothing you make gets to count.\""
+  },
+  {
+   "source": "water",
+   "id": "W-055",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P123",
+   "key": "K2 水_正印 · fn_reading.friction.ledger[1",
+   "quote": "\"long after outgrowing it\"",
+   "issue": "Repeats \"long after\" from \"Thinks too much\" on the same page.",
+   "fix": "\"You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known ahead of the better whenever the two come apart. You pass up the life that leaving would have given you.\""
+  },
+  {
+   "source": "water",
+   "id": "W-056",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P139, P141",
+   "key": "K2 水_食神 · fn_reading.friction.ledger[0",
+   "quote": "\"Drifting along is easier than steering, and mostly you do.\"",
+   "issue": "The ellipsis is ambiguous: \"you do\" can be read as \"you steer\".",
+   "fix": "\"Drifting is easier than steering, and most days you choose it. More Water moves through you than comes back in, so you drift with what moves instead of picking a direction. You end up where the day takes you, rarely where you meant to go.\""
+  },
+  {
+   "source": "water",
+   "id": "W-057",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P140",
+   "key": "K2 水_伤官 · fn_reading.friction.ledger[0",
+   "quote": "\"…ahead of asking whether it is yours.\"",
+   "issue": "\"Whether it is yours\" does not parse in context; the sense is \"whether it is ready\".",
+   "fix": "\"What you think is already out loud, and the editing happens after. You have more Water than time to settle it, so you share the thought ahead of asking whether it is ready. You give away ideas before you have finished thinking them.\""
+  },
+  {
+   "source": "water",
+   "id": "W-058",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P134",
+   "key": "K2 水_正财 · fn_reading.friction.ledger[1",
+   "quote": "\"Being caught short is the thing counting every cost protects you from.\"",
+   "issue": "An inverted opener that has to be read twice.",
+   "fix": "\"Counting every cost protects you from being caught short. You would rather know what a kindness costs than take it, and you count the free ones too. You miss the closeness that comes from simply letting someone give.\""
+  },
+  {
+   "source": "water",
+   "id": "W-059",
+   "severity": "TWEAK",
+   "criterion": "A4",
+   "pages": "P128",
+   "key": "K2 水_正官 · fn_reading.friction.ledger[2",
+   "quote": "\"Your tongue gets bitten hardest around the people who need your answer.\"",
+   "issue": "Passive, so the reader is not the actor in the opener.",
+   "fix": "\"You bite your tongue hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you.\""
+  },
+  {
+   "source": "wood",
+   "id": "W-001",
+   "severity": "MAJOR",
+   "criterion": "D1, A5, C",
+   "pages": "13 of 15 catalyst pages (P004 to P006, P010 to P012, P016 to P018, P022 to P024, P028 to P030)",
+   "key": "",
+   "quote": "\"Stay patient at that pace, because the slow one is what you keep.\" · \"Spend one of them on purpose, because saving first costs you the today you never have.\" · \"Say it once in plain words, because unspoken loyalty leaves them guessing.\" (P023, all three)",
+   "issue": "The catalyst ledger closes are advice. Of the 40 unique catalyst passages, 20 end on an imperative, 9 on a \"When/If/Once/Whenever you …, you …\" fix, and 7 on an \", and [one small act] changes that\" tail; only 4 end on the trait itself. The ledger does THE ADVICE's job a section early (D1; BIZ_04: \"Keep advice out of the passages, as the house rules require\"), turns the catalyst \"compliment\" (D12) into a correction, stacks the same \"Imperative, because …\" shape three or four times on one page, and produces the weakest logic on the energy (W-047, W-048, W-049). It also let one \"you can\" close through (W-006).",
+   "fix": "**Rule:** on the catalyst pole the ledger close names the trait's payoff or its price as a flat fact, the reader as subject, as the friction closes already do. No imperative, no conditional fix, no fix in a tail clause; at most one permission close (\"You are allowed to …\") per page; every instruction lives in THE ADVICE. **Evidence:** 36 of 40 catalyst closes; all three on P016 (\"Keep choosing the pressure …\", \"When you let someone take charge …\", \"Ask once a week …\"), all three on P022 (\"Spot the near one …\", \"Stay for the slow middle …\", \"Let them be generous …\"), all three on P023. The friction closes (0 of 40 imperative) show the form already works: \"You win the moment by talking back and spend the week on the repairs.\" Rebuild cost: 36 closes in 10 god cells."
+  },
+  {
+   "source": "wood",
+   "id": "W-002",
+   "severity": "MAJOR",
+   "criterion": "C, B",
+   "pages": "25 of 30 pages score C ≤ 3",
+   "key": "",
+   "quote": "P014: \"Since a written rule feels surer than a guess, you go with the book instead of your own judgment.\" · \"Since a new plan feels like being pushed, you hold your shape instead of saving your strength.\" · \"Because order feels safer than equals, you give the person above you your best ahead of the one beside you.\"",
+   "issue": "One cause frame carries the energy: \"[Since/Because] X feels safer / matters more / feels like … than Y, [so] you A rather than / instead of / ahead of B\". 60 of 80 unique passages state the cause as that comparison; across the 80, \"rather than\" appears 21 times, \"ahead of\" 16, \"instead of\" 15, \"feels like\" 13, \"feels safer\" 8, \"matters more than\" 6. On a single page three or four passages share the frame, so the page reads as a template and not as The Pattern's one-tension paragraphs. The passages that break the frame are the ones a reader keeps: \"Every answered call proves you matter\", \"Being counted on is the respect you want\", \"Taking people in makes a house matter\".",
+   "fix": "**Rule:** on one assembled page, at most one passage may give its cause as a comparison (\"feels safer / matters more / feels like … than\"), and each of \"rather than\", \"instead of\", \"ahead of\" may appear once. The other causes come as a value, a fear, a belief or a plain fact about the reader. Enforce it in the compound gate for blends, since the 2+2 page joins passages written apart. **Evidence:** 60 of 80; P014 (three of three, quoted), P016 (\"so you look for a hard deadline rather than a quiet week\" / \"you carry the whole plan rather than hand half over\" / \"you keep the pace high instead of asking who is tired\"), P008 (\"feels safer than\" twice), P018 (\"rather than\"×3), P030 (\"instead of\"×3)."
+  },
+  {
+   "source": "wood",
+   "id": "W-003",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P001 to P003",
+   "key": "PAIR 木_木 · function.definition_friction",
+   "quote": "\"you hold your way against a peer's advice\"",
+   "issue": "\"Hold your way\" is not an English idiom; \"hold to your own way\" is.",
+   "fix": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, you hold to your own way against a peer's advice, or treat shared ground as yours alone. You keep your way and lose the people beside you."
+  },
+  {
+   "source": "wood",
+   "id": "W-004",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P001",
+   "key": "K2 木_比肩 · fn_reading.friction.ledger[2",
+   "quote": "\"You cost them, with that distance, a friend they could have reached.\"",
+   "issue": "The phrase inserted mid-sentence makes the close read twice; moving it to the front fixes the order.",
+   "fix": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and that gives your friends no way in. With that distance, you cost them a friend they could have reached."
+  },
+  {
+   "source": "wood",
+   "id": "W-005",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P003",
+   "key": "K2 木_劫财 · fn_reading.friction.ledger[1",
+   "quote": "\"You race the next instead of keeping the win\"",
+   "issue": "\"the next\" lacks its noun (\"one\"); one word is cut from the opener to keep the cap.",
+   "fix": "Finished, you look for the next race before the last cools. Staying put feels like being passed, and there is more go in you than a finish uses. You race the next one instead of keeping the win, and the win was the point."
+  },
+  {
+   "source": "wood",
+   "id": "W-006",
+   "severity": "TWEAK",
+   "criterion": "D4 (house limit)",
+   "pages": "P006",
+   "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"and you can let one end without losing anything\"",
+   "issue": "A \"you can\" close, which the house limits forbid.",
+   "fix": "A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. You race for the movement more than the win, so letting one end costs you nothing."
+  },
+  {
+   "source": "wood",
+   "id": "W-007",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P004, P006",
+   "key": "K2 木_比肩 · edge.lead",
+   "quote": "\"the pace you keep while the street sprints past\"",
+   "issue": "\"sprint\" is already used twice on the page in \"Sets own pace\"; the swap is obvious.",
+   "fix": "Wood runs through your family, your growth and your social life. It is the calm of standing on your own at home, the pace you keep while the street rushes past, and the friend whose voice stays the same in every crowd."
+  },
+  {
+   "source": "wood",
+   "id": "W-008",
+   "severity": "TWEAK",
+   "criterion": "A2, C",
+   "pages": "P005",
+   "key": "K2 木_劫财 · edge.lead",
+   "quote": "\"the win that feels bigger split in half\" · \"before the vote is in\"",
+   "issue": "The first phrase has to be read twice (it needs \"once it is\"); \"the vote is in\" repeats \"the vote not in\" from \"Goes first\" on the same page.",
+   "fix": "Wood runs through your wealth, your social life and your career. It is the win that feels bigger once it is split in half, the lift you get when a friend pulls ahead, and the first move at work you make before anyone agrees."
+  },
+  {
+   "source": "wood",
+   "id": "W-009",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P009",
+   "key": "K2 木_正印 · fn_reading.friction.ledger[1",
+   "quote": "\"the people you have grown close tighter than they need\"",
+   "issue": "\"grown close\" is missing \"to\".",
+   "fix": "You hold the people you have grown close to tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out."
+  },
+  {
+   "source": "wood",
+   "id": "W-010",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P012",
+   "key": "K2 木_正印 · fn_reading.catalyst.ledger[0",
+   "quote": "\"you hand people answers they enjoyed finding\"",
+   "issue": "Wrong tense: they never found them, because you handed them over.",
+   "fix": "When you learn something, you pass it to whoever is nearest. You would rather give the lesson than be asked for it, so you hand people answers they hoped to find. Let them ask sometimes, because you land a lesson better when it was wanted."
+  },
+  {
+   "source": "wood",
+   "id": "W-011",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P014",
+   "key": "K2 木_正官 · fn_reading.friction.ledger[2",
+   "quote": "\"Because order feels safer than equals\"",
+   "issue": "The sentence compares an arrangement with people; the two sides need to match.",
+   "fix": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best ahead of the one beside you. You send the credit for shared work upward, past your peers."
+  },
+  {
+   "source": "wood",
+   "id": "W-012",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P015",
+   "key": "K2 木_正官 · fn_reading.friction.ledger[0",
+   "quote": "\"you reach for the book as much as for a form\"",
+   "issue": "Does not parse: the intended sense is \"as you would for a form\".",
+   "fix": "Faced with a person, you reach for the book as you would for a form. Because an exception feels like playing favourites, you hand someone the rule rather than a hearing. Wanting to be fair, you give them a page in place of yourself."
+  },
+  {
+   "source": "wood",
+   "id": "W-013",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P013 to P015",
+   "key": "PAIR 土_木 · function.advise_friction",
+   "quote": "\"so what presses on you turns into understanding. Let it soften what Wood presses on you.\"",
+   "issue": "\"presses on you\" twice in consecutive sentences.",
+   "fix": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You read every demand as proof of falling short. Read one page on why the rule exists before you answer it. Sit in the sun a while."
+  },
+  {
+   "source": "wood",
+   "id": "W-014",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P016, P018",
+   "key": "K2 木_七杀 · fn_reading.catalyst.ledger[0",
+   "quote": "\"Pressure gives the strength you store a direction\"",
+   "issue": "The double object makes the reader parse twice.",
+   "fix": "Your head is clearest when something presses on you. Pressure gives your stored strength a direction, so you look for a hard deadline rather than a quiet week. Keep choosing the pressure, and let a calm week count as rest instead of loss."
+  },
+  {
+   "source": "wood",
+   "id": "W-015",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P016, P018",
+   "key": "K2 木_七杀 · edge.lead",
+   "quote": "\"the hard week at work\"",
+   "issue": "\"week\" appears four times on the page; the edge is the obvious place to swap it.",
+   "fix": "Wood runs through your career, your health and your growth. It is the hard stretch at work that feels smaller once begun, the mornings you train for a day not yet here, and the pressure that finds you calm because you stood in worse."
+  },
+  {
+   "source": "wood",
+   "id": "W-016",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P017",
+   "key": "K2 木_正官 · fn_reading.catalyst.ledger[2",
+   "quote": "\"For everyone, you hold the line\" · \"Weigh what a rule costs someone, to hold the line only where it helps.\"",
+   "issue": "The fronted \"For everyone\" reads oddly, and the purpose \"to\" clause does not follow from \"Weigh\".",
+   "fix": "You hold the line for everyone, even for those who need an exception. Since one exception feels unfair to the rest, you give the rule in place of a second chance. Weigh what a rule costs someone, and hold the line only where it helps."
+  },
+  {
+   "source": "wood",
+   "id": "W-017",
+   "severity": "TWEAK",
+   "criterion": "C",
+   "pages": "P022, P024",
+   "key": "K2 木_偏财 · edge.lead",
+   "quote": "\"the opening you see … the hand at home that opens\"",
+   "issue": "open×4 on the page; \"opens\" here has an obvious swap.",
+   "fix": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives before anyone asks, and the trip your friends still weigh while you are already packed."
+  },
+  {
+   "source": "wood",
+   "id": "W-018",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P023",
+   "key": "K2 木_正财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"and hand the person you keep your presence ahead of your feelings\"",
+   "issue": "\"the person you keep\" does not read as \"your partner\"; the clause also drops its subject.",
+   "fix": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence ahead of your feelings. Say it once in plain words, because unspoken loyalty leaves them guessing."
+  },
+  {
+   "source": "wood",
+   "id": "W-019",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P024",
+   "key": "K2 木_正财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Saving comes before spending for you, and you never decide it.\"",
+   "issue": "\"you never decide it\" reads as a refusal; the sense is that it happens without a decision.",
+   "fix": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save ahead of wanting. Spend a small part of what you save on yourself, because a cushion is also for sitting on."
+  },
+  {
+   "source": "wood",
+   "id": "W-020",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P028, P030",
+   "key": "K2 木_食神 · fn_reading.catalyst.ledger[0",
+   "quote": "\"Giving comes before being asked, for you.\"",
+   "issue": "The trailing \", for you\" is an afterthought; it belongs at the front.",
+   "fix": "For you, giving comes before being asked. You feel most yourself with something to hand over, so you give ahead of knowing whether anyone needs it. Once you wait for a need to show, you give each gift to someone who wanted it."
+  },
+  {
+   "source": "wood",
+   "id": "W-021",
+   "severity": "TWEAK",
+   "criterion": "A2",
+   "pages": "P029",
+   "key": "K2 木_伤官 · fn_reading.catalyst.ledger[0",
+   "quote": "\"Holding a true thing in feels worse to you, so you speak\"",
+   "issue": "An unfinished comparison: worse than what?",
+   "fix": "You speak up where silence would be easier. Holding a true thing in feels worse to you than saying it, so you speak rather than wait for a welcome. If you let a few conversations go cold, you get to keep speaking up as yourself."
+  },
+  {
+   "source": "wood",
+   "id": "W-022",
+   "severity": "MINOR",
+   "criterion": "A2, A1",
+   "pages": "P007 to P009",
+   "key": "PAIR 火_木 · function.definition_friction",
+   "quote": "\"As a friction, intake outruns use and you take in more than you decide, your odd way or the way home taught you. You keep what you know where nobody learns it.\"",
+   "issue": "The first thing on three pages does not parse: the tail names the two gods' routes as if they were things taken in, and \"where nobody learns it\" is unclear.",
+   "fix": "Your Mind is where the world soaks in and becomes yours. Growing is what Wood makes of it. As a friction, you take in more than you use, by your own odd route or the way home taught you. You keep what you know where nobody learns from it."
+  },
+  {
+   "source": "wood",
+   "id": "W-023",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P010 to P012",
+   "key": "PAIR 火_木 · function.definition_catalyst",
+   "quote": "\"you would rather puzzle an answer out alone than take one from a teacher. Either way you run dry\"",
+   "issue": "\"Either way\" follows one way only; the Sage's face (pouring out to others) is missing, so the definition fits half the cell.",
+   "fix": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, the intake falls behind the output, so you puzzle answers out alone or pour what you know into others. Either way you run dry before you feel taught."
+  },
+  {
+   "source": "wood",
+   "id": "W-024",
+   "severity": "MINOR",
+   "criterion": "A1, D2",
+   "pages": "P008, P009 (and P007)",
+   "key": "PAIR 火_木 · function.advise_friction",
+   "quote": "\"You keep learning past the point of use because being judged feels worse than being unready.\"",
+   "issue": "The diagnosis is the Alchemist's alone; on the Sage page it sits under \"Helps too soon\", \"Holds too tight\" and \"Stays put\" and names nobody there.",
+   "fix": "Seek Metal, the Action energy. Metal is the finished line: it decides, it ships, it dates the thing you keep studying. Let it spend what Wood piles up. You hold on to what you take in, an idea or a person, past its use. Decide one open question by a written date. Hand someone one unfinished page."
+  },
+  {
+   "source": "wood",
+   "id": "W-025",
+   "severity": "MINOR",
+   "criterion": "A1, D3",
+   "pages": "P028 to P030",
+   "key": "PAIR 水_木 · function.definition_catalyst",
+   "quote": "\"As a catalyst, much of you stays unsaid. You hold back a kind word or a bold idea\"",
+   "issue": "The definition contradicts the ledger under it: \"Gives first\", \"Always making\", \"Speaks up\", \"Stands out\" and \"Goes off script\" all show Expression pouring out. The reader is told in one breath that they hold back and that they never stop speaking.",
+   "fix": "Your Expression is the gate where inner work becomes outer fact. Wood makes it grow. As a catalyst, the gate opens in bursts, a gift before anyone asks or a truth before its moment. Between bursts you go quiet and show your family only half of you."
+  },
+  {
+   "source": "wood",
+   "id": "W-026",
+   "severity": "MINOR",
+   "criterion": "D1, A1",
+   "pages": "P022 to P024",
+   "key": "PAIR 金_木 · function.definition_catalyst",
+   "quote": "\"you want the next opening as much as a steady love. You do best once you choose one and finish it.\"",
+   "issue": "Wanting both does not describe a lack; the close prescribes (the advice's job) and leans on capacity (\"You do best\").",
+   "fix": "Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up. As a catalyst, your hands sit empty, so you reach for every new opening or hold tight to one safe thing. You build less than your strength could carry."
+  },
+  {
+   "source": "wood",
+   "id": "W-027",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P019 to P021",
+   "key": "PAIR 金_木 · function.advise_friction",
+   "quote": "\"You start more than your body has strength to finish.\"",
+   "issue": "This repeats the definition's \"You wear yourself out before your plans are finished\" and \"Chases the new\"; the diagnosis should add the cause that the cure answers.",
+   "fix": "Seek Metal, your own Body energy. Metal is what stays when the wanting stops, the rest under the effort. Let it hold what Wood pours out. You treat rest as time stolen from building. Sleep a full night ahead of any new yes. Eat before you plan the next thing."
+  },
+  {
+   "source": "wood",
+   "id": "W-028",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P010 to P012",
+   "key": "PAIR 火_木 · function.advise_catalyst",
+   "quote": "\"You give out faster than you take in, and running on your own fuel feels like energy until it runs out.\"",
+   "issue": "This restates the definition (\"the intake falls behind the output … you run dry\") one section later.",
+   "fix": "Taking in feels to you like falling behind, so you skip it. Take a class in something nobody pays you for. Keep one evening a week with no plans. Ask someone older how they did it and listen past the first sentence. Nap before the next idea."
+  },
+  {
+   "source": "wood",
+   "id": "W-029",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P001 to P003",
+   "key": "PAIR 木_木 · function.advise_friction",
+   "quote": "\"You carry more push than any one thing asks for.\"",
+   "issue": "A third \"more than one thing needs\" line on the page, after \"You hold more of yourself than one load needs\" (and \"more go in you than a finish uses\" on P003).",
+   "fix": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. You trust your own line more than anyone else's. Give one plan to someone above you and take their deadline as final. Finish the small thing first."
+  },
+  {
+   "source": "wood",
+   "id": "W-030",
+   "severity": "MINOR",
+   "criterion": "A2, A3",
+   "pages": "P001, P003",
+   "key": "K2 木_比肩 · fn_reading.friction.ledger[0",
+   "quote": "\"You hold more of yourself than one load needs, and you carry all of it instead of owing anyone a piece. You are allowed to owe someone a piece of the load.\"",
+   "issue": "\"hold more of yourself than one load needs\" is abstract, and \"owe … a piece\" is said twice in two sentences.",
+   "fix": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, so you carry the whole load instead of sharing it. You are allowed to owe someone a piece of the load."
+  },
+  {
+   "source": "wood",
+   "id": "W-031",
+   "severity": "MINOR",
+   "criterion": "D3, A3",
+   "pages": "P004, P006",
+   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[0",
+   "quote": "\"Owing nobody feels safer to you, so you do the whole thing yourself sooner than hand off a piece.\"",
+   "issue": "This repeats the friction pole's \"Asks no one\" (the same act, the same cause, the same \"piece\"), so the two poles do not differ in direction; it also closes on advice (W-001).",
+   "fix": "Doing it alone is where your strength shows. You trust your own hands before anyone's plan, so you finish what others are still waiting on. You keep that strength with company beside you too."
+  },
+  {
+   "source": "wood",
+   "id": "W-032",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P004, P006",
+   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Where a sprint would get you in\" · \"since borrowed tempo is never yours\"",
+   "issue": "\"get you in\" is unclear, \"tempo\" is above B2, and the reason goes round in a circle.",
+   "fix": "When a sprint would get you there, you keep your own pace instead. Being late on your terms sits better with you than being rushed on someone else's. You lose the chances that needed a sprint, and you chose that trade."
+  },
+  {
+   "source": "wood",
+   "id": "W-033",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P004",
+   "key": "K2 木_比肩 · fn_reading.catalyst.ledger[2",
+   "quote": "\"you hand them the easier you, and consistency is none the poorer\"",
+   "issue": "\"none the poorer\" is a C1 idiom, and \"the easier you\" is vague; the cost to friends never lands.",
+   "fix": "Holding yourself to one standard means holding friends to it. Staying the same matters more to you than meeting anyone halfway, so an off day gets no slack. You give your friends the same you every day, and none of the softness they need."
+  },
+  {
+   "source": "wood",
+   "id": "W-034",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P005",
+   "key": "K2 木_劫财 · fn_reading.catalyst.ledger[0",
+   "quote": "\"You pay for going first in landings taken alone, and asking one person along changes that.\"",
+   "issue": "\"landings taken alone\" is a figure the reader has to decode, and the tail is advice.",
+   "fix": "You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. You get every opening first, and you land alone more often than you need to."
+  },
+  {
+   "source": "wood",
+   "id": "W-035",
+   "severity": "MINOR",
+   "criterion": "A3, D4",
+   "pages": "P003",
+   "key": "K2 木_劫财 · fn_reading.friction.ledger[0",
+   "quote": "\"You risk their savings along with your own whenever you bet too big.\"",
+   "issue": "The close restates the chip and sentence 2, in the \"along with your own\" formula (pattern 6).",
+   "fix": "Your biggest bets land on other people too. Going big matters more to you than going safe, so the shared money rides at your size of risk. You set the size of a risk that the people who pooled with you have to carry."
+  },
+  {
+   "source": "wood",
+   "id": "W-036",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P007, P009",
+   "key": "K2 木_偏印 · fn_reading.friction.ledger[0",
+   "quote": "\"You never reach the decision in the middle of a circle, and it never closes alone.\"",
+   "issue": "It is unclear what \"it\" is (the circle? the decision?), and \"never … never\" blurs the cost.",
+   "fix": "Thinking a question through means walking all the way around it first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You circle a question for weeks that a single choice would have closed."
+  },
+  {
+   "source": "wood",
+   "id": "W-037",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P010, P012",
+   "key": "K2 木_偏印 · fn_reading.catalyst.ledger[1",
+   "quote": "\"you spend years on what a teacher would hand you in a day. You pay in years for what one shown shortcut would give back.\"",
+   "issue": "The close says sentence 2 again, in harder words (\"one shown shortcut\").",
+   "fix": "Being self-taught makes the knowing yours. The long way feels more honest than the short, so you spend years on what a teacher would hand you in a day. You own every answer you have, and each cost you more time than it needed."
+  },
+  {
+   "source": "wood",
+   "id": "W-038",
+   "severity": "MINOR",
+   "criterion": "A3, A2",
+   "pages": "P011",
+   "key": "K2 木_正印 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Holding back feels more like respect than a nudge, so their nudge never comes. You hold back the push that would have moved them, and it is yours to give.\"",
+   "issue": "Push and nudge are said three times, and the tail \"it is yours to give\" is unclear.",
+   "fix": "When someone close to you grows slowly, you give them time instead of a push. Pushing feels to you like a lack of respect, so the nudge never comes. You hold back the one push that would have moved them."
+  },
+  {
+   "source": "wood",
+   "id": "W-039",
+   "severity": "MINOR",
+   "criterion": "A3",
+   "pages": "P014",
+   "key": "K2 木_正官 · fn_reading.friction.ledger[1",
+   "quote": "\"You lose every chance that arrives as a change, and you lose it by refusing to bend.\"",
+   "issue": "The second clause restates the first and the chip.",
+   "fix": "Never bending keeps you honest and keeps you tired. Since a new plan feels like being pushed, you hold your shape instead of saving your strength. You turn down every chance that arrives dressed as a change."
+  },
+  {
+   "source": "wood",
+   "id": "W-040",
+   "severity": "MINOR",
+   "criterion": "A3, C",
+   "pages": "P019, P021",
+   "key": "K2 木_偏财 · fn_reading.friction.ledger[1",
+   "quote": "\"you spread yourself over them, tired at each one. Spread this thin, you never get a full rest and start each day already tired.\"",
+   "issue": "spread×4 and tired×2 in 43 words; the close restates sentence 2.",
+   "fix": "You are spread over more things than your body can keep up with. Letting one go feels like losing, so you keep them all and arrive at each one tired. You never get a full rest, and you start each day already behind."
+  },
+  {
+   "source": "wood",
+   "id": "W-041",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P019",
+   "key": "K2 木_偏财 · fn_reading.friction.ledger[2",
+   "quote": "\"You spend their quiet months as well as your own.\"",
+   "issue": "The reader cannot tell what \"their quiet months\" are; the cost to others does not land.",
+   "fix": "Spending on the people near you comes before your own next month. Helping them out feels better than keeping, so you cover their short weeks instead of a shared cushion. You spend the savings that would have carried you both through a lean month."
+  },
+  {
+   "source": "wood",
+   "id": "W-042",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P020",
+   "key": "K2 木_正财 · fn_reading.friction.ledger[0",
+   "quote": "\"so you stay rather than learn what leaving costs\"",
+   "issue": "The logic is turned around: the reader stays because they fear what leaving costs, not to avoid learning it.",
+   "fix": "Leaving comes hard to you, so you stay where the giving back stopped. With more Wood than strength for it, you put more in rather than face leaving. You keep paying in effort every month to a place that returns none of it."
+  },
+  {
+   "source": "wood",
+   "id": "W-043",
+   "severity": "MINOR",
+   "criterion": "A1, A2",
+   "pages": "P022, P024",
+   "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"you take the quick start ahead of the rest you are owed … every quick start costs you the rest you never get\"",
+   "issue": "\"rest\" can be read as remainder or as sleep, and the real cost of quick starts (the unfinished middle) is named only in the instruction.",
+   "fix": "Whenever something new opens, you start before asking what it needs. Starting feels like freedom, so the slow middle of each thing gets less of you than the first day did. You pay for every quick start with the finishes you never reach."
+  },
+  {
+   "source": "wood",
+   "id": "W-044",
+   "severity": "MINOR",
+   "criterion": "C, A3",
+   "pages": "P022",
+   "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2",
+   "quote": "\"you are generous … being generous … Let them be generous sometimes, since your giving takes their chance to be generous.\"",
+   "issue": "generous×4 in 44 words.",
+   "fix": "When the people close to you run short, you give before being asked. Being the giver keeps you freer than being owed, so you give rather than build anything shared. You keep the giving one-way, and the people you help never get to give back."
+  },
+  {
+   "source": "wood",
+   "id": "W-045",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P023",
+   "key": "K2 木_正财 · fn_reading.catalyst.ledger[1",
+   "quote": "\"saving first costs you the today you never have\"",
+   "issue": "\"the today you never have\" does not read at B1.",
+   "fix": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures. You put off today's small joys for a tomorrow that keeps moving."
+  },
+  {
+   "source": "wood",
+   "id": "W-046",
+   "severity": "MINOR",
+   "criterion": "A2",
+   "pages": "P028, P030",
+   "key": "K2 木_食神 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Stay beside a finished thing until praise comes, since the credit you never collect is the cost.\"",
+   "issue": "\"is the cost\" is bolted on, and the instruction carries the meaning.",
+   "fix": "Stopping feels like disappearing, and making keeps you here. The joy for you is in the making, so you start something new the day the last one is done. You leave each finished thing before anyone thanks you for it, and the credit goes uncollected."
+  },
+  {
+   "source": "wood",
+   "id": "W-047",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P028",
+   "key": "K2 木_食神 · fn_reading.catalyst.ledger[2",
+   "quote": "\"Add a gentle push when it counts, because your relaxed patience lets a child grow sure of itself.\"",
+   "issue": "The reason argues against its own instruction (patience is why you should push?); the passage assumes a child (child×2, \"itself\").",
+   "fix": "With people who look to you, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a younger friend or a student set their own pace. You give them ease, and sometimes they needed the push you held back."
+  },
+  {
+   "source": "wood",
+   "id": "W-048",
+   "severity": "MINOR",
+   "criterion": "A2, D1",
+   "pages": "P029",
+   "key": "K2 木_伤官 · fn_reading.catalyst.ledger[1",
+   "quote": "\"Finish one plan unchanged, because that keeps the chances only a plain version wins.\"",
+   "issue": "The close does not parse, and it is advice (W-001).",
+   "fix": "Off script is how you stay interested. Sticking to a plan switches your talent off, so you change it halfway rather than see it through. You lose the results that only come to a plan carried out as written."
+  },
+  {
+   "source": "wood",
+   "id": "W-049",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P025",
+   "key": "K2 木_食神 · fn_reading.friction.ledger[2",
+   "quote": "\"You would rather see a child happy now than stretched\"",
+   "issue": "A claim the reading cannot know: an 18 to 35 reader mostly has no child, and the line excludes them.",
+   "fix": "You put comfort first for the people in your care too. You would rather see them happy now than stretched, so you pick pleasant hours over useful ones. You trade the effort they would grow on for an hour of ease."
+  },
+  {
+   "source": "wood",
+   "id": "W-050",
+   "severity": "MINOR",
+   "criterion": "A1",
+   "pages": "P028 to P030",
+   "key": "PAIR 水_木 · function.advise_catalyst",
+   "quote": "\"Read one page you wrote to a child or a friend.\"",
+   "issue": "The same child assumption, on three more pages.",
+   "fix": "You lose more by waiting until a thing is ready than by showing it rough. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a friend. Send the text without rereading it."
+  }
+ ],
+ "scores": [
+  {
+   "source": "earth",
+   "page": "P061",
+   "B": 4,
+   "row": [
+    "P061",
+    "木_土 · friction · Horizon",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Solid. \"somebody else's finish\" lands; \"caught out\" is muddy."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P062",
+   "B": 3,
+   "row": [
+    "P062",
+    "木_土 · friction · Steward",
+    "4",
+    "4",
+    "3",
+    "5",
+    "3",
+    "3",
+    "4",
+    "3",
+    "Flat. Two of three passages say their point twice."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P063",
+   "B": 4,
+   "row": [
+    "P063",
+    "木_土 · friction · blend",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "2",
+    "4",
+    "Good blend. \"rather than\" ×4 on one page."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P064",
+   "B": 3,
+   "row": [
+    "P064",
+    "木_土 · catalyst · Horizon",
+    "3",
+    "3",
+    "4",
+    "5",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The definition calls chasing a loss and the ledger calls it a winning trade. Two closes do not parse."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P065",
+   "B": 3,
+   "row": [
+    "P065",
+    "木_土 · catalyst · Steward",
+    "2",
+    "3",
+    "3",
+    "5",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"You end up owning far less\" sits above \"Saves first\". The \"Loyal\" close is illogical."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P066",
+   "B": 3,
+   "row": [
+    "P066",
+    "木_土 · catalyst · blend",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Same contradiction, and five contrast joints."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P067",
+   "B": 4,
+   "row": [
+    "P067",
+    "火_土 · friction · Artisan",
+    "4",
+    "3",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Warm and true. One close is a garden path, and the remedy has a grammar slip."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P068",
+   "B": 4,
+   "row": [
+    "P068",
+    "火_土 · friction · Virtuoso",
+    "3",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Strong closes. The remedy's diagnosis is written for the Artisan."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P069",
+   "B": 4,
+   "row": [
+    "P069",
+    "火_土 · friction · blend",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "One of the better pages."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P070",
+   "B": 3,
+   "row": [
+    "P070",
+    "火_土 · catalyst · Artisan",
+    "2",
+    "2",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"kindness not given\" sits above \"Gives first\". The \"Happy with enough\" close inverts its own logic."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P071",
+   "B": 4,
+   "row": [
+    "P071",
+    "火_土 · catalyst · Virtuoso",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "\"somebody's floor\" is excellent; the opener of that passage is a garden path."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P072",
+   "B": 3,
+   "row": [
+    "P072",
+    "火_土 · catalyst · blend",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Contradiction plus three imperative closes."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P073",
+   "B": 4,
+   "row": [
+    "P073",
+    "土_土 · friction · Twin",
+    "4",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Good. The \"Shuts people out\" opener does not parse on first read."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P074",
+   "B": 4,
+   "row": [
+    "P074",
+    "土_土 · friction · Rival",
+    "3",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "\"a record with very few wins\" is a top line; \"Spends to win\" reads as a charge."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P075",
+   "B": 4,
+   "row": [
+    "P075",
+    "土_土 · friction · blend",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"You carry each …\" twice on the page; one passage restates itself."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P076",
+   "B": 3,
+   "row": [
+    "P076",
+    "土_土 · catalyst · Twin",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"lean on a peer's view\" sits above \"Sets own bar\" and \"Needs no backup\". All three closes are conditionals."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P077",
+   "B": 4,
+   "row": [
+    "P077",
+    "土_土 · catalyst · Rival",
+    "2",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "\"step back from a stake\" sits above \"Bets big\". The edge is lovely."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P078",
+   "B": 3,
+   "row": [
+    "P078",
+    "土_土 · catalyst · blend",
+    "2",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Same contradiction. Four advice-shaped closes."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P079",
+   "B": 4,
+   "row": [
+    "P079",
+    "金_土 · friction · Alchemist **golden**",
+    "3",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"Hard to reach\" is the best passage in the set. The definition and remedy pull against \"Never quite ready\", and the chart's mechanics stand in for the reader's need."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P080",
+   "B": 3,
+   "row": [
+    "P080",
+    "金_土 · friction · Sage **golden**",
+    "3",
+    "3",
+    "3",
+    "5",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The weakest golden page: \"safe\" ×4 in one passage, an elliptical clause, and a remedy diagnosis that belongs to the other god."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P081",
+   "B": 3,
+   "row": [
+    "P081",
+    "金_土 · friction · blend **golden**",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "A dangling participle opens one passage; \"You get to let them take their own risks\" closes another."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P082",
+   "B": 3,
+   "row": [
+    "P082",
+    "金_土 · catalyst · Alchemist",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "2",
+    "Every close is \"[Imperative], since …\"; one of them does not parse."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P083",
+   "B": 3,
+   "row": [
+    "P083",
+    "金_土 · catalyst · Sage",
+    "3",
+    "2",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "2",
+    "Three closes in the same frame. \"Patient teacher\" is garbled. The edge is very good."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P084",
+   "B": 4,
+   "row": [
+    "P084",
+    "金_土 · catalyst · blend",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "4",
+    "2",
+    "2",
+    "The best lines are here (\"every answer you trust was new once\"), but all four closes share one frame."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P085",
+   "B": 5,
+   "row": [
+    "P085",
+    "水_土 · friction · General",
+    "4",
+    "3",
+    "4",
+    "4",
+    "5",
+    "5",
+    "4",
+    "4",
+    "The best page. Every close is quotable; only \"the judge becomes you\" trips."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P086",
+   "B": 4,
+   "row": [
+    "P086",
+    "水_土 · friction · Magistrate",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Good. The remedy's diagnosis contradicts \"Waits for permission\", and the raise is said twice."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P087",
+   "B": 4,
+   "row": [
+    "P087",
+    "水_土 · friction · blend",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Good. 11 of 22 sentences open on \"You\", and \"You trust X more than Y\" appears twice."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P088",
+   "B": 3,
+   "row": [
+    "P088",
+    "水_土 · catalyst · General",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"you find your pace after someone sets it\" sits above \"Takes charge\". \"Whenever\" opens two passages."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P089",
+   "B": 3,
+   "row": [
+    "P089",
+    "水_土 · catalyst · Magistrate",
+    "2",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"the standard comes late\" sits above \"You set a standard for the whole group\"."
+   ]
+  },
+  {
+   "source": "earth",
+   "page": "P090",
+   "B": 3,
+   "row": [
+    "P090",
+    "水_土 · catalyst · blend",
+    "2",
+    "4",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Contradiction; one close implies concealment and another says nothing."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P031",
+   "B": 3,
+   "row": [
+    "P031 Wood · friction · Artisan",
+    "3",
+    "3",
+    "4",
+    "5",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Strong frame, but \"Never says no\" (helping beats resting) and \"Drifts\" (taking it easy beats taking it on) cancel each other, and \"house money\" misfires."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P032",
+   "B": 4,
+   "row": [
+    "P032 Wood · friction · Virtuoso",
+    "4",
+    "4",
+    "4",
+    "5",
+    "5",
+    "4",
+    "3",
+    "4",
+    "The best Wood friction page; \"plus the work of thanking you\" lands."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P033",
+   "B": 4,
+   "row": [
+    "P033 Wood · friction · blend",
+    "3",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Good blend; the Artisan contradiction carries over, and \"you take being watched doing badly over doing well alone\" needs a second read."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P034",
+   "B": 4,
+   "row": [
+    "P034 Wood · catalyst · Artisan",
+    "3",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The definition contradicts itself (\"whatever you do shows\" / \"it opens too rarely\"); the page gives eight instructions."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P035",
+   "B": 4,
+   "row": [
+    "P035 Wood · catalyst · Virtuoso",
+    "2",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The definition and advice say you hold back; the ledger and edge say you speak first. These are two different readers on one page."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P036",
+   "B": 3,
+   "row": [
+    "P036 Wood · catalyst · blend",
+    "2",
+    "3",
+    "3",
+    "5",
+    "4",
+    "3",
+    "2",
+    "2",
+    "Same split as P035, plus a \"Speaks up\" passage that contradicts itself."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P037",
+   "B": 4,
+   "row": [
+    "P037 Fire · friction · Twin",
+    "4",
+    "3",
+    "4",
+    "5",
+    "5",
+    "4",
+    "3",
+    "4",
+    "Recognisable and blunt without cruelty; small slips (\"level with\", \"from far\")."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P038",
+   "B": 3,
+   "row": [
+    "P038 Fire · friction · Rival",
+    "3",
+    "3",
+    "4",
+    "5",
+    "4",
+    "3",
+    "3",
+    "4",
+    "Opens on a sports cliché and a non sequitur (\"since the Fire in you outlasts a single victory\")."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P039",
+   "B": 4,
+   "row": [
+    "P039 Fire · friction · blend",
+    "4",
+    "3",
+    "4",
+    "5",
+    "5",
+    "4",
+    "3",
+    "4",
+    "Carries the best line in the set (\"a place at the table that was already yours\")."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P040",
+   "B": 4,
+   "row": [
+    "P040 Fire · catalyst · Twin",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "2",
+    "3",
+    "The definition slips (\"bet bold instead of rest\"), the advice restates it, and start/alone/day each appear 4 times."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P041",
+   "B": 3,
+   "row": [
+    "P041 Fire · catalyst · Rival",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "3",
+    "2",
+    "3",
+    "\"Goes all in\" gets lost in its stake/bet metaphors; ask×6."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P042",
+   "B": 4,
+   "row": [
+    "P042 Fire · catalyst · blend",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "2",
+    "3",
+    "Good chips, but keep×5, friend×5 and \"so you\"×5 make it drag."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P043",
+   "B": 5,
+   "row": [
+    "P043 Earth · friction · Alchemist",
+    "5",
+    "5",
+    "4",
+    "5",
+    "5",
+    "5",
+    "4",
+    "5",
+    "The best page: every close is a fresh kind, and the cost is exact."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P044",
+   "B": 4,
+   "row": [
+    "P044 Earth · friction · Sage",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "\"Protects too much\" and \"Leans on others\" read as two people; the remedy talks about ideas."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P045",
+   "B": 4,
+   "row": [
+    "P045 Earth · friction · blend",
+    "3",
+    "4",
+    "4",
+    "5",
+    "5",
+    "4",
+    "3",
+    "4",
+    "Strong closes (\"Lean by lean\"); the protector/leaner split is still unreconciled."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P046",
+   "B": 4,
+   "row": [
+    "P046 Earth · catalyst · Alchemist",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Sound and specific; all three closes are instructions above an advice box."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P047",
+   "B": 3,
+   "row": [
+    "P047 Earth · catalyst · Sage",
+    "3",
+    "3",
+    "4",
+    "5",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The advice (\"as a listener only\") feeds the trait the ledger warns about; \"in your own gentle way\" is greeting-card soft."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P048",
+   "B": 3,
+   "row": [
+    "P048 Earth · catalyst · blend",
+    "3",
+    "4",
+    "3",
+    "5",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The same advice clash; \"look after\" appears four times in one passage."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P049",
+   "B": 4,
+   "row": [
+    "P049 Metal · friction · General",
+    "4",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"You paid for each mistake the first time\" is superb; \"Pushes too hard\" goes in a circle."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P050",
+   "B": 5,
+   "row": [
+    "P050 Metal · friction · Magistrate",
+    "4",
+    "4",
+    "4",
+    "5",
+    "5",
+    "5",
+    "3",
+    "4",
+    "Better than The Pattern: \"until good days tire you like bad ones\"; \"the thinnest slice\"."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P051",
+   "B": 4,
+   "row": [
+    "P051 Metal · friction · blend",
+    "4",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Solid, though \"slip\" appears four times in one passage."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P052",
+   "B": 4,
+   "row": [
+    "P052 Metal · catalyst · General",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "\"Demands shape you\" leads you down the wrong path; the definition's close is the advice's opener; \"choose your own pressure\" conflicts with \"someone allowed to tell you no\"."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P053",
+   "B": 4,
+   "row": [
+    "P053 Metal · catalyst · Magistrate",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The ledger says loosen the book, then the advice prescribes a judge; \"Say the word\" is a misused idiom; book×4."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P054",
+   "B": 3,
+   "row": [
+    "P054 Metal · catalyst · blend",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "3",
+    "\"because\"×5; the same definition and advice problems as P052."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P055",
+   "B": 4,
+   "row": [
+    "P055 Water · friction · Horizon",
+    "5",
+    "4",
+    "4",
+    "5",
+    "5",
+    "4",
+    "4",
+    "4",
+    "Coherent, and the bird-in-hand close works."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P056",
+   "B": 4,
+   "row": [
+    "P056 Water · friction · Steward",
+    "2",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "4",
+    "2",
+    "The definition and remedy describe a chaser; the ledger describes a saver who \"takes the sure thing\"."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P057",
+   "B": 4,
+   "row": [
+    "P057 Water · friction · blend",
+    "2",
+    "3",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "\"Chases the new\" and \"Plays it safe\" sit side by side with nothing linking them; \"the receipt ahead of the day itself\" is unclear."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P058",
+   "B": 4,
+   "row": [
+    "P058 Water · catalyst · Horizon",
+    "2",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The definition (\"the start comes late\") and advice (\"safer planning than starting\") contradict \"Starts fast\"."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P059",
+   "B": 4,
+   "row": [
+    "P059 Water · catalyst · Steward",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Warm and specific (\"buy the small thing you keep pricing\"); partner×3 in one passage."
+   ]
+  },
+  {
+   "source": "fire",
+   "page": "P060",
+   "B": 4,
+   "row": [
+    "P060 Water · catalyst · blend",
+    "2",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "2",
+    "The same Horizon contradiction (\"Sees chances early\" under \"the start comes late\")."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P121",
+   "B": 4,
+   "row": [
+    "P121 木 · fr · Alchemist",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Strong drive line. \"Hard to reach\" does not parse at the start and repeats \"Keeps it in\"."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P122",
+   "B": 4,
+   "row": [
+    "P122 木 · fr · Sage",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"Over-protects\" lands. \"Not being ready feels more honest\" wobbles."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P123",
+   "B": 4,
+   "row": [
+    "P123 木 · fr · blend",
+    "4",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Solid. Shelter is said in the definition and again in two keywords. \"Call\" ×4."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P124",
+   "B": 3,
+   "row": [
+    "P124 木 · cat · Alchemist",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "The definition (\"trust a hunch ahead of sitting with what you know\") contradicts \"Goes deep\". Two commands come before the advice."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P125",
+   "B": 3,
+   "row": [
+    "P125 木 · cat · Sage",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "All three closes are \"Do X, because Y\". \"Get the paper\" is ambiguous."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P126",
+   "B": 3,
+   "row": [
+    "P126 木 · cat · blend",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Contradiction plus a \"You can\" close. Reads as a page of instructions."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P127",
+   "B": 5,
+   "row": [
+    "P127 火 · fr · General",
+    "4",
+    "5",
+    "4",
+    "5",
+    "5",
+    "5",
+    "3",
+    "4",
+    "Best friction page: \"Goes cold\" is better than The Pattern. \"Rather\" ×4."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P128",
+   "B": 4,
+   "row": [
+    "P128 火 · fr · Magistrate",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Good. \"Rank\" ×4. The close \"the waiting was your choice\" reads as a charge."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P129",
+   "B": 4,
+   "row": [
+    "P129 火 · fr · blend",
+    "4",
+    "5",
+    "4",
+    "5",
+    "5",
+    "4",
+    "2",
+    "4",
+    "Strong lines. \"Rather\" ×5 and \"hold\" ×5 flatten it."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P130",
+   "B": 3,
+   "row": [
+    "P130 火 · cat · General",
+    "3",
+    "2",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Leads without shouting\" ends in a garbled clause with a tense slip. The crisis close does not follow."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P131",
+   "B": 2,
+   "row": [
+    "P131 火 · cat · Magistrate",
+    "3",
+    "2",
+    "3",
+    "4",
+    "2",
+    "2",
+    "3",
+    "2",
+    "Worst page. Two closes do not parse, and a \"grow it\" page reads as three faults."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P132",
+   "B": 3,
+   "row": [
+    "P132 火 · cat · blend",
+    "3",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "\"Never rechecked\" ×2. The warmth close is ambiguous."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P133",
+   "B": 5,
+   "row": [
+    "P133 土 · fr · Horizon",
+    "5",
+    "4",
+    "4",
+    "5",
+    "5",
+    "5",
+    "3",
+    "4",
+    "\"You leave a thing before it has finished with you.\" \"Feels\" ×4."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P134",
+   "B": 4,
+   "row": [
+    "P134 土 · fr · Steward",
+    "2",
+    "3",
+    "4",
+    "5",
+    "4",
+    "4",
+    "4",
+    "3",
+    "The definition and remedy describe a chaser; the keywords describe a hoarder."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P135",
+   "B": 4,
+   "row": [
+    "P135 土 · fr · blend",
+    "3",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "The dinner line is good. The Steward half contradicts the definition."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P136",
+   "B": 3,
+   "row": [
+    "P136 土 · cat · Horizon",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Slow to begin\" and \"better at keeping than at starting\" against \"Your strongest moment is the start\"."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P137",
+   "B": 3,
+   "row": [
+    "P137 土 · cat · Steward",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Coherent, but every close is advice. \"Keeps you late\" is the wrong idiom."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P138",
+   "B": 3,
+   "row": [
+    "P138 土 · cat · blend",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Carries the P136 contradiction. Three of four closes are commands or conditionals."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P139",
+   "B": 3,
+   "row": [
+    "P139 金 · fr · Artisan",
+    "4",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "4",
+    "\"Gives it away\" says its point twice. \"Mostly you do\" is ambiguous."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P140",
+   "B": 5,
+   "row": [
+    "P140 金 · fr · Virtuoso",
+    "5",
+    "4",
+    "4",
+    "4",
+    "5",
+    "5",
+    "4",
+    "4",
+    "\"Mocking\" is a screenshot passage. \"Audience included\" dangles."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P141",
+   "B": 5,
+   "row": [
+    "P141 金 · fr · blend",
+    "4",
+    "4",
+    "4",
+    "4",
+    "5",
+    "5",
+    "3",
+    "3",
+    "\"Mocking is your first language\" is the best line on the file. Two reminder closes."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P142",
+   "B": 3,
+   "row": [
+    "P142 金 · cat · Artisan",
+    "2",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The definition says your kindness waits; \"Giving\" says it comes before anyone asks. Assumes a child."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P143",
+   "B": 4,
+   "row": [
+    "P143 金 · cat · Virtuoso",
+    "2",
+    "3",
+    "4",
+    "4",
+    "4",
+    "4",
+    "3",
+    "3",
+    "\"True and welcome are not the same gift\" is excellent. The definition says the gate stays shut."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P144",
+   "B": 3,
+   "row": [
+    "P144 金 · cat · blend",
+    "2",
+    "2",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Needing it in pieces first\" does not parse. Same contradiction as P142 and P143."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P145",
+   "B": 4,
+   "row": [
+    "P145 水 · fr · Twin",
+    "4",
+    "4",
+    "2",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"More in you than shows\" is said five times on one page."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P146",
+   "B": 5,
+   "row": [
+    "P146 水 · fr · Rival",
+    "5",
+    "4",
+    "4",
+    "5",
+    "5",
+    "5",
+    "3",
+    "4",
+    "\"Racing in secret keeps the race one you cannot lose.\" Tight and owned."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P147",
+   "B": 4,
+   "row": [
+    "P147 水 · fr · blend",
+    "4",
+    "4",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "Good. \"Shared money feels like courage\" is an odd cause, and the close slips toward capacity."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P148",
+   "B": 3,
+   "row": [
+    "P148 水 · cat · Twin",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The \"Even pace\" close is clumsy. Every close is advice."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P149",
+   "B": 3,
+   "row": [
+    "P149 水 · cat · Rival",
+    "4",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Ahead of\" ×4. \"Every third time\" is oddly exact. \"Before it\" has no clear referent."
+   ]
+  },
+  {
+   "source": "water",
+   "page": "P150",
+   "B": 3,
+   "row": [
+    "P150 水 · cat · blend",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "2",
+    "3",
+    "All four closes start \"If you\". Keeps \"a race they never chose\", a phrase BIZ_04 already cut."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P001",
+   "B": 3,
+   "row": [
+    "P001 Wood core · F · Twin",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "4",
+    "\"Always right\" lands; the drive and cost_others passages are clumsy, and the remedy restates the surplus."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P002",
+   "B": 4,
+   "row": [
+    "P002 Wood core · F · Rival",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Sound and specific; \"You fund next year's bet with the money this year needed\" is Pattern-level."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P003",
+   "B": 3,
+   "row": [
+    "P003 Wood core · F · blend",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "3",
+    "Two \"more X than one Y needs\" surplus lines; \"Bets too big\" restates its chip; \"race the next\" is missing a word."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P004",
+   "B": 3,
+   "row": [
+    "P004 Wood core · C · Twin",
+    "3",
+    "3",
+    "3",
+    "5",
+    "3",
+    "3",
+    "3",
+    "3",
+    "Same act and cause as the friction pole; \"none the poorer\" and \"get you in\" fail at B1; sprint×3."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P005",
+   "B": 4,
+   "row": [
+    "P005 Wood core · C · Rival",
+    "4",
+    "3",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "\"Racing brings out your best and spends most of it\" is strong; \"landings taken alone\" and the edge's \"bigger split in half\" do not read."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P006",
+   "B": 3,
+   "row": [
+    "P006 Wood core · C · blend",
+    "4",
+    "3",
+    "3",
+    "5",
+    "3",
+    "3",
+    "2",
+    "3",
+    "Ends one passage on \"you can\"; let×4 and three advice closes in a row."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P007",
+   "B": 4,
+   "row": [
+    "P007 Fire core · F · Alchemist",
+    "4",
+    "2",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "The definition does not parse; the ledger is good (\"You keep the idea safe and lose the one thing you wanted from it, being known\")."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P008",
+   "B": 4,
+   "row": [
+    "P008 Fire core · F · Sage",
+    "3",
+    "2",
+    "4",
+    "5",
+    "5",
+    "4",
+    "3",
+    "3",
+    "The best ledger on the Fire core, under a broken definition and a remedy that diagnoses the Alchemist, not the Sage."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P009",
+   "B": 4,
+   "row": [
+    "P009 Fire core · F · blend",
+    "3",
+    "2",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "3",
+    "Same definition and remedy problem; \"grown close tighter\" drops a word."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P010",
+   "B": 3,
+   "row": [
+    "P010 Fire core · C · Alchemist",
+    "3",
+    "3",
+    "3",
+    "5",
+    "3",
+    "3",
+    "3",
+    "3",
+    "\"Either way\" with only one way; \"Self-taught\" and the advice opener restate."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P011",
+   "B": 3,
+   "row": [
+    "P011 Fire core · C · Sage",
+    "3",
+    "3",
+    "3",
+    "4",
+    "4",
+    "3",
+    "3",
+    "3",
+    "\"Taking people in makes a house matter\" lands; \"Gives it time\" circles and closes on an unclear \"it is yours to give\"."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P012",
+   "B": 4,
+   "row": [
+    "P012 Fire core · C · blend",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "2",
+    "3",
+    "feel×6; \"the trade feels fair to you\" is a fine close; \"answers they enjoyed finding\" is the wrong tense."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P013",
+   "B": 4,
+   "row": [
+    "P013 Earth core · F · General",
+    "5",
+    "4",
+    "4",
+    "5",
+    "4",
+    "4",
+    "4",
+    "4",
+    "Clean logic and a good cure (\"Sit in the sun a while\"); the remedy says \"presses on you\" twice."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P014",
+   "B": 4,
+   "row": [
+    "P014 Earth core · F · Magistrate",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "4",
+    "4",
+    "\"Never bending keeps you honest and keeps you tired\" is quotable; \"order feels safer than equals\" does not compare like with like."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P015",
+   "B": 4,
+   "row": [
+    "P015 Earth core · F · blend",
+    "4",
+    "2",
+    "4",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"you give them a page in place of yourself\" is excellent; the sentence before it does not parse."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P016",
+   "B": 3,
+   "row": [
+    "P016 Earth core · C · General",
+    "4",
+    "3",
+    "4",
+    "4",
+    "4",
+    "3",
+    "2",
+    "3",
+    "Three passages in one frame, each closing on an instruction; week×4; the advice (\"Make your bed.\") is the best on the energy."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P017",
+   "B": 3,
+   "row": [
+    "P017 Earth core · C · Magistrate",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The edge's handshake line is lovely; \"Holds the line\" opens and closes awkwardly."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P018",
+   "B": 3,
+   "row": [
+    "P018 Earth core · C · blend",
+    "4",
+    "3",
+    "4",
+    "5",
+    "4",
+    "3",
+    "2",
+    "3",
+    "\"rather than\"×3 and four instruction closes."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P019",
+   "B": 4,
+   "row": [
+    "P019 Metal core · F · Horizon",
+    "4",
+    "3",
+    "3",
+    "5",
+    "4",
+    "4",
+    "3",
+    "4",
+    "\"a row of half-done things behind you, each one new when you started\" lands; \"Spread thin\" says tired twice; the remedy restates the definition."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P020",
+   "B": 4,
+   "row": [
+    "P020 Metal core · F · Steward",
+    "4",
+    "4",
+    "4",
+    "5",
+    "5",
+    "4",
+    "4",
+    "4",
+    "\"You give up the easy days that all your counting was meant to buy\" is among the best lines on the energy."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P021",
+   "B": 4,
+   "row": [
+    "P021 Metal core · F · blend",
+    "4",
+    "3",
+    "3",
+    "5",
+    "5",
+    "4",
+    "3",
+    "4",
+    "\"You stay in a love the way you stay anywhere\" is excellent."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P022",
+   "B": 3,
+   "row": [
+    "P022 Metal core · C · Horizon",
+    "3",
+    "3",
+    "3",
+    "5",
+    "3",
+    "3",
+    "3",
+    "3",
+    "The definition prescribes; \"Quick to start\" makes rest the cost of starting; generous×4."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P023",
+   "B": 3,
+   "row": [
+    "P023 Metal core · C · Steward",
+    "4",
+    "3",
+    "4",
+    "5",
+    "4",
+    "3",
+    "2",
+    "3",
+    "All three passages close \"Imperative, because …\"; \"the person you keep\" does not read."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P024",
+   "B": 4,
+   "row": [
+    "P024 Metal core · C · blend",
+    "4",
+    "3",
+    "4",
+    "5",
+    "4",
+    "4",
+    "2",
+    "3",
+    "\"a cushion is also for sitting on\" is the line of the page; because×4."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P025",
+   "B": 4,
+   "row": [
+    "P025 Water core · F · Artisan",
+    "3",
+    "4",
+    "4",
+    "4",
+    "5",
+    "4",
+    "3",
+    "4",
+    "\"Never saying no is how you stay loved\" is very strong; \"Comfort first\" assumes the reader has a child."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P026",
+   "B": 5,
+   "row": [
+    "P026 Water core · F · Virtuoso",
+    "5",
+    "5",
+    "4",
+    "5",
+    "5",
+    "5",
+    "4",
+    "5",
+    "The best page on the energy: every close is an act with a price, and two lines are worth a screenshot."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P027",
+   "B": 4,
+   "row": [
+    "P027 Water core · F · blend",
+    "4",
+    "4",
+    "4",
+    "5",
+    "5",
+    "4",
+    "3",
+    "4",
+    "Strong; 10 sentences open on \"You\"."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P028",
+   "B": 3,
+   "row": [
+    "P028 Water core · C · Artisan",
+    "2",
+    "3",
+    "3",
+    "4",
+    "3",
+    "3",
+    "3",
+    "2",
+    "The definition says you hold back; the ledger says you give first and never stop making. \"Relaxed\" gives a reason that argues against its own instruction."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P029",
+   "B": 3,
+   "row": [
+    "P029 Water core · C · Virtuoso",
+    "2",
+    "3",
+    "3",
+    "5",
+    "4",
+    "3",
+    "3",
+    "3",
+    "The definition says \"much of you stays unsaid\" above \"Speaks up\" and \"Stands out\"; \"Goes off script\" ends in a sentence that does not parse."
+   ]
+  },
+  {
+   "source": "wood",
+   "page": "P030",
+   "B": 3,
+   "row": [
+    "P030 Water core · C · blend",
+    "2",
+    "4",
+    "4",
+    "5",
+    "4",
+    "3",
+    "2",
+    "3",
+    "Same contradiction; instead of×3 and nine content words at ×3."
+   ]
+  }
+ ]
+}
