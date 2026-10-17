@@ -90,3 +90,41 @@ Page: https://claude.ai/artifact/Vz38yjKw7uDv3CtkpDfq2r
 - Blueprint: Advisor only. Highest classical weight and the biggest accuracy risk: the structure rule (golden: Steward structure 正财格 by the revealed-stem rule, Alchemist structure 偏印格 by the main stem).
 
 **Questionnaire:** https://claude.ai/artifact/TpNPDwa9BZ5FGvFPPgvvHs (source: `round-4/`). 34 rulings (A placement, B Domains, C Life Chapters, D Stars, E Blueprint, F tiers, G content law) and 6 write-ins. It supersedes the round-3 questions.
+
+## Round 4 rulings (owner 2026-10-17): A1–G2 all A
+
+**Write-ins:**
+- I1: "All of them". Follow every classical text and note where they disagree.
+- I2, I3, I4: TBD.
+- I5: "I want to see the catalogue mock up and how the user journey maps out with the new sections add in, then we sort out details".
+- I6: "Not yet".
+
+**What the rulings settle:**
+- **Order on Your Reading:** Domains → Life Chapters (with 大运) → Stars → "Going deeper" → Energy Blueprint. Each beat is a live preview card.
+- **Doors:**
+  - Pillar chart positions → Life Chapters.
+  - Today tab tile → "This Decade" → Life Chapters. Its old page and the unlinked "Life Chapters · Your decades" screen retire.
+  - Day Master page → Blueprint.
+  - The Guidance tab's Energy Manual retires into Domains and Life Chapters.
+- **Tiers:**
+  - Free: each section's hook.
+  - Seeker: the Domains readings, the chapters and decades, the Stars readings.
+  - Advisor: the Blueprint, the years, the domain angles By decade and By year.
+- **Blueprint:**
+  - Structure by the 子平真诠 revealed-stem rule. Golden: Steward structure 正财格.
+  - Formed or broken.
+  - 穷通宝鉴 season.
+  - Four parts.
+  - Combinations, clashes, punishments and harms.
+- **Stars:**
+  - About 16 classical stars, hard stars included with friction framing.
+  - Common calculation bases.
+  - Stars that arrive with decades (Seeker) and years (Advisor).
+  - A lighter layer.
+  - English names with 汉字. 羊刃 becomes "the Ram's Edge".
+- **Content law:** the prediction law extends to Life Chapters and Stars. Readings are gender-neutral.
+
+**Round 5 (catalogue, journey and unfolded pages):** https://claude.ai/artifact/XMRqiN4ab81FBLQDAyFxAe (source: `round-5/`). Golden stars, hand-computed:
+- Scholar's Star in the Year Gate, Red Phoenix in the Month Gate, Lonely Star in the Day Gate, Ram's Edge in the Hour Gate, Robbery Star in the Year Gate, Lost Spirit in the Day Gate.
+- The Nobleman arrives with the decade 丁丑 (2023–2032) and in 2027.
+- Peach Blossom arrives with the decade 丙子 (2033–2042).
