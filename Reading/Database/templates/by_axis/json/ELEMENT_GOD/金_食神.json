@@ -16,7 +16,7 @@
     "k2_functional": "You say precise, kind things that people keep. Your compliments are engraved, not sprayed.",
     "adj_chips": {
       "catalyst": [
-        "Finishes things",
+        "Loves the craft",
         "Chooses well",
         "Teaches by doing"
       ],
@@ -66,11 +66,11 @@
         "define": "As a catalyst, little leaves the gate. What does leave has to be worth it, and your care goes into the few pieces you let go.",
         "ledger": [
           {
-            "word": "Finishes things",
+            "word": "Loves the craft",
             "angles": {
-              "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. The things you make arrive whole, every edge seen to.",
-              "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift before the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
-              "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. The one it is for gets your polish and misses the hours behind it."
+              "drive": "You love the craft for its own sake, whatever the thing you are making. Shaping something with care is where you feel most at home, and the hours pass without your counting them. What you make shows that it was enjoyed in the making.",
+              "cost_self": "Loving the craft draws you back to the work above almost anything else. You need part of every day to go into making something, and other plans wait their turn. Friends and sleep get whatever evenings the craft leaves over.",
+              "cost_others": "The people around you often find you deep in a piece of work. Losing yourself in the making is your favourite way to be, and a question from the doorway takes a moment to reach you. Your family shares you with the craft."
             }
           },
           {
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried.",
               "cost_self": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
-              "cost_others": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. You teach them to aim no higher than what you settle for."
+              "cost_others": "Whenever you take it easy, you take people with you. Your first try already looks right, and they see the ease without the care behind it. You teach them to aim no higher than what you settle for."
             }
           }
         ]
@@ -547,6 +547,44 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Giving is how you know you are here. The made thing in someone's hands proves you more than anything kept, so you give what you made away ahead of keeping any of it. You leave yourself off the list of people you give to."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Finishes things",
+        "angles": {
+          "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. The things you make arrive whole, every edge seen to.",
+          "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift before the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
+          "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. The one it is for gets your polish and misses the hours behind it."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5",
+      "replaced": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. You teach them to aim no higher than what you settle for."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Loves the craft",
+        "angles": {
+          "drive": "You love the craft for its own sake, whatever the thing you are making. Shaping something with care is where you feel most at home, and the hours pass without your counting them. What you make shows that it was enjoyed in the making.",
+          "cost_self": "Loving the craft draws you back to the work above almost anything else. You need part of every day to go into making something, and other plans wait their turn. Friends and sleep get whatever evenings the craft leaves over.",
+          "cost_others": "The people around you often find you deep in a piece of work. Losing yourself in the making is your favourite way to be, and a question from the doorway takes a moment to reach you. Your family shares you with the craft."
+        }
+      }
     }
   ]
 }

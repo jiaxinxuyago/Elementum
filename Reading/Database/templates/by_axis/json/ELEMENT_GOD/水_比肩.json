@@ -21,7 +21,7 @@
         "Decides alone"
       ],
       "friction": [
-        "Hard to reach",
+        "Keeps to yourself",
         "Never asks",
         "Expects the same"
       ]
@@ -95,11 +95,11 @@
         "define": "Running over, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
         "ledger": [
           {
-            "word": "Hard to reach",
+            "word": "Keeps to yourself",
             "angles": {
-              "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you want someone to reach you all the same.",
-              "cost_self": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own.",
-              "cost_others": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You make the people closest to you do all the reaching."
+              "drive": "You keep to yourself even among people you like. Your own company is where you feel steady, and you share your days without sharing much of what is in them. Those who love you know your habits better than your heart.",
+              "cost_self": "Keeping to yourself spares you the work of explaining. You need your inner life to stay your own, and most of what you feel never gets said aloud. Underneath, you would like one person to know you well.",
+              "cost_others": "Keeping to yourself leaves the people close to you guessing at your mood. Privacy feels like solid ground to you, and your inner weather stays behind a quiet face. They are left to read you from small signs."
             }
           },
           {
@@ -523,6 +523,36 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Deciding alone is your default. Asking around feels like handing over what is yours, so you decide by yourself ahead of a second view. Your choices come quick and clean, with nobody else's doubts mixed in."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Hard to reach",
+        "angles": {
+          "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you want someone to reach you all the same.",
+          "cost_self": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own.",
+          "cost_others": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You make the people closest to you do all the reaching."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.friction.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Keeps to yourself",
+        "angles": {
+          "drive": "You keep to yourself even among people you like. Your own company is where you feel steady, and you share your days without sharing much of what is in them. Those who love you know your habits better than your heart.",
+          "cost_self": "Keeping to yourself spares you the work of explaining. You need your inner life to stay your own, and most of what you feel never gets said aloud. Underneath, you would like one person to know you well.",
+          "cost_others": "Keeping to yourself leaves the people close to you guessing at your mood. Privacy feels like solid ground to you, and your inner weather stays behind a quiet face. They are left to read you from small signs."
+        }
+      }
     }
   ]
 }

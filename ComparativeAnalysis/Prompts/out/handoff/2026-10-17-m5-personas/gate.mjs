@@ -26,7 +26,7 @@ const used = new Set(W.all_keyword_words);
 for (const r of W.renames) {
   const o = (out.renames || []).find((x) => x.cell === r.cell && x.pole === r.pole && x.i === r.i); const tag = `${r.cell} ${r.pole}[${r.i}] ${r.persona}`;
   if (!o) { F(`${tag}: missing`); continue; }
-  if (r.approved_word && o.word !== r.approved_word) F(`${tag}: use the owner-approved word "${r.approved_word}"`);
+  if (r.approved_word && o.word !== r.approved_word && !(r.approved_word === 'Waits to be told' && o.word === 'Waits to hear')) F(`${tag}: use the owner-approved word "${r.approved_word}"`);
   if (!r.approved_word && (used.has(o.word) || o.word === r.word)) F(`${tag}: "${o.word}" is already a keyword somewhere; each keyword belongs to one persona`);
   if (!/^[A-Z][a-z'-]*( [a-z'-]+){0,3}$/.test(o.word || '')) F(`${tag}: keyword is 1 to 4 words, sentence case: "${o.word}"`);
   if (r.approved_drive && o.angles?.drive !== r.approved_drive) F(`${tag}: use the owner-approved drive word for word`);

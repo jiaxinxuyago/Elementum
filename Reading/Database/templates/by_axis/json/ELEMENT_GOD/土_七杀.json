@@ -23,7 +23,7 @@
       "friction": [
         "Hard on yourself",
         "Never off duty",
-        "Shuts people out"
+        "Keeps tight control"
       ]
     },
     "k2_domain_readings": {
@@ -111,11 +111,11 @@
             }
           },
           {
-            "word": "Shuts people out",
+            "word": "Keeps tight control",
             "angles": {
-              "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. You lose the closeness along with the pressure you keep out.",
-              "cost_self": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away.",
-              "cost_others": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
+              "drive": "You run a tight ship at home as well as at work. Loose ends feel like danger to you, and you keep every plan and every person on schedule. Home runs like clockwork and feels a little like a workplace.",
+              "cost_self": "Running a tight ship makes every small slip your problem. You need things under control to feel steady, and a late bus or a lost key sets your jaw. You use up your nerve on things that never needed it.",
+              "cost_others": "In your tight ship everyone has a job, and the people at home get theirs from you. You need the household to run like a team, and your requests land as orders. Your family does what you ask and keeps its ideas quiet."
             }
           }
         ]
@@ -587,6 +587,36 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You stay hard on yourself in front of the people you love. Getting it right comes first, ahead of being easy company, so each kindness you refuse teaches them to keep theirs. You take from them the plain comfort of looking after you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Shuts people out",
+        "angles": {
+          "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. You lose the closeness along with the pressure you keep out.",
+          "cost_self": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away.",
+          "cost_others": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.friction.ledger[2]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Runs a tight ship",
+        "angles": {
+          "drive": "You run a tight ship at home as well as at work. Loose ends feel like danger to you, and you keep every plan and every person on schedule. Home runs like clockwork and feels a little like a workplace.",
+          "cost_self": "Running a tight ship makes every small slip your problem. You need things under control to feel steady, and a late bus or a lost key sets your jaw. You use up your nerve on things that never needed it.",
+          "cost_others": "In your tight ship everyone has a job, and the people at home get theirs from you. You need the household to run like a team, and your requests land as orders. Your family does what you ask and keeps its ideas quiet."
+        }
+      }
     }
   ]
 }

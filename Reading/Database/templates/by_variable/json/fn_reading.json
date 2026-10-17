@@ -142,11 +142,11 @@
             "define": "As a catalyst, little leaves the gate. What does leave has to be worth it, and your care goes into the few pieces you let go.",
             "ledger": [
               {
-                "word": "Finishes things",
+                "word": "Loves the craft",
                 "angles": {
-                  "drive": "A finished thing gives you a calm that starting never does. Since a half-done piece sits with you like an open promise, you finish one thing properly rather than start three. The things you make arrive whole, every edge seen to.",
-                  "cost_self": "Finishing comes before enjoying for you. A thing is not yours to like until it is done, and you finish the gift before the pleasure of making it. The best part of the work goes by while your mind waits for the end.",
-                  "cost_others": "Every gift you give, you finish alone. The making feels like part of you, so you finish it yourself rather than with the person it is for. The one it is for gets your polish and misses the hours behind it."
+                  "drive": "You love the craft for its own sake, whatever the thing you are making. Shaping something with care is where you feel most at home, and the hours pass without your counting them. What you make shows that it was enjoyed in the making.",
+                  "cost_self": "Loving the craft draws you back to the work above almost anything else. You need part of every day to go into making something, and other plans wait their turn. Friends and sleep get whatever evenings the craft leaves over.",
+                  "cost_others": "The people around you often find you deep in a piece of work. Losing yourself in the making is your favourite way to be, and a question from the doorway takes a moment to reach you. Your family shares you with the craft."
                 }
               },
               {
@@ -191,7 +191,7 @@
                 "angles": {
                   "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried.",
                   "cost_self": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
-                  "cost_others": "Whenever you take it easy, you take people with you. Because your first try looks finished, you show them stopping rather than pushing, and hand them good enough as the ceiling. You teach them to aim no higher than what you settle for."
+                  "cost_others": "Whenever you take it easy, you take people with you. Your first try already looks right, and they see the ease without the care behind it. You teach them to aim no higher than what you settle for."
                 }
               }
             ]
@@ -288,11 +288,11 @@
                 }
               },
               {
-                "word": "Gives freely",
+                "word": "Open-handed",
                 "angles": {
-                  "drive": "Giving freely is what you do first with what comes in. You feel money belongs to whoever needs it next, and you give it on rather than set it aside. Friends in a tight month find your hand already open.",
-                  "cost_self": "Keeping is harder for you than giving freely. You would rather give money on than sit with it, since holding still feels like being stuck. Your own hard year finds the account empty.",
-                  "cost_others": "With the people around you, giving freely is how you stay close. You give to the newest friend more freely than to the oldest one, since newness is what moves you. Your household lives on whatever is left over."
+                  "drive": "You are open-handed the moment something good comes in. A gain only feels real to you once it has reached other people, and you pass part of it on the same day. Friends in a tight month find your hand already open.",
+                  "cost_self": "Your open hand works in bursts, wide one month and closed the next. Giving has to feel alive to you rather than planned, and the bursts seldom match what you have spare. Some months your own plans go without.",
+                  "cost_others": "The people near you get your open hand in bursts rather than a steady flow. You need a gift to come from the moment, and nobody knows when the next one is due. Those who rely on you plan around the good weeks."
                 }
               }
             ]
@@ -353,11 +353,11 @@
                 }
               },
               {
-                "word": "Keeps your word",
+                "word": "Stands by people",
                 "angles": {
-                  "drive": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept over your way out. A handshake with you is as good as a contract.",
-                  "cost_self": "Changing your mind is harder than keeping your word. Your word stays kept past its reason rather than broken, since breaking it dents how steady you feel. Being someone whose yes never moves is what you need underneath.",
-                  "cost_others": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Old promises stay binding on both of you, long after the mood that made them."
+                  "drive": "You stand by people through the lean years as well as the good ones. Being someone others can count on matters more to you than being exciting, and you stay when staying is dull. Old friends still call you first.",
+                  "cost_self": "Standing by people means staying through their worst stretches. You need a bond to last more than you need it to be easy, and you keep showing up long after it stops being returned. Some years your loyalty costs you more than it brings back.",
+                  "cost_others": "You stand by the people you have had for years. You need the old ties to stay strong, and newer faces take a long time to get in. Those who arrive late find a warm circle that is already full."
                 }
               }
             ]
@@ -607,7 +607,7 @@
               {
                 "word": "Learns it properly",
                 "angles": {
-                  "drive": "You learn a thing properly or not at all. Half-knowing a subject bothers you more than not knowing it, so you go to its end before counting it learned. Your knowledge holds under hard questions because it runs all the way down.",
+                  "drive": "You learn a thing properly or not at all. A trusted teacher and a subject that holds still feel like shelter to you, and you stay with both until it is whole. Your knowledge holds under hard questions because it runs all the way down.",
                   "cost_self": "Learning it properly takes you longer. Knowing a thing to its end matters to you more than knowing it well enough, and most chances ask for less. Openings go to quicker people while you are still at chapter three.",
                   "cost_others": "Teaching waits until you have learned it properly. You would rather pass a subject on whole than in pieces, and the people learning from you get nothing before the whole arrives. Your lessons arrive late but complete, safe ground to build on."
                 }
@@ -617,7 +617,7 @@
                 "angles": {
                   "drive": "You steady people by holding them to something. Keeping someone safe matters more to you than keeping them comfortable, so your care arrives as a standard rather than a hug. In a storm, others find a fixed point in you.",
                   "cost_self": "Steadying people earns you respect more than closeness. Being needed when things fall apart suits you more than being phoned for nothing, and the no-reason calls are what you miss. Underneath, you would like to be sought out for your company alone.",
-                  "cost_others": "Whenever someone arrives to be held, you steady them instead. A standard feels more useful to you than a kind word, and you hand the one who came for comfort a lesson. Your warmth reaches them a step behind your advice."
+                  "cost_others": "Whenever someone arrives shaken, you offer them the shelter you would want for yourself. Firm ground is what you seek in a bad hour, and you hand on the words that once held you. Your warmth reaches them a step behind your advice."
                 }
               }
             ]
@@ -642,11 +642,11 @@
                 }
               },
               {
-                "word": "Loves by correcting",
+                "word": "Waits to hear",
                 "angles": {
-                  "drive": "You love people by correcting them. Getting someone right feels like caring to you, so you fix the small wrong thing rather than sit with the whole sad one. Remember that you are allowed to sit with a sad thing and fix nothing.",
-                  "cost_self": "Loving by correcting costs you the ones who stop bringing things. You put being useful to someone ahead of being close to them, and the corrected learn to bring you only finished things. You get respect for it, and the closeness goes somewhere less exact.",
-                  "cost_others": "Correcting is what you give people wanting comfort. You would rather set people straight than let them be, and you send them home taught instead of held. With every correction, you take from them the comfort they came for."
+                  "drive": "You wait to be told before you trust your own read. A word from someone wiser feels like cover, and you keep asking long after you know. You hand your best judgement to people who know less than you do.",
+                  "cost_self": "Waiting to be told leaves your own good sense unused for weeks. You need someone above you to say it is safe, and their word comes later than your own read did. Your first instinct is often right and seldom acted on.",
+                  "cost_others": "When others look to you for a call, you wait to be told too. You want the shelter of a wiser word first, and the people counting on you wait while you ask. They lose days to a decision you had already reached."
                 }
               }
             ]
@@ -800,11 +800,11 @@
                 }
               },
               {
-                "word": "Makes things last",
+                "word": "Unhurried",
                 "angles": {
-                  "drive": "What you make is made to last, slowly and on purpose. The making itself is the enjoyment, so you make things for the years rather than for the showing. Your work is still in daily use long after the fashion has moved on.",
-                  "cost_self": "Making things last is your idea of doing something right. Since the work is only right once it holds, you would rather be finished than first. Rougher versions reach people before yours do, and the praise goes with them.",
-                  "cost_others": "You make things last for your family rather than arrive on time. You never count the waiting, and next year you deliver what was needed this year. They manage without for a year while your careful version takes shape."
+                  "drive": "You make things slowly and enjoy every stage. The pleasure of the making matters more to you than the finish line, and you never feel any need to rush. What you make carries that ease, and people sense it.",
+                  "cost_self": "Being unhurried means your work takes the time it takes. Enjoying the making matters more to you than the deadline, and faster hands get their work out first. Some of the credit goes to them.",
+                  "cost_others": "People waiting on something you are making get it in your own good time. You need the making to stay a pleasure, and you will not rush it for anyone's calendar. What arrives is worth having and a little late."
                 }
               },
               {
@@ -1097,11 +1097,11 @@
                 }
               },
               {
-                "word": "Shuts people out",
+                "word": "Keeps tight control",
                 "angles": {
-                  "drive": "You shut people out before they get close enough to press on you. Since your own pressure is plenty, shutting out anyone else's feels like safety rather than loss. You lose the closeness along with the pressure you keep out.",
-                  "cost_self": "Where help is offered, you shut it out kindly. You want no one pressing on you more than anyone helping, and what was meant for two gets carried by one. You end up paying alone for every hand you turned away.",
-                  "cost_others": "Reaching for you is pressure too, and you shut out the people who try. You would rather be alone than understood, and the door shuts hardest on those closest. You leave them outside with no reason and no way to ask for one."
+                  "drive": "You run a tight ship at home as well as at work. Loose ends feel like danger to you, and you keep every plan and every person on schedule. Home runs like clockwork and feels a little like a workplace.",
+                  "cost_self": "Running a tight ship makes every small slip your problem. You need things under control to feel steady, and a late bus or a lost key sets your jaw. You use up your nerve on things that never needed it.",
+                  "cost_others": "In your tight ship everyone has a job, and the people at home get theirs from you. You need the household to run like a team, and your requests land as orders. Your family does what you ask and keeps its ideas quiet."
                 }
               }
             ]
@@ -1276,11 +1276,11 @@
             "define": "As a friction, the holding never stops. Familiar ground draws you in, every change looks like a threat, and your world grows smaller each year.",
             "ledger": [
               {
-                "word": "Plays it safe",
+                "word": "Stays near home",
                 "angles": {
-                  "drive": "Playing it safe is a choice you make before looking at the others. You carry Earth past what you need, so you play safe to be held instead of tested. You rest in the safe place rather than live in it.",
-                  "cost_self": "Most days you play safe without noticing you chose. Because you fear the unknown more than you mind being bored, you pick the safe one and call the boredom peace. You buy that peace with the chances you turn down untried.",
-                  "cost_others": "Handed someone's plan to change the shared life, you play safe for both. Keeping things as they are matters more than any change, and you slow it down. You take away their equal say in the life you share."
+                  "drive": "You stay close to home and the few people who hold you steady. Being held is where you feel most yourself, and you go back to that shelter over any open road. The wider world reaches you mostly second-hand.",
+                  "cost_self": "Staying close to home keeps you among people who already know you. You learn best where you feel held, and unfamiliar ground makes your mind go quiet. You miss what only a strange place would have shown you.",
+                  "cost_others": "Staying close to home means the people near you go out without you. You need familiar walls around you to feel held, and the trips and evenings out happen in your absence. Those you love come home with stories you were not part of."
                 }
               },
               {
@@ -1848,11 +1848,11 @@
                 }
               },
               {
-                "word": "Sleeps on it",
+                "word": "Asks why",
                 "angles": {
-                  "drive": "You sleep on a question rather than answer on the spot. Forcing an answer now feels like lying to you, and you give the question a night first. Your decisions come late and hold up for years.",
-                  "cost_self": "Sleeping on a question makes the answer real. Being sure later matters more to you than being in it now, so the opening that wanted an answer closes. Some good chances go to quicker people while you are still deciding.",
-                  "cost_others": "With an answer someone needs, you sleep on it before you give it. Sleeping on it matters more than a quick reply, and you leave whoever asked waiting longer. What they get from you in the end is a word you will stand by."
+                  "drive": "You ask why before you accept how things are done. An answer only feels like yours once you have pulled it apart, and you question the accepted way rather than take it on trust. Your questions turn up the flaw everyone else walked past.",
+                  "cost_self": "Asking why keeps you from settling into any easy answer. You need to see the reason for yourself, and the comfort of simply believing stays out of reach. Each clear answer is paid for with some of your peace.",
+                  "cost_others": "With other people's plans, you ask why before you join in. Taking part only feels honest once the reason holds up for you, and your questions arrive before your help does. Friends get a sharper plan and a slower yes."
                 }
               }
             ]
@@ -1991,11 +1991,11 @@
             "define": "Running over, the depth fills with no way out. Needing nobody feels safest to you, but the weight then builds up where no one can help carry it.",
             "ledger": [
               {
-                "word": "Hard to reach",
+                "word": "Keeps to yourself",
                 "angles": {
-                  "drive": "Being hard to reach is where you rest. You hold more Water than you show, so you keep your warmth out of reach rather than let anyone feel it. Keep in mind that you want someone to reach you all the same.",
-                  "cost_self": "Out of reach is where your depths feel safe. More Water sits in you than you move, so you would rather be useful than known. You give up closeness each time you stay out of reach, and it rarely comes back on its own.",
-                  "cost_others": "Staying hard to reach leaves the people who love you guessing. You keep closeness in reserve rather than spend it, and they get your help in place of your company. You make the people closest to you do all the reaching."
+                  "drive": "You keep to yourself even among people you like. Your own company is where you feel steady, and you share your days without sharing much of what is in them. Those who love you know your habits better than your heart.",
+                  "cost_self": "Keeping to yourself spares you the work of explaining. You need your inner life to stay your own, and most of what you feel never gets said aloud. Underneath, you would like one person to know you well.",
+                  "cost_others": "Keeping to yourself leaves the people close to you guessing at your mood. Privacy feels like solid ground to you, and your inner weather stays behind a quiet face. They are left to read you from small signs."
                 }
               },
               {
@@ -2363,7 +2363,7 @@
                 "word": "Picks the moment",
                 "angles": {
                   "drive": "You pick your moment instead of taking the first one offered. Force spent early feels wasted, so a moment picked well beats three taken early. Your single well-timed move often does the work of a whole week of pushing.",
-                  "cost_self": "Picking the moment keeps you from wasting yourself. You hold a move until the moment is certain rather than good enough, since an early move cannot be undone. Some of your best chances go to people quicker off the mark.",
+                  "cost_self": "Picking the moment keeps you from wasting yourself. You hold your force for the turn that matters, and the smaller openings pass while you watch for it. Some of your best chances go to people quicker off the mark.",
                   "cost_others": "The moment is yours alone to pick. You would rather keep the plan until the moment than explain it, and you leave the people you lead without a signal. Those who follow you spend the waiting hours guessing what comes next."
                 }
               },
@@ -2446,11 +2446,11 @@
             "define": "As a friction, good standing feels like shelter and the rules weigh more than your wishes. Much goes untried and unspoken.",
             "ledger": [
               {
-                "word": "Plays it safe",
+                "word": "Holds the yes",
                 "angles": {
-                  "drive": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way over the good one. You pay for playing it safe in chances you never took.",
-                  "cost_self": "Playing safe keeps the floor under you. Because a wrong move costs you more than a missed one, you keep playing it safe with the job you have. You let every chance you play safe around close, and the work you wanted goes with it.",
-                  "cost_others": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail. You put their plans on hold for as long as you hesitate."
+                  "drive": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check. Good offers run out in the gap.",
+                  "cost_self": "Holding the yes keeps you out of promises you could not keep. You need your word to be solid before it leaves you, and a maybe can sit with you for weeks. Those weeks of maybe tire you more than the promise would.",
+                  "cost_others": "The people who ask you for something wait longer for your yes than for anyone else's. Your yes has to be one you will stand behind, and the question hangs open while you weigh it. Their plans stay on hold until your answer comes."
                 }
               },
               {
@@ -2594,7 +2594,7 @@
               {
                 "word": "Over-protects",
                 "angles": {
-                  "drive": "You over-protect the people you love from what they could survive. Watching someone struggle hurts you more than doing it for them, so the help comes before the asking. Remember that you love them just as much when you let them struggle.",
+                  "drive": "You over-protect the people you love from what they could survive. Feeling safe is what you want most, and you hold them the way you wish to be held. Remember that you love them just as much when you let them struggle.",
                   "cost_self": "Over-protecting the ones you love never rests. Taking the hit for someone is easier for you than watching them take it, so you carry what was never yours. You pay in lost rest for every hit you absorb for someone else.",
                   "cost_others": "Whenever someone you love is about to struggle, you over-protect and step in first. Sparing them the hard part feels like love, and you choose their comfort rather than their growing. You take from them the one lesson that would have stuck."
                 }
@@ -3112,11 +3112,11 @@
                 }
               },
               {
-                "word": "Never says no",
+                "word": "Waits your turn",
                 "angles": {
-                  "drive": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you never say no to the next request before finishing the last. You pay for your standing in the strength that keeps it.",
-                  "cost_self": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes before getting home, you trade sleep for another duty. By the end of most weeks, you are short of sleep and of the strength to say yes.",
-                  "cost_others": "Saying yes to everyone keeps your place in their lives. Because a refusal feels like lost standing, you give everyone a slice rather than anyone your whole self. You save the thinnest slice for those who need you most."
+                  "drive": "You wait your turn even when the turn is plainly yours to take. Going ahead of others feels like taking what nobody has offered you, and you stand back until someone calls your name. People with less to offer get there first.",
+                  "cost_self": "Waiting your turn has kept you in the same seat for years. Being called forward matters more to you than stepping forward, and the call keeps going to louder people. Underneath, you want someone to see that you were ready long ago.",
+                  "cost_others": "In meetings you wait your turn to speak, and the idea waits with you. Speaking before others feels like a step above your place, and the talk moves on before your turn comes. Your team loses the idea that would have helped them."
                 }
               }
             ]
@@ -3228,7 +3228,7 @@
               {
                 "word": "Protects too much",
                 "angles": {
-                  "drive": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in before being asked. You are allowed to stand beside a struggle without taking it over.",
+                  "drive": "You protect the people you love more than they need. Feeling safe is what you want most, and you guard them the way you wish to be guarded. You are allowed to stand beside a struggle without taking it over.",
                   "cost_self": "Protecting your own people takes most of you. Since you feel their trouble more than your own, you spend your rest on their emergencies rather than your life. It pays to remember that the life you put down for theirs is also yours.",
                   "cost_others": "Each time a loved one is about to fail, you catch it. Protecting them from the consequence feels more like love to you than letting them meet it. With every rescue, you keep from them the small win of managing it."
                 }

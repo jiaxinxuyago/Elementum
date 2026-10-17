@@ -43,7 +43,7 @@
         "canonical_name": "The Artisan",
         "value": {
           "catalyst": [
-            "Finishes things",
+            "Loves the craft",
             "Chooses well",
             "Teaches by doing"
           ],
@@ -79,7 +79,7 @@
           "catalyst": [
             "Spots the opening",
             "Starts fast",
-            "Gives freely"
+            "Open-handed"
           ],
           "friction": [
             "Always moving on",
@@ -96,7 +96,7 @@
           "catalyst": [
             "Finishes things",
             "Saves first",
-            "Keeps your word"
+            "Stands by people"
           ],
           "friction": [
             "Holds on tight",
@@ -169,7 +169,7 @@
           "friction": [
             "Stays the student",
             "Too protective",
-            "Loves by correcting"
+            "Waits to hear"
           ]
         }
       },
@@ -214,7 +214,7 @@
         "value": {
           "catalyst": [
             "Gives first",
-            "Makes things last",
+            "Unhurried",
             "Happy with enough"
           ],
           "friction": [
@@ -288,7 +288,7 @@
           "friction": [
             "Hard on yourself",
             "Never off duty",
-            "Shuts people out"
+            "Keeps tight control"
           ]
         }
       },
@@ -337,7 +337,7 @@
             "Patient teacher"
           ],
           "friction": [
-            "Plays it safe",
+            "Stays near home",
             "Overprotective",
             "Same old answers"
           ]
@@ -487,7 +487,7 @@
           "catalyst": [
             "Senses it first",
             "Self-taught",
-            "Sleeps on it"
+            "Asks why"
           ],
           "friction": [
             "Thinks in circles",
@@ -524,7 +524,7 @@
             "Decides alone"
           ],
           "friction": [
-            "Hard to reach",
+            "Keeps to yourself",
             "Never asks",
             "Expects the same"
           ]
@@ -643,7 +643,7 @@
             "Paces yourself"
           ],
           "friction": [
-            "Plays it safe",
+            "Holds the yes",
             "Waits for permission",
             "Bites your tongue"
           ]
@@ -815,7 +815,7 @@
           "friction": [
             "Rule-bound",
             "Afraid to slip",
-            "Never says no"
+            "Waits your turn"
           ]
         }
       },

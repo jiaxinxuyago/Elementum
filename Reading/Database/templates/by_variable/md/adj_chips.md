@@ -24,7 +24,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Finishes things · Chooses well · Teaches by doing |
+| `catalyst` | Loves the craft · Chooses well · Teaches by doing |
 | `friction` | Hard to please · Gives too much · Takes it easy |
 
 ### The Virtuoso · 金_伤官
@@ -38,14 +38,14 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Spots the opening · Starts fast · Gives freely |
+| `catalyst` | Spots the opening · Starts fast · Open-handed |
 | `friction` | Always moving on · Spread thin · Spends it all |
 
 ### The Steward · 金_正财
 
 | Field | Value |
 |---|---|
-| `catalyst` | Finishes things · Saves first · Keeps your word |
+| `catalyst` | Finishes things · Saves first · Stands by people |
 | `friction` | Holds on tight · Plays it safe · Avoids change |
 
 ### The General · 金_七杀
@@ -74,7 +74,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Keeps a confidence · Learns it properly · Steadies people |
-| `friction` | Stays the student · Too protective · Loves by correcting |
+| `friction` | Stays the student · Too protective · Waits to hear |
 
 ### The Twin · 土_比肩
 
@@ -94,7 +94,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Gives first · Makes things last · Happy with enough |
+| `catalyst` | Gives first · Unhurried · Happy with enough |
 | `friction` | Never stops giving · Drifts along · Too soft |
 
 ### The Virtuoso · 土_伤官
@@ -123,7 +123,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Calm under pressure · Takes charge · Pushes through |
-| `friction` | Hard on yourself · Never off duty · Shuts people out |
+| `friction` | Hard on yourself · Never off duty · Keeps tight control |
 
 ### The Magistrate · 土_正官
 
@@ -144,7 +144,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Calming presence · Knows what works · Patient teacher |
-| `friction` | Plays it safe · Overprotective · Same old answers |
+| `friction` | Stays near home · Overprotective · Same old answers |
 
 ### The Twin · 木_比肩
 
@@ -206,7 +206,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Senses it first · Self-taught · Sleeps on it |
+| `catalyst` | Senses it first · Self-taught · Asks why |
 | `friction` | Thinks in circles · Keeps it in · Hides away |
 
 ### The Sage · 木_正印
@@ -221,7 +221,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Carries own weight · Even pace · Decides alone |
-| `friction` | Hard to reach · Never asks · Expects the same |
+| `friction` | Keeps to yourself · Never asks · Expects the same |
 
 ### The Rival · 水_劫财
 
@@ -270,7 +270,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Follows through · Earns trust slowly · Paces yourself |
-| `friction` | Plays it safe · Waits for permission · Bites your tongue |
+| `friction` | Holds the yes · Waits for permission · Bites your tongue |
 
 ### The Alchemist · 水_偏印
 
@@ -340,7 +340,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Keeps every promise · By the book · Earns the title |
-| `friction` | Rule-bound · Afraid to slip · Never says no |
+| `friction` | Rule-bound · Afraid to slip · Waits your turn |
 
 ### The Alchemist · 火_偏印
 

@@ -97,7 +97,7 @@
           {
             "word": "Protects too much",
             "angles": {
-              "drive": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in before being asked. You are allowed to stand beside a struggle without taking it over.",
+              "drive": "You protect the people you love more than they need. Feeling safe is what you want most, and you guard them the way you wish to be guarded. You are allowed to stand beside a struggle without taking it over.",
               "cost_self": "Protecting your own people takes most of you. Since you feel their trouble more than your own, you spend your rest on their emergencies rather than your life. It pays to remember that the life you put down for theirs is also yours.",
               "cost_others": "Each time a loved one is about to fail, you catch it. Protecting them from the consequence feels more like love to you than letting them meet it. With every rescue, you keep from them the small win of managing it."
             }
@@ -571,6 +571,14 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You stay comfortable longer than it stays good for you. Enough warmth feels like enough reason, and you stick with what is easy ahead of what you want. Bit by bit, you trade the life you meant to have for a smaller one."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5",
+      "replaced": "You protect the people you love more than they need. Watching someone struggle is harder for you than carrying it yourself, so you step in before being asked. You are allowed to stand beside a struggle without taking it over."
     }
   ]
 }

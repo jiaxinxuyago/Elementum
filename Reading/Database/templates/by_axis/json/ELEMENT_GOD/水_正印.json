@@ -113,7 +113,7 @@
           {
             "word": "Over-protects",
             "angles": {
-              "drive": "You over-protect the people you love from what they could survive. Watching someone struggle hurts you more than doing it for them, so the help comes before the asking. Remember that you love them just as much when you let them struggle.",
+              "drive": "You over-protect the people you love from what they could survive. Feeling safe is what you want most, and you hold them the way you wish to be held. Remember that you love them just as much when you let them struggle.",
               "cost_self": "Over-protecting the ones you love never rests. Taking the hit for someone is easier for you than watching them take it, so you carry what was never yours. You pay in lost rest for every hit you absorb for someone else.",
               "cost_others": "Whenever someone you love is about to struggle, you over-protect and step in first. Sparing them the hard part feels like love, and you choose their comfort rather than their growing. You take from them the one lesson that would have stuck."
             }
@@ -593,6 +593,14 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Staying sheltered keeps you home while others go out. You pick being safe ahead of being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5",
+      "replaced": "You over-protect the people you love from what they could survive. Watching someone struggle hurts you more than doing it for them, so the help comes before the asking. Remember that you love them just as much when you let them struggle."
     }
   ]
 }

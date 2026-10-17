@@ -18,7 +18,7 @@
       "catalyst": [
         "Finishes things",
         "Saves first",
-        "Keeps your word"
+        "Stands by people"
       ],
       "friction": [
         "Holds on tight",
@@ -82,11 +82,11 @@
             }
           },
           {
-            "word": "Keeps your word",
+            "word": "Stands by people",
             "angles": {
-              "drive": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept over your way out. A handshake with you is as good as a contract.",
-              "cost_self": "Changing your mind is harder than keeping your word. Your word stays kept past its reason rather than broken, since breaking it dents how steady you feel. Being someone whose yes never moves is what you need underneath.",
-              "cost_others": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Old promises stay binding on both of you, long after the mood that made them."
+              "drive": "You stand by people through the lean years as well as the good ones. Being someone others can count on matters more to you than being exciting, and you stay when staying is dull. Old friends still call you first.",
+              "cost_self": "Standing by people means staying through their worst stretches. You need a bond to last more than you need it to be easy, and you keep showing up long after it stops being returned. Some years your loyalty costs you more than it brings back.",
+              "cost_others": "You stand by the people you have had for years. You need the old ties to stay strong, and newer faces take a long time to get in. Those who arrive late find a warm circle that is already full."
             }
           }
         ]
@@ -537,6 +537,36 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept ahead of your way out. A handshake with you is as good as a contract."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Keeps your word",
+        "angles": {
+          "drive": "Keeping your word matters more than being liked. You carry a promise like a debt until paid, so your word gets kept over your way out. A handshake with you is as good as a contract.",
+          "cost_self": "Changing your mind is harder than keeping your word. Your word stays kept past its reason rather than broken, since breaking it dents how steady you feel. Being someone whose yes never moves is what you need underneath.",
+          "cost_others": "Where your word is kept, you expect it back. You hold the person you love to a word given in another mood rather than let it go. Old promises stay binding on both of you, long after the mood that made them."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Stands by people",
+        "angles": {
+          "drive": "You stand by people through the lean years as well as the good ones. Being someone others can count on matters more to you than being exciting, and you stay when staying is dull. Old friends still call you first.",
+          "cost_self": "Standing by people means staying through their worst stretches. You need a bond to last more than you need it to be easy, and you keep showing up long after it stops being returned. Some years your loyalty costs you more than it brings back.",
+          "cost_others": "You stand by the people you have had for years. You need the old ties to stay strong, and newer faces take a long time to get in. Those who arrive late find a warm circle that is already full."
+        }
+      }
     }
   ]
 }

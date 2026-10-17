@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Gives first",
-        "Makes things last",
+        "Unhurried",
         "Happy with enough"
       ],
       "friction": [
@@ -74,11 +74,11 @@
             }
           },
           {
-            "word": "Makes things last",
+            "word": "Unhurried",
             "angles": {
-              "drive": "What you make is made to last, slowly and on purpose. The making itself is the enjoyment, so you make things for the years rather than for the showing. Your work is still in daily use long after the fashion has moved on.",
-              "cost_self": "Making things last is your idea of doing something right. Since the work is only right once it holds, you would rather be finished than first. Rougher versions reach people before yours do, and the praise goes with them.",
-              "cost_others": "You make things last for your family rather than arrive on time. You never count the waiting, and next year you deliver what was needed this year. They manage without for a year while your careful version takes shape."
+              "drive": "You make things slowly and enjoy every stage. The pleasure of the making matters more to you than the finish line, and you never feel any need to rush. What you make carries that ease, and people sense it.",
+              "cost_self": "Being unhurried means your work takes the time it takes. Enjoying the making matters more to you than the deadline, and faster hands get their work out first. Some of the credit goes to them.",
+              "cost_others": "People waiting on something you are making get it in your own good time. You need the making to stay a pleasure, and you will not rush it for anyone's calendar. What arrives is worth having and a little late."
             }
           },
           {
@@ -563,6 +563,36 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Before the asking, you have usually already given. Because the gift comes ahead of the need, you never learn whether you were wanted or only useful. Underneath, you want to be wanted for more than what you bring."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Makes things last",
+        "angles": {
+          "drive": "What you make is made to last, slowly and on purpose. The making itself is the enjoyment, so you make things for the years rather than for the showing. Your work is still in daily use long after the fashion has moved on.",
+          "cost_self": "Making things last is your idea of doing something right. Since the work is only right once it holds, you would rather be finished than first. Rougher versions reach people before yours do, and the praise goes with them.",
+          "cost_others": "You make things last for your family rather than arrive on time. You never count the waiting, and next year you deliver what was needed this year. They manage without for a year while your careful version takes shape."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Unhurried",
+        "angles": {
+          "drive": "You make things slowly and enjoy every stage. The pleasure of the making matters more to you than the finish line, and you never feel any need to rush. What you make carries that ease, and people sense it.",
+          "cost_self": "Being unhurried means your work takes the time it takes. Enjoying the making matters more to you than the deadline, and faster hands get their work out first. Some of the credit goes to them.",
+          "cost_others": "People waiting on something you are making get it in your own good time. You need the making to stay a pleasure, and you will not rush it for anyone's calendar. What arrives is worth having and a little late."
+        }
+      }
     }
   ]
 }

@@ -21,7 +21,7 @@
         "Paces yourself"
       ],
       "friction": [
-        "Plays it safe",
+        "Holds the yes",
         "Waits for permission",
         "Bites your tongue"
       ]
@@ -95,11 +95,11 @@
         "define": "As a friction, good standing feels like shelter and the rules weigh more than your wishes. Much goes untried and unspoken.",
         "ledger": [
           {
-            "word": "Plays it safe",
+            "word": "Holds the yes",
             "angles": {
-              "drive": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way over the good one. You pay for playing it safe in chances you never took.",
-              "cost_self": "Playing safe keeps the floor under you. Because a wrong move costs you more than a missed one, you keep playing it safe with the job you have. You let every chance you play safe around close, and the work you wanted goes with it.",
-              "cost_others": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail. You put their plans on hold for as long as you hesitate."
+              "drive": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check. Good offers run out in the gap.",
+              "cost_self": "Holding the yes keeps you out of promises you could not keep. You need your word to be solid before it leaves you, and a maybe can sit with you for weeks. Those weeks of maybe tire you more than the promise would.",
+              "cost_others": "The people who ask you for something wait longer for your yes than for anyone else's. Your yes has to be one you will stand behind, and the question hangs open while you weigh it. Their plans stay on hold until your answer comes."
             }
           },
           {
@@ -523,6 +523,36 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way ahead of the good one. You pay for playing it safe in chances you never took."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Plays it safe",
+        "angles": {
+          "drive": "You play safe before you know the odds. Keeping what you have feels more like you than reaching, so you take the safe way over the good one. You pay for playing it safe in chances you never took.",
+          "cost_self": "Playing safe keeps the floor under you. Because a wrong move costs you more than a missed one, you keep playing it safe with the job you have. You let every chance you play safe around close, and the work you wanted goes with it.",
+          "cost_others": "For everyone waiting on your yes, you play it safe too. You would rather give a safe no than a yes that can fail. You put their plans on hold for as long as you hesitate."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.friction.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Holds the yes",
+        "angles": {
+          "drive": "You hold back your yes until you are sure you will keep it. A promise you might break feels worse to you than none at all, and every offer waits while you check. Good offers run out in the gap.",
+          "cost_self": "Holding the yes keeps you out of promises you could not keep. You need your word to be solid before it leaves you, and a maybe can sit with you for weeks. Those weeks of maybe tire you more than the promise would.",
+          "cost_others": "The people who ask you for something wait longer for your yes than for anyone else's. Your yes has to be one you will stand behind, and the question hangs open while you weigh it. Their plans stay on hold until your answer comes."
+        }
+      }
     }
   ]
 }

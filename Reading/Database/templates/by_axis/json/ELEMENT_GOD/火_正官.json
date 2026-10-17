@@ -23,7 +23,7 @@
       "friction": [
         "Rule-bound",
         "Afraid to slip",
-        "Never says no"
+        "Waits your turn"
       ]
     },
     "k2_domain_readings": {
@@ -111,11 +111,11 @@
             }
           },
           {
-            "word": "Never says no",
+            "word": "Waits your turn",
             "angles": {
-              "drive": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you never say no to the next request before finishing the last. You pay for your standing in the strength that keeps it.",
-              "cost_self": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes before getting home, you trade sleep for another duty. By the end of most weeks, you are short of sleep and of the strength to say yes.",
-              "cost_others": "Saying yes to everyone keeps your place in their lives. Because a refusal feels like lost standing, you give everyone a slice rather than anyone your whole self. You save the thinnest slice for those who need you most."
+              "drive": "You wait your turn even when the turn is plainly yours to take. Going ahead of others feels like taking what nobody has offered you, and you stand back until someone calls your name. People with less to offer get there first.",
+              "cost_self": "Waiting your turn has kept you in the same seat for years. Being called forward matters more to you than stepping forward, and the call keeps going to louder people. Underneath, you want someone to see that you were ready long ago.",
+              "cost_others": "In meetings you wait your turn to speak, and the idea waits with you. Speaking before others feels like a step above your place, and the talk moves on before your turn comes. Your team loses the idea that would have helped them."
             }
           }
         ]
@@ -875,6 +875,36 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes ahead of getting home, you trade sleep for another duty. By the end of most weeks, you are short of sleep and of the strength to say yes."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Never says no",
+        "angles": {
+          "drive": "Every duty offered gets a yes before you check its cost. Since being counted on is where your standing lives, you never say no to the next request before finishing the last. You pay for your standing in the strength that keeps it.",
+          "cost_self": "Whenever you say yes, you spend hours promised to yourself. Because holding things together comes before getting home, you trade sleep for another duty. By the end of most weeks, you are short of sleep and of the strength to say yes.",
+          "cost_others": "Saying yes to everyone keeps your place in their lives. Because a refusal feels like lost standing, you give everyone a slice rather than anyone your whole self. You save the thinnest slice for those who need you most."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.friction.ledger[2]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Waits your turn",
+        "angles": {
+          "drive": "You wait your turn even when the turn is plainly yours to take. Going ahead of others feels like taking what nobody has offered you, and you stand back until someone calls your name. People with less to offer get there first.",
+          "cost_self": "Waiting your turn has kept you in the same seat for years. Being called forward matters more to you than stepping forward, and the call keeps going to louder people. Underneath, you want someone to see that you were ready long ago.",
+          "cost_others": "In meetings you wait your turn to speak, and the idea waits with you. Speaking before others feels like a step above your place, and the talk moves on before your turn comes. Your team loses the idea that would have helped them."
+        }
+      }
     }
   ]
 }

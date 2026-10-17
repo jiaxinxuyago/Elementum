@@ -21,7 +21,7 @@
         "Patient teacher"
       ],
       "friction": [
-        "Plays it safe",
+        "Stays near home",
         "Overprotective",
         "Same old answers"
       ]
@@ -95,11 +95,11 @@
         "define": "As a friction, the holding never stops. Familiar ground draws you in, every change looks like a threat, and your world grows smaller each year.",
         "ledger": [
           {
-            "word": "Plays it safe",
+            "word": "Stays near home",
             "angles": {
-              "drive": "Playing it safe is a choice you make before looking at the others. You carry Earth past what you need, so you play safe to be held instead of tested. You rest in the safe place rather than live in it.",
-              "cost_self": "Most days you play safe without noticing you chose. Because you fear the unknown more than you mind being bored, you pick the safe one and call the boredom peace. You buy that peace with the chances you turn down untried.",
-              "cost_others": "Handed someone's plan to change the shared life, you play safe for both. Keeping things as they are matters more than any change, and you slow it down. You take away their equal say in the life you share."
+              "drive": "You stay close to home and the few people who hold you steady. Being held is where you feel most yourself, and you go back to that shelter over any open road. The wider world reaches you mostly second-hand.",
+              "cost_self": "Staying close to home keeps you among people who already know you. You learn best where you feel held, and unfamiliar ground makes your mind go quiet. You miss what only a strange place would have shown you.",
+              "cost_others": "Staying close to home means the people near you go out without you. You need familiar walls around you to feel held, and the trips and evenings out happen in your absence. Those you love come home with stories you were not part of."
             }
           },
           {
@@ -859,6 +859,36 @@
       "ruling": "Owner 2026-10-17: \"For M3, only focus on fixing the misuse of 'ahead of'\"; \"M3 approved, apply the fix across all content.\"",
       "finding": "M3 ahead of",
       "replaced": "You teach a thing a third time with the patience of the first. Needing the person to get there, you teach at their pace ahead of your own. Whatever someone learns from you, they learn without shame."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Plays it safe",
+        "angles": {
+          "drive": "Playing it safe is a choice you make before looking at the others. You carry Earth past what you need, so you play safe to be held instead of tested. You rest in the safe place rather than live in it.",
+          "cost_self": "Most days you play safe without noticing you chose. Because you fear the unknown more than you mind being bored, you pick the safe one and call the boredom peace. You buy that peace with the chances you turn down untried.",
+          "cost_others": "Handed someone's plan to change the shared life, you play safe for both. Keeping things as they are matters more than any change, and you slow it down. You take away their equal say in the life you share."
+        }
+      }
+    },
+    {
+      "field": "fn_reading.friction.ledger[0]",
+      "adopted_from": "m5-personas",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: M5 narrowed after the first samples were rejected (\"the sage is the one who looks for shelters … The original wins\"); \"M5 approved, apply the fix across all content.\"",
+      "finding": "M5 rename",
+      "replaced": {
+        "word": "Stays close to home",
+        "angles": {
+          "drive": "You stay close to home and the few people who hold you steady. Being held is where you feel most yourself, and you go back to that shelter over any open road. The wider world reaches you mostly second-hand.",
+          "cost_self": "Staying close to home keeps you among people who already know you. You learn best where you feel held, and unfamiliar ground makes your mind go quiet. You miss what only a strange place would have shown you.",
+          "cost_others": "Staying close to home means the people near you go out without you. You need familiar walls around you to feel held, and the trips and evenings out happen in your absence. Those you love come home with stories you were not part of."
+        }
+      }
     }
   ]
 }

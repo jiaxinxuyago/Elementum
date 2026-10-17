@@ -83,7 +83,7 @@ export const BLEND_CLASHES = [
   ['Starts fast', 'Keeps it going'], ['Gives easily', 'Saves first'],
   ['Chases the new', 'Plays it safe'], ['Chases the new', 'Holds back'], ['Spends it fast', 'Counts everything'], ['Spends it fast', 'Holds back'],
   ['Takes the chance', 'Saves first'], ['Chases every chance', 'Hard to move'], ['Chases every chance', 'Keeps everything'],
-  ['Starts fast', 'Finishes things'], ['Gives freely', 'Saves first'],
+  ['Starts fast', 'Finishes things'], ['Open-handed', 'Saves first'],
   ['Always moving on', 'Holds on tight'], ['Always moving on', 'Avoids change'], ['Spends it all', 'Holds on tight'],
   ['Pushes too hard', 'Needs permission'],
   ['Decides alone', 'All in together'], ['Even pace', 'Loves a race'], ['Even pace', 'Jumps in first'],
