@@ -1,0 +1,397 @@
+{
+ "core": "earth",
+ "cells": [
+  {
+   "pair_cell": "土_木",
+   "function": "order",
+   "energy": "Wood",
+   "catalyst_acts_draw_on": "Wood: starts, grows, plants, reaches, builds up",
+   "remedy_seeks": "Fire",
+   "remedy_acts_draw_on": "Fire: shows, shares, warms, lights, speaks up, gathers people",
+   "advise_catalyst": {
+    "text": "You feel most like yourself when your effort has a name and an end. Tell someone the date you will finish and let them hold you to it. Plan one dinner this month, from the guest list to the bill. Sign up for one class that ends in a test. Make your bed.",
+    "fixed": [
+     "You feel most like yourself when your effort has a name and an end."
+    ],
+    "acts": [
+     "Tell someone the date you will finish and let them hold you to it.",
+     "Plan one dinner this month, from the guest list to the bill.",
+     "Sign up for one class that ends in a test.",
+     "Make your bed."
+    ],
+    "act_families": [
+     [
+      "deadline"
+     ],
+     [
+      "eat",
+      "write"
+     ],
+     [],
+     [
+      "sleep"
+     ]
+    ],
+    "words": 53
+   },
+   "advise_friction": {
+    "text": "Seek Fire, the Mind energy. Fire is light and warmth the ground takes in, so pressure turns into understanding. Let it soften what Wood presses on you. You meet every demand as if your standing hangs on it. Read one page on why the rule exists before you answer it. Sit in the sun a while.",
+    "fixed": [
+     "Seek Fire, the Mind energy.",
+     "Fire is light and warmth the ground takes in, so pressure turns into understanding.",
+     "Let it soften what Wood presses on you.",
+     "You meet every demand as if your standing hangs on it."
+    ],
+    "acts": [
+     "Read one page on why the rule exists before you answer it.",
+     "Sit in the sun a while."
+    ],
+    "act_families": [
+     [
+      "read"
+     ],
+     [
+      "sit"
+     ]
+    ],
+    "words": 56
+   },
+   "personas": [
+    {
+     "k2_cell": "木_七杀",
+     "catalyst_keywords": [
+      "Clear under pressure",
+      "Takes charge",
+      "Pushes through"
+     ],
+     "friction_keywords": [
+      "Hard on yourself",
+      "Never switches off",
+      "Impossible to please"
+     ]
+    },
+    {
+     "k2_cell": "木_正官",
+     "catalyst_keywords": [
+      "Keeps your word",
+      "Earns every step",
+      "Holds the line"
+     ],
+     "friction_keywords": [
+      "By the book",
+      "Never bends",
+      "Rank comes first"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "土_火",
+   "function": "mind",
+   "energy": "Fire",
+   "catalyst_acts_draw_on": "Fire: shows, shares, warms, lights, speaks up, gathers people",
+   "remedy_seeks": "Water",
+   "remedy_acts_draw_on": "Water: takes in, rests, listens, lets flow, goes deep, waits",
+   "advise_catalyst": {
+    "text": "Your Mind grows on warmth, and warmth is something you have to go and sit near. Once a month go to a class or a talk just to take it in. Keep one person you can ask the simple question, and ask it. Read one slow chapter before sleep each night.",
+    "fixed": [
+     "Your Mind grows on warmth, and warmth is something you have to go and sit near."
+    ],
+    "acts": [
+     "Once a month go to a class or a talk just to take it in.",
+     "Keep one person you can ask the simple question, and ask it.",
+     "Read one slow chapter before sleep each night."
+    ],
+    "act_families": [
+     [],
+     [],
+     [
+      "sleep",
+      "read"
+     ]
+    ],
+    "words": 51
+   },
+   "advise_friction": {
+    "text": "Seek Water, the Action energy. Water runs down, cools what it touches and carries it away. Let it spend what Fire burns. You have taken in more than you will ever use, and it sits in you unspent. Decide one open question by a date. Fix one small thing at home with what you already know.",
+    "fixed": [
+     "Seek Water, the Action energy.",
+     "Water runs down, cools what it touches and carries it away.",
+     "Let it spend what Fire burns.",
+     "You have taken in more than you will ever use, and it sits in you unspent."
+    ],
+    "acts": [
+     "Decide one open question by a date.",
+     "Fix one small thing at home with what you already know."
+    ],
+    "act_families": [
+     [
+      "deadline"
+     ],
+     []
+    ],
+    "words": 56
+   },
+   "personas": [
+    {
+     "k2_cell": "火_偏印",
+     "catalyst_keywords": [
+      "Sees it whole",
+      "Self-taught",
+      "Thinks best alone"
+     ],
+     "friction_keywords": [
+      "One-track",
+      "All or nothing",
+      "Holds things in"
+     ]
+    },
+    {
+     "k2_cell": "火_正印",
+     "catalyst_keywords": [
+      "Good listener",
+      "Looks after people",
+      "Slow to judge"
+     ],
+     "friction_keywords": [
+      "Protects too much",
+      "Leans on others",
+      "Too comfortable"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "土_土",
+   "function": "body",
+   "energy": "Earth",
+   "catalyst_acts_draw_on": "Earth: keeps, holds, settles, finishes, stays, tends",
+   "remedy_seeks": "Wood",
+   "remedy_acts_draw_on": "Wood: starts, grows, plants, reaches, builds up",
+   "advise_catalyst": {
+    "text": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Ask one peer to hold the line with you for a week. Keep one routine that survives a bad month. Say yes sitting down.",
+    "fixed": [
+     "Most of what you give up, you give up tired."
+    ],
+    "acts": [
+     "Wait for the whole answer before you agree to anything.",
+     "Ask one peer to hold the line with you for a week.",
+     "Keep one routine that survives a bad month.",
+     "Say yes sitting down."
+    ],
+    "act_families": [
+     [],
+     [],
+     [],
+     [
+      "sit"
+     ]
+    ],
+    "words": 44
+   },
+   "advise_friction": {
+    "text": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Hand one decision to someone above you. Put one plan up for review before you start it.",
+    "fixed": [
+     "Seek Wood, the Order energy.",
+     "Wood pushes up through packed soil and reaches for a height it has to earn.",
+     "Let it shape what Earth stores.",
+     "You hold your ground even where giving way would cost you nothing."
+    ],
+    "acts": [
+     "Hand one decision to someone above you.",
+     "Put one plan up for review before you start it."
+    ],
+    "act_families": [
+     [
+      "above"
+     ],
+     []
+    ],
+    "words": 55
+   },
+   "personas": [
+    {
+     "k2_cell": "土_比肩",
+     "catalyst_keywords": [
+      "Sets own bar",
+      "Needs no backup",
+      "Holds steady"
+     ],
+     "friction_keywords": [
+      "Never asks",
+      "Shuts people out",
+      "Takes no advice"
+     ]
+    },
+    {
+     "k2_cell": "土_劫财",
+     "catalyst_keywords": [
+      "Better with rivals",
+      "Bets big",
+      "Shares the credit"
+     ],
+     "friction_keywords": [
+      "Always comparing",
+      "Hates losing",
+      "Spends to win"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "土_金",
+   "function": "expression",
+   "energy": "Metal",
+   "catalyst_acts_draw_on": "Metal: cuts, decides, sorts, finishes, sets a line, clears out",
+   "remedy_seeks": "Fire",
+   "remedy_acts_draw_on": "Fire: shows, shares, warms, lights, speaks up, gathers people",
+   "advise_catalyst": {
+    "text": "Your standard is high enough that little ever leaves your hands. Give one thing you made to someone this month, as it is. Show one rough draft before it feels ready. Let a beginner do one thing badly beside you. Sign one piece of work.",
+    "fixed": [
+     "Your standard is high enough that little ever leaves your hands."
+    ],
+    "acts": [
+     "Give one thing you made to someone this month, as it is.",
+     "Show one rough draft before it feels ready.",
+     "Let a beginner do one thing badly beside you.",
+     "Sign one piece of work."
+    ],
+    "act_families": [
+     [],
+     [],
+     [],
+     []
+    ],
+    "words": 45
+   },
+   "advise_friction": {
+    "text": "Seek Fire, the Mind energy. Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend. Let it shape what Metal pours. You give out faster than you refill. Sit on one big question a day before replying. Read a page by someone you think is wrong.",
+    "fixed": [
+     "Seek Fire, the Mind energy.",
+     "Fire is warmth that goes in before anything comes out, the heat that softens what has gone hard and lets it bend.",
+     "Let it shape what Metal pours.",
+     "You give out faster than you refill."
+    ],
+    "acts": [
+     "Sit on one big question a day before replying.",
+     "Read a page by someone you think is wrong."
+    ],
+    "act_families": [
+     [
+      "sit"
+     ],
+     [
+      "read"
+     ]
+    ],
+    "words": 58
+   },
+   "personas": [
+    {
+     "k2_cell": "金_食神",
+     "catalyst_keywords": [
+      "Finishes things",
+      "Chooses well",
+      "Teaches by doing"
+     ],
+     "friction_keywords": [
+      "Hard to please",
+      "Gives too much",
+      "Takes it easy"
+     ]
+    },
+    {
+     "k2_cell": "金_伤官",
+     "catalyst_keywords": [
+      "Says it straight",
+      "Sets the bar",
+      "Best when watched"
+     ],
+     "friction_keywords": [
+      "Too direct",
+      "Talks back",
+      "Grades people"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "土_水",
+   "function": "action",
+   "energy": "Water",
+   "catalyst_acts_draw_on": "Water: takes in, rests, listens, lets flow, goes deep, waits",
+   "remedy_seeks": "Earth",
+   "remedy_acts_draw_on": "Earth: keeps, holds, settles, finishes, stays, tends",
+   "advise_catalyst": {
+    "text": "Your Action grows when it has somewhere to go and something to bring back. Put one plan into motion this season, a trip booked or a small venture opened with money you can spare. Say yes to one invitation before you have checked the cost. Call home once a month.",
+    "fixed": [
+     "Your Action grows when it has somewhere to go and something to bring back."
+    ],
+    "acts": [
+     "Put one plan into motion this season, a trip booked or a small venture opened with money you can spare.",
+     "Say yes to one invitation before you have checked the cost.",
+     "Call home once a month."
+    ],
+    "act_families": [
+     [],
+     [],
+     [
+      "call"
+     ]
+    ],
+    "words": 50
+   },
+   "advise_friction": {
+    "text": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. With this much flowing through, little of it ever feels truly yours. Sleep before you say yes to anything new. Eat one meal a day sitting down, with nothing open.",
+    "fixed": [
+     "Seek Earth, your own Body energy.",
+     "Earth is the bank and the bed, the ground that keeps water to one course.",
+     "Let it hold what Water pours.",
+     "With this much flowing through, little of it ever feels truly yours."
+    ],
+    "acts": [
+     "Sleep before you say yes to anything new.",
+     "Eat one meal a day sitting down, with nothing open."
+    ],
+    "act_families": [
+     [
+      "sleep"
+     ],
+     [
+      "eat",
+      "sit"
+     ]
+    ],
+    "words": 57
+   },
+   "personas": [
+    {
+     "k2_cell": "水_偏财",
+     "catalyst_keywords": [
+      "Sees it coming",
+      "Moves early",
+      "Shares freely"
+     ],
+     "friction_keywords": [
+      "Leaves too soon",
+      "Spends it fast",
+      "Looks past people"
+     ]
+    },
+    {
+     "k2_cell": "水_正财",
+     "catalyst_keywords": [
+      "Saves first",
+      "Sleeps on it",
+      "Shows up daily"
+     ],
+     "friction_keywords": [
+      "Holds it back",
+      "Counts every cost",
+      "Waits too long"
+     ]
+    }
+   ]
+  }
+ ]
+}

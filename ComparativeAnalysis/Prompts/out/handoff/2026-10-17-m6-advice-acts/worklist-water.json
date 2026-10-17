@@ -1,0 +1,404 @@
+{
+ "core": "water",
+ "cells": [
+  {
+   "pair_cell": "水_木",
+   "function": "expression",
+   "energy": "Wood",
+   "catalyst_acts_draw_on": "Wood: starts, grows, plants, reaches, builds up",
+   "remedy_seeks": "Metal",
+   "remedy_acts_draw_on": "Metal: cuts, decides, sorts, finishes, sets a line, clears out",
+   "advise_catalyst": {
+    "text": "Your output comes in bursts, and the slow work in between stays hidden. Give the thing you made to someone before you think it is finished. Tell one person about a plan you have kept quiet. Read one page you wrote to a friend. Send the text without rereading it.",
+    "fixed": [
+     "Your output comes in bursts, and the slow work in between stays hidden."
+    ],
+    "acts": [
+     "Give the thing you made to someone before you think it is finished.",
+     "Tell one person about a plan you have kept quiet.",
+     "Read one page you wrote to a friend.",
+     "Send the text without rereading it."
+    ],
+    "act_families": [
+     [],
+     [],
+     [
+      "read"
+     ],
+     []
+    ],
+    "words": 50
+   },
+   "advise_friction": {
+    "text": "Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it hold what Wood pours out. Nothing you let out will fill you back up. Read one whole chapter before you make the next thing. Let one question sit overnight.",
+    "fixed": [
+     "Seek Metal, the Mind energy.",
+     "Metal is the cold side water forms on.",
+     "It pulls from the air and hands the water back to its source.",
+     "Let it hold what Wood pours out.",
+     "Nothing you let out will fill you back up."
+    ],
+    "acts": [
+     "Read one whole chapter before you make the next thing.",
+     "Let one question sit overnight."
+    ],
+    "act_families": [
+     [
+      "read"
+     ],
+     [
+      "sleep",
+      "sit"
+     ]
+    ],
+    "words": 57
+   },
+   "personas": [
+    {
+     "k2_cell": "木_食神",
+     "catalyst_keywords": [
+      "Gives first",
+      "Always making",
+      "Relaxed"
+     ],
+     "friction_keywords": [
+      "Coasts along",
+      "Never says no",
+      "Comfort first"
+     ]
+    },
+    {
+     "k2_cell": "木_伤官",
+     "catalyst_keywords": [
+      "Speaks up",
+      "Goes off script",
+      "Stands out"
+     ],
+     "friction_keywords": [
+      "Talks back",
+      "Shows off",
+      "Goes too far"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "水_火",
+   "function": "action",
+   "energy": "Fire",
+   "catalyst_acts_draw_on": "Fire: shows, shares, warms, lights, speaks up, gathers people",
+   "remedy_seeks": "Water",
+   "remedy_acts_draw_on": "Water: takes in, rests, listens, lets flow, goes deep, waits",
+   "advise_catalyst": {
+    "text": "Most of your chances are lost by never being claimed, not by failing. Put a date on one venture and begin before it arrives. Ask for the raise instead of waiting for it. Tell the person you love what you want next. Once a week, buy the small thing you keep pricing.",
+    "fixed": [
+     "Most of your chances are lost by never being claimed, not by failing."
+    ],
+    "acts": [
+     "Put a date on one venture and begin before it arrives.",
+     "Ask for the raise instead of waiting for it.",
+     "Tell the person you love what you want next.",
+     "Once a week, buy the small thing you keep pricing."
+    ],
+    "act_families": [
+     [
+      "deadline"
+     ],
+     [],
+     [],
+     []
+    ],
+    "words": 52
+   },
+   "advise_friction": {
+    "text": "Seek Water, your own Body energy. Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit. Let it hold what Fire burns. Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves. Keep one night a week unlit, in bed early.",
+    "fixed": [
+     "Seek Water, your own Body energy.",
+     "Water is the deep you draw from, the sleep and food and slow fill that come before anything is lit.",
+     "Let it hold what Fire burns.",
+     "Whether you are reaching for more or guarding what you have, the heat comes out of your own reserves."
+    ],
+    "acts": [
+     "Keep one night a week unlit, in bed early."
+    ],
+    "act_families": [
+     [
+      "sleep"
+     ]
+    ],
+    "words": 60
+   },
+   "personas": [
+    {
+     "k2_cell": "火_偏财",
+     "catalyst_keywords": [
+      "Sees chances early",
+      "Gives easily",
+      "Starts fast"
+     ],
+     "friction_keywords": [
+      "Chases the new",
+      "Spends it fast",
+      "Looks past home"
+     ]
+    },
+    {
+     "k2_cell": "火_正财",
+     "catalyst_keywords": [
+      "Keeps it going",
+      "Saves first",
+      "Shows up daily"
+     ],
+     "friction_keywords": [
+      "Counts everything",
+      "Plays it safe",
+      "Holds back"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "水_土",
+   "function": "order",
+   "energy": "Earth",
+   "catalyst_acts_draw_on": "Earth: keeps, holds, settles, finishes, stays, tends",
+   "remedy_seeks": "Metal",
+   "remedy_acts_draw_on": "Metal: cuts, decides, sorts, finishes, sets a line, clears out",
+   "advise_catalyst": {
+    "text": "You carry every line you live by alone, since few deadlines come to you from outside. Put yourself under one. Sign up for the race, the exam or the course with a date on it. Tell one person above you what you will deliver and when. Keep one standing rule at home, the same sleep hour every night.",
+    "fixed": [
+     "You carry every line you live by alone, since few deadlines come to you from outside."
+    ],
+    "acts": [
+     "Put yourself under one.",
+     "Sign up for the race, the exam or the course with a date on it.",
+     "Tell one person above you what you will deliver and when.",
+     "Keep one standing rule at home, the same sleep hour every night."
+    ],
+    "act_families": [
+     [],
+     [
+      "deadline"
+     ],
+     [
+      "above"
+     ],
+     [
+      "sleep"
+     ]
+    ],
+    "words": 58
+   },
+   "advise_friction": {
+    "text": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Before your next big yes, ask one person who has made the same call, and write down what they say.",
+    "fixed": [
+     "Seek Metal, the Mind energy.",
+     "Metal is the clear line that sorts a demand into what is asked and what is feared.",
+     "Let it hold what Earth presses on you.",
+     "You take each demand as a judgement on yourself."
+    ],
+    "acts": [
+     "Before your next big yes, ask one person who has made the same call, and write down what they say."
+    ],
+    "act_families": [
+     [
+      "write",
+      "call"
+     ]
+    ],
+    "words": 59
+   },
+   "personas": [
+    {
+     "k2_cell": "土_七杀",
+     "catalyst_keywords": [
+      "Calm under pressure",
+      "Takes charge",
+      "Pushes through"
+     ],
+     "friction_keywords": [
+      "Hard on yourself",
+      "Never off duty",
+      "Shuts people out"
+     ]
+    },
+    {
+     "k2_cell": "土_正官",
+     "catalyst_keywords": [
+      "Keeps every promise",
+      "Plays fair",
+      "Sets the standard"
+     ],
+     "friction_keywords": [
+      "Follows every rule",
+      "Waits for permission",
+      "Slow to change"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "水_金",
+   "function": "mind",
+   "energy": "Metal",
+   "catalyst_acts_draw_on": "Metal: cuts, decides, sorts, finishes, sets a line, clears out",
+   "remedy_seeks": "Fire",
+   "remedy_acts_draw_on": "Fire: shows, shares, warms, lights, speaks up, gathers people",
+   "advise_catalyst": {
+    "text": "You let in less than the world has to offer, and the gap shows when a question needs more than you hold. Keep one book going that is harder than you need. Ask someone older how they did it, and hear them out to the end. Sleep on any answer that matters. Write the question down before you reply.",
+    "fixed": [
+     "You let in less than the world has to offer, and the gap shows when a question needs more than you hold."
+    ],
+    "acts": [
+     "Keep one book going that is harder than you need.",
+     "Ask someone older how they did it, and hear them out to the end.",
+     "Sleep on any answer that matters.",
+     "Write the question down before you reply."
+    ],
+    "act_families": [
+     [
+      "read"
+     ],
+     [
+      "elder"
+     ],
+     [
+      "sleep"
+     ],
+     [
+      "write"
+     ]
+    ],
+    "words": 59
+   },
+   "advise_friction": {
+    "text": "Seek Fire, the Action energy. Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off. Let it spend what Metal stores. Each extra round of care buys you safety and costs you a move. Ship one piece as a draft. Decide one small thing with no second look.",
+    "fixed": [
+     "Seek Fire, the Action energy.",
+     "Fire melts what has gone hard, so a checked thought becomes an act and the extra look burns off.",
+     "Let it spend what Metal stores.",
+     "Each extra round of care buys you safety and costs you a move."
+    ],
+    "acts": [
+     "Ship one piece as a draft.",
+     "Decide one small thing with no second look."
+    ],
+    "act_families": [
+     [],
+     []
+    ],
+    "words": 57
+   },
+   "personas": [
+    {
+     "k2_cell": "金_偏印",
+     "catalyst_keywords": [
+      "Tests everything",
+      "Rarely fooled",
+      "Thinks alone"
+     ],
+     "friction_keywords": [
+      "Never done checking",
+      "Too exact",
+      "Hard to reach"
+     ]
+    },
+    {
+     "k2_cell": "金_正印",
+     "catalyst_keywords": [
+      "Keeps a confidence",
+      "Learns it properly",
+      "Steadies people"
+     ],
+     "friction_keywords": [
+      "Stays the student",
+      "Too protective",
+      "Loves by correcting"
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "水_水",
+   "function": "body",
+   "energy": "Water",
+   "catalyst_acts_draw_on": "Water: takes in, rests, listens, lets flow, goes deep, waits",
+   "remedy_seeks": "Earth",
+   "remedy_acts_draw_on": "Earth: keeps, holds, settles, finishes, stays, tends",
+   "advise_catalyst": {
+    "text": "Every push you make draws on a reserve that was small to begin with. Take in before you spend. Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task. Ask a friend for the whole answer rather than guessing it. Eat lunch sitting down.",
+    "fixed": [],
+    "acts": [
+     "Every push you make draws on a reserve that was small to begin with.",
+     "Take in before you spend.",
+     "Sleep a full night ahead of any decision that matters, and let one peer carry half of a shared task.",
+     "Ask a friend for the whole answer rather than guessing it.",
+     "Eat lunch sitting down."
+    ],
+    "act_families": [
+     [],
+     [
+      "money"
+     ],
+     [
+      "sleep"
+     ],
+     [],
+     [
+      "eat",
+      "sit"
+     ]
+    ],
+    "words": 54
+   },
+   "advise_friction": {
+    "text": "Seek Earth, the Order energy. Earth is the bank: it gives moving water a path and a shore. Let it shape what your Water pours. You hold more than you move, and what you do not move turns into weight. Hand someone above you a finish date in writing, then clear one small job today.",
+    "fixed": [
+     "Seek Earth, the Order energy.",
+     "Earth is the bank: it gives moving water a path and a shore.",
+     "Let it shape what your Water pours.",
+     "You hold more than you move, and what you do not move turns into weight."
+    ],
+    "acts": [
+     "Hand someone above you a finish date in writing, then clear one small job today."
+    ],
+    "act_families": [
+     [
+      "deadline",
+      "above",
+      "write"
+     ]
+    ],
+    "words": 55
+   },
+   "personas": [
+    {
+     "k2_cell": "水_比肩",
+     "catalyst_keywords": [
+      "Carries own weight",
+      "Even pace",
+      "Decides alone"
+     ],
+     "friction_keywords": [
+      "Hard to reach",
+      "Never asks",
+      "Expects the same"
+     ]
+    },
+    {
+     "k2_cell": "水_劫财",
+     "catalyst_keywords": [
+      "Loves a race",
+      "Jumps in first",
+      "All in together"
+     ],
+     "friction_keywords": [
+      "Races in secret",
+      "Spends shared money",
+      "Never enough"
+     ]
+    }
+   ]
+  }
+ ]
+}

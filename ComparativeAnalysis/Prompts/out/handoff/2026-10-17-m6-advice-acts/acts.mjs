@@ -14,6 +14,8 @@ export const FAMILIES = {
   money: /\b(save|savings|spend|budget|sum|account)\b/i,
 };
 export const sents = (t) => (t.match(/[^.!?]+[.!?]+/g) || []).map((s) => s.trim());
-// the act sentences of an advice text: every imperative sentence (the diagnosis and, in a remedy, the first three sentences are not acts)
-export const actSentences = (text, remedy) => sents(text).slice(remedy ? 3 : 0).filter((s) => !/^(You|Your|Yours|Little|Nothing|What|Whatever|With|Most|Much|Some|Every|Each|It|That|This|There)\b/.test(s));
+// the act sentences of an advice text: everything from its first imperative on. The diagnosis and, in a remedy, the
+// "Seek X" line, the image and the "Let it …" line come first and are not acts.
+const DECL = /^(You|Your|Yours|Little|Nothing|What|Whatever|With|Most|Much|Some|Each|It|That|This|There|Whether|Seek|Let it|Wood|Fire|Earth|Metal|Water)\b/;
+export const actSentences = (text) => { const ss = sents(text); const i = ss.findIndex((x) => !DECL.test(x)); return i < 0 ? [] : ss.slice(i); };
 export const familiesOf = (s) => Object.keys(FAMILIES).filter((f) => FAMILIES[f].test(s));

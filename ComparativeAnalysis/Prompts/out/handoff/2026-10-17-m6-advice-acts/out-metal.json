@@ -1,0 +1,78 @@
+[
+ {
+  "pair_cell": "金_木",
+  "advise_catalyst": {
+   "acts": [
+    "Give it something.",
+    "Pick one venture this month and carry it to its first result.",
+    "Plant one thing this week, a seed or a skill, and watch it grow."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Drop one project you no longer believe in.",
+    "Choose three things for this month and turn down the others."
+   ]
+  }
+ },
+ {
+  "pair_cell": "金_火",
+  "advise_catalyst": {
+   "acts": [
+    "Ask someone you respect to grade one piece of your work, and hear the score.",
+    "Say your doubt out loud the next time a plan is agreed too fast."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Stay with one hard feeling for ten minutes before you act on it.",
+    "Tend one plant or one friendship with no goal attached."
+   ]
+  }
+ },
+ {
+  "pair_cell": "金_土",
+  "advise_catalyst": {
+   "acts": [
+    "Bring one half-done job from last year to its end this month.",
+    "Hold a big choice for seven days and see if it still stands."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Send the rough draft before the clean one exists.",
+    "Try a new method on a familiar problem."
+   ]
+  }
+ },
+ {
+  "pair_cell": "金_金",
+  "advise_catalyst": {
+   "acts": [
+    "Cut one commitment this month that drains more than it gives.",
+    "Decide your stopping time before the work begins, and stop there."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Say your plan to a person who can refuse it.",
+    "Share one unfinished piece of work with three people this month."
+   ]
+  }
+ },
+ {
+  "pair_cell": "金_水",
+  "advise_catalyst": {
+   "acts": [
+    "Tell someone one story with no lesson in it.",
+    "Ask one person what they took from it, and listen to the end."
+   ]
+  },
+  "advise_friction": {
+   "acts": [
+    "Keep one piece of news to yourself for a week.",
+    "Hold to one plan for a whole month."
+   ]
+  }
+ }
+]
