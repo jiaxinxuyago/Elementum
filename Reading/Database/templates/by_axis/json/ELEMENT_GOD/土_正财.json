@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you own wears well.",
+        "define": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you have wears well.",
         "ledger": [
           {
             "word": "Makes things last",
@@ -113,7 +113,7 @@
           {
             "word": "Hates to spend",
             "angles": {
-              "drive": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. You get to enjoy money that is already yours.",
+              "drive": "You hate to spend, even on the things you can plainly afford. Spending feels like a loss of control, and you guard the money rather than buy what you wanted. You get to enjoy money that is already yours.",
               "cost_self": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Left with the money, you go without the thing it was for.",
               "cost_others": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you cut back on them as hard as on yourself. You take what you save out of their share."
             }
@@ -667,6 +667,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 earth:E3-10",
       "replaced": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you cut back on them first. You take what you save out of their share."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-20",
+      "replaced": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. You get to enjoy money that is already yours."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-18",
+      "replaced": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you own wears well."
     }
   ]
 }

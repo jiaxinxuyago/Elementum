@@ -84,7 +84,7 @@
           {
             "word": "Loyal",
             "angles": {
-              "drive": "Being loyal comes before being exciting for you. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. The people beside you have little reason to doubt you.",
+              "drive": "For you, being loyal comes before being exciting. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. The people beside you have little reason to doubt you.",
               "cost_self": "Where you gave your word, you stay loyal after the reasons change. Since loyalty feels more like love than choosing, you stop asking whether this is what you want or promised. Some of your choices were made once and never made again.",
               "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the one closest to you your presence more than your feelings. They get all of your time and few of your words."
             }
@@ -97,7 +97,7 @@
           {
             "word": "Stays too long",
             "angles": {
-              "drive": "Leaving comes hard to you, and you stay where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
+              "drive": "Leaving comes hard to you, even where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
               "cost_self": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. By staying, you miss the better love or pay you never looked for.",
               "cost_others": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend the other person's years along with your own."
             }
@@ -987,6 +987,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 wood:W3-007",
       "replaced": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Your family never wonders where the next month's money comes from."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 wood:W4-T8",
+      "replaced": "Leaving comes hard to you, and you stay where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.drive",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 wood:W4-T9",
+      "replaced": "Being loyal comes before being exciting for you. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. The people beside you have little reason to doubt you."
     }
   ]
 }

@@ -77,7 +77,7 @@
             "word": "Jumps in first",
             "angles": {
               "drive": "Jumping in first is how you learn what a thing is like. You want to feel things for yourself, and being inside a decision suits you better than planning beside it. You bring back first-hand news while everyone else is still reading about it.",
-              "cost_self": "Going first is where your boldness lives. Coming second feels like losing, and you jump in before reading the plan with your own savings on the line. Your bank balance carries the lessons everyone after you gets for free.",
+              "cost_self": "Going first is where your boldness lives. Coming second feels like losing, and you jump in with your own savings on the line before reading the small print. Your bank balance carries the lessons everyone after you gets for free.",
               "cost_others": "Whenever you go first, you pull the one closest to you in after you. You decide for both before asking, and you take the risk in their name too. The person beside you gets courage on loan the moment you move."
             }
           },
@@ -691,6 +691,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 water:W-011",
       "replaced": "Going first is where your boldness lives. Little Water backs you, and you jump in before reading the plan, while early mistakes come out of your savings. Your bank balance carries the lessons everyone after you gets for free."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 water:W4-22",
+      "replaced": "Going first is where your boldness lives. Coming second feels like losing, and you jump in before reading the plan with your own savings on the line. Your bank balance carries the lessons everyone after you gets for free."
     }
   ]
 }

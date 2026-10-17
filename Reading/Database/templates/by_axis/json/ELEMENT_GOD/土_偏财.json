@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Starting a thing gives you more than finishing it. The beginning is where the feeling lives, and you spend your strength there rather than on the last stretch. You get nothing for the half until the rest is done.",
               "cost_self": "Finishing is what you save for later. The last stretch costs you more than the first, and you would rather open a new thing than close an old one. You leave the money and the credit sitting at the end you skip.",
-              "cost_others": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. You give the people waiting your start and somebody else's finish."
+              "cost_others": "You hand people a beginning and treat it as done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. You leave the people waiting with your start and somebody else's finish."
             }
           }
         ]
@@ -659,6 +659,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 earth:E3-08",
       "replaced": "You are spread across more things than any one of them can use. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to say no and give one of them all of you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-19",
+      "replaced": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. You give the people waiting your start and somebody else's finish."
     }
   ]
 }

@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Running thin, your strength is a small store that you guard and trust over outside help. You make it last by keeping an even pace.",
+        "define": "Running thin, your strength is a small store that you guard and rely on before anyone else's help. You make it last by keeping an even pace.",
         "ledger": [
           {
             "word": "Sets own bar",
@@ -97,7 +97,7 @@
           {
             "word": "Never asks",
             "angles": {
-              "drive": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You have every right to lean on a friend.",
+              "drive": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You have every right to lean on people you trust.",
               "cost_self": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. You lose sleep over what one question would have settled.",
               "cost_others": "By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You give your friends no share in the weight you carry."
             }
@@ -579,6 +579,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 earth:E3-13",
       "replaced": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out alone instead of handing any of it over. You have every right to lean on a friend."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-23",
+      "replaced": "Running thin, your strength is a small store that you guard and trust over outside help. You make it last by keeping an even pace."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-25",
+      "replaced": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You have every right to lean on a friend."
     }
   ]
 }

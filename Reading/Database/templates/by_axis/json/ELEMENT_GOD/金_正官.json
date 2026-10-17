@@ -122,7 +122,7 @@
       }
     },
     "edge": {
-      "lead": "Metal runs through your family, your social life and your career. It is the promise at home that stands when keeping it is hard, the friend who turns up at the agreed hour, and the rank you reach a proper step at a time.",
+      "lead": "Metal runs through your family, your social life and your career. It is the promise at home that stands when keeping it costs you, the friend who turns up at the agreed hour, and the rank you reach a proper step at a time.",
       "domains": [
         "Family",
         "Social",
@@ -659,6 +659,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 metal:MT3-02",
       "replaced": "You pass the need for permission to whoever comes to you. Permission from whoever signs off is the only yes you take, and you pass their questions on rather than settle them. You leave them waiting on a permission you were free to give."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 metal:MR4-08",
+      "replaced": "Metal runs through your family, your social life and your career. It is the promise at home that stands when keeping it is hard, the friend who turns up at the agreed hour, and the rank you reach a proper step at a time."
     }
   ]
 }

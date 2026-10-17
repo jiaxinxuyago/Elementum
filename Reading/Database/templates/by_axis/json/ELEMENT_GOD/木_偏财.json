@@ -106,7 +106,7 @@
             "word": "Spread thin",
             "angles": {
               "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You wanted freedom all along, and a closed option leaves it whole.",
-              "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Setting some of them down for good is yours to decide.",
+              "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and come to each one drained. Setting some of them down for good is yours to decide.",
               "cost_others": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand the people closest to you the same thin slice as everything else."
             }
           },
@@ -122,7 +122,7 @@
       }
     },
     "edge": {
-      "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives before anyone asks, and the trip your friends still weigh while you are already packed.",
+      "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without being asked, and the trip your friends still weigh while you are already packed.",
       "domains": [
         "Wealth",
         "Family",
@@ -963,6 +963,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 wood:W3-004",
       "replaced": "Whenever the people close to you run short, you are generous before being asked. Because being generous keeps you freer than being owed, you give rather than build anything shared. Nobody near you goes without for long."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 wood:W4-T7",
+      "replaced": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Setting some of them down for good is yours to decide."
+    },
+    {
+      "field": "edge.lead",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 wood:W4-T13",
+      "replaced": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives before anyone asks, and the trip your friends still weigh while you are already packed."
     }
   ]
 }

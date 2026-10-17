@@ -23,10 +23,10 @@
     "function": {
       "primary": "body",
       "definition_catalyst": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. Running thin, the reserve goes first, because you keep moving instead of stopping to refill. You pay for each bright day with a tired one.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, your strength wants to carry everything itself, since needing anyone feels like falling short. You win most days and pay in company.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, your strength wants to carry everything itself, because you count needing others as falling short. You win most days and pay in company.",
       "definition_balanced": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. In balance, the warmth holds steady and you spend no faster than you refill. Peers and contests feed you as fast as they tire you.",
       "advise_catalyst": "Your strength runs on what you put back, and putting back is the part you skip. Ask one person for help on a job you usually do alone. Get two friends together once a month just for fun. Stand in the sun for ten minutes each morning.",
-      "advise_friction": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You take being unstoppable for being well. Hand the lead on one shared job to someone else this month. Hear someone out in full before you answer.",
+      "advise_friction": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You take being unstoppable for being well. Hand the lead on one shared job to someone else this month. Hear people out in full before you answer.",
       "advise_balanced": "Your strength holds while what you put back keeps pace with what you spend. Ask one person for help on a job you usually do alone. Get two friends together once a month just for fun. Stand in the sun for ten minutes each morning."
     },
     "cta_verdict": "You are your own engine and your own company, so you do your best work beside an equal rather than under anyone's wing.",
@@ -313,6 +313,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2-1",
       "replaced": "Your Body is the strength the whole of you stands on. Fire makes it warm, so you recover by doing. In balance, the warmth holds steady and you spend no faster than you refill. A peer is company and a contest is a game."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 fire:F4-09",
+      "replaced": "Your Body is the strength the whole of you stands on. Fire keeps it bright and quick. Running over, your strength wants to carry everything itself, since needing anyone feels like falling short. You win most days and pay in company."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 fire:F4-10",
+      "replaced": "Seek Water, the Order energy. Water runs cool and keeps to its banks, and a blaze meets it only on the water's terms. Let it shape what your Fire burns. You take being unstoppable for being well. Hand the lead on one shared job to someone else this month. Hear someone out in full before you answer."
     }
   ]
 }

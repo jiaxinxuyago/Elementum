@@ -32,7 +32,7 @@
                 "angles": {
                   "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. What you want is to walk back in whole, owing no one.",
                   "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. The worst weeks of your life are the ones nobody saw you through.",
-                  "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than be seen recovering, and give them the finished version only. Your closest people meet you only on your good days."
+                  "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than be seen recovering, and give them the finished version only. Those closest to you meet you only on your good days."
                 }
               }
             ]
@@ -52,7 +52,7 @@
                 "word": "Unteachable",
                 "angles": {
                   "drive": "Being taught lands on you as an attack first and information second. Afraid of looking smaller, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them.",
-                  "cost_self": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend your position rather than learn from theirs. You lose every lesson that needed you to be wrong before it could teach you.",
+                  "cost_self": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend your position rather than learn from theirs. You miss every lesson that needed you to be wrong before it could teach you.",
                   "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix before the question. You leave your peers no turn at being right."
                 }
               },
@@ -191,7 +191,7 @@
                 "angles": {
                   "drive": "Taking it easy comes naturally to you. Because what you make comes out well without much effort, you stay with what you do well rather than learn what you do badly. While taking it easy, you leave the hard parts untried.",
                   "cost_self": "Your best work is what taking it easy costs you. What comes easily feels like enough, and you enjoy the version you have instead of reaching for the one beyond it. You have the better piece in you already, and only effort gets it out.",
-                  "cost_others": "Whenever you make the work look easy, people learn from the look alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care."
+                  "cost_others": "Whenever you make the work look easy, people learn from the surface alone. Your first try already looks right, and they see the ease without the care behind it. You pass on the ease but never the care."
                 }
               }
             ]
@@ -204,7 +204,7 @@
         "canonical_name": "The Virtuoso",
         "value": {
           "catalyst": {
-            "define": "As a catalyst, little leaves the gate and what does come out is sharp. Your finest work waits for a moment with an audience.",
+            "define": "As a catalyst, the gate opens rarely and what does come out is sharp. Your finest work waits for a moment with an audience.",
             "ledger": [
               {
                 "word": "Says it straight",
@@ -422,7 +422,7 @@
                 "angles": {
                   "drive": "Deciding fast is how you stop a crisis from deciding for you. A quick decision points your push somewhere, and you accept being wrong early rather than being right too late. While others are still weighing it, your call has already got people moving.",
                   "cost_self": "Fast decisions are the ones you trust. Deciding quickly keeps you ahead of the crisis, and you take the first good option rather than the best. The better answer turns up a day later, and by then you are already committed.",
-                  "cost_others": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your quick call lifts a weight you hate to see them under."
+                  "cost_others": "When someone near you is stuck, you decide for them. You settle it in one fast decision rather than wait, and those close to you lose the chance to choose. Your call lifts a weight you hate to see them under."
                 }
               }
             ]
@@ -558,7 +558,7 @@
             ]
           },
           "friction": {
-            "define": "As a friction, the test runs on past its use. Your need for certainty costs you whole days of proving what is already proved.",
+            "define": "As a friction, the test runs on past its use. Your need for certainty uses up whole days proving what is already proved.",
             "ledger": [
               {
                 "word": "Never done checking",
@@ -659,7 +659,7 @@
         "canonical_name": "The Twin",
         "value": {
           "catalyst": {
-            "define": "Running thin, your strength is a small store that you guard and trust over outside help. You make it last by keeping an even pace.",
+            "define": "Running thin, your strength is a small store that you guard and rely on before anyone else's help. You make it last by keeping an even pace.",
             "ledger": [
               {
                 "word": "Sets own bar",
@@ -693,7 +693,7 @@
               {
                 "word": "Never asks",
                 "angles": {
-                  "drive": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You have every right to lean on a friend.",
+                  "drive": "Whatever the problem, you never ask for help. Needing someone feels like weakness, and you work it out yourself instead of handing any of it over. You have every right to lean on people you trust.",
                   "cost_self": "Pride stays whole when you never ask, and so do your problems. You carry what a quick question would have halved, since being seen needing something hurts more than the weight does. You lose sleep over what one question would have settled.",
                   "cost_others": "By never asking, you take something from those who would have said yes. You would rather show up than need someone, and you only show your friends the half that is fine. You give your friends no share in the weight you carry."
                 }
@@ -738,14 +738,14 @@
                 "word": "Bets big",
                 "angles": {
                   "drive": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. The wins you land are big enough to change your year.",
-                  "cost_self": "When you bet big, you lose big too. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound.",
+                  "cost_self": "When you bet big, you lose big too. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every penny.",
                   "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win big for everyone in it than keep half safe, and their doubts only push you further. You take whoever is in it with you through every swing."
                 }
               },
               {
                 "word": "Shares the credit",
                 "angles": {
-                  "drive": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people inside it. Everyone who stood beside you walks away feeling counted.",
+                  "drive": "With a win in hand, you would rather share the credit than keep it, because a prize means more with your people around you. Everyone who stood beside you walks away feeling counted.",
                   "cost_self": "Taking the credit alone feels like showing off to you. You hand out credit rather than keep it, and your own work goes unnamed. Offers go to the names people know, and yours is often missing.",
                   "cost_others": "The credit you share lands on people who did not run for it. You would rather have company at the finish than stand there alone, and you pass out what only you earned. Praise from you says little about who did what."
                 }
@@ -789,7 +789,7 @@
         "canonical_name": "The Artisan",
         "value": {
           "catalyst": {
-            "define": "As a catalyst, the gate opens slowly and little comes through at once. The little that does is modest and useful and asks for no audience.",
+            "define": "As a catalyst, the gate opens only a crack and little comes through at once. The little that does is modest and useful and asks for no audience.",
             "ledger": [
               {
                 "word": "Gives first",
@@ -812,7 +812,7 @@
                 "angles": {
                   "drive": "Enough is a place you can live in. Being happy with what is here comes easier than wanting, so you enjoy what you have rather than chase what you lack. There is a peace in your home that money rarely buys.",
                   "cost_self": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Chances you never pushed for go to people who did.",
-                  "cost_others": "At home, enough is the mood you set. Since you are content with enough, you let the people around you rest rather than push them for more. Those close to you live free of the itch of always wanting more."
+                  "cost_others": "At home, enough is the mood you set. Since you are content with enough, you let others rest rather than push them harder. Those close to you live free of the itch of always wanting more."
                 }
               }
             ]
@@ -861,7 +861,7 @@
                 "angles": {
                   "drive": "Proving a point matters more to you than making it. Because a finished thing argues better than you could out loud, you would rather prove an idea than pitch it. Your work arrives whole, and it answers the doubters by itself.",
                   "cost_self": "Proving it is the only kind of winning you trust. Since you prove rather than pitch, you let the chances that needed a quick yes go by. Ideas that were yours first end up with other people's names on them.",
-                  "cost_others": "You prove an idea before you share it. Because you would rather show a result than explain a plan, you keep people out of it until it is done. Those close to you meet the work at the end and miss the making of it."
+                  "cost_others": "You prove an idea before you share it. Because you would rather show a result than explain a plan, you keep people out of it until it is done. Those close to you see only the finished piece and miss the making of it."
                 }
               },
               {
@@ -906,7 +906,7 @@
                 "angles": {
                   "drive": "Overdoing it is the only way you know to be sure of enough. Since plain and finished feels like settling, you make it bigger rather than call it done. For every extra, you draw on your own strength.",
                   "cost_self": "Overdoing it is how you make sure a thing looks like you. Long after the plain version would do, you keep adding rather than finishing and spend what the end needed. You pay for every extra in the sleep the finish was owed.",
-                  "cost_others": "You overdo it for people who asked for something modest. Since a plain job feels beneath what you can do, you hand them a bigger thing later instead of the small thing now. You make them wait for more than they asked for."
+                  "cost_others": "You overdo it for people who asked for something modest. A plain job feels beneath what you can do, and you hand them a bigger thing later instead of the small thing now. You make them wait for more than they asked for."
                 }
               }
             ]
@@ -971,7 +971,7 @@
                 "angles": {
                   "drive": "Starting a thing gives you more than finishing it. The beginning is where the feeling lives, and you spend your strength there rather than on the last stretch. You get nothing for the half until the rest is done.",
                   "cost_self": "Finishing is what you save for later. The last stretch costs you more than the first, and you would rather open a new thing than close an old one. You leave the money and the credit sitting at the end you skip.",
-                  "cost_others": "You hand people a beginning and call it done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. You give the people waiting your start and somebody else's finish."
+                  "cost_others": "You hand people a beginning and treat it as done. Starting is where you feel strongest, and you put everything into the first stretch instead of saving some for the last. You leave the people waiting with your start and somebody else's finish."
                 }
               }
             ]
@@ -984,7 +984,7 @@
         "canonical_name": "The Steward",
         "value": {
           "catalyst": {
-            "define": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you own wears well.",
+            "define": "As a catalyst, firm ground is scarce. You hold each piece of it close, and what you have wears well.",
             "ledger": [
               {
                 "word": "Makes things last",
@@ -1034,7 +1034,7 @@
               {
                 "word": "Hates to spend",
                 "angles": {
-                  "drive": "You hate to spend, even on the things you can plainly afford. Spending feels like losing control, and you hold onto the money rather than buy what you wanted. You get to enjoy money that is already yours.",
+                  "drive": "You hate to spend, even on the things you can plainly afford. Spending feels like a loss of control, and you guard the money rather than buy what you wanted. You get to enjoy money that is already yours.",
                   "cost_self": "Hating to spend means you rarely overpay and rarely enjoy. You would rather keep the money than spend it, since spending feels like a loss already begun. Left with the money, you go without the thing it was for.",
                   "cost_others": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you cut back on them as hard as on yourself. You take what you save out of their share."
                 }
@@ -1101,7 +1101,7 @@
                 "angles": {
                   "drive": "You run a tight ship at home as well as at work. Loose ends feel like danger to you, and you keep every plan and every person on schedule. Home runs like clockwork and feels a little like a workplace.",
                   "cost_self": "Running a tight ship makes every small slip your problem. You need things under control to feel steady, and a late bus or a lost key sets your jaw. You use up your nerve on things that never needed it.",
-                  "cost_others": "In your tight ship everyone has a job, and the people at home get theirs from you. You need things to run like a team, and your requests land as orders. You get what you ask for and rarely hear their ideas."
+                  "cost_others": "On your tight ship everyone has a job, and the people at home get theirs from you. You need things to run like a team, and your requests land as orders. You get what you ask for and rarely hear their ideas."
                 }
               }
             ]
@@ -1128,7 +1128,7 @@
                 "word": "Plays fair",
                 "angles": {
                   "drive": "You play fair even when it costs you the win. You only trust a rule that applies to everyone, and you keep yourself to it rather than make yourself the exception. People who lose to you still shake your hand.",
-                  "cost_self": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes above arriving first, and the quick wins go to people who care less. A clean conscience matters to you more than any title.",
+                  "cost_self": "Where a shortcut gets you ahead, you play fair and arrive late. Being right with yourself comes above arriving first, and the quick wins go to people who care less. A clean conscience is worth more to you than any title.",
                   "cost_others": "With the people closest to you, you play fair exactly as with strangers. Being fair to everyone comes before being on anyone's side, and you never pick theirs either. Your own people sometimes wanted a champion and got a referee."
                 }
               },
@@ -1156,7 +1156,7 @@
               {
                 "word": "Waits for permission",
                 "angles": {
-                  "drive": "You wait for permission to take what you have earned. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
+                  "drive": "You wait for permission to take what you have earned. An approval from above counts for more with you than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours.",
                   "cost_self": "Where a step up is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. Year after year, you miss what one question would bring.",
                   "cost_others": "You wait for permission for everyone waiting on you. Being cleared from above sits better with you than moving on your own say, and you keep the people behind you waiting. You hold up their work for a go-ahead you had all along."
                 }
@@ -1265,7 +1265,7 @@
               {
                 "word": "Patient teacher",
                 "angles": {
-                  "drive": "You teach a thing a third time with the patience of the first. Needing the person to get there, you teach at their pace instead of your own. Whatever someone learns from you, they learn without shame.",
+                  "drive": "You teach a thing a third time with the patience of the first. Because you need the person to get there, you go at their pace instead of your own. Whatever someone learns from you, they learn without shame.",
                   "cost_self": "Teaching someone patiently is easy for you and hard to count. Since you wait for them rather than hurry them, you hand your own evening to the teaching. Your own work waits at the back of the queue.",
                   "cost_others": "Your patience is what you teach with first. You explain a thing twice instead of watching someone struggle, and take the struggle that would have made it theirs. They end up knowing your answer without the work of finding it."
                 }
@@ -1286,7 +1286,7 @@
               {
                 "word": "Overprotective",
                 "angles": {
-                  "drive": "Protecting the people you love is your first move when they face trouble. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You carry risks that were always theirs to take.",
+                  "drive": "Protecting the people you love is your first move when they face trouble. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You carry risks that were always theirs to run.",
                   "cost_self": "When trouble lands on someone you love, you take it on as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. Underneath, you want the same shelter you give to others.",
                   "cost_others": "Your protection arrives before anyone asks. Because you find watching someone struggle harder than doing it for them, you protect them by taking over instead of letting them finish badly. With every rescue, you take a lesson away from them."
                 }
@@ -1361,7 +1361,7 @@
                 "angles": {
                   "drive": "A little distance is your default with almost everyone. There is more of you than you want anyone handling, and you keep people at arm's length instead of letting them close. You keep that distance for safety, and it keeps the company out as well.",
                   "cost_self": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. Out of reach, you miss the very closeness you keep out.",
-                  "cost_others": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and your friends stay at the door. With that distance, you cost them a friend they could have reached."
+                  "cost_others": "You hold people at a distance that feels polite from your side. Being left alone matters more than being sought out, and your friends stay at the door. With that distance, you cost them a friend they could have reached."
                 }
               }
             ]
@@ -1397,7 +1397,7 @@
                 "angles": {
                   "drive": "Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. Your partners never face a bad loss by themselves.",
                   "cost_self": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. Half of every good year of yours belongs to someone else.",
-                  "cost_others": "Your bets carry other people's names. You would rather share a risk than carry it alone, and that puts their money where your nerve is. Their savings rise and fall with your choices."
+                  "cost_others": "Your bets carry other people's names. You would rather share a risk than face it alone, and that puts their money where your nerve is. Their savings rise and fall with your choices."
                 }
               }
             ]
@@ -1426,7 +1426,7 @@
                 "angles": {
                   "drive": "Spending from the shared pot comes easier to you than spending from your own. Your drive runs past what the budget covers, and the shared money is the nearest way across. For the sake of moving, you let the pot pay for your speed.",
                   "cost_self": "You spend what is shared like your own nerve, fast and before the count. Moving matters more than owing, and that is a difference the money remembers. You never get to keep what you spend there, and the owing stays with you.",
-                  "cost_others": "Before asking, you spend what was pooled and settle the split later. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
+                  "cost_others": "Before asking, you spend what was pooled and settle up later. Keeping things moving counts for more than a fair split, and that puts their savings behind your speed. Each time you spend the shared money, you spend their say in it too."
                 }
               }
             ]
@@ -1473,7 +1473,7 @@
               {
                 "word": "Coasts along",
                 "angles": {
-                  "drive": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. All you ever wanted was to enjoy the hours you had.",
+                  "drive": "Coasting is how you move through most days. You finish what comes easily rather than what needs a push, since effort never felt like the point. All you ever wanted was to enjoy the hours you have.",
                   "cost_self": "Coasting feels like being yourself. You keep the fun half of every project rather than the hard half, and the rest waits for later. Coasting past the finish costs you the joy of a thing done, the pleasure you miss most.",
                   "cost_others": "You coast on people who already like you. Since you feel safe with them, you give them the easy version instead of the effort you spend on strangers. You give your least trying to those who love you most."
                 }
@@ -1612,7 +1612,7 @@
                 "word": "Spread thin",
                 "angles": {
                   "drive": "Spreading yourself over several things feels normal, and one alone feels like being caught. Your Wood outruns the strength carrying it, so you spread across every open option rather than drop one. You wanted freedom all along, and a closed option leaves it whole.",
-                  "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and reach each one drained. Setting some of them down for good is yours to decide.",
+                  "cost_self": "You are spread among more things than your body keeps up with. Because letting go feels like losing rather than choosing, you keep them all and come to each one drained. Setting some of them down for good is yours to decide.",
                   "cost_others": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand the people closest to you the same thin slice as everything else."
                 }
               },
@@ -1655,7 +1655,7 @@
               {
                 "word": "Loyal",
                 "angles": {
-                  "drive": "Being loyal comes before being exciting for you. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. The people beside you have little reason to doubt you.",
+                  "drive": "For you, being loyal comes before being exciting. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. The people beside you have little reason to doubt you.",
                   "cost_self": "Where you gave your word, you stay loyal after the reasons change. Since loyalty feels more like love than choosing, you stop asking whether this is what you want or promised. Some of your choices were made once and never made again.",
                   "cost_others": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the one closest to you your presence more than your feelings. They get all of your time and few of your words."
                 }
@@ -1668,7 +1668,7 @@
               {
                 "word": "Stays too long",
                 "angles": {
-                  "drive": "Leaving comes hard to you, and you stay where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
+                  "drive": "Leaving comes hard to you, even where the giving back stopped. Losing what you put in scares you, and you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
                   "cost_self": "Where you settle, you stay, and settled is your word for stuck. Because the unknown worries you more than the known bores you, you stay instead of trying the new. By staying, you miss the better love or pay you never looked for.",
                   "cost_others": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend the other person's years along with your own."
                 }
@@ -1793,7 +1793,7 @@
             ]
           },
           "friction": {
-            "define": "As a friction, the rules spread past where they belong, and order feels too safe to question. The structure that steadied you starts to box you in.",
+            "define": "As a friction, the rules spread past where they belong, and order seems too safe to question. The structure that steadied you starts to box you in.",
             "ledger": [
               {
                 "word": "By the book",
@@ -1863,7 +1863,7 @@
               {
                 "word": "Thinks in circles",
                 "angles": {
-                  "drive": "Thinking a question through means walking all the way round it first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. You circle a question for weeks that a single choice would have closed.",
+                  "drive": "Thinking a question through means walking all the way round it first. Being certain weighs more with you than being quick, so you take one more angle rather than decide. For weeks you circle a question that a single choice would have closed.",
                   "cost_self": "Thinking in circles is your way of never being wrong. One more side feels like care rather than delay, and the choice stays open while you turn it over. You lose the chances that needed an answer this week, one careful lap at a time.",
                   "cost_others": "Whenever someone brings you a question, you think in circles first. Every side counts for more than a usable reply, so you hand over the process instead of a yes. You make them wait through every circle for an answer they needed short."
                 }
@@ -1907,7 +1907,7 @@
               {
                 "word": "Takes people in",
                 "angles": {
-                  "drive": "You take people in, spare bed and all. A safe place is what you want most, and making one for others comes easier than finding your own. Friends in a bad week know where to come.",
+                  "drive": "You take people in, whatever space you have. A safe place is what you want most, and making one for others comes easier than finding your own. Friends in a bad week know where to come.",
                   "cost_self": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. Your home is rarely fully yours, and your evenings belong to guests.",
                   "cost_others": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year. Your guests get time to mend without a clock running."
                 }
@@ -1930,13 +1930,13 @@
                 "angles": {
                   "drive": "You help the moment you see a need, before being asked. Watching someone struggle is harder for you than doing it for them, so you step in before they have tried. Helping this soon, you teach them that they needed you.",
                   "cost_self": "Helping too soon fills your days with other people's tasks. Taking over feels quicker than watching it done badly, and you hold jobs nobody handed you. You give shelter to everyone else and take none yourself, and your own home is the price.",
-                  "cost_others": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer arrives before theirs. You take away their try, and the pride of a win they would have reached alone."
+                  "cost_others": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer arrives before theirs. You take away their attempt, and the pride of a win they would have reached alone."
                 }
               },
               {
                 "word": "Holds too tight",
                 "angles": {
-                  "drive": "You hold the people you have grown close to tighter than they need. Letting someone go feels like losing what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out.",
+                  "drive": "You hold the people you have grown close to tighter than they need. Letting someone go feels like giving up what you built, so you keep them near rather than let them move on. You want closeness, and holding this tight crowds it out.",
                   "cost_self": "Holding too tight, you let nothing you grew leave. Keeping someone close feels safer than making new friends, so the few you hold become all you have. You are allowed to let them go and still be their shelter.",
                   "cost_others": "With anyone you helped grow, you hold on past the moment they are ready. Being needed feels like love, and you keep them close rather than wave them off. By holding on, you take from each of them a leaving without guilt."
                 }
@@ -2002,7 +2002,7 @@
                 "word": "Never asks",
                 "angles": {
                   "drive": "Never asking is a rule you keep and never say. You fear being a burden, and you manage alone rather than ask a peer for an hour. You have taught everyone around you that you need nothing, and the lesson stuck.",
-                  "cost_self": "Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for company. You miss out on the ease that help would have given you.",
+                  "cost_self": "Managing without asking is what you do best. Owing anyone feels worse to you than the work, and you choose doing it alone rather than asking for backup. You miss out on the ease that help would have given you.",
                   "cost_others": "Each time you never ask, you take away a friend's chance to be useful. You keep the need to yourself rather than hand a peer one small job. You leave your peers at a distance, with nothing of yours to help with."
                 }
               },
@@ -2038,7 +2038,7 @@
                 "word": "Jumps in first",
                 "angles": {
                   "drive": "Jumping in first is how you learn what a thing is like. You want to feel things for yourself, and being inside a decision suits you better than planning beside it. You bring back first-hand news while everyone else is still reading about it.",
-                  "cost_self": "Going first is where your boldness lives. Coming second feels like losing, and you jump in before reading the plan with your own savings on the line. Your bank balance carries the lessons everyone after you gets for free.",
+                  "cost_self": "Going first is where your boldness lives. Coming second feels like losing, and you jump in with your own savings on the line before reading the small print. Your bank balance carries the lessons everyone after you gets for free.",
                   "cost_others": "Whenever you go first, you pull the one closest to you in after you. You decide for both before asking, and you take the risk in their name too. The person beside you gets courage on loan the moment you move."
                 }
               },
@@ -2132,7 +2132,7 @@
                 "word": "Comfort first",
                 "angles": {
                   "drive": "Putting comfort ahead of the plan is how most evenings go. What you pour out all day leaves you emptier than you admit, so you take the comfort before anything is done. You enjoy the comfort less while the job sits undone.",
-                  "cost_self": "Whenever the day gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, while what you avoided waits for you unchanged. Remember that what you were after all along was rest.",
+                  "cost_self": "Whenever something gets hard, you put comfort first and the hard part second. You comfort yourself rather than sit with it, while what you avoided waits for you unchanged. Remember that what you were after all along was rest.",
                   "cost_others": "Keeping everyone around you comfortable comes before asking anything of them. Since you put their comfort ahead of what they promised, you take from them the small steadiness they needed. You spare them the promise and the pride of seeing it through."
                 }
               },
@@ -2154,7 +2154,7 @@
         "canonical_name": "The Virtuoso",
         "value": {
           "catalyst": {
-            "define": "As a catalyst, little comes through the gate, and what does get through comes out sharp. Your few words cut where many would not.",
+            "define": "As a catalyst, little comes through the gate, and what does get through is sharp. Your few words cut where many would not.",
             "ledger": [
               {
                 "word": "Quick-witted",
@@ -2168,7 +2168,7 @@
                 "word": "Original",
                 "angles": {
                   "drive": "Doing a thing the usual way is nearly impossible for you, and only an original one feels done. Taking it apart first, you make your own version rather than follow the rule. Your work carries a mark nobody else could have left.",
-                  "cost_self": "Nothing feels real to you until you have made it original. You take being wrong your own way over being right theirs, so you redo finished work. You spend whole weekends changing things that were already good enough.",
+                  "cost_self": "Nothing feels real to you until you have made it original. You take being wrong your own way over being right the usual way, and you redo finished work. You spend whole weekends changing things that were already good enough.",
                   "cost_others": "Making an original version of what you were handed shows you cared. You make someone's plan your own instead of following it, and you deny them the small pride of a plan done as drawn. What they gave you comes back as yours."
                 }
               },
@@ -2183,7 +2183,7 @@
             ]
           },
           "friction": {
-            "define": "As a friction, words leave you before they settle, and holding one back feels like shrinking. You end up drained and explaining what you never meant.",
+            "define": "As a friction, words leave you before you have weighed them, and holding one back feels like shrinking. You end up drained and explaining what you never meant.",
             "ledger": [
               {
                 "word": "Overshares",
@@ -2242,7 +2242,7 @@
                 "angles": {
                   "drive": "You share what comes to you as easily as it came. You would rather share a windfall out than put it away. Around you, a bit of good fortune turns into a party for everyone.",
                   "cost_self": "Sharing freely is how you stay light. You share the whole windfall instead of keeping any, because holding money feels like holding your breath. A good year leaves you with full memories and an empty account.",
-                  "cost_others": "Whenever luck lands, you share it outward first. You share it all at once rather than spread it out, and every feast you throw comes before a long gap. Life around you swings between plenty and making do."
+                  "cost_others": "Whenever luck turns up, you share it outward first. You share it all at once rather than spread it out, and every feast you throw comes before a long gap. Life around you swings between plenty and making do."
                 }
               }
             ]
@@ -2262,7 +2262,7 @@
                 "word": "Spends it fast",
                 "angles": {
                   "drive": "You spend a windfall at the speed it arrived. Money that comes fast feels unreal to you, and spending it fast feels more honest than saving it. Whatever comes fast, you spend before it ever becomes yours.",
-                  "cost_self": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last one, you meet the next real opening with nothing to put in.",
+                  "cost_self": "Spending fast proves the money was real. You spend the windfall instead of keeping any, because keeping feels like waiting. Having spent the last one, you meet the next good opening with nothing to put in.",
                   "cost_others": "Whenever money arrives fast, you spend it on the people around you. You would rather give everyone a good time today than keep some for the months after. The faster you spend it, the longer you leave home short through the lean months."
                 }
               },
@@ -2428,7 +2428,7 @@
                 "word": "Earns trust slowly",
                 "angles": {
                   "drive": "You earn trust slowly and prefer it that way. You care about being counted on more than being liked, so you earn trust by record rather than by charm. The faith people place in you survives a bad year.",
-                  "cost_self": "Slowly earned trust is the only trust you believe. You would rather earn trust over a year than win it in a day, since quick trust feels false. Work that needed you this month goes to someone with an easier smile.",
+                  "cost_self": "Slowly earned trust is the only trust you believe. You build trust over a year rather than win it in a day, since quick trust feels false. Work that needed you this month goes to someone with an easier smile.",
                   "cost_others": "Trust from you comes as slowly as you earn it. Since easy trust feels false to you, you make a new person earn it rather than let them in. Newcomers spend a long first year on the outside of your circle."
                 }
               },
@@ -2567,7 +2567,7 @@
                 "angles": {
                   "drive": "Being patient comes easily to you. Letting a thing come in its own time feels more honest than forcing it, and you can wait on a question for months. Shy people and half-formed ideas both get a fair hearing from you.",
                   "cost_self": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. Some of what you most hoped for went to people who spoke up.",
-                  "cost_others": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. With you nearby, a struggling friend never feels pushed or judged."
+                  "cost_others": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. Beside you, a struggling friend never feels pushed or judged."
                 }
               }
             ]
@@ -2587,7 +2587,7 @@
                 "word": "Stays sheltered",
                 "angles": {
                   "drive": "You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known over the better whenever the two come apart. You pass up the life that leaving would have given you.",
-                  "cost_self": "Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again.",
+                  "cost_self": "Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, and you stay long after you were free to go. You are allowed to be tested and come home again.",
                   "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe over being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
                 }
               },
@@ -2717,7 +2717,7 @@
                 "word": "Spends for show",
                 "angles": {
                   "drive": "You spend for show whenever the table is watching. Picking up the bill feels like winning the night, so you pay for everyone rather than let a rival treat you. You were buying a place at the table that was already yours.",
-                  "cost_self": "Spending for show costs more than the bill says. You put the big gesture ahead of the quiet balance, because being seen to give beats being secure. You are allowed to be generous in private.",
+                  "cost_self": "Spending for show costs more than the bill says. You put the big gesture before the quiet balance, because being seen to give beats being secure. You are allowed to be generous in private.",
                   "cost_others": "Whenever a friend reaches for the bill, you are already spending for show. Paying matters more than letting them have a turn, so you take their round. You leave them no chance to be generous back with you."
                 }
               },
@@ -2726,7 +2726,7 @@
                 "angles": {
                   "drive": "You are never off, because off feels like falling behind. You would rather run past everyone than stop and ask who was racing you, since you see no finish. As the only one timing this race, you are free to call it done.",
                   "cost_self": "Never being off is your pride and what wears you down. You keep the pace up rather than admit you are tired, because tired looks like losing. Later you repay every skipped rest, and at a higher price.",
-                  "cost_others": "Even with a friend, you stay switched on and hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove."
+                  "cost_others": "Even with friends, you stay switched on and hand them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove."
                 }
               }
             ]
@@ -2781,7 +2781,7 @@
               {
                 "word": "Drifts",
                 "angles": {
-                  "drive": "You drift toward whatever asks the least of you. You treat comfort as the reward you are owed, and you let a day drift rather than steer it. You land where the days carry you instead of where you meant to go.",
+                  "drive": "You drift toward whatever asks the least of you. You treat ease as the reward you are owed, and you let a day drift rather than steer it. You land where the days carry you instead of where you meant to go.",
                   "cost_self": "Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so once again you put off the thing you meant to start. You lose the one thing you most wanted to make, a day at a time.",
                   "cost_others": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Day after day, you leave them to make the choices for you both."
                 }
@@ -2840,7 +2840,7 @@
                 "angles": {
                   "drive": "Talking back comes faster to you than letting it pass. Being told what to do feels like shrinking, and you talk back rather than let a rule stand. You win the moment and spend goodwill you will need the next time you ask for something.",
                   "cost_self": "Getting pushed around is what talking back saves you from. Being right out loud counts for more with you than being kept on, and you say the thing that ends the conversation. Over time, you talk yourself out of the chances you wanted most.",
-                  "cost_others": "You talk back to whoever asks something of you before the ask is done. You hear a request as a demand, and you answer the tone more than the need. Each time, you leave them without the simple answer they came for."
+                  "cost_others": "You talk back to whoever asks something of you before they have finished. You hear a request as a demand, and you answer the tone more than the need. Each time, you leave them without the simple answer they came for."
                 }
               },
               {

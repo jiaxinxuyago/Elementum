@@ -77,7 +77,7 @@
             "word": "Earns trust slowly",
             "angles": {
               "drive": "You earn trust slowly and prefer it that way. You care about being counted on more than being liked, so you earn trust by record rather than by charm. The faith people place in you survives a bad year.",
-              "cost_self": "Slowly earned trust is the only trust you believe. You would rather earn trust over a year than win it in a day, since quick trust feels false. Work that needed you this month goes to someone with an easier smile.",
+              "cost_self": "Slowly earned trust is the only trust you believe. You build trust over a year rather than win it in a day, since quick trust feels false. Work that needed you this month goes to someone with an easier smile.",
               "cost_others": "Trust from you comes as slowly as you earn it. Since easy trust feels false to you, you make a new person earn it rather than let them in. Newcomers spend a long first year on the outside of your circle."
             }
           },
@@ -601,6 +601,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 water:W-038",
       "replaced": "You bite your tongue hardest around the people who need your answer. You keep things smooth instead of saying what you see, so you bite down while a bad plan passes. Biting your tongue costs them the one no they needed from you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 water:W4-13",
+      "replaced": "Slowly earned trust is the only trust you believe. You would rather earn trust over a year than win it in a day, since quick trust feels false. Work that needed you this month goes to someone with an easier smile."
     }
   ]
 }

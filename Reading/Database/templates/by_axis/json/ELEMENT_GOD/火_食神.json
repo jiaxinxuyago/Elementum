@@ -105,7 +105,7 @@
           {
             "word": "Drifts",
             "angles": {
-              "drive": "You drift toward whatever asks the least of you. You treat comfort as the reward you are owed, and you let a day drift rather than steer it. You land where the days carry you instead of where you meant to go.",
+              "drive": "You drift toward whatever asks the least of you. You treat ease as the reward you are owed, and you let a day drift rather than steer it. You land where the days carry you instead of where you meant to go.",
               "cost_self": "Drifting costs you nothing on any single day. Taking it easy feels better than taking it on, so once again you put off the thing you meant to start. You lose the one thing you most wanted to make, a day at a time.",
               "cost_others": "Whatever the people around you decide, you drift along with it. Going along feels better than having a view, and you hand the deciding to whoever is nearest. Day after day, you leave them to make the choices for you both."
             }
@@ -651,6 +651,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 fire:F3-10",
       "replaced": "You make hard things look easy. You would rather show the finished thing than the work, and you leave the people learning from you the ease without the steps. Anyone watching you sees how good the result can be."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 cross:X4-11",
+      "replaced": "You drift toward whatever asks the least of you. You treat comfort as the reward you are owed, and you let a day drift rather than steer it. You land where the days carry you instead of where you meant to go."
     }
   ]
 }

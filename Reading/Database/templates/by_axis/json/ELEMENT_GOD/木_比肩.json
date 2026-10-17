@@ -115,7 +115,7 @@
             "angles": {
               "drive": "A little distance is your default with almost everyone. There is more of you than you want anyone handling, and you keep people at arm's length instead of letting them close. You keep that distance for safety, and it keeps the company out as well.",
               "cost_self": "Keeping your distance is the habit that costs most and shows least. You would rather be a little alone than fully known, and you stay just out of reach. Out of reach, you miss the very closeness you keep out.",
-              "cost_others": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and your friends stay at the door. With that distance, you cost them a friend they could have reached."
+              "cost_others": "You hold people at a distance that feels polite from your side. Being left alone matters more than being sought out, and your friends stay at the door. With that distance, you cost them a friend they could have reached."
             }
           }
         ]
@@ -627,6 +627,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 wood:W3-010",
       "replaced": "Asking comes last, well after the point where it would have worked. Owing anyone feels like losing ground, and you carry the whole load instead of sharing it. You are allowed to owe someone a piece of the load."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 wood:W4-T1",
+      "replaced": "You hold people at a distance that feels polite from your side. Being left alone matters more than being reached for, and your friends stay at the door. With that distance, you cost them a friend they could have reached."
     }
   ]
 }

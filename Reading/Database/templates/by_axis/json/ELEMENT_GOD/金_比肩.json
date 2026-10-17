@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Your strength recovers alone and gets spent in company. Being seen low feels like a debt you never repay, so you recover quietly instead of calling anyone. What you want is to walk back in whole, owing no one.",
               "cost_self": "Out of sight is where you recover until whole again. Arriving half-built feels worse than arriving late, and you take the long quiet over the quick ask. The worst weeks of your life are the ones nobody saw you through.",
-              "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than be seen recovering, and give them the finished version only. Your closest people meet you only on your good days."
+              "cost_others": "Recovering alone spares the people near you your worst days. You return recovered rather than be seen recovering, and give them the finished version only. Those closest to you meet you only on your good days."
             }
           }
         ]
@@ -106,7 +106,7 @@
             "word": "Unteachable",
             "angles": {
               "drive": "Being taught lands on you as an attack first and information second. Afraid of looking smaller, you put your own judgment ahead of any peer's lesson. You are taught only by people you let be right, and you rarely let them.",
-              "cost_self": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend your position rather than learn from theirs. You lose every lesson that needed you to be wrong before it could teach you.",
+              "cost_self": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend your position rather than learn from theirs. You miss every lesson that needed you to be wrong before it could teach you.",
               "cost_others": "Teaching the people around you comes easier than being taught. Your standard sits above theirs by default, and you hand out the fix before the question. You leave your peers no turn at being right."
             }
           },
@@ -923,6 +923,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 metal:MT3-16",
       "replaced": "Metal runs through your family, your growth and your social life. It is the weight you carry at home without being asked, the standard you keep raising in private, and the friend who walks beside people rather than ahead of them."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 metal:MR4-06",
+      "replaced": "Whenever someone tries to teach you, you check the messenger first. Since being right is how you stay safe, you defend your position rather than learn from theirs. You lose every lesson that needed you to be wrong before it could teach you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 metal:MR4-10",
+      "replaced": "Recovering alone spares the people near you your worst days. You return recovered rather than be seen recovering, and give them the finished version only. Your closest people meet you only on your good days."
     }
   ]
 }

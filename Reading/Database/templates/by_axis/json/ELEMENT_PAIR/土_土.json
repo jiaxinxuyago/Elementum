@@ -26,7 +26,7 @@
       "definition_friction": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. You give up closeness to keep your place.",
       "definition_balanced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, your strength carries what is yours at an even pace. Your effort and your recovery keep step with each other.",
       "advise_catalyst": "Most of what you give up, you give up tired. Wait for the whole answer before you agree to anything. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn.",
-      "advise_friction": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Keep to one rule for a month that someone else set.",
+      "advise_friction": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. For a month, keep to one rule that someone else set.",
       "advise_balanced": "Your ground stays firm while the load you carry matches the strength you keep for it. Keep one routine that survives a bad month. Tend one pot of herbs from spring to autumn."
     },
     "cta_verdict": "You would rather go the distance than win a sprint, and you tend to do your best in the second half of anything long.",
@@ -312,6 +312,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2-1",
       "replaced": "Your Body is the strength the whole of you stands on. Earth gives it weight and patience under a load. In balance, you stand on your own strength and still lean on a peer when it helps. You keep your ground without having to prove it."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-07",
+      "replaced": "Seek Wood, the Order energy. Wood pushes up through packed soil and reaches for a height it has to earn. Let it shape what Earth stores. You hold your ground even where giving way would cost you nothing. Put one plan up for review before you start it. Keep to one rule for a month that someone else set."
     }
   ]
 }

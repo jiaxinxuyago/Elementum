@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Being patient comes easily to you. Letting a thing come in its own time feels more honest than forcing it, and you can wait on a question for months. Shy people and half-formed ideas both get a fair hearing from you.",
               "cost_self": "Being patient also means you never have to ask. Waiting for a thing to come to you feels easier than reaching, so the wanting stays quiet until the chance passes. Some of what you most hoped for went to people who spoke up.",
-              "cost_others": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. With you nearby, a struggling friend never feels pushed or judged."
+              "cost_others": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. Beside you, a struggling friend never feels pushed or judged."
             }
           }
         ]
@@ -106,7 +106,7 @@
             "word": "Stays sheltered",
             "angles": {
               "drive": "You stay where it is safe well after you have outgrown it. Shelter is the thing you trust most, so you pick the known over the better whenever the two come apart. You pass up the life that leaving would have given you.",
-              "cost_self": "Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again.",
+              "cost_self": "Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, and you stay long after you were free to go. You are allowed to be tested and come home again.",
               "cost_others": "Staying sheltered keeps you home while others go out. You pick being safe over being there, and watch the invitations thin out instead of going. You hand those you love your safety in place of your company."
             }
           },
@@ -649,6 +649,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
       "finding": "R3 water:W-016",
       "replaced": "When someone close to you is upset, you become the calm for both. Being needed suits you more than being known, and your own trouble never shows. The people you shelter seldom get the chance to look after you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 water:W4-10",
+      "replaced": "Staying in is how you avoid being tested. Feeling unready is easier to live with than failing, and you stay long past the day leaving was open to you. You are allowed to be tested and come home again."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 water:W4-12",
+      "replaced": "You wait for a person to be ready rather than hurry them toward it. Not hurrying feels like respect, and you let someone stay stuck longer than kindness needed. With you nearby, a struggling friend never feels pushed or judged."
     }
   ]
 }

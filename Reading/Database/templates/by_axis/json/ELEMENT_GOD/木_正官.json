@@ -92,7 +92,7 @@
         ]
       },
       "friction": {
-        "define": "As a friction, the rules spread past where they belong, and order feels too safe to question. The structure that steadied you starts to box you in.",
+        "define": "As a friction, the rules spread past where they belong, and order seems too safe to question. The structure that steadied you starts to box you in.",
         "ledger": [
           {
             "word": "By the book",
@@ -619,6 +619,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Your team spends extra years proving what you already see in them."
+    },
+    {
+      "field": "fn_reading.friction.define",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 wood:W4-T11",
+      "replaced": "As a friction, the rules spread past where they belong, and order feels too safe to question. The structure that steadied you starts to box you in."
     }
   ]
 }

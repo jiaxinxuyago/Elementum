@@ -63,7 +63,7 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "As a catalyst, the gate opens slowly and little comes through at once. The little that does is modest and useful and asks for no audience.",
+        "define": "As a catalyst, the gate opens only a crack and little comes through at once. The little that does is modest and useful and asks for no audience.",
         "ledger": [
           {
             "word": "Gives first",
@@ -86,7 +86,7 @@
             "angles": {
               "drive": "Enough is a place you can live in. Being happy with what is here comes easier than wanting, so you enjoy what you have rather than chase what you lack. There is a peace in your home that money rarely buys.",
               "cost_self": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Chances you never pushed for go to people who did.",
-              "cost_others": "At home, enough is the mood you set. Since you are content with enough, you let the people around you rest rather than push them for more. Those close to you live free of the itch of always wanting more."
+              "cost_others": "At home, enough is the mood you set. Since you are content with enough, you let others rest rather than push them harder. Those close to you live free of the itch of always wanting more."
             }
           }
         ]
@@ -609,6 +609,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-4",
       "replaced": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Raises and roles you never pushed for go to people who did."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-16",
+      "replaced": "At home, enough is the mood you set. Since you are content with enough, you let the people around you rest rather than push them for more. Those close to you live free of the itch of always wanting more."
+    },
+    {
+      "field": "fn_reading.catalyst.define",
+      "adopted_from": "final-audit-r4-tweaks",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
+      "finding": "R4 earth:E4-17",
+      "replaced": "As a catalyst, the gate opens slowly and little comes through at once. The little that does is modest and useful and asks for no audience."
     }
   ]
 }

@@ -106,7 +106,7 @@
         "key": "金_正官",
         "canonical_name": "The Magistrate",
         "value": {
-          "lead": "Metal runs through your family, your social life and your career. It is the promise at home that stands when keeping it is hard, the friend who turns up at the agreed hour, and the rank you reach a proper step at a time.",
+          "lead": "Metal runs through your family, your social life and your career. It is the promise at home that stands when keeping it costs you, the friend who turns up at the agreed hour, and the rank you reach a proper step at a time.",
           "domains": [
             "Family",
             "Social",
@@ -344,7 +344,7 @@
         "key": "木_偏财",
         "canonical_name": "The Horizon",
         "value": {
-          "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives before anyone asks, and the trip your friends still weigh while you are already packed.",
+          "lead": "Wood runs through your wealth, your family and your social life. It is the opening you see before the sign is up, the hand at home that gives without being asked, and the trip your friends still weigh while you are already packed.",
           "domains": [
             "Wealth",
             "Family",
@@ -400,7 +400,7 @@
         "key": "木_偏印",
         "canonical_name": "The Alchemist",
         "value": {
-          "lead": "Wood runs through your mind, your growth and your career. It is the far-apart things in your head that fit together, the next you that slips in by a side door, and the shift at work you feel before anyone says it.",
+          "lead": "Wood runs through your mind, your growth and your career. It is the far-apart things in your head that fit together, the next you that slips in by a side door, and the shift at work you feel while others still miss it.",
           "domains": [
             "Mind",
             "Growth",
