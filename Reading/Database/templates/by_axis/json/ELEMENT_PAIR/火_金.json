@@ -22,7 +22,7 @@
       "primary": "action",
       "definition_catalyst": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. As a catalyst, the edge runs thin. You work in short strokes and your gains come in pieces.",
       "definition_friction": "Your Action is what you go and build, claim and provide. Metal keeps it exact, and nothing you claim counts until it is finished. As a friction, your Action takes more strength than you have, and little is left to enjoy what is already yours.",
-      "definition_balanced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. What comes in is enjoyed, and some of it stays.",
+      "definition_balanced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. Your reach and your means keep the same pace.",
       "advise_catalyst": "Your drive is short, and each piece of it needs a clear place to go. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never. Clear out one drawer and give away what you have not used in a year.",
       "advise_friction": "Seek Fire, your own Body energy. Fire is warmth kept in, the fuel and rest that keep a light lit before it works on anything. Let it hold what Metal spends. You spend your strength on your claims, not yourself, and tired is where you make your worst deals. Never bargain cold or hungry. Talk deals through with a friend.",
       "advise_balanced": "Your drive goes where it counts while your aims stay few and clear. Choose one aim for this month and cross two others off. Sort your open tasks into now, later and never."
@@ -348,6 +348,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2-1",
       "replaced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, you claim what you can carry and see it through. What comes in is enjoyed and kept."
+    },
+    {
+      "field": "function.definition_balanced",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 cross:X3-04",
+      "replaced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. What comes in is enjoyed, and some of it stays."
     }
   ]
 }

@@ -76,7 +76,7 @@
           {
             "word": "Takes people in",
             "angles": {
-              "drive": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. Several friends got through their worst year under your roof.",
+              "drive": "You take people in, spare bed and all. A safe place is what you want most, and making one for others comes easier than finding your own. Friends in a bad week know where to come.",
               "cost_self": "Taking people in makes a house matter. You put someone's shelter ahead of your own quiet, and your sleep is the first thing to go. Your home is rarely fully yours, and your evenings belong to guests.",
               "cost_others": "For as long as they need and longer, you keep taking people in. Keeping someone sheltered feels kinder than asking when they leave, until a month runs to a year. Your guests get time to mend without a clock running."
             }
@@ -603,6 +603,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 wood:W3-014",
       "replaced": "Wood runs through your family, your mind and your health. It is the patience you keep for the slow starter at home, the questions you keep asking after others stop, and the ease that settles on whoever sits beside you."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 cross:X3-15+R3 wood:W3-001",
+      "replaced": "You take people in, spare bed and all. Being the safe place is how you feel most yourself, so you would rather shelter someone than be sheltered. Several friends got through their worst year under your roof."
     }
   ]
 }

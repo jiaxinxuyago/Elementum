@@ -115,7 +115,7 @@
             "angles": {
               "drive": "The same old answers are the ones you reach for first. Because you trust a handed-down answer over a new one, you ask the same few voices rather than a stranger. You keep the answer long after the question has moved on.",
               "cost_self": "Reaching for the same old answer beats finding a fresh one. You trust what you were told over what you tested, so you stop asking early. You inherited those answers rather than earned them, and you own only what you earn.",
-              "cost_others": "Your first answer to someone's new idea is the same old one. Because you find a tested answer kinder, you give the old one rather than the one asked for. You send them off with your answer in place of theirs."
+              "cost_others": "Your first reply to someone's new idea is what worked last time. A tested answer feels kinder to you than an untried one, and you give it before you hear them out. You send them off with your answer in place of theirs."
             }
           }
         ]
@@ -937,6 +937,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 earth:E3-17",
       "replaced": "When trouble lands on someone you love, you protect them as your own. You carry their trouble rather than let them carry it, and pick up weight nobody handed you. Underneath, you want the same shelter you give to others."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 earth:E3-05",
+      "replaced": "Your first answer to someone's new idea is the same old one. Because you find a tested answer kinder, you give the old one rather than the one asked for. You send them off with your answer in place of theirs."
     }
   ]
 }

@@ -1,0 +1,115 @@
+[
+ {
+  "key": "PAIR 木_土 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, firm ground holds under each new reach. Whatever you chase, something solid stays under your feet."
+ },
+ {
+  "key": "PAIR 火_金 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. Your reach and your means keep the same pace."
+ },
+ {
+  "key": "PAIR 土_水 · function.definition_balanced",
+  "text": "Your Action is what you go and build, claim and provide. Water gives it a current, and you gain most on the move. In balance, the current moves at your pace. You go out and come back at a steady rhythm."
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "A race wakes you up like nothing else. Someone running beside you is your best fuel, since a pace you can see beats one you must invent. What you want is a rival worth racing."
+ },
+ {
+  "key": "PAIR 木_水 · function.advise_friction",
+  "text": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Make one choice this week and act on it the same day. Fix one broken thing with your own hands."
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Where you believe in someone, you become impossible to please. Because you want them at their best, you pass on the strain as much as the standard. You walk away with their ease and leave them guessing what would please you.",
+  "no_change_reason": "X3-14 is a chip clash: two personas own the chip \"Impossible to please\" on one chart. The fix is a rename of the chip (the ledger word), which is a separate field outside this worklist. The drive and cost_self passages of the same keyword also open on \"impossible to please\", so changing this passage alone would leave it off its own chip. Needs the chip renamed first (auditor suggests \"Pushes people\"), then this passage can follow."
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "You take people in, spare bed and all. A safe place is what you want most, and making one for others comes easier than finding your own. Friends in a bad week know where to come."
+ },
+ {
+  "key": "PAIR 木_土 · function.advise_friction",
+  "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear. Start each week by clearing out one thing you no longer use. Say no to one request before you say yes again."
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "On a shared stake, you bet someone else's year with your own. You would rather win big for everyone in it than keep half safe, and their doubts only push you further. You take whoever is in it with you through every swing."
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Your first reply to someone's new idea is what worked last time. A tested answer feels kinder to you than an untried one, and you give it before you hear them out. You send them off with your answer in place of theirs."
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You set a standard for the whole group. You would rather people see the bar than guess at it, and you meet it yourself before you ask it of them. Your group works to a mark it had no say in choosing."
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even with money you pooled with friends. Along with the money, you spend a plan you made together."
+ },
+ {
+  "key": "K2 土_偏财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You are spread so thin that no one thing gets enough of you. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to drop a few and give one your all."
+ },
+ {
+  "key": "K2 土_伤官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. Stopping at the half that helps is honest too."
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Spending on the people you love comes no easier than spending on yourself. Giving less feels safer than giving more, and you cut back on them as hard as on yourself. You take what you save out of their share."
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.define",
+  "text": "As a catalyst, few of those demands reach you. You look for a standard worth meeting, and rank comes slowly through proof."
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "The people closest to you are the first you look past. Getting to the next venture matters more to you than being with them, so you give them what is left. You keep your full attention from them, even on evenings you share."
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "In meetings you wait your turn to speak, and the idea waits with you. Speaking first feels like putting yourself above others, and the talk moves on before your turn comes. You walk out with the idea that would have helped them."
+ },
+ {
+  "key": "PAIR 土_金 · function.definition_balanced",
+  "text": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. You give out no faster than you refill."
+ },
+ {
+  "key": "PAIR 火_水 · function.advise_friction",
+  "text": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart and grow nothing of your own. Begin one thing this month that is only yours. Leave it off every list."
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Your bets carry other people's names. You would rather share a risk than carry it alone, and that puts their money where your nerve is. Their savings rise and fall with your choices."
+ },
+ {
+  "key": "PAIR 木_木 · function.definition_friction",
+  "text": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every shared plan, because your own way is the one you trust. You press on without checking who is still beside you."
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Whenever the people close to you run short, you are generous before being asked. A gift ties you down less than a shared plan, and you give instead of building something together. Nobody near you goes without for long."
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.friction.ledger[2].angles.cost_self",
+  "text": "Putting comfort first gets you through a hard week. Because the easy choice calms you now and the right one pays later, you choose ease over effort. You let good chances go by to stay comfortable, and few come back."
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You make the people who love you prove it first. Trusting early feels like handing someone the means to hurt you, and proof has to come before closeness. You leave them all the work of getting near you."
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Whenever someone near you wants something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Nobody close to you has to worry about next month."
+ },
+ {
+  "key": "PAIR 土_木 · function.definition_balanced",
+  "text": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. In balance, what is asked of you fits the life you are building. You meet each new demand at a steady pace."
+ },
+ {
+  "key": "PAIR 火_木 · function.advise_friction",
+  "text": "Seek Metal, the Action energy. Metal is the finished line, the point where a thing is decided and sent on its way. Let it spend what Wood piles up. You keep what you take in, ideas and people alike, because letting go seems like losing. Close one open question this week. Send one idea out before it is polished."
+ }
+]

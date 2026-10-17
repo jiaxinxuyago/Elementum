@@ -105,7 +105,7 @@
           {
             "word": "Spread too thin",
             "angles": {
-              "drive": "You are spread across more things than any one of them can use. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to say no and give one of them all of you.",
+              "drive": "You are spread so thin that no one thing gets enough of you. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to drop a few and give one your all.",
               "cost_self": "Spreading yourself thin feels safer than betting on one thing, and it keeps you tired. You give each venture enough to stay in rather than enough to win, since quitting feels like losing. You are allowed to end one and call it a choice.",
               "cost_others": "Wherever you can reach, you spread yourself across every person and plan. Keeping every option alive matters more to you than giving one your whole attention. You offer each person and plan a slice of you too thin to count on."
             }
@@ -651,6 +651,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 earth:E3-11",
       "replaced": "As a friction, more comes within reach than you can hold, because something new is what lifts you. Much of what you claim slips away before it pays."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 earth:E3-08",
+      "replaced": "You are spread across more things than any one of them can use. Saying no feels like losing, so you hold many small pieces rather than one whole thing. You have every right to say no and give one of them all of you."
     }
   ]
 }

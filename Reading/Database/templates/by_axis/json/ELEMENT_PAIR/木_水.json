@@ -26,7 +26,7 @@
       "definition_friction": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, because knowing more feels safer than moving. The moment to act passes while you wait.",
       "definition_balanced": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives.",
       "advise_catalyst": "Your Mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it.",
-      "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands.",
+      "advise_friction": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Make one choice this week and act on it the same day. Fix one broken thing with your own hands.",
       "advise_balanced": "Your Mind takes in as much as it uses, and the mix holds while both keep moving. Ask one person who knows more than you and wait for the whole reply. Leave one hard question open for a week before you answer it."
     },
     "cta_verdict": "You understand things by soaking in them rather than studying them, and your best decisions come after a night's sleep instead of a second search.",
@@ -343,6 +343,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2-1",
       "replaced": null
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 cross:X3-11+R3 water:W-015",
+      "replaced": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands."
     }
   ]
 }

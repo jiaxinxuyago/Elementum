@@ -78,7 +78,7 @@
             "angles": {
               "drive": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. You weather bad years that sink other people.",
               "cost_self": "Your safety lives in what you have saved. Since you put feeling covered ahead of feeling alive, you save by postponing the small pleasures. Whole seasons of your life pass without a single treat.",
-              "cost_others": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Your family never wonders where the next month's money comes from."
+              "cost_others": "Whenever someone near you wants something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Nobody close to you has to worry about next month."
             }
           },
           {
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "Trusting takes you years, losing it an afternoon. Being fooled is what you fear, and you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
               "cost_self": "Whenever you let someone new near, you take years to trust. Since a wrong guess feels worse than loneliness, you hold out for proof before trusting. Holding out, you lose the closeness and the years that waiting for proof uses up.",
-              "cost_others": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You hand all the proving to the one you love while you wait to trust."
+              "cost_others": "You make the people who love you prove it first. Trusting early feels like handing someone the means to hurt you, and proof has to come before closeness. You leave them all the work of getting near you."
             }
           }
         ]
@@ -971,6 +971,22 @@
       "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
       "finding": "R3 soft close (want)",
       "replaced": "With money, you count before you feel. Because being caught short frightens you more than being bored, you count the cost instead of living the day. You give up the easy days that all your counting was meant to buy."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 wood:W3-006",
+      "replaced": "You make the people who love you prove it first. Trusting first feels like handing over the means to hurt you, so you ask for proof. You hand all the proving to the one you love while you wait to trust."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 wood:W3-007",
+      "replaced": "Whenever the people at home want something, you are already saving. Because safety together matters more than happiness today, you set saving above the wish. Your family never wonders where the next month's money comes from."
     }
   ]
 }

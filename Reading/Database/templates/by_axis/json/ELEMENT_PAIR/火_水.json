@@ -25,7 +25,7 @@
       "definition_friction": "Your Order is the rules you answer to and the rank you hold by them. Water keeps it deep, and rules sink in to stay. As a friction, the rules outweigh what you want. You give up ease to keep them.",
       "definition_balanced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. In balance, the rules you keep are your own choice. Rank comes as the work earns it.",
       "advise_catalyst": "You do your best work with a date on it and someone waiting at the other end. Ask for honest feedback on one thing you made and just listen. Learn how one new task is done before you start on it. Leave an hour empty between two big jobs.",
-      "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Begin one thing this month that is only yours. Keep it off every list.",
+      "advise_friction": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart and grow nothing of your own. Begin one thing this month that is only yours. Leave it off every list.",
       "advise_balanced": "Your rules stay light while you take in as much as you take on. Ask for honest feedback on one thing you made and just listen. Leave an hour empty between two big jobs."
     },
     "cta_verdict": "You take a rule in quietly and keep it for years, and you would rather answer to a standard you chose than to a voice raised at you.",
@@ -341,6 +341,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 water:W-026",
       "replaced": "Your Order is the rules you answer to and the rank you hold by them. Water makes it cool and deep, and a rule settles in quietly. As a catalyst, the pull stays faint and you seldom reach for rank. Rank comes late and by your record."
+    },
+    {
+      "field": "function.advise_friction",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 water:W-014",
+      "replaced": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Begin one thing this month that is only yours. Keep it off every list."
     }
   ]
 }

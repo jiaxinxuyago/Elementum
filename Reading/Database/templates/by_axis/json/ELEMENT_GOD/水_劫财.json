@@ -68,7 +68,7 @@
           {
             "word": "Loves a race",
             "angles": {
-              "drive": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. Your best work shows up with someone fast at your shoulder.",
+              "drive": "A race gets all of you moving. You come alive with a rival in sight, and chasing a real person drives you harder than any plan. Your best work shows up with someone fast at your shoulder.",
               "cost_self": "You feel most alive inside a race. You dread standing still, and you race more than you rest and spend what the quiet weeks put back. The tiredness from one contest is still in you at the start of the next.",
               "cost_others": "Every race you love needs someone else in it. You make a rival of a peer without asking first, and the race starts on your word. Time with you comes with a scoreboard running."
             }
@@ -77,7 +77,7 @@
             "word": "Jumps in first",
             "angles": {
               "drive": "Jumping in first is how you learn what a thing is like. You want to feel things for yourself, and being inside a decision suits you better than planning beside it. You bring back first-hand news while everyone else is still reading about it.",
-              "cost_self": "Going first is where your boldness lives. Little Water backs you, and you jump in before reading the plan, while early mistakes come out of your savings. Your bank balance carries the lessons everyone after you gets for free.",
+              "cost_self": "Going first is where your boldness lives. Coming second feels like losing, and you jump in before reading the plan with your own savings on the line. Your bank balance carries the lessons everyone after you gets for free.",
               "cost_others": "Whenever you go first, you pull the one closest to you in after you. You decide for both before asking, and you take the risk in their name too. The person beside you gets courage on loan the moment you move."
             }
           },
@@ -675,6 +675,22 @@
       "ruling": "Owner 2026-10-17: round-2 majors R2-3 (the reader's need as the cause) and R2-4 (neutral people) approved; the round-2 Minor fixes (A3 excluded)",
       "finding": "R2-3",
       "replaced": "Never having enough keeps you bold after the boldness has paid. Water runs over in you, and you spend the win on the next race rather than bank it. You end each year with more wins than savings."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[0].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 cross:X3-10+R3 water:W-010",
+      "replaced": "A race gets all of you moving. You run on a small supply of Water, and chasing a real person refills it better than following a plan. Your best work shows up with someone fast at your shoulder."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_self",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 water:W-011",
+      "replaced": "Going first is where your boldness lives. Little Water backs you, and you jump in before reading the plan, while early mistakes come out of your savings. Your bank balance carries the lessons everyone after you gets for free."
     }
   ]
 }

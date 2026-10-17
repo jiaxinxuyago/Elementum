@@ -23,7 +23,7 @@
     "function": {
       "primary": "body",
       "definition_catalyst": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You save it for the few things that matter most.",
-      "definition_friction": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every plan and partner, because your own way is the one you trust. You press on and lose the people beside you.",
+      "definition_friction": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every shared plan, because your own way is the one you trust. You press on without checking who is still beside you.",
       "definition_balanced": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. In balance, what goes in keeps pace with the reach. You hold your own ground and still have space for a peer beside you.",
       "advise_catalyst": "Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and tend it until it stands on its own. Hand one errand to someone else this month and leave it with them.",
       "advise_friction": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Close one open project this week and say it is done. Let someone else set the end point for one plan.",
@@ -317,6 +317,14 @@
       "ruling": "Owner 2026-10-17: round-2 majors approved (R2-1 balanced advice and definitions, R2-4 neutral people, R2-5 acts by meaning per reader set) and the Minor fixes on shared fields.",
       "finding": "R2 pairs",
       "replaced": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You often run out before the thing is done."
+    },
+    {
+      "field": "function.definition_friction",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 wood:W3-003",
+      "replaced": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every plan and partner, because your own way is the one you trust. You press on and lose the people beside you."
     }
   ]
 }

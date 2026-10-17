@@ -78,7 +78,7 @@
             "angles": {
               "drive": "You bet big because only a real stake gets all of you, and you would rather risk a lot on one move than a little on many. The wins you land are big enough to change your year.",
               "cost_self": "When you bet big, you lose big too. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound.",
-              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. You take whoever is in it with you through every swing."
+              "cost_others": "On a shared stake, you bet someone else's year with your own. You would rather win big for everyone in it than keep half safe, and their doubts only push you further. You take whoever is in it with you through every swing."
             }
           },
           {
@@ -115,7 +115,7 @@
             "angles": {
               "drive": "As a contest gets close, you spend to win it. You would rather pay to stay ahead than risk falling behind, and you spend to prove a point. Ask yourself before you pay whether you want the thing or only the win.",
               "cost_self": "Where you spend to win, you end up with the win and without the money. You would rather look ahead of a rival than quietly stay ahead, so the savings go on rounds nobody asked for. You count the cost when the account runs dry.",
-              "cost_others": "Paying for everyone feels like winning to you, even when the money is shared. You would rather cover the whole bill than split it, and you dip into money pooled with others. Along with the money, you spend a plan you made together."
+              "cost_others": "Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, even with money you pooled with friends. Along with the money, you spend a plan you made together."
             }
           }
         ]
@@ -595,6 +595,22 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 earth:E3-14",
       "replaced": "Where you bet big, you lose at the same size. You stake the whole amount instead of keeping some in reserve. One bad call takes years of savings with it, and you feel every pound."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[1].angles.cost_others",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 earth:E3-03",
+      "replaced": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. You take whoever is in it with you through every swing."
+    },
+    {
+      "field": "fn_reading.friction.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 earth:E3-07",
+      "replaced": "Paying for everyone feels like winning to you, even when the money is shared. You would rather cover the whole bill than split it, and you dip into money pooled with others. Along with the money, you spend a plan you made together."
     }
   ]
 }

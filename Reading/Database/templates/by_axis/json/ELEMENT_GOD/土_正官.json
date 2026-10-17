@@ -86,7 +86,7 @@
             "angles": {
               "drive": "You set the standard before anyone asks for one. You would rather set a clear standard than argue over one, and the one you set binds you first. Around you, everyone knows what good looks like.",
               "cost_self": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure over anyone else's, and yours sits a step above you. Your best days still feel like falling short.",
-              "cost_others": "You set a standard for the whole group. You hold people to a standard they can see rather than guess at, and the standard you set is theirs to meet too. Your group works to a mark it had no say in choosing."
+              "cost_others": "You set a standard for the whole group. You would rather people see the bar than guess at it, and you meet it yourself before you ask it of them. Your group works to a mark it had no say in choosing."
             }
           }
         ]
@@ -611,6 +611,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 earth:E3-16",
       "replaced": "You wait for permission to take what is already yours. You trust an approval from above more than your own certainty, and you sit on a plan until someone signs it. You need nobody's signature on a plan that is already yours."
+    },
+    {
+      "field": "fn_reading.catalyst.ledger[2].angles.cost_others",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 earth:E3-06",
+      "replaced": "You set a standard for the whole group. You hold people to a standard they can see rather than guess at, and the standard you set is theirs to meet too. Your group works to a mark it had no say in choosing."
     }
   ]
 }

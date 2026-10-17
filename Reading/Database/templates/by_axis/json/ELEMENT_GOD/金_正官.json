@@ -99,7 +99,7 @@
             "angles": {
               "drive": "Needing permission comes before wanting, in your order of things. A rule outranks a wish in you, and you wait to be allowed rather than take what is yours. You hold the yes you keep waiting for, and it is yours to give.",
               "cost_self": "Permission is the thing you wait for most. A move without permission feels like a mistake, and you hold back at the door rather than walk through it. You pay in chances closed while waiting to be allowed.",
-              "cost_others": "You pass the need for permission to whoever comes to you. Permission from whoever signs off is the only yes you take, and you pass their questions on rather than settle them. You leave them waiting on a permission you were free to give."
+              "cost_others": "You pass the need for permission to whoever comes to you. A yes only counts once someone else gives it, and you send their questions on unanswered. You leave them waiting on a permission you were free to give."
             }
           },
           {
@@ -651,6 +651,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP)",
       "finding": "R3 metal:MT3-11",
       "replaced": "Hating being wrong is the part of you that works hardest. A mistake feels like a mark on your name, and you give silence in place of any answer that risks being wrong. You go silent on the answers you had right."
+    },
+    {
+      "field": "fn_reading.friction.ledger[0].angles.cost_others",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 metal:MT3-02",
+      "replaced": "You pass the need for permission to whoever comes to you. Permission from whoever signs off is the only yes you take, and you pass their questions on rather than settle them. You leave them waiting on a permission you were free to give."
     }
   ]
 }

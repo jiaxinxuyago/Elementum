@@ -105,7 +105,7 @@
           {
             "word": "Says too much",
             "angles": {
-              "drive": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. You are allowed to say the useful half and call it honest.",
+              "drive": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. Stopping at the half that helps is honest too.",
               "cost_self": "Saying too much proves to you that you have something to add. Since a held tongue feels like a wasted turn, you spend your standing on the extra line instead of the needed one. You talk away trust that comes back slower than it left.",
               "cost_others": "You say too much to whoever let you speak. Because a thought feels wasted unless it is said, you take their turn as much as your own. You leave the person beside you no chance to finish their own point."
             }
@@ -619,6 +619,14 @@
       "ruling": "Owner 2026-10-16: \"No shown page of only losses\" (a want or a permission close on a shown drive or cost-to-you slot), applied to the three passages a single-face friction page shows (round-3 F3-01)",
       "finding": "R3 soft close (permission)",
       "replaced": "Pushing back is your first reply to almost anything. Because agreeing feels like giving something up, you push against a plan rather than check if you mind it. You spend the same fight on a good plan as on a bad one."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].angles.drive",
+      "adopted_from": "final-audit-r3",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR and only a few MINOR; the round-3 Minor fixes under the standing rulings (A3 and settled items excluded)",
+      "finding": "R3 earth:E3-09",
+      "replaced": "Saying too much is the honesty you were built for. A thought left unsaid feels like a lie to you, so you say the whole thing rather than the useful half. You are allowed to say the useful half and call it honest."
     }
   ]
 }
