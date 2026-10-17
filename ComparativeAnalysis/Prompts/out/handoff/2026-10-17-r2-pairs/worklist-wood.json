@@ -1,0 +1,372 @@
+{
+ "core": "wood",
+ "cells": [
+  {
+   "pair_cell": "木_木",
+   "function": "body",
+   "energy": "Wood",
+   "sets": {
+    "weak": "advise_catalyst",
+    "strong": "advise_friction",
+    "balanced": "advise_balanced"
+   },
+   "catalyst_and_balanced_acts_draw_on": "Wood",
+   "remedy_acts_draw_on": "Metal",
+   "advise_catalyst": {
+    "text": "Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and give it water each morning. Hand one errand to someone else this month and leave it with them.",
+    "fixed": [
+     "Holding yourself up takes more than you are taking in."
+    ],
+    "acts": [
+     "Start one weekly session that builds your strength, like swimming or climbing.",
+     "Grow one plant from seed and give it water each morning.",
+     "Hand one errand to someone else this month and leave it with them."
+    ],
+    "notes": [
+     "MAJOR wood:W2-001 [A1, D1]: A Balanced page shows the catalyst advice, and that advice opens by naming a shortfall. The same page's definition says there is no shortfall, so the reader is told two opposite things a few lines apart. The S5 fix gave Balanced pages their own definition but not their own advice. | auditor: **Rule:** a Balanced page never shows a shortfall diagnosis. Option (a): one balanced advice per pair cell (25 texts). It opens with a diagnosis that names the balance and what keeps it, then gives two or three acts that keep the mix; the acts may be reused from the catalyst advice. Option (b): the Balanced page drops the advice's first sentence and shows only the acts under \"Keep the mix.\" Option (a) reads better. **Evidence beyond Wood** (the Balanced advice as it renders on the other energies"
+    ]
+   },
+   "advise_friction": {
+    "text": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Close one open project this week and say it is done. Let someone else set the end point for one plan.",
+    "fixed": [
+     "Seek Metal, the Order energy.",
+     "Metal is the line that holds, a rule you did not write and a date you cannot move.",
+     "Let it shape what Wood keeps growing.",
+     "Nothing outside you sets your limits."
+    ],
+    "acts": [
+     "Close one open project this week and say it is done.",
+     "Let someone else set the end point for one plan."
+    ],
+    "notes": []
+   },
+   "definition_catalyst": {
+    "text": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You often run out before the thing is done.",
+    "notes": [
+     "MINOR wood:W2-014 [A1]: It contradicts \"Does it alone\" on the same page (\"you finish what others are still waiting on\"). | auditor: \"Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, the reserve under your reach is small and every push draws on all of it. You save it for the few things that matter most.\" (49 words)"
+    ]
+   },
+   "definition_friction": {
+    "text": "Your Body is the strength the whole of you stands on. Wood makes it a reach that keeps going once started. Running over, your push outgrows every plan and partner, because your own way is the one you trust. You press on and lose the people beside you.",
+    "notes": []
+   },
+   "definition_balanced": {
+    "text": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. In balance, what goes in keeps pace with the reach. You hold your own ground and still have space for a peer beside you.",
+    "head": "Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in.",
+    "tail": "In balance, what goes in keeps pace with the reach. You hold your own ground and still have space for a peer beside you.",
+    "notes": []
+   },
+   "personas": [
+    {
+     "persona": "the Twin",
+     "catalyst_keywords": [
+      "Does it alone: Doing it alone is where your strength shows. You trust your own hands before anyone's plan, and you finish what others are still waiting on. What you build is yours from the first nail to the last.",
+      "Sets own pace: Fast or slow around you, you move at your own speed. Being your own clock keeps you steady, since a borrowed pace never feels like yours. Nobody rushes you into a decision you would regret.",
+      "Consistent: You are the same person in any company. One standard for yourself keeps your footing, since a new shape for each group would cost you your measure. Friends never have to guess which you will turn up."
+     ]
+    },
+    {
+     "persona": "the Rival",
+     "catalyst_keywords": [
+      "Goes first: You go first, with the plan half done and the vote not in. Waiting your turn feels like losing, since the opening is worth more to you than certainty. Others find their nerve by watching you move.",
+      "Loves a race: A race wakes you up like nothing else. Having someone just ahead is your best fuel, since a pace you can see beats one you must invent. What you want is a rival worth keeping up with.",
+      "Shares the risk: Given the choice, you put the stakes in a shared pot. Being in it together makes a risk worth taking, since a bet carried alone weighs more than one split. Your partners never face a bad loss by themselves."
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "木_火",
+   "function": "expression",
+   "energy": "Fire",
+   "sets": {
+    "weak": "advise_friction",
+    "strong": "advise_catalyst",
+    "balanced": "advise_balanced"
+   },
+   "catalyst_and_balanced_acts_draw_on": "Fire",
+   "remedy_acts_draw_on": "Water",
+   "advise_catalyst": {
+    "text": "Your light runs short, and what you make on your own rarely gets seen. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends.",
+    "fixed": [
+     "Your light runs short, and what you make on your own rarely gets seen."
+    ],
+    "acts": [
+     "Let the rough version out.",
+     "Play an unfinished song to one friend.",
+     "Post the drawing with the mistake left in.",
+     "Bring one thing you made to the next gathering of friends."
+    ],
+    "notes": [
+     "MAJOR fire:F2-01 [A1, D1, D3]: M2 gave the Balanced chart its own definition, but THE ADVICE still renders the catalyst text, which opens by saying the energy runs short. The Balanced reader is told \"Keep the mix.\" and that the energy is in balance, then told one box later that it is scarce. This is the \"as a catalyst\" problem from S5, moved down one section, and it shows on every Balanced page. | auditor: Rule: a Balanced chart's ADVICE renders `function.advise_balanced`, one per pair cell (25 texts). It opens on a keep-the-mix diagnosis, says what holds the balance, and then gives the acts. It may reuse the catalyst acts where they fit, under the M6 per-core budget. Interim, until the texts exist: on Balanced pages, render the catalyst advice without its first sentence. Samples. 火_火: \"Your strength holds while what you put back keeps pace with what you spend. Ask one person for help on a job you",
+     "MINOR fire:F2-04 [A1, D2]: The diagnosis fits the Artisan only. On P035 it sits beside \"Being seen doing it matters more to you than doing it\" and an edge where \"the table … turns toward you\". M2 asks for a neutral diagnosis that holds for both personas. | auditor: \"Your light runs short, and little of what you make is still there the next day. Play an unfinished song to one friend. Post a drawing with the mistake left in. Bring one thing you made to the next gathering.\""
+    ]
+   },
+   "advise_friction": {
+    "text": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Listen to one album from start to finish. Wait three days before you share your next idea.",
+    "fixed": [
+     "Seek Water, the Mind energy.",
+     "Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back.",
+     "Let it feed the wood that Fire burns.",
+     "You give out faster than you take in."
+    ],
+    "acts": [
+     "Listen to one album from start to finish.",
+     "Wait three days before you share your next idea."
+    ],
+    "notes": []
+   },
+   "definition_catalyst": {
+    "text": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts once the evening is over.",
+    "notes": [
+     "MINOR fire:F2-03 [A1]: The head says everything shows; the catalyst tail and the advice say little shows. The contradiction sits inside one four-sentence definition. \"Makes it light\" also reads as \"not heavy\". | auditor: Head sentence 2 becomes \"Fire lights it, and what you make can reach people.\" The pair field (the blend text) in full: \"Your Expression is the gate where inner work becomes outer fact. Fire lights it, and what you make can reach people. As a catalyst, the light runs short. Your warmth and wit flare in the moment and fade, and little of it lasts once the evening is over.\""
+    ]
+   },
+   "definition_friction": {
+    "text": "Your Expression is the gate where inner work becomes outer fact. Lit by Fire, it runs warm, so nothing you feel waits. As a friction, the gate never shuts, because what you feel wants out at once. You spend yourself on each moment and keep little for the work ahead.",
+    "notes": []
+   },
+   "definition_balanced": {
+    "text": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows. In balance, the gate lets your work out when it is ready. Your warmth and wit reach people at the moment they count.",
+    "head": "Your Expression is the gate where inner work becomes outer fact. Fire makes it light, so whatever you do shows.",
+    "tail": "In balance, the gate lets your work out when it is ready. Your warmth and wit reach people at the moment they count.",
+    "notes": [
+     "MAJOR fire:F2-01 [A1, D1, D3]: M2 gave the Balanced chart its own definition, but THE ADVICE still renders the catalyst text, which opens by saying the energy runs short. The Balanced reader is told \"Keep the mix.\" and that the energy is in balance, then told one box later that it is scarce. This is the \"as a catalyst\" problem from S5, moved down one section, and it shows on every Balanced page. | auditor: Rule: a Balanced chart's ADVICE renders `function.advise_balanced`, one per pair cell (25 texts). It opens on a keep-the-mix diagnosis, says what holds the balance, and then gives the acts. It may reuse the catalyst acts where they fit, under the M6 per-core budget. Interim, until the texts exist: on Balanced pages, render the catalyst advice without its first sentence. Samples. 火_火: \"Your strength holds while what you put back keeps pace with what you spend. Ask one person for help on a job you"
+    ]
+   },
+   "personas": [
+    {
+     "persona": "the Artisan",
+     "catalyst_keywords": [
+      "Gives freely: Giving is the easiest thing you do. You would rather be useful than be thanked, and you give before being asked. The people near you feel looked after before they know they need it.",
+      "Enjoys out loud: Enjoying something quietly was never your way. You feel a pleasure fully only once it is shared, and you would rather enjoy a small thing with company than a big thing alone. A dinner with you turns into an occasion.",
+      "Effortless: What you make comes out without strain. Ease is the sign you trust, and you would rather do the thing that flows than force the thing that counts. Your work has a lightness people feel at once."
+     ]
+    },
+    {
+     "persona": "the Virtuoso",
+     "catalyst_keywords": [
+      "Speaks up: You speak up right where it has gone quiet. You hear silence as agreeing, and you say the unsaid thing rather than sit with it. You are usually the only one who will.",
+      "Born performer: You change in front of an audience, for the better. Being watched is where your focus comes from, and you would rather perform a thing than practise it. Your best work happens live, and the crowd gets all of it.",
+      "Thinks fast: You think fastest with no time to think. You light up under pressure rather than freeze, so you answer on the spot instead of taking it away with you. On a deadline, everyone looks to you for the first word."
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "木_土",
+   "function": "action",
+   "energy": "Earth",
+   "sets": {
+    "weak": "advise_friction",
+    "strong": "advise_catalyst",
+    "balanced": "advise_balanced"
+   },
+   "catalyst_and_balanced_acts_draw_on": "Earth",
+   "remedy_acts_draw_on": "Wood",
+   "advise_catalyst": {
+    "text": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month.",
+    "fixed": [
+     "The ground under your plans is thinner than they need."
+    ],
+    "acts": [
+     "Pick one goal for the season and give it the same hour each week.",
+     "Tell one friend about it and ask them to check on you in a month."
+    ],
+    "notes": [
+     "MAJOR earth:E2-01 [A1 · D1 · D3]: The S5 fix gave Balanced charts their own definition, but THE ADVICE still comes from the catalyst. Its first sentence diagnoses a shortage, so the page says \"Keep the mix.\" and then tells the reader they are short. The reader the S5 ruling protects (\"never told 'as a catalyst'\") is still told so, one section lower. | auditor: **Rule:** a Balanced page never shows a shortage diagnosis. Give each pair cell a one-sentence `advise_balanced` diagnosis of upkeep (what keeps the mix level). It replaces the catalyst's first sentence, and the catalyst's acts stay, so the M6 act budget does not change: 25 sentences in all. Examples: 木_土: \"What you reach for and what you keep stay level only while both get your hours.\"; 火_土: \"Your gate stays steady while what you finish keeps pace with what you feel.\"; 水_土: \"The few rules you k"
+    ]
+   },
+   "advise_friction": {
+    "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week with one thing that is only for you. Say no to one request before you say yes again.",
+    "fixed": [
+     "Seek Wood, your own Body energy.",
+     "Wood is the trunk under everything you reach for, the body that stands before it carries.",
+     "Let it hold what Earth piles up.",
+     "Your load has grown past what you can bear alone."
+    ],
+    "acts": [
+     "Start each week with one thing that is only for you.",
+     "Say no to one request before you say yes again."
+    ],
+    "notes": []
+   },
+   "definition_catalyst": {
+    "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. As a catalyst, firm ground runs short and each gain counts for more than it should. Your cushion grows slowly and never quite feels like enough.",
+    "notes": []
+   },
+   "definition_friction": {
+    "text": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish.",
+    "notes": []
+   },
+   "definition_balanced": {
+    "text": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts. In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays.",
+    "head": "Your Action is what you go and build, claim and provide. Earth makes it steady, so what you claim lasts.",
+    "tail": "In balance, what you go after and what you hold grow at the same pace. You reach for the new while the old still pays.",
+    "notes": []
+   },
+   "personas": [
+    {
+     "persona": "the Horizon",
+     "catalyst_keywords": [
+      "Far-sighted: You see a chance long before anyone else wants it. Having somewhere next to go is your safety, so you watch where a thing is heading more than what it is. By the time others see the opening, you are already there.",
+      "Takes the chance: A chance within reach is hard to leave alone, because standing in place feels like losing. You take the one that is here rather than wait for a safer one. The doors you walk through are ones most people only look at.",
+      "Shares the win: A win only feels real to you once you have shared it. Providing is where you feel most yourself, and you share a good month rather than put it away. In a good year, everyone at your table eats well."
+     ]
+    },
+    {
+     "persona": "the Steward",
+     "catalyst_keywords": [
+      "Makes things last: Making a thing last is a craft you practice without noticing. Waste feels to you like a small loss of control, so you repair what you own rather than replace it. Under your hands, old things keep earning their place.",
+      "Saves first: Saving comes first for you, before the treat and the trip. A cushion is what lets you relax, and you put money away rather than enjoy it. A bad month never finds you short.",
+      "Loyal: Being loyal costs you less than leaving ever would. The known thing keeps you safe, and you hold what is already yours instead of looking elsewhere. The people you stand by know exactly where to find you."
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "木_金",
+   "function": "order",
+   "energy": "Metal",
+   "sets": {
+    "weak": "advise_friction",
+    "strong": "advise_catalyst",
+    "balanced": "advise_balanced"
+   },
+   "catalyst_and_balanced_acts_draw_on": "Metal",
+   "remedy_acts_draw_on": "Water",
+   "advise_catalyst": {
+    "text": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Set a weekly time with a friend to train or practise together.",
+    "fixed": [
+     "Little of the order in your life comes from outside you."
+    ],
+    "acts": [
+     "Join one class that meets at a set time.",
+     "Clear out one drawer and keep only what you use.",
+     "Set a weekly time with a friend to train or practise together."
+    ],
+    "notes": []
+   },
+   "advise_friction": {
+    "text": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages.",
+    "fixed": [
+     "Seek Water, the Mind energy.",
+     "Water feeds the tree from below, and growth returns faster than the knife takes it.",
+     "Let it heal what Metal cuts.",
+     "You answer to more rules than anyone has set you."
+    ],
+    "acts": [
+     "Give one evening a week to learning something nobody grades.",
+     "Take one whole day this month with no plan and no messages."
+    ],
+    "notes": []
+   },
+   "definition_catalyst": {
+    "text": "Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs. As a catalyst, the line runs faint. Most of your order is the order you bring, and little of it comes handed down.",
+    "notes": []
+   },
+   "definition_friction": {
+    "text": "Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and rest never comes.",
+    "notes": [
+     "MINOR metal:MT2-04 [M6 (lost rest), C]: On P093 \"Never off duty\" closes on \"You lose the rest your free evenings were meant to give you\". The page names lost rest twice, against the M6 rule \"Lost rest is the cost in at most one passage per page\". (P091 is borderline: \"You wear out long before the work does\" sits beside the same close.) | auditor: \"Your Order is the rules you answer to and the rank you hold by them. Metal turns it exact, a line over your growth. As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and enough never comes.\" (50)"
+    ]
+   },
+   "definition_balanced": {
+    "text": "Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs. In balance, the line holds firm without closing in. You keep the standards you chose and still leave space to grow.",
+    "head": "Your Order is the rules you answer to and the rank you hold by them. Metal makes it hard and exact, the finish growth needs.",
+    "tail": "In balance, the line holds firm without closing in. You keep the standards you chose and still leave space to grow.",
+    "notes": []
+   },
+   "personas": [
+    {
+     "persona": "the General",
+     "catalyst_keywords": [
+      "Takes charge: Taking charge comes to you before anyone asks. A crisis gives your force a charge to carry, and you carry it yourself rather than wait for someone else to step up. At the worst moment, everyone steadies because you steadied first.",
+      "Thrives under pressure: Pressure is where you do your best work. A real stake lets you thrive where comfort lets you drift, and being tested suits you better than being at ease. A deadline that rattles others leaves you clear and steady.",
+      "Decides fast: Deciding fast is how you stop a crisis from deciding for you. A quick decision points your push somewhere, and you accept being wrong early rather than being right too late. While others are still weighing it, your call has already got people moving."
+     ]
+    },
+    {
+     "persona": "the Magistrate",
+     "catalyst_keywords": [
+      "Keeps your word: Keeping your word is the standard you hold above every other. A promise is a rule of your own making, and you would rather carry a hard yes to the end than give an easy maybe. People build their plans on what you say.",
+      "Does it properly: Doing it properly is the only way you know. A rule gives your effort a shape, and you follow the proper procedure rather than any shortcut. Work that passes through your hands stands up to any inspection.",
+      "Earns your place: Earning your place counts for more with you than being handed one. Rank only feels earned when the rules gave it, and you choose the slow route rather than the shortcut. A title built step by step is one no rival takes from you."
+     ]
+    }
+   ]
+  },
+  {
+   "pair_cell": "木_水",
+   "function": "mind",
+   "energy": "Water",
+   "sets": {
+    "weak": "advise_catalyst",
+    "strong": "advise_friction",
+    "balanced": "advise_balanced"
+   },
+   "catalyst_and_balanced_acts_draw_on": "Water",
+   "remedy_acts_draw_on": "Earth",
+   "advise_catalyst": {
+    "text": "Your Mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it.",
+    "fixed": [
+     "Your Mind takes in less than it could use."
+    ],
+    "acts": [
+     "Ask one person who knows more than you and wait for the whole reply.",
+     "Take one free course on a subject that is new to you.",
+     "Leave one hard question open for a week before you answer it."
+    ],
+    "notes": [
+     "MAJOR water:W-001 [A1, D1]: A Balanced page reuses the catalyst advice and the catalyst ledger, and their diagnosis lines say the reader runs short. That contradicts the balanced definition and the band \"Keep the mix.\" This is the S5 defect the owner ruled on (\"a balanced reader is never told 'as a catalyst'\"), still live in the advice. Evidence beyond Water, from the advice openers on the Balanced pages: P151 \"takes more than you are taking in\", P152 \"until it runs out\", P156 \"Your light runs short\", P161 \"thinner than they need\", P165 \"few deadlines come to you\", P166 \"Little of the order … comes from outside you\", P167 \"Your drive is short\", P168 \"little ever leaves your hands\", P170 \"You let in less than the world has to offer\". | auditor: **Rule:** a Balanced page reads a balanced advice. Its first sentence states the balance and what keeps it. The two acts may be kept from the catalyst text. No catalyst ledger passage on a Balanced page states a shortfall. Proposed advice for the Water cells: **木_水:** \"Your Mind takes in as much as it uses, and the mix holds while both keep moving. Ask one person who knows more than you and wait for the whole reply. Leave one hard question open for a week before you answer it.\" **金_水:** \"What go"
+    ]
+   },
+   "advise_friction": {
+    "text": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands.",
+    "fixed": [
+     "Seek Earth, the Action energy.",
+     "Earth is bank and field, the ground that gives rain somewhere to stop and something to grow.",
+     "Let it settle what Water keeps pouring in."
+    ],
+    "acts": [
+     "No amount of knowing decides for you.",
+     "Bring one half-done task to the end this week.",
+     "Fix one broken thing with your own hands."
+    ],
+    "notes": []
+   },
+   "definition_catalyst": {
+    "text": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. As a catalyst, the intake runs short, but what does come in sinks far and stays. You know more by feel than by proof.",
+    "notes": []
+   },
+   "definition_friction": {
+    "text": "Your Mind is where the world soaks in and becomes yours. Here Water turns it deep, and understanding settles in you before words do. As a friction, the Mind fills faster than it empties, because knowing more feels safer than moving. The moment to act passes while you wait.",
+    "notes": []
+   },
+   "definition_balanced": {
+    "text": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives.",
+    "head": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct.",
+    "tail": "In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives.",
+    "notes": []
+   },
+   "personas": [
+    {
+     "persona": "the Alchemist",
+     "catalyst_keywords": [
+      "Goes deep: Going deep is the only way you learn. Half-knowing bothers you more than not knowing at all, so you follow one question down until the floor shows. What you bring back up stays yours for life.",
+      "Reads people: You read what a person is not saying. A pause tells you more than the words around it, so you trust your feeling about someone over the story you are given. People feel understood around you before they have explained anything.",
+      "Self-taught: You teach yourself what matters most to you. A lesson you worked out alone sits deeper than one handed to you, and your own odd route comes before the course on offer. You lose years to the long way and would take it again."
+     ]
+    },
+    {
+     "persona": "the Sage",
+     "catalyst_keywords": [
+      "Calming presence: You calm people down without trying to. Taking in someone's worry costs you less than watching them carry it, so you take it in and give back something steadier. Around you, frightened people find their feet again.",
+      "Soaks it up: You soak things up rather than study them. It settles into you from whatever is nearby, so you know a thing long before you can pass a test on it. Your grasp of a subject often goes deeper than anyone guesses.",
+      "Patient: Being patient comes easily to you. Letting a thing come in its own time feels more honest than forcing it, and you can wait on a question for months. Shy people and half-formed ideas both get a fair hearing from you."
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+[
+ {
+  "pair_cell": "木_木",
+  "advise_catalyst": { "text": "Holding yourself up takes more than you are taking in. Start one weekly session that builds your strength, like swimming or climbing. Grow one plant from seed and give it water each morning. Hand one errand to someone else this month and leave it with them." },
+  "advise_friction": { "text": "Seek Metal, the Order energy. Metal is the line that holds, a rule you did not write and a date you cannot move. Let it shape what Wood keeps growing. Nothing outside you sets your limits. Close one open project this week and say it is done. Let someone else set the end point for one plan." },
+  "advise_balanced": { "text": "Your reach holds while what you take in keeps pace with how far you push. Grow one plant from seed and give it water each morning. Begin one new habit for your body this month and build on it slowly as it takes root." },
+  "definition_balanced": { "tail": "In balance, what goes in keeps pace with the reach. You hold your own ground and still have space for a peer beside you." },
+  "definition_catalyst": { "tail": "Running thin, the reserve under your reach is small and every push draws on all of it. You save what you have for the few things that matter most." }
+ },
+ {
+  "pair_cell": "木_火",
+  "advise_catalyst": { "text": "Your light runs short, and little of what you make lasts past the moment. Let the rough version out. Play an unfinished song to one friend. Post the drawing with the mistake left in. Bring one thing you made to the next gathering of friends." },
+  "advise_friction": { "text": "Seek Water, the Mind energy. Water is rain on the roots, cool and patient, and it turns the flame down low until the wood grows back. Let it feed the wood that Fire burns. You give out faster than you take in. Listen to one album from start to finish. Wait three days before you share your next idea." },
+  "advise_balanced": { "text": "Your light reaches people when it counts, and it stays bright while you keep letting work out. Play an unfinished song to one friend. Bring one thing you made to the next gathering of friends." },
+  "definition_balanced": { "tail": "In balance, what you make and what you show keep the same pace. Your warmth and wit reach people at the moment they count." },
+  "definition_catalyst": { "tail": "As a catalyst, the light runs short. Your warmth and wit show in the moment and then fade, and little of it lasts once the evening is over." }
+ },
+ {
+  "pair_cell": "木_土",
+  "advise_catalyst": { "text": "The ground under your plans is thinner than they need. Pick one goal for the season and give it the same hour each week. Tell one friend about it and ask them to check on you in a month." },
+  "advise_friction": { "text": "Seek Wood, your own Body energy. Wood is the trunk under everything you reach for, the body that stands before it carries. Let it hold what Earth piles up. Your load has grown past what you can bear alone. Start each week with one thing that is only for you. Say no to one request before you say yes again." },
+  "advise_balanced": { "text": "What you reach for and what you keep stay level while both get your hours. Mend one worn thing you own before you buy anything new. Pick one plan for the season and tend it until the season ends." },
+  "definition_balanced": { "tail": "In balance, what you go after and what you hold grow at the same pace. Neither the chase nor the keeping outgrows the other." }
+ },
+ {
+  "pair_cell": "木_金",
+  "advise_catalyst": { "text": "Little of the order in your life comes from outside you. Join one class that meets at a set time. Clear out one drawer and keep only what you use. Set a weekly time with a friend to train or practise together." },
+  "advise_friction": { "text": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages." },
+  "advise_balanced": { "text": "Your line holds firm and still bends where your growth needs it to. Clear out one drawer and keep only what you use. Choose one rule you keep and test this month whether it still serves you." },
+  "definition_balanced": { "tail": "In balance, the line holds firm without closing in. You keep the standards you chose and still leave space to grow." },
+  "definition_friction": { "tail": "As a friction, the line turns inward, because order is where you feel safe. The bar rises each time you clear it, and enough never comes." }
+ },
+ {
+  "pair_cell": "木_水",
+  "advise_catalyst": { "text": "Your Mind takes in less than it could use. Ask one person who knows more than you and wait for the whole reply. Take one free course on a subject that is new to you. Leave one hard question open for a week before you answer it." },
+  "advise_friction": { "text": "Seek Earth, the Action energy. Earth is bank and field, the ground that gives rain somewhere to stop and something to grow. Let it settle what Water keeps pouring in. No amount of knowing decides for you. Bring one half-done task to the end this week. Fix one broken thing with your own hands." },
+  "advise_balanced": { "text": "Your Mind takes in as much as it uses, and the mix holds while both keep moving. Ask one person who knows more than you and wait for the whole reply. Leave one hard question open for a week before you answer it." },
+  "definition_balanced": { "tail": "In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives." }
+ }
+]

@@ -9,7 +9,7 @@ for (const e of ['木', '火', '土', '金', '水']) for (const pr of P) for (co
   const rows = pickBlendRows(L, M, nm, a, b); n++;
   const naive = [...L.slice(0, 2), ...M.slice(0, nm)].map((r) => r.word).join('/'); const got = rows.map((r) => r.word).join('/');
   if (naive !== got) { changed++; console.log(`${e} ${pole} ${a}+${b} 2+${nm}: ${naive}  →  ${got}`); }
-  if (rows.length < 3 || rows.length > 2 + nm) { bad++; console.log('  ✗ row count', rows.length); }
+  const nL = rows.filter((r) => r.god === a).length, nM = rows.length - nL; if (!((nL === 2 && nM === nm) || (nm === 2 && nL === 2 && nM === 1) || (nL === 3 && nM === 0))) { bad++; console.log('  ✗ split', nL, '+', nM); } if (nm === 2 && nM === 1) console.log('  (no clean 2+2: shows 2+1)'); if (nL === 3) console.log('  (no clean blend: lead alone)');
   for (let i = 0; i < rows.length; i++) for (let j = i + 1; j < rows.length; j++) if (clashes(rows[i].word, rows[j].word)) { bad++; console.log('  ✗ clash left', rows[i].word, rows[j].word); }
 }
 for (const [x, y] of BLEND_CLASHES) for (const w of [x, y]) if (!words.has(w)) { bad++; console.log('  ✗ not a keyword:', w); }

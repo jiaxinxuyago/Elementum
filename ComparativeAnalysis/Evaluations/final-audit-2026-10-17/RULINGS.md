@@ -33,3 +33,16 @@ Status before the polish round: 166 Minor findings. 88 were already resolved by 
 | Remedy "Let it …" verb | **Approved and applied.** Each core now uses each verb once, the verb fits its element, and Wood and Metal no longer "pour" (7 lines). |
 | Mind bar "Intuition" → "Insight" | Not approved. Stays as is. |
 | Virtuoso "Mind" domain → "Growth" | Not approved. Stays as is (can go to DOM-1). |
+
+## Round 2 (owner, 2026-10-17)
+
+Results: https://claude.ai/artifact/Sg5Q7Jzy5qP1XErcHSgtDR. 16 MAJOR (five themes), 104 MINOR, 87 TWEAK (applied). Mean B 4.10 (round 1: 3.65).
+
+| Item | Ruling |
+|---|---|
+| R2-1 · Balanced pages read as catalyst pages | **Approved.** A balanced advice per pair cell (`function.advise_balanced`): a keep-the-mix diagnosis and acts drawn on the element. Balanced definitions are reworded where they deny a persona's keywords. |
+| R2-2 · the 2+2 picker | **Approved.** The picker searches every combination and always shows two keywords per persona. New opposed pairs are added to the clash list. |
+| R2-3 · the chart's quantity as a cause | **Approved.** Each such sentence names the reader's need instead. |
+| R2-4 · a partner, child or boss assumed | **Approved.** Neutral wording, changing only those words. |
+| R2-5 · the same act under another name | **Approved.** Acts are counted by meaning, per reader set (weak, strong, Balanced) of one core. |
+| Gift closes that end on other people | **Allowed** ("Allow them"). A catalyst gift close may show its effect on others. |

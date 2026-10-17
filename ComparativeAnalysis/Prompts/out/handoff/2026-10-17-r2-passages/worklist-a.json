@@ -1,0 +1,849 @@
+[
+ {
+  "key": "K2 土_偏财 · fn_reading.catalyst.define",
+  "text": "As a catalyst, firm ground is scarce and your eyes go to the next field before this one settles. What you gain passes on through your hands.",
+  "findings": [
+   {
+    "id": "R2 cross:X2-06",
+    "criterion": "D3 (persona tail)",
+    "issue": "The pair heads now separate the poles, so round 1's X-02 is fixed at the pair level. The Horizon's catalyst tails on the same Action cells still describe its excess, though, not the shortage, so \"Grow it.\" and \"Release it.\" name the same act.",
+    "auditor_note": "`K2 土_偏财 · catalyst.define`: \"As a catalyst, firm ground is scarce. You find promising ground everywhere and have little to plant in it.\" `K2 金_偏财 · catalyst.define`: \"As a catalyst, the edge runs thin. You see openings everywhere and have the means for few of them.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "At home, enough is the mood you set. Whenever enough comes early for you, you settle for the people in your care rather than push for them. Those in your care grow up without the itch of always wanting more.",
+  "findings": [
+   {
+    "id": "R2 cross:X2-13",
+    "criterion": "A2 · C",
+    "issue": "\"Settle for the people\" says the opposite of what is meant, and \"in your care\" appears twice.",
+    "auditor_note": "\"At home, enough is the mood you set. Since being content matters more to you than getting ahead, you stop pushing once things are good. You leave the people in your care free of the itch of always wanting more.\""
+   },
+   {
+    "id": "R2 earth:E2-03",
+    "criterion": "A2 · house rule (child)",
+    "issue": "\"grow up\" plus \"in your care\" assumes children. \"settle for the people\" reads as \"accept them as second best\". \"Whenever enough comes early\" does not parse.",
+    "auditor_note": "\"Enough is the mood you set for the people close to you. More never pulls at you, and you spare them the push for it. You leave them glad of what they already have.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Keeping a thing going is the warmest part of you. You would rather keep one thing warm for years than start many, since what lasts feels real to you. Your oldest friendships still hold.",
+  "findings": [
+   {
+    "id": "R2 cross:X2-15",
+    "criterion": "A1 (claim the reading cannot know)",
+    "issue": "The line is false for most readers aged 18 to 35.",
+    "auditor_note": "\"Keeping a thing going is the warmest part of you. You would rather keep one thing warm for years than start many, since what lasts feels real to you. You still hold friendships that others would have let drift.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Paying for everyone feels like winning to you, even when the money is shared. You would rather cover the whole bill than split it, and you use savings meant for two. Along with the money, you spend a plan you made together.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-04",
+    "criterion": "A2 · house rule (partner)",
+    "issue": "\"savings meant for two\" and \"a plan you made together\" assume a partner. \"even when the money is shared\" is unclear (shared with whom?).",
+    "auditor_note": "\"Paying for everyone feels like winning to you. You would rather cover the whole bill than split it, and you reach into money that was set aside for something else. Along with the money, you spend a plan others were counting on.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Where a raise is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you wait on an offer waiting on you. You lose the raise you never ask for, year after year.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-05",
+    "criterion": "A2 · house rule (boss)",
+    "issue": "\"a raise\" assumes an employer. \"you wait on an offer waiting on you\" is a chiasmus that has to be read twice. \"raise\" and \"ask\" are both repeated.",
+    "auditor_note": "\"Where more is there for the asking, you wait for permission. You count a handed thing as more earned than a claimed one, and you hold back the question. Year after year, you go without what one question would have brought.\""
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Loyalty is how you love, shown by staying. You keep the one you have rather than look around, and you let the staying speak for you. Those you love rarely hear it in words.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-06",
+    "criterion": "house rule (partner) · A2",
+    "issue": "\"the one you have … rather than look around\" reads as a romantic partner. \"shown by staying\" is a stiff tag.",
+    "auditor_note": "\"Loyalty is how you love, and you show it by staying. You stand by the people and places you chose rather than look around, and you let the staying speak for you. You rarely put it into words.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_七杀 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "In your tight ship everyone has a job, and the people at home get theirs from you. You need the household to run like a team, and your requests land as orders. Your family does what you ask and keeps its ideas quiet.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-07",
+    "criterion": "house rule (household) · D4",
+    "issue": "It assumes a household the reader heads, and the close pictures the family as quieted, which comes close to the victim image BIZ_04 rules out.",
+    "auditor_note": "\"In your tight ship everyone has a job, and you hand out the jobs. You need things to run like a team, and your requests land as orders. You get what you ask for and rarely hear their ideas.\""
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep old things going for everyone around you. Fixing beats choosing for you, and you have the people at home living with your kept things rather than their own. Your family seldom gets to pick something new for themselves.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-08",
+    "criterion": "house rule (household)",
+    "issue": "It assumes the reader shares a home with family and controls what they buy.",
+    "auditor_note": "\"You keep old things going for everyone around you. Fixing beats choosing for you, and those who share your things live with your repairs rather than their own picks. You leave them few chances to pick something new.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Your patience is what you teach with first. You teach it a second time instead of watching someone struggle, and take the struggle that made it theirs. They end up knowing your answer without the work of finding it.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-09",
+    "criterion": "A2",
+    "issue": "\"teach it\" points back to \"patience\", and \"made it theirs\" has no referent. Round 1 flagged this as garbled, and it still is.",
+    "auditor_note": "\"Patience is the first thing you teach with. You explain twice before you let someone struggle, and you take the struggle that would have made the lesson theirs. You leave them knowing your answer without the work of finding it.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正印 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Protecting the people you love is the first thing you do with news. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You are allowed to let the risk be theirs.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-10",
+    "criterion": "A2 · C",
+    "issue": "\"with news\" is vague (which news?). The close repeats \"You are allowed to\" from \"Never quite ready\" on the same page.",
+    "auditor_note": "\"Protecting the people you love is your first move when trouble comes near them. Because you treat their safety as your job, you protect them from a risk rather than watch them take it. You carry a risk that was always theirs to run.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "Long after you stopped wanting to, you keep promises to people. Holding counts for more with you than honesty about changing, and you never tell the person that the promise went stale. Whatever you promised them still arrives, on time and in full.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-11",
+    "criterion": "D4 · A4",
+    "issue": "It ranks the reader below honesty and implies concealment, which is the bad-faith reading BIZ_04 rules out (round 1 flagged it too).",
+    "auditor_note": "\"Long after you stopped wanting to, you keep your promises to people. Your word counts for more with you than your mood, and a promise outlives the wish that made it. You still deliver whatever you promised, on time and in full.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正财 · fn_reading.friction.define",
+  "text": "As a friction, what you own weighs more each year. Having it near is what feels safe, and your hands stay full with no space for anything new.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-17",
+    "criterion": "C",
+    "issue": "The same sentence frame appears twice on one screen. The M2 tail is meant to share no main act with its own persona's keywords. This is a repeated frame, not a restatement complaint.",
+    "auditor_note": "\"Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you own weighs more each year. You fill your hands with what you already have and leave no place for anything new.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_比肩 · fn_reading.friction.define",
+  "text": "Running over, your strength feels like enough for anything, and owing nobody becomes the rule. You pay for that rule in weight you carry by yourself.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-18",
+    "criterion": "C",
+    "issue": "The same close frame (\"You pay for that X in Y\") appears twice on the page.",
+    "auditor_note": "\"Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength feels like enough for anything, and owing nobody becomes the rule. You end up holding weight that others would have shared.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You feel every loss as a blow to your standing. You would rather sit out a contest than risk losing it, because your standing feels at stake. You replay each defeat for weeks after the game is over.",
+  "findings": [
+   {
+    "id": "R2 earth:E2-19",
+    "criterion": "A1 · C",
+    "issue": "The reason repeats the claim, so the motive is circular. \"standing\" appears twice in one passage (three times on the page).",
+    "auditor_note": "\"Every loss lands as a blow to your standing. You would rather sit out a contest than risk losing it, since a low rank feels worse than no rank at all. You replay each defeat for weeks after the game is over.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_食神 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and you spend the shared money on the evening. You leave them short on the plans you made together.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-05",
+    "criterion": "D4, A1",
+    "issue": "Spending money that belongs to two people is a charge of misuse, and it assumes a joint purse with a partner or household. BIZ_04 and the house rule both rule this out.",
+    "auditor_note": "\"Whenever a plan with others meets your pleasure, you choose the pleasure. You would rather have a good time now than keep a promise later, and tonight wins. You leave them short on the plans you made together.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_伤官 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "What you need from the people close to you is watching more than joining in. You feel company only once it is facing you, and you turn a friend into a crowd. You take a friend's evening and give back a show instead.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-06",
+    "criterion": "A2",
+    "issue": "Sentence 1 has to be parsed twice: who watches, and who joins? \"Feel company\" is not idiomatic.",
+    "auditor_note": "\"Even with close friends, you want an audience more than a companion. Company feels real to you only once it is facing you, and you turn a friend into a crowd. You take their evening and give back a show instead.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Staying uncorrected is a rule you keep at a price. You repeat your own mistake rather than take a peer's version, since yours at least stays yours. You end up paying for the same mistake twice, and the second time you pay alone.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-07",
+    "criterion": "A2, C",
+    "issue": "The opener is stilted (\"uncorrected\" is above B2) and announces the price instead of naming the need. \"Mistake\" appears three times on the page with the remedy.",
+    "auditor_note": "\"A peer's correction stings more than being wrong. You repeat your own mistake rather than take their version, since yours at least stays yours. You end up paying for the same mistake twice, and the second time you pay alone.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "Even beside a friend you never switch off, handing them a race instead of yourself. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-08",
+    "criterion": "A2",
+    "issue": "This is a participial tail (house rule B4), and \"beside\" comes back in the next sentence. The middle sentence stays as it is.",
+    "auditor_note": "\"Even with a friend you never switch off, and you bring a race where they wanted company. Being ahead counts more with you than being beside someone, so you set the pace even on a walk. You keep from them a friend with nothing to prove.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Beside someone you like, you are all in unasked. You would rather add your own money than ask if they wanted it, and you double what they put in. Your money makes their plan bigger and riskier than they chose.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-09",
+    "criterion": "A2, D4",
+    "issue": "\"All in unasked\" is awkward. \"Than they chose\" echoes the victim close BIZ_04 struck (\"a race they never chose to run\").",
+    "auditor_note": "\"With someone you like, you go all in without being asked. You would rather add your own money than check whether they wanted it, and you double what they put in. You leave them with a plan bigger and riskier than the one they made.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_劫财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You give a friend's dare your full speed before they take it back. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. Nothing with you is ever just a game.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-10",
+    "criterion": "A2",
+    "issue": "\"Before they take it back\" leaves the reader asking what is taken back. The sentence needs a second read. The middle sentence stays.",
+    "auditor_note": "\"You take up a friend's dare at full speed, before they can laugh it off. Winning in front of a friend matters more than keeping it friendly, so you play every round for keeps. You never let a game stay just a game.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_偏印 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. Your partner and friends get days of silence with no word on why.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-12",
+    "criterion": "A1 (house rule)",
+    "issue": "This assumes a partner, which the house rule forbids. The middle sentence stays.",
+    "auditor_note": "\"Working something out, you go quiet on everyone around you. Because you think best alone rather than with others, you leave the people beside you on their own. You give those closest to you days of silence with no word on why.\""
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Each time you push too hard, you spend strength you do not have. You would rather push through than keep the energy to finish the week. You end the week short on sleep and on the strength you spent pushing.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-13",
+    "criterion": "C, B",
+    "issue": "Push 3 times, strength twice, week twice and spend twice in 37 words. This is the one passage on the Metal pages that drags. (It is filed under C, not A3.) The middle sentence stays.",
+    "auditor_note": "\"Each time you push too hard, you draw on strength you do not have. You would rather push through than keep the energy to finish the week. By the weekend you are short on sleep and on everything you meant to save.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Keeping to the rules is how you look after people. Because one exception feels like a collapse starting, you give them the rule instead of what they asked for. You keep everyone at home in line and take from them the ease of being wrong.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-14",
+    "criterion": "A2, D4",
+    "issue": "\"A collapse starting\" is awkward. \"Keep everyone in line\" passes a disciplinarian verdict on the reader where BIZ_04 wants the act. \"At home\" assumes a household.",
+    "auditor_note": "\"Keeping to the rules is how you look after others. Because one exception feels like the first crack, you give them the rule instead of what they asked for. You hold your people to the letter and take from them the ease of being wrong.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Where titles are concerned, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. Colleagues climb the slow way, with no help from you.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-15",
+    "criterion": "C, D4",
+    "issue": "Both Magistrate passages on the page open on \"Where\". \"Colleague\" appears twice. \"With no help from you\" reads as a charge of withholding. The middle sentence stays.",
+    "auditor_note": "\"When it comes to titles, you make everyone earn theirs too. Since an unearned rank looks like cheating, you give a colleague the long route rather than a quiet word. You leave them to climb the slow way.\""
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正官 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold everyone to every one they make. Your friends have their offhand words held to the letter.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-16",
+    "criterion": "A2",
+    "issue": "\"Everyone to every one\" is a word game the eye trips on. The close is passive, and \"hold/held\" appear twice.",
+    "auditor_note": "\"To you, a passing promise is one to keep. Because a promise is a rule rather than a wish, you hold others to theirs as tightly as you hold yourself. You treat a friend's offhand words as a contract.\""
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "You hold back hardest where you love most. You keep a reserve rather than give it all, and your partner gets the careful share only. You feel more warmth than your partner ever gets to see.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-17",
+    "criterion": "A1 (house rule)",
+    "issue": "This assumes a partner, twice. The middle frame stays; only the noun changes.",
+    "auditor_note": "\"You hold back hardest where you love most. You keep a reserve rather than give it all, and the person closest to you gets the careful share only. You feel more warmth than they ever get to see.\""
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "You show up daily whether your partner needs it that day or not. Being there makes you feel useful, so you offer presence where a question would serve better. They get your company without fail and seldom the thing they wanted.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-18",
+    "criterion": "A1 (house rule)",
+    "issue": "This assumes a partner, and \"daily … that day\" doubles. The middle sentence stays.",
+    "auditor_note": "\"You show up every day for those you love, needed or not. Being there makes you feel useful, so you offer presence where a question would serve better. You give them your company without fail and seldom the thing they wanted.\""
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[0].angles.cost_others",
+  "text": "You keep love going on time and without fail. Reliable feels more like love to you than exciting does, so you give your partner steady warmth over surprise. Home life with you has everything except the unexpected.",
+  "findings": [
+   {
+    "id": "R2 fire:F2-19",
+    "criterion": "A1 (house rule), A2",
+    "issue": "It assumes a partner and a shared home, and \"keep love going on time\" is not idiomatic.",
+    "auditor_note": "\"You keep love going, steadily and without fail. Since reliable feels more like love to you than exciting does, you give those close to you steady warmth over surprise. You offer them everything except the unexpected.\""
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_七杀 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "You are hard on yourself in ways you would spare a friend. Wood bears down past what your core holds, and the extra lands on you as blame. Wanting only to get it right, you would rather pay for a mistake than fix it.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-002",
+    "criterion": "A1 (house rule: no chart arithmetic as a cause)",
+    "issue": "The cause is chart quantity, not the reader's own need. On P015 the close's \"Wanting only…\" also repeats the \"Wanting to be fair\" opener two passages later.",
+    "auditor_note": "\"You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you. All you want is to get it right, and you would rather pay for a mistake than fix it.\" (45 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Whatever is newest in front of you is what you chase hardest. With more Wood than strength under it, you chase the fresh start over the finish. You leave a row of half-done things behind you, each one new when you started.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-003",
+    "criterion": "A1 (chart arithmetic)",
+    "issue": "The cause is chart arithmetic.",
+    "auditor_note": "\"Whatever is newest in front of you is what you chase hardest. Beginning is what wakes you up, and the fresh start wins over the finish. You leave a row of half-done things behind you, each one new when you started.\" (41 words)"
+   },
+   {
+    "id": "R2-3",
+    "criterion": "A1",
+    "issue": "The chart's quantity of an element is given as the cause (owner R2-3, approved): name the reader's want or fear instead. Change only that sentence. If the element word is not a cause (an image, or the energy named plainly), leave it and say so in no_change_reason."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[0].angles.drive",
+  "text": "Leaving comes hard to you, and you stay where the giving back stopped. You have more Wood than strength for it, so you stay rather than face what leaving costs. You keep paying in effort every month to a place that returns none of it.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-004",
+    "criterion": "A1 (chart arithmetic; non sequitur)",
+    "issue": "The cause is chart arithmetic, and staying in a place does not follow from having \"more Wood than strength\".",
+    "auditor_note": "\"Leaving comes hard to you, and you stay where the giving back stopped. Walking away writes off all you put in, and that scares you more than the drain. You keep paying in effort every month to a place that returns none of it.\" (45 words)"
+   },
+   {
+    "id": "R2-3",
+    "criterion": "A1",
+    "issue": "The chart's quantity of an element is given as the cause (owner R2-3, approved): name the reader's want or fear instead. Change only that sentence. If the element word is not a cause (an image, or the energy named plainly), leave it and say so in no_change_reason."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "Trusting takes you years, losing it an afternoon. You carry more Wood than stamina to match, so you trust proof over feeling. You only want to be safe from hurt, and the long wait for proof hurts too.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-005",
+    "criterion": "A1 (chart arithmetic; non sequitur)",
+    "issue": "Chart arithmetic is the cause, and \"so you trust proof over feeling\" does not follow from it. This sits under the page's best opener.",
+    "auditor_note": "\"Trusting takes you years, losing it an afternoon. Proof steadies you more than feeling does, and you wait for it before you let anyone close. You only want to be safe from hurt, and the long wait for proof hurts too.\" (41 words)"
+   },
+   {
+    "id": "R2-3",
+    "criterion": "A1",
+    "issue": "The chart's quantity of an element is given as the cause (owner R2-3, approved): name the reader's want or fear instead. Change only that sentence. If the element word is not a cause (an image, or the energy named plainly), leave it and say so in no_change_reason."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Spotting openings is what you do before anything is obvious. Carrying less Wood than drive to spend, you notice the far chance more than the one in your hand. Half the good ideas in your circle started as something you pointed at.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-006",
+    "criterion": "A1 (chart arithmetic; claimed past)",
+    "issue": "The cause is chart arithmetic, and the close states a fact about the reader's circle that the reading cannot know.",
+    "auditor_note": "\"Spotting openings is what you do before anything is obvious. A far chance pulls at you more than the one in your hand, since the new one has more to give. You point at good ideas long before your circle sees them.\" (42 words)"
+   },
+   {
+    "id": "R2-3",
+    "criterion": "A1",
+    "issue": "The chart's quantity of an element is given as the cause (owner R2-3, approved): name the reader's want or fear instead. Change only that sentence. If the element word is not a cause (an image, or the energy named plainly), leave it and say so in no_change_reason."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[0].angles.drive",
+  "text": "Building slowly is where you feel most sure of yourself. You have more push than Wood to put it into, so you build one thing for years rather than chase several. Your work is still standing when quicker efforts have fallen.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-007",
+    "criterion": "A1 (chart arithmetic)",
+    "issue": "The cause is chart arithmetic.",
+    "auditor_note": "\"Building slowly is where you feel most sure of yourself. What lasts matters more to you than what is new, and you build one thing for years rather than chase several. You still have that one thing standing when quicker efforts have fallen.\" (43 words)"
+   },
+   {
+    "id": "R2-3",
+    "criterion": "A1",
+    "issue": "The chart's quantity of an element is given as the cause (owner R2-3, approved): name the reader's want or fear instead. Change only that sentence. If the element word is not a cause (an image, or the energy named plainly), leave it and say so in no_change_reason."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and you give the person you are with your presence more than your feelings. Your partner gets all of your time and few of your words.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-008",
+    "criterion": "A4 (house rule: don't assume a partner)",
+    "issue": "It assumes the reader has a partner.",
+    "auditor_note": "\"Loyalty is how you love, given rather than said. You rate being loyal above speaking up, and the people closest to you get your presence more than your feelings. You give them all of your time and few of your words.\" (41 words)"
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[2].angles.drive",
+  "text": "Being loyal comes before being exciting for you. Being known feels safer than being wanted, so you stay loyal on dull days as much as good ones. The person beside you has never once doubted you.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-009",
+    "criterion": "A1, A4 (assumed partner; claimed past)",
+    "issue": "It assumes a partner and states an absolute fact about the reader's past. \"Being … Being\" also opens two sentences in a row.",
+    "auditor_note": "\"Being loyal comes before being exciting for you. To be known feels safer than to be wanted, and you stay loyal on dull days as much as good ones. You give the people beside you nothing to doubt.\" (38 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_食神 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let a child or student set their own pace. Those you teach learn without fear of getting it wrong in front of you.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-010",
+    "criterion": "A4 (house rule: don't assume a child)",
+    "issue": "It assumes the reader has a child or a student in their care.",
+    "auditor_note": "\"With those in your care, you keep things relaxed. Since you would rather be enjoyed than obeyed, you let whoever is learning from you set their own pace. You teach without making anyone afraid of getting it wrong in front of you.\" (42 words)"
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, you give the person above you your best rather than the one beside you. You send the credit for shared work upward, past your peers.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-011",
+    "criterion": "A4 (house rule: don't assume a boss)",
+    "issue": "It assumes the reader has a boss.",
+    "auditor_note": "\"In how you treat people, rank comes first. Because a clear order feels safer than standing as equals, your best goes to whoever ranks highest. You send the credit for shared work upward, past your peers.\" (36 words)"
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. Promotions you deserved have gone to louder people.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-012",
+    "criterion": "A1 (claimed past; assumed job)",
+    "issue": "It claims an event in the reader's past and assumes a job with promotions. The cost is right; the claim is not one the reading can make.",
+    "auditor_note": "\"Earning every step takes longer than asking for it. Since a rank you never requested sits easier on you, you wait for the title rather than claim it. You leave what you earned to louder people who asked.\" (38 words)"
+   },
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Your biggest bets land on other people too. Going big matters more than going safe, and that puts the shared money at your size of risk. You set the size of a risk that the people who pooled with you have to carry.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-019",
+    "criterion": "A2",
+    "issue": "\"At your size of risk\" is not idiomatic, and \"size of risk\" appears twice.",
+    "auditor_note": "\"Your biggest bets land on other people too. Going big matters more to you than going safe, and the shared money rides on your nerve. You choose a risk that the people who pooled with you have to carry.\" (39 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.friction.ledger[2].angles.cost_others",
+  "text": "When those close to you want to move, you stay put and stall. Keeping things as they are feels safer than change, and you hold the family in place. You slow the move they wanted to the pace that feels safe to you.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-020",
+    "criterion": "C, A4",
+    "issue": "\"Safe\" appears four times on the page, and \"feels safer than\" opens two passages in a row. \"The family\" assumes a household.",
+    "auditor_note": "\"When those close to you want to move, you stay put and stall. Any change reads to you as a risk, and you hold everyone where they are. You slow the move they wanted to the pace that suits you.\" (40 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "You never bend, whatever the day asks. Because standing firm feels safer to you, you brace against a change of plan rather than lean into it. You stay loyal to the old plan long after it has stopped working.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-021",
+    "criterion": "A2, C",
+    "issue": "\"Safer\" has nothing to compare with. \"Because\" opens both Magistrate middles on the page, and \"You stay … long after\" repeats the definition's \"You stay at attention long after\".",
+    "auditor_note": "\"You never bend, whatever the day asks. Standing firm feels safer to you than giving way, and you brace against a change of plan instead of leaning into it. You keep faith with the old plan after it has stopped working.\" (41 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_比肩 · fn_reading.catalyst.define",
+  "text": "Running thin, there is only enough of you for one. You spend it on ground you know, and what grows there holds its shape.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-022",
+    "criterion": "A2",
+    "issue": "\"For one\" what? The reader stops to fill the gap, and \"Running thin\" has no subject to attach to.",
+    "auditor_note": "\"Your Body is the strength the whole of you stands on. Wood makes it growth, a reach fed by what goes in. Running thin, your reach covers one thing at a time. You put it on ground you know, and what grows there holds its shape.\" (46 words; tail only changed)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_比肩 · fn_reading.friction.ledger[1].angles.cost_self",
+  "text": "Being right is a comfort you never run out of. Admitting a mistake feels like losing part of yourself, and you defend a wrong call as much as a right one. You come out of each argument right and without the lesson it held.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-023",
+    "criterion": "C",
+    "issue": "Two Twin passages in a row turn on \"feels like losing\". P003 then adds \"Staying put feels like being passed\".",
+    "auditor_note": "\"Being right is a comfort you never run out of. A mistake admitted costs you a piece of yourself, and you defend a wrong call as much as a right one. You come out of each argument right and without the lesson it held.\" (44 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.catalyst.ledger[1].angles.cost_self",
+  "text": "Whenever something new opens, you start before asking what it needs. Because starting feels like freedom, you take the quick start over the rest you are owed. Your life fills with things you began and never saw through.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-024",
+    "criterion": "A1, C",
+    "issue": "The middle trades starting against rest, but the close's cost is unfinished work, so the two do not join up. \"Whenever\" also opens two passages on each of these pages.",
+    "auditor_note": "\"Something new opens, and you start before asking what it needs. Starting is where you feel free, and finishing feels like a door closing. You fill your life with things you began and never saw through.\" (36 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正印 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer lands where the win was going. You take from them the try, and the pride of a win they reached alone.",
+  "findings": [
+   {
+    "id": "R2 wood:W2-025",
+    "criterion": "A2",
+    "issue": "Both images need a second read: the answer \"landing where the win was going\", and the inverted \"take from them the try\".",
+    "auditor_note": "\"Whenever someone you love struggles, you help before they ask. Fixing it yourself feels gentler than letting them try, and your answer arrives before theirs. You take away their try, and the pride of a win they would have reached alone.\" (41 words)"
+   }
+  ]
+ },
+ {
+  "key": "K2 土_偏印 · fn_reading.friction.ledger[2].angles.drive",
+  "text": "With a decision nearly made, you second-guess it from one more angle. There is Earth in you past what your core uses, so you second-guess a thing rather than settle it. You usually land where your first read put you, only weeks later.",
+  "findings": [
+   {
+    "id": "R2-3",
+    "criterion": "A1",
+    "issue": "The chart's quantity of an element is given as the cause (owner R2-3, approved): name the reader's want or fear instead. Change only that sentence. If the element word is not a cause (an image, or the energy named plainly), leave it and say so in no_change_reason."
+   }
+  ]
+ },
+ {
+  "key": "K2 土_劫财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "On a shared stake, you bet someone else's year with your own. You would rather win it all for both of you than keep half safe, and their caution becomes your dare. Your partner lives through every swing beside you.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 土_正官 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Wherever a standard is missing, you set one and live under it. You take your own bar as the measure over anyone else's, and yours sits a step above you. Your best days still feel like falling short.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 土_食神 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Being happy with enough spares you a lot of chasing. Because contentment feels like wisdom, you settle for what is here instead of asking for more. Raises and roles you never pushed for go to people who did.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Chasing the next thing keeps you alive. Since a new chance pulls more than the one in hand, you chase it and leave the unfinished half to your partner. You keep the start of a shared plan and hand your partner the long middle.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_偏财 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "Whenever something new asks for you, you spread yourself one slice thinner. Since closing an option feels like losing, you keep spreading rather than shut one. You hand your partner and family the same thin slice as everything else.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_劫财 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Whenever a venture needs a partner, you have already said yes. Going in together feels safer, and you would rather split a win than keep it whole. Half of every good year of yours belongs to someone else.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正官 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Among the people under you, you expect every step to be earned. Since a shortcut looks like cheating, you would rather make them wait than give them a lift. Your team spends extra years proving what you already see in them.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Saving comes before spending for you, without your ever deciding it. Being covered means more than anything you would buy, so you save instead of wanting. Your household weathers bad years that sink other families.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "You stay in a love the way you stay anywhere. Since ending feels more like failing than choosing, you keep a love going after it has stopped growing. You spend your partner's years along with your own.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 木_正财 · fn_reading.friction.ledger[1].angles.drive",
+  "text": "Counting what something cost matters to you more than enjoying it. Wood takes more from you than it gives, so you count what you have rather than use it. You are allowed to enjoy a thing without pricing it first.",
+  "findings": [
+   {
+    "id": "R2-3",
+    "criterion": "A1",
+    "issue": "The chart's quantity of an element is given as the cause (owner R2-3, approved): name the reader's want or fear instead. Change only that sentence. If the element word is not a cause (an image, or the energy named plainly), leave it and say so in no_change_reason."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "Wherever a plan stalls, you take charge and mean it kindly. Because a slow group feels risky, you take charge rather than wait your turn. Your colleagues get fewer chances to decide things for themselves.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[2].angles.cost_self",
+  "text": "Loving high stakes means a calm stretch never feels like a reward. You would rather raise the stakes on a sure thing than let it stay sure. Some of what you lose is lost only for the thrill.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_七杀 · fn_reading.catalyst.ledger[2].angles.cost_others",
+  "text": "When a day has no stakes, you add some. Since an easy win bores you more than a hard loss, you raise everyone's stakes with yours. Your family and team feel every swing you take.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_偏财 · fn_reading.catalyst.ledger[1].angles.cost_others",
+  "text": "You give in big moments rather than small steady ways. Being generous feels truer to you than being careful, and your family gets the big day and lives through the gap. Your household's best stories come from the days you made.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_劫财 · edge.lead",
+  "text": "Fire runs through your wealth, your social life and your career. It is the big ask you make before fear catches up, the quiet party that comes alive when you walk in, and the bid you raise because someone else wants the same prize.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child or boss assumed in THE EDGE (owner R2-4). The first sentence names the ruling domains and stays."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.catalyst.ledger[1].angles.drive",
+  "text": "Saving comes before spending for you, every time. Something put by is what lets you sleep, so you keep a little back rather than enjoy all of it now. The lean months find your household ready.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[0].angles.cost_others",
+  "text": "Your count covers the household's spending as much as your own. Knowing where every bit went keeps you calm, and you ask about the receipt before the day itself. You charge your family a question for every small purchase.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ },
+ {
+  "key": "K2 火_正财 · fn_reading.friction.ledger[1].angles.cost_others",
+  "text": "You make the safe call for both of you whenever money is shared. You would rather play it safe than try something new together, so your partner's bigger ideas wait. You give up your partner's chances with your own each time you say no.",
+  "findings": [
+   {
+    "id": "R2-4",
+    "criterion": "A1",
+    "issue": "A partner, child, boss, promotion or household is assumed (owner R2-4, approved). Swap in neutral words, changing only those words: \"the person you love\" / \"the one closest to you\" for a partner; \"whoever learns from you\" / \"anyone in your care\" for a child or student; \"the one in charge\" / \"whoever signs off\" for a boss; \"the next step up\" for a promotion or raise. Leave it if the word is not an assumption (e.g. \"a partner in a venture\")."
+   }
+  ]
+ }
+]

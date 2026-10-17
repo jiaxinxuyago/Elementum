@@ -71,9 +71,7 @@ export const POLE_FRICTION = {
 // THE BLEND WITHOUT A CLASH (owner M4, 2026-10-17): the two personas of one
 // energy are written as opposites, so a blended page must never set a keyword
 // beside its opposite ("Moves early" beside "Sleeps on it"). The minority
-// persona skips a keyword that opposes a lead keyword and gives its next one;
-// if it runs out, the lead's third keyword fills the place, and where even that
-// clashes the page shows three keywords instead of four. Each pair below is
+// persona's keyword that opposes a lead keyword is skipped (see pickBlendRows). Each pair below is
 // two keywords that can meet on one page (same element, same pole).
 export const BLEND_CLASHES = [
   ['Sets own pace', 'Loves a race'], ['Does it alone', 'Shares the risk'],
@@ -89,15 +87,30 @@ export const BLEND_CLASHES = [
   ['Decides alone', 'All in together'], ['Even pace', 'Loves a race'], ['Even pace', 'Jumps in first'],
   ['Moves early', 'Sleeps on it'], ['Shares freely', 'Saves first'],
   ['Leaves too soon', 'Waits too long'], ['Spends it fast', 'Counts every cost'], ['Spends it fast', 'Holds it back'], ['Leaves too soon', 'Holds it back'],
+  // round 2 (owner R2-2): pairs the auditors found on blended pages
+  ['Coasts along', 'Goes too far'], ['Far-sighted', 'Loyal'], ['Takes the chance', 'Loyal'], ['Sets own pace', 'Goes first'],
+  ['Spends it all', 'Plays it safe'], ['Always moving on', 'Plays it safe'], ['Unforced', 'Quick-witted'],
+  ['Reads between lines', 'Knows what works'], ['Sets own bar', 'Better with rivals'], ['Carries own weight', 'All in together'],
 ];
 const CLASH = new Set(BLEND_CLASHES.flatMap(([a, b]) => [`${a}|${b}`, `${b}|${a}`]));
 export const clashes = (a, b) => CLASH.has(`${a}|${b}`);
+// Round 2 (owner R2-2, 2026-10-17): the picker searches every combination of the
+// two personas' keywords (lead 2 of 3 × minority n of 3, lowest ranks first) and
+// takes the first with no clash, so a 2+2 page shows two and two whenever a clean
+// set exists (owner decision pending for the six pages where none does).
 export function pickBlendRows(lead, minor, nMinor, leadGod, minorGod) {
-  const rows = lead.slice(0, 2).map((row) => ({ ...row, god: leadGod }));
-  const ok = (row) => !rows.some((x) => clashes(x.word, row.word));
-  for (const row of minor) { if (rows.length >= 2 + nMinor) break; if (ok(row)) rows.push({ ...row, god: minorGod }); }
-  if (rows.length < 2 + nMinor && lead[2] && ok(lead[2])) rows.push({ ...lead[2], god: leadGod });
-  return rows;
+  const pairs = (k, n) => (n === 1 ? [[0], [1], [2]] : [[0, 1], [0, 2], [1, 2]]).filter((c) => c.every((i) => i < k));
+  const combos = [];
+  for (const a of pairs(lead.length, 2)) for (const b of pairs(minor.length, nMinor)) combos.push({ a, b, rank: [...a, ...b].reduce((x, y) => x + y, 0) });
+  combos.sort((x, y) => x.rank - y.rank);
+  for (const { a, b } of combos) {
+    const rows = [...a.map((i) => ({ ...lead[i], god: leadGod })), ...b.map((i) => ({ ...minor[i], god: minorGod }))];
+    if (!rows.some((x, i) => rows.some((y, j) => j > i && clashes(x.word, y.word)))) return rows;
+  }
+  // No clean 2+2 (six friction Horizon+Steward pages, whose keywords are exact
+  // opposites): fall to the clean 2+1, which keeps both personas; else the lead alone.
+  if (nMinor === 2) return pickBlendRows(lead, minor, 1, leadGod, minorGod);
+  return lead.map((row) => ({ ...row, god: leadGod }));
 }
 
 export const CONDITION = { concentrated: 'Overfueled', balanced: 'Balanced', open: 'Underfueled' };
@@ -567,6 +580,7 @@ export function buildElementScreen(model, el) {
       const twoFaced = r.faces.length > 1 && r.faces[0].share < 60;
       const tail = twoFaced ? null : K2_CELLS[`${r.hz}_${r.god}`]?.fnReading?.[pole]?.define;
       const head = (t) => (t.match(/[^.!?]+[.!?]+/g) || []).slice(0, 2).map((x) => x.trim()).join(' ');
+      const balancedAdvice = fn && model.condition === 'Balanced' ? fn.advise_balanced || null : null;
       const raw = !fn ? ''
         : model.condition === 'Balanced' && fn.definition_balanced ? fn.definition_balanced
         : tail ? `${head(shared)} ${tail}` : shared;
@@ -585,7 +599,8 @@ export function buildElementScreen(model, el) {
         // THE CHARACTER's title line (owner 2026-10-14, Q2 of the eyebrow
         // rulings: pole-specific): the state the chart gives this energy,
         // in the register's own words for it.
-        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: fn[`advise_${pole}`] || '', remedy: pole === 'friction' ? remedyOf(fn[`advise_${pole}`] || '') : null, edge: pole === 'catalyst' ? edgeOf(r) : null } : null,
+        // a Balanced chart reads the pair's balanced advice, never a remedy (owner R2-1, 2026-10-17)
+        fnReading: fn ? { define: stripped, characterLine: characterLine(r, model.condition), metrics: functionMetrics(r, model.band), ledger: r.fnRows, advise: (balancedAdvice || fn[`advise_${pole}`] || ''), remedy: pole === 'friction' && !balancedAdvice ? remedyOf(fn[`advise_${pole}`] || '') : null, edge: pole === 'catalyst' ? edgeOf(r) : null } : null,
       };
     })()),
     // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —

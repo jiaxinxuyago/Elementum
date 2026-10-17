@@ -170,8 +170,12 @@ for (const f of FIXTURES) {
     // rank: rows are the authored top-N of each cell, in authored order; the angles rotate drive/cost_self/cost_others by position
     const minor = x.faces[1]?.god;
     // the minority skips a keyword that opposes a lead keyword (owner M4, 2026-10-17: BLEND_CLASHES)
-    const leadRows = L(lead).slice(0, wantLead);
-    const expected = [...leadRows.map((r) => ({ ...r, god: lead })), ...(minor ? L(minor).filter((m) => !leadRows.some((l) => clashes(l.word, m.word))).slice(0, wantMinor).map((r) => ({ ...r, god: minor })) : [])];
+    // the contract (owner R2-2, 2026-10-17): the lowest-rank clash-free combination of lead 2 + minority n
+    let expected = null;
+    if (!minor) expected = L(lead).slice(0, wantLead).map((r) => ({ ...r, god: lead }));
+    else { const C = (n) => (n === 1 ? [[0], [1], [2]] : [[0, 1], [0, 2], [1, 2]]); const cs = []; for (const a of C(2)) for (const b of C(wantMinor)) cs.push([a, b, [...a, ...b].reduce((x, y) => x + y, 0)]); cs.sort((x, y) => x[2] - y[2]);
+      for (const [a, b] of cs) { const set = [...a.map((i) => ({ ...L(lead)[i], god: lead })), ...b.map((i) => ({ ...L(minor)[i], god: minor }))]; if (!set.some((x, i) => set.some((y, j) => j > i && clashes(x.word, y.word)))) { expected = set; break; } } }
+    if (!expected) { fail(f, 'no clean combination for this fixture'); return; }
     expected.forEach((e, i) => { const r = rows[i]; if (!r || r.word !== e.word) fail(f, `row ${i} is ${r?.word}, expected ${e.word}`); else if (r.text !== e.angles[ANGLES[i % 3]]) fail(f, `row ${i} (${r.word}) did not enter by the ${ANGLES[i % 3]} angle`); });
     if (x.adj.join('|') !== rows.map((r) => r.word).join('|')) fail(f, 'card chips are not the ledger words');
     console.log(`  ${f.name}: ${rows.map((r) => `${r.word}${r.god ? ` (${r.god})` : ''}`).join(' · ')}`);
