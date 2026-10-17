@@ -193,7 +193,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Clear under pressure · Takes charge · Pushes through |
-| `friction` | Hard on yourself · Never switches off · Never satisfied |
+| `friction` | Hard on yourself · Always on call · Never satisfied |
 
 ### The Magistrate · 木_正官
 

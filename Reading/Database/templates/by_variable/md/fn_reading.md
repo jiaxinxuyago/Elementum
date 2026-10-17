@@ -834,7 +834,7 @@
 | `friction.ledger[0].angles.drive` | You are hard on yourself in ways you would spare a friend. Every slip feels like a test you failed, and the blame lands on you. You are allowed the same mercy you show the people you love. |
 | `friction.ledger[0].angles.cost_self` | To you, being hard on yourself is the honest way to improve. You put every slip on trial in your head, so you replay the mistake instead of resting once the work is done. You pay for it in the rest you never take. |
 | `friction.ledger[0].angles.cost_others` | Being hard on yourself does not stay inside you. Since you treat your own slips as weakness, you hold the people close to you to the same rule more than you say. You teach them to hide their small mistakes from you. |
-| `friction.ledger[1].word` | Never switches off |
+| `friction.ledger[1].word` | Always on call |
 | `friction.ledger[1].angles.drive` | You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You have every right to switch off and let the evening be rest. |
 | `friction.ledger[1].angles.cost_self` | Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. You trade your sleep for that open job and never get the hours back. |
 | `friction.ledger[1].angles.cost_others` | Never switching off means the people at home get you half there. Because the next demand wins over the evening in front of you, you answer it ahead of them without noticing. At home, you give them whatever the day did not use. |

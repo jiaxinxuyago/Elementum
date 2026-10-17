@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Hard on yourself",
-        "Never switches off",
+        "Always on call",
         "Never satisfied"
       ]
     },
@@ -103,7 +103,7 @@
             }
           },
           {
-            "word": "Never switches off",
+            "word": "Always on call",
             "angles": {
               "drive": "You never switch off once the day is done. Wood keeps pressing on a core that has little left, so you read a quiet evening as slipping rather than resting. You have every right to switch off and let the evening be rest.",
               "cost_self": "Being needed feels safer than being idle, so you never switch off. Every answered call proves you matter, and you keep the job open in your head instead of closing it. You trade your sleep for that open job and never get the hours back.",
@@ -641,6 +641,14 @@
       "ruling": "Owner 2026-10-17: audit and fix until zero MAJOR; TWEAKs fixed along the way (SOP); \"1A 2A 3A, then run round 5\"",
       "finding": "R5 wood:W5-T1",
       "replaced": "Where you believe in someone, nothing they do ever quite satisfies you. Because you want them at their best, you pass on the strain as much as the standard. It costs them their ease, and they keep guessing what would please you."
+    },
+    {
+      "field": "fn_reading.friction.ledger[1].word",
+      "adopted_from": "final-audit-r5-owner",
+      "date": "2026-10-17",
+      "ruling": "Owner 2026-10-17: \"X5-02 B\" (rename the older chip; the passages stay)",
+      "finding": "R5 cross:X5-02",
+      "replaced": "Never switches off"
     }
   ]
 }

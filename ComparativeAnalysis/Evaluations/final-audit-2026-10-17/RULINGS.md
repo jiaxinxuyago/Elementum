@@ -76,7 +76,7 @@ Then: "run round 5".
 - Five of the six minors were applied:
   - X5-01: six Balanced tails rewritten, so no chart repeats one "same pace" claim;
   - E5-01, MR5-01, W5-M1 and W5-M2.
-- **Left for the owner:** X5-02. The General's single-face page (P013) shows two chips that open with "Never" ("Never switches off · Never satisfied"). The choices:
+- **X5-02, owner "X5-02 B":** "Never switches off" → "Always on call" (passages unchanged; clears P013 and P015). Earlier note: The General's single-face page (P013) shows two chips that open with "Never" ("Never switches off · Never satisfied"). The choices:
   - rename "Never satisfied" to "Demands more";
   - rename "Never switches off" to "Always on call", which also clears P015;
   - keep both as they are.
