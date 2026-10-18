@@ -50,7 +50,7 @@ export function readerAge(chart, year) {
 
 // a decade's pole for this chart: helping when its element is a catalyst
 // (or the core of an Underfueled chart), heavy otherwise
-function decadePole(el, roles, condition) {
+export function decadePole(el, roles, condition) {
   const r = roles?.[el];
   if (r === 'catalyst') return 'helping';
   if (r === 'core') return condition === 'Underfueled' ? 'helping' : 'heavy';

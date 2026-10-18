@@ -146,3 +146,34 @@ Page: https://claude.ai/artifact/Vz38yjKw7uDv3CtkpDfq2r
 - 70 golden units, gated;
 - a writing plan of about 712 units;
 - open questions W1–W15.
+
+## Round 8 rulings (owner 2026-10-18): the mockup approved, W1–W15 all A, build now
+
+> "I approve this mock up and would like to see how things look from the app. We don't need fleshed out content now, but we need templated content to fulfill a full user journey with all the proposed sections"
+
+**W1–W15, all A (by the owner's choice "Take your recommendations"):**
+- W1: each seat writes its own part of a chapter.
+- W2: every tense a reader can be in.
+- W3: the current decade in full, plus one line for each other decade.
+- W4: a year line plus its strongest bond line.
+- W5: the old seat-sheet chapter lines retire.
+- W6: star readings by star, gate and tense.
+- W7: the Nobleman and Scholar's Star come from the day stem.
+- W8: the 19 sourced stars, with the Taiji Nobleman out.
+- W9: three states, formed, under strain and broken.
+- W10: one seen and unseen line per character.
+- W11: 120 season readings, plus 30 need lines.
+- W12: new lines for the Blueprint's pairings and bonds.
+- W13: no star on its own base.
+- W14: the season text over the summary table.
+- W15: next, the batch, the engine in the app, then the screens.
+
+**The build (owner answers 2026-10-18):**
+- **B1, where:** the dev site only. The new sections sit behind the dev flag, and elementum.life is unchanged until the real content lands.
+- **B2:** W1–W15 as recommended.
+- **B3, fill text:** the golden units where they exist. Everywhere else, a plain templated sentence built from the chart, tagged "draft" on the dev site.
+- **B4, doors:** the round-4 doors and retirements apply on the dev site only:
+  - pillar positions → Life Chapters;
+  - the Today tab's "This Decade" → Life Chapters;
+  - the Day Master page → Blueprint;
+  - the Guidance Energy Manual retired.

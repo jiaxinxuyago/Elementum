@@ -355,14 +355,15 @@
    "kind": "claim",
    "key": "TEMPLATED tpl_depth · stars.claim",
    "where": "Stars · the title",
-   "text": "Six old stars sit in your chart, and a helper is arriving."
+   "text": "Six old stars sit in your chart, and a helper is arriving.",
+   "slots": "{count} {helper}"
   },
   {
    "page": "stars",
    "kind": "star_line",
    "key": "STAR wenchang · line",
    "where": "Scholar’s Star (文昌) · Year Gate · the chip",
-   "text": "Words and learning came easily to you from the start."
+   "text": "Words and learning come easily to you."
   },
   {
    "page": "stars",
@@ -376,7 +377,7 @@
    "kind": "star_line",
    "key": "STAR hongluan · line",
    "where": "Red Phoenix (红鸾) · Month Gate · the chip",
-   "text": "Attraction runs high through your working years."
+   "text": "Attraction runs high around you."
   },
   {
    "page": "stars",
@@ -404,7 +405,7 @@
    "kind": "star_line",
    "key": "STAR yangren · line",
    "where": "Ram’s Edge (羊刃) · Hour Gate · the chip",
-   "text": "A hard, protective will in your later years."
+   "text": "A hard and protective will."
   },
   {
    "page": "stars",
@@ -418,7 +419,7 @@
    "kind": "star_line",
    "key": "STAR jiesha · line",
    "where": "Robbery Star (劫煞) · Year Gate · the chip",
-   "text": "Something early taught you to guard what is yours."
+   "text": "Loss taught you to guard what is yours."
   },
   {
    "page": "stars",
@@ -444,7 +445,7 @@
   {
    "page": "stars",
    "kind": "star_line",
-   "key": "STAR tianyi · line",
+   "key": "STAR tianyi · line.arriving",
    "where": "Nobleman (天乙贵人) · arriving · the chip",
    "text": "A helper with standing arrives in this decade."
   },
@@ -465,9 +466,9 @@
   {
    "page": "stars",
    "kind": "star_line",
-   "key": "STAR taohua · line",
+   "key": "STAR taohua · line.arriving",
    "where": "Peach Blossom (桃花) · arriving · the chip",
-   "text": "Your next decade brings new people in numbers."
+   "text": "This decade brings new people in numbers."
   },
   {
    "page": "stars",
