@@ -77,9 +77,9 @@ const GOD_CHARGE = { '比肩': 'steady', '劫财': 'fierce', '食神': 'gentle',
 
 // CONDITION-axis locks (REA_02 §5c).
 const CONDITIONS = {
-  overfueled: { term: 'Overfueled', zh: '身强', defline: jd.DEFLINE.Overfueled, cond_tail: jd.COND_TAIL.Overfueled, fold_verdict: jd.FOLD_VERDICT.Overfueled, remedy: 'Channel' },
-  balanced: { term: 'Balanced', zh: '中和', defline: jd.DEFLINE.Balanced, cond_tail: jd.COND_TAIL.Balanced, fold_verdict: jd.FOLD_VERDICT.Balanced, remedy: null },
-  underfueled: { term: 'Underfueled', zh: '身弱', defline: jd.DEFLINE.Underfueled, cond_tail: jd.COND_TAIL.Underfueled, fold_verdict: jd.FOLD_VERDICT.Underfueled, remedy: 'Refill' },
+  overfueled: { term: 'Overfueled', zh: '身强', defline: jd.DEFLINE.Overfueled, cond_tail: jd.COND_TAIL.Overfueled, fold_verdict: jd.FOLD_VERDICT.Overfueled, reading: jd.CONDITION_READING.Overfueled, remedy: 'Channel' },
+  balanced: { term: 'Balanced', zh: '中和', defline: jd.DEFLINE.Balanced, cond_tail: jd.COND_TAIL.Balanced, fold_verdict: jd.FOLD_VERDICT.Balanced, reading: jd.CONDITION_READING.Balanced, remedy: null },
+  underfueled: { term: 'Underfueled', zh: '身弱', defline: jd.DEFLINE.Underfueled, cond_tail: jd.COND_TAIL.Underfueled, fold_verdict: jd.FOLD_VERDICT.Underfueled, reading: jd.CONDITION_READING.Underfueled, remedy: 'Refill' },
   channel: { term: 'Channel', zh: '克泄耗', defline: jd.DEFLINE.Channel, appr_tail: jd.APPR_LINE.Channel.tail, kind: 'remedy verb' },
   refill: { term: 'Refill', zh: '生助', defline: jd.DEFLINE.Refill, appr_tail: jd.APPR_LINE.Refill.tail, kind: 'remedy verb' },
 };

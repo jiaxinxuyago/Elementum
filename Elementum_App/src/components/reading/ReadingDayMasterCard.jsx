@@ -13,6 +13,7 @@
 // Vocabulary firewall: no ten-god name on this page; function nouns only.
 // ===================================================================
 
+import { useState } from 'react';
 import { JOURNEY_DEFS } from '../journey/journeyDefs.js';
 
 // The energy pages' glyph set (element, function, domain, arrows), so the
@@ -62,7 +63,92 @@ function EnergyRow({ row, first, onOpen }) {
   );
 }
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, dx, onBack, onBirthChart, onShare, onOpenEnergy, onOpenBlueprint }) {
+// The balance (row 1): Body + Mind on the left pan add to you; Expression,
+// Action and Order on the right pan spend you. The heavier side hangs low.
+function Balance({ condition }) {
+  const tilt = condition === 'Overfueled' ? 1 : condition === 'Underfueled' ? -1 : 0;
+  const r = (tilt * 9 * Math.PI) / 180; const cx = 150; const cy = 46; const L = 104;
+  const lx = cx - L * Math.cos(r); const ly = cy + L * Math.sin(r);
+  const rx = cx + L * Math.cos(r); const ry = cy - L * Math.sin(r);
+  const pan = (x, y, fns, label, side) => (
+    <g className={`cr-pan ${side}`}>
+      <line x1={x} y1={y} x2={x - 30} y2={y + 34} /><line x1={x} y1={y} x2={x + 30} y2={y + 34} />
+      <path d={`M${x - 40} ${y + 34} Q${x} ${y + 54} ${x + 40} ${y + 34} Z`} />
+      {fns.map((f, i) => (
+        <g key={f} transform={`translate(${x - fns.length * 12 + i * 24 + 1},${y + 12})`}>
+          <rect width="22" height="22" rx="6" className="cr-fb" />
+          <svg x="3" y="3" width="16" height="16" viewBox="0 0 24 24"><use href={`#jny-fn-${f}`} /></svg>
+        </g>
+      ))}
+      <text x={x} y={y + 70} textAnchor="middle" className="cr-pl">{label}</text>
+    </g>
+  );
+  return (
+    <svg className={`cr-scale t${tilt}`} viewBox="0 0 300 168" role="img"
+      aria-label={tilt > 0 ? 'Body and Mind weigh more than Expression, Action and Order' : tilt < 0 ? 'Expression, Action and Order weigh more than Body and Mind' : 'The two sides weigh the same'}>
+      <line x1={cx} y1={cy} x2={cx} y2={150} className="cr-post" /><path d={`M${cx - 22} 152 H${cx + 22}`} className="cr-post" />
+      <line x1={lx} y1={ly} x2={rx} y2={ry} className="cr-beam" /><circle cx={cx} cy={cy} r="4.5" className="cr-hub" />
+      {pan(lx, ly, ['body', 'mind'], 'ADDS TO YOU', 'l')}
+      {pan(rx, ry, ['expression', 'action', 'order'], 'SPENDS YOU', 'r')}
+    </svg>
+  );
+}
+
+// THE CONDITION READING (owner 2026-10-18), folded under the band paragraph:
+// how it works, on your chart, what the condition's people share, the
+// scenes, what helps. DRAFT content, dev build only until it is ruled.
+function ConditionReading({ dx }) {
+  const [open, setOpen] = useState(false);
+  const run = dx.run; const R = run?.reading;
+  if (!R) return null;
+  return (
+    <div className={`cr${open ? ' open' : ''}`}>
+      <button type="button" className="cr-toggle" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
+        <span>What {dx.condition} means</span>
+        {R.status === 'draft' ? <i className="cr-draft">Draft</i> : null}
+        <Use id="ico-chev-r" className="cr-chev" />
+      </button>
+      {open ? (
+        <div className="cr-body">
+          <div className="cr-sec">
+            <span className="cr-lab">How it works</span>
+            <Balance condition={dx.condition} />
+            {R.mech.map((s) => <p key={s}>{s}</p>)}
+          </div>
+          {run.mind ? (
+            <div className="cr-sec">
+              <span className="cr-lab">On your chart</span>
+              <p className="cr-you">For you, Body is <b>{run.body}</b> and Mind is <b>{run.mind}</b>.</p>
+            </div>
+          ) : null}
+          <div className="cr-sec">
+            <span className="cr-lab">What {dx.condition} people share</span>
+            <div className="cr-traits">
+              <div><span className="dx-pill cat">Gifts</span><ul>{R.gifts.map((g) => <li key={g}>{g}</li>)}</ul></div>
+              <div><span className="dx-pill fric">Costs</span><ul>{R.costs.map((g) => <li key={g}>{g}</li>)}</ul></div>
+            </div>
+          </div>
+          <div className="cr-sec">
+            <span className="cr-lab">You will recognise it</span>
+            <dl className="cr-scenes">{R.scenes.map(([k, t]) => <div key={k}><dt>{k}</dt><dd>{t}</dd></div>)}</dl>
+          </div>
+          <div className="cr-sec">
+            <span className="cr-lab">What helps · {R.verb}</span>
+            <p className="cr-helps">{R.helps}</p>
+            {R.grow ? (
+              <div className="cr-hrows">
+                <span className="dx-pill cat"><Use id="ar-up" />Grow</span><span>{R.grow}</span>
+                <span className="dx-pill fric"><Use id="ar-down" />Release</span><span>{R.release}</span>
+              </div>
+            ) : null}
+          </div>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, dx, deep = false, onBack, onBirthChart, onShare, onOpenEnergy, onOpenBlueprint }) {
   return (
     <div className="reading-fill">
       <span style={{ display: 'none' }} dangerouslySetInnerHTML={{ __html: `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${JOURNEY_DEFS}</defs></svg>` }} />
@@ -129,6 +215,7 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
               ))}
             </div>
             {nature ? <p className="dx-nature">{nature}</p> : null}
+            {deep ? <ConditionReading dx={dx} /> : null}
           </div>
         ) : null}
 

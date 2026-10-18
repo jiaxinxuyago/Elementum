@@ -14,6 +14,47 @@
     "defline": "Intake and burn hold each other — the condition the other two work toward.",
     "cond_tail": "intake and burn hold each other.",
     "fold_verdict": "keep the mix.",
+    "reading": {
+      "status": "draft",
+      "mech": [
+        "Body and Mind add to you. Expression, Action and Order spend you.",
+        "In your chart neither side has the stronger claim on your season and your roots. Your core takes in about what it spends.",
+        "The classics treat this as the condition the other two work toward. None of your energies needs to grow or be released."
+      ],
+      "gifts": [
+        "You fit many settings without losing yourself.",
+        "You recover quickly after a hard stretch.",
+        "You can push hard or hold back, as the moment asks."
+      ],
+      "costs": [
+        "Nothing pushes you to your limit, and you need your own reasons to go further.",
+        "A hard year tips you more than it tips others.",
+        "You weigh both sides for a long time before you choose."
+      ],
+      "scenes": [
+        [
+          "At work",
+          "You can lead a project or support one, and both feel natural."
+        ],
+        [
+          "At rest",
+          "A busy week and a quiet week both suit you, as long as neither runs too long."
+        ],
+        [
+          "With people",
+          "Friends bring you their problems, because you take neither side too fast."
+        ],
+        [
+          "Over the years",
+          "A good year lifts you, and a hard year weighs on you. The timing matters more to you than to most."
+        ]
+      ],
+      "verb": "Keep",
+      "helps": "Intake and burn hold each other; protect the equilibrium.",
+      "grow": null,
+      "release": null
+    },
     "remedy": null
-  }
+  },
+  "reading_note": "reading = THE CONDITION READING (owner 2026-10-18): DRAFT, wired on the dev build for functionality before the content is ruled. Rows: mech (how it works), on your chart (runtime: Body = core, Mind = feeder), gifts, costs, scenes, helps (the locked §5c remedy line). Review page: claude.ai/artifact/3jAkDqAiAukF2iM29v1aWw."
 }

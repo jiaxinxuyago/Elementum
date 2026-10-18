@@ -14,6 +14,47 @@
     "defline": "More fuel comes in than your core burns — the surplus wants somewhere to go. Built into your chart, not today’s mood.",
     "cond_tail": "more comes in than it burns.",
     "fold_verdict": "channel the surplus.",
+    "reading": {
+      "status": "draft",
+      "mech": [
+        "Two of your five energies add to you. Body is more of your own element, and Mind is the element that feeds it.",
+        "In your chart these two have your birth season or your roots behind them. Your core takes in more than a day can spend.",
+        "The other three spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape. They are the outlets your surplus is looking for."
+      ],
+      "gifts": [
+        "You carry a heavy load without asking for help.",
+        "You stay steady under pressure, and you recover fast.",
+        "You trust your own judgement and act on it."
+      ],
+      "costs": [
+        "You grow restless when nothing asks much of you.",
+        "You feel sure you are right, and criticism lands hard.",
+        "You hold other people to your own pace and standard."
+      ],
+      "scenes": [
+        [
+          "At work",
+          "A hard deadline brings you alive. An easy month leaves you rebuilding things that were never broken."
+        ],
+        [
+          "At rest",
+          "A free weekend fills with projects by Saturday noon. Doing nothing feels heavier to you than doing too much."
+        ],
+        [
+          "With people",
+          "A friend asks for advice, and you hand over the whole plan. You find it hard when they take only half of it."
+        ],
+        [
+          "When it is stuck",
+          "With no outlet, you go over the same thought again. You wait for certainty before you start."
+        ]
+      ],
+      "verb": "Channel",
+      "helps": "Give your extra force a place to go — aim it, don’t store it.",
+      "grow": "Expression, Action and Order",
+      "release": "Body and Mind"
+    },
     "remedy": "Channel"
-  }
+  },
+  "reading_note": "reading = THE CONDITION READING (owner 2026-10-18): DRAFT, wired on the dev build for functionality before the content is ruled. Rows: mech (how it works), on your chart (runtime: Body = core, Mind = feeder), gifts, costs, scenes, helps (the locked §5c remedy line). Review page: claude.ai/artifact/3jAkDqAiAukF2iM29v1aWw."
 }

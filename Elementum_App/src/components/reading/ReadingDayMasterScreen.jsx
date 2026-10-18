@@ -18,6 +18,7 @@ import { STEM_CARD_DATA } from '../../content/index.js';
 import { resolveDayMasterReading } from './readingResolve.js';
 import { useReading } from './useReading.js';
 import { buildJourneyModel, buildDiagnosisModel } from '../journey/journeyData.js';
+import { IS_DEV_TOOLS } from '../../devtools.js';
 
 export default function ReadingDayMasterScreen({ onBack, onBirthChart, onOpenEnergy, onOpenBlueprint }) {
   const { chart, ec, identity, wip } = useReading();
@@ -41,6 +42,9 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart, onOpenEne
         overview={card?.identity?.overview}
         nature={reading.nature || card?.yourNature?.desc}
         dx={dx}
+        // The condition reading (owner 2026-10-18) is DRAFT: wired on the dev
+        // build for functionality, off on elementum.life until it is ruled.
+        deep={IS_DEV_TOOLS}
         onBack={onBack}
         onBirthChart={onBirthChart}
         onOpenEnergy={onOpenEnergy}

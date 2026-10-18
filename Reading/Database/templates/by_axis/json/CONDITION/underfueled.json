@@ -14,6 +14,47 @@
     "defline": "Your core burns more than it takes in — the right intake is what your chart asks for. Built in, not a mood.",
     "cond_tail": "it burns more than it takes in.",
     "fold_verdict": "refill the tank.",
+    "reading": {
+      "status": "draft",
+      "mech": [
+        "Three of your five energies spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape.",
+        "In your chart these three have your birth season or your roots behind them. Your core spends more than it takes in.",
+        "The other two add to you. Body is more of your own element, and Mind is the element that feeds it. They are the intake your chart is asking for."
+      ],
+      "gifts": [
+        "You read people quickly and adjust to them.",
+        "You make a little go a long way.",
+        "You work well beside others, and you share credit easily."
+      ],
+      "costs": [
+        "You doubt yourself, even when the work is good.",
+        "You start strong and run out before the finish.",
+        "You give out more than you take in, and you tire without noticing."
+      ],
+      "scenes": [
+        [
+          "At work",
+          "You say yes to the extra project. Then you carry it alone in your evenings."
+        ],
+        [
+          "At rest",
+          "A quiet morning with nobody asking for anything feels like a treat. For you it is fuel."
+        ],
+        [
+          "With people",
+          "The right mentor or friend changes everything for you. With their backing you finish what you start."
+        ],
+        [
+          "When it is stuck",
+          "Too many demands arrive at once. You blame yourself before you blame the load."
+        ]
+      ],
+      "verb": "Refill",
+      "helps": "Take in what feeds you — intake isn’t a crutch, it’s your engine.",
+      "grow": "Body and Mind",
+      "release": "Expression, Action and Order"
+    },
     "remedy": "Refill"
-  }
+  },
+  "reading_note": "reading = THE CONDITION READING (owner 2026-10-18): DRAFT, wired on the dev build for functionality before the content is ruled. Rows: mech (how it works), on your chart (runtime: Body = core, Mind = feeder), gifts, costs, scenes, helps (the locked §5c remedy line). Review page: claude.ai/artifact/3jAkDqAiAukF2iM29v1aWw."
 }

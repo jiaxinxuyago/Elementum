@@ -622,3 +622,36 @@
 .reading .depth-door { display: block; width: 100%; text-align: left; cursor: pointer; font: inherit; }
 .reading .depth-door-t { display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 14px; line-height: 1.5; color: var(--inkSoft); }
 .reading .depth-door-link { margin-top: 10px; background: none; border: 0; padding: 0; cursor: pointer; color: var(--bronzeDark, #8a6a3a); }
+
+/* THE CONDITION READING (owner 2026-10-18) — folded under the band
+   paragraph in "How {archetype} runs"; DRAFT, dev build only. */
+.reading .cr{ margin-top:10px; border-top:1px dotted rgba(139,115,85,.3); padding-top:8px; }
+.reading .cr-toggle{ width:100%; display:flex; align-items:center; gap:8px; border:0; background:none; padding:4px 0; cursor:pointer; font:inherit; color:var(--ink); text-align:left; }
+.reading .cr-toggle > span{ font-size:14.5px; font-weight:600; }
+.reading .cr-toggle:focus-visible{ outline:2px solid #6b5339; outline-offset:2px; border-radius:6px; }
+.reading .cr-draft{ font-style:normal; font-family:'EB Garamond',Georgia,serif; font-size:7.5px; letter-spacing:.12em; text-transform:uppercase; background:#fbefc4; color:#7a5a00; padding:2px 6px; border-radius:4px; }
+.reading .cr-chev{ width:14px; height:14px; margin-left:auto; color:#6b5339; transition:transform .2s; }
+.reading .cr.open .cr-chev{ transform:rotate(90deg); }
+.reading .cr-body{ display:flex; flex-direction:column; gap:14px; padding-top:8px; }
+.reading .cr-sec{ display:flex; flex-direction:column; gap:6px; }
+.reading .cr-sec p{ margin:0; font-size:14px; line-height:1.5; }
+.reading .cr-lab{ font-family:'EB Garamond',Georgia,serif; font-size:8.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:#857d72; }
+.reading .cr-scale{ width:100%; max-width:300px; height:auto; align-self:center; }
+.reading .cr-beam{ stroke:#2b2722; stroke-width:3.5; stroke-linecap:round; }
+.reading .cr-post{ stroke:#857d72; stroke-width:2.5; fill:none; stroke-linecap:round; }
+.reading .cr-hub{ fill:#2b2722; }
+.reading .cr-pan line{ stroke:#857d72; stroke-width:1.1; }
+.reading .cr-pan path{ fill:#efe6d2; stroke:#857d72; stroke-width:1.1; }
+.reading .cr-fb{ fill:#faf6ee; stroke:#d8ccb2; }
+.reading .cr-pan svg{ color:#6b5339; }
+.reading .cr-scale.t1 .cr-pan.l svg, .reading .cr-scale.t-1 .cr-pan.r svg{ color:#a85c48; }
+.reading .cr-scale.t1 .cr-pan.r svg, .reading .cr-scale.t-1 .cr-pan.l svg{ color:#4a7a52; }
+.reading .cr-pl{ font-family:'EB Garamond',Georgia,serif; font-size:8px; letter-spacing:.14em; fill:#857d72; }
+.reading .cr-you{ background:rgba(139,115,85,.08); border-radius:10px; padding:7px 10px; }
+.reading .cr-traits{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.reading .cr-traits ul{ margin:6px 0 0; padding-left:16px; display:flex; flex-direction:column; gap:5px; font-size:13.5px; line-height:1.4; }
+.reading .cr-scenes{ margin:0; display:flex; flex-direction:column; gap:7px; }
+.reading .cr-scenes dt{ font-family:'EB Garamond',Georgia,serif; font-size:8px; letter-spacing:.14em; text-transform:uppercase; color:#6b5339; }
+.reading .cr-scenes dd{ margin:1px 0 0; font-size:14px; line-height:1.45; }
+.reading .cr-helps{ font-weight:600; }
+.reading .cr-hrows{ display:grid; grid-template-columns:auto minmax(0,1fr); gap:6px 8px; align-items:center; font-size:13.5px; }

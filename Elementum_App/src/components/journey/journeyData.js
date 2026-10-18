@@ -129,6 +129,103 @@ export const DEFLINE = {
   Refill: 'Take in what feeds you — intake isn’t a crutch, it’s your engine. The two lists below are where it comes from.',
 };
 
+// THE CONDITION READING (owner 2026-10-18: "the how am I running section
+// needs a deeper dive"): one reading per condition, five rows — how it
+// works (the balance: Body + Mind add to you, Expression + Action + Order
+// spend you), on your chart (filled per chart), what the condition's people
+// share (gifts, costs), the scenes, what helps. DRAFT: wired for
+// functionality before the content is ruled (owner 2026-10-18), shown on
+// the dev build only. Station: CONDITION/{overfueled,underfueled,balanced}
+// `reading`. The mechanism says "season or roots", never an amount: the
+// band comes from the three tests, and on ~1 chart in 5 Body + Mind hold
+// under half the amount on an Overfueled chart.
+export const CONDITION_READING = {
+  Overfueled: {
+    status: 'draft',
+    mech: [
+      'Two of your five energies add to you. Body is more of your own element, and Mind is the element that feeds it.',
+      'In your chart these two have your birth season or your roots behind them. Your core takes in more than a day can spend.',
+      'The other three spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape. They are the outlets your surplus is looking for.',
+    ],
+    gifts: [
+      'You carry a heavy load without asking for help.',
+      'You stay steady under pressure, and you recover fast.',
+      'You trust your own judgement and act on it.',
+    ],
+    costs: [
+      'You grow restless when nothing asks much of you.',
+      'You feel sure you are right, and criticism lands hard.',
+      'You hold other people to your own pace and standard.',
+    ],
+    scenes: [
+      ['At work', 'A hard deadline brings you alive. An easy month leaves you rebuilding things that were never broken.'],
+      ['At rest', 'A free weekend fills with projects by Saturday noon. Doing nothing feels heavier to you than doing too much.'],
+      ['With people', 'A friend asks for advice, and you hand over the whole plan. You find it hard when they take only half of it.'],
+      ['When it is stuck', 'With no outlet, you go over the same thought again. You wait for certainty before you start.'],
+    ],
+    verb: 'Channel',
+    helps: 'Give your extra force a place to go — aim it, don’t store it.',
+    grow: 'Expression, Action and Order',
+    release: 'Body and Mind',
+  },
+  Underfueled: {
+    status: 'draft',
+    mech: [
+      'Three of your five energies spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape.',
+      'In your chart these three have your birth season or your roots behind them. Your core spends more than it takes in.',
+      'The other two add to you. Body is more of your own element, and Mind is the element that feeds it. They are the intake your chart is asking for.',
+    ],
+    gifts: [
+      'You read people quickly and adjust to them.',
+      'You make a little go a long way.',
+      'You work well beside others, and you share credit easily.',
+    ],
+    costs: [
+      'You doubt yourself, even when the work is good.',
+      'You start strong and run out before the finish.',
+      'You give out more than you take in, and you tire without noticing.',
+    ],
+    scenes: [
+      ['At work', 'You say yes to the extra project. Then you carry it alone in your evenings.'],
+      ['At rest', 'A quiet morning with nobody asking for anything feels like a treat. For you it is fuel.'],
+      ['With people', 'The right mentor or friend changes everything for you. With their backing you finish what you start.'],
+      ['When it is stuck', 'Too many demands arrive at once. You blame yourself before you blame the load.'],
+    ],
+    verb: 'Refill',
+    helps: 'Take in what feeds you — intake isn’t a crutch, it’s your engine.',
+    grow: 'Body and Mind',
+    release: 'Expression, Action and Order',
+  },
+  Balanced: {
+    status: 'draft',
+    mech: [
+      'Body and Mind add to you. Expression, Action and Order spend you.',
+      'In your chart neither side has the stronger claim on your season and your roots. Your core takes in about what it spends.',
+      'The classics treat this as the condition the other two work toward. None of your energies needs to grow or be released.',
+    ],
+    gifts: [
+      'You fit many settings without losing yourself.',
+      'You recover quickly after a hard stretch.',
+      'You can push hard or hold back, as the moment asks.',
+    ],
+    costs: [
+      'Nothing pushes you to your limit, and you need your own reasons to go further.',
+      'A hard year tips you more than it tips others.',
+      'You weigh both sides for a long time before you choose.',
+    ],
+    scenes: [
+      ['At work', 'You can lead a project or support one, and both feel natural.'],
+      ['At rest', 'A busy week and a quiet week both suit you, as long as neither runs too long.'],
+      ['With people', 'Friends bring you their problems, because you take neither side too fast.'],
+      ['Over the years', 'A good year lifts you, and a hard year weighs on you. The timing matters more to you than to most.'],
+    ],
+    verb: 'Keep',
+    helps: 'Intake and burn hold each other; protect the equilibrium.',
+    grow: null,
+    release: null,
+  },
+};
+
 // ── Round 2 (2026-07-23) ───────────────────────────────────────────
 // Family one-liners (locked wording). Retired from the dot card by the
 // minimal-card ruling (owner 2026-09-01); preserved here as Codex ore
@@ -820,5 +917,9 @@ export function buildDiagnosisModel(m) {
     ].filter((g) => g.rows.length);
   // The first catalyst (the classical 用神, named in app words only, Q8 A).
   const first = m.balanced ? null : m.seek[0]?.el || null;
-  return { condition: m.condition, lead, track, groups, first };
+  // The condition reading (CONDITION_READING): row 2 names this chart's
+  // Body (the core) and Mind (the element that feeds it).
+  const mind = m.els.find((r) => !r.isCore && r.family === 'resource');
+  const run = { body: coreName, mind: mind?.name || null, reading: CONDITION_READING[m.condition] || null };
+  return { condition: m.condition, lead, track, groups, first, run };
 }
