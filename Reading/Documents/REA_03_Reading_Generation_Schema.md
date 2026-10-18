@@ -217,7 +217,7 @@ energyCard: {
 | `tpl_dx_line` | Your {El} is {Cond} — {Remedy} it. (role-driven mapping, ratified 2026-07-23 — REA_02 §5c) | Your Metal is Overfueled — Channel it. | F4 | LIVE |
 | `tpl_verdict_line` | {connector} {pole} · {verb} — connectors curdling into / rising toward / holding / reaching for; verbs role-driven | curdling into Isolation · channel it (Metal core-excess) | F8 | LIVE |
 | `tpl_share_coreline` | {El} is your Core — {Cond} | Metal is your Core — Overfueled | I3 | LIVE |
-| `tpl_dm_prescription` | SEEK THIS · {EL} / SKIP THIS · {EL} + body | SEEK THIS · FIRE — Fire is the energy your chart asks for — thin in you and worth feeding. | J5 | INTERIM (pending K2) |
+| `tpl_dm_prescription` | SEEK THIS · {EL} / SKIP THIS · {EL} + body *(retired to ore 2026-09-15 and never rendered; if revived it takes the action pair, GROW IT / RELEASE IT, REA_02 §5c 2026-10-18)* | SEEK THIS · FIRE — Fire is the energy your chart asks for — thin in you and worth feeding. | J5 | INTERIM (pending K2) |
 | `tpl_element_verdict` | role/condition verdict set (core / core-excess / friction / catalyst / missing) | Metal: YOUR CORE — ALSO YOUR EXCESS · Overfueled — honor it, don't feed it further. | K4 | LIVE |
 | `tpl_presence_frames` ×4 | dominant/present/scarce/absent framing patterns, ≤20w, slot-filled | — | energy cards | PLANNED |
 | `tpl_cycle_line` ×20 | {elA} {feeds/tests} {elB} — label ≤10w + line ≤20w (concept 2.1's teaching beats) | *handoff demo:* Why Earth feeds Metal — the cycle, in your chart | L7 + cycle layer | PLANNED |
@@ -286,7 +286,7 @@ From `archetypeSource.js` / `stemVariants.js` unless noted. **Rule: nothing here
 | B1–B4 | Hero | `archetype_name` · `manifesto` · **stem-literacy line** (derived `庚 · YANG METAL · CAST FROM YOUR DAY OF BIRTH`; replaced `stem_keywords` chips 2026-09-10) · `stem_seal` | LOCKED (B3 re-ruled 08-05; chips retired 09-10) |
 | C1–C8 | Folio | `tpl_core_energy_line` · `condition_term`(V) · `fold_verdict`(V) · `tpl_core_own_element` · `tpl_core_seal_explainer` · `cond_tail`(V) · `approach_verb`+`appr_tail`(V) · `defline`(V) | LOCKED |
 | D1–D4 | Wheel | derived (presence/seats/roles) · `stem_painting` | LOCKED |
-| E1–E5 | Energy Manual + Map rails *(was Seek/Skip panels — retired 2026-09-10; SKIP→EASE)* | `ui_labels`(V) · condition defline (§5c) + why-lines · `tpl_relation_row` ← function noun (§5f) + presence · YOURSELF core tag · SEEK/EASE rail legend | LOCKED (journey restructure 09-10; REA_02 §5c amendment) |
+| E1–E5 | Energy Manual + Map rails *(was Seek/Skip panels — retired 2026-09-10; SKIP→EASE; SEEK/EASE→GROW/RELEASE 2026-10-18, REA_02 §5c the action pair)* | `ui_labels`(V) · condition defline (§5c) + why-lines · `tpl_relation_row` ← function noun (§5f) + presence · YOURSELF core tag · GROW/RELEASE rail legend | LOCKED (journey restructure 09-10; REA_02 §5c amendment) |
 | F1–F9 | Shelf pills | `tpl_pill_title` · `family_line`(V) · `tpl_dx_line` · roles · `adj_*`(V) · `keyword`(V) · `tpl_verdict_line` ← `pole_*`(V) · presence | LOCKED |
 | G1–G4 | Words-note + glossary | `ui_labels`(V) · `condition_term`(V) · `glossary_body`(V) | LOCKED |
 | H1 | Dock | `relation_noun`(V) + presence + roles | LOCKED |

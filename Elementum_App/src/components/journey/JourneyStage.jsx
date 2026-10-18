@@ -563,7 +563,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 <div className="beat" data-beat="2">
                   {/* YOUR ENERGY MANUAL (owner rulings 2026-09-10): the core
                       analyzed from its CONDITION (never the ten-god voice) —
-                      the line expands into the prescription: SEEK / EASE with
+                      the line expands into the prescription: GROW / RELEASE with
                       the old seek/skip rows relocated as its doors, and the
                       core itself on the ease side for overfueled charts
                       (mirrored to seek when underfueled). Replaces both the
@@ -582,7 +582,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                           <p className="body2 man-why">Nothing to force — {m.foldVerdict} The map below is yours to wander.</p>
                         ) : (
                           <>
-                            <div className="vx-ey man-ey"><span>SEEK THESE</span><span className="role-pill cat" role="button" tabIndex={0} onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</span></div>
+                            <div className="vx-ey man-ey"><span>GROW THESE</span><span className="role-pill cat" role="button" tabIndex={0} onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</span></div>
                             <p className="man-why">{m.condition === 'Overfueled' ? 'These spend your surplus well.' : 'These refill what runs low.'}</p>
                             {m.seek.map((r) => (
                               <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
@@ -590,7 +590,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                                 <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{fnNoun(r)}{r.isCore && <span className="man-self">YOURSELF</span>}</b></span><span className="ik-pct">{r.presence}%</span></span>
                               </button>
                             ))}
-                            <div className="vx-ey man-ey"><span>EASE THESE</span><span className="role-pill fric" role="button" tabIndex={0} onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</span></div>
+                            <div className="vx-ey man-ey"><span>RELEASE THESE</span><span className="role-pill fric" role="button" tabIndex={0} onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</span></div>
                             <p className="man-why">{m.condition === 'Overfueled' ? 'These feed a core already full.' : 'These spend what little comes in.'}</p>
                             {m.skip.map((r) => (
                               <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
@@ -608,19 +608,19 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
                 <div className="beat" data-beat="3">
                   <span className="sec-eyebrow">YOUR ENERGY MAP</span>
-                  {/* the SEEK/EASE rails (owner 2026-09-10): the manual's two
+                  {/* the GROW/RELEASE rails (owner 2026-09-10; GROW/RELEASE since 2026-10-18): the manual's two
                       lists echoed as the map's key — seek pinned left, ease
                       right (the self ringed). The wheel itself is untouched:
                       same nodes, seats, sizes, and role pips. */}
                   {!m.balanced && (
                     <div className="maprails" aria-hidden="true">
                       <span className="mr-side">
-                        <span className="mr-lab seek">SEEK</span>
+                        <span className="mr-lab seek">GROW</span>
                         {m.seek.map((r) => <span key={r.el} className="mr-dot" style={{ background: `var(--${r.el}Deep)` }}><Use id={`el-${r.el}`} /></span>)}
                       </span>
                       <span className="mr-side">
                         {m.skip.map((r) => <span key={r.el} className={`mr-dot${r.isCore ? ' self' : ''}`} style={{ background: `var(--${r.el}Deep)` }}><Use id={`el-${r.el}`} /></span>)}
-                        <span className="mr-lab ease">EASE</span>
+                        <span className="mr-lab ease">RELEASE</span>
                       </span>
                     </div>
                   )}

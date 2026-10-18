@@ -160,8 +160,10 @@ export const ADJ_FRICTION = {
 
 // Glossary sheet definitions (A2 — locked W map, verbatim; cond varies by chart)
 const W_CORE = 'The energy you were cast with — your day master, the fixed center every other energy is read against. It doesn’t change; it’s the you the whole chart orbits.';
-const W_CAT = 'The energy your chart runs short on. Feed it and the whole system moves easier — these are the energies to seek.';
-const W_FRIC = 'The energy already carrying weight. Add more and it jams the works — these are the energies to ease off.';
+// One role pair, one action pair (owner 2026-10-18, REA_02 §5c): Catalyst / Friction
+// name the role, Grow / Release name the act (Keep on a Balanced chart).
+const W_CAT = 'The energy your chart runs short on. Feed it and the whole system moves easier — these are the energies to grow.';
+const W_FRIC = 'The energy already carrying weight. Add more and it jams the works — these are the energies to release.';
 // Condition glossary body = the §5c definition (DEFLINE) + its remedy clause,
 // composed from the canonical sources so no line is restated: Channel/Refill
 // from APPR_LINE, the balanced verdict from FOLD_VERDICT.
@@ -486,10 +488,11 @@ export function buildElementScreen(model, el) {
   // A core at 0% is 日主无根: unrooted, never missing (owner R6, 2026-09-16).
   const reye = `${r.name.toUpperCase()}${r.missing ? (r.isCore ? ' · YOUR CORE · UNROOTED' : ' · MISSING') : r.isCore ? ' · YOUR CORE' : ''}`;
 
-  // The turn label (SEEK/SKIP register) — heads the mechanism's state turn.
+  // The turn label — heads the mechanism's state turn, in the one role pair and
+  // the one action pair (owner 2026-10-18: Catalyst / Friction, Grow / Release).
   const turnLab = r.isCore
-    ? (r.coreExcess ? 'YOUR CORE — ALSO YOUR EXCESS' : r.coreCatalyst ? 'YOUR CORE — FEED IT' : 'YOUR CORE')
-    : r.role === 'friction' ? 'YOUR FRICTION — SKIP THIS' : 'YOUR CATALYST — SEEK THIS';
+    ? (r.coreExcess ? 'YOUR CORE · RELEASE IT' : r.coreCatalyst ? 'YOUR CORE · GROW IT' : 'YOUR CORE')
+    : r.role === 'friction' ? 'YOUR FRICTION · RELEASE IT' : 'YOUR CATALYST · GROW IT';
 
   // THE MECHANISM (element-page restructure, owner rulings 2026-08-19):
   // the ELEMENT_PAIR cell (DM element × this energy) consolidates the old
