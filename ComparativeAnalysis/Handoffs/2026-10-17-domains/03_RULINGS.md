@@ -177,3 +177,9 @@ Page: https://claude.ai/artifact/Vz38yjKw7uDv3CtkpDfq2r
   - the Today tab's "This Decade" → Life Chapters;
   - the Day Master page → Blueprint;
   - the Guidance Energy Manual retired.
+
+**Built (2026-10-18):**
+- `a7168c3`: the engine, content and resolvers.
+- `4240214`: the screens, the catalogue beats and the doors.
+
+All of it is behind `DEPTH_V1 = IS_DEV_TOOLS`, so it shows on the dev site only.

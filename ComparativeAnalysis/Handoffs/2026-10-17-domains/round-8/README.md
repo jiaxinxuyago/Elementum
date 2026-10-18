@@ -1,7 +1,7 @@
 # Round 8: the engine, the writing plan and the golden templates (owner P6 A)
 
 - **Review page:** https://claude.ai/artifact/J5JMZEioCtMy3x7dadZkVN (`depth-v8.html`). Questions W1–W15.
-- **Nothing is in the app.** The engine lives here (`engine/`), reading the app's calculator. No app file changed.
+- **Engine:** these drafts moved into the app on 2026-10-18 (`Elementum_App/src/engine/depth/`, golden test `tools/qa-depth-golden.mjs`). The copies here are the round-8 record.
 - **Engine** (`engine/`):
   - `chartDepth.js`:
     - the structure (格局) by the 子平真诠 revealed-stem rule, with formed, under strain or broken and the rescue from the decades;
