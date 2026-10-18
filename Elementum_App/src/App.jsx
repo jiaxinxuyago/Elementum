@@ -413,6 +413,9 @@ export default function App() {
   const [screen, setScreenState] = useState(readHash);
   // The energy a Day Master diagnosis row asked to open (P4 v4, see openEnergy).
   const [energyTarget, setEnergyTarget] = useState(null);
+  // THE DEPTH doors (owner B4, dev site only): the section page a door outside
+  // the journey asked to open (Life Chapters, the Blueprint, Domains).
+  const [sectionTarget, setSectionTarget] = useState(null);
   // Navigations run as a transition: if the target screen is still lazy-loading,
   // React keeps the CURRENT screen on-screen until it's ready instead of
   // dropping to the blank Suspense fallback — so there's no "white blink" even
@@ -423,7 +426,7 @@ export default function App() {
   // deep-linkable during development).
   const setScreen = (next) => {
     const name = typeof next === 'function' ? next(screen) : next;
-    if (name !== 'app-reading') setEnergyTarget(null);
+    if (name !== 'app-reading') { setEnergyTarget(null); setSectionTarget(null); }
     startTransition(() => setScreenState(name));
     if (typeof window !== 'undefined') {
       window.location.hash = `#/${name}`;
@@ -462,6 +465,11 @@ export default function App() {
   // page. The target is read by JourneyStage when it mounts on app-reading,
   // and cleared by any navigation elsewhere (setScreen).
   const openEnergy = (el) => { setEnergyTarget(el); setScreen('app-reading'); };
+  // THE DEPTH (B4, dev only): the Today tab's decade tile → Life Chapters,
+  // the Day Master page → the Blueprint, the pillar chart → Life Chapters,
+  // the Guidance tab's Energy Manual (retired, E8) → Domains.
+  const openSection = (name) => { setScreen('app-reading'); setSectionTarget(name); };
+  const routeOpen = (route) => (IS_DEV && route === 'app-decade' ? openSection('chapters') : IS_DEV && route === 'app-manual' ? openSection('domains') : setScreen(route));
 
   // Where Loading hands off once the chart is computed and the dwell ends:
   // 'reveal' (the Naming ceremony — a chart drawn for the first time through
@@ -588,7 +596,7 @@ export default function App() {
     case 'app-today':
       rendered = (
         <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
-          <TodayScreen onOpen={(route) => setScreen(route)} />
+          <TodayScreen onOpen={routeOpen} />
         </DashboardShell>
       );
       break;
@@ -598,7 +606,7 @@ export default function App() {
         <DashboardShell active="today" onTabChange={routeTab} bg={PLATE_BG.day}>
           <DayPage
             onBack={goto('app-today')}
-            onOpen={(route) => setScreen(route)}
+            onOpen={routeOpen}
           />
         </DashboardShell>
       );
@@ -627,7 +635,7 @@ export default function App() {
     case 'app-guidance':
       rendered = (
         <DashboardShell active="guidance" onTabChange={routeTab}>
-          <GuidanceScreen onOpen={(route) => setScreen(route)} />
+          <GuidanceScreen onOpen={routeOpen} />
         </DashboardShell>
       );
       break;
@@ -671,17 +679,17 @@ export default function App() {
     case 'app-reading':
       // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
       // → towers + seal dock. Endpoints route into the existing reading pages.
-      rendered = <JourneyStage openEl={energyTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} />;
+      rendered = <JourneyStage key={sectionTarget || 'reading'} openEl={energyTarget} openSection={sectionTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
       // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
       // the journey (the same hook the DevBar uses, set by JourneyStage).
-      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} />;
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} onOpenBlueprint={IS_DEV ? () => openSection('blueprint') : undefined} />;
       break;
     case 'app-pillars':
       // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
-      rendered = <ReadingPillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
+      rendered = <ReadingPillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
       break;
     case 'app-compat':
       rendered = (
@@ -727,7 +735,7 @@ export default function App() {
       // Retired DayMasterDetail — aliased to the D13 Day Master card (P4).
       // P4 v4 (owner 2026-10-17): a diagnosis row opens that energy's page in
       // the journey (the same hook the DevBar uses, set by JourneyStage).
-      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} />;
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} onOpenEnergy={openEnergy} onOpenBlueprint={IS_DEV ? () => openSection('blueprint') : undefined} />;
       break;
     case 'read-tengods':
       rendered = <TenGodsDetail onBack={goto('app-reading')} />;
@@ -746,7 +754,7 @@ export default function App() {
       break;
     case 'chart-reveal':
       // Retired RawChartPage — aliased to the D13 八字 Pillar Chart (P5).
-      rendered = <ReadingPillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
+      rendered = <ReadingPillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} onOpenChapters={IS_DEV ? () => openSection('chapters') : undefined} />;
       break;
     case 'chart-resonance':
       // After recovering the hour, land on the D13 Pillar Chart (not the old raw chart).

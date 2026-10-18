@@ -16,7 +16,7 @@ import { useReading } from './useReading.js';
 // conclusion never surfaces 合/冲 vocabulary (charter rule).
 const PATTERNS_FILLER = 'One quiet alliance runs through your branches — forces that look opposed conspiring toward the same end.';
 
-export default function ReadingPillarChartScreen({ onBack, onDiscoverHour }) {
+export default function ReadingPillarChartScreen({ onBack, onDiscoverHour, onOpenChapters }) {
   const { chart, ec, hourUnknown } = useReading();
   if (!ec || !chart) return null;
   const pillars = buildPillars(chart, hourUnknown);
@@ -35,6 +35,7 @@ export default function ReadingPillarChartScreen({ onBack, onDiscoverHour }) {
         hourUnknown={hourUnknown}
         onBack={onBack}
         onDiscoverHour={onDiscoverHour}
+        onOpenChapters={onOpenChapters}
       />
     </div>
   );

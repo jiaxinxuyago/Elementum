@@ -617,3 +617,8 @@
 .reading .dx-mini svg{ width:11px; height:11px; }
 .reading .dx-go{ width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:1.5px solid color-mix(in srgb, var(--bronze) 50%, transparent); color:var(--bronzeDark); flex:none; }
 .reading .dx-go svg{ width:13px; height:13px; }
+
+/* THE DEPTH doors (owner B4, dev site only): the Day Master page → the Blueprint, the pillar chart → Life Chapters */
+.reading .depth-door { display: block; width: 100%; text-align: left; cursor: pointer; font: inherit; }
+.reading .depth-door-t { display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 14px; line-height: 1.5; color: var(--inkSoft); }
+.reading .depth-door-link { margin-top: 10px; background: none; border: 0; padding: 0; cursor: pointer; color: var(--bronzeDark, #8a6a3a); }

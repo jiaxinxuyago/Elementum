@@ -66,6 +66,8 @@ import { resolvePositions } from '../reading/positionsResolve.js';
 import { resolveDomains } from '../reading/domainsResolve.js';
 import { DOMAINS_CONTENT } from '../../content/domains.js';
 import { DomainsHub, DomainPage, DomainTiles } from './DomainsViews.jsx';
+import { DepthBeats, DomainsHubPage, DomainReadingPage, ChaptersPage, StarsPage, BlueprintPage } from './DepthViews.jsx';
+import { resolveChapters, resolveStars, resolveBlueprint, resolveDomainView } from '../reading/depthResolve.js';
 import { SLOT_RANK } from '../../content/positions.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
@@ -101,8 +103,21 @@ const Disc = () => (
 // redesigned (a Domains page and a Life Chapters page). Off everywhere;
 // the views stay in the code for the redesign.
 const DOMAINS_V2 = false;
+// THE DEPTH (owner 2026-10-18, round 8 approved; B1): the four in-depth
+// sections below the wheel (Domains, Life Chapters, Stars, the Energy
+// Blueprint) and their pages, on the dev site only until the real content
+// lands. Units not yet written render their draft lines (B3).
+const DEPTH_V1 = IS_DEV_TOOLS;
+const DEPTH_SCREENS = ['domains', 'chapters', 'stars', 'blueprint'];
+// the words note's new words (R3), shown with the sections
+const DEPTH_WORDS = {
+  seat: { label: 'Seat', tint: 't-core', pill: 'core', icon: null, body: 'Your chart has seven seats, a stem and a branch at each of four gates (the day stem is you). One of ten characters sits in each seat, and the seat says where in your life that character works.' },
+  gate: { label: 'Gate', tint: 't-core', pill: 'core', icon: null, body: 'Each of your four gates is a stretch of your life: the Year Gate to fifteen, the Month Gate from sixteen to thirty-four, the Day Gate from thirty-five to forty-seven, the Hour Gate from forty-eight on.' },
+  decade: { label: 'Decade', tint: 't-core', pill: 'core', icon: null, body: 'Every ten years a new character runs underneath your life, set by your birth month. Some decades help your chart and some weigh on it, and each one colours the chapter it falls in.' },
+  star: { label: 'Star', tint: 't-core', pill: 'core', icon: null, body: 'The symbolic stars are an older, lighter layer of the reading. Each one colours the gate it sits in, and some arrive with a decade or a year.' },
+};
 
-export default function JourneyStage({ reveal = false, openCore = false, openEl = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour }) {
+export default function JourneyStage({ reveal = false, openCore = false, openEl = null, openSection = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const { openUpgrade } = useUpgrade();   // THE EDGE's domain sheet leads to the price gate (owner 2026-10-15)
@@ -111,7 +126,9 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   // corpus), so the initial screen is seeded from the prop, not set in an effect.
   // `openEl` (owner 2026-10-17): a Day Master diagnosis row opens straight
   // onto that energy's page, the same way.
-  const [screen, setScreen] = useState(() => ((openCore || openEl) && ec ? 'element' : 'catalogue'));
+  // `openSection` (THE DEPTH doors, B4): the Today tab's decade tile and the
+  // Day Master and pillar pages open a section page directly.
+  const [screen, setScreen] = useState(() => (DEPTH_V1 && DEPTH_SCREENS.includes(openSection) && ec ? openSection : (openCore || openEl) && ec ? 'element' : 'catalogue'));
   const [elOpen, setElOpen] = useState(() => (ec ? (openEl || (openCore ? coreElOf(ec) : null)) : null));      // element screen target
   const [showShare, setShowShare] = useState(false);
   const [cardStatus, setCardStatus] = useState(null);
@@ -127,6 +144,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const [godOpen, setGodOpen] = useState(null);    // WHO RUNS IT god accordion (god zh) — collapsed by default
   const [domOpen, setDomOpen] = useState(null);    // THE DOMAINS page (domain word) — DOM-1
   const [domFrom, setDomFrom] = useState('catalogue'); // where the domain page's back row returns
+  const [depthFrom, setDepthFrom] = useState('catalogue'); // where a section page's back row returns (THE DEPTH)
 
   const model = useMemo(() => {
     if (!chart || !ec || !identity) return null;
@@ -458,9 +476,19 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   // resolution the element pages use; element seats sort by SLOT_RANK.
   const allPositions = m ? resolvePositions(chart, hourUnknown) : [];
   // THE DOMAINS (DOM-1): every domain page, composed chart-wide from the seats + the decades
-  const dm = DOMAINS_V2 ? resolveDomains(chart, allPositions, DOMAINS_CONTENT, { hourUnknown, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])) }) : null;
+  const depthOpts = m ? { hourUnknown, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])) } : null;
+  const dm = (DOMAINS_V2 || DEPTH_V1) && m ? resolveDomains(chart, allPositions, DOMAINS_CONTENT, depthOpts) : null;
   const domPage = dm && domOpen ? dm.pages.find((p) => p.domain === domOpen) : null;
   const openDomain = (word, from) => { setDomOpen(word); setDomFrom(from); goScreen('domain'); };
+  // THE DEPTH: the section models (Life Chapters, Stars, the Blueprint) and the domain page By position
+  const depth = DEPTH_V1 && dm ? { dm, chapters: resolveChapters(chart, allPositions, depthOpts), stars: resolveStars(chart, depthOpts), blueprint: resolveBlueprint(chart, allPositions, depthOpts) } : null;
+  const domView = DEPTH_V1 && domPage ? resolveDomainView(domPage, chart, DOMAINS_CONTENT, depthOpts) : null;
+  const openDepth = (name, arg, from = 'catalogue') => {
+    if (name === 'domain') { openDomain(arg, from); return; }
+    setDepthFrom(from); goScreen(name);
+  };
+  const depthBack = (from) => goScreen(from === 'element' && elScreen ? 'element' : from === 'elsec' && elScreen ? 'elsec' : from === 'domain' && domPage ? 'domain' : DEPTH_SCREENS.includes(from) ? from : 'catalogue');
+  const DEPTH_BACK = { domains: 'YOUR READING · DOMAINS', chapters: 'YOUR READING · LIFE CHAPTERS', stars: 'YOUR READING · STARS', blueprint: 'YOUR READING · ENERGY BLUEPRINT' };
   const bySeatRank = (a, b) => (SLOT_RANK[a.slot] || 9) - (SLOT_RANK[b.slot] || 9);
   const firstSent = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
   // (the catalogue takeaway strip retired — owner 2026-09-04: the covers,
@@ -471,7 +499,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   // teaser row — term (no 汉字 on the card) + 1–2 domain chips + the
   // authored position teaser (therapist-psychic register, REA_04 §9.4;
   // defline is the fallback until the ×63 batch lands).
-  const glossary = buildGlossary(m);
+  const glossary = DEPTH_V1 && m ? { ...buildGlossary(m), ...DEPTH_WORDS } : buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
 
@@ -656,6 +684,8 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     </div>
                   </>
                 )}
+                {/* THE DEPTH (owner 2026-10-18): Domains, Life Chapters, Stars, then Going deeper and the Blueprint */}
+                {depth && <DepthBeats d={depth} positions={allPositions} hourUnknown={hourUnknown} Use={Use} DOM={DOM} onOpen={(name, arg) => openDepth(name, arg, 'catalogue')} />}
                 {/* (the beat-3 SEEK/SKIP panels retired 2026-09-10 — their
                     rows live on as YOUR ENERGY MANUAL's doors in beat 2;
                     SKIP re-worded EASE so the core itself can sit there) */}
@@ -671,6 +701,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     <button className="role-pill cond" onClick={() => setFnOpen('cond')}><Use id={condIcon} />{m.condition}</button>
                     <button className="role-pill cat" onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</button>
                     <button className="role-pill fric" onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</button>
+                    {depth && ['seat', 'gate', 'decade', 'star'].map((k) => <button key={k} className="role-pill core dp-newword" onClick={() => setFnOpen(k)}>{DEPTH_WORDS[k].label}</button>)}
                   </div>
                 </div>
 
@@ -736,7 +767,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 {/* (the BAND-C band card "How your core is running" retired 2026-10-17,
                     owner: "Remove the band card from the energy reading page. That page
                     is already packed." Its 30 texts hibernate in the station.) */}
-                {DOMAINS_V2 && dm ? (
+                {(DOMAINS_V2 || DEPTH_V1) && dm ? (
                   <div className="cardstock el-tease dl-elcard">
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">What {elScreen.elName} rules in your life</span>
@@ -936,10 +967,10 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                                     under each a bridge phrase, not advice; one transition line. */}
                                 <div className="el-edge-doors" role="group" aria-label="Your domains">
                                   {edge.items.map((it) => (
-                                    <button key={it.domain} type="button" className="el-edge-door" aria-haspopup="dialog" onClick={() => (DOMAINS_V2 ? openDomain(it.domain, 'element') : openDomainSheet(it.domain, edge.god))}>
+                                    <button key={it.domain} type="button" className="el-edge-door" aria-haspopup="dialog" onClick={() => (DOMAINS_V2 || DEPTH_V1 ? openDomain(it.domain, DEPTH_V1 ? 'elsec' : 'element') : openDomainSheet(it.domain, edge.god))}>
                                       <span className="el-edge-doorring" aria-hidden="true"><Use id={DOM[it.domain] || DOM[String(it.domain).toLowerCase()] || 'dom-career'} /></span>
                                       <span className="el-edge-doorname">{it.domain}</span>
-                                      {tier === 'free' ? <span className="el-edge-doorlock" aria-label="Opens with Seeker"><Use id="ico-lock" /></span> : <span className="el-edge-doorlock open" aria-hidden="true"><Use id="ico-chev-r" /></span>}
+                                      {tier === 'free' && !DEPTH_V1 ? <span className="el-edge-doorlock" aria-label="Opens with Seeker"><Use id="ico-lock" /></span> : <span className="el-edge-doorlock open" aria-hidden="true"><Use id="ico-chev-r" /></span>}
                                     </button>
                                   ))}
                                 </div>
@@ -1154,6 +1185,35 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
               </div></div>
             </div>
           )}
+
+          {/* ── THE DEPTH: a domain page By position, and the four section pages ── */}
+          {DEPTH_V1 && domView && (
+            <div className={`jscreen${screen === 'domain' ? ' active' : ''}`} data-screen="domain">
+              <div className="plateimg a-plate-rice" /><div className="eltint" />
+              <button className="backrow" aria-label="Back" onClick={() => depthBack(domFrom)}>
+                <span className="bico"><Use id="ico-chev-l" /></span>
+                <span className="bl el-back">{(domFrom === 'element' || domFrom === 'elsec') && elScreen ? `${elScreen.name} · ` : 'YOUR DOMAINS · '}{domView.domain.toUpperCase()}</span>
+              </button>
+              <div className="scrollwrap"><div className="padv2 dp-pad">
+                <DomainReadingPage key={domView.domain} v={domView} positions={allPositions} age={depth.chapters.age} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onChapters={() => openDepth('chapters', null, 'domain')} Use={Use} DOM={DOM} />
+              </div></div>
+            </div>
+          )}
+          {depth && DEPTH_SCREENS.map((name) => (
+            <div key={name} className={`jscreen${screen === name ? ' active' : ''}`} data-screen={name}>
+              <div className="plateimg a-plate-rice" /><div className="eltint" />
+              <button className="backrow" aria-label="Back" onClick={() => depthBack(depthFrom === name ? 'catalogue' : depthFrom)}>
+                <span className="bico"><Use id="ico-chev-l" /></span>
+                <span className="bl el-back">{DEPTH_BACK[name]}</span>
+              </button>
+              <div className="scrollwrap"><div className="padv2 dp-pad">
+                {name === 'domains' && <DomainsHubPage dm={depth.dm} Use={Use} DOM={DOM} onOpen={(d) => openDepth('domain', d, 'domains')} />}
+                {name === 'chapters' && <ChaptersPage L={depth.chapters} positions={allPositions} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onOpenDomain={(d) => openDepth('domain', d, 'chapters')} onDiscoverHour={onDiscoverHour} Use={Use} />}
+                {name === 'stars' && <StarsPage S={depth.stars} tier={tier} onUpgrade={openUpgrade} Use={Use} />}
+                {name === 'blueprint' && <BlueprintPage B={depth.blueprint} tier={tier} onUpgrade={openUpgrade} seek={m.seek.map((x) => x.el)} ease={m.skip.map((x) => x.el)} Use={Use} />}
+              </div></div>
+            </div>
+          ))}
 
           {/* ── a domain page (DOM-1, owner 2026-10-17) ── */}
           {DOMAINS_V2 && domPage && (

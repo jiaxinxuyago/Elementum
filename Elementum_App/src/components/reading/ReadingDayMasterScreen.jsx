@@ -19,7 +19,7 @@ import { resolveDayMasterReading } from './readingResolve.js';
 import { useReading } from './useReading.js';
 import { buildJourneyModel, buildDiagnosisModel } from '../journey/journeyData.js';
 
-export default function ReadingDayMasterScreen({ onBack, onBirthChart, onOpenEnergy }) {
+export default function ReadingDayMasterScreen({ onBack, onBirthChart, onOpenEnergy, onOpenBlueprint }) {
   const { chart, ec, identity, wip } = useReading();
   const stem = chart && chart.dayMaster && chart.dayMaster.stem;
   const card = STEM_CARD_DATA[stem];
@@ -44,6 +44,7 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart, onOpenEne
         onBack={onBack}
         onBirthChart={onBirthChart}
         onOpenEnergy={onOpenEnergy}
+        onOpenBlueprint={onOpenBlueprint}
       />
       {wip ? <div className="reading-wip">{wip}</div> : null}
     </div>

@@ -60,7 +60,7 @@ function Pillar({ col }) {
   );
 }
 
-export default function ReadingPillarChartCard({ pillars, energies, positions = [], patterns, hourUnknown, onBack, onDiscoverHour }) {
+export default function ReadingPillarChartCard({ pillars, energies, positions = [], patterns, hourUnknown, onBack, onDiscoverHour, onOpenChapters }) {
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-01-side-margins.png" alt="" />
@@ -86,6 +86,7 @@ export default function ReadingPillarChartCard({ pillars, energies, positions = 
             <div className="pos-list">
               {positions.map((pos) => <PositionRow key={pos.id} pos={pos} />)}
             </div>
+            {onOpenChapters ? <button type="button" className="depth-door-t depth-door-link" onClick={onOpenChapters}>Read your four pillars as your Life Chapters ›</button> : null}
           </div>
         )}
 

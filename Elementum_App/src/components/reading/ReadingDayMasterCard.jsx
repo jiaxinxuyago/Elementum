@@ -62,7 +62,7 @@ function EnergyRow({ row, first, onOpen }) {
   );
 }
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, dx, onBack, onBirthChart, onShare, onOpenEnergy }) {
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, dx, onBack, onBirthChart, onShare, onOpenEnergy, onOpenBlueprint }) {
   return (
     <div className="reading-fill">
       <span style={{ display: 'none' }} dangerouslySetInnerHTML={{ __html: `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${JOURNEY_DEFS}</defs></svg>` }} />
@@ -95,6 +95,13 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
             </button>
           ) : null}
         </div>
+
+        {onOpenBlueprint ? (
+          <button type="button" className="layer depth-door" style={{ marginTop: 18 }} onClick={onOpenBlueprint}>
+            <span className="layer-label">Your Energy Blueprint · Advisor</span>
+            <span className="depth-door-t">The decoding of your chart: your structure, what it runs on and lacks, seen and unseen, pairings and clashes ›</span>
+          </button>
+        ) : null}
 
         {overview ? (
           <div className="layer" style={{ marginTop: 18 }}>

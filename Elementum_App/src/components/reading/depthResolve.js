@@ -13,12 +13,12 @@
 // ===================================================================
 
 import { DEPTH_UNITS } from '../../content/depth.js';
-import { TG_PERSONA } from '../../content/tgNames.js';
+import { TG_PERSONA } from '../../content/index.js';
 import { TG_PATTERNS } from '../../content/tgPatterns.js';
 import { GATES } from '../../content/positions.js';
 import { readerAge, decadePole, RULING, GATE_ORDER, GATE_START, GATE_SPAN, DEC_MIN, DEC_MAX } from './domainsResolve.js';
 import { structureOf, branchBonds, godProfile, flowYears, starsOf, arrivingStars, seasonOf, STRUCTURE_NAME } from '../../engine/depth/index.js';
-import { relationOf } from '../../engine/energyRoles.js';
+import { relationOf } from '../../engine/index.js';
 
 const GOD_ID = { 比肩: 'bijian', 劫财: 'jiecai', 食神: 'shishen', 伤官: 'shangguan', 偏财: 'piancai', 正财: 'zhengcai', 七杀: 'qisha', 正官: 'zhengguan', 偏印: 'pianyin', 正印: 'zhengyin' };
 const STEM_EL = { 甲: 'Wood', 乙: 'Wood', 丙: 'Fire', 丁: 'Fire', 戊: 'Earth', 己: 'Earth', 庚: 'Metal', 辛: 'Metal', 壬: 'Water', 癸: 'Water' };
@@ -176,7 +176,7 @@ export function resolveStars(chart, opts = {}) {
     const p = { stem: HS[(((y - 4) % 10) + 10) % 10], branch: EB[(((y - 4) % 12) + 12) % 12] };
     for (const s of arrivingStars(chart, p).filter((x) => !x.natal)) {
       const m = starMeta(s.id, s);
-      yearStars.push({ id: s.id, year: y, ...m, reading: unit(`STAR ${s.id} · arriving.year`, `The ${m.en.replace(/^the /, '')} arrives in ${y === nowYear ? 'this year' : 'that year'}. ${STAR_GLOSS[s.id]}`) });
+      yearStars.push({ id: s.id, year: y, ...m, reading: unit(`STAR ${s.id} · arriving.year`, `The ${m.en.replace(/^the /, '')} arrives ${y === nowYear ? 'this year' : 'that year'}. ${STAR_GLOSS[s.id]}`) });
     }
   }
   const helper = arriving.some((s) => s.kind === 'help');
