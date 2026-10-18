@@ -349,6 +349,146 @@
    "key": "TEMPLATED tpl_depth · bond.none_hard",
    "where": "4 · the closing line, when no clash, punishment or harm",
    "text": "No clashes, punishments or harms sit between your gates, and you argue with yourself less than most people do."
+  },
+  {
+   "page": "stars",
+   "kind": "claim",
+   "key": "TEMPLATED tpl_depth · stars.claim",
+   "where": "Stars · the title",
+   "text": "Seven old stars sit in your chart, and a helper is arriving."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR wenchang · line",
+   "where": "Scholar’s Star (文昌) · Year Gate · the chip",
+   "text": "Words and learning came easily to you from the start."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR wenchang · reading.year.lived",
+   "where": "Scholar’s Star · Year Gate · lived",
+   "text": "You learned to read early and took to schoolwork faster than your effort explains. Written work and anything you could study for went better for you than for most, and you still trust a book to get you through a hard problem."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR taiji · line",
+   "where": "Taiji Nobleman (太极贵人) · Year Gate and Day Gate · the chip",
+   "text": "Big questions found you early and never left."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR taiji · reading.year.lived",
+   "where": "Taiji Nobleman · Year Gate · lived",
+   "text": "As a child you asked where things begin and why people believe what they do, and adults gave you shorter answers than you wanted. You read past your age on those questions, and you still return to them whenever ordinary answers stop working."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR hongluan · line",
+   "where": "Red Phoenix (红鸾) · Month Gate · the chip",
+   "text": "Attraction runs high through your working years."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR hongluan · reading.month.now",
+   "where": "Red Phoenix · Month Gate · now",
+   "text": "Your Rising Chapter carries more attraction than you planned for, much of it through work and study and the circles those years bring. You have been noticed more than you noticed, and you kept at least one feeling from these years to yourself."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR guchen · line",
+   "where": "Lonely Star (孤辰) · Day Gate · the chip",
+   "text": "You need more time alone inside closeness than most."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR guchen · reading.day.coming",
+   "where": "Lonely Star · Day Gate · coming",
+   "text": "From your mid-thirties you need stretches of solitude even inside the closest relationship of your life. A partner will read it as distance more than once, and you stay longest with the person who lets you go quiet without asking why."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR yangren · line",
+   "where": "Ram’s Edge (羊刃) · Hour Gate · the chip",
+   "text": "A hard, protective will in your later years."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR yangren · reading.hour.coming",
+   "where": "Ram’s Edge · Hour Gate · coming",
+   "text": "From your late forties a will rises in you that does not bend, and you keep it for the moments that matter. You defend what you have built firmly enough that people step back, and you keep the peace by choosing which fights are worth having."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR jiesha · line",
+   "where": "Robbery Star (劫煞) · Year Gate · the chip",
+   "text": "Something early taught you to guard what is yours."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR jiesha · reading.year.lived",
+   "where": "Robbery Star · Year Gate · lived",
+   "text": "Something in your first home could be taken without warning, a place of your own or a promise or a plan. You learned to guard what was yours younger than most, and you still move faster than others when something of yours is at risk."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR wangshen · line",
+   "where": "Lost Spirit (亡神) · Day Gate · the chip",
+   "text": "You keep part of yourself out of sight."
+  },
+  {
+   "page": "stars",
+   "kind": "star_reading",
+   "key": "STAR wangshen · reading.day.coming",
+   "where": "Lost Spirit · Day Gate · coming",
+   "text": "From your mid-thirties you keep a part of your life out of sight, plans and feelings that even a partner hears about late. It protects you more than it costs you, and you choose carefully who gets to see all of you."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR tianyi · line",
+   "where": "Nobleman (天乙贵人) · arriving · the chip",
+   "text": "A helper with standing arrives in this decade."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR tianyi · arriving.decade.now",
+   "where": "Nobleman · arrives with your Magistrate decade 2023 to 2032",
+   "text": "Someone with standing opens a door for you in this decade, a mentor or a sponsor who backs you before you have proved yourself. The help arrives while you are already working hard, and it costs you nothing to accept."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR tianyi · arriving.year",
+   "where": "Nobleman · again in 2027 (Advisor)",
+   "text": "This year the help is close enough to name, an introduction or a recommendation from someone above you. You get further on it than on a year of effort, and you remember who gave it."
+  },
+  {
+   "page": "stars",
+   "kind": "star_line",
+   "key": "STAR taohua · line",
+   "where": "Peach Blossom (桃花) · arriving · the chip",
+   "text": "Your next decade brings new people in numbers."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR taohua · arriving.decade.coming",
+   "where": "Peach Blossom · arrives with your General decade 2033 to 2042",
+   "text": "In this decade your life fills with new people, more invitations and more attention than you have had before. You enjoy it more openly than you expect, and you choose the few who stay with care."
   }
  ]
 }

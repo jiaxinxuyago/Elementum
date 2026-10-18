@@ -81,6 +81,7 @@ export function structureOf(chart, { hourUnknown = false, strength = null, luck 
     if (has('正官') && !has('正印', '偏印')) { status = 'broken'; breaker = '正官'; rescue = 'seal'; }
   } else if (key === '七杀') {
     if (!has('食神', '伤官') && !has('正印', '偏印')) { status = strong === false ? 'broken' : 'strained'; breaker = 'uncontrolled pressure'; rescue = 'output'; }
+    else if (has('正官')) { status = 'strained'; breaker = '官杀混杂'; rescue = 'output'; }
   } else if (fam === 'self') {
     if (!has('七杀', '正官', '食神', '伤官', '偏财', '正财')) { status = 'strained'; breaker = 'nothing to use the strength on'; rescue = 'officer'; }
   }

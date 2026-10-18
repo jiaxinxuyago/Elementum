@@ -1,0 +1,108 @@
+// ===================================================================
+// ELEMENTUM · stars (HANDOFF DRAFT, not in the app) — 神煞, owner rulings D1–D6 (2026-10-17)
+// ===================================================================
+// The symbolic stars by their common bases (D2): the day stem for the stem
+// stars, the year branch and the day branch for the group stars, the year
+// branch for the Phoenix and Lonely pairs, the month branch for the Virtue
+// stars. A star sits in a gate when its target is that gate's stem or branch.
+// starsOf(chart)                 → the natal stars, by gate
+// arrivingStars(chart, pillar)   → the stars a decade or a year brings (D3)
+// Each rule names its base and its classical source key; school
+// disagreements are kept as alternates (owner I1: follow every text, note
+// where they disagree), never silently merged.
+// ===================================================================
+
+const GROUP = { 申: 'water', 子: 'water', 辰: 'water', 寅: 'fire', 午: 'fire', 戌: 'fire', 亥: 'wood', 卯: 'wood', 未: 'wood', 巳: 'metal', 酉: 'metal', 丑: 'metal' };
+const byGroup = (t) => (b) => t[GROUP[b]];
+const SEASON_OF = { 亥: 'wint', 子: 'wint', 丑: 'wint', 寅: 'spr', 卯: 'spr', 辰: 'spr', 巳: 'sum', 午: 'sum', 未: 'sum', 申: 'aut', 酉: 'aut', 戌: 'aut' };
+
+// kind: help | test | mixed. on: 'stem' | 'branch' (what the target is matched against).
+// base: dayStem | yearBranch | dayBranch | monthBranch | (several: each base is tried).
+export const STARS = [
+  { id: 'tianyi', zh: '天乙贵人', en: 'Nobleman', kind: 'help', on: 'branch', base: ['dayStem', 'yearStem'],
+    map: { 甲: '丑未', 戊: '丑未', 庚: '丑未', 乙: '子申', 己: '子申', 丙: '亥酉', 丁: '亥酉', 辛: '寅午', 壬: '卯巳', 癸: '卯巳' },
+    alt: { note: 'one verse gives 庚辛 to 寅午 (甲戊兼牛羊, 庚辛逢马虎)', map: { 庚: '寅午' } } },
+  { id: 'wenchang', zh: '文昌', en: 'Scholar’s Star', kind: 'help', on: 'branch', base: ['dayStem'],
+    map: { 甲: '巳', 乙: '午', 丙: '申', 丁: '酉', 戊: '申', 己: '酉', 庚: '亥', 辛: '子', 壬: '寅', 癸: '卯' } },
+  { id: 'taiji', zh: '太极贵人', en: 'Taiji Nobleman', kind: 'help', on: 'branch', base: ['dayStem'],
+    map: { 甲: '子午', 乙: '子午', 丙: '卯酉', 丁: '卯酉', 戊: '辰戌丑未', 己: '辰戌丑未', 庚: '寅亥', 辛: '寅亥', 壬: '巳申', 癸: '巳申' } },
+  { id: 'tiande', zh: '天德贵人', en: 'Heavenly Virtue', kind: 'help', on: 'any', base: ['monthBranch'],
+    map: { 寅: '丁', 卯: '申', 辰: '壬', 巳: '辛', 午: '亥', 未: '甲', 申: '癸', 酉: '寅', 戌: '丙', 亥: '乙', 子: '巳', 丑: '庚' } },
+  { id: 'yuede', zh: '月德贵人', en: 'Monthly Virtue', kind: 'help', on: 'stem', base: ['monthBranch'],
+    fn: byGroup({ fire: '丙', water: '壬', wood: '甲', metal: '庚' }) },
+  { id: 'lu', zh: '禄神', en: 'Prosperity Star', kind: 'help', on: 'branch', base: ['dayStem'],
+    map: { 甲: '寅', 乙: '卯', 丙: '巳', 丁: '午', 戊: '巳', 己: '午', 庚: '申', 辛: '酉', 壬: '亥', 癸: '子' } },
+  { id: 'jinyu', zh: '金舆', en: 'Golden Carriage', kind: 'help', on: 'branch', base: ['dayStem'],
+    map: { 甲: '辰', 乙: '巳', 丙: '未', 丁: '申', 戊: '未', 己: '申', 庚: '戌', 辛: '亥', 壬: '丑', 癸: '寅' } },
+  { id: 'tianyi_doc', zh: '天医', en: 'Heavenly Doctor', kind: 'help', on: 'branch', base: ['monthBranch'],
+    map: { 寅: '丑', 卯: '寅', 辰: '卯', 巳: '辰', 午: '巳', 未: '午', 申: '未', 酉: '申', 戌: '酉', 亥: '戌', 子: '亥', 丑: '子' } },
+  { id: 'jiangxing', zh: '将星', en: 'General’s Star', kind: 'help', on: 'branch', base: ['yearBranch', 'dayBranch'],
+    fn: byGroup({ water: '子', fire: '午', wood: '卯', metal: '酉' }) },
+  { id: 'hongluan', zh: '红鸾', en: 'Red Phoenix', kind: 'help', on: 'branch', base: ['yearBranch'],
+    map: { 子: '卯', 丑: '寅', 寅: '丑', 卯: '子', 辰: '亥', 巳: '戌', 午: '酉', 未: '申', 申: '未', 酉: '午', 戌: '巳', 亥: '辰' } },
+  { id: 'tianxi', zh: '天喜', en: 'Heavenly Joy', kind: 'help', on: 'branch', base: ['yearBranch'],
+    map: { 子: '酉', 丑: '申', 寅: '未', 卯: '午', 辰: '巳', 巳: '辰', 午: '卯', 未: '寅', 申: '丑', 酉: '子', 戌: '亥', 亥: '戌' } },
+  { id: 'huagai', zh: '华盖', en: 'Canopy Star', kind: 'mixed', on: 'branch', base: ['yearBranch', 'dayBranch'],
+    fn: byGroup({ water: '辰', fire: '戌', wood: '未', metal: '丑' }) },
+  { id: 'yima', zh: '驿马', en: 'Travelling Horse', kind: 'mixed', on: 'branch', base: ['yearBranch', 'dayBranch'],
+    fn: byGroup({ water: '寅', fire: '申', wood: '巳', metal: '亥' }) },
+  { id: 'taohua', zh: '桃花', en: 'Peach Blossom', kind: 'mixed', on: 'branch', base: ['yearBranch', 'dayBranch'],
+    fn: byGroup({ water: '酉', fire: '卯', wood: '子', metal: '午' }) },
+  { id: 'yangren', zh: '羊刃', en: 'Ram’s Edge', kind: 'test', on: 'branch', base: ['dayStem'],
+    map: { 甲: '卯', 丙: '午', 戊: '午', 庚: '酉', 壬: '子' },
+    alt: { note: 'yin stems: one school gives 乙辰 丁未 己未 辛戌 癸丑, another 乙寅 丁巳 己巳 辛申 癸亥, the mainstream gives none', map: { 乙: '辰', 丁: '未', 己: '未', 辛: '戌', 癸: '丑' } } },
+  { id: 'jiesha', zh: '劫煞', en: 'Robbery Star', kind: 'test', on: 'branch', base: ['yearBranch', 'dayBranch'],
+    fn: byGroup({ water: '巳', fire: '亥', wood: '申', metal: '寅' }) },
+  { id: 'wangshen', zh: '亡神', en: 'Lost Spirit', kind: 'test', on: 'branch', base: ['yearBranch', 'dayBranch'],
+    fn: byGroup({ water: '亥', fire: '巳', wood: '寅', metal: '申' }) },
+  { id: 'guchen', zh: '孤辰', en: 'Lonely Star', kind: 'test', on: 'branch', base: ['yearBranch'],
+    fn: (b) => ({ wint: '寅', spr: '巳', sum: '申', aut: '亥' })[SEASON_OF[b]] },
+  { id: 'guasu', zh: '寡宿', en: 'Solitary Star', kind: 'test', on: 'branch', base: ['yearBranch'],
+    fn: (b) => ({ wint: '戌', spr: '丑', sum: '辰', aut: '未' })[SEASON_OF[b]] },
+];
+// stars read off the day pillar itself
+export const DAY_PILLAR_STARS = [
+  { id: 'kuigang', zh: '魁罡', en: 'Kuigang', kind: 'mixed', days: ['庚辰', '庚戌', '壬辰', '戊戌'] },
+];
+
+const GATES = ['year', 'month', 'day', 'hour'];
+function baseValue(p, base) {
+  return { dayStem: p.day.stem, yearStem: p.year.stem, yearBranch: p.year.branch, dayBranch: p.day.branch, monthBranch: p.month.branch }[base];
+}
+function targetsOf(star, value, { alt = false } = {}) {
+  const t = star.fn ? star.fn(value) : (alt && star.alt?.map?.[value]) || star.map?.[value];
+  return t ? [...t] : [];
+}
+// a base never lights its own seat (the year branch does not make itself its own Peach Blossom)
+const seatOf = (base) => ({ yearBranch: ['year', 'branch'], dayBranch: ['day', 'branch'], monthBranch: ['month', 'branch'] })[base];
+
+/** The natal stars: [{ id, zh, en, kind, gate, part, base }], one row per star per gate. */
+export function starsOf(chart, { hourUnknown = false, alt = false } = {}) {
+  const p = chart.pillars; const out = []; const seen = new Set();
+  for (const star of STARS) for (const base of star.base) {
+    const targets = targetsOf(star, baseValue(p, base), { alt }); const self = seatOf(base);
+    for (const g of GATES) {
+      if (hourUnknown && g === 'hour') continue;
+      for (const part of ['stem', 'branch']) {
+        if (g === 'day' && part === 'stem') continue;
+        if (star.on !== 'any' && star.on !== part) continue;
+        if (self && self[0] === g && self[1] === part) continue;
+        if (!targets.includes(p[g][part])) continue;
+        const k = `${star.id}:${g}`; if (seen.has(k)) continue; seen.add(k);
+        out.push({ id: star.id, zh: star.zh, en: star.en, kind: star.kind, gate: g, part, base });
+      }
+    }
+  }
+  for (const s of DAY_PILLAR_STARS) if (s.days.includes(p.day.stem + p.day.branch)) out.push({ id: s.id, zh: s.zh, en: s.en, kind: s.kind, gate: 'day', part: 'pillar', base: 'dayPillar' });
+  return out;
+}
+
+/** The stars a passing pillar brings ({ stem, branch } of a decade or a year), not already natal in the chart. */
+export function arrivingStars(chart, pillar, { alt = false } = {}) {
+  const p = chart.pillars; const out = []; const natal = new Set(starsOf(chart, { alt }).map((s) => s.id));
+  for (const star of STARS) {
+    const hit = star.base.find((base) => { const t = targetsOf(star, baseValue(p, base), { alt }); return (star.on !== 'stem' && t.includes(pillar.branch)) || (star.on !== 'branch' && t.includes(pillar.stem)); });
+    if (hit) out.push({ id: star.id, zh: star.zh, en: star.en, kind: star.kind, base: hit, natal: natal.has(star.id) });
+  }
+  return out;
+}
