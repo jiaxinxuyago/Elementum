@@ -54,7 +54,15 @@
       "grow": "Expression, Action and Order",
       "release": "Body and Mind"
     },
-    "remedy": "Channel"
+    "remedy": "Channel",
+    "run_line": "Your {Core} takes in more than it spends.",
+    "run_short": "Takes in more than it spends",
+    "run_headline": "You run Overfueled: your {Core} takes in more than it spends."
   },
-  "reading_note": "reading = THE CONDITION READING (owner 2026-10-18): DRAFT, wired on the dev build for functionality before the content is ruled. Rows: mech (how it works), on your chart (runtime: Body = core, Mind = feeder), gifts, costs, scenes, helps (the locked §5c remedy line). Review page: claude.ai/artifact/3jAkDqAiAukF2iM29v1aWw."
+  "reading_note": "reading = THE CONDITION READING (owner 2026-10-18): DRAFT, wired on the dev build for functionality before the content is ruled. Rows: mech (how it works), on your chart (runtime: Body = core, Mind = feeder), gifts, costs, scenes, helps (the locked §5c remedy line). Review page: claude.ai/artifact/3jAkDqAiAukF2iM29v1aWw.",
+  "field_status": {
+    "run_line": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (Underfueled and Balanced are mirrors of the Overfueled draft)",
+    "run_short": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (Underfueled and Balanced are mirrors of the Overfueled draft)",
+    "run_headline": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (Underfueled and Balanced are mirrors of the Overfueled draft)"
+  }
 }

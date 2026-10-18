@@ -58,6 +58,10 @@
         "remedy": "Cool it. Take one chance a season and decline the rest."
       }
     },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null,
     "__ore": {
       "retired_2026-09-20_evaluation_rulings": {
         "mechanism.friction_turn": "Run heavy, the managing never stops: every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it.",
@@ -415,5 +419,11 @@
       "finding": "Owner 2A (F3-03)",
       "replaced": "Your Action is what you go and build, claim and provide. Fire makes it warm, so what you build reaches people in time. In balance, the fire burns steady. Whether you reach for something new or hold on to the old, the warmth stays."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

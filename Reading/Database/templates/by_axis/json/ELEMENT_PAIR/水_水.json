@@ -65,7 +65,11 @@
       "base": "Nothing moistens all things like water, the Book of Changes says: depth joined to depth, clouds feeding the rain that returns as cloud. There is no reaction here, only gathering. Still water clarifies, soft rain remembers, and the same softness that yields to every stone eventually wears the stone away.",
       "catalyst_turn": "Run thin, the rain doubts what it felt: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.",
       "friction_turn": "Run heavy, the mist never lifts: so much felt and so little said that nothing ever gets checked. Say the read aloud. Rain still needs ground to land on."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above.",
@@ -326,5 +330,11 @@
       "finding": "R5 water:WA5-16",
       "replaced": "Your Body is the strength the whole of you stands on. Water makes it deep, and much stays unseen. Running over, the depth floods inward. Your force and your wants pile up inside, and you carry more than anyone near you ever sees."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

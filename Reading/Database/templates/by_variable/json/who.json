@@ -1,0 +1,68 @@
+{
+  "$variable": "who",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "STEM": [
+      {
+        "id": "jia",
+        "key": "甲",
+        "canonical_name": "The Oak",
+        "value": null
+      },
+      {
+        "id": "yi",
+        "key": "乙",
+        "canonical_name": "The Vine",
+        "value": null
+      },
+      {
+        "id": "bing",
+        "key": "丙",
+        "canonical_name": "The Sun",
+        "value": null
+      },
+      {
+        "id": "ding",
+        "key": "丁",
+        "canonical_name": "The Candle",
+        "value": null
+      },
+      {
+        "id": "wu",
+        "key": "戊",
+        "canonical_name": "The Mountain",
+        "value": null
+      },
+      {
+        "id": "ji",
+        "key": "己",
+        "canonical_name": "The Field",
+        "value": null
+      },
+      {
+        "id": "geng",
+        "key": "庚",
+        "canonical_name": "The Blade",
+        "value": "You are the Blade, the Metal that has already been through fire. You are kept plain and kept sharp, and you come out only for the true thing."
+      },
+      {
+        "id": "xin",
+        "key": "辛",
+        "canonical_name": "The Jewel",
+        "value": null
+      },
+      {
+        "id": "ren",
+        "key": "壬",
+        "canonical_name": "The Ocean",
+        "value": null
+      },
+      {
+        "id": "gui",
+        "key": "癸",
+        "canonical_name": "The Rain",
+        "value": null
+      }
+    ]
+  }
+}

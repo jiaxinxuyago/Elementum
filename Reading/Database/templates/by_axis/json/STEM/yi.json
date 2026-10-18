@@ -28,6 +28,7 @@
     "dm_mechanism": "Yin Wood that wins by yielding — resilience dressed as softness.",
     "yourNature_desc": "You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful.",
     "dm_overview": "The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved.",
+    "who": null,
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -473,5 +474,8 @@
       }
     }
   },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+  "field_status": {
+    "who": "TO WRITE · opened 2026-10-18"
+  }
 }

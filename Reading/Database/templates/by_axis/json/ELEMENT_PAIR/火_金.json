@@ -57,7 +57,11 @@
         "clause": "Too much metal puts the fire out: more to shape than the heat can ever soften.",
         "remedy": "Put most of it down. Fuel the fire before the work."
       }
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_bonds_dip": "You provide by making: the things you forge carry your warmth into other hands.",
@@ -373,5 +377,11 @@
       "finding": "R4 cross:X4-01",
       "replaced": "Your Action is what you go and build, claim and provide. Metal makes it exact, so what you take on ends finished or not at all. In balance, what you take on matches the strength you have for it. Your reach and your means keep the same pace."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

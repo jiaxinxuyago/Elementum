@@ -79,7 +79,11 @@
       "base": "The refined prevails over the stubborn: fire alone commands metal. In the kiln the unbending learns to bend, ore gives up its rock, and the stone takes whatever colour the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
       "catalyst_turn": "Run thin, nothing tests you: a stone that keeps its first cut and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
       "friction_turn": "Run heavy, the wheel never stops: constant pressure, no bench time, a stone thinned by a polish it never leaves. Step off the wheel long enough to keep a facet."
-    }
+    },
+    "head": "Fire forges {the archetype}",
+    "head_yin": null,
+    "story": "The Blade is laid in the forge, where heat softens it just enough to be hammered into its shape.",
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn.",
@@ -587,5 +591,11 @@
       "finding": "R4 fire:F4-11",
       "replaced": "Your Order is the rules you answer to and the rank you hold by them. Fire lights it, so standards reach you. As a friction, pressure piles up faster than you rest, and every demand feels like yours to meet. You end up tired and doubting yourself."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (yang stem; the story is 庚-specific)",
+    "story": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (yang stem; the story is 庚-specific)",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

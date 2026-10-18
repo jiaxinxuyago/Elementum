@@ -47,3 +47,8 @@
 | `family_teams.output` | outflow |
 | `family_teams.wealth` | outflow |
 | `family_teams.officer` | outflow |
+| `relation_labels.own` | more of you |
+| `relation_labels.feeds` | feeds you |
+| `relation_labels.tames` | shapes you |
+| `relation_labels.you_feed` | you feed it |
+| `relation_labels.you_tame` | you shape it |

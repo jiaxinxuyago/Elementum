@@ -1,0 +1,158 @@
+{
+  "$variable": "head",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT_PAIR": [
+      {
+        "id": "木_木",
+        "key": "木_木",
+        "canonical_name": "Wood core × Wood — the Core",
+        "value": null
+      },
+      {
+        "id": "木_火",
+        "key": "木_火",
+        "canonical_name": "Wood core × Fire — the Voice",
+        "value": null
+      },
+      {
+        "id": "木_土",
+        "key": "木_土",
+        "canonical_name": "Wood core × Earth — the Drive",
+        "value": null
+      },
+      {
+        "id": "木_金",
+        "key": "木_金",
+        "canonical_name": "Wood core × Metal — the Duty",
+        "value": null
+      },
+      {
+        "id": "木_水",
+        "key": "木_水",
+        "canonical_name": "Wood core × Water — the Root",
+        "value": null
+      },
+      {
+        "id": "火_木",
+        "key": "火_木",
+        "canonical_name": "Fire core × Wood — the Root",
+        "value": null
+      },
+      {
+        "id": "火_火",
+        "key": "火_火",
+        "canonical_name": "Fire core × Fire — the Core",
+        "value": null
+      },
+      {
+        "id": "火_土",
+        "key": "火_土",
+        "canonical_name": "Fire core × Earth — the Voice",
+        "value": null
+      },
+      {
+        "id": "火_金",
+        "key": "火_金",
+        "canonical_name": "Fire core × Metal — the Drive",
+        "value": null
+      },
+      {
+        "id": "火_水",
+        "key": "火_水",
+        "canonical_name": "Fire core × Water — the Duty",
+        "value": null
+      },
+      {
+        "id": "土_木",
+        "key": "土_木",
+        "canonical_name": "Earth core × Wood — the Duty",
+        "value": null
+      },
+      {
+        "id": "土_火",
+        "key": "土_火",
+        "canonical_name": "Earth core × Fire — the Root",
+        "value": null
+      },
+      {
+        "id": "土_土",
+        "key": "土_土",
+        "canonical_name": "Earth core × Earth — the Core",
+        "value": null
+      },
+      {
+        "id": "土_金",
+        "key": "土_金",
+        "canonical_name": "Earth core × Metal — the Voice",
+        "value": null
+      },
+      {
+        "id": "土_水",
+        "key": "土_水",
+        "canonical_name": "Earth core × Water — the Drive",
+        "value": null
+      },
+      {
+        "id": "金_木",
+        "key": "金_木",
+        "canonical_name": "Metal core × Wood — the Drive",
+        "value": "Wood is shaped by {the archetype}"
+      },
+      {
+        "id": "金_火",
+        "key": "金_火",
+        "canonical_name": "Metal core × Fire — the Duty",
+        "value": "Fire forges {the archetype}"
+      },
+      {
+        "id": "金_土",
+        "key": "金_土",
+        "canonical_name": "Metal core × Earth — the Root",
+        "value": "Earth feeds {the archetype}"
+      },
+      {
+        "id": "金_金",
+        "key": "金_金",
+        "canonical_name": "Metal core × Metal — the Core",
+        "value": "Metal strengthens {the archetype}"
+      },
+      {
+        "id": "金_水",
+        "key": "金_水",
+        "canonical_name": "Metal core × Water — the Voice",
+        "value": "Water draws from {the archetype}"
+      },
+      {
+        "id": "水_木",
+        "key": "水_木",
+        "canonical_name": "Water core × Wood — the Voice",
+        "value": null
+      },
+      {
+        "id": "水_火",
+        "key": "水_火",
+        "canonical_name": "Water core × Fire — the Drive",
+        "value": null
+      },
+      {
+        "id": "水_土",
+        "key": "水_土",
+        "canonical_name": "Water core × Earth — the Duty",
+        "value": null
+      },
+      {
+        "id": "水_金",
+        "key": "水_金",
+        "canonical_name": "Water core × Metal — the Root",
+        "value": null
+      },
+      {
+        "id": "水_水",
+        "key": "水_水",
+        "canonical_name": "Water core × Water — the Core",
+        "value": null
+      }
+    ]
+  }
+}

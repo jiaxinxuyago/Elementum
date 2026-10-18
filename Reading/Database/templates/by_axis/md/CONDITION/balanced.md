@@ -38,3 +38,6 @@
 | `reading.grow` | *(unauthored)* |
 | `reading.release` | *(unauthored)* |
 | `remedy` | *(unauthored)* |
+| `run_line` | Your {Core} takes in about what it spends. |
+| `run_short` | Takes in about what it spends |
+| `run_headline` | You run Balanced: your {Core} takes in about what it spends. |

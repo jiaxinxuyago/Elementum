@@ -52,6 +52,16 @@
       "output": "outflow",
       "wealth": "outflow",
       "officer": "outflow"
+    },
+    "relation_labels": {
+      "own": "more of you",
+      "feeds": "feeds you",
+      "tames": "shapes you",
+      "you_feed": "you feed it",
+      "you_tame": "you shape it"
     }
+  },
+  "field_status": {
+    "relation_labels": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule · CONFLICT TO RULE: the locked law verb is \"tames\" (§5d); the prototype says \"shapes\""
   }
 }

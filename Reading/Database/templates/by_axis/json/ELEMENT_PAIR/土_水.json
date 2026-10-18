@@ -57,7 +57,11 @@
         "clause": "Too much Water for the ground to bank, and what should water the field washes it away.",
         "remedy": "Bank it. Finish one thing before you start another."
       }
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_bonds_dip": "You hold people by being their banks: steady sides that let their current run.",
@@ -366,5 +370,11 @@
       "finding": "R5 water:WA5-10",
       "replaced": "Seek Earth, your own Body energy. Earth is the bank and the bed, the ground that keeps water to one course. Let it hold what Water pours. Little of what you earn ever feels truly yours. Put aside one sum for a treat, then spend it on the treat. Keep one evening a week at home with nothing planned."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

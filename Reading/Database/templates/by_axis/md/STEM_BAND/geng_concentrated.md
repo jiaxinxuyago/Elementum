@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you. |
+| `yourNature_desc_approved` | You are what the sword is like when it is drawn and never hung back on the wall. You hold more Metal than any day spends, and the surplus turns into an urge to speak the truth. Because it never rests, you would rather say the hard thing today than keep the peace. You earn deep trust that way, and over time you pay for it in easy closeness. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

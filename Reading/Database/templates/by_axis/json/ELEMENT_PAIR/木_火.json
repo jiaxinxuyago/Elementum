@@ -69,6 +69,10 @@
       "base": "Wood is warm by nature, the classics say, and fire sleeps inside it: strip the dry vine, strike the stem, and the hidden flame comes out. Every bundle of cuttings is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
       "friction_turn": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no tendril left on the wall. The flame eats its own hedge. Bank the fire and let some growth stand."
     },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null,
     "__ore": {
       "retired_2026-09-21_overlaps": {
         "carry.missing.remedy": "Borrow fire: show one finished thing.",
@@ -391,5 +395,11 @@
       "finding": "R5 cross:X5-01",
       "replaced": "Your Expression is the gate where inner work becomes outer fact. Fire lights it, and what you do can be seen. In balance, what you make and what you show keep the same pace. Your warmth and wit reach people at the moment they count."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

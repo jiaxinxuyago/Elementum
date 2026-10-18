@@ -58,6 +58,10 @@
         "remedy": "Start nothing new for a month. Rest and let yourself fill up."
       }
     },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null,
     "__ore": {
       "retired_2026-09-21_overlaps": {
         "mechanism.friction_turn": "Run heavy, the rain never closes: everything that stands still gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest.",
@@ -348,5 +352,11 @@
       "finding": "R2 pairs",
       "replaced": "Seek Metal, the Mind energy. Metal is the cold side water forms on. It pulls from the air and hands the water back to its source. Let it prune what Wood spreads. Nothing you let out will fill you back up. Bring one piece to its end before you begin the next. Drop one plan this month for good."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

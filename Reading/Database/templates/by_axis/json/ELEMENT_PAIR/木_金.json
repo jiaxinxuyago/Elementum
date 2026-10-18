@@ -63,7 +63,11 @@
     "mechanism_yin": {
       "base": "The hard prevails over the soft, and so metal comes for wood: the shears meet the hedge, the pruning knife meets the vine, and wild growth learns the shape it could not find alone. Unpruned, a vine sprawls and fruits little. Under the edge it loses tendrils and gains a harvest.",
       "friction_turn": "Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no vine. Step back from blades that prune for pruning's sake."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound.",
@@ -347,5 +351,11 @@
       "finding": "R3 metal:MT3-10",
       "replaced": "Seek Water, the Mind energy. Water feeds the tree from below, and growth returns faster than the knife takes it. Let it heal what Metal cuts. You answer to more rules than anyone has set you. Give one evening a week to learning something nobody grades. Take one whole day this month with no plan and no messages."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

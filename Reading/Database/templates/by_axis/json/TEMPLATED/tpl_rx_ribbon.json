@@ -8,10 +8,19 @@
   "sources": [
     "REA_03 §5 (patterns)"
   ],
-  "status_note": "PLANNED",
+  "status_note": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule · the first reading's last card · PLANNED slot kept null until ruled",
   "budget": "ribbon ≤14w + 10 fragments",
   "candidates": {
     "pattern": null,
-    "clauses": null
+    "clauses": null,
+    "draft_pattern": "Release {ease}. Grow {seek}.",
+    "draft_clauses": {
+      "balanced": "Keep all five as they are.",
+      "start": "Start with {El}, your {Function}."
+    }
+  },
+  "field_status": {
+    "draft_pattern": "DRAFT 2026-10-18 · prototype text, to rule; moves to pattern when ruled and transcribed",
+    "draft_clauses": "DRAFT 2026-10-18 · as draft_pattern"
   }
 }

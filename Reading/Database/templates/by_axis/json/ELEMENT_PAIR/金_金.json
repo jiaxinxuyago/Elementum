@@ -65,7 +65,11 @@
       "base": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, stones off one wheel. Such sameness is strength and its own hazard. Two stones in one box keep each other bright, or scratch each other dull.",
       "catalyst_turn": "Run thin, the facet wavers: opinions borrowed, standards negotiable, a stone that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it shines.",
       "friction_turn": "Run heavy, the setting seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
-    }
+    },
+    "head": "Metal strengthens {the archetype}",
+    "head_yin": null,
+    "story": "The Blade sharpens against other steel, and each edge grinds the next to a finer line.",
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper.",
@@ -462,5 +466,11 @@
       "finding": "R4 metal:MR4-02",
       "replaced": "Seek Fire, the Order energy. Fire is heat with a deadline that gives your force a direction and a judge. Let it soften what Metal hardens. With no outside measure in view, you answer only to yourself. Set one goal with a date others can see, and meet it. Help one newcomer find their feet in their own way."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (yang stem; the story is 庚-specific)",
+    "story": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (yang stem; the story is 庚-specific)",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

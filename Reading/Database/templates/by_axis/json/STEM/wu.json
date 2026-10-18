@@ -28,6 +28,7 @@
     "dm_mechanism": "Yang Earth that holds its shape — weight that becomes shelter under load.",
     "yourNature_desc": "You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying.",
     "dm_overview": "The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair.",
+    "who": null,
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
@@ -463,5 +464,8 @@
       }
     }
   },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+  "field_status": {
+    "who": "TO WRITE · opened 2026-10-18"
+  }
 }

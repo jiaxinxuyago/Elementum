@@ -69,7 +69,11 @@
     "mechanism_yin": {
       "base": "The concentrated prevails over the scattered, and so wood governs earth: the root threads the loose soil, binds it, and holds the slope that rain would otherwise carry away. Ground without roots erodes grain by grain. Gripped by the living vine, the same ground becomes terrace, garden, land worth naming.",
       "friction_turn": "Run heavy, the holding never stops: every wall claimed, every trellis taken, roots spread past what the vine can feed. Hold less wall, hold it deeper."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_bonds_dip": "You provide like ground provides: quietly, constantly, and without invoices.",
@@ -402,5 +406,11 @@
       "finding": "R5 earth:E5-02",
       "replaced": "Your Action is what you go and build, claim and provide. Earth gives it weight, so whatever you claim needs keeping. As a friction, what you take on grows heavier than you can bear. Holding it is how you feel secure, and over time you carry more than you finish."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

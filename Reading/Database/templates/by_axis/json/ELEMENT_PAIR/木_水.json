@@ -76,7 +76,11 @@
       "base": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds up the wall. The vine is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.",
       "catalyst_turn": "Run thin, the vine outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
       "friction_turn": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Vines also need sun."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water.",
@@ -368,5 +372,11 @@
       "finding": "R5 cross:X5-01",
       "replaced": "Your Mind is where the world soaks in and becomes yours. Water makes it flow, and what goes in comes back later as instinct. In balance, what comes in and what goes out keep the same pace. Your instinct is ready when a choice arrives."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

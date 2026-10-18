@@ -38,3 +38,6 @@
 | `reading.grow` | Body and Mind |
 | `reading.release` | Expression, Action and Order |
 | `remedy` | Refill |
+| `run_line` | Your {Core} spends more than it takes in. |
+| `run_short` | Spends more than it takes in |
+| `run_headline` | You run Underfueled: your {Core} spends more than it takes in. |

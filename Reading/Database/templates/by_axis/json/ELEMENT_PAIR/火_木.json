@@ -62,6 +62,10 @@
     "mechanism_yin": {
       "base": "Wood is warm by nature and fire sleeps inside it, the classics say, so every flame is fed by what was gathered before it: dry branches, stacked seasons, years of quiet growth surrendered to one bright hour. A flame is only ever as tall as its fuel. The small light borrows everything from what was gathered."
     },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null,
     "__ore": {
       "retired_2026-09-20_evaluation_rulings": {
         "function.definition_friction": "Wood is your Mind, and as a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line.",
@@ -380,5 +384,11 @@
       "finding": "R4 wood:W4-M7",
       "replaced": "Your Mind is where the world soaks in and becomes yours. Wood makes it grow. As a catalyst, less comes in than you need, whether new thought or a safe place to think it. You run dry long before you feel full again."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

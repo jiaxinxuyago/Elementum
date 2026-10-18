@@ -26,6 +26,7 @@
 | `dm_mechanism` | Yin Wood that wins by yielding — resilience dressed as softness. |
 | `yourNature_desc` | You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful. |
 | `dm_overview` | The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved. |
+| `who` | *(unauthored)* |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

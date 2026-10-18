@@ -78,7 +78,11 @@
       "base": "The solid prevails over the flowing, and so earth contains water: banks make the stream, walls make the well, and rain without a vessel is only weather. Contained, rain becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the stream arrives.",
       "catalyst_turn": "Run thin, nothing catches you: rain spreading wide and soaking in nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
       "friction_turn": "Run heavy, the gutters take it all: rain routed into a schedule until it forgets where it wanted to fall. Widen the channel. Rain is meant to wander."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving.",
@@ -386,5 +390,11 @@
       "finding": "R3 earth:E3-15",
       "replaced": "Seek Metal, the Mind energy. Metal is the clear line that sorts a demand into what is asked and what is feared. Let it hold what Earth presses on you. You take each demand as a judgement on yourself. Check each new demand against what was actually said. Ask what is needed, then do that much and stop."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

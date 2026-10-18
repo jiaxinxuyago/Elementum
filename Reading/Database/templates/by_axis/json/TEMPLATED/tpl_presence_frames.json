@@ -8,7 +8,7 @@
   "sources": [
     "REA_03 §5 (patterns)"
   ],
-  "status_note": "PLANNED",
+  "status_note": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule · the first reading's energy cards open on this line · PLANNED slot kept null until ruled",
   "budget": "≤20w ×4",
   "candidates": {
     "pattern": null,
@@ -17,6 +17,17 @@
       "present": null,
       "scarce": null,
       "absent": null
+    },
+    "draft_pattern": "You have {n}% of {El} energy.",
+    "draft_clauses": {
+      "dominant": null,
+      "present": null,
+      "scarce": null,
+      "absent": "You have no {El} energy."
     }
+  },
+  "field_status": {
+    "draft_pattern": "DRAFT 2026-10-18 · prototype text, to rule; moves to pattern when ruled and transcribed",
+    "draft_clauses": "DRAFT 2026-10-18 · as draft_pattern"
   }
 }

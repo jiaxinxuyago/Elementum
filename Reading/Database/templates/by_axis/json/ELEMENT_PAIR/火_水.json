@@ -58,7 +58,11 @@
         "clause": "Water this deep puts a low fire out: so many rules answered that the light itself goes dark.",
         "remedy": "Answer fewer demands. Add fuel before the next one."
       }
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s depths sit on you. With Water running it, accountability in you arrives quietly: the measured senior, the still question, consequences that seep rather than strike. You answer best to calm authority, and you learn to bank your fire around it. Choose water that cools you without putting you out.",
@@ -350,5 +354,11 @@
       "finding": "R3 water:W-014",
       "replaced": "Seek Wood, the Mind energy. Wood is fuel that grows: it drinks the rain and turns it into something a fire can burn. Let it use what Water pours on you. You take every rule to heart faster than you take anything in. Begin one thing this month that is only yours. Keep it off every list."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

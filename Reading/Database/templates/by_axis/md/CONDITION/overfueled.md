@@ -38,3 +38,6 @@
 | `reading.grow` | Expression, Action and Order |
 | `reading.release` | Body and Mind |
 | `remedy` | Channel |
+| `run_line` | Your {Core} takes in more than it spends. |
+| `run_short` | Takes in more than it spends |
+| `run_headline` | You run Overfueled: your {Core} takes in more than it spends. |

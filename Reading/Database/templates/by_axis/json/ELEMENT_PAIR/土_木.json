@@ -63,6 +63,10 @@
     "mechanism_yin": {
       "base": "The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a field carries its crop. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind."
     },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null,
     "__ore": {
       "retired_2026-09-21_overlaps": {
         "carry.spared.clause": "Wood runs absent, and the soil is not drawn on: nobody rooted in you, nothing extracted."
@@ -367,5 +371,11 @@
       "finding": "R4 wood:W4-T12",
       "replaced": "Your Order is the rules you answer to and the rank you hold by them. Wood makes it grow, a standard rising with you. In balance, what is asked of you fits the life you are building. You meet each new demand at a steady pace."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

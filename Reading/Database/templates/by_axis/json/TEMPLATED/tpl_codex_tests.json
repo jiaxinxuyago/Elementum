@@ -1,0 +1,36 @@
+{
+  "$archetype": "tpl_codex_tests",
+  "axis": "TEMPLATED",
+  "key": "tpl_codex_tests",
+  "canonical_name": null,
+  "construct": "Derived slot template: the optional Codex panel under 'How am I running?'. Needs the engine to return the three tests (得令 season 4, 得地 root 2, 得势 allies 1); today computeDMStrength returns the band only.",
+  "candidate_note": "Slot-filled at runtime from derived values only.",
+  "sources": [
+    "滴天髓 strength doctrine via REA_02 §5c",
+    "merged-journey design 2026-10-18 (the Codex panel)"
+  ],
+  "status_note": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule · ENGINE CHANGE NEEDED before it can render",
+  "budget": "≤22w per line",
+  "candidates": {
+    "score": "You score {score} of 7. {reason} {Condition} means your core {run}.",
+    "reason": {
+      "season_and_root": "Your season and your root both feed your {Core}, and they are the two heaviest tests.",
+      "neither": "Neither your season nor your root feeds your {Core}, and they are the two heaviest tests.",
+      "season_only": null,
+      "root_only": null
+    },
+    "season": {
+      "pass": "You were born in {a} {MonthEl} month, and {MonthEl} feeds {Core}.",
+      "pass_same": null,
+      "fail": "You were born in {a} {MonthEl} month, and {MonthEl} spends {Core}."
+    },
+    "root": {
+      "pass": "{Core} sits in the lower half of your chart and holds you up.",
+      "fail": "No {Core} sits in the lower half of your chart to hold you up."
+    },
+    "allies": {
+      "pass": "{N} of your three other signs back {Core}.",
+      "fail": "{N} of your three other signs backs {Core}. It takes two."
+    }
+  }
+}

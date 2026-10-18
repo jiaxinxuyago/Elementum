@@ -68,7 +68,11 @@
     "mechanism_yin": {
       "base": "Ash is earth, the old texts say: everything that burns comes down to soil at last. So the field is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest.",
       "catalyst_turn": "Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Fire running it, your mind absorbs through warmth: stories told at tables, lessons carried by people you love, knowledge that arrives lit. You learn best in company and remember what was taught with feeling. Seek warm teachers. Cold material simply never composts into you.",
@@ -352,5 +356,11 @@
       "finding": "R2-1",
       "replaced": "Your Mind is where the world soaks in and becomes yours. Fire makes it warm, and you keep what lights you up. In balance, what you take in warms you without weighing you down. You learn from others and still make each idea your own."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

@@ -78,7 +78,11 @@
       "base": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any stone is cut from it, and every jewel remembers the patience of the rock that made it.",
       "catalyst_turn": "Run thin, the mine goes hungry: a fine stone with nothing behind it, brilliance spent faster than it forms. Your chart asks you to feed the ground. Rest and study are the polishing, not stalling.",
       "friction_turn": "Run heavy, the setting closes over the stone: so much preparation that the jewel never leaves the box. Comfort begins to bury what it formed. Take it out and wear it somewhere real."
-    }
+    },
+    "head": "Earth feeds {the archetype}",
+    "head_yin": null,
+    "story": "The Blade begins as ore inside the hill, where damp earth feeds it slowly until it is ready to be struck.",
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours.",
@@ -578,5 +582,11 @@
       "finding": "R4 earth:E4-15",
       "replaced": "Your Mind is where the world soaks in and becomes yours. Earth makes it steady, so what you learn sinks in. In balance, what you take in settles at a steady pace. You trust what you learn and still let new things in."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (yang stem; the story is 庚-specific)",
+    "story": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (yang stem; the story is 庚-specific)",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

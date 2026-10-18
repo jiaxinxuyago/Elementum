@@ -9,7 +9,7 @@
 | **axis** | TEMPLATED |
 | **key** | tpl_presence_frames |
 | **construct** | Derived slot template (REA_03 §5; REA_02 §5h) |
-| **status** | PLANNED |
+| **status** | DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: "map all fields"), to rule · the first reading's energy cards open on this line · PLANNED slot kept null until ruled |
 | **budget** | ≤20w ×4 |
 | **sources** | REA_03 §5 (patterns) |
 
@@ -22,3 +22,8 @@
 | `clauses.present` | *(unauthored)* |
 | `clauses.scarce` | *(unauthored)* |
 | `clauses.absent` | *(unauthored)* |
+| `draft_pattern` | You have {n}% of {El} energy. |
+| `draft_clauses.dominant` | *(unauthored)* |
+| `draft_clauses.present` | *(unauthored)* |
+| `draft_clauses.scarce` | *(unauthored)* |
+| `draft_clauses.absent` | You have no {El} energy. |

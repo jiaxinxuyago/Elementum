@@ -77,7 +77,11 @@
       "base": "Water is metal's child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the rain inherits, sharpness dissolved into drops and carried further than any blade could reach.",
       "catalyst_turn": "Run thin, the cloud runs thin: intuition drawn on without refilling, feeling spent faster than it gathers. Your chart asks for metal. Study something exact and drink from it.",
       "friction_turn": "Run heavy, the rigor sets like concrete: so much refining the rain never falls, feeling held in tanks of preparation. Pour something out. Rain proves itself by falling."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Metal running it, your mind absorbs by distillation: exact teachers, clean sources, one precise sentence worth an hour of noise. What passes your filter condenses into permanent depth. Curate hard. Your intelligence is fed by quality, and clutter silts the spring.",
@@ -377,5 +381,11 @@
       "finding": "R4 metal:MR4-12",
       "replaced": "Your Mind is where the world soaks in and becomes yours. Metal turns it exact, and what you take in is tested before it is kept. In balance, the test is fair and it ends. What passes it settles in, and you trust it enough to use it."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

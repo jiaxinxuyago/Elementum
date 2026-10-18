@@ -10,6 +10,7 @@
   ],
   "candidates": {
     "yourNature_desc": "You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.",
+    "yourNature_desc_approved": "You are what the sword is like when it is drawn and never hung back on the wall. You hold more Metal than any day spends, and the surplus turns into an urge to speak the truth. Because it never rests, you would rather say the hard thing today than keep the peace. You earn deep trust that way, and over time you pay for it in easy closeness.",
     "__ore": {
       "retired_2026-10-17_band_card": {
         "status": "HIBERNATING",
@@ -22,5 +23,8 @@
       }
     }
   },
-  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline · self_card HIBERNATING in __ore.retired_2026-10-17_band_card (owner 2026-10-17)",
+  "field_status": {
+    "yourNature_desc_approved": "APPROVED 2026-10-17 (庚 R2), pending transcription into yourNature_desc and the live code"
+  }
 }

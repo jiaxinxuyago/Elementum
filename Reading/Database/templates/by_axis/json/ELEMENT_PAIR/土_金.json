@@ -72,7 +72,11 @@
     "mechanism_yin": {
       "base": "Metal is born of earth: it gathers under the field's stones, condensed out of long pressure and deep moisture, the ground's patience arriving at a point. The field speaks rarely. When it does, what it says is ore, and every refined thing that leaves the soil carries the field's patience inside it.",
       "friction_turn": "Run heavy, the mining never stops: everything minted, the topsoil stripped for output. Leave some ore in the ground. Your silence is part of the deposit."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_bonds_dip": "People keep what you make: your rare words get quoted back years later.",
@@ -381,5 +385,11 @@
       "finding": "R5 cross:X5-01",
       "replaced": "Your Expression is the gate where inner work becomes outer fact. Metal makes it exact, each thing finished before it leaves you. In balance, the gate opens when a piece is ready and closes when you need to rest. You give out no faster than you refill."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

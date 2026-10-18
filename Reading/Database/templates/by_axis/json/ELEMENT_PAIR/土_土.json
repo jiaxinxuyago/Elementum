@@ -60,7 +60,11 @@
     "mechanism_yin": {
       "base": "Thick virtue carries all things, the Book of Changes says of earth: ground laid upon ground, bedrock under soil, the one element whose nature is simply to hold. Nothing reacts here. Ground settles onto ground, and the stillness deepens until whole harvests stand on it without complaint. What everything else moves through, earth remains.",
       "friction_turn": "Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even good soil is improved by weather."
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat your strength rests on. With Earth doubled here, your constitution is bedrock: vast reserves, slow rhythms, an endurance that looks like stillness and outlasts everything that hurries. Depletion in you is geological, so gradual you rarely feel it moving. Weigh yourself honestly each season, and shore the ground before it says you must.",
@@ -337,5 +341,11 @@
       "finding": "R5 earth:E5-03",
       "replaced": "Your Body is the strength the whole of you stands on. Earth sets you solid and slow to shift. Running over, your strength has nowhere to go and it sets into a fixed stance. You give up closeness to keep your place."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }

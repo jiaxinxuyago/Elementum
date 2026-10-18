@@ -28,6 +28,7 @@
     "dm_mechanism": "Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence.",
     "yourNature_desc": "You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.",
     "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+    "who": "You are the Blade, the Metal that has already been through fire. You are kept plain and kept sharp, and you come out only for the true thing.",
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "subtitle": "Evaluation runs before engagement begins · The Definition Impulse (Yang)",
@@ -621,5 +622,8 @@
       }
     }
   },
-  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (the carry law applied to the pools). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (the carry law applied to the pools). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume.",
+  "field_status": {
+    "who": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule"
+  }
 }

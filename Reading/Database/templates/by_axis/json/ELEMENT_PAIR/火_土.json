@@ -57,7 +57,11 @@
         "clause": "So much Earth that the fire can hardly be seen, a light buried under what it made.",
         "remedy": "Clear the ash. Make less and rest more."
       }
-    }
+    },
+    "head": null,
+    "head_yin": null,
+    "story": null,
+    "story_yin": null
   },
   "__ore": {
     "retired_bonds_dip": "People inhabit what you express: your warmth reaches them as belonging.",
@@ -358,5 +362,11 @@
       "finding": "R5 cross:X5-01",
       "replaced": "Your Expression is the gate where inner work becomes outer fact. Earth makes it slow and solid, made to last. In balance, the gate opens at its own steady pace. What goes out of you is matched by what comes back in."
     }
-  ]
+  ],
+  "field_status": {
+    "head": "TO WRITE · opened 2026-10-18",
+    "story": "TO WRITE · opened 2026-10-18",
+    "head_yin": "TO WRITE · opened 2026-10-18",
+    "story_yin": "TO WRITE · opened 2026-10-18"
+  }
 }
