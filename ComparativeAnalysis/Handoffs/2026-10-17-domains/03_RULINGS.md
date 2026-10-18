@@ -128,3 +128,21 @@ Page: https://claude.ai/artifact/Vz38yjKw7uDv3CtkpDfq2r
 - Scholar's Star in the Year Gate, Red Phoenix in the Month Gate, Lonely Star in the Day Gate, Ram's Edge in the Hour Gate, Robbery Star in the Year Gate, Lost Spirit in the Day Gate.
 - The Nobleman arrives with the decade 丁丑 (2023–2032) and in 2027.
 - Peach Blossom arrives with the decade 丙子 (2033–2042).
+
+## Rounds 5 to 7 rulings (owner 2026-10-18): R1–R5 all A, then P1–P6 all A
+
+- **Round 6 (R1–R5):** the seat dots stay; a tile opens its page; the words note gains Seat, Gate, Decade and Star; the star chip colours stay; no extra divider after the wheel.
+- **Round 7 (P1–P6):**
+  - P1: two columns of domain cards.
+  - P2: free readers see the seat blocks, locked.
+  - P3: all four chapters open, the current one outlined.
+  - P4: stars grouped as help, test and arriving.
+  - P5: the Blueprint's name plus four locked rows for free and Seeker readers.
+  - P6: next, the engine and the writing plan, with golden templates first.
+
+**Round 8:** https://claude.ai/artifact/J5JMZEioCtMy3x7dadZkVN (source: `round-8/`). It covers:
+- the engine (structure, bonds, profile, years, stars, season);
+- the research tables;
+- 70 golden units, gated;
+- a writing plan of about 712 units;
+- open questions W1–W15.

@@ -256,7 +256,7 @@
    "page": "blueprint",
    "kind": "missing",
    "key": "GOD zhengguan · missing",
-   "where": "2 · Missing · no Magistrate · brought by your Magistrate decade 2023 to 2032",
+   "where": "2 · Missing · no Magistrate · your season asks for it too · it arrives with your decade 2023 to 2032",
    "text": "No Magistrate sits in your chart, and nobody inside it tells you what the rules are. You borrow structure from a boss or a contract, and you work best once someone else has fixed the terms."
   },
   {
@@ -355,7 +355,7 @@
    "kind": "claim",
    "key": "TEMPLATED tpl_depth · stars.claim",
    "where": "Stars · the title",
-   "text": "Seven old stars sit in your chart, and a helper is arriving."
+   "text": "Six old stars sit in your chart, and a helper is arriving."
   },
   {
    "page": "stars",
@@ -370,20 +370,6 @@
    "key": "STAR wenchang · reading.year.lived",
    "where": "Scholar’s Star · Year Gate · lived",
    "text": "You learned to read early and took to schoolwork faster than your effort explains. Written work and anything you could study for went better for you than for most, and you still trust a book to get you through a hard problem."
-  },
-  {
-   "page": "stars",
-   "kind": "star_line",
-   "key": "STAR taiji · line",
-   "where": "Taiji Nobleman (太极贵人) · Year Gate and Day Gate · the chip",
-   "text": "Big questions found you early and never left."
-  },
-  {
-   "page": "stars",
-   "kind": "star_reading",
-   "key": "STAR taiji · reading.year.lived",
-   "where": "Taiji Nobleman · Year Gate · lived",
-   "text": "As a child you asked where things begin and why people believe what they do, and adults gave you shorter answers than you wanted. You read past your age on those questions, and you still return to them whenever ordinary answers stop working."
   },
   {
    "page": "stars",
@@ -489,6 +475,27 @@
    "key": "STAR taohua · arriving.decade.coming",
    "where": "Peach Blossom · arrives with your General decade 2033 to 2042",
    "text": "In this decade your life fills with new people, more invitations and more attention than you have had before. You enjoy it more openly than you expect, and you choose the few who stay with care."
+  },
+  {
+   "page": "blueprint",
+   "kind": "season",
+   "key": "SEASON geng.chen · reading",
+   "where": "2 · Your season · 调候 · 三月庚金 (穷通宝鉴)",
+   "text": "You were born in late spring, when Earth runs the season and buries Metal more than it feeds it. Your season asks first for Wood to break that Earth open and then for Fire to temper you, and you come into your own when both are within reach."
+  },
+  {
+   "page": "blueprint",
+   "kind": "season_need",
+   "key": "GOD piancai · season_need.rooted",
+   "where": "2 · the first need · 甲, the Horizon · inside a branch, not on show",
+   "text": "The Horizon your season asks for sits inside your chart without showing, and you find your openings through side doors more than front ones."
+  },
+  {
+   "page": "stars",
+   "kind": "star_arriving",
+   "key": "STAR kongwang · arriving.year",
+   "where": "the Void (空亡) · falls on 2026 and 2027 · Advisor",
+   "text": "Some of what you push for this year stays empty for a while, an answer that does not come or a plan that waits. You lose less than it seems, and you use what you held back once the year turns."
   }
  ]
 }

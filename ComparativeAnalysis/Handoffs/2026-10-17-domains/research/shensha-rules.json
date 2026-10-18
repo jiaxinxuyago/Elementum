@@ -1,0 +1,1842 @@
+{
+  "sources": [
+    {
+      "id": "SMTH",
+      "title": "《三命通会》",
+      "author": "万民英 (明)",
+      "kind": "classical",
+      "urls": [
+        "https://zh.wikisource.org/wiki/三命通會/卷二",
+        "https://zh.wikisource.org/wiki/三命通會/卷三",
+        "https://zh.wikisource.org/wiki/三命通會/卷六",
+        "https://zh.wikisource.org/wiki/三命通會/卷七"
+      ],
+      "notes": "Primary text read in full for the relevant sections: 卷二 论将星华盖/论咸池; 卷三 论十干禄/论金舆/论驿马/论天乙贵人/论天月德/论太极贵(文昌贵, 文星贵)/论劫煞亡神/论羊刃/论空亡/论孤辰寡宿/总论诸神煞(桃花红艳煞); 卷六 日贵/日德/魁罡/论阳刃; 卷七 女命. Wikisource text is simplified and has a few scribal slips (六幸 for 六辛; a gap inside 论羊刃)."
+    },
+    {
+      "id": "YHZP",
+      "title": "《渊海子平》",
+      "author": "徐升 (宋) 撰, 杨淙 (明) 增校",
+      "kind": "classical",
+      "urls": [
+        "https://zh.wikisource.org/wiki/淵海子平"
+      ],
+      "notes": "The Wikisource edition has no stand-alone 神煞 table chapter; it carries 论阳刃, 论日刃, 论日贵, 论日德, 论魁罡, 论金神 and the women's chapters (论妇人总诀, 滚浪桃花, 女命贵格/贱格), which are what is cited here."
+    },
+    {
+      "id": "WXJJ",
+      "title": "《五行精纪》",
+      "author": "廖中 (宋)",
+      "kind": "classical",
+      "urls": [
+        "https://zh.wikisource.org/wiki/五行精紀"
+      ],
+      "notes": "The earliest large compendium of 禄命 神煞; quotes older lost texts (神白经, 三命钤, 林开五命, 烛神经, 广录, 三历会同, 壶中子). Used to date the tables: 卷十三 释吉贵神例, 卷十四 论天乙贵神, 卷十五 论禄, 卷十六 论马, 卷廿 论华盖/金舆/将星, 卷廿四 论劫杀/亡神/羊刃, 空亡例, 论咸池, 孤辰寡宿."
+    },
+    {
+      "id": "SFTK",
+      "title": "《神峰通考》(命理正宗)",
+      "author": "张楠 (明)",
+      "kind": "classical",
+      "urls": [
+        "https://zh.wikisource.org/wiki/神峰通考"
+      ],
+      "notes": "Gives a compact 吉神类/凶神类 list with explicit lookup bases (\"寅午戌生见…\"), the 鸾喜 rhyme, and a 辟谬 section that rejects several 神煞 readings (日贵格, 魁罡格, 金舆 as harmful to men, 桃花煞 against women)."
+    },
+    {
+      "id": "ZWDS",
+      "title": "《紫微斗数全书》卷二 安红鸾天喜诀",
+      "author": "托名 陈希夷",
+      "kind": "classical",
+      "urls": [
+        "https://zh.wikisource.org/wiki/紫微斗數全書/卷二"
+      ],
+      "notes": "Origin system of 红鸾/天喜: \"卯上起子逆数之，数到当生太岁支，坐守此宫红鸾位，对宫天喜不差移\"."
+    },
+    {
+      "id": "XJBF",
+      "title": "《钦定协纪辨方书》",
+      "author": "清 乾隆敕撰",
+      "kind": "classical (date selection)",
+      "urls": [
+        "http://ab.newdu.com/book/ms264418.html",
+        "http://ab.newdu.com/book/ms264419.html",
+        "http://ab.newdu.com/book/ms264421.html"
+      ],
+      "notes": "卷四 天喜 (两说), 卷五 天德 (堪舆经 table), 卷七 天乙阳贵/阴贵 derivation (蠡海集, 曹震圭, 通书, 考原). Selection-calendar usage, cited for table provenance only."
+    },
+    {
+      "id": "XPHH",
+      "title": "《星平会海》",
+      "author": "霞阳水中龙 (明)",
+      "kind": "classical (not read directly)",
+      "urls": [
+        "https://www.luckclub.cn/bazi/014/005/"
+      ],
+      "notes": "Only the chapter lists are online (卷五 contains 诸吉星类/诸凶星类). Its 天德/月德/红艳 rhymes are cited here only through secondary quotation (SOHU-DE, TYG-TH). No 星平会海 text was verified first-hand."
+    },
+    {
+      "id": "SOHU-DE",
+      "title": "八字中神煞天德贵人，月德贵人详解",
+      "author": "搜狐 (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://www.sohu.com/a/308732837_450109"
+      ],
+      "notes": "Quotes the 星平会海 天德 rhyme (正丁二坤中…子巽丑庚中) and 月德 rhyme; records the minority view that 二德 should be matched only against the day stem."
+    },
+    {
+      "id": "SHUGE-GR",
+      "title": "拨乱反正——六壬争议之贵神排法 (雨田易道)",
+      "author": "书格论坛 (modern study)",
+      "kind": "modern research",
+      "urls": [
+        "https://www.shuge.org/meet/topic/103333/"
+      ],
+      "notes": "History of the three 天乙 rhymes: 甲戊庚牛羊 on the Western-Han 肩水金关汉简 and a Six-Dynasties bronze 式盘; 甲戊兼牛羊/庚辛逢马虎 in 《太白阴经》(唐) and 曾门/金匮 per 《六壬粹言》; 甲羊戊庚牛 (阳贵/阴贵) from 储泳《祛疑说》."
+    },
+    {
+      "id": "SOHU-WC",
+      "title": "八字神煞详解：太极贵、文昌贵、文昌贵人、文誉贵、文星贵…",
+      "author": "搜狐 (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://m.sohu.com/a/854829764_100084723/"
+      ],
+      "notes": "Distinguishes 三命通会's 文昌贵 (year stem, different table) from the modern 文昌贵人 (年/日干, 甲巳乙午 table)."
+    },
+    {
+      "id": "SOHU-YR",
+      "title": "八字神煞详解：羊刃、阳刃、阴刃、飞刃、劫煞、亡神",
+      "author": "搜狐 (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://www.sohu.com/a/858392230_100084723"
+      ],
+      "notes": "Separates 古法 羊刃 (year stem, all ten stems, 禄前一辰), 子平 阳刃 (five yang day stems), and 阴刃 (禄后一辰, 妨夫; 三命指迷赋 with 岳珂 note); rejects the modern 帝旺 阴刃 (乙寅 etc.)."
+    },
+    {
+      "id": "CWT-WC",
+      "title": "文昌贵人的查法与用法讲解 (阐微堂)",
+      "author": "郁知 (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://chanweitang.com/post/122.html"
+      ],
+      "notes": "Modern standard 文昌 rhyme; 以年干或日干为主."
+    },
+    {
+      "id": "XUEBZ-WC",
+      "title": "文昌贵人 — 神煞详解",
+      "author": "xuebz.com (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://xuebz.com/knowledge/shensha_wen_chang"
+      ],
+      "notes": "Same modern table; gives the 食神临官 rationale."
+    },
+    {
+      "id": "IQ-TH",
+      "title": "八字桃花怎么看？咸池桃花、红鸾天喜与正缘判断",
+      "author": "ichingquest.com (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://ichingquest.com/zh-CN/fortune/bazi/taohua"
+      ],
+      "notes": "墙内 = 桃花 in year/month pillar, 墙外 = in day/hour pillar; 红鸾/天喜 by year branch."
+    },
+    {
+      "id": "EW-TH",
+      "title": "桃花是什麼？咸池查詢表與判讀方法 (靈點五行)",
+      "author": "8words.app (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://8words.app/blog/peach-blossom-meaning-in-bazi/"
+      ],
+      "notes": "Rival definition: 桃花 derived from the year branch = 外/墙外桃花, from the day branch = 内/墙内桃花."
+    },
+    {
+      "id": "TYG-TH",
+      "title": "八字桃花19种 (天玉宫)",
+      "author": "tianyugong.com (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://tianyugong.com/19tchx/"
+      ],
+      "notes": "Third 墙外 definition (子午卯酉 day with 子午卯酉 hour); quotes a 星平会海 红艳煞 rhyme."
+    },
+    {
+      "id": "N163-TH",
+      "title": "判断你是不是咸池桃花命？",
+      "author": "网易 (modern)",
+      "kind": "modern",
+      "urls": [
+        "https://c.m.163.com/news/a/HAK7QDT20553APWV.html"
+      ],
+      "notes": "\"桃花居于年月是墙内桃花，于日时则为墙外桃花\"."
+    },
+    {
+      "id": "WP-KW",
+      "title": "空亡 (维基百科)",
+      "author": "zh.wikipedia.org",
+      "kind": "reference",
+      "urls": [
+        "https://zh.wikipedia.org/wiki/空亡"
+      ],
+      "notes": "旬中空亡 table and the separate 截路空亡."
+    },
+    {
+      "id": "SC-POP",
+      "title": "八字神煞 compendium (大纪元/看中国转载)",
+      "author": "secretchina.com (modern popular)",
+      "kind": "modern",
+      "urls": [
+        "https://www.secretchina.com/news/b5/2014/05/13/540338.html"
+      ],
+      "notes": "Typical modern practice statements: 天乙 以日干起; 文昌 以年干或日干; 将星 以年支或日支; 禄 以日干."
+    }
+  ],
+  "stars": {
+    "天乙贵人": {
+      "aka": [
+        "天乙",
+        "贵人",
+        "天乙贵神"
+      ],
+      "bases": [
+        {
+          "base": "day stem",
+          "common": true,
+          "notes": "Modern 子平 practice keys it to the day master (SC-POP: 以日干起贵人，地支见者为是). The 日贵 cases (丁酉, 丁亥, 癸巳, 癸卯) are the day stem sitting on its own 天乙 (YHZP 论日贵; SMTH 卷六)."
+        },
+        {
+          "base": "year stem",
+          "common": true,
+          "notes": "Classical 禄命 base: SMTH and WXJJ phrase every example as '甲人' (born in a 甲 year) and discuss 年时互换贵 (甲午人见辛丑时). Most modern charts check it as a second base."
+        },
+        {
+          "base": "year branch (reverse lookup)",
+          "common": false,
+          "notes": "陈希烈 (in WXJJ): 丑未生人 meeting 甲戊庚 stems in month/day/hour is '正天乙'. Rarely used today."
+        }
+      ],
+      "match": "the branches of all four pillars (year, month, day, hour); also luck-pillar and annual branches when reading timing. 辰 and 戌 can never hold 天乙 (魁罡之地，贵人不临).",
+      "table": {
+        "甲": [
+          "丑",
+          "未"
+        ],
+        "乙": [
+          "子",
+          "申"
+        ],
+        "丙": [
+          "亥",
+          "酉"
+        ],
+        "丁": [
+          "亥",
+          "酉"
+        ],
+        "戊": [
+          "丑",
+          "未"
+        ],
+        "己": [
+          "子",
+          "申"
+        ],
+        "庚": [
+          "丑",
+          "未"
+        ],
+        "辛": [
+          "寅",
+          "午"
+        ],
+        "壬": [
+          "卯",
+          "巳"
+        ],
+        "癸": [
+          "卯",
+          "巳"
+        ]
+      },
+      "table_rhyme": "甲戊庚牛羊，乙己鼠猴乡，丙丁猪鸡位，壬癸兔蛇藏，六辛逢马虎，此是贵人方 (WXJJ 卷十三; SMTH 卷三)",
+      "variants": [
+        {
+          "name": "甲戊兼牛羊 / 庚辛逢马虎 (the 庚辛 dispute)",
+          "change": {
+            "庚": [
+              "寅",
+              "午"
+            ]
+          },
+          "sources": [
+            "SFTK",
+            "YHZP",
+            "SHUGE-GR"
+          ],
+          "notes": "Only 庚 moves, from 丑未 to 寅午. Rhyme: 甲戊兼牛羊…庚辛逢马虎. Printed as the 天乙 rhyme in 神峰通考 吉神类; 渊海子平 论日贵 glosses 日贵 as '即甲戊兼牛羊之类'. Earliest witness is 《太白阴经》(唐), and 《六壬粹言》 says 曾门/金匮 have '甲戊用丑未，庚辛用寅午'. 储泳《祛疑说》 and 《六壬辨疑》 reject it as a copying error. The 甲戊庚 version is attested much earlier, on the Western-Han 肩水金关汉简 and a Six-Dynasties bronze 式盘 (SHUGE-GR). Majority BaZi practice: 甲戊庚."
+        },
+        {
+          "name": "昼贵/夜贵 (阳贵/阴贵) split — 三历会同",
+          "sources": [
+            "WXJJ"
+          ],
+          "table": {
+            "甲": {
+              "day": "丑",
+              "night": "未"
+            },
+            "戊": {
+              "day": "丑",
+              "night": "未"
+            },
+            "庚": {
+              "day": "丑",
+              "night": "未"
+            },
+            "乙": {
+              "day": "子",
+              "night": "申"
+            },
+            "己": {
+              "day": "子",
+              "night": "申"
+            },
+            "丙": {
+              "day": "亥",
+              "night": "酉"
+            },
+            "丁": {
+              "day": "亥",
+              "night": "酉"
+            },
+            "壬": {
+              "day": "巳",
+              "night": "卯"
+            },
+            "癸": {
+              "day": "巳",
+              "night": "卯"
+            },
+            "辛": {
+              "day": "午",
+              "night": "寅"
+            }
+          },
+          "notes": "旦 (after sunrise) vs 暮 (after sunset). 壶中子 says a day birth should meet the day 贵人 and a night birth the night 贵人 to get the full benefit."
+        },
+        {
+          "name": "阳贵/阴贵 — 协纪辨方书 (蠡海集/通书/考原)",
+          "sources": [
+            "XJBF",
+            "SHUGE-GR"
+          ],
+          "table": {
+            "甲": {
+              "yang_day": "未",
+              "yin_night": "丑"
+            },
+            "乙": {
+              "yang_day": "申",
+              "yin_night": "子"
+            },
+            "丙": {
+              "yang_day": "酉",
+              "yin_night": "亥"
+            },
+            "丁": {
+              "yang_day": "亥",
+              "yin_night": "酉"
+            },
+            "戊": {
+              "yang_day": "丑",
+              "yin_night": "未"
+            },
+            "己": {
+              "yang_day": "子",
+              "yin_night": "申"
+            },
+            "庚": {
+              "yang_day": "丑",
+              "yin_night": "未"
+            },
+            "辛": {
+              "yang_day": "寅",
+              "yin_night": "午"
+            },
+            "壬": {
+              "yang_day": "卯",
+              "yin_night": "巳"
+            },
+            "癸": {
+              "yang_day": "巳",
+              "yin_night": "卯"
+            }
+          },
+          "notes": "Derived from 干合: 阳贵 runs forward from 子 (先天坤), 阴贵 backward from 申 (后天坤). Each stem keeps the same pair of branches as the main table; only which one counts as day and which as night changes, and for several stems it is the reverse of 三历会同. 曹震圭's version swaps 阳 and 阴 again. Where the day/night line falls is also disputed: 卯酉; sunrise/sunset; 子 to 午 (which 壶中子 calls 臆说); 冬至后阳贵/夏至后阴贵 (三命通会 citing 壶中子); or 星出星没 in 六壬. Most BaZi software ignores the split."
+        },
+        {
+          "name": "日贵 day/night assignment conflict",
+          "sources": [
+            "SMTH",
+            "SFTK"
+          ],
+          "notes": "SMTH 卷六: a day birth wants 癸卯/丁亥, a night birth 癸巳/丁酉. SFTK (旧注): a day birth wants 癸卯/癸巳, a night birth 丁酉/丁亥. The two contradict each other."
+        },
+        {
+          "name": "广录 refinements",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "甲尤喜未，庚尤喜丑. 戊子/戊寅/戊午 prefer 丑, 戊辰/戊申/戊戌 prefer 未. SMTH says 乙尤喜子，己尤喜申, while WXJJ prints 乙尤喜申 (a textual variant). These grade strength and do not change the table."
+        },
+        {
+          "name": "Textual slips",
+          "sources": [
+            "WXJJ",
+            "SMTH"
+          ],
+          "notes": "The WXJJ rhyme prints '乙庚鼠猴鄉' (read 乙己), and SMTH prints '六幸' (read 六辛)."
+        },
+        {
+          "name": "Skeptic school",
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "张楠 dismisses 日贵格 and the many named 贵人 as '飘空而立，不根理出'."
+        }
+      ],
+      "meaning": "The supreme noble helper: '其神最尊贵，所至之处，一切凶煞隐然而避' (SMTH). It brings patronage, rescue in trouble and early honours.",
+      "valence": "auspicious",
+      "valence_notes": "Its power drops when the branch is void (空亡), clashed or punished, or the 贵人 element is dead or cut off: '贵人无气，虽有如无', '贵人嗔则凶来' (SMTH).",
+      "gendered": {
+        "male": null,
+        "female": "One 贵人 is good, several are not: '贵神一位，不富即荣…合贵重者，娇媚而多贱多情；贵人乘驿马，决主风尘之美妓' (SMTH 卷七 女命)."
+      },
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "YHZP",
+        "SFTK",
+        "XJBF",
+        "SHUGE-GR",
+        "SC-POP"
+      ]
+    },
+    "文昌贵人": {
+      "aka": [
+        "文昌",
+        "文昌星"
+      ],
+      "bases": [
+        {
+          "base": "day stem",
+          "common": true,
+          "notes": "Modern standard (CWT-WC, XUEBZ-WC: 以年干或日干查四柱地支)."
+        },
+        {
+          "base": "year stem",
+          "common": true,
+          "notes": "Checked as a second base in modern practice. The classical 文昌贵 (a different table, see variants) is keyed to the year stem."
+        }
+      ],
+      "match": "the branches of all four pillars (year, month, day, hour); also luck-pillar and annual branches when reading timing",
+      "table": {
+        "甲": "巳",
+        "乙": "午",
+        "丙": "申",
+        "丁": "酉",
+        "戊": "申",
+        "己": "酉",
+        "庚": "亥",
+        "辛": "子",
+        "壬": "寅",
+        "癸": "卯"
+      },
+      "table_rhyme": "甲乙巳午报君知，丙戊申宫丁己鸡，庚猪辛鼠壬逢虎，癸人见卯入云梯",
+      "variants": [
+        {
+          "name": "文昌贵 of 五行精纪 / 三命通会 (different star, same name)",
+          "table": {
+            "甲": "巳",
+            "乙": "亥",
+            "丙": "戌",
+            "丁": "辰",
+            "戊": "申",
+            "己": "午",
+            "庚": "寅",
+            "辛": "未",
+            "壬": "卯",
+            "癸": "丑"
+          },
+          "sources": [
+            "WXJJ",
+            "SMTH",
+            "SOHU-WC"
+          ],
+          "notes": "Rhyme: 甲人蛇口乙猪头，丙狗丁龙戊向猴，己午庚寅辛未贵，六壬卯位癸逢牛. Keyed to the year stem. It agrees with the modern table only for 甲 and 戊."
+        },
+        {
+          "name": "文星贵 (林开五命, via 五行精纪 and 三命通会)",
+          "table": {
+            "甲": "午",
+            "乙": "巳",
+            "丙": "申",
+            "丁": "酉",
+            "戊": "申",
+            "己": "酉",
+            "庚": "戌",
+            "辛": "亥",
+            "壬": "寅",
+            "癸": "卯"
+          },
+          "sources": [
+            "WXJJ",
+            "SMTH"
+          ],
+          "notes": "Rhyme: 甲马乙蛇丙戊猴，酉抬丁己亥辛求，庚逢戌狗壬逢虎，十位文星癸兔游. It agrees with the modern 文昌 for 丙丁戊己壬癸. 甲/乙 are swapped and 庚/辛 differ."
+        },
+        {
+          "name": "学堂 (often conflated with 文昌)",
+          "table": {
+            "甲": "亥",
+            "乙": "午",
+            "丙": "寅",
+            "丁": "酉",
+            "戊": "寅",
+            "己": "酉",
+            "庚": "巳",
+            "辛": "子",
+            "壬": "申",
+            "癸": "卯"
+          },
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "The day stem's 长生. A separate star; do not merge it with 文昌."
+        },
+        {
+          "name": "Rationale dispute",
+          "sources": [
+            "XUEBZ-WC",
+            "SOHU-WC"
+          ],
+          "notes": "Usually explained as 食神之临官 (甲's 食神 丙 has its 禄 at 巳). That holds for 8 of the 10 stems. For 丙 and 丁 the rhyme gives 申 and 酉, which are the 食神's 长生, not its 禄. A rule that fits all ten: the yang stem's 病 position, or the yin stem's 长生."
+        },
+        {
+          "name": "Provenance unverified",
+          "sources": [
+            "SMTH",
+            "WXJJ",
+            "SFTK",
+            "YHZP"
+          ],
+          "notes": "The modern rhyme is not in the Wikisource texts of 三命通会, 五行精纪, 神峰通考 or 渊海子平. Web sources credit it variously to 星平会海, 三命通会 or 果老星宗, and none of these could be confirmed. Some printings read '庚鼠辛鼠' (typo for 庚猪)."
+        }
+      ],
+      "meaning": "Literary star: intelligence, love of study, examination and scholarly success, refined manner; also said to turn misfortune aside (CWT-WC).",
+      "valence": "auspicious",
+      "valence_notes": "The modern table has no attested classical meaning text. The classical 文昌贵 and 文星贵 are both 科名/文翰 stars.",
+      "gendered": null,
+      "sources": [
+        "CWT-WC",
+        "XUEBZ-WC",
+        "SOHU-WC",
+        "WXJJ",
+        "SMTH",
+        "SFTK"
+      ]
+    },
+    "天德贵人": {
+      "aka": [
+        "天德"
+      ],
+      "bases": [
+        {
+          "base": "month branch",
+          "common": true,
+          "notes": "Every source keys 天德 to the birth month (月令)."
+        }
+      ],
+      "match": "For 12 of the months the target is a stem, matched against the stems of the four pillars. For 卯/午/酉/子 months the target is a trigram (坤/乾/艮/巽), matched as the branch 申/亥/寅/巳.",
+      "table": {
+        "寅": {
+          "target": "丁",
+          "kind": "stem"
+        },
+        "卯": {
+          "target": "申",
+          "kind": "branch (坤)"
+        },
+        "辰": {
+          "target": "壬",
+          "kind": "stem"
+        },
+        "巳": {
+          "target": "辛",
+          "kind": "stem"
+        },
+        "午": {
+          "target": "亥",
+          "kind": "branch (乾)"
+        },
+        "未": {
+          "target": "甲",
+          "kind": "stem"
+        },
+        "申": {
+          "target": "癸",
+          "kind": "stem"
+        },
+        "酉": {
+          "target": "寅",
+          "kind": "branch (艮)"
+        },
+        "戌": {
+          "target": "丙",
+          "kind": "stem"
+        },
+        "亥": {
+          "target": "乙",
+          "kind": "stem"
+        },
+        "子": {
+          "target": "巳",
+          "kind": "branch (巽)"
+        },
+        "丑": {
+          "target": "庚",
+          "kind": "stem"
+        }
+      },
+      "table_rhyme": "正丁二坤宫，三壬四辛同，五亥六是甲，七癸八艮宫，九丙十乙处，子巳必有功，庚居丑月内 (神白经, in WXJJ); 星平会海: 正丁二坤中，三壬四辛同，五乾六甲上，七癸八艮同，九丙十归乙，子巽丑庚中 (via SOHU-DE); 堪舆经 identical (XJBF)",
+      "variants": [
+        {
+          "name": "Which pillars count",
+          "sources": [
+            "SOHU-DE",
+            "SMTH"
+          ],
+          "notes": "Majority: any of the four stems (and, for the trigram months, any branch). Minority: the day stem only ('有人主张仅能对应于日干'). SMTH: '须要日上见' for full force, and '日干就是尤吉'."
+        },
+        {
+          "name": "神峰通考 eleventh-month reading",
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "SFTK prints 十一月生见子字. Every other source has 巽 (=巳). Most likely a copying error."
+        },
+        {
+          "name": "天德合 (companion star)",
+          "sources": [
+            "WXJJ",
+            "SMTH"
+          ],
+          "table": {
+            "寅": "壬",
+            "辰": "丁",
+            "巳": "丙",
+            "未": "己",
+            "申": "戊",
+            "戌": "辛",
+            "亥": "庚",
+            "丑": "乙"
+          },
+          "notes": "The stem that combines with 天德. WXJJ lists only these eight months. SMTH gives a garbled entry for the trigram months ('二月坤与巽合')."
+        },
+        {
+          "name": "Different-system 天德",
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "The 鸾喜二德解神歌 ('欲求天德顺从酉') is a 紫微斗数 year-based 天德. Do not mix it into the BaZi month-based star."
+        }
+      ],
+      "meaning": "'天德者，五行福德之辰，若人遇之，主登台辅之位…纵遇凶煞，亦主清显' (三命钤, in WXJJ and SMTH). Heaven's protective virtue: it dissolves calamity, keeps one clear of punishment and robbery, and gives a kindly nature.",
+      "valence": "auspicious",
+      "valence_notes": "'二德扶持，众凶解散' (阎东叟, SMTH). It needs to be free of clash and punishment. SMTH ranks 天德 above 月德.",
+      "gendered": {
+        "male": null,
+        "female": "Positive in SMTH ('女命得之，多为贵人之妻'; '女命无煞逢二德，可两国之封') and YHZP ('命若有天月德，无产厄血光之患，亦无淫滥之气'). Dissent: 李九萬 in WXJJ says '女命带天月德者，非吉杀也'."
+      },
+      "sources": [
+        "WXJJ",
+        "SMTH",
+        "SFTK",
+        "XJBF",
+        "SOHU-DE",
+        "YHZP"
+      ]
+    },
+    "月德贵人": {
+      "aka": [
+        "月德"
+      ],
+      "bases": [
+        {
+          "base": "month branch",
+          "common": true,
+          "notes": "Keyed to the 三合 group of the birth month."
+        }
+      ],
+      "match": "The stems of the four pillars.",
+      "table": {
+        "子": "壬",
+        "丑": "庚",
+        "寅": "丙",
+        "卯": "甲",
+        "辰": "壬",
+        "巳": "庚",
+        "午": "丙",
+        "未": "甲",
+        "申": "壬",
+        "酉": "庚",
+        "戌": "丙",
+        "亥": "甲"
+      },
+      "table_compact": {
+        "寅午戌": "丙",
+        "申子辰": "壬",
+        "亥卯未": "甲",
+        "巳酉丑": "庚"
+      },
+      "table_rhyme": "正五九月在丙，二六十月在甲，三七十一月在壬，四八十二月在庚 (神白经, in WXJJ); 寅午戌月在丙，申子辰月在壬，亥卯未月在甲，巳酉丑月在庚 (星平会海 via SOHU-DE; SFTK)",
+      "variants": [
+        {
+          "name": "Which pillars count",
+          "sources": [
+            "SOHU-DE"
+          ],
+          "notes": "Same split as 天德: any stem (majority) or the day stem only (minority)."
+        },
+        {
+          "name": "月德合 (companion)",
+          "table": {
+            "寅午戌": "辛",
+            "申子辰": "丁",
+            "亥卯未": "己",
+            "巳酉丑": "乙"
+          },
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "The stem that combines with 月德 (丙辛, 壬丁, 甲己, 庚乙)."
+        },
+        {
+          "name": "月空 (separate star, opposite of 月德)",
+          "table": {
+            "寅午戌": "壬",
+            "亥卯未": "庚",
+            "申子辰": "丙",
+            "巳酉丑": "甲"
+          },
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "SMTH prints '巳酉丑月申', a slip for 甲. WXJJ: '如德在甲，则庚是…互换取之'."
+        },
+        {
+          "name": "Different-system 月德",
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "The 紫微斗数 year-based 月德 ('月德要依巳顺逢') is a different star."
+        }
+      ],
+      "meaning": "'月德者，阴阳同类异位之德也，若人遇之，主学超升，仕官清显' (三命钤, in WXJJ). The month's virtue: it turns calamity into good fortune and favours diligent effort.",
+      "valence": "auspicious",
+      "valence_notes": "Weaker than 天德 (SMTH). It doubles its effect when it sits on 财/官/印.",
+      "gendered": {
+        "male": null,
+        "female": "Same classical statements as 天德 (二德): positive in SMTH and YHZP. 李九萬 (WXJJ) dissents."
+      },
+      "sources": [
+        "WXJJ",
+        "SMTH",
+        "SFTK",
+        "SOHU-DE"
+      ]
+    },
+    "禄神": {
+      "aka": [
+        "禄",
+        "建禄",
+        "日禄",
+        "专禄",
+        "归禄",
+        "十干禄",
+        "临官"
+      ],
+      "bases": [
+        {
+          "base": "day stem",
+          "common": true,
+          "notes": "子平 practice: the day master's 禄. When it is the month branch it is 建禄 (建禄格), when the hour branch 归禄, and when the day pillar sits on it 专禄/日禄 (only 甲寅, 乙卯, 庚申, 辛酉 are possible pillars)."
+        },
+        {
+          "base": "year stem",
+          "common": false,
+          "notes": "古法 禄命: SMTH and WXJJ phrase examples as '甲人' with the year stem. Modern charts may also show the year stem's 禄."
+        }
+      ],
+      "match": "the branches of all four pillars (year, month, day, hour); also luck-pillar and annual branches when reading timing",
+      "table": {
+        "甲": "寅",
+        "乙": "卯",
+        "丙": "巳",
+        "丁": "午",
+        "戊": "巳",
+        "己": "午",
+        "庚": "申",
+        "辛": "酉",
+        "壬": "亥",
+        "癸": "子"
+      },
+      "table_rhyme": "甲禄在寅，乙禄在卯，丙戊禄在巳，丁己禄在午，庚禄在申，辛禄在酉，壬禄在亥，癸禄在子 (林开五命, in WXJJ; SMTH 卷三)",
+      "variants": [
+        {
+          "name": "戊己 placement",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "戊 is lodged in 巳 and 己 in 午 ('巳午乃火旺之乡，子随母得禄之义', i.e. 火土同宫). All sources consulted agree; no rival table was found. 辰戌丑未 never hold 禄 (辰戌 are 魁罡, 丑未 are 天乙's gates)."
+        },
+        {
+          "name": "Grading by the pillar it falls in / 纳音",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "SMTH names the 禄 by the full pillar (e.g. 甲见丙寅 福星禄, 庚寅 破禄, 壬寅 带截路空亡). 破禄: the 禄 clashed or void. 拱禄, 暗禄 and 夹禄 are 格 refinements."
+        }
+      ],
+      "meaning": "'禄，爵禄也，当得势而享，乃谓之禄' (SMTH). Salary, livelihood, and the self-made resource and vitality of the day master.",
+      "valence": "auspicious",
+      "valence_notes": "SMTH: '凡人命带禄，或吉或凶，或贵或贱，未可全靠便为吉论'. It is spoiled by 空亡 and 冲 (破禄). 建禄 in the month is traditionally read as self-made, with little ancestral help.",
+      "gendered": null,
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SC-POP"
+      ]
+    },
+    "驿马": {
+      "aka": [
+        "马",
+        "天马"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "Classical: '寅午戌生人，马在申' (SMTH); '寅午戌生见申字' (SFTK)."
+        },
+        {
+          "base": "day branch",
+          "common": true,
+          "notes": "Modern practice runs it from both the year and the day branch."
+        }
+      ],
+      "match": "The other branches of the chart; triggered by luck and annual branches (SMTH: '以上巳酉丑申年月日时发应').",
+      "table": {
+        "子": "寅",
+        "丑": "亥",
+        "寅": "申",
+        "卯": "巳",
+        "辰": "寅",
+        "巳": "亥",
+        "午": "申",
+        "未": "巳",
+        "申": "寅",
+        "酉": "亥",
+        "戌": "申",
+        "亥": "巳"
+      },
+      "table_compact": {
+        "申子辰": "寅",
+        "寅午戌": "申",
+        "巳酉丑": "亥",
+        "亥卯未": "巳"
+      },
+      "table_rhyme": "申子辰马在寅，寅午戌马在申，巳酉丑马在亥，亥卯未马在巳 (the branch that clashes the group's 长生)",
+      "variants": [
+        {
+          "name": "Position weighting",
+          "sources": [
+            "SMTH"
+          ],
+          "notes": "'时为上贵，日为中贵，月为常庶'. 库马, 旺马 and 生马 are timed to youth, prime and old age."
+        },
+        {
+          "name": "Twelve named horses / conditions",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "蹶蹄 (马 present but the day is void), 折足, 有马无驿 and others. These are refinements; the table itself does not change."
+        }
+      ],
+      "meaning": "'驿马者，三命中发用，喜庆之神…主得官及迁改之喜' (SMTH). Movement, travel, relocation, change of post.",
+      "valence": "mixed",
+      "valence_notes": "Filed under 吉神 (SFTK) and called 喜庆之神 (SMTH), but only when not void or clashed. '贵人马多升擢，常人马多奔波' (SFTK 集说).",
+      "gendered": {
+        "male": null,
+        "female": "Negative in classical female charts: '八字喜贵，不宜驿马咸池'; '咸池遇马，多淫' (YHZP 女命); '贵人乘驿马，决主风尘之美妓' (SMTH 卷七)."
+      },
+      "sources": [
+        "SMTH",
+        "SFTK",
+        "WXJJ",
+        "YHZP"
+      ]
+    },
+    "桃花": {
+      "aka": [
+        "咸池",
+        "桃花煞",
+        "败神",
+        "沐浴"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "Classical: the WXJJ rhyme and SFTK '此以生年上起'."
+        },
+        {
+          "base": "day branch",
+          "common": true,
+          "notes": "SFTK: '或又以日上起'. Modern sources run both bases (IQ-TH, EW-TH)."
+        }
+      ],
+      "match": "The other branches; SFTK: '此杀有在日时上者为紧' (strongest in the day or hour). Annual or luck branches equal to the 桃花 branch are the popular '走桃花' years.",
+      "table": {
+        "子": "酉",
+        "丑": "午",
+        "寅": "卯",
+        "卯": "子",
+        "辰": "酉",
+        "巳": "午",
+        "午": "卯",
+        "未": "子",
+        "申": "酉",
+        "酉": "午",
+        "戌": "卯",
+        "亥": "子"
+      },
+      "table_compact": {
+        "申子辰": "酉",
+        "寅午戌": "卯",
+        "巳酉丑": "午",
+        "亥卯未": "子"
+      },
+      "table_rhyme": "寅午戌兔从茆里出，巳酉丑跃马南方走，申子辰鸡叫乱人伦，亥卯未鼠子当头坐 (popular). WXJJ: 寅午戌兔从苑出，巳酉丑骑马阶中走，申子辰鸡鸣动四邻，亥卯未鼠子惊人睡",
+      "variants": [
+        {
+          "name": "墙内 / 墙外桃花 — three incompatible definitions",
+          "sources": [
+            "IQ-TH",
+            "N163-TH",
+            "EW-TH",
+            "TYG-TH"
+          ],
+          "notes": "(a) By pillar: in the year or month pillar it is 墙内, in the day or hour pillar 墙外 (IQ-TH, N163-TH). This is the most widespread. (b) By base: found from the year branch it is 外/墙外, from the day branch 内/墙内 (EW-TH). (c) A 子午卯酉 day with a 子午卯酉 hour is 墙外 (TYG-TH). None comes from the classics consulted."
+        },
+        {
+          "name": "遍野桃花",
+          "sources": [
+            "YHZP",
+            "SMTH"
+          ],
+          "notes": "子, 午, 卯 and 酉 all present. YHZP: '遍野桃花，一世风流多酒色'. SMTH 女命: '四仲全，乃酒色荒淫之女'."
+        },
+        {
+          "name": "Other stars also called 桃花",
+          "sources": [
+            "SMTH",
+            "TYG-TH"
+          ],
+          "notes": "SMTH: '临官遇劫名桃花煞'. 红艳煞 is a separate day-stem star: in SMTH (Wikisource text) 甲乙午, 丙寅, 丁未, 戊子, 己辰, 庚戌, 辛酉, 壬巳, 癸申; in a 星平会海 rhyme (via TYG-TH) 戊己辰 and 壬子. There is also a 纳音-based 年命桃花. None of these is 咸池."
+        },
+        {
+          "name": "Derivation",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "The 沐浴 position of the 三合 element ('长生第二位沐浴之宫'); '常在劫杀前四辰' (WXJJ)."
+        },
+        {
+          "name": "Skeptic school",
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "张楠 calls 桃花煞 and 八败 as grounds for condemning women '其谬甚矣'."
+        }
+      ],
+      "meaning": "'一名败神，一名桃花煞，其神之奸邪淫鄙，如生旺则美容仪，耽酒色，疏财好欢，破散家业' (SMTH). Sexual allure and charm, with indulgence in wine and sex.",
+      "valence": "inauspicious",
+      "valence_notes": "Classical texts are negative: '咸池非吉煞', '有破无成，非为吉兆，妇人尤忌之' (SMTH). They allow exceptions: '官星桃花，福禄堪夸', '咸池更会日宫，缘妻致富' (YHZP). Modern writers treat it as mixed (charm, popularity).",
+      "gendered": {
+        "male": "SFTK 秘诀: '男子逢之多慷慨'. YHZP: '咸池更会日宫，缘妻致富'.",
+        "female": "'妇人尤忌之' (SMTH). YHZP's women's chapters (滚浪桃花, 伤官桃花 '为妓女命'). SFTK 秘诀: '女人为此逞风情'. 张楠 (SFTK) rejects using it to condemn women."
+      },
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK",
+        "YHZP",
+        "IQ-TH",
+        "EW-TH",
+        "TYG-TH",
+        "N163-TH"
+      ]
+    },
+    "华盖": {
+      "aka": [
+        "华盖星",
+        "墓杀"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "'寅午戌人在戌…' (林开五命, in WXJJ); '寅午戌生见戌字' (SFTK)."
+        },
+        {
+          "base": "day branch",
+          "common": true,
+          "notes": "Modern practice runs both the year and the day branch."
+        }
+      ],
+      "match": "The other branches.",
+      "table": {
+        "子": "辰",
+        "丑": "丑",
+        "寅": "戌",
+        "卯": "未",
+        "辰": "辰",
+        "巳": "丑",
+        "午": "戌",
+        "未": "未",
+        "申": "辰",
+        "酉": "丑",
+        "戌": "戌",
+        "亥": "未"
+      },
+      "table_compact": {
+        "申子辰": "辰",
+        "寅午戌": "戌",
+        "巳酉丑": "丑",
+        "亥卯未": "未"
+      },
+      "table_rhyme": "寅午戌见戌，亥卯未见未，申子辰见辰，巳酉丑见丑 (the 三合 墓库)",
+      "variants": [
+        {
+          "name": "Reading conditions",
+          "sources": [
+            "WXJJ",
+            "SMTH"
+          ],
+          "notes": "Same table everywhere. 华盖 together with 正印 or 夹贵 reads as a scholar or official. Repeated 华盖 (重金重盖) adds rank. With 空亡 it 'suits monks and Taoists'. In the hour or the 胎 it suggests adoption or a concubine-born child (SMTH)."
+        }
+      ],
+      "meaning": "'喻如宝盖…常覆乎大帝之座' (SMTH). Lofty, solitary intelligence drawn to religion, the occult, arts and crafts: '凡人命得华盖，多主孤寡…作僧道艺术论'.",
+      "valence": "mixed",
+      "valence_notes": "WXJJ: '华盖要皆主福', '庇荫之清神'. SMTH 理愚歌: '华盖虽吉亦有妨，或为孽子或孤孀'. SFTK files it under 吉神.",
+      "gendered": null,
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK"
+      ]
+    },
+    "红鸾": {
+      "aka": [
+        "红鸾星"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "'数到当生太岁支' (ZWDS): the birth-year branch. Annual branches are used for marriage timing."
+        }
+      ],
+      "match": "The other branches, and especially annual (流年) branches.",
+      "table": {
+        "子": "卯",
+        "丑": "寅",
+        "寅": "丑",
+        "卯": "子",
+        "辰": "亥",
+        "巳": "戌",
+        "午": "酉",
+        "未": "申",
+        "申": "未",
+        "酉": "午",
+        "戌": "巳",
+        "亥": "辰"
+      },
+      "table_rhyme": "卯上起子逆数之，数到当生太岁支，坐守此宫红鸾位，对宫天喜不差移 (ZWDS); 卯起红鸾逆数通，欲知天喜是相冲 (SFTK)",
+      "variants": [
+        {
+          "name": "Origin",
+          "sources": [
+            "ZWDS",
+            "SFTK",
+            "SMTH"
+          ],
+          "notes": "A 紫微斗数 star brought into BaZi (it appears in SFTK's 吉神类). It is absent from the 三命通会 and 五行精纪 神煞 lists. SMTH 卷六's '红鸾天印' is an unrelated 格 (丙食戊得戊戌…)."
+        },
+        {
+          "name": "Historical echo",
+          "sources": [
+            "WXJJ"
+          ],
+          "notes": "WXJJ's gloss on 珞琭子 by 趙氏 gives a 歲星 sequence (子卯, 丑寅, 寅丑, 辰亥, 巳戌, 午酉, 未申, 申未, 酉午, 戌巳, 亥辰). It matches 红鸾 for 11 of the 12 branches; the 卯 entry reads 辰 where 红鸾 has 子, probably a garble. It may be an earlier form of 红鸾, but this is not established."
+        }
+      ],
+      "meaning": "Romance and marriage: betrothal, weddings and joyful events. '有人命限逢斯到，喜中加喜又无凶' (SFTK).",
+      "valence": "auspicious",
+      "valence_notes": "In 紫微斗数 it turns lustful next to 天姚 or 贪狼 ('加红鸾愈淫', ZWDS 卷一).",
+      "gendered": null,
+      "sources": [
+        "ZWDS",
+        "SFTK"
+      ]
+    },
+    "天喜": {
+      "aka": [
+        "天喜星",
+        "天喜神"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "Modern standard: the branch opposite 红鸾 (ZWDS; SFTK)."
+        },
+        {
+          "base": "month branch (season)",
+          "common": false,
+          "notes": "Classical 子平/禄命 天喜神: by the season of the birth month (SMTH 卷三; WXJJ 广录)."
+        }
+      ],
+      "match": "The other branches; annual branches for timing.",
+      "table": {
+        "子": "酉",
+        "丑": "申",
+        "寅": "未",
+        "卯": "午",
+        "辰": "巳",
+        "巳": "辰",
+        "午": "卯",
+        "未": "寅",
+        "申": "丑",
+        "酉": "子",
+        "戌": "亥",
+        "亥": "戌"
+      },
+      "table_rhyme": "对宫天喜不差移 (ZWDS); 欲知天喜是相冲 (SFTK)",
+      "variants": [
+        {
+          "name": "天喜神 by season (classical BaZi/禄命)",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "table": {
+            "寅": "戌",
+            "卯": "戌",
+            "辰": "戌",
+            "巳": "丑",
+            "午": "丑",
+            "未": "丑",
+            "申": "辰",
+            "酉": "辰",
+            "戌": "辰",
+            "亥": "未",
+            "子": "未",
+            "丑": "未"
+          },
+          "notes": "'春戌夏丑秋辰冬未逢天喜' (广录, in WXJJ); SMTH: '天喜神，春戌(printed 戊)，夏丑，秋辰，冬未，遇者主欢欣'. Keyed to the birth month. Completely different results from the modern table."
+        },
+        {
+          "name": "Selection-calendar 天喜",
+          "sources": [
+            "XJBF"
+          ],
+          "notes": "选择宗镜: 正月戌, 二月亥, 三月子… running forward (the 成日). 通书 uses the seasonal 春戌夏丑秋辰冬未. Both are for choosing dates, not for natal charts."
+        }
+      ],
+      "meaning": "Joy and celebration: weddings, births, promotions ('遇者主欢欣', SMTH).",
+      "valence": "auspicious",
+      "valence_notes": "Paired with 红鸾 as a marriage and happy-event signal.",
+      "gendered": null,
+      "sources": [
+        "ZWDS",
+        "SFTK",
+        "SMTH",
+        "WXJJ",
+        "XJBF"
+      ]
+    },
+    "将星": {
+      "aka": [],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "'寅午戌生见午字' (SFTK)."
+        },
+        {
+          "base": "day branch",
+          "common": true,
+          "notes": "'以年支或日支查其余各支' (SC-POP)."
+        }
+      ],
+      "match": "The other branches.",
+      "table": {
+        "子": "子",
+        "丑": "酉",
+        "寅": "午",
+        "卯": "卯",
+        "辰": "子",
+        "巳": "酉",
+        "午": "午",
+        "未": "卯",
+        "申": "子",
+        "酉": "酉",
+        "戌": "午",
+        "亥": "卯"
+      },
+      "table_compact": {
+        "申子辰": "子",
+        "寅午戌": "午",
+        "巳酉丑": "酉",
+        "亥卯未": "卯"
+      },
+      "table_rhyme": "三合中位谓之将星 (SMTH); 马后二辰是 (WXJJ) — same result",
+      "variants": [
+        {
+          "name": "Equivalent definitions",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "The middle branch of the 三合 (SMTH) is the same as two branches behind 驿马 (WXJJ). 攀鞍 (one branch behind 马) is its companion star."
+        }
+      ],
+      "meaning": "'将星者，如将札中军也' (SMTH). Command, authority and leadership; '将星若用亡神临，为国栋梁臣'.",
+      "valence": "auspicious",
+      "valence_notes": "'善莫善于将星' (凝神子, in WXJJ). It wants other good stars beside it; clashed or dead, it fails.",
+      "gendered": null,
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK",
+        "SC-POP"
+      ]
+    },
+    "羊刃": {
+      "aka": [
+        "阳刃",
+        "刃",
+        "紫暗星"
+      ],
+      "bases": [
+        {
+          "base": "day stem",
+          "common": true,
+          "notes": "子平 阳刃: '甲丙戊庚壬五阳有刃，乙丁己辛癸五阴无刃，故名阳刃' (YHZP; SMTH 卷六; SFTK)."
+        },
+        {
+          "base": "year stem",
+          "common": false,
+          "notes": "古法 羊刃 (禄命): year stem, all ten stems, 禄前一辰 (WXJJ; SMTH 卷三 三车; SOHU-YR)."
+        }
+      ],
+      "match": "the branches of all four pillars (year, month, day, hour); also luck-pillar and annual branches when reading timing. 日刃 = the day pillar sitting on its own 刃 (丙午, 戊午, 壬子).",
+      "table": {
+        "甲": "卯",
+        "乙": null,
+        "丙": "午",
+        "丁": null,
+        "戊": "午",
+        "己": null,
+        "庚": "酉",
+        "辛": null,
+        "壬": "子",
+        "癸": null
+      },
+      "table_rhyme": "禄前一位是也；如甲禄在寅，卯为阳刃 (YHZP)",
+      "variants": [
+        {
+          "name": "古法 禄前一辰 for all ten stems",
+          "change": {
+            "乙": "辰",
+            "丁": "未",
+            "己": "未",
+            "辛": "戌",
+            "癸": "丑"
+          },
+          "sources": [
+            "SMTH",
+            "WXJJ",
+            "SOHU-YR"
+          ],
+          "notes": "SMTH 卷三 (三车): 卯甲, 辰乙, 午丙, 未丁, 酉庚, 戌辛, 子壬, 丑(癸). WXJJ 自刃 lists 丁未, 己未, 癸丑. Keyed to the year stem in 禄命."
+        },
+        {
+          "name": "Modern 帝旺 阴刃",
+          "change": {
+            "乙": "寅",
+            "丁": "巳",
+            "己": "巳",
+            "辛": "申",
+            "癸": "亥"
+          },
+          "sources": [
+            "SOHU-YR"
+          ],
+          "notes": "The yin stem's 帝旺 under the reversed 长生 sequence. Common in modern books and software, but not in any classic consulted. SOHU-YR calls it 谬论."
+        },
+        {
+          "name": "阴刃 (a different star)",
+          "sources": [
+            "SOHU-YR",
+            "WXJJ",
+            "SMTH"
+          ],
+          "notes": "禄后一辰 (e.g. 甲见丑). '阴刃为妨夫之煞，阳刃为兵伤之神' (三命指迷赋); '禄后一辰曰阴刃。男得之妨妻族亲，女得之妨夫族亲' (壶中子 note, in WXJJ and SMTH 卷七)."
+        },
+        {
+          "name": "飞刃 / 伤官-刃",
+          "sources": [
+            "WXJJ",
+            "SMTH"
+          ],
+          "notes": "飞刃 is the branch that clashes 羊刃 (WXJJ). SMTH: '惟见伤官与阳刃同祸，故乙见丙亦谓之刃'."
+        }
+      ],
+      "meaning": "'禄过则刃生…越其分如羊之在刃，言有伤也' (SMTH). Excess force: injury, violence, wilfulness, and martial power when controlled.",
+      "valence": "mixed",
+      "valence_notes": "古法 is negative ('主人眼露性急，凶暴亲近恶党', WXJJ). 子平 calls it '天上之凶星…不可便言凶，大率与七杀相似…杀无刃不显，刃无杀不威' (YHZP): with 七杀 or 官 in control it brings authority.",
+      "gendered": {
+        "male": "Traditionally 羊刃 in the day branch (spouse palace) harms the wife or the marriage ('日逢羊刃，则夫妻反目', 兰台妙选 via SOHU-YR).",
+        "female": "'刑冲羊刃，恶狠无知'; '羊刃冲刑尸不全' (SMTH 卷七 女命). The separate 阴刃 '女命逢之，必为孀妇寡妻' (岳珂 note via SOHU-YR)."
+      },
+      "sources": [
+        "YHZP",
+        "SMTH",
+        "WXJJ",
+        "SFTK",
+        "SOHU-YR"
+      ]
+    },
+    "孤辰": {
+      "aka": [
+        "孤神"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "Birth-year directional group (SMTH, WXJJ 三命纂局, SFTK)."
+        }
+      ],
+      "match": "The other branches; also annual (太岁) branches ('岁星莫犯于孤辰').",
+      "table": {
+        "子": "寅",
+        "丑": "寅",
+        "寅": "巳",
+        "卯": "巳",
+        "辰": "巳",
+        "巳": "申",
+        "午": "申",
+        "未": "申",
+        "申": "亥",
+        "酉": "亥",
+        "戌": "亥",
+        "亥": "寅"
+      },
+      "table_compact": {
+        "亥子丑": "寅",
+        "寅卯辰": "巳",
+        "巳午未": "申",
+        "申酉戌": "亥"
+      },
+      "table_rhyme": "亥子丑人见寅，寅卯辰人见巳，巳午未人见申，申酉戌人见亥",
+      "variants": [
+        {
+          "name": "Construction",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "By the directional group (方), not the 三合: one step forward from the group is 孤, one step back is 寡 ('逐方三位进前一辰为孤，退后一辰为寡'). 三车 rationale: 孤 is the mother element's 绝, 寡 the spouse element's 墓."
+        },
+        {
+          "name": "Exemptions and aggravations",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "'连属不言孤寡' (鬼谷遗文): no 孤寡 reading when the chart is linked or surrounded (e.g. 亥 with both 寅 and 戌). Someone born in a 巳午未 year and in a summer month carries a double 孤寡. 珞琭子: '阳以孤辰为重，阴以寡宿为重'."
+        },
+        {
+          "name": "Base",
+          "sources": [
+            "SMTH",
+            "WXJJ",
+            "SFTK"
+          ],
+          "notes": "The classics compute it from the birth year only (SFTK '照前例推之' on the year-branch row). Day-branch use is not attested in the sources consulted."
+        }
+      ],
+      "meaning": "'幼而无父曰孤' (SMTH). Isolation and estrangement from kin; for men, difficulty marrying or loss of the wife.",
+      "valence": "inauspicious",
+      "valence_notes": "'主形孤骨露，面无和气，不利六亲。生旺稍可，死绝尤甚' (烛神经, in SMTH and WXJJ).",
+      "gendered": {
+        "male": "Primary for men: '男忌孤辰' (常术, in WXJJ); '男命生于妻绝之中而逢孤辰，平生难于婚偶' (王氏, SMTH); '男孤神，他乡之客…孤神切忌男克妇' (SFTK).",
+        "female": "Secondary for women. The classics read 寡宿 as the women's star."
+      },
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK"
+      ]
+    },
+    "寡宿": {
+      "aka": [
+        "寡宿星"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "Birth-year directional group."
+        }
+      ],
+      "match": "The other branches; annual branches ('天年忌逢于寡宿').",
+      "table": {
+        "子": "戌",
+        "丑": "戌",
+        "寅": "丑",
+        "卯": "丑",
+        "辰": "丑",
+        "巳": "辰",
+        "午": "辰",
+        "未": "辰",
+        "申": "未",
+        "酉": "未",
+        "戌": "未",
+        "亥": "戌"
+      },
+      "table_compact": {
+        "亥子丑": "戌",
+        "寅卯辰": "丑",
+        "巳午未": "辰",
+        "申酉戌": "未"
+      },
+      "table_rhyme": "亥子丑人见戌，寅卯辰人见丑，巳午未人见辰，申酉戌人见未",
+      "variants": [
+        {
+          "name": "Construction",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "By the directional group (方), not the 三合: one step forward from the group is 孤, one step back is 寡 ('逐方三位进前一辰为孤，退后一辰为寡'). 三车 rationale: 孤 is the mother element's 绝, 寡 the spouse element's 墓."
+        },
+        {
+          "name": "Exemptions and aggravations",
+          "sources": [
+            "SMTH",
+            "WXJJ"
+          ],
+          "notes": "'连属不言孤寡' (鬼谷遗文): no 孤寡 reading when the chart is linked or surrounded (e.g. 亥 with both 寅 and 戌). Someone born in a 巳午未 year and in a summer month carries a double 孤寡. 珞琭子: '阳以孤辰为重，阴以寡宿为重'."
+        },
+        {
+          "name": "Base",
+          "sources": [
+            "SMTH",
+            "WXJJ",
+            "SFTK"
+          ],
+          "notes": "The classics compute it from the birth year only (SFTK '照前例推之' on the year-branch row). Day-branch use is not attested in the sources consulted."
+        }
+      ],
+      "meaning": "'老而无夫曰寡' (SMTH). Widowhood and solitude; for women, a husband lost or repeated marriages.",
+      "valence": "inauspicious",
+      "valence_notes": "Same 烛神经 text as 孤辰. '空亡更临寡宿，孤独龙钟' (造微赋, in SFTK).",
+      "gendered": {
+        "male": "Secondary for men ('日逢空寡，其妻多致生离', YHZP).",
+        "female": "Primary for women: '女忌寡宿' (常术, in WXJJ); '女命生于夫绝之中而遇寡宿，屡嫁不能偕老' (王氏, SMTH); '女寡宿，异省之妇…寡宿须教女害夫' (SFTK); '更犯寡宿主独宿' (SMTH 卷七)."
+      },
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK",
+        "YHZP"
+      ]
+    },
+    "劫煞": {
+      "aka": [
+        "劫杀",
+        "右弼星 (林开)"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "'申子辰年生见巳字' (SFTK); WXJJ 劫杀例."
+        },
+        {
+          "base": "day branch",
+          "common": true,
+          "notes": "Modern practice runs both."
+        }
+      ],
+      "match": "The other branches; timing by luck and annual branches.",
+      "table": {
+        "子": "巳",
+        "丑": "寅",
+        "寅": "亥",
+        "卯": "申",
+        "辰": "巳",
+        "巳": "寅",
+        "午": "亥",
+        "未": "申",
+        "申": "巳",
+        "酉": "寅",
+        "戌": "亥",
+        "亥": "申"
+      },
+      "table_compact": {
+        "申子辰": "巳",
+        "寅午戌": "亥",
+        "巳酉丑": "寅",
+        "亥卯未": "申"
+      },
+      "table_rhyme": "劫在五行绝处: 水绝巳, 火绝亥, 金绝寅, 木绝申 (SMTH)",
+      "variants": [
+        {
+          "name": "Pairing with 亡神",
+          "sources": [
+            "WXJJ",
+            "SFTK"
+          ],
+          "notes": "劫煞 and 亡神 always clash each other. Both present is 旌旗 (an authority pattern if the chart is strong). '亡劫往来，佛口蛇心之辈' (三车一览, in SFTK)."
+        }
+      ],
+      "meaning": "'劫者，夺也，自外夺之之谓夺' (SMTH). Loss inflicted from outside: robbery, accident, violent calamity.",
+      "valence": "inauspicious",
+      "valence_notes": "'劫煞为灾不可当' — yet '劫神包裹遇官星，主执兵权助圣明' (SMTH). With 贵人 it means strategy and martial virtue (烛神经).",
+      "gendered": null,
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK"
+      ]
+    },
+    "亡神": {
+      "aka": [
+        "官符",
+        "天官符",
+        "破军",
+        "亡身杀",
+        "贯索星"
+      ],
+      "bases": [
+        {
+          "base": "year branch",
+          "common": true,
+          "notes": "'申子辰年生见亥字' (SFTK, as 破军); WXJJ 天官符."
+        },
+        {
+          "base": "day branch",
+          "common": true,
+          "notes": "Modern practice runs both."
+        }
+      ],
+      "match": "The other branches.",
+      "table": {
+        "子": "亥",
+        "丑": "申",
+        "寅": "巳",
+        "卯": "寅",
+        "辰": "亥",
+        "巳": "申",
+        "午": "巳",
+        "未": "寅",
+        "申": "亥",
+        "酉": "申",
+        "戌": "巳",
+        "亥": "寅"
+      },
+      "table_compact": {
+        "申子辰": "亥",
+        "寅午戌": "巳",
+        "巳酉丑": "申",
+        "亥卯未": "寅"
+      },
+      "table_rhyme": "亡在五行临官: 申子辰亥, 寅午戌巳, 巳酉丑申, 亥卯未寅 (SMTH)",
+      "variants": [
+        {
+          "name": "Naming",
+          "sources": [
+            "WXJJ",
+            "SFTK"
+          ],
+          "notes": "Same table under several names: 天官符 (林开五命), 破军 (SFTK), 亡身杀 ('自劫杀数至第七'). 'Seventh from 劫煞' gives the same result as 'clashing 劫煞'."
+        }
+      ],
+      "meaning": "'亡者，失也，自内失之之谓亡' (SMTH). Loss from within: scheming, lawsuits, broken plans, bereavement.",
+      "valence": "inauspicious",
+      "valence_notes": "'至恶之杀，亡神是也' (WXJJ). With 将星 or 贵人 it reverses: '将星若用亡神临，为国栋梁臣' (SMTH); '亡神附禄元化为武曲星' (WXJJ).",
+      "gendered": null,
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK"
+      ]
+    },
+    "空亡": {
+      "aka": [
+        "旬空",
+        "天中",
+        "六甲空亡",
+        "旬中空亡"
+      ],
+      "bases": [
+        {
+          "base": "day pillar",
+          "common": true,
+          "notes": "'此空亡只用生日旬中空亡极紧' (神白经, in WXJJ; also SMTH). Find the day pillar's 旬; its two missing branches are void."
+        },
+        {
+          "base": "year pillar",
+          "common": true,
+          "notes": "Also computed in classical and modern practice. When the year and the day void each other it is 互换空亡, the heaviest case (SMTH, WXJJ)."
+        }
+      ],
+      "match": "The branches of the other pillars (and luck or annual branches). Whatever star or 十神 sits on a void branch is weakened.",
+      "table": {
+        "甲子旬": [
+          "戌",
+          "亥"
+        ],
+        "甲戌旬": [
+          "申",
+          "酉"
+        ],
+        "甲申旬": [
+          "午",
+          "未"
+        ],
+        "甲午旬": [
+          "辰",
+          "巳"
+        ],
+        "甲辰旬": [
+          "寅",
+          "卯"
+        ],
+        "甲寅旬": [
+          "子",
+          "丑"
+        ]
+      },
+      "table_rhyme": "甲子旬中无戌亥，甲戌旬中无申酉，甲申旬中无午未，甲午旬中无辰巳，甲辰旬中无寅卯，甲寅旬中无子丑 (SFTK)",
+      "derivation": "With stem index s (甲=0…癸=9) and branch index b (子=0…亥=11) of the base pillar, the void branches are (b - s + 10) mod 12 and (b - s + 11) mod 12.",
+      "variants": [
+        {
+          "name": "Half-旬 split (林开五命, 穿珠指掌)",
+          "sources": [
+            "WXJJ",
+            "SMTH"
+          ],
+          "notes": "甲子 to 戊辰 are void only at 戌, 己巳 to 癸酉 only at 亥; the same pattern holds for each 旬. 壬戌 is a 'heavy' void, 戊戌 a 'light' one."
+        },
+        {
+          "name": "Yang/yin split (珞琭子)",
+          "sources": [
+            "SMTH"
+          ],
+          "notes": "Yang-stem pillars use the yang void branch, yin-stem pillars the yin one (甲子, 丙寅, 戊辰, 庚午, 壬申 → 戌; 乙丑, 丁卯, 己巳, 辛未, 癸酉 → 亥)."
+        },
+        {
+          "name": "Distinct stars also called 空亡",
+          "sources": [
+            "WP-KW",
+            "WXJJ"
+          ],
+          "notes": "截路空亡 (hour-based; for 甲己 days the 申酉 hours…). 真空亡 and 四大空亡 (纳音-based). 干空亡 and 五鬼空亡. None of these is 旬空."
+        },
+        {
+          "name": "Effect rules",
+          "sources": [
+            "SMTH",
+            "SFTK"
+          ],
+          "notes": "Voiding cuts both ways: '天中一煞，不可全以凶言…恶煞祸聚之地，全要空亡解之' (SMTH). 合 or 冲 can fill a void ('有空亡不宜见合，合则不能空矣'). SFTK 集说: '凡人命内带空亡，一生主聪明'."
+        }
+      ],
+      "meaning": "'以甲旬尽处曰空亡，盖有是位而无禄曰空，有支而无干曰亡' (SMTH). Emptiness: what sits there fails to deliver, whether a good star or a bad one.",
+      "valence": "mixed",
+      "valence_notes": "Bad for 禄, 马, 财, 官 and 贵人. Good for 凶煞. SFTK lists it first among 凶神.",
+      "gendered": {
+        "male": null,
+        "female": "'八字空亡，非寡鹄决是孤鸾' (SMTH 卷七 女命)."
+      },
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK",
+        "WP-KW"
+      ]
+    },
+    "魁罡": {
+      "aka": [
+        "魁罡日",
+        "天罡 (辰)",
+        "河魁 (戌)"
+      ],
+      "bases": [
+        {
+          "base": "day pillar",
+          "common": true,
+          "notes": "魁罡格 is a day-pillar pattern ('此格须叠化重逢日位', SMTH). Several 魁罡 pillars strengthen it ('日位加临者众，必是福', YHZP)."
+        }
+      ],
+      "match": "The day pillar itself. Other pillars only count as reinforcement.",
+      "table": {
+        "day_pillars": [
+          "庚辰",
+          "庚戌",
+          "壬辰",
+          "戊戌"
+        ]
+      },
+      "table_rhyme": "壬辰庚戌与庚辰，戊戌魁罡四座神 (SMTH; SFTK 古歌)",
+      "variants": [
+        {
+          "name": "壬戌 as a fifth day",
+          "sources": [
+            "YHZP",
+            "SMTH"
+          ],
+          "notes": "The YHZP 诗诀 (Wikisource) reads '庚戌庚辰怕官显，壬戌壬辰见财连'. SMTH's version of the same verse reads '戊戌壬辰畏财连'. The prose of both books says four days. Lists that add 壬戌 rest on this verse; treat them as a minority or textual variant."
+        },
+        {
+          "name": "甲辰/甲戌 excluded",
+          "sources": [
+            "SMTH"
+          ],
+          "notes": "'独除甲干，以居干之首，在辰为青龙…有吉而无凶'."
+        },
+        {
+          "name": "Overlap with 日德",
+          "sources": [
+            "SMTH",
+            "YHZP"
+          ],
+          "notes": "庚辰 is both 魁罡 and 日德 (甲寅, 丙辰, 戊辰, 庚辰, 壬戌). SMTH says to judge by the overall structure."
+        },
+        {
+          "name": "Any-pillar flagging",
+          "sources": [],
+          "notes": "Some modern charts mark a 魁罡 pillar in any position. The classical 格 requires the day pillar."
+        },
+        {
+          "name": "Skeptic school",
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "张楠: '此亦子平书之大谬也'."
+        }
+      ],
+      "meaning": "'辰为天罡，戌为河魁，乃阴阳绝灭之地…主为人性格聪明，文章振发，临事果断，秉权好杀' (SMTH). Fierce intelligence and decisiveness, with power to command.",
+      "valence": "mixed",
+      "valence_notes": "Great fortune when repeated and the day master is strong. '一见财官，祸患立至'. Alone and clashed: '必是小人…穷必彻骨' (SMTH, YHZP).",
+      "gendered": {
+        "male": null,
+        "female": "SFTK note: '凡魁罡全更带刑冲者，必主犯刑，女命亦然…若女人则伤夫克子'. Modern lore reads female 魁罡 as hard on the husband."
+      },
+      "sources": [
+        "SMTH",
+        "YHZP",
+        "SFTK"
+      ]
+    },
+    "金舆": {
+      "aka": [
+        "金舆禄",
+        "禄金舆"
+      ],
+      "bases": [
+        {
+          "base": "day stem",
+          "common": true,
+          "notes": "Modern practice: the day master's 禄 plus two branches. SMTH: '生日、生时遇之为佳'."
+        },
+        {
+          "base": "year stem",
+          "common": false,
+          "notes": "Classical examples are keyed to the year ('如甲子人禄在寅，辰为金舆', SMTH; WXJJ)."
+        }
+      ],
+      "match": "the branches of all four pillars (year, month, day, hour); also luck-pillar and annual branches when reading timing",
+      "table": {
+        "甲": "辰",
+        "乙": "巳",
+        "丙": "未",
+        "丁": "申",
+        "戊": "未",
+        "己": "申",
+        "庚": "戌",
+        "辛": "亥",
+        "壬": "丑",
+        "癸": "寅"
+      },
+      "table_rhyme": "禄前二辰号金舆 (紫虚局, in SMTH and WXJJ)",
+      "variants": [
+        {
+          "name": "Three 金舆 (林开五命, in WXJJ)",
+          "sources": [
+            "WXJJ"
+          ],
+          "notes": "禄金舆 is 禄 plus two (the standard table). 命金舆 is the birth-year branch plus two (子生人 见寅). 马金舆 is 驿马 plus two ('驿马前辰居二位，此名金舆', 八字金书). Only 禄金舆 is in common use."
+        },
+        {
+          "name": "Skeptic school",
+          "sources": [
+            "SFTK"
+          ],
+          "notes": "张楠 rejects reading 金舆 as harmful to men ('浪以男人为忌，其谬之甚')."
+        }
+      ],
+      "meaning": "'金舆…譬之君子居官得禄，须坐车以载之…乃禄命之旄旗，三才之节钺，主人性柔貌愿，举止温克' (SMTH). The golden carriage: comfort, rank, gentle manners and a good spouse.",
+      "valence": "auspicious",
+      "valence_notes": "'遇此之人福最殊，偏主聪明多富贵' (紫虚局). It fails when the chart's element is weak ('常格得之，身在无气中生，主作赘').",
+      "gendered": {
+        "male": "'男子得之，多妻妾' (SMTH and 烛神经 in WXJJ). Some folk readings treated this as harmful to men; SFTK rejects that.",
+        "female": "'妇人逢之，不富即贵' (SMTH; 烛神经 in WXJJ)."
+      },
+      "sources": [
+        "SMTH",
+        "WXJJ",
+        "SFTK"
+      ]
+    }
+  }
+}

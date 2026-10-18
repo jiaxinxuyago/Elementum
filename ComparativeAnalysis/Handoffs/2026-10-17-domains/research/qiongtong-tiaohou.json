@@ -1,0 +1,2365 @@
+{
+  "source_notes": "Base text (A) = Wikisource 《穷通宝鉴》 (simplified; full text of 十干分论; the page names no editor — it is the common 穷通宝鉴/栏江网 text in the 余春台 lineage, the one 徐乐吾 calls 穷通宝鉴本). Cross-checked against (B) 古文岛/古诗文网 卷二–卷六, an independent transcription of the same text, and (X) the 徐乐吾 评注本 (《造化元钥评注》: 穷通宝鉴 collated with the 造化元钥抄本, with commentary) as serialised on 大家找 (pages 6079–6210, one page per stem-month). Also compared with (T) the widely copied '十干喜用提要' summary table ('节录於穷通宝鉴和造化元钥', i.e. derived from 徐乐吾) — the list most BaZi apps use — and with (D) a variant summary table (王鸣 blog) and (E) the yi958 note-only version of T. All sources are online transcriptions; none was checked against a print edition. FIELDS: primary = stems the month's own line names as 用 in the book's order (先X次Y / X为君Y为臣 / X为尊 / 专用X; a two-tier 'X为先，Y次之' counts both as primary); secondary = third-tier and support stems (佐/辅/为助/酌用/参用/再次/又次之/亦不可少); conditional = extra key, stems the text uses only in a stated situation or as a fallback (支成X局, X多, 上/下半月, 无X用Y, 姑用) with the condition in Chinese; avoid = stems the text marks 忌/病/嫌/不宜/切忌/为病 (or 合去/困 the 用神) for that month; quote = verbatim snippets from A (simplified, A's own spelling kept, e.g. 耑 = 专, 噼 = 劈, 洩 = 泄, 溼 = 湿; '……' joins separate lines); disagreement = null, or a note starting '[substantive]' (sources differ on which stems are primary or on their order) or '[minor]' (transcription slips, labelling/structure differences, small wording variants); summary_table = extra key, the T list for the cell, for comparison. Where A has no separate paragraph for a month (乙 十二月 mislabelled 十一月; 丁 七–十二月, 戊 正/二月, 己 四–十二月 are given by season), the season rule is applied to each month and X's per-month entry was checked. Month = month branch per 节气 (寅 = 正月 … 丑 = 十二月). D-only differences are listed in the markdown summary, not in cells.",
+  "sources": [
+    "https://zh.wikisource.org/wiki/%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4",
+    "https://m.gushiwen.cn/guwen/book_112f16f9deeb.aspx",
+    "https://m.gushiwen.cn/guwen/bookv_bbc940bfd959.aspx",
+    "https://m.gushiwen.cn/guwen/bookv_ef269d9ba448.aspx",
+    "https://m.gushiwen.cn/guwen/bookv_4d487c9bc133.aspx",
+    "https://m.gushiwen.cn/guwen/bookv_5a069b0a3ca6.aspx",
+    "https://m.gushiwen.cn/guwen/bookv_0c21f7ba5b30.aspx",
+    "https://www.dajiazhao.com/sm/qtbj/",
+    "https://blog.sina.com.cn/s/blog_4a66051f01018z6g.html",
+    "https://blog.sina.com.cn/s/blog_62b4d8cb010169v0.html",
+    "https://www.sina.cn/news/detail/4739154715345105.html",
+    "https://blog.sina.com.cn/s/blog_67cfcf33010312qf.html",
+    "https://bz.yi958.com/Article_6607.html",
+    "https://www.8bei8.com/book/qiongtongbaojian_7.html"
+  ],
+  "table": {
+    "甲": {
+      "寅": {
+        "primary": [
+          "丙",
+          "癸"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "正月甲木，初春尚有余寒，得丙癸逢，富贵双全。癸藏丙透，名寒木向阳，主大富贵。",
+        "disagreement": null,
+        "month": "正月",
+        "conditional": [],
+        "summary_table": "丙癸"
+      },
+      "卯": {
+        "primary": [
+          "庚"
+        ],
+        "secondary": [
+          "戊",
+          "己"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "二月甲木，庚金得所，名阳刃驾杀，可云小贵，异途显达，或主武职，但要财资之。……若见癸水，困了才杀，主为光棍……总之正二月甲木，有庚戊者上命。如有丁透，大富大贵之命也。",
+        "disagreement": "[substantive] 徐乐吾本 (造化元钥评注) adds '正二月甲木一例，木乘旺气，无金必殃，先看庚、次取丁' (庚 then 丁); summary table lists 庚丙丁戊己 (专用庚金，以戊己滋杀为佐，无庚用丙丁泄秀). Wikisource/古文岛 only give 庚 + 财 (戊己) support, with 丁 as the alternative when 庚 is absent; 丙 is not named for 二月.",
+        "month": "二月",
+        "conditional": [
+          {
+            "stem": "丁",
+            "when": "无庚金、有丁透：木火通明，伤官生财"
+          }
+        ],
+        "summary_table": "庚丙丁戊己"
+      },
+      "辰": {
+        "primary": [
+          "庚",
+          "壬"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "三月甲木，木气相竭。先取庚金，次用壬水。……或支成金局，方可用丁，不然，三月无用丁之法。惟有先庚后壬取用。",
+        "disagreement": "[substantive] Summary table (and 王鸣 table) give 庚丁壬 with 丁 second (用庚金必须丁火制之); all three texts (Wikisource, 古文岛, 徐乐吾本 '先取庚，次取壬') say 先庚后壬 and that 三月无用丁之法 unless 支成金局.",
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "丁",
+            "when": "支成金局方可用丁"
+          }
+        ],
+        "summary_table": "庚丁壬"
+      },
+      "巳": {
+        "primary": [
+          "癸",
+          "丁"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [],
+        "quote": "四月甲木退气，丙火司权，先癸后丁。……庚金太多，甲反受病。若得壬水，方配得中和",
+        "disagreement": "[substantive] Summary table orders 癸庚丁 (庚 before 丁); texts say 先癸后丁 with 庚 as support (徐乐吾本: 先癸次丁，又须有庚透); 王鸣 table has 癸丁庚, matching the text.",
+        "month": "四月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "庚金太多，得壬水方配中和"
+          }
+        ],
+        "summary_table": "癸庚丁"
+      },
+      "午": {
+        "primary": [
+          "癸",
+          "丁"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [],
+        "quote": "五月先癸后丁庚金次之。……五六月甲木，木盛先庚，庚盛先丁。五月癸庚两透，为上上之格。",
+        "disagreement": "[substantive] Summary table orders 癸庚丁; text says 先癸后丁、庚金次之 (王鸣 table 癸丁庚 matches the text). The text also allows 木盛先庚.",
+        "month": "五月",
+        "conditional": [
+          {
+            "stem": "丁",
+            "when": "五月乏癸，用丁亦可，宜运行北地"
+          }
+        ],
+        "summary_table": "癸庚丁"
+      },
+      "未": {
+        "primary": [
+          "丁",
+          "庚"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "六月三伏生寒，丁火退气。先丁后庚，无癸亦可。……六月庚丁两透，亦为上上之格。",
+        "disagreement": "[substantive] Summary table gives 癸庚丁 (上半月同五月用癸，下半月用庚丁); the text gives 先丁后庚、无癸亦可 with no 上/下半月 split; 王鸣 table gives 癸丁壬.",
+        "month": "六月",
+        "conditional": [],
+        "summary_table": "癸庚丁"
+      },
+      "申": {
+        "primary": [
+          "丁",
+          "庚"
+        ],
+        "secondary": [],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "七月甲木，丁火为尊，庚金次之，庚金不可少。……若有癸水阻隔，便灭丁火，壬水无碍，且能合丁，但须见戊土，方可制水存火。",
+        "disagreement": "[substantive] Summary table (and 王鸣) give 庚丁壬 with 庚 first (yi958 note: 先用庚，再取丁…无丁用壬); all texts (incl. 徐乐吾本 '总之七月甲木，丁火为尊，庚金次之') put 丁 first.",
+        "month": "七月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "见壬癸水时，须戊土制水存火"
+          }
+        ],
+        "summary_table": "庚丁壬"
+      },
+      "酉": {
+        "primary": [
+          "丁",
+          "丙"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "八月甲木，木囚金旺。丁火为先，次用丙火，庚金再次。……癸水一透，科甲不全。",
+        "disagreement": "[substantive] Summary table (and 王鸣) give 庚丁丙 with 庚 first; all texts say 丁火为先，次用丙火，庚金再次.",
+        "month": "八月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "支成木局、干透比劫：反取庚金为先，次用丁火"
+          }
+        ],
+        "summary_table": "庚丁丙"
+      },
+      "戌": {
+        "primary": [
+          "丁",
+          "癸"
+        ],
+        "secondary": [
+          "壬",
+          "庚",
+          "戊"
+        ],
+        "avoid": [],
+        "quote": "九月甲木，木星凋零，独爱丁火，壬癸滋扶，丁壬癸透，戊己亦透，此命配得中和，可许一榜。庚金得所，科甲定然。……九月甲木，耑用丁癸，见戊透必贵。",
+        "disagreement": "[substantive] Summary table gives 庚甲丁壬癸 (土旺者用甲木，木旺者用庚金，丁壬癸为佐), demoting 丁壬癸 to supports; the text makes 丁 (with 癸/壬) the main use and 庚 indispensable (凡四季甲木，总不外乎庚金); 甲 as a 用 is not in the text.",
+        "month": "九月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "四柱木多：耑用庚金"
+          }
+        ],
+        "summary_table": "庚甲丁壬癸"
+      },
+      "亥": {
+        "primary": [
+          "庚",
+          "丁"
+        ],
+        "secondary": [
+          "丙",
+          "戊"
+        ],
+        "avoid": [
+          "壬"
+        ],
+        "quote": "十月甲木，庚丁为要，丙火次之。忌壬水泛身，须戊土制之。",
+        "disagreement": null,
+        "month": "十月",
+        "conditional": [],
+        "summary_table": "庚丁丙戊"
+      },
+      "子": {
+        "primary": [
+          "丁",
+          "庚"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "十一月甲木，木性生寒，丁先庚后，丙火佐之。癸水司权，为火金之病。",
+        "disagreement": null,
+        "month": "十一月",
+        "conditional": [],
+        "summary_table": "丁庚丙"
+      },
+      "丑": {
+        "primary": [
+          "庚",
+          "丁"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "十二月甲木，天寒气冻，木性极寒，无生发之象，先用庚噼甲，方引丁火始得木火有通明之象，故丁次之。……总之腊月甲木，虽有庚金，丁不可少。乏庚略可，乏丁无用。",
+        "disagreement": "[substantive] Summary table gives 丁庚丙 (丁火必不可少…用庚劈甲引丁) with 丁 first and adds 丙; the text orders 先庚…故丁次之 (while saying 乏丁无用) and names no 丙 (only 徐乐吾's commentary adds 不能无丙解冻).",
+        "month": "十二月",
+        "conditional": [],
+        "summary_table": "丁庚丙"
+      }
+    },
+    "乙": {
+      "寅": {
+        "primary": [
+          "丙",
+          "癸"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "正月乙木，必须用丙，因天气尤有余寒，非丙不暖，虽有癸水，恐凝寒气，故以丙火为先，癸水次之。",
+        "disagreement": null,
+        "month": "正月",
+        "conditional": [],
+        "summary_table": "丙癸"
+      },
+      "卯": {
+        "primary": [
+          "丙",
+          "癸"
+        ],
+        "secondary": [],
+        "avoid": [
+          "庚",
+          "辛"
+        ],
+        "quote": "二月乙木，阳气渐升，木不寒矣，以丙为君，癸为臣，丙癸两透，不透庚金，大富大贵。……活木忌埋根之铁，支下有庚辛，戕贼其根，木则朽矣。",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [],
+        "summary_table": "丙癸"
+      },
+      "辰": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [
+          "己",
+          "庚"
+        ],
+        "quote": "三月乙木，阳气愈炽，先癸后丙。癸丙两透，不见己庚，玉堂之客。……或见水局，丙戊高透，亦主科甲。",
+        "disagreement": null,
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "见水局：丙戊高透"
+          }
+        ],
+        "summary_table": "癸丙戊"
+      },
+      "巳": {
+        "primary": [
+          "癸"
+        ],
+        "secondary": [
+          "丙",
+          "辛",
+          "庚"
+        ],
+        "avoid": [],
+        "quote": "四月乙木，自有丙火，耑取癸水为尊。四月乙木专用癸水，丙火酌用，虽以庚辛佐癸，须辛透为清。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [],
+        "summary_table": "癸"
+      },
+      "午": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "五月乙木，丁火司权，禾稼俱旱。上半月属阳，仍用癸水。下半月属阴，三伏生寒，丙癸齐用。柱多金水，丙火为先，余皆用癸水为先。",
+        "disagreement": null,
+        "month": "五月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "柱多金水：丙火为先"
+          }
+        ],
+        "summary_table": "癸丙"
+      },
+      "未": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [
+          "庚",
+          "辛"
+        ],
+        "avoid": [
+          "戊",
+          "己"
+        ],
+        "quote": "六月乙木，木性且寒，柱多金水，丙火为尊。支成水局，乙得无伤。癸水透干，大富大贵。……用癸水切忌戊己杂乱，则为下格。……总之夏月之乙木，耑用癸水，丙火酌用，庚辛次之。",
+        "disagreement": "[minor] 徐乐吾本 reads 丙癸两透，大富大贵 where Wikisource/古文岛 read 癸水透干，大富大贵; same stems, slightly more weight on 丙.",
+        "month": "六月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "柱多金水：丙火为尊"
+          }
+        ],
+        "summary_table": "癸丙"
+      },
+      "申": {
+        "primary": [
+          "丙",
+          "癸"
+        ],
+        "secondary": [
+          "己"
+        ],
+        "avoid": [],
+        "quote": "三秋乙木，金神司令，先丙后癸……七月喜己土为用，或不见丙癸。己土必不可少",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [],
+        "summary_table": "丙癸己"
+      },
+      "酉": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+        "disagreement": null,
+        "month": "八月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "白露后、秋分前：耑用癸水"
+          },
+          {
+            "stem": "丙",
+            "when": "秋分后：先丙后癸"
+          },
+          {
+            "stem": "丁",
+            "when": "支成金局：宜暗藏丁"
+          },
+          {
+            "stem": "壬",
+            "when": "上半月无癸：姑用壬水"
+          }
+        ],
+        "summary_table": "癸丙丁"
+      },
+      "戌": {
+        "primary": [
+          "癸"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "丙"
+        ],
+        "quote": "九月乙木，根枯叶落，必赖癸水滋养。……若见癸水，又遇辛金发水之源，定主科甲。……惟九月耑用癸水，恐丙暖戊土为病也。",
+        "disagreement": null,
+        "month": "九月",
+        "conditional": [],
+        "summary_table": "癸辛"
+      },
+      "亥": {
+        "primary": [
+          "丙",
+          "戊"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "十月乙木，木不受气，而壬水司令，取丙为用，戊土次之。",
+        "disagreement": "[minor] 徐乐吾本: 丙为尊，或壬多，用戊土 — 戊 only when 壬 is heavy; table 丙戊.",
+        "month": "十月",
+        "conditional": [],
+        "summary_table": "丙戊"
+      },
+      "子": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "十一月乙木，花木寒冻，一阳来复，喜用丙火解冻，则花木有向阳之意，不宜用癸以冻花木，故耑用丙火。",
+        "disagreement": null,
+        "month": "十一月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "壬癸出干：以戊制之"
+          }
+        ],
+        "summary_table": "丙"
+      },
+      "丑": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "十一月乙木，木寒宜丙﹐有寒谷回春之象，得一丙透，无癸出破格，不特科甲，定主名臣显宦。",
+        "disagreement": "[minor] Wikisource and 古文岛 have no 十二月乙木 heading: the 寒谷回春 paragraph is labelled 十一月乙木 (evident slip); 徐乐吾本 has it as 十二月乙木 ('十二月寒木见丙，有回春之意'). Stems agree (专用丙).",
+        "month": "十二月",
+        "conditional": [],
+        "summary_table": "丙"
+      }
+    },
+    "丙": {
+      "寅": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "正月丙火，三阳开泰，火气渐炎，取壬为尊，庚金佐之。……正月之丙，忌戊晦光。",
+        "disagreement": null,
+        "month": "正月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "无壬，癸亦姑用"
+          }
+        ],
+        "summary_table": "壬庚"
+      },
+      "卯": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "庚",
+          "辛"
+        ],
+        "avoid": [
+          "丁"
+        ],
+        "quote": "二月丙火，阳气舒升，耑用壬水。壬透天干，不见丁化，加以庚辛己亦透，壬水有根，定主科甲。……或无壬水，己土姑用",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [
+          {
+            "stem": "己",
+            "when": "无壬水，己土姑用"
+          },
+          {
+            "stem": "戊",
+            "when": "一派壬水：见一戊制"
+          }
+        ],
+        "summary_table": "壬己"
+      },
+      "辰": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [
+          "庚"
+        ],
+        "quote": "三月丙火，气渐炎升，用壬水。或成土局，取甲为辅，壬不可离。壬甲两透，科甲定宜，惟忌庚出制甲……无甲用庚，助壬水洩土气。",
+        "disagreement": null,
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "无甲：用庚助壬水洩土气"
+          }
+        ],
+        "summary_table": "壬甲"
+      },
+      "巳": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "四月丙火，建禄于巳，火势炎炎，宜专用壬水，解炎威之力，成既济之功。……得庚发水源，方为有根之水。壬庚两透，不见戊土",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "无壬水，癸亦姑用"
+          }
+        ],
+        "summary_table": "壬癸庚"
+      },
+      "午": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "戊",
+          "己",
+          "丁"
+        ],
+        "quote": "五月丙火，得壬高透，方为上命。或一壬无庚，亦主贡监，犹防戊己出干，丁壬化合，则为平人。",
+        "disagreement": "[minor] Textual variant: Wikisource 得壬高透; 古文岛 '五月丙火愈炎，得壬庚高透'; 徐乐吾本 '得二壬一庚出干' — the latter two make 庚 co-primary with 壬 (table 壬庚).",
+        "month": "五月",
+        "conditional": [],
+        "summary_table": "壬庚"
+      },
+      "未": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "己",
+          "戊"
+        ],
+        "quote": "六月丙火退气，三伏生寒，壬水为用，取庚辅佐。……见戊制壬，则为乡贤而已。……或己土出干混杂，此必庸夫俗子。",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [],
+        "summary_table": "壬庚"
+      },
+      "申": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "故仍用壬水，辅映光辉。……如壬多，取戊制方妙。",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "壬多：取戊制"
+          }
+        ],
+        "summary_table": "壬戊"
+      },
+      "酉": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [],
+        "avoid": [
+          "戊",
+          "辛"
+        ],
+        "quote": "八月丙火，日近黄昏，丙火之余光，存于光湖，仍用壬水辅映。……或戊多困水则假作斯文。若无壬水，癸亦可用，但功名不久。……或见辛透，不能从化，贫苦到老。",
+        "disagreement": null,
+        "month": "八月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "无壬水：癸亦可用"
+          }
+        ],
+        "summary_table": "壬癸"
+      },
+      "戌": {
+        "primary": [
+          "甲",
+          "壬"
+        ],
+        "secondary": [],
+        "avoid": [
+          "庚",
+          "戊"
+        ],
+        "quote": "九月丙火，火气愈退，所忌土晦光火，必须先用甲木，次取壬水。……或庚戊困了水木，定是庸才。",
+        "disagreement": null,
+        "month": "九月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "无壬水：得癸透干亦可"
+          }
+        ],
+        "summary_table": "甲壬"
+      },
+      "亥": {
+        "primary": [
+          "甲",
+          "戊",
+          "庚"
+        ],
+        "secondary": [
+          "壬"
+        ],
+        "avoid": [],
+        "quote": "十月丙火，太阳失令，得见甲戊庚出干，可云科甲……总之十月丙火，木旺宜庚，水旺宜戊，火旺用壬，随宜酌用可也。",
+        "disagreement": null,
+        "month": "十月",
+        "conditional": [
+          {
+            "stem": "己",
+            "when": "壬多有甲无戊：用己土混壬"
+          }
+        ],
+        "summary_table": "甲戊庚壬"
+      },
+      "子": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "戊"
+        ],
+        "avoid": [],
+        "quote": "十一月丙火，冬至一阳生，弱中复强，壬水为最，戊土佐之。",
+        "disagreement": null,
+        "month": "十一月",
+        "conditional": [
+          {
+            "stem": "己",
+            "when": "无戊见己"
+          },
+          {
+            "stem": "甲",
+            "when": "一派壬而耑用戊土时，须甲木为药"
+          },
+          {
+            "stem": "癸",
+            "when": "无壬水：癸亦可用"
+          }
+        ],
+        "summary_table": "壬戊己"
+      },
+      "丑": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "十二月丙火，气进二阳，侮雪欺霜，喜壬为用。己土司令，土多又不可少甲。",
+        "disagreement": null,
+        "month": "十二月",
+        "conditional": [],
+        "summary_table": "壬甲"
+      }
+    },
+    "丁": {
+      "寅": {
+        "primary": [
+          "庚"
+        ],
+        "secondary": [
+          "壬"
+        ],
+        "avoid": [],
+        "quote": "正月丁火，甲木当权，乃为母旺，非庚不能噼甲，何以引丁，姑用庚金。……总不可无水。水多亦不宜。",
+        "disagreement": "[substantive] Summary table (and 王鸣) list 甲庚 (甲 first; note 用庚金劈甲引丁); Wikisource/古文岛 say 姑用庚金 (甲 is already 月令); 徐乐吾本 says 先庚次壬.",
+        "month": "正月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "得壬化木（丁壬合）"
+          }
+        ],
+        "summary_table": "甲庚"
+      },
+      "卯": {
+        "primary": [
+          "庚",
+          "甲"
+        ],
+        "secondary": [],
+        "avoid": [
+          "乙"
+        ],
+        "quote": "二月丁火，溼乙伤丁，先庚后甲，非庚不能去乙，非甲不能引丁。",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "一派水：须戊制"
+          }
+        ],
+        "summary_table": "庚甲"
+      },
+      "辰": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "三月丁火，戊土司令，洩弱丁气，先用甲木引丁制土，次看庚金。……或支成木局，取庚为先。",
+        "disagreement": null,
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "支成木局：取庚为先"
+          },
+          {
+            "stem": "戊",
+            "when": "支成水局、壬透：戊己两透为救"
+          }
+        ],
+        "summary_table": "甲庚"
+      },
+      "巳": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "四月丁火乘旺，虽取甲引丁，必用庚噼甲。伐甲、方云木火通明。甲多、又取庚为先。但四柱忌见癸水。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "甲多：又取庚为先"
+          },
+          {
+            "stem": "壬",
+            "when": "壬水出干制丙，不夺丁光"
+          }
+        ],
+        "summary_table": "甲庚"
+      },
+      "午": {
+        "primary": [
+          "壬",
+          "庚"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [
+          "戊",
+          "己"
+        ],
+        "quote": "五月丁火，时归建禄，不宜乱用甲木。……或支成火局，干见火出，得庚壬两透者，科甲定然。土透制壬，常人。……得一癸透，名独杀当权，出人头地。",
+        "disagreement": null,
+        "month": "五月",
+        "conditional": [
+          {
+            "stem": "甲",
+            "when": "干支无火局、有水透干：须用甲木，又要庚噼甲"
+          }
+        ],
+        "summary_table": "壬庚癸"
+      },
+      "未": {
+        "primary": [
+          "甲",
+          "壬"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [],
+        "quote": "六月之丁，阴柔退气，但值三伏生寒，丁弱极矣，专取甲木，壬水次之。……无庚不妙。",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [],
+        "summary_table": "甲壬庚"
+      },
+      "申": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [],
+        "quote": "三秋丁火，退气柔弱，耑用甲木，金虽乘旺司权，无伤丁之理，仍取庚噼甲，为引火之物，或借丙暖金晒木……七月甲丙，申中有庚",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [
+          {
+            "stem": "乙",
+            "when": "无甲木：乙亦可用（枯草引灯），须丙晒"
+          },
+          {
+            "stem": "戊",
+            "when": "壬癸多见：以戊土为制"
+          }
+        ],
+        "summary_table": "甲庚丙戊"
+      },
+      "酉": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [],
+        "quote": "八月甲丙庚皆用，七八月或无甲木，乙亦可用，为枯草引灯，却不离丙晒也。",
+        "disagreement": null,
+        "month": "八月",
+        "conditional": [
+          {
+            "stem": "乙",
+            "when": "无甲木：乙亦可用，须丙晒"
+          },
+          {
+            "stem": "戊",
+            "when": "壬癸多见：以戊土为制"
+          }
+        ],
+        "summary_table": "甲庚丙戊"
+      },
+      "戌": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "九月耑用甲庚。……或九月一派戊土，洩丁火之气，不见甲木，为伤官伤尽，非寻常可比。或甲木透出，为文书清贵，秋闱可夺。用甲者，庚不可少。",
+        "disagreement": null,
+        "month": "九月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "一派戊土、不见甲木：伤官伤尽"
+          }
+        ],
+        "summary_table": "甲庚戊"
+      },
+      "亥": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [
+          "戊",
+          "癸"
+        ],
+        "avoid": [
+          "己"
+        ],
+        "quote": "三冬丁火微寒，耑用庚甲。甲乃庚之良友。凡用甲木，庚不可少……见己则否。己多合甲，则为常人。……三冬丁火，甲木为尊，庚金佐之，癸戊权宜酌用可也。",
+        "disagreement": "[minor] Wording/order variant in the 三冬 rule: Wikisource/古文岛 '耑用庚甲。甲乃庚之良友'; 徐乐吾本 '专用甲庚，庚乃甲之良友'. All agree on the conclusion 甲木为尊，庚金佐之 (table 甲庚).",
+        "month": "十月",
+        "conditional": [],
+        "summary_table": "甲庚"
+      },
+      "子": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [
+          "戊",
+          "癸"
+        ],
+        "avoid": [
+          "己"
+        ],
+        "quote": "十一月丁火，或仲冬水多癸旺，全无比印，此作弃命从杀……三冬丁火，甲木为尊，庚金佐之，癸戊权宜酌用可也。",
+        "disagreement": "[minor] Same 三冬 wording variant as 亥 (耑用庚甲 vs 专用甲庚); conclusion 甲尊庚佐 agrees.",
+        "month": "十一月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "仲冬水多癸旺：戊出破癸"
+          }
+        ],
+        "summary_table": "甲庚"
+      },
+      "丑": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [
+          "戊",
+          "癸"
+        ],
+        "avoid": [
+          "己"
+        ],
+        "quote": "三冬丁火，甲木为尊，庚金佐之，癸戊权宜酌用可也。",
+        "disagreement": "[minor] Wikisource/古文岛 have no separate 十二月丁火 paragraph (covered by 三冬丁火); same 庚甲/甲庚 wording variant as 亥; table 甲庚 agrees.",
+        "month": "十二月",
+        "conditional": [],
+        "summary_table": "甲庚"
+      }
+    },
+    "戊": {
+      "寅": {
+        "primary": [
+          "丙",
+          "甲"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "三春戊土，无丙照暖，戊土不生，无甲疏噼，戊土不灵，无癸滋润，万物不长。正二月先丙后甲，癸又次之。",
+        "disagreement": "[minor] 古文岛 drops 甲 ('正二月先丙後，癸又次之') — transcription slip; Wikisource, 徐乐吾本 and the table agree on 丙甲癸.",
+        "month": "正月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "一派甲木、无丙：得一庚透方妙"
+          }
+        ],
+        "summary_table": "丙甲癸"
+      },
+      "卯": {
+        "primary": [
+          "丙",
+          "甲"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "正二月先丙后甲，癸又次之。",
+        "disagreement": "[minor] Same 古文岛 slip as 寅 (drops 甲); other sources agree on 丙甲癸.",
+        "month": "二月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "一派甲木、无丙：得一庚透方妙"
+          }
+        ],
+        "summary_table": "丙甲癸"
+      },
+      "辰": {
+        "primary": [
+          "甲",
+          "丙"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "三月先甲后丙，癸又次之，因戊土司权故也。",
+        "disagreement": null,
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "支成木局、甲乙出干：得一庚透扫除官杀"
+          }
+        ],
+        "summary_table": "甲丙癸"
+      },
+      "巳": {
+        "primary": [
+          "甲"
+        ],
+        "secondary": [
+          "丙",
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "四月戊土，阳气发升，寒气内藏，外实内虚，不畏火炎，无阳气相催，万物不长，故先用甲疏噼，次取丙癸为佐。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [],
+        "summary_table": "甲丙癸"
+      },
+      "午": {
+        "primary": [
+          "壬",
+          "甲"
+        ],
+        "secondary": [
+          "丙",
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "五月戊土，仲夏火炎，先看壬水，次取甲木，丙火酌用，用癸力微。",
+        "disagreement": null,
+        "month": "五月",
+        "conditional": [],
+        "summary_table": "壬甲丙"
+      },
+      "未": {
+        "primary": [
+          "癸",
+          "丙",
+          "甲"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "六月戊土，遇夏干枯，先看癸水，次用丙火甲木。",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [],
+        "summary_table": "癸丙甲"
+      },
+      "申": {
+        "primary": [
+          "丙",
+          "癸"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "七月戊土，阳气渐入，寒气渐出，先丙后癸，甲木次之。",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [
+          {
+            "stem": "甲",
+            "when": "支成水局：取甲洩之"
+          }
+        ],
+        "summary_table": "丙癸甲"
+      },
+      "酉": {
+        "primary": [
+          "丙",
+          "癸"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "八月戊土，金洩身寒，赖丙照暖，喜水滋润，先丙后癸，不必木疏。",
+        "disagreement": null,
+        "month": "八月",
+        "conditional": [],
+        "summary_table": "丙癸"
+      },
+      "戌": {
+        "primary": [
+          "甲",
+          "癸"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [],
+        "quote": "九月戊土当权，不可专用丙，先看甲木，次取癸水，却忌化合。见金先用癸水，后取丙火",
+        "disagreement": "[substantive] Summary table (and 王鸣) order 甲丙癸; all texts (incl. 徐乐吾本 '先看甲木，次取癸水，再取丙火') order 甲癸丙 and say 不可专用丙.",
+        "month": "九月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "见金：先用癸水，后取丙火"
+          }
+        ],
+        "summary_table": "甲丙癸"
+      },
+      "亥": {
+        "primary": [
+          "甲",
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [
+          "庚"
+        ],
+        "quote": "十月戊土，时值小阳，阳气略出，先用甲木，次取丙火。非甲、土不灵。非丙、土不暖……支见庚金，入泮而已。",
+        "disagreement": null,
+        "month": "十月",
+        "conditional": [],
+        "summary_table": "甲丙"
+      },
+      "子": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "十一二月严寒冰冻，丙火为专，甲木为佐。",
+        "disagreement": null,
+        "month": "十一月",
+        "conditional": [],
+        "summary_table": "丙甲"
+      },
+      "丑": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "十一二月严寒冰冻，丙火为专，甲木为佐。",
+        "disagreement": null,
+        "month": "十二月",
+        "conditional": [],
+        "summary_table": "丙甲"
+      }
+    },
+    "己": {
+      "寅": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [
+          "壬"
+        ],
+        "quote": "正月己土，田园犹冻，盖因腊气未除，余寒未退，故丙为尊。得丙照暖，万物自生，忌见壬水，反为己病",
+        "disagreement": null,
+        "month": "正月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "壬多：须戊作堤"
+          },
+          {
+            "stem": "庚",
+            "when": "一派甲木：庚出干"
+          },
+          {
+            "stem": "甲",
+            "when": "一派戊土：甲出制"
+          },
+          {
+            "stem": "丁",
+            "when": "甲多无庚：宜用丁洩"
+          }
+        ],
+        "summary_table": "丙庚甲"
+      },
+      "卯": {
+        "primary": [
+          "甲",
+          "癸"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [
+          "壬"
+        ],
+        "quote": "二月己土，阳气渐升，虽禾稼未成，万物出土，田园未展，先取甲木疏之，忌合。次取癸水润之。甲癸出干，定主科甲，加以一丙出透，势压百僚。一见壬水，微末官职。",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [
+          {
+            "stem": "丁",
+            "when": "支成木局、乙多屈庚：用丁洩之"
+          }
+        ],
+        "summary_table": "甲癸丙"
+      },
+      "辰": {
+        "primary": [
+          "丙",
+          "癸"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [
+          "庚"
+        ],
+        "quote": "三月己土，正栽培禾稼之时，先丙后癸，土暖而润，随用甲疏，三者俱透天干，必官居黄阁。……却以庚金为病。",
+        "disagreement": null,
+        "month": "三月",
+        "conditional": [],
+        "summary_table": "丙癸甲"
+      },
+      "巳": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "三夏己土，杂气才官，禾稼在田，最喜甘沛，取癸为要，次用丙火。……或丙癸两透，又加辛金生癸，此富贵之格，名水火既济，鼎甲之人。却忌戊癸化合。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "有丙无癸：有壬亦可"
+          }
+        ],
+        "summary_table": "癸丙"
+      },
+      "午": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "三夏己土，杂气才官，禾稼在田，最喜甘沛，取癸为要，次用丙火。……却忌戊癸化合。",
+        "disagreement": null,
+        "month": "五月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "有丙无癸：有壬亦可"
+          }
+        ],
+        "summary_table": "癸丙"
+      },
+      "未": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "三夏己土，杂气才官，禾稼在田，最喜甘沛，取癸为要，次用丙火。……却忌戊癸化合。",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "有丙无癸：有壬亦可"
+          }
+        ],
+        "summary_table": "癸丙"
+      },
+      "申": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "须丙火温之，癸水润之，不特此也，且癸能洩金，丙能制金，补土精神，则秋生之物咸茂矣。癸先丙后。……总之，三秋己土，先癸后丙，取辛辅癸。……见戊透者，主遭凶厄且贫。",
+        "disagreement": "[substantive] 癸/丙 order: Wikisource & 古文岛 '癸先丙后…先癸后丙' (徐乐吾本 三秋总论 also '先透癸，次透丙'), but 徐乐吾本's closing line reads '先丙后癸', and the summary table (and 王鸣) give 丙癸.",
+        "month": "七月",
+        "conditional": [],
+        "summary_table": "丙癸"
+      },
+      "酉": {
+        "primary": [
+          "癸",
+          "丙"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "总之，三秋己土，先癸后丙，取辛辅癸。……八月支成金局，无丙丁出救，此人零丁孤苦。",
+        "disagreement": "[substantive] Same 癸/丙 order conflict as 申: texts 先癸后丙 vs 徐乐吾本 closing line and summary table 丙癸.",
+        "month": "八月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "支成金局：丙透丁藏，生己元神"
+          },
+          {
+            "stem": "丁",
+            "when": "支成金局：丙丁出救"
+          }
+        ],
+        "summary_table": "丙癸"
+      },
+      "戌": {
+        "primary": [
+          "甲",
+          "癸",
+          "丙"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "总之，三秋己土，先癸后丙，取辛辅癸。九月土盛，宜甲木疏之，余皆酌用。",
+        "disagreement": "[substantive] Summary table gives 甲丙癸 (九月土盛，宜甲木疏之，次用丙癸); text agrees 甲 comes first but its 三秋 rule is 先癸后丙 (徐乐吾本 closing line 先丙后癸).",
+        "month": "九月",
+        "conditional": [],
+        "summary_table": "甲丙癸"
+      },
+      "亥": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [
+          "癸",
+          "壬"
+        ],
+        "quote": "三冬己土，溼泥寒冻，非丙暖不生，取丙为尊，甲木参酌。戊土癸水不用。惟初冬壬旺，取戊制之。……见壬水出干，为水浸湖田，此人孤苦。",
+        "disagreement": null,
+        "month": "十月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "初冬壬旺：取戊制之"
+          }
+        ],
+        "summary_table": "丙甲戊"
+      },
+      "子": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [
+          "癸",
+          "壬"
+        ],
+        "quote": "三冬己土，溼泥寒冻，非丙暖不生，取丙为尊，甲木参酌。戊土癸水不用。……或多壬水，得戊透制之，此命安然",
+        "disagreement": "[minor] Summary table lists 丙甲戊 for 子/丑 too (壬水太旺取戊土制之); the text reserves 戊 for 初冬壬旺 (亥) or when 壬 is heavy.",
+        "month": "十一月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "多壬水：得戊透制之"
+          },
+          {
+            "stem": "丁",
+            "when": "无丙用丁，但丁不能解冻除寒"
+          }
+        ],
+        "summary_table": "丙甲戊"
+      },
+      "丑": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [
+          "癸",
+          "壬"
+        ],
+        "quote": "三冬己土，溼泥寒冻，非丙暖不生，取丙为尊，甲木参酌。戊土癸水不用。……或一派辛庚，须用丙火，还须丁火为助。",
+        "disagreement": "[minor] Same as 子: table lists 丙甲戊; text uses 戊 only against heavy 壬.",
+        "month": "十二月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "多壬水：得戊透制之"
+          },
+          {
+            "stem": "丁",
+            "when": "一片辛庚：须丙，还须丁火为助"
+          }
+        ],
+        "summary_table": "丙甲戊"
+      }
+    },
+    "庚": {
+      "寅": {
+        "primary": [
+          "丙",
+          "甲"
+        ],
+        "secondary": [
+          "丁"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "正月庚金，木旺之际，有土皆死，不能生金，且金之寒气未除，先用丙暖庚性，又虑土厚埋金，须甲疏洩。……或丙遭癸困，无戊制者亦然。……总之，正月庚金，丙甲为上，丁火次之。",
+        "disagreement": "[substantive] Summary table orders 戊甲壬丙丁 (王鸣 戊甲丙壬丁), putting 戊 first; the text says 先用丙…须甲 (丙甲为上，丁火次之), with 戊 only when 火多 and 壬 only for 支成火局. 徐乐吾本 has 先用丙…次甲 but its summary line reads '用甲为上，丁火次之'.",
+        "month": "正月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "火多则用土"
+          },
+          {
+            "stem": "壬",
+            "when": "支成火局：壬透有根"
+          }
+        ],
+        "summary_table": "戊甲壬丙丁"
+      },
+      "卯": {
+        "primary": [
+          "丁",
+          "甲"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "乙",
+          "戊"
+        ],
+        "quote": "故二月庚金，专用丁火，借甲引丁，借庚噼甲。无丁用丙者，富贵多出于勉强。……乙木虽多，又忌溼乙伤丁……死金嫌盖顶之泥，重见戊土",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "无丁用丙（富贵多出于勉强）"
+          }
+        ],
+        "summary_table": "丁甲庚丙"
+      },
+      "辰": {
+        "primary": [
+          "甲",
+          "丁"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "三月庚金，戊土司令，无生金之理，有埋金之忧，故先甲后丁，不用庚噼甲。三月之庚，土旺金顽，顽金宜丁，旺土须甲",
+        "disagreement": "[minor] 古文岛 reads 得丁甲丙透 where Wikisource reads 得丁甲两透 (transcription variant). 徐乐吾本 phrases the rule as 先用甲疏土，次用丁火煅炼成器. Summary table 甲丁壬癸 folds in the conditional 壬/癸 (支火宜癸，干火宜壬).",
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "支成火局：癸水透"
+          },
+          {
+            "stem": "壬",
+            "when": "丙丁出干：见壬制之"
+          }
+        ],
+        "summary_table": "甲丁壬癸"
+      },
+      "巳": {
+        "primary": [
+          "壬",
+          "戊"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [],
+        "quote": "四月庚金，长生于巳，巳内有戊。丙不镕金，故不畏火炎，丙亦可作用，但先壬水，方得中和……次取戊土，丙火佐之。……四月庚金，须用壬丙戊，但非拘执先后，宜分病用药。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [
+          {
+            "stem": "丁",
+            "when": "支成金局，变弱为强：用丁方妙"
+          }
+        ],
+        "summary_table": "壬戊丙丁"
+      },
+      "午": {
+        "primary": [
+          "壬",
+          "癸"
+        ],
+        "secondary": [],
+        "avoid": [
+          "戊",
+          "己"
+        ],
+        "quote": "五月庚金，丁火旺烈，庚金败地，专用壬水，癸又次之。……切忌戊己透干制水",
+        "disagreement": null,
+        "month": "五月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "支成火局、无壬癸：戊己出干补金洩火"
+          },
+          {
+            "stem": "己",
+            "when": "同上"
+          }
+        ],
+        "summary_table": "壬癸"
+      },
+      "未": {
+        "primary": [
+          "丁",
+          "甲"
+        ],
+        "secondary": [],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "六月庚金，三伏生寒，顽钝极矣，先用丁火，次取甲木。丁甲两透名显身荣，忌癸伤丁。……支会土局，甲先丁后。",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [
+          {
+            "stem": "甲",
+            "when": "支会土局：甲先丁后"
+          }
+        ],
+        "summary_table": "丁甲"
+      },
+      "申": {
+        "primary": [
+          "丁",
+          "甲"
+        ],
+        "secondary": [],
+        "avoid": [
+          "壬",
+          "癸"
+        ],
+        "quote": "七月庚金，刚锐极矣。专用丁火煅炼，次取甲木引丁，故曰：秋金锐锐最为奇，壬癸相逢总不宜",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "支成水局：乏丁用丙"
+          },
+          {
+            "stem": "甲",
+            "when": "支成土局：先甲后丁"
+          }
+        ],
+        "summary_table": "丁甲"
+      },
+      "酉": {
+        "primary": [
+          "丁",
+          "甲"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [],
+        "quote": "八月庚金，刚锐未退，用丁用甲，丙不可少。",
+        "disagreement": null,
+        "month": "八月",
+        "conditional": [],
+        "summary_table": "丁甲丙"
+      },
+      "戌": {
+        "primary": [
+          "甲",
+          "壬"
+        ],
+        "secondary": [],
+        "avoid": [
+          "己"
+        ],
+        "quote": "九月庚金，戊土司令，最怕土厚埋金，宜先用甲疏，后用壬洗，则金自出矣。忌见己土浊壬。",
+        "disagreement": null,
+        "month": "九月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "支成水局：丙透救之"
+          }
+        ],
+        "summary_table": "甲壬"
+      },
+      "亥": {
+        "primary": [
+          "丁",
+          "丙"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "十月庚金，水冷性寒，非丁莫造，非丙不暖。丁甲两透，支无水局，一榜有之。……书曰：水冷金寒爱丙丁。",
+        "disagreement": "[minor] 徐乐吾本: 用丁不离甲木，丁为主，丙甲为佐 (丙 as support rather than co-primary); summary table 丁丙 (甲木辅丁).",
+        "month": "十月",
+        "conditional": [
+          {
+            "stem": "己",
+            "when": "支见亥子：得己出制"
+          }
+        ],
+        "summary_table": "丁丙"
+      },
+      "子": {
+        "primary": [
+          "丁",
+          "甲"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "十一月庚金，天气严寒，仍取丁甲，次取丙火照暖。……若见癸透。一介寒儒。",
+        "disagreement": "[substantive] 徐乐吾本 reads '十一月天气严寒，仍先取丙照' and comments 丙之为用，重於丁甲 (丙 first); Wikisource/古文岛 and the summary table give 丁甲 then 丙.",
+        "month": "十一月",
+        "conditional": [],
+        "summary_table": "丁甲丙"
+      },
+      "丑": {
+        "primary": [
+          "丙",
+          "丁"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "十二月庚金，寒气太重，且多湿泥，愈寒愈冻，先取丙火解冻，次取丁火炼金，甲亦不可少。",
+        "disagreement": null,
+        "month": "十二月",
+        "conditional": [],
+        "summary_table": "丙丁甲"
+      }
+    },
+    "辛": {
+      "寅": {
+        "primary": [
+          "己",
+          "壬"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "甲"
+        ],
+        "quote": "忌甲木司权，辛金失令，取己土为生身之本，欲得辛金发现，全赖壬水之功……故正月辛金，先己后壬。己为君，庚为佐。如用丙火须参看。",
+        "disagreement": null,
+        "month": "正月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "支成水局、不见丙火：得丙照暖"
+          }
+        ],
+        "summary_table": "己壬庚"
+      },
+      "卯": {
+        "primary": [
+          "壬",
+          "甲"
+        ],
+        "secondary": [],
+        "avoid": [
+          "戊",
+          "己"
+        ],
+        "quote": "二月辛金，阳和之际，壬水为尊，见戊己为病。得甲制伏，则辛金不致埋没，壬水不致混浊",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "支成木局洩尽壬水：有庚富贵"
+          },
+          {
+            "stem": "戊",
+            "when": "壬水重重：得戊反吉"
+          }
+        ],
+        "summary_table": "壬甲"
+      },
+      "辰": {
+        "primary": [
+          "壬",
+          "甲"
+        ],
+        "secondary": [],
+        "avoid": [
+          "丙"
+        ],
+        "quote": "三月辛金，戊土司令，辛承正气，母旺子相，先壬后甲。……所忌者丙贪合也",
+        "disagreement": null,
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "月时皆丙争合：癸出干制丙"
+          }
+        ],
+        "summary_table": "壬甲"
+      },
+      "巳": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "甲",
+          "癸"
+        ],
+        "avoid": [
+          "丙",
+          "戊"
+        ],
+        "quote": "四月辛金，时逢首夏，忌丙火之燥烈，喜壬水之洗淘。支成金局，水透出干，有木制戊，名一清澈底，科甲功名。……有戊常人。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [],
+        "summary_table": "壬甲癸"
+      },
+      "午": {
+        "primary": [
+          "壬",
+          "己"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "五月辛金，丁火司权，辛金失令，阴柔之极，不宜煅炼，须己壬兼用……故壬己并用。无壬、癸亦可用。但癸力小。……五月辛金，壬、癸、己、三者皆用。",
+        "disagreement": null,
+        "month": "五月",
+        "conditional": [
+          {
+            "stem": "甲",
+            "when": "水土多见：见甲方妙"
+          },
+          {
+            "stem": "庚",
+            "when": "癸出有庚"
+          }
+        ],
+        "summary_table": "壬己癸"
+      },
+      "未": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "六月辛金，己土当权，辅助太多，恐掩金光，先用壬水，取庚佐之。……但忌戊出，得甲制之，方吉。",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [
+          {
+            "stem": "甲",
+            "when": "戊出：得甲制之（甲须隔位）"
+          }
+        ],
+        "summary_table": "壬庚甲"
+      },
+      "申": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [
+          "甲",
+          "戊"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "七月辛金，壬不在多，故书云：水浅金多，号曰体全之象，壬水为尊，甲戊酌用可也，癸水不可为用。",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [],
+        "summary_table": "壬甲戊"
+      },
+      "酉": {
+        "primary": [
+          "壬"
+        ],
+        "secondary": [],
+        "avoid": [
+          "戊",
+          "己"
+        ],
+        "quote": "八月辛金，当权得令，旺之极矣，专用壬水淘洗……如见戊己，则生扶太过，故以土为病，见甲制土、方妙。无戊、不宜用甲。",
+        "disagreement": null,
+        "month": "八月",
+        "conditional": [
+          {
+            "stem": "甲",
+            "when": "见戊己：甲制土（无戊不宜用甲）"
+          },
+          {
+            "stem": "丁",
+            "when": "支成金局、无壬淘洗：宜用丁"
+          }
+        ],
+        "summary_table": "壬甲"
+      },
+      "戌": {
+        "primary": [
+          "壬",
+          "甲"
+        ],
+        "secondary": [],
+        "avoid": [
+          "戊",
+          "己",
+          "丙",
+          "丁"
+        ],
+        "quote": "九月辛金，戊土司令，母旺子相，须甲疏土，壬洩旺金，先壬后甲。……九月辛金，火土为病，水木为药。",
+        "disagreement": null,
+        "month": "九月",
+        "conditional": [],
+        "summary_table": "壬甲"
+      },
+      "亥": {
+        "primary": [
+          "壬",
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "十月辛金，时值小阳，阳气渐升，寒气将降，先用壬水，次取丙火……十月辛金，先壬后丙，余皆参用。",
+        "disagreement": null,
+        "month": "十月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "壬多：须戊（壬多无戊名辛水汪洋）"
+          }
+        ],
+        "summary_table": "壬丙"
+      },
+      "子": {
+        "primary": [
+          "壬",
+          "丙"
+        ],
+        "secondary": [
+          "戊",
+          "甲"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "十一月辛金，癸水司令，为寒冬雨露，切忌癸出冻金，而困丙火，壬丙两透，不见戊癸，衣锦腰金。……或壬多有戊，丙甲出干者，青云之客。……冬月辛金，须丙温暖方妙。",
+        "disagreement": "[substantive] Summary table (and 王鸣) give 丙戊壬甲 with 丙 first (冬月辛金，不能缺丙火温暖); 徐乐吾's commentary also puts 丙 first (尤以丙火调候为先). The text says 壬丙两透 with no explicit 先/次, so primary keeps the text's order.",
+        "month": "十一月",
+        "conditional": [],
+        "summary_table": "丙戊壬甲"
+      },
+      "丑": {
+        "primary": [
+          "丙",
+          "壬"
+        ],
+        "secondary": [
+          "戊",
+          "己"
+        ],
+        "avoid": [],
+        "quote": "十二月辛金，寒冻之极，先丙后壬，无丙不能解冻，无壬不能洗淘。……十二月辛金，丙先壬后，戊己次之。",
+        "disagreement": null,
+        "month": "十二月",
+        "conditional": [],
+        "summary_table": "丙壬戊己"
+      }
+    },
+    "壬": {
+      "寅": {
+        "primary": [
+          "庚"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [],
+        "quote": "正月壬水，汪洋之象，能并百川之流，然水性柔弱，宜用庚金之源……凡壬日无比肩羊刃者，不必用戊，专用庚金，以丙为佐。",
+        "disagreement": null,
+        "month": "正月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "见比劫：戊透制之"
+          }
+        ],
+        "summary_table": "庚丙戊"
+      },
+      "卯": {
+        "primary": [
+          "戊",
+          "辛"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [],
+        "quote": "二月壬水，寒气初除，有并流之象，不用丙暖，专取戊土辛金。二月壬水，先戊后辛，庚金次之。",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [],
+        "summary_table": "戊辛庚"
+      },
+      "辰": {
+        "primary": [
+          "甲",
+          "庚"
+        ],
+        "secondary": [],
+        "avoid": [],
+        "quote": "三月壬水，戊土司权，恐有推山填海之患，先用甲疏季土，次取庚金。",
+        "disagreement": null,
+        "month": "三月",
+        "conditional": [
+          {
+            "stem": "丙",
+            "when": "水旺多见庚金：须丙制之"
+          },
+          {
+            "stem": "癸",
+            "when": "有癸滋甲"
+          }
+        ],
+        "summary_table": "甲庚"
+      },
+      "巳": {
+        "primary": [
+          "壬",
+          "辛"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [],
+        "quote": "四月壬水，丙火司权，水弱极矣，专取壬水比肩为助，次取辛金发源，且暗合丙火，庚金为佐。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [
+          {
+            "stem": "癸",
+            "when": "癸辛两出、加以甲透：癸代壬为比劫"
+          }
+        ],
+        "summary_table": "壬辛庚癸"
+      },
+      "午": {
+        "primary": [
+          "癸"
+        ],
+        "secondary": [
+          "庚",
+          "辛"
+        ],
+        "avoid": [],
+        "quote": "五月壬水，丁旺壬弱，取癸为用，取庚为佐。无庚不能发水，无癸不能伤丁。五月壬水，辛癸亦可参用",
+        "disagreement": "[substantive] 徐乐吾本 reads '取庚为君，癸为臣' (庚 first); Wikisource/古文岛 read '取癸为用，取庚为佐'; the summary table lists 癸庚辛 but its note says 取庚为源，取癸为佐.",
+        "month": "五月",
+        "conditional": [],
+        "summary_table": "癸庚辛"
+      },
+      "未": {
+        "primary": [
+          "辛",
+          "甲"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "六月壬水，己土当权，丁火退气，先用辛金癸水，次用甲木噼土。六月壬水，先辛后甲，次取癸水。",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [],
+        "summary_table": "辛甲"
+      },
+      "申": {
+        "primary": [
+          "戊"
+        ],
+        "secondary": [
+          "丁"
+        ],
+        "avoid": [
+          "癸"
+        ],
+        "quote": "七月壬水，庚金司令，壬得申之长生，源流自远，转弱为强，专用戊土，次取丁火佐戊制庚。……特忌戊癸化合。",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [],
+        "summary_table": "戊丁"
+      },
+      "酉": {
+        "primary": [
+          "甲"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "八月壬水，辛金司权，正金白水清，忌戊土为病，专用甲木。……八月壬水，专用甲木，庚金次之。",
+        "disagreement": null,
+        "month": "八月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "天干有壬、支见申亥：戊土作用"
+          }
+        ],
+        "summary_table": "甲庚"
+      },
+      "戌": {
+        "primary": [
+          "甲",
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [
+          "己",
+          "庚"
+        ],
+        "quote": "九月壬水，专用甲木，次用丙火。……或一派戊土，无一己庚杂乱，得一甲透时干。玉堂清贵",
+        "disagreement": null,
+        "month": "九月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "水多乏丙：又用戊土"
+          }
+        ],
+        "summary_table": "甲丙"
+      },
+      "亥": {
+        "primary": [
+          "戊",
+          "丙"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "甲"
+        ],
+        "quote": "十月壬水司权，至旺之极，取戊为用……又须庚制甲，不伤戊土……十月壬水、专用戊丙，次取庚金。",
+        "disagreement": null,
+        "month": "十月",
+        "conditional": [],
+        "summary_table": "戊丙庚"
+      },
+      "子": {
+        "primary": [
+          "戊",
+          "丙"
+        ],
+        "secondary": [],
+        "avoid": [
+          "丁"
+        ],
+        "quote": "十一月壬水，阳刃帮身，较前更旺，先取戊土，次用丙火……或丁出时干，名为争合，主名利难成。……十一月壬水，丙戊并用。",
+        "disagreement": null,
+        "month": "十一月",
+        "conditional": [],
+        "summary_table": "戊丙"
+      },
+      "丑": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "丁",
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "上半月癸辛主事，故旺，专用丙火。下半月己土主事，故衰。亦用丙火，甲木佐之。……腊月壬水，先取丙火，丁甲为佐",
+        "disagreement": null,
+        "month": "十二月",
+        "conditional": [
+          {
+            "stem": "甲",
+            "when": "下半月己土主事：甲木佐之"
+          }
+        ],
+        "summary_table": "丙丁甲"
+      }
+    },
+    "癸": {
+      "寅": {
+        "primary": [
+          "辛",
+          "丙"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [],
+        "quote": "正月癸水，值三阳之候，雨露之精，其性至柔，先用辛金，生癸水之源，次用丙火照暖……正月癸水，辛金为主，庚金次之，丙亦不可少。",
+        "disagreement": "[minor] 古文岛 reads '丙亦可少' (drops 不), contradicting Wikisource '丙亦不可少' and the table note 丙不可少 — transcription slip.",
+        "month": "正月",
+        "conditional": [],
+        "summary_table": "辛丙"
+      },
+      "卯": {
+        "primary": [
+          "庚",
+          "辛"
+        ],
+        "secondary": [],
+        "avoid": [
+          "丁"
+        ],
+        "quote": "二月癸水，不刚不柔，乙木司令，洩弱元神，专以庚金为用，辛金次之。庚辛俱透，无丁出干者，贵由科甲。",
+        "disagreement": null,
+        "month": "二月",
+        "conditional": [],
+        "summary_table": "庚辛"
+      },
+      "辰": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "辛",
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "三月癸水，要分清明谷雨。清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。……三月癸水，辛甲皆酌用。",
+        "disagreement": "[minor] 徐乐吾本: '鼓雨后虽用丙火，还宜辛金佐之…若生下半月，丙虽不可少，然必须庚金蓄源' (names 辛/庚 rather than 辛甲); Wikisource/古文岛 and table: 丙辛甲.",
+        "month": "三月",
+        "conditional": [],
+        "summary_table": "丙辛甲"
+      },
+      "巳": {
+        "primary": [
+          "辛"
+        ],
+        "secondary": [
+          "庚"
+        ],
+        "avoid": [
+          "丁"
+        ],
+        "quote": "四月癸水，喜辛金为用，无辛用庚。若辛高透，不见丁火，加以壬透，主科名荣贵……若有丁破格，贫无立锥，有壬可免。",
+        "disagreement": null,
+        "month": "四月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "一派火土：庚壬两透洩制火土"
+          }
+        ],
+        "summary_table": "辛"
+      },
+      "午": {
+        "primary": [
+          "庚",
+          "辛"
+        ],
+        "secondary": [
+          "壬",
+          "癸"
+        ],
+        "avoid": [],
+        "quote": "五月癸水，至弱无根，必须庚辛为生身之本，但丁火司权，金难敌火，安能滋养癸水，宜见比劫，方得辛金之用。五月癸水，庚辛壬参酌并用可也。",
+        "disagreement": null,
+        "month": "五月",
+        "conditional": [],
+        "summary_table": "庚辛壬癸"
+      },
+      "未": {
+        "primary": [
+          "庚",
+          "辛"
+        ],
+        "secondary": [],
+        "avoid": [
+          "丁"
+        ],
+        "quote": "六月癸水，有上下月之分。下半月庚辛有气，上半月庚辛休囚。……所以专用庚辛。如上半月金神衰弱，火气炎烈，宜比劫助身……又忌丁透",
+        "disagreement": null,
+        "month": "六月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "上半月金神衰弱：宜比劫助身"
+          },
+          {
+            "stem": "癸",
+            "when": "上半月：宜比劫助身"
+          }
+        ],
+        "summary_table": "庚辛壬癸"
+      },
+      "申": {
+        "primary": [
+          "丁"
+        ],
+        "secondary": [
+          "甲"
+        ],
+        "avoid": [],
+        "quote": "但庚司令刚锐极矣，必取丁火为用。或丁透有甲，名有燄之火，必主科甲。",
+        "disagreement": null,
+        "month": "七月",
+        "conditional": [],
+        "summary_table": "丁"
+      },
+      "酉": {
+        "primary": [
+          "辛"
+        ],
+        "secondary": [
+          "丙"
+        ],
+        "avoid": [],
+        "quote": "八月癸水，辛金虚灵，非顽金可比，正金白水清，故取辛金为用，丙火佐之。名水暖金温。……八月癸水，丙辛皆用。",
+        "disagreement": "[minor] 古文岛 reads '丙辛怕用' for Wikisource '丙辛皆用' (transcription slip).",
+        "month": "八月",
+        "conditional": [],
+        "summary_table": "辛丙"
+      },
+      "戌": {
+        "primary": [
+          "辛",
+          "甲"
+        ],
+        "secondary": [
+          "癸"
+        ],
+        "avoid": [
+          "戊"
+        ],
+        "quote": "九月癸水，失令无根，戊土司权，剋制太过，专用辛金发水之源，要比肩滋甲制戊方妙。……九月癸水，辛甲并用。",
+        "disagreement": null,
+        "month": "九月",
+        "conditional": [
+          {
+            "stem": "壬",
+            "when": "有甲见壬：颇许衣衿"
+          }
+        ],
+        "summary_table": "辛甲壬癸"
+      },
+      "亥": {
+        "primary": [
+          "庚",
+          "辛"
+        ],
+        "secondary": [],
+        "avoid": [
+          "丁"
+        ],
+        "quote": "十月癸水，旺中有弱，何也？因亥摇木，洩散元神，宜用庚辛为妙。得庚辛两透，不见丁伤者，功名有准。",
+        "disagreement": "[minor] 徐乐吾's commentary argues 亥月 normally takes 丙 for 调候 (与十一月一理共推), using 庚辛 only when 卯未 form a 木局; base text and table give 庚辛 (戊丁 conditional).",
+        "month": "十月",
+        "conditional": [
+          {
+            "stem": "戊",
+            "when": "一派壬水：得戊透"
+          },
+          {
+            "stem": "丁",
+            "when": "一派庚辛：得丁出制"
+          }
+        ],
+        "summary_table": "庚辛戊丁"
+      },
+      "子": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "辛"
+        ],
+        "avoid": [
+          "壬",
+          "癸"
+        ],
+        "quote": "十一月癸水，值冰冻之时，金水无交欢之象，专用丙火解冻，庶不致成冰，又要辛金滋扶，无丙有辛，不妙。……要不见壬癸",
+        "disagreement": "[minor] 古文岛 reads '要不见壬透' (only 壬) where Wikisource reads '要不见壬癸'.",
+        "month": "十一月",
+        "conditional": [],
+        "summary_table": "丙辛"
+      },
+      "丑": {
+        "primary": [
+          "丙"
+        ],
+        "secondary": [
+          "丁"
+        ],
+        "avoid": [],
+        "quote": "十二月癸水，寒极成冰，万物不能舒泰，宜丙火解冻。……有丁出、颇吉。",
+        "disagreement": null,
+        "month": "十二月",
+        "conditional": [
+          {
+            "stem": "庚",
+            "when": "支成火局：庚辛透"
+          },
+          {
+            "stem": "辛",
+            "when": "支成火局：庚辛透"
+          }
+        ],
+        "summary_table": "丙丁"
+      }
+    }
+  }
+}

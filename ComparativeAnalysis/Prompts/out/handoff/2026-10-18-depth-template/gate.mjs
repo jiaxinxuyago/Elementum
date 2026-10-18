@@ -14,7 +14,7 @@ const BUDGET = {
   claim: [5, 16, 1, 1], chapter_at: [22, 45, 2, 2], chapter_inside: [16, 40, 1, 2], chapter_day: [30, 60, 2, 3],
   decade_now: [30, 60, 2, 3], decade_line: [14, 35, 1, 2], year_line: [20, 42, 2, 2], year_bond: [12, 30, 1, 1],
   structure: [22, 50, 2, 3], structure_rule: [18, 45, 2, 2], status: [12, 36, 1, 2], rescue: [12, 30, 1, 1],
-  strongest: [12, 32, 1, 1], missing: [22, 45, 2, 2], season: [30, 60, 2, 3], seen: [9, 22, 1, 1], seen_close: [6, 16, 1, 1],
+  strongest: [12, 32, 1, 1], missing: [22, 45, 2, 2], season: [30, 60, 2, 3], season_need: [14, 32, 1, 1], seen: [9, 22, 1, 1], seen_close: [6, 16, 1, 1],
   bond: [12, 30, 1, 1], bond_none: [12, 30, 1, 1], pattern_bp: [14, 32, 1, 1],
   star_line: [5, 14, 1, 1], star_reading: [35, 65, 2, 3], star_arriving: [20, 45, 2, 2],
 };
@@ -29,7 +29,7 @@ const BAN = [/[—–;]/, /\b(room|verdict|legitimate|institutional|destiny|dest
 const IMP = /^(Let|Keep|Ask|Take|Give|Make|Pick|Choose|Try|Say|Spend|Set|Put|Hand|Allow|Leave|Stop|Start|Go|Do|Don't|Find|Tell|Trust|Show|Read|Write|Call|Sit|Sleep|Eat|Share|Save|Send|Stay|Wait|Hold|Use|Offer|Finish|Listen|Learn|Rest|Step|Speak|Remember|Notice|Look|Watch|Protect|Guard|Build|Fix|Price|Marry|Audit|Name|Hire|Join|Chase|Enter|Accept|Close|Expect|Seek|Avoid|Embrace|Welcome|Beware)\b/;
 const PERSONAS = { 比肩: 'Twin', 劫财: 'Rival', 食神: 'Artisan', 伤官: 'Virtuoso', 偏财: 'Horizon', 正财: 'Steward', 七杀: 'General', 正官: 'Magistrate', 偏印: 'Alchemist', 正印: 'Sage' };
 const GOD_ID = { bijian: '比肩', jiecai: '劫财', shishen: '食神', shangguan: '伤官', piancai: '偏财', zhengcai: '正财', qisha: '七杀', zhengguan: '正官', pianyin: '偏印', zhengyin: '正印' };
-const INVARIANT = /^(chapter_|decade_|year_line|star_|seen|missing)/; // shared by every chart that holds the unit
+const INVARIANT = /^(chapter_|decade_|year_line|star_|seen|missing|season)/; // shared by every chart that holds the unit
 const INSIDE_OPEN = /^(Inside it|Beneath it|Under it|Behind it|Out of sight|In private)\b/;
 const fails = []; const units = C.units || [];
 function check(u) {

@@ -1,0 +1,21 @@
+# Round 8: the engine, the writing plan and the golden templates (owner P6 A)
+
+- **Review page:** https://claude.ai/artifact/J5JMZEioCtMy3x7dadZkVN (`depth-v8.html`). Questions W1–W15.
+- **Nothing is in the app.** The engine lives here (`engine/`), reading the app's calculator. No app file changed.
+- **Engine** (`engine/`):
+  - `chartDepth.js`:
+    - the structure (格局) by the 子平真诠 revealed-stem rule, with formed, under strain or broken and the rescue from the decades;
+    - the branch bonds (刑冲合害) by gate pair and for passing years;
+    - the god profile (seated, hidden, absent);
+    - the flow years.
+  - `stars.js`: the 19 sourced stars (神煞) and the Void, natal and arriving.
+  - `season.js`: the season (调候) from the 穷通宝鉴 table.
+- **Research** (`../research/`), each with every quote, source and variant:
+  - `shensha-rules.json` and `.md`: 19 stars across 三命通会, 五行精纪, 渊海子平, 神峰通考 and 协纪辨方书;
+  - `qiongtong-tiaohou.json` and `.md`: 120 cells, 36 with a disagreement, 18 of them substantive.
+- **Golden templates:** `ComparativeAnalysis/Prompts/out/handoff/2026-10-18-depth-template/template.json`. 70 units, all passing `gate.mjs` there.
+- **Corrections to earlier rounds:**
+  - The golden Blueprint has two god pairings, not three: 食伤生财 was an error.
+  - The General and the Virtuoso are hidden, not missing.
+  - The sourced star rules keep round 5's six golden stars and add the Void on 2026 and 2027.
+- **Build:** `build/eng8r.mjs` computes the engine rows, `build/eng8.mjs` writes the plan and questions, and `build/build-v8.mjs` writes the page. The scripts read from the session scratchpad; copy them back there to rebuild.
