@@ -1,0 +1,133 @@
+<title>Stars Round 9</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=EB+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one review column (the series' look since round 1); the app's cardstock phone sits inside it. */
+:root{
+  --bg:#F2F1EE; --fg:#1E2124; --muted:#5E6369; --line:#D9D7D2; --panel:#FFFFFF; --accent:#33557A; --accentSoft:#E3EAF2; --rec:#2F6B4F; --recSoft:#E2EFE7; --warn:#8A5A12; --warnSoft:#F6ECD9;
+  --paper:#F6F0E1; --card:#FBF7EC; --paperHair:#CDBE9E; --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --gold:#B8962E; --seal:#9E3B2C; --onGold:#FFFFFF;
+  --f-ui:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif; --f-mono:'JetBrains Mono',Consolas,monospace; --f-app:'EB Garamond',Georgia,serif; --f-disp:'Cormorant Garamond',Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15171A;--fg:#E7E8EA;--muted:#A2A7AD;--line:#2D3136;--panel:#1D2024;--accent:#8FB1D6;--accentSoft:#22303F;--rec:#7FC4A0;--recSoft:#1C2F26;--warn:#E0B66A;--warnSoft:#33291A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15171A;--fg:#E7E8EA;--muted:#A2A7AD;--line:#2D3136;--panel:#1D2024;--accent:#8FB1D6;--accentSoft:#22303F;--rec:#7FC4A0;--recSoft:#1C2F26;--warn:#E0B66A;--warnSoft:#33291A;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-ui);font-size:15px;line-height:1.55;margin:0}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 120px}
+h1{font-size:26px;line-height:1.2;margin:0 0 8px;text-wrap:balance}
+h2{font-size:20px;line-height:1.25;margin:44px 0 10px;text-wrap:balance;padding-top:18px;border-top:1px solid var(--line)}
+p{margin:0 0 12px}
+.lede{color:var(--muted)}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14px}
+.note.rec{border-color:var(--rec);background:var(--recSoft)}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0}
+.toc a{font-size:13px;color:var(--accent);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:3px 10px;background:var(--panel)}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:1px 6px;border-radius:99px;border:1px solid var(--rec);color:var(--rec);vertical-align:1px;margin-left:4px}
+.tbl{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:640px}
+th,td{text-align:left;vertical-align:top;padding:7px 8px;border-bottom:1px solid var(--line)}
+th{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+td .zh{color:var(--muted)}
+.phone{background:var(--paper);color:var(--ink);border:1px solid var(--paperHair);border-radius:22px;padding:18px 14px 20px;max-width:420px;margin:14px auto;font-family:var(--f-app);font-size:15.5px;line-height:1.5}
+.phone .ey{font-family:var(--f-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkLight);margin:0 0 4px}
+.phone .ttl{font-family:var(--f-disp);font-weight:600;font-size:24px;line-height:1.15;margin:0 0 6px;text-wrap:balance}
+.phone .sub{font-size:14.5px;color:var(--inkSoft)}
+.grp{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--seal);display:block;margin:16px 2px 2px}
+.starc{background:var(--card);border:1px solid var(--paperHair);border-radius:12px;padding:10px 12px;margin:8px 0}
+.starc .sn{display:inline-block;font-size:13.5px;border-radius:99px;padding:1px 9px;margin:0 6px 4px 0}
+.sn.help{background:var(--gold);color:var(--onGold)}
+.sn.test{border:1px solid var(--inkSoft);color:var(--ink)}
+.sn.come{border:1px dashed var(--gold);color:var(--ink)}
+.starc .zh{font-size:12.5px;color:var(--inkLight)}
+.wh,.wh2{display:block;font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--inkLight);margin:0 0 2px}
+.wh2{color:var(--seal);margin-top:6px}
+.one{font-family:var(--f-disp);font-weight:600;font-size:17px;line-height:1.25;margin:2px 0 6px}
+.unit{margin:6px 0 4px}
+.unit p{margin:0}
+.key{display:block;font-family:var(--f-mono);font-size:9.5px;color:var(--inkLight);margin-top:3px;word-break:break-word}
+.ba{border-left:2px solid var(--paperHair);padding-left:9px;margin:4px 0}
+.bl{display:block;font-family:var(--f-mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--inkLight)}
+.bl.rec{color:var(--rec);margin-top:4px}
+.was{color:var(--inkLight);text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:var(--paperHair);margin:0}
+.mono{font-family:var(--f-mono);font-size:11px;letter-spacing:.04em}
+.dr{font-family:var(--f-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--seal);text-decoration:none;display:inline-block;margin-left:4px}
+.vnote{border:1px dashed var(--rec);border-radius:8px;padding:6px 8px;margin-top:8px;font-size:14.5px}
+.vnote p{margin:0}
+.yrs{margin-top:8px}
+.yr{border-top:1px solid var(--paperHair);padding:8px 0 2px}
+.yh{font-family:var(--f-disp);font-weight:600;font-size:17px;margin:0}
+.pending{font-size:14px;color:var(--inkSoft);border:1px dashed var(--paperHair);border-radius:10px;padding:8px 10px;margin:12px 0 0}
+.newc{outline:2px dashed var(--rec);outline-offset:2px}
+.q{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:12px 0}
+.q h4{margin:0 0 8px;font-size:15px;line-height:1.35}
+.qid{font-family:var(--f-mono);font-size:11px;color:var(--accent);margin-right:6px}
+.zh2{font-weight:500;margin-right:4px}
+.grpl{font-weight:400;color:var(--muted);font-size:12.5px;margin-left:4px}
+.why{font-size:13.5px;color:var(--muted)}
+.opt{display:flex;gap:9px;align-items:flex-start;padding:7px 8px;border:1px solid var(--line);border-radius:9px;margin:6px 0;cursor:pointer}
+.opt input{margin-top:4px;flex:none}
+.opt span{min-width:0}
+.opt:has(input:checked){border-color:var(--accent);background:var(--accentSoft)}
+.opt:focus-within{outline:2px solid var(--accent);outline-offset:1px}
+.opt small{display:block;color:var(--muted);font-size:13px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--panel);border-top:1px solid var(--line);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar output{font-family:var(--f-mono);font-size:12px;flex:1 1 220px;min-width:0;word-break:break-word;max-height:4.6em;overflow:auto}
+button{font:inherit;font-weight:600;font-size:14px;background:var(--accent);color:var(--bg);border:0;border-radius:9px;padding:8px 14px;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+</style>
+<div class="wrap">
+<p class="eyebrow">Elementum · Stars 神煞 · round 9</p>
+<h1>Names, framing and samples for the Stars</h1>
+<p class="lede">The Stars page is built on the dev site and runs on draft lines for most stars. Before the corpus is written, three things need your rulings: the 18 English names, how each hard star is framed, and ten questions about the page. The three charts below show every card as the app prints it today, struck through, with the after text under it. Every after text passes the depth gate.</p>
+<div class="toc"><a href="#names">Names</a><a href="#framing">Hard stars</a><a href="#golden">Golden chart</a><a href="#chartb">Chart B</a><a href="#chartc">Chart C</a><a href="#questions">Page questions</a><a href="#plan">Writing plan</a></div>
+<div class="note rec"><b>My recommendation.</b> Answer A on every row. Two of them change a working name: the Hidden Spirit for 亡神 (N14) and the Hermit Star for 寡宿 (N16). One changes the calculator: the Virtue stars count on the day stem (S5). The Ram’s Edge is already ruled (D6).</div>
+
+<h2 id="names">1 · The names</h2>
+<p>English name first, 汉字 beside it on every card (D5). The chip shows the English.</p>
+{{NAMES}}
+
+<h2 id="framing">2 · How a hard star is said</h2>
+<p>The classics read these stars as robbery, wounds, bereavement and widowhood, and several read them differently “in a woman’s chart”. None of that reaches the text (G1, G2). Each reading names a plain cost, the want under it, and what carries the reader (BIZ_04). The mixed stars follow the same pattern, with the price inside the gift.</p>
+<div class="tbl"><table><thead><tr><th>Star</th><th>The classics say</th><th>Never in the text</th><th>The cost, said plainly</th><th>The want</th><th>What carries you</th></tr></thead><tbody>{{FRAME_ROWS}}</tbody></table></div>
+{{FRAME_Q}}
+
+<h2 id="golden">3 · The golden chart</h2>
+<p>乙亥 庚辰 庚寅 乙酉, age 31, Seeker and Advisor. Almost every unit here is already written and gated. Two things change: the Robbery Star’s chip line becomes tense-free (S7), and two year stars get real text. The other draft year lines are written with the batch.</p>
+{{GOLDEN}}
+
+<h2 id="chartb">4 · Chart B</h2>
+<p>庚午 乙酉 乙酉 己卯, age 36, in the Home Chapter. Eight stars, most of them drafts today. The Red Phoenix and Peach Blossom each sit in two gates (S3). Peach Blossom sits on the Void in the Year Gate (S4).</p>
+{{B}}
+
+<h2 id="chartc">5 · Chart C</h2>
+<p>壬申 乙巳 辛丑, birth hour unknown, age 34, in the Rising Chapter. The Robbery Star sits on the Void in the Month Gate (S4). The card outlined in green appears only if you rule S5 A.</p>
+{{C}}
+
+<h2 id="questions">6 · The page</h2>
+{{STRUCT_Q}}
+
+<h2 id="plan">7 · The writing plan, if every row is A</h2>
+<div class="tbl"><table style="min-width:520px"><thead><tr><th>Unit</th><th>Key</th><th class="num">Units</th><th class="num">Written</th><th class="num">Words</th><th>Tier</th></tr></thead><tbody>
+<tr><td>Chip line</td><td class="key">STAR · line</td><td class="num">19</td><td class="num">6</td><td class="num">5–14</td><td>Free</td></tr>
+<tr><td>Arriving chip line</td><td class="key">STAR · line.arriving</td><td class="num">18</td><td class="num">2</td><td class="num">5–14</td><td>Seeker</td></tr>
+<tr><td>Reading by gate and tense</td><td class="key">STAR · reading.&lt;gate&gt;.&lt;tense&gt;</td><td class="num">172</td><td class="num">7</td><td class="num">35–65</td><td>Seeker</td></tr>
+<tr><td>Arriving with a decade</td><td class="key">STAR · arriving.decade.now|coming</td><td class="num">36</td><td class="num">2</td><td class="num">20–45</td><td>Seeker</td></tr>
+<tr><td>Arriving with a year</td><td class="key">STAR · arriving.year</td><td class="num">18</td><td class="num">2</td><td class="num">20–45</td><td>Advisor</td></tr>
+<tr><td>Void note (S4)</td><td class="key">TEMPLATED tpl_depth · star_void.help|test</td><td class="num">2</td><td class="num">0</td><td class="num">5–14</td><td>Seeker</td></tr>
+<tr><td><b>Total</b></td><td></td><td class="num"><b>265</b></td><td class="num"><b>19</b></td><td></td><td></td></tr>
+</tbody></table></div>
+<p class="lede">The Dipper Star never arrives (it is the day pillar itself), so 18 stars arrive, not 19. The reading count follows the gates each star can sit in: a star never lights its own base (W13), and a gate is written in every tense a reader can be in (S8). After the rulings, sealed writers write the batch against an extended gate. It lands in a new STAR station axis with its own content module, and then goes through the audit and the dev site. Going live stays your call.</p>
+</div>
+<div class="bar"><output id="out">Pick an option on each row. Your codes collect here.</output><button id="copy" type="button">Copy answers</button><button id="allA" type="button" class="ghost">Fill unanswered with A</button></div>
+<script>
+const IDS={{IDS}};
+const out=document.getElementById('out');
+function code(){const a=[];for(const id of IDS){const c=document.querySelector(`input[name="${id}"]:checked`);if(c)a.push(id+' '+c.value);}
+  out.textContent=a.length?`${a.length}/${IDS.length} · `+a.join(', '):'Pick an option on each row. Your codes collect here.';return a.join(', ');}
+document.addEventListener('change',code);
+document.getElementById('allA').onclick=()=>{for(const id of IDS){if(!document.querySelector(`input[name="${id}"]:checked`)){const el=document.getElementById(id+'A');if(el)el.checked=true;}}code();};
+document.getElementById('copy').onclick=async()=>{const t=code();try{await navigator.clipboard.writeText(t);out.textContent='Copied · '+t;}catch(e){const r=document.createRange();r.selectNodeContents(out);const s=getSelection();s.removeAllRanges();s.addRange(r);}};
+code();
+</script>

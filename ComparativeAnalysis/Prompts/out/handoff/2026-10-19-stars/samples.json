@@ -1,0 +1,202 @@
+{
+ "units": [
+  {
+   "page": "golden",
+   "key": "STAR jiesha · line",
+   "kind": "star_line",
+   "text": "You guard what is yours faster than most."
+  },
+  {
+   "page": "golden",
+   "key": "STAR jiangxing · arriving.year",
+   "kind": "star_arriving",
+   "text": "This year people turn to you to lead, a project or a team that needs someone to decide. You take the lead before anyone offers it, and most of them follow you."
+  },
+  {
+   "page": "golden",
+   "key": "STAR huagai · arriving.year",
+   "kind": "star_arriving",
+   "text": "This year pulls you inward, toward a subject or a craft you want to understand alone. You turn down more plans than usual, and you come out of it knowing one thing deeply."
+  },
+  {
+   "page": "B",
+   "key": "STAR yuede · line",
+   "kind": "star_line",
+   "text": "Trouble that reaches you turns into something you can use."
+  },
+  {
+   "page": "B",
+   "key": "STAR yuede · reading.year.lived",
+   "kind": "star_reading",
+   "text": "Your first home met its troubles and came through them, and each setback of those years left you holding something useful. You learned early that a bad turn could be worked into a good one. You still look for the gain inside a loss before you count the cost."
+  },
+  {
+   "page": "B",
+   "key": "STAR jiangxing · line",
+   "kind": "star_line",
+   "text": "People fall in behind you without being asked."
+  },
+  {
+   "page": "B",
+   "key": "STAR jiangxing · reading.month.lived",
+   "kind": "star_reading",
+   "text": "Through your Rising Chapter people fell in behind you at work and in study, often before you had asked them to. You were handed the lead in groups more often than your title explained. You still take charge of a group by instinct, and you step in the moment a group stalls."
+  },
+  {
+   "page": "B",
+   "key": "STAR hongluan · reading.month.lived",
+   "kind": "star_reading",
+   "text": "Your Rising Chapter carried more attraction than you planned for, much of it through work and study and the circles those years brought. You were noticed more than you noticed, and you kept at least one feeling from those years to yourself."
+  },
+  {
+   "page": "B",
+   "key": "STAR hongluan · reading.day.now",
+   "kind": "star_reading",
+   "text": "Your Home Chapter opens with attraction running high, and the closest relationship of your life takes on a warmth the years before it lacked. Since your mid-thirties people have been drawn to you at home as much as at work. You are wanted more openly now, and you let yourself enjoy it."
+  },
+  {
+   "page": "B",
+   "key": "STAR lu · line",
+   "kind": "star_line",
+   "text": "A living that rests on your own skill."
+  },
+  {
+   "page": "B",
+   "key": "STAR lu · reading.hour.coming",
+   "kind": "star_reading",
+   "text": "From your late forties your livelihood rests more on your own skill than on any employer. The work you know best keeps paying you, and the people after you watch you stand on your own feet. You keep your independence longer than most, and you are proud of how you earned it."
+  },
+  {
+   "page": "B",
+   "key": "STAR tianxi · line",
+   "kind": "star_line",
+   "text": "Good news and gatherings find their way to you."
+  },
+  {
+   "page": "B",
+   "key": "STAR tianxi · reading.hour.coming",
+   "kind": "star_reading",
+   "text": "From your late forties your calendar fills with gatherings, with children or younger friends giving you reasons to celebrate. Good news reaches you through others more often than through your own plans. You become the person a family or a team gathers around, and you enjoy the noise more than you expect."
+  },
+  {
+   "page": "B",
+   "key": "STAR taohua · line",
+   "kind": "star_line",
+   "text": "Charm that draws people in, and draws them close."
+  },
+  {
+   "page": "B",
+   "key": "STAR taohua · reading.year.lived",
+   "kind": "star_reading",
+   "text": "Your first home was a lively one, full of visitors and attention, and you learned young how to be liked. You were easy to notice as a child and harder to keep track of. You still know how to win a stranger over, and you learned it before you knew it was a skill."
+  },
+  {
+   "page": "B",
+   "key": "STAR taohua · reading.hour.coming",
+   "kind": "star_reading",
+   "text": "From your late forties your charm holds when others expect it to fade, and new people keep arriving in your life. The people after you bring their friends home because of you. You draw more attention in those years than you ask for, and you decide with care who gets close."
+  },
+  {
+   "page": "B",
+   "key": "STAR kongwang · line",
+   "kind": "star_line",
+   "text": "What sits here arrives late, or lighter than promised."
+  },
+  {
+   "page": "B",
+   "key": "STAR kongwang · reading.year.lived",
+   "kind": "star_reading",
+   "text": "Some of what your first home promised arrived late or arrived lighter than it sounded, a plan or a support you were counting on. You learned to make do with half of what was offered. You still trust what is already in your hands more than anything you are told is coming."
+  },
+  {
+   "page": "B",
+   "key": "TEMPLATED tpl_depth · star_void.help",
+   "kind": "star_line",
+   "text": "This star sits on your Void, and you meet its gift late and light."
+  },
+  {
+   "page": "B",
+   "key": "STAR huagai · line.arriving",
+   "kind": "star_line",
+   "text": "This decade draws you inward, toward study and depth."
+  },
+  {
+   "page": "B",
+   "key": "STAR huagai · arriving.decade.coming",
+   "kind": "star_arriving",
+   "text": "In this decade you pull back from the crowd toward study, a craft or a private faith of your own. Fewer people understand what you are working on, and you mind less than you thought you would."
+  },
+  {
+   "page": "C",
+   "key": "STAR tianxi · reading.day.coming",
+   "kind": "star_reading",
+   "text": "From your mid-thirties your home becomes a place of celebrations, and a partner brings good news into it more than once. The closest relationship of your life starts on a happy note. You gather people at your own table in these years, and you like the life you host."
+  },
+  {
+   "page": "C",
+   "key": "STAR tiande · reading.day.coming",
+   "kind": "star_reading",
+   "text": "From your mid-thirties trouble passes through your home more lightly than it passes through other homes. A bad turn for a partner or for you softens before it reaches full size. You come through hard seasons with less damage than the people around you, and you notice it."
+  },
+  {
+   "page": "C",
+   "key": "STAR jiesha · reading.month.now",
+   "kind": "star_reading",
+   "text": "Your Rising Chapter asks you to guard your work, because ideas and credit and chances can be taken from you without warning. You have lost at least one thing you built to someone quicker. You check the locks on your work before you show it now, and you lose less each time."
+  },
+  {
+   "page": "C",
+   "key": "TEMPLATED tpl_depth · star_void.test",
+   "kind": "star_line",
+   "text": "This star sits on your Void, and you meet its test late and light."
+  },
+  {
+   "page": "C",
+   "key": "STAR wangshen · reading.year.lived",
+   "kind": "star_reading",
+   "text": "As a child you kept a part of yourself out of sight, thoughts and plans your first home never heard about. You learned to be two people at once, the one at the table and the one inside. You still show a careful face first, and you decide later who sees the rest."
+  },
+  {
+   "page": "C",
+   "key": "STAR kongwang · reading.month.now",
+   "kind": "star_reading",
+   "text": "In your Rising Chapter some of what you push for comes back empty or comes back late, a title that waits or an offer that goes quiet. You have learned to keep working without the answer. Your effort here pays out later than it should, and you keep more of it than it looks."
+  },
+  {
+   "page": "C",
+   "key": "STAR yima · line.arriving",
+   "kind": "star_line",
+   "text": "This decade keeps you moving, between places and roles."
+  },
+  {
+   "page": "C",
+   "key": "STAR yima · arriving.decade.now",
+   "kind": "star_arriving",
+   "text": "This decade keeps you on the move, a new city or a new role or a long commute between two lives. You settle less than you planned, and you gain more from the motion than you lose to it."
+  },
+  {
+   "page": "C",
+   "key": "STAR tiande · line.arriving",
+   "kind": "star_line",
+   "text": "This decade softens the trouble that reaches you."
+  },
+  {
+   "page": "C",
+   "key": "STAR tiande · arriving.decade.coming",
+   "kind": "star_arriving",
+   "text": "In this decade trouble reaches you softened, and setbacks that knock others over only slow you down. You come through these years with more of what you built still standing than you expect."
+  },
+  {
+   "page": "C",
+   "key": "STAR hongluan · arriving.year",
+   "kind": "star_arriving",
+   "text": "This year someone new catches your attention, or an old feeling comes back warmer than before. You are noticed more than usual, and you find it harder than usual to hide that you noticed back."
+  },
+  {
+   "page": "C",
+   "key": "STAR guasu · arriving.year",
+   "kind": "star_arriving",
+   "text": "This year you spend more evenings in your own company than you planned, by choice more than by chance. The quiet costs you some invitations, and you come out of it clearer about who you miss."
+  }
+ ]
+}
