@@ -55,6 +55,11 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 
 ## DOM — the Domain reading, a new pricing tier (owner 2026-10-17)
 
+### EVT-1 · The event signature system (the Today tab) 🔄 DESIGN, AWAITING RULINGS
+**Status 2026-10-19:** round 1 design on https://claude.ai/artifact/Rtixt7at5a6gTSre7ZhEhs (13 questions, N1 to F1). Nothing built yet. Record: `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/03_RULINGS.md`. Owner session: session_01CtFpHCUsMdTUYosYF5mHoy (owns `TodayScreen`, `DayPage`, `MonthPage`, `YearPage`, `engine/temporal.js`, `content/dailyGuidance.js`, `infra/push.js`, `workers/push`).
+- **Next:** the owner's rulings, then golden templates of each new unit kind, then the build behind `IS_DEV_TOOLS` and the batch through the station.
+- **Finding for the owner (F1):** the calculator's solar-term dates drift a day in many years; a calculator change alters existing readers' charts, so it waits for a ruling.
+
 ### DOM-1 · The "who runs it" layer → the Domain reading 🔄 IN PROGRESS (owner rulings round 1, 2026-10-17: Q1–Q15 A; record `ComparativeAnalysis/Handoffs/2026-10-17-domains/03_RULINGS.md`; golden template awaiting the owner's read)
 **Status 2026-10-18 (round 8, owner B1–B4):** the four in-depth sections are on the dev site only, behind `DEPTH_V1 = IS_DEV_TOOLS` in `JourneyStage.jsx`. The sections are Domains By position, Life Chapters with the years, Stars and the Energy Blueprint. elementum.life is unchanged.
 - **Engine:** `src/engine/depth/`, golden-checked by `tools/qa-depth-golden.mjs`.
