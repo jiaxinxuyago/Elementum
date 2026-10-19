@@ -74,6 +74,16 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 (The design is ruled: domain first, a chart-wide hub, three steps, a domain-only prediction law, WHO RUNS IT retired to ore, the domain sheet and its price retired (S1 closed), D2 fixed in full when it lands.)
 The owner's framing (2026-10-17): "Who runs it layer is a major Domain reading task, which is related to ten-god positioning and a new reading section to a new pricing tier, we will move on to that in a new session after five energy function readings in free tier are sorted out." Starting point: the WHO RUNS IT accordion on the element page (persona, defline, "Runs your …" line, three god-flavoured domain chips from `GOD_DOMAINS`, and 150 `K2_CELLS[*].domain_readings` behind the Seeker tier) predates the canonical ruling domains of 2026-10-15 (`GOD_RULING_DOMAINS`, used by THE EDGE) and the v0.7 voice. Open rulings: re-key the readings to the canonical domains, retire them for the seat readings, or rebuild the layer as the new tier's Domain reading with ten-god positioning. Gate: the final content audit of the function pages closed (`ComparativeAnalysis/Evaluations/final-audit-2026-10-17/`). Pointers: `Reading/Database/Prompts/backlog/2026-10-15_god-ruling-domains.md`, `Elementum_App/src/content/k2.js` (GOD_DOMAINS, domain_readings), `JourneyStage.jsx` (the WHO RUNS IT block).
 
+## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
+
+### DM-2 · The merged reading 🔄 DESIGN RULED, BUILD AWAITING GO-AHEAD
+The catalogue and the Day Master page merge into one page, "Your reading" (option 1, 2026-10-18). The first reading's eight cards come after the Naming, then the gather into the wheel. The depth sections are placed as built (Q1–Q6 A, 2026-10-19). The condition reading is wired on dev as a draft. Every field has a station home, with drafts to rule. Record: `ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md`. Prototype: https://claude.ai/artifact/8vXKMh5NeVRrUByuYxymMR. Open:
+- the condition reading's content (O1–B5);
+- the 15 merged-journey drafts and the relation-label verb ("shapes" or "tames");
+- the wheel's default view;
+- "How am I running?" as a full page;
+- the build go-ahead.
+
 ## EP — the element-page restructure (owner feedback + rulings ×4, 2026-08-19; REA_03 ELEMENT_PAIR row)
 
 Owner's diagnosis: the yin/yang face split introduced complexity at arrival. New ladder: **1 Mechanism** (law + verdict + bridge consolidated — the 生/克 reaction, visual-first) → **2 Function** (seat noun as system function, REA_02 §5f map, no god split) → **3 Ruling Domains** (the gods' home + seats + Seeker readings; THE most important section). Content first, UI after.
