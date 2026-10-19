@@ -1,0 +1,1065 @@
+{
+ "golden": {
+  "condition": "Overfueled",
+  "pillars": "乙亥 庚辰 庚寅 乙酉",
+  "claim": "You are in your Rising Chapter, in a Magistrate decade.",
+  "age": 31,
+  "strip": [
+   {
+    "startAge": 8,
+    "startYear": 2003,
+    "persona": "Sage",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 18,
+    "startYear": 2013,
+    "persona": "Alchemist",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 28,
+    "startYear": 2023,
+    "persona": "Magistrate",
+    "pole": "helping",
+    "now": true
+   },
+   {
+    "startAge": 38,
+    "startYear": 2033,
+    "persona": "General",
+    "pole": "helping",
+    "now": false
+   },
+   {
+    "startAge": 48,
+    "startYear": 2043,
+    "persona": "Steward",
+    "pole": "helping",
+    "now": false
+   },
+   {
+    "startAge": 58,
+    "startYear": 2053,
+    "persona": "Horizon",
+    "pole": "helping",
+    "now": false
+   },
+   {
+    "startAge": 68,
+    "startYear": 2063,
+    "persona": "Virtuoso",
+    "pole": "helping",
+    "now": false
+   }
+  ],
+  "chapters": [
+   {
+    "name": "The Early Chapter",
+    "span": "birth to 15",
+    "status": "lived",
+    "closed": false,
+    "fromYear": 1995,
+    "domains": [
+     "Wealth",
+     "Family",
+     "Health"
+    ],
+    "seats": [
+     "The Steward stem zhengcai_year_stem",
+     "The Artisan branch shishen_year_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION zhengcai_year_stem · chapter.lived",
+      "draft": false,
+      "text": "Your Early Chapter was an orderly one, with money counted at home and promises kept in front of you. You came out of it careful, and the habits you formed then still run your accounts."
+     },
+     {
+      "key": "POSITION shishen_year_branch · chapter.lived",
+      "draft": false,
+      "text": "Inside it ran a steady supply of comfort, good food and someone who made sure you were fed. You still trust that early ease, and you go back to it whenever life runs thin."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A Sage decade · 2003 to 2012 · weighs",
+      "key": "GOD zhengyin · chapter_decade.heavy.lived",
+      "draft": false,
+      "text": "These years gave you more looking after than you needed, and you learned to wait for permission before you moved."
+     }
+    ]
+   },
+   {
+    "name": "The Rising Chapter",
+    "span": "16 to 34",
+    "status": "now",
+    "closed": false,
+    "fromYear": 2011,
+    "domains": [
+     "Career",
+     "Social",
+     "Mind",
+     "Growth"
+    ],
+    "seats": [
+     "The Twin stem bijian_month_stem",
+     "The Alchemist branch pianyin_month_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION bijian_month_stem · chapter.now",
+      "draft": false,
+      "text": "Your Rising Chapter is the one where you prove yourself alone. Since your late teens you have taken whole jobs and signed your name to them, and you trust what you carried yourself more than anything you were handed."
+     },
+     {
+      "key": "POSITION pianyin_month_branch · chapter.now",
+      "draft": false,
+      "text": "Beneath it runs a private education in things nobody asked you to learn. You are gathering the strange and specialist knowledge your later work is paid for, and you rarely explain it to anyone."
+     }
+    ],
+    "decades": [
+     {
+      "label": "An Alchemist decade · 2013 to 2022 · weighs",
+      "key": "GOD pianyin · chapter_decade.heavy.lived",
+      "draft": false,
+      "text": "These years kept you studying and second-guessing longer than your friends, and you came out of them knowing more than you could yet use."
+     },
+     {
+      "label": "Now · a Magistrate decade · 2023 to 2032 · helping",
+      "key": "GOD zhengguan · chapter_decade.helping.now",
+      "draft": false,
+      "text": "This decade gives your life a structure it did not have before, a clear role and people who rely on you to keep it. You take on more responsibility than you planned, and it steadies you more than it weighs on you."
+     }
+    ]
+   },
+   {
+    "name": "The Home Chapter",
+    "span": "35 to 47",
+    "status": "coming",
+    "closed": false,
+    "fromYear": 2030,
+    "domains": [
+     "Love",
+     "Social",
+     "Wealth"
+    ],
+    "seats": [
+     "The Horizon branch piancai_day_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION piancai_day_branch · chapter.coming",
+      "draft": false,
+      "text": "Your Home Chapter opens wider than the ones before it, through a partner whose world is bigger than yours. From your mid-thirties your days fill with new people, side ventures and offers you did not go looking for. You will say yes more often in this chapter than in any other, and most of those yeses pay you back."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A General decade · 2033 to 2042 · helping",
+      "key": "GOD qisha · chapter_decade.helping.coming",
+      "draft": false,
+      "text": "This decade brings pressure you can use, a hard deadline or a rival or a role with stakes, and you rise further under it than in any easy stretch."
+     }
+    ]
+   },
+   {
+    "name": "The Late Chapter",
+    "span": "48 on",
+    "status": "coming",
+    "closed": false,
+    "fromYear": 2043,
+    "domains": [
+     "Wealth",
+     "Family"
+    ],
+    "seats": [
+     "The Steward stem zhengcai_hour_stem",
+     "The Rival branch jiecai_hour_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION zhengcai_hour_stem · chapter.coming",
+      "draft": false,
+      "text": "Your Late Chapter is the well-kept one, when the care of every earlier decade finally shows. From your late forties your days run on order and calm, and you are the person others call when something needs sorting out."
+     },
+     {
+      "key": "POSITION jiecai_hour_branch · chapter.coming",
+      "draft": false,
+      "text": "Behind it, the people after you push against you and stand up for you in the same breath. You hold your own place in these years only where you fixed its size early."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A Steward decade · 2043 to 2052 · helping",
+      "key": "GOD zhengcai · chapter_decade.helping.coming",
+      "draft": false,
+      "text": "This decade rewards patience with steady returns, and you build the kind of security that lets you stop counting."
+     },
+     {
+      "label": "A Horizon decade · 2053 to 2062 · helping",
+      "key": "GOD piancai · chapter_decade.helping.coming",
+      "draft": false,
+      "text": "This decade opens side roads and second ventures, and you find money and company in places you had never looked."
+     },
+     {
+      "label": "A Virtuoso decade · 2063 to 2072 · helping",
+      "key": "GOD shangguan · chapter_decade.helping.coming",
+      "draft": false,
+      "text": "This decade gives your voice back its edge, and you say what you think with more freedom than you allowed yourself before."
+     }
+    ]
+   }
+  ],
+  "years": [
+   {
+    "year": 2023,
+    "persona": "Virtuoso",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD shangguan · year_line.helping",
+    "draft": true,
+    "text": "A Virtuoso year, and it helps you through its sharp voice.",
+    "bond": {
+     "label": "Clashes with your Hour Gate · 卯酉",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.hour",
+     "draft": true,
+     "text": "This year clashes with your Hour Gate, and it stirs the people after you."
+    }
+   },
+   {
+    "year": 2024,
+    "persona": "Horizon",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD piancai · year_line.helping",
+    "draft": true,
+    "text": "A Horizon year, and it helps you through its range and side doors.",
+    "bond": {
+     "label": "Binds with your Hour Gate · 辰酉",
+     "key": "TEMPLATED tpl_depth · year_bond.bind.hour",
+     "draft": true,
+     "text": "This year binds with your Hour Gate, and it stirs the people after you."
+    }
+   },
+   {
+    "year": 2025,
+    "persona": "Steward",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD zhengcai · year_line.helping",
+    "draft": true,
+    "text": "A Steward year, and it helps you through its careful keeping.",
+    "bond": {
+     "label": "Clashes with your Year Gate · 巳亥",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.year",
+     "draft": true,
+     "text": "This year clashes with your Year Gate, and it stirs the family you came from."
+    }
+   },
+   {
+    "year": 2026,
+    "persona": "General",
+    "status": "now",
+    "pole": "helping",
+    "key": "GOD qisha · year_line.helping",
+    "draft": false,
+    "text": "A hard test arrives from outside, a demanding boss or a rival or a deadline you did not set. You meet it better than you expect, and people remember how you handled it.",
+    "bond": {
+     "label": "Joins your Day Gate · 寅午",
+     "key": "TEMPLATED tpl_depth · year_bond.frame.day",
+     "draft": false,
+     "text": "You make a decision about home or partnership this year that you have been circling for a while."
+    }
+   },
+   {
+    "year": 2027,
+    "persona": "Magistrate",
+    "status": "coming",
+    "pole": "helping",
+    "key": "GOD zhengguan · year_line.helping",
+    "draft": false,
+    "text": "A role with your name on it arrives, a promotion or a title or a formal promise. You accept more responsibility than you planned, and you are steadier for it by the end.",
+    "bond": null
+   },
+   {
+    "year": 2028,
+    "persona": "Alchemist",
+    "status": "coming",
+    "pole": "heavy",
+    "key": "GOD pianyin · year_line.heavy",
+    "draft": false,
+    "text": "Your attention turns inward, toward study and second thoughts and plans you keep to yourself. You get less done than you meant to, and you understand more at the end than at the start.",
+    "bond": {
+     "label": "Clashes with your Day Gate · 寅申",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.day",
+     "draft": false,
+     "text": "You change something at home this year, an address or the way you share your life with a partner."
+    }
+   },
+   {
+    "year": 2029,
+    "persona": "Sage",
+    "status": "coming",
+    "pole": "heavy",
+    "key": "GOD zhengyin · year_line.heavy",
+    "draft": false,
+    "text": "Help and advice arrive in larger amounts than you asked for, from a teacher or an older ally. You lean on them longer than you need to, and you finish knowing which help to keep.",
+    "bond": {
+     "label": "Binds with your Month Gate · 辰酉",
+     "key": "TEMPLATED tpl_depth · year_bond.bind.month",
+     "draft": false,
+     "text": "You tie yourself to a workplace or a team this year more firmly than before, by contract or by loyalty."
+    }
+   },
+   {
+    "year": 2030,
+    "persona": "Twin",
+    "status": "coming",
+    "pole": "heavy",
+    "key": "GOD bijian · year_line.heavy",
+    "draft": false,
+    "text": "Your life fills with equals, a new colleague or a friend who wants exactly what you want. You compete more than you admit, and you come out of it more set in your own way.",
+    "bond": {
+     "label": "Clashes with your Month Gate · 辰戌",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.month",
+     "draft": false,
+     "text": "You leave a role or a team you have outgrown this year, by your own choice or by theirs."
+    }
+   },
+   {
+    "year": 2031,
+    "persona": "Rival",
+    "status": "coming",
+    "pole": "heavy",
+    "key": "GOD jiecai · year_line.heavy",
+    "draft": false,
+    "text": "Someone arrives who wants a share of what you have, at work or among friends. You give ground on money or credit before you notice, and you hold the rest only by being blunt.",
+    "bond": {
+     "label": "Binds with your Day Gate · 寅亥",
+     "key": "TEMPLATED tpl_depth · year_bond.bind.day",
+     "draft": false,
+     "text": "You draw a partner or a household closer this year, and the life you share takes on a firmer shape."
+    }
+   },
+   {
+    "year": 2032,
+    "persona": "Artisan",
+    "status": "coming",
+    "pole": "helping",
+    "key": "GOD shishen · year_line.helping",
+    "draft": false,
+    "text": "Your appetite comes back, for good food and for the work you enjoy making. Your work gets easier and better liked, and you finish with something you made that people keep.",
+    "bond": {
+     "label": "Joins your Month Gate · 子辰",
+     "key": "TEMPLATED tpl_depth · year_bond.frame.month",
+     "draft": false,
+     "text": "You gather people and momentum around one idea at work this year, and it carries further than you planned."
+    }
+   }
+  ]
+ },
+ "B": {
+  "condition": "Underfueled",
+  "pillars": "庚午 乙酉 乙酉 己卯",
+  "claim": "You are in your Home Chapter, in a Steward decade.",
+  "age": 36,
+  "strip": [
+   {
+    "startAge": 7,
+    "startYear": 1997,
+    "persona": "Virtuoso",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 17,
+    "startYear": 2007,
+    "persona": "Artisan",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 27,
+    "startYear": 2017,
+    "persona": "Steward",
+    "pole": "heavy",
+    "now": true
+   },
+   {
+    "startAge": 37,
+    "startYear": 2027,
+    "persona": "Horizon",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 47,
+    "startYear": 2037,
+    "persona": "Magistrate",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 57,
+    "startYear": 2047,
+    "persona": "General",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 67,
+    "startYear": 2057,
+    "persona": "Sage",
+    "pole": "helping",
+    "now": false
+   }
+  ],
+  "chapters": [
+   {
+    "name": "The Early Chapter",
+    "span": "birth to 15",
+    "status": "lived",
+    "closed": false,
+    "fromYear": 1990,
+    "domains": [
+     "Social",
+     "Family",
+     "Health"
+    ],
+    "seats": [
+     "The Magistrate stem zhengguan_year_stem",
+     "The Artisan branch shishen_year_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION zhengguan_year_stem · chapter.lived",
+      "draft": true,
+      "text": "Your Early Chapter ran on the Magistrate's rules and duty, set in plain view at your Year Gate."
+     },
+     {
+      "key": "POSITION shishen_year_branch · chapter.lived",
+      "draft": false,
+      "text": "Inside it ran a steady supply of comfort, good food and someone who made sure you were fed. You still trust that early ease, and you go back to it whenever life runs thin."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A Virtuoso decade · 1997 to 2006 · weighs",
+      "key": "GOD shangguan · chapter_decade.heavy.lived",
+      "draft": true,
+      "text": "A Virtuoso decade, whose sharp voice weighed on you."
+     }
+    ]
+   },
+   {
+    "name": "The Rising Chapter",
+    "span": "16 to 34",
+    "status": "lived",
+    "closed": false,
+    "fromYear": 2006,
+    "domains": [
+     "Career",
+     "Social",
+     "Health"
+    ],
+    "seats": [
+     "The Twin stem bijian_month_stem",
+     "The General branch qisha_month_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION bijian_month_stem · chapter.lived",
+      "draft": true,
+      "text": "Your Rising Chapter ran on the Twin's self-reliance, set in plain view at your Month Gate."
+     },
+     {
+      "key": "POSITION qisha_month_branch · chapter.lived",
+      "draft": true,
+      "text": "Inside it ran the General's pressure that forges."
+     }
+    ],
+    "decades": [
+     {
+      "label": "An Artisan decade · 2007 to 2016 · weighs",
+      "key": "GOD shishen · chapter_decade.heavy.lived",
+      "draft": true,
+      "text": "An Artisan decade, whose ease and appetite weighed on you."
+     },
+     {
+      "label": "Now · a Steward decade · 2017 to 2026 · weighs",
+      "key": "GOD zhengcai · chapter_decade.heavy.now",
+      "draft": true,
+      "text": "This is a Steward decade. Its careful keeping weighs on you through these ten years."
+     }
+    ]
+   },
+   {
+    "name": "The Home Chapter",
+    "span": "35 to 47",
+    "status": "now",
+    "closed": false,
+    "fromYear": 2025,
+    "domains": [
+     "Love",
+     "Health"
+    ],
+    "seats": [
+     "The General branch qisha_day_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION qisha_day_branch · chapter.now",
+      "draft": true,
+      "text": "Your Home Chapter belongs to the General inside your Day Gate, and its pressure that forges shapes the life you share with a partner."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A Horizon decade · 2027 to 2036 · weighs",
+      "key": "GOD piancai · chapter_decade.heavy.coming",
+      "draft": true,
+      "text": "A Horizon decade, whose range and side doors will weigh on you."
+     },
+     {
+      "label": "A Magistrate decade · 2037 to 2046 · weighs",
+      "key": "GOD zhengguan · chapter_decade.heavy.coming",
+      "draft": true,
+      "text": "A Magistrate decade, whose rules and duty will weigh on you."
+     }
+    ]
+   },
+   {
+    "name": "The Late Chapter",
+    "span": "48 on",
+    "status": "coming",
+    "closed": false,
+    "fromYear": 2038,
+    "domains": [
+     "Wealth",
+     "Growth",
+     "Family"
+    ],
+    "seats": [
+     "The Horizon stem piancai_hour_stem",
+     "The Twin branch bijian_hour_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION piancai_hour_stem · chapter.coming",
+      "draft": true,
+      "text": "Your Late Chapter will run on the Horizon's range and side doors, set in plain view at your Hour Gate."
+     },
+     {
+      "key": "POSITION bijian_hour_branch · chapter.coming",
+      "draft": true,
+      "text": "Inside it, the Twin's self-reliance will run under the surface."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A General decade · 2047 to 2056 · weighs",
+      "key": "GOD qisha · chapter_decade.heavy.coming",
+      "draft": true,
+      "text": "A General decade, whose pressure that forges will weigh on you."
+     },
+     {
+      "label": "A Sage decade · 2057 to 2066 · helping",
+      "key": "GOD zhengyin · chapter_decade.helping.coming",
+      "draft": true,
+      "text": "A Sage decade, whose shelter and learning will work for you."
+     }
+    ]
+   }
+  ],
+  "years": [
+   {
+    "year": 2017,
+    "persona": "Artisan",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD shishen · year_line.heavy",
+    "draft": true,
+    "text": "An Artisan year, and it weighs on you through its ease and appetite.",
+    "bond": {
+     "label": "Clashes with your Hour Gate · 卯酉",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.hour",
+     "draft": true,
+     "text": "This year clashes with your Hour Gate, and it stirs the people after you."
+    }
+   },
+   {
+    "year": 2018,
+    "persona": "Steward",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD zhengcai · year_line.heavy",
+    "draft": true,
+    "text": "A Steward year, and it weighs on you through its careful keeping.",
+    "bond": {
+     "label": "Harms your Month Gate · 酉戌",
+     "key": "TEMPLATED tpl_depth · year_bond.harm.month",
+     "draft": true,
+     "text": "This year harms your Month Gate, and it stirs your work."
+    }
+   },
+   {
+    "year": 2019,
+    "persona": "Horizon",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD piancai · year_line.heavy",
+    "draft": true,
+    "text": "A Horizon year, and it weighs on you through its range and side doors.",
+    "bond": {
+     "label": "Joins your Hour Gate · 亥卯",
+     "key": "TEMPLATED tpl_depth · year_bond.frame.hour",
+     "draft": true,
+     "text": "This year joins your Hour Gate, and it stirs the people after you."
+    }
+   },
+   {
+    "year": 2020,
+    "persona": "Magistrate",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD zhengguan · year_line.heavy",
+    "draft": true,
+    "text": "A Magistrate year, and it weighs on you through its rules and duty.",
+    "bond": {
+     "label": "Clashes with your Year Gate · 子午",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.year",
+     "draft": true,
+     "text": "This year clashes with your Year Gate, and it stirs the family you came from."
+    }
+   },
+   {
+    "year": 2021,
+    "persona": "General",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD qisha · year_line.heavy",
+    "draft": true,
+    "text": "A General year, and it weighs on you through its pressure that forges.",
+    "bond": {
+     "label": "Harms your Year Gate · 丑午",
+     "key": "TEMPLATED tpl_depth · year_bond.harm.year",
+     "draft": true,
+     "text": "This year harms your Year Gate, and it stirs the family you came from."
+    }
+   },
+   {
+    "year": 2022,
+    "persona": "Sage",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD zhengyin · year_line.helping",
+    "draft": true,
+    "text": "A Sage year, and it helps you through its shelter and learning.",
+    "bond": {
+     "label": "Joins your Year Gate · 寅午",
+     "key": "TEMPLATED tpl_depth · year_bond.frame.year",
+     "draft": true,
+     "text": "This year joins your Year Gate, and it stirs the family you came from."
+    }
+   },
+   {
+    "year": 2023,
+    "persona": "Alchemist",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD pianyin · year_line.helping",
+    "draft": true,
+    "text": "An Alchemist year, and it helps you through its strange knowledge.",
+    "bond": {
+     "label": "Clashes with your Month Gate · 卯酉",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.month",
+     "draft": false,
+     "text": "You leave a role or a team you have outgrown this year, by your own choice or by theirs."
+    }
+   },
+   {
+    "year": 2024,
+    "persona": "Rival",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD jiecai · year_line.helping",
+    "draft": true,
+    "text": "A Rival year, and it helps you through its appetite for a contest.",
+    "bond": {
+     "label": "Harms your Hour Gate · 卯辰",
+     "key": "TEMPLATED tpl_depth · year_bond.harm.hour",
+     "draft": true,
+     "text": "This year harms your Hour Gate, and it stirs the people after you."
+    }
+   },
+   {
+    "year": 2025,
+    "persona": "Twin",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD bijian · year_line.helping",
+    "draft": true,
+    "text": "A Twin year, and it helps you through its self-reliance.",
+    "bond": {
+     "label": "Joins your Month Gate · 巳酉",
+     "key": "TEMPLATED tpl_depth · year_bond.frame.month",
+     "draft": false,
+     "text": "You gather people and momentum around one idea at work this year, and it carries further than you planned."
+    }
+   },
+   {
+    "year": 2026,
+    "persona": "Virtuoso",
+    "status": "now",
+    "pole": "heavy",
+    "key": "GOD shangguan · year_line.heavy",
+    "draft": true,
+    "text": "A Virtuoso year, and it weighs on you through its sharp voice.",
+    "bond": {
+     "label": "Repeats the 午 of your Year Gate · 自刑",
+     "key": "TEMPLATED tpl_depth · year_bond.selfpunish.year",
+     "draft": true,
+     "text": "This year repeats your Year Gate, and it stirs the family you came from."
+    }
+   }
+  ]
+ },
+ "C": {
+  "condition": "Underfueled",
+  "pillars": "壬申 乙巳 辛丑 甲午",
+  "claim": "You are in your Rising Chapter, in a Virtuoso decade.",
+  "age": 34,
+  "strip": [
+   {
+    "startAge": 6,
+    "startYear": 1998,
+    "persona": "Steward",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 16,
+    "startYear": 2008,
+    "persona": "Artisan",
+    "pole": "heavy",
+    "now": false
+   },
+   {
+    "startAge": 26,
+    "startYear": 2018,
+    "persona": "Virtuoso",
+    "pole": "heavy",
+    "now": true
+   },
+   {
+    "startAge": 36,
+    "startYear": 2028,
+    "persona": "Twin",
+    "pole": "helping",
+    "now": false
+   },
+   {
+    "startAge": 46,
+    "startYear": 2038,
+    "persona": "Rival",
+    "pole": "helping",
+    "now": false
+   },
+   {
+    "startAge": 56,
+    "startYear": 2048,
+    "persona": "Alchemist",
+    "pole": "helping",
+    "now": false
+   },
+   {
+    "startAge": 66,
+    "startYear": 2058,
+    "persona": "Sage",
+    "pole": "helping",
+    "now": false
+   }
+  ],
+  "chapters": [
+   {
+    "name": "The Early Chapter",
+    "span": "birth to 15",
+    "status": "lived",
+    "closed": false,
+    "fromYear": 1992,
+    "domains": [
+     "Social",
+     "Mind",
+     "Family",
+     "Wealth"
+    ],
+    "seats": [
+     "The Virtuoso stem shangguan_year_stem",
+     "The Rival branch jiecai_year_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION shangguan_year_stem · chapter.lived",
+      "draft": true,
+      "text": "Your Early Chapter ran on the Virtuoso's sharp voice, set in plain view at your Year Gate."
+     },
+     {
+      "key": "POSITION jiecai_year_branch · chapter.lived",
+      "draft": true,
+      "text": "Inside it ran the Rival's appetite for a contest."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A Steward decade · 1998 to 2007 · weighs",
+      "key": "GOD zhengcai · chapter_decade.heavy.lived",
+      "draft": true,
+      "text": "A Steward decade, whose careful keeping weighed on you."
+     }
+    ]
+   },
+   {
+    "name": "The Rising Chapter",
+    "span": "16 to 34",
+    "status": "now",
+    "closed": false,
+    "fromYear": 2008,
+    "domains": [
+     "Career",
+     "Wealth",
+     "Social",
+     "Growth"
+    ],
+    "seats": [
+     "The Horizon stem piancai_month_stem",
+     "The Magistrate branch zhengguan_month_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION piancai_month_stem · chapter.now",
+      "draft": true,
+      "text": "Your Rising Chapter runs on the Horizon's range and side doors, set in plain view at your Month Gate."
+     },
+     {
+      "key": "POSITION zhengguan_month_branch · chapter.now",
+      "draft": true,
+      "text": "Inside it runs the Magistrate's rules and duty."
+     }
+    ],
+    "decades": [
+     {
+      "label": "An Artisan decade · 2008 to 2017 · weighs",
+      "key": "GOD shishen · chapter_decade.heavy.lived",
+      "draft": true,
+      "text": "An Artisan decade, whose ease and appetite weighed on you."
+     },
+     {
+      "label": "Now · a Virtuoso decade · 2018 to 2027 · weighs",
+      "key": "GOD shangguan · chapter_decade.heavy.now",
+      "draft": true,
+      "text": "This is a Virtuoso decade. Its sharp voice weighs on you through these ten years."
+     }
+    ]
+   },
+   {
+    "name": "The Home Chapter",
+    "span": "35 to 47",
+    "status": "coming",
+    "closed": false,
+    "fromYear": 2027,
+    "domains": [
+     "Love",
+     "Mind"
+    ],
+    "seats": [
+     "The Alchemist branch pianyin_day_branch"
+    ],
+    "parts": [
+     {
+      "key": "POSITION pianyin_day_branch · chapter.coming",
+      "draft": true,
+      "text": "Your Home Chapter will belong to the Alchemist inside your Day Gate, and its strange knowledge will shape the life you share from your mid-thirties."
+     }
+    ],
+    "decades": [
+     {
+      "label": "A Twin decade · 2028 to 2037 · helping",
+      "key": "GOD bijian · chapter_decade.helping.coming",
+      "draft": true,
+      "text": "A Twin decade, whose self-reliance will work for you."
+     },
+     {
+      "label": "A Rival decade · 2038 to 2047 · helping",
+      "key": "GOD jiecai · chapter_decade.helping.coming",
+      "draft": true,
+      "text": "A Rival decade, whose appetite for a contest will work for you."
+     }
+    ]
+   },
+   {
+    "name": "The Late Chapter",
+    "span": "48 on",
+    "status": "coming",
+    "closed": true,
+    "fromYear": 2040,
+    "domains": [],
+    "seats": [],
+    "parts": [],
+    "decades": [
+     {
+      "label": "An Alchemist decade · 2048 to 2057 · helping",
+      "key": "GOD pianyin · chapter_decade.helping.coming",
+      "draft": true,
+      "text": "An Alchemist decade, whose strange knowledge will work for you."
+     },
+     {
+      "label": "A Sage decade · 2058 to 2067 · helping",
+      "key": "GOD zhengyin · chapter_decade.helping.coming",
+      "draft": true,
+      "text": "A Sage decade, whose shelter and learning will work for you."
+     }
+    ]
+   }
+  ],
+  "years": [
+   {
+    "year": 2018,
+    "persona": "Sage",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD zhengyin · year_line.helping",
+    "draft": true,
+    "text": "A Sage year, and it helps you through its shelter and learning.",
+    "bond": {
+     "label": "Punishes your Day Gate · 丑戌",
+     "key": "TEMPLATED tpl_depth · year_bond.punish.day",
+     "draft": true,
+     "text": "This year punishes your Day Gate, and it stirs your home and partnership."
+    }
+   },
+   {
+    "year": 2019,
+    "persona": "Alchemist",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD pianyin · year_line.helping",
+    "draft": true,
+    "text": "An Alchemist year, and it helps you through its strange knowledge.",
+    "bond": {
+     "label": "Clashes with your Month Gate · 巳亥",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.month",
+     "draft": false,
+     "text": "You leave a role or a team you have outgrown this year, by your own choice or by theirs."
+    }
+   },
+   {
+    "year": 2020,
+    "persona": "Rival",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD jiecai · year_line.helping",
+    "draft": true,
+    "text": "A Rival year, and it helps you through its appetite for a contest.",
+    "bond": {
+     "label": "Binds with your Day Gate · 子丑",
+     "key": "TEMPLATED tpl_depth · year_bond.bind.day",
+     "draft": false,
+     "text": "You draw a partner or a household closer this year, and the life you share takes on a firmer shape."
+    }
+   },
+   {
+    "year": 2021,
+    "persona": "Twin",
+    "status": "lived",
+    "pole": "helping",
+    "key": "GOD bijian · year_line.helping",
+    "draft": true,
+    "text": "A Twin year, and it helps you through its self-reliance.",
+    "bond": null
+   },
+   {
+    "year": 2022,
+    "persona": "Virtuoso",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD shangguan · year_line.heavy",
+    "draft": true,
+    "text": "A Virtuoso year, and it weighs on you through its sharp voice.",
+    "bond": {
+     "label": "Clashes with your Year Gate · 寅申",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.year",
+     "draft": true,
+     "text": "This year clashes with your Year Gate, and it stirs the family you came from."
+    }
+   },
+   {
+    "year": 2023,
+    "persona": "Artisan",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD shishen · year_line.heavy",
+    "draft": true,
+    "text": "An Artisan year, and it weighs on you through its ease and appetite.",
+    "bond": null
+   },
+   {
+    "year": 2024,
+    "persona": "Steward",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD zhengcai · year_line.heavy",
+    "draft": true,
+    "text": "A Steward year, and it weighs on you through its careful keeping.",
+    "bond": null
+   },
+   {
+    "year": 2025,
+    "persona": "Horizon",
+    "status": "lived",
+    "pole": "heavy",
+    "key": "GOD piancai · year_line.heavy",
+    "draft": true,
+    "text": "A Horizon year, and it weighs on you through its range and side doors.",
+    "bond": {
+     "label": "Punishes your Year Gate · 巳申",
+     "key": "TEMPLATED tpl_depth · year_bond.punish.year",
+     "draft": true,
+     "text": "This year punishes your Year Gate, and it stirs the family you came from."
+    }
+   },
+   {
+    "year": 2026,
+    "persona": "Magistrate",
+    "status": "now",
+    "pole": "heavy",
+    "key": "GOD zhengguan · year_line.heavy",
+    "draft": true,
+    "text": "A Magistrate year, and it weighs on you through its rules and duty.",
+    "bond": {
+     "label": "Harms your Day Gate · 丑午",
+     "key": "TEMPLATED tpl_depth · year_bond.harm.day",
+     "draft": true,
+     "text": "This year harms your Day Gate, and it stirs your home and partnership."
+    }
+   },
+   {
+    "year": 2027,
+    "persona": "General",
+    "status": "coming",
+    "pole": "heavy",
+    "key": "GOD qisha · year_line.heavy",
+    "draft": true,
+    "text": "A General year, and it weighs on you through its pressure that forges.",
+    "bond": {
+     "label": "Clashes with your Day Gate · 丑未",
+     "key": "TEMPLATED tpl_depth · year_bond.clash.day",
+     "draft": false,
+     "text": "You change something at home this year, an address or the way you share your life with a partner."
+    }
+   }
+  ]
+ }
+}
