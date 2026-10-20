@@ -2,8 +2,10 @@ import json, html
 S={u['key']:u['text'] for u in json.load(open('samples.json'))['units']}
 D=json.load(open('/tmp/claude-0/-home-user-Elementum/57335382-9666-588f-b3b1-67796b0e7c50/scratchpad/dump.json'))
 e=html.escape
+REN={'Nobleman': 'Patron Star', 'Scholar’s Star': 'Learning Star', 'Heavenly Virtue': 'Grace Star', 'Moon Virtue': 'Mercy Star', 'Prosperity Star': 'Harvest Star', 'Golden Carriage': 'Comfort Star', 'Commander Star': 'Banner Star', 'Red Phoenix': 'Romance Star', 'Heavenly Joy': 'Celebration Star', 'Canopy Star': 'Muse Star', 'Travelling Horse': 'Road Star', 'Peach Blossom': 'Charm Star', 'Robbery Star': 'Raider Star', 'Lost Spirit': 'Veil Star', 'Lonely Star': 'Solitude Star', 'Solitary Star': 'Hermit Star', 'Dipper Star': 'Thunder Star'}
+rn=lambda n: REN.get(n,n)
 def card(kind,en,zh,where,line_now,line_after,rows,note=None):
-    o=f'<div class="starc"><span class="sn {kind}">{e(en)}</span><span class="zh">{zh}</span>'
+    o=f'<div class="starc"><span class="sn {kind}">{e(rn(en))}</span><span class="zh">{zh}</span>'
     if isinstance(where,str): o+=f'<span class="wh">{e(where)}</span>'
     if line_after and line_after!=line_now:
         o+=f'<div class="ba"><span class="bl">now</span><p class="was">{e(line_now)}</p><span class="bl rec">after</span><p class="one">{e(line_after)}</p></div>'
@@ -48,13 +50,13 @@ def chart_cards(k):
     return '\n'.join(out)
 def years(k):
     v=D[k]['S']; ys=sorted({s['year'] for s in v['yearStars']})
-    if not ys: return '<p class="pending">Advisor years: nothing shows. The current decade ends in 2026 and 2026 brings no new star. Under S6 A this chart shows 2026 to 2030: the Nobleman, Travelling Horse, Lost Spirit and Lonely Star in 2028, the Canopy Star in 2030, and more.</p>'
+    if not ys: return '<p class="pending">Advisor years: nothing shows. The current decade ends in 2026 and 2026 brings no new star. Under S6 A this chart shows 2026 to 2030: the Patron, Road, Veil and Solitude Stars in 2028, the Muse Star in 2030, and more.</p>'
     o='<div class="yrs"><span class="grp">Advisor · the years left in this decade</span>'
     for y in ys:
         o+=f'<div class="yr"><p class="yh">{y}</p>'
         for s in [s for s in v['yearStars'] if s['year']==y]:
             a=S.get(s['reading']['key'])
-            o+=f'<div class="unit"><span class="wh2">{e(s["en"])} · {s["zh"]}</span>'
+            o+=f'<div class="unit"><span class="wh2">{e(rn(s["en"]))} · {s["zh"]}</span>'
             if a: o+=f'<div class="ba"><span class="bl">now · draft</span><p class="was">{e(s["reading"]["text"])}</p><span class="bl rec">after</span><p>{e(a)}</p></div>'
             else: o+=f'<p{" class=was" if s["reading"]["draft"] else ""}>{e(s["reading"]["text"])}{" <span class=dr>draft, written with the batch</span>" if s["reading"]["draft"] else ""}</p>'
             o+=f'<span class="key">{e(s["reading"]["key"])}</span></div>'
@@ -70,55 +72,57 @@ def Q(qid,text,opts,why=None):
         L='ABCD'[i]
         o+=f'<label class="opt"><input type="radio" name="{qid}" value="{L}" id="{qid}{L}"><span><b>{L} · {lab}</b>{" <span class=tag>recommended</span>" if i==0 else ""}<small>{desc}</small></span></label>'
     return o+'</div>'
+# (id, zh, literal, group, what it means, [(name, why)...] recommended first)
 NAMES=[
-('N1','天乙贵人','Nobleman','Help','Nobleman','The usual English for 天乙. Short, and the decade line already reads well with it.','Noble Helper','Says what it does, at the cost of a plainer name.'),
-('N2','文昌','Scholar’s Star','Help','Scholar’s Star','Keeps the old sense of 文 (letters and learning).','Academic Star','The common app name. Reads like school only.'),
-('N3','天德贵人','Heavenly Virtue','Help','Heavenly Virtue','The standard English. Pairs with N4.','Heaven’s Grace','Warmer, further from the source.'),
-('N4','月德贵人','Moon Virtue','Help','Moon Virtue','Pairs with Heavenly Virtue and keeps clear of “Month Gate”: “the Monthly Virtue sits in your Year Gate” reads badly.','Monthly Virtue','The usual English in BaZi books (月 here is the month).'),
-('N5','禄神','Prosperity Star','Help','Prosperity Star','The familiar English. The text keeps it to an earned living, never money amounts.','Livelihood Star','Closer to 禄 (one’s own stipend), less of a promise.'),
-('N6','金舆','Golden Carriage','Help','Golden Carriage','The standard English.','Golden Chariot','Grander, less accurate (舆 is a carriage).'),
-('N7','将星','Commander Star','Help','Commander Star','Keeps clear of the General, a character name.','Leader Star','Plainer.'),
-('N8','红鸾','Red Phoenix','Help','Red Phoenix','The usual English. A 鸾 is a phoenix-like bird.','Red Luan','Exact, opaque to English readers.'),
-('N9','天喜','Heavenly Joy','Help','Heavenly Joy','The standard English.','Star of Joy','Softer.'),
-('N10','华盖','Canopy Star','Help, classically mixed','Canopy Star','The standard English (华盖 is the canopy over an emperor or a sage).','Artist’s Star','Says the modern reading, loses the image.'),
-('N11','驿马','Travelling Horse','Help, classically mixed','Travelling Horse','The relay horse of the old post roads. British spelling.','Sky Horse','The common app name.'),
-('N12','桃花','Peach Blossom','Help, classically mixed','Peach Blossom','Known even to readers new to BaZi.','Blossom Star','Matches the other names, loses recognition.'),
-('N13','劫煞','Robbery Star','Test','Robbery Star','Plain about the cost, which the friction rule wants.','Raider Star','Less blunt, adds an outside person.'),
-('N14','亡神','Lost Spirit','Test','Hidden Spirit','My pick. 亡 here is “fled, gone missing”. “Lost Spirit” reads like death to an English reader, and the reading is about a part of you kept out of sight.','Lost Spirit','The working name, closer to the word.'),
-('N15','孤辰','Lonely Star','Test','Lonely Star','The standard English.','Solitude Star','Less sad, less recognisable.'),
-('N16','寡宿','Solitary Star','Test','Hermit Star','My pick. “Lonely” and “Solitary” are near twins, and a chart can hold both. Hermit tells them apart and stays gender-neutral (the literal is “widow”).','Solitary Star','The working name. Keeps the classical pair 孤寡 as a pair.'),
-('N17','魁罡','Dipper Star','Test','Dipper Star','魁 and 罡 are stars of the Big Dipper.','Kuigang Star','Exact, opaque.'),
-('N18','空亡','the Void','Test','the Void','The standard English. It is not a star, and the cards already say “the Void sits in your Year Gate”.','the Void Star','Matches the other names, adds a word.'),
+('N1','天乙贵人','Heaven’s Noble','Help','Help from people with standing, at the moment you need it. The most prized star.',[('Patron Star','A patron backs you before you have proved yourself, which is the reading.'),('Benefactor Star','Same sense, longer and more formal.'),('Nobleman','The usual English, a literal title.')]),
+('N2','文昌','Flourishing Letters','Help','Learning, writing, exams, a quick and literate mind.',[('Learning Star','Says it at once.'),('Quill Star','An image for writing, softer on study.'),('Scholar’s Star','The working name.')]),
+('N3','天德贵人','Heaven’s Virtue','Help','Protection: trouble reaches you and passes lightly.',[('Grace Star','Grace is unearned protection, which is the star. Pairs with N4.'),('Shield Star','Plainer, more defensive.'),('Heavenly Virtue','The literal.')]),
+('N4','月德贵人','Month’s Virtue','Help','The quieter twin of N3: trouble turns into gain, kindness comes back to you.',[('Mercy Star','Grace and Mercy are an English pair, as 天德 and 月德 are a Chinese one.'),('Mending Star','Says the turn from trouble to gain.'),('Moon Virtue','The working name.')]),
+('N5','禄神','Spirit of the Stipend','Help','A living you earn yourself, your own root and reward.',[('Harvest Star','You reap what you work for. No promise of a sum.'),('Livelihood Star','Exact, flatter.'),('Prosperity Star','The working name. Promises money the text cannot give.')]),
+('N6','金舆','Golden Carriage','Help','Comfort, ease, refinement, being carried through life gently.',[('Comfort Star','Says the meaning plainly.'),('Velvet Star','An image of soft ease, a little fancy.'),('Golden Carriage','The literal.')]),
+('N7','将星','General’s Star','Help','Leadership: people rally to you and follow your call.',[('Banner Star','People gather under your banner. Keeps clear of the General character.'),('Leader Star','Plain.'),('Commander Star','The working name.')]),
+('N8','红鸾','Red Phoenix','Help','Romance and love arriving, the star of courtship.',[('Romance Star','Plain, and distinct from the Charm Star (N12).'),('Spark Star','The first pull of attraction.'),('Red Phoenix','The literal.')]),
+('N9','天喜','Heaven’s Joy','Help','Celebrations, good news, happy occasions gathering around you.',[('Celebration Star','Names what happens.'),('Good News Star','Plain, a little long.'),('Heavenly Joy','The literal.')]),
+('N10','华盖','Flowered Canopy','Help, classically mixed','Art, spirit and depth, with a solitary streak.',[('Muse Star','The gift of art and inner life. The solitude lives in the readings.'),('Sanctuary Star','The inward retreat, less of the art.'),('Canopy Star','The literal.')]),
+('N11','驿马','Post Horse','Help, classically mixed','Movement: travel, relocation, change of place, restlessness.',[('Road Star','Short and plain.'),('Voyage Star','Grander, leans to long travel.'),('Travelling Horse','The literal.')]),
+('N12','桃花','Peach Blossom','Help, classically mixed','Charm and magnetism: being liked, noticed and sought out by many.',[('Charm Star','Says the gift, keeps the price for the readings.'),('Magnet Star','Stronger pull, less grace.'),('Peach Blossom','The literal, already known in English.')]),
+('N13','羊刃','Ram’s Blade','Test','A hard, fierce will that protects what is yours and does not bend.',[('Ram’s Edge','Ruled in D6. Already says the meaning: the ram’s stubborn force. “Blade” is taken by the 庚 Day Master.'),('Iron Will Star','Plain meaning, fits the Star pattern.')]),
+('N14','劫煞','Robbing Sha','Test','Sudden loss from outside: something of yours taken without warning.',[('Raider Star','Something comes in and takes. Plain about the cost.'),('Loss Star','Plainer and bleaker.'),('Robbery Star','The working name.')]),
+('N15','亡神','Fleeing Spirit','Test','A part of you held out of sight: secrets, plans, a hidden self.',[('Veil Star','What you keep behind a veil. No echo of death.'),('Shadow Star','Darker.'),('Lost Spirit','The working name. Reads like death in English.')]),
+('N16','孤辰','Orphan Hour','Test','A need to be alone even inside closeness.',[('Solitude Star','Chosen aloneness, which is the reading.'),('Island Star','An image, a little poetic.'),('Lonely Star','The working name. Sadder than the reading.')]),
+('N17','寡宿','Widow’s Lodge','Test','Long stretches in your own company, a quiet house. The literal is gendered.',[('Hermit Star','Retreat over long seasons. Clearly different from the Solitude Star.'),('Quiet House Star','Closer to the image, longer.'),('Solitary Star','The working name. A near twin of N16.')]),
+('N18','魁罡','Dipper’s Head','Test','A fierce, decisive, all-or-nothing mind.',[('Thunder Star','Force and suddenness.'),('Firebrand Star','Fierce, but it hints at the Fire element.'),('Dipper Star','The literal, says nothing.')]),
+('N19','空亡','Empty and Gone','Test','Emptiness: what sits here arrives late or lighter than promised.',[('the Void','Already says the meaning. It is an empty slot, not a star, so it keeps no “Star”.'),('Hollow Star','Fits the pattern, weaker image.')]),
 ]
 FRAME=[
 ('H1','羊刃','Ram’s Edge','A blade: violence, wounds, and harm to a husband or wife (刃 against the spouse).','Injury, violence, harm to a partner.','A will that does not bend, firm enough that people step back.','To protect what you built.','You choose which fights are worth having.'),
-('H2','劫煞','Robbery Star','Robbery, sudden loss, accident, a violent end.','Theft as a crime, accident, death.','Something of yours (credit, a plan, a place) taken without warning.','To keep what you built.','You guard faster than most and lose less each time.'),
-('H3','亡神','Hidden Spirit (N14)','Loss, scheming, hidden dealings, lawsuits.','Deceit, scheming, legal trouble.','A part of you kept out of sight, so people close to you hear things late.','The safety of not being fully seen.','You choose who gets to see all of you.'),
-('H4','孤辰','Lonely Star','Loneliness; “men fear 孤辰”; parents lost young.','Bereavement, anything gendered.','A partner reads your need to be alone as distance.','Time alone inside closeness.','You stay longest with the person who lets you go quiet.'),
-('H5','寡宿','Hermit Star (N16)','An empty house; “women fear 寡宿”; widowhood.','Widowhood, loss of a spouse, anything gendered.','Long stretches in your own company, and invitations you miss.','Quiet on your own terms.','You come out of it clearer about who you miss.'),
-('H6','魁罡','Dipper Star','A fierce, decisive mind, wild swings of fortune; in a woman’s chart, harm to husband and children.','Harm to a partner or children, anything gendered.','A mind so decided that people stop arguing with you.','To decide, and to be right.','People hand you the hard calls, and you carry them.'),
+('H2','劫煞','Raider Star','Robbery, sudden loss, accident, a violent end.','Theft as a crime, accident, death.','Something of yours (credit, a plan, a place) taken without warning.','To keep what you built.','You guard faster than most and lose less each time.'),
+('H3','亡神','Veil Star','Loss, scheming, hidden dealings, lawsuits.','Deceit, scheming, legal trouble.','A part of you kept out of sight, so people close to you hear things late.','The safety of not being fully seen.','You choose who gets to see all of you.'),
+('H4','孤辰','Solitude Star','Loneliness; “men fear 孤辰”; parents lost young.','Bereavement, anything gendered.','A partner reads your need to be alone as distance.','Time alone inside closeness.','You stay longest with the person who lets you go quiet.'),
+('H5','寡宿','Hermit Star','An empty house; “women fear 寡宿”; widowhood.','Widowhood, loss of a spouse, anything gendered.','Long stretches in your own company, and invitations you miss.','Quiet on your own terms.','You come out of it clearer about who you miss.'),
+('H6','魁罡','Thunder Star','A fierce, decisive mind, wild swings of fortune; in a woman’s chart, harm to husband and children.','Harm to a partner or children, anything gendered.','A mind so decided that people stop arguing with you.','To decide, and to be right.','People hand you the hard calls, and you carry them.'),
 ('H7','空亡','the Void','Emptiness: whatever sits there comes to nothing; “the lone crane and the lone phoenix”.','Loss of a spouse, “nothing comes of it”.','What sits there arrives late, or lighter than it sounded.','Something solid to hold.','You trust what is already in your hands. It lightens a hard star too (S4).'),
-('H8','桃花','Peach Blossom','Desire, scandal; “most feared in a woman’s chart”.','Scandal, affairs, anything gendered.','More attention than you ask for.','To be liked and wanted.','You choose with care who gets close.'),
-('H9','驿马','Travelling Horse','Travel and promotion, and for most people “a horse means hard roads”.','Exile, ruin through travel.','You settle less than you planned.','Movement and new ground.','You gain more from the motion than you lose to it.'),
-('H10','华盖','Canopy Star','Art, religion, a gifted mind, and a solitary one.','Isolation as a sentence.','Fewer people understand what you work on.','Depth, alone.','You mind it less than you thought you would.'),
+('H8','桃花','Charm Star','Desire, scandal; “most feared in a woman’s chart”.','Scandal, affairs, anything gendered.','More attention than you ask for.','To be liked and wanted.','You choose with care who gets close.'),
+('H9','驿马','Road Star','Travel and promotion, and for most people “a horse means hard roads”.','Exile, ruin through travel.','You settle less than you planned.','Movement and new ground.','You gain more from the motion than you lose to it.'),
+('H10','华盖','Muse Star','Art, religion, a gifted mind, and a solitary one.','Isolation as a sentence.','Fewer people understand what you work on.','Depth, alone.','You mind it less than you thought you would.'),
 ]
-names_html='\n'.join(Q(n,f'<span class="zh2">{zh}</span> {wk} <small class="grpl">{g}</small>',[(a,ad),(b,bd)]) for n,zh,wk,g,a,ad,b,bd in NAMES)
+names_html=Q('N0','How the names are built',[('A meaning word plus “Star”','Patron Star, Raider Star, Muse Star. One pattern for the whole set. It keeps them clear of the ten characters (the Twin, the General) and the Day Master names (the Blade, the Oak).'),('Bare figures','“the Patron”, “the Raider”. More vivid, but a third family of “the X” beside the characters and the Day Masters.'),('The literal names','Nobleman, Red Phoenix, Canopy Star, as in round 9 version 1.')])+'\n'+'\n'.join(Q(n,f'<span class="zh2">{zh}</span> {opts[0][0]} <small class="grpl">{g} · literally “{lit}”</small>',opts,f'<b>What it means.</b> {mean}') for n,zh,lit,g,mean,opts in NAMES)
 frame_rows=''.join(f'<tr><td><b>{en}</b> <span class="zh">{zh}</span></td><td>{cl}</td><td>{nv}</td><td>{c}</td><td>{w}</td><td>{cr}</td></tr>' for _,zh,en,cl,nv,c,w,cr in FRAME)
 frame_q='\n'.join(Q(h,f'<span class="zh2">{zh}</span> {en}: approve this frame?',[('Approve','The cost, the want and what carries you, as in the table.'),('Sharper','Keep the cost, and let a reading close on the cost alone when it is truer.'),('Leave the star out','Drop it from the product.')]) for h,zh,en,*_ in FRAME)
 SQ=[
-('S1','The mixed stars (Peach Blossom, Travelling Horse, Canopy Star): which group?',[('Stars that help','Keep the two groups. Each reading carries the price inside it (“you choose with care who gets close”).'),('A third group','“Stars that cut both ways” between help and test.')],'The classics call these mixed or worse. Modern readers take them as gifts. The friction rule asks for the cost to be named, which the texts do either way.'),
-('S2','The Robbery Star and the Hidden Spirit: one row or two?',[('Two cards','They read differently: one is loss from outside, the other a part of you held back. On the golden chart they sit in different gates.'),('One combined row','The round-5 idea, one “hard pair” row.')]),
-('S3','A star in two gates (chart B: Red Phoenix, Peach Blossom)',[('One card, a labelled reading per gate','The joined “where” line goes. Each reading gets its own gate and tense label (see chart B).'),('One card per gate','Two Red Phoenix cards on the page.')]),
-('S4','A star that sits on a Void branch',[('Add one line under it','“This star sits on your Void, and you meet its gift late and light.” A test star gets “its test”. The classics say the Void empties hard stars as well as good ones. Two new units.'),('No note','The Void card speaks for itself.')],'Chart B: Peach Blossom sits on the Void in the Year Gate. Chart C: the Robbery Star sits on the Void in the Month Gate.'),
-('S5','Heavenly and Moon Virtue on the day stem (a calculator change)',[('Count the day stem','The majority of the sources match any of the four stems, and 日德 on the day stem is the strongest seat. Chart C gains Heavenly Virtue in the Day Gate. Golden and B are unchanged. The golden check for C is updated.'),('Keep the day stem out','As built. The day stem is the reader, so no star is read on it.')]),
+('S1','The mixed stars (Charm, Road and Muse): which group?',[('Stars that help','Keep the two groups. Each reading carries the price inside it (“you choose with care who gets close”).'),('A third group','“Stars that cut both ways” between help and test.')],'The classics call these mixed or worse. Modern readers take them as gifts. The friction rule asks for the cost to be named, which the texts do either way.'),
+('S2','The Raider Star and the Veil Star: one row or two?',[('Two cards','They read differently: one is loss from outside, the other a part of you held back. On the golden chart they sit in different gates.'),('One combined row','The round-5 idea, one “hard pair” row.')]),
+('S3','A star in two gates (chart B: the Romance Star and the Charm Star)',[('One card, a labelled reading per gate','The joined “where” line goes. Each reading gets its own gate and tense label (see chart B).'),('One card per gate','Two Romance Star cards on the page.')]),
+('S4','A star that sits on a Void branch',[('Add one line under it','“This star sits on your Void, and you meet its gift late and light.” A test star gets “its test”. The classics say the Void empties hard stars as well as good ones. Two new units.'),('No note','The Void card speaks for itself.')],'Chart B: the Charm Star sits on the Void in the Year Gate. Chart C: the Raider Star sits on the Void in the Month Gate.'),
+('S5','Heavenly and Moon Virtue on the day stem (a calculator change)',[('Count the day stem','The majority of the sources match any of the four stems, and 日德 on the day stem is the strongest seat. Chart C gains the Grace Star in the Day Gate. Golden and B are unchanged. The golden check for C is updated.'),('Keep the day stem out','As built. The day stem is the reader, so no star is read on it.')]),
 ('S6','Which years the Advisor list shows',[('This year and the next four','Every year’s new stars. Chart B, at the end of its decade, sees 2026 to 2030 instead of nothing.'),('The rest of the current decade','As built. Chart B shows nothing. Golden shows the years 2026 to 2032.')]),
-('S7','Chip lines read true in any gate and tense',[('Rewrite to be tense-free','One chip line serves every chart. “Loss taught you to guard what is yours” is past, and wrong for a Robbery Star still coming. After: “You guard what is yours faster than most.”'),('Keep as written','')]),
+('S7','Chip lines read true in any gate and tense',[('Rewrite to be tense-free','One chip line serves every chart. “Loss taught you to guard what is yours” is past, and wrong for a Raider Star still coming. After: “You guard what is yours faster than most.”'),('Keep as written','')]),
 ('S8','Year Gate readings for readers under sixteen',[('Write them','Thirteen extra units, so a draft can never reach a reader.'),('Skip','Under-sixteens keep the draft line.')]),
 ('S9','I2 · Do stars stay in the product?',[('Yes, as planned','Free chips, the rest by tier.'),('No','Remove the section.')]),
 ('S10','I3 · Pricing for stars',[('No separate price','Free: the chips and lines. Seeker: the readings and the decade stars. Advisor: the year stars. As ruled in round 4.'),('A one-off add-on','Stars sold on their own.')]),
 ]
 struct_q='\n'.join(Q(a,b,c,d[0] if d else None) for a,b,c,*d in SQ)
-CNEW='<div class="newc">'+card('help','Heavenly Virtue','天德贵人','Day Gate · Home Chapter · from 2027','Trouble passes you more lightly than most.',None,[(None,'STAR tiande · reading.day.coming',S['STAR tiande · reading.day.coming'],None,False)])+'</div>'
+CNEW='<div class="newc">'+card('help','Grace Star','天德贵人','Day Gate · Home Chapter · from 2027','Trouble passes you more lightly than most.',None,[(None,'STAR tiande · reading.day.coming',S['STAR tiande · reading.day.coming'],None,False)])+'</div>'
 tpl=open('round-9/page.tpl.html').read()
 out=tpl.replace('{{NAMES}}',names_html).replace('{{FRAME_ROWS}}',frame_rows).replace('{{FRAME_Q}}',frame_q).replace('{{STRUCT_Q}}',struct_q)\
  .replace('{{GOLDEN}}',phone('golden','','')).replace('{{B}}',phone('B','','')).replace('{{C}}',phone('C','','').replace('<span class="grp">Stars that test</span>', CNEW+'<span class="grp">Stars that test</span>',1))
