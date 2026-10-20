@@ -16,7 +16,8 @@
 import { getEnergyBand, relationOf, STEM_YIN, volumeOf } from '../../engine/index.js';
 import { TG_PERSONA, TG_DEFLINE } from '../../content/index.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
-import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN } from '../../content/k2.js';
+import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN, GOD_RULING_DOMAINS } from '../../content/k2.js';
+import { STEM_WHO, RUN_LINES, PAIR_HEAD, PAIR_STORY, NOW_LINE, PRESENCE_LINE, RX_RIBBON, RELATION_LABELS, CODEX_TESTS } from '../../content/mergedReading.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 import { functionMetrics } from '../../engine/functionMetrics.js';
@@ -133,15 +134,15 @@ export const DEFLINE = {
 // needs a deeper dive"): one reading per condition, five rows — how it
 // works (the balance: Body + Mind add to you, Expression + Action + Order
 // spend you), on your chart (filled per chart), what the condition's people
-// share (gifts, costs), the scenes, what helps. DRAFT: wired for
-// functionality before the content is ruled (owner 2026-10-18), shown on
-// the dev build only. Station: CONDITION/{overfueled,underfueled,balanced}
+// share (gifts, costs), the scenes, what helps. RULED 2026-10-20 (owner,
+// Q1–Q10: no diagram, no gifts/costs heading, three scenes, a Codex link
+// on row 2); ships with the merge build, dev build only until then. Station: CONDITION/{overfueled,underfueled,balanced}
 // `reading`. The mechanism says "season or roots", never an amount: the
 // band comes from the three tests, and on ~1 chart in 5 Body + Mind hold
 // under half the amount on an Overfueled chart.
 export const CONDITION_READING = {
   Overfueled: {
-    status: 'draft',
+    status: 'ruled',
     mech: [
       'Two of your five energies add to you. Body is more of your own element, and Mind is the element that feeds it.',
       'In your chart these two have your birth season or your roots behind them. Your core takes in more than a day can spend.',
@@ -161,7 +162,6 @@ export const CONDITION_READING = {
       ['At work', 'A hard deadline brings you alive. An easy month leaves you rebuilding things that were never broken.'],
       ['At rest', 'A free weekend fills with projects by Saturday noon. Doing nothing feels heavier to you than doing too much.'],
       ['With people', 'A friend asks for advice, and you hand over the whole plan. You find it hard when they take only half of it.'],
-      ['When it is stuck', 'With no outlet, you go over the same thought again. You wait for certainty before you start.'],
     ],
     verb: 'Channel',
     helps: 'Give your extra force a place to go — aim it, don’t store it.',
@@ -169,7 +169,7 @@ export const CONDITION_READING = {
     release: 'Body and Mind',
   },
   Underfueled: {
-    status: 'draft',
+    status: 'ruled',
     mech: [
       'Three of your five energies spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape.',
       'In your chart these three have your birth season or your roots behind them. Your core spends more than it takes in.',
@@ -189,7 +189,6 @@ export const CONDITION_READING = {
       ['At work', 'You say yes to the extra project. Then you carry it alone in your evenings.'],
       ['At rest', 'A quiet morning with nobody asking for anything feels like a treat. For you it is fuel.'],
       ['With people', 'The right mentor or friend changes everything for you. With their backing you finish what you start.'],
-      ['When it is stuck', 'Too many demands arrive at once. You blame yourself before you blame the load.'],
     ],
     verb: 'Refill',
     helps: 'Take in what feeds you — intake isn’t a crutch, it’s your engine.',
@@ -197,7 +196,7 @@ export const CONDITION_READING = {
     release: 'Expression, Action and Order',
   },
   Balanced: {
-    status: 'draft',
+    status: 'ruled',
     mech: [
       'Body and Mind add to you. Expression, Action and Order spend you.',
       'In your chart neither side has the stronger claim on your season and your roots. Your core takes in about what it spends.',
@@ -217,7 +216,6 @@ export const CONDITION_READING = {
       ['At work', 'You can lead a project or support one, and both feel natural.'],
       ['At rest', 'A busy week and a quiet week both suit you, as long as neither runs too long.'],
       ['With people', 'Friends bring you their problems, because you take neither side too fast.'],
-      ['Over the years', 'A good year lifts you, and a hard year weighs on you. The timing matters more to you than to most.'],
     ],
     verb: 'Keep',
     helps: 'Intake and burn hold each other; protect the equilibrium.',
@@ -922,4 +920,78 @@ export function buildDiagnosisModel(m) {
   const mind = m.els.find((r) => !r.isCore && r.family === 'resource');
   const run = { body: coreName, mind: mind?.name || null, reading: CONDITION_READING[m.condition] || null };
   return { condition: m.condition, lead, track, groups, first, run };
+}
+
+// ── THE MERGED "YOUR READING" (owner 2026-10-18 →; rulings 2026-10-19/20) ──
+// One model for the merged page: the first reading's eight cards, the wheel's
+// relation labels, the energy sheet, "How am I running?" and its Codex
+// panel. Text comes from content/mergedReading.js (the station's merged-
+// journey fields); a cell not yet written falls back to a plain line built
+// from the chart (heads), or is left out (stories, now lines).
+const FAM_REL = { self: 'own', resource: 'feeds', officer: 'tames', output: 'you_feed', wealth: 'you_tame' };
+const REL_HEAD_FALLBACK = { own: '{El} strengthens {the archetype}', feeds: '{El} feeds {the archetype}', tames: '{El} shapes {the archetype}', you_feed: '{El} draws from {the archetype}', you_tame: '{El} is shaped by {the archetype}' };
+const YIN_STEMS = '乙丁己辛癸';
+const fillT = (t, o) => (t ? t.replace(/\{([^}]+)\}/g, (x, k) => (o[k] != null ? o[k] : x)) : null);
+const listJoin = (a) => (a.length < 2 ? (a[0] || '') : `${a.slice(0, -1).join(', ')} and ${a[a.length - 1]}`);
+const NUM_CAP = ['None', 'One', 'Two', 'Three'];
+
+export function buildMergedModel(m, chart) {
+  if (!m) return null;
+  const yin = YIN_STEMS.includes(m.stem);
+  const the = (m.archetype || '').replace(/^The /, 'the ');
+  const cond = m.condition; const coreName = m.core.name;
+  const rows = Object.fromEntries(m.els.map((r) => {
+    const rel = r.isCore ? 'own' : FAM_REL[r.family];
+    const key = `${m.core.hz}_${r.hz}`;
+    const headT = yin ? null : PAIR_HEAD[key];
+    const fnKey = fnKeyFor(m, r);
+    const clause = NOW_LINE.fn_clause[cond]?.[fnKey]; const vol = NOW_LINE.volume_clause[r.volume];
+    const s = buildElementScreen(m, r.el);
+    return [r.el, {
+      el: r.el, name: r.name, hz: r.hz, presence: r.presence, isCore: r.isCore, volume: r.volume,
+      rel, relLabel: RELATION_LABELS[rel],
+      head: fillT(headT || REL_HEAD_FALLBACK[rel], { El: r.name, 'the archetype': the }),
+      story: yin ? null : (PAIR_STORY[key] || null),
+      now: r.isCore ? NOW_LINE.core[cond] : (clause && vol ? `${clause}, and ${vol}.` : null),
+      fn: fnLabelFor(m, r), fnKey,
+      teaser: s?.verdict || '',
+      pole: m.balanced ? 'balanced' : (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst',
+      domains: GOD_RULING_DOMAINS[r.god] || [],
+      presenceLine: r.presence > 0.5 ? fillT(PRESENCE_LINE.pattern, { n: r.presence, El: r.name }) : fillT(PRESENCE_LINE.clauses.absent, { El: r.name }),
+    }];
+  }));
+  const order = m.balanced ? [...m.els].sort((a, b) => b.presence - a.presence) : [...m.skip, ...m.seek];
+  const first = m.balanced ? null : m.seek[0] || null;
+  const run = RUN_LINES[cond] || RUN_LINES.Balanced;
+  const rx = m.balanced ? RX_RIBBON.clauses.balanced
+    : fillT(RX_RIBBON.pattern, { ease: listJoin(m.skip.map((r) => r.name)), seek: listJoin(m.seek.map((r) => r.name)) });
+  const start = first ? fillT(RX_RIBBON.clauses.start, { El: first.name, Function: rows[first.el].fn }) : null;
+  // the Codex panel: the three tests (engine strengthTests, 2026-10-20)
+  const t = chart?.dayMaster?.strengthTests || null;
+  let codex = null;
+  if (t) {
+    const mEl = t.season.monthEl; const a = /^[AEIOU]/.test(mEl) ? 'an' : 'a';
+    const reasonKey = t.season.ok && t.root.ok ? 'season_and_root' : !t.season.ok && !t.root.ok ? 'neither' : t.season.ok ? 'season_only' : 'root_only';
+    const reason = fillT(CODEX_TESTS.reason[reasonKey], { Core: coreName }) || '';
+    const seasonT = t.season.ok
+      ? (mEl === coreName ? (CODEX_TESTS.season.pass_same || 'You were born in {a} {MonthEl} month, your own element.') : CODEX_TESTS.season.pass)
+      : CODEX_TESTS.season.fail;
+    codex = {
+      score: fillT(CODEX_TESTS.score, { score: t.score, reason, Condition: cond, run: run.short.toLowerCase() }).replace(/\s+/g, ' '),
+      tests: [
+        { key: 'Season', ok: t.season.ok, pts: t.season.ok ? '+4' : '+0', text: fillT(seasonT, { a, MonthEl: mEl, Core: coreName }) },
+        { key: 'Root', ok: t.root.ok, pts: t.root.ok ? '+2' : '+0', text: fillT(t.root.ok ? CODEX_TESTS.root.pass : CODEX_TESTS.root.fail, { Core: coreName }) },
+        { key: 'Allies', ok: t.allies.ok, pts: t.allies.ok ? '+1' : '+0', text: fillT(t.allies.ok ? CODEX_TESTS.allies.pass : CODEX_TESTS.allies.fail, { N: NUM_CAP[t.allies.n] || String(t.allies.n), Core: coreName }) },
+      ],
+    };
+  }
+  const mind = m.els.find((r) => !r.isCore && r.family === 'resource');
+  return {
+    condition: cond, balanced: m.balanced, rows, order: order.map((r) => r.el), first: first ? first.el : null,
+    who: STEM_WHO[m.stem] || m.maniEdge || '',
+    runLine: fillT(run.line, { Core: coreName }), runShort: run.short, runHeadline: fillT(run.headline, { Core: coreName }),
+    rx, start, codex, score: t ? t.score : null,
+    reading: CONDITION_READING[cond] || null, body: coreName, mind: mind ? mind.name : null,
+    ease: m.skip.map((r) => r.el), seek: m.seek.map((r) => r.el),
+  };
 }

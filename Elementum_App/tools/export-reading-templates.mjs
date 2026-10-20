@@ -48,6 +48,8 @@ const pos = await import('../src/content/positions.js');
 const pairs = await import('../src/content/pairs.js');
 const tgp = await import('../src/content/tgPatterns.js');
 const jd = await import('../src/components/journey/journeyData.js');
+// the merged "Your reading" fields (owner 2026-10-18: "map all fields")
+const mr = await import('../src/content/mergedReading.js');
 
 // ── taxonomy keys ──────────────────────────────────────────────────
 const STEMS = [
@@ -77,9 +79,9 @@ const GOD_CHARGE = { '比肩': 'steady', '劫财': 'fierce', '食神': 'gentle',
 
 // CONDITION-axis locks (REA_02 §5c).
 const CONDITIONS = {
-  overfueled: { term: 'Overfueled', zh: '身强', defline: jd.DEFLINE.Overfueled, cond_tail: jd.COND_TAIL.Overfueled, fold_verdict: jd.FOLD_VERDICT.Overfueled, reading: jd.CONDITION_READING.Overfueled, remedy: 'Channel' },
-  balanced: { term: 'Balanced', zh: '中和', defline: jd.DEFLINE.Balanced, cond_tail: jd.COND_TAIL.Balanced, fold_verdict: jd.FOLD_VERDICT.Balanced, reading: jd.CONDITION_READING.Balanced, remedy: null },
-  underfueled: { term: 'Underfueled', zh: '身弱', defline: jd.DEFLINE.Underfueled, cond_tail: jd.COND_TAIL.Underfueled, fold_verdict: jd.FOLD_VERDICT.Underfueled, reading: jd.CONDITION_READING.Underfueled, remedy: 'Refill' },
+  overfueled: { term: 'Overfueled', zh: '身强', defline: jd.DEFLINE.Overfueled, cond_tail: jd.COND_TAIL.Overfueled, fold_verdict: jd.FOLD_VERDICT.Overfueled, reading: jd.CONDITION_READING.Overfueled, run_line: mr.RUN_LINES.Overfueled.line, run_short: mr.RUN_LINES.Overfueled.short, run_headline: mr.RUN_LINES.Overfueled.headline, remedy: 'Channel' },
+  balanced: { term: 'Balanced', zh: '中和', defline: jd.DEFLINE.Balanced, cond_tail: jd.COND_TAIL.Balanced, fold_verdict: jd.FOLD_VERDICT.Balanced, reading: jd.CONDITION_READING.Balanced, run_line: mr.RUN_LINES.Balanced.line, run_short: mr.RUN_LINES.Balanced.short, run_headline: mr.RUN_LINES.Balanced.headline, remedy: null },
+  underfueled: { term: 'Underfueled', zh: '身弱', defline: jd.DEFLINE.Underfueled, cond_tail: jd.COND_TAIL.Underfueled, fold_verdict: jd.FOLD_VERDICT.Underfueled, reading: jd.CONDITION_READING.Underfueled, run_line: mr.RUN_LINES.Underfueled.line, run_short: mr.RUN_LINES.Underfueled.short, run_headline: mr.RUN_LINES.Underfueled.headline, remedy: 'Refill' },
   channel: { term: 'Channel', zh: '克泄耗', defline: jd.DEFLINE.Channel, appr_tail: jd.APPR_LINE.Channel.tail, kind: 'remedy verb' },
   refill: { term: 'Refill', zh: '生助', defline: jd.DEFLINE.Refill, appr_tail: jd.APPR_LINE.Refill.tail, kind: 'remedy verb' },
 };
@@ -168,6 +170,7 @@ for (const s of STEMS) {
     dm_mechanism: dm.edge ?? null,
     yourNature_desc: card.yourNature?.desc ?? null,
     dm_overview: card.identity?.overview ?? null,
+    who: mr.STEM_WHO[s.hz] ?? null,
     // gifts / shadows / door_note HIBERNATING in the station's __ore
     // (retired_2026-10-17_diagnosis, P4 v4): no longer code-mapped.
     __ore: {
@@ -321,6 +324,7 @@ for (const dm of PAIR_ELS) {
       mechanism: cell?.mechanism ?? null,
       function: cell?.function ?? null,
       cta_verdict: cell?.cta_verdict ?? null,
+      head: mr.PAIR_HEAD[key] ?? null, head_yin: null, story: mr.PAIR_STORY[key] ?? null, story_yin: null,
       carry: cell?.carry ?? null,
       // sparse: only the 16 cells whose yang noun does not fit the yin sibling carry it
       ...(cell?.carry_yin ? { carry_yin: cell.carry_yin } : {}),
@@ -371,13 +375,16 @@ T('tpl_carry_lead', 'LIVE 2026-09-15 · P4 carry card lead line', '≤20w', {
 T('tpl_carry_row', 'RETIRED 2026-10-17 · HIBERNATING in __ore', null, {});
 T('tpl_pool_bridge', 'RETIRED 2026-10-17 · HIBERNATING in __ore', null, {});
 T('tpl_pool_note', 'RETIRED 2026-10-17 · HIBERNATING in __ore', null, {});
-T('tpl_presence_frames', 'PLANNED', '≤20w ×4', { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null } });
+T('tpl_presence_frames', 'PLANNED', '≤20w ×4', { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null }, draft_pattern: mr.PRESENCE_LINE.pattern, draft_clauses: mr.PRESENCE_LINE.clauses });
 T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the 生/克 cognition floor; surfaces pending (wheel arrows · seat derivations · team sentence · Codex chapter)', 'law verb + image line ≤8w · ×10', {
   pattern: '{ElA} {feeds|tames} {ElB} — {image line}',
   law_verbs: cyc.LAW_VERB, feeds: cyc.FEEDS, tames: cyc.TAMES,
   image_lines: cyc.CYCLE_LINE, team_nouns: cyc.TEAM_NOUN, family_teams: cyc.FAMILY_TEAM,
+  relation_labels: mr.RELATION_LABELS,
 });
-T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null });
+T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null, draft_pattern: mr.RX_RIBBON.pattern, draft_clauses: mr.RX_RIBBON.clauses });
+T('tpl_now_line', 'DRAFT 2026-10-18 · the energy sheet\'s now line', '≤20w', { fn_clause: mr.NOW_LINE.fn_clause, core: mr.NOW_LINE.core, volume_clause: mr.NOW_LINE.volume_clause });
+T('tpl_codex_tests', 'DRAFT 2026-10-18 · the Codex panel under How am I running?', '≤22w per line', { score: mr.CODEX_TESTS.score, reason: mr.CODEX_TESTS.reason, season: mr.CODEX_TESTS.season, root: mr.CODEX_TESTS.root, allies: mr.CODEX_TESTS.allies });
 T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
 T('tpl_section_teasers', 'LIVE (curation v6, owner 2026-08-19) — ONE conclusive quoted line per section card', 'one line each', {
   pattern: 'mech: "{state turn, first sentence}" · fn: "{function body, first sentence}" · dom: "{lead seat defline}[ And {n-1 word} more seat(s) besides.]" — position rows above the dom line: {term} · {汉字} / "rules {declared domains}"',

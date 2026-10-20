@@ -430,7 +430,7 @@
         "key": "身强",
         "canonical_name": "Overfueled",
         "value": {
-          "status": "draft",
+          "status": "ruled",
           "mech": [
             "Two of your five energies add to you. Body is more of your own element, and Mind is the element that feeds it.",
             "In your chart these two have your birth season or your roots behind them. Your core takes in more than a day can spend.",
@@ -458,10 +458,6 @@
             [
               "With people",
               "A friend asks for advice, and you hand over the whole plan. You find it hard when they take only half of it."
-            ],
-            [
-              "When it is stuck",
-              "With no outlet, you go over the same thought again. You wait for certainty before you start."
             ]
           ],
           "verb": "Channel",
@@ -475,7 +471,7 @@
         "key": "中和",
         "canonical_name": "Balanced",
         "value": {
-          "status": "draft",
+          "status": "ruled",
           "mech": [
             "Body and Mind add to you. Expression, Action and Order spend you.",
             "In your chart neither side has the stronger claim on your season and your roots. Your core takes in about what it spends.",
@@ -503,10 +499,6 @@
             [
               "With people",
               "Friends bring you their problems, because you take neither side too fast."
-            ],
-            [
-              "Over the years",
-              "A good year lifts you, and a hard year weighs on you. The timing matters more to you than to most."
             ]
           ],
           "verb": "Keep",
@@ -520,7 +512,7 @@
         "key": "身弱",
         "canonical_name": "Underfueled",
         "value": {
-          "status": "draft",
+          "status": "ruled",
           "mech": [
             "Three of your five energies spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape.",
             "In your chart these three have your birth season or your roots behind them. Your core spends more than it takes in.",
@@ -548,10 +540,6 @@
             [
               "With people",
               "The right mentor or friend changes everything for you. With their backing you finish what you start."
-            ],
-            [
-              "When it is stuck",
-              "Too many demands arrive at once. You blame yourself before you blame the load."
             ]
           ],
           "verb": "Refill",

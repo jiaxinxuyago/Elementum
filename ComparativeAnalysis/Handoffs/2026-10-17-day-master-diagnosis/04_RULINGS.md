@@ -35,9 +35,26 @@ Ruled on https://claude.ai/artifact/G6TYvNcaL8CXTQfGuzRT9o ("Q1 A, Q2 A, Q3 A, Q
 | Retire | The pieces the merge removes retire to ore: the Day Master page as a separate stop, the hero arrow, the energy manual, the GROW/RELEASE rails, the dot card, the seal's share action |
 | Relation labels | LOCKED as "feeds you · shapes you · you feed it · you shape it · more of you", relative to the reader's core; "tames" is not used on the wheel (REA_02 §5d, `tpl_cycle_line.relation_labels`) |
 
+## 2026-10-20 · the condition reading, last round (Q1–Q10)
+
+Ruled on https://claude.ai/artifact/GzdMe6msCVoNb7QbtXnxrc, one by one in the session.
+
+| Q | Ruling |
+|---|---|
+| Q1 | "How it works": the three sentences as drafted |
+| Q2 | The balance diagram is dropped |
+| Q3 | "On your chart": the one line plus "How is this worked out? ›" to the Codex panel (the engine now returns the three tests) |
+| Q4 | Three gifts and three costs |
+| Q5 | No heading over them: the Gifts and Costs pills only |
+| Q6 | Three scenes (the fourth dropped) |
+| Q7 | The Channel / Refill / Keep line plus the function rows |
+| Q8 | Underfueled and Balanced follow Overfueled sentence for sentence |
+| Q9 | Balanced's costs stay mild as drafted |
+| Q10 | Live with the merge build |
+
+**Built on the dev site (owner: "I want to see this build in before we start finessing"):** the merged Your reading behind `MERGE_V1 = IS_DEV_TOOLS` (JourneyStage.jsx), with the first reading's eight cards after the Naming, beats 1–3, the energy sheet, "How am I running?" as a full page, the depth beats as built, the Day Master routes landing on Your reading. elementum.life is unchanged.
+
 ## Still open
 
-- The condition reading's content (O1–B5) and the three points on its review page.
 - The merged-journey drafts in the station (14 fields after the relation labels were locked).
-- "How am I running?" as a full page rather than a bottom sheet.
-- The go-ahead to build the merge in the app.
+- Finessing each page on the dev build, then switching the merge on for elementum.life.

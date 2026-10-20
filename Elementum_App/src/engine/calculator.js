@@ -321,11 +321,15 @@ export function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
   });
   const gotShi = supporting.length > (nonDMStems.length - supporting.length);
   const g = (gotLing?4:0)+(gotDi?2:0)+(gotShi?1:0);
-  if (g===7) return {strength:"extremely_strong",strengthScore:0.92};
-  if (g===6||g===5||g===3) return {strength:"strong",strengthScore:0.72};
-  if (g===4) return {strength:"moderate",strengthScore:0.50};
-  if (g===2||g===1) return {strength:"weak",strengthScore:0.30};
-  return {strength:"extremely_weak",strengthScore:0.12};
+  // The three tests themselves (the Codex panel under "How am I running?",
+  // owner 2026-10-20): season 得令 4, root 得地 2, allies 得势 1. Added
+  // fields only; strength and strengthScore are unchanged.
+  const tests = {score:g, season:{ok:gotLing, monthEl:monthMainQi}, root:{ok:gotDi}, allies:{ok:gotShi, n:supporting.length, of:nonDMStems.length}};
+  if (g===7) return {strength:"extremely_strong",strengthScore:0.92,tests};
+  if (g===6||g===5||g===3) return {strength:"strong",strengthScore:0.72,tests};
+  if (g===4) return {strength:"moderate",strengthScore:0.50,tests};
+  if (g===2||g===1) return {strength:"weak",strengthScore:0.30,tests};
+  return {strength:"extremely_weak",strengthScore:0.12,tests};
 }
 
 // ── CATALYST + TG PATTERN ────────────────────────────────────────────────────
@@ -603,7 +607,7 @@ export function calculateBaziChart(input) {
   return {
     meta:{birthDate:`${year}-${String(month).padStart(2,"0")}-${String(day).padStart(2,"0")}`,birthHour:hour,location:location||"Beijing",longitude:lon,gender,calculatedAt:now.toISOString().split("T")[0]},
     pillars:{year:{stem:yearStem,branch:yearBranch,stemElement:STEM_ELEM[yearStem],branchElement:BRANCH_ELEM[yearBranch],stemPolarity:STEM_YIN[yearStem]?"yin":"yang",branchPolarity:BRANCH_YIN[yearBranch]?"yin":"yang"},month:{stem:monthStem,branch:monthBranch,stemElement:STEM_ELEM[monthStem],branchElement:BRANCH_ELEM[monthBranch],stemPolarity:STEM_YIN[monthStem]?"yin":"yang",branchPolarity:BRANCH_YIN[monthBranch]?"yin":"yang"},day:{stem:dayStem,branch:dayBranch,stemElement:STEM_ELEM[dayStem],branchElement:BRANCH_ELEM[dayBranch],stemPolarity:STEM_YIN[dayStem]?"yin":"yang",branchPolarity:BRANCH_YIN[dayBranch]?"yin":"yang"},hour:{stem:hourStem,branch:hourBranch,stemElement:STEM_ELEM[hourStem],branchElement:BRANCH_ELEM[hourBranch],stemPolarity:STEM_YIN[hourStem]?"yin":"yang",branchPolarity:BRANCH_YIN[hourBranch]?"yin":"yang"}},
-    dayMaster:{stem:dayStem,element:dmEl,polarity:STEM_YIN[dayStem]?"yin":"yang",strength,strengthScore},
+    dayMaster:{stem:dayStem,element:dmEl,polarity:STEM_YIN[dayStem]?"yin":"yang",strength,strengthScore,strengthTests:dmStrengthResult.tests},
     elements,
     missingElements:Object.keys(elements).filter(e=>!elements[e].present),
     tension: tgPattern, tgPattern, catalyst, archetypeKey,

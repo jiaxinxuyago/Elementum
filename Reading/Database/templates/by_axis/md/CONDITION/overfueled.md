@@ -21,7 +21,7 @@
 | `defline` | More fuel comes in than your core burns — the surplus wants somewhere to go. Built into your chart, not today’s mood. |
 | `cond_tail` | more comes in than it burns. |
 | `fold_verdict` | channel the surplus. |
-| `reading.status` | draft |
+| `reading.status` | ruled |
 | `reading.mech` | Two of your five energies add to you. Body is more of your own element, and Mind is the element that feeds it. · In your chart these two have your birth season or your roots behind them. Your core takes in more than a day can spend. · The other three spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape. They are the outlets your surplus is looking for. |
 | `reading.gifts` | You carry a heavy load without asking for help. · You stay steady under pressure, and you recover fast. · You trust your own judgement and act on it. |
 | `reading.costs` | You grow restless when nothing asks much of you. · You feel sure you are right, and criticism lands hard. · You hold other people to your own pace and standard. |
@@ -31,8 +31,6 @@
 | `reading.scenes[1].1` | A free weekend fills with projects by Saturday noon. Doing nothing feels heavier to you than doing too much. |
 | `reading.scenes[2].0` | With people |
 | `reading.scenes[2].1` | A friend asks for advice, and you hand over the whole plan. You find it hard when they take only half of it. |
-| `reading.scenes[3].0` | When it is stuck |
-| `reading.scenes[3].1` | With no outlet, you go over the same thought again. You wait for certainty before you start. |
 | `reading.verb` | Channel |
 | `reading.helps` | Give your extra force a place to go — aim it, don’t store it. |
 | `reading.grow` | Expression, Action and Order |

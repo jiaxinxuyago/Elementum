@@ -76,13 +76,21 @@ The owner's framing (2026-10-17): "Who runs it layer is a major Domain reading t
 
 ## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
 
-### DM-2 · The merged reading 🔄 DESIGN RULED, BUILD AWAITING GO-AHEAD
-The catalogue and the Day Master page merge into one page, "Your reading" (option 1, 2026-10-18). The first reading's eight cards come after the Naming, then the gather into the wheel. The depth sections are placed as built (Q1–Q6 A, 2026-10-19). The condition reading is wired on dev as a draft. Every field has a station home, with drafts to rule. Record: `ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md`. Prototype: https://claude.ai/artifact/8vXKMh5NeVRrUByuYxymMR. Open:
-- the condition reading's content (O1–B5);
-- the 15 merged-journey drafts and the relation-label verb ("shapes" or "tames");
-- the wheel's default view;
-- "How am I running?" as a full page;
-- the build go-ahead.
+### DM-2 · The merged reading 🔄 BUILT ON THE DEV SITE, POLISH NEXT
+The catalogue and the Day Master page are one page, "Your reading" (option 1, 2026-10-18). It is built on dev.elementum.life behind `MERGE_V1 = IS_DEV_TOOLS` (2026-10-20) and contains:
+- the first reading's eight cards after the Naming, then the dissolve into the wheel;
+- beats 1–3: the hero with Birth chart and the condition pill, the wheel with arrows by default, the dial, Start here, and what your chart asks for;
+- one energy sheet for every energy tap; its domain chips open the domain reading;
+- "How am I running?" as a full page: the stem × band paragraph, the condition reading (ruled Q1–Q10), the Codex tests and the Blueprint door;
+- the depth beats as built.
+
+The Day Master routes land on Your reading. Record: `ComparativeAnalysis/Handoffs/2026-10-17-day-master-diagnosis/04_RULINGS.md`.
+
+Open:
+- polish each page;
+- the 14 merged-journey drafts (only the golden chart is written; the other charts fall back);
+- the remaining 29 band paragraphs;
+- switching the merge on for elementum.life.
 
 ## EP — the element-page restructure (owner feedback + rulings ×4, 2026-08-19; REA_03 ELEMENT_PAIR row)
 

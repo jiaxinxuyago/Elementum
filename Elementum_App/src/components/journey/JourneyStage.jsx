@@ -61,7 +61,9 @@ function MetricBars({ m }) {
   );
 }
 import { APP_URL } from '../../infra/index.js';
-import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf, buildMergedModel } from './journeyData.js';
+import { MergedBeats, WheelArrows, EnergySheet, RunPage, FirstReading } from './MergedViews.jsx';
+import { resolveDayMasterReading } from '../reading/readingResolve.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { resolveDomains } from '../reading/domainsResolve.js';
 import { DOMAINS_CONTENT } from '../../content/domains.js';
@@ -109,6 +111,18 @@ const DOMAINS_V2 = false;
 // lands. Units not yet written render their draft lines (B3).
 const DEPTH_V1 = IS_DEV_TOOLS;
 const DEPTH_SCREENS = ['domains', 'chapters', 'stars', 'blueprint'];
+// THE MERGE (owner 2026-10-18, option 1; rulings 2026-10-19 Q1–Q6 A and
+// 2026-10-20): the catalogue and the Day Master page as one page, "Your
+// reading" — beats 1–3 rebuilt (who you are · your five energies with the
+// arrows view as default · how you run, start here, what your chart asks
+// for), one energy sheet for every energy tap, "How am I running?" as a full
+// page, and the first reading's eight cards after the Naming. The energy
+// manual, the GROW/RELEASE rails, the hero arrow, the dot card and the
+// seal's share action retire under it (owner 2026-10-20). Dev site only
+// until the owner has seen it.
+const MERGE_V1 = IS_DEV_TOOLS;
+const WHEEL_VIEW_KEY = 'elm.wheelView';
+const readWheelView = () => { try { return localStorage.getItem(WHEEL_VIEW_KEY) || 'do'; } catch { return 'do'; } };
 // the words note's new words (R3), shown with the sections
 const DEPTH_WORDS = {
   seat: { label: 'Seat', tint: 't-core', pill: 'core', icon: null, body: 'Your chart has seven seats, a stem and a branch at each of four gates (the day stem is you). One of ten characters sits in each seat, and the seat says where in your life that character works.' },
@@ -117,7 +131,7 @@ const DEPTH_WORDS = {
   star: { label: 'Star', tint: 't-core', pill: 'core', icon: null, body: 'The symbolic stars are an older, lighter layer of the reading. Each one colours the gate it sits in, and some arrive with a decade or a year.' },
 };
 
-export default function JourneyStage({ reveal = false, openCore = false, openEl = null, openSection = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour }) {
+export default function JourneyStage({ reveal = false, openCore = false, openEl = null, openSection = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour, onBirthChart }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const { openUpgrade } = useUpgrade();   // THE EDGE's domain sheet leads to the price gate (owner 2026-10-15)
@@ -138,6 +152,12 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [kwOpen, setKwOpen] = useState(null);      // the keyword sheet (owner 2026-10-14): {word, text, pole, fnLabel}
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
+  const [sheetEl, setSheetEl] = useState(null);    // THE MERGE: the energy sheet (replaces the dot card)
+  const [wheelView, setWheelViewS] = useState(readWheelView); // THE MERGE: 'do' (arrows, the default) | 'amt'
+  const setWheelView = (v) => { setWheelViewS(v); try { localStorage.setItem(WHEEL_VIEW_KEY, v); } catch { /* storage off */ } };
+  const [storyOn, setStoryOn] = useState(false);   // THE MERGE: the first reading's eight cards
+  const storyDoneRef = useRef(false);
+  const finishRef = useRef(null);
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom') — fn re-split as the function reading's home (owner re-org 2026-09-02)
   const [deepOpen, setDeepOpen] = useState(false); // seat Stage B ("the deeper layers") — resets per seat
@@ -151,6 +171,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
     const card = STEM_CARD_DATA[chart.dayMaster.stem];
     return buildJourneyModel({ chart, ec, identity, card });
   }, [chart, ec, identity]);
+  const merged = useMemo(() => (MERGE_V1 && model ? buildMergedModel(model, chart) : null), [model, chart]);
 
   const playingReveal = reveal;
 
@@ -311,14 +332,18 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
       });
     };
 
+    finishRef.current = finish;
+    // THE MERGE: the swipe opens the first reading; its last card (or Skip)
+    // runs the dissolve.
+    const advance = () => { if (MERGE_V1 && !storyDoneRef.current) setStoryOn(true); else finish(); };
     const onClick = (e) => {
-      if (e.target.closest('.rvl-swipe')) { finish(); return; }
-      if (!ceremonyDone()) rv.classList.add('done'); else finish();
+      if (e.target.closest('.rvl-swipe')) { advance(); return; }
+      if (!ceremonyDone()) rv.classList.add('done'); else advance();
     };
     let dy = null;
     const onDown = (e) => { dy = e.clientY; rv.setPointerCapture && rv.setPointerCapture(e.pointerId); };
     const onMove = (e) => { if (dy === null || finished) return; const d = dy - e.clientY; if (d > 6) setP((d - 6) / 360); };
-    const onUp = () => { if (dy === null || finished) { dy = null; return; } if (p > 0.3) finish(); else if (p > 0.01) spring(0); dy = null; };
+    const onUp = () => { if (dy === null || finished) { dy = null; return; } if (p > 0.3) { if (MERGE_V1 && !storyDoneRef.current) spring(0, advance); else finish(); } else if (p > 0.01) spring(0); dy = null; };
     const onCancel = () => { if (!finished && p > 0.01) spring(0); dy = null; };
     rv.addEventListener('click', onClick);
     rv.addEventListener('pointerdown', onDown);
@@ -487,7 +512,10 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
     if (name === 'domain') { openDomain(arg, from); return; }
     setDepthFrom(from); goScreen(name);
   };
-  const depthBack = (from) => goScreen(from === 'element' && elScreen ? 'element' : from === 'elsec' && elScreen ? 'elsec' : from === 'domain' && domPage ? 'domain' : DEPTH_SCREENS.includes(from) ? from : 'catalogue');
+  const depthBack = (from) => goScreen(from === 'element' && elScreen ? 'element' : from === 'elsec' && elScreen ? 'elsec' : from === 'domain' && domPage ? 'domain' : DEPTH_SCREENS.includes(from) ? from : MERGE_V1 && from === 'run' ? 'run' : 'catalogue');
+  // THE MERGE: "How am I running?" opens the Day Master reading card, the
+  // stem × band paragraph (owner 2026-10-20)
+  const runNature = MERGE_V1 && merged ? (resolveDayMasterReading(chart.dayMaster.stem, chart, m.band)?.nature || STEM_CARD_DATA[chart.dayMaster.stem]?.yourNature?.desc || '') : '';
   const DEPTH_BACK = { domains: 'YOUR READING · DOMAINS', chapters: 'YOUR READING · LIFE CHAPTERS', stars: 'YOUR READING · STARS', blueprint: 'YOUR READING · ENERGY BLUEPRINT' };
   const bySeatRank = (a, b) => (SLOT_RANK[a.slot] || 9) - (SLOT_RANK[b.slot] || 9);
   const firstSent = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
@@ -555,6 +583,12 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
             </div>
           )}
 
+          {/* THE MERGE: the first reading's eight cards, between the Naming and the dissolve */}
+          {playingReveal && MERGE_V1 && merged && storyOn && (
+            <FirstReading m={m} g={merged} sealSrc={sealSrc} Use={Use} onShare={() => setShowShare(true)}
+              onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
+          )}
+
           {/* ── the catalogue ── */}
           <div className={`jscreen${screen === 'catalogue' ? ' active' : ''}`} data-screen="catalogue">
             <img className="ground-img2 bg-energy2" src="/backgrounds/bg-energymap-01-top-band.png" alt="" />
@@ -564,6 +598,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
             <div className="scrollwrap" ref={swRef}>
               <div className="padv2" ref={padRef}>
 
+                {!MERGE_V1 && (<>
                 <div className="beat" data-beat="1">
                   <div className="idhero" data-hero="chop" data-css="idheroP">
                     <div className="hero-chop">
@@ -674,6 +709,39 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     ))}
                   </div>
                 </div>
+                </>)}
+                {/* THE MERGE: beats 1–3 of "Your reading" */}
+                {MERGE_V1 && merged && (
+                  <MergedBeats m={m} g={merged} Use={Use} sealSrc={sealSrc} condIcon={condIcon}
+                    view={wheelView} setView={setWheelView}
+                    onRun={() => goScreen('run')} onEnergy={(el) => setSheetEl(el)}
+                    onShare={() => setShowShare(true)} onBirthChart={onBirthChart}
+                    wheel={(
+                      <div className={`wheel mg-wheel${wheelView === 'do' ? ' mg-do' : ''}`} ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its sheet">
+                        <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="Your seal: how am I running?" onClick={() => goScreen('run')} />
+                        <WheelArrows m={m} g={merged} />
+                    {m.els.map((r) => (
+                      <button key={r.el} data-el={r.el}
+                        className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
+                        style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }}
+                        aria-label={`${r.name}, ${r.presence} percent — ${r.isCore ? 'your core' : r.role}; its relation with your core`}
+                        onClick={() => setSheetEl(r.el)}>
+                        <Use id={`el-${r.el}`} className="elmark" />
+                        <span className="pc">{r.presence}%</span>
+                        {r.isCore
+                          ? <span className="pip who"><Disc /></span>
+                          : r.role === 'friction'
+                            ? <span className="pip down"><Use id="ar-down" /></span>
+                            : <span className={`pip up${r.major ? ' major' : ''}`}><Use id="ar-up" /></span>}
+                        {/* function label (owner 2026-09-10: "label it but
+                            keep the design clean") — the §5f noun, micro */}
+                        <span className="fnlab">{fnNoun(r)}</span>
+                        <span className={`mg-rv ${merged.rows[r.el].pole}`}>{merged.rows[r.el].relLabel}</span>
+                      </button>
+                    ))}
+                      </div>
+                    )} />
+                )}
                 {/* YOUR DOMAINS, the fourth beat (DOM-1, owner 2026-10-17 Q1/Q2 A) */}
                 {DOMAINS_V2 && dm && (
                   <>
@@ -708,6 +776,21 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
               </div>
             </div>
           </div>
+
+          {/* ── THE MERGE: "How am I running?" ── */}
+          {MERGE_V1 && merged && (
+            <div className={`jscreen${screen === 'run' ? ' active' : ''}`} data-screen="run">
+              <div className="plateimg a-plate-rice" /><div className="eltint" />
+              <button className="backrow" aria-label="Back to Your reading" onClick={() => goScreen('catalogue')}>
+                <span className="bico"><Use id="ico-chev-l" /></span>
+                <span className="bl el-back">YOUR READING · HOW YOU RUN</span>
+              </button>
+              <div className="scrollwrap"><div className="padv2">
+                <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon}
+                  onBlueprint={depth ? () => openDepth('blueprint', null, 'run') : null} />
+              </div></div>
+            </div>
+          )}
 
           {/* ── element reading ── */}
           {elScreen && (
@@ -1231,6 +1314,14 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
         </div>
       </div>
       {/* wheel-dot float — the energy-reading entry card (REA_02 §5d) */}
+      {/* THE MERGE: one energy sheet for every energy tap; it stays open
+          behind an energy page or a domain reading and is there on back */}
+      {MERGE_V1 && merged && sheetEl && screen === 'catalogue' && (
+        <EnergySheet row={merged.rows[sheetEl]} first={merged.first === sheetEl} Use={Use} DOM={DOM}
+          onClose={() => setSheetEl(null)}
+          onRead={() => goElement(sheetEl)}
+          onDomain={(d) => openDepth('domain', d, 'catalogue')} />
+      )}
       {dot && (
         <div className="wordpop open" role="presentation">
           <div className="wp-scrim" onClick={() => setDotOpen(null)} />

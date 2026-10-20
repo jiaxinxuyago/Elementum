@@ -15,7 +15,7 @@
     "cond_tail": "it burns more than it takes in.",
     "fold_verdict": "refill the tank.",
     "reading": {
-      "status": "draft",
+      "status": "ruled",
       "mech": [
         "Three of your five energies spend you. Expression lets your energy out, Action puts it to work, and Order gives it a shape.",
         "In your chart these three have your birth season or your roots behind them. Your core spends more than it takes in.",
@@ -43,10 +43,6 @@
         [
           "With people",
           "The right mentor or friend changes everything for you. With their backing you finish what you start."
-        ],
-        [
-          "When it is stuck",
-          "Too many demands arrive at once. You blame yourself before you blame the load."
         ]
       ],
       "verb": "Refill",
@@ -59,10 +55,11 @@
     "run_short": "Spends more than it takes in",
     "run_headline": "You run Underfueled: your {Core} spends more than it takes in."
   },
-  "reading_note": "reading = THE CONDITION READING (owner 2026-10-18): DRAFT, wired on the dev build for functionality before the content is ruled. Rows: mech (how it works), on your chart (runtime: Body = core, Mind = feeder), gifts, costs, scenes, helps (the locked §5c remedy line). Review page: claude.ai/artifact/3jAkDqAiAukF2iM29v1aWw.",
+  "reading_note": "reading = THE CONDITION READING (owner 2026-10-18): RULED 2026-10-20; ships with the merge build (Q10). Rows: mech (how it works), on your chart (runtime: Body = core, Mind = feeder), gifts, costs, scenes, helps (the locked §5c remedy line). Review page: claude.ai/artifact/3jAkDqAiAukF2iM29v1aWw.",
   "field_status": {
     "run_line": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (Underfueled and Balanced are mirrors of the Overfueled draft)",
     "run_short": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (Underfueled and Balanced are mirrors of the Overfueled draft)",
-    "run_headline": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (Underfueled and Balanced are mirrors of the Overfueled draft)"
+    "run_headline": "DRAFT 2026-10-18 · prototype text from the merged-journey design (owner: \"map all fields\"), to rule (Underfueled and Balanced are mirrors of the Overfueled draft)",
+    "reading": "RULED 2026-10-20 (owner, last round Q1–Q10): O1 kept as drafted, the balance diagram dropped (Q2), row 2 one line plus a Codex link (Q3), three gifts and three costs with no heading (Q4, Q5), three scenes (Q6: the fourth dropped), the Channel/Refill/Keep line plus the function rows (Q7); Underfueled and Balanced follow sentence for sentence (Q8); Balanced costs mild as drafted (Q9); live with the merge build (Q10)."
   }
 }
