@@ -26,10 +26,18 @@ Ruled on https://claude.ai/artifact/G6TYvNcaL8CXTQfGuzRT9o ("Q1 A, Q2 A, Q3 A, Q
 | Q5 A | One words note at the foot with all eight words (Core, Overfueled, Catalyst, Friction, Seat, Gate, Decade, Star) |
 | Q6 A | The first reading does not point to the depth sections |
 
+## 2026-10-20
+
+| Ruling | What it settles |
+|---|---|
+| Wheel default | The arrows view, "What they do to you", is the wheel's default; "By amount" is one tap away |
+| How am I running? | Opens the Day Master reading card (the stem × band paragraph); the station holds all 30 (live), with the R2 rewrite approved for 庚 Overfueled only |
+| Retire | The pieces the merge removes retire to ore: the Day Master page as a separate stop, the hero arrow, the energy manual, the GROW/RELEASE rails, the dot card, the seal's share action |
+| Relation labels | LOCKED as "feeds you · shapes you · you feed it · you shape it · more of you", relative to the reader's core; "tames" is not used on the wheel (REA_02 §5d, `tpl_cycle_line.relation_labels`) |
+
 ## Still open
 
 - The condition reading's content (O1–B5) and the three points on its review page.
-- The merged-journey drafts in the station (15 fields), and the relation labels: "shapes" as drafted or the locked law verb "tames".
-- The wheel's default view (recommended: the arrows).
+- The merged-journey drafts in the station (14 fields after the relation labels were locked).
 - "How am I running?" as a full page rather than a bottom sheet.
 - The go-ahead to build the merge in the app.

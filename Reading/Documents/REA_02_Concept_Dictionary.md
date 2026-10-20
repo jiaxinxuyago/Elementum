@@ -233,6 +233,8 @@ The cognition floor under the whole interpretation stack (owner insight 2026-08-
 | 生助 | **Inflow** | Root (feeds you) + Core (stands with you) |
 | 克泄耗 | **Outflow** | Voice (you feed it) + Drive (you tame it) + Duty (it tames you) |
 
+**The wheel's relation labels (LOCKED, owner 2026-10-20: "keep it relative to your core. Lock in what we have now, do not use 'tames'"):** under each energy on the dominance wheel's "What they do to you" view, read from the reader's core: **feeds you** (the element that feeds the core, Mind) · **shapes you** (the element that 克 the core, Order) · **you feed it** (Expression) · **you shape it** (Action) · **more of you** (Body). The wheel never says "tames". Station: `TEMPLATED/tpl_cycle_line.relation_labels`.
+
 **Derivation grammar (the sentences the layer teaches):** seat derivation — `[A] feeds/tames [B], so [A] is your [Seat]` ("Earth feeds Metal, so Earth is your Root"). Team sentence — `Your core runs [band], so the energies that [spend/fill] it are your catalysts` (the sentence that makes seek/skip a consequence instead of a decree). Cognition ladder: L1 cycles → L2 seats (§5b) → L3 verdict (bands §5c + shadow nouns §5b-ii) → L4 interpretation.
 
 ## 5e · LOCKED — the POSITION vocabulary: named configurations (owner 2026-08-19)
