@@ -34,3 +34,23 @@ Same review page, version 2. Every page reads: the energy (stem element, branch 
 
 Questions: E1 the day's two energies, E2 names and characters, E3 how many domains, E4 Year-page domains (Domains section's By-year lines or ours), E5 star days, E6 energy line per horizon, E7 the order of a domain line.
 
+
+## Round 3, the visual language (2026-10-20): awaiting the owner
+
+The owner's direction (verbatim): "Flesh out the design using more visual language and iconographies we had before, use five energy icons more than texts. In addition, think of any data and content we can visualize, and use metrics, bars, signs, domain icons to show things in a visual form than stacking texts for readings. Changing to visual language helps you to think what content vars and metrics we show to decode the reading instead of solely relying on texts. Use visual language as a key to unlock the perspectives and angles of the readings"
+
+Same review page, version 3 (data-driven mockups; a picker opens any day from 8 Oct to 18 Nov). It uses the app's sprite (`src/components/journey/journeyDefs.js`: element marks, the function icons Body / Mind / Expression / Action / Order, the eight domain icons, the grow / release arrows) and adds eight signs: clash, punish, harm, bind, join, repeat, star day, Void day.
+
+The measures, each a content variable the engine fills:
+- the period's two energies (stem, and branch as the ground), their mix (stem half, branch half by hidden-stem weight), each energy's function and whether the reader grows or releases it;
+- lift, -1 to +1: the mix weighed by the reader's grow (+) and release (-) energies, shown as a five-step Weighs / Lifts meter;
+- the chart today: the five natal percentages with the period's arrival hatched on top;
+- where it lands: a gate map with a sign on each bond;
+- loudness (the ruled selection score, 1 to 5 bars) and rarity (the lead's cycle);
+- domain weight, 0 to 3, lift or test: the energy's three ruling domains +2, the landing's gate +1 to +3 (Year and Hour Gates to Family, Month to Career, Day to Love), star days +1;
+- favours pairs ("Keeping a promise over starting a new one");
+- season need slots; ribbons for the week, the month's days and the year's months.
+
+About 410 units, much shorter: a day page carries about 90 words instead of about 260.
+
+Questions: G1 lift meter, G2 gate map, G3 domain board, G4 favours pairs, G5 chart today, G6 loudness and rarity, G7 the Hour Gate's domain, G8 the new signs, G9 ribbons; round 2's E1 to E7 still open.

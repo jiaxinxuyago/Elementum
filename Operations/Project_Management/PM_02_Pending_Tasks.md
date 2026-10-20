@@ -56,7 +56,7 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 ## DOM — the Domain reading, a new pricing tier (owner 2026-10-17)
 
 ### EVT-1 · The event signature system (the Today tab) 🔄 DESIGN, ROUND 2 AWAITING RULINGS
-**Status 2026-10-20:** round 1 ruled (N1–F1, all A except D1 B); the owner asked for an energy-first reading, now round 2 on https://claude.ai/artifact/Rtixt7at5a6gTSre7ZhEhs (questions E1–E7). Nothing built yet. Record: `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/03_RULINGS.md`. Owner session: session_01CtFpHCUsMdTUYosYF5mHoy (owns `TodayScreen`, `DayPage`, `MonthPage`, `YearPage`, `engine/temporal.js`, `content/dailyGuidance.js`, `infra/push.js`, `workers/push`).
+**Status 2026-10-20:** round 1 ruled (N1–F1, all A except D1 B); the owner asked for an energy-first reading, round 2 (energy first) and round 3 (the visual language) on https://claude.ai/artifact/Rtixt7at5a6gTSre7ZhEhs (questions G1–G9, E1–E7). Nothing built yet. Record: `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/03_RULINGS.md`. Owner session: session_01CtFpHCUsMdTUYosYF5mHoy (owns `TodayScreen`, `DayPage`, `MonthPage`, `YearPage`, `engine/temporal.js`, `content/dailyGuidance.js`, `infra/push.js`, `workers/push`).
 - **Next:** the owner's rulings, then golden templates of each new unit kind, then the build behind `IS_DEV_TOOLS` and the batch through the station.
 - **Finding for the owner (F1):** the calculator's solar-term dates drift a day in many years; a calculator change alters existing readers' charts, so it waits for a ruling.
 
