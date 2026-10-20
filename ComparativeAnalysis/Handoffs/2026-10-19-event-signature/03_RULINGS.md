@@ -2,7 +2,7 @@
 
 Session: "Elementum event signature system (Today tab)", session_01CtFpHCUsMdTUYosYF5mHoy.
 
-## Round 1, design (2026-10-19): awaiting the owner
+## Round 1, design (2026-10-19): ruled 2026-10-20
 
 Review page: https://claude.ai/artifact/Rtixt7at5a6gTSre7ZhEhs
 
@@ -15,4 +15,22 @@ What it proposes, all computed by the in-depth engine on the golden chart from 2
 
 Questions: N1 name, T1 tiers, D1 Do/Avoid, D2 Best Hours, H1 headlines, S1 gate weight, S2 freshness, V1 character variants, P1 push model, P2 cadence, P3 push time, M1 month edges, F1 solar terms. Option A is the recommendation each time.
 
-Rulings: (none yet)
+Rulings (owner, 2026-10-20): "N1 A, T1 A, D1 B, D2 A, H1 A, S1 A, S2 A, V1 A, P1 A, P2 A, P3 A, M1 A, F1 A".
+- N1 A: "Your Almanac" on screen; "event signature" stays the engine word.
+- T1 A: free = hub tiles, each Day's energy and lead, marker pushes; Seeker = full Day and Month, every reminder, the week strip; Advisor = the Year page and the 35-day look-ahead.
+- D1 B: Do / Avoid kept, rewritten as plain statements of what the period favours (round 2 moves them inside each domain).
+- D2 A: Best Hours retired.
+- H1 A: written headlines. S1 A: live gate x1.3, Day Gate x1.2. S2 A: half score after six days. V1 A: two variants per day line.
+- P1 A: codes computed on the phone, no birth data on the server. P2 A: markers and pillar days plus up to two strong days a week. P3 A: on the morning, at the reader's chosen hour.
+- M1 A: solar months. F1 A: a minute-exact solar-term table for the almanac now; moving the calculator onto it is a separate ruling with an audit of which charts change.
+
+The owner's direction with the rulings (verbatim): "Plus, I want keep the energy as the subject for each daily page. Instead of using Bazi characters and others, unravel the advise by saying what energy the day, month and year it carries, and then dive into each domain's advise after that. Always keep the energy as starting the threads of logic. Consider using this structure and come up with the new reading again"
+
+Consequence: on this surface the domain law's no-advice rule is lifted (D1 B and the direction); the rest of the law stands.
+
+## Round 2, energy first (2026-10-20): awaiting the owner
+
+Same review page, version 2. Every page reads: the energy (stem element, branch as the ground underneath) -> how it meets the chart (element x role state) -> where it lands (the lead signature told as energy, gate named) -> all eight domains (the energy's three ruling domains and the landing's domain first and in full, what the period favours; the rest one line) -> the week, marked days, the months. Ten-god names, star names and Chinese characters leave the reading text. About 445 units.
+
+Questions: E1 the day's two energies, E2 names and characters, E3 how many domains, E4 Year-page domains (Domains section's By-year lines or ours), E5 star days, E6 energy line per horizon, E7 the order of a domain line.
+
