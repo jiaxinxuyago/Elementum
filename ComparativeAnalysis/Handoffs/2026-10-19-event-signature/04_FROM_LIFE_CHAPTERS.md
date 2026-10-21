@@ -19,4 +19,4 @@ Your Year page still reads `GOD <id> · year_line.<pole>` from `content/depth.js
 
 ## The page itself
 
-Life Chapters' energy page runs on the dev site only (`CHAPTERS_ENERGY = IS_DEV_TOOLS` in `src/components/reading/chaptersResolve.js`) until the owner turns it on.
+Life Chapters' energy page is live on elementum.life since 2026-10-21 (`CHAPTERS_ENERGY = true`).

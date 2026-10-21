@@ -97,3 +97,7 @@ All rows were ruled as recommended:
   - the export check, the voice audit (69 rows), the fixtures, the blend clashes, the depth and almanac golden checks and the build all pass;
   - an audit surface: `pages.mjs --surface chapters`, 75 pages, with 42 units no sampled chart reaches listed as unreached.
 - **Going live:** the owner's call. elementum.life keeps the round-1 page until `CHAPTERS_ENERGY` is set to true.
+
+## Going live (owner 2026-10-21): "Switch it on elementum.life"
+
+`CHAPTERS_ENERGY = true` in `src/components/reading/chaptersResolve.js`. The energy-first page and the seat sheet's energy chapter line (W5) are on elementum.life. Next, retire the round-1 path (`depthChapters.js`, the old body of `resolveChapters`), `DecadePage.jsx` and `LifeChaptersDetail.jsx` (A4).
