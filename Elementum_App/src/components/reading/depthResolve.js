@@ -58,9 +58,9 @@ const CANON = '子丑 寅亥 卯戌 辰酉 巳申 午未 子午 丑未 寅申 �
 const canon = (br) => (br.length === 2 && !CANON.includes(br) && CANON.includes(br[1] + br[0]) ? br[1] + br[0] : br);
 const FAMILY_NOUN = { wealth: 'what you earn', resource: 'what you think', self: 'your own strength', output: 'what you make', officer: 'what you answer to' };
 const SEASON_PHRASE = { 寅: 'early spring', 卯: 'mid-spring', 辰: 'late spring', 巳: 'early summer', 午: 'midsummer', 未: 'late summer', 申: 'early autumn', 酉: 'mid-autumn', 戌: 'late autumn', 亥: 'early winter', 子: 'midwinter', 丑: 'late winter' };
-const STRUCT_ID = { 正官: 'zhengguan_ge', 七杀: 'qisha_ge', 正财: 'zhengcai_ge', 偏财: 'piancai_ge', 正印: 'zhengyin_ge', 偏印: 'pianyin_ge', 食神: 'shishen_ge', 伤官: 'shangguan_ge', 建禄: 'jianlu_ge', 月刃: 'yueren_ge' };
-const STRUCT_GOD = { 建禄: '比肩', 月刃: '劫财' };
-const FAMILY_OF = { 比肩: 'self', 劫财: 'self', 食神: 'output', 伤官: 'output', 偏财: 'wealth', 正财: 'wealth', 七杀: 'officer', 正官: 'officer', 偏印: 'seal', 正印: 'seal', 建禄: 'self', 月刃: 'self' };
+const STRUCT_ID = { 正官: 'zhengguan_ge', 七杀: 'qisha_ge', 正财: 'zhengcai_ge', 偏财: 'piancai_ge', 正印: 'zhengyin_ge', 偏印: 'pianyin_ge', 食神: 'shishen_ge', 伤官: 'shangguan_ge', 建禄: 'jianlu_ge', 月刃: 'yueren_ge', 月劫: 'yuejie_ge' };
+const STRUCT_GOD = { 建禄: '比肩', 月刃: '劫财', 月劫: '劫财' };
+const FAMILY_OF = { 比肩: 'self', 劫财: 'self', 食神: 'output', 伤官: 'output', 偏财: 'wealth', 正财: 'wealth', 七杀: 'officer', 正官: 'officer', 偏印: 'seal', 正印: 'seal', 建禄: 'self', 月刃: 'self', 月劫: 'self' };
 
 /** A unit by station key: the written text, or the draft line standing in for it. */
 const unit = (key, draft) => (UNITS[key] ? { key, text: UNITS[key], draft: false } : { key, text: draft, draft: true });

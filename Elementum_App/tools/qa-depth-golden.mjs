@@ -13,6 +13,10 @@ const CHARTS = {
   golden: [{ year: 1995, month: 4, day: 29, hour: 18, location: 'Beijing', gender: 'male' }, false],
   B: [{ year: 1990, month: 9, day: 17, hour: 5, location: 'Beijing', gender: 'male' }, false],
   C: [{ year: 1992, month: 5, day: 25, hour: 12, location: 'Beijing', gender: 'female' }, true],
+  // owner S1 A (2026-10-21): a Twin or Rival never names the structure (子平真诠 论建禄月劫 · 论杂气)
+  yuejie: [{ year: 1988, month: 2, day: 10, hour: 12, location: 'Beijing', gender: 'female' }, false],
+  passed: [{ year: 1985, month: 2, day: 9, hour: 12, location: 'Beijing', gender: 'female' }, false],
+  store: [{ year: 1986, month: 1, day: 15, hour: 12, location: 'Beijing', gender: 'female' }, false],
 };
 const EXPECT = {
   golden: {
@@ -23,6 +27,9 @@ const EXPECT = {
   },
   B: { structure: '七杀格 strained 官杀混杂 output', bonds: '自刑 酉酉 month-day | 六冲 酉卯 month-hour | 六冲 酉卯 day-hour', absent: '劫财 伤官 正财 偏印 正印', season: '癸:absent 丙:absent' },
   C: { structure: '正官格 formed', bonds: '六合 申巳 year-month | 刑 申巳 year-month', absent: '正财 七杀', stars: '天喜@day 劫煞@month 亡神@year 空亡@month', season: '壬:shown 甲:absent 癸:hidden' },
+  yuejie: { structure: '月劫格 formed' }, // 乙 in 寅: the month's main stem 甲 is the Rival
+  passed: { structure: '正官格 strained 七杀 output' }, // 己 in 寅: the 戊 on show is the Rival, so the main stem 甲 decides
+  store: { structure: '建禄格 formed' }, // 己 in 丑: only the Twin 己 shows, so the main stem reads as 建禄
 };
 const PRI = { 六冲: 5, 刑: 4, 六害: 3, 六合: 2, 半合: 2, 三合: 2, 自刑: 1 };
 const RANK = { month: 4, day: 3, hour: 2, year: 1 };
@@ -46,4 +53,4 @@ for (const [k, [birth, hu]] of Object.entries(CHARTS)) {
   }
 }
 if (fails) { console.log(`\n${fails} mismatch(es).`); process.exit(1); }
-console.log('PASS: the in-depth layer matches the round-8 golden values on all three charts.');
+console.log('PASS: the in-depth layer matches the round-8 golden values and the S1 structure cases.');

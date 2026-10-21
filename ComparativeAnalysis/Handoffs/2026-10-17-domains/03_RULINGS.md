@@ -183,3 +183,18 @@ Page: https://claude.ai/artifact/Vz38yjKw7uDv3CtkpDfq2r
 - `4240214`: the screens, the catalogue beats and the doors.
 
 All of it is behind `DEPTH_V1 = IS_DEV_TOOLS`, so it shows on the dev site only.
+
+## R2 step 1: the Domains write-first rulings (owner, 2026-10-21)
+
+Asked on https://claude.ai/artifact/GFYPtjewVXaFc6bDdWopgh and answered "Y1 A, Y2 A, S1 A, T1 A".
+
+- **Y1 A, the By-year lines:** thirty lines, one for each year character in each of its three ruling domains (`GOD <god> · year_domain.<Domain>`). The line is the same whether the year helps or weighs. The domain pages' By-year tab and the Almanac's Year page both read them.
+- **Y2 A, their tone:** the seven sample lines as written. The other twenty-three were written in that tone by a sealed writer (`2026-10-21-domains-blueprint/out-6.json`), which passed the gate.
+- **S1 A, Twin and Rival months (子平真诠 论建禄月劫 · 论杂气):**
+  - A Twin or Rival on show never names the structure. The next hidden stem on show decides; failing that, the month branch's main stem.
+  - When that main stem is itself the Twin or Rival, it reads as 建禄格 (Self-made) or 月劫格 (Rival). A 劫财 main stem outside the four store months is 月劫格 directly, as 月刃 is for a yang Day Master.
+  - Built in `chartDepth.structureOf`, with three new cases in `qa-depth-golden`: 1988-02-10 is 月劫格, 1985-02-09 is 正官格 by the main stem, and 1986-01-15 is 建禄格 in a store month.
+  - Of 3,000 random charts, every one now gets a named structure. Before this, about ten per cent read "劫财 · 劫财" or had no structure line.
+- **T1 A, the engine-composed lines:** the slot templates (`structure_rule.*`, `rescue.*`, `strongest.*`) are approved as worded. The new rule paths got three lines in the same shape: `structure_rule.middle`, `.own` (a store month whose main stem is the Twin) and `.passed` (only a Twin or Rival shows).
+
+**Landed:** the station `TEMPLATED/tpl_depth.json` now holds 362 units. On 3,003 charts, `qa-domains-coverage` reports 0% placeholder lines on every Domains and Blueprint surface.

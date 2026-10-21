@@ -63,16 +63,14 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 - **Finding for the owner (F1):** the calculator's solar-term dates drift a day in many years; a calculator change alters existing readers' charts, so it waits for a ruling.
 
 ### DOM-1 · The "who runs it" layer → the Domain reading 🔄 IN PROGRESS (owner rulings round 1, 2026-10-17: Q1–Q15 A; record `ComparativeAnalysis/Handoffs/2026-10-17-domains/03_RULINGS.md`; golden template awaiting the owner's read)
-**Status 2026-10-18 (round 8, owner B1–B4):** the four in-depth sections are on the dev site only, behind `DEPTH_V1 = IS_DEV_TOOLS` in `JourneyStage.jsx`. The sections are Domains By position, Life Chapters with the years, Stars and the Energy Blueprint. elementum.life is unchanged.
-- **Engine:** `src/engine/depth/`, golden-checked by `tools/qa-depth-golden.mjs`.
-- **Page models:** `src/components/reading/depthResolve.js`.
-- **Views:** `src/components/journey/DepthViews.jsx` and `depth.css`.
-- **Content:** 64 golden units in `src/content/depth.js`, built by `tools/build-depth-content.mjs`. Every other unit renders a draft line with a "draft" tag.
-- **Next:**
-  - the batch of about 712 units (sealed writers, the depth gate in `ComparativeAnalysis/Prompts/out/handoff/2026-10-18-depth-template/gate.mjs`);
-  - landing the parked r2 domain revisions;
-  - re-auditing in the By-position shape;
-  - then turning the flag on for elementum.life.
+**Status 2026-10-21 (R2 A "write first, then audit"; rulings Y1, Y2, S1 and T1 all A, recorded in `03_RULINGS.md`):** the sections are live on both sites through `DEPTH_LIVE` in `src/liveFlags.js`. Step 1 is done:
+- **Content:**
+  - The round-2 domain revisions landed; the 466 retired lines are kept in station `__ore`.
+  - 362 in-depth units sit in the station `TEMPLATED/tpl_depth.json`, built into `src/content/depth.js` by `tools/build-depth-content.mjs` (`--adopt <handoff dir>` gates and merges). They cover the Blueprint, the thirty By-year lines and the slot templates.
+  - Handoff: `ComparativeAnalysis/Prompts/out/handoff/2026-10-21-domains-blueprint/`.
+- **Engine:** S1 builds the 子平真诠 Twin and Rival rule (月劫格, store months) into `chartDepth.structureOf`, with three new cases in `qa-depth-golden`.
+- **Coverage:** on 3,003 charts, `tools/qa-domains-coverage.mjs` reports 0% placeholder lines on every Domains and Blueprint surface.
+- **Next:** step 2, the section audit per `ComparativeAnalysis/Evaluations/section-audit-2026-10-21/BRIEF.md` (records in `domains/`; surfaces `pages.mjs --surface domains` and `--surface blueprint`).
 (The design is ruled: domain first, a chart-wide hub, three steps, a domain-only prediction law, WHO RUNS IT retired to ore, the domain sheet and its price retired (S1 closed), D2 fixed in full when it lands.)
 The owner's framing (2026-10-17): "Who runs it layer is a major Domain reading task, which is related to ten-god positioning and a new reading section to a new pricing tier, we will move on to that in a new session after five energy function readings in free tier are sorted out." Starting point: the WHO RUNS IT accordion on the element page (persona, defline, "Runs your …" line, three god-flavoured domain chips from `GOD_DOMAINS`, and 150 `K2_CELLS[*].domain_readings` behind the Seeker tier) predates the canonical ruling domains of 2026-10-15 (`GOD_RULING_DOMAINS`, used by THE EDGE) and the v0.7 voice. Open rulings: re-key the readings to the canonical domains, retire them for the seat readings, or rebuild the layer as the new tier's Domain reading with ten-god positioning. Gate: the final content audit of the function pages closed (`ComparativeAnalysis/Evaluations/final-audit-2026-10-17/`). Pointers: `Reading/Database/Prompts/backlog/2026-10-15_god-ruling-domains.md`, `Elementum_App/src/content/k2.js` (GOD_DOMAINS, domain_readings), `JourneyStage.jsx` (the WHO RUNS IT block).
 

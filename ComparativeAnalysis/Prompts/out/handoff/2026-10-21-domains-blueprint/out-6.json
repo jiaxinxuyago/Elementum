@@ -1,0 +1,142 @@
+{
+ "units": [
+  {
+   "key": "GOD bijian · year_domain.Family",
+   "kind": "year_domain",
+   "page": "yd-family",
+   "text": "Siblings and cousins of your own age weigh in on family matters this year, and you settle home decisions between equals."
+  },
+  {
+   "key": "GOD bijian · year_domain.Growth",
+   "kind": "year_domain",
+   "page": "yd-growth",
+   "text": "Working alongside equals shows you your own shape this year, and you lean less on anyone's approval and more on your own judgement."
+  },
+  {
+   "key": "GOD bijian · year_domain.Social",
+   "kind": "year_domain",
+   "page": "yd-social",
+   "text": "Friends meet you as equals this year, and you spend more time with people who do what you do than with those who look up to you."
+  },
+  {
+   "key": "GOD jiecai · year_domain.Wealth",
+   "kind": "year_domain",
+   "page": "yd-wealth",
+   "text": "Shared purchases and a friend's request for help pull at your money this year, and you decide how much of your own you put in."
+  },
+  {
+   "key": "GOD jiecai · year_domain.Social",
+   "kind": "year_domain",
+   "page": "yd-social",
+   "text": "Competition runs through your circle this year over the same invitations and attention, and you share your friends more widely than you planned."
+  },
+  {
+   "key": "GOD shishen · year_domain.Health",
+   "kind": "year_domain",
+   "page": "yd-health",
+   "text": "Meals, sleep and easy pleasures take a larger share of your days this year, and you feel how closely your body follows the pace you set."
+  },
+  {
+   "key": "GOD shishen · year_domain.Family",
+   "kind": "year_domain",
+   "page": "yd-family",
+   "text": "Home gathers around food and easy company this year, and you are the one who cooks, hosts or makes the place feel lived in."
+  },
+  {
+   "key": "GOD shangguan · year_domain.Mind",
+   "kind": "year_domain",
+   "page": "yd-mind",
+   "text": "Your thinking sharpens against received ideas this year, and you find flaws in what others accept faster than you can keep them to yourself."
+  },
+  {
+   "key": "GOD shangguan · year_domain.Career",
+   "kind": "year_domain",
+   "page": "yd-career",
+   "text": "Skill and impatience with the rules arrive together in your job this year, and you say out loud what colleagues only grumble about."
+  },
+  {
+   "key": "GOD shangguan · year_domain.Social",
+   "kind": "year_domain",
+   "page": "yd-social",
+   "text": "Conversations with friends grow sharper and wittier this year, and you say the thing everyone else at the table was thinking."
+  },
+  {
+   "key": "GOD piancai · year_domain.Wealth",
+   "kind": "year_domain",
+   "page": "yd-wealth",
+   "text": "Money reaches you this year through side doors like a second job or an unexpected offer, and you spread it across more ventures than usual."
+  },
+  {
+   "key": "GOD piancai · year_domain.Family",
+   "kind": "year_domain",
+   "page": "yd-family",
+   "text": "Family life widens this year to relatives far away or newly met, and you spend more of your time and money on people beyond your own home."
+  },
+  {
+   "key": "GOD piancai · year_domain.Social",
+   "kind": "year_domain",
+   "page": "yd-social",
+   "text": "Your circle widens this year through chance meetings and friends of friends, and you move easily between groups that never meet each other."
+  },
+  {
+   "key": "GOD zhengcai · year_domain.Wealth",
+   "kind": "year_domain",
+   "page": "yd-wealth",
+   "text": "Bills, savings and the slow work of keeping accounts take up more of your attention this year, and you know where each part of your money goes."
+  },
+  {
+   "key": "GOD zhengcai · year_domain.Family",
+   "kind": "year_domain",
+   "page": "yd-family",
+   "text": "Household accounts and the care of family property pass through your hands this year, and you keep the home in careful order."
+  },
+  {
+   "key": "GOD zhengcai · year_domain.Career",
+   "kind": "year_domain",
+   "page": "yd-career",
+   "text": "Steady work and the pay it earns hold your attention this year, and you build your standing through the hours you put in and the details you get right."
+  },
+  {
+   "key": "GOD zhengguan · year_domain.Family",
+   "kind": "year_domain",
+   "page": "yd-family",
+   "text": "Paperwork, signatures and speaking for the household fall to you this year, and you carry family duties in full view of your relatives."
+  },
+  {
+   "key": "GOD zhengguan · year_domain.Social",
+   "kind": "year_domain",
+   "page": "yd-social",
+   "text": "Roles and expectations shape your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would."
+  },
+  {
+   "key": "GOD pianyin · year_domain.Mind",
+   "kind": "year_domain",
+   "page": "yd-mind",
+   "text": "Odd, specialist subjects pull at your thinking this year, and you study alone what few people around you would think to ask about."
+  },
+  {
+   "key": "GOD pianyin · year_domain.Growth",
+   "kind": "year_domain",
+   "page": "yd-growth",
+   "text": "Private study and unusual interests change you this year in ways few people see, and you become more yourself out of public view."
+  },
+  {
+   "key": "GOD zhengyin · year_domain.Family",
+   "kind": "year_domain",
+   "page": "yd-family",
+   "text": "An older relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be."
+  },
+  {
+   "key": "GOD zhengyin · year_domain.Mind",
+   "kind": "year_domain",
+   "page": "yd-mind",
+   "text": "Books, courses and a patient teacher fill more of your evenings this year, and you learn most when someone else sets the syllabus."
+  },
+  {
+   "key": "GOD zhengyin · year_domain.Health",
+   "kind": "year_domain",
+   "page": "yd-health",
+   "text": "Your body leans on shelter and routine this year, warm meals and early nights, and you accept more looking after than you usually allow."
+  }
+ ]
+}

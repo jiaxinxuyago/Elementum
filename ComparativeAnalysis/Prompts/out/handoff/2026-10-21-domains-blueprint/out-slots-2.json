@@ -1,0 +1,25 @@
+{
+ "units": [
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.middle",
+   "kind": "structure_rule",
+   "page": "slot-18",
+   "template": "The {element} held midway down your strongest seat shows on {count} of your stems. That gives the {god} the lead in your life, and you answer to it more than to the {holder} who holds the seat.",
+   "text": "The Fire held midway down your strongest seat shows on one of your stems. That gives the Artisan the lead in your life, and you answer to it more than to the Steward who holds the seat."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.own",
+   "kind": "structure_rule",
+   "page": "slot-19",
+   "template": "Your strongest seat holds your own element, and nothing else inside it shows on your stems. Your chart is built around what you make of yourself, and you answer first to your own effort.",
+   "text": "Your strongest seat holds your own element, and nothing else inside it shows on your stems. Your chart is built around what you make of yourself, and you answer first to your own effort."
+  },
+  {
+   "key": "TEMPLATED tpl_depth · structure_rule.passed",
+   "kind": "structure_rule",
+   "page": "slot-20",
+   "template": "Only your own element shows from your strongest seat, and an equal cannot lead your chart. The {god} who holds the seat leads it instead, and you answer to it first.",
+   "text": "Only your own element shows from your strongest seat, and an equal cannot lead your chart. The Sage who holds the seat leads it instead, and you answer to it first."
+  }
+ ]
+}

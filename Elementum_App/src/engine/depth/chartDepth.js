@@ -7,7 +7,9 @@
 //   structureOf      格局 by the 子平真诠 rule: the month branch's revealed
 //                    stem decides (main, then middle, then residual); 建禄
 //                    and 月刃 when the month branch is the Day Master's own
-//                    prosperity or blade. Plus formed / strained / broken.
+//                    prosperity or blade, 月劫 when its main stem is the
+//                    Rival; a Twin or Rival on show never names it (S1 A).
+//                    Plus formed / strained / broken.
 //   branchBonds      六合 · 三合 (full and half) · 六冲 · 刑 · 六害 between
 //                    the chart's branches, read by the gates they join.
 //   godProfile       the ten gods by seat and by hidden weight: which are
@@ -27,11 +29,13 @@ const god = (dm, s) => getTenGod(dm, s)?.zh || null;
 // the Day Master's prosperity (禄) and blade (刃, yang stems only)
 const LU = { 甲: '寅', 乙: '卯', 丙: '巳', 丁: '午', 戊: '巳', 己: '午', 庚: '申', 辛: '酉', 壬: '亥', 癸: '子' };
 const REN = { 甲: '卯', 丙: '午', 戊: '午', 庚: '酉', 壬: '子' };
+// the four store branches (杂气 months)
+const STORE = ['辰', '戌', '丑', '未'];
 
 export const STRUCTURE_NAME = {
   正官: ['正官格', 'Magistrate structure'], 七杀: ['七杀格', 'General structure'], 正财: ['正财格', 'Steward structure'], 偏财: ['偏财格', 'Horizon structure'],
   正印: ['正印格', 'Sage structure'], 偏印: ['偏印格', 'Alchemist structure'], 食神: ['食神格', 'Artisan structure'], 伤官: ['伤官格', 'Virtuoso structure'],
-  建禄: ['建禄格', 'Self-made structure'], 月刃: ['月刃格', 'Rival structure'],
+  建禄: ['建禄格', 'Self-made structure'], 月刃: ['月刃格', 'Rival structure'], 月劫: ['月劫格', 'Rival structure'],
 };
 const FAMILY = { 比肩: 'self', 劫财: 'self', 食神: 'output', 伤官: 'output', 偏财: 'wealth', 正财: 'wealth', 七杀: 'officer', 正官: 'officer', 偏印: 'seal', 正印: 'seal' };
 
@@ -52,14 +56,24 @@ export function structureOf(chart, { hourUnknown = false, strength = null, luck 
   const stems = GATES.filter((g) => g !== 'day' && !(hourUnknown && g === 'hour')).map((g) => p[g].stem);
   const hidden = HIDDEN_STEMS[mb] || [];
   let key; let rule; let how; let pick = hidden[0];
+  const peer = (s) => ['比肩', '劫财'].includes(god(dm, s));
   if (LU[dm] === mb) { key = '建禄'; how = 'lu'; rule = 'the month branch is your own prosperity seat (建禄)'; }
   else if (REN[dm] === mb) { key = '月刃'; how = 'ren'; rule = 'the month branch is your own blade seat (月刃)'; }
+  else if (!STORE.includes(mb) && god(dm, hidden[0]?.s) === '劫财') { key = '月劫'; how = 'jie'; rule = 'the month branch\'s main stem is your Rival (月劫)'; }
   else {
-    const layer = hidden.findIndex((h) => stems.includes(h.s));
+    // 子平真诠 论建禄月劫 · 论杂气 (owner S1 A, 2026-10-21): a Twin or Rival on show
+    // cannot name the structure; the next stem on show does, else the main stem,
+    // read as 建禄 or 月劫 when that main stem is itself the Twin or Rival.
+    const layer = hidden.findIndex((h) => stems.includes(h.s) && !peer(h.s));
+    const passed = hidden.some((h) => stems.includes(h.s) && peer(h.s));
     pick = layer >= 0 ? hidden[layer] : hidden[0];
-    key = god(dm, pick.s);
-    how = layer >= 0 ? ['main', 'middle', 'residual'][layer] : 'none';
-    rule = layer >= 0 ? `the ${how} stem hidden in the month branch (${pick.s}) shows on a stem` : `no hidden stem of the month branch shows, so its main stem (${pick.s}) decides`;
+    const g = god(dm, pick.s);
+    key = layer < 0 && g === '比肩' ? '建禄' : layer < 0 && g === '劫财' ? '月劫' : g;
+    how = layer >= 0 ? ['main', 'middle', 'residual'][layer] : key === '建禄' ? 'own' : key === '月劫' ? 'jie' : passed ? 'passed' : 'none';
+    rule = layer >= 0 ? `the ${how} stem hidden in the month branch (${pick.s}) shows on a stem`
+      : key !== g ? `no other hidden stem of the month branch shows, so its main stem (${pick.s}, your own element) decides`
+        : passed ? `only your own element shows from the month branch and cannot name it, so its main stem (${pick.s}) decides`
+          : `no hidden stem of the month branch shows, so its main stem (${pick.s}) decides`;
   }
   // the facts the "why" line is composed from
   const why = { how, stem: pick?.s || null, element: pick?.e || null, shown: stems.filter((x) => x === pick?.s).length, holder: god(dm, hidden[0]?.s) };
@@ -68,7 +82,7 @@ export function structureOf(chart, { hourUnknown = false, strength = null, luck 
   const has = (...gs) => gs.some((g) => seated.has(g));
   const strong = strength ? /strong/.test(strength) : null;
   let status = 'formed'; let breaker = null; let rescue = null;
-  const fam = FAMILY[key] || (key === '建禄' || key === '月刃' ? 'self' : null);
+  const fam = FAMILY[key] || (['建禄', '月刃', '月劫'].includes(key) ? 'self' : null);
   if (fam === 'wealth') {
     if (has('比肩', '劫财')) { breaker = '比劫'; rescue = has('七杀', '正官') ? null : 'officer'; status = rescue ? 'strained' : 'formed'; if (!has('七杀', '正官') && !has('食神', '伤官')) status = 'broken'; }
     if (strong === false) status = status === 'formed' ? 'strained' : status;
