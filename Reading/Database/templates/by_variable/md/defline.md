@@ -21,7 +21,7 @@
 | **The Rival inside the Month Gate** | 劫财在月支 | The Rival holds your strongest seat, inside your Month Gate: your working years are built on risk and on people who share it. |
 | **The Rival inside the Day Gate** | 劫财在日支 | The Rival lives inside your Day Gate, the seat of your partner: your love life carries real stakes, in money and in pride. |
 | **The Rival at the Hour Gate** | 劫财在时干 | The Rival stands at your Hour Gate, in plain view: in later life people see your nerve and ask you to back them. |
-| **The Rival inside the Hour Gate** | 劫财在时支 | The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend. |
+| **The Rival inside the Hour Gate** | 劫财在时支 | The Rival lives inside your Hour Gate: what you build in later life you will share, and you will defend your part of it. |
 | **The Artisan at the Year Gate** | 食神在年干 | The Artisan stands at your Year Gate, in plain view: warmth and easy charm were the first things people saw in you. |
 | **The Artisan inside the Year Gate** | 食神在年支 | The Artisan lives inside your Year Gate: underneath your early years were comfort and care, given freely. |
 | **The Artisan at the Month Gate** | 食神在月干 | The Artisan stands at your Month Gate, in plain view: at work and among friends you are known as the easy, gifted maker. |

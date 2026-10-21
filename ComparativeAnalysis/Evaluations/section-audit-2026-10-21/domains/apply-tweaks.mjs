@@ -98,5 +98,7 @@ for (const p of done.filter((x) => x.r.code === 'tgPatterns')) {
   tgjs = tgjs.slice(0, start) + block.replace(/(\n    fused_line: )'(?:[^'\\]|\\.)*',/, `$1${q(p.text)},`) + tgjs.slice(end);
 }
 fs.writeFileSync(TGJS, tgjs);
-fs.writeFileSync(path.join(path.dirname(new URL(import.meta.url).pathname), 'tweaks-applied.json'), JSON.stringify(done.map((p) => ({ id: p.id, key: p.key, before: p.before, after: p.text })), null, 1) + '\n');
+const LOG = path.join(path.dirname(new URL(import.meta.url).pathname), 'tweaks-applied.json');
+const prior = fs.existsSync(LOG) ? JSON.parse(fs.readFileSync(LOG, 'utf8')) : [];
+fs.writeFileSync(LOG, JSON.stringify([...prior, ...done.map((p) => ({ id: p.id, key: p.key, before: p.before, after: p.text }))], null, 1) + '\n');
 for (const t of ['build-domains-content.mjs', 'build-depth-content.mjs']) console.log(execFileSync('node', ['tools/' + t], { cwd: ROOT + 'Elementum_App', encoding: 'utf8' }).trim());

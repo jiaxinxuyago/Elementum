@@ -151,7 +151,7 @@ export function resolveDomains(chart, positions, content, opts = {}) {
     if (!laterSeat && seats.length && age < 48 && !(hourUnknown && HOUR_DOMAINS.has(d))) notes.push(`Your later gates hold no ${d} seat, so your decades set its course from here.`);
     if (d === 'Love') notes.push(age < 35 ? 'Love has no decade of its own. It is read from your Day Gate alone.' : 'Love has no decade of its own. The pattern your Day Gate set is the one your love life keeps.');
     else if (!future.length && !notes.length && seats.length) notes.push(age >= 48 ? `Your four gates have all opened, so ${OWN[d]} moves with your decades from here.` : `Your later gates hold no ${d} seat, so your decades set its course from here.`);
-    if (hourUnknown && HOUR_DOMAINS.has(d)) notes.push(seats.length ? 'Your Hour Gate is closed. Add your birth hour to read your late chapter.' : `Your Hour Gate may hold a ${d} seat. Add your birth hour to read your late chapter.`);
+    if (hourUnknown && HOUR_DOMAINS.has(d)) notes.push(seats.length ? 'Your Hour Gate is closed, and your Late Chapter opens once you add your birth hour.' : `Your Hour Gate can hold a ${d} seat, and your Late Chapter opens once you add your birth hour.`);
 
     const gates = [...new Set(seats.map((p) => GATES[p.gateKey].replace(' Gate', '')))];
     return {

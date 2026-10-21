@@ -101,7 +101,7 @@ export const DEPTH_UNITS = {
  "GOD zhengyin · season_need.shown": "In your chart the Sage your season asks for appears openly, and you are offered help and teaching before you think to ask.",
  "GOD zhengyin · seen.inside": "You want to be looked after more than you say, and you stay close to the people who once taught you.",
  "GOD zhengyin · seen.plain": "You come across as calm and well taught, someone a teacher or an older friend has clearly looked after.",
- "GOD zhengyin · year_domain.Family": "An older relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be.",
+ "GOD zhengyin · year_domain.Family": "A relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be.",
  "GOD zhengyin · year_domain.Health": "Your body leans on shelter and routine this year, warm meals and early nights, and you accept more looking after than you usually allow.",
  "GOD zhengyin · year_domain.Mind": "Books, courses and a patient teacher fill more of your evenings this year, and you learn most when someone else sets the syllabus.",
  "GOD zhengyin · year_line.heavy": "Help and advice arrive in larger amounts than you asked for, from a teacher or an older ally. You lean on them longer than you need to, and you finish knowing which help to keep.",

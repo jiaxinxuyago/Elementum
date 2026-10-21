@@ -55,7 +55,7 @@
         "id": "jiecai_year_branch",
         "key": "劫财在年支",
         "canonical_name": "The Rival inside the Year Gate",
-        "value": "As a child you shared a bed or a bike or a birthday with a brother, sister or cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs."
+        "value": "As a child you shared a bed or a bike or a birthday with a sibling or a cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs."
       },
       {
         "id": "jiecai_month_stem",
@@ -223,7 +223,7 @@
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
         "canonical_name": "The Steward inside the Year Gate",
-        "value": "You took in your family's habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for luck. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years."
+        "value": "You took in your family's habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for a windfall. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years."
       },
       {
         "id": "zhengcai_month_stem",

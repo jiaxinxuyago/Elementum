@@ -116,7 +116,7 @@
 | `units.GOD zhengyin · season_need.shown` | In your chart the Sage your season asks for appears openly, and you are offered help and teaching before you think to ask. |
 | `units.GOD zhengyin · seen.inside` | You want to be looked after more than you say, and you stay close to the people who once taught you. |
 | `units.GOD zhengyin · seen.plain` | You come across as calm and well taught, someone a teacher or an older friend has clearly looked after. |
-| `units.GOD zhengyin · year_domain.Family` | An older relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be. |
+| `units.GOD zhengyin · year_domain.Family` | A relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be. |
 | `units.GOD zhengyin · year_domain.Health` | Your body leans on shelter and routine this year, warm meals and early nights, and you accept more looking after than you usually allow. |
 | `units.GOD zhengyin · year_domain.Mind` | Books, courses and a patient teacher fill more of your evenings this year, and you learn most when someone else sets the syllabus. |
 | `units.GOD zhengyin · year_line.heavy` | Help and advice arrive in larger amounts than you asked for, from a teacher or an older ally. You lean on them longer than you need to, and you finish knowing which help to keep. |
@@ -403,3 +403,4 @@
 | `retired_2026-10-21_section_audit.GOD jiecai · year_domain.Social` | Competition runs through your circle this year over the same invitations and attention, and you share your friends more widely than you planned. |
 | `retired_2026-10-21_section_audit.GOD zhengguan · year_domain.Social` | Roles and expectations shape your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would. |
 | `retired_2026-10-21_section_audit.GOD bijian · year_domain.Social` | Friends meet you as equals this year, and you spend more time with people who do what you do than with those who look up to you. |
+| `retired_2026-10-21_section_audit.GOD zhengyin · year_domain.Family` | An older relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be. |

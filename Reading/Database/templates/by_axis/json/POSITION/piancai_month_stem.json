@@ -47,7 +47,7 @@
       },
       "Social": {
         "headline": "You know someone for every need.",
-        "recognition": "You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
+        "recognition": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
         "lived": "Many of your friendships since your late teens began over work, a deal or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life."
       }
     },
@@ -58,6 +58,9 @@
         "domain_climb.Career.lived": "Since your late teens your best career moves have come through timing, a job heard about early or an offer made in a casual conversation. You have changed direction more than once because a better chance turned up.",
         "domain_climb.Wealth.lived": "Since your late teens you have had good years and thin ones, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before keeping any of it.",
         "domain_climb.Social.lived": "Since your late teens most of your friendships have started through work, a deal or an introduction or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Social.recognition": "You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact."
       }
     }
   },
@@ -124,6 +127,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Social.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DE:DE-019",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

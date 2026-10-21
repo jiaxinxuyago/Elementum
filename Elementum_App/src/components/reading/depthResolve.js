@@ -179,8 +179,7 @@ export function resolveBlueprint(chart, positions, opts = {}) {
       : s.status === 'broken' ? `It is broken by ${BREAKER[s.breaker] || s.breaker}, and you carry the strain of it until something in your decades repairs it.`
         : `It holds, and ${BREAKER[s.breaker] || s.breaker} keeps pulling at it, and you feel that pull most in the years that feed it.`;
   const statusKey = `STRUCTURE ${fam} · status.${s.status}.${BREAKER_ID[s.breaker] || 'none'}`;
-  const nGods = positions.filter((p) => p.god === sGod).length;
-  const statusUnit = fill(statusKey, { breakers: breakers.join(' and the '), stand: pl(breakers.length, 'stands', 'stand'), gods: `${P}${nGods > 1 ? 's' : ''}` }, statusText);
+  const statusUnit = fill(statusKey, { breakers: breakers.join(' and the '), stand: pl(breakers.length, 'stands', 'stand'), gods: P }, statusText);
   const rel = (l) => (l === cur ? 'now' : cur && l.startYear === (luck[luck.indexOf(cur) + 1] || {}).startYear ? 'next' : l.endAge < age ? 'already lived' : 'later');
   const rescueDecs = s.rescueDecades.map((r) => luck.find((l) => l.startYear === r.startYear)).filter((l) => l && l.startAge <= DEC_MAX);
   const ahead = rescueDecs.filter((l) => rel(l) !== 'already lived');
@@ -258,7 +257,7 @@ export function resolveDomainView(page, chart, content, opts = {}) {
     const t = gateTense(p.gateKey, age); const u = S[p.id]?.domains?.[d] || {};
     const useAhead = t === 'coming' && u.ahead;
     const text = useAhead ? u.ahead : u.lived || u.ahead || null;
-    const meta = [CHAPTER[p.gateKey], t === 'coming' ? `from ${GATE_START[p.gateKey]}${birthYear == null ? '' : ` · ${birthYear + GATE_START[p.gateKey]}`}` : GATE_SPAN[p.gateKey], p.kind === 'stem' ? 'in plain view' : 'inside', t === 'now' ? 'now' : t].join(' · ');
+    const meta = [CHAPTER[p.gateKey], t === 'coming' ? `from ${GATE_START[p.gateKey]}${birthYear == null ? '' : ` · ${birthYear + GATE_START[p.gateKey]}`}` : GATE_SPAN[p.gateKey], p.kind === 'stem' ? 'in plain view' : null, t === 'now' ? 'now' : t].filter(Boolean).join(' · ');
     blocks.push({ kind: 'seat', gate: p.gateKey, seat: p, name: p.term, meta, text, src: `POSITION ${p.id} · domain_climb.${d}.${useAhead ? 'ahead' : 'lived'}` });
   }
   // the gap row: the reader's own gate holds no seat for this domain
@@ -271,7 +270,10 @@ export function resolveDomainView(page, chart, content, opts = {}) {
   blocks.sort((a, b) => GATE_ORDER.indexOf(a.gate) - GATE_ORDER.indexOf(b.gate) || (a.kind === 'gap' ? -1 : 0));
   const per = GATE_ORDER.map((g) => [g, page.seats.filter((p) => p.gateKey === g).length]).filter(([, n]) => n);
   const n = page.seats.length;
-  const intro = n ? `${NUMW[n]} ${pl(n, 'seat rules', 'seats rule')} ${d} in your chart. ${per.map(([g, k], i) => `${i === 0 ? NUMW[k] : NUMW[k].toLowerCase()} ${i === 0 ? pl(k, 'sits', 'sit') + ' ' : ''}in your ${CHAPTER[g]}`).join(', ').replace(/, ([^,]*)$/, ' and $1')}.` : `No seat rules ${d} in your chart, and your decades set its course.`;
+  // one chapter holds them all: say so once (section audit DA-028, DD-033, DE-035)
+  const where = per.length === 1 ? `${n === 1 ? 'It sits' : n === 2 ? 'Both sit' : `All ${NUMW[n].toLowerCase()} sit`} in your ${CHAPTER[per[0][0]]}.`
+    : `${per.map(([g, k], i) => `${i === 0 ? NUMW[k] : NUMW[k].toLowerCase()} ${i === 0 ? pl(k, 'sits', 'sit') + ' ' : ''}in your ${CHAPTER[g]}`).join(', ').replace(/, ([^,]*)$/, ' and $1')}.`;
+  const intro = n ? `${NUMW[n]} ${pl(n, 'seat rules', 'seats rule')} ${d} in your chart. ${where}` : `No seat rules ${d} in your chart, and your decades set its course.`;
   // the Advisor tabs: By decade (the decade lines already written) and By year (drafts)
   const byDecade = luck.filter((l) => RULING[l.god]?.includes(d) && l.startAge >= DEC_MIN && l.startAge <= DEC_MAX).map((l) => {
     const t = l.endAge < age ? 'lived' : 'ahead';

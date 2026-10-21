@@ -187,7 +187,7 @@ export const POSITION_READINGS = {
     teaser: 'You grew up where mine and yours blurred, and it made you generous and watchful at once. Keep sharing on purpose: looseness with money costs you relationships first.',
     domains: ['Family', 'Wealth'],
     defline: 'The Rival lives inside your Year Gate: in your first home almost everything was shared, and almost everything was claimed.',
-    reading: 'As a child you shared a bed or a bike or a birthday with a brother, sister or cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs.',
+    reading: 'As a child you shared a bed or a bike or a birthday with a sibling or a cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs.',
     domain_readings: {
       Family: 'Your family root pooled everything: money, space, claims, love. It made you generous by reflex and watchful by experience, and both instincts are correct. As an adult, formalize what the childhood left loose. Written clarity is how this family stays warm instead of expensive.',
       Wealth: 'Wealth in your story has always had company: shared accounts, borrowed sums, the relative whose need arrives before your surplus does. Your money grows best with boundaries it never had at home. One private account, one giving budget, and generosity becomes a joy again.',
@@ -267,7 +267,7 @@ export const POSITION_READINGS = {
   jiecai_hour_branch: {
     teaser: 'The people who come after you will have your fire and their own ideas. Late in life, generosity is your grace and your leak: give on purpose, not on request.',
     domains: ['Family', 'Wealth'],
-    defline: 'The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend.',
+    defline: 'The Rival lives inside your Hour Gate: what you build in later life you will share, and you will defend your part of it.',
     reading: 'Your later life stays loud and full, with children or younger relatives or someone you train arguing with you and for you. Because you value being matched more than being obeyed, you are drawn to the bold ones, and you give them more than you promised yourself. You share most of what you build late, and you hold on to your part only where you fixed its size early.',
     domain_readings: {
       Family: 'Your late family life is vivid: heirs with your fire and their own compass, a household that debates because it cares. Do not mistake their independence for distance. The Rival’s children love by contending. Set the table anyway, referee lightly, and the noise turns out to be the warmth.',
@@ -639,7 +639,7 @@ export const POSITION_READINGS = {
     teaser: 'Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices.',
     domains: ['Family', 'Wealth'],
     defline: 'The Steward lives inside your Year Gate: underneath your first years lay a careful home where nothing was wasted.',
-    reading: 'You took in your family\'s habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for luck. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years.',
+    reading: 'You took in your family\'s habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for a windfall. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years.',
     domain_readings: {
       Family: 'Your family root kept its word about money: a house that counted, saved, and never dramatized it. You inherited solvency as a temperament. Family remains your soundest network, help flowing reliably both ways. Keep the ledgers kind, and this root funds generations.',
       Wealth: 'Your fortune compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning.',

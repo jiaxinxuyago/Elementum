@@ -526,5 +526,41 @@
   "key": "POSITION piancai_day_branch · domain_climb.Social.ahead",
   "before": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape your next twenty years through someone you share a home with.",
   "after": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape these years through someone you share a home with."
+ },
+ {
+  "id": "cross:X-031",
+  "key": "POSITION jiecai_hour_branch · defline",
+  "before": "The Rival lives inside your Hour Gate: what you build in later life you will share, and sometimes have to defend.",
+  "after": "The Rival lives inside your Hour Gate: what you build in later life you will share, and you will defend your part of it."
+ },
+ {
+  "id": "cross:X-043",
+  "key": "POSITION zhengcai_year_branch · reading",
+  "before": "You took in your family's habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for luck. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years.",
+  "after": "You took in your family's habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for a windfall. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years."
+ },
+ {
+  "id": "cross:X-044",
+  "key": "POSITION jiecai_year_branch · reading",
+  "before": "As a child you shared a bed or a bike or a birthday with a brother, sister or cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs.",
+  "after": "As a child you shared a bed or a bike or a birthday with a sibling or a cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs."
+ },
+ {
+  "id": "DE:DE-019",
+  "key": "POSITION piancai_month_stem · domain_climb.Social.recognition",
+  "before": "You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
+  "after": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact."
+ },
+ {
+  "id": "DA:DA-026",
+  "key": "GOD zhengyin · year_domain.Family",
+  "before": "An older relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be.",
+  "after": "A relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be."
+ },
+ {
+  "id": "DB:DB-028",
+  "key": "TG_PATTERN shi_shang_sheng_cai · domain_lines.Wealth",
+  "before": "Underneath, what you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+  "after": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play."
  }
 ]

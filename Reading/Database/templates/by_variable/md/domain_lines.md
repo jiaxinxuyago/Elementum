@@ -52,7 +52,7 @@
 
 | Field | Value |
 |---|---|
-| `Wealth` | Underneath, what you make turns into money more easily for you than for most, and you earn most from the work that feels like play. |
+| `Wealth` | What you make turns into money more easily for you than for most, and you earn most from the work that feels like play. |
 | `Career` | You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing. |
 
 ### Wealth underwrites rank · 财官相生

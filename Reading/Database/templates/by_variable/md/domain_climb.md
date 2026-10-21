@@ -378,7 +378,7 @@
 | `Wealth.recognition` | You earn best from timing, a bonus or a sale or a deal that comes good all at once. Because you trust the next chance to arrive, you spend and lend freely between windfalls. Your money leaves as easily as it arrives, and you notice only when a quiet season comes. |
 | `Wealth.lived` | Good years and thin ones have followed each other since your late teens, with money arriving in lumps and leaving through generosity. More than once you have spent a windfall on friends and new plans before you set a share of it aside. |
 | `Social.headline` | You know someone for every need. |
-| `Social.recognition` | You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact. |
+| `Social.recognition` | You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact. |
 | `Social.lived` | Many of your friendships since your late teens began over work, a deal or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life. |
 
 ### The Horizon inside the Month Gate · 偏财在月支

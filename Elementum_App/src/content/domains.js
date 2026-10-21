@@ -297,7 +297,7 @@ export const DOMAINS_CONTENT = {
     },
     "Social": {
      "headline": "You know someone for every need.",
-     "recognition": "You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
+     "recognition": "You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
      "lived": "Many of your friendships since your late teens began over work, a deal or a shared plan. You have kept in touch with more people than anyone you know, and a few of them have become close for life."
     }
    }
@@ -1520,7 +1520,7 @@ export const DOMAINS_CONTENT = {
   },
   "shi_shang_sheng_cai": {
    "readings": {
-    "Wealth": "Underneath, what you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+    "Wealth": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
     "Career": "You are also paid best for the work you would do unpaid, and you grow your income by making more rather than by climbing."
    },
    "fused_line": "In you making and earning sit close together, and you are paid in the same season that you make."
