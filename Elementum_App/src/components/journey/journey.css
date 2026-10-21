@@ -938,3 +938,9 @@
 .jny .dl-meta{ display: block; font-size: 8.5px; letter-spacing: 1px; text-transform: uppercase; color: var(--inkLight); margin: 2px 0 4px; }
 .jny .dl-defl, .jny .dl-read, .jny .dl-about{ margin: 0 0 6px; }
 .jny .dl-elcard{ cursor: default; }
+
+/* N4 legibility fix (owner ruling 2026-10-21, design pass DES_15): the function
+   and relation labels under the wheel disks can land on the painted ink ring of
+   the center seal (e.g. the Vine's "Action"), grey on dark ink. A paper-coloured
+   halo keeps them readable; the wheel's design, seats and sizes are untouched. */
+.jny .node .fnlab, .jny .node .mg-rv{ text-shadow: 0 0 2px #F1E9D6, 0 0 3px #F1E9D6, 0 0 5px rgba(241,233,214,0.9); }

@@ -1,6 +1,6 @@
 # Design Pass, October 2026: library copy
 
-> **Status: AWAITING OWNER RULINGS.** These are design references only. Nothing here is implemented in the app.
+> **Status: RULED 2026-10-21. V5 The Combination is adopted** (R1–R11 A, N1–N4 A). The rulings are logged in DES_15.
 >
 > **Record:** `Design/Documents/DES_15_Design_Pass_2026-10.md`. The rulings get logged there, row by row.
 
@@ -20,6 +20,7 @@ Every image is an existing app asset: backgrounds, `concept-arts/library` plates
 | `V3_The_Almanac_Home.html` | Opens on Today; Your reading as a book with a contents page | https://claude.ai/artifact/YH9NpghZ82RmKvvTqa5Zhh |
 | `V4_The_Five_Gates.html` | The energies as the index; a five-sign lens rail on every page | https://claude.ai/artifact/D9Kdo4mSKm7Rf1pxUTCjz2 |
 | `V5_The_Combination.html` | The recommended combination built out (rows R1–R11, option A), every section, each part labelled with its source variant | https://claude.ai/artifact/Tja5Ak53p4dW8Vq3GKQGtB |
+| `N1_Pair_Illustrations_Brief.md` | The commission brief for the 25 energy-sheet paintings: spec, prompt prefix, one subject per pair | — |
 | `Comparison_and_Rulings.html` | Side-by-side comparison, the 15-row ruling sheet, the new-art proposals | https://claude.ai/artifact/ChLJ9EGXRFtErjBPs8WSWW |
 
 ## The recommended combination ("V5")

@@ -1,6 +1,6 @@
 # DES_15 — Design Pass, October 2026 (four full-app variants)
 
-> Status: **AWAITING OWNER RULINGS.** Nothing here is implemented. The app stays as it is until a variant is ruled (standing law: design first, by artifact).
+> Status: **RULED 2026-10-21. V5 The Combination is adopted** (R1–R11 A, N1–N4 A). N4 and N2 are done. The V5 build has not started; its rollout is the next owner question.
 
 ## Brief
 
@@ -79,7 +79,21 @@ The owner answers in codes, e.g. "R1 A, R2 B". Rulings get recorded below, row b
 
 | Row | Ruling | Date |
 |---|---|---|
-| — | pending | — |
+| R1 | A · V2 album hub (strip, wheel, weighted tiles) | 2026-10-21 |
+| R2 | A · card runs, with "Read it all as one page" | 2026-10-21 |
+| R3 | A · first visit on Your reading, later visits on Today with Continue reading | 2026-10-21 |
+| R4 | A · unread dot, seal stamp on a finished tile, "2 of 7 read" | 2026-10-21 |
+| R5 | A · swipe sideways between the five energy pages | 2026-10-21 |
+| R6 | A · lens rail held for phase 2 | 2026-10-21 |
+| R7 | A · Today: painted card, week ribbon, month and year tiles | 2026-10-21 |
+| R8 | A · tile face: painted band, claim, one picture, reading time | 2026-10-21 |
+| R9 | A · existing element plate in the sheet's picture slot until the pair art lands | 2026-10-21 |
+| R10 | A · reading time on tiles and sections | 2026-10-21 |
+| R11 | A · V4 balance picture opens "How am I running?" | 2026-10-21 |
+| N1 | A · commission all 25 pair illustrations. Brief: `Design/Library/Design_Pass_2026-10/N1_Pair_Illustrations_Brief.md`. Waiting on the owner's image pipeline | 2026-10-21 |
+| N2 | A · DONE: 15 portrait crops `t_{el}_{3,4,5}_p.png` (720×960, ≤257 KB) in `public/concept-arts/library`, cut from existing plates; no new painting | 2026-10-21 |
+| N3 | A · BLOCKED: the yin-stem paintings are in the vault (`D:\Elementum\Art_Library`), which a cloud session cannot reach. The owner copies them into the repo or uploads them | 2026-10-21 |
+| N4 | A · DONE: italic removed from the four live sites. The wheel-label issue was a contrast problem, not clipping: grey text sat on the center painting's ink ring. Fixed with a paper-coloured text halo on `.fnlab`/`.mg-rv` in `journey.css`; the wheel's design is unchanged | 2026-10-21 |
 
 ## New art (proposal only; not used in any variant)
 
@@ -99,4 +113,4 @@ The owner answers in codes, e.g. "R1 A, R2 B". Rulings get recorded below, row b
 ## Live defects found during the pass (not fixed; for the owner to route)
 
 - Italic is still set in four live places, against DES_04 §AM.10 v3: `components/guidance/InkTile.jsx:156` (the Guidance tile subtitles), `components/dashboard/tabs/CompatScreen.jsx:56` and `:80`, and `components/reading/DayMasterCta.jsx:38`.
-- The wheel's function label under a left-hand disk is cut off by the center painting (golden "Action · you shape it"; Vine "Action"). This is a stacking-order issue; the fix leaves the wheel's design unchanged.
+- The wheel's function label under a left-hand disk was hard to read (golden "Action · you shape it"; Vine "Action"). Corrected diagnosis: the label is on top, but grey on the ink ring. FIXED (N4) with a text halo.

@@ -153,7 +153,7 @@ export default function InkTile({
       {/* text */}
       <span style={{ position: 'relative', zIndex: 2, display: 'flex', flexDirection: 'column', gap: 2 }}>
         <span style={{ fontFamily: CORMORANT, fontSize: 18, fontWeight: 600, lineHeight: 1.04, color: INK }}>{title}</span>
-        <span style={{ fontFamily: EB, fontStyle: 'italic', fontSize: 12, color: SUBTLE, lineHeight: 1.25 }}>{subtitle}</span>
+        <span style={{ fontFamily: EB, fontSize: 12, color: SUBTLE, lineHeight: 1.25 }}>{subtitle}</span>
       </span>
     </button>
   );

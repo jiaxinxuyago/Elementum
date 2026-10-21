@@ -35,7 +35,7 @@ export default function DayMasterCta({ dayMaster, glyph, archetype, onSeal }) {
         <span style={{ display: 'block', fontFamily: "'Cormorant Garamond', Georgia, serif", fontWeight: 600, fontSize: 17, lineHeight: 1.1, color: 'rgb(43,39,34)' }}>
           Read your Day Master
         </span>
-        <span style={{ display: 'block', fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic', fontSize: 12, color: 'rgb(106,132,154)', marginTop: 1 }}>
+        <span style={{ display: 'block', fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, color: 'rgb(106,132,154)', marginTop: 1 }}>
           {glyph} {archetype} · your core reading
         </span>
       </span>

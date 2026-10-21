@@ -53,7 +53,7 @@ export default function CompatScreen({ onStartCompare, onCompareAgain }) {
         {/* Body */}
         <div style={{ padding: '14px 0 0' }}>
           <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, lineHeight: 1.58, color: 'rgb(74,67,59)', margin: 0 }}>
-            In the old rite of <span style={{ fontStyle: 'italic' }}>hé hūn</span>, two birth charts are laid side by side — to see where their energies nourish, where they clash, and whether the bond is written in the pillars.
+            In the old rite of hé hūn, two birth charts are laid side by side — to see where their energies nourish, where they clash, and whether the bond is written in the pillars.
           </p>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, margin: '16px 0 13px' }}>
@@ -77,7 +77,7 @@ export default function CompatScreen({ onStartCompare, onCompareAgain }) {
           }}>
             Begin the joining <span style={{ fontSize: 15 }}>⟶</span>
           </button>
-          <div style={{ textAlign: 'center', marginTop: 13, marginBottom: 6, fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic', fontSize: 12.5, color: 'rgb(133,125,114)' }}>
+          <div style={{ textAlign: 'center', marginTop: 13, marginBottom: 6, fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, color: 'rgb(133,125,114)' }}>
             A two-minute rite · your chart stays private
           </div>
         </div>
