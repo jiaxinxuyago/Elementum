@@ -1,0 +1,364 @@
+{
+ "units": [
+  {
+   "key": "SEASON jia.yin · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "You were born at the very start of spring, a young tree standing in frost that has not yet lifted. The season wants Fire first to warm you through and then Water as soft rain to feed your roots, and you grow fastest with your face turned to the sun."
+  },
+  {
+   "key": "SEASON jia.mao · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Mid-spring brings your Wood to full strength, a tree growing faster than its own shape. This month calls for Metal before anything else, a blade that prunes you into form, with Earth behind it to keep the blade supplied. You do your finest work under a firm hand, and too much rain dulls that edge."
+  },
+  {
+   "key": "SEASON jia.chen · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "By late spring your growth has spent most of its push, and the ground turns heavy as Earth takes over. What this season asks for is Metal to carve you into something useful, then a river's Water to refill what spring used up. You stand tall again once blade and river both reach you."
+  },
+  {
+   "key": "SEASON jia.si · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Your birth falls in early summer, when the sun takes charge and your sap starts to drain. The month turns to Water first, a rain that cools you, and to Fire second as a small flame that lets your growth be seen. You keep your green when the rain gets there before the heat."
+  },
+  {
+   "key": "SEASON jia.wu · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Midsummer is the height of the heat, and your Wood dries out faster than it can drink. Water as rain matters most to keep you supple, with Fire as a steady flame next to let your talent shine and Metal last to trim you. You flourish in the hottest weeks once the rain comes first."
+  },
+  {
+   "key": "SEASON jia.wei · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Late summer works on you quietly, the first cool hidden inside the heaviest heat. This season leans on Fire first to keep you warm and bright, then on Metal to give you edges, and takes rain only if it comes. You do well at summer's close when a small flame keeps burning beside you."
+  },
+  {
+   "key": "SEASON jia.shen · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Born in early autumn, you arrive when Metal rules the month and timber is cut. The season honours Fire above all, a flame that works the blade into a tool, and it still wants the Metal to shape you. Rain puts the flame out, and you turn the cutting season into craft while the fire stays lit."
+  },
+  {
+   "key": "SEASON jia.you · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Mid-autumn is when Metal stands strongest, and your Wood is held in its grip, cut back and cooling. Fire is wanted twice over, first as a close flame that softens that Metal and then as full sun to warm you. You hold your ground in this month once fire stands between you and the cold."
+  },
+  {
+   "key": "SEASON jia.xu · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Late autumn strips you bare, leaves falling and roots drying in a month ruled by Earth. The season loves Fire most to keep you lit, then Water as rain and river to feed what is left of your growth, with Metal and solid ground in support. You come through the bare months whole when warmth and water both stay near."
+  },
+  {
+   "key": "SEASON jia.hai · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Early winter fills the ground with cold water, and a tree like you risks floating loose from its roots. The month wants Metal and Fire together, the blade to shape you and the flame to warm the blade, with Earth to bank the rising water. You stand firm through the first cold when the flood is held back."
+  },
+  {
+   "key": "SEASON jia.zi · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "In midwinter you are a tree in frozen ground, cold to the core while rain turns to ice around you. This season looks to Fire before anything to thaw you, then to Metal to give your shape an edge, with the sun lending a hand. You come alive in the dark months beside a fire that stays lit."
+  },
+  {
+   "key": "SEASON jia.chou · reading",
+   "kind": "season",
+   "page": "season-jia",
+   "text": "Winter's last month is the coldest stretch of your year, and your Wood sits frozen with no sign of growth. The season asks for Metal first to split you open and then for Fire to catch in the opened grain, the half it cannot do without. You shine in the deep cold the moment that flame takes hold."
+  },
+  {
+   "key": "SEASON yi.yin · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "You arrive at the start of spring, a young vine in air that still holds the winter's chill. This month puts Fire first, a sun that warms you as nothing else can, and lets Water follow as rain once the cold eases. You climb toward any warmth, and you grow quickly when the sun comes before the rain."
+  },
+  {
+   "key": "SEASON yi.mao · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Mid-spring warms you without effort, the vine in full leaf and the cold behind you. The season crowns Fire as the sun you reach for and keeps Water as its helper, one to open your flowers and the other to keep them fed. You spread widest when no Metal is cutting at your roots."
+  },
+  {
+   "key": "SEASON yi.chen · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "By late spring the heat is climbing faster than the soil can hold water, and your vine begins to thirst. This month reaches for Water first to keep you supple and for Fire second to bring you into bloom. You come into full flower when loose Earth and hard Metal both keep their distance."
+  },
+  {
+   "key": "SEASON yi.si · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Early summer already gives you more sun than you asked for, and your vine starts to wilt through the long bright days. What you need now is Water above everything else, with Metal standing behind it as the source that keeps the rain coming. You stay fresh through the heat as long as that rain does not run dry."
+  },
+  {
+   "key": "SEASON yi.wu · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Your birth falls in midsummer, when fire runs the month and the fields lie parched. Water is wanted first and most to save your leaves, and Fire joins it as sunlight once the dog days bring their hidden chill. You green again after one good soaking, and you carry that freshness into the cooler months."
+  },
+  {
+   "key": "SEASON yi.wei · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Late summer dries the ground around you and hides the first cool of autumn under the heat. Water does the main work this month, soaking your roots, while Fire keeps you warm as that cool creeps in and Metal feeds the water from behind. You thrive at the end of summer once heavy Earth stays out of the way."
+  },
+  {
+   "key": "SEASON yi.shen · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Born in early autumn, you feel the colder air as Metal takes charge of the month. The season wants Fire first to soften that Metal and keep you warm, then Water to keep your leaves from drying, and soft Earth to hold your roots. You stay rooted through the turning season when that ground is under you."
+  },
+  {
+   "key": "SEASON yi.you · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Mid-autumn is your flowering season, the vine that blooms when everything else is fading. Before the flowers open you want Water to feed the buds, and once they open you turn toward Fire as sunlight with rain close behind. You blossom late and well, and you are at your best when people least expect a bloom."
+  },
+  {
+   "key": "SEASON yi.xu · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Late autumn dries your roots and drops your leaves, leaving the vine bare in hard ground. Everything this season turns on Water to bring you back to life, with fine Metal upstream to keep the rain flowing. Strong sun only bakes the ground harder, and you recover when the water reaches you first."
+  },
+  {
+   "key": "SEASON yi.hai · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Early winter brings cold water up around your roots, more than a vine can take in, and growth stops. The month turns to Fire first to warm you and then to Earth as solid ground to hold back the water and give you footing. You stay above the flood when warmth and firm ground reach you together."
+  },
+  {
+   "key": "SEASON yi.zi · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "In midwinter your vine freezes where it stands, though the light has already begun its slow return. This season leans on Fire alone, a sun to thaw you and turn your face toward the coming spring. Rain only adds to the frost, and you start to grow again the moment the sun touches you."
+  },
+  {
+   "key": "SEASON yi.chou · reading",
+   "kind": "season",
+   "page": "season-yi",
+   "text": "Late winter keeps you in a cold valley, a vine waiting under frost for the year to turn. The season asks for one thing only, Fire as a clear sun that brings spring back early to the valley floor. You flower before the rest of the year when that light reaches you clear of any rain."
+  },
+  {
+   "key": "SEASON bing.yin · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Early spring lifts you higher each day, the sun climbing as the year opens and your heat building with it. The month honours Water most, a broad river that reflects your light and keeps the warmth in measure, with Metal feeding that river from upstream. You shine clearest when no mountain of Earth stands between you and the world."
+  },
+  {
+   "key": "SEASON bing.mao · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "In mid-spring your warmth stretches out with ease, the sun riding higher over green fields. Everything this month comes down to Water, a river under your light kept full by Metal of every kind. You blaze at your fullest when no smaller fire draws that river away from you."
+  },
+  {
+   "key": "SEASON bing.chen · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Late spring warms you steadily while damp Earth gathers around you and dulls your glow. The season asks for river Water to carry your light and for Wood to break that Earth apart, and it keeps Metal well away from the Wood. You light up a whole valley once the soil has been broken open."
+  },
+  {
+   "key": "SEASON bing.si · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Your birth falls in early summer, when you stand at full strength and the air shimmers with heat. The month calls on Water to take the edge off that blaze, a river that lets fire and water finish each other's work, with Metal at its source. You are at your most generous once a full river runs below you."
+  },
+  {
+   "key": "SEASON bing.wu · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Midsummer is your peak, the sun at full height with heat pouring off it in every direction. Only a high and open river of Water can match you this month, and Metal behind it keeps that river from shrinking. You rise above ordinary days when nothing muddies the water or pulls it away."
+  },
+  {
+   "key": "SEASON bing.wei · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Late summer is when your heat starts to ebb, fierce on the surface with the first coolness waiting beneath. Water is the main thing this season wants for you, a river steadied by Metal that keeps your light strong as it begins to soften. You stay brilliant into the turning weeks when no bank of Earth chokes that river."
+  },
+  {
+   "key": "SEASON bing.shen · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Born in early autumn, you hang lower in the sky, and the light you give turns golden and slanting. This month wants Water beneath you most of all, broad river water that catches your glow and throws it back doubled. You look your brightest in that reflection, and you keep your shine as long as the water stays in measure."
+  },
+  {
+   "key": "SEASON bing.you · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Mid-autumn brings you toward evening, your last light spread low across a lake. Water is what the season prizes for you, a river that holds your fading glow and keeps it in view. You keep that evening light longest when no hill of Earth gets in the way and no jewel of Metal pulls your gaze aside."
+  },
+  {
+   "key": "SEASON bing.xu · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Late autumn draws your fire down further while heavy Earth piles up and dims what light remains. This season reaches first for Wood to break up that Earth and feed you, and second for Water, a river to restore your shine. You light up again when no blade cuts the Wood and no Earth buries the water."
+  },
+  {
+   "key": "SEASON bing.hai · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Early winter takes the sun out of season, with short days and cold water rising under you. The month wants Wood to keep your fire fed, Earth to hold back the water, and Metal to trim the Wood when it grows thick. You stay bright through the dark months by drawing on each of these as the weather changes."
+  },
+  {
+   "key": "SEASON bing.zi · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Midwinter is where your light turns, the shortest day passing and your sun growing stronger from its lowest point. The season puts Water first, a river that gives the returning light a surface, with Earth beside it to hold the water in its banks. You gather strength through the cold months and come back brighter every week after the solstice."
+  },
+  {
+   "key": "SEASON bing.chou · reading",
+   "kind": "season",
+   "page": "season-bing",
+   "text": "Late winter gives your sun its nerve back, strong enough to laugh at the snow and melt the frost. This month looks to Water to carry that new strength, and with so much frozen Earth about it calls on Wood to break the ground. You outshine the last of the cold once the soil loosens."
+  },
+  {
+   "key": "SEASON ding.yin · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Early spring piles fresh green Wood around your flame, more fuel than a small fire can catch. The month asks for Metal first to split that Wood into kindling, with a measure of Water to keep the blaze in check. You burn steady and bright when the fuel reaches you already cut."
+  },
+  {
+   "key": "SEASON ding.mao · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "In mid-spring damp vines crowd your flame, green growth that smokes more than it burns. This season wants Metal before all else to clear that wet growth away, and then Wood from a solid tree to give you dry fuel. You glow clean and clear once the smoke has gone and real timber is in reach."
+  },
+  {
+   "key": "SEASON ding.chen · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Late spring settles heavy Earth over your flame, damp soil that soaks up your warmth as fast as you make it. The month leans first on Wood to feed you and push that Earth back, then on Metal to split the Wood into pieces you can use. You find your light again once the fire has something dry to hold."
+  },
+  {
+   "key": "SEASON ding.si · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "You were born in early summer, when your flame rises to its full strength in the warm months. The season wants Wood for fuel and Metal to split it, the pairing that makes your fire burn clear instead of smoky. You give off your finest light in these weeks when no rain falls on you."
+  },
+  {
+   "key": "SEASON ding.wu · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Midsummer brings your flame home to its strongest month, and more fuel only makes the heat harder to bear. The season looks instead to a river's Water to temper that fire and to Metal to keep the river fed, though a single clear rain also does the job. You rise above the crowd when no Earth dams that water."
+  },
+  {
+   "key": "SEASON ding.wei · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Late summer weakens your flame more than the heat suggests, the first cool hiding inside the warm air. The month turns first to Wood to keep you burning and then to Water to steady you, with Metal on hand to split the fuel. You hold your light through the season's close when dry wood lies near."
+  },
+  {
+   "key": "SEASON ding.shen · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Born in early autumn, you are a soft flame drawing back while Metal rules the month without threatening you. The season calls for Wood as your fuel and Metal to cut it, with sunlight's Fire drying the wood first. You keep a steady glow into the cool weeks with dry kindling within reach."
+  },
+  {
+   "key": "SEASON ding.you · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Mid-autumn leaves your flame small against a cooling sky, a lamp burning while Metal fills the month. This month asks for Wood and Metal together, fuel and the blade that splits it, while the sun's Fire dries whatever you burn. Even dry grass lights you here, and you burn longest when the sun has warmed your fuel first."
+  },
+  {
+   "key": "SEASON ding.xu · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Late autumn surrounds your flame with dry Earth that drinks your warmth and gives little back. The season asks for Wood to keep you lit, and wherever there is Wood it wants Metal close by to split it. You turn sharp and articulate in this month, and you do your finest work once the fuel is cut and ready."
+  },
+  {
+   "key": "SEASON ding.hai · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Early winter puts a slight chill on your flame as the nights draw in. The month honours Wood above all to keep you burning, with Metal as its partner to split the logs and Earth or Water brought in as the weather demands. You burn warmest through the cold when no soft Earth clings to the wood."
+  },
+  {
+   "key": "SEASON ding.zi · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "Midwinter rings your flame with cold water on every side, the darkest month for a small fire. The season looks to Wood as the one thing that keeps you alight and to Metal to split it, with Earth to bank the water when it rises. You hold your glow in the deep cold while dry wood stays beside you."
+  },
+  {
+   "key": "SEASON ding.chou · reading",
+   "kind": "season",
+   "page": "season-ding",
+   "text": "At the end of winter your flame burns low under frozen ground, a candle in the last of the cold. This month prizes Wood most for fuel and Metal next to split it, while Earth and Water are used sparingly. You find your warmth again in the closing weeks of winter, once the wood is cut and dry."
+  },
+  {
+   "key": "SEASON wu.yin · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Early spring leaves your mountain cold and bare, with the thaw only starting on its slopes. The season wants Fire first as sunlight to warm the ground, then Wood to break the soil and bring it to life, and Water after that to make anything grow. You become a living hillside when all three reach you in that order."
+  },
+  {
+   "key": "SEASON wu.mao · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "In mid-spring green growth climbs your slopes while the stone beneath still holds some cold. The sun's Fire comes before anything to warm you, with Wood next to loosen the soil and rain last of all to feed it. You turn from bare rock into a hill people want to walk on once that warmth comes through."
+  },
+  {
+   "key": "SEASON wu.chen · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Late spring is your own month, with Earth in charge and your mountain grown thick and heavy. The season reaches for Wood first to break that weight apart, then for Fire to warm what has been opened, and for Water after that. You feel lighter and more useful when roots are working their way through you."
+  },
+  {
+   "key": "SEASON wu.si · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "You were born in early summer, solid on the outside and hollow within, warm on the surface and cool at the core. Wood is what the month needs most to open you up and set things growing, with Fire and Water in support. You come alive under the heat once something takes root in you."
+  },
+  {
+   "key": "SEASON wu.wu · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Midsummer bakes your mountain dry, the stone hot to the touch and the soil cracking. The season looks first to a river's Water to cool and soak the ground, then to Wood to keep it loose and green. A light rain does little at this heat, and you are at your best once real water runs across your slopes."
+  },
+  {
+   "key": "SEASON wu.wei · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Late summer leaves your mountain parched, dust on the slopes and every spring run low. Water as rain is the first thing this month wants for you, with Fire and Wood after it to keep the ground warm and broken open. You turn green again when the water comes first and the rest follows."
+  },
+  {
+   "key": "SEASON wu.shen · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Born in early autumn, you feel the warmth sink into your ground while the first cold rises out of it. The month asks for Fire first to keep your stone warm and for Water second to keep the soil soft, with Wood lending a hand. You stay fertile into the cooler weeks when the light holds on your slopes."
+  },
+  {
+   "key": "SEASON wu.you · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Mid-autumn draws Metal out of your mountain and leaves the rock colder and thinner than before. The season relies on Fire to warm you back and on Water to keep the ground soft, and it has no need of Wood this time. You give generously in these months, and you keep your strength when the sun stays on you."
+  },
+  {
+   "key": "SEASON wu.xu · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Late autumn piles your mountain high and dry, with Earth at full power and little else moving on it. Sunlight alone is not enough this month, which looks first to Wood to break the mass apart and then to Water to soften what the Wood has opened. You feel useful and alive once something grows through the hard ground."
+  },
+  {
+   "key": "SEASON wu.hai · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Early winter brings your mountain a brief warm spell before the real cold, a little summer at the start of the dark months. The month wants Wood first to keep your soil alive and Fire second to keep it warm. You make the most of the mild days, and you stay green when no Metal cuts the Wood away."
+  },
+  {
+   "key": "SEASON wu.zi · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "In midwinter your mountain freezes solid, ice in every crevice and snow across the summit. The season depends on Fire alone to thaw you, with Wood as its helper to keep that fire supplied. You warm slowly and hold heat a long time, and you thaw the moment the light reaches your slopes."
+  },
+  {
+   "key": "SEASON wu.chou · reading",
+   "kind": "season",
+   "page": "season-wu",
+   "text": "Late winter keeps your mountain frozen through, wet ground locked hard under old snow. Sunlight is the one thing this month asks for, Fire with Wood behind it feeding that warmth. You soften and open as the year turns, and you start to give again once the thaw reaches you."
+  }
+ ]
+}

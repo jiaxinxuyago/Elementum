@@ -1,0 +1,310 @@
+{
+ "units": [
+  {
+   "key": "GOD bijian · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "Your chart has no Twin, and nobody inside it stands level with you or carries half the load. You find your footing through other people, a team or a close friend, and you stand firmest when someone stands beside you."
+  },
+  {
+   "key": "GOD bijian · seen.inside",
+   "kind": "seen",
+   "page": "god-seen-inside",
+   "text": "In private you want to answer to nobody, and you would rather finish a job alone than wait for a hand."
+  },
+  {
+   "key": "GOD bijian · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "The Twin your season asks for stands in plain view, and you hold your ground openly among equals."
+  },
+  {
+   "key": "GOD bijian · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "Your season asks for the Twin and your chart holds it out of sight, and you draw on a steady faith in yourself that nobody else sees."
+  },
+  {
+   "key": "GOD bijian · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "The Twin your season asks for rests deep in your chart, and you find your feet late, when a hard stretch leaves nobody else to lean on."
+  },
+  {
+   "key": "GOD jiecai · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "No Rival sits anywhere in your chart, and no one in it fights you for your share or dares you to win. You keep what you earn without a contest, and you meet real competition only when a colleague wants the same post."
+  },
+  {
+   "key": "GOD jiecai · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as bold and openhanded, quick to share what you have and quicker to race for more."
+  },
+  {
+   "key": "GOD jiecai · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "Your season asks for the Rival and your chart shows it plainly, and you compete openly with friends who push you to win."
+  },
+  {
+   "key": "GOD jiecai · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "You carry the Rival your season asks for out of view, and you push yourself against the people around you without ever calling it a race."
+  },
+  {
+   "key": "GOD jiecai · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "The Rival your season asks for lies buried far down, and you show your fighting nerve only when someone reaches for what is yours."
+  },
+  {
+   "key": "GOD shishen · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "The Artisan is missing from your chart, and nobody in it lets you rest or enjoy your own work. You plan your pleasures like tasks, a booked dinner or a day off on the calendar, and you relax best when someone else sets the table."
+  },
+  {
+   "key": "GOD shishen · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as easygoing and warm, the friend who cooks for everyone and makes hard work look light."
+  },
+  {
+   "key": "GOD shishen · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "The Artisan your season asks for sits out in the open, and you make things with an ease that everyone around you can see."
+  },
+  {
+   "key": "GOD shishen · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "The Artisan your season asks for stays beneath the surface, and you refill yourself through a private craft or a kitchen nobody else uses."
+  },
+  {
+   "key": "GOD shishen · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "The Artisan your season asks for survives only as a faint trace, and you let yourself enjoy things in small bursts, a good meal here and a finished project there."
+  },
+  {
+   "key": "GOD shangguan · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "Your chart carries no Virtuoso, and nobody inside it argues back or tells you a plan is wrong. You follow the brief as written, and you raise objections late and politely, after the decision is made."
+  },
+  {
+   "key": "GOD shangguan · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as quick and outspoken, the one who says what the rest of the meeting was thinking."
+  },
+  {
+   "key": "GOD shangguan · seen.inside",
+   "kind": "seen",
+   "page": "god-seen-inside",
+   "text": "You rewrite other people's work in your head, and you want your talent noticed more than you admit."
+  },
+  {
+   "key": "GOD shangguan · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "The Virtuoso your season asks for is on show, and you are known for a sharp voice and work that breaks the usual mould."
+  },
+  {
+   "key": "GOD shangguan · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "The Virtuoso your season asks for lives under the surface of your chart, and you put your sharpest ideas into the work instead of saying them aloud."
+  },
+  {
+   "key": "GOD shangguan · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "The Virtuoso your season asks for sits at the very bottom of your chart, and you speak your sharpest mind only once a rule has pushed you too far."
+  },
+  {
+   "key": "GOD piancai · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "With no Horizon in your chart, nobody inside it opens a side door or brings you an offer you did not chase. You earn by the front route, one job at a time, and you trust what you worked for over a windfall."
+  },
+  {
+   "key": "GOD piancai · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as easy with strangers and quick with an offer, the one who always knows someone useful."
+  },
+  {
+   "key": "GOD piancai · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "You have the Horizon your season asks for in full view, and you meet offers and new people openly, with more chances than you can take."
+  },
+  {
+   "key": "GOD piancai · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "Your season asks for the Horizon and your chart keeps only a thin seam of it, and you stumble on your chances late, through a friend of a friend."
+  },
+  {
+   "key": "GOD zhengcai · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "Your chart gives the Steward no place, and nobody inside it keeps the books or counts what comes in. You handle money in bursts and forget it for months, and you rely on a partner or a spreadsheet to keep the count."
+  },
+  {
+   "key": "GOD zhengcai · seen.inside",
+   "kind": "seen",
+   "page": "god-seen-inside",
+   "text": "You keep a private tally of what things cost, and you sleep better with something put aside."
+  },
+  {
+   "key": "GOD zhengcai · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "Your chart puts the Steward your season asks for right on the surface, and you earn steadily through work with a clear wage and a known return."
+  },
+  {
+   "key": "GOD zhengcai · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "The Steward your season asks for is held inside your chart rather than on show, and you save quietly and keep more in reserve than anyone guesses."
+  },
+  {
+   "key": "GOD zhengcai · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "You hold the Steward your season asks for only deep inside your chart, and you learn to keep money late, once a lean spell teaches you how."
+  },
+  {
+   "key": "GOD qisha · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "Your chart is without the General, and nobody inside it sets you a hard test or a date you cannot move. You keep your own pace and face few real tests, and you learn how strong you are only when pressure comes from outside."
+  },
+  {
+   "key": "GOD qisha · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as tough and hard to rattle, the person people send in when the stakes are high."
+  },
+  {
+   "key": "GOD qisha · seen.inside",
+   "kind": "seen",
+   "page": "god-seen-inside",
+   "text": "You push yourself harder in private than anyone asks of you, and you set tests that nobody else sees."
+  },
+  {
+   "key": "GOD qisha · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "The General your season asks for leads from the front, and you meet hard tests in public and are trusted for how you handle them."
+  },
+  {
+   "key": "GOD qisha · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "The General your season asks for works unseen from within, and you hold yourself to a hard private standard that makes you stronger."
+  },
+  {
+   "key": "GOD qisha · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "The General your season asks for sleeps under everything else, and you go untested for years, then rise to the one hard test that finally comes."
+  },
+  {
+   "key": "GOD zhengguan · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as reliable and correct, the person others trust to follow the rules and keep their word."
+  },
+  {
+   "key": "GOD zhengguan · seen.inside",
+   "kind": "seen",
+   "page": "god-seen-inside",
+   "text": "You hold yourself to rules nobody wrote down, and you want a clear title that is yours alone."
+  },
+  {
+   "key": "GOD zhengguan · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "Your chart displays the Magistrate your season asks for, and you hold a clear role that others see and rely on."
+  },
+  {
+   "key": "GOD zhengguan · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "Your chart holds the Magistrate your season asks for inside, where nobody watches, and you live by a private code that keeps your days in order."
+  },
+  {
+   "key": "GOD zhengguan · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "Your chart buries the Magistrate your season asks for in one deep corner, and you take on a formal role late and grow into it slowly."
+  },
+  {
+   "key": "GOD pianyin · missing",
+   "kind": "missing",
+   "page": "god-missing",
+   "text": "Nobody inside your chart pulls you toward odd subjects or second thoughts, because it holds no Alchemist. You take knowledge as it is taught, and you act on a straight answer before you think to question it."
+  },
+  {
+   "key": "GOD pianyin · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as unusual and hard to read, with a specialist interest nobody saw coming."
+  },
+  {
+   "key": "GOD pianyin · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "The Alchemist your season asks for shows on the face of your chart, and you are the person others bring their strangest questions to."
+  },
+  {
+   "key": "GOD pianyin · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "The Alchemist your season asks for runs underneath without showing, and you study in private and keep the strangest of what you learn to yourself."
+  },
+  {
+   "key": "GOD pianyin · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "The Alchemist your season asks for runs as a thin thread far beneath the surface, and you reach for strange knowledge only when ordinary answers run out."
+  },
+  {
+   "key": "GOD zhengyin · seen.plain",
+   "kind": "seen",
+   "page": "god-seen-plain",
+   "text": "You come across as calm and well taught, someone a teacher or an older friend has clearly looked after."
+  },
+  {
+   "key": "GOD zhengyin · seen.inside",
+   "kind": "seen",
+   "page": "god-seen-inside",
+   "text": "You want to be looked after more than you say, and you stay close to the people who once taught you."
+  },
+  {
+   "key": "GOD zhengyin · season_need.shown",
+   "kind": "season_need",
+   "page": "god-season_need-shown",
+   "text": "In your chart the Sage your season asks for appears openly, and you are offered help and teaching before you think to ask."
+  },
+  {
+   "key": "GOD zhengyin · season_need.rooted",
+   "kind": "season_need",
+   "page": "god-season_need-rooted",
+   "text": "The Sage your season asks for rests quietly inside your chart, and you have backing from an older ally who never asks for credit."
+  },
+  {
+   "key": "GOD zhengyin · season_need.hidden",
+   "kind": "season_need",
+   "page": "god-season_need-hidden",
+   "text": "What your season asks for is the Sage and your chart holds it only deep down, and you meet the right teacher late, after years of teaching yourself."
+  }
+ ]
+}
