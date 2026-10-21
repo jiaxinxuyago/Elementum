@@ -46,3 +46,20 @@ The consequence, as on Your Almanac (its D1 B): on this surface the no-advice ru
   - About 326 units in all.
 - **Samples:** `ComparativeAnalysis/Prompts/out/handoff/2026-10-19-chapters-template/samples-energy.json`, 50 units. `gate-energy.mjs` there passes.
 - **Questions:** L1–L10 (order, characters out, gate-aware energy line, domains chosen, favours voice, lived chapters, the manual, duplicate energies, years shared with the Almanac, the visual pieces); R1–R4 carry round 1's Q3, Q9, Q6–Q8 and Q11; S1–S2 the samples.
+
+## Round 1 rulings (owner 2026-10-21, after the round 2 page): "Q1 A … Q11 A, S1 A, S2 A, S3 A"
+
+These answer the round 1 page. How they carry into the energy-first round 2:
+- **Carried as ruled:**
+  - Q3 A = R1 A: this year and the next five;
+  - Q4 A: the strongest bond only;
+  - Q5 A: year stars as a chip;
+  - Q6 A, Q7 A, Q8 A = R3 A;
+  - Q9 A = R2 A: the current decade sits in the reader's current chapter;
+  - Q11 A = R4 A: the seat sheet swaps when Life Chapters goes live.
+- **Carried into the energy keys:**
+  - Q1 A: the `.early` decade line;
+  - Q2 A: a chapter never repeats a seat's domain claim;
+  - Q10 A: every heavy unit ends on what carries the reader.
+- **S1–S3 A:** the round-1 samples are approved as calibration for the voice. Under the energy-first direction they are source material, not keys.
+- **Still open:** round 2's L1–L10 and its S1–S2.
