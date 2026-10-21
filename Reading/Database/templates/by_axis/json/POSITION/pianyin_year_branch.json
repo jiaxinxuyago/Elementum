@@ -38,7 +38,7 @@
       "Family": {
         "headline": "You were loved at home in an unusual way.",
         "recognition": "You show love to your family through ideas and help with problems more than through surface warmth. Because the care you got early was quiet and odd, you trust a relative who understands you more than one who fusses over you, and you feel lonely at noisy gatherings. You come home as the quiet one, and your relatives have stopped trying to change that.",
-        "lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, often an adult who lived in their own head. By your teens you had learned to answer your own questions, and you asked for help less than other children did."
+        "lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, an adult who lived in their own head. By your teens you had learned to answer your own questions, and you asked for help less than other children did."
       },
       "Mind": {
         "headline": "You taught yourself most of what you know.",
@@ -59,6 +59,9 @@
         "domain_climb.Family.lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, an older relative or a parent who lived in their own head. By your teens you had learned to look after your own mind, and you rarely asked anyone for help.",
         "domain_climb.Mind.lived": "As a child you read past whatever you were set and wandered into subjects nobody around you shared. By your teens you knew more about a few odd things than most adults did, and you told almost no one.",
         "domain_climb.Growth.lived": "As a child you learned most from a person outside the usual line, a neighbour or relative with odd interests who took you seriously. By your teens you had grown in ways your family could not quite follow, and you had stopped expecting them to."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Family.lived": "In your first home someone gave you books, questions or long silences in place of the usual fuss, often an adult who lived in their own head. By your teens you had learned to answer your own questions, and you asked for help less than other children did."
       }
     }
   },
@@ -125,6 +128,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Family.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-029 + DA:DA-018",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

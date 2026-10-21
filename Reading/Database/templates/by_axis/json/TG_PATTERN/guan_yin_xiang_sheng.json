@@ -30,7 +30,7 @@
     "fused_line": "In you the two move together, and you rise in rank and in learning at once.",
     "domain_lines": {
       "Career": "You also find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
-      "Mind": "Even so, you learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended."
+      "Mind": "You also learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended."
     },
     "__ore": {
       "domains_round1_retired_2026-10-21": {
@@ -38,6 +38,9 @@
         "domain_lines.Career": "You find your mentors inside the structures you join, and your name gathers weight the slow and lasting way.",
         "domain_lines.Mind": "You learn best inside a frame, a school or a firm or a discipline, and you keep studying long after the course has ended.",
         "fused_line": "They share one gate in you, and you rise in rank and in learning together."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_lines.Mind": "Even so, you learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended."
       }
     }
   },
@@ -69,6 +72,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": "They share one gate in you, and you rise in rank and in learning together."
+    },
+    {
+      "field": "domain_lines.Mind",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-025 + DD:DD-023",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

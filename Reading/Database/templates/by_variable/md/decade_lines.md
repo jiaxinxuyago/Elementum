@@ -20,7 +20,7 @@
 | `Growth.heavy.ahead` | Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. One equal who works beside you instead of against you keeps you going, and you grow because of it. |
 | `Social.helping.lived` | Friendships among equals defined those years, with people who matched your pace and asked nothing extra. You found a few friends who met you level, and you have kept some of them since. |
 | `Social.helping.ahead` | Your friends in these ten years are equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd. |
-| `Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and the one or two friends who stayed were enough to carry you. |
+| `Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and you found the one or two friends who stayed were enough to carry you. |
 | `Social.heavy.ahead` | Company that truly matches you is scarce in these years, and crowded groups wear you out quickly. One steady friend carries you through the decade, and you value that friend more than a full calendar. |
 
 ### The Rival · 劫财
@@ -31,31 +31,31 @@
 | `Wealth.helping.ahead` | Shared money works for you in these ten years, because the contest with others keeps you sharp. You do better with people at your side than alone, and you keep a fair part of what you win together. |
 | `Wealth.heavy.lived` | Money went out on friends in those years, lent to them or spent keeping up with them. You learned what generosity costs, and you got through on work you could do on your own. |
 | `Wealth.heavy.ahead` | Other people reach for your money in these years, through loans, shared costs and favours that do not all come back. You keep enough because you set your own share aside first, and you spend less on proving yourself. |
-| `Social.helping.lived` | Those years filled your life with lively company, friends who competed with you and pushed you on. You were at your best among a crowd of equals, and you won their respect openly. |
+| `Social.helping.lived` | Those years filled your life with lively company, friends who competed with you and pushed you on. You were at your best among a crowd of rivals, and you won their respect openly. |
 | `Social.helping.ahead` | Rivalry turns friendly in these years, and people who compete with you end up on your side. You keep a busy circle through the decade, one where you give and receive in fair measure. |
-| `Social.heavy.lived` | Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. You got through on the company itself, and you learned to tell an ally from a competitor. |
-| `Social.heavy.ahead` | Comparison runs through your friendships in these years, and you notice who earns more and who wins more. What carries you is one friend who never competes with you, and you lean on that friend often. |
+| `Social.heavy.lived` | Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. The company itself got you through, and you learned to tell an ally from a competitor. |
+| `Social.heavy.ahead` | Comparison runs through your friendships in these years, and you notice who earns more and who wins more. What carries you is one friend who never competes with you, and you lean on that friend above all others. |
 | `Career.helping.lived` | Your work in those years was a contest, and you did best when someone else wanted the same result. You were sharpest with a rival close by, and that drive got you further than talent alone. |
 | `Career.helping.ahead` | Joint efforts carry your work in these ten years, and you do best inside a group with something to win. You compete hard and share credit fairly, and the people beside you back you for it. |
 | `Career.heavy.lived` | Others claimed credit for your work in those years, and the reward went more than once to people who pushed harder. You kept going on your own effort, and you came out of that contest with a skill nobody could claim. |
-| `Career.heavy.ahead` | Rivalry over shared work costs you energy in these years, and a joint effort takes more from you than it pays. What carries you is work that is plainly yours, and the people who matter see that you did it. |
+| `Career.heavy.ahead` | Rivalry over shared work costs you energy in these years, and a joint effort takes more from you than it pays. You get through on work that is plainly yours, and the people who matter see that you did it. |
 
 ### The Artisan · 食神
 
 | Field | Value |
 |---|---|
-| `Health.helping.ahead` | You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than in the one before it. |
+| `Health.helping.ahead` | You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health through this decade, and you feel at ease in your own skin. |
 | `Health.helping.lived` | Your appetite and sleep were good in those years, and ordinary pleasures kept you well. You ate with enjoyment and moved without strain, and you felt at ease in your own body. |
 | `Health.heavy.lived` | Rich food, late nights and easy evenings piled up in those years, and your energy dropped as the habits grew. A plain daily routine brought you back, and you felt the change within weeks. |
-| `Health.heavy.ahead` | Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure. |
+| `Health.heavy.ahead` | Good food and long evenings cost you energy in these years, and the easy option wins more days than you mean it to. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure. |
 | `Family.helping.lived` | Home was warm in those years, full of meals and easy evenings with the people you lived with. You were the one who brought comfort to others, and your family loved you for it. |
 | `Family.helping.ahead` | Your household is softer in these ten years, with shared meals and unhurried weekends. You make the home a comfortable place, and relatives come to you because it feels good to be there. |
 | `Family.heavy.lived` | During those years you gave your family more comfort than they asked for, and some of them came to expect it. You spoiled the people closest to you, and you got your own ease back once others began to care for you in turn. |
 | `Family.heavy.ahead` | Indulgence runs the household in these years, with treats, late meals and little order. You get through on the warmth itself, and you wear yourself out less as your family learns to look after itself. |
 | `Career.helping.lived` | Work came easily in those years, especially work that let you make things or please people. You did your best at a relaxed pace, and others valued what you produced. |
 | `Career.helping.ahead` | A craft or skill you enjoy is what pays in these ten years. People come back for what you make, and you do your best work at an easy pace. |
-| `Career.heavy.lived` | Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and the skill you kept practising for pleasure is what kept you going. |
-| `Career.heavy.ahead` | Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make keeps you going, and you move forward each time a deadline gives you a reason to finish. |
+| `Career.heavy.lived` | Comfort dulled your drive at work in those years, and easy work held you longer than it served you. You were well liked and under-stretched, and the skill you practised for pleasure is what kept you going. |
+| `Career.heavy.ahead` | Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make carries you on, and you move forward each time a deadline gives you a reason to finish. |
 
 ### The Virtuoso · 伤官
 
@@ -78,15 +78,15 @@
 
 | Field | Value |
 |---|---|
-| `Wealth.helping.ahead` | Money comes to you through openings in these years more than through regular pay, an offer or a sale or a lucky move. You take more chances with money in this decade than you are used to, and most of them pay. |
-| `Wealth.helping.lived` | Openings came your way in those years, a lucky move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it. |
+| `Wealth.helping.ahead` | Money comes to you through openings in these years more than through regular pay, an offer or a sale or a well-timed move. You take more chances with money in this decade than you are used to, and most of them pay. |
+| `Wealth.helping.lived` | Openings came your way in those years, a timely move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it. |
 | `Wealth.heavy.lived` | Easy money came and went in those years, and each windfall left as fast as it arrived. You chased too many openings at once, and what carried you was the one steady source you kept. |
 | `Wealth.heavy.ahead` | Chances multiply in these years and spread you thin, with more offers and requests than you can follow. One reliable source keeps paying while the others rise and fall, and you come through with your savings intact. |
 | `Family.helping.ahead` | Your family widens in these years, through new relatives, friends who become family or a household that keeps its door open. You spend more on the people around you than you used to, and you mind it less than you expected. |
 | `Family.helping.lived` | Your household opened outward in those years, through travel, new relatives or friends who became family. You gave generously to everyone at home, and the house was busier for it. |
-| `Family.heavy.lived` | Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through on a family that forgave more than you expected. |
+| `Family.heavy.lived` | Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through because your family forgave more than you expected. |
 | `Family.heavy.ahead` | Distant plans crowd out home life in these years, and the people nearest to you feel the gap. What brings you back is a relative who asks plainly for your time, and you give it once you see the cost. |
-| `Social.helping.ahead` | You widen your circle in these years, through travel and new groups and people met through other people. You make more new friends in this decade than in the one before it. |
+| `Social.helping.ahead` | You widen your circle in these years, through travel and new groups and the people they lead you to. You make more new friends in this decade than in the one before it. |
 | `Social.helping.lived` | Your circle spread wide in those years, through travel, work and friends of friends. You met people easily everywhere you went, and several of them opened doors for you. |
 | `Social.heavy.lived` | Acquaintances crowded those years, and you knew people in many places without letting many of them close. One old friend who stayed kept you steady, and you confided in that friend more than in anyone new. |
 | `Social.heavy.ahead` | You meet more people in these years than you can keep up with, and old friends see less of you. A small group who knew you before this busy decade stays close, and you return to them again and again. |
@@ -96,17 +96,17 @@
 | Field | Value |
 |---|---|
 | `Wealth.helping.ahead` | You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it. |
-| `Wealth.helping.lived` | Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without luck or risk, and you trusted your own counting more than any tip. |
+| `Wealth.helping.lived` | Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip. |
 | `Wealth.heavy.lived` | Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built. |
-| `Wealth.heavy.ahead` | Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check. |
+| `Wealth.heavy.ahead` | Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check. |
 | `Family.helping.ahead` | Your family life settles in these years around the order you keep, a home that runs well and bills paid on time. You are the one your relatives rely on, and you are glad to be. |
 | `Family.helping.lived` | Meals, chores and repairs ran smoothly at home in those years because you saw to them. Your family grew used to your steadiness, and you took pride in it. |
 | `Family.heavy.lived` | Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly. |
-| `Family.heavy.ahead` | Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it. |
+| `Family.heavy.ahead` | Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it. |
 | `Career.helping.ahead` | Your work pays properly in these years, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well. |
 | `Career.helping.lived` | Steady work rewarded you in those years, and your record stayed clean. You became known as the person who delivers on time, and the reputation followed you into later work. |
 | `Career.heavy.lived` | Safety kept you in one place too long during those years, and your duties grew faster than your reward. You carried the extra load reliably, and it earned you a trust that later work paid for. |
-| `Career.heavy.ahead` | Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability keeps you valued, and you find a better fit once someone else sees what you are worth. |
+| `Career.heavy.ahead` | Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth. |
 
 ### The General · 七杀
 
@@ -122,8 +122,8 @@
 | `Growth.heavy.ahead` | Setbacks arrive in these years without warning, and you are pushed before you feel ready. What carries you is the discipline you already have, and you end the decade tougher in ways that show later. |
 | `Health.helping.ahead` | You carry more pressure in these years, and for once it suits your body. You are fitter and sharper in a demanding decade than in an easy one, and you stay that way while you keep sleeping. |
 | `Health.helping.lived` | Your body answered strain well in those years, and hard training or hard work made you stronger. You had energy for demanding days, and you recovered fast between them. |
-| `Health.heavy.lived` | Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and you got through because a few people made you stop. |
-| `Health.heavy.ahead` | Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is sleep and slow meals given their place in the week, and you recover fast once the pressure lifts. |
+| `Health.heavy.lived` | Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve, and you got through because a few people made you stop. |
+| `Health.heavy.ahead` | Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is rest and slow meals given their place in the week, and you recover fast once the pressure lifts. |
 
 ### The Magistrate · 正官
 
@@ -139,7 +139,7 @@
 | `Career.heavy.ahead` | Hierarchy presses on your work in these ten years, and each new duty adds to rules that are already strict. Your good name holds throughout, and what carries you is the part of the work you shape yourself. |
 | `Social.helping.ahead` | You hold standing among friends in these years, and people ask your opinion before they decide. You are the steady one in your circle, and you take the part seriously. |
 | `Social.helping.lived` | Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once. |
-| `Social.heavy.lived` | Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle. |
+| `Social.heavy.lived` | What was proper ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle. |
 | `Social.heavy.ahead` | Duty shapes your friendships in these years, and social life feels more like obligation than pleasure. Your good name holds, and you find relief with the friends who expect nothing formal from you. |
 
 ### The Alchemist · 偏印
@@ -149,12 +149,12 @@
 | `Career.heavy.lived` | Those years pulled you toward study and odd side paths more than toward steady work. You learned a great deal that did not pay at the time, and you got through on the one skill people kept asking you for. |
 | `Career.heavy.ahead` | Your work wanders in these years between study and side projects, and steady output is hard to keep up. You get through on one skill people pay for, and you return to it each time a side path stalls. |
 | `Career.helping.lived` | Unusual work suited you in those years, the kind that needs odd knowledge and long hours alone. You became good at something few others understood, and it earned you respect before it earned you anything else. |
-| `Career.helping.ahead` | Unusual knowledge brings you work in these years, through research, advice or technical skill. People come to you for what others do not know, and your name grows inside a small field. |
+| `Career.helping.ahead` | Unusual knowledge brings you work in these years, through research, advice or technical skill. You become the one people ask about what others do not know, and your name grows inside a small field. |
 | `Mind.heavy.lived` | You turned inward in those years, into subjects few people around you shared. You spent long stretches alone with your thinking, and you came out of it with work that still feels like the most important you have done. |
 | `Mind.heavy.ahead` | Your mind turns inward in these years, and long stretches of solitary thought leave work half done. One person who hears your ideas keeps you steady, and you finish more when someone is waiting. |
 | `Mind.helping.lived` | Strange subjects drew you in those years, and you learned through instinct and odd sources more than set courses. Your thinking grew original, and you trusted hunches that later proved right. |
 | `Mind.helping.ahead` | Your intuition is sharp in these ten years, and unusual ideas find a use. You think in ways few others do, and people come to you for the angle they missed. |
-| `Growth.heavy.lived` | You grew in those years by going your own way, often away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind. |
+| `Growth.heavy.lived` | You grew in those years by going your own way, away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind. |
 | `Growth.heavy.ahead` | Solitary searching slows you in these years, with many interests started and few carried through. One finished project gets you through, and you feel the decade's progress most on the day it is done. |
 | `Growth.helping.lived` | Unconventional paths taught you most in those years, a strange course, a self-taught skill or a mentor outside the usual. You developed in your own direction, and the difference became your strength. |
 | `Growth.helping.ahead` | Private study pays in these years, and the things you taught yourself count for more. You grow in directions nobody planned for you, and the progress shows in work only you could do. |
@@ -163,14 +163,14 @@
 
 | Field | Value |
 |---|---|
-| `Family.heavy.lived` | Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing what was expected, and what carried you was one thing you chose for yourself. |
+| `Family.heavy.lived` | Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing as you were asked, and what carried you was one thing you chose for yourself. |
 | `Family.heavy.ahead` | Family care comes with conditions in these years, and help arrives with a say in your choices. You hold steady by keeping a way of your own without a quarrel, and the bond survives the distance you need. |
 | `Family.helping.lived` | Care surrounded you in those years, from family who put your needs first and helped without being asked. You felt protected, and that security gave you the nerve to take on more than before. |
 | `Family.helping.ahead` | Family support reaches you in these ten years, as advice, practical help or a place to come back to. You receive more care than you expected, and you return it to the people who gave it. |
 | `Health.heavy.lived` | You let other people set your pace in those years, and you rested only when someone insisted. Their care carried you, and you learned afterwards to give yourself the same care without waiting to be asked. |
 | `Health.heavy.ahead` | Too much rest dulls you in these years, and comfortable days leave your energy low. What carries you is regular movement and a reason to get up early, and you feel better each time you have one. |
 | `Health.helping.lived` | Good care kept you well in those years, with regular meals, early nights and someone who noticed when you were tired. You recovered quickly from strain, and you felt safe in your body. |
-| `Health.helping.ahead` | Support and good rest restore you in these ten years, and recovery from strain comes faster than before. You sleep well and eat well, and your energy holds steady through the decade. |
+| `Health.helping.ahead` | Support and good rest restore you in these ten years, and you recover quickly from strain. You sleep well and eat well, and your energy holds steady through the decade. |
 | `Mind.helping.lived` | Steady study suited you in those years, and people who knew more than you gave your learning a firm base. You absorbed knowledge patiently, and much of what you know best dates from that decade. |
 | `Mind.helping.ahead` | Learning comes easily in these years, through books, good guides or a course taken at your own pace. Your thinking grows calmer and deeper, and you understand things you once rushed past. |
 | `Mind.heavy.lived` | Comfort in what you already knew held you in those years, and new ideas felt like a threat to it. You read and studied more than you acted, and the depth of what you had learned is what kept you going. |

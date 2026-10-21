@@ -72,7 +72,7 @@ export const TG_PATTERNS = [
     targets: ['Wealth', 'Career'],
     line: 'Your output stars feed your wealth stars directly: what you make converts to money with rare ease. Build one channel where creating flows straight to earning, and keep it yours.',
     reading: 'A generous wiring runs underneath: what you make converts to money with unusual ease. The work that feels like play earns more than the work that feels like duty, and the conversion improves with age. Keep one channel where creating flows straight to earning, and guard your appetite to make. Your income lives downstream of it.',
-    fused_line: 'In you the gap is short, and you are paid in the same season that you make.',
+    fused_line: 'In you making and earning sit close together, and you are paid in the same season that you make.',
   },
   {
     key: 'cai_guan_xiang_sheng', zh: '财官相生', en: 'Wealth underwrites rank',

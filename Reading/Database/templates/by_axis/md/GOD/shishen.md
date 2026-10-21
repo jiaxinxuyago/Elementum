@@ -32,18 +32,18 @@
 | `family_element.appetite` | making, voice, and the urge to put something into the world |
 | `family_element.notAlone` | not talent alone, but everything you shape and send outward |
 | `ruling_domains` | Health · Family · Career |
-| `decade_lines.Health.helping.ahead` | You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than in the one before it. |
+| `decade_lines.Health.helping.ahead` | You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health through this decade, and you feel at ease in your own skin. |
 | `decade_lines.Health.helping.lived` | Your appetite and sleep were good in those years, and ordinary pleasures kept you well. You ate with enjoyment and moved without strain, and you felt at ease in your own body. |
 | `decade_lines.Health.heavy.lived` | Rich food, late nights and easy evenings piled up in those years, and your energy dropped as the habits grew. A plain daily routine brought you back, and you felt the change within weeks. |
-| `decade_lines.Health.heavy.ahead` | Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure. |
+| `decade_lines.Health.heavy.ahead` | Good food and long evenings cost you energy in these years, and the easy option wins more days than you mean it to. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure. |
 | `decade_lines.Family.helping.lived` | Home was warm in those years, full of meals and easy evenings with the people you lived with. You were the one who brought comfort to others, and your family loved you for it. |
 | `decade_lines.Family.helping.ahead` | Your household is softer in these ten years, with shared meals and unhurried weekends. You make the home a comfortable place, and relatives come to you because it feels good to be there. |
 | `decade_lines.Family.heavy.lived` | During those years you gave your family more comfort than they asked for, and some of them came to expect it. You spoiled the people closest to you, and you got your own ease back once others began to care for you in turn. |
 | `decade_lines.Family.heavy.ahead` | Indulgence runs the household in these years, with treats, late meals and little order. You get through on the warmth itself, and you wear yourself out less as your family learns to look after itself. |
 | `decade_lines.Career.helping.lived` | Work came easily in those years, especially work that let you make things or please people. You did your best at a relaxed pace, and others valued what you produced. |
 | `decade_lines.Career.helping.ahead` | A craft or skill you enjoy is what pays in these ten years. People come back for what you make, and you do your best work at an easy pace. |
-| `decade_lines.Career.heavy.lived` | Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and the skill you kept practising for pleasure is what kept you going. |
-| `decade_lines.Career.heavy.ahead` | Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make keeps you going, and you move forward each time a deadline gives you a reason to finish. |
+| `decade_lines.Career.heavy.lived` | Comfort dulled your drive at work in those years, and easy work held you longer than it served you. You were well liked and under-stretched, and the skill you practised for pleasure is what kept you going. |
+| `decade_lines.Career.heavy.ahead` | Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make carries you on, and you move forward each time a deadline gives you a reason to finish. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -94,3 +94,7 @@
 | `domains_round1_retired_2026-10-21.decade_lines.Career.helping.ahead` | A craft or skill you enjoy starts to pay in these ten years. You earn through work that feels like pleasure, and clients return because what you make is good. |
 | `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.lived` | Comfort dulled your drive at work in those years, and easy jobs held you longer than they should have. You were well liked and under-stretched, and what carried you was the skill you kept practising for pleasure. |
 | `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.ahead` | Ambition softens in these years, and the easy option keeps winning at work. What you make still has value, and you move forward each time a deadline or a client gives you a reason to finish. |
+| `retired_2026-10-21_section_audit.decade_lines.Career.heavy.lived` | Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and the skill you kept practising for pleasure is what kept you going. |
+| `retired_2026-10-21_section_audit.decade_lines.Health.heavy.ahead` | Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure. |
+| `retired_2026-10-21_section_audit.decade_lines.Health.helping.ahead` | You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than in the one before it. |
+| `retired_2026-10-21_section_audit.decade_lines.Career.heavy.ahead` | Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make keeps you going, and you move forward each time a deadline gives you a reason to finish. |

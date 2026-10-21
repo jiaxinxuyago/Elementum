@@ -41,7 +41,7 @@
 | `domain_climb.Wealth.headline` | Your later money will always have company. |
 | `domain_climb.Wealth.recognition` | You treat money as something shared, and you find it hard to say no when someone close asks for help. Because loyalty matters more to you than a full account, you give first and count later, and the counting rarely feels good. You keep wealth best when the limit is fixed before anyone asks. |
 | `domain_climb.Wealth.lived` | More people have had a claim on your money since your late forties, among them younger people and someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance. |
-| `domain_climb.Wealth.ahead` | Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks. |
+| `domain_climb.Wealth.ahead` | Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own share only where you set its size before anyone asks. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -52,3 +52,4 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Family.ahead` | From your late forties the people after you, children or younger relatives or someone you train, will push against you and fight for you. You will find those years warmer and riskier than most people's, and you will be happiest in them when you have kept your own keys. |
 | `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | Since your late forties more people have had a claim on your money, children or younger relatives or someone you backed. You have given more than you planned each time, and you have learned which requests to price in advance. |
 | `domains_round1_retired_2026-10-21.domain_climb.Wealth.ahead` | From your late forties the people after you, children or younger relatives or someone you train, will start to make claims on your money. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks. |
+| `retired_2026-10-21_section_audit.domain_climb.Wealth.ahead` | Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks. |

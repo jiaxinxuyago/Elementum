@@ -14,6 +14,6 @@
 | **The Virtuoso confronts the Magistrate** | 伤官见官 | In you this runs deep, and you have argued with your own position since your first job. |
 | **Pressure feeds the Sage** | 杀印相生 | In you this works fast, and you learn from pressure in the same week it arrives. |
 | **The peers contest the purse** | 比劫夺财 | In you this runs close to home, and you rarely own anything that is only yours. |
-| **The maker’s economy** | 食伤生财 | In you the gap is short, and you are paid in the same season that you make. |
+| **The maker’s economy** | 食伤生财 | In you making and earning sit close together, and you are paid in the same season that you make. |
 | **Wealth underwrites rank** | 财官相生 | In you the two are tightly bound, and you find every gain arguing quietly for your next title. |
 | **Rank shelters the scholar** | 官印相生 | In you the two move together, and you rise in rank and in learning at once. |

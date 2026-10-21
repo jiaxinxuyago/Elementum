@@ -134,6 +134,10 @@
         "decade_lines.Growth.heavy.lived": "Those years tested you more than they taught you, with one hard stretch after another. You grew in spite of the pressure, and you came out tougher and more tired than you expected.",
         "decade_lines.Health.heavy.lived": "Strain gathered in your body during those years, in your shoulders, your back and your sleep. You pushed through on nerve alone, and what carried you was a few people who made you stop.",
         "decade_lines.Health.heavy.ahead": "Stress sits in your body through these years, in tight shoulders and short nights. Your energy returns whenever sleep and slow meals get their place in the week, and you recover fast once the pressure lifts."
+      },
+      "retired_2026-10-21_section_audit": {
+        "decade_lines.Health.heavy.ahead": "Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is sleep and slow meals given their place in the week, and you recover fast once the pressure lifts.",
+        "decade_lines.Health.heavy.lived": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and you got through because a few people made you stop."
       }
     },
     "ruling_domains": [
@@ -168,8 +172,8 @@
           "lived": "Your body answered strain well in those years, and hard training or hard work made you stronger. You had energy for demanding days, and you recovered fast between them."
         },
         "heavy": {
-          "lived": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and you got through because a few people made you stop.",
-          "ahead": "Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is sleep and slow meals given their place in the week, and you recover fast once the pressure lifts."
+          "lived": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve, and you got through because a few people made you stop.",
+          "ahead": "Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is rest and slow meals given their place in the week, and you recover fast once the pressure lifts."
         }
       }
     }
@@ -237,6 +241,20 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "decade_lines.Health.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-023",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Health.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-024",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

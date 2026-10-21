@@ -36,7 +36,7 @@
       "Career": {
         "headline": "You are hired for your talent and tested on your discipline.",
         "recognition": "You do your strongest work where you can be seen doing it, pitching or teaching or leading from the front. Because you need honest credit to stay interested, a desk job under close supervision drains you within months. Your talent wins you the role, and your record of finishing decides how long you keep it.",
-        "lived": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not."
+        "lived": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outstayed most of the ones who did not."
       },
       "Social": {
         "headline": "Friends and colleagues either love you or resist you.",
@@ -54,6 +54,9 @@
         "domain_climb.Social.headline": "People at work either love you or resist you.",
         "domain_climb.Social.recognition": "Your circle at work splits quickly into people who champion you and people who resent you, with few in between. Because being remembered matters more to you than being liked, you say the sharp thing in meetings and lose a friend or two to it. Your loyal few have done more for your name than general approval could, and you keep them close for years.",
         "domain_climb.Social.lived": "From your late teens your friendships have formed around strong reactions, people who liked your edge at once or never warmed to it. More than once a friendship ended over something you said in public, and you have kept every friend who stayed through it."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Career.lived": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not."
       }
     }
   },
@@ -113,6 +116,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-033",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

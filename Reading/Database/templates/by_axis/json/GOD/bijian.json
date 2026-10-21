@@ -136,6 +136,9 @@
         "decade_lines.Social.helping.ahead": "These ten years bring friends who stand beside you as equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd.",
         "decade_lines.Social.heavy.lived": "During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle shrank to one or two, and you found those one or two were enough.",
         "decade_lines.Social.heavy.ahead": "Company that truly matches you grows scarce in these years, and crowded groups wear you out quickly. One steady friend carries the decade, and you value that friend more than a full calendar."
+      },
+      "retired_2026-10-21_section_audit": {
+        "decade_lines.Social.heavy.lived": "During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and the one or two friends who stayed were enough to carry you."
       }
     },
     "ruling_domains": [
@@ -170,7 +173,7 @@
           "ahead": "Your friends in these ten years are equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd."
         },
         "heavy": {
-          "lived": "During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and the one or two friends who stayed were enough to carry you.",
+          "lived": "During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and you found the one or two friends who stayed were enough to carry you.",
           "ahead": "Company that truly matches you is scarce in these years, and crowded groups wear you out quickly. One steady friend carries you through the decade, and you value that friend more than a full calendar."
         }
       }
@@ -218,6 +221,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "decade_lines.Social.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DE:DE-025",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

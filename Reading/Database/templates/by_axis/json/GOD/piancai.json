@@ -137,6 +137,12 @@
         "decade_lines.Social.helping.ahead": "You widen your circle in these years, through travel and new groups and people met through other people. You make more new friends in this decade than in the two before it.",
         "decade_lines.Social.heavy.lived": "Acquaintances crowded those years, and few of them stayed close. You knew people in many places and confided in almost none, and the one old friend who stayed kept you steady.",
         "decade_lines.Social.heavy.ahead": "New contacts arrive faster than you can keep them in these years, and old friends drift to the edge. A small group who knew you before the busy decade keeps your footing, and you return to them again and again."
+      },
+      "retired_2026-10-21_section_audit": {
+        "decade_lines.Wealth.helping.ahead": "Money comes to you through openings in these years more than through regular pay, an offer or a sale or a lucky move. You take more chances with money in this decade than you are used to, and most of them pay.",
+        "decade_lines.Wealth.helping.lived": "Openings came your way in those years, a lucky move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it.",
+        "decade_lines.Family.heavy.lived": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through on a family that forgave more than you expected.",
+        "decade_lines.Social.helping.ahead": "You widen your circle in these years, through travel and new groups and people met through other people. You make more new friends in this decade than in the one before it."
       }
     },
     "ruling_domains": [
@@ -147,8 +153,8 @@
     "decade_lines": {
       "Wealth": {
         "helping": {
-          "ahead": "Money comes to you through openings in these years more than through regular pay, an offer or a sale or a lucky move. You take more chances with money in this decade than you are used to, and most of them pay.",
-          "lived": "Openings came your way in those years, a lucky move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it."
+          "ahead": "Money comes to you through openings in these years more than through regular pay, an offer or a sale or a well-timed move. You take more chances with money in this decade than you are used to, and most of them pay.",
+          "lived": "Openings came your way in those years, a timely move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it."
         },
         "heavy": {
           "lived": "Easy money came and went in those years, and each windfall left as fast as it arrived. You chased too many openings at once, and what carried you was the one steady source you kept.",
@@ -161,13 +167,13 @@
           "lived": "Your household opened outward in those years, through travel, new relatives or friends who became family. You gave generously to everyone at home, and the house was busier for it."
         },
         "heavy": {
-          "lived": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through on a family that forgave more than you expected.",
+          "lived": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through because your family forgave more than you expected.",
           "ahead": "Distant plans crowd out home life in these years, and the people nearest to you feel the gap. What brings you back is a relative who asks plainly for your time, and you give it once you see the cost."
         }
       },
       "Social": {
         "helping": {
-          "ahead": "You widen your circle in these years, through travel and new groups and people met through other people. You make more new friends in this decade than in the one before it.",
+          "ahead": "You widen your circle in these years, through travel and new groups and the people they lead you to. You make more new friends in this decade than in the one before it.",
           "lived": "Your circle spread wide in those years, through travel, work and friends of friends. You met people easily everywhere you went, and several of them opened doors for you."
         },
         "heavy": {
@@ -240,6 +246,34 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "decade_lines.Wealth.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-036 + DB:DB-021",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Wealth.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-037 + DB:DB-022",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Family.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DA:DA-020",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Social.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DE:DE-027",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

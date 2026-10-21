@@ -41,7 +41,7 @@
       "Social": {
         "headline": "You choose a small circle and keep it close.",
         "recognition": "You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Only a few people know you well, and you chose it that way.",
-        "lived": "Other children took a while to warm to you as a child, because you stood at the edge of groups for a long time first. By your teens you had one or two close friends who understood you, and they were enough for you."
+        "lived": "Other children took a while to warm to you, because you stood at the edge of each group for a long time before you joined it. By your teens you had one or two close friends who understood you, and they were enough for you."
       }
     },
     "__ore": {
@@ -50,6 +50,9 @@
         "reading": "You were the child who watched before joining in, and adults noticed how differently you learned. Because you took in the world on your own terms, adults found you older than your years and other children found you hard to read. That early difference became the way people still see you, thoughtful and selective and slow to open up. You keep a few close friends in place of a crowd, and you have never regretted the trade.",
         "domain_climb.Social.recognition": "You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. You find parties tiring and long talks restoring.",
         "domain_climb.Social.lived": "As a child you stood at the edge of groups for a long time, and other children took a while to warm to you. By your teens you had one or two close friends who understood you, and you needed nobody else."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Social.lived": "Other children took a while to warm to you as a child, because you stood at the edge of groups for a long time first. By your teens you had one or two close friends who understood you, and they were enough for you."
       }
     }
   },
@@ -102,6 +105,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DE:DE-022",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

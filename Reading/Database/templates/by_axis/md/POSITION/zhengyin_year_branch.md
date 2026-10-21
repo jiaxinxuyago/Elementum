@@ -36,7 +36,7 @@
 | `shadow_line` | Overloaded, being held becomes being kept: safety trading places with growth. |
 | `health_line` | Your body heals on trust and rest: recovery accelerates near people who love you. Convalesce accompanied whenever life allows. |
 | `domain_climb.Family.headline` | You were truly looked after as a child. |
-| `domain_climb.Family.recognition` | In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You are hurt more than most when a relative lets you down, because you never expected it. |
+| `domain_climb.Family.recognition` | In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You take it harder than most when a relative lets you down, because you never expected it. |
 | `domain_climb.Family.lived` | A parent or an older relative looked after you closely when you were small, and you came to rely on their calm. By your teens you expected the world to treat you with the same care, and mostly it did. |
 | `domain_climb.Growth.headline` | You grow best from a safe base. |
 | `domain_climb.Growth.recognition` | You take your biggest steps from a secure position, with people behind you and a home to return to. Because safety came first in your life, you learn faster when you feel held, and you stall under pressure from people you do not trust. You put off a change until the support is in place. |
@@ -56,3 +56,4 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Health.headline` | Your body heals well when someone looks after you. |
 | `domains_round1_retired_2026-10-21.domain_climb.Health.recognition` | You bounce back from tiring weeks and bad nights, and faster with someone close looking after you. Because care was what restored you from the start, you let yourself rest properly only when another person insists. Your body does well on trust, rest and good company. |
 | `domains_round1_retired_2026-10-21.domain_climb.Health.lived` | As a child you were looked after well whenever you were tired or run down, and you got your energy back quickly. By your teens you had a steady energy the adults around you counted on, and you have kept much of it since. |
+| `retired_2026-10-21_section_audit.domain_climb.Family.recognition` | In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You are hurt more than most when a relative lets you down, because you never expected it. |

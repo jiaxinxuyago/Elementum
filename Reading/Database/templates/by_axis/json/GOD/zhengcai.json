@@ -136,6 +136,12 @@
         "decade_lines.Career.helping.ahead": "Your work starts paying properly in these years, steadily and in proportion to what you put in. You stop chasing the next thing and build on what you already do well.",
         "decade_lines.Career.helping.lived": "Steady work rewarded you in those years, with regular pay and a clear record. You became known as the person who delivers on time, and the reputation followed you to every job after.",
         "decade_lines.Career.heavy.lived": "Security kept you in one post too long during those years, and the pay stayed flat while your duties grew. You carried the extra load reliably, and it earned you a trust that later jobs paid for."
+      },
+      "retired_2026-10-21_section_audit": {
+        "decade_lines.Wealth.helping.lived": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without luck or risk, and you trusted your own counting more than any tip.",
+        "decade_lines.Family.heavy.ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it.",
+        "decade_lines.Wealth.heavy.ahead": "Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check.",
+        "decade_lines.Career.heavy.ahead": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability keeps you valued, and you find a better fit once someone else sees what you are worth."
       }
     },
     "ruling_domains": [
@@ -147,11 +153,11 @@
       "Wealth": {
         "helping": {
           "ahead": "You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it.",
-          "lived": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without luck or risk, and you trusted your own counting more than any tip."
+          "lived": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip."
         },
         "heavy": {
           "lived": "Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built.",
-          "ahead": "Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check."
+          "ahead": "Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check."
         }
       },
       "Family": {
@@ -161,7 +167,7 @@
         },
         "heavy": {
           "lived": "Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly.",
-          "ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it."
+          "ahead": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it."
         }
       },
       "Career": {
@@ -171,7 +177,7 @@
         },
         "heavy": {
           "lived": "Safety kept you in one place too long during those years, and your duties grew faster than your reward. You carried the extra load reliably, and it earned you a trust that later work paid for.",
-          "ahead": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability keeps you valued, and you find a better fit once someone else sees what you are worth."
+          "ahead": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth."
         }
       }
     }
@@ -239,6 +245,34 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "decade_lines.Wealth.helping.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-042 + DB:DB-023",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Family.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DA:DA-024",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Wealth.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DB:DB-027",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Career.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-035",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

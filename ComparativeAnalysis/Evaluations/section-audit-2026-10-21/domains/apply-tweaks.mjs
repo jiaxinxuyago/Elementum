@@ -28,6 +28,7 @@ function route(key) {
   if ((m = key.match(/^POSITION (\w+) · (reading|defline)$/))) return { file: `POSITION/${m[1]}.json`, path: m[2], gate: 'domains', seat: m[1], code: 'positions' };
   if ((m = key.match(/^GOD (\w+) · decade_lines\.(\w+)\.(helping|heavy)\.(lived|ahead)$/))) return { file: `GOD/${m[1]}.json`, path: `decade_lines.${m[2]}.${m[3]}.${m[4]}`, gate: 'domains', god: m[1] };
   if ((m = key.match(/^TG_PATTERN (\w+) · domain_lines\.(\w+)$/))) return { file: `TG_PATTERN/${m[1]}.json`, path: `domain_lines.${m[2]}`, gate: 'domains', pattern: m[1] };
+  if ((m = key.match(/^TG_PATTERN (\w+) · fused_line$/))) return { file: `TG_PATTERN/${m[1]}.json`, path: 'fused_line', gate: 'domains', pattern: m[1], code: 'tgPatterns' };
   if ((m = key.match(/^TEMPLATED tpl_domains · (domain_gaps\.\w+\.\w+|domain_unruled\.\w+|domain_unruled_headline\.\w+)$/))) return { file: 'TEMPLATED/tpl_domains.json', path: m[1], gate: 'domains' };
   if (/^(GOD \w+ · (year_domain|missing|seen|season_need)|STRUCTURE |SEASON |TG_PATTERN \w+ · blueprint_line|TEMPLATED tpl_depth · )/.test(key)) return { file: 'TEMPLATED/tpl_depth.json', unit: key, gate: 'depth' };
   return null;
@@ -60,7 +61,7 @@ for (const p of plan) {
     if (r.code) s[r.path] = p.text;
     else { s.domains ??= {}; s.domains[r.domain] = { ...(s.domains[r.domain] || c.domain_climb[r.domain]), [r.path.split('.').pop()]: p.text }; }
   } else if (r.god) { const [, d, pole, tense] = r.path.split('.'); const g = (domFile.decades[GOD_ZH[r.god]] ??= {}); g[d] ??= {}; g[d][pole] = { ...(g[d][pole] || c.decade_lines[d][pole]), [tense]: p.text }; }
-  else if (r.pattern) { const k = r.path.split('.')[1]; (domFile.patterns[r.pattern] ??= { readings: { ...c.domain_lines } }).readings[k] = p.text; }
+  else if (r.pattern) { const P = (domFile.patterns[r.pattern] ??= { readings: { ...c.domain_lines }, fused_line: c.fused_line }); if (r.path === 'fused_line') P.fused_line = p.text; else P.readings[r.path.split('.')[1]] = p.text; }
   else if (/^domain_gaps/.test(r.path)) { const [, d, g] = r.path.split('.'); (domFile.gaps[d] ??= {})[g] = p.text; }
   else if (/^domain_unruled\./.test(r.path)) domFile.unruled[r.path.split('.')[1]] = p.text;
 }
@@ -69,7 +70,7 @@ const gateRun = (gate, file) => { try { execFileSync('node', [gate, file], { enc
 const fails = [];
 if (Object.values(domFile).some((o) => Object.keys(o).length)) { fs.writeFileSync(tmp + '/gate-domains.json', JSON.stringify(domFile, null, 1)); fails.push(...gateRun(HO + '2026-10-17-domains-template/gate.mjs', tmp + '/gate-domains.json')); }
 if (depthUnits.length) { fs.writeFileSync(tmp + '/gate-depth.json', JSON.stringify({ units: depthUnits }, null, 1)); fails.push(...gateRun(HO + '2026-10-21-domains-blueprint/gate.mjs', tmp + '/gate-depth.json')); }
-const failedId = (p) => fails.find((l) => l.includes('tweak-' + p.id) || l.includes(p.key) || (p.r.seat && l.includes(p.r.seat + '.' + (p.r.domain || ''))) || (p.r.god && l.includes(GOD_ZH[p.r.god] + '.' + p.r.path.split('.')[1])));
+const failedId = (p) => fails.find((l) => l.includes('tweak-' + p.id) || l.includes(p.key) || (p.r.seat && l.includes(p.r.seat + '.' + (p.r.domain || ''))) || (p.r.pattern && l.includes('pattern ' + p.r.pattern)) || (p.r.god && l.includes(GOD_ZH[p.r.god] + '.' + p.r.path.split('.')[1])));
 for (const p of plan) {
   const why = failedId(p); if (why) { skipped.push([p.id, 'gate: ' + why]); continue; }
   const st = files[p.r.file]; const c = st.candidates; const at = p.r.unit || p.r.path;
@@ -90,5 +91,12 @@ for (const p of done.filter((x) => x.r.code === 'positions')) {
   const re = new RegExp(`(\\n    ${p.r.path}: )'(?:[^'\\\\]|\\\\.)*',`); posjs = posjs.slice(0, start) + block.replace(re, `$1${q(p.text)},`) + posjs.slice(end);
 }
 fs.writeFileSync(POSJS, posjs);
+// a pairing's fused line is code-mapped too (tgPatterns.js), as the domains landing transcribes it
+const TGJS = ROOT + 'Elementum_App/src/content/tgPatterns.js'; let tgjs = fs.readFileSync(TGJS, 'utf8');
+for (const p of done.filter((x) => x.r.code === 'tgPatterns')) {
+  const start = tgjs.indexOf(`key: '${p.r.pattern}'`); const end = tgjs.indexOf('\n  },', start); const block = tgjs.slice(start, end);
+  tgjs = tgjs.slice(0, start) + block.replace(/(\n    fused_line: )'(?:[^'\\]|\\.)*',/, `$1${q(p.text)},`) + tgjs.slice(end);
+}
+fs.writeFileSync(TGJS, tgjs);
 fs.writeFileSync(path.join(path.dirname(new URL(import.meta.url).pathname), 'tweaks-applied.json'), JSON.stringify(done.map((p) => ({ id: p.id, key: p.key, before: p.before, after: p.text })), null, 1) + '\n');
 for (const t of ['build-domains-content.mjs', 'build-depth-content.mjs']) console.log(execFileSync('node', ['tools/' + t], { cwd: ROOT + 'Elementum_App', encoding: 'utf8' }).trim());

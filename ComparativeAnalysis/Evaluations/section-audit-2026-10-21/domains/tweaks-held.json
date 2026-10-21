@@ -1,0 +1,396 @@
+[
+ {
+  "key": "POSITION jiecai_hour_branch · reading",
+  "ids": [
+   "cross:X-031"
+  ],
+  "reason": "seat card: the fix carries the printed opening, by hand",
+  "current": "Your later life stays loud and full, with children or younger relatives or someone you train arguing with you and for you. Because you value being matched more than being obeyed, you are drawn to the bold ones, and you give them more than you promised yourself. You share most of what you build late, and you hold on to your part only where you fixed its size early.",
+  "fixes": [
+   {
+    "id": "X-031",
+    "issue": "Banned hedge.",
+    "fix": "\"The Rival lives inside your Hour Gate: what you build in later life you will share, and you will defend your part of it. Your later life stays loud and full, with children or younger relatives or someone you train arguing with you and for you. Because you value being matched more than being obeyed, you are drawn to the bold ones, and you give them more than you promised yourself. You share most of what you build late, and you hold on to your part only where you fixed its size early.\""
+   }
+  ]
+ },
+ {
+  "key": "POSITION zhengcai_year_branch · reading",
+  "ids": [
+   "cross:X-043"
+  ],
+  "reason": "seat card: the fix carries the printed opening, by hand",
+  "current": "You took in your family's habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for luck. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years.",
+  "fixes": [
+   {
+    "id": "X-043",
+    "issue": "Banned word.",
+    "fix": "\"The Steward lives inside your Year Gate: underneath your first years lay a careful home where nothing was wasted. You took in your family's habits with money before you could name them, and they still shape how you feel about spending. Because thrift felt like safety when you were small, you save quietly and early, and your money grows in ways other people mistake for a windfall. Your relatives remain the people you turn to first, and they turn to you. Under the calm sits a small worry about running short, and you carry it even in good years.\""
+   }
+  ]
+ },
+ {
+  "key": "POSITION jiecai_year_branch · reading",
+  "ids": [
+   "cross:X-044"
+  ],
+  "reason": "seat card: the fix carries the printed opening, by hand",
+  "current": "As a child you shared a bed or a bike or a birthday with a brother, sister or cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs.",
+  "fixes": [
+   {
+    "id": "X-044",
+    "issue": "Gendered words.",
+    "fix": "\"The Rival lives inside your Year Gate: in your first home almost everything was shared, and almost everything was claimed. As a child you shared a bed or a bike or a birthday with a sibling or a cousin who wanted their turn. Because nothing at home stayed yours for long, you learned to give quickly and to keep a quiet count. Your family reaches for your help and your money first, and you say yes before you have worked out what it costs.\""
+   }
+  ]
+ },
+ {
+  "key": "STRUCTURE wealth · status.strained.peers",
+  "ids": [
+   "BA:BA-026"
+  ],
+  "reason": "a MAJOR names this key",
+  "current": "The {breakers} {stand} close to your {gods}, and you keep losing a share of what you earn to equals.",
+  "fixes": [
+   {
+    "id": "BA-026",
+    "issue": "The composer pluralises the character's name when it sits twice.",
+    "fix": "Code: `const statusUnit = fill(statusKey, { breakers: breakers.join(' and the '), stand: pl(breakers.length, 'stands', 'stand'), gods: P }, statusText);` (moot once BA-001 retires the unit)."
+   }
+  ]
+ },
+ {
+  "key": "(no key) group-BA BA-027",
+  "ids": [
+   "BA:BA-027"
+  ],
+  "reason": "no station key",
+  "current": null,
+  "fixes": [
+   {
+    "id": "BA-027",
+    "issue": "The label counted position after absent stems drop out, so the cell's second stem read \"first need\" and a third read \"second need\" (464/3,000 charts), against the 穷通宝鉴 order the reading states. Commit d95812d (landed during this audit) ranks by `primaryOrder` and fixes B008, B021, B022, B023; the third primary still reads \"second need\" (B001, 十月丙火 甲戊庚).",
+    "fix": "Code, in the needs label: `${a.rank === 'primary' ? ['first need', 'second need', 'third need'][primaryOrder.indexOf(a.stem)] : 'support'} · ${a.stem}, the ${persona(a.god)} · ${STATE_WORD[a.state]}`"
+   }
+  ]
+ },
+ {
+  "key": "TEMPLATED tpl_depth · seen.close",
+  "ids": [
+   "BB:BB-014",
+   "BC:BC-021"
+  ],
+  "reason": "golden, to owner",
+  "current": "Only the people you live with meet the second list.",
+  "fixes": [
+   {
+    "id": "BB-014",
+    "issue": "One meets a person, not a list, so the collocation breaks.",
+    "fix": "\"Only the people you live with see the second list.\""
+   },
+   {
+    "id": "BC-021",
+    "issue": "The reader is not the subject of the closing sentence.",
+    "fix": "\"You show the second list only to the people you live with.\""
+   }
+  ]
+ },
+ {
+  "key": "TEMPLATED tpl_depth · bond.bind.month_hour",
+  "ids": [
+   "BB:BB-017"
+  ],
+  "reason": "golden, to owner",
+  "current": "You carry the people and skills of your working years into your later life, and the circle you build now stays with you.",
+  "fixes": [
+   {
+    "id": "BB-017",
+    "issue": "\"Now\" puts the working years in the present for readers who are past them (61, 64 and 50 on these pages).",
+    "fix": "\"You carry the people and skills of your working years into your later life, and the circle you build in those years stays with you.\""
+   }
+  ]
+ },
+ {
+  "key": "POSITION shishen_year_branch · domain_climb.Family.lived",
+  "ids": [
+   "DA:DA-019"
+  ],
+  "reason": "golden, to owner",
+  "current": "Someone in your early life made comfort a daily thing, often an older relative who gave without being asked. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside.",
+  "fixes": [
+   {
+    "id": "DA-019",
+    "issue": "\"Often\" is a banned hedge.",
+    "fix": "\"Someone in your early life, an older relative who gave without being asked, made comfort a daily thing. You still judge a home by how it feels to walk into, and you have made yours warmer than the ones you grew up beside.\""
+   }
+  ]
+ },
+ {
+  "key": "GOD zhengyin · year_domain.Family",
+  "ids": [
+   "DA:DA-026"
+  ],
+  "reason": "a MAJOR names this key",
+  "current": "An older relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be.",
+  "fixes": [
+   {
+    "id": "DA-026",
+    "issue": "For readers aged 63 to 68 an older relative stepping in is rarely true. A Sage year is support received from any side (渊海子平 论印绶: 印 brings shelter, 庇荫), and Y1 allows one line for all ages.",
+    "fix": "\"A relative takes a closer interest in your home this year with help and opinions, and you are looked after more than you asked to be.\""
+   }
+  ]
+ },
+ {
+  "key": "(no key) group-DA DA-028",
+  "ids": [
+   "DA:DA-028"
+  ],
+  "reason": "no station key",
+  "current": null,
+  "fixes": [
+   {
+    "id": "DA-028",
+    "issue": "When every seat sits in one chapter, the second count repeats the first.",
+    "fix": "When all seats share one chapter: \"{N} seats rule {Domain} in your chart. Both sit in your {Chapter}.\" (two seats) · \"{N} seats rule {Domain} in your chart. All {n} sit in your {Chapter}.\" (three or more) · \"One seat rules {Domain} in your chart. It sits in your {Chapter}.\" (one seat)."
+   }
+  ]
+ },
+ {
+  "key": "(no key) group-DA DA-029",
+  "ids": [
+   "DA:DA-029"
+  ],
+  "reason": "no station key",
+  "current": null,
+  "fixes": [
+   {
+    "id": "DA-029",
+    "issue": "\"Late Chapter\" is a chapter name, capitalised in every label. The no-seat variant of the same note (\"Your Hour Gate may hold a {d} seat.\") carries the banned hedge \"may\".",
+    "fix": "Seats shown: \"Your Hour Gate is closed. Add your birth hour to read your Late Chapter.\" No seat: \"Your Hour Gate can hold a {d} seat. Add your birth hour to read your Late Chapter.\""
+   }
+  ]
+ },
+ {
+  "key": "TG_PATTERN shi_shang_sheng_cai · domain_lines.Wealth",
+  "ids": [
+   "DB:DB-028"
+  ],
+  "reason": "a MAJOR names this key",
+  "current": "Underneath, what you make turns into money more easily for you than for most, and you earn most from the work that feels like play.",
+  "fixes": [
+   {
+    "id": "DB-028",
+    "issue": "\"Underneath\", a leftover of the retired reading's \"runs underneath\", sounds like a hidden placement, which a pattern unit must not claim and which D126 contradicts with its Steward \"in plain view\".",
+    "fix": "What you make turns into money more easily for you than for most, and you earn most from the work that feels like play."
+   }
+  ]
+ },
+ {
+  "key": "POSITION zhengcai_hour_stem · domain_climb.Wealth.ahead",
+  "ids": [
+   "DB:DB-029"
+  ],
+  "reason": "golden, to owner",
+  "current": "Your late forties are when years of steady saving finally show. Debts close and the accounts settle, and you become the one in your family who has enough.",
+  "fixes": [
+   {
+    "id": "DB-029",
+    "issue": "Debts are cleared, not closed (the seat's own lived beat says \"the debts cleared\").",
+    "fix": "Your late forties are when years of steady saving finally show. Debts clear and the accounts settle, and you become the one in your family who has enough."
+   }
+  ]
+ },
+ {
+  "key": "POSITION piancai_day_branch · domain_climb.Love.ahead",
+  "ids": [
+   "DB:DB-036"
+  ],
+  "reason": "golden, to owner",
+  "current": "Your Home Chapter opens in your mid-thirties, and it is when love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together.",
+  "fixes": [
+   {
+    "id": "DB-036",
+    "issue": "\"It is when\" is a broken frame.",
+    "fix": "Your Home Chapter opens in your mid-thirties, and with it love and money start to move together. You build a home in these years with someone who brings an opening into your life, and you stay for as long as the two of you keep heading somewhere together."
+   }
+  ]
+ },
+ {
+  "key": "POSITION bijian_month_stem · domain_climb.Career.recognition",
+  "ids": [
+   "DB:DB-042"
+  ],
+  "reason": "golden, to owner",
+  "current": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard and nobody holding the other end.",
+  "fixes": [
+   {
+    "id": "DB-042",
+    "issue": "A scoreboard has no other end, so the image breaks.",
+    "fix": "You work best when the task is yours from start to finish and your name is on it. Because your own effort is how you measure yourself, you resent shared credit more than hard work, and you slow down the moment a manager hovers. What you want from a job is a clean scoreboard that counts only you."
+   }
+  ]
+ },
+ {
+  "key": "(no key) group-DC DC-029",
+  "ids": [
+   "DC:DC-029"
+  ],
+  "reason": "no station key",
+  "current": null,
+  "fixes": [
+   {
+    "id": "DC-029",
+    "issue": "An imperative in the reading text.",
+    "fix": "\"Your Hour Gate is closed, and your late chapter opens once you add your birth hour.\" The sister string on the same line, \"Your Hour Gate may hold a {d} seat. Add your birth hour …\", also carries the banned \"may\"; it prints on unruled pages with no hour, none in this group."
+   }
+  ]
+ },
+ {
+  "key": "POSITION pianyin_month_branch · domain_climb.Growth.recognition",
+  "ids": [
+   "DD:DD-021"
+  ],
+  "reason": "golden, to owner",
+  "current": "You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you often underrate where you are, and you let them. You are further along than anyone watching would guess.",
+  "fixes": [
+   {
+    "id": "DD-021",
+    "issue": "\"often\" is a banned hedge.",
+    "fix": "\"You grow in long quiet stretches that look like standing still, and then you change all at once. Because you change on the inside first, the people around you underrate where you are, and you let them. You are further along than anyone watching would guess.\""
+   }
+  ]
+ },
+ {
+  "key": "POSITION pianyin_month_branch · domain_climb.Mind.recognition",
+  "ids": [
+   "DD:DD-022"
+  ],
+  "reason": "golden, to owner",
+  "current": "You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is often the thing that matters most.",
+  "fixes": [
+   {
+    "id": "DD-022",
+    "issue": "\"often\" is a banned hedge.",
+    "fix": "\"You think best alone, on problems other people have given up on or never noticed. Because you trust only the conclusions you reached alone, you rework a problem long after others have moved on, and you find small talk harder than hard questions. You keep most of what you know to yourself, and it is the thing that matters most.\""
+   }
+  ]
+ },
+ {
+  "key": "POSITION pianyin_month_branch · domain_climb.Mind.lived",
+  "ids": [
+   "DD:DD-032"
+  ],
+  "reason": "golden, to owner",
+  "current": "From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade them back.",
+  "fixes": [
+   {
+    "id": "DD-032",
+    "issue": "\"Trade back\" means to return a trade. The idiom is \"would not trade one\".",
+    "fix": "\"From your late teens your mind went its own way, into a subject or a method most people around you did not follow. You have spent more nights with a question than with company, and you would not trade one of them.\""
+   }
+  ]
+ },
+ {
+  "key": "(no key) group-DD DD-033",
+  "ids": [
+   "DD:DD-033"
+  ],
+  "reason": "no station key",
+  "current": null,
+  "fixes": [
+   {
+    "id": "DD-033",
+    "issue": "When every seat is in one chapter, the second sentence repeats the count.",
+    "fix": "One seat: \"One seat rules {domain} in your chart. It sits in your {chapter}.\" All seats in one chapter: \"{N} seats rule {domain} in your chart. Both sit in your {chapter}.\" (for three or more: \"All {n} sit in your {chapter}.\")"
+   }
+  ]
+ },
+ {
+  "key": "POSITION bijian_month_stem · domain_climb.Social.lived",
+  "ids": [
+   "DE:DE-017"
+  ],
+  "reason": "golden, to owner",
+  "current": "Your friendships since your late teens have been between equals, often with one friend who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear.",
+  "fixes": [
+   {
+    "id": "DE-017",
+    "issue": "\"often\" is a banned hedge.",
+    "fix": "\"Your friendships since your late teens have been between equals, with one friend in particular who mirrors you like a sibling. More than once you have lent money or time to a friend and found it harder to talk about than the friendship could bear.\""
+   }
+  ]
+ },
+ {
+  "key": "POSITION piancai_month_stem · domain_climb.Social.recognition",
+  "ids": [
+   "DE:DE-019"
+  ],
+  "reason": "no clean replacement text",
+  "current": "You collect contacts the way other people collect friends, and you love introducing people who should meet. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.",
+  "fixes": [
+   {
+    "id": "DE-019",
+    "issue": "\"should\" is banned on the domain pages.",
+    "fix": "\"You collect contacts the way other people collect friends, and you love introducing people who will get on. Because your network brings you work and money, the useful friendships and the warm ones get mixed together. You have lost a real friend at least once by treating them as a contact.\" (DE-010 then rewrites the close.)"
+   }
+  ]
+ },
+ {
+  "key": "(no key) group-DE DE-035",
+  "ids": [
+   "DE:DE-035"
+  ],
+  "reason": "no station key",
+  "current": null,
+  "fixes": [
+   {
+    "id": "DE-035",
+    "issue": "\"One … One\" reads as two seats.",
+    "fix": "For one seat: \"One seat rules {domain} in your chart. It sits in your {chapter}.\""
+   }
+  ]
+ },
+ {
+  "key": "(no key) group-DE DE-036",
+  "ids": [
+   "DE:DE-036"
+  ],
+  "reason": "no station key",
+  "current": null,
+  "fixes": [
+   {
+    "id": "DE-036",
+    "issue": "The view word repeats \"inside\" from the seat's name.",
+    "fix": "For a branch seat drop the view word: \"{seat} inside the {gate} · {chapter} · {span, or from age · year} · {tense}\", e.g. \"The Twin inside the Day Gate · Home Chapter · from 35 · 2027 · coming\"."
+   }
+  ]
+ },
+ {
+  "key": "POSITION zhengguan_month_stem · domain_climb.Social.lived",
+  "ids": [
+   "DE:DE-023"
+  ],
+  "reason": "touches MAJOR DC-006 (at least once / more than once)",
+  "fixes": [
+   {
+    "id": "DE-023",
+    "fix": "From your late teens you have been the dependable one in every group, the friend who organised and the colleague who covered. More than once that role cost you a weekend or a holiday you had planned for yourself, and you gave it up without complaint.",
+    "issue": "A single event where Q9 allows only a pattern tied to the span."
+   }
+  ]
+ },
+ {
+  "key": "POSITION jiecai_month_branch · domain_climb.Social.lived",
+  "ids": [
+   "DE:DE-024"
+  ],
+  "reason": "touches MAJOR DC-006 (at least once / more than once)",
+  "fixes": [
+   {
+    "id": "DE-024",
+    "fix": "Your closest friends since your late teens have also been the people you worked or did deals with. More than one friendship of yours has ended over a shared venture, and you still count each friend as a bigger loss than the money.",
+    "issue": "A garbled comparison, and a single event where Q9 allows a pattern."
+   }
+  ]
+ }
+]

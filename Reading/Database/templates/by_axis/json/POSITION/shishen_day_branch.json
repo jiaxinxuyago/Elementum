@@ -37,7 +37,7 @@
     "domain_climb": {
       "Love": {
         "headline": "You show love by making life easy.",
-        "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you notice a partner who only takes much later than your friends do.",
+        "recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you are the last of your friends to notice a partner who only takes.",
         "lived": "The relationships that have lasted for you so far were the gentle ones, with partners who liked a quiet evening as much as you did. At least once you cooked and cared for someone who gave little back, and you stayed longer than the relationship deserved.",
         "ahead": "From your mid-thirties your love life settles into a shared home with a partner who makes ordinary days pleasant. The two of you build your life around the same table, and you find yourself looked after in return more than at any time before."
       },
@@ -62,6 +62,9 @@
         "domain_climb.Family.ahead": "From your mid-thirties the family starts to gather at your house, children or relatives or friends who treat it as their second home. Quarrels in the family get settled over your meals, and you become the relative everyone means when they say home.",
         "domain_climb.Health.lived": "So far your energy has risen and fallen with the state of your home, steady in the good years and low in the strained ones. Your appetite has shifted more than once with trouble at home, and you have turned to food for comfort each time.",
         "domain_climb.Health.ahead": "From your mid-thirties your health improves with a settled home, and your sleep and appetite steady as the household does. Comfort slides into excess in the busiest of these years, and you stay well because the people at home with you eat and rest alongside you."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Love.recognition": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you notice a partner who only takes much later than your friends do."
       }
     }
   },
@@ -128,6 +131,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Love.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DB:DB-033",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

@@ -1,0 +1,530 @@
+[
+ {
+  "id": "cross:X-025 + DD:DD-023",
+  "key": "TG_PATTERN guan_yin_xiang_sheng · domain_lines.Mind",
+  "before": "Even so, you learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended.",
+  "after": "You also learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended."
+ },
+ {
+  "id": "cross:X-026",
+  "key": "POSITION bijian_day_branch · domain_climb.Social.lived",
+  "before": "Through your Home Chapter your closest friendships have been between equals, people who did not need you to rescue them. You gave less time to the friends who wanted looking after, and you kept the level ones.",
+  "after": "So far your closest friendships have been between equals, people who did not need you to rescue them. You gave less time to the friends who wanted looking after, and you kept the level ones."
+ },
+ {
+  "id": "cross:X-027 + BB:BB-018",
+  "key": "SEASON jia.chou · reading",
+  "before": "Winter's last month is the coldest stretch of your year, and your Wood sits frozen with no sign of growth. The season asks for Metal first to split you open and then for Fire to catch in the opened grain, the half it cannot do without. You shine in the deep cold the moment that flame takes hold.",
+  "after": "Winter's last month is the coldest stretch of your year, and your Wood sits frozen with no sign of growth. The season asks for Metal first to split you open and then for Fire to catch in the opened grain, the one it cannot do without. You shine in the deep cold the moment that flame takes hold."
+ },
+ {
+  "id": "cross:X-028 + DD:DD-020",
+  "key": "GOD pianyin · decade_lines.Growth.heavy.lived",
+  "before": "You grew in those years by going your own way, often away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind.",
+  "after": "You grew in those years by going your own way, away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind."
+ },
+ {
+  "id": "cross:X-029 + DA:DA-018",
+  "key": "POSITION pianyin_year_branch · domain_climb.Family.lived",
+  "before": "In your first home someone gave you books, questions or long silences in place of the usual fuss, often an adult who lived in their own head. By your teens you had learned to answer your own questions, and you asked for help less than other children did.",
+  "after": "In your first home someone gave you books, questions or long silences in place of the usual fuss, an adult who lived in their own head. By your teens you had learned to answer your own questions, and you asked for help less than other children did."
+ },
+ {
+  "id": "cross:X-030 + DB:DB-040",
+  "key": "POSITION qisha_year_stem · domain_climb.Career.recognition",
+  "before": "You end up in charge in most places you work, often before you ask for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
+  "after": "You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months."
+ },
+ {
+  "id": "cross:X-036 + DB:DB-021",
+  "key": "GOD piancai · decade_lines.Wealth.helping.ahead",
+  "before": "Money comes to you through openings in these years more than through regular pay, an offer or a sale or a lucky move. You take more chances with money in this decade than you are used to, and most of them pay.",
+  "after": "Money comes to you through openings in these years more than through regular pay, an offer or a sale or a well-timed move. You take more chances with money in this decade than you are used to, and most of them pay."
+ },
+ {
+  "id": "cross:X-037 + DB:DB-022",
+  "key": "GOD piancai · decade_lines.Wealth.helping.lived",
+  "before": "Openings came your way in those years, a lucky move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it.",
+  "after": "Openings came your way in those years, a timely move or a chance offer or someone who knew someone. Money reached you by routes regular pay never took, and you grew bolder with it."
+ },
+ {
+  "id": "cross:X-038 + DB:DB-025",
+  "key": "POSITION piancai_month_branch · domain_climb.Wealth.lived",
+  "before": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own luck runs.",
+  "after": "What you have earned since your late teens has followed your instinct, with good runs and lean months in turn. At least once you have lost the gains of a good year by chasing a better one, and you have learned how your own streaks run."
+ },
+ {
+  "id": "cross:X-039 + DB:DB-024",
+  "key": "POSITION piancai_month_branch · domain_climb.Wealth.recognition",
+  "before": "You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each lucky stretch than after it.",
+  "after": "You earn in bursts, a run of good months and a quiet stretch after. Because each good season makes you sure of the next, you spend the winnings on a new chance before you have kept any. You are richer in the middle of each good stretch than after it."
+ },
+ {
+  "id": "cross:X-040 + DB:DB-026",
+  "key": "POSITION piancai_year_branch · domain_climb.Wealth.headline",
+  "before": "Your luck with money improves the further you go.",
+  "after": "Your chances with money grow the further you go."
+ },
+ {
+  "id": "cross:X-041",
+  "key": "POSITION jiecai_year_stem · domain_climb.Wealth.recognition",
+  "before": "You spend quickly and generously, and money that comes in through friends or luck goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
+  "after": "You spend quickly and generously, and money that comes in through friends or windfalls goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives."
+ },
+ {
+  "id": "cross:X-042 + DB:DB-023",
+  "key": "GOD zhengcai · decade_lines.Wealth.helping.lived",
+  "before": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without luck or risk, and you trusted your own counting more than any tip.",
+  "after": "Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip."
+ },
+ {
+  "id": "cross:X-045",
+  "key": "POSITION zhengyin_year_branch · domain_climb.Family.recognition",
+  "before": "In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You are hurt more than most when a relative lets you down, because you never expected it.",
+  "after": "In family life you expect warmth, and you give it back without thinking. Because care at home was steady from the start, you trust your relatives easily and find it hard to believe the worst of them. You take it harder than most when a relative lets you down, because you never expected it."
+ },
+ {
+  "id": "BA:BA-021",
+  "key": "STRUCTURE officer · status.strained.mixed",
+  "before": "The Magistrate shows beside your General, and you switch between fighting for ground and asking for it politely. People above you get mixed signals, and you lose credit that one clear approach would win.",
+  "after": "The Magistrate sits beside your General, and you switch between fighting for ground and asking for it politely. People above you get mixed signals, and you lose credit that one clear approach would win."
+ },
+ {
+  "id": "BA:BA-022 + BC:BC-027",
+  "key": "GOD qisha · missing",
+  "before": "Your chart is without the General, and nobody inside it sets you a hard test or a date you cannot move. You keep your own pace and face few real tests, and you learn how strong you are only when pressure comes from outside.",
+  "after": "Your chart is without the General, and nobody inside it sets you a hard test or a date you cannot move. You keep your own pace and face few real trials, and you learn how strong you are only when pressure comes from outside."
+ },
+ {
+  "id": "BA:BA-023 + BC:BC-026",
+  "key": "GOD zhengcai · missing",
+  "before": "Your chart gives the Steward no place, and nobody inside it keeps the books or counts what comes in. You handle money in bursts and forget it for months, and you rely on a partner or a spreadsheet to keep the count.",
+  "after": "Your chart gives the Steward no place, and nobody inside it keeps the books or counts what comes in. You handle money in bursts and forget it for months, and you rely on a partner or a spreadsheet to keep track."
+ },
+ {
+  "id": "BA:BA-024 + BC:BC-025",
+  "key": "GOD pianyin · season_need.hidden",
+  "before": "The Alchemist your season asks for runs as a thin thread far beneath the surface, and you reach for strange knowledge only when ordinary answers run out.",
+  "after": "The Alchemist your season asks for lies as a thin thread far beneath the surface, and you reach for strange knowledge only when ordinary answers run out."
+ },
+ {
+  "id": "BA:BA-025",
+  "key": "GOD shishen · season_need.rooted",
+  "before": "The Artisan your season asks for stays beneath the surface, and you refill yourself through a private craft or a kitchen nobody else uses.",
+  "after": "The Artisan your season asks for stays beneath the surface, and you refill yourself through a private craft or a slow meal at home."
+ },
+ {
+  "id": "BB:BB-015 + BC:BC-022",
+  "key": "TEMPLATED tpl_depth · bond.harm.day_hour",
+  "before": "A quiet friction runs between your partner and the people after you, and you spend years smoothing over complaints nobody says out loud.",
+  "after": "A quiet friction runs between a partner and the people after you, and you spend years smoothing over complaints nobody says out loud."
+ },
+ {
+  "id": "BB:BB-016",
+  "key": "TEMPLATED tpl_depth · bond.frame.year_month",
+  "before": "The household you grew up in gives your working life a running start, and you build on doors your parents or siblings opened for you.",
+  "after": "The household you grew up in gives your working life a running start, and you walk through doors your parents or siblings opened for you."
+ },
+ {
+  "id": "BB:BB-019",
+  "key": "SEASON xin.zi · reading",
+  "before": "Freezing rain frosts you over in midwinter and hides the sun. Its first need is Water in full flow to keep you clean and moving, and its second the sun's Fire, with Earth and Wood steadying both. You glitter in the cold once those two are close beside you.",
+  "after": "Freezing rain frosts you over in midwinter and hides the sun. The month's first need is Water in full flow to keep you clean and moving, and its second the sun's Fire, with Earth and Wood steadying both. You glitter in the cold once those two are close beside you."
+ },
+ {
+  "id": "BB:BB-020",
+  "key": "SEASON gui.wu · reading",
+  "before": "You have almost nowhere to stand in midsummer, a thin rain falling into the fiercest heat of the year. The season asks for Metal of both kinds to give you a source, and for more Water beside you to guard that Metal from the heat. You get through this season on the strength of others like you.",
+  "after": "You have almost nowhere to stand in midsummer, a thin rain falling into the fiercest heat of the year. The season asks for Metal of both kinds to give you a source, and for more Water beside you to guard that Metal from the heat. You get through this season once others like you stand with you."
+ },
+ {
+  "id": "BB:BB-021",
+  "key": "TG_PATTERN shishen_zhi_sha · blueprint_line",
+  "before": "A hard deadline settles you instead of rattling you, and you turn out your best work when the stakes are high and the clock runs short.",
+  "after": "A hard deadline settles you instead of rattling you, and you turn out your best work when the clock runs short."
+ },
+ {
+  "id": "BB:BB-022",
+  "key": "STRUCTURE qisha_ge · reading",
+  "before": "Your chart answers to pressure, the hard test and the person who pushes back. You rise when the stakes are real and the deadline is close, and you are steadiest in the thick of a fight.",
+  "after": "Your chart answers to pressure, the hard test and the person who pushes back. You rise when the risk is real and the deadline is close, and you are steadiest in the thick of a fight."
+ },
+ {
+  "id": "BC:BC-023",
+  "key": "TEMPLATED tpl_depth · bond.frame.year_month_day_hour",
+  "before": "Every part of your life adds to one story, from your first home through work and partnership to those who follow you, and you watch it gather weight.",
+  "after": "Every part of your life adds to one story, from your first home through work and partnership to the people after you, and you watch it gather weight."
+ },
+ {
+  "id": "BC:BC-024",
+  "key": "GOD zhengguan · season_need.hidden",
+  "before": "Your chart buries the Magistrate your season asks for in one deep corner, and you take on a formal role late and grow into it slowly.",
+  "after": "Your chart buries the Magistrate your season asks for in a deep corner, and you take on a formal role late and grow into it slowly."
+ },
+ {
+  "id": "BC:BC-028",
+  "key": "SEASON ji.you · reading",
+  "before": "The Metal season peaks in the middle of autumn, and it takes more out of your ground than any other month. Water returns first as rain to refill you and Fire follows to warm your strength back, with fine Metal feeding the rain, and you hold firm against the season with both at your side.",
+  "after": "The Metal season peaks in the middle of autumn, and it takes more out of your ground than any other month. Water returns first as rain to refill you and Fire follows to warm your strength back, with fine Metal feeding the rain, and you hold firm against the season with all three at your side."
+ },
+ {
+  "id": "DA:DA-020",
+  "key": "GOD piancai · decade_lines.Family.heavy.lived",
+  "before": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through on a family that forgave more than you expected.",
+  "after": "Plans and people far from home pulled you away in those years, and your family saw less of you than they wanted. You made it up in bursts of generosity, and you came through because your family forgave more than you expected."
+ },
+ {
+  "id": "DA:DA-021",
+  "key": "POSITION piancai_hour_branch · domain_climb.Family.lived",
+  "before": "Your family has scattered across more than one place since your late forties, and the younger ones live far from you and from each other. You have become the one who brings them together, and your best days in those years have been reunions.",
+  "after": "Your family has scattered across more than one place since your late forties, and the younger ones live far from you and from each other. You have become the one who brings them together, and your best days in these years have been reunions."
+ },
+ {
+  "id": "DA:DA-022",
+  "key": "POSITION zhengcai_day_branch · domain_climb.Family.recognition",
+  "before": "You keep your household running, the cupboards full and the bills paid before they are due. Because a well kept home is how you show love, you feel uneasy when things at home are left undone. Your family feels safe without knowing how much you do, and you rarely tell them.",
+  "after": "You keep your household running, the cupboards full and the bills paid before they are due. Because a well-kept home is how you show love, you feel uneasy when things at home are left undone. Your family feels safe without knowing how much you do, and you rarely tell them."
+ },
+ {
+  "id": "DA:DA-023",
+  "key": "POSITION zhengguan_day_branch · domain_climb.Family.lived",
+  "before": "Your family life has been built on structure, regular meals and shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who keeps its promises when others forgot.",
+  "after": "Your family life has been built on structure, with regular meals, shared duties and arrangements that hold. Relatives on both sides have come to trust your household, and you have been the one who kept its promises when others forgot."
+ },
+ {
+  "id": "DA:DA-024",
+  "key": "GOD zhengcai · decade_lines.Family.heavy.ahead",
+  "before": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it.",
+  "after": "Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it."
+ },
+ {
+  "id": "DA:DA-025",
+  "key": "GOD zhengyin · decade_lines.Family.heavy.lived",
+  "before": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing what was expected, and what carried you was one thing you chose for yourself.",
+  "after": "Your family sheltered you in those years more than you needed, and the care came with expectations. You kept the peace by doing as you were asked, and what carried you was one thing you chose for yourself."
+ },
+ {
+  "id": "DA:DA-027",
+  "key": "POSITION zhengguan_year_branch · domain_climb.Family.recognition",
+  "before": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull long after you have left home.",
+  "after": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull wherever you live."
+ },
+ {
+  "id": "DB:DB-027",
+  "key": "GOD zhengcai · decade_lines.Wealth.heavy.ahead",
+  "before": "Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check.",
+  "after": "Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check."
+ },
+ {
+  "id": "DB:DB-030",
+  "key": "POSITION piancai_hour_branch · domain_climb.Wealth.ahead",
+  "before": "Chances to earn keep reaching you from your late forties, through younger people or through a move. Your money stays lively in these years, and you sleep best when one part of it never moves.",
+  "after": "Chances to earn keep reaching you from your late forties, through younger people or through a move. Your money stays lively in these years, and you sleep best when one part of it is never touched."
+ },
+ {
+  "id": "DB:DB-031",
+  "key": "POSITION jiecai_hour_branch · domain_climb.Wealth.ahead",
+  "before": "Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own floor only where you set the number before anyone asks.",
+  "after": "Younger people start to make claims on your money from your late forties. You will give more than you planned each time, and you will keep your own share only where you set its size before anyone asks."
+ },
+ {
+  "id": "DB:DB-032",
+  "key": "POSITION jiecai_day_branch · domain_climb.Wealth.recognition",
+  "before": "You treat money in a relationship as joint, and you give freely when your partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it.",
+  "after": "You treat money in a relationship as joint, and you give freely when a partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it."
+ },
+ {
+  "id": "DB:DB-033",
+  "key": "POSITION shishen_day_branch · domain_climb.Love.recognition",
+  "before": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you notice a partner who only takes much later than your friends do.",
+  "after": "You love by doing, the meal made and the evening kept free and the worry taken off someone's hands. Since giving comfort is how you feel close, you feel most loved by a partner who receives it gladly and gives some back. You give without keeping count, and you are the last of your friends to notice a partner who only takes."
+ },
+ {
+  "id": "DB:DB-034",
+  "key": "POSITION piancai_day_branch · domain_climb.Love.recognition",
+  "before": "In love you fall for people who widen your life, the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out.",
+  "after": "In love you fall for the one with plans and friends and somewhere to be. Because range is what draws you, you lose interest within months in a partner who only offers closeness. What you want is someone who brings the world home, and you grow restless with anyone who shuts it out."
+ },
+ {
+  "id": "DB:DB-035",
+  "key": "POSITION bijian_day_branch · domain_climb.Love.ahead",
+  "before": "Love settles from your mid-thirties into a partnership between two people who each run their own lives. Over these years the tally between you grows shorter, and you find you can lean on a partner without feeling smaller.",
+  "after": "Love settles from your mid-thirties into a partnership between two people who each run their own lives. Over these years the score between you matters less, and you lean on a partner without feeling smaller."
+ },
+ {
+  "id": "DB:DB-037",
+  "key": "POSITION jiecai_day_branch · domain_climb.Love.lived",
+  "before": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours stayed loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest.",
+  "after": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours ran loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest."
+ },
+ {
+  "id": "DB:DB-038",
+  "key": "POSITION shangguan_day_branch · domain_climb.Love.recognition",
+  "before": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing your partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half.",
+  "after": "You show love by talking and teasing, and a quiet partner leaves you lonely even in a happy home. Since you feel close only when your mind is met, you keep testing a partner with argument, and some evenings end colder than either of you meant. What you want is praise and honesty in the same person, and you rarely settle for half."
+ },
+ {
+  "id": "DB:DB-039",
+  "key": "POSITION zhengguan_month_stem · domain_climb.Career.recognition",
+  "before": "You climb at work through trust, the clean record and the job done the way it should be. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record.",
+  "after": "You climb at work through trust, the clean record and the job done the proper way. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record."
+ },
+ {
+  "id": "DB:DB-041",
+  "key": "POSITION piancai_year_stem · domain_climb.Family.recognition",
+  "before": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later.",
+  "after": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving past what you can afford, and you resent it only later."
+ },
+ {
+  "id": "DB:DB-043",
+  "key": "POSITION shishen_hour_stem · domain_climb.Career.recognition",
+  "before": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on pleasure, and you do more of it in a happy month than in a pressured year.",
+  "after": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on appetite, and you do more of it in a happy month than in a pressured year."
+ },
+ {
+  "id": "DC:DC-020",
+  "key": "GOD shishen · decade_lines.Career.heavy.lived",
+  "before": "Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and the skill you kept practising for pleasure is what kept you going.",
+  "after": "Comfort dulled your drive at work in those years, and easy work held you longer than it served you. You were well liked and under-stretched, and the skill you practised for pleasure is what kept you going."
+ },
+ {
+  "id": "DC:DC-021",
+  "key": "POSITION zhengyin_month_branch · domain_climb.Career.recognition",
+  "before": "You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than it should. Your standing grows slowly and holds when louder careers fall away.",
+  "after": "You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than your knowledge has earned it. Your standing grows slowly and holds when louder careers fall away."
+ },
+ {
+  "id": "DC:DC-022",
+  "key": "GOD shishen · decade_lines.Health.heavy.ahead",
+  "before": "Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure.",
+  "after": "Good food and long evenings cost you energy in these years, and the easy option wins more days than you mean it to. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure."
+ },
+ {
+  "id": "DC:DC-023",
+  "key": "GOD qisha · decade_lines.Health.heavy.ahead",
+  "before": "Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is sleep and slow meals given their place in the week, and you recover fast once the pressure lifts.",
+  "after": "Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is rest and slow meals given their place in the week, and you recover fast once the pressure lifts."
+ },
+ {
+  "id": "DC:DC-024",
+  "key": "GOD qisha · decade_lines.Health.heavy.lived",
+  "before": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and you got through because a few people made you stop.",
+  "after": "Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve, and you got through because a few people made you stop."
+ },
+ {
+  "id": "DC:DC-025",
+  "key": "GOD shishen · decade_lines.Health.helping.ahead",
+  "before": "You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than in the one before it.",
+  "after": "You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health through this decade, and you feel at ease in your own skin."
+ },
+ {
+  "id": "DC:DC-026",
+  "key": "GOD zhengyin · decade_lines.Health.helping.ahead",
+  "before": "Support and good rest restore you in these ten years, and recovery from strain comes faster than before. You sleep well and eat well, and your energy holds steady through the decade.",
+  "after": "Support and good rest restore you in these ten years, and you recover quickly from strain. You sleep well and eat well, and your energy holds steady through the decade."
+ },
+ {
+  "id": "DC:DC-027",
+  "key": "TG_PATTERN shi_shang_sheng_cai · fused_line",
+  "before": "In you the gap is short, and you are paid in the same season that you make.",
+  "after": "In you making and earning sit close together, and you are paid in the same season that you make."
+ },
+ {
+  "id": "DC:DC-028",
+  "key": "POSITION zhengcai_hour_branch · domain_climb.Health.lived",
+  "before": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have kept more of it than people who pushed hard and rested little.",
+  "after": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have more of it left than people who pushed hard and rested little."
+ },
+ {
+  "id": "DC:DC-030",
+  "key": "POSITION zhengyin_month_branch · domain_climb.Career.lived",
+  "before": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior put your name forward before you felt ready, and you have proved them right.",
+  "after": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior recommended you before you felt ready, and you have proved them right."
+ },
+ {
+  "id": "DC:DC-031",
+  "key": "GOD pianyin · decade_lines.Career.helping.ahead",
+  "before": "Unusual knowledge brings you work in these years, through research, advice or technical skill. People come to you for what others do not know, and your name grows inside a small field.",
+  "after": "Unusual knowledge brings you work in these years, through research, advice or technical skill. You become the one people ask about what others do not know, and your name grows inside a small field."
+ },
+ {
+  "id": "DC:DC-032",
+  "key": "GOD jiecai · decade_lines.Career.heavy.ahead",
+  "before": "Rivalry over shared work costs you energy in these years, and a joint effort takes more from you than it pays. What carries you is work that is plainly yours, and the people who matter see that you did it.",
+  "after": "Rivalry over shared work costs you energy in these years, and a joint effort takes more from you than it pays. You get through on work that is plainly yours, and the people who matter see that you did it."
+ },
+ {
+  "id": "DC:DC-033",
+  "key": "POSITION shangguan_month_stem · domain_climb.Career.lived",
+  "before": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outlasted most of the ones who did not.",
+  "after": "Bosses have either backed you fully or tried to slow you down since your late teens, and few have stayed neutral about you. You have done your best work for the ones who believed in you, and you have outstayed most of the ones who did not."
+ },
+ {
+  "id": "DC:DC-034",
+  "key": "POSITION zhengguan_month_branch · domain_climb.Career.recognition",
+  "before": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a proper title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly.",
+  "after": "You do your best work inside an organisation with fixed rules and a visible ladder, and you climb it by doing every step properly. Because you need to know where you stand, open-ended jobs leave you uneasy, and a clear title settles you. What you gain is lasting rank, and what you lose is the freedom to move quickly."
+ },
+ {
+  "id": "DC:DC-035",
+  "key": "GOD zhengcai · decade_lines.Career.heavy.ahead",
+  "before": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability keeps you valued, and you find a better fit once someone else sees what you are worth.",
+  "after": "Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth."
+ },
+ {
+  "id": "DC:DC-036",
+  "key": "GOD shishen · decade_lines.Career.heavy.ahead",
+  "before": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make keeps you going, and you move forward each time a deadline gives you a reason to finish.",
+  "after": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make carries you on, and you move forward each time a deadline gives you a reason to finish."
+ },
+ {
+  "id": "DD:DD-024",
+  "key": "POSITION shangguan_day_branch · domain_climb.Mind.recognition",
+  "before": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give your partner your best ideas first, and your harshest opinions too.",
+  "after": "You think best out loud, with one person close enough to hear the rough version and sharp enough to push back. Because your ideas only feel real once they have been tested on someone, an evening of silence at home leaves you restless. You give a partner your best ideas first, and your harshest opinions too."
+ },
+ {
+  "id": "DD:DD-025",
+  "key": "POSITION pianyin_day_branch · domain_climb.Mind.lived",
+  "before": "Your clearest thinking so far has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been weighing for weeks in silence.",
+  "after": "Your clearest thinking has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been weighing for weeks in silence."
+ },
+ {
+  "id": "DD:DD-026",
+  "key": "POSITION shangguan_day_branch · domain_climb.Mind.lived",
+  "before": "Your clearest thinking so far has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening.",
+  "after": "Your clearest thinking has happened in long talks with someone close, more than in study or alone at a desk. You have changed your mind more than once because a partner disagreed, and you have also argued long after either of you was listening."
+ },
+ {
+  "id": "DD:DD-027",
+  "key": "POSITION pianyin_hour_stem · domain_climb.Growth.ahead",
+  "before": "You grow from your late forties by mastering one rare thing completely. You put what you learn into a form others can use, a written method or a body of work, and you see it travel further than you do.",
+  "after": "You grow from your late forties by mastering one rare thing completely. You put what you learn into a form others can use, a method or a body of work, and you see it travel further than you do."
+ },
+ {
+  "id": "DD:DD-028",
+  "key": "POSITION zhengguan_hour_branch · domain_climb.Growth.ahead",
+  "before": "Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example.",
+  "after": "Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you become the example others hold up."
+ },
+ {
+  "id": "DD:DD-029",
+  "key": "TEMPLATED tpl_domains · domain_gaps.Mind.hour",
+  "before": "Since your late forties people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things.",
+  "after": "Since your late forties, people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things."
+ },
+ {
+  "id": "DD:DD-030",
+  "key": "POSITION zhengyin_hour_stem · domain_climb.Growth.lived",
+  "before": "You have found yourself explaining things you once took for granted since your late forties, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before.",
+  "after": "Since your late forties you have found yourself explaining things you once took for granted, and it has taught you as much as it taught others. You have written down or passed on more of what you know than in all the years before."
+ },
+ {
+  "id": "DD:DD-031",
+  "key": "GOD shangguan · year_domain.Mind",
+  "before": "Your thinking sharpens against received ideas this year, and you find flaws in what others accept faster than you can keep them to yourself.",
+  "after": "Your thinking sharpens against the ideas you are handed this year, and you find flaws in what others accept faster than you can keep them to yourself."
+ },
+ {
+  "id": "DD:DD-034",
+  "key": "POSITION qisha_year_branch · domain_climb.Growth.recognition",
+  "before": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst.",
+  "after": "You grow when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst."
+ },
+ {
+  "id": "DE:DE-015",
+  "key": "POSITION zhengguan_month_branch · domain_climb.Social.recognition",
+  "before": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone credits you for.",
+  "after": "You are the one who keeps a group working, the colleague who remembers the deadline and the friend who makes the plan happen. Because order calms you, you take on the organising without being asked, and people come to depend on it. Your place in a circle is quiet, and you decide more than anyone gives you credit for."
+ },
+ {
+  "id": "DE:DE-016",
+  "key": "POSITION zhengguan_month_branch · domain_climb.Social.lived",
+  "before": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted further, and you kept the ones bound to you by a duty for years after the job ended.",
+  "after": "Your friendships have grown out of work and shared duties since your late teens, the colleagues you trusted and the seniors who trusted you. Friends you had no shared task with drifted away, and you kept the ones bound to you by a duty for years after the job ended."
+ },
+ {
+  "id": "DE:DE-018",
+  "key": "GOD jiecai · decade_lines.Social.heavy.ahead",
+  "before": "Comparison runs through your friendships in these years, and you notice who earns more and who wins more. What carries you is one friend who never competes with you, and you lean on that friend often.",
+  "after": "Comparison runs through your friendships in these years, and you notice who earns more and who wins more. What carries you is one friend who never competes with you, and you lean on that friend above all others."
+ },
+ {
+  "id": "DE:DE-020",
+  "key": "GOD jiecai · decade_lines.Social.heavy.lived",
+  "before": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. You got through on the company itself, and you learned to tell an ally from a competitor.",
+  "after": "Friendship and contest mixed in those years, and more than once a friend took credit or a prize you had earned. The company itself got you through, and you learned to tell an ally from a competitor."
+ },
+ {
+  "id": "DE:DE-021",
+  "key": "POSITION shangguan_year_stem · domain_climb.Social.lived",
+  "before": "As a child your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you.",
+  "after": "When you were a child, your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+ },
+ {
+  "id": "DE:DE-022",
+  "key": "POSITION pianyin_year_stem · domain_climb.Social.lived",
+  "before": "Other children took a while to warm to you as a child, because you stood at the edge of groups for a long time first. By your teens you had one or two close friends who understood you, and they were enough for you.",
+  "after": "Other children took a while to warm to you, because you stood at the edge of each group for a long time before you joined it. By your teens you had one or two close friends who understood you, and they were enough for you."
+ },
+ {
+  "id": "DE:DE-025",
+  "key": "GOD bijian · decade_lines.Social.heavy.lived",
+  "before": "During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and the one or two friends who stayed were enough to carry you.",
+  "after": "During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and you found the one or two friends who stayed were enough to carry you."
+ },
+ {
+  "id": "DE:DE-026",
+  "key": "GOD zhengguan · decade_lines.Social.heavy.lived",
+  "before": "Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle.",
+  "after": "What was proper ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle."
+ },
+ {
+  "id": "DE:DE-027",
+  "key": "GOD piancai · decade_lines.Social.helping.ahead",
+  "before": "You widen your circle in these years, through travel and new groups and people met through other people. You make more new friends in this decade than in the one before it.",
+  "after": "You widen your circle in these years, through travel and new groups and the people they lead you to. You make more new friends in this decade than in the one before it."
+ },
+ {
+  "id": "DE:DE-028",
+  "key": "GOD piancai · year_domain.Social",
+  "before": "Your circle widens this year through chance meetings and friends of friends, and you move easily between groups that never meet each other.",
+  "after": "Your circle widens this year through chance meetings and introductions, and you move easily between groups that never meet each other."
+ },
+ {
+  "id": "DE:DE-029",
+  "key": "GOD jiecai · year_domain.Social",
+  "before": "Competition runs through your circle this year over the same invitations and attention, and you share your friends more widely than you planned.",
+  "after": "Competition runs through your circle this year for the same invitations and attention, and you share your friends more widely than you planned."
+ },
+ {
+  "id": "DE:DE-030",
+  "key": "GOD zhengguan · year_domain.Social",
+  "before": "Roles and expectations shape your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would.",
+  "after": "Roles and expectations mark your friendships this year, a committee seat or a host's duty, and you are known for showing up when you said you would."
+ },
+ {
+  "id": "DE:DE-031",
+  "key": "GOD bijian · year_domain.Social",
+  "before": "Friends meet you as equals this year, and you spend more time with people who do what you do than with those who look up to you.",
+  "after": "Friends meet you as peers this year, and you spend more time with people who do what you do than with those who look up to you."
+ },
+ {
+  "id": "DE:DE-032",
+  "key": "POSITION bijian_year_stem · domain_climb.Social.lived",
+  "before": "The friends you made as a child were your equals, children who competed with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss.",
+  "after": "The friends you made as a child were your equals, children who kept pace with you and stood up for you in turn. The friendships that lasted into your teens were the level ones, and you let the rest go without a fuss."
+ },
+ {
+  "id": "DE:DE-033",
+  "key": "GOD jiecai · decade_lines.Social.helping.lived",
+  "before": "Those years filled your life with lively company, friends who competed with you and pushed you on. You were at your best among a crowd of equals, and you won their respect openly.",
+  "after": "Those years filled your life with lively company, friends who competed with you and pushed you on. You were at your best among a crowd of rivals, and you won their respect openly."
+ },
+ {
+  "id": "DE:DE-034",
+  "key": "POSITION piancai_day_branch · domain_climb.Social.ahead",
+  "before": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape your next twenty years through someone you share a home with.",
+  "after": "Your circle widens from your mid-thirties through a partner's world, through their friends and their family and their work. You will meet the people who shape these years through someone you share a home with."
+ }
+]

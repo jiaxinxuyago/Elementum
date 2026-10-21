@@ -40,7 +40,7 @@
       },
       "Family": {
         "headline": "Your family taught you generosity, and its price.",
-        "recognition": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later.",
+        "recognition": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving past what you can afford, and you resent it only later.",
         "lived": "An older relative in your first home, a parent or someone who stood in for one, spent widely and drew people around them. Growing up you learned both the warmth of that generosity and what it cost the household."
       }
     },
@@ -52,6 +52,9 @@
         "domain_climb.Wealth.lived": "As a child you watched money arrive in good months and go out on visitors and fresh ideas. By your teens you had a quick eye for a chance and very little saved, and both habits stayed.",
         "domain_climb.Family.recognition": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that open hands make people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later.",
         "domain_climb.Family.lived": "An older relative in your first home, a father or someone who stood in for one, spent widely and drew people around them. By your teens you had learned both the warmth of that generosity and what it cost the household."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Family.recognition": "You give freely in your family, the treat paid for and the loan made without terms. Because an older relative showed you that generosity makes people love you, you find it hard to refuse anyone close. You keep giving after you can afford to, and you resent it only later."
       }
     }
   },
@@ -104,6 +107,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DB:DB-041",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

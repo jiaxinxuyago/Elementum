@@ -135,6 +135,10 @@
         "decade_lines.Mind.helping.ahead": "Intuition sharpens in these ten years, and unusual ideas finally find a use. You think in ways few others do, and people start coming to you for the angle they missed.",
         "decade_lines.Growth.heavy.lived": "You grew in those years by going your own way, often away from what was expected of you. The progress was real and nearly invisible, and you felt behind while you made it.",
         "decade_lines.Growth.helping.ahead": "Private study pays in these years, and the things you taught yourself start to count. You grow in directions nobody planned for you, and the progress shows in work only you could do."
+      },
+      "retired_2026-10-21_section_audit": {
+        "decade_lines.Growth.heavy.lived": "You grew in those years by going your own way, often away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind.",
+        "decade_lines.Career.helping.ahead": "Unusual knowledge brings you work in these years, through research, advice or technical skill. People come to you for what others do not know, and your name grows inside a small field."
       }
     },
     "ruling_domains": [
@@ -150,7 +154,7 @@
         },
         "helping": {
           "lived": "Unusual work suited you in those years, the kind that needs odd knowledge and long hours alone. You became good at something few others understood, and it earned you respect before it earned you anything else.",
-          "ahead": "Unusual knowledge brings you work in these years, through research, advice or technical skill. People come to you for what others do not know, and your name grows inside a small field."
+          "ahead": "Unusual knowledge brings you work in these years, through research, advice or technical skill. You become the one people ask about what others do not know, and your name grows inside a small field."
         }
       },
       "Mind": {
@@ -165,7 +169,7 @@
       },
       "Growth": {
         "heavy": {
-          "lived": "You grew in those years by going your own way, often away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind.",
+          "lived": "You grew in those years by going your own way, away from what was expected of you. The progress was real and nearly invisible, and you kept going on your own conviction while you felt behind.",
           "ahead": "Solitary searching slows you in these years, with many interests started and few carried through. One finished project gets you through, and you feel the decade's progress most on the day it is done."
         },
         "helping": {
@@ -238,6 +242,20 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "decade_lines.Growth.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-028 + DD:DD-020",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Career.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-031",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

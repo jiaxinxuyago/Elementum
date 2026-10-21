@@ -41,7 +41,7 @@
 | `domain_climb.Growth.headline` | You grow later by refining what you value. |
 | `domain_climb.Growth.recognition` | You grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you would rather redo a thing properly than try something new, and the change in you shows up as patience. You redo a job nobody else would have noticed was wrong, and you feel better for it. |
 | `domain_climb.Growth.lived` | Your growth since your late forties has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did. |
-| `domain_climb.Growth.ahead` | Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example. |
+| `domain_climb.Growth.ahead` | Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you become the example others hold up. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -54,3 +54,4 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Growth.recognition` | In later life you grow by doing familiar things better, holding the same values to a higher standard. Because consistency matters to you, you have little interest in reinventing yourself, and change in you shows up as care and patience. Your progress is quiet, and it is easy for others to miss. |
 | `domains_round1_retired_2026-10-21.domain_climb.Growth.lived` | Since your late forties your growth has been steady and private, a practice deepened or a standard raised year by year. You became more patient in that time, and the people around you noticed it before you did. |
 | `domains_round1_retired_2026-10-21.domain_climb.Growth.ahead` | From your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example. |
+| `retired_2026-10-21_section_audit.domain_climb.Growth.ahead` | Past your late forties you keep improving at what you already know, and each year adds polish more than novelty. You grow wiser through repetition and care, and you end up with a character that others hold up as an example. |

@@ -42,7 +42,7 @@
 | `decade_lines.Growth.heavy.ahead` | Comparison with peers drives you hard in these years, and the standard you hold yourself to leaves little ease. One equal who works beside you instead of against you keeps you going, and you grow because of it. |
 | `decade_lines.Social.helping.lived` | Friendships among equals defined those years, with people who matched your pace and asked nothing extra. You found a few friends who met you level, and you have kept some of them since. |
 | `decade_lines.Social.helping.ahead` | Your friends in these ten years are equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd. |
-| `decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and the one or two friends who stayed were enough to carry you. |
+| `decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and you found the one or two friends who stayed were enough to carry you. |
 | `decade_lines.Social.heavy.ahead` | Company that truly matches you is scarce in these years, and crowded groups wear you out quickly. One steady friend carries you through the decade, and you value that friend more than a full calendar. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -94,3 +94,4 @@
 | `domains_round1_retired_2026-10-21.decade_lines.Social.helping.ahead` | These ten years bring friends who stand beside you as equals, people with their own lives and their own strength. Your circle stays small and solid, and you trust it more than any crowd. |
 | `domains_round1_retired_2026-10-21.decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle shrank to one or two, and you found those one or two were enough. |
 | `domains_round1_retired_2026-10-21.decade_lines.Social.heavy.ahead` | Company that truly matches you grows scarce in these years, and crowded groups wear you out quickly. One steady friend carries the decade, and you value that friend more than a full calendar. |
+| `retired_2026-10-21_section_audit.decade_lines.Social.heavy.lived` | During those years you held yourself apart from most groups, sure that few people matched your standard. Your circle grew smaller than it had been, and the one or two friends who stayed were enough to carry you. |

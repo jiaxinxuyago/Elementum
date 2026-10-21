@@ -33,17 +33,17 @@
 | `family_element.notAlone` | not money alone, but everything you treat as worth acquiring and tending |
 | `ruling_domains` | Wealth · Family · Career |
 | `decade_lines.Wealth.helping.ahead` | You turn steady work into something you own in these ten years, a home or savings or a share in something lasting. You keep more of what you earn than in any decade before it. |
-| `decade_lines.Wealth.helping.lived` | Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without luck or risk, and you trusted your own counting more than any tip. |
+| `decade_lines.Wealth.helping.lived` | Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without windfalls or risk, and you trusted your own counting more than any tip. |
 | `decade_lines.Wealth.heavy.lived` | Expenses felt heavy in those years, and you counted money long after there was enough. Your savings grew while your pleasure shrank, and you came through on the security that careful habit built. |
-| `decade_lines.Wealth.heavy.ahead` | Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check. |
+| `decade_lines.Wealth.heavy.ahead` | Caution about money tightens in these years, and spending on yourself feels wrong even when you can afford it. You have more put by than you feel you have, and you relax a little each time you check. |
 | `decade_lines.Family.helping.ahead` | Your family life settles in these years around the order you keep, a home that runs well and bills paid on time. You are the one your relatives rely on, and you are glad to be. |
 | `decade_lines.Family.helping.lived` | Meals, chores and repairs ran smoothly at home in those years because you saw to them. Your family grew used to your steadiness, and you took pride in it. |
 | `decade_lines.Family.heavy.lived` | Duty at home outweighed pleasure in those years, and you counted what others spent without meaning to. The household stayed secure and a little tense, and you were carried by one relative who thanked you plainly. |
-| `decade_lines.Family.heavy.ahead` | Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it. |
+| `decade_lines.Family.heavy.ahead` | Keeping the household in order weighs on you in these years, and you carry more of it than your share. The routines you built keep you going, and you pass some of the load over once your family sees it. |
 | `decade_lines.Career.helping.ahead` | Your work pays properly in these years, steadily and in proportion to what you put in. You chase the next thing less and build on what you already do well. |
 | `decade_lines.Career.helping.lived` | Steady work rewarded you in those years, and your record stayed clean. You became known as the person who delivers on time, and the reputation followed you into later work. |
 | `decade_lines.Career.heavy.lived` | Safety kept you in one place too long during those years, and your duties grew faster than your reward. You carried the extra load reliably, and it earned you a trust that later work paid for. |
-| `decade_lines.Career.heavy.ahead` | Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability keeps you valued, and you find a better fit once someone else sees what you are worth. |
+| `decade_lines.Career.heavy.ahead` | Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability earns you respect, and you find a better fit once someone else sees what you are worth. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -94,3 +94,7 @@
 | `domains_round1_retired_2026-10-21.decade_lines.Career.helping.ahead` | Your work starts paying properly in these years, steadily and in proportion to what you put in. You stop chasing the next thing and build on what you already do well. |
 | `domains_round1_retired_2026-10-21.decade_lines.Career.helping.lived` | Steady work rewarded you in those years, with regular pay and a clear record. You became known as the person who delivers on time, and the reputation followed you to every job after. |
 | `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.lived` | Security kept you in one post too long during those years, and the pay stayed flat while your duties grew. You carried the extra load reliably, and it earned you a trust that later jobs paid for. |
+| `retired_2026-10-21_section_audit.decade_lines.Wealth.helping.lived` | Careful earning paid off in those years, and you saved steadily from regular work. You built up something solid without luck or risk, and you trusted your own counting more than any tip. |
+| `retired_2026-10-21_section_audit.decade_lines.Family.heavy.ahead` | Keeping the household in order weighs on you in these years, and you carry more of it than your share. The order you built keeps you going, and you pass some of the load over once your family sees it. |
+| `retired_2026-10-21_section_audit.decade_lines.Wealth.heavy.ahead` | Caution about money tightens in these years, and spending on yourself feels wrong more often than it should. You have more put by than you feel you have, and you relax a little each time you check. |
+| `retired_2026-10-21_section_audit.decade_lines.Career.heavy.ahead` | Routine tightens around your work in these years, and caution keeps you from moves that would pay more. Your reliability keeps you valued, and you find a better fit once someone else sees what you are worth. |

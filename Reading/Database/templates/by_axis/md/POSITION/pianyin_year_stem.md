@@ -39,7 +39,7 @@
 | `domain_climb.Mind.lived` | As a child you learned in a way teachers struggled to mark, reaching the right answer by a route nobody had taught. By your teens you were known for it, as the clever one or the odd one, and you were both. |
 | `domain_climb.Social.headline` | You choose a small circle and keep it close. |
 | `domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. Only a few people know you well, and you chose it that way. |
-| `domain_climb.Social.lived` | Other children took a while to warm to you as a child, because you stood at the edge of groups for a long time first. By your teens you had one or two close friends who understood you, and they were enough for you. |
+| `domain_climb.Social.lived` | Other children took a while to warm to you, because you stood at the edge of each group for a long time before you joined it. By your teens you had one or two close friends who understood you, and they were enough for you. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -49,3 +49,4 @@
 | `domains_round1_retired_2026-10-21.reading` | You were the child who watched before joining in, and adults noticed how differently you learned. Because you took in the world on your own terms, adults found you older than your years and other children found you hard to read. That early difference became the way people still see you, thoughtful and selective and slow to open up. You keep a few close friends in place of a crowd, and you have never regretted the trade. |
 | `domains_round1_retired_2026-10-21.domain_climb.Social.recognition` | You prefer a handful of people who really know you to a wide circle who only recognise you. Because you open up slowly, the friends you keep have earned it, and they tell you things they tell nobody else. You find parties tiring and long talks restoring. |
 | `domains_round1_retired_2026-10-21.domain_climb.Social.lived` | As a child you stood at the edge of groups for a long time, and other children took a while to warm to you. By your teens you had one or two close friends who understood you, and you needed nobody else. |
+| `retired_2026-10-21_section_audit.domain_climb.Social.lived` | Other children took a while to warm to you as a child, because you stood at the edge of groups for a long time first. By your teens you had one or two close friends who understood you, and they were enough for you. |

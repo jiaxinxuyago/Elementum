@@ -35,7 +35,7 @@
     "domain_climb": {
       "Wealth": {
         "headline": "Money moved fast around you from the start.",
-        "recognition": "You spend quickly and generously, and money that comes in through friends or luck goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
+        "recognition": "You spend quickly and generously, and money that comes in through friends or windfalls goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives.",
         "lived": "Money arrived and vanished in your family while you were growing up, a good year followed by a hard one. You had your own share of that nerve before you were grown, and you spent what you had almost as soon as you had it."
       },
       "Social": {
@@ -50,6 +50,9 @@
         "reading": "Your family was known for its nerve, with money that came and went quickly and charm that won people over. Because boldness was praised in your first home, people warm to you quickly, and you act while others are still deciding. You also learned to spend as fast as you earn, and you feel uneasy holding on to money for long.",
         "domain_climb.Wealth.lived": "As a child you watched money arrive and vanish in your family, a good year followed by a hard one. By your teens you had your own share of that nerve, and you spent what you had almost as soon as you had it.",
         "domain_climb.Social.lived": "As a child you were popular with other children and with adults, and you were invited everywhere. By your teens you had a wide circle and one or two close friends who mattered far more, and you knew which were which."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Wealth.recognition": "You spend quickly and generously, and money that comes in through friends or luck goes out the same way. Because a free hand with money was admired at home when you were young, saving feels cautious to you in a way you dislike. Your bank balance swings more than most people's, and you are calm about it until a lean month arrives."
       }
     }
   },
@@ -102,6 +105,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-041",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

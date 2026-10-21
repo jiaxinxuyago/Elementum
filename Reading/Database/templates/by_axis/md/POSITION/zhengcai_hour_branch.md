@@ -41,7 +41,7 @@
 | `domain_climb.Family.ahead` | From your late forties the people after you rest on the provision you have made. You become the steady one in your family, and you learn in these years to say some of your care out loud. |
 | `domain_climb.Health.headline` | Your body does best on steady upkeep. |
 | `domain_climb.Health.recognition` | Your body gets the same care as your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early. |
-| `domain_climb.Health.lived` | Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have kept more of it than people who pushed hard and rested little. |
+| `domain_climb.Health.lived` | Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have more of it left than people who pushed hard and rested little. |
 | `domain_climb.Health.ahead` | Your body repays the care you keep giving it from your late forties, with steady energy and good sleep. You stay strong in these years, and you feel the benefit of every ordinary habit. |
 | `domain_climb.Wealth.headline` | Your money ends up settled and secure. |
 | `domain_climb.Wealth.recognition` | You keep reserves for every possible need, and a full account calms you more than any purchase. Because security is what you work for, you spend on others easily and on yourself with reluctance. You have more comfort available than you let yourself use. |
@@ -61,3 +61,4 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Health.ahead` | From your late forties your body repays the care you keep giving it, with steady energy and good sleep. You age slowly in these years, and you feel the benefit of every ordinary habit. |
 | `domains_round1_retired_2026-10-21.domain_climb.Wealth.lived` | Since your late forties your finances have settled, with reserves kept and your household untouched by hard times around you. You have spent more on others than on your own comfort in that time. |
 | `domains_round1_retired_2026-10-21.domain_climb.Wealth.ahead` | From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it. |
+| `retired_2026-10-21_section_audit.domain_climb.Health.lived` | Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have kept more of it than people who pushed hard and rested little. |

@@ -210,7 +210,7 @@ export function resolveBlueprint(chart, positions, opts = {}) {
   const STATE_WORD = { shown: 'on show', rooted: 'inside a branch, not on show', hidden: 'hidden deep' };
   const primaryOrder = (season?.asks || []).filter((a) => a.rank === 'primary').map((a) => a.stem);
   const needs = (season?.asks || []).filter((a) => a.state !== 'absent').map((a) => ({
-    label: `${a.rank === 'primary' ? (primaryOrder.indexOf(a.stem) === 0 ? 'first need' : 'second need') : 'support'} · ${a.stem}, the ${persona(a.god)} · ${STATE_WORD[a.state]}`,
+    label: `${a.rank === 'primary' ? (['first need', 'second need', 'third need'][primaryOrder.indexOf(a.stem)] || 'need') : 'support'} · ${a.stem}, the ${persona(a.god)} · ${STATE_WORD[a.state]}`,
     ...unit(`GOD ${GOD_ID[a.god]} · season_need.${a.state}`, `The ${persona(a.god)} your season asks for ${{ shown: 'shows plainly', rooted: 'sits inside a branch', hidden: 'hides deep' }[a.state]} in your chart.`),
   }));
   const seasonCell = season ? { name: `${season.monthName}${dm}`, asks: season.asks.map((a) => a.stem).join(''), absentNeeds: season.asks.filter((a) => a.state === 'absent').map((a) => persona(a.god)) } : null;

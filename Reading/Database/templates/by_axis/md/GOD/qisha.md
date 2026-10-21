@@ -42,8 +42,8 @@
 | `decade_lines.Growth.heavy.ahead` | Setbacks arrive in these years without warning, and you are pushed before you feel ready. What carries you is the discipline you already have, and you end the decade tougher in ways that show later. |
 | `decade_lines.Health.helping.ahead` | You carry more pressure in these years, and for once it suits your body. You are fitter and sharper in a demanding decade than in an easy one, and you stay that way while you keep sleeping. |
 | `decade_lines.Health.helping.lived` | Your body answered strain well in those years, and hard training or hard work made you stronger. You had energy for demanding days, and you recovered fast between them. |
-| `decade_lines.Health.heavy.lived` | Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and you got through because a few people made you stop. |
-| `decade_lines.Health.heavy.ahead` | Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is sleep and slow meals given their place in the week, and you recover fast once the pressure lifts. |
+| `decade_lines.Health.heavy.lived` | Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve, and you got through because a few people made you stop. |
+| `decade_lines.Health.heavy.ahead` | Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is rest and slow meals given their place in the week, and you recover fast once the pressure lifts. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -92,3 +92,5 @@
 | `domains_round1_retired_2026-10-21.decade_lines.Growth.heavy.lived` | Those years tested you more than they taught you, with one hard stretch after another. You grew in spite of the pressure, and you came out tougher and more tired than you expected. |
 | `domains_round1_retired_2026-10-21.decade_lines.Health.heavy.lived` | Strain gathered in your body during those years, in your shoulders, your back and your sleep. You pushed through on nerve alone, and what carried you was a few people who made you stop. |
 | `domains_round1_retired_2026-10-21.decade_lines.Health.heavy.ahead` | Stress sits in your body through these years, in tight shoulders and short nights. Your energy returns whenever sleep and slow meals get their place in the week, and you recover fast once the pressure lifts. |
+| `retired_2026-10-21_section_audit.decade_lines.Health.heavy.ahead` | Pressure costs you sleep and energy through these years, and short nights add up faster than you notice. What carries you is sleep and slow meals given their place in the week, and you recover fast once the pressure lifts. |
+| `retired_2026-10-21_section_audit.decade_lines.Health.heavy.lived` | Strain gathered in your body during those years, and it showed first in your sleep. You pushed through on nerve alone, and you got through because a few people made you stop. |

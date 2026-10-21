@@ -44,7 +44,7 @@
       "Health": {
         "headline": "Your body does best on steady upkeep.",
         "recognition": "Your body gets the same care as your accounts, with regular walks, sensible meals and early nights. Because routine is what keeps you feeling safe, small daily care suits you better than any sudden effort. You notice the first sign of tiredness, and you deal with it early.",
-        "lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have kept more of it than people who pushed hard and rested little.",
+        "lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have more of it left than people who pushed hard and rested little.",
         "ahead": "Your body repays the care you keep giving it from your late forties, with steady energy and good sleep. You stay strong in these years, and you feel the benefit of every ordinary habit."
       },
       "Wealth": {
@@ -65,6 +65,9 @@
         "domain_climb.Health.ahead": "From your late forties your body repays the care you keep giving it, with steady energy and good sleep. You age slowly in these years, and you feel the benefit of every ordinary habit.",
         "domain_climb.Wealth.lived": "Since your late forties your finances have settled, with reserves kept and your household untouched by hard times around you. You have spent more on others than on your own comfort in that time.",
         "domain_climb.Wealth.ahead": "From your late forties your money stays steady while others worry, and your plans for it land where you intend. You find in these years that some of what you saved is meant for your own pleasure, and you learn to use it."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Health.lived": "Your energy has held steady since your late forties because you kept your sleep and your meals in order. You have kept more of it than people who pushed hard and rested little."
       }
     }
   },
@@ -131,6 +134,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Health.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-028",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

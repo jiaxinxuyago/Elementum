@@ -42,8 +42,8 @@
       },
       "Career": {
         "headline": "Your career rises on what you have studied.",
-        "recognition": "You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than it should. Your standing grows slowly and holds when louder careers fall away.",
-        "lived": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior put your name forward before you felt ready, and you have proved them right."
+        "recognition": "You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than your knowledge has earned it. Your standing grows slowly and holds when louder careers fall away.",
+        "lived": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior recommended you before you felt ready, and you have proved them right."
       },
       "Growth": {
         "headline": "Your growth waits on a readiness you already have.",
@@ -58,6 +58,10 @@
         "domain_climb.Mind.lived": "From your late teens learning carried you, through courses and qualifications and the teachers who took an interest. You have stayed a student in some form ever since, and it has kept you steadier than the people around you.",
         "domain_climb.Career.lived": "Since your late teens your progress at work has come through qualifications and the backing of people senior to you. At least once a senior colleague put your name forward before you felt ready, and you have proved them right.",
         "domain_climb.Growth.recognition": "You grow best from a safe position, with the training done and the support in place. Because shelter feels like the right place to prepare, you stay in comfortable roles past the point they teach you anything, and you wait for one more sign that you are ready. You are readier than you feel, and you have been for a long time."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Career.recognition": "You are trusted at work because you know your subject properly, and people check their facts with you. Because depth matters more to you than visibility, you leave the self-promotion to others, and promotion reaches you later than it should. Your standing grows slowly and holds when louder careers fall away.",
+        "domain_climb.Career.lived": "Your progress at work since your late teens has come through what you studied, each qualification earned before you asked for the next step. At least once someone senior put your name forward before you felt ready, and you have proved them right."
       }
     }
   },
@@ -124,6 +128,20 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-021",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Career.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-030",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

@@ -41,7 +41,7 @@
       },
       "Career": {
         "headline": "Your later work is your most generous.",
-        "recognition": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on pleasure, and you do more of it in a happy month than in a pressured year.",
+        "recognition": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on appetite, and you do more of it in a happy month than in a pressured year.",
         "lived": "Your work has turned since your late forties toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
         "ahead": "Your working life turns productive in the ways that suit you from your late forties, through mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money."
       }
@@ -56,6 +56,9 @@
         "domain_climb.Family.ahead": "From your late forties your family gathers around what you give, the meals and the gifts and the time. Children or younger relatives or someone you train grow easy and generous around you, and you see the best of yourself in them.",
         "domain_climb.Career.lived": "Since your late forties your work has turned toward teaching, hosting or finishing projects you had put off for years. Some of what you have made in this stretch has been better received than anything from your busier decades, and you have been surprised by it.",
         "domain_climb.Career.ahead": "From your late forties your working life becomes a productive one in the ways that suit you, mentoring and making and work done for others. You do some of your best work in these years, and you are paid for it in thanks as well as money."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Career.recognition": "You work best on things that feed people in some way, a meal or a lesson or a well-made thing. Because making something well gives you more pleasure than any title, you turn down promotions that would take you away from the work itself. Your work runs on pleasure, and you do more of it in a happy month than in a pressured year."
       }
     }
   },
@@ -108,6 +111,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DB:DB-043",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

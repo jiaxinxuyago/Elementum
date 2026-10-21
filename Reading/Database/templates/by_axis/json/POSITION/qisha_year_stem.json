@@ -40,7 +40,7 @@
       },
       "Career": {
         "headline": "Authority found you early and kept finding you.",
-        "recognition": "You end up in charge in most places you work, often before you ask for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
+        "recognition": "You end up in charge in most places you work, before you have asked for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months.",
         "lived": "Responsibility beyond your age came to you before you were grown, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends."
       }
     },
@@ -50,6 +50,9 @@
         "reading": "Your early life carried pressure that others could see, a demanding home or a tough school or a name you had to defend. Because you were tested young and in public, people learned to respect you early, and authority came to you sooner than to your friends. That start made you hard to push around, and you still meet every new group with your guard up.",
         "domain_climb.Social.lived": "As a child you were the one others looked to in a fight or a dare, and you did not back down easily. By your teens your friends were either as tough as you or kept at a distance, and you learned diplomacy slowly.",
         "domain_climb.Career.lived": "By your teens you were already given responsibility beyond your age, a job at home or a team to lead or younger children to mind. The weight felt heavy at the time, and you came out of it more capable than most of your friends."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Career.recognition": "You end up in charge in most places you work, often before you ask for it. Because pressure has been familiar since your first years, you take on serious work that makes others nervous. You rise through hard roles, and you find easy ones dull within months."
       }
     }
   },
@@ -102,6 +105,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "cross:X-030 + DB:DB-040",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

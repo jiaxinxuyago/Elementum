@@ -35,7 +35,7 @@
     "domain_climb": {
       "Family": {
         "headline": "You absorbed your family's rules early.",
-        "recognition": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull long after you have left home.",
+        "recognition": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull wherever you live.",
         "lived": "You knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly."
       },
       "Growth": {
@@ -50,6 +50,9 @@
         "reading": "Rules in your first home were felt more than spoken, and you took them in before you could name them. Because order meant safety to you when you were small, you formed a firm sense of right and a strong conscience early. The same conscience keeps a close record of your mistakes, and guilt reaches you faster than it reaches most people. You still carry the standards you learned at home, and they have served you well.",
         "domain_climb.Family.lived": "As a child you knew the rules of your first home without being told, and you rarely needed correcting. By your teens you had taken on an older relative's standards as your own, and you held yourself to them strictly.",
         "domain_climb.Growth.lived": "By your teens you had a record of steady progress, school years finished well and responsibilities taken on early. Teachers and older relatives trusted you, and you came to measure your growth by the steps you completed."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Family.recognition": "The expectations you grew up with stay with you, and you feel uneasy when a family duty goes undone. Because approval at home came through doing things right, you check yourself against what your elders would think. Your bond with your family is strong and dutiful, and you feel its pull long after you have left home."
       }
     }
   },
@@ -102,6 +105,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Family.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DA:DA-027",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

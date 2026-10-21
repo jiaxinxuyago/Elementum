@@ -40,7 +40,7 @@
 | `domain_climb.Love.ahead` | Through your Home Chapter your household settles around a shared rhythm, with time together and time apart agreed without a fight. You grow closer to a partner in these years by talking through what you have already worked out alone. |
 | `domain_climb.Mind.headline` | You think alone and speak once you are sure. |
 | `domain_climb.Mind.recognition` | For days you turn a problem over before you say a word about it, and you say it only once you have an answer. Because a half-formed thought feels unsafe to you, the people closest to you hear your conclusions without the reasoning. You let a partner further into your thinking than anyone, and even they see only part of it. |
-| `domain_climb.Mind.lived` | Your clearest thinking so far has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been weighing for weeks in silence. |
+| `domain_climb.Mind.lived` | Your clearest thinking has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been weighing for weeks in silence. |
 | `domain_climb.Mind.ahead` | From your mid-thirties your thinking deepens and turns toward a single subject you have circled for years. You share more of the work in progress with a partner in these years, and the work gets better for it. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -53,3 +53,4 @@
 | `domains_round1_retired_2026-10-21.domain_climb.Love.lived` | So far the people you have loved have split into two kinds, those who left you alone to think and those who took your silence personally. You have stayed longest with the first kind, and the arguments you remember were mostly about time apart. |
 | `domains_round1_retired_2026-10-21.domain_climb.Love.ahead` | From your mid-thirties your home settles around a shared rhythm, time together and time apart agreed without a fight. You grow closer to a partner in these years by talking through what you have already thought through alone. |
 | `domains_round1_retired_2026-10-21.domain_climb.Mind.lived` | So far your clearest thinking has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been working on for weeks in silence. |
+| `retired_2026-10-21_section_audit.domain_climb.Mind.lived` | Your clearest thinking so far has happened alone, late at night or on long walks, away from the people you live with. More than once you have surprised a partner with a decision you had been weighing for weeks in silence. |

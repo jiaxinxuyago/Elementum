@@ -38,7 +38,7 @@
       "Mind": {
         "month": "Since sixteen you have learned by doing more than by study, and your thinking has served your work and friendships more than any subject of its own.",
         "day": "Since your mid-thirties you have used your mind for practical problems more than for ideas, and reading and study have had less of your week than they once did.",
-        "hour": "Since your late forties people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things."
+        "hour": "Since your late forties, people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things."
       },
       "Growth": {
         "month": "Since sixteen you have grown through work, friends and family more than through any plan to improve yourself, and change has come to you by circumstance.",
@@ -80,6 +80,9 @@
         "domain_unruled.Mind": "No seat sets the shape of your thinking. Your mind changes character with each decade, studious in one and restless or practical in another, and you feel the shift without choosing it.",
         "domain_unruled.Growth": "Your growth keeps no steady pace of its own. You change fast in some decades and stand still in others, and the stretch you are living in sets the speed.",
         "domain_unruled.Social": "Your friendships follow no fixed pattern. Your circle widens in some decades and thins in others, and the people around you change with the years more than with your choices."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_gaps.Mind.hour": "Since your late forties people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things."
       }
     }
   },
@@ -104,6 +107,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_gaps.Mind.hour",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DD:DD-029",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

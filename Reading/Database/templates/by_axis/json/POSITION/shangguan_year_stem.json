@@ -36,7 +36,7 @@
       "Social": {
         "headline": "People remember you after one meeting.",
         "recognition": "You get noticed in any group, for a quick remark or an opinion nobody else would voice. Because being seen as bright has been part of you since childhood, you feel flat in company that only wants small talk. The friends who enjoy your sharpness stay for years, and you lose interest in the ones who only tolerate it.",
-        "lived": "As a child your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
+        "lived": "When you were a child, your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
       },
       "Mind": {
         "headline": "Your mind gets there first and gets bored first.",
@@ -50,6 +50,9 @@
         "reading": "You were the quick one in your first years, the child who spotted the flaw in the lesson and pointed it out. Because you think quicker than people expect, the people you meet sort quickly into those who enjoy you and those who resent you. Teachers and older relatives were the first to feel both reactions, and you have done better every year you picked your own company and work.",
         "domain_climb.Social.lived": "As a child you were the one whose remarks got repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you.",
         "domain_climb.Mind.lived": "At school you finished the work early and went looking for something harder, or for trouble when nothing harder came. By your teens you had taught yourself at least one subject well beyond your class, and you had learned to hide how bored you were."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Social.lived": "As a child your remarks were the ones repeated at family gatherings and in class. By your teens you had a few friends who loved your wit and a teacher or two who had given up on you."
       }
     }
   },
@@ -102,6 +105,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Social.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DE:DE-021",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

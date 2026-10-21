@@ -138,6 +138,9 @@
         "decade_lines.Career.heavy.ahead": "Hierarchy presses on you at work in these ten years, and each new duty tightens a frame that is already close. You stay respected throughout, and you find freedom in the parts of the job you shape yourself.",
         "decade_lines.Social.helping.ahead": "You gain standing among friends and colleagues in these years, and people start asking your opinion before they decide. You become the steady one in your circle, and you take the part seriously.",
         "decade_lines.Social.heavy.ahead": "Duty shapes your friendships in these years, and social life starts to feel like obligation. Your good name holds, and you find relief with the friends who expect nothing formal from you."
+      },
+      "retired_2026-10-21_section_audit": {
+        "decade_lines.Social.heavy.lived": "Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle."
       }
     },
     "ruling_domains": [
@@ -172,7 +175,7 @@
           "lived": "Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once."
         },
         "heavy": {
-          "lived": "Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle.",
+          "lived": "What was proper ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle.",
           "ahead": "Duty shapes your friendships in these years, and social life feels more like obligation than pleasure. Your good name holds, and you find relief with the friends who expect nothing formal from you."
         }
       }
@@ -241,6 +244,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "decade_lines.Social.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DE:DE-026",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

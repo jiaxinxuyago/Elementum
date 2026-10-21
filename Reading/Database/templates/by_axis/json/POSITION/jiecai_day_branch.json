@@ -36,12 +36,12 @@
       "Love": {
         "headline": "You fall for people who push back.",
         "recognition": "Partners with a temper, an opinion and plans of their own are the ones you fall for. Because being challenged is how you know you matter to someone, a calm and agreeable partner bores you within months. You keep loving through the arguments, and you count a quiet week as a sign that something has gone wrong.",
-        "lived": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours stayed loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest.",
+        "lived": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours ran loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest.",
         "ahead": "From your mid-thirties you share a home with a partner as bold as you are, and the house is rarely quiet. Love in these years holds through open argument, and you find more warmth in it than in any calmer bond before."
       },
       "Wealth": {
         "headline": "Your money at home is shared, and contested.",
-        "recognition": "You treat money in a relationship as joint, and you give freely when your partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it.",
+        "recognition": "You treat money in a relationship as joint, and you give freely when a partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it.",
         "lived": "Your money has risen and fallen with the people you lived with, generous seasons followed by tight ones. You have paid for a partner's plans more than once, and you found it easier to give than to talk about it afterwards.",
         "ahead": "Money and love move together in your household from your mid-thirties, and the stakes on both rise. You earn well with a partner in these years, and the arguments ease whenever your money and theirs sit in separate names."
       }
@@ -54,6 +54,10 @@
         "domain_climb.Love.lived": "The people you have loved so far were strong-willed and hard to predict, and none of them let you win easily. More than once a relationship of yours ran hot and loud for years, and you stayed because it never bored you.",
         "domain_climb.Wealth.lived": "So far your money has risen and fallen with the people you lived with, generous seasons followed by tight ones. You have paid for a partner's plans more than once, and you found it easier to give than to talk about it afterwards.",
         "domain_climb.Wealth.ahead": "From your mid-thirties money and love move together in your household, and the stakes on both rise. You earn well with a partner in these years, and you keep the peace at home whenever each of you holds an account of your own."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Wealth.recognition": "You treat money in a relationship as joint, and you give freely when your partner wants something. Because loyalty to the person beside you outweighs any careful plan, the shared accounts blur and the arguments arrive later. You stay calmest about money when your share and theirs are kept apart, and you seldom manage it.",
+        "domain_climb.Love.lived": "The people you have loved were strong-willed and hard to predict, and they made you earn every point you won. At least one relationship of yours stayed loud for years, with fights over plans and whose turn it was, and you stayed because it held your interest."
       }
     }
   },
@@ -106,6 +110,20 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Wealth.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DB:DB-032",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "domain_climb.Love.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DB:DB-037",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

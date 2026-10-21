@@ -33,7 +33,7 @@
 | `domain_gaps.Social.hour` | Since your late forties you have seen friends less and spent more time with family and on your own, and the quiet has suited you. |
 | `domain_gaps.Mind.month` | Since sixteen you have learned by doing more than by study, and your thinking has served your work and friendships more than any subject of its own. |
 | `domain_gaps.Mind.day` | Since your mid-thirties you have used your mind for practical problems more than for ideas, and reading and study have had less of your week than they once did. |
-| `domain_gaps.Mind.hour` | Since your late forties people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things. |
+| `domain_gaps.Mind.hour` | Since your late forties, people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things. |
 | `domain_gaps.Growth.month` | Since sixteen you have grown through work, friends and family more than through any plan to improve yourself, and change has come to you by circumstance. |
 | `domain_gaps.Growth.day` | Since your mid-thirties you have kept to what you already do well, and you have started fewer new things than in any years before. |
 | `domain_gaps.Growth.hour` | Since your late forties settling into who you are has mattered more than pushing to change, and you have grown quietly through the people around you. |
@@ -70,3 +70,4 @@
 | `domains_round1_retired_2026-10-21.domain_unruled.Mind` | No seat sets the shape of your thinking. Your mind changes character with each decade, studious in one and restless or practical in another, and you feel the shift without choosing it. |
 | `domains_round1_retired_2026-10-21.domain_unruled.Growth` | Your growth keeps no steady pace of its own. You change fast in some decades and stand still in others, and the stretch you are living in sets the speed. |
 | `domains_round1_retired_2026-10-21.domain_unruled.Social` | Your friendships follow no fixed pattern. Your circle widens in some decades and thins in others, and the people around you change with the years more than with your choices. |
+| `retired_2026-10-21_section_audit.domain_gaps.Mind.hour` | Since your late forties people and daily life have held more of your thinking than ideas, and you have turned your curiosity to practical things. |

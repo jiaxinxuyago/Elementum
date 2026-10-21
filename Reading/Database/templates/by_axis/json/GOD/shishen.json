@@ -136,6 +136,12 @@
         "decade_lines.Career.helping.ahead": "A craft or skill you enjoy starts to pay in these ten years. You earn through work that feels like pleasure, and clients return because what you make is good.",
         "decade_lines.Career.heavy.lived": "Comfort dulled your drive at work in those years, and easy jobs held you longer than they should have. You were well liked and under-stretched, and what carried you was the skill you kept practising for pleasure.",
         "decade_lines.Career.heavy.ahead": "Ambition softens in these years, and the easy option keeps winning at work. What you make still has value, and you move forward each time a deadline or a client gives you a reason to finish."
+      },
+      "retired_2026-10-21_section_audit": {
+        "decade_lines.Career.heavy.lived": "Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and the skill you kept practising for pleasure is what kept you going.",
+        "decade_lines.Health.heavy.ahead": "Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure.",
+        "decade_lines.Health.helping.ahead": "You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than in the one before it.",
+        "decade_lines.Career.heavy.ahead": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make keeps you going, and you move forward each time a deadline gives you a reason to finish."
       }
     },
     "ruling_domains": [
@@ -146,12 +152,12 @@
     "decade_lines": {
       "Health": {
         "helping": {
-          "ahead": "You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health in this decade more than in the one before it.",
+          "ahead": "You ease into your body in these years, with better appetite and better sleep and more pleasure in ordinary days. You enjoy your health through this decade, and you feel at ease in your own skin.",
           "lived": "Your appetite and sleep were good in those years, and ordinary pleasures kept you well. You ate with enjoyment and moved without strain, and you felt at ease in your own body."
         },
         "heavy": {
           "lived": "Rich food, late nights and easy evenings piled up in those years, and your energy dropped as the habits grew. A plain daily routine brought you back, and you felt the change within weeks.",
-          "ahead": "Good food and long evenings cost you energy in these years, and the easy option wins more days than it should. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure."
+          "ahead": "Good food and long evenings cost you energy in these years, and the easy option wins more days than you mean it to. You hold steady through a simple routine you enjoy, and you keep to it because it gives you pleasure."
         }
       },
       "Family": {
@@ -170,8 +176,8 @@
           "ahead": "A craft or skill you enjoy is what pays in these ten years. People come back for what you make, and you do your best work at an easy pace."
         },
         "heavy": {
-          "lived": "Comfort dulled your drive at work in those years, and easy work held you longer than it should have. You were well liked and under-stretched, and the skill you kept practising for pleasure is what kept you going.",
-          "ahead": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make keeps you going, and you move forward each time a deadline gives you a reason to finish."
+          "lived": "Comfort dulled your drive at work in those years, and easy work held you longer than it served you. You were well liked and under-stretched, and the skill you practised for pleasure is what kept you going.",
+          "ahead": "Ambition softens in these years, and the easy option keeps winning in your work. The value of what you make carries you on, and you move forward each time a deadline gives you a reason to finish."
         }
       }
     }
@@ -225,6 +231,34 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "decade_lines.Career.heavy.lived",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-020",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Health.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-022",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Health.helping.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-025",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
+    },
+    {
+      "field": "decade_lines.Career.heavy.ahead",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DC:DC-036",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

@@ -42,7 +42,7 @@
 | `decade_lines.Career.heavy.ahead` | Hierarchy presses on your work in these ten years, and each new duty adds to rules that are already strict. Your good name holds throughout, and what carries you is the part of the work you shape yourself. |
 | `decade_lines.Social.helping.ahead` | You hold standing among friends in these years, and people ask your opinion before they decide. You are the steady one in your circle, and you take the part seriously. |
 | `decade_lines.Social.helping.lived` | Respect came to you in those years through how you conducted yourself among others. People saw you as fair and dependable, and you were asked to lead more than once. |
-| `decade_lines.Social.heavy.lived` | Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle. |
+| `decade_lines.Social.heavy.lived` | What was proper ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle. |
 | `decade_lines.Social.heavy.ahead` | Duty shapes your friendships in these years, and social life feels more like obligation than pleasure. Your good name holds, and you find relief with the friends who expect nothing formal from you. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
@@ -96,3 +96,4 @@
 | `domains_round1_retired_2026-10-21.decade_lines.Career.heavy.ahead` | Hierarchy presses on you at work in these ten years, and each new duty tightens a frame that is already close. You stay respected throughout, and you find freedom in the parts of the job you shape yourself. |
 | `domains_round1_retired_2026-10-21.decade_lines.Social.helping.ahead` | You gain standing among friends and colleagues in these years, and people start asking your opinion before they decide. You become the steady one in your circle, and you take the part seriously. |
 | `domains_round1_retired_2026-10-21.decade_lines.Social.heavy.ahead` | Duty shapes your friendships in these years, and social life starts to feel like obligation. Your good name holds, and you find relief with the friends who expect nothing formal from you. |
+| `retired_2026-10-21_section_audit.decade_lines.Social.heavy.lived` | Propriety ruled your social life in those years, and you kept company with people you were expected to know. You were respected and a little lonely, and you found ease with one friend outside that circle. |

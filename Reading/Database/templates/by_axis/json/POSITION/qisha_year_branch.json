@@ -42,7 +42,7 @@
       },
       "Growth": {
         "headline": "Hard years are the ones that grow you.",
-        "recognition": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst.",
+        "recognition": "You grow when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst.",
         "lived": "Each hard year of your childhood left you more capable than the one before, at school or at home or in a sport. You came to trust difficulty more than ease, and by your teens you went looking for it."
       },
       "Health": {
@@ -61,6 +61,9 @@
         "domain_climb.Growth.lived": "By your teens you had already learned to rise to a challenge, in school or at home or in a sport. Each hard year left you more capable than before, and you came to trust difficulty more than ease.",
         "domain_climb.Health.recognition": "Your body has deep reserves, and it keeps going long after most people would stop. Because you learned as a child to hide how tired you were, you notice exhaustion late, and it settles as stiffness in your back and shoulders. You recover well once you finally rest, and you rarely rest early enough.",
         "domain_climb.Health.lived": "As a child you were tough and slow to complain, and you rarely let anyone see you tired. By your teens you were already holding tension in your shoulders, and you got through hard weeks on reserves most children did not need."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Growth.recognition": "You grow fastest when life is hard, and you lose direction when it gets too comfortable. Because difficulty was where you first found your strength, you sign up for the harder option by choice, and a year with nothing hard in it leaves you restless. You have done your best learning in seasons other people would call their worst."
       }
     }
   },
@@ -127,6 +130,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Growth.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DD:DD-034",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }

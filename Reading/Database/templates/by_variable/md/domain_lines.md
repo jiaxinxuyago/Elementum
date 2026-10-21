@@ -67,4 +67,4 @@
 | Field | Value |
 |---|---|
 | `Career` | You also find your mentors inside the structures you join, and your name gathers weight the slow and lasting way. |
-| `Mind` | Even so, you learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended. |
+| `Mind` | You also learn well inside a frame like a school or a discipline, and you keep studying long after the course has ended. |

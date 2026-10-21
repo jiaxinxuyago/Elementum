@@ -35,7 +35,7 @@
     "domain_climb": {
       "Career": {
         "headline": "Your record earns you rank.",
-        "recognition": "You climb at work through trust, the clean record and the job done the way it should be. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record.",
+        "recognition": "You climb at work through trust, the clean record and the job done the proper way. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record.",
         "lived": "People who trusted you early have put your name forward since your late teens, a manager or a mentor who saw the clean record. Your references have opened doors for you more than once, and you have rarely had to ask for a step up."
       },
       "Social": {
@@ -49,6 +49,9 @@
         "note": "DOM-1 round-1 text replaced by the round-2 revisions (owner B4 A; R2 A 2026-10-21). Kept per the station law: retired text goes to __ore.",
         "reading": "People at work see you as correct and dependable, and they answer with responsibility and rank. Because your record speaks for you, titles come to you in steady order, and they stay. In your circle you are the one made responsible, the person others call when something must be done properly. Your name matters more than your pay in these years, and over time it raises your pay as well.",
         "domain_climb.Career.lived": "Since your late teens you have been promoted by people who trusted you early, a manager or a mentor who put your name forward. Your references have opened doors for you more than once, and you have rarely had to ask for a step up."
+      },
+      "retired_2026-10-21_section_audit": {
+        "domain_climb.Career.recognition": "You climb at work through trust, the clean record and the job done the way it should be. Because being correct matters to you, you follow the rules others bend, and senior people notice. You rise steadily, and you find it hard to take a risk that could mark your record."
       }
     }
   },
@@ -101,6 +104,13 @@
       "date": "2026-10-21",
       "ruling": "owner 2026-10-17 B4 A (land round 2, re-audit By position); R2 A 2026-10-21",
       "replaced": null
+    },
+    {
+      "field": "domain_climb.Career.recognition",
+      "adopted_from": "ComparativeAnalysis/Evaluations/section-audit-2026-10-21/domains (section audit TWEAKs)",
+      "finding": "DB:DB-039",
+      "date": "2026-10-21",
+      "ruling": "owner 2026-10-21, section audit R2 A: TWEAKs land, gated"
     }
   ]
 }
