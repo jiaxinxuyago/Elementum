@@ -28,7 +28,7 @@
    "key": "STRUCTURE pianyin_ge · reading",
    "kind": "structure",
    "page": "structure",
-   "text": "At the centre of your chart sits private study, the strange and specialist knowledge few people share. You are at your best in a niche of your own, on a problem nobody else can read, and you trust what you worked out over what you were taught."
+   "text": "At the centre of your chart sits private study, the unusual knowledge few people around you share. You are at your best in a niche of your own, on a problem nobody else can read, and you rely on what you worked out more than on what you were taught."
   },
   {
    "key": "STRUCTURE shishen_ge · reading",
@@ -52,7 +52,7 @@
    "key": "STRUCTURE yueren_ge · reading",
    "kind": "structure",
    "page": "structure",
-   "text": "Everything in your chart gathers around the Rival, a hard and competitive will that does not back down. You do best against a real opponent or under strict discipline, and you are at your most useful when that edge has something to guard."
+   "text": "Everything in your chart gathers around the Rival, a hard and competitive will that does not back down. You do best against a real opponent or under strict discipline, and that edge earns its keep when you have something to guard."
   },
   {
    "key": "STRUCTURE yuejie_ge · reading",
@@ -76,7 +76,7 @@
    "key": "STRUCTURE officer · status.formed.none",
    "kind": "status",
    "page": "status-officer",
-   "text": "Duty and pressure work in your favour, and the demands placed on you come with standing attached. You can lean on your title and your word, and you carry heavy roles without losing your footing."
+   "text": "Duty and pressure work in your favour, and the demands placed on you come with standing attached. You stand on your title and your word, and you carry heavy roles without losing your footing."
   },
   {
    "key": "STRUCTURE officer · status.strained.general",
@@ -112,7 +112,7 @@
    "key": "STRUCTURE output · status.formed.none",
    "kind": "status",
    "page": "status-output",
-   "text": "What you make and say reaches people without getting stuck on the way. You can lean on your talent to open doors, and the work you enjoy keeps finding someone who wants it."
+   "text": "What you make and say reaches people without getting stuck on the way. Your talent opens doors for you, and the work you enjoy keeps finding someone who wants it."
   },
   {
    "key": "STRUCTURE seal · status.formed.none",
