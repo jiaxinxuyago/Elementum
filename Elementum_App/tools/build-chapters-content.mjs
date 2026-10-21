@@ -18,6 +18,9 @@
 //   node tools/build-chapters-content.mjs --adopt <handoff dir>   gate, then write the station from the handoff
 //   node tools/build-chapters-content.mjs                          station → src/content/depthChaptersEnergy.js
 //   node tools/build-chapters-content.mjs --check                  exit 1 if the module is stale
+//   node tools/build-chapters-content.mjs --fix <fixes.json> <handoff dir> [--why <ruling>]
+//        apply [{ key, text, id }] to the handoff files, gate everything, adopt; the replaced texts go to
+//        candidates.__ore.retired with the finding id (station law: retired text is never deleted)
 // ===================================================================
 import fs from 'node:fs';
 import path from 'node:path';
@@ -28,6 +31,19 @@ const ST = ROOT + 'Reading/Database/templates/by_axis/json/TEMPLATED/tpl_chapter
 const OUT = ROOT + 'Elementum_App/src/content/depthChaptersEnergy.js';
 const argv = process.argv.slice(2);
 
+let retired = [];
+if (argv[0] === '--fix') {
+  const fixes = JSON.parse(fs.readFileSync(path.resolve(argv[1]), 'utf8')); const dir = path.resolve(argv[2]);
+  const why = argv.includes('--why') ? argv[argv.indexOf('--why') + 1] : 'audit fix';
+  const left = new Map(fixes.map((f) => [f.key, f]));
+  for (const f of fs.readdirSync(dir).filter((x) => /^(approved|out-.+)\.json$/.test(x))) {
+    const doc = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); let touched = false;
+    for (const u of doc.units) { const fx = left.get(u.key); if (fx && fx.text !== u.text) { retired.push({ key: u.key, text: u.text, replaced_by: fx.id || '', why, date: new Date().toISOString().slice(0, 10) }); u.text = fx.text; touched = true; left.delete(u.key); } }
+    if (touched) fs.writeFileSync(path.join(dir, f), JSON.stringify(doc, null, 1) + '\n');
+  }
+  if (left.size) { console.log('no unit for:', [...left.keys()].join(', ')); process.exit(1); }
+  argv.splice(0, argv.length, '--adopt', dir);
+}
 if (argv[0] === '--adopt') {
   const dir = path.resolve(argv[1]);
   const files = ['approved.json', ...fs.readdirSync(dir).filter((f) => /^out-.+\.json$/.test(f)).sort()];
@@ -43,8 +59,8 @@ if (argv[0] === '--adopt') {
     construct: 'Station-only (owner 2026-10-21, L1–L10 A): every unit is keyed by the energy\'s function (Body, Mind, Expression, Action, Order) and whether the reader\'s chart grows or releases it, with {el}/{g}/{e} filled by the resolver; chapter lines also by gate and tense, decade lines by tense with a/b variants, domain lines and favours pairs by domain. Year lines and year landings carry Your Almanac\'s keys and serve both pages (L9 A).',
     candidate_note: 'Owner-ruled 2026-10-21 (round 2 L1–L10 A, R1–R4 A, S1–S2 A; round 1 Q1–Q11 A).',
     sources: ['ComparativeAnalysis/Handoffs/2026-10-19-life-chapters-content/03_RULINGS.md', rel + '/BRIEF.md'],
-    candidates: { units: sorted },
-    $provenance: [...(prev?.$provenance || []), { adopted_from: rel, files, count: Object.keys(sorted).length, date: new Date().toISOString().slice(0, 10), ruling: 'owner 2026-10-21 (L1–L10 A, S1–S2 A)', gate: rel + '/gate.mjs PASS' }],
+    candidates: { units: sorted, __ore: { ...(prev?.candidates?.__ore || {}), retired: [...(prev?.candidates?.__ore?.retired || []), ...retired] } },
+    $provenance: [...(prev?.$provenance || []), { adopted_from: rel, files, count: Object.keys(sorted).length, date: new Date().toISOString().slice(0, 10), ruling: retired.length ? `section audit 2026-10-21: ${retired.length} fix(es)` : 'owner 2026-10-21 (L1–L10 A, S1–S2 A)', gate: rel + '/gate.mjs PASS' }],
   };
   fs.writeFileSync(ST, JSON.stringify(doc, null, 2) + '\n');
   console.log(`station: wrote ${Object.keys(sorted).length} units to TEMPLATED/tpl_chapters.json`);

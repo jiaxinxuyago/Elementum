@@ -19,7 +19,7 @@ import { ENERGY_CHAPTER_UNITS as CHAPTER_UNITS } from '../../content/depthChapte
 import { ALMANAC_UNITS } from '../../content/almanac.js';
 import { STEM_ELEM, HIDDEN_STEMS, getTenGod } from '../../engine/index.js';
 import { flowYears, arrivingStars } from '../../engine/depth/index.js';
-import { almanacContext, energyMix, liftOf, groundRelation, energyState, DOMAINS, RULING, GATE_DOMAIN } from '../../engine/almanac/index.js';
+import { almanacContext, energyMix, liftOf, groundRelation, energyState, periodOf, DOMAINS, RULING, GATE_DOMAIN } from '../../engine/almanac/index.js';
 import { readerAge, GATE_ORDER, GATE_START, GATE_SPAN, DEC_MIN, DEC_MAX } from './domainsResolve.js';
 
 
@@ -132,8 +132,10 @@ export function resolveEnergyChapters(chart, positions, opts = {}) {
 
   // the years: this year and the next five, across the decade's end (R1 A); lived years of the decade as chips
   const nextDec = cur ? luck.find((l) => l.startYear === cur.endYear + 1) : null;
+  // a year runs from 立春 (about 4 February): before it, the year still running is the one before (section audit 2026-10-21)
+  const yearNow = opts.year ?? periodOf('year', new Date()).baziYear ?? nowYear;
   let prevKey = null;
-  const years = flowYears(chart, nowYear, nowYear + 5, { hourUnknown: ctx.hourUnknown }).map((y) => {
+  const years = flowYears(chart, yearNow, yearNow + 5, { hourUnknown: ctx.hourUnknown }).map((y) => {
     const e = readEnergy(ctx, y.stem, y.branch, null);
     // years come in pairs of one element: the second of a pair reads the .b line
     const yk = `ENERGY ${e.fn.toLowerCase()} · year.${e.state}`; const ykey = yk === prevKey ? `${yk}.b` : yk; prevKey = yk;
@@ -141,14 +143,14 @@ export function resolveEnergyChapters(chart, positions, opts = {}) {
       .sort((a, c) => (BOND_PRI[c.type] - BOND_PRI[a.type]) || (GATE_RANK[c.g] - GATE_RANK[a.g]))[0] || null;
     const kind = b ? BOND_KIND[b.type] : null;
     return {
-      year: y.year, el: e.el, fn: e.fn, dir: e.dir, state: e.state, lift: e.lift, status: y.year === nowYear ? 'now' : 'coming',
+      year: y.year, el: e.el, fn: e.fn, dir: e.dir, state: e.state, lift: e.lift, status: y.year === yearNow ? 'now' : 'coming',
       newDecade: nextDec && y.year === nextDec.startYear ? nextDec.el : null,
       ...unit(ykey, `{el} brings ${e.fn} for a whole year, and you feel it ${e.dir === 'grow' ? 'lift you' : 'weigh on you'}.`, { el: e.el }),
       land: b ? { kind, gate: b.g, label: `${LAND_VERB[kind]} your ${GATE_NAME[b.g]}`, ...unit(`TEMPLATED tpl_almanac · land.year.${kind}.${b.g}`, `This year reaches your ${GATE_NAME[b.g]}, and you feel it there.`) } : null,
       stars: arrivingStars(chart, { stem: y.stem, branch: y.branch }).filter((s) => !s.natal && s.en).map((s) => ({ id: s.id, en: s.en })),
     };
   });
-  const lived = cur ? Array.from({ length: Math.max(0, nowYear - cur.startYear) }, (_, i) => { const yr = cur.startYear + i; const HS = '甲乙丙丁戊己庚辛壬癸'; const EB = '子丑寅卯辰巳午未申酉戌亥'; const st = HS[(((yr - 4) % 10) + 10) % 10]; return { year: yr, el: STEM_ELEM[st], step: liftOf(ctx, energyMix(st, EB[(((yr - 4) % 12) + 12) % 12])).step }; }) : [];
+  const lived = cur ? Array.from({ length: Math.max(0, yearNow - cur.startYear) }, (_, i) => { const yr = cur.startYear + i; const HS = '甲乙丙丁戊己庚辛壬癸'; const EB = '子丑寅卯辰巳午未申酉戌亥'; const st = HS[(((yr - 4) % 10) + 10) % 10]; return { year: yr, el: STEM_ELEM[st], step: liftOf(ctx, energyMix(st, EB[(((yr - 4) % 12) + 12) % 12])).step }; }) : [];
 
   const chNow = chapters.find((c) => c.key === gateNow);
   const claim = `You are in your ${CHAPTER[gateNow]}${chNow?.energy ? `, carrying ${chNow.energy.el}` : ''}${cur ? `, in ${an(cur.el)} ${cur.el} decade` : ''}.`;
