@@ -1,0 +1,395 @@
+{
+ "worklist": 5,
+ "units": [
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Family.helping",
+   "means": "比肩 peers, independence, standing on your own. Domain Family. The energy lifts this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Family.heavy",
+   "means": "比肩 peers, independence, standing on your own. Domain Family. The energy weighs on this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Growth.helping",
+   "means": "比肩 peers, independence, standing on your own. Domain Growth. The energy lifts this reader. What the MONTH favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Growth.heavy",
+   "means": "比肩 peers, independence, standing on your own. Domain Growth. The energy weighs on this reader. What the MONTH favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Social.helping",
+   "means": "比肩 peers, independence, standing on your own. Domain Social. The energy lifts this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Social.heavy",
+   "means": "比肩 peers, independence, standing on your own. Domain Social. The energy weighs on this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Wealth.helping",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Wealth. The energy lifts this reader. What the MONTH favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Wealth.heavy",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Wealth. The energy weighs on this reader. What the MONTH favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Social.helping",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Social. The energy lifts this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Social.heavy",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Social. The energy weighs on this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Career.helping",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Career. The energy lifts this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Career.heavy",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Career. The energy weighs on this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Health.helping",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Health. The energy lifts this reader. What the MONTH favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Health.heavy",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Health. The energy weighs on this reader. What the MONTH favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Family.helping",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Family. The energy lifts this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Family.heavy",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Family. The energy weighs on this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Career.helping",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Career. The energy lifts this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Career.heavy",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Career. The energy weighs on this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Mind.helping",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Mind. The energy lifts this reader. What the MONTH favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Mind.heavy",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Mind. The energy weighs on this reader. What the MONTH favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Career.helping",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Career. The energy lifts this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Career.heavy",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Career. The energy weighs on this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Social.helping",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Social. The energy lifts this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Social.heavy",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Social. The energy weighs on this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Wealth.helping",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Wealth. The energy lifts this reader. What the MONTH favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Wealth.heavy",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Wealth. The energy weighs on this reader. What the MONTH favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Family.helping",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Family. The energy lifts this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Family.heavy",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Family. The energy weighs on this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Social.helping",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Social. The energy lifts this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Social.heavy",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Social. The energy weighs on this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Wealth.helping",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Wealth. The energy lifts this reader. What the MONTH favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Wealth.heavy",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Wealth. The energy weighs on this reader. What the MONTH favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Family.helping",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Family. The energy lifts this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Family. The energy weighs on this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Career.helping",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Career. The energy lifts this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Career.heavy",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Career. The energy weighs on this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Career.helping",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Career. The energy lifts this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Career.heavy",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Career. The energy weighs on this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Health.helping",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Health. The energy lifts this reader. What the MONTH favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Health.heavy",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Health. The energy weighs on this reader. What the MONTH favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Growth.helping",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Growth. The energy lifts this reader. What the MONTH favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Growth.heavy",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Growth. The energy weighs on this reader. What the MONTH favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Family.helping",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Family. The energy lifts this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Family.heavy",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Family. The energy weighs on this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Social.helping",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Social. The energy lifts this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Social.heavy",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Social. The energy weighs on this reader. What the MONTH favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Career.helping",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Career. The energy lifts this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Career.heavy",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Career. The energy weighs on this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Mind.helping",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Mind. The energy lifts this reader. What the MONTH favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Growth.helping",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Growth. The energy lifts this reader. What the MONTH favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Career.helping",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Career. The energy lifts this reader. What the MONTH favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Family.helping",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Family. The energy lifts this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Family.heavy",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Family. The energy weighs on this reader. What the MONTH favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Mind.helping",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Mind. The energy lifts this reader. What the MONTH favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Mind.heavy",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Mind. The energy weighs on this reader. What the MONTH favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Health.helping",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Health. The energy lifts this reader. What the MONTH favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Health.heavy",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Health. The energy weighs on this reader. What the MONTH favours in Health."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.year",
+   "means": "clash: the gate is shaken; a sudden change, something comes loose. Year Gate: your first home, the family you grew up in, older relatives. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.day",
+   "means": "clash: the gate is shaken; a sudden change, something comes loose. Day Gate: your home and partner, the life you share. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.year",
+   "means": "punish: the gate grinds; an old friction or argument comes back. Year Gate: your first home, the family you grew up in, older relatives. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.month",
+   "means": "punish: the gate grinds; an old friction or argument comes back. Month Gate: your work, your role, your team. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.day",
+   "means": "punish: the gate grinds; an old friction or argument comes back. Day Gate: your home and partner, the life you share. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.hour",
+   "means": "punish: the gate grinds; an old friction or argument comes back. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.year",
+   "means": "harm: the gate wears thin; a quiet misunderstanding or slight. Year Gate: your first home, the family you grew up in, older relatives. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.month",
+   "means": "harm: the gate wears thin; a quiet misunderstanding or slight. Month Gate: your work, your role, your team. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.day",
+   "means": "harm: the gate wears thin; a quiet misunderstanding or slight. Day Gate: your home and partner, the life you share. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.year",
+   "means": "bind: the gate ties in; something draws closer or settles. Year Gate: your first home, the family you grew up in, older relatives. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.month",
+   "means": "bind: the gate ties in; something draws closer or settles. Month Gate: your work, your role, your team. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.day",
+   "means": "bind: the gate ties in; something draws closer or settles. Day Gate: your home and partner, the life you share. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.hour",
+   "means": "bind: the gate ties in; something draws closer or settles. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.year",
+   "means": "frame (join): the gate gathers strength; people or momentum gather. Year Gate: your first home, the family you grew up in, older relatives. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.month",
+   "means": "frame (join): the gate gathers strength; people or momentum gather. Month Gate: your work, your role, your team. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.day",
+   "means": "frame (join): the gate gathers strength; people or momentum gather. Day Gate: your home and partner, the life you share. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.hour",
+   "means": "frame (join): the gate gathers strength; people or momentum gather. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.year",
+   "means": "repeat: the gate echoes itself; you go over old ground. Year Gate: your first home, the family you grew up in, older relatives. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.month",
+   "means": "repeat: the gate echoes itself; you go over old ground. Month Gate: your work, your role, your team. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.day",
+   "means": "repeat: the gate echoes itself; you go over old ground. Day Gate: your home and partner, the life you share. What the period favours in that gate's domain."
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.hour",
+   "means": "repeat: the gate echoes itself; you go over old ground. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. What the period favours in that gate's domain."
+  }
+ ]
+}

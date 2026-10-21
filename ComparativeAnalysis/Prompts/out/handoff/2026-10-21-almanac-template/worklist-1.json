@@ -1,0 +1,345 @@
+{
+ "worklist": 1,
+ "units": [
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_over.b",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader runs over (Overfueled): more of their own energy crowds them. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · month.core_over",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader runs over (Overfueled): more of their own energy crowds them. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · year.core_over",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader runs over (Overfueled): more of their own energy crowds them. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_under.a",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader runs thin (Underfueled): more of their own energy refills them. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_under.b",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader runs thin (Underfueled): more of their own energy refills them. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · month.core_under",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader runs thin (Underfueled): more of their own energy refills them. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · year.core_under",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader runs thin (Underfueled): more of their own energy refills them. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_even.a",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader is Balanced: their own energy, steady. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_even.b",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader is Balanced: their own energy, steady. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · month.core_even",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader is Balanced: their own energy, steady. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · year.core_even",
+   "means": "Body: more of your own element; your own strength, will and stamina. State: Body when the reader is Balanced: their own energy, steady. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.need.a",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.need.b",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · month.need",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.need",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.grow.a",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.grow.b",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · month.grow",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.grow",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.heavy.b",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader releases this energy; the chart already holds too much of it. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.heavy",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the reader releases this energy; the chart already holds too much of it. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.even.a",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.even.b",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · month.even",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the energy neither lifts nor weighs on this reader. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.even",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. State: the energy neither lifts nor weighs on this reader. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.need.a",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.need",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.need",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.grow.a",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.grow.b",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.grow",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.grow",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.heavy.a",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader releases this energy; the chart already holds too much of it. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.heavy.b",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader releases this energy; the chart already holds too much of it. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.heavy",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader releases this energy; the chart already holds too much of it. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.heavy",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the reader releases this energy; the chart already holds too much of it. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.even.a",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.even.b",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.even",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the energy neither lifts nor weighs on this reader. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.even",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. State: the energy neither lifts nor weighs on this reader. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.need.a",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.need.b",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.need",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.need",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.grow.a",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.grow",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.grow",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.heavy.a",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader releases this energy; the chart already holds too much of it. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.heavy.b",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader releases this energy; the chart already holds too much of it. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.heavy",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader releases this energy; the chart already holds too much of it. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.heavy",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the reader releases this energy; the chart already holds too much of it. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.even.a",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.even.b",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.even",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the energy neither lifts nor weighs on this reader. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.even",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. State: the energy neither lifts nor weighs on this reader. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.need",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader grows this energy and the chart is short of it (10% or less). Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.grow.a",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.grow.b",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.grow",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · year.grow",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader grows this energy and already holds a fair amount; more still helps. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.heavy.a",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader releases this energy; the chart already holds too much of it. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.heavy.b",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader releases this energy; the chart already holds too much of it. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.heavy",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader releases this energy; the chart already holds too much of it. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · year.heavy",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the reader releases this energy; the chart already holds too much of it. Horizon: year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.even.a",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant a: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.even.b",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the energy neither lifts nor weighs on this reader. Horizon: day. Variant b: the same meaning in different words from the other variant."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.even",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the energy neither lifts nor weighs on this reader. Horizon: month."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · year.even",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. State: the energy neither lifts nor weighs on this reader. Horizon: year."
+  }
+ ]
+}

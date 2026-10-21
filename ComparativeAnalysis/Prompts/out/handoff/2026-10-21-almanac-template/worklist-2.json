@@ -1,0 +1,340 @@
+{
+ "worklist": 2,
+ "units": [
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.body.grow",
+   "means": "Body: more of your own element; your own strength, will and stamina. The reader grows it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.body.even",
+   "means": "Body: more of your own element; your own strength, will and stamina. Neither grows nor releases it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.mind.grow",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. The reader grows it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.mind.even",
+   "means": "Mind: the element that feeds you; thinking, learning, support, shelter, second thoughts. Neither grows nor releases it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.expression.release",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. The reader releases it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.expression.even",
+   "means": "Expression: the element you give out; words, making, showing, enjoyment. Neither grows nor releases it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.release",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. The reader releases it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.even",
+   "means": "Action: the element you work on; effort, money, reach, opportunity. Neither grows nor releases it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.order.release",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. The reader releases it"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.order.even",
+   "means": "Order: the element that works on you; rules, duty, pressure, deadlines, tests. Neither grows nor releases it"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.clash.year",
+   "means": "clash: the gate is shaken; a sudden change, something comes loose. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.year",
+   "means": "punish: the gate grinds; an old friction or argument comes back. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.month",
+   "means": "punish: the gate grinds; an old friction or argument comes back. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.hour",
+   "means": "punish: the gate grinds; an old friction or argument comes back. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.year",
+   "means": "harm: the gate wears thin; a quiet misunderstanding or slight. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.month",
+   "means": "harm: the gate wears thin; a quiet misunderstanding or slight. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.day",
+   "means": "harm: the gate wears thin; a quiet misunderstanding or slight. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.hour",
+   "means": "harm: the gate wears thin; a quiet misunderstanding or slight. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.month",
+   "means": "bind: the gate ties in; something draws closer or settles. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.hour",
+   "means": "bind: the gate ties in; something draws closer or settles. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.frame.year",
+   "means": "frame (join): the gate gathers strength; people or momentum gather. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.frame.hour",
+   "means": "frame (join): the gate gathers strength; people or momentum gather. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.year",
+   "means": "repeat: the gate echoes itself; you go over old ground. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.day",
+   "means": "repeat: the gate echoes itself; you go over old ground. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.hour",
+   "means": "repeat: the gate echoes itself; you go over old ground. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.return",
+   "means": "the day repeats the reader's own birth day pillar"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.turned",
+   "means": "the reader's own day pillar turned over: stem strikes, branch clashes the Day Gate"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.month",
+   "means": "a new solar month opens today"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.year",
+   "means": "a new year opens today (Start of Spring)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.birthday",
+   "means": "the reader's birthday"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.gate",
+   "means": "a new gate opens today (the birthday at 16, 35 or 48)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.decade",
+   "means": "a new ten-year luck cycle begins"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.taohua",
+   "means": "Peach Blossom day: attraction runs high (shown under Love)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.yima",
+   "means": "Travelling Horse day: movement, travel, a change of place (Growth)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.tiande",
+   "means": "Heavenly Virtue day: trouble passes more lightly (Health)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.yuede",
+   "means": "Moon Virtue day: effort turns trouble into gain (Health)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.wenchang",
+   "means": "Scholar day: words and study come easily (Mind)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.hongluan",
+   "means": "Red Phoenix day: warmth and romance (Love)"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.tianyi",
+   "means": "Nobleman day: help from someone with standing (Social)"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.year",
+   "means": "Push body under the headline. clash: the gate is shaken; a sudden change, something comes loose. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.day",
+   "means": "Push body under the headline. clash: the gate is shaken; a sudden change, something comes loose. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.year",
+   "means": "Push body under the headline. punish: the gate grinds; an old friction or argument comes back. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.month",
+   "means": "Push body under the headline. punish: the gate grinds; an old friction or argument comes back. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.day",
+   "means": "Push body under the headline. punish: the gate grinds; an old friction or argument comes back. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.hour",
+   "means": "Push body under the headline. punish: the gate grinds; an old friction or argument comes back. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.year",
+   "means": "Push body under the headline. harm: the gate wears thin; a quiet misunderstanding or slight. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.month",
+   "means": "Push body under the headline. harm: the gate wears thin; a quiet misunderstanding or slight. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.day",
+   "means": "Push body under the headline. harm: the gate wears thin; a quiet misunderstanding or slight. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.hour",
+   "means": "Push body under the headline. harm: the gate wears thin; a quiet misunderstanding or slight. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.year",
+   "means": "Push body under the headline. bind: the gate ties in; something draws closer or settles. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.month",
+   "means": "Push body under the headline. bind: the gate ties in; something draws closer or settles. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.day",
+   "means": "Push body under the headline. bind: the gate ties in; something draws closer or settles. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.hour",
+   "means": "Push body under the headline. bind: the gate ties in; something draws closer or settles. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.year",
+   "means": "Push body under the headline. frame (join): the gate gathers strength; people or momentum gather. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.month",
+   "means": "Push body under the headline. frame (join): the gate gathers strength; people or momentum gather. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.day",
+   "means": "Push body under the headline. frame (join): the gate gathers strength; people or momentum gather. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.hour",
+   "means": "Push body under the headline. frame (join): the gate gathers strength; people or momentum gather. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.year",
+   "means": "Push body under the headline. repeat: the gate echoes itself; you go over old ground. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.month",
+   "means": "Push body under the headline. repeat: the gate echoes itself; you go over old ground. Month Gate: your work, your role, your team."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.day",
+   "means": "Push body under the headline. repeat: the gate echoes itself; you go over old ground. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.hour",
+   "means": "Push body under the headline. repeat: the gate echoes itself; you go over old ground. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · turned",
+   "means": "own day turned over"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.month",
+   "means": "a new month opens"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.year",
+   "means": "a new year opens"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.birthday",
+   "means": "birthday"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.gate",
+   "means": "a new gate opens"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.decade",
+   "means": "a new decade begins"
+  }
+ ]
+}

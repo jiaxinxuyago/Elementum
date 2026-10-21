@@ -1,0 +1,401 @@
+{
+ "units": [
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Family.helping",
+   "text": "Carrying your own load|waiting for a hand"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Family.heavy",
+   "text": "Asking someone close in|going it alone",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Growth.helping",
+   "text": "A path you set yourself|a course everyone takes"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Growth.heavy",
+   "text": "A study partner|pushing on unaided"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Social.helping",
+   "text": "Friends on equal footing|people above you"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.month.Social.heavy",
+   "text": "Fewer, closer friends|a crowded calendar"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Wealth.helping",
+   "text": "A shared venture you trust|a small private saving",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Wealth.heavy",
+   "text": "Separate accounts|lending to friends"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Social.helping",
+   "text": "Friendly rivalry|polite distance"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Social.heavy",
+   "text": "Letting others win|a contest of pride"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Career.helping",
+   "text": "Competing for the lead|waiting your turn"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.month.Career.heavy",
+   "text": "Credit that is shared|a race with colleagues"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Health.helping",
+   "text": "Slow meals and early nights|late screens"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Health.heavy",
+   "text": "Plain food at set times|comfort snacks"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Family.helping",
+   "text": "Cooking for everyone at home|ordering in"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Family.heavy",
+   "text": "Quiet shared hobbies|big family outings"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Career.helping",
+   "text": "Work you enjoy making|tasks done for show"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.month.Career.heavy",
+   "text": "A clear weekly target|drifting at ease"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Mind.helping",
+   "text": "Questioning the standard answer|following the textbook"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Mind.heavy",
+   "text": "Writing it down first|arguing it out"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Career.helping",
+   "text": "Pitching an idea of yours|the agreed script"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Career.heavy",
+   "text": "Quiet words with seniors|open criticism",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Social.helping",
+   "text": "Speaking up in a group|the back row"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.month.Social.heavy",
+   "text": "Listening more than talking|the last word"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Wealth.helping",
+   "text": "Side projects with reach|one income stream"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Wealth.heavy",
+   "text": "Tracking every outgoing|generous rounds for all"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Family.helping",
+   "text": "Gifts to relatives|strict household budgets"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Family.heavy",
+   "text": "Time given freely|presents bought to please"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Social.helping",
+   "text": "Meeting friends of friends|the usual crowd"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.month.Social.heavy",
+   "text": "A trusted few contacts|every invitation"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Wealth.helping",
+   "text": "Saving a set amount|a gamble on a tip",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Wealth.heavy",
+   "text": "Bills paid on time|new spending plans"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Family.helping",
+   "text": "Running the household well|leaving it to others"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Family.heavy",
+   "text": "Sharing the chores|holding every one yourself"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Career.helping",
+   "text": "Steady routine work|a flashy side pitch"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.month.Career.heavy",
+   "text": "The basics done well|taking on extra"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Career.helping",
+   "text": "The hardest assignment|an easy win"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Career.heavy",
+   "text": "Firm limits on hours|silent overtime"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Health.helping",
+   "text": "Hard training sessions|gentle stretches"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Health.heavy",
+   "text": "Protected sleep|pushing through tiredness"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Growth.helping",
+   "text": "A demanding exam|self-paced reading"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.month.Growth.heavy",
+   "text": "Small steady lessons|a crash course"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Family.helping",
+   "text": "Keeping family traditions|skipping the gathering"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Family.heavy",
+   "text": "Gentle house rules|strict standards"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Social.helping",
+   "text": "Showing up as promised|late cancellations"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Social.heavy",
+   "text": "Honest refusals|a yes to all"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Career.helping",
+   "text": "A formal promotion bid|quiet waiting"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.month.Career.heavy",
+   "text": "One duty done properly|a stack of new roles"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Mind.helping",
+   "text": "Reading off the beaten track|popular opinion"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Growth.helping",
+   "text": "An unusual craft|what everyone learns"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.month.Career.helping",
+   "text": "Trusting your hunch|the committee view"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Family.helping",
+   "text": "Time with older relatives|busy errands"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Family.heavy",
+   "text": "Doing things for yourself|being looked after"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Mind.helping",
+   "text": "A good teacher|scattered videos"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Mind.heavy",
+   "text": "Using what you know|another book"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Health.helping",
+   "text": "Unhurried rest days|a packed schedule"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.month.Health.heavy",
+   "text": "Gentle movement each day|lying in"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.year",
+   "text": "A steady word with family|reacting to the news",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.clash.day",
+   "text": "Slow talks with a partner|a snap reply"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.year",
+   "text": "Letting an old quarrel rest|reopening the file"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.month",
+   "text": "A better process at work|last year's fix"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.day",
+   "text": "A new household habit|the familiar complaint"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.punish.hour",
+   "text": "Fresh tactics with the young|the familiar lecture",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.year",
+   "text": "An early word with relatives|silent hurt"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.month",
+   "text": "Checking what was meant|guessing at motives"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.harm.day",
+   "text": "A small kind gesture|keeping score"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.year",
+   "text": "Visits to your first home|distance from relatives"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.month",
+   "text": "Closer ties with the team|working apart"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.day",
+   "text": "Settling in together|keeping options open"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.bind.hour",
+   "text": "Time spent training others|a personal task list"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.year",
+   "text": "A family gathering|private visits"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.month",
+   "text": "Joining a strong team effort|a solo project"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.day",
+   "text": "A shared home project|separate weekends"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.frame.hour",
+   "text": "Group plans for the future|private dreams"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.year",
+   "text": "Fresh topics with family|the old stories",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.month",
+   "text": "Clearing a backlog|a brand new brief"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.day",
+   "text": "Breaking a home routine|the same evenings"
+  },
+  {
+   "kind": "favours_land",
+   "key": "TEMPLATED tpl_almanac · favours_land.repeat.hour",
+   "text": "Modern methods for youngsters|the way you were raised"
+  }
+ ]
+}

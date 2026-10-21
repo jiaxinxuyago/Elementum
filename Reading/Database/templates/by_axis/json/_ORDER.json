@@ -261,7 +261,8 @@
     "tpl_now_line",
     "tpl_codex_tests",
     "tpl_pattern_conclusion",
-    "tpl_section_teasers"
+    "tpl_section_teasers",
+    "tpl_almanac"
   ],
   "FUNCTION_METRICS": [
     "Body",

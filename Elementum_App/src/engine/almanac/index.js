@@ -230,7 +230,9 @@ export function leadsFor(ctx, from, n) {
 /**
  * The reminders (P1 A, P2 A, P3 A): every marker and pillar day, plus the two
  * strongest days of each Monday-to-Sunday week that score 65 or more.
- * @returns [{ date, code, loud }], code = the lead key prefixed by its energy, e.g. 'Fire:clash.hour'
+ * @returns [{ date, code, loud }], code = '<element>.<function>.<grow|release|even>:<lead key>',
+ *   e.g. 'Fire.order.grow:clash.hour'. The worker composes the headline from it and
+ *   its copy table (P1 A); no birth data leaves the phone.
  */
 export function pushSchedule(ctx, from, n = 35) {
   const days = leadsFor(ctx, from, n); const weeks = new Map();
@@ -239,7 +241,7 @@ export function pushSchedule(ctx, from, n = 35) {
   for (const rs of weeks.values()) {
     const must = rs.filter((r) => ['mark', 'return', 'turned'].includes(r.lead.kind));
     const rest = rs.filter((r) => !must.includes(r) && r.lead.score >= 65).sort((a, b) => b.lead.score - a.lead.score);
-    for (const r of [...must, ...rest].slice(0, Math.max(must.length, 2))) out.push({ date: r.period.start, code: `${r.energy.el}:${r.lead.key}`, loud: r.loud });
+    for (const r of [...must, ...rest].slice(0, Math.max(must.length, 2))) { const e = r.energy; out.push({ date: r.period.start, code: `${e.el}.${e.fn.toLowerCase()}.${e.sign > 0 ? 'grow' : e.sign < 0 ? 'release' : 'even'}:${r.lead.key}`, loud: r.loud }); }
   }
   return out.sort((a, b) => (a.date < b.date ? -1 : 1));
 }

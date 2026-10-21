@@ -1,0 +1,270 @@
+{
+ "worklist": 3,
+ "units": [
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.year",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). clash: the gate is shaken; a sudden change, something comes loose. Year Gate: your first home, the family you grew up in, older relatives. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.year",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). punish: the gate grinds; an old friction or argument comes back. Year Gate: your first home, the family you grew up in, older relatives. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.month",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). punish: the gate grinds; an old friction or argument comes back. Month Gate: your work, your role, your team. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.hour",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). punish: the gate grinds; an old friction or argument comes back. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.year",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Year Gate: your first home, the family you grew up in, older relatives. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.month",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Month Gate: your work, your role, your team. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.day",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Day Gate: your home and partner, the life you share. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.hour",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.month",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). bind: the gate ties in; something draws closer or settles. Month Gate: your work, your role, your team. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.hour",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). bind: the gate ties in; something draws closer or settles. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.year",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Year Gate: your first home, the family you grew up in, older relatives. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.month",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Month Gate: your work, your role, your team. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.day",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Day Gate: your home and partner, the life you share. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.hour",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.year",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Year Gate: your first home, the family you grew up in, older relatives. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.month",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Month Gate: your work, your role, your team. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.day",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Day Gate: your home and partner, the life you share. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.hour",
+   "means": "Follows the engine clause (\"The day's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.year",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). clash: the gate is shaken; a sudden change, something comes loose. Year Gate: your first home, the family you grew up in, older relatives. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.day",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). clash: the gate is shaken; a sudden change, something comes loose. Day Gate: your home and partner, the life you share. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.hour",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). clash: the gate is shaken; a sudden change, something comes loose. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.year",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). punish: the gate grinds; an old friction or argument comes back. Year Gate: your first home, the family you grew up in, older relatives. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.month",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). punish: the gate grinds; an old friction or argument comes back. Month Gate: your work, your role, your team. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.day",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). punish: the gate grinds; an old friction or argument comes back. Day Gate: your home and partner, the life you share. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.hour",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). punish: the gate grinds; an old friction or argument comes back. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.year",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Year Gate: your first home, the family you grew up in, older relatives. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.month",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Month Gate: your work, your role, your team. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.day",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Day Gate: your home and partner, the life you share. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.hour",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). harm: the gate wears thin; a quiet misunderstanding or slight. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.year",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). bind: the gate ties in; something draws closer or settles. Year Gate: your first home, the family you grew up in, older relatives. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.month",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). bind: the gate ties in; something draws closer or settles. Month Gate: your work, your role, your team. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.day",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). bind: the gate ties in; something draws closer or settles. Day Gate: your home and partner, the life you share. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.hour",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). bind: the gate ties in; something draws closer or settles. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.year",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Year Gate: your first home, the family you grew up in, older relatives. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.month",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Month Gate: your work, your role, your team. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.day",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Day Gate: your home and partner, the life you share. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.hour",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). frame (join): the gate gathers strength; people or momentum gather. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.year",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Year Gate: your first home, the family you grew up in, older relatives. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.month",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Month Gate: your work, your role, your team. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.day",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Day Gate: your home and partner, the life you share. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.hour",
+   "means": "Follows the engine clause (\"The month's <element> <verb> the <element> in your <Gate>, the seat of <life>.\"). repeat: the gate echoes itself; you go over old ground. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later. Horizon: month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "means": "Nothing touches the gates; a quiet day"
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "means": "The day hits hard the same gate the month already hits hard. Year Gate: your first home, the family you grew up in, older relatives."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.day",
+   "means": "The day hits hard the same gate the month already hits hard. Day Gate: your home and partner, the life you share."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.hour",
+   "means": "The day hits hard the same gate the month already hits hard. Hour Gate: the people after you (children, younger relatives, people you train) and your plans for later."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.gate",
+   "means": "a new gate opens today, the birthday at 16, 35 or 48 (Month Gate at 16, Day Gate at 35, Hour Gate at 48)"
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.decade",
+   "means": "a new ten-year luck cycle begins this year, marked on the birthday"
+  },
+  {
+   "kind": "star",
+   "key": "STAR taohua · day",
+   "means": "Peach Blossom day: attraction runs high (shown under Love)"
+  },
+  {
+   "kind": "star",
+   "key": "STAR yima · day",
+   "means": "Travelling Horse day: movement, travel, a change of place (Growth)"
+  },
+  {
+   "kind": "star",
+   "key": "STAR tiande · day",
+   "means": "Heavenly Virtue day: trouble passes more lightly (Health)"
+  },
+  {
+   "kind": "star",
+   "key": "STAR yuede · day",
+   "means": "Moon Virtue day: effort turns trouble into gain (Health)"
+  },
+  {
+   "kind": "star",
+   "key": "STAR wenchang · day",
+   "means": "Scholar day: words and study come easily (Mind)"
+  },
+  {
+   "kind": "star",
+   "key": "STAR hongluan · day",
+   "means": "Red Phoenix day: warmth and romance (Love)"
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "units": [
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.clash.year",
+   "text": "News from the family you grew up in changes a plan without warning, a visit moved or a date dropped. You take the change in your stride and call back the same day."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.year",
+   "text": "An old quarrel with an older relative stirs again, over the same small point as before. You hear it out once and refuse to go round it a second time."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.month",
+   "text": "Friction at work returns, the same complaint from the same corner of the team. You answer it with facts, and the matter closes faster than last time."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.punish.hour",
+   "text": "A younger person tests the same limit again, or a long plan sticks at its usual snag. You hold the line without raising your voice."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.year",
+   "text": "A remark from an older relative lands wrong, though nobody meant it unkindly. You let it pass, and the warmth between you stays."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.month",
+   "text": "A colleague takes a word of yours the wrong way, and the air at work cools a little. You notice it early and clear it up with one plain sentence."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.day",
+   "text": "A small thing at home goes unsaid, a look or a tone a partner reads differently from how you meant it. You catch the moment and put it right before bed."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.harm.hour",
+   "text": "A young person you guide feels overlooked, or a plan for later loses a little of its shine. You spot the quiet change and give it your attention."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.month",
+   "text": "Work pulls together today, and a colleague who kept apart joins your side. You find a task that had stalled moving again with little push from you."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.bind.hour",
+   "text": "Someone younger leans on you, asking for help or simply wanting your company. A plan for later falls into place, and you feel sure of it."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.year",
+   "text": "Relatives from your first home gather round, in person or by message, and old ties feel strong again. You find yourself at the centre of it."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.month",
+   "text": "Momentum builds at work, and people line up behind a task you care about. You lead it further today than you thought you would."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.day",
+   "text": "Home gathers strength, with a partner or the people you live with pulling the same way. Shared chores get done quickly, and you enjoy the evening more for it."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.frame.hour",
+   "text": "Younger people gather round your ideas, and a long plan picks up speed. You see the first real shape of something you set going a while back."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.year",
+   "text": "An old family story comes up again, told the way it always is. You hear something new in it this time, and it tells you about yourself."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.month",
+   "text": "Work brings back a task you thought was finished, or a meeting that covers familiar points. You get through it faster because you know the way."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.day",
+   "text": "Home repeats an old pattern, the same talk over dinner or the same small habit. You see it plainly today and choose which part to keep."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.day.repeat.hour",
+   "text": "An old plan for later returns to the table in nearly its first form, or a young person asks the same question twice. You give a clearer answer than you did before."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.year",
+   "text": "Something settled in the family you grew up in shifts this month, a role among siblings or a care that changes hands. You find your place in the new order and hold it."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.day",
+   "text": "Your home life is shaken up this month, in the furniture, the plans or the shape of a shared week. You and the people closest to you come out of it on firmer footing."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.clash.hour",
+   "text": "Long plans come apart and reform this month, and the young people around you change course. You keep track of what matters and let the rest go."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.year",
+   "text": "A family grievance from years back grinds on through this month, raised at each visit or call. You stop feeding it, and by the month's end it has less hold on you."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.month",
+   "text": "The same friction at work wears on all month, a process that jams or a rule nobody likes. You learn its pattern and work around it with less effort each week."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.day",
+   "text": "An old sore point at home keeps returning this month, usually over who does what. You stay steady through each round, and the arguments shrink as the weeks pass."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.punish.hour",
+   "text": "A long plan keeps catching on the same problem this month, and someone younger pushes against your rules. Your patience wears the problem down over the weeks."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.year",
+   "text": "A coolness creeps into the family you grew up in this month, from a word taken badly or a call left unreturned. You reach out first, and the distance closes."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.month",
+   "text": "Small slights pile up at work this month, a credit not given or a message left unread. You keep your own record straight, and the team notices your calm."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.day",
+   "text": "Little misreadings gather at home this month, with a partner or the people you live with. You talk things through early each week, and nothing grows larger than it is."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.harm.hour",
+   "text": "This month a quiet gap opens between you and someone you teach or look after. You close it with time rather than words, and trust returns by the month's end."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.year",
+   "text": "The family you grew up in draws you back this month, through visits, old recipes or a shared decision. You feel more at ease with them than you have in a long while."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.month",
+   "text": "Your place at work settles this month, and an agreement with a colleague or a client holds firm. You work with steadier support than you had last month."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.day",
+   "text": "Home ties in closer this month, and a shared plan with a partner or the people you live with settles. You come home each evening to something calmer.",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.bind.hour",
+   "text": "Bonds with the people after you deepen this month, a child, a younger relative or someone you train. You see your care for them returned in small ways."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.year",
+   "text": "Your wider family pulls together this month around an event or a shared need. You add your strength to theirs, and the whole group stands taller for it."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.month",
+   "text": "Work builds speed this month, with new people joining and tasks clicking into line. You ride the momentum and finish more than you planned."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.day",
+   "text": "Life at home gains strength this month, with a partner or the people you live with backing the same plan. You feel the house working with you, week by week."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.frame.hour",
+   "text": "Plans for later gather support this month, and young people around you bring fresh energy to them. You watch a long project gain its first real weight."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.year",
+   "text": "Old family patterns come round again this month, the same visits and the same roles at the table. You play your part with more ease than you used to."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.month",
+   "text": "Work runs over familiar ground this month, with tasks and talks you have met before. You use what you learned last time, and each step costs you less."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.day",
+   "text": "Home life circles back this month to habits you know well, the same routines and the same small rituals. You find comfort in them and change one that no longer fits."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.month.repeat.hour",
+   "text": "A plan for later comes round again this month, much as you first drew it, and young people ask familiar things. You answer with experience, and the plan grows sturdier."
+  },
+  {
+   "kind": "land",
+   "key": "TEMPLATED tpl_almanac · land.quiet",
+   "text": "Nothing in the day reaches your gates, and life runs on its usual track. You have the time and the calm to do things at your own pace."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.year",
+   "text": "Today the month's strain on your first home comes to a peak, because the day strikes the same gate."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.day",
+   "text": "Pressure at home that has built all month peaks today, because the day lands on the same gate and you feel both at once."
+  },
+  {
+   "kind": "echo",
+   "key": "TEMPLATED tpl_almanac · echo.hour",
+   "text": "The month's pull on your plans for later and the young people around you sharpens today, as the day presses the same gate."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.gate",
+   "text": "A new gate opens on this birthday, and a fresh part of life comes into its own. You step into it with the years behind you as support."
+  },
+  {
+   "kind": "mark",
+   "key": "TEMPLATED tpl_almanac · mark.decade",
+   "text": "A new cycle of luck begins this year, one that runs for ten years from this birthday. You feel the season of your life change its direction."
+  },
+  {
+   "kind": "star",
+   "key": "STAR taohua · day",
+   "text": "Attraction runs high today, and people notice you more than usual. You draw warmth from glances and easy talk."
+  },
+  {
+   "kind": "star",
+   "key": "STAR yima · day",
+   "text": "The day moves you, with travel, an errand across town or a change of place. You cover more ground than you planned and enjoy the motion."
+  },
+  {
+   "kind": "star",
+   "key": "STAR tiande · day",
+   "text": "Trouble passes lightly today, and a tense moment softens before it grows. You keep your energy and sleep well tonight."
+  },
+  {
+   "kind": "star",
+   "key": "STAR yuede · day",
+   "text": "Effort turns trouble into gain today, and a setback gives you something useful. You work through it and end the day stronger than you began."
+  },
+  {
+   "kind": "star",
+   "key": "STAR wenchang · day",
+   "text": "Words and study come easily today, and a page or a lesson makes sense at first reading. Your mind stays clear and quick."
+  },
+  {
+   "kind": "star",
+   "key": "STAR hongluan · day",
+   "text": "Warmth runs through the day, and tenderness comes easily with someone you care for. You feel loved and show it freely."
+  }
+ ]
+}

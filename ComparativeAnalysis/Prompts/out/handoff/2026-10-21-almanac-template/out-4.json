@@ -1,0 +1,275 @@
+{
+ "units": [
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Family.helping",
+   "text": "Doing your share|waiting to be asked"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Family.heavy",
+   "text": "Asking for a hand|carrying it alone"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Growth.helping",
+   "text": "A self-made plan|a borrowed one"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Growth.heavy",
+   "text": "A study partner|a solo push"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Social.helping",
+   "text": "Old friends|new faces"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Social.heavy",
+   "text": "One close friend|a busy party"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Wealth.helping",
+   "text": "A bold offer|a safe wait"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Wealth.heavy",
+   "text": "A separate purse|a shared pot"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Social.helping",
+   "text": "A friendly contest|polite silence"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Social.heavy",
+   "text": "Letting a rival win|proving a point"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Career.helping",
+   "text": "Stepping forward|holding back"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Career.heavy",
+   "text": "Steady work in your lane|the race for credit"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Health.helping",
+   "text": "A good meal|a skipped lunch"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Health.heavy",
+   "text": "A light supper|a second helping"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Family.helping",
+   "text": "Cooking together|eating apart"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Family.heavy",
+   "text": "Quiet company|a full house"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Career.helping",
+   "text": "Making something by hand|another meeting"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Career.heavy",
+   "text": "Plain work done well|a polished show"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Mind.helping",
+   "text": "A fresh angle|the usual answer"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Mind.heavy",
+   "text": "A cooler head|a sharp retort"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Career.helping",
+   "text": "Your best pitch|a modest note"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Career.heavy",
+   "text": "Tact with those in charge|open challenge",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Social.helping",
+   "text": "A lively story|small talk"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Social.heavy",
+   "text": "Listening more|having the last word"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Wealth.heavy",
+   "text": "A firm budget|an easy bargain"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Family.heavy",
+   "text": "Evenings at home|gifts for everyone"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Social.heavy",
+   "text": "A few names|every invitation"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Wealth.helping",
+   "text": "Regular saving|a lucky chance"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Wealth.heavy",
+   "text": "A small treat|strict thrift"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Family.helping",
+   "text": "Settling the household list|putting it off"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Family.heavy",
+   "text": "Sharing the chores|doing them all"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Career.helping",
+   "text": "The routine task|a side project"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Career.heavy",
+   "text": "A clear finish time|unpaid extra hours"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Career.helping",
+   "text": "The hardest task first|easy wins"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Career.heavy",
+   "text": "Calm under orders|open defiance"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Health.helping",
+   "text": "A hard workout|a gentle stroll"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Health.heavy",
+   "text": "An early night|one more push"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Growth.helping",
+   "text": "A real test|more practice runs"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Growth.heavy",
+   "text": "Slow steps|a big leap"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Family.heavy",
+   "text": "Bending a house rule|enforcing it"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Social.heavy",
+   "text": "An easy hour with friends|a duty visit"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Career.heavy",
+   "text": "One duty seen through|every duty at once"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Mind.helping",
+   "text": "Your gut feeling|a long list of reasons"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Mind.heavy",
+   "text": "Company and daylight|brooding indoors"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Growth.helping",
+   "text": "An odd subject|the set reading"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Growth.heavy",
+   "text": "A known path|a strange detour"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Career.helping",
+   "text": "A desk to yourself|an open office"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Career.heavy",
+   "text": "A simple checklist|endless rethinking"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Family.helping",
+   "text": "Advice from an elder|guessing your way"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Family.heavy",
+   "text": "Doing a little yourself|being looked after"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Mind.helping",
+   "text": "A good teacher|a hasty search"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Mind.heavy",
+   "text": "One book finished|a pile begun"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Health.helping",
+   "text": "A proper lie-in|an early alarm"
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Health.heavy",
+   "text": "A brisk walk|another nap"
+  }
+ ]
+}

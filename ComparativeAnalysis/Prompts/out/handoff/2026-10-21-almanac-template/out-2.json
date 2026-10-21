@@ -1,0 +1,344 @@
+{
+ "units": [
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.body.grow",
+   "text": "{el} steadies you"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.body.even",
+   "text": "{el} keeps you level"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.mind.grow",
+   "text": "{el} feeds your thinking"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.mind.even",
+   "text": "{el} sits quietly with you"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.expression.release",
+   "text": "{el} draws on your reserves",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.expression.even",
+   "text": "{el} lets you speak plainly"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.release",
+   "text": "{el} piles work on you"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.action.even",
+   "text": "{el} gives you a fair load"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.order.release",
+   "text": "{el} leans on you"
+  },
+  {
+   "kind": "head.energy",
+   "key": "TEMPLATED tpl_almanac · head.energy.order.even",
+   "text": "{el} keeps you on time",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.clash.year",
+   "text": "an old family plan comes loose"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.year",
+   "text": "a family quarrel returns"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.month",
+   "text": "a work dispute grinds on"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.punish.hour",
+   "text": "the young test your patience"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.year",
+   "text": "an older relative misreads you"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.month",
+   "text": "a remark at work lands badly"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.day",
+   "text": "a small word at home stings"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.harm.hour",
+   "text": "someone younger feels overlooked"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.month",
+   "text": "a deal at work settles"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.bind.hour",
+   "text": "a younger one leans closer"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.frame.year",
+   "text": "your family gathers round"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.frame.hour",
+   "text": "plans for later gain strength"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.year",
+   "text": "old family stories come back"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.day",
+   "text": "home replays an old scene"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.land.repeat.hour",
+   "text": "you revisit a promise to someone younger"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.return",
+   "text": "you meet your own day again"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.turned",
+   "text": "your own day turns over",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.month",
+   "text": "a new month begins"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.year",
+   "text": "spring opens the year"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.birthday",
+   "text": "you begin another year of age"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.gate",
+   "text": "a new stage of life opens"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.mark.decade",
+   "text": "a long new chapter starts"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.taohua",
+   "text": "eyes turn your way"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.yima",
+   "text": "the road calls"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.tiande",
+   "text": "trouble passes you lightly"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.yuede",
+   "text": "effort turns trouble into gain"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.wenchang",
+   "text": "study comes easily"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.hongluan",
+   "text": "love warms up"
+  },
+  {
+   "kind": "head.land",
+   "key": "TEMPLATED tpl_almanac · head.star.tianyi",
+   "text": "someone with standing helps"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.year",
+   "text": "Something in your first home shifts today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · clash.day",
+   "text": "Plans at home change suddenly today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.year",
+   "text": "That same family argument resurfaces today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.month",
+   "text": "Friction at work grinds again today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.day",
+   "text": "Home friction returns this evening. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · punish.hour",
+   "text": "Those you look after test you again. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.year",
+   "text": "A family remark lands wrong today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.month",
+   "text": "A colleague misreads you today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.day",
+   "text": "Something small at home goes unsaid. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · harm.hour",
+   "text": "A younger person takes something to heart. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.year",
+   "text": "Family draws you back today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.month",
+   "text": "Work clicks into place today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.day",
+   "text": "Home feels close and settled tonight. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · bind.hour",
+   "text": "Your plans for later settle today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.year",
+   "text": "Relatives gather around you today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.month",
+   "text": "Momentum builds at work today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.day",
+   "text": "Home life picks up speed today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · frame.hour",
+   "text": "People you train rally behind you. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.year",
+   "text": "Family history comes up again today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.month",
+   "text": "A finished task at work reopens. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.day",
+   "text": "A familiar talk at home returns. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · repeat.hour",
+   "text": "An old promise to someone younger resurfaces. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · turned",
+   "text": "Something settled at home gets questioned today. Read your day."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.month",
+   "text": "The month changes today. Read your month."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.year",
+   "text": "The new year opens today. Read your year."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.birthday",
+   "text": "A new year of your age begins today. Read your year.",
+   "edited": "main session, 2026-10-21"
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.gate",
+   "text": "A new gate opens in your life today. Read your year."
+  },
+  {
+   "kind": "push",
+   "key": "PUSH · mark.decade",
+   "text": "A new ten-year cycle begins today. Read your year.",
+   "edited": "main session, 2026-10-21"
+  }
+ ]
+}

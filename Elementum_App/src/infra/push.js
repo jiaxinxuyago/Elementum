@@ -4,6 +4,8 @@
 // enablePush(): permission → pushManager.subscribe(VAPID) → register with the
 // push worker (stores endpoint + preferred UTC send hour; user id if signed in).
 // disablePush(): unsubscribe locally + delete the server row.
+// syncPushSchedule(): Your Almanac's codes for the next five weeks (P1 A); the
+// worker ignores them until the owner turns ALMANAC_PUSH on.
 // All functions no-op gracefully where Web Push is unsupported (e.g. iOS Safari
 // in the browser tab — install-to-home-screen is required there, INF_01 §4.4).
 // ─────────────────────────────────────────────────────────────────────────────
@@ -100,4 +102,21 @@ export async function disablePush() {
     });
   } catch { /* row prunes automatically on next failed send */ }
   return true;
+}
+
+// Your Almanac (EVT-1): post the next five weeks of marked days as dates and
+// codes, never birth data. The worker answers { disabled: true } until the
+// owner applies migration 0004 and sets ALMANAC_PUSH = '1'.
+export async function syncPushSchedule(schedule) {
+  const sub = await getPushSubscription();
+  if (!sub || !Array.isArray(schedule) || !schedule.length) return false;
+  try {
+    const res = await fetch(`${WORKER}/schedule`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ endpoint: sub.endpoint, schedule: schedule.map(({ date, code }) => ({ date, code })), tzOffset: -new Date().getTimezoneOffset() }),
+    });
+    const j = await res.json().catch(() => ({}));
+    return res.ok && !!j.ok;
+  } catch { return false; }
 }

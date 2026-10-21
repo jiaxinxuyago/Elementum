@@ -1,0 +1,275 @@
+{
+ "worklist": 4,
+ "units": [
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Family.helping",
+   "means": "比肩 peers, independence, standing on your own. Domain Family. The energy lifts this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Family.heavy",
+   "means": "比肩 peers, independence, standing on your own. Domain Family. The energy weighs on this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Growth.helping",
+   "means": "比肩 peers, independence, standing on your own. Domain Growth. The energy lifts this reader. What the DAY favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Growth.heavy",
+   "means": "比肩 peers, independence, standing on your own. Domain Growth. The energy weighs on this reader. What the DAY favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Social.helping",
+   "means": "比肩 peers, independence, standing on your own. Domain Social. The energy lifts this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD bijian · favours.day.Social.heavy",
+   "means": "比肩 peers, independence, standing on your own. Domain Social. The energy weighs on this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Wealth.helping",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Wealth. The energy lifts this reader. What the DAY favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Wealth.heavy",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Wealth. The energy weighs on this reader. What the DAY favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Social.helping",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Social. The energy lifts this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Social.heavy",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Social. The energy weighs on this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Career.helping",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Career. The energy lifts this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD jiecai · favours.day.Career.heavy",
+   "means": "劫财 rivals, competition, shared money, boldness. Domain Career. The energy weighs on this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Health.helping",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Health. The energy lifts this reader. What the DAY favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Health.heavy",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Health. The energy weighs on this reader. What the DAY favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Family.helping",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Family. The energy lifts this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Family.heavy",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Family. The energy weighs on this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Career.helping",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Career. The energy lifts this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shishen · favours.day.Career.heavy",
+   "means": "食神 ease, making, enjoyment, food, a relaxed body. Domain Career. The energy weighs on this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Mind.helping",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Mind. The energy lifts this reader. What the DAY favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Mind.heavy",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Mind. The energy weighs on this reader. What the DAY favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Career.helping",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Career. The energy lifts this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Career.heavy",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Career. The energy weighs on this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Social.helping",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Social. The energy lifts this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD shangguan · favours.day.Social.heavy",
+   "means": "伤官 a sharp voice, performance, challenging rules. Domain Social. The energy weighs on this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Wealth.heavy",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Wealth. The energy weighs on this reader. What the DAY favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Family.heavy",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Family. The energy weighs on this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD piancai · favours.day.Social.heavy",
+   "means": "偏财 opportunity, a wide network, money from the side, generosity. Domain Social. The energy weighs on this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Wealth.helping",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Wealth. The energy lifts this reader. What the DAY favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Wealth.heavy",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Wealth. The energy weighs on this reader. What the DAY favours in Wealth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Family.helping",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Family. The energy lifts this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Family.heavy",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Family. The energy weighs on this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Career.helping",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Career. The energy lifts this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengcai · favours.day.Career.heavy",
+   "means": "正财 steady earnings, careful keeping, duty to the household. Domain Career. The energy weighs on this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Career.helping",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Career. The energy lifts this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Career.heavy",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Career. The energy weighs on this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Health.helping",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Health. The energy lifts this reader. What the DAY favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Health.heavy",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Health. The energy weighs on this reader. What the DAY favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Growth.helping",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Growth. The energy lifts this reader. What the DAY favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD qisha · favours.day.Growth.heavy",
+   "means": "七杀 pressure, a hard test, a demanding authority. Domain Growth. The energy weighs on this reader. What the DAY favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Family.heavy",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Family. The energy weighs on this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Social.heavy",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Social. The energy weighs on this reader. What the DAY favours in Social."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengguan · favours.day.Career.heavy",
+   "means": "正官 rules, duty, reputation, promises, formal roles. Domain Career. The energy weighs on this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Mind.helping",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Mind. The energy lifts this reader. What the DAY favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Mind.heavy",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Mind. The energy weighs on this reader. What the DAY favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Growth.helping",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Growth. The energy lifts this reader. What the DAY favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Growth.heavy",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Growth. The energy weighs on this reader. What the DAY favours in Growth."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Career.helping",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Career. The energy lifts this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD pianyin · favours.day.Career.heavy",
+   "means": "偏印 unusual knowledge, solitude, second thoughts, intuition. Domain Career. The energy weighs on this reader. What the DAY favours in Career."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Family.helping",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Family. The energy lifts this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Family.heavy",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Family. The energy weighs on this reader. What the DAY favours in Family."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Mind.helping",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Mind. The energy lifts this reader. What the DAY favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Mind.heavy",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Mind. The energy weighs on this reader. What the DAY favours in Mind."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Health.helping",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Health. The energy lifts this reader. What the DAY favours in Health."
+  },
+  {
+   "kind": "favours",
+   "key": "GOD zhengyin · favours.day.Health.heavy",
+   "means": "正印 support, shelter, teachers, rest, learning. Domain Health. The energy weighs on this reader. What the DAY favours in Health."
+  }
+ ]
+}

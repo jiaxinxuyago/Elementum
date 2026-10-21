@@ -14,7 +14,9 @@ import { useChart } from '../../../store/chartContext.jsx';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import { JOURNEY_DEFS } from '../../journey/journeyDefs.js';
 import { GATES } from '../../../content/positions.js';
-import { resolveAlmanac } from './almanacResolve.js';
+import { resolveAlmanac, almanacPushCodes } from './almanacResolve.js';
+import { syncPushSchedule } from '../../../infra/push.js';
+import { ALMANAC_PUSH } from '../../../liveFlags.js';
 import { isoDay, ELEMENTS, KIND } from '../../../engine/almanac/index.js';
 import './almanac.css';
 
@@ -265,7 +267,18 @@ export function AlmanacYear({ onBack }) {
 }
 
 // ── the hub ─────────────────────────────────────────────────────────
+// P4 A: when the app opens, refresh the reminders for the next five weeks (off until ALMANAC_PUSH)
+function usePushSchedule() {
+  const { chart, birthData } = useChart();
+  React.useEffect(() => {
+    if (!ALMANAC_PUSH || !chart || typeof Notification === 'undefined' || Notification.permission !== 'granted') return;
+    const bd = birthData?.year ? `${birthData.year}-${String(birthData.month).padStart(2, '0')}-${String(birthData.day).padStart(2, '0')}` : null;
+    try { syncPushSchedule(almanacPushCodes(chart, { hourUnknown: !!birthData?.hourUnknown, birthDate: bd })); } catch { /* reminders fall back to the daily line */ }
+  }, [chart, birthData]);
+}
+
 export function AlmanacHub({ onOpen }) {
+  usePushSchedule();
   const m = useModel('hub', isoDay(new Date()));
   if (!m) return null;
   const h = m.hub; const t = new Date(); const next = m.ahead[0];

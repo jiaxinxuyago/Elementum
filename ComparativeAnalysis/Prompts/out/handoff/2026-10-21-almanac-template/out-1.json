@@ -1,0 +1,344 @@
+{
+ "units": [
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_over.b",
+   "text": "{el} brings more Body, the energy you are made of, on a day you already hold plenty. You take on more than your share, and the people near you feel the weight."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · month.core_over",
+   "text": "{el} brings more Body for a whole month, though your chart already runs full of it. Your will sets hard, and you meet each small push with a bigger one."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · year.core_over",
+   "text": "{el} brings more Body for a whole year, more of the strength you already carry in excess. Others give way to you often, and you learn where your force stops helping."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_under.a",
+   "text": "{el} brings more Body, a fresh supply of your own strength when your chart runs thin. Your stamina returns in steps, and you stand firmer by the afternoon."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_under.b",
+   "text": "{el} brings more Body, the energy your chart runs low on. Tired limbs and a tired will both fill up today, and you hold your own in every exchange."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · month.core_under",
+   "text": "{el} brings more Body this month, refilling the strength your chart runs short of. Week by week your will grows steadier, and you carry loads that tired you before."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · year.core_under",
+   "text": "{el} brings more Body for a whole year, the energy your chart has least of. Your footing grows solid as the seasons turn, and you end the year standing on your own."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_even.a",
+   "text": "{el} brings more Body, your own energy, on a day you stand in balance. It adds a steady push without tipping you, and you keep an even pace until night."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · day.core_even.b",
+   "text": "{el} brings more Body, a measure of your own strength that fits you well. Nothing pulls you off centre today, and your effort matches each task you meet."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · month.core_even",
+   "text": "{el} brings more Body this month, and your balanced chart takes it in calmly. Your energy runs level from the first week to the last, and you rely on it."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY body · year.core_even",
+   "text": "{el} brings more Body for a whole year, a steady flow of your own energy. It neither crowds nor empties you, and you keep a sure stride from spring to winter."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.need.a",
+   "text": "{el} brings Mind, the support your chart is shortest of. A clear thought or a kind word reaches you today, and you take it in gladly."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.need.b",
+   "text": "{el} brings Mind, the energy that feeds you and the one you lack most. Someone backs you without being asked, and you think more clearly for it."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · month.need",
+   "text": "{el} brings Mind for a whole month, the shelter your chart rarely gets. Lessons stick and help turns up, and you feel rested by the month's end."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.need",
+   "text": "{el} brings Mind for a whole year, the support you need most. Teachers, books and quiet hours all find you, and you grow wiser through the year."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.grow.a",
+   "text": "{el} brings Mind, an energy you already hold and still welcome. A question you have carried opens up today, and you see the answer on your own."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.grow.b",
+   "text": "{el} brings Mind, more of a support you already lean on. Learning feels easy today, and you keep hold of what you read."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · month.grow",
+   "text": "{el} brings Mind this month, adding to a store of support you already keep. Your study deepens and your rest improves, and you feel looked after."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.grow",
+   "text": "{el} brings Mind for a whole year, more of what already feeds you well. Skills you started long ago take root, and you trust your own judgement more."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.heavy.b",
+   "text": "{el} brings Mind, piling more onto a chart already full of it. You think a step past where thinking helps, and your plans stay on paper today."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.heavy",
+   "text": "{el} brings Mind for a whole year, though your chart holds plenty already. Comfort and caution settle on you like a thick coat, and you move only when you are sure."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.even.a",
+   "text": "{el} brings Mind, an energy that sits lightly on your chart. Your thinking stays clear and ordinary today, and you learn at your usual speed."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · day.even.b",
+   "text": "{el} brings Mind, neither more than you need nor less. A quiet hour comes and goes without fuss, and your mind stays your own."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · month.even",
+   "text": "{el} brings Mind this month, at a level your chart takes in its stride. Study and rest keep their usual share of your weeks, and you notice no strain."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY mind · year.even",
+   "text": "{el} brings Mind for a whole year, in a measure that leaves you as you are. Support arrives when it is due, and you neither wait for it nor lean on it."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.need.a",
+   "text": "{el} brings Expression, the outlet you have least of. Something you make or say today finds its listener, and you feel lighter afterwards."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.need",
+   "text": "{el} brings Expression for a whole month, the outlet your chart is short of. Ideas leave your head and reach the page, and you enjoy showing them."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.need",
+   "text": "{el} brings Expression for a whole year, the energy you need most for giving out. Your voice grows bolder through the seasons, and people start to quote you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.grow.a",
+   "text": "{el} brings Expression, adding to a gift you already use. Your hands or your words work fast today, and you finish something worth showing."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.grow.b",
+   "text": "{el} brings Expression, more of an outlet that already serves you. A joke lands or a sketch comes right, and you enjoy the day more than most."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.grow",
+   "text": "{el} brings Expression this month, feeding a talent you already have. Work you share draws warm replies, and you make more than you planned."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.grow",
+   "text": "{el} brings Expression for a whole year, building on how well you already speak and make. Your craft grows sharper with use, and you become known for it."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.heavy.a",
+   "text": "{el} brings Expression, more of an outlet you already overuse. Words spill out faster than you weigh them, and you say one thing too many."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.heavy.b",
+   "text": "{el} brings Expression, on top of a chart that already gives out too much. Your energy leaks into chatter and small tasks, and you feel spent by dusk."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.heavy",
+   "text": "{el} brings Expression for a whole month, though you already pour out plenty. You start many things and show them early, and your strength runs low by the last week."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.heavy",
+   "text": "{el} brings Expression for a whole year, swelling an outlet that already runs wide. Pleasure and talk fill your calendar, and you learn to keep some of yourself back."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.even.a",
+   "text": "{el} brings Expression, a gentle measure that suits you. You speak and make at your normal pace, and nothing you say comes out wrong."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · day.even.b",
+   "text": "{el} brings Expression, in an amount that neither lifts you nor tires you. Talk flows at an easy level today, and you enjoy it without effort."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · month.even",
+   "text": "{el} brings Expression this month, sitting evenly in your chart. Your words and your work keep their usual shape, and you show them at a comfortable rate."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY expression · year.even",
+   "text": "{el} brings Expression for a whole year, at a level your chart holds without strain. Your voice stays your own all year, and you share as much as you mean to."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.need.a",
+   "text": "{el} brings Action, the energy your chart lacks most. A chance to earn or to reach further appears today, and you have the strength to take it."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.need.b",
+   "text": "{el} brings Action, the reach you are usually short of. Effort pays back quickly today, and you see results before evening."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.need",
+   "text": "{el} brings Action for a whole month, the energy you need most. New openings turn up at work and in trade, and you claim more of them than usual."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.need",
+   "text": "{el} brings Action for a whole year, filling the gap your chart has always had. Your reach stretches into new places, and you build something you can hold."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.grow.a",
+   "text": "{el} brings Action, more of an energy that already serves you well. Your effort goes further than it did yesterday, and you gain ground with each task."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.grow",
+   "text": "{el} brings Action this month, adding fuel to work you already do well. Money and effort move in step, and you widen what you manage."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.grow",
+   "text": "{el} brings Action for a whole year, growing a reach you already have. Each season adds a fresh field to work in, and you harvest more than you sow."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.heavy.a",
+   "text": "{el} brings Action, more of an energy your chart already holds in excess. Tasks and offers pile up past what you can handle, and you drop the smallest."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.heavy.b",
+   "text": "{el} brings Action, more effort and reach than your chart can use. Every gain costs more than it returns, and you end the day tired of chasing."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.heavy",
+   "text": "{el} brings Action for a whole month, though your chart is already crowded with it. Work spreads thin across too many fronts, and you feel stretched by the third week."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.heavy",
+   "text": "{el} brings Action for a whole year, more of a load you already carry. Chances pull at you from every side, and you learn which ones to let pass."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.even.a",
+   "text": "{el} brings Action, a fair share that fits your chart. You work at a steady rate today, and what you earn matches what you put in."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · day.even.b",
+   "text": "{el} brings Action, an even weight your chart carries easily. Tasks arrive one at a time today, and you deal with each before the next."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · month.even",
+   "text": "{el} brings Action this month, at a level your chart neither craves nor resents. Work and income run on their usual track, and you keep them there with ease."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY action · year.even",
+   "text": "{el} brings Action for a whole year, a steady current through your working life. No great leap and no great loss arrives, and you build at an even rate."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.need",
+   "text": "{el} brings Order for a whole month, the structure your chart is shortest of. Deadlines and duties give your weeks a frame, and you get more done inside it."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.grow.a",
+   "text": "{el} brings Order, more of a structure that already helps you. A clear rule or a firm request sets your course today, and you follow it with ease."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.grow.b",
+   "text": "{el} brings Order, adding to a discipline you already keep. Someone checks your work today, and you pass the test."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.grow",
+   "text": "{el} brings Order this month, building on the duty you already carry well. Your role at work grows firmer, and others start to count on you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · year.grow",
+   "text": "{el} brings Order for a whole year, more of the pressure that already shapes you well. Responsibility gathers around you season by season, and you wear it lightly."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.heavy.a",
+   "text": "{el} brings Order, more pressure on a chart that already carries too much. Demands arrive from several sides at once, and you feel boxed in by noon."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.heavy.b",
+   "text": "{el} brings Order, a weight your chart already holds too much of. A deadline tightens or a rule bites, and you work twice as hard for the same result."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.heavy",
+   "text": "{el} brings Order for a whole month, more strain on a chart already full of it. Rules and reports fill your weeks, and you get through them by keeping your head down."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · year.heavy",
+   "text": "{el} brings Order for a whole year, adding pressure your chart already has in plenty. The year tests your patience often, and you find the few duties that truly matter to you."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.even.a",
+   "text": "{el} brings Order, a mild dose of structure your chart takes calmly. The day keeps its shape without pressing, and you meet each request on time."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · day.even.b",
+   "text": "{el} brings Order, an even pull that neither tightens nor loosens you. Rules stay in the background today, and you hardly notice them."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · month.even",
+   "text": "{el} brings Order this month, a fair measure of duty for your chart. Deadlines come at a sensible pace, and you keep up with every one."
+  },
+  {
+   "kind": "energy",
+   "key": "ENERGY order · year.even",
+   "text": "{el} brings Order for a whole year, a balanced share of rules and duty. Your obligations neither grow nor shrink, and you carry them as you always have."
+  }
+ ]
+}

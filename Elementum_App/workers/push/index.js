@@ -4,6 +4,7 @@
 // Three jobs:
 //   POST /subscribe    {subscription, utcHour, userId?} → upsert push_subscriptions
 //   POST /unsubscribe  {endpoint}                       → delete row
+//   POST /schedule     {endpoint, schedule, tzOffset}   → Your Almanac codes (ALMANAC_PUSH=1 only)
 //   GET  /message      → today's DATE-BASED reading hook (no PII — same for all)
 //   cron (hourly)      → payload-less push to every sub whose utc_hour matches;
 //                        the service worker wakes, fetches /message, shows it.
@@ -11,6 +12,31 @@
 // Payload-less sends need only VAPID auth (ES256 JWT) — no RFC 8291 payload
 // encryption. Dead subscriptions (404/410 from the push service) are pruned.
 // ─────────────────────────────────────────────────────────────────────────────
+
+import { ALMANAC_COPY } from './almanacCopy.js';
+
+// ── Your Almanac reminders (EVT-1, owner P1 A · P2 A · P3 A · P4 A) ──────────
+// OFF unless the env var ALMANAC_PUSH is '1' (and migration 0004 is applied).
+// The phone posts a schedule of codes ('2026-10-27' → 'Wood.action.grow:
+// clash.month'): no birth data, only dates and codes. On a scheduled local
+// date the cron sends the composed line; while a schedule is current the
+// subscription gets nothing on other days; once it runs out (the reader has
+// not opened the app for five weeks) the generic daily line resumes.
+const CODE_RE = /^(Wood|Fire|Earth|Metal|Water)\.(body|mind|expression|action|order)\.(grow|release|even):([a-z]+(?:\.[a-z]+)?)$/;
+export function almanacMessage(code) {
+  const m = CODE_RE.exec(code || ''); if (!m) return null;
+  const [, el, fn, sign, lead] = m;
+  const a = (ALMANAC_COPY.HEAD_ENERGY[`${fn}.${sign}`] || `{el} ${sign === 'grow' ? 'lifts' : sign === 'release' ? 'weighs on' : 'steadies'} you`).replace(/\{el\}/g, el);
+  const landKey = /^(clash|punish|harm|bind|frame|repeat)\./.test(lead) ? `land.${lead}` : lead;
+  const b = ALMANAC_COPY.HEAD_LAND[landKey];
+  return { title: b ? `${a}, and ${b}` : a, body: ALMANAC_COPY.PUSH[lead] || 'Read your day.', url: '/#/app-day' };
+}
+const almanacOn = (env) => env.ALMANAC_PUSH === '1';
+function cleanSchedule(list) {
+  if (!Array.isArray(list)) return null;
+  return list.filter((x) => x && /^\d{4}-\d{2}-\d{2}$/.test(x.date) && CODE_RE.test(x.code)).slice(0, 40).map((x) => ({ date: x.date, code: x.code }));
+}
+const localDate = (tzOffsetMin) => new Date(Date.now() + (Number(tzOffsetMin) || 0) * 60000).toISOString().slice(0, 10);
 
 const HS = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸'];
 const STEM_META = [
@@ -174,7 +200,25 @@ export default {
         body: JSON.stringify([{
           endpoint: s.endpoint, p256dh: s.keys.p256dh, auth: s.keys.auth,
           user_id: body.userId || null, utc_hour: utcHour,
+          ...(almanacOn(env) && cleanSchedule(body.schedule) ? { schedule: cleanSchedule(body.schedule), tz_offset: Number.isInteger(body.tzOffset) ? body.tzOffset : 0 } : {}),
         }]),
+      });
+      return json({ ok: res.ok }, res.ok ? 200 : 500, cors);
+    }
+
+    // Your Almanac: the phone refreshes its schedule each time the app opens.
+    // Same capability-URL reasoning as /unsubscribe: only the endpoint's owner
+    // can name it, and the row holds dates and codes, never birth data.
+    if (request.method === 'POST' && pathname === '/schedule') {
+      if (!almanacOn(env)) return json({ ok: false, disabled: true }, 200, cors);
+      let body;
+      try { body = await request.json(); } catch { return json({ error: 'bad json' }, 400, cors); }
+      const schedule = cleanSchedule(body?.schedule);
+      if (!body?.endpoint || !schedule) return json({ error: 'endpoint and schedule required' }, 400, cors);
+      const { url, headers } = sb(env);
+      const res = await fetch(`${url}?endpoint=eq.${encodeURIComponent(body.endpoint)}`, {
+        method: 'PATCH', headers: { ...headers, Prefer: 'return=minimal' },
+        body: JSON.stringify({ schedule, tz_offset: Number.isInteger(body.tzOffset) ? body.tzOffset : 0 }),
       });
       return json({ ok: res.ok }, res.ok ? 200 : 500, cors);
     }
@@ -237,12 +281,21 @@ export default {
     ctx.waitUntil((async () => {
       const hour = new Date().getUTCHours();
       const { url, headers } = sb(env);
-      const res = await fetch(`${url}?utc_hour=eq.${hour}&select=endpoint,p256dh,auth`, { headers });
+      const cols = almanacOn(env) ? 'endpoint,p256dh,auth,schedule,tz_offset' : 'endpoint,p256dh,auth';
+      const res = await fetch(`${url}?utc_hour=eq.${hour}&select=${cols}`, { headers });
       if (!res.ok) { console.error('sub fetch failed', res.status); return; }
       const subs = await res.json();
-      const message = dailyMessage();
-      let sent = 0, pruned = 0;
+      const daily = dailyMessage();
+      let sent = 0, pruned = 0, quiet = 0;
       for (const sub of subs) {
+        let message = daily;
+        if (almanacOn(env) && Array.isArray(sub.schedule) && sub.schedule.length) {
+          const today = localDate(sub.tz_offset);
+          const hit = sub.schedule.find((x) => x.date === today);
+          const current = sub.schedule.some((x) => x.date >= today);
+          if (hit) message = almanacMessage(hit.code) || daily;
+          else if (current) { quiet += 1; continue; }   // a quiet day inside a current schedule
+        }
         try {
           const status = await sendPush(sub, env, message);
           if (status === 404 || status === 410) {
@@ -252,7 +305,7 @@ export default {
           else console.warn('push non-2xx', status, sub.endpoint.slice(0, 60));
         } catch (err) { console.error('push failed', String(err)); }
       }
-      console.log(`push cron hour=${hour} subs=${subs.length} sent=${sent} pruned=${pruned}`);
+      console.log(`push cron hour=${hour} subs=${subs.length} sent=${sent} quiet=${quiet} pruned=${pruned}`);
     })());
   },
 };

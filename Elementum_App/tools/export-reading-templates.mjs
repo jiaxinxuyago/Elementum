@@ -391,6 +391,10 @@ T('tpl_section_teasers', 'LIVE (curation v6, owner 2026-08-19) — ONE conclusiv
   balanced_lines: { core: 'In your chart it holds its measure.', other: 'In your chart it runs balanced: nothing to force.' },
   dom_unseated: '{El} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.',
 });
+// Your Almanac (EVT-1, owner rounds 1–4): every unit of the Today tab, keyed by
+// its unit key; transcribed by tools/build-almanac-content.mjs.
+const alm = await import('../src/content/almanac.js');
+T('tpl_almanac', 'DEV 2026-10-21 · Your Almanac, dev site only (ALMANAC_LIVE false, owner L1 A)', 'per kind, see the handoff BRIEF', { units: alm.ALMANAC_UNITS });
 
 // ── FUNCTION_METRICS ×5 (owner 2026-10-14; REA_19): the three bars per
 // function, the trait labels and gloss lines; the levels are computed by
