@@ -163,7 +163,9 @@ export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead
         </div>
         {/* the illustration slot: a placeholder on the dev site only, until the
             pair art exists */}
-        {art ? <div className={`mg-ill e-${row.el}`}><Use id={`el-${row.el}`} /><span>illustration</span></div> : null}
+        {typeof art === 'string'
+          ? <div className={`mg-ill v5-plate e-${row.el}`} style={{ backgroundImage: `url('${art}')` }} role="img" aria-label={`${row.name}, painted`} />
+          : art ? <div className={`mg-ill e-${row.el}`}><Use id={`el-${row.el}`} /><span>illustration</span></div> : null}
         {row.story ? <p className="mg-story">{row.story}</p> : null}
         {row.now || first ? <p className="mg-now">{first ? <span className="mg-start">START HERE</span> : null} {row.now || ''}</p> : null}
         <div className="mg-doms">
@@ -178,14 +180,15 @@ export function EnergySheet({ row, first, Use, DOM, art = false, onClose, onRead
 }
 
 // ── "How am I running?" ───────────────────────────────────────────
-export function RunPage({ m, g, nature, Use, condIcon, onBlueprint }) {
+export function RunPage({ m, g, nature, Use, condIcon, onBlueprint, balance = null }) {
   const [codex, setCodex] = useState(false);
   const R = g.reading;
   return (
     <div className="mg-run">
       <div className="cardstock mg-runhead">
         <div className="mg-runtop"><span className="mg-tl">How am I running?</span><span className="role-pill cond"><Use id={condIcon} />{m.condition}</span></div>
-        <Dial score={g.score} condition={g.condition} />
+        {/* V5 (R11): the page opens on the balance — what adds to you, what spends you */}
+        {balance || <Dial score={g.score} condition={g.condition} />}
         <h2 className="mg-h">{g.runHeadline}</h2>
         {nature ? <p className="mg-nature">{nature}</p> : null}
       </div>

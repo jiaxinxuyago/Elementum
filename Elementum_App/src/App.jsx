@@ -68,7 +68,8 @@ const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/Lo
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 import { IS_DEV_TOOLS } from './devtools.js';
 import { MERGE_V1 } from './components/journey/mergeFlag.js';
-import { DEPTH_LIVE } from './liveFlags.js';
+import { DEPTH_LIVE, V5_LIVE } from './liveFlags.js';
+import { hasSeenReading } from './components/journey/v5State.js';
 const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
 const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
 const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
@@ -474,7 +475,8 @@ export default function App() {
   // the Day Master page → the Blueprint, the pillar chart → Life Chapters,
   // the Guidance tab's Energy Manual (retired, E8) → Domains.
   const openSection = (name) => { setScreen('app-reading'); setSectionTarget(name); };
-  const routeOpen = (route) => (DEPTH_LIVE && route === 'app-decade' ? openSection('chapters') : DEPTH_LIVE && route === 'app-manual' ? openSection('domains') : setScreen(route));
+  // V5: 'section:<name>' (Continue reading on Today) opens a section of Your reading
+  const routeOpen = (route) => (V5_LIVE && typeof route === 'string' && route.startsWith('section:') ? openSection(route.slice(8)) : DEPTH_LIVE && route === 'app-decade' ? openSection('chapters') : DEPTH_LIVE && route === 'app-manual' ? openSection('domains') : setScreen(route));
 
   // Where Loading hands off once the chart is computed and the dwell ends:
   // 'reveal' (the Naming ceremony — a chart drawn for the first time through
@@ -484,7 +486,8 @@ export default function App() {
   // read once on exit. A hash reload of #/loading defaults to the ceremony.
   const loadingNextRef = useRef('reveal');
   const startLoading = (next) => { loadingNextRef.current = next; setScreen('loading'); };
-  const enterReturning = () => startLoading('app-reading');
+  // V5 (R3 A): the first visit lands on Your reading; later visits open on Today
+  const enterReturning = () => startLoading(V5_LIVE && hasSeenReading() ? 'app-today' : 'app-reading');
 
   // Maps a ReadingTabBar key ('today', 'guidance', 'reading', 'compat',
   // 'profile') to the corresponding FLOW screen ('app-*'). Used as the
@@ -685,7 +688,7 @@ export default function App() {
     case 'app-reading':
       // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
       // → towers + seal dock. Endpoints route into the existing reading pages.
-      rendered = <JourneyStage key={sectionTarget || 'reading'} openEl={energyTarget} openSection={sectionTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} />;
+      rendered = <JourneyStage key={sectionTarget || 'reading'} openEl={energyTarget} openSection={sectionTarget} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} onDiscoverHour={goto('chart-resonance')} onBirthChart={goto('app-pillars')} onOpenToday={goto('app-today')} />;
       break;
     case 'app-daymaster':
       // THE MERGE: a hash or old link to the Day Master page lands on Your

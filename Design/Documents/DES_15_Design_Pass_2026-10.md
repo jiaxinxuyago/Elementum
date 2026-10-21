@@ -1,6 +1,6 @@
 # DES_15 — Design Pass, October 2026 (four full-app variants)
 
-> Status: **RULED 2026-10-21. V5 The Combination is adopted** (R1–R11 A, N1–N4 A). N4 and N2 are done. The V5 build has not started; its rollout is the next owner question.
+> Status: **SHIPPED 2026-10-21.** V5 The Combination is live on elementum.life. Owner: "Build it directly into Elementum life in one shot" (no viewers yet). The switch is `V5_LIVE` in `Elementum_App/src/liveFlags.js`; the locked rules are DES_04 §AM.12. N4 and N2 are done; N1 is waiting on the art; N3 is blocked on the vault.
 
 ## Brief
 

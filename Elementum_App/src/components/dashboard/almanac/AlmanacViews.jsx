@@ -20,6 +20,9 @@ import { ALMANAC_PUSH } from '../../../liveFlags.js';
 import { IS_DEV_TOOLS } from '../../../devtools.js';
 import { isoDay, ELEMENTS, KIND } from '../../../engine/almanac/index.js';
 import './almanac.css';
+import { V5_LIVE } from '../../../liveFlags.js';
+import { LeafReader, ContinueCard } from '../../journey/V5Reader.jsx';
+import { elementArt } from '../../../styles/backgrounds.js';
 
 const isSeeker = (t) => t === 'seeker' || t === 'advisor';
 const DOMI = { Wealth: 'dom-wealth', Health: 'dom-health', Career: 'dom-career', Love: 'dom-love', Family: 'dom-family', Social: 'dom-social', Mind: 'dom-mind', Growth: 'dom-growth' };
@@ -165,6 +168,12 @@ function useModel(kind, date) {
   }, [chart, birthData, kind, date]);
 }
 
+// V5 (DES_15 R2/R7): the page's cards read one at a time; the back row and the
+// hero stay above them. Layout only.
+const Leaves = ({ id, title, children }) => (V5_LIVE
+  ? <LeafReader id={id} title={title} track={false} units=".al-card" minChars={900} Use={Use}>{children}</LeafReader>
+  : children);
+
 // ── the energy card, shared by the three pages ──────────────────────
 function EnergyCard({ m, who }) {
   const e = m.energy;
@@ -208,6 +217,7 @@ export function AlmanacDay({ onBack }) {
     <main className="al"><Sprite />
       <Back label="Almanac · Day" onBack={onBack} />
       <Hero el={m.energy.el} sign={m.energy.sign} eyebrow={`${WDL[t.getDay()]} ${fmt(date)} · ${/^[AEIOU]/.test(m.energy.el) ? 'an' : 'a'} ${m.energy.el} day`} head={m.head} />
+      <Leaves id="almanac-day" title="Today">
       <EnergyCard m={m} who="today" />
       <LandingCard m={m} who="today" />
       {seeker ? <>
@@ -218,6 +228,7 @@ export function AlmanacDay({ onBack }) {
       {adv ? <div className="al-card"><div className="al-l"><span>Loud days ahead</span><span className="r">the next five weeks</span></div>
         <div className="al-list">{m.ahead.map((a) => <button type="button" key={a.date} className="al-li" onClick={() => setDate(a.date)}><span className="d">{fmt(a.date)}</span><span style={{ color: `var(--${a.el})` }}><Use id={`el-${a.el.toLowerCase()}`} /></span><span>{a.head.text}</span></button>)}</div></div>
         : seeker ? <Lock tier="Advisor" what="The loud days of the next five weeks open with Advisor." /> : null}
+      </Leaves>
     </main>
   );
 }
@@ -231,6 +242,7 @@ export function AlmanacMonth({ onBack }) {
     <main className="al"><Sprite />
       <Back label="Almanac · Month" onBack={onBack} />
       <Hero el={m.energy.el} sign={m.energy.sign} eyebrow={`${fmt(p.start)} to ${fmt(p.end)} · an ${m.energy.el} month`.replace(/an ([^AEIOU])/, 'a $1')} head={m.head} />
+      <Leaves id="almanac-month" title="This month">
       <EnergyCard m={m} who="the month" />
       {isSeeker(tier) ? <>
         <LandingCard m={m} who="this month" />
@@ -242,6 +254,7 @@ export function AlmanacMonth({ onBack }) {
         <div className="al-card"><div className="al-l"><span>The month, day by day</span><span className="r">{m.marked.length} loud days</span></div><Ribbon items={m.days} now={m.today} bare note="Bars coloured by each day's energy. Signs mark the loud days." />
           <div className="al-list">{m.marked.map((a) => <div key={a.date} className="al-li"><span className="d">{fmt(a.date)}</span><Sign kind={a.sign} size={16} /><span>{a.head.text}</span></div>)}</div></div>
       </> : <Lock tier="Seeker" what="Where the month lands, your domains, the season and every day of the month open with Seeker." />}
+      </Leaves>
     </main>
   );
 }
@@ -255,6 +268,7 @@ export function AlmanacYear({ onBack }) {
     <main className="al"><Sprite />
       <Back label="Almanac · Year" onBack={onBack} />
       <Hero el={m.energy.el} sign={m.energy.sign} eyebrow={`${fmt(p.start)} ${p.start.slice(0, 4)} to ${fmt(p.end)} ${p.end.slice(0, 4)}`} head={m.head} />
+      <Leaves id="almanac-year" title="This year">
       {tier === 'advisor' ? <>
         <EnergyCard m={m} who="the year" />
         <LandingCard m={m} who="this year" />
@@ -264,6 +278,7 @@ export function AlmanacYear({ onBack }) {
           <div className="al-prog">{[...Array(10)].map((_, i) => <i key={i} style={{ background: i < m.decade.yearOf ? `color-mix(in srgb, var(--${m.decade.el}) ${i === m.decade.yearOf - 1 ? 100 : 55}%, transparent)` : undefined }} />)}</div>
           <div className="al-list">{m.ahead.map((a) => <div key={a.when} className="al-li"><span className="d">{a.when.length > 4 ? fmt(a.when) : a.when}</span>{a.el ? <span style={{ color: `var(--${a.el})` }}><Use id={`el-${a.el.toLowerCase()}`} /></span> : <Use id="dom-love" />}<span>{a.text}</span></div>)}</div></div> : null}
       </> : <Lock tier="Advisor" what="The year's energy, where it lands, your domains and its twelve months open with Advisor." />}
+      </Leaves>
     </main>
   );
 }
@@ -281,11 +296,14 @@ function usePushSchedule() {
 
 export function AlmanacHub({ onOpen }) {
   usePushSchedule();
+  const { tier } = useChart();
   const m = useModel('hub', isoDay(new Date()));
+  const dayM = useModel('day', isoDay(new Date()));   // V5: the week strip on the hub (Seeker, as on the Day page)
   if (!m) return null;
   const h = m.hub; const t = new Date(); const next = m.ahead[0];
   const tile = (x, eyebrow, route) => (
-    <button type="button" className="al-card al-tile" onClick={() => onOpen?.(route)}>
+    <button type="button" className={`al-card al-tile${V5_LIVE ? ' v5-tileart' : ''}`} onClick={() => onOpen?.(route)}>
+      {V5_LIVE ? <span className="v5-tart" style={{ backgroundImage: `url('${elementArt(x.el, route === 'app-year' ? null : undefined)}')` }} /> : null}
       <div className="al-row" style={{ gap: 8 }}><Dot el={x.el} size={34} sign={undefined} /><div style={{ minWidth: 0 }}><div className="al-l"><span>{eyebrow}</span></div><h2>{x.head.text}</h2></div></div>
       <div className="al-meterl"><span>{x.lift.value >= 0.2 ? '↑ lifts' : x.lift.value <= -0.2 ? '↓ weighs' : '· even'}</span><Loud n={x.loud} /></div>
     </button>
@@ -293,11 +311,19 @@ export function AlmanacHub({ onOpen }) {
   return (
     <main className="al"><Sprite />
       <header className="al-header"><span>Your Almanac</span><h1>Across time</h1></header>
-      <button type="button" className="al-hero" style={{ appearance: 'none', font: 'inherit', textAlign: 'left', cursor: 'pointer', color: 'inherit' }} onClick={() => onOpen?.('app-day')}>
-        <Dot el={m.energy.el} size={64} sign={m.energy.sign} />
-        <div style={{ minWidth: 0 }}><div className="e">Today · {WDL[t.getDay()].slice(0, 3)} {fmt(isoDay(t))}</div><h1>{m.head.text}</h1>
-          <div className="m"><span style={{ color: m.lift.value >= 0 ? 'var(--grow)' : 'var(--rel)' }}>{m.lift.word}</span><Loud n={m.loud} /><Sign kind={m.lead.kind} size={13} /></div></div>
-      </button>
+      {(() => {
+        const hero = (
+          <button type="button" className="al-hero" style={{ appearance: 'none', font: 'inherit', textAlign: 'left', cursor: 'pointer', color: 'inherit' }} onClick={() => onOpen?.('app-day')}>
+            <Dot el={m.energy.el} size={64} sign={m.energy.sign} />
+            <div style={{ minWidth: 0 }}><div className="e">Today · {WDL[t.getDay()].slice(0, 3)} {fmt(isoDay(t))}</div><h1>{m.head.text}</h1>
+              <div className="m"><span style={{ color: m.lift.value >= 0 ? 'var(--grow)' : 'var(--rel)' }}>{m.lift.word}</span><Loud n={m.loud} /><Sign kind={m.lead.kind} size={13} /></div></div>
+          </button>
+        );
+        // V5 (R7): today as one large painted card, on the day's element plate
+        return V5_LIVE ? <div className="v5-daycard"><span className="v5-dart" style={{ backgroundImage: `url('${elementArt(m.energy.el)}')` }} />{hero}</div> : hero;
+      })()}
+      {V5_LIVE ? <ContinueCard onOpen={onOpen} Use={Use} /> : null}
+      {V5_LIVE && isSeeker(tier) && dayM?.week ? <div className="al-card"><div className="al-l"><span>This week</span></div><Ribbon items={dayM.week} now={isoDay(t)} onPick={() => onOpen?.('app-day')} note="Bars: lift or weight. Tap a day to open today." /></div> : null}
       {next ? <div className="al-card" style={{ padding: '8px 12px' }}><div className="al-row" style={{ gap: 8, fontSize: 13.5 }}><Sign kind={next.sign} size={15} /><span><b>Next loud day</b> · {fmt(next.date)} · {next.head.text}</span></div></div> : null}
       <div className="al-tiles">{tile(h.month, 'This month', 'app-month')}{tile(h.year, 'This year', 'app-year')}</div>
       {h.decade ? <button type="button" className="al-card al-tile" onClick={() => onOpen?.('app-decade')}>

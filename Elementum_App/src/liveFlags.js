@@ -24,3 +24,9 @@ export const ALMANAC_LIVE = true;
 // the push worker with ALMANAC_PUSH = '1' (steps: ComparativeAnalysis/Handoffs/
 // 2026-10-19-event-signature/P4_STEPS.md).
 export const ALMANAC_PUSH = false;
+// V5 "The Combination" (owner rulings 2026-10-21, DES_15 R1–R11 A; owner: "Build
+// it directly into elementum.life in one shot"): the album hub on Your reading,
+// long sections read as cards, the energy pager, the balance on "How am I
+// running?", the existing element plate in the energy sheet, Today as home for
+// return visits with Continue reading. Turn off to restore the previous layout.
+export const V5_LIVE = true;

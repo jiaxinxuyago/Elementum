@@ -76,7 +76,11 @@ import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
-import { DEPTH_LIVE } from '../../liveFlags.js';
+import { DEPTH_LIVE, V5_LIVE } from '../../liveFlags.js';
+import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, markRead, SECTION_ART } from './V5Views.jsx';
+import { elementArt } from '../../styles/backgrounds.js';
+import { resolveAlmanac } from '../dashboard/almanac/almanacResolve.js';
+import { isoDay } from '../../engine/almanac/index.js';
 
 const FIRSTRUN_KEY = 'elementum_journey_v1_done';
 const CEREMONY_MS = 2800;
@@ -122,6 +126,10 @@ const DEPTH_SCREENS = ['domains', 'chapters', 'stars', 'blueprint'];
 // manual, the GROW/RELEASE rails, the hero arrow, the dot card and the
 // seal's share action retire under it (owner 2026-10-20). Live on
 // elementum.life from 2026-10-21 (the switch is in mergeFlag.js).
+// V5 (DES_15 R2): where each section page splits into cards, and what follows it
+const V5_UNITS = { domains: '.dp-head, .dp-domgrid', chapters: '.dp-head, .lc-chap, .lc-dec.now, .lc-years', stars: '.dp-head, .dp-starcard, .dp-seats > .dp-seat', blueprint: '.dp-head, .dp-bp' };
+const V5_TITLE = { domains: 'Your domains', chapters: 'Your life chapters', stars: 'Your stars', blueprint: 'Your energy blueprint' };
+const V5_ORDER = { domains: 'chapters', chapters: 'stars', stars: 'blueprint', blueprint: null };
 const WHEEL_VIEW_KEY = 'elm.wheelView';
 const readWheelView = () => { try { return localStorage.getItem(WHEEL_VIEW_KEY) || 'do'; } catch { return 'do'; } };
 // the words note's new words (R3), shown with the sections
@@ -132,7 +140,7 @@ const DEPTH_WORDS = {
   star: { label: 'Star', tint: 't-core', pill: 'core', icon: null, body: 'The symbolic stars are an older, lighter layer of the reading. Each one colours the gate it sits in, and some arrive with a decade or a year.' },
 };
 
-export default function JourneyStage({ reveal = false, openCore = false, openEl = null, openSection = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour, onBirthChart }) {
+export default function JourneyStage({ reveal = false, openCore = false, openEl = null, openSection = null, onDone, onOpenDayMaster, onOpenCodex, onDiscoverHour, onBirthChart, onOpenToday }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const { openUpgrade } = useUpgrade();   // THE EDGE's domain sheet leads to the price gate (owner 2026-10-15)
@@ -143,7 +151,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   // onto that energy's page, the same way.
   // `openSection` (THE DEPTH doors, B4): the Today tab's decade tile and the
   // Day Master and pillar pages open a section page directly.
-  const [screen, setScreen] = useState(() => (DEPTH_V1 && DEPTH_SCREENS.includes(openSection) && ec ? openSection : (openCore || openEl) && ec ? 'element' : 'catalogue'));
+  const [screen, setScreen] = useState(() => (V5_LIVE && openSection === 'run' && ec ? 'run' : DEPTH_V1 && DEPTH_SCREENS.includes(openSection) && ec ? openSection : (openCore || openEl) && ec ? 'element' : 'catalogue'));
   const [elOpen, setElOpen] = useState(() => (ec ? (openEl || (openCore ? coreElOf(ec) : null)) : null));      // element screen target
   const [showShare, setShowShare] = useState(false);
   const [cardStatus, setCardStatus] = useState(null);
@@ -175,6 +183,23 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const merged = useMemo(() => (MERGE_V1 && model ? buildMergedModel(model, chart) : null), [model, chart]);
 
   const playingReveal = reveal;
+  // V5 (R5): the five energy pages page sideways, in the first reading's order
+  const v5Order = useMemo(() => (V5_LIVE && merged ? merged.order : []), [merged]);
+  const v5Names = useMemo(() => (V5_LIVE && model ? Object.fromEntries(model.els.map((r) => [r.el, r.name])) : {}), [model]);
+  const v5Today = useMemo(() => {
+    if (!V5_LIVE || !chart) return null;
+    try { const a = resolveAlmanac(chart, { kind: 'hub', date: isoDay(new Date()), hourUnknown }); return { day: a?.energy?.el, month: a?.hub?.month?.el, year: a?.hub?.year?.el }; } catch { return null; }
+  }, [chart, hourUnknown]);
+  const elStageRef = useRef(null);
+  const pageEnergy = useCallback((d) => {
+    if (!v5Order.length || !elOpen) return;
+    const i = v5Order.indexOf(elOpen); const to = v5Order[(i + d + v5Order.length) % v5Order.length];
+    setElOpen(to); setPosOpen(null);
+    const sw = elStageRef.current?.querySelector('.scrollwrap'); if (sw) sw.scrollTop = 0;
+  }, [v5Order, elOpen]);
+  const swipeL = useCallback(() => pageEnergy(1), [pageEnergy]);
+  const swipeR = useCallback(() => pageEnergy(-1), [pageEnergy]);
+  useSwipe(elStageRef, swipeL, swipeR);
 
   const stageRef = useRef(null);
   const rvlRef = useRef(null);
@@ -209,7 +234,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   }, []);
 
 
-  const goElement = useCallback((el) => { setElOpen(el); setPosOpen(null); setScreen('element'); }, []);
+  const goElement = useCallback((el) => { setElOpen(el); setPosOpen(null); setScreen('element'); if (V5_LIVE) markRead('energies'); }, []);
 
   // Dev-only: expose the in-journey element screen to the DevBar
   // (it is internal state, not a hash route), and broadcast the current
@@ -453,13 +478,13 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
           <span className={`wd-link ${s.mech.verb}`}>
             <i className="wd-lawhz">{s.mech.verb === 'feeds' ? '生' : '克'}</i>
             <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
-            <span className="wd-lawtx">{s.mech.verb}</span>
+            <span className="wd-lawtx">{s.mech.verb === 'tames' ? 'shapes' : s.mech.verb}</span>
           </span>
           {capMv(s.mech.b)}
         </div>
       )}
       {/* the conclusion line: the equation caption fused with the role result */}
-      <span className="el-mvres"><span className="wd-eq el-mecheq">{s.mech.eq}</span>{mvResultFor(s)}</span>
+      <span className="el-mvres"><span className="wd-eq el-mecheq">{String(s.mech.eq).replace(/\btames\b/gi, (w) => (w === w.toUpperCase() ? 'SHAPES' : 'shapes'))}</span>{mvResultFor(s)}</span>
     </div>
   ) : null;
   // THE one-thumbnail (owner design 2026-09-02; de-dup + cover mode owner
@@ -508,6 +533,14 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const openDomain = (word, from) => { setDomOpen(word); setDomFrom(from); goScreen('domain'); };
   // THE DEPTH: the section models (Life Chapters, Stars, the Blueprint) and the domain page By position
   const depth = DEPTH_V1 && dm ? { dm, chapters: resolveChapters(chart, allPositions, depthOpts), stars: resolveStars(chart, depthOpts), blueprint: resolveBlueprint(chart, allPositions, depthOpts) } : null;
+  // V5: each section's own headline, used on the Next card that hands one section to the next
+  const v5Top = depth ? depth.dm.pages.filter((p) => p.seats.length).slice(0, 2) : [];
+  const v5Next = depth ? {
+    domains: v5Top.length === 2 && v5Top[0].seats.length === v5Top[1].seats.length ? `${v5Top[0].domain} and ${v5Top[1].domain} carry the most weight in your life` : `${v5Top[0]?.domain} carries the most weight in your life`,
+    chapters: `You are in your ${depth.chapters.chapters.find((c) => c.key === depth.chapters.gateNow)?.name.replace(/^The /, '') || ''}`,
+    stars: depth.stars.claim.text,
+    blueprint: depth.blueprint.title.replace(/ · .*/, ''),
+  } : {};
   const domView = DEPTH_V1 && domPage ? resolveDomainView(domPage, chart, DOMAINS_CONTENT, depthOpts) : null;
   const openDepth = (name, arg, from = 'catalogue') => {
     if (name === 'domain') { openDomain(arg, from); return; }
@@ -547,6 +580,33 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
     tint: m.byEl[dotOpen].isCore ? 't-core' : m.byEl[dotOpen].role === 'friction' ? 't-fric' : 't-cat',
     s: buildElementScreen(m, dotOpen),
   } : null;
+
+  // the wheel with its arrows (THE MERGE), shared by the merged beats and the V5 album
+  const mergedWheel = merged ? (
+                      <div className={`wheel mg-wheel${wheelView === 'do' ? ' mg-do' : ''}`} ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its sheet">
+                        <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="Your seal: how am I running?" onClick={() => goScreen('run')} />
+                        <WheelArrows m={m} g={merged} />
+                    {m.els.map((r) => (
+                      <button key={r.el} data-el={r.el}
+                        className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
+                        style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }}
+                        aria-label={`${r.name}, ${r.presence} percent — ${r.isCore ? 'your core' : r.role}; its relation with your core`}
+                        onClick={() => setSheetEl(r.el)}>
+                        <Use id={`el-${r.el}`} className="elmark" />
+                        <span className="pc">{r.presence}%</span>
+                        {r.isCore
+                          ? <span className="pip who"><Disc /></span>
+                          : r.role === 'friction'
+                            ? <span className="pip down"><Use id="ar-down" /></span>
+                            : <span className={`pip up${r.major ? ' major' : ''}`}><Use id="ar-up" /></span>}
+                        {/* function label (owner 2026-09-10: "label it but
+                            keep the design clean") — the §5f noun, micro */}
+                        <span className="fnlab">{fnNoun(r)}</span>
+                        <span className={`mg-rv ${merged.rows[r.el].pole}`}>{merged.rows[r.el].relLabel}</span>
+                      </button>
+                    ))}
+                      </div>
+  ) : null;
 
   // data-ca="dock" removed with the dock retirement (2026-08-19): its stale
   // padv2 padding-bottom:18px override was clipping every screen's tail under
@@ -712,39 +772,36 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 </div>
                 </>)}
                 {/* THE MERGE: beats 1–3 of "Your reading" */}
-                {MERGE_V1 && merged && (
+                {MERGE_V1 && merged && !V5_LIVE && (
                   <MergedBeats m={m} g={merged} Use={Use} sealSrc={sealSrc} condIcon={condIcon}
                     view={wheelView} setView={setWheelView}
                     onRun={() => goScreen('run')} onEnergy={(el) => setSheetEl(el)}
                     onShare={() => setShowShare(true)} onBirthChart={onBirthChart}
-                    wheel={(
-                      <div className={`wheel mg-wheel${wheelView === 'do' ? ' mg-do' : ''}`} ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its sheet">
-                        <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="Your seal: how am I running?" onClick={() => goScreen('run')} />
-                        <WheelArrows m={m} g={merged} />
-                    {m.els.map((r) => (
-                      <button key={r.el} data-el={r.el}
-                        className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
-                        style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }}
-                        aria-label={`${r.name}, ${r.presence} percent — ${r.isCore ? 'your core' : r.role}; its relation with your core`}
-                        onClick={() => setSheetEl(r.el)}>
-                        <Use id={`el-${r.el}`} className="elmark" />
-                        <span className="pc">{r.presence}%</span>
-                        {r.isCore
-                          ? <span className="pip who"><Disc /></span>
-                          : r.role === 'friction'
-                            ? <span className="pip down"><Use id="ar-down" /></span>
-                            : <span className={`pip up${r.major ? ' major' : ''}`}><Use id="ar-up" /></span>}
-                        {/* function label (owner 2026-09-10: "label it but
-                            keep the design clean") — the §5f noun, micro */}
-                        <span className="fnlab">{fnNoun(r)}</span>
-                        <span className={`mg-rv ${merged.rows[r.el].pole}`}>{merged.rows[r.el].relLabel}</span>
-                      </button>
-                    ))}
+                    wheel={mergedWheel} />
+                )}
+                {/* V5 (owner rulings 2026-10-21, DES_15 R1): Your reading as the album —
+                    identity strip, the wheel tile (unchanged), the read line, the tiles */}
+                {V5_LIVE && merged && (
+                  <AlbumHub m={m} g={merged} depth={depth} positions={allPositions} hourUnknown={hourUnknown}
+                    sealSrc={sealSrc} condIcon={condIcon} Use={Use} DOM={DOM}
+                    onRun={() => goScreen('run')} onEnergy={(el) => setSheetEl(el)} onBirthChart={onBirthChart}
+                    onOpen={(name) => openDepth(name, null, 'catalogue')}
+                    wheelTile={(
+                      <div className="cardstock mg-wtile">
+                        <div className="mg-wthead">
+                          <span className="sec-eyebrow mg-ey">YOUR FIVE ENERGIES</span>
+                          <div className="mg-seg" role="group" aria-label="Wheel view">
+                            <button type="button" aria-pressed={wheelView === 'do'} onClick={() => setWheelView('do')}>What they do to you</button>
+                            <button type="button" aria-pressed={wheelView === 'amt'} onClick={() => setWheelView('amt')}>By amount</button>
+                          </div>
+                        </div>
+                        {mergedWheel}
+                        <p className="mg-whint">Tap an energy. Tap the seal for how you run.</p>
                       </div>
                     )} />
                 )}
                 {/* YOUR DOMAINS, the fourth beat (DOM-1, owner 2026-10-17 Q1/Q2 A) */}
-                {DOMAINS_V2 && dm && (
+                {DOMAINS_V2 && !V5_LIVE && dm && (
                   <>
                     <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="4"]'), 56)}><span>See where your life is ruled</span><Use id="ar-down" /></button>
                     <div className="beat" data-beat="4">
@@ -754,7 +811,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                   </>
                 )}
                 {/* THE DEPTH (owner 2026-10-18): Domains, Life Chapters, Stars, then Going deeper and the Blueprint */}
-                {depth && <DepthBeats d={depth} positions={allPositions} hourUnknown={hourUnknown} Use={Use} DOM={DOM} onOpen={(name, arg) => openDepth(name, arg, 'catalogue')} />}
+                {depth && !V5_LIVE && <DepthBeats d={depth} positions={allPositions} hourUnknown={hourUnknown} Use={Use} DOM={DOM} onOpen={(name, arg) => openDepth(name, arg, 'catalogue')} />}
                 {/* (the beat-3 SEEK/SKIP panels retired 2026-09-10 — their
                     rows live on as YOUR ENERGY MANUAL's doors in beat 2;
                     SKIP re-worded EASE so the core itself can sit there) */}
@@ -787,21 +844,32 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 <span className="bl el-back">YOUR READING · HOW YOU RUN</span>
               </button>
               <div className="scrollwrap"><div className="padv2">
+                {V5_LIVE ? (
+                  <LeafReader id="run" title="How am I running?" route="section:run" Use={Use}
+                    units=".mg-runhead, .mg-cr > .mg-sec, .mg-bpdoor"
+                    next={depth ? { label: 'Your domains', title: v5Next.domains, art: SECTION_ART.domains, onGo: () => openDepth('domains', null, 'catalogue') } : null}>
+                    <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon}
+                      balance={<Balance m={m} g={merged} sealSrc={sealSrc} fnNoun={fnNoun} Use={Use} />}
+                      onBlueprint={depth ? () => openDepth('blueprint', null, 'run') : null} />
+                  </LeafReader>
+                ) : (
                 <RunPage m={m} g={merged} nature={runNature} Use={Use} condIcon={condIcon}
                   onBlueprint={depth ? () => openDepth('blueprint', null, 'run') : null} />
+                )}
               </div></div>
             </div>
           )}
 
           {/* ── element reading ── */}
           {elScreen && (
-            <div className={`jscreen${screen === 'element' ? ' active' : ''}`} data-screen="element">
+            <div className={`jscreen${screen === 'element' ? ' active' : ''}`} data-screen="element" ref={elStageRef}>
               <div className="plateimg a-plate-rice" /><div className="eltint" />
               <button className="backrow" aria-label="Back to Readings" onClick={() => goScreen('catalogue')}>
                 <span className="bico"><Use id="ico-chev-l" /></span>
                 <span className="bl el-back">YOUR ENERGIES · {elScreen.name}</span>
               </button>
               <div className="scrollwrap"><div className="padv2">
+                {V5_LIVE && v5Order.length ? <EnergyPager order={v5Order} el={elScreen.el} names={v5Names} onGo={(el) => { goElement(el); requestAnimationFrame(() => { const sw = stageRef.current?.querySelector('.jscreen[data-screen="element"] .scrollwrap'); if (sw) sw.scrollTop = 0; }); }} Use={Use} /> : null}
                 {/* THE HERO CARD (owner 2026-09-01): the art band and the
                     mechanism card CONSOLIDATED — the old energy-pill expanded
                     card reborn at element grain. Anatomy by significance:
@@ -877,6 +945,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                     <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 ) : null}
+                {V5_LIVE ? <AcrossChart name={elScreen.elName} L={depth?.chapters} today={v5Today} Use={Use} onChapters={() => openDepth('chapters', null, 'element')} onToday={onOpenToday} /> : null}
               </div></div>
             </div>
           )}
@@ -1280,7 +1349,14 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 <span className="bl el-back">{(domFrom === 'element' || domFrom === 'elsec') && elScreen ? `${elScreen.name} · ` : 'YOUR DOMAINS · '}{domView.domain.toUpperCase()}</span>
               </button>
               <div className="scrollwrap"><div className="padv2 dp-pad">
+                {V5_LIVE ? (
+                  <LeafReader key={domView.domain} id={`domain-${domView.domain}`} title={domView.domain} Use={Use}
+                    units=".dp-head, .dp-step, .dp-seats > .dp-seat, .dp-seats > .dp-gaprow, .dp-dec, .dp-yr" pinned=".dp-tabs">
+                    <DomainReadingPage v={domView} positions={allPositions} age={depth.chapters.age} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onChapters={() => openDepth('chapters', null, 'domain')} Use={Use} DOM={DOM} />
+                  </LeafReader>
+                ) : (
                 <DomainReadingPage key={domView.domain} v={domView} positions={allPositions} age={depth.chapters.age} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onChapters={() => openDepth('chapters', null, 'domain')} Use={Use} DOM={DOM} />
+                )}
               </div></div>
             </div>
           )}
@@ -1292,10 +1368,21 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                 <span className="bl el-back">{DEPTH_BACK[name]}</span>
               </button>
               <div className="scrollwrap"><div className="padv2 dp-pad">
+                {V5_LIVE ? (
+                  <LeafReader id={name} title={V5_TITLE[name]} route={`section:${name}`} Use={Use}
+                    units={V5_UNITS[name]}
+                    next={V5_ORDER[name] ? { label: V5_TITLE[V5_ORDER[name]], title: v5Next[V5_ORDER[name]], art: SECTION_ART[V5_ORDER[name]], onGo: () => openDepth(V5_ORDER[name], null, 'catalogue') } : null}>
                 {name === 'domains' && <DomainsHubPage dm={depth.dm} Use={Use} DOM={DOM} onOpen={(d) => openDepth('domain', d, 'domains')} />}
                 {name === 'chapters' && <ChaptersPage L={depth.chapters} positions={allPositions} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onOpenDomain={(d) => openDepth('domain', d, 'chapters')} onOpenStars={() => openDepth('stars', null, 'chapters')} onDiscoverHour={onDiscoverHour} Use={Use} />}
                 {name === 'stars' && <StarsPage S={depth.stars} tier={tier} onUpgrade={openUpgrade} Use={Use} />}
                 {name === 'blueprint' && <BlueprintPage B={depth.blueprint} tier={tier} onUpgrade={openUpgrade} seek={m.seek.map((x) => x.el)} ease={m.skip.map((x) => x.el)} Use={Use} />}
+                  </LeafReader>
+                ) : (<>
+                {name === 'domains' && <DomainsHubPage dm={depth.dm} Use={Use} DOM={DOM} onOpen={(d) => openDepth('domain', d, 'domains')} />}
+                {name === 'chapters' && <ChaptersPage L={depth.chapters} positions={allPositions} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onOpenDomain={(d) => openDepth('domain', d, 'chapters')} onOpenStars={() => openDepth('stars', null, 'chapters')} onDiscoverHour={onDiscoverHour} Use={Use} />}
+                {name === 'stars' && <StarsPage S={depth.stars} tier={tier} onUpgrade={openUpgrade} Use={Use} />}
+                {name === 'blueprint' && <BlueprintPage B={depth.blueprint} tier={tier} onUpgrade={openUpgrade} seek={m.seek.map((x) => x.el)} ease={m.skip.map((x) => x.el)} Use={Use} />}
+                </>)}
               </div></div>
             </div>
           ))}
@@ -1320,7 +1407,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
           behind an energy page or a domain reading and is there on back */}
       {MERGE_V1 && merged && sheetEl && screen === 'catalogue' && (
         <EnergySheet row={merged.rows[sheetEl]} first={merged.first === sheetEl} Use={Use} DOM={DOM}
-          art={IS_DEV_TOOLS}
+          art={V5_LIVE ? elementArt(sheetEl, chart?.dayMaster?.stem) : IS_DEV_TOOLS}
           onClose={() => setSheetEl(null)}
           onRead={() => goElement(sheetEl)}
           onDomain={depth ? (d) => openDepth('domain', d, 'catalogue') : null} />

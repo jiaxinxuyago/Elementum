@@ -1,0 +1,134 @@
+/* ===================================================================
+   ELEMENTUM · V5 "The Combination" (DES_15, owner rulings 2026-10-21)
+   Layout only. Tokens are the app's own (journey.css / almanac.css),
+   with the canonical hex as fallback so the card reader also works on
+   the Almanac pages. No italic. Chop-red stays reserved: the read stamp
+   is ink, so the hero's red rule remains the one red on Your reading.
+   =================================================================== */
+
+/* ── the card reader (R2) ─────────────────────────────────────────── */
+[data-lf-off]{ display:none !important; }
+.lf{ display:flex; flex-direction:column; gap:10px; }
+.lf-bar{ position:sticky; top:0; z-index:5; padding:6px 2px 8px; background:linear-gradient(var(--silk,#F1E9D6) 78%, rgba(241,233,214,0)); }
+.lf-prog{ display:flex; gap:3px; }
+.lf-prog i{ flex:1; height:2px; border-radius:1px; background:rgba(43,39,34,.16); }
+.lf-prog i.on{ background:var(--ink,#2B2722); }
+.lf-meta{ display:flex; justify-content:space-between; align-items:center; margin-top:7px; font-family:'EB Garamond',Georgia,serif; font-size:12px; color:var(--inkLight,#6f6b66); }
+.lf-mode{ border:1px dashed var(--paperHair,#CDBE9E); background:none; border-radius:999px; padding:3px 10px; font:inherit; font-size:12px; color:var(--bronzeDark,#6b5339); cursor:pointer; }
+.lf-cards .lf-body{ cursor:pointer; min-height:52vh; display:flex; flex-direction:column; gap:12px; animation:lfIn .32s cubic-bezier(.22,1,.36,1); }
+.lf-cards .lf-body button, .lf-cards .lf-body a{ cursor:pointer; }
+@keyframes lfIn{ from{ opacity:.35; transform:translateX(10px); } to{ opacity:1; transform:none; } }
+.lf-foot{ display:flex; align-items:center; justify-content:space-between; gap:10px; padding:2px 2px 4px; }
+.lf-hint{ font-family:'EB Garamond',Georgia,serif; font-size:12px; color:var(--inkLight,#6f6b66); }
+.lf-nav{ width:40px; height:40px; border-radius:50%; border:1px solid var(--paperHair,#CDBE9E); background:rgba(250,246,238,.9); color:var(--ink,#2B2722); display:grid; place-items:center; cursor:pointer; }
+.lf-nav.dark{ background:#26221D; border-color:#26221D; color:#F3EDDF; }
+.lf-nav svg{ width:15px; height:15px; fill:currentColor; }
+.lf-nav:disabled{ opacity:.3; cursor:default; }
+.lf-next{ display:flex; align-items:center; gap:12px; width:100%; text-align:left; border:1px solid var(--paperHair,#CDBE9E); border-radius:16px; padding:10px; background:var(--cardstock,rgba(248,241,225,.94)); font:inherit; color:inherit; cursor:pointer; }
+.lf-nart{ width:62px; height:62px; flex:none; border-radius:12px; background-size:cover; background-position:center; }
+.lf-ntx{ flex:1; min-width:0; display:flex; flex-direction:column; gap:2px; }
+.lf-ney{ font-family:'EB Garamond',Georgia,serif; font-size:9.5px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--bronzeDark,#6b5339); }
+.lf-ntx b{ font-family:'Cormorant Garamond',Georgia,serif; font-size:18px; font-weight:500; line-height:1.2; }
+.lf-next .readcirc, .v5-hub .readcirc{ width:30px; height:30px; border-radius:50%; background:#26221D; color:#F3EDDF; display:inline-grid; place-items:center; flex:none; }
+.lf-next .readcirc svg, .v5-hub .readcirc svg{ width:12px; height:12px; fill:currentColor; }
+/* the Almanac pages keep their back row and hero above the cards */
+.al .lf{ gap:12px; }
+
+/* ── the album hub (R1, R4, R8, R10) ──────────────────────────────── */
+.jny .v5-hub{ display:flex; flex-direction:column; gap:10px; }
+.jny .v5-id{ display:flex; align-items:center; gap:10px; }
+.jny .v5-idseal{ width:44px; height:44px; border-radius:50%; overflow:hidden; border:1px solid var(--paperHair); background:var(--cream); flex:none; }
+.jny .v5-idseal img{ width:100%; height:100%; object-fit:cover; }
+.jny .v5-idnm{ display:flex; flex-direction:column; min-width:0; flex:1; }
+.jny .v5-idnm b{ font-family:'Cormorant Garamond',Georgia,serif; font-weight:500; font-size:24px; line-height:1; color:var(--walnut,#5a4430); }
+.jny .v5-idact{ display:flex; flex-direction:column; align-items:flex-end; gap:5px; }
+.jny .v5-mani{ margin:0; font-family:'Cormorant Garamond',Georgia,serif; font-weight:500; font-size:16.5px; line-height:1.3; color:var(--inkSoft); border-left:3px solid var(--sealRed,#A04030); padding-left:10px; }
+.jny .v5-readline{ display:flex; align-items:center; gap:10px; font-size:12px; color:var(--inkLight); padding:0 2px; }
+.jny .v5-rlprog{ flex:1; height:3px; border-radius:2px; background:var(--silkFold,#DDD1B3); overflow:hidden; }
+.jny .v5-rlprog i{ display:block; height:100%; background:var(--ink); }
+.jny .v5-bento{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.jny .v5-bt{ position:relative; overflow:hidden; display:flex; flex-direction:column; align-items:flex-start; gap:6px; min-height:136px; padding:12px; border-radius:16px; border:1px solid var(--paperHair); background:var(--cardstock); box-shadow:0 1px 0 rgba(43,39,34,.04); font:inherit; color:inherit; text-align:left; cursor:pointer; min-width:0; }
+.jny .v5-bt.wide{ grid-column:span 2; min-height:0; }
+.jny .v5-bt.tall{ min-height:196px; }
+.jny .v5-bt.art{ justify-content:flex-end; }
+.jny .v5-art{ position:absolute; inset:0; background-size:cover; background-position:center 30%; }
+.jny .v5-bt.art::before{ content:""; position:absolute; inset:0; z-index:1; background:linear-gradient(180deg, rgba(248,241,225,0) 12%, rgba(248,241,225,.95) 60%); }
+.jny .v5-bt > *:not(.v5-art):not(.v5-stamp):not(.v5-unread){ position:relative; z-index:2; }
+.jny .v5-ey{ font-family:'EB Garamond',Georgia,serif; font-size:9px; font-weight:600; letter-spacing:1.8px; text-transform:uppercase; color:var(--bronzeDark); }
+.jny .v5-cl{ font-family:'Cormorant Garamond',Georgia,serif; font-weight:500; font-size:18px; line-height:1.2; text-wrap:balance; }
+.jny .v5-cl.sm{ font-size:15.5px; }
+.jny .v5-zh{ font-family:'Noto Serif SC',serif; font-size:13px; color:var(--bronzeDark); }
+.jny .v5-ft{ display:flex; align-items:center; gap:6px; width:100%; margin-top:auto; font-size:12px; color:var(--inkLight); line-height:1.3; }
+.jny .v5-ft em{ font-style:normal; }
+.jny .v5-ft .readcirc{ margin-left:auto; }
+.jny .v5-dial{ width:96px; align-self:center; margin:auto 0; }
+.jny .v5-center{ align-self:center; margin:auto 0 2px; }
+.jny .v5-stamp{ position:absolute; top:10px; right:10px; z-index:3 !important; width:22px; height:22px; border-radius:4px; display:grid; place-items:center; background:var(--dmBorder,#584A3E); color:#F8F1E1; font-family:'Noto Serif SC',serif; font-size:12px; line-height:1; }
+.jny .v5-unread{ position:absolute; top:12px; right:12px; z-index:3 !important; width:7px; height:7px; border-radius:50%; background:var(--ink); }
+.jny .v5-doms{ display:grid; grid-template-columns:repeat(4,1fr); gap:6px 4px; width:100%; }
+.jny .v5-doms span{ display:flex; flex-direction:column; align-items:center; gap:2px; font-size:10px; color:var(--inkSoft); }
+.jny .v5-doms svg{ width:18px; height:18px; fill:currentColor; color:var(--bronzeDark); }
+.jny .v5-doms span.hv{ font-weight:700; color:var(--ink); }
+.jny .v5-doms span.hv svg{ color:var(--ink); }
+.jny .v5-life{ width:100%; }
+.jny .v5-asks{ gap:8px; }
+.jny .v5-rx{ display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; }
+.jny .v5-rxg{ display:flex; align-items:center; gap:4px; }
+.jny .v5-rxl{ display:inline-flex; align-items:center; gap:3px; font-size:9px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; margin-right:2px; }
+.jny .v5-rxl svg{ width:11px; height:11px; fill:currentColor; }
+.jny .v5-rxl.fric{ color:var(--down); } .jny .v5-rxl.cat{ color:var(--up); }
+.jny .v5-rxb{ border:0; background:none; padding:0; cursor:pointer; border-radius:50%; }
+.v5-dot{ display:inline-grid; place-items:center; border-radius:50%; background-size:cover; background-position:center; flex:none; color:#2B2722; }
+.v5-dot svg{ width:38%; height:38%; fill:currentColor; }
+
+/* ── the balance (R11) ─────────────────────────────────────────────── */
+.jny .v5-balance{ display:grid; grid-template-columns:1fr auto 1fr; gap:8px; align-items:center; width:100%; margin:4px 0 2px; }
+.jny .v5-bside{ display:flex; flex-direction:column; align-items:center; gap:6px; padding:10px 6px; border-radius:12px; border:1px solid var(--borderLight,#E5DFD1); background:rgba(255,255,255,.35); text-align:center; min-width:0; }
+.jny .v5-blab{ font-family:'Cinzel',Georgia,serif; font-size:8.5px; letter-spacing:1.4px; text-transform:uppercase; }
+.jny .v5-bside.fric .v5-blab{ color:var(--down); } .jny .v5-bside.cat .v5-blab{ color:var(--up); } .jny .v5-bside.cond .v5-blab{ color:var(--bronzeDark); }
+.jny .v5-bdots{ display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:3px; }
+.jny .v5-bnames{ font-size:10.5px; line-height:1.3; color:var(--inkLight); }
+.jny .v5-bmid{ display:flex; flex-direction:column; align-items:center; gap:4px; width:84px; }
+.jny .v5-bmid img{ width:52px; height:52px; border-radius:50%; object-fit:cover; border:1px solid var(--paperHair); background:var(--cream); }
+.jny .v5-bmid .mg-dial{ max-width:76px; }
+
+/* ── the energy pager (R5) and the energy across the chart ─────────── */
+.jny .v5-pager{ display:flex; align-items:center; justify-content:space-between; gap:8px; padding:0 2px 6px; }
+.jny .v5-pager button{ display:inline-flex; align-items:center; gap:4px; border:0; background:none; font-family:'EB Garamond',Georgia,serif; font-size:12.5px; color:var(--inkSoft); cursor:pointer; padding:6px 2px; min-height:32px; }
+.jny .v5-pager svg{ width:12px; height:12px; fill:currentColor; }
+.jny .v5-pdots{ display:flex; gap:6px; }
+.jny .v5-pdots i{ width:6px; height:6px; border-radius:50%; background:var(--inkMist,#B8AFA1); }
+.jny .v5-across{ display:flex; flex-direction:column; gap:8px; }
+.jny .v5-arow{ display:flex; flex-direction:column; gap:6px; width:100%; text-align:left; border:0; border-top:1px solid var(--borderLight,#E5DFD1); background:none; padding:10px 0 2px; font:inherit; color:inherit; cursor:pointer; }
+.jny .v5-alab{ font-family:'Cinzel',Georgia,serif; font-size:8.5px; letter-spacing:1.4px; text-transform:uppercase; color:var(--bronzeDark); }
+.jny .v5-aval{ display:flex; gap:6px; align-items:flex-end; }
+.jny .v5-aval > span{ display:flex; flex-direction:column; align-items:center; gap:2px; opacity:.4; }
+.jny .v5-aval > span.on{ opacity:1; }
+.jny .v5-aval small{ font-size:10px; color:var(--inkLight); }
+.jny .v5-anote{ font-size:13.5px; line-height:1.4; color:var(--inkSoft); }
+
+/* ── the energy sheet's picture (R9): the existing element plate ───── */
+.jny .mg-ill.v5-plate{ border:0; background-size:cover; background-position:center; position:relative; overflow:hidden; }
+.jny .mg-ill.v5-plate::after{ content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(248,246,240,0) 55%, var(--cream,#F8F6F0)); }
+
+/* ── Today (R7): the painted day card, the week, Continue reading ──── */
+.al .v5-daycard{ position:relative; overflow:hidden; border-radius:22px; min-height:300px; display:flex; flex-direction:column; justify-content:flex-end; border:1px solid var(--hair,#CDBE9E); }
+.al .v5-daycard .v5-dart{ position:absolute; inset:0; background-size:cover; background-position:center 30%; }
+.al .v5-daycard::before{ content:""; position:absolute; inset:0; z-index:1; background:linear-gradient(180deg, rgba(241,233,214,0) 22%, rgba(248,241,225,.96) 66%); }
+.al .v5-daycard > .al-hero{ position:relative; z-index:2; background:none; border:0; box-shadow:none; }
+.al .al-card.v5-cont{ display:flex; flex-direction:row; align-items:center; gap:12px; width:100%; text-align:left; font:inherit; color:inherit; cursor:pointer; }
+.al .v5-book{ width:50px; height:68px; flex:none; border-radius:6px 10px 10px 6px; background-size:cover; background-position:center; box-shadow:inset 3px 0 0 rgba(43,39,34,.25); border:1px solid var(--hair,#CDBE9E); }
+.al .v5-ctx{ flex:1; min-width:0; display:flex; flex-direction:column; gap:2px; }
+.al .v5-cey{ font-size:10px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--bronzeDark,#6b5339); }
+.al .v5-ctx b{ font-family:'Cormorant Garamond',Georgia,serif; font-size:19px; font-weight:500; line-height:1.2; }
+.al .v5-ctx small{ font-size:12px; color:var(--inkl,#6f6b66); }
+.al .v5-cprog{ height:3px; border-radius:2px; background:#DDD1B3; overflow:hidden; margin-top:3px; }
+.al .v5-cprog i{ display:block; height:100%; background:#2B2722; }
+.al .v5-cont > svg{ width:16px; height:16px; flex:none; fill:currentColor; }
+.al .v5-tileart{ position:relative; overflow:hidden; }
+.al .v5-tileart .v5-tart{ position:absolute; inset:0 0 auto; height:70px; background-size:cover; background-position:center; opacity:.9; }
+.al .v5-tileart .v5-tart::after{ content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(248,241,225,0) 20%, rgba(251,246,234,1)); }
+.al .v5-tileart > *:not(.v5-tart){ position:relative; }
+.al .v5-tileart .al-row{ margin-top:46px; }
+
+@media (prefers-reduced-motion: reduce){ .lf-cards .lf-body{ animation:none; } }
