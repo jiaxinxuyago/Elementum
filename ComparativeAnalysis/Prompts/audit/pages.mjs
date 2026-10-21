@@ -149,7 +149,57 @@ async function chaptersSurface() {
   return pages;
 }
 
-export const SURFACES = { chapters: { describe: 'LIFE CHAPTERS, energy first: the chapters page as composed for real charts (greedy cover of every unit) plus the unreached units', build: chaptersSurface }, domains: { describe: 'THE DOMAINS: domain pages as composed for real charts (greedy cover of every unit) plus the unreached units', build: domainsSurface }, function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
+// YOUR ALMANAC (EVT-1, owner rounds 1–4; section audit R1 A 2026-10-21): the Day, Month and Year pages and the reminder,
+// as almanacResolve.js composes them for real charts on real dates; greedy, so every unit of tpl_almanac is reached on some
+// page. The year's energy line and landing are Life Chapters' shared lines (L9 A) and the By-year domain lines the Domains
+// section's: they are shown for context, keyed to their owners, and are not this audit's to fix.
+async function almanacSurface() {
+  process.env.TZ = 'Asia/Shanghai';
+  const { calculateBaziChart } = await import(ROOT + 'Elementum_App/src/engine/calculator.js');
+  const { resolveAlmanac } = await import(ROOT + 'Elementum_App/src/components/dashboard/almanac/almanacResolve.js');
+  const { ALMANAC_UNITS } = await import(A + 'almanac.js');
+  const { buildEnergyChart } = await import(ROOT + 'Elementum_App/src/engine/buildEnergyChart.js');
+  const STEM_EL = { 甲: 'Wood', 乙: 'Wood', 丙: 'Fire', 丁: 'Fire', 戊: 'Earth', 己: 'Earth', 庚: 'Metal', 辛: 'Metal', 壬: 'Water', 癸: 'Water' };
+  const all = new Set(Object.keys(ALMANAC_UNITS)); const seen = new Set(); const pages = [];
+  const PUSHABLE = new Set(['clash', 'punish', 'harm', 'bind', 'frame', 'repeat', 'return', 'turned', 'mark']);
+  const sectionsOf = (m, kind) => {
+    const e = m.energy; const sec = [];
+    sec.push({ head: 'HEADLINE', sub: `${e.el} · ${e.fn} · ${e.sign > 0 ? 'grow' : e.sign < 0 ? 'release' : 'even'} · lift ${m.lift.word} · loudness ${m.loud}`, key: m.head.keys.join(' + '), text: m.head.text });
+    sec.push({ head: kind === 'year' ? 'THE YEAR CARRIES' : kind === 'month' ? 'THE MONTH CARRIES' : 'TODAY CARRIES', sub: `${e.el} over ${e.gel} · state ${e.state}`, key: m.line.key, text: m.line.text });
+    sec.push({ head: 'UNDERNEATH', sub: e.ground, key: m.ground.key, text: m.ground.text });
+    if (m.landing.clause) sec.push({ head: 'WHERE IT LANDS · engine clause', sub: `${m.lead.kind}${m.lead.gate ? ' · ' + m.lead.gate : ''} · ${m.rarity}`, key: '', text: m.landing.clause, nonProse: true });
+    if (m.landing.body?.text) sec.push({ head: 'WHERE IT LANDS', sub: m.lead.kind, key: m.landing.body.key, text: m.landing.body.text });
+    if (m.landing.echo?.text) sec.push({ head: 'ECHO', sub: '', key: m.landing.echo.key, text: m.landing.echo.text });
+    for (const d of m.domains) {
+      if (d.fav && d.fav.lean) sec.push({ head: `FAVOURS · ${d.domain}`, sub: `${d.dir} · weight ${d.lvl}`, key: d.fav.key, text: `${d.fav.lean} over ${d.fav.over}`, nonProse: true });
+      if (d.line && !d.line.draft) sec.push({ head: `THE YEAR IN ${d.domain.toUpperCase()}`, sub: 'Domains section', key: d.line.key, text: d.line.text });
+    }
+    if (kind === 'day' && PUSHABLE.has(m.lead.kind) && m.loud >= 4) {
+      const pk = `PUSH · ${m.lead.key}`; if (ALMANAC_UNITS[pk]) sec.push({ head: 'REMINDER', sub: `title: ${m.head.text}`, key: pk, text: ALMANAC_UNITS[pk] });
+    }
+    return sec;
+  };
+  const keysOf = (sec) => sec.flatMap((x) => (x.key ? x.key.split(' + ') : []));
+  const add = (group, title, sec) => { const fresh = keysOf(sec).filter((k) => all.has(k) && !seen.has(k)); if (!fresh.length) return; keysOf(sec).forEach((k) => seen.add(k)); pages.push({ id: `${group[0].toUpperCase()}${String(pages.length + 1).padStart(3, '0')}`, group, title, sections: sec, exempt: ['Wood', 'Fire', 'Earth', 'Metal', 'Water', 'Body', 'Mind', 'Expression', 'Action', 'Order'] }); };
+  const pad = (n) => String(n).padStart(2, '0');
+  let i = 0;
+  for (const y of [1995, 1990, 1992, 1984, 2001, 1978, 1969, 1998, 1987, 2004, 1975, 1993]) for (const [mo, hr] of [[1, 2], [4, 18], [7, 11], [10, 6], [12, 22]]) {
+    i++; const birth = { year: y, month: mo, day: 3 + ((y + mo * 5) % 25), hour: hr, location: 'Beijing', gender: i % 2 ? 'male' : 'female' };
+    const hu = i % 11 === 0; let chart; try { chart = calculateBaziChart(birth); } catch { continue; }
+    const bd = `${y}-${pad(mo)}-${pad(birth.day)}`; const dm = chart.pillars.day.stem; const band = buildEnergyChart(chart).band;
+    const who = `born ${bd} ${hr}:00${hu ? ' · no birth hour' : ''} · Day Master ${dm} ${STEM_EL[dm]} · ${{ concentrated: 'Overfueled', balanced: 'Balanced', open: 'Underfueled' }[band]} · pillars ${['year', 'month', 'day', 'hour'].map((g) => chart.pillars[g].stem + chart.pillars[g].branch).join(' ')}`;
+    for (let k = 0; k < 60; k++) { const t = new Date(2026, 9, 1 + k * 7 + (i % 7)); const date = `${t.getFullYear()}-${pad(t.getMonth() + 1)}-${pad(t.getDate())}`;
+      const m = resolveAlmanac(chart, { kind: 'hub', date, hourUnknown: hu, birthDate: bd }); add('day', `Day · ${date} · ${who}`, sectionsOf(m, 'day'));
+      if (k % 4 === 0) { const mm = resolveAlmanac(chart, { kind: 'month', date, hourUnknown: hu, birthDate: bd }); add('month', `Month · ${mm.period.start} to ${mm.period.end} · ${who}`, sectionsOf(mm, 'month')); }
+      if (k % 26 === 0) { const yy = resolveAlmanac(chart, { kind: 'year', date, hourUnknown: hu, birthDate: bd }); add('year', `Year · ${yy.period.start} to ${yy.period.end} · ${who}`, sectionsOf(yy, 'year')); }
+    }
+  }
+  const miss = [...all].filter((k) => !seen.has(k));
+  if (miss.length) pages.push({ id: 'U999', group: 'unreached', title: `Units no sampled page reaches (${miss.length}), read raw`, sections: miss.map((k) => ({ head: 'UNIT', sub: '', key: k, text: ALMANAC_UNITS[k] })), exempt: [] });
+  return pages;
+}
+
+export const SURFACES = { almanac: { describe: 'YOUR ALMANAC: the Day, Month and Year pages and the reminder as composed for real charts and dates (greedy cover of tpl_almanac) plus the unreached units', build: almanacSurface }, chapters: { describe: 'LIFE CHAPTERS, energy first: the chapters page as composed for real charts (greedy cover of every unit) plus the unreached units', build: chaptersSurface }, domains: { describe: 'THE DOMAINS: domain pages as composed for real charts (greedy cover of every unit) plus the unreached units', build: domainsSurface }, function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
 
 export function toMarkdown(pages, group) {
   const parts = [`# ${group} · pages as read`, ''];
