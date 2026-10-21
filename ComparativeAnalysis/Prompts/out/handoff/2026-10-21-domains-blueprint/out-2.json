@@ -76,7 +76,7 @@
    "key": "SEASON geng.yin · reading",
    "kind": "season",
    "page": "season-geng",
-   "text": "Early spring belongs to Wood, and winter's chill still clings to you while the Earth that should feed you sits too weak to help. The sun's Fire comes first to warm you and Wood second to keep Earth from piling over you, and you take your edge from heat more than from shelter."
+   "text": "Early spring belongs to Wood, and winter's chill still clings to you while the Earth that feeds you sits too weak to help. The sun's Fire comes first to warm you, then Wood to stop Earth from piling over you, and you take your edge from heat more than from shelter."
   },
   {
    "key": "SEASON geng.mao · reading",
@@ -106,7 +106,7 @@
    "key": "SEASON geng.shen · reading",
    "kind": "season",
    "page": "season-geng",
-   "text": "Autumn opens in your own element, and it leaves you harder and keener than at any other time. What it needs is a forge, Fire to work you into shape and Wood behind it to keep the heat going. You do your finest work under that heat, and Water only dulls you here."
+   "text": "Autumn opens in your own element, and it leaves you harder and keener than at any other time. What the season asks for is a forge, Fire to work you into shape and Wood behind it to keep the heat going. You do your finest work under that heat, and Water only dulls you here."
   },
   {
    "key": "SEASON geng.you · reading",
@@ -136,13 +136,13 @@
    "key": "SEASON geng.chou · reading",
    "kind": "season",
    "page": "season-geng",
-   "text": "Late winter sinks you in cold wet mud, and the frost only deepens as the weeks go on. Fire from the sun comes first to thaw you, a working flame second to forge you, and Wood alongside to feed them both. You thaw slowly, and you come out of the season sharper for the wait."
+   "text": "Late winter sinks you in cold wet mud, and the frost only deepens as the weeks go on. Fire from the sun comes first to thaw you, a working flame second to temper your Metal, and Wood alongside to feed them both. You thaw slowly, and you come out of the season sharper for the wait."
   },
   {
    "key": "SEASON xin.yin · reading",
    "kind": "season",
    "page": "season-xin",
-   "text": "Early spring hands the year to Wood, and a jewel like you has little strength of its own. The season asks first for soft Earth to feed and hold you and then for a river's Water to bring your shine to the surface, with heavier Metal as a second support. You show your worth once you are both held and washed."
+   "text": "Early spring hands the year to Wood, and a jewel like you has little strength of its own. The season asks first for soft Earth to feed and hold you, then for a river's Water to bring out your shine, with heavier Metal in support. You show your worth once you are both held and washed."
   },
   {
    "key": "SEASON xin.mao · reading",
@@ -166,7 +166,7 @@
    "key": "SEASON xin.wu · reading",
    "kind": "season",
    "page": "season-xin",
-   "text": "You are at your most delicate in midsummer, far too soft for the forging that the month's heat offers. It asks for cool flowing Water and soft sheltering Earth together, with rain as a smaller stand-in for the river. You keep your polish through the hottest weeks when that cool and that shelter stay close."
+   "text": "You are at your most delicate in midsummer, far too soft for the forging that the month's heat offers. The month asks for cool flowing Water and soft sheltering Earth together, with rain as a smaller stand-in for the river. You keep your polish through the hottest weeks when that cool and that shelter stay close."
   },
   {
    "key": "SEASON xin.wei · reading",
@@ -178,7 +178,7 @@
    "key": "SEASON xin.shen · reading",
    "kind": "season",
    "page": "season-xin",
-   "text": "A jewel in its own season, you are whole and strong in early autumn with little to fear. A modest stream is all it asks, Water enough to wash you without flooding you, with a touch of Wood and Earth as the moment calls. You shine with very little help in this month, and you know it."
+   "text": "A jewel in its own season, you are whole and strong in early autumn with little to fear. A modest stream is all the season asks, Water enough to wash you without flooding you, with a touch of Wood and Earth as the moment calls. You shine with very little help in this month, and you know it."
   },
   {
    "key": "SEASON xin.you · reading",
@@ -190,7 +190,7 @@
    "key": "SEASON xin.xu · reading",
    "kind": "season",
    "page": "season-xin",
-   "text": "Late autumn piles Earth around you and swells you with more strength than you can use. Water comes first as a clean current to carry off that excess, and Wood second to loosen the Earth, while Fire and more Earth only add to the weight. You turn clear and light again once that work is done."
+   "text": "Late autumn piles Earth around you and swells you with more strength than you can use. Water comes first as a clean current to carry off that excess, and Wood after it to loosen the Earth, while Fire and more Earth only add to the weight. You turn clear and light again once that work is done."
   },
   {
    "key": "SEASON xin.hai · reading",
@@ -202,7 +202,7 @@
    "key": "SEASON xin.zi · reading",
    "kind": "season",
    "page": "season-xin",
-   "text": "Freezing rain frosts you over in midwinter and hides the sun. Water in full flow comes first to keep you clean and moving, the sun's Fire second to warm you, with Earth and Wood to steady both. You glitter in the cold once those two are close beside you."
+   "text": "Freezing rain frosts you over in midwinter and hides the sun. Its first need is Water in full flow to keep you clean and moving, and its second the sun's Fire, with Earth and Wood steadying both. You glitter in the cold once those two are close beside you."
   },
   {
    "key": "SEASON xin.chou · reading",
@@ -268,13 +268,13 @@
    "key": "SEASON ren.hai · reading",
    "kind": "season",
    "page": "season-ren",
-   "text": "Your own season arrives in early winter, and you run at full height with nothing in your way. Earth comes first as a high bank to hold that force, and sunlight second to warm it, with Metal guarding that bank from roots that would loosen it. You are most useful when your strength has clear edges."
+   "text": "Your own season arrives in early winter, and you run at full strength with nothing in your way. Earth comes first as a high bank to hold that force, and sunlight second to warm it, with Metal guarding that bank from roots that would loosen it. You are most useful when your strength has clear edges."
   },
   {
    "key": "SEASON ren.zi · reading",
    "kind": "season",
    "page": "season-ren",
-   "text": "Deep and cold, you grow stronger still in midwinter and harder to contain than in any other month. It wants solid Earth first to give you a course and Fire from the sun beside it to keep you from freezing over, and you carry great weight once both stand around you."
+   "text": "Deep and cold, you grow stronger still in midwinter and harder to contain than in any other month. The month wants solid Earth first to give you a course and Fire from the sun beside it to keep you from freezing over, and you carry great weight once both stand around you."
   },
   {
    "key": "SEASON ren.chou · reading",
@@ -304,13 +304,13 @@
    "key": "SEASON gui.si · reading",
    "kind": "season",
    "page": "season-gui",
-   "text": "The air heats around you in early summer, and a rain like you can dry out before it lands. Fine Metal is what the season wants first, a cool source that keeps you replenished, with heavier Metal as the second choice. You stay fresh through the heat once that source is close."
+   "text": "The air heats around you in early summer, and a rain like you can dry out before it lands. Fine Metal is what the season wants first, a cool source that keeps you replenished, with heavier Metal as the second choice. You stay fresh through the hottest days with that source close by."
   },
   {
    "key": "SEASON gui.wu · reading",
    "kind": "season",
    "page": "season-gui",
-   "text": "You have almost nowhere to stand in midsummer, a thin rain falling into the fiercest heat of the year. It asks for Metal of both kinds to give you a source, and for more Water beside you to guard that Metal from the heat. You get through this season on the strength of others like you."
+   "text": "You have almost nowhere to stand in midsummer, a thin rain falling into the fiercest heat of the year. The season asks for Metal of both kinds to give you a source, and for more Water beside you to guard that Metal from the heat. You get through this season on the strength of others like you."
   },
   {
    "key": "SEASON gui.wei · reading",
@@ -322,7 +322,7 @@
    "key": "SEASON gui.shen · reading",
    "kind": "season",
    "page": "season-gui",
-   "text": "Hard Metal takes command in early autumn, and it gives you more source than you need. Fire comes first as a steady flame to soften that Metal, and Wood second to keep the flame burning, and you turn all that support into something warm and usable."
+   "text": "Hard Metal takes command in early autumn, and it feeds you more than you can use. Fire comes first as a steady flame to soften that Metal, and Wood second to keep the flame burning, and you turn all that support into something warm and usable."
   },
   {
    "key": "SEASON gui.you · reading",
@@ -334,7 +334,7 @@
    "key": "SEASON gui.xu · reading",
    "kind": "season",
    "page": "season-gui",
-   "text": "Late autumn presses hard on you, with heavy Earth in command and little to keep you flowing. Fine Metal comes first to reopen your source and Wood second to hold that Earth back, with more rain beside you to feed the Wood. You find your feet again once the pressure is shared out."
+   "text": "Late autumn presses hard on you, with heavy Earth in command and little to keep you flowing. Fine Metal comes first to reopen your source, then Wood to hold that Earth back, with more rain beside you to feed the Wood. You find your feet again once the pressure is shared out."
   },
   {
    "key": "SEASON gui.hai · reading",
@@ -346,7 +346,7 @@
    "key": "SEASON gui.zi · reading",
    "kind": "season",
    "page": "season-gui",
-   "text": "You come close to freezing in midwinter, rain turning to ice before it can fall. Its first need is the sun's Fire to thaw you and keep you moving, and its second is fine Metal to keep your source alive. You warm into yourself slowly, and you are worth the wait."
+   "text": "You come close to freezing in midwinter, rain turning to ice before it can fall. The season's first need is the sun's Fire to thaw you and keep you moving, and its second is fine Metal to hold your source open under the ice. You warm into yourself slowly, and you are worth the wait."
   },
   {
    "key": "SEASON gui.chou · reading",
