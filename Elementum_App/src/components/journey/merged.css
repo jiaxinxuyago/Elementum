@@ -111,14 +111,15 @@
 .jny .mg-bpic{ width:16px; height:16px; color:#6b5339; }
 
 /* the first reading */
-.jny .mg-fr{ position:absolute; inset:0; z-index:120; display:flex; flex-direction:column; color:#2b2722; cursor:pointer; outline:none; }
+/* inset:-48px + padding-top:48px, like .rvl-overlay: the card's ground reaches the top edge, under the status strip (owner 2026-10-21: the paper gap). */
+.jny .mg-fr{ position:absolute; inset:-48px 0 0; padding-top:48px; z-index:120; display:flex; flex-direction:column; color:#2b2722; cursor:pointer; outline:none; }
 .jny .mg-fr.dark{ color:#f1e9d6; }
 .jny .mg-fr.t-ink{ background:#2b2722; } .jny .mg-fr.t-cond{ background:#5a4430; }
 .jny .mg-fr.t-earth{ background:#e9dcc2; } .jny .mg-fr.t-metal{ background:#dde5ec; } .jny .mg-fr.t-fire{ background:#f0d9cf; } .jny .mg-fr.t-wood{ background:#dfe8d8; } .jny .mg-fr.t-water{ background:#d9e2ee; }
-.jny .mg-prog{ position:absolute; top:34px; left:12px; right:12px; display:flex; gap:4px; z-index:2; }
+.jny .mg-prog{ position:absolute; top:82px; left:12px; right:12px; display:flex; gap:4px; z-index:2; }
 .jny .mg-prog i{ flex:1; height:3px; border-radius:2px; background:rgba(43,39,34,.18); } .jny .mg-prog i.on{ background:#2b2722; }
 .jny .mg-fr.dark .mg-prog i{ background:rgba(241,233,214,.28); } .jny .mg-fr.dark .mg-prog i.on{ background:#f1e9d6; }
-.jny .mg-skip{ position:absolute; top:46px; right:14px; z-index:3; border:0; background:none; color:inherit; opacity:.75; font-family:'EB Garamond',Georgia,serif; font-size:10px; font-weight:600; letter-spacing:2px; text-transform:uppercase; cursor:pointer; }
+.jny .mg-skip{ position:absolute; top:94px; right:14px; z-index:3; border:0; background:none; color:inherit; opacity:.75; font-family:'EB Garamond',Georgia,serif; font-size:10px; font-weight:600; letter-spacing:2px; text-transform:uppercase; cursor:pointer; }
 .jny .mg-card{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; text-align:center; padding:70px 26px 40px; animation:mgfade .35s ease; }
 @keyframes mgfade{ from{ opacity:0; } to{ opacity:1; } }
 @media (prefers-reduced-motion: reduce){ .jny .mg-card{ animation:none; } }
