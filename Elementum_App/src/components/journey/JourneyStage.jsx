@@ -96,6 +96,18 @@ function markFirstRun() {
 
 const U = (id) => `#jny-${id}`;
 
+// Dev-only: registers the DevBar's door to the journey's internal screens.
+// A child so the registration is an effect (never a write during render).
+function DevDoor({ go, route }) {
+  useEffect(() => {
+    const door = (...a) => go(...a);
+    door.route = route;   // the DevBar polls for the door of the route it asked for (null until the model is built)
+    window.__journeyGo = door;
+    return () => { if (window.__journeyGo === door) delete window.__journeyGo; };
+  }, [go, route]);
+  return null;
+}
+
 // tiny helpers for repeated glyphs
 // The domain marks (the canonical taxonomy ×8, plus the first draft's life-domain keys)
 const DOM = { Wealth: 'dom-wealth', Career: 'dom-career', Health: 'dom-health', Love: 'dom-love', Family: 'dom-family', Social: 'dom-social', Mind: 'dom-mind', Growth: 'dom-growth', career: 'dom-career', money: 'dom-wealth', relationships: 'dom-rel', health: 'dom-health' };
@@ -166,6 +178,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const setWheelView = (v) => { setWheelViewS(v); try { localStorage.setItem(WHEEL_VIEW_KEY, v); } catch { /* storage off */ } };
   const [storyOn, setStoryOn] = useState(false);   // THE MERGE: the first reading's eight cards
   const storyDoneRef = useRef(false);
+  const [storyStart, setStoryStart] = useState(0);   // dev: open the first reading at a card
   const finishRef = useRef(null);
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom') — fn re-split as the function reading's home (owner re-org 2026-09-02)
@@ -620,11 +633,30 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                       </div>
   ) : null;
 
+  // Dev-only door (DevBar "Jump to Screen"), registered as window.__journeyGo
+  // by <DevDoor> below so it always carries this render's handlers:
+  // 'catalogue' · 'run' · 'sheet' el · 'element' el · 'elsec' el ('mech'|'fn'|'dom')
+  // · 'domains' · 'domain' word · 'chapters' · 'stars' · 'blueprint' · 'story' cardIndex.
+  const devGo = !IS_DEV_TOOLS ? null : (name, arg, arg2) => {
+      switch (name) {
+        case 'catalogue': setSheetEl(null); goScreen('catalogue'); break;
+        case 'run': if (MERGE_V1 && merged) goScreen('run'); break;
+        case 'sheet': if (MERGE_V1 && merged && m.byEl[arg]) { goScreen('catalogue'); setSheetEl(arg); } break;
+        case 'element': if (m.byEl[arg]) goElement(arg); break;
+        case 'elsec': if (m.byEl[arg]) { setElOpen(arg); setElSec(arg2 || 'fn'); setPosOpen(null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); } break;
+        case 'domain': if (depth) openDomain(arg, 'catalogue'); break;
+        case 'domains': case 'chapters': case 'stars': case 'blueprint': if (depth) openDepth(name, null, 'catalogue'); break;
+        case 'story': if (playingReveal && MERGE_V1 && merged) { document.querySelector('.jny .rvl-overlay')?.classList.add('done'); setStoryStart(Math.max(0, arg || 0)); setStoryOn(true); } break;
+        default: break;
+      }
+    };
+
   // data-ca="dock" removed with the dock retirement (2026-08-19): its stale
   // padv2 padding-bottom:18px override was clipping every screen's tail under
   // the tab bar (the dock used to provide that clearance).
   return (
     <div className="jny jphone" data-css="phoneP" data-grand="v1" data-journey="compass" data-art="bloom">
+      {IS_DEV_TOOLS ? <DevDoor go={devGo} route={MERGE_V1 && !merged ? null : playingReveal ? 'reveal' : 'reading'} /> : null}
       <span style={{ display: 'none' }} dangerouslySetInnerHTML={{ __html: `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${JOURNEY_DEFS}</defs></svg>` }} />
       <div className="scr2">
         <div className="status2"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
@@ -665,7 +697,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
 
           {/* THE MERGE: the first reading's eight cards, between the Naming and the dissolve */}
           {playingReveal && MERGE_V1 && merged && storyOn && (
-            <FirstReading m={m} g={merged} sealSrc={sealSrc} Use={Use} onShare={() => setShowShare(true)}
+            <FirstReading key={storyStart} start={storyStart} m={m} g={merged} sealSrc={sealSrc} Use={Use} onShare={() => setShowShare(true)}
               onEnter={() => { storyDoneRef.current = true; setStoryOn(false); if (finishRef.current) finishRef.current(); }} />
           )}
 

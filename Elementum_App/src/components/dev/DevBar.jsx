@@ -14,7 +14,7 @@
 // enough to have space beside the 390px phone frame. Never in elementum.life.
 // ===================================================================
 
-import { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { TIERS, TIER_LABELS, TIER_PRICES } from '../../infra/index.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
@@ -38,35 +38,77 @@ const STATUS_ACCENT = {
   default: '#7d766b',
 };
 
-// The CURRENT user journey's screens, grouped for scannability.
-// Source of truth: App.jsx FLOW — the legacy read-* detail stack is
-// orphaned (nothing navigates to it) and deliberately NOT listed.
+// The CURRENT user journey's screens, grouped for scannability (re-mapped
+// 2026-10-21 after THE MERGE, THE DEPTH, Your Almanac, V5 and the re-ruled
+// Naming). Source of truth: App.jsx FLOW for hash routes; JourneyStage's
+// internal screens arrive through window.__journeyGo (dev-only). Retired
+// aliases (app-daymaster, app-energymap, chart-reveal, the read-* stack) all
+// land on Your reading or the pillar chart and are deliberately not listed.
 const SCREEN_GROUPS = [
-  { label: 'Onboarding', screens: ['welcome', 'step1', 'step2', 'step3', 'step4', 'step4a', 'step5', 'step6', 'step6a', 'step7', 'step7a', 'loading', 'reveal'] },
+  { label: 'Onboarding', screens: ['welcome', 'step1', 'step2', 'step3', 'step4', 'step4a', 'step5', 'step6', 'step6a', 'step7', 'step7a', 'loading'] },
   { label: 'Tabs', screens: ['app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile'] },
-  { label: 'Today drill-downs', screens: ['app-day', 'app-month', 'app-year', 'app-decade'] },
-  { label: 'Reading journey', screens: ['app-daymaster', 'app-pillars', 'app-energymap', 'app-codex'] },
-  { label: 'Guidance cards', screens: ['app-draw', 'app-manual', 'app-selfreport', 'app-consultant'] },
-  { label: 'Compat + chart', screens: ['compat-friends', 'chart-reveal', 'chart-resonance'] },
+  { label: 'Your Almanac', screens: ['app-day', 'app-month', 'app-year', 'app-decade'] },
+  { label: 'Guidance', screens: ['app-codex', 'app-draw', 'app-manual', 'app-selfreport', 'app-consultant'] },
+  { label: 'Chart + compat', screens: ['app-pillars', 'chart-resonance', 'compat-friends'] },
 ];
 
-// Per-element energy reading pages. The in-journey element screen is
-// JourneyStage internal state (not a hash route) — reached via the dev
-// hook __journeyElement, polled briefly while JourneyStage mounts.
+// The revelation sequence and Your reading's internal screens. Each entry is
+// a hash route to land on first, then a __journeyGo call once JourneyStage
+// has mounted (polled briefly, like openJourneyElement did).
+const journeyGo = (route, name, arg, arg2) => () => {
+  if ((window.location.hash.replace(/^#\/?/, '') || '') !== route) window.__goto?.(route);
+  const want = route === 'reveal' ? 'reveal' : 'reading';   // the door is tagged with the stage it belongs to
+  let tries = 0;
+  const t = setInterval(() => {
+    if (window.__journeyGo?.route === want || tries++ > 30) {
+      clearInterval(t);
+      if (window.__journeyGo?.route === want) window.__journeyGo(name, arg, arg2);
+    }
+  }, 100);
+};
+const REVEAL_GROUP = {
+  label: 'Revelation sequence',
+  items: [
+    // Already on the reveal: bounce through Your reading so the stage remounts
+    // and the ceremony plays from the top again.
+    { id: 'reveal', label: 'the Naming', title: 'the Naming, from the top', run: () => {
+      if ((window.location.hash.replace(/^#\/?/, '') || '') !== 'reveal') { window.__goto?.('reveal'); return; }
+      window.__goto?.('app-reading');
+      let tries = 0;   // wait for Your reading's stage to mount (a quicker bounce never commits)
+      const t = setInterval(() => { if (window.__journeyGo?.route === 'reading' || tries++ > 30) { clearInterval(t); window.__goto?.('reveal'); } }, 50);
+    } },
+    ...[1, 2, 3, 4, 5, 6, 7, 8].map((n) => ({ id: `story-${n}`, label: `card ${n}`, title: `first reading · card ${n} of 8`, run: journeyGo('reveal', 'story', n - 1) })),
+    { id: 'app-reading', label: 'dissolve → Your reading', run: () => window.__goto?.('app-reading') },
+  ],
+};
+const READING_GROUP = {
+  label: 'Your reading · journey screens',
+  items: [
+    { id: 'catalogue', label: 'album', run: journeyGo('app-reading', 'catalogue') },
+    { id: 'run', label: 'how am I running?', run: journeyGo('app-reading', 'run') },
+    { id: 'domains', label: 'domains', run: journeyGo('app-reading', 'domains') },
+    { id: 'chapters', label: 'life chapters', run: journeyGo('app-reading', 'chapters') },
+    { id: 'stars', label: 'stars', run: journeyGo('app-reading', 'stars') },
+    { id: 'blueprint', label: 'blueprint', run: journeyGo('app-reading', 'blueprint') },
+  ],
+};
+const DOMAIN_WORDS = ['Wealth', 'Family', 'Career', 'Social', 'Health', 'Love', 'Mind', 'Growth'];
+const ENERGY_ROWS = [
+  { key: 'sheet', label: 'sheet', title: 'the energy sheet, on the album' },
+  { key: 'element', label: 'page', title: 'the energy page' },
+  { key: 'fn', label: 'function', title: 'the function reading' },
+  { key: 'mech', label: 'mechanism', title: 'the mechanism reading' },
+];
+const energyGo = (key, el) => (key === 'sheet' ? journeyGo('app-reading', 'sheet', el)
+  : key === 'element' ? journeyGo('app-reading', 'element', el)
+  : journeyGo('app-reading', 'elsec', el, key));
+
+// Per-element energy reading pages (the element screen is JourneyStage
+// internal state, not a hash route).
 const ENERGY_ELS = [
   { el: 'metal', hz: '金' }, { el: 'earth', hz: '土' }, { el: 'wood', hz: '木' },
   { el: 'water', hz: '水' }, { el: 'fire', hz: '火' },
 ];
-const openJourneyElement = (el) => () => {
-  window.__goto?.('app-reading');
-  let tries = 0;
-  const t = setInterval(() => {
-    if (window.__journeyElement || tries++ > 20) {
-      clearInterval(t);
-      window.__journeyElement?.(el);
-    }
-  }, 100);
-};
 
 // 10 day-master stems in canonical 甲乙丙丁戊己庚辛壬癸 order.
 // Each maps to a __seedData preset that produces that day-master.
@@ -115,6 +157,15 @@ export default function DevBar() {
   }, []);
 
   const currentScreen = (hash.replace(/^#\/?/, '') || 'welcome').toLowerCase();
+  // JourneyStage's internal screen (album / run / element / …) for the active marks.
+  const [jScreen, setJScreen] = useState(typeof window !== 'undefined' ? window.__journeyScreen : undefined);
+  useEffect(() => {
+    if (typeof window === 'undefined') return undefined;
+    const f = (e) => setJScreen(e.detail);
+    window.addEventListener('journey-screen', f);
+    return () => window.removeEventListener('journey-screen', f);
+  }, []);
+  const jActive = (id) => currentScreen === 'app-reading' && jScreen === id;
 
   const goto = (name) => () => {
     window.__goto?.(name);
@@ -162,6 +213,7 @@ export default function DevBar() {
 
       {view === 'chart' ? (
         <ChartView
+          jActive={jActive}
           birthData={birthData}
           chart={chart}
           tier={tier}
@@ -182,7 +234,7 @@ export default function DevBar() {
 // CHART VIEW  (original DevBar content)
 // ═══════════════════════════════════════════════════════════════════
 
-function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed, regenerate }) {
+function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed, regenerate, jActive }) {
   return (
     <>
       <DevSection label="Pricing Tier">
@@ -349,15 +401,43 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
             </div>
           </div>
         ))}
+        {[REVEAL_GROUP, READING_GROUP].map((g) => (
+          <div key={g.label} style={{ marginBottom: 8 }}>
+            <div style={{ fontSize: 9, letterSpacing: 1.4, textTransform: 'uppercase', color: '#6c655a', marginBottom: 4 }}>{g.label}</div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+              {g.items.map((it) => {
+                const active = it.id === 'reveal' ? currentScreen === 'reveal' : it.id === 'app-reading' ? false : jActive(it.id);
+                return (
+                  <button key={it.id} onClick={it.run} title={it.title || it.label} style={{ ...elBtn, border: `1px solid ${active ? '#8b7355' : '#3a342d'}`, background: active ? 'rgba(139,115,85,0.22)' : '#2a2621', color: active ? '#e0d6c3' : '#9d968a' }}>
+                    {it.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
         <div style={{ marginBottom: 8 }}>
           <div style={{ fontSize: 9, letterSpacing: 1.4, textTransform: 'uppercase', color: '#6c655a', marginBottom: 4 }}>
-            Energy readings · journey screen
+            Energies · sheet / page / function / mechanism
           </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'auto repeat(5, 1fr)', gap: 3, alignItems: 'center' }}>
+            <span />
+            {ENERGY_ELS.map(({ el, hz }) => <span key={el} style={{ fontSize: 10, color: '#9d968a', textAlign: 'center' }}>{hz} {el}</span>)}
+            {ENERGY_ROWS.map((row) => (
+              <React.Fragment key={row.key}>
+                <span style={{ fontSize: 10, color: '#6c655a', paddingRight: 4 }}>{row.label}</span>
+                {ENERGY_ELS.map(({ el }) => (
+                  <button key={el} onClick={energyGo(row.key, el)} title={`${el} · ${row.title}`} style={{ ...elBtn, padding: '4px 0', textAlign: 'center' }}>·</button>
+                ))}
+              </React.Fragment>
+            ))}
+          </div>
+        </div>
+        <div style={{ marginBottom: 8 }}>
+          <div style={{ fontSize: 9, letterSpacing: 1.4, textTransform: 'uppercase', color: '#6c655a', marginBottom: 4 }}>Domains · a domain page</div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
-            {ENERGY_ELS.map(({ el, hz }) => (
-              <button key={el} onClick={openJourneyElement(el)} title={`app-reading → ${el} element screen`} style={elBtn}>
-                {hz} {el}
-              </button>
+            {DOMAIN_WORDS.map((w) => (
+              <button key={w} onClick={journeyGo('app-reading', 'domain', w)} title={`the ${w} domain page`} style={elBtn}>{w}</button>
             ))}
           </div>
         </div>

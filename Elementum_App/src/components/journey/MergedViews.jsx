@@ -243,8 +243,8 @@ export function RunPage({ m, g, nature, Use, condIcon, onBlueprint, balance = nu
 
 // ── the first reading: eight cards after the Naming ───────────────
 const DEEP = { earth: '#927750', metal: '#6A849A', fire: '#9E5540', water: '#3E5F85', wood: '#587a4d' };
-export function FirstReading({ m, g, sealSrc, Use, onShare, onEnter }) {
-  const [i, setI] = useState(0);
+export function FirstReading({ m, g, sealSrc, Use, onShare, onEnter, start = 0 }) {
+  const [i, setI] = useState(start);   // `start`: the DevBar opens a card directly
   const track = [...m.els].sort((a, b) => b.presence - a.presence);
   const cards = [
     { k: 'ink', ey: 'Your first reading', seal: true, h: `You are ${m.archetype}.`, b: g.who },
