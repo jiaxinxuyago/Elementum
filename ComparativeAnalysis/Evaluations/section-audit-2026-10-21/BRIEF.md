@@ -16,6 +16,22 @@ Each section's owning session runs this audit on its own content. The method is 
 
 The function pages are frozen (SOP §6) and out of scope. Draft content still gets audited; mark findings on a draft as DRAFT so the owner can tell them apart from findings on ruled text.
 
+## Readiness check (2026-10-21, before any audit) and the owner's order (R1–R4 A)
+
+This check rendered every section for 200 random charts and counted the units that fall back to a placeholder line.
+
+| Section | Station | Placeholder lines | Order |
+|---|---|---|---|
+| Life Chapters | `tpl_chapters.json`, 377 units | 0% | **R1: audit now.** Also retire the round-1 `depthChapters.js` path (A4). |
+| Your Almanac (hub, Day, Month, Year) | `tpl_almanac.json` | 0%, except the Year page's `year_domain.*` lines (Domains-owned) | **R1: audit now**, leaving the `year_domain` lines out |
+| Domains: positions, decades, patterns | `tpl_domains.json` and the seats | 0% | **R2:** write first, then audit the whole section |
+| Domains: the By-year tab (`GOD * · year_domain.*`) | not written | 85% | R2: write it |
+| Blueprint (`tpl_depth` bond / structure_rule / strongest, `GOD * · seen / missing`) | handoff only (`2026-10-18-depth-template`), not in the station | 74% | R2: write it into the station |
+| Stars | 33 unruled samples in a handoff file, not in the station | 61% | **R3:** the owner rules N0/G0/N13 first; then write the full set into the station; then audit |
+| Merged Your reading | station, golden chart only | 90% | **R4:** waits for the design pass |
+
+The rule: a section is audited only when its content is in the station and covers every chart, with no placeholder lines.
+
 ## The steps (SOP §5, per section)
 
 1. **State check.** For every preset chart, does each section page resolve and render every block? Is the station JSON in sync with the app (`node tools/export-reading-templates.mjs --check`)? Are the JSON and MD twins fresh? Is any cell missing or falling back? Record the results as a table, as in SOP §2.
