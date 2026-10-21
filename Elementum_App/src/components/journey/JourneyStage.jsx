@@ -77,7 +77,7 @@ import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 import { DEPTH_LIVE, V5_LIVE } from '../../liveFlags.js';
-import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, markRead, SECTION_ART } from './V5Views.jsx';
+import { AlbumHub, LeafReader, Balance, EnergyPager, AcrossChart, useSwipe, markRead, SECTION_ART, InkDot } from './V5Views.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
 import { resolveAlmanac } from '../dashboard/almanac/almanacResolve.js';
 import { isoDay } from '../../engine/almanac/index.js';
@@ -407,6 +407,9 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
   const pMax = towers[0]?.presence || 1;
   const sealSrc = `/concept-arts/stems/${m.stemId}.png`;
   const paintSrc = `/concept-arts/stems/proc/${m.stemId}-${m.core.el}.png`;
+  // the Naming's five energies: the first reading's order, dots sized by presence
+  const rvlOrder = (merged ? merged.order.map((el) => m.byEl[el]) : [...m.els].sort((a, b) => b.presence - a.presence)).filter(Boolean);
+  const rvlMax = Math.max(1, ...rvlOrder.map((r) => r.presence));
   // Only 庚 has true seal-chip art; the other stems' raw pngs are full
   // paintings — wheel centers use the proc medallions for them instead.
   const isBladeArt = m.stemId === 'geng';
@@ -640,15 +643,22 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                   <span className="rvl-img" style={{ backgroundImage: `url('${paintSrc}')` }} />
                 </div>
                 <h2 className="rvl-name">{m.archetype}</h2>
-                <p className="rvl-kick">{m.maniThesis}</p>
-                <p className="rvl-edge">{m.maniEdge}</p>
-                <span className="rvl-rule" />
-                {/* stem-literacy line (owner 2026-09-10): sign · polarity ·
-                    element — the keyword chips retired everywhere (labels
-                    lost to portraits; the manifesto carries character) */}
-                <div className="rvl-lit">{m.stemLit}</div>
-                <div className="rvl-cast">{m.cast}<span>— ELEMENTUM —</span></div>
+                {/* The Naming, re-ruled (owner 2026-10-21, DES_15 RV1 B · RV2 A · RV3 B):
+                    the sign and the five energies. The thesis and edge line leave
+                    the plate (they live on the Your reading hero); the stem line
+                    and the cast line become the painter's inscription at the side. */}
+                <span className="rvl-ey rvl-distey">YOUR FIVE ENERGIES</span>
+                <div className="rvl-dist" aria-label="Your five energies, sized by presence">
+                  {rvlOrder.map((r) => (
+                    <span key={r.el} className="rvl-dot">
+                      <InkDot el={r.el} size={Math.round(30 + 34 * (r.presence / rvlMax))} Use={Use} label={`${r.name} ${r.presence} percent`} />
+                      <small>{r.presence}%</small>
+                      <span>{r.name}</span>
+                    </span>
+                  ))}
+                </div>
               </div>
+              <span className="rvl-inscr" aria-label="Your sign and birth cast">{m.stemLit} · {m.cast.replace(/^CAST FROM /, '')}</span>
               <button className="rvl-swipe" aria-label="Continue to your energies — swipe up or tap"><Use id="ico-chev-r" /><span>Swipe up</span></button>
             </div>
           )}

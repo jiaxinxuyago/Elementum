@@ -115,7 +115,7 @@ The owner answers in codes, e.g. "R1 A, R2 B". Rulings get recorded below, row b
 - Italic is still set in four live places, against DES_04 §AM.10 v3: `components/guidance/InkTile.jsx:156` (the Guidance tile subtitles), `components/dashboard/tabs/CompatScreen.jsx:56` and `:80`, and `components/reading/DayMasterCta.jsx:38`.
 - The wheel's function label under a left-hand disk was hard to read (golden "Action · you shape it"; Vine "Action"). Corrected diagnosis: the label is on top, but grey on the ink ring. FIXED (N4) with a text halo.
 
-## Follow-up · the Naming page (owner question 2026-10-21, AWAITING RULING)
+## Follow-up · the Naming page (owner question 2026-10-21, RULED AND SHIPPED)
 
 The owner finds today's plate overwhelming at first glance (six text pieces under the painting). Three directions built as real frames: https://claude.ai/artifact/Q42LUgZBg8ypUruLiPDX8J (library copy: `Design/Library/Design_Pass_2026-10/RV_The_Naming_Directions.html`).
 
@@ -129,4 +129,8 @@ Rows: RV1 direction · RV2 where the stem and cast lines sit · RV3 where the th
 
 | Row | Ruling | Date |
 |---|---|---|
-| RV1–RV3 | pending | — |
+| RV1 | B · the sign with the five-energy distribution (the owner chose over my Direction 1 recommendation) | 2026-10-21 |
+| RV2 | A · the stem line and the cast line as a vertical inscription at the plate's side | 2026-10-21 |
+| RV3 | B · the thesis and the edge line leave the first run; they stay on the Your reading hero | 2026-10-21 |
+
+Built straight into elementum.life (same release rule as V5). The plate now reads: YOU ARE · seal · name · YOUR FIVE ENERGIES · five ink dots sized by presence with % and name (first-reading order) · the inscription 「庚 · YANG METAL · 1995 · APRIL 29 · 17–19 CST」 vertical at the right · Swipe up. The name's h2 margin is halved at every height so the swipe affordance fits (checked at 390×844 and 375×667). Code: `JourneyStage.jsx` (rvl-dist, rvl-inscr), `journey.css`.

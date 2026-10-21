@@ -166,6 +166,9 @@
 .jny .rvl-overlay.play .rvl-img{animation:rvlDissolve 1300ms ease 250ms both}
 .jny .rvl-overlay.play .rvl-name{animation:rvlUp 520ms ease 1800ms both}
 .jny .rvl-overlay.play .rvl-kick{animation:rvlUp 520ms ease 1950ms both}
+.jny .rvl-overlay.play .rvl-distey{animation:rvlUp 520ms ease 1950ms both}
+.jny .rvl-overlay.play .rvl-dist{animation:rvlUp 520ms ease 2040ms both}
+.jny .rvl-overlay.play .rvl-inscr{animation:rvlUp 520ms ease 2300ms both}
 .jny .rvl-overlay.play .rvl-edge{animation:rvlUp 520ms ease 2040ms both}
 .jny .rvl-overlay.play .rvl-rule{animation:rvlUp 520ms ease 2040ms both}
 .jny .rvl-overlay.play .rvl-kw{animation:rvlUp 520ms ease 2130ms both}
@@ -173,7 +176,7 @@
 .jny .rvl-overlay.play .rvl-swipe{animation:rvlUp 600ms ease 2490ms both}
 .jny .rvl-overlay.done .rvl-wash{animation:none;opacity:.13}
 .jny .rvl-overlay.done .rvl-img{animation:none!important;opacity:1!important;filter:none!important}
-.jny .rvl-overlay.done .rvl-name,.jny .rvl-overlay.done .rvl-kick,.jny .rvl-overlay.done .rvl-edge,.jny .rvl-overlay.done .rvl-rule,.jny .rvl-overlay.done .rvl-kw,.jny .rvl-overlay.done .rvl-cast,.jny .rvl-overlay.done .rvl-swipe{animation:none;opacity:1;transform:none}
+.jny .rvl-overlay.done .rvl-distey,.jny .rvl-overlay.done .rvl-dist,.jny .rvl-overlay.done .rvl-inscr,.jny .rvl-overlay.done .rvl-name,.jny .rvl-overlay.done .rvl-kick,.jny .rvl-overlay.done .rvl-edge,.jny .rvl-overlay.done .rvl-rule,.jny .rvl-overlay.done .rvl-kw,.jny .rvl-overlay.done .rvl-cast,.jny .rvl-overlay.done .rvl-swipe{animation:none;opacity:1;transform:none}
 .jny .gseal{position:absolute;z-index:95;width:44px;height:44px;border-radius:50%;background-size:cover;box-shadow:0 3px 10px rgba(60,46,28,0.25);pointer-events:none}
 .jny .gseal.gimg{background-image:url('/concept-arts/stems/proc/geng-metal.png');background-size:contain;background-repeat:no-repeat;border-radius:0;box-shadow:none}
 .jny .wheel.wpre .node{opacity:0}
@@ -188,7 +191,7 @@
 .jny .padv2.pgin>.beat[data-beat="1"]{transition-delay:120ms}
 .jny .padv2.pgin>.beat[data-beat="3"]{transition-delay:280ms}
 @media (prefers-reduced-motion: reduce){
-.jny .rvl-wash,.jny .rvl-img,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-edge,.jny .rvl-rule,.jny .rvl-kw,.jny .rvl-cast,.jny .rvl-swipe{animation:none!important;opacity:1!important;transform:none!important}
+.jny .rvl-wash,.jny .rvl-img,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-edge,.jny .rvl-rule,.jny .rvl-kw,.jny .rvl-cast,.jny .rvl-distey,.jny .rvl-dist,.jny .rvl-inscr,.jny .rvl-swipe{animation:none!important;opacity:1!important;transform:none!important}
 /* The un-blur lives in the rvlImg animation; killing animations above leaves
    the base .rvl-img filter:blur(10px) applied at opacity:1, so reduced-motion
    users saw the reveal artwork permanently blurred (BUG-20260805-2). The
@@ -676,6 +679,19 @@
 /* ── owner journey restructure 2026-09-10 ─────────────────────────── */
 /* stem-literacy lines (keyword chips retired everywhere) */
 .jny .rvl-lit{ font-family:'Cinzel',Georgia,serif; font-size:11px; letter-spacing:2.6px; color:var(--bronzeDark); margin:2px 0 4px; }
+/* The Naming re-ruled (owner 2026-10-21, DES_15 RV1 B · RV2 A · RV3 B): the
+   five energies under the name as ink dots sized by presence, and the stem
+   line + cast line as a vertical inscription at the plate's side (题款).
+   The thesis couplet (.rvl-kick/.rvl-edge) and .rvl-lit/.rvl-cast rules stay
+   for the share card and the dissolve ghost; they no longer render here. */
+.jny .rvl-distey{ margin:6px 0 2px; opacity:0; }
+.jny .rvl-dist{ display:flex; align-items:flex-end; justify-content:center; gap:10px; opacity:0; }
+.jny .rvl-dot{ display:flex; flex-direction:column; align-items:center; gap:3px; font-family:'Cinzel',Georgia,serif; font-size:8.5px; letter-spacing:1px; color:var(--inkSoft); text-transform:uppercase; }
+.jny .rvl-dot small{ font-family:'EB Garamond',Georgia,serif; font-size:12px; letter-spacing:0; text-transform:none; color:var(--ink); }
+.jny .rvl-inscr{ position:absolute; right:16px; bottom:118px; z-index:3; writing-mode:vertical-rl; font-family:'Cinzel',Georgia,serif; font-size:9px; letter-spacing:3px; color:var(--inkSoft); text-shadow:0 0 2px #F1E9D6, 0 0 3px #F1E9D6, 0 0 6px rgba(241,233,214,.95); opacity:0; pointer-events:none; white-space:nowrap; }
+/* the five-energy row is a touch taller than the couplet it replaces: the name's UA h2 margin halves at every height so the swipe stays on screen */
+.jny .rvl-name{ margin:16px 0; }
+@media (max-height: 700px){ .jny .rvl-dist{ gap:8px; } .jny .rvl-dot .v5-dot{ transform:scale(.86); } .jny .rvl-inscr{ bottom:92px; } }
 .jny .id-lit{ font-family:'Cinzel',Georgia,serif; font-size:9px; letter-spacing:1.8px; color:var(--inkLight,#8a7f6d); align-self:center; }
 .jny .sc-lit{ font-family:'Cinzel',Georgia,serif; font-size:10px; letter-spacing:2.2px; color:var(--bronzeDark); margin:4px 0 2px; }
 /* YOUR ENERGY MANUAL (beat 2): condition line + prescription unfold */
