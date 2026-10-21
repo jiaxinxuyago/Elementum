@@ -63,3 +63,37 @@ These answer the round 1 page. How they carry into the energy-first round 2:
   - Q10 A: every heavy unit ends on what carries the reader.
 - **S1–S3 A:** the round-1 samples are approved as calibration for the voice. Under the energy-first direction they are source material, not keys.
 - **Still open:** round 2's L1–L10 and its S1–S2.
+
+## Round 2 rulings (owner 2026-10-21): "L1 A … L10 A, R1 A … R4 A, S1 A, S2 A"
+
+All rows were ruled as recommended:
+- L1: the order energy, underneath, where it lands, working with it, decades, years.
+- L2: no character names and no Chinese characters in the reading text.
+- L3: gate-aware chapter lines.
+- L4: the gate's domain plus the two weightiest.
+- L5: statements of what a period favours.
+- L6: no advice for lived chapters.
+- L7: the manual line plus Seek and the decade that brings it.
+- L8: a/b decade variants.
+- L9: year lines shared with Your Almanac.
+- L10: the Almanac's visual pieces.
+- R1–R4: as round 1.
+- S1–S2: the round-2 samples approved.
+
+## The build (2026-10-21), dev site only
+
+- **Corpus:**
+  - 377 units, written by seven sealed writers against `ComparativeAnalysis/Prompts/out/handoff/2026-10-21-chapters-energy/` (`BRIEF.md`, the worklists, `gate.mjs`, `approved.json` = the ruled samples).
+  - Read in full and gated together: openings, tense, the prediction law, no character names, no five-word run within one energy (frames excepted, within a sentence), none shared with THE DOMAINS.
+  - Add 14 `.b` year lines, because years come in pairs of one element.
+- **Station:** `TEMPLATED/tpl_chapters.json` (adopted with provenance by `tools/build-chapters-content.mjs --adopt`). Its REA_16 §2c row is `station:TEMPLATED.units`.
+- **Module:** `src/content/depthChaptersEnergy.js`.
+- **Code:**
+  - `src/components/reading/chaptersResolve.js` (reached through `resolveChapters` when `CHAPTERS_ENERGY`);
+  - `src/components/journey/ChaptersViews.jsx` and `chapters.css` (reached through `ChaptersPage` when the model is the energy one);
+  - JourneyStage passes a Stars door for the year star chips (Q5 A), and its seat sheet shows the chapter's energy line (W5, R4 A) under the same switch.
+- **Checks:**
+  - 480 real charts plus the three review charts resolve without error, with 0 draft units;
+  - the export check, the voice audit (69 rows), the fixtures, the blend clashes, the depth and almanac golden checks and the build all pass;
+  - an audit surface: `pages.mjs --surface chapters`, 75 pages, with 42 units no sampled chart reaches listed as unreached.
+- **Going live:** the owner's call. elementum.life keeps the round-1 page until `CHAPTERS_ENERGY` is set to true.

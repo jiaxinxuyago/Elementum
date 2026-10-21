@@ -1,0 +1,139 @@
+{
+ "units": [
+  {
+   "key": "ENERGY action · chapter.year.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Action, into a chart that already held more than it could use. Your first home was busy with getting and keeping, and the grown-ups around you counted every effort. You grew up restless, and an older relative's patience taught you to slow your reach."
+  },
+  {
+   "key": "ENERGY action · chapter.month.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Action, and your chart has been waiting for it. Since your late teens work and study have kept handing you things to take hold of, a first wage or a venture that pays its way. You reach further every year, and the reaching suits you."
+  },
+  {
+   "key": "ENERGY action · chapter.month.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Action, and your chart welcomed every bit of it. From your late teens to your mid-thirties there was always something within reach, a chance to earn or a door that opened when you pushed. You came out of those years sure of your own hands."
+  },
+  {
+   "key": "ENERGY action · chapter.month.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Action, and your chart was already full of it. Between your late teens and your mid-thirties work came with too many openings at once, and you spread yourself across all of them. A friend who kept their feet carried you, and you learned from them which chances to let pass."
+  },
+  {
+   "key": "ENERGY action · chapter.day.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Action, and your chart already holds a full share. From your mid-thirties the household asks for steady effort, bills to meet and a partner's plans to fund beside your own. A partner who shares the load is what carries you, and you find the work lighter split in two."
+  },
+  {
+   "key": "ENERGY action · chapter.day.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Action, and your chart takes it in gladly. Since your mid-thirties the household has become a place of making things work, with a partner beside you and more to manage each year. You handle it well, and home grows solid around you."
+  },
+  {
+   "key": "ENERGY action · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Action, more than your chart can comfortably hold. Since your mid-thirties home has run on errands and accounts, with every week asking you to fetch and fix and pay. A partner who keeps things calm sees you through, and you are learning to let some tasks wait."
+  },
+  {
+   "key": "ENERGY action · chapter.day.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Action, and your chart made use of all of it. From your mid-thirties to your late forties the household was a working concern, a partner and you building something with real weight. You left that chapter with a home that stood firmly on its own."
+  },
+  {
+   "key": "ENERGY action · chapter.day.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Action, and your chart was already crowded with it. Through your late thirties and forties the household kept you running, with costs to cover and plans that pulled in different directions. A partner's steadiness got you through, and you learned to measure a week by what you finished."
+  },
+  {
+   "key": "ENERGY action · chapter.hour.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Action, and your chart has enough of it already. From your late forties what you have built asks to be tended, along with requests and ventures the people after you set going. Handing part of it to younger hands lightens the load, and you keep the rest with ease."
+  },
+  {
+   "key": "ENERGY action · chapter.hour.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Action, and your chart is still eager for more. Since your late forties what you built has kept paying out, with fresh plans brought in by the people after you. You stay busy by choice, and it keeps you sharp."
+  },
+  {
+   "key": "ENERGY action · chapter.hour.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Action, and your chart has long had its fill. Since your late forties there has been a steady pull to manage, to keep accounts and settle what the people after you ask for. Someone you trained takes part of it on, and you find the quiet hours worth more."
+  },
+  {
+   "key": "ENERGY order · chapter.year.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Order, and your chart was the better for it. Your first home had an older relative whose word counted and rules everyone kept, and school gave each day a set shape. You grew up knowing where you stood, and that knowing held you upright."
+  },
+  {
+   "key": "ENERGY order · chapter.year.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Order, into a chart that already bent under it. Your first home asked a great deal of a child, strict hours and an older relative who expected more than you could give. Someone in that home softened the rules for you, and you came through with a quiet strength of your own."
+  },
+  {
+   "key": "ENERGY order · chapter.month.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Order, and your chart is short of it. Since your late teens work and study have given you titles to earn and people who hold you to account. You answer to them well, and each role you take on makes you more yourself."
+  },
+  {
+   "key": "ENERGY order · chapter.month.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Order, and your chart already strains under it. Since your late teens you have answered to managers, tutors and deadlines that rarely let up. Friends who know you outside any title are what carries you, and you keep a part of yourself no role can claim."
+  },
+  {
+   "key": "ENERGY order · chapter.month.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Order, and your chart took to it at once. Between your late teens and your mid-thirties you found roles that fitted, with standards to meet and someone senior who noticed. You left those years with a name people trusted."
+  },
+  {
+   "key": "ENERGY order · chapter.month.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Order, and your chart had too much of it already. Through your twenties work came with tight rules and managers who watched closely, and you bent to fit more often than you liked. A few loyal friends kept you level, and you came out able to stand firm under pressure."
+  },
+  {
+   "key": "ENERGY order · chapter.day.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Order, and your chart is ready for it. From your mid-thirties home takes a firmer form, with a partner who keeps you to your word and duties that give the week its frame. You settle into that shape, and you find it a relief."
+  },
+  {
+   "key": "ENERGY order · chapter.day.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Order, and your chart already feels its weight. From your mid-thirties the household brings obligation on obligation, a partner's expectations and a calendar that rarely clears. A space of your own and time to think see you through, and you keep your temper where others lose theirs."
+  },
+  {
+   "key": "ENERGY order · chapter.day.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Order, and your chart has needed it for years. Since your mid-thirties home has given you a clear place, a partner who counts on you and routines that hold the week together. You carry the role with ease, and it gives your days a backbone."
+  },
+  {
+   "key": "ENERGY order · chapter.day.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Order, and your chart welcomed its firm hand. From your mid-thirties to your late forties the household ran on agreements a partner and you kept, and every promise kept added to your name at home. You left it with a household that ran well and a reputation for keeping your word."
+  },
+  {
+   "key": "ENERGY order · chapter.day.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Order, and your chart was already stretched by it. In your late thirties and forties home was full of duties, a partner's standards and a household that expected you on time. Someone who looked after you steadied you, and you learned to set down what was never yours to hold."
+  },
+  {
+   "key": "ENERGY order · chapter.hour.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Order, and your chart still has use for it. From your late forties what you have built gives you a standing others look to, and the people after you ask how things should be done. You give them rules worth keeping, and the role sits easily on you."
+  },
+  {
+   "key": "ENERGY order · chapter.hour.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Order, though your chart has carried enough of it. From your late forties duty follows you, with the people after you to answer for and a name you are expected to uphold. Quiet pursuits of your own steady you, and you bear the weight more lightly than you once did."
+  },
+  {
+   "key": "ENERGY order · chapter.hour.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Order, and your chart has been glad to have it. Since your late forties you have held a settled place, the one whose word decides and whose standards the people after you take up. The authority suits you, and you carry it without strain."
+  },
+  {
+   "key": "ENERGY order · chapter.hour.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Order, and your chart is heavy with it already. Since your late forties you have been the one held responsible, for what you built and for how the people after you turn out. A younger person takes some of the load, and you find freedom in giving up the final say."
+  }
+ ]
+}

@@ -105,7 +105,51 @@ async function domainsSurface() {
   return pages;
 }
 
-export const SURFACES = { domains: { describe: 'THE DOMAINS: domain pages as composed for real charts (greedy cover of every unit) plus the unreached units', build: domainsSurface }, function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
+// LIFE CHAPTERS, energy first (owner 2026-10-21, L1–L10 A): the chapters page as composed by chaptersResolve.js for real
+// birth charts, greedy so every unit the corpus holds is reached on some page (an Advisor reader: chapters, decades,
+// years); a unit no sampled chart reaches is listed on a closing "unreached" page.
+async function chaptersSurface() {
+  const { calculateBaziChart } = await import(ROOT + 'Elementum_App/src/engine/calculator.js');
+  const { buildEnergyChart } = await import(ROOT + 'Elementum_App/src/engine/buildEnergyChart.js');
+  const { buildJourneyModel } = await import(ROOT + 'Elementum_App/src/components/journey/journeyData.js');
+  const { STEM_CARD_DATA } = await import(A + 'index.js');
+  const { resolvePositions } = await import(ROOT + 'Elementum_App/src/components/reading/positionsResolve.js');
+  const { resolveEnergyChapters } = await import(ROOT + 'Elementum_App/src/components/reading/chaptersResolve.js');
+  const { ENERGY_CHAPTER_UNITS } = await import(A + 'depthChaptersEnergy.js');
+  const compose = (c, hu) => { const chart = calculateBaziChart(c); const ec = buildEnergyChart(chart); const m = buildJourneyModel({ chart, ec, identity: {}, card: STEM_CARD_DATA[chart.pillars.day.stem] });
+    return { m, L: resolveEnergyChapters(chart, resolvePositions(chart, hu), { hourUnknown: hu, condition: m.condition, roles: Object.fromEntries(Object.entries(m.byEl).map(([k, v]) => [k, v.role])), year: 2026 }) }; };
+  const sectionsOf = (L) => {
+    const sec = [{ head: 'CLAIM', sub: '', key: '', text: L.claim.text, nonProse: true }];
+    for (const c of L.chapters) {
+      const sub = `${c.name} · ${c.status}${c.energy ? ` · ${c.energy.el}, ${c.energy.fn}, ${c.energy.dir}` : ' · closed'}`;
+      if (c.energyU) sec.push({ head: 'CHAPTER', sub, key: c.energyU.key, text: c.energyU.text });
+      if (c.groundU) sec.push({ head: 'UNDERNEATH', sub, key: c.groundU.key, text: c.groundU.text });
+      for (const l of c.lines || []) sec.push({ head: 'WHERE IT LANDS', sub: l.domain, key: l.key, text: l.text });
+      if (c.manual) sec.push({ head: 'WORKING WITH IT', sub: `seek ${c.manual.seek.map((x) => x.el).join(', ')}`, key: c.manual.key, text: c.manual.text });
+      for (const d of c.decades) {
+        sec.push({ head: 'DECADE', sub: d.label, key: d.key, text: d.text });
+        if (d.ground) sec.push({ head: 'DECADE · UNDERNEATH', sub: d.label, key: d.ground.key, text: d.ground.text });
+        for (const f of d.favours || []) sec.push({ head: 'DECADE FAVOURS', sub: f.domain, key: f.key, text: `${f.lean} over ${f.over}`, nonProse: true });
+      }
+    }
+    for (const y of L.years) { sec.push({ head: 'YEAR', sub: `${y.year} · ${y.el}, ${y.fn}, ${y.state}`, key: y.key, text: y.text }); if (y.land) sec.push({ head: 'YEAR · LANDS', sub: y.land.label, key: y.land.key, text: y.land.text }); }
+    return sec;
+  };
+  const all = new Set(Object.keys(ENERGY_CHAPTER_UNITS)); const seen = new Set(); const pages = []; let i = 0;
+  const YEARS = [...Array.from({ length: 18 }, (_, k) => 1991 + k), ...Array.from({ length: 33 }, (_, k) => 1958 + k)];
+  for (const y of YEARS) for (const [mo, hr] of [[2, 3], [5, 9], [8, 15], [11, 21]]) { if (pages.length >= 160) break;
+    i++; const hu = i % 9 === 0; const c = { year: y, month: mo, day: 1 + ((y * 7 + mo) % 27), hour: hr, location: 'Beijing', gender: i % 2 ? 'male' : 'female' };
+    let res; try { res = compose(c, hu); } catch { continue; }
+    const sec = sectionsOf(res.L); const fresh = sec.filter((s) => s.key && all.has(s.key) && !seen.has(s.key)); if (!fresh.length) continue;
+    sec.forEach((s) => s.key && seen.add(s.key));
+    pages.push({ id: `L${String(pages.length + 1).padStart(3, '0')}`, group: 'chapters', title: `Life Chapters · ${res.m.condition} · age ${res.L.age}${hu ? ' · no birth hour' : ''} · born ${c.year}-${c.month}-${c.day} ${c.hour}:00`, sections: sec, exempt: [] });
+  }
+  const miss = [...all].filter((k) => !seen.has(k));
+  if (miss.length) pages.push({ id: 'L999', group: 'unreached', title: `Units no sampled chart reaches (${miss.length}), read raw`, sections: miss.map((k) => ({ head: 'UNIT', sub: '', key: k, text: ENERGY_CHAPTER_UNITS[k] })), exempt: [] });
+  return pages;
+}
+
+export const SURFACES = { chapters: { describe: 'LIFE CHAPTERS, energy first: the chapters page as composed for real charts (greedy cover of every unit) plus the unreached units', build: chaptersSurface }, domains: { describe: 'THE DOMAINS: domain pages as composed for real charts (greedy cover of every unit) plus the unreached units', build: domainsSurface }, function: { describe: 'the function page: definition, character, metric bars, keywords, remedy or advice and edge (150 compositions + 25 Balanced-chart pages)', build: functionSurface } };
 
 export function toMarkdown(pages, group) {
   const parts = [`# ${group} · pages as read`, ''];

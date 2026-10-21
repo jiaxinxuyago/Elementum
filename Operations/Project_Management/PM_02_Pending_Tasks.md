@@ -75,6 +75,17 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function
 (The design is ruled: domain first, a chart-wide hub, three steps, a domain-only prediction law, WHO RUNS IT retired to ore, the domain sheet and its price retired (S1 closed), D2 fixed in full when it lands.)
 The owner's framing (2026-10-17): "Who runs it layer is a major Domain reading task, which is related to ten-god positioning and a new reading section to a new pricing tier, we will move on to that in a new session after five energy function readings in free tier are sorted out." Starting point: the WHO RUNS IT accordion on the element page (persona, defline, "Runs your …" line, three god-flavoured domain chips from `GOD_DOMAINS`, and 150 `K2_CELLS[*].domain_readings` behind the Seeker tier) predates the canonical ruling domains of 2026-10-15 (`GOD_RULING_DOMAINS`, used by THE EDGE) and the v0.7 voice. Open rulings: re-key the readings to the canonical domains, retire them for the seat readings, or rebuild the layer as the new tier's Domain reading with ten-god positioning. Gate: the final content audit of the function pages closed (`ComparativeAnalysis/Evaluations/final-audit-2026-10-17/`). Pointers: `Reading/Database/Prompts/backlog/2026-10-15_god-ruling-domains.md`, `Elementum_App/src/content/k2.js` (GOD_DOMAINS, domain_readings), `JourneyStage.jsx` (the WHO RUNS IT block).
 
+### LC-1 · Life Chapters, energy first 🔄 CORPUS LANDED ON THE DEV SITE (2026-10-21), GOING LIVE IS THE OWNER'S CALL
+Session "Elementum Life Chapters reading content" (session_01LKbtNcH4nTofFBwRv1HdHf). Record: `ComparativeAnalysis/Handoffs/2026-10-19-life-chapters-content/03_RULINGS.md` (round 1 Q1–Q11 A, round 2 L1–L10 A, R1–R4 A, S1–S2 A).
+- **The reading:** every chapter, decade and year opens on the energy it carries, in Your Almanac's words and measures. It reads the energy, underneath, where it lands (the domain board and three domain lines), working with it (the current chapter), the decades, then the years (this year and the next five).
+- **Content:** 377 units, gated, in the station (`TEMPLATED/tpl_chapters.json`). `tools/build-chapters-content.mjs` builds them into `src/content/depthChaptersEnergy.js`. Handoff: `ComparativeAnalysis/Prompts/out/handoff/2026-10-21-chapters-energy/`.
+- **Code:** `src/components/reading/chaptersResolve.js` and `src/components/journey/ChaptersViews.jsx` with `chapters.css`. It switches on through `CHAPTERS_ENERGY = IS_DEV_TOOLS`. elementum.life keeps the round-1 page (`depthChapters.js`) until the owner turns it on. The seat sheet's chapter line (W5) swaps with the same switch.
+- **Audit:** `node ComparativeAnalysis/Prompts/audit/pages.mjs --surface chapters --out <dir>`.
+- **Next:**
+  - the owner reads the dev site, then rules on the go-live (`CHAPTERS_ENERGY = true`);
+  - Your Almanac's Year page reads the shared year lines (L9 A; note in `ComparativeAnalysis/Handoffs/2026-10-19-event-signature/04_FROM_LIFE_CHAPTERS.md`);
+  - after the go-live, retire `depthChapters.js`, the round-1 resolver path, `DecadePage.jsx` and `LifeChaptersDetail.jsx` (A4).
+
 ## DM — the Day Master diagnosis and the merged "Your reading" (owner 2026-10-17 →)
 
 ### DM-2 · The merged reading ✅ LIVE ON elementum.life (2026-10-21), POLISH NEXT

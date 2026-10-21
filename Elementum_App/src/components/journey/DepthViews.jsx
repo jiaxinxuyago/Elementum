@@ -15,6 +15,7 @@
 
 import { useState } from 'react';
 import './depth.css';
+import { EnergyChaptersPage } from './ChaptersViews.jsx';
 
 const GATE_NAME = { year: 'Early', month: 'Rising', day: 'Home', hour: 'Late' };
 const GATE_AGES = { year: 'birth–15', month: '16–34', day: '35–47', hour: '48 on' };
@@ -193,7 +194,8 @@ export function DomainReadingPage({ v, positions, age, hourUnknown, tier, onUpgr
 }
 
 // ── Life Chapters ────────────────────────────────────────────────────
-export function ChaptersPage({ L, positions, hourUnknown, tier, onUpgrade, onOpenDomain, onDiscoverHour, Use }) {
+export function ChaptersPage({ L, positions, hourUnknown, tier, onUpgrade, onOpenDomain, onDiscoverHour, onOpenStars, Use }) {
+  if (L.energy) return <EnergyChaptersPage L={L} positions={positions} hourUnknown={hourUnknown} tier={tier} onUpgrade={onUpgrade} onOpenDomain={onOpenDomain} onDiscoverHour={onDiscoverHour} onOpenStars={onOpenStars} Use={Use} U={U} Lock={Lock} LifeLine={LifeLine} />;
   const seeker = isSeeker(tier); const adv = tier === 'advisor';
   const upcoming = L.years.filter((y) => y.status !== 'lived');
   const now = L.years.find((y) => y.status === 'now');

@@ -1188,8 +1188,9 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
                                         <button className="elpos-deeper" onClick={() => setDeepOpen(true)}>The deeper layers <Use id="ico-chev-r" /></button>
                                       ) : (
                                         <>
-                                          {p.lifeChapter && (
-                                            <p className="elpos-domread"><b className="el-funclab">{p.chapter}.</b> {p.lifeChapter}</p>
+                                          {/* W5 (R4 A): the old chapter line gives way to the chapter's energy line, in the reader's tense */}
+                                          {(depth?.chapters?.energy ? depth.chapters.chapters.find((c) => c.key === p.gateKey)?.energyU?.text : p.lifeChapter) && (
+                                            <p className="elpos-domread"><b className="el-funclab">{p.chapter}.</b> {depth?.chapters?.energy ? depth.chapters.chapters.find((c) => c.key === p.gateKey).energyU.text : p.lifeChapter}</p>
                                           )}
                                           {p.relations && (
                                             <p className="elpos-domread"><b className="el-funclab">The people.</b> {p.relations}</p>
@@ -1292,7 +1293,7 @@ export default function JourneyStage({ reveal = false, openCore = false, openEl 
               </button>
               <div className="scrollwrap"><div className="padv2 dp-pad">
                 {name === 'domains' && <DomainsHubPage dm={depth.dm} Use={Use} DOM={DOM} onOpen={(d) => openDepth('domain', d, 'domains')} />}
-                {name === 'chapters' && <ChaptersPage L={depth.chapters} positions={allPositions} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onOpenDomain={(d) => openDepth('domain', d, 'chapters')} onDiscoverHour={onDiscoverHour} Use={Use} />}
+                {name === 'chapters' && <ChaptersPage L={depth.chapters} positions={allPositions} hourUnknown={hourUnknown} tier={tier} onUpgrade={openUpgrade} onOpenDomain={(d) => openDepth('domain', d, 'chapters')} onOpenStars={() => openDepth('stars', null, 'chapters')} onDiscoverHour={onDiscoverHour} Use={Use} />}
                 {name === 'stars' && <StarsPage S={depth.stars} tier={tier} onUpgrade={openUpgrade} Use={Use} />}
                 {name === 'blueprint' && <BlueprintPage B={depth.blueprint} tier={tier} onUpgrade={openUpgrade} seek={m.seek.map((x) => x.el)} ease={m.skip.map((x) => x.el)} Use={Use} />}
               </div></div>

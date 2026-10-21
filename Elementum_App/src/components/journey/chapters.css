@@ -1,0 +1,45 @@
+/* Life Chapters, energy first (ChaptersViews.jsx), owner rulings L1–L10 A 2026-10-21. Your Almanac's visual language in the journey palette. No italic. */
+.jny .lc-el{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:none;border-radius:50%;color:var(--c);background:radial-gradient(circle at 40% 35%,#fffdf6 0 45%,color-mix(in srgb,var(--c) 18%,transparent) 100%);border:1px solid color-mix(in srgb,var(--c) 45%,transparent)}
+.jny .lc-el svg{width:58%;height:58%}
+.jny .lc-xs{width:14px;height:14px;border:0;background:none}.jny .lc-s{width:22px;height:22px}.jny .lc-m{width:30px;height:30px}.jny .lc-l{width:44px;height:44px}
+.jny .lc-dir{position:absolute;right:-3px;bottom:-3px;width:15px;height:15px;border-radius:50%;background:#fffdf6;display:flex;align-items:center;justify-content:center;border:1px solid var(--paperHair)}
+.jny .lc-dir svg{width:10px;height:10px}.jny .lc-dir.grow{color:#587a4d}.jny .lc-dir.release{color:#9e5540}
+.jny .lc-s .lc-dir{width:12px;height:12px;right:-4px;bottom:-4px}.jny .lc-s .lc-dir svg{width:8px;height:8px}
+.jny .lc-strip{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0 0}
+.jny .lc-dc{display:inline-flex;align-items:center;gap:4px;font-family:'EB Garamond',Georgia,serif;font-size:10.5px;letter-spacing:.4px;border-radius:8px;padding:3px 7px;border:1px solid var(--paperHair);color:var(--inkSoft)}
+.jny .lc-dc b{font-variant-numeric:tabular-nums}
+.jny .lc-dc.s3,.jny .lc-dc.s4{background:rgba(122,158,110,.2)}.jny .lc-dc.s0,.jny .lc-dc.s1{background:rgba(158,85,64,.1)}.jny .lc-dc.now{outline:1.5px solid var(--sealRed)}
+.jny .lc-ehead{display:flex;align-items:center;gap:12px;margin:10px 0 4px}
+.jny .lc-eh{display:flex;flex-direction:column;min-width:0}
+.jny .lc-en{font-family:'EB Garamond',Georgia,serif;font-size:20px;font-weight:600;color:var(--inkSoft)}.jny .lc-en small{font-size:14px;font-weight:400;color:var(--inkLight)}
+.jny .lc-ef{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--inkLight)}.jny .lc-ef svg{width:13px;height:13px;color:var(--bronzeDark)}
+.jny .lc-lift{display:inline-flex;align-items:center;gap:7px}
+.jny .lc-meter{display:inline-flex;gap:3px}.jny .lc-meter i{width:15px;height:6px;border-radius:2px;background:#e7dcc4;display:block}.jny .lc-meter i.on{outline:1px solid var(--inkSoft);outline-offset:1px}
+.jny .lc-liftw{font-family:'EB Garamond',Georgia,serif;font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:var(--inkLight)}
+.jny .lc-sec{display:block;margin:12px 0 2px;font-family:'EB Garamond',Georgia,serif;font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bronzeDark)}
+.jny .lc-board{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px 4px;margin:4px 0 2px}
+.jny .lc-dom{appearance:none;background:none;border:0;padding:2px 0;display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;color:inherit}
+.jny .lc-dom.off{opacity:.38}
+.jny .lc-ring{width:30px;height:30px;border-radius:50%;border:1px solid var(--paperHair);display:flex;align-items:center;justify-content:center;background:rgba(255,253,246,.7);color:var(--bronzeDark);flex:none}
+.jny .lc-ring svg{width:14px;height:14px}.jny .lc-ring.sm{width:22px;height:22px}.jny .lc-ring.sm svg{width:11px;height:11px}
+.jny .lc-dom.pick .lc-ring{border:1.5px solid var(--bronzeDark);background:#efe3c6}
+.jny .lc-dn{font-family:'EB Garamond',Georgia,serif;font-size:9.5px;letter-spacing:1px;text-transform:uppercase;color:var(--inkSoft)}
+.jny .lc-pips{display:flex;gap:2px}.jny .lc-pips i{width:6px;height:3px;border-radius:1px;background:#e7dcc4;display:block}.jny .lc-pips i.on{background:var(--bronzeDark)}
+.jny .lc-line{display:flex;gap:8px;align-items:flex-start;margin-top:6px}.jny .lc-line .lc-ring{margin-top:2px}.jny .lc-line p{margin:0}
+.jny .lc-seek{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:6px;font-size:12px;color:var(--inkSoft)}
+.jny .lc-seekel{display:inline-flex;align-items:center;gap:5px}
+.jny .lc-brings{flex-basis:100%;font-size:11.5px;color:var(--inkLight)}
+.jny .lc-dh{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.jny .lc-dh .dp-when{flex:1;min-width:0}
+.jny .lc-favs{display:flex;flex-direction:column;gap:5px;margin-top:2px}
+.jny .lc-fav{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-family:'EB Garamond',Georgia,serif;font-size:13.5px;color:var(--inkSoft)}
+.jny .lc-fav b{font-weight:600}.jny .lc-fav em{font-style:normal;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight)}.jny .lc-fav span:last-of-type{color:var(--inkLight)}
+.jny .lc-lived{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}
+.jny .lc-yc{display:inline-flex;align-items:center;gap:3px;font-size:10px;padding:2px 6px;border-radius:6px;border:1px solid var(--paperHair);color:var(--inkLight);opacity:.75;font-variant-numeric:tabular-nums}
+.jny .lc-years{display:flex;flex-direction:column}
+.jny .lc-year{border-top:1px solid var(--paperHair);padding:9px 0 3px}
+.jny .lc-year.now .lc-yh b{color:var(--sealRed)}
+.jny .lc-yh{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-family:'EB Garamond',Georgia,serif;font-size:14px;color:var(--inkSoft)}
+.jny .lc-yh small{font-size:10.5px;letter-spacing:.6px;text-transform:uppercase;color:var(--inkLight);flex:1}
+.jny .lc-land{display:block;margin-top:4px;font-family:'EB Garamond',Georgia,serif;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--bronzeDark)}
+.jny .lc-newdec{display:inline-block;margin-bottom:6px;font-family:'EB Garamond',Georgia,serif;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--sealRed);border:1px dashed var(--sealRed);border-radius:999px;padding:2px 9px}
+.jny .lc-stars{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}.jny .lc-stars .dp-star{cursor:pointer;appearance:none}

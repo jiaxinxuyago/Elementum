@@ -1,0 +1,289 @@
+{
+ "writer": "D",
+ "units": [
+  {
+   "key": "ENERGY body · favours.decade.Career.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Career.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Wealth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Wealth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Love.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Love.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Family.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Family.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Social.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Social.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Health.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Health.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Mind.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Mind.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Growth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY body · favours.decade.Growth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Career.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Career.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Wealth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Wealth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Love.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Love.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Family.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Family.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Social.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Social.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Health.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Health.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Mind.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Mind.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Growth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY mind · favours.decade.Growth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Career.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Wealth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Wealth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Love.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Love.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Family.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Family.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Social.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Health.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Health.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Mind.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Growth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Growth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Career.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Wealth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Love.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Love.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Family.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Social.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Social.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Health.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Health.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Mind.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Mind.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Growth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Growth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Career.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Wealth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Wealth.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Love.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Love.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Family.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Social.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Health.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Health.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Mind.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Mind.release",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Growth.grow",
+   "kind": "favours"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Growth.release",
+   "kind": "favours"
+  }
+ ]
+}

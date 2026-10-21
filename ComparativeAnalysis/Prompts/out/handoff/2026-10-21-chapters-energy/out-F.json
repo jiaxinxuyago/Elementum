@@ -1,0 +1,74 @@
+{
+ "units": [
+  {
+   "key": "ENERGY body · year.core_under.b",
+   "kind": "year_energy",
+   "text": "{el} brings Body for a second year running, more of the strength your chart lacks. Equals take you seriously now, and you claim a place you would once have left to others."
+  },
+  {
+   "key": "ENERGY body · year.core_over.b",
+   "kind": "year_energy",
+   "text": "{el} brings Body for a second year running, piling strength onto strength. Old rivalries come to a head, and you settle them by working beside people instead of against them."
+  },
+  {
+   "key": "ENERGY mind · year.need.b",
+   "kind": "year_energy",
+   "text": "{el} brings Mind for a second year running, the support you need most. What you began to learn last year takes root, and you rely on what you understand."
+  },
+  {
+   "key": "ENERGY mind · year.grow.b",
+   "kind": "year_energy",
+   "text": "{el} brings Mind for a second year running, and the help keeps coming. Someone older stays in your corner, and you finish a course of thought you began last year."
+  },
+  {
+   "key": "ENERGY mind · year.heavy.b",
+   "kind": "year_energy",
+   "text": "{el} brings Mind for a second year running, and the thinking piles higher than your chart wants. Doubts linger after last year, and you move again once a task has a fixed end."
+  },
+  {
+   "key": "ENERGY expression · year.need.b",
+   "kind": "year_energy",
+   "text": "{el} brings Expression for a second year running, the outlet you need most. Work you showed last year draws a wider audience, and you speak with growing confidence."
+  },
+  {
+   "key": "ENERGY expression · year.grow.b",
+   "kind": "year_energy",
+   "text": "{el} brings Expression for a second year running, the outlet your chart still enjoys. A skill you used for pleasure starts to pay, and you make more than you planned."
+  },
+  {
+   "key": "ENERGY expression · year.heavy.b",
+   "kind": "year_energy",
+   "text": "{el} brings Expression for a second year running, more voice than your chart can carry. Last year's outspokenness has a cost, and you win back the people you need with patient, finished work."
+  },
+  {
+   "key": "ENERGY action · year.need.b",
+   "kind": "year_energy",
+   "text": "{el} brings Action for a second year running, the reach you need most. Last year's openings turn into steady gains, and you hold on to more of what comes in."
+  },
+  {
+   "key": "ENERGY action · year.grow.b",
+   "kind": "year_energy",
+   "text": "{el} brings Action for a second year running, the reach your chart still wants. A plan you started last year pays its way, and you widen it with care."
+  },
+  {
+   "key": "ENERGY action · year.heavy.b",
+   "kind": "year_energy",
+   "text": "{el} brings Action for a second year running, more demands than your chart can meet. The list keeps growing after last year, and you get through by dropping what does not matter."
+  },
+  {
+   "key": "ENERGY order · year.need.b",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a second year running, the shape your chart lacks. The role you took on last year settles into place, and people start to rely on your word."
+  },
+  {
+   "key": "ENERGY order · year.grow.b",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a second year running, and the frame holds. Last year's duties become routine, and you are given more because you handled them well."
+  },
+  {
+   "key": "ENERGY order · year.heavy.b",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a second year running, and the weight does not ease. Deadlines from last year roll over into this one, and rest you guard on purpose sees you through."
+  }
+ ]
+}

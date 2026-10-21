@@ -1,0 +1,89 @@
+{
+ "writer": "B2",
+ "units": [
+  {
+   "key": "ENERGY action · chapter_domain.Wealth.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Love.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Health.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Health.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Mind.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Mind.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Growth.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Growth.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Career.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Wealth.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Wealth.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Love.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Family.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Family.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Social.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Social.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Health.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Mind.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Mind.release",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Growth.grow",
+   "kind": "chapter_domain"
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Growth.release",
+   "kind": "chapter_domain"
+  }
+ ]
+}

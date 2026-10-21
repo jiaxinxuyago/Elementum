@@ -1,0 +1,289 @@
+{
+ "units": [
+  {
+   "key": "ENERGY action · chapter.year.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Action, and your chart was hungry for it. The home you grew up in gave you things to do and things to reach for. You came out of it knowing that effort gets you what you want."
+  },
+  {
+   "key": "TEMPLATED tpl_chapters · ground.feeds.lived",
+   "kind": "ground",
+   "text": "Under it ran {g}, which fed the {e}, and you felt it hold all the way through."
+  },
+  {
+   "key": "ENERGY mind · decade.release.early.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el}, more thinking than your chart could use, and you learned to wait and weigh things before you moved."
+  },
+  {
+   "key": "ENERGY body · chapter.month.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, your own energy, into a chart that already runs over with it. Since your late teens your work has asked you to prove yourself, and you push harder than any job needs. The strength is real, and you are learning where to spend it."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours work you share over work you carry alone, and you do your best when someone else holds the other end."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Growth.release",
+   "kind": "chapter_domain",
+   "text": "In Growth, this chapter favours one hard skill over many easy ones, and you grow fastest where you compete only with yourself."
+  },
+  {
+   "key": "ENERGY body · chapter_domain.Family.release",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours giving ground over holding it, and you keep the peace by letting someone else be right."
+  },
+  {
+   "key": "ENERGY body · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter fills you with more of your own strength than you can store. It works for you when you spend it, on hard work and on people who can match you."
+  },
+  {
+   "key": "ENERGY mind · decade.release.lived.a",
+   "kind": "decade_energy",
+   "text": "These years brought {el} and more study than action, and you came out of them knowing more than you could yet use."
+  },
+  {
+   "key": "ENERGY order · decade.grow.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, the Order your chart is shortest of. It gives your strength a shape, with a clear role and people who rely on you to keep it. You take on more than you planned, and it steadies you."
+  },
+  {
+   "key": "ENERGY order · favours.decade.Family.grow",
+   "kind": "favours",
+   "text": "Your word at home|winning a point"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Career.grow",
+   "kind": "favours",
+   "text": "Keeping a role|starting a new one"
+  },
+  {
+   "key": "ENERGY order · favours.decade.Social.grow",
+   "kind": "favours",
+   "text": "A few who rely on you|a wide circle"
+  },
+  {
+   "key": "ENERGY action · chapter.day.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Action, and your chart is glad of it. From your mid-thirties a partner and a household widen your reach, with more coming in and more to look after. You take hold of more in this chapter than in any before it."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Love.grow",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours a partner who brings you into a bigger life, and you say yes to more of it than you expected."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Wealth.grow",
+   "kind": "chapter_domain",
+   "text": "In Wealth, this chapter favours a second income over a bigger first one, and you build more from side roads than from the main one."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Family.grow",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours shared plans over private ones, and you run the household as a joint venture."
+  },
+  {
+   "key": "ENERGY action · chapter_manual.grow",
+   "kind": "manual",
+   "text": "This chapter rewards reaching. It pays you back for every offer you take up and put to use straight away."
+  },
+  {
+   "key": "ENERGY order · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings more {el}, and with it pressure you can use, a hard deadline or a role with stakes. You rise further under it than in any easy stretch."
+  },
+  {
+   "key": "ENERGY action · chapter.hour.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Action, and your chart still wants it. From your late forties there is more within reach than you have time for, and the people after you bring much of it. You keep your hand on what matters most."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Career.grow",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours work that pays as it goes over work that pays at the end, and you keep more than one thing running at once."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Social.grow",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a wide circle over a close one, and you meet more useful people than in any earlier chapter."
+  },
+  {
+   "key": "ENERGY action · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} and steady returns on the care you have put in, and you build the kind of security that lets you stop counting."
+  },
+  {
+   "key": "ENERGY action · decade.grow.coming.b",
+   "kind": "decade_energy",
+   "text": "This decade brings {el} again, with side roads and second ventures, and you find money and company in places you had never looked."
+  },
+  {
+   "key": "ENERGY expression · decade.grow.coming.a",
+   "kind": "decade_energy",
+   "text": "This decade brings {el}, the outlet your chart is short of, and you say what you think with more freedom than you allowed yourself before."
+  },
+  {
+   "key": "ENERGY order · year.need",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a whole year, the energy you need most. It presses on you from outside, and you end the year harder to bend."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.day",
+   "kind": "land",
+   "text": "You make a decision about home or partnership this year that you have been circling for a while."
+  },
+  {
+   "key": "ENERGY order · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Order, and your chart already has more than it can carry. Since your mid-thirties home has come with rules and duties, a partner with firm views and a household that runs on schedule. You bend more than you would choose, and you grow harder to break."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Love.release",
+   "kind": "chapter_domain",
+   "text": "In Love, this chapter favours a partner you can disagree with over one you obey, and you stay close by arguing in the open."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours one demanding role over several, and you do better with fewer people above you."
+  },
+  {
+   "key": "ENERGY order · chapter_domain.Health.release",
+   "kind": "chapter_domain",
+   "text": "In Health, this chapter favours rest over endurance, and you recover faster when you stop proving you can take the strain."
+  },
+  {
+   "key": "ENERGY order · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter bears down on you from outside. You carry it best with something that answers back, study or support or a quiet place of your own."
+  },
+  {
+   "key": "ENERGY action · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Action than your chart can hold, with money to manage and a household that depends on it. You work harder for each gain than the people around you. You end it with a clear count of what your life costs to run."
+  },
+  {
+   "key": "ENERGY action · favours.decade.Career.release",
+   "kind": "favours",
+   "text": "One steady job|two half jobs"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Wealth.release",
+   "kind": "favours",
+   "text": "Paying down|taking on"
+  },
+  {
+   "key": "ENERGY action · favours.decade.Family.release",
+   "kind": "favours",
+   "text": "Shared costs|separate ones"
+  },
+  {
+   "key": "ENERGY action · chapter.month.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Action, and your chart has more of it than it can use. Since your late teens there has been more to chase than you could catch, offers and side ventures and people who want a share. You take on too much, and you are learning which things are worth your strength."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Career.release",
+   "kind": "chapter_domain",
+   "text": "In Career, this chapter favours finishing one venture over starting the next, and you earn more from fewer things."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Family.release",
+   "kind": "chapter_domain",
+   "text": "At home, this chapter favours plain help over money, and you give more by showing up than by paying."
+  },
+  {
+   "key": "ENERGY action · chapter_domain.Social.release",
+   "kind": "chapter_domain",
+   "text": "With friends, this chapter favours a few close people over a wide circle, and you keep the ones who ask nothing of your purse."
+  },
+  {
+   "key": "ENERGY action · chapter_manual.release",
+   "kind": "manual",
+   "text": "This chapter spreads you thin. You hold your ground when your own strength comes first and the chase comes second."
+  },
+  {
+   "key": "ENERGY expression · decade.release.now",
+   "kind": "decade_now",
+   "text": "This decade brings {el}, more Expression than your chart can afford, a sharp voice and little patience for rules you did not write. You say what others only think, and it costs you goodwill with the people above you. You end it knowing exactly where your talent lies."
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Career.release",
+   "kind": "favours",
+   "text": "Saying it once|saying it twice"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Social.release",
+   "kind": "favours",
+   "text": "Listening first|the last word"
+  },
+  {
+   "key": "ENERGY expression · favours.decade.Mind.release",
+   "kind": "favours",
+   "text": "One subject|many"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.year",
+   "kind": "land",
+   "text": "You go back over something from your first home this year, an old habit or an old grievance you thought was settled."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.hour",
+   "kind": "land",
+   "text": "You bring the people after you into a shared plan this year, and you lead it more easily than you expected."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.hour",
+   "kind": "land",
+   "text": "You face a sharp change with the people after you this year, a move or a break in plans you made together."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.month",
+   "kind": "land",
+   "text": "Something at work sours quietly this year, a colleague or an arrangement that stops serving you, and you see it before anyone says it."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.day",
+   "kind": "land",
+   "text": "A small resentment grows at home this year, and you clear it only once you name it to your partner."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.month",
+   "kind": "land",
+   "text": "You come under scrutiny at work this year, a review or a rule applied to you more strictly than to others."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.day",
+   "kind": "land",
+   "text": "Home asks more of your patience this year, and you hold the peace with a partner by giving way on small things."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.day",
+   "kind": "land",
+   "text": "You change something at home this year, an address or the way you share your life with a partner."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.month",
+   "kind": "land",
+   "text": "You tie yourself to a workplace or a team this year more firmly than before, by contract or by loyalty."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.month",
+   "kind": "land",
+   "text": "You leave a role or a team you have outgrown this year, by your own choice or by theirs."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.day",
+   "kind": "land",
+   "text": "You draw a partner or a household closer this year, and the life you share takes on a firmer shape."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.month",
+   "kind": "land",
+   "text": "You gather people and momentum around one idea at work this year, and it carries further than you planned."
+  }
+ ]
+}

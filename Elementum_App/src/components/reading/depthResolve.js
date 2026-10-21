@@ -25,6 +25,8 @@ import { GATES } from '../../content/positions.js';
 import { readerAge, decadePole, RULING, GATE_ORDER, GATE_START, GATE_SPAN, DEC_MIN, DEC_MAX } from './domainsResolve.js';
 import { structureOf, branchBonds, godProfile, flowYears, starsOf, arrivingStars, seasonOf, STRUCTURE_NAME } from '../../engine/depth/index.js';
 import { relationOf } from '../../engine/index.js';
+// Life Chapters, energy first (owner 2026-10-21, L1–L10 A): its own resolver, behind CHAPTERS_ENERGY
+import { CHAPTERS_ENERGY, resolveEnergyChapters } from './chaptersResolve.js';
 
 const GOD_ID = { 比肩: 'bijian', 劫财: 'jiecai', 食神: 'shishen', 伤官: 'shangguan', 偏财: 'piancai', 正财: 'zhengcai', 七杀: 'qisha', 正官: 'zhengguan', 偏印: 'pianyin', 正印: 'zhengyin' };
 const STEM_EL = { 甲: 'Wood', 乙: 'Wood', 丙: 'Fire', 丁: 'Fire', 戊: 'Earth', 己: 'Earth', 庚: 'Metal', 辛: 'Metal', 壬: 'Water', 癸: 'Water' };
@@ -107,6 +109,7 @@ function draftDecade(l, tense) {
 // ── Life Chapters ───────────────────────────────────────────────────
 /** The four chapters with their seats and decades, the decade strip, and the years of the current decade. */
 export function resolveChapters(chart, positions, opts = {}) {
+  if (CHAPTERS_ENERGY) return resolveEnergyChapters(chart, positions, opts);
   const c = context(chart, opts); const { age, birthYear, nowYear, luck, cur } = c;
   const gateNow = gateOfAge(age);
   const inWindow = luck.filter((l) => l.endAge >= DEC_MIN && l.startAge <= DEC_MAX);

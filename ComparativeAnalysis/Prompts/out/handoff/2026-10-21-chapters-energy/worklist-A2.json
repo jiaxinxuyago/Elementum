@@ -1,0 +1,113 @@
+{
+ "writer": "A2",
+ "units": [
+  {
+   "key": "ENERGY action · chapter.year.release.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.month.grow.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.month.grow.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.month.release.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.day.release.coming",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.day.grow.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.day.release.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.day.grow.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.day.release.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.hour.release.coming",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.hour.grow.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY action · chapter.hour.release.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.year.grow.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.year.release.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.month.grow.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.month.release.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.month.grow.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.month.release.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.day.grow.coming",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.day.release.coming",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.day.grow.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.day.grow.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.day.release.lived",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.hour.grow.coming",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.hour.release.coming",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.hour.grow.now",
+   "kind": "chapter_energy"
+  },
+  {
+   "key": "ENERGY order · chapter.hour.release.now",
+   "kind": "chapter_energy"
+  }
+ ]
+}

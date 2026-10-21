@@ -1,0 +1,239 @@
+{
+ "units": [
+  {
+   "key": "ENERGY body · chapter.year.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, your own energy, when your chart was thin on it. From birth to fifteen brothers, sisters and children your age gave you someone to keep up with. You came out of that first home steadier on your own feet than you began."
+  },
+  {
+   "key": "ENERGY body · chapter.year.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, more of your own energy than your chart could hold. Through your school years you fought for your place among cousins and classmates, and you rarely gave an inch. An older relative gave that stubbornness a channel, and you left childhood knowing how to stand alone."
+  },
+  {
+   "key": "ENERGY body · chapter.month.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, your own energy, at a time your chart is low on it. Since your late teens friends and peers have stood beside you, and every rival has made you stronger rather than smaller. You hold your ground now in places that once overwhelmed you."
+  },
+  {
+   "key": "ENERGY body · chapter.month.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, your own energy, the strength your chart had always lacked. From your late teens to your mid-thirties study and work put you among equals, and friends lent you the nerve you had been missing. You left that chapter able to stand up for yourself."
+  },
+  {
+   "key": "ENERGY body · chapter.month.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, your own energy again, for a chart already brimming with it. Between your late teens and mid-thirties friends doubled as rivals, and you competed for every piece of work. Hard training gave that force an outlet, and you came out tougher and choosier about your fights."
+  },
+  {
+   "key": "ENERGY body · chapter.day.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, your own energy, after years in which your chart went without it. From your mid-thirties a partner stands with you on level ground, and the household gives your strength a base. You meet the years of home on firmer feet than any before."
+  },
+  {
+   "key": "ENERGY body · chapter.day.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, your own energy, though your chart already holds plenty of it. From your mid-thirties two strong wills share one household, and a partner who feels like an equal also feels like a contest. You find your footing through work you do side by side, and you win more at home by giving way."
+  },
+  {
+   "key": "ENERGY body · chapter.day.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, your own energy, which your chart needs more than most. Since your mid-thirties a partner has backed you as a true equal, and home has become the place your strength gathers. You walk out of your own door each morning surer of yourself."
+  },
+  {
+   "key": "ENERGY body · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties the household has felt like a contest of wills, with a partner as stubborn as you. Interests of your own on each side cool it down, and you are learning that yielding at home costs you nothing."
+  },
+  {
+   "key": "ENERGY body · chapter.day.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, your own energy, just when your chart ran lowest on it. From your mid-thirties to your late forties a partner met you as an equal, and the household made you sturdier. You came out of those years trusting your own strength."
+  },
+  {
+   "key": "ENERGY body · chapter.day.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, your own energy, to a chart that held too much of it. Between your mid-thirties and late forties home was a place of strong wills and long standoffs, and you rarely backed down first. Work you shared with a partner turned the contest into a team, and you learned how to yield."
+  },
+  {
+   "key": "ENERGY body · chapter.hour.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, your own energy, with a chart that has long gone without it. From your late forties the people after you stand at your side, and what you have built gives you a firm floor. You grow surer of yourself with every year of it."
+  },
+  {
+   "key": "ENERGY body · chapter.hour.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, your own energy, on top of a chart already heavy with it. From your late forties you hold tight to what you have built, and the people after you want a hand on it too. Teaching them what you know eases the grip, and you find your strength goes further when it passes on."
+  },
+  {
+   "key": "ENERGY body · chapter.hour.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, your own energy, and your chart has been hungry for it. Since your late forties the people after you have stood behind you, and what you built has started to hold its own weight. You feel more yourself now than at any time before."
+  },
+  {
+   "key": "ENERGY body · chapter.hour.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, your own energy, for a chart that already overflows with it. Since your late forties you have guarded what you built closely, even from the people after you who want a hand in it. Passing the work into younger hands spends that strength well, and you are finding that a lighter grip holds more."
+  },
+  {
+   "key": "ENERGY mind · chapter.year.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Mind, and your chart drank it in. Up to fifteen there were books and teachers and an older relative who made time to explain things. You came out of school with a habit of asking why that never left you."
+  },
+  {
+   "key": "ENERGY mind · chapter.year.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Mind, and your chart already had more than it needed. Through your school years you were looked after closely, and others in your first home decided much for you. A game or a sport of your own got you moving, and you left childhood able to act as well as think."
+  },
+  {
+   "key": "ENERGY mind · chapter.month.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart welcomes every bit of it. Since your late teens mentors and courses have found you at the right moments, and study has turned into standing. You learn faster now than you ever did at school."
+  },
+  {
+   "key": "ENERGY mind · chapter.month.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart is already full. Since your late teens you have gathered qualifications and advice faster than chances to use them. A job with something riding on it pulls the thinking into motion, and you are learning to move before you feel ready."
+  },
+  {
+   "key": "ENERGY mind · chapter.month.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Mind, and your chart was thirsty for it. Between your late teens and your mid-thirties a teacher and an older hand at work vouched for you, and what you studied opened doors. You came out of those years well taught and well backed."
+  },
+  {
+   "key": "ENERGY mind · chapter.month.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Mind, into a chart that held plenty already. From your late teens to your mid-thirties you studied long and waited longer, with more support around you than push. A first real responsibility finally set your feet in motion, and you left that chapter ready to use what you knew."
+  },
+  {
+   "key": "ENERGY mind · chapter.day.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Mind, and your chart is ready for it. From your mid-thirties home becomes a place to rest and think, with a partner who cares for you as much as you care for them. You recover there from whatever the rest of life asks."
+  },
+  {
+   "key": "ENERGY mind · chapter.day.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Mind, and your chart has more than enough already. From your mid-thirties a careful partner and a quiet household make it easy to think things over too long. Projects you start with your own hands keep the days moving, and you put the calm to work."
+  },
+  {
+   "key": "ENERGY mind · chapter.day.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Mind, and your chart is grateful for it. Since your mid-thirties a partner has been your sounding board and home your place to read, rest and recover. You think more clearly in these years than you did when you were running on your own."
+  },
+  {
+   "key": "ENERGY mind · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Mind, and your chart is crowded with it. Since your mid-thirties home has offered so much comfort and counsel that decisions wait, and a partner often thinks for you. A shared plan with a date on it brings things to a head, and you find you can trust your own call."
+  },
+  {
+   "key": "ENERGY mind · chapter.day.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Mind, and your chart took all it could. Between your mid-thirties and late forties a partner looked after you, and home became the quiet place where you read and recovered. You ended those years calmer and wiser about what you need."
+  },
+  {
+   "key": "ENERGY mind · chapter.day.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Mind, though your chart held plenty of it. From your mid-thirties to your late forties the household was soft and settled, and you thought over every choice twice. A practical project shared with a partner got you out of your head, and you left knowing that thinking needs a deadline."
+  },
+  {
+   "key": "ENERGY mind · chapter.hour.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Mind, and your chart opens to it. From your late forties there is time at last to learn for pleasure, and the people after you come to you for advice. You become the one others think things through with."
+  },
+  {
+   "key": "ENERGY mind · chapter.hour.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Mind, and your chart is already well stocked with it. From your late forties the people after you fuss over you more than you need, and quiet days pile up. Teaching what you know turns that stillness into use, and you stay sharper for it."
+  },
+  {
+   "key": "ENERGY mind · chapter.hour.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Mind, and your chart has needed it for years. Since your late forties you have read more, rested better and found a mentor's voice with the people after you. You are wiser now than you were at any earlier point."
+  },
+  {
+   "key": "ENERGY mind · chapter.hour.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Mind, and your chart holds more than it can use. Since your late forties you have been looked after and advised from every side, and what you built runs without much from you. Passing on what you know gives the stillness a purpose, and you find a role beyond being cared for."
+  },
+  {
+   "key": "ENERGY expression · chapter.year.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Expression, and your chart was glad of the outlet. Before you turned sixteen there were drawings, songs and stories, and the grown-ups at home clapped for every one of them. You came out of childhood sure that your voice was worth hearing."
+  },
+  {
+   "key": "ENERGY expression · chapter.year.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Early Chapter carried {el}, the energy of Expression, into a chart that had plenty to say already. As a child you talked back, tested every rule and wanted everything at once. A craft or a stage gave the noise a shape, and you left school knowing where your talent lay."
+  },
+  {
+   "key": "ENERGY expression · chapter.month.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Expression, and your chart has been waiting for exactly this. Since your late teens your talent has found listeners, at work and among friends who ask what you will make next. You show what you can do more freely than ever."
+  },
+  {
+   "key": "ENERGY expression · chapter.month.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carries {el}, the energy of Expression, and your chart has more than it can spend. Since your late teens your voice has outrun your position, and the people in charge have not always enjoyed it. One craft you take seriously gives the restlessness a channel, and you are learning that finished work speaks louder than talk."
+  },
+  {
+   "key": "ENERGY expression · chapter.month.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Expression, and your chart came alive with it. From your late teens to your mid-thirties you made things, spoke up and found friends who liked what you made. You came out of that chapter with a voice people recognised."
+  },
+  {
+   "key": "ENERGY expression · chapter.month.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Rising Chapter carried {el}, the energy of Expression, to a chart already loud with it. Between your late teens and mid-thirties you spoke first, spent freely and chafed at every rule you had not written. Your best work came from the craft that held you still, and you left those years with a talent sharpened by friction."
+  },
+  {
+   "key": "ENERGY expression · chapter.day.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart is eager for it. From your mid-thirties home becomes a place of good food and music, with a partner who enjoys you at your liveliest. You make the household a warm place to come back to."
+  },
+  {
+   "key": "ENERGY expression · chapter.day.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart already spills over with it. From your mid-thirties your tongue is quick at home, and a partner hears more of your opinions than they asked for. A shared hobby or a garden takes the edge off, and you find warmth by making things together."
+  },
+  {
+   "key": "ENERGY expression · chapter.day.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart is warmed by it. Since your mid-thirties home has been full of cooking, laughter and things you made with a partner. You enjoy yourself more in these years than you let yourself before."
+  },
+  {
+   "key": "ENERGY expression · chapter.day.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties appetite and opinion have filled the house, and a partner has borne the brunt of your restlessness. Making something with your hands each week settles it, and you are learning to let a partner have the last word."
+  },
+  {
+   "key": "ENERGY expression · chapter.day.grow.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Expression, and your chart blossomed under it. From your mid-thirties to your late forties home was lively, with a partner who laughed at your stories and a table set for guests. You came out of it knowing how to make a house feel like yours."
+  },
+  {
+   "key": "ENERGY expression · chapter.day.release.lived",
+   "kind": "chapter_energy",
+   "text": "Your Home Chapter carried {el}, the energy of Expression, and your chart had too much of it already. Between your mid-thirties and late forties you said what you thought at home and spent on whatever pleased you. A partner's steady habits gave you a counterweight, and you came out of those years more careful with your words."
+  },
+  {
+   "key": "ENERGY expression · chapter.hour.grow.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Expression, and your chart is ready for all of it. From your late forties there is time and skill to make what you always meant to, and the people after you learn by watching. You put your best work into the world in this chapter."
+  },
+  {
+   "key": "ENERGY expression · chapter.hour.release.coming",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Expression, and your chart already overflows. From your late forties you hold opinions on how the people after you live, and you voice them freely. A piece of work that is yours alone absorbs that energy, and you find the people after you listen better when you say less."
+  },
+  {
+   "key": "ENERGY expression · chapter.hour.grow.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Expression, and your chart sings with it. Since your late forties you have taught, performed or made things for the people after you, and they carry your style. You enjoy your own talent now more than when you had to prove it."
+  },
+  {
+   "key": "ENERGY expression · chapter.hour.release.now",
+   "kind": "chapter_energy",
+   "text": "Your Late Chapter carries {el}, the energy of Expression, and your chart is already brimming over. Since your late forties you have spent freely on pleasures and spoken freely to the people after you. A craft with a slow finish holds the energy steady, and you find that what you have built speaks for you."
+  }
+ ]
+}

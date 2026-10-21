@@ -1,0 +1,124 @@
+{
+ "units": [
+  {
+   "key": "ENERGY body · year.core_under",
+   "kind": "year_energy",
+   "text": "{el} brings Body for a whole year, the strength your chart runs short of. You stand your ground more easily, and peers start to treat you as an equal."
+  },
+  {
+   "key": "ENERGY body · year.core_over",
+   "kind": "year_energy",
+   "text": "{el} brings Body for a whole year, the force your chart already runs over with. Competition with peers runs hot, and you come through it by sharing the load with a team that pushes back."
+  },
+  {
+   "key": "ENERGY mind · year.need",
+   "kind": "year_energy",
+   "text": "{el} brings Mind for a whole year, the energy you need most. Help and good teachers find their way to you, and you learn more in these months than in several years before."
+  },
+  {
+   "key": "ENERGY mind · year.grow",
+   "kind": "year_energy",
+   "text": "{el} brings Mind for a whole year, the support your chart still welcomes. Study comes easily and people offer shelter, and you think things through before you act."
+  },
+  {
+   "key": "ENERGY mind · year.heavy",
+   "kind": "year_energy",
+   "text": "{el} brings Mind for a whole year, the thinking your chart already has too much of. Plans stay on paper longer than they should, and you get moving again through plain work and a firm deadline."
+  },
+  {
+   "key": "ENERGY expression · year.need",
+   "kind": "year_energy",
+   "text": "{el} brings Expression for a whole year, the energy you need most. Talent you kept quiet finds an audience, and you say and make more than in any year before."
+  },
+  {
+   "key": "ENERGY expression · year.grow",
+   "kind": "year_energy",
+   "text": "{el} brings Expression for a whole year, the outlet your chart holds and still enjoys. What you make and say lands well, and you take real pleasure in your own talent."
+  },
+  {
+   "key": "ENERGY expression · year.heavy",
+   "kind": "year_energy",
+   "text": "{el} brings Expression for a whole year, the voice and appetite your chart already overflows with. Words come out sharper than you mean, and you keep your footing through a fixed routine and someone who holds you to your word."
+  },
+  {
+   "key": "ENERGY action · year.need",
+   "kind": "year_energy",
+   "text": "{el} brings Action for a whole year, the energy you need most. Offers and money come within reach, and you get your hands on more than you have in years."
+  },
+  {
+   "key": "ENERGY action · year.grow",
+   "kind": "year_energy",
+   "text": "{el} brings Action for a whole year, the reach your chart holds and still wants. Effort pays back promptly and practical plans move, and you finish the year with more to show for your work."
+  },
+  {
+   "key": "ENERGY action · year.heavy",
+   "kind": "year_energy",
+   "text": "{el} brings Action for a whole year, the chase your chart cannot keep up with. There is more to manage than hours to manage it, and you get through on your own steady strength and a short list."
+  },
+  {
+   "key": "ENERGY order · year.grow",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a whole year, the structure your chart still welcomes. A role with clear rules settles around you, and you earn a name as the one others count on."
+  },
+  {
+   "key": "ENERGY order · year.heavy",
+   "kind": "year_energy",
+   "text": "{el} brings Order for a whole year, the pressure and duty your chart already carries too much of. Deadlines and people above you crowd in, and you hold steady through study, a mentor's help and a quiet hour of your own."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.year",
+   "kind": "land",
+   "text": "You draw closer to an older relative this year, and an old family tie turns into a real friendship."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.hour",
+   "kind": "land",
+   "text": "You draw the people after you closer this year, and a younger relative or someone you train comes to count on you."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.year",
+   "kind": "land",
+   "text": "Something shifts in the family you came from this year, a parent changes address or an older relative changes course, and you adjust quickly."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.year",
+   "kind": "land",
+   "text": "An older relative watches you more closely this year, and you meet old family expectations with more patience than before."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.hour",
+   "kind": "land",
+   "text": "Someone you train or a younger relative tests your standards this year, and you keep them firm without raising your voice."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.year",
+   "kind": "land",
+   "text": "A quiet coolness settles between you and a parent or grandparent this year, and you warm it again with a visit or a call."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.hour",
+   "kind": "land",
+   "text": "Someone you have trained or helped along pulls back without a word this year, and you notice the distance before it hardens."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.year",
+   "kind": "land",
+   "text": "Your older relatives rally around one family plan this year, and you find yourself at the centre of it."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.month",
+   "kind": "land",
+   "text": "Work brings back an old project this year, and you close a question you thought was done."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.day",
+   "kind": "land",
+   "text": "Home returns to an old question this year, a habit or a plan you and your partner set aside, and you settle it properly."
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.hour",
+   "kind": "land",
+   "text": "An old plan you made for the people after you comes round again this year, and you see it more clearly the second time."
+  }
+ ]
+}

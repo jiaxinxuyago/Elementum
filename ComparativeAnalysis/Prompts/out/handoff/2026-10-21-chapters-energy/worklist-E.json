@@ -1,0 +1,101 @@
+{
+ "writer": "E",
+ "units": [
+  {
+   "key": "ENERGY body · year.core_under",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY body · year.core_over",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY mind · year.need",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY mind · year.grow",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY mind · year.heavy",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY expression · year.need",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY expression · year.grow",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY expression · year.heavy",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY action · year.need",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY action · year.grow",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY action · year.heavy",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY order · year.grow",
+   "kind": "year_energy"
+  },
+  {
+   "key": "ENERGY order · year.heavy",
+   "kind": "year_energy"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.year",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.bind.hour",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.clash.year",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.year",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.punish.hour",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.year",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.harm.hour",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.frame.year",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.month",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.day",
+   "kind": "land"
+  },
+  {
+   "key": "TEMPLATED tpl_almanac · land.year.repeat.hour",
+   "kind": "land"
+  }
+ ]
+}
