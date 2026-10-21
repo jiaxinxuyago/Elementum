@@ -5,7 +5,7 @@
 // implement (unruled, unpolished are fine), pipe them into our dev link".
 // Each in-depth section gets its own generated module, so no session
 // regenerates another's content (04_DEPTH_STATE §3):
-//   Life Chapters · ComparativeAnalysis/Prompts/out/handoff/2026-10-19-chapters-template/samples.json → src/content/depthChapters.js
+//   (Life Chapters left this tool on 2026-10-21: its corpus is in the station, built by tools/build-chapters-content.mjs; A4)
 //   Stars         · ComparativeAnalysis/Prompts/out/handoff/2026-10-19-stars/samples.json             → src/content/depthStars.js
 // The units are keyed by station key, like src/content/depth.js; a sample
 // supersedes the round-8 template for the same key (the newer writing).
@@ -22,7 +22,6 @@ import { fileURLToPath } from 'node:url';
 const APP = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const HO = path.resolve(APP, '../ComparativeAnalysis/Prompts/out/handoff');
 const SETS = [
-  { src: '2026-10-19-chapters-template/samples.json', out: 'depthChapters.js', name: 'CHAPTER_UNITS', what: 'Life Chapters round 1 (44 samples, unruled: Q1–Q14)' },
   { src: '2026-10-19-stars/samples.json', out: 'depthStars.js', name: 'STAR_UNITS', what: 'Stars round 9 (33 samples, unruled: N0, G0, N13)' },
 ];
 let stale = 0;

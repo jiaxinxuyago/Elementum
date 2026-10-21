@@ -195,55 +195,8 @@ export function DomainReadingPage({ v, positions, age, hourUnknown, tier, onUpgr
 
 // ── Life Chapters ────────────────────────────────────────────────────
 export function ChaptersPage({ L, positions, hourUnknown, tier, onUpgrade, onOpenDomain, onDiscoverHour, onOpenStars, Use }) {
-  if (L.energy) return <EnergyChaptersPage L={L} positions={positions} hourUnknown={hourUnknown} tier={tier} onUpgrade={onUpgrade} onOpenDomain={onOpenDomain} onDiscoverHour={onDiscoverHour} onOpenStars={onOpenStars} Use={Use} U={U} Lock={Lock} LifeLine={LifeLine} />;
-  const seeker = isSeeker(tier); const adv = tier === 'advisor';
-  const upcoming = L.years.filter((y) => y.status !== 'lived');
-  const now = L.years.find((y) => y.status === 'now');
-  return (
-    <>
-      <div className="cardstock dp-head"><span className="laylab"><Use id="tab-today" className="dp-labic" />YOUR LIFE CHAPTERS</span>
-        <span className="serifline el-teasetitle dp-title">{L.claim.text}</span>
-        <p className="body2" style={{ margin: '0 0 2px' }}>Your chart has four gates, and each one is a stretch of your life. Every gate holds two seats, one in plain view and one inside, and the characters in them set the tone of those years. Your decades run inside the chapters, ten years each.</p>
-        <LifeLine positions={positions} age={L.age} hourUnknown={hourUnknown} large />
-        <div className="dp-strip">{L.strip.map((s) => <span key={s.startAge} className={`dp-dc ${s.pole === 'helping' ? 'hp' : 'hv'}${s.now ? ' now' : ''}`}><b>{s.startAge}</b>{s.persona}</span>)}</div>
-        <p className="body2 el-domlock" style={{ margin: '4px 0 0' }}>Green decades help your chart. Grey ones weigh on it.</p></div>
-      {L.chapters.map((c) => (
-        <div key={c.key} className={`cardstock dp-chap${c.status === 'now' ? ' cur' : c.status === 'coming' ? ' fut' : ''}`}>
-          <div className="dp-chh"><span className="dp-cn">{c.name}</span><span className={`dp-cs${c.status === 'now' ? ' now' : ''}`}>{c.span.replace(/^birth to/, 'birth to')} · {c.status === 'coming' ? `from ${c.fromYear ?? ''}` : c.status}</span></div>
-          {c.closed ? (
-            <div className="dp-gaprow">Your Hour Gate is closed. Add your birth hour to read your Late Chapter. <button type="button" className="dp-inline" onClick={onDiscoverHour}>Add your hour ›</button></div>
-          ) : (<>
-            <span className="dp-cseat">{c.seats.map((p) => `${p.persona} ${p.kind === 'stem' ? 'at' : 'inside'}`).join(' · ').replace(/(^|· )The /g, '$1the ').replace(/^the/, 'The')}</span>
-            <span className="dp-chips">{c.domains.map((dn) => <button type="button" key={dn} className="dp-chip" onClick={() => onOpenDomain(dn)}>{dn}</button>)}</span>
-            {seeker ? c.parts.map((p) => <U key={p.seat.id} u={p} />) : <p className="dp-locked">This chapter’s reading opens with Seeker.</p>}
-          </>)}
-          {c.decades.map((dc) => (
-            <div key={dc.startYear} className={`dp-dec${dc.tense === 'now' ? ' now' : ''}`}>
-              <span className="dp-when">{dc.label}</span>
-              {seeker ? <U u={dc} /> : null}
-              {dc.tense === 'now' && (
-                <>
-                  <div className="dp-years">{L.years.map((y) => <span key={y.year} className={`dp-yr${y.status === 'now' ? ' now' : ''}${y.status === 'lived' ? ' past' : ''}`}>{y.year} {y.persona}</span>)}</div>
-                  {adv ? (
-                    <div className="dp-yearlist">
-                      {upcoming.map((y) => (
-                        <div key={y.year} className={`dp-yearcard${y.status === 'now' ? ' now' : ''}`}>
-                          <span className="dp-yh">{y.year}, {/^[AEIOU]/.test(y.persona) ? 'an' : 'a'} {y.persona} year<small>{y.status === 'now' ? 'now · ' : ''}{y.pole === 'helping' ? 'helping' : 'weighs'}</small></span>
-                          <U u={y} />
-                          {y.bond && <><span className="dp-bondlab">{y.bond.label}</span><U u={y.bond} /></>}
-                        </div>
-                      ))}
-                    </div>
-                  ) : <Lock tier="Advisor" what={now ? `${now.year}, ${/^[AEIOU]/.test(now.persona) ? 'an' : 'a'} ${now.persona} year: what this year brings you, and each year to ${L.years[L.years.length - 1].year}.` : 'Each year of this decade opens with Advisor.'} onUpgrade={onUpgrade} />}
-                </>
-              )}
-            </div>
-          ))}
-        </div>
-      ))}
-      {!seeker && <Lock what="Your chapter and decade readings open with Seeker." onUpgrade={onUpgrade} />}
-    </>
-  );
+  // Life Chapters, energy first (owner 2026-10-21): ChaptersViews.jsx; the round-1 page retired (A4)
+  return <EnergyChaptersPage L={L} positions={positions} hourUnknown={hourUnknown} tier={tier} onUpgrade={onUpgrade} onOpenDomain={onOpenDomain} onDiscoverHour={onDiscoverHour} onOpenStars={onOpenStars} Use={Use} U={U} Lock={Lock} LifeLine={LifeLine} />;
 }
 
 // ── Stars ────────────────────────────────────────────────────────────

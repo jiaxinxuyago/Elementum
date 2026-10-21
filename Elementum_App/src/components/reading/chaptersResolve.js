@@ -17,13 +17,11 @@
 
 import { ENERGY_CHAPTER_UNITS as CHAPTER_UNITS } from '../../content/depthChaptersEnergy.js';
 import { ALMANAC_UNITS } from '../../content/almanac.js';
-import { STEM_ELEM, HIDDEN_STEMS, getTenGod } from '../../engine/calculator.js';
+import { STEM_ELEM, HIDDEN_STEMS, getTenGod } from '../../engine/index.js';
 import { flowYears, arrivingStars } from '../../engine/depth/index.js';
 import { almanacContext, energyMix, liftOf, groundRelation, energyState, DOMAINS, RULING, GATE_DOMAIN } from '../../engine/almanac/index.js';
 import { readerAge, GATE_ORDER, GATE_START, GATE_SPAN, DEC_MIN, DEC_MAX } from './domainsResolve.js';
 
-/** The energy-first page: live on elementum.life (owner 2026-10-21, "Switch it on elementum.life"). */
-export const CHAPTERS_ENERGY = true;
 
 const CHAPTER = { year: 'Early Chapter', month: 'Rising Chapter', day: 'Home Chapter', hour: 'Late Chapter' };
 const GATE_NAME = { year: 'Year Gate', month: 'Month Gate', day: 'Day Gate', hour: 'Hour Gate' };
