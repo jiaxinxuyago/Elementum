@@ -1,0 +1,278 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Revelation Sequence Directions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="kit.css">
+<style>
+/* The revelation sequence: the Naming, the first reading's eight cards, the
+   dissolve. Every frame sits on the Naming's own ground (paper, the distant
+   peaks, the floating island, fog): no new colours anywhere. */
+.reveal{background:linear-gradient(180deg,#F5EEDE 0%,#F1E9D6 52%,#ECE2C9 100%);position:relative;height:100%;overflow:hidden}
+.reveal .bgt,.reveal .bgb{position:absolute;left:0;width:100%;height:50%;object-fit:cover;pointer-events:none;z-index:0}
+.reveal .bgt{top:0;object-position:center top;-webkit-mask-image:linear-gradient(to bottom,#000 56%,transparent 100%);mask-image:linear-gradient(to bottom,#000 56%,transparent 100%)}
+.reveal .bgb{top:50%;object-position:center bottom;mix-blend-mode:multiply;opacity:.72;-webkit-mask-image:linear-gradient(to top,#000 60%,transparent 100%);mask-image:linear-gradient(to top,#000 60%,transparent 100%)}
+.reveal .fog{position:absolute;left:-8%;right:-8%;top:24%;height:52%;z-index:1;pointer-events:none;background:linear-gradient(to bottom,rgba(243,236,221,0) 0%,rgba(243,236,221,.14) 34%,rgba(244,238,224,.32) 50%,rgba(243,236,221,.14) 66%,rgba(243,236,221,0) 100%);filter:blur(20px)}
+.reveal .veil{position:absolute;left:0;right:0;top:46%;bottom:0;z-index:1;pointer-events:none;background:linear-gradient(to bottom,rgba(241,233,214,0) 0%,rgba(241,233,214,.55) 30%,rgba(241,233,214,.72) 100%)}
+.reveal .kstatus{position:absolute;left:0;right:0;top:0;z-index:5;background:none}
+.reveal .prog{position:absolute;top:40px;left:12px;right:12px;display:flex;gap:4px;z-index:5}
+.reveal .prog i{flex:1;height:3px;border-radius:2px;background:rgba(43,39,34,.18)} .reveal .prog i.on{background:#2b2722}
+.reveal .skip{position:absolute;top:52px;right:14px;z-index:5;font-family:var(--body);font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;opacity:.7}
+.reveal .rin{position:relative;z-index:3;display:flex;flex-direction:column;align-items:center;text-align:center;padding:74px 26px 44px;gap:12px;height:100%}
+.reveal .rin.mid{justify-content:center}
+.reveal .rey{font-family:var(--carve);font-size:9px;letter-spacing:3.2px;text-transform:uppercase;color:var(--bronzeDark)}
+.reveal .rtitle{font-family:var(--display);font-size:31px;font-weight:600;line-height:1.1;margin:0;text-wrap:balance}
+.reveal .rtitle.name{font-size:40px;font-weight:500;line-height:1.05}
+.reveal .rp{font-size:16px;line-height:1.5;margin:0;max-width:30ch}
+.reveal .rp.quiet{color:var(--inkSoft);font-size:15px}
+.reveal .rstate{display:flex;align-items:center;gap:10px;font-family:var(--carve);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--inkSoft)}
+.reveal .rstate b{font-family:var(--body);font-size:15px;font-weight:600;letter-spacing:0;color:var(--ink)}
+.reveal .rseal{width:150px;height:150px}
+.reveal .hint{position:absolute;bottom:28px;left:0;right:0;text-align:center;font-family:var(--body);font-size:9px;letter-spacing:2.4px;text-transform:uppercase;opacity:.55;z-index:3}
+.reveal .rswipe{margin-top:auto;padding-bottom:0;font-size:13px;color:var(--inkSoft);display:flex;flex-direction:column;align-items:center;gap:2px}
+.reveal .rswipe b{font-weight:400;font-size:18px;line-height:1}
+.reveal .inscr{position:absolute;right:22px;bottom:92px;z-index:3;writing-mode:vertical-rl;font-family:var(--carve);font-size:8.5px;letter-spacing:3px;color:var(--inkLight);opacity:.85;text-shadow:0 0 6px #F1E9D6,0 0 2px #F1E9D6}
+.reveal .inscr .han{font-family:var(--han);font-size:12px;letter-spacing:4px}
+.reveal .rule{width:200px;height:1px;background:var(--paperHair)}
+.reveal .btns{display:flex;flex-direction:column;gap:10px;width:100%;max-width:300px;margin-top:6px}
+.reveal .btn{display:flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;padding:13px 18px;font-family:var(--body);font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase}
+.reveal .btn.ink{background:var(--ink);color:var(--cream)}
+.reveal .btn.ghost{color:var(--ink);border:1px solid var(--paperHair);background:rgba(248,246,240,.55)}
+/* the distribution row (the Naming) */
+.dist{display:flex;align-items:flex-end;justify-content:center;gap:10px;margin-top:6px}
+.dist span{display:flex;flex-direction:column;align-items:center;gap:4px;font-family:var(--carve);font-size:9px;letter-spacing:1px;color:var(--inkSoft)}
+.dist small{font-family:var(--body);font-size:12px;color:var(--ink)}
+/* the big ink dot: the wheel's sign, sized by presence */
+.bigdot{display:flex;flex-direction:column;align-items:center;gap:6px}
+.bigdot .kdot{filter:drop-shadow(0 6px 16px rgba(43,39,34,.18))}
+/* Direction 2: the wash under the paper, the small sign, the left column */
+.reveal .wash{position:absolute;z-index:1;width:440px;height:440px;left:-130px;top:30px;background-size:cover;background-position:center;opacity:.34;mix-blend-mode:multiply;pointer-events:none;filter:blur(1.5px)}
+.reveal .rin.left{align-items:flex-start;text-align:left;padding:118px 62px 44px 28px;gap:12px;justify-content:flex-start}
+.reveal .rin.left .rp{max-width:28ch}
+.reveal .rin.left .rtitle{text-wrap:pretty}
+.reveal .rin.left .btns{align-items:stretch}
+/* Direction 3: the rail, the five dots as a persistent map */
+.rail{display:flex;align-items:flex-end;justify-content:center;gap:9px;min-height:150px;max-width:100%}
+.rail span{display:flex;flex-direction:column;align-items:center;gap:5px;font-family:var(--carve);font-size:8.5px;letter-spacing:1px;color:var(--inkSoft);transition:opacity .3s}
+.rail span.off{opacity:.38}
+.rail span.off .kdot .ic{opacity:.6}
+.rail small{font-family:var(--body);font-size:12px;color:var(--ink)}
+.rail .grp{display:flex;flex-direction:column;align-items:center;gap:8px}
+.rail .grp .gl{font-family:var(--carve);font-size:9px;letter-spacing:2.4px;color:var(--bronzeDark)}
+.rail .grp .gd{display:flex;align-items:flex-end;gap:10px}
+.rail .grp.rel .gl{color:var(--down)} .rail .grp.gro .gl{color:var(--up)}
+/* the dial on paper */
+.reveal .mg-dial{max-width:200px}
+/* the bug, before and after */
+.gapdemo{height:100%;position:relative;background:var(--silk)}
+.gapdemo .card{position:absolute;left:0;right:0;bottom:0;top:48px;background:#dde5ec}
+.gapdemo.fixed .card{top:0}
+.gapdemo .card .prog{position:absolute;top:40px;left:12px;right:12px;display:flex;gap:4px}
+.gapdemo .card .prog i{flex:1;height:3px;border-radius:2px;background:rgba(43,39,34,.18)} .gapdemo .card .prog i.on{background:#2b2722}
+.gapdemo .card p{position:absolute;top:46%;left:26px;right:26px;text-align:center;font-family:var(--display);font-size:22px;margin:0;color:var(--inkSoft)}
+.gapdemo .strip{position:absolute;left:0;right:0;top:0;height:48px;display:flex;align-items:center;justify-content:center;font-family:var(--carve);font-size:9px;letter-spacing:2px;color:var(--down)}
+/* page furniture */
+.cmp{max-width:880px;margin:26px auto 0}
+.cmp table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:640px}
+.cmp th,.cmp td{text-align:left;vertical-align:top;padding:9px 10px;border-top:1px solid var(--borderLight)}
+.cmp th{font-family:var(--carve);font-size:10px;letter-spacing:1.4px;color:var(--bronzeDark);font-weight:500}
+.cmp .scroll{overflow-x:auto;background:var(--cardstock);border:1px solid var(--paperHair);border-radius:12px}
+.good{color:var(--up)} .risk{color:var(--down)}
+.words{max-width:880px;margin:26px auto 0;background:var(--cardstock);border:1px solid var(--paperHair);border-radius:16px;padding:16px 18px}
+.words h2{font-family:var(--display);font-weight:500;font-size:26px;margin:0 0 6px}
+.words dl{display:grid;grid-template-columns:minmax(120px,180px) 1fr;gap:8px 14px;margin:0;font-size:14.5px}
+.words dt{font-family:var(--carve);font-size:10px;letter-spacing:1.4px;color:var(--bronzeDark);padding-top:3px}
+.words dd{margin:0}
+.words code{font-family:var(--mono);font-size:12px;color:var(--inkLight)}
+.rows{max-width:880px;margin:0 auto}
+.row{background:var(--cardstock);border:1px solid var(--paperHair);border-radius:16px;padding:16px;margin-top:12px}
+.row .rh{display:flex;gap:10px;align-items:baseline}
+.row .rc{font-family:var(--carve);font-size:13px;letter-spacing:1.5px;color:var(--bronzeDark)}
+.row h3{font-family:var(--display);font-weight:600;font-size:20px;margin:0}
+.row .why{font-size:14.5px;color:var(--inkSoft);margin:6px 0 10px}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opt{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;text-align:left;border:1px solid var(--paperHair);background:var(--cream);border-radius:12px;padding:10px 12px;cursor:pointer;font:inherit;color:inherit;font-size:15px;line-height:1.4}
+.opt b{font-family:var(--carve);font-size:13px;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1px solid var(--paperHair)}
+.opt .rec{display:inline-block;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--up);margin-left:6px}
+.opt[aria-pressed="true"]{border-color:var(--ink);background:#fff}
+.opt[aria-pressed="true"] b{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:rgba(248,246,240,.97);border-top:1px solid var(--paperHair);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.tray .in{max-width:880px;margin:0 auto;display:flex;gap:10px;align-items:center}
+.tray code{flex:1;min-width:0;font-family:var(--body);font-size:15px;font-weight:600;white-space:nowrap;overflow-x:auto;padding:6px 0}
+.tray button{flex:none;border:0;border-radius:999px;background:var(--ink);color:var(--cream);font:inherit;font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:9px 14px;cursor:pointer}
+.tray .msg{font-size:12px;color:var(--up)}
+body{padding-bottom:120px}
+</style>
+<div id="app"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="jny-el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>
+<symbol id="jny-el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"></path></symbol>
+<symbol id="jny-el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"></path></symbol>
+<symbol id="jny-el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"></path><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"></path></symbol>
+<symbol id="jny-el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"></path><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"></path></symbol>
+<symbol id="jny-ic-charged" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="13.5" r="6.2" fill="currentColor" stroke="none"></circle><path d="M12 3.2v2.4M5.2 6.4l1.7 1.7M18.8 6.4l-1.7 1.7"></path></g></symbol>
+<symbol id="jny-ic-balanced" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="7.2"></circle><path d="M4.8 12h14.4" stroke-linecap="round"></path><path d="M12 12a7.2 7.2 0 0 1-7.2 0v0a7.2 7.2 0 0 0 14.4 0v0a7.2 7.2 0 0 1-7.2 0Z" fill="currentColor" stroke="none" transform="translate(0 0.2)"></path></g></symbol>
+<symbol id="jny-ic-receptive" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="7.2" stroke-dasharray="2.6 3"></circle><circle cx="12" cy="15.2" r="2.1" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-ic-channel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 4.5v5M16.5 14.5v5"></path><path d="M4 12h14.5M15.2 8.7 18.5 12l-3.3 3.3"></path></g></symbol>
+<symbol id="jny-ic-fuel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="17.2" cy="12" r="3.4" fill="currentColor" stroke="none"></circle><path d="M3.5 12h8.3M9.2 8.9 12.3 12l-3.1 3.1"></path></g></symbol>
+<symbol id="jny-ar-up" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
+<symbol id="jny-ar-down" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
+<symbol id="jny-ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>
+<symbol id="jny-ico-chev-l" viewBox="0 0 24 24"><path d="M15 6 L9 12 L15 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-chev-r" viewBox="0 0 24 24"><path d="M9 6 L15 12 L9 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ico-share" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="M8 7l4-4 4 4"></path><path d="M5 12v7a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19v-7"></path></g></symbol>
+<symbol id="jny-ico-close" viewBox="0 0 24 24"><path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"></path></symbol>
+<symbol id="jny-ic-codex" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.4C10.4 5.2 8.2 4.7 5.4 4.9v12c2.8-.2 5 .3 6.6 1.5 1.6-1.2 3.8-1.7 6.6-1.5v-12c-2.8-.2-5 .3-6.6 1.5z"></path><path d="M12 6.4V18.4"></path></g></symbol>
+<symbol id="jny-ic-save" viewBox="0 0 24 24"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+<symbol id="jny-ic-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.6 14.4l4.8-4.8"></path><path d="M8.2 11.1l-1.9 1.9a3 3 0 0 0 4.24 4.24l1.9-1.9"></path><path d="M15.8 12.9l1.9-1.9a3 3 0 0 0-4.24-4.24l-1.9 1.9"></path></g></symbol>
+<symbol id="jny-tab-today" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></g></symbol>
+<symbol id="jny-tab-guidance" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"></path><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-reading" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"></path><path d="M12 6 V20"></path></g></symbol>
+<symbol id="jny-tab-compat" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="6.5"></circle><circle cx="15.5" cy="12" r="6.5"></circle><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+<symbol id="jny-tab-profile" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></g></symbol>
+<symbol id="jny-fn-body" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.6" r="2.6"></circle><path d="M12 8.4 V14.6"></path><path d="M7.2 12.2 L12 9.8 L16.8 12.2"></path><path d="M12 14.6 L8.6 21"></path><path d="M12 14.6 L15.4 21"></path></g></symbol>
+<symbol id="jny-fn-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.2 C10 5.6 7.2 5.3 3.8 6 V18.6 C7.2 17.9 10 18.2 12 19.8 C14 18.2 16.8 17.9 20.2 18.6 V6 C16.8 5.3 14 5.6 12 7.2 Z"></path><path d="M12 7.2 V19.8"></path><path d="M6.6 9.6 C7.6 9.5 8.6 9.6 9.6 9.9"></path><path d="M6.6 12.6 C7.6 12.5 8.6 12.6 9.6 12.9"></path><path d="M14.4 9.9 C15.4 9.6 16.4 9.5 17.4 9.6"></path><path d="M14.4 12.9 C15.4 12.6 16.4 12.5 17.4 12.6"></path></g></symbol>
+<symbol id="jny-fn-expression" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 4.6 H17.8 A2.4 2.4 0 0 1 20.2 7 V14 A2.4 2.4 0 0 1 17.8 16.4 H10.6 L6.4 19.8 V16.4 H6.2 A2.4 2.4 0 0 1 3.8 14 V7 A2.4 2.4 0 0 1 6.2 4.6 Z"></path><path d="M9.3 12.2 C8.2 11.9 7.9 10.6 8.5 9.7 C9 9 9.9 8.8 10.5 9.3"></path><path d="M14.3 12.2 C13.2 11.9 12.9 10.6 13.5 9.7 C14 9 14.9 8.8 15.5 9.3"></path></g></symbol>
+<symbol id="jny-fn-action" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M10.9 5.6 L14.4 2.1 A1.2 1.2 0 0 1 16.1 2.1 L21.9 7.9 A1.2 1.2 0 0 1 21.9 9.6 L18.4 13.1 Z"></path><path d="M12.9 9.4 L4 18.3 A1.5 1.5 0 0 0 4 20.4 L4.4 20.8 A1.5 1.5 0 0 0 6.5 20.8 L14.6 11.1"></path></g></symbol>
+<symbol id="jny-fn-order" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.2 V20"></path><path d="M8.2 20.4 H15.8"></path><path d="M4.6 7.6 H19.4"></path><path d="M6.2 7.6 L3.2 13.6"></path><path d="M6.2 7.6 L9.2 13.6"></path><path d="M3.2 13.6 A3 3 0 0 0 9.2 13.6"></path><path d="M17.8 7.6 L14.8 13.6"></path><path d="M17.8 7.6 L20.8 13.6"></path><path d="M14.8 13.6 A3 3 0 0 0 20.8 13.6"></path></g></symbol>
+<symbol id="jny-dom-wealth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6.5" rx="7" ry="2.6"></ellipse><path d="M5 6.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path><path d="M5 11.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path></g></symbol>
+<symbol id="jny-dom-rel" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 5.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4C4.5 11.8 2 10.2 2 7.8c0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z" transform="translate(2 2)"></path><path d="M15.5 9.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4-2-1.4-4.5-3-4.5-5.4 0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z"></path></g></symbol>
+<symbol id="jny-dom-career" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7.5" width="17" height="12" rx="2"></rect><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"></path><path d="M3.5 12.5h17"></path></g></symbol>
+<symbol id="jny-dom-family" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4.5l8 7"></path><path d="M6.2 10v9.5h11.6V10"></path><path d="M10.2 19.5v-5h3.6v5"></path></g></symbol>
+<symbol id="jny-dom-social" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3"></circle><path d="M3.5 19c0-3.2 2.4-5.5 5.5-5.5s5.5 2.3 5.5 5.5"></path><path d="M15.2 5.8a3 3 0 0 1 0 5.4"></path><path d="M16.8 13.6c2.3.5 3.7 2.5 3.7 5.4"></path></g></symbol>
+<symbol id="jny-dom-love" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19.5c-4.2-2.9-8-6.1-8-10 0-2.3 1.7-4 3.9-4 1.6 0 2.9.8 4.1 2.3 1.2-1.5 2.5-2.3 4.1-2.3 2.2 0 3.9 1.7 3.9 4 0 3.9-3.8 7.1-8 10z"></path></g></symbol>
+<symbol id="jny-dom-mind" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17.5h6"></path><path d="M10 20h4"></path><path d="M8.6 14.6C7 13.5 6 11.9 6 10a6 6 0 0 1 12 0c0 1.9-1 3.5-2.6 4.6-.6.4-.9 1-.9 1.6v.3H9.5v-.3c0-.6-.3-1.2-.9-1.6z"></path></g></symbol>
+<symbol id="jny-dom-growth" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5V10.5"></path><path d="M12 13.5c-3.6 0-6-2.2-6.5-6 3.8 0 6.3 2 6.5 6z"></path><path d="M12 11c.3-3.6 2.8-5.6 6.5-5.5-.5 3.8-2.9 5.8-6.5 5.5z"></path><path d="M7 20.5h10"></path></g></symbol>
+<symbol id="jny-ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"></rect><path d="M8.5 10.5V7.8a3.5 3.5 0 0 1 7 0v2.7"></path></g></symbol>
+<symbol id="jny-dom-health" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 12.5h3l1.6-4 2.8 8 2.4-6 1.4 2h5.3"></path></g></symbol>
+<symbol id="jny-ico-spark" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v4M12 16.5v4M3.5 12h4M16.5 12h4"></path><path d="M12 8.2 13.6 10.4 16 12 13.6 13.6 12 15.8 10.4 13.6 8 12 10.4 10.4Z"></path></g></symbol></defs></svg>
+<script src="kit.js"></script>
+<script src="blocks.js"></script>
+<script>
+/* ── the words, all from the running app (golden chart, 2026-10-21) ───
+   STEM.who · CONDITION.run_headline · ELEMENT_PAIR.head · the function
+   label · ELEMENT_PAIR.definition (THE FUNCTION, first two sentences) ·
+   the CHARACTER panel's state · ELEMENT_PAIR.cta_verdict · tpl_rx_ribbon. */
+const FN_HEAD = {
+  metal: 'Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds.',
+  earth: 'Your Mind is where the world soaks in and becomes yours. Earth holds it, and nothing you learn is lost.',
+  fire: 'Your Order is the rules you answer to and the rank you hold by them. Fire fuels it, and outside demands shape you.',
+  wood: 'Your Action is what you go and build, claim and provide. Wood makes it grow, so what you build adds up.',
+  water: 'Your Expression is the gate where inner work becomes outer fact. Water makes it flow, and what you feel comes out.',
+};
+const STATE = { metal: 'Overfueled', earth: 'Friction', fire: 'Catalyst', wood: 'Catalyst', water: 'Catalyst' };
+const P = Object.fromEntries(EL.map((e) => [e, D.E[e].p]));
+const PMAX = Math.max(...Object.values(P));
+const ORDER = D.order;                       // the first reading's order: metal · earth · fire · wood · water
+const n = 8;
+const pillOf = (e) => pill(D.E[e].pole, D.E[e].pole === 'fric' ? 'Release it' : 'Grow it');
+const prog = (i) => `<div class="prog">${Array.from({ length: n }, (_, k) => `<i class="${k <= i ? 'on' : ''}"></i>`).join('')}</div><span class="skip">Skip</span>`;
+const ground = (inner, { card = null, extra = '', cls = 'mid', veil = true, hint = '' } = {}) => `<div class="page reveal">${status()}<img class="bgt" src="bg-reveal-01-distant-peaks.jpg" alt=""><img class="bgb" src="bg-reveal-02-floating-island.jpg" alt=""><div class="fog"></div>${veil ? '<div class="veil"></div>' : ''}${card === null ? '' : prog(card)}${extra}<div class="rin ${cls}">${inner}</div>${hint ? `<span class="hint">${hint}</span>` : ''}</div>`;
+const seal = `<img class="rseal" src="${D.id.seal}" alt="庚, The Blade">`;
+const big = (e) => Math.round(96 + 72 * (P[e] / PMAX));
+const distRow = (hi = null) => `<div class="dist">${ORDER.map((e) => `<span${hi && hi !== e ? ' style="opacity:.4"' : ''}>${dot(e, Math.round(30 + (P[e] / PMAX) * 34))}<small>${P[e]}%</small>${ELN[e]}</span>`).join('')}</div>`;
+const naming = () => ground(`<div style="height:72px;flex:none"></div><span class="rey">You are</span>${seal}<p class="rtitle name">${D.id.arch}</p><span class="rey" style="margin-top:14px">Your five energies</span>${distRow()}<span class="rswipe"><b>^</b>Swipe up</span>`, { cls: '', veil: false, extra: `<span class="inscr"><span class="han">庚</span> · YANG METAL · 1995 · APRIL 29 · 17–19 CST</span>` });
+const stateLine = (e) => `<span class="rstate"><b>${P[e]}%</b>· ${STATE[e]} ·${pillOf(e)}</span>`;
+const title = (e) => `${ELN[e]} is your ${D.E[e].fn} energy.`;
+const rxDots = (grouped = true) => `<div class="rail">${grouped ? `<div class="grp rel"><span class="gl">Release</span><div class="gd">${D.ease.map((e) => `<span>${dot(e, Math.round(34 + (P[e] / PMAX) * 30))}${ELN[e]}</span>`).join('')}</div></div><div class="grp gro"><span class="gl">Grow</span><div class="gd">${D.seek.map((e) => `<span>${dot(e, Math.round(34 + (P[e] / PMAX) * 30))}${ELN[e]}</span>`).join('')}</div></div>` : ''}</div>`;
+const endBtns = `<div class="btns"><span class="btn ink">Enter your reading ${use('ico-arrow-r')}</span><span class="btn ghost">${use('ico-share')} Share your reading</span></div>`;
+
+/* ── Direction 1 · one ground ──────────────────────────────────── */
+const d1 = {
+  c1: ground(`<span class="rey">Your first reading</span>${seal}<h3 class="rtitle">You are ${D.id.arch}.</h3><p class="rp">${D.id.who}</p>`, { card: 0, hint: 'Tap to continue' }),
+  c2: ground(`<span class="rey">How you run</span>${dial(D.score, D.cond)}<h3 class="rtitle">You run ${D.cond}.</h3><p class="rp">${D.runLine}</p>`, { card: 1 }),
+  en: (e, i) => ground(`<span class="rey">${D.E[e].head}</span><div class="bigdot">${dot(e, big(e))}</div><h3 class="rtitle">${title(e)}</h3><p class="rp">${FN_HEAD[e]}</p>${stateLine(e)}`, { card: i }),
+  c8: ground(`<span class="rey">What your chart asks for</span>${rxDots()}<h3 class="rtitle">${D.rx}</h3><p class="rp quiet">${D.start}</p>${endBtns}`, { card: 7 }),
+};
+/* ── Direction 2 · the wash ───────────────────────────────────── */
+const inscr = (han, rest) => `<span class="inscr"><span class="han">${han}</span> · ${rest}</span>`;
+const d2 = {
+  c1: ground(`${seal}<h3 class="rtitle">You are ${D.id.arch}.</h3><p class="rp">${D.id.who}</p>`, { card: 0, cls: 'left', hint: 'Tap to continue', extra: inscr('庚', 'YANG METAL · YOUR FIRST READING') }),
+  c2: ground(`<div style="width:200px">${dial(D.score, D.cond)}</div><h3 class="rtitle">You run ${D.cond}.</h3><p class="rp">${D.runLine}</p>`, { card: 1, cls: 'left', extra: inscr('主', `HOW YOU RUN · ${D.score} OF 7`) }),
+  en: (e, i) => ground(`${dot(e, 72)}<span class="rey">${D.E[e].head}</span><h3 class="rtitle">${title(e)}</h3><p class="rp">${FN_HEAD[e]}</p><p class="rp quiet">${D.E[e].teaser}</p>${pillOf(e)}`, { card: i, cls: 'left', extra: `<span class="wash" style="background-image:url(dot-${e}.png)"></span>${inscr(HAN[e], `${P[e]}% · ${STATE[e].toUpperCase()}`)}` }),
+  c8: ground(`<span class="rey">What your chart asks for</span><h3 class="rtitle">${D.rx}</h3><p class="rp quiet">${D.start}</p>${endBtns}`, { card: 7, cls: 'left', extra: `<span class="wash" style="background-image:url(dot-fire.png);opacity:.26"></span>${inscr('火', 'START WITH FIRE · YOUR ORDER')}` }),
+};
+/* ── Direction 3 · the rail ───────────────────────────────────── */
+const rail = (hi) => `<div class="rail">${ORDER.map((e) => `<span class="${e === hi ? '' : 'off'}">${dot(e, e === hi ? Math.round(60 + (P[e] / PMAX) * 48) : Math.round(22 + (P[e] / PMAX) * 18))}<small>${P[e]}%</small>${ELN[e]}</span>`).join('')}</div>`;
+const d3 = {
+  c1: d1.c1,
+  c2: d1.c2,
+  en: (e, i) => ground(`<span class="rey">${D.E[e].head}</span>${rail(e)}<h3 class="rtitle">${title(e)}</h3><p class="rp">${FN_HEAD[e]}</p>${stateLine(e)}`, { card: i }),
+  c8: ground(`<span class="rey">What your chart asks for</span>${rxDots()}<h3 class="rtitle">${D.rx}</h3><p class="rp quiet">${D.start}</p>${endBtns}`, { card: 7 }),
+};
+const shelf = (d, id, labels) => [
+  { id: `${id}-c1`, label: 'Card 1 · You are The Blade', gesture: labels.c1, html: d.c1 },
+  { id: `${id}-c2`, label: 'Card 2 · How you run', gesture: labels.c2, html: d.c2 },
+  ...ORDER.map((e, k) => ({ id: `${id}-${e}`, label: `Card ${k + 3} · ${ELN[e]}, your ${D.E[e].fn}`, gesture: labels.en(e), html: d.en(e, k + 2) })),
+  { id: `${id}-c8`, label: 'Card 8 · What your chart asks for', gesture: labels.c8, html: d.c8 },
+];
+
+const V = {
+  code: 'RS', name: 'The Revelation Sequence',
+  thesis: 'The Naming, the eight cards, the dissolve: one ground from the first frame to the last. The cards lose their flat colours and sit on the Naming’s paper and painting; each energy card carries the wheel’s own ink dot; each energy is named by its function first.',
+  tap: 'Unchanged: tap the right two-thirds of a card to go on, the left third to go back; Skip at the top; the last card enters the reading, where the seal dissolves into the wheel.',
+  scroll: 'None. Every card is one still composition on the same ground.',
+  next: 'The three directions share the ground, the words and the order. They differ in where the energy’s sign sits: as the card’s object (1), as a wash under a left-hand column (2), or as the Naming’s five-dot row kept on screen (3).',
+  intro: 'Golden chart (庚 The Blade, Overfueled). Every line of text is the app’s own: the who-you-are line, the run headline, the pair heads, THE FUNCTION’s opening sentences, the CHARACTER panel’s state, the ribbon. Nothing new was written. The gap at the top edge is already fixed on elementum.life (section 1).',
+  flows: [
+    { id: 'gap', short: '1 · The gap', title: 'The top-edge gap, fixed and live', note: 'The cards sat inside the stage, under the 48px status strip, so the frame’s paper showed above every card. The card now takes the Naming overlay’s inset and paints to the top edge. Shipped this afternoon; the directions below make the strip moot anyway, since the cards share the paper.',
+      screens: [
+        { id: 'gap-before', label: 'This morning', gesture: 'A paper strip above a tinted card', html: `<div class="gapdemo"><span class="strip">the gap</span><div class="card"><div class="prog"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div><p>Card 3, as it shipped</p></div></div>` },
+        { id: 'gap-after', label: 'Now live', gesture: 'The card’s ground reaches the top edge', html: `<div class="gapdemo fixed"><div class="card">${status()}<div class="prog"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div><p>Card 3, fixed</p></div></div>` },
+        { id: 'gap-naming', label: 'The Naming, as it ships', gesture: 'The ground every direction below keeps: paper, peaks, island, fog', html: naming() },
+      ] },
+    { id: 'd1', short: '2 · One ground', title: 'Direction 1 · One ground (recommended)', note: 'The painting never moves; only what sits on the paper changes. The seal of the Naming gives way to the energy’s ink dot in the same place, sized by presence as on the Naming and the wheel. Centred, like the Naming. Title: “Metal is your Body energy.”, then THE FUNCTION’s first two sentences, then the state and the pill.',
+      screens: shelf(d1, 'd1', { c1: 'The seal stays where the Naming left it; the words begin', c2: 'The dial in ink on paper; the run headline', en: (e) => `${ELN[e]}’s dot at ${big(e)}px (${P[e]}% of ${PMAX}%); the pair head above, the function title, the function’s opening`, c8: 'The ribbon as a picture: the five dots in two groups' }) },
+    { id: 'd2', short: '3 · The wash', title: 'Direction 2 · The wash', note: 'One-corner composition (一角): the energy’s ink dot bleeds under the paper at the top left like a seal impression, the small sign heads a left-hand column, and the painter’s inscription at the right carries the number and the state. Two paragraphs: THE FUNCTION’s opening, then the verdict line the card carries today.',
+      screens: shelf(d2, 'd2', { c1: 'The seal and the words in a left column; the inscription names the reading', c2: 'The dial at the left; the score in the inscription', en: (e) => `${ELN[e]}’s dot washed under the paper; the sign at 72px; “${HAN[e]} · ${P[e]}% · ${STATE[e].toUpperCase()}” at the side`, c8: 'The ribbon in the column; Fire’s wash under it, since Fire is where to start' }) },
+    { id: 'd3', short: '4 · The rail', title: 'Direction 3 · The rail', note: 'The Naming’s five-dot row stays on screen through cards 3 to 7. The energy being read swells to the card’s object; the other four wait at the side, ghosted. The reader always sees where this energy sits among the five. Card 8 resolves the row into Release and Grow.',
+      screens: shelf(d3, 'd3', { c1: 'As Direction 1', c2: 'As Direction 1', en: (e) => `${ELN[e]} swells in the row; the other four ghost to 38%`, c8: 'The row resolves into the ribbon’s two groups' }) },
+  ],
+  after: `<section class="words"><h2>The words, and where they come from</h2>
+  <dl>
+    <dt>Card 1</dt><dd>“You are The Blade.” and the who-you-are line. <code>STEM.who</code></dd>
+    <dt>Card 2</dt><dd>“You run Overfueled.” over “Your Metal takes in more than it spends.” The run headline, split at its colon; today the card says only “Overfueled.” <code>CONDITION.run_headline</code></dd>
+    <dt>Cards 3 to 7, eyebrow</dt><dd>The pair head: “Metal strengthens the Blade”, “Earth feeds the Blade”, “Fire forges the Blade”, “Wood is shaped by the Blade”, “Water draws from the Blade”. <code>ELEMENT_PAIR.head</code></dd>
+    <dt>Cards 3 to 7, title</dt><dd>“Metal is your Body energy.” The function first, as the owner asked, in place of “You have 23% of Metal energy.” The function label is the locked bijection. <code>fnLabelFor</code></dd>
+    <dt>Cards 3 to 7, teaser</dt><dd>THE FUNCTION’s first two sentences, the reading the energy page opens with: “Your Body is the strength the whole of you stands on. Metal keeps it exact, so your standard holds.” <code>ELEMENT_PAIR.definition</code>, the head the page already renders</dd>
+    <dt>Cards 3 to 7, state</dt><dd>“23% · Overfueled · Release it”: the CHARACTER panel’s own three facts. Direction 2 also keeps today’s verdict line under the teaser. <code>cta_verdict</code></dd>
+    <dt>Card 8</dt><dd>“Release Metal and Earth. Grow Fire, Wood and Water.” and “Start with Fire, your Order.” <code>tpl_rx_ribbon</code></dd>
+  </dl></section>
+  <section class="cmp"><h2 style="font-family:var(--display);font-weight:500;font-size:26px;margin:26px 0 8px">Why Direction 1</h2>
+  <div class="scroll"><table>
+    <tr><th></th><th>1 · One ground</th><th>2 · The wash</th><th>3 · The rail</th></tr>
+    <tr><td>Continuity from the Naming</td><td class="good">Same ground, same centre, same composition; the seal becomes the dot</td><td>Same ground, but the column breaks the Naming’s centred stack</td><td class="good">Same ground; the five-dot row literally carries over</td></tr>
+    <tr><td>Things to decode per card</td><td class="good">One object, one title, one paragraph, one state</td><td>Two paragraphs and an inscription; the richest</td><td class="risk">Five dots and numbers on every card, four of them not the subject</td></tr>
+    <tr><td>Ink-wash composition</td><td class="good">留白 above and below the object; the island behind the words under a veil</td><td class="good">一角: the wash in one corner, open paper elsewhere, the inscription at the side</td><td>Full width row; less empty paper</td></tr>
+    <tr><td>The sign’s integration with the background</td><td>The dot sits on the paper, like the wheel’s disks</td><td class="good">The dot is in the paper: the wash reads as ink under the sheet</td><td>Dots on the paper</td></tr>
+    <tr><td>Readability over the island art</td><td class="good">Veil from mid-height; 16px body, 30ch</td><td class="good">Column keeps clear of the island’s right side</td><td class="good">As Direction 1</td></tr>
+    <tr><td>The dissolve (unchanged)</td><td class="good">Card 8’s dots sit where the wheel’s disks will land</td><td>Card 8 has no dots; the seal descends alone</td><td class="good">Card 8’s two groups land on the wheel</td></tr>
+    <tr><td>Build size</td><td class="good">Small: merged.css grounds, two markup changes</td><td>Medium: a left layout, the wash, the inscription</td><td>Small to medium: the rail component</td></tr>
+  </table></div>
+  <p style="font-size:14.5px;color:var(--inkSoft);margin-top:10px">Direction 2 is the best-looking single card and the strongest “sign in the background” answer; it costs a second paragraph and a second layout grammar inside one sequence. Direction 3 answers “where am I among the five” well but puts five numbers on every card, which is what the Naming re-ruling just moved off the first glance. Direction 1 keeps one grammar from the Naming to the dissolve. Rows RS2 and RS5 can pull Direction 2’s wash or its inscription into Direction 1.</p></section>
+  <section class="rows"><h2 style="font-family:var(--display);font-weight:500;font-size:26px;margin:26px 0 4px">Rulings</h2><div id="rows"></div></section>`,
+};
+renderVariant(V);
+
+const ROWS = [
+  ['RS1', 'The direction', 'Which composition the eight cards take. All three share the ground and the words.', ['Direction 1: one ground, the dot as the card’s object', 'Direction 2: the wash under a left column, with the side inscription', 'Direction 3: the rail, the five dots kept on screen']],
+  ['RS2', 'The energy’s sign', 'How the wheel’s ink dot appears on cards 3 to 7.', ['One dot sized by presence, in the seal’s place', 'A faint wash under the paper plus a small sign at the top of the text', 'The five-dot row with the current one swelling']],
+  ['RS3', 'The energy card’s title and teaser', 'What replaces “You have 23% of Metal energy.”', ['“Metal is your Body energy.” over THE FUNCTION’s first two sentences', '“Metal is your Body energy.” over today’s verdict line', 'The function title over both: the function’s opening, then the verdict']],
+  ['RS4', 'Card 2’s words', 'What the How-you-run card says.', ['“You run Overfueled.” over “Your Metal takes in more than it spends.”', '“Overfueled.” as today']],
+  ['RS5', 'The number and the state', 'Where 23% and Overfueled sit on an energy card.', ['A state line under the teaser: “23% · Overfueled · Release it”', 'A vertical inscription at the right, like the Naming’s, with the pill under the teaser', 'The pill alone; the number stays on the Naming and the wheel']],
+  ['RS6', 'Card 8’s picture', 'What sits above “Release Metal and Earth. Grow Fire, Wood and Water.”', ['The five dots in two groups, Release and Grow', 'No picture, as today']],
+  ['RS7', 'The ground under the cards', 'Which painting sits under cards 1 to 8.', ['The Naming’s own: distant peaks above, the floating island below, fog and a veil', 'Paper with the mist veil only; the peaks and island stay with the Naming']],
+];
+const L = 'ABC';
+let pick = {};
+try { pick = JSON.parse(localStorage.getItem('elementum-rulings-revelation') || '{}') || {}; } catch (e) { pick = {}; }
+const rows = document.getElementById('rows');
+rows.innerHTML = ROWS.map(([c, t, why, opts]) => `<div class="row"><div class="rh"><span class="rc">${c}</span><h3>${t}</h3></div><p class="why">${why}</p><div class="opts">${opts.map((o, i) => `<button type="button" class="opt" data-row="${c}" data-opt="${L[i]}" aria-pressed="${pick[c] === L[i]}"><b>${L[i]}</b><span>${o}${i === 0 ? '<span class="rec">Recommended</span>' : ''}</span></button>`).join('')}</div></div>`).join('');
+document.body.insertAdjacentHTML('beforeend', '<div class="tray"><div class="in"><code id="codes">No rows ruled yet</code><span class="msg" id="msg" aria-live="polite"></span><button id="copy" type="button">Copy</button></div></div>');
+const codes = document.getElementById('codes');
+const render = () => { const s = ROWS.filter(([c]) => pick[c]).map(([c]) => `${c} ${pick[c]}`).join(', '); codes.textContent = s || 'No rows ruled yet'; };
+rows.addEventListener('click', (e) => { const b = e.target.closest('.opt'); if (!b) return; pick[b.dataset.row] = b.dataset.opt; b.parentElement.querySelectorAll('.opt').forEach((x) => x.setAttribute('aria-pressed', x === b)); try { localStorage.setItem('elementum-rulings-revelation', JSON.stringify(pick)); } catch (err) { /* storage off */ } render(); });
+document.getElementById('copy').addEventListener('click', () => { const msg = document.getElementById('msg'); navigator.clipboard.writeText(codes.textContent).then(() => { msg.textContent = 'Copied'; setTimeout(() => (msg.textContent = ''), 1500); }).catch(() => { const r = document.createRange(); r.selectNodeContents(codes); const s = getSelection(); s.removeAllRanges(); s.addRange(r); msg.textContent = 'Selected'; }); });
+render();
+</script>

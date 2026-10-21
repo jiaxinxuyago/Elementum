@@ -134,3 +134,25 @@ Rows: RV1 direction · RV2 where the stem and cast lines sit · RV3 where the th
 | RV3 | B · the thesis and the edge line leave the first run; they stay on the Your reading hero | 2026-10-21 |
 
 Built straight into elementum.life (same release rule as V5). The plate now reads: YOU ARE · seal · name · YOUR FIVE ENERGIES · five ink dots sized by presence with % and name (first-reading order) · the inscription 「庚 · YANG METAL · 1995 · APRIL 29 · 17–19 CST」 vertical at the right · Swipe up. The name's h2 margin is halved at every height so the swipe affordance fits (checked at 390×844 and 375×667). Code: `JourneyStage.jsx` (rvl-dist, rvl-inscr), `journey.css`.
+
+## Follow-up · the revelation sequence (owner feedback 2026-10-21, AWAITING RULING)
+
+The owner's feedback on the first reading's eight cards (screenshots of cards 1, 2 and 3): a paper gap above every card at the top edge; the cards' flat colours (ink, walnut, five tints) are new colours on top of the original background design; each energy should carry the wheel's ink dot sign, integrated into the background; each energy card's title should say "{Energy} is your {Function} energy" and reveal the function reading's teaser.
+
+**Fixed and live (bug):** the cards sat inside the stage under the 48px status strip. `.mg-fr` now takes the Naming overlay's inset (`-48px 0 0`, padding-top 48px) and paints to the top edge; the progress bar and Skip moved down by the same 48px. Commit `3dd9f64`.
+
+**Three directions built as real frames:** https://claude.ai/artifact/AJbo7tbpCjz8yTfQDQar14 (library copy: `Design/Library/Design_Pass_2026-10/RS_The_Revelation_Sequence_Directions.html`). All three share the ground (the Naming's paper, distant peaks, floating island, fog, plus a paper veil from mid-height for the words), the order, and the words. No new colours, no new art, no new text.
+
+| Direction | What changes | Recommendation |
+|---|---|---|
+| 1 · One ground | The painting never moves; the Naming's seal gives way to the energy's ink dot in the same place, sized by presence (96–168px). Centred, like the Naming. | **Recommended.** One grammar from the Naming to the dissolve; one object, one title, one paragraph, one state per card. |
+| 2 · The wash | One-corner composition: the energy's dot washed under the paper at the top left (multiply, 34%), a 72px sign heading a left-hand column, the painter's inscription at the right with "金 · 23% · OVERFUELED". Two paragraphs (the function's opening, then today's verdict line). | The strongest "sign in the background" answer and the best single card; costs a second layout grammar inside one sequence. Its wash or inscription can be pulled into Direction 1 by rows RS2 / RS5. |
+| 3 · The rail | The Naming's five-dot row stays on screen through cards 3–7; the energy being read swells, the other four ghost to 38%. Card 8 resolves the row into Release and Grow. | Answers "where am I among the five", but puts five numbers on every card, which the Naming re-ruling just moved off the first glance. |
+
+**The words (all from the corpus, nothing new):** card 1 `STEM.who`; card 2 "You run Overfueled." over the run line (`CONDITION.run_headline` split at its colon; today the card says only "Overfueled."); cards 3–7 the pair head as eyebrow (`ELEMENT_PAIR.head`), the title "{Energy} is your {Function} energy." (the locked function bijection), THE FUNCTION's first two sentences as the teaser (`ELEMENT_PAIR.definition`, the head the energy page already renders), the CHARACTER panel's state "23% · Overfueled · Release it"; card 8 `tpl_rx_ribbon` with the five dots in two groups (Release, Grow) as its picture.
+
+Rows: RS1 direction · RS2 the energy's sign · RS3 the title and teaser · RS4 card 2's words · RS5 the number and the state · RS6 card 8's picture · RS7 the ground under the cards. The owner answers in codes.
+
+| Row | Ruling | Date |
+|---|---|---|
+| RS1–RS7 | awaiting the owner | — |

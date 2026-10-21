@@ -22,7 +22,7 @@
 | DES_04 | App_Design | App design + §AM locked design rules | DOC5 |
 | DES_13 | Design_Audit_Backlog | THE DECISION LEDGER (D-series / S-series rulings) | — |
 | DES_14 | Asset_Map_Concept_Arts | Concept-art asset map | — |
-| DES_15 | Design_Pass_2026-10 | October 2026 design pass: research, four variants, ruling sheet (awaiting owner) | — |
+| DES_15 | Design_Pass_2026-10 | October 2026 design pass: research, four variants, V5 shipped; the Naming re-ruled and shipped; the revelation sequence directions (RS1–RS7 awaiting owner) | — |
 | — | _ARCHIVE_Manual_RETIRED | Retired Manual (archive, exempt) | — |
 
 ### Reading docs — at `Reading/Documents/` (moved 2026-07-27; formerly `DevLog_Docs/Reading/`)
