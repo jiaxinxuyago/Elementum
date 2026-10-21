@@ -103,7 +103,7 @@
   {
    "key": "ENERGY mind · decade.grow.lived.b",
    "kind": "decade_energy",
-   "text": "These years brought more {el}, a stretch of shelter after a harder time, with someone who backed you without asking much back. You recovered your footing, and you trusted help again."
+   "text": "These years brought more {el}, a stretch of shelter after a harder time, with someone who backed you and asked little in return. You recovered your footing, and you trusted help again."
   },
   {
    "key": "ENERGY mind · decade.grow.coming.a",
@@ -208,12 +208,12 @@
   {
    "key": "ENERGY expression · decade.release.coming.a",
    "kind": "decade_energy",
-   "text": "This decade brings {el} again, and with it a voice that runs faster than your patience. One demanding project carries you, and you put the restlessness into something that lasts."
+   "text": "This decade brings {el}, and with it a voice that runs faster than your patience. One demanding project carries you, and you put the restlessness into something that lasts."
   },
   {
    "key": "ENERGY expression · decade.release.coming.b",
    "kind": "decade_energy",
-   "text": "This decade brings more {el}, full of ideas you want to say aloud before they are ready. Study under someone you respect carries you, and you speak with more weight because of it."
+   "text": "This decade brings {el} again, full of ideas you want to say aloud before they are ready. Study under someone you respect carries you, and you speak with more weight because of it."
   },
   {
    "key": "ENERGY action · decade.grow.now",
@@ -278,7 +278,7 @@
   {
    "key": "ENERGY order · decade.grow.early.a",
    "kind": "decade_energy",
-   "text": "These years brought {el}, with school rules and a teacher who expected a lot. You rose to it, and you liked knowing where you stood."
+   "text": "These years brought {el}, with school rules and a teacher who expected a lot. You rose to it, and you liked being measured against a clear standard."
   },
   {
    "key": "ENERGY order · decade.grow.early.b",
@@ -293,7 +293,7 @@
   {
    "key": "ENERGY order · decade.grow.lived.b",
    "kind": "decade_energy",
-   "text": "These years brought more {el}, a stretch of exams, deadlines and people keeping score. You did your best work under that pressure, and your name began to carry weight."
+   "text": "These years brought more {el}, a stretch of reviews, deadlines and people keeping score. You did your best work under that pressure, and your name began to carry weight."
   },
   {
    "key": "ENERGY order · decade.grow.coming.b",
@@ -303,7 +303,7 @@
   {
    "key": "ENERGY order · decade.release.now",
    "kind": "decade_now",
-   "text": "This decade brings {el}, more Order than your chart can bear, with deadlines and people who judge your work. The pressure comes from every side at once. Study and the support of a mentor carry you through, and you come out of it harder to shake."
+   "text": "This decade brings {el}, more Order than your chart can bear, with deadlines and people who judge your work. The pressure comes from every side at once. Study and the support of a mentor carry you through, and you come out of it steadier than you went in."
   },
   {
    "key": "ENERGY order · decade.release.early.a",

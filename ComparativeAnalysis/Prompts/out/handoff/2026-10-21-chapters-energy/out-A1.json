@@ -3,7 +3,7 @@
   {
    "key": "ENERGY body · chapter.year.grow.lived",
    "kind": "chapter_energy",
-   "text": "Your Early Chapter carried {el}, your own energy, when your chart was thin on it. From birth to fifteen brothers, sisters and children your age gave you someone to keep up with. You came out of that first home steadier on your own feet than you began."
+   "text": "Your Early Chapter carried {el}, your own energy, when your chart was thin on it. From birth to fifteen, siblings and children your age gave you someone to keep up with. You came out of that first home steadier on your own feet than you began."
   },
   {
    "key": "ENERGY body · chapter.year.release.lived",
@@ -13,7 +13,7 @@
   {
    "key": "ENERGY body · chapter.month.grow.now",
    "kind": "chapter_energy",
-   "text": "Your Rising Chapter carries {el}, your own energy, at a time your chart is low on it. Since your late teens friends and peers have stood beside you, and every rival has made you stronger rather than smaller. You hold your ground now in places that once overwhelmed you."
+   "text": "Your Rising Chapter carries {el}, your own energy, at a time your chart is low on it. Since your late teens, friends and peers have stood beside you, and every rival has made you stronger rather than smaller. You hold your ground now in places that once overwhelmed you."
   },
   {
    "key": "ENERGY body · chapter.month.grow.lived",
@@ -23,7 +23,7 @@
   {
    "key": "ENERGY body · chapter.month.release.lived",
    "kind": "chapter_energy",
-   "text": "Your Rising Chapter carried {el}, your own energy again, for a chart already brimming with it. Between your late teens and mid-thirties friends doubled as rivals, and you competed for every piece of work. Hard training gave that force an outlet, and you came out tougher and choosier about your fights."
+   "text": "Your Rising Chapter carried {el}, your own energy, for a chart already brimming with it. Between your late teens and mid-thirties friends doubled as rivals, and you competed for every piece of work. Hard training gave that force an outlet, and you came out tougher and choosier about your fights."
   },
   {
    "key": "ENERGY body · chapter.day.grow.coming",
@@ -43,7 +43,7 @@
   {
    "key": "ENERGY body · chapter.day.release.now",
    "kind": "chapter_energy",
-   "text": "Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties the household has felt like a contest of wills, with a partner as stubborn as you. Interests of your own on each side cool it down, and you are learning that yielding at home costs you nothing."
+   "text": "Your Home Chapter carries {el}, your own energy, in a chart that is already crowded with it. Since your mid-thirties, the household has felt like a contest of wills, with a partner as stubborn as you. Time apart for your own interests cools it down, and you are learning that yielding at home costs you nothing."
   },
   {
    "key": "ENERGY body · chapter.day.grow.lived",
@@ -73,12 +73,12 @@
   {
    "key": "ENERGY body · chapter.hour.release.now",
    "kind": "chapter_energy",
-   "text": "Your Late Chapter carries {el}, your own energy, for a chart that already overflows with it. Since your late forties you have guarded what you built closely, even from the people after you who want a hand in it. Passing the work into younger hands spends that strength well, and you are finding that a lighter grip holds more."
+   "text": "Your Late Chapter carries {el}, your own energy, when your chart already overflows with it. Since your late forties you have guarded what you built closely, even from the people after you who want a hand in it. Passing the work into younger hands spends that strength well, and you are finding that a lighter grip holds more."
   },
   {
    "key": "ENERGY mind · chapter.year.grow.lived",
    "kind": "chapter_energy",
-   "text": "Your Early Chapter carried {el}, the energy of Mind, and your chart drank it in. Up to fifteen there were books and teachers and an older relative who made time to explain things. You came out of school with a habit of asking why that never left you."
+   "text": "Your Early Chapter carried {el}, the energy of Mind, and your chart drank it in. Up to fifteen there were books and teachers and an older relative who made time to explain things. You came out of childhood with a habit of asking why that never left you."
   },
   {
    "key": "ENERGY mind · chapter.year.release.lived",
@@ -88,12 +88,12 @@
   {
    "key": "ENERGY mind · chapter.month.grow.now",
    "kind": "chapter_energy",
-   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart welcomes every bit of it. Since your late teens mentors and courses have found you at the right moments, and study has turned into standing. You learn faster now than you ever did at school."
+   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart welcomes every bit of it. Since your late teens, mentors and courses have found you at the right moments, and study has turned into standing. You learn faster now than you ever did at school."
   },
   {
    "key": "ENERGY mind · chapter.month.release.now",
    "kind": "chapter_energy",
-   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart is already full. Since your late teens you have gathered qualifications and advice faster than chances to use them. A job with something riding on it pulls the thinking into motion, and you are learning to move before you feel ready."
+   "text": "Your Rising Chapter carries {el}, the energy of Mind, and your chart is already full of it. Since your late teens you have gathered qualifications and advice faster than chances to use them. A job with something riding on it pulls the thinking into motion, and you are learning to move before you feel ready."
   },
   {
    "key": "ENERGY mind · chapter.month.grow.lived",
@@ -108,7 +108,7 @@
   {
    "key": "ENERGY mind · chapter.day.grow.coming",
    "kind": "chapter_energy",
-   "text": "Your Home Chapter carries {el}, the energy of Mind, and your chart is ready for it. From your mid-thirties home becomes a place to rest and think, with a partner who cares for you as much as you care for them. You recover there from whatever the rest of life asks."
+   "text": "Your Home Chapter carries {el}, the energy of Mind, and your chart is ready for it. From your mid-thirties, home becomes a place to rest and think, with a partner who cares for you as much as you care for them. You recover there from whatever the rest of life asks."
   },
   {
    "key": "ENERGY mind · chapter.day.release.coming",
@@ -163,7 +163,7 @@
   {
    "key": "ENERGY expression · chapter.year.release.lived",
    "kind": "chapter_energy",
-   "text": "Your Early Chapter carried {el}, the energy of Expression, into a chart that had plenty to say already. As a child you talked back, tested every rule and wanted everything at once. A craft or a stage gave the noise a shape, and you left school knowing where your talent lay."
+   "text": "Your Early Chapter carried {el}, the energy of Expression, into a chart that had plenty to say already. As a child you talked back, tested every rule and wanted everything at once. A craft or a stage gave the noise a shape, and you left childhood knowing where your talent lay."
   },
   {
    "key": "ENERGY expression · chapter.month.grow.now",
@@ -198,12 +198,12 @@
   {
    "key": "ENERGY expression · chapter.day.grow.now",
    "kind": "chapter_energy",
-   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart is warmed by it. Since your mid-thirties home has been full of cooking, laughter and things you made with a partner. You enjoy yourself more in these years than you let yourself before."
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart is warmed by it. Since your mid-thirties, home has been full of cooking, laughter and things you made with a partner. You enjoy yourself more in these years than you let yourself before."
   },
   {
    "key": "ENERGY expression · chapter.day.release.now",
    "kind": "chapter_energy",
-   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties appetite and opinion have filled the house, and a partner has borne the brunt of your restlessness. Making something with your hands each week settles it, and you are learning to let a partner have the last word."
+   "text": "Your Home Chapter carries {el}, the energy of Expression, and your chart cannot use all of it. Since your mid-thirties, appetite and opinion have filled the house, and a partner has borne the brunt of your restlessness. Making something with your hands each week settles it, and you are learning to let them have the last word."
   },
   {
    "key": "ENERGY expression · chapter.day.grow.lived",
@@ -223,7 +223,7 @@
   {
    "key": "ENERGY expression · chapter.hour.release.coming",
    "kind": "chapter_energy",
-   "text": "Your Late Chapter carries {el}, the energy of Expression, and your chart already overflows. From your late forties you hold opinions on how the people after you live, and you voice them freely. A piece of work that is yours alone absorbs that energy, and you find the people after you listen better when you say less."
+   "text": "Your Late Chapter carries {el}, the energy of Expression, and your chart already overflows. From your late forties you hold opinions on how the people after you live, and you voice them freely. A piece of work that is yours alone absorbs that energy, and you find they listen better when you say less."
   },
   {
    "key": "ENERGY expression · chapter.hour.grow.now",

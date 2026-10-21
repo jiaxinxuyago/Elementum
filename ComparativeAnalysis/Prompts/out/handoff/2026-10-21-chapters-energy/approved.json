@@ -88,12 +88,12 @@
   {
    "key": "ENERGY action · chapter_manual.grow",
    "kind": "manual",
-   "text": "This chapter rewards reaching. It pays you back for every offer you take up and put to use straight away."
+   "text": "This chapter rewards reaching. You are paid back for every offer you take up and put to use straight away."
   },
   {
    "key": "ENERGY order · decade.grow.coming.a",
    "kind": "decade_energy",
-   "text": "This decade brings more {el}, and with it pressure you can use, a hard deadline or a role with stakes. You rise further under it than in any easy stretch."
+   "text": "This decade brings {el}, and with it pressure you can use, a hard deadline or a role with stakes. You rise further under it than in any easy stretch."
   },
   {
    "key": "ENERGY action · chapter.hour.grow.coming",
@@ -138,7 +138,7 @@
   {
    "key": "ENERGY order · chapter.day.release.now",
    "kind": "chapter_energy",
-   "text": "Your Home Chapter carries {el}, the energy of Order, and your chart already has more than it can carry. Since your mid-thirties home has come with rules and duties, a partner with firm views and a household that runs on schedule. You bend more than you would choose, and you grow harder to break."
+   "text": "Your Home Chapter carries {el}, the energy of Order, and your chart already has more than it can carry. Since your mid-thirties, home has come with rules and duties, a partner with firm views and a household that runs on schedule. You bend more than you would choose, and you grow harder to break."
   },
   {
    "key": "ENERGY order · chapter_domain.Love.release",
@@ -158,7 +158,7 @@
   {
    "key": "ENERGY order · chapter_manual.release",
    "kind": "manual",
-   "text": "This chapter bears down on you from outside. You carry it best with something that answers back, study or support or a quiet place of your own."
+   "text": "This chapter bears down on you from outside. You carry it best with something that eases it, study or support or a quiet place of your own."
   },
   {
    "key": "ENERGY action · decade.release.now",

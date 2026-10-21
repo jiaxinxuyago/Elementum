@@ -8,7 +8,7 @@
   {
    "key": "ENERGY body · year.core_over",
    "kind": "year_energy",
-   "text": "{el} brings Body for a whole year, the force your chart already runs over with. Competition with peers runs hot, and you come through it by sharing the load with a team that pushes back."
+   "text": "{el} brings Body for a whole year, the force your chart already runs over with. Competition with peers runs hot, and you come through it by sharing the load with a team that challenges you."
   },
   {
    "key": "ENERGY mind · year.need",
@@ -33,7 +33,7 @@
   {
    "key": "ENERGY expression · year.grow",
    "kind": "year_energy",
-   "text": "{el} brings Expression for a whole year, the outlet your chart holds and still enjoys. What you make and say lands well, and you take real pleasure in your own talent."
+   "text": "{el} brings Expression for a whole year, the outlet your chart already has and still enjoys. What you make and say lands well, and you take real pleasure in your own talent."
   },
   {
    "key": "ENERGY expression · year.heavy",
@@ -48,7 +48,7 @@
   {
    "key": "ENERGY action · year.grow",
    "kind": "year_energy",
-   "text": "{el} brings Action for a whole year, the reach your chart holds and still wants. Effort pays back promptly and practical plans move, and you finish the year with more to show for your work."
+   "text": "{el} brings Action for a whole year, the reach your chart already has and still wants. Effort pays back promptly and practical plans move, and you finish the year with more to show for your work."
   },
   {
    "key": "ENERGY action · year.heavy",
@@ -78,7 +78,7 @@
   {
    "key": "TEMPLATED tpl_almanac · land.year.clash.year",
    "kind": "land",
-   "text": "Something shifts in the family you came from this year, a parent changes address or an older relative changes course, and you adjust quickly."
+   "text": "Something shifts in the family you came from this year, an older relative moves house or changes course, and you adjust quickly."
   },
   {
    "key": "TEMPLATED tpl_almanac · land.year.punish.year",
