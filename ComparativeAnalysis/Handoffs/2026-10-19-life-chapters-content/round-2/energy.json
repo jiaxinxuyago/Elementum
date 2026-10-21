@@ -1,0 +1,2151 @@
+{
+ "golden": {
+  "age": 31,
+  "dm": "庚",
+  "dmEl": "Metal",
+  "condition": "Overfueled",
+  "sign": {
+   "Earth": -1,
+   "Wood": 1,
+   "Metal": -1,
+   "Water": 1,
+   "Fire": 1
+  },
+  "presence": {
+   "Earth": 33,
+   "Wood": 33,
+   "Metal": 23,
+   "Water": 6,
+   "Fire": 5
+  },
+  "fn": {
+   "Earth": "Mind",
+   "Wood": "Action",
+   "Metal": "Body",
+   "Water": "Expression",
+   "Fire": "Order"
+  },
+  "chapters": [
+   {
+    "g": "year",
+    "name": "Early Chapter",
+    "tense": "lived",
+    "closed": false,
+    "pillar": "乙亥",
+    "el": "Wood",
+    "fn": "Action",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Water",
+     "fn": "Expression",
+     "dir": "grow",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": 1,
+     "step": 4
+    },
+    "domains": [
+     [
+      "Family",
+      4
+     ],
+     [
+      "Career",
+      3
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Health",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "month",
+    "name": "Rising Chapter",
+    "tense": "now",
+    "closed": false,
+    "pillar": "庚辰",
+    "el": "Metal",
+    "fn": "Body",
+    "dir": "release",
+    "state": "core_over",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "release",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": -0.6,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "day",
+    "name": "Home Chapter",
+    "tense": "coming",
+    "closed": false,
+    "pillar": "庚寅",
+    "el": "Wood",
+    "fn": "Action",
+    "dir": "grow",
+    "state": "grow",
+    "ground": null,
+    "lift": {
+     "value": 0.9,
+     "step": 4
+    },
+    "domains": [
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Love",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "hour",
+    "name": "Late Chapter",
+    "tense": "coming",
+    "closed": false,
+    "pillar": "乙酉",
+    "el": "Wood",
+    "fn": "Action",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Metal",
+     "fn": "Body",
+     "dir": "release",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Wealth",
+      3
+     ],
+     [
+      "Family",
+      3
+     ],
+     [
+      "Social",
+      1
+     ]
+    ]
+   }
+  ],
+  "decades": [
+   {
+    "start": 2003,
+    "end": 2012,
+    "age": 8,
+    "pillar": "己卯",
+    "tense": "lived",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Wood",
+     "fn": "Action",
+     "dir": "grow",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Wealth",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2013,
+    "end": 2022,
+    "age": 18,
+    "pillar": "戊寅",
+    "tense": "lived",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Wood",
+     "fn": "Action",
+     "dir": "grow",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": -0.1,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Career",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2023,
+    "end": 2032,
+    "age": 28,
+    "pillar": "丁丑",
+    "tense": "now",
+    "el": "Fire",
+    "fn": "Order",
+    "dir": "grow",
+    "state": "need",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 0.3,
+     "step": 3
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Health",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2033,
+    "end": 2042,
+    "age": 38,
+    "pillar": "丙子",
+    "tense": "coming",
+    "el": "Fire",
+    "fn": "Order",
+    "dir": "grow",
+    "state": "need",
+    "ground": {
+     "el": "Water",
+     "fn": "Expression",
+     "dir": "grow",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": 1,
+     "step": 4
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Social",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2043,
+    "end": 2052,
+    "age": 48,
+    "pillar": "乙亥",
+    "tense": "coming",
+    "el": "Wood",
+    "fn": "Action",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Water",
+     "fn": "Expression",
+     "dir": "grow",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": 1,
+     "step": 4
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Family",
+      3
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Health",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2053,
+    "end": 2062,
+    "age": 58,
+    "pillar": "甲戌",
+    "tense": "coming",
+    "el": "Wood",
+    "fn": "Action",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "release",
+     "rel": "presses"
+    },
+    "lift": {
+     "value": 0.1,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ],
+     [
+      "Growth",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2063,
+    "end": 2072,
+    "age": 68,
+    "pillar": "癸酉",
+    "tense": "coming",
+    "el": "Water",
+    "fn": "Expression",
+    "dir": "grow",
+    "state": "need",
+    "ground": {
+     "el": "Metal",
+     "fn": "Body",
+     "dir": "release",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Social",
+      3
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ]
+    ]
+   }
+  ],
+  "years": [
+   {
+    "year": 2026,
+    "pillar": "丙午",
+    "el": "Fire",
+    "fn": "Order",
+    "dir": "grow",
+    "state": "need",
+    "ground": {
+     "el": "Fire",
+     "fn": "Order",
+     "dir": "grow",
+     "rel": "matches"
+    },
+    "lift": {
+     "value": 0.7,
+     "step": 3
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ],
+    "bonds": "半合@day/year 2026"
+   },
+   {
+    "year": 2027,
+    "pillar": "丁未",
+    "el": "Fire",
+    "fn": "Order",
+    "dir": "grow",
+    "state": "need",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 0.4,
+     "step": 3
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Health",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ],
+    "bonds": ""
+   },
+   {
+    "year": 2028,
+    "pillar": "戊申",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Metal",
+     "fn": "Body",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -0.7,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ],
+    "bonds": "六害@year/year 2028 六冲@day/year 2028 刑@day/year 2028"
+   },
+   {
+    "year": 2029,
+    "pillar": "己酉",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Metal",
+     "fn": "Body",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Family",
+      2
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ],
+    "bonds": "六合@month/year 2029 自刑@hour/year 2029"
+   },
+   {
+    "year": 2030,
+    "pillar": "庚戌",
+    "el": "Metal",
+    "fn": "Body",
+    "dir": "release",
+    "state": "core_over",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "release",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": -0.9,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ],
+    "bonds": "六冲@month/year 2030 六害@hour/year 2030"
+   },
+   {
+    "year": 2031,
+    "pillar": "辛亥",
+    "el": "Metal",
+    "fn": "Body",
+    "dir": "release",
+    "state": "core_over",
+    "ground": {
+     "el": "Water",
+     "fn": "Expression",
+     "dir": "grow",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Health",
+      1
+     ]
+    ],
+    "bonds": "自刑@year/year 2031 六合@day/year 2031"
+   }
+  ]
+ },
+ "B": {
+  "age": 36,
+  "dm": "乙",
+  "dmEl": "Wood",
+  "condition": "Underfueled",
+  "sign": {
+   "Metal": -1,
+   "Wood": 1,
+   "Earth": -1,
+   "Fire": -1,
+   "Water": 1
+  },
+  "presence": {
+   "Metal": 76,
+   "Wood": 12,
+   "Earth": 10,
+   "Fire": 2,
+   "Water": 0
+  },
+  "fn": {
+   "Metal": "Order",
+   "Wood": "Body",
+   "Earth": "Action",
+   "Fire": "Expression",
+   "Water": "Mind"
+  },
+  "chapters": [
+   {
+    "g": "year",
+    "name": "Early Chapter",
+    "tense": "lived",
+    "closed": false,
+    "pillar": "庚午",
+    "el": "Metal",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Fire",
+     "fn": "Expression",
+     "dir": "release",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Family",
+      4
+     ],
+     [
+      "Career",
+      3
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Health",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "month",
+    "name": "Rising Chapter",
+    "tense": "lived",
+    "closed": false,
+    "pillar": "乙酉",
+    "el": "Wood",
+    "fn": "Body",
+    "dir": "grow",
+    "state": "core_under",
+    "ground": {
+     "el": "Metal",
+     "fn": "Order",
+     "dir": "release",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Health",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "day",
+    "name": "Home Chapter",
+    "tense": "now",
+    "closed": false,
+    "pillar": "乙酉",
+    "el": "Metal",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": null,
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Career",
+      2
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Love",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "hour",
+    "name": "Late Chapter",
+    "tense": "coming",
+    "closed": false,
+    "pillar": "己卯",
+    "el": "Earth",
+    "fn": "Action",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Wood",
+     "fn": "Body",
+     "dir": "grow",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Family",
+      4
+     ],
+     [
+      "Social",
+      3
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Growth",
+      1
+     ]
+    ]
+   }
+  ],
+  "decades": [
+   {
+    "start": 1997,
+    "end": 2006,
+    "age": 7,
+    "pillar": "丙戌",
+    "tense": "lived",
+    "el": "Fire",
+    "fn": "Expression",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Earth",
+     "fn": "Action",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Family",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2007,
+    "end": 2016,
+    "age": 17,
+    "pillar": "丁亥",
+    "tense": "lived",
+    "el": "Fire",
+    "fn": "Expression",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Water",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Health",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2017,
+    "end": 2026,
+    "age": 27,
+    "pillar": "戊子",
+    "tense": "now",
+    "el": "Earth",
+    "fn": "Action",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Water",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "presses"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Mind",
+      1
+     ],
+     [
+      "Growth",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2027,
+    "end": 2036,
+    "age": 37,
+    "pillar": "己丑",
+    "tense": "coming",
+    "el": "Earth",
+    "fn": "Action",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Earth",
+     "fn": "Action",
+     "dir": "release",
+     "rel": "matches"
+    },
+    "lift": {
+     "value": -0.7,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Wealth",
+      3
+     ],
+     [
+      "Family",
+      3
+     ],
+     [
+      "Social",
+      3
+     ]
+    ]
+   },
+   {
+    "start": 2037,
+    "end": 2046,
+    "age": 47,
+    "pillar": "庚寅",
+    "tense": "coming",
+    "el": "Metal",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Wood",
+     "fn": "Body",
+     "dir": "grow",
+     "rel": "presses"
+    },
+    "lift": {
+     "value": -0.4,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Social",
+      3
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2047,
+    "end": 2056,
+    "age": 57,
+    "pillar": "辛卯",
+    "tense": "coming",
+    "el": "Metal",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Wood",
+     "fn": "Body",
+     "dir": "grow",
+     "rel": "presses"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2057,
+    "end": 2066,
+    "age": 67,
+    "pillar": "壬辰",
+    "tense": "coming",
+    "el": "Water",
+    "fn": "Mind",
+    "dir": "grow",
+    "state": "need",
+    "ground": {
+     "el": "Earth",
+     "fn": "Action",
+     "dir": "release",
+     "rel": "resists"
+    },
+    "lift": {
+     "value": 0.4,
+     "step": 3
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Wealth",
+      1
+     ]
+    ]
+   }
+  ],
+  "years": [
+   {
+    "year": 2026,
+    "pillar": "丙午",
+    "el": "Fire",
+    "fn": "Expression",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Fire",
+     "fn": "Expression",
+     "dir": "release",
+     "rel": "matches"
+    },
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Health",
+      1
+     ]
+    ],
+    "bonds": "自刑@year/year 2026"
+   },
+   {
+    "year": 2027,
+    "pillar": "丁未",
+    "el": "Fire",
+    "fn": "Expression",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Earth",
+     "fn": "Action",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -0.9,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ],
+    "bonds": "六合@year/year 2027 半合@hour/year 2027"
+   },
+   {
+    "year": 2028,
+    "pillar": "戊申",
+    "el": "Earth",
+    "fn": "Action",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Metal",
+     "fn": "Order",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -0.7,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Family",
+      3
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Social",
+      1
+     ]
+    ],
+    "bonds": ""
+   },
+   {
+    "year": 2029,
+    "pillar": "己酉",
+    "el": "Earth",
+    "fn": "Action",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Metal",
+     "fn": "Order",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Health",
+      1
+     ],
+     [
+      "Growth",
+      1
+     ]
+    ],
+    "bonds": "自刑@month/year 2029 自刑@day/year 2029 六冲@hour/year 2029"
+   },
+   {
+    "year": 2030,
+    "pillar": "庚戌",
+    "el": "Metal",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Earth",
+     "fn": "Action",
+     "dir": "release",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Family",
+      3
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ]
+    ],
+    "bonds": "六害@month/year 2030 六害@day/year 2030 六合@hour/year 2030 半合@year/year 2030"
+   },
+   {
+    "year": 2031,
+    "pillar": "辛亥",
+    "el": "Metal",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Water",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Health",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ],
+    "bonds": "半合@hour/year 2031"
+   }
+  ]
+ },
+ "C": {
+  "age": 34,
+  "dm": "辛",
+  "dmEl": "Metal",
+  "condition": "Underfueled",
+  "sign": {
+   "Fire": -1,
+   "Earth": 1,
+   "Wood": -1,
+   "Metal": 1,
+   "Water": -1
+  },
+  "presence": {
+   "Fire": 38,
+   "Earth": 21,
+   "Wood": 20,
+   "Metal": 11,
+   "Water": 10
+  },
+  "fn": {
+   "Fire": "Order",
+   "Earth": "Mind",
+   "Wood": "Action",
+   "Metal": "Body",
+   "Water": "Expression"
+  },
+  "chapters": [
+   {
+    "g": "year",
+    "name": "Early Chapter",
+    "tense": "lived",
+    "closed": false,
+    "pillar": "壬申",
+    "el": "Water",
+    "fn": "Expression",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Metal",
+     "fn": "Body",
+     "dir": "grow",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": -0.3,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Social",
+      3
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Family",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "month",
+    "name": "Rising Chapter",
+    "tense": "now",
+    "closed": false,
+    "pillar": "乙巳",
+    "el": "Wood",
+    "fn": "Action",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Fire",
+     "fn": "Order",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -0.6,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Social",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Wealth",
+      2
+     ]
+    ]
+   },
+   {
+    "g": "day",
+    "name": "Home Chapter",
+    "tense": "coming",
+    "closed": false,
+    "pillar": "辛丑",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "grow",
+    "state": "grow",
+    "ground": null,
+    "lift": {
+     "value": 0.7,
+     "step": 3
+    },
+    "domains": [
+     [
+      "Career",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Love",
+      1
+     ]
+    ]
+   },
+   {
+    "g": "hour",
+    "name": "Late Chapter",
+    "tense": "coming",
+    "closed": true,
+    "pillar": "甲午"
+   }
+  ],
+  "decades": [
+   {
+    "start": 1998,
+    "end": 2007,
+    "age": 6,
+    "pillar": "甲辰",
+    "tense": "lived",
+    "el": "Wood",
+    "fn": "Action",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "presses"
+    },
+    "lift": {
+     "value": -0.4,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Health",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2008,
+    "end": 2017,
+    "age": 16,
+    "pillar": "癸卯",
+    "tense": "lived",
+    "el": "Water",
+    "fn": "Expression",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Wood",
+     "fn": "Action",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -1,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2018,
+    "end": 2027,
+    "age": 26,
+    "pillar": "壬寅",
+    "tense": "now",
+    "el": "Water",
+    "fn": "Expression",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Wood",
+     "fn": "Action",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -0.9,
+     "step": 0
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Family",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2028,
+    "end": 2037,
+    "age": 36,
+    "pillar": "辛丑",
+    "tense": "coming",
+    "el": "Metal",
+    "fn": "Body",
+    "dir": "grow",
+    "state": "core_under",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": 0.7,
+     "step": 3
+    },
+    "domains": [
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2038,
+    "end": 2047,
+    "age": 46,
+    "pillar": "庚子",
+    "tense": "coming",
+    "el": "Metal",
+    "fn": "Body",
+    "dir": "grow",
+    "state": "core_under",
+    "ground": {
+     "el": "Water",
+     "fn": "Expression",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Health",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2048,
+    "end": 2057,
+    "age": 56,
+    "pillar": "己亥",
+    "tense": "coming",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Water",
+     "fn": "Expression",
+     "dir": "release",
+     "rel": "presses"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Mind",
+      3
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Social",
+      1
+     ]
+    ]
+   },
+   {
+    "start": 2058,
+    "end": 2067,
+    "age": 66,
+    "pillar": "戊戌",
+    "tense": "coming",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "matches"
+    },
+    "lift": {
+     "value": 0.9,
+     "step": 4
+    },
+    "domains": [
+     [
+      "Family",
+      3
+     ],
+     [
+      "Health",
+      3
+     ],
+     [
+      "Mind",
+      3
+     ]
+    ]
+   }
+  ],
+  "years": [
+   {
+    "year": 2026,
+    "pillar": "丙午",
+    "el": "Fire",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Fire",
+     "fn": "Order",
+     "dir": "release",
+     "rel": "matches"
+    },
+    "lift": {
+     "value": -0.7,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Health",
+      1
+     ],
+     [
+      "Growth",
+      1
+     ]
+    ],
+    "bonds": "六害@day/year 2026"
+   },
+   {
+    "year": 2027,
+    "pillar": "丁未",
+    "el": "Fire",
+    "fn": "Order",
+    "dir": "release",
+    "state": "heavy",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": -0.4,
+     "step": 1
+    },
+    "domains": [
+     [
+      "Career",
+      3
+     ],
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ],
+    "bonds": "六冲@day/year 2027 刑@day/year 2027"
+   },
+   {
+    "year": 2028,
+    "pillar": "戊申",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Metal",
+     "fn": "Body",
+     "dir": "grow",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 0.7,
+     "step": 3
+    },
+    "domains": [
+     [
+      "Family",
+      2
+     ],
+     [
+      "Health",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Wealth",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ],
+    "bonds": "六合@month/year 2028 刑@month/year 2028"
+   },
+   {
+    "year": 2029,
+    "pillar": "己酉",
+    "el": "Earth",
+    "fn": "Mind",
+    "dir": "grow",
+    "state": "grow",
+    "ground": {
+     "el": "Metal",
+     "fn": "Body",
+     "dir": "grow",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 1,
+     "step": 4
+    },
+    "domains": [
+     [
+      "Growth",
+      3
+     ],
+     [
+      "Career",
+      2
+     ],
+     [
+      "Mind",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Social",
+      1
+     ]
+    ],
+    "bonds": "三合@month/day/year 2029"
+   },
+   {
+    "year": 2030,
+    "pillar": "庚戌",
+    "el": "Metal",
+    "fn": "Body",
+    "dir": "grow",
+    "state": "core_under",
+    "ground": {
+     "el": "Earth",
+     "fn": "Mind",
+     "dir": "grow",
+     "rel": "feeds"
+    },
+    "lift": {
+     "value": 0.9,
+     "step": 4
+    },
+    "domains": [
+     [
+      "Career",
+      2
+     ],
+     [
+      "Wealth",
+      2
+     ],
+     [
+      "Social",
+      2
+     ],
+     [
+      "Family",
+      1
+     ],
+     [
+      "Health",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ],
+    "bonds": "刑@day/year 2030"
+   },
+   {
+    "year": 2031,
+    "pillar": "辛亥",
+    "el": "Metal",
+    "fn": "Body",
+    "dir": "grow",
+    "state": "core_under",
+    "ground": {
+     "el": "Water",
+     "fn": "Expression",
+     "dir": "release",
+     "rel": "drains"
+    },
+    "lift": {
+     "value": 0,
+     "step": 2
+    },
+    "domains": [
+     [
+      "Social",
+      3
+     ],
+     [
+      "Family",
+      2
+     ],
+     [
+      "Growth",
+      2
+     ],
+     [
+      "Career",
+      1
+     ],
+     [
+      "Mind",
+      1
+     ]
+    ],
+    "bonds": "六害@year/year 2031 六冲@month/year 2031"
+   }
+  ]
+ }
+}
