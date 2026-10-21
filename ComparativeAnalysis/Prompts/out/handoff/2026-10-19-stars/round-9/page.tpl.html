@@ -49,6 +49,7 @@ td .zh{color:var(--muted)}
 .ba{border-left:2px solid var(--paperHair);padding-left:9px;margin:4px 0}
 .bl{display:block;font-family:var(--f-mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--inkLight)}
 .bl.rec{color:var(--rec);margin-top:4px}
+.small2{font-size:12.5px;margin:-2px 0 8px}
 .was{color:var(--inkLight);text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:var(--paperHair);margin:0}
 .mono{font-family:var(--f-mono);font-size:11px;letter-spacing:.04em}
 .dr{font-family:var(--f-mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--seal);text-decoration:none;display:inline-block;margin-left:4px}
@@ -81,11 +82,14 @@ button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
 <p class="eyebrow">Elementum · Stars 神煞 · round 9</p>
 <h1>Names, framing and samples for the Stars</h1>
 <p class="lede">The Stars page is built on the dev site and runs on draft lines for most stars. Before the corpus is written, three things need your rulings: the English names, how each hard star is framed, and ten questions about the page. The three charts below show every card as the app prints it today, struck through, with the after text under it. Every after text passes the depth gate.</p>
-<div class="toc"><a href="#names">Names</a><a href="#framing">Hard stars</a><a href="#golden">Golden chart</a><a href="#chartb">Chart B</a><a href="#chartc">Chart C</a><a href="#questions">Page questions</a><a href="#plan">Writing plan</a></div>
-<div class="note rec"><b>Version 3 · the stars as characters.</b> You asked for the stars as people from the old stories, named as simply as the ten characters. Section 1 gives each one who they are in Chinese myth, my pick, one other figure, and the version 2 name. The cards on the three charts already use the recommended names. My recommendation is A on every row. S5 is the one row that changes the calculator, and N13 would replace the D6 ruling (the Ram’s Edge).</div>
+<div class="toc"><a href="#first">Rule first</a><a href="#names">Names</a><a href="#framing">Hard stars</a><a href="#golden">Golden chart</a><a href="#chartb">Chart B</a><a href="#chartc">Chart C</a><a href="#questions">Page questions</a><a href="#plan">Writing plan</a></div>
+<div class="note rec"><b>Version 4 · rule these four first.</b> The Stars section is live on elementum.life, and 61% of its lines are still placeholders. The full set gets written once N0, G0, C0 and N13 are ruled, because the names and the “guest” wording run through every text. Then the name rows, the hard-star rows and the page rows. The cards on the three charts already show the version 4 names and wording. My recommendation is A on every row. S5 is the one row that changes the calculator.</div>
+<h2 id="first">0 · Rule these first</h2>
+<p>Characters and stars need to read as two different casts. Three markers do it together: the shape of the name (N0), what the sentence lets each one do (G0), and how each one looks on screen (C0).</p>
+{{FIRST}}
 
 <h2 id="names">1 · The names</h2>
-<p>The ten characters are roles: the Twin, the Rival, the Artisan, the Virtuoso, the Horizon, the Steward, the General, the Magistrate, the Alchemist, the Sage. The stars join them as a second cast: simple roles a reader knows on sight, each taken from the god, bird, horse or figure the star is in the old stories. Help stars are people who come to your aid. Test stars are people who make life harder and teach you something. None is gendered, none repeats a character or a Day Master (the Blade, the Oak…), and the 汉字 stays on every card (D5).</p>
+<p>Every star is a person from the old stories, in two words: an image that carries the meaning, then the person. The ten characters stay one word. No name repeats a character or a Day Master (the Blade, the Oak…), none is gendered, and the 汉字 stays on every card (D5). Each row gives who the star is in Chinese myth, the version 4 name, the version 3 one-word name, and the version 2 name.</p>
 {{NAMES}}
 
 <h2 id="framing">2 · How a hard star is said</h2>
@@ -94,15 +98,15 @@ button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
 {{FRAME_Q}}
 
 <h2 id="golden">3 · The golden chart</h2>
-<p>乙亥 庚辰 庚寅 乙酉, age 31, Seeker and Advisor. Almost every unit here is already written and gated. Two things change: the Bandit’s chip line becomes tense-free (S7), and two year stars get real text. The other draft year lines are written with the batch.</p>
+<p>乙亥 庚辰 庚寅 乙酉, age 31, Seeker and Advisor. Almost every unit here is already written and gated. Two things change: the Road Bandit’s chip line becomes tense-free (S7), and two year stars get real text. The other draft year lines are written with the batch.</p>
 {{GOLDEN}}
 
 <h2 id="chartb">4 · Chart B</h2>
-<p>庚午 乙酉 乙酉 己卯, age 36, in the Home Chapter. Eight stars, most of them drafts today. The Matchmaker and the Charmer each sit in two gates (S3). The Charmer sits on the Void in the Year Gate (S4).</p>
+<p>庚午 乙酉 乙酉 己卯, age 36, in the Home Chapter. Eight stars, most of them drafts today. The Red Matchmaker and the Blossom Charmer each visit two gates (S3). The Blossom Charmer sits on the Empty Seat in the Year Gate (S4).</p>
 {{B}}
 
 <h2 id="chartc">5 · Chart C</h2>
-<p>壬申 乙巳 辛丑, birth hour unknown, age 34, in the Rising Chapter. The Bandit sits on the Void in the Month Gate (S4). The card outlined in green appears only if you rule S5 A.</p>
+<p>壬申 乙巳 辛丑, birth hour unknown, age 34, in the Rising Chapter. The Road Bandit sits on the Empty Seat in the Month Gate (S4). The card outlined in green appears only if you rule S5 A.</p>
 {{C}}
 
 <h2 id="questions">6 · The page</h2>
@@ -118,7 +122,7 @@ button:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
 <tr><td>Void note (S4)</td><td class="key">TEMPLATED tpl_depth · star_void.help|test</td><td class="num">2</td><td class="num">0</td><td class="num">5–14</td><td>Seeker</td></tr>
 <tr><td><b>Total</b></td><td></td><td class="num"><b>265</b></td><td class="num"><b>19</b></td><td></td><td></td></tr>
 </tbody></table></div>
-<p class="lede">The Champion never arrives (it is the day pillar itself), so 18 stars arrive, not 19. The reading count follows the gates each star can sit in: a star never lights its own base (W13), and a gate is written in every tense a reader can be in (S8). After the rulings, sealed writers write the batch against an extended gate. It lands in a new STAR station axis with its own content module, and then goes through the audit and the dev site. Going live stays your call.</p>
+<p class="lede">The Thunder Champion never arrives (it is the day pillar itself), so 18 stars arrive, not 19. The reading count follows the gates each star can sit in: a star never lights its own base (W13), and a gate is written in every tense a reader can be in (S8). After the rulings, sealed writers write the batch against an extended gate. It lands in a new STAR station axis with its own content module, and then goes through the audit and the dev site. Going live stays your call.</p>
 </div>
 <div class="bar"><output id="out">Pick an option on each row. Your codes collect here.</output><button id="copy" type="button">Copy answers</button><button id="allA" type="button" class="ghost">Fill unanswered with A</button></div>
 <script>
